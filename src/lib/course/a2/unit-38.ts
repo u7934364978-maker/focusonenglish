@@ -89,7 +89,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[wheel|wheel]] ([[be|ser/estar]]) _______ [[a|un/una]] [[very|muy]] [[old|viejo/antiguo]] [[invention|invention]].",
+          "question": "[[The wheel old invention|El/la/los/las wheel]] ([[be very|ser/estar]]) _______ [[a|un/una muy viejo/antiguo invention]].",
           "options": [
             "[[to|a/para]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Penicillin|Penicillin]] ([[be|ser/estar]]) _______ [[discovered|discovered]] [[by|por]] [[Alexander|Alexander]] [[Fleming|Fleming]].",
+          "question": "[[Penicillin by Alexander Fleming|Penicillin]] ([[be|ser/estar]]) _______ [[discovered|discovered por Alexander Fleming]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -141,7 +141,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Scientists|Scientists]] ([[work|trabajo/trabajar]]) _______ [[on|en/sobre]] [[a|un/una]] [[new|nuevo]] [[cure|cure]].",
+          "question": "[[Scientists a new cure|Scientists]] ([[work|trabajo/trabajar]]) _______ [[on|en/sobre un/una nuevo cure]].",
           "options": [
             "[[are working|are working]]",
             "[[to|a/para]]",
@@ -167,7 +167,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Who|Quién/que]] ([[invent|invent]]) _______ [[the|el/la/los/las]] [[telephone|telephone]]?",
+          "question": "[[Who telephone|Quién/que]] ([[invent|invent]]) _______ [[the|el/la/los/las telephone]]?",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -193,7 +193,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[make|hacer]]) _______ [[an|un/una]] [[important|important]] [[discovery|discovery]].",
+          "question": "[[They important discovery|Ellos]] ([[make|hacer]]) _______ [[an|un/una important discovery]].",
           "options": [
             "[[made|made]]",
             "[[to|a/para]]",
@@ -219,7 +219,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[internet|internet]] ([[change|change]]) _______ [[the|el/la/los/las]] [[world|mundo]].",
+          "question": "[[The internet|El/la/los/las internet]] ([[change world|change]]) _______ [[the|el/la/los/las mundo]].",
           "options": [
             "[[has changed|has changed]]",
             "[[to|a/para]]",
@@ -245,7 +245,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[not/have|not/have]]) _______ [[electricity|electricity]] [[in|en]] [[the|el/la/los/las]] [[past|past]].",
+          "question": "[[We in the past|Nosotros]] ([[not/have|not/have]]) _______ [[electricity|electricity en el/la/los/las past]].",
           "options": [
             "[[didn't have|didn't have]]",
             "[[to|a/para]]",
@@ -271,7 +271,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Computers|Computers]] ([[be|ser/estar]]) _______ [[getting|getting]] [[smaller|smaller]] [[and|and]] [[faster|faster]].",
+          "question": "[[Computers smaller and faster|Computers]] ([[be|ser/estar]]) _______ [[getting|getting smaller and faster]].",
           "options": [
             "[[to|a/para]]",
             "[[are|son/están]]",
@@ -297,7 +297,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[What|Qué]] ([[be|ser/estar]]) _______ [[the|el/la/los/las]] [[most|most]] [[important|important]] [[invention|invention]]?",
+          "question": "[[What most important invention|Qué]] ([[be|ser/estar]]) _______ [[the|el/la/los/las most important invention]]?",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -323,7 +323,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[light|light]] [[bulb|bulb]] ([[be|ser/estar]]) _______ [[invented|invented]] [[by|por]] [[Edison|Edison]].",
+          "question": "[[The light bulb by|El/la/los/las light bulb]] ([[be Edison|ser/estar]]) _______ [[invented|invented por Edison]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -347,7 +347,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[printing|printing]] [[press|press]] [[was|era/fue/estaba/estuvo]] [[a|un/una]] [[revolutionary|revolutionary]] [[invention|invention]].",
+      "correctSentence": "[[The printing press was a revolutionary invention|El/la/los/las printing press era/fue/estaba/estuvo un/una revolutionary invention]].",
       "words": [
         "[[The|El/la/los/las]]",
         "[[press|press]]",
@@ -372,7 +372,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[discovery|discovery]] [[of|de]] [[fire|fire]] [[changed|changed]] [[human|human]] [[history|history]].",
+      "correctSentence": "[[The discovery of fire changed human history|El/la/los/las discovery de fire changed human history]].",
       "words": [
         "[[changed|changed]]",
         "[[human|human]]",
@@ -397,7 +397,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Who|Quién/que]] [[do|hacer]] [[you|tú/usted]] [[think|pensar/creer]] [[was|era/fue/estaba/estuvo]] [[the|el/la/los/las]] [[greatest|greatest]] [[inventor|inventor]]?",
+      "correctSentence": "[[Who do you think was the greatest inventor|Quién/que hacer tú/usted pensar/creer era/fue/estaba/estuvo el/la/los/las greatest inventor]]?",
       "words": [
         "[[think|pensar/creer]]",
         "[[inventor|inventor]]?",
@@ -423,7 +423,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Scientists|Scientists]] [[are|son/están]] [[constantly|constantly]] [[making|making]] [[new|nuevo]] [[discoveries|discoveries]].",
+      "correctSentence": "[[Scientists are constantly making new discoveries|Scientists son/están constantly making nuevo discoveries]].",
       "words": [
         "[[Scientists|Scientists]]",
         "[[are|son/están]]",
@@ -447,7 +447,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[telephone|telephone]] [[was|era/fue/estaba/estuvo]] [[invented|invented]] [[in|en]] [[the|el/la/los/las]] [[nineteenth|nineteenth]] [[century|century]].",
+      "correctSentence": "[[The telephone was invented in the nineteenth century|El/la/los/las telephone era/fue/estaba/estuvo invented en el/la/los/las nineteenth century]].",
       "words": [
         "[[nineteenth|nineteenth]]",
         "[[The|El/la/los/las]]",
@@ -473,7 +473,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[internet|internet]] [[is|es/está]] [[a|un/una]] [[very|muy]] [[useful|useful]] [[tool|tool]] [[for|para/por]] [[learning|learning]].",
+      "correctSentence": "[[The internet is a very useful tool for learning|El/la/los/las internet es/está un/una muy useful tool para/por learning]].",
       "words": [
         "[[internet|internet]]",
         "[[very|muy]]",
@@ -500,7 +500,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[developed|developed]] [[a|un/una]] [[new|nuevo]] [[way|way]] [[to|a/para]] [[produce|produce]] [[energy|energy]].",
+      "correctSentence": "[[He developed a new way to produce energy|Él developed un/una nuevo way a/para produce energy]].",
       "words": [
         "[[new|nuevo]]",
         "[[produce|produce]]",
@@ -526,7 +526,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[This|Este/esta]] [[device|device]] [[helps|helps]] [[people|gente/personas]] [[to|a/para]] [[communicate|communicate]] [[better|mejor]].",
+      "correctSentence": "[[This device helps people to communicate better|Este/esta device helps gente/personas a/para communicate mejor]].",
       "words": [
         "[[device|device]]",
         "[[helps|helps]]",
@@ -551,7 +551,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Electricity|Electricity]] [[is|es/está]] [[essential|essential]] [[for|para/por]] [[modern|modern]] [[life|vida]].",
+      "correctSentence": "[[Electricity is essential for modern life|Electricity es/está essential para/por modern vida]].",
       "words": [
         "[[essential|essential]]",
         "[[Electricity|Electricity]]",
@@ -575,7 +575,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[wheel|wheel]] [[made|made]] [[transportation|transportation]] [[much|much]] [[easier|easier]].",
+      "correctSentence": "[[The wheel made transportation much easier|El/la/los/las wheel made transportation much easier]].",
       "words": [
         "[[The|El/la/los/las]]",
         "[[transportation|transportation]]",
@@ -599,7 +599,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Vaccines|Vaccines]] [[have|tener/haber]] [[saved|saved]] [[millions|millions]] [[of|de]] [[lives|lives]].",
+      "correctSentence": "[[Vaccines have saved millions of lives|Vaccines tener/haber saved millions de lives]].",
       "words": [
         "[[millions|millions]]",
         "[[lives|lives]].",
@@ -623,7 +623,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[microscope|microscope]] [[allows|allows]] [[us|nos/nosotros]] [[to|a/para]] [[see|ver]] [[tiny|tiny]] [[things|things]].",
+      "correctSentence": "[[The microscope allows us to see tiny things|El/la/los/las microscope allows nos/nosotros a/para ver tiny things]].",
       "words": [
         "[[see|ver]]",
         "[[tiny|tiny]]",
@@ -649,7 +649,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Inventions|Inventions]] [[often|a menudo]] [[solve|solve]] [[difficult|difícil]] [[problems|problems]].",
+      "correctSentence": "[[Inventions often solve difficult problems|Inventions a menudo solve difícil problems]].",
       "words": [
         "[[difficult|difícil]]",
         "[[problems|problems]].",
@@ -672,7 +672,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[is|es/está]] [[a|un/una]] [[very|muy]] [[talented|talented]] [[scientist|scientist]].",
+      "correctSentence": "[[She is a very talented scientist|Ella es/está un/una muy talented scientist]].",
       "words": [
         "[[a|un/una]]",
         "[[She|Ella]]",
@@ -696,7 +696,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[airplane|airplane]] [[was|era/fue/estaba/estuvo]] [[a|un/una]] [[major|major]] [[technological|technological]] [[achievement|achievement]].",
+      "correctSentence": "[[The airplane was a major technological achievement|El/la/los/las airplane era/fue/estaba/estuvo un/una major technological achievement]].",
       "words": [
         "[[technological|technological]]",
         "[[major|major]]",

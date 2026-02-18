@@ -13,7 +13,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tener/haber]] [[a|un/una]] ([[reserva|reserva]]) [[_______|_______]].",
+          "question": "[[I have a|Yo tener/haber un/una]] ([[reserva|reserva]]) [[_______|_______]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -39,7 +39,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] ([[be|ser/estar]]) _______ [[the|el/la/los/las]] [[elevator|elevator]]?",
+          "question": "[[Where elevator|Dónde]] ([[be|ser/estar]]) _______ [[the|el/la/los/las elevator]]?",
           "options": [
             "[[is|es/está]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[My|Mi/mis]] [[room|habitación]] ([[be|ser/estar]]) _______ [[on|en/sobre]] [[the|el/la/los/las]] [[third|third]] [[floor|floor]].",
+          "question": "[[My room third floor|Mi/mis habitación]] ([[be the|ser/estar]]) _______ [[on|en/sobre el/la/los/las third floor]].",
           "options": [
             "[[is|es/está]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Here|Aquí]] ([[be|ser/estar]]) _______ [[your|tu/tus]] [[key|key]].",
+          "question": "[[Here key|Aquí]] ([[be|ser/estar]]) _______ [[your|tu/tus key]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[want|querer]] [[a|un/una]] [[double|double]] [[room|habitación]].",
+      "correctSentence": "[[I want a double room|Yo querer un/una double habitación]].",
       "words": [
         "[[double|double]]",
         "[[a|un/una]]",
@@ -138,7 +138,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[reception|reception]] [[is|es/está]] [[open|open]] [[24|24]] [[hours|hours]].",
+      "correctSentence": "[[The reception is open 24 hours|El/la/los/las reception es/está open 24 hours]].",
       "words": [
         "[[is|es/está]]",
         "[[open|open]]",
@@ -162,7 +162,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Is|Es/está]] [[breakfast|breakfast]] [[included|included]]?",
+      "correctSentence": "[[Is breakfast included|Es/está breakfast included]]?",
       "words": [
         "[[included|included]]?",
         "[[breakfast|breakfast]]",
@@ -183,7 +183,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[room|habitación]] [[is|es/está]] [[very|muy]] [[clean|clean]].",
+      "correctSentence": "[[The room is very clean|El/la/los/las habitación es/está muy clean]].",
       "words": [
         "[[The|El/la/los/las]]",
         "[[clean|clean]].",
@@ -206,7 +206,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[need|necesitar]] [[an|un/una]] [[extra|extra]] [[towel|towel]].",
+      "correctSentence": "[[I need an extra towel|Yo necesitar un/una extra towel]].",
       "words": [
         "[[need|necesitar]]",
         "[[I|Yo]]",

@@ -89,7 +89,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] [[walked|walked]] _______ [[the|el/la/los/las]] [[room|habitación]].",
+          "question": "[[He walked|Él walked]] _______ [[the room|el/la/los/las habitación]].",
           "options": [
             "[[into|into]]",
             "[[to|a/para]]",
@@ -115,7 +115,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[ran|ran]] _______ [[the|el/la/los/las]] [[hill|hill]].",
+          "question": "[[She ran|Ella ran]] _______ [[the hill|el/la/los/las hill]].",
           "options": [
             "[[to|a/para]]",
             "[[up|up]]",
@@ -141,7 +141,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[drove|drove]] _______ [[the|el/la/los/las]] [[tunnel|tunnel]].",
+          "question": "[[They drove|Ellos drove]] _______ [[the tunnel|el/la/los/las tunnel]].",
           "options": [
             "[[through|through]]",
             "[[to|a/para]]",
@@ -167,7 +167,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] [[jumped|jumped]] _______ [[the|el/la/los/las]] [[fence|fence]].",
+          "question": "[[He jumped|Él jumped]] _______ [[the fence|el/la/los/las fence]].",
           "options": [
             "[[to|a/para]]",
             "[[it|eso]]",
@@ -193,7 +193,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[cat|cat]] [[walked|walked]] _______ [[the|el/la/los/las]] [[wall|wall]].",
+          "question": "[[The cat walked wall|El/la/los/las cat walked]] _______ [[the|el/la/los/las wall]].",
           "options": [
             "[[along|along]]",
             "[[to|a/para]]",
@@ -219,7 +219,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[went|went]] _______ [[the|el/la/los/las]] [[stairs|stairs]].",
+          "question": "[[They went|Ellos went]] _______ [[the stairs|el/la/los/las stairs]].",
           "options": [
             "[[down|down]]",
             "[[to|a/para]]",
@@ -245,7 +245,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[flew|flew]] _______ [[the|el/la/los/las]] [[Atlantic|Atlantic]] [[Ocean|Ocean]].",
+          "question": "[[We flew Ocean|Nosotros flew]] _______ [[the Atlantic|el/la/los/las Atlantic Ocean]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -271,7 +271,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[walked|walked]] _______ [[the|el/la/los/las]] [[park|park]] [[every|every]] [[morning|mañana]].",
+          "question": "[[She walked every morning|Ella walked]] _______ [[the park|el/la/los/las park every mañana]].",
           "options": [
             "[[to|a/para]]",
             "[[through|through]]",
@@ -297,7 +297,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[car|coche]] [[drove|drove]] _______ [[the|el/la/los/las]] [[corner|corner]].",
+          "question": "[[The car drove corner|El/la/los/las coche drove]] _______ [[the|el/la/los/las corner]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -323,7 +323,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] [[got|tienes/conseguido]] _______ [[the|el/la/los/las]] [[bus|bus]] [[at|en]] [[the|el/la/los/las]] [[station|station]].",
+          "question": "[[He got at the station|Él tienes/conseguido]] _______ [[the bus|el/la/los/las bus en el/la/los/las station]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -347,7 +347,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[walked|walked]] [[into|into]] [[the|el/la/los/las]] [[office|oficina]] [[and|and]] [[sat|sat]] [[down|down]].",
+      "correctSentence": "[[He walked into the office and sat down|Él walked into el/la/los/las oficina and sat down]].",
       "words": [
         "[[down|down]].",
         "[[He|Él]]",
@@ -373,7 +373,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[ran|ran]] [[up|up]] [[the|el/la/los/las]] [[stairs|stairs]] [[to|a/para]] [[her|su (de ella)]] [[bedroom|bedroom]].",
+      "correctSentence": "[[She ran up the stairs to her bedroom|Ella ran up el/la/los/las stairs a/para su (de ella) bedroom]].",
       "words": [
         "[[stairs|stairs]]",
         "[[bedroom|bedroom]].",
@@ -399,7 +399,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[drove|drove]] [[through|through]] [[the|el/la/los/las]] [[tunnel|tunnel]] [[to|a/para]] [[get|conseguir/obtener]] [[to|a/para]] [[the|el/la/los/las]] [[city|ciudad]].",
+      "correctSentence": "[[They drove through the tunnel to get to the city|Ellos drove through el/la/los/las tunnel a/para conseguir/obtener a/para el/la/los/las ciudad]].",
       "words": [
         "[[They|Ellos]]",
         "[[the|el/la/los/las]]",
@@ -427,7 +427,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[horse|horse]] [[jumped|jumped]] [[over|over]] [[the|el/la/los/las]] [[fence|fence]].",
+      "correctSentence": "[[The horse jumped over the fence|El/la/los/las horse jumped over el/la/los/las fence]].",
       "words": [
         "[[the|el/la/los/las]]",
         "[[over|over]]",
@@ -451,7 +451,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[walked|walked]] [[along|along]] [[the|el/la/los/las]] [[river|river]] [[for|para/por]] [[two|dos]] [[hours|hours]].",
+      "correctSentence": "[[We walked along the river for two hours|Nosotros walked along el/la/los/las river para/por dos hours]].",
       "words": [
         "[[for|para/por]]",
         "[[two|dos]]",
@@ -477,7 +477,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[dog|dog]] [[ran|ran]] [[towards|towards]] [[me|me/mí]].",
+      "correctSentence": "[[The dog ran towards me|El/la/los/las dog ran towards me/mí]].",
       "words": [
         "[[The|El/la/los/las]]",
         "[[dog|dog]]",
@@ -500,7 +500,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[walked|walked]] [[past|past]] [[the|el/la/los/las]] [[shop|tienda]] [[without|without]] [[stopping|stopping]].",
+      "correctSentence": "[[She walked past the shop without stopping|Ella walked past el/la/los/las tienda without stopping]].",
       "words": [
         "[[without|without]]",
         "[[the|el/la/los/las]]",
@@ -525,7 +525,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[children|niños/niñas]] [[went|went]] [[down|down]] [[the|el/la/los/las]] [[slide|slide]].",
+      "correctSentence": "[[The children went down the slide|El/la/los/las niños/niñas went down el/la/los/las slide]].",
       "words": [
         "[[the|el/la/los/las]]",
         "[[down|down]]",
@@ -549,7 +549,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[flew|flew]] [[across|across]] [[the|el/la/los/las]] [[mountains|mountains]] [[in|en]] [[a|un/una]] [[small|pequeño/pequeña]] [[plane|plane]].",
+      "correctSentence": "[[We flew across the mountains in a small plane|Nosotros flew across el/la/los/las mountains en un/una pequeño/pequeña plane]].",
       "words": [
         "[[flew|flew]]",
         "[[in|en]]",
@@ -576,7 +576,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[cat|cat]] [[jumped|jumped]] [[off|off]] [[the|el/la/los/las]] [[table|mesa]].",
+      "correctSentence": "[[The cat jumped off the table|El/la/los/las cat jumped off el/la/los/las mesa]].",
       "words": [
         "[[off|off]]",
         "[[The|El/la/los/las]]",
@@ -600,7 +600,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[got|tienes/conseguido]] [[out|out]] [[of|de]] [[the|el/la/los/las]] [[car|coche]] [[and|and]] [[locked|locked]] [[the|el/la/los/las]] [[door|puerta]].",
+      "correctSentence": "[[He got out of the car and locked the door|Él tienes/conseguido out de el/la/los/las coche and locked el/la/los/las puerta]].",
       "words": [
         "[[and|and]]",
         "[[the|el/la/los/las]]",
@@ -628,7 +628,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[train|train]] [[goes|goes]] [[through|through]] [[the|el/la/los/las]] [[mountains|mountains]].",
+      "correctSentence": "[[The train goes through the mountains|El/la/los/las train goes through el/la/los/las mountains]].",
       "words": [
         "[[the|el/la/los/las]]",
         "[[through|through]]",
@@ -652,7 +652,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[walked|walked]] [[around|around]] [[the|el/la/los/las]] [[lake|lake]] [[in|en]] [[the|el/la/los/las]] [[afternoon|tarde]].",
+      "correctSentence": "[[They walked around the lake in the afternoon|Ellos walked around el/la/los/las lake en el/la/los/las tarde]].",
       "words": [
         "[[They|Ellos]]",
         "[[the|el/la/los/las]]",
@@ -678,7 +678,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[ball|ball]] [[rolled|rolled]] [[under|debajo de]] [[the|el/la/los/las]] [[sofa|sofa]].",
+      "correctSentence": "[[The ball rolled under the sofa|El/la/los/las ball rolled debajo de el/la/los/las sofa]].",
       "words": [
         "[[under|debajo de]]",
         "[[sofa|sofa]].",
@@ -702,7 +702,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[walked|walked]] [[across|across]] [[the|el/la/los/las]] [[bridge|bridge]] [[to|a/para]] [[get|conseguir/obtener]] [[to|a/para]] [[the|el/la/los/las]] [[station|station]].",
+      "correctSentence": "[[She walked across the bridge to get to the station|Ella walked across el/la/los/las bridge a/para conseguir/obtener a/para el/la/los/las station]].",
       "words": [
         "[[bridge|bridge]]",
         "[[the|el/la/los/las]]",

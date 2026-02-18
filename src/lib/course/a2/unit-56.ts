@@ -89,7 +89,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[runs|runs]] [[very|muy]] _______ ([[quick|quick]]).",
+          "question": "[[She runs very|Ella runs muy]] _______ ([[quick|quick]]).",
           "options": [
             "[[quickly|quickly]]",
             "[[to|a/para]]",
@@ -115,7 +115,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] [[speaks|speaks]] [[English|English]] [[very|muy]] _______ ([[good|bueno/buena]]).",
+          "question": "[[He speaks English very|Él speaks English muy]] _______ ([[good|bueno/buena]]).",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -141,7 +141,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Please|Por favor]] [[walk|walk]] _______ ([[quiet|tranquilo/callado]]) [[in|en]] [[the|el/la/los/las]] [[library|biblioteca]].",
+          "question": "[[Please walk library|Por favor walk]] _______ ([[quiet the|tranquilo/callado]]) [[in|en el/la/los/las biblioteca]].",
           "options": [
             "[[quietly|quietly]]",
             "[[to|a/para]]",
@@ -167,7 +167,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[worked|worked]] _______ ([[hard|hard]]) [[to|a/para]] [[finish|finish]] [[the|el/la/los/las]] [[project|project]].",
+          "question": "[[They worked the project|Ellos worked]] _______ ([[hard finish|hard]]) [[to|a/para finish el/la/los/las project]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -193,7 +193,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[smiled|smiled]] _______ ([[happy|feliz]]) [[at|en]] [[him|le/él]].",
+          "question": "[[She smiled|Ella smiled]] _______ ([[happy him|feliz]]) [[at|en le/él]].",
           "options": [
             "[[happily|happily]]",
             "[[to|a/para]]",
@@ -219,7 +219,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] [[drove|drove]] _______ ([[careful|careful]]) [[through|through]] [[the|el/la/los/las]] [[rain|rain]].",
+          "question": "[[He drove rain|Él drove]] _______ ([[careful the|careful]]) [[through|through el/la/los/las rain]].",
           "options": [
             "[[carefully|carefully]]",
             "[[to|a/para]]",
@@ -245,7 +245,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[You|Tú/usted]] [[should|should]] [[speak|hablar]] _______ ([[clear|clear]]) [[when|cuándo]] [[you|tú/usted]] [[give|dar]] [[a|un/una]] [[talk|talk]].",
+          "question": "[[You should speak you talk|Tú/usted should hablar]] _______ ([[clear give a|clear]]) [[when|cuándo tú/usted dar un/una talk]].",
           "options": [
             "[[clearly|clearly]]",
             "[[to|a/para]]",
@@ -271,7 +271,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[laughed|laughed]] _______ ([[loud|loud]]) [[at|en]] [[the|el/la/los/las]] [[joke|joke]].",
+          "question": "[[They laughed joke|Ellos laughed]] _______ ([[loud the|loud]]) [[at|en el/la/los/las joke]].",
           "options": [
             "[[loudly|loudly]]",
             "[[to|a/para]]",
@@ -297,7 +297,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] [[writes|writes]] _______ ([[be|ser/estar]]).",
+          "question": "[[He writes|Él writes]] _______ ([[be|ser/estar]]).",
           "options": [
             "[[beautifully|beautifully]]",
             "[[to|a/para]]",
@@ -323,7 +323,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Please|Por favor]] [[listen|escuchar]] _______ ([[attentive|attentive]]).",
+          "question": "[[Please listen|Por favor escuchar]] _______ ([[attentive|attentive]]).",
           "options": [
             "[[attentively|attentively]]",
             "[[to|a/para]]",
@@ -347,7 +347,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[finished|finished]] [[her|su (de ella)]] [[homework|homework]] [[very|muy]] [[quickly|quickly]].",
+      "correctSentence": "[[She finished her homework very quickly|Ella finished su (de ella) homework muy quickly]].",
       "words": [
         "[[quickly|quickly]].",
         "[[She|Ella]]",
@@ -371,7 +371,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[speaks|speaks]] [[Spanish|Spanish]] [[very|muy]] [[well|bien]].",
+      "correctSentence": "[[He speaks Spanish very well|Él speaks Spanish muy bien]].",
       "words": [
         "[[speaks|speaks]]",
         "[[He|Él]]",
@@ -394,7 +394,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Please|Por favor]] [[speak|hablar]] [[slowly|slowly]] [[so|tan/así que]] [[I|Yo]] [[can|poder]] [[understand|understand]] [[you|tú/usted]].",
+      "correctSentence": "[[Please speak slowly so I can understand you|Por favor hablar slowly tan/así que Yo poder understand tú/usted]].",
       "words": [
         "[[I|Yo]]",
         "[[so|tan/así que]]",
@@ -420,7 +420,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[are|son/están]] [[working|working]] [[hard|hard]] [[to|a/para]] [[win|win]] [[the|el/la/los/las]] [[game|game]].",
+      "correctSentence": "[[They are working hard to win the game|Ellos son/están working hard a/para win el/la/los/las game]].",
       "words": [
         "[[the|el/la/los/las]]",
         "[[are|son/están]]",
@@ -446,7 +446,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[children|niños/niñas]] [[played|played]] [[happily|happily]] [[in|en]] [[the|el/la/los/las]] [[garden|garden]].",
+      "correctSentence": "[[The children played happily in the garden|El/la/los/las niños/niñas played happily en el/la/los/las garden]].",
       "words": [
         "[[in|en]]",
         "[[the|el/la/los/las]]",
@@ -471,7 +471,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[drives|drives]] [[very|muy]] [[carefully|carefully]] [[in|en]] [[the|el/la/los/las]] [[city|ciudad]].",
+      "correctSentence": "[[He drives very carefully in the city|Él drives muy carefully en el/la/los/las ciudad]].",
       "words": [
         "[[city|ciudad]].",
         "[[He|Él]]",
@@ -496,7 +496,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[sings|sings]] [[beautifully|beautifully]].",
+      "correctSentence": "[[She sings beautifully|Ella sings beautifully]].",
       "words": [
         "[[sings|sings]]",
         "[[She|Ella]]",
@@ -517,7 +517,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[teacher|profesor/profesora]] [[explained|explained]] [[the|el/la/los/las]] [[lesson|lesson]] [[very|muy]] [[clearly|clearly]].",
+      "correctSentence": "[[The teacher explained the lesson very clearly|El/la/los/las profesor/profesora explained el/la/los/las lesson muy clearly]].",
       "words": [
         "[[clearly|clearly]].",
         "[[very|muy]]",
@@ -542,7 +542,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[can|poder]] [[easily|easily]] [[finish|finish]] [[this|este/esta]] [[work|trabajo/trabajar]] [[today|hoy]].",
+      "correctSentence": "[[I can easily finish this work today|Yo poder easily finish este/esta trabajo/trabajar hoy]].",
       "words": [
         "[[today|hoy]].",
         "[[I|Yo]]",
@@ -567,7 +567,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[walked|walked]] [[quietly|quietly]] [[so|tan/así que]] [[as|as]] [[not|not]] [[to|a/para]] [[wake|wake]] [[the|el/la/los/las]] [[baby|bebé]].",
+      "correctSentence": "[[He walked quietly so as not to wake the baby|Él walked quietly tan/así que as not a/para wake el/la/los/las bebé]].",
       "words": [
         "[[so|tan/así que]]",
         "[[not|not]]",
@@ -595,7 +595,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[were|eran/fueron/estaban/estuvieron]] [[talking|talking]] [[very|muy]] [[loudly|loudly]] [[in|en]] [[the|el/la/los/las]] [[restaurant|restaurante]].",
+      "correctSentence": "[[They were talking very loudly in the restaurant|Ellos eran/fueron/estaban/estuvieron talking muy loudly en el/la/los/las restaurante]].",
       "words": [
         "[[in|en]]",
         "[[talking|talking]]",
@@ -621,7 +621,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[handled|handled]] [[the|el/la/los/las]] [[situation|situation]] [[very|muy]] [[professionally|professionally]].",
+      "correctSentence": "[[She handled the situation very professionally|Ella handled el/la/los/las situation muy professionally]].",
       "words": [
         "[[situation|situation]]",
         "[[the|el/la/los/las]]",
@@ -645,7 +645,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[wrote|wrote]] [[the|el/la/los/las]] [[letter|letter]] [[very|muy]] [[carefully|carefully]].",
+      "correctSentence": "[[He wrote the letter very carefully|Él wrote el/la/los/las letter muy carefully]].",
       "words": [
         "[[carefully|carefully]].",
         "[[He|Él]]",
@@ -669,7 +669,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[rain|rain]] [[fell|fell]] [[heavily|heavily]] [[all|all]] [[night|noche]].",
+      "correctSentence": "[[The rain fell heavily all night|El/la/los/las rain fell heavily all noche]].",
       "words": [
         "[[all|all]]",
         "[[heavily|heavily]]",
@@ -693,7 +693,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[danced|danced]] [[beautifully|beautifully]] [[together|together]].",
+      "correctSentence": "[[They danced beautifully together|Ellos danced beautifully together]].",
       "words": [
         "[[beautifully|beautifully]]",
         "[[They|Ellos]]",

@@ -89,7 +89,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[study|estudiar]]) _______ [[history|history]] [[at|en]] [[university|universidad]].",
+          "question": "[[I at university|Yo]] ([[study|estudiar]]) _______ [[history|history en universidad]].",
           "options": [
             "[[study|estudiar]]",
             "[[to|a/para]]",
@@ -115,7 +115,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[have|tener/haber]]) _______ [[an|un/una]] [[exam|exam]] [[tomorrow|mañana]].",
+          "question": "[[She exam tomorrow|Ella]] ([[have|tener/haber]]) _______ [[an|un/una exam mañana]].",
           "options": [
             "[[it|eso]]",
             "[[has|tiene/ha]]",
@@ -167,7 +167,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[be|ser/estar]]) _______ [[the|el/la/los/las]] [[best|mejor]] [[student|estudiante]].",
+          "question": "[[He best student|Él]] ([[be|ser/estar]]) _______ [[the|el/la/los/las mejor estudiante]].",
           "options": [
             "[[is|es/está]]",
             "[[to|a/para]]",
@@ -193,7 +193,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[What|Qué]] _______ [[your|tu/tus]] [[favourite|favourite]] [[subject|subject]]?",
+          "question": "[[What favourite subject|Qué]] _______ [[your|tu/tus favourite subject]]?",
           "options": [
             "[[is|es/está]]",
             "[[it|eso]]",
@@ -219,7 +219,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[must/finish|must/finish]]) _______ [[our|nuestro]] [[homework|homework]].",
+          "question": "[[We homework|Nosotros]] ([[must/finish|must/finish]]) _______ [[our|nuestro homework]].",
           "options": [
             "[[must finish|must finish]]",
             "[[it|eso]]",
@@ -245,7 +245,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Did|Did]] [[you|tú/usted]] _______ ([[pass|pass]]) [[the|el/la/los/las]] [[test|test]]?",
+          "question": "[[Did you|Did tú/usted]] _______ ([[pass test|pass]]) [[the|el/la/los/las test]]?",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -271,7 +271,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[learn|learn]]) _______ [[to|a/para]] [[play|jugar/tocar]] [[the|el/la/los/las]] [[piano|piano]].",
+          "question": "[[She play the piano|Ella]] ([[learn|learn]]) _______ [[to|a/para jugar/tocar el/la/los/las piano]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -297,7 +297,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[be|ser/estar]]) _______ [[in|en]] [[the|el/la/los/las]] [[second|second]] [[year|año]].",
+          "question": "[[I the second year|Yo]] ([[be|ser/estar]]) _______ [[in|en el/la/los/las second año]].",
           "options": [
             "[[it|eso]]",
             "[[am|soy/estoy]]",
@@ -323,7 +323,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[not/go|not/go]]) _______ [[to|a/para]] [[school|escuela]] [[today|hoy]].",
+          "question": "[[They school today|Ellos]] ([[not/go|not/go]]) _______ [[to|a/para escuela hoy]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -347,7 +347,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I'm|I'm]] [[studying|studying]] [[for|para/por]] [[my|mi/mis]] [[exams|exams]].",
+      "correctSentence": "[[I'm studying for my exams|I'm studying para/por mi/mis exams]].",
       "words": [
         "[[my|mi/mis]]",
         "[[I'm|I'm]]",
@@ -370,7 +370,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Mathematics|Mathematics]] [[is|es/está]] [[a|un/una]] [[difficult|difícil]] [[subject|subject]].",
+      "correctSentence": "[[Mathematics is a difficult subject|Mathematics es/está un/una difícil subject]].",
       "words": [
         "[[subject|subject]].",
         "[[a|un/una]]",
@@ -393,7 +393,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[a|un/una]] [[student|estudiante]] [[at|en]] [[Oxford|Oxford]] [[University|Universidad]].",
+      "correctSentence": "[[He is a student at Oxford University|Él es/está un/una estudiante en Oxford Universidad]].",
       "words": [
         "[[a|un/una]]",
         "[[University|Universidad]].",
@@ -418,7 +418,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[have|tener/haber]] [[a|un/una]] [[lot|lot]] [[of|de]] [[homework|homework]] [[tonight|tonight]].",
+      "correctSentence": "[[We have a lot of homework tonight|Nosotros tener/haber un/una lot de homework tonight]].",
       "words": [
         "[[lot|lot]]",
         "[[We|Nosotros]]",
@@ -443,7 +443,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[got|tienes/conseguido]] [[a|un/una]] [[very|muy]] [[good|bueno/buena]] [[grade|grade]] [[in|en]] [[the|el/la/los/las]] [[test|test]].",
+      "correctSentence": "[[She got a very good grade in the test|Ella tienes/conseguido un/una muy bueno/buena grade en el/la/los/las test]].",
       "words": [
         "[[She|Ella]]",
         "[[in|en]]",
@@ -470,7 +470,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[teacher|profesor/profesora]] [[is|es/está]] [[very|muy]] [[helpful|servicial]].",
+      "correctSentence": "[[The teacher is very helpful|El/la/los/las profesor/profesora es/está muy servicial]].",
       "words": [
         "[[very|muy]]",
         "[[The|El/la/los/las]]",
@@ -493,7 +493,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I'm|I'm]] [[going|going]] [[to|a/para]] [[the|el/la/los/las]] [[library|biblioteca]] [[to|a/para]] [[study|estudiar]].",
+      "correctSentence": "[[I'm going to the library to study|I'm going a/para el/la/los/las biblioteca a/para estudiar]].",
       "words": [
         "[[library|biblioteca]]",
         "[[the|el/la/los/las]]",
@@ -518,7 +518,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[What|Qué]] [[is|es/está]] [[your|tu/tus]] [[favourite|favourite]] [[subject|subject]] [[at|en]] [[school|escuela]]?",
+      "correctSentence": "[[What is your favourite subject at school|Qué es/está tu/tus favourite subject en escuela]]?",
       "words": [
         "[[subject|subject]]",
         "[[What|Qué]]",
@@ -543,7 +543,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[are|son/están]] [[learning|learning]] [[about|sobre/acerca de]] [[ancient|ancient]] [[history|history]].",
+      "correctSentence": "[[They are learning about ancient history|Ellos son/están learning sobre/acerca de ancient history]].",
       "words": [
         "[[history|history]].",
         "[[are|son/están]]",
@@ -567,7 +567,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[have|tener/haber]] [[a|un/una]] [[break|break]] [[at|en]] [[half|half]] [[past|past]] [[ten|diez]].",
+      "correctSentence": "[[We have a break at half past ten|Nosotros tener/haber un/una break en half past diez]].",
       "words": [
         "[[We|Nosotros]]",
         "[[have|tener/haber]]",
@@ -593,7 +593,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[wants|wants]] [[to|a/para]] [[get|conseguir/obtener]] [[a|un/una]] [[degree|degree]] [[in|en]] [[science|science]].",
+      "correctSentence": "[[He wants to get a degree in science|Él wants a/para conseguir/obtener un/una degree en science]].",
       "words": [
         "[[He|Él]]",
         "[[get|conseguir/obtener]]",
@@ -619,7 +619,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[classroom|classroom]] [[is|es/está]] [[very|muy]] [[large|large]].",
+      "correctSentence": "[[The classroom is very large|El/la/los/las classroom es/está muy large]].",
       "words": [
         "[[The|El/la/los/las]]",
         "[[classroom|classroom]]",
@@ -642,7 +642,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Did|Did]] [[you|tú/usted]] [[finish|finish]] [[your|tu/tus]] [[project|project]]?",
+      "correctSentence": "[[Did you finish your project|Did tú/usted finish tu/tus project]]?",
       "words": [
         "[[your|tu/tus]]",
         "[[you|tú/usted]]",
@@ -665,7 +665,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I'm|I'm]] [[in|en]] [[my|mi/mis]] [[final|final]] [[year|año]] [[of|de]] [[school|escuela]].",
+      "correctSentence": "[[I'm in my final year of school|I'm en mi/mis final año de escuela]].",
       "words": [
         "[[school|escuela]].",
         "[[of|de]]",
@@ -690,7 +690,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[is|es/está]] [[very|muy]] [[good|bueno/buena]] [[at|en]] [[languages|languages]].",
+      "correctSentence": "[[She is very good at languages|Ella es/está muy bueno/buena en languages]].",
       "words": [
         "[[She|Ella]]",
         "[[is|es/está]]",

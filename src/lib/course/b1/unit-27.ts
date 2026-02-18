@@ -13,7 +13,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra adecuada para alguien que presencia un crimen.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[told|le dijo]] [[the|a la]] [[police|policía]] [[everything|todo]] [[he|lo que]] [[saw|vio]] [[that|aquella]] [[night|noche]].",
+          "question": "[[The the police everything he saw that night|El]] ______ [[told|le dijo a la policía todo lo que vio aquella noche]].",
           "options": [
             "[[witness|testigo]]",
             "[[judge|juez]]",
@@ -40,7 +40,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el examen formal de pruebas en un tribunal.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[is|está]] [[expected|previsto]] [[to|que]] [[last|dure]] [[for|durante]] [[at|al menos]] [[least| ]] [[two|dos]] [[weeks|semanas]].",
+          "question": "[[The expected to last for at least two weeks|El]] ______ [[is|está previsto que dure durante al menos   dos semanas]].",
           "options": [
             "[[trial|juicio]]",
             "[[meeting|reunión]]",
@@ -65,7 +65,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Investigación en curso",
       "instructions": "Ordena la oración sobre la investigación policial de un robo.",
-      "correctSentence": "[[The|La]] [[police|policía]] [[are|está]] [[currently|actualmente]] [[conducting|llevando a cabo]] [[a|una]] [[thorough|investigación]] [[investigation|exhaustiva]] [[to|para]] [[identify|identificar]] [[the|al]] [[main|principal]] [[suspect|sospechoso]] [[responsible|responsable]] [[for|de]] [[the|el]] [[robbery|robo]] [[at|en]] [[the|el]] [[central|banco]] [[bank|central]].",
+      "correctSentence": "[[The police are currently conducting a thorough investigation to identify the main suspect responsible for the robbery at the central bank|La policía está actualmente llevando a cabo una investigación exhaustiva para identificar al principal sospechoso responsable de el robo en el banco central]].",
       "words": [
         "[[bank|central]].",
         "[[identify|identificar]]",
@@ -106,7 +106,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la decisión final de un jurado.",
       "questions": [
         {
-          "question": "[[The|El]] [[jury|jurado]] [[reached|llegó a]] [[a|un]] [[not|de no]] [[guilty|culpable]] ______ [[after|después de]] [[hours|horas]] [[of|de]] [[deliberation|deliberación]].",
+          "question": "[[The jury reached a not guilty of deliberation|El jurado llegó a un de no culpable]] ______ [[after hours|después de horas de deliberación]].",
           "options": [
             "[[verdict|veredicto]]",
             "[[opinion|opinión]]",
@@ -133,7 +133,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Elige el término formal para un representante legal.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[hired|contrató]] [[a|un]] [[famous|famoso]] ______ [[to|para]] [[represent|representarla]] [[her| ]] [[in|en]] [[court|el tribunal]].",
+          "question": "[[She hired a famous court|Ella contrató un famoso]] ______ [[to represent her in|para representarla   en el tribunal]].",
           "options": [
             "[[attorney|abogado]]",
             "[[clerk|empleado]]",
@@ -158,7 +158,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Huellas dactilares",
       "instructions": "Ordena la oración sobre la importancia de las pruebas físicas.",
-      "correctSentence": "[[If|Si]] [[the|el]] [[suspect|sospechoso]] [[had|no]] [[not|hubiera]] [[left|dejado]] [[his|sus]] [[fingerprints|huellas dactilares]] [[at|en]] [[the|la]] [[scene|escena]] [[of|del]] [[the| ]] [[crime|crimen]], [[the|los]] [[detectives|detectives]] [[would|habrían]] [[have|encontrado]] [[found| ]] [[it|mucho]] [[much|más]] [[harder|difícil]] [[to| ]] [[arrest|arrestarlo]] [[him| ]].",
+      "correctSentence": "[[If the, the detectives suspect had not left his fingerprints at the scene of the crime would have found it much harder to arrest him|Si el sospechoso no hubiera dejado sus huellas dactilares en la escena del   crimen, los detectives habrían encontrado   mucho más difícil   arrestarlo  ]].",
       "words": [
         "[[him| ]].",
         "[[fingerprints|huellas dactilares]]",
@@ -203,7 +203,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para los hechos que prueban algo.",
       "questions": [
         {
-          "question": "[[There|No]] [[was|había]] [[not| ]] [[enough|suficiente]] ______ [[to|para]] [[convict|condenar]] [[him|lo]].",
+          "question": "[[There was not enough|No había   suficiente]] ______ [[to convict him|para condenar lo]].",
           "options": [
             "[[evidence|evidencia]]",
             "[[noise|ruido]]",
@@ -230,7 +230,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para alguien de quien se cree que cometió un crimen.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[was|estaba]] [[wearing|llevaba]] [[a|una]] [[black|chaqueta negra]] [[jacket| ]].",
+          "question": "[[The wearing a black jacket|El]] ______ [[was|estaba llevaba una chaqueta negra  ]].",
           "options": [
             "[[suspect|sospechoso]]",
             "[[victim|víctima]]",
@@ -255,7 +255,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Imparcialidad del jurado",
       "instructions": "Ordena la oración sobre las instrucciones del juez al jurado.",
-      "correctSentence": "[[The|El]] [[judge|juez]] [[reminded|recordó]] [[the|a los]] [[members|miembros]] [[of|de]] [[the|el]] [[jury|jurado]] [[that|que]] [[they|ellos]] [[must|deben]] [[remain|permanecer]] [[impartial|imparciales]] [[throughout|durante]] [[the|toda]] [[entire|la]] [[duration|duración]] [[of|de]] [[the|el]] [[trial|juicio]].",
+      "correctSentence": "[[The judge reminded the members of the jury that they must remain impartial throughout the entire duration of the trial|El juez recordó a los miembros de el jurado que ellos deben permanecer imparciales durante toda la duración de el juicio]].",
       "words": [
         "[[trial|juicio]].",
         "[[impartial|imparciales]]",
@@ -295,7 +295,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa dictar una condena.",
       "questions": [
         {
-          "question": "[[The|El]] [[judge|juez]] [[will|va a]] ______ [[the|al]] [[prisoner|prisionero]] [[tomorrow|mañana]].",
+          "question": "[[The judge will prisoner|El juez va a]] ______ [[the tomorrow|al prisionero mañana]].",
           "options": [
             "[[sentence|sentenciar]]",
             "[[invite|invitar]]",
@@ -322,7 +322,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para estar bajo guardia policial.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|está]] [[currently|actualmente]] [[in|bajo]] [[police|custodia]] ______.",
+          "question": "[[He is currently in police|Él está actualmente bajo custodia]] ______.",
           "options": [
             "[[custody|policial]]",
             "[[vacation|vacaciones]]",
@@ -347,7 +347,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Tasas de criminalidad",
       "instructions": "Ordena la oración sobre la reducción del crimen.",
-      "correctSentence": "[[According|Según]] [[to| ]] [[the|los]] [[latest|últimos]] [[reports|informes]], [[crime|las tasas]] [[rates|de criminalidad]] [[in|en]] [[urban|áreas]] [[areas|urbanas]] [[have|han]] [[significantly|disminuido]] [[decreased|significativamente]] [[since|desde que]] [[the|la]] [[local|comunidad]] [[community|local]] [[started|empezó]] [[new|nuevos]] [[surveillance|programas de]] [[programs|vigilancia]].",
+      "correctSentence": "[[According to, crime the latest reports rates in urban areas have significantly decreased since the local community started new surveillance programs|Según   los últimos informes, las tasas de criminalidad en áreas urbanas han disminuido significativamente desde que la comunidad local empezó nuevos programas de vigilancia]].",
       "words": [
         "[[programs|vigilancia]].",
         "[[rates|de criminalidad]]",
@@ -388,7 +388,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa pedir revisión de una sentencia.",
       "questions": [
         {
-          "question": "[[His|Sus]] [[lawyers|abogados]] [[decided|decidieron]] [[to| ]] ______ [[against|contra]] [[the|la]] [[verdict|sentencia]].",
+          "question": "[[His lawyers decided to|Sus abogados decidieron  ]] ______ [[against the verdict|contra la sentencia]].",
           "options": [
             "[[appeal|apelar]]",
             "[[celebrate|celebrar]]",
@@ -415,7 +415,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un castigo monetario.",
       "questions": [
         {
-          "question": "[[He|Él]] [[had|tuvo]] [[to|que]] [[pay|pagar]] [[a|una]] ______ [[for|por]] [[speeding|exceso de velocidad]].",
+          "question": "[[He had to pay a speeding|Él tuvo que pagar una]] ______ [[for|por exceso de velocidad]].",
           "options": [
             "[[fine|multa]]",
             "[[gift|regalo]]",
@@ -440,7 +440,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Argumentos de la defensa",
       "instructions": "Ordena la oración sobre el argumento de la defensa en un caso de fraude.",
-      "correctSentence": "[[The|El]] [[defense|abogado]] [[attorney|de la defensa]] [[argued|argumentó]] [[that|que]] [[the|la]] [[evidence|evidencia]] [[presented|presentada]] [[by|por]] [[the|la]] [[prosecution|fiscalía]] [[was|no]] [[not|era]] [[sufficient|suficiente]] [[to|para]] [[prove|probar]] [[the|la]] [[client's|implicación]] [[involvement|del cliente]] [[in|en]] [[the|el]] [[fraud|fraude]].",
+      "correctSentence": "[[The defense attorney argued that the evidence presented by the prosecution was not sufficient to prove the client's involvement in the fraud|El abogado de la defensa argumentó que la evidencia presentada por la fiscalía no era suficiente para probar la implicación del cliente en el fraude]].",
       "words": [
         "[[fraud|fraude]].",
         "[[defense|abogado]]",
@@ -481,7 +481,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para entrar a robar en una casa.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[happened|ocurrió]] [[while|mientras]] [[they|ellos]] [[were|estaban]] [[away|fuera]] [[on|de]] [[holiday|vacaciones]].",
+          "question": "[[The while they were away on holiday|El]] ______ [[happened|ocurrió mientras ellos estaban fuera de vacaciones]].",
           "options": [
             "[[burglary|robo con allanamiento]]",
             "[[shopping|compras]]",
@@ -508,7 +508,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el engaño con fines de lucro.",
       "questions": [
         {
-          "question": "[[Credit|El fraude]] [[card|con tarjetas de]] ______ [[is|está]] [[becoming|volviéndose]] [[very|muy]] [[common|común]].",
+          "question": "[[Credit card very common|El fraude con tarjetas de]] ______ [[is becoming|está volviéndose muy común]].",
           "options": [
             "[[fraud|crédito]]",
             "[[game|juego]]",
@@ -533,7 +533,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Rehabilitación",
       "instructions": "Ordena la oración sobre el enfoque de los centros de rehabilitación.",
-      "correctSentence": "[[Modern|Los centros de]] [[rehabilitation|rehabilitación]] [[centers|modernos]] [[focus|se centran]] [[more|más]] [[on|en]] [[helping|ayudar]] [[offenders|a los delincuentes]] [[reintegrate|a reintegrarse]] [[into|en]] [[society|la sociedad]] [[than|que]] [[on|en]] [[simply|simplemente]] [[punishing|castigarlos]] [[them| ]] [[for|por]] [[their|sus]] [[past|errores]] [[mistakes|pasados]].",
+      "correctSentence": "[[Modern rehabilitation centers focus more on helping offenders reintegrate into society than on simply punishing them for their past mistakes|Los centros de rehabilitación modernos se centran más en ayudar a los delincuentes a reintegrarse en la sociedad que en simplemente castigarlos   por sus errores pasados]].",
       "words": [
         "[[pasados| ]].",
         "[[focus|se centran]]",
@@ -575,7 +575,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para alguien que infringe la ley.",
       "questions": [
         {
-          "question": "[[First-time|Los infractores]] ______ [[usually|suelen]] [[receive|recibir]] [[a|una]] [[lighter|pena más leve]] [[sentence| ]].",
+          "question": "[[First-time receive a lighter sentence|Los infractores]] ______ [[usually|suelen recibir una pena más leve  ]].",
           "options": [
             "[[offenders|primerizos]]",
             "[[students|estudiantes]]",
@@ -602,7 +602,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para quien presenta cargos contra el acusado.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[presented|presentó]] [[strong|pruebas]] [[evidence|sólidas]] [[during|durante]] [[the|el]] [[trial|juicio]].",
+          "question": "[[The strong evidence during the trial|El]] ______ [[presented|presentó pruebas sólidas durante el juicio]].",
           "options": [
             "[[prosecutor|fiscal]]",
             "[[defendant|acusado]]",
@@ -627,7 +627,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cámaras de seguridad",
       "instructions": "Ordena la oración sobre pruebas de video en un robo.",
-      "correctSentence": "[[Even|Aunque]] [[though| ]] [[he|él]] [[claimed|afirmó]] [[he|que]] [[was|era]] [[innocent|inocente]], [[the|las]] [[security|cámaras de]] [[cameras|seguridad]] [[captured|lo capturaron]] [[him| ]] [[entering|entrando]] [[the|en la]] [[jewelry|joyería]] [[store| ]] [[through|por]] [[the|la]] [[back|ventana]] [[window|trasera]] [[at|a]] [[midnight|medianoche]].",
+      "correctSentence": "[[Even though, the he claimed he was innocent security cameras captured him entering the jewelry store through the back window at midnight|Aunque   él afirmó que era inocente, las cámaras de seguridad lo capturaron   entrando en la joyería   por la ventana trasera a medianoche]].",
       "words": [
         "[[midnight|medianoche]].",
         "[[security|cámaras de]]",
@@ -669,7 +669,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa declarar inocente.",
       "questions": [
         {
-          "question": "[[The|El]] [[jury|jurado]] [[decided|decidió]] [[to| ]] ______ [[the|al]] [[defendant|acusado]] [[due|debido a]] [[to|la]] [[lack|falta]] [[of|de]] [[evidence|pruebas]].",
+          "question": "[[The jury decided to lack of evidence|El jurado decidió  ]] ______ [[the defendant due to|al acusado debido a la falta de pruebas]].",
           "options": [
             "[[acquit|absolver]]",
             "[[convict|condenar]]",
@@ -696,7 +696,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la persona acusada en un juicio.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[stood|se puso en]] [[up|pie]] [[when|cuando]] [[the|el]] [[judge|juez]] [[entered|entró]].",
+          "question": "[[The up when the judge entered|El]] ______ [[stood|se puso en pie cuando el juez entró]].",
           "options": [
             "[[defendant|acusado]]",
             "[[prosecutor|fiscal]]",
@@ -721,7 +721,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Demandas de la comunidad",
       "instructions": "Ordena la oración sobre las demandas de seguridad ciudadana.",
-      "correctSentence": "[[The|La]] [[local|comunidad]] [[community|local]] [[is|está]] [[demanding|exigiendo]] [[stricter|castigos]] [[punishments|más estrictos]] [[for|para]] [[those|quienes]] [[who| ]] [[repeatedly|rompen]] [[break|repetidamente]] [[the|la]] [[law|ley]] [[and|y]] [[disturb|alteran]] [[the|la]] [[peace|paz]] [[of|del]] [[the| ]] [[neighborhood|vecindario]].",
+      "correctSentence": "[[The local community is demanding stricter punishments for those who repeatedly break the law and disturb the peace of the neighborhood|La comunidad local está exigiendo castigos más estrictos para quienes   rompen repetidamente la ley y alteran la paz del   vecindario]].",
       "words": [
         "[[neighborhood|vecindario]].",
         "[[punishments|más estrictos]]",
@@ -763,7 +763,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la libertad bajo supervisión.",
       "questions": [
         {
-          "question": "[[He|Él]] [[was|fue]] [[placed|puesto]] [[on|en]] ______ [[for|durante]] [[six|seis]] [[months|meses]].",
+          "question": "[[He was placed on|Él fue puesto en]] ______ [[for six months|durante seis meses]].",
           "options": [
             "[[probation|libertad condicional]]",
             "[[holiday|vacaciones]]",
@@ -790,7 +790,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un crimen muy serio.",
       "questions": [
         {
-          "question": "[[Robbery|El robo]] [[with|con]] [[violence|violencia]] [[is|es]] [[considered|considerado]] [[a|un]] ______ [[in|en]] [[this|este]] [[state|estado]].",
+          "question": "[[Robbery with violence is considered a state|El robo con violencia es considerado un]] ______ [[in this|en este estado]].",
           "options": [
             "[[felony|delito grave]]",
             "[[joke|broma]]",
@@ -817,7 +817,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa hacer preguntas de forma formal.",
       "questions": [
         {
-          "question": "[[The|Los]] [[detectives|detectives]] ______ [[the|al]] [[suspect|sospechoso]] [[for|durante]] [[several|varias]] [[hours|horas]].",
+          "question": "[[The detectives for several hours|Los detectives]] ______ [[the suspect|al sospechoso durante varias horas]].",
           "options": [
             "[[interrogated|interrogaron]]",
             "[[visited|visitaron]]",
@@ -842,7 +842,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Expertos forenses",
       "instructions": "Ordena la oración sobre el análisis de pruebas digitales.",
-      "correctSentence": "[[The|Los]] [[forensic|expertos]] [[experts|forenses]] [[spent|pasaron]] [[the|toda]] [[entire|la]] [[afternoon|tarde]] [[analyzing|analizando]] [[the|la]] [[digital|evidencia]] [[evidence|digital]] [[found|encontrada]] [[on|en]] [[the|la]] [[main|computadora]] [[suspect's|personal]] [[personal|del sospechoso]] [[computer|principal]] [[and|y]] [[smartphone|teléfono inteligente]].",
+      "correctSentence": "[[The forensic experts spent the entire afternoon analyzing the digital evidence found on the main suspect's personal computer and smartphone|Los expertos forenses pasaron toda la tarde analizando la evidencia digital encontrada en la computadora personal del sospechoso principal y teléfono inteligente]].",
       "words": [
         "[[smartphone|teléfono inteligente]].",
         "[[analyzing|analizando]]",
@@ -882,7 +882,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el dinero ofrecido para influir en alguien.",
       "questions": [
         {
-          "question": "[[The|El]] [[officer|oficial]] [[was|fue]] [[arrested|arrestado]] [[for|por]] [[accepting|aceptar]] [[a|un]] ______.",
+          "question": "[[The officer was arrested for accepting a|El oficial fue arrestado por aceptar un]] ______.",
           "options": [
             "[[bribe|soborno]]",
             "[[reward|premio]]",
@@ -909,7 +909,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa transportar mercancía ilegalmente.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[tried|intentaron]] [[to| ]] ______ ______ [[illegal|bienes]] [[goods|ilegales]] [[across|a través de]] [[the|la]] [[border|frontera]].",
+          "question": "[[They tried to goods border|Ellos intentaron  ]] ______ ______ [[illegal across the|bienes ilegales a través de la frontera]].",
           "options": [
             "[[smuggle|pasar de contrabando]]",
             "[[buy|comprar]]",
@@ -934,7 +934,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Servicio comunitario",
       "instructions": "Ordena la oración sobre alternativas a la prisión.",
-      "correctSentence": "[[Many|Muchos]] [[legal|expertos]] [[experts|legales]] [[suggest|sugieren]] [[that|que]] [[implementing|implementar]] [[community|el servicio]] [[service|comunitario]] [[for|para]] [[minor|delitos]] [[offenses|menores]] [[is|es]] [[much|mucho]] [[more|más]] [[effective|efectivo]] [[than|que]] [[sending|enviar]] [[young|a jóvenes]] [[people| ]] [[to|a]] [[prison|prisión]].",
+      "correctSentence": "[[Many legal experts suggest that implementing community service for minor offenses is much more effective than sending young people to prison|Muchos expertos legales sugieren que implementar el servicio comunitario para delitos menores es mucho más efectivo que enviar a jóvenes   a prisión]].",
       "words": [
         "[[prison|prisión]].",
         "[[suggest|sugieren]]",
@@ -976,7 +976,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un ataque físico.",
       "questions": [
         {
-          "question": "[[The|El]] [[man|hombre]] [[was|fue]] [[charged|acusado]] [[with|de]] ______ [[after|después de]] [[the|la]] [[fight|pelea]].",
+          "question": "[[The man was charged with the fight|El hombre fue acusado de]] ______ [[after|después de la pelea]].",
           "options": [
             "[[assault|agresión]]",
             "[[dancing|baile]]",
@@ -1003,7 +1003,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa pedir dinero a cambio de silencio.",
       "questions": [
         {
-          "question": "[[He|Él]] [[tried|intentó]] [[to| ]] ______ [[the|al]] [[politician|político]] [[with|con]] [[private|fotos]] [[photos|privadas]].",
+          "question": "[[He tried to politician photos|Él intentó  ]] ______ [[the with private|al político con fotos privadas]].",
           "options": [
             "[[blackmail|chantajear]]",
             "[[compliment|halagar]]",
@@ -1028,7 +1028,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Noticias del robo",
       "instructions": "Ordena la oración sobre la identificación de sospechosos antes de las noticias.",
-      "correctSentence": "[[The|La]] [[police|policía]] [[had|ya]] [[already|había]] [[identified|identificado]] [[the|a los]] [[suspects|sospechosos]] [[before|antes de que]] [[the|las]] [[news|noticias]] [[of|del]] [[the| ]] [[bank|robo]] [[robbery|bancario]] [[was|fueran]] [[broadcast|transmitidas]] [[on|en]] [[all|todos los]] [[major|principales]] [[television|canales de]] [[channels|televisión]].",
+      "correctSentence": "[[The police had already identified the suspects before the news of the bank robbery was broadcast on all major television channels|La policía ya había identificado a los sospechosos antes de que las noticias del   robo bancario fueran transmitidas en todos los principales canales de televisión]].",
       "words": [
         "[[televisión| ]].",
         "[[identified|identificado]]",
@@ -1071,7 +1071,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para provocar un fuego intencionadamente.",
       "questions": [
         {
-          "question": "[[The|El]] [[fire|incendio]] [[was|fue]] [[clearly|claramente]] [[a|un]] [[case|caso]] [[of|de]] ______.",
+          "question": "[[The fire was clearly a case of|El incendio fue claramente un caso de]] ______.",
           "options": [
             "[[arson|incendio provocado]]",
             "[[accident|accidente]]",
@@ -1098,7 +1098,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa llevarse a alguien por la fuerza.",
       "questions": [
         {
-          "question": "[[The|Los]] [[criminals|criminales]] [[tried|intentaron]] [[to| ]] ______ [[the|al]] [[businessman|empresario]].",
+          "question": "[[The criminals tried to|Los criminales intentaron  ]] ______ [[the businessman|al empresario]].",
           "options": [
             "[[kidnap|secuestrar]]",
             "[[interview|entrevistar]]",
@@ -1123,7 +1123,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Declaraciones de testigos",
       "instructions": "Ordena la oración sobre la cooperación de los testigos.",
-      "correctSentence": "[[Witnesses|A los testigos]] [[are|se]] [[being|les]] [[asked|está]] [[to|pidiendo]] [[provide|que proporcionen]] [[detailed|declaraciones]] [[statements|detalladas]] [[to|para]] [[help|ayudar]] [[the|a los]] [[investigators|investigadores]] [[piece|a reconstruir]] [[together| ]] [[exactly|exactamente]] [[what|lo que]] [[happened|pasó]] [[before|antes de que]] [[the|ocurriera]] [[accident|el]] [[occurred|accidente]].",
+      "correctSentence": "[[Witnesses are being asked to provide detailed statements to help the investigators piece together exactly what happened before the accident occurred|A los testigos se les está pidiendo que proporcionen declaraciones detalladas para ayudar a los investigadores a reconstruir   exactamente lo que pasó antes de que ocurriera el accidente]].",
       "words": [
         "[[accidente| ]].",
         "[[asked|está]]",
@@ -1166,7 +1166,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Elige el término técnico para el robo de propiedad personal.",
       "questions": [
         {
-          "question": "[[The|El]] [[man|hombre]] [[was|fue]] [[found|hallado]] [[guilty|culpable]] [[of|de]] [[grand|gran]] ______.",
+          "question": "[[The man was found guilty of grand|El hombre fue hallado culpable de gran]] ______.",
           "options": [
             "[[larceny|hurto]]",
             "[[generosity|generosidad]]",
@@ -1193,7 +1193,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para el pago exigido por un prisionero.",
       "questions": [
         {
-          "question": "[[The|Los]] [[kidnappers|secuestradores]] [[demanded|exigieron]] [[a|un]] [[huge|enorme]] ______ [[for|por]] [[his|su]] [[return|regreso]].",
+          "question": "[[The kidnappers demanded a huge his return|Los secuestradores exigieron un enorme]] ______ [[for|por su regreso]].",
           "options": [
             "[[ransom|rescate]]",
             "[[discount|descuento]]",
@@ -1218,7 +1218,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Prevención del crimen",
       "instructions": "Ordena la oración sobre la relación entre educación y crimen.",
-      "correctSentence": "[[If|Si]] [[the|el]] [[government|gobierno]] [[provides|brinda]] [[better|mejor]] [[education|educación]] [[and|y]] [[job|oportunidades]] [[opportunities|laborales]], [[there|hay]] [[is|una]] [[a|alta]] [[high|probabilidad]] [[probability|de que]] [[that|las]] [[the|tasas]] [[crime|de]] [[rates|criminalidad]] [[among|entre]] [[teenagers|adolescentes]] [[will|disminuyan]] [[eventually|finalmente]] [[decrease| ]].",
+      "correctSentence": "[[If the, there government provides better education and job opportunities is a high probability that the crime rates among teenagers will eventually decrease|Si el gobierno brinda mejor educación y oportunidades laborales, hay una alta probabilidad de que las tasas de criminalidad entre adolescentes disminuyan finalmente  ]].",
       "words": [
         "[[decrease| ]].",
         "[[government|gobierno]]",
@@ -1262,7 +1262,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el grupo que vigila una zona.",
       "questions": [
         {
-          "question": "[[The|La]] [[police|patrulla]] ______ [[is|está]] [[cruising|recorriendo]] [[the|el]] [[neighborhood|vecindario]].",
+          "question": "[[The police the neighborhood|La patrulla]] ______ [[is cruising|está recorriendo el vecindario]].",
           "options": [
             "[[patrol|patrulla]]",
             "[[party|fiesta]]",
@@ -1289,7 +1289,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa admitir un delito.",
       "questions": [
         {
-          "question": "[[The|El]] [[suspect|sospechoso]] [[finally|finalmente]] [[decided|decidió]] [[to| ]] ______ [[his|su]] [[crime|crimen]].",
+          "question": "[[The suspect finally decided to crime|El sospechoso finalmente decidió  ]] ______ [[his|su crimen]].",
           "options": [
             "[[confess|confesar]]",
             "[[celebrate|celebrar]]",
@@ -1314,7 +1314,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Programas esenciales",
       "instructions": "Ordena la oración sobre la importancia de la rehabilitación.",
-      "correctSentence": "[[It|Se]] [[is|cree]] [[widely|ampliamente]] [[believed| ]] [[that|que]] [[rehabilitation|los programas de]] [[programs|rehabilitación]] [[within|dentro de]] [[the|el]] [[prison|sistema]] [[system|carcelario]] [[are|son]] [[essential|esenciales]] [[for|para]] [[reducing|reducir]] [[the|la]] [[likelihood|probabilidad]] [[of|de que]] [[offenders|los delincuentes]] [[committing|vuelvan a cometer]] [[crimes|delitos]] [[again| ]].",
+      "correctSentence": "[[It is widely believed that rehabilitation programs within the prison system are essential for reducing the likelihood of offenders committing crimes again|Se cree ampliamente   que los programas de rehabilitación dentro de el sistema carcelario son esenciales para reducir la probabilidad de que los delincuentes vuelvan a cometer delitos  ]].",
       "words": [
         "[[again| ]].",
         "[[rehabilitation|los programas de]]",
@@ -1357,7 +1357,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un delito menor.",
       "questions": [
         {
-          "question": "[[Shoplifting|El hurto en tiendas]] [[is|es]] [[often|a menudo]] [[considered|considerado]] [[a|una]] ______ [[rather|en lugar]] [[than|de]] [[a|un]] [[felony|delito grave]].",
+          "question": "[[Shoplifting is often considered a than a felony|El hurto en tiendas es a menudo considerado una]] ______ [[rather|en lugar de un delito grave]].",
           "options": [
             "[[misdemeanor|infracción menor]]",
             "[[miracle|milagro]]",
@@ -1384,7 +1384,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa declarar culpable.",
       "questions": [
         {
-          "question": "[[The|La]] [[court|corte]] [[will|va a]] ______ [[the|al]] [[accused|acusado]] [[if|si]] [[there|hay]] [[is|pruebas]] [[proof|suficientes]].",
+          "question": "[[The court will accused is proof|La corte va a]] ______ [[the if there|al acusado si hay pruebas suficientes]].",
           "options": [
             "[[convict|condenar]]",
             "[[protect|proteger]]",
@@ -1409,7 +1409,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Retirar cargos",
       "instructions": "Ordena la oración sobre la decisión de no procesar a un sospechoso.",
-      "correctSentence": "[[After|Después de que]] [[the|la]] [[long|larga]] [[investigation|investigación]] [[was|fuera]] [[finally|finalmente]] [[completed|completada]], [[the|el]] [[district|fiscal]] [[attorney|de distrito]] [[decided|decidió]] [[to| ]] [[drop|retirar]] [[all|todos los]] [[charges|cargos]] [[against|contra]] [[the|el]] [[suspect|sospechoso]] [[due|debido]] [[to|a]] [[a|una]] [[lack|falta]] [[of|de]] [[substantial|evidencia]] [[evidence|sustancial]].",
+      "correctSentence": "[[After the, the long investigation was finally completed district attorney decided to drop all charges against the suspect due to a lack of substantial evidence|Después de que la larga investigación fuera finalmente completada, el fiscal de distrito decidió   retirar todos los cargos contra el sospechoso debido a una falta de evidencia sustancial]].",
       "words": [
         "[[sustancial| ]].",
         "[[long|larga]]",
@@ -1455,7 +1455,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el comportamiento justo y legal.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[are|están]] [[fighting|luchando]] [[for|por]] [[social|justicia]] ______ [[in|en]] [[the|la]] [[region|región]].",
+          "question": "[[They are fighting for social the region|Ellos están luchando por justicia]] ______ [[in|en la región]].",
           "options": [
             "[[justice|justicia]]",
             "[[jewelry|joyería]]",
@@ -1482,7 +1482,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la habitación de un prisionero.",
       "questions": [
         {
-          "question": "[[The|El]] [[prisoner|prisionero]] [[spent|pasó]] [[the|la]] [[night|noche]] [[in|en]] [[his|su]] ______.",
+          "question": "[[The prisoner spent the night in his|El prisionero pasó la noche en su]] ______.",
           "options": [
             "[[cell|celda]]",
             "[[car|coche]]",
@@ -1507,7 +1507,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ciberdelincuencia",
       "instructions": "Ordena la oración sobre la persecución de ciberdelincuentes.",
-      "correctSentence": "[[Law|Las agencias]] [[enforcement|del orden]] [[agencies| ]] [[are|están]] [[working|trabajando]] [[closely|estrechamente]] [[with|con]] [[international|socios]] [[partners|internacionales]] [[to|para]] [[track|rastrear]] [[down| ]] [[the|la]] [[network|red]] [[of|de]] [[cybercriminals|ciberdelincuentes]] [[responsible|responsables]] [[for|de]] [[the|la]] [[latest|última]] [[data|filtración]] [[breach|de datos]].",
+      "correctSentence": "[[Law enforcement agencies are working closely with international partners to track down the network of cybercriminals responsible for the latest data breach|Las agencias del orden   están trabajando estrechamente con socios internacionales para rastrear   la red de ciberdelincuentes responsables de la última filtración de datos]].",
       "words": [
         "[[datos| ]].",
         "[[working|trabajando]]",
@@ -1550,7 +1550,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el documento que autoriza un arresto o registro.",
       "questions": [
         {
-          "question": "[[The|La]] [[police|policía]] [[arrived|llegó]] [[with|con]] [[a|una]] [[search|orden de registro]] ______.",
+          "question": "[[The police arrived with a search|La policía llegó con una orden de registro]] ______.",
           "options": [
             "[[warrant|orden judicial]]",
             "[[wallet|cartera]]",

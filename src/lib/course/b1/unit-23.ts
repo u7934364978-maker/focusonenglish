@@ -13,7 +13,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el conjunto de estrellas y planetas.",
       "questions": [
         {
-          "question": "[[There|Hay]] [[are| ]] [[billions|miles de millones]] [[of|de]] ______ [[in|en]] [[space|el espacio]].",
+          "question": "[[There are billions of|Hay   miles de millones de]] ______ [[in space|en el espacio]].",
           "options": [
             "[[galaxies|galaxias]]",
             "[[forests|bosques]]",
@@ -40,7 +40,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el vehículo que viaja al espacio.",
       "questions": [
         {
-          "question": "[[The|La]] ______ [[landed|aterrizó]] [[on|en]] [[Mars|Marte]].",
+          "question": "[[The on Mars|La]] ______ [[landed|aterrizó en Marte]].",
           "options": [
             "[[spacecraft|nave espacial]]",
             "[[submarine|submarino]]",
@@ -65,7 +65,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Bases en la Luna",
       "instructions": "Ordena la oración sobre el futuro en la Luna (más de 8 palabras).",
-      "correctSentence": "[[Humans|Los humanos]] [[will|construirán]] [[build| ]] [[permanent|bases]] [[bases|permanentes]] [[on|en]] [[the|la]] [[surface|superficie]] [[of|de]] [[the|la]] [[moon|Luna]].",
+      "correctSentence": "[[Humans will build permanent bases on the surface of the moon|Los humanos construirán   bases permanentes en la superficie de la Luna]].",
       "words": [
         "[[moon|Luna]].",
         "[[build| ]]",
@@ -97,7 +97,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la profesión de quien viaja al espacio.",
       "questions": [
         {
-          "question": "[[Being|Ser]] [[an|un]] ______ [[requires|requiere]] [[intensive|intenso]] [[training|entrenamiento]].",
+          "question": "[[Being an training|Ser un]] ______ [[requires intensive|requiere intenso entrenamiento]].",
           "options": [
             "[[astronaut|astronauta]]",
             "[[accountant|contable]]",
@@ -124,7 +124,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para nuestro sistema planetario.",
       "questions": [
         {
-          "question": "[[There|Hay]] [[are| ]] [[eight|ocho]] [[planets|planetas]] [[in|en]] [[our|nuestro]] ______.",
+          "question": "[[There are eight planets in our|Hay   ocho planetas en nuestro]] ______.",
           "options": [
             "[[solar system|sistema solar]]",
             "[[neighborhood|barrio]]",
@@ -149,7 +149,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Agua en Otros Planetas",
       "instructions": "Ordena la frase sobre la búsqueda de agua (más de 8 palabras).",
-      "correctSentence": "[[Scientists|Los científicos]] [[are|están]] [[looking|buscando]] [[for| ]] [[water|agua]] [[on|en]] [[other|otros]] [[planets|planetas]] [[in|en]] [[the|la]] [[galaxy|galaxia]].",
+      "correctSentence": "[[Scientists are looking for water on other planets in the galaxy|Los científicos están buscando   agua en otros planetas en la galaxia]].",
       "words": [
         "[[galaxy|galaxia]].",
         "[[are|están]]",
@@ -181,7 +181,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el instrumento para ver las estrellas.",
       "questions": [
         {
-          "question": "[[Use|Usa]] [[the|el]] ______ [[to|para]] [[see|ver]] [[the|las]] [[stars|estrellas]].",
+          "question": "[[Use the the stars|Usa el]] ______ [[to see|para ver las estrellas]].",
           "options": [
             "[[telescope|telescopio]]",
             "[[microscope|microscopio]]",
@@ -208,7 +208,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la fuerza de atracción terrestre.",
       "questions": [
         {
-          "question": "[[There|No]] [[is|hay]] [[no| ]] ______ [[in|en]] [[deep|el profundo]] [[space|espacio]].",
+          "question": "[[There is no deep|No hay  ]] ______ [[in space|en el profundo espacio]].",
           "options": [
             "[[gravity|gravedad]]",
             "[[air|aire]]",
@@ -233,7 +233,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vida Extraterrestre",
       "instructions": "Ordena la frase hipotética (más de 8 palabras).",
-      "correctSentence": "[[Finding|Encontrar]] [[alien|vida]] [[life|extraterrestre]] [[would|sería]] [[be| ]] [[the|el]] [[biggest|mayor]] [[discovery|descubrimiento]] [[of|de]] [[all|todos]] [[time|los tiempos]].",
+      "correctSentence": "[[Finding alien life would be the biggest discovery of all time|Encontrar vida extraterrestre sería   el mayor descubrimiento de todos los tiempos]].",
       "words": [
         "[[time|los tiempos]].",
         "[[would|sería]]",
@@ -265,7 +265,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la trayectoria circular en el espacio.",
       "questions": [
         {
-          "question": "[[The|La]] [[satellite|satélite]] [[is|está]] [[in|en]] ______.",
+          "question": "[[The satellite is in|La satélite está en]] ______.",
           "options": [
             "[[orbit|órbita]]",
             "[[danger|peligro]]",
@@ -292,7 +292,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para viajar al espacio por placer.",
       "questions": [
         {
-          "question": "______ [[will|será]] [[be| ]] [[available|disponible]] [[for|para]] [[the|los]] [[rich|ricos]].",
+          "question": "______ [[will be available for the rich|será   disponible para los ricos]].",
           "options": [
             "[[Space tourism|El turismo espacial]]",
             "[[Space mining|Minería espacial]]",
@@ -317,7 +317,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Trabajo de Robots",
       "instructions": "Ordena la oración sobre los robots y el trabajo (más de 8 palabras).",
-      "correctSentence": "[[In|En]] [[the|el]] [[future|futuro]], [[robots|robots]] [[will|harán]] [[do| ]] [[all|todos]] [[the|los]] [[hard|difíciles]] [[work|trabajos]] [[for|para]] [[us|nosotros]].",
+      "correctSentence": "[[In the, robots future will do all the hard work for us|En el futuro, robots harán   todos los difíciles trabajos para nosotros]].",
       "words": [
         "[[us|nosotros]].",
         "[[will|harán]]",
@@ -349,7 +349,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la región espacial de alta gravedad.",
       "questions": [
         {
-          "question": "[[Nothing|Nada]] [[can|puede]] [[escape|escapar]] [[a|un]] ______.",
+          "question": "[[Nothing can escape a|Nada puede escapar un]] ______.",
           "options": [
             "[[black hole|agujero negro]]",
             "[[white star|estrella blanca]]",
@@ -376,7 +376,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el nombre de nuestra galaxia.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[live|vivimos]] [[in|en]] [[the|la]] ______.",
+          "question": "[[We live in the|Nosotros vivimos en la]] ______.",
           "options": [
             "[[Milky Way|Vía Láctea]]",
             "[[Green Road|Camino Verde]]",
@@ -401,7 +401,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ejercicio Espacial",
       "instructions": "Ordena la frase sobre la salud de los astronautas (más de 8 palabras).",
-      "correctSentence": "[[Astronauts|Los astronautas]] [[must|deben]] [[exercise|hacer ejercicio]] [[daily|diario]] [[to|para]] [[keep|mantener]] [[their|sus]] [[bodies|cuerpos]] [[healthy|sanos]] [[in|en]] [[space|espacio]].",
+      "correctSentence": "[[Astronauts must exercise daily to keep their bodies healthy in space|Los astronautas deben hacer ejercicio diario para mantener sus cuerpos sanos en espacio]].",
       "words": [
         "[[space|espacio]].",
         "[[exercise|hacer ejercicio]]",
@@ -433,7 +433,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el proyectil que despega al espacio.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[launched|despegó]] [[at|a las]] [[noon|mediodía]].",
+          "question": "[[The at noon|El]] ______ [[launched|despegó a las mediodía]].",
           "options": [
             "[[rocket|cohete]]",
             "[[balloon|globo]]",
@@ -460,7 +460,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el universo más allá de la Tierra.",
       "questions": [
         {
-          "question": "______ [[is|es]] [[mostly|mayormente]] [[empty|vacío]].",
+          "question": "______ [[is mostly empty|es mayormente vacío]].",
           "options": [
             "[[Outer space|El espacio exterior]]",
             "[[City park|El parque de la ciudad]]",
@@ -485,7 +485,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vivir en Marte",
       "instructions": "Ordena la pregunta hipotética sobre Marte (más de 8 palabras).",
-      "correctSentence": "[[What|¿Qué]] [[would|llevarías]] [[you|tú]] [[take| ]] [[with|contigo]] [[you| ]] [[to|a]] [[Mars|Marte]] [[if|si]] [[you|tú]] [[lived|vivieras]] [[there|allí]] [[?|?]]",
+      "correctSentence": "[[What would you take with you to Mars if you lived there ?|¿Qué llevarías tú   contigo   a Marte si tú vivieras allí ?]]",
       "words": [
         "[[Mars|Marte]]",
         "[[take| ]]",
@@ -518,7 +518,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el objeto en órbita.",
       "questions": [
         {
-          "question": "[[The|La]] [[Moon|Luna]] [[is|es]] [[a|un]] [[natural|natural]] ______.",
+          "question": "[[The Moon is a natural|La Luna es un natural]] ______.",
           "options": [
             "[[satellite|satélite]]",
             "[[planet|planeta]]",
@@ -545,7 +545,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para los desechos humanos en el espacio.",
       "questions": [
         {
-          "question": "______ [[is|es]] [[a|un]] [[growing|creciente]] [[problem|problema]].",
+          "question": "______ [[is a growing problem|es un creciente problema]].",
           "options": [
             "[[Space debris|La basura espacial]]",
             "[[Space food|La comida espacial]]",
@@ -570,7 +570,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Viajes Estelares",
       "instructions": "Ordena la frase sobre el avance tecnológico (más de 8 palabras).",
-      "correctSentence": "[[We|Nosotros]] [[might|podríamos]] [[travel|viajar]] [[to|a]] [[distant|lejanas]] [[stars|estrellas]] [[one|algún]] [[day|día]] [[thanks|gracias]] [[to|a]] [[new|nueva]] [[science|ciencia]].",
+      "correctSentence": "[[We might travel to distant stars one day thanks to new science|Nosotros podríamos viajar a lejanas estrellas algún día gracias a nueva ciencia]].",
       "words": [
         "[[science|ciencia]].",
         "[[travel|viajar]]",
@@ -603,7 +603,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el origen del universo.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[happened|ocurrió]] [[billions|hace miles de millones]] [[of|de]] [[years|años]] [[ago|atrás]].",
+          "question": "[[The billions of years ago|El]] ______ [[happened|ocurrió hace miles de millones de años atrás]].",
           "options": [
             "[[Big Bang|Big Bang]]",
             "[[Big Party|Gran Fiesta]]",
@@ -630,7 +630,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para establecerse en un nuevo planeta.",
       "questions": [
         {
-          "question": "[[Mars|La]] ______ [[of|de]] [[Mars|Marte]] [[is|es]] [[a|un]] [[goal|objetivo]].",
+          "question": "[[Mars Mars is a goal|La]] ______ [[of|de Marte es un objetivo]].",
           "options": [
             "[[colonization|colonización]]",
             "[[vacation|vacación]]",
@@ -655,7 +655,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Aterrizaje en Marte",
       "instructions": "Ordena la oración sobre la expectativa del viaje (más de 8 palabras).",
-      "correctSentence": "[[I|Tengo]] [[look|muchas]] [[forward|ganas]] [[to|de]] [[watching|ver]] [[the|el]] [[first|primer]] [[human|humano]] [[landing|aterrizando]] [[on|en]] [[Mars|Marte]].",
+      "correctSentence": "[[I look forward to watching the first human landing on Mars|Tengo muchas ganas de ver el primer humano aterrizando en Marte]].",
       "words": [
         "[[Mars|Marte]].",
         "[[to|de]]",
@@ -687,7 +687,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la unidad de medida de distancia interestelar.",
       "questions": [
         {
-          "question": "[[Stars|Las estrellas]] [[are|están]] [[many|a muchos]] ______ [[away|lejos]].",
+          "question": "[[Stars are many|Las estrellas están a muchos]] ______ [[away|lejos]].",
           "options": [
             "[[light-years|años luz]]",
             "[[kilograms|kilogramos]]",
@@ -714,7 +714,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un ser de otro mundo.",
       "questions": [
         {
-          "question": "[[Do|¿]] [[you|tú]] [[believe|crees]] [[in|en]] ______ [[life|vida]] [[?|?]]",
+          "question": "[[Do you believe in|¿ tú crees en]] ______ [[life ?|vida ?]]",
           "options": [
             "[[alien|extraterrestre]]",
             "[[local|local]]",
@@ -739,7 +739,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Nuestros Orígenes",
       "instructions": "Ordena la frase sobre las respuestas espaciales (más de 8 palabras).",
-      "correctSentence": "[[Science|La ciencia]] [[will|nos]] [[give|dará]] [[us| ]] [[answers|respuestas]] [[about|sobre]] [[how|cómo]] [[the|el]] [[universe|universo]] [[really|realmente]] [[began|empezó]].",
+      "correctSentence": "[[Science will give us answers about how the universe really began|La ciencia nos dará   respuestas sobre cómo el universo realmente empezó]].",
       "words": [
         "[[began|empezó]].",
         "[[give|dará]]",
@@ -771,7 +771,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el objeto espacial con cola de hielo.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[has|tiene]] [[a|una]] [[long|larga]] [[tail|cola]].",
+          "question": "[[The a long tail|El]] ______ [[has|tiene una larga cola]].",
           "options": [
             "[[comet|cometa]]",
             "[[mountain|montaña]]",
@@ -798,7 +798,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el hogar orbital de los astronautas.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[work|trabajan]] [[on|en]] [[the|la]] ______.",
+          "question": "[[They work on the|Ellos trabajan en la]] ______.",
           "options": [
             "[[space station|estación espacial]]",
             "[[train station|estación de tren]]",
@@ -823,7 +823,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Imágenes del Espacio",
       "instructions": "Ordena la oración sobre las imágenes satelitales (más de 8 palabras).",
-      "correctSentence": "[[The|El]] [[telescope|telescopio]] [[sends|envía]] [[beautiful|hermosas]] [[pictures|fotos]] [[of|de]] [[distant|lejanas]] [[stars|estrellas]] [[back|atrás]] [[to|a]] [[the|la]] [[Earth|Tierra]].",
+      "correctSentence": "[[The telescope sends beautiful pictures of distant stars back to the Earth|El telescopio envía hermosas fotos de lejanas estrellas atrás a la Tierra]].",
       "words": [
         "[[Earth|Tierra]].",
         "[[pictures|fotos]]",
@@ -856,7 +856,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la nave no tripulada que envía datos.",
       "questions": [
         {
-          "question": "[[The|La]] ______ [[is|está]] [[exploring|explorando]] [[Jupiter|Júpiter]].",
+          "question": "[[The exploring Jupiter|La]] ______ [[is|está explorando Júpiter]].",
           "options": [
             "[[probe|sonda]]",
             "[[car|coche]]",
@@ -883,7 +883,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para los objetos rocosos pequeños del sistema solar.",
       "questions": [
         {
-          "question": "[[Many|Muchos]] ______ [[are|están]] [[found|encontrados]] [[near|cerca de]] [[Mars|Marte]].",
+          "question": "[[Many found near Mars|Muchos]] ______ [[are|están encontrados cerca de Marte]].",
           "options": [
             "[[asteroids|asteroides]]",
             "[[beaches|playas]]",
@@ -908,7 +908,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Un Nuevo Hogar",
       "instructions": "Ordena la frase sobre un planeta similar a la Tierra (más de 8 palabras).",
-      "correctSentence": "[[If|Si]] [[we|nosotros]] [[find|encontramos]] [[a|un]] [[planet|planeta]] [[like|como]] [[Earth|la Tierra]], [[we|nosotros]] [[will|querremos]] [[want| ]] [[to|ir]] [[go| ]] [[there|allí]].",
+      "correctSentence": "[[If we, we find a planet like Earth will want to go there|Si nosotros encontramos un planeta como la Tierra, nosotros querremos   ir   allí]].",
       "words": [
         "[[there|allí]].",
         "[[find|encontramos]]",
@@ -942,7 +942,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para no tener peso en el espacio.",
       "questions": [
         {
-          "question": "[[Astronauts|Los astronautas]] [[experience|experimentan]] ______ [[in|en]] [[space|el espacio]].",
+          "question": "[[Astronauts experience|Los astronautas experimentan]] ______ [[in space|en el espacio]].",
           "options": [
             "[[weightlessness|ingravidez]]",
             "[[happiness|felicidad]]",
@@ -969,7 +969,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la explosión de una estrella.",
       "questions": [
         {
-          "question": "[[A|Una]] ______ [[is|es]] [[the|el]] [[death|muerte]] [[of|de]] [[a|una]] [[star|estrella]].",
+          "question": "[[A the death of a star|Una]] ______ [[is|es el muerte de una estrella]].",
           "options": [
             "[[supernova|supernova]]",
             "[[sunset|atardecer]]",
@@ -994,7 +994,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Deseo Espacial",
       "instructions": "Ordena la oración sobre el deseo de viajar al espacio (más de 8 palabras).",
-      "correctSentence": "[[I|Yo]] [[would|amaría]] [[love| ]] [[to|viajar]] [[travel| ]] [[into|al]] [[space|espacio]] [[if|si]] [[I|yo]] [[had|tuviera]] [[the|la]] [[chance|oportunidad]].",
+      "correctSentence": "[[I would love to travel into space if I had the chance|Yo amaría   viajar   al espacio si yo tuviera la oportunidad]].",
       "words": [
         "[[chance|oportunidad]].",
         "[[to|viajar]]",
@@ -1027,7 +1027,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para los agujeros en la superficie lunar.",
       "questions": [
         {
-          "question": "[[There|Hay]] [[are| ]] [[many|muchos]] ______ [[on|en]] [[the|la]] [[Moon|Luna]].",
+          "question": "[[There are many the|Hay   muchos]] ______ [[on Moon|en la Luna]].",
           "options": [
             "[[craters|cráteres]]",
             "[[rivers|ríos]]",
@@ -1054,7 +1054,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la nube de polvo y gas estelar.",
       "questions": [
         {
-          "question": "[[A|Una]] ______ [[is|es]] [[where|donde]] [[stars|estrellas]] [[are|son]] [[born|nacidas]].",
+          "question": "[[A where stars are born|Una]] ______ [[is|es donde estrellas son nacidas]].",
           "options": [
             "[[nebula|nebulosa]]",
             "[[desert|desierto]]",
@@ -1079,7 +1079,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vida en Otros Lados",
       "instructions": "Ordena la frase sobre la creencia científica (más de 8 palabras).",
-      "correctSentence": "[[Many|Muchos]] [[scientists|científicos]] [[believe|creen]] [[that|que]] [[life|la vida]] [[exists|existe]] [[on|en]] [[other|otros]] [[worlds|mundos]] [[too|también]].",
+      "correctSentence": "[[Many scientists believe that life exists on other worlds too|Muchos científicos creen que la vida existe en otros mundos también]].",
       "words": [
         "[[too|también]].",
         "[[life|la vida]]",
@@ -1110,7 +1110,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para viajar de una estrella a otra.",
       "questions": [
         {
-          "question": "______ [[is|es]] [[still|todavía]] [[a|un]] [[dream|sueño]].",
+          "question": "______ [[is still a dream|es todavía un sueño]].",
           "options": [
             "[[Interstellar travel|El viaje interestelar]]",
             "[[Bus travel|El viaje en autobús]]",
@@ -1137,7 +1137,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el edificio dedicado a mirar el cielo.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[is|está]] [[on|en]] [[top|lo alto]] [[of|de]] [[the|la]] [[mountain|montaña]].",
+          "question": "[[The on top of the mountain|El]] ______ [[is|está en lo alto de la montaña]].",
           "options": [
             "[[observatory|observatorio]]",
             "[[library|biblioteca]]",
@@ -1162,7 +1162,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Futuro del Turismo",
       "instructions": "Ordena la frase sobre el turismo espacial asequible (más de 8 palabras).",
-      "correctSentence": "[[Space|El turismo]] [[tourism|espacial]] [[will|será]] [[become| ]] [[much|mucho]] [[more|más]] [[affordable|asequible]] [[for|para]] [[the|la]] [[general|mayoría]] [[public| ]] [[soon|pronto]].",
+      "correctSentence": "[[Space tourism will become much more affordable for the general public soon|El turismo espacial será   mucho más asequible para la mayoría   pronto]].",
       "words": [
         "[[soon|pronto]].",
         "[[tourism|espacial]]",
@@ -1195,7 +1195,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la radiación espacial de alta energía.",
       "questions": [
         {
-          "question": "______ [[can|pueden]] [[damage|dañar]] [[electronics|la electrónica]].",
+          "question": "______ [[can damage electronics|pueden dañar la electrónica]].",
           "options": [
             "[[Cosmic rays|Los rayos cósmicos]]",
             "[[Sunbeams|Los rayos de sol]]",
@@ -1222,7 +1222,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el túnel hipotético en el espacio-tiempo.",
       "questions": [
         {
-          "question": "______ [[could|podrían]] [[be|ser]] [[shortcuts|atajos]] [[through|a través del]] [[space|espacio]].",
+          "question": "______ [[could be shortcuts through space|podrían ser atajos a través del espacio]].",
           "options": [
             "[[Wormholes|Los agujeros de gusano]]",
             "[[Underground tunnels|Los túneles subterráneos]]",
@@ -1247,7 +1247,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Civilizaciones Avanzadas",
       "instructions": "Ordena la pregunta sobre civilizaciones superiores (más de 8 palabras).",
-      "correctSentence": "[[Do|¿Crees]] [[you|que]] [[think| ]] [[we|nosotros]] [[will|encontraremos]] [[find| ]] [[advanced|civilizaciones]] [[aliens|avanzadas]] [[one|algún]] [[day|día]] [[?|?]]",
+      "correctSentence": "[[Do you think we will find advanced aliens one day ?|¿Crees que   nosotros encontraremos   civilizaciones avanzadas algún día ?]]",
       "words": [
         "[[day|día]]",
         "[[will|encontraremos]]",
@@ -1279,7 +1279,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la ropa del astronauta.",
       "questions": [
         {
-          "question": "[[Check|Revisa]] [[your|tu]] ______ [[before|antes]] [[leaving|de salir]].",
+          "question": "[[Check your|Revisa tu]] ______ [[before leaving|antes de salir]].",
           "options": [
             "[[space suit|traje espacial]]",
             "[[swimsuit|bañador]]",
@@ -1306,7 +1306,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la ausencia de gravedad.",
       "questions": [
         {
-          "question": "[[Things|Las cosas]] [[float|flotan]] [[in|en]] ______.",
+          "question": "[[Things float in|Las cosas flotan en]] ______.",
           "options": [
             "[[zero gravity|gravedad cero]]",
             "[[heavy rain|lluvia fuerte]]",
@@ -1331,7 +1331,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cuidado con la Tecnología",
       "instructions": "Ordena la frase de consejo sobre basura espacial (más de 8 palabras).",
-      "correctSentence": "[[We|Nosotros]] [[should|deberíamos]] [[be|ser]] [[more|más]] [[careful|cuidadosos]] [[with|con]] [[how|cómo]] [[we|nosotros]] [[use|usamos]] [[objects|objetos]] [[in|en]] [[space|espacio]].",
+      "correctSentence": "[[We should be more careful with how we use objects in space|Nosotros deberíamos ser más cuidadosos con cómo nosotros usamos objetos en espacio]].",
       "words": [
         "[[space|espacio]].",
         "[[be|ser]]",
@@ -1364,7 +1364,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la estrella pulsante.",
       "questions": [
         {
-          "question": "[[A|Un]] ______ [[is|es]] [[a|una]] [[type|tipo]] [[of|de]] [[neutron|estrella]] [[star|de neutrones]].",
+          "question": "[[A a type of neutron star|Un]] ______ [[is|es una tipo de estrella de neutrones]].",
           "options": [
             "[[pulsar|púlsar]]",
             "[[planet|planeta]]",
@@ -1391,7 +1391,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el sinónimo de sistema estelar masivo.",
       "questions": [
         {
-          "question": "[[Every|Cada]] ______ [[contains|contiene]] [[stars|estrellas]] [[and|y]] [[planets|planetas]].",
+          "question": "[[Every stars and planets|Cada]] ______ [[contains|contiene estrellas y planetas]].",
           "options": [
             "[[galaxy|galaxia]]",
             "[[garden|jardín]]",

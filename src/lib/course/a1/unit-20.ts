@@ -13,7 +13,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma contraída de 'I have got'.",
       "questions": [
         {
-          "question": "(_____) [[a|un]] [[headache|dolor de cabeza]].",
+          "question": "(_____) [[a headache|un dolor de cabeza]].",
           "options": ["[[I've got|Tengo]]", "[[I got|Tengo (incorrecto)]]", "[[I am got|Tengo (incorrecto)]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'I've got' (I have got) para síntomas médicos."
@@ -35,7 +35,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el modal para dar un consejo positivo.",
       "questions": [
         {
-          "question": "[[You|Tú]] (_____) [[see|ver]] [[a|un]] [[doctor|médico]].",
+          "question": "[[You a doctor|Tú]] (_____) [[see|ver un médico]].",
           "options": ["[[should|deberías]]", "[[shouldn't|no deberías]]", "[[can't|no puedes]]"],
           "correctAnswer": 0,
           "explanation": "'Should' se usa para dar consejos o sugerencias."
@@ -57,7 +57,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el modal para una prohibición o consejo negativo.",
       "questions": [
         {
-          "question": "[[You|Tú]] (_____) [[go|ir]] [[to|al]] [[work|trabajo]] [[if|si]] [[you|tú]] [[are|estás]] [[sick|enfermo]].",
+          "question": "[[You to work if you are sick|Tú]] (_____) [[go|ir al trabajo si tú estás enfermo]].",
           "options": ["[[shouldn't|no deberías]]", "[[should|deberías]]", "[[must|debes]]"],
           "correctAnswer": 0,
           "explanation": "'Shouldn't' es la forma negativa para aconsejar no hacer algo."
@@ -77,7 +77,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Dolor de Garganta",
       "instructions": "Ordena la oración sobre el síntoma de ella.",
-      "correctSentence": "[[She|Ella]] [[has|tiene]] [[got|conseguido]] [[a|un]] [[sore|dolorida]] [[throat|garganta]].",
+      "correctSentence": "[[She has got a sore throat|Ella tiene conseguido un dolorida garganta]].",
       "words": ["[[throat|garganta]].", "[[sore|dolorida]]", "[[a|un]]", "[[got|conseguido]]", "[[has|tiene]]", "[[She|Ella]]"],
       "explanation": "Tercera persona singular: She has got."
     },
@@ -96,7 +96,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Completa con la parte del cuerpo correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[use|uso]] [[my|mis]] (_____) [[to|para]] [[write|escribir]].",
+          "question": "[[I use my write|Yo uso mis]] (_____) [[to|para escribir]].",
           "options": ["[[hands|manos]]", "[[feet|pies]]", "[[ears|orejas]]"],
           "correctAnswer": 0,
           "explanation": "Escribimos con las manos."
@@ -116,7 +116,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Beber Agua",
       "instructions": "Ordena el consejo saludable.",
-      "correctSentence": "[[You|Tú]] [[should|deberías]] [[drink|beber]] [[more|más]] [[water|agua]].",
+      "correctSentence": "[[You should drink more water|Tú deberías beber más agua]].",
       "words": ["[[water|agua]].", "[[more|más]]", "[[drink|beber]]", "[[should|deberías]]", "[[You|Tú]]"],
       "explanation": "Should + infinitivo sin 'to'."
     },
@@ -135,7 +135,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el síntoma por la descripción.",
       "questions": [
         {
-          "question": "[[His|Su]] [[head|cabeza]] [[is|está]] [[very|muy]] [[hot|caliente]]. [[He|Él]] [[has|tiene]] [[a|una]] (_____) .",
+          "question": "[[His head. He is very hot has a|Su cabeza está muy caliente. Él tiene una]] (_____) .",
           "options": ["[[fever|fiebre]]", "[[cold|resfriado]]", "[[toothache|dolor de muelas]]"],
           "correctAnswer": 0,
           "explanation": "La cabeza caliente es un signo de fiebre."
@@ -155,7 +155,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "¿Qué te pasa?",
       "instructions": "Ordena la pregunta del médico.",
-      "correctSentence": "[[What|Qué]] [[is|es]] [[the|el]] [[matter|asunto]] [[with|con]] [[you|tigo]]?",
+      "correctSentence": "[[What is the matter with you|Qué es el asunto con tigo]]?",
       "words": ["[[you|tigo]]?", "[[with|con]]", "[[matter|asunto]]", "[[the|el]]", "[[is|es]]", "[[What|Qué]]"],
       "explanation": "'What is the matter?' es una forma común de preguntar qué duele o qué ocurre."
     },
@@ -174,7 +174,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma negativa del consejo.",
       "questions": [
         {
-          "question": "[[You|Tú]] (_____) [[eat|comer]] [[so|tan]] [[much|muchos]] [[candy|caramelos]].",
+          "question": "[[You so much candy|Tú]] (_____) [[eat|comer tan muchos caramelos]].",
           "options": ["[[shouldn't|no deberías]]", "[[should|deberías]]", "[[can|puedes]]"],
           "correctAnswer": 0,
           "explanation": "Es un consejo para evitar algo poco saludable."
@@ -194,7 +194,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Resfriado Fuerte",
       "instructions": "Ordena la oración plural.",
-      "correctSentence": "[[They|Ellos]] [[have|tienen]] [[got|conseguido]] [[a|un]] [[bad|mal]] [[cold|resfriado]].",
+      "correctSentence": "[[They have got a bad cold|Ellos tienen conseguido un mal resfriado]].",
       "words": ["[[cold|resfriado]].", "[[bad|mal]]", "[[a|un]]", "[[got|conseguido]]", "[[have|tienen]]", "[[They|Ellos]]"],
       "explanation": "Have got para sujeto plural."
     },
@@ -233,7 +233,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "¿Tomo medicina?",
       "instructions": "Ordena la pregunta pidiendo consejo.",
-      "correctSentence": "[[Should|Debería]] [[I|yo]] [[take|tomar]] [[some|algo de]] [[medicine|medicina]]?",
+      "correctSentence": "[[Should I take some medicine|Debería yo tomar algo de medicina]]?",
       "words": ["[[medicine|medicina]]?", "[[some|algo de]]", "[[take|tomar]]", "[[I|yo]]", "[[Should|Debería]]"],
       "explanation": "Pregunta invirtiendo el sujeto y 'should'."
     },
@@ -252,7 +252,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Completa el consejo para alguien cansado.",
       "questions": [
         {
-          "question": "[[I'm|Estoy]] [[very|muy]] [[tired|cansado]]. [[You|Tú]] [[should|deberías]] (_____) .",
+          "question": "[[I'm very. You tired should|Estoy muy cansado. Tú deberías]] (_____) .",
           "options": ["[[go to bed|ir a la cama]]", "[[run a marathon|correr una maratón]]", "[[eat a pizza|comer una pizza]]"],
           "correctAnswer": 0,
           "explanation": "Dormir es el mejor consejo para el cansancio."
@@ -272,7 +272,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Dolor de Estómago",
       "instructions": "Ordena la oración sobre el hermano.",
-      "correctSentence": "[[My|Mi]] [[brother|hermano]] [[has|tiene]] [[got|conseguido]] [[a|un]] [[stomach|estómago]] [[ache|dolor]].",
+      "correctSentence": "[[My brother has got a stomach ache|Mi hermano tiene conseguido un estómago dolor]].",
       "words": ["[[ache|dolor]].", "[[stomach|estómago]]", "[[a|un]]", "[[got|conseguido]]", "[[has|tiene]]", "[[brother|hermano]]", "[[My|Mi]]"],
       "explanation": "Estructura de tercera persona para dolores físicos."
     },
@@ -291,7 +291,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Instrucción común del médico.",
       "questions": [
         {
-          "question": "[[Open|Abre]] [[your|tu]] (_____) [[and|y]] [[say|di]] [[ah|ah]].",
+          "question": "[[Open your ah|Abre tu]] (_____) [[and say|y di ah]].",
           "options": ["[[mouth|boca]]", "[[nose|nariz]]", "[[eye|ojo]]"],
           "correctAnswer": 0,
           "explanation": "El médico pide abrir la boca para revisar la garganta."
@@ -311,7 +311,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Bebidas Frías",
       "instructions": "Ordena el consejo negativo largo.",
-      "correctSentence": "[[You|Tú]] [[shouldn't|no deberías]] [[drink|beber]] [[cold|frías]] [[drinks|bebidas]] [[with|con]] [[a|un]] [[sore|dolorida]] [[throat|garganta]].",
+      "correctSentence": "[[You shouldn't drink cold drinks with a sore throat|Tú no deberías beber frías bebidas con un dolorida garganta]].",
       "words": ["[[throat|garganta]].", "[[sore|dolorida]]", "[[with|con]]", "[[drinks|bebidas]]", "[[cold|frías]]", "[[drink|beber]]", "[[shouldn't|no deberías]]", "[[You|Tú]]"],
       "explanation": "Consejo para no empeorar el dolor de garganta."
     },
@@ -330,7 +330,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el especialista adecuado.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tengo]] [[a|un]] [[toothache|dolor de muelas]]. [[You|Tú]] [[should|deberías]] [[see|ver]] [[a|un]] (_____) .",
+          "question": "[[I have. You should a toothache see a|Yo tengo un dolor de muelas. Tú deberías ver un]] (_____) .",
           "options": ["[[dentist|dentista]]", "[[nurse|enfermero]]", "[[teacher|profesor]]"],
           "correctAnswer": 0,
           "explanation": "El dentista trata los problemas de los dientes."
@@ -350,7 +350,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Síntomas",
       "instructions": "Ordena la pregunta del médico.",
-      "correctSentence": "[[Have|Tener]] [[you|tú]] [[got|conseguido]] [[any|algún]] [[symptoms|síntomas]]?",
+      "correctSentence": "[[Have you got any symptoms|Tener tú conseguido algún síntomas]]?",
       "words": ["[[symptoms|síntomas]]?", "[[any|algún]]", "[[got|conseguido]]", "[[you|tú]]", "[[Have|Tener]]"],
       "explanation": "Pregunta estándar sobre el estado de salud."
     },
@@ -369,7 +369,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Completa con la parte del cuerpo que permite ver.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[see|veo]] [[with|con]] [[my|mis]] (_____) .",
+          "question": "[[I see with my|Yo veo con mis]] (_____) .",
           "options": ["[[eyes|ojos]]", "[[ears|orejas]]", "[[nose|nariz]]"],
           "correctAnswer": 0,
           "explanation": "Vemos a través de los ojos."
@@ -389,7 +389,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Descansar en Casa",
       "instructions": "Ordena el consejo.",
-      "correctSentence": "[[You|Tú]] [[should|deberías]] [[stay|quedarte]] [[at|en]] [[home|casa]] [[and|y]] [[rest|descansar]].",
+      "correctSentence": "[[You should stay at home and rest|Tú deberías quedarte en casa y descansar]].",
       "words": ["[[rest|descansar]].", "[[and|y]]", "[[home|casa]]", "[[at|en]]", "[[stay|quedarte]]", "[[should|deberías]]", "[[You|Tú]]"],
       "explanation": "Consejo común para alguien enfermo."
     },
@@ -408,7 +408,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tengo]] [[a|una]] (_____) [[and|y]] [[a|un]] [[cold|resfriado]].",
+          "question": "[[I have a a|Yo tengo una]] (_____) [[and cold|y un resfriado]].",
           "options": ["[[cough|tos]]", "[[cake|pastel]]", "[[car|coche]]"],
           "correctAnswer": 0,
           "explanation": "Cough (tos) es un síntoma de salud."
@@ -428,7 +428,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Dolor de Espalda",
       "instructions": "Ordena la oración sobre el dolor.",
-      "correctSentence": "[[I've|Tengo]] [[got|conseguido]] [[a|un]] [[pain|dolor]] [[in|en]] [[my|mi]] [[back|espalda]].",
+      "correctSentence": "[[I've got a pain in my back|Tengo conseguido un dolor en mi espalda]].",
       "words": ["[[back|espalda]].", "[[my|mi]]", "[[in|en]]", "[[pain|dolor]]", "[[got|conseguido]]", "[[I've|Tengo]]"],
       "explanation": "Otra forma de decir 'I have a backache'."
     },
@@ -447,7 +447,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Completa con la parte del cuerpo adecuada.",
       "questions": [
         {
-          "question": "[[Wash|Lava]] [[your|tus]] (_____) [[before|antes de]] [[dinner|la cena]].",
+          "question": "[[Wash your|Lava tus]] (_____) [[before dinner|antes de la cena]].",
           "options": ["[[hands|manos]]", "[[ears|orejas]]", "[[knees|rodillas]]"],
           "correctAnswer": 0,
           "explanation": "Es importante lavarse las manos antes de comer."
@@ -467,7 +467,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ejercicio y Fiebre",
       "instructions": "Ordena el consejo negativo.",
-      "correctSentence": "[[You|Tú]] [[shouldn't|no deberías]] [[exercise|ejercitarte]] [[when|cuando]] [[you|tú]] [[have|tienes]] [[a|una]] [[fever|fiebre]].",
+      "correctSentence": "[[You shouldn't exercise when you have a fever|Tú no deberías ejercitarte cuando tú tienes una fiebre]].",
       "words": ["[[fever|fiebre]].", "[[a|una]]", "[[have|tienes]]", "[[you|tú]]", "[[when|cuando]]", "[[exercise|ejercitarte]]", "[[shouldn't|no deberías]]", "[[You|Tú]]"],
       "explanation": "No es recomendable hacer ejercicio si se tiene fiebre."
     },
@@ -486,7 +486,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para los dedos de los pies.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tengo]] [[ten|diez]] [[fingers|dedos (manos)]] [[and|y]] [[ten|diez]] (_____) .",
+          "question": "[[I have ten fingers and ten|Yo tengo diez dedos (manos) y diez]] (_____) .",
           "options": ["[[toes|dedos (pies)]]", "[[foots|pies (incorrecto)]]", "[[hands|manos]]"],
           "correctAnswer": 0,
           "explanation": "En inglés, los dedos de los pies se llaman 'toes'."
@@ -506,7 +506,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Chequeo Médico",
       "instructions": "Ordena la pregunta pidiendo consejo sobre un lugar.",
-      "correctSentence": "[[Where|Dónde]] [[should|debería]] [[I|yo]] [[go|ir]] [[for|para]] [[a|un]] [[check-up|chequeo]]?",
+      "correctSentence": "[[Where should I go for a check-up|Dónde debería yo ir para un chequeo]]?",
       "words": ["[[check-up|chequeo]]?", "[[a|un]]", "[[for|para]]", "[[go|ir]]", "[[I|yo]]", "[[should|debería]]", "[[Where|Dónde]]"],
       "explanation": "Pregunta informativa con 'should'."
     },
@@ -545,7 +545,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "¿Le duele la muela otra vez?",
       "instructions": "Ordena la pregunta de tercera persona.",
-      "correctSentence": "[[Has|Tiene]] [[she|ella]] [[got|conseguido]] [[a|un]] [[toothache|dolor de muelas]] [[again|otra vez]]?",
+      "correctSentence": "[[Has she got a toothache again|Tiene ella conseguido un dolor de muelas otra vez]]?",
       "words": ["[[again|otra vez]]?", "[[toothache|dolor de muelas]]", "[[a|un]]", "[[got|conseguido]]", "[[she|ella]]", "[[Has|Tiene]]"],
       "explanation": "Pregunta singular con 'Has... got'."
     },
@@ -564,7 +564,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Completa con la palabra adecuada.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[has|tiene]] [[long|largo]] (_____) .",
+          "question": "[[She has long|Ella tiene largo]] (_____) .",
           "options": ["[[hair|pelo]]", "[[ears|orejas]]", "[[noses|narices]]"],
           "correctAnswer": 0,
           "explanation": "El pelo es lo que solemos describir como largo."
@@ -584,7 +584,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Dormir lo Suficiente",
       "instructions": "Ordena el consejo de salud.",
-      "correctSentence": "[[You|Tú]] [[should|deberías]] [[sleep|dormir]] [[for|por]] [[eight|ocho]] [[hours|horas]] [[every|cada]] [[night|noche]].",
+      "correctSentence": "[[You should sleep for eight hours every night|Tú deberías dormir por ocho horas cada noche]].",
       "words": ["[[night|noche]].", "[[every|cada]]", "[[hours|horas]]", "[[eight|ocho]]", "[[for|por]]", "[[sleep|dormir]]", "[[should|deberías]]", "[[You|Tú]]"],
       "explanation": "Recomendación estándar de sueño."
     },
@@ -603,7 +603,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Completa con el órgano del sentido.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[listen|escucho]] [[with|con]] [[my|mis]] (_____) .",
+          "question": "[[I listen with my|Yo escucho con mis]] (_____) .",
           "options": ["[[ears|orejas]]", "[[eyes|ojos]]", "[[mouth|boca]]"],
           "correctAnswer": 0,
           "explanation": "Escuchamos a través de las orejas/oídos."
@@ -623,7 +623,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sin Medicina",
       "instructions": "Ordena la negación de posesión.",
-      "correctSentence": "[[We|Nosotros]] [[haven't|no tenemos]] [[got|conseguido]] [[any|nada de]] [[medicine|medicina]] [[at|en]] [[home|casa]].",
+      "correctSentence": "[[We haven't got any medicine at home|Nosotros no tenemos conseguido nada de medicina en casa]].",
       "words": ["[[home|casa]].", "[[at|en]]", "[[medicine|medicina]]", "[[any|nada de]]", "[[got|conseguido]]", "[[haven't|no tenemos]]", "[[We|Nosotros]]"],
       "explanation": "Haven't got + any para negación."
     },
@@ -642,7 +642,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Identifica el término médico.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[stomach|estómago]] [[hurts|duele]]. [[I|Yo]] [[have|tengo]] [[a|un]] (_____) .",
+          "question": "[[My stomach. I hurts have a|Mi estómago duele. Yo tengo un]] (_____) .",
           "options": ["[[stomach ache|dolor de estómago]]", "[[headache|dolor de cabeza]]", "[[toothache|dolor de muelas]]"],
           "correctAnswer": 0,
           "explanation": "Stomach ache es el término para el dolor de tripa."
@@ -662,7 +662,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Comida Saludable",
       "instructions": "Ordena la pregunta por consejo dietético.",
-      "correctSentence": "[[What|Qué]] [[should|debería]] [[I|yo]] [[eat|comer]] [[to|para]] [[be|ser]] [[healthy|saludable]]?",
+      "correctSentence": "[[What should I eat to be healthy|Qué debería yo comer para ser saludable]]?",
       "words": ["[[healthy|saludable]]?", "[[be|ser]]", "[[to|para]]", "[[eat|comer]]", "[[I|yo]]", "[[should|debería]]", "[[What|Qué]]"],
       "explanation": "Pregunta informativa sobre nutrición."
     },
@@ -681,7 +681,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Completa con la parte superior del tronco.",
       "questions": [
         {
-          "question": "[[The|Los]] (_____) [[connect|conectan]] [[the|el]] [[neck|cuello]] [[to|a]] [[the|el]] [[arm|brazo]].",
+          "question": "[[The the neck to the arm|Los]] (_____) [[connect|conectan el cuello a el brazo]].",
           "options": ["[[shoulders|hombros]]", "[[knees|rodillas]]", "[[legs|piernas]]"],
           "correctAnswer": 0,
           "explanation": "Los hombros (shoulders) están entre el cuello y los brazos."
@@ -701,7 +701,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Móvil y Sueño",
       "instructions": "Ordena el consejo para dormir mejor.",
-      "correctSentence": "[[You|Tú]] [[shouldn't|no deberías]] [[use|usar]] [[your|tu]] [[phone|teléfono]] [[before|antes de]] [[sleeping|dormir]].",
+      "correctSentence": "[[You shouldn't use your phone before sleeping|Tú no deberías usar tu teléfono antes de dormir]].",
       "words": ["[[sleeping|dormir]].", "[[before|antes de]]", "[[phone|teléfono]]", "[[your|tu]]", "[[use|usar]]", "[[shouldn't|no deberías]]", "[[You|Tú]]"],
       "explanation": "Consejo moderno de higiene del sueño."
     },
@@ -720,7 +720,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el remedio adecuado.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[has|tiene]] [[a|una]] [[bad|mala]] [[cough|tos]]. [[She|Ella]] [[needs|necesita]] (_____) .",
+          "question": "[[She has. She a bad cough needs|Ella tiene una mala tos. Ella necesita]] (_____) .",
           "options": ["[[cough syrup|jarabe para la tos]]", "[[glasses|gafas]]", "[[a hat|un sombrero]]"],
           "correctAnswer": 0,
           "explanation": "El jarabe es para la tos."
@@ -740,7 +740,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Espalda Dolorida",
       "instructions": "Ordena la oración de malestar.",
-      "correctSentence": "[[I've|Tengo]] [[got|conseguido]] [[a|un]] [[very|muy]] [[sore|dolorida]] [[back|espalda]] [[today|hoy]].",
+      "correctSentence": "[[I've got a very sore back today|Tengo conseguido un muy dolorida espalda hoy]].",
       "words": ["[[today|hoy]].", "[[back|espalda]]", "[[sore|dolorida]]", "[[very|muy]]", "[[a|un]]", "[[got|conseguido]]", "[[I've|Tengo]]"],
       "explanation": "Descripción de un dolor de espalda intenso."
     },
@@ -759,7 +759,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Completa con el órgano adecuado.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[smell|huelo]] [[with|con]] [[my|mi]] (_____) .",
+          "question": "[[I smell with my|Yo huelo con mi]] (_____) .",
           "options": ["[[nose|nariz]]", "[[mouth|boca]]", "[[head|cabeza]]"],
           "correctAnswer": 0,
           "explanation": "Olemos con la nariz."
@@ -779,7 +779,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ducha Relajante",
       "instructions": "Ordena el consejo de bienestar.",
-      "correctSentence": "[[You|Tú]] [[should|deberías]] [[take|tomar]] [[a|una]] [[warm|templada]] [[shower|ducha]] [[to|para]] [[relax|relajarte]].",
+      "correctSentence": "[[You should take a warm shower to relax|Tú deberías tomar una templada ducha para relajarte]].",
       "words": ["[[relax|relajarte]].", "[[to|para]]", "[[shower|ducha]]", "[[warm|templada]]", "[[a|una]]", "[[take|tomar]]", "[[should|deberías]]", "[[You|Tú]]"],
       "explanation": "Sugerencia para aliviar el estrés."
     },
@@ -798,7 +798,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo de falta de fuerza.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|estoy]] [[sick|enfermo]]. [[I|Yo]] [[feel|me siento]] (_____) .",
+          "question": "[[I am. I sick feel|Yo estoy enfermo. Yo me siento]] (_____) .",
           "options": ["[[weak|débil]]", "[[strong|fuerte]]", "[[happy|feliz]]"],
           "correctAnswer": 0,
           "explanation": "'Weak' (débil) es lo opuesto a 'strong'."
@@ -818,7 +818,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Fiebre Alta",
       "instructions": "Ordena la oración sobre el bebé.",
-      "correctSentence": "[[The|El]] [[baby|bebé]] [[has|tiene]] [[got|conseguido]] [[a|una]] [[high|alta]] [[fever|fiebre]].",
+      "correctSentence": "[[The baby has got a high fever|El bebé tiene conseguido una alta fiebre]].",
       "words": ["[[fever|fiebre]].", "[[high|alta]]", "[[a|una]]", "[[got|conseguido]]", "[[has|tiene]]", "[[baby|bebé]]", "[[The|El]]"],
       "explanation": "Descripción de un síntoma grave."
     },
@@ -837,7 +837,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Parte del cuerpo usada para caminar.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[walk|caminamos]] [[with|con]] [[our|nuestras]] (_____) .",
+          "question": "[[We walk with our|Nosotros caminamos con nuestras]] (_____) .",
           "options": ["[[legs|piernas]]", "[[arms|brazos]]", "[[shoulders|hombros]]"],
           "correctAnswer": 0,
           "explanation": "Caminamos usando las piernas."
@@ -857,7 +857,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Evitar Cafeína",
       "instructions": "Ordena el consejo negativo.",
-      "correctSentence": "[[You|Tú]] [[shouldn't|no deberías]] [[drink|beber]] [[too|demasiado]] [[much|mucho]] [[coffee|café]].",
+      "correctSentence": "[[You shouldn't drink too much coffee|Tú no deberías beber demasiado mucho café]].",
       "words": ["[[coffee|café]].", "[[much|mucho]]", "[[too|demasiado]]", "[[drink|beber]]", "[[shouldn't|no deberías]]", "[[You|Tú]]"],
       "explanation": "Consejo de salud común."
     },
@@ -876,7 +876,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto para el resfriado.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tengo]] [[a|un]] [[cold|resfriado]]. [[I|Yo]] [[need|necesito]] (_____) .",
+          "question": "[[I have. I need a cold|Yo tengo un resfriado. Yo necesito]] (_____) .",
           "options": ["[[tissues|pañuelos de papel]]", "[[a book|un libro]]", "[[shoes|zapatos]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'tissues' (pañuelos) cuando estamos resfriados."
@@ -896,7 +896,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Abrígate",
       "instructions": "Ordena el consejo de vestimenta.",
-      "correctSentence": "[[You|Tú]] [[should|deberías]] [[wear|llevar]] [[a|un]] [[coat|abrigo]], [[it's|está]] [[freezing|congelando]].",
+      "correctSentence": "[[You should, it's wear a coat freezing|Tú deberías llevar un abrigo, está congelando]].",
       "words": ["[[freezing|congelando]].", "[[it's|está]]", "[[coat|abrigo]],", "[[a|un]]", "[[wear|llevar]]", "[[should|deberías]]", "[[You|Tú]]"],
       "explanation": "Consejo basado en el clima."
     },
@@ -915,7 +915,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo de recuperación.",
       "questions": [
         {
-          "question": "[[Yesterday|Ayer]] [[I|yo]] [[was|estaba]] [[sick|enfermo]]. [[Today|Hoy]] [[I|yo]] [[feel|me siento]] (_____) .",
+          "question": "[[Yesterday I. Today I was sick feel|Ayer yo estaba enfermo. Hoy yo me siento]] (_____) .",
           "options": ["[[better|mejor]]", "[[worse|peor]]", "[[angry|enfadado]]"],
           "correctAnswer": 0,
           "explanation": "'Better' indica que la salud ha mejorado."
@@ -935,7 +935,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Dolor Compartido",
       "instructions": "Ordena la oración plural compleja.",
-      "correctSentence": "[[My|Mis]] [[parents|padres]] [[have|tienen]] [[both|ambos]] [[got|conseguido]] [[a|un]] [[headache|dolor de cabeza]].",
+      "correctSentence": "[[My parents have both got a headache|Mis padres tienen ambos conseguido un dolor de cabeza]].",
       "words": ["[[headache|dolor de cabeza]].", "[[a|un]]", "[[got|conseguido]]", "[[both|ambos]]", "[[have|tienen]]", "[[parents|padres]]", "[[My|Mis]]"],
       "explanation": "Uso de 'both' con 'have got'."
     },
@@ -954,13 +954,13 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre la consulta médica.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[symptoms|síntomas]] [[does|tiene]] [[the|el]] [[patient|paciente]] [[have|tener]]?",
+          "question": "[[What symptoms does the patient have|Qué síntomas tiene el paciente tener]]?",
           "options": ["[[Headache and sore throat|Dolor de cabeza y garganta]]", "[[Stomach ache|Dolor de estómago]]", "[[Toothache|Dolor de muelas]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'I have got a bad headache and a sore throat'."
         },
         {
-          "question": "[[What|Qué]] [[advice|consejo]] [[does|da]] [[the|el]] [[doctor|médico]] [[give|dar]]?",
+          "question": "[[What advice does the doctor give|Qué consejo da el médico dar]]?",
           "options": ["[[Stay at home and drink water|Quedarse en casa y beber agua]]", "[[Go to work|Ir a trabajar]]", "[[Exercise every day|Hacer ejercicio]]"],
           "correctAnswer": 0,
           "explanation": "El doctor dice: 'I should stay at home... drink a lot of water'."
@@ -982,13 +982,13 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre los consejos de salud.",
       "questions": [
         {
-          "question": "[[How|Cuánto]] [[much|mucho]] [[water|agua]] [[should|deberías]] [[you|tú]] [[drink|beber]]?",
+          "question": "[[How much water should you drink|Cuánto mucho agua deberías tú beber]]?",
           "options": ["[[Two liters a day|Dos litros al día]]", "[[One glass a day|Un vaso al día]]", "[[Only when thirsty|Solo con sed]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'drink two liters of water every day'."
         },
         {
-          "question": "[[What|Qué]] [[shouldn't|no deberías]] [[you|tú]] [[do|hacer]]?",
+          "question": "[[What shouldn't you do|Qué no deberías tú hacer]]?",
           "options": ["[[Smoke or eat too much sugar|Fumar o comer mucha azúcar]]", "[[Walk or run|Caminar o correr]]", "[[Sleep|Dormir]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'You shouldn't smoke or eat too much sugar'."
@@ -1010,13 +1010,13 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre la lesión de Tom.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[does|le]] [[Tom|Tom]] [[have|tener]] [[pain|dolor]]?",
+          "question": "[[Where does Tom have pain|Dónde le Tom tener dolor]]?",
           "options": ["[[In his right leg|En su pierna derecha]]", "[[In his arm|En su brazo]]", "[[In his head|En su cabeza]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'his right leg hurts a lot'."
         },
         {
-          "question": "[[What|Qué]] [[should|debería]] [[he|él]] [[do|hacer]]?",
+          "question": "[[What should he do|Qué debería él hacer]]?",
           "options": ["[[Put ice on his knee|Poner hielo en su rodilla]]", "[[Play more football|Jugar más fútbol]]", "[[Go to school|Ir a la escuela]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'he should put some ice on it'."
@@ -1038,13 +1038,13 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre Anna.",
       "questions": [
         {
-          "question": "[[Why|Por qué]] [[can't|no puede]] [[Anna|Anna]] [[eat|comer]]?",
+          "question": "[[Why can't Anna eat|Por qué no puede Anna comer]]?",
           "options": ["[[Because she has a toothache|Porque le duele la muela]]", "[[Because she is not hungry|Porque no tiene hambre]]", "[[Because she is tired|Porque está cansada]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'Anna has got a terrible toothache. She can't eat...'."
         },
         {
-          "question": "[[How|Cómo]] [[does|se]] [[she|ella]] [[feel|sentir]] [[about|sobre]] [[the|el]] [[dentist|dentista]]?",
+          "question": "[[How does she feel about the dentist|Cómo se ella sentir sobre el dentista]]?",
           "options": ["[[She is nervous|Está nerviosa]]", "[[She is happy|Está feliz]]", "[[She is excited|Está emocionada]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'She is very nervous because she doesn't like the dentist'."
@@ -1066,13 +1066,13 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre la gripe.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[symptoms|síntomas]] [[does|tiene]] [[the|la]] [[sister|hermana]] [[have|tener]]?",
+          "question": "[[What symptoms does the sister have|Qué síntomas tiene la hermana tener]]?",
           "options": ["[[Fever and cough|Fiebre y tos]]", "[[Stomach ache|Dolor de estómago]]", "[[Broken arm|Brazo roto]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'My sister has got a high fever and a bad cough'."
         },
         {
-          "question": "[[What|Qué]] [[should|deberían]] [[they|ellos]] [[eat|comer]]?",
+          "question": "[[What should they eat|Qué deberían ellos comer]]?",
           "options": ["[[Oranges|Naranjas]]", "[[Apples|Manzanas]]", "[[Chocolate|Chocolate]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'We should also eat oranges'."
@@ -1094,13 +1094,13 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre Mr. Brown.",
       "questions": [
         {
-          "question": "[[How|Cuántas]] [[many|muchas]] [[hours|horas]] [[does|hace]] [[he|él]] [[work|trabajar]]?",
+          "question": "[[How many hours does he work|Cuántas muchas horas hace él trabajar]]?",
           "options": ["[[Twelve hours a day|Doce horas al día]]", "[[Eight hours a day|Ocho horas al día]]", "[[Five hours a day|Cinco horas al día]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'Mr. Brown works twelve hours every day'."
         },
         {
-          "question": "[[What|Qué]] [[is|está]] [[his|su]] [[problem|problema]]?",
+          "question": "[[What is his problem|Qué está su problema]]?",
           "options": ["[[Backache and red eyes|Dolor de espalda y ojos rojos]]", "[[Toothache|Dolor de muelas]]", "[[Broken leg|Pierna rota]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'He has got a backache and his eyes are always red'."
@@ -1122,13 +1122,13 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre la farmacia.",
       "questions": [
         {
-          "question": "[[Who|Quién]] [[is|está]] [[sick|enfermo]]?",
+          "question": "[[Who is sick|Quién está enfermo]]?",
           "options": ["[[The son|El hijo]]", "[[The father|El padre]]", "[[The pharmacist|El farmacéutico]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'my son is sick'."
         },
         {
-          "question": "[[What|Qué]] [[should|debería]] [[the|el]] [[boy|niño]] [[drink|beber]]?",
+          "question": "[[What should the boy drink|Qué debería el niño beber]]?",
           "options": ["[[Warm tea with honey|Té caliente con miel]]", "[[Cold water|Agua fría]]", "[[Orange juice|Zumo de naranja]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'my son should drink warm tea with honey'."
@@ -1150,13 +1150,13 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre la abuela.",
       "questions": [
         {
-          "question": "[[Why|Por qué]] [[is|es]] [[she|ella]] [[healthy|saludable]]?",
+          "question": "[[Why is she healthy|Por qué es ella saludable]]?",
           "options": ["[[Because she eats good food|Porque come buena comida]]", "[[Because she is young|Porque es joven]]", "[[Because she sleeps all day|Porque duerme todo el día]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'She's very healthy because she eats good food'."
         },
         {
-          "question": "[[What|Qué]] [[hurts|duele]] [[sometimes|a veces]]?",
+          "question": "[[What hurts sometimes|Qué duele a veces]]?",
           "options": ["[[Her knees|Sus rodillas]]", "[[Her head|Su cabeza]]", "[[Her back|Su espalda]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'She's got a little pain in her knees sometimes'."
@@ -1178,13 +1178,13 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre Lisa.",
       "questions": [
         {
-          "question": "[[Why|Por qué]] [[has|tiene]] [[she|ella]] [[a|un]] [[cold|resfriado]]?",
+          "question": "[[Why has she a cold|Por qué tiene ella un resfriado]]?",
           "options": ["[[Because of air conditioning|Por el aire acondicionado]]", "[[Because of the rain|Por la lluvia]]", "[[Because of the sun|Por el sol]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'She was using the air conditioning all day'."
         },
         {
-          "question": "[[What|Qué]] [[is|está]] [[she|ella]] [[doing|haciendo]]?",
+          "question": "[[What is she doing|Qué está ella haciendo]]?",
           "options": ["[[Sneezing|Estornudando]]", "[[Coughing|Tosiendo]]", "[[Sleeping|Durmiendo]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'she is sneezing'."
@@ -1206,13 +1206,13 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre David.",
       "questions": [
         {
-          "question": "[[How|Qué]] [[often|tan a menudo]] [[does|va]] [[he|él]] [[go|ir]] [[to|al]] [[the|el]] [[gym|gimnasio]]?",
+          "question": "[[How often does he go to the gym|Qué tan a menudo va él ir al el gimnasio]]?",
           "options": ["[[Three times a week|Tres veces por semana]]", "[[Every day|Cada día]]", "[[Once a month|Una vez al mes]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'David goes to the gym three times a week'."
         },
         {
-          "question": "[[What|Qué]] [[should|debería]] [[he|él]] [[eat|comer]] [[more|más]]?",
+          "question": "[[What should he eat more|Qué debería él comer más]]?",
           "options": ["[[Protein|Proteína]]", "[[Sugar|Azúcar]]", "[[Fruit|Fruta]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'He should also eat more protein'."

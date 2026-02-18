@@ -13,7 +13,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra que describe la expresión estética popular.",
       "questions": [
         {
-          "question": "______ [[is|es]] [[not|no]] [[just|solo]] [[about|sobre]] [[clothes|ropa]]; [[it|se]] [[is|trata]] [[about|de]] [[identity|identidad]].",
+          "question": "______ [[is not; it just about clothes is about identity|es no solo sobre ropa; se trata de identidad]].",
           "options": [
             "[[Fashion|La moda]]",
             "[[Cooking|La cocina]]",
@@ -40,7 +40,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para complementos como bufandas y joyas.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[bought|compró]] [[some|algunos]] ______ [[to|para]] [[match|combinar]] [[her|su]] [[new|nuevo]] [[dress|vestido]].",
+          "question": "[[She bought some match dress|Ella compró algunos]] ______ [[to her new|para combinar su nuevo vestido]].",
           "options": [
             "[[accessories|accesorios]]",
             "[[ingredients|ingredientes]]",
@@ -65,7 +65,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "Expresión personal",
       "instructions": "Ordena la oración sobre el uso de la moda para expresar la personalidad.",
-      "correctSentence": "[[Many|Muchos]] [[young|jóvenes]] [[people| ]] [[use|usan]] [[fashion|la moda]] [[as|como]] [[a|una]] [[way|forma]] [[to|de]] [[express|expresar]] [[their|su]] [[unique|única]] [[personality|personalidad]] [[and|y]] [[values|valores]].",
+      "correctSentence": "[[Many young people use fashion as a way to express their unique personality and values|Muchos jóvenes   usan la moda como una forma de expresar su única personalidad y valores]].",
       "words": [
         "[[values|valores]].",
         "[[fashion|la moda]]",
@@ -101,7 +101,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra que describe un estilo popular temporal.",
       "questions": [
         {
-          "question": "[[Sustainable|La ropa sostenible]] [[clothing| ]] [[is|es]] [[the|la]] [[latest|última]] ______ [[in|en]] [[the|la]] [[industry|industria]].",
+          "question": "[[Sustainable clothing is the latest the industry|La ropa sostenible   es la última]] ______ [[in|en la industria]].",
           "options": [
             "[[trend|tendencia]]",
             "[[mistake|error]]",
@@ -128,7 +128,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa adaptar algo al gusto personal.",
       "questions": [
         {
-          "question": "[[You|Tú]] [[can|puedes]] ______ [[your|tus]] [[shoes|zapatos]] [[by| ]] [[painting|pintándolos]] [[them| ]].",
+          "question": "[[You can by painting them|Tú puedes]] ______ [[your shoes|tus zapatos   pintándolos  ]].",
           "options": [
             "[[customize|personalizar]]",
             "[[destroy|destruir]]",
@@ -153,7 +153,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "Moda rápida",
       "instructions": "Ordena la oración sobre las marcas de 'fast fashion'.",
-      "correctSentence": "[[Fast|Las marcas de]] [[fashion|moda]] [[brands|rápida]] [[produce|producen]] [[inexpensive|ropa]] [[clothing|barata]] [[rapidly|rápidamente]] [[in|en]] [[response|respuesta]] [[to|a]] [[the|las]] [[latest|últimas]] [[trends|tendencias]].",
+      "correctSentence": "[[Fast fashion brands produce inexpensive clothing rapidly in response to the latest trends|Las marcas de moda rápida producen ropa barata rápidamente en respuesta a las últimas tendencias]].",
       "words": [
         "[[trends|tendencias]].",
         "[[clothing|barata]]",
@@ -187,7 +187,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para el mueble donde se guarda la ropa.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesito]] [[to| ]] [[organize|organizar]] [[my|mi]] ______ [[for|para]] [[the|la]] [[next|próxima]] [[season|estación]].",
+          "question": "[[I need to organize my the next season|Yo necesito   organizar mi]] ______ [[for|para la próxima estación]].",
           "options": [
             "[[wardrobe|armario]]",
             "[[fridge|nevera]]",
@@ -214,7 +214,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que describe a alguien con mucho estilo.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[always|siempre]] [[looks|luce]] [[very|muy]] ______ [[even|incluso]] [[in|con]] [[casual|ropa casual]] [[clothes| ]].",
+          "question": "[[She always looks very|Ella siempre luce muy]] ______ [[even in casual clothes|incluso con ropa casual  ]].",
           "options": [
             "[[stylish|con estilo]]",
             "[[messy|desordenada]]",
@@ -239,7 +239,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ropa de segunda mano",
       "instructions": "Ordena la oración sobre sostenibilidad y moda.",
-      "correctSentence": "[[If|Si]] [[you|tú]] [[buy|compras]] [[second-hand|ropa de]] [[clothes|segunda mano]], [[you|tú]] [[will|ayudarás]] [[help| ]] [[reduce|a reducir]] [[the|el]] [[environmental|impacto]] [[impact|ambiental]] [[of|de]] [[the|la]] [[fashion|industria de la]] [[industry|moda]].",
+      "correctSentence": "[[If you, you buy second-hand clothes will help reduce the environmental impact of the fashion industry|Si tú compras ropa de segunda mano, tú ayudarás   a reducir el impacto ambiental de la industria de la moda]].",
       "words": [
         "[[industry|moda]].",
         "[[second-hand|ropa de]]",
@@ -276,7 +276,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para el material de la ropa.",
       "questions": [
         {
-          "question": "[[Cotton|El algodón]] [[is|es]] [[a|un]] [[very|muy]] [[comfortable|cómodo]] ______ [[for|para]] [[the|el]] [[summer|verano]].",
+          "question": "[[Cotton is a very comfortable the summer|El algodón es un muy cómodo]] ______ [[for|para el verano]].",
           "options": [
             "[[fabric|tejido]]",
             "[[liquid|líquido]]",
@@ -303,7 +303,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para ropa antigua de buena calidad.",
       "questions": [
         {
-          "question": "[[He|Él]] [[loves|ama]] [[collecting|coleccionar]] ______ [[jackets|chaquetas]] [[from|de]] [[the|los]] [[eighties|años ochenta]].",
+          "question": "[[He loves collecting from|Él ama coleccionar]] ______ [[jackets the eighties|chaquetas de los años ochenta]].",
           "options": [
             "[[vintage|vintage]]",
             "[[modern|modernas]]",
@@ -328,7 +328,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "Moda ética",
       "instructions": "Ordena la oración sobre el cambio hacia la moda ética.",
-      "correctSentence": "[[It|Se]] [[is|está]] [[becoming|volviendo]] [[more|más]] [[common|común]] [[for|que]] [[people|la gente]] [[to|rechace]] [[reject| ]] [[fast|la moda]] [[fashion|rápida]] [[in|a]] [[favor|favor]] [[of|de]] [[ethical|ropa]] [[and|ética]] [[durable|y]] [[clothing|duradera]].",
+      "correctSentence": "[[It is becoming more common for people to reject fast fashion in favor of ethical and durable clothing|Se está volviendo más común que la gente rechace   la moda rápida a favor de ropa ética y duradera]].",
       "words": [
         "[[clothing|duradera]].",
         "[[becoming|volviendo]]",
@@ -367,7 +367,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la ropa informal de diario.",
       "questions": [
         {
-          "question": "[[Fridays|Los viernes]] [[are|son]] ______ [[days|días]] [[at|en]] [[our|nuestra]] [[office|oficina]].",
+          "question": "[[Fridays are our office|Los viernes son]] ______ [[days at|días en nuestra oficina]].",
           "options": [
             "[[casual|casuales]]",
             "[[formal|formales]]",
@@ -394,7 +394,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa vestir más formal de lo necesario.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[don't|no]] [[want|quiero]] [[to|vestir demasiado formal]] ______ [[at|en]] [[the|la]] [[party|fiesta]].",
+          "question": "[[I don't want to|Yo no quiero vestir demasiado formal]] ______ [[at the party|en la fiesta]].",
           "options": [
             "[[overdress|sobrevestirme]]",
             "[[sleep|dormir]]",
@@ -419,7 +419,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "Estilo atemporal",
       "instructions": "Ordena la oración sobre la diferencia entre seguir modas y tener estilo propio.",
-      "correctSentence": "[[While|Mientras]] [[some|algunas]] [[people|personas]] [[follow|siguen]] [[every|cada]] [[new|nueva]] [[trend|tendencia]], [[others|otras]] [[prefer|prefieren]] [[to|desarrollar]] [[develop| ]] [[a|un]] [[timeless|atemporal]] [[personal|estilo]] [[style|personal]].",
+      "correctSentence": "[[While some, others people follow every new trend prefer to develop a timeless personal style|Mientras algunas personas siguen cada nueva tendencia, otras prefieren desarrollar   un atemporal estilo personal]].",
       "words": [
         "[[style|personal]].",
         "[[new|nueva]]",
@@ -455,7 +455,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la pieza que da información sobre la prenda.",
       "questions": [
         {
-          "question": "[[Check|Revisa]] [[the|la]] ______ [[to|para]] [[see|ver]] [[the|las]] [[washing|instrucciones de lavado]] [[instructions| ]].",
+          "question": "[[Check the the washing instructions|Revisa la]] ______ [[to see|para ver las instrucciones de lavado  ]].",
           "options": [
             "[[label|etiqueta]]",
             "[[mirror|espejo]]",
@@ -482,7 +482,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa que dos prendas quedan bien juntas.",
       "questions": [
         {
-          "question": "[[Your|Tu]] [[tie|corbata]] [[doesn't|no]] ______ [[your|tu]] [[shirt|camisa]].",
+          "question": "[[Your tie doesn't shirt|Tu corbata no]] ______ [[your|tu camisa]].",
           "options": [
             "[[match|combina con]]",
             "[[eat|come]]",
@@ -507,7 +507,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "Confianza y ropa",
       "instructions": "Ordena la oración sobre la elección de ropa y la confianza personal.",
-      "correctSentence": "[[You|Tú]] [[should|deberías]] [[choose|elegir]] [[clothes|ropa]] [[that|que]] [[make|te haga]] [[you|a ti]] [[feel|sentir]] [[confident|seguro]] [[regardless|independientemente]] [[of|de]] [[what|lo que]] [[society|la sociedad]] [[expects|espera]] [[from|de]] [[you|ti]].",
+      "correctSentence": "[[You should choose clothes that make you feel confident regardless of what society expects from you|Tú deberías elegir ropa que te haga a ti sentir seguro independientemente de lo que la sociedad espera de ti]].",
       "words": [
         "[[you|ti]].",
         "[[choose|elegir]]",
@@ -544,7 +544,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la profesión de quien hace ropa a medida.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[took|llevé]] [[my|mi]] [[suit|traje]] [[to|al]] ______ [[to|para]] [[get|hacerlo]] [[it| ]] [[fixed|arreglar]].",
+          "question": "[[I took my suit to get it fixed|Yo llevé mi traje al]] ______ [[to|para hacerlo   arreglar]].",
           "options": [
             "[[tailor|sastre]]",
             "[[butcher|carnicero]]",
@@ -571,7 +571,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la ropa de eventos especiales.",
       "questions": [
         {
-          "question": "[[The|La]] [[invitation|invitación]] [[says|dice]] ______ [[dress|vestimenta formal]] [[code| ]].",
+          "question": "[[The invitation says code|La invitación dice]] ______ [[dress|vestimenta formal  ]].",
           "options": [
             "[[formal|formal]]",
             "[[dirty|sucia]]",
@@ -596,7 +596,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "Invertir en calidad",
       "instructions": "Ordena la oración hipotética sobre la compra de ropa de calidad.",
-      "correctSentence": "[[If|Si]] [[I|yo]] [[had|tuviera]] [[more|más]] [[money|dinero]], [[I|yo]] [[would|invertiría]] [[invest| ]] [[in|en]] [[high-quality|artículos]] [[items|de alta calidad]] [[that|que]] [[last|duren]] [[for|durante]] [[many|muchos]] [[years|años]].",
+      "correctSentence": "[[If I, I had more money would invest in high-quality items that last for many years|Si yo tuviera más dinero, yo invertiría   en artículos de alta calidad que duren durante muchos años]].",
       "words": [
         "[[years|años]].",
         "[[had|tuviera]]",
@@ -633,7 +633,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el lugar donde te pruebas la ropa.",
       "questions": [
         {
-          "question": "[[Where|¿Dónde]] [[is|está]] [[the|el]] ______ [[room| ]]? [[I|Yo]] [[want|quiero]] [[to|probármelos]] [[try| ]] [[these|estos]] [[on| ]].",
+          "question": "[[Where is? I the want these on|¿Dónde está el]] ______ [[room to try| ? Yo quiero probármelos   estos  ]].",
           "options": [
             "[[fitting|probador]]",
             "[[living|salón]]",
@@ -660,7 +660,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que describe añadir complementos a un atuendo.",
       "questions": [
         {
-          "question": "[[You|Tú]] [[can|puedes]] ______ [[that|ese]] [[simple|vestido sencillo]] [[dress| ]] [[with|con]] [[a|un]] [[necklace|collar]].",
+          "question": "[[You can dress with a necklace|Tú puedes]] ______ [[that simple|ese vestido sencillo   con un collar]].",
           "options": [
             "[[accessorize|añadir accesorios a]]",
             "[[eat|comer]]",
@@ -685,7 +685,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "Comunicación visual",
       "instructions": "Ordena la oración sobre lo que comunica la ropa.",
-      "correctSentence": "[[The|La]] [[clothes|ropa]] [[we|que]] [[wear|llevamos]] [[often|a menudo]] [[communicate|comunica]] [[information|información]] [[about|sobre]] [[our|nuestro]] [[social|estatus]] [[status|social]] [[and|y]] [[professional|trayectoria]] [[background|profesional]].",
+      "correctSentence": "[[The clothes we wear often communicate information about our social status and professional background|La ropa que llevamos a menudo comunica información sobre nuestro estatus social y trayectoria profesional]].",
       "words": [
         "[[background|profesional]].",
         "[[The|La]]",
@@ -720,7 +720,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la moda respetuosa.",
       "questions": [
         {
-          "question": "______ [[is|es]] [[becoming|se está volviendo]] [[a|una]] [[priority|prioridad]] [[for|para]] [[many|muchas]] [[brands|marcas]].",
+          "question": "______ [[is becoming a priority for many brands|es se está volviendo una prioridad para muchas marcas]].",
           "options": [
             "[[Sustainability|La sostenibilidad]]",
             "[[Pollution|La contaminación]]",
@@ -747,7 +747,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el conjunto de fotos de una colección.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[showcases|muestra]] [[the|la]] [[latest|última]] [[collection|colección]] [[of|de]] [[the|la]] [[designer|diseñadora]].",
+          "question": "[[The the latest collection of the designer|El]] ______ [[showcases|muestra la última colección de la diseñadora]].",
           "options": [
             "[[lookbook|lookbook]]",
             "[[dictionary|diccionario]]",
@@ -774,7 +774,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el adjetivo que describe a alguien que sigue las tendencias.",
       "questions": [
         {
-          "question": "[[He|Él]] [[likes|le gusta]] [[to| ]] [[wear|llevar]] ______ [[clothes|ropa]] [[all|todo]] [[the|el]] [[time|tiempo]].",
+          "question": "[[He likes to wear|Él le gusta   llevar]] ______ [[clothes all the time|ropa todo el tiempo]].",
           "options": [
             "[[trendy|a la moda]]",
             "[[old-fashioned|anticuada]]",
@@ -799,7 +799,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "Estilo y autenticidad",
       "instructions": "Ordena la oración sobre la esencia del estilo personal.",
-      "correctSentence": "[[Personal|El estilo]] [[style|personal]] [[is|no]] [[not|se trata]] [[only|solo]] [[about|de]] [[following|seguir]] [[trends|tendencias]] [[but|sino]] [[also|también]] [[about|de]] [[expressing|expresar]] [[who|quién]] [[you|tú]] [[truly|realmente]] [[are|eres]].",
+      "correctSentence": "[[Personal style is not only about following trends but also about expressing who you truly are|El estilo personal no se trata solo de seguir tendencias sino también de expresar quién tú realmente eres]].",
       "words": [
         "[[are|eres]].",
         "[[style|personal]]",
@@ -836,7 +836,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para el modelo de plástico de las tiendas.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[is|está]] [[wearing|llevando]] [[a|un]] [[beautiful|hermoso]] [[evening|vestido de noche]] [[gown| ]].",
+          "question": "[[The wearing a beautiful evening gown|El]] ______ [[is|está llevando un hermoso vestido de noche  ]].",
           "options": [
             "[[mannequin|maniquí]]",
             "[[customer|cliente]]",
@@ -863,7 +863,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión para algo que ya no se lleva.",
       "questions": [
         {
-          "question": "[[These|Estos]] [[shoes|zapatos]] [[are|están]] ______ [[now|ahora]].",
+          "question": "[[These shoes are|Estos zapatos están]] ______ [[now|ahora]].",
           "options": [
             "[[out of style|pasados de moda]]",
             "[[in fashion|a la moda]]",
@@ -888,7 +888,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "Compras online",
       "instructions": "Ordena la oración sobre la tendencia de comprar ropa por internet.",
-      "correctSentence": "[[While|Mientras]] [[many|muchas]] [[people|personas]] [[still|todavía]] [[prefer|prefieren]] [[to|comprar]] [[shop| ]] [[in|en]] [[physical|tiendas]] [[stores|físicas]], [[online|las compras]] [[fashion|de moda]] [[shopping|online]] [[is|están]] [[growing|creciendo]] [[every|cada]] [[year|año]].",
+      "correctSentence": "[[While many, online fashion people still prefer to shop in physical stores shopping is growing every year|Mientras muchas personas todavía prefieren comprar   en tiendas físicas, las compras de moda online están creciendo cada año]].",
       "words": [
         "[[year|año]].",
         "[[online|las compras]]",
@@ -926,7 +926,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la sensación al tocar un tejido.",
       "questions": [
         {
-          "question": "[[The|La]] ______ [[of|de]] [[this|esta]] [[silk|seda]] [[is|es]] [[very|muy]] [[smooth|suave]].",
+          "question": "[[The this silk is very smooth|La]] ______ [[of|de esta seda es muy suave]].",
           "options": [
             "[[texture|textura]]",
             "[[color|color]]",
@@ -953,7 +953,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo para añadir detalles a la vestimenta.",
       "questions": [
         {
-          "question": "[[You|Tú]] [[can|puedes]] ______ [[a|un]] [[basic|atuendo básico]] [[outfit| ]] [[with|con]] [[bright|colores llamativos]] [[colors| ]].",
+          "question": "[[You can outfit with bright colors|Tú puedes]] ______ [[a basic|un atuendo básico   con colores llamativos  ]].",
           "options": [
             "[[accessorize|complementar]]",
             "[[forget|olvidar]]",
@@ -978,7 +978,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "Consumo consciente",
       "instructions": "Ordena la oración hipotética sobre hábitos de consumo.",
-      "correctSentence": "[[If|Si]] [[we|nosotros]] [[were|fuéramos]] [[more|más]] [[conscious|conscientes]] [[about|sobre]] [[our|nuestros]] [[consumption|hábitos de]] [[habits|consumo]], [[we|nosotros]] [[would|reduciríamos]] [[reduce| ]] [[the|los]] [[waste|residuos]] [[produced|producidos]] [[by|por]] [[the|la]] [[textile|industria]] [[industry|textil]].",
+      "correctSentence": "[[If we, we were more conscious about our consumption habits would reduce the waste produced by the textile industry|Si nosotros fuéramos más conscientes sobre nuestros hábitos de consumo, nosotros reduciríamos   los residuos producidos por la industria textil]].",
       "words": [
         "[[industry|textil]].",
         "[[conscious|conscientes]]",
@@ -1018,7 +1018,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo para un estilo que atrae mucho la atención.",
       "questions": [
         {
-          "question": "[[His|Su]] ______ [[style|estilo]] [[makes|lo hace]] [[him| ]] [[stand|destacar]] [[out| ]] [[in|entre]] [[every|cada]] [[crowd|multitud]].",
+          "question": "[[His makes him stand out in every crowd|Su]] ______ [[style|estilo lo hace   destacar   entre cada multitud]].",
           "options": [
             "[[flamboyant|llamativo]]",
             "[[discreet|discreto]]",
@@ -1045,7 +1045,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la mujer que cose.",
       "questions": [
         {
-          "question": "[[The|La]] ______ [[altered|alteró]] [[my|mi]] [[dress|vestido]] [[to|para]] [[fit|ajustarlo]] [[perfectly|perfectamente]].",
+          "question": "[[The my dress to fit perfectly|La]] ______ [[altered|alteró mi vestido para ajustarlo perfectamente]].",
           "options": [
             "[[seamstress|costurera]]",
             "[[teacher|maestra]]",
@@ -1070,7 +1070,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vestir profesional",
       "instructions": "Ordena la oración sobre la vestimenta en el trabajo.",
-      "correctSentence": "[[Dressing|Vestir]] [[professionally|profesionalmente]] [[is|es]] [[often|a menudo]] [[required|requerido]] [[in|en]] [[certain|ciertos]] [[work|entornos de]] [[environments|trabajo]] [[to|para]] [[maintain|mantener]] [[a|una]] [[serious|imagen]] [[image|seria]].",
+      "correctSentence": "[[Dressing professionally is often required in certain work environments to maintain a serious image|Vestir profesionalmente es a menudo requerido en ciertos entornos de trabajo para mantener una imagen seria]].",
       "words": [
         "[[image|seria]].",
         "[[required|requerido]]",
@@ -1105,7 +1105,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el diseño decorativo repetido.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[prefer|prefiero]] [[plain|colores lisos]] [[colors| ]] [[to|que]] [[bold|estampados llamativos]] ______.",
+          "question": "[[I prefer plain colors to bold|Yo prefiero colores lisos   que estampados llamativos]] ______.",
           "options": [
             "[[patterns|estampados]]",
             "[[sizes|tallas]]",
@@ -1132,7 +1132,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el adjetivo para un estilo sutil y discreto.",
       "questions": [
         {
-          "question": "[[Her|Su]] ______ [[elegance|elegancia]] [[is|es]] [[what|lo que]] [[makes|hace]] [[her|que ella]] [[stand|destaque]].",
+          "question": "[[Her is what makes her stand|Su]] ______ [[elegance|elegancia es lo que hace que ella destaque]].",
           "options": [
             "[[understated|sobria]]",
             "[[loud|ruidosa]]",
@@ -1157,7 +1157,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "No juzgar",
       "instructions": "Ordena la oración sobre los prejuicios basados en la vestimenta.",
-      "correctSentence": "[[We|Nosotros]] [[must|debemos]] [[not|no]] [[judge|juzgar]] [[others|a otros]] [[based|basándonos]] [[on|en]] [[their|su]] [[clothes|ropa]] [[because|porque]] [[style|el estilo]] [[is|es]] [[just|solo]] [[a|una]] [[small|pequeña]] [[part|parte]] [[of|de]] [[a|una]] [[person|persona]].",
+      "correctSentence": "[[We must not judge others based on their clothes because style is just a small part of a person|Nosotros debemos no juzgar a otros basándonos en su ropa porque el estilo es solo una pequeña parte de una persona]].",
       "words": [
         "[[person|persona]].",
         "[[based|basándonos]]",
@@ -1196,7 +1196,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa estar muy a la moda.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[lives|vive]] [[in|en]] [[a|una]] ______ [[neighborhood|barrio a la moda]] [[with|con]] [[many|muchas]] [[boutiques|boutiques]].",
+          "question": "[[She lives in a|Ella vive en una]] ______ [[neighborhood with many boutiques|barrio a la moda con muchas boutiques]].",
           "options": [
             "[[trendy|a la moda]]",
             "[[empty|vacío]]",
@@ -1223,7 +1223,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para el borde de la ropa cosido.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[of|de]] [[these|estos]] [[pants|pantalones]] [[is|está]] [[too|demasiado]] [[long|largo]].",
+          "question": "[[The these pants is too long|El]] ______ [[of|de estos pantalones está demasiado largo]].",
           "options": [
             "[[hem|dobladillo]]",
             "[[pocket|bolsillo]]",
@@ -1248,7 +1248,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "Diseñar ropa",
       "instructions": "Ordena la pregunta hipotética sobre el diseño de ropa propia.",
-      "correctSentence": "[[If|Si]] [[you|tú]] [[could|pudieras]] [[design|diseñar]] [[your|tu]] [[own|propia]] [[clothes|ropa]], [[what|qué]] [[kind|tipo]] [[of|de]] [[materials|materiales]] [[and|y]] [[colors|colores]] [[would|elegirías]] [[you|tú]] [[choose| ]] [[to|usar]] [[use| ]]?.",
+      "correctSentence": "[[If you, what could design your own clothes kind of materials and colors would you choose to use|Si tú pudieras diseñar tu propia ropa, qué tipo de materiales y colores elegirías tú   usar  ]]?.",
       "words": [
         "[[use| ]]?.",
         "[[kind|tipo]]",
@@ -1287,7 +1287,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que describe un estilo poco convencional.",
       "questions": [
         {
-          "question": "[[His|Su]] ______ [[fashion|gusto por la moda]] [[taste| ]] [[surprises|sorprende]] [[everyone|a todos]].",
+          "question": "[[His taste surprises everyone|Su]] ______ [[fashion|gusto por la moda   sorprende a todos]].",
           "options": [
             "[[eccentric|excéntrico]]",
             "[[ordinary|común]]",
@@ -1314,7 +1314,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para el creador de la colección.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[showed|mostró]] [[his|sus]] [[new|nuevas]] [[ideas|ideas]] [[on|en]] [[the|la]] [[runway|pasarela]].",
+          "question": "[[The his new ideas on the runway|El]] ______ [[showed|mostró sus nuevas ideas en la pasarela]].",
           "options": [
             "[[designer|diseñador]]",
             "[[mechanic|mecánico]]",
@@ -1339,7 +1339,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "Piezas clásicas",
       "instructions": "Ordena la oración sobre la importancia de las prendas clásicas.",
-      "correctSentence": "[[Even|Aunque]] [[though| ]] [[fashion|la moda]] [[changes|cambia]] [[very|muy]] [[quickly|rápido]], [[having|tener]] [[a|unas]] [[few|pocas]] [[classic|piezas]] [[pieces|clásicas]] [[is|es]] [[a|una]] [[wise|sabia]] [[investment|inversión]] [[for|para]] [[anyone|cualquiera]].",
+      "correctSentence": "[[Even though, having a fashion changes very quickly few classic pieces is a wise investment for anyone|Aunque   la moda cambia muy rápido, tener unas pocas piezas clásicas es una sabia inversión para cualquiera]].",
       "words": [
         "[[anyone|cualquiera]].",
         "[[quickly|rápido]],",
@@ -1376,7 +1376,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que describe algo suave y brillante.",
       "questions": [
         {
-          "question": "[[The|El]] [[new|nuevo]] [[design|diseño]] [[is|es]] [[very|muy]] ______ [[and|y]] [[modern|moderno]].",
+          "question": "[[The new design is very modern|El nuevo diseño es muy]] ______ [[and|y moderno]].",
           "options": [
             "[[sleek|pulido/estilizado]]",
             "[[rough|áspero]]",
@@ -1403,7 +1403,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para el conjunto de ropa que llevas puesto.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[put|armó]] [[together| ]] [[a|un]] [[great|gran]] ______ [[for|para]] [[the|la]] [[interview|entrevista]].",
+          "question": "[[She put together a great the interview|Ella armó   un gran]] ______ [[for|para la entrevista]].",
           "options": [
             "[[outfit|atuendo]]",
             "[[furniture|mueble]]",
@@ -1428,7 +1428,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "Evitar compras innecesarias",
       "instructions": "Ordena la oración sobre el estilo propio y el ahorro.",
-      "correctSentence": "[[Developing|Desarrollar]] [[a|un]] [[personal|estilo]] [[style|personal]] [[helps|te ayuda]] [[you|a ti]] [[avoid|a evitar]] [[buying|comprar]] [[things|cosas]] [[you|que]] [[don't|no]] [[really|realmente]] [[need|necesitas]] [[or|o]] [[like|te gustan]].",
+      "correctSentence": "[[Developing a personal style helps you avoid buying things you don't really need or like|Desarrollar un estilo personal te ayuda a ti a evitar comprar cosas que no realmente necesitas o te gustan]].",
       "words": [
         "[[like|te gustan]].",
         "[[style|personal]]",
@@ -1464,7 +1464,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la sencillez en la vestimenta o actitud.",
       "questions": [
         {
-          "question": "[[In|En]] [[some|algunas]] [[cultures|culturas]], ______ [[in|en]] [[dress|el vestir]] [[is|es]] [[very|muy]] [[important|importante]].",
+          "question": "[[In some cultures dress important|En algunas culturas]], ______ [[in is very|en el vestir es muy importante]].",
           "options": [
             "[[modesty|la modestia]]",
             "[[arrogance|la arrogancia]]",

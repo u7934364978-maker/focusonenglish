@@ -13,7 +13,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo modal de obligación adecuado.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[reduce|reducir]] [[our|nuestro]] [[plastic|de plástico]] [[consumption|consumo]] [[to|para]] [[protect|proteger]] [[the|los]] [[oceans|océanos]].",
+          "question": "[[We our plastic consumption to protect the oceans|Nosotros]] _______ [[reduce|reducir nuestro de plástico consumo para proteger los océanos]].",
           "options": [
             "[[must|debemos (obligación)]]",
             "[[might|podríamos]]",
@@ -40,7 +40,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término que significa 'calentamiento global'.",
       "questions": [
         {
-          "question": "_______ [[is|está]] [[causing|causando]] [[the|que]] [[ice|los polares]] [[caps|casquetes]] [[to| ]] [[melt|se derritan]] [[rapidly|rápidamente]].",
+          "question": "_______ [[is causing the ice caps to melt rapidly|está causando que los polares casquetes   se derritan rápidamente]].",
           "options": [
             "[[Global warming|El calentamiento global]]",
             "[[Air pollution|La contaminación del aire]]",
@@ -67,7 +67,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración usando el primer condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[we|nosotros]] [[don't|no]] [[recycle|reciclamos]] [[more|más]], [[the|el]] [[landfill|vertedero]] _______ [[full|lleno]] [[soon|pronto]].",
+          "question": "[[If we, the don't recycle more landfill|Si nosotros no reciclamos más, el vertedero]] _______ [[full soon|lleno pronto]].",
           "options": [
             "[[will be|estará]]",
             "[[is|está]]",
@@ -94,7 +94,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa 'renovable'.",
       "questions": [
         {
-          "question": "_______ [[energy|de energía]] [[sources|fuentes]] [[like|como]] [[solar|la solar]] [[and|y]] [[wind|la eólica]] [[are|se están]] [[becoming|volviendo]] [[cheaper|más baratas]].",
+          "question": "_______ [[energy sources like solar and wind are becoming cheaper|de energía fuentes como la solar y la eólica se están volviendo más baratas]].",
           "options": [
             "[[Renewable|Renovables]]",
             "[[Fossil|Fósiles]]",
@@ -121,7 +121,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo modal para dar un consejo.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[use|usar]] [[public|público]] [[transport|transporte]] [[instead|en lugar]] [[of|de]] [[driving|conducir]] [[your|tu]] [[car|coche]].",
+          "question": "[[You public transport instead of driving your car|Tú]] _______ [[use|usar público transporte en lugar de conducir tu coche]].",
           "options": [
             "[[should|deberías]]",
             "[[must|debes (obligación)]]",
@@ -148,7 +148,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que significa 'hábitats'.",
       "questions": [
         {
-          "question": "[[Deforestation|La deforestación]] [[leads|lleva]] [[to|a]] [[the|la]] [[loss|pérdida]] [[of|de]] [[natural|naturales]] _______ [[for|para]] [[many|muchos]] [[animals|animales]].",
+          "question": "[[Deforestation leads to the loss of natural many|La deforestación lleva a la pérdida de naturales]] _______ [[for animals|para muchos animales]].",
           "options": [
             "[[habitats|hábitats]]",
             "[[factories|fábricas]]",
@@ -175,7 +175,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta del segundo condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[I|yo]] [[were|fuera]] [[the|el]] [[president|presidente]], [[I|yo]] _______ [[invest|invertiría]] [[more|más]] [[in|en]] [[green|verde]] [[technology|tecnología]].",
+          "question": "[[If I, I were the president more in green|Si yo fuera el presidente, yo]] _______ [[invest technology|invertiría más en verde tecnología]].",
           "options": [
             "[[would invest|invertiría]]",
             "[[will invest|invertiré]]",
@@ -202,7 +202,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el adjetivo que significa 'en peligro de extinción'.",
       "questions": [
         {
-          "question": "[[Many|Muchas]] [[species|especies]] [[are|están]] _______ [[due|debido]] [[to|a]] [[illegal|ilegal]] [[hunting|la caza]] [[and|y]] [[climate|climático]] [[change|el cambio]].",
+          "question": "[[Many species are to and climate change|Muchas especies están]] _______ [[due illegal hunting|debido a ilegal la caza y climático el cambio]].",
           "options": [
             "[[endangered|en peligro de extinción]]",
             "[[safe|seguras]]",
@@ -229,7 +229,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de la voz pasiva continua.",
       "questions": [
         {
-          "question": "[[Solar|Solares]] [[panels|paneles]] _______ [[installed|instalando]] [[on|en]] [[many|muchos]] [[roofs|tejados]] [[to|para]] [[save|ahorrar]] [[electricity|electricidad]].",
+          "question": "[[Solar panels many roofs to save electricity|Solares paneles]] _______ [[installed on|instalando en muchos tejados para ahorrar electricidad]].",
           "options": [
             "[[are being|están siendo]]",
             "[[are|están]]",
@@ -256,7 +256,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa 'sostenible'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[need|necesitamos]] [[to| ]] [[find|encontrar]] _______ [[ways|maneras]] [[to|para]] [[use|usar]] [[our|nuestros]] [[natural|naturales]] [[resources|recursos]].",
+          "question": "[[We need to find natural resources|Nosotros necesitamos   encontrar]] _______ [[ways to use our|maneras para usar nuestros naturales recursos]].",
           "options": [
             "[[sustainable|sostenibles]]",
             "[[wasteful|derrochadoras]]",
@@ -283,7 +283,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la recomendación negativa correcta.",
       "questions": [
         {
-          "question": "[[People|La gente]] _______ [[throw|tirar]] [[trash|basura]] [[in|en]] [[the|las]] [[streets|calles]].",
+          "question": "[[People trash in the streets|La gente]] _______ [[throw|tirar basura en las calles]].",
           "options": [
             "[[shouldn't|no debería]]",
             "[[must|debe]]",
@@ -310,7 +310,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el término que significa 'efecto invernadero'.",
       "questions": [
         {
-          "question": "[[Carbon|De carbono]] [[dioxide|dióxido]] [[is|es]] [[one|uno]] [[of|de]] [[the|los]] [[main|principales]] _______ [[gases|gases]].",
+          "question": "[[Carbon dioxide is one of the main|De carbono dióxido es uno de los principales]] _______ [[gases|gases]].",
           "options": [
             "[[greenhouse|de efecto invernadero]]",
             "[[natural|naturales]]",
@@ -337,7 +337,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa con el primer condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[you|tú]] [[turn|apagas]] [[off| ]] [[the|las]] [[lights|luces]], [[you|tú]] _______ [[energy|energía]].",
+          "question": "[[If you, you turn off the lights|Si tú apagas   las luces, tú]] _______ [[energy|energía]].",
           "options": [
             "[[will save|ahorrarás]]",
             "[[save|ahorras]]",
@@ -364,7 +364,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa 'dañar'.",
       "questions": [
         {
-          "question": "[[Water|Del agua]] [[pollution|La contaminación]] [[can|puede]] _______ [[marine|marina]] [[life|vida]] [[and|y]] [[human|humana]] [[health|salud]].",
+          "question": "[[Water pollution can life health|Del agua La contaminación puede]] _______ [[marine and human|marina vida y humana salud]].",
           "options": [
             "[[harm|dañar]]",
             "[[help|ayudar]]",
@@ -391,7 +391,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para 'combustibles fósiles'.",
       "questions": [
         {
-          "question": "_______ [[are|son]] [[the|la]] [[primary|principal]] [[cause|causa]] [[of|de]] [[air|del aire]] [[pollution|contaminación]].",
+          "question": "_______ [[are the primary cause of air pollution|son la principal causa de del aire contaminación]].",
           "options": [
             "[[Fossil fuels|Los combustibles fósiles]]",
             "[[Wind turbines|Las turbinas eólicas]]",
@@ -418,7 +418,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con el término que significa 'huella de carbono'.",
       "questions": [
         {
-          "question": "[[Many|Mucha]] [[people|gente]] [[have|ha]] [[started|empezado]] [[using|a usar]] [[electric|eléctricos]] [[cars|coches]] [[to|para]] [[reduce|reducir]] [[their|su]] _______ [[footprint| ]].",
+          "question": "[[Many people have started using electric cars to reduce their|Mucha gente ha empezado a usar eléctricos coches para reducir su]] _______ [[footprint| ]].",
           "options": [
             "[[carbon|de carbono]]",
             "[[water|de agua]]",
@@ -445,7 +445,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa con el segundo condicional.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[could|podríamos]] [[save|ahorrar]] [[a|mucha]] [[lot| ]] [[of| ]] [[water|agua]] [[if|si]] [[we|nosotros]] _______ [[all|todas]] [[the|las]] [[leaks|fugas]] [[in|en]] [[our|nuestras]] [[homes|casas]].",
+          "question": "[[We could save a lot of water if we the leaks in our homes|Nosotros podríamos ahorrar mucha     agua si nosotros]] _______ [[all|todas las fugas en nuestras casas]].",
           "options": [
             "[[fixed|arregláramos]]",
             "[[fix|arreglamos]]",
@@ -472,7 +472,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa 'prevenir'.",
       "questions": [
         {
-          "question": "[[Recycling|Reciclar]] [[paper|papel]] [[helps|ayuda]] [[to|a]] _______ [[the|la]] [[destruction|destrucción]] [[of|de]] [[forests|bosques]].",
+          "question": "[[Recycling paper helps to|Reciclar papel ayuda a]] _______ [[the destruction of forests|la destrucción de bosques]].",
           "options": [
             "[[prevent|prevenir]]",
             "[[promote|promover]]",
@@ -499,7 +499,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que indica 'subir' o 'aumentar'.",
       "questions": [
         {
-          "question": "[[The|Los]] [[ocean|del océano]] [[levels|niveles]] [[are|están]] _______ [[due|debido]] [[to|al]] [[the| ]] [[melting|derretimiento]] [[of|de]] [[the|los]] [[glaciers|glaciares]].",
+          "question": "[[The ocean levels are of the glaciers|Los del océano niveles están]] _______ [[due to the melting|debido al   derretimiento de los glaciares]].",
           "options": [
             "[[rising|subiendo]]",
             "[[falling|bajando]]",
@@ -526,7 +526,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa con el participio pasado para formar la voz pasiva.",
       "questions": [
         {
-          "question": "[[In|En]] [[many|muchas]] [[cities|ciudades]], [[the|la]] [[air|del aire]] [[quality|calidad]] [[is|es]] _______ [[daily|diariamente]].",
+          "question": "[[In many, the cities air quality is|En muchas ciudades, la del aire calidad es]] _______ [[daily|diariamente]].",
           "options": [
             "[[monitored|monitoreada]]",
             "[[monitoring|monitoreando]]",
@@ -553,7 +553,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa con el término que significa 'biodiversidad'.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[essential|esencial]] [[for|para]] [[the|la]] [[health|salud]] [[of|de]] [[our|nuestro]] [[planet|planeta]].",
+          "question": "_______ [[is essential for the health of our planet|es esencial para la salud de nuestro planeta]].",
           "options": [
             "[[Biodiversity|La biodiversidad]]",
             "[[Technology|La tecnología]]",
@@ -580,7 +580,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa 'clasificar'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[have|tenemos]] [[to|que]] _______ [[our|nuestros]] [[waste|residuos]] [[into|en]] [[different|diferentes]] [[containers|contenedores]] [[for|para]] [[recycling|reciclar]].",
+          "question": "[[We have to waste containers for recycling|Nosotros tenemos que]] _______ [[our into different|nuestros residuos en diferentes contenedores para reciclar]].",
           "options": [
             "[[sort|clasificar]]",
             "[[throw|tirar]]",
@@ -607,7 +607,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa con el segundo condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[governments|los gobiernos]] _______ [[stricter|más estrictas]] [[laws|leyes]], [[pollution|la contaminación]] [[would|disminuiría]] [[decrease| ]].",
+          "question": "[[If governments, pollution would decrease|Si los gobiernos]] _______ [[stricter laws|más estrictas leyes, la contaminación disminuiría  ]].",
           "options": [
             "[[implemented|implementaran]]",
             "[[implement|implementan]]",
@@ -634,7 +634,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término que significa 'sobrepesca'.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[a|un]] [[major|gran]] [[problem|problema]] [[for|para]] [[the|la]] [[survival|supervivencia]] [[of|de]] [[many|muchas]] [[fish|de peces]] [[species|especies]].",
+          "question": "_______ [[is a major problem for the survival of many fish species|es un gran problema para la supervivencia de muchas de peces especies]].",
           "options": [
             "[[Overfishing|La sobrepesca]]",
             "[[Agriculture|La agricultura]]",
@@ -661,7 +661,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa con la palabra que significa 'capa'.",
       "questions": [
         {
-          "question": "[[The|La]] [[ozone|de ozono]] _______ [[protects|nos protege]] [[us| ]] [[from|de]] [[the|la]] [[sun's|del sol]] [[harmful|dañina]] [[radiation|radiación]].",
+          "question": "[[The ozone from the sun's harmful radiation|La de ozono]] _______ [[protects us|nos protege   de la del sol dañina radiación]].",
           "options": [
             "[[layer|capa]]",
             "[[surface|superficie]]",
@@ -688,7 +688,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para 'respetuoso con el medio ambiente'.",
       "questions": [
         {
-          "question": "_______ [[products|productos]] [[are|se están]] [[becoming|volviendo]] [[more|más]] [[popular|populares]] [[among|entre]] [[consumers|consumidores]].",
+          "question": "_______ [[products are becoming more popular among consumers|productos se están volviendo más populares entre consumidores]].",
           "options": [
             "[[Eco-friendly|Respetuosos con el medio ambiente]]",
             "[[Disposable|Desechables]]",
@@ -715,7 +715,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa con el segundo condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[we|nosotros]] _______ [[more|más]] [[trees|árboles]], [[the|el]] [[air|aire]] [[would|estaría]] [[be| ]] [[much|mucho]] [[cleaner|más limpio]].",
+          "question": "[[If we, the air would be much cleaner|Si nosotros]] _______ [[more trees|más árboles, el aire estaría   mucho más limpio]].",
           "options": [
             "[[planted|plantáramos]]",
             "[[plant|plantamos]]",
@@ -742,7 +742,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término que significa 'sequías'.",
       "questions": [
         {
-          "question": "_______ [[are|se están]] [[becoming|volviendo]] [[more|más]] [[frequent|frecuentes]] [[in|en]] [[many|muchas]] [[parts|partes]] [[of|del]] [[the| ]] [[world|mundo]].",
+          "question": "_______ [[are becoming more frequent in many parts of the world|se están volviendo más frecuentes en muchas partes del   mundo]].",
           "options": [
             "[[Droughts|Las sequías]]",
             "[[Floods|Las inundaciones]]",
@@ -769,7 +769,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que significa 'fuente'.",
       "questions": [
         {
-          "question": "[[Solar|Solar]] [[power|energía]] [[is|es]] [[a|una]] [[clean|limpia]] _______ [[of|de]] [[energy|energía]] [[that|que]] [[doesn't|no]] [[produce|produce]] [[pollution|contaminación]].",
+          "question": "[[Solar power is a clean energy that doesn't|Solar energía es una limpia]] _______ [[of produce pollution|de energía que no produce contaminación]].",
           "options": [
             "[[source|fuente]]",
             "[[waste|residuo]]",
@@ -796,7 +796,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa 'evitar'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[should|deberíamos]] _______ [[using|usar]] [[single-use|de un solo uso]] [[plastics|plásticos]] [[whenever|siempre que sea]] [[possible|posible]].",
+          "question": "[[We should plastics whenever possible|Nosotros deberíamos]] _______ [[using single-use|usar de un solo uso plásticos siempre que sea posible]].",
           "options": [
             "[[avoid|evitar]]",
             "[[enjoy|disfrutar]]",
@@ -821,7 +821,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Compromiso ambiental",
       "instructions": "Ordena las palabras para expresar una opinión sobre la responsabilidad ambiental.",
-      "correctSentence": "[[I|Yo]] [[believe|creo]] [[that|que]] [[everyone|todos]] [[should|deberían]] [[do|hacer]] [[their|su]] [[part|parte]] [[to|para]] [[protect|proteger]] [[the|el]] [[environment|medio ambiente]].",
+      "correctSentence": "[[I believe that everyone should do their part to protect the environment|Yo creo que todos deberían hacer su parte para proteger el medio ambiente]].",
       "words": [
         "[[I|Yo]]",
         "[[believe|creo]]",
@@ -852,7 +852,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Energía y dependencia",
       "instructions": "Ordena las palabras para hablar sobre la importancia de las energías renovables.",
-      "correctSentence": "[[Renewable|Las fuentes de]] [[energy|energía]] [[sources|renovables]] [[are|son]] [[essential|esenciales]] [[for|para]] [[reducing|reducir]] [[our|nuestra]] [[dependence|dependencia]] [[on|en]] [[fossil|fósiles]] [[fuels|combustibles]].",
+      "correctSentence": "[[Renewable energy sources are essential for reducing our dependence on fossil fuels|Las fuentes de energía renovables son esenciales para reducir nuestra dependencia en fósiles combustibles]].",
       "words": [
         "[[Renewable|Las fuentes de]]",
         "[[energy|energía]]",
@@ -883,7 +883,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Urgencia climática",
       "instructions": "Ordena las palabras para advertir sobre las consecuencias de la inacción.",
-      "correctSentence": "[[If|Si]] [[we|nosotros]] [[don't|no]] [[act|actuamos]] [[now|ahora]], [[the|las]] [[consequences|consecuencias]] [[for|para]] [[the|el]] [[planet|planeta]] [[will|serán]] [[be| ]] [[irreversible|irreversibles]].",
+      "correctSentence": "[[If we, the don't act now consequences for the planet will be irreversible|Si nosotros no actuamos ahora, las consecuencias para el planeta serán   irreversibles]].",
       "words": [
         "[[If|Si]]",
         "[[we|nosotros]]",
@@ -915,7 +915,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Educación ambiental",
       "instructions": "Ordena las palabras para hablar sobre la educación infantil y el reciclaje.",
-      "correctSentence": "[[It|Es]] [[is| ]] [[important|importante]] [[to| ]] [[educate|educar]] [[children|a los niños]] [[about|sobre]] [[the|la]] [[importance|importancia]] [[of|de]] [[recycling|reciclar]] [[from|desde]] [[a|una]] [[young|temprana]] [[age|edad]].",
+      "correctSentence": "[[It is important to educate children about the importance of recycling from a young age|Es   importante   educar a los niños sobre la importancia de reciclar desde una temprana edad]].",
       "words": [
         "[[It|Es]]",
         "[[is| ]]",
@@ -949,7 +949,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Crítica política",
       "instructions": "Ordena las palabras para formar una oración en voz pasiva continua.",
-      "correctSentence": "[[The|El]] [[government|gobierno]] [[is|está]] [[being|siendo]] [[criticized|criticado]] [[for|por]] [[not|no]] [[doing|hacer]] [[enough|lo suficiente]] [[to|para]] [[combat|combatir]] [[pollution|la contaminación]].",
+      "correctSentence": "[[The government is being criticized for not doing enough to combat pollution|El gobierno está siendo criticado por no hacer lo suficiente para combatir la contaminación]].",
       "words": [
         "[[The|El]]",
         "[[government|gobierno]]",
@@ -980,7 +980,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reducción de residuos",
       "instructions": "Ordena las palabras para formar una oración en segundo condicional.",
-      "correctSentence": "[[We|Nosotros]] [[could|podríamos]] [[reduce|reducir]] [[our|nuestros]] [[waste|residuos]] [[significantly|significativamente]] [[if|si]] [[we|nosotros]] [[used|usáramos]] [[reusable|reutilizables]] [[containers|contenedores]] [[for|para]] [[our|nuestra]] [[food|comida]].",
+      "correctSentence": "[[We could reduce our waste significantly if we used reusable containers for our food|Nosotros podríamos reducir nuestros residuos significativamente si nosotros usáramos reutilizables contenedores para nuestra comida]].",
       "words": [
         "[[We|Nosotros]]",
         "[[could|podríamos]]",
@@ -1013,7 +1013,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Alternativas limpias",
       "instructions": "Ordena las palabras para comparar diferentes fuentes de energía.",
-      "correctSentence": "[[Solar|La energía solar]] [[and|y]] [[wind|eólica]] [[energy| ]] [[are|son]] [[cleaner|alternativas más limpias]] [[alternatives| ]] [[than|que]] [[burning|quemar]] [[fossil|fósiles]] [[fuels|combustibles]] [[for|para]] [[electricity|electricidad]].",
+      "correctSentence": "[[Solar and wind energy are cleaner alternatives than burning fossil fuels for electricity|La energía solar y eólica   son alternativas más limpias   que quemar fósiles combustibles para electricidad]].",
       "words": [
         "[[Solar|La energía solar]]",
         "[[and|y]]",
@@ -1045,7 +1045,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Responsabilidad futura",
       "instructions": "Ordena las palabras para hablar sobre el futuro del planeta.",
-      "correctSentence": "[[It|Es]] [[is| ]] [[our|nuestra]] [[responsibility|responsabilidad]] [[to| ]] [[make|asegurarnos]] [[sure| ]] [[that|que]] [[the|el]] [[planet|planeta]] [[remains|permanezca]] [[healthy|saludable]] [[for|para]] [[future|futuras]] [[generations|generaciones]].",
+      "correctSentence": "[[It is our responsibility to make sure that the planet remains healthy for future generations|Es   nuestra responsabilidad   asegurarnos   que el planeta permanezca saludable para futuras generaciones]].",
       "words": [
         "[[It|Es]]",
         "[[is| ]]",
@@ -1079,7 +1079,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pérdida de biodiversidad",
       "instructions": "Ordena las palabras para explicar el impacto de la deforestación.",
-      "correctSentence": "[[Deforestation|La deforestación]] [[is|es]] [[one|una]] [[of|de]] [[the|las]] [[main|principales]] [[causes|causas]] [[of|de]] [[the|la]] [[loss|pérdida]] [[of|de]] [[biodiversity|biodiversidad]] [[in|en]] [[tropical|tropicales]] [[regions|regiones]].",
+      "correctSentence": "[[Deforestation is one of the main causes of the loss of biodiversity in tropical regions|La deforestación es una de las principales causas de la pérdida de biodiversidad en tropicales regiones]].",
       "words": [
         "[[Deforestation|La deforestación]]",
         "[[is|es]]",
@@ -1113,7 +1113,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Bicicletas y aire puro",
       "instructions": "Ordena las palabras para formar una oración en segundo condicional.",
-      "correctSentence": "[[If|Si]] [[more|más]] [[people|gente]] [[used|usara]] [[bicycles|bicicletas]], [[the|la]] [[air|del aire]] [[quality|calidad]] [[in|en]] [[the|la]] [[city|ciudad]] [[would|mejoraría]] [[improve| ]] [[greatly|mucho]].",
+      "correctSentence": "[[If more, the people used bicycles air quality in the city would improve greatly|Si más gente usara bicicletas, la del aire calidad en la ciudad mejoraría   mucho]].",
       "words": [
         "[[If|Si]]",
         "[[more|más]]",
@@ -1146,7 +1146,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Envases plásticos",
       "instructions": "Ordena las palabras para dar un consejo sobre el consumo responsable.",
-      "correctSentence": "[[We|Nosotros]] [[should|deberíamos]] [[avoid|evitar]] [[buying|comprar]] [[products|productos]] [[with|con]] [[too|demasiado]] [[much| ]] [[plastic|de plástico]] [[packaging|embalaje]] [[to|para]] [[reduce|reducir]] [[waste|los residuos]].",
+      "correctSentence": "[[We should avoid buying products with too much plastic packaging to reduce waste|Nosotros deberíamos evitar comprar productos con demasiado   de plástico embalaje para reducir los residuos]].",
       "words": [
         "[[We|Nosotros]]",
         "[[should|deberíamos]]",
@@ -1178,7 +1178,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Advertencia científica",
       "instructions": "Ordena las palabras para reportar una advertencia científica.",
-      "correctSentence": "[[Scientists|Los científicos]] [[warn|advierten]] [[that|que]] [[global|las globales]] [[temperatures|temperaturas]] [[will|seguirán]] [[continue| ]] [[to|subiendo]] [[rise| ]] [[in|en]] [[the|los]] [[coming|próximos]] [[years|años]].",
+      "correctSentence": "[[Scientists warn that global temperatures will continue to rise in the coming years|Los científicos advierten que las globales temperaturas seguirán   subiendo   en los próximos años]].",
       "words": [
         "[[Scientists|Los científicos]]",
         "[[warn|advierten]]",
@@ -1210,7 +1210,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Más que reciclar",
       "instructions": "Ordena las palabras para enfatizar la necesidad de reducir el consumo.",
-      "correctSentence": "[[It|No]] [[is|es]] [[not| ]] [[enough|suficiente]] [[to| ]] [[just|solo]] [[recycle|reciclar]]; [[we|nosotros]] [[also|también]] [[need|necesitamos]] [[to| ]] [[reduce|reducir]] [[our|nuestro]] [[consumption|consumo]].",
+      "correctSentence": "[[It is; we not enough to just recycle also need to reduce our consumption|No es   suficiente   solo reciclar; nosotros también necesitamos   reducir nuestro consumo]].",
       "words": [
         "[[It|No]]",
         "[[is| ]]",
@@ -1243,7 +1243,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vehículos eléctricos",
       "instructions": "Ordena las palabras para explicar la popularidad de los coches eléctricos.",
-      "correctSentence": "[[Electric|Los vehículos]] [[vehicles|eléctricos]] [[are|se están]] [[becoming|volviendo]] [[more|más]] [[popular|populares]] [[as|a medida que]] [[battery|la de las baterías]] [[technology|tecnología]] [[improves|mejora]] [[over|con el]] [[time|tiempo]].",
+      "correctSentence": "[[Electric vehicles are becoming more popular as battery technology improves over time|Los vehículos eléctricos se están volviendo más populares a medida que la de las baterías tecnología mejora con el tiempo]].",
       "words": [
         "[[Electric|Los vehículos]]",
         "[[vehicles|eléctricos]]",
@@ -1274,7 +1274,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Equilibrio necesario",
       "instructions": "Ordena las palabras para hablar sobre el equilibrio entre economía y medio ambiente.",
-      "correctSentence": "[[We|Nosotros]] [[must|debemos]] [[find|encontrar]] [[a|una]] [[way|manera]] [[to|de]] [[balance|equilibrar]] [[economic|el económico]] [[growth|crecimiento]] [[with|con]] [[environmental|ambiental]] [[protection|la protección]].",
+      "correctSentence": "[[We must find a way to balance economic growth with environmental protection|Nosotros debemos encontrar una manera de equilibrar el económico crecimiento con ambiental la protección]].",
       "words": [
         "[[We|Nosotros]]",
         "[[must|debemos]]",
@@ -1305,7 +1305,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Plástico en el mar",
       "instructions": "Ordena las palabras para describir un problema ambiental marino.",
-      "correctSentence": "[[Plastic|La de plástico]] [[pollution|contaminación]] [[in|en]] [[the|los]] [[oceans|océanos]] [[is|está]] [[causing|causando]] [[serious|serios]] [[harm|daños]] [[to|a]] [[marine|la marina]] [[life|vida]].",
+      "correctSentence": "[[Plastic pollution in the oceans is causing serious harm to marine life|La de plástico contaminación en los océanos está causando serios daños a la marina vida]].",
       "words": [
         "[[Plastic|La de plástico]]",
         "[[pollution|contaminación]]",
@@ -1336,7 +1336,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Coste energético",
       "instructions": "Ordena las palabras para formar una oración en primer condicional.",
-      "correctSentence": "[[If|Si]] [[we|nosotros]] [[don't|no]] [[reduce|reducimos]] [[our|nuestro]] [[energy|energético]] [[consumption|consumo]], [[the|los]] [[costs|costes]] [[will|seguirán]] [[continue| ]] [[to|subiendo]] [[rise| ]].",
+      "correctSentence": "[[If we, the don't reduce our energy consumption costs will continue to rise|Si nosotros no reducimos nuestro energético consumo, los costes seguirán   subiendo  ]].",
       "words": [
         "[[If|Si]]",
         "[[we|nosotros]]",
@@ -1368,7 +1368,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Conservación de recursos",
       "instructions": "Ordena las palabras para hablar sobre la conservación y el futuro.",
-      "correctSentence": "[[The|La]] [[conservation|conservación]] [[of|de]] [[natural|naturales]] [[resources|recursos]] [[is|es]] [[essential|esencial]] [[for|para]] [[a|un]] [[sustainable|sostenible]] [[future|futuro]].",
+      "correctSentence": "[[The conservation of natural resources is essential for a sustainable future|La conservación de naturales recursos es esencial para un sostenible futuro]].",
       "words": [
         "[[The|La]]",
         "[[conservation|conservación]]",
@@ -1398,7 +1398,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Marketing verde",
       "instructions": "Ordena las palabras para explicar el cambio en las políticas empresariales.",
-      "correctSentence": "[[More|Cada vez]] [[and|más]] [[more| ]] [[companies|empresas]] [[are|están]] [[adopting|adoptando]] [[green|verdes]] [[policies|políticas]] [[to|para]] [[attract|atraer]] [[eco-conscious|eco-conscientes]] [[customers|clientes]].",
+      "correctSentence": "[[More and more companies are adopting green policies to attract eco-conscious customers|Cada vez más   empresas están adoptando verdes políticas para atraer eco-conscientes clientes]].",
       "words": [
         "[[More|Cada vez]]",
         "[[and|más]]",
@@ -1429,7 +1429,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Eventos extremos",
       "instructions": "Ordena las palabras para hablar sobre las predicciones del cambio climático.",
-      "correctSentence": "[[It|Se]] [[is|estima]] [[estimated| ]] [[that|que]] [[climate|el cambio]] [[change|climático]] [[will|causará]] [[cause| ]] [[more|más]] [[extreme|extremos]] [[weather|meteorológicos]] [[events|eventos]].",
+      "correctSentence": "[[It is estimated that climate change will cause more extreme weather events|Se estima   que el cambio climático causará   más extremos meteorológicos eventos]].",
       "words": [
         "[[It|Se]]",
         "[[is|estima]]",

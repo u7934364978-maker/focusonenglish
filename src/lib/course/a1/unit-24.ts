@@ -15,7 +15,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo correcto para describir la estatura.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[tall|alto]] [[and|y]] [[slim|delgado]].",
+          "question": "[[He and slim|Él]] _______ [[tall|alto y delgado]].",
           "options": ["[[is|es]]", "[[has|tiene]]", "[[am|soy/estoy]]"],
           "correctAnswer": 0,
           "explanation": "Usamos el verbo 'to be' para describir la estatura y complexión."
@@ -37,7 +37,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo correcto para describir los ojos.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[blue|azules]] [[eyes|ojos]].",
+          "question": "[[She eyes|Ella]] _______ [[blue|azules ojos]].",
           "options": ["[[is|es]]", "[[has|tiene]]", "[[are|son]]"],
           "correctAnswer": 1,
           "explanation": "Usamos el verbo 'to have' para describir rasgos como el color de ojos."
@@ -59,7 +59,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige la descripción correcta.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[brother|hermano]] [[has|tiene]] _______ [[dark|oscuro]] [[hair|pelo]].",
+          "question": "[[My brother has hair|Mi hermano tiene]] _______ [[dark|oscuro pelo]].",
           "options": ["[[short|corto]]", "[[long|largo]]", "[[curly|rizado]]"],
           "correctAnswer": 0,
           "explanation": "'Short' es lo opuesto a 'long'."
@@ -81,7 +81,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con 'have got'.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[got|tengo]] [[curly|rizado]] [[blond|rubio]] [[hair|pelo]].",
+          "question": "[[I curly blond hair|Yo]] _______ [[got|tengo rizado rubio pelo]].",
           "options": ["[[has|tiene]]", "[[have|tengo]]", "[[am|soy]]"],
           "correctAnswer": 1,
           "explanation": "Usamos 'I have got' para posesión física en inglés británico."
@@ -103,7 +103,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo de edad correcto.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[grandfather|abuelo]] [[is|es]] [[seventy|setenta]] [[years|años]] [[old|de edad]]. [[He|Él]] [[is|es]] _______.",
+          "question": "[[My grandfather. He is is seventy years old|Mi abuelo es setenta años de edad. Él es]] _______.",
           "options": ["[[young|joven]]", "[[old|mayor/viejo]]", "[[baby|bebé]]"],
           "correctAnswer": 1,
           "explanation": "Setenta años es una edad avanzada."
@@ -125,7 +125,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo de belleza masculino.",
       "questions": [
         {
-          "question": "[[That|Ese]] [[actor|actor]] [[is|es]] [[very|muy]] _______.",
+          "question": "[[That actor is very|Ese actor es muy]] _______.",
           "options": ["[[pretty|guapa]]", "[[handsome|guapo]]", "[[curly|rizado]]"],
           "correctAnswer": 1,
           "explanation": "'Handsome' se usa típicamente para hombres guapos."
@@ -147,7 +147,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta correctamente.",
       "questions": [
         {
-          "question": "[[What|Cómo]] [[does|auxiliar]] [[your|tu]] [[sister|hermana]] _______ [[like|como]]?",
+          "question": "[[What does your sister|Cómo auxiliar tu hermana]] _______ [[like|como]]?",
           "options": ["[[looks|se ve]]", "[[look|ver]]", "[[see|ver]]"],
           "correctAnswer": 1,
           "explanation": "En preguntas con 'does', el verbo principal va en su forma base (look)."
@@ -169,7 +169,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Identifica la característica física.",
       "questions": [
         {
-          "question": "[[He|Él]] [[has|tiene]] [[a|un]] [[big|grande]] _______ [[under|debajo de]] [[his|su]] [[nose|nariz]].",
+          "question": "[[He has a big|Él tiene un grande]] _______ [[under his nose|debajo de su nariz]].",
           "options": ["[[beard|barba]]", "[[mustache|bigote]]", "[[glasses|gafas]]"],
           "correctAnswer": 1,
           "explanation": "El bigote está debajo de la nariz."
@@ -191,7 +191,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo correcto para el plural.",
       "questions": [
         {
-          "question": "[[Her|Sus]] [[eyes|ojos]] _______ [[green|verdes]].",
+          "question": "[[Her eyes|Sus ojos]] _______ [[green|verdes]].",
           "options": ["[[is|es/está]]", "[[are|son/están]]", "[[has|tiene]]"],
           "correctAnswer": 1,
           "explanation": "'Eyes' es plural, por lo que usamos 'are'."
@@ -213,7 +213,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Completa con el adjetivo de complexión.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[goes|va]] [[to|al]] [[gym|gimnasio]], [[she|ella]] [[is|está]] [[very|muy]] _______.",
+          "question": "[[She goes, she is to gym very|Ella va al gimnasio, ella está muy]] _______.",
           "options": ["[[fit|en forma]]", "[[fat|gorda]]", "[[weak|débil]]"],
           "correctAnswer": 0,
           "explanation": "Ir al gimnasio suele significar estar en forma (fit)."
@@ -235,7 +235,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo correcto para accesorios.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[glasses|gafas]] [[for|para]] [[reading|leer]].",
+          "question": "[[He for reading|Él]] _______ [[glasses|gafas para leer]].",
           "options": ["[[wears|lleva (puesto)]]", "[[has got|tiene]]", "[[is|es]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'wear' tanto para ropa como para accesorios como las gafas."
@@ -257,7 +257,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Completa la descripción.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[has|tiene]] _______ [[hair|pelo]] [[and|y]] [[freckles|pecas]].",
+          "question": "[[She has freckles|Ella tiene]] _______ [[hair and|pelo y pecas]].",
           "options": ["[[red|pelirrojo]]", "[[blue|azul]]", "[[tall|alto]]"],
           "correctAnswer": 0,
           "explanation": "'Red hair' es el término para pelo pelirrojo."
@@ -279,7 +279,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo correcto para calvo.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[father|padre]] _______ [[bald|calvo]].",
+          "question": "[[My father|Mi padre]] _______ [[bald|calvo]].",
           "options": ["[[is|es]]", "[[has|tiene]]", "[[wears|lleva]]"],
           "correctAnswer": 0,
           "explanation": "Se dice 'is bald' (es calvo)."
@@ -301,7 +301,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo de belleza.",
       "questions": [
         {
-          "question": "[[You|Tú]] [[are|eres]] [[a|una]] [[very|muy]] _______ [[person|persona]].",
+          "question": "[[You are a very|Tú eres una muy]] _______ [[person|persona]].",
           "options": ["[[beautiful|hermosa]]", "[[short|baja]]", "[[curly|rizada]]"],
           "correctAnswer": 0,
           "explanation": "Adjetivo para describir a alguien muy atractivo/a."
@@ -323,7 +323,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Forma la pregunta correctamente.",
       "questions": [
         {
-          "question": "_______ [[he|él]] [[have|tener]] [[a|una]] [[beard|barba]]?",
+          "question": "_______ [[he have a beard|él tener una barba]]?",
           "options": ["[[Does|Auxiliar]]", "[[Do|Auxiliar]]", "[[Is|Es/está]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Does' para preguntas en presente simple con 'he'."
@@ -345,7 +345,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Describe el tamaño de los ojos.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tengo]] _______ [[brown|marrones]] [[eyes|ojos]].",
+          "question": "[[I have|Yo tengo]] _______ [[brown eyes|marrones ojos]].",
           "options": ["[[big|grandes]]", "[[long|largos]]", "[[fit|en forma]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'big' para describir el tamaño de los ojos."
@@ -367,7 +367,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma negativa correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[got|tiene]] [[long|largo]] [[hair|pelo]].",
+          "question": "[[She long hair|Ella]] _______ [[got|tiene largo pelo]].",
           "options": ["[[hasn't|no tiene]]", "[[haven't|no tengo/tenemos]]", "[[isn't|no es]]"],
           "correctAnswer": 0,
           "explanation": "La negación de 'has got' es 'hasn't got'."
@@ -389,7 +389,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo de forma del pelo.",
       "questions": [
         {
-          "question": "[[Is|Es]] [[his|su]] [[hair|pelo]] _______ [[or|o]] [[curly|rizado]]?",
+          "question": "[[Is his hair curly|Es su pelo]] _______ [[or|o rizado]]?",
           "options": ["[[straight|liso]]", "[[tall|alto]]", "[[handsome|guapo]]"],
           "correctAnswer": 0,
           "explanation": "'Straight' (liso) es lo opuesto a 'curly' (rizado)."
@@ -411,7 +411,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige la descripción más natural.",
       "questions": [
         {
-          "question": "[[He|Él]] [[has|tiene]] _______ [[hair|pelo]].",
+          "question": "[[He has|Él tiene]] _______ [[hair|pelo]].",
           "options": ["[[short dark|corto oscuro]]", "[[dark short|oscuro corto]]", "[[hair short|pelo corto]]"],
           "correctAnswer": 0,
           "explanation": "En inglés, la longitud (short) suele ir antes del color (dark)."
@@ -433,7 +433,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Completa con el adjetivo general.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[are|son]] [[a|una]] [[very|muy]] _______ [[couple|pareja]].",
+          "question": "[[They are a very|Ellos son una muy]] _______ [[couple|pareja]].",
           "options": ["[[good-looking|atractiva]]", "[[slim|delgada]]", "[[middle-aged|de mediana edad]]"],
           "correctAnswer": 0,
           "explanation": "'Good-looking' es un adjetivo general para atractivo/a."
@@ -455,7 +455,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige la característica típica.",
       "questions": [
         {
-          "question": "[[The|El]] [[basketball|baloncesto]] [[player|jugador]] [[is|es]] [[very|muy]] _______.",
+          "question": "[[The basketball player is very|El baloncesto jugador es muy]] _______.",
           "options": ["[[tall|alto]]", "[[short|bajo]]", "[[baby|bebé]]"],
           "correctAnswer": 0,
           "explanation": "Los jugadores de baloncesto suelen ser altos (tall)."
@@ -477,7 +477,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Completa la descripción física.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[has|tiene]] _______ [[skin|piel]] [[and|y]] [[blond|rubio]] [[hair|pelo]].",
+          "question": "[[She has blond hair|Ella tiene]] _______ [[skin and|piel y rubio pelo]].",
           "options": ["[[fair|clara]]", "[[tanned|bronceada]]", "[[long|larga]]"],
           "correctAnswer": 0,
           "explanation": "'Fair skin' significa piel clara."
@@ -499,7 +499,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta sobre estatura.",
       "questions": [
         {
-          "question": "[[How|Cómo/Cuán]] _______ [[is|es]] [[your|tu]] [[brother|hermano]]?",
+          "question": "[[How your brother|Cómo/Cuán]] _______ [[is|es tu hermano]]?",
           "options": ["[[tall|alto]]", "[[big|grande]]", "[[old|viejo]]"],
           "correctAnswer": 0,
           "explanation": "'How tall' es la forma de preguntar por la estatura de alguien."
@@ -521,7 +521,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige la descripción de edad correcta.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[daughter|hija]] [[is|tiene]] [[only|solo]] [[three|tres]]. [[She|Ella]] [[is|es]] _______.",
+          "question": "[[My daughter. She is only three is|Mi hija tiene solo tres. Ella es]] _______.",
           "options": ["[[young|joven]]", "[[old|vieja]]", "[[middle-aged|de mediana edad]]"],
           "correctAnswer": 0,
           "explanation": "Una niña de tres años es muy joven (young)."
@@ -543,7 +543,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Completa la alternativa.",
       "questions": [
         {
-          "question": "[[Is|Es]] [[he|él]] [[tall|alto]] [[or|o]] _______?",
+          "question": "[[Is he tall or|Es él alto o]] _______?",
           "options": ["[[short|bajo]]", "[[slim|delgado]]", "[[red|rojo]]"],
           "correctAnswer": 0,
           "explanation": "'Short' es lo opuesto a 'tall'."
@@ -565,7 +565,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Completa con el adjetivo correcto.",
       "questions": [
         {
-          "question": "[[He|Él]] [[doesn't|no]] [[have|tiene]] [[any|nada]] [[hair|pelo]], [[he|él]] [[is|es]] _______.",
+          "question": "[[He doesn't, he have any hair is|Él no tiene nada pelo, él es]] _______.",
           "options": ["[[bald|calvo]]", "[[curly|rizado]]", "[[long|largo]]"],
           "correctAnswer": 0,
           "explanation": "Alguien sin pelo es calvo (bald)."
@@ -587,7 +587,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Forma la pregunta sobre los ojos.",
       "questions": [
         {
-          "question": "_______ [[you|tú]] [[got|tienes]] [[blue|azules]] [[eyes|ojos]]?",
+          "question": "_______ [[you got blue eyes|tú tienes azules ojos]]?",
           "options": ["[[Have|Tener]]", "[[Has|Tiene]]", "[[Do|Hacer]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Have' para preguntas con 'you' en la estructura 'have got'."
@@ -609,7 +609,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Completa con un adjetivo de belleza femenino.",
       "questions": [
         {
-          "question": "[[The|La]] [[princess|princesa]] [[is|es]] [[very|muy]] _______.",
+          "question": "[[The princess is very|La princesa es muy]] _______.",
           "options": ["[[pretty|guapa]]", "[[handsome|guapo]]", "[[bald|calva]]"],
           "correctAnswer": 0,
           "explanation": "'Pretty' es muy común para niñas y mujeres."
@@ -631,7 +631,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Identifica el rasgo facial.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[has|tiene]] [[many|muchas]] _______ [[on|en]] [[her|su]] [[face|cara]].",
+          "question": "[[She has many her|Ella tiene muchas]] _______ [[on face|en su cara]].",
           "options": ["[[freckles|pecas]]", "[[beard|barba]]", "[[glasses|gafas]]"],
           "correctAnswer": 0,
           "explanation": "Pequeñas manchas en la piel, comunes en pelirrojos."
@@ -653,7 +653,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige la descripción completa.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[uncle|tío]] [[is|es]] _______ [[and|y]] [[very|muy]] [[strong|fuerte]].",
+          "question": "[[My uncle is very|Mi tío es]] _______ [[and strong|y muy fuerte]].",
           "options": ["[[middle-aged|de mediana edad]]", "[[baby|bebé]]", "[[long|largo]]"],
           "correctAnswer": 0,
           "explanation": "Un adulto suele ser de mediana edad."
@@ -675,7 +675,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Él es Alto",
       "instructions": "Ordena las palabras para describir a alguien.",
-      "correctSentence": "[[He|Él]] [[is|es]] [[tall|alto]] [[and|y]] [[slim|delgado]].",
+      "correctSentence": "[[He is tall and slim|Él es alto y delgado]].",
       "words": ["[[slim|delgado]].", "[[and|y]]", "[[tall|alto]]", "[[is|es]]", "[[He|Él]]"],
       "explanation": "Sujeto + verbo + adjetivo."
     },
@@ -692,7 +692,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pelo Rubio",
       "instructions": "Describe el pelo de ella.",
-      "correctSentence": "[[She|Ella]] [[has|tiene]] [[long|largo]] [[blond|rubio]] [[hair|pelo]].",
+      "correctSentence": "[[She has long blond hair|Ella tiene largo rubio pelo]].",
       "words": ["[[hair|pelo]].", "[[blond|rubio]]", "[[long|largo]]", "[[has|tiene]]", "[[She|Ella]]"],
       "explanation": "Longitud + color + pelo."
     },
@@ -709,7 +709,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ojos Marrones",
       "instructions": "Describe los ojos de tu padre.",
-      "correctSentence": "[[My|Mi]] [[father|padre]] [[has|tiene]] [[brown|marrones]] [[eyes|ojos]].",
+      "correctSentence": "[[My father has brown eyes|Mi padre tiene marrones ojos]].",
       "words": ["[[eyes|ojos]].", "[[brown|marrones]]", "[[has|tiene]]", "[[father|padre]]", "[[My|Mi]]"],
       "explanation": "Posesión de rasgos físicos."
     },
@@ -726,7 +726,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mi Abuela",
       "instructions": "Habla sobre la edad de tu abuela.",
-      "correctSentence": "[[My|Mi]] [[grandmother|abuela]] [[is|es]] [[very|muy]] [[old|mayor]].",
+      "correctSentence": "[[My grandmother is very old|Mi abuela es muy mayor]].",
       "words": ["[[old|mayor]].", "[[very|muy]]", "[[is|es]]", "[[grandmother|abuela]]", "[[My|Mi]]"],
       "explanation": "Verbo 'to be' para la edad."
     },
@@ -743,7 +743,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "¿Cómo es tu Amigo?",
       "instructions": "Pregunta por el físico de alguien.",
-      "correctSentence": "[[What|Cómo]] [[does|auxiliar]] [[your|tu]] [[best|mejor]] [[friend|amigo]] [[look|ver]] [[like|como]]?",
+      "correctSentence": "[[What does your best friend look like|Cómo auxiliar tu mejor amigo ver como]]?",
       "words": ["[[like|como]]?", "[[look|ver]]", "[[friend|amigo]]", "[[best|mejor]]", "[[your|tu]]", "[[does|auxiliar]]", "[[What|Cómo]]"],
       "explanation": "Estructura de pregunta para apariencia física."
     },
@@ -760,7 +760,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "El Profesor",
       "instructions": "Describe al profesor.",
-      "correctSentence": "[[The|El]] [[teacher|profesor]] [[wears|lleva]] [[big|grandes]] [[glasses|gafas]].",
+      "correctSentence": "[[The teacher wears big glasses|El profesor lleva grandes gafas]].",
       "words": ["[[glasses|gafas]].", "[[big|grandes]]", "[[wears|lleva]]", "[[teacher|profesor]]", "[[The|El]]"],
       "explanation": "Uso de 'wear' para gafas."
     },
@@ -777,7 +777,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Un Bebé Lindo",
       "instructions": "Describe al bebé.",
-      "correctSentence": "[[That|Ese]] [[baby|bebé]] [[is|es]] [[very|muy]] [[cute|lindo]].",
+      "correctSentence": "[[That baby is very cute|Ese bebé es muy lindo]].",
       "words": ["[[cute|lindo]].", "[[very|muy]]", "[[is|es]]", "[[baby|bebé]]", "[[That|Ese]]"],
       "explanation": "'Cute' es común para bebés y animales."
     },
@@ -794,7 +794,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hermano Pelirrojo",
       "instructions": "Describe el pelo del hermano.",
-      "correctSentence": "[[His|Su]] [[brother|hermano]] [[has|tiene]] [[got|conseguido]] [[red|pelirrojo]] [[hair|pelo]].",
+      "correctSentence": "[[His brother has got red hair|Su hermano tiene conseguido pelirrojo pelo]].",
       "words": ["[[hair|pelo]].", "[[red|pelirrojo]]", "[[got|conseguido]]", "[[has|tiene]]", "[[brother|hermano]]", "[[His|Su]]"],
       "explanation": "Estructura 'has got' para rasgos."
     },
@@ -811,7 +811,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "¿Alta o Baja?",
       "instructions": "Forma la pregunta de alternativa.",
-      "correctSentence": "[[Is|Es]] [[she|ella]] [[tall|alta]] [[or|o]] [[short|baja]]?",
+      "correctSentence": "[[Is she tall or short|Es ella alta o baja]]?",
       "words": ["[[short|baja]]?", "[[or|o]]", "[[tall|alta]]", "[[she|ella]]", "[[Is|Es]]"],
       "explanation": "Pregunta de elección."
     },
@@ -828,7 +828,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pelo Rizado",
       "instructions": "Describe el pelo de tu madre.",
-      "correctSentence": "[[My|Mi]] [[mother|madre]] [[has|tiene]] [[short|corto]] [[curly|rizado]] [[hair|pelo]].",
+      "correctSentence": "[[My mother has short curly hair|Mi madre tiene corto rizado pelo]].",
       "words": ["[[hair|pelo]].", "[[curly|rizado]]", "[[short|corto]]", "[[has|tiene]]", "[[mother|madre]]", "[[My|Mi]]"],
       "explanation": "Longitud + forma + pelo."
     },
@@ -849,7 +849,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "*\"[[My|Mi]] [[sister|hermana]]'[[s|de]] [[name|nombre]] [[is|es]] [[Emma|Emma]]. [[She|Ella]] [[is|es]] [[twenty-two|veintidós]] [[years|años]] [[old|de edad]]. [[She|Ella]] [[is|es]] [[very|muy]] [[tall|alta]] [[and|y]] [[slim|delgada]]. [[Emma|Emma]] [[has|tiene]] [[long|largo]] [[blond|rubio]] [[hair|pelo]] [[and|y]] [[beautiful|hermosos]] [[blue|azules]] [[eyes|ojos]]. [[She|Ella]] [[doesn't|no]] [[wear|lleva]] [[glasses|gafas]].\"*\n\n[[How|Cómo]] [[is|es]] [[Emma|Emma]]'[[s|de]] [[hair|pelo]]?",
+          "question": "*\"[[My sister. She is is Emma twenty-two years. She old is very tall. Emma has and slim long blond. She hair and beautiful blue eyes doesn't wear glasses Emma hair|Mi hermana]]'[[s name|de nombre es Emma. Ella es veintidós años de edad. Ella es muy alta y delgada. Emma tiene largo rubio pelo y hermosos azules ojos. Ella no lleva gafas]].\"*\n\n[[How is|Cómo es Emma]]'[[s|de pelo]]?",
           "options": ["[[Short and dark|Corto y oscuro]]", "[[Long and blond|Largo y rubio]]", "[[Curly and red|Rizado y rojo]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice 'long blond hair'."
@@ -871,7 +871,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "*\"[[My|Mi]] [[sister|hermana]]'[[s|de]] [[name|nombre]] [[is|es]] [[Emma|Emma]]. [[She|Ella]] [[is|es]] [[twenty-two|veintidós]] [[years|años]] [[old|de edad]]. [[She|Ella]] [[is|es]] [[very|muy]] [[tall|alta]] [[and|y]] [[slim|delgada]]. [[Emma|Emma]] [[has|tiene]] [[long|largo]] [[blond|rubio]] [[hair|pelo]] [[and|y]] [[beautiful|hermosos]] [[blue|azules]] [[eyes|ojos]]. [[She|Ella]] [[doesn't|no]] [[wear|lleva]] [[glasses|gafas]].\"*\n\n[[What|De qué]] [[color|color]] [[are|son]] [[her|sus]] [[eyes|ojos]]?",
+          "question": "*\"[[My sister. She is is Emma twenty-two years. She old is very tall. Emma has and slim long blond. She hair and beautiful blue eyes doesn't wear glasses are her|Mi hermana]]'[[s name|de nombre es Emma. Ella es veintidós años de edad. Ella es muy alta y delgada. Emma tiene largo rubio pelo y hermosos azules ojos. Ella no lleva gafas]].\"*\n\n[[What color eyes|De qué color son sus ojos]]?",
           "options": ["[[Green|Verdes]]", "[[Brown|Marrones]]", "[[Blue|Azules]]"],
           "correctAnswer": 2,
           "explanation": "El texto dice 'beautiful blue eyes'."
@@ -893,7 +893,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "*\"[[My|Mi]] [[sister|hermana]]'[[s|de]] [[name|nombre]] [[is|es]] [[Emma|Emma]]. [[She|Ella]] [[is|es]] [[twenty-two|veintidós]] [[years|años]] [[old|de edad]]. [[She|Ella]] [[is|es]] [[very|muy]] [[tall|alta]] [[and|y]] [[slim|delgada]]. [[Emma|Emma]] [[has|tiene]] [[long|largo]] [[blond|rubio]] [[hair|pelo]] [[and|y]] [[beautiful|hermosos]] [[blue|azules]] [[eyes|ojos]]. [[She|Ella]] [[doesn't|no]] [[wear|lleva]] [[glasses|gafas]].\"*\n\n[[Does|Auxiliar]] [[she|ella]] [[wear|llevar]] [[glasses|gafas]]?",
+          "question": "*\"[[My sister. She is is Emma twenty-two years. She old is very tall. Emma has and slim long blond. She hair and beautiful blue eyes doesn't wear glasses wear glasses|Mi hermana]]'[[s name|de nombre es Emma. Ella es veintidós años de edad. Ella es muy alta y delgada. Emma tiene largo rubio pelo y hermosos azules ojos. Ella no lleva gafas]].\"*\n\n[[Does she|Auxiliar ella llevar gafas]]?",
           "options": ["[[Yes, she does|Sí]]", "[[No, she doesn't|No]]", "[[Sometimes|A veces]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice 'She doesn't wear glasses'."
@@ -915,7 +915,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre David y responde.",
       "questions": [
         {
-          "question": "*\"[[This|Este]] [[is|es]] [[my|mi]] [[brother|hermano]], [[David|David]]. [[He|Él]] [[is|tiene]] [[thirty|treinta]] [[years|años]] [[old|de edad]]. [[He|Él]] [[is|es]] [[short|bajo]] [[and|y]] [[fit|en forma]]. [[David|David]] [[has|tiene]] [[short|corto]] [[brown|marrón]] [[hair|pelo]] [[and|y]] [[a|una]] [[small|pequeña]] [[beard|barba]]. [[He|Él]] [[wears|lleva]] [[glasses|gafas]] [[when|cuando]] [[he|él]] [[works|trabaja]] [[at|en]] [[the|el]] [[computer|ordenador]].\"*\n\n[[Is|Es]] [[David|David]] [[tall|alto]]?",
+          "question": "*\"[[This is, David is my brother. He. He thirty years old is short and. David fit has short brown. He hair and a small beard wears glasses when he works at the computer David tall|Este es mi hermano, David. Él tiene treinta años de edad. Él es bajo y en forma. David tiene corto marrón pelo y una pequeña barba. Él lleva gafas cuando él trabaja en el ordenador]].\"*\n\n[[Is|Es David alto]]?",
           "options": ["[[Yes, he is|Sí]]", "[[No, he isn't|No]]", "[[We don't know|No lo sabemos]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice 'He is short'."
@@ -937,7 +937,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre David y responde.",
       "questions": [
         {
-          "question": "*\"[[This|Este]] [[is|es]] [[my|mi]] [[brother|hermano]], [[David|David]]. [[He|Él]] [[is|tiene]] [[thirty|treinta]] [[years|años]] [[old|de edad]]. [[He|Él]] [[is|es]] [[short|bajo]] [[and|y]] [[fit|en forma]]. [[David|David]] [[has|tiene]] [[short|corto]] [[brown|marrón]] [[hair|pelo]] [[and|y]] [[a|una]] [[small|pequeña]] [[beard|barba]]. [[He|Él]] [[wears|lleva]] [[glasses|gafas]] [[when|cuando]] [[he|él]] [[works|trabaja]] [[at|en]] [[the|el]] [[computer|ordenador]].\"*\n\n[[Does|Auxiliar]] [[he|él]] [[have|tener]] [[a|una]] [[beard|barba]]?",
+          "question": "*\"[[This is, David is my brother. He. He thirty years old is short and. David fit has short brown. He hair and a small beard wears glasses when he works at the computer he have a beard|Este es mi hermano, David. Él tiene treinta años de edad. Él es bajo y en forma. David tiene corto marrón pelo y una pequeña barba. Él lleva gafas cuando él trabaja en el ordenador]].\"*\n\n[[Does|Auxiliar él tener una barba]]?",
           "options": ["[[No, he doesn't|No]]", "[[Yes, a small one|Sí, una pequeña]]", "[[Yes, a big one|Sí, una grande]]"],
           "correctAnswer": 1,
           "explanation": "El texto menciona 'a small beard'."
@@ -959,7 +959,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Lee y responde.",
       "questions": [
         {
-          "question": "*\"[[I|Yo]] [[have|tengo]] [[a|una]] [[new|nueva]] [[friend|amiga]] [[from|de]] [[Italy|Italia]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sofia|Sofía]]. [[She|Ella]] [[is|es]] [[very|muy]] [[pretty|guapa]]. [[Sofia|Sofía]] [[is|es]] [[average|media]] [[height|estatura]]. [[She|Ella]] [[has|tiene]] [[curly|rizado]] [[red|rojo]] [[hair|pelo]] [[and|y]] [[green|verdes]] [[eyes|ojos]]. [[She|Ella]] [[has|tiene]] [[many|muchas]] [[freckles|pecas]] [[on|en]] [[her|su]] [[face|cara]].\"*\n\n[[What|De qué]] [[color|color]] [[is|es]] [[Sofia|Sofía]]'[[s|de]] [[hair|pelo]]?",
+          "question": "*\"[[I have. Her a new friend from Italy name is Sofia. She is very pretty. Sofia is average height. She has curly red. She has hair and green eyes many freckles on her face color is Sofia|Yo tengo una nueva amiga de Italia. Su nombre es Sofía. Ella es muy guapa. Sofía es media estatura. Ella tiene rizado rojo pelo y verdes ojos. Ella tiene muchas pecas en su cara]].\"*\n\n[[What|De qué color es Sofía]]'[[s hair|de pelo]]?",
           "options": ["[[Blond|Rubio]]", "[[Dark|Oscuro]]", "[[Red|Rojo]]"],
           "correctAnswer": 2,
           "explanation": "El texto dice 'red hair'."
@@ -981,7 +981,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Lee y responde.",
       "questions": [
         {
-          "question": "*\"[[I|Yo]] [[have|tengo]] [[a|una]] [[new|nueva]] [[friend|amiga]] [[from|de]] [[Italy|Italia]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sofia|Sofía]]. [[She|Ella]] [[is|es]] [[very|muy]] [[pretty|guapa]]. [[Sofia|Sofía]] [[is|es]] [[average|media]] [[height|estatura]]. [[She|Ella]] [[has|tiene]] [[curly|rizado]] [[red|rojo]] [[hair|pelo]] [[and|y]] [[green|verdes]] [[eyes|ojos]]. [[She|Ella]] [[has|tiene]] [[many|muchas]] [[freckles|pecas]] [[on|en]] [[her|su]] [[face|cara]].\"*\n\n[[Does|Auxiliar]] [[she|ella]] [[have|tener]] [[freckles|pecas]]?",
+          "question": "*\"[[I have. Her a new friend from Italy name is Sofia. She is very pretty. Sofia is average height. She has curly red. She has hair and green eyes many freckles on her face she have freckles|Yo tengo una nueva amiga de Italia. Su nombre es Sofía. Ella es muy guapa. Sofía es media estatura. Ella tiene rizado rojo pelo y verdes ojos. Ella tiene muchas pecas en su cara]].\"*\n\n[[Does|Auxiliar ella tener pecas]]?",
           "options": ["[[Yes, many|Sí, muchas]]", "[[No, she doesn't|No]]", "[[Only a few|Solo unas pocas]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice 'She has many freckles'."
@@ -1003,7 +1003,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre el profesor y responde.",
       "questions": [
         {
-          "question": "*\"[[Mr. Brown|El Sr. Brown]] [[is|es]] [[my|mi]] [[English|inglés]] [[teacher|profesor]]. [[He|Él]] [[is|tiene]] [[fifty|cincuenta]] [[years|años]] [[old|de edad]]. [[He|Él]] [[is|es]] [[middle-aged|de mediana edad]]. [[He|Él]] [[is|es]] [[quite|bastante]] [[tall|alto]]. [[He|Él]] [[is|es]] [[bald|calvo]], [[but|pero]] [[he|él]] [[has|tiene]] [[a|un]] [[small|pequeño]] [[mustache|bigote]]. [[He|Él]] [[always|siempre]] [[wears|lleva]] [[a|un]] [[suit|traje]] [[and|y]] [[glasses|gafas]].\"*\n\n[[How|Cómo]] [[is|es]] [[his|su]] [[hair|pelo]]?",
+          "question": "*\"[[Mr. Brown is. He my English teacher is fifty years. He old is middle-aged is. He quite tall. He is bald he, but has a. He always small mustache wears a suit and glasses is his hair|El Sr. Brown es mi inglés profesor. Él tiene cincuenta años de edad. Él es de mediana edad. Él es bastante alto. Él es calvo, pero él tiene un pequeño bigote. Él siempre lleva un traje y gafas]].\"*\n\n[[How|Cómo es su pelo]]?",
           "options": ["[[It is long|Es largo]]", "[[He is bald|Es calvo]]", "[[It is red|Es rojo]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice 'He is bald' (es calvo)."
@@ -1025,7 +1025,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre el profesor y responde.",
       "questions": [
         {
-          "question": "*\"[[Mr. Brown|El Sr. Brown]] [[is|es]] [[my|mi]] [[English|inglés]] [[teacher|profesor]]. [[He|Él]] [[is|tiene]] [[fifty|cincuenta]] [[years|años]] [[old|de edad]]. [[He|Él]] [[is|es]] [[middle-aged|de mediana edad]]. [[He|Él]] [[is|es]] [[quite|bastante]] [[tall|alto]]. [[He|Él]] [[is|es]] [[bald|calvo]], [[but|pero]] [[he|él]] [[has|tiene]] [[a|un]] [[small|pequeño]] [[mustache|bigote]]. [[He|Él]] [[always|siempre]] [[wears|lleva]] [[a|un]] [[suit|traje]] [[and|y]] [[glasses|gafas]].\"*\n\n[[Does|Auxiliar]] [[he|él]] [[have|tener]] [[a|un]] [[mustache|bigote]]?",
+          "question": "*\"[[Mr. Brown is. He my English teacher is fifty years. He old is middle-aged is. He quite tall. He is bald he, but has a. He always small mustache wears a suit and glasses he have a mustache|El Sr. Brown es mi inglés profesor. Él tiene cincuenta años de edad. Él es de mediana edad. Él es bastante alto. Él es calvo, pero él tiene un pequeño bigote. Él siempre lleva un traje y gafas]].\"*\n\n[[Does|Auxiliar él tener un bigote]]?",
           "options": ["[[Yes, a small one|Sí, uno pequeño]]", "[[No, he has a beard|No, tiene barba]]", "[[No, he doesn't|No]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice 'he has a small mustache'."
@@ -1047,7 +1047,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Lee y responde.",
       "questions": [
         {
-          "question": "*\"[[Look|Mira]] [[at|a]] [[that|esa]] [[photo|foto]]! [[My|Mis]] [[parents|padres]] [[are|son]] [[young|jóvenes]] [[there|allí]]. [[My|Mi]] [[father|padre]] [[has|tiene]] [[long|largo]] [[hair|pelo]] [[and|y]] [[no|no]] [[glasses|gafas]]. [[My|Mi]] [[mother|madre]] [[is|es]] [[very|muy]] [[pretty|guapa]] [[with|con]] [[curly|rizado]] [[blond|rubio]] [[hair|pelo]]. [[They|Ellos]] [[look|se ven]] [[very|muy]] [[happy|felices]].\"*\n\n[[How|Cómo]] [[is|es]] [[the|la]] [[mother|madre]] [[in|en]] [[the|la]] [[photo|foto]]?",
+          "question": "*\"[[Look at! My parents that photo are young. My there father has long. My mother hair and no glasses is very. They pretty with curly blond hair look very happy|Mira a esa foto! Mis padres son jóvenes allí. Mi padre tiene largo pelo y no gafas. Mi madre es muy guapa con rizado rubio pelo. Ellos se ven muy felices]].\"*\n\n[[How is the mother in the photo|Cómo es la madre en la foto]]?",
           "options": ["[[Bald and old|Calva y mayor]]", "[[Pretty with curly blond hair|Guapa con pelo rubio rizado]]", "[[Tall with dark hair|Alta con pelo oscuro]]"],
           "correctAnswer": 1,
           "explanation": "El texto la describe como 'pretty with curly blond hair'."

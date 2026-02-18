@@ -12,7 +12,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inversión en el pasado",
       "instructions": "Ordena las palabras usando la inversión formal del tercer condicional.",
-      "correctSentence": "[[Had|Si]] [[I|me]] [[been|hubieran]] [[informed,|informado,]] [[I|habría]] [[would|cambiado]] [[have|mis]] [[changed|planes.]] [[my| ]] [[plans.| ]]",
+      "correctSentence": "[[Had I been informed, I would have changed my plans.|Si me hubieran informado, habría cambiado mis planes.    ]]",
       "words": [
         "[[I|me]]",
         "[[informed,|informado,]]",
@@ -41,7 +41,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ya va siendo hora",
       "instructions": "Ordena las palabras usando 'It is high time' seguido de pasado simple.",
-      "correctSentence": "[[It|Ya]] [[is|va]] [[high|siendo]] [[time|hora]] [[we|de que]] [[addressed|abordemos]] [[the|el]] [[issue|problema]] [[of|de la]] [[plastic|contaminación]] [[pollution.|por plástico.]]",
+      "correctSentence": "[[It is high time we addressed the issue of plastic pollution.|Ya va siendo hora de que abordemos el problema de la contaminación por plástico.]]",
       "words": [
         "[[is|va]]",
         "[[issue|problema]]",
@@ -71,7 +71,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Contraste con 'Despite'",
       "instructions": "Ordena las palabras para expresar contraste usando gerundio.",
-      "correctSentence": "[[Despite|A pesar de]] [[being|estar]] [[exhausted,|agotada,]] [[she|consiguió]] [[managed|terminar]] [[to|la]] [[finish|carrera.]] [[the| ]] [[race.| ]]",
+      "correctSentence": "[[Despite being exhausted, she managed to finish the race.|A pesar de estar agotada, consiguió terminar la carrera.    ]]",
       "words": [
         "[[being|estar]]",
         "[[managed|terminar]]",
@@ -99,7 +99,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inversión con 'Hardly'",
       "instructions": "Ordena las palabras para una acción que ocurre inmediatamente después de otra.",
-      "correctSentence": "[[Hardly|Apenas]] [[had|había]] [[I|abierto]] [[opened|la]] [[the|puerta]] [[door|cuando]] [[when|sonó]] [[the|el]] [[phone|teléfono.]] [[rang.| ]]",
+      "correctSentence": "[[Hardly had I opened the door when the phone rang.|Apenas había abierto la puerta cuando sonó el teléfono.  ]]",
       "words": [
         "[[had|había]]",
         "[[door|cuando]]",
@@ -127,7 +127,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Preferencia sobre otros",
       "instructions": "Ordena las palabras para expresar lo que prefieres que haga otra persona.",
-      "correctSentence": "[[I|Preferiría]] [[would|que]] [[rather|no]] [[you|fumases]] [[didn't|en]] [[smoke|la]] [[in|casa.]] [[the| ]] [[house.| ]]",
+      "correctSentence": "[[I would rather you didn't smoke in the house.|Preferiría que no fumases en la casa.    ]]",
       "words": [
         "[[would|que]]",
         "[[you|fumases]]",
@@ -155,7 +155,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pasado perfecto",
       "instructions": "Ordena las palabras para hablar de una acción terminada antes de otra en el pasado.",
-      "correctSentence": "[[By|Para]] [[the|cuando]] [[time|llegamos]] [[we|allí,]] [[got|el]] [[there,|concierto]] [[the|ya]] [[concert|había]] [[had|comenzado.]] [[already| ]] [[started.| ]]",
+      "correctSentence": "[[By the time we got there, the concert had already started.|Para cuando llegamos allí, el concierto ya había comenzado.    ]]",
       "words": [
         "[[the|cuando]]",
         "[[there,|allí,]]",
@@ -185,7 +185,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inversión con 'Rarely'",
       "instructions": "Ordena las palabras para enfatizar la rareza de un hecho.",
-      "correctSentence": "[[Rarely|Rara vez]] [[do|vemos]] [[we|un]] [[see|talento]] [[such|tan]] [[amazing|increíble]] [[talent|en]] [[in|un]] [[a|artista]] [[young|joven.]] [[artist.| ]]",
+      "correctSentence": "[[Rarely do we see such amazing talent in a young artist.|Rara vez vemos un talento tan increíble en un artista joven.  ]]",
       "words": [
         "[[do|vemos]]",
         "[[amazing|increíble]]",
@@ -215,7 +215,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inversión con 'Not only'",
       "instructions": "Ordena las palabras para añadir información negativa con énfasis.",
-      "correctSentence": "[[Not|No solo]] [[only|era]] [[was|caro]] [[the|el]] [[hotel|hotel,]] [[expensive,|sino que]] [[but|también]] [[it|estaba]] [[was|muy]] [[also|sucio.]] [[very| ]] [[dirty.| ]]",
+      "correctSentence": "[[Not only was the hotel expensive, but it was also very dirty.|No solo era caro el hotel, sino que también estaba muy sucio.    ]]",
       "words": [
         "[[only|era]]",
         "[[expensive,|sino que]]",
@@ -246,7 +246,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Arrepentimiento pasado",
       "instructions": "Ordena las palabras para expresar un deseo sobre el pasado.",
-      "correctSentence": "[[I|Ojalá]] [[wish|no]] [[I|hubiera]] [[hadn't|gastado]] [[spent|todo]] [[all|mi]] [[my|dinero]] [[money|en]] [[on|aquel]] [[that|coche.]] [[car.| ]]",
+      "correctSentence": "[[I wish I hadn't spent all my money on that car.|Ojalá no hubiera gastado todo mi dinero en aquel coche.  ]]",
       "words": [
         "[[wish|no]]",
         "[[spent|todo]]",
@@ -276,7 +276,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cláusula de participio",
       "instructions": "Ordena las palabras para dar una razón usando el participio perfecto.",
-      "correctSentence": "[[Having|Habiendo]] [[seen|visto]] [[the|la]] [[film|película]] [[before,|antes,]] [[I|no]] [[didn't|quería]] [[want|ir]] [[to|de]] [[go|nuevo.]] [[again.| ]]",
+      "correctSentence": "[[Having seen the film before, I didn't want to go again.|Habiendo visto la película antes, no quería ir de nuevo.  ]]",
       "words": [
         "[[seen|visto]]",
         "[[before,|antes,]]",
@@ -306,7 +306,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inversión con 'No sooner'",
       "instructions": "Ordena las palabras para hablar de dos acciones sucesivas rápidas.",
-      "correctSentence": "[[No|Apenas]] [[sooner|había]] [[had|salido]] [[he|él]] [[left|de]] [[the|casa]] [[house|cuando]] [[than|empezó]] [[it|a]] [[started|llover.]] [[raining.| ]]",
+      "correctSentence": "[[No sooner had he left the house than it started raining.|Apenas había salido él de casa cuando empezó a llover.  ]]",
       "words": [
         "[[sooner|había]]",
         "[[he|él]]",
@@ -336,7 +336,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hipótesis futura",
       "instructions": "Ordena las palabras para preguntar por una situación imaginaria.",
-      "correctSentence": "[[Suppose|Supón]] [[you|que]] [[won|ganaras]] [[the|la]] [[lottery,|lotería,]] [[what|¿qué]] [[would|harías]] [[you|primero?]] [[do| ]] [[first?| ]]",
+      "correctSentence": "[[Suppose you won the lottery, what would you do first?|Supón que ganaras la lotería, ¿qué harías primero?    ]]",
       "words": [
         "[[you|que]]",
         "[[lottery,|lotería,]]",
@@ -364,7 +364,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Probabilidad con 'Likely'",
       "instructions": "Ordena las palabras para expresar probabilidad.",
-      "correctSentence": "[[She|Es]] [[is|probable]] [[likely|que]] [[to|consiga]] [[get|el]] [[the|empleo]] [[job|debido]] [[because|a]] [[of|su]] [[her|experiencia.]] [[experience.| ]]",
+      "correctSentence": "[[She is likely to get the job because of her experience.|Es probable que consiga el empleo debido a su experiencia.  ]]",
       "words": [
         "[[is|probable]]",
         "[[get|el]]",
@@ -394,7 +394,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Condición con 'Unless'",
       "instructions": "Ordena las palabras para expresar una condición negativa.",
-      "correctSentence": "[[Unless|A menos]] [[it|que]] [[stops|deje]] [[raining,|de llover,]] [[we|no]] [[won't|podremos]] [[be|ir]] [[able|a]] [[to|dar]] [[go|un]] [[for|paseo.]] [[a| ]] [[walk.| ]]",
+      "correctSentence": "[[Unless it stops raining, we won't be able to go for a walk.|A menos que deje de llover, no podremos ir a dar un paseo.    ]]",
       "words": [
         "[[it|que]]",
         "[[raining,|de llover,]]",
@@ -426,7 +426,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Condición con 'Providing'",
       "instructions": "Ordena las palabras para una condición positiva.",
-      "correctSentence": "[[Providing|Siempre]] [[that|que]] [[you|trabajes]] [[work|duro,]] [[hard,|tendrás]] [[you|éxito]] [[will|en]] [[succeed|la]] [[in|vida.]] [[life.| ]]",
+      "correctSentence": "[[Providing that you work hard, you will succeed in life.|Siempre que trabajes duro, tendrás éxito en la vida.  ]]",
       "words": [
         "[[that|que]]",
         "[[hard,|tendrás]]",
@@ -455,7 +455,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inversión prohibitiva",
       "instructions": "Ordena las palabras para expresar una prohibición estricta.",
-      "correctSentence": "[[Under|Bajo]] [[no|ninguna]] [[circumstances|circunstancia]] [[are|se]] [[you|le]] [[allowed|permite]] [[to|usar]] [[use|el]] [[your|móvil]] [[phone|durante]] [[during|el]] [[the|examen.]] [[exam.| ]]",
+      "correctSentence": "[[Under no circumstances are you allowed to use your phone during the exam.|Bajo ninguna circunstancia se le permite usar el móvil durante el examen.  ]]",
       "words": [
         "[[no|ninguna]]",
         "[[are|se]]",
@@ -487,7 +487,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Comparativos dobles",
       "instructions": "Ordena las palabras para expresar causa y efecto proporcional.",
-      "correctSentence": "[[The|Cuanto]] [[more|más]] [[you|practiques,]] [[practice,|más]] [[the|fácil]] [[easier|se]] [[it|vuelve.]] [[becomes.| ]]",
+      "correctSentence": "[[The more you practice, the easier it becomes.|Cuanto más practiques, más fácil se vuelve.  ]]",
       "words": [
         "[[more|más]]",
         "[[easier|se]]",
@@ -514,7 +514,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Causa y consecuencia",
       "instructions": "Ordena las palabras usando 'so... that'.",
-      "correctSentence": "[[She|Ella]] [[was|estaba]] [[so|tan]] [[tired|cansada]] [[that|que]] [[she|se]] [[fell|quedó]] [[asleep|dormida]] [[on|en]] [[the|el]] [[bus.|autobús.]]",
+      "correctSentence": "[[She was so tired that she fell asleep on the bus.|Ella estaba tan cansada que se quedó dormida en el autobús.]]",
       "words": [
         "[[was|estaba]]",
         "[[that|que]]",
@@ -544,7 +544,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Causa con sustantivo",
       "instructions": "Ordena las palabras usando 'such a... that'.",
-      "correctSentence": "[[It|Fue]] [[was|una]] [[such|reunión]] [[a|tan]] [[boring|aburrida]] [[meeting|que]] [[that|casi]] [[I|me]] [[almost|quedo]] [[fell|dormido.]] [[asleep.| ]]",
+      "correctSentence": "[[It was such a boring meeting that I almost fell asleep.|Fue una reunión tan aburrida que casi me quedo dormido.  ]]",
       "words": [
         "[[was|una]]",
         "[[meeting|que]]",
@@ -574,7 +574,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Contraste con 'In spite of'",
       "instructions": "Ordena las palabras para contrastar hechos.",
-      "correctSentence": "[[In|A]] [[spite|pesar]] [[of|de]] [[the|la]] [[rain,|lluvia,]] [[we|salimos]] [[went|a]] [[out|dar]] [[for|un]] [[a|paseo.]] [[walk.| ]]",
+      "correctSentence": "[[In spite of the rain, we went out for a walk.|A pesar de la lluvia, salimos a dar un paseo.  ]]",
       "words": [
         "[[spite|pesar]]",
         "[[rain,|lluvia,]]",
@@ -604,7 +604,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ayuda a tiempo",
       "instructions": "Ordena las palabras con inversión formal en el pasado.",
-      "correctSentence": "[[Had|Si]] [[you|me]] [[told|hubieras]] [[me|dicho]] [[earlier,|antes,]] [[I|te]] [[would|habría]] [[have|ayudado.]] [[helped| ]] [[you.| ]]",
+      "correctSentence": "[[Had you told me earlier, I would have helped you.|Si me hubieras dicho antes, te habría ayudado.    ]]",
       "words": [
         "[[you|me]]",
         "[[me|dicho]]",
@@ -633,7 +633,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Acostumbrarse",
       "instructions": "Ordena las palabras para hablar de falta de hábito.",
-      "correctSentence": "[[I|No]] [[am|estoy]] [[not|acostumbrado]] [[used|a]] [[to|conducir]] [[driving|por]] [[on|la]] [[the|izquierda]] [[left|de]] [[side|la]] [[of|carretera.]] [[the| ]] [[road.| ]]",
+      "correctSentence": "[[I am not used to driving on the left side of the road.|No estoy acostumbrado a conducir por la izquierda de la carretera.    ]]",
       "words": [
         "[[am|estoy]]",
         "[[driving|por]]",
@@ -665,7 +665,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inversión con 'Little'",
       "instructions": "Ordena las palabras para expresar falta total de conocimiento sobre algo.",
-      "correctSentence": "[[Little|Poco]] [[did|sabía]] [[she|ella]] [[know|que]] [[that|una]] [[a|sorpresa]] [[surprise|la]] [[was|estaba]] [[waiting|esperando.]] [[for| ]] [[her.| ]]",
+      "correctSentence": "[[Little did she know that a surprise was waiting for her.|Poco sabía ella que una sorpresa la estaba esperando.    ]]",
       "words": [
         "[[did|sabía]]",
         "[[surprise|la]]",
@@ -695,7 +695,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inversión con 'Should'",
       "instructions": "Ordena las palabras para dar un recado condicional.",
-      "correctSentence": "[[Should|Si]] [[you|ves]] [[see|a]] [[Mark,|Mark,]] [[tell|dile]] [[him|que]] [[I|necesito]] [[need|hablar]] [[to|con]] [[talk|él.]] [[to| ]] [[him.| ]]",
+      "correctSentence": "[[Should you see Mark, tell him I need to talk to him.|Si ves a Mark, dile que necesito hablar con él.    ]]",
       "words": [
         "[[you|ves]]",
         "[[Mark,|Mark,]]",
@@ -726,7 +726,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "En casa o fuera",
       "instructions": "Ordena las palabras usando 'rather' con cambio de sujeto.",
-      "correctSentence": "[[I'd|Preferiría]] [[rather|que]] [[you|te]] [[stayed|quedases]] [[home|en]] [[tonight|casa]] [[instead|esta]] [[of|noche]] [[going|en]] [[out.|lugar de salir.]]",
+      "correctSentence": "[[I'd rather you stayed home tonight instead of going out.|Preferiría que te quedases en casa esta noche en lugar de salir.]]",
       "words": [
         "[[rather|que]]",
         "[[stayed|quedases]]",
@@ -759,7 +759,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta para el futuro perfecto continuo.",
       "questions": [
         {
-          "question": "[[By|Para]] [[the|final]] [[end|del]] [[of|mes]] [[next|que]] [[month,|viene,]] [[I| ]] _______ _______ _______ _______ [[here|aquí]] [[for|durante]] [[a|un]] [[year.|año.]]",
+          "question": "[[By the end of next month, I for|Para final del mes que viene,  ]] _______ _______ _______ _______ [[here a year.|aquí durante un año.]]",
           "options": ["[[will have been working|habré estado trabajando]]", "[[will be working|estaré trabajando]]", "[[have been working|he estado trabajando]]"],
           "correctAnswer": 0,
           "explanation": "Futuro perfecto continuo para enfatizar la duración hasta un punto futuro.",
@@ -782,7 +782,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal tras 'If only' para un deseo presente.",
       "questions": [
         {
-          "question": "_______ _______ [[I|¡Ojalá]] [[had|tuviera]] [[more|más]] [[free|tiempo]] [[time|libre]] [[to|para]] [[travel!|viajar!]]",
+          "question": "_______ _______ [[I had more free time to travel!|¡Ojalá tuviera más tiempo libre para viajar!]]",
           "options": ["[[If only|Ojalá]]", "[[If I wish|Si deseara]]", "[[I hope|Espero]]"],
           "correctAnswer": 0,
           "explanation": "'If only' es más fuerte que 'I wish' y sigue las mismas reglas gramaticales.",
@@ -805,7 +805,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión para lo que se supone que debes hacer.",
       "questions": [
         {
-          "question": "[[You|Se supone]] _______ _______ _______ [[to|que]] [[turn|debes]] [[off|apagar]] [[the|las]] [[lights|luces]] [[when|cuando]] [[you|te]] [[leave.|vayas.]]",
+          "question": "[[You turn off the lights when you leave.|Se supone]] _______ _______ _______ [[to|que debes apagar las luces cuando te vayas.]]",
           "options": ["[[are supposed|debes / se supone]]", "[[suppose|supones]]", "[[are supposing|estás suponiendo]]"],
           "correctAnswer": 0,
           "explanation": "'Be supposed to' se usa para reglas, costumbres o expectativas.",
@@ -828,7 +828,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector condicional de condición necesaria.",
       "questions": [
         {
-          "question": "[[I'll|Te]] [[help|ayudaré]] [[you|con]] [[with|el]] [[the|proyecto]] _______ _______ _______ [[you|siempre]] [[provide|que]] [[the|proporciones]] [[data.|los datos.]]",
+          "question": "[[I'll help you with the provide the data.|Te ayudaré con el proyecto]] _______ _______ _______ [[you|siempre que proporciones los datos.]]",
           "options": ["[[as long as|siempre que]]", "[[as far as|por lo que]]", "[[as soon as|tan pronto como]]"],
           "correctAnswer": 0,
           "explanation": "'As long as' introduce una condición que debe cumplirse.",
@@ -851,7 +851,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal adecuada tras el verbo 'deny'.",
       "questions": [
         {
-          "question": "[[He|Él]] [[denied|negó]] _______ [[the|haber]] [[jewelry.|robado las joyas.]]",
+          "question": "[[He denied|Él negó]] _______ [[the jewelry.|haber robado las joyas.]]",
           "options": ["[[having stolen|haber robado]]", "[[to steal|robar]]", "[[that he steals|que roba]]"],
           "correctAnswer": 0,
           "explanation": "'Deny' puede ir seguido de gerundio o de participio perfecto para enfatizar el pasado.",
@@ -874,7 +874,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector de contraste que va seguido de sustantivo.",
       "questions": [
         {
-          "question": "_______ [[the|A pesar del]] [[cold|tiempo]] [[weather,|frío,]] [[they|fueron]] [[went|a]] [[swimming|nadar]] [[in|al]] [[the|lago.]] [[lake.| ]]",
+          "question": "_______ [[the cold weather, they went swimming in the lake.|A pesar del tiempo frío, fueron a nadar al lago.  ]]",
           "options": ["[[Despite|A pesar de]]", "[[Although|Aunque]]", "[[Even though|Incluso aunque]]"],
           "correctAnswer": 0,
           "explanation": "'Despite' e 'In spite of' van seguidos de sustantivo, mientras que 'Although' va seguido de una oración completa.",
@@ -897,7 +897,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión para dar un consejo fuerte.",
       "questions": [
         {
-          "question": "[[You|Sería mejor]] _______ _______ [[see|que]] [[a|vieras a]] [[doctor|un médico]] [[about|por]] [[that|esa]] [[cough.|tos.]]",
+          "question": "[[You a doctor about that cough.|Sería mejor]] _______ _______ [[see|que vieras a un médico por esa tos.]]",
           "options": ["[[had better|sería mejor]]", "[[would better|mejoraría]]", "[[should better|debería mejor]]"],
           "correctAnswer": 0,
           "explanation": "'Had better' va seguido de infinitivo sin 'to' y se usa para consejos urgentes.",
@@ -920,7 +920,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la inversión para esta frase enfática.",
       "questions": [
         {
-          "question": "[[Never|Nunca]] _______ _______ _______ [[such|he oído una]] [[a|historia]] [[ridiculous|tan]] [[story.|ridícula.]]",
+          "question": "[[Never a ridiculous story.|Nunca]] _______ _______ _______ [[such|he oído una historia tan ridícula.]]",
           "options": ["[[have I heard|he oído]]", "[[I have heard|he oído (normal)]]", "[[did I hear|oí]]"],
           "correctAnswer": 0,
           "explanation": "Inversión con 'Never' al principio para dar un tono dramático o formal.",
@@ -943,7 +943,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para el resultado en este condicional mixto.",
       "questions": [
         {
-          "question": "[[If|Si]] [[she|ella]] [[hadn't|no]] [[missed|hubiera]] [[the|perdido]] [[train,|el tren,]] [[she| ]] _______ _______ [[here|estaría aquí]] [[by|ya.]] [[now.| ]]",
+          "question": "[[If she hadn't missed the train, she by|Si ella no hubiera perdido el tren,  ]] _______ _______ [[here now.|estaría aquí ya.  ]]",
           "options": ["[[would be|estaría]]", "[[would have been|habría estado]]", "[[will be|estará]]"],
           "correctAnswer": 0,
           "explanation": "Condición pasada (perder el tren) con resultado presente (estar aquí).",
@@ -966,7 +966,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal tras 'It's about time'.",
       "questions": [
         {
-          "question": "[[It's|Ya va]] [[about|siendo]] [[time|hora de]] [[you|que te]] _______ [[taking|tomes]] [[your|tus]] [[studies|estudios]] [[seriously.|en serio.]]",
+          "question": "[[It's about time you|Ya va siendo hora de que te]] _______ [[taking your studies seriously.|tomes tus estudios en serio.]]",
           "options": ["[[started|empezaras / tomases]]", "[[start|empieces]]", "[[have started|hayas empezado]]"],
           "correctAnswer": 0,
           "explanation": "'It's about time' requiere pasado simple para referirse al presente.",
@@ -989,7 +989,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector que acompaña a 'No sooner'.",
       "questions": [
         {
-          "question": "[[No|Apenas]] [[sooner|habíamos]] [[had|llegado]] [[we|a]] [[reached|la]] [[the|cima]] _______ [[the|cuando]] [[storm|estalló la]] [[broke.|tormenta.]]",
+          "question": "[[No sooner had we reached the broke.|Apenas habíamos llegado a la cima]] _______ [[the storm|cuando estalló la tormenta.]]",
           "options": ["[[than|que / cuando]]", "[[when|cuando]]", "[[that|que]]"],
           "correctAnswer": 0,
           "explanation": "'No sooner' siempre se empareja con 'than'.",
@@ -1012,7 +1012,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión para decir 'prefiero' en comparación.",
       "questions": [
         {
-          "question": "[[I'd|Preferiría]] _______ [[stay|quedarme]] [[home|en]] [[than|casa]] [[go|que ir]] [[to|a]] [[that|esa]] [[party.|fiesta.]]",
+          "question": "[[I'd home than go to that party.|Preferiría]] _______ [[stay|quedarme en casa que ir a esa fiesta.]]",
           "options": ["[[sooner|preferiría / antes]]", "[[rather|antes]]", "[[prefer|prefiero]]"],
           "correctAnswer": 0,
           "explanation": "'I'd sooner' es muy similar a 'I'd rather' para comparar dos acciones.",
@@ -1035,7 +1035,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la inversión correcta para el presente perfecto.",
       "questions": [
         {
-          "question": "[[Rarely|Rara vez]] _______ _______ _______ [[such|he visto un]] [[a|atardecer]] [[beautiful|tan]] [[sunset.|hermoso.]]",
+          "question": "[[Rarely a beautiful sunset.|Rara vez]] _______ _______ _______ [[such|he visto un atardecer tan hermoso.]]",
           "options": ["[[have I seen|he visto]]", "[[I have seen|he visto (normal)]]", "[[had I seen|había visto]]"],
           "correctAnswer": 0,
           "explanation": "La inversión con 'Rarely' requiere adelantar el auxiliar 'have'.",
@@ -1058,7 +1058,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector condicional adecuado.",
       "questions": [
         {
-          "question": "_______ [[you|A menos que te]] [[hurry|des]] [[up,|prisa,]] [[we|nos]] [[will|perderemos]] [[miss|el]] [[the|comienzo]] [[beginning|de]] [[of|la]] [[the|obra.]] [[play.| ]]",
+          "question": "_______ [[you hurry up, we will miss the beginning of the play.|A menos que te des prisa, nos perderemos el comienzo de la obra.  ]]",
           "options": ["[[Unless|A menos que]]", "[[Provided|Siempre que]]", "[[If|Si]]"],
           "correctAnswer": 0,
           "explanation": "'Unless' introduce la condición necesaria para que no ocurra algo negativo.",
@@ -1081,7 +1081,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal tras 'Supposing' para una posibilidad futura.",
       "questions": [
         {
-          "question": "[[Supposing|Supongamos que]] [[he|suspendiera]] _______ [[the|el]] [[exam,|examen,]] [[what|¿qué]] [[will|hará?]] [[he| ]] [[do?| ]]",
+          "question": "[[Supposing he what will he do?|Supongamos que suspendiera]] _______ [[the exam,|el examen, ¿qué hará?    ]]",
           "options": ["[[fails|suspende]]", "[[will fail|suspenderá]]", "[[has failed|ha suspendido]]"],
           "correctAnswer": 0,
           "explanation": "'Supposing' puede ir seguido de presente simple para situaciones que consideramos posibles.",
@@ -1104,7 +1104,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la inversión para el tercer condicional.",
       "questions": [
         {
-          "question": "_______ [[the|Si el tiempo hubiera]] [[weather|sido]] [[been|mejor,]] [[better,|nos]] [[we|habríamos]] [[would|quedado]] [[have|más]] [[stayed|tiempo.]] [[longer.| ]]",
+          "question": "_______ [[the weather been better, we would have stayed longer.|Si el tiempo hubiera sido mejor, nos habríamos quedado más tiempo.  ]]",
           "options": ["[[Had|Si]]", "[[If|Si (normal)]]", "[[Were|Si (presente)]]"],
           "correctAnswer": 0,
           "explanation": "'Had + sujeto + participio' reemplaza a 'If + sujeto + had + participio'.",
@@ -1127,7 +1127,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta tras 'looking forward to'.",
       "questions": [
         {
-          "question": "[[I|Tengo]] [[am|muchas]] [[looking|ganas]] [[forward|de]] [[to|conocerte]] _______ [[you|la]] [[next|semana]] [[week.|que viene.]]",
+          "question": "[[I am looking forward to next week.|Tengo muchas ganas de conocerte]] _______ [[you|la semana que viene.]]",
           "options": ["[[meeting|conocerte / quedar]]", "[[meet|conocer]]", "[[to meet|conocer]]"],
           "correctAnswer": 0,
           "explanation": "'Look forward to' es una de las pocas expresiones con 'to' que va seguida de gerundio (-ing).",
@@ -1150,7 +1150,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal adecuada tras el verbo 'recommend'.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[recommended|recomendó]] [[that|que]] [[he|él]] _______ [[for|la]] [[the|beca.]] [[scholarship.| ]]",
+          "question": "[[She recommended that he|Ella recomendó que él]] _______ [[for the scholarship.|la beca.  ]]",
           "options": ["[[apply|solicite]]", "[[applies|solicita]]", "[[applying|solicitando]]"],
           "correctAnswer": 0,
           "explanation": "Tras ciertos verbos de influencia, se usa el subjuntivo (infinitivo sin 'to' ni -s).",
@@ -1173,7 +1173,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del verbo 'be' para este caso de subjuntivo.",
       "questions": [
         {
-          "question": "[[It|Es]] [[is|esencial]] [[essential|que]] [[that|todos]] [[everyone|estén]] _______ [[on|a]] [[time|tiempo]] [[for|en]] [[the|la]] [[meeting.|reunión.]]",
+          "question": "[[It is essential that everyone time for the|Es esencial que todos estén]] _______ [[on meeting.|a tiempo en la reunión.]]",
           "options": ["[[be|estén / ser]]", "[[is|es]]", "[[are|son / están]]"],
           "correctAnswer": 0,
           "explanation": "Tras 'It is essential that', se usa la forma base 'be'.",
@@ -1196,7 +1196,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal adecuada tras 'In spite of'.",
       "questions": [
         {
-          "question": "[[In|A]] [[spite|pesar]] [[of|de]] _______ [[the|ser el]] [[better|mejor]] [[team,|equipo,]] [[they|perdieron]] [[lost|el]] [[the|partido.]] [[game.| ]]",
+          "question": "[[In spite of better lost the game.|A pesar de]] _______ [[the team, they|ser el mejor equipo, perdieron el partido.  ]]",
           "options": ["[[being|ser]]", "[[to be|ser]]", "[[be|ser]]"],
           "correctAnswer": 0,
           "explanation": "Tras preposición ('of'), siempre usamos gerundio (-ing).",
@@ -1219,7 +1219,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector que falta en esta estructura de inversión.",
       "questions": [
         {
-          "question": "[[No|Apenas]] [[sooner|había]] [[had|empezado]] [[I|a]] [[started|comer]] [[eating| ]] _______ [[the|cuando]] [[doorbell|sonó el]] [[rang.|timbre.]]",
+          "question": "[[No sooner had I started eating rang.|Apenas había empezado a comer  ]] _______ [[the doorbell|cuando sonó el timbre.]]",
           "options": ["[[than|que / cuando]]", "[[when|cuando]]", "[[before|antes]]"],
           "correctAnswer": 0,
           "explanation": "Recuerda: 'No sooner' va con 'than'.",
@@ -1242,7 +1242,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la inversión para expresar sorpresa.",
       "questions": [
         {
-          "question": "[[Little|Poco]] _______ _______ _______ [[that|imaginaba que]] [[I|un]] [[would|día]] [[one|estaría]] [[day|viviendo]] [[be|en]] [[living|Tokio.]] [[in| ]] [[Tokyo.| ]]",
+          "question": "[[Little I would one day be living in Tokyo.|Poco]] _______ _______ _______ [[that|imaginaba que un día estaría viviendo en Tokio.    ]]",
           "options": ["[[did I imagine|imaginaba]]", "[[I imagined|imaginé]]", "[[I would imagine|imaginaría]]"],
           "correctAnswer": 0,
           "explanation": "Inversión con 'Little' para hechos sorprendentes que el sujeto no previó.",
@@ -1265,7 +1265,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector de condición positiva.",
       "questions": [
         {
-          "question": "_______ [[that|Siempre que]] [[we|nos]] [[leave|vayamos]] [[now,|ahora,]] [[we|deberíamos]] [[should|llegar]] [[make|a]] [[it|tiempo.]] [[on| ]] [[time.| ]]",
+          "question": "_______ [[that we leave now, we should make it on time.|Siempre que nos vayamos ahora, deberíamos llegar a tiempo.    ]]",
           "options": ["[[Provided|Siempre que]]", "[[Supposing|Suponiendo]]", "[[Whether|Si]]"],
           "correctAnswer": 0,
           "explanation": "'Provided that' (o 'Providing that') introduce una condición que garantiza el resultado.",
@@ -1288,7 +1288,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma negativa de la inversión en tercer condicional.",
       "questions": [
         {
-          "question": "_______ _______ _______ _______ _______ [[for|Si no hubiera sido por]] [[the|el]] [[GPS,|GPS,]] [[we|nos]] [[would|habríamos]] [[have|perdido.]] [[gotten| ]] [[lost.| ]]",
+          "question": "_______ _______ _______ _______ _______ [[for the GPS, we would have gotten lost.|Si no hubiera sido por el GPS, nos habríamos perdido.    ]]",
           "options": ["[[Had it not been|Si no hubiera sido]]", "[[If it wasn't|Si no fuera]]", "[[Hadn't it been|Si no hubiera sido (incorrecto)]]"],
           "correctAnswer": 0,
           "explanation": "La inversión negativa es 'Had + sujeto + not + been'.",
@@ -1311,7 +1311,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la estructura correcta para comparar preferencias.",
       "questions": [
         {
-          "question": "[[I|Preferiría]] [[would|ir]] [[rather|en]] [[go|tren]] [[by|que]] [[train|volar.]] [[than| ]] [[fly.| ]]",
+          "question": "[[I would rather go by train than fly.|Preferiría ir en tren que volar.    ]]",
           "options": ["[[than|que]]", "[[to|a]]", "[[instead|en lugar]]"],
           "correctAnswer": 0,
           "explanation": "'Would rather' siempre se usa con 'than' para comparar dos opciones.",

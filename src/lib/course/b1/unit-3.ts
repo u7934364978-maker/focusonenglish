@@ -14,7 +14,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración en presente perfecto.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[visited|visitado]] [[Spain|España]] [[twice|dos veces]] [[in|en]] [[my|mi]] [[life|vida]].",
+          "question": "[[I Spain twice in my life|Yo]] _______ [[visited|visitado España dos veces en mi vida]].",
           "options": [
             "[[have|he]]",
             "[[has|ha]]"
@@ -40,7 +40,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Though|Aunque]] [[he|él]] _______ [[never|nunca]] [[tried|probado]] [[sushi|sushi]], [[he|él]] [[is|está]] [[willing|dispuesto]] [[to|a]] [[eat|comer]] [[it|lo]].",
+          "question": "[[Though he, he sushi is willing to eat it|Aunque él]] _______ [[never tried|nunca probado sushi, él está dispuesto a comer lo]].",
           "options": [
             "[[has|ha]]",
             "[[have|he]]"
@@ -66,7 +66,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración usando la opción correcta en presente perfecto.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[having|haber]] [[lived|vivido]] [[in|en]] [[many|muchos]] [[countries|países]], [[she|ella]] _______ [[never|nunca]] [[felt|sentido]] [[at|en]] [[home|casa]].",
+          "question": "[[Despite having, she felt lived in many countries at home|A pesar de haber vivido en muchos países, ella]] _______ [[never|nunca sentido en casa]].",
           "options": [
             "[[has|ha]]",
             "[[have|he]]"
@@ -92,7 +92,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo correcto para completar la oración.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[I|yo]] _______ [[worked|trabajado]] [[here|aquí]] [[for|por]] [[years|años]], [[I|yo]] [[still|aún]] [[learn|aprendo]] [[something|algo]] [[new|nuevo]] [[every|cada]] [[day|día]].",
+          "question": "[[Although I, I still for years learn something new every day|Aunque yo]] _______ [[worked here|trabajado aquí por años, yo aún aprendo algo nuevo cada día]].",
           "options": [
             "[[have|he]]",
             "[[has|ha]]"
@@ -118,7 +118,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Marca la opción que completa correctamente la oración.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[always|siempre]] [[been|estado]] [[interested|interesados]] [[in|en]] [[learning|aprender]] [[new|nuevas]] [[languages|lenguas]].",
+          "question": "[[We been interested in learning new languages|Nosotros]] _______ [[always|siempre estado interesados en aprender nuevas lenguas]].",
           "options": [
             "[[have|hemos]]",
             "[[has|ha]]"
@@ -144,7 +144,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración utilizando el presente perfecto simple.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[traveled|viajado]] [[to|a]] [[five|cinco]] [[different|diferentes]] [[countries|países]] [[this|este]] [[year|año]].",
+          "question": "[[I to five different countries this year|Yo]] _______ [[traveled|viajado a cinco diferentes países este año]].",
           "options": [
             "[[have|he]]",
             "[[has|ha]]"
@@ -170,7 +170,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Llena el espacio usando el presente perfecto simple.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[completed|completado]] [[her|su]] [[degree|grado]] [[in|en]] [[engineering|ingeniería]] [[despite|a pesar de]] [[the|los]] [[challenges|retos]].",
+          "question": "[[She her degree in engineering despite the challenges|Ella]] _______ [[completed|completado su grado en ingeniería a pesar de los retos]].",
           "options": [
             "[[has|ha]]",
             "[[have|he]]"
@@ -196,7 +196,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la forma correcta del presente perfecto simple.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[worked|trabajado]] [[together|juntos]] [[on|en]] [[several|varios]] [[projects|proyectos]].",
+          "question": "[[They together on several projects|Ellos]] _______ [[worked|trabajado juntos en varios proyectos]].",
           "options": [
             "[[have|han]]",
             "[[has|ha]]"
@@ -222,7 +222,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración con el presente perfecto.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[he|él]] _______ [[finished|terminado]] [[writing|de escribir]] [[the|el]] [[book|libro]], [[he|él]] _______ [[met|se ha reunido]] [[with|con]] [[several|varios]] [[publishers|editores]].",
+          "question": "[[Although he, he with the book|Aunque él]] _______ [[finished writing|terminado de escribir el libro, él]] _______ [[met several publishers|se ha reunido con varios editores]].",
           "options": [
             "[[hasn't|no ha]]",
             "[[has|ha]]"
@@ -248,7 +248,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con el presente perfecto simple adecuado.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[already|ya]] [[achieved|logrado]] [[so|tanto]] [[much|mucho]] [[in|en]] [[your|tu]] [[career|carrera]].",
+          "question": "[[You achieved so much in your career|Tú]] _______ [[already|ya logrado tanto mucho en tu carrera]].",
           "options": [
             "[[have|has]]",
             "[[has|ha]]"
@@ -272,7 +272,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[have|he]] [[visited|visitado]] [[several|varios]] [[countries|países]] [[although|aunque]] [[I|yo]] [[have|he]] [[not|no]] [[traveled|viajado]] [[to|a]] [[Asia|Asia]] [[yet|todavía]].",
+      "correctSentence": "[[I have visited several countries although I have not traveled to Asia yet|Yo he visitado varios países aunque yo he no viajado a Asia todavía]].",
       "words": [
         "[[I|Yo]]",
         "[[not|no]]",
@@ -304,7 +304,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[has|ha]] [[not|no]] [[completed|terminado]] [[his|su]] [[degree|carrera]] [[despite|a pesar de]] [[the|los]] [[challenges|desafíos]].",
+      "correctSentence": "[[He has not completed his degree despite the challenges|Él ha no terminado su carrera a pesar de los desafíos]].",
       "words": [
         "[[degree|carrera]]",
         "[[has|ha]]",
@@ -332,7 +332,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[has|ha]] [[written|escrito]] [[for|para]] [[several|varias]] [[international|internacionales]] [[journals|revistas]]; [[however|sin embargo]], [[she|ella]] [[has|ha]] [[never|nunca]] [[edited|editado]] [[them|ellas]].",
+      "correctSentence": "[[She has; however written for, she never edited several international journals has them|Ella ha escrito para varias internacionales revistas; sin embargo, ella ha nunca editado ellas]].",
       "words": [
         "[[journals|revistas]]",
         "[[international|internacionales]]",
@@ -364,7 +364,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[they|ellos]] [[have|han]] [[faced|enfrentado]] [[many|muchas]] [[difficulties|dificultades]], [[they|ellos]] [[have|han]] [[succeeded|triunfado]] [[in|en]] [[their|su]] [[business|negocio]].",
+      "correctSentence": "[[Although they, they have have faced many difficulties succeeded in their business|Aunque ellos han enfrentado muchas dificultades, ellos han triunfado en su negocio]].",
       "words": [
         "[[faced|enfrentado]]",
         "[[they|ellos]]",
@@ -395,7 +395,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[never|nunca]] [[having|haber]] [[studied|estudiado]] [[architecture|arquitectura]], [[he|él]] [[has|ha]] [[designed|diseñado]] [[many|muchos]] [[buildings|edificios]].",
+      "correctSentence": "[[Despite never, he having studied architecture has designed many buildings|A pesar de nunca haber estudiado arquitectura, él ha diseñado muchos edificios]].",
       "words": [
         "[[studied|estudiado]]",
         "[[Despite|A pesar de]]",
@@ -426,7 +426,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración usando el presente perfecto.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[visited|visitado]] [[three|tres]] [[countries|países]] [[this|este]] [[year|año]].",
+          "question": "[[He three countries this year|Él]] _______ [[visited|visitado tres países este año]].",
           "options": [
             "[[has|ha]]",
             "[[did|hizo]]"
@@ -452,7 +452,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración usando el presente perfecto para indicar logros recientes.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[she|ella]] _______ [[broken|roto]] [[her|su]] [[leg|pierna]], [[she|ella]] [[has|ha]] [[completed|completado]] [[the|el]] [[marathon|maratón]].",
+          "question": "[[Although she, she leg has completed the marathon|Aunque ella]] _______ [[broken her|roto su pierna, ella ha completado el maratón]].",
           "options": [
             "[[has|ha]]",
             "[[had|había]]"
@@ -478,7 +478,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Usa el presente perfecto para hablar sobre experiencias de vida que no han ocurrido.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[never|nunca]] [[lived|vivido]] [[abroad|en el extranjero]].",
+          "question": "[[They lived abroad|Ellos]] _______ [[never|nunca vivido en el extranjero]].",
           "options": [
             "[[have|han]]",
             "[[did|hicieron]]"
@@ -504,7 +504,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración usando el presente perfecto para describir logros.",
       "questions": [
         {
-          "question": "[[Despite|A pesar]] [[of|de]] [[having|haber]] [[had|tenido]] [[no|ninguna]] [[training|formación]], [[he|él]] _______ [[built|construido]] [[the|el]] [[entire|entero]] [[website|sitio web]] [[himself|él mismo]].",
+          "question": "[[Despite of, he the having had no training entire website|A pesar de haber tenido ninguna formación, él]] _______ [[built himself|construido el entero sitio web él mismo]].",
           "options": [
             "[[has|ha]]",
             "[[does|hace]]"
@@ -530,7 +530,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la forma correcta del presente perfecto para preguntas sobre experiencias de vida.",
       "questions": [
         {
-          "question": "[[Have|Has]] [[you|tú]] _______ [[ever|alguna vez]] [[attempted|intentado]] [[to|aprender]] [[learn|un]] [[a|nuevo]] [[new|idioma]] [[language|nuevo]]?",
+          "question": "[[Have you to learn a new language|Has tú]] _______ [[ever attempted|alguna vez intentado aprender un nuevo idioma nuevo]]?",
           "options": [
             "[[have|has]]",
             "[[did|hiciste]]"
@@ -556,7 +556,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la forma correcta del presente perfecto.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[visited|visitado]] [[several|varios]] [[countries|países]] [[in|en]] [[Asia|Asia]].",
+          "question": "[[I several countries in Asia|Yo]] _______ [[visited|visitado varios países en Asia]].",
           "options": [
             "[[have|he]]",
             "[[had|había]]"
@@ -582,7 +582,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase con la forma correcta del presente perfecto.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[worked|trabajado]] [[at|en]] [[the|la]] [[company|empresa]] [[for|durante]] [[five|cinco]] [[years|años]].",
+          "question": "[[She at the company for five years|Ella]] _______ [[worked|trabajado en la empresa durante cinco años]].",
           "options": [
             "[[has|ha]]",
             "[[did|hizo]]"
@@ -608,7 +608,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Usa el presente perfecto para completar la frase.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[being|ser]] [[young|joven]], [[he|él]] _______ [[already|ya]] [[published|publicado]] [[two|dos]] [[books|libros]].",
+          "question": "[[Despite being, he young published|A pesar de ser joven, él]] _______ [[already two books|ya publicado dos libros]].",
           "options": [
             "[[has|ha]]",
             "[[did|hizo]]"
@@ -634,7 +634,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Llena el espacio con la forma adecuada del presente perfecto.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[learned|aprendido]] [[from|de]] [[their|sus]] [[past|pasados]] [[mistakes|errores]].",
+          "question": "[[They from their past mistakes|Ellos]] _______ [[learned|aprendido de sus pasados errores]].",
           "options": [
             "[[have|han]]",
             "[[will|van a]]"
@@ -660,7 +660,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración aprovechando el presente perfecto.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[he|él]] _______ [[faced|enfrentado]] [[challenges|desafíos]], [[he|él]] [[remains|permanece]] [[optimistic|optimista]].",
+          "question": "[[Although he, he remains optimistic|Aunque él]] _______ [[faced challenges|enfrentado desafíos, él permanece optimista]].",
           "options": [
             "[[has|ha]]",
             "[[was|fue]]"
@@ -684,7 +684,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[have|he]] [[visited|visitado]] [[many|muchos]] [[countries|países]] [[while|mientras]] [[traveling|viajaba]] [[for|por]] [[work|trabajo]].",
+      "correctSentence": "[[I have visited many countries while traveling for work|Yo he visitado muchos países mientras viajaba por trabajo]].",
       "words": [
         "[[countries|países]]",
         "[[I|Yo]]",
@@ -712,7 +712,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[has|ha]] [[successfully|exitosamente]] [[completed|completado]] [[her|su]] [[first|primer]] [[marathon|maratón]].",
+      "correctSentence": "[[She has successfully completed her first marathon|Ella ha exitosamente completado su primer maratón]].",
       "words": [
         "[[first|primer]]",
         "[[completed|completado]]",
@@ -738,7 +738,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[difficulties|dificultades]], [[they|ellos]] [[have|han]] [[achieved|logrado]] [[great|grandes]] [[success|éxitos]].",
+      "correctSentence": "[[Despite difficulties, they have achieved great success|A pesar de dificultades, ellos han logrado grandes éxitos]].",
       "words": [
         "[[achieved|logrado]]",
         "[[great|grandes]]",
@@ -764,7 +764,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi]] [[brother|hermano]] [[has|ha]] [[never|nunca]] [[traveled|viajado]] [[outside|fuera]] [[his|de su]] [[country|país]].",
+      "correctSentence": "[[My brother has never traveled outside his country|Mi hermano ha nunca viajado fuera de su país]].",
       "words": [
         "[[never|nunca]]",
         "[[his|de su]]",
@@ -791,7 +791,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[he|él]] [[has|ha]] [[written|escrito]] [[several|varios]] [[books|libros]], [[he|él]] [[still|todavía]] [[feels|se siente]] [[inexperienced|inexperto]].",
+      "correctSentence": "[[Although he, he still has written several books feels inexperienced|Aunque él ha escrito varios libros, él todavía se siente inexperto]].",
       "words": [
         "[[he|él]]",
         "[[books|libros]]",
@@ -822,7 +822,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta del verbo para completar la frase sobre experiencias de vida.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[visited|visitado]] [[several|varios]] [[countries|países]] [[in|en]] [[Europe|Europa]] [[recently|recientemente]].",
+          "question": "[[She several countries in Europe recently|Ella]] _______ [[visited|visitado varios países en Europa recientemente]].",
           "options": [
             "[[has|ha]]",
             "[[did|hizo]]",
@@ -849,7 +849,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración sobre intentos.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[they|ellos]] _______ [[tried|intentado]] [[many|muchas]] [[times|veces]], [[they|ellos]] [[haven't|no han]] [[succeeded|tenido éxito]] [[yet|todavía]].",
+          "question": "[[Although they, they times haven't succeeded yet|Aunque ellos]] _______ [[tried many|intentado muchas veces, ellos no han tenido éxito todavía]].",
           "options": [
             "[[have|han]]",
             "[[had|habían]]",
@@ -876,7 +876,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase con la opción correcta sobre los esfuerzos pasados.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[her|sus]] [[efforts|esfuerzos]], [[she|ella]] _______ [[managed|logrado]] [[to|completar]] [[complete|el proyecto]].",
+          "question": "[[Despite her, she efforts to|A pesar de sus esfuerzos, ella]] _______ [[managed complete|logrado completar el proyecto]].",
           "options": [
             "[[hasn't|no ha]]",
             "[[didn't|no hizo]]",
@@ -903,7 +903,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta que indica el tiempo desde que comenzó una acción.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[worked|trabajado]] [[in|en]] [[this|esta]] [[company|empresa]] [[since|desde]] [[2015|2015]].",
+          "question": "[[He in this company since 2015|Él]] _______ [[worked|trabajado en esta empresa desde 2015]].",
           "options": [
             "[[has|ha]]",
             "[[is|es]]",
@@ -930,7 +930,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la forma correcta para completar la pregunta sobre experiencias únicas.",
       "questions": [
         {
-          "question": "[[Have|Has]] [[you|tú]] _______ [[tried|probado]] [[bungee|bungee]] [[jumping|jumping]]?",
+          "question": "[[Have you jumping|Has tú]] _______ [[tried bungee|probado bungee jumping]]?",
           "options": [
             "[[ever|alguna vez]]",
             "[[yet|ya]]",
@@ -957,7 +957,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase sobre experiencias internacionales usando el presente perfecto.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[worked|trabajado]] [[in|en]] [[three|tres]] [[different|diferentes]] [[countries|países]].",
+          "question": "[[He in three different countries|Él]] _______ [[worked|trabajado en tres diferentes países]].",
           "options": [
             "[[has|ha]]",
             "[[had|había]]"
@@ -983,7 +983,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase destacando experiencias de aprendizaje usando el presente perfecto.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[I|yo]] _______ [[not|no]] [[traveled|viajado]] [[much|mucho]], [[I|yo]] [[have|he]] [[learned|aprendido]] [[a|mucho]] [[lot|de]] [[from|mis]] [[my|experiencias]] [[local|locales]].",
+          "question": "[[Although I, I much have learned a lot from my local|Aunque yo]] _______ [[not traveled|no viajado mucho, yo he aprendido mucho de mis experiencias locales]].",
           "options": [
             "[[have|he]]",
             "[[had|había]]"
@@ -1009,7 +1009,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase sobre logros literarios utilizando el presente perfecto.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[written|escrito]] [[several|varios]] [[books|libros]] [[despite|a pesar de]] [[their|sus]] [[busy|ocupadas]] [[schedules|agendas]].",
+          "question": "[[They several books despite their busy schedules|Ellos]] _______ [[written|escrito varios libros a pesar de sus ocupadas agendas]].",
           "options": [
             "[[have|han]]",
             "[[has|ha]]"
@@ -1035,7 +1035,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase sobre sitios históricos utilizando el presente perfecto.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[visited|visitado]] [[many|muchos]] [[historical|históricos]] [[sites|sitios]] [[in|en]] [[our|nuestra]] [[city|ciudad]].",
+          "question": "[[We many historical sites in our city|Nosotros]] _______ [[visited|visitado muchos históricos sitios en nuestra ciudad]].",
           "options": [
             "[[have|hemos]]",
             "[[had|habíamos]]"
@@ -1061,7 +1061,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase sobre aprendizaje de idiomas utilizando el presente perfecto.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[learned|aprendido]] [[three|tres]] [[new|nuevos]] [[languages|idiomas]] [[since|desde]] [[she|que]] [[moved|se mudó]] [[abroad|al extranjero]].",
+          "question": "[[She three new languages since she moved abroad|Ella]] _______ [[learned|aprendido tres nuevos idiomas desde que se mudó al extranjero]].",
           "options": [
             "[[has|ha]]",
             "[[had|había]]"
@@ -1085,7 +1085,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta sobre logros personales.",
-      "correctSentence": "[[I|Yo]] [[have|he]] [[achieved|logrado]] [[my|mis]] [[goals|metas]] [[despite|a pesar de]] [[many|muchos]] [[challenges|desafíos]].",
+      "correctSentence": "[[I have achieved my goals despite many challenges|Yo he logrado mis metas a pesar de muchos desafíos]].",
       "words": [
         "[[despite|a pesar de]]",
         "[[have|he]]",
@@ -1112,7 +1112,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta sobre el aprendizaje de idiomas.",
-      "correctSentence": "[[They|Ellos]] [[have|han]] [[learned|aprendido]] [[to|a]] [[speak|hablar]] [[French|francés]] [[fluently|con fluidez]].",
+      "correctSentence": "[[They have learned to speak French fluently|Ellos han aprendido a hablar francés con fluidez]].",
       "words": [
         "[[learned|aprendido]]",
         "[[to|a]]",
@@ -1138,7 +1138,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta sobre experiencias de viaje.",
-      "correctSentence": "[[Although|Aunque]] [[I|yo]] [[have|he]] [[traveled|viajado]] [[a|mucho]] [[lot|he]] [[I|nunca]] [[have|he]] [[never|visitado]] [[visited|Asia]].",
+      "correctSentence": "[[Although I have traveled a lot I have never visited|Aunque yo he viajado mucho he nunca he visitado Asia]].",
       "words": [
         "[[a|mucho]]",
         "[[never|nunca]]",
@@ -1166,7 +1166,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta sobre experiencias en la ciudad.",
-      "correctSentence": "[[Since|Desde que]] [[I|yo]] [[have|me he]] [[moved|mudado]] [[to|a]] [[the|la]] [[city|ciudad]], [[I|he]] [[have|conocido]] [[met|a muchas]] [[many|personas]] [[interesting|interesantes]].",
+      "correctSentence": "[[Since I, I have moved to the city have met many interesting|Desde que yo me he mudado a la ciudad, he conocido a muchas personas interesantes]].",
       "words": [
         "[[Since|Desde que]]",
         "[[city|ciudad]],",
@@ -1196,7 +1196,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta sobre completar proyectos.",
-      "correctSentence": "[[Despite|A pesar de]] [[the|las]] [[difficulties|dificultades]], [[he|él]] [[has|ha]] [[completed|completado]] [[the|el]] [[project|proyecto]] [[on|a]] [[time|tiempo]].",
+      "correctSentence": "[[Despite the, he difficulties has completed the project on time|A pesar de las dificultades, él ha completado el proyecto a tiempo]].",
       "words": [
         "[[the|las]]",
         "[[project|proyecto]]",
@@ -1226,7 +1226,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la pregunta usando el presente perfecto.",
       "questions": [
         {
-          "question": "[[Have|Has]] [[you|tú]] _______ [[abroad|al extranjero]]?",
+          "question": "[[Have you|Has tú]] _______ [[abroad|al extranjero]]?",
           "options": [
             "[[ever|alguna vez]]",
             "[[before|antes]]"
@@ -1252,7 +1252,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra adecuada para completar la oración en presente perfecto.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[missed|perdido]] [[a|una]] [[deadline|fecha límite]].",
+          "question": "[[They a deadline|Ellos]] _______ [[missed|perdido una fecha límite]].",
           "options": [
             "[[have|han]]",
             "[[has|ha]]"
@@ -1278,7 +1278,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración eligiendo la opción correcta con el presente perfecto.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[has|ha]] _______ [[finished|terminado]] [[her|su]] [[presentation|presentación]].",
+          "question": "[[She has presentation|Ella ha]] _______ [[finished her|terminado su presentación]].",
           "options": [
             "[[already|ya]]",
             "[[yet|todavía]]"
@@ -1304,7 +1304,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Escoge la opción apropiada para completar la pregunta con el presente perfecto.",
       "questions": [
         {
-          "question": "[[Have|Han]] [[they|ellos]] _______ [[the|al]] [[CEO|director ejecutivo]] _______?",
+          "question": "[[Have they|Han ellos]] _______ [[the CEO|al director ejecutivo]] _______?",
           "options": [
             "[[met|conocido]]",
             "[[yet|ya]]"
@@ -1330,7 +1330,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración con el presente perfecto.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|he]] _______ [[such|tal]] [[a|una]] [[beautiful|hermosa]] [[painting|pintura]].",
+          "question": "[[I have beautiful painting|Yo he]] _______ [[such a|tal una hermosa pintura]].",
           "options": [
             "[[never|nunca]]",
             "[[ever|alguna vez]]"

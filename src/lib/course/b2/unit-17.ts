@@ -12,7 +12,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Deducción pasada",
       "instructions": "Ordena las palabras usando 'must have' para deducciones fuertes.",
-      "correctSentence": "[[She|Ella]] [[must|debe]] [[have|de haber]] [[been|estado]] [[very|muy]] [[stressed|estresada]] [[before|antes]] [[the|del]] [[exam.|examen.]]",
+      "correctSentence": "[[She must have been very stressed before the exam.|Ella debe de haber estado muy estresada antes del examen.]]",
       "words": [
         "[[must|debe]]",
         "[[stressed|estresada]]",
@@ -40,7 +40,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Lenguaje corporal",
       "instructions": "Ordena las palabras para hablar de comunicación no verbal.",
-      "correctSentence": "[[Body|El lenguaje]] [[language|corporal]] [[often|a menudo]] [[reveals|revela]] [[more|más]] [[than|que]] [[spoken|las palabras]] [[words.|habladas.]]",
+      "correctSentence": "[[Body language often reveals more than spoken words.|El lenguaje corporal a menudo revela más que las palabras habladas.]]",
       "words": [
         "[[language|corporal]]",
         "[[reveals|revela]]",
@@ -67,7 +67,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Perder los estribos",
       "instructions": "Ordena las palabras usando 'wish' para arrepentimientos pasados.",
-      "correctSentence": "[[I|Ojalá]] [[wish| ]] [[I|no]] [[hadn't|hubiera]] [[lost|perdido]] [[my|los]] [[temper|estribos]] [[during|durante]] [[the|la]] [[meeting.|reunión.]]",
+      "correctSentence": "[[I wish I hadn't lost my temper during the meeting.|Ojalá   no hubiera perdido los estribos durante la reunión.]]",
       "words": [
         "[[hadn't|hubiera]]",
         "[[temper|estribos]]",
@@ -95,7 +95,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Terapia cognitiva",
       "instructions": "Ordena las palabras para hablar de tratamientos psicológicos.",
-      "correctSentence": "[[Cognitive|La terapia]] [[therapy|cognitiva]] [[helps|ayuda a]] [[patients|los pacientes]] [[change|a cambiar]] [[their|sus]] [[negative|patrones]] [[thought|de pensamiento]] [[patterns.|negativos.]]",
+      "correctSentence": "[[Cognitive therapy helps patients change their negative thought patterns.|La terapia cognitiva ayuda a los pacientes a cambiar sus patrones de pensamiento negativos.]]",
       "words": [
         "[[therapy|cognitiva]]",
         "[[change|a cambiar]]",
@@ -123,7 +123,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pudo haber sido mejor",
       "instructions": "Ordena las palabras usando 'could have' para posibilidades pasadas.",
-      "correctSentence": "[[He|Él]] [[could|pudo]] [[have|haber]] [[handled|manejado]] [[the|la]] [[situation|situación]] [[more|más]] [[diplomatically.|diplomáticamente.]]",
+      "correctSentence": "[[He could have handled the situation more diplomatically.|Él pudo haber manejado la situación más diplomáticamente.]]",
       "words": [
         "[[could|pudo]]",
         "[[situation|situación]]",
@@ -150,7 +150,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Empatía",
       "instructions": "Ordena las palabras para definir un concepto psicológico.",
-      "correctSentence": "[[Empathy|La empatía]] [[is|es]] [[the|la]] [[ability|capacidad]] [[to|de]] [[understand|entender]] [[others'|los sentimientos]] [[feelings.|de los demás.]]",
+      "correctSentence": "[[Empathy is the ability to understand others' feelings.|La empatía es la capacidad de entender los sentimientos de los demás.]]",
       "words": [
         "[[is|es]]",
         "[[ability|capacidad]]",
@@ -177,7 +177,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Emociones reprimidas",
       "instructions": "Ordena las palabras usando 'shouldn't have' para críticas pasadas.",
-      "correctSentence": "[[You|No]] [[shouldn't|deberías]] [[have|haber]] [[suppressed|reprimido]] [[your|tus]] [[emotions|emociones]] [[for|durante]] [[so|tanto]] [[long.|tiempo.]]",
+      "correctSentence": "[[You shouldn't have suppressed your emotions for so long.|No deberías haber reprimido tus emociones durante tanto tiempo.]]",
       "words": [
         "[[shouldn't|deberías]]",
         "[[emotions|emociones]]",
@@ -205,7 +205,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Presión de grupo",
       "instructions": "Ordena las palabras para hablar de influencias sociales.",
-      "correctSentence": "[[Peer|La presión]] [[pressure|de grupo]] [[can|puede]] [[significantly|influir]] [[influence|significativamente]] [[a|en el]] [[teenager's|comportamiento]] [[behavior.|de un adolescente.]]",
+      "correctSentence": "[[Peer pressure can significantly influence a teenager's behavior.|La presión de grupo puede influir significativamente en el comportamiento de un adolescente.]]",
       "words": [
         "[[pressure|de grupo]]",
         "[[influence|significativamente]]",
@@ -232,7 +232,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Olvido probable",
       "instructions": "Ordena las palabras usando 'might have' para probabilidad débil.",
-      "correctSentence": "[[They|Puede]] [[might|que]] [[have|se]] [[forgotten|hayan]] [[about|olvidado]] [[the|de]] [[appointment.|la cita.]]",
+      "correctSentence": "[[They might have forgotten about the appointment.|Puede que se hayan olvidado de la cita.]]",
       "words": [
         "[[might|que]]",
         "[[appointment.|la cita.]]",
@@ -258,7 +258,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Autoestima",
       "instructions": "Ordena las palabras para definir un concepto personal.",
-      "correctSentence": "[[Self-esteem|La autoestima]] [[refers|se refiere]] [[to|a]] [[how|cómo]] [[we|nos]] [[value|valoramos]] [[and|y]] [[perceive|percibimos]] [[ourselves.|a nosotros mismos.]]",
+      "correctSentence": "[[Self-esteem refers to how we value and perceive ourselves.|La autoestima se refiere a cómo nos valoramos y percibimos a nosotros mismos.]]",
       "words": [
         "[[refers|se refiere]]",
         "[[value|valoramos]]",
@@ -286,7 +286,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Si tan solo...",
       "instructions": "Ordena las palabras usando 'If only' para arrepentimientos profundos.",
-      "correctSentence": "[[If|Si]] [[only|tan solo]] [[I|hubiera]] [[had|escuchado]] [[listened|tus]] [[to|consejos]] [[your|antes.]] [[advice| ]] [[earlier.| ]]",
+      "correctSentence": "[[If only I had listened to your advice earlier.|Si tan solo hubiera escuchado tus consejos antes.    ]]",
       "words": [
         "[[only|tan solo]]",
         "[[advice| ]]",
@@ -314,7 +314,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Motivación",
       "instructions": "Ordena las palabras para hablar de impulso personal.",
-      "correctSentence": "[[Motivation|La motivación]] [[is|es]] [[the|la]] [[driving|fuerza]] [[force|impulsora]] [[behind|detrás]] [[our|de nuestras]] [[actions|acciones]] [[and|y]] [[goals.|metas.]]",
+      "correctSentence": "[[Motivation is the driving force behind our actions and goals.|La motivación es la fuerza impulsora detrás de nuestras acciones y metas.]]",
       "words": [
         "[[is|es]]",
         "[[force|impulsora]]",
@@ -342,7 +342,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Imposibilidad pasada",
       "instructions": "Ordena las palabras usando 'can't have' para imposibilidad.",
-      "correctSentence": "[[He|Él]] [[can't|no]] [[have|puede]] [[committed|haber]] [[the|cometido]] [[crime|el]] [[because|crimen]] [[he|porque]] [[was|estaba]] [[with|conmigo.]] [[me.| ]]",
+      "correctSentence": "[[He can't have committed the crime because he was with me.|Él no puede haber cometido el crimen porque estaba conmigo.  ]]",
       "words": [
         "[[can't|no]]",
         "[[crime|el]]",
@@ -371,7 +371,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Introvertidos",
       "instructions": "Ordena las palabras para hablar de tipos de personalidad.",
-      "correctSentence": "[[Introverts|Los introvertidos]] [[usually|suelen]] [[recharge|recargar]] [[their|su]] [[energy|energía]] [[by|pasando]] [[spending|tiempo]] [[time|a]] [[alone.|solas.]]",
+      "correctSentence": "[[Introverts usually recharge their energy by spending time alone.|Los introvertidos suelen recargar su energía pasando tiempo a solas.]]",
       "words": [
         "[[usually|suelen]]",
         "[[energy|energía]]",
@@ -399,7 +399,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Preocupación innecesaria",
       "instructions": "Ordena las palabras usando 'needn't have'.",
-      "correctSentence": "[[She|Ella]] [[needn't|no]] [[have|necesitaba]] [[worried|haberse]] [[about|preocupado]] [[the|por]] [[results|los]] [[of|resultados]] [[the|del]] [[test.|test.]]",
+      "correctSentence": "[[She needn't have worried about the results of the test.|Ella no necesitaba haberse preocupado por los resultados del test.]]",
       "words": [
         "[[needn't|no]]",
         "[[results|los]]",
@@ -428,7 +428,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Resiliencia",
       "instructions": "Ordena las palabras para definir la capacidad de superación.",
-      "correctSentence": "[[Resilience|La resiliencia]] [[is|es]] [[the|la]] [[capacity|capacidad]] [[to|de]] [[recover|recuperarse]] [[quickly|rápidamente]] [[from|de las]] [[difficulties.|dificultades.]]",
+      "correctSentence": "[[Resilience is the capacity to recover quickly from difficulties.|La resiliencia es la capacidad de recuperarse rápidamente de las dificultades.]]",
       "words": [
         "[[is|es]]",
         "[[capacity|capacidad]]",
@@ -456,7 +456,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hubiera preferido la verdad",
       "instructions": "Ordena las palabras usando 'would rather' para el pasado.",
-      "correctSentence": "[[I|Preferiría]] [[would|que]] [[rather|me]] [[you|hubieras]] [[had|dicho]] [[told|la]] [[me|verdad]] [[the|inicialmente.]] [[truth| ]] [[initially.| ]]",
+      "correctSentence": "[[I would rather you had told me the truth initially.|Preferiría que me hubieras dicho la verdad inicialmente.    ]]",
       "words": [
         "[[would|que]]",
         "[[truth| ]]",
@@ -485,7 +485,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Miedos subconscientes",
       "instructions": "Ordena las palabras para hablar de la mente interna.",
-      "correctSentence": "[[Subconscious|Los miedos]] [[fears|subconscientes]] [[often|a menudo]] [[manifest|se manifiestan]] [[in|en]] [[our|nuestros]] [[dreams.|sueños.]]",
+      "correctSentence": "[[Subconscious fears often manifest in our dreams.|Los miedos subconscientes a menudo se manifiestan en nuestros sueños.]]",
       "words": [
         "[[fears|subconscientes]]",
         "[[manifest|se manifiestan]]",
@@ -511,7 +511,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Debía estar bromeando",
       "instructions": "Ordena las palabras usando 'must have been -ing'.",
-      "correctSentence": "[[He|Él]] [[must|debe]] [[have|de haber]] [[been|estado]] [[joking|bromeando]] [[when|cuando]] [[he|dijo]] [[said|eso.]] [[that.| ]]",
+      "correctSentence": "[[He must have been joking when he said that.|Él debe de haber estado bromeando cuando dijo eso.  ]]",
       "words": [
         "[[must|debe]]",
         "[[joking|bromeando]]",
@@ -539,7 +539,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ansiedad social",
       "instructions": "Ordena las palabras para hablar de dificultades sociales.",
-      "correctSentence": "[[Social|La ansiedad]] [[anxiety|social]] [[makes|hace]] [[it|que sea]] [[difficult|difícil]] [[to|interactuar]] [[interact|en]] [[in|grupos]] [[large|grandes.]] [[groups.| ]]",
+      "correctSentence": "[[Social anxiety makes it difficult to interact in large groups.|La ansiedad social hace que sea difícil interactuar en grupos grandes.  ]]",
       "words": [
         "[[anxiety|social]]",
         "[[it|que sea]]",
@@ -568,7 +568,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cambio de personalidad",
       "instructions": "Ordena las palabras para una hipótesis.",
-      "correctSentence": "[[Suppose|Supongamos]] [[you|que]] [[could|pudieras]] [[change|cambiar]] [[one|una]] [[thing|cosa]] [[about|de]] [[your|tu]] [[personality.|personalidad.]]",
+      "correctSentence": "[[Suppose you could change one thing about your personality.|Supongamos que pudieras cambiar una cosa de tu personalidad.]]",
       "words": [
         "[[you|que]]",
         "[[change|cambiar]]",
@@ -596,7 +596,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Síntomas de ansiedad",
       "instructions": "Ordena las palabras para hablar de salud mental y física.",
-      "correctSentence": "[[Anxiety|La ansiedad]] [[can|puede]] [[lead|llevar]] [[to|a]] [[physical|síntomas]] [[symptoms|físicos]] [[like|como]] [[a|un]] [[rapid|latido]] [[heartbeat.|rápido.]]",
+      "correctSentence": "[[Anxiety can lead to physical symptoms like a rapid heartbeat.|La ansiedad puede llevar a síntomas físicos como un latido rápido.]]",
       "words": [
         "[[can|puede]]",
         "[[to|a]]",
@@ -625,7 +625,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mencionar el cambio",
       "instructions": "Ordena las palabras usando el tercer condicional.",
-      "correctSentence": "[[I|Puede]] [[might|que]] [[not|no]] [[have|hubiera]] [[noticed|notado]] [[the|el]] [[change|cambio]] [[if|si]] [[you|no]] [[hadn't|lo]] [[mentioned|hubieras]] [[it.|mencionado.]]",
+      "correctSentence": "[[I might not have noticed the change if you hadn't mentioned it.|Puede que no hubiera notado el cambio si no lo hubieras mencionado.]]",
       "words": [
         "[[might|que]]",
         "[[have|hubiera]]",
@@ -656,7 +656,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Validación emocional",
       "instructions": "Ordena las palabras para definir apoyo emocional.",
-      "correctSentence": "[[Validation|La validación]] [[is|es]] [[the|el]] [[recognition|reconocimiento]] [[and|y]] [[acceptance|aceptación]] [[of|de los]] [[another|sentimientos]] [[person's|de otra]] [[feelings.|persona.]]",
+      "correctSentence": "[[Validation is the recognition and acceptance of another person's feelings.|La validación es el reconocimiento y aceptación de los sentimientos de otra persona.]]",
       "words": [
         "[[is|es]]",
         "[[recognition|reconocimiento]]",
@@ -684,7 +684,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Consecuencias",
       "instructions": "Ordena las palabras usando inversión en el condicional.",
-      "correctSentence": "[[Had|Si]] [[he|él]] [[known|hubiera]] [[about|sabido]] [[the|las]] [[consequences,|consecuencias,]] [[he|no]] [[wouldn't|habría]] [[have|actuado]] [[acted|de]] [[that|esa]] [[way.|manera.]]",
+      "correctSentence": "[[Had he known about the consequences, he wouldn't have acted that way.|Si él hubiera sabido las consecuencias, no habría actuado de esa manera.]]",
       "words": [
         "[[he|él]]",
         "[[consequences,|consecuencias,]]",
@@ -719,7 +719,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta tras 'regret'.",
       "questions": [
         {
-          "question": "[[I|Me]] [[regret|arrepiento]] _______ [[telling|de no haberle]] [[her|dicho]] [[how|cómo]] [[I|me]] [[really|sentía]] [[felt.|realmente.]]",
+          "question": "[[I regret how I really felt.|Me arrepiento]] _______ [[telling her|de no haberle dicho cómo me sentía realmente.]]",
           "options": ["[[not telling|de no haberle dicho]]", "[[not to tell|no decir (inf)]]", "[[to not tell|no decir]]"],
           "correctAnswer": 0,
           "explanation": "'Regret' se sigue de gerundio para arrepentimientos del pasado.",
@@ -742,7 +742,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un miedo irracional.",
       "questions": [
         {
-          "question": "[[A|Una]] _______ [[is|es]] [[an|un]] [[irrational|miedo]] [[fear|irracional]] [[of|a]] [[something|algo]] [[specific.|específico.]]",
+          "question": "[[A an irrational fear of something specific.|Una]] _______ [[is|es un miedo irracional a algo específico.]]",
           "options": ["[[phobia|fobia]]", "[[habit|hábito]]", "[[trait|rasgo]]"],
           "correctAnswer": 0,
           "explanation": "Las 'phobias' son trastornos de ansiedad caracterizados por miedos extremos.",
@@ -765,7 +765,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el modal para una deducción lógica fuerte.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[have|debe de]] [[forgotten|haber olvidado]] [[our|nuestra]] [[meeting;|reunión;]] [[she's|ella]] [[usually|suele ser]] [[very|muy]] [[punctual.|puntual.]]",
+          "question": "[[She forgotten our meeting; she's usually very punctual.|Ella]] _______ [[have|debe de haber olvidado nuestra reunión; ella suele ser muy puntual.]]",
           "options": ["[[must|debe]]", "[[might|podría]]", "[[should|debería]]"],
           "correctAnswer": 0,
           "explanation": "'Must have' indica una conclusión lógica basada en evidencia.",
@@ -788,7 +788,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para protecciones mentales inconscientes.",
       "questions": [
         {
-          "question": "_______ _______ [[are|son]] [[unconscious|formas]] [[ways|inconscientes]] [[to|de]] [[protect|proteger]] [[the|el]] [[ego.|ego.]]",
+          "question": "_______ _______ [[are unconscious ways to protect the ego.|son formas inconscientes de proteger el ego.]]",
           "options": ["[[Defense mechanisms|Mecanismos de defensa]]", "[[Social skills|Habilidades sociales]]", "[[Logic puzzles|Rompecabezas lógicos]]"],
           "correctAnswer": 0,
           "explanation": "Concepto freudiano sobre cómo la mente maneja la ansiedad y el conflicto.",
@@ -811,7 +811,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del subjuntivo para el pasado.",
       "questions": [
         {
-          "question": "[[I|Ojalá]] [[wish| ]] [[I|hubiera]] _______ [[more|sido más]] [[patient|paciente]] [[with|con]] [[him|él]] [[yesterday.|ayer.]]",
+          "question": "[[I wish I patient yesterday.|Ojalá   hubiera]] _______ [[more with him|sido más paciente con él ayer.]]",
           "options": ["[[had been|hubiera sido]]", "[[was|era]]", "[[would be|sería]]"],
           "correctAnswer": 0,
           "explanation": "'I wish + past perfect' para arrepentimientos sobre el pasado.",
@@ -834,7 +834,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el tipo de personalidad opuesto a introvertido.",
       "questions": [
         {
-          "question": "[[An|Un]] _______ [[is|es]] [[someone|alguien]] [[who|que]] [[gains|gana]] [[energy|energía]] [[from|de la]] [[social|interacción]] [[interaction.|social.]]",
+          "question": "[[An someone who gains energy from social interaction.|Un]] _______ [[is|es alguien que gana energía de la interacción social.]]",
           "options": ["[[extrovert|extrovertido]]", "[[introvert|introvertido]]", "[[pessimist|pesimista]]"],
           "correctAnswer": 0,
           "explanation": "Los 'extroverts' son sociables y se sienten motivados por el contacto con otros.",
@@ -857,7 +857,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma modal para una oportunidad perdida.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ _______ [[helped|nos podría haber]] [[us|ayudado]] [[if|si]] [[we|se lo]] [[had|hubiéramos]] [[asked|pedido.]] [[him.| ]]",
+          "question": "[[He us if we had asked him.|Él]] _______ _______ [[helped|nos podría haber ayudado si se lo hubiéramos pedido.  ]]",
           "options": ["[[could have|podría haber]]", "[[must have|debe haber]]", "[[should have|debería haber]]"],
           "correctAnswer": 0,
           "explanation": "'Could have' indica posibilidad pasada que no se realizó.",
@@ -880,7 +880,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el rasgo de personalidad centrado en uno mismo.",
       "questions": [
         {
-          "question": "_______ [[is|El narcisismo]] [[characterized|se caracteriza]] [[by|por un]] [[excessive|excesivo]] [[self-interest|interés propio]] [[and|y]] [[vanity.|vanidad.]]",
+          "question": "_______ [[is characterized by excessive self-interest and vanity.|El narcisismo se caracteriza por un excesivo interés propio y vanidad.]]",
           "options": ["[[Narcissism|Narcisismo]]", "[[Altruism|Altruismo]]", "[[Humility|Humildad]]"],
           "correctAnswer": 0,
           "explanation": "El 'narcissism' implica una admiración excesiva por la propia imagen o cualidades.",
@@ -903,7 +903,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el modal para una crítica de una acción pasada.",
       "questions": [
         {
-          "question": "[[You|No]] _______ _______ [[said|deberías haber]] [[that|dicho eso]] [[to|a]] [[her;|ella;]] [[it|fue]] [[was|muy]] [[very|grosero.]] [[rude.| ]]",
+          "question": "[[You that to her; it was very rude.|No]] _______ _______ [[said|deberías haber dicho eso a ella; fue muy grosero.  ]]",
           "options": ["[[shouldn't have|no deberías haber]]", "[[couldn't have|no pudiste haber]]", "[[mustn't have|no debiste (prohibición)]]"],
           "correctAnswer": 0,
           "explanation": "'Shouldn't have' se usa para lamentar o criticar algo que se hizo.",
@@ -926,7 +926,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el agotamiento por estrés laboral.",
       "questions": [
         {
-          "question": "_______ [[is|El burnout]] [[a|es un]] [[state|estado de]] [[of|agotamiento]] [[emotional|emocional]] [[and|y]] [[physical|físico]] [[exhaustion|causado por]] [[caused|el estrés.]] [[by| ]] [[stress.| ]]",
+          "question": "_______ [[is a state of emotional and physical exhaustion caused by stress.|El burnout es un estado de agotamiento emocional y físico causado por el estrés.    ]]",
           "options": ["[[Burnout|Burnout]]", "[[Exhilaration|Euforia]]", "[[Relaxation|Relajación]]"],
           "correctAnswer": 0,
           "explanation": "'Burnout' es común en entornos laborales de alta presión.",
@@ -949,7 +949,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para un deseo pasado incumplido.",
       "questions": [
         {
-          "question": "[[If|Si]] [[only|tan solo]] [[we|hubiéramos]] _______ [[the|visto las]] [[warning|señales de]] [[signs|advertencia]] [[earlier.|antes.]]",
+          "question": "[[If only we warning|Si tan solo hubiéramos]] _______ [[the signs earlier.|visto las señales de advertencia antes.]]",
           "options": ["[[had seen|hubiéramos visto]]", "[[saw|vimos]]", "[[would see|veríamos]]"],
           "correctAnswer": 0,
           "explanation": "'If only + past perfect' expresa arrepentimiento.",
@@ -972,7 +972,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el conflicto mental de creencias.",
       "questions": [
         {
-          "question": "_______ _______ [[occurs|La disonancia cognitiva]] [[when|ocurre cuando]] [[you|tienes]] [[have|creencias]] [[conflicting|conflictivas.]] [[beliefs.| ]]",
+          "question": "_______ _______ [[occurs when you have conflicting beliefs.|La disonancia cognitiva ocurre cuando tienes creencias conflictivas.  ]]",
           "options": ["[[Cognitive dissonance|Disonancia cognitiva]]", "[[Mental clarity|Claridad mental]]", "[[Blind faith|Fe ciega]]"],
           "correctAnswer": 0,
           "explanation": "Es el malestar que se siente al sostener dos ideas contradictorias al mismo tiempo.",
@@ -995,7 +995,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la estructura para una posibilidad pasada.",
       "questions": [
         {
-          "question": "[[It|Podría]] _______ _______ _______ [[better|haber sido mejor]] [[to|esperar]] [[wait|a un]] [[for|momento]] [[a|más]] [[more|adecuado.]] [[suitable| ]] [[time.| ]]",
+          "question": "[[It to wait for a more suitable time.|Podría]] _______ _______ _______ [[better|haber sido mejor esperar a un momento más adecuado.    ]]",
           "options": ["[[might have been|podría haber sido]]", "[[could be|podría ser]]", "[[must have been|debe haber sido]]"],
           "correctAnswer": 0,
           "explanation": "'Might have been' para sugerir que una alternativa pasada era posible.",
@@ -1018,7 +1018,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa liberar emociones.",
       "questions": [
         {
-          "question": "[[To| ]] _______ [[is|es]] [[to|expresar]] [[express|emociones]] [[strong|fuertes]] [[emotions|libremente]] [[freely|para]] [[to|sentirse]] [[feel|mejor.]] [[better.| ]]",
+          "question": "[[To to express strong emotions freely to feel better.| ]] _______ [[is|es expresar emociones fuertes libremente para sentirse mejor.  ]]",
           "options": ["[[vent|desahogarse]]", "[[repress|reprimir]]", "[[ignore|ignorar]]"],
           "correctAnswer": 0,
           "explanation": "'Vent' es una forma de aliviar el estrés compartiendo lo que nos preocupa.",
@@ -1041,7 +1041,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el modal para imposibilidad pasada.",
       "questions": [
         {
-          "question": "[[They|No]] _______ _______ [[known|pueden haber sabido]] [[about|lo de]] [[the|la]] [[surprise;|sorpresa;]] [[they|estaban]] [[were|realmente]] [[genuinely|impactados.]] [[shocked.| ]]",
+          "question": "[[They about the surprise; they were genuinely shocked.|No]] _______ _______ [[known|pueden haber sabido lo de la sorpresa; estaban realmente impactados.  ]]",
           "options": ["[[can't have|no pueden haber]]", "[[might not have|podría no haber]]", "[[shouldn't have|no debieron haber]]"],
           "correctAnswer": 0,
           "explanation": "'Can't have' expresa una certeza negativa en el pasado.",
@@ -1064,7 +1064,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una característica personal.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[is|es]] [[a|una]] [[distinguishing|cualidad]] [[quality|o]] [[or|característica]] [[characteristic|distintiva]] [[of|de una]] [[a|persona.]] [[person.| ]]",
+          "question": "[[A a distinguishing quality or characteristic of a person.|Un]] _______ [[is|es una cualidad o característica distintiva de una persona.  ]]",
           "options": ["[[trait|rasgo]]", "[[flaw|defecto]]", "[[mood|humor]]"],
           "correctAnswer": 0,
           "explanation": "Los 'personality traits' definen quiénes somos y cómo actuamos.",
@@ -1087,7 +1087,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal tras 'I'd rather' para el pasado.",
       "questions": [
         {
-          "question": "[[I'd|Preferiría]] [[rather|que]] [[you|no]] _______ _______ [[up|hubieras sacado]] [[that|ese]] [[topic|tema]] [[during|durante]] [[dinner.|la cena.]]",
+          "question": "[[I'd rather you that dinner.|Preferiría que no]] _______ _______ [[up topic during|hubieras sacado ese tema durante la cena.]]",
           "options": ["[[hadn't brought|no hubieras sacado]]", "[[didn't bring|no sacaras]]", "[[haven't brought|no has sacado]]"],
           "correctAnswer": 0,
           "explanation": "'I'd rather + sujeto + past perfect' para preferencias sobre acciones pasadas.",
@@ -1110,7 +1110,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa posponer tareas.",
       "questions": [
         {
-          "question": "[[To| ]] _______ [[is|es]] [[to|retrasar]] [[delay|el]] [[doing|hacer]] [[something|algo]] [[that|que]] [[needs|debe]] [[to|hacerse.]] [[be| ]] [[done.| ]]",
+          "question": "[[To to delay doing something that needs to be done.| ]] _______ [[is|es retrasar el hacer algo que debe hacerse.    ]]",
           "options": ["[[procrastinate|procrastinar]]", "[[accelerate|acelerar]]", "[[complete|completar]]"],
           "correctAnswer": 0,
           "explanation": "'Procrastination' es un comportamiento común relacionado con la gestión del tiempo y la ansiedad.",
@@ -1133,7 +1133,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la inversión para el tercer condicional.",
       "questions": [
         {
-          "question": "_______ [[they|Si ellos]] [[listened|hubieran escuchado]] [[to|al]] [[the|experto,]] [[expert,|habrían]] [[they|evitado]] [[would|la]] [[have|crisis.]] [[avoided| ]] [[the| ]] [[crisis.| ]]",
+          "question": "_______ [[they listened to the expert, they would have avoided the crisis.|Si ellos hubieran escuchado al experto, habrían evitado la crisis.      ]]",
           "options": ["[[Had|Si]]", "[[If|Si (normal)]]", "[[Were|Si (futuro/presente)]]"],
           "correctAnswer": 0,
           "explanation": "Inversión formal con 'Had' para condiciones pasadas.",
@@ -1156,7 +1156,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la falta de confianza en uno mismo.",
       "questions": [
         {
-          "question": "_______ [[can|La inseguridad]] [[lead|puede llevar]] [[to|a]] [[a|una]] [[constant|constante]] [[need|necesidad]] [[for|de]] [[external|aprobación]] [[approval.|externa.]]",
+          "question": "_______ [[can lead to a constant need for external approval.|La inseguridad puede llevar a una constante necesidad de aprobación externa.]]",
           "options": ["[[Insecurity|Inseguridad]]", "[[Confidence|Confianza]]", "[[Independence|Independencia]]"],
           "correctAnswer": 0,
           "explanation": "La 'insecurity' a menudo impulsa a las personas a buscar validación en los demás.",
@@ -1179,7 +1179,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el modal para una acción innecesaria ya realizada.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ _______ [[brought|no necesitaba haber]] [[such|traído]] [[an|un]] [[expensive|regalo]] [[gift.|tan caro.]]",
+          "question": "[[She such an expensive gift.|Ella]] _______ _______ [[brought|no necesitaba haber traído un regalo tan caro.]]",
           "options": ["[[needn't have|no necesitaba haber]]", "[[mustn't have|no debe haber]]", "[[didn't need to|no necesitó (y quizá no lo hizo)]]"],
           "correctAnswer": 0,
           "explanation": "'Needn't have' indica que la acción se realizó pero no era necesaria.",
@@ -1202,7 +1202,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para canalizar impulsos.",
       "questions": [
         {
-          "question": "_______ [[is|La sublimación]] [[a|es un]] [[process|proceso donde]] [[where|los]] [[negative|impulsos]] [[urges|negativos]] [[are|se]] [[turned|convierten]] [[into|en]] [[positive|acciones]] [[actions.|positivas.]]",
+          "question": "_______ [[is a process where negative urges are turned into positive actions.|La sublimación es un proceso donde los impulsos negativos se convierten en acciones positivas.]]",
           "options": ["[[Sublimation|Sublimación]]", "[[Suppression|Supresión]]", "[[Projection|Proyección]]"],
           "correctAnswer": 0,
           "explanation": "Es un mecanismo de defensa maduro, como hacer deporte para liberar ira.",
@@ -1225,7 +1225,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal tras 'Suppose' para el pasado.",
       "questions": [
         {
-          "question": "[[Suppose|Supongamos]] [[he|que él]] _______ _______ [[honest|hubiera sido sincero]] [[from|desde]] [[the|el]] [[start,|principio,]] [[would|¿lo]] [[you|perdonarías?]] [[forgive| ]] [[him?| ]]",
+          "question": "[[Suppose he the start, would you forgive him?|Supongamos que él]] _______ _______ [[honest from|hubiera sido sincero desde el principio, ¿lo perdonarías?    ]]",
           "options": ["[[had been|hubiera sido]]", "[[was|era]]", "[[has been|ha sido]]"],
           "correctAnswer": 0,
           "explanation": "'Suppose + past perfect' para imaginar un pasado diferente.",
@@ -1248,7 +1248,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el fenómeno de imitación grupal.",
       "questions": [
         {
-          "question": "_______ _______ [[is|La aprobación social]] [[a|es un]] [[psychological|fenómeno]] [[phenomenon|psicológico]] [[where|donde]] [[people|la gente]] [[copy|copia las]] [[others'|acciones]] [[actions.|de otros.]]",
+          "question": "_______ _______ [[is a psychological phenomenon where people copy others' actions.|La aprobación social es un fenómeno psicológico donde la gente copia las acciones de otros.]]",
           "options": ["[[Social proof|Aprobación social]]", "[[Individualism|Individualismo]]", "[[Rebellion|Rebelión]]"],
           "correctAnswer": 0,
           "explanation": "'Social proof' es por qué seguimos modas o elegimos restaurantes llenos.",
@@ -1271,7 +1271,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del subjuntivo tras 'suggest'.",
       "questions": [
         {
-          "question": "[[I|Sugiero]] [[suggest|que]] [[that|él]] [[he| ]] _______ [[professional|busque ayuda]] [[help|profesional]] [[for|para]] [[his|su]] [[anxiety.|ansiedad.]]",
+          "question": "[[I suggest that he anxiety.|Sugiero que él  ]] _______ [[professional help for his|busque ayuda profesional para su ansiedad.]]",
           "options": ["[[seek|busque]]", "[[seeks|busca]]", "[[sought|buscó]]"],
           "correctAnswer": 0,
           "explanation": "Subjuntivo formal tras 'suggest that' (forma base del verbo).",

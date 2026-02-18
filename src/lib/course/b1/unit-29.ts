@@ -13,7 +13,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la expresión para un lugar poco visitado por turistas.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[prefer|preferimos]] [[to| ]] [[travel|viajar]] ______ [[to|para]] [[find|encontrar]] [[authentic|experiencias]] [[experiences|auténticas]].",
+          "question": "[[We prefer to travel|Nosotros preferimos   viajar]] ______ [[to find authentic experiences|para encontrar experiencias auténticas]].",
           "options": [
             "[[off the beaten track|fuera de lo común]]", "[[to the city center|al centro]]", "[[by plane|en avión]]"
           ],
@@ -38,7 +38,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo para algo que te deja sin aliento.",
       "questions": [
         {
-          "question": "[[The|La]] [[view|vista]] [[from|desde]] [[the|la]] [[top|cima]] [[of|de]] [[the|la]] [[mountain|montaña]] [[was|era]] ______.",
+          "question": "[[The view from the top of the mountain was|La vista desde la cima de la montaña era]] ______.",
           "options": [
             "[[breathtaking|impresionante]]", "[[boring|aburrida]]", "[[expensive|cara]]"
           ],
@@ -61,7 +61,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Experiencia única",
       "instructions": "Ordena la oración sobre un viaje a islas remotas.",
-      "correctSentence": "[[You|Tú]] [[should|deberías]] [[consider|considerar]] [[visiting|visitar]] [[remote|islas]] [[islands|remotas]] [[for|para]] [[a|una]] [[unique|experiencia]] [[experience|única]].",
+      "correctSentence": "[[You should consider visiting remote islands for a unique experience|Tú deberías considerar visitar islas remotas para una experiencia única]].",
       "words": [
           "[[You|Tú]]", "[[should|deberías]]", "[[consider|considerar]]", "[[visiting|visitar]]", "[[remote|islas]]", "[[islands|remotas]]", "[[for|para]]", "[[a|una]]", "[[unique|experiencia]]", "[[experience|única]]"
         ],
@@ -83,7 +83,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para un lugar icónico de una ciudad.",
       "questions": [
         {
-          "question": "[[The|La]] [[Eiffel|Torre Eiffel]] [[Tower| ]] [[is|es]] [[the|el]] [[most|más]] [[famous|famoso]] ______ [[in|en]] [[Paris|París]].",
+          "question": "[[The Eiffel Tower is the most famous Paris|La Torre Eiffel   es el más famoso]] ______ [[in|en París]].",
           "options": [
             "[[landmark|punto de referencia]]", "[[bakery|panadería]]", "[[street|calle]]"
           ],
@@ -108,7 +108,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el plan detallado de un viaje.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[need|necesitamos]] [[to| ]] [[create|crear]] [[a|un]] ______ [[before|antes de]] [[we|nosotros]] [[leave|partamos]].",
+          "question": "[[We need to create a we leave|Nosotros necesitamos   crear un]] ______ [[before|antes de nosotros partamos]].",
           "options": [
             "[[itinerary|itinerario]]", "[[passport|pasaporte]]", "[[suitcase|maleta]]"
           ],
@@ -131,7 +131,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Joyas ocultas",
       "instructions": "Ordena la oración sobre encontrar lugares especiales con poco presupuesto.",
-      "correctSentence": "[[We|Nosotros]] [[found|encontramos]] [[beautiful|hermosas]] [[hidden|joyas]] [[gems|ocultas]] [[on|con]] [[a|un]] [[very|presupuesto]] [[tight|muy]] [[budget|ajustado]].",
+      "correctSentence": "[[We found beautiful hidden gems on a very tight budget|Nosotros encontramos hermosas joyas ocultas con un presupuesto muy ajustado]].",
       "words": [
           "[[We|Nosotros]]", "[[found|encontramos]]", "[[beautiful|hermosas]]", "[[hidden|joyas]]", "[[gems|ocultas]]", "[[on|con]]", "[[a|un]]", "[[very|presupuesto]]", "[[tight|muy]]", "[[budget|ajustado]]"
         ],
@@ -153,7 +153,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para un lugar maravilloso pero poco conocido.",
       "questions": [
         {
-          "question": "[[This|Este]] [[small|pequeño]] [[restaurant|restaurante]] [[is|es]] [[a|una]] [[real| ]] ______ ______ [[in|en]] [[the|la]] [[city|ciudad]].",
+          "question": "[[This small restaurant is a real city|Este pequeño restaurante es una  ]] ______ ______ [[in the|en la ciudad]].",
           "options": [
             "[[hidden gem|joya oculta]]", "[[tourist trap|trampa para turistas]]", "[[parking lot|aparcamiento]]"
           ],
@@ -178,7 +178,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa recorrer un lugar desconocido para conocerlo.",
       "questions": [
         {
-          "question": "[[We|Pasamos]] [[spent|el día]] [[the| ]] [[day| ]] ______ [[the|explorando las]] [[ancient|antiguas]] [[ruins|ruinas]].",
+          "question": "[[We spent the day|Pasamos el día    ]] ______ [[the ancient ruins|explorando las antiguas ruinas]].",
           "options": [
             "[[exploring|explorando]]", "[[destroying|destruyendo]]", "[[painting|pintando]]"
           ],
@@ -201,7 +201,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Descubrimientos en la selva",
       "instructions": "Ordena la oración sobre el descubrimiento de plantas exóticas.",
-      "correctSentence": "[[Our|Nuestro]] [[guide|guía]] [[showed|mostró]] [[us|nos]] [[exotic|plantas]] [[plants|exóticas]] [[in|en]] [[the|la]] [[Amazon|selva]] [[rainforest|amazónica]].",
+      "correctSentence": "[[Our guide showed us exotic plants in the Amazon rainforest|Nuestro guía mostró nos plantas exóticas en la selva amazónica]].",
       "words": [
           "[[Our|Nuestro]]", "[[guide|guía]]", "[[showed|mostró]]", "[[us|nos]]", "[[exotic|plantas]]", "[[plants|exóticas]]", "[[in|en]]", "[[the|la]]", "[[Amazon|selva]]", "[[rainforest|amazónica]]"
         ],
@@ -223,7 +223,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para las tradiciones de un lugar.",
       "questions": [
         {
-          "question": "[[It's|Es]] [[important|importante]] [[to| ]] [[respect|respetar]] ______ ______ [[when|cuando]] [[you|tú]] [[visit|visitas]] [[a|un]] [[new|nuevo]] [[country|país]].",
+          "question": "[[It's important to respect new country|Es importante   respetar]] ______ ______ [[when you visit a|cuando tú visitas un nuevo país]].",
           "options": [
             "[[local customs|las costumbres locales]]", "[[the traffic|el tráfico]]", "[[the prices|los precios]]"
           ],
@@ -248,7 +248,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para el objeto que compras como recuerdo de un viaje.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[bought|compré]] [[a|un]] [[small|pequeño]] ______ [[for|para]] [[my|mi]] [[mother|madre]].",
+          "question": "[[I bought a small|Yo compré un pequeño]] ______ [[for my mother|para mi madre]].",
           "options": [
             "[[souvenir|recuerdo]]", "[[ticket|billete]]", "[[receipt|recibo]]"
           ],
@@ -271,7 +271,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Paisaje impresionante",
       "instructions": "Ordena la oración sobre cómo llegar a un paisaje increíble.",
-      "correctSentence": "[[The|El]] [[breathtaking|impresionante]] [[scenery|paisaje]] [[is|está]] [[after|tras]] [[a|una]] [[long|larga]] [[hike|caminata]] [[through|por]] [[forests|bosques]].",
+      "correctSentence": "[[The breathtaking scenery is after a long hike through forests|El impresionante paisaje está tras una larga caminata por bosques]].",
       "words": [
           "[[The|El]]", "[[breathtaking|impresionante]]", "[[scenery|paisaje]]", "[[is|está]]", "[[after|tras]]", "[[a|una]]", "[[long|larga]]", "[[hike|caminata]]", "[[through|por]]", "[[forests|bosques]]"
         ],
@@ -293,7 +293,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para una zona virgen y deshabitada.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[spent|pasaron]] [[a|una]] [[week|semana]] [[camping|acampando]] [[in|en]] [[the|la]] ______.",
+          "question": "[[They spent a week camping in the|Ellos pasaron una semana acampando en la]] ______.",
           "options": [
             "[[wilderness|naturaleza salvaje]]", "[[supermarket|supermercado]]", "[[office|oficina]]"
           ],
@@ -318,7 +318,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo para un lugar muy alejado de la civilización.",
       "questions": [
         {
-          "question": "[[The|El]] [[village|pueblo]] [[is|está]] [[so|tan]] ______ [[that|que]] [[there|no]] [[is|hay]] [[no| ]] [[internet|internet]].",
+          "question": "[[The village is so internet|El pueblo está tan]] ______ [[that there is no|que no hay   internet]].",
           "options": [
             "[[remote|remoto]]", "[[central|céntrico]]", "[[noisy|ruidoso]]"
           ],
@@ -341,7 +341,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cascada oculta",
       "instructions": "Ordena la oración sobre la llegada a una cascada al atardecer.",
-      "correctSentence": "[[The|La]] [[magical|atmósfera]] [[atmosphere|mágica]] [[made|hizo]] [[the|que la]] [[long|larga]] [[walk|caminata]] [[worth|valiera]] [[it|la pena]].",
+      "correctSentence": "[[The magical atmosphere made the long walk worth it|La atmósfera mágica hizo que la larga caminata valiera la pena]].",
       "words": [
           "[[The|La]]", "[[magical|atmósfera]]", "[[atmosphere|mágica]]", "[[made|hizo]]", "[[the|que la]]", "[[long|larga]]", "[[walk|caminata]]", "[[worth|valiera]]", "[[it|la pena]]"
         ],
@@ -363,7 +363,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la persona que explica los detalles de un lugar.",
       "questions": [
         {
-          "question": "[[Our|Nuestro]] ______ ______ [[knew|sabía]] [[everything|todo]] [[about|sobre]] [[the|la]] [[city's|historia de la]] [[history|ciudad]].",
+          "question": "[[Our everything about the city's history|Nuestro]] ______ ______ [[knew|sabía todo sobre la historia de la ciudad]].",
           "options": [
             "[[tour guide|guía turístico]]", "[[chef|cocinero]]", "[[pilot|piloto]]"
           ],
@@ -388,7 +388,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo para un lugar con mucha energía y vida.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[atmosphere|ambiente vibrante]] [[of|de]] [[the|el]] [[market|mercado]] [[was|era]] [[wonderful|maravilloso]].",
+          "question": "[[The of the market was wonderful|El]] ______ [[atmosphere|ambiente vibrante de el mercado era maravilloso]].",
           "options": [
             "[[vibrant|vibrante]]", "[[silent|silencioso]]", "[[empty|vacío]]"
           ],
@@ -411,7 +411,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Preferencias de viaje",
       "instructions": "Ordena la oración sobre preferir las calles menos transitadas.",
-      "correctSentence": "[[I|Yo]] [[personally|personalmente]] [[prefer|prefiero]] [[exploring|explorar]] [[narrow|calles]] [[streets|estrechas]] [[where|donde]] [[locals|lugareños]] [[live|viven]].",
+      "correctSentence": "[[I personally prefer exploring narrow streets where locals live|Yo personalmente prefiero explorar calles estrechas donde lugareños viven]].",
       "words": [
           "[[I|Yo]]", "[[personally|personalmente]]", "[[prefer|prefiero]]", "[[exploring|explorar]]", "[[narrow|calles]]", "[[streets|estrechas]]", "[[where|donde]]", "[[locals|lugareños]]", "[[live|viven]]"
         ],
@@ -433,7 +433,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para un viaje largo y difícil a pie.",
       "questions": [
         {
-          "question": "[[The|La]] ______ [[through|por]] [[the|las]] [[mountains|montañas]] [[took|llevó]] [[us|nos]] [[five|cinco]] [[days|días]].",
+          "question": "[[The the mountains took us five days|La]] ______ [[through|por las montañas llevó nos cinco días]].",
           "options": [
             "[[trek|travesía]]", "[[flight|vuelo]]", "[[swim|nado]]"
           ],
@@ -458,7 +458,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo para algo que es real y no una copia para turistas.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[wanted|queríamos]] [[to| ]] [[taste|probar]] ______ [[Italian|comida italiana]] [[food|auténtica]].",
+          "question": "[[We wanted to taste|Nosotros queríamos   probar]] ______ [[Italian food|comida italiana auténtica]].",
           "options": [
             "[[authentic|auténtica]]", "[[plastic|plástica]]", "[[frozen|congelada]]"
           ],
@@ -481,7 +481,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Seguridad en la montaña",
       "instructions": "Ordena la oración sobre el equipo necesario para senderismo.",
-      "correctSentence": "[[You|Tú]] [[should|deberías]] [[bring|llevar]] [[a|un]] [[map|mapa]] [[when|cuando]] [[hiking|vayas de caminata]] [[in|en]] [[the|la]] [[wilderness|naturaleza]].",
+      "correctSentence": "[[You should bring a map when hiking in the wilderness|Tú deberías llevar un mapa cuando vayas de caminata en la naturaleza]].",
       "words": [
           "[[You|Tú]]", "[[should|deberías]]", "[[bring|llevar]]", "[[a|un]]", "[[map|mapa]]", "[[when|cuando]]", "[[hiking|vayas de caminata]]", "[[in|en]]", "[[the|la]]", "[[wilderness|naturaleza]]"
         ],
@@ -503,7 +503,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para alguien que viaja constantemente sin hogar fijo.",
       "questions": [
         {
-          "question": "[[Many|Muchos]] [[digital|nómadas digitales]] ______ [[travel|viajan]] [[the|por el]] [[world|mundo]] [[while|mientras]] [[working|trabajan]].",
+          "question": "[[Many digital world while working|Muchos nómadas digitales]] ______ [[travel the|viajan por el mundo mientras trabajan]].",
           "options": [
             "[[nomads|nómadas]]", "[[residents|residentes]]", "[[statues|estatuas]]"
           ],
@@ -528,7 +528,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo para un lugar visualmente muy atractivo y con encanto.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[fishing|pueblo pesquero]] [[village|pintoresco]] [[was|era]] [[perfect|perfecto]] [[for|para]] [[photos|fotos]].",
+          "question": "[[The village was perfect for photos|El]] ______ [[fishing|pueblo pesquero pintoresco era perfecto para fotos]].",
           "options": [
             "[[picturesque|pintoresco]]", "[[ugly|feo]]", "[[industrial|industrial]]"
           ],
@@ -551,7 +551,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "El Gran Cañón",
       "instructions": "Ordena la oración sobre la impresión de ver el Gran Cañón en persona.",
-      "correctSentence": "[[The|La]] [[Grand|Gran]] [[Canyon|Cañón]] [[has|tiene]] [[a|una]] [[sheer|verdadera]] [[scale|escala]] [[and|y]] [[natural|belleza]] [[beauty|natural]].",
+      "correctSentence": "[[The Grand Canyon has a sheer scale and natural beauty|La Gran Cañón tiene una verdadera escala y belleza natural]].",
       "words": [
           "[[The|La]]", "[[Grand|Gran]]", "[[Canyon|Cañón]]", "[[has|tiene]]", "[[a|una]]", "[[sheer|verdadera]]", "[[scale|escala]]", "[[and|y]]", "[[natural|belleza]]", "[[beauty|natural]]"
         ],
@@ -573,7 +573,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para unas vacaciones cortas.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[are|estamos]] [[planning|planeando]] [[a|una]] [[weekend|escapada de fin de semana]] ______ [[to|a]] [[the|la]] [[beach|playa]].",
+          "question": "[[We are planning a weekend the beach|Nosotros estamos planeando una escapada de fin de semana]] ______ [[to|a la playa]].",
           "options": [
             "[[getaway|escapada]]", "[[meeting|reunión]]", "[[chore|tarea doméstica]]"
           ],
@@ -598,7 +598,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el adjetivo para un lugar que no ha sido investigado.",
       "questions": [
         {
-          "question": "[[There|Hay]] [[are| ]] [[still|todavía]] [[many|muchas]] ______ [[parts|partes]] [[of|de]] [[the|la]] [[ocean|océano]].",
+          "question": "[[There are still many|Hay   todavía muchas]] ______ [[parts of the ocean|partes de la océano]].",
           "options": [
             "[[unexplored|inexploradas]]", "[[crowded|abarrotadas]]", "[[famous|famosas]]"
           ],
@@ -623,7 +623,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Elige la mejor opción para orientarte en una ciudad.",
       "questions": [
         {
-          "question": "[[If|Si]] [[you|te]] [[get|pierdes,]] [[lost,| ]] [[look|busca]] [[for| ]] [[a|un]] [[well-known|punto de referencia]] ______.",
+          "question": "[[If you get lost, look for a well-known|Si te pierdes,   busca   un punto de referencia]] ______.",
           "options": [
             "[[landmark|conocido]]", "[[cat|gato]]", "[[cloud|nube]]"
           ],
@@ -646,7 +646,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Templo oculto",
       "instructions": "Ordena la oración sobre un templo antiguo descubierto en la selva.",
-      "correctSentence": "[[The|El]] [[ancient|antiguo]] [[temple|templo]] [[was|estaba]] [[hidden|oculto]] [[in|en]] [[the|la]] [[dense|densa]] [[jungle|selva]] [[for|por]] [[centuries|siglos]].",
+      "correctSentence": "[[The ancient temple was hidden in the dense jungle for centuries|El antiguo templo estaba oculto en la densa selva por siglos]].",
       "words": [
           "[[The|El]]", "[[ancient|antiguo]]", "[[temple|templo]]", "[[was|estaba]]", "[[hidden|oculto]]", "[[in|en]]", "[[the|la]]", "[[dense|densa]]", "[[jungle|selva]]", "[[for|por]]", "[[centuries|siglos]]"
         ],
@@ -668,7 +668,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el adjetivo que mejor describe una vista maravillosa.",
       "questions": [
         {
-          "question": "[[The|Las]] [[scenery|vistas]] ______ [[scenery| ]] [[from|desde]] [[the|el]] [[cliff|acantilado]] [[were|eran]] [[amazing|asombrosas]].",
+          "question": "[[The scenery the cliff were amazing|Las vistas]] ______ [[scenery from|  desde el acantilado eran asombrosas]].",
           "options": [
             "[[breathtaking|impresionantes]]", "[[dirty|sucias]]", "[[loud|ruidosas]]"
           ],
@@ -693,7 +693,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Elige el documento que detalla el plan de viaje.",
       "questions": [
         {
-          "question": "[[Don't|No]] [[forget|olvides]] [[to| ]] [[check|revisar]] [[the|el]] ______ [[to|para]] [[see|ver]] [[where|adónde]] [[we|nosotros]] [[go|vamos]] [[next|después]].",
+          "question": "[[Don't forget to check the see where we|No olvides   revisar el]] ______ [[to go next|para ver adónde nosotros vamos después]].",
           "options": [
             "[[itinerary|itinerario]]", "[[calendar|calendario]]", "[[newspaper|periódico]]"
           ],
@@ -716,7 +716,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Consejos de transporte",
       "instructions": "Ordena la oración sobre qué habrían hecho si hubieran sabido el estado de la carretera.",
-      "correctSentence": "[[We|Nosotros]] [[should|deberíamos]] [[have|haber]] [[rented|alquilado]] [[a|un]] [[more|más]] [[powerful|potente]] [[vehicle|vehículo]] [[for|para]] [[this|este]] [[journey|viaje]].",
+      "correctSentence": "[[We should have rented a more powerful vehicle for this journey|Nosotros deberíamos haber alquilado un más potente vehículo para este viaje]].",
       "words": [
           "[[We|Nosotros]]", "[[should|deberíamos]]", "[[have|haber]]", "[[rented|alquilado]]", "[[a|un]]", "[[more|más]]", "[[powerful|potente]]", "[[vehicle|vehículo]]", "[[for|para]]", "[[this|este]]", "[[journey|viaje]]"
         ],
@@ -738,7 +738,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para un turismo respetuoso con el medio ambiente.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[should|deberíamos]] [[promote|promover]] ______ ______ [[to|para]] [[protect|proteger]] [[nature|la naturaleza]].",
+          "question": "[[We should promote protect|Nosotros deberíamos promover]] ______ ______ [[to nature|para proteger la naturaleza]].",
           "options": [
             "[[sustainable tourism|el turismo sostenible]]", "[[mass tourism|el turismo de masas]]", "[[fast travel|viajes rápidos]]"
           ],
@@ -763,7 +763,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para un viaje corto de ocio.",
       "questions": [
         {
-          "question": "[[Tomorrow|Mañana]] [[we|nosotros]] [[are|estamos]] [[going|yendo]] [[on|en]] [[an|una]] ______ [[to|a]] [[the|las]] [[caves|cuevas]].",
+          "question": "[[Tomorrow we are going on an caves|Mañana nosotros estamos yendo en una]] ______ [[to the|a las cuevas]].",
           "options": [
             "[[excursion|excursión]]", "[[errand|mandado]]", "[[protest|protesta]]"
           ],
@@ -786,7 +786,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Especies únicas",
       "instructions": "Ordena la oración sobre viajeros atraídos por aves únicas.",
-      "correctSentence": "[[Travelers|Viajeros]] [[visit|visitan]] [[the|el]] [[remote|remoto]] [[archipelago|archipiélago]] [[to|para]] [[see|ver]] [[unique|únicas]] [[species|especies]] [[of|de]] [[birds|aves]].",
+      "correctSentence": "[[Travelers visit the remote archipelago to see unique species of birds|Viajeros visitan el remoto archipiélago para ver únicas especies de aves]].",
       "words": [
           "[[Travelers|Viajeros]]", "[[visit|visitan]]", "[[the|el]]", "[[remote|remoto]]", "[[archipelago|archipiélago]]", "[[to|para]]", "[[see|ver]]", "[[unique|únicas]]", "[[species|especies]]", "[[of|de]]", "[[birds|aves]]"
         ],
@@ -808,7 +808,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para el trato amable a los visitantes.",
       "questions": [
         {
-          "question": "[[The|La]] [[local|local]] ______ [[people| ]] [[is|es]] [[famous|famosa]] [[for|por]] [[their|su]] ______.",
+          "question": "[[The local famous for their|La local]] ______ [[people is|  es famosa por su]] ______.",
           "options": [
             "[[hospitality|hospitalidad]]", "[[cruelty|crueldad]]", "[[speed|velocidad]]"
           ],
@@ -833,7 +833,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para el lugar al que te diriges en un viaje.",
       "questions": [
         {
-          "question": "[[What|¿Cuál]] [[is|es]] [[your|tu]] [[final|destino]] ______ [[for|para]] [[this|este]] [[summer|verano]]?",
+          "question": "[[What is your final|¿Cuál es tu destino]] ______ [[for this summer|para este verano]]?",
           "options": [
             "[[destination|destino]]", "[[accident|accidente]]", "[[problem|problema]]"
           ],
@@ -856,7 +856,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Viaje agotador",
       "instructions": "Ordena la oración sobre un viaje difícil pero satisfactorio.",
-      "correctSentence": "[[Although|Aunque]] [[the|el]] [[journey|viaje]] [[was|fue]] [[quite|bastante]] [[exhausting|agotador]] [[due|debido]] [[to|a]] [[the|el]] [[extreme|calor]] [[heat|extremo]] [[and|y]] [[the|la]] [[lack|falta]] [[of|de]] [[air|aire]] [[conditioning|acondicionado]] [[on|en]] [[the|el]] [[bus,|autobús,]] [[we|todos]] [[were|estábamos]] [[all|extremadamente]] [[extremely|felices]] [[happy|cuando]] [[when|finalmente]] [[we|llegamos]] [[finally|a]] [[reached|la]] [[the|costa]] [[coast.| ]]", "words": [
+      "correctSentence": "[[Although the journey was quite exhausting due to the extreme heat and the lack of air conditioning on the bus, we were all extremely happy when we finally reached the coast.|Aunque el viaje fue bastante agotador debido a el calor extremo y la falta de aire acondicionado en el autobús, todos estábamos extremadamente felices cuando finalmente llegamos a la costa  ]]", "words": [
           "[[Although|Aunque]]", "[[the|el]]", "[[journey|viaje]]", "[[was|fue]]", "[[quite|bastante]]", "[[exhausting|agotador]]", "[[due|debido]]", "[[to|a]]", "[[the|el]]", "[[extreme|calor]]", "[[heat|extremo]]", "[[and|y]]", "[[the|la]]", "[[lack|falta]]", "[[of|de]]", "[[air|aire]]", "[[conditioning|acondicionado]]", "[[on|en]]", "[[the|el]]", "[[bus,|autobús,]]", "[[we|todos]]", "[[were|estábamos]]", "[[all|extremadamente]]", "[[extremely|felices]]", "[[happy|cuando]]", "[[when|finalmente]]", "[[we|llegamos]]", "[[finally|a]]", "[[reached|la]]", "[[the|costa]]", "[[coast.| ]]"
         ],
         "explanation": "Uso de 'Although' para contraste y 'due to' para causa.",
@@ -877,7 +877,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para viajar cuando hay menos turistas.",
       "questions": [
         {
-          "question": "[[Traveling|Viajar]] [[during|durante]] [[the|la]] ______ [[is|es]] [[much|mucho]] [[cheaper|más barato]].",
+          "question": "[[Traveling during the much|Viajar durante la]] ______ [[is cheaper|es mucho más barato]].",
           "options": [
             "[[off-season|temporada baja]]", "[[peak-season|temporada alta]]", "[[lunchtime|hora de comer]]"
           ],
@@ -902,7 +902,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa caminar sin un destino fijo.",
       "questions": [
         {
-          "question": "[[I|Me]] [[love|encanta]] [[to| ]] ______ [[through|por]] [[the|las]] [[old|calles]] [[streets|antiguas]] [[of|de]] [[Rome|Roma]].",
+          "question": "[[I love to the of Rome|Me encanta  ]] ______ [[through old streets|por las calles antiguas de Roma]].",
           "options": [
             "[[wander|deambular]]", "[[run|correr]]", "[[sleep|dormir]]"
           ],
@@ -925,7 +925,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Apreciación cultural",
       "instructions": "Ordena la oración sobre cómo sumergirse en la cultura local.",
-      "correctSentence": "[[You|Tú]] [[should|deberías]] [[participate|participar]] [[in|en]] [[a|un]] [[traditional|tradicional]] [[festival|festival]] [[during|durante]] [[your|tu]] [[stay|estancia]].",
+      "correctSentence": "[[You should participate in a traditional festival during your stay|Tú deberías participar en un tradicional festival durante tu estancia]].",
       "words": [
           "[[You|Tú]]", "[[should|deberías]]", "[[participate|participar]]", "[[in|en]]", "[[a|un]]", "[[traditional|tradicional]]", "[[festival|festival]]", "[[during|durante]]", "[[your|tu]]", "[[stay|estancia]]"
         ],
@@ -947,7 +947,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para un viaje de placer visitando varios lugares.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[took|hicimos]] [[a|un]] [[guided|tour]] ______ [[of|guiado de]] [[the|el]] [[museum|museo]].",
+          "question": "[[We took a guided|Nosotros hicimos un tour]] ______ [[of the museum|guiado de el museo]].",
           "options": [
             "[[tour|tour]]", "[[exam|examen]]", "[[nap|siesta]]"
           ],
@@ -972,7 +972,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para un viajero con presupuesto limitado que lleva todo en su mochila.",
       "questions": [
         {
-          "question": "[[He|Él]] [[traveled|viajó]] [[across|por]] [[Asia|Asia]] [[as|como]] [[a|un]] ______.",
+          "question": "[[He traveled across Asia as a|Él viajó por Asia como un]] ______.",
           "options": [
             "[[backpacker|mochilero]]", "[[politician|político]]", "[[king|rey]]"
           ],
@@ -995,7 +995,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Preparación del viaje",
       "instructions": "Ordena la oración sobre prepararse para cualquier clima.",
-      "correctSentence": "[[Check|Revisa]] [[the|el]] [[weather|tiempo]] [[and|y]] [[pack|empaca]] [[all|todo]] [[the|el]] [[necessary|equipo]] [[gear|necesario]] [[for|para]] [[your|tu]] [[adventure|aventura]].",
+      "correctSentence": "[[Check the weather and pack all the necessary gear for your adventure|Revisa el tiempo y empaca todo el equipo necesario para tu aventura]].",
       "words": [
           "[[Check|Revisa]]", "[[the|el]]", "[[weather|tiempo]]", "[[and|y]]", "[[pack|empaca]]", "[[all|todo]]", "[[the|el]]", "[[necessary|equipo]]", "[[gear|necesario]]", "[[for|para]]", "[[your|tu]]", "[[adventure|aventura]]"
         ],
@@ -1017,7 +1017,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Selecciona si un 'landmark' puede ser natural o artificial.",
       "questions": [
         {
-          "question": "[[A|Un]] [[landmark|punto de referencia]] [[can|puede]] [[be|ser]] ______ [[or|o]] [[man-made|artificial]].",
+          "question": "[[A landmark can be|Un punto de referencia puede ser]] ______ [[or man-made|o artificial]].",
           "options": [
             "[[natural|natural]]", "[[invisible|invisible]]", "[[liquid|líquido]]"
           ],
@@ -1042,7 +1042,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo para una ruta con vistas hermosas.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[took|tomamos]] [[the|la]] ______ [[route|ruta escénica]] [[to|para]] [[see|ver]] [[the|el]] [[lake|lago]].",
+          "question": "[[We took the to lake|Nosotros tomamos la]] ______ [[route see the|ruta escénica para ver el lago]].",
           "options": [
             "[[scenic|escénica]]", "[[ugly|fea]]", "[[boring|aburrida]]"
           ],
@@ -1065,7 +1065,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Problema con el pasaporte",
       "instructions": "Ordena la oración sobre olvidar el pasaporte.",
-      "correctSentence": "[[The|El]] [[traveler|viajero]] [[forgot|olvidó]] [[his|su]] [[passport|pasaporte]] [[in|en]] [[the|la]] [[hotel|hotel]] [[safe|caja fuerte]] [[before|antes]] [[the|del]] [[flight|vuelo]].",
+      "correctSentence": "[[The traveler forgot his passport in the hotel safe before the flight|El viajero olvidó su pasaporte en la hotel caja fuerte antes del vuelo]].",
       "words": [
           "[[The|El]]", "[[traveler|viajero]]", "[[forgot|olvidó]]", "[[his|su]]", "[[passport|pasaporte]]", "[[in|en]]", "[[the|la]]", "[[hotel|hotel]]", "[[safe|caja fuerte]]", "[[before|antes]]", "[[the|del]]", "[[flight|vuelo]]"
         ],
@@ -1087,7 +1087,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para los rasgos visibles de un terreno.",
       "questions": [
         {
-          "question": "[[The|El]] [[mountain|paisaje]] ______ [[landscape|montañoso]] [[was|era]] [[covered|cubierto]] [[in|de]] [[snow|nieve]].",
+          "question": "[[The mountain covered in snow|El paisaje]] ______ [[landscape was|montañoso era cubierto de nieve]].",
           "options": [
             "[[landscape|paisaje]]", "[[kitchen|cocina]]", "[[bedroom|dormitorio]]"
           ],
@@ -1112,7 +1112,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el turismo que apoya la conservación.",
       "questions": [
         {
-          "question": "______ [[helps|ayuda]] [[to|a]] [[preserve|preservar]] [[the|la]] [[wildlife|vida silvestre]].",
+          "question": "______ [[helps to preserve the wildlife|ayuda a preservar la vida silvestre]].",
           "options": [
             "[[Ecotourism|El ecoturismo]]", "[[Hunting|La caza]]", "[[Pollution|La contaminación]]"
           ],
@@ -1135,7 +1135,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Llegada a la Gran Muralla",
       "instructions": "Ordena la oración sobre el cansancio y la emoción de un gran viaje.",
-      "correctSentence": "[[Seeing|Ver]] [[the|la]] [[Great|Gran]] [[Wall|Muralla]] [[for|por]] [[the|la]] [[first|primera]] [[time|vez]] [[was|fue]] [[very|muy]] [[exciting|emocionante]].",
+      "correctSentence": "[[Seeing the Great Wall for the first time was very exciting|Ver la Gran Muralla por la primera vez fue muy emocionante]].",
       "words": [
           "[[Seeing|Ver]]", "[[the|la]]", "[[Great|Gran]]", "[[Wall|Muralla]]", "[[for|por]]", "[[the|la]]", "[[first|primera]]", "[[time|vez]]", "[[was|fue]]", "[[very|muy]]", "[[exciting|emocionante]]"
         ],
@@ -1157,7 +1157,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la persona que organiza viajes.",
       "questions": [
         {
-          "question": "[[The|El]] ______ ______ [[booked|reservó]] [[all|todos]] [[our|nuestros]] [[flights|vuelos]] [[and|y]] [[hotels|hoteles]].",
+          "question": "[[The all our flights and hotels|El]] ______ ______ [[booked|reservó todos nuestros vuelos y hoteles]].",
           "options": [
             "[[travel agent|agente de viajes]]", "[[mechanic|mecánico]]", "[[dentist|dentista]]"
           ],

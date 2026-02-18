@@ -89,7 +89,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[lion|lion]] ([[be|ser/estar]]) _______ [[the|el/la/los/las]] [[king|king]] [[of|de]] [[the|el/la/los/las]] [[jungle|jungle]].",
+          "question": "[[The lion of the jungle|El/la/los/las lion]] ([[be king|ser/estar]]) _______ [[the|el/la/los/las king de el/la/los/las jungle]].",
           "options": [
             "[[is|es/está]]",
             "[[it|eso]]",
@@ -115,7 +115,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Dolphins|Dolphins]] ([[be|ser/estar]]) _______ [[very|muy]] [[intelligent|intelligent]].",
+          "question": "[[Dolphins intelligent|Dolphins]] ([[be|ser/estar]]) _______ [[very|muy intelligent]].",
           "options": [
             "[[are|son/están]]",
             "[[to|a/para]]",
@@ -141,7 +141,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[see|ver]]) _______ [[a|un/una]] [[beautiful|hermoso/a]] [[bird|bird]] [[yesterday|ayer]].",
+          "question": "[[I beautiful bird yesterday|Yo]] ([[see|ver]]) _______ [[a|un/una hermoso/a bird ayer]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -167,7 +167,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[love|love]]) _______ [[walking|walking]] [[in|en]] [[the|el/la/los/las]] [[forest|forest]].",
+          "question": "[[She in the forest|Ella]] ([[love|love]]) _______ [[walking|walking en el/la/los/las forest]].",
           "options": [
             "[[loves|loves]]",
             "[[it|eso]]",
@@ -193,7 +193,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[not/live|not/live]]) _______ [[in|en]] [[the|el/la/los/las]] [[desert|desert]].",
+          "question": "[[They the desert|Ellos]] ([[not/live|not/live]]) _______ [[in|en el/la/los/las desert]].",
           "options": [
             "[[don't live|don't live]]",
             "[[to|a/para]]",
@@ -219,7 +219,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[must/protect|must/protect]]) _______ [[the|el/la/los/las]] [[environment|environment]].",
+          "question": "[[We environment|Nosotros]] ([[must/protect|must/protect]]) _______ [[the|el/la/los/las environment]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -245,7 +245,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Are|Son/están]] [[there|allí/ahí]] _______ ([[any|alguno/a]]) [[tigers|tigers]] [[here|aquí]]?",
+          "question": "[[Are there|Son/están allí/ahí]] _______ ([[any here|alguno/a]]) [[tigers|tigers aquí]]?",
           "options": [
             "[[to|a/para]]",
             "[[any|alguno/a]]",
@@ -271,7 +271,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[be|ser/estar]]) _______ [[interested|interested]] [[in|en]] [[wildlife|wildlife]].",
+          "question": "[[He in wildlife|Él]] ([[be|ser/estar]]) _______ [[interested|interested en wildlife]].",
           "options": [
             "[[is|es/está]]",
             "[[to|a/para]]",
@@ -297,7 +297,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Eso]] ([[be|ser/estar]]) _______ [[the|el/la/los/las]] [[tallest|el más alto]] [[mountain|montaña]].",
+          "question": "[[It tallest mountain|Eso]] ([[be|ser/estar]]) _______ [[the|el/la/los/las el más alto montaña]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -323,7 +323,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[be|ser/estar]]) _______ [[swimming|swimming]] [[in|en]] [[the|el/la/los/las]] [[ocean|ocean]].",
+          "question": "[[They in the ocean|Ellos]] ([[be|ser/estar]]) _______ [[swimming|swimming en el/la/los/las ocean]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -347,7 +347,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[Amazon|Amazon]] [[is|es/está]] [[the|el/la/los/las]] [[largest|largest]] [[jungle|jungle]] [[in|en]] [[the|el/la/los/las]] [[world|mundo]].",
+      "correctSentence": "[[The Amazon is the largest jungle in the world|El/la/los/las Amazon es/está el/la/los/las largest jungle en el/la/los/las mundo]].",
       "words": [
         "[[in|en]]",
         "[[the|el/la/los/las]]",
@@ -374,7 +374,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Mount|Mount]] [[Everest|Everest]] [[is|es/está]] [[very|muy]] [[high|high]].",
+      "correctSentence": "[[Mount Everest is very high|Mount Everest es/está muy high]].",
       "words": [
         "[[very|muy]]",
         "[[is|es/está]]",
@@ -397,7 +397,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[saw|saw]] [[many|many]] [[wild|wild]] [[animals|animals]] [[on|en/sobre]] [[our|nuestro]] [[trip|trip]].",
+      "correctSentence": "[[We saw many wild animals on our trip|Nosotros saw many wild animals en/sobre nuestro trip]].",
       "words": [
         "[[on|en/sobre]]",
         "[[our|nuestro]]",
@@ -423,7 +423,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Dolphins|Dolphins]] [[are|son/están]] [[my|mi/mis]] [[favourite|favourite]] [[animals|animals]].",
+      "correctSentence": "[[Dolphins are my favourite animals|Dolphins son/están mi/mis favourite animals]].",
       "words": [
         "[[animals|animals]].",
         "[[my|mi/mis]]",
@@ -446,7 +446,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[desert|desert]] [[is|es/está]] [[very|muy]] [[hot|caliente]] [[during|during]] [[the|el/la/los/las]] [[day|día]].",
+      "correctSentence": "[[The desert is very hot during the day|El/la/los/las desert es/está muy caliente during el/la/los/las día]].",
       "words": [
         "[[day|día]].",
         "[[during|during]]",
@@ -472,7 +472,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[love|love]] [[the|el/la/los/las]] [[sound|sound]] [[of|de]] [[the|el/la/los/las]] [[ocean|ocean]].",
+      "correctSentence": "[[I love the sound of the ocean|Yo love el/la/los/las sound de el/la/los/las ocean]].",
       "words": [
         "[[I|Yo]]",
         "[[love|love]]",
@@ -497,7 +497,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[are|son/están]] [[cleaning|cleaning]] [[the|el/la/los/las]] [[local|local]] [[river|river]].",
+      "correctSentence": "[[They are cleaning the local river|Ellos son/están cleaning el/la/los/las local river]].",
       "words": [
         "[[They|Ellos]]",
         "[[are|son/están]]",
@@ -521,7 +521,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Is|Es/está]] [[that|ese/esa/aquel]] [[island|island]] [[far|far]] [[from|de/desde]] [[the|el/la/los/las]] [[coast|coast]]?",
+      "correctSentence": "[[Is that island far from the coast|Es/está ese/esa/aquel island far de/desde el/la/los/las coast]]?",
       "words": [
         "[[island|island]]",
         "[[the|el/la/los/las]]",
@@ -546,7 +546,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Elephants|Elephants]] [[are|son/están]] [[very|muy]] [[strong|fuerte]] [[animals|animals]].",
+      "correctSentence": "[[Elephants are very strong animals|Elephants son/están muy fuerte animals]].",
       "words": [
         "[[very|muy]]",
         "[[strong|fuerte]]",
@@ -569,7 +569,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[must|must]] [[save|save]] [[the|el/la/los/las]] [[tigers|tigers]].",
+      "correctSentence": "[[We must save the tigers|Nosotros must save el/la/los/las tigers]].",
       "words": [
         "[[We|Nosotros]]",
         "[[must|must]]",
@@ -592,7 +592,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[forest|forest]] [[is|es/está]] [[full|full]] [[of|de]] [[beautiful|hermoso/a]] [[birds|birds]].",
+      "correctSentence": "[[The forest is full of beautiful birds|El/la/los/las forest es/está full de hermoso/a birds]].",
       "words": [
         "[[beautiful|hermoso/a]]",
         "[[The|El/la/los/las]]",
@@ -617,7 +617,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[a|un/una]] [[wildlife|wildlife]] [[photographer|photographer]].",
+      "correctSentence": "[[He is a wildlife photographer|Él es/está un/una wildlife photographer]].",
       "words": [
         "[[a|un/una]]",
         "[[is|es/está]]",
@@ -640,7 +640,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Are|Son/están]] [[there|allí/ahí]] [[any|alguno/a]] [[snakes|snakes]] [[in|en]] [[this|este/esta]] [[area|area]]?",
+      "correctSentence": "[[Are there any snakes in this area|Son/están allí/ahí alguno/a snakes en este/esta area]]?",
       "words": [
         "[[snakes|snakes]]",
         "[[Are|Son/están]]",
@@ -665,7 +665,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Protecting|Protecting]] [[the|el/la/los/las]] [[environment|environment]] [[is|es/está]] [[important|important]].",
+      "correctSentence": "[[Protecting the environment is important|Protecting el/la/los/las environment es/está important]].",
       "words": [
         "[[Protecting|Protecting]]",
         "[[the|el/la/los/las]]",
@@ -688,7 +688,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[water|agua]] [[in|en]] [[the|el/la/los/las]] [[lake|lake]] [[is|es/está]] [[very|muy]] [[clear|clear]].",
+      "correctSentence": "[[The water in the lake is very clear|El/la/los/las agua en el/la/los/las lake es/está muy clear]].",
       "words": [
         "[[the|el/la/los/las]]",
         "[[The|El/la/los/las]]",

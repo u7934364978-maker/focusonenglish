@@ -13,7 +13,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tener/haber]] ([[un|un]]) _______ [[apple|apple]].",
+          "question": "[[I have|Yo tener/haber]] ([[un|un]]) _______ [[apple|apple]].",
           "options": [
             "[[is|es/está]]",
             "[[an|un/una]]",
@@ -39,7 +39,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tener/haber]] ([[algo|algo]] [[de|de]]) _______ [[milk|milk]].",
+          "question": "[[I have|Yo tener/haber]] ([[algo de|algo de]]) _______ [[milk|milk]].",
           "options": [
             "[[is|es/está]]",
             "[[some|some]]",
@@ -65,7 +65,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tener/haber]] ([[tres|tres]]) _______ [[eggs|eggs]].",
+          "question": "[[I have|Yo tener/haber]] ([[tres|tres]]) _______ [[eggs|eggs]].",
           "options": [
             "[[three|tres]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tener/haber]] ([[algo|algo]] [[de|de]]) _______ [[rice|rice]].",
+          "question": "[[I have|Yo tener/haber]] ([[algo de|algo de]]) _______ [[rice|rice]].",
           "options": [
             "[[is|es/está]]",
             "[[are|son/están]]",
@@ -115,7 +115,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Apples|Apples]] [[are|son/están]] [[countable|countable]].",
+      "correctSentence": "[[Apples are countable|Apples son/están countable]].",
       "words": [
         "[[Apples|Apples]]",
         "[[are|son/están]]",
@@ -136,7 +136,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Water|Agua]] [[is|es/está]] [[uncountable|uncountable]].",
+      "correctSentence": "[[Water is uncountable|Agua es/está uncountable]].",
       "words": [
         "[[uncountable|uncountable]].",
         "[[is|es/está]]",
@@ -157,7 +157,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[need|necesitar]] [[an|un/una]] [[orange|orange]].",
+      "correctSentence": "[[I need an orange|Yo necesitar un/una orange]].",
       "words": [
         "[[an|un/una]]",
         "[[need|necesitar]]",
@@ -179,7 +179,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[have|tener/haber]] [[some|some]] [[bread|pan]].",
+      "correctSentence": "[[We have some bread|Nosotros tener/haber some pan]].",
       "words": [
         "[[some|some]]",
         "[[bread|pan]].",
@@ -201,7 +201,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[There|Allí/ahí]] [[are|son/están]] [[five|cinco]] [[eggs|eggs]].",
+      "correctSentence": "[[There are five eggs|Allí/ahí son/están cinco eggs]].",
       "words": [
         "[[There|Allí/ahí]]",
         "[[are|son/están]]",

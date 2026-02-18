@@ -13,7 +13,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[want|querer]] [[to|a/para]] ([[viajar|viajar]]) _______ [[to|a/para]] [[Japan|Japan]].",
+          "question": "[[I want to Japan|Yo querer a/para]] ([[viajar|viajar]]) _______ [[to|a/para Japan]].",
           "options": [
             "[[is|es/está]]",
             "[[are|son/están]]",
@@ -39,7 +39,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[visitar|visitar]]) _______ [[her|su (de ella)]] [[family|familia]].",
+          "question": "[[She family|Ella]] ([[visitar|visitar]]) _______ [[her|su (de ella) familia]].",
           "options": [
             "[[are|son/están]]",
             "[[visits|visits]]",
@@ -65,7 +65,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[alojarse|alojarse]]) _______ [[in|en]] [[a|un/una]] [[hotel|hotel]].",
+          "question": "[[We a hotel|Nosotros]] ([[alojarse|alojarse]]) _______ [[in|en un/una hotel]].",
           "options": [
             "[[are|son/están]]",
             "[[stay|stay]]",
@@ -91,7 +91,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Reservar|Reservar]]) _______ [[a|un/una]] [[flight|flight]] [[online|online]].",
+          "question": "([[Reservar flight online|Reservar]]) _______ [[a|un/una flight online]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[need|necesitar]] [[to|a/para]] [[pack|pack]] [[my|mi/mis]] [[suitcase|suitcase]].",
+      "correctSentence": "[[I need to pack my suitcase|Yo necesitar a/para pack mi/mis suitcase]].",
       "words": [
         "[[need|necesitar]]",
         "[[my|mi/mis]]",
@@ -139,7 +139,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[explore|explore]] [[the|el/la/los/las]] [[city|ciudad]] [[on|en/sobre]] [[foot|foot]].",
+      "correctSentence": "[[We explore the city on foot|Nosotros explore el/la/los/las ciudad en/sobre foot]].",
       "words": [
         "[[foot|foot]].",
         "[[the|el/la/los/las]]",
@@ -163,7 +163,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[flies|flies]] [[to|a/para]] [[New|Nuevo]] [[York|York]] [[tomorrow|mañana]].",
+      "correctSentence": "[[He flies to New York tomorrow|Él flies a/para Nuevo York mañana]].",
       "words": [
         "[[York|York]]",
         "[[New|Nuevo]]",
@@ -187,7 +187,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[stay|stay]] [[in|en]] [[a|un/una]] [[small|pequeño/pequeña]] [[hostel|hostel]].",
+      "correctSentence": "[[I stay in a small hostel|Yo stay en un/una pequeño/pequeña hostel]].",
       "words": [
         "[[stay|stay]]",
         "[[I|Yo]]",
@@ -211,7 +211,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Let's|Let's]] [[book|libro]] [[the|el/la/los/las]] [[tickets|tickets]].",
+      "correctSentence": "[[Let's book the tickets|Let's libro el/la/los/las tickets]].",
       "words": [
         "[[tickets|tickets]].",
         "[[the|el/la/los/las]]",

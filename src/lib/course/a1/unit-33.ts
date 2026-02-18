@@ -13,7 +13,7 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[siempre|siempre]]) _______ [[wake|wake]] [[up|up]] [[at|en]] [[7|7]].",
+          "question": "[[I up at 7|Yo]] ([[siempre|siempre]]) _______ [[wake|wake up en 7]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -39,7 +39,7 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[nunca|nunca]]) _______ [[eats|eats]] [[breakfast|breakfast]].",
+          "question": "[[He breakfast|Él]] ([[nunca|nunca]]) _______ [[eats|eats breakfast]].",
           "options": [
             "[[is|es/está]]",
             "[[are|son/están]]",
@@ -65,7 +65,7 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[a|un/una]] [[veces|veces]]) _______ [[go|ir]] [[to|a/para]] [[the|el/la/los/las]] [[cinema|cinema]].",
+          "question": "[[We veces the cinema|Nosotros]] ([[a|un/una veces]]) _______ [[go to|ir a/para el/la/los/las cinema]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[normalmente|normalmente]]) _______ [[studies|studies]] [[at|en]] [[night|noche]].",
+          "question": "[[She at night|Ella]] ([[normalmente|normalmente]]) _______ [[studies|studies en noche]].",
           "options": [
             "[[usually|usually]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[never|nunca]] [[drink|beber]] [[coffee|coffee]].",
+      "correctSentence": "[[I never drink coffee|Yo nunca beber coffee]].",
       "words": [
         "[[I|Yo]]",
         "[[never|nunca]]",
@@ -137,7 +137,7 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[usually|usually]] [[goes|goes]] [[to|a/para]] [[bed|cama]] [[late|late]].",
+      "correctSentence": "[[He usually goes to bed late|Él usually goes a/para cama late]].",
       "words": [
         "[[late|late]].",
         "[[goes|goes]]",
@@ -161,7 +161,7 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[often|a menudo]] [[visit|visit]] [[our|nuestro]] [[grandparents|grandparents]].",
+      "correctSentence": "[[We often visit our grandparents|Nosotros a menudo visit nuestro grandparents]].",
       "words": [
         "[[We|Nosotros]]",
         "[[often|a menudo]]",
@@ -184,7 +184,7 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[sometimes|a veces]] [[play|jugar/tocar]] [[video|video]] [[games|games]].",
+      "correctSentence": "[[I sometimes play video games|Yo a veces jugar/tocar video games]].",
       "words": [
         "[[play|jugar/tocar]]",
         "[[sometimes|a veces]]",
@@ -207,7 +207,7 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[always|siempre]] [[speaks|speaks]] [[English|English]] [[in|en]] [[class|clase]].",
+      "correctSentence": "[[She always speaks English in class|Ella siempre speaks English en clase]].",
       "words": [
         "[[in|en]]",
         "[[speaks|speaks]]",

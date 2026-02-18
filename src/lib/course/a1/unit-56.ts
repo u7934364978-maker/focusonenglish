@@ -13,7 +13,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[querer|querer]]) _______ [[to|a/para]] [[order|pedir/pedido]], [[please|por favor]].",
+          "question": "[[I order, please|Yo]] ([[querer|querer]]) _______ [[to|a/para pedir/pedido, por favor]].",
           "options": [
             "[[want|querer]]",
             "[[is|es/está]]",
@@ -39,7 +39,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Can|Poder]] [[I|Yo]] [[have|tener/haber]] [[the|el/la/los/las]] ([[cuenta|cuenta]]) [[_______|_______]]?",
+          "question": "[[Can I have the|Poder Yo tener/haber el/la/los/las]] ([[cuenta|cuenta]]) [[_______|_______]]?",
           "options": [
             "[[bill|cuenta]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Would|Haría (condicional)]] [[you|tú/usted]] [[like|gustar/como]] [[a|un/una]] ([[postre|postre]]) [[_______|_______]]?",
+          "question": "[[Would you like a|Haría (condicional) tú/usted gustar/como un/una]] ([[postre|postre]]) [[_______|_______]]?",
           "options": [
             "[[is|es/está]]",
             "[[dessert|postre]]",
@@ -91,7 +91,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Nosotros|Nosotros]]) _______ [[have|tener/haber]] [[a|un/una]] [[reservation|reserva]].",
+          "question": "([[Nosotros a reservation|Nosotros]]) _______ [[have|tener/haber un/una reserva]].",
           "options": [
             "[[We|Nosotros]]",
             "[[are|son/están]]",
@@ -115,7 +115,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[waiter|camarero/a]] [[is|es/está]] [[coming|coming]].",
+      "correctSentence": "[[The waiter is coming|El/la/los/las camarero/a es/está coming]].",
       "words": [
         "[[The|El/la/los/las]]",
         "[[waiter|camarero/a]]",
@@ -137,7 +137,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[want|querer]] [[to|a/para]] [[pay|pay]] [[the|el/la/los/las]] [[bill|cuenta]].",
+      "correctSentence": "[[I want to pay the bill|Yo querer a/para pay el/la/los/las cuenta]].",
       "words": [
         "[[pay|pay]]",
         "[[bill|cuenta]].",
@@ -161,7 +161,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Don't|No]] [[forget|forget]] [[the|el/la/los/las]] [[tip|propina]].",
+      "correctSentence": "[[Don't forget the tip|No forget el/la/los/las propina]].",
       "words": [
         "[[tip|propina]].",
         "[[Don't|No]]",
@@ -183,7 +183,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[What's|What's]] [[for|para/por]] [[dessert|postre]]?",
+      "correctSentence": "[[What's for dessert|What's para/por postre]]?",
       "words": [
         "[[What's|What's]]",
         "[[for|para/por]]",
@@ -204,7 +204,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I'd|I'd]] [[like|gustar/como]] [[a|un/una]] [[cold|frío]] [[drink|beber]].",
+      "correctSentence": "[[I'd like a cold drink|I'd gustar/como un/una frío beber]].",
       "words": [
         "[[cold|frío]]",
         "[[a|un/una]]",

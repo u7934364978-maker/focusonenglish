@@ -89,7 +89,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[think|pensar/creer]] [[I|Yo]] ([[travel|travel]]) _______ [[the|el/la/los/las]] [[world|mundo]] [[one|uno]] [[day|día]].",
+          "question": "[[I think I world|Yo pensar/creer Yo]] ([[travel one day|travel]]) _______ [[the|el/la/los/las mundo uno día]].",
           "options": [
             "[[will travel|will travel]]",
             "[[to|a/para]]",
@@ -115,7 +115,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[be|ser/estar]]) _______ [[study|estudiar]] [[medicine|medicine]] [[next|next]] [[year|año]].",
+          "question": "[[I medicine next year|Yo]] ([[be|ser/estar]]) _______ [[study|estudiar medicine next año]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -141,7 +141,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I'm|I'm]] [[sure|sure]] [[you|tú/usted]] ([[be|ser/estar]]) _______ [[a|un/una]] [[great|great]] [[doctor|médico/a]].",
+          "question": "[[I'm sure you great|I'm sure tú/usted]] ([[be doctor|ser/estar]]) _______ [[a|un/una great médico/a]].",
           "options": [
             "[[will be|will be]]",
             "[[to|a/para]]",
@@ -167,7 +167,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[be|ser/estar]]) _______ [[move|move]] [[to|a/para]] [[a|un/una]] [[new|nuevo]] [[city|ciudad]].",
+          "question": "[[We to a new city|Nosotros]] ([[be|ser/estar]]) _______ [[move|move a/para un/una nuevo ciudad]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -193,7 +193,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Perhaps|Perhaps]] [[they|ellos]] ([[win|win]]) _______ [[the|el/la/los/las]] [[lottery|lottery]].",
+          "question": "[[Perhaps they|Perhaps ellos]] ([[win lottery|win]]) _______ [[the|el/la/los/las lottery]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -219,7 +219,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[be|ser/estar]]) _______ [[start|start]] [[a|un/una]] [[business|business]] [[soon|soon]].",
+          "question": "[[He a business soon|Él]] ([[be|ser/estar]]) _______ [[start|start un/una business soon]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -245,7 +245,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[hope|hope]] [[it|eso]] ([[not/rain|not/rain]]) _______ [[tomorrow|mañana]].",
+          "question": "[[I hope it|Yo hope eso]] ([[not/rain|not/rain]]) _______ [[tomorrow|mañana]].",
           "options": [
             "[[to|a/para]]",
             "[[won't rain|won't rain]]",
@@ -271,7 +271,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[What|Qué]] _______ [[you|tú/usted]] [[going|going]] [[to|a/para]] [[do|hacer]] [[about|sobre/acerca de]] [[the|el/la/los/las]] [[problem|problem]]?",
+          "question": "[[What going to do about the problem|Qué]] _______ [[you|tú/usted going a/para hacer sobre/acerca de el/la/los/las problem]]?",
           "options": [
             "[[are|son/están]]",
             "[[to|a/para]]",
@@ -297,7 +297,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[help|ayudar]]) _______ [[you|tú/usted]] [[with|con]] [[that|ese/esa/aquel]] [[bag|bolsa/mochila]].",
+          "question": "[[I with that bag|Yo]] ([[help|ayudar]]) _______ [[you|tú/usted con ese/esa/aquel bolsa/mochila]].",
           "options": [
             "[[will help|will help]]",
             "[[to|a/para]]",
@@ -323,7 +323,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[be|ser/estar]]) _______ [[learn|learn]] [[to|a/para]] [[play|jugar/tocar]] [[the|el/la/los/las]] [[violin|violin]].",
+          "question": "[[She to play the violin|Ella]] ([[be|ser/estar]]) _______ [[learn|learn a/para jugar/tocar el/la/los/las violin]].",
           "options": [
             "[[is going to|is going to]]",
             "[[to|a/para]]",
@@ -347,7 +347,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[hope|hope]] [[I|Yo]] [[will|hará (futuro)]] [[find|find]] [[a|un/una]] [[good|bueno/buena]] [[job|job]] [[after|después]] [[graduation|graduation]].",
+      "correctSentence": "[[I hope I will find a good job after graduation|Yo hope Yo hará (futuro) find un/una bueno/buena job después graduation]].",
       "words": [
         "[[job|job]]",
         "[[will|hará (futuro)]]",
@@ -375,7 +375,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[ambition|ambition]] [[is|es/está]] [[to|a/para]] [[travel|travel]] [[all|all]] [[over|over]] [[the|el/la/los/las]] [[world|mundo]].",
+      "correctSentence": "[[My ambition is to travel all over the world|Mi/mis ambition es/está a/para travel all over el/la/los/las mundo]].",
       "words": [
         "[[is|es/está]]",
         "[[the|el/la/los/las]]",
@@ -402,7 +402,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[going|going]] [[to|a/para]] [[start|start]] [[my|mi/mis]] [[own|own]] [[company|company]] [[next|next]] [[year|año]].",
+      "correctSentence": "[[I am going to start my own company next year|Yo soy/estoy going a/para start mi/mis own company next año]].",
       "words": [
         "[[year|año]].",
         "[[own|own]]",
@@ -430,7 +430,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[think|pensar/creer]] [[she|ella]] [[will|hará (futuro)]] [[be|ser/estar]] [[a|un/una]] [[very|muy]] [[successful|successful]] [[artist|artist]].",
+      "correctSentence": "[[I think she will be a very successful artist|Yo pensar/creer ella hará (futuro) ser/estar un/una muy successful artist]].",
       "words": [
         "[[will|hará (futuro)]]",
         "[[very|muy]]",
@@ -457,7 +457,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[What|Qué]] [[are|son/están]] [[your|tu/tus]] [[goals|goals]] [[for|para/por]] [[the|el/la/los/las]] [[future|future]]?",
+      "correctSentence": "[[What are your goals for the future|Qué son/están tu/tus goals para/por el/la/los/las future]]?",
       "words": [
         "[[future|future]]?",
         "[[the|el/la/los/las]]",
@@ -482,7 +482,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I'm|I'm]] [[sure|sure]] [[you|tú/usted]] [[will|hará (futuro)]] [[achieve|achieve]] [[all|all]] [[your|tu/tus]] [[dreams|dreams]].",
+      "correctSentence": "[[I'm sure you will achieve all your dreams|I'm sure tú/usted hará (futuro) achieve all tu/tus dreams]].",
       "words": [
         "[[sure|sure]]",
         "[[dreams|dreams]].",
@@ -508,7 +508,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[going|going]] [[to|a/para]] [[learn|learn]] [[how|cómo]] [[to|a/para]] [[speak|hablar]] [[Italian|Italian]].",
+      "correctSentence": "[[I am going to learn how to speak Italian|Yo soy/estoy going a/para learn cómo a/para hablar Italian]].",
       "words": [
         "[[am|soy/estoy]]",
         "[[going|going]]",
@@ -535,7 +535,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Perhaps|Perhaps]] [[we|nosotros]] [[will|hará (futuro)]] [[move|move]] [[to|a/para]] [[the|el/la/los/las]] [[countryside|countryside]] [[one|uno]] [[day|día]].",
+      "correctSentence": "[[Perhaps we will move to the countryside one day|Perhaps nosotros hará (futuro) move a/para el/la/los/las countryside uno día]].",
       "words": [
         "[[will|hará (futuro)]]",
         "[[one|uno]]",
@@ -562,7 +562,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[going|going]] [[to|a/para]] [[study|estudiar]] [[architecture|architecture]] [[at|en]] [[university|universidad]].",
+      "correctSentence": "[[He is going to study architecture at university|Él es/está going a/para estudiar architecture en universidad]].",
       "words": [
         "[[to|a/para]]",
         "[[going|going]]",
@@ -588,7 +588,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[hope|hope]] [[the|el/la/los/las]] [[weather|weather]] [[will|hará (futuro)]] [[be|ser/estar]] [[nice|agradable/simpático]] [[for|para/por]] [[our|nuestro]] [[trip|trip]].",
+      "correctSentence": "[[I hope the weather will be nice for our trip|Yo hope el/la/los/las weather hará (futuro) ser/estar agradable/simpático para/por nuestro trip]].",
       "words": [
         "[[will|hará (futuro)]]",
         "[[nice|agradable/simpático]]",
@@ -616,7 +616,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[will|hará (futuro)]] [[help|ayudar]] [[you|tú/usted]] [[with|con]] [[your|tu/tus]] [[homework|homework]] [[if|if]] [[you|tú/usted]] [[like|gustar/como]].",
+      "correctSentence": "[[I will help you with your homework if you like|Yo hará (futuro) ayudar tú/usted con tu/tus homework if tú/usted gustar/como]].",
       "words": [
         "[[I|Yo]]",
         "[[if|if]]",
@@ -644,7 +644,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[are|son/están]] [[going|going]] [[to|a/para]] [[visit|visit]] [[Japan|Japan]] [[next|next]] [[summer|summer]].",
+      "correctSentence": "[[We are going to visit Japan next summer|Nosotros son/están going a/para visit Japan next summer]].",
       "words": [
         "[[next|next]]",
         "[[summer|summer]].",
@@ -670,7 +670,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Maybe|Tal vez]] [[they|ellos]] [[will|hará (futuro)]] [[win|win]] [[the|el/la/los/las]] [[game|game]] [[tonight|tonight]].",
+      "correctSentence": "[[Maybe they will win the game tonight|Tal vez ellos hará (futuro) win el/la/los/las game tonight]].",
       "words": [
         "[[the|el/la/los/las]]",
         "[[will|hará (futuro)]]",
@@ -695,7 +695,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[going|going]] [[to|a/para]] [[save|save]] [[enough|enough]] [[money|dinero]] [[to|a/para]] [[buy|comprar]] [[a|un/una]] [[house|casa]].",
+      "correctSentence": "[[I am going to save enough money to buy a house|Yo soy/estoy going a/para save enough dinero a/para comprar un/una casa]].",
       "words": [
         "[[I|Yo]]",
         "[[to|a/para]]",
@@ -724,7 +724,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[think|pensar/creer]] [[technology|technology]] [[will|hará (futuro)]] [[change|change]] [[even|even]] [[more|más]] [[in|en]] [[the|el/la/los/las]] [[future|future]].",
+      "correctSentence": "[[I think technology will change even more in the future|Yo pensar/creer technology hará (futuro) change even más en el/la/los/las future]].",
       "words": [
         "[[I|Yo]]",
         "[[think|pensar/creer]]",

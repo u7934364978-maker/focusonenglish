@@ -13,7 +13,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la definición correcta de tradición.",
       "questions": [
         {
-          "question": "[[A|Una]] _______ [[is|es]] [[a|una]] [[belief|creencia]] [[passed|pasada]] [[down|de generación en generación]].",
+          "question": "[[A a belief passed down|Una]] _______ [[is|es una creencia pasada de generación en generación]].",
           "options": [
             "[[tradition|tradición]]",
             "[[novelty|novedad]]",
@@ -40,7 +40,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el adjetivo que significa 'habitual' o 'tradicional'.",
       "questions": [
         {
-          "question": "[[It|Es]] [[is| ]] _______ [[to| ]] [[shake|dar la]] [[hands|mano]] [[when|cuando]] [[you|tú]] [[meet|conoces]] [[someone|a alguien]].",
+          "question": "[[It is hands when you meet someone|Es  ]] _______ [[to shake|  dar la mano cuando tú conoces a alguien]].",
           "options": [
             "[[customary|habitual / de costumbre]]",
             "[[rude|grosero]]",
@@ -65,7 +65,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Diversidad Cultural",
       "instructions": "Ordena las palabras sobre la diversidad.",
-      "correctSentence": "[[Cultural|La]] [[diversity|diversidad]] [[makes|hace]] [[our|nuestra]] [[modern|moderna]] [[society|sociedad]] [[much|mucho]] [[more|más]] [[vibrant|vibrante]].",
+      "correctSentence": "[[Cultural diversity makes our modern society much more vibrant|La diversidad hace nuestra moderna sociedad mucho más vibrante]].",
       "words": [
         "[[society|sociedad]]",
         "[[vibrant|vibrante]].",
@@ -95,7 +95,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un evento de celebración pública.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[went|fuimos]] [[to|a]] [[a|un]] _______ [[last|el pasado]] [[weekend|fin de semana]].",
+          "question": "[[We went to a|Nosotros fuimos a un]] _______ [[last weekend|el pasado fin de semana]].",
           "options": [
             "[[festival|festival]]",
             "[[funeral|funeral]]",
@@ -122,7 +122,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la estructura para una costumbre del pasado que ya no ocurre.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[celebrate|celebrar]] [[harvest|la cosecha]] [[with|con]] [[a|un]] [[dance|baile]].",
+          "question": "[[They harvest with a dance|Ellos]] _______ [[celebrate|celebrar la cosecha con un baile]].",
           "options": [
             "[[used to|solían]]",
             "[[are used to|están acostumbrados a]]",
@@ -149,7 +149,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el legado histórico de una cultura.",
       "questions": [
         {
-          "question": "[[It|Es]] [[is| ]] [[important|importante]] [[to| ]] [[preserve|preservar]] [[our|nuestro]] _______.",
+          "question": "[[It is important to preserve our|Es   importante   preservar nuestro]] _______.",
           "options": [
             "[[heritage|patrimonio / legado]]",
             "[[future|futuro]]",
@@ -174,7 +174,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Herencia Familiar",
       "instructions": "Ordena las palabras sobre una tradición familiar.",
-      "correctSentence": "[[The|La]] [[traditional|tradicional]] [[family|familiar]] [[recipe|receta]] [[was|fue]] [[passed|pasada]] [[down|por]] [[through|varias]] [[many|muchas]] [[generations|generaciones]].",
+      "correctSentence": "[[The traditional family recipe was passed down through many generations|La tradicional familiar receta fue pasada por varias muchas generaciones]].",
       "words": [
         "[[passed|pasada]]",
         "[[The|La]]",
@@ -205,7 +205,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para un evento formal.",
       "questions": [
         {
-          "question": "[[The|La]] [[wedding|boda]] _______ [[was|fue]] [[very|muy]] [[beautiful|hermosa]].",
+          "question": "[[The wedding beautiful|La boda]] _______ [[was very|fue muy hermosa]].",
           "options": [
             "[[ceremony|ceremonia]]",
             "[[argument|discusión]]",
@@ -232,7 +232,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de voz pasiva para un edificio histórico.",
       "questions": [
         {
-          "question": "[[The|El]] [[temple|templo]] _______ [[constructed|construido]] [[many|hace muchos]] [[years|años]] [[ago| ]].",
+          "question": "[[The temple years ago|El templo]] _______ [[constructed many|construido hace muchos años  ]].",
           "options": [
             "[[was|fue]]",
             "[[were|fueron]]",
@@ -257,7 +257,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Velas del Solsticio",
       "instructions": "Ordena las palabras sobre un hábito pasado.",
-      "correctSentence": "[[They|Ellos]] [[would|siempre]] [[always| ]] [[light|encendían]] [[small|pequeñas]] [[candles|velas]] [[during|durante]] [[the|el]] [[winter|invierno]] [[months|meses]].",
+      "correctSentence": "[[They would always light small candles during the winter months|Ellos siempre   encendían pequeñas velas durante el invierno meses]].",
       "words": [
         "[[candles|velas]]",
         "[[They|Ellos]]",
@@ -288,7 +288,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el nombre de esta celebración popular.",
       "questions": [
         {
-          "question": "[[Rio|Río]] [[is|es]] [[famous|famoso]] [[for|por]] [[its|su]] _______.",
+          "question": "[[Rio is famous for its|Río es famoso por su]] _______.",
           "options": [
             "[[carnival|carnaval]]",
             "[[library|biblioteca]]",
@@ -315,7 +315,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el pronombre relativo adecuado.",
       "questions": [
         {
-          "question": "[[The|Las]] [[customs|costumbres]] _______ [[we|que nosotros]] [[follow|seguimos]] [[are|son]] [[ancient|antiguas]].",
+          "question": "[[The customs are ancient|Las costumbres]] _______ [[we follow|que nosotros seguimos son antiguas]].",
           "options": [
             "[[that|que]]",
             "[[who|quien]]",
@@ -340,7 +340,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Respeto Cultural",
       "instructions": "Ordena las palabras sobre el respeto.",
-      "correctSentence": "[[Mutual|El]] [[respect|respeto]] [[mutuo]] [[is|es]] [[always|siempre]] [[vital|vital]] [[for|para]] [[achieving|lograr]] [[long|una]] [[lasting|larga]] [[peace|paz]].",
+      "correctSentence": "[[Mutual respect mutuo]] [[is always vital for achieving long lasting peace|El respeto es siempre vital para lograr una larga paz]].",
       "words": [
         "[[peace|paz]].",
         "[[is|es]]",
@@ -371,7 +371,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una serie de acciones ceremoniales.",
       "questions": [
         {
-          "question": "[[Lighting|Encender]] [[a|una]] [[lamp|lámpara]] [[is|es]] [[part|parte]] [[of|de]] [[the|del]] _______.",
+          "question": "[[Lighting a lamp is part of the|Encender una lámpara es parte de del]] _______.",
           "options": [
             "[[ritual|ritual]]",
             "[[habit|hábito]]",
@@ -398,7 +398,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para los fuegos artificiales.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[watched|vimos]] [[the|los]] _______ [[at|a]] [[midnight|medianoche]].",
+          "question": "[[We watched the midnight|Nosotros vimos los]] _______ [[at|a medianoche]].",
           "options": [
             "[[fireworks|fuegos artificiales]]",
             "[[stars|estrellas]]",
@@ -423,7 +423,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Platos Tradicionales",
       "instructions": "Ordena las palabras sobre la comida típica.",
-      "correctSentence": "[[These|Estos]] [[traditional|tradicionales]] [[dishes|platos]] [[are|son]] [[always|siempre]] [[prepared|preparados]] [[with|con]] [[fresh|frescos]] [[local|locales]] [[ingredients|ingredientes]].",
+      "correctSentence": "[[These traditional dishes are always prepared with fresh local ingredients|Estos tradicionales platos son siempre preparados con frescos locales ingredientes]].",
       "words": [
         "[[prepared|preparados]]",
         "[[local|locales]]",
@@ -454,7 +454,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una procesión o desfile público.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[passed|pasó]] [[through|por]] [[the|la]] [[main|principal]] [[street|calle]].",
+          "question": "[[The through the main street|El]] _______ [[passed|pasó por la principal calle]].",
           "options": [
             "[[parade|desfile]]",
             "[[car|coche]]",
@@ -481,7 +481,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta.",
       "questions": [
         {
-          "question": "[[If|Si]] [[you|tú]] _______ [[to|a]] [[India|la India]], [[you|tú]] [[will|verás]] [[see| ]] [[many|muchos]] [[festivals|festivales]].",
+          "question": "[[If you, you will see many festivals|Si tú]] _______ [[to India|a la India, tú verás   muchos festivales]].",
           "options": [
             "[[go|vas]]",
             "[[will go|irás (incorrecto)]]",
@@ -506,7 +506,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mente Abierta",
       "instructions": "Ordena las palabras sobre el aprendizaje cultural.",
-      "correctSentence": "[[Learning|Aprender]] [[about|sobre]] [[new|nuevas]] [[cultures|culturas]] [[helps|ayuda]] [[us|a nosotros]] [[to|a]] [[be|ser]] [[more|más]] [[open|abiertos]].",
+      "correctSentence": "[[Learning about new cultures helps us to be more open|Aprender sobre nuevas culturas ayuda a nosotros a ser más abiertos]].",
       "words": [
         "[[open|abiertos]].",
         "[[to|a]]",
@@ -537,7 +537,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la vestimenta tradicional.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[wore|llevaba]] [[a|un]] _______ [[traditional|tradicional]].",
+          "question": "[[She wore a|Ella llevaba un]] _______ [[traditional|tradicional]].",
           "options": [
             "[[costume|traje / disfraz]]",
             "[[uniform|uniforme]]",
@@ -564,7 +564,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del Presente Perfecto Pasivo.",
       "questions": [
         {
-          "question": "[[Many|Muchas]] [[customs|costumbres]] _______ [[lost|perdidas]].",
+          "question": "[[Many customs|Muchas costumbres]] _______ [[lost|perdidas]].",
           "options": [
             "[[have been|han sido]]",
             "[[has been|ha sido]]",
@@ -589,7 +589,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Identidad Cultural",
       "instructions": "Ordena las palabras sobre la identidad.",
-      "correctSentence": "[[You|Tú]] [[should|deberías]] [[always|siempre]] [[protect|proteger]] [[your|tu]] [[own|propia]] [[unique|única]] [[cultural|cultural]] [[identity|identidad]].",
+      "correctSentence": "[[You should always protect your own unique cultural identity|Tú deberías siempre proteger tu propia única cultural identidad]].",
       "words": [
         "[[identity|identidad]].",
         "[[your|tu]]",
@@ -619,7 +619,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para las ideas aceptadas como verdaderas.",
       "questions": [
         {
-          "question": "[[Religious|Religiosas]] _______ [[vary|varían]] [[widely|mucho]].",
+          "question": "[[Religious widely|Religiosas]] _______ [[vary|varían mucho]].",
           "options": [
             "[[beliefs|creencias]]",
             "[[facts|hechos]]",
@@ -646,7 +646,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión que significa 'proceso de acostumbrarse'.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|me]] _______ [[to|estoy acostumbrando]] [[the|a la]] [[food|comida]].",
+          "question": "[[I am food|Yo me]] _______ [[to the|estoy acostumbrando a la comida]].",
           "options": [
             "[[getting used|acostumbrando]]",
             "[[used to|solía]]",
@@ -671,7 +671,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sociedad Multicultural",
       "instructions": "Ordena las palabras sobre la coexistencia cultural.",
-      "correctSentence": "[[Many|Muchas]] [[different|diferentes]] [[cultures|culturas]] [[live|viven]] [[peacefully|pacíficamente]] [[together|juntas]] [[within|dentro]] [[this|esta]] [[large|gran]] [[city|ciudad]].",
+      "correctSentence": "[[Many different cultures live peacefully together within this large city|Muchas diferentes culturas viven pacíficamente juntas dentro esta gran ciudad]].",
       "words": [
         "[[here|aquí]].",
         "[[live|viven]]",
@@ -702,7 +702,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el conjunto de leyendas y canciones de un pueblo.",
       "questions": [
         {
-          "question": "[[Local|Local]] _______ [[is|es]] [[passed|pasado]] [[orally|oralmente]].",
+          "question": "[[Local passed orally|Local]] _______ [[is|es pasado oralmente]].",
           "options": [
             "[[folklore|folclore]]",
             "[[news|noticias]]",
@@ -729,7 +729,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el pronombre relativo para un evento que ocurre en un lugar.",
       "questions": [
         {
-          "question": "[[The|El]] [[village|pueblo]] _______ [[the|donde el]] [[party|festival]] [[is|es]] [[held|celebrado]] [[is|es]] [[small|pequeño]].",
+          "question": "[[The village is held is small|El pueblo]] _______ [[the party|donde el festival es celebrado es pequeño]].",
           "options": [
             "[[where|donde]]",
             "[[which|que]]",
@@ -754,7 +754,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Tradiciones de Boda",
       "instructions": "Ordena las palabras sobre las bodas.",
-      "correctSentence": "[[Most|La mayoría de]] [[local|las locales]] [[wedding|tradiciones]] [[traditions|de boda]] [[are|son]] [[truly|verdaderamente]] [[fascinating|fascinantes]] [[and|y]] [[beautiful|hermosas]].",
+      "correctSentence": "[[Most local wedding traditions are truly fascinating and beautiful|La mayoría de las locales tradiciones de boda son verdaderamente fascinantes y hermosas]].",
       "words": [
         "[[are|son]]",
         "[[fascinating|fascinantes]]",
@@ -785,7 +785,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para un lugar emblemático.",
       "questions": [
         {
-          "question": "[[The|La]] [[Eiffel|Torre]] [[Tower|Eiffel]] [[is|es]] [[a|un]] [[famous|famoso]] _______.",
+          "question": "[[The Eiffel Tower is a famous|La Torre Eiffel es un famoso]] _______.",
           "options": [
             "[[landmark|punto de interés / hito]]",
             "[[shop|tienda]]",
@@ -812,7 +812,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta para decir que estás acostumbrado a algo.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[to|estoy acostumbrado a]] [[this|este]] [[noise|ruido]].",
+          "question": "[[I this noise|Yo]] _______ [[to|estoy acostumbrado a este ruido]].",
           "options": [
             "[[am used|estoy acostumbrado]]",
             "[[used|solía]]",
@@ -837,7 +837,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Valores Culturales",
       "instructions": "Ordena las palabras sobre el respeto como valor.",
-      "correctSentence": "[[Respect|El respeto]] [[is|es]] [[undoubtedly|indudablemente]] [[the|el]] [[most|más]] [[important|importante]] [[value|valor]] [[in|en]] [[every|cada]] [[culture|cultura]].",
+      "correctSentence": "[[Respect is undoubtedly the most important value in every culture|El respeto es indudablemente el más importante valor en cada cultura]].",
       "words": [
         "[[important|importante]]",
         "[[is|es]]",
@@ -868,7 +868,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para los parientes lejanos del pasado.",
       "questions": [
         {
-          "question": "[[My|Mis]] _______ [[came|vinieron]] [[from|de]] [[Italy|Italia]].",
+          "question": "[[My from Italy|Mis]] _______ [[came|vinieron de Italia]].",
           "options": [
             "[[ancestors|antepasados]]",
             "[[children|hijos]]",
@@ -895,7 +895,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el modal para acciones repetidas en el pasado.",
       "questions": [
         {
-          "question": "[[People|La gente]] _______ [[send|solía enviar]] [[letters|cartas]] [[by|por]] [[ship|barco]].",
+          "question": "[[People letters by ship|La gente]] _______ [[send|solía enviar cartas por barco]].",
           "options": [
             "[[would|solía (acción repetida)]]",
             "[[will|enviará]]",
@@ -920,7 +920,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Idiomas y Diversidad",
       "instructions": "Ordena las palabras para formar una oración pasiva.",
-      "correctSentence": "[[Many|Muchos]] [[different|diferentes]] [[international|internacionales]] [[languages|idiomas]] [[are|son]] [[spoken|hablados]] [[fluently|fluidamente]] [[within|dentro de]] [[this|esta]] [[region|región]].",
+      "correctSentence": "[[Many different international languages are spoken fluently within this region|Muchos diferentes internacionales idiomas son hablados fluidamente dentro de esta región]].",
       "words": [
         "[[spoken|hablados]]",
         "[[languages|idiomas]]",
@@ -951,7 +951,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el trato generoso a los invitados.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[are|son]] [[famous|famosos]] [[for|por]] [[their|su]] _______.",
+          "question": "[[They are famous for their|Ellos son famosos por su]] _______.",
           "options": [
             "[[hospitality|hospitalidad]]",
             "[[greed|avaricia]]",
@@ -978,7 +978,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el relativo correcto.",
       "questions": [
         {
-          "question": "[[The|Los]] [[rituals|rituales]] _______ [[they|que ellos]] [[perform|hacen]] [[are|son]] [[sacred|sagrados]].",
+          "question": "[[The rituals are sacred|Los rituales]] _______ [[they perform|que ellos hacen son sagrados]].",
           "options": [
             "[[which|que]]",
             "[[who|quien]]",
@@ -1003,7 +1003,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Celebrar la Diversidad",
       "instructions": "Ordena las palabras sobre la armonía social.",
-      "correctSentence": "[[We|Nosotros]] [[should|deberías]] [[always|siempre]] [[celebrate|celebrar]] [[our|nuestra]] [[cultural|cultural]] [[diversity|diversidad]] [[happily|alegremente]] [[together|juntos]].",
+      "correctSentence": "[[We should always celebrate our cultural diversity happily together|Nosotros deberías siempre celebrar nuestra cultural diversidad alegremente juntos]].",
       "words": [
         "[[together|juntos]].",
         "[[diversity|la diversidad]]",
@@ -1033,7 +1033,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para una comunidad con cultura común.",
       "questions": [
         {
-          "question": "[[There|Hay]] [[are| ]] [[many|muchos]] _______ [[groups|grupos]] [[in|en]] [[this|esta]] [[city|ciudad]].",
+          "question": "[[There are many in|Hay   muchos]] _______ [[groups this city|grupos en esta ciudad]].",
           "options": [
             "[[ethnic|étnicos]]",
             "[[boring|aburridos]]",
@@ -1060,7 +1060,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de 'used to'.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[live|solía vivir]] [[in|en]] [[the|el]] [[countryside|campo]].",
+          "question": "[[I in the countryside|Yo]] _______ [[live|solía vivir en el campo]].",
           "options": [
             "[[used to|solía]]",
             "[[am used to|estoy acostumbrado a]]",
@@ -1085,7 +1085,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Fiestas Nacionales",
       "instructions": "Ordena las palabras sobre las fiestas nacionales.",
-      "correctSentence": "[[We|Nosotros]] [[will|vamos a]] [[have|tener]] [[a|un]] [[national|nacional]] [[holiday|festivo]] [[during|durante]] [[the|la]] [[next|próxima]] [[full|completa]] [[week|semana]].",
+      "correctSentence": "[[We will have a national holiday during the next full week|Nosotros vamos a tener un nacional festivo durante la próxima completa semana]].",
       "words": [
         "[[holiday|festivo]]",
         "[[next|la próxima]]",
@@ -1117,7 +1117,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para creencias irracionales en la suerte.",
       "questions": [
         {
-          "question": "[[Some|Algunas]] _______ [[say|dicen]] [[that|que]] [[cats|los gatos]] [[are|son]] [[lucky|de suerte]].",
+          "question": "[[Some that cats are lucky|Algunas]] _______ [[say|dicen que los gatos son de suerte]].",
           "options": [
             "[[superstitions|supersticiones]]",
             "[[theories|teorías]]",
@@ -1144,7 +1144,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo en voz pasiva.",
       "questions": [
         {
-          "question": "[[The|El]] [[center|centro]] _______ [[founded|fundado]] [[in|en]] [[1990|1990]].",
+          "question": "[[The center 1990|El centro]] _______ [[founded in|fundado en 1990]].",
           "options": [
             "[[was|fue]]",
             "[[were|fueron]]",
@@ -1169,7 +1169,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Normas Culturales",
       "instructions": "Ordena las palabras sobre las normas de cada país.",
-      "correctSentence": "[[Every|Cada]] [[single|único]] [[country|país]] [[has|tiene]] [[its|sus]] [[own|propias]] [[unique|únicas]] [[and|y]] [[ancient|antiguas]] [[traditions|tradiciones]].",
+      "correctSentence": "[[Every single country has its own unique and ancient traditions|Cada único país tiene sus propias únicas y antiguas tradiciones]].",
       "words": [
         "[[country|país]]",
         "[[Every|Cada]]",
@@ -1200,7 +1200,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el respeto a las opiniones ajenas.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[essential|esencial]] [[in|en]] [[a|una]] [[diverse|diversa]] [[society|sociedad]].",
+          "question": "_______ [[is essential in a diverse society|es esencial en una diversa sociedad]].",
           "options": [
             "[[Tolerance|La tolerancia]]",
             "[[Fighting|La lucha]]",
@@ -1227,7 +1227,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de 'get used to'.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[is|se]] _______ [[to|está acostumbrando a]] [[the|el]] [[new|nuevo]] [[culture|cultura]].",
+          "question": "[[She is new culture|Ella se]] _______ [[to the|está acostumbrando a el nuevo cultura]].",
           "options": [
             "[[getting used|acostumbrando]]",
             "[[used to|solía]]",
@@ -1252,7 +1252,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Música Tradicional",
       "instructions": "Ordena las palabras sobre la música típica.",
-      "correctSentence": "[[This|Esta]] [[beautiful|hermosa]] [[traditional|tradicional]] [[music|música]] [[is|es]] [[still|todavía]] [[very|muy]] [[popular|popular]] [[among|entre]] [[everyone|todos]].",
+      "correctSentence": "[[This beautiful traditional music is still very popular among everyone|Esta hermosa tradicional música es todavía muy popular entre todos]].",
       "words": [
         "[[is|es]]",
         "[[Traditional|La música]]",
@@ -1283,7 +1283,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para los principios de una persona.",
       "questions": [
         {
-          "question": "[[Every|Cada]] [[culture|cultura]] [[has|tiene]] [[different|diferentes]] _______.",
+          "question": "[[Every culture has different|Cada cultura tiene diferentes]] _______.",
           "options": [
             "[[values|valores]]",
             "[[prices|precios]]",
@@ -1310,7 +1310,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el relativo correcto para el libro.",
       "questions": [
         {
-          "question": "[[The|El]] [[book|libro]] _______ [[I|que yo]] [[bought|compré]] [[is|es]] [[old|viejo]].",
+          "question": "[[The book is old|El libro]] _______ [[I bought|que yo compré es viejo]].",
           "options": [
             "[[which|que / el cual]]",
             "[[who|quien]]",
@@ -1335,7 +1335,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Preservar la Historia",
       "instructions": "Ordena las palabras sobre la preservación histórica.",
-      "correctSentence": "[[Preserving|Preservar]] [[ancient|antiguas]] [[traditions|las tradiciones]] [[always|siempre]] [[helps|ayuda]] [[to|a]] [[keep|mantener]] [[our|nuestra]] [[local|local]] [[history|historia]] [[alive|viva]].",
+      "correctSentence": "[[Preserving ancient traditions always helps to keep our local history alive|Preservar antiguas las tradiciones siempre ayuda a mantener nuestra local historia viva]].",
       "words": [
         "[[keeps|mantiene]]",
         "[[history|la historia]]",
@@ -1368,7 +1368,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el conocimiento de otras culturas.",
       "questions": [
         {
-          "question": "[[Cultural|Cultural]] _______ [[helps|ayuda]] [[to|a]] [[avoid|evitar]] [[misunderstandings|malentendidos]].",
+          "question": "[[Cultural to avoid misunderstandings|Cultural]] _______ [[helps|ayuda a evitar malentendidos]].",
           "options": [
             "[[awareness|conciencia / conocimiento]]",
             "[[ignorance|ignorancia]]",

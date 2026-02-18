@@ -15,7 +15,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta.",
       "questions": [
         {
-          "question": "_______ [[a|un]] [[sofa|sofá]] [[in|en]] [[the|el]] [[living|salón]] [[room|habitación]].",
+          "question": "_______ [[a sofa in the living room|un sofá en el salón habitación]].",
           "options": ["[[There is|Hay (singular)]]", "[[There are|Hay (plural)]]", "[[Is there|Hay? (pregunta)]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'There is' para sustantivos en singular."
@@ -37,7 +37,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta.",
       "questions": [
         {
-          "question": "_______ [[three|tres]] [[chairs|sillas]] [[in|en]] [[the|la]] [[kitchen|cocina]].",
+          "question": "_______ [[three chairs in the kitchen|tres sillas en la cocina]].",
           "options": ["[[There is|Hay (singular)]]", "[[There are|Hay (plural)]]", "[[Is there|Hay? (pregunta)]]"],
           "correctAnswer": 1,
           "explanation": "Usamos 'There are' para sustantivos en plural."
@@ -59,7 +59,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[sleep|duermo]] [[on|en]] [[a|una]] [[big|grande]] _______.",
+          "question": "[[I sleep on a big|Yo duermo en una grande]] _______.",
           "options": ["[[table|mesa]]", "[[bed|cama]]", "[[fridge|nevera]]"],
           "correctAnswer": 1,
           "explanation": "Dormimos en una cama (bed)."
@@ -81,7 +81,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición correcta.",
       "questions": [
         {
-          "question": "[[The|El]] [[book|libro]] [[is|está]] _______ [[the|la]] [[table|mesa]].",
+          "question": "[[The book is table|El libro está]] _______ [[the|la mesa]].",
           "options": ["[[under|debajo de]]", "[[on|encima de]]", "[[in|dentro de]]"],
           "correctAnswer": 1,
           "explanation": "'On' se usa para algo que está sobre una superficie."
@@ -103,7 +103,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[The|La]] [[milk|leche]] [[is|está]] [[in|en]] [[the|la]] _______.",
+          "question": "[[The milk is in the|La leche está en la]] _______.",
           "options": ["[[fridge|nevera]]", "[[oven|horno]]", "[[sink|lavabo]]"],
           "correctAnswer": 0,
           "explanation": "Guardamos la leche en la nevera (fridge)."
@@ -125,7 +125,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Forma la pregunta correctamente.",
       "questions": [
         {
-          "question": "_______ [[a|un]] [[TV|televisor]] [[in|en]] [[your|tu]] [[bedroom|dormitorio]]?",
+          "question": "_______ [[a TV in your bedroom|un televisor en tu dormitorio]]?",
           "options": ["[[There is|Hay]]", "[[Is there|¿Hay?]]", "[[Are there|¿Hay? (plural)]]"],
           "correctAnswer": 1,
           "explanation": "Para preguntas en singular, invertimos el orden: 'Is there'."
@@ -147,7 +147,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la habitación correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[cook|cocinamos]] [[in|en]] [[the|la]] _______.",
+          "question": "[[We cook in the|Nosotros cocinamos en la]] _______.",
           "options": ["[[bathroom|baño]]", "[[kitchen|cocina]]", "[[garage|garaje]]"],
           "correctAnswer": 1,
           "explanation": "Cocinamos en la cocina (kitchen)."
@@ -169,7 +169,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El]] [[cat|gato]] [[is|está]] _______ [[the|la]] [[chair|silla]].",
+          "question": "[[The cat is chair|El gato está]] _______ [[the|la silla]].",
           "options": ["[[on|sobre]]", "[[in|en]]", "[[under|debajo de]]"],
           "correctAnswer": 2,
           "explanation": "'Under' significa debajo de."
@@ -191,7 +191,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa con la forma negativa.",
       "questions": [
         {
-          "question": "_______ [[a|un]] [[garage|garaje]] [[in|en]] [[this|esta]] [[house|casa]].",
+          "question": "_______ [[a garage in this house|un garaje en esta casa]].",
           "options": ["[[There not|No hay]]", "[[There isn't|No hay (singular)]]", "[[There aren't|No hay (plural)]]"],
           "correctAnswer": 1,
           "explanation": "Usamos 'There isn't' para la negación en singular."
@@ -213,7 +213,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo adecuado.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[house|casa]] [[is|es]] [[very|muy]] _______.",
+          "question": "[[My house is very|Mi casa es muy]] _______.",
           "options": ["[[modern|moderna]]", "[[hungry|hambrienta]]", "[[tired|cansada]]"],
           "correctAnswer": 0,
           "explanation": "'Modern' es un adjetivo adecuado para una casa."
@@ -235,7 +235,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[There|Allí]] [[are|hay]] [[many|muchas]] _______ [[in|en]] [[the|el]] [[garden|jardín]].",
+          "question": "[[There are many the|Allí hay muchas]] _______ [[in garden|en el jardín]].",
           "options": ["[[flowers|flores]]", "[[ovens|hornos]]", "[[toilets|inodoros]]"],
           "correctAnswer": 0,
           "explanation": "Las flores (flowers) son comunes en un jardín."
@@ -257,7 +257,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición correcta.",
       "questions": [
         {
-          "question": "[[The|La]] [[TV|televisión]] [[is|está]] _______ [[the|la]] [[window|ventana]].",
+          "question": "[[The TV is window|La televisión está]] _______ [[the|la ventana]].",
           "options": ["[[next to|al lado de]]", "[[between|entre]]", "[[under|debajo de]]"],
           "correctAnswer": 0,
           "explanation": "'Next to' indica que está al lado de algo."
@@ -279,7 +279,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[Are|Hay]] [[there|allí]] _______ [[towels|toallas]] [[in|en]] [[the|el]] [[bathroom|baño]]?",
+          "question": "[[Are there the bathroom|Hay allí]] _______ [[towels in|toallas en el baño]]?",
           "options": ["[[any|alguna/s (preg)]]", "[[a|una]]", "[[one|una]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'any' para preguntas en plural."
@@ -301,7 +301,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[look|miro]] [[at|a]] [[myself|mí mismo]] [[in|en]] [[the|el]] _______.",
+          "question": "[[I look at myself in the|Yo miro a mí mismo en el]] _______.",
           "options": ["[[mirror|espejo]]", "[[chair|silla]]", "[[oven|horno]]"],
           "correctAnswer": 0,
           "explanation": "Nos miramos en un espejo (mirror)."
@@ -323,7 +323,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta.",
       "questions": [
         {
-          "question": "[[There|Allí]] [[are|hay]] [[two|dos]] [[large|grandes]] _______ [[in|en]] [[my|mi]] [[bedroom|dormitorio]].",
+          "question": "[[There are two large|Allí hay dos grandes]] _______ [[in my bedroom|en mi dormitorio]].",
           "options": ["[[window|ventana]]", "[[windows|ventanas]]", "[[windowes|error]]"],
           "correctAnswer": 1,
           "explanation": "Para la mayoría de sustantivos, añadimos 's' para el plural."
@@ -345,7 +345,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[heat|caliento]] [[my|mi]] [[food|comida]] [[in|en]] [[the|el]] _______.",
+          "question": "[[I heat my food in the|Yo caliento mi comida en el]] _______.",
           "options": ["[[fridge|nevera]]", "[[microwave|microondas]]", "[[shower|ducha]]"],
           "correctAnswer": 1,
           "explanation": "Usamos el microondas (microwave) para calentar comida."
@@ -367,7 +367,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición correcta.",
       "questions": [
         {
-          "question": "[[The|La]] [[lamp|lámpara]] [[is|está]] _______ [[the|el]] [[sofa|sofá]].",
+          "question": "[[The lamp is sofa|La lámpara está]] _______ [[the|el sofá]].",
           "options": ["[[behind|detrás de]]", "[[between|entre]]", "[[on|encima de]]"],
           "correctAnswer": 0,
           "explanation": "'Behind' significa detrás de."
@@ -389,7 +389,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[sit|me siento]] [[on|en]] [[a|una]] _______.",
+          "question": "[[I sit on a|Yo me siento en una]] _______.",
           "options": ["[[chair|silla]]", "[[table|mesa]]", "[[door|puerta]]"],
           "correctAnswer": 0,
           "explanation": "Nos sentamos en una silla (chair)."
@@ -411,7 +411,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta.",
       "questions": [
         {
-          "question": "_______ [[some|algunos]] [[books|libros]] [[on|en]] [[the|el]] [[desk|escritorio]].",
+          "question": "_______ [[some books on the desk|algunos libros en el escritorio]].",
           "options": ["[[There is|Hay]]", "[[There are|Hay (plural)]]", "[[Is there|¿Hay?]]"],
           "correctAnswer": 1,
           "explanation": "Usamos 'There are' con 'some' y sustantivos en plural."
@@ -433,7 +433,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[is|es]] [[for|para]] [[the|el]] [[car|coche]].",
+          "question": "[[The for the car|El]] _______ [[is|es para el coche]].",
           "options": ["[[garage|garaje]]", "[[attic|ático]]", "[[bathroom|baño]]"],
           "correctAnswer": 0,
           "explanation": "El coche se guarda en el garaje."
@@ -455,7 +455,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición correcta.",
       "questions": [
         {
-          "question": "[[The|El]] [[desk|escritorio]] [[is|está]] _______ [[the|la]] [[bed|cama]] [[and|y]] [[the|la]] [[window|ventana]].",
+          "question": "[[The desk is bed window|El escritorio está]] _______ [[the and the|la cama y la ventana]].",
           "options": ["[[next to|al lado de]]", "[[between|entre]]", "[[under|debajo de]]"],
           "correctAnswer": 1,
           "explanation": "'Between' se usa cuando algo está en medio de dos objetos."
@@ -477,7 +477,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tengo]] [[a|una]] [[soft|suave]] _______.",
+          "question": "[[I have a soft|Yo tengo una suave]] _______.",
           "options": ["[[pillow|almohada]]", "[[microwave|microondas]]", "[[fork|tenedor]]"],
           "correctAnswer": 0,
           "explanation": "Una almohada (pillow) es suave."
@@ -499,7 +499,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta.",
       "questions": [
         {
-          "question": "[[The|La]] [[house|casa]] [[has|tiene]] [[a|un]] [[large|grande]] _______.",
+          "question": "[[The house has a large|La casa tiene un grande]] _______.",
           "options": ["[[balcony|balcón]]", "[[plate|plato]]", "[[spoon|cuchara]]"],
           "correctAnswer": 0,
           "explanation": "Un balcón es parte de una casa."
@@ -521,7 +521,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración correctamente.",
       "questions": [
         {
-          "question": "_______ [[a|un]] [[microwave|microondas]] [[in|en]] [[the|la]] [[kitchen|cocina]].",
+          "question": "_______ [[a microwave in the kitchen|un microondas en la cocina]].",
           "options": ["[[There is|Hay]]", "[[There are|Hay (plural)]]", "[[There not|No hay]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'There is' para un solo objeto."
@@ -543,7 +543,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo correcto.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[in|en]] [[the|el]] [[living|salón]] [[room|habitación]] [[after|después de]] [[work|el trabajo]].",
+          "question": "[[I the living room after work|Yo]] _______ [[in|en el salón habitación después de el trabajo]].",
           "options": ["[[relax|me relajo]]", "[[cook|cocino]]", "[[wash|lavo]]"],
           "correctAnswer": 0,
           "explanation": "Normalmente nos relajamos (relax) en el salón."
@@ -565,7 +565,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta correctamente.",
       "questions": [
         {
-          "question": "_______ [[many|muchas]] [[rooms|habitaciones]] [[in|en]] [[your|tu]] [[house|casa]]?",
+          "question": "_______ [[many rooms in your house|muchas habitaciones en tu casa]]?",
           "options": ["[[Is there|¿Hay?]]", "[[Are there|¿Hay? (plural)]]", "[[Have you|¿Tienes?]]"],
           "correctAnswer": 1,
           "explanation": "Usamos 'Are there' para preguntas en plural."
@@ -587,7 +587,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[is|es]] [[for|para]] [[my|mis]] [[clothes|ropa]].",
+          "question": "[[The for my clothes|El]] _______ [[is|es para mis ropa]].",
           "options": ["[[wardrobe|armario]]", "[[fridge|nevera]]", "[[toilet|inodoro]]"],
           "correctAnswer": 0,
           "explanation": "Guardamos la ropa en el armario (wardrobe)."
@@ -609,7 +609,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración negativa.",
       "questions": [
         {
-          "question": "_______ [[any|ninguna]] [[chairs|sillas]] [[in|en]] [[the|el]] [[garden|jardín]].",
+          "question": "_______ [[any chairs in the garden|ninguna sillas en el jardín]].",
           "options": ["[[There isn't|No hay]]", "[[There aren't|No hay (plural)]]", "[[There not|No hay]]"],
           "correctAnswer": 1,
           "explanation": "Usamos 'There aren't' para negar en plural."
@@ -631,7 +631,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[wash|lavo]] [[my|mis]] [[hands|manos]] [[with|con]] _______.",
+          "question": "[[I wash my hands with|Yo lavo mis manos con]] _______.",
           "options": ["[[soap|jabón]]", "[[soup|sopa]]", "[[sugar|azúcar]]"],
           "correctAnswer": 0,
           "explanation": "Lavamos las manos con jabón (soap)."
@@ -653,7 +653,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición correcta.",
       "questions": [
         {
-          "question": "[[The|La]] [[clothes|ropa]] [[are|está]] _______ [[the|el]] [[wardrobe|armario]].",
+          "question": "[[The clothes are wardrobe|La ropa está]] _______ [[the|el armario]].",
           "options": ["[[on|encima de]]", "[[in|dentro de]]", "[[under|debajo de]]"],
           "correctAnswer": 1,
           "explanation": "La ropa está 'in' (dentro de) el armario."
@@ -675,7 +675,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[There|Allí]] [[is|está/hay]] [[a|una]] [[lamp|lámpara]] [[on|sobre]] [[the|el]] [[desk|escritorio]].",
+      "correctSentence": "[[There is a lamp on the desk|Allí está/hay una lámpara sobre el escritorio]].",
       "words": ["[[lamp|lámpara]]", "[[on|sobre]]", "[[There|Allí]]", "[[is|está/hay]]", "[[the|el]]", "[[desk|escritorio]].", "[[a|una]]"],
       "explanation": "Estructura: There is + objeto + preposición + lugar."
     },
@@ -692,7 +692,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Describiendo mi casa",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[My|Mi]] [[house|casa]] [[is|es]] [[big|grande]] [[and|y]] [[comfortable|cómoda]].",
+      "correctSentence": "[[My house is big and comfortable|Mi casa es grande y cómoda]].",
       "words": ["[[is|es]]", "[[big|grande]]", "[[My|Mi]]", "[[comfortable|cómoda]].", "[[and|y]]", "[[house|casa]]"],
       "explanation": "Usamos adjetivos después del verbo 'is' para describir."
     },
@@ -709,7 +709,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[There|Allí]] [[are|están/hay]] [[three|tres]] [[bedrooms|dormitorios]] [[in|en]] [[the|la]] [[house|casa]].",
+      "correctSentence": "[[There are three bedrooms in the house|Allí están/hay tres dormitorios en la casa]].",
       "words": ["[[three|tres]]", "[[in|en]]", "[[house|casa]].", "[[bedrooms|dormitorios]]", "[[There|Allí]]", "[[are|están/hay]]", "[[the|la]]"],
       "explanation": "Usamos 'There are' para el plural."
     },
@@ -726,7 +726,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ubicación del Gato",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[The|El]] [[cat|gato]] [[is|está]] [[under|debajo de]] [[the|la]] [[bed|cama]].",
+      "correctSentence": "[[The cat is under the bed|El gato está debajo de la cama]].",
       "words": ["[[under|debajo de]]", "[[cat|gato]]", "[[bed|cama]].", "[[is|está]]", "[[the|el]]", "[[the|la]]"],
       "explanation": "Estructura: Sujeto + is + preposición + objeto."
     },
@@ -743,7 +743,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Nuestra Cocina",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[We|Nosotros]] [[have|tenemos]] [[a|una]] [[modern|moderna]] [[kitchen|cocina]].",
+      "correctSentence": "[[We have a modern kitchen|Nosotros tenemos una moderna cocina]].",
       "words": ["[[a|una]]", "[[modern|moderna]]", "[[We|Nosotros]]", "[[kitchen|cocina]].", "[[have|tenemos]]"],
       "explanation": "Sujeto + have + adjetivo + sustantivo."
     },
@@ -760,7 +760,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pregunta de Existencia",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Is|Está/hay]] [[there|allí]] [[a|un]] [[garden|jardín]] [[in|en]] [[your|tu]] [[house|casa]]?",
+      "correctSentence": "[[Is there a garden in your house|Está/hay allí un jardín en tu casa]]?",
       "words": ["[[garden|jardín]]", "[[there|allí]]", "[[your|tu]]", "[[house|casa]]?", "[[Is|Está/hay]]", "[[a|un]]", "[[in|en]]"],
       "explanation": "Invertimos el orden para las preguntas."
     },
@@ -777,7 +777,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "El Sofá",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[The|El]] [[sofa|sofá]] [[is|está]] [[next to|al lado de]] [[the|la]] [[window|ventana]].",
+      "correctSentence": "[[The sofa is next to the window|El sofá está al lado de la ventana]].",
       "words": ["[[next to|al lado de]]", "[[sofa|sofá]]", "[[window|ventana]].", "[[is|está]]", "[[the|el]]", "[[the|la]]"],
       "explanation": "Práctica de preposiciones compuestas."
     },
@@ -794,7 +794,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Negación",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[There|Allí]] [[isn't|no está/no hay]] [[a|un]] [[TV|televisor]] [[in|en]] [[the|la]] [[kitchen|cocina]].",
+      "correctSentence": "[[There isn't a TV in the kitchen|Allí no está/no hay un televisor en la cocina]].",
       "words": ["[[TV|televisor]]", "[[in|en]]", "[[kitchen|cocina]].", "[[There|Allí]]", "[[isn't|no está/no hay]]", "[[a|un]]", "[[the|la]]"],
       "explanation": "Uso de la contracción 'isn't'."
     },
@@ -811,7 +811,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mis Gustos",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[love|amo]] [[my|mi]] [[beautiful|hermoso]] [[garden|jardín]].",
+      "correctSentence": "[[I love my beautiful garden|Yo amo mi hermoso jardín]].",
       "words": ["[[love|amo]]", "[[garden|jardín]].", "[[my|mi]]", "[[I|Yo]]", "[[beautiful|hermoso]]"],
       "explanation": "Sujeto + verbo + adjetivo posesivo + adjetivo + sustantivo."
     },
@@ -828,7 +828,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "En el Baño",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[There|Allí]] [[are|están/hay]] [[some|algunas]] [[towels|toallas]] [[in|en]] [[the|el]] [[bathroom|baño]].",
+      "correctSentence": "[[There are some towels in the bathroom|Allí están/hay algunas toallas en el baño]].",
       "words": ["[[towels|toallas]]", "[[in|en]]", "[[There|Allí]]", "[[the|el]]", "[[are|están/hay]]", "[[bathroom|baño]].", "[[some|algunas]]"],
       "explanation": "Uso de 'some' en oraciones afirmativas plurales."
     },
@@ -849,7 +849,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "*\"[[I|Yo]] [[live|vivo]] [[in|en]] [[a|un]] [[small|pequeño]] [[apartment|apartamento]]. [[It|Ello]] [[has|tiene]] [[one|un]] [[bedroom|dormitorio]], [[a|una]] [[kitchen|cocina]], [[and|y]] [[a|un]] [[small|pequeño]] [[living|salón]] [[room|habitación]]. [[There|Allí]] [[is|hay]] [[a|un]] [[comfortable|cómodo]] [[sofa|sofá]] [[in|en]] [[the|el]] [[living|salón]] [[room|habitación]]. [[The|El]] [[bedroom|dormitorio]] [[has|tiene]] [[a|una]] [[big|grande]] [[bed|cama]] [[and|y]] [[a|un]] [[desk|escritorio]].\"*\n\n[[How|Cuántos]] [[many|muchos]] [[bedrooms|dormitorios]] [[are|hay]] [[there|allí]]?",
+          "question": "*\"[[I live. It has in a, and a. There small living small apartment one bedroom, a kitchen room is a comfortable. The sofa in the living room bedroom has a big bed and a desk many bedrooms are there|Yo vivo en un pequeño apartamento. Ello tiene un dormitorio, una cocina, y un pequeño salón habitación. Allí hay un cómodo sofá en el salón habitación. El dormitorio tiene una grande cama y un escritorio]].\"*\n\n[[How|Cuántos muchos dormitorios hay allí]]?",
           "options": ["[[One|Uno]]", "[[Two|Dos]]", "[[Three|Tres]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'It has one bedroom'."
@@ -871,8 +871,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto anterior y responde.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[is|está]] [[the|el]] [[sofa|sofá]]?",
-          "options": ["[[In|En]] [[the|la]] [[kitchen|cocina]]", "[[In|En]] [[the|el]] [[living|salón]] [[room|habitación]]", "[[In|En]] [[the|el]] [[bedroom|dormitorio]]"],
+          "question": "[[Where is the sofa|Dónde está el sofá]]?",
+          "options": ["[[In the kitchen the|En la cocina]]", "[[In living room|En el salón habitación]]", "[[In the bedroom|En el dormitorio]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice: 'There is a comfortable sofa in the living room'."
         }
@@ -893,8 +893,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "*\"[[My|Mi]] [[family|familia]] [[has|tiene]] [[a|una]] [[new|nueva]] [[house|casa]]. [[It|Ella]] [[is|es]] [[big|grande]] [[and|y]] [[modern|moderna]]. [[There|Allí]] [[is|hay]] [[a|un]] [[garage|garaje]] [[for|para]] [[two|dos]] [[cars|coches]]. [[In|En]] [[the|la]] [[back|parte de atrás]], [[there|allí]] [[is|hay]] [[a|un]] [[large|grande]] [[garden|jardín]] [[with|con]] [[many|muchos]] [[trees|árboles]]. [[My|Mi]] [[favorite|favorita]] [[room|habitación]] [[is|es]] [[the|la]] [[kitchen|cocina]] [[because|porque]] [[it|ella]] [[is|está]] [[very|muy]] [[bright|luminosa]].\"*\n\n[[How|Para cuántos]] [[many|muchos]] [[cars|coches]] [[is|es]] [[the|el]] [[garage|garaje]]?",
-          "options": ["[[One|Uno]]", "[[Two|Dos]]", "[[No|Ninguno]] [[garage|garaje]]"],
+          "question": "*\"[[My family. It is has a new house big and. There modern is a garage. In for two cars the back is, there a large. My favorite garden with many trees room is the kitchen because it is very bright many cars is the garage|Mi familia tiene una nueva casa. Ella es grande y moderna. Allí hay un garaje para dos coches. En la parte de atrás, allí hay un grande jardín con muchos árboles. Mi favorita habitación es la cocina porque ella está muy luminosa]].\"*\n\n[[How|Para cuántos muchos coches es el garaje]]?",
+          "options": ["[[One garage|Uno]]", "[[Two|Dos]]", "[[No|Ninguno garaje]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice: 'garage for two cars'."
         }
@@ -915,8 +915,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto anterior y responde.",
       "questions": [
         {
-          "question": "[[Why|Por qué]] [[does|auxiliar]] [[the|la]] [[person|persona]] [[like|gustar]] [[the|la]] [[kitchen|cocina]]?",
-          "options": ["[[Because|Porque]] [[it|ella]] [[is|es]] [[small|pequeña]]", "[[Because|Porque]] [[it|ella]] [[is|está]] [[very|muy]] [[bright|luminosa]]", "[[Because|Porque]] [[it|ella]] [[is|está]] [[next|al lado]] [[to|de]] [[the|el]] [[garage|garaje]]"],
+          "question": "[[Why does the person like the kitchen|Por qué auxiliar la persona gustar la cocina]]?",
+          "options": ["[[Because it is small bright it is next|Porque ella es pequeña]]", "[[Because it is very|Porque ella está muy luminosa]]", "[[Because to the garage|Porque ella está al lado de el garaje]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice: 'because it is very bright'."
         }
@@ -937,8 +937,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "*\"[[In|En]] [[my|mi]] [[kitchen|cocina]], [[there|allí]] [[are|hay]] [[some|algunas]] [[rules|reglas]]. [[Always|Siempre]] [[wash|lava]] [[the|los]] [[plates|platos]] [[after|después de]] [[eating|comer]]. [[Don't|No]] [[leave|dejes]] [[food|comida]] [[on|sobre]] [[the|la]] [[table|mesa]]. [[The|La]] [[fridge|nevera]] [[is|es]] [[for|para]] [[everyone|todos]], [[but|pero]] [[don't|no]] [[eat|comas]] [[my|mi]] [[chocolate|chocolate]]!\"*\n\n[[When|Cuándo]] [[should|deberías]] [[you|tú]] [[wash|lavar]] [[the|los]] [[plates|platos]]?",
-          "options": ["[[Before|Antes de]] [[eating|comer]]", "[[After|Después de]] [[eating|comer]]", "[[Never|Nunca]]"],
+          "question": "*\"[[In my, there kitchen are some rules. Always wash the plates. Don't leave after eating food on. The fridge the table is for, but everyone don't eat my chocolate should you wash|En mi cocina, allí hay algunas reglas. Siempre lava los platos después de comer. No dejes comida sobre la mesa. La nevera es para todos, pero no comas mi chocolate]]!\"*\n\n[[When the plates|Cuándo deberías tú lavar los platos]]?",
+          "options": ["[[Before eating|Antes de comer]]", "[[After eating|Después de comer]]", "[[Never|Nunca]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice: 'Always wash the plates after eating'."
         }
@@ -959,8 +959,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto anterior y responde.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[should|deberías]] [[you|tú]] [[not|no]] [[eat|comer]]?",
-          "options": ["[[The|El]] [[chocolate|chocolate]]", "[[The|Los]] [[plates|platos]]", "[[The|La]] [[table|mesa]]"],
+          "question": "[[What should you not eat|Qué deberías tú no comer]]?",
+          "options": ["[[The chocolate|El chocolate]]", "[[The plates|Los platos]]", "[[The table|La mesa]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'don't eat my chocolate!'"
         }
@@ -981,7 +981,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "*\"[[My|Mi]] [[bedroom|dormitorio]] [[is|es]] [[my|mi]] [[favorite|favorito]] [[place|lugar]]. [[It|Ello]] [[has|tiene]] [[blue|azules]] [[walls|paredes]] [[and|y]] [[white|blancas]] [[curtains|cortinas]]. [[There|Allí]] [[is|hay]] [[a|un]] [[large|grande]] [[wardrobe|armario]] [[for|para]] [[my|mis]] [[clothes|ropa]] [[and|y]] [[a|un]] [[small|pequeño]] [[mirror|espejo]]. [[On|Sobre]] [[the|el]] [[desk|escritorio]], [[there|allí]] [[is|hay]] [[a|un]] [[computer|ordenador]] [[and|y]] [[a|una]] [[lamp|lámpara]].\"*\n\n[[What|De qué]] [[color|color]] [[are|son]] [[the|las]] [[walls|paredes]]?",
+          "question": "*\"[[My bedroom. It has is my favorite place blue walls. There and white curtains is a large. On the wardrobe for my clothes and a small mirror desk is, there a computer and a lamp color are the|Mi dormitorio es mi favorito lugar. Ello tiene azules paredes y blancas cortinas. Allí hay un grande armario para mis ropa y un pequeño espejo. Sobre el escritorio, allí hay un ordenador y una lámpara]].\"*\n\n[[What walls|De qué color son las paredes]]?",
           "options": ["[[White|Blancas]]", "[[Blue|Azules]]", "[[Green|Verdes]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice: 'It has blue walls'."
@@ -1003,8 +1003,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto anterior y responde.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|está]] [[on|sobre]] [[the|el]] [[desk|escritorio]]?",
-          "options": ["[[A|Una]] [[bed|cama]]", "[[A|Un]] [[computer|ordenador]] [[and|y]] [[a|una]] [[lamp|lámpara]]", "[[A|Un]] [[wardrobe|armario]]"],
+          "question": "[[What is on the desk|Qué está sobre el escritorio]]?",
+          "options": ["[[A bed and a lamp wardrobe|Una cama]]", "[[A computer|Un ordenador y una lámpara]]", "[[A|Un armario]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice: 'On the desk, there is a computer and a lamp'."
         }
@@ -1025,8 +1025,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "*\"[[My|Mi]] [[grandfather|abuelo]] [[loves|ama]] [[his|su]] [[garden|jardín]]. [[He|Él]] [[works|trabaja]] [[there|allí]] [[every|cada]] [[morning|mañana]]. [[There|Allí]] [[is|hay]] [[a|una]] [[small|pequeña]] [[table|mesa]] [[and|y]] [[two|dos]] [[chairs|sillas]] [[under|debajo de]] [[a|un]] [[tree|árbol]]. [[He|Él]] [[drinks|bebe]] [[tea|té]] [[and|y]] [[reads|lee]] [[the|el]] [[newspaper|periódico]] [[there|allí]].\"*\n\n[[Where|Dónde]] [[are|están]] [[the|las]] [[chairs|sillas]]?",
-          "options": ["[[In|En]] [[the|la]] [[kitchen|cocina]]", "[[Under|Debajo de]] [[a|un]] [[tree|árbol]]", "[[In|En]] [[the|el]] [[garage|garaje]]"],
+          "question": "*\"[[My grandfather. He loves his garden works there every. There morning is a small. He table and two chairs under a tree drinks tea and reads the newspaper there the chairs|Mi abuelo ama su jardín. Él trabaja allí cada mañana. Allí hay una pequeña mesa y dos sillas debajo de un árbol. Él bebe té y lee el periódico allí]].\"*\n\n[[Where are|Dónde están las sillas]]?",
+          "options": ["[[In the kitchen a|En la cocina]]", "[[Under tree the|Debajo de un árbol]]", "[[In garage|En el garaje]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice: 'two chairs under a tree'."
         }
@@ -1047,8 +1047,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto anterior y responde.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|auxiliar]] [[the|el]] [[grandfather|abuelo]] [[do|hacer]] [[in|en]] [[the|el]] [[garden|jardín]]?",
-          "options": ["[[He|Él]] [[sleeps|duerme]]", "[[He|Él]] [[drinks|bebe]] [[tea|té]] [[and|y]] [[reads|lee]] [[the|el]] [[newspaper|periódico]]", "[[He|Él]] [[cooks|cocina]] [[dinner|la cena]]"],
+          "question": "[[What does the grandfather do in the garden|Qué auxiliar el abuelo hacer en el jardín]]?",
+          "options": ["[[He sleeps tea and reads the newspaper cooks|Él duerme]]", "[[He drinks|Él bebe té y lee el periódico]]", "[[He dinner|Él cocina la cena]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice: 'He drinks tea and reads the newspaper there'."
         }

@@ -11,7 +11,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Experiencia laboral",
       "instructions": "Ordena las palabras para decir cuánto tiempo llevas trabajando en la empresa.",
-      "correctSentence": "[[I|Yo]] [[have|he]] [[been|estado]] [[working|trabajando]] [[for|para]] [[this|esta]] [[company|empresa]] [[for|por]] [[five|cinco]] [[years.|años.]]",
+      "correctSentence": "[[I have been working for this company for five years.|Yo he estado trabajando para esta empresa por cinco años.]]",
       "words": [
         "[[I|Yo]]",
         "[[have|he]]",
@@ -40,7 +40,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sucesión de eventos",
       "instructions": "Ordena las palabras para indicar que ella ya se había ido.",
-      "correctSentence": "[[She|Ella]] [[had|ya]] [[already|se]] [[left|había]] [[the|ido]] [[office|de la]] [[when|oficina]] [[I|cuando]] [[arrived.|llegué.]]",
+      "correctSentence": "[[She had already left the office when I arrived.|Ella ya se había ido de la oficina cuando llegué.]]",
       "words": [
         "[[She|Ella]]",
         "[[had|ya]]",
@@ -68,7 +68,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hábitos pasados",
       "instructions": "Ordena las palabras para hablar de un antiguo hábito de transporte al trabajo.",
-      "correctSentence": "[[I|Yo]] [[used|solía]] [[to|viajar]] [[commute|al]] [[to|trabajo]] [[London|en Londres]] [[every|todos los]] [[day.|días.]]",
+      "correctSentence": "[[I used to commute to London every day.|Yo solía viajar al trabajo en Londres todos los días.]]",
       "words": [
         "[[I|Yo]]",
         "[[used|solía]]",
@@ -95,7 +95,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Planes futuros",
       "instructions": "Ordena las palabras para describir una acción que estará ocurriendo en el futuro.",
-      "correctSentence": "[[They|Ellos]] [[will|estarán]] [[be|celebrando]] [[holding|la]] [[the|reunión]] [[annual|anual]] [[meeting|a las]] [[at|diez]] [[ten|en]] [[o'clock.|punto.]]",
+      "correctSentence": "[[They will be holding the annual meeting at ten o'clock.|Ellos estarán celebrando la reunión anual a las diez en punto.]]",
       "words": [
         "[[They|Ellos]]",
         "[[will|estarán]]",
@@ -124,7 +124,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Estilo indirecto",
       "instructions": "Ordena las palabras para reportar lo que dijo el gerente.",
-      "correctSentence": "[[The|El]] [[manager|gerente]] [[told|nos]] [[us|dijo]] [[that|que]] [[the|el]] [[project|proyecto]] [[was|fue]] [[a|un]] [[success.|éxito.]]",
+      "correctSentence": "[[The manager told us that the project was a success.|El gerente nos dijo que el proyecto fue un éxito.]]",
       "words": [
         "[[The|El]]",
         "[[manager|gerente]]",
@@ -153,7 +153,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Responsabilidades",
       "instructions": "Ordena las palabras para describir tu puesto.",
-      "correctSentence": "[[I|Yo]] [[am|soy]] [[responsible|responsable]] [[for|de]] [[managing|gestionar]] [[the|al]] [[sales|equipo de]] [[team.|ventas.]]",
+      "correctSentence": "[[I am responsible for managing the sales team.|Yo soy responsable de gestionar al equipo de ventas.]]",
       "words": [
         "[[I|Yo]]",
         "[[am|soy]]",
@@ -180,7 +180,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hábitos pasados con 'would'",
       "instructions": "Ordena las palabras para hablar de algo que él solía hacer.",
-      "correctSentence": "[[He|Él]] [[would|siempre]] [[always|se]] [[stay|quedaba]] [[late|hasta tarde]] [[to|para]] [[finish|terminar]] [[his|sus]] [[reports.|informes.]]",
+      "correctSentence": "[[He would always stay late to finish his reports.|Él siempre se quedaba hasta tarde para terminar sus informes.]]",
       "words": [
         "[[He|Él]]",
         "[[would|siempre]]",
@@ -208,7 +208,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Plazo de entrega",
       "instructions": "Ordena las palabras para indicar la fecha límite.",
-      "correctSentence": "[[The|La]] [[deadline|fecha límite]] [[for|para]] [[the|la]] [[application|solicitud]] [[is|es]] [[next|el próximo]] [[Friday.|viernes.]]",
+      "correctSentence": "[[The deadline for the application is next Friday.|La fecha límite para la solicitud es el próximo viernes.]]",
       "words": [
         "[[The|La]]",
         "[[deadline|fecha límite]]",
@@ -235,7 +235,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cierre de correos",
       "instructions": "Ordena las palabras para una despedida formal.",
-      "correctSentence": "[[I|Quedo]] [[am|a la]] [[looking|espera]] [[forward|de]] [[to|tener]] [[hearing|noticias]] [[from|suyas]] [[you|pronto.]] [[soon.| ]]",
+      "correctSentence": "[[I am looking forward to hearing from you soon.|Quedo a la espera de tener noticias suyas pronto.  ]]",
       "words": [
         "[[I|Quedo]]",
         "[[am|a la]]",
@@ -263,7 +263,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Futuro perfecto",
       "instructions": "Ordena las palabras para hablar de un hito futuro.",
-      "correctSentence": "[[By|Para]] [[next|el año]] [[year,|que viene,]] [[she|ella]] [[will|habrá]] [[have|trabajado]] [[worked|aquí]] [[here|por]] [[for|una]] [[a|década.]] [[decade.| ]]",
+      "correctSentence": "[[By next year, she will have worked here for a decade.|Para el año que viene, ella habrá trabajado aquí por una década.  ]]",
       "words": [
         "[[By|Para]]",
         "[[next|el año]]",
@@ -293,7 +293,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mejorar habilidades",
       "instructions": "Ordena las palabras para decir que necesitas repasar algo.",
-      "correctSentence": "[[I|Necesito]] [[need|repasar]] [[to|mis]] [[brush|habilidades]] [[up|de]] [[on|presentación.]] [[my| ]] [[presentation| ]] [[skills.| ]]",
+      "correctSentence": "[[I need to brush up on my presentation skills.|Necesito repasar mis habilidades de presentación.      ]]",
       "words": [
         "[[I|Necesito]]",
         "[[need|repasar]]",
@@ -321,7 +321,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Beneficios laborales",
       "instructions": "Ordena las palabras para hablar de las ventajas de la empresa.",
-      "correctSentence": "[[The|La]] [[company|empresa]] [[provides|proporciona]] [[many|muchos]] [[benefits|beneficios]] [[to|a]] [[its|sus]] [[employees.|empleados.]]",
+      "correctSentence": "[[The company provides many benefits to its employees.|La empresa proporciona muchos beneficios a sus empleados.]]",
       "words": [
         "[[The|La]]",
         "[[company|empresa]]",
@@ -348,7 +348,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Acciones continuas pasadas",
       "instructions": "Ordena las palabras para hablar de una reunión larga.",
-      "correctSentence": "[[We|Habíamos]] [[had|estado]] [[been|debatiendo]] [[discussing|el]] [[the|presupuesto]] [[budget|durante]] [[for|horas.]] [[hours.| ]]",
+      "correctSentence": "[[We had been discussing the budget for hours.|Habíamos estado debatiendo el presupuesto durante horas.  ]]",
       "words": [
         "[[We|Habíamos]]",
         "[[had|estado]]",
@@ -375,7 +375,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Preguntas indirectas",
       "instructions": "Ordena las palabras para reportar una petición.",
-      "correctSentence": "[[She|Ella]] [[asked|me]] [[me|preguntó]] [[if|si]] [[I|podía]] [[could|ayudarla]] [[help|con]] [[her|el]] [[with|informe.]] [[the| ]] [[report.| ]]",
+      "correctSentence": "[[She asked me if I could help her with the report.|Ella me preguntó si podía ayudarla con el informe.    ]]",
       "words": [
         "[[She|Ella]]",
         "[[asked|me]]",
@@ -405,7 +405,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Orgullo profesional",
       "instructions": "Ordena las palabras para aconsejar a alguien valorar su trabajo.",
-      "correctSentence": "[[You|Deberías]] [[should|sentirte]] [[take|orgulloso]] [[pride|de]] [[in|tu]] [[your|trabajo.]] [[work.| ]]",
+      "correctSentence": "[[You should take pride in your work.|Deberías sentirte orgulloso de tu trabajo.  ]]",
       "words": [
         "[[You|Deberías]]",
         "[[should|sentirte]]",
@@ -431,7 +431,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "La entrevista",
       "instructions": "Ordena las palabras para indicar el lugar de la entrevista.",
-      "correctSentence": "[[The|La]] [[interview|entrevista]] [[will|se]] [[be|llevará]] [[held|a cabo]] [[in|en la]] [[meeting|sala]] [[room|de reuniones]] [[B.|B.]]",
+      "correctSentence": "[[The interview will be held in meeting room B.|La entrevista se llevará a cabo en la sala de reuniones B.]]",
       "words": [
         "[[The|La]]",
         "[[interview|entrevista]]",
@@ -459,7 +459,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Habilidades técnicas",
       "instructions": "Ordena las palabras para describir la competencia de alguien.",
-      "correctSentence": "[[He|Él]] [[is|está]] [[highly|muy]] [[skilled|cualificado]] [[in|en]] [[graphic|diseño]] [[design.|gráfico.]]",
+      "correctSentence": "[[He is highly skilled in graphic design.|Él está muy cualificado en diseño gráfico.]]",
       "words": [
         "[[He|Él]]",
         "[[is|está]]",
@@ -485,7 +485,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Búsqueda de candidatos",
       "instructions": "Ordena las palabras para describir el perfil buscado.",
-      "correctSentence": "[[We|Estamos]] [[looking|buscando]] [[for|un]] [[a|candidato]] [[candidate|con]] [[with|cualidades]] [[leadership|de]] [[qualities.|liderazgo.]]",
+      "correctSentence": "[[We looking for a candidate with leadership qualities.|Estamos buscando un candidato con cualidades de liderazgo.]]",
       "words": [
         "[[We|Estamos]]",
         "[[looking|buscando]]",
@@ -512,7 +512,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Promoción interna",
       "instructions": "Ordena las palabras sobre tus planes de carrera.",
-      "correctSentence": "[[I|Estoy]] [[am|considerando]] [[considering|solicitar]] [[applying|un]] [[for|ascenso]] [[a|el]] [[promotion|mes]] [[next|que]] [[month.|viene.]]",
+      "correctSentence": "[[I am considering applying for a promotion next month.|Estoy considerando solicitar un ascenso el mes que viene.]]",
       "words": [
         "[[I|Estoy]]",
         "[[am|considerando]]",
@@ -540,7 +540,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ambiente laboral",
       "instructions": "Ordena las palabras para describir tu oficina.",
-      "correctSentence": "[[The|El]] [[working|ambiente]] [[environment|de]] [[here|trabajo]] [[is|aquí]] [[very|es]] [[supportive.|muy acogedor.]]",
+      "correctSentence": "[[The working environment here is very supportive.|El ambiente de trabajo aquí es muy acogedor.]]",
       "words": [
         "[[The|El]]",
         "[[working|ambiente]]",
@@ -566,7 +566,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Preaviso",
       "instructions": "Ordena las palabras sobre los trámites para dejar un trabajo.",
-      "correctSentence": "[[I|Debo]] [[need|dar]] [[to|dos]] [[give|semanas]] [[two|de]] [[weeks'|preaviso]] [[notice|antes]] [[before|de]] [[leaving.|irme.]]",
+      "correctSentence": "[[I need to give two weeks' notice before leaving.|Debo dar dos semanas de preaviso antes de irme.]]",
       "words": [
         "[[I|Debo]]",
         "[[need|dar]]",
@@ -594,7 +594,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Despido",
       "instructions": "Ordena las palabras sobre las consecuencias de la impuntualidad.",
-      "correctSentence": "[[She|Ella]] [[was|fue]] [[fired|despedida]] [[for|por]] [[being|llegar]] [[late|tarde]] [[every|todos]] [[day.|los días.]]",
+      "correctSentence": "[[She was fired for being late every day.|Ella fue despedida por llegar tarde todos los días.]]",
       "words": [
         "[[She|Ella]]",
         "[[was|fue]]",
@@ -621,7 +621,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Dimisión",
       "instructions": "Ordena las palabras sobre un cambio de carrera.",
-      "correctSentence": "[[He|Él]] [[resigned|dimitió]] [[to|para]] [[pursue|seguir]] [[a|una]] [[career|carrera]] [[in|en la]] [[teaching.|enseñanza.]]",
+      "correctSentence": "[[He resigned to pursue a career in teaching.|Él dimitió para seguir una carrera en la enseñanza.]]",
       "words": [
         "[[He|Él]]",
         "[[resigned|dimitió]]",
@@ -648,7 +648,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Teletrabajo",
       "instructions": "Ordena las palabras sobre tu rutina actual.",
-      "correctSentence": "[[I|Estoy]] [[am|trabajando]] [[working|en]] [[remotely|remoto]] [[three|tres]] [[days|días]] [[a|a la]] [[week.|semana.]]",
+      "correctSentence": "[[I am working remotely three days a week.|Estoy trabajando en remoto tres días a la semana.]]",
       "words": [
         "[[I|Estoy]]",
         "[[am|trabajando]]",
@@ -675,7 +675,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Salario",
       "instructions": "Ordena las palabras sobre las condiciones económicas.",
-      "correctSentence": "[[The|La]] [[company|empresa]] [[offers|ofrece]] [[a|un]] [[very|salario]] [[competitive|muy]] [[salary.|competitivo.]]",
+      "correctSentence": "[[The company offers a very competitive salary.|La empresa ofrece un salario muy competitivo.]]",
       "words": [
         "[[The|La]]",
         "[[company|empresa]]",
@@ -703,7 +703,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra correcta para completar la frase.",
       "questions": [
         {
-          "question": "[[If|Si]] [[you|quieres]] [[want|conseguir]] [[to|el]] [[get|trabajo,]] [[the|debes]] [[job,|causar]] [[you|una]] [[must|buena]] [[_______|impresión.]]",
+          "question": "[[If you want to get the job, you must _______|Si quieres conseguir el trabajo, debes causar una buena impresión.]]",
           "options": ["[[expression|expresión]]", "[[depression|depresión]]", "[[impression|impresión]]"],
           "correctAnswer": 2,
           "explanation": "'Make a good impression' es una frase hecha que significa causar una buena sensación.",
@@ -726,7 +726,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo adecuado para un cambio de puesto a mejor.",
       "questions": [
         {
-          "question": "[[He|Él]] [[was|fue]] [[_______|ascendido]] [[to|a]] [[senior|gerente]] [[manager|senior]] [[after|tras]] [[only|solo]] [[two|dos]] [[years.|años.]]",
+          "question": "[[He was _______ to senior manager after only two years.|Él fue ascendido a gerente senior tras solo dos años.]]",
           "options": ["[[promoted|ascendido]]", "[[retired|jubilado]]", "[[demoted|degradado]]"],
           "correctAnswer": 0,
           "explanation": "'Promote' significa ascender a alguien a un puesto superior.",
@@ -749,7 +749,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que describe un horario adaptable.",
       "questions": [
         {
-          "question": "[[I|Estoy]] [[am|buscando]] [[looking|un]] [[for|trabajo]] [[a|con]] [[job|un]] [[with|horario]] [[more|más]] [[_______|flexible.]]",
+          "question": "[[I am looking for a job with more _______|Estoy buscando un trabajo con un horario más flexible.]]",
           "options": ["[[flexible|flexible]]", "[[fixed|fijo]]", "[[long|largo]]"],
           "correctAnswer": 0,
           "explanation": "'Flexible hours' permite al empleado elegir cuándo empezar y terminar.",
@@ -772,7 +772,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la frecuencia con la que los empleados dejan la empresa.",
       "questions": [
         {
-          "question": "[[The|La]] [[company|empresa]] [[has|tiene]] [[a|una]] [[very|rotación]] [[low|de]] [[staff|personal]] [[_______|muy baja.]]",
+          "question": "[[The company has a very low staff _______|La empresa tiene una rotación de personal muy baja.]]",
           "options": ["[[takeover|adquisición]]", "[[turnover|rotación]]", "[[overtake|adelantamiento]]"],
           "correctAnswer": 1,
           "explanation": "'Staff turnover' es el ritmo al que los empleados entran y salen de una empresa.",
@@ -795,7 +795,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa dar empleo a alguien.",
       "questions": [
         {
-          "question": "[[We|Necesitamos]] [[need|_______]] [[to|a]] [[hire|más]] [[more|gente]] [[people|para]] [[to|terminar]] [[finish|el]] [[the|proyecto.]]",
+          "question": "[[We need to hire more people to finish the|Necesitamos _______ a más gente para terminar el proyecto.]]",
           "options": ["[[fire|despedir]]", "[[tire|cansar]]", "[[hire|contratar]]"],
           "correctAnswer": 2,
           "explanation": "'Hire' significa emplear a alguien nuevo.",
@@ -818,7 +818,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que significa sector o área de trabajo.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[has|tiene]] [[a|mucha]] [[lot|experiencia]] [[of|en]] [[experience|el]] [[in|_______]] [[the|de]] [[field|marketing.]] [[of| ]] [[marketing.| ]]",
+          "question": "[[She has a lot of experience in the field of marketing.|Ella tiene mucha experiencia en el _______ de marketing.    ]]",
           "options": ["[[field|campo/sector]]", "[[farm|granja]]", "[[forest|bosque]]"],
           "correctAnswer": 0,
           "explanation": "'Field' se usa para referirse a una rama específica del conocimiento o trabajo.",
@@ -841,7 +841,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión que significa 'ser el responsable de'.",
       "questions": [
         {
-          "question": "[[I|Soy]] [[am|el]] [[in|_______]] [[charge|del]] [[of|departamento]] [[the|de]] [[marketing|marketing.]] [[department.| ]]",
+          "question": "[[I am in charge of the marketing department.|Soy el _______ del departamento de marketing.  ]]",
           "options": ["[[charge|responsable]]", "[[change|cambio]]", "[[chance|oportunidad]]"],
           "correctAnswer": 0,
           "explanation": "'In charge of' significa tener la responsabilidad de algo o alguien.",
@@ -864,7 +864,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que significa aumento de tamaño o importancia.",
       "questions": [
         {
-          "question": "[[The|La]] [[company|empresa]] [[is|está]] [[going|pasando]] [[through|por]] [[a|un]] [[period|periodo]] [[of|de]] [[rapid|rápido]] [[_______|crecimiento.]]",
+          "question": "[[The company is going through a period of rapid _______|La empresa está pasando por un periodo de rápido crecimiento.]]",
           "options": ["[[growth|crecimiento]]", "[[death|muerte]]", "[[wealth|riqueza]]"],
           "correctAnswer": 0,
           "explanation": "'Growth' es el sustantivo de 'grow' (crecer).",
@@ -887,7 +887,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa dedicado o comprometido.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|está]] [[very|muy]] [[_______|comprometido]] [[to|con]] [[his|su]] [[work.|trabajo.]]",
+          "question": "[[He is very _______ to his work.|Él está muy comprometido con su trabajo.]]",
           "options": ["[[collected|recogido]]", "[[committed|comprometido]]", "[[confused|confundido]]"],
           "correctAnswer": 1,
           "explanation": "'Committed' describe a alguien que pone mucho esfuerzo y lealtad en algo.",
@@ -910,7 +910,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige el phrasal verb que significa gestionar o lidiar con algo.",
       "questions": [
         {
-          "question": "[[We|Tenemos]] [[have|que]] [[_______|lidiar]] [[with|con]] [[many|muchas]] [[customer|quejas]] [[complaints.|de clientes.]]",
+          "question": "[[We have _______ with many customer complaints.|Tenemos que lidiar con muchas quejas de clientes.]]",
           "options": ["[[seal|sellar]]", "[[feel|sentir]]", "[[deal|lidiar]]"],
           "correctAnswer": 2,
           "explanation": "'Deal with' significa tomar las medidas necesarias para resolver un problema.",
@@ -933,7 +933,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa contento o satisfecho.",
       "questions": [
         {
-          "question": "[[I|Estoy]] [[am|muy]] [[very|_______]] [[satisfied|con]] [[with|mi]] [[my|trabajo]] [[current|actual.]] [[job.| ]]",
+          "question": "[[I am very satisfied with my current job.|Estoy muy _______ con mi trabajo actual.  ]]",
           "options": ["[[mystified|perplejo]]", "[[satisfied|satisfecho]]", "[[terrified|aterrorizado]]"],
           "correctAnswer": 1,
           "explanation": "'Satisfied' significa estar complacido con algo.",
@@ -956,7 +956,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que describe a alguien con mucha habilidad natural.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[is|es]] [[a|una]] [[very|_______]] [[talented|diseñadora]] [[graphic|gráfica]] [[designer.|con mucho talento.]]",
+          "question": "[[She is a very talented graphic designer.|Ella es una _______ diseñadora gráfica con mucho talento.]]",
           "options": ["[[tainted|manchado]]", "[[talented|con talento]]", "[[tempted|tentado]]"],
           "correctAnswer": 1,
           "explanation": "'Talented' significa tener una habilidad natural para algo.",
@@ -979,7 +979,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la oficina principal de una empresa.",
       "questions": [
         {
-          "question": "[[The|La]] [[company|empresa]] [[is|está]] [[looking|buscando]] [[for|una]] [[a|nueva]] [[new|_______]].",
+          "question": "[[The company is looking for a new|La empresa está buscando una nueva _______]].",
           "options": ["[[headlight|faro]]", "[[headache|dolor de cabeza]]", "[[headquarters|sede central]]"],
           "correctAnswer": 2,
           "explanation": "'Headquarters' es el centro administrativo de una organización.",
@@ -1002,7 +1002,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que describe a alguien que quiere tener mucho éxito.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es]] [[very|muy]] [[_______|ambicioso]] [[and|y]] [[wants|quiere]] [[to|llegar]] [[reach|a]] [[the|lo]] [[top.|más alto.]]",
+          "question": "[[He is very _______ and wants to reach the top.|Él es muy ambicioso y quiere llegar a lo más alto.]]",
           "options": ["[[ambiguous|ambiguo]]", "[[anxious|ansioso]]", "[[ambitious|ambicioso]]"],
           "correctAnswer": 2,
           "explanation": "'Ambitious' es tener un fuerte deseo de éxito o poder.",
@@ -1025,7 +1025,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa poner al día.",
       "questions": [
         {
-          "question": "[[I|Necesito]] [[need|_______]] [[to|mi]] [[update|currículum]] [[my|antes]] [[CV|de]] [[before|solicitar]] [[applying|el]] [[for|puesto.]] [[the| ]] [[job.| ]]",
+          "question": "[[I need to update my CV before applying for the job.|Necesito _______ mi currículum antes de solicitar el puesto.    ]]",
           "options": ["[[upkeep|mantener]]", "[[update|actualizar]]", "[[uproot|desarraigar]]"],
           "correctAnswer": 1,
           "explanation": "'Update' significa añadir la información más reciente a algo.",
@@ -1048,7 +1048,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa posponer.",
       "questions": [
         {
-          "question": "[[The|La]] [[meeting|reunión]] [[has|ha]] [[been|sido]] [[_______|pospuesta]] [[until|hasta]] [[next|la semana]] [[week.|que viene.]]",
+          "question": "[[The meeting has been _______ until next week.|La reunión ha sido pospuesta hasta la semana que viene.]]",
           "options": ["[[announced|anunciada]]", "[[cancelled|cancelada]]", "[[postponed|pospuesta]]"],
           "correctAnswer": 2,
           "explanation": "'Postpone' es decidir que algo ocurra en una fecha posterior a la prevista.",
@@ -1071,7 +1071,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que describe a alguien en quien se puede confiar.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[is|es]] [[very|muy]] [[_______|fiable]] [[and|y]] [[always|siempre]] [[gets|hace]] [[the|su]] [[job|trabajo.]] [[done.| ]]",
+          "question": "[[She is very _______ and always gets the job done.|Ella es muy fiable y siempre hace su trabajo.  ]]",
           "options": ["[[liable|responsable legal]]", "[[readable|legible]]", "[[reliable|fiable]]"],
           "correctAnswer": 2,
           "explanation": "'Reliable' significa que se puede confiar en que alguien hará lo que se espera.",
@@ -1094,7 +1094,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición correcta para 'working'.",
       "questions": [
         {
-          "question": "[[I|Estoy]] [[am|trabajando]] [[working|_______]] [[on|un]] [[a|proyecto]] [[very|muy]] [[interesting|interesante.]] [[project.| ]]",
+          "question": "[[I am working on a very interesting project.|Estoy trabajando _______ un proyecto muy interesante.  ]]",
           "options": ["[[on|en]]", "[[at| ]]", "[[in| ]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'work on' para referirnos a la tarea o proyecto en el que estamos ocupados.",
@@ -1117,7 +1117,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para las personas con las que trabajas.",
       "questions": [
         {
-          "question": "[[He|Él]] [[has|tiene]] [[a|una]] [[very|buena]] [[good|relación]] [[relationship|con]] [[with|sus]] [[his|_______]].",
+          "question": "[[He has a very good relationship with his|Él tiene una buena relación con sus _______]].",
           "options": ["[[colleagues|compañeros]]", "[[collections|colecciones]]", "[[college|universidad]]"],
           "correctAnswer": 0,
           "explanation": "'Colleagues' son las personas con las que trabajas, especialmente en una profesión.",
@@ -1140,7 +1140,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa hacerse más grande.",
       "questions": [
         {
-          "question": "[[The|La]] [[company|empresa]] [[is|se está]] [[_______|expandiendo]] [[into|a]] [[new|nuevos]] [[markets.|mercados.]]",
+          "question": "[[The company is _______ into new markets.|La empresa se está expandiendo a nuevos mercados.]]",
           "options": ["[[expiring|caducando]]", "[[expelling|expulsando]]", "[[expanding|expandiendo]]"],
           "correctAnswer": 2,
           "explanation": "'Expand' significa aumentar en tamaño, número o importancia.",
@@ -1163,7 +1163,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para el plan de actividades y tiempos.",
       "questions": [
         {
-          "question": "[[I|Tengo]] [[have|una]] [[a|agenda]] [[very|muy]] [[busy|apretada]] [[_______|esta semana.]]",
+          "question": "[[I have a very busy _______|Tengo una agenda muy apretada esta semana.]]",
           "options": ["[[scheme|esquema]]", "[[school|escuela]]", "[[schedule|agenda]]"],
           "correctAnswer": 2,
           "explanation": "'Schedule' es una lista de actividades y los momentos en que deben ocurrir.",
@@ -1186,7 +1186,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que significa hacer varias cosas a la vez.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[is|es]] [[very|muy]] [[good|buena]] [[at|en la]] [[_______|multitarea.]]",
+          "question": "[[She is very good at _______|Ella es muy buena en la multitarea.]]",
           "options": ["[[multiplying|multiplicación]]", "[[multitasking|multitarea]]", "[[multicultural|multicultural]]"],
           "correctAnswer": 1,
           "explanation": "'Multitasking' es la capacidad de realizar más de una tarea al mismo tiempo.",
@@ -1209,7 +1209,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para el proceso de aprender nuevas habilidades.",
       "questions": [
         {
-          "question": "[[The|La]] [[company|empresa]] [[provides|ofrece]] [[a|mucha]] [[lot|formación]] [[of|a sus]] [[_______|empleados.]]",
+          "question": "[[The company provides a lot of _______|La empresa ofrece mucha formación a sus empleados.]]",
           "options": ["[[training|formación]]", "[[trading|comercio]]", "[[trailing|rastreo]]"],
           "correctAnswer": 0,
           "explanation": "'Training' es el proceso de aprender las habilidades necesarias para un trabajo.",
@@ -1232,7 +1232,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa trabajar bien sin desperdiciar tiempo.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es]] [[very|muy]] [[_______|eficiente]] [[in|en]] [[his|su]] [[work.|trabajo.]]",
+          "question": "[[He is very _______ in his work.|Él es muy eficiente en su trabajo.]]",
           "options": ["[[effort|esfuerzo]]", "[[efficient|eficiente]]", "[[effect|efecto]]"],
           "correctAnswer": 1,
           "explanation": "'Efficient' significa trabajar de una manera organizada sin desperdiciar tiempo ni energía.",
@@ -1255,7 +1255,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que significa algo nuevo y difícil de hacer.",
       "questions": [
         {
-          "question": "[[I|Estoy]] [[am|buscando]] [[looking|un]] [[for|nuevo]] [[a|desafío]] [[new|en]] [[_______|mi]] [[career.|carrera.]]",
+          "question": "[[I am looking for a new _______ career.|Estoy buscando un nuevo desafío en mi carrera.]]",
           "options": ["[[chance|oportunidad]]", "[[challenge|desafío]]", "[[change|cambio]]"],
           "correctAnswer": 1,
           "explanation": "'Challenge' es algo nuevo y difícil que requiere esfuerzo y determinación.",

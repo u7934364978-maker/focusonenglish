@@ -14,7 +14,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[drink|bebas]] [[more|más]] [[water|agua]] [[to|para]] [[stay|mantenerte]] [[healthy|saludable]].",
+          "question": "[[You more water to stay healthy|Tú]] _______ [[drink|bebas más agua para mantenerte saludable]].",
           "options": [
             "[[should|deberías]]",
             "[[must|debes]]",
@@ -41,7 +41,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra adecuada para completar la oración.",
       "questions": [
         {
-          "question": "[[Even if|Aunque]] [[he|él]] [[is|está]] [[tired|cansado]], [[he|él]] _______ [[still|todavía]] [[run|corre]] [[fast|rápido]].",
+          "question": "[[Even if he, he run is tired|Aunque él está cansado, él]] _______ [[still fast|todavía corre rápido]].",
           "options": [
             "[[can|puede]]",
             "[[must|debe]]",
@@ -68,7 +68,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[join|se una]] [[the|a la]] [[yoga|clase de yoga]] [[class|la clase]] [[next|la próxima]] [[week|semana]].",
+          "question": "[[She the yoga class next week|Ella]] _______ [[join|se una a la clase de yoga la clase la próxima semana]].",
           "options": [
             "[[might|podría]]",
             "[[will|va a]]",
@@ -95,7 +95,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción adecuada para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[feeling|sentirse]] [[unwell|mal]], [[he|él]] _______ [[see|debería ver]] [[the|al]] [[doctor|médico]].",
+          "question": "[[Despite feeling, he unwell the|A pesar de sentirse mal, él]] _______ [[see doctor|debería ver al médico]].",
           "options": [
             "[[ought to|debería]]",
             "[[might|podría]]",
@@ -122,7 +122,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[exercise|hagas ejercicio]] [[regularly|regularmente]] [[to|para]] [[improve|mejorar]] [[your|tu]] [[health|salud]].",
+          "question": "[[You regularly to improve your health|Tú]] _______ [[exercise|hagas ejercicio regularmente para mejorar tu salud]].",
           "options": [
             "[[must|debes]]",
             "[[can|puedes]]",
@@ -149,7 +149,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Completa el espacio en blanco con la palabra correcta.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[it|eso]] _______ [[rain|llueva]] [[tomorrow|mañana]], [[we|nosotros]] [[should|deberíamos]] [[still|todavía]] [[go|ir]] [[for|a]] [[a|un]] [[walk|paseo]].",
+          "question": "[[Although it, we should still go for a walk|Aunque eso]] _______ [[rain tomorrow|llueva mañana, nosotros deberíamos todavía ir a un paseo]].",
           "options": [
             "[[might|podría]]",
             "[[can|puede]]"
@@ -175,7 +175,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Llena el espacio en blanco usando el modal correcto.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[cook|cocinar]] [[healthy|saludables]] [[meals|comidas]] [[even|aunque]] [[though|esté]] [[he|él]] [[is|está]] [[busy|ocupado]].",
+          "question": "[[He healthy meals even though he is busy|Él]] _______ [[cook|cocinar saludables comidas aunque esté él está ocupado]].",
           "options": [
             "[[can|puede]]",
             "[[might|podría]]"
@@ -201,7 +201,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Completa con el modal adecuado para dar consejos.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[consider|considerar]] [[taking|tomar]] [[breaks|descansos]] [[to|para]] [[manage|gestionar]] [[stress|estrés]].",
+          "question": "[[You taking breaks to manage stress|Tú]] _______ [[consider|considerar tomar descansos para gestionar estrés]].",
           "options": [
             "[[should|deberías]]",
             "[[must|debes]]"
@@ -227,7 +227,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con el modal correcto para necesidad.",
       "questions": [
         {
-          "question": "[[If|Si]] [[you're|estás]] [[feeling|sintiéndote]] [[tired|cansado]], [[you|tú]] _______ [[rest|debes]] [[more|más]].",
+          "question": "[[If you're, you more feeling tired|Si estás sintiéndote cansado, tú]] _______ [[rest|debes más]].",
           "options": [
             "[[must|debes]]",
             "[[can|puedes]]"
@@ -253,7 +253,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Llena el espacio en blanco con el modal indicado.",
       "questions": [
         {
-          "question": "[[Jenny|Jenny]] _______ [[run|correr]] [[faster|más rápido]] [[than|que]] [[anyone|cualquier persona]] [[in|en]] [[her|su]] [[class|clase]].",
+          "question": "[[Jenny faster than anyone in her class|Jenny]] _______ [[run|correr más rápido que cualquier persona en su clase]].",
           "options": [
             "[[can|puede]]",
             "[[will|va a]]"
@@ -277,7 +277,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta sobre consejos de salud.",
-      "correctSentence": "[[You|Tú]] [[should|deberías]] [[try|intentar]] [[to|a]] [[eat|comer]] [[more|más]] [[vegetables|verduras]] [[if|si]] [[you|tú]] [[want|quieres]] [[to|a]] [[stay|mantenerte]] [[healthy|saludable]].",
+      "correctSentence": "[[You should try to eat more vegetables if you want to stay healthy|Tú deberías intentar a comer más verduras si tú quieres a mantenerte saludable]].",
       "words": [
         "[[if|si]]",
         "[[eat|comer]]",
@@ -309,7 +309,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para describir habilidades en diferentes condiciones.",
-      "correctSentence": "[[Despite|A pesar de]] [[the|el]] [[weather|tiempo]], [[she|ella]] [[was|pudo]] [[able|pudo]] [[to|a]] [[go|salir]] [[for|a]] [[a|una]] [[run|carrera]] [[this|esta]] [[morning|mañana]].",
+      "correctSentence": "[[Despite the, she weather was able to go for a run this morning|A pesar de el tiempo, ella pudo pudo a salir a una carrera esta mañana]].",
       "words": [
         "[[the|el]]",
         "[[weather|tiempo]]",
@@ -341,7 +341,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración sobre posibilidades.",
-      "correctSentence": "[[He|Él]] [[might|podría]] [[join|unirse]] [[the|a la]] [[yoga|yoga]] [[class|clase]] [[if|si]] [[he|él]] [[finishes|termina]] [[work|trabajo]] [[early|temprano]].",
+      "correctSentence": "[[He might join the yoga class if he finishes work early|Él podría unirse a la yoga clase si él termina trabajo temprano]].",
       "words": [
         "[[the|a la]]",
         "[[might|podría]]",
@@ -371,7 +371,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Organiza las palabras para expresar capacidades condicionadas por condiciones financieras.",
-      "correctSentence": "[[They|Ellos]] [[could|podrían]] [[travel|viajar]] [[abroad|al extranjero]] [[in|en]] [[the|el]] [[summer|verano]] [[if|si]] [[they|ellos]] [[save|ahorran]] [[enough|suficiente]] [[money|dinero]].",
+      "correctSentence": "[[They could travel abroad in the summer if they save enough money|Ellos podrían viajar al extranjero en el verano si ellos ahorran suficiente dinero]].",
       "words": [
         "[[the|el]]",
         "[[They|Ellos]]",
@@ -402,7 +402,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para dar instrucciones o normas relacionadas con la salud.",
-      "correctSentence": "[[You|Tú]] [[must|debes]] [[drink|beber]] [[water|agua]] [[regularly|regularmente]] [[to|para]] [[stay|mantenerte]] [[hydrated|hidratado]].",
+      "correctSentence": "[[You must drink water regularly to stay hydrated|Tú debes beber agua regularmente para mantenerte hidratado]].",
       "words": [
         "[[stay|mantenerte]]",
         "[[must|debes]]",
@@ -431,7 +431,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[see|ver]] [[a|a]] [[doctor|médico]] [[if|si]] [[you|tú]] [[feel|sientes]] [[ill|enfermo]].",
+          "question": "[[You a doctor if you feel ill|Tú]] _______ [[see|ver a médico si tú sientes enfermo]].",
           "options": [
             "[[should|deberías]]",
             "[[might|podrías]]"
@@ -457,7 +457,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la mejor opción para completar la oración.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[it|puede]] _______ [[rain|llover]], [[we|nosotros]] [[will|vamos a]] [[go|ir]] [[jogging|a correr]].",
+          "question": "[[Although it, we go jogging|Aunque puede]] _______ [[rain will|llover, nosotros vamos a ir a correr]].",
           "options": [
             "[[could|podría]]",
             "[[might|podría]]"
@@ -483,7 +483,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la palabra correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[swim|nadar]] [[very|muy]] [[well|bien]] [[when|cuando]] [[he|él]] [[was|era]] [[young|joven]].",
+          "question": "[[He very well when he was young|Él]] _______ [[swim|nadar muy bien cuando él era joven]].",
           "options": [
             "[[can|puede]]",
             "[[could|podía]]"
@@ -509,7 +509,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción más adecuada para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] _______ [[feeling|sentirse]] [[tired|cansado]], [[he|él]] [[managed|logró]] [[to|a]] [[finish|terminar]] [[the|la]] [[marathon|maratón]].",
+          "question": "[[Despite tired, he managed to finish the marathon|A pesar de]] _______ [[feeling|sentirse cansado, él logró a terminar la maratón]].",
           "options": [
             "[[he|él]]",
             "[[the|el]]"
@@ -535,7 +535,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[In|En]] [[modern|modernos]] [[lifestyles|estilos de vida]], [[people|las personas]] _______ [[balance|equilibrar]] [[work|trabajo]] [[and|y]] [[leisure|ocio]].",
+          "question": "[[In modern, people lifestyles work|En modernos estilos de vida, las personas]] _______ [[balance and leisure|equilibrar trabajo y ocio]].",
           "options": [
             "[[must|deben]]",
             "[[can|pueden]]"
@@ -561,7 +561,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[drink|beber]] [[water|agua]] [[during|durante]] [[exercise|ejercicio]].",
+          "question": "[[You water during exercise|Tú]] _______ [[drink|beber agua durante ejercicio]].",
           "options": [
             "[[should|deberías]]",
             "[[can|puedes]]"
@@ -587,7 +587,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|el]] [[weather|clima]], [[we|nosotros]] _______ [[go|ir]] [[for|a]] [[a|una]] [[walk|caminata]].",
+          "question": "[[Despite the, we weather for|A pesar de el clima, nosotros]] _______ [[go a walk|ir a una caminata]].",
           "options": [
             "[[might|podríamos]]",
             "[[must|debemos]]"
@@ -613,7 +613,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Escoge la palabra correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[rest|descansar]] [[to|para]] [[recover|recuperarse]] [[from|de]] [[her|su]] [[illness|enfermedad]].",
+          "question": "[[She to recover from her illness|Ella]] _______ [[rest|descansar para recuperarse de su enfermedad]].",
           "options": [
             "[[must|debe]]",
             "[[can|puede]]"
@@ -639,7 +639,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[get|te]] [[tired|cansarás]] [[if|si]] [[you|tú]] [[work|trabajas]] [[too|demasiado]] [[much|mucho]].",
+          "question": "[[You tired if you work too much|Tú]] _______ [[get|te cansarás si tú trabajas demasiado mucho]].",
           "options": [
             "[[might|podrías]]",
             "[[should|deberías]]"
@@ -665,7 +665,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la palabra adecuada.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[attend|asistir]] [[the|al]] [[seminar|seminario]] [[if|si]] [[they|ellos]] [[register|se registran]] [[in|con]] [[advance|antelación]].",
+          "question": "[[They the seminar if they register in advance|Ellos]] _______ [[attend|asistir al seminario si ellos se registran con antelación]].",
           "options": [
             "[[can|pueden]]",
             "[[must|deben]]"
@@ -689,7 +689,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construir una oración",
       "instructions": "Organiza las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[feeling|sentirse]] [[unwell|mal]], [[she|ella]] [[can|puede]] [[still|todavía]] [[work|trabajar]] [[from|desde]] [[home|casa]].",
+      "correctSentence": "[[Despite feeling, she unwell can still work from home|A pesar de sentirse mal, ella puede todavía trabajar desde casa]].",
       "words": [
         "[[Despite|A pesar de]]",
         "[[unwell|mal]]",
@@ -717,7 +717,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construir una oración",
       "instructions": "Organiza las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[he|él]] [[is|está]] [[tired|cansado]], [[he|él]] [[must|debe]] [[attend|asistir]] [[the|la]] [[meeting|reunión]].",
+      "correctSentence": "[[Although he, he must is tired attend the meeting|Aunque él está cansado, él debe asistir la reunión]].",
       "words": [
         "[[Although|Aunque]]",
         "[[tired|cansado]]",
@@ -744,7 +744,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construir una oración",
       "instructions": "Organiza las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[might|podría]] [[have|tener]] [[allergies|alergias]] [[if|si]] [[she|ella]] [[sneezes|estornuda]] [[often|a menudo]].",
+      "correctSentence": "[[She might have allergies if she sneezes often|Ella podría tener alergias si ella estornuda a menudo]].",
       "words": [
         "[[often|a menudo]]",
         "[[allergies|alergias]]",
@@ -770,7 +770,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construir una oración",
       "instructions": "Organiza las palabras para formar una oración correcta.",
-      "correctSentence": "[[Even|Aunque]] [[though|si]] [[it|está]] [[is|tarde]], [[you|tú]] [[should|deberías]] [[eat|comer]] [[something|algo]] [[before|antes de]] [[bed|dormir]].",
+      "correctSentence": "[[Even though, you should it is eat something before bed|Aunque si está tarde, tú deberías comer algo antes de dormir]].",
       "words": [
         "[[should|deberías]]",
         "[[bed|dormir]]",
@@ -799,7 +799,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construir una oración",
       "instructions": "Organiza las palabras para formar una oración correcta.",
-      "correctSentence": "[[If|Si]] [[they|ellos]] [[exercise|hacen ejercicio]] [[regularly|regularmente]], [[they|ellos]] [[can|pueden]] [[improve|mejorar]] [[their|su]] [[health|salud]].",
+      "correctSentence": "[[If they, they can exercise regularly improve their health|Si ellos hacen ejercicio regularmente, ellos pueden mejorar su salud]].",
       "words": [
         "[[improve|mejorar]]",
         "[[exercise|hacen ejercicio]]",
@@ -828,7 +828,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[see|ver]] [[a|a]] [[doctor|médico]] [[if|si]] [[you|tú]] [[feel|sientes]] [[sick|enfermo]].",
+          "question": "[[You a doctor if you feel sick|Tú]] _______ [[see|ver a médico si tú sientes enfermo]].",
           "options": [
             "[[should|deberías]]",
             "[[can|puedes]]",
@@ -855,7 +855,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[go|ir]] [[for|a]] [[a|una]] [[run|carrera]] [[in|en]] [[the|la]] [[evening|noche]].",
+          "question": "[[We for a run in the evening|Nosotros]] _______ [[go|ir a una carrera en la noche]].",
           "options": [
             "[[might|podríamos]]",
             "[[must|debemos]]",
@@ -882,7 +882,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[swim|nadar]] [[very|muy]] [[well|bien]].",
+          "question": "[[They very well|Ellos]] _______ [[swim|nadar muy bien]].",
           "options": [
             "[[can|pueden]]",
             "[[might|podrían]]",
@@ -909,7 +909,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[not|no]] [[smoke|fumar]] [[in|en]] [[hospitals|hospitales]].",
+          "question": "[[You smoke in hospitals|Tú]] _______ [[not|no fumar en hospitales]].",
           "options": [
             "[[must|debes]]",
             "[[must not|no debes]]",
@@ -936,7 +936,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[try|intentar]] [[to|a]] [[exercise|ejercitarse]] [[more|más]] [[often|a menudo]].",
+          "question": "[[He to exercise more often|Él]] _______ [[try|intentar a ejercitarse más a menudo]].",
           "options": [
             "[[should|debería]]",
             "[[must|debe]]",
@@ -963,7 +963,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción adecuada.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[you|tú]] _______ [[feel|sientas]] [[tired|cansado]], [[you|tú]] [[should|deberías]] [[exercise|hacer ejercicio]] [[regularly|regularmente]].",
+          "question": "[[Although you, you should exercise regularly|Aunque tú]] _______ [[feel tired|sientas cansado, tú deberías hacer ejercicio regularmente]].",
           "options": [
             "[[might|podrías]]",
             "[[must|debes]]"
@@ -989,7 +989,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción que complete la oración correctamente.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[take|toma]] [[a|un]] [[break|descanso]] [[if|si]] [[you're|estás]] [[feeling|sintiendo]] [[stressed|estresado]].",
+          "question": "[[You a break if you're feeling stressed|Tú]] _______ [[take|toma un descanso si estás sintiendo estresado]].",
           "options": [
             "[[should|deberías]]",
             "[[can|puedes]]"
@@ -1015,7 +1015,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración seleccionando la respuesta correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[finish|terminar]] [[his|su]] [[work|trabajo]] [[quickly|rápidamente]] [[when|cuando]] [[he|él]] [[focuses|se enfoca]].",
+          "question": "[[He his work quickly when he focuses|Él]] _______ [[finish|terminar su trabajo rápidamente cuando él se enfoca]].",
           "options": [
             "[[can|puede]]",
             "[[should|debería]]"
@@ -1041,7 +1041,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la frase.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|el]] [[cold|frío]] [[weather|clima]], [[you|tú]] _______ [[go|ve]] [[for|a]] [[a|un]] [[walk|paseo]].",
+          "question": "[[Despite the, you for cold weather|A pesar de el frío clima, tú]] _______ [[go a walk|ve a un paseo]].",
           "options": [
             "[[should|deberías]]",
             "[[might|podrías]]"
@@ -1067,7 +1067,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Completa la siguiente oración escogiendo la opción correcta.",
       "questions": [
         {
-          "question": "[[If|Si]] [[you|tú]] _______ [[practice|practicas]] [[yoga|yoga]], [[you|tú]] _______ [[feel|sentirás]] [[more|más]] [[relaxed|relajado]].",
+          "question": "[[If you, you more relaxed|Si tú]] _______ [[practice yoga|practicas yoga, tú]] _______ [[feel|sentirás más relajado]].",
           "options": [
             "[[might|podrías]]",
             "[[should|deberías]]"
@@ -1091,7 +1091,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[You|Tú]] [[should|deberías]] [[exercise|ejercitarte]] [[at|al]] [[least|menos]] [[three|tres]] [[times|veces]] [[a|a]] [[week|la semana]] [[to|para]] [[stay|mantenerte]] [[healthy|saludable]].",
+      "correctSentence": "[[You should exercise at least three times a week to stay healthy|Tú deberías ejercitarte al menos tres veces a la semana para mantenerte saludable]].",
       "words": [
         "[[exercise|ejercitarte]]",
         "[[should|deberías]]",
@@ -1122,7 +1122,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[You|Tú]] [[might|podrías]] [[want|querer]] [[to|consultar]] [[consult|consultar]] [[a|a]] [[doctor|doctor]] [[if|si]] [[the|los]] [[symptoms|síntomas]] [[persist|persisten]].",
+      "correctSentence": "[[You might want to consult a doctor if the symptoms persist|Tú podrías querer consultar consultar a doctor si los síntomas persisten]].",
       "words": [
         "[[consult|consultar]]",
         "[[You|Tú]]",
@@ -1152,7 +1152,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[being|estar]] [[busy|ocupada]], [[she|ella]] [[can|puede]] [[always|siempre]] [[find|encontrar]] [[time|tiempo]] [[for|para]] [[meditation|la meditación]].",
+      "correctSentence": "[[Despite being, she busy can always find time for meditation|A pesar de estar ocupada, ella puede siempre encontrar tiempo para la meditación]].",
       "words": [
         "[[being|estar]]",
         "[[always|siempre]]",
@@ -1181,7 +1181,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[it's|está]] [[raining|lloviendo]], [[you|tú]] [[can|puedes]] [[still|aún]] [[go|ir]] [[for|a]] [[a|un]] [[walk|paseo]] [[if|si]] [[you|tú]] [[wear|usas]] [[a|un]] [[raincoat|impermeable]].",
+      "correctSentence": "[[Although it's, you raining can still go for a walk if you wear a raincoat|Aunque está lloviendo, tú puedes aún ir a un paseo si tú usas un impermeable]].",
       "words": [
         "[[Although|Aunque]]",
         "[[a|un]]",
@@ -1215,7 +1215,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[To|Para]] [[achieve|lograr]] [[work-life|equilibrio]] [[balance|vida]], [[one|uno]] [[must|debe]] [[prioritize|priorizar]] [[tasks|tareas]] [[effectively|efectivamente]].",
+      "correctSentence": "[[To achieve, one must work-life balance prioritize tasks effectively|Para lograr equilibrio vida, uno debe priorizar tareas efectivamente]].",
       "words": [
         "[[must|debe]]",
         "[[one|uno]]",
@@ -1245,7 +1245,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[he|él]] [[can|puede]] [[run|correr]] [[fast|rápido]], [[he|él]] _______ [[not|no]] [[participate|participar]] [[in|en]] [[the|la]] [[race|carrera]] [[due|debido]] [[to|a]] [[his|su]] [[injury|lesión]].",
+          "question": "[[Although he, he can run fast participate in the injury|Aunque él puede correr rápido, él]] _______ [[not race due to his|no participar en la carrera debido a su lesión]].",
           "options": [
             "[[should|debería]]",
             "[[must|debe]]",
@@ -1272,7 +1272,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción adecuada para completar el sentido de posibilidad.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[be|puede]] [[able|capaz]] [[to|de]] [[attend|asistir]] [[the|a]] [[meeting|la reunión]] [[later|después]] [[if|si]] [[her|su]] [[schedule|horario]] [[allows|lo permite]].",
+          "question": "[[She able to attend the meeting later if her schedule allows|Ella]] _______ [[be|puede capaz de asistir a la reunión después si su horario lo permite]].",
           "options": [
             "[[might|podría]]",
             "[[should|debería]]",
@@ -1299,7 +1299,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción que expresa obligación o necesidad.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[stop|debes]] [[smoking|fumar]] [[if|si]] [[you|quieres]] [[want|mejorar]] [[to|tu]] [[improve|salud]].",
+          "question": "[[You smoking if you want to improve|Tú]] _______ [[stop|debes fumar si quieres mejorar tu salud]].",
           "options": [
             "[[must|debes]]",
             "[[may|puedes]]",
@@ -1326,7 +1326,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Escoge la mejor opción para indicar capacidad en el contexto dado.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[her|su]] [[busy|ocupada]] [[schedule|agenda]], [[she|ella]] _______ [[still|aún]] [[make|puede]] [[time|hacer tiempo]] [[for|para]] [[exercise|ejercicio]].",
+          "question": "[[Despite her, she make busy schedule exercise|A pesar de su ocupada agenda, ella]] _______ [[still time for|aún puede hacer tiempo para ejercicio]].",
           "options": [
             "[[can|puede]]",
             "[[might|podría]]",
@@ -1353,7 +1353,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción que indique un consejo adecuado.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[to|debe]] [[reduce|reducir]] [[his|su]] [[sugar|consumo de azúcar]] [[intake|para]] [[to|mantener]] [[maintain|una]] [[a|dieta]] [[balanced|equilibrada]].",
+          "question": "[[He reduce his sugar intake to maintain a balanced|Él]] _______ [[to|debe reducir su consumo de azúcar para mantener una dieta equilibrada]].",
           "options": [
             "[[ought|debería]]",
             "[[can|puede]]",

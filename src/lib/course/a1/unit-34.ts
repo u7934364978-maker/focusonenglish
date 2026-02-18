@@ -13,7 +13,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[like|gustar/como]] [[coffee|coffee]] ([[y|y]]) _______ [[tea|tea]].",
+          "question": "[[I like coffee|Yo gustar/como coffee]] ([[y|y]]) _______ [[tea|tea]].",
           "options": [
             "[[and|and]]",
             "[[is|es/está]]",
@@ -39,7 +39,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[want|querer]] [[to|a/para]] [[go|ir]] ([[pero|pero]]) _______ [[I|Yo]] [[am|soy/estoy]] [[tired|cansado]].",
+          "question": "[[I want to go|Yo querer a/para ir]] ([[pero am tired|pero]]) _______ [[I|Yo soy/estoy cansado]].",
           "options": [
             "[[but|but]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|soy/estoy]] [[happy|feliz]] ([[porque|porque]]) _______ [[it|eso]] [[is|es/está]] [[Friday|Friday]].",
+          "question": "[[I am happy is|Yo soy/estoy feliz]] ([[porque Friday|porque]]) _______ [[it|eso es/está Friday]].",
           "options": [
             "[[because|because]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Do|Hacer]] [[you|tú/usted]] [[want|querer]] [[juice|juice]] ([[o|o]]) _______ [[water|agua]]?",
+          "question": "[[Do you want juice|Hacer tú/usted querer juice]] ([[o|o]]) _______ [[water|agua]]?",
           "options": [
             "[[or|or]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[can|poder]] [[speak|hablar]] [[English|English]] [[and|and]] [[Spanish|Spanish]].",
+      "correctSentence": "[[I can speak English and Spanish|Yo poder hablar English and Spanish]].",
       "words": [
         "[[I|Yo]]",
         "[[Spanish|Spanish]].",
@@ -139,7 +139,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[tall|alto]] [[but|but]] [[his|su (de él)]] [[brother|hermano]] [[is|es/está]] [[short|bajo/corto]].",
+      "correctSentence": "[[He is tall but his brother is short|Él es/está alto but su (de él) hermano es/está bajo/corto]].",
       "words": [
         "[[brother|hermano]]",
         "[[but|but]]",
@@ -165,7 +165,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[studying|studying]] [[because|because]] [[I|Yo]] [[have|tener/haber]] [[a|un/una]] [[test|test]].",
+      "correctSentence": "[[I am studying because I have a test|Yo soy/estoy studying because Yo tener/haber un/una test]].",
       "words": [
         "[[I|Yo]]",
         "[[because|because]]",
@@ -191,7 +191,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[likes|likes]] [[music|music]] [[and|and]] [[she|ella]] [[can|poder]] [[dance|dance]].",
+      "correctSentence": "[[She likes music and she can dance|Ella likes music and ella poder dance]].",
       "words": [
         "[[She|Ella]]",
         "[[and|and]]",
@@ -216,7 +216,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[tired|cansado]] [[so|tan/así que]] [[I|Yo]] [[am|soy/estoy]] [[going|going]] [[to|a/para]] [[bed|cama]].",
+      "correctSentence": "[[I am tired so I am going to bed|Yo soy/estoy cansado tan/así que Yo soy/estoy going a/para cama]].",
       "words": [
         "[[I|Yo]]",
         "[[tired|cansado]]",

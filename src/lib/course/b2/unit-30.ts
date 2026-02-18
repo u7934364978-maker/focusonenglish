@@ -12,7 +12,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Infraestructura futura",
       "instructions": "Ordena las palabras usando el futuro perfecto.",
-      "correctSentence": "[[By|Para]] [[next|el]] [[year,|próximo año,]] [[they|habrán]] [[will|completado]] [[have|el]] [[completed|nuevo]] [[the|proyecto]] [[new|de]] [[infrastructure|infraestructura.]] [[project.|]]",
+      "correctSentence": "[[By next year, they will have completed the new infrastructure project.|Para el próximo año, habrán completado el nuevo proyecto de infraestructura. ]]",
       "words": [
         "[[next|el]]",
         "[[project.|]]",
@@ -42,7 +42,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hacia la cumbre",
       "instructions": "Ordena las palabras usando el futuro continuo.",
-      "correctSentence": "[[At|A]] [[this|esta]] [[time|hora]] [[tomorrow,|mañana,]] [[I|estaré]] [[will|volando]] [[be|a]] [[flying|la]] [[to|cumbre]] [[the|internacional.]] [[international|]] [[summit.|]]",
+      "correctSentence": "[[At this time tomorrow, I will be flying to the international summit.|A esta hora mañana, estaré volando a la cumbre internacional.  ]]",
       "words": [
         "[[time|hora]]",
         "[[summit.|]]",
@@ -73,7 +73,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Desarrollo sostenible",
       "instructions": "Ordena las palabras sobre ecología.",
-      "correctSentence": "[[Sustainable|El desarrollo]] [[development|sostenible]] [[is|es]] [[crucial|crucial]] [[for|para]] [[the|la]] [[survival|supervivencia]] [[of|de]] [[our|nuestro]] [[planet.|planeta.]]",
+      "correctSentence": "[[Sustainable development is crucial for the survival of our planet.|El desarrollo sostenible es crucial para la supervivencia de nuestro planeta.]]",
       "words": [
         "[[development|sostenible]]",
         "[[planet.|planeta.]]",
@@ -102,7 +102,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Iba a llamarte",
       "instructions": "Ordena las palabras usando el futuro en el pasado.",
-      "correctSentence": "[[I|Iba]] [[was|a]] [[going|llamarte,]] [[to|pero]] [[call|la]] [[you,|batería]] [[but|de]] [[my|mi]] [[phone|teléfono]] [[battery|se]] [[died.|agotó.]]",
+      "correctSentence": "[[I was going to call you, but my phone battery died.|Iba a llamarte, pero la batería de mi teléfono se agotó.]]",
       "words": [
         "[[was|a]]",
         "[[died.|agotó.]]",
@@ -132,7 +132,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Energía renovable",
       "instructions": "Ordena las palabras sobre tendencias energéticas.",
-      "correctSentence": "[[Renewable|Las fuentes]] [[energy|de]] [[sources|energía]] [[will|renovables]] [[have|habrán]] [[replaced|reemplazado]] [[fossil|a los]] [[fuels|combustibles]] [[by|fósiles]] [[2050.|para 2050.]]",
+      "correctSentence": "[[Renewable energy sources will have replaced fossil fuels by 2050.|Las fuentes de energía renovables habrán reemplazado a los combustibles fósiles para 2050.]]",
       "words": [
         "[[energy|de]]",
         "[[2050.|para 2050.]]",
@@ -161,7 +161,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Avance médico",
       "instructions": "Ordena las palabras usando 'about to' para futuro inmediato.",
-      "correctSentence": "[[Scientists|Los científicos]] [[are|están]] [[about|a]] [[to|punto]] [[discover|de]] [[a|descubrir]] [[breakthrough|un]] [[in|avance]] [[medical|en]] [[technology.|tecnología médica.]]",
+      "correctSentence": "[[Scientists are about to discover a breakthrough in medical technology.|Los científicos están a punto de descubrir un avance en tecnología médica.]]",
       "words": [
         "[[about|a]]",
         "[[technology.|tecnología médica.]]",
@@ -190,7 +190,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Desafíos globales",
       "instructions": "Ordena las palabras sobre problemas sociales.",
-      "correctSentence": "[[Poverty|La pobreza]] [[and|y]] [[inequality|la desigualdad]] [[remain|siguen]] [[major|siendo]] [[challenges|grandes]] [[for|desafíos]] [[many|para]] [[developing|muchas]] [[nations.|naciones en desarrollo.]]",
+      "correctSentence": "[[Poverty and inequality remain major challenges for many developing nations.|La pobreza y la desigualdad siguen siendo grandes desafíos para muchas naciones en desarrollo.]]",
       "words": [
         "[[inequality|la desigualdad]]",
         "[[nations.|naciones en desarrollo.]]",
@@ -219,7 +219,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Fecha límite",
       "instructions": "Ordena las palabras para formar una pregunta en futuro perfecto.",
-      "correctSentence": "[[Will|¿Habrás]] [[you|terminado]] [[have|el]] [[finished|informe]] [[the|antes]] [[report|de]] [[before|la]] [[the|fecha]] [[deadline?|límite?]]",
+      "correctSentence": "[[Will you have finished the report before the deadline?|¿Habrás terminado el informe antes de la fecha límite?]]",
       "words": [
         "[[have|el]]",
         "[[deadline?|límite?]]",
@@ -247,7 +247,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "IA y empleo",
       "instructions": "Ordena las palabras sobre tecnología y trabajo.",
-      "correctSentence": "[[Artificial|Se espera]] [[intelligence|que la]] [[is|inteligencia]] [[expected|artificial]] [[to|revolucione]] [[revolutionize|el]] [[the|mercado]] [[labor|laboral.]] [[market.|]]",
+      "correctSentence": "[[Artificial intelligence is expected to revolutionize the labor market.|Se espera que la inteligencia artificial revolucione el mercado laboral. ]]",
       "words": [
         "[[is|inteligencia]]",
         "[[market.|]]",
@@ -275,7 +275,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Crisis climática",
       "instructions": "Ordena las palabras usando el futuro continuo.",
-      "correctSentence": "[[They|Estarán]] [[will|debatiendo]] [[be|la]] [[discussing|crisis]] [[the|climática]] [[climate|en]] [[crisis|la]] [[at|conferencia.]] [[the|]] [[conference.|]]",
+      "correctSentence": "[[They will be discussing the climate crisis at the conference.|Estarán debatiendo la crisis climática en la conferencia.  ]]",
       "words": [
         "[[will|debatiendo]]",
         "[[conference.|]]",
@@ -304,7 +304,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Digitalización",
       "instructions": "Ordena las palabras sobre transformación digital.",
-      "correctSentence": "[[Digitalization|La digitalización]] [[is|está]] [[transforming|transformando]] [[how|cómo]] [[we|nos]] [[communicate|comunicamos]] [[and|y]] [[do|hacemos]] [[business.|negocios.]]",
+      "correctSentence": "[[Digitalization is transforming how we communicate and do business.|La digitalización está transformando cómo nos comunicamos y hacemos negocios.]]",
       "words": [
         "[[transforming|transformando]]",
         "[[business.|negocios.]]",
@@ -332,7 +332,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "A punto de salir",
       "instructions": "Ordena las palabras usando 'about to' en pasado.",
-      "correctSentence": "[[She|Ella]] [[was|estaba]] [[about|a]] [[to|punto]] [[leave|de]] [[when|irse]] [[the|cuando]] [[emergency|sonó]] [[alarm|la]] [[sounded.|alarma de emergencia.]]",
+      "correctSentence": "[[She was about to leave when the emergency alarm sounded.|Ella estaba a punto de irse cuando sonó la alarma de emergencia.]]",
       "words": [
         "[[about|a]]",
         "[[sounded.|alarma de emergencia.]]",
@@ -361,7 +361,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Calentamiento global",
       "instructions": "Ordena las palabras sobre el cambio climático.",
-      "correctSentence": "[[Global|El calentamiento]] [[warming|global]] [[is|está]] [[causing|haciendo]] [[sea|que]] [[levels|los niveles]] [[to|del]] [[rise|mar]] [[at|suban]] [[an|a]] [[alarming|un]] [[rate.|ritmo alarmante.]]",
+      "correctSentence": "[[Global warming is causing sea levels to rise at an alarming rate.|El calentamiento global está haciendo que los niveles del mar suban a un ritmo alarmante.]]",
       "words": [
         "[[warming|global]]",
         "[[rate.|ritmo alarmante.]]",
@@ -392,7 +392,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Metas de la década",
       "instructions": "Ordena las palabras usando el futuro perfecto.",
-      "correctSentence": "[[By|Para]] [[the|final]] [[end|de]] [[of|la]] [[the|década,]] [[decade,|habremos]] [[we|alcanzado]] [[will|nuestras]] [[have|metas.]] [[reached|]] [[our|]] [[goals.|]]",
+      "correctSentence": "[[By the end of the decade, we will have reached our goals.|Para final de la década, habremos alcanzado nuestras metas.   ]]",
       "words": [
         "[[end|de]]",
         "[[goals.|]]",
@@ -423,7 +423,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ayuda humanitaria",
       "instructions": "Ordena las palabras sobre cooperación internacional.",
-      "correctSentence": "[[Humanitarian|La ayuda]] [[aid|humanitaria]] [[is|es]] [[essential|esencial]] [[for|para]] [[regions|las regiones]] [[affected|afectadas]] [[by|por]] [[conflict.|el conflicto.]]",
+      "correctSentence": "[[Humanitarian aid is essential for regions affected by conflict.|La ayuda humanitaria es esencial para las regiones afectadas por el conflicto.]]",
       "words": [
         "[[aid|humanitaria]]",
         "[[conflict.|el conflicto.]]",
@@ -451,7 +451,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Invitados de verano",
       "instructions": "Ordena las palabras para formar una pregunta en futuro continuo.",
-      "correctSentence": "[[Will|¿Se]] [[they|quedarán]] [[be|con]] [[staying|nosotros]] [[with|durante]] [[us|las]] [[during|vacaciones]] [[the|de]] [[summer|verano?]] [[holidays?|]]",
+      "correctSentence": "[[Will they be staying with us during the summer holidays?|¿Se quedarán con nosotros durante las vacaciones de verano? ]]",
       "words": [
         "[[be|con]]",
         "[[holidays?|]]",
@@ -480,7 +480,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Conservación",
       "instructions": "Ordena las palabras sobre el futuro ecológico.",
-      "correctSentence": "[[Environmental|La conservación]] [[conservation|ambiental]] [[is|es]] [[a|una]] [[priority|prioridad]] [[for|para]] [[the|la]] [[next|próxima]] [[generation.|generación.]]",
+      "correctSentence": "[[Environmental conservation is a priority for the next generation.|La conservación ambiental es una prioridad para la próxima generación.]]",
       "words": [
         "[[conservation|ambiental]]",
         "[[generation.|generación.]]",
@@ -508,7 +508,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Viaje cancelado",
       "instructions": "Ordena las palabras usando el futuro en el pasado.",
-      "correctSentence": "[[We|Íbamos]] [[were|a]] [[going|viajar,]] [[to|pero]] [[travel,|los]] [[but|vuelos]] [[the|fueron]] [[flights|cancelados.]] [[were|]] [[canceled.|]]",
+      "correctSentence": "[[We were going to travel, but the flights were canceled.|Íbamos a viajar, pero los vuelos fueron cancelados.  ]]",
       "words": [
         "[[were|a]]",
         "[[canceled.|]]",
@@ -537,7 +537,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Innovación",
       "instructions": "Ordena las palabras sobre soluciones futuras.",
-      "correctSentence": "[[Innovation|La innovación]] [[is|es]] [[the|la]] [[key|clave]] [[to|para]] [[solving|resolver]] [[complex|problemas]] [[global|globales]] [[problems.|complejos.]]",
+      "correctSentence": "[[Innovation is the key to solving complex global problems.|La innovación es la clave para resolver problemas globales complejos.]]",
       "words": [
         "[[key|clave]]",
         "[[problems.|complejos.]]",
@@ -565,7 +565,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Jornada laboral",
       "instructions": "Ordena las palabras usando el futuro perfecto continuo.",
-      "correctSentence": "[[By|Para]] [[5|las]] [[PM,|cinco,]] [[I|habré]] [[will|estado]] [[have|trabajando]] [[been|durante]] [[working|ocho]] [[for|horas.]] [[eight|]] [[hours.|]]",
+      "correctSentence": "[[By 5 PM, I will have been working for eight hours.|Para las cinco, habré estado trabajando durante ocho horas.  ]]",
       "words": [
         "[[PM,|cinco,]]",
         "[[hours.|]]",
@@ -595,7 +595,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ciberseguridad",
       "instructions": "Ordena las palabras sobre seguridad digital.",
-      "correctSentence": "[[Cybersecurity|La ciberseguridad]] [[is|se]] [[becoming|está]] [[increasingly|volviendo]] [[important|cada vez más]] [[in|importante]] [[our|en]] [[digital|nuestro]] [[world.|mundo digital.]]",
+      "correctSentence": "[[Cybersecurity is becoming increasingly important in our digital world.|La ciberseguridad se está volviendo cada vez más importante en nuestro mundo digital.]]",
       "words": [
         "[[becoming|está]]",
         "[[world.|mundo digital.]]",
@@ -623,7 +623,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Horario de trenes",
       "instructions": "Ordena las palabras usando 'due to' para futuro programado.",
-      "correctSentence": "[[The|Está]] [[train|previsto]] [[is|que]] [[due|el]] [[to|tren]] [[arrive|llegue]] [[at|al]] [[noon|mediodía]] [[according|según]] [[to|el]] [[the|horario.]] [[schedule.|]]",
+      "correctSentence": "[[The train is due to arrive at noon according to the schedule.|Está previsto que el tren llegue al mediodía según el horario. ]]",
       "words": [
         "[[due|el]]",
         "[[schedule.|]]",
@@ -653,7 +653,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Globalización",
       "instructions": "Ordena las palabras sobre economía global.",
-      "correctSentence": "[[Globalization|La globalización]] [[facilitates|facilita]] [[the|el]] [[exchange|intercambio]] [[of|de]] [[ideas|ideas]] [[and|y]] [[products|productos]] [[worldwide.|en todo el mundo.]]",
+      "correctSentence": "[[Globalization facilitates the exchange of ideas and products worldwide.|La globalización facilita el intercambio de ideas y productos en todo el mundo.]]",
       "words": [
         "[[facilitates|facilita]]",
         "[[worldwide.|en todo el mundo.]]",
@@ -681,7 +681,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Planes para la próxima semana",
       "instructions": "Ordena las palabras para preguntar por el futuro continuo.",
-      "correctSentence": "[[What|¿Qué]] [[will|estarás]] [[you|haciendo]] [[be|a]] [[doing|esta]] [[this|hora]] [[time|la]] [[next|próxima]] [[week?|semana?]]",
+      "correctSentence": "[[What will you be doing this time next week?|¿Qué estarás haciendo a esta hora la próxima semana?]]",
       "words": [
         "[[be|a]]",
         "[[week?|semana?]]",
@@ -709,7 +709,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Recursos naturales",
       "instructions": "Ordena las palabras sobre sostenibilidad.",
-      "correctSentence": "[[Renewable|Los recursos]] [[resources|renovables]] [[can|pueden]] [[be|reponerse]] [[replenished|naturalmente]] [[naturally|con]] [[over|el]] [[time.|tiempo.]]",
+      "correctSentence": "[[Renewable resources can be replenished naturally over time.|Los recursos renovables pueden reponerse naturalmente con el tiempo.]]",
       "words": [
         "[[be|reponerse]]",
         "[[time.|tiempo.]]",

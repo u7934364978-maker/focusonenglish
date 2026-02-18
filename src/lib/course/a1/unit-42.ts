@@ -13,7 +13,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[go|ir]] [[to|a/para]] [[work|trabajo/trabajar]] ([[en|en]]) _______ [[bus|bus]].",
+          "question": "[[I go to work|Yo ir a/para trabajo/trabajar]] ([[en|en]]) _______ [[bus|bus]].",
           "options": [
             "[[by|por]]",
             "[[is|es/está]]",
@@ -39,7 +39,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[train|train]] ([[llegar|llegar]]) _______ [[at|en]] [[9|9]] [[AM|Soy/estoy]].",
+          "question": "[[The train AM|El/la/los/las train]] ([[llegar 9|llegar]]) _______ [[at|en 9 Soy/estoy]].",
           "options": [
             "[[is|es/está]]",
             "[[are|son/están]]",
@@ -65,7 +65,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[conducir|conducir]]) _______ [[a|un/una]] [[car|coche]].",
+          "question": "[[I car|Yo]] ([[conducir|conducir]]) _______ [[a|un/una coche]].",
           "options": [
             "[[drive|drive]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[montar|montar]]) _______ [[a|un/una]] [[bicycle|bicycle]].",
+          "question": "[[She bicycle|Ella]] ([[montar|montar]]) _______ [[a|un/una bicycle]].",
           "options": [
             "[[rides|rides]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[train|train]] [[is|es/está]] [[faster|faster]] [[than|que (comparativo)]] [[the|el/la/los/las]] [[bus|bus]].",
+      "correctSentence": "[[The train is faster than the bus|El/la/los/las train es/está faster que (comparativo) el/la/los/las bus]].",
       "words": [
         "[[bus|bus]].",
         "[[than|que (comparativo)]]",
@@ -140,7 +140,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[don't|no]] [[like|gustar/como]] [[flying|flying]] [[by|por]] [[plane|plane]].",
+      "correctSentence": "[[I don't like flying by plane|Yo no gustar/como flying por plane]].",
       "words": [
         "[[I|Yo]]",
         "[[plane|plane]].",
@@ -164,7 +164,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[rides|rides]] [[a|un/una]] [[motorbike|motorbike]] [[to|a/para]] [[work|trabajo/trabajar]].",
+      "correctSentence": "[[He rides a motorbike to work|Él rides un/una motorbike a/para trabajo/trabajar]].",
       "words": [
         "[[rides|rides]]",
         "[[to|a/para]]",
@@ -188,7 +188,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Let's|Let's]] [[take|tomar/llevar]] [[a|un/una]] [[taxi|taxi]].",
+      "correctSentence": "[[Let's take a taxi|Let's tomar/llevar un/una taxi]].",
       "words": [
         "[[a|un/una]]",
         "[[take|tomar/llevar]]",
@@ -210,7 +210,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[boat|boat]] [[is|es/está]] [[in|en]] [[the|el/la/los/las]] [[harbor|harbor]].",
+      "correctSentence": "[[The boat is in the harbor|El/la/los/las boat es/está en el/la/los/las harbor]].",
       "words": [
         "[[the|el/la/los/las]]",
         "[[in|en]]",

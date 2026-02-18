@@ -14,7 +14,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[decided|decidió]] _______ [[the|la]] [[job|oferta]] [[offer|de trabajo]].",
+          "question": "[[She decided offer|Ella decidió]] _______ [[the job|la oferta de trabajo]].",
           "options": [
             "[[accepting|aceptar]]",
             "[[to accept|aceptar]]",
@@ -41,7 +41,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[He|Él]] [[enjoys|disfruta]] _______ [[in|en]] [[a|un]] [[team|equipo]] [[environment|ambiente]].",
+          "question": "[[He enjoys team environment|Él disfruta]] _______ [[in a|en un equipo ambiente]].",
           "options": [
             "[[to work|trabajar]]",
             "[[working|trabajando]]",
@@ -68,7 +68,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[his|sus]] [[efforts|esfuerzos]], [[he|él]] _______ [[to meet|cumplir]] [[the|el]] [[deadline|plazo]].",
+          "question": "[[Despite his, he efforts the|A pesar de sus esfuerzos, él]] _______ [[to meet deadline|cumplir el plazo]].",
           "options": [
             "[[failed|fracasó]]",
             "[[failed to|falló en]]",
@@ -95,7 +95,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[considered|consideró]] _______ [[her|su]] [[career|carrera]] [[path|profesional]].",
+          "question": "[[She considered path|Ella consideró]] _______ [[her career|su carrera profesional]].",
           "options": [
             "[[to change|cambiar]]",
             "[[change|cambio]]",
@@ -122,7 +122,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[need|necesitan]] _______ [[their|su]] [[work-life|trabajo-vida]] [[balance|equilibrio]].",
+          "question": "[[They need balance|Ellos necesitan]] _______ [[their work-life|su trabajo-vida equilibrio]].",
           "options": [
             "[[improving|mejorando]]",
             "[[to improve|mejorar]]",
@@ -149,7 +149,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la forma correcta del verbo (gerundio o infinitivo).",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[_______|_______]] [[to|a]] [[leave|dejar]] [[early|temprano]], [[she|ella]] [[decided|decidió]] [[to|a]] [[stay|quedarse]] [[until|hasta]] [[the|que]] [[meeting|la reunión]] [[ended|terminara]].",
+          "question": "[[Despite _______, she to leave early decided to stay until the meeting ended|A pesar de _______ a dejar temprano, ella decidió a quedarse hasta que la reunión terminara]].",
           "options": [
             "[[wanting|querer]]",
             "[[to want|querer]]"
@@ -175,7 +175,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración usando la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[plan|planean]] [[_______|_______]] [[the|la]] [[conference|conferencia]] [[in|para]] [[order|orden]] [[to|de]] [[learn|aprender]] [[more|más]] [[about|sobre]] [[the|la]] [[industry|industria]].",
+          "question": "[[They plan _______ the conference in order to learn more about the industry|Ellos planean _______ la conferencia para orden de aprender más sobre la industria]].",
           "options": [
             "[[attend|asistir]]",
             "[[attending|asistiendo]]"
@@ -201,7 +201,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Rellena el espacio en blanco con la forma correcta del verbo según su uso habitual.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[avoids|evita]] [[_______|_______]] [[during|durante]] [[meetings|las reuniones]] [[because|porque]] [[she|ella]] [[is|es]] [[shy|tímida]].",
+          "question": "[[She avoids _______ during meetings because she is shy|Ella evita _______ durante las reuniones porque ella es tímida]].",
           "options": [
             "[[speaking|hablar]]",
             "[[speak|hablar]]"
@@ -227,7 +227,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[He|Él]] [[promised|prometió]] [[_______|_______]] [[the|el]] [[report|informe]] [[by|para]] [[Monday|lunes]].",
+          "question": "[[He promised _______ the report by Monday|Él prometió _______ el informe para lunes]].",
           "options": [
             "[[to finish|terminar]]",
             "[[finishing|terminando]]"
@@ -253,7 +253,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma adecuada del verbo para completar la oración.",
       "questions": [
         {
-          "question": "[[It's|Es]] [[important|importante]] [[_______|_______]] [[your|tu]] [[time|tiempo]] [[effectively|eficazmente]] [[in|en]] [[the|el]] [[workplace|lugar de trabajo]].",
+          "question": "[[It's important _______ your time effectively in the workplace|Es importante _______ tu tiempo eficazmente en el lugar de trabajo]].",
           "options": [
             "[[to manage|gestionar]]",
             "[[managing|gestionando]]"
@@ -277,7 +277,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[decided|decidió]] [[to|a]] [[accept|aceptar]] [[the|la]] [[job|oferta]] [[offer|de empleo]] [[despite|a pesar de]] [[the|el]] [[low|bajo]] [[salary|sueldo]].",
+      "correctSentence": "[[She decided to accept the job offer despite the low salary|Ella decidió a aceptar la oferta de empleo a pesar de el bajo sueldo]].",
       "words": [
         "[[to|a]]",
         "[[salary|sueldo]]",
@@ -307,7 +307,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[avoided|evitó]] [[making|hacer]] [[eye|contacto]] [[contact|visual]] [[during|durante]] [[the|la]] [[meeting|reunión]].",
+      "correctSentence": "[[He avoided making eye contact during the meeting|Él evitó hacer contacto visual durante la reunión]].",
       "words": [
         "[[eye|contacto]]",
         "[[contact|visual]]",
@@ -334,7 +334,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[remembered|recordó]] [[to|de]] [[submit|entregar]] [[the|el]] [[report|informe]] [[on|a]] [[time|tiempo]].",
+      "correctSentence": "[[She remembered to submit the report on time|Ella recordó de entregar el informe a tiempo]].",
       "words": [
         "[[the|el]]",
         "[[time|tiempo]]",
@@ -361,7 +361,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[After|Después de]] [[graduating|graduarse]], [[he|él]] [[started|comenzó]] [[working|a trabajar]] [[at|en]] [[a|una]] [[new|nueva]] [[company|empresa]].",
+      "correctSentence": "[[After graduating, he started working at a new company|Después de graduarse, él comenzó a trabajar en una nueva empresa]].",
       "words": [
         "[[at|en]]",
         "[[new|nueva]]",
@@ -389,7 +389,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[tired|cansada]], [[she|ella]] [[managed|logró]] [[to|a]] [[finish|terminar]] [[the|el]] [[project|proyecto]].",
+      "correctSentence": "[[Although tired, she managed to finish the project|Aunque cansada, ella logró a terminar el proyecto]].",
       "words": [
         "[[finish|terminar]]",
         "[[managed|logró]]",
@@ -418,7 +418,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la forma correcta del verbo para completar la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[enjoys|disfruta]] _______ [[with|con]] [[international|internacionales]] [[clients|clientes]].",
+          "question": "[[She enjoys clients|Ella disfruta]] _______ [[with international|con internacionales clientes]].",
           "options": [
             "[[working|trabajar]]",
             "[[to work|trabajar]]"
@@ -444,7 +444,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la frase.",
       "questions": [
         {
-          "question": "[[He|Él]] [[decided|decidió]] _______ [[from|de]] [[his|su]] [[position|puesto]].",
+          "question": "[[He decided position|Él decidió]] _______ [[from his|de su puesto]].",
           "options": [
             "[[resigning|renunciar]]",
             "[[to resign|renunciar]]"
@@ -470,7 +470,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Indica la forma correcta del verbo en la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[promised|prometieron]] _______ [[the|el]] [[project|proyecto]] [[on|a]] [[time|tiempo]].",
+          "question": "[[They promised on time|Ellos prometieron]] _______ [[the project|el proyecto a tiempo]].",
           "options": [
             "[[finishing|terminar]]",
             "[[to finish|terminar]]"
@@ -496,7 +496,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración eligiendo el verbo correcto.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[considered|consideramos]] _______ [[our|nuestro]] [[supplier|proveedor]].",
+          "question": "[[We considered|Nosotros consideramos]] _______ [[our supplier|nuestro proveedor]].",
           "options": [
             "[[to change|cambiar]]",
             "[[changing|cambiar]]"
@@ -522,7 +522,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción adecuada para completar la oración.",
       "questions": [
         {
-          "question": "[[The|El]] [[manager|gerente]] _______ [[to meet|a reunirse]] [[the|con el]] [[team|equipo]] [[tomorrow|mañana]].",
+          "question": "[[The manager team tomorrow|El gerente]] _______ [[to meet the|a reunirse con el equipo mañana]].",
           "options": [
             "[[agreed|acordó]]",
             "[[agreeing|acordar]]"
@@ -548,7 +548,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[decided|decidí]] _______ [[for|por]] [[the|el]] [[new|nuevo]] [[position|puesto]].",
+          "question": "[[I decided new position|Yo decidí]] _______ [[for the|por el nuevo puesto]].",
           "options": [
             "[[to apply|aplicar]]",
             "[[applying|aplicando]]"
@@ -574,7 +574,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[I|yo]] [[love|amo]] _______ [[I|yo]] [[must|debo]] [[finish|terminar]] [[this|este]] [[project|proyecto]].",
+          "question": "[[Although I love must project|Aunque yo amo]] _______ [[I finish this|yo debo terminar este proyecto]].",
           "options": [
             "[[to travel|viajar]]",
             "[[travelling|viajando]]"
@@ -600,7 +600,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[manager|gerente]] [[suggested|sugirió]] _______ [[all|todas]] [[options|opciones]] [[before|antes de]] [[deciding|decidir]].",
+          "question": "[[My manager suggested options|Mi gerente sugirió]] _______ [[all before deciding|todas opciones antes de decidir]].",
           "options": [
             "[[considering|considerar]]",
             "[[to consider|considerar]]"
@@ -626,7 +626,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[are|estamos]] [[planning|planeando]] _______ [[our|nuestro]] [[business|negocio]] [[next|próximo]] [[year|año]].",
+          "question": "[[We are planning business|Nosotros estamos planeando]] _______ [[our next year|nuestro negocio próximo año]].",
           "options": [
             "[[to expand|expandir]]",
             "[[expanding|expandiendo]]"
@@ -652,7 +652,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[He|Él]] [[risks|arriesga]] _______ [[his|su]] [[job|trabajo]] [[if|si]] [[he|él]] [[continues|continúa]] [[to be|llegar]] [[late|tarde]].",
+          "question": "[[He risks if he continues to be late|Él arriesga]] _______ [[his job|su trabajo si él continúa llegar tarde]].",
           "options": [
             "[[losing|perder]]",
             "[[to lose|perder]]"
@@ -676,7 +676,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[After|Después]] [[considering|de considerar]] [[the|las]] [[options|opciones]], [[he|él]] [[decided|decidió]] [[to|aceptar]] [[accept|la]] [[the|oferta]].",
+      "correctSentence": "[[After considering, he decided the options to accept the|Después de considerar las opciones, él decidió aceptar la oferta]].",
       "words": [
         "[[the|las]]",
         "[[options|opciones]]",
@@ -704,7 +704,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[postponed|pospuso]] [[attending|asistir]] [[the|a la]] [[conference|conferencia]] [[due|debido]] [[to|a]] [[personal|razones]] [[reasons|personales]].",
+      "correctSentence": "[[She postponed attending the conference due to personal reasons|Ella pospuso asistir a la conferencia debido a razones personales]].",
       "words": [
         "[[attending|asistir]]",
         "[[personal|razones]]",
@@ -732,7 +732,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[he|él]] [[tried|intentó]] [[to|terminar]] [[finish|el]] [[the|proyecto]] [[project|temprano]], [[he|él]] [[needed|necesitó]] [[more|más]] [[time|tiempo]].",
+      "correctSentence": "[[Although he, he tried to finish the project needed more time|Aunque él intentó terminar el proyecto temprano, él necesitó más tiempo]].",
       "words": [
         "[[Although|Aunque]]",
         "[[he|él]]",
@@ -762,7 +762,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar]] [[being|de estar]] [[tired|cansada]], [[she|ella]] [[managed|logró]] [[to|completar]] [[complete|el]] [[the|informe]].",
+      "correctSentence": "[[Despite being, she tired managed to complete the|A pesar de estar cansada, ella logró completar el informe]].",
       "words": [
         "[[Despite|A pesar]]",
         "[[she|ella]]",
@@ -789,7 +789,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[expects|espera]] [[to|ser]] [[be|ascendido]] [[promoted|este]] [[this|año]] [[year|por]] [[because|su]] [[of|trabajo]] [[his|duro]].",
+      "correctSentence": "[[He expects to be promoted this year because of his|Él espera ser ascendido este año por su trabajo duro]].",
       "words": [
         "[[expects|espera]]",
         "[[promoted|este]]",
@@ -820,7 +820,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración utilizando la forma verbal adecuada.",
       "questions": [
         {
-          "question": "[[That|Esa]] [[company|compañía]] _______ [[to|a]] [[expand|expandir]] [[its|sus]] [[services|servicios]].",
+          "question": "[[That company its services|Esa compañía]] _______ [[to expand|a expandir sus servicios]].",
           "options": [
             "[[decided|decidió]]",
             "[[wants|quiere]]"
@@ -846,7 +846,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[to|a]] [[negotiate|negociar]] [[the|los]] [[new|nuevos]] [[contract|contrato]] [[terms|términos]].",
+          "question": "[[He negotiate the new contract terms|Él]] _______ [[to|a negociar los nuevos contrato términos]].",
           "options": [
             "[[agreed|acordó]]",
             "[[considered|consideró]]"
@@ -872,7 +872,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción que completa la oración correctamente.",
       "questions": [
         {
-          "question": "_______ [[all|todas]] [[options|las opciones]] [[can|puede]] [[help|ayudar]] [[make|a tomar]] [[a|una]] [[better|mejor]] [[decision|decisión]].",
+          "question": "_______ [[all options can help make a better decision|todas las opciones puede ayudar a tomar una mejor decisión]].",
           "options": [
             "[[Considering|Considerar]]",
             "[[To consider|Considerar]]"
@@ -898,7 +898,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase con el verbo adecuado.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[to|a]] [[attend|asistir]] [[the|a la]] [[meeting|reunión]] [[tomorrow|mañana]].",
+          "question": "[[She attend the meeting tomorrow|Ella]] _______ [[to|a asistir a la reunión mañana]].",
           "options": [
             "[[plans|planea]]",
             "[[enjoys|disfruta]]"
@@ -924,7 +924,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción que completa la oración utilizando el gerundio.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[are|están]] _______ [[launching|lanzando]] [[a|una]] [[new|nueva]] [[product|línea de productos]].",
+          "question": "[[They are new product|Ellos están]] _______ [[launching a|lanzando una nueva línea de productos]].",
           "options": [
             "[[considering|considerando]]",
             "[[deciding|decidiendo]]"
@@ -950,7 +950,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[feeling|sentirse]] [[tired|cansado]], [[he|él]] _______ [[working|trabajar]] [[late|tarde]] [[into|hasta]] [[the|la]] [[night|noche]].",
+          "question": "[[Despite feeling, he tired late night|A pesar de sentirse cansado, él]] _______ [[working into the|trabajar tarde hasta la noche]].",
           "options": [
             "[[continued|continuó]]",
             "[[decided|decidió]]"
@@ -976,7 +976,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|está]] _______ [[to|para]] [[start|comenzar]] [[a|un]] [[new|nuevo]] [[business|negocio]] [[next|próximo]] [[year|año]].",
+          "question": "[[He is a new business next year|Él está]] _______ [[to start|para comenzar un nuevo negocio próximo año]].",
           "options": [
             "[[planning|planeando]]",
             "[[considering|considerando]]"
@@ -1002,7 +1002,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[hope|esperan]] _______ [[finish|terminar]] [[the|el]] [[project|proyecto]] [[by|para]] [[the|el]] [[end|final]] [[of|de]] [[the|el]] [[month|mes]].",
+          "question": "[[They hope project by the end of the month|Ellos esperan]] _______ [[finish the|terminar el proyecto para el final de el mes]].",
           "options": [
             "[[to|para]]",
             "[[in|en]]"
@@ -1028,7 +1028,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[Learning|Aprender]] [[new|nuevas]] [[skills|habilidades]] _______ [[important|importante]] [[in|en]] [[the|la]] [[modern|moderna]] [[economy|economía]].",
+          "question": "[[Learning new skills in economy|Aprender nuevas habilidades]] _______ [[important the modern|importante en la moderna economía]].",
           "options": [
             "[[is|es]]",
             "[[are|son]]"
@@ -1054,7 +1054,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[He|Él]] [[hesitated|dudó]] _______ [[accept|aceptar]] [[the|la]] [[job|oferta]] [[offer|de trabajo]] [[because|porque]] [[of|de]] [[the|la]] [[location|ubicación]].",
+          "question": "[[He hesitated job offer because of the location|Él dudó]] _______ [[accept the|aceptar la oferta de trabajo porque de la ubicación]].",
           "options": [
             "[[to|a]]",
             "[[in|en]]"
@@ -1078,7 +1078,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[prefers|prefiere]] [[to|trabajar]] [[work|a distancia]] [[remotely|remotamente]] [[despite|a pesar de]] [[the|los]] [[challenges|desafíos]].",
+      "correctSentence": "[[He prefers to work remotely despite the challenges|Él prefiere trabajar a distancia remotamente a pesar de los desafíos]].",
       "words": [
         "[[He|Él]]",
         "[[the|los]]",
@@ -1105,7 +1105,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[consider|consideramos]] [[working|trabajar]] [[overtime|horas extras]] [[necessary|necesario]] [[in|en]] [[this|esta]] [[season|temporada]].",
+      "correctSentence": "[[We consider working overtime necessary in this season|Nosotros consideramos trabajar horas extras necesario en esta temporada]].",
       "words": [
         "[[We|Nosotros]]",
         "[[season|temporada]]",
@@ -1132,7 +1132,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[being|estar]] [[tired|cansado]], [[he|él]] [[agreed|accedió]] [[to|a]] [[attend|asistir]] [[the|la]] [[meeting|reunión]].",
+      "correctSentence": "[[Despite being, he tired agreed to attend the meeting|A pesar de estar cansado, él accedió a asistir la reunión]].",
       "words": [
         "[[Despite|A pesar de]]",
         "[[he|él]]",
@@ -1160,7 +1160,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[enjoys|disfruta]] [[collaborating|colaborar]] [[with|con]] [[his|sus]] [[colleagues|colegas]] [[on|en]] [[complex|complejos]] [[projects|proyectos]].",
+      "correctSentence": "[[He enjoys collaborating with his colleagues on complex projects|Él disfruta colaborar con sus colegas en complejos proyectos]].",
       "words": [
         "[[on|en]]",
         "[[projects|proyectos]]",
@@ -1188,7 +1188,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[plan|planean]] [[to|lanzar]] [[launch|un]] [[a|nuevo]] [[new|producto]] [[product|el]] [[next|próximo]] [[quarter|trimestre]].",
+      "correctSentence": "[[They plan to launch a new product next quarter|Ellos planean lanzar un nuevo producto el próximo trimestre]].",
       "words": [
         "[[They|Ellos]]",
         "[[next|próximo]]",
@@ -1218,7 +1218,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la mejor opción para completar la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[decided|decidió]] _______ [[her|su]] [[career|carrera]] [[despite|a pesar de]] [[the|los]] [[challenges|retos]].",
+          "question": "[[She decided despite the challenges|Ella decidió]] _______ [[her career|su carrera a pesar de los retos]].",
           "options": [
             "[[to change|cambiar]]",
             "[[changing|cambiando]]"
@@ -1244,7 +1244,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige la mejor opción para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] _______ [[late|tarde]], [[he|él]] [[managed|logró]] [[to|a]] [[finish|terminar]] [[the|el]] [[project|proyecto]].",
+          "question": "[[Despite managed, he to finish the project|A pesar de]] _______ [[late|tarde, él logró a terminar el proyecto]].",
           "options": [
             "[[work|trabajar]]",
             "[[working|trabajando]]"
@@ -1270,7 +1270,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción que complete la frase correctamente.",
       "questions": [
         {
-          "question": "[[He|Él]] [[avoided|evitó]] _______ [[about|sobre]] [[the|los]] [[previous|anteriores]] [[job|de trabajo]] [[problems|problemas]].",
+          "question": "[[He avoided previous job problems|Él evitó]] _______ [[about the|sobre los anteriores de trabajo problemas]].",
           "options": [
             "[[to talk|hablar]]",
             "[[talking|hablando]]"
@@ -1296,7 +1296,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Escoge la opción que complete la idea de manera lógica.",
       "questions": [
         {
-          "question": "_______ [[for|por]] [[a|un]] [[new|nuevo]] [[job|trabajo]] [[can|puede]] [[be|ser]] [[stressful|estresante]].",
+          "question": "_______ [[for a new job can be stressful|por un nuevo trabajo puede ser estresante]].",
           "options": [
             "[[Look|Buscar]]",
             "[[Looking|Encontrar]]"
@@ -1322,7 +1322,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[His|Su]] [[job|trabajo]] [[involves|involucra]] _______ [[new|nuevos]] [[clients|clientes]] [[weekly|semanalmente]].",
+          "question": "[[His job involves clients|Su trabajo involucra]] _______ [[new weekly|nuevos clientes semanalmente]].",
           "options": [
             "[[to meet|reunirse]]",
             "[[meeting|reunirse]]"

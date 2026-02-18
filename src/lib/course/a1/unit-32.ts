@@ -13,7 +13,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[jugar|jugar]]) _______ [[football|football]] [[on|en/sobre]] [[Sundays|Sundays]].",
+          "question": "[[I on Sundays|Yo]] ([[jugar|jugar]]) _______ [[football|football en/sobre Sundays]].",
           "options": [
             "[[play|jugar/tocar]]",
             "[[are|son/están]]",
@@ -65,7 +65,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[disfrutar|disfrutar]]) _______ [[reading|reading]] [[books|books]].",
+          "question": "[[We books|Nosotros]] ([[disfrutar|disfrutar]]) _______ [[reading|reading books]].",
           "options": [
             "[[enjoy|enjoy]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[no|no]] [[-|-]] [[gustar|gustar]]) _______ [[tennis|tennis]].",
+          "question": "[[They - gustar|Ellos]] ([[no|no - gustar]]) _______ [[tennis|tennis]].",
           "options": [
             "[[is|es/está]]",
             "[[don't like|don't like]]",
@@ -115,7 +115,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[play|jugar/tocar]] [[basketball|basketball]] [[with|con]] [[my|mi/mis]] [[friends|friends]].",
+      "correctSentence": "[[I play basketball with my friends|Yo jugar/tocar basketball con mi/mis friends]].",
       "words": [
         "[[play|jugar/tocar]]",
         "[[my|mi/mis]]",
@@ -139,7 +139,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Swimming|Swimming]] [[is|es/está]] [[good|bueno/buena]] [[for|para/por]] [[your|tu/tus]] [[health|health]].",
+      "correctSentence": "[[Swimming is good for your health|Swimming es/está bueno/buena para/por tu/tus health]].",
       "words": [
         "[[health|health]].",
         "[[good|bueno/buena]]",
@@ -163,7 +163,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[enjoys|enjoys]] [[listening|listening]] [[to|a/para]] [[music|music]].",
+      "correctSentence": "[[He enjoys listening to music|Él enjoys listening a/para music]].",
       "words": [
         "[[to|a/para]]",
         "[[listening|listening]]",
@@ -186,7 +186,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Reading|Reading]] [[is|es/está]] [[my|mi/mis]] [[favorite|favorite]] [[hobby|afición/pasatiempo]].",
+      "correctSentence": "[[Reading is my favorite hobby|Reading es/está mi/mis favorite afición/pasatiempo]].",
       "words": [
         "[[hobby|afición/pasatiempo]].",
         "[[favorite|favorite]]",
@@ -209,7 +209,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[travel|travel]] [[every|every]] [[summer|summer]].",
+      "correctSentence": "[[We travel every summer|Nosotros travel every summer]].",
       "words": [
         "[[summer|summer]].",
         "[[every|every]]",

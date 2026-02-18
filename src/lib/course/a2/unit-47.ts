@@ -89,7 +89,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[You|Tú/usted]] ([[must|must]]) _______ [[see|ver]] [[that|ese/esa/aquel]] [[film|film]], [[it's|it's]] [[brilliant|brilliant]].",
+          "question": "[[You that, it's film brilliant|Tú/usted]] ([[must|must]]) _______ [[see|ver ese/esa/aquel film, it's brilliant]].",
           "options": [
             "[[must|must]]",
             "[[it|eso]]",
@@ -115,7 +115,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[must/not|must/not]]) _______ [[be|ser/estar]] [[late|late]] [[for|para/por]] [[the|el/la/los/las]] [[meeting|meeting]].",
+          "question": "[[We late for the meeting|Nosotros]] ([[must/not|must/not]]) _______ [[be|ser/estar late para/por el/la/los/las meeting]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -141,7 +141,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[must|must]]) _______ [[try|try]] [[this|este/esta]] [[cake|cake]].",
+          "question": "[[She this cake|Ella]] ([[must|must]]) _______ [[try|try este/esta cake]].",
           "options": [
             "[[to|a/para]]",
             "[[must|must]]",
@@ -167,7 +167,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[You|Tú/usted]] ([[must/not|must/not]]) _______ [[tell|tell]] [[anyone|anyone]] [[my|mi/mis]] [[secret|secret]].",
+          "question": "[[You anyone my secret|Tú/usted]] ([[must/not|must/not]]) _______ [[tell|tell anyone mi/mis secret]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -193,7 +193,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[must|must]]) _______ [[remember|remember]] [[to|a/para]] [[call|call]] [[him|le/él]].",
+          "question": "[[I to call him|Yo]] ([[must|must]]) _______ [[remember|remember a/para call le/él]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -219,7 +219,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[must|must]]) _______ [[visit|visit]] [[us|nos/nosotros]] [[when|cuándo]] [[they|ellos]] [[are|son/están]] [[in|en]] [[London|Londres]].",
+          "question": "[[They us when they are in London|Ellos]] ([[must|must]]) _______ [[visit|visit nos/nosotros cuándo ellos son/están en Londres]].",
           "options": [
             "[[to|a/para]]",
             "[[must|must]]",
@@ -245,7 +245,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[You|Tú/usted]] ([[must|must]]) _______ [[listen|escuchar]] [[to|a/para]] [[this|este/esta]] [[song|song]].",
+          "question": "[[You to this song|Tú/usted]] ([[must|must]]) _______ [[listen|escuchar a/para este/esta song]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -271,7 +271,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[must/not|must/not]]) _______ [[forget|forget]] [[our|nuestro]] [[passports|passports]].",
+          "question": "[[We our passports|Nosotros]] ([[must/not|must/not]]) _______ [[forget|forget nuestro passports]].",
           "options": [
             "[[mustn't|mustn't]]",
             "[[to|a/para]]",
@@ -297,7 +297,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[must|must]]) _______ [[be|ser/estar]] [[more|más]] [[careful|careful]].",
+          "question": "[[She more careful|Ella]] ([[must|must]]) _______ [[be|ser/estar más careful]].",
           "options": [
             "[[to|a/para]]",
             "[[must|must]]",
@@ -323,7 +323,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[must|must]]) _______ [[study|estudiar]] [[harder|harder]] [[if|if]] [[he|él]] [[wants|wants]] [[to|a/para]] [[pass|pass]].",
+          "question": "[[He harder if he wants to pass|Él]] ([[must|must]]) _______ [[study|estudiar harder if él wants a/para pass]].",
           "options": [
             "[[must|must]]",
             "[[to|a/para]]",
@@ -347,7 +347,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[You|Tú/usted]] [[must|must]] [[see|ver]] [[the|el/la/los/las]] [[Eiffel|Eiffel]] [[Tower|Tower]] [[while|while]] [[you're|you're]] [[in|en]] [[Paris|Paris]].",
+      "correctSentence": "[[You must see the Eiffel Tower while you're in Paris|Tú/usted must ver el/la/los/las Eiffel Tower while you're en Paris]].",
       "words": [
         "[[you're|you're]]",
         "[[while|while]]",
@@ -375,7 +375,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[must|must]] [[not|not]] [[smoke|smoke]] [[in|en]] [[the|el/la/los/las]] [[hospital|hospital]].",
+      "correctSentence": "[[We must not smoke in the hospital|Nosotros must not smoke en el/la/los/las hospital]].",
       "words": [
         "[[hospital|hospital]].",
         "[[smoke|smoke]]",
@@ -400,7 +400,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[You|Tú/usted]] [[must|must]] [[try|try]] [[the|el/la/los/las]] [[chocolate|chocolate]] [[cake|cake]]; [[it's|it's]] [[the|el/la/los/las]] [[best|mejor]]!",
+      "correctSentence": "[[You must; it's the try the chocolate cake best|Tú/usted must try el/la/los/las chocolate cake; it's el/la/los/las mejor]]!",
       "words": [
         "[[You|Tú/usted]]",
         "[[must|must]]",
@@ -427,7 +427,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[must|must]] [[be|ser/estar]] [[very|muy]] [[tired|cansado]] [[after|después]] [[such|such]] [[a|un/una]] [[long|largo]] [[day|día]].",
+      "correctSentence": "[[She must be very tired after such a long day|Ella must ser/estar muy cansado después such un/una largo día]].",
       "words": [
         "[[long|largo]]",
         "[[such|such]]",
@@ -455,7 +455,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[must|must]] [[remember|remember]] [[to|a/para]] [[buy|comprar]] [[some|some]] [[milk|milk]] [[on|en/sobre]] [[my|mi/mis]] [[way|way]] [[home|casa/hogar]].",
+      "correctSentence": "[[I must remember to buy some milk on my way home|Yo must remember a/para comprar some milk en/sobre mi/mis way casa/hogar]].",
       "words": [
         "[[my|mi/mis]]",
         "[[to|a/para]]",
@@ -484,7 +484,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[You|Tú/usted]] [[mustn't|mustn't]] [[tell|tell]] [[anyone|anyone]] [[what|qué]] [[I|Yo]] [[told|told]] [[you|tú/usted]].",
+      "correctSentence": "[[You mustn't tell anyone what I told you|Tú/usted mustn't tell anyone qué Yo told tú/usted]].",
       "words": [
         "[[mustn't|mustn't]]",
         "[[you|tú/usted]].",
@@ -510,7 +510,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[must|must]] [[arrive|arrive]] [[at|en]] [[the|el/la/los/las]] [[station|station]] [[on|en/sobre]] [[time|tiempo/hora]].",
+      "correctSentence": "[[We must arrive at the station on time|Nosotros must arrive en el/la/los/las station en/sobre tiempo/hora]].",
       "words": [
         "[[arrive|arrive]]",
         "[[on|en/sobre]]",
@@ -536,7 +536,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[You|Tú/usted]] [[must|must]] [[read|leer]] [[this|este/esta]] [[book|libro]]; [[it's|it's]] [[fascinating|fascinating]].",
+      "correctSentence": "[[You must; it's read this book fascinating|Tú/usted must leer este/esta libro; it's fascinating]].",
       "words": [
         "[[must|must]]",
         "[[it's|it's]]",
@@ -561,7 +561,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[must|must]] [[work|trabajo/trabajar]] [[harder|harder]] [[if|if]] [[he|él]] [[wants|wants]] [[a|un/una]] [[promotion|promotion]].",
+      "correctSentence": "[[He must work harder if he wants a promotion|Él must trabajo/trabajar harder if él wants un/una promotion]].",
       "words": [
         "[[must|must]]",
         "[[He|Él]]",
@@ -588,7 +588,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[must|must]] [[not|not]] [[forget|forget]] [[to|a/para]] [[lock|lock]] [[the|el/la/los/las]] [[door|puerta]].",
+      "correctSentence": "[[They must not forget to lock the door|Ellos must not forget a/para lock el/la/los/las puerta]].",
       "words": [
         "[[door|puerta]].",
         "[[the|el/la/los/las]]",
@@ -614,7 +614,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[You|Tú/usted]] [[must|must]] [[be|ser/estar]] [[careful|careful]] [[when|cuándo]] [[you|tú/usted]] [[cross|cross]] [[the|el/la/los/las]] [[road|camino]].",
+      "correctSentence": "[[You must be careful when you cross the road|Tú/usted must ser/estar careful cuándo tú/usted cross el/la/los/las camino]].",
       "words": [
         "[[you|tú/usted]]",
         "[[cross|cross]]",
@@ -641,7 +641,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[must|must]] [[visit|visit]] [[our|nuestro]] [[grandparents|grandparents]] [[more|más]] [[often|a menudo]].",
+      "correctSentence": "[[We must visit our grandparents more often|Nosotros must visit nuestro grandparents más a menudo]].",
       "words": [
         "[[more|más]]",
         "[[visit|visit]]",
@@ -666,7 +666,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[You|Tú/usted]] [[mustn't|mustn't]] [[drink|beber]] [[and|and]] [[drive|drive]].",
+      "correctSentence": "[[You mustn't drink and drive|Tú/usted mustn't beber and drive]].",
       "words": [
         "[[You|Tú/usted]]",
         "[[mustn't|mustn't]]",
@@ -689,7 +689,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[must|must]] [[tell|tell]] [[the|el/la/los/las]] [[doctor|médico/a]] [[the|el/la/los/las]] [[truth|truth]].",
+      "correctSentence": "[[She must tell the doctor the truth|Ella must tell el/la/los/las médico/a el/la/los/las truth]].",
       "words": [
         "[[tell|tell]]",
         "[[She|Ella]]",
@@ -714,7 +714,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[must|must]] [[finish|finish]] [[this|este/esta]] [[report|report]] [[by|por]] [[Friday|Friday]].",
+      "correctSentence": "[[I must finish this report by Friday|Yo must finish este/esta report por Friday]].",
       "words": [
         "[[I|Yo]]",
         "[[Friday|Friday]].",

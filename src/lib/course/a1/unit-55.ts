@@ -13,7 +13,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[What|Qué]] ([[talla|talla]]) _______ [[do|hacer]] [[you|tú/usted]] [[need|necesitar]]?",
+          "question": "[[What you need|Qué]] ([[talla|talla]]) _______ [[do|hacer tú/usted necesitar]]?",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -39,7 +39,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Puedo|Puedo]]) _______ [[I|Yo]] [[try|try]] [[this|este/esta]] [[on|en/sobre]]?",
+          "question": "([[Puedo try this on|Puedo]]) _______ [[I|Yo try este/esta en/sobre]]?",
           "options": [
             "[[is|es/está]]",
             "[[Can|Poder]]",
@@ -65,7 +65,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] ([[be|ser/estar]]) _______ [[the|el/la/los/las]] [[fitting|fitting]] [[rooms|rooms]]?",
+          "question": "[[Where fitting rooms|Dónde]] ([[be|ser/estar]]) _______ [[the|el/la/los/las fitting rooms]]?",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[This|Este/esta]] [[is|es/está]] ([[en|en]]) _______ [[sale|sale]].",
+          "question": "[[This is|Este/esta es/está]] ([[en|en]]) _______ [[sale|sale]].",
           "options": [
             "[[is|es/está]]",
             "[[on|en/sobre]]",
@@ -115,7 +115,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[price|price]] [[tag|tag]] [[is|es/está]] [[missing|missing]].",
+      "correctSentence": "[[The price tag is missing|El/la/los/las price tag es/está missing]].",
       "words": [
         "[[tag|tag]]",
         "[[is|es/está]]",
@@ -138,7 +138,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Where|Dónde]] [[is|es/está]] [[the|el/la/los/las]] [[fitting|fitting]] [[room|habitación]]?",
+      "correctSentence": "[[Where is the fitting room|Dónde es/está el/la/los/las fitting habitación]]?",
       "words": [
         "[[Where|Dónde]]",
         "[[is|es/está]]",
@@ -161,7 +161,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[This|Este/esta]] [[shirt|shirt]] [[is|es/está]] [[on|en/sobre]] [[sale|sale]].",
+      "correctSentence": "[[This shirt is on sale|Este/esta shirt es/está en/sobre sale]].",
       "words": [
         "[[on|en/sobre]]",
         "[[This|Este/esta]]",
@@ -184,7 +184,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[need|necesitar]] [[a|un/una]] [[medium|medium]] [[size|size]].",
+      "correctSentence": "[[I need a medium size|Yo necesitar un/una medium size]].",
       "words": [
         "[[I|Yo]]",
         "[[need|necesitar]]",
@@ -207,7 +207,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[shop|tienda]] [[assistant|assistant]] [[is|es/está]] [[busy|ocupado]].",
+      "correctSentence": "[[The shop assistant is busy|El/la/los/las tienda assistant es/está ocupado]].",
       "words": [
         "[[The|El/la/los/las]]",
         "[[shop|tienda]]",

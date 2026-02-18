@@ -13,7 +13,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término correcto para el título de una noticia.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[is|es]] [[the|el]] [[title|título]] [[of|de]] [[a|una]] [[news|noticia]] [[story| ]].",
+          "question": "[[A the title of a news story|Un]] _______ [[is|es el título de una noticia  ]].",
           "options": [
             "[[headline|titular]]",
             "[[caption|pie de foto]]",
@@ -40,7 +40,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la forma correcta del verbo en el estilo indirecto.",
       "questions": [
         {
-          "question": "[[He|Él]] [[said|dijo]] [[that|que]] [[he|él]] _______ [[working|trabajando]] [[on|en]] [[a|un]] [[new|nuevo]] [[report|informe]].",
+          "question": "[[He said that he report|Él dijo que él]] _______ [[working on a new|trabajando en un nuevo informe]].",
           "options": [
             "[[was|estaba]]",
             "[[is|está]]",
@@ -65,7 +65,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración en estilo indirecto.",
-      "correctSentence": "[[She|Ella]] [[told|me dijo]] [[me| ]] [[that|que]] [[the|la]] [[press|de prensa]] [[conference|conferencia]] [[had|había]] [[been|sido]] [[cancelled|cancelada]].",
+      "correctSentence": "[[She told me that the press conference had been cancelled|Ella me dijo   que la de prensa conferencia había sido cancelada]].",
       "words": [
         "[[cancelled|cancelada]].",
         "[[told|me dijo]]",
@@ -95,7 +95,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la persona que escribe noticias.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[collects|recopila]] [[and|y]] [[writes|escribe]] [[news|noticias]].",
+          "question": "[[A and writes news|Un]] _______ [[collects|recopila y escribe noticias]].",
           "options": [
             "[[journalist|periodista]]",
             "[[editor|editor]]",
@@ -122,7 +122,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la forma correcta para reportar una pregunta de sí o no.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[asked|preguntaron]] [[me|me]] _______ [[I|yo]] [[had|había]] [[seen|visto]] [[the|las]] [[news|noticias]].",
+          "question": "[[They asked me had news|Ellos preguntaron me]] _______ [[I seen the|yo había visto las noticias]].",
           "options": [
             "[[if|si]]",
             "[[that|que]]",
@@ -147,7 +147,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una noticia de última hora.",
-      "correctSentence": "[[The|El]] [[news|de noticias]] [[anchor|presentador]] [[reported|informó]] [[that|que]] [[a|un]] [[major|gran]] [[earthquake|terremoto]] [[had|había]] [[occurred|ocurrido]].",
+      "correctSentence": "[[The news anchor reported that a major earthquake had occurred|El de noticias presentador informó que un gran terremoto había ocurrido]].",
       "words": [
         "[[anchor|presentador]]",
         "[[that|que]]",
@@ -178,7 +178,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el cargo de la persona que supervisa el contenido.",
       "questions": [
         {
-          "question": "[[An|Un]] _______ [[is|es]] [[responsible|responsable]] [[for|de]] [[checking|revisar]] [[the|el]] [[content|contenido]].",
+          "question": "[[An responsible for checking the content|Un]] _______ [[is|es responsable de revisar el contenido]].",
           "options": [
             "[[editor|editor]]",
             "[[reporter|reportero]]",
@@ -205,7 +205,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta del futuro en el estilo indirecto.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[said|dijo]] [[she|ella]] _______ [[call|llamaría]] [[the|la]] [[station|estación]].",
+          "question": "[[She said she the|Ella dijo ella]] _______ [[call station|llamaría la estación]].",
           "options": [
             "[[would|llamaría]]",
             "[[will|llamará]]",
@@ -230,7 +230,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras sobre el secreto profesional.",
-      "correctSentence": "[[The|La]] [[source|fuente]] [[refused|se negó]] [[to|a]] [[reveal|revelar]] [[the|la]] [[secret|secreta]] [[info|información]] [[about|sobre]] [[the|el]] [[case|caso]].",
+      "correctSentence": "[[The source refused to reveal the secret info about the case|La fuente se negó a revelar la secreta información sobre el caso]].",
       "words": [
         "[[reveal|revelar]]",
         "[[case|caso]].",
@@ -261,7 +261,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que significa 'emisión' o 'transmisión'.",
       "questions": [
         {
-          "question": "[[The|La]] _______ [[was|fue]] [[watched|vista]] [[by|por]] [[millions|millones]].",
+          "question": "[[The watched by millions|La]] _______ [[was|fue vista por millones]].",
           "options": [
             "[[broadcast|emisión]]",
             "[[script|guion]]",
@@ -288,7 +288,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo adecuado según la estructura de la frase.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[the|al]] [[reporter|reportero]] [[that|que]] [[he|él]] [[was|estaba]] [[surprised|sorprendido]].",
+          "question": "[[He reporter that he was surprised|Él]] _______ [[the|al reportero que él estaba sorprendido]].",
           "options": [
             "[[told|dijo]]",
             "[[said|dijo]]",
@@ -313,7 +313,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras sobre la ética periodística.",
-      "correctSentence": "[[Reliable|Fiables]] [[sources|fuentes]] [[are|son]] [[essential|esenciales]] [[for|para]] [[high-quality|de alta calidad]] [[journalism|periodismo]].",
+      "correctSentence": "[[Reliable sources are essential for high-quality journalism|Fiables fuentes son esenciales para de alta calidad periodismo]].",
       "words": [
         "[[are|son]]",
         "[[journalism|periodismo]].",
@@ -341,7 +341,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el reportero destacado en el extranjero.",
       "questions": [
         {
-          "question": "[[A|Un]] [[foreign|extranjero]] _______ [[lives|vive]] [[in|en]] [[another|otro]] [[country|país]].",
+          "question": "[[A foreign another country|Un extranjero]] _______ [[lives in|vive en otro país]].",
           "options": [
             "[[correspondent|corresponsal]]",
             "[[paparazzo|paparazzi]]",
@@ -368,7 +368,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el tiempo verbal correcto al reportar un hecho en pasado.",
       "questions": [
         {
-          "question": "[[The|El]] [[witness|testigo]] [[said|dijo]] [[that|que]] [[the|el]] [[accident|accidente]] _______ [[at|a las]] [[five|cinco]].",
+          "question": "[[The witness said that the accident|El testigo dijo que el accidente]] _______ [[at five|a las cinco]].",
           "options": [
             "[[had happened|había ocurrido]]",
             "[[happens|ocurre]]",
@@ -393,7 +393,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras sobre los nuevos medios.",
-      "correctSentence": "[[Social|Las redes]] [[media|sociales]] [[has|han]] [[changed|cambiado]] [[how|cómo]] [[people|la gente]] [[consume|consume]] [[news|noticias]] [[today|hoy]].",
+      "correctSentence": "[[Social media has changed how people consume news today|Las redes sociales han cambiado cómo la gente consume noticias hoy]].",
       "words": [
         "[[has|han]]",
         "[[news|noticias]]",
@@ -423,7 +423,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el comunicado oficial.",
       "questions": [
         {
-          "question": "[[The|La]] [[company|empresa]] [[issued|emitió]] [[a|un]] _______ [[to|para]] [[the|los]] [[media|medios]].",
+          "question": "[[The company issued a|La empresa emitió un]] _______ [[to the media|para los medios]].",
           "options": [
             "[[press release|comunicado de prensa]]",
             "[[scandal|escándalo]]",
@@ -450,7 +450,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la forma correcta de la voz pasiva en pasado.",
       "questions": [
         {
-          "question": "[[The|El]] [[documentary|documental]] _______ [[filmed|filmado]] [[in|en]] [[Africa|África]].",
+          "question": "[[The documentary Africa|El documental]] _______ [[filmed in|filmado en África]].",
           "options": [
             "[[was|fue]]",
             "[[were|fueron]]",
@@ -475,7 +475,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración en voz pasiva.",
-      "correctSentence": "[[The|El]] [[news|de noticias]] [[report|informe]] [[was|fue]] [[broadcast|transmitido]] [[live|en directo]] [[from|desde]] [[the|el]] [[city|centro]] [[center|urbano]].",
+      "correctSentence": "[[The news report was broadcast live from the city center|El de noticias informe fue transmitido en directo desde el centro urbano]].",
       "words": [
         "[[broadcast|transmitido]]",
         "[[center|urbano]].",
@@ -506,7 +506,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa 'censurar'.",
       "questions": [
         {
-          "question": "[[The|El]] [[government|gobierno]] [[decided|decidió]] [[to| ]] _______ [[the|la]] [[story|noticia]].",
+          "question": "[[The government decided to|El gobierno decidió  ]] _______ [[the story|la noticia]].",
           "options": [
             "[[censor|censurar]]",
             "[[publish|publicar]]",
@@ -533,7 +533,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la forma correcta de la pasiva para algo que ocurre ahora.",
       "questions": [
         {
-          "question": "[[More|Más]] [[news|noticias]] _______ [[being|siendo]] [[published|publicadas]] [[now|ahora]].",
+          "question": "[[More news now|Más noticias]] _______ [[being published|siendo publicadas ahora]].",
           "options": [
             "[[are|están]]",
             "[[is|está]]",
@@ -558,7 +558,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras sobre la desinformación.",
-      "correctSentence": "[[Fake|Las noticias]] [[news|falsas]] [[can|pueden]] [[spread|difundirse]] [[very|muy]] [[quickly|rápido]] [[through|a través de]] [[social|redes]] [[media|sociales]] [[networks| ]].",
+      "correctSentence": "[[Fake news can spread very quickly through social media networks|Las noticias falsas pueden difundirse muy rápido a través de redes sociales  ]].",
       "words": [
         "[[networks| ]].",
         "[[quickly|rápido]]",
@@ -589,7 +589,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la preposición correcta para introducir el agente en la pasiva.",
       "questions": [
         {
-          "question": "[[The|La]] [[interview|entrevista]] [[was|fue]] [[done|hecha]] _______ [[a|un]] [[professional|profesional]].",
+          "question": "[[The interview was done|La entrevista fue hecha]] _______ [[a professional|un profesional]].",
           "options": [
             "[[by|por]]",
             "[[for|para]]",
@@ -616,7 +616,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el testigo presencial.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[gave|dio]] [[a|una]] [[detailed|detallada]] [[description|descripción]].",
+          "question": "[[The a detailed description|El]] _______ [[gave|dio una detallada descripción]].",
           "options": [
             "[[eye-witness|testigo presencial]]",
             "[[subscriber|suscriptor]]",
@@ -641,7 +641,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras sobre el proceso de publicación.",
-      "correctSentence": "[[The|El]] [[newspaper|periódico]] [[is|es]] [[printed|impreso]] [[every|cada]] [[night|noche]] [[and|y]] [[delivered|entregado]] [[early|temprano]] [[daily|diariamente]].",
+      "correctSentence": "[[The newspaper is printed every night and delivered early daily|El periódico es impreso cada noche y entregado temprano diariamente]].",
       "words": [
         "[[printed|impreso]]",
         "[[and|y]]",
@@ -672,7 +672,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que significa 'sesgo' o 'parcialidad'.",
       "questions": [
         {
-          "question": "[[Journalists|Los periodistas]] [[should|deberían]] [[avoid|evitar]] _______ [[in|en]] [[their|sus]] [[reports|informes]].",
+          "question": "[[Journalists should avoid their|Los periodistas deberían evitar]] _______ [[in reports|en sus informes]].",
           "options": [
             "[[bias|sesgo/parcialidad]]",
             "[[clarity|claridad]]",
@@ -699,7 +699,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la forma correcta de la pasiva para algo que ocurrió antes de otro momento en el pasado.",
       "questions": [
         {
-          "question": "[[The|La]] [[info|información]] _______ [[been|sido]] [[verified|verificada]].",
+          "question": "[[The info|La información]] _______ [[been verified|sido verificada]].",
           "options": [
             "[[had|había]]",
             "[[has|ha]]",
@@ -724,7 +724,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras sobre noticias de impacto.",
-      "correctSentence": "[[Breaking|Las noticias]] [[news|de última hora]] [[often|a menudo]] [[interrupts|interrumpen]] [[the|los]] [[regular|habituales]] [[television|de televisión]] [[programs|programas]].",
+      "correctSentence": "[[Breaking news often interrupts the regular television programs|Las noticias de última hora a menudo interrumpen los habituales de televisión programas]].",
       "words": [
         "[[news|de última hora]]",
         "[[interrupts|interrumpen]]",
@@ -753,7 +753,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta para completar la oración pasiva.",
       "questions": [
         {
-          "question": "[[The|El]] [[article|artículo]] _______ [[written|escrito]] [[by|por]] [[a|un]] [[pro|profesional]].",
+          "question": "[[The article a pro|El artículo]] _______ [[written by|escrito por un profesional]].",
           "options": [
             "[[was|fue]]",
             "[[is|es]]",
@@ -780,7 +780,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el presentador de noticias.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[introduces|presenta]] [[the|las]] [[stories|historias]].",
+          "question": "[[The the stories|El]] _______ [[introduces|presenta las historias]].",
           "options": [
             "[[anchor|presentador/presentadora]]",
             "[[publisher|editor]]",
@@ -805,7 +805,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración pasiva en presente.",
-      "correctSentence": "[[Thousands|Miles]] [[of|de]] [[newspapers|periódicos]] [[are|son]] [[sold|vendidos]] [[in|en]] [[this|esta]] [[city|ciudad]] [[every|cada]] [[day|día]].",
+      "correctSentence": "[[Thousands of newspapers are sold in this city every day|Miles de periódicos son vendidos en esta ciudad cada día]].",
       "words": [
         "[[newspapers|periódicos]]",
         "[[city|ciudad]]",
@@ -836,7 +836,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el pronombre relativo adecuado para una persona.",
       "questions": [
         {
-          "question": "[[The|El]] [[journalist|periodista]], _______ [[wrote|escribió]] [[the|el]] [[article|artículo]], [[is|es]] [[famous|famoso]].",
+          "question": "[[The journalist, is article famous|El periodista]], _______ [[wrote the|escribió el artículo, es famoso]].",
           "options": [
             "[[who|quien/que]]",
             "[[which|el cual]]",
@@ -863,7 +863,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la sección de opinión.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[read|leo]] [[his|su]] _______ [[every|cada]] [[Sunday|domingo]].",
+          "question": "[[I read his Sunday|Yo leo su]] _______ [[every|cada domingo]].",
           "options": [
             "[[column|columna]]",
             "[[obituary|obituario]]",
@@ -888,7 +888,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras sobre la veracidad de las noticias.",
-      "correctSentence": "[[The|La]] [[news|noticia]] [[which|que]] [[we|nosotros]] [[receive|recibimos]] [[daily|a diario]] [[is|es]] [[not|no]] [[always|siempre]] [[accurate|precisa]].",
+      "correctSentence": "[[The news which we receive daily is not always accurate|La noticia que nosotros recibimos a diario es no siempre precisa]].",
       "words": [
         "[[receive|recibimos]]",
         "[[which|que]]",
@@ -919,7 +919,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el artículo de opinión del periódico.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[discusses|trata]] [[the|el]] [[new|nuevo]] [[law|ley]].",
+          "question": "[[The the new law|El]] _______ [[discusses|trata el nuevo ley]].",
           "options": [
             "[[editorial|editorial]]",
             "[[classified|clasificado]]",
@@ -946,7 +946,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el pronombre relativo que indica posesión.",
       "questions": [
         {
-          "question": "[[That's|Ese es]] [[the|el]] [[man|hombre]] _______ [[son|hijo]] [[is|es]] [[a|un]] [[reporter|reportero]].",
+          "question": "[[That's the man is|Ese es el hombre]] _______ [[son a reporter|hijo es un reportero]].",
           "options": [
             "[[whose|cuyo]]",
             "[[who|quien]]",
@@ -971,7 +971,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras sobre estrategias de venta.",
-      "correctSentence": "[[Newspapers|Los periódicos]] [[often|a menudo]] [[use|usan]] [[catchy|llamativos]] [[headlines|titulares]] [[to|para]] [[attract|atraer]] [[more|más]] [[readers|lectores]].",
+      "correctSentence": "[[Newspapers often use catchy headlines to attract more readers|Los periódicos a menudo usan llamativos titulares para atraer más lectores]].",
       "words": [
         "[[headlines|titulares]]",
         "[[often|a menudo]]",
@@ -1001,7 +1001,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el pronombre relativo adecuado para un lugar.",
       "questions": [
         {
-          "question": "[[The|El]] [[studio|estudio]] _______ [[we|nosotros]] [[film|filmamos]] [[is|está]] [[big|grande]].",
+          "question": "[[The studio is big|El estudio]] _______ [[we film|nosotros filmamos está grande]].",
           "options": [
             "[[where|donde]]",
             "[[when|cuando]]",
@@ -1028,7 +1028,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa 'suscribirse'.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[want|quiero]] [[to| ]] _______ [[to|a]] [[this|este]] [[journal|diario]].",
+          "question": "[[I want to this|Yo quiero  ]] _______ [[to journal|a este diario]].",
           "options": [
             "[[subscribe|suscribirme]]",
             "[[describe|describir]]",
@@ -1053,7 +1053,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras sobre el rigor periodístico.",
-      "correctSentence": "[[Journalists|Los periodistas]] [[should|deberían]] [[check|revisar]] [[their|sus]] [[facts|hechos]] [[before|antes de]] [[they|ellos]] [[publish|publicar]] [[a|una]] [[story|noticia]].",
+      "correctSentence": "[[Journalists should check their facts before they publish a story|Los periodistas deberían revisar sus hechos antes de ellos publicar una noticia]].",
       "words": [
         "[[check|revisar]]",
         "[[facts|hechos]]",
@@ -1084,7 +1084,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la prensa sensacionalista.",
       "questions": [
         {
-          "question": "[[That|Ese]] _______ [[focuses|se enfoca]] [[on|en]] [[celebrities|famosos]].",
+          "question": "[[That on celebrities|Ese]] _______ [[focuses|se enfoca en famosos]].",
           "options": [
             "[[tabloid|tabloide/prensa sensacionalista]]",
             "[[broadsheet|periódico de gran formato]]",
@@ -1111,7 +1111,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el pronombre relativo adecuado para un momento en el tiempo.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[remember|recuerdo]] [[the|el]] [[day|día]] _______ [[I|yo]] [[met|conocí]] [[him|a él]].",
+          "question": "[[I remember the day|Yo recuerdo el día]] _______ [[I met him|yo conocí a él]].",
           "options": [
             "[[when|cuando]]",
             "[[where|donde]]",
@@ -1136,7 +1136,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras sobre las cualidades de un periodista.",
-      "correctSentence": "[[A|Un]] [[good|buen]] [[reporter|reportero]] [[must|debe]] [[be|ser]] [[objective|objetivo]] [[and|y]] [[fair|justo]] [[to|con]] [[everyone|todos]].",
+      "correctSentence": "[[A good reporter must be objective and fair to everyone|Un buen reportero debe ser objetivo y justo con todos]].",
       "words": [
         "[[be|ser]]",
         "[[fair|justo]]",
@@ -1167,7 +1167,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el pronombre relativo para referirse a una cosa o idea.",
       "questions": [
         {
-          "question": "[[The|La]] [[story|historia]] _______ [[he|él]] [[told|contó]] [[is|es]] [[true|verdad]].",
+          "question": "[[The story is true|La historia]] _______ [[he told|él contó es verdad]].",
           "options": [
             "[[that|que]]",
             "[[who|quien]]",
@@ -1194,7 +1194,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una primicia informativa.",
       "questions": [
         {
-          "question": "[[The|El]] [[newspaper|periódico]] [[got|obtuvo]] [[a|una]] [[major|gran]] _______.",
+          "question": "[[The newspaper got a major|El periódico obtuvo una gran]] _______.",
           "options": [
             "[[scoop|primicia/exclusiva]]",
             "[[deadline|fecha límite]]",
@@ -1219,7 +1219,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras sobre transmisiones en vivo.",
-      "correctSentence": "[[Live|La cobertura]] [[coverage|en directo]] [[of|del]] [[the| ]] [[event|evento]] [[will|comenzará]] [[start| ]] [[in|en]] [[ten|diez]] [[minutes|minutos]].",
+      "correctSentence": "[[Live coverage of the event will start in ten minutes|La cobertura en directo del   evento comenzará   en diez minutos]].",
       "words": [
         "[[coverage|en directo]]",
         "[[event|evento]]",
@@ -1250,7 +1250,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa 'resumir'.",
       "questions": [
         {
-          "question": "[[The|El]] [[headline|titular]] [[should|debería]] _______ [[the|la]] [[news|noticia]].",
+          "question": "[[The headline should news|El titular debería]] _______ [[the|la noticia]].",
           "options": [
             "[[summarize|resumir]]",
             "[[criticize|criticar]]",
@@ -1277,7 +1277,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la forma correcta para reportar una pregunta con partícula interrogativa.",
       "questions": [
         {
-          "question": "[[He|Él]] [[asked|preguntó]] _______ [[the|el]] [[reporter|reportero]] [[was|estaba]] [[going|yendo]].",
+          "question": "[[He asked was going|Él preguntó]] _______ [[the reporter|el reportero estaba yendo]].",
           "options": [
             "[[where|dónde]]",
             "[[that|que]]",
@@ -1302,7 +1302,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras sobre filtraciones de información.",
-      "correctSentence": "[[The|La]] [[information|información]] [[was|fue]] [[leaked|filtrada]] [[by|por]] [[an|una]] [[anonymous|anónima]] [[source|fuente]].",
+      "correctSentence": "[[The information was leaked by an anonymous source|La información fue filtrada por una anónima fuente]].",
       "words": [
         "[[leaked|filtrada]]",
         "[[source|fuente]].",
@@ -1331,7 +1331,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que significa 'verdad'.",
       "questions": [
         {
-          "question": "[[The|El]] [[public|público]] [[deserves|merece]] [[to| ]] [[know|saber]] [[the|la]] _______.",
+          "question": "[[The public deserves to know the|El público merece   saber la]] _______.",
           "options": [
             "[[truth|verdad]]",
             "[[lie|mentira]]",
@@ -1356,7 +1356,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras sobre valores democráticos.",
-      "correctSentence": "[[Freedom|La libertad]] [[of|de]] [[the|la]] [[press|prensa]] [[is|es]] [[a|una]] [[fundamental|fundamental]] [[part|parte]] [[of|de]] [[democracy|democracia]].",
+      "correctSentence": "[[Freedom of the press is a fundamental part of democracy|La libertad de la prensa es una fundamental parte de democracia]].",
       "words": [
         "[[press|prensa]]",
         "[[is|es]]",

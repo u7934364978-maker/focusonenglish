@@ -13,7 +13,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[necesitar|necesitar]]) _______ [[some|some]] [[milk|milk]].",
+          "question": "[[I milk|Yo]] ([[necesitar|necesitar]]) _______ [[some|some milk]].",
           "options": [
             "[[is|es/está]]",
             "[[need|necesitar]]",
@@ -39,7 +39,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] ([[be|ser/estar]]) _______ [[the|el/la/los/las]] [[bread|pan]]?",
+          "question": "[[Where bread|Dónde]] ([[be|ser/estar]]) _______ [[the|el/la/los/las pan]]?",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Put|Put]] [[it|eso]] ([[en|en]]) _______ [[the|el/la/los/las]] [[trolley|trolley]].",
+          "question": "[[Put it|Put eso]] ([[en trolley|en]]) _______ [[the|el/la/los/las trolley]].",
           "options": [
             "[[in|en]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[ir|ir]]) _______ [[to|a/para]] [[the|el/la/los/las]] [[checkout|checkout]].",
+          "question": "[[I the checkout|Yo]] ([[ir|ir]]) _______ [[to|a/para el/la/los/las checkout]].",
           "options": [
             "[[go|ir]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[supermarket|supermarket]] [[is|es/está]] [[very|muy]] [[big|grande]].",
+      "correctSentence": "[[The supermarket is very big|El/la/los/las supermarket es/está muy grande]].",
       "words": [
         "[[very|muy]]",
         "[[is|es/está]]",
@@ -138,7 +138,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Put|Put]] [[the|el/la/los/las]] [[apples|apples]] [[in|en]] [[the|el/la/los/las]] [[basket|basket]].",
+      "correctSentence": "[[Put the apples in the basket|Put el/la/los/las apples en el/la/los/las basket]].",
       "words": [
         "[[in|en]]",
         "[[the|el/la/los/las]]",
@@ -162,7 +162,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[receipt|recibo/ticket]] [[is|es/está]] [[in|en]] [[the|el/la/los/las]] [[bag|bolsa/mochila]].",
+      "correctSentence": "[[The receipt is in the bag|El/la/los/las recibo/ticket es/está en el/la/los/las bolsa/mochila]].",
       "words": [
         "[[The|El/la/los/las]]",
         "[[receipt|recibo/ticket]]",
@@ -186,7 +186,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Which|Cuál/cuáles]] [[aisle|aisle]] [[is|es/está]] [[the|el/la/los/las]] [[rice|rice]] [[in|en]]?",
+      "correctSentence": "[[Which aisle is the rice in|Cuál/cuáles aisle es/está el/la/los/las rice en]]?",
       "words": [
         "[[aisle|aisle]]",
         "[[in|en]]?",
@@ -210,7 +210,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[checkout|checkout]] [[is|es/está]] [[busy|ocupado]].",
+      "correctSentence": "[[The checkout is busy|El/la/los/las checkout es/está ocupado]].",
       "words": [
         "[[is|es/está]]",
         "[[busy|ocupado]].",

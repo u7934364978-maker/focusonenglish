@@ -7,16 +7,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Telling the Time",
     "difficulty": "easy",
-    "transcript": "[[It|Eso]] [[is|es]] [[five|cinco]] [[o'clock|en punto]].",
+    "transcript": "[[It is five o'clock|Eso es cinco en punto]].",
     "content": {
-      "title": "[[Practice|Practica]] [[Grammar|Gramática]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]] [[with|con]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+      "title": "[[Practice Grammar|Practica Gramática]]",
+      "instructions": "[[Complete the sentence with the correct option|Completa la oración con la correcta opción]].",
       "questions": [
         {
-          "question": "[[It|Eso]] [[is|es]] _______ [[o'clock|en punto]]. (5:00)",
+          "question": "[[It is|Eso es]] _______ [[o'clock|en punto]]. (5:00)",
           "options": ["[[five|cinco]]", "[[four|cuatro]]", "[[six|seis]]"],
           "correctAnswer": 0,
-          "explanation": "[[Five|Cinco]] [[is|es]] [[the|el]] [[number|número]] [[5|5]]."
+          "explanation": "[[Five is the number 5|Cinco es el número 5]]."
         }
       ]
     },
@@ -29,16 +29,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Telling the Time",
     "difficulty": "easy",
-    "transcript": "[[What|Qué]] [[time|hora]] [[is|es]] [[it|ello]]?",
+    "transcript": "[[What time is it|Qué hora es ello]]?",
     "content": {
-      "title": "[[Asking|Preguntar]] [[the|la]] [[Time|Hora]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Asking the Time|Preguntar la Hora]]",
+      "instructions": "[[Complete the question|Completa la pregunta]].",
       "questions": [
         {
-          "question": "_______ [[time|hora]] [[is|es]] [[it|ello]]?",
+          "question": "_______ [[time is it|hora es ello]]?",
           "options": ["[[What|Qué]]", "[[How|Cómo]]", "[[Where|Dónde]]"],
           "correctAnswer": 0,
-          "explanation": "[[We|Nosotros]] [[use|usamos]] '[[What|Qué]] [[time|hora]] [[is|es]] [[it|ello]]?' [[to|para]] [[ask|preguntar]] [[the|la]] [[time|hora]]."
+          "explanation": "[[We use is it|Nosotros usamos]] '[[What time|Qué hora es ello]]?' [[to ask the time|para preguntar la hora]]."
         }
       ]
     },
@@ -51,16 +51,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Telling the Time",
     "difficulty": "easy",
-    "transcript": "[[It|Eso]] [[is|es]] [[half|media]] [[past|pasada]] [[six|seis]].",
+    "transcript": "[[It is half past six|Eso es media pasada seis]].",
     "content": {
-      "title": "[[The|La]] [[Half|Media]] [[Hour|Hora]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "title": "[[The Half Hour|La Media Hora]]",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "questions": [
         {
-          "question": "[[It|Es]] [[is|las]] [[half|media]] _______ [[six|seis]]. (6:30)",
+          "question": "[[It is half|Es las media]] _______ [[six|seis]]. (6:30)",
           "options": ["[[past|pasada]]", "[[to|para]]", "[[at|a]]"],
           "correctAnswer": 0,
-          "explanation": "[[We|Nosotros]] [[use|usamos]] '[[half|media]] [[past|pasada]]' [[to|para]] [[indicate|indicar]] [[the|la]] [[half|media]] [[hour|hora]]."
+          "explanation": "[[We use the half hour|Nosotros usamos]] '[[half past|media pasada]]' [[to indicate|para indicar la media hora]]."
         }
       ]
     },
@@ -73,16 +73,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Telling the Time",
     "difficulty": "easy",
-    "transcript": "[[It|Eso]] [[is|es]] [[a|un]] [[quarter|cuarto]] [[to|para]] [[eight|ocho]].",
+    "transcript": "[[It is a quarter to eight|Eso es un cuarto para ocho]].",
     "content": {
-      "title": "[[Quarter|Cuarto]] [[To|Para]]...",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "title": "[[Quarter To|Cuarto Para]]...",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "questions": [
         {
-          "question": "[[It|Es]] [[is|las]] [[a|un]] [[quarter|cuarto]] _______ [[eight|ocho]]. (7:45)",
+          "question": "[[It is a quarter|Es las un cuarto]] _______ [[eight|ocho]]. (7:45)",
           "options": ["[[to|para]]", "[[past|pasada]]", "[[on|en]]"],
           "correctAnswer": 0,
-          "explanation": "[[We|Nosotros]] [[use|usamos]] '[[quarter|cuarto]] [[to|para]]' [[to|para]] [[indicate|indicar]] '[[a|un]] [[quarter|cuarto]] [[to|para]]'."
+          "explanation": "[[We use to|Nosotros usamos]] '[[quarter to|cuarto para]]' [[to indicate|para indicar]] '[[a quarter|un cuarto para]]'."
         }
       ]
     },
@@ -95,13 +95,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Daily Routine",
     "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[wake|despertar]] [[up|up]] [[at|a las]] [[seven|siete]] [[o'clock|en punto]].",
+    "transcript": "[[I wake up at seven o'clock|Yo despertar up a las siete en punto]].",
     "content": {
-      "title": "[[Daily|Diaria]] [[Routine|Rutina]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[I|Yo]] [[wake|despertar]] [[up|up]] [[at|a las]] [[seven|siete]] [[o'clock|en punto]].",
+      "title": "[[Daily Routine|Diaria Rutina]]",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[I wake up at seven o'clock|Yo despertar up a las siete en punto]].",
       "words": ["[[at|a las]]", "[[up|up]]", "[[o'clock|en punto]].", "[[wake|despertar]]", "[[seven|siete]]", "[[I|Yo]]"],
-      "explanation": "[[We|Nosotros]] [[use|usamos]] '[[at|a las]]' [[before|antes de]] [[the|las]] [[hours|horas]]."
+      "explanation": "[[We use hours|Nosotros usamos]] '[[at the|a las]]' [[before|antes de las horas]]."
     },
     "audioUrl": "audio/a1/unit-11/e6.mp3",
     "topicName": "Grammar"
@@ -112,13 +112,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Daily Routine",
     "difficulty": "easy",
-    "transcript": "[[The|La]] [[movie|película]] [[starts|comienza]] [[at|a las]] [[eight|ocho]].",
+    "transcript": "[[The movie starts at eight|La película comienza a las ocho]].",
     "content": {
       "title": "[[Schedules|Horarios]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[The|La]] [[movie|película]] [[starts|comienza]] [[at|a las]] [[eight|ocho]].",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[The movie starts at eight|La película comienza a las ocho]].",
       "words": ["[[at|a las]]", "[[starts|comienza]]", "[[eight|ocho]].", "[[movie|película]]", "[[The|La]]"],
-      "explanation": "[[Structure|Estructura]]: [[Subject|Sujeto]] + [[Verb|Verbo]] + [[at|a las]] + [[Hour|Hora]]."
+      "explanation": "[[Structure: Subject|Estructura: Sujeto]] + [[Verb|Verbo]] + [[at|a las]] + [[Hour|Hora]]."
     },
     "audioUrl": "audio/a1/unit-11/e7.mp3",
     "topicName": "Vocabulary"
@@ -129,13 +129,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Telling the Time",
     "difficulty": "easy",
-    "transcript": "[[It's|Son]] [[half|media]] [[past|pasada]] [[nine|nueve]].",
+    "transcript": "[[It's half past nine|Son media pasada nueve]].",
     "content": {
-      "title": "[[Half|Media]] [[Past|Pasada]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[It's|Son]] [[half|media]] [[past|pasada]] [[nine|nueve]].",
+      "title": "[[Half Past|Media Pasada]]",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[It's half past nine|Son media pasada nueve]].",
       "words": ["[[It's|Son]]", "[[half|media]]", "[[nine|nueve]].", "[[past|pasada]]"],
-      "explanation": "[[Half|Media]] [[past|pasada]] [[nine|nueve]] [[is|es]] [[9:30|9:30]]."
+      "explanation": "[[Half past nine is 9:30|Media pasada nueve es 9:30]]."
     },
     "audioUrl": "audio/a1/unit-11/e8.mp3",
     "topicName": "Vocabulary"
@@ -146,13 +146,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Telling the Time",
     "difficulty": "easy",
-    "transcript": "[[A|Un]] [[quarter|cuarto]] [[to|para]] [[ten|diez]] [[is|es]] [[9:45|9:45]].",
+    "transcript": "[[A quarter to ten is 9:45|Un cuarto para diez es 9:45]].",
     "content": {
       "title": "[[Equivalences|Equivalencias]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[A|Un]] [[quarter|cuarto]] [[to|para]] [[ten|diez]] [[is|es]] [[9:45|9:45]].",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[A quarter to ten is 9:45|Un cuarto para diez es 9:45]].",
       "words": ["[[A|Un]]", "[[quarter|cuarto]]", "[[9:45|9:45]].", "[[to|para]]", "[[ten|diez]]", "[[is|es]]"],
-      "explanation": "[[Quarter|Cuarto]] [[to|para]] [[ten|diez]] [[means|significa]] [[that|que]] [[fifteen|quince]] [[minutes|minutos]] [[are|faltan]] [[to|para]] [[ten|las diez]]."
+      "explanation": "[[Quarter to ten means that fifteen minutes are to ten|Cuarto para diez significa que quince minutos faltan para las diez]]."
     },
     "audioUrl": "audio/a1/unit-11/e9.mp3",
     "topicName": "Vocabulary"
@@ -163,13 +163,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Telling the Time",
     "difficulty": "easy",
-    "transcript": "[[Look|Mira]] [[at|a]] [[the|el]] [[clock|reloj]].",
+    "transcript": "[[Look at the clock|Mira a el reloj]].",
     "content": {
       "title": "[[Imperative|Imperativo]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[Look|Mira]] [[at|a]] [[the|el]] [[clock|reloj]].",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[Look at the clock|Mira a el reloj]].",
       "words": ["[[the|el]]", "[[clock|reloj]].", "[[Look|Mira]]", "[[at|a]]"],
-      "explanation": "'[[Look|Mira]] [[at|a]]' [[means|significa]] [[looking|mirar]] [[at|a]] [[something|algo]]."
+      "explanation": "'[[Look at at something|Mira a]]' [[means looking|significa mirar a algo]]."
     },
     "audioUrl": "audio/a1/unit-11/e10.mp3",
     "topicName": "Vocabulary"
@@ -180,16 +180,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Telling the Time",
     "difficulty": "easy",
-    "transcript": "[[It|Eso]] [[is|es]] [[ten|diez]] [[past|pasada]] [[two|dos]].",
+    "transcript": "[[It is ten past two|Eso es diez pasada dos]].",
     "content": {
-      "title": "[[Minutes|Minutos]] [[Past|Pasados]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]] [[for|para]] [[2:10|2:10]].",
+      "title": "[[Minutes Past|Minutos Pasados]]",
+      "instructions": "[[Choose the correct option for 2:10|Elige la correcta opción para 2:10]].",
       "questions": [
         {
-          "question": "[[It|Es]] [[is|las]] _______ [[past|pasada]] [[two|dos]]. (2:10)",
+          "question": "[[It is|Es las]] _______ [[past two|pasada dos]]. (2:10)",
           "options": ["[[ten|diez]]", "[[five|cinco]]", "[[twenty|veinte]]"],
           "correctAnswer": 0,
-          "explanation": "[[Ten|Diez]] [[is|es]] [[10|10]]."
+          "explanation": "[[Ten is 10|Diez es 10]]."
         }
       ]
     },
@@ -202,16 +202,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Telling the Time",
     "difficulty": "easy",
-    "transcript": "[[It|Eso]] [[is|es]] [[twenty|veinte]] [[to|para]] [[four|cuatro]].",
+    "transcript": "[[It is twenty to four|Eso es veinte para cuatro]].",
     "content": {
-      "title": "[[Minutes|Minutos]] [[To|Para]]...",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]] [[for|para]] [[3:40|3:40]].",
+      "title": "[[Minutes To|Minutos Para]]...",
+      "instructions": "[[Choose the correct option for 3:40|Elige la correcta opción para 3:40]].",
       "questions": [
         {
-          "question": "[[It|Es]] [[is|las]] _______ [[to|para]] [[four|cuatro]]. (3:40)",
+          "question": "[[It is|Es las]] _______ [[to four|para cuatro]]. (3:40)",
           "options": ["[[twenty|veinte]]", "[[ten|diez]]", "[[fifteen|quince]]"],
           "correctAnswer": 0,
-          "explanation": "[[Twenty|Veinte]] [[to|para]] [[four|cuatro]] [[means|significa]] [[that|que]] [[twenty|veinte]] [[minutes|minutos]] [[are|faltan]] [[to|para]] [[four|las cuatro]] ([[3:40|3:40]])."
+          "explanation": "[[Twenty to four means that twenty minutes are to four|Veinte para cuatro significa que veinte minutos faltan para las cuatro]] ([[3:40|3:40]])."
         }
       ]
     },
@@ -224,16 +224,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Time Expressions",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[am|estoy]] [[never|nunca]] [[late|tarde]].",
+    "transcript": "[[I am never late|Yo estoy nunca tarde]].",
     "content": {
       "title": "[[Punctuality|Puntualidad]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|estoy]] [[never|nunca]] _______.",
+          "question": "[[I am never|Yo estoy nunca]] _______.",
           "options": ["[[late|tarde]]", "[[early|temprano]]", "[[fast|rápido]]"],
           "correctAnswer": 0,
-          "explanation": "[[Late|Tarde]] [[means|significa]] [[late|tarde]]."
+          "explanation": "[[Late means late|Tarde significa tarde]]."
         }
       ]
     },
@@ -246,16 +246,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Time Expressions",
     "difficulty": "medium",
-    "transcript": "[[He|Él]] [[arrives|llega]] [[early|temprano]] [[every|cada]] [[morning|mañana]].",
+    "transcript": "[[He arrives early every morning|Él llega temprano cada mañana]].",
     "content": {
       "title": "[[Punctuality|Puntualidad]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "questions": [
         {
-          "question": "[[He|Él]] [[arrives|llega]] _______ [[every|cada]] [[morning|mañana]].",
+          "question": "[[He arrives|Él llega]] _______ [[every morning|cada mañana]].",
           "options": ["[[early|temprano]]", "[[late|tarde]]", "[[slow|lento]]"],
           "correctAnswer": 0,
-          "explanation": "[[Early|Temprano]] [[means|significa]] [[early|temprano]]."
+          "explanation": "[[Early means early|Temprano significa temprano]]."
         }
       ]
     },
@@ -268,16 +268,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Prepositions of Time",
     "difficulty": "medium",
-    "transcript": "[[The|La]] [[meeting|reunión]] [[is|es]] [[at|a las]] [[noon|mediodía]].",
+    "transcript": "[[The meeting is at noon|La reunión es a las mediodía]].",
     "content": {
       "title": "[[Prepositions|Preposiciones]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[preposition|preposición]].",
+      "instructions": "[[Choose the correct preposition|Elige la correcta preposición]].",
       "questions": [
         {
-          "question": "[[The|La]] [[meeting|reunión]] [[is|es]] _______ [[noon|mediodía]].",
+          "question": "[[The meeting is|La reunión es]] _______ [[noon|mediodía]].",
           "options": ["[[at|a las]]", "[[in|en]]", "[[on|en]]"],
           "correctAnswer": 0,
-          "explanation": "[[We|Nosotros]] [[use|usamos]] '[[at|a las]]' [[with|con]] [[specific|específicos]] [[moments|momentos]] [[like|como]] [[noon|mediodía]], [[midnight|medianoche]]."
+          "explanation": "[[We use, midnight moments like noon|Nosotros usamos]] '[[at specific|a las]]' [[with|con específicos momentos como mediodía, medianoche]]."
         }
       ]
     },
@@ -290,16 +290,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Prepositions of Time",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[work|trabajo]] [[in|en]] [[the|la]] [[afternoon|tarde]].",
+    "transcript": "[[I work in the afternoon|Yo trabajo en la tarde]].",
     "content": {
       "title": "[[Prepositions|Preposiciones]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[preposition|preposición]].",
+      "instructions": "[[Choose the correct preposition|Elige la correcta preposición]].",
       "questions": [
         {
-          "question": "[[I|Yo]] [[work|trabajo]] _______ [[the|la]] [[afternoon|tarde]].",
+          "question": "[[I work|Yo trabajo]] _______ [[the afternoon|la tarde]].",
           "options": ["[[in|en]]", "[[at|a las]]", "[[on|en]]"],
           "correctAnswer": 0,
-          "explanation": "[[We|Nosotros]] [[use|usamos]] '[[in|en]]' [[with|con]] [[the|las]] [[parts|partes]] [[of|de]] [[the|el]] [[day|día]]: [[in|en]] [[the|la]] [[morning|mañana]], [[in|en]] [[the|la]] [[afternoon|tarde]], [[in|en]] [[the|la]] [[evening|tarde]]."
+          "explanation": "[[We use: in the parts of the day morning the, in afternoon the, in evening|Nosotros usamos]] '[[in the|en]]' [[with|con las partes de el día: en la mañana, en la tarde, en la tarde]]."
         }
       ]
     },
@@ -312,16 +312,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Prepositions of Time",
     "difficulty": "medium",
-    "transcript": "[[She|Ella]] [[sleeps|duerme]] [[at|por la]] [[night|noche]].",
+    "transcript": "[[She sleeps at night|Ella duerme por la noche]].",
     "content": {
       "title": "[[Prepositions|Preposiciones]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[preposition|preposición]].",
+      "instructions": "[[Choose the correct preposition|Elige la correcta preposición]].",
       "questions": [
         {
-          "question": "[[She|Ella]] [[sleeps|duerme]] _______ [[night|noche]].",
+          "question": "[[She sleeps|Ella duerme]] _______ [[night|noche]].",
           "options": ["[[at|por la]]", "[[in|en]]", "[[on|en]]"],
           "correctAnswer": 0,
-          "explanation": "[[With|Con]] '[[night|noche]]' [[we|nosotros]] [[use|usamos]] '[[at|por la]]'."
+          "explanation": "[[With use|Con]] '[[night|noche]]' [[we|nosotros usamos]] '[[at|por la]]'."
         }
       ]
     },
@@ -334,16 +334,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Vocabulary: Time",
     "difficulty": "easy",
-    "transcript": "[[There|Hay]] [[are|son]] [[sixty|sesenta]] [[seconds|segundos]] [[in|en]] [[a|un]] [[minute|minuto]].",
+    "transcript": "[[There are sixty seconds in a minute|Hay son sesenta segundos en un minuto]].",
     "content": {
-      "title": "[[Measurements|Medidas]] [[of|de]] [[Time|Tiempo]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "title": "[[Measurements of Time|Medidas de Tiempo]]",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "questions": [
         {
-          "question": "[[There|Hay]] [[are|son]] [[sixty|sesenta]] _______ [[in|en]] [[a|un]] [[minute|minuto]].",
+          "question": "[[There are sixty a|Hay son sesenta]] _______ [[in minute|en un minuto]].",
           "options": ["[[seconds|segundos]]", "[[hours|horas]]", "[[days|días]]"],
           "correctAnswer": 0,
-          "explanation": "[[A|Un]] [[minute|minuto]] [[has|tiene]] [[60|60]] [[seconds|segundos]]."
+          "explanation": "[[A minute has 60 seconds|Un minuto tiene 60 segundos]]."
         }
       ]
     },
@@ -356,16 +356,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Vocabulary: Time",
     "difficulty": "easy",
-    "transcript": "[[There|Hay]] [[are|son]] [[twenty-four|veinticuatro]] [[hours|horas]] [[in|en]] [[a|un]] [[day|día]].",
+    "transcript": "[[There are twenty-four hours in a day|Hay son veinticuatro horas en un día]].",
     "content": {
-      "title": "[[Measurements|Medidas]] [[of|de]] [[Time|Tiempo]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "title": "[[Measurements of Time|Medidas de Tiempo]]",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "questions": [
         {
-          "question": "[[There|Hay]] [[are|son]] [[twenty-four|veinticuatro]] _______ [[in|en]] [[a|un]] [[day|día]].",
+          "question": "[[There are twenty-four a|Hay son veinticuatro]] _______ [[in day|en un día]].",
           "options": ["[[hours|horas]]", "[[minutes|minutos]]", "[[weeks|semanas]]"],
           "correctAnswer": 0,
-          "explanation": "[[A|Un]] [[day|día]] [[has|tiene]] [[24|24]] [[hours|horas]]."
+          "explanation": "[[A day has 24 hours|Un día tiene 24 horas]]."
         }
       ]
     },
@@ -378,16 +378,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Telling the Time",
     "difficulty": "medium",
-    "transcript": "[[It|Eso]] [[is|es]] [[a|un]] [[quarter|cuarto]] [[past|pasada]] [[eleven|once]].",
+    "transcript": "[[It is a quarter past eleven|Eso es un cuarto pasada once]].",
     "content": {
-      "title": "[[Quarter|Cuarto]] [[Past|Pasada]]",
-      "instructions": "[[Complete|Completa]] [[for|para]] [[11:15|11:15]].",
+      "title": "[[Quarter Past|Cuarto Pasada]]",
+      "instructions": "[[Complete for 11:15|Completa para 11:15]].",
       "questions": [
         {
-          "question": "[[It|Es]] [[is|las]] [[a|un]] [[quarter|cuarto]] _______ [[eleven|once]]. (11:15)",
+          "question": "[[It is a quarter|Es las un cuarto]] _______ [[eleven|once]]. (11:15)",
           "options": ["[[past|pasadas]]", "[[to|para]]", "[[at|a las]]"],
           "correctAnswer": 0,
-          "explanation": "[[Quarter|Cuarto]] [[past|pasada]] [[eleven|once]] [[is|es]] [[11:15|11:15]]."
+          "explanation": "[[Quarter past eleven is 11:15|Cuarto pasada once es 11:15]]."
         }
       ]
     },
@@ -400,13 +400,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Daily Routine",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[have|tomo]] [[lunch|el almuerzo]] [[at|a la]] [[one|una]] [[o'clock|en punto]].",
+    "transcript": "[[I have lunch at one o'clock|Yo tomo el almuerzo a la una en punto]].",
     "content": {
       "title": "[[Routine|Rutina]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[I|Yo]] [[have|tomo]] [[lunch|el almuerzo]] [[at|a la]] [[one|una]] [[o'clock|en punto]].",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[I have lunch at one o'clock|Yo tomo el almuerzo a la una en punto]].",
       "words": ["[[one|una]]", "[[have|tomo]]", "[[o'clock|en punto]].", "[[at|a la]]", "[[I|Yo]]", "[[lunch|el almuerzo]]"],
-      "explanation": "[[We|Nosotros]] [[use|usamos]] '[[have|tomo]] [[lunch|el almuerzo]]' [[for|para]] [[having|almorzar]] [[lunch|el almuerzo]]."
+      "explanation": "[[We use lunch|Nosotros usamos]] '[[have lunch|tomo el almuerzo]]' [[for having|para almorzar el almuerzo]]."
     },
     "audioUrl": "audio/a1/unit-11/e21.mp3",
     "topicName": "Vocabulary"
@@ -417,13 +417,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Daily Routine",
     "difficulty": "medium",
-    "transcript": "[[She|Ella]] [[goes|va]] [[to|a]] [[school|la escuela]] [[at|a las]] [[half|media]] [[past|pasada]] [[eight|ocho]].",
+    "transcript": "[[She goes to school at half past eight|Ella va a la escuela a las media pasada ocho]].",
     "content": {
       "title": "[[Routine|Rutina]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[She|Ella]] [[goes|va]] [[to|a]] [[school|la escuela]] [[at|a las]] [[half|media]] [[past|pasada]] [[eight|ocho]].",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[She goes to school at half past eight|Ella va a la escuela a las media pasada ocho]].",
       "words": ["[[half|media]]", "[[school|la escuela]]", "[[eight|ocho]].", "[[past|pasada]]", "[[goes|va]]", "[[at|a las]]", "[[to|a]]", "[[She|Ella]]"],
-      "explanation": "[[Half|Media]] [[past|pasada]] [[eight|ocho]] [[is|es]] [[8:30|8:30]]."
+      "explanation": "[[Half past eight is 8:30|Media pasada ocho es 8:30]]."
     },
     "audioUrl": "audio/a1/unit-11/e22.mp3",
     "topicName": "Grammar"
@@ -434,13 +434,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Daily Routine",
     "difficulty": "medium",
-    "transcript": "[[We|Nosotros]] [[finish|terminamos]] [[work|el trabajo]] [[at|a las]] [[five|cinco]] [[PM|PM]].",
+    "transcript": "[[We finish work at five PM|Nosotros terminamos el trabajo a las cinco PM]].",
     "content": {
       "title": "[[Work|Trabajo]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[We|Nosotros]] [[finish|terminamos]] [[work|el trabajo]] [[at|a las]] [[five|cinco]] [[PM|PM]].",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[We finish work at five PM|Nosotros terminamos el trabajo a las cinco PM]].",
       "words": ["[[finish|terminamos]]", "[[five|cinco]]", "[[at|a las]]", "[[We|Nosotros]]", "[[PM|PM]].", "[[work|el trabajo]]"],
-      "explanation": "[[We|Nosotros]] [[use|usamos]] [[AM|AM]]/[[PM|PM]] [[to|para]] [[differentiate|diferenciar]] [[morning|mañana]] [[and|y]] [[afternoon|tarde]]."
+      "explanation": "[[We use AM to and afternoon|Nosotros usamos AM]]/[[PM differentiate morning|PM para diferenciar mañana y tarde]]."
     },
     "audioUrl": "audio/a1/unit-11/e23.mp3",
     "topicName": "Vocabulary"
@@ -451,13 +451,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Telling the Time",
     "difficulty": "medium",
-    "transcript": "[[It|Eso]] [[is|es]] [[exactly|exactamente]] [[midnight|medianoche]] [[now|ahora]].",
+    "transcript": "[[It is exactly midnight now|Eso es exactamente medianoche ahora]].",
     "content": {
       "title": "[[Midnight|Medianoche]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[It|Ahora]] [[is|es]] [[exactly|exactamente]] [[midnight|medianoche]] [[now|ahora]].",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[It is exactly midnight now|Ahora es exactamente medianoche ahora]].",
       "words": ["[[midnight|medianoche]]", "[[exactly|exactamente]]", "[[is|es]]", "[[now|ahora]].", "[[It|Ahora]]"],
-      "explanation": "[[Midnight|Medianoche]] [[is|es]] [[the|las]] [[12|12]] [[at|por la]] [[night|noche]]."
+      "explanation": "[[Midnight is the 12 at night|Medianoche es las 12 por la noche]]."
     },
     "audioUrl": "audio/a1/unit-11/e24.mp3",
     "topicName": "Vocabulary"
@@ -468,13 +468,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Time",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[watch|reloj]] [[is|está]] [[ten|diez]] [[minutes|minutos]] [[slow|retrasado]].",
+    "transcript": "[[My watch is ten minutes slow|Mi reloj está diez minutos retrasado]].",
     "content": {
-      "title": "[[The|El]] [[Clock|Reloj]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[My|Mi]] [[watch|reloj]] [[is|está]] [[ten|diez]] [[minutes|minutos]] [[slow|retrasado]].",
+      "title": "[[The Clock|El Reloj]]",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[My watch is ten minutes slow|Mi reloj está diez minutos retrasado]].",
       "words": ["[[is|está]]", "[[minutes|minutos]]", "[[ten|diez]]", "[[slow|retrasado]].", "[[My|Mi]]", "[[watch|reloj]]"],
-      "explanation": "[[Slow|Retrasado]] [[means|significa]] [[that|que]] [[the|el]] [[clock|reloj]] [[shows|muestra]] [[an|un]] [[earlier|anterior]] [[time|tiempo]] [[than|que]] [[the|el]] [[real|real]] [[one|uno]]."
+      "explanation": "[[Slow means that the clock shows an earlier time than the real one|Retrasado significa que el reloj muestra un anterior tiempo que el real uno]]."
     },
     "audioUrl": "audio/a1/unit-11/e25.mp3",
     "topicName": "Vocabulary"
@@ -485,16 +485,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Prepositions",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[drink|bebo]] [[tea|té]] [[in|en]] [[the|la]] [[morning|mañana]].",
+    "transcript": "[[I drink tea in the morning|Yo bebo té en la mañana]].",
     "content": {
-      "title": "[[Moments|Momentos]] [[of|del]] [[the|el]] [[Day|Día]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "title": "[[Moments of the Day|Momentos del el Día]]",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "questions": [
         {
-          "question": "[[I|Yo]] [[drink|bebo]] [[tea|té]] _______ [[the|la]] [[morning|mañana]].",
+          "question": "[[I drink tea morning|Yo bebo té]] _______ [[the|la mañana]].",
           "options": ["[[in|en]]", "[[at|a las]]", "[[on|en]]"],
           "correctAnswer": 0,
-          "explanation": "[[In|En]] [[the|la]] [[morning|mañana]]."
+          "explanation": "[[In the morning|En la mañana]]."
         }
       ]
     },
@@ -507,16 +507,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Prepositions",
     "difficulty": "medium",
-    "transcript": "[[She|Ella]] [[watches|ve]] [[TV|la tele]] [[in|en]] [[the|la]] [[evening|tarde]].",
+    "transcript": "[[She watches TV in the evening|Ella ve la tele en la tarde]].",
     "content": {
-      "title": "[[Moments|Momentos]] [[of|del]] [[the|el]] [[Day|Día]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "title": "[[Moments of the Day|Momentos del el Día]]",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "questions": [
         {
-          "question": "[[She|Ella]] [[watches|ve]] [[TV|la tele]] _______ [[the|la]] [[evening|tarde]].",
+          "question": "[[She watches TV evening|Ella ve la tele]] _______ [[the|la tarde]].",
           "options": ["[[in|en]]", "[[at|a las]]", "[[on|en]]"],
           "correctAnswer": 0,
-          "explanation": "[[In|En]] [[the|la]] [[evening|tarde]]."
+          "explanation": "[[In the evening|En la tarde]]."
         }
       ]
     },
@@ -529,16 +529,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Prepositions",
     "difficulty": "medium",
-    "transcript": "[[The|El]] [[bank|banco]] [[opens|abre]] [[at|a las]] [[nine|nueve]].",
+    "transcript": "[[The bank opens at nine|El banco abre a las nueve]].",
     "content": {
       "title": "[[Schedules|Horarios]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "questions": [
         {
-          "question": "[[The|El]] [[bank|banco]] [[opens|abre]] _______ [[nine|las nueve]].",
+          "question": "[[The bank opens|El banco abre]] _______ [[nine|las nueve]].",
           "options": ["[[at|a las]]", "[[in|en]]", "[[on|en]]"],
           "correctAnswer": 0,
-          "explanation": "[[We|Nosotros]] [[use|usamos]] '[[at|a las]]' [[with|con]] [[the|las]] [[hours|horas]]."
+          "explanation": "[[We use hours|Nosotros usamos]] '[[at the|a las]]' [[with|con las horas]]."
         }
       ]
     },
@@ -551,16 +551,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Vocabulary: Time",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[am|estoy]] [[busy|ocupado]] [[right|justo]] [[now|ahora]].",
+    "transcript": "[[I am busy right now|Yo estoy ocupado justo ahora]].",
     "content": {
       "title": "[[Expressions|Expresiones]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|estoy]] [[busy|ocupado]] _______ [[now|ahora]].",
+          "question": "[[I am busy|Yo estoy ocupado]] _______ [[now|ahora]].",
           "options": ["[[right|justo]]", "[[left|izquierda]]", "[[fast|rápido]]"],
           "correctAnswer": 0,
-          "explanation": "[[Right|Justo]] [[now|ahora]] [[means|significa]] '[[in|en]] [[this|este]] [[moment|momento]]'."
+          "explanation": "[[Right now means this|Justo ahora significa]] '[[in moment|en este momento]]'."
         }
       ]
     },
@@ -573,16 +573,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Vocabulary: Time",
     "difficulty": "medium",
-    "transcript": "[[Wait|Espera]] [[a|un]] [[minute|minuto]], [[please|por favor]].",
+    "transcript": "[[Wait a, please minute|Espera un minuto, por favor]].",
     "content": {
       "title": "[[Expressions|Expresiones]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "questions": [
         {
-          "question": "[[Wait|Espera]] [[a|un]] _______, [[please|por favor]].",
+          "question": "[[Wait a|Espera un]] _______, [[please|por favor]].",
           "options": ["[[minute|minuto]]", "[[hour|hora]]", "[[day|día]]"],
           "correctAnswer": 0,
-          "explanation": "'[[Wait|Espera]] [[a|un]] [[minute|minuto]]' [[is|es]] [[a|una]] [[common|común]] [[expression|expresión]] [[to|para]] [[ask|pedir]] [[someone|a alguien]] [[to|que]] [[wait|espere]] [[a|un]] [[little|poco]]."
+          "explanation": "'[[Wait a minute a to ask someone to wait a little|Espera un minuto]]' [[is common expression|es una común expresión para pedir a alguien que espere un poco]]."
         }
       ]
     },
@@ -595,13 +595,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Daily Routine",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[brush|cepillo]] [[my|mis]] [[teeth|dientes]] [[at|a las]] [[seven|siete]] [[fifteen|quince]].",
+    "transcript": "[[I brush my teeth at seven fifteen|Yo cepillo mis dientes a las siete quince]].",
     "content": {
       "title": "[[Hygiene|Higiene]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[I|Yo]] [[brush|cepillo]] [[my|mis]] [[teeth|dientes]] [[at|a las]] [[seven|siete]] [[fifteen|quince]].",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[I brush my teeth at seven fifteen|Yo cepillo mis dientes a las siete quince]].",
       "words": ["[[teeth|dientes]]", "[[at|a las]]", "[[brush|cepillo]]", "[[seven|siete]]", "[[my|mis]]", "[[I|Yo]]", "[[fifteen|quince]]."],
-      "explanation": "[[Structure|Estructura]]: [[Subject|Sujeto]] + [[Verb|Verbo]] + [[Possessive|Posesivo]] + [[Object|Objeto]] + [[at|a las]] + [[Hour|Hora]]."
+      "explanation": "[[Structure: Subject|Estructura: Sujeto]] + [[Verb|Verbo]] + [[Possessive|Posesivo]] + [[Object|Objeto]] + [[at|a las]] + [[Hour|Hora]]."
     },
     "audioUrl": "audio/a1/unit-11/e31.mp3",
     "topicName": "Vocabulary"
@@ -612,13 +612,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Daily Routine",
     "difficulty": "medium",
-    "transcript": "[[What|Qué]] [[time|hora]] [[do|aux]] [[you|tú]] [[have|cenas]] [[dinner|la cena]]?",
+    "transcript": "[[What time do you have dinner|Qué hora aux tú cenas la cena]]?",
     "content": {
       "title": "[[Questions|Preguntas]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[What|Qué]] [[time|hora]] [[do|aux]] [[you|tú]] [[have|cenas]] [[dinner|la cena]]?",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[What time do you have dinner|Qué hora aux tú cenas la cena]]?",
       "words": ["[[have|cenas]]", "[[time|hora]]", "[[dinner|la cena]]?", "[[you|tú]]", "[[What|Qué]]", "[[do|aux]]"],
-      "explanation": "[[Asking|Preguntando]] [[about|por]] [[the|el]] [[dinner|cena]] [[schedule|horario]]."
+      "explanation": "[[Asking about the dinner schedule|Preguntando por el cena horario]]."
     },
     "audioUrl": "audio/a1/unit-11/e32.mp3",
     "topicName": "Grammar"
@@ -629,13 +629,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Telling the Time",
     "difficulty": "medium",
-    "transcript": "[[The|El]] [[bus|autobús]] [[arrives|llega]] [[in|en]] [[five|cinco]] [[minutes|minutos]].",
+    "transcript": "[[The bus arrives in five minutes|El autobús llega en cinco minutos]].",
     "content": {
-      "title": "[[Coming|Próximamente]] [[Soon|Próximamente]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[The|El]] [[bus|autobús]] [[arrives|llega]] [[in|en]] [[five|cinco]] [[minutes|minutos]].",
+      "title": "[[Coming Soon|Próximamente Próximamente]]",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[The bus arrives in five minutes|El autobús llega en cinco minutos]].",
       "words": ["[[arrives|llega]]", "[[minutes|minutos]].", "[[five|cinco]]", "[[The|El]]", "[[in|en]]", "[[bus|autobús]]"],
-      "explanation": "[[We|Nosotros]] [[use|usamos]] '[[in|en]]' [[to|para]] [[indicate|indicar]] [[how|cuánto]] [[much|mucho]] [[time|tiempo]] [[is|falta]] [[left|para]] [[for|para]] [[something|algo]]."
+      "explanation": "[[We use how much time is left for something|Nosotros usamos]] '[[in indicate|en]]' [[to|para indicar cuánto mucho tiempo falta para para algo]]."
     },
     "audioUrl": "audio/a1/unit-11/e33.mp3",
     "topicName": "Grammar"
@@ -646,13 +646,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Telling the Time",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[birthday|cumpleaños]] [[is|es]] [[in|en]] [[two|dos]] [[days|días]].",
+    "transcript": "[[My birthday is in two days|Mi cumpleaños es en dos días]].",
     "content": {
-      "title": "[[Near|Cercano]] [[Future|Futuro]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[My|Mi]] [[birthday|cumpleaños]] [[is|es]] [[in|en]] [[two|dos]] [[days|días]].",
+      "title": "[[Near Future|Cercano Futuro]]",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[My birthday is in two days|Mi cumpleaños es en dos días]].",
       "words": ["[[is|es]]", "[[days|días]].", "[[in|en]]", "[[two|dos]]", "[[My|Mi]]", "[[birthday|cumpleaños]]"],
-      "explanation": "[[Expressing|Expresando]] [[how|cuánto]] [[much|mucho]] [[is|falta]] [[left|para]] [[for|para]] [[a|una]] [[date|fecha]]."
+      "explanation": "[[Expressing how much is left for a date|Expresando cuánto mucho falta para para una fecha]]."
     },
     "audioUrl": "audio/a1/unit-11/e34.mp3",
     "topicName": "Vocabulary"
@@ -663,13 +663,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Telling the Time",
     "difficulty": "medium",
-    "transcript": "[[Is|Es]] [[it|ello]] [[noon|mediodía]] [[yet|ya]]?",
+    "transcript": "[[Is it noon yet|Es ello mediodía ya]]?",
     "content": {
       "title": "[[Questions|Preguntas]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[Is|Es]] [[it|ello]] [[noon|mediodía]] [[yet|ya]]?",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[Is it noon yet|Es ello mediodía ya]]?",
       "words": ["[[noon|mediodía]]", "[[yet|ya]]?", "[[Is|Es]]", "[[it|ello]]"],
-      "explanation": "[[Yet|Ya]] [[is|se]] [[used|usa]] [[to|para]] [[ask|preguntar]] [[if|si]] [[something|algo]] [[has|ha]] [[already|ya]] [[happened|ocurrido]]."
+      "explanation": "[[Yet is used to ask if something has already happened|Ya se usa para preguntar si algo ha ya ocurrido]]."
     },
     "audioUrl": "audio/a1/unit-11/e35.mp3",
     "topicName": "Grammar"
@@ -680,16 +680,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Time Vocabulary",
     "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[study|estudio]] [[for|durante]] [[two|dos]] [[hours|horas]].",
+    "transcript": "[[I study for two hours|Yo estudio durante dos horas]].",
     "content": {
       "title": "[[Duration|Duración]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "questions": [
         {
-          "question": "[[I|Yo]] [[study|estudio]] [[for|durante]] [[two|dos]] _______.",
+          "question": "[[I study for two|Yo estudio durante dos]] _______.",
           "options": ["[[hours|horas]]", "[[clocks|relojes]]", "[[watches|relojes de pulsera]]"],
           "correctAnswer": 0,
-          "explanation": "[[We|Nosotros]] [[study|estudiamos]] [[during|durante]] [[a|un]] [[period|periodo]] [[of|de]] [[time|tiempo]] ([[hours|horas]])."
+          "explanation": "[[We study during a period of time|Nosotros estudiamos durante un periodo de tiempo]] ([[hours|horas]])."
         }
       ]
     },
@@ -702,16 +702,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Time Vocabulary",
     "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[have|tengo]] [[a|un]] [[new|nuevo]] [[watch|reloj de pulsera]].",
+    "transcript": "[[I have a new watch|Yo tengo un nuevo reloj de pulsera]].",
     "content": {
       "title": "[[Clocks|Relojes]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tengo]] [[a|un]] [[new|nuevo]] _______.",
+          "question": "[[I have a new|Yo tengo un nuevo]] _______.",
           "options": ["[[watch|reloj de pulsera]]", "[[hour|hora]]", "[[time|tiempo]]"],
           "correctAnswer": 0,
-          "explanation": "[[An|Un]] [[object|objeto]] [[that|que]] [[one|se]] [[has|tiene]] [[is|es]] [[a|un]] [[watch|reloj de pulsera]]."
+          "explanation": "[[An object that one has is a watch|Un objeto que se tiene es un reloj de pulsera]]."
         }
       ]
     },
@@ -724,16 +724,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Telling the Time",
     "difficulty": "easy",
-    "transcript": "[[It's|Son]] [[five|cinco]] [[to|para]] [[ten|diez]].",
+    "transcript": "[[It's five to ten|Son cinco para diez]].",
     "content": {
       "title": "[[9:55|9:55]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]] [[for|para]] [[9:55|9:55]].",
+      "instructions": "[[Choose the correct option for 9:55|Elige la correcta opción para 9:55]].",
       "questions": [
         {
-          "question": "[[It's|Son]] [[five|cinco]] _______ [[ten|las diez]]. (9:55)",
+          "question": "[[It's five|Son cinco]] _______ [[ten|las diez]]. (9:55)",
           "options": ["[[to|para]]", "[[past|pasada]]", "[[at|a las]]"],
           "correctAnswer": 0,
-          "explanation": "[[Five|Cinco]] [[to|para]] [[ten|diez]] [[means|significa]] [[that|que]] [[five|cinco]] [[minutes|minutos]] [[are|faltan]] [[to|para]] [[ten|las diez]]."
+          "explanation": "[[Five to ten means that five minutes are to ten|Cinco para diez significa que cinco minutos faltan para las diez]]."
         }
       ]
     },
@@ -746,16 +746,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Telling the Time",
     "difficulty": "easy",
-    "transcript": "[[It's|Son]] [[ten|diez]] [[past|pasada]] [[seven|siete]].",
+    "transcript": "[[It's ten past seven|Son diez pasada siete]].",
     "content": {
       "title": "[[7:10|7:10]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]] [[for|para]] [[7:10|7:10]].",
+      "instructions": "[[Choose the correct option for 7:10|Elige la correcta opción para 7:10]].",
       "questions": [
         {
-          "question": "[[It's|Son]] [[ten|diez]] _______ [[seven|las siete]]. (7:10)",
+          "question": "[[It's ten|Son diez]] _______ [[seven|las siete]]. (7:10)",
           "options": ["[[past|pasada]]", "[[to|para]]", "[[on|en]]"],
           "correctAnswer": 0,
-          "explanation": "[[It's|Son]] [[seven|las siete]] [[ten|diez]]."
+          "explanation": "[[It's seven ten|Son las siete diez]]."
         }
       ]
     },
@@ -768,16 +768,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Daily Routine",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[take|tomo]] [[a|una]] [[shower|ducha]] [[in|en]] [[the|la]] [[morning|mañana]].",
+    "transcript": "[[I take a shower in the morning|Yo tomo una ducha en la mañana]].",
     "content": {
       "title": "[[Routine|Rutina]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[a|una]] [[shower|ducha]] [[in|en]] [[the|la]] [[morning|mañana]].",
+          "question": "[[I shower in the morning|Yo]] _______ [[a|una ducha en la mañana]].",
           "options": ["[[take|tomo]]", "[[make|hago]]", "[[do|hago]]"],
           "correctAnswer": 0,
-          "explanation": "[[We|Nosotros]] [[use|usamos]] '[[take|tomo]] [[a|una]] [[shower|ducha]]' [[to|para]] [[showering|ducharse]]."
+          "explanation": "[[We use shower showering|Nosotros usamos]] '[[take a|tomo una ducha]]' [[to|para ducharse]]."
         }
       ]
     },
@@ -790,16 +790,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Frequency Adverbs",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[always|siempre]] [[go|voy]] [[to|a]] [[bed|la cama]] [[early|temprano]].",
+    "transcript": "[[I always go to bed early|Yo siempre voy a la cama temprano]].",
     "content": {
       "title": "[[Frequency|Frecuencia]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[go|voy]] [[to|a]] [[bed|la cama]] [[early|temprano]].",
+          "question": "[[I to bed early|Yo]] _______ [[go|voy a la cama temprano]].",
           "options": ["[[always|siempre]]", "[[never|nunca]]", "[[rarely|raramente]]"],
           "correctAnswer": 0,
-          "explanation": "[[Always|Siempre]] [[indicates|indica]] [[100%|100%]] [[of|de]] [[the|las]] [[times|veces]]."
+          "explanation": "[[Always indicates 100% of the times|Siempre indica 100% de las veces]]."
         }
       ]
     },
@@ -812,16 +812,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Frequency Adverbs",
     "difficulty": "medium",
-    "transcript": "[[She|Ella]] [[never|nunca]] [[drinks|bebe]] [[coffee|café]] [[at|por la]] [[night|noche]].",
+    "transcript": "[[She never drinks coffee at night|Ella nunca bebe café por la noche]].",
     "content": {
       "title": "[[Frequency|Frecuencia]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[drinks|bebe]] [[coffee|café]] [[at|por la]] [[night|noche]].",
+          "question": "[[She coffee at night|Ella]] _______ [[drinks|bebe café por la noche]].",
           "options": ["[[never|nunca]]", "[[often|a menudo]]", "[[usually|usualmente]]"],
           "correctAnswer": 0,
-          "explanation": "[[Never|Nunca]] [[indicates|indica]] [[0%|0%]] [[of|de]] [[the|las]] [[times|veces]]."
+          "explanation": "[[Never indicates 0% of the times|Nunca indica 0% de las veces]]."
         }
       ]
     },
@@ -834,16 +834,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Telling the Time",
     "difficulty": "medium",
-    "transcript": "[[The|El]] [[train|tren]] [[leaves|sale]] [[at|a las]] [[six|seis]] [[forty-five|cuarenta y cinco]].",
+    "transcript": "[[The train leaves at six forty-five|El tren sale a las seis cuarenta y cinco]].",
     "content": {
       "title": "[[6:45|6:45]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]] [[for|para]] [[6:45|6:45]].",
+      "instructions": "[[Choose the correct option for 6:45|Elige la correcta opción para 6:45]].",
       "questions": [
         {
-          "question": "[[The|El]] [[train|tren]] [[leaves|sale]] [[at|a las]] [[six|seis]] _______.",
+          "question": "[[The train leaves at six|El tren sale a las seis]] _______.",
           "options": ["[[forty-five|cuarenta y cinco]]", "[[fifty-five|cincuenta y cinco]]", "[[thirty-five|treinta y cinco]]"],
           "correctAnswer": 0,
-          "explanation": "[[Forty-five|Cuarenta y cinco]] [[is|es]] [[45|45]]."
+          "explanation": "[[Forty-five is 45|Cuarenta y cinco es 45]]."
         }
       ]
     },
@@ -856,16 +856,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Telling the Time",
     "difficulty": "medium",
-    "transcript": "[[It|Eso]] [[is|es]] [[exactly|exactamente]] [[three|tres]] [[PM|PM]].",
+    "transcript": "[[It is exactly three PM|Eso es exactamente tres PM]].",
     "content": {
-      "title": "[[Exact|Exacta]] [[Hour|Hora]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "title": "[[Exact Hour|Exacta Hora]]",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "questions": [
         {
-          "question": "[[It|Es]] [[is|las]] _______ [[three|tres]] [[PM|PM]].",
+          "question": "[[It is|Es las]] _______ [[three PM|tres PM]].",
           "options": ["[[exactly|exactamente]]", "[[almost|casi]]", "[[about|alrededor de]]"],
           "correctAnswer": 0,
-          "explanation": "[[Exactly|Exactamente]] [[means|significa]] [[that|que]] [[it|es]] [[is|es]] [[the|la]] [[precise|exacta]] [[hour|hora]]."
+          "explanation": "[[Exactly means that it is the precise hour|Exactamente significa que es es la exacta hora]]."
         }
       ]
     },
@@ -878,13 +878,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Daily Routine",
     "difficulty": "hard",
-    "transcript": "[[I|Yo]] [[usually|usualmente]] [[start|comienzo]] [[work|trabajo]] [[at|a las]] [[nine|nueve]] [[in|en]] [[the|la]] [[morning|mañana]].",
+    "transcript": "[[I usually start work at nine in the morning|Yo usualmente comienzo trabajo a las nueve en la mañana]].",
     "content": {
-      "title": "[[Full|Completa]] [[Routine|Rutina]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[I|Yo]] [[usually|usualmente]] [[start|comienzo]] [[work|trabajo]] [[at|a las]] [[nine|nueve]] [[in|en]] [[the|la]] [[morning|mañana]].",
+      "title": "[[Full Routine|Completa Rutina]]",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[I usually start work at nine in the morning|Yo usualmente comienzo trabajo a las nueve en la mañana]].",
       "words": ["[[work|trabajo]]", "[[usually|usualmente]]", "[[morning|mañana]].", "[[at|a las]]", "[[the|la]]", "[[start|comienzo]]", "[[nine|nueve]]", "[[in|en]]", "[[I|Yo]]"],
-      "explanation": "[[Combining|Combinando]] [[adverbs|adverbios]], [[verbs|verbos]] [[and|y]] [[prepositions|preposiciones]] [[of|de]] [[time|tiempo]]."
+      "explanation": "[[Combining adverbs, verbs and prepositions of time|Combinando adverbios, verbos y preposiciones de tiempo]]."
     },
     "audioUrl": "audio/a1/unit-11/e46.mp3",
     "topicName": "Grammar"
@@ -895,13 +895,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Daily Routine",
     "difficulty": "hard",
-    "transcript": "[[What|Qué]] [[time|hora]] [[does|aux]] [[your|tu]] [[father|padre]] [[arrive|llega]] [[home|a casa]]?",
+    "transcript": "[[What time does your father arrive home|Qué hora aux tu padre llega a casa]]?",
     "content": {
       "title": "[[Questions|Preguntas]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[What|Qué]] [[time|hora]] [[does|aux]] [[your|tu]] [[father|padre]] [[arrive|llega]] [[home|a casa]]?",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[What time does your father arrive home|Qué hora aux tu padre llega a casa]]?",
       "words": ["[[arrive|llega]]", "[[father|padre]]", "[[home|a casa]]?", "[[does|aux]]", "[[time|hora]]", "[[your|tu]]", "[[What|Qué]]"],
-      "explanation": "[[Structure|Estructura]]: [[What|Qué]] [[time|hora]] + [[does|aux]] + [[subject|sujeto]] + [[verb|verbo]] + [[object|objeto]]?"
+      "explanation": "[[Structure time: What|Estructura: Qué hora]] + [[does|aux]] + [[subject|sujeto]] + [[verb|verbo]] + [[object|objeto]]?"
     },
     "audioUrl": "audio/a1/unit-11/e47.mp3",
     "topicName": "Grammar"
@@ -912,13 +912,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Telling the Time",
     "difficulty": "hard",
-    "transcript": "[[The|La]] [[lesson|lección]] [[is|es]] [[from|de]] [[two|dos]] [[to|a]] [[four|cuatro]] [[PM|PM]].",
+    "transcript": "[[The lesson is from two to four PM|La lección es de dos a cuatro PM]].",
     "content": {
       "title": "[[Duration|Duración]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[The|La]] [[lesson|lección]] [[is|es]] [[from|de]] [[two|dos]] [[to|a]] [[four|cuatro]] [[PM|PM]].",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[The lesson is from two to four PM|La lección es de dos a cuatro PM]].",
       "words": ["[[to|a]]", "[[four|cuatro]]", "[[lesson|lección]]", "[[from|de]]", "[[two|dos]]", "[[is|es]]", "[[PM|PM]].", "[[The|La]]"],
-      "explanation": "[[We|Nosotros]] [[use|usamos]] '[[from|de]] ... [[to|a]] ...' [[to|para]] [[indicate|indicar]] [[a|un]] [[range|rango]] [[of|de]] [[time|tiempo]]."
+      "explanation": "[[We use a range of time|Nosotros usamos]] '[[from indicate|de]] ... [[to|a]] ...' [[to|para indicar un rango de tiempo]]."
     },
     "audioUrl": "audio/a1/unit-11/e48.mp3",
     "topicName": "Grammar"
@@ -929,13 +929,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Time",
     "difficulty": "hard",
-    "transcript": "[[I|Yo]] [[need|necesito]] [[to|que]] [[go|irme]] [[now|ahora]] [[because|porque]] [[I|yo]] [[am|estoy]] [[late|retrasado]].",
+    "transcript": "[[I need to go now because I am late|Yo necesito que irme ahora porque yo estoy retrasado]].",
     "content": {
       "title": "[[Explanations|Explicaciones]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[I|Yo]] [[need|necesito]] [[to|que]] [[go|irme]] [[now|ahora]] [[because|porque]] [[I|yo]] [[am|estoy]] [[late|retrasado]].",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[I need to go now because I am late|Yo necesito que irme ahora porque yo estoy retrasado]].",
       "words": ["[[now|ahora]]", "[[need|necesito]]", "[[I|yo]]", "[[late|retrasado]].", "[[because|porque]]", "[[go|irme]]", "[[to|que]]", "[[am|estoy]]", "[[I|Yo]]"],
-      "explanation": "[[Combining|Combinando]] [[two|dos]] [[sentences|oraciones]] [[with|con]] '[[because|porque]]'."
+      "explanation": "[[Combining two sentences with|Combinando dos oraciones con]] '[[because|porque]]'."
     },
     "audioUrl": "audio/a1/unit-11/e49.mp3",
     "topicName": "Vocabulary"
@@ -946,13 +946,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Daily Routine",
     "difficulty": "hard",
-    "transcript": "[[She|Ella]] [[sometimes|a veces]] [[has|toma]] [[a|una]] [[snack|merienda]] [[in|en]] [[the|la]] [[afternoon|tarde]].",
+    "transcript": "[[She sometimes has a snack in the afternoon|Ella a veces toma una merienda en la tarde]].",
     "content": {
       "title": "[[Routine|Rutina]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[She|Ella]] [[sometimes|a veces]] [[has|toma]] [[a|una]] [[snack|merienda]] [[in|en]] [[the|la]] [[afternoon|tarde]].",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[She sometimes has a snack in the afternoon|Ella a veces toma una merienda en la tarde]].",
       "words": ["[[snack|merienda]]", "[[sometimes|a veces]]", "[[afternoon|tarde]].", "[[the|la]]", "[[in|en]]", "[[has|toma]]", "[[a|una]]", "[[She|Ella]]"],
-      "explanation": "[[Use|Uso]] [[of|de]] [[adverb|adverbio]] [[of|de]] [[frequency|frecuencia]] [[with|con]] [[the|la]] [[third|tercera]] [[person|persona]] [[of|de]] [[the|el]] [[singular|singular]]."
+      "explanation": "[[Use of adverb of frequency with the third person of the singular|Uso de adverbio de frecuencia con la tercera persona de el singular]]."
     },
     "audioUrl": "audio/a1/unit-11/e50.mp3",
     "topicName": "Grammar"
@@ -964,29 +964,29 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Peter|Peter]]. [[I|Yo]] [[get|levanto]] [[up|up]] [[at|a las]] [[six|seis]] [[o'clock|en punto]] [[every|cada]] [[day|día]]. [[I|Yo]] [[have|tomo]] [[breakfast|desayuno]] [[at|a las]] [[six-thirty|seis y media]]. [[Then|Luego]] [[I|yo]] [[go|voy]] [[to|a]] [[work|trabajo]] [[at|a las]] [[seven|siete]]. [[I|Yo]] [[finish|termino]] [[work|trabajo]] [[at|a las]] [[four|cuatro]] [[PM|PM]]. [[I|Yo]] [[am|estoy]] [[usually|usualmente]] [[home|casa]] [[at|a las]] [[four-thirty|cuatro y media]]. [[I|Yo]] [[have|tomo]] [[dinner|cena]] [[at|a las]] [[eight|ocho]] [[and|y]] [[go|voy]] [[to|a]] [[bed|cama]] [[at|a las]] [[ten|diez]].",
+    "transcript": "[[My name. I get is Peter up at. I have six o'clock every day breakfast at. Then six-thirty I go to. I work at seven finish work at. I am four PM usually home. I have at four-thirty dinner at eight and go to bed at ten|Mi nombre es Peter. Yo levanto up a las seis en punto cada día. Yo tomo desayuno a las seis y media. Luego yo voy a trabajo a las siete. Yo termino trabajo a las cuatro PM. Yo estoy usualmente casa a las cuatro y media. Yo tomo cena a las ocho y voy a cama a las diez]].",
     "content": {
-      "title": "[[Reading|Lectura]]: [[Peter's|de Peter]] [[Routine|Rutina]]",
-      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+      "title": "[[Reading Routine: Peter's|Lectura: de Peter Rutina]]",
+      "instructions": "[[Read the text and answer|Lee el texto y responde]].",
       "text": "My name is Peter. I get up at six o'clock every day. I have breakfast at six-thirty. Then I go to work at seven. I finish work at four PM. I am usually home at four-thirty. I have dinner at eight and go to bed at ten.",
       "questions": [
         {
-          "question": "[[What|A qué]] [[time|hora]] [[does|aux]] [[Peter|Peter]] [[get|levanta]] [[up|up]]?",
+          "question": "[[What time does Peter get up|A qué hora aux Peter levanta up]]?",
           "options": ["[[Six o'clock|Las seis]]", "[[Seven o'clock|Las siete]]", "[[Eight o'clock|Las ocho]]"],
           "correctAnswer": 0,
-          "explanation": "[[Peter|Peter]] [[says|dice]]: '[[I|Yo]] [[get|levanto]] [[up|up]] [[at|a las]] [[six|seis]] [[o'clock|en punto]]'."
+          "explanation": "[[Peter says up at six o'clock|Peter dice]]: '[[I get|Yo levanto up a las seis en punto]]'."
         },
         {
-          "question": "[[When|Cuándo]] [[does|aux]] [[he|él]] [[finish|termina]] [[work|trabajo]]?",
+          "question": "[[When does he finish work|Cuándo aux él termina trabajo]]?",
           "options": ["[[At 4:00 PM|A las 4:00 PM]]", "[[At 7:00 AM|A las 7:00 AM]]", "[[At 8:00 PM|A las 8:00 PM]]"],
           "correctAnswer": 0,
-          "explanation": "[[Peter|Peter]] [[says|dice]]: '[[I|Yo]] [[finish|termino]] [[work|trabajo]] [[at|a las]] [[four|cuatro]] [[PM|PM]]'."
+          "explanation": "[[Peter says work at four PM|Peter dice]]: '[[I finish|Yo termino trabajo a las cuatro PM]]'."
         },
         {
-          "question": "[[What|A qué]] [[time|hora]] [[does|aux]] [[he|él]] [[go|va]] [[to|a]] [[bed|cama]]?",
+          "question": "[[What time does he go to bed|A qué hora aux él va a cama]]?",
           "options": ["[[At 10:00 PM|A las 10:00 PM]]", "[[At 8:00 PM|A las 8:00 PM]]", "[[At 6:00 AM|A las 6:00 AM]]"],
           "correctAnswer": 0,
-          "explanation": "[[Peter|Peter]] [[says|dice]]: '[[go|voy]] [[to|a]] [[bed|cama]] [[at|a las]] [[ten|diez]]'."
+          "explanation": "[[Peter says bed at ten|Peter dice]]: '[[go to|voy a cama a las diez]]'."
         }
       ]
     },
@@ -998,29 +998,29 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "medium",
-    "transcript": "[[Emma|Emma]] [[is|es]] [[a|una]] [[student|estudiante]]. [[Her|Su]] [[school|escuela]] [[starts|comienza]] [[at|a las]] [[nine|nueve]] [[o'clock|en punto]]. [[She|Ella]] [[leaves|sale]] [[home|casa]] [[at|a las]] [[eight-fifteen|ocho y cuarto]]. [[She|Ella]] [[has|tiene]] [[classes|clases]] [[in|en]] [[the|la]] [[morning|mañana]] [[and|y]] [[afternoon|tarde]]. [[She|Ella]] [[eats|come]] [[lunch|almuerzo]] [[with|con]] [[her|sus]] [[friends|amigos]] [[at|a las]] [[twelve-thirty|doce y media]]. [[She|Ella]] [[goes|va]] [[home|casa]] [[at|a las]] [[three|tres]] [[PM|PM]] [[and|y]] [[does|hace]] [[her|sus]] [[homework|deberes]].",
+    "transcript": "[[Emma is. Her school a student starts at. She leaves nine o'clock home at. She eight-fifteen has classes in. She eats the morning and afternoon lunch with. She goes her friends at twelve-thirty home at three PM and does her homework|Emma es una estudiante. Su escuela comienza a las nueve en punto. Ella sale casa a las ocho y cuarto. Ella tiene clases en la mañana y tarde. Ella come almuerzo con sus amigos a las doce y media. Ella va casa a las tres PM y hace sus deberes]].",
     "content": {
-      "title": "[[Reading|Lectura]]: [[Emma|Emma]] [[at|en]] [[School|la Escuela]]",
-      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+      "title": "[[Reading at: Emma School|Lectura: Emma en la Escuela]]",
+      "instructions": "[[Read the text and answer|Lee el texto y responde]].",
       "text": "Emma is a student. Her school starts at nine o'clock. She leaves home at eight-fifteen. She has classes in the morning and afternoon. She eats lunch with her friends at twelve-thirty. She goes home at three PM and does her homework.",
       "questions": [
         {
-          "question": "[[What|A qué]] [[time|hora]] [[does|aux]] [[school|escuela]] [[start|comienza]]?",
+          "question": "[[What time does school start|A qué hora aux escuela comienza]]?",
           "options": ["[[At 9:00 AM|A las 9:00 AM]]", "[[At 8:15 AM|A las 8:15 AM]]", "[[At 12:30 PM|A las 12:30 PM]]"],
           "correctAnswer": 0,
-          "explanation": "[[Emma|Emma]] [[says|dice]]: '[[school|escuela]] [[starts|comienza]] [[at|a las]] [[nine|nueve]] [[o'clock|en punto]]'."
+          "explanation": "[[Emma says at nine o'clock|Emma dice]]: '[[school starts|escuela comienza a las nueve en punto]]'."
         },
         {
-          "question": "[[When|Cuándo]] [[does|aux]] [[she|ella]] [[eat|come]] [[lunch|almuerzo]]?",
+          "question": "[[When does she eat lunch|Cuándo aux ella come almuerzo]]?",
           "options": ["[[At 12:30 PM|A las 12:30 PM]]", "[[At 3:00 PM|A las 3:00 PM]]", "[[At 9:00 AM|A las 9:00 AM]]"],
           "correctAnswer": 0,
-          "explanation": "[[Emma|Emma]] [[says|dice]]: '[[eats|come]] [[lunch|almuerzo]] ... [[at|a las]] [[twelve-thirty|doce y media]]'."
+          "explanation": "[[Emma says|Emma dice]]: '[[eats lunch|come almuerzo]] ... [[at twelve-thirty|a las doce y media]]'."
         },
         {
-          "question": "[[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]] [[at|a las]] [[three|tres]] [[PM|PM]]?",
+          "question": "[[What does she do at three PM|Qué hace ella hace a las tres PM]]?",
           "options": ["[[She goes home|Ella va a casa]]", "[[She goes to school|Ella va a la escuela]]", "[[She eats breakfast|Ella desayuna]]"],
           "correctAnswer": 0,
-          "explanation": "[[Emma|Emma]] [[says|dice]]: '[[She|Ella]] [[goes|va]] [[home|casa]] [[at|a las]] [[three|tres]] [[PM|PM]]'."
+          "explanation": "[[Emma says home at three PM|Emma dice]]: '[[She goes|Ella va casa a las tres PM]]'."
         }
       ]
     },
@@ -1032,29 +1032,29 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "medium",
-    "transcript": "[[John|John]] [[is|es]] [[a|un]] [[doctor|doctor]]. [[He|Él]] [[works|trabaja]] [[at|por la]] [[night|noche]] [[in|en]] [[a|un]] [[hospital|hospital]]. [[He|Él]] [[starts|comienza]] [[his|su]] [[work|trabajo]] [[at|a las]] [[eight|ocho]] [[PM|PM]] [[and|y]] [[finishes|termina]] [[at|a las]] [[six|seis]] [[AM|AM]]. [[He|Él]] [[is|está]] [[very|muy]] [[tired|cansado]] [[in|en]] [[the|la]] [[morning|mañana]]. [[He|Él]] [[sleeps|duerme]] [[from|de]] [[eight|ocho]] [[AM|AM]] [[to|a]] [[four|cuatro]] [[PM|PM]]. [[He|Él]] [[has|toma]] [[breakfast|desayuno]] [[at|a las]] [[five|cinco]] [[PM|PM]] [[before|antes]] [[he|él]] [[goes|va]] [[to|a]] [[work|trabajo]].",
+    "transcript": "[[John is. He works a doctor at night. He in a hospital starts his work. He is at eight PM and finishes at six AM very tired. He in the morning sleeps from eight. He has AM to four PM breakfast at five PM before he goes to work|John es un doctor. Él trabaja por la noche en un hospital. Él comienza su trabajo a las ocho PM y termina a las seis AM. Él está muy cansado en la mañana. Él duerme de ocho AM a cuatro PM. Él toma desayuno a las cinco PM antes él va a trabajo]].",
     "content": {
-      "title": "[[Reading|Lectura]]: [[John's|de John]] [[Schedule|Horario]]",
-      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+      "title": "[[Reading Schedule: John's|Lectura: de John Horario]]",
+      "instructions": "[[Read the text and answer|Lee el texto y responde]].",
       "text": "John is a doctor. He works at night in a hospital. He starts his work at eight PM and finishes at six AM. He is very tired in the morning. He sleeps from eight AM to four PM. He has breakfast at five PM before he goes to work.",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[does|aux]] [[John|John]] [[work|trabaja]]?",
+          "question": "[[When does John work|Cuándo aux John trabaja]]?",
           "options": ["[[At night|Por la noche]]", "[[In the morning|Por la mañana]]", "[[In the afternoon|Por la tarde]]"],
           "correctAnswer": 0,
-          "explanation": "[[John|John]] [[says|dice]]: '[[He|Él]] [[works|trabaja]] [[at|por la]] [[night|noche]]'."
+          "explanation": "[[John says at night|John dice]]: '[[He works|Él trabaja por la noche]]'."
         },
         {
-          "question": "[[What|A qué]] [[time|hora]] [[does|aux]] [[he|él]] [[finish|termina]] [[work|trabajo]]?",
+          "question": "[[What time does he finish work|A qué hora aux él termina trabajo]]?",
           "options": ["[[At 6:00 AM|A las 6:00 AM]]", "[[At 8:00 PM|A las 8:00 PM]]", "[[At 5:00 PM|A las 5:00 PM]]"],
           "correctAnswer": 0,
-          "explanation": "[[John|John]] [[says|dice]]: '[[finishes|termina]] [[at|a las]] [[six|seis]] [[AM|AM]]'."
+          "explanation": "[[John says six AM|John dice]]: '[[finishes at|termina a las seis AM]]'."
         },
         {
-          "question": "[[When|Cuándo]] [[does|aux]] [[he|él]] [[sleep|duerme]]?",
+          "question": "[[When does he sleep|Cuándo aux él duerme]]?",
           "options": ["[[From 8:00 AM to 4:00 PM|De 8:00 AM a 4:00 PM]]", "[[From 8:00 PM to 6:00 AM|De 8:00 PM a 6:00 AM]]", "[[In the evening|Por la tarde]]"],
           "correctAnswer": 0,
-          "explanation": "[[John|John]] [[says|dice]]: '[[He|Él]] [[sleeps|duerme]] [[from|de]] [[eight|ocho]] [[AM|AM]] [[to|a]] [[four|cuatro]] [[PM|PM]]'."
+          "explanation": "[[John says from eight AM to four PM|John dice]]: '[[He sleeps|Él duerme de ocho AM a cuatro PM]]'."
         }
       ]
     },
@@ -1066,23 +1066,23 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "medium",
-    "transcript": "[[Today|Hoy]] [[is|es]] [[Saturday|Sábado]]. [[I|Yo]] [[am|estoy]] [[not|no]] [[at|en]] [[work|trabajo]]. [[I|Yo]] [[usually|usualmente]] [[get|levanto]] [[up|up]] [[late|tarde]] [[at|a las]] [[ten|diez]] [[o'clock|en punto]]. [[I|Yo]] [[have|tomo]] [[a|un]] [[long|largo]] [[breakfast|desayuno]] [[with|con]] [[my|mi]] [[family|familia]]. [[In|En]] [[the|la]] [[afternoon|tarde]], [[we|nosotros]] [[go|vamos]] [[to|a]] [[the|el]] [[park|parque]]. [[We|Nosotros]] [[have|tomamos]] [[dinner|cena]] [[at|a las]] [[seven|siete]] [[PM|PM]] [[and|y]] [[then|luego]] [[we|nosotros]] [[watch|vemos]] [[a|una]] [[movie|película]]. [[I|Yo]] [[love|amo]] [[Saturdays|Sábados]]!",
+    "transcript": "[[Today is. I Saturday am not at. I work usually get up. I have late at ten o'clock a long. In the breakfast with my family afternoon go, we to the. We park have dinner at. I love seven PM and then we watch a movie Saturdays|Hoy es Sábado. Yo estoy no en trabajo. Yo usualmente levanto up tarde a las diez en punto. Yo tomo un largo desayuno con mi familia. En la tarde, nosotros vamos a el parque. Nosotros tomamos cena a las siete PM y luego nosotros vemos una película. Yo amo Sábados]]!",
     "content": {
-      "title": "[[Reading|Lectura]]: [[My|Mi]] [[Saturday|Sábado]]",
-      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+      "title": "[[Reading Saturday: My|Lectura: Mi Sábado]]",
+      "instructions": "[[Read the text and answer|Lee el texto y responde]].",
       "text": "Today is Saturday. I am not at work. I usually get up late at ten o'clock. I have a long breakfast with my family. In the afternoon, we go to the park. We have dinner at seven PM and then we watch a movie. I love Saturdays!",
       "questions": [
         {
-          "question": "[[What|A qué]] [[time|hora]] [[does|aux]] [[the|la]] [[person|persona]] [[get|levanta]] [[up|up]] [[on|los]] [[Saturdays|Sábados]]?",
+          "question": "[[What time does the person get up on Saturdays|A qué hora aux la persona levanta up los Sábados]]?",
           "options": ["[[At 10:00 AM|A las 10:00 AM]]", "[[At 7:00 AM|A las 7:00 AM]]", "[[At 6:00 AM|A las 6:00 AM]]"],
           "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: '[[get|levanto]] [[up|up]] [[late|tarde]] [[at|a las]] [[ten|diez]] [[o'clock|en punto]]'."
+          "explanation": "[[The text says up ten o'clock|El texto dice]]: '[[get late at|levanto up tarde a las diez en punto]]'."
         },
         {
-          "question": "[[What|Qué]] [[does|hace]] [[the|la]] [[family|familia]] [[do|hace]] [[in|en]] [[the|la]] [[afternoon|tarde]]?",
+          "question": "[[What does the family do in the afternoon|Qué hace la familia hace en la tarde]]?",
           "options": ["[[They go to the park|Van al parque]]", "[[They go to work|Van al trabajo]]", "[[They go to school|Van a la escuela]]"],
           "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: '[[we|nosotros]] [[go|vamos]] [[to|a]] [[the|el]] [[park|parque]]'."
+          "explanation": "[[The text says go park|El texto dice]]: '[[we to the|nosotros vamos a el parque]]'."
         }
       ]
     },
@@ -1095,13 +1095,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Time Expressions",
     "difficulty": "medium",
-    "transcript": "[[See|Nos vemos]] [[you|te]] [[soon|pronto]]!",
+    "transcript": "[[See you soon|Nos vemos te pronto]]!",
     "content": {
       "title": "[[Farewells|Despedidas]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Choose the correct word|Elige la correcta palabra]].",
       "options": ["[[soon|pronto]]", "[[late|tarde]]", "[[never|nunca]]"],
       "correctAnswer": 0,
-      "explanation": "'[[See|Nos vemos]] [[you|te]] [[soon|pronto]]' [[is|es]] [[a|una]] [[common|común]] [[way|forma]] [[to|de]] [[say|decir]] [[goodbye|adiós]]."
+      "explanation": "'[[See you soon a to say goodbye|Nos vemos te pronto]]' [[is common way|es una común forma de decir adiós]]."
     },
     "topicName": "Vocabulary"
   },
@@ -1111,13 +1111,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Time Expressions",
     "difficulty": "medium",
-    "transcript": "[[It's|Es]] [[time|hora]] [[to|de]] [[go|ir]].",
+    "transcript": "[[It's time to go|Es hora de ir]].",
     "content": {
       "title": "[[Expressions|Expresiones]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|oración]].",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "options": ["[[time|hora]]", "[[clock|reloj]]", "[[watch|reloj de pulsera]]"],
       "correctAnswer": 0,
-      "explanation": "'[[It's|Es]] [[time|hora]] [[to|de]] [[go|ir]]' [[means|significa]] [[it|ya]] [[is|es]] [[the|el]] [[moment|momento]] [[to|de]] [[leave|irse]]."
+      "explanation": "'[[It's time to go moment to leave|Es hora de ir]]' [[means it is the|significa ya es el momento de irse]]."
     },
     "topicName": "Vocabulary"
   },
@@ -1127,13 +1127,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Grammar",
     "difficulty": "easy",
-    "transcript": "[[Are|¿Son]] [[they|ellos]] [[on|a]] [[time|tiempo]]?",
+    "transcript": "[[Are they on time|¿Son ellos a tiempo]]?",
     "content": {
       "title": "[[Punctuality|Puntualidad]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[preposition|preposición]].",
+      "instructions": "[[Choose the correct preposition|Elige la correcta preposición]].",
       "options": ["[[on|a]]", "[[at|en]]", "[[in|en]]"],
       "correctAnswer": 0,
-      "explanation": "'[[On|A]] [[time|tiempo]]' [[means|significa]] [[being|estar]] [[punctual|puntual]]."
+      "explanation": "'[[On time punctual|A tiempo]]' [[means being|significa estar puntual]]."
     },
     "topicName": "Grammar"
   },
@@ -1143,13 +1143,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Daily Routine",
     "difficulty": "medium",
-    "transcript": "[[The|El]] [[store|tienda]] [[closes|cierra]] [[at|a las]] [[midnight|medianoche]].",
+    "transcript": "[[The store closes at midnight|El tienda cierra a las medianoche]].",
     "content": {
       "title": "[[Schedules|Horarios]]",
-      "instructions": "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[order|orden]].",
-      "correctSentence": "[[The|La]] [[store|tienda]] [[closes|cierra]] [[at|a las]] [[midnight|medianoche]].",
+      "instructions": "[[Put the words in order|Pon las palabras en orden]].",
+      "correctSentence": "[[The store closes at midnight|La tienda cierra a las medianoche]].",
       "words": ["[[at|a las]]", "[[midnight|medianoche]].", "[[store|tienda]]", "[[The|La]]", "[[closes|cierra]]"],
-      "explanation": "[[Midnight|Medianoche]] [[is|es]] [[12:00|12:00]] [[AM|AM]]."
+      "explanation": "[[Midnight is 12:00 AM|Medianoche es 12:00 AM]]."
     },
     "audioUrl": "audio/a1/unit-11/e58.mp3",
     "topicName": "Vocabulary"
@@ -1160,13 +1160,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Grammar",
     "difficulty": "medium",
-    "transcript": "[[Do|¿Haces]] [[you|tú]] [[have|tienes]] [[time|tiempo]]?",
+    "transcript": "[[Do you have time|¿Haces tú tienes tiempo]]?",
     "content": {
-      "title": "[[Asking|Preguntando]] [[for|por]] [[Availability|Disponibilidad]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[auxiliary|auxiliar]] [[correct|correcto]].",
+      "title": "[[Asking for Availability|Preguntando por Disponibilidad]]",
+      "instructions": "[[Choose the auxiliary correct|Elige el auxiliar correcto]].",
       "options": ["[[Do|¿Haces]]", "[[Does|¿Hace]]", "[[Are|¿Eres]]"],
       "correctAnswer": 0,
-      "explanation": "[[We|Nosotros]] [[use|usamos]] '[[Do|Do]]' [[for|para]] [[questions|preguntas]] [[with|con]] '[[you|tú]]' [[in|en]] [[Present|Presente]] [[Simple|Simple]]."
+      "explanation": "[[We use with Present|Nosotros usamos]] '[[Do questions|Do]]' [[for|para preguntas con]] '[[you Simple|tú]]' [[in|en Presente Simple]]."
     },
     "topicName": "Grammar"
   },
@@ -1176,13 +1176,13 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Vocabulary",
     "difficulty": "easy",
-    "transcript": "[[Every|Cada]] [[second|segundo]] [[counts|cuenta]].",
+    "transcript": "[[Every second counts|Cada segundo cuenta]].",
     "content": {
       "title": "[[Motivation|Motivación]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+      "instructions": "[[Choose the correct word|Elige la correcta palabra]].",
       "options": ["[[second|segundo]]", "[[clock|reloj]]", "[[watch|reloj de pulsera]]"],
       "correctAnswer": 0,
-      "explanation": "[[Second|Segundo]] [[is|es]] [[the|la]] [[smallest|más pequeña]] [[unit|unidad]] [[of|de]] [[time|tiempo]] [[here|aquí]]."
+      "explanation": "[[Second is the smallest unit of time here|Segundo es la más pequeña unidad de tiempo aquí]]."
     },
     "topicName": "Vocabulary"
   }

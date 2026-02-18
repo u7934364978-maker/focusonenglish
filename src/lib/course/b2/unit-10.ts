@@ -12,7 +12,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ahorro para la vivienda",
       "instructions": "Ordena las palabras para hablar de planes financieros.",
-      "correctSentence": "[[She|Ella]] [[has|ha]] [[been|estado]] [[saving|ahorrando]] [[up| ]] [[for|para]] [[a|el]] [[down|pago]] [[payment|inicial]] [[on|de]] [[a|una]] [[house.|casa.]]",
+      "correctSentence": "[[She has been saving up for a down payment on a house.|Ella ha estado ahorrando   para el pago inicial de una casa.]]",
       "words": [
         "[[saving|ahorrando]]",
         "[[has|ha]]",
@@ -43,7 +43,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Préstamo rechazado",
       "instructions": "Ordena las palabras para describir un trámite bancario.",
-      "correctSentence": "[[The|El]] [[bank|banco]] [[turned|rechazó]] [[down| ]] [[his|su]] [[application|solicitud]] [[for|de]] [[a|un]] [[personal|préstamo]] [[loan.|personal.]]",
+      "correctSentence": "[[The bank turned down his application for a personal loan.|El banco rechazó   su solicitud de un préstamo personal.]]",
       "words": [
         "[[turned|rechazó]]",
         "[[bank|banco]]",
@@ -72,7 +72,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Comisiones ocultas",
       "instructions": "Ordena las palabras usando inversión en el tercer condicional.",
-      "correctSentence": "[[Had|Si]] [[I|yo]] [[known|hubiera]] [[about|sabido]] [[the|lo]] [[hidden|de]] [[fees,|las comisiones ocultas,]] [[I|no]] [[wouldn't|habría]] [[have|firmado.]] [[signed.| ]]",
+      "correctSentence": "[[Had I known about the hidden fees, I wouldn't have signed.|Si yo hubiera sabido lo de las comisiones ocultas, no habría firmado.  ]]",
       "words": [
         "[[hidden|de]]",
         "[[known|hubiera]]",
@@ -102,7 +102,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Control de gastos",
       "instructions": "Ordena las palabras usando el subjuntivo formal.",
-      "correctSentence": "[[It|Es]] [[is|vital]] [[vital|que]] [[that|mantengamos]] [[we|nuestros]] [[keep|gastos]] [[our|bajo]] [[expenses|control.]] [[under| ]] [[control.| ]]",
+      "correctSentence": "[[It is vital that we keep our expenses under control.|Es vital que mantengamos nuestros gastos bajo control.    ]]",
       "words": [
         "[[keep|gastos]]",
         "[[It|Es]]",
@@ -131,7 +131,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Llegar a fin de mes",
       "instructions": "Ordena las palabras para hablar de dificultades económicas.",
-      "correctSentence": "[[Many|A muchas]] [[families|familias]] [[find|les resulta]] [[it|difícil]] [[hard|llegar]] [[to|a fin]] [[make|de mes]] [[ends|hoy en día.]] [[meet| ]] [[nowadays.| ]]",
+      "correctSentence": "[[Many families find it hard to make ends meet nowadays.|A muchas familias les resulta difícil llegar a fin de mes hoy en día.    ]]",
       "words": [
         "[[find|les resulta]]",
         "[[families|familias]]",
@@ -160,7 +160,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mercado bursátil",
       "instructions": "Ordena las palabras para describir la bolsa.",
-      "correctSentence": "[[The|El]] [[stock|mercado]] [[market|bursátil]] [[has|ha]] [[been|estado]] [[volatile|volátil]] [[over|durante]] [[the|el]] [[past|último]] [[month.|mes.]]",
+      "correctSentence": "[[The stock market has been volatile over the past month.|El mercado bursátil ha estado volátil durante el último mes.]]",
       "words": [
         "[[stock|mercado]]",
         "[[has|ha]]",
@@ -189,7 +189,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hipoteca",
       "instructions": "Ordena las palabras para hablar de compras inmobiliarias.",
-      "correctSentence": "[[He|Él]] [[takes|pide]] [[out|una]] [[a|hipoteca]] [[large|grande]] [[mortgage|para]] [[to|comprar]] [[buy|su]] [[his|primer]] [[first|apartamento.]] [[apartment.| ]]",
+      "correctSentence": "[[He takes out a large mortgage to buy his first apartment.|Él pide una hipoteca grande para comprar su primer apartamento.  ]]",
       "words": [
         "[[mortgage|para]]",
         "[[takes|pide]]",
@@ -219,7 +219,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Recorte de gastos",
       "instructions": "Ordena las palabras para hablar de ahorro corporativo.",
-      "correctSentence": "[[We|Debemos]] [[must|reducir]] [[cut|los]] [[down|gastos]] [[on|innecesarios]] [[unnecessary|este]] [[spending|trimestre.]] [[this| ]] [[quarter.| ]]",
+      "correctSentence": "[[We must cut down on unnecessary spending this quarter.|Debemos reducir los gastos innecesarios este trimestre.    ]]",
       "words": [
         "[[must|reducir]]",
         "[[cut|los]]",
@@ -247,7 +247,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Deuda liquidada",
       "instructions": "Ordena las palabras usando el futuro perfecto.",
-      "correctSentence": "[[By|Para]] [[the|finales]] [[end|del]] [[of|año]] [[next|que]] [[year,|viene,]] [[I|habré]] [[will|liquidado]] [[have|mi]] [[paid|deuda.]] [[off| ]] [[my| ]] [[debt.| ]]",
+      "correctSentence": "[[By the end of next year, I will have paid off my debt.|Para finales del año que viene, habré liquidado mi deuda.      ]]",
       "words": [
         "[[year,|viene,]]",
         "[[paid|deuda.]]",
@@ -279,7 +279,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inversiones en startups",
       "instructions": "Ordena las palabras para hablar de negocios.",
-      "correctSentence": "[[Investments|Las inversiones]] [[in|en]] [[startups|startups]] [[can|pueden]] [[be|ser]] [[highly|muy]] [[lucrative|lucrativas]] [[but|pero]] [[risky.|arriesgadas.]]",
+      "correctSentence": "[[Investments in startups can be highly lucrative but risky.|Las inversiones en startups pueden ser muy lucrativas pero arriesgadas.]]",
       "words": [
         "[[can|pueden]]",
         "[[lucrative|lucrativas]]",
@@ -307,7 +307,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inflación y crisis",
       "instructions": "Ordena las palabras usando inversión con 'Scarcely'.",
-      "correctSentence": "[[Scarcely|Apenas]] [[had|habían]] [[the|bajado]] [[inflation|las]] [[rates|tasas]] [[dropped|de inflación]] [[when|cuando]] [[the|estalló]] [[crisis|la]] [[hit.|crisis.]]",
+      "correctSentence": "[[Scarcely had the inflation rates dropped when the crisis hit.|Apenas habían bajado las tasas de inflación cuando estalló la crisis.]]",
       "words": [
         "[[inflation|las]]",
         "[[hit.|crisis.]]",
@@ -336,7 +336,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Fondo de emergencia",
       "instructions": "Ordena las palabras para dar consejos financieros.",
-      "correctSentence": "[[You|Deberías]] [[should|apartar]] [[set|algo]] [[aside|de]] [[some|dinero]] [[money|cada]] [[every|mes]] [[month|para]] [[for|emergencias.]] [[emergencies.| ]]",
+      "correctSentence": "[[You should set aside some money every month for emergencies.|Deberías apartar algo de dinero cada mes para emergencias.  ]]",
       "words": [
         "[[set|algo]]",
         "[[should|apartar]]",
@@ -365,7 +365,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Tasa de interés",
       "instructions": "Ordena las palabras para hablar de ahorros.",
-      "correctSentence": "[[The|La]] [[interest|tasa]] [[rate|de interés]] [[on|de]] [[my|mi]] [[savings|cuenta]] [[account|de ahorros]] [[is|es]] [[quite|bastante]] [[low.|baja.]]",
+      "correctSentence": "[[The interest rate on my savings account is quite low.|La tasa de interés de mi cuenta de ahorros es bastante baja.]]",
       "words": [
         "[[savings|cuenta]]",
         "[[interest|tasa]]",
@@ -394,7 +394,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Estafa financiera",
       "instructions": "Ordena las palabras para hablar de un fraude.",
-      "correctSentence": "[[They|Fueron]] [[were|estafados]] [[ripped|por]] [[off|un]] [[by|falso]] [[a|plan]] [[fake|de]] [[investment|inversión.]] [[scheme.| ]]",
+      "correctSentence": "[[They were ripped off by a fake investment scheme.|Fueron estafados por un falso plan de inversión.  ]]",
       "words": [
         "[[fake|falso]]",
         "[[were|estafados]]",
@@ -422,7 +422,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Deuda nacional",
       "instructions": "Ordena las palabras usando 'It's about time' + past simple.",
-      "correctSentence": "[[It's|Ya]] [[about|va]] [[time|siendo hora]] [[the|de que]] [[government|el gobierno]] [[tackled|abordara]] [[the|la]] [[national|deuda]] [[debt.|nacional.]]",
+      "correctSentence": "[[It's about time the government tackled the national debt.|Ya va siendo hora de que el gobierno abordara la deuda nacional.]]",
       "words": [
         "[[tackled|abordara]]",
         "[[government|el gobierno]]",
@@ -450,7 +450,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Gasto en lujos",
       "instructions": "Ordena las palabras usando 'I'd rather' + object + past simple.",
-      "correctSentence": "[[I'd|Preferiría]] [[rather|que]] [[you|no]] [[didn't|gastaras]] [[spend|tanto]] [[so|en]] [[much|artículos]] [[on|de]] [[luxury|lujo.]] [[items.| ]]",
+      "correctSentence": "[[I'd rather you didn't spend so much on luxury items.|Preferiría que no gastaras tanto en artículos de lujo.  ]]",
       "words": [
         "[[spend|tanto]]",
         "[[you|no]]",
@@ -479,7 +479,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Coste de vida",
       "instructions": "Ordena las palabras para hablar de inflación urbana.",
-      "correctSentence": "[[The|El]] [[cost|coste]] [[of|de]] [[living|vida]] [[has|se ha]] [[skyrocketed|disparado]] [[in|en]] [[major|las grandes]] [[cities|ciudades]] [[recently.|recientemente.]]",
+      "correctSentence": "[[The cost of living has skyrocketed in major cities recently.|El coste de vida se ha disparado en las grandes ciudades recientemente.]]",
       "words": [
         "[[cost|coste]]",
         "[[skyrocketed|disparado]]",
@@ -508,7 +508,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Diversificación",
       "instructions": "Ordena las palabras para hablar de estrategias de inversión.",
-      "correctSentence": "[[He|Él]] [[is|está]] [[planning|planeando]] [[to|diversificar]] [[diversify|su]] [[his|cartera]] [[investment|de]] [[portfolio.|inversiones.]]",
+      "correctSentence": "[[He is planning to diversify his investment portfolio.|Él está planeando diversificar su cartera de inversiones.]]",
       "words": [
         "[[planning|planeando]]",
         "[[diversify|su]]",
@@ -535,7 +535,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ganar la lotería",
       "instructions": "Ordena las palabras usando 'Suppose' para situaciones hipotéticas.",
-      "correctSentence": "[[Suppose|Imagina]] [[you|que]] [[won|ganaras]] [[the|la]] [[lottery,|lotería,]] [[what|¿qué]] [[would|comprarías]] [[you|primero?]] [[buy| ]] [[first?| ]]",
+      "correctSentence": "[[Suppose you won the lottery, what would you buy first?|Imagina que ganaras la lotería, ¿qué comprarías primero?    ]]",
       "words": [
         "[[won|ganaras]]",
         "[[you|que]]",
@@ -564,7 +564,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Bancarrota",
       "instructions": "Ordena las palabras para hablar de quiebra empresarial.",
-      "correctSentence": "[[The|La]] [[company|empresa]] [[is|está]] [[on|al]] [[the|borde]] [[verge|de]] [[of|la]] [[bankruptcy|quiebra]] [[due|debido]] [[to|a]] [[mismanagement.|la mala gestión.]]",
+      "correctSentence": "[[The company is on the verge of bankruptcy due to mismanagement.|La empresa está al borde de la quiebra debido a la mala gestión.]]",
       "words": [
         "[[verge|de]]",
         "[[company|empresa]]",
@@ -594,7 +594,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Presupuesto aprobado",
       "instructions": "Ordena las palabras usando 'Providing that'.",
-      "correctSentence": "[[Providing|Siempre]] [[that|que]] [[the|se]] [[budget|apruebe]] [[is|el]] [[approved,|presupuesto,]] [[we|empezaremos]] [[will|en]] [[start|mayo.]] [[in| ]] [[May.| ]]",
+      "correctSentence": "[[Providing that the budget is approved, we will start in May.|Siempre que se apruebe el presupuesto, empezaremos en mayo.    ]]",
       "words": [
         "[[budget|apruebe]]",
         "[[that|que]]",
@@ -624,7 +624,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Banca online",
       "instructions": "Ordena las palabras para hablar de tecnología financiera.",
-      "correctSentence": "[[Online|La banca]] [[banking|online]] [[has|ha]] [[made|hecho]] [[it|que]] [[much|sea]] [[easier|mucho]] [[to|más]] [[manage|fácil]] [[finances.|gestionar las finanzas.]]",
+      "correctSentence": "[[Online banking has made it much easier to manage finances.|La banca online ha hecho que sea mucho más fácil gestionar las finanzas.]]",
       "words": [
         "[[banking|online]]",
         "[[made|hecho]]",
@@ -653,7 +653,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Tipo de cambio",
       "instructions": "Ordena las palabras usando inversión en el segundo condicional.",
-      "correctSentence": "[[Were|Si]] [[the|el]] [[exchange|tipo]] [[rate|de]] [[better,|cambio fuera mejor,]] [[I|viajaría]] [[would|a]] [[travel|Londres.]] [[to| ]] [[London.| ]]",
+      "correctSentence": "[[Were the exchange rate better, I would travel to London.|Si el tipo de cambio fuera mejor, viajaría a Londres.    ]]",
       "words": [
         "[[exchange|tipo]]",
         "[[the|el]]",
@@ -682,7 +682,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Herencia",
       "instructions": "Ordena las palabras para hablar de dinero inesperado.",
-      "correctSentence": "[[He|Él]] [[inherited|heredó]] [[a|una]] [[small|pequeña]] [[fortune|fortuna]] [[from|de]] [[a|un]] [[distant|pariente]] [[relative.|lejano.]]",
+      "correctSentence": "[[He inherited a small fortune from a distant relative.|Él heredó una pequeña fortuna de un pariente lejano.]]",
       "words": [
         "[[inherited|heredó]]",
         "[[fortune|fortuna]]",
@@ -710,7 +710,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Apertura del negocio",
       "instructions": "Ordena las palabras usando 'No sooner' + inversion.",
-      "correctSentence": "[[No|Apenas]] [[sooner|hubo]] [[had|abierto]] [[he|la]] [[opened|tienda]] [[the|cuando]] [[shop|llegaron]] [[than|los]] [[customers|clientes.]] [[arrived.| ]]",
+      "correctSentence": "[[No sooner had he opened the shop than customers arrived.|Apenas hubo abierto la tienda cuando llegaron los clientes.  ]]",
       "words": [
         "[[opened|tienda]]",
         "[[had|abierto]]",
@@ -743,7 +743,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa 'frenar' o 'controlar'.",
       "questions": [
         {
-          "question": "[[The|El]] [[government|gobierno]] [[is|está]] [[trying|intentando]] [[to| ]] _______ [[inflation|la inflación]] [[by| ]] [[raising|subiendo]] [[interest|las tasas]] [[rates.|de interés.]]",
+          "question": "[[The government is trying to by raising interest|El gobierno está intentando  ]] _______ [[inflation rates.|la inflación   subiendo las tasas de interés.]]",
           "options": ["[[curb|frenar]]", "[[cure|curar]]", "[[curve|curvar]]"],
           "correctAnswer": 0,
           "explanation": "'Curb' significa controlar o limitar algo que es indeseable.",
@@ -766,7 +766,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para expresar arrepentimiento sobre el pasado.",
       "questions": [
         {
-          "question": "[[I|Ojalá]] [[wish| ]] [[I|no]] _______ [[wasted|hubiera desperdiciado]] [[so|tanto]] [[much|dinero]] [[money|en]] [[on|esa]] [[that|estafa]] [[crypto|cripto.]] [[scam.| ]]",
+          "question": "[[I wish I so on that crypto scam.|Ojalá   no]] _______ [[wasted much money|hubiera desperdiciado tanto dinero en esa estafa cripto.  ]]",
           "options": ["[[haven't|había]]", "[[hadn't|hubiera]]", "[[wouldn't|habría]]"],
           "correctAnswer": 1,
           "explanation": "'I wish' + past perfect se usa para lamentar acciones pasadas.",
@@ -789,7 +789,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que describe a alguien que ahorra y no gasta mucho.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es]] [[very|muy]] _______; [[he|nunca]] [[never|gasta]] [[spends|dinero]] [[money|en]] [[on|cosas]] [[things|que]] [[he|no]] [[doesn't|necesita.]] [[need.| ]]",
+          "question": "[[He is very never on things he doesn't need.|Él es muy]] _______; [[he spends money|nunca gasta dinero en cosas que no necesita.  ]]",
           "options": ["[[fragile|frágil]]", "[[frugal|frugal/ahorrador]]", "[[fruitful|fructífero]]"],
           "correctAnswer": 1,
           "explanation": "'Frugal' significa ser cuidadoso con el dinero y evitar el gasto innecesario.",
@@ -812,7 +812,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta del condicional mixto.",
       "questions": [
         {
-          "question": "[[If|Ojalá]] [[only| ]] [[I|hubiera]] _______ [[started|empezado]] [[investing|a invertir]] [[earlier,|antes,]] [[I|sería]] [[would|rico]] [[be|ahora.]] [[wealthy| ]] [[now.| ]]",
+          "question": "[[If only I investing would be wealthy now.|Ojalá   hubiera]] _______ [[started earlier, I|empezado a invertir antes, sería rico ahora.    ]]",
           "options": ["[[have|había]]", "[[had|hubiera]]", "[[did|hice]]"],
           "correctAnswer": 1,
           "explanation": "'If only' + past perfect indica un deseo sobre algo que no ocurrió en el pasado.",
@@ -835,7 +835,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo correcto para la quiebra.",
       "questions": [
         {
-          "question": "[[The|El]] [[business|negocio]] [[went|quedó]] _______ [[after|después de]] [[the|la]] [[global|recesión]] [[recession.|global.]]",
+          "question": "[[The business went the|El negocio quedó]] _______ [[after global recession.|después de la recesión global.]]",
           "options": ["[[penniless|sin un penique]]", "[[broken|roto]]", "[[bankrupt|en bancarrota]]"],
           "correctAnswer": 2,
           "explanation": "'Go bankrupt' es la colocación estándar para decir que una empresa quiebra.",
@@ -858,7 +858,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige la estructura de inversión correcta.",
       "questions": [
         {
-          "question": "[[Little|Poco]] _______ [[did| ]] [[they|sabían]] [[know|ellos]] [[that|que]] [[the|la]] [[company|empresa]] [[was|estaba]] [[about|a punto]] [[to|de]] [[collapse.|colapsar.]]",
+          "question": "[[Little they know that the company was about to collapse.|Poco]] _______ [[did|  sabían ellos que la empresa estaba a punto de colapsar.]]",
           "options": ["[[did|sabían]]", "[[had|habían]]", "[[do|saben]]"],
           "correctAnswer": 0,
           "explanation": "La inversión con 'Little' enfatiza que alguien no sabía algo en absoluto.",
@@ -881,7 +881,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa 'importante' o 'considerable'.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[earned|ganó]] [[a|una]] _______ [[commission|comisión]] [[on|en]] [[the|la]] [[real|operación]] [[estate|inmobiliaria.]] [[deal.| ]]",
+          "question": "[[She earned a on estate deal.|Ella ganó una]] _______ [[commission the real|comisión en la operación inmobiliaria.  ]]",
           "options": ["[[substantial|sustancial]]", "[[substantive|sustantivo]]", "[[substitute|sustituto]]"],
           "correctAnswer": 0,
           "explanation": "'Substantial' se usa para describir cantidades grandes o importantes.",
@@ -904,7 +904,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para el subjuntivo formal.",
       "questions": [
         {
-          "question": "[[It|Es]] [[is|esencial]] [[essential|que]] [[that|cada]] [[every|empleado]] [[employee|presente]] _______ [[their|su]] [[expense|informe]] [[report.|de gastos.]]",
+          "question": "[[It is essential that every employee report.|Es esencial que cada empleado presente]] _______ [[their expense|su informe de gastos.]]",
           "options": ["[[submit|presente]]", "[[submits|presenta]]", "[[submitting|presentando]]"],
           "correctAnswer": 0,
           "explanation": "El subjuntivo usa la forma base del verbo (submit), incluso con tercera persona.",
@@ -927,7 +927,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para los gastos de funcionamiento de un negocio.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[have|tienen]] [[a|muchos]] [[lot| ]] [[of| ]] _______, [[which|lo que]] [[reduces|reduce]] [[their|su]] [[profit|margen]] [[margin.|de beneficio.]]",
+          "question": "[[They have a lot of reduces their profit|Ellos tienen muchos    ]] _______, [[which margin.|lo que reduce su margen de beneficio.]]",
           "options": ["[[headsets|auriculares]]", "[[overheads|gastos fijos]]", "[[underheads|gastos bajos]]"],
           "correctAnswer": 1,
           "explanation": "'Overheads' son los gastos generales (alquiler, luz, seguros) de una empresa.",
@@ -950,7 +950,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta del segundo condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[he|él]] _______ [[more|más]] [[careful|cuidadoso]] [[with|con]] [[money,|el dinero,]] [[he|no]] [[wouldn't|estaría]] [[be|en]] [[in|deuda.]] [[debt.| ]]",
+          "question": "[[If he with money, he wouldn't be in debt.|Si él]] _______ [[more careful|más cuidadoso con el dinero, no estaría en deuda.  ]]",
           "options": ["[[is|es]]", "[[were|fuera]]", "[[was|fuera]]"],
           "correctAnswer": 1,
           "explanation": "En el segundo condicional, se prefiere 'were' para todas las personas en contextos formales.",
@@ -973,7 +973,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para las diferencias o errores en las cuentas.",
       "questions": [
         {
-          "question": "[[The|La]] [[audit|auditoría]] [[revealed|reveló]] [[several|varias]] _______ [[in|en]] [[the|las]] [[accounts.|cuentas.]]",
+          "question": "[[The audit revealed several|La auditoría reveló varias]] _______ [[in the accounts.|en las cuentas.]]",
           "options": ["[[discounts|descuentos]]", "[[discharges|descargas]]", "[[discrepancies|discrepancias]]"],
           "correctAnswer": 2,
           "explanation": "'Discrepancies' son inconsistencias o desacuerdos entre dos conjuntos de datos.",
@@ -996,7 +996,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para completar la inversión negativa.",
       "questions": [
         {
-          "question": "[[Never|Nunca]] _______ [[I|he]] [[have|visto]] [[seen|un]] [[such|aumento]] [[a|tan]] [[rapid|rápido]] [[increase|en]] [[in|los]] [[property|precios]] [[prices.|inmobiliarios.]]",
+          "question": "[[Never have seen such a rapid increase in property prices.|Nunca]] _______ [[I|he visto un aumento tan rápido en los precios inmobiliarios.]]",
           "options": ["[[have|he]]", "[[did|hice]]", "[[had|había]]"],
           "correctAnswer": 0,
           "explanation": "Inversión con 'Never' + present perfect para experiencias de vida.",
@@ -1019,7 +1019,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa 'sacar dinero'.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[decided|decidió]] [[to| ]] _______ [[all|todo]] [[her|su]] [[money|dinero]] [[from|del]] [[the|banco.]] [[bank.| ]]",
+          "question": "[[She decided to her the bank.|Ella decidió  ]] _______ [[all money from|todo su dinero del banco.  ]]",
           "options": ["[[withdraw|retirar]]", "[[within|dentro]]", "[[withhold|retener]]"],
           "correctAnswer": 0,
           "explanation": "'Withdraw' es el término técnico para retirar fondos de una cuenta.",
@@ -1042,7 +1042,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta para una situación hipotética.",
       "questions": [
         {
-          "question": "[[Supposing|Suponiendo]] [[you|que]] _______ [[lost|perdieras]] [[your|tu]] [[job,|trabajo,]] [[how|¿cómo]] [[would|pagarías]] [[you|la]] [[pay|hipoteca?]] [[the| ]] [[mortgage?| ]]",
+          "question": "[[Supposing you job, how would you pay the mortgage?|Suponiendo que]] _______ [[lost your|perdieras tu trabajo, ¿cómo pagarías la hipoteca?    ]]",
           "options": ["[[had lost|hubieras perdido]]", "[[lost|perdieras]]", "[[lose|pierdes]]"],
           "correctAnswer": 1,
           "explanation": "'Supposing' + past simple se usa para preguntar sobre consecuencias hipotéticas en el presente/futuro.",
@@ -1065,7 +1065,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige el acrónimo para el Producto Interior Bruto.",
       "questions": [
         {
-          "question": "[[The|El]] [[country's|PIB]] _______ [[GDP|del]] [[has|país]] [[grown|ha]] [[by|crecido]] [[3%|un]] [[this|3%]] [[year.|este año.]]",
+          "question": "[[The country's grown by 3% this year.|El PIB]] _______ [[GDP has|del país ha crecido un 3% este año.]]",
           "options": ["[[GNP|PNB]]", "[[GDP|PIB]]", "[[VAT|IVA]]"],
           "correctAnswer": 1,
           "explanation": "GDP (Gross Domestic Product) es el PIB en inglés.",
@@ -1088,7 +1088,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma de inversión para el tercer condicional.",
       "questions": [
         {
-          "question": "_______ [[the|Si]] [[investor|el inversor]] [[been|hubiera]] [[more|sido]] [[patient,|más paciente,]] [[he|habría]] [[would|tenido]] [[have|beneficios.]] [[made| ]] [[a| ]] [[profit.| ]]",
+          "question": "_______ [[the investor been more patient, he would have made a profit.|Si el inversor hubiera sido más paciente, habría tenido beneficios.      ]]",
           "options": ["[[Had|hubiera]]", "[[If|Si]]", "[[Has|ha]]"],
           "correctAnswer": 0,
           "explanation": "La inversión 'Had' al inicio sustituye a 'If the investor had been'.",
@@ -1111,7 +1111,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la cantidad de dinero en la cuenta.",
       "questions": [
         {
-          "question": "[[I|Necesito]] [[need|consultar]] [[to|mi]] [[check|saldo]] [[my|antes]] _______ [[balance|de]] [[before|comprar]] [[I|estos]] [[buy|billetes.]] [[these| ]] [[tickets.| ]]",
+          "question": "[[I need to check my before I buy|Necesito consultar mi saldo antes]] _______ [[balance these tickets.|de comprar estos billetes.    ]]",
           "options": ["[[balloon|globo]]", "[[ballot|voto]]", "[[balance|saldo]]"],
           "correctAnswer": 2,
           "explanation": "'Balance' es el saldo disponible en una cuenta bancaria.",
@@ -1134,7 +1134,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del futuro perfecto continuo.",
       "questions": [
         {
-          "question": "[[By|Para]] [[next|el]] [[month,|mes que viene,]] [[I|habré]] [[will|estado]] [[have|trabajando]] _______ [[been|aquí]] [[working|por]] [[here|diez]] [[for|años.]] [[ten| ]] [[years.| ]]",
+          "question": "[[By next month, I will have here for|Para el mes que viene, habré estado trabajando]] _______ [[been working ten years.|aquí por diez años.    ]]",
           "options": ["[[be|ser]]", "[[been|estado]]", "[[being|siendo]]"],
           "correctAnswer": 1,
           "explanation": "Future perfect continuous (will have been + -ing) para duraciones hasta un punto en el futuro.",
@@ -1157,7 +1157,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa 'incumplir un pago'.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[on|en]] [[his|su]] [[loan|préstamo]] [[and|y]] [[lost|perdió]] [[his|su]] [[house.|casa.]]",
+          "question": "[[He his loan and lost his house.|Él]] _______ [[on|en su préstamo y perdió su casa.]]",
           "options": ["[[defeated|derrotó]]", "[[deferred|aplazó]]", "[[defaulted|incumplió el pago]]"],
           "correctAnswer": 2,
           "explanation": "'Default on' significa no cumplir con la obligación de pagar una deuda.",
@@ -1180,7 +1180,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para expresar una preferencia hacia otra persona.",
       "questions": [
         {
-          "question": "[[I'd|Preferiría]] [[rather|que]] [[you|me]] _______ [[paid|pagaras]] [[me|en]] [[in|efectivo,]] [[cash,|si]] [[if|es]] [[possible.|posible.]]",
+          "question": "[[I'd rather you me if possible.|Preferiría que me]] _______ [[paid in cash,|pagaras en efectivo, si es posible.]]",
           "options": ["[[paying|pagando]]", "[[paid|pagaras]]", "[[pay|pagas]]"],
           "correctAnswer": 1,
           "explanation": "'I'd rather' + person + past simple para preferencias sobre el presente.",
@@ -1203,7 +1203,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa 'no suficiente'.",
       "questions": [
         {
-          "question": "[[The|La]] [[transaction|transacción]] [[was|fue]] [[cancelled|cancelada]] [[due|debido]] [[to|a]] _______ [[funds.|fondos insuficientes.]]",
+          "question": "[[The transaction was cancelled due to|La transacción fue cancelada debido a]] _______ [[funds.|fondos insuficientes.]]",
           "options": ["[[insufficient|insuficientes]]", "[[insignificant|insignificantes]]", "[[inefficient|ineficientes]]"],
           "correctAnswer": 0,
           "explanation": "'Insufficient funds' es el mensaje típico cuando no hay dinero suficiente en la cuenta.",
@@ -1226,7 +1226,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector condicional formal.",
       "questions": [
         {
-          "question": "_______ [[the|si]] [[interest|las tasas]] [[rates|de interés]] [[don't|no]] [[rise,|suben,]] [[we|compraremos]] [[will|la]] [[buy|casa.]] [[the| ]] [[house.| ]]",
+          "question": "_______ [[the interest rates don't rise, we will buy the house.|si las tasas de interés no suben, compraremos la casa.    ]]",
           "options": ["[[Unless|A menos que]]", "[[Despite|A pesar de]]", "[[Providing|Siempre que]]"],
           "correctAnswer": 2,
           "explanation": "'Providing' se usa para establecer una condición necesaria.",
@@ -1249,7 +1249,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un cargo adicional.",
       "questions": [
         {
-          "question": "[[You|Se]] [[will|le]] [[be|cobrará]] [[charged|un]] [[a| ]] _______ [[for|por]] [[late|pagos]] [[payments.|atrasados.]]",
+          "question": "[[You will be charged a late payments.|Se le cobrará un  ]] _______ [[for|por pagos atrasados.]]",
           "options": ["[[surcharge|recargo]]", "[[surplus|superávit]]", "[[survey|encuesta]]"],
           "correctAnswer": 0,
           "explanation": "'Surcharge' es un cargo adicional sobre el precio base.",
@@ -1272,7 +1272,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa 'perder valor'.",
       "questions": [
         {
-          "question": "[[The|El]] [[value|valor]] [[of|de]] [[the|la]] [[currency|moneda]] [[has|se ha]] _______ [[significantly.|significativamente.]]",
+          "question": "[[The value of the currency has|El valor de la moneda se ha]] _______ [[significantly.|significativamente.]]",
           "options": ["[[depreciated|depreciado]]", "[[declined|bajado]]", "[[decreased|disminuido]]"],
           "correctAnswer": 0,
           "explanation": "'Depreciate' es el término económico para la pérdida de valor de un activo o moneda.",
@@ -1295,7 +1295,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para el subjuntivo tras 'suggest'.",
       "questions": [
         {
-          "question": "[[I|Sugiero]] [[suggest|que]] [[that|él]] [[he|consulte]] _______ [[a|a un]] [[financial|asesor]] [[advisor.|financiero.]]",
+          "question": "[[I suggest that he|Sugiero que él consulte]] _______ [[a financial advisor.|a un asesor financiero.]]",
           "options": ["[[consult|consulte]]", "[[consults|consulta]]", "[[consulting|consultando]]"],
           "correctAnswer": 0,
           "explanation": "Tras 'suggest that', se usa la forma base del verbo (subjuntivo).",

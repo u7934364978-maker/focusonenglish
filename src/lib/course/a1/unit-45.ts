@@ -13,7 +13,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[En|En]]) _______ [[spring|spring]], [[the|el/la/los/las]] [[flowers|flowers]] [[grow|grow]].",
+          "question": "([[En flowers, the grow|En]]) _______ [[spring|spring, el/la/los/las flowers grow]].",
           "options": [
             "[[is|es/está]]",
             "[[In|En]]",
@@ -39,7 +39,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Summer|Summer]] ([[be|ser/estar]]) _______ [[my|mi/mis]] [[favorite|favorite]] [[season|season]].",
+          "question": "[[Summer favorite season|Summer]] ([[be|ser/estar]]) _______ [[my|mi/mis favorite season]].",
           "options": [
             "[[is|es/está]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Eso]] [[is|es/está]] [[very|muy]] [[cold|frío]] ([[en|en]]) _______ [[winter|winter]].",
+          "question": "[[It is very cold|Eso es/está muy frío]] ([[en|en]]) _______ [[winter|winter]].",
           "options": [
             "[[in|en]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Autumn|Autumn]] ([[venir|venir]]) _______ [[after|después]] [[summer|summer]].",
+          "question": "[[Autumn summer|Autumn]] ([[venir|venir]]) _______ [[after|después summer]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[leaves|leaves]] [[fall|fall]] [[in|en]] [[autumn|autumn]].",
+      "correctSentence": "[[The leaves fall in autumn|El/la/los/las leaves fall en autumn]].",
       "words": [
         "[[in|en]]",
         "[[The|El/la/los/las]]",
@@ -138,7 +138,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[go|ir]] [[to|a/para]] [[the|el/la/los/las]] [[beach|playa]] [[in|en]] [[summer|summer]].",
+      "correctSentence": "[[I go to the beach in summer|Yo ir a/para el/la/los/las playa en summer]].",
       "words": [
         "[[the|el/la/los/las]]",
         "[[to|a/para]]",
@@ -163,7 +163,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Spring|Spring]] [[is|es/está]] [[a|un/una]] [[beautiful|hermoso/a]] [[season|season]].",
+      "correctSentence": "[[Spring is a beautiful season|Spring es/está un/una hermoso/a season]].",
       "words": [
         "[[is|es/está]]",
         "[[a|un/una]]",
@@ -186,7 +186,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[go|ir]] [[skiing|skiing]] [[in|en]] [[winter|winter]].",
+      "correctSentence": "[[We go skiing in winter|Nosotros ir skiing en winter]].",
       "words": [
         "[[in|en]]",
         "[[skiing|skiing]]",
@@ -209,7 +209,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[love|love]] [[the|el/la/los/las]] [[colors|colors]] [[of|de]] [[autumn|autumn]].",
+      "correctSentence": "[[I love the colors of autumn|Yo love el/la/los/las colors de autumn]].",
       "words": [
         "[[autumn|autumn]].",
         "[[of|de]]",

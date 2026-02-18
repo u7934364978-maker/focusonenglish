@@ -89,7 +89,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[like|gustar/como]]) _______ [[Italian|Italian]] [[food|comida]].",
+          "question": "[[I food|Yo]] ([[like|gustar/como]]) _______ [[Italian|Italian comida]].",
           "options": [
             "[[like|gustar/como]]",
             "[[to|a/para]]",
@@ -141,7 +141,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[need|necesitar]]) _______ [[some|some]] [[eggs|eggs]] [[for|para/por]] [[the|el/la/los/las]] [[cake|cake]].",
+          "question": "[[We eggs for the cake|Nosotros]] ([[need|necesitar]]) _______ [[some|some eggs para/por el/la/los/las cake]].",
           "options": [
             "[[need|necesitar]]",
             "[[to|a/para]]",
@@ -167,7 +167,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[There|Allí/ahí]] ([[be|ser/estar]]) _______ [[some|some]] [[milk|milk]] [[in|en]] [[the|el/la/los/las]] [[fridge|fridge]].",
+          "question": "[[There milk in the fridge|Allí/ahí]] ([[be|ser/estar]]) _______ [[some|some milk en el/la/los/las fridge]].",
           "options": [
             "[[to|a/para]]",
             "[[it|eso]]",
@@ -193,7 +193,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Are|Son/están]] [[there|allí/ahí]] _______ ([[any|alguno/a]]) [[tomatoes|tomatoes]]?",
+          "question": "[[Are there|Son/están allí/ahí]] _______ ([[any|alguno/a]]) [[tomatoes|tomatoes]]?",
           "options": [
             "[[any|alguno/a]]",
             "[[to|a/para]]",
@@ -219,7 +219,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[be|ser/estar]]) _______ [[cooking|cooking]] [[dinner|dinner]] [[now|ahora]].",
+          "question": "[[I dinner now|Yo]] ([[be|ser/estar]]) _______ [[cooking|cooking dinner ahora]].",
           "options": [
             "[[am|soy/estoy]]",
             "[[to|a/para]]",
@@ -245,7 +245,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[can|poder]]) _______ [[cook|cook]] [[very|muy]] [[well|bien]].",
+          "question": "[[He very well|Él]] ([[can|poder]]) _______ [[cook|cook muy bien]].",
           "options": [
             "[[can|poder]]",
             "[[to|a/para]]",
@@ -271,7 +271,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[You|Tú/usted]] ([[must/wash|must/wash]]) _______ [[the|el/la/los/las]] [[vegetables|verduras]].",
+          "question": "[[You vegetables|Tú/usted]] ([[must/wash|must/wash]]) _______ [[the|el/la/los/las verduras]].",
           "options": [
             "[[must wash|must wash]]",
             "[[to|a/para]]",
@@ -297,7 +297,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[usually/have|usually/have]]) _______ [[salad|salad]] [[for|para/por]] [[lunch|lunch]].",
+          "question": "[[She for lunch|Ella]] ([[usually/have|usually/have]]) _______ [[salad|salad para/por lunch]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -323,7 +323,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[not/be|no ser/estar]]) _______ [[hungry|hambriento]] [[yet|yet]].",
+          "question": "[[They yet|Ellos]] ([[not/be|no ser/estar]]) _______ [[hungry|hambriento yet]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -347,7 +347,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[love|love]] [[cooking|cooking]] [[for|para/por]] [[my|mi/mis]] [[friends|friends]].",
+      "correctSentence": "[[I love cooking for my friends|Yo love cooking para/por mi/mis friends]].",
       "words": [
         "[[love|love]]",
         "[[I|Yo]]",
@@ -371,7 +371,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Do|Hacer]] [[you|tú/usted]] [[have|tener/haber]] [[the|el/la/los/las]] [[recipe|recipe]] [[for|para/por]] [[this|este/esta]] [[cake|cake]]?",
+      "correctSentence": "[[Do you have the recipe for this cake|Hacer tú/usted tener/haber el/la/los/las recipe para/por este/esta cake]]?",
       "words": [
         "[[have|tener/haber]]",
         "[[this|este/esta]]",
@@ -397,7 +397,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[need|necesitar]] [[to|a/para]] [[buy|comprar]] [[some|some]] [[fresh|fresh]] [[fruit|fruta]].",
+      "correctSentence": "[[We need to buy some fresh fruit|Nosotros necesitar a/para comprar some fresh fruta]].",
       "words": [
         "[[fresh|fresh]]",
         "[[to|a/para]]",
@@ -422,7 +422,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[There|Allí/ahí]] [[isn't|no es/está]] [[any|alguno/a]] [[milk|milk]] [[in|en]] [[the|el/la/los/las]] [[fridge|fridge]].",
+      "correctSentence": "[[There isn't any milk in the fridge|Allí/ahí no es/está alguno/a milk en el/la/los/las fridge]].",
       "words": [
         "[[There|Allí/ahí]]",
         "[[isn't|no es/está]]",
@@ -447,7 +447,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[First|First]], [[chop|chop]] [[the|el/la/los/las]] [[vegetables|verduras]] [[into|into]] [[small|pequeño/pequeña]] [[pieces|pieces]].",
+      "correctSentence": "[[First the, chop vegetables into small pieces|First, chop el/la/los/las verduras into pequeño/pequeña pieces]].",
       "words": [
         "[[First|First]],",
         "[[chop|chop]]",
@@ -472,7 +472,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Boil|Boil]] [[the|el/la/los/las]] [[water|agua]] [[in|en]] [[a|un/una]] [[large|large]] [[pot|pot]].",
+      "correctSentence": "[[Boil the water in a large pot|Boil el/la/los/las agua en un/una large pot]].",
       "words": [
         "[[Boil|Boil]]",
         "[[the|el/la/los/las]]",
@@ -497,7 +497,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Add|Add]] [[a|un/una]] [[little|little]] [[salt|sal]] [[and|and]] [[pepper|pimienta]].",
+      "correctSentence": "[[Add a little salt and pepper|Add un/una little sal and pimienta]].",
       "words": [
         "[[salt|sal]]",
         "[[and|and]]",
@@ -521,7 +521,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[is|es/está]] [[allergic|allergic]] [[to|a/para]] [[nuts|nuts]].",
+      "correctSentence": "[[She is allergic to nuts|Ella es/está allergic a/para nuts]].",
       "words": [
         "[[She|Ella]]",
         "[[nuts|nuts]].",
@@ -544,7 +544,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[a|un/una]] [[very|muy]] [[good|bueno/buena]] [[cook|cook]].",
+      "correctSentence": "[[He is a very good cook|Él es/está un/una muy bueno/buena cook]].",
       "words": [
         "[[good|bueno/buena]]",
         "[[He|Él]]",
@@ -568,7 +568,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[What|Qué]] [[are|son/están]] [[we|nosotros]] [[having|having]] [[for|para/por]] [[dinner|dinner]]?",
+      "correctSentence": "[[What are we having for dinner|Qué son/están nosotros having para/por dinner]]?",
       "words": [
         "[[having|having]]",
         "[[are|son/están]]",
@@ -592,7 +592,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[prefer|prefer]] [[fish|pescado]] [[to|a/para]] [[meat|carne]].",
+      "correctSentence": "[[I prefer fish to meat|Yo prefer pescado a/para carne]].",
       "words": [
         "[[fish|pescado]]",
         "[[prefer|prefer]]",
@@ -615,7 +615,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Can|Poder]] [[you|tú/usted]] [[pass|pass]] [[me|me/mí]] [[the|el/la/los/las]] [[sugar|azúcar]]?",
+      "correctSentence": "[[Can you pass me the sugar|Poder tú/usted pass me/mí el/la/los/las azúcar]]?",
       "words": [
         "[[pass|pass]]",
         "[[you|tú/usted]]",
@@ -639,7 +639,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[pasta|pasta]] [[is|es/está]] [[delicious|delicioso/a]].",
+      "correctSentence": "[[The pasta is delicious|El/la/los/las pasta es/está delicioso/a]].",
       "words": [
         "[[delicious|delicioso/a]].",
         "[[is|es/está]]",
@@ -661,7 +661,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I'm|I'm]] [[going|going]] [[to|a/para]] [[the|el/la/los/las]] [[supermarket|supermarket]] [[to|a/para]] [[buy|comprar]] [[bread|pan]].",
+      "correctSentence": "[[I'm going to the supermarket to buy bread|I'm going a/para el/la/los/las supermarket a/para comprar pan]].",
       "words": [
         "[[going|going]]",
         "[[to|a/para]]",
@@ -687,7 +687,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Eat|Comer]] [[more|más]] [[vegetables|verduras]] [[to|a/para]] [[stay|stay]] [[healthy|healthy]].",
+      "correctSentence": "[[Eat more vegetables to stay healthy|Comer más verduras a/para stay healthy]].",
       "words": [
         "[[stay|stay]]",
         "[[vegetables|verduras]]",

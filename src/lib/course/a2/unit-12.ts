@@ -89,7 +89,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[much|much]] ([[be|ser/estar]]) _______ [[this|este/esta]] [[shirt|shirt]]?",
+          "question": "[[How much|Cómo much]] ([[be shirt|ser/estar]]) _______ [[this|este/esta shirt]]?",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -115,7 +115,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[much|much]] ([[be|ser/estar]]) _______ [[these|estos/estas]] [[shoes|shoes]]?",
+          "question": "[[How much|Cómo much]] ([[be shoes|ser/estar]]) _______ [[these|estos/estas shoes]]?",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -141,7 +141,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[want|querer]]) _______ [[to|a/para]] [[buy|comprar]] [[a|un/una]] [[new|nuevo]] [[dress|dress]].",
+          "question": "[[I buy a new dress|Yo]] ([[want|querer]]) _______ [[to|a/para comprar un/una nuevo dress]].",
           "options": [
             "[[want|querer]]",
             "[[to|a/para]]",
@@ -167,7 +167,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[not/have|not/have]]) _______ [[enough|enough]] [[money|dinero]].",
+          "question": "[[She money|Ella]] ([[not/have|not/have]]) _______ [[enough|enough dinero]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -193,7 +193,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[go|ir]]) _______ [[to|a/para]] [[the|el/la/los/las]] [[department|department]] [[store|tienda]] [[now|ahora]].",
+          "question": "[[We the department store now|Nosotros]] ([[go|ir]]) _______ [[to|a/para el/la/los/las department tienda ahora]].",
           "options": [
             "[[are going|are going]]",
             "[[to|a/para]]",
@@ -219,7 +219,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[This|Este/esta]] [[jacket|chaqueta]] [[is|es/está]] _______ ([[expensive|caro]]) [[than|que (comparativo)]] [[that|ese/esa/aquel]] [[one|uno]].",
+          "question": "[[This jacket is that|Este/esta chaqueta es/está]] _______ ([[expensive one|caro]]) [[than|que (comparativo) ese/esa/aquel uno]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -245,7 +245,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Eso]] [[is|es/está]] [[the|el/la/los/las]] _______ ([[cheap|barato]]) [[shop|tienda]] [[in|en]] [[town|pueblo]].",
+          "question": "[[It is the in|Eso es/está el/la/los/las]] _______ ([[cheap town|barato]]) [[shop|tienda en pueblo]].",
           "options": [
             "[[cheapest|cheapest]]",
             "[[to|a/para]]",
@@ -271,7 +271,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Can|Poder]] [[I|Yo]] _______ ([[pay|pay]]) [[by|por]] [[credit|credit]] [[card|card]]?",
+          "question": "[[Can I card|Poder Yo]] _______ ([[pay credit|pay]]) [[by|por credit card]]?",
           "options": [
             "[[it|eso]]",
             "[[pay|pay]]",
@@ -297,7 +297,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[be|ser/estar]]) _______ [[looking|looking]] [[for|para/por]] [[a|un/una]] [[gift|gift]].",
+          "question": "[[He for a gift|Él]] ([[be|ser/estar]]) _______ [[looking|looking para/por un/una gift]].",
           "options": [
             "[[it|eso]]",
             "[[is|es/está]]",
@@ -323,7 +323,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[not/sell|not/sell]]) _______ [[electronics|electronics]] [[here|aquí]].",
+          "question": "[[They here|Ellos]] ([[not/sell|not/sell]]) _______ [[electronics|electronics aquí]].",
           "options": [
             "[[to|a/para]]",
             "[[don't sell|don't sell]]",
@@ -347,7 +347,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I'm|I'm]] [[looking|looking]] [[for|para/por]] [[a|un/una]] [[pair|pair]] [[of|de]] [[blue|blue]] [[shoes|shoes]].",
+      "correctSentence": "[[I'm looking for a pair of blue shoes|I'm looking para/por un/una pair de blue shoes]].",
       "words": [
         "[[blue|blue]]",
         "[[I'm|I'm]]",
@@ -373,7 +373,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[How|Cómo]] [[much|much]] [[does|hace]] [[this|este/esta]] [[cost|cost]]?",
+      "correctSentence": "[[How much does this cost|Cómo much hace este/esta cost]]?",
       "words": [
         "[[this|este/esta]]",
         "[[How|Cómo]]",
@@ -396,7 +396,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Can|Poder]] [[I|Yo]] [[try|try]] [[this|este/esta]] [[dress|dress]] [[on|en/sobre]]?",
+      "correctSentence": "[[Can I try this dress on|Poder Yo try este/esta dress en/sobre]]?",
       "words": [
         "[[try|try]]",
         "[[I|Yo]]",
@@ -420,7 +420,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[changing|changing]] [[rooms|rooms]] [[are|son/están]] [[over|over]] [[there|allí/ahí]].",
+      "correctSentence": "[[The changing rooms are over there|El/la/los/las changing rooms son/están over allí/ahí]].",
       "words": [
         "[[are|son/están]]",
         "[[rooms|rooms]]",
@@ -444,7 +444,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[This|Este/esta]] [[size|size]] [[is|es/está]] [[too|demasiado/también]] [[small|pequeño/pequeña]] [[for|para/por]] [[me|me/mí]].",
+      "correctSentence": "[[This size is too small for me|Este/esta size es/está demasiado/también pequeño/pequeña para/por me/mí]].",
       "words": [
         "[[This|Este/esta]]",
         "[[me|me/mí]].",
@@ -469,7 +469,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I'll|I'll]] [[pay|pay]] [[in|en]] [[cash|cash]].",
+      "correctSentence": "[[I'll pay in cash|I'll pay en cash]].",
       "words": [
         "[[cash|cash]].",
         "[[pay|pay]]",
@@ -491,7 +491,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Can|Poder]] [[I|Yo]] [[have|tener/haber]] [[a|un/una]] [[receipt|recibo/ticket]], [[please|por favor]]?",
+      "correctSentence": "[[Can I, please have a receipt|Poder Yo tener/haber un/una recibo/ticket, por favor]]?",
       "words": [
         "[[have|tener/haber]]",
         "[[I|Yo]]",
@@ -515,7 +515,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[This|Este/esta]] [[shop|tienda]] [[is|es/está]] [[very|muy]] [[expensive|caro]].",
+      "correctSentence": "[[This shop is very expensive|Este/esta tienda es/está muy caro]].",
       "words": [
         "[[This|Este/esta]]",
         "[[very|muy]]",
@@ -538,7 +538,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[shop|tienda]] [[assistant|assistant]] [[was|era/fue/estaba/estuvo]] [[very|muy]] [[helpful|servicial]].",
+      "correctSentence": "[[The shop assistant was very helpful|El/la/los/las tienda assistant era/fue/estaba/estuvo muy servicial]].",
       "words": [
         "[[was|era/fue/estaba/estuvo]]",
         "[[assistant|assistant]]",
@@ -562,7 +562,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[need|necesitar]] [[to|a/para]] [[buy|comprar]] [[a|un/una]] [[gift|gift]] [[for|para/por]] [[my|mi/mis]] [[sister|hermana]].",
+      "correctSentence": "[[I need to buy a gift for my sister|Yo necesitar a/para comprar un/una gift para/por mi/mis hermana]].",
       "words": [
         "[[to|a/para]]",
         "[[a|un/una]]",
@@ -589,7 +589,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Do|Hacer]] [[you|tú/usted]] [[have|tener/haber]] [[this|este/esta]] [[in|en]] [[a|un/una]] [[larger|larger]] [[size|size]]?",
+      "correctSentence": "[[Do you have this in a larger size|Hacer tú/usted tener/haber este/esta en un/una larger size]]?",
       "words": [
         "[[in|en]]",
         "[[this|este/esta]]",
@@ -615,7 +615,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I'm|I'm]] [[just|just]] [[looking|looking]], [[thank|agradecer]] [[you|tú/usted]].",
+      "correctSentence": "[[I'm just, thank looking you|I'm just looking, agradecer tú/usted]].",
       "words": [
         "[[I'm|I'm]]",
         "[[just|just]]",
@@ -638,7 +638,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[sale|sale]] [[starts|starts]] [[next|next]] [[week|semana]].",
+      "correctSentence": "[[The sale starts next week|El/la/los/las sale starts next semana]].",
       "words": [
         "[[week|semana]].",
         "[[The|El/la/los/las]]",
@@ -661,7 +661,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Everything|Everything]] [[is|es/está]] [[half|half]] [[price|price]]!",
+      "correctSentence": "[[Everything is half price|Everything es/está half price]]!",
       "words": [
         "[[half|half]]",
         "[[Everything|Everything]]",
@@ -683,7 +683,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Where|Dónde]] [[is|es/está]] [[the|el/la/los/las]] [[electronics|electronics]] [[department|department]]?",
+      "correctSentence": "[[Where is the electronics department|Dónde es/está el/la/los/las electronics department]]?",
       "words": [
         "[[department|department]]?",
         "[[electronics|electronics]]",

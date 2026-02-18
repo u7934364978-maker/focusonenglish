@@ -89,7 +89,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[meet|conocer/encontrar]]) _______ [[my|mi/mis]] [[friend|amigo/amiga]] [[at|en]] [[6|6]] [[PM|PM]].",
+          "question": "[[I friend at 6 PM|Yo]] ([[meet|conocer/encontrar]]) _______ [[my|mi/mis amigo/amiga en 6 PM]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -115,7 +115,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[fly|fly]]) _______ [[to|a/para]] [[Paris|Paris]] [[tomorrow|mañana]].",
+          "question": "[[She Paris tomorrow|Ella]] ([[fly|fly]]) _______ [[to|a/para Paris mañana]].",
           "options": [
             "[[is flying|is flying]]",
             "[[to|a/para]]",
@@ -141,7 +141,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[not/work|not/work]]) _______ [[this|este/esta]] [[Saturday|Saturday]].",
+          "question": "[[We Saturday|Nosotros]] ([[not/work|not/work]]) _______ [[this|este/esta Saturday]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -167,7 +167,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[time|tiempo/hora]] _______ [[you|tú/usted]] [[leaving|leaving]]?",
+          "question": "[[What time|Qué tiempo/hora]] _______ [[you leaving|tú/usted leaving]]?",
           "options": [
             "[[are|son/están]]",
             "[[to|a/para]]",
@@ -193,7 +193,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[have|tener/haber]]) _______ [[a|un/una]] [[party|party]] [[on|en/sobre]] [[Friday|Friday]] [[night|noche]].",
+          "question": "[[They party on Friday night|Ellos]] ([[have|tener/haber]]) _______ [[a|un/una party en/sobre Friday noche]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -219,7 +219,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[see|ver]]) _______ [[the|el/la/los/las]] [[doctor|médico/a]] [[tomorrow|mañana]] [[morning|mañana]].",
+          "question": "[[He doctor tomorrow morning|Él]] ([[see|ver]]) _______ [[the|el/la/los/las médico/a mañana mañana]].",
           "options": [
             "[[is seeing|is seeing]]",
             "[[it|eso]]",
@@ -245,7 +245,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[not/doing|not/doing]]) _______ [[anything|anything]] [[special|special]] [[tonight|tonight]].",
+          "question": "[[I special tonight|Yo]] ([[not/doing|not/doing]]) _______ [[anything|anything special tonight]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -271,7 +271,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[stay|stay]]) _______ [[in|en]] [[a|un/una]] [[hotel|hotel]] [[by|por]] [[the|el/la/los/las]] [[beach|playa]].",
+          "question": "[[We a hotel by the beach|Nosotros]] ([[stay|stay]]) _______ [[in|en un/una hotel por el/la/los/las playa]].",
           "options": [
             "[[to|a/para]]",
             "[[are staying|are staying]]",
@@ -297,7 +297,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[start|start]]) _______ [[her|su (de ella)]] [[new|nuevo]] [[course|plato/curso]] [[on|en/sobre]] [[Monday|Monday]].",
+          "question": "[[She new course on Monday|Ella]] ([[start|start]]) _______ [[her|su (de ella) nuevo plato/curso en/sobre Monday]].",
           "options": [
             "[[it|eso]]",
             "[[is starting|is starting]]",
@@ -323,7 +323,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "_______ [[they|ellos]] [[coming|coming]] [[to|a/para]] [[the|el/la/los/las]] [[wedding|wedding]]?",
+          "question": "_______ [[they coming to the wedding|ellos coming a/para el/la/los/las wedding]]?",
           "options": [
             "[[it|eso]]",
             "[[Are|Son/están]]",
@@ -347,7 +347,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[meeting|meeting]] [[my|mi/mis]] [[boss|boss]] [[at|en]] [[ten|diez]] [[o'clock|o'clock]] [[tomorrow|mañana]].",
+      "correctSentence": "[[I am meeting my boss at ten o'clock tomorrow|Yo soy/estoy meeting mi/mis boss en diez o'clock mañana]].",
       "words": [
         "[[meeting|meeting]]",
         "[[o'clock|o'clock]]",
@@ -374,7 +374,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[is|es/está]] [[flying|flying]] [[to|a/para]] [[New|Nuevo]] [[York|York]] [[next|next]] [[Tuesday|Tuesday]].",
+      "correctSentence": "[[She is flying to New York next Tuesday|Ella es/está flying a/para Nuevo York next Tuesday]].",
       "words": [
         "[[next|next]]",
         "[[Tuesday|Tuesday]].",
@@ -400,7 +400,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[are|son/están]] [[having|having]] [[a|un/una]] [[big|grande]] [[family|familia]] [[dinner|dinner]] [[on|en/sobre]] [[Sunday|Sunday]].",
+      "correctSentence": "[[We are having a big family dinner on Sunday|Nosotros son/están having un/una grande familia dinner en/sobre Sunday]].",
       "words": [
         "[[having|having]]",
         "[[dinner|dinner]]",
@@ -427,7 +427,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[What|Qué]] [[time|tiempo/hora]] [[are|son/están]] [[you|tú/usted]] [[arriving|arriving]] [[at|en]] [[the|el/la/los/las]] [[station|station]]?",
+      "correctSentence": "[[What time are you arriving at the station|Qué tiempo/hora son/están tú/usted arriving en el/la/los/las station]]?",
       "words": [
         "[[What|Qué]]",
         "[[station|station]]?",
@@ -453,7 +453,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[are|son/están]] [[playing|playing]] [[tennis|tennis]] [[this|este/esta]] [[afternoon|tarde]].",
+      "correctSentence": "[[They are playing tennis this afternoon|Ellos son/están playing tennis este/esta tarde]].",
       "words": [
         "[[are|son/están]]",
         "[[They|Ellos]]",
@@ -477,7 +477,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[seeing|seeing]] [[the|el/la/los/las]] [[dentist|dentist]] [[on|en/sobre]] [[Wednesday|Wednesday]].",
+      "correctSentence": "[[I am seeing the dentist on Wednesday|Yo soy/estoy seeing el/la/los/las dentist en/sobre Wednesday]].",
       "words": [
         "[[on|en/sobre]]",
         "[[Wednesday|Wednesday]].",
@@ -502,7 +502,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[are|son/están]] [[staying|staying]] [[at|en]] [[my|mi/mis]] [[aunt's|aunt's]] [[house|casa]] [[for|para/por]] [[the|el/la/los/las]] [[weekend|weekend]].",
+      "correctSentence": "[[We are staying at my aunt's house for the weekend|Nosotros son/están staying en mi/mis aunt's casa para/por el/la/los/las weekend]].",
       "words": [
         "[[at|en]]",
         "[[staying|staying]]",
@@ -530,7 +530,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[is|es/está]] [[starting|starting]] [[her|su (de ella)]] [[new|nuevo]] [[job|job]] [[next|next]] [[month|mes]].",
+      "correctSentence": "[[She is starting her new job next month|Ella es/está starting su (de ella) nuevo job next mes]].",
       "words": [
         "[[She|Ella]]",
         "[[starting|starting]]",
@@ -556,7 +556,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Are|Son/están]] [[they|ellos]] [[coming|coming]] [[to|a/para]] [[visit|visit]] [[us|nos/nosotros]] [[at|en]] [[Christmas|Christmas]]?",
+      "correctSentence": "[[Are they coming to visit us at Christmas|Son/están ellos coming a/para visit nos/nosotros en Christmas]]?",
       "words": [
         "[[Are|Son/están]]",
         "[[visit|visit]]",
@@ -582,7 +582,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[not|not]] [[doing|doing]] [[anything|anything]] [[tonight|tonight]], [[so|tan/así que]] [[I|Yo]] [[can|poder]] [[help|ayudar]] [[you|tú/usted]].",
+      "correctSentence": "[[I am, so I not doing anything tonight can help you|Yo soy/estoy not doing anything tonight, tan/así que Yo poder ayudar tú/usted]].",
       "words": [
         "[[doing|doing]]",
         "[[tonight|tonight]],",
@@ -611,7 +611,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[giving|giving]] [[a|un/una]] [[presentation|presentation]] [[tomorrow|mañana]] [[afternoon|tarde]].",
+      "correctSentence": "[[He is giving a presentation tomorrow afternoon|Él es/está giving un/una presentation mañana tarde]].",
       "words": [
         "[[a|un/una]]",
         "[[giving|giving]]",
@@ -636,7 +636,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[are|son/están]] [[taking|taking]] [[the|el/la/los/las]] [[train|train]] [[to|a/para]] [[London|Londres]] [[on|en/sobre]] [[Friday|Friday]].",
+      "correctSentence": "[[We are taking the train to London on Friday|Nosotros son/están taking el/la/los/las train a/para Londres en/sobre Friday]].",
       "words": [
         "[[to|a/para]]",
         "[[London|Londres]]",
@@ -663,7 +663,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[What|Qué]] [[are|son/están]] [[you|tú/usted]] [[doing|doing]] [[this|este/esta]] [[weekend|weekend]]?",
+      "correctSentence": "[[What are you doing this weekend|Qué son/están tú/usted doing este/esta weekend]]?",
       "words": [
         "[[What|Qué]]",
         "[[are|son/están]]",
@@ -687,7 +687,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[going|going]] [[to|a/para]] [[the|el/la/los/las]] [[cinema|cinema]] [[with|con]] [[Sarah|Sarah]] [[tonight|tonight]].",
+      "correctSentence": "[[I am going to the cinema with Sarah tonight|Yo soy/estoy going a/para el/la/los/las cinema con Sarah tonight]].",
       "words": [
         "[[to|a/para]]",
         "[[I|Yo]]",
@@ -714,7 +714,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[is|es/está]] [[moving|moving]] [[into|into]] [[her|su (de ella)]] [[new|nuevo]] [[apartment|apartment]] [[tomorrow|mañana]].",
+      "correctSentence": "[[She is moving into her new apartment tomorrow|Ella es/está moving into su (de ella) nuevo apartment mañana]].",
       "words": [
         "[[apartment|apartment]]",
         "[[new|nuevo]]",

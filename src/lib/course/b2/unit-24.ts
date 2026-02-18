@@ -12,7 +12,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Noticia viral",
       "instructions": "Ordena las palabras usando un conector de contraste.",
-      "correctSentence": "[[Despite|A pesar de]] [[the|la]] [[lack|falta]] [[of|de]] [[evidence,|pruebas,]] [[the|la]] [[story|historia]] [[went|se hizo]] [[viral|viral]] [[on|en]] [[social|las redes]] [[media.|sociales.]]",
+      "correctSentence": "[[Despite the lack of evidence, the story went viral on social media.|A pesar de la falta de pruebas, la historia se hizo viral en las redes sociales.]]",
       "words": [
         "[[the|la]]",
         "[[viral|viral]]",
@@ -43,7 +43,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Titulares llamativos",
       "instructions": "Ordena las palabras para hablar de periodismo.",
-      "correctSentence": "[[A|Un]] [[headline|titular]] [[should|debería]] [[be|ser]] [[catchy|llamativo]] [[to|para]] [[grab|atraer]] [[the|la]] [[reader's|atención]] [[attention.|del lector.]]",
+      "correctSentence": "[[A headline should be catchy to grab the reader's attention.|Un titular debería ser llamativo para atraer la atención del lector.]]",
       "words": [
         "[[headline|titular]]",
         "[[attention.|del lector.]]",
@@ -72,7 +72,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Relato de los hechos",
       "instructions": "Ordena las palabras usando un conector de tiempo.",
-      "correctSentence": "[[The|El]] [[reporter|reportero]] [[provided|ofreció]] [[a|un]] [[detailed|relato]] [[account|detallado]] [[of|de]] [[the|los]] [[events|hechos]] [[as|a medida que]] [[they|se]] [[unfolded.|desarrollaban.]]",
+      "correctSentence": "[[The reporter provided a detailed account of the events as they unfolded.|El reportero ofreció un relato detallado de los hechos a medida que se desarrollaban.]]",
       "words": [
         "[[reporter|reportero]]",
         "[[events|hechos]]",
@@ -103,7 +103,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Noticias de última hora",
       "instructions": "Ordena las palabras para hablar de tipos de noticias.",
-      "correctSentence": "[[Breaking|Las noticias]] [[news|de última hora]] [[often|a menudo]] [[lacks|carecen de]] [[the|la]] [[depth|profundidad]] [[of|de]] [[a|un]] [[full|reportaje]] [[investigative|de investigación]] [[report.|completo.]]",
+      "correctSentence": "[[Breaking news often lacks the depth of a full investigative report.|Las noticias de última hora a menudo carecen de la profundidad de un reportaje de investigación completo.]]",
       "words": [
         "[[news|de última hora]]",
         "[[depth|profundidad]]",
@@ -133,7 +133,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mantenerse informado",
       "instructions": "Ordena las palabras usando un conector de propósito.",
-      "correctSentence": "[[In|Para]] [[order|mantenerse]] [[to|informado,]] [[stay|mucha]] [[informed,|gente]] [[many|se suscribe]] [[people|a]] [[subscribe|diarios]] [[to|digitales.]] [[digital| ]] [[journals.| ]]",
+      "correctSentence": "[[In order to stay informed, many people subscribe to digital journals.|Para mantenerse informado, mucha gente se suscribe a diarios digitales.    ]]",
       "words": [
         "[[order|mantenerse]]",
         "[[informed,|gente]]",
@@ -163,7 +163,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Plagio en el periodismo",
       "instructions": "Ordena las palabras para hablar de ética periodística.",
-      "correctSentence": "[[Plagiarism|El plagio]] [[is|es]] [[a|una]] [[serious|grave]] [[breach|violación]] [[of|de]] [[journalistic|la ética]] [[ethics.|periodística.]]",
+      "correctSentence": "[[Plagiarism is a serious breach of journalistic ethics.|El plagio es una grave violación de la ética periodística.]]",
       "words": [
         "[[is|es]]",
         "[[ethics.|periodística.]]",
@@ -190,7 +190,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Transmisión en vivo",
       "instructions": "Ordena las palabras usando un conector de concesión.",
-      "correctSentence": "[[Even|Aunque]] [[though|la]] [[the|emisión]] [[broadcast|era]] [[was|en directo,]] [[live,|hubo]] [[there|un]] [[was|pequeño]] [[a|retraso.]] [[slight| ]] [[delay.| ]]",
+      "correctSentence": "[[Even though the broadcast was live, there was a slight delay.|Aunque la emisión era en directo, hubo un pequeño retraso.    ]]",
       "words": [
         "[[though|la]]",
         "[[live,|hubo]]",
@@ -220,7 +220,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sesgo mediático",
       "instructions": "Ordena las palabras para hablar de imparcialidad.",
-      "correctSentence": "[[Bias|El sesgo]] [[in|en]] [[reporting|las noticias]] [[can|puede]] [[distort|distorsionar]] [[the|la]] [[public's|percepción]] [[perception|del público]] [[of|de]] [[the|la]] [[truth.|verdad.]]",
+      "correctSentence": "[[Bias in reporting can distort the public's perception of the truth.|El sesgo en las noticias puede distorsionar la percepción del público de la verdad.]]",
       "words": [
         "[[in|en]]",
         "[[distort|distorsionar]]",
@@ -250,7 +250,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Verificar fuentes",
       "instructions": "Ordena las palabras usando un conector de tiempo.",
-      "correctSentence": "[[You|Deberías]] [[should|verificar]] [[verify|la]] [[the|fuente]] [[source|antes de]] [[before|compartir]] [[sharing|cualquier]] [[any|información]] [[information|en línea.]] [[online.| ]]",
+      "correctSentence": "[[You should verify the source before sharing any information online.|Deberías verificar la fuente antes de compartir cualquier información en línea.  ]]",
       "words": [
         "[[should|verificar]]",
         "[[source|antes de]]",
@@ -279,7 +279,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Nota de prensa",
       "instructions": "Ordena las palabras para definir un comunicado oficial.",
-      "correctSentence": "[[A|Un]] [[press|comunicado]] [[release|de prensa]] [[is|es]] [[an|una]] [[official|declaración]] [[statement|oficial]] [[issued|enviada]] [[to|a]] [[the|los]] [[media.|medios.]]",
+      "correctSentence": "[[A press release is an official statement issued to the media.|Un comunicado de prensa es una declaración oficial enviada a los medios.]]",
       "words": [
         "[[press|comunicado]]",
         "[[official|declaración]]",
@@ -309,7 +309,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Añadiendo información",
       "instructions": "Ordena las palabras usando un conector de adición.",
-      "correctSentence": "[[Furthermore,|Además,]] [[the|el]] [[documentary|documental]] [[highlights|destaca]] [[the|el]] [[impact|impacto]] [[of|del]] [[climate|cambio]] [[change.|climático.]]",
+      "correctSentence": "[[Furthermore, the documentary highlights the impact of climate change.|Además, el documental destaca el impacto del cambio climático.]]",
       "words": [
         "[[the|el]]",
         "[[highlights|destaca]]",
@@ -337,7 +337,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Propaganda",
       "instructions": "Ordena las palabras para hablar de manipulación informativa.",
-      "correctSentence": "[[Propaganda|La propaganda]] [[is|se]] [[used|utiliza]] [[to|para]] [[influence|influir]] [[public|en la]] [[opinion|opinión pública]] [[towards|hacia]] [[a|una]] [[specific|causa]] [[cause.|específica.]]",
+      "correctSentence": "[[Propaganda is used to influence public opinion towards a specific cause.|La propaganda se utiliza para influir en la opinión pública hacia una causa específica.]]",
       "words": [
         "[[used|utiliza]]",
         "[[opinion|opinión pública]]",
@@ -367,7 +367,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inversión con 'Not only'",
       "instructions": "Ordena las palabras usando una estructura correlativa enfática.",
-      "correctSentence": "[[Not|No]] [[only|solo]] [[was|estaba]] [[the|el]] [[article|artículo]] [[biased,|sesgado,]] [[but|sino que]] [[it|también]] [[was|estaba]] [[also|lleno]] [[full|de]] [[of|errores.]] [[errors.| ]]",
+      "correctSentence": "[[Not only was the article biased, but it was also full of errors.|No solo estaba el artículo sesgado, sino que también estaba lleno de errores.  ]]",
       "words": [
         "[[only|solo]]",
         "[[article|artículo]]",
@@ -399,7 +399,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Influencers",
       "instructions": "Ordena las palabras para hablar de redes sociales.",
-      "correctSentence": "[[Social|Los influencers]] [[media|de las redes]] [[influencers|sociales]] [[can|pueden]] [[reach|llegar]] [[millions|a millones]] [[of|de]] [[followers|seguidores]] [[instantly.|instantáneamente.]]",
+      "correctSentence": "[[Social media influencers can reach millions of followers instantly.|Los influencers de las redes sociales pueden llegar a millones de seguidores instantáneamente.]]",
       "words": [
         "[[media|de las redes]]",
         "[[reach|llegar]]",
@@ -427,7 +427,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Condición para publicar",
       "instructions": "Ordena las palabras usando un conector condicional.",
-      "correctSentence": "[[Provided|Siempre que]] [[that|la]] [[the|información]] [[information|sea]] [[is|precisa,]] [[accurate,|publicaremos]] [[we|el]] [[will|informe.]] [[publish| ]] [[the| ]] [[report.| ]]",
+      "correctSentence": "[[Provided that the information is accurate, we will publish the report.|Siempre que la información sea precisa, publicaremos el informe.      ]]",
       "words": [
         "[[that|la]]",
         "[[accurate,|precisa,]]",
@@ -457,7 +457,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Rendición de cuentas",
       "instructions": "Ordena las palabras para hablar de la función del periodismo.",
-      "correctSentence": "[[Investigative|El periodismo]] [[journalism|de investigación]] [[plays|desempeña]] [[a|un]] [[vital|papel]] [[role|vital]] [[in|en]] [[holding|hacer que los]] [[powerful|poderosos]] [[people|rindan]] [[accountable.|cuentas.]]",
+      "correctSentence": "[[Investigative journalism plays a vital role in holding powerful people accountable.|El periodismo de investigación desempeña un papel vital en hacer que los poderosos rindan cuentas.]]",
       "words": [
         "[[journalism|de investigación]]",
         "[[vital|papel]]",
@@ -487,7 +487,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Prensa sensacionalista",
       "instructions": "Ordena las palabras usando un conector de condición duradera.",
-      "correctSentence": "[[As|Mientras]] [[long|haya]] [[as|una]] [[there|gran]] [[is|demanda,]] [[high|los]] [[demand,|tabloides]] [[tabloids|seguirán]] [[will|prosperando.]] [[continue| ]] [[to| ]] [[thrive.| ]]",
+      "correctSentence": "[[As long as there is high demand, tabloids will continue to thrive.|Mientras haya una gran demanda, los tabloides seguirán prosperando.      ]]",
       "words": [
         "[[long|haya]]",
         "[[demand,|demanda,]]",
@@ -517,7 +517,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Clickbait",
       "instructions": "Ordena las palabras para definir el contenido engañoso.",
-      "correctSentence": "[[Clickbait|El clickbait]] [[is|es]] [[content|contenido]] [[whose|cuyo]] [[main|objetivo]] [[purpose|principal]] [[is|es]] [[to|atraer]] [[attract|la]] [[attention|atención]] [[and|y]] [[encourage|fomentar]] [[clicks.|los clics.]]",
+      "correctSentence": "[[Clickbait is content whose main purpose is to attract attention and encourage clicks.|El clickbait es contenido cuyo objetivo principal es atraer la atención y fomentar los clics.]]",
       "words": [
         "[[is|es]]",
         "[[main|objetivo]]",
@@ -548,7 +548,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sin importar la plataforma",
       "instructions": "Ordena las palabras usando un conector de indiferencia.",
-      "correctSentence": "[[Regardless|Independientemente]] [[of|de]] [[the|la]] [[platform,|plataforma,]] [[quality|el contenido]] [[content|de]] [[remains|calidad]] [[essential.|sigue siendo esencial.]]",
+      "correctSentence": "[[Regardless of the platform, quality content remains essential.|Independientemente de la plataforma, el contenido de calidad sigue siendo esencial.]]",
       "words": [
         "[[of|de]]",
         "[[platform,|plataforma,]]",
@@ -575,7 +575,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Informante / Denunciante",
       "instructions": "Ordena las palabras para definir a quien filtra secretos.",
-      "correctSentence": "[[A|Un]] [[whistleblower|informante]] [[is|es]] [[someone|alguien]] [[who|que]] [[exposes|expone]] [[secret|información]] [[information|secreta]] [[within|dentro]] [[an|de una]] [[organization.|organización.]]",
+      "correctSentence": "[[A whistleblower is someone who exposes secret information within an organization.|Un informante es alguien que expone información secreta dentro de una organización.]]",
       "words": [
         "[[whistleblower|informante]]",
         "[[someone|alguien]]",
@@ -604,7 +604,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Noticia de portada",
       "instructions": "Ordena las palabras usando la estructura 'so... that'.",
-      "correctSentence": "[[The|La]] [[news|noticia]] [[was|fue]] [[so|tan]] [[shocking|impactante]] [[that|que]] [[it|fue]] [[made|portada]] [[front-page|en]] [[headlines|todos]] [[everywhere.|lados.]]",
+      "correctSentence": "[[The news was so shocking that it made front-page headlines everywhere.|La noticia fue tan impactante que fue portada en todos lados.]]",
       "words": [
         "[[news|noticia]]",
         "[[shocking|impactante]]",
@@ -634,7 +634,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Control de la narrativa",
       "instructions": "Ordena las palabras para hablar de censura.",
-      "correctSentence": "[[Censorship|La censura]] [[can|puede]] [[be|ser]] [[used|utilizada]] [[to|para]] [[suppress|suprimir]] [[dissent|la disidencia]] [[and|y]] [[control|controlar]] [[the|la]] [[narrative.|narrativa.]]",
+      "correctSentence": "[[Censorship can be used to suppress dissent and control the narrative.|La censura puede ser utilizada para suprimir la disidencia y controlar la narrativa.]]",
       "words": [
         "[[can|puede]]",
         "[[suppress|suprimir]]",
@@ -664,7 +664,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inversión con 'No sooner'",
       "instructions": "Ordena las palabras para expresar inmediatez.",
-      "correctSentence": "[[No|Nada]] [[sooner|más]] [[had|terminar]] [[the|el]] [[event|evento,]] [[ended|se]] [[than|publicaron]] [[the|los]] [[first|primeros]] [[reports|informes.]] [[were| ]] [[published.| ]]",
+      "correctSentence": "[[No sooner had the event ended than the first reports were published.|Nada más terminar el evento, se publicaron los primeros informes.    ]]",
       "words": [
         "[[sooner|más]]",
         "[[event|evento,]]",
@@ -695,7 +695,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Fuentes anónimas",
       "instructions": "Ordena las palabras para hablar de protección de fuentes.",
-      "correctSentence": "[[A|Una]] [[source|fuente]] [[can|puede]] [[be|ser]] [[anonymous|anónima]] [[if|si]] [[they|teme]] [[fear|represalias]] [[retaliation|por]] [[for|hablar.]] [[speaking| ]] [[out.| ]]",
+      "correctSentence": "[[A source can be anonymous if they fear retaliation for speaking out.|Una fuente puede ser anónima si teme represalias por hablar.    ]]",
       "words": [
         "[[source|fuente]]",
         "[[anonymous|anónima]]",
@@ -726,7 +726,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Evitar problemas legales",
       "instructions": "Ordena las palabras usando 'so as to' para propósito.",
-      "correctSentence": "[[The|El]] [[article|artículo]] [[was|fue]] [[revised|revisado]] [[several|varias]] [[times|veces]] [[so|para]] [[as|evitar]] [[to|cualquier]] [[avoid|problema]] [[any|legal.]] [[legal| ]] [[issues.| ]]",
+      "correctSentence": "[[The article was revised several times so as to avoid any legal issues.|El artículo fue revisado varias veces para evitar cualquier problema legal.    ]]",
       "words": [
         "[[article|artículo]]",
         "[[revised|revisado]]",
@@ -762,7 +762,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector de contraste adecuado seguido de gerundio.",
       "questions": [
         {
-          "question": "_______ [[being|A pesar de estar]] [[exhausted,|agotado,]] [[the|el]] [[journalist|periodista]] [[finished|terminó]] [[the|el]] [[report|informe]] [[on|a]] [[time.|tiempo.]]",
+          "question": "_______ [[being exhausted, the journalist finished the report on time.|A pesar de estar agotado, el periodista terminó el informe a tiempo.]]",
           "options": ["[[Despite|A pesar de]]", "[[Although|Aunque]]", "[[However|Sin embargo]]"],
           "correctAnswer": 0,
           "explanation": "'Despite' puede ir seguido directamente de un gerundio (-ing). 'Although' requiere sujeto y verbo.",
@@ -785,7 +785,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige la definición correcta de podcast.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[is|es]] [[a|un]] [[digital|archivo]] [[audio|de audio]] [[file|digital]] [[available|disponible]] [[on|en]] [[the| ]] [[Internet.|Internet.]]",
+          "question": "[[A a digital audio file available on the Internet.|Un]] _______ [[is|es un archivo de audio digital disponible en   Internet.]]",
           "options": ["[[podcast|podcast]]", "[[broadcast|emisión de TV]]", "[[newscast|noticiero]]"],
           "correctAnswer": 0,
           "explanation": "Los podcasts son series de episodios de audio que se pueden descargar o escuchar online.",
@@ -808,7 +808,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector de causa formal.",
       "questions": [
         {
-          "question": "[[The|La]] [[interview|entrevista]] [[was|fue]] [[cancelled|cancelada]] _______ _______ [[unforeseen|circunstancias]] [[circumstances.|imprevistas.]]",
+          "question": "[[The interview was cancelled|La entrevista fue cancelada]] _______ _______ [[unforeseen circumstances.|circunstancias imprevistas.]]",
           "options": ["[[due to|debido a]]", "[[because|porque]]", "[[since|ya que]]"],
           "correctAnswer": 0,
           "explanation": "'Due to' va seguido de un sustantivo o frase nominal.",
@@ -831,7 +831,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el término legal para la difamación por escrito.",
       "questions": [
         {
-          "question": "_______ [[is|Difamación es]] [[a|una]] [[published|declaración]] [[false|falsa]] [[statement|publicada]] [[that|que]] [[is|es]] [[damaging.|dañina.]]",
+          "question": "_______ [[is a published false statement that is damaging.|Difamación es una declaración falsa publicada que es dañina.]]",
           "options": ["[[Libel|Difamación (escrita)]]", "[[Slander|Difamación (oral)]]", "[[Praise|Elogio]]"],
           "correctAnswer": 0,
           "explanation": "'Libel' se refiere específicamente a la difamación que queda registrada (escrita, fotos, etc.).",
@@ -854,7 +854,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector para añadir más información.",
       "questions": [
         {
-          "question": "_______, [[the|el]] [[news|canal]] [[channel|de noticias]] [[offers|ofrece]] [[24-hour|cobertura]] [[global|global]] [[coverage.|de 24 horas.]]",
+          "question": "_______, [[the news channel offers 24-hour global coverage.|el canal de noticias ofrece cobertura global de 24 horas.]]",
           "options": ["[[Moreover|Es más / Además]]", "[[In contrast|En contraste]]", "[[Therefore|Por lo tanto]]"],
           "correctAnswer": 0,
           "explanation": "'Moreover' se usa para añadir información importante que apoya lo dicho anteriormente.",
@@ -877,7 +877,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el reportero en el extranjero.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[is|es]] [[a|una]] [[person|persona]] [[who|que]] [[reports|informa]] [[news|de noticias]] [[from|desde]] [[a|un]] [[particular|lugar]] [[place.|específico.]]",
+          "question": "[[A a person who reports news from a particular place.|Un]] _______ [[is|es una persona que informa de noticias desde un lugar específico.]]",
           "options": ["[[correspondent|corresponsal]]", "[[anchor|presentador]]", "[[editor|editor]]"],
           "correctAnswer": 0,
           "explanation": "'Correspondent' suele informar desde otra ciudad o país.",
@@ -900,7 +900,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige la estructura de inversión correcta.",
       "questions": [
         {
-          "question": "_______ _______ [[the|apenas]] [[news|se conoció]] [[broke|la noticia]] _______ [[when|cuando]] [[the|la]] [[stock|bolsa]] [[market|se]] [[crashed.|desplomó.]]",
+          "question": "_______ _______ [[the news broke the crashed.|apenas se conoció la noticia]] _______ [[when stock market|cuando la bolsa se desplomó.]]",
           "options": ["[[Hardly had|Apenas había]]", "[[Hardly has|Apenas ha]]", "[[Hardly did|Apenas hizo]]"],
           "correctAnswer": 0,
           "explanation": "'Hardly had... when' es una estructura literaria que requiere inversión.",
@@ -923,7 +923,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para los medios de comunicación de masas tradicionales.",
       "questions": [
         {
-          "question": "_______ _______ [[refers|Los medios convencionales]] [[to|se refieren]] [[traditional|a formas]] [[forms|tradicionales]] [[of|de]] [[mass|comunicación]] [[communication.|de masas.]]",
+          "question": "_______ _______ [[refers to traditional forms of mass communication.|Los medios convencionales se refieren a formas tradicionales de comunicación de masas.]]",
           "options": ["[[Mainstream media|Medios convencionales]]", "[[Alternative media|Medios alternativos]]", "[[Social media|Redes sociales]]"],
           "correctAnswer": 0,
           "explanation": "'Mainstream' significa la corriente principal o mayoritaria.",
@@ -946,7 +946,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector condicional hipotético.",
       "questions": [
         {
-          "question": "_______ _______ [[the|Incluso si]] [[rumor|el rumor]] [[is|es]] [[true,|cierto,]] [[it|no]] [[shouldn't|debería]] [[have|haber]] [[been|sido]] [[published.|publicado.]]",
+          "question": "_______ _______ [[the rumor is true, it shouldn't have been published.|Incluso si el rumor es cierto, no debería haber sido publicado.]]",
           "options": ["[[Even if|Incluso si]]", "[[Whether|Ya sea si]]", "[[Provided|Siempre que]]"],
           "correctAnswer": 0,
           "explanation": "'Even if' se usa para situaciones donde el resultado no cambiaría aunque la condición se cumpla.",
@@ -969,7 +969,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el artículo de opinión firmado.",
       "questions": [
         {
-          "question": "[[An|Un]] _______ [[is|es]] [[an|un]] [[article|artículo]] [[that|que]] [[expresses|expresa]] [[the|la]] [[opinion|opinión]] [[of|de]] [[a|un]] [[author.|autor.]]",
+          "question": "[[An an article that expresses the opinion of a author.|Un]] _______ [[is|es un artículo que expresa la opinión de un autor.]]",
           "options": ["[[op-ed|artículo de opinión]]", "[[report|informe]]", "[[feature|reportaje especial]]"],
           "correctAnswer": 0,
           "explanation": "'Op-ed' viene de 'opposite the editorial page'.",
@@ -992,7 +992,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector de consecuencia.",
       "questions": [
         {
-          "question": "_______, [[the|por tanto,]] [[editor|el editor]] [[decided|decidió]] [[to| ]] [[retract|retractarse de]] [[the|la]] [[story.|historia.]]",
+          "question": "_______, [[the editor decided to retract the story.|por tanto, el editor decidió   retractarse de la historia.]]",
           "options": ["[[Therefore|Por lo tanto]]", "[[Nonetheless|No obstante]]", "[[Furthermore|Además]]"],
           "correctAnswer": 0,
           "explanation": "'Therefore' indica que la decisión fue el resultado de algo mencionado antes.",
@@ -1015,7 +1015,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige la definición de sensacionalismo.",
       "questions": [
         {
-          "question": "_______ [[is|Sensacionalismo es]] [[the|el]] [[use|uso]] [[of|de]] [[shocking|historias]] [[stories.|impactantes.]]",
+          "question": "_______ [[is the use of shocking stories.|Sensacionalismo es el uso de historias impactantes.]]",
           "options": ["[[Sensationalism|Sensacionalismo]]", "[[Objectivity|Objetividad]]", "[[Transparency|Transparencia]]"],
           "correctAnswer": 0,
           "explanation": "'Sensationalism' busca emocionar o escandalizar en lugar de informar con rigor.",
@@ -1038,7 +1038,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige la frase conectora de resultado.",
       "questions": [
         {
-          "question": "_______ _______ _______ _______ [[of|Como resultado]] [[the|del]] [[scandal,|escándalo,]] [[the|el]] [[journalist|periodista]] [[lost|perdió]] [[his|su]] [[job.|trabajo.]]",
+          "question": "_______ _______ _______ _______ [[of the scandal, the journalist lost his job.|Como resultado del escándalo, el periodista perdió su trabajo.]]",
           "options": ["[[As a result of|Como resultado de]]", "[[Because of that|Debido a eso]]", "[[In addition to|Además de]]"],
           "correctAnswer": 0,
           "explanation": "'As a result of' requiere un sustantivo después.",
@@ -1061,7 +1061,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la primicia informativa.",
       "questions": [
         {
-          "question": "[[An|Una]] _______ [[is|es]] [[a|una]] [[story|noticia]] [[that|que]] [[only|solo]] [[one|un]] [[news|medio]] [[organization|tiene.]] [[has.| ]]",
+          "question": "[[An a story that only one news organization has.|Una]] _______ [[is|es una noticia que solo un medio tiene.  ]]",
           "options": ["[[exclusive|exclusiva]]", "[[leak|filtración]]", "[[scoop|primicia (muy similar)]]"],
           "correctAnswer": 0,
           "explanation": "'Exclusive' resalta que otros medios no tienen esa información.",
@@ -1084,7 +1084,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma de inversión correcta tras 'Not only'.",
       "questions": [
         {
-          "question": "[[Not|No]] [[only|solo]] _______ _______ [[win|ganó]] [[the|el]] [[award,|premio,]] [[but|sino que]] [[he|también]] [[also|ganó]] [[gained|fama]] [[global|global.]] [[fame.| ]]",
+          "question": "[[Not only award, but he also gained global fame.|No solo]] _______ _______ [[win the|ganó el premio, sino que también ganó fama global.  ]]",
           "options": ["[[did he|hizo él (auxiliar pasado)]]", "[[he won|él ganó]]", "[[has he|ha él]]"],
           "correctAnswer": 0,
           "explanation": "Con 'Not only' al principio, usamos el auxiliar 'did' para el pasado simple.",
@@ -1107,7 +1107,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el presentador principal.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[is|es]] [[the|el]] [[main|presentador]] [[presenter|principal]] [[of|de]] [[a|un]] [[news|programa]] [[program.|informativo.]]",
+          "question": "[[The the main presenter of a news program.|El]] _______ [[is|es el presentador principal de un programa informativo.]]",
           "options": ["[[anchor|presentador / ancla]]", "[[producer|productor]]", "[[cameraman|cámara]]"],
           "correctAnswer": 0,
           "explanation": "En inglés americano, se usa 'anchor' para el presentador del telediario.",
@@ -1130,7 +1130,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector de propósito formal.",
       "questions": [
         {
-          "question": "_______ _______ _______ [[reach|Para llegar a]] [[a|una]] [[wider|audiencia]] [[audience,|más amplia,]] [[the|el]] [[channel|canal]] [[started|empezó a]] [[broadcasting.|emitir.]]",
+          "question": "_______ _______ _______ [[reach a wider audience, the channel started broadcasting.|Para llegar a una audiencia más amplia, el canal empezó a emitir.]]",
           "options": ["[[So as to|Para / Con el fin de]]", "[[In order that|A fin de que]]", "[[Because of|Debido a]]"],
           "correctAnswer": 0,
           "explanation": "'So as to' seguido de infinitivo expresa propósito.",
@@ -1153,7 +1153,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el tipo de periódico de formato pequeño.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[is|es]] [[a|un]] [[newspaper|periódico]] [[with|con]] [[small|páginas]] [[pages|pequeñas]] [[and|y]] [[many|muchas]] [[photographs.|fotos.]]",
+          "question": "[[A a newspaper with small pages and many photographs.|Un]] _______ [[is|es un periódico con páginas pequeñas y muchas fotos.]]",
           "options": ["[[tabloid|tabloide]]", "[[broadsheet|periódico de gran formato]]", "[[magazine|revista]]"],
           "correctAnswer": 0,
           "explanation": "Los tabloides suelen ser más sensacionalistas que los 'broadsheets'.",
@@ -1176,7 +1176,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector de contraste formal.",
       "questions": [
         {
-          "question": "_______, [[the|No obstante,]] [[media|los medios]] [[remains|siguen siendo]] [[a|una]] [[powerful|herramienta]] [[tool.|poderosa.]]",
+          "question": "_______, [[the media remains a powerful tool.|No obstante, los medios siguen siendo una herramienta poderosa.]]",
           "options": ["[[Nonetheless|No obstante]]", "[[Consequently|En consecuencia]]", "[[Initially|Inicialmente]]"],
           "correctAnswer": 0,
           "explanation": "'Nonetheless' introduce un contraste con algo negativo mencionado previamente.",
@@ -1199,7 +1199,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la venta de derechos de emisión a varios medios.",
       "questions": [
         {
-          "question": "_______ [[is|Sindicalización es]] [[the|la]] [[sale|venta]] [[of|de]] [[rights|derechos.]]",
+          "question": "_______ [[is the sale of rights|Sindicalización es la venta de derechos.]]",
           "options": ["[[Syndication|Sindicalización]]", "[[Subscription|Suscripción]]", "[[Regulation|Regulación]]"],
           "correctAnswer": 0,
           "explanation": "'Syndication' permite que un programa se vea en muchos canales diferentes.",
@@ -1222,7 +1222,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma de inversión con 'No sooner'.",
       "questions": [
         {
-          "question": "[[No|Nada]] [[sooner|más]] _______ _______ [[resigned|dimitir]] [[than| ]] [[the|los]] [[rumors|rumores]] [[started|empezaron]] [[to|a]] [[spread.|extenderse.]]",
+          "question": "[[No sooner the rumors started to spread.|Nada más]] _______ _______ [[resigned than|dimitir   los rumores empezaron a extenderse.]]",
           "options": ["[[had he|había él (auxiliar pasado)]]", "[[did he|hizo él]]", "[[has he|ha él]]"],
           "correctAnswer": 0,
           "explanation": "Estructura 'No sooner + had + sujeto + participio'.",
@@ -1245,7 +1245,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el marketing basado en el boca a boca.",
       "questions": [
         {
-          "question": "[[Viral|El marketing]] [[marketing|viral]] [[aims|aspira]] [[to|a]] [[spread|extender]] [[info|la información]] [[by|por]] _______ _______ _______.",
+          "question": "[[Viral marketing aims to spread info by|El marketing viral aspira a extender la información por]] _______ _______ _______.",
           "options": ["[[word of mouth|boca a boca]]", "[[direct mail|correo directo]]", "[[billboard ads|anuncios en vallas]]"],
           "correctAnswer": 0,
           "explanation": "'Word of mouth' es la recomendación personal entre usuarios.",
@@ -1268,7 +1268,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma negativa del conector de propósito.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[checked|revisó]] [[several|varias]] [[webs|webs]] _______ _______ _______ _______ [[be|para no ser]] [[misled.|engañada.]]",
+          "question": "[[She checked several webs|Ella revisó varias webs]] _______ _______ _______ _______ [[be misled.|para no ser engañada.]]",
           "options": ["[[so as not to|para no (propósito negativo)]]", "[[in order to not|para no (menos común)]]", "[[to not|para no (informal)]]"],
           "correctAnswer": 0,
           "explanation": "'So as not to' es la forma correcta y formal de expresar un propósito negativo.",
@@ -1291,7 +1291,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige la definición de libertad de prensa.",
       "questions": [
         {
-          "question": "_______ [[of|Libertad]] [[the|de]] [[press|prensa]] [[is|es]] [[the|el]] [[right|derecho]] [[to|a]] [[publish.|publicar.]]",
+          "question": "_______ [[of the press is the right to publish.|Libertad de prensa es el derecho a publicar.]]",
           "options": ["[[Freedom|Libertad]]", "[[Restriction|Restricción]]", "[[Taxation|Tributación]]"],
           "correctAnswer": 0,
           "explanation": "Es un pilar fundamental de las sociedades democráticas.",
@@ -1314,7 +1314,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector que indica indiferencia ante dos opciones.",
       "questions": [
         {
-          "question": "_______ [[it's|Ya sea]] [[true|verdad]] [[or|o]] [[not,|no,]] [[the|la]] [[story|historia]] [[has|ya]] [[already|ha]] [[caused|causado]] [[damage.|daño.]]",
+          "question": "_______ [[it's true or not, the story has already caused damage.|Ya sea verdad o no, la historia ya ha causado daño.]]",
           "options": ["[[Whether|Ya sea / Si]]", "[[Either|O bien]]", "[[Neither|Ni]]"],
           "correctAnswer": 0,
           "explanation": "'Whether... or not' se usa para decir que algo es irrelevante para el resultado.",

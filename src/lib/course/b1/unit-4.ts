@@ -14,7 +14,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta del verbo para completar la frase.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|el]] [[delays|retrasos]], [[she|ella]] _______ [[enjoyed|disfrutado]] [[her|su]] [[journey|viaje]] [[enormously|enormemente]].",
+          "question": "[[Despite the, she delays her|A pesar de el retrasos, ella]] _______ [[enjoyed journey enormously|disfrutado su viaje enormemente]].",
           "options": [
             "[[has|ha]]",
             "[[did|hizo]]"
@@ -40,9 +40,9 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[to|a]] [[Paris|París]] [[last|pasado]] [[year|año]].",
+          "question": "[[They Paris last year|Ellos]] _______ [[to|a París pasado año]].",
           "options": [
-            "[[have|han]] [[traveled|viajado]]",
+            "[[have traveled|han viajado]]",
             "[[traveled|viajaron]]"
           ],
           "correctAnswer": 1,
@@ -66,7 +66,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta del verbo para completar la pregunta.",
       "questions": [
         {
-          "question": "[[Have|Has]] [[you|tú]] _______ [[lost|get|perdido]] [[in|en]] [[a|una]] [[new|nueva]] [[city|ciudad]]?",
+          "question": "[[Have you a new city|Has tú]] _______ [[lost in|get|perdido en una nueva ciudad]]?",
           "options": [
             "[[ever|alguna vez]]",
             "[[did|get|perdió]]"
@@ -92,7 +92,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[not|no]] [[checked|ha|revisado]] [[into|en]] [[the|el]] [[hotel|hotel]] [[yet|todavía]].",
+          "question": "[[She checked into the hotel yet|Ella]] _______ [[not|no ha|revisado en el hotel todavía]].",
           "options": [
             "[[has|ha]]",
             "[[did|hizo]]"
@@ -118,9 +118,9 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la forma correcta del verbo para completar la oración.",
       "questions": [
         {
-          "question": "[[Last|La]] [[week|semana]], [[they|ellos]] _______ [[a|un]] [[wonderful|maravilloso]] [[trip|viaje]] [[to|a]] [[the|las]] [[mountains|montañas]].",
+          "question": "[[Last week, they wonderful trip to the mountains|La semana, ellos]] _______ [[a|un maravilloso viaje a las montañas]].",
           "options": [
-            "[[have|han]] [[had|tenido]]",
+            "[[have had|han tenido]]",
             "[[had|tuvieron]]"
           ],
           "correctAnswer": 1,
@@ -144,10 +144,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta del verbo para completar la frase.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[we|nosotros]] [[planned|planificamos]] [[the|el]] [[trip|viaje]] [[carefully|cuidadosamente]], [[we|nosotros]] _______ [[many|muchas]] [[surprises|sorpresas]].",
+          "question": "[[Although we, we surprises planned the trip carefully|Aunque nosotros planificamos el viaje cuidadosamente, nosotros]] _______ [[many|muchas sorpresas]].",
           "options": [
-            "[[have|hemos]] [[had|tenido]]",
-            "[[did|hicimos]] [[have|tener]]"
+            "[[have had|hemos tenido]]",
+            "[[did have|hicimos tener]]"
           ],
           "correctAnswer": 0,
           "explanation": "Usamos el presente perfecto para referirnos a experiencias recientes que afectan el presente.",
@@ -170,10 +170,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase con la forma adecuada del verbo.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|el]] [[bad|mal]] [[weather|clima]], [[they|ellos]] _______ [[on|a]] [[time|tiempo]] [[yesterday|ayer]].",
+          "question": "[[Despite the, they time bad weather|A pesar de el mal clima, ellos]] _______ [[on yesterday|a tiempo ayer]].",
           "options": [
             "[[arrived|llegaron]]",
-            "[[have|han]] [[arrived|llegado]]"
+            "[[have arrived|han llegado]]"
           ],
           "correctAnswer": 0,
           "explanation": "Usamos el pasado simple para acciones completadas en un momento específico del pasado.",
@@ -196,7 +196,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[never|nunca]] [[been|estado]] [[lost|perdido]] [[in|en]] [[a|una]] [[city|ciudad]] [[until|hasta]] [[he|que él]] [[visited|visitó]] [[Tokyo|Tokio]].",
+          "question": "[[He been lost in a city until he visited Tokyo|Él]] _______ [[never|nunca estado perdido en una ciudad hasta que él visitó Tokio]].",
           "options": [
             "[[has|ha]]",
             "[[was|fue]]"
@@ -222,10 +222,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Usa la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[the|el]] [[museum|museo]] [[before|antes de]] [[the|la]] [[new|nueva]] [[exhibit|exposición]] [[opened|abrió]].",
+          "question": "[[They museum before the new exhibit opened|Ellos]] _______ [[the|el museo antes de la nueva exposición abrió]].",
           "options": [
             "[[visited|visitaron]]",
-            "[[have|han]] [[visited|visitado]]"
+            "[[have visited|han visitado]]"
           ],
           "correctAnswer": 0,
           "explanation": "El pasado simple se usa para acciones completadas antes de un momento específico en el pasado.",
@@ -248,10 +248,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Escoge la forma correcta del verbo para completar la frase.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[our|nuestros]] [[flights|vuelos]], [[but|pero]] [[we|nosotros]] _______ [[reserve|reservar]] [[a|un]] [[hotel|hotel]] [[yet|aún]].",
+          "question": "[[We flights, but we hotel yet|Nosotros]] _______ [[our|nuestros vuelos, pero nosotros]] _______ [[reserve a|reservar un hotel aún]].",
           "options": [
-            "[[have|hemos]] [[booked|reservado]]",
-            "[[didn’t|no]] [[reserve|reservamos]]"
+            "[[have booked|hemos reservado]]",
+            "[[didn’t reserve|no reservamos]]"
           ],
           "correctAnswer": 0,
           "explanation": "La combinación del presente perfecto y el pasado simple en una misma oración muestra acciones completas y pendientes.",
@@ -272,7 +272,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[have|he]] [[already|ya]] [[visited|visitado]] [[three|tres]] [[countries|países]] [[this|este]] [[year|año]].",
+      "correctSentence": "[[I have already visited three countries this year|Yo he ya visitado tres países este año]].",
       "words": [
         "[[visited|visitado]]",
         "[[this|este]]",
@@ -299,7 +299,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[she|ella]] [[had|había]] [[planned|planeado]] [[everything|todo]], [[her|su]] [[flight|vuelo]] [[was|fue]] [[canceled|cancelado]].",
+      "correctSentence": "[[Although she, her had planned everything flight was canceled|Aunque ella había planeado todo, su vuelo fue cancelado]].",
       "words": [
         "[[Although|Aunque]]",
         "[[everything|todo]]",
@@ -327,7 +327,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[have|han]] [[never|nunca]] [[traveled|viajado]] [[by|en]] [[train|tren]] [[before|antes]].",
+      "correctSentence": "[[They have never traveled by train before|Ellos han nunca viajado en tren antes]].",
       "words": [
         "[[have|han]]",
         "[[train|tren]]",
@@ -353,7 +353,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[we|nosotros]] [[decided|decidimos]] [[to|a]] [[go|ir]] [[hiking|de excursión]].",
+      "correctSentence": "[[Despite the, we rain decided to go hiking|A pesar de la lluvia, nosotros decidimos a ir de excursión]].",
       "words": [
         "[[we|nosotros]]",
         "[[hiking|de excursión]]",
@@ -380,7 +380,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[has|ha]] [[lost|perdido]] [[her|su]] [[passport|pasaporte]] [[and|y]] [[cannot|no puede]] [[travel|viajar]].",
+      "correctSentence": "[[She has lost her passport and cannot travel|Ella ha perdido su pasaporte y no puede viajar]].",
       "words": [
         "[[passport|pasaporte]]",
         "[[travel|viajar]]",
@@ -409,7 +409,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Sarah|Sarah]] _______ [[never|nunca]] [[visited|visitó]] [[Paris|París]] [[before|antes]].",
+          "question": "[[Sarah visited Paris before|Sarah]] _______ [[never|nunca visitó París antes]].",
           "options": [
             "[[has|ha]]",
             "[[had|había]]"
@@ -435,7 +435,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[to|a]] [[Italy|Italia]] [[last|pasado]] [[summer|verano]].",
+          "question": "[[They Italy last summer|Ellos]] _______ [[to|a Italia pasado verano]].",
           "options": [
             "[[went|fueron]]",
             "[[have|han]]"
@@ -461,7 +461,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[missed|perdimos]] [[the|el]] [[train|tren]] [[because|porque]] [[we|llegamos]] [[arrived|llegamos]] [[late|tarde]].",
+          "question": "[[We the train because we arrived late|Nosotros]] _______ [[missed|perdimos el tren porque llegamos llegamos tarde]].",
           "options": [
             "[[have|hemos]]",
             "[[did|hicimos]]"
@@ -487,7 +487,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[I|yo]] _______ [[here|aquí]] [[for|durante]] [[five|cinco]] [[years|años]], [[I|yo]] [[have|he]] [[never|nunca]] [[climbed|subido]] [[that|esa]] [[mountain|montaña]].",
+          "question": "[[Although I, I have five years never climbed that mountain|Aunque yo]] _______ [[here for|aquí durante cinco años, yo he nunca subido esa montaña]].",
           "options": [
             "[[have|he]]",
             "[[had|había]]"
@@ -513,7 +513,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|el]] [[weather|clima]] [[being|siendo]] [[terrible|terrible]], [[we|nosotros]] _______ [[a|un]] [[wonderful|maravilloso]] [[time|tiempo]].",
+          "question": "[[Despite the, we weather being terrible wonderful time|A pesar de el clima siendo terrible, nosotros]] _______ [[a|un maravilloso tiempo]].",
           "options": [
             "[[had|tuvimos]]",
             "[[have|hemos]]"
@@ -539,7 +539,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración usando la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[Have|Has]] [[you|tú]] _______ [[to|a]] [[Japan|Japón]] [[before|antes]]?",
+          "question": "[[Have you before|Has tú]] _______ [[to Japan|a Japón antes]]?",
           "options": [
             "[[been|estado]]",
             "[[was|fuiste]]"
@@ -565,7 +565,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[has|ha]] never _______ [[a|un]] [[kangaroo|canguro]].",
+          "question": "[[She has|Ella ha]] never _______ [[a kangaroo|un canguro]].",
           "options": [
             "[[seen|visto]]",
             "[[saw|vio]]"
@@ -591,7 +591,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa con la forma adecuada del verbo para pasadas acciones específicas.",
       "questions": [
         {
-          "question": "[[When|Cuándo]] _______ [[you|tú]] [[visit|visitar]] [[the|el]] [[museum|museo]]?",
+          "question": "[[When visit the museum|Cuándo]] _______ [[you|tú visitar el museo]]?",
           "options": [
             "[[did|hiciste]]",
             "[[have|has]]"
@@ -617,7 +617,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Rellena con la opción adecuada.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[Paris|París]] [[last|el]] [[year|año]]",
+          "question": "[[They last year|Ellos]] _______ [[Paris|París el año]]",
           "options": [
             "[[visited|visitaron]]",
             "[[have|han]]"
@@ -643,7 +643,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa con el verbo adecuado.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[I|yo]] _______ [[not|no]] [[plan|planeé]] [[much|mucho]], [[I|yo]] [[enjoyed|disfruté]] [[the|el]] [[trip|viaje]].",
+          "question": "[[Although I, I much enjoyed the trip|Aunque yo]] _______ [[not plan|no planeé mucho, yo disfruté el viaje]].",
           "options": [
             "[[didn't|no planeé]]",
             "[[haven't|no he]]"
@@ -667,7 +667,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[we|nosotros]] [[have|hemos]] [[traveled|viajado]] [[to|a]] [[many|muchos]] [[countries|países]], [[we|nosotros]] [[have|hemos]] [[never|nunca]] [[visited|visitado]] [[Australia|Australia]].",
+      "correctSentence": "[[Although we, we have traveled to many countries have never visited Australia|Aunque nosotros hemos viajado a muchos países, nosotros hemos nunca visitado Australia]].",
       "words": [
         "[[to|a]]",
         "[[visited|visitado]]",
@@ -696,7 +696,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[missed|perdieron]] [[their|su]] [[flight|vuelo]] [[because|porque]] [[they|ellos]] [[arrived|llegaron]] [[late|tarde]] [[at|al]] [[the|el]] [[airport|aeropuerto]].",
+      "correctSentence": "[[They missed their flight because they arrived late at the airport|Ellos perdieron su vuelo porque ellos llegaron tarde al el aeropuerto]].",
       "words": [
         "[[missed|perdieron]]",
         "[[their|su]]",
@@ -725,7 +725,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Since|Desde]] [[I|yo]] [[have|he]] [[been|estado]] [[here|aquí]], [[I|yo]] [[have|he]] [[experienced|experimentado]] [[many|muchas]] [[interesting|interesantes]] [[adventures|aventuras]].",
+      "correctSentence": "[[Since I, I have been here have experienced many interesting adventures|Desde yo he estado aquí, yo he experimentado muchas interesantes aventuras]].",
       "words": [
         "[[adventures|aventuras]]",
         "[[Since|Desde]]",
@@ -754,7 +754,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[we|nosotros]] [[enjoyed|disfrutamos]] [[the|el]] [[sightseeing|turismo]] [[tour|recorrido]].",
+      "correctSentence": "[[Despite the, we rain enjoyed the sightseeing tour|A pesar de la lluvia, nosotros disfrutamos el turismo recorrido]].",
       "words": [
         "[[rain|lluvia]]",
         "[[tour|recorrido]]",
@@ -781,7 +781,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[has|ha]] [[not|no]] [[packed|empacado]] [[her|su]] [[suitcase|maleta]] [[yet|todavía]] [[although|aunque]] [[she|ella]] [[needed|necesitaba]] [[to|a]] [[leave|salir]] [[early|temprano]].",
+      "correctSentence": "[[She has not packed her suitcase yet although she needed to leave early|Ella ha no empacado su maleta todavía aunque ella necesitaba a salir temprano]].",
       "words": [
         "[[needed|necesitaba]]",
         "[[early|temprano]]",
@@ -815,7 +815,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[When|Cuando]] [[we|nosotros]] [[got|llegamos]] [[to|a]] [[the|la]] [[station|estación]], [[the|el]] [[train|tren]] _______ [[already|ya]] [[left|se había ido]].",
+          "question": "[[When we, the train got to the station|Cuando nosotros llegamos a la estación, el tren]] _______ [[already left|ya se había ido]].",
           "options": [
             "[[had left|se había ido]]",
             "[[left|se fue]]"
@@ -841,7 +841,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta que completa la oración.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[he|él]] _______ [[traveled|ha viajado]] [[to|a]] [[many|muchos]] [[countries|países]], [[he|él]] [[has|nunca]] [[never|ha]] [[visited|visitado]] [[Japan|Japón]].",
+          "question": "[[Although he, he has many countries never visited Japan|Aunque él]] _______ [[traveled to|ha viajado a muchos países, él nunca ha visitado Japón]].",
           "options": [
             "[[has traveled|ha viajado]]",
             "[[traveled|viajó]]"
@@ -867,7 +867,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|el]] [[delay|retraso]], [[they|ellos]] _______ [[to|para]] [[catch|coger]] [[the|el]] [[last|último]] [[ferry|ferry]].",
+          "question": "[[Despite the, they delay catch ferry|A pesar de el retraso, ellos]] _______ [[to the last|para coger el último ferry]].",
           "options": [
             "[[managed|consiguieron]]",
             "[[manages|consiguen]]"
@@ -893,7 +893,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la forma correcta del verbo para completar la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[never|nunca]] [[seen|ha visto]] [[such|tan]] [[beautiful|hermosas]] [[mountains|montañas]] [[before|antes]].",
+          "question": "[[She seen such beautiful mountains before|Ella]] _______ [[never|nunca ha visto tan hermosas montañas antes]].",
           "options": [
             "[[has seen|ha visto]]",
             "[[saw|vio]]"
@@ -919,7 +919,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta que complete la oración.",
       "questions": [
         {
-          "question": "[[Since|Desde]] [[his|su]] [[arrival|llegada]], [[he|él]] _______ [[made|ha hecho]] [[many|muchos]] [[friends|amigos]].",
+          "question": "[[Since his, he arrival many|Desde su llegada, él]] _______ [[made friends|ha hecho muchos amigos]].",
           "options": [
             "[[has made|ha hecho]]",
             "[[made|hizo]]"
@@ -945,7 +945,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la forma correcta del verbo en el presente perfecto.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[they|ellos]] _______ [[visited|visitado]] [[many|muchos]] [[places|lugares]] [[during|durante]] [[their|su]] [[vacation|vacaciones]].",
+          "question": "[[Despite the, they rain many their vacation|A pesar de la lluvia, ellos]] _______ [[visited places during|visitado muchos lugares durante su vacaciones]].",
           "options": [
             "[[have|han]]",
             "[[had|habían]]"
@@ -971,7 +971,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Escoge la opción correcta para completar la oración, enfocándose en la secuencia temporal.",
       "questions": [
         {
-          "question": "[[He|Él]] [[missed|perdió]] [[his|su]] [[flight|vuelo]] [[because|porque]] [[he|él]] _______ [[forgotten|olvidado]] [[to|de]] [[set|poner]] [[an|una]] [[alarm|alarma]].",
+          "question": "[[He missed his flight because he set an|Él perdió su vuelo porque él]] _______ [[forgotten to alarm|olvidado de poner una alarma]].",
           "options": [
             "[[had|había]]",
             "[[has|ha]]"
@@ -997,7 +997,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración eligiendo correctamente entre el pasado simple y el presente perfecto.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[they|ellos]] [[planned|planearon]] [[everything|todo]], [[things|las cosas]] _______ [[not|no]] [[gone|han ido]] [[as|como]] [[expected|esperaban]].",
+          "question": "[[Although they, things gone planned everything|Aunque ellos planearon todo, las cosas]] _______ [[not as expected|no han ido como esperaban]].",
           "options": [
             "[[have|han]]",
             "[[did|hicieron]]"
@@ -1023,7 +1023,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la forma correcta del verbo en el pasado simple.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[they|que]] [[left|olvidaron]] [[the|el]] [[passport|pasaporte]] [[at|en]] [[home|casa]] [[only|solo]] [[after|después de]] [[they|que]] [[reached|llegaron]] [[the|al]] [[airport|aeropuerto]].",
+          "question": "[[They left the passport at home only after they reached the airport|Ellos]] _______ [[they|que olvidaron el pasaporte en casa solo después de que llegaron al aeropuerto]].",
           "options": [
             "[[realized|se dieron cuenta]]",
             "[[have|han]]"
@@ -1049,7 +1049,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Escoge la forma verbal adecuada para completar la oración destacando el cambio de estado.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[booked|reservó]] [[the|el]] [[hotel|hotel]], [[but|pero]] [[later|más tarde]] [[she|ella]] _______ [[regretted|se ha arrepentido]] [[the|de la]] [[decision|decisión]].",
+          "question": "[[She booked, but later the hotel she the decision|Ella reservó el hotel, pero más tarde ella]] _______ [[regretted|se ha arrepentido de la decisión]].",
           "options": [
             "[[has|ha]]",
             "[[did|hizo]]"
@@ -1073,7 +1073,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[has|ha]] [[never|nunca]] [[seen|visto]] [[such|semejantes]] [[beautiful|hermosas]] [[mountains|montañas]] [[before|antes]].",
+      "correctSentence": "[[She has never seen such beautiful mountains before|Ella ha nunca visto semejantes hermosas montañas antes]].",
       "words": [
         "[[mountains|montañas]]",
         "[[never|nunca]]",
@@ -1100,7 +1100,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[the|el]] [[delay|retraso]], [[we|nosotros]] [[managed|logramos]] [[to|coger]] [[catch|el]] [[the|tren]].",
+      "correctSentence": "[[Despite the, we delay managed to catch the|A pesar de el retraso, nosotros logramos coger el tren]].",
       "words": [
         "[[the|el]]",
         "[[we|nosotros]]",
@@ -1127,7 +1127,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[the|el]] [[weather|clima]] [[was|era]] [[terrible|terrible]], [[they|ellos]] [[enjoyed|disfrutaron]] [[the|el]] [[trip|viaje]].",
+      "correctSentence": "[[Although the, they weather was terrible enjoyed the trip|Aunque el clima era terrible, ellos disfrutaron el viaje]].",
       "words": [
         "[[they|ellos]]",
         "[[enjoyed|disfrutaron]]",
@@ -1154,7 +1154,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[has|ha]] [[already|ya]] [[booked|reservado]] [[the|el]] [[hotel|hotel]] [[for|para]] [[next|el próximo]] [[summer|verano]].",
+      "correctSentence": "[[He has already booked the hotel for next summer|Él ha ya reservado el hotel para el próximo verano]].",
       "words": [
         "[[for|para]]",
         "[[next|el próximo]]",
@@ -1182,7 +1182,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[missed|perdieron]] [[the|el]] [[flight|vuelo]] [[because|porque]] [[they|ellos]] [[left|salieron]] [[home|de casa]] [[too|demasiado]] [[late|tarde]].",
+      "correctSentence": "[[They missed the flight because they left home too late|Ellos perdieron el vuelo porque ellos salieron de casa demasiado tarde]].",
       "words": [
         "[[missed|perdieron]]",
         "[[late|tarde]]",
@@ -1212,7 +1212,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[_______|_______]] [[visited|visitó]] [[Italy|Italia]] [[twice|dos]] [[times|veces]], [[although|aunque]] [[she|ella]] [[visited|visitó]] [[France|Francia]] [[only|solo]] [[once|una]] [[last|pasado]] [[year|año]].",
+          "question": "[[She _______, although she visited Italy twice times visited France only once last year|Ella _______ visitó Italia dos veces, aunque ella visitó Francia solo una pasado año]].",
           "options": [
             "[[has|ha]]",
             "[[had|había]]"
@@ -1238,7 +1238,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta que mejor completa la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[_______|_______]] [[never|nunca]] [[had|tenido]] [[such|tan]] [[an|un]] [[adventurous|aventurero]] [[trip|viaje]] [[before|antes]].",
+          "question": "[[They _______ never had such an adventurous trip before|Ellos _______ nunca tenido tan un aventurero viaje antes]].",
           "options": [
             "[[have|han]]",
             "[[had|habían]]"
@@ -1264,7 +1264,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción que mejor completa la oración sobre eventos pasados específicos.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[_______|_______]] [[a|una]] [[remarkable|notable]] [[waterfall|cascada]] [[during|durante]] [[my|mi]] [[trip|viaje]] [[in|en]] [[2019|2019]].",
+          "question": "[[I _______ a remarkable waterfall during my trip in 2019|Yo _______ una notable cascada durante mi viaje en 2019]].",
           "options": [
             "[[saw|vi]]",
             "[[have|he]]"
@@ -1290,7 +1290,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Escoge la opción que completa correctamente la oración utilizando el tiempo verbal adecuado.",
       "questions": [
         {
-          "question": "[[Since|Desde]] [[arriving|que llegué]], [[I|yo]] [[_______|_______]] [[learned|aprendido]] [[a|mucho]] [[lot|sobre]] [[about|la]] [[the|cultura]] [[local|local]].",
+          "question": "[[Since arriving, I _______ learned a lot about the local|Desde que llegué, yo _______ aprendido mucho sobre la cultura local]].",
           "options": [
             "[[have|he]]",
             "[[did|hice]]"
@@ -1316,7 +1316,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración eligiendo la opción correcta que refleje el contraste adecuado.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[he|él]] [[_______|_______]] [[the|el]] [[flight|vuelo]], [[he|él]] [[has|ha]] [[still|aun así]] [[managed|logrado]] [[to|disfrutar]] [[enjoy|de]] [[his|sus]] [[vacation|vacaciones]].",
+          "question": "[[Although he, he _______ the flight has still managed to enjoy his vacation|Aunque él _______ el vuelo, él ha aun así logrado disfrutar de sus vacaciones]].",
           "options": [
             "[[missed|perdió]]",
             "[[has|ha perdido]]"

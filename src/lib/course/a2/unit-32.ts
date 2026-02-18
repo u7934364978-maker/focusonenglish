@@ -89,7 +89,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[use|use]]) _______ [[my|mi/mis]] [[laptop|laptop]] [[for|para/por]] [[work|trabajo/trabajar]].",
+          "question": "[[I laptop for work|Yo]] ([[use|use]]) _______ [[my|mi/mis laptop para/por trabajo/trabajar]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -115,7 +115,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[have|tener/haber]] [[got|tienes/conseguido]]) _______ [[a|un/una]] [[new|nuevo]] [[smartphone|smartphone]].",
+          "question": "[[She got smartphone|Ella]] ([[have|tener/haber tienes/conseguido]]) _______ [[a new|un/una nuevo smartphone]].",
           "options": [
             "[[to|a/para]]",
             "[[it|eso]]",
@@ -141,7 +141,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[not/need|not/need]]) _______ [[a|un/una]] [[printer|printer]].",
+          "question": "[[We printer|Nosotros]] ([[not/need|not/need]]) _______ [[a|un/una printer]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -167,7 +167,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Do|Hacer]] [[you|tú/usted]] _______ ([[know|saber/conocer]]) [[how|cómo]] [[to|a/para]] [[use|use]] [[this|este/esta]] [[app|app]]?",
+          "question": "[[Do you use this app|Hacer tú/usted]] _______ ([[know to|saber/conocer]]) [[how|cómo a/para use este/esta app]]?",
           "options": [
             "[[it|eso]]",
             "[[know|saber/conocer]]",
@@ -193,7 +193,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[be|ser/estar]]) _______ [[always|siempre]] [[online|online]].",
+          "question": "[[They online|Ellos]] ([[be|ser/estar]]) _______ [[always|siempre online]].",
           "options": [
             "[[are|son/están]]",
             "[[to|a/para]]",
@@ -219,7 +219,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[buy|comprar]]) _______ [[a|un/una]] [[new|nuevo]] [[tablet|tablet]] [[yesterday|ayer]].",
+          "question": "[[I new tablet yesterday|Yo]] ([[buy|comprar]]) _______ [[a|un/una nuevo tablet ayer]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -245,7 +245,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[not/like|not/like]]) _______ [[social|social]] [[media|media]].",
+          "question": "[[He media|Él]] ([[not/like|not/like]]) _______ [[social|social media]].",
           "options": [
             "[[to|a/para]]",
             "[[doesn't like|doesn't like]]",
@@ -271,7 +271,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[download|download]]) _______ [[the|el/la/los/las]] [[file|file]] [[now|ahora]].",
+          "question": "[[We file now|Nosotros]] ([[download|download]]) _______ [[the|el/la/los/las file ahora]].",
           "options": [
             "[[are downloading|are downloading]]",
             "[[to|a/para]]",
@@ -297,7 +297,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[battery|battery]] ([[be|ser/estar]]) _______ [[dead|dead]].",
+          "question": "[[The battery|El/la/los/las battery]] ([[be|ser/estar]]) _______ [[dead|dead]].",
           "options": [
             "[[is|es/está]]",
             "[[to|a/para]]",
@@ -323,7 +323,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "_______ [[you|tú/usted]] [[have|tener/haber]] [[a|un/una]] [[good|bueno/buena]] [[internet|internet]] [[connection|connection]]?",
+          "question": "_______ [[you have a good internet connection|tú/usted tener/haber un/una bueno/buena internet connection]]?",
           "options": [
             "[[it|eso]]",
             "[[Do|Hacer]]",
@@ -347,7 +347,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[use|use]] [[my|mi/mis]] [[laptop|laptop]] [[every|every]] [[day|día]] [[for|para/por]] [[university|universidad]].",
+      "correctSentence": "[[I use my laptop every day for university|Yo use mi/mis laptop every día para/por universidad]].",
       "words": [
         "[[day|día]]",
         "[[every|every]]",
@@ -373,7 +373,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[smartphone|smartphone]] [[has|tiene/ha]] [[a|un/una]] [[very|muy]] [[good|bueno/buena]] [[camera|camera]].",
+      "correctSentence": "[[My smartphone has a very good camera|Mi/mis smartphone tiene/ha un/una muy bueno/buena camera]].",
       "words": [
         "[[very|muy]]",
         "[[a|un/una]]",
@@ -398,7 +398,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[need|necesitar]] [[a|un/una]] [[faster|faster]] [[internet|internet]] [[connection|connection]].",
+      "correctSentence": "[[We need a faster internet connection|Nosotros necesitar un/una faster internet connection]].",
       "words": [
         "[[internet|internet]]",
         "[[We|Nosotros]]",
@@ -422,7 +422,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Don't|No]] [[forget|forget]] [[to|a/para]] [[charge|charge]] [[your|tu/tus]] [[tablet|tablet]].",
+      "correctSentence": "[[Don't forget to charge your tablet|No forget a/para charge tu/tus tablet]].",
       "words": [
         "[[tablet|tablet]].",
         "[[your|tu/tus]]",
@@ -446,7 +446,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[What|Qué]] [[is|es/está]] [[the|el/la/los/las]] [[password|password]] [[for|para/por]] [[the|el/la/los/las]] [[Wi-Fi|Wi-Fi]]?",
+      "correctSentence": "[[What is the password for the Wi-Fi|Qué es/está el/la/los/las password para/por el/la/los/las Wi-Fi]]?",
       "words": [
         "[[password|password]]",
         "[[the|el/la/los/las]]",
@@ -471,7 +471,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[downloaded|downloaded]] [[a|un/una]] [[new|nuevo]] [[app|app]] [[for|para/por]] [[learning|learning]] [[English|English]].",
+      "correctSentence": "[[I downloaded a new app for learning English|Yo downloaded un/una nuevo app para/por learning English]].",
       "words": [
         "[[learning|learning]]",
         "[[a|un/una]]",
@@ -497,7 +497,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[screen|screen]] [[of|de]] [[my|mi/mis]] [[phone|teléfono]] [[is|es/está]] [[broken|broken]].",
+      "correctSentence": "[[The screen of my phone is broken|El/la/los/las screen de mi/mis teléfono es/está broken]].",
       "words": [
         "[[of|de]]",
         "[[my|mi/mis]]",
@@ -522,7 +522,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[need|necesitar]] [[a|un/una]] [[new|nuevo]] [[charger|charger]] [[for|para/por]] [[my|mi/mis]] [[laptop|laptop]].",
+      "correctSentence": "[[I need a new charger for my laptop|Yo necesitar un/una nuevo charger para/por mi/mis laptop]].",
       "words": [
         "[[for|para/por]]",
         "[[my|mi/mis]]",
@@ -548,7 +548,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[spends|spends]] [[too|demasiado/también]] [[much|much]] [[time|tiempo/hora]] [[on|en/sobre]] [[her|su (de ella)]] [[computer|ordenador]].",
+      "correctSentence": "[[She spends too much time on her computer|Ella spends demasiado/también much tiempo/hora en/sobre su (de ella) ordenador]].",
       "words": [
         "[[time|tiempo/hora]]",
         "[[her|su (de ella)]]",
@@ -574,7 +574,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[software|software/programa]] [[needs|needs]] [[to|a/para]] [[be|ser/estar]] [[updated|actualizado]].",
+      "correctSentence": "[[The software needs to be updated|El/la/los/las software/programa needs a/para ser/estar actualizado]].",
       "words": [
         "[[be|ser/estar]]",
         "[[to|a/para]]",
@@ -598,7 +598,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[can't|can't]] [[find|find]] [[the|el/la/los/las]] [[file|file]] [[on|en/sobre]] [[my|mi/mis]] [[hard|hard]] [[drive|drive]].",
+      "correctSentence": "[[I can't find the file on my hard drive|Yo can't find el/la/los/las file en/sobre mi/mis hard drive]].",
       "words": [
         "[[I|Yo]]",
         "[[can't|can't]]",
@@ -625,7 +625,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[very|muy]] [[good|bueno/buena]] [[at|en]] [[using|using]] [[technology|technology]].",
+      "correctSentence": "[[He is very good at using technology|Él es/está muy bueno/buena en using technology]].",
       "words": [
         "[[He|Él]]",
         "[[is|es/está]]",
@@ -650,7 +650,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[battery|battery]] [[only|only]] [[lasts|lasts]] [[for|para/por]] [[two|dos]] [[hours|hours]].",
+      "correctSentence": "[[The battery only lasts for two hours|El/la/los/las battery only lasts para/por dos hours]].",
       "words": [
         "[[lasts|lasts]]",
         "[[two|dos]]",
@@ -675,7 +675,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Do|Hacer]] [[you|tú/usted]] [[use|use]] [[a|un/una]] [[keyboard|keyboard]] [[or|or]] [[a|un/una]] [[mouse|mouse]]?",
+      "correctSentence": "[[Do you use a keyboard or a mouse|Hacer tú/usted use un/una keyboard or un/una mouse]]?",
       "words": [
         "[[you|tú/usted]]",
         "[[a|un/una]]",
@@ -701,7 +701,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[website|website]] [[is|es/está]] [[very|muy]] [[easy|fácil]] [[to|a/para]] [[navigate|navigate]].",
+      "correctSentence": "[[The website is very easy to navigate|El/la/los/las website es/está muy fácil a/para navigate]].",
       "words": [
         "[[navigate|navigate]].",
         "[[very|muy]]",

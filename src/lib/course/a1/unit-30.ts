@@ -13,7 +13,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[There|Allí/ahí]] ([[hay|hay]] [[-|-]] [[plural|plural]]) _______ [[three|tres]] [[chairs|chairs]].",
+          "question": "[[There - plural chairs|Allí/ahí]] ([[hay|hay - plural]]) _______ [[three|tres chairs]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -39,7 +39,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[cat|cat]] [[is|es/está]] ([[debajo|debajo]]) _______ [[the|el/la/los/las]] [[table|mesa]].",
+          "question": "[[The cat is table|El/la/los/las cat es/está]] ([[debajo|debajo]]) _______ [[the|el/la/los/las mesa]].",
           "options": [
             "[[under|debajo de]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[tener|tener]]) _______ [[a|un/una]] [[dog|dog]].",
+          "question": "[[I dog|Yo]] ([[tener|tener]]) _______ [[a|un/una dog]].",
           "options": [
             "[[is|es/está]]",
             "[[have|tener/haber]]",
@@ -91,7 +91,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[llevar|llevar]] [[puesto|puesto]]) _______ [[a|un/una]] [[dress|dress]].",
+          "question": "[[She puesto|Ella]] ([[llevar|llevar puesto]]) _______ [[a dress|un/una dress]].",
           "options": [
             "[[is wearing|is wearing]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[This|Este/esta]] [[is|es/está]] [[a|un/una]] [[review|review]] [[of|de]] [[module|module]] [[three|tres]].",
+      "correctSentence": "[[This is a review of module three|Este/esta es/está un/una review de module tres]].",
       "words": [
         "[[This|Este/esta]]",
         "[[of|de]]",
@@ -140,7 +140,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Describe|Describe]] [[your|tu/tus]] [[house|casa]] [[and|and]] [[neighborhood|neighborhood]].",
+      "correctSentence": "[[Describe your house and neighborhood|Describe tu/tus casa and neighborhood]].",
       "words": [
         "[[and|and]]",
         "[[Describe|Describe]]",
@@ -163,7 +163,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Give|Dar]] [[directions|directions]] [[to|a/para]] [[the|el/la/los/las]] [[station|station]].",
+      "correctSentence": "[[Give directions to the station|Dar directions a/para el/la/los/las station]].",
       "words": [
         "[[to|a/para]]",
         "[[station|station]].",
@@ -186,7 +186,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Talk|Talk]] [[about|sobre/acerca de]] [[your|tu/tus]] [[favorite|favorite]] [[animals|animals]].",
+      "correctSentence": "[[Talk about your favorite animals|Talk sobre/acerca de tu/tus favorite animals]].",
       "words": [
         "[[favorite|favorite]]",
         "[[your|tu/tus]]",
@@ -209,7 +209,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Identify|Identify]] [[parts|parts]] [[of|de]] [[the|el/la/los/las]] [[body|body]] [[and|and]] [[clothes|clothes]].",
+      "correctSentence": "[[Identify parts of the body and clothes|Identify parts de el/la/los/las body and clothes]].",
       "words": [
         "[[and|and]]",
         "[[Identify|Identify]]",

@@ -65,7 +65,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[like|gustar/como]] [[coffee|coffee]] ([[pero|pero]]) _______ [[not|not]] [[tea|tea]].",
+          "question": "[[I like coffee tea|Yo gustar/como coffee]] ([[pero|pero]]) _______ [[not|not tea]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[tocar|tocar]]) _______ [[the|el/la/los/las]] [[piano|piano]].",
+          "question": "[[He piano|Él]] ([[tocar|tocar]]) _______ [[the|el/la/los/las piano]].",
           "options": [
             "[[plays|plays]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[This|Este/esta]] [[is|es/está]] [[a|un/una]] [[review|review]] [[of|de]] [[module|module]] [[four|cuatro]].",
+      "correctSentence": "[[This is a review of module four|Este/esta es/está un/una review de module cuatro]].",
       "words": [
         "[[review|review]]",
         "[[This|Este/esta]]",
@@ -140,7 +140,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Talk|Talk]] [[about|sobre/acerca de]] [[your|tu/tus]] [[abilities|abilities]] [[and|and]] [[skills|skills]].",
+      "correctSentence": "[[Talk about your abilities and skills|Talk sobre/acerca de tu/tus abilities and skills]].",
       "words": [
         "[[skills|skills]].",
         "[[and|and]]",
@@ -164,7 +164,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Use|Use]] [[adverbs|adverbs]] [[of|de]] [[frequency|frequency]].",
+      "correctSentence": "[[Use adverbs of frequency|Use adverbs de frequency]].",
       "words": [
         "[[frequency|frequency]].",
         "[[of|de]]",
@@ -186,7 +186,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Connect|Connect]] [[sentences|sentences]] [[with|con]] '[[and|and]]', '[[but|but]]', [[and|and]] '[[because|because]]'.",
+      "correctSentence": "[[Connect sentences with|Connect sentences con]] '[[and|and]]', '[[but|but]]', [[and|and]] '[[because|because]]'.",
       "words": [
         "[[and|and]]",
         "'[[and|and]]',",
@@ -211,7 +211,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Ask|Ask]] [[for|para/por]] [[permission|permission]] [[politely|politely]].",
+      "correctSentence": "[[Ask for permission politely|Ask para/por permission politely]].",
       "words": [
         "[[permission|permission]]",
         "[[politely|politely]].",

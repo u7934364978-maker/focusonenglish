@@ -13,7 +13,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|soy/estoy]] ([[llevar|llevar]] [[puesto|puesto]]) _______ [[a|un/una]] [[blue|blue]] [[shirt|shirt]].",
+          "question": "[[I am shirt|Yo soy/estoy]] ([[llevar puesto|llevar puesto]]) _______ [[a blue|un/una blue shirt]].",
           "options": [
             "[[wearing|wearing]]",
             "[[is|es/está]]",
@@ -39,7 +39,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[llevar|llevar]] [[puesto|puesto]]) _______ [[a|un/una]] [[red|red]] [[dress|dress]].",
+          "question": "[[She puesto dress|Ella]] ([[llevar|llevar puesto]]) _______ [[a red|un/una red dress]].",
           "options": [
             "[[is wearing|is wearing]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[These|Estos/estas]] ([[be|ser/estar]]) _______ [[my|mi/mis]] [[shoes|shoes]].",
+          "question": "[[These shoes|Estos/estas]] ([[be|ser/estar]]) _______ [[my|mi/mis shoes]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesitar]] [[a|un/una]] ([[nuevo|nuevo]]) _______ [[coat|coat]].",
+          "question": "[[I need a|Yo necesitar un/una]] ([[nuevo|nuevo]]) _______ [[coat|coat]].",
           "options": [
             "[[is|es/está]]",
             "[[new|nuevo]]",
@@ -115,7 +115,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[shoes|shoes]] [[are|son/están]] [[very|muy]] [[comfortable|comfortable]].",
+      "correctSentence": "[[My shoes are very comfortable|Mi/mis shoes son/están muy comfortable]].",
       "words": [
         "[[My|Mi/mis]]",
         "[[shoes|shoes]]",
@@ -138,7 +138,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[like|gustar/como]] [[your|tu/tus]] [[new|nuevo]] [[dress|dress]].",
+      "correctSentence": "[[I like your new dress|Yo gustar/como tu/tus nuevo dress]].",
       "words": [
         "[[new|nuevo]]",
         "[[like|gustar/como]]",
@@ -161,7 +161,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[wearing|wearing]] [[a|un/una]] [[black|black]] [[hat|hat]].",
+      "correctSentence": "[[He is wearing a black hat|Él es/está wearing un/una black hat]].",
       "words": [
         "[[hat|hat]].",
         "[[a|un/una]]",
@@ -185,7 +185,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[These|Estos/estas]] [[socks|socks]] [[are|son/están]] [[very|muy]] [[warm|warm]].",
+      "correctSentence": "[[These socks are very warm|Estos/estas socks son/están muy warm]].",
       "words": [
         "[[These|Estos/estas]]",
         "[[socks|socks]]",
@@ -208,7 +208,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[need|necesitar]] [[new|nuevo]] [[trousers|trousers]].",
+      "correctSentence": "[[I need new trousers|Yo necesitar nuevo trousers]].",
       "words": [
         "[[trousers|trousers]].",
         "[[new|nuevo]]",

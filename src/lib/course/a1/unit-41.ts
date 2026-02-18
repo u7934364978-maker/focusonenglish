@@ -13,7 +13,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Puedo|Puedo]]) _______ [[I|Yo]] [[see|ver]] [[your|tu/tus]] [[passport|passport]]?",
+          "question": "([[Puedo see your passport|Puedo]]) _______ [[I|Yo ver tu/tus passport]]?",
           "options": [
             "[[May|May]]",
             "[[is|es/está]]",
@@ -39,7 +39,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] ([[be|ser/estar]]) _______ [[my|mi/mis]] [[gate|gate]]?",
+          "question": "[[Where gate|Dónde]] ([[be|ser/estar]]) _______ [[my|mi/mis gate]]?",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tener/haber]] [[two|dos]] ([[maletas|maletas]]) [[_______|_______]].",
+          "question": "[[I have two|Yo tener/haber dos]] ([[maletas|maletas]]) [[_______|_______]].",
           "options": [
             "[[suitcases|suitcases]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[flight|flight]] ([[be|ser/estar]]) _______ [[late|late]].",
+          "question": "[[The flight|El/la/los/las flight]] ([[be|ser/estar]]) _______ [[late|late]].",
           "options": [
             "[[is|es/está]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[have|tener/haber]] [[my|mi/mis]] [[boarding|boarding]] [[pass|pass]].",
+      "correctSentence": "[[I have my boarding pass|Yo tener/haber mi/mis boarding pass]].",
       "words": [
         "[[my|mi/mis]]",
         "[[boarding|boarding]]",
@@ -138,7 +138,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Where|Dónde]] [[is|es/está]] [[the|el/la/los/las]] [[check-in|check-in]] [[desk|desk]]?",
+      "correctSentence": "[[Where is the check-in desk|Dónde es/está el/la/los/las check-in desk]]?",
       "words": [
         "[[the|el/la/los/las]]",
         "[[desk|desk]]?",
@@ -161,7 +161,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Don't|No]] [[lose|lose]] [[your|tu/tus]] [[ticket|ticket]].",
+      "correctSentence": "[[Don't lose your ticket|No lose tu/tus ticket]].",
       "words": [
         "[[Don't|No]]",
         "[[lose|lose]]",
@@ -183,7 +183,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[luggage|luggage]] [[is|es/está]] [[very|muy]] [[heavy|heavy]].",
+      "correctSentence": "[[My luggage is very heavy|Mi/mis luggage es/está muy heavy]].",
       "words": [
         "[[is|es/está]]",
         "[[luggage|luggage]]",
@@ -206,7 +206,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[gate|gate]] [[is|es/está]] [[closing|closing]].",
+      "correctSentence": "[[The gate is closing|El/la/los/las gate es/está closing]].",
       "words": [
         "[[The|El/la/los/las]]",
         "[[gate|gate]]",

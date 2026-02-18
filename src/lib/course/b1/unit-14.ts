@@ -13,7 +13,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo modal adecuado para dar un consejo.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[drink|beber]] [[more|más]] [[water|agua]] [[to|para]] [[stay|mantenerte]] [[hydrated|hidratado]].",
+          "question": "[[You more water to stay hydrated|Tú]] _______ [[drink|beber más agua para mantenerte hidratado]].",
           "options": [
             "[[should|deberías]]",
             "[[must|debes (obligación)]]",
@@ -40,7 +40,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la estructura correcta para un hábito que ya no existe.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[smoke|fumar]], [[but|pero]] [[I|lo]] [[quit|dejé]] [[two|hace dos]] [[years|años]] [[ago| ]].",
+          "question": "[[I I, but quit two years ago|Yo]] _______ [[smoke|fumar, pero lo dejé hace dos años  ]].",
           "options": [
             "[[used to|solía]]",
             "[[am used to|estoy acostumbrado a]]",
@@ -67,7 +67,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el término que significa 'bienestar'.",
       "questions": [
         {
-          "question": "[[Eating|Comer]] [[a|una]] [[balanced|dieta]] [[diet|equilibrada]] [[is|es]] [[essential|esencial]] [[for|para]] [[our|nuestro]] _______.",
+          "question": "[[Eating a balanced diet is essential for our|Comer una dieta equilibrada es esencial para nuestro]] _______.",
           "options": [
             "[[well-being|bienestar]]",
             "[[illness|enfermedad]]",
@@ -94,7 +94,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la expresión de consejo fuerte o advertencia.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[see|ver]] [[a|a un]] [[doctor|médico]] [[if|si]] [[that|esa]] [[cough|tos]] [[persists|persiste]].",
+          "question": "[[You a doctor if that cough persists|Tú]] _______ [[see|ver a un médico si esa tos persiste]].",
           "options": [
             "[[had better|sería mejor que]]",
             "[[would rather|preferiría]]",
@@ -121,7 +121,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta para expresar el proceso de adaptarse.",
       "questions": [
         {
-          "question": "[[It's|Es]] [[difficult|difícil]] [[to| ]] _______ [[waking|despertarse]] [[up| ]] [[early|temprano]] [[for|para]] [[the|el]] [[gym|gimnasio]].",
+          "question": "[[It's difficult to up the gym|Es difícil  ]] _______ [[waking early for|despertarse   temprano para el gimnasio]].",
           "options": [
             "[[get used to|acostumbrarse a]]",
             "[[be used to|estar acostumbrado a]]",
@@ -148,7 +148,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra que significa 'insomnio'.",
       "questions": [
         {
-          "question": "[[Many|Mucha]] [[people|gente]] [[struggle|lucha]] [[with|con el]] _______ [[due|debido]] [[to|a]] [[high|altos]] [[levels|niveles]] [[of|de]] [[stress|estrés]].",
+          "question": "[[Many people struggle with of stress|Mucha gente lucha con el]] _______ [[due to high levels|debido a altos niveles de estrés]].",
           "options": [
             "[[insomnia|insomnio]]",
             "[[exhaustion|agotamiento]]",
@@ -175,7 +175,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta después del verbo 'recommend'.",
       "questions": [
         {
-          "question": "[[The|El]] [[doctor|médico]] [[recommended|recomendó]] _______ [[processed|alimentos procesados]] [[foods| ]] [[and|y]] [[sugar|azúcar]].",
+          "question": "[[The doctor recommended foods|El médico recomendó]] _______ [[processed and sugar|alimentos procesados   y azúcar]].",
           "options": [
             "[[avoiding|evitar]]",
             "[[to avoid|evitar]]",
@@ -202,7 +202,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que significa 'enfermedad'.",
       "questions": [
         {
-          "question": "[[Regular|El ejercicio]] [[exercise|regular]] [[can|puede]] [[help|ayudar a]] [[reduce|reducir]] [[the|el]] [[risk|riesgo]] [[of|de]] [[heart|cardíaca]] _______.",
+          "question": "[[Regular exercise can help reduce the risk of heart|El ejercicio regular puede ayudar a reducir el riesgo de cardíaca]] _______.",
           "options": [
             "[[disease|enfermedad]]",
             "[[injury|lesión]]",
@@ -229,7 +229,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la forma correcta para algo que ya es normal para ti.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[running|correr]] [[five|cinco]] [[kilometers|kilómetros]] [[every|cada]] [[morning|mañana]].",
+          "question": "[[I five kilometers every morning|Yo]] _______ [[running|correr cinco kilómetros cada mañana]].",
           "options": [
             "[[am used to|estoy acostumbrado a]]",
             "[[used to|solía]]",
@@ -256,7 +256,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término que significa 'flexibilidad'.",
       "questions": [
         {
-          "question": "[[Yoga|El yoga]] [[is|es]] [[a|una]] [[great|gran]] [[way|forma]] [[to|de]] [[improve|mejorar]] [[your|tu]] _______ [[and|y]] [[balance|equilibrio]].",
+          "question": "[[Yoga is a great way to improve your|El yoga es una gran forma de mejorar tu]] _______ [[and balance|y equilibrio]].",
           "options": [
             "[[flexibility|flexibilidad]]",
             "[[strength|fuerza]]",
@@ -283,7 +283,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el sinónimo de 'should' para dar un consejo.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[warm|calentar]] [[up| ]] [[before|antes de]] [[starting|empezar]] [[any|cualquier]] [[activity|actividad]].",
+          "question": "[[You up before starting any activity|Tú]] _______ [[warm|calentar   antes de empezar cualquier actividad]].",
           "options": [
             "[[ought to|deberías]]",
             "[[must to|debes a]]",
@@ -310,7 +310,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que significa 'ingesta'.",
       "questions": [
         {
-          "question": "[[It's|Es]] [[important|importante]] [[to| ]] [[keep|hacer un]] [[track|seguimiento]] [[of|de]] [[your|tu]] [[daily|diaria]] [[calorie|de calorías]] _______.",
+          "question": "[[It's important to keep track of your daily calorie|Es importante   hacer un seguimiento de tu diaria de calorías]] _______.",
           "options": [
             "[[intake|ingesta]]",
             "[[expenditure|gasto]]",
@@ -337,7 +337,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta después de 'decide'.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[decided|decidió]] _______ [[a|un]] [[gym|gimnasio]] [[to|para]] [[get|ponerse]] [[in|en]] [[shape|forma]].",
+          "question": "[[She decided to get in shape|Ella decidió]] _______ [[a gym|un gimnasio para ponerse en forma]].",
           "options": [
             "[[to join|apuntarse a]]",
             "[[joining|apuntarse a]]",
@@ -364,7 +364,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa 'mental'.",
       "questions": [
         {
-          "question": "_______ [[health|La salud]] [[is|es]] [[just|exactamente]] [[as|tan]] [[important|importante]] [[as|como]] [[physical|la]] [[health|física]].",
+          "question": "_______ [[health is just as important as physical health|La salud es exactamente tan importante como la física]].",
           "options": [
             "[[Mental|Mental]]",
             "[[Emotional|Emocional]]",
@@ -391,7 +391,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el modal negativo para un consejo.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[skip|saltarte el]] [[breakfast|desayuno]] [[if|si]] [[you|quieres]] [[want|tener]] [[to|energía]].",
+          "question": "[[You breakfast if you want to|Tú]] _______ [[skip|saltarte el desayuno si quieres tener energía]].",
           "options": [
             "[[shouldn't|no deberías]]",
             "[[mustn't|no debes (prohibición)]]",
@@ -418,7 +418,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el pronombre relativo adecuado para personas.",
       "questions": [
         {
-          "question": "[[The|La]] [[nurse|enfermera]], _______ [[was|era]] [[very|muy]] [[kind|amable]], [[took|me tomó]] [[my|la]] [[blood|tensión]] [[pressure|arterial]].",
+          "question": "[[The nurse, took kind my blood pressure|La enfermera]], _______ [[was very|era muy amable, me tomó la tensión arterial]].",
           "options": [
             "[[who|que/quien]]",
             "[[which|que/el cual]]",
@@ -445,7 +445,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa 'sedentario'.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[lifestyle|estilo de vida]] [[can|puede]] [[lead|conducir]] [[to|a]] [[health|complicaciones]] [[complications|de salud]].",
+          "question": "[[A can lead to health complications|Un]] _______ [[lifestyle|estilo de vida puede conducir a complicaciones de salud]].",
           "options": [
             "[[sedentary|sedentario]]",
             "[[active|activo]]",
@@ -472,7 +472,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición o forma correcta tras 'suggest'.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[suggest|sugiero]] _______ [[for|para]] [[reducing|reducir]] [[anxiety|la ansiedad]].",
+          "question": "[[I suggest anxiety|Yo sugiero]] _______ [[for reducing|para reducir la ansiedad]].",
           "options": [
             "[[meditation|la meditación]]",
             "[[to meditate|meditar]]",
@@ -499,7 +499,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término que significa 'patrones'.",
       "questions": [
         {
-          "question": "[[Caffeine|La cafeína]] [[can|puede]] [[interfere|interferir]] [[with|con]] [[your|tus]] [[sleep|de sueño]] _______.",
+          "question": "[[Caffeine can interfere with your sleep|La cafeína puede interferir con tus de sueño]] _______.",
           "options": [
             "[[patterns|patrones]]",
             "[[habits|hábitos]]",
@@ -526,7 +526,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el pronombre relativo adecuado.",
       "questions": [
         {
-          "question": "[[People|Las personas]] _______ [[exercise|hacen ejercicio]] [[regularly|regularmente]] [[tend|tienden]] [[to|a]] [[live|vivir]] [[longer|más]].",
+          "question": "[[People regularly tend to live longer|Las personas]] _______ [[exercise|hacen ejercicio regularmente tienden a vivir más]].",
           "options": [
             "[[who|que]]",
             "[[which|que]]",
@@ -553,7 +553,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el adverbio relativo para lugares.",
       "questions": [
         {
-          "question": "[[The|El]] [[hospital|hospital]] _______ [[I|yo]] [[was|nací]] [[born| ]] [[is|es]] [[now|ahora]] [[a|un]] [[health|centro de]] [[center|salud]].",
+          "question": "[[The hospital born is now a health center|El hospital]] _______ [[I was|yo nací   es ahora un centro de salud]].",
           "options": [
             "[[where|donde]]",
             "[[when|cuando]]",
@@ -580,7 +580,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra que significa 'pobre' o 'deficiente'.",
       "questions": [
         {
-          "question": "[[High|Altos]] [[cholesterol|niveles de colesterol]] [[levels| ]] [[are|están]] [[linked|vinculados]] [[to|a]] [[a|una]] _______ [[diet|dieta]].",
+          "question": "[[High cholesterol levels are linked to a|Altos niveles de colesterol   están vinculados a una]] _______ [[diet|dieta]].",
           "options": [
             "[[poor|pobre/deficiente]]",
             "[[rich|rica]]",
@@ -607,7 +607,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta tras 'don't mind'.",
       "questions": [
         {
-          "question": "[[I|A mí]] [[don't|no]] [[mind|me importa]] _______ [[to|al]] [[work|trabajo]].",
+          "question": "[[I don't mind work|A mí no me importa]] _______ [[to|al trabajo]].",
           "options": [
             "[[walking|caminar]]",
             "[[to walk|caminar]]",
@@ -634,7 +634,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el término que significa 'hidratación'.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[key|clave]] [[when|cuando]] [[you|tú]] [[are|estás]] [[training|entrenando]].",
+          "question": "_______ [[is key when you are training|es clave cuando tú estás entrenando]].",
           "options": [
             "[[Hydration|La hidratación]]",
             "[[Nutrition|La nutrición]]",
@@ -661,7 +661,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta tras 'forget'.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[forgot|olvidé]] _______ [[my|mis]] [[vitamins|vitaminas]] [[this|esta]] [[morning|mañana]].",
+          "question": "[[I forgot this morning|Yo olvidé]] _______ [[my vitamins|mis vitaminas esta mañana]].",
           "options": [
             "[[to take|tomar]]",
             "[[taking|tomar]]",
@@ -796,7 +796,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Higiene del sueño",
       "instructions": "Ordena las palabras para formar una recomendación saludable.",
-      "correctSentence": "[[You|Tú]] [[should|deberías]] [[try|intentar]] [[to get|dormir]] [[at|al]] [[least|menos]] [[eight|ocho]] [[hours|horas]] [[of|de]] [[sleep|sueño]] [[every|cada]] [[night|noche]].",
+      "correctSentence": "[[You should try to get at least eight hours of sleep every night|Tú deberías intentar dormir al menos ocho horas de sueño cada noche]].",
       "words": [
         "[[You|Tú]]",
         "[[should|deberías]]",
@@ -828,7 +828,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Meriendas saludables",
       "instructions": "Ordena las palabras para formar una oración sobre alimentación.",
-      "correctSentence": "[[It's|Es]] [[important|importante]] [[to choose|elegir]] [[healthy|aperitivos]] [[snacks|saludables]] [[instead|en]] [[of|lugar]] [[eating|de]] [[junk|comida]] [[food|basura]].",
+      "correctSentence": "[[It's important to choose healthy snacks instead of eating junk food|Es importante elegir aperitivos saludables en lugar de comida basura]].",
       "words": [
         "[[It's|Es]]",
         "[[important|importante]]",
@@ -858,7 +858,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Desconexión digital",
       "instructions": "Ordena las palabras para describir un hábito moderno común.",
-      "correctSentence": "[[Many|Mucha]] [[people|gente]] [[find|encuentra]] [[it|lo]] [[difficult|difícil]] [[to stop|dejar de]] [[checking|mirar]] [[their|sus]] [[phones|móviles]] [[before|antes de]] [[bed|dormir]].",
+      "correctSentence": "[[Many people find it difficult to stop checking their phones before bed|Mucha gente encuentra lo difícil dejar de mirar sus móviles antes de dormir]].",
       "words": [
         "[[Many|Mucha]]",
         "[[people|gente]]",
@@ -889,7 +889,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Actividad diaria",
       "instructions": "Ordena las palabras para proponer una forma de mantenerse activo.",
-      "correctSentence": "[[Walking|Caminar]] [[to|a]] [[the|la]] [[office|oficina]] [[is|es]] [[a|una]] [[simple|forma]] [[way|sencilla]] [[to stay|mantenerse]] [[active|activo]] [[during|durante]] [[the|la]] [[week|semana]].",
+      "correctSentence": "[[Walking to the office is a simple way to stay active during the week|Caminar a la oficina es una forma sencilla mantenerse activo durante la semana]].",
       "words": [
         "[[Walking|Caminar]]",
         "[[to|a]]",
@@ -922,7 +922,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cocinando en casa",
       "instructions": "Ordena las palabras para expresar un proceso de adaptación.",
-      "correctSentence": "[[I|Me]] [[am|estoy]] [[getting|acostumbrando]] [[used to|a]] [[cooking|cocinar]] [[healthy|comidas]] [[meals|saludables]] [[at|en]] [[home|casa]] [[instead|en]] [[of|lugar]] [[ordering|de]] [[out|pedir fuera]].",
+      "correctSentence": "[[I am getting used to cooking healthy meals at home instead of ordering out|Me estoy acostumbrando a cocinar comidas saludables en casa en lugar de pedir fuera]].",
       "words": [
         "[[I|Me]]",
         "[[am|estoy]]",
@@ -955,7 +955,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Gestión del estrés",
       "instructions": "Ordena las palabras sobre los beneficios del yoga.",
-      "correctSentence": "[[Doing|Hacer]] [[yoga|yoga]] [[regularly|regularmente]] [[can|puede]] [[help|ayudarte]] [[you|a]] [[manage|gestionar]] [[your|tus]] [[stress|niveles]] [[levels|de estrés]] [[more|más]] [[effectively|eficazmente]].",
+      "correctSentence": "[[Doing yoga regularly can help you manage your stress levels more effectively|Hacer yoga regularmente puede ayudarte a gestionar tus niveles de estrés más eficazmente]].",
       "words": [
         "[[Doing|Hacer]]",
         "[[yoga|yoga]]",
@@ -987,7 +987,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Consejo sobre el café",
       "instructions": "Ordena las palabras para formar una advertencia negativa.",
-      "correctSentence": "[[You|Tú]] [[had better|sería mejor]] [[not|que no]] [[drink|bebas]] [[too much|demasiado]] [[coffee|café]] [[before|antes]] [[you|de]] [[go|irte]] [[to sleep|dormir]].",
+      "correctSentence": "[[You had better not drink too much coffee before you go to sleep|Tú sería mejor que no bebas demasiado café antes de irte dormir]].",
       "words": [
         "[[You|Tú]]",
         "[[had better|sería mejor]]",
@@ -1017,7 +1017,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hidratación diaria",
       "instructions": "Ordena las palabras para formar una recomendación médica común.",
-      "correctSentence": "[[Most|La mayoría de]] [[doctors|médicos]] [[recommend|recomiendan]] [[drinking|beber]] [[at|al]] [[least|menos]] [[two|dos]] [[liters|litros]] [[of|de]] [[water|agua]] [[every|cada]] [[single|mismo]] [[day|día]].",
+      "correctSentence": "[[Most doctors recommend drinking at least two liters of water every single day|La mayoría de médicos recomiendan beber al menos dos litros de agua cada mismo día]].",
       "words": [
         "[[Most|La mayoría de]]",
         "[[doctors|médicos]]",
@@ -1050,7 +1050,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cambio de estilo de vida",
       "instructions": "Ordena las palabras para contrastar el pasado con el presente.",
-      "correctSentence": "[[I|Yo]] [[didn't|no]] [[use to|solía]] [[be|ser]] [[very|muy]] [[active|activo]], [[but|pero]] [[now|ahora]] [[I|yo]] [[exercise|entreno]] [[almost|casi]] [[every|cada]] [[morning|mañana]].",
+      "correctSentence": "[[I didn't, but now use to be very active I exercise almost every morning|Yo no solía ser muy activo, pero ahora yo entreno casi cada mañana]].",
       "words": [
         "[[I|Yo]]",
         "[[didn't|no]]",
@@ -1084,7 +1084,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "El entrenador personal",
       "instructions": "Ordena las palabras usando un pronombre relativo de posesión.",
-      "correctSentence": "[[The|El]] [[personal|entrenador]] [[trainer|personal]], [[whose|cuyo]] [[gym|gimnasio]] [[is|está]] [[near|cerca de]] [[my|mi]] [[house|casa]], [[gave|dio]] [[me|a mí]] [[great|buenos]] [[advice|consejos]].",
+      "correctSentence": "[[The personal, whose trainer gym is near, gave me my house great advice|El entrenador personal, cuyo gimnasio está cerca de mi casa, dio a mí buenos consejos]].",
       "words": [
         "[[The|El]]",
         "[[personal|entrenador]]",
@@ -1119,7 +1119,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Entrenamientos matutinos",
       "instructions": "Ordena las palabras para describir un hábito consolidado.",
-      "correctSentence": "[[She|Ella]] [[is|está]] [[used to|acostumbrada a]] [[working out|entrenar]] [[for|durante]] [[two|dos]] [[hours|horas]] [[in|en]] [[the|la]] [[early|temprano]] [[morning|por la mañana]].",
+      "correctSentence": "[[She is used to working out for two hours in the early morning|Ella está acostumbrada a entrenar durante dos horas en la temprano por la mañana]].",
       "words": [
         "[[She|Ella]]",
         "[[is|está]]",
@@ -1150,7 +1150,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reducción de azúcar",
       "instructions": "Ordena las palabras para formar una afirmación sobre salud.",
-      "correctSentence": "[[Reducing|Reducir]] [[sugar|la ingesta de]] [[intake|azúcar]] [[is|es]] [[one|una]] [[of|de]] [[the|las]] [[most|maneras más]] [[effective|eficaces]] [[ways| ]] [[to|de]] [[improve|mejorar]] [[health|la salud]].",
+      "correctSentence": "[[Reducing sugar intake is one of the most effective ways to improve health|Reducir la ingesta de azúcar es una de las maneras más eficaces   de mejorar la salud]].",
       "words": [
         "[[Reducing|Reducir]]",
         "[[sugar|la ingesta de]]",
@@ -1183,7 +1183,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Escucha a tu cuerpo",
       "instructions": "Ordena las palabras para formar un consejo con 'ought to'.",
-      "correctSentence": "[[You|Tú]] [[ought|deberías]] [[to| ]] [[listen|escuchar]] [[to|a]] [[your|tu]] [[body|cuerpo]] [[and|y]] [[rest|descansar]] [[when|cuando]] [[you|te]] [[feel|sientas]] [[tired|cansado]].",
+      "correctSentence": "[[You ought to listen to your body and rest when you feel tired|Tú deberías   escuchar a tu cuerpo y descansar cuando te sientas cansado]].",
       "words": [
         "[[You|Tú]]",
         "[[ought|deberías]]",
@@ -1216,7 +1216,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vida urbana",
       "instructions": "Ordena las palabras para describir un fenómeno social de salud.",
-      "correctSentence": "[[People|Las personas]] [[who|que]] [[live|viven]] [[in|en]] [[cities|ciudades]] [[often|a menudo]] [[have|tienen]] [[more|trabajos más]] [[sedentary|sedentarios]] [[jobs| ]] [[and|y]] [[lifestyles|estilos de vida]].",
+      "correctSentence": "[[People who live in cities often have more sedentary jobs and lifestyles|Las personas que viven en ciudades a menudo tienen trabajos más sedentarios   y estilos de vida]].",
       "words": [
         "[[People|Las personas]]",
         "[[who|que]]",
@@ -1248,7 +1248,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cambio de dieta",
       "instructions": "Ordena las palabras sobre la dificultad de adaptarse.",
-      "correctSentence": "[[It|Puede]] [[can|ser]] [[be|muy]] [[very|difícil]] [[difficult| ]] [[to|acostumbrarse]] [[get|a]] [[used| ]] [[to| ]] [[a|una]] [[completely|completamente]] [[new|nueva]] [[diet|dieta]].",
+      "correctSentence": "[[It can be very difficult to get used to a completely new diet|Puede ser muy difícil   acostumbrarse a     una completamente nueva dieta]].",
       "words": [
         "[[It|Puede]]",
         "[[can|ser]]",
@@ -1281,7 +1281,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hábitos a largo plazo",
       "instructions": "Ordena las palabras sobre el beneficio de los hábitos.",
-      "correctSentence": "[[Healthy|Los hábitos]] [[habits|saludables]] [[that|que]] [[you|tú]] [[develop|desarrollas]] [[now|ahora]] [[will|te]] [[benefit|beneficiarán]] [[you| ]] [[for|durante]] [[many|muchos]] [[years|años]].",
+      "correctSentence": "[[Healthy habits that you develop now will benefit you for many years|Los hábitos saludables que tú desarrollas ahora te beneficiarán   durante muchos años]].",
       "words": [
         "[[Healthy|Los hábitos]]",
         "[[habits|saludables]]",
@@ -1313,7 +1313,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cierre del gimnasio",
       "instructions": "Ordena las palabras para formar una advertencia con 'had better'.",
-      "correctSentence": "[[You|Sería]] [[had|mejor]] [[better|que]] [[finish|termines]] [[your|tu]] [[workout|entrenamiento]] [[before|antes de]] [[the|que el]] [[gym|gimnasio]] [[closes|cierre]] [[for|por]] [[the|la]] [[night|noche]].",
+      "correctSentence": "[[You had better finish your workout before the gym closes for the night|Sería mejor que termines tu entrenamiento antes de que el gimnasio cierre por la noche]].",
       "words": [
         "[[You|Sería]]",
         "[[had|mejor]]",
@@ -1346,7 +1346,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sociedad moderna",
       "instructions": "Ordena las palabras sobre la salud mental hoy en día.",
-      "correctSentence": "[[Mental|El bienestar]] [[well-being|mental]] [[is|es]] [[often|a menudo]] [[neglected|descuidado]] [[in|en]] [[our|nuestro]] [[fast-paced|acelerado]] [[modern|mundo]] [[world|moderno]] [[and|y]] [[society|sociedad]].",
+      "correctSentence": "[[Mental well-being is often neglected in our fast-paced modern world and society|El bienestar mental es a menudo descuidado en nuestro acelerado mundo moderno y sociedad]].",
       "words": [
         "[[Mental|El bienestar]]",
         "[[well-being|mental]]",
@@ -1378,7 +1378,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "En el médico",
       "instructions": "Ordena las palabras sobre algo olvidado en la consulta.",
-      "correctSentence": "[[I|Se]] [[forgot|me olvidó]] [[to| ]] [[tell|decirle]] [[the|al]] [[doctor|médico]] [[about|sobre]] [[the|el]] [[pain|dolor]] [[in|en]] [[my|mi]] [[lower|parte baja de la]] [[back|espalda]].",
+      "correctSentence": "[[I forgot to tell the doctor about the pain in my lower back|Se me olvidó   decirle al médico sobre el dolor en mi parte baja de la espalda]].",
       "words": [
         "[[I|Se]]",
         "[[forgot|me olvidó]]",
@@ -1411,7 +1411,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Subir escaleras",
       "instructions": "Ordena las palabras para formar un consejo de actividad física.",
-      "correctSentence": "[[Choosing|Elegir]] [[to| ]] [[take|subir]] [[the|las]] [[stairs|escaleras]] [[instead|en]] [[of|lugar]] [[the|del]] [[elevator|ascensor]] [[is|es]] [[a|una]] [[healthy|decisión]] [[decision|saludable]].",
+      "correctSentence": "[[Choosing to take the stairs instead of the elevator is a healthy decision|Elegir   subir las escaleras en lugar del ascensor es una decisión saludable]].",
       "words": [
         "[[Choosing|Elegir]]",
         "[[to| ]]",

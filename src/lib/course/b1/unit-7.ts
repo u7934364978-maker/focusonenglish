@@ -14,7 +14,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Students|Estudiantes]] _______ [[complete|completar]] [[their|sus]] [[assignments|tareas]] [[on|a]] [[time|tiempo]].",
+          "question": "[[Students their assignments on time|Estudiantes]] _______ [[complete|completar sus tareas a tiempo]].",
           "options": [
             "[[must|deben]]",
             "[[should|deberían]]",
@@ -41,7 +41,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[In|En]] [[some|algunas]] [[classes|clases]], [[you|tú]] _______ [[use|usar]] [[a|un]] [[dictionary|diccionario]].",
+          "question": "[[In some, you classes a|En algunas clases, tú]] _______ [[use dictionary|usar un diccionario]].",
           "options": [
             "[[can|puedes]]",
             "[[must|debes]]",
@@ -68,7 +68,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[attend|asistir]] [[every|cada]] [[lecture|clase]] [[for|de]] [[this|este]] [[course|curso]].",
+          "question": "[[You every lecture for this course|Tú]] _______ [[attend|asistir cada clase de este curso]].",
           "options": [
             "[[have to|tienes que]]",
             "[[should|deberías]]",
@@ -95,7 +95,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[it|eso]] [[is|es]] [[not|no]] [[a|un]] [[requirement|requisito]], [[you|tú]] _______ [[review|revisar]] [[your|tus]] [[notes|notas]] [[regularly|regularmente]].",
+          "question": "[[Although it, you your is not a requirement notes regularly|Aunque eso es no un requisito, tú]] _______ [[review|revisar tus notas regularmente]].",
           "options": [
             "[[should|deberías]]",
             "[[must|debes]]",
@@ -122,7 +122,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[If|Si]] [[you|tú]] [[want|quieres]] [[to|tener]] [[succeed|éxito]], [[you|tú]] _______ [[focus|enfocar]] [[during|durante]] [[lectures|clases]].",
+          "question": "[[If you, you want to succeed during lectures|Si tú quieres tener éxito, tú]] _______ [[focus|enfocar durante clases]].",
           "options": [
             "[[must|debes]]",
             "[[can|puedes]]",
@@ -149,7 +149,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Llena el espacio con la palabra correcta para indicar obligación.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[submit|entregar]] [[your|tu]] [[assignment|tarea]] [[before|antes de]] [[Friday|viernes]].",
+          "question": "[[You your assignment before Friday|Tú]] _______ [[submit|entregar tu tarea antes de viernes]].",
           "options": [
             "[[must|debes]]",
             "[[can|puedes]]",
@@ -176,7 +176,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la frase sobre necesidad.",
       "questions": [
         {
-          "question": "[[Students|Estudiantes]] _______ [[wear|usar]] [[a|un]] [[uniform|uniforme]] [[to|a]] [[school|escuela]].",
+          "question": "[[Students a uniform to school|Estudiantes]] _______ [[wear|usar un uniforme a escuela]].",
           "options": [
             "[[have to|tienen que]]",
             "[[should|deberían]]",
@@ -203,7 +203,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración utilizando el modal que expresa recomendación.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[review|revisar]] [[your|tus]] [[notes|apuntes]] [[before|antes de]] [[the|el]] [[exam|examen]].",
+          "question": "[[You your notes before the exam|Tú]] _______ [[review|revisar tus apuntes antes de el examen]].",
           "options": [
             "[[should|deberías]]",
             "[[must|debes]]",
@@ -230,7 +230,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el modal correcto que indica permiso o posibilidad.",
       "questions": [
         {
-          "question": "[[Teachers|Profesores]] _______ [[use|usar]] [[various|varios]] [[online|en línea]] [[resources|recursos]] [[for|para]] [[teaching|enseñar]].",
+          "question": "[[Teachers various online resources for teaching|Profesores]] _______ [[use|usar varios en línea recursos para enseñar]].",
           "options": [
             "[[can|pueden]]",
             "[[must|deben]]",
@@ -257,7 +257,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Completa con el modal adecuado para expresar permiso bajo condición.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[attend|asistir]] [[the|al]] [[seminar|seminario]] [[if|si]] [[they|ellos]] [[receive|reciben]] [[permission|permiso]] [[from|de]] [[their|su]] [[manager|gerente]].",
+          "question": "[[They the seminar if they receive permission from their manager|Ellos]] _______ [[attend|asistir al seminario si ellos reciben permiso de su gerente]].",
           "options": [
             "[[can|pueden]]",
             "[[must|deben]]",
@@ -284,7 +284,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elija la opción correcta para completar la frase.",
       "questions": [
         {
-          "question": "[[After|Después]] [[the|la]] [[lecture|conferencia]], [[students|estudiantes]] _______ [[complete|completar]] [[the|la]] [[assignment|tarea]] [[by|para]] [[the|la]] [[next|próxima]] [[class|clase]].",
+          "question": "[[After the, students lecture the the next class|Después la conferencia, estudiantes]] _______ [[complete assignment by|completar la tarea para la próxima clase]].",
           "options": [
             "[[must|deben]]",
             "[[can|pueden]]"
@@ -310,7 +310,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Seleccione la palabra que mejor complete la oración.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[study|estudiar]] [[these|estos]] [[chapters|capítulos]] [[before|antes]] [[the|del]] [[exam|examen]] [[to|para]] [[understand|entender]] [[the|el]] [[material|material]] [[better|mejor]].",
+          "question": "[[You these chapters before the exam to understand the material better|Tú]] _______ [[study|estudiar estos capítulos antes del examen para entender el material mejor]].",
           "options": [
             "[[should|deberías]]",
             "[[must|debes]]"
@@ -336,7 +336,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elija la opción correcta que completa la frase adecuadamente.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[the|la]] [[library|biblioteca]] [[is|está]] [[open|abierta]] [[late|hasta tarde]], [[you|tú]] _______ [[show|mostrar]] [[your|tu]] [[ID|identificación]] [[to|para]] [[enter|entrar]].",
+          "question": "[[Although the, you your library is open late ID to|Aunque la biblioteca está abierta hasta tarde, tú]] _______ [[show enter|mostrar tu identificación para entrar]].",
           "options": [
             "[[have to|tienes que]]",
             "[[can|puedes]]"
@@ -362,7 +362,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase con la opción adecuada.",
       "questions": [
         {
-          "question": "[[Teachers|Los profesores]] _______ [[upload|subir]] [[new|nuevos]] [[materials|materiales]] [[on|en]] [[the|la]] [[platform|plataforma]] [[whenever|cuando]] [[they|ellos]] [[need|necesiten]].",
+          "question": "[[Teachers new materials on the platform whenever they need|Los profesores]] _______ [[upload|subir nuevos materiales en la plataforma cuando ellos necesiten]].",
           "options": [
             "[[can|pueden]]",
             "[[must|deben]]"
@@ -388,7 +388,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elija la opción que mejor complete la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|el]] [[busy|ocupado]] [[schedule|horario]], [[you|tú]] _______ [[find|encontrar]] [[time|tiempo]] [[to|para]] [[attend|asistir]] [[these|estos]] [[important|importantes]] [[seminars|seminarios]].",
+          "question": "[[Despite the, you time busy schedule these important seminars|A pesar de el ocupado horario, tú]] _______ [[find to attend|encontrar tiempo para asistir estos importantes seminarios]].",
           "options": [
             "[[must|debes]]",
             "[[can|puedes]]"
@@ -412,7 +412,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[You|Tú]] [[must|debes]] [[silence|silenciar]] [[your|tu]] [[mobile|móvil]] [[phone|teléfono]] [[during|durante]] [[the|el]] [[exam|examen]].",
+      "correctSentence": "[[You must silence your mobile phone during the exam|Tú debes silenciar tu móvil teléfono durante el examen]].",
       "words": [
         "[[silence|silenciar]]",
         "[[You|Tú]]",
@@ -440,7 +440,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Students|Estudiantes]] [[should|deberían]] [[use|usar]] [[the|los]] [[library|biblioteca]] [[resources|recursos]] [[for|para]] [[their|su]] [[research|investigación]].",
+      "correctSentence": "[[Students should use the library resources for their research|Estudiantes deberían usar los biblioteca recursos para su investigación]].",
       "words": [
         "[[library|biblioteca]]",
         "[[resources|recursos]]",
@@ -468,7 +468,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una pregunta correcta.",
-      "correctSentence": "[[Do|¿]] [[I|Yo]] [[have|tengo]] [[to|que]] [[register|registrarme]] [[for|para]] [[the|el]] [[workshop|taller]] [[online|en línea]]?",
+      "correctSentence": "[[Do I have to register for the workshop online|¿ Yo tengo que registrarme para el taller en línea]]?",
       "words": [
         "[[to|que]]",
         "[[Do|¿]]",
@@ -496,7 +496,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[You|Tú]] [[can|puedes]] [[borrow|pedir prestado]] [[up|hasta]] [[to|a]] [[five|cinco]] [[books|libros]] [[from|de]] [[the|la]] [[library|biblioteca]].",
+      "correctSentence": "[[You can borrow up to five books from the library|Tú puedes pedir prestado hasta a cinco libros de la biblioteca]].",
       "words": [
         "[[borrow|pedir prestado]]",
         "[[up|hasta]]",
@@ -525,7 +525,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una prohibición correcta.",
-      "correctSentence": "[[We|Nosotros]] [[must|debemos]] [[not|no]] [[speak|hablar]] [[during|durante]] [[the|el]] [[listening|escucha]] [[comprehension|comprensión]] [[test|prueba]].",
+      "correctSentence": "[[We must not speak during the listening comprehension test|Nosotros debemos no hablar durante el escucha comprensión prueba]].",
       "words": [
         "[[speak|hablar]]",
         "[[not|no]]",
@@ -553,7 +553,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[has|tiene]] [[to|que]] [[complete|completar]] [[the|el]] [[intermediate|intermedio]] [[level|nivel]] [[before|antes de]] [[joining|unirse]].",
+      "correctSentence": "[[She has to complete the intermediate level before joining|Ella tiene que completar el intermedio nivel antes de unirse]].",
       "words": [
         "[[intermediate|intermedio]]",
         "[[before|antes de]]",
@@ -581,7 +581,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar un consejo correcto.",
-      "correctSentence": "[[You|Tú]] [[should|deberías]] [[ask|preguntar]] [[the|al]] [[teacher|profesor]] [[if|si]] [[you|tú]] [[have|tienes]] [[questions|preguntas]].",
+      "correctSentence": "[[You should ask the teacher if you have questions|Tú deberías preguntar al profesor si tú tienes preguntas]].",
       "words": [
         "[[have|tienes]]",
         "[[teacher|profesor]]",
@@ -609,7 +609,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Students|Estudiantes]] [[can|pueden]] [[access|acceder]] [[the|la]] [[online|en línea]] [[platform|plataforma]] [[from|desde]] [[home|casa]].",
+      "correctSentence": "[[Students can access the online platform from home|Estudiantes pueden acceder la en línea plataforma desde casa]].",
       "words": [
         "[[online|en línea]]",
         "[[platform|plataforma]]",
@@ -636,7 +636,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una pregunta correcta.",
-      "correctSentence": "[[Do|¿]] [[students|estudiantes]] [[have|tienen]] [[to|que]] [[attend|asistir]] [[the|a la]] [[orientation|orientación]] [[session|sesión]]?",
+      "correctSentence": "[[Do students have to attend the orientation session|¿ estudiantes tienen que asistir a la orientación sesión]]?",
       "words": [
         "[[to|que]]",
         "[[orientation|orientación]]",
@@ -663,7 +663,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[You|Tú]] [[must|debes]] [[cite|citar]] [[all|todas]] [[your|tus]] [[sources|fuentes]] [[in|en]] [[the|la]] [[bibliography|bibliografía]].",
+      "correctSentence": "[[You must cite all your sources in the bibliography|Tú debes citar todas tus fuentes en la bibliografía]].",
       "words": [
         "[[the|la]]",
         "[[all|todas]]",
@@ -693,7 +693,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el modal adecuado para expresar un requisito obligatorio.",
       "questions": [
         {
-          "question": "[[To|Para]] [[apply|solicitar]] [[for|para]] [[the|la]] [[scholarship|beca]], [[you|tú]] _______ [[submit|entregar]] [[two|dos]] [[recommendation|recomendación]] [[letters|cartas]].",
+          "question": "[[To apply, you for the scholarship two recommendation letters|Para solicitar para la beca, tú]] _______ [[submit|entregar dos recomendación cartas]].",
           "options": [
             "[[must|debes]]",
             "[[can|puedes]]",
@@ -720,7 +720,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la forma negativa del modal para dar un consejo.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[wait|esperar]] [[until|hasta]] [[the|el]] [[last|último]] [[minute|minuto]] [[to|para]] [[start|empezar]] [[your|tu]] [[project|proyecto]].",
+          "question": "[[You until the last minute to start your project|Tú]] _______ [[wait|esperar hasta el último minuto para empezar tu proyecto]].",
           "options": [
             "[[shouldn't|no deberías]]",
             "[[mustn't|no debes]]",
@@ -747,7 +747,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta para preguntar sobre una obligación de pago.",
       "questions": [
         {
-          "question": "[[Does|¿]] [[she|ella]] _______ [[pay|pagar]] [[the|las]] [[full|completas]] [[tuition|matrícula]] [[fees|tasas]] [[now|ahora]]?",
+          "question": "[[Does she full tuition fees now|¿ ella]] _______ [[pay the|pagar las completas matrícula tasas ahora]]?",
           "options": [
             "[[have to|tiene que]]",
             "[[must|debe]]",
@@ -774,7 +774,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el modal que expresa una posibilidad permitida por las circunstancias.",
       "questions": [
         {
-          "question": "[[If|Si]] [[the|el]] [[weather|tiempo]] [[is|está]] [[bad|mal]], [[the|la]] [[school|escuela]] _______ [[cancel|cancelar]] [[the|la]] [[field|campo]] [[trip|excursión]].",
+          "question": "[[If the, the weather is bad school field trip|Si el tiempo está mal, la escuela]] _______ [[cancel the|cancelar la campo excursión]].",
           "options": [
             "[[can|puede]]",
             "[[must|debe]]",
@@ -801,7 +801,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el modal que indica una prohibición estricta.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[copy|copiar]] [[from|de]] [[your|tus]] [[classmates|compañeros]] [[during|durante]] [[exams|exámenes]].",
+          "question": "[[You from your classmates during exams|Tú]] _______ [[copy|copiar de tus compañeros durante exámenes]].",
           "options": [
             "[[mustn't|no debes]]",
             "[[don't have to|no tienes que]]",
@@ -828,7 +828,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción que indica que algo no es obligatorio.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[wear|llevar]] [[formal|formal]] [[clothes|ropa]] [[for|para]] [[the|la]] [[presentation|presentación]].",
+          "question": "[[We formal clothes for the presentation|Nosotros]] _______ [[wear|llevar formal ropa para la presentación]].",
           "options": [
             "[[don't have to|no tenemos que]]",
             "[[mustn't|no debemos]]",
@@ -855,7 +855,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el modal correcto para pedir una recomendación académica.",
       "questions": [
         {
-          "question": "_______ [[I|Yo]] [[include|incluir]] [[a|una]] [[cover|portada]] [[page|página]] [[with|con]] [[my|mi]] [[essay|ensayo]]?",
+          "question": "_______ [[I include a cover page with my essay|Yo incluir una portada página con mi ensayo]]?",
           "options": [
             "[[Should|Debería]]",
             "[[Must|Debo]]",
@@ -882,7 +882,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el modal que indica una obligación del personal docente.",
       "questions": [
         {
-          "question": "[[Teachers|Profesores]] _______ [[explain|explicar]] [[the|los]] [[grading|calificación]] [[criteria|criterios]] [[at|al]] [[the|el]] [[beginning|principio]].",
+          "question": "[[Teachers the grading criteria at the beginning|Profesores]] _______ [[explain|explicar los calificación criterios al el principio]].",
           "options": [
             "[[must|deben]]",
             "[[can|pueden]]",
@@ -909,7 +909,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el modal para preguntar si algo está permitido.",
       "questions": [
         {
-          "question": "_______ [[we|nosotros]] [[use|usar]] [[our|nuestras]] [[tablets|tabletas]] [[during|durante]] [[the|la]] [[lecture|clase]] [[to|para]] [[take|tomar]] [[notes|notas]]?",
+          "question": "_______ [[we use our tablets during the lecture to take notes|nosotros usar nuestras tabletas durante la clase para tomar notas]]?",
           "options": [
             "[[Can|Podemos]]",
             "[[Must|Debemos]]",
@@ -936,7 +936,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la forma correcta para expresar que no hay necesidad de hacer algo.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[take|hacer]] [[the|el]] [[entrance|entrada]] [[exam|examen]] [[because|debido]] [[of|a]] [[her|sus]] [[grades|calificaciones]].",
+          "question": "[[She the entrance exam because of her grades|Ella]] _______ [[take|hacer el entrada examen debido a sus calificaciones]].",
           "options": [
             "[[doesn't have to|no tiene que]]",
             "[[mustn't|no debe]]",
@@ -963,7 +963,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Completa con el modal de obligación adecuado.",
       "questions": [
         {
-          "question": "[[Students|Estudiantes]] _______ [[pay|prestar]] [[attention|atención]] [[when|cuando]] [[the|el]] [[tutor|tutor]] [[is|está]] [[speaking|hablando]].",
+          "question": "[[Students attention when the tutor is speaking|Estudiantes]] _______ [[pay|prestar atención cuando el tutor está hablando]].",
           "options": [
             "[[must|deben]]",
             "[[can|pueden]]"
@@ -989,7 +989,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Llena el espacio con el modal de consejo.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[check|revisar]] [[the|el]] [[university|universidad]] [[website|sitio web]] [[for|para]] [[updates|actualizaciones]].",
+          "question": "[[You the university website for updates|Tú]] _______ [[check|revisar el universidad sitio web para actualizaciones]].",
           "options": [
             "[[should|deberías]]",
             "[[have to|tienes que]]"
@@ -1015,7 +1015,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Completa con la forma correcta de necesidad externa.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[complete|completar]] [[this|este]] [[module|módulo]] [[by|para]] [[next|el próximo]] [[Monday|lunes]].",
+          "question": "[[We this module by next Monday|Nosotros]] _______ [[complete|completar este módulo para el próximo lunes]].",
           "options": [
             "[[have to|tenemos que]]",
             "[[can|podemos]]"
@@ -1041,7 +1041,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Usa la forma negativa del modal de sugerencia.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[ignore|ignorar]] [[the|los]] [[feedback|comentarios]] [[from|de]] [[your|tus]] [[professors|profesores]].",
+          "question": "[[You the feedback from your professors|Tú]] _______ [[ignore|ignorar los comentarios de tus profesores]].",
           "options": [
             "[[shouldn't|no deberías]]",
             "[[can't|no puedes]]"
@@ -1067,7 +1067,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta de permiso.",
       "questions": [
         {
-          "question": "_______ [[I|yo]] [[leave|salir de]] [[the|la]] [[class|clase]] [[early|temprano]] [[if|si]] [[I|yo]] [[finish|termino]] [[the|la]] [[test|prueba]]?",
+          "question": "_______ [[I leave the class early if I finish the test|yo salir de la clase temprano si yo termino la prueba]]?",
           "options": [
             "[[Can|Puedo]]",
             "[[Must|Debo]]"
@@ -1091,7 +1091,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[You|Tú]] [[don't|no]] [[have|tienes]] [[to|que]] [[buy|comprar]] [[the|el]] [[textbook|libro de texto]] [[this|este]] [[semester|semestre]].",
+      "correctSentence": "[[You don't have to buy the textbook this semester|Tú no tienes que comprar el libro de texto este semestre]].",
       "words": [
         "[[textbook|libro de texto]]",
         "[[buy|comprar]]",
@@ -1118,7 +1118,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una obligación formal.",
-      "correctSentence": "[[Students|Estudiantes]] [[must|deben]] [[submit|entregar]] [[their|su]] [[thesis|tesis]] [[by|para]] [[the|la]] [[deadline|fecha límite]].",
+      "correctSentence": "[[Students must submit their thesis by the deadline|Estudiantes deben entregar su tesis para la fecha límite]].",
       "words": [
         "[[deadline|fecha límite]]",
         "[[submit|entregar]]",
@@ -1145,7 +1145,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una pregunta de sugerencia.",
-      "correctSentence": "[[Should|¿Deberíamos]] [[we|nosotros]] [[participate|participar]] [[in|en]] [[the|el]] [[online|en línea]] [[discussion|discusión]] [[forum|foro]]?",
+      "correctSentence": "[[Should we participate in the online discussion forum|¿Deberíamos nosotros participar en el en línea discusión foro]]?",
       "words": [
         "[[online|en línea]]",
         "[[Should|¿Deberíamos]]",
@@ -1172,7 +1172,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una prohibición.",
-      "correctSentence": "[[You|Tú]] [[can't|no puedes]] [[use|usar]] [[a|una]] [[calculator|calculadora]] [[during|durante]] [[the|el]] [[math|matemáticas]] [[exam|examen]].",
+      "correctSentence": "[[You can't use a calculator during the math exam|Tú no puedes usar una calculadora durante el matemáticas examen]].",
       "words": [
         "[[calculator|calculadora]]",
         "[[can't|no puedes]]",
@@ -1200,7 +1200,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una pregunta sobre necesidad.",
-      "correctSentence": "[[Do|¿]] [[I|yo]] [[have|tengo]] [[to|que]] [[attend|asistir]] [[the|a las]] [[extra|extra]] [[classes|clases]]?",
+      "correctSentence": "[[Do I have to attend the extra classes|¿ yo tengo que asistir a las extra clases]]?",
       "words": [
         "[[classes|clases]]",
         "[[attend|asistir]]",
@@ -1229,7 +1229,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el modal que indica una necesidad personal o recomendación fuerte.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|la]] [[difficulty|dificultad]], [[you|tú]] _______ [[keep|seguir]] [[practicing|practicando]] [[every|cada]] [[day|día]].",
+          "question": "[[Despite the, you difficulty practicing|A pesar de la dificultad, tú]] _______ [[keep every day|seguir practicando cada día]].",
           "options": [
             "[[must|debes]]",
             "[[can|puedes]]",
@@ -1256,7 +1256,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el modal que expresa permiso o posibilidad física.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[you|tú]] [[are|estás]] [[late|atrasado]], [[you|tú]] _______ [[still|todavía]] [[enter|entrar]] [[the|la]] [[room|sala]] [[quietly|silenciosamente]].",
+          "question": "[[Although you, you enter are late quietly|Aunque tú estás atrasado, tú]] _______ [[still the room|todavía entrar la sala silenciosamente]].",
           "options": [
             "[[can|puedes]]",
             "[[must|debes]]",
@@ -1283,7 +1283,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Completa con la forma correcta del verbo modal.",
       "questions": [
         {
-          "question": "[[Does|¿]] [[he|él]] _______ [[finish|terminar]] [[the|el]] [[report|informe]] [[before|antes de]] [[the|el]] [[weekend|fin de semana]]?",
+          "question": "[[Does he report before the weekend|¿ él]] _______ [[finish the|terminar el informe antes de el fin de semana]]?",
           "options": [
             "[[have to|tiene que]]",
             "[[must|debe]]"
@@ -1309,7 +1309,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Completa con el modal de recomendación negativa.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[spend|pasar]] [[too|demasiado]] [[much|mucho]] [[time|tiempo]] [[on|en]] [[a|una]] [[single|sola]] [[question|pregunta]].",
+          "question": "[[You too much time on a single question|Tú]] _______ [[spend|pasar demasiado mucho tiempo en una sola pregunta]].",
           "options": [
             "[[shouldn't|no deberías]]",
             "[[mustn't|no debes]]"
@@ -1333,7 +1333,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Seguridad en el laboratorio",
       "instructions": "Ordena las palabras para formar una regla de seguridad.",
-      "correctSentence": "[[We|Nosotros]] [[must|debemos]] [[follow|seguir]] [[all|todas]] [[the|las]] [[safety|seguridad]] [[guidelines|pautas]] [[in|en]] [[the|el]] [[laboratory|laboratorio]].",
+      "correctSentence": "[[We must follow all the safety guidelines in the laboratory|Nosotros debemos seguir todas las seguridad pautas en el laboratorio]].",
       "words": [
         "[[guidelines|pautas]]",
         "[[safety|seguridad]]",

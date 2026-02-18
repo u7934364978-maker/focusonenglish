@@ -12,7 +12,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Retrasos en el vuelo",
       "instructions": "Ordena las palabras para describir una situación en el aeropuerto.",
-      "correctSentence": "[[By|Para]] [[the|el]] [[time|momento en que]] [[we|nosotros]] [[arrived|llegamos]] [[at|al]] [[the|aeropuerto,]] [[airport,|el]] [[the|vuelo]] [[flight|ya]] [[had|había]] [[already|sido]] [[been|retrasado.]] [[delayed.| ]]",
+      "correctSentence": "[[By the time we arrived at the airport, the flight had already been delayed.|Para el momento en que nosotros llegamos al aeropuerto, el vuelo ya había sido retrasado.  ]]",
       "words": [
         "[[By|Para]]",
         "[[time|momento en que]]",
@@ -44,7 +44,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Check-in online",
       "instructions": "Ordena las palabras para dar un consejo sobre el viaje.",
-      "correctSentence": "[[We|Sería]] [[had|mejor]] [[better|que]] [[check|hiciéramos]] [[in|el check-in]] [[online|en línea]] [[to|para]] [[avoid|evitar]] [[the|las]] [[long|largas]] [[queues|colas]] [[at|en]] [[the|el]] [[counter.|mostrador.]]",
+      "correctSentence": "[[We had better check in online to avoid the long queues at the counter.|Sería mejor que hiciéramos el check-in en línea para evitar las largas colas en el mostrador.]]",
       "words": [
         "[[had|mejor]]",
         "[[We|Sería]]",
@@ -77,7 +77,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vacaciones tropicales",
       "instructions": "Ordena las palabras para expresar deseos de vacaciones.",
-      "correctSentence": "[[I'm|Tengo]] [[looking|muchas]] [[forward|ganas]] [[to|de]] [[soaking|tomar]] [[up|el]] [[the|sol]] [[sun|en]] [[on|una]] [[a|playa]] [[tropical|tropical.]] [[beach.| ]]",
+      "correctSentence": "[[I'm looking forward to soaking up the sun on a tropical beach.|Tengo muchas ganas de tomar el sol en una playa tropical.  ]]",
       "words": [
         "[[looking|muchas]]",
         "[[I've|Tengo]]",
@@ -108,7 +108,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reserva anticipada",
       "instructions": "Ordena las palabras para hablar de una situación pasada arrepentida.",
-      "correctSentence": "[[If|Si]] [[we|hubiéramos]] [[had|reservado]] [[booked|antes,]] [[earlier,|habríamos]] [[we|obtenido]] [[would|una]] [[have|oferta]] [[got|mucho]] [[a|mejor.]] [[much| ]] [[better| ]] [[deal.| ]]",
+      "correctSentence": "[[If we had booked earlier, we would have got a much better deal.|Si hubiéramos reservado antes, habríamos obtenido una oferta mucho mejor.      ]]",
       "words": [
         "[[we|hubiéramos]]",
         "[[If|Si]]",
@@ -140,7 +140,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ubicación del hotel",
       "instructions": "Ordena las palabras para describir la ubicación de un alojamiento.",
-      "correctSentence": "[[The|El]] [[hotel|hotel]] [[was|estaba]] [[located|situado]] [[within|a]] [[walking|poca]] [[distance|distancia]] [[of|a pie]] [[the|de]] [[main|las principales]] [[tourist|atracciones]] [[attractions.|turísticas.]]",
+      "correctSentence": "[[The hotel was located within walking distance of the main tourist attractions.|El hotel estaba situado a poca distancia a pie de las principales atracciones turísticas.]]",
       "words": [
         "[[hotel|hotel]]",
         "[[The|El]]",
@@ -171,7 +171,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Propinas y costumbres",
       "instructions": "Ordena las palabras sobre etiquetas culturales.",
-      "correctSentence": "[[You|Se]] [[are|supone]] [[supposed|que]] [[to|debes]] [[tip|dar]] [[the|propina]] [[waiter|al]] [[in|camarero]] [[this|en]] [[country,|este país,]] [[aren't|¿verdad?]] [[you?| ]]",
+      "correctSentence": "[[You are supposed to tip the waiter in this country, aren't you?|Se supone que debes dar propina al camarero en este país, ¿verdad?  ]]",
       "words": [
         "[[are|supone]]",
         "[[You|Se]]",
@@ -202,7 +202,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Destinos poco comunes",
       "instructions": "Ordena las palabras sobre tendencias en viajes.",
-      "correctSentence": "[[Off-the-beaten-track|Los destinos]] [[destinations|poco]] [[are|conocidos]] [[becoming|se están]] [[increasingly|volviendo]] [[popular|cada vez más]] [[among|populares]] [[backpackers.|entre los mochileros.]]",
+      "correctSentence": "[[Off-the-beaten-track destinations are becoming increasingly popular among backpackers.|Los destinos poco conocidos se están volviendo cada vez más populares entre los mochileros.]]",
       "words": [
         "[[destinations|poco]]",
         "[[Off-the-beaten-track|Los destinos]]",
@@ -229,7 +229,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Viajar solo",
       "instructions": "Ordena las palabras sobre las ventajas de viajar solo.",
-      "correctSentence": "[[Traveling|Viajar]] [[solo|solo]] [[allows|te]] [[you|permite]] [[to|establecer]] [[set|tu]] [[your|propio]] [[own|ritmo]] [[pace|e]] [[and|itinerario.]] [[itinerary.| ]]",
+      "correctSentence": "[[Traveling solo allows you to set your own pace and itinerary.|Viajar solo te permite establecer tu propio ritmo e itinerario.  ]]",
       "words": [
         "[[solo|solo]]",
         "[[Traveling|Viajar]]",
@@ -259,7 +259,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Llegada a la cima",
       "instructions": "Ordena las palabras sobre una experiencia en la montaña.",
-      "correctSentence": "[[No|Apenas]] [[sooner|habíamos]] [[had|alcanzado]] [[we|la]] [[reached|cima]] [[the|cuando]] [[summit|empezó]] [[than|a]] [[it|llover]] [[started|a]] [[to|cántaros.]] [[pour| ]] [[with| ]] [[rain.| ]]",
+      "correctSentence": "[[No sooner had we reached the summit than it started to pour with rain.|Apenas habíamos alcanzado la cima cuando empezó a llover a cántaros.      ]]",
       "words": [
         "[[sooner|habíamos]]",
         "[[No|Apenas]]",
@@ -292,7 +292,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Turismo sostenible",
       "instructions": "Ordena las palabras sobre el impacto ambiental del turismo.",
-      "correctSentence": "[[Sustainable|El turismo]] [[tourism|sostenible]] [[aims|tiene]] [[to|como]] [[minimize|objetivo]] [[the|minimizar]] [[impact|el]] [[on|impacto]] [[the|en]] [[local|el medio]] [[environment.|ambiente local.]]",
+      "correctSentence": "[[Sustainable tourism aims to minimize the impact on the local environment.|El turismo sostenible tiene como objetivo minimizar el impacto en el medio ambiente local.]]",
       "words": [
         "[[tourism|sostenible]]",
         "[[Sustainable|El turismo]]",
@@ -322,7 +322,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Salida al amanecer",
       "instructions": "Ordena las palabras sobre un plan de viaje fallido.",
-      "correctSentence": "[[We|Se]] [[were|suponía]] [[supposed|que]] [[to|saldríamos]] [[leave|al]] [[at|amanecer,]] [[dawn,|pero]] [[but|nos]] [[we|quedamos]] [[overslept.|dormidos.]]",
+      "correctSentence": "[[We were supposed to leave at dawn, but we overslept.|Se suponía que saldríamos al amanecer, pero nos quedamos dormidos.]]",
       "words": [
         "[[were|suponía]]",
         "[[We|Se]]",
@@ -351,7 +351,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Guías locales",
       "instructions": "Ordena las palabras sobre consejos de viaje.",
-      "correctSentence": "[[Local|Las guías]] [[guidebooks|locales]] [[often|a menudo]] [[provide|proporcionan]] [[invaluable|información]] [[insights|valiosa]] [[into|sobre]] [[the|los]] [[city's|tesoros]] [[hidden|ocultos]] [[gems.|de la ciudad.]]",
+      "correctSentence": "[[Local guidebooks often provide invaluable insights into the city's hidden gems.|Las guías locales a menudo proporcionan información valiosa sobre los tesoros ocultos de la ciudad.]]",
       "words": [
         "[[guidebooks|locales]]",
         "[[Local|Las guías]]",
@@ -381,7 +381,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Preferencias de alojamiento",
       "instructions": "Ordena las palabras para expresar una preferencia.",
-      "correctSentence": "[[I'd|Preferiría]] [[rather|quedarme]] [[stay|en]] [[in|un]] [[a|hotel]] [[boutique|con encanto]] [[than|que]] [[a|en]] [[large|un]] [[resort|gran]] [[resort.|complejo.]]",
+      "correctSentence": "[[I'd rather stay in a boutique than a large resort resort.|Preferiría quedarme en un hotel con encanto que en un gran complejo.]]",
       "words": [
         "[[rather|quedarme]]",
         "[[I'd|Preferiría]]",
@@ -411,7 +411,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Perderse en la ciudad",
       "instructions": "Ordena las palabras sobre experiencias de viaje.",
-      "correctSentence": "[[Getting|Perderse]] [[lost|en]] [[in|una]] [[a|ciudad]] [[foreign|extranjera]] [[city|a veces]] [[can|puede]] [[sometimes|llevar]] [[lead|a]] [[to|aventuras]] [[unexpected|inesperadas.]] [[adventures.| ]]",
+      "correctSentence": "[[Getting lost in a foreign city can sometimes lead to unexpected adventures.|Perderse en una ciudad extranjera a veces puede llevar a aventuras inesperadas.  ]]",
       "words": [
         "[[lost|en]]",
         "[[Getting|Perderse]]",
@@ -442,7 +442,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Huelga de transporte",
       "instructions": "Ordena las palabras sobre una situación de transporte fallida.",
-      "correctSentence": "[[Had|De]] [[we|haber]] [[known|sabido]] [[about|lo]] [[the|de]] [[strike,|la huelga,]] [[we|habríamos]] [[would|tomado]] [[have|el]] [[taken|tren.]] [[the| ]][ [train.| ]]",
+      "correctSentence": "[[Had we known about the strike, we would have taken the|De haber sabido lo de la huelga, habríamos tomado el tren.  ]][ [train.| ]]",
       "words": [
         "[[we|haber]]",
         "[[Had|De]]",
@@ -473,7 +473,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Alquiler de coches",
       "instructions": "Ordena las palabras sobre la exploración de una isla.",
-      "correctSentence": "[[It's|Vale]] [[worth|la]] [[hiring|pena]] [[a|alquilar]] [[car|un]] [[to|coche]] [[explore|para]] [[the|explorar]] [[more|las]] [[remote|zonas]] [[areas|más]] [[of|remotas]] [[the|de la]] [[island.|isla.]]",
+      "correctSentence": "[[It's worth hiring a car to explore the more remote areas of the island.|Vale la pena alquilar un coche para explorar las zonas más remotas de la isla.]]",
       "words": [
         "[[worth|la]]",
         "[[It's|Vale]]",
@@ -506,7 +506,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vistas impresionantes",
       "instructions": "Ordena las palabras para describir un paisaje.",
-      "correctSentence": "[[We|Nosotros]] [[were|quedamos]] [[breathtakingly|asombrosamente]] [[impressed|impresionados]] [[by|por]] [[the|las]] [[panoramic|vistas]] [[views|panorámicas]] [[from|desde]] [[the|la]] [[top.|cima.]]",
+      "correctSentence": "[[We were breathtakingly impressed by the panoramic views from the top.|Nosotros quedamos asombrosamente impresionados por las vistas panorámicas desde la cima.]]",
       "words": [
         "[[were|quedamos]]",
         "[[We|Nosotros]]",
@@ -536,7 +536,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Seguro de viaje",
       "instructions": "Ordena las palabras sobre la seguridad en el viaje.",
-      "correctSentence": "[[Travel|El seguro]] [[insurance|de]] [[is|viaje]] [[highly|es]] [[recommended|muy]] [[to|recomendable]] [[cover|para]] [[any|cubrir]] [[unforeseen|cualquier]] [[medical|gasto]] [[expenses.|médico imprevisto.]]",
+      "correctSentence": "[[Travel insurance is highly recommended to cover any unforeseen medical expenses.|El seguro de viaje es muy recomendable para cubrir cualquier gasto médico imprevisto.]]",
       "words": [
         "[[insurance|de]]",
         "[[Travel|El seguro]]",
@@ -566,7 +566,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ciudad masificada",
       "instructions": "Ordena las palabras sobre una sorpresa negativa al viajar.",
-      "correctSentence": "[[Little|Poco]] [[did|nos]] [[we|imaginábamos]] [[know|nosotros]] [[that|que]] [[the|la]] [[city|ciudad]] [[would|estaría]] [[be|tan]] [[so|abarrotada]] [[overcrowded|en]] [[in|agosto.]] [[August.| ]]",
+      "correctSentence": "[[Little did we know that the city would be so overcrowded in August.|Poco nos imaginábamos nosotros que la ciudad estaría tan abarrotada en agosto.  ]]",
       "words": [
         "[[did|nos]]",
         "[[Little|Poco]]",
@@ -598,7 +598,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Comida callejera",
       "instructions": "Ordena las palabras sobre gastronomía y viajes.",
-      "correctSentence": "[[Local|La comida]] [[street|callejera]] [[food|local]] [[is|es]] [[often|a menudo]] [[a|una]] [[great|gran]] [[way|manera]] [[to|de]] [[experience|experimentar]] [[the|la]] [[authentic|cultura]] [[culture.|auténtica.]]",
+      "correctSentence": "[[Local street food is often a great way to experience the authentic culture.|La comida callejera local es a menudo una gran manera de experimentar la cultura auténtica.]]",
       "words": [
         "[[street|callejera]]",
         "[[Local|La comida]]",
@@ -630,7 +630,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vuelo turbulento",
       "instructions": "Ordena las palabras sobre un vuelo agitado.",
-      "correctSentence": "[[The|El]] [[flight|vuelo]] [[was|estuvo]] [[so|tan]] [[bumpy|agitado]] [[that|que]] [[some|algunos]] [[passengers|pasajeros]] [[felt|se]] [[quite|sintieron]] [[nauseous.|bastante mareados.]]",
+      "correctSentence": "[[The flight was so bumpy that some passengers felt quite nauseous.|El vuelo estuvo tan agitado que algunos pasajeros se sintieron bastante mareados.]]",
       "words": [
         "[[flight|vuelo]]",
         "[[The|El]]",
@@ -660,7 +660,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pasaporte seguro",
       "instructions": "Ordena las palabras sobre seguridad de documentos.",
-      "correctSentence": "[[It|Es]] [[is|esencial]] [[essential|que]] [[that|guardes]] [[you|tu]] [[keep|pasaporte]] [[your|en]] [[passport|un]] [[in|lugar]] [[a|seguro.]] [[safe| ]] [[place.| ]]",
+      "correctSentence": "[[It is essential that you keep your passport in a safe place.|Es esencial que guardes tu pasaporte en un lugar seguro.    ]]",
       "words": [
         "[[is|esencial]]",
         "[[It|Es]]",
@@ -691,7 +691,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mochileros por Europa",
       "instructions": "Ordena las palabras sobre una experiencia de juventud.",
-      "correctSentence": "[[Backpacking|Recorrer]] [[across|Europa]] [[Europe|con]] [[is|la mochila]] [[a|es]] [[rite|un]] [[of|rito]] [[passage|de]] [[for|iniciación]] [[many|para]] [[young|muchos]] [[travelers.|jóvenes viajeros.]]",
+      "correctSentence": "[[Backpacking across Europe is a rite of passage for many young travelers.|Recorrer Europa con la mochila es un rito de iniciación para muchos jóvenes viajeros.]]",
       "words": [
         "[[across|Europa]]",
         "[[Backpacking|Recorrer]]",
@@ -722,7 +722,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Temporada alta",
       "instructions": "Ordena las palabras para dar un consejo sobre fechas de viaje.",
-      "correctSentence": "[[You|Deberías]] [[should|evitar]] [[avoid|visitar]] [[visiting|la]] [[the|ciudad]] [[city|durante]] [[during|la]] [[peak|temporada]] [[season|alta]] [[if|si]] [[possible.|es posible.]]",
+      "correctSentence": "[[You should avoid visiting the city during peak season if possible.|Deberías evitar visitar la ciudad durante la temporada alta si es posible.]]",
       "words": [
         "[[should|evitar]]",
         "[[You|Deberías]]",
@@ -752,7 +752,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Parque nacional",
       "instructions": "Ordena las palabras para describir la fauna de un lugar.",
-      "correctSentence": "[[We|Nosotros]] [[were|quedamos]] [[amazed|asombrados]] [[by|por]] [[the|la]] [[diversity|diversidad]] [[of|de]] [[wildlife|vida]] [[in|silvestre]] [[the|en el]] [[national|parque]] [[park.|nacional.]]",
+      "correctSentence": "[[We were amazed by the diversity of wildlife in the national park.|Nosotros quedamos asombrados por la diversidad de vida silvestre en el parque nacional.]]",
       "words": [
         "[[were|quedamos]]",
         "[[We|Nosotros]]",
@@ -787,7 +787,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión para un viaje alrededor del globo.",
       "questions": [
         {
-          "question": "[[I've|Siempre]] [[always|he]] [[wanted|querido]] [[to|hacer]] [[go|un]] [[on|viaje]] [[a| ]] [[_______|alrededor del mundo]] [[trip.|.]]",
+          "question": "[[I've always wanted to go on a _______ trip.|Siempre he querido hacer un viaje   alrededor del mundo .]]",
           "options": ["[[round-the-clock|las 24 horas]]", "[[round-the-block|alrededor de la manzana]]", "[[round-the-world|alrededor del mundo]]"],
           "correctAnswer": 2,
           "explanation": "A 'round-the-world' trip covers many countries across the globe.",
@@ -810,7 +810,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el tiempo verbal para una duración en el futuro.",
       "questions": [
         {
-          "question": "[[By|Para]] [[next|la]] [[week,|semana que viene,]] [[we|nosotros]] [[_______|habremos estado viajando]] [[for|durante]] [[three|tres]] [[months.|meses.]]",
+          "question": "[[By next week, we _______ for three months.|Para la semana que viene, nosotros habremos estado viajando durante tres meses.]]",
           "options": ["[[will have traveled|habremos viajado]]", "[[will be traveling|estaremos viajando]]", "[[will have been traveling|habremos estado viajando]]"],
           "correctAnswer": 2,
           "explanation": "Future Perfect Continuous is used to show the duration of an action at a certain time in the future.",
@@ -833,7 +833,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para actividades recreativas.",
       "questions": [
         {
-          "question": "[[The|El]] [[resort|complejo]] [[offers|ofrece]] [[a|una]] [[wide|amplia]] [[range|gama]] [[of|de]] [[_______| ]] [[activities.|actividades de ocio.]]",
+          "question": "[[The resort offers a wide range of _______ activities.|El complejo ofrece una amplia gama de   actividades de ocio.]]",
           "options": ["[[leisure|ocio]]", "[[labor|trabajo]]", "[[lecture|conferencia]]"],
           "correctAnswer": 0,
           "explanation": "'Leisure' refers to time when you are not working and can relax.",
@@ -856,7 +856,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta para expresar arrepentimiento pasado.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[wish|desearía]] [[_______|haber traído]] [[a|una]] [[warmer|chaqueta]] [[jacket|más]] [[for|abrigada]] [[this|para]] [[trip.|este viaje.]]",
+          "question": "[[I wish _______ a warmer jacket for this trip.|Yo desearía haber traído una chaqueta más abrigada para este viaje.]]",
           "options": ["[[I would bring|traería]]", "[[I brought|traer]]", "[[I had brought|haber traído]]"],
           "correctAnswer": 2,
           "explanation": "'Wish + Past Perfect' is used for regrets about the past.",
@@ -879,7 +879,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el phrasal verb que significa 'iniciar un viaje'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[_______|partimos]] [[early|temprano]] [[in|por]] [[the|la]] [[morning|mañana]] [[to|para]] [[beat|evitar]] [[the|el]] [[traffic.|tráfico.]]",
+          "question": "[[We _______ early in the morning to beat the traffic.|Nosotros partimos temprano por la mañana para evitar el tráfico.]]",
           "options": ["[[set off|partimos/salimos]]", "[[set in|se estableció]]", "[[set up|configuramos]]"],
           "correctAnswer": 0,
           "explanation": "'Set off' means to begin a journey.",
@@ -902,7 +902,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta después de 'I'd rather you'.",
       "questions": [
         {
-          "question": "[[I'd|Preferiría]] [[rather|que]] [[you|tú]] [[_______|reservaras]] [[the|los]] [[flights|vuelos]] [[as|tan]] [[soon|pronto]] [[as|como]] [[possible.|sea posible.]]",
+          "question": "[[I'd rather you _______ the flights as soon as possible.|Preferiría que tú reservaras los vuelos tan pronto como sea posible.]]",
           "options": ["[[booked|reservaras]]", "[[will book|reservarás]]", "[[book|reserves]]"],
           "correctAnswer": 0,
           "explanation": "Use past simple after 'would rather + object' for present/future preference.",
@@ -925,7 +925,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición que sigue a 'famous'.",
       "questions": [
         {
-          "question": "[[The|La]] [[city|ciudad]] [[is|es]] [[famous|famosa]] [[_______|por]] [[its|su]] [[vibrant|vibrante]] [[nightlife.|vida nocturna.]]",
+          "question": "[[The city is famous _______ its vibrant nightlife.|La ciudad es famosa por su vibrante vida nocturna.]]",
           "options": ["[[of|de]]", "[[with|con]]", "[[for|por]]"],
           "correctAnswer": 2,
           "explanation": "'Famous' is always followed by the preposition 'for'.",
@@ -948,7 +948,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector que significa 'a menos que'.",
       "questions": [
         {
-          "question": "[[_______|A menos que]] [[we|nos]] [[leave|vayamos]] [[now,|ahora,]] [[we|perderemos]] [[will|nuestra]] [[miss|conexión.]] [[our| ]] [[connection.| ]]",
+          "question": "[[_______ we leave now, we will miss our connection.|A menos que nos vayamos ahora, perderemos nuestra conexión.    ]]",
           "options": ["[[Provided|Siempre que]]", "[[If|Si]]", "[[Unless|A menos que]]"],
           "correctAnswer": 2,
           "explanation": "'Unless' introduces a negative condition.",
@@ -971,7 +971,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para un objeto comprado como recuerdo.",
       "questions": [
         {
-          "question": "[[I'm|Voy]] [[going|a]] [[to|comprar]] [[get|un]] [[a| ]] [[_______|recuerdo]] [[for|para]] [[my|mi]] [[family.|familia.]]",
+          "question": "[[I'm going to get a _______ for my family.|Voy a comprar un   recuerdo para mi familia.]]",
           "options": ["[[signature|firma]]", "[[standard|estándar]]", "[[souvenir|recuerdo/souvenir]]"],
           "correctAnswer": 2,
           "explanation": "A 'souvenir' is something you buy to help you remember a place you have visited.",
@@ -994,7 +994,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta después de 'Would you mind'.",
       "questions": [
         {
-          "question": "[[Would|¿Te]] [[you|importaría]] [[mind| ]] [[_______|mostrarme]] [[me|dónde]] [[where|está]] [[the|la]] [[nearest|estación]] [[metro|de metro]] [[station|más]] [[is?|cercana?]]",
+          "question": "[[Would you mind _______ me where the nearest metro station is?|¿Te importaría   mostrarme dónde está la estación de metro más cercana?]]",
           "options": ["[[show|mostrarme]]", "[[to show|mostrarme]]", "[[showing|mostrarme]]"],
           "correctAnswer": 2,
           "explanation": "'Mind' is followed by a gerund (-ing).",
@@ -1017,7 +1017,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el phrasal verb para dejar un hotel.",
       "questions": [
         {
-          "question": "[[We|Necesitamos]] [[need| ]] [[to| ]] [[_______|dejar el hotel]] [[before|antes]] [[noon.|del mediodía.]]",
+          "question": "[[We need to _______ before noon.|Necesitamos     dejar el hotel antes del mediodía.]]",
           "options": ["[[check through|revisar]]", "[[check out|dejar el hotel]]", "[[check in|registrarse]]"],
           "correctAnswer": 1,
           "explanation": "'Check out' means to leave a hotel after paying the bill.",
@@ -1040,7 +1040,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta después de 'It's high time'.",
       "questions": [
         {
-          "question": "[[It's|Ya]] [[high|va]] [[time|siendo]] [[you|hora de que]] [[_______|visitaras]] [[your|a tus]] [[grandparents...|abuelos...]]",
+          "question": "[[It's high time you _______ your grandparents...|Ya va siendo hora de que visitaras a tus abuelos...]]",
           "options": ["[[will visit|visitarás]]", "[[visit|visites]]", "[[visited|visitaras]]"],
           "correctAnswer": 2,
           "explanation": "'It's high time' is followed by the past simple to show that something should have happened already.",
@@ -1063,7 +1063,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector que indica causa.",
       "questions": [
         {
-          "question": "[[The|El]] [[flight|vuelo]] [[was|fue]] [[canceled|cancelado]] [[_______|debido]] [[to|al]] [[bad|mal]] [[weather.|tiempo.]]",
+          "question": "[[The flight was canceled _______ to bad weather.|El vuelo fue cancelado debido al mal tiempo.]]",
           "options": ["[[because|porque]]", "[[due|debido]]", "[[owing|debido]]"],
           "correctAnswer": 1,
           "explanation": "'Due to' is used to give a reason for something.",
@@ -1086,7 +1086,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para introducir una suposición.",
       "questions": [
         {
-          "question": "[[_______|Supongamos]] [[you|que]] [[could|pudieras]] [[travel|viajar]] [[anywhere...|a cualquier lugar...]]",
+          "question": "[[_______ you could travel anywhere...|Supongamos que pudieras viajar a cualquier lugar...]]",
           "options": ["[[Suppose|Supongamos]]", "[[Think|Piensa]]", "[[Imagine|Imagina]]"],
           "correctAnswer": 0,
           "explanation": "'Suppose' is used to ask someone to imagine a hypothetical situation.",
@@ -1109,7 +1109,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una visita con guía.",
       "questions": [
         {
-          "question": "[[We|Hicimos]] [[went|un]] [[on| ]] [[a| ]] [[_______|tour guiado]] [[of|por]] [[the|el]] [[historic|centro]] [[city| ]] [[center.|histórico.]]",
+          "question": "[[We went on a _______ of the historic city center.|Hicimos un     tour guiado por el centro   histórico.]]",
           "options": ["[[guided trip|viaje guiado]]", "[[guided walk|caminata guiada]]", "[[guided tour|tour guiado]]"],
           "correctAnswer": 2,
           "explanation": "A 'guided tour' is a short journey through a place with someone who explains what you are seeing.",
@@ -1132,7 +1132,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector de condición.",
       "questions": [
         {
-          "question": "[[_______|Siempre que]] [[that|que]] [[the|el]] [[weather|tiempo]] [[stays|se]] [[clear,|mantenga despejado,]] [[we|iremos]] [[will|de]] [[go|senderismo.]] [[hiking.| ]]",
+          "question": "[[_______ that the weather stays clear, we will go hiking.|Siempre que que el tiempo se mantenga despejado, iremos de senderismo.  ]]",
           "options": ["[[Provided|Siempre que]]", "[[Unless|A menos que]]", "[[Whether|Si]]"],
           "correctAnswer": 0,
           "explanation": "'Provided that' means 'if' or 'only if'.",
@@ -1155,7 +1155,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa 'amable con los invitados'.",
       "questions": [
         {
-          "question": "[[The|Los]] [[local|habitantes]] [[inhabitants|locales]] [[were|fueron]] [[extremely|extremadamente]] [[_______|hospitalarios]] [[to|con]] [[the|los]] [[travelers.|viajeros.]]",
+          "question": "[[The local inhabitants were extremely _______ to the travelers.|Los habitantes locales fueron extremadamente hospitalarios con los viajeros.]]",
           "options": ["[[hospitalized|hospitalizados]]", "[[hospitable|hospitalarios]]", "[[hostile|hostiles]]"],
           "correctAnswer": 1,
           "explanation": "'Hospitable' means friendly and welcoming to guests.",
@@ -1178,7 +1178,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma formal de 'If you need'.",
       "questions": [
         {
-          "question": "[[_______|Si]] [[you|tú]] [[need|necesitara]] [[any|alguna]] [[assistance,|asistencia...]]",
+          "question": "[[_______ you need any assistance,|Si tú necesitara alguna asistencia...]]",
           "options": ["[[Should|Si]]", "[[Would|Si]]", "[[Could|Si]]"],
           "correctAnswer": 0,
           "explanation": "'Should' at the beginning of a sentence is a formal conditional.",
@@ -1201,7 +1201,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo para una vista espectacular.",
       "questions": [
         {
-          "question": "[[The|La]] [[view|vista]] [[was|era]] [[absolutely|absolutamente]] [[_______|impresionante]].",
+          "question": "[[The view was absolutely _______|La vista era absolutamente impresionante]].",
           "options": ["[[breathtaking|asombrosa/impresionante]]", "[[breathing|respirando]]", "[[breathless|sin aliento (persona)]]"],
           "correctAnswer": 0,
           "explanation": "'Breathtaking' means so beautiful or spectacular that it takes your breath away.",
@@ -1224,7 +1224,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta después de 'It is no use'.",
       "questions": [
         {
-          "question": "[[It|No]] [[is|sirve]] [[no|de]] [[use|nada]] [[_______|esperar]] [[for|al]] [[the|autobús.]] [[bus;| ]]",
+          "question": "[[It is no use _______ for the bus;|No sirve de nada esperar al autobús.  ]]",
           "options": ["[[wait|esperar]]", "[[waiting|esperar]]", "[[to wait|esperar]]"],
           "correctAnswer": 1,
           "explanation": "'It is no use' is followed by a gerund (-ing).",
@@ -1247,7 +1247,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para algo que respeta el medio ambiente.",
       "questions": [
         {
-          "question": "[[_______|Las opciones de viaje ecológico]] [[are|se están]] [[becoming|volviendo]] [[more|más]] [[accessible.|accesibles.]]",
+          "question": "[[_______ are becoming more accessible.|Las opciones de viaje ecológico se están volviendo más accesibles.]]",
           "options": ["[[echo-sounding| ]]", "[[economy| ]]", "[[eco-friendly| ]]"],
           "correctAnswer": 2,
           "explanation": "'Eco-friendly' means not harmful to the environment.",
@@ -1270,7 +1270,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión formal para 'si no fuera por'.",
       "questions": [
         {
-          "question": "[[_______|De no ser por]] [[the|el]] [[GPS,|GPS,]] [[we|nos]] [[would|habríamos]] [[have|perdido.]] [[got| ]] [[lost| ]]",
+          "question": "[[_______ the GPS, we would have got lost|De no ser por el GPS, nos habríamos perdido.    ]]",
           "options": ["[[Save for|A salvo de]]", "[[But for|De no ser por]]", "[[Except for|Excepto por]]"],
           "correctAnswer": 1,
           "explanation": "'But for' is a formal conditional structure.",
@@ -1293,7 +1293,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el nombre para el servicio de transporte del hotel.",
       "questions": [
         {
-          "question": "[[The|El]] [[hotel|hotel]] [[provides|proporciona]] [[a|un]] [[_______|servicio de traslado.]]",
+          "question": "[[The hotel provides a _______|El hotel proporciona un servicio de traslado.]]",
           "options": ["[[shatter service|servicio de rotura]]", "[[shuffle service|servicio de barajado]]", "[[shuttle service|servicio de traslado]]"],
           "correctAnswer": 2,
           "explanation": "A 'shuttle service' is a regular transport service that travels between two places.",
@@ -1316,7 +1316,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la estructura de inversión para 'apenas'.",
       "questions": [
         {
-          "question": "[[_______|Apenas]] [[had|habíamos]] [[we|nosotros]] [[boarded|subido]] [[the|al]] [[plane|avión]] [[when|cuando...]]",
+          "question": "[[_______ had we boarded the plane when|Apenas habíamos nosotros subido al avión cuando...]]",
           "options": ["[[Barely|Apenas]]", "[[Rarely|Rara vez]]", "[[Hardly|Apenas]]"],
           "correctAnswer": 2,
           "explanation": "'Hardly had we...' is a formal inversion structure.",
@@ -1339,7 +1339,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa 'ampliar' (horizontes).",
       "questions": [
         {
-          "question": "[[Exploring|Explorar]] [[the|el]] [[world|mundo]] [[helps|ayuda]] [[to|a]] [[_______|ampliar]] [[your|tus]] [[horizons.|horizontes.]]",
+          "question": "[[Exploring the world helps to _______ your horizons.|Explorar el mundo ayuda a ampliar tus horizontes.]]",
           "options": ["[[brighten|iluminar]]", "[[broaden|ampliar]]", "[[break|romper]]"],
           "correctAnswer": 1,
           "explanation": "To 'broaden your horizons' means to expand your knowledge, experience, or range of activities.",

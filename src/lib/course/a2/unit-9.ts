@@ -89,7 +89,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[be|ser/estar]]) _______ [[very|muy]] [[happy|feliz]] [[today|hoy]].",
+          "question": "[[I happy today|Yo]] ([[be|ser/estar]]) _______ [[very|muy feliz hoy]].",
           "options": [
             "[[to|a/para]]",
             "[[am|soy/estoy]]",
@@ -115,7 +115,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[feel|feel]]) _______ [[a|un/una]] [[bit|bit]] [[sad|triste]].",
+          "question": "[[She bit sad|Ella]] ([[feel|feel]]) _______ [[a|un/una bit triste]].",
           "options": [
             "[[feels|feels]]",
             "[[to|a/para]]",
@@ -141,7 +141,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[not/be|no ser/estar]]) _______ [[angry|enfadado/enojado]] [[with|con]] [[you|tú/usted]].",
+          "question": "[[They with you|Ellos]] ([[not/be|no ser/estar]]) _______ [[angry|enfadado/enojado con tú/usted]].",
           "options": [
             "[[it|eso]]",
             "[[are not|no son/están]]",
@@ -167,7 +167,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Why|Por qué]] _______ [[you|tú/usted]] [[so|tan/así que]] [[worried|worried]]?",
+          "question": "[[Why so worried|Por qué]] _______ [[you|tú/usted tan/así que worried]]?",
           "options": [
             "[[to|a/para]]",
             "[[it|eso]]",
@@ -193,7 +193,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[look|mirar]]) _______ [[tired|cansado]] [[after|después]] [[work|trabajo/trabajar]].",
+          "question": "[[He after work|Él]] ([[look|mirar]]) _______ [[tired|cansado después trabajo/trabajar]].",
           "options": [
             "[[looks|looks]]",
             "[[it|eso]]",
@@ -219,7 +219,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[be|ser/estar]]) _______ [[excited|excited]] [[about|sobre/acerca de]] [[the|el/la/los/las]] [[trip|trip]].",
+          "question": "[[We about the trip|Nosotros]] ([[be|ser/estar]]) _______ [[excited|excited sobre/acerca de el/la/los/las trip]].",
           "options": [
             "[[it|eso]]",
             "[[are|son/están]]",
@@ -245,7 +245,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Does|Hace]] [[she|ella]] _______ ([[feel|feel]]) [[nervous|nervous]]?",
+          "question": "[[Does she|Hace ella]] _______ ([[feel|feel]]) [[nervous|nervous]]?",
           "options": [
             "[[feel|feel]]",
             "[[to|a/para]]",
@@ -271,7 +271,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[not/understand|not/understand]]) _______ [[why|por qué]] [[he|él]] [[is|es/está]] [[upset|upset]].",
+          "question": "[[I he is upset|Yo]] ([[not/understand|not/understand]]) _______ [[why|por qué él es/está upset]].",
           "options": [
             "[[don't understand|don't understand]]",
             "[[to|a/para]]",
@@ -297,7 +297,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[be|ser/estar]]) _______ [[surprised|surprised]] [[by|por]] [[the|el/la/los/las]] [[news|news]].",
+          "question": "[[They by the news|Ellos]] ([[be|ser/estar]]) _______ [[surprised|surprised por el/la/los/las news]].",
           "options": [
             "[[it|eso]]",
             "[[were|eran/fueron/estaban/estuvieron]]",
@@ -323,7 +323,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Eso]] ([[make|hacer]]) _______ [[me|me/mí]] [[feel|feel]] [[bored|bored]].",
+          "question": "[[It feel bored|Eso]] ([[make|hacer]]) _______ [[me|me/mí feel bored]].",
           "options": [
             "[[makes|makes]]",
             "[[to|a/para]]",
@@ -347,7 +347,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[very|muy]] [[happy|feliz]] [[to|a/para]] [[see|ver]] [[you|tú/usted]].",
+      "correctSentence": "[[I am very happy to see you|Yo soy/estoy muy feliz a/para ver tú/usted]].",
       "words": [
         "[[I|Yo]]",
         "[[am|soy/estoy]]",
@@ -372,7 +372,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[feels|feels]] [[sad|triste]] [[because|because]] [[her|su (de ella)]] [[cat|cat]] [[is|es/está]] [[ill|ill]].",
+      "correctSentence": "[[She feels sad because her cat is ill|Ella feels triste because su (de ella) cat es/está ill]].",
       "words": [
         "[[She|Ella]]",
         "[[feels|feels]]",
@@ -398,7 +398,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[was|era/fue/estaba/estuvo]] [[very|muy]] [[angry|enfadado/enojado]] [[with|con]] [[his|su (de él)]] [[boss|boss]].",
+      "correctSentence": "[[He was very angry with his boss|Él era/fue/estaba/estuvo muy enfadado/enojado con su (de él) boss]].",
       "words": [
         "[[with|con]]",
         "[[very|muy]]",
@@ -423,7 +423,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Don't|No]] [[be|ser/estar]] [[worried|worried]] [[about|sobre/acerca de]] [[the|el/la/los/las]] [[exam|exam]].",
+      "correctSentence": "[[Don't be worried about the exam|No ser/estar worried sobre/acerca de el/la/los/las exam]].",
       "words": [
         "[[Don't|No]]",
         "[[be|ser/estar]]",
@@ -447,7 +447,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[so|tan/así que]] [[tired|cansado]] [[I|Yo]] [[could|could]] [[sleep|dormir]] [[for|para/por]] [[days|days]].",
+      "correctSentence": "[[I am so tired I could sleep for days|Yo soy/estoy tan/así que cansado Yo could dormir para/por days]].",
       "words": [
         "[[sleep|dormir]]",
         "[[I|Yo]]",
@@ -474,7 +474,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[are|son/están]] [[excited|excited]] [[about|sobre/acerca de]] [[our|nuestro]] [[holiday|holiday]].",
+      "correctSentence": "[[We are excited about our holiday|Nosotros son/están excited sobre/acerca de nuestro holiday]].",
       "words": [
         "[[We|Nosotros]]",
         "[[holiday|holiday]].",
@@ -498,7 +498,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[always|siempre]] [[feels|feels]] [[nervous|nervous]] [[before|antes]] [[a|un/una]] [[test|test]].",
+      "correctSentence": "[[She always feels nervous before a test|Ella siempre feels nervous antes un/una test]].",
       "words": [
         "[[nervous|nervous]]",
         "[[feels|feels]]",
@@ -523,7 +523,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[was|era/fue/estaba/estuvo]] [[surprised|surprised]] [[by|por]] [[the|el/la/los/las]] [[birthday|birthday]] [[party|party]].",
+      "correctSentence": "[[He was surprised by the birthday party|Él era/fue/estaba/estuvo surprised por el/la/los/las birthday party]].",
       "words": [
         "[[He|Él]]",
         "[[was|era/fue/estaba/estuvo]]",
@@ -548,7 +548,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[bored|bored]] [[with|con]] [[this|este/esta]] [[movie|movie]].",
+      "correctSentence": "[[I am bored with this movie|Yo soy/estoy bored con este/esta movie]].",
       "words": [
         "[[with|con]]",
         "[[bored|bored]]",
@@ -572,7 +572,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[was|era/fue/estaba/estuvo]] [[upset|upset]] [[by|por]] [[his|su (de él)]] [[comments|comments]].",
+      "correctSentence": "[[She was upset by his comments|Ella era/fue/estaba/estuvo upset por su (de él) comments]].",
       "words": [
         "[[comments|comments]].",
         "[[upset|upset]]",
@@ -596,7 +596,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Are|Son/están]] [[you|tú/usted]] [[hungry|hambriento]]? [[Let's|Let's]] [[eat|comer]].",
+      "correctSentence": "[[Are you? Let's hungry eat|Son/están tú/usted hambriento? Let's comer]].",
       "words": [
         "[[hungry|hambriento]]?",
         "[[Let's|Let's]]",
@@ -619,7 +619,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I'm|I'm]] [[thirsty|sediento]], [[I|Yo]] [[need|necesitar]] [[some|some]] [[water|agua]].",
+      "correctSentence": "[[I'm thirsty, I need some water|I'm sediento, Yo necesitar some agua]].",
       "words": [
         "[[some|some]]",
         "[[I|Yo]]",
@@ -643,7 +643,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[is|es/está]] [[scared|scared]] [[of|de]] [[spiders|spiders]].",
+      "correctSentence": "[[She is scared of spiders|Ella es/está scared de spiders]].",
       "words": [
         "[[of|de]]",
         "[[scared|scared]]",
@@ -666,7 +666,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[feels|feels]] [[lonely|lonely]] [[in|en]] [[the|el/la/los/las]] [[big|grande]] [[city|ciudad]].",
+      "correctSentence": "[[He feels lonely in the big city|Él feels lonely en el/la/los/las grande ciudad]].",
       "words": [
         "[[He|Él]]",
         "[[feels|feels]]",
@@ -691,7 +691,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[very|muy]] [[proud|proud]] [[of|de]] [[my|mi/mis]] [[children|niños/niñas]].",
+      "correctSentence": "[[I am very proud of my children|Yo soy/estoy muy proud de mi/mis niños/niñas]].",
       "words": [
         "[[children|niños/niñas]].",
         "[[I|Yo]]",

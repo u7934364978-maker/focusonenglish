@@ -13,7 +13,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tener/haber]] ([[dos|dos]]) _______ [[eyes|eyes]].",
+          "question": "[[I have|Yo tener/haber]] ([[dos|dos]]) _______ [[eyes|eyes]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -39,7 +39,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] [[has|tiene/ha]] [[a|un/una]] ([[grande|grande]]) _______ [[mouth|mouth]].",
+          "question": "[[He has a|Él tiene/ha un/una]] ([[grande|grande]]) _______ [[mouth|mouth]].",
           "options": [
             "[[big|grande]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[My|Mi/mis]] ([[piernas|piernas]]) _______ [[are|son/están]] [[tired|cansado]].",
+          "question": "[[My tired|Mi/mis]] ([[piernas|piernas]]) _______ [[are|son/están cansado]].",
           "options": [
             "[[legs|legs]]",
             "[[are|son/están]]",
@@ -91,7 +91,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[has|tiene/ha]] ([[largo|largo]]) _______ [[hair|hair]].",
+          "question": "[[She has|Ella tiene/ha]] ([[largo|largo]]) _______ [[hair|hair]].",
           "options": [
             "[[long|largo]]",
             "[[are|son/están]]",
@@ -115,7 +115,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Wash|Wash]] [[your|tu/tus]] [[hands|hands]].",
+      "correctSentence": "[[Wash your hands|Wash tu/tus hands]].",
       "words": [
         "[[Wash|Wash]]",
         "[[your|tu/tus]]",
@@ -136,7 +136,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Open|Open]] [[your|tu/tus]] [[mouth|mouth]], [[please|por favor]].",
+      "correctSentence": "[[Open your, please mouth|Open tu/tus mouth, por favor]].",
       "words": [
         "[[please|por favor]].",
         "[[mouth|mouth]],",
@@ -158,7 +158,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[has|tiene/ha]] [[blue|blue]] [[eyes|eyes]].",
+      "correctSentence": "[[He has blue eyes|Él tiene/ha blue eyes]].",
       "words": [
         "[[has|tiene/ha]]",
         "[[He|Él]]",
@@ -180,7 +180,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Her|Su (de ella)]] [[hair|hair]] [[is|es/está]] [[blonde|blonde]].",
+      "correctSentence": "[[Her hair is blonde|Su (de ella) hair es/está blonde]].",
       "words": [
         "[[Her|Su (de ella)]]",
         "[[hair|hair]]",
@@ -202,7 +202,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[ears|ears]] [[are|son/están]] [[small|pequeño/pequeña]].",
+      "correctSentence": "[[My ears are small|Mi/mis ears son/están pequeño/pequeña]].",
       "words": [
         "[[are|son/están]]",
         "[[small|pequeño/pequeña]].",

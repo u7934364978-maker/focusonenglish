@@ -12,7 +12,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Futuro perfecto",
       "instructions": "Ordena las palabras para hablar de logros científicos futuros.",
-      "correctSentence": "[[By|Para]] [[2050,|2050,]] [[scientists|los científicos]] [[will|habrán]] [[have|descubierto]] [[discovered|una]] [[a|cura]] [[cure|para]] [[for|muchas]] [[many|enfermedades.]] [[diseases.| ]]",
+      "correctSentence": "[[By 2050, scientists will have discovered a cure for many diseases.|Para 2050, los científicos habrán descubierto una cura para muchas enfermedades.  ]]",
       "words": [
         "[[scientists|los científicos]]",
         "[[discovered|una]]",
@@ -42,7 +42,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inteligencia Artificial",
       "instructions": "Ordena las palabras para hablar de tecnología moderna.",
-      "correctSentence": "[[Artificial|La Inteligencia]] [[Intelligence|Artificial]] [[is|está]] [[revolutionizing|revolucionando]] [[the|la]] [[way|forma]] [[we|en que]] [[process|procesamos]] [[data.|los datos.]]",
+      "correctSentence": "[[Artificial Intelligence is revolutionizing the way we process data.|La Inteligencia Artificial está revolucionando la forma en que procesamos los datos.]]",
       "words": [
         "[[Intelligence|Artificial]]",
         "[[revolutionizing|revolucionando]]",
@@ -70,7 +70,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Futuro continuo",
       "instructions": "Ordena las palabras para hablar de una acción en progreso en el futuro.",
-      "correctSentence": "[[This|El año]] [[time|que viene]] [[next|a]] [[year,|estas alturas,]] [[I|estaré]] [[will|trabajando]] [[be|en]] [[working|un]] [[on|nuevo]] [[a|proyecto]] [[new|de]] [[software|software.]] [[project.| ]]",
+      "correctSentence": "[[This time next year, I will be working on a new software project.|El año que viene a estas alturas, estaré trabajando en un nuevo proyecto de software.  ]]",
       "words": [
         "[[time|que viene]]",
         "[[working|un]]",
@@ -102,7 +102,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Gran avance",
       "instructions": "Ordena las palabras para hablar de descubrimientos.",
-      "correctSentence": "[[A|Un]] [[breakthrough|gran avance]] [[in|en]] [[renewable|energía]] [[energy|renovable]] [[could|podría]] [[solve|resolver]] [[the|la]] [[climate|crisis]] [[crisis.|climática.]]",
+      "correctSentence": "[[A breakthrough in renewable energy could solve the climate crisis.|Un gran avance en energía renovable podría resolver la crisis climática.]]",
       "words": [
         "[[breakthrough|gran avance]]",
         "[[energy|renovable]]",
@@ -131,7 +131,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pregunta en futuro perfecto",
       "instructions": "Ordena las palabras para preguntar por una tarea completada.",
-      "correctSentence": "[[Will|¿Habrán]] [[they|ellos]] [[have|terminado]] [[finished|de]] [[building|construir]] [[the|el]] [[lab|laboratorio]] [[by|para]] [[the|final]] [[end|de]] [[of|mes?]] [[the| ]] [[month?| ]]",
+      "correctSentence": "[[Will they have finished building the lab by the end of the month?|¿Habrán ellos terminado de construir el laboratorio para final de mes?    ]]",
       "words": [
         "[[they|ellos]]",
         "[[building|construir]]",
@@ -163,7 +163,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Algoritmo",
       "instructions": "Ordena las palabras para describir una función tecnológica.",
-      "correctSentence": "[[The|El]] [[algorithm|algoritmo]] [[predicts|predice]] [[user|el comportamiento]] [[behavior|del usuario]] [[based|basándose]] [[on|en]] [[past|interacciones]] [[interactions.|pasadas.]]",
+      "correctSentence": "[[The algorithm predicts user behavior based on past interactions.|El algoritmo predice el comportamiento del usuario basándose en interacciones pasadas.]]",
       "words": [
         "[[algorithm|algoritmo]]",
         "[[behavior|del usuario]]",
@@ -191,7 +191,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vehículos eléctricos",
       "instructions": "Ordena las palabras para hablar de una tendencia futura.",
-      "correctSentence": "[[In|En]] [[ten|diez]] [[years,|años,]] [[most|la mayoría]] [[people|de la gente]] [[will|estará]] [[be|conduciendo]] [[driving|vehículos]] [[electric|eléctricos.]] [[vehicles.| ]]",
+      "correctSentence": "[[In ten years, most people will be driving electric vehicles.|En diez años, la mayoría de la gente estará conduciendo vehículos eléctricos.  ]]",
       "words": [
         "[[ten|diez]]",
         "[[people|de la gente]]",
@@ -220,7 +220,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ingeniería genética",
       "instructions": "Ordena las palabras para hablar de biotecnología.",
-      "correctSentence": "[[Genetic|La ingeniería]] [[engineering|genética]] [[allows|permite]] [[scientists|a los científicos]] [[to| ]] [[modify|modificar]] [[the|el]] [[DNA|ADN]] [[of|de los]] [[organisms.|organismos.]]",
+      "correctSentence": "[[Genetic engineering allows scientists to modify the DNA of organisms.|La ingeniería genética permite a los científicos   modificar el ADN de los organismos.]]",
       "words": [
         "[[engineering|genética]]",
         "[[scientists|a los científicos]]",
@@ -249,7 +249,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Experimento concluido",
       "instructions": "Ordena las palabras usando futuro perfecto.",
-      "correctSentence": "[[By|Para]] [[the|cuando]] [[time|llegues,]] [[you|el]] [[arrive,|experimento]] [[the|habrá]] [[experiment|concluido.]] [[will| ]] [[have| ]] [[concluded.| ]]",
+      "correctSentence": "[[By the time you arrive, the experiment will have concluded.|Para cuando llegues, el experimento habrá concluido.      ]]",
       "words": [
         "[[the|cuando]]",
         "[[experiment|concluido.]]",
@@ -278,7 +278,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ciberseguridad",
       "instructions": "Ordena las palabras para hablar de protección digital.",
-      "correctSentence": "[[Cybersecurity|La ciberseguridad]] [[is|es]] [[essential|esencial]] [[for|para]] [[protecting|proteger]] [[sensitive|información]] [[information|sensible]] [[online.|en línea.]]",
+      "correctSentence": "[[Cybersecurity is essential for protecting sensitive information online.|La ciberseguridad es esencial para proteger información sensible en línea.]]",
       "words": [
         "[[is|es]]",
         "[[information|sensible]]",
@@ -305,7 +305,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Futuro perfecto continuo",
       "instructions": "Ordena las palabras para preguntar por la duración de una acción futura.",
-      "correctSentence": "[[How|¿Cuánto]] [[long|tiempo]] [[will|habrás]] [[you|estado]] [[have|estudiando]] [[been|esta]] [[studying|teoría]] [[this|para]] [[theory|junio?]] [[by| ]] [[June?| ]]",
+      "correctSentence": "[[How long will you have been studying this theory by June?|¿Cuánto tiempo habrás estado estudiando esta teoría para junio?    ]]",
       "words": [
         "[[long|tiempo]]",
         "[[been|esta]]",
@@ -335,7 +335,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Panel solar",
       "instructions": "Ordena las palabras para describir cómo funciona una tecnología.",
-      "correctSentence": "[[A|Un]] [[solar|panel]] [[panel|solar]] [[converts|convierte]] [[sunlight|la luz solar]] [[directly|directamente]] [[into|en]] [[electricity.|electricidad.]]",
+      "correctSentence": "[[A solar panel converts sunlight directly into electricity.|Un panel solar convierte la luz solar directamente en electricidad.]]",
       "words": [
         "[[panel|solar]]",
         "[[sunlight|la luz solar]]",
@@ -362,7 +362,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Presentación de hallazgos",
       "instructions": "Ordena las palabras para hablar de un evento programado en el futuro.",
-      "correctSentence": "[[Researchers|Los investigadores]] [[will|estarán]] [[be|presentando]] [[presenting|sus]] [[their|hallazgos]] [[findings|en]] [[at|la]] [[the|conferencia]] [[conference|la]] [[next|semana]] [[week.|próxima.]]",
+      "correctSentence": "[[Researchers will be presenting their findings at the conference next week.|Los investigadores estarán presentando sus hallazgos en la conferencia la semana próxima.]]",
       "words": [
         "[[will|estarán]]",
         "[[their|hallazgos]]",
@@ -392,7 +392,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Minería de datos",
       "instructions": "Ordena las palabras para definir un proceso informático.",
-      "correctSentence": "[[Data|La minería]] [[mining|de datos]] [[involves|implica]] [[analyzing|analizar]] [[large|grandes]] [[sets|conjuntos]] [[of|de]] [[information|información]] [[to|para]] [[find|encontrar]] [[patterns.|patrones.]]",
+      "correctSentence": "[[Data mining involves analyzing large sets of information to find patterns.|La minería de datos implica analizar grandes conjuntos de información para encontrar patrones.]]",
       "words": [
         "[[mining|de datos]]",
         "[[analyzing|analizar]]",
@@ -422,7 +422,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Análisis incompleto",
       "instructions": "Ordena las palabras para una frase negativa en futuro perfecto.",
-      "correctSentence": "[[I|No]] [[won't|habré]] [[have|terminado]] [[finished|el]] [[the|análisis]] [[data|de]] [[analysis|datos]] [[by|para]] [[tomorrow|mañana]] [[morning.|por la mañana.]]",
+      "correctSentence": "[[I won't have finished the data analysis by tomorrow morning.|No habré terminado el análisis de datos para mañana por la mañana.]]",
       "words": [
         "[[won't|habré]]",
         "[[finished|el]]",
@@ -451,7 +451,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Realidad virtual",
       "instructions": "Ordena las palabras para hablar de experiencias inmersivas.",
-      "correctSentence": "[[Virtual|La realidad]] [[reality|virtual]] [[creates|crea]] [[an|una]] [[immersive|experiencia]] [[experience|inmersiva]] [[through|a través de]] [[computer|simulación]] [[simulation.|por ordenador.]]",
+      "correctSentence": "[[Virtual reality creates an immersive experience through computer simulation.|La realidad virtual crea una experiencia inmersiva a través de simulación por ordenador.]]",
       "words": [
         "[[reality|virtual]]",
         "[[an|una]]",
@@ -479,7 +479,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Monitorizar el satélite",
       "instructions": "Ordena las palabras usando futuro continuo.",
-      "correctSentence": "[[Scientists|Los científicos]] [[will|estarán]] [[be|monitorizando]] [[monitoring|la]] [[the|posición]] [[satellite's|del]] [[position|satélite]] [[continuously.|continuamente.]]",
+      "correctSentence": "[[Scientists will be monitoring the satellite's position continuously.|Los científicos estarán monitorizando la posición del satélite continuamente.]]",
       "words": [
         "[[will|estarán]]",
         "[[position|satélite]]",
@@ -506,7 +506,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "La nube",
       "instructions": "Ordena las palabras para hablar de almacenamiento remoto.",
-      "correctSentence": "[[The|La]] [[cloud|nube]] [[allows|permite]] [[users|a los usuarios]] [[to|almacenar]] [[store|y]] [[and|acceder a]] [[access|datos]] [[data|a través de]] [[over|internet.]] [[the| ]] [[internet.| ]]",
+      "correctSentence": "[[The cloud allows users to store and access data over the internet.|La nube permite a los usuarios almacenar y acceder a datos a través de internet.    ]]",
       "words": [
         "[[cloud|nube]]",
         "[[store|y]]",
@@ -537,7 +537,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Robots y trabajo",
       "instructions": "Ordena las palabras para preguntar por una sustitución futura.",
-      "correctSentence": "[[Will|¿Habrán]] [[robots|reemplazado]] [[have|los robots]] [[replaced|la mayoría]] [[most|del]] [[manual|trabajo]] [[labor|manual]] [[by|para]] [[then?|entonces?]]",
+      "correctSentence": "[[Will robots have replaced most manual labor by then?|¿Habrán reemplazado los robots la mayoría del trabajo manual para entonces?]]",
       "words": [
         "[[have|los robots]]",
         "[[manual|trabajo]]",
@@ -565,7 +565,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Semiconductor",
       "instructions": "Ordena las palabras para hablar de componentes electrónicos.",
-      "correctSentence": "[[A|Un]] [[semiconductor|semiconductor]] [[is|es]] [[a|un]] [[material|material]] [[used|utilizado]] [[in|en]] [[the|la]] [[manufacturing|fabricación]] [[of|de]] [[electronic|chips]] [[chips.|electrónicos.]]",
+      "correctSentence": "[[A semiconductor is a material used in the manufacturing of electronic chips.|Un semiconductor es un material utilizado en la fabricación de chips electrónicos.]]",
       "words": [
         "[[semiconductor|semiconductor]]",
         "[[material|material]]",
@@ -595,7 +595,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Combustibles fósiles",
       "instructions": "Ordena las palabras usando futuro perfecto.",
-      "correctSentence": "[[At|A]] [[this|este]] [[rate,|paso,]] [[we|nos]] [[will|habremos]] [[have|quedado]] [[run|sin]] [[out|combustibles]] [[of|fósiles]] [[fossil|en]] [[fuels|unas]] [[in|pocas]] [[a|décadas.]] [[few| ]] [[decades.| ]]",
+      "correctSentence": "[[At this rate, we will have run out of fossil fuels in a few decades.|A este paso, nos habremos quedado sin combustibles fósiles en unas pocas décadas.    ]]",
       "words": [
         "[[this|este]]",
         "[[have|quedado]]",
@@ -629,7 +629,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Nanotecnología",
       "instructions": "Ordena las palabras para hablar de ciencia a pequeña escala.",
-      "correctSentence": "[[Nanotechnology|La nanotecnología]] [[deals|trata]] [[with|con]] [[structures|estructuras]] [[at|a]] [[the|la]] [[atomic|escala]] [[and|atómica]] [[molecular|y]] [[scale.|molecular.]]",
+      "correctSentence": "[[Nanotechnology deals with structures at the atomic and molecular scale.|La nanotecnología trata con estructuras a la escala atómica y molecular.]]",
       "words": [
         "[[deals|trata]]",
         "[[molecular|y]]",
@@ -658,7 +658,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pruebas del prototipo",
       "instructions": "Ordena las palabras usando futuro perfecto continuo.",
-      "correctSentence": "[[They|Habrán]] [[will|estado]] [[have|probando]] [[been|el]] [[testing|prototipo]] [[the|durante]] [[prototype|meses]] [[for|antes]] [[months|del]] [[before|lanzamiento.]] [[the| ]] [[launch.| ]]",
+      "correctSentence": "[[They will have been testing the prototype for months before the launch.|Habrán estado probando el prototipo durante meses antes del lanzamiento.    ]]",
       "words": [
         "[[will|estado]]",
         "[[prototype|meses]]",
@@ -689,7 +689,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Carga inalámbrica",
       "instructions": "Ordena las palabras para hablar de características tecnológicas.",
-      "correctSentence": "[[Wireless|La carga]] [[charging|inalámbrica]] [[is|se]] [[becoming|está]] [[a|convirtiendo]] [[standard|en]] [[feature|una]] [[in|característica]] [[high-end|estándar]] [[smartphones.|en smartphones de gama alta.]]",
+      "correctSentence": "[[Wireless charging is becoming a standard feature in high-end smartphones.|La carga inalámbrica se está convirtiendo en una característica estándar en smartphones de gama alta.]]",
       "words": [
         "[[charging|inalámbrica]]",
         "[[standard|en]]",
@@ -718,7 +718,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Actualización de servidores",
       "instructions": "Ordena las palabras usando futuro perfecto.",
-      "correctSentence": "[[By|Para]] [[next|la]] [[week,|semana]] [[we|que]] [[will|viene,]] [[have|habremos]] [[updated|actualizado]] [[all|todos]] [[the|los]] [[servers|servidores]] [[in|de]] [[the|la]] [[network.|red.]]",
+      "correctSentence": "[[By next week, we will have updated all the servers in the network.|Para la semana que viene, habremos actualizado todos los servidores de la red.]]",
       "words": [
         "[[next|la]]",
         "[[have|habremos]]",
@@ -754,7 +754,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta para el futuro perfecto.",
       "questions": [
         {
-          "question": "[[I| ]] _______ _______ _______ [[my|mi]] [[PhD|doctorado]] [[by|para]] [[this|estas]] [[time|alturas]] [[next|del]] [[year.|año que viene.]]",
+          "question": "[[I PhD by this time next year.| ]] _______ _______ _______ [[my|mi doctorado para estas alturas del año que viene.]]",
           "options": ["[[will have finished|habré terminado]]", "[[will be finishing|estaré terminando]]", "[[will finish|terminaré]]"],
           "correctAnswer": 0,
           "explanation": "Expresa una meta completada antes de un plazo específico.",
@@ -777,7 +777,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el uso de sistemas biológicos en tecnología.",
       "questions": [
         {
-          "question": "_______ [[uses|usa]] [[biological|sistemas]] [[systems|biológicos]] [[to|para]] [[develop|desarrollar]] [[products.|productos.]]",
+          "question": "_______ [[uses biological systems to develop products.|usa sistemas biológicos para desarrollar productos.]]",
           "options": ["[[Biotechnology|Biotecnología]]", "[[Geology|Geología]]", "[[Archaeology|Arqueología]]"],
           "correctAnswer": 0,
           "explanation": "La biotecnología se aplica en medicina, agricultura y más.",
@@ -800,7 +800,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para una acción en curso en el futuro.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ _______ _______ [[the|la]] [[test|prueba]] [[when|cuando]] [[we|nosotros]] [[arrive|lleguemos]] [[at|al]] [[the|laboratorio.]] [[lab.| ]]",
+          "question": "[[They test when we arrive at the lab.|Ellos]] _______ _______ _______ [[the|la prueba cuando nosotros lleguemos al laboratorio.  ]]",
           "options": ["[[will be performing|estarán realizando]]", "[[will have performed|habrán realizado]]", "[[will perform|realizarán]]"],
           "correctAnswer": 0,
           "explanation": "Futuro continuo para algo que estará sucediendo en el momento de nuestra llegada.",
@@ -823,7 +823,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la creación de nuevas ideas o métodos.",
       "questions": [
         {
-          "question": "_______ [[is|La innovación es]] [[the|la]] [[key|clave]] [[to|para]] [[maintaining|mantener]] [[a|una]] [[competitive|ventaja]] [[edge|competitiva]] [[in|en]] [[technology.|tecnología.]]",
+          "question": "_______ [[is the key to maintaining a competitive edge in technology.|La innovación es la clave para mantener una ventaja competitiva en tecnología.]]",
           "options": ["[[Innovation|Innovación]]", "[[Stagnation|Estancamiento]]", "[[Tradition|Tradición]]"],
           "correctAnswer": 0,
           "explanation": "'Innovation' implica mejora y novedad.",
@@ -846,7 +846,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para durar hasta el futuro.",
       "questions": [
         {
-          "question": "[[By|Para]] [[tomorrow,|mañana,]] [[I| ]] _______ _______ _______ _______ [[on|en]] [[this|este]] [[code|código]] [[for|durante]] [[48|48]] [[hours.|horas.]]",
+          "question": "[[By tomorrow, I this 48 hours.|Para mañana,  ]] _______ _______ _______ _______ [[on code for|en este código durante 48 horas.]]",
           "options": ["[[will have been working|habré estado trabajando]]", "[[will be working|estaré trabajando]]", "[[will have worked|habré trabajado]]"],
           "correctAnswer": 0,
           "explanation": "Futuro perfecto continuo para enfatizar la duración ininterrumpida.",
@@ -869,7 +869,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para proteger datos mediante códigos.",
       "questions": [
         {
-          "question": "_______ [[is|El cifrado es]] [[the|el]] [[process|proceso]] [[of|de]] [[converting|convertir]] [[information|información]] [[into|en]] [[a|un]] [[secret|código]] [[code.|secreto.]]",
+          "question": "_______ [[is the process of converting information into a secret code.|El cifrado es el proceso de convertir información en un código secreto.]]",
           "options": ["[[Encryption|Cifrado / Encriptación]]", "[[Deletion|Borrado]]", "[[Broadcasting|Radiodifusión]]"],
           "correctAnswer": 0,
           "explanation": "'Encryption' es vital para la seguridad en internet.",
@@ -892,7 +892,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la estructura correcta de la pregunta en futuro perfecto pasivo.",
       "questions": [
         {
-          "question": "_______ [[the|¿Habrá sido]] [[software|actualizado el]] [[have|software]] _______ _______ [[by|para]] [[the|cuando]] [[time|reiniciemos?]] [[we| ]] [[restart?| ]]",
+          "question": "_______ [[the software have the restart?|¿Habrá sido actualizado el software]] _______ _______ [[by time we|para cuando reiniciemos?    ]]",
           "options": ["[[Will / been updated|actualizado]]", "[[Does / updated|actualizado]]", "[[Has / being updated|siendo actualizado]]"],
           "correctAnswer": 0,
           "explanation": "Pregunta en futuro perfecto pasivo: 'Will + sujeto + have been + participio'.",
@@ -915,7 +915,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la creación de sistemas informáticos.",
       "questions": [
         {
-          "question": "_______ _______ [[focuses|se enfoca]] [[on|en]] [[the|el]] [[development|desarrollo]] [[and|y]] [[maintenance|mantenimiento]] [[of|de]] [[software|sistemas de]] [[systems.|software.]]",
+          "question": "_______ _______ [[focuses on the development and maintenance of software systems.|se enfoca en el desarrollo y mantenimiento de sistemas de software.]]",
           "options": ["[[Software engineering|Ingeniería de software]]", "[[Civil engineering|Ingeniería civil]]", "[[Social engineering|Ingeniería social]]"],
           "correctAnswer": 0,
           "explanation": "Combina principios de ingeniería con programación.",
@@ -938,7 +938,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para un evento futuro importante.",
       "questions": [
         {
-          "question": "[[Next|La]] [[week,|semana que viene,]] [[they|ellos]] _______ _______ [[the|lanzarán el]] [[first|primer]] [[commercial|vuelo]] [[space|espacial]] [[flight.|comercial.]]",
+          "question": "[[Next week, they first flight.|La semana que viene, ellos]] _______ _______ [[the commercial space|lanzarán el primer vuelo espacial comercial.]]",
           "options": ["[[will be launching|estarán lanzando]]", "[[will have launched|habrán lanzado]]", "[[launch|lanzan]]"],
           "correctAnswer": 0,
           "explanation": "Futuro continuo para algo planeado que durará cierto tiempo (el proceso de lanzamiento).",
@@ -961,7 +961,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el almacenamiento de información estructurada.",
       "questions": [
         {
-          "question": "[[A|Una]] _______ [[is|es]] [[an|una]] [[organized|colección]] [[collection|organizada]] [[of|de]] [[structured|información]] [[information.|estructurada.]]",
+          "question": "[[A an organized collection of structured information.|Una]] _______ [[is|es una colección organizada de información estructurada.]]",
           "options": ["[[database|base de datos]]", "[[spreadsheet|hoja de cálculo]]", "[[hard drive|disco duro]]"],
           "correctAnswer": 0,
           "explanation": "'Database' (DB) es donde las aplicaciones guardan sus datos.",
@@ -984,7 +984,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para una meta científica completada.",
       "questions": [
         {
-          "question": "[[By|Para]] [[the|final]] [[end|de]] [[of|año,]] [[the|los]] [[year,|investigadores]] [[researchers| ]] _______ _______ _______ [[all|todas]] [[the|las]] [[samples.|muestras.]]",
+          "question": "[[By the end of the year, researchers the|Para final de año, los investigadores  ]] _______ _______ _______ [[all samples.|todas las muestras.]]",
           "options": ["[[will have collected|habrán recogido]]", "[[will be collecting|estarán recogiendo]]", "[[will collect|recogerán]]"],
           "correctAnswer": 0,
           "explanation": "Futuro perfecto para una tarea finalizada antes de fin de año.",
@@ -1007,7 +1007,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la informática basada en física cuántica.",
       "questions": [
         {
-          "question": "_______ _______ [[uses|usa]] [[the|los]] [[principles|principios]] [[of|de]] [[quantum|la mecánica]] [[mechanics|cuántica]] [[to|para]] [[process|procesar]] [[data.|datos.]]",
+          "question": "_______ _______ [[uses the principles of quantum mechanics to process data.|usa los principios de la mecánica cuántica para procesar datos.]]",
           "options": ["[[Quantum computing|Computación cuántica]]", "[[Cloud computing|Computación en la nube]]", "[[Binary logic|Lógica binaria]]"],
           "correctAnswer": 0,
           "explanation": "Es mucho más potente que la computación tradicional para ciertos problemas.",
@@ -1030,7 +1030,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para una actividad futura en curso.",
       "questions": [
         {
-          "question": "[[This|La semana]] [[time|que viene]] [[next|a]] [[week,|estas horas,]] _______ _______ _______ [[the|estaremos probando el]] [[new|nuevo]] [[algorithm.|algoritmo.]]",
+          "question": "[[This time next week,|La semana que viene a estas horas,]] _______ _______ _______ [[the new algorithm.|estaremos probando el nuevo algoritmo.]]",
           "options": ["[[we will be testing|estaremos probando]]", "[[we will have tested|habremos probado]]", "[[we test|probamos]]"],
           "correctAnswer": 0,
           "explanation": "Futuro continuo para describir lo que estaremos haciendo exactamente en siete días.",
@@ -1053,7 +1053,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la barrera de seguridad de red.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[is|es]] [[a|un]] [[security|sistema de]] [[system|seguridad]] [[that|que]] [[monitors|monitoriza el]] [[network|tráfico de]] [[traffic.|red.]]",
+          "question": "[[A a security system that monitors network traffic.|Un]] _______ [[is|es un sistema de seguridad que monitoriza el tráfico de red.]]",
           "options": ["[[firewall|cortafuegos]]", "[[browser|navegador]]", "[[modem|módem]]"],
           "correctAnswer": 0,
           "explanation": "'Firewall' protege contra accesos no autorizados.",
@@ -1076,7 +1076,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para completar la frase.",
       "questions": [
         {
-          "question": "[[In|En]] [[two|dos]] [[years,|años,]] [[the|la]] [[mission|misión]] _______ _______ _______ [[Mars.|Marte.]]",
+          "question": "[[In two years, the mission|En dos años, la misión]] _______ _______ _______ [[Mars.|Marte.]]",
           "options": ["[[will have reached|habrá llegado a]]", "[[will be reaching|estará llegando a]]", "[[will reach|llegará a]]"],
           "correctAnswer": 0,
           "explanation": "Futuro perfecto para un evento puntual que habrá ocurrido en dos años.",
@@ -1099,7 +1099,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la capacidad de transmisión de datos.",
       "questions": [
         {
-          "question": "_______ [[is|El ancho de banda es]] [[the|la]] [[maximum|tasa]] [[data|máxima de]] [[transfer|transferencia]] [[rate|de]] [[of|datos de]] [[a|una]] [[network.|red.]]",
+          "question": "_______ [[is the maximum data transfer rate of a network.|El ancho de banda es la tasa máxima de transferencia de datos de una red.]]",
           "options": ["[[Bandwidth|Ancho de banda]]", "[[Latency|Latencia]]", "[[Resolution|Resolución]]"],
           "correctAnswer": 0,
           "explanation": "A mayor 'bandwidth', más datos se pueden descargar a la vez.",
@@ -1122,7 +1122,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para una duración futura acumulada.",
       "questions": [
         {
-          "question": "_______ [[you|¿Habrás estado]] _______ _______ _______ [[here|viviendo aquí]] [[for|durante]] [[a|una]] [[decade|década]] [[by|para]] [[next|el mes]] [[month?|que viene?]]",
+          "question": "_______ [[you for a decade by next month?|¿Habrás estado]] _______ _______ _______ [[here|viviendo aquí durante una década para el mes que viene?]]",
           "options": ["[[Will / have been living|viviendo]]", "[[Do / be living|viviendo]]", "[[Have / lived|vivido]]"],
           "correctAnswer": 0,
           "explanation": "Futuro perfecto continuo en forma interrogativa.",
@@ -1145,7 +1145,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa corregir fallos en el código.",
       "questions": [
         {
-          "question": "[[To| ]] _______ [[is|es]] [[to|identificar]] [[identify|y]] [[and|eliminar]] [[remove|errores]] [[errors|del]] [[from|software.]] [[computer| ]] [[software.| ]]",
+          "question": "[[To to identify and remove errors from computer software.| ]] _______ [[is|es identificar y eliminar errores del software.    ]]",
           "options": ["[[debug|depurar]]", "[[install|instalar]]", "[[format|formatear]]"],
           "correctAnswer": 0,
           "explanation": "'Debugging' viene de quitar 'bugs' (bichos/errores) del sistema.",
@@ -1168,7 +1168,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para una tendencia futura.",
       "questions": [
         {
-          "question": "[[Soon,|Pronto,]] [[we|nosotros]] _______ _______ _______ [[augmented|usando realidad]] [[reality|aumentada]] [[for|para]] [[everyday|tareas]] [[tasks.|cotidianas.]]",
+          "question": "[[Soon, we for everyday tasks.|Pronto, nosotros]] _______ _______ _______ [[augmented reality|usando realidad aumentada para tareas cotidianas.]]",
           "options": ["[[will be using|estaremos usando]]", "[[will have used|habremos usado]]", "[[are using|estamos usando]]"],
           "correctAnswer": 0,
           "explanation": "Futuro continuo para una situación que se volverá habitual.",
@@ -1191,7 +1191,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la ciencia de los robots.",
       "questions": [
         {
-          "question": "_______ [[involves|implica]] [[the|el]] [[design,|diseño,]] [[construction,|construcción]] [[and|y]] [[operation|manejo]] [[of|de]] [[robots.|robots.]]",
+          "question": "_______ [[involves the design, construction, and operation of robots.|implica el diseño, construcción y manejo de robots.]]",
           "options": ["[[Robotics|Robótica]]", "[[Mechanics|Mecánica]]", "[[Electronics|Electrónica]]"],
           "correctAnswer": 0,
           "explanation": "La robótica es una rama multidisciplinar de la tecnología.",
@@ -1214,7 +1214,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el futuro perfecto para completar la frase.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ _______ _______ [[enough|suficientes]] [[data|datos]] [[by|para]] [[the|final]] [[end|de]] [[of|la]] [[the|sesión.]] [[session.| ]]",
+          "question": "[[I data by the end of the session.|Yo]] _______ _______ _______ [[enough|suficientes datos para final de la sesión.  ]]",
           "options": ["[[will have saved|habré guardado]]", "[[will be saving|estaré guardando]]", "[[will save|guardaré]]"],
           "correctAnswer": 0,
           "explanation": "Meta cumplida al final de un periodo de tiempo determinado.",
@@ -1237,7 +1237,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el software principal que gestiona el hardware.",
       "questions": [
         {
-          "question": "[[An|Un]] _______ _______ [[manages|gestiona]] [[the|los]] [[computer's|recursos de]] [[hardware|hardware y]] [[and|software del]] [[software|ordenador.]] [[resources.| ]]",
+          "question": "[[An the computer's hardware and software resources.|Un]] _______ _______ [[manages|gestiona los recursos de hardware y software del ordenador.  ]]",
           "options": ["[[operating system|sistema operativo]]", "[[application suite|paquete de aplicaciones]]", "[[utility tool|herramienta de utilidad]]"],
           "correctAnswer": 0,
           "explanation": "Ejemplos de 'operating system' (OS) son Windows, macOS o Linux.",
@@ -1260,7 +1260,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para durar hasta un punto en el futuro.",
       "questions": [
         {
-          "question": "[[By|Para]] [[5|las]] [[PM,|5,]] [[they|ellos]] _______ _______ _______ _______ [[for|durante]] [[eight|ocho]] [[hours|horas]] [[straight.|seguidas.]]",
+          "question": "[[By 5 PM, they|Para las 5, ellos]] _______ _______ _______ _______ [[for eight hours straight.|durante ocho horas seguidas.]]",
           "options": ["[[will have been coding|habrán estado programando]]", "[[will be coding|estarán programando]]", "[[will have coded|habrán programado]]"],
           "correctAnswer": 0,
           "explanation": "Futuro perfecto continuo para enfatizar la persistencia hasta una hora fija.",
@@ -1283,7 +1283,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el límite de descarga.",
       "questions": [
         {
-          "question": "_______ _______ [[is|El límite de datos es]] [[the|la]] [[maximum|cantidad]] [[amount|máxima]] [[of|de]] [[data|datos]] [[allowed|permitidos]] [[in|en]] [[a|un]] [[period.|periodo.]]",
+          "question": "_______ _______ [[is the maximum amount of data allowed in a period.|El límite de datos es la cantidad máxima de datos permitidos en un periodo.]]",
           "options": ["[[Bandwidth limit|Límite de datos / ancho de banda]]", "[[Screen resolution|Resolución de pantalla]]", "[[Battery life|Vida de la batería]]"],
           "correctAnswer": 0,
           "explanation": "Si superas el 'bandwidth limit', tu conexión puede ir más lenta.",
@@ -1306,7 +1306,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para preguntar por una tarea terminada en pasiva.",
       "questions": [
         {
-          "question": "[[Will|¿Habrán]] [[the|sido]] [[new|instalados]] [[servers|los nuevos]] _______ _______ _______ [[by|servidores para]] [[next|el lunes]] [[Monday?|que viene?]]",
+          "question": "[[Will the new servers|¿Habrán sido instalados los nuevos]] _______ _______ _______ [[by next Monday?|servidores para el lunes que viene?]]",
           "options": ["[[have been installed|instalados]]", "[[be installed|instalados]]", "[[be installing|instalando]]"],
           "correctAnswer": 0,
           "explanation": "Futuro perfecto pasivo interrogativo: 'Will + sujeto + have been + participio'.",

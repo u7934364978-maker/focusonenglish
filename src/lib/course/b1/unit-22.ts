@@ -13,7 +13,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la inteligencia simulada por máquinas.",
       "questions": [
         {
-          "question": "______ [[is|está]] [[changing|cambiando]] [[the|la]] [[way|forma]] [[we|que]] [[work|trabajamos]].",
+          "question": "______ [[is changing the way we work|está cambiando la forma que trabajamos]].",
           "options": [
             "[[Artificial Intelligence|Inteligencia Artificial]]",
             "[[Manual labor|Trabajo manual]]",
@@ -40,7 +40,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la persona que investiga la ciencia.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[is|está]] [[conducting|realizando]] [[an|un]] [[experiment|experimento]].",
+          "question": "[[The conducting an experiment|El]] ______ [[is|está realizando un experimento]].",
           "options": [
             "[[scientist|científico]]",
             "[[artist|artista]]",
@@ -65,7 +65,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Potencia de Smartphones",
       "instructions": "Ordena la oración sobre la potencia de los teléfonos actuales (más de 8 palabras).",
-      "correctSentence": "[[Modern|Los modernos]] [[smartphones|teléfonos inteligentes]] [[are|son]] [[more|más]] [[powerful|potentes]] [[than|que]] [[the|los]] [[computers|ordenadores]] [[from|de]] [[the|los]] [[sixties|sesenta]].",
+      "correctSentence": "[[Modern smartphones are more powerful than the computers from the sixties|Los modernos teléfonos inteligentes son más potentes que los ordenadores de los sesenta]].",
       "words": [
         "[[sixties|sesenta]].",
         "[[the|los]]",
@@ -96,7 +96,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la conexión a Internet de alta velocidad.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesito]] [[a|una]] [[fast|rápida]] ______ [[connection|conexión]].",
+          "question": "[[I need a fast|Yo necesito una rápida]] ______ [[connection|conexión]].",
           "options": [
             "[[broadband|banda ancha]]",
             "[[slow|lenta]]",
@@ -123,7 +123,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el estudio del espacio exterior.",
       "questions": [
         {
-          "question": "______ [[has|ha]] [[always|siempre]] [[fascinated|fascinado]] [[humanity|a la humanidad]].",
+          "question": "______ [[has always fascinated humanity|ha siempre fascinado a la humanidad]].",
           "options": [
             "[[Space exploration|La exploración espacial]]",
             "[[Deep sea diving|Buceo profundo]]",
@@ -148,7 +148,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Diseño de Software",
       "instructions": "Ordena la oración sobre la utilidad del nuevo software (más de 8 palabras).",
-      "correctSentence": "[[The|El]] [[new|nuevo]] [[software|software]] [[was|fue]] [[designed|diseñado]] [[to|para]] [[help|ayudar]] [[users|a los usuarios]] [[with|con]] [[their|sus]] [[tasks|tareas]].",
+      "correctSentence": "[[The new software was designed to help users with their tasks|El nuevo software fue diseñado para ayudar a los usuarios con sus tareas]].",
       "words": [
         "[[tasks|tareas]].",
         "[[with|con]]",
@@ -179,7 +179,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el hallazgo de algo nuevo.",
       "questions": [
         {
-          "question": "[[It|Fue]] [[was| ]] [[a|un]] [[major|gran]] ______ [[in|en]] [[medicine|medicina]].",
+          "question": "[[It was a major|Fue   un gran]] ______ [[in medicine|en medicina]].",
           "options": [
             "[[discovery|descubrimiento]]",
             "[[mistake|error]]",
@@ -206,7 +206,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para algo creado que antes no existía.",
       "questions": [
         {
-          "question": "[[The|La]] ______ [[of|de]] [[the|la]] [[wheel|rueda]] [[changed|cambió]] [[everything|todo]].",
+          "question": "[[The the wheel changed everything|La]] ______ [[of|de la rueda cambió todo]].",
           "options": [
             "[[invention|invención]]",
             "[[discovery|descubrimiento]]",
@@ -231,7 +231,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Estilo Indirecto",
       "instructions": "Ordena la frase en estilo indirecto sobre arreglar el PC (más de 8 palabras).",
-      "correctSentence": "[[He|Él]] [[said|dijo]] [[that|que]] [[he|él]] [[would|arreglaría]] [[fix| ]] [[the|el]] [[computer|ordenador]] [[very|muy]] [[soon|pronto]].",
+      "correctSentence": "[[He said that he would fix the computer very soon|Él dijo que él arreglaría   el ordenador muy pronto]].",
       "words": [
         "[[computer|ordenador]]",
         "[[said|dijo]]",
@@ -262,7 +262,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el conjunto estructurado de datos.",
       "questions": [
         {
-          "question": "[[The|La]] ______ [[contains|contiene]] [[all|toda]] [[the|la]] [[client|cliente]] [[info|información]].",
+          "question": "[[The all the client info|La]] ______ [[contains|contiene toda la cliente información]].",
           "options": [
             "[[database|base de datos]]",
             "[[keyboard|teclado]]",
@@ -289,7 +289,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la tecnología basada en la biología.",
       "questions": [
         {
-          "question": "______ [[is|está]] [[helping|ayudando]] [[to|a]] [[create|crear]] [[new|nuevas]] [[vaccines|vacunas]].",
+          "question": "______ [[is helping to create new vaccines|está ayudando a crear nuevas vacunas]].",
           "options": [
             "[[Biotechnology|Biotecnología]]",
             "[[Geology|Geología]]",
@@ -314,7 +314,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "El Método Científico",
       "instructions": "Ordena la oración sobre el proceso de investigación (más de 8 palabras).",
-      "correctSentence": "[[Scientists|Los científicos]] [[use|usan]] [[the|el]] [[scientific|científico]] [[method|método]] [[to|para]] [[test|probar]] [[their|sus]] [[new|nuevas]] [[theories|teorías]].",
+      "correctSentence": "[[Scientists use the scientific method to test their new theories|Los científicos usan el científico método para probar sus nuevas teorías]].",
       "words": [
         "[[theories|teorías]].",
         "[[method|método]]",
@@ -345,7 +345,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la protección digital.",
       "questions": [
         {
-          "question": "[[Every|Cada]] [[company|empresa]] [[needs|necesita]] [[strong|fuerte]] ______.",
+          "question": "[[Every company needs strong|Cada empresa necesita fuerte]] ______.",
           "options": [
             "[[cybersecurity|ciberseguridad]]",
             "[[social media|redes sociales]]",
@@ -372,7 +372,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el ordenador que puedes llevar contigo.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[take|llevo]] [[my|mi]] ______ [[to|a]] [[the|la]] [[office|oficina]].",
+          "question": "[[I take my the|Yo llevo mi]] ______ [[to office|a la oficina]].",
           "options": [
             "[[laptop|portátil]]",
             "[[desktop|sobremesa]]",
@@ -397,7 +397,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ingeniería Genética",
       "instructions": "Ordena la frase sobre la modificación del ADN (más de 8 palabras).",
-      "correctSentence": "[[Genetic|Genética]] [[engineering|ingeniería]] [[can|puede]] [[be|ser]] [[used|usada]] [[to|para]] [[change|cambiar]] [[the|el]] [[DNA|ADN]] [[of|de]] [[plants|plantas]].",
+      "correctSentence": "[[Genetic engineering can be used to change the DNA of plants|Genética ingeniería puede ser usada para cambiar el ADN de plantas]].",
       "words": [
         "[[plants|plantas]].",
         "[[used|usada]]",
@@ -429,7 +429,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el programa que usas para entrar en webs.",
       "questions": [
         {
-          "question": "[[Which|¿Qué]] ______ [[do| ]] [[you|tú]] [[normally|normalmente]] [[use|usas]] [[?|?]]",
+          "question": "[[Which you normally use ?|¿Qué]] ______ [[do|  tú normalmente usas ?]]",
           "options": [
             "[[browser|navegador]]",
             "[[folder|carpeta]]",
@@ -456,7 +456,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el software principal del ordenador.",
       "questions": [
         {
-          "question": "[[Windows|Windows]] [[is|es]] [[a|un]] [[popular|popular]] ______.",
+          "question": "[[Windows is a popular|Windows es un popular]] ______.",
           "options": [
             "[[operating system|sistema operativo]]",
             "[[web page|página web]]",
@@ -481,7 +481,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "El Inventor de la Web",
       "instructions": "Ordena la oración sobre el creador de la Web (más de 8 palabras).",
-      "correctSentence": "[[The|El]] [[man|hombre]] [[who|que]] [[invented|inventó]] [[the|la]] [[World|Mundo]] [[Wide|Ancho]] [[Web|Web]] [[is|es]] [[from|de]] [[the|el]] [[UK|Reino Unido]].",
+      "correctSentence": "[[The man who invented the World Wide Web is from the UK|El hombre que inventó la Mundo Ancho Web es de el Reino Unido]].",
       "words": [
         "[[UK|Reino Unido]].",
         "[[man|hombre]]",
@@ -513,7 +513,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la red sin cables.",
       "questions": [
         {
-          "question": "[[Is|¿Está]] [[the|el]] ______ [[working|funcionando]] [[in|en]] [[this|esta]] [[room|sala]] [[?|?]]",
+          "question": "[[Is the this room ?|¿Está el]] ______ [[working in|funcionando en esta sala ?]]",
           "options": [
             "[[Wi-Fi|Wi-Fi]]",
             "[[Bluetooth|Bluetooth]]",
@@ -540,7 +540,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para quien accede ilegalmente a datos.",
       "questions": [
         {
-          "question": "[[A|Un]] ______ [[tried|intentó]] [[to| ]] [[steal|robar]] [[my|mi]] [[password|contraseña]].",
+          "question": "[[A to steal my password|Un]] ______ [[tried|intentó   robar mi contraseña]].",
           "options": [
             "[[hacker|hacker]]",
             "[[user|usuario]]",
@@ -565,7 +565,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Éxito Experimental",
       "instructions": "Ordena la oración sobre el resultado del experimento (más de 8 palabras).",
-      "correctSentence": "[[They|Ellos]] [[told|dijeron]] [[us|nos]] [[that|que]] [[the|el]] [[experiment|experimento]] [[was|fue]] [[very|muy]] [[successful|exitoso]] [[last|la última]] [[week|semana]].",
+      "correctSentence": "[[They told us that the experiment was very successful last week|Ellos dijeron nos que el experimento fue muy exitoso la última semana]].",
       "words": [
         "[[week|semana]].",
         "[[successful|exitoso]]",
@@ -596,7 +596,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el almacenamiento en servidores remotos.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[save|guardo]] [[my|mis]] [[photos|fotos]] [[in|en]] [[the|la]] ______.",
+          "question": "[[I save my photos in the|Yo guardo mis fotos en la]] ______.",
           "options": [
             "[[cloud|nube]]",
             "[[trash|papelera]]",
@@ -623,7 +623,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el móvil con funciones avanzadas.",
       "questions": [
         {
-          "question": "[[My|Mi]] ______ [[has|tiene]] [[a|una]] [[great|gran]] [[camera|cámara]].",
+          "question": "[[My a great camera|Mi]] ______ [[has|tiene una gran cámara]].",
           "options": [
             "[[smartphone|smartphone]]",
             "[[radio|radio]]",
@@ -648,7 +648,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "El Robot Políglota",
       "instructions": "Ordena la oración sobre el robot japonés (más de 8 palabras).",
-      "correctSentence": "[[The|El]] [[robot|robot]] [[which|que]] [[was|fue]] [[built|construido]] [[in|en]] [[Japan|Japón]] [[can|puede]] [[speak|hablar]] [[several|varios]] [[languages|idiomas]].",
+      "correctSentence": "[[The robot which was built in Japan can speak several languages|El robot que fue construido en Japón puede hablar varios idiomas]].",
       "words": [
         "[[languages|idiomas]].",
         "[[robot|robot]]",
@@ -680,7 +680,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el entorno simulado en 3D.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[love|amo]] [[playing|jugar]] ______ [[games|juegos]].",
+          "question": "[[I love playing|Yo amo jugar]] ______ [[games|juegos]].",
           "options": [
             "[[virtual reality|realidad virtual]]",
             "[[board|de mesa]]",
@@ -707,7 +707,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para las plataformas de interacción social.",
       "questions": [
         {
-          "question": "[[Do|¿]] [[you|tú]] [[spend|pasas]] [[much|mucho]] [[time|tiempo]] [[on|en]] ______ [[?|?]]",
+          "question": "[[Do you spend much time on|¿ tú pasas mucho tiempo en]] ______ [[?|?]]",
           "options": [
             "[[social media|redes sociales]]",
             "[[the news|las noticias]]",
@@ -732,7 +732,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "El Futuro Tecnológico",
       "instructions": "Ordena la frase sobre el avance de la tecnología (más de 8 palabras).",
-      "correctSentence": "[[It|Se]] [[is|dice]] [[said| ]] [[that|que]] [[technology|la tecnología]] [[will|seguirá]] [[continue|avanzando]] [[to| ]] [[advance| ]] [[very|muy]] [[fast|rápido]].",
+      "correctSentence": "[[It is said that technology will continue to advance very fast|Se dice   que la tecnología seguirá avanzando     muy rápido]].",
       "words": [
         "[[fast|rápido]].",
         "[[is|dice]]",
@@ -764,7 +764,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la palabra clave secreta.",
       "questions": [
         {
-          "question": "[[Don't|No]] [[share|compartas]] [[your|tu]] ______ [[with|con]] [[anyone|nadie]].",
+          "question": "[[Don't share your anyone|No compartas tu]] ______ [[with|con nadie]].",
           "options": [
             "[[password|contraseña]]",
             "[[address|dirección]]",
@@ -791,7 +791,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa bajar datos de la red.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[want|quiero]] [[to| ]] ______ [[this|este]] [[new|nuevo]] [[song|tema]].",
+          "question": "[[I want to new|Yo quiero  ]] ______ [[this song|este nuevo tema]].",
           "options": [
             "[[download|descargar]]",
             "[[delete|borrar]]",
@@ -816,7 +816,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Premio para Científicos",
       "instructions": "Ordena la oración sobre el premio por el tratamiento (más de 8 palabras).",
-      "correctSentence": "[[The|Los]] [[scientists|científicos]] [[who|que]] [[discovered|descubrieron]] [[the|el]] [[treatment|tratamiento]] [[won|ganaron]] [[an|un]] [[important|importante]] [[award|premio]].",
+      "correctSentence": "[[The scientists who discovered the treatment won an important award|Los científicos que descubrieron el tratamiento ganaron un importante premio]].",
       "words": [
         "[[award|premio]].",
         "[[discovered|descubrieron]]",
@@ -847,7 +847,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la herramienta de búsqueda en la web.",
       "questions": [
         {
-          "question": "[[Google|Google]] [[is|es]] [[the|el]] [[most|más]] [[used|usado]] ______.",
+          "question": "[[Google is the most used|Google es el más usado]] ______.",
           "options": [
             "[[search engine|buscador]]",
             "[[email provider|proveedor de correo]]",
@@ -874,7 +874,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el mensaje digital.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[sent|envié]] [[you|te]] [[an|un]] ______ [[this|esta]] [[morning|mañana]].",
+          "question": "[[I sent you an|Yo envié te un]] ______ [[this morning|esta mañana]].",
           "options": [
             "[[e-mail|e-mail]]",
             "[[letter|carta]]",
@@ -899,7 +899,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Petición de Ayuda",
       "instructions": "Ordena la frase indirecta sobre instalar un programa (más de 8 palabras).",
-      "correctSentence": "[[She|Ella]] [[asked|preguntó]] [[me|me]] [[if|si]] [[I|yo]] [[could|podía]] [[help|ayudar]] [[her|la]] [[with|con]] [[the|el]] [[installation|programa]].",
+      "correctSentence": "[[She asked me if I could help her with the installation|Ella preguntó me si yo podía ayudar la con el programa]].",
       "words": [
         "[[installation|programa]].",
         "[[asked|preguntó]]",
@@ -931,7 +931,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para los componentes físicos.",
       "questions": [
         {
-          "question": "[[The|El]] [[monitor|monitor]] [[is|es]] [[part|parte]] [[of|del]] ______.",
+          "question": "[[The monitor is part of|El monitor es parte del]] ______.",
           "options": [
             "[[hardware|hardware]]",
             "[[software|software]]",
@@ -958,7 +958,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para los programas y aplicaciones.",
       "questions": [
         {
-          "question": "[[You|Tú]] [[need|necesitas]] [[to| ]] [[update|actualizar]] [[your|tu]] ______.",
+          "question": "[[You need to update your|Tú necesitas   actualizar tu]] ______.",
           "options": [
             "[[software|software]]",
             "[[hardware|hardware]]",
@@ -983,7 +983,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "El Telescopio",
       "instructions": "Ordena la oración sobre el telescopio y las estrellas (más de 8 palabras).",
-      "correctSentence": "[[We|Nosotros]] [[used|usamos]] [[a|un]] [[telescope|telescopio]] [[to|para]] [[observe|observar]] [[the|las]] [[stars|estrellas]] [[in|en]] [[the|el]] [[sky|cielo]].",
+      "correctSentence": "[[We used a telescope to observe the stars in the sky|Nosotros usamos un telescopio para observar las estrellas en el cielo]].",
       "words": [
         "[[sky|cielo]].",
         "[[stars|estrellas]]",
@@ -1015,7 +1015,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el pequeño componente de silicio.",
       "questions": [
         {
-          "question": "[[Modern|Los modernos]] ______ [[are|son]] [[extremely|extremadamente]] [[small|pequeños]].",
+          "question": "[[Modern extremely small|Los modernos]] ______ [[are|son extremadamente pequeños]].",
           "options": [
             "[[microchips|microchips]]",
             "[[screens|pantallas]]",
@@ -1042,7 +1042,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la rama que estudia los robots.",
       "questions": [
         {
-          "question": "______ [[is|está]] [[becoming|convirtiéndose]] [[very|muy]] [[advanced|avanzada]].",
+          "question": "______ [[is becoming very advanced|está convirtiéndose muy avanzada]].",
           "options": [
             "[[Robotics|Robótica]]",
             "[[Cooking|Cocina]]",
@@ -1067,7 +1067,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Batería Agotada",
       "instructions": "Ordena la oración sobre el apagado del dispositivo (más de 8 palabras).",
-      "correctSentence": "[[The|El]] [[device|aparato]] [[will|se]] [[shut|apagará]] [[down| ]] [[if|si]] [[the|la]] [[battery|batería]] [[is|está]] [[completely|completamente]] [[empty|vacía]].",
+      "correctSentence": "[[The device will shut down if the battery is completely empty|El aparato se apagará   si la batería está completamente vacía]].",
       "words": [
         "[[empty|vacía]].",
         "[[is|está]]",
@@ -1099,7 +1099,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la información recolectada.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[need|necesitamos]] [[to| ]] [[analyze|analizar]] [[the|los]] ______.",
+          "question": "[[We need to analyze the|Nosotros necesitamos   analizar los]] ______.",
           "options": [
             "[[data|datos]]",
             "[[cables|cables]]",
@@ -1126,7 +1126,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el proceso de mejora y creación.",
       "questions": [
         {
-          "question": "[[Constant|Constante]] ______ [[is|es]] [[necessary|necesaria]] [[for|para]] [[growth|crecer]].",
+          "question": "[[Constant necessary for growth|Constante]] ______ [[is|es necesaria para crecer]].",
           "options": [
             "[[innovation|innovación]]",
             "[[stagnation|estancamiento]]",
@@ -1151,7 +1151,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Internet de las Cosas",
       "instructions": "Ordena la frase sobre el IoT (más de 8 palabras).",
-      "correctSentence": "[[The|El]] [[Internet|Internet]] [[of|de]] [[Things|las Cosas]] [[connects|conecta]] [[everyday|objetos]] [[objects|cotidianos]] [[to|a]] [[the|la]] [[digital|digital]] [[world|mundo]].",
+      "correctSentence": "[[The Internet of Things connects everyday objects to the digital world|El Internet de las Cosas conecta objetos cotidianos a la digital mundo]].",
       "words": [
         "[[world|mundo]].",
         "[[objects|cotidianos]]",
@@ -1183,7 +1183,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el instrumento que aumenta objetos pequeños.",
       "questions": [
         {
-          "question": "[[Look|Mira]] [[at|a]] [[the|las]] [[cells|células]] [[through|por]] [[the|el]] ______.",
+          "question": "[[Look at the cells through the|Mira a las células por el]] ______.",
           "options": [
             "[[microscope|microscopio]]",
             "[[telescope|telescopio]]",
@@ -1210,7 +1210,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el libro en formato digital.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[read|leo]] ______ [[on|en]] [[my|mi]] [[tablet|tablet]].",
+          "question": "[[I read tablet|Yo leo]] ______ [[on my|en mi tablet]].",
           "options": [
             "[[e-books|e-books]]",
             "[[magazines|revistas]]",
@@ -1235,7 +1235,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Coches Eléctricos",
       "instructions": "Ordena la oración sobre la popularidad de los coches eléctricos (más de 8 palabras).",
-      "correctSentence": "[[Electric|Coches]] [[cars|eléctricos]] [[are|son]] [[now|ahora]] [[more|más]] [[popular|populares]] [[because|porque]] [[they|ellos]] [[are|son]] [[better|mejores]] [[for|para]] [[nature|naturaleza]].",
+      "correctSentence": "[[Electric cars are now more popular because they are better for nature|Coches eléctricos son ahora más populares porque ellos son mejores para naturaleza]].",
       "words": [
         "[[nature|naturaleza]].",
         "[[popular|populares]]",
@@ -1268,7 +1268,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para convertir datos en un código secreto.",
       "questions": [
         {
-          "question": "______ [[protects|protege]] [[your|tu]] [[private|privada]] [[information|información]].",
+          "question": "______ [[protects your private information|protege tu privada información]].",
           "options": [
             "[[Encryption|Cifrado / Encriptación]]",
             "[[Deletion|Borrado]]",
@@ -1295,7 +1295,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa enviar datos a un servidor.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesito]] [[to| ]] ______ [[my|mi]] [[homework|tarea]].",
+          "question": "[[I need to homework|Yo necesito  ]] ______ [[my|mi tarea]].",
           "options": [
             "[[upload|subir]]",
             "[[download|descargar]]",
@@ -1320,7 +1320,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Software Actualizado",
       "instructions": "Ordena la oración indirecta sobre la actualización (más de 8 palabras).",
-      "correctSentence": "[[He|Él]] [[told|dijo]] [[me|me]] [[that|que]] [[he|él]] [[had|había]] [[already|ya]] [[updated|actualizado]] [[his|su]] [[own|propio]] [[software|software]].",
+      "correctSentence": "[[He told me that he had already updated his own software|Él dijo me que él había ya actualizado su propio software]].",
       "words": [
         "[[software|software]].",
         "[[told|dijo]]",
@@ -1352,7 +1352,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la tecnología a escala microscópica.",
       "questions": [
         {
-          "question": "______ [[works|trabaja]] [[with|con]] [[extremely|extremadamente]] [[small|pequeñas]] [[scales|escalas]].",
+          "question": "______ [[works with extremely small scales|trabaja con extremadamente pequeñas escalas]].",
           "options": [
             "[[Nanotechnology|Nanotecnología]]",
             "[[Astronomy|Astronomía]]",
@@ -1379,7 +1379,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la persona que repara equipos técnicos.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[fixed|arregló]] [[the|la]] [[server|servidor]] [[quickly|rápidamente]].",
+          "question": "[[The the server quickly|El]] ______ [[fixed|arregló la servidor rápidamente]].",
           "options": [
             "[[technician|técnico]]",
             "[[nurse|enfermero]]",

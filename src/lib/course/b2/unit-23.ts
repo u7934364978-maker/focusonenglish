@@ -12,7 +12,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Estimación de pobreza",
       "instructions": "Ordena las palabras para usar la pasiva impersonal.",
-      "correctSentence": "[[It|Se]] [[is|estima]] [[estimated|que]] [[that|millones]] [[millions|de]] [[of|personas]] [[people|están]] [[are|afectadas]] [[affected|por la]] [[by|pobreza.]] [[poverty.| ]]",
+      "correctSentence": "[[It is estimated that millions of people are affected by poverty.|Se estima que millones de personas están afectadas por la pobreza.  ]]",
       "words": [
         "[[estimated|que]]",
         "[[poverty.| ]]",
@@ -42,7 +42,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Personas sin hogar",
       "instructions": "Ordena las palabras para hablar de una problemática social.",
-      "correctSentence": "[[Homelessness|El sinhogarismo]] [[is|es]] [[a|un]] [[complex|problema]] [[issue|complejo]] [[with|sin]] [[no|una]] [[single|única]] [[solution.|solución.]]",
+      "correctSentence": "[[Homelessness is a complex issue with no single solution.|El sinhogarismo es un problema complejo sin una única solución.]]",
       "words": [
         "[[is|es]]",
         "[[solution.|solución.]]",
@@ -70,7 +70,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mejora de infraestructura",
       "instructions": "Ordena las palabras usando la estructura causal 'have something done'.",
-      "correctSentence": "[[The|El]] [[government|gobierno]] [[needs|necesita]] [[to|que]] [[have|se]] [[the|mejore]] [[infrastructure|la]] [[improved.|infraestructura.]]",
+      "correctSentence": "[[The government needs to have the infrastructure improved.|El gobierno necesita que se mejore la infraestructura.]]",
       "words": [
         "[[government|gobierno]]",
         "[[infrastructure|la]]",
@@ -97,7 +97,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Desarrollo sostenible",
       "instructions": "Ordena las palabras para hablar de sostenibilidad.",
-      "correctSentence": "[[Sustainable|El desarrollo]] [[development|sostenible]] [[aims|aspira]] [[to|a]] [[balance|equilibrar]] [[economic|el crecimiento]] [[growth|económico]] [[and|y]] [[environmental|la protección]] [[protection.|ambiental.]]",
+      "correctSentence": "[[Sustainable development aims to balance economic growth and environmental protection.|El desarrollo sostenible aspira a equilibrar el crecimiento económico y la protección ambiental.]]",
       "words": [
         "[[development|sostenible]]",
         "[[growth|económico]]",
@@ -126,7 +126,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Igualdad de género",
       "instructions": "Ordena las palabras usando la pasiva continua.",
-      "correctSentence": "[[New|Se]] [[laws|están]] [[are|implementando]] [[being|nuevas]] [[implemented|leyes]] [[to|para]] [[tackle|abordar]] [[gender|la desigualdad]] [[inequality.|de género.]]",
+      "correctSentence": "[[New laws are being implemented to tackle gender inequality.|Se están implementando nuevas leyes para abordar la desigualdad de género.]]",
       "words": [
         "[[laws|están]]",
         "[[inequality.|de género.]]",
@@ -154,7 +154,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Voluntariado",
       "instructions": "Ordena las palabras para hablar de labor social.",
-      "correctSentence": "[[Volunteering|El voluntariado]] [[is|es]] [[a|una]] [[great|forma]] [[way|excelente]] [[to|de]] [[contribute|contribuir]] [[to|a]] [[the|la]] [[local|comunidad]] [[community.|local.]]",
+      "correctSentence": "[[Volunteering is a great way to contribute to the local community.|El voluntariado es una forma excelente de contribuir a la comunidad local.]]",
       "words": [
         "[[is|es]]",
         "[[community.|local.]]",
@@ -184,7 +184,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hacerse oír",
       "instructions": "Ordena las palabras usando 'get something done'.",
-      "correctSentence": "[[Citizens|Los ciudadanos]] [[should|deberían]] [[get|hacer]] [[their|que]] [[voices|sus]] [[heard|voces]] [[through|sean oídas]] [[peaceful|a través de]] [[protest.|la protesta pacífica.]]",
+      "correctSentence": "[[Citizens should get their voices heard through peaceful protest.|Los ciudadanos deberían hacer que sus voces sean oídas a través de la protesta pacífica.]]",
       "words": [
         "[[should|deberían]]",
         "[[protest.|la protesta pacífica.]]",
@@ -212,7 +212,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Concienciación",
       "instructions": "Ordena las palabras para hablar del papel de las redes sociales.",
-      "correctSentence": "[[Social|Las redes]] [[media|sociales]] [[can|pueden]] [[play|desempeñar]] [[a|un]] [[significant|papel]] [[role|importante]] [[in|en]] [[raising|concienciar.]] [[awareness.| ]]",
+      "correctSentence": "[[Social media can play a significant role in raising awareness.|Las redes sociales pueden desempeñar un papel importante en concienciar.  ]]",
       "words": [
         "[[media|sociales]]",
         "[[role|importante]]",
@@ -241,7 +241,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Derechos humanos",
       "instructions": "Ordena las palabras usando la pasiva perfecta.",
-      "correctSentence": "[[The|Los]] [[protesters|manifestantes]] [[claim|afirman]] [[that|que]] [[their|sus]] [[human|derechos]] [[rights|humanos]] [[have|han]] [[been|sido]] [[violated.|violentados.]]",
+      "correctSentence": "[[The protesters claim that their human rights have been violated.|Los manifestantes afirman que sus derechos humanos han sido violentados.]]",
       "words": [
         "[[protesters|manifestantes]]",
         "[[rights|humanos]]",
@@ -270,7 +270,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vivienda asequible",
       "instructions": "Ordena las palabras para hablar de retos urbanos.",
-      "correctSentence": "[[Affordable|La vivienda]] [[housing|asequible]] [[is|es]] [[one|uno]] [[of|de]] [[the|los]] [[most|retos]] [[pressing|urbanos]] [[urban|más]] [[challenges.|urgentes.]]",
+      "correctSentence": "[[Affordable housing is one of the most pressing urban challenges.|La vivienda asequible es uno de los retos urbanos más urgentes.]]",
       "words": [
         "[[housing|asequible]]",
         "[[one|uno]]",
@@ -299,7 +299,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reducción de criminalidad",
       "instructions": "Ordena las palabras usando la pasiva impersonal con 'It is thought'.",
-      "correctSentence": "[[It|Se]] [[is|piensa]] [[thought|que]] [[that|la]] [[the|nueva]] [[new|política]] [[policy|reducirá]] [[will|los]] [[reduce|índices]] [[crime|de]] [[rates.|criminalidad.]]",
+      "correctSentence": "[[It is thought that the new policy will reduce crime rates.|Se piensa que la nueva política reducirá los índices de criminalidad.]]",
       "words": [
         "[[is|piensa]]",
         "[[policy|reducirá]]",
@@ -329,7 +329,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Discriminación laboral",
       "instructions": "Ordena las palabras para hablar de derechos laborales.",
-      "correctSentence": "[[Discrimination|La discriminación]] [[in|en]] [[the|el]] [[workplace|lugar de trabajo]] [[must|debe]] [[be|ser]] [[strictly|estrictamente]] [[prohibited.|prohibida.]]",
+      "correctSentence": "[[Discrimination in the workplace must be strictly prohibited.|La discriminación en el lugar de trabajo debe ser estrictamente prohibida.]]",
       "words": [
         "[[in|en]]",
         "[[workplace|lugar de trabajo]]",
@@ -356,7 +356,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Residuos plásticos",
       "instructions": "Ordena las palabras usando 'have something done' para leyes.",
-      "correctSentence": "[[We|Necesitamos]] [[need|que]] [[to|se]] [[have|actualicen]] [[the|las]] [[laws|leyes]] [[regarding|relativas]] [[plastic|a los]] [[waste|residuos]] [[updated.|plásticos.]]",
+      "correctSentence": "[[We need to have the laws regarding plastic waste updated.|Necesitamos que se actualicen las leyes relativas a los residuos plásticos.]]",
       "words": [
         "[[need|que]]",
         "[[laws|leyes]]",
@@ -385,7 +385,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Refugiados y asilo",
       "instructions": "Ordena las palabras para hablar de migración.",
-      "correctSentence": "[[Refugees|Los refugiados]] [[often|a menudo]] [[face|enfrentan]] [[significant|barreras]] [[barriers|importantes]] [[when|al]] [[seeking|solicitar]] [[asylum.|asilo.]]",
+      "correctSentence": "[[Refugees often face significant barriers when seeking asylum.|Los refugiados a menudo enfrentan barreras importantes al solicitar asilo.]]",
       "words": [
         "[[often|a menudo]]",
         "[[barriers|importantes]]",
@@ -412,7 +412,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Energías renovables",
       "instructions": "Ordena las palabras usando la pasiva perfecta.",
-      "correctSentence": "[[A|Se]] [[lot|ha]] [[of|hecho]] [[progress|mucho]] [[has|progreso]] [[been|en]] [[made|el]] [[in|campo]] [[the|de]] [[field|las]] [[of|energías]] [[renewable|renovables.]] [[energy.| ]]",
+      "correctSentence": "[[A lot of progress has been made in the field of renewable energy.|Se ha hecho mucho progreso en el campo de las energías renovables.  ]]",
       "words": [
         "[[lot|ha]]",
         "[[progress|mucho]]",
@@ -444,7 +444,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Tasa de desempleo",
       "instructions": "Ordena las palabras para hablar de estadísticas laborales.",
-      "correctSentence": "[[Unemployment|Las tasas]] [[rates|de desempleo]] [[vary|varían]] [[significantly|significativamente]] [[between|entre]] [[different|diferentes]] [[regions.|regiones.]]",
+      "correctSentence": "[[Unemployment rates vary significantly between different regions.|Las tasas de desempleo varían significativamente entre diferentes regiones.]]",
       "words": [
         "[[rates|de desempleo]]",
         "[[significantly|significativamente]]",
@@ -470,7 +470,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Refugio caritativo",
       "instructions": "Ordena las palabras usando la forma causal continua.",
-      "correctSentence": "[[The|La]] [[charity|organización benéfica]] [[is|está]] [[having|haciendo]] [[a|que]] [[new|se]] [[shelter|construya]] [[built|un]] [[for|nuevo]] [[the|refugio]] [[needy.|para los necesitados.]]",
+      "correctSentence": "[[The charity is having a new shelter built for the needy.|La organización benéfica está haciendo que se construya un nuevo refugio para los necesitados.]]",
       "words": [
         "[[charity|organización benéfica]]",
         "[[having|haciendo]]",
@@ -500,7 +500,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Globalización",
       "instructions": "Ordena las palabras para hablar de impacto cultural.",
-      "correctSentence": "[[Globalization|La globalización]] [[has|tiene]] [[both|tanto]] [[positive|impactos]] [[and|positivos]] [[negative|como]] [[impacts|negativos]] [[on|en]] [[culture.|la cultura.]]",
+      "correctSentence": "[[Globalization has both positive and negative impacts on culture.|La globalización tiene tanto impactos positivos como negativos en la cultura.]]",
       "words": [
         "[[has|tiene]]",
         "[[negative|como]]",
@@ -528,7 +528,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Filtración de documentos",
       "instructions": "Ordena las palabras usando la pasiva simple.",
-      "correctSentence": "[[Thousands|Miles]] [[of|de]] [[documents|documentos]] [[were|fueron]] [[leaked|filtrados]] [[to|a]] [[the|la]] [[press|prensa]] [[last|anoche.]] [[night.| ]]",
+      "correctSentence": "[[Thousands of documents were leaked to the press last night.|Miles de documentos fueron filtrados a la prensa anoche.  ]]",
       "words": [
         "[[of|de]]",
         "[[leaked|filtrados]]",
@@ -557,7 +557,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Libertad de expresión",
       "instructions": "Ordena las palabras para hablar de valores democráticos.",
-      "correctSentence": "[[Freedom|La libertad]] [[of|de]] [[speech|expresión]] [[is|es]] [[considered|considerada]] [[a|un]] [[fundamental|pilar]] [[pillar|fundamental]] [[of|de]] [[democracy.|la democracia.]]",
+      "correctSentence": "[[Freedom of speech is considered a fundamental pillar of democracy.|La libertad de expresión es considerada un pilar fundamental de la democracia.]]",
       "words": [
         "[[of|de]]",
         "[[considered|considerada]]",
@@ -586,7 +586,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Daños por disturbios",
       "instructions": "Ordena las palabras usando 'have something done' para experiencias negativas.",
-      "correctSentence": "[[They|Su]] [[had|casa]] [[their|resultó]] [[house|dañada]] [[damaged|durante]] [[during|los]] [[the|violentos]] [[violent|disturbios.]] [[riots.| ]]",
+      "correctSentence": "[[They had their house damaged during the violent riots.|Su casa resultó dañada durante los violentos disturbios.  ]]",
       "words": [
         "[[had|casa]]",
         "[[house|dañada]]",
@@ -614,7 +614,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Banco de alimentos",
       "instructions": "Ordena las palabras para definir una labor social.",
-      "correctSentence": "[[A|Un]] [[food|banco]] [[bank|de alimentos]] [[is|es]] [[a|un]] [[place|lugar]] [[where|donde]] [[free|se da]] [[food|comida]] [[is|gratis]] [[given|a personas]] [[to|necesitadas.]] [[people| ]] [[in| ]] [[need.| ]]",
+      "correctSentence": "[[A food bank is a place where free food is given to people in need.|Un banco de alimentos es un lugar donde se da comida gratis a personas necesitadas.      ]]",
       "words": [
         "[[food|banco]]",
         "[[place|lugar]]",
@@ -648,7 +648,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Rumores sobre seguridad social",
       "instructions": "Ordena las palabras usando la pasiva continua impersonal.",
-      "correctSentence": "[[It|Se]] [[is|está]] [[being|diciendo]] [[said|que]] [[that|el]] [[the|sistema]] [[social|de seguridad]] [[security|social]] [[system|está]] [[is|fallando.]] [[failing.| ]]",
+      "correctSentence": "[[It is being said that the social security system is failing.|Se está diciendo que el sistema de seguridad social está fallando.  ]]",
       "words": [
         "[[is|está]]",
         "[[said|que]]",
@@ -678,7 +678,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Compromiso cívico",
       "instructions": "Ordena las palabras para hablar de participación ciudadana.",
-      "correctSentence": "[[Civic|El compromiso]] [[engagement|cívico]] [[is|es]] [[crucial|crucial]] [[for|para]] [[a|una]] [[healthy|sociedad]] [[and|sana]] [[functioning|y que]] [[society.|funcione.]]",
+      "correctSentence": "[[Civic engagement is crucial for a healthy and functioning society.|El compromiso cívico es crucial para una sociedad sana y que funcione.]]",
       "words": [
         "[[engagement|cívico]]",
         "[[crucial|crucial]]",
@@ -707,7 +707,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "content": {
       "title": "Limpieza urbana",
       "instructions": "Ordena las palabras usando la forma causal continua.",
-      "correctSentence": "[[Local|Las autoridades]] [[authorities|locales]] [[are|están]] [[having|haciendo]] [[the|que]] [[graffiti|se eliminen]] [[removed|los]] [[from|grafitis]] [[the|del]] [[city|centro]] [[center.|de la ciudad.]]",
+      "correctSentence": "[[Local authorities are having the graffiti removed from the city center.|Las autoridades locales están haciendo que se eliminen los grafitis del centro de la ciudad.]]",
       "words": [
         "[[authorities|locales]]",
         "[[having|haciendo]]",
@@ -741,7 +741,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma pasiva impersonal correcta.",
       "questions": [
         {
-          "question": "_______ _______ [[believed|Se cree]] [[that|que]] [[the|la]] [[protest|protesta]] [[was|fue]] [[organized|organizada]] [[by|por]] [[student|grupos]] [[groups.|estudiantiles.]]",
+          "question": "_______ _______ [[believed that the protest was organized by student groups.|Se cree que la protesta fue organizada por grupos estudiantiles.]]",
           "options": ["[[It is|Se (pasiva impersonal)]]", "[[They are|Ellos son]]", "[[There is|Hay]]"],
           "correctAnswer": 0,
           "explanation": "'It is believed that' es la forma estándar para reportar creencias sin especificar quién cree.",
@@ -764,7 +764,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la separación entre clases sociales.",
       "questions": [
         {
-          "question": "[[The|La]] _______ [[between|entre]] [[the|los]] [[rich|ricos]] [[and|y]] [[the|los]] [[poor|pobres]] [[is|se está]] [[widening.|ensanchando.]]",
+          "question": "[[The the rich and the poor is widening.|La]] _______ [[between|entre los ricos y los pobres se está ensanchando.]]",
           "options": ["[[divide|brecha / división]]", "[[bridge|puente]]", "[[merger|fusión]]"],
           "correctAnswer": 0,
           "explanation": "'The divide' se refiere a la gran diferencia socioeconómica.",
@@ -787,7 +787,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta con 'get someone to do'.",
       "questions": [
         {
-          "question": "[[The|Los]] [[activists|activistas]] [[got|lograron]] [[the|que el]] [[mayor|alcalde]] _______ [[sign|firmara]] [[the|el]] [[new|nuevo]] [[environmental|pacto]] [[pact.|ambiental.]]",
+          "question": "[[The activists got the mayor the new environmental|Los activistas lograron que el alcalde]] _______ [[sign pact.|firmara el nuevo pacto ambiental.]]",
           "options": ["[[to sign|firmara (infinitivo con to)]]", "[[signing|firmando]]", "[[signed|firmado]]"],
           "correctAnswer": 0,
           "explanation": "La estructura causal 'get + persona' requiere 'to + infinitivo'.",
@@ -810,7 +810,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para las ayudas estatales.",
       "questions": [
         {
-          "question": "_______ [[refers|El bienestar social]] [[to|se refiere]] [[government|a programas]] [[programs|del gobierno]] [[that|que]] [[help|ayudan]] [[people|a personas]] [[in| ]] [[need.|necesitadas.]]",
+          "question": "_______ [[refers to government programs that help people in need.|El bienestar social se refiere a programas del gobierno que ayudan a personas   necesitadas.]]",
           "options": ["[[Welfare|Bienestar social]]", "[[Taxation|Impuestos]]", "[[Profit|Beneficio]]"],
           "correctAnswer": 0,
           "explanation": "'Welfare' son las ayudas económicas y servicios para los menos favorecidos.",
@@ -833,7 +833,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma de pasiva continua.",
       "questions": [
         {
-          "question": "[[A|Un]] [[new|nuevo]] [[hospital|hospital]] _______ _______ _______ [[to|para]] [[serve|servir]] [[the|a la]] [[rural|comunidad]] [[community.|rural.]]",
+          "question": "[[A new hospital serve community.|Un nuevo hospital]] _______ _______ _______ [[to the rural|para servir a la comunidad rural.]]",
           "options": ["[[is being built|está siendo construido]]", "[[is building|está construyendo]]", "[[has built|ha construido]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'is being built' para algo que está en construcción en este momento.",
@@ -856,7 +856,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la supresión de la libertad de expresión.",
       "questions": [
         {
-          "question": "_______ [[is|La censura]] [[the|es la]] [[suppression|supresión]] [[of|de la]] [[speech|palabra]] [[or|o]] [[public|comunicación]] [[communication.|pública.]]",
+          "question": "_______ [[is the suppression of speech or public communication.|La censura es la supresión de la palabra o comunicación pública.]]",
           "options": ["[[Censorship|Censura]]", "[[Leadership|Liderazgo]]", "[[Sponsorship|Patrocinio]]"],
           "correctAnswer": 0,
           "explanation": "'Censorship' impide la libre circulación de ideas.",
@@ -879,7 +879,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de 'have something done'.",
       "questions": [
         {
-          "question": "[[The|La]] [[company|empresa]] _______ [[its|vio su]] [[reputation|reputación]] _______ [[by|arruinada por]] [[the|el]] [[environmental|escándalo]] [[scandal.|ambiental.]]",
+          "question": "[[The company environmental scandal.|La empresa]] _______ [[its reputation|vio su reputación]] _______ [[by the|arruinada por el escándalo ambiental.]]",
           "options": ["[[had / ruined|tuvo / arruinada]]", "[[has / ruin|tiene / arruinar]]", "[[is / ruining|está / arruinando]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'had + algo + participio' para reportar un infortunio.",
@@ -902,7 +902,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término que significa opinión negativa preconcebida.",
       "questions": [
         {
-          "question": "_______ [[can|El prejuicio]] [[lead|puede]] [[to|llevar]] [[unfair|al trato]] [[treatment|injusto]] [[of|de]] [[certain|ciertos]] [[groups.|grupos.]]",
+          "question": "_______ [[can lead to unfair treatment of certain groups.|El prejuicio puede llevar al trato injusto de ciertos grupos.]]",
           "options": ["[[Prejudice|Prejuicio]]", "[[Justice|Justicia]]", "[[Kindness|Bondad]]"],
           "correctAnswer": 0,
           "explanation": "'Prejudice' es juzgar a alguien antes de conocerlo, basándose en estereotipos.",
@@ -925,7 +925,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma de pasiva perfecta impersonal.",
       "questions": [
         {
-          "question": "[[It|Se]] _______ _______ _______ [[that|informado]] [[the|que]] [[situation|la situación]] [[is|está]] [[now|ahora]] [[under|bajo]] [[control.|control.]]",
+          "question": "[[It the situation is now under control.|Se]] _______ _______ _______ [[that|informado que la situación está ahora bajo control.]]",
           "options": ["[[has been reported|ha sido informado]]", "[[was reported|fue informado]]", "[[is reported|es informado]]"],
           "correctAnswer": 0,
           "explanation": "'It has been reported that' se usa para noticias recientes.",
@@ -948,7 +948,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la protesta comercial.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[is|es]] [[an|un]] [[act|acto]] [[of|de]] [[voluntary|abstención]] [[abstention|voluntaria]] [[from|del]] [[using|uso de]] [[a|un]] [[product.|producto.]]",
+          "question": "[[A an act of voluntary abstention from using a product.|Un]] _______ [[is|es un acto de abstención voluntaria del uso de un producto.]]",
           "options": ["[[boycott|boicot]]", "[[purchase|compra]]", "[[donation|donación]]"],
           "correctAnswer": 0,
           "explanation": "'Boycott' se usa a menudo como herramienta de presión política o social.",
@@ -971,7 +971,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de 'have something done'.",
       "questions": [
         {
-          "question": "[[The|El]] [[president|presidente]] [[should|debería]] [[have|hacer]] [[his|que su]] [[security|equipo de]] [[team|seguridad]] _______ [[increased.|sea aumentado.]]",
+          "question": "[[The president should have his security team|El presidente debería hacer que su equipo de seguridad]] _______ [[increased.|sea aumentado.]]",
           "options": ["[[increased|aumentado (participio)]]", "[[increase|aumentar]]", "[[increasing|aumentando]]"],
           "correctAnswer": 0,
           "explanation": "Estructura causal: 'have + object + past participle'.",
@@ -994,7 +994,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa debilitar o socavar.",
       "questions": [
         {
-          "question": "[[Corruption|La corrupción]] _______ [[the|la]] [[trust|confianza]] [[of|de]] [[the|los]] [[citizens.|ciudadanos.]]",
+          "question": "[[Corruption trust of the citizens.|La corrupción]] _______ [[the|la confianza de los ciudadanos.]]",
           "options": ["[[undermines|socava / debilita]]", "[[strengthens|fortalece]]", "[[creates|crea]]"],
           "correctAnswer": 0,
           "explanation": "'Undermine' se usa figuradamente para decir que algo daña los cimientos de otra cosa.",
@@ -1017,7 +1017,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma pasiva continua correcta.",
       "questions": [
         {
-          "question": "[[Millions|Millones]] [[of|de]] [[tons|toneladas]] [[of|de]] [[CO2|CO2]] _______ _______ _______ [[into|a]] [[the|la]] [[atmosphere.|atmósfera.]]",
+          "question": "[[Millions of tons of CO2 the atmosphere.|Millones de toneladas de CO2]] _______ _______ _______ [[into|a la atmósfera.]]",
           "options": ["[[are being emitted|están siendo emitidas]]", "[[have emitted|han emitido]]", "[[were emitting|estaban emitiendo]]"],
           "correctAnswer": 0,
           "explanation": "Pasiva continua para un proceso global en curso.",
@@ -1040,7 +1040,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término que significa reducción del sufrimiento o gravedad.",
       "questions": [
         {
-          "question": "[[Poverty|La]] _______ [[of|de la]] [[poverty|pobreza]] [[is|es]] [[a|una]] [[major|gran]] [[goal.|meta.]]",
+          "question": "[[Poverty poverty is a major goal.|La]] _______ [[of|de la pobreza es una gran meta.]]",
           "options": ["[[alleviation|alivio / mitigación]]", "[[acceleration|aceleración]]", "[[celebration|celebración]]"],
           "correctAnswer": 0,
           "explanation": "'Alleviation' viene del verbo 'alleviate' (aliviar).",
@@ -1063,7 +1063,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de 'have something done'.",
       "questions": [
         {
-          "question": "[[The|Los]] [[activists|activistas]] _______ [[the|hicieron]] [[billboard|que la valla]] _______ _______ [[by|por]] [[the|las]] [[authorities.|autoridades.]]",
+          "question": "[[The activists authorities.|Los activistas]] _______ [[the billboard|hicieron que la valla]] _______ _______ [[by the|por las autoridades.]]",
           "options": ["[[had / removed|tuvieron / retirada]]", "[[got / remove|lograron / retirar]]", "[[made / remove|hicieron / retirar]]"],
           "correctAnswer": 0,
           "explanation": "'Had + object + past participle' indica que causaron que otro hiciera el trabajo.",
@@ -1086,7 +1086,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la capacidad de leer y escribir.",
       "questions": [
         {
-          "question": "_______ [[rates|Las tasas de alfabetización]] [[are|son]] [[an|un]] [[indicator|indicador]] [[of|del]] [[educational|nivel]] [[level.|educativo.]]",
+          "question": "_______ [[rates are an indicator of educational level.|Las tasas de alfabetización son un indicador del nivel educativo.]]",
           "options": ["[[Literacy|Alfabetización]]", "[[Illiteracy|Analfabetismo]]", "[[Arithmetic|Aritmética]]"],
           "correctAnswer": 0,
           "explanation": "'Literacy' es la habilidad de leer y escribir.",
@@ -1109,7 +1109,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma pasiva impersonal correcta.",
       "questions": [
         {
-          "question": "[[It|Se]] _______ _______ [[that|entiende]] [[the|que el]] [[treaty|tratado]] [[will|será]] [[be|firmado]] [[signed|el]] [[next|próximo]] [[month.|mes.]]",
+          "question": "[[It the treaty will be signed next month.|Se]] _______ _______ [[that|entiende que el tratado será firmado el próximo mes.]]",
           "options": ["[[is understood|entiende (pasiva)]]", "[[has understood|ha entendido]]", "[[understands|entiende (activa)]]"],
           "correctAnswer": 0,
           "explanation": "'It is understood that' indica una creencia basada en información disponible.",
@@ -1132,7 +1132,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo para la ayuda basada en la compasión humana.",
       "questions": [
         {
-          "question": "_______ [[aid|La ayuda humanitaria]] [[is|es]] [[provided|proporcionada]] [[to|a]] [[countries|países]] [[in|en]] [[times|tiempos]] [[of|de]] [[crisis.|crisis.]]",
+          "question": "_______ [[aid is provided to countries in times of crisis.|La ayuda humanitaria es proporcionada a países en tiempos de crisis.]]",
           "options": ["[[Humanitarian|Humanitaria]]", "[[Military|Militar]]", "[[Financial|Financiera]]"],
           "correctAnswer": 0,
           "explanation": "'Humanitarian aid' incluye comida, refugio y medicinas.",
@@ -1155,7 +1155,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de 'have something done'.",
       "questions": [
         {
-          "question": "[[The|El]] [[neighborhood|barrio]] _______ _______ _______ [[park|su parque]] _______ [[by|renovado por]] [[volunteers.|voluntarios.]]",
+          "question": "[[The neighborhood|El barrio]] _______ _______ _______ [[park volunteers.|su parque]] _______ [[by|renovado por voluntarios.]]",
           "options": ["[[is having its / renovated|está haciendo / renovado]]", "[[has its / renovate|tiene su / renovar]]", "[[is renovating its / park|está renovando su / parque]]"],
           "correctAnswer": 0,
           "explanation": "'Is having something renovated' indica que la acción está en curso.",
@@ -1178,7 +1178,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el proceso de ganar confianza y poder.",
       "questions": [
         {
-          "question": "_______ [[is|El empoderamiento]] [[the|es el]] [[process|proceso]] [[of|de]] [[becoming|volverse]] [[stronger.|más fuerte.]]",
+          "question": "_______ [[is the process of becoming stronger.|El empoderamiento es el proceso de volverse más fuerte.]]",
           "options": ["[[Empowerment|Empoderamiento]]", "[[Discouragement|Desánimo]]", "[[Management|Gestión]]"],
           "correctAnswer": 0,
           "explanation": "'Empowerment' se usa mucho en contextos de igualdad y derechos civiles.",
@@ -1201,7 +1201,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el participio correcto para reportar una acusación sin pruebas.",
       "questions": [
         {
-          "question": "[[It|Se]] [[is| ]] _______ [[that|alega que]] [[the|los]] [[funds|fondos]] [[were|fueron]] [[misused.|mal utilizados.]]",
+          "question": "[[It is funds were misused.|Se  ]] _______ [[that the|alega que los fondos fueron mal utilizados.]]",
           "options": ["[[alleged|alega (presuntamente)]]", "[[denied|niega]]", "[[known|sabe]]"],
           "correctAnswer": 0,
           "explanation": "'It is alleged that' se usa cuando se hace una acusación que aún no ha sido probada.",
@@ -1224,7 +1224,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la higiene pública y eliminación de residuos.",
       "questions": [
         {
-          "question": "_______ [[is|El saneamiento]] [[the|es la]] [[provision|provisión]] [[of|de]] [[clean|agua]] [[water|limpia.]]",
+          "question": "_______ [[is the provision of clean water|El saneamiento es la provisión de agua limpia.]]",
           "options": ["[[Sanitation|Saneamiento]]", "[[Pollution|Contaminación]]", "[[Congestion|Congestión]]"],
           "correctAnswer": 0,
           "explanation": "'Sanitation' es fundamental para la salud pública.",
@@ -1247,7 +1247,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta tras 'got + person'.",
       "questions": [
         {
-          "question": "[[The|Los]] [[residents|residentes]] [[got|lograron]] [[the|que la]] [[company|empresa]] _______ [[stop|parara]] [[the|el]] [[noise|ruido.]]",
+          "question": "[[The residents got the company the noise|Los residentes lograron que la empresa]] _______ [[stop|parara el ruido.]]",
           "options": ["[[to stop|parara (infinitivo con to)]]", "[[stopping|parando]]", "[[stopped|parado]]"],
           "correctAnswer": 0,
           "explanation": "Causal 'get someone TO do something'.",
@@ -1270,7 +1270,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el apoyo activo a una causa social.",
       "questions": [
         {
-          "question": "_______ [[is|La defensa / apoyo]] [[public|es el]] [[support|apoyo público]] [[for|a]] [[a|una]] [[cause.|causa.]]",
+          "question": "_______ [[is public support for a cause.|La defensa / apoyo es el apoyo público a una causa.]]",
           "options": ["[[Advocacy|Defensa / Apoyo activo]]", "[[Apathy|Apatía]]", "[[Hostility|Hostilidad]]"],
           "correctAnswer": 0,
           "explanation": "'Advocacy' implica actuar a favor de los derechos de otros.",
@@ -1293,7 +1293,7 @@ export const UNIT_23_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma pasiva impersonal correcta.",
       "questions": [
         {
-          "question": "[[It|Se]] _______ [[known|sabe]] [[that|que]] [[the|el]] [[climate|cambio]] [[change|climático]] [[is|se está]] [[accelerating.|acelerando.]]",
+          "question": "[[It that the climate change is accelerating.|Se]] _______ [[known|sabe que el cambio climático se está acelerando.]]",
           "options": ["[[is|es (pasiva)]]", "[[has|ha]]", "[[was|fue]]"],
           "correctAnswer": 0,
           "explanation": "'It is known that' se usa para hechos científicos o verdades aceptadas.",

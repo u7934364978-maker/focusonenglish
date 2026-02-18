@@ -14,7 +14,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Elija la opción correcta para completar la frase.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[breakfast|desayuno]] [[at|a]] [[the|la]] [[same|misma]] [[time|hora]] [[every|cada]] [[day|día]].",
+          "question": "[[He at the same time every day|Él]] _______ [[breakfast|desayuno a la misma hora cada día]].",
           "options": [
             "[[eats|come]]",
             "[[is|está]]"
@@ -40,7 +40,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Seleccione la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[discussing|discutiendo]] [[the|el]] [[new|nuevo]] [[project|proyecto]] [[in|en]] [[the|la]] [[office|oficina]].",
+          "question": "[[They the new project in the office|Ellos]] _______ [[discussing|discutiendo el nuevo proyecto en la oficina]].",
           "options": [
             "[[are|están]]",
             "[[discuss|discuten]]"
@@ -66,7 +66,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción que completa correctamente la frase.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[rarely|rara]] _______ [[to|a]] [[the|el]] [[gym|gimnasio]], [[although|aunque]] [[it's|está]] [[nearby|cerca]].",
+          "question": "[[She rarely, although gym it's nearby|Ella rara]] _______ [[to the|a el gimnasio, aunque está cerca]].",
           "options": [
             "[[goes|va]]",
             "[[is|está]]"
@@ -92,7 +92,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Seleccione la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[planning|planeando]] [[a|un]] [[trip|viaje]] [[despite|a pesar]] [[the|del]] [[weather|clima]].",
+          "question": "[[We a trip despite the weather|Nosotros]] _______ [[planning|planeando un viaje a pesar del clima]].",
           "options": [
             "[[are|estamos]]",
             "[[plan|planificamos]]"
@@ -118,7 +118,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Mark|Mark]] _______ [[studies|estudia]] [[every|cada]] [[evening|tarde]], [[unlike|a diferencia]] [[his|de su]] [[brother|hermano]].",
+          "question": "[[Mark every, unlike evening his brother|Mark]] _______ [[studies|estudia cada tarde, a diferencia de su hermano]].",
           "options": [
             "[[studies|estudia]]",
             "[[is|está]]"
@@ -144,7 +144,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Even|Aunque]] [[though|si]] [[I|yo]] _______ [[eat|como]] [[out|fuera]], [[I|yo]] [[am|estoy]] [[having|teniendo]] [[dinner|cena]] [[at|en]] [[a|un]] [[restaurant|restaurante]] [[tonight|esta noche]].",
+          "question": "[[Even though, I am I out at a restaurant tonight|Aunque si yo]] _______ [[eat having dinner|como fuera, yo estoy teniendo cena en un restaurante esta noche]].",
           "options": [
             "[[rarely|raramente]]",
             "[[now|ahora]]"
@@ -170,7 +170,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Rellena el espacio con la opción más adecuada.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[she|ella]] _______ [[preparing|preparando]] [[a|una]] [[presentation|presentación]], [[she|ella]] [[usually|usualmente]] [[works|trabaja]] [[on|en]] [[her|sus]] [[reports|informes]] [[in|por]] [[the|la]] [[afternoon|tarde]].",
+          "question": "[[Although she, she presentation usually works on her reports in the afternoon|Aunque ella]] _______ [[preparing a|preparando una presentación, ella usualmente trabaja en sus informes por la tarde]].",
           "options": [
             "[[is|está]]",
             "[[does|hace]]"
@@ -196,7 +196,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[working|trabajar]] [[full-time|a tiempo completo]], [[he|él]] _______ [[taking|tomando]] [[a|un]] [[part-time|a tiempo parcial]] [[course|curso]].",
+          "question": "[[Despite working, he full-time a|A pesar de trabajar a tiempo completo, él]] _______ [[taking part-time course|tomando un a tiempo parcial curso]].",
           "options": [
             "[[is|está]]",
             "[[does|hace]]"
@@ -222,7 +222,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Completa usando la opción adecuada.",
       "questions": [
         {
-          "question": "[[He|Él]] [[complains|se queja]] _______ [[his|de sus]] [[neighbors|vecinos]], [[although|aunque]] [[he|él]] [[enjoys|disfruta]] [[living|viviendo]] [[in|en]] [[the|la]] [[city|ciudad]].",
+          "question": "[[He complains, although he enjoys living in the city|Él se queja]] _______ [[his neighbors|de sus vecinos, aunque él disfruta viviendo en la ciudad]].",
           "options": [
             "[[about|sobre]]",
             "[[for|por]]"
@@ -248,7 +248,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Llena el espacio con la opción correcta basada en el contexto.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[considering|considerando]] [[a|un]] [[career|cambio de carrera]] [[change|cambio]] [[because|porque]] [[her|su]] [[current|actual]] [[job|trabajo]] [[is|es]] _______ [[challenging|desafiante]] [[enough|suficientemente]].",
+          "question": "[[She a career change because her current job is enough|Ella]] _______ [[considering|considerando un cambio de carrera cambio porque su actual trabajo es]] _______ [[challenging|desafiante suficientemente]].",
           "options": [
             "[[is|está]]",
             "[[does|hace]]"
@@ -272,7 +272,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[she|ella]] [[enjoys|disfruta]] [[her|su]] [[job|trabajo]], [[she|ella]] [[is|está]] [[considering|considerando]] [[changing|cambiar]] [[her|su]] [[career|carrera]] [[path|profesional]].",
+      "correctSentence": "[[Although she, she enjoys her job is considering changing her career path|Aunque ella disfruta su trabajo, ella está considerando cambiar su carrera profesional]].",
       "words": [
         "[[considers|considera]]",
         "[[job|trabajo]],",
@@ -302,7 +302,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[the|los]] [[challenges|retos]], [[they|ellos]] [[are|están]] [[making|haciendo]] [[significant|significativos]] [[progress|progresos]].",
+      "correctSentence": "[[Despite the, they challenges are making significant progress|A pesar de los retos, ellos están haciendo significativos progresos]].",
       "words": [
         "[[progress|progresos]].",
         "[[Despite|A pesar de]]",
@@ -329,7 +329,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[usually|normalmente]] [[travels|viaja]] [[by|en]] [[train|tren]], [[but|pero]] [[today|hoy]] [[he|él]] [[is|está]] [[driving|conduciendo]].",
+      "correctSentence": "[[He usually, but travels by train today he is driving|Él normalmente viaja en tren, pero hoy él está conduciendo]].",
       "words": [
         "[[but|pero]]",
         "[[today|hoy]]",
@@ -358,7 +358,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[While|Mientras]] [[studying|estudia]] [[sociology|sociología]], [[she|ella]] [[also|también]] [[works|trabaja]] [[part-time|a tiempo parcial]] [[at|en]] [[a|un]] [[cafe|café]].",
+      "correctSentence": "[[While studying, she sociology also works part-time at a cafe|Mientras estudia sociología, ella también trabaja a tiempo parcial en un café]].",
       "words": [
         "[[studying|estudia]]",
         "[[While|Mientras]]",
@@ -387,7 +387,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[are|están]] [[discussing|discutiendo]] [[new|nuevas]] [[technology|tecnológicas]] [[trends|tendencias]] [[as|mientras]] [[they|ellos]] [[plan|planean]] [[their|su]] [[project|proyecto]].",
+      "correctSentence": "[[They are discussing new technology trends as they plan their project|Ellos están discutiendo nuevas tecnológicas tendencias mientras ellos planean su proyecto]].",
       "words": [
         "[[plan|planean]]",
         "[[as|mientras]]",
@@ -419,7 +419,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[attending|asistiendo]] [[a|un]] [[course|curso]] [[on|sobre]] [[modern|moderno]] [[art|arte]].",
+          "question": "[[He a course on modern art|Él]] _______ [[attending|asistiendo un curso sobre moderno arte]].",
           "options": [
             "[[is|está]]",
             "[[attends|asiste]]"
@@ -445,7 +445,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[often|a menudo]] _______ [[discuss|discuten]] [[new|nuevas]] [[social|sociales]] [[trends|tendencias]].",
+          "question": "[[They often social trends|Ellos a menudo]] _______ [[discuss new|discuten nuevas sociales tendencias]].",
           "options": [
             "[[discuss|discuten]]",
             "[[are|están]]"
@@ -471,7 +471,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[she|ella]] _______ [[hard|duramente]], [[she|ella]] [[is|está]] [[enjoying|disfrutando]] [[her|su]] [[free|libre]] [[time|tiempo]].",
+          "question": "[[Although she, she enjoying her free time|Aunque ella]] _______ [[hard is|duramente, ella está disfrutando su libre tiempo]].",
           "options": [
             "[[works|trabaja]]",
             "[[is|está]]"
@@ -497,7 +497,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[we|nosotros]] _______ [[having|teniendo]] [[a|un]] [[great|gran]] [[time|momento]].",
+          "question": "[[Despite the, we rain a|A pesar de la lluvia, nosotros]] _______ [[having great time|teniendo un gran momento]].",
           "options": [
             "[[are|estamos]]",
             "[[have|tenemos]]"
@@ -523,7 +523,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Is|Está]] [[he|él]] _______ [[from|desde]] [[the|la]] [[office|oficina]] [[today|hoy]]?",
+          "question": "[[Is he office today|Está él]] _______ [[from the|desde la oficina hoy]]?",
           "options": [
             "[[working|trabajando]]",
             "[[works|trabaja]]"
@@ -549,7 +549,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[Even|Aunque]] [[though|aunque]] [[she|ella]] _______ [[in|en]] [[marketing|marketing]], [[she|ella]] [[is|está]] [[studying|estudiando]] [[to|para]] [[become|convertirse]] [[a|una]] [[psychologist|psicóloga]].",
+          "question": "[[Even though, she is she marketing become a psychologist|Aunque aunque ella]] _______ [[in studying to|en marketing, ella está estudiando para convertirse una psicóloga]].",
           "options": [
             "[[works|trabaja]]",
             "[[is|está]]"
@@ -575,7 +575,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[their|sus]] [[busy|ocupadas]] [[schedules|horarios]], [[they|ellos/ellas]] _______ [[for|para]] [[lunch|almuerzo]] [[tomorrow|mañana]].",
+          "question": "[[Despite their, they lunch busy schedules|A pesar de sus ocupadas horarios, ellos/ellas]] _______ [[for tomorrow|para almuerzo mañana]].",
           "options": [
             "[[are|están]]",
             "[[meet|se reúnen]]"
@@ -601,7 +601,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[often|a menudo]] _______ [[articles|artículos]] [[for|para]] [[the|el]] [[local|local]] [[newspaper|periódico]].",
+          "question": "[[She often the local newspaper|Ella a menudo]] _______ [[articles for|artículos para el local periódico]].",
           "options": [
             "[[writes|escribe]]",
             "[[is|está]]"
@@ -627,7 +627,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|estoy]] _______ [[working|trabajando]] [[on|en]] [[a|un]] [[major|grande]] [[project|proyecto]] [[at|en]] [[the|la]] [[university|universidad]].",
+          "question": "[[I am a major project at the university|Yo estoy]] _______ [[working on|trabajando en un grande proyecto en la universidad]].",
           "options": [
             "[[currently|actualmente]]",
             "[[usually|usualmente]]"
@@ -653,7 +653,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[They|Ellos/ellas]] _______ [[travel|viajan]] [[abroad|al extranjero]] [[once|una vez]] [[a|al]] [[year|año]].",
+          "question": "[[They abroad once a year|Ellos/ellas]] _______ [[travel|viajan al extranjero una vez al año]].",
           "options": [
             "[[usually|usualmente]]",
             "[[are|están]]"
@@ -677,7 +677,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[John|John]] [[works|trabaja]] [[in|en]] [[a|una]] [[busy|ocupada]] [[office|oficina]], [[he|él]] [[is|está]] [[studying|estudiando]] [[for|para]] [[his|su]] [[MBA|MBA]].",
+      "correctSentence": "[[Although John, he works in a busy office is studying for his MBA|Aunque John trabaja en una ocupada oficina, él está estudiando para su MBA]].",
       "words": [
         "[[studying|estudiando]]",
         "[[Although|Aunque]]",
@@ -709,7 +709,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[they|ellos]] [[are|están]] [[having|teniendo]] [[a|un]] [[picnic|picnic]].",
+      "correctSentence": "[[Despite the, they rain are having a picnic|A pesar de la lluvia, ellos están teniendo un picnic]].",
       "words": [
         "[[the|la]]",
         "[[Despite|A pesar de]]",
@@ -736,7 +736,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Sarah|Sarah]] [[does|no]] [[not|no]] [[usually|suele]] [[attend|asistir]] [[these|a estas]] [[meetings|reuniones]], [[but|pero]] [[she|ella]] [[is|está]] [[going|yendo]] [[today|hoy]].",
+      "correctSentence": "[[Sarah does, but not usually attend these meetings she is going today|Sarah no no suele asistir a estas reuniones, pero ella está yendo hoy]].",
       "words": [
         "[[attend|asistir]]",
         "[[Sarah|Sarah]]",
@@ -768,7 +768,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Even|Aunque]] [[though|si]] [[he|él]] [[usually|usualmente]] [[works|trabaja]] [[late|tarde]], [[tonight|esta noche]] [[he|él]] [[is|está]] [[leaving|saliendo]] [[early|temprano]].",
+      "correctSentence": "[[Even though, tonight he he usually works late is leaving early|Aunque si él usualmente trabaja tarde, esta noche él está saliendo temprano]].",
       "words": [
         "[[works|trabaja]]",
         "[[is|está]]",
@@ -797,7 +797,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Many|Muchas]] [[people|personas]] [[are|están]] [[changing|cambiando]] [[their|sus]] [[lifestyles|estilos de vida]] [[because|porque]] [[social|sociales]] [[norms|normas]] [[are|están]] [[evolving|evolucionando]].",
+      "correctSentence": "[[Many people are changing their lifestyles because social norms are evolving|Muchas personas están cambiando sus estilos de vida porque sociales normas están evolucionando]].",
       "words": [
         "[[lifestyles|estilos de vida]]",
         "[[Many|Muchas]]",
@@ -829,9 +829,9 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[she|ella]] [[usually|normalmente]] [[travels|viaja]] [[by|en]] [[car|coche]], [[she|ella]] _______ [[the|el]] [[bus|autobús]] [[today|hoy]].",
+          "question": "[[Although she, she bus usually travels by car today|Aunque ella normalmente viaja en coche, ella]] _______ [[the|el autobús hoy]].",
           "options": [
-            "[[is|está]] [[taking|tomando]]",
+            "[[is taking|está tomando]]",
             "[[takes|toma]]"
           ],
           "correctAnswer": 0,
@@ -855,9 +855,9 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción que completa correctamente la frase.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[they|ellos]] _______ [[tennis|tenis]] [[outside|afuera]].",
+          "question": "[[Despite the, they rain outside|A pesar de la lluvia, ellos]] _______ [[tennis|tenis afuera]].",
           "options": [
-            "[[are|están]] [[playing|jugando]]",
+            "[[are playing|están jugando]]",
             "[[play|juegan]]"
           ],
           "correctAnswer": 0,
@@ -881,9 +881,9 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Even|Aunque]] [[though|sí]] [[he|él]] [[often|frecuentemente]] [[works|trabaja]] [[from|desde]] [[the|la]] [[library|biblioteca]], _______ [[from|desde]] [[home|casa]] [[today|hoy]].",
+          "question": "[[Even though he often works from the library|Aunque sí él frecuentemente trabaja desde la biblioteca]], _______ [[from home today|desde casa hoy]].",
           "options": [
-            "[[is|está]] [[working|trabajando]]",
+            "[[is working|está trabajando]]",
             "[[works|trabaja]]"
           ],
           "correctAnswer": 0,
@@ -907,9 +907,9 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción que completa correctamente la frase.",
       "questions": [
         {
-          "question": "[[He|Él]] [[rarely|rara vez]] [[eats|come]] [[out|fuera]], [[but|pero]] _______ [[dinner|cena]] [[at|en]] [[a|un]] [[restaurant|restaurante]] [[tonight|esta noche]].",
+          "question": "[[He rarely, but at eats out tonight|Él rara vez come fuera, pero]] _______ [[dinner a restaurant|cena en un restaurante esta noche]].",
           "options": [
-            "[[is|está]] [[having|cenando]]",
+            "[[is having|está cenando]]",
             "[[has|tiene]]"
           ],
           "correctAnswer": 0,
@@ -933,7 +933,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la frase.",
       "questions": [
         {
-          "question": "[[While|Aunque]] [[she|ella]] [[enjoys|disfruta]] [[reading|leyendo]] [[books|libros]], _______ [[listening|escuchando]] [[to|a]] [[an|un]] [[audiobook|audiolibro]] [[now|ahora]].",
+          "question": "[[While she enjoys reading books to an audiobook|Aunque ella disfruta leyendo libros]], _______ [[listening now|escuchando a un audiolibro ahora]].",
           "options": [
             "[[is|está]]",
             "[[enjoys|disfruta]]"
@@ -959,7 +959,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase usando la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[enjoying|disfrutar]] [[his|su]] [[job|trabajo]], [[he|él]] _______ [[considering|considerando]] [[a|una]] [[new|nueva]] [[opportunity|oportunidad]].",
+          "question": "[[Despite enjoying, he a his job|A pesar de disfrutar su trabajo, él]] _______ [[considering new opportunity|considerando una nueva oportunidad]].",
           "options": [
             "[[is|está]]",
             "[[does|hace]]"
@@ -985,7 +985,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase usando la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[Maria|Maria]] [[usually|normalmente]] _______ [[takes|toma]] [[the|el]] [[bus|autobús]] [[to|al]] [[work|trabajo]], [[but|pero]] [[today|hoy]] [[she|ella]] _______ [[driving|conduciendo]].",
+          "question": "[[Maria usually, but bus to work today she|Maria normalmente]] _______ [[takes the|toma el autobús al trabajo, pero hoy ella]] _______ [[driving|conduciendo]].",
           "options": [
             "[[takes|toma]]",
             "[[is|está]]"
@@ -1011,7 +1011,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase usando la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[he|él]] _______ [[works|trabaja]] [[in|en]] [[the|la]] [[city|ciudad]], [[he|él]] _______ [[currently|actualmente]] [[traveling|viajando]] [[abroad|al extranjero]].",
+          "question": "[[Although he, he traveling the city|Aunque él]] _______ [[works in|trabaja en la ciudad, él]] _______ [[currently abroad|actualmente viajando al extranjero]].",
           "options": [
             "[[works|trabaja]]",
             "[[is|está]]"
@@ -1037,7 +1037,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase usando la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[He|Él]] [[often|a menudo]] _______ [[reads|lee]] [[in|en]] [[the|las]] [[evenings|noches]], [[but|pero]] [[this|esta]] [[week|semana]] [[he|él]] _______ [[watching|viendo]] [[a|una]] [[series|serie]].",
+          "question": "[[He often, but this the evenings week he series|Él a menudo]] _______ [[reads in|lee en las noches, pero esta semana él]] _______ [[watching a|viendo una serie]].",
           "options": [
             "[[reads|lee]]",
             "[[is|está]]"
@@ -1063,7 +1063,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase usando la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[believes|cree]] [[in|en]] [[healthy|una vida saludable]], [[although|aunque]] [[she|ella]] _______ [[eating|comiendo]] [[more|más]] [[junk|comida]] [[food|chatarra]] [[these|estos]] [[days|días]].",
+          "question": "[[She in, although healthy she these days|Ella]] _______ [[believes|cree en una vida saludable, aunque ella]] _______ [[eating more junk food|comiendo más comida chatarra estos días]].",
           "options": [
             "[[believes|cree]]",
             "[[is|está]]"
@@ -1087,7 +1087,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[he|él]] [[usually|normalmente]] [[eats|come]] [[at|en]] [[home|casa]], [[today|hoy]] [[he|él]] [[is|está]] [[dining|cenando]] [[out|fuera]] [[with|con]] [[friends|amigos]].",
+      "correctSentence": "[[Although he, today he usually eats at home is dining out with friends|Aunque él normalmente come en casa, hoy él está cenando fuera con amigos]].",
       "words": [
         "[[Although|Aunque]]",
         "[[dining|cenando]]",
@@ -1118,7 +1118,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[often|a menudo]] [[travels|viaja]] [[for|por]] [[work|trabajo]], [[but|pero]] [[she|ella]] [[is|está]] [[working|trabajando]] [[from|desde]] [[the|la]] [[office|oficina]] [[this|esta]] [[week|semana]].",
+      "correctSentence": "[[She often, but travels for work she is working from the office this week|Ella a menudo viaja por trabajo, pero ella está trabajando desde la oficina esta semana]].",
       "words": [
         "[[but|pero]]",
         "[[travels|viaja]]",
@@ -1150,7 +1150,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[his|su]] [[busy|ocupada]] [[schedule|agenda]], [[he|él]] [[is|está]] [[taking|tomando]] [[a|una]] [[language|idioma]] [[class|clase]] [[every|cada]] [[Wednesday|miércoles]].",
+      "correctSentence": "[[Despite his, he is busy schedule taking a language class every Wednesday|A pesar de su ocupada agenda, él está tomando una idioma clase cada miércoles]].",
       "words": [
         "[[Despite|A pesar de]]",
         "[[he|él]]",
@@ -1181,7 +1181,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[While|Aunque]] [[they|ellos]] [[usually|normalmente]] [[go|van]] [[jogging|a correr]] [[in|en]] [[the|el]] [[park|parque]], [[today|hoy]] [[they|ellos]] [[are|están]] [[exercising|haciendo ejercicio]] [[at|en]] [[the|el]] [[gym|gimnasio]].",
+      "correctSentence": "[[While they, today they usually go jogging in the park are exercising at the gym|Aunque ellos normalmente van a correr en el parque, hoy ellos están haciendo ejercicio en el gimnasio]].",
       "words": [
         "[[Although|Aunque]]",
         "[[today|hoy]]",
@@ -1213,7 +1213,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Currently|Actualmente]], [[he|él]] [[is|no]] [[not|está]] [[working|trabajando]] [[because|porque]] [[he|él]] [[is|está]] [[on|de]] [[vacation|vacaciones]], [[although|aunque]] [[he|él]] [[usually|normalmente]] [[works|trabaja]] [[very|muy]] [[hard|duro]].",
+      "correctSentence": "[[Currently is, he not working, although because he is on vacation he usually works very hard|Actualmente, él no está trabajando porque él está de vacaciones, aunque él normalmente trabaja muy duro]].",
       "words": [
         "[[Currently|Actualmente]]",
         "[[he|él]]",
@@ -1249,10 +1249,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[The|La]] [[company|empresa]] _______ [[rapidly|rápidamente]] [[this|este]] [[year|año]].",
+          "question": "[[The company year|La empresa]] _______ [[rapidly this|rápidamente este año]].",
           "options": [
             "[[expands|expande]]",
-            "[[is|está]] [[expanding|expandiendo]]"
+            "[[is expanding|está expandiendo]]"
           ],
           "correctAnswer": 1,
           "explanation": "Uso del presente continuo para acciones que están sucediendo actualmente.",
@@ -1275,10 +1275,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra correcta para completar la frase.",
       "questions": [
         {
-          "question": "[[Even|Aunque]] [[though|aunque]] [[he|él]] [[usually|normalmente]] _______ [[breakfast|desayuno]] [[at|en]] [[home|casa]], [[he|él]] [[is|está]] [[eating|comiendo]] [[out|fuera]] [[today|hoy]].",
+          "question": "[[Even though, he he usually eating out today|Aunque aunque él normalmente]] _______ [[breakfast at home is|desayuno en casa, él está comiendo fuera hoy]].",
           "options": [
             "[[eats|come]]",
-            "[[is|está]] [[eating|comiendo]]"
+            "[[is eating|está comiendo]]"
           ],
           "correctAnswer": 0,
           "explanation": "El presente simple se usa para acciones habituales.",
@@ -1301,10 +1301,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración seleccionando la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[a|a]] [[lot|muchos]] [[of|de]] [[conferences|conferencias]], [[but|pero]] [[this|este]] [[month|mes]] [[he|él]] [[is|está]] _______ [[from|desde]] [[the|la]] [[office|oficina]].",
+          "question": "[[He lot, but this of conferences month he is the|Él]] _______ [[a|a muchos de conferencias, pero este mes él está]] _______ [[from office|desde la oficina]].",
           "options": [
             "[[attends|asiste]] / [[working|trabajando]]",
-            "[[is|está]] [[attending|asistiendo]] / [[works|trabaja]]"
+            "[[is attending|está asistiendo]] / [[works|trabaja]]"
           ],
           "correctAnswer": 0,
           "explanation": "El presente simple para hábitos y el presente continuo para acciones temporales.",
@@ -1327,10 +1327,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Escoge la opción adecuada que complete la oración.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[she|ella]] _______ [[coffee|café]], [[she|ella]] [[is|está]] _______ [[it|lo]] [[at|en]] [[the|la]] [[meeting|reunión]].",
+          "question": "[[Although she, she the meeting|Aunque ella]] _______ [[coffee is|café, ella está]] _______ [[it at|lo en la reunión]].",
           "options": [
             "[[dislikes|no le gusta]] / [[drinking|bebiendo]]",
-            "[[is|está]] [[disliking|no le está gustando]] / [[drinks|bebe]]"
+            "[[is disliking|está no le está gustando]] / [[drinks|bebe]]"
           ],
           "correctAnswer": 0,
           "explanation": "Uso del presente simple para estados permanentes y presente continuo para acciones presentes.",
@@ -1353,10 +1353,10 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la forma verbal que complete correctamente la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|el]] [[weather|tiempo]], [[they|ellos]] _______ [[soccer|fútbol]] [[outside|afuera]].",
+          "question": "[[Despite the, they weather outside|A pesar de el tiempo, ellos]] _______ [[soccer|fútbol afuera]].",
           "options": [
             "[[play|juegan]]",
-            "[[are|están]] [[playing|jugando]]"
+            "[[are playing|están jugando]]"
           ],
           "correctAnswer": 1,
           "explanation": "El presente continuo se usa aquí porque describe una acción que ocurre en este momento.",

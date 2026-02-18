@@ -13,7 +13,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de la voz pasiva en pasado.",
       "questions": [
         {
-          "question": "[[The|La]] [[light|bombilla]] [[bulb| ]] _______ [[invented|inventada]] [[by|por]] [[Thomas|Thomas]] [[Edison|Edison]] [[in|en]] [[1879|1879]].",
+          "question": "[[The light bulb by in 1879|La bombilla  ]] _______ [[invented Thomas Edison|inventada por Thomas Edison en 1879]].",
           "options": [
             "[[was|fue]]",
             "[[is|es]]",
@@ -40,7 +40,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra que significa 'dispositivo'.",
       "questions": [
         {
-          "question": "[[Scientists|Los científicos]] [[are|están]] [[developing|desarrollando]] [[a|un]] [[new|nuevo]] _______ [[to|para]] [[improve|mejorar]] [[internet|de internet]] [[speed|la velocidad]].",
+          "question": "[[Scientists are developing a new improve internet speed|Los científicos están desarrollando un nuevo]] _______ [[to|para mejorar de internet la velocidad]].",
           "options": [
             "[[device|dispositivo]]",
             "[[discovery|descubrimiento]]",
@@ -67,7 +67,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración usando el segundo condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[we|nosotros]] [[didn't|no]] [[have|tuviéramos]] [[computers|ordenadores]], [[life|la vida]] _______ [[much|mucho]] [[more|más]] [[difficult|difícil]].",
+          "question": "[[If we, life didn't have computers more difficult|Si nosotros no tuviéramos ordenadores, la vida]] _______ [[much|mucho más difícil]].",
           "options": [
             "[[would be|sería]]",
             "[[will be|será]]",
@@ -94,7 +94,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige el sustantivo que significa 'descubrimiento'.",
       "questions": [
         {
-          "question": "[[Alexander|Alexander]] [[Fleming|Fleming]] [[made|hizo]] [[an|un]] [[important|importante]] _______ [[when|cuando]] [[he|él]] [[found|encontró]] [[penicillin|la penicilina]].",
+          "question": "[[Alexander Fleming made an important he found penicillin|Alexander Fleming hizo un importante]] _______ [[when|cuando él encontró la penicilina]].",
           "options": [
             "[[discovery|descubrimiento]]",
             "[[invention|invento]]",
@@ -121,7 +121,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige el tiempo verbal correcto para una acción con impacto en el presente.",
       "questions": [
         {
-          "question": "[[Smartphones|Los teléfonos inteligentes]] _______ [[changed|cambiado]] [[the|la]] [[way|forma en que]] [[people|la gente]] [[communicate|se comunica]] [[with|entre]] [[each|sí]] [[other| ]].",
+          "question": "[[Smartphones the way people communicate with each other|Los teléfonos inteligentes]] _______ [[changed|cambiado la forma en que la gente se comunica entre sí  ]].",
           "options": [
             "[[have|han]]",
             "[[has|ha]]",
@@ -148,7 +148,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige el término que significa 'avance' o 'logro'.",
       "questions": [
         {
-          "question": "[[Artificial|La Inteligencia]] [[Intelligence|Artificial]] [[is|es]] [[a|un]] _______ [[that|que]] [[will|transformará]] [[transform| ]] [[many|muchas]] [[industries|industrias]].",
+          "question": "[[Artificial Intelligence is a industries|La Inteligencia Artificial es un]] _______ [[that will transform many|que transformará   muchas industrias]].",
           "options": [
             "[[breakthrough|avance]]",
             "[[failure|fallo]]",
@@ -175,7 +175,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el participio pasado correcto para la voz pasiva.",
       "questions": [
         {
-          "question": "[[The|El]] [[first|primer]] [[modern|automóvil]] [[automobile|moderno]] [[was|fue]] _______ [[by|por]] [[Karl|Karl]] [[Benz|Benz]].",
+          "question": "[[The first modern automobile was Karl Benz|El primer automóvil moderno fue]] _______ [[by|por Karl Benz]].",
           "options": [
             "[[designed|diseñado]]",
             "[[designing|diseñando]]",
@@ -202,7 +202,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa 'eficiente'.",
       "questions": [
         {
-          "question": "[[Engineers|Los ingenieros]] [[are|están]] [[working|trabajando]] [[on|en]] [[more|maneras más]] _______ [[ways| ]] [[to|para]] [[store|almacenar]] [[energy|energía]].",
+          "question": "[[Engineers are working on more to store energy|Los ingenieros están trabajando en maneras más]] _______ [[ways|  para almacenar energía]].",
           "options": [
             "[[efficient|eficientes]]",
             "[[wasteful|derrochadoras]]",
@@ -229,7 +229,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Completa con el primer condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[you|tú]] [[use|usas]] [[this|este]] [[software|software]], [[you|tú]] _______ [[edit|editar]] [[photos|fotos]] [[easily|fácilmente]].",
+          "question": "[[If you, you use this software photos easily|Si tú usas este software, tú]] _______ [[edit|editar fotos fácilmente]].",
           "options": [
             "[[can|puedes]]",
             "[[could|podrías]]",
@@ -256,7 +256,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa 'revolucionar'.",
       "questions": [
         {
-          "question": "[[The|La]] [[invention|invención]] [[of|del]] [[the| ]] [[internet|internet]] [[has|ha]] _______ [[global|la comunicación]] [[communication|global]].",
+          "question": "[[The invention of the internet has|La invención del   internet ha]] _______ [[global communication|la comunicación global]].",
           "options": [
             "[[revolutionized|revolucionado]]",
             "[[delayed|retrasado]]",
@@ -283,7 +283,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Completa con el verbo adecuado para la voz pasiva en presente.",
       "questions": [
         {
-          "question": "[[New|Nuevas]] [[patents|patentes]] _______ [[registered|registradas]] [[every|cada]] [[day|día]] [[in|en]] [[the|el]] [[technology|de tecnología]] [[sector|sector]].",
+          "question": "[[New patents day in the technology sector|Nuevas patentes]] _______ [[registered every|registradas cada día en el de tecnología sector]].",
           "options": [
             "[[are|son]]",
             "[[is|es]]",
@@ -310,7 +310,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión para 'investigación y desarrollo'.",
       "questions": [
         {
-          "question": "[[Many|Muchas]] [[innovative|innovadoras]] [[companies|empresas]] [[invest|invierten]] [[a|mucho]] [[lot| ]] [[of| ]] [[money|dinero]] [[in|en]] _______.",
+          "question": "[[Many innovative companies invest a lot of money in|Muchas innovadoras empresas invierten mucho     dinero en]] _______.",
           "options": [
             "[[research and development|investigación y desarrollo]]",
             "[[sales and marketing|ventas y marketing]]",
@@ -337,7 +337,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la estructura de intensidad correcta.",
       "questions": [
         {
-          "question": "[[This|Este]] [[gadget|aparato]] [[is|es]] _______ [[useful|útil]] [[that|que]] [[I|yo]] [[use|uso]] [[it|lo]] [[every|cada]] [[day|día]].",
+          "question": "[[This gadget is that it every day|Este aparato es]] _______ [[useful I use|útil que yo uso lo cada día]].",
           "options": [
             "[[so|tan]]",
             "[[such|tal]]",
@@ -364,7 +364,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que significa 'interfaz'.",
       "questions": [
         {
-          "question": "[[The|La]] [[user|de usuario]] _______ [[of|de]] [[the|la]] [[app|aplicación]] [[is|es]] [[very|muy]] [[intuitive|intuitiva]] [[and|y]] [[easy|fácil]] [[to|de]] [[use|usar]].",
+          "question": "[[The user app is very intuitive and easy to use|La de usuario]] _______ [[of the|de la aplicación es muy intuitiva y fácil de usar]].",
           "options": [
             "[[interface|interfaz]]",
             "[[connection|conexión]]",
@@ -391,7 +391,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Completa con el segundo condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[we|nosotros]] _______ [[more|más]] [[funding|financiación]], [[we|nosotros]] [[could|podríamos]] [[finish|terminar]] [[the|el]] [[prototype|prototipo]] [[sooner|antes]].",
+          "question": "[[If we, we could finish the prototype sooner|Si nosotros]] _______ [[more funding|más financiación, nosotros podríamos terminar el prototipo antes]].",
           "options": [
             "[[had|tuviéramos]]",
             "[[have|tenemos]]",
@@ -746,7 +746,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Evolución de los ordenadores",
       "instructions": "Ordena las palabras para formar una oración comparativa.",
-      "correctSentence": "[[The|El]] [[first|primer]] [[computer|ordenador]] [[was|era]] [[much|mucho]] [[larger|más grande]] [[than|que]] [[a|un]] [[modern|portátil]] [[laptop|moderno]] [[today|hoy]].",
+      "correctSentence": "[[The first computer was much larger than a modern laptop today|El primer ordenador era mucho más grande que un portátil moderno hoy]].",
       "words": [
         "[[The|El]]",
         "[[first|primer]]",
@@ -777,7 +777,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "El futuro de la IA",
       "instructions": "Ordena las palabras para formar una opinión sobre el futuro.",
-      "correctSentence": "[[Many|Mucha]] [[people|gente]] [[believe|cree]] [[that|que]] [[artificial|la inteligencia]] [[intelligence|artificial]] [[will|cambiará]] [[change| ]] [[the|el]] [[world|mundo]] [[forever|para siempre]].",
+      "correctSentence": "[[Many people believe that artificial intelligence will change the world forever|Mucha gente cree que la inteligencia artificial cambiará   el mundo para siempre]].",
       "words": [
         "[[Many|Mucha]]",
         "[[people|gente]]",
@@ -808,7 +808,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Energía limpia",
       "instructions": "Ordena las palabras para describir una investigación actual.",
-      "correctSentence": "[[Scientists|Los científicos]] [[are|están]] [[trying|intentando]] [[to|encontrar]] [[find| ]] [[new|nuevas]] [[ways|formas]] [[to|de]] [[produce|producir]] [[clean|energía]] [[energy|limpia]].",
+      "correctSentence": "[[Scientists are trying to find new ways to produce clean energy|Los científicos están intentando encontrar   nuevas formas de producir energía limpia]].",
       "words": [
         "[[Scientists|Los científicos]]",
         "[[are|están]]",
@@ -839,7 +839,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Protección legal",
       "instructions": "Ordena las palabras para formar un primer condicional con obligación.",
-      "correctSentence": "[[If|Si]] [[you|tú]] [[want|quieres]] [[to|proteger]] [[protect| ]] [[your|tu]] [[invention|invento]], [[you|tú]] [[must|debes]] [[apply|solicitar]] [[for| ]] [[a|una]] [[patent|patente]].",
+      "correctSentence": "[[If you, you want to protect your invention must apply for a patent|Si tú quieres proteger   tu invento, tú debes solicitar   una patente]].",
       "words": [
         "[[If|Si]]",
         "[[you|tú]]",
@@ -873,7 +873,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Conectividad global",
       "instructions": "Ordena las palabras para describir una ventaja de internet.",
-      "correctSentence": "[[The|El]] [[internet|internet]] [[allows|nos permite]] [[us| ]] [[to|conectarnos]] [[connect| ]] [[with|con]] [[anyone|cualquiera]] [[in|en]] [[the|el]] [[world|mundo]] [[instantly|al instante]].",
+      "correctSentence": "[[The internet allows us to connect with anyone in the world instantly|El internet nos permite   conectarnos   con cualquiera en el mundo al instante]].",
       "words": [
         "[[The|El]]",
         "[[internet|internet]]",
@@ -905,7 +905,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Uso de smartphones",
       "instructions": "Ordena las palabras para describir un hábito tecnológico.",
-      "correctSentence": "[[Most|La mayoría de la]] [[people|gente]] [[use|usa]] [[their|sus]] [[smartphones|teléfonos]] [[to|para]] [[check|revisar]] [[social|las redes]] [[media|sociales]] [[every|cada]] [[single|mismo]] [[day|día]].",
+      "correctSentence": "[[Most people use their smartphones to check social media every single day|La mayoría de la gente usa sus teléfonos para revisar las redes sociales cada mismo día]].",
       "words": [
         "[[Most|La mayoría de la]]",
         "[[people|gente]]",
@@ -937,7 +937,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Autonomía eléctrica",
       "instructions": "Ordena las palabras para describir la capacidad de un coche.",
-      "correctSentence": "[[The|El]] [[new|nuevo]] [[electric|coche]] [[car|eléctrico]] [[can|puede]] [[travel|recorrer]] [[five|quinientos]] [[hundred| ]] [[kilometers|kilómetros]] [[on|con]] [[a|una]] [[single|sola]] [[charge|carga]].",
+      "correctSentence": "[[The new electric car can travel five hundred kilometers on a single charge|El nuevo coche eléctrico puede recorrer quinientos   kilómetros con una sola carga]].",
       "words": [
         "[[The|El]]",
         "[[new|nuevo]]",
@@ -970,7 +970,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Éxito y fracaso",
       "instructions": "Ordena las palabras para expresar una idea compleja.",
-      "correctSentence": "[[It|Es]] [[is| ]] [[important|importante]] [[to|recordar]] [[remember| ]] [[that|que]] [[not|no]] [[all|todos los]] [[inventions|inventos]] [[are|son]] [[successful|exitosos]] [[initially|inicialmente]].",
+      "correctSentence": "[[It is important to remember that not all inventions are successful initially|Es   importante recordar   que no todos los inventos son exitosos inicialmente]].",
       "words": [
         "[[It|Es]]",
         "[[is| ]]",
@@ -1002,7 +1002,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Tecnología en casa",
       "instructions": "Ordena las palabras usando el presente perfecto.",
-      "correctSentence": "[[Technology|La tecnología]] [[has|se ha]] [[become|convertido]] [[an|en una]] [[essential|parte]] [[part|esencial]] [[of|de]] [[our|nuestra]] [[daily|vida]] [[lives|diaria]] [[at|en]] [[home|casa]].",
+      "correctSentence": "[[Technology has become an essential part of our daily lives at home|La tecnología se ha convertido en una parte esencial de nuestra vida diaria en casa]].",
       "words": [
         "[[Technology|La tecnología]]",
         "[[has|se ha]]",
@@ -1034,7 +1034,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inversión en energía solar",
       "instructions": "Ordena las palabras para describir un propósito empresarial.",
-      "correctSentence": "[[Many|Muchas]] [[companies|empresas]] [[are|están]] [[investing|invirtiendo]] [[in|en]] [[solar|paneles]] [[panels|solares]] [[to|para]] [[reduce|reducir]] [[their|sus]] [[electricity|costes de]] [[costs|electricidad]].",
+      "correctSentence": "[[Many companies are investing in solar panels to reduce their electricity costs|Muchas empresas están invirtiendo en paneles solares para reducir sus costes de electricidad]].",
       "words": [
         "[[Many|Muchas]]",
         "[[companies|empresas]]",
@@ -1066,7 +1066,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vida social",
       "instructions": "Ordena las palabras para formar un segundo condicional.",
-      "correctSentence": "[[If|Si]] [[we|nosotros]] [[didn't|no]] [[use|usáramos]] [[social|las redes]] [[media|sociales]], [[we|nosotros]] [[would|pasaríamos]] [[spend| ]] [[more|más]] [[time|tiempo]] [[together|juntos]].",
+      "correctSentence": "[[If we, we would didn't use social media spend more time together|Si nosotros no usáramos las redes sociales, nosotros pasaríamos   más tiempo juntos]].",
       "words": [
         "[[If|Si]]",
         "[[we|nosotros]]",
@@ -1099,7 +1099,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Manual de usuario",
       "instructions": "Ordena las palabras para describir el contenido de un manual.",
-      "correctSentence": "[[The|El]] [[user|manual de]] [[manual|usuario]] [[explains|explica]] [[how|cómo]] [[to|configurar]] [[set| ]] [[up| ]] [[the|el]] [[new|nuevo]] [[device|dispositivo]] [[correctly|correctamente]].",
+      "correctSentence": "[[The user manual explains how to set up the new device correctly|El manual de usuario explica cómo configurar     el nuevo dispositivo correctamente]].",
       "words": [
         "[[The|El]]",
         "[[user|manual de]]",
@@ -1131,7 +1131,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ciberseguridad",
       "instructions": "Ordena las palabras para definir una preocupación moderna.",
-      "correctSentence": "[[Cybersecurity|La ciberseguridad]] [[is|es]] [[a|una]] [[major|gran]] [[concern|preocupación]] [[for|para]] [[companies|empresas]] [[that|que]] [[store|almacenan]] [[sensitive|datos]] [[client|sensibles]] [[data|de clientes]].",
+      "correctSentence": "[[Cybersecurity is a major concern for companies that store sensitive client data|La ciberseguridad es una gran preocupación para empresas que almacenan datos sensibles de clientes]].",
       "words": [
         "[[Cybersecurity|La ciberseguridad]]",
         "[[is|es]]",
@@ -1163,7 +1163,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Seguridad de cuenta",
       "instructions": "Ordena las palabras para dar un consejo de seguridad.",
-      "correctSentence": "[[You|Tú]] [[should|deberías]] [[change|cambiar]] [[your|tu]] [[password|contraseña]] [[frequently|frecuentemente]] [[to|para]] [[keep|mantener]] [[your|tu]] [[account|cuenta]] [[safe|segura]] [[online|en línea]].",
+      "correctSentence": "[[You should change your password frequently to keep your account safe online|Tú deberías cambiar tu contraseña frecuentemente para mantener tu cuenta segura en línea]].",
       "words": [
         "[[You|Tú]]",
         "[[should|deberías]]",
@@ -1195,7 +1195,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Servicios de streaming",
       "instructions": "Ordena las palabras para describir un cambio cultural.",
-      "correctSentence": "[[Streaming|Los servicios de]] [[services|streaming]] [[have|han]] [[completely|cambiado]] [[changed|completamente]] [[the|la]] [[way|forma en que]] [[we|nosotros]] [[watch|vemos]] [[movies|películas]] [[at|en]] [[home|casa]].",
+      "correctSentence": "[[Streaming services have completely changed the way we watch movies at home|Los servicios de streaming han cambiado completamente la forma en que nosotros vemos películas en casa]].",
       "words": [
         "[[Streaming|Los servicios de]]",
         "[[services|streaming]]",
@@ -1227,7 +1227,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Drones médicos",
       "instructions": "Ordena las palabras para formar una voz pasiva continua.",
-      "correctSentence": "[[Drones|Los drones]] [[are|están]] [[being|siendo]] [[used|utilizados]] [[to|para]] [[deliver|entregar]] [[medical|suministros]] [[supplies|médicos]] [[to|a]] [[remote|pueblos]] [[mountain|remotos de]] [[villages|montaña]].",
+      "correctSentence": "[[Drones are being used to deliver medical supplies to remote mountain villages|Los drones están siendo utilizados para entregar suministros médicos a pueblos remotos de montaña]].",
       "words": [
         "[[Drones|Los drones]]",
         "[[are|están]]",
@@ -1259,7 +1259,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mejoras de software",
       "instructions": "Ordena las palabras para describir una actualización.",
-      "correctSentence": "[[The|La]] [[new|nueva]] [[software|actualización de]] [[update|software]] [[includes|incluye]] [[several|varias]] [[improvements|mejoras]] [[to|en]] [[the|la]] [[existing|interfaz]] [[user|de usuario]] [[interface|existente]].",
+      "correctSentence": "[[The new software update includes several improvements to the existing user interface|La nueva actualización de software incluye varias mejoras en la interfaz de usuario existente]].",
       "words": [
         "[[The|La]]",
         "[[new|nueva]]",
@@ -1291,7 +1291,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "El ingeniero jefe",
       "instructions": "Ordena las palabras para formar una oración de relativo.",
-      "correctSentence": "[[He|Él]] [[is|es]] [[the|el]] [[engineer|ingeniero]] [[who|que]] [[designed|diseñó]] [[the|el]] [[most|motor]] [[efficient|más]] [[motor|eficiente]] [[in|en]] [[the|el]] [[world|mundo]].",
+      "correctSentence": "[[He is the engineer who designed the most efficient motor in the world|Él es el ingeniero que diseñó el motor más eficiente en el mundo]].",
       "words": [
         "[[He|Él]]",
         "[[is|es]]",
@@ -1324,7 +1324,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Aprendizaje en línea",
       "instructions": "Ordena las palabras para describir una tendencia educativa.",
-      "correctSentence": "[[Many|Muchos]] [[students|estudiantes]] [[use|usan]] [[online|plataformas]] [[platforms|en línea]] [[to|para]] [[learn|aprender]] [[new|nuevos]] [[coding|lenguajes de]] [[languages|programación]] [[every|cada]] [[day|día]].",
+      "correctSentence": "[[Many students use online platforms to learn new coding languages every day|Muchos estudiantes usan plataformas en línea para aprender nuevos lenguajes de programación cada día]].",
       "words": [
         "[[Many|Muchos]]",
         "[[students|estudiantes]]",
@@ -1356,7 +1356,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Innovación y clima",
       "instructions": "Ordena las palabras para formar una frase optimista con el primer condicional.",
-      "correctSentence": "[[If|Si]] [[we|nosotros]] [[continue|continuamos]] [[to|innovando]] [[innovate| ]], [[we|nosotros]] [[will|encontraremos]] [[find| ]] [[solutions|soluciones]] [[for|para]] [[global|el cambio]] [[climate|climático]] [[change|global]].",
+      "correctSentence": "[[If we, we continue to innovate will find solutions for global climate change|Si nosotros continuamos innovando  , nosotros encontraremos   soluciones para el cambio climático global]].",
       "words": [
         "[[If|Si]]",
         "[[we|nosotros]]",

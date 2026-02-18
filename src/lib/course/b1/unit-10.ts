@@ -13,7 +13,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta para el segundo condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[I|yo]] _______ [[enough|suficiente]] [[money|dinero]], [[I|yo]] [[would|compraría]] [[buy| ]] [[a|una]] [[new|nueva]] [[laptop|computadora portátil]].",
+          "question": "[[If I, I would buy a new laptop|Si yo]] _______ [[enough money|suficiente dinero, yo compraría   una nueva computadora portátil]].",
           "options": [
             "[[had|tuviera]]",
             "[[have|tengo]]",
@@ -40,7 +40,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el comparativo correcto.",
       "questions": [
         {
-          "question": "[[Online|Las compras]] [[shopping|en línea]] [[is|son]] _______ [[than|que]] [[going|ir]] [[to|a]] [[a|una]] [[physical|física]] [[store|tienda]].",
+          "question": "[[Online shopping is going physical store|Las compras en línea son]] _______ [[than to a|que ir a una física tienda]].",
           "options": [
             "[[more convenient|más convenientes]]",
             "[[convenienter|más conveniente]]",
@@ -67,7 +67,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige el cuantificador correcto para sustantivos incontables.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[only|solo]] [[have|tengo]] _______ [[cash|efectivo]], [[so|así que]] [[I|yo]] [[will|pagaré]] [[pay| ]] [[with|con]] [[my|mi]] [[credit|de crédito]] [[card|tarjeta]].",
+          "question": "[[I only, so have I with my credit card|Yo solo tengo]] _______ [[cash will pay|efectivo, así que yo pagaré   con mi de crédito tarjeta]].",
           "options": [
             "[[a little|un poco de]]",
             "[[a few|unos pocos]]",
@@ -94,7 +94,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración usando el primer condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[they|ellos]] [[offer|ofrecen]] [[a|un]] [[discount|descuento]], [[many|mucha]] [[people|gente]] _______ [[the|el]] [[product|producto]].",
+          "question": "[[If they, many offer a discount people|Si ellos ofrecen un descuento, mucha gente]] _______ [[the product|el producto]].",
           "options": [
             "[[will buy|comprará]]",
             "[[bought|compró]]",
@@ -121,7 +121,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el cuantificador adecuado para sustantivos contables.",
       "questions": [
         {
-          "question": "[[There|Hay]] [[are| ]] _______ [[advertisements|anuncios]] [[on|en]] [[television|televisión]] [[these|estos]] [[days|días]].",
+          "question": "[[There are television these days|Hay  ]] _______ [[advertisements on|anuncios en televisión estos días]].",
           "options": [
             "[[too many|demasiados]]",
             "[[too much|demasiado]]",
@@ -148,7 +148,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta del verbo 'to be' en el segundo condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[I|yo]] _______ [[you|tú]], [[I|yo]] [[would|compararía]] [[compare| ]] [[prices|precios]] [[before|antes de]] [[buying|comprar]].",
+          "question": "[[If I, I compare prices before buying|Si yo]] _______ [[you would|tú, yo compararía   precios antes de comprar]].",
           "options": [
             "[[were|fuera]]",
             "[[was|era]]",
@@ -175,7 +175,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el superlativo correcto.",
       "questions": [
         {
-          "question": "[[This|Esta]] [[is|es]] _______ [[brand|marca]] [[in|en]] [[the|la]] [[store|tienda]].",
+          "question": "[[This is the store|Esta es]] _______ [[brand in|marca en la tienda]].",
           "options": [
             "[[the most expensive|la más cara]]",
             "[[the expensivest|la más cara]]",
@@ -202,7 +202,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la posición correcta de 'enough'.",
       "questions": [
         {
-          "question": "[[Do|¿Tienes]] [[you| ]] [[have| ]] _______ [[to|para]] [[go|ir]] [[to|al]] [[the| ]] [[mall|centro comercial]]?",
+          "question": "[[Do you have go mall|¿Tienes    ]] _______ [[to to the|para ir al   centro comercial]]?",
           "options": [
             "[[enough time|suficiente tiempo]]",
             "[[time enough|tiempo suficiente]]",
@@ -229,7 +229,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa con el primer condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[you|tú]] [[go|vas]] [[to|al]] [[the| ]] [[market|mercado]], [[you|tú]] _______ [[fresh|frescos]] [[vegetables|vegetales]].",
+          "question": "[[If you, you vegetables go to the market|Si tú vas al   mercado, tú]] _______ [[fresh|frescos vegetales]].",
           "options": [
             "[[will find|encontrarás]]",
             "[[would find|encontrarías]]",
@@ -256,7 +256,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige el sustantivo que significa 'clientes'.",
       "questions": [
         {
-          "question": "[[Many|Muchos]] _______ [[prefer|prefieren]] [[to| ]] [[shop|comprar]] [[online|en línea]] [[during|durante]] [[the|las]] [[holidays|vacaciones]].",
+          "question": "[[Many to shop online during the holidays|Muchos]] _______ [[prefer|prefieren   comprar en línea durante las vacaciones]].",
           "options": [
             "[[customers|clientes]]",
             "[[sellers|vendedores]]",
@@ -283,7 +283,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige el cuantificador para sustantivos contables.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tengo]] _______ [[coins|monedas]] [[in|en]] [[my|mi]] [[pocket|bolsillo]].",
+          "question": "[[I have my pocket|Yo tengo]] _______ [[coins in|monedas en mi bolsillo]].",
           "options": [
             "[[a few|unas pocas]]",
             "[[a little|un poco de]]",
@@ -310,7 +310,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la forma correcta para el segundo condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[she|ella]] _______ [[the|la]] [[lottery|lotería]], [[she|ella]] [[would|viajaría]] [[travel| ]] [[around|por]] [[the|el]] [[world|mundo]].",
+          "question": "[[If she, she would travel around the world|Si ella]] _______ [[the lottery|la lotería, ella viajaría   por el mundo]].",
           "options": [
             "[[won|ganara]]",
             "[[wins|gana]]",
@@ -337,7 +337,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige la estructura de igualdad.",
       "questions": [
         {
-          "question": "[[This|Este]] [[smartphone|teléfono inteligente]] [[is|es]] _______ [[expensive|caro]] _______ [[a|una]] [[computer|computadora]].",
+          "question": "[[This smartphone is computer|Este teléfono inteligente es]] _______ [[expensive|caro]] _______ [[a|una computadora]].",
           "options": [
             "[[as ... as|tan ... como]]",
             "[[more ... than|más ... que]]",
@@ -364,7 +364,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que significa 'desperdicio' o 'residuos'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[should|deberíamos]] [[reduce|reducir]] _______ [[by|al]] [[using|usar]] [[reusable|reutilizables]] [[bags|bolsas]].",
+          "question": "[[We should reduce using|Nosotros deberíamos reducir]] _______ [[by reusable bags|al usar reutilizables bolsas]].",
           "options": [
             "[[waste|residuos]]",
             "[[income|ingresos]]",
@@ -391,7 +391,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa con la forma negativa del primer condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[you|tú]] [[don't|no]] [[save|ahorras]] [[money|dinero]], [[you|tú]] _______ [[able|capaz]] [[to|de]] [[buy|comprar]] [[a|una]] [[house|casa]].",
+          "question": "[[If you, you don't save money to buy a|Si tú no ahorras dinero, tú]] _______ [[able house|capaz de comprar una casa]].",
           "options": [
             "[[won't be|no serás]]",
             "[[aren't|no eres]]",
@@ -418,7 +418,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la palabra correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesito]] [[to| ]] [[go|ir]] [[to|a]] [[the|la]] _______ [[store|de comestibles]] [[to|para]] [[buy|comprar]] [[some|algo de]] [[bread|pan]].",
+          "question": "[[I need to go to the buy some|Yo necesito   ir a la]] _______ [[store to bread|de comestibles para comprar algo de pan]].",
           "options": [
             "[[grocery|tienda]]",
             "[[bakery|panadería]]"
@@ -444,7 +444,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa usando el segundo condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[I|yo]] [[were|fuera]] [[rich|rico]], [[I|yo]] _______ [[donate|donaría]] [[money|dinero]] [[to|a]] [[charity|la caridad]].",
+          "question": "[[If I, I money were rich|Si yo fuera rico, yo]] _______ [[donate to charity|donaría dinero a la caridad]].",
           "options": [
             "[[would| ]]",
             "[[will| ]]"
@@ -470,7 +470,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa con el cuantificador adecuado.",
       "questions": [
         {
-          "question": "[[There|No]] [[isn't|hay]] _______ [[space|espacio]] [[in|en]] [[my|mi]] [[closet|armario]] [[for|para]] [[more|más]] [[clothes|ropa]].",
+          "question": "[[There isn't my closet for more clothes|No hay]] _______ [[space in|espacio en mi armario para más ropa]].",
           "options": [
             "[[enough|suficiente]]",
             "[[many|mucho]]"
@@ -496,7 +496,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa con el primer condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[the|el]] [[price|precio]] [[drops|baja]], [[I|yo]] _______ [[buy|compraré]] [[those|esos]] [[shoes|zapatos]].",
+          "question": "[[If the, I those price drops|Si el precio baja, yo]] _______ [[buy shoes|compraré esos zapatos]].",
           "options": [
             "[[will| ]]",
             "[[would| ]]"
@@ -522,7 +522,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa con la forma comparativa de 'good'.",
       "questions": [
         {
-          "question": "[[Buying|Comprar]] [[local|locales]] [[products|productos]] [[is|es]] _______ [[for|para]] [[the|la]] [[economy|economía]].",
+          "question": "[[Buying local products is|Comprar locales productos es]] _______ [[for the economy|para la economía]].",
           "options": [
             "[[better|mejor]]",
             "[[gooder|más bueno]]"
@@ -548,7 +548,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa con el primer condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[you|tú]] [[buy|compras]] [[online|en línea]], [[you|tú]] _______ [[get|recibirás]] [[a|un]] [[receipt|recibo]] [[by|por]] [[email|correo electrónico]].",
+          "question": "[[If you, you a buy online email|Si tú compras en línea, tú]] _______ [[get receipt by|recibirás un recibo por correo electrónico]].",
           "options": [
             "[[will| ]]",
             "[[would| ]]"
@@ -574,7 +574,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa con el cuantificador para sustantivos contables.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[only|solo]] [[have|tengo]] _______ [[dollars|dólares]] [[left|restantes]] [[in|en]] [[my|mi]] [[wallet|billetera]].",
+          "question": "[[I only have left wallet|Yo solo tengo]] _______ [[dollars in my|dólares restantes en mi billetera]].",
           "options": [
             "[[a few|unos pocos]]",
             "[[a little|un poco de]]"
@@ -600,7 +600,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa usando el segundo condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[they|ellos]] _______ [[a|un]] [[lower|más bajo]] [[price|precio]], [[I|yo]] [[would|lo compraría]] [[buy| ]] [[it| ]] [[immediately|inmediatamente]].",
+          "question": "[[If they, I price would buy it immediately|Si ellos]] _______ [[a lower|un más bajo precio, yo lo compraría     inmediatamente]].",
           "options": [
             "[[offered|ofrecieran]]",
             "[[offer|ofrecen]]"
@@ -626,7 +626,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa con el comparativo de 'fast'.",
       "questions": [
         {
-          "question": "[[This|Esta]] [[laptop|computadora portátil]] [[is|es]] [[much|mucho]] _______ [[than|que]] [[my|mi]] [[old|vieja]] [[one|unidad]].",
+          "question": "[[This laptop is much|Esta computadora portátil es mucho]] _______ [[than my old one|que mi vieja unidad]].",
           "options": [
             "[[faster|más rápida]]",
             "[[more fast|más rápida]]"
@@ -652,7 +652,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa con el cuantificador adecuado.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[don't|no]] [[have|tenemos]] _______ [[milk|leche]] [[for|para]] [[the|el]] [[coffee|café]].",
+          "question": "[[We don't have for|Nosotros no tenemos]] _______ [[milk the coffee|leche para el café]].",
           "options": [
             "[[enough|suficiente]]",
             "[[any|alguna]]"
@@ -678,7 +678,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa con el primer condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[you|tú]] [[don't|no]] [[wear|usas]] [[a|un]] [[coat|abrigo]], [[you|tú]] _______ [[feel|sentirás]] [[cold|frío]].",
+          "question": "[[If you, you cold don't wear a coat|Si tú no usas un abrigo, tú]] _______ [[feel|sentirás frío]].",
           "options": [
             "[[will| ]]",
             "[[would| ]]"
@@ -704,7 +704,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa con la palabra que significa 'departamento'.",
       "questions": [
         {
-          "question": "[[The|La]] _______ [[store|tienda por departamentos]] [[is|está]] [[closed|cerrada]] [[on|los]] [[Sundays|domingos]].",
+          "question": "[[The is closed on Sundays|La]] _______ [[store|tienda por departamentos está cerrada los domingos]].",
           "options": [
             "[[department|departamento]]",
             "[[apartment|apartamento]]"
@@ -730,7 +730,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa con el segundo condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[she|ella]] [[were|fuera]] [[more|más]] [[careful|cuidadosa]], [[she|ella]] _______ [[lose|perdería]] [[her|sus]] [[keys|llaves]].",
+          "question": "[[If she, she were more careful her keys|Si ella fuera más cuidadosa, ella]] _______ [[lose|perdería sus llaves]].",
           "options": [
             "[[wouldn't|no]]",
             "[[won't|no]]"
@@ -756,7 +756,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa con el superlativo de 'good'.",
       "questions": [
         {
-          "question": "[[This|Este]] [[is|es]] [[the|el]] _______ [[service|servicio]] [[I|yo]] [[have|he]] [[ever|alguna vez]] [[received|recibido]].",
+          "question": "[[This is the I received|Este es el]] _______ [[service have ever|servicio yo he alguna vez recibido]].",
           "options": [
             "[[best|mejor]]",
             "[[most good|el más bueno]]"
@@ -782,7 +782,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       "instructions": "Completa con el cuantificador para sustantivos incontables.",
       "questions": [
         {
-          "question": "[[There|Hay]] [[is| ]] _______ [[sugar|azúcar]] [[in|en]] [[my|mi]] [[tea|té]].",
+          "question": "[[There is my tea|Hay  ]] _______ [[sugar in|azúcar en mi té]].",
           "options": [
             "[[a little|un poco de]]",
             "[[a few|unos pocos]]"
@@ -806,7 +806,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ordenando condicionales",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[If|Si]] [[I|yo]] [[had|tuviera]] [[money,|dinero,]] [[I|yo]] [[would|lo]] [[buy|compraría]] [[it.| ]]",
+      "correctSentence": "[[If I had money, I would buy it.|Si yo tuviera dinero, yo lo compraría  ]]",
       "words": [
         "[[If|Si]]",
         "[[I|yo]]",
@@ -833,7 +833,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Compras modernas",
       "instructions": "Forma la oración sobre compras en línea.",
-      "correctSentence": "[[Online|Las compras]] [[shopping|en línea]] [[is|son]] [[very|muy]] [[popular|populares]] [[today.|hoy en día.]]",
+      "correctSentence": "[[Online shopping is very popular today.|Las compras en línea son muy populares hoy en día.]]",
       "words": [
         "[[Online|Las compras]]",
         "[[shopping|en línea]]",
@@ -858,7 +858,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Presupuesto ajustado",
       "instructions": "Ordena las palabras sobre el dinero.",
-      "correctSentence": "[[I|Yo]] [[don't|no]] [[have|tengo]] [[enough|suficiente]] [[money|dinero]] [[now.|ahora.]]",
+      "correctSentence": "[[I don't have enough money now.|Yo no tengo suficiente dinero ahora.]]",
       "words": [
         "[[I|Yo]]",
         "[[don't|no]]",
@@ -883,7 +883,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ley de oferta",
       "instructions": "Ordena la oración sobre los precios.",
-      "correctSentence": "[[If|Si]] [[prices|los precios]] [[drop,|bajan,]] [[people|la gente]] [[buy|compra]] [[more.|más.]]",
+      "correctSentence": "[[If prices drop, people buy more.|Si los precios bajan, la gente compra más.]]",
       "words": [
         "[[If|Si]]",
         "[[prices|los precios]]",
@@ -908,7 +908,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Eligiendo tiendas",
       "instructions": "Compara las dos tiendas.",
-      "correctSentence": "[[This|Esta]] [[store|tienda]] [[is|es]] [[better|mejor]] [[than|que]] [[that|aquella]] [[one.|unidad.]]",
+      "correctSentence": "[[This store is better than that one.|Esta tienda es mejor que aquella unidad.]]",
       "words": [
         "[[This|Esta]]",
         "[[store|tienda]]",
@@ -934,7 +934,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Exceso de ropa",
       "instructions": "Forma la oración sobre el armario.",
-      "correctSentence": "[[I|Yo]] [[have|tengo]] [[too|demasiada]] [[many| ]] [[clothes|ropa]] [[already.|ya.]]",
+      "correctSentence": "[[I have too many clothes already.|Yo tengo demasiada   ropa ya.]]",
       "words": [
         "[[I|Yo]]",
         "[[have|tengo]]",
@@ -959,7 +959,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Paciencia al comprar",
       "instructions": "Ordena para formar el consejo.",
-      "correctSentence": "[[If|Si]] [[you|tú]] [[wait,|esperas,]] [[you|tú]] [[will|ahorrarás.]] [[save.| ]]",
+      "correctSentence": "[[If you wait, you will save.|Si tú esperas, tú ahorrarás.  ]]",
       "words": [
         "[[If|Si]]",
         "[[you|tú]]",
@@ -984,7 +984,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Impacto publicitario",
       "instructions": "Ordena la oración sobre la publicidad.",
-      "correctSentence": "[[Advertising|La publicidad]] [[affects|afecta]] [[our|nuestros]] [[shopping|hábitos de]] [[habits|compra]] [[daily.|diariamente.]]",
+      "correctSentence": "[[Advertising affects our shopping habits daily.|La publicidad afecta nuestros hábitos de compra diariamente.]]",
       "words": [
         "[[Advertising|La publicidad]]",
         "[[affects|afecta]]",
@@ -1009,7 +1009,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Deseo hipotético",
       "instructions": "Ordena las palabras del deseo.",
-      "correctSentence": "[[If|Si]] [[I|yo]] [[were|fuera]] [[rich,|rico,]] [[I'd|yo]] [[shop.|compraría.]]",
+      "correctSentence": "[[If I were rich, I'd shop.|Si yo fuera rico, yo compraría.]]",
       "words": [
         "[[If|Si]]",
         "[[I|yo]]",
@@ -1034,7 +1034,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Compra de lujo",
       "instructions": "Forma la oración sobre el reloj.",
-      "correctSentence": "[[She|Ella]] [[bought|compró]] [[a|un]] [[very|muy]] [[expensive|caro]] [[watch.|reloj.]]",
+      "correctSentence": "[[She bought a very expensive watch.|Ella compró un muy caro reloj.]]",
       "words": [
         "[[She|Ella]]",
         "[[bought|compró]]",
@@ -1059,7 +1059,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Poca esperanza",
       "instructions": "Ordena la oración abstracta.",
-      "correctSentence": "[[There|Hay]] [[is| ]] [[a|un]] [[little|poco de]] [[hope|esperanza]] [[left.|restante.]]",
+      "correctSentence": "[[There is a little hope left.|Hay   un poco de esperanza restante.]]",
       "words": [
         "[[There|Hay]]",
         "[[is| ]]",
@@ -1084,7 +1084,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pidiendo ayuda",
       "instructions": "Ordena la posibilidad.",
-      "correctSentence": "[[If|Si]] [[you|tú]] [[ask,|preguntas,]] [[they|ellos]] [[might|podrían]] [[help.|ayudarte.]]",
+      "correctSentence": "[[If you ask, they might help.|Si tú preguntas, ellos podrían ayudarte.]]",
       "words": [
         "[[If|Si]]",
         "[[you|tú]]",
@@ -1109,7 +1109,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Apreciando descuentos",
       "instructions": "Ordena la oración sobre los clientes.",
-      "correctSentence": "[[Customers|A los clientes]] [[like|les gustan]] [[discounts|los descuentos]] [[very|mucho]] [[much| ]] [[indeed.|realmente.]]",
+      "correctSentence": "[[Customers like discounts very much indeed.|A los clientes les gustan los descuentos mucho   realmente.]]",
       "words": [
         "[[Customers|A los clientes]]",
         "[[like|les gustan]]",
@@ -1134,7 +1134,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Plan por lluvia",
       "instructions": "Ordena la condición real.",
-      "correctSentence": "[[If|Si]] [[it| ]] [[rains,|llueve,]] [[we|nosotros]] [[stay|nos quedamos en]] [[home.|casa.]]",
+      "correctSentence": "[[If it rains, we stay home.|Si   llueve, nosotros nos quedamos en casa.]]",
       "words": [
         "[[If|Si]]",
         "[[it| ]]",
@@ -1159,7 +1159,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "La más barata",
       "instructions": "Forma el superlativo.",
-      "correctSentence": "[[This|Esta]] [[is|es]] [[the|la]] [[cheapest|tienda más barata]] [[store| ]] [[ever.|de todas.]]",
+      "correctSentence": "[[This is the cheapest store ever.|Esta es la tienda más barata   de todas.]]",
       "words": [
         "[[This|Esta]]",
         "[[is|es]]",
@@ -1184,7 +1184,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pan suficiente",
       "instructions": "Ordena sobre la comida.",
-      "correctSentence": "[[We|Nosotros]] [[have|tenemos]] [[enough|suficiente]] [[bread|pan]] [[for|por]] [[now.|ahora.]]",
+      "correctSentence": "[[We have enough bread for now.|Nosotros tenemos suficiente pan por ahora.]]",
       "words": [
         "[[We|Nosotros]]",
         "[[have|tenemos]]",
@@ -1209,7 +1209,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Felicidad hipotética",
       "instructions": "Ordena la condición imaginaria.",
-      "correctSentence": "[[If|Si]] [[she|ella]] [[knew,|lo supiera,]] [[she'd|ella]] [[be|estaría]] [[happy.|feliz.]]",
+      "correctSentence": "[[If she knew, she'd be happy.|Si ella lo supiera, ella estaría feliz.]]",
       "words": [
         "[[If|Si]]",
         "[[she|ella]]",
@@ -1234,7 +1234,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sustentabilidad futura",
       "instructions": "Ordena la oración ética.",
-      "correctSentence": "[[Sustainability|La sustentabilidad]] [[is|es]] [[important|importante]] [[for|para las]] [[future|compras]] [[shopping.|futuras.]]",
+      "correctSentence": "[[Sustainability is important for future shopping.|La sustentabilidad es importante para las compras futuras.]]",
       "words": [
         "[[Sustainability|La sustentabilidad]]",
         "[[is|es]]",
@@ -1259,7 +1259,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Condición mutua",
       "instructions": "Ordena la respuesta negativa.",
-      "correctSentence": "[[If|Si]] [[you|tú]] [[don't|no]] [[go,|vas,]] [[I|yo]] [[won't.|tampoco lo haré.]]",
+      "correctSentence": "[[If you don't go, I won't.|Si tú no vas, yo tampoco lo haré.]]",
       "words": [
         "[[If|Si]]",
         "[[you|tú]]",
@@ -1284,7 +1284,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "Amante de la tecnología",
       "instructions": "Forma la oración sobre tecnología.",
-      "correctSentence": "[[I|Me]] [[love|encanta]] [[shopping|comprar]] [[for| ]] [[new|nuevos]] [[gadgets.|dispositivos.]]",
+      "correctSentence": "[[I love shopping for new gadgets.|Me encanta comprar   nuevos dispositivos.]]",
       "words": [
         "[[I|Me]]",
         "[[love|encanta]]",

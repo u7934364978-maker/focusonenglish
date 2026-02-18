@@ -12,7 +12,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ciudad antigua",
       "instructions": "Ordena las palabras usando la pasiva personal para creencias.",
-      "correctSentence": "[[The|La]] [[ancient|antigua]] [[city|ciudad]] [[is|se]] [[thought|cree]] [[to|que]] [[have|fue]] [[been|construida]] [[built|en]] [[in|el]] [[the|tercer]] [[third|siglo.]] [[century.| ]]",
+      "correctSentence": "[[The ancient city is thought to have been built in the third century.|La antigua ciudad se cree que fue construida en el tercer siglo.  ]]",
       "words": [
         "[[thought|cree]]",
         "[[third|siglo.]]",
@@ -44,7 +44,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mochilear por Asia",
       "instructions": "Ordena las palabras para hablar de viajes de aventura.",
-      "correctSentence": "[[Backpacking|Viajar de mochilero]] [[through|por el]] [[Southeast|Sudeste]] [[Asia|Asiático]] [[is|es]] [[a|una]] [[life-changing|experiencia]] [[experience.|que cambia la vida.]]",
+      "correctSentence": "[[Backpacking through Southeast Asia is a life-changing experience.|Viajar de mochilero por el Sudeste Asiático es una experiencia que cambia la vida.]]",
       "words": [
         "[[through|por el]]",
         "[[Asia|Asiático]]",
@@ -71,7 +71,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cima de la montaña",
       "instructions": "Ordena las palabras usando una cláusula de participio de presente.",
-      "correctSentence": "[[Arriving|Al llegar]] [[at|a]] [[the|la]] [[summit,|cima,]] [[the|los]] [[climbers|escaladores]] [[felt|sintieron]] [[a|una]] [[sense|sensación]] [[of|de]] [[triumph.|triunfo.]]",
+      "correctSentence": "[[Arriving at the summit, the climbers felt a sense of triumph.|Al llegar a la cima, los escaladores sintieron una sensación de triunfo.]]",
       "words": [
         "[[the|la]]",
         "[[climbers|escaladores]]",
@@ -101,7 +101,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Lugares poco conocidos",
       "instructions": "Ordena las palabras para hablar de rutas turísticas alternativas.",
-      "correctSentence": "[[The|El]] [[itinerary|itinerario]] [[includes|incluye]] [[visits|visitas]] [[to|a]] [[several|varios]] [[off-the-beaten-path|pueblos]] [[villages.|poco transitados.]]",
+      "correctSentence": "[[The itinerary includes visits to several off-the-beaten-path villages.|El itinerario incluye visitas a varios pueblos poco transitados.]]",
       "words": [
         "[[itinerary|itinerario]]",
         "[[to|a]]",
@@ -128,7 +128,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pasaporte perdido",
       "instructions": "Ordena las palabras usando un participio perfecto para indicar causa.",
-      "correctSentence": "[[Having|Al haber]] [[lost|perdido]] [[his|su]] [[passport,|pasaporte,]] [[he|él]] [[had|tuvo]] [[to|que]] [[go|ir]] [[to|a]] [[the|la]] [[embassy.|embajada.]]",
+      "correctSentence": "[[Having lost his passport, he had to go to the embassy.|Al haber perdido su pasaporte, él tuvo que ir a la embajada.]]",
       "words": [
         "[[lost|perdido]]",
         "[[had|tuvo]]",
@@ -158,7 +158,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Turismo sostenible",
       "instructions": "Ordena las palabras para hablar de viajes responsables.",
-      "correctSentence": "[[Sustainable|El turismo]] [[tourism|sostenible]] [[aims|pretende]] [[to|minimizar]] [[minimize|el]] [[the|impacto]] [[impact|en]] [[on|el]] [[the|medio]] [[environment.|ambiente.]]",
+      "correctSentence": "[[Sustainable tourism aims to minimize the impact on the environment.|El turismo sostenible pretende minimizar el impacto en el medio ambiente.]]",
       "words": [
         "[[tourism|sostenible]]",
         "[[to|minimizar]]",
@@ -187,7 +187,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vuelo retrasado",
       "instructions": "Ordena las palabras usando la pasiva impersonal con 'It'.",
-      "correctSentence": "[[It|Se]] [[is|informa]] [[reported|que]] [[that|el]] [[the|vuelo]] [[flight|se ha]] [[has|retrasado]] [[been|dos]] [[delayed|horas.]] [[by| ]] [[two| ]] [[hours.| ]]",
+      "correctSentence": "[[It is reported that the flight has been delayed by two hours.|Se informa que el vuelo se ha retrasado dos horas.      ]]",
       "words": [
         "[[is|informa]]",
         "[[flight|se ha]]",
@@ -218,7 +218,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Trotamundos",
       "instructions": "Ordena las palabras para hablar de estilos de viaje.",
-      "correctSentence": "[[Many|Muchos]] [[globetrotters|trotamundos]] [[prefer|prefieren]] [[to|viajar]] [[travel|ligeros]] [[light|solo]] [[with|con]] [[only|un]] [[a|equipaje]] [[carry-on.|de mano.]]",
+      "correctSentence": "[[Many globetrotters prefer to travel light with only a carry-on.|Muchos trotamundos prefieren viajar ligeros solo con un equipaje de mano.]]",
       "words": [
         "[[globetrotters|trotamundos]]",
         "[[travel|ligeros]]",
@@ -247,7 +247,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Castillo medieval",
       "instructions": "Ordena las palabras usando una cláusula de participio de pasado.",
-      "correctSentence": "[[Built|Construido]] [[in|en]] [[the|la]] [[Middle|Edad]] [[Ages,|Media,]] [[the|el]] [[castle|castillo]] [[attracts|atrae]] [[thousands|a miles]] [[of|de]] [[tourists.|turistas.]]",
+      "correctSentence": "[[Built in the Middle Ages, the castle attracts thousands of tourists.|Construido en la Edad Media, el castillo atrae a miles de turistas.]]",
       "words": [
         "[[in|en]]",
         "[[castle|castillo]]",
@@ -277,7 +277,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Desvío paisajístico",
       "instructions": "Ordena las palabras para hablar de cambios en la ruta.",
-      "correctSentence": "[[We|Decidimos]] [[decided|hacer]] [[to|un]] [[take|desvío]] [[a|para]] [[detour|ver]] [[to|la]] [[see|impresionante]] [[the|cascada.]] [[breathtaking| ]] [[waterfall.| ]]",
+      "correctSentence": "[[We decided to take a detour to see the breathtaking waterfall.|Decidimos hacer un desvío para ver la impresionante cascada.    ]]",
       "words": [
         "[[decided|hacer]]",
         "[[detour|desvío]]",
@@ -307,7 +307,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Presunto robo",
       "instructions": "Ordena las palabras usando la pasiva personal para alegaciones.",
-      "correctSentence": "[[He|Se]] [[is|alega]] [[alleged|que]] [[to|él]] [[have|ha]] [[stolen|robado]] [[several|varios]] [[valuable|artefactos]] [[artifacts|valiosos]] [[from|del]] [[the|sitio.]] [[site.| ]]",
+      "correctSentence": "[[He is alleged to have stolen several valuable artifacts from the site.|Se alega que él ha robado varios artefactos valiosos del sitio.  ]]",
       "words": [
         "[[is|alega]]",
         "[[have|ha]]",
@@ -338,7 +338,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inmersión cultural",
       "instructions": "Ordena las palabras para hablar de experiencias profundas.",
-      "correctSentence": "[[Cultural|La inmersión]] [[immersion|cultural]] [[is|es]] [[essential|esencial]] [[for|para]] [[understanding|entender]] [[a|un]] [[new|país]] [[country.|nuevo.]]",
+      "correctSentence": "[[Cultural immersion is essential for understanding a new country.|La inmersión cultural es esencial para entender un país nuevo.]]",
       "words": [
         "[[immersion|cultural]]",
         "[[essential|esencial]]",
@@ -366,7 +366,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Barrera del idioma",
       "instructions": "Ordena las palabras usando una cláusula de participio negativa.",
-      "correctSentence": "[[Not|Al no]] [[knowing|saber]] [[the|el]] [[language,|idioma,]] [[she|le]] [[found|resultó]] [[it|difícil]] [[hard|moverse]] [[to|por]] [[navigate|la]] [[the|ciudad.]] [[city.| ]]",
+      "correctSentence": "[[Not knowing the language, she found it hard to navigate the city.|Al no saber el idioma, le resultó difícil moverse por la ciudad.  ]]",
       "words": [
         "[[knowing|saber]]",
         "[[language,|idioma,]]",
@@ -397,7 +397,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Delicias locales",
       "instructions": "Ordena las palabras para hablar de gastronomía en viajes.",
-      "correctSentence": "[[Local|Las delicias]] [[delicacies|locales]] [[are|son]] [[often|a menudo]] [[the|lo más]] [[highlight|destacado]] [[of|de]] [[a|un]] [[trip|viaje]] [[abroad.|al extranjero.]]",
+      "correctSentence": "[[Local delicacies are often the highlight of a trip abroad.|Las delicias locales son a menudo lo más destacado de un viaje al extranjero.]]",
       "words": [
         "[[delicacies|locales]]",
         "[[often|a menudo]]",
@@ -426,7 +426,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Exploradores perdidos",
       "instructions": "Ordena las palabras usando pasiva con verbos de temor.",
-      "correctSentence": "[[The|Se]] [[missing|teme]] [[explorers|que los exploradores]] [[are|desaparecidos]] [[feared|se hayan]] [[to|quedado]] [[have|sin]] [[run|suministros.]] [[out| ]] [[of| ]] [[supplies.| ]]",
+      "correctSentence": "[[The missing explorers are feared to have run out of supplies.|Se teme que los exploradores desaparecidos se hayan quedado sin suministros.      ]]",
       "words": [
         "[[missing|teme]]",
         "[[feared|se hayan]]",
@@ -456,7 +456,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Jet lag",
       "instructions": "Ordena las palabras para hablar de efectos de vuelos largos.",
-      "correctSentence": "[[Jet|El jet]] [[lag|lag]] [[can|puede]] [[ruin|arruinar]] [[the|los]] [[first|primeros]] [[few|pocos]] [[days|días]] [[of|de]] [[your|tus]] [[vacation.|vacaciones.]]",
+      "correctSentence": "[[Jet lag can ruin the first few days of your vacation.|El jet lag puede arruinar los primeros pocos días de tus vacaciones.]]",
       "words": [
         "[[lag|lag]]",
         "[[ruin|arruinar]]",
@@ -486,7 +486,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Llegada al destino",
       "instructions": "Ordena las palabras usando participio perfecto.",
-      "correctSentence": "[[Having|Al haber]] [[reached|llegado]] [[the|al]] [[destination,|destino,]] [[they|ellos]] [[finally|finalmente]] [[relaxed.|se relajaron.]]",
+      "correctSentence": "[[Having reached the destination, they finally relaxed.|Al haber llegado al destino, ellos finalmente se relajaron.]]",
       "words": [
         "[[reached|llegado]]",
         "[[destination,|destino,]]",
@@ -512,7 +512,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pasión por viajar",
       "instructions": "Ordena las palabras para definir el deseo de aventura.",
-      "correctSentence": "[[Wanderlust|Wanderlust]] [[is|es]] [[the|el]] [[strong|fuerte]] [[desire|deseo]] [[to|de]] [[travel|viajar]] [[and|y]] [[explore|explorar]] [[the|el]] [[world.|mundo.]]",
+      "correctSentence": "[[Wanderlust is the strong desire to travel and explore the world.|Wanderlust es el fuerte deseo de viajar y explorar el mundo.]]",
       "words": [
         "[[is|es]]",
         "[[desire|deseo]]",
@@ -541,7 +541,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Frontera cerrada",
       "instructions": "Ordena las palabras usando pasiva impersonal.",
-      "correctSentence": "[[It|Se]] [[is|entiende]] [[understood|que]] [[that|la]] [[the|frontera]] [[border|permanecerá]] [[will|cerrada.]] [[remain| ]] [[closed.| ]]",
+      "correctSentence": "[[It is understood that the border will remain closed.|Se entiende que la frontera permanecerá cerrada.    ]]",
       "words": [
         "[[is|entiende]]",
         "[[border|permanecerá]]",
@@ -569,7 +569,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ecoturismo",
       "instructions": "Ordena las palabras para hablar de viajes ecológicos.",
-      "correctSentence": "[[Ecotourism|El ecoturismo]] [[promotes|promueve]] [[conservation|la conservación]] [[and|y]] [[respects|respeta]] [[local|las culturas]] [[cultures.|locales.]]",
+      "correctSentence": "[[Ecotourism promotes conservation and respects local cultures.|El ecoturismo promueve la conservación y respeta las culturas locales.]]",
       "words": [
         "[[promotes|promueve]]",
         "[[respects|respeta]]",
@@ -595,7 +595,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sorpresa",
       "instructions": "Ordena las palabras usando participio pasado como causa.",
-      "correctSentence": "[[Taken|Tomados]] [[by|por]] [[surprise,|sorpresa,]] [[the|los]] [[tourists|turistas]] [[didn't|no]] [[know|supieron]] [[how|cómo]] [[to|reaccionar.]] [[react.| ]]",
+      "correctSentence": "[[Taken by surprise, the tourists didn't know how to react.|Tomados por sorpresa, los turistas no supieron cómo reaccionar.  ]]",
       "words": [
         "[[by|por]]",
         "[[tourists|turistas]]",
@@ -624,7 +624,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Escala",
       "instructions": "Ordena las palabras para definir una parada técnica.",
-      "correctSentence": "[[A|Una]] [[layover|escala]] [[is|es]] [[a|un]] [[break|descanso]] [[in|en]] [[a|un]] [[journey|viaje]] [[between|entre]] [[two|dos]] [[flights.|vuelos.]]",
+      "correctSentence": "[[A layover is a break in a journey between two flights.|Una escala es un descanso en un viaje entre dos vuelos.]]",
       "words": [
         "[[layover|escala]]",
         "[[break|descanso]]",
@@ -653,7 +653,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hotel lujoso",
       "instructions": "Ordena las palabras usando pasiva personal.",
-      "correctSentence": "[[The|Se]] [[hotel|dice]] [[is|que]] [[said|el]] [[to|hotel]] [[be|es]] [[the|el]] [[most|más]] [[luxurious|lujoso]] [[in|de]] [[the|la]] [[city.|ciudad.]]",
+      "correctSentence": "[[The hotel is said to be the most luxurious in the city.|Se dice que el hotel es el más lujoso de la ciudad.]]",
       "words": [
         "[[is|que]]",
         "[[be|es]]",
@@ -684,7 +684,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Seguro de viaje",
       "instructions": "Ordena las palabras para hablar de seguridad.",
-      "correctSentence": "[[Travel|El seguro]] [[insurance|de viaje]] [[provides|proporciona]] [[peace|tranquilidad]] [[of| ]] [[mind| ]] [[during|durante]] [[your|tus]] [[adventures.|aventuras.]]",
+      "correctSentence": "[[Travel insurance provides peace of mind during your adventures.|El seguro de viaje proporciona tranquilidad     durante tus aventuras.]]",
       "words": [
         "[[insurance|de viaje]]",
         "[[peace|tranquilidad]]",
@@ -712,7 +712,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Patrimonio mundial",
       "instructions": "Ordena las palabras usando una cláusula de participio insertada.",
-      "correctSentence": "[[The|El]] [[site,|sitio,]] [[discovered|descubierto]] [[by|por]] [[accident,|accidente,]] [[became|se convirtió]] [[a|en]] [[world|patrimonio]] [[heritage|de la]] [[site.|humanidad.]]",
+      "correctSentence": "[[The site, discovered by accident, became a world heritage site.|El sitio, descubierto por accidente, se convirtió en patrimonio de la humanidad.]]",
       "words": [
         "[[discovered|descubierto]]",
         "[[accident,|accidente,]]",
@@ -745,7 +745,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para la pasiva personal.",
       "questions": [
         {
-          "question": "[[She|Se]] [[is|cree]] [[believed|que ella]] _______ _______ [[the|alcanzó la]] [[summit|cima]] [[yesterday.|ayer.]]",
+          "question": "[[She is believed summit|Se cree que ella]] _______ _______ [[the yesterday.|alcanzó la cima ayer.]]",
           "options": ["[[to have reached|que alcanzó]]", "[[to reach|alcanzar]]", "[[reached|alcanzó]]"],
           "correctAnswer": 0,
           "explanation": "'Is believed to have + participio' para un hecho pasado.",
@@ -768,7 +768,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un objeto de recuerdo.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[is|es]] [[something|algo]] [[you|que]] [[buy|compras]] [[to|para]] [[remember|recordar]] [[your|tus]] [[holiday.|vacaciones.]]",
+          "question": "[[A something you buy to remember your holiday.|Un]] _______ [[is|es algo que compras para recordar tus vacaciones.]]",
           "options": ["[[souvenir|souvenir]]", "[[landmark|punto de referencia]]", "[[custom|costumbre]]"],
           "correctAnswer": 0,
           "explanation": "'Souvenir' es una palabra francesa integrada en el inglés.",
@@ -791,7 +791,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma de participio adecuada.",
       "questions": [
         {
-          "question": "_______ [[through|Mirando por]] [[the|la]] [[window,|ventana,]] [[I|vi]] [[saw|las]] [[the|majestuosas]] [[majestic|montañas.]] [[mountains.| ]]",
+          "question": "_______ [[through the window, I saw the majestic mountains.|Mirando por la ventana, vi las majestuosas montañas.  ]]",
           "options": ["[[Looking|Mirando]]", "[[Looked|Mirado]]", "[[Having look|Habiendo mirado]]"],
           "correctAnswer": 0,
           "explanation": "Participio de presente (-ing) para acciones simultáneas.",
@@ -814,7 +814,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un sitio de referencia.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[is|es]] [[a|una]] [[recognizable|característica]] [[feature|reconocible]] [[of|de]] [[a|una]] [[city|ciudad]] [[or|o]] [[landscape.|paisaje.]]",
+          "question": "[[A a recognizable feature of a city or landscape.|Un]] _______ [[is|es una característica reconocible de una ciudad o paisaje.]]",
           "options": ["[[landmark|punto de referencia]]", "[[itinerary|itinerario]]", "[[detour|desvío]]"],
           "correctAnswer": 0,
           "explanation": "La Torre Eiffel es un 'landmark' de París.",
@@ -837,7 +837,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el participio para indicar secuencia temporal.",
       "questions": [
         {
-          "question": "_______ _______ [[his|Habiendo terminado su]] [[work,|trabajo,]] [[he|él]] [[went|fue]] [[to|a]] [[explore|explorar]] [[the|la]] [[city.|ciudad.]]",
+          "question": "_______ _______ [[his work, he went to explore the city.|Habiendo terminado su trabajo, él fue a explorar la ciudad.]]",
           "options": ["[[Having finished|Habiendo terminado]]", "[[Finishing|Terminando]]", "[[Finished|Terminado]]"],
           "correctAnswer": 0,
           "explanation": "'Having finished' indica que la acción se completó antes de ir a explorar.",
@@ -860,7 +860,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el control de equipaje.",
       "questions": [
         {
-          "question": "_______ [[is|La aduana]] [[the|es el]] [[place|lugar]] [[at|en]] [[a|un]] [[port|puerto]] [[or|o]] [[airport|aeropuerto]] [[where|donde]] [[baggage|el equipaje]] [[is|es]] [[checked.|revisado.]]",
+          "question": "_______ [[is the place at a port or airport where baggage is checked.|La aduana es el lugar en un puerto o aeropuerto donde el equipaje es revisado.]]",
           "options": ["[[Customs|Aduanas]]", "[[Boarding|Embarque]]", "[[Lounge|Sala VIP]]"],
           "correctAnswer": 0,
           "explanation": "'Customs' es la autoridad que controla la entrada de bienes en un país.",
@@ -883,7 +883,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de la pasiva impersonal.",
       "questions": [
         {
-          "question": "_______ _______ _______ [[that|Se cree que]] [[the|los]] [[explorers|exploradores]] [[are|están]] [[safe.|a salvo.]]",
+          "question": "_______ _______ _______ [[that the explorers are safe.|Se cree que los exploradores están a salvo.]]",
           "options": ["[[It is thought|Se cree]]", "[[He is thought|Él se cree]]", "[[They are thought|Se cree de ellos]]"],
           "correctAnswer": 0,
           "explanation": "Pasiva impersonal con 'It' para ideas generales.",
@@ -906,7 +906,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un relato de viajes.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[is|es]] [[a|una]] [[film|película]] [[or|o]] [[book|libro]] [[about|sobre]] [[a|los]] [[person's|viajes de]] [[travels.|una persona.]]",
+          "question": "[[A a film or book about a person's travels.|Un]] _______ [[is|es una película o libro sobre los viajes de una persona.]]",
           "options": ["[[travelogue|relato de viajes]]", "[[brochure|folleto]]", "[[manual|manual]]"],
           "correctAnswer": 0,
           "explanation": "Los 'travelogues' pueden ser blogs, documentales o libros.",
@@ -929,7 +929,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el participio pasado para describir el entorno.",
       "questions": [
         {
-          "question": "_______ [[by|Rodeado por]] [[mountains,|montañas,]] [[the|el]] [[village|pueblo]] [[was|era]] [[very|muy]] [[peaceful.|tranquilo.]]",
+          "question": "_______ [[by mountains, the village was very peaceful.|Rodeado por montañas, el pueblo era muy tranquilo.]]",
           "options": ["[[Surrounded|Rodeado]]", "[[Surrounding|Rodeando]]", "[[Having surround|Habiendo rodeado]]"],
           "correctAnswer": 0,
           "explanation": "Participio pasado para expresar un estado pasivo.",
@@ -952,7 +952,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la acogida amable.",
       "questions": [
         {
-          "question": "_______ [[refers|La hospitalidad se refiere]] [[to|a]] [[the|la]] [[friendly|recepción]] [[reception|amable]] [[of|de]] [[guests|huéspedes]] [[and|y]] [[travelers.|viajeros.]]",
+          "question": "_______ [[refers to the friendly reception of guests and travelers.|La hospitalidad se refiere a la recepción amable de huéspedes y viajeros.]]",
           "options": ["[[Hospitality|Hospitalidad]]", "[[Hostility|Hostilidad]]", "[[Curiosity|Curiosidad]]"],
           "correctAnswer": 0,
           "explanation": "'Hospitality' es clave en la industria del turismo.",
@@ -975,7 +975,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma de pasiva personal para un descubrimiento.",
       "questions": [
         {
-          "question": "[[They|Se]] [[are|dice]] [[said|que ellos]] _______ _______ [[a|han descubierto]] [[new|un nuevo]] [[cave|sistema de]] [[system.|cuevas.]]",
+          "question": "[[They are said new|Se dice que ellos]] _______ _______ [[a cave system.|han descubierto un nuevo sistema de cuevas.]]",
           "options": ["[[to have discovered|que han descubierto]]", "[[to discover|descubrir]]", "[[discovered|descubrieron]]"],
           "correctAnswer": 0,
           "explanation": "'Are said to have + participio' para un hecho pasado comunicado.",
@@ -998,7 +998,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un viaje largo y difícil.",
       "questions": [
         {
-          "question": "[[A|Una]] _______ [[is|es]] [[a|un]] [[long,|viaje largo y]] [[arduous|arduo,]] [[journey,| ]] [[typically|típicamente]] [[on|a]] [[foot.|pie.]]",
+          "question": "[[A a long, arduous journey, typically on foot.|Una]] _______ [[is|es un viaje largo y arduo,   típicamente a pie.]]",
           "options": ["[[trek|trekking]]", "[[stroll|paseo]]", "[[commute|trayecto al trabajo]]"],
           "correctAnswer": 0,
           "explanation": "'Trek' implica esfuerzo físico y aventura.",
@@ -1021,7 +1021,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma de participio para expresar condición.",
       "questions": [
         {
-          "question": "_______ [[the|Conociendo los]] [[risks,|riesgos,]] [[the|el]] [[explorer|explorador]] [[decided|decidió]] [[to|continuar.]] [[continue.| ]]",
+          "question": "_______ [[the risks, the explorer decided to continue.|Conociendo los riesgos, el explorador decidió continuar.  ]]",
           "options": ["[[Knowing|Conociendo]]", "[[Known|Conocido]]", "[[To know|Saber]]"],
           "correctAnswer": 0,
           "explanation": "Participio de presente para indicar que el sujeto conoce la situación.",
@@ -1044,7 +1044,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para viajar por el propio país.",
       "questions": [
         {
-          "question": "_______ [[tourism|El turismo nacional]] [[is|es]] [[traveling|viajar]] [[within|dentro de]] [[one's|el]] [[own|propio]] [[country.|país.]]",
+          "question": "_______ [[tourism is traveling within one's own country.|El turismo nacional es viajar dentro de el propio país.]]",
           "options": ["[[Domestic|Nacional]]", "[[International|Internacional]]", "[[Space|Espacial]]"],
           "correctAnswer": 0,
           "explanation": "'Domestic' se opone a 'international'.",
@@ -1067,7 +1067,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma de pasiva impersonal para el futuro.",
       "questions": [
         {
-          "question": "_______ _______ _______ [[that|Se espera que]] [[tourism|el turismo]] [[will|aumente el]] [[increase|próximo]] [[next|año.]] [[year.| ]]",
+          "question": "_______ _______ _______ [[that tourism will increase next year.|Se espera que el turismo aumente el próximo año.  ]]",
           "options": ["[[It is expected|Se espera]]", "[[It is expecting|Está esperando]]", "[[It has expected|Ha esperado]]"],
           "correctAnswer": 0,
           "explanation": "Estructura pasiva impersonal para predicciones.",
@@ -1090,7 +1090,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un sitio que abusa de los turistas.",
       "questions": [
         {
-          "question": "[[A|Una]] _______ _______ [[is|es]] [[a|un]] [[place|lugar]] [[that|que]] [[attracts|atrae]] [[many|muchos]] [[tourists|turistas]] [[and|y]] [[overcharges.|cobra de más.]]",
+          "question": "[[A a place that attracts many tourists and overcharges.|Una]] _______ _______ [[is|es un lugar que atrae muchos turistas y cobra de más.]]",
           "options": ["[[tourist trap|trampa para turistas]]", "[[resort|resort]]", "[[museum|museo]]"],
           "correctAnswer": 0,
           "explanation": "'Tourist trap' tiene una connotación negativa de explotación económica.",
@@ -1113,7 +1113,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el participio pasado para describir un estado.",
       "questions": [
         {
-          "question": "_______ [[after|Agotada tras]] [[the|el]] [[long|largo]] [[flight,|vuelo,]] [[she|ella]] [[fell|se quedó]] [[asleep|dormida]] [[instantly.|al instante.]]",
+          "question": "_______ [[after the long flight, she fell asleep instantly.|Agotada tras el largo vuelo, ella se quedó dormida al instante.]]",
           "options": ["[[Exhausted|Agotada]]", "[[Exhausting|Agotador]]", "[[Having exhaust|Habiendo agotado]]"],
           "correctAnswer": 0,
           "explanation": "Participio pasado para expresar cómo se siente el sujeto.",
@@ -1136,7 +1136,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa comenzar un viaje.",
       "questions": [
         {
-          "question": "[[To| ]] _______ [[on|embarcarse]] [[a|en]] [[journey|un viaje]] [[means|significa]] [[to|comenzar]] [[start|un]] [[a|trayecto.]] [[trip.| ]]",
+          "question": "[[To a journey means to start a trip.| ]] _______ [[on|embarcarse en un viaje significa comenzar un trayecto.  ]]",
           "options": ["[[embark|embarcarse]]", "[[arrive|llegar]]", "[[postpone|posponer]]"],
           "correctAnswer": 0,
           "explanation": "'Embark on' se usa frecuentemente para viajes o proyectos importantes.",
@@ -1159,7 +1159,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma de pasiva personal adecuada.",
       "questions": [
         {
-          "question": "[[The|El]] [[site|sitio]] _______ _______ _______ [[to|se considera]] [[be|que]] [[of|es]] [[great|de gran]] [[historical|importancia]] [[importance.|histórica.]]",
+          "question": "[[The site of great historical importance.|El sitio]] _______ _______ _______ [[to be|se considera que es de gran importancia histórica.]]",
           "options": ["[[is considered|se considera]]", "[[considers|considera]]", "[[has considered|ha considerado]]"],
           "correctAnswer": 0,
           "explanation": "Pasiva personal para expresar una opinión general sobre un objeto.",
@@ -1182,7 +1182,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para alguien sin residencia fija.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[is|es]] [[a|una]] [[person|persona]] [[who|que]] [[has|no tiene]] [[no|residencia]] [[fixed|fija]] [[residence|y se]] [[and|mueve de]] [[moves|lugar]] [[from|en]] [[place|lugar.]] [[to| ]] [[place.| ]]",
+          "question": "[[A a person who has no fixed residence and moves from place to place.|Un]] _______ [[is|es una persona que no tiene residencia fija y se mueve de lugar en lugar.    ]]",
           "options": ["[[nomad|nómada]]", "[[settler|colono]]", "[[citizen|ciudadano]]"],
           "correctAnswer": 0,
           "explanation": "Hoy en día también existen los 'digital nomads'.",
@@ -1205,7 +1205,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el participio perfecto para una razón pasada.",
       "questions": [
         {
-          "question": "_______ _______ [[the|Habiendo visto el]] [[monument|monumento]] [[before,|antes,]] [[I|no]] [[didn't|me uní al]] [[join|tour.]] [[the| ]] [[tour.| ]]",
+          "question": "_______ _______ [[the monument before, I didn't join the tour.|Habiendo visto el monumento antes, no me uní al tour.    ]]",
           "options": ["[[Having seen|Habiendo visto]]", "[[Seeing|Viendo]]", "[[Seen|Visto]]"],
           "correctAnswer": 0,
           "explanation": "'Having seen' indica que la acción de ver ocurrió antes de la decisión de no unirse.",
@@ -1228,7 +1228,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un viaje con propósito específico.",
       "questions": [
         {
-          "question": "[[An|Una]] _______ [[is|es]] [[a|un]] [[journey|viaje]] [[undertaken|realizado]] [[by|por]] [[a|un]] [[group|grupo]] [[of|de]] [[people|personas]] [[with|con]] [[a|un]] [[particular|propósito]] [[purpose.|determinado.]]",
+          "question": "[[An a journey undertaken by a group of people with a particular purpose.|Una]] _______ [[is|es un viaje realizado por un grupo de personas con un propósito determinado.]]",
           "options": ["[[expedition|expedición]]", "[[vacation|vacaciones]]", "[[commute|desplazamiento]]"],
           "correctAnswer": 0,
           "explanation": "'Expedition' suele implicar investigación científica o exploración.",
@@ -1251,7 +1251,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma de pasiva personal para un informe.",
       "questions": [
         {
-          "question": "[[The|Se]] [[missing|informa]] [[plane|que el avión]] [[is|desaparecido]] _______ _______ [[to|ha]] [[have|aterrizado]] [[landed|a salvo]] [[safely|en otro]] [[elsewhere.|lugar.]]",
+          "question": "[[The missing plane is elsewhere.|Se informa que el avión desaparecido]] _______ _______ [[to have landed safely|ha aterrizado a salvo en otro lugar.]]",
           "options": ["[[is reported|se informa]]", "[[reports|informa]]", "[[has reported|ha informado]]"],
           "correctAnswer": 0,
           "explanation": "'Is reported to have + participio' para transmitir noticias sobre un sujeto.",
@@ -1274,7 +1274,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para los sistemas básicos de un país.",
       "questions": [
         {
-          "question": "_______ [[includes|La infraestructura incluye]] [[the|los]] [[basic|sistemas]] [[physical|físicos]] [[systems|básicos]] [[of|de]] [[a|un]] [[country|país]] [[like|como]] [[roads.|las carreteras.]]",
+          "question": "_______ [[includes the basic physical systems of a country like roads.|La infraestructura incluye los sistemas físicos básicos de un país como las carreteras.]]",
           "options": ["[[Infrastructure|Infraestructura]]", "[[Architecture|Arquitectura]]", "[[Agriculture|Agricultura]]"],
           "correctAnswer": 0,
           "explanation": "'Infrastructure' es vital para el desarrollo del turismo.",
@@ -1297,7 +1297,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el participio perfecto pasivo.",
       "questions": [
         {
-          "question": "_______ _______ _______ [[about|Habiendo sido advertidos]] [[the|sobre]] [[weather,|el clima,]] [[we|pospusimos]] [[postponed|la]] [[the|escalada.]] [[climb.| ]]",
+          "question": "_______ _______ _______ [[about the weather, we postponed the climb.|Habiendo sido advertidos sobre el clima, pospusimos la escalada.  ]]",
           "options": ["[[Having been warned|Habiendo sido advertidos]]", "[[Having warned|Habiendo advertido]]", "[[Being warned|Siendo advertidos]]"],
           "correctAnswer": 0,
           "explanation": "'Having been + participio' expresa una acción pasiva completada antes que la principal.",

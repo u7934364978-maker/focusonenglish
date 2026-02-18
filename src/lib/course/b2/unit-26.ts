@@ -12,7 +12,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Robo descarado",
       "instructions": "Ordena las palabras usando inversión negativa con 'Never'.",
-      "correctSentence": "[[Never|Nunca]] [[have|he]] [[I|visto]] [[seen|un]] [[such|acto]] [[a|de]] [[brazen|robo]] [[act|tan]] [[of|descarado.]] [[burglary.|]]",
+      "correctSentence": "[[Never have I seen such a brazen act of burglary.|Nunca he visto un acto de robo tan descarado. ]]",
       "words": [
         "[[seen|visto]]",
         "[[brazen|robo]]",
@@ -41,7 +41,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Seguridad de los testigos",
       "instructions": "Ordena las palabras para hablar de la protección de testigos.",
-      "correctSentence": "[[Rarely|Rara vez]] [[do|los testigos]] [[witnesses|se sienten]] [[feel|lo suficientemente]] [[safe|seguros]] [[enough|como para]] [[to|testificar]] [[testify|contra]] [[against|las]] [[gangs.|pandillas.]]",
+      "correctSentence": "[[Rarely do witnesses feel safe enough to testify against gangs.|Rara vez los testigos se sienten lo suficientemente seguros como para testificar contra las pandillas.]]",
       "words": [
         "[[safe|seguros]]",
         "[[Rarely|Rara vez]]",
@@ -70,7 +70,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Servicio comunitario",
       "instructions": "Ordena las palabras sobre una sentencia judicial.",
-      "correctSentence": "[[The|El]] [[judge|juez]] [[decided|decidió]] [[to|sentenciar]] [[sentence|al]] [[the|delincuente]] [[offender|a]] [[to|trabajos]] [[community|en beneficio de la]] [[service.|comunidad.]]",
+      "correctSentence": "[[The judge decided to sentence the offender to community service.|El juez decidió sentenciar al delincuente a trabajos en beneficio de la comunidad.]]",
       "words": [
         "[[decided|decidió]]",
         "[[offender|a]]",
@@ -99,7 +99,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Agente encubierto",
       "instructions": "Ordena las palabras usando 'Little did'.",
-      "correctSentence": "[[Little|Poco]] [[did|sabía]] [[the|el]] [[detective|detective]] [[know|que]] [[that|el]] [[the|sospechoso]] [[suspect|era]] [[was|un]] [[an|agente]] [[undercover|encubierto.]] [[agent.|]]",
+      "correctSentence": "[[Little did the detective know that the suspect was an undercover agent.|Poco sabía el detective que el sospechoso era un agente encubierto. ]]",
       "words": [
         "[[know|que]]",
         "[[detective|detective]]",
@@ -130,7 +130,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Carterista capturado",
       "instructions": "Ordena las palabras sobre una detención.",
-      "correctSentence": "[[The|La]] [[police|policía]] [[managed|logró]] [[to|atrapar]] [[catch|al]] [[the|carterista]] [[pickpocket|in]] [[in|fraganti.]] [[the|]] [[act.|]]",
+      "correctSentence": "[[The police managed to catch the pickpocket in the act.|La policía logró atrapar al carterista in fraganti.  ]]",
       "words": [
         "[[catch|al]]",
         "[[police|policía]]",
@@ -159,7 +159,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "La escena del crimen",
       "instructions": "Ordena las palabras usando 'Under no circumstances'.",
-      "correctSentence": "[[Under|Bajo]] [[no|ninguna]] [[circumstances|circunstancia]] [[should|deberías]] [[you|alterar]] [[tamper|la]] [[with|escena]] [[the|del]] [[crime|crimen.]] [[scene.|]]",
+      "correctSentence": "[[Under no circumstances should you tamper with the crime scene.|Bajo ninguna circunstancia deberías alterar la escena del crimen. ]]",
       "words": [
         "[[crime|crimen.]]",
         "[[should|deberías]]",
@@ -188,7 +188,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Falsificación",
       "instructions": "Ordena las palabras sobre delitos de falsedad.",
-      "correctSentence": "[[Forgery|La falsificación]] [[is|es]] [[a|un]] [[serious|delito]] [[offense|grave]] [[that|que]] [[can|puede]] [[lead|llevar]] [[to|a]] [[imprisonment.|la cárcel.]]",
+      "correctSentence": "[[Forgery is a serious offense that can lead to imprisonment.|La falsificación es un delito grave que puede llevar a la cárcel.]]",
       "words": [
         "[[is|es]]",
         "[[can|puede]]",
@@ -217,7 +217,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "El final del juicio",
       "instructions": "Ordena las palabras usando inversión con 'Only when'.",
-      "correctSentence": "[[Only|Solo]] [[when|cuando]] [[the|el]] [[trial|juicio]] [[was|terminó]] [[over|]] [[did|salió]] [[the|a]] [[truth|la]] [[emerge.|luz la verdad.]]",
+      "correctSentence": "[[Only when the trial was over did the truth emerge.|Solo cuando el juicio terminó  salió a la luz la verdad.]]",
       "words": [
         "[[trial|juicio]]",
         "[[did|salió]]",
@@ -246,7 +246,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Falsa acusación",
       "instructions": "Ordena las palabras sobre la defensa legal.",
-      "correctSentence": "[[The|El]] [[lawyer|abogado]] [[argued|argumentó]] [[that|que]] [[his|su]] [[client|cliente]] [[had|había]] [[been|sido]] [[falsely|acusado]] [[accused.|falsamente.]]",
+      "correctSentence": "[[The lawyer argued that his client had been falsely accused.|El abogado argumentó que su cliente había sido acusado falsamente.]]",
       "words": [
         "[[been|sido]]",
         "[[client|cliente]]",
@@ -275,7 +275,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Condena por fraude",
       "instructions": "Ordena las palabras usando 'Not only... but also'.",
-      "correctSentence": "[[Not|No]] [[only|solo]] [[was|fue]] [[he|condenado]] [[convicted|por]] [[of|fraude,]] [[fraud,|sino]] [[but|que]] [[he|también]] [[also|perdió]] [[lost|su]] [[his|licencia.]] [[license.|]]",
+      "correctSentence": "[[Not only was he convicted of fraud, but he also lost his license.|No solo fue condenado por fraude, sino que también perdió su licencia. ]]",
       "words": [
         "[[only|solo]]",
         "[[fraud,|sino]]",
@@ -307,7 +307,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Veredicto de inocencia",
       "instructions": "Ordena las palabras sobre un veredicto.",
-      "correctSentence": "[[The|El]] [[jury|jurado]] [[found|declaró]] [[the|al]] [[defendant|acusado]] [[not|no]] [[guilty|culpable]] [[due|por]] [[to|falta]] [[lack|de]] [[of|pruebas.]] [[evidence.|]]",
+      "correctSentence": "[[The jury found the defendant not guilty due to lack of evidence.|El jurado declaró al acusado no culpable por falta de pruebas. ]]",
       "words": [
         "[[jury|jurado]]",
         "[[due|por]]",
@@ -338,7 +338,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Huida de los ladrones",
       "instructions": "Ordena las palabras usando inversión con 'Scarcely'.",
-      "correctSentence": "[[Scarcely|Apenas]] [[had|había]] [[the|sonado]] [[alarm|la]] [[gone|alarma]] [[off|cuando]] [[when|los]] [[the|ladrones]] [[robbers|huyeron]] [[fled|del]] [[the|edificio.]] [[building.|]]",
+      "correctSentence": "[[Scarcely had the alarm gone off when the robbers fled the building.|Apenas había sonado la alarma cuando los ladrones huyeron del edificio. ]]",
       "words": [
         "[[had|había]]",
         "[[robbers|huyeron]]",
@@ -369,7 +369,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vandalismo",
       "instructions": "Ordena las palabras sobre infracciones menores.",
-      "correctSentence": "[[Vandalism|El vandalismo]] [[of|de]] [[public|la propiedad]] [[property|pública]] [[is|suele]] [[often|castigarse]] [[punished|con]] [[with|fuertes]] [[heavy|multas.]] [[fines.|]]",
+      "correctSentence": "[[Vandalism of public property is often punished with heavy fines.|El vandalismo de la propiedad pública suele castigarse con fuertes multas. ]]",
       "words": [
         "[[property|pública]]",
         "[[Vandalism|El vandalismo]]",
@@ -398,7 +398,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Caso mediático",
       "instructions": "Ordena las palabras usando inversión con 'Seldom'.",
-      "correctSentence": "[[Seldom|Rara vez]] [[has|un]] [[a|caso]] [[criminal|criminal]] [[case|ha]] [[attracted|atraído]] [[so|tanta]] [[much|atención]] [[media|de los]] [[attention.|medios.]]",
+      "correctSentence": "[[Seldom has a criminal case attracted so much media attention.|Rara vez un caso criminal ha atraído tanta atención de los medios.]]",
       "words": [
         "[[has|un]]",
         "[[a|caso]]",
@@ -427,7 +427,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Libertad bajo fianza",
       "instructions": "Ordena las palabras sobre el proceso judicial.",
-      "correctSentence": "[[The|El]] [[suspect|sospechoso]] [[was|fue]] [[released|puesto en libertad]] [[on|bajo]] [[bail|fianza]] [[pending|a la espera de]] [[further|una mayor]] [[investigation.|investigación.]]",
+      "correctSentence": "[[The suspect was released on bail pending further investigation.|El sospechoso fue puesto en libertad bajo fianza a la espera de una mayor investigación.]]",
       "words": [
         "[[was|fue]]",
         "[[investigation.|investigación.]]",
@@ -455,7 +455,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Nuevas pruebas",
       "instructions": "Ordena las palabras usando 'No sooner... than'.",
-      "correctSentence": "[[No|Apenas]] [[sooner|había]] [[had|comenzado]] [[the|el]] [[trial|juicio]] [[begun|cuando]] [[than|salieron]] [[new|a la]] [[evidence|luz]] [[came|nuevas]] [[to|pruebas.]] [[light.|]]",
+      "correctSentence": "[[No sooner had the trial begun than new evidence came to light.|Apenas había comenzado el juicio cuando salieron a la luz nuevas pruebas. ]]",
       "words": [
         "[[than|salieron]]",
         "[[had|comenzado]]",
@@ -486,7 +486,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hurto en tiendas",
       "instructions": "Ordena las palabras sobre el impacto del hurto.",
-      "correctSentence": "[[Shoplifting|El hurto en tiendas]] [[might|puede]] [[seem|parecer]] [[minor,|insignificante,]] [[but|pero]] [[it|afecta]] [[affects|profundamente]] [[local|a los]] [[businesses|negocios]] [[deeply.|locales.]]",
+      "correctSentence": "[[Shoplifting might seem minor, but it affects local businesses deeply.|El hurto en tiendas puede parecer insignificante, pero afecta profundamente a los negocios locales.]]",
       "words": [
         "[[seem|parecer]]",
         "[[businesses|negocios]]",
@@ -515,7 +515,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Transparencia legal",
       "instructions": "Ordena las palabras usando 'Hardly ever'.",
-      "correctSentence": "[[Hardly|Casi]] [[ever|nunca]] [[do|vemos]] [[we|tal]] [[see|transparencia]] [[such|en]] [[transparency|los]] [[in|procedimientos]] [[legal|legales.]] [[proceedings.|]]",
+      "correctSentence": "[[Hardly ever do we see such transparency in legal proceedings.|Casi nunca vemos tal transparencia en los procedimientos legales. ]]",
       "words": [
         "[[transparency|los]]",
         "[[proceedings.|]]",
@@ -544,7 +544,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Condena por incendio",
       "instructions": "Ordena las palabras sobre un delito grave.",
-      "correctSentence": "[[The|El]] [[arsonist|pirómano]] [[was|fue]] [[sentenced|condenado]] [[to|a]] [[ten|diez]] [[years|años]] [[in|en]] [[a|una]] [[high-security|prisión de]] [[prison.|máxima seguridad.]]",
+      "correctSentence": "[[The arsonist was sentenced to ten years in a high-security prison.|El pirómano fue condenado a diez años en una prisión de máxima seguridad.]]",
       "words": [
         "[[sentenced|condenado]]",
         "[[prison.|máxima seguridad.]]",
@@ -574,7 +574,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sin remordimiento",
       "instructions": "Ordena las palabras usando 'At no time'.",
-      "correctSentence": "[[At|En]] [[no|ningún]] [[time|momento]] [[did|mostró]] [[the|el]] [[defendant|acusado]] [[show|ningún]] [[any|remordimiento]] [[remorse|por]] [[for|sus]] [[his|crímenes.]] [[crimes.|]]",
+      "correctSentence": "[[At no time did the defendant show any remorse for his crimes.|En ningún momento mostró el acusado ningún remordimiento por sus crímenes. ]]",
       "words": [
         "[[defendant|acusado]]",
         "[[his|crímenes.]]",
@@ -605,7 +605,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Búsqueda de testigos",
       "instructions": "Ordena las palabras sobre una investigación policial.",
-      "correctSentence": "[[The|La]] [[police|policía]] [[are|está]] [[looking|buscando]] [[for|más]] [[more|testigos]] [[witnesses|para]] [[to|que]] [[provide|proporcionen]] [[information.|información.]]",
+      "correctSentence": "[[The police are looking for more witnesses to provide information.|La policía está buscando más testigos para que proporcionen información.]]",
       "words": [
         "[[looking|buscando]]",
         "[[information.|información.]]",
@@ -634,7 +634,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cibercrimen",
       "instructions": "Ordena las palabras para hablar de seguridad digital.",
-      "correctSentence": "[[Little|Poco]] [[has|se]] [[been|ha]] [[done|hecho]] [[to|para]] [[prevent|prevenir]] [[cybercrime|el cibercrimen]] [[in|en]] [[recent|los últimos]] [[years.|años.]]",
+      "correctSentence": "[[Little has been done to prevent cybercrime in recent years.|Poco se ha hecho para prevenir el cibercrimen en los últimos años.]]",
       "words": [
         "[[has|se]]",
         "[[years.|años.]]",
@@ -663,7 +663,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pena de muerte",
       "instructions": "Ordena las palabras usando 'Only in'.",
-      "correctSentence": "[[Only|Solo]] [[in|en]] [[extreme|casos]] [[cases|extremos]] [[should|debería]] [[the|considerarse]] [[death|la]] [[penalty|pena]] [[be|de]] [[considered.|muerte.]]",
+      "correctSentence": "[[Only in extreme cases should the death penalty be considered.|Solo en casos extremos debería considerarse la pena de muerte.]]",
       "words": [
         "[[death|la]]",
         "[[Only|Solo]]",
@@ -692,7 +692,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pruebas contundentes",
       "instructions": "Ordena las palabras sobre el papel de la fiscalía.",
-      "correctSentence": "[[The|La]] [[prosecution|fiscalía]] [[presented|presentó]] [[compelling|pruebas]] [[evidence|contundentes]] [[against|contra]] [[the|el]] [[suspect.|sospechoso.]]",
+      "correctSentence": "[[The prosecution presented compelling evidence against the suspect.|La fiscalía presentó pruebas contundentes contra el sospechoso.]]",
       "words": [
         "[[presented|presentó]]",
         "[[suspect.|sospechoso.]]",
@@ -719,7 +719,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Justicia rápida",
       "instructions": "Ordena las palabras usando inversión con 'Seldom'.",
-      "correctSentence": "[[Seldom|Rara vez]] [[has|se]] [[justice|ha]] [[been|hecho]] [[served|justicia]] [[so|tan]] [[swiftly|rápidamente]] [[in|en]] [[such|un]] [[a|caso]] [[complex|tan]] [[case.|complejo.]]",
+      "correctSentence": "[[Seldom has justice been served so swiftly in such a complex case.|Rara vez se ha hecho justicia tan rápidamente en un caso tan complejo.]]",
       "words": [
         "[[served|justicia]]",
         "[[case.|complejo.]]",

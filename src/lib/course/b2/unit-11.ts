@@ -12,7 +12,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Exposición de arte",
       "instructions": "Ordena las palabras para describir una galería.",
-      "correctSentence": "[[The|La]] [[exhibition|exposición]] [[showcases|exhibe]] [[a|una]] [[wide|amplia]] [[variety|variedad]] [[of|de]] [[contemporary|arte]] [[art.|contemporáneo.]]",
+      "correctSentence": "[[The exhibition showcases a wide variety of contemporary art.|La exposición exhibe una amplia variedad de arte contemporáneo.]]",
       "words": [
         "[[variety|variedad]]",
         "[[exhibition|exposición]]",
@@ -40,7 +40,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Asistencia al concierto",
       "instructions": "Ordena las palabras usando inversión en el tercer condicional.",
-      "correctSentence": "[[Had|Si]] [[the|las]] [[tickets|entradas]] [[been|hubieran]] [[cheaper,|sido más baratas,]] [[more|más]] [[people|gente]] [[would|habría]] [[have|asistido.]] [[attended.| ]]",
+      "correctSentence": "[[Had the tickets been cheaper, more people would have attended.|Si las entradas hubieran sido más baratas, más gente habría asistido.  ]]",
       "words": [
         "[[tickets|entradas]]",
         "[[Had|Si]]",
@@ -69,7 +69,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Escultora reconocida",
       "instructions": "Ordena las palabras para hablar de reputación artística.",
-      "correctSentence": "[[She|Ella]] [[is|es]] [[highly|muy]] [[regarded|considerada]] [[as|como]] [[one|una]] [[of|de]] [[the|las]] [[best|mejores]] [[sculptors|escultoras]] [[of|de]] [[her|su]] [[time.|tiempo.]]",
+      "correctSentence": "[[She is highly regarded as one of the best sculptors of her time.|Ella es muy considerada como una de las mejores escultoras de su tiempo.]]",
       "words": [
         "[[regarded|considerada]]",
         "[[She|Ella]]",
@@ -101,7 +101,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Restauración delicada",
       "instructions": "Ordena las palabras usando el subjuntivo formal.",
-      "correctSentence": "[[It|Es]] [[is|esencial]] [[essential|que]] [[that|la]] [[the|restauración]] [[restoration|se]] [[be|haga]] [[done|con]] [[carefully.|cuidado.]]",
+      "correctSentence": "[[It is essential that the restoration be done carefully.|Es esencial que la restauración se haga con cuidado.]]",
       "words": [
         "[[restoration|restauración]]",
         "[[is|esencial]]",
@@ -130,7 +130,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Éxito teatral",
       "instructions": "Ordena las palabras para hablar de un lleno total.",
-      "correctSentence": "[[The|La]] [[play|obra]] [[was|fue]] [[a|un]] [[massive|éxito]] [[success,|masivo,]] [[sold|entradas]] [[out|agotadas]] [[for|durante]] [[weeks.|semanas.]]",
+      "correctSentence": "[[The play was a massive success, sold out for weeks.|La obra fue un éxito masivo, entradas agotadas durante semanas.]]",
       "words": [
         "[[success,|masivo,]]",
         "[[play|obra]]",
@@ -159,7 +159,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Aplausos al inicio",
       "instructions": "Ordena las palabras usando la inversión 'Scarcely'.",
-      "correctSentence": "[[Scarcely|Apenas]] [[had|se]] [[the|había]] [[curtain|levantado]] [[risen|el]] [[when|telón]] [[the|cuando]] [[audience|el]] [[applauded.|público aplaudió.]]",
+      "correctSentence": "[[Scarcely had the curtain risen when the audience applauded.|Apenas se había levantado el telón cuando el público aplaudió.]]",
       "words": [
         "[[curtain|levantado]]",
         "[[had|se]]",
@@ -187,7 +187,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Capas de la novela",
       "instructions": "Ordena las palabras para hablar de literatura profunda.",
-      "correctSentence": "[[The|La]] [[novel|novela]] [[explores|explora]] [[the|las]] [[complex|complejas]] [[layers|capas]] [[of|de]] [[human|la identidad]] [[identity.|humana.]]",
+      "correctSentence": "[[The novel explores the complex layers of human identity.|La novela explora las complejas capas de la identidad humana.]]",
       "words": [
         "[[explores|explora]]",
         "[[novel|novela]]",
@@ -215,7 +215,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Normas del museo",
       "instructions": "Ordena las palabras usando 'I'd rather' para prohibiciones suaves.",
-      "correctSentence": "[[I'd|Preferiría]] [[rather|que]] [[you|no]] [[didn't|tocaras]] [[touch|los]] [[the|artefactos]] [[artifacts|en]] [[in|el]] [[the|museo.]] [[museum.| ]]",
+      "correctSentence": "[[I'd rather you didn't touch the artifacts in the museum.|Preferiría que no tocaras los artefactos en el museo.  ]]",
       "words": [
         "[[touch|los]]",
         "[[rather|que]]",
@@ -244,7 +244,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Obra maestra",
       "instructions": "Ordena las palabras para hablar de una exhibición central.",
-      "correctSentence": "[[His|Su]] [[latest|última]] [[masterpiece|obra maestra]] [[is|está]] [[displayed|exhibida]] [[in|en]] [[the|la]] [[main|sala]] [[hall.|principal.]]",
+      "correctSentence": "[[His latest masterpiece is displayed in the main hall.|Su última obra maestra está exhibida en la sala principal.]]",
       "words": [
         "[[latest|última]]",
         "[[masterpiece|obra maestra]]",
@@ -272,7 +272,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Actor famoso",
       "instructions": "Ordena las palabras usando 'Supposing' para hipótesis.",
-      "correctSentence": "[[Supposing|Suponiendo]] [[you|que]] [[were|fueras]] [[a|un]] [[famous|actor]] [[actor,|famoso,]] [[where|¿dónde]] [[would|vivirías?]] [[you| ]] [[live?| ]]",
+      "correctSentence": "[[Supposing you were a famous actor, where would you live?|Suponiendo que fueras un actor famoso, ¿dónde vivirías?    ]]",
       "words": [
         "[[were|fueras]]",
         "[[famous|actor]]",
@@ -301,7 +301,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Patrimonio cultural",
       "instructions": "Ordena las palabras para hablar de conservación.",
-      "correctSentence": "[[Cultural|El patrimonio]] [[heritage|cultural]] [[should|debería]] [[be|ser]] [[protected|protegido]] [[for|para]] [[future|las futuras]] [[generations.|generaciones.]]",
+      "correctSentence": "[[Cultural heritage should be protected for future generations.|El patrimonio cultural debería ser protegido para las futuras generaciones.]]",
       "words": [
         "[[heritage|cultural]]",
         "[[protected|protegido]]",
@@ -328,7 +328,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Maestro del piano",
       "instructions": "Ordena las palabras usando inversión con 'Only by'.",
-      "correctSentence": "[[Only|Solo]] [[by|practicando]] [[practicing|cada]] [[every|día]] [[day|logrará]] [[will|dominar]] [[he|el]] [[master|piano.]] [[the| ]] [[piano.| ]]",
+      "correctSentence": "[[Only by practicing every day will he master the piano.|Solo practicando cada día logrará dominar el piano.    ]]",
       "words": [
         "[[practicing|cada]]",
         "[[master|piano.]]",
@@ -357,7 +357,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mural local",
       "instructions": "Ordena las palabras para describir arte urbano.",
-      "correctSentence": "[[The|El]] [[mural|mural]] [[was|fue]] [[painted|pintado]] [[by|por]] [[a|un]] [[group|grupo]] [[of|de]] [[local|artistas]] [[artists.|locales.]]",
+      "correctSentence": "[[The mural was painted by a group of local artists.|El mural fue pintado por un grupo de artistas locales.]]",
       "words": [
         "[[painted|pintado]]",
         "[[group|grupo]]",
@@ -386,7 +386,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Festival financiado",
       "instructions": "Ordena las palabras usando 'Providing that'.",
-      "correctSentence": "[[Providing|Siempre]] [[that|que]] [[the|se]] [[funding|asegure]] [[is|la]] [[secured,|financiación,]] [[the|el]] [[festival|festival]] [[will|se]] [[proceed.|llevará a cabo.]]",
+      "correctSentence": "[[Providing that the funding is secured, the festival will proceed.|Siempre que se asegure la financiación, el festival se llevará a cabo.]]",
       "words": [
         "[[funding|asegure]]",
         "[[that|que]]",
@@ -415,7 +415,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Arquitectura híbrida",
       "instructions": "Ordena las palabras para hablar de diseño de edificios.",
-      "correctSentence": "[[The|El]] [[architect|arquitecto]] [[designed|diseñó]] [[a|un]] [[building|edificio]] [[that|que]] [[blends|combina]] [[tradition|la tradición]] [[with|con]] [[modernity.|la modernidad.]]",
+      "correctSentence": "[[The architect designed a building that blends tradition with modernity.|El arquitecto diseñó un edificio que combina la tradición con la modernidad.]]",
       "words": [
         "[[architect|arquitecto]]",
         "[[building|edificio]]",
@@ -444,7 +444,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ovación a la soprano",
       "instructions": "Ordena las palabras usando inversión con 'No sooner'.",
-      "correctSentence": "[[No|Apenas]] [[sooner|hubo]] [[had|terminado]] [[the|la]] [[soprano|soprano]] [[finished|cuando]] [[than|la]] [[crowd|multitud]] [[cheered.|vitoreó.]]",
+      "correctSentence": "[[No sooner had the soprano finished than crowd cheered.|Apenas hubo terminado la soprano cuando la multitud vitoreó.]]",
       "words": [
         "[[had|terminado]]",
         "[[soprano|soprano]]",
@@ -472,7 +472,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Adaptación cinematográfica",
       "instructions": "Ordena las palabras para hablar de guiones de cine.",
-      "correctSentence": "[[The|El]] [[film|guion]] [[script|de la película]] [[was|fue]] [[adapted|adaptado]] [[from|de]] [[a|una]] [[best-selling|novela]] [[novel.|superventas.]]",
+      "correctSentence": "[[The film script was adapted from a best-selling novel.|El guion de la película fue adaptado de una novela superventas.]]",
       "words": [
         "[[script|de la película]]",
         "[[adapted|adaptado]]",
@@ -500,7 +500,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Competencia artística",
       "instructions": "Ordena las palabras usando inversión en el tercer condicional.",
-      "correctSentence": "[[Had|Si]] [[she|ella]] [[practiced|hubiera]] [[more,|practicado más,]] [[she|podría]] [[might|haber]] [[have|ganado]] [[won|el]] [[the|concurso.]] [[competition.| ]]",
+      "correctSentence": "[[Had she practiced more, she might have won the competition.|Si ella hubiera practicado más, podría haber ganado el concurso.  ]]",
       "words": [
         "[[practiced|hubiera]]",
         "[[she|ella]]",
@@ -529,7 +529,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Crítica de arte",
       "instructions": "Ordena las palabras para hablar de análisis artístico.",
-      "correctSentence": "[[Art|La crítica]] [[criticism|de arte]] [[helps|nos ayuda]] [[us|a]] [[understand|entender]] [[the|las]] [[artist's|intenciones]] [[deeper|más profundas]] [[intentions.|del artista.]]",
+      "correctSentence": "[[Art criticism helps us understand the artist's deeper intentions.|La crítica de arte nos ayuda a entender las intenciones más profundas del artista.]]",
       "words": [
         "[[criticism|de arte]]",
         "[[understand|entender]]",
@@ -557,7 +557,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Público sentado",
       "instructions": "Ordena las palabras usando el subjuntivo tras 'recommended'.",
-      "correctSentence": "[[It|Se]] [[is|recomienda]] [[recommended|que]] [[that|el]] [[the|público]] [[audience|permanezca]] [[remain|sentado]] [[seated|durante]] [[during|la]] [[the|actuación.]] [[performance.| ]]",
+      "correctSentence": "[[It is recommended that the audience remain seated during the performance.|Se recomienda que el público permanezca sentado durante la actuación.  ]]",
       "words": [
         "[[recommended|que]]",
         "[[remain|permanezca]]",
@@ -587,7 +587,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sinfonía asombrosa",
       "instructions": "Ordena las palabras para describir un concierto.",
-      "correctSentence": "[[The|La]] [[orchestra|orquesta]] [[performed|interpretó]] [[a|una]] [[breathtaking|sinfonía]] [[symphony|asombrosa]] [[by|de]] [[Beethoven.|Beethoven.]]",
+      "correctSentence": "[[The orchestra performed a breathtaking symphony by Beethoven.|La orquesta interpretó una sinfonía asombrosa de Beethoven.]]",
       "words": [
         "[[performed|interpretó]]",
         "[[symphony|asombrosa]]",
@@ -614,7 +614,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Arte abstracto",
       "instructions": "Ordena las palabras usando inversión negativa con 'Never'.",
-      "correctSentence": "[[Never|Nunca]] [[have|he]] [[I|visto]] [[seen|una]] [[a|pieza]] [[more|más]] [[evocativa]] [[evocative|de]] [[piece|arte]] [[of|abstracto.]] [[abstract| ]] [[art.| ]]",
+      "correctSentence": "[[Never have I seen a more evocativa]] [[evocative piece of abstract art.|Nunca he visto una pieza más de arte abstracto.    ]]",
       "words": [
         "[[seen|una]]",
         "[[have|he]]",
@@ -645,7 +645,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Tradición oral",
       "instructions": "Ordena las palabras para hablar de culturas nativas.",
-      "correctSentence": "[[Indigenous|Las culturas]] [[cultures|indígenas]] [[have|tienen]] [[a|una]] [[rich|rica]] [[tradition|tradición]] [[of|de]] [[oral|narración]] [[storytelling.|oral.]]",
+      "correctSentence": "[[Indigenous cultures have a rich tradition of oral storytelling.|Las culturas indígenas tienen una rica tradición de narración oral.]]",
       "words": [
         "[[cultures|indígenas]]",
         "[[storytelling.|oral.]]",
@@ -673,7 +673,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Discurso de premio",
       "instructions": "Ordena las palabras usando inversión en el segundo condicional.",
-      "correctSentence": "[[Were|Si]] [[he|él]] [[to|ganara]] [[win|el]] [[the|premio,]] [[award,|daría]] [[he|un]] [[would|discurso.]] [[give| ]] [[a| ]] [[speech.| ]]",
+      "correctSentence": "[[Were he to win the award, he would give a speech.|Si él ganara el premio, daría un discurso.      ]]",
       "words": [
         "[[to|ganara]]",
         "[[he|él]]",
@@ -702,7 +702,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Arte y belleza",
       "instructions": "Ordena las palabras para hablar de estética moderna.",
-      "correctSentence": "[[Modern|El arte]] [[art|moderno]] [[often|a menudo]] [[challenges|desafía]] [[traditional|las percepciones]] [[perceptions|tradicionales]] [[of|de]] [[beauty.|la belleza.]]",
+      "correctSentence": "[[Modern art often challenges traditional perceptions of beauty.|El arte moderno a menudo desafía las percepciones tradicionales de la belleza.]]",
       "words": [
         "[[art|moderno]]",
         "[[challenges|desafía]]",
@@ -733,7 +733,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un nombre artístico o literario.",
       "questions": [
         {
-          "question": "[[The|El]] [[author|autor]] [[used|usó]] [[a|un]] _______ [[to|para]] [[remain|permanecer]] [[anonymous.|anónimo.]]",
+          "question": "[[The author used a|El autor usó un]] _______ [[to remain anonymous.|para permanecer anónimo.]]",
           "options": ["[[pen name|seudónimo]]", "[[nickname|apodo]]", "[[surname|apellido]]"],
           "correctAnswer": 0,
           "explanation": "Un 'pen name' (o pseudonym) es el nombre que un autor usa en lugar de su nombre real.",
@@ -756,7 +756,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra adecuada para completar la inversión con 'Little'.",
       "questions": [
         {
-          "question": "[[Little|Poco]] _______ [[the|el]] [[public|público]] [[know|sabía]] [[that|que]] [[the|la]] [[painting|pintura]] [[was|era]] [[a|una]] [[forgery.|falsificación.]]",
+          "question": "[[Little public know that the painting was a forgery.|Poco]] _______ [[the|el público sabía que la pintura era una falsificación.]]",
           "options": ["[[did|sabía]]", "[[had|había]]", "[[do|sabe]]"],
           "correctAnswer": 0,
           "explanation": "Uso de 'Little did + sujeto + infinitivo' para expresar falta de conocimiento total.",
@@ -779,7 +779,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa que algo capta mucho tu atención.",
       "questions": [
         {
-          "question": "[[The|La]] [[novel|novela]] [[was|era]] [[so|tan]] _______ [[that|que]] [[I|no]] [[couldn't|pude]] [[put|soltarla.]] [[it| ]] [[down.| ]]",
+          "question": "[[The novel was so it down.|La novela era tan]] _______ [[that I couldn't put|que no pude soltarla.    ]]",
           "options": ["[[boring|aburrida]]", "[[gripping|apasionante]]", "[[heavy|pesada]]"],
           "correctAnswer": 1,
           "explanation": "'Gripping' describe algo que mantiene tu interés de forma intensa.",
@@ -802,7 +802,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para arrepentimiento tras 'If only'.",
       "questions": [
         {
-          "question": "[[If|Ojalá]] [[only| ]] [[I|hubiera]] _______ [[seen|visto]] [[that|esa]] [[theater|obra]] [[performance|de teatro]] [[last|anoche.]] [[night.| ]]",
+          "question": "[[If only I that last night.|Ojalá   hubiera]] _______ [[seen theater performance|visto esa obra de teatro anoche.  ]]",
           "options": ["[[did|hice]]", "[[had|hubiera]]", "[[have|había]]"],
           "correctAnswer": 1,
           "explanation": "'If only' + past perfect expresa un fuerte deseo sobre algo que no ocurrió en el pasado.",
@@ -825,7 +825,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa que algo tiene un valor incalculable.",
       "questions": [
         {
-          "question": "[[The|La]] [[museum's|colección]] [[collection|del]] [[includes|museo]] [[several|incluye]] _______ [[artifacts.|artefactos invaluables.]]",
+          "question": "[[The museum's collection includes several|La colección del museo incluye]] _______ [[artifacts.|artefactos invaluables.]]",
           "options": ["[[priceless|invaluables]]", "[[worthless|sin valor]]", "[[cheap|baratos]]"],
           "correctAnswer": 0,
           "explanation": "'Priceless' significa que algo tiene tanto valor que no se le puede poner precio.",
@@ -848,7 +848,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del subjuntivo para un deseo sobre el presente.",
       "questions": [
         {
-          "question": "[[I|Ojalá]] [[wish| ]] [[I|fuera]] _______ [[more|más]] [[creative|creativo]] [[with|con]] [[watercolors.|las acuarelas.]]",
+          "question": "[[I wish I creative|Ojalá   fuera]] _______ [[more with watercolors.|más creativo con las acuarelas.]]",
           "options": ["[[am|soy]]", "[[were|fuera]]", "[[was|era]]"],
           "correctAnswer": 1,
           "explanation": "Tras 'I wish', se usa 'were' para todas las personas en situaciones hipotéticas presentes.",
@@ -871,7 +871,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo para críticas extremadamente positivas.",
       "questions": [
         {
-          "question": "[[The|La]] [[film|película]] [[received|recibió]] _______ [[reviews|críticas]] [[from|de]] [[critics|críticos]] [[worldwide.|de todo el mundo.]]",
+          "question": "[[The film received from|La película recibió]] _______ [[reviews critics worldwide.|críticas de críticos de todo el mundo.]]",
           "options": ["[[rare|raras]]", "[[rave|entusiastas]]", "[[rough|ásperas]]"],
           "correctAnswer": 1,
           "explanation": "'Rave reviews' son críticas que elogian mucho una obra.",
@@ -894,7 +894,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta tras 'I'd rather' para otra persona.",
       "questions": [
         {
-          "question": "[[I'd|Preferiría]] [[rather|que]] [[you|no]] _______ [[the|revelaras]] [[ending|el]] [[of|final]] [[the|del]] [[book.|libro.]]",
+          "question": "[[I'd rather you ending book.|Preferiría que no]] _______ [[the of the|revelaras el final del libro.]]",
           "options": ["[[didn't|revelaras]]", "[[not|no]]", "[[don't|revelas]]"],
           "correctAnswer": 0,
           "explanation": "Con un sujeto distinto, usamos past simple negativo (didn't) para una preferencia actual.",
@@ -917,7 +917,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la persona que crea bailes.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[created|creó]] [[a|una]] [[fusion|fusión]] [[of|de]] [[classical|danza]] [[and|clásica]] [[modern|y]] [[dance.|moderna.]]",
+          "question": "[[The a fusion of classical and modern dance.|El]] _______ [[created|creó una fusión de danza clásica y moderna.]]",
           "options": ["[[choreographer|coreógrafo]]", "[[composer|compositor]]", "[[conductor|director]]"],
           "correctAnswer": 0,
           "explanation": "Un 'choreographer' diseña las secuencias de movimientos para bailarines.",
@@ -940,7 +940,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra adecuada para la inversión con 'Hardly'.",
       "questions": [
         {
-          "question": "[[Hardly|Apenas]] _______ [[the|había]] [[performance|comenzado]] [[begun|la]] [[when|actuación]] [[a|cuando]] [[phone|sonó]] [[rang.|un teléfono.]]",
+          "question": "[[Hardly performance begun when a phone rang.|Apenas]] _______ [[the|había comenzado la actuación cuando sonó un teléfono.]]",
           "options": ["[[did|hizo]]", "[[has|ha]]", "[[had|había]]"],
           "correctAnswer": 2,
           "explanation": "'Hardly' al inicio de frase requiere inversión del auxiliar (had) y el sujeto.",
@@ -963,7 +963,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa 'muy decorado'.",
       "questions": [
         {
-          "question": "[[The|La]] [[building's|fachada]] [[facade|del]] [[is|edificio]] [[decorated|está]] [[with|decorada]] _______ [[carvings.|con tallas ornamentadas.]]",
+          "question": "[[The building's facade is decorated with|La fachada del edificio está decorada]] _______ [[carvings.|con tallas ornamentadas.]]",
           "options": ["[[ornate|ornamentadas]]", "[[ordinary|ordinarias]]", "[[obvious|obvias]]"],
           "correctAnswer": 0,
           "explanation": "'Ornate' describe algo con muchos detalles decorativos complejos.",
@@ -986,7 +986,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para el subjuntivo formal.",
       "questions": [
         {
-          "question": "[[It|Es]] [[is|vital]] [[vital|que]] [[that|el]] [[the|artista]] _______ [[the|preserve]] [[original|la]] [[color|paleta]] [[palette.|original de colores.]]",
+          "question": "[[It is vital that the original color palette.|Es vital que el artista]] _______ [[the|preserve la paleta original de colores.]]",
           "options": ["[[preserve|preserve]]", "[[preserving|preservando]]", "[[preserves|preserva]]"],
           "correctAnswer": 0,
           "explanation": "Tras 'vital that', el verbo se usa en su forma base (preserve).",
@@ -1009,7 +1009,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa 'notable' o 'extraordinario'.",
       "questions": [
         {
-          "question": "[[The|La]] [[soprano|soprano]] [[sang|cantó]] [[a|una]] [[high|nota]] [[note|alta]] [[with|con]] _______ [[ease.|una facilidad notable.]]",
+          "question": "[[The soprano sang a high note with|La soprano cantó una nota alta con]] _______ [[ease.|una facilidad notable.]]",
           "options": ["[[remarkable|notable]]", "[[respectable|respetable]]", "[[removable|extraíble]]"],
           "correctAnswer": 0,
           "explanation": "'Remarkable' se usa para algo digno de atención por ser inusual o excelente.",
@@ -1032,7 +1032,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para completar la inversión del segundo condicional.",
       "questions": [
         {
-          "question": "_______ [[they|Si]] [[to|ellos]] [[discover|descubrieran]] [[the|la]] [[lost|ciudad]] [[city,|perdida,]] [[it|cambiaría]] [[would|la]] [[change|historia.]] [[history.| ]]",
+          "question": "_______ [[they to discover the lost city, it would change history.|Si ellos descubrieran la ciudad perdida, cambiaría la historia.  ]]",
           "options": ["[[Did|Hizo]]", "[[Was|Era]]", "[[Were|Si]]"],
           "correctAnswer": 2,
           "explanation": "Inversión con 'Were + sujeto + to + infinitivo' para hipótesis improbables.",
@@ -1055,7 +1055,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige el phrasal verb que significa 'transmitir'.",
       "questions": [
         {
-          "question": "[[Traditional|La artesanía]] [[crafts|tradicional]] [[are|se]] _______ [[down|transmite]] [[through|de]] [[the|generación]] [[generations.|en generación.]]",
+          "question": "[[Traditional crafts are through|La artesanía tradicional se]] _______ [[down the generations.|transmite de generación en generación.]]",
           "options": ["[[played|juega]]", "[[picked|recogida]]", "[[passed|transmite]]"],
           "correctAnswer": 2,
           "explanation": "'Pass down' se usa para conocimientos o tradiciones que se heredan.",
@@ -1078,7 +1078,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del subjuntivo tras 'suggest'.",
       "questions": [
         {
-          "question": "[[I|Sugiero]] [[suggest|que]] [[that|el]] [[the|curador]] _______ [[more|seleccione]] [[diverse|piezas]] [[pieces.|más diversas.]]",
+          "question": "[[I suggest that the|Sugiero que el curador]] _______ [[more diverse pieces.|seleccione piezas más diversas.]]",
           "options": ["[[select|seleccione]]", "[[selecting|seleccionando]]", "[[selects|selecciona]]"],
           "correctAnswer": 0,
           "explanation": "Tras 'suggest that', el verbo va en forma base (select) en inglés formal.",
@@ -1101,7 +1101,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para cuando el público aplaude de pie.",
       "questions": [
         {
-          "question": "[[The|El]] [[audience|público]] [[gave|dio]] [[a|una]] _______ [[after|tras]] [[the|el]] [[final|acto]] [[act.|final.]]",
+          "question": "[[The audience gave a|El público dio una]] _______ [[after the final act.|tras el acto final.]]",
           "options": ["[[standing ovation|ovación de pie]]", "[[loud laugh|carcajada]]", "[[quick exit|salida rápida]]"],
           "correctAnswer": 0,
           "explanation": "Una 'standing ovation' es el mayor honor que el público da a un artista.",
@@ -1124,7 +1124,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector condicional formal.",
       "questions": [
         {
-          "question": "_______ [[you|si]] [[have|tienes]] [[the|la]] [[ticket,|entrada,]] [[you|puedes]] [[can|entrar]] [[enter|a]] [[the|la]] [[gallery.|galería.]]",
+          "question": "_______ [[you have the ticket, you can enter the gallery.|si tienes la entrada, puedes entrar a la galería.]]",
           "options": ["[[Providing|Siempre que]]", "[[Unless|A menos que]]", "[[Whether|Si (elección)]]"],
           "correctAnswer": 0,
           "explanation": "'Providing' se usa para indicar una condición necesaria para que algo ocurra.",
@@ -1147,7 +1147,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el artesano que trabaja el barro.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[shaped|dio forma]] [[the|al]] [[clay|barro]] [[on|en]] [[a|un]] [[rotating|torno]] [[wheel.|giratorio.]]",
+          "question": "[[The the clay on a rotating wheel.|El]] _______ [[shaped|dio forma al barro en un torno giratorio.]]",
           "options": ["[[poet|poeta]]", "[[potter|alfarero]]", "[[painter|pintor]]"],
           "correctAnswer": 1,
           "explanation": "Un 'potter' hace cuencos, platos y otros objetos de cerámica o barro.",
@@ -1170,7 +1170,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para completar la inversión con 'Not until'.",
       "questions": [
         {
-          "question": "[[Not|No]] [[until|fue]] [[the|hasta]] [[end|el]] [[of|final]] [[the|de]] [[film|la película]] _______ [[the|que]] [[true|el verdadero]] [[culprit|culpable]] [[appear.|apareció.]]",
+          "question": "[[Not until the end of the film true|No fue hasta el final de la película]] _______ [[the culprit appear.|que el verdadero culpable apareció.]]",
           "options": ["[[did|hizo]]", "[[does|hace]]", "[[had|había]]"],
           "correctAnswer": 0,
           "explanation": "Tras 'Not until + tiempo/acción', se invierte el sujeto y el auxiliar (did).",
@@ -1193,7 +1193,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa 'de fuentes muy variadas'.",
       "questions": [
         {
-          "question": "[[The|El]] [[festival|festival]] [[features|presenta]] [[an|una]] _______ [[mix|mezcla]] [[of|de]] [[music|géneros]] [[genres.|musicales.]]",
+          "question": "[[The festival features an|El festival presenta una]] _______ [[mix of music genres.|mezcla de géneros musicales.]]",
           "options": ["[[eclectic|ecléctica]]", "[[elastic|elástica]]", "[[electric|eléctrica]]"],
           "correctAnswer": 0,
           "explanation": "'Eclectic' describe un gusto o estilo compuesto por elementos muy diversos.",
@@ -1216,7 +1216,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del futuro perfecto.",
       "questions": [
         {
-          "question": "[[By|Para]] [[the|el]] [[end|final]] [[of|del]] [[the|viaje,]] [[tour,|habrán]] [[they|visitado]] _______ [[visited|diez]] [[ten|museos.]] [[museums.| ]]",
+          "question": "[[By the end of the tour, they ten|Para el final del viaje, habrán visitado]] _______ [[visited museums.|diez museos.  ]]",
           "options": ["[[will do|harán]]", "[[will be|estarán]]", "[[will have|habrán]]"],
           "correctAnswer": 2,
           "explanation": "Future perfect (will have + participio) para acciones terminadas en el futuro.",
@@ -1239,7 +1239,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa 'muy detallado y complejo'.",
       "questions": [
         {
-          "question": "[[The|Los]] [[statue's|detalles]] _______ [[details|intrincados]] [[show|de la estatua]] [[the|muestran]] [[artist's|la habilidad]] [[skill.|del artista.]]",
+          "question": "[[The statue's the artist's skill.|Los detalles]] _______ [[details show|intrincados de la estatua muestran la habilidad del artista.]]",
           "options": ["[[invisible|invisibles]]", "[[intricate|intrincados]]", "[[interior|interiores]]"],
           "correctAnswer": 1,
           "explanation": "'Intricate' se refiere a algo con muchas partes pequeñas y complejas.",
@@ -1262,7 +1262,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal adecuada tras 'Suppose'.",
       "questions": [
         {
-          "question": "[[Suppose|Imagina]] [[you|que]] _______ [[could|pudieras]] [[travel|viajar]] [[back|atrás]] [[in|en]] [[time|el tiempo]] [[to|al]] [[the|Renacimiento.]] [[Renaissance.| ]]",
+          "question": "[[Suppose you back in time to the Renaissance.|Imagina que]] _______ [[could travel|pudieras viajar atrás en el tiempo al Renacimiento.  ]]",
           "options": ["[[will|podrás]]", "[[can|puedes]]", "[[could|pudieras]]"],
           "correctAnswer": 2,
           "explanation": "'Suppose' se sigue de past simple (o could) para situaciones imaginarias en el presente.",
@@ -1285,7 +1285,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el tipo de pintura hecha con aceites.",
       "questions": [
         {
-          "question": "[[The|La]] [[gallery|galería]] [[specializes|se especializa]] [[in|en]] _______ [[paintings|pinturas al óleo]] [[from|del]] [[the|siglo]] [[19th|XIX.]] [[century.| ]]",
+          "question": "[[The gallery specializes in century.|La galería se especializa en]] _______ [[paintings from the 19th|pinturas al óleo del siglo XIX.  ]]",
           "options": ["[[water|agua]]", "[[oil|óleo]]", "[[ink|tinta]]"],
           "correctAnswer": 1,
           "explanation": "'Oil paintings' son óleos, una técnica clásica muy común en el siglo XIX.",

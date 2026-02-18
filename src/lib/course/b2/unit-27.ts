@@ -12,7 +12,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Objetividad científica",
       "instructions": "Ordena las palabras usando el subjuntivo formal (base form).",
-      "correctSentence": "[[It|Es]] [[is|esencial]] [[essential|que]] [[that|cada]] [[every|científico]] [[scientist|se mantenga]] [[remain|objetivo]] [[objective|durante]] [[during|los]] [[experiments.|experimentos.]]",
+      "correctSentence": "[[It is essential that every scientist remain objective during experiments.|Es esencial que cada científico se mantenga objetivo durante los experimentos.]]",
       "words": [
         "[[scientist|se mantenga]]",
         "[[It|Es]]",
@@ -41,7 +41,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Financiación de la investigación",
       "instructions": "Ordena las palabras sobre una recomendación oficial.",
-      "correctSentence": "[[The|El]] [[committee|comité]] [[recommended|recomendó]] [[that|que]] [[the|la]] [[research|investigación]] [[be|sea]] [[funded|financiada]] [[immediately.|inmediatamente.]]",
+      "correctSentence": "[[The committee recommended that the research be funded immediately.|El comité recomendó que la investigación sea financiada inmediatamente.]]",
       "words": [
         "[[research|investigación]]",
         "[[immediately.|inmediatamente.]]",
@@ -69,7 +69,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Avances en IA",
       "instructions": "Ordena las palabras sobre tecnología moderna.",
-      "correctSentence": "[[Breakthroughs|Los avances]] [[in|en]] [[artificial|inteligencia]] [[intelligence|artificial]] [[are|están]] [[reshaping|remodelando]] [[the|la]] [[global|economía]] [[economy.|global.]]",
+      "correctSentence": "[[Breakthroughs in artificial intelligence are reshaping the global economy.|Los avances en inteligencia artificial están remodelando la economía global.]]",
       "words": [
         "[[artificial|inteligencia]]",
         "[[are|están]]",
@@ -97,7 +97,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Consulta de expertos",
       "instructions": "Ordena las palabras usando el subjuntivo formal con 'suggest'.",
-      "correctSentence": "[[I|Sugiero]] [[suggest|que]] [[that|ella]] [[she|consulte]] [[consult|a]] [[a|un]] [[specialist|especialista]] [[before|antes]] [[proceeding|de]] [[with|proceder]] [[the|con]] [[trial.|el ensayo.]]",
+      "correctSentence": "[[I suggest that she consult a specialist before proceeding with the trial.|Sugiero que ella consulte a un especialista antes de proceder con el ensayo.]]",
       "words": [
         "[[she|consulte]]",
         "[[suggest|que]]",
@@ -128,7 +128,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Energías renovables",
       "instructions": "Ordena las palabras sobre sostenibilidad.",
-      "correctSentence": "[[Renewable|Las fuentes]] [[energy|de energía]] [[sources|renovable]] [[are|se están]] [[becoming|volviendo]] [[more|más]] [[efficient|eficientes]] [[and|y]] [[affordable.|asequibles.]]",
+      "correctSentence": "[[Renewable energy sources are becoming more efficient and affordable.|Las fuentes de energía renovable se están volviendo más eficientes y asequibles.]]",
       "words": [
         "[[efficient|eficientes]]",
         "[[and|y]]",
@@ -156,7 +156,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Protección de datos",
       "instructions": "Ordena las palabras usando el subjuntivo con 'vital that'.",
-      "correctSentence": "[[It|Es]] [[is|vital]] [[vital|que]] [[that|protejamos]] [[we|nuestros]] [[protect|datos]] [[our|de]] [[data|los]] [[from|ciberataques.]] [[cyber|]] [[attacks.|]]",
+      "correctSentence": "[[It is vital that we protect our data from cyber attacks.|Es vital que protejamos nuestros datos de los ciberataques.  ]]",
       "words": [
         "[[vital|que]]",
         "[[data|los]]",
@@ -186,7 +186,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Equipo de vanguardia",
       "instructions": "Ordena las palabras sobre instalaciones científicas.",
-      "correctSentence": "[[The|El]] [[laboratory|laboratorio]] [[has|tiene]] [[state-of-the-art|equipo]] [[equipment|de vanguardia]] [[for|para]] [[genetic|pruebas]] [[testing.|genéticas.]]",
+      "correctSentence": "[[The laboratory has state-of-the-art equipment for genetic testing.|El laboratorio tiene equipo de vanguardia para pruebas genéticas.]]",
       "words": [
         "[[state-of-the-art|equipo]]",
         "[[genetic|pruebas]]",
@@ -213,7 +213,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Propuesta de finalización",
       "instructions": "Ordena las palabras con el subjuntivo formal 'be completed'.",
-      "correctSentence": "[[He|Él]] [[proposed|propuso]] [[that|que]] [[the|el]] [[project|proyecto]] [[be|sea]] [[completed|finalizado]] [[by|para]] [[the|final]] [[end|de]] [[of|mes.]] [[the|]] [[month.|]]",
+      "correctSentence": "[[He proposed that the project be completed by the end of the month.|Él propuso que el proyecto sea finalizado para final de mes.  ]]",
       "words": [
         "[[that|que]]",
         "[[proposed|propuso]]",
@@ -245,7 +245,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Exploración espacial",
       "instructions": "Ordena las palabras sobre ciencia espacial.",
-      "correctSentence": "[[Space|La exploración]] [[exploration|espacial]] [[provides|proporciona]] [[valuable|información]] [[insights|valiosa]] [[into|sobre]] [[the|el]] [[origin|origen]] [[of|de]] [[our|nuestro]] [[solar|sistema]] [[system.|solar.]]",
+      "correctSentence": "[[Space exploration provides valuable insights into the origin of our solar system.|La exploración espacial proporciona información valiosa sobre el origen de nuestro sistema solar.]]",
       "words": [
         "[[origin|origen]]",
         "[[insights|valiosa]]",
@@ -276,7 +276,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inversión en I+D",
       "instructions": "Ordena las palabras usando 'imperative that'.",
-      "correctSentence": "[[It|Es]] [[is|imperativo]] [[imperative|que]] [[that|el]] [[the|gobierno]] [[government|invierta]] [[invest|más]] [[more|en]] [[in|investigación]] [[research|y]] [[and|desarrollo.]] [[development.|]]",
+      "correctSentence": "[[It is imperative that the government invest more in research and development.|Es imperativo que el gobierno invierta más en investigación y desarrollo. ]]",
       "words": [
         "[[research|investigación]]",
         "[[invest|invierta]]",
@@ -307,7 +307,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Actualización de software",
       "instructions": "Ordena las palabras sobre tecnología.",
-      "correctSentence": "[[The|La]] [[software|actualización]] [[update|de]] [[fixed|software]] [[several|corrigió]] [[bugs|varios]] [[and|errores]] [[improved|y]] [[overall|mejoró]] [[performance.|el rendimiento general.]]",
+      "correctSentence": "[[The software update fixed several bugs and improved overall performance.|La actualización de software corrigió varios errores y mejoró el rendimiento general.]]",
       "words": [
         "[[fixed|corrigió]]",
         "[[overall|mejoró]]",
@@ -336,7 +336,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Explicación detallada",
       "instructions": "Ordena las palabras con el subjuntivo 'provide'.",
-      "correctSentence": "[[They|Insistieron]] [[insisted|en]] [[that|que]] [[he|él]] [[provide|proporcionara]] [[a|una]] [[detailed|explicación]] [[explanation|detallada]] [[of|de]] [[the|los]] [[results.|resultados.]]",
+      "correctSentence": "[[They insisted that he provide a detailed explanation of the results.|Insistieron en que él proporcionara una explicación detallada de los resultados.]]",
       "words": [
         "[[that|que]]",
         "[[explanation|detallada]]",
@@ -366,7 +366,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ética en biotecnología",
       "instructions": "Ordena las palabras sobre dilemas científicos.",
-      "correctSentence": "[[Ethical|Las consideraciones]] [[considerations|éticas]] [[are|son]] [[crucial|cruciales]] [[when|al]] [[developing|desarrollar]] [[new|nuevas]] [[biotechnologies.|biotecnologías.]]",
+      "correctSentence": "[[Ethical considerations are crucial when developing new biotechnologies.|Las consideraciones éticas son cruciales al desarrollar nuevas biotecnologías.]]",
       "words": [
         "[[new|nuevas]]",
         "[[developing|desarrollar]]",
@@ -393,7 +393,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Documentación rigurosa",
       "instructions": "Ordena las palabras usando el subjuntivo formal con 'document'.",
-      "correctSentence": "[[It|Es]] [[is|importante]] [[important|que]] [[that|un]] [[a|investigador]] [[researcher|documente]] [[document|cada]] [[every|paso]] [[step|del]] [[of|proceso.]] [[the|]] [[process.|]]",
+      "correctSentence": "[[It is important that a researcher document every step of the process.|Es importante que un investigador documente cada paso del proceso.  ]]",
       "words": [
         "[[document|cada]]",
         "[[is|importante]]",
@@ -424,7 +424,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Tecnología de punta",
       "instructions": "Ordena las palabras sobre exploración marina.",
-      "correctSentence": "[[Cutting-edge|La tecnología]] [[technology|punta]] [[allows|nos]] [[us|permite]] [[to|explorar]] [[explore|entornos]] [[deep-sea|de]] [[environments.|aguas profundas.]]",
+      "correctSentence": "[[Cutting-edge technology allows us to explore deep-sea environments.|La tecnología punta nos permite explorar entornos de aguas profundas.]]",
       "words": [
         "[[deep-sea|de]]",
         "[[technology|punta]]",
@@ -451,7 +451,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Responsabilidad",
       "instructions": "Ordena las palabras usando el subjuntivo pasivo 'be held'.",
-      "correctSentence": "[[I|Exijo]] [[demand|que]] [[that|él]] [[he|sea]] [[be|considerado]] [[held|responsable]] [[accountable|de]] [[for|la]] [[the|filtración]] [[data|de]] [[breach.|datos.]]",
+      "correctSentence": "[[I demand that he be held accountable for the data breach.|Exijo que él sea considerado responsable de la filtración de datos.]]",
       "words": [
         "[[data|de]]",
         "[[held|responsable]]",
@@ -481,7 +481,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "La revolución de internet",
       "instructions": "Ordena las palabras sobre hitos tecnológicos.",
-      "correctSentence": "[[The|La]] [[invention|invención]] [[of|de]] [[the|internet]] [[internet|revolucionó]] [[revolutionized|cómo]] [[how|accedemos]] [[we|a]] [[access|la]] [[information.|información.]]",
+      "correctSentence": "[[The invention of the internet revolutionized how we access information.|La invención de internet revolucionó cómo accedemos a la información.]]",
       "words": [
         "[[internet|revolucionó]]",
         "[[The|La]]",
@@ -510,7 +510,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Verificación externa",
       "instructions": "Ordena las palabras con 'desirable that'.",
-      "correctSentence": "[[It|Es]] [[is|deseable]] [[desirable|que]] [[that|los]] [[the|resultados]] [[test|de]] [[results|la]] [[be|prueba]] [[verified|sean]] [[by|verificados]] [[a|por]] [[third|un]] [[party.|tercero.]]",
+      "correctSentence": "[[It is desirable that the test results be verified by a third party.|Es deseable que los resultados de la prueba sean verificados por un tercero.]]",
       "words": [
         "[[results|la]]",
         "[[desirable|que]]",
@@ -542,7 +542,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Avances médicos",
       "instructions": "Ordena las palabras sobre tecnología y salud.",
-      "correctSentence": "[[Technological|Los avances]] [[advancements|tecnológicos]] [[have|han]] [[led|llevado]] [[to|a]] [[significant|mejoras]] [[improvements|significativas]] [[in|en]] [[healthcare.|la atención médica.]]",
+      "correctSentence": "[[Technological advancements have led to significant improvements in healthcare.|Los avances tecnológicos han llevado a mejoras significativas en la atención médica.]]",
       "words": [
         "[[led|llevado]]",
         "[[advancements|tecnológicos]]",
@@ -570,7 +570,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cifrado de archivos",
       "instructions": "Ordena las palabras con el subjuntivo 'be encrypted'.",
-      "correctSentence": "[[The|El]] [[director|director]] [[requested|solicitó]] [[that|que]] [[all|todos]] [[files|los]] [[be|archivos]] [[encrypted|sean]] [[for|cifrados]] [[for|por]] [[security.|seguridad.]]",
+      "correctSentence": "[[The director requested that all files be encrypted for for security.|El director solicitó que todos los archivos sean cifrados por seguridad.]]",
       "words": [
         "[[requested|solicitó]]",
         "[[encrypted|sean]]",
@@ -600,7 +600,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Alfabetización digital",
       "instructions": "Ordena las palabras sobre habilidades modernas.",
-      "correctSentence": "[[Digital|La alfabetización]] [[literacy|digital]] [[is|es]] [[an|una]] [[essential|habilidad]] [[skill|esencial]] [[in|en]] [[the|el]] [[twenty-first|siglo]] [[century.|veintiuno.]]",
+      "correctSentence": "[[Digital literacy is an essential skill in the twenty-first century.|La alfabetización digital es una habilidad esencial en el siglo veintiuno.]]",
       "words": [
         "[[literacy|digital]]",
         "[[century.|veintiuno.]]",
@@ -629,7 +629,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Prueba de hipótesis",
       "instructions": "Ordena las palabras usando el subjuntivo pasivo con 'crucial that'.",
-      "correctSentence": "[[It|Es]] [[is|crucial]] [[crucial|que]] [[that|la]] [[the|hipótesis]] [[hypothesis|sea]] [[be|probada]] [[tested|a]] [[thoroughly|fondo]] [[before|antes]] [[publishing.|de publicarla.]]",
+      "correctSentence": "[[It is crucial that the hypothesis be tested thoroughly before publishing.|Es crucial que la hipótesis sea probada a fondo antes de publicarla.]]",
       "words": [
         "[[hypothesis|sea]]",
         "[[tested|probada]]",
@@ -659,7 +659,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Automatización",
       "instructions": "Ordena las palabras sobre procesos industriales.",
-      "correctSentence": "[[Automation|La automatización]] [[of|de]] [[repetitive|tareas]] [[tasks|repetitivas]] [[has|ha]] [[increased|aumentado]] [[productivity|la productividad]] [[in|en]] [[factories.|las fábricas.]]",
+      "correctSentence": "[[Automation of repetitive tasks has increased productivity in factories.|La automatización de tareas repetitivas ha aumentado la productividad en las fábricas.]]",
       "words": [
         "[[repetitive|tareas]]",
         "[[increased|aumentado]]",
@@ -687,7 +687,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sugerencia técnica",
       "instructions": "Ordena las palabras con el subjuntivo 'upgrade'.",
-      "correctSentence": "[[She|Ella]] [[suggested|sugirió]] [[that|que]] [[he|él]] [[upgrade|actualizara]] [[his|su]] [[computer|ordenador]] [[for|para]] [[better|un mejor]] [[performance.|rendimiento.]]",
+      "correctSentence": "[[She suggested that he upgrade his computer for better performance.|Ella sugirió que él actualizara su ordenador para un mejor rendimiento.]]",
       "words": [
         "[[upgrade|actualizara]]",
         "[[performance.|rendimiento.]]",
@@ -716,7 +716,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cambio de contraseñas",
       "instructions": "Ordena las palabras con el subjuntivo 'change'.",
-      "correctSentence": "[[It|Es]] [[is|necesario]] [[necessary|que]] [[that|todos]] [[all|los]] [[users|usuarios]] [[change|cambien]] [[their|sus]] [[passwords|contraseñas]] [[regularly.|regularmente.]]",
+      "correctSentence": "[[It is necessary that all users change their passwords regularly.|Es necesario que todos los usuarios cambien sus contraseñas regularmente.]]",
       "words": [
         "[[change|cambien]]",
         "[[regularly.|regularmente.]]",

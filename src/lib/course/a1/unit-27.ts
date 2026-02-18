@@ -13,7 +13,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[tener|tener]]) _______ [[a|un/una]] [[small|pequeño/pequeña]] [[dog|dog]].",
+          "question": "[[I small dog|Yo]] ([[tener|tener]]) _______ [[a|un/una pequeño/pequeña dog]].",
           "options": [
             "[[have|tener/haber]]",
             "[[is|es/está]]",
@@ -39,7 +39,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[tener|tener]]) _______ [[two|dos]] [[cats|cats]].",
+          "question": "[[She cats|Ella]] ([[tener|tener]]) _______ [[two|dos cats]].",
           "options": [
             "[[has|tiene/ha]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[elephant|elephant]] ([[be|ser/estar]]) _______ [[big|grande]].",
+          "question": "[[The elephant|El/la/los/las elephant]] ([[be|ser/estar]]) _______ [[big|grande]].",
           "options": [
             "[[is|es/está]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[dog's|dog's]] [[name|nombre]] [[is|es/está]] [[Max|Max]].",
+      "correctSentence": "[[My dog's name is Max|Mi/mis dog's nombre es/está Max]].",
       "words": [
         "[[name|nombre]]",
         "[[My|Mi/mis]]",
@@ -138,7 +138,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[have|tener/haber]] [[a|un/una]] [[gold|gold]] [[fish|pescado]].",
+      "correctSentence": "[[I have a gold fish|Yo tener/haber un/una gold pescado]].",
       "words": [
         "[[I|Yo]]",
         "[[have|tener/haber]]",
@@ -161,7 +161,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Cats|Cats]] [[like|gustar/como]] [[milk|milk]].",
+      "correctSentence": "[[Cats like milk|Cats gustar/como milk]].",
       "words": [
         "[[milk|milk]].",
         "[[like|gustar/como]]",
@@ -182,7 +182,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[horse|horse]] [[is|es/está]] [[very|muy]] [[fast|fast]].",
+      "correctSentence": "[[The horse is very fast|El/la/los/las horse es/está muy fast]].",
       "words": [
         "[[horse|horse]]",
         "[[fast|fast]].",
@@ -205,7 +205,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Lions|Lions]] [[live|vivir]] [[in|en]] [[Africa|Africa]].",
+      "correctSentence": "[[Lions live in Africa|Lions vivir en Africa]].",
       "words": [
         "[[Africa|Africa]].",
         "[[in|en]]",

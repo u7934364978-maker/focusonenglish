@@ -12,7 +12,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Documental artístico",
       "instructions": "Ordena las palabras para describir un documental.",
-      "correctSentence": "[[The|El]] [[documentary|documental]] [[provides|proporciona]] [[a|una]] [[fascinating|visión]] [[insight|fascinante]] [[into|de]] [[the|la]] [[life|vida]] [[of|del]] [[the| ]] [[artist.|artista.]]",
+      "correctSentence": "[[The documentary provides a fascinating insight into the life of the artist.|El documental proporciona una visión fascinante de la vida del   artista.]]",
       "words": [
         "[[fascinating|visión]]",
         "[[documentary|documental]]",
@@ -40,7 +40,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Concierto perdido",
       "instructions": "Ordena las palabras usando el tercer condicional.",
-      "correctSentence": "[[I|Yo]] [[would|habría]] [[have|ido]] [[gone|al]] [[to|concierto]] [[the|si]] [[concert|hubiera]] [[if|encontrado]] [[I|una]] [[had|entrada.]] [[found| ]] [[a| ]] [[ticket.| ]]",
+      "correctSentence": "[[I would have gone to the concert if I had found a ticket.|Yo habría ido al concierto si hubiera encontrado una entrada.      ]]",
       "words": [
         "[[would|habría]]",
         "[[concert|si]]",
@@ -72,7 +72,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Producción de calidad",
       "instructions": "Ordena las palabras sobre una serie de televisión.",
-      "correctSentence": "[[The|La]] [[series|serie]] [[has|ha]] [[been|sido]] [[praised|alabada]] [[for|por]] [[its|sus]] [[high|altos]] [[production|valores]] [[values.|de producción.]]",
+      "correctSentence": "[[The series has been praised for its high production values.|La serie ha sido alabada por sus altos valores de producción.]]",
       "words": [
         "[[praised|alabada]]",
         "[[values.|de producción.]]",
@@ -101,7 +101,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Noticia viral",
       "instructions": "Ordena las palabras para describir cómo se difundió una noticia.",
-      "correctSentence": "[[The|La]] [[news|noticia]] [[spread|se difundió]] [[like|como]] [[wildfire|la pólvora]] [[across|por]] [[social|las redes]] [[media|sociales.]] [[platforms.| ]]",
+      "correctSentence": "[[The news spread like wildfire across social media platforms.|La noticia se difundió como la pólvora por las redes sociales.  ]]",
       "words": [
         "[[wildfire|la pólvora]]",
         "[[spread|se difundió]]",
@@ -129,7 +129,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Nominación probable",
       "instructions": "Ordena las palabras sobre las posibilidades de una actriz.",
-      "correctSentence": "[[She|Ella]] [[is|tiene]] [[likely|probabilidades]] [[to|de]] [[be|ser]] [[nominated|nominada]] [[for|a]] [[an|un]] [[Oscar|Oscar]] [[this|este]] [[year.|año.]]",
+      "correctSentence": "[[She is likely to be nominated for an Oscar this year.|Ella tiene probabilidades de ser nominada a un Oscar este año.]]",
       "words": [
         "[[likely|probabilidades]]",
         "[[nominated|nominada]]",
@@ -159,7 +159,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Película fascinante",
       "instructions": "Ordena las palabras para describir una película muy interesante.",
-      "correctSentence": "[[The|La]] [[movie|película]] [[was|era]] [[so|tan]] [[gripping|apasionante]] [[that|que]] [[I|no]] [[couldn't|podía]] [[look|apartar]] [[away.|la mirada.]]",
+      "correctSentence": "[[The movie was so gripping that I couldn't look away.|La película era tan apasionante que no podía apartar la mirada.]]",
       "words": [
         "[[gripping|apasionante]]",
         "[[movie|película]]",
@@ -188,7 +188,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Rodaje interrumpido",
       "instructions": "Ordena las palabras usando el pasado perfecto continuo.",
-      "correctSentence": "[[They|Ellos]] [[had|habían]] [[been|estado]] [[filming|rodando]] [[for|durante]] [[months|meses]] [[before|antes de que]] [[the|el]] [[lead|actor]] [[actor|principal]] [[quit.|renunciara.]]",
+      "correctSentence": "[[They had been filming for months before the lead actor quit.|Ellos habían estado rodando durante meses antes de que el actor principal renunciara.]]",
       "words": [
         "[[filming|rodando]]",
         "[[months|meses]]",
@@ -218,7 +218,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Transmisión en vivo",
       "instructions": "Ordena las palabras sobre el trabajo en televisión.",
-      "correctSentence": "[[Live|La transmisión]] [[broadcasting|en vivo]] [[requires|requiere]] [[careful|una]] [[coordination|coordinación]] [[among|entre el]] [[the|entre el]] [[crew.|equipo.]]",
+      "correctSentence": "[[Live broadcasting requires careful coordination among the crew.|La transmisión en vivo requiere una coordinación entre el entre el equipo.]]",
       "words": [
         "[[coordination|cuidadosa]]",
         "[[crew.|equipo.]]",
@@ -245,7 +245,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Actuación impresionante",
       "instructions": "Ordena las palabras usando inversión negativa con 'Never'.",
-      "correctSentence": "[[Never|Nunca]] [[have|he]] [[I|visto]] [[seen|una]] [[such|actuación]] [[an|teatral]] [[impressive|tan]] [[stage|impresionante.]] [[performance.| ]]",
+      "correctSentence": "[[Never have I seen such an impressive stage performance.|Nunca he visto una actuación teatral tan impresionante.  ]]",
       "words": [
         "[[impressive|tan]]",
         "[[seen|una]]",
@@ -273,7 +273,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Banda sonora",
       "instructions": "Ordena las palabras sobre la música de una película.",
-      "correctSentence": "[[The|La]] [[soundtrack|banda sonora]] [[perfectly|capta]] [[captures|perfectamente]] [[the|la]] [[atmosphere|atmósfera]] [[of|de la]] [[the|película.]] [[film.| ]]",
+      "correctSentence": "[[The soundtrack perfectly captures the atmosphere of the film.|La banda sonora capta perfectamente la atmósfera de la película.  ]]",
       "words": [
         "[[atmosphere|atmósfera]]",
         "[[soundtrack|banda sonora]]",
@@ -301,7 +301,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Aplausos finales",
       "instructions": "Ordena las palabras para describir la reacción del público.",
-      "correctSentence": "[[The|El]] [[audience|público]] [[burst|estalló]] [[into|en]] [[applause|aplausos]] [[at|al]] [[the|final]] [[end|del]] [[of|espectáculo.]] [[the| ]] [[show.| ]]",
+      "correctSentence": "[[The audience burst into applause at the end of the show.|El público estalló en aplausos al final del espectáculo.    ]]",
       "words": [
         "[[applause|aplausos]]",
         "[[audience|público]]",
@@ -331,7 +331,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Secuela esperada",
       "instructions": "Ordena las palabras usando el futuro perfecto.",
-      "correctSentence": "[[By|Para cuando]] [[the|se]] [[time|estrene]] [[the|la]] [[sequel|secuela,]] [[is|habré]] [[released,|visto]] [[I|la]] [[will|original]] [[have|dos]] [[seen|veces.]] [[the| ]] [[original| ]] [[twice.| ]]",
+      "correctSentence": "[[By the time the sequel is released, I will have seen the original twice.|Para cuando se estrene la secuela, habré visto la original dos veces.      ]]",
       "words": [
         "[[sequel|secuela,]]",
         "[[original| ]]",
@@ -364,7 +364,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Guionista trabajando",
       "instructions": "Ordena las palabras sobre la creación de una historia.",
-      "correctSentence": "[[The|El]] [[scriptwriter|guionista]] [[spent|pasó]] [[years|años]] [[developing|desarrollando]] [[the|la]] [[plot|trama]] [[of|de la]] [[the|historia.]] [[story.| ]]",
+      "correctSentence": "[[The scriptwriter spent years developing the plot of the story.|El guionista pasó años desarrollando la trama de la historia.  ]]",
       "words": [
         "[[plot|trama]]",
         "[[scriptwriter|guionista]]",
@@ -393,7 +393,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Comienzo del show",
       "instructions": "Ordena las palabras usando inversión con 'Scarcely'.",
-      "correctSentence": "[[Scarcely|Apenas]] [[had|se]] [[the|habían]] [[curtains|abierto]] [[opened|las]] [[when|cortinas]] [[the|cuando]] [[lead|salió]] [[singer|el]] [[walked|cantante]] [[out.|principal.]]",
+      "correctSentence": "[[Scarcely had the curtains opened when the lead singer walked out.|Apenas se habían abierto las cortinas cuando salió el cantante principal.]]",
       "words": [
         "[[curtains|abierto]]",
         "[[had|se]]",
@@ -423,7 +423,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Exposición digital",
       "instructions": "Ordena las palabras para hablar de una feria tecnológica.",
-      "correctSentence": "[[The|La]] [[exhibition|exposición]] [[showcases|muestra]] [[the|las]] [[latest|últimas]] [[trends|tendencias]] [[in|en]] [[digital|entretenimiento]] [[entertainment.|digital.]]",
+      "correctSentence": "[[The exhibition showcases the latest trends in digital entertainment.|La exposición muestra las últimas tendencias en entretenimiento digital.]]",
       "words": [
         "[[latest|últimas]]",
         "[[entertainment.|digital.]]",
@@ -451,7 +451,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Crítica a los medios",
       "instructions": "Ordena las palabras para expresar desacuerdo con la prensa.",
-      "correctSentence": "[[I|Me]] [[object|opongo]] [[to|a]] [[the|la]] [[way|manera]] [[the|en que]] [[media|los medios]] [[portrays|retratan]] [[certain|a ciertos]] [[social|grupos]] [[groups.|sociales.]]",
+      "correctSentence": "[[I object to the way the media portrays certain social groups.|Me opongo a la manera en que los medios retratan a ciertos grupos sociales.]]",
       "words": [
         "[[portrays|retratan]]",
         "[[media|los medios]]",
@@ -481,7 +481,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Película emotiva",
       "instructions": "Ordena las palabras para describir una película emocionante.",
-      "correctSentence": "[[The|La]] [[film|película]] [[was|era]] [[so|tan]] [[moving|conmovedora]] [[that|que]] [[it|dejó]] [[left|a todo]] [[the|el]] [[entire|público]] [[audience|en]] [[in|lágrimas.]] [[tears.| ]]",
+      "correctSentence": "[[The film was so moving that it left the entire audience in tears.|La película era tan conmovedora que dejó a todo el público en lágrimas.  ]]",
       "words": [
         "[[moving|conmovedora]]",
         "[[film|película]]",
@@ -512,7 +512,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Contrato millonario",
       "instructions": "Ordena las palabras sobre un rumor en la industria.",
-      "correctSentence": "[[She|Se dice]] [[is|que]] [[reported|ella]] [[to|ha]] [[have|firmado]] [[signed|un]] [[a|contrato]] [[multi-million|multimillonario.]] [[dollar| ]] [[contract.| ]]",
+      "correctSentence": "[[She is reported to have signed a multi-million dollar contract.|Se dice que ella ha firmado un contrato multimillonario.    ]]",
       "words": [
         "[[reported|ella]]",
         "[[signed|un]]",
@@ -541,7 +541,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Censura digital",
       "instructions": "Ordena las palabras sobre la libertad en internet.",
-      "correctSentence": "[[The|La]] [[censorship|censura]] [[of|de]] [[certain|ciertos]] [[websites|sitios web]] [[has|ha]] [[sparked|desatado]] [[a|un]] [[heated|acalorado]] [[debate.|debate.]]",
+      "correctSentence": "[[The censorship of certain websites has sparked a heated debate.|La censura de ciertos sitios web ha desatado un acalorado debate.]]",
       "words": [
         "[[sparked|desatado]]",
         "[[censorship|censura]]",
@@ -570,7 +570,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Nuevo servicio",
       "instructions": "Ordena las palabras sobre el lanzamiento de una plataforma.",
-      "correctSentence": "[[He|Él]] [[is|está]] [[planning|planeando]] [[to|lanzar]] [[launch|un]] [[a|nuevo]] [[new|servicio]] [[streaming|de]] [[service|streaming]] [[next|el]] [[month.|próximo mes.]]",
+      "correctSentence": "[[He is planning to launch a new streaming service next month.|Él está planeando lanzar un nuevo servicio de streaming el próximo mes.]]",
       "words": [
         "[[launch|un]]",
         "[[planning|planeando]]",
@@ -600,7 +600,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Nota de prensa",
       "instructions": "Ordena las palabras sobre una comunicación oficial.",
-      "correctSentence": "[[The|El]] [[press|comunicado]] [[release|de prensa]] [[was|fue]] [[issued|emitido]] [[to|para]] [[clarify|aclarar]] [[the|la]] [[company's|posición]] [[position.|de la empresa.]]",
+      "correctSentence": "[[The press release was issued to clarify the company's position.|El comunicado de prensa fue emitido para aclarar la posición de la empresa.]]",
       "words": [
         "[[issued|emitido]]",
         "[[press|comunicado]]",
@@ -629,7 +629,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Película larga",
       "instructions": "Ordena las palabras usando inversión condicional.",
-      "correctSentence": "[[Had|Si]] [[the|la]] [[film|película]] [[been|hubiera]] [[shorter,|sido más corta,]] [[it| ]] [[would|habría]] [[have|tenido]] [[been| ]] [[more|más]] [[successful.|éxito.]]",
+      "correctSentence": "[[Had the film been shorter, it would have been more successful.|Si la película hubiera sido más corta,   habría tenido   más éxito.]]",
       "words": [
         "[[been|hubiera]]",
         "[[film|película]]",
@@ -659,7 +659,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Periodista autónoma",
       "instructions": "Ordena las palabras sobre una carrera en el periodismo.",
-      "correctSentence": "[[She|Ella]] [[works|trabaja]] [[as|como]] [[a|periodista]] [[freelance|autónoma]] [[journalist|para]] [[for|varias]] [[several|revistas]] [[international|internacionales.]] [[magazines.| ]]",
+      "correctSentence": "[[She works as a freelance journalist for several international magazines.|Ella trabaja como periodista autónoma para varias revistas internacionales.  ]]",
       "words": [
         "[[freelance|autónoma]]",
         "[[works|trabaja]]",
@@ -688,7 +688,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Elección de película",
       "instructions": "Ordena las palabras usando 'would rather'.",
-      "correctSentence": "[[I'd|Prefiero]] [[rather|ver]] [[watch|un]] [[a|thriller]] [[thriller|que]] [[than|una]] [[a|comedia]] [[comedy|esta]] [[tonight.|noche.]]",
+      "correctSentence": "[[I'd rather watch a thriller than a comedy tonight.|Prefiero ver un thriller que una comedia esta noche.]]",
       "words": [
         "[[watch|un]]",
         "[[thriller|que]]",
@@ -716,7 +716,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "content": {
       "title": "Presentador de noticias",
       "instructions": "Ordena las palabras sobre un imprevisto en televisión.",
-      "correctSentence": "[[The|El]] [[news|presentador]] [[anchor|de]] [[handled|noticias]] [[the|gestionó]] [[unexpected|el]] [[technical|problema]] [[problem|técnico]] [[professionally.|profesionalmente.]]",
+      "correctSentence": "[[The news anchor handled the unexpected technical problem professionally.|El presentador de noticias gestionó el problema técnico profesionalmente.]]",
       "words": [
         "[[anchor|de]]",
         "[[unexpected|el]]",
@@ -747,7 +747,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta tras 'looking forward to'.",
       "questions": [
         {
-          "question": "[[I|Tengo]] [[am|muchas]] [[looking|ganas]] [[forward|de]] [[to| ]] _______ [[the|la]] [[new|nueva]] [[play|obra]] [[at|en]] [[the|el]] [[theater.|teatro.]]",
+          "question": "[[I am looking forward to new play at|Tengo muchas ganas de  ]] _______ [[the the theater.|la nueva obra en el teatro.]]",
           "options": ["[[see|ver]]", "[[seeing|ver]]", "[[seen|ver]]"],
           "correctAnswer": 1,
           "explanation": "'Looking forward to' requiere gerundio (-ing) o sustantivo.",
@@ -770,7 +770,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que describe algo que se sabe cómo acabará.",
       "questions": [
         {
-          "question": "[[The|La]] [[movie|película]] [[was|era]] [[so|tan]] _______ [[that|que]] [[I|supe]] [[knew|el]] [[the|final]] [[ending...|a la mitad...]]",
+          "question": "[[The movie was so ending...|La película era tan]] _______ [[that I knew the|que supe el final a la mitad...]]",
           "options": ["[[predictable|predecible]]", "[[predicament|aprieto]]", "[[predicated|predicado]]"],
           "correctAnswer": 0,
           "explanation": "'Predictable' significa que ocurre de la manera que esperabas.",
@@ -793,7 +793,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para arrepentimiento pasado.",
       "questions": [
         {
-          "question": "[[I|Ojalá]] [[wish| ]] [[I|yo]] _______ [[missed|me hubiera perdido]] [[the|la]] [[live|actuación]] [[performance|en vivo]] [[last|anoche.]] [[night.| ]]",
+          "question": "[[I wish I the last night.|Ojalá   yo]] _______ [[missed live performance|me hubiera perdido la actuación en vivo anoche.  ]]",
           "options": ["[[didn't|hice]]", "[[hadn't|hubiera]]", "[[haven't|he]]"],
           "correctAnswer": 1,
           "explanation": "'I wish' + past perfect negativo expresa arrepentimiento por haber hecho algo.",
@@ -816,7 +816,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa 'extremadamente positivas'.",
       "questions": [
         {
-          "question": "[[The|La]] [[film|película]] [[received|recibió]] _______ [[reviews|de la]] [[from|crítica]] [[critics...|y el público...]]",
+          "question": "[[The film received from|La película recibió]] _______ [[reviews critics...|de la crítica y el público...]]",
           "options": ["[[rare|poco comunes]]", "[[rave|entusiastas]]", "[[rough|duras]]"],
           "correctAnswer": 1,
           "explanation": "'Rave reviews' es una expresión para críticas muy elogiosas.",
@@ -839,7 +839,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige el phrasal verb para bajar el volumen.",
       "questions": [
         {
-          "question": "[[Would|¿Te]] [[you|importaría]] [[mind| ]] _______ [[the|el]] [[volume?|volumen?]]",
+          "question": "[[Would you mind volume?|¿Te importaría  ]] _______ [[the|el volumen?]]",
           "options": ["[[turning up|subir]]", "[[turning off|apagar]]", "[[turning down|bajar]]"],
           "correctAnswer": 2,
           "explanation": "'Turn down' se usa para reducir el sonido o el calor.",
@@ -862,7 +862,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para las personas que ven un programa.",
       "questions": [
         {
-          "question": "[[The|El]] [[show|programa]] [[was|fue]] [[canceled|cancelado]] [[because|porque]] [[it|no]] [[didn't|tuvo]] [[get|suficientes]] [[enough| ]] _______.",
+          "question": "[[The show was canceled because it didn't get enough|El programa fue cancelado porque no tuvo suficientes  ]] _______.",
           "options": ["[[viewers|espectadores]]", "[[visitors|visitantes]]", "[[voyageurs|viajeros]]"],
           "correctAnswer": 0,
           "explanation": "'Viewers' son las personas que ven la televisión o videos.",
@@ -885,7 +885,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta tras 'It's about time'.",
       "questions": [
         {
-          "question": "[[It's|Ya]] [[about|va]] [[time|siendo]] [[they|hora de]] _______ [[the|la]] [[next|próxima]] [[season...|temporada...]]",
+          "question": "[[It's about time they|Ya va siendo hora de]] _______ [[the next season...|la próxima temporada...]]",
           "options": ["[[released|estrenaran]]", "[[release|estrenen]]", "[[will release|estrenarán]]"],
           "correctAnswer": 0,
           "explanation": "'It's about time' requiere pasado simple.",
@@ -908,7 +908,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para la letra de una canción.",
       "questions": [
         {
-          "question": "[[The|Las]] _______ [[of|de]] [[the|la]] [[song|canción]] [[are|son]] [[very|muy]] [[meaningful...|profundas...]]",
+          "question": "[[The the song are very meaningful...|Las]] _______ [[of|de la canción son muy profundas...]]",
           "options": ["[[lines|líneas]]", "[[letters|cartas]]", "[[lyrics|letras]]"],
           "correctAnswer": 2,
           "explanation": "'Lyrics' son las palabras que componen una canción.",
@@ -931,7 +931,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta tras 'I'd rather you'.",
       "questions": [
         {
-          "question": "[[I'd|Preferiría]] [[rather|que]] [[you|no]] _______ [[the|el]] [[ending|final]] [[of|de]] [[the|la]] [[movie.|película.]]",
+          "question": "[[I'd rather you ending movie.|Preferiría que no]] _______ [[the of the|el final de la película.]]",
           "options": ["[[not tell|cuentes]]", "[[didn't tell|contaras]]", "[[don't tell|cuentes]]"],
           "correctAnswer": 1,
           "explanation": "'Would rather' con sujeto distinto requiere pasado simple.",
@@ -954,7 +954,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para los fotógrafos de celebridades.",
       "questions": [
         {
-          "question": "[[The|Los]] _______ [[were|estaban]] [[waiting|esperando]] [[outside...|fuera...]]",
+          "question": "[[The waiting outside...|Los]] _______ [[were|estaban esperando fuera...]]",
           "options": ["[[photographers|fotógrafos (genérico)]]", "[[reporters|reporteros]]", "[[paparazzi|paparazzi]]"],
           "correctAnswer": 2,
           "explanation": "'Paparazzi' se refiere específicamente a fotógrafos que persiguen a famosos.",
@@ -977,7 +977,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra de inversión correcta.",
       "questions": [
         {
-          "question": "_______ [[had|se]] [[the|había]] [[news|anunciado]] [[been|la]] [[announced|noticia]] [[when...|cuando...]]",
+          "question": "_______ [[had the news been announced when...|se había anunciado la noticia cuando...]]",
           "options": ["[[Hardest|Más duro]]", "[[Hardly|Apenas]]", "[[Hard|Duro]]"],
           "correctAnswer": 1,
           "explanation": "'Hardly' seguido de inversión indica inmediatez.",
@@ -1000,7 +1000,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión que significa 'de una sola vez'.",
       "questions": [
         {
-          "question": "[[The|El]] [[book|libro]] [[was|era]] [[so|tan]] [[captivating|cautivador]] [[that|que]] [[I|lo]] [[read|leí]] [[it|en]] [[in| ]] _______.",
+          "question": "[[The book was so captivating that I read it in|El libro era tan cautivador que lo leí en  ]] _______.",
           "options": ["[[one sitting|un tirón]]", "[[one standing|pie]]", "[[one meeting|reunión]]"],
           "correctAnswer": 0,
           "explanation": "'In one sitting' significa hacer algo sin interrupción.",
@@ -1023,7 +1023,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para introducir una suposición.",
       "questions": [
         {
-          "question": "_______ [[you|que]] [[were|fueras]] [[a|un]] [[famous|director]] [[director,|famoso...]]",
+          "question": "_______ [[you were a famous director,|que fueras un director famoso...]]",
           "options": ["[[Imagine|Imagina]]", "[[Suppose|Supongamos]]", "[[Think|Piensa]]"],
           "correctAnswer": 1,
           "explanation": "'Suppose' se usa para plantear situaciones imaginarias.",
@@ -1046,7 +1046,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa 'con falta de imparcialidad'.",
       "questions": [
         {
-          "question": "[[The|El]] [[news|medio]] [[outlet|de]] [[was|comunicación]] [[criticized|fue]] [[for|criticado]] [[its|por]] _______ [[reporting.| ]]",
+          "question": "[[The news outlet was criticized for its|El medio de comunicación fue criticado por]] _______ [[reporting.| ]]",
           "options": ["[[biased|sesgada]]", "[[balanced|equilibrada]]", "[[broad|amplia]]"],
           "correctAnswer": 0,
           "explanation": "'Biased' significa inclinado a favor o en contra de algo de manera injusta.",
@@ -1069,7 +1069,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma de inversión correcta.",
       "questions": [
         {
-          "question": "[[No|Apenas]] [[sooner| ]] _______ [[he|hubo]] [[stepped|entrado]] [[on|en]] [[stage|el escenario]] [[than|cuando]] [[the|la]] [[crowd|multitud]] [[went|se]] [[wild.|volvió loca.]]",
+          "question": "[[No sooner on stage than the crowd went wild.|Apenas  ]] _______ [[he stepped|hubo entrado en el escenario cuando la multitud se volvió loca.]]",
           "options": ["[[had|hubo]]", "[[has|ha]]", "[[did|hizo]]"],
           "correctAnswer": 0,
           "explanation": "'No sooner had + subject + past participle' es la estructura correcta.",
@@ -1092,7 +1092,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que describe un reparto lleno de estrellas.",
       "questions": [
         {
-          "question": "[[The|La]] [[film|película]] [[features|cuenta con]] [[a|un]] _______ [[cast|de actores de]] [[of|Hollywood.]] [[Hollywood| ]] [[actors.| ]]",
+          "question": "[[The film features a|La película cuenta con un]] _______ [[cast of Hollywood actors.|de actores de Hollywood.    ]]",
           "options": ["[[star-shaped|forma de estrella]]", "[[star-gazing|mirar estrellas]]", "[[star-studded|estelar]]"],
           "correctAnswer": 2,
           "explanation": "'Star-studded' describe algo que cuenta con la presencia de muchas celebridades.",
@@ -1115,7 +1115,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma invertida del segundo condicional.",
       "questions": [
         {
-          "question": "_______ [[I|yo]] [[to|ganara]] [[win|la]] [[the|lotería,]] [[lottery,|produciría]] [[I|mi]] [[would|propia]] [[produce|película.]] [[my| ]] [[own| ]] [[movie.| ]]",
+          "question": "_______ [[I to win the lottery, I would produce my own movie.|yo ganara la lotería, produciría mi propia película.      ]]",
           "options": ["[[Am|Si]]", "[[Were|Si]]", "[[Was|Si]]"],
           "correctAnswer": 1,
           "explanation": "'Were I to + verb' es una alternativa formal a 'If I + past simple'.",
@@ -1138,7 +1138,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que describe un fallo pequeño y repentino.",
       "questions": [
         {
-          "question": "[[The|La]] [[broadcast|transmisión]] [[was|fue]] [[delayed|retrasada]] [[due|debido]] [[to|a]] [[a|un]] [[technical|técnico]] _______.",
+          "question": "[[The broadcast was delayed due to a technical|La transmisión fue retrasada debido a un técnico]] _______.",
           "options": ["[[growth|crecimiento]]", "[[glitch|fallo]]", "[[goal|meta]]"],
           "correctAnswer": 1,
           "explanation": "'Glitch' es un error informático o técnico inesperado.",
@@ -1161,7 +1161,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición que sigue a 'capable'.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es]] [[capable|capaz]] _______ [[acting|de actuar]] [[in|tanto]] [[both|en papeles]] [[comedic...|cómicos...]]",
+          "question": "[[He is capable in|Él es capaz]] _______ [[acting both comedic...|de actuar tanto en papeles cómicos...]]",
           "options": ["[[for|de]]", "[[of|de]]", "[[to|de]]"],
           "correctAnswer": 1,
           "explanation": "'Capable' siempre va seguido de 'of' + gerundio.",
@@ -1184,7 +1184,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para las plataformas de pago mensual.",
       "questions": [
         {
-          "question": "_______ [[services|de suscripción]] [[have|han]] [[revolutionized|revolucionado]] [[the|la]] [[way|manera]] [[we|en que]] [[consume|consumimos]] [[media.|los medios.]]",
+          "question": "_______ [[services have revolutionized the way we consume media.|de suscripción han revolucionado la manera en que consumimos los medios.]]",
           "options": ["[[Subversion|Subversión]]", "[[Subscription|Suscripción]]", "[[Submission|Sumisión]]"],
           "correctAnswer": 1,
           "explanation": "'Subscription services' son modelos de negocio donde se paga por acceso periódico.",
@@ -1207,7 +1207,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector que significa 'siempre que'.",
       "questions": [
         {
-          "question": "_______ [[that|que]] [[the|los]] [[ratings|índices de audiencia]] [[improve,|mejoren,]] [[the|el]] [[show|programa]] [[will|será]] [[be|renovado.]] [[renewed.| ]]",
+          "question": "_______ [[that the ratings improve, the show will be renewed.|que los índices de audiencia mejoren, el programa será renovado.  ]]",
           "options": ["[[Provided|Siempre que]]", "[[Despite|A pesar de]]", "[[Unless|A menos que]]"],
           "correctAnswer": 0,
           "explanation": "'Provided that' establece una condición necesaria.",
@@ -1230,7 +1230,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa 'analizar' o 'profundizar en un tema'.",
       "questions": [
         {
-          "question": "[[The|La]] [[movie|película]] _______ [[the|el]] [[theme|tema]] [[of|del]] [[isolation|aislamiento]] [[in|en]] [[a|una]] [[digital|era]] [[age.|digital.]]",
+          "question": "[[The movie of isolation in a digital age.|La película]] _______ [[the theme|el tema del aislamiento en una era digital.]]",
           "options": ["[[explains|explica]]", "[[explores|explora]]", "[[exposes|expone]]"],
           "correctAnswer": 1,
           "explanation": "'Explore' se usa para obras que profundizan en conceptos o sentimientos.",
@@ -1253,7 +1253,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta tras 'It is worth'.",
       "questions": [
         {
-          "question": "[[It|Vale]] [[is|la]] [[worth|pena]] _______ [[the|la]] [[director's|versión]] [[cut|del]] [[for|director]] [[extra|con]] [[scenes.|escenas extra.]]",
+          "question": "[[It is worth director's extra scenes.|Vale la pena]] _______ [[the cut for|la versión del director con escenas extra.]]",
           "options": ["[[watching|ver]]", "[[watch|ver]]", "[[to watch|ver]]"],
           "correctAnswer": 0,
           "explanation": "'It is worth' requiere obligatoriamente gerundio (-ing).",
@@ -1276,7 +1276,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión para alguien muy famoso y conocido por todos.",
       "questions": [
         {
-          "question": "[[The|El]] [[news|presentador]] [[anchor|es]] [[is|un]] [[a| ]] _______ [[in|conocido]] [[many|en]] [[countries.|muchos países.]]",
+          "question": "[[The news anchor is a many countries.|El presentador es un  ]] _______ [[in|conocido en muchos países.]]",
           "options": ["[[household name|nombre muy conocido]]", "[[house name|nombre de casa]]", "[[housing name|nombre de vivienda]]"],
           "correctAnswer": 0,
           "explanation": "A 'household name' es una persona o marca que todos conocen.",
@@ -1299,7 +1299,7 @@ export const UNIT_8_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector que significa 'a menos que'.",
       "questions": [
         {
-          "question": "_______ [[you|que]] [[have|tengas]] [[a|un]] [[VIP|pase]] [[pass,|VIP,]] [[you|no]] [[won't|te]] [[be|dejarán]] [[allowed|entrar]] [[backstage.|al backstage.]]",
+          "question": "_______ [[you have a VIP pass, you won't be allowed backstage.|que tengas un pase VIP, no te dejarán entrar al backstage.]]",
           "options": ["[[Unless|A menos que]]", "[[If|Si]]", "[[Provided|Siempre que]]"],
           "correctAnswer": 0,
           "explanation": "'Unless' introduce una condición negativa.",

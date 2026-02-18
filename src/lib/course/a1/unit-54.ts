@@ -13,7 +13,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[How|Cómo]] ([[mucho|mucho]]) _______ [[milk|milk]] [[do|hacer]] [[you|tú/usted]] [[want|querer]]?",
+          "question": "[[How do you want|Cómo]] ([[mucho|mucho]]) _______ [[milk|milk hacer tú/usted querer]]?",
           "options": [
             "[[are|son/están]]",
             "[[much|much]]",
@@ -39,7 +39,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[How|Cómo]] ([[muchos|muchos]]) _______ [[eggs|eggs]] [[do|hacer]] [[we|nosotros]] [[have|tener/haber]]?",
+          "question": "[[How do we have|Cómo]] ([[muchos|muchos]]) _______ [[eggs|eggs hacer nosotros tener/haber]]?",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tener/haber]] ([[mucho|mucho]]) _______ [[water|agua]].",
+          "question": "[[I have|Yo tener/haber]] ([[mucho|mucho]]) _______ [[water|agua]].",
           "options": [
             "[[is|es/está]]",
             "[[a lot of|a lot of]]",
@@ -91,7 +91,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tener/haber]] ([[un|un]] [[poco|poco]] [[de|de]]) _______ [[coffee|coffee]].",
+          "question": "[[I have de|Yo tener/haber]] ([[un poco|un poco de]]) _______ [[coffee|coffee]].",
           "options": [
             "[[are|son/están]]",
             "[[a little|a little]]",
@@ -115,7 +115,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[don't|no]] [[have|tener/haber]] [[much|much]] [[time|tiempo/hora]].",
+      "correctSentence": "[[I don't have much time|Yo no tener/haber much tiempo/hora]].",
       "words": [
         "[[don't|no]]",
         "[[I|Yo]]",
@@ -138,7 +138,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[There|Allí/ahí]] [[are|son/están]] [[many|many]] [[people|gente/personas]] [[in|en]] [[the|el/la/los/las]] [[park|park]].",
+      "correctSentence": "[[There are many people in the park|Allí/ahí son/están many gente/personas en el/la/los/las park]].",
       "words": [
         "[[many|many]]",
         "[[park|park]].",
@@ -163,7 +163,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[have|tener/haber]] [[a|un/una]] [[lot|lot]] [[of|de]] [[books|books]].",
+      "correctSentence": "[[We have a lot of books|Nosotros tener/haber un/una lot de books]].",
       "words": [
         "[[have|tener/haber]]",
         "[[We|Nosotros]]",
@@ -187,7 +187,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[only|only]] [[have|tener/haber]] [[a|un/una]] [[little|little]] [[sugar|azúcar]].",
+      "correctSentence": "[[I only have a little sugar|Yo only tener/haber un/una little azúcar]].",
       "words": [
         "[[little|little]]",
         "[[a|un/una]]",
@@ -211,7 +211,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[need|necesitar]] [[a|un/una]] [[few|few]] [[minutes|minutes]].",
+      "correctSentence": "[[I need a few minutes|Yo necesitar un/una few minutes]].",
       "words": [
         "[[minutes|minutes]].",
         "[[need|necesitar]]",

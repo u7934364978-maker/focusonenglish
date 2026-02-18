@@ -10,11 +10,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "easy",
-    "transcript": "[[He|Él]] [[is|es]] [[my|mi]] [[father|padre]]. [[She|Ella]] [[is|es]] [[my|mi]] [[mother|madre]]. [[They|Ellos]] [[are|son]] [[my|mis]] [[parents|padres]].",
+    "transcript": "[[He is. She is my father my mother. They are my parents|Él es mi padre. Ella es mi madre. Ellos son mis padres]].",
     "content": {
       "title": "Los Padres",
       "instructions": "Elige el término colectivo correcto.",
-      "question": "[[He|Él]] [[is|es]] [[my|mi]] [[father|padre]]. [[She|Ella]] [[is|es]] [[my|mi]] [[mother|madre]]. [[They|Ellos]] [[are|son]] [[my|mis]] (____).",
+      "question": "[[He is. She is my father my mother. They are my|Él es mi padre. Ella es mi madre. Ellos son mis]] (____).",
       "options": ["[[uncles|tíos]]", "[[parents|padres]]", "[[siblings|hermanos]]"],
       "correctAnswer": 1,
       "explanation": "Padre y madre se llaman 'parents'."
@@ -28,11 +28,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "easy",
-    "transcript": "[[My|Mi]] [[son|hijo]] [[and|y]] [[my|mi]] [[daughter|hija]] [[are|son]] [[my|mis]] [[children|hijos]].",
+    "transcript": "[[My son and my daughter are my children|Mi hijo y mi hija son mis hijos]].",
     "content": {
       "title": "Hijos",
       "instructions": "Selecciona la palabra adecuada.",
-      "question": "[[My|Mi]] [[son|hijo]] [[and|y]] [[my|mi]] [[daughter|hija]] [[are|son]] [[my|mis]] (____).",
+      "question": "[[My son and my daughter are my|Mi hijo y mi hija son mis]] (____).",
       "options": ["[[children|hijos]]", "[[parents|padres]]", "[[friends|amigos]]"],
       "correctAnswer": 0,
       "explanation": "El hijo y la hija son tus 'children'."
@@ -46,11 +46,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[am|estoy]] [[married|casado]]. [[This|Esta]] [[is|es]] [[my|mi]] [[wife|esposa]].",
+    "transcript": "[[I am. This married is my wife|Yo estoy casado. Esta es mi esposa]].",
     "content": {
       "title": "Esposa",
       "instructions": "Elige la profesión o relación lógica.",
-      "question": "[[I|Yo]] [[am|estoy]] [[married|casado]]. [[This|Esta]] [[is|es]] [[my|mi]] (____).",
+      "question": "[[I am. This married is my|Yo estoy casado. Esta es mi]] (____).",
       "options": ["[[sister|hermana]]", "[[daughter|hija]]", "[[wife|esposa]]"],
       "correctAnswer": 2,
       "explanation": "Si un hombre está casado, presenta a su 'wife'."
@@ -64,11 +64,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "easy",
-    "transcript": "[[Peter|Peter]] [[has|tiene]] [[a|una]] [[sister|hermana]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Mary|Mary]].",
+    "transcript": "[[Peter has. Her name a sister is Mary|Peter tiene una hermana. Su nombre es Mary]].",
     "content": {
       "title": "Hermana",
       "instructions": "Identifica la relación.",
-      "question": "[[Peter|Peter]] [[has|tiene]] [[a|una]] (____). [[Her|Su]] [[name|nombre]] [[is|es]] [[Mary|Mary]].",
+      "question": "[[Peter has a name|Peter tiene una]] (____). [[Her is Mary|Su nombre es Mary]].",
       "options": ["[[brother|hermano]]", "[[sister|hermana]]", "[[mother|madre]]"],
       "correctAnswer": 1,
       "explanation": "Mary es un nombre femenino, por lo tanto es 'sister'."
@@ -82,11 +82,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "easy",
-    "transcript": "[[My|Mi]] [[brother|hermano]] [[is|es]] [[ten|diez]] [[years|años]] [[old|de edad]].",
+    "transcript": "[[My brother is ten years old|Mi hermano es diez años de edad]].",
     "content": {
       "title": "Edad del hermano",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[My|Mi]] [[brother|hermano]] [[is|es]] [[ten|diez]] [[years|años]] [[old|de edad]].",
+      "correctSentence": "[[My brother is ten years old|Mi hermano es diez años de edad]].",
       "words": ["[[old|de edad]].", "[[years|años]]", "[[ten|diez]]", "[[is|es]]", "[[brother|hermano]]", "[[My|Mi]]"],
       "explanation": "Sujeto + Verbo to be + Edad."
     },
@@ -99,11 +99,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "easy",
-    "transcript": "[[This|Esta]] [[is|es]] [[my|mi]] [[family|familia]].",
+    "transcript": "[[This is my family|Esta es mi familia]].",
     "content": {
       "title": "Presentación",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[This|Esta]] [[is|es]] [[my|mi]] [[family|familia]].",
+      "correctSentence": "[[This is my family|Esta es mi familia]].",
       "words": ["[[family|familia]].", "[[my|mi]]", "[[is|es]]", "[[This|Esta]]"],
       "explanation": "Usamos 'This is...' para presentar a personas o cosas cercanas."
     },
@@ -116,11 +116,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "easy",
-    "transcript": "[[Are|¿Son]] [[they|ellos]] [[your|tus]] [[parents|padres]]?",
+    "transcript": "[[Are they your parents|¿Son ellos tus padres]]?",
     "content": {
       "title": "Pregunta de familia",
       "instructions": "Elige la palabra correcta.",
-      "question": "[[Are|¿Son]] [[they|ellos]] [[your|tus]] (____)?",
+      "question": "[[Are they your|¿Son ellos tus]] (____)?",
       "options": ["[[children|hijos]]", "[[parents|padres]]", "[[husband|esposo]]"],
       "correctAnswer": 1,
       "explanation": "Se refiere a la pareja de padre y madre."
@@ -134,11 +134,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "easy",
-    "transcript": "[[My|Mi]] [[father|padre]] [[is|es]] [[a|un]] [[doctor|médico]].",
+    "transcript": "[[My father is a doctor|Mi padre es un médico]].",
     "content": {
       "title": "Mi padre",
       "instructions": "Elige el miembro masculino de la pareja de padres.",
-      "question": "[[My|Mi]] (____) [[is|es]] [[a|un]] [[doctor|médico]].",
+      "question": "[[My a doctor|Mi]] (____) [[is|es un médico]].",
       "options": ["[[mother|madre]]", "[[father|padre]]", "[[sister|hermana]]"],
       "correctAnswer": 1,
       "explanation": "Father es el término masculino."
@@ -152,11 +152,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "easy",
-    "transcript": "[[My|Mi]] [[husband|esposo]] [[is|es]] [[tall|alto]].",
+    "transcript": "[[My husband is tall|Mi esposo es alto]].",
     "content": {
       "title": "Relación",
       "instructions": "Elige el término para el hombre en el matrimonio.",
-      "question": "[[My|Mi]] (____) [[is|es]] [[tall|alto]].",
+      "question": "[[My tall|Mi]] (____) [[is|es alto]].",
       "options": ["[[wife|esposa]]", "[[husband|esposo]]", "[[daughter|hija]]"],
       "correctAnswer": 1,
       "explanation": "Husband es esposo."
@@ -174,11 +174,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Possessive 's",
     "difficulty": "medium",
-    "transcript": "[[This|Este]] [[is|es]] [[John's|de John]] [[car|coche]].",
+    "transcript": "[[This is John's car|Este es de John coche]].",
     "content": {
       "title": "Posesivo 's",
       "instructions": "Elige la forma correcta para indicar posesión.",
-      "question": "[[This|Este]] [[is|es]] (____) [[car|coche]].",
+      "question": "[[This is|Este es]] (____) [[car|coche]].",
       "options": ["[[John car|John coche]]", "[[John's car|el coche de John]]", "[[John is car|John es coche]]"],
       "correctAnswer": 1,
       "explanation": "Añadimos 's al poseedor para indicar que algo le pertenece."
@@ -192,11 +192,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Possessive 's",
     "difficulty": "medium",
-    "transcript": "[[Where|Dónde]] [[is|está]] [[my|de mi]] [[sister's|hermana]] [[book|libro]]?",
+    "transcript": "[[Where is my sister's book|Dónde está de mi hermana libro]]?",
     "content": {
       "title": "El libro de mi hermana",
       "instructions": "Selecciona la opción gramaticalmente correcta.",
-      "question": "[[Where|Dónde]] [[is|está]] [[my|de mi]] (____) [[book|libro]]?",
+      "question": "[[Where is my|Dónde está de mi]] (____) [[book|libro]]?",
       "options": ["[[sister book|hermana libro]]", "[[sister's book|libro de la hermana]]", "[[sisters book|hermanas libro]]"],
       "correctAnswer": 1,
       "explanation": "Sister's indica 'de mi hermana'."
@@ -210,13 +210,13 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Possessive 's",
     "difficulty": "medium",
-    "transcript": "[[It|Es]] [[is|es]] [[Mary's|de Mary]] [[house|casa]].",
+    "transcript": "[[It is Mary's house|Es es de Mary casa]].",
     "content": {
       "title": "Completar posesivo",
       "instructions": "Escribe el posesivo de Mary.",
       "questions": [
         {
-          "question": "[[It|Es]] [[is|es]] [[Mary|Mary]](_____) [[house|casa]].",
+          "question": "[[It is Mary|Es es Mary]](_____) [[house|casa]].",
           "correctAnswer": "'s",
           "explanation": "Usamos 's después del nombre."
         }
@@ -231,11 +231,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Possessive 's",
     "difficulty": "medium",
-    "transcript": "[[Paul's|De Paul]] [[father|padre]] [[is|es]] [[a|un]] [[teacher|profesor]].",
+    "transcript": "[[Paul's father is a teacher|De Paul padre es un profesor]].",
     "content": {
       "title": "Padre de Paul",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Paul's|De Paul]] [[father|padre]] [[is|es]] [[a|un]] [[teacher|profesor]].",
+      "correctSentence": "[[Paul's father is a teacher|De Paul padre es un profesor]].",
       "words": ["[[teacher|profesor]].", "[[a|un]]", "[[is|es]]", "[[father|padre]]", "[[Paul's|De Paul]]"],
       "explanation": "Poseedor + 's + Sustantivo."
     },
@@ -248,11 +248,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Possessive 's",
     "difficulty": "medium",
-    "transcript": "[[The|El]] [[dog's|del perro]] [[name|nombre]] [[is|es]] [[Rex|Rex]].",
+    "transcript": "[[The dog's name is Rex|El del perro nombre es Rex]].",
     "content": {
       "title": "Nombre del perro",
       "instructions": "Elige la opción correcta.",
-      "question": "(____) [[is|es]] [[Rex|Rex]].",
+      "question": "(____) [[is Rex|es Rex]].",
       "options": ["[[The dogs name|El nombre los perros]]", "[[The dog's name|el nombre del perro]]", "[[The name dog|El nombre perro]]"],
       "correctAnswer": 1,
       "explanation": "Incluso con animales usamos 's para posesión."
@@ -266,11 +266,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Whose?",
     "difficulty": "medium",
-    "transcript": "[[Whose|De quién]] [[car|coche]] [[is|es]] [[this|este]]? [[It|Es]] [[is|es]] [[Mark's|de Mark]].",
+    "transcript": "[[Whose car? It is is this Mark's|De quién coche es este? Es es de Mark]].",
     "content": {
       "title": "Preguntar de quién",
       "instructions": "Selecciona la palabra interrogativa para posesión.",
-      "question": "(____) [[car|coche]] [[is|es]] [[this|este]]?",
+      "question": "(____) [[car is this|coche es este]]?",
       "options": ["[[Who|Quién]]", "[[What|Qué]]", "[[Whose|De quién]]"],
       "correctAnswer": 2,
       "explanation": "Whose se usa exclusivamente para preguntar por el dueño de algo."
@@ -284,11 +284,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Whose?",
     "difficulty": "medium",
-    "transcript": "[[Whose|De quién]] [[bag|bolsa]] [[is|es]] [[it|esto]]?",
+    "transcript": "[[Whose bag is it|De quién bolsa es esto]]?",
     "content": {
       "title": "Orden de pregunta",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Whose|De quién]] [[bag|bolsa]] [[is|es]] [[it|esto]]?",
+      "correctSentence": "[[Whose bag is it|De quién bolsa es esto]]?",
       "words": ["[[it|esto]]?", "[[is|es]]", "[[bag|bolsa]]", "[[Whose|De quién]]"],
       "explanation": "Whose + Sustantivo + Verbo + Pronombre."
     },
@@ -301,11 +301,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Possessive 's",
     "difficulty": "medium",
-    "transcript": "[[My|Mis]] [[parents'|de mis padres]] [[house|casa]] [[is|es]] [[big|grande]].",
+    "transcript": "[[My parents' house is big|Mis de mis padres casa es grande]].",
     "content": {
       "title": "Posesivo plural",
       "instructions": "Cuando el plural acaba en 's', ¿cómo es el posesivo?",
-      "question": "[[My|Mis]] (____) [[house|casa]] [[is|es]] [[big|grande]].",
+      "question": "[[My is big|Mis]] (____) [[house|casa es grande]].",
       "options": ["[[parent's|de un padre]]", "[[parents's|padres's]]", "[[parents'|de los padres]]"],
       "correctAnswer": 2,
       "explanation": "Si la palabra ya termina en 's' por ser plural, solo añadimos el apóstrofe."
@@ -319,13 +319,13 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Possessive 's",
     "difficulty": "medium",
-    "transcript": "[[This|Esta]] [[is|es]] [[the|la]] [[teacher's|del profesor]] [[desk|mesa]].",
+    "transcript": "[[This is the teacher's desk|Esta es la del profesor mesa]].",
     "content": {
       "title": "Mesa del profesor",
       "instructions": "Completa con el posesivo.",
       "questions": [
         {
-          "question": "[[This|Esta]] [[is|es]] [[the|la]] [[teacher|profesor]](_____) [[desk|mesa]].",
+          "question": "[[This is the teacher|Esta es la profesor]](_____) [[desk|mesa]].",
           "correctAnswer": "'s",
           "explanation": "Posesivo singular."
         }
@@ -340,11 +340,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[mother's|de mi madre]] [[sister|hermana]] [[is|es]] [[my|mi]] [[aunt|tía]].",
+    "transcript": "[[My mother's sister is my aunt|Mi de mi madre hermana es mi tía]].",
     "content": {
       "title": "Relaciones familiares",
       "instructions": "Completa la relación lógica.",
-      "question": "[[My|Mi]] [[mother's|de mi madre]] [[sister|hermana]] [[is|es]] [[my|mi]] (____).",
+      "question": "[[My mother's sister is my|Mi de mi madre hermana es mi]] (____).",
       "options": ["[[grandmother|abuela]]", "[[aunt|tía]]", "[[cousin|prima]]"],
       "correctAnswer": 1,
       "explanation": "La hermana de tu madre es tu tía."
@@ -362,11 +362,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[father's|de mi padre]] [[brother|hermano]] [[is|es]] [[my|mi]] [[uncle|tío]].",
+    "transcript": "[[My father's brother is my uncle|Mi de mi padre hermano es mi tío]].",
     "content": {
       "title": "Relaciones",
       "instructions": "Completa la relación lógica.",
-      "question": "[[My|Mi]] [[father's|de mi padre]] [[brother|hermano]] [[is|es]] [[my|mi]] (____).",
+      "question": "[[My father's brother is my|Mi de mi padre hermano es mi]] (____).",
       "options": ["[[uncle|tío]]", "[[grandfather|abuelo]]", "[[son|hijo]]"],
       "correctAnswer": 0,
       "explanation": "El hermano de tu padre es tu tío."
@@ -380,11 +380,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Possessive 's",
     "difficulty": "medium",
-    "transcript": "[[Is|¿Es]] [[this|este]] [[Sarah's|de Sarah]] [[phone|teléfono]]?",
+    "transcript": "[[Is this Sarah's phone|¿Es este de Sarah teléfono]]?",
     "content": {
       "title": "Pregunta",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Is|¿Es]] [[this|este]] [[Sarah's|de Sarah]] [[phone|teléfono]]?",
+      "correctSentence": "[[Is this Sarah's phone|¿Es este de Sarah teléfono]]?",
       "words": ["[[phone|teléfono]]?", "[[Sarah's|de Sarah]]", "[[this|este]]", "[[Is|¿Es]]"],
       "explanation": "Verbo + Sujeto + Posesivo + Objeto."
     },
@@ -397,11 +397,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[Their|Su]] [[children's|de sus hijos]] [[names|nombres]] [[are|son]] [[Ben|Ben]] [[and|y]] [[Lucy|Lucy]].",
+    "transcript": "[[Their children's names are Ben and Lucy|Su de sus hijos nombres son Ben y Lucy]].",
     "content": {
       "title": "Posesivo de irregular",
       "instructions": "Elige la forma correcta para 'children'.",
-      "question": "[[Their|Su]] (____) [[names|nombres]] [[are|son]] [[Ben|Ben]] [[and|y]] [[Lucy|Lucy]].",
+      "question": "[[Their are Ben and Lucy|Su]] (____) [[names|nombres son Ben y Lucy]].",
       "options": ["[[childrens'|niños']]", "[[children's|de los niños]]", "[[childrens|niños]]"],
       "correctAnswer": 1,
       "explanation": "Aunque 'children' es plural, no termina en 's', por lo que añadimos 's."
@@ -415,13 +415,13 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[A|Un]] [[son|hijo]] [[is|es]] [[a|un]] [[boy|niño]].",
+    "transcript": "[[A son is a boy|Un hijo es un niño]].",
     "content": {
       "title": "Definición",
       "instructions": "Escribe la palabra para hijo.",
       "questions": [
         {
-          "question": "[[A|Un]] (_____) [[is|es]] [[a|un]] [[boy|niño]].",
+          "question": "[[A a boy|Un]] (_____) [[is|es un niño]].",
           "correctAnswer": "son",
           "explanation": "Son es el hijo masculino."
         }
@@ -436,13 +436,13 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[A|Una]] [[daughter|hija]] [[is|es]] [[a|una]] [[girl|niña]].",
+    "transcript": "[[A daughter is a girl|Una hija es una niña]].",
     "content": {
       "title": "Definición",
       "instructions": "Escribe la palabra para hija.",
       "questions": [
         {
-          "question": "[[A|Una]] (_____) [[is|es]] [[a|una]] [[girl|niña]].",
+          "question": "[[A a girl|Una]] (_____) [[is|es una niña]].",
           "correctAnswer": "daughter",
           "explanation": "Daughter es la hija femenina."
         }
@@ -457,11 +457,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Whose?",
     "difficulty": "medium",
-    "transcript": "[[Whose|De quién]] [[keys|llaves]] [[are|son]] [[these|estas]]? [[They|Son]] [[are|son]] [[the|del]] [[manager's|gerente]].",
+    "transcript": "[[Whose keys? They are are these the manager's|De quién llaves son estas? Son son del gerente]].",
     "content": {
       "title": "Pregunta plural",
       "instructions": "Elige la palabra interrogativa.",
-      "question": "(____) [[keys|llaves]] [[are|son]] [[these|estas]]?",
+      "question": "(____) [[keys are these|llaves son estas]]?",
       "options": ["[[Whose|De quién]]", "[[Who|Quién]]", "[[Which|Cuál]]"],
       "correctAnswer": 0,
       "explanation": "Whose se usa para plural y singular."
@@ -475,11 +475,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Possessive 's",
     "difficulty": "medium",
-    "transcript": "[[The|El]] [[students'|de los estudiantes]] [[classroom|aula]] [[is|es]] [[new|nueva]].",
+    "transcript": "[[The students' classroom is new|El de los estudiantes aula es nueva]].",
     "content": {
       "title": "Posesivo plural",
       "instructions": "Ordena la frase indicando que el aula es de varios estudiantes.",
-      "correctSentence": "[[The|El]] [[students'|de los estudiantes]] [[classroom|aula]] [[is|es]] [[new|nueva]].",
+      "correctSentence": "[[The students' classroom is new|El de los estudiantes aula es nueva]].",
       "words": ["[[new|nueva]].", "[[is|es]]", "[[classroom|aula]]", "[[students'|de los estudiantes]]", "[[The|El]]"],
       "explanation": "Sujeto plural + apóstrofe."
     },
@@ -492,11 +492,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[Your|Tu]] [[mother's|de tu madre]] [[father|padre]] [[is|es]] [[your|tu]] [[grandfather|abuelo]].",
+    "transcript": "[[Your mother's father is your grandfather|Tu de tu madre padre es tu abuelo]].",
     "content": {
       "title": "Abuelo",
       "instructions": "Completa la relación.",
-      "question": "[[Your|Tu]] [[mother's|de tu madre]] [[father|padre]] [[is|es]] [[your|tu]] (____).",
+      "question": "[[Your mother's father is your|Tu de tu madre padre es tu]] (____).",
       "options": ["[[uncle|tío]]", "[[grandfather|abuelo]]", "[[brother|hermano]]"],
       "correctAnswer": 1,
       "explanation": "El padre de tu madre es tu abuelo."
@@ -510,11 +510,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[Your|Tu]] [[father's|de tu padre]] [[mother|madre]] [[is|es]] [[your|tu]] [[grandmother|abuela]].",
+    "transcript": "[[Your father's mother is your grandmother|Tu de tu padre madre es tu abuela]].",
     "content": {
       "title": "Abuela",
       "instructions": "Completa la relación.",
-      "question": "[[Your|Tu]] [[father's|de tu padre]] [[mother|madre]] [[is|es]] [[your|tu]] (____).",
+      "question": "[[Your father's mother is your|Tu de tu padre madre es tu]] (____).",
       "options": ["[[aunt|tía]]", "[[grandmother|abuela]]", "[[sister|hermana]]"],
       "correctAnswer": 1,
       "explanation": "La madre de tu padre es tu abuela."
@@ -528,13 +528,13 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Possessive 's",
     "difficulty": "medium",
-    "transcript": "[[Who|¿Quién]] [[is|es]] [[David|David]]? [[He|Él]] [[is|es]] [[Maria|Maria]](_____) [[husband|esposo]].",
+    "transcript": "[[Who is? He David is Maria|¿Quién es David? Él es Maria]](_____) [[husband|esposo]].",
     "content": {
       "title": "Posesivo",
       "instructions": "Completa con el posesivo.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es]] [[Maria|Maria]](_____) [[husband|esposo]].",
+          "question": "[[He is Maria|Él es Maria]](_____) [[husband|esposo]].",
           "correctAnswer": "'s",
           "explanation": "Husband of Maria = Maria's husband."
         }
@@ -549,11 +549,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[sister|hermana]] [[is|es]] [[not|no]] [[single|soltera]]. [[She|Ella]] [[is|está]] [[married|casada]].",
+    "transcript": "[[My sister. She is not single is married|Mi hermana es no soltera. Ella está casada]].",
     "content": {
       "title": "Vocabulario: Estado Civil",
       "instructions": "Elige el adjetivo correcto.",
-      "question": "[[My|Mi]] [[sister|hermana]] [[is|es]] [[not|no]] [[single|soltera]]. [[She|Ella]] [[is|está]] (____).",
+      "question": "[[My sister. She is not single is|Mi hermana es no soltera. Ella está]] (____).",
       "options": ["[[single|soltera]]", "[[married|casada]]", "[[young|joven]]"],
       "correctAnswer": 1,
       "explanation": "Married significa casada."
@@ -567,11 +567,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Possessive 's",
     "difficulty": "medium",
-    "transcript": "[[This|Esta]] [[is|es]] [[my|de mi]] [[brother's|hermano]] [[new|nuevo]] [[computer|ordenador]].",
+    "transcript": "[[This is my brother's new computer|Esta es de mi hermano nuevo ordenador]].",
     "content": {
       "title": "Posesivo y adjetivo",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[This|Esta]] [[is|es]] [[my|de mi]] [[brother's|hermano]] [[new|nuevo]] [[computer|ordenador]].",
+      "correctSentence": "[[This is my brother's new computer|Esta es de mi hermano nuevo ordenador]].",
       "words": ["[[computer|ordenador]].", "[[new|nuevo]]", "[[brother's|hermano]]", "[[my|de mi]]", "[[is|es]]", "[[This|Esta]]"],
       "explanation": "Estructura: This is + Posesivo + Adjetivo + Sustantivo."
     },
@@ -584,11 +584,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[Is|¿Es]] [[he|él]] [[your|tu]] [[brother|hermano]]? [[No|No]], [[he|él]] [[is|es]] [[my|mi]] [[cousin|primo]].",
+    "transcript": "[[Is he? No is your brother, he my cousin|¿Es él tu hermano? No, él es mi primo]].",
     "content": {
       "title": "Primo",
       "instructions": "Elige el pariente correcto.",
-      "question": "[[Is|¿Es]] [[he|él]] [[your|tu]] [[brother|hermano]]? [[No|No]], [[he|él]] [[is|es]] [[my|mi]] (____).",
+      "question": "[[Is he? No is your brother, he my|¿Es él tu hermano? No, él es mi]] (____).",
       "options": ["[[brother|hermano]]", "[[cousin|primo]]", "[[father|padre]]"],
       "correctAnswer": 1,
       "explanation": "El hijo de tu tío es tu cousin."
@@ -602,13 +602,13 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Whose?",
     "difficulty": "medium",
-    "transcript": "[[Whose|De quién]] [[is|es]] [[that|aquella]] [[house|casa]]?",
+    "transcript": "[[Whose is that house|De quién es aquella casa]]?",
     "content": {
       "title": "Pregunta de posesión",
       "instructions": "Escribe la palabra interrogativa.",
       "questions": [
         {
-          "question": "(_____) [[is|es]] [[that|aquella]] [[house|casa]]?",
+          "question": "(_____) [[is that house|es aquella casa]]?",
           "correctAnswer": "Whose",
           "explanation": "Usamos Whose para preguntar la propiedad."
         }
@@ -623,11 +623,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[mother's|de mi madre]] [[mother|madre]] [[is|es]] [[my|mi]] [[grandmother|abuela]].",
+    "transcript": "[[My mother's mother is my grandmother|Mi de mi madre madre es mi abuela]].",
     "content": {
       "title": "Relación",
       "instructions": "Completa la lógica.",
-      "question": "[[My|Mi]] [[mother's|de mi madre]] [[mother|madre]] [[is|es]] [[my|mi]] (____).",
+      "question": "[[My mother's mother is my|Mi de mi madre madre es mi]] (____).",
       "options": ["[[aunt|tía]]", "[[grandmother|abuela]]", "[[sister|hermana]]"],
       "correctAnswer": 1,
       "explanation": "Tu abuela es la madre de tu madre."
@@ -641,11 +641,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Possessive 's",
     "difficulty": "medium",
-    "transcript": "[[What|Cuál]] [[is|es]] [[your|tu]] [[mother's|de tu madre]] [[name|nombre]]?",
+    "transcript": "[[What is your mother's name|Cuál es tu de tu madre nombre]]?",
     "content": {
       "title": "Nombre de la madre",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[What|Cuál]] [[is|es]] [[your|tu]] [[mother's|de tu madre]] [[name|nombre]]?",
+      "correctSentence": "[[What is your mother's name|Cuál es tu de tu madre nombre]]?",
       "words": ["[[name|nombre]]?", "[[mother's|de tu madre]]", "[[your|tu]]", "[[is|es]]", "[[What|Cuál]]"],
       "explanation": "Pregunta estándar de nombre con posesivo."
     },
@@ -658,11 +658,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[brother|hermano]] [[has|tiene]] [[a|un]] [[baby|bebé]]. [[It|Es]] [[is|es]] [[my|mi]] [[nephew|sobrino]].",
+    "transcript": "[[My brother. It has a baby is my nephew|Mi hermano tiene un bebé. Es es mi sobrino]].",
     "content": {
       "title": "Sobrino",
       "instructions": "Identifica al niño.",
-      "question": "[[My|Mi]] [[brother|hermano]] [[has|tiene]] [[a|un]] [[son|hijo]]. [[He|Él]] [[is|es]] [[my|mi]] (____).",
+      "question": "[[My brother. He has a son is my|Mi hermano tiene un hijo. Él es mi]] (____).",
       "options": ["[[nephew|sobrino]]", "[[niece|sobrina]]", "[[son|hijo]]"],
       "correctAnswer": 0,
       "explanation": "El hijo de tu hermano es tu nephew."
@@ -676,11 +676,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[sister|hermana]] [[has|tiene]] [[a|una]] [[baby|bebé]] [[girl|niña]]. [[It|Es]] [[is|es]] [[my|mi]] [[niece|sobrina]].",
+    "transcript": "[[My sister. It is has a baby girl my niece|Mi hermana tiene una bebé niña. Es es mi sobrina]].",
     "content": {
       "title": "Sobrina",
       "instructions": "Identifica a la niña.",
-      "question": "[[My|Mi]] [[sister|hermana]] [[has|tiene]] [[a|una]] [[daughter|hija]]. [[She|Ella]] [[is|es]] [[my|mi]] (____).",
+      "question": "[[My sister. She has a daughter is my|Mi hermana tiene una hija. Ella es mi]] (____).",
       "options": ["[[nephew|sobrino]]", "[[niece|sobrina]]", "[[daughter|hija]]"],
       "correctAnswer": 1,
       "explanation": "La hija de tu hermana es tu niece."
@@ -694,13 +694,13 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Possessive 's",
     "difficulty": "medium",
-    "transcript": "[[Are|¿Son]] [[they|ellos]] [[Paul|Paul]](_____) [[parents|padres]]?",
+    "transcript": "[[Are they Paul|¿Son ellos Paul]](_____) [[parents|padres]]?",
     "content": {
       "title": "Pregunta posesiva",
       "instructions": "Completa con 's.",
       "questions": [
         {
-          "question": "[[Are|¿Son]] [[they|ellos]] [[Paul|Paul]](_____) [[parents|padres]]?",
+          "question": "[[Are they Paul|¿Son ellos Paul]](_____) [[parents|padres]]?",
           "correctAnswer": "'s",
           "explanation": "Padres de Paul = Paul's parents."
         }
@@ -715,11 +715,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[We|Nosotros]] [[are|somos]] [[brothers|hermanos]]. [[We|Nosotros]] [[are|son]] [[siblings|hermanos]].",
+    "transcript": "[[We are. We brothers are siblings|Nosotros somos hermanos. Nosotros son hermanos]].",
     "content": {
       "title": "Sinónimo",
       "instructions": "Elige la palabra general para hermanos.",
-      "question": "[[John|John]] [[and|y]] [[Mary|Mary]] [[are|son]] [[brother|hermano]] [[and|y]] [[sister|hermana]]. [[They|Ellos]] [[are|son]] (____).",
+      "question": "[[John and. They Mary are brother and sister are|John y Mary son hermano y hermana. Ellos son]] (____).",
       "options": ["[[parents|padres]]", "[[siblings|hermanos]]", "[[cousins|primos]]"],
       "correctAnswer": 1,
       "explanation": "Siblings incluye tanto hermanos como hermanas."
@@ -733,11 +733,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Possessive 's",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[friend's|de mi amigo]] [[house|casa]] [[is|es]] [[very|muy]] [[old|vieja]].",
+    "transcript": "[[My friend's house is very old|Mi de mi amigo casa es muy vieja]].",
     "content": {
       "title": "Casa del amigo",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[My|Mi]] [[friend's|de mi amigo]] [[house|casa]] [[is|es]] [[very|muy]] [[old|vieja]].",
+      "correctSentence": "[[My friend's house is very old|Mi de mi amigo casa es muy vieja]].",
       "words": ["[[old|vieja]].", "[[very|muy]]", "[[is|es]]", "[[house|casa]]", "[[friend's|de mi amigo]]", "[[My|Mi]]"],
       "explanation": "Posesivo + Objeto + Verbo + Adjetivo."
     },
@@ -750,11 +750,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[Who|Quién]] [[is|es]] [[he|él]]? [[He|Él]] [[is|es]] [[my|mi]] [[wife's|de mi esposa]] [[brother|hermano]]. [[He|Él]] [[is|es]] [[my|mi]] [[brother-in-law|cuñado]].",
+    "transcript": "[[Who is? He he is my wife's. He brother is my brother-in-law|Quién es él? Él es mi de mi esposa hermano. Él es mi cuñado]].",
     "content": {
       "title": "Cuñado",
       "instructions": "Identifica la relación.",
-      "question": "[[The|El]] [[brother|hermano]] [[of|de]] [[my|mi]] [[wife|esposa]] [[is|es]] [[my|mi]] (____).",
+      "question": "[[The brother of my wife is my|El hermano de mi esposa es mi]] (____).",
       "options": ["[[father-in-law|suegro]]", "[[brother-in-law|cuñado]]", "[[son-in-law|yerno]]"],
       "correctAnswer": 1,
       "explanation": "El hermano de tu esposa es tu brother-in-law."
@@ -768,11 +768,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[Who|Quién]] [[is|es]] [[she|ella]]? [[She|Ella]] [[is|es]] [[my|mi]] [[husband's|de mi esposo]] [[sister|hermana]]. [[She|Ella]] [[is|es]] [[my|mi]] [[sister-in-law|cuñada]].",
+    "transcript": "[[Who is? She she is my husband's. She sister is my sister-in-law|Quién es ella? Ella es mi de mi esposo hermana. Ella es mi cuñada]].",
     "content": {
       "title": "Cuñada",
       "instructions": "Identifica la relación.",
-      "question": "[[The|La]] [[sister|hermana]] [[of|de]] [[my|mi]] [[husband|esposo]] [[is|es]] [[my|mi]] (____).",
+      "question": "[[The sister of my husband is my|La hermana de mi esposo es mi]] (____).",
       "options": ["[[mother-in-law|suegra]]", "[[sister-in-law|cuñada]]", "[[daughter-in-law|nuera]]"],
       "correctAnswer": 1,
       "explanation": "La hermana de tu esposo es tu sister-in-law."
@@ -786,13 +786,13 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Possessive 's",
     "difficulty": "medium",
-    "transcript": "[[Where|Dónde]] [[are|están]] [[the|los]] [[boys|niños]](_____) [[toys|juguetes]]?",
+    "transcript": "[[Where are the boys|Dónde están los niños]](_____) [[toys|juguetes]]?",
     "content": {
       "title": "Posesivo plural",
       "instructions": "Completa el posesivo para 'boys' (plural).",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[are|están]] [[the|los]] [[boys|niños]](_____) [[toys|juguetes]]?",
+          "question": "[[Where are the boys|Dónde están los niños]](_____) [[toys|juguetes]]?",
           "correctAnswer": "'",
           "explanation": "Para plurales en 's', solo añadimos el apóstrofe."
         }
@@ -807,11 +807,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[parents|padres]] [[are|son]] [[very|muy]] [[happy|felices]] [[together|juntos]].",
+    "transcript": "[[My parents are very happy together|Mi padres son muy felices juntos]].",
     "content": {
       "title": "Adjetivo",
       "instructions": "Elige el adjetivo lógico.",
-      "question": "[[My|Mi]] [[parents|padres]] [[are|son]] [[very|muy]] [[happy|felices]] [[together|juntos]]. [[They|Ellos]] [[are|están]] (____).",
+      "question": "[[My parents. They are are very happy together|Mi padres son muy felices juntos. Ellos están]] (____).",
       "options": ["[[sad|tristes]]", "[[happy|felices]]", "[[angry|enfadados]]"],
       "correctAnswer": 1,
       "explanation": "Generalmente describimos familias de forma positiva: happy."
@@ -825,11 +825,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Possessive 's",
     "difficulty": "medium",
-    "transcript": "[[Is|¿Es]] [[this|este]] [[your|el de tu]] [[sister's|hermana]] [[cat|gato]]?",
+    "transcript": "[[Is this your sister's cat|¿Es este el de tu hermana gato]]?",
     "content": {
       "title": "Pregunta de posesión",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Is|¿Es]] [[this|este]] [[your|el de tu]] [[sister's|hermana]] [[cat|gato]]?",
+      "correctSentence": "[[Is this your sister's cat|¿Es este el de tu hermana gato]]?",
       "words": ["[[cat|gato]]?", "[[sister's|hermana]]", "[[your|el de tu]]", "[[this|este]]", "[[Is|¿Es]]"],
       "explanation": "Verbo + Sujeto + Posesivo + Objeto."
     },
@@ -842,11 +842,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[Who|Quién]] [[is|es]] [[David|David]]? [[He|Él]] [[is|es]] [[Maria's|de Maria]] [[husband|marido]].",
+    "transcript": "[[Who is? He David is Maria's husband|Quién es David? Él es de Maria marido]].",
     "content": {
       "title": "Identificar",
       "instructions": "Elige la opción correcta.",
-      "question": "[[Who|¿Quién]] [[is|es]] [[David|David]]? [[He|Él]] [[is|es]] (____).",
+      "question": "[[Who is? He David is|¿Quién es David? Él es]] (____).",
       "options": ["[[Maria husband|Maria marido]]", "[[Maria's husband|marido de Maria]]", "[[Husband Maria|marido Maria]]"],
       "correctAnswer": 1,
       "explanation": "Estructura del genitivo sajón."
@@ -860,13 +860,13 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[father|padre]] [[and|y]] [[mother|madre]] [[are|son]] [[my|mis]] (_____).",
+    "transcript": "[[My father and mother are my|Mi padre y madre son mis]] (_____).",
     "content": {
       "title": "Término colectivo",
       "instructions": "Escribe la palabra para padres.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[father|padre]] [[and|y]] [[mother|madre]] [[are|son]] [[my|mis]] (_____).",
+          "question": "[[My father and mother are my|Mi padre y madre son mis]] (_____).",
           "correctAnswer": "parents",
           "explanation": "Parents engloba a ambos."
         }
@@ -881,11 +881,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[Do|¿Tienes]] [[you|tú]] [[have|tienes]] [[any|algún]] [[brother|hermano]] [[or|o]] [[sister|hermana]]?",
+    "transcript": "[[Do you have any brother or sister|¿Tienes tú tienes algún hermano o hermana]]?",
     "content": {
       "title": "Pregunta general",
       "instructions": "Selecciona la conjunción.",
-      "question": "[[Do|¿Tienes]] [[you|tú]] [[have|tienes]] [[any|algún]] [[brother|hermano]] (____) [[sister|hermana]]?",
+      "question": "[[Do you have any brother|¿Tienes tú tienes algún hermano]] (____) [[sister|hermana]]?",
       "options": ["[[and|y]]", "[[but|pero]]", "[[or|o]]"],
       "correctAnswer": 2,
       "explanation": "Usamos 'or' para preguntar entre alternativas."
@@ -899,11 +899,11 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Whose?",
     "difficulty": "medium",
-    "transcript": "[[Whose|De quién]] [[is|es]] [[this|este]] [[blue|azul]] [[pen|bolígrafo]]?",
+    "transcript": "[[Whose is this blue pen|De quién es este azul bolígrafo]]?",
     "content": {
       "title": "Pregunta de objeto",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Whose|De quién]] [[is|es]] [[this|este]] [[blue|azul]] [[pen|bolígrafo]]?",
+      "correctSentence": "[[Whose is this blue pen|De quién es este azul bolígrafo]]?",
       "words": ["[[pen|bolígrafo]]?", "[[blue|azul]]", "[[this|este]]", "[[is|es]]", "[[Whose|De quién]]"],
       "explanation": "Whose + Verbo + Sujeto (adjetivo + sustantivo)."
     },
@@ -923,16 +923,16 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[My|Mi]] [[father's|del padre]] [[name|nombre]] [[is|es]] [[David|David]] [[and|y]] [[my|mi]] [[mother's|de la madre]] [[name|nombre]] [[is|es]] [[Maria|Maria]]. [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]], [[his|su]] [[name|nombre]] [[is|es]] [[Paul|Paul]]. [[He|Él]] [[is|tiene]] [[twelve|doce]] [[years|años]] [[old|de edad]]. [[We|Nosotros]] [[live|vivimos]] [[in|en]] [[a|una]] [[small|pequeña]] [[house|casa]] [[in|en]] [[Madrid|Madrid]]. [[My|Mi]] [[parents|padres]] [[are|son]] [[very|muy]] [[nice|amables]]. [[My|Mi]] [[father|padre]] [[is|es]] [[a|un]] [[doctor|médico]] [[and|y]] [[my|mi]] [[mother|madre]] [[is|es]] [[an|una]] [[artist|artista]].",
+    "transcript": "[[This is. My a photo of my family father's name is. I David and my mother's name is Maria have one brother, his name is Paul. He is twelve years. We old live in a. My parents small house in Madrid are very. My nice father is a doctor and my mother is an artist|Esta es una foto de mi familia. Mi del padre nombre es David y mi de la madre nombre es Maria. Yo tengo un hermano, su nombre es Paul. Él tiene doce años de edad. Nosotros vivimos en una pequeña casa en Madrid. Mi padres son muy amables. Mi padre es un médico y mi madre es una artista]].",
     "content": {
-      "title": "[[Reading|Lectura]]: [[The|La]] [[Family|Foto]] [[Photo|Familiar]]",
-      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|la]] [[family|familia]].",
+      "title": "[[Reading Family: The Photo|Lectura: La Foto Familiar]]",
+      "instructions": "[[Read about the family|Lee sobre la familia]].",
       "questions": [
         {
-          "question": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[My|Mi]] [[father's|del padre]] [[name|nombre]] [[is|es]] [[David|David]] [[and|y]] [[my|mi]] [[mother's|de la madre]] [[name|nombre]] [[is|es]] [[Maria|Maria]]. [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]], [[his|su]] [[name|nombre]] [[is|es]] [[Paul|Paul]]. [[He|Él]] [[is|tiene]] [[twelve|doce]] [[years|años]] [[old|de edad]]. [[We|Nosotros]] [[live|vivimos]] [[in|en]] [[a|una]] [[small|pequeña]] [[house|casa]] [[in|en]] [[Madrid|Madrid]]. [[My|Mi]] [[parents|padres]] [[are|son]] [[very|muy]] [[nice|amables]]. [[My|Mi]] [[father|padre]] [[is|es]] [[a|un]] [[doctor|médico]] [[and|y]] [[my|mi]] [[mother|madre]] [[is|es]] [[an|una]] [[artist|artista]].",
-          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "question": "[[This is. My a photo of my family father's name is. I David and my mother's name is Maria have one brother, his name is Paul. He is twelve years. We old live in a. My parents small house in Madrid are very. My nice father is a doctor and my mother is an artist|Esta es una foto de mi familia. Mi del padre nombre es David y mi de la madre nombre es Maria. Yo tengo un hermano, su nombre es Paul. Él tiene doce años de edad. Nosotros vivimos en una pequeña casa en Madrid. Mi padres son muy amables. Mi padre es un médico y mi madre es una artista]].",
+          "options": ["[[I have read the text|Yo he leído el texto]]."],
           "correctAnswer": 0,
-          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+          "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
       ]
     },
@@ -944,16 +944,16 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[What|Cuál]] [[is|es]] [[the|el]] [[father's|del padre]] [[name|nombre]]?",
+    "transcript": "[[What is the father's name|Cuál es el del padre nombre]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Names|Nombres]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Comprehension: Names|Comprensión: Nombres]]",
+      "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[What|Cuál]] [[is|es]] [[the|el]] [[father's|del padre]] [[name|nombre]]?",
+          "question": "[[What is the father's name|Cuál es el del padre nombre]]?",
           "options": ["[[Paul|Paul]]", "[[Madrid|Madrid]]", "[[David|David]]"],
           "correctAnswer": 2,
-          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[My|Mi]] [[father's|del padre]] [[name|nombre]] [[is|es]] [[David|David]]\"."
+          "explanation": "[[The text says father's David|El texto dice]]: \"[[My name is|Mi del padre nombre es David]]\"."
         }
       ]
     },
@@ -965,16 +965,16 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[How|Qué edad]] [[old|tiene]] [[is|tiene]] [[Paul|Paul]]?",
+    "transcript": "[[How old is Paul|Qué edad tiene tiene Paul]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Age|Edad]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Comprehension: Age|Comprensión: Edad]]",
+      "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[How|Qué edad]] [[old|tiene]] [[is|tiene]] [[Paul|Paul]]?",
+          "question": "[[How old is Paul|Qué edad tiene tiene Paul]]?",
           "options": ["[[Twelve|Doce]]", "[[Ten|Diez]]", "[[Fifteen|Quince]]"],
           "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[mentions|menciona]]: \"[[He|Él]] [[is|tiene]] [[twelve|doce]] [[years|años]] [[old|de edad]]\"."
+          "explanation": "[[The text mentions is old|El texto menciona]]: \"[[He twelve years|Él tiene doce años de edad]]\"."
         }
       ]
     },
@@ -986,16 +986,16 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[What|Cuál]] [[is|es]] [[Maria's|de Maria]] [[job|trabajo]]?",
+    "transcript": "[[What is Maria's job|Cuál es de Maria trabajo]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Jobs|Trabajos]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Comprehension: Jobs|Comprensión: Trabajos]]",
+      "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[What|Cuál]] [[is|es]] [[Maria's|de Maria]] [[job|trabajo]]?",
+          "question": "[[What is Maria's job|Cuál es de Maria trabajo]]?",
           "options": ["[[Doctor|Médico]]", "[[Artist|Artista]]", "[[Teacher|Profesora]]"],
           "correctAnswer": 1,
-          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[my|mi]] [[mother|madre]] [[is|es]] [[an|una]] [[artist|artista]]\" ([[Maria]] [[is|es]] [[the|la]] [[mother|madre]])."
+          "explanation": "[[The text says mother artist is the mother|El texto dice]]: \"[[my is an|mi madre es una artista]]\" ([[Maria es la madre]])."
         }
       ]
     },
@@ -1009,16 +1009,16 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[The|La]] [[Smith|Smith]] [[family's|de la familia]] [[house|casa]] [[is|está]] [[in|en]] [[New York|Nueva York]]. [[Mr.|Sr.]] [[Smith's|de Smith]] [[name|nombre]] [[is|es]] [[John|John]]. [[Mrs.|Sra.]] [[Smith's|de Smith]] [[name|nombre]] [[is|es]] [[Helen|Helen]]. [[They|Ellos]] [[have|tienen]] [[a|un]] [[son|hijo]] [[and|y]] [[a|una]] [[daughter|hija]]. [[Their|Su]] [[son's|de su hijo]] [[name|nombre]] [[is|es]] [[Toby|Toby]] [[and|y]] [[their|su]] [[daughter's|de su hija]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Toby|Toby]] [[is|tiene]] [[eight|ocho]] [[and|y]] [[Sarah|Sarah]] [[is|tiene]] [[five|cinco]]. [[They|Ellos]] [[have|tienen]] [[a|un]] [[big|grande]] [[garden|jardín]].",
+    "transcript": "[[The Smith. Mr. family's house is in New York Smith's name is. Mrs. John Smith's name is. They Helen have a son. Their and a daughter son's name is. Toby Toby and their daughter's name is Sarah is eight and. They Sarah is five have a big garden|La Smith de la familia casa está en Nueva York. Sr. de Smith nombre es John. Sra. de Smith nombre es Helen. Ellos tienen un hijo y una hija. Su de su hijo nombre es Toby y su de su hija nombre es Sarah. Toby tiene ocho y Sarah tiene cinco. Ellos tienen un grande jardín]].",
     "content": {
-      "title": "[[Reading|Lectura]]: [[The|La]] [[Smith|Familia]] [[Family|Smith]]",
-      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|la]] [[Smith|Smith]] [[family|familia]].",
+      "title": "[[Reading Smith: The Family|Lectura: La Familia Smith]]",
+      "instructions": "[[Read about the Smith family|Lee sobre la Smith familia]].",
       "questions": [
         {
-          "question": "[[The|La]] [[Smith|Smith]] [[family's|de la familia]] [[house|casa]] [[is|está]] [[in|en]] [[New York|Nueva York]]. [[Mr.|Sr.]] [[Smith's|de Smith]] [[name|nombre]] [[is|es]] [[John|John]]. [[Mrs.|Sra.]] [[Smith's|de Smith]] [[name|nombre]] [[is|es]] [[Helen|Helen]]. [[They|Ellos]] [[have|tienen]] [[a|un]] [[son|hijo]] [[and|y]] [[a|una]] [[daughter|hija]]. [[Their|Su]] [[son's|de su hijo]] [[name|nombre]] [[is|es]] [[Toby|Toby]] [[and|y]] [[their|su]] [[daughter's|de su hija]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Toby|Toby]] [[is|tiene]] [[eight|ocho]] [[and|y]] [[Sarah|Sarah]] [[is|tiene]] [[five|cinco]]. [[They|Ellos]] [[have|tienen]] [[a|un]] [[big|grande]] [[garden|jardín]].",
-          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "question": "[[The Smith. Mr. family's house is in New York Smith's name is. Mrs. John Smith's name is. They Helen have a son. Their and a daughter son's name is. Toby Toby and their daughter's name is Sarah is eight and. They Sarah is five have a big garden|La Smith de la familia casa está en Nueva York. Sr. de Smith nombre es John. Sra. de Smith nombre es Helen. Ellos tienen un hijo y una hija. Su de su hijo nombre es Toby y su de su hija nombre es Sarah. Toby tiene ocho y Sarah tiene cinco. Ellos tienen un grande jardín]].",
+          "options": ["[[I have read the text|Yo he leído el texto]]."],
           "correctAnswer": 0,
-          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+          "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
       ]
     },
@@ -1030,16 +1030,16 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Where|Dónde]] [[is|está]] [[the|la]] [[house|casa]]?",
+    "transcript": "[[Where is the house|Dónde está la casa]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Location|Ubicación]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Comprehension: Location|Comprensión: Ubicación]]",
+      "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[is|está]] [[the|la]] [[house|casa]]?",
+          "question": "[[Where is the house|Dónde está la casa]]?",
           "options": ["[[London|Londres]]", "[[Paris|París]]", "[[New York|Nueva York]]"],
           "correctAnswer": 2,
-          "explanation": "[[The|El]] [[text|texto]] [[indicates|indica]] [[that|que]] [[the|la]] [[house|casa]] [[is|está]] [[in|en]] [[New York|Nueva York]]."
+          "explanation": "[[The text indicates that the house is in New York|El texto indica que la casa está en Nueva York]]."
         }
       ]
     },
@@ -1051,16 +1051,16 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[How|Cuántos]] [[many|muchos]] [[children|hijos]] [[do|tienen]] [[John|John]] [[and|y]] [[Helen|Helen]] [[have|tener]]?",
+    "transcript": "[[How many children do John and Helen have|Cuántos muchos hijos tienen John y Helen tener]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Children|Hijos]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Comprehension: Children|Comprensión: Hijos]]",
+      "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[How|Cuántos]] [[many|muchos]] [[children|hijos]] [[do|tienen]] [[John|John]] [[and|y]] [[Helen|Helen]] [[have|tener]]?",
+          "question": "[[How many children do John and Helen have|Cuántos muchos hijos tienen John y Helen tener]]?",
           "options": ["[[Two|Dos]]", "[[One|Uno]]", "[[Three|Tres]]"],
           "correctAnswer": 0,
-          "explanation": "[[They|Ellos]] [[have|tienen]] [[a|un]] [[son|hijo]] ([[Toby|Toby]]) [[and|y]] [[a|una]] [[daughter|hija]] ([[Sarah|Sarah]])."
+          "explanation": "[[They have a son|Ellos tienen un hijo]] ([[Toby a daughter|Toby]]) [[and|y una hija]] ([[Sarah|Sarah]])."
         }
       ]
     },
@@ -1072,16 +1072,16 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Who|Quién]] [[is|es]] [[the|la]] [[youngest|más joven]] [[child|hija]]?",
+    "transcript": "[[Who is the youngest child|Quién es la más joven hija]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Family|Familia]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Comprehension: Family|Comprensión: Familia]]",
+      "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[Who|Quién]] [[is|es]] [[the|la]] [[youngest|más joven]] [[child|hija]]?",
+          "question": "[[Who is the youngest child|Quién es la más joven hija]]?",
           "options": ["[[Toby|Toby]]", "[[Helen|Helen]]", "[[Sarah|Sarah]]"],
           "correctAnswer": 2,
-          "explanation": "[[Sarah|Sarah]] [[is|tiene]] [[five|cinco]] [[and|y]] [[Toby|Toby]] [[is|tiene]] [[eight|ocho]], [[so|así que]] [[Sarah|Sarah]] [[is|es]] [[the|la]] [[youngest|más joven]]."
+          "explanation": "[[Sarah is, so five and Toby is eight Sarah is the youngest|Sarah tiene cinco y Toby tiene ocho, así que Sarah es la más joven]]."
         }
       ]
     },
@@ -1095,16 +1095,16 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Laura|Laura]]. [[My|Mi]] [[brother's|de mi hermano]] [[name|nombre]] [[is|es]] [[Mike|Mike]]. [[Mike's|de Mike]] [[wife|esposa]] [[is|es]] [[called|llamada]] [[Linda|Linda]]. [[They|Ellos]] [[have|tienen]] [[a|una]] [[daughter|hija]], [[her|su]] [[name|nombre]] [[is|es]] [[Sophie|Sophie]]. [[Sophie|Sophie]] [[is|es]] [[my|mi]] [[niece|sobrina]]. [[I|Yo]] [[love|amo]] [[my|mi]] [[family|familia]] [[very|mucho]] [[much|mucho]].",
+    "transcript": "[[My name. My brother's is Laura name is. Mike's Mike wife is called. They Linda have a daughter, her name is Sophie. Sophie is my niece. I love my family very much|Mi nombre es Laura. Mi de mi hermano nombre es Mike. de Mike esposa es llamada Linda. Ellos tienen una hija, su nombre es Sophie. Sophie es mi sobrina. Yo amo mi familia mucho mucho]].",
     "content": {
-      "title": "[[Reading|Lectura]]: [[Laura's|de Laura]] [[Brother|Hermano]]",
-      "instructions": "[[Read|Lee]] [[about|sobre]] [[Laura's|de Laura]] [[family|familia]].",
+      "title": "[[Reading Brother: Laura's|Lectura: de Laura Hermano]]",
+      "instructions": "[[Read about Laura's family|Lee sobre de Laura familia]].",
       "questions": [
         {
-          "question": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Laura|Laura]]. [[My|Mi]] [[brother's|de mi hermano]] [[name|nombre]] [[is|es]] [[Mike|Mike]]. [[Mike's|de Mike]] [[wife|esposa]] [[is|es]] [[called|llamada]] [[Linda|Linda]]. [[They|Ellos]] [[have|tienen]] [[a|una]] [[daughter|hija]], [[her|su]] [[name|nombre]] [[is|es]] [[Sophie|Sophie]]. [[Sophie|Sophie]] [[is|es]] [[my|mi]] [[niece|sobrina]]. [[I|Yo]] [[love|amo]] [[my|mi]] [[family|familia]] [[very|mucho]] [[much|mucho]].",
-          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "question": "[[My name. My brother's is Laura name is. Mike's Mike wife is called. They Linda have a daughter, her name is Sophie. Sophie is my niece. I love my family very much|Mi nombre es Laura. Mi de mi hermano nombre es Mike. de Mike esposa es llamada Linda. Ellos tienen una hija, su nombre es Sophie. Sophie es mi sobrina. Yo amo mi familia mucho mucho]].",
+          "options": ["[[I have read the text|Yo he leído el texto]]."],
           "correctAnswer": 0,
-          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+          "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
       ]
     },
@@ -1116,16 +1116,16 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[What|Qué]] [[is|es]] [[the|la]] [[relationship|relación]] [[between|entre]] [[Laura|Laura]] [[and|y]] [[Sophie|Sophie]]?",
+    "transcript": "[[What is the relationship between Laura and Sophie|Qué es la relación entre Laura y Sophie]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Relationship|Relación]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Comprehension: Relationship|Comprensión: Relación]]",
+      "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|es]] [[the|la]] [[relationship|relación]] [[between|entre]] [[Laura|Laura]] [[and|y]] [[Sophie|Sophie]]?",
+          "question": "[[What is the relationship between Laura and Sophie|Qué es la relación entre Laura y Sophie]]?",
           "options": ["[[Sophie is Laura's daughter|Es su hija]]", "[[Sophie is Laura's niece|Es su sobrina]]", "[[Sophie is Laura's sister|Es su hermana]]"],
           "correctAnswer": 1,
-          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[Sophie|Sophie]] [[is|es]] [[my|mi]] [[niece|sobrina]]\"."
+          "explanation": "[[The text says is|El texto dice]]: \"[[Sophie my niece|Sophie es mi sobrina]]\"."
         }
       ]
     },

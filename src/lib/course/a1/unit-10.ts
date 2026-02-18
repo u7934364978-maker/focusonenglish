@@ -10,7 +10,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Nationalities",
     "difficulty": "medium",
-    "transcript": "[[She|Ella]] [[is|es]] [[from|de]] [[France|Francia]]. [[She|Ella]] [[is|es]] [[French|francesa]].",
+    "transcript": "[[She is. She is from France French|Ella es de Francia. Ella es francesa]].",
     "content": {
       "title": "Nacionalidades",
       "instructions": "Elige la nacionalidad correcta.",
@@ -27,7 +27,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Emotions",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[am|estoy]] [[tired|cansado]]. [[I|Yo]] [[need|necesito]] [[sleep|dormir]].",
+    "transcript": "[[I am. I tired need sleep|Yo estoy cansado. Yo necesito dormir]].",
     "content": {
       "title": "Emociones",
       "instructions": "Selecciona el estado emocional lógico.",
@@ -44,7 +44,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[mother's|de mi madre]] [[sister|hermana]] [[is|es]] [[my|mi]] [[aunt|tía]].",
+    "transcript": "[[My mother's sister is my aunt|Mi de mi madre hermana es mi tía]].",
     "content": {
       "title": "Familia",
       "instructions": "Identifica al pariente.",
@@ -61,7 +61,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Classroom Objects",
     "difficulty": "medium",
-    "transcript": "[[Where|Dónde]] [[is|está]] [[my|mi]] [[pen|bolígrafo]]? [[It|Está]] [[is|está]] [[on|sobre]] [[the|la]] [[table|mesa]].",
+    "transcript": "[[Where is? It is my pen on the table|Dónde está mi bolígrafo? Está está sobre la mesa]].",
     "content": {
       "title": "Objetos",
       "instructions": "Elige el objeto de escritura.",
@@ -78,11 +78,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Numbers",
     "difficulty": "medium",
-    "transcript": "[[There|Hay]] [[are|hay]] [[thirty-five|treinta y cinco]] [[students|estudiantes]] [[here|aquí]].",
+    "transcript": "[[There are thirty-five students here|Hay hay treinta y cinco estudiantes aquí]].",
     "content": {
       "title": "Números",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[There|Hay]] [[are|hay]] [[thirty-five|treinta y cinco]] [[students|estudiantes]] [[here|aquí]].",
+      "correctSentence": "[[There are thirty-five students here|Hay hay treinta y cinco estudiantes aquí]].",
       "words": ["[[here|aquí]].", "[[students|estudiantes]]", "[[thirty-five|treinta y cinco]]", "[[are|hay]]", "[[There|Hay]]"],
       "explanation": "There are + Número + Sustantivo."
     },
@@ -95,11 +95,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Colors",
     "difficulty": "medium",
-    "transcript": "[[The|El]] [[sky|cielo]] [[is|es]] [[blue|azul]] [[today|hoy]].",
+    "transcript": "[[The sky is blue today|El cielo es azul hoy]].",
     "content": {
       "title": "Colores",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[The|El]] [[sky|cielo]] [[is|es]] [[blue|azul]] [[today|hoy]].",
+      "correctSentence": "[[The sky is blue today|El cielo es azul hoy]].",
       "words": ["[[today|hoy]].", "[[blue|azul]]", "[[is|es]]", "[[sky|cielo]]", "[[The|El]]"],
       "explanation": "Sujeto + Verbo + Adjetivo."
     },
@@ -112,7 +112,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Jobs",
     "difficulty": "medium",
-    "transcript": "[[A|Un]] [[nurse|enfermero]] [[works|trabaja]] [[in|en]] [[a|un]] [[hospital|hospital]].",
+    "transcript": "[[A nurse works in a hospital|Un enfermero trabaja en un hospital]].",
     "content": {
       "title": "Trabajos",
       "instructions": "Selecciona la profesión médica.",
@@ -129,7 +129,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[father's|de mi padre]] [[father|padre]] [[is|es]] [[my|mi]] [[grandfather|abuelo]].",
+    "transcript": "[[My father's father is my grandfather|Mi de mi padre padre es mi abuelo]].",
     "content": {
       "title": "Relaciones",
       "instructions": "Elige el pariente correcto.",
@@ -146,7 +146,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Countries",
     "difficulty": "medium",
-    "transcript": "[[Rome|Roma]] [[is|está]] [[in|en]] [[Italy|Italia]].",
+    "transcript": "[[Rome is in Italy|Roma está en Italia]].",
     "content": {
       "title": "Países",
       "instructions": "Identifica el país.",
@@ -167,7 +167,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Verb To Be",
     "difficulty": "medium",
-    "transcript": "[[Are|¿Estás]] [[you|tú]] [[ready|listo]]? [[Yes|Sí]], [[I|yo]] [[am|estoy]].",
+    "transcript": "[[Are you? Yes ready am, I|¿Estás tú listo? Sí, yo estoy]].",
     "content": {
       "title": "Verbo To Be",
       "instructions": "Elige la respuesta corta correcta.",
@@ -184,7 +184,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Articles",
     "difficulty": "medium",
-    "transcript": "[[This|Esta]] [[is|es]] [[an|una]] [[orange|naranja]].",
+    "transcript": "[[This is an orange|Esta es una naranja]].",
     "content": {
       "title": "Artículos",
       "instructions": "Selecciona el artículo correcto.",
@@ -201,13 +201,13 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Verb To Be",
     "difficulty": "medium",
-    "transcript": "[[They|Ellos]] [[are|son]] [[not|no]] [[English|ingleses]].",
+    "transcript": "[[They are not English|Ellos son no ingleses]].",
     "content": {
       "title": "Negación",
       "instructions": "Completa con el verbo to be en plural.",
       "questions": [
         {
-          "question": "[[They|Ellos]] (_____) [[not|no]] [[English|ingleses]].",
+          "question": "[[They English|Ellos]] (_____) [[not|no ingleses]].",
           "correctAnswer": "are",
           "explanation": "They utiliza 'are'."
         }
@@ -222,11 +222,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Possessive 's",
     "difficulty": "medium",
-    "transcript": "[[What|Cuál]] [[is|es]] [[your|el de tu]] [[sister's|hermana]] [[job|trabajo]]?",
+    "transcript": "[[What is your sister's job|Cuál es el de tu hermana trabajo]]?",
     "content": {
       "title": "Posesivo",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[What|Cuál]] [[is|es]] [[your|el de tu]] [[sister's|hermana]] [[job|trabajo]]?",
+      "correctSentence": "[[What is your sister's job|Cuál es el de tu hermana trabajo]]?",
       "words": ["[[job|trabajo]]?", "[[sister's|hermana]]", "[[your|el de tu]]", "[[is|es]]", "[[What|Cuál]]"],
       "explanation": "What is + Posesivo + Sustantivo."
     },
@@ -239,7 +239,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Whose?",
     "difficulty": "medium",
-    "transcript": "[[Whose|De quién]] [[car|coche]] [[is|es]] [[it|esto]]? [[It|Es]] [[is|es]] [[the|del]] [[doctor's|médico]].",
+    "transcript": "[[Whose car? It is is it the doctor's|De quién coche es esto? Es es del médico]].",
     "content": {
       "title": "Preguntas de posesión",
       "instructions": "Elige la palabra interrogativa.",
@@ -256,7 +256,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Plurals",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[have|tengo]] [[two|dos]] [[watches|relojes]].",
+    "transcript": "[[I have two watches|Yo tengo dos relojes]].",
     "content": {
       "title": "Plurales",
       "instructions": "Elige la forma plural correcta.",
@@ -273,11 +273,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Demonstratives",
     "difficulty": "medium",
-    "transcript": "[[These|Estos]] [[books|libros]] [[are|son]] [[very|muy]] [[old|viejos]].",
+    "transcript": "[[These books are very old|Estos libros son muy viejos]].",
     "content": {
       "title": "Demostrativos",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[These|Estos]] [[books|libros]] [[are|son]] [[very|muy]] [[old|viejos]].",
+      "correctSentence": "[[These books are very old|Estos libros son muy viejos]].",
       "words": ["[[old|viejos]].", "[[very|muy]]", "[[are|son]]", "[[books|libros]]", "[[These|Estos]]"],
       "explanation": "These (plural cercano) + Sustantivo plural + are."
     },
@@ -290,7 +290,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Questions",
     "difficulty": "medium",
-    "transcript": "[[How|Cómo]] [[are|estás]] [[you|tú]]? [[I|Yo]] [[am|estoy]] [[fine|bien]], [[thanks|gracias]].",
+    "transcript": "[[How are? I you am fine, thanks|Cómo estás tú? Yo estoy bien, gracias]].",
     "content": {
       "title": "Preguntas básicas",
       "instructions": "Elige la pregunta correcta para el estado de ánimo.",
@@ -307,13 +307,13 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Verb To Be",
     "difficulty": "medium",
-    "transcript": "[[Is|¿Es]] [[she|ella]] [[married|casada]]? [[No|No]], [[she|ella]] [[isn't|no lo es]].",
+    "transcript": "[[Is she? No married isn't, she|¿Es ella casada? No, ella no lo es]].",
     "content": {
       "title": "Pregunta cerrada",
       "instructions": "Completa la pregunta con el verbo to be.",
       "questions": [
         {
-          "question": "(_____) [[she|ella]] [[married|casada]]?",
+          "question": "(_____) [[she married|ella casada]]?",
           "correctAnswer": "Is",
           "explanation": "Is para la tercera persona singular."
         }
@@ -328,7 +328,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Adjectives",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[car|coche]] [[is|es]] [[red|rojo]]. [[It|Es]] [[is|es]] [[a|un]] [[red|rojo]] [[car|coche]].",
+    "transcript": "[[My car. It is is red a red car|Mi coche es rojo. Es es un rojo coche]].",
     "content": {
       "title": "Orden de adjetivos",
       "instructions": "Elige la posición correcta del adjetivo.",
@@ -349,7 +349,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[Where|De dónde]] [[is|es]] [[he|él]] [[from|de]]? [[He|Él]] [[is|es]] [[from|de]] [[London|Londres]].",
+    "transcript": "[[Where is? He is he from from London|De dónde es él de? Él es de Londres]].",
     "content": {
       "title": "Repaso: Origen",
       "instructions": "Elige la respuesta correcta.",
@@ -366,11 +366,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[am|tengo]] [[not|no]] [[twenty|veinte]] [[years|años]] [[old|de edad]].",
+    "transcript": "[[I am not twenty years old|Yo tengo no veinte años de edad]].",
     "content": {
       "title": "Repaso: Edad negativa",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[I|Yo]] [[am|tengo]] [[not|no]] [[twenty|veinte]] [[years|años]] [[old|de edad]].",
+      "correctSentence": "[[I am not twenty years old|Yo tengo no veinte años de edad]].",
       "words": ["[[old|de edad]].", "[[years|años]]", "[[twenty|veinte]]", "[[not|no]]", "[[am|tengo]]", "[[I|Yo]]"],
       "explanation": "I + am + not + Edad."
     },
@@ -383,7 +383,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[Who|Quién]] [[is|es]] [[that|aquél]] [[man|hombre]]? [[He|Él]] [[is|es]] [[my|mi]] [[boss|jefe]].",
+    "transcript": "[[Who is? He is that man my boss|Quién es aquél hombre? Él es mi jefe]].",
     "content": {
       "title": "Repaso: Personas",
       "instructions": "Elige la palabra interrogativa.",
@@ -400,13 +400,13 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[The|La]] [[apple|manzana]] [[is|es]] [[green|verde]].",
+    "transcript": "[[The apple is green|La manzana es verde]].",
     "content": {
       "title": "Repaso: Colores",
       "instructions": "Escribe el color verde.",
       "questions": [
         {
-          "question": "[[The|La]] [[apple|manzana]] [[is|es]] (_____).",
+          "question": "[[The apple is|La manzana es]] (_____).",
           "correctAnswer": "green",
           "explanation": "Green es verde."
         }
@@ -421,7 +421,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[Is|¿Hay]] [[there|hay]] [[a|un]] [[book|libro]] [[on|sobre]] [[the|la]] [[chair|silla]]?",
+    "transcript": "[[Is there a book on the chair|¿Hay hay un libro sobre la silla]]?",
     "content": {
       "title": "Repaso: Existencia",
       "instructions": "Elige el orden correcto de la pregunta.",
@@ -438,11 +438,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[sister|hermana]] [[is|es]] [[a|una]] [[very|muy]] [[good|buena]] [[student|estudiante]].",
+    "transcript": "[[My sister is a very good student|Mi hermana es una muy buena estudiante]].",
     "content": {
       "title": "Repaso: Adjetivos",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[My|Mi]] [[sister|hermana]] [[is|es]] [[a|una]] [[very|muy]] [[good|buena]] [[student|estudiante]].",
+      "correctSentence": "[[My sister is a very good student|Mi hermana es una muy buena estudiante]].",
       "words": ["[[student|estudiante]].", "[[good|buena]]", "[[very|muy]]", "[[a|una]]", "[[is|es]]", "[[sister|hermana]]", "[[My|Mi]]"],
       "explanation": "Sujeto + is + a + adverbio + adjetivo + sustantivo."
     },
@@ -455,7 +455,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[How|Cómo]] [[do|se]] [[you|tú]] [[spell|deletreas]] [[your|tu]] [[name|nombre]]?",
+    "transcript": "[[How do you spell your name|Cómo se tú deletreas tu nombre]]?",
     "content": {
       "title": "Repaso: Alfabeto",
       "instructions": "Elige el verbo para deletrear.",
@@ -472,13 +472,13 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[They|Ellos]] [[are|están]] [[very|muy]] [[happy|felices]] [[today|hoy]].",
+    "transcript": "[[They are very happy today|Ellos están muy felices hoy]].",
     "content": {
       "title": "Repaso: Sentimientos",
       "instructions": "Completa con el verbo to be plural.",
       "questions": [
         {
-          "question": "[[They|Ellos]] (_____) [[very|muy]] [[happy|felices]] [[today|hoy]].",
+          "question": "[[They happy today|Ellos]] (_____) [[very|muy felices hoy]].",
           "correctAnswer": "are",
           "explanation": "They are."
         }
@@ -493,7 +493,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[Whose|De quién]] [[is|es]] [[this|este]] [[blue|azul]] [[pen|bolígrafo]]? [[It's|Es]] [[the|del]] [[teacher|profesor]](_____) [[pen|bolígrafo]].",
+    "transcript": "[[Whose is? It's this blue pen the teacher|De quién es este azul bolígrafo? Es del profesor]](_____) [[pen|bolígrafo]].",
     "content": {
       "title": "Repaso: Posesivo",
       "instructions": "Elige la forma posesiva correcta.",
@@ -510,11 +510,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[Those|Aquellos]] [[are|son]] [[my|mis]] [[parents|padres]].",
+    "transcript": "[[Those are my parents|Aquellos son mis padres]].",
     "content": {
       "title": "Repaso: Demostrativos lejanos",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[Those|Aquellos]] [[are|son]] [[my|mis]] [[parents|padres]].",
+      "correctSentence": "[[Those are my parents|Aquellos son mis padres]].",
       "words": ["[[parents|padres]].", "[[my|mis]]", "[[are|son]]", "[[Those|Aquellos]]"],
       "explanation": "Those (plural lejano) + are."
     },
@@ -527,7 +527,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[am|soy]] [[an|un]] [[engineer|ingeniero]].",
+    "transcript": "[[I am an engineer|Yo soy un ingeniero]].",
     "content": {
       "title": "Repaso: Profesiones",
       "instructions": "Elige el artículo correcto.",
@@ -544,7 +544,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[What|Cuál]] [[is|es]] [[your|tu]] [[phone|teléfono]] [[number|número]]?",
+    "transcript": "[[What is your phone number|Cuál es tu teléfono número]]?",
     "content": {
       "title": "Repaso: Información personal",
       "instructions": "Elige la palabra interrogativa.",
@@ -561,13 +561,13 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[She|Ella]] [[has|tiene]] [[long|largo]] [[blonde|rubio]] [[hair|pelo]].",
+    "transcript": "[[She has long blonde hair|Ella tiene largo rubio pelo]].",
     "content": {
       "title": "Repaso: Descripciones",
       "instructions": "Escribe el color rubio.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[has|tiene]] [[long|largo]] (_____) [[hair|pelo]].",
+          "question": "[[She has long|Ella tiene largo]] (_____) [[hair|pelo]].",
           "correctAnswer": "blonde",
           "explanation": "Blonde es rubio."
         }
@@ -582,11 +582,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[Is|¿Es]] [[he|él]] [[a|un]] [[police|policía]] [[officer|oficial]]?",
+    "transcript": "[[Is he a police officer|¿Es él un policía oficial]]?",
     "content": {
       "title": "Repaso: Preguntas de trabajo",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Is|¿Es]] [[he|él]] [[a|un]] [[police|policía]] [[officer|oficial]]?",
+      "correctSentence": "[[Is he a police officer|¿Es él un policía oficial]]?",
       "words": ["[[officer|oficial]]?", "[[police|policía]]", "[[a|un]]", "[[he|él]]", "[[Is|¿Es]]"],
       "explanation": "Verbo + Sujeto + Profesión."
     },
@@ -599,7 +599,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[mother|madre]] [[is|es]] [[fifty-two|cincuenta y dos]] [[years|años]] [[old|de edad]].",
+    "transcript": "[[My mother is fifty-two years old|Mi madre es cincuenta y dos años de edad]].",
     "content": {
       "title": "Repaso: Números y edad",
       "instructions": "Elige el número correcto.",
@@ -616,7 +616,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[We|Nosotros]] [[are|somos]] [[from|de]] [[England|Inglaterra]]. [[We|Nosotros]] [[are|somos]] [[British|británicos]].",
+    "transcript": "[[We are. We are from England British|Nosotros somos de Inglaterra. Nosotros somos británicos]].",
     "content": {
       "title": "Repaso: Nacionalidades",
       "instructions": "Selecciona la nacionalidad.",
@@ -633,13 +633,13 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[The|El]] [[cat|gato]] [[is|está]] [[under|debajo de]] [[the|la]] [[chair|silla]].",
+    "transcript": "[[The cat is under the chair|El gato está debajo de la silla]].",
     "content": {
       "title": "Repaso: Preposiciones",
       "instructions": "Escribe la preposición 'debajo de'.",
       "questions": [
         {
-          "question": "[[The|El]] [[cat|gato]] [[is|está]] (_____) [[the|la]] [[chair|silla]].",
+          "question": "[[The cat is chair|El gato está]] (_____) [[the|la silla]].",
           "correctAnswer": "under",
           "explanation": "Under significa debajo de."
         }
@@ -654,11 +654,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[This|Esta]] [[is|es]] [[not|no]] [[my|mi]] [[room|habitación]].",
+    "transcript": "[[This is not my room|Esta es no mi habitación]].",
     "content": {
       "title": "Repaso: Negativo",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[This|Esta]] [[is|es]] [[not|no]] [[my|mi]] [[room|habitación]].",
+      "correctSentence": "[[This is not my room|Esta es no mi habitación]].",
       "words": ["[[room|habitación]].", "[[my|mi]]", "[[not|no]]", "[[is|es]]", "[[This|Esta]]"],
       "explanation": "Demostrativo + is + not + posesivo + sustantivo."
     },
@@ -671,7 +671,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[Are|¿Están]] [[they|ellos]] [[sad|tristes]]? [[No|No]], [[they|ellos]] [[aren't|no lo están]].",
+    "transcript": "[[Are they? No sad aren't, they|¿Están ellos tristes? No, ellos no lo están]].",
     "content": {
       "title": "Repaso: Respuestas cortas",
       "instructions": "Elige la respuesta negativa corta.",
@@ -688,7 +688,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[have|tengo]] [[a|un]] [[brother|hermano]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Paul|Paul]].",
+    "transcript": "[[I have. His name a brother is Paul|Yo tengo un hermano. Su nombre es Paul]].",
     "content": {
       "title": "Repaso: Adjetivos posesivos",
       "instructions": "Elige el adjetivo posesivo masculino.",
@@ -705,13 +705,13 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[She|Ella]] [[has|tiene]] [[a|una]] [[sister|hermana]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Mary|Mary]].",
+    "transcript": "[[She has. Her name a sister is Mary|Ella tiene una hermana. Su nombre es Mary]].",
     "content": {
       "title": "Repaso: Posesivos",
       "instructions": "Escribe el posesivo para ella.",
       "questions": [
         {
-          "question": "(_____) [[name|nombre]] [[is|es]] [[Mary|Mary]].",
+          "question": "(_____) [[name is Mary|nombre es Mary]].",
           "correctAnswer": "Her",
           "explanation": "Her es el posesivo de ella."
         }
@@ -726,7 +726,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[Where|Dónde]] [[is|está]] [[the|la]] [[box|caja]]? [[It|Está]] [[is|está]] [[behind|detrás de]] [[the|la]] [[door|puerta]].",
+    "transcript": "[[Where is? It is the box behind the door|Dónde está la caja? Está está detrás de la puerta]].",
     "content": {
       "title": "Repaso: Preposiciones",
       "instructions": "Elige la preposición de lugar.",
@@ -743,11 +743,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[Are|¿Son]] [[you|ustedes]] [[good|buenos]] [[friends|amigos]]?",
+    "transcript": "[[Are you good friends|¿Son ustedes buenos amigos]]?",
     "content": {
       "title": "Repaso: Plurales",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Are|¿Son]] [[you|ustedes]] [[good|buenos]] [[friends|amigos]]?",
+      "correctSentence": "[[Are you good friends|¿Son ustedes buenos amigos]]?",
       "words": ["[[friends|amigos]]?", "[[good|buenos]]", "[[you|ustedes]]", "[[Are|¿Son]]"],
       "explanation": "Are + you + adjetivo + sustantivo plural."
     },
@@ -760,7 +760,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[The|El]] [[price|precio]] [[is|es]] [[forty|cuarenta]] [[euros|euros]].",
+    "transcript": "[[The price is forty euros|El precio es cuarenta euros]].",
     "content": {
       "title": "Repaso: Números y precios",
       "instructions": "Elige el número correcto.",
@@ -777,13 +777,13 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[am|estoy]] [[very|muy]] (_____). [[I|Yo]] [[want|quiero]] [[water|agua]].",
+    "transcript": "[[I am very want|Yo estoy muy]] (_____). [[I water|Yo quiero agua]].",
     "content": {
       "title": "Repaso: Estados",
       "instructions": "Escribe la palabra para sediento.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|estoy]] [[very|muy]] (_____).",
+          "question": "[[I am very|Yo estoy muy]] (_____).",
           "correctAnswer": "thirsty",
           "explanation": "Thirsty significa sediento."
         }
@@ -798,7 +798,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[grandfather|abuelo]] [[is|tiene]] [[seventy-eight|setenta y ocho]] [[years|años]] [[old|de edad]].",
+    "transcript": "[[My grandfather is seventy-eight years old|Mi abuelo tiene setenta y ocho años de edad]].",
     "content": {
       "title": "Repaso: Números complejos",
       "instructions": "Elige el número correcto.",
@@ -815,11 +815,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[Is|¿Está]] [[the|el]] [[cat|gato]] [[under|debajo de]] [[the|la]] [[table|mesa]]?",
+    "transcript": "[[Is the cat under the table|¿Está el gato debajo de la mesa]]?",
     "content": {
       "title": "Repaso: Preguntas de lugar",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Is|¿Está]] [[the|el]] [[cat|gato]] [[under|debajo de]] [[the|la]] [[table|mesa]]?",
+      "correctSentence": "[[Is the cat under the table|¿Está el gato debajo de la mesa]]?",
       "words": ["[[table|mesa]]?", "[[the|la]]", "[[under|debajo de]]", "[[cat|gato]]", "[[Is|¿Está]]"],
       "explanation": "Is + Sujeto + Preposición + Lugar."
     },
@@ -832,7 +832,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[What|Cuál]] [[is|es]] [[his|su]] [[nationality|nacionalidad]]? [[He|Él]] [[is|es]] [[German|alemán]].",
+    "transcript": "[[What is? He is his nationality German|Cuál es su nacionalidad? Él es alemán]].",
     "content": {
       "title": "Repaso: Nacionalidades",
       "instructions": "Elige la nacionalidad.",
@@ -849,7 +849,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[Those|Aquellas]] [[are|son]] [[my|mis]] [[new|nuevas]] [[shoes|zapatos]].",
+    "transcript": "[[Those are my new shoes|Aquellas son mis nuevas zapatos]].",
     "content": {
       "title": "Repaso: Demostrativos",
       "instructions": "Elige el demostrativo plural lejano.",
@@ -866,13 +866,13 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[cousin|primo]] [[is|es]] [[a|un]] [[police|policía]] [[officer|oficial]].",
+    "transcript": "[[My cousin is a police officer|Mi primo es un policía oficial]].",
     "content": {
       "title": "Repaso: Profesiones",
       "instructions": "Completa con el artículo indefinido.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[cousin|primo]] [[is|es]] (_____) [[police|policía]] [[officer|oficial]].",
+          "question": "[[My cousin is officer|Mi primo es]] (_____) [[police|policía oficial]].",
           "correctAnswer": "a",
           "explanation": "Police empieza por consonante."
         }
@@ -894,16 +894,16 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[Hello|Hola]]. [[We|Nosotros]] [[are|somos]] [[the|los]] [[Millers|Miller]]. [[We|Nosotros]] [[are|somos]] [[your|vuestros]] [[new|nuevos]] [[neighbors|vecinos]]. [[My|Mi]] [[name|nombre]] [[is|es]] [[George|George]]. [[I|Yo]] [[am|soy]] [[an|un]] [[engineer|ingeniero]]. [[This|Esta]] [[is|es]] [[my|mi]] [[wife|esposa]], [[Sarah|Sarah]]. [[She|Ella]] [[is|es]] [[a|una]] [[nurse|enfermera]]. [[We|Nosotros]] [[are|somos]] [[from|de]] [[Canada|Canadá]]. [[We|Nosotros]] [[have|tenemos]] [[two|dos]] [[children|hijos]], [[a|un]] [[son|hijo]] [[and|y]] [[a|una]] [[daughter|hija]]. [[Their|Sus]] [[names|nombres]] [[are|son]] [[Ben|Ben]] [[and|y]] [[Lucy|Lucy]]. [[Ben|Ben]] [[is|tiene]] [[ten|diez]] [[and|y]] [[Lucy|Lucy]] [[is|tiene]] [[eight|ocho]]. [[We|Nosotros]] [[are|estamos]] [[very|muy]] [[happy|felices]] [[to|de]] [[be|estar]] [[here|aquí]].",
+    "transcript": "[[Hello are. We the Millers. We are. She. We are your new. My neighbors name is George. I am an engineer. This is my wife, Sarah is a nurse from Canada. We have two children, a son and a. Their daughter names are Ben. Ben is and Lucy ten and. We Lucy is eight are very happy to be here|Hola. Nosotros somos los Miller. Nosotros somos vuestros nuevos vecinos. Mi nombre es George. Yo soy un ingeniero. Esta es mi esposa, Sarah. Ella es una enfermera. Nosotros somos de Canadá. Nosotros tenemos dos hijos, un hijo y una hija. Sus nombres son Ben y Lucy. Ben tiene diez y Lucy tiene ocho. Nosotros estamos muy felices de estar aquí]].",
     "content": {
-      "title": "[[Reading|Lectura]]: [[The|Los]] [[New|Nuevos]] [[Neighbors|Vecinos]]",
-      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|la]] [[Miller|Miller]] [[family|familia]].",
+      "title": "[[Reading New: The Neighbors|Lectura: Los Nuevos Vecinos]]",
+      "instructions": "[[Read about the Miller family|Lee sobre la Miller familia]].",
       "questions": [
         {
-          "question": "[[Hello|Hola]]. [[We|Nosotros]] [[are|somos]] [[the|los]] [[Millers|Miller]]. [[We|Nosotros]] [[are|somos]] [[your|vuestros]] [[new|nuevos]] [[neighbors|vecinos]]. [[My|Mi]] [[name|nombre]] [[is|es]] [[George|George]]. [[I|Yo]] [[am|soy]] [[an|un]] [[engineer|ingeniero]]. [[This|Esta]] [[is|es]] [[my|mi]] [[wife|esposa]], [[Sarah|Sarah]]. [[She|Ella]] [[is|es]] [[a|una]] [[nurse|enfermera]]. [[We|Nosotros]] [[are|somos]] [[from|de]] [[Canada|Canadá]]. [[We|Nosotros]] [[have|tenemos]] [[two|dos]] [[children|hijos]], [[a|un]] [[son|hijo]] [[and|y]] [[a|una]] [[daughter|hija]]. [[Their|Sus]] [[names|nombres]] [[are|son]] [[Ben|Ben]] [[and|y]] [[Lucy|Lucy]]. [[Ben|Ben]] [[is|tiene]] [[ten|diez]] [[and|y]] [[Lucy|Lucy]] [[is|tiene]] [[eight|ocho]]. [[We|Nosotros]] [[are|estamos]] [[very|muy]] [[happy|felices]] [[to|de]] [[be|estar]] [[here|aquí]].",
-          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "question": "[[Hello are. We the Millers. We are. She. We are your new. My neighbors name is George. I am an engineer. This is my wife, Sarah is a nurse from Canada. We have two children, a son and a. Their daughter names are Ben. Ben is and Lucy ten and. We Lucy is eight are very happy to be here|Hola. Nosotros somos los Miller. Nosotros somos vuestros nuevos vecinos. Mi nombre es George. Yo soy un ingeniero. Esta es mi esposa, Sarah. Ella es una enfermera. Nosotros somos de Canadá. Nosotros tenemos dos hijos, un hijo y una hija. Sus nombres son Ben y Lucy. Ben tiene diez y Lucy tiene ocho. Nosotros estamos muy felices de estar aquí]].",
+          "options": ["[[I have read the text|Yo he leído el texto]]."],
           "correctAnswer": 0,
-          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+          "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
       ]
     },
@@ -915,16 +915,16 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Where|De dónde]] [[is|es]] [[the|la]] [[Miller|Miller]] [[family|familia]] [[from|de]]?",
+    "transcript": "[[Where is the Miller family from|De dónde es la Miller familia de]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Origin|Origen]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Comprehension: Origin|Comprensión: Origen]]",
+      "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[Where|De dónde]] [[is|es]] [[the|la]] [[Miller|Miller]] [[family|familia]] [[from|de]]?",
+          "question": "[[Where is the Miller family from|De dónde es la Miller familia de]]?",
           "options": ["[[The USA|EE.UU.]]", "[[England|Inglaterra]]", "[[Canada|Canadá]]"],
           "correctAnswer": 2,
-          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[We|Nosotros]] [[are|somos]] [[from|de]] [[Canada|Canadá]]\"."
+          "explanation": "[[The text says are|El texto dice]]: \"[[We from Canada|Nosotros somos de Canadá]]\"."
         }
       ]
     },
@@ -936,16 +936,16 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[What|Cuál]] [[is|es]] [[George's|de George]] [[job|trabajo]]?",
+    "transcript": "[[What is George's job|Cuál es de George trabajo]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Profession|Profesión]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Comprehension: Profession|Comprensión: Profesión]]",
+      "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[What|Cuál]] [[is|es]] [[George's|de George]] [[job|trabajo]]?",
+          "question": "[[What is George's job|Cuál es de George trabajo]]?",
           "options": ["[[He is an engineer|Es ingeniero]]", "[[He is a doctor|Es médico]]", "[[He is a nurse|Es enfermero]]"],
           "correctAnswer": 0,
-          "explanation": "[[George|George]] [[says|dice]]: \"[[I|Yo]] [[am|soy]] [[an|un]] [[engineer|ingeniero]]\"."
+          "explanation": "[[George says an engineer|George dice]]: \"[[I am|Yo soy un ingeniero]]\"."
         }
       ]
     },
@@ -957,16 +957,16 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[How|Cuántos]] [[old|años]] [[is|tiene]] [[Lucy|Lucy]]?",
+    "transcript": "[[How old is Lucy|Cuántos años tiene Lucy]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Age|Edad]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Comprehension: Age|Comprensión: Edad]]",
+      "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[How|Cuántos]] [[old|años]] [[is|tiene]] [[Lucy|Lucy]]?",
+          "question": "[[How old is Lucy|Cuántos años tiene Lucy]]?",
           "options": ["[[Ten|Diez]]", "[[Two|Dos]]", "[[Eight|Ocho]]"],
           "correctAnswer": 2,
-          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[Lucy|Lucy]] [[is|tiene]] [[eight|ocho]]\"."
+          "explanation": "[[The text says is|El texto dice]]: \"[[Lucy eight|Lucy tiene ocho]]\"."
         }
       ]
     },
@@ -980,16 +980,16 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[Today|Hoy]] [[is|es]] [[Monday|lunes]]. [[The|La]] [[school|escuela]] [[is|está]] [[very|muy]] [[busy|concurrida]]. [[There|Hay]] [[are|hay]] [[forty-two|cuarenta y dos]] [[classrooms|aulas]] [[in|en]] [[this|este]] [[building|edificio]]. [[The|El]] [[principal's|del director]] [[office|oficina]] [[is|está]] [[on|en]] [[the|el]] [[second|segundo]] [[floor|piso]]. [[Mr.|Sr.]] [[White|White]] [[is|es]] [[the|el]] [[principal|director]]. [[He|Él]] [[is|es]] [[sixty-four|sesenta y cuatro]] [[years|años]] [[old|de edad]]. [[All|Todos]] [[the|los]] [[teachers|profesores]] [[are|están]] [[in|en]] [[their|sus]] [[rooms|habitaciones]]. [[The|Los]] [[students|estudiantes]] [[are|están]] [[happy|felices]] [[to|de]] [[learn|aprender]].",
+    "transcript": "[[Today is. The Monday school is very. There busy are forty-two classrooms. The in this building principal's office is. Mr. White on the second floor is the. He principal is sixty-four years. All old the teachers are. The in their rooms students are happy to learn|Hoy es lunes. La escuela está muy concurrida. Hay hay cuarenta y dos aulas en este edificio. El del director oficina está en el segundo piso. Sr. White es el director. Él es sesenta y cuatro años de edad. Todos los profesores están en sus habitaciones. Los estudiantes están felices de aprender]].",
     "content": {
-      "title": "[[Reading|Lectura]]: [[The|El]] [[School|Escolar]] [[Day|Día]]",
-      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|la]] [[school|escuela]].",
+      "title": "[[Reading School: The Day|Lectura: El Escolar Día]]",
+      "instructions": "[[Read about the school|Lee sobre la escuela]].",
       "questions": [
         {
-          "question": "[[Today|Hoy]] [[is|es]] [[Monday|lunes]]. [[The|La]] [[school|escuela]] [[is|está]] [[very|muy]] [[busy|concurrida]]. [[There|Hay]] [[are|hay]] [[forty-two|cuarenta y dos]] [[classrooms|aulas]] [[in|en]] [[this|este]] [[building|edificio]]. [[The|El]] [[principal's|del director]] [[office|oficina]] [[is|está]] [[on|en]] [[the|el]] [[second|segundo]] [[floor|piso]]. [[Mr.|Sr.]] [[White|White]] [[is|es]] [[the|el]] [[principal|director]]. [[He|Él]] [[is|es]] [[sixty-four|sesenta y cuatro]] [[years|años]] [[old|de edad]]. [[All|Todos]] [[the|los]] [[teachers|profesores]] [[are|están]] [[in|en]] [[their|sus]] [[rooms|habitaciones]]. [[The|Los]] [[students|estudiantes]] [[are|están]] [[happy|felices]] [[to|de]] [[learn|aprender]].",
-          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "question": "[[Today is. The Monday school is very. There busy are forty-two classrooms. The in this building principal's office is. Mr. White on the second floor is the. He principal is sixty-four years. All old the teachers are. The in their rooms students are happy to learn|Hoy es lunes. La escuela está muy concurrida. Hay hay cuarenta y dos aulas en este edificio. El del director oficina está en el segundo piso. Sr. White es el director. Él es sesenta y cuatro años de edad. Todos los profesores están en sus habitaciones. Los estudiantes están felices de aprender]].",
+          "options": ["[[I have read the text|Yo he leído el texto]]."],
           "correctAnswer": 0,
-          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+          "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
       ]
     },
@@ -1001,16 +1001,16 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[How|Cuántas]] [[many|muchas]] [[classrooms|aulas]] [[are|hay]] [[there|allí]]?",
+    "transcript": "[[How many classrooms are there|Cuántas muchas aulas hay allí]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Classrooms|Aulas]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Comprehension: Classrooms|Comprensión: Aulas]]",
+      "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[How|Cuántas]] [[many|muchas]] [[classrooms|aulas]] [[are|hay]] [[there|allí]]?",
+          "question": "[[How many classrooms are there|Cuántas muchas aulas hay allí]]?",
           "options": ["[[Twenty-four|24]]", "[[Sixty-four|64]]", "[[Forty-two|42]]"],
           "correctAnswer": 2,
-          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[There|Hay]] [[are|hay]] [[forty-two|cuarenta y dos]] [[classrooms|aulas]]\"."
+          "explanation": "[[The text says are|El texto dice]]: \"[[There forty-two classrooms|Hay hay cuarenta y dos aulas]]\"."
         }
       ]
     },
@@ -1022,16 +1022,16 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Where|Dónde]] [[is|está]] [[the|la]] [[principal's|del director]] [[office|oficina]]?",
+    "transcript": "[[Where is the principal's office|Dónde está la del director oficina]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Location|Ubicación]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Comprehension: Location|Comprensión: Ubicación]]",
+      "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[is|está]] [[the|la]] [[principal's|del director]] [[office|oficina]]?",
+          "question": "[[Where is the principal's office|Dónde está la del director oficina]]?",
           "options": ["[[Second floor|Segundo piso]]", "[[First floor|Primer piso]]", "[[Third floor|Tercer piso]]"],
           "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[mentions|menciona]]: \"[[on|en]] [[the|el]] [[second|segundo]] [[floor|piso]]\"."
+          "explanation": "[[The text mentions the|El texto menciona]]: \"[[on second floor|en el segundo piso]]\"."
         }
       ]
     },
@@ -1043,16 +1043,16 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[How|Qué edad]] [[old|tiene]] [[is|tiene]] [[Mr.|Sr.]] [[White|White]]?",
+    "transcript": "[[How old is Mr. White|Qué edad tiene tiene Sr. White]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Principal's|del director]] [[Age|Edad]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Comprehension Age: Principal's|Comprensión: del director Edad]]",
+      "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[How|Qué edad]] [[old|tiene]] [[is|tiene]] [[Mr.|Sr.]] [[White|White]]?",
+          "question": "[[How old is Mr. White|Qué edad tiene tiene Sr. White]]?",
           "options": ["[[Sixty|60]]", "[[Forty-two|42]]", "[[Sixty-four|64]]"],
           "correctAnswer": 2,
-          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[He|Él]] [[is|es]] [[sixty-four|sesenta y cuatro]] [[years|años]] [[old|de edad]]\"."
+          "explanation": "[[The text says is old|El texto dice]]: \"[[He sixty-four years|Él es sesenta y cuatro años de edad]]\"."
         }
       ]
     },
@@ -1066,16 +1066,16 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[My|Mi]] [[new|nuevo]] [[friend|amigo]] [[is|es]] [[Japanese|japonés]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Kenji|Kenji]]. [[Kenji|Kenji]] [[is|es]] [[very|muy]] [[tall|alto]] [[and|y]] [[thin|delgado]]. [[He|Él]] [[is|tiene]] [[thirty-one|treinta y uno]] [[years|años]] [[old|de edad]]. [[He|Él]] [[is|es]] [[a|un]] [[police|policía]] [[officer|oficial]] [[in|en]] [[Tokyo|Tokio]]. [[His|Su]] [[favorite|favorito]] [[color|color]] [[is|es]] [[yellow|amarillo]]. [[We|Nosotros]] [[are|estamos]] [[very|muy]] [[good|buenos]] [[friends|amigos]].",
+    "transcript": "[[My new. His friend is Japanese name is Kenji. Kenji is very tall. He is and thin thirty-one years. He old is a police. His officer in Tokyo favorite color is. We yellow are very good friends|Mi nuevo amigo es japonés. Su nombre es Kenji. Kenji es muy alto y delgado. Él tiene treinta y uno años de edad. Él es un policía oficial en Tokio. Su favorito color es amarillo. Nosotros estamos muy buenos amigos]].",
     "content": {
-      "title": "[[Reading|Lectura]]: [[A|Un]] [[New|Nuevo]] [[Friend|Amigo]]",
-      "instructions": "[[Read|Lee]] [[about|sobre]] [[Kenji|Kenji]].",
+      "title": "[[Reading New: A Friend|Lectura: Un Nuevo Amigo]]",
+      "instructions": "[[Read about Kenji|Lee sobre Kenji]].",
       "questions": [
         {
-          "question": "[[My|Mi]] [[new|nuevo]] [[friend|amigo]] [[is|es]] [[Japanese|japonés]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Kenji|Kenji]]. [[Kenji|Kenji]] [[is|es]] [[very|muy]] [[tall|alto]] [[and|y]] [[thin|delgado]]. [[He|Él]] [[is|tiene]] [[thirty-one|treinta y uno]] [[years|años]] [[old|de edad]]. [[He|Él]] [[is|es]] [[a|un]] [[police|policía]] [[officer|oficial]] [[in|en]] [[Tokyo|Tokio]]. [[His|Su]] [[favorite|favorito]] [[color|color]] [[is|es]] [[yellow|amarillo]]. [[We|Nosotros]] [[are|estamos]] [[very|muy]] [[good|buenos]] [[friends|amigos]].",
-          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "question": "[[My new. His friend is Japanese name is Kenji. Kenji is very tall. He is and thin thirty-one years. He old is a police. His officer in Tokyo favorite color is. We yellow are very good friends|Mi nuevo amigo es japonés. Su nombre es Kenji. Kenji es muy alto y delgado. Él tiene treinta y uno años de edad. Él es un policía oficial en Tokio. Su favorito color es amarillo. Nosotros estamos muy buenos amigos]].",
+          "options": ["[[I have read the text|Yo he leído el texto]]."],
           "correctAnswer": 0,
-          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+          "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
       ]
     },
@@ -1087,16 +1087,16 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[What|Cuál]] [[is|es]] [[Kenji's|de Kenji]] [[favorite|favorito]] [[color|color]]?",
+    "transcript": "[[What is Kenji's favorite color|Cuál es de Kenji favorito color]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Favorite|Favorito]] [[Color|Color]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Comprehension Color: Favorite|Comprensión: Favorito Color]]",
+      "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[What|Cuál]] [[is|es]] [[Kenji's|de Kenji]] [[favorite|favorito]] [[color|color]]?",
+          "question": "[[What is Kenji's favorite color|Cuál es de Kenji favorito color]]?",
           "options": ["[[Blue|Azul]]", "[[Green|Verde]]", "[[Yellow|Amarillo]]"],
           "correctAnswer": 2,
-          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[His|Su]] [[favorite|favorito]] [[color|color]] [[is|es]] [[yellow|amarillo]]\"."
+          "explanation": "[[The text says favorite yellow|El texto dice]]: \"[[His color is|Su favorito color es amarillo]]\"."
         }
       ]
     },

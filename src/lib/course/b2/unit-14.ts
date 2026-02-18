@@ -12,7 +12,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inteligencia Artificial",
       "instructions": "Ordena las palabras para hablar de tecnología actual.",
-      "correctSentence": "[[Artificial|La inteligencia]] [[intelligence|artificial]] [[is|está]] [[being|siendo]] [[integrated|integrada]] [[into|en]] [[every|cada]] [[industry.|industria.]]",
+      "correctSentence": "[[Artificial intelligence is being integrated into every industry.|La inteligencia artificial está siendo integrada en cada industria.]]",
       "words": [
         "[[intelligence|artificial]]",
         "[[industry.|industria.]]",
@@ -39,7 +39,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Computación Cuántica",
       "instructions": "Ordena las palabras para hablar de hitos científicos.",
-      "correctSentence": "[[A|Ayer]] [[breakthrough|se]] [[in|anunció]] [[quantum|un]] [[computing|gran]] [[was|avance]] [[announced|en]] [[yesterday.|computación cuántica.]]",
+      "correctSentence": "[[A breakthrough in quantum computing was announced yesterday.|Ayer se anunció un gran avance en computación cuántica.]]",
       "words": [
         "[[quantum|un]]",
         "[[announced|en]]",
@@ -66,7 +66,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Coches autónomos",
       "instructions": "Ordena las palabras usando el futuro perfecto.",
-      "correctSentence": "[[By|Para]] [[2040,|2040,]] [[self-driving|los coches]] [[cars|autónomos]] [[will|se]] [[have|habrán]] [[become|convertido]] [[the|en]] [[norm.|la norma.]]",
+      "correctSentence": "[[By 2040, self-driving cars will have become the norm.|Para 2040, los coches autónomos se habrán convertido en la norma.]]",
       "words": [
         "[[cars|autónomos]]",
         "[[will|se]]",
@@ -94,7 +94,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Energía renovable",
       "instructions": "Ordena las palabras para hablar de sostenibilidad.",
-      "correctSentence": "[[Renewable|Las fuentes]] [[energy|de energía]] [[sources|renovable]] [[are|son]] [[essential|esenciales]] [[for|para]] [[a|un]] [[sustainable|futuro]] [[future.|sostenible.]]",
+      "correctSentence": "[[Renewable energy sources are essential for a sustainable future.|Las fuentes de energía renovable son esenciales para un futuro sostenible.]]",
       "words": [
         "[[energy|de energía]]",
         "[[future.|sostenible.]]",
@@ -122,7 +122,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vida en Marte",
       "instructions": "Ordena las palabras usando inversión en el segundo condicional.",
-      "correctSentence": "[[Were|Si]] [[we|encontráramos]] [[to|vida]] [[find|en]] [[life|Marte,]] [[on|esto]] [[Mars,|lo]] [[it|cambiaría]] [[would|todo.]] [[change| ]] [[everything.| ]]",
+      "correctSentence": "[[Were we to find life on Mars, it would change everything.|Si encontráramos vida en Marte, esto lo cambiaría todo.    ]]",
       "words": [
         "[[Mars,|Marte,]]",
         "[[everything.| ]]",
@@ -152,7 +152,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Edición genética",
       "instructions": "Ordena las palabras para hablar de medicina avanzada.",
-      "correctSentence": "[[Gene|La edición]] [[editing|genética]] [[has|tiene]] [[the|el]] [[potential|potencial]] [[to|de]] [[cure|curar]] [[many|muchas]] [[genetic|enfermedades]] [[diseases.|genéticas.]]",
+      "correctSentence": "[[Gene editing has the potential to cure many genetic diseases.|La edición genética tiene el potencial de curar muchas enfermedades genéticas.]]",
       "words": [
         "[[editing|genética]]",
         "[[potential|potencial]]",
@@ -181,7 +181,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Privacidad de datos",
       "instructions": "Ordena las palabras para hablar de seguridad digital.",
-      "correctSentence": "[[Data|La privacidad]] [[privacy|de datos]] [[is|es]] [[a|una]] [[major|gran]] [[concern|preocupación]] [[in|en]] [[the|la]] [[digital|era]] [[age.|digital.]]",
+      "correctSentence": "[[Data privacy is a major concern in the digital age.|La privacidad de datos es una gran preocupación en la era digital.]]",
       "words": [
         "[[privacy|de datos]]",
         "[[major|gran]]",
@@ -210,7 +210,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Smartphones",
       "instructions": "Ordena las palabras para hablar de impacto tecnológico.",
-      "correctSentence": "[[Smartphones|Los teléfonos]] [[have|inteligentes]] [[revolutionized|han]] [[the|revolucionado]] [[way|la]] [[we|forma]] [[communicate.|en que nos comunicamos.]]",
+      "correctSentence": "[[Smartphones have revolutionized the way we communicate.|Los teléfonos inteligentes han revolucionado la forma en que nos comunicamos.]]",
       "words": [
         "[[have|inteligentes]]",
         "[[way|la]]",
@@ -236,7 +236,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Experimento científico",
       "instructions": "Ordena las palabras usando la voz pasiva futura.",
-      "correctSentence": "[[The|El]] [[experiment|experimento]] [[will|será]] [[be|realizado]] [[conducted|bajo]] [[under|una]] [[strict|estricta]] [[supervision.|supervisión.]]",
+      "correctSentence": "[[The experiment will be conducted under strict supervision.|El experimento será realizado bajo una estricta supervisión.]]",
       "words": [
         "[[experiment|experimento]]",
         "[[be|realizado]]",
@@ -263,7 +263,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Nanotecnología",
       "instructions": "Ordena las palabras para hablar de ciencia del futuro.",
-      "correctSentence": "[[Nanotechnology|La nanotecnología]] [[could|podría]] [[lead|conducir]] [[to|a]] [[significant|avances]] [[medical|médicos]] [[advancements.|significativos.]]",
+      "correctSentence": "[[Nanotechnology could lead to significant medical advancements.|La nanotecnología podría conducir a avances médicos significativos.]]",
       "words": [
         "[[could|podría]]",
         "[[medical|médicos]]",
@@ -289,7 +289,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Riesgos de investigación",
       "instructions": "Ordena las palabras usando inversión en el tercer condicional.",
-      "correctSentence": "[[Had|Si]] [[the|los]] [[researchers|investigadores]] [[known|hubieran]] [[the|sabido]] [[risks,|los riesgos,]] [[they|podrían]] [[might|haber]] [[have|parado.]] [[stopped.| ]]",
+      "correctSentence": "[[Had the researchers known the risks, they might have stopped.|Si los investigadores hubieran sabido los riesgos, podrían haber parado.  ]]",
       "words": [
         "[[researchers|investigadores]]",
         "[[risks,|los riesgos,]]",
@@ -318,7 +318,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Órganos artificiales",
       "instructions": "Ordena las palabras para hablar de biotecnología.",
-      "correctSentence": "[[Artificial|Se]] [[organs|están]] [[are|desarrollando]] [[being|órganos]] [[developed|artificiales]] [[to|para]] [[save|salvar]] [[lives.|vidas.]]",
+      "correctSentence": "[[Artificial organs are being developed to save lives.|Se están desarrollando órganos artificiales para salvar vidas.]]",
       "words": [
         "[[are|están]]",
         "[[developed|artificiales]]",
@@ -345,7 +345,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Exploración espacial",
       "instructions": "Ordena las palabras para hablar de astronomía.",
-      "correctSentence": "[[The|La]] [[exploration|exploración]] [[of|del]] [[space|espacio]] [[offers|ofrece]] [[endless|posibilidades]] [[possibilities.|infinitas.]]",
+      "correctSentence": "[[The exploration of space offers endless possibilities.|La exploración del espacio ofrece posibilidades infinitas.]]",
       "words": [
         "[[exploration|exploración]]",
         "[[possibilities.|infinitas.]]",
@@ -371,7 +371,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ciberseguridad",
       "instructions": "Ordena las palabras para hablar de protección informática.",
-      "correctSentence": "[[Cybersecurity|Las medidas]] [[measures|de ciberseguridad]] [[must|deben]] [[be|ser]] [[updated|actualizadas]] [[regularly.|regularmente.]]",
+      "correctSentence": "[[Cybersecurity measures must be updated regularly.|Las medidas de ciberseguridad deben ser actualizadas regularmente.]]",
       "words": [
         "[[measures|de ciberseguridad]]",
         "[[updated|actualizadas]]",
@@ -396,7 +396,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Internet de las Cosas",
       "instructions": "Ordena las palabras para hablar de conectividad.",
-      "correctSentence": "[[Internet|El Internet]] [[of|de]] [[Things|las Cosas]] [[connects|conecta]] [[everyday|objetos]] [[objects|cotidianos]] [[to|a]] [[the|la]] [[web.|red.]]",
+      "correctSentence": "[[Internet of Things connects everyday objects to the web.|El Internet de las Cosas conecta objetos cotidianos a la red.]]",
       "words": [
         "[[of|de]]",
         "[[connects|conecta]]",
@@ -424,7 +424,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inversión en investigación",
       "instructions": "Ordena las palabras usando inversión con 'Only by'.",
-      "correctSentence": "[[Only|Solo]] [[by|invirtiendo]] [[investing|en]] [[in|investigación]] [[research|lograremos]] [[will|resolver]] [[we|el]] [[solve|problema.]] [[the| ]] [[problem.| ]]",
+      "correctSentence": "[[Only by investing in research will we solve the problem.|Solo invirtiendo en investigación lograremos resolver el problema.    ]]",
       "words": [
         "[[investing|en]]",
         "[[problem.| ]]",
@@ -453,7 +453,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pruebas de vacunas",
       "instructions": "Ordena las palabras usando el presente perfecto pasivo.",
-      "correctSentence": "[[The|La]] [[vaccine|vacuna]] [[has|ha]] [[been|sido]] [[rigorously|probada]] [[tested|rigurosamente]] [[in|en]] [[clinical|ensayos]] [[trials.|clínicos.]]",
+      "correctSentence": "[[The vaccine has been rigorously tested in clinical trials.|La vacuna ha sido probada rigurosamente en ensayos clínicos.]]",
       "words": [
         "[[vaccine|vacuna]]",
         "[[rigorously|probada]]",
@@ -481,7 +481,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Robótica",
       "instructions": "Ordena las palabras para hablar de automatización.",
-      "correctSentence": "[[Robotics|La robótica]] [[will|pronto]] [[soon|reemplazará]] [[replace|muchas]] [[many|tareas]] [[manual|de trabajo]] [[labor|manual.]] [[tasks.| ]]",
+      "correctSentence": "[[Robotics will soon replace many manual labor tasks.|La robótica pronto reemplazará muchas tareas de trabajo manual.  ]]",
       "words": [
         "[[soon|reemplazará]]",
         "[[tasks.| ]]",
@@ -508,7 +508,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Estimación climática",
       "instructions": "Ordena las palabras usando la voz pasiva impersonal.",
-      "correctSentence": "[[It|Se]] [[is|estima]] [[estimated|que]] [[that|la]] [[the|temperatura]] [[global|global]] [[temperature|subirá.]] [[will| ]] [[rise.| ]]",
+      "correctSentence": "[[It is estimated that the global temperature will rise.|Se estima que la temperatura global subirá.    ]]",
       "words": [
         "[[is|estima]]",
         "[[rise.| ]]",
@@ -536,7 +536,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Transformación digital",
       "instructions": "Ordena las palabras para hablar de negocios y tecnología.",
-      "correctSentence": "[[Digital|La transformación]] [[transformation|digital]] [[is|es]] [[key|clave]] [[to|para]] [[remaining|seguir]] [[competitive.|siendo competitivo.]]",
+      "correctSentence": "[[Digital transformation is key to remaining competitive.|La transformación digital es clave para seguir siendo competitivo.]]",
       "words": [
         "[[transformation|digital]]",
         "[[competitive.|siendo competitivo.]]",
@@ -562,7 +562,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Generador de respaldo",
       "instructions": "Ordena las palabras usando inversión con 'Should'.",
-      "correctSentence": "[[Should|Si]] [[the|fallara]] [[power|la]] [[fail,|corriente,]] [[the|el]] [[backup|generador]] [[generator|de]] [[will|respaldo]] [[start.|se encenderá.]]",
+      "correctSentence": "[[Should the power fail, the backup generator will start.|Si fallara la corriente, el generador de respaldo se encenderá.]]",
       "words": [
         "[[the|fallara]]",
         "[[start.|se encenderá.]]",
@@ -590,7 +590,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Computación en la nube",
       "instructions": "Ordena las palabras para hablar de infraestructura IT.",
-      "correctSentence": "[[Cloud|La computación]] [[computing|en la nube]] [[allows|permite]] [[for|el]] [[remote|almacenamiento]] [[data|y]] [[storage|acceso]] [[and|a]] [[access.|datos remotos.]]",
+      "correctSentence": "[[Cloud computing allows for remote data storage and access.|La computación en la nube permite el almacenamiento y acceso a datos remotos.]]",
       "words": [
         "[[computing|en la nube]]",
         "[[storage|acceso]]",
@@ -618,7 +618,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Realidad Virtual",
       "instructions": "Ordena las palabras para hablar de formación médica.",
-      "correctSentence": "[[Virtual|La realidad]] [[reality|virtual]] [[is|se]] [[being|está]] [[used|utilizando]] [[for|para]] [[advanced|formación]] [[surgical|quirúrgica]] [[training.|avanzada.]]",
+      "correctSentence": "[[Virtual reality is being used for advanced surgical training.|La realidad virtual se está utilizando para formación quirúrgica avanzada.]]",
       "words": [
         "[[reality|virtual]]",
         "[[used|utilizando]]",
@@ -646,7 +646,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ética en IA",
       "instructions": "Ordena las palabras para hablar de regulación tecnológica.",
-      "correctSentence": "[[Ethical|Se]] [[guidelines|necesitan]] [[are|guías]] [[needed|éticas]] [[to|para]] [[govern|regular]] [[AI|el desarrollo]] [[development.|de la IA.]]",
+      "correctSentence": "[[Ethical guidelines are needed to govern AI development.|Se necesitan guías éticas para regular el desarrollo de la IA.]]",
       "words": [
         "[[guidelines|necesitan]]",
         "[[needed|éticas]]",
@@ -673,7 +673,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Turismo espacial",
       "instructions": "Ordena las palabras para hablar de nuevas industrias.",
-      "correctSentence": "[[Space|El turismo]] [[tourism|espacial]] [[is|se]] [[becoming|está]] [[a|convirtiendo]] [[reality|en]] [[for|una]] [[the|realidad]] [[wealthy.|para los ricos.]]",
+      "correctSentence": "[[Space tourism is becoming a reality for the wealthy.|El turismo espacial se está convirtiendo en una realidad para los ricos.]]",
       "words": [
         "[[tourism|espacial]]",
         "[[reality|en]]",
@@ -705,7 +705,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal pasiva correcta.",
       "questions": [
         {
-          "question": "[[Quantum|Se]] [[computers|espera]] _______ [[to|que]] [[solve|los ordenadores]] [[complex|cuánticos]] [[problems.|resuelvan problemas complejos.]]",
+          "question": "[[Quantum computers complex problems.|Se espera]] _______ [[to solve|que los ordenadores cuánticos resuelvan problemas complejos.]]",
           "options": ["[[are expected|espera]]", "[[expect|esperan]]", "[[have expected|han esperado]]"],
           "correctAnswer": 0,
           "explanation": "Pasiva personal: 'Sujeto + be expected + to-infinitive'.",
@@ -728,7 +728,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un fallo de seguridad.",
       "questions": [
         {
-          "question": "[[The|El]] [[software|software]] [[is|se]] [[updated|actualiza]] [[automatically|automáticamente]] [[to|para]] [[prevent|prevenir]] _______.",
+          "question": "[[The software is updated automatically to prevent|El software se actualiza automáticamente para prevenir]] _______.",
           "options": ["[[breaches|brechas]]", "[[branches|ramas]]", "[[beaches|playas]]"],
           "correctAnswer": 0,
           "explanation": "A 'security breach' es un incidente en el que se accede a datos protegidos sin autorización.",
@@ -751,7 +751,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para completar la inversión hipotética.",
       "questions": [
         {
-          "question": "_______ [[the|Si]] [[mission|la misión]] [[to|fallara,]] [[fail,| ]] [[it|sería]] [[would|un]] [[be|gran]] [[a|contratiempo.]] [[huge| ]] [[setback.| ]]",
+          "question": "_______ [[the mission to fail, it would be a huge setback.|Si la misión fallara,   sería un gran contratiempo.    ]]",
           "options": ["[[Were|Si]]", "[[Was|Era]]", "[[Did|Hizo]]"],
           "correctAnswer": 0,
           "explanation": "Inversión 'Were + sujeto + to + infinitivo' para el segundo condicional formal.",
@@ -774,7 +774,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la tecnología basada en la biología.",
       "questions": [
         {
-          "question": "_______ [[has|ha]] [[made|hecho]] [[rapid|rápidos]] [[progress|progresos]] [[in|en]] [[recent|los últimos]] [[years.|años.]]",
+          "question": "_______ [[has made rapid progress in recent years.|ha hecho rápidos progresos en los últimos años.]]",
           "options": ["[[Biotechnology|La biotecnología]]", "[[Psychology|La psicología]]", "[[Archaeology|La arqueología]]"],
           "correctAnswer": 0,
           "explanation": "'Biotechnology' utiliza sistemas biológicos para desarrollar productos.",
@@ -797,7 +797,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del futuro perfecto pasivo.",
       "questions": [
         {
-          "question": "[[The|Los]] [[data|datos]] _______ [[by|para]] [[tomorrow|mañana]] [[morning.|por la mañana.]]",
+          "question": "[[The data morning.|Los datos]] _______ [[by tomorrow|para mañana por la mañana.]]",
           "options": ["[[will have been processed|habrán sido procesados]]", "[[will be processed|serán procesados]]", "[[have been processed|han sido procesados]]"],
           "correctAnswer": 0,
           "explanation": "Futuro perfecto pasivo: 'will have been + participio'.",
@@ -820,7 +820,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa 'sumergirse'.",
       "questions": [
         {
-          "question": "[[Virtual|La realidad]] [[reality|virtual]] [[allows|permite]] [[users|a los usuarios]] [[to| ]] _______ [[themselves|sumergirse]] [[in|en]] [[a|un]] [[world.|mundo.]]",
+          "question": "[[Virtual reality allows users to in a world.|La realidad virtual permite a los usuarios  ]] _______ [[themselves|sumergirse en un mundo.]]",
           "options": ["[[immerse|sumergirse]]", "[[reverse|revertir]]", "[[converse|conversar]]"],
           "correctAnswer": 0,
           "explanation": "'Immerse oneself' significa involucrarse completamente en algo.",
@@ -843,7 +843,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del futuro continuo.",
       "questions": [
         {
-          "question": "[[By|Para]] [[the|final]] [[end|de]] [[of|la]] [[the|década,]] [[decade,| ]] [[AI|la IA]] _______ [[many|muchos]] [[services.|servicios.]]",
+          "question": "[[By the end of the decade, AI services.|Para final de la década,   la IA]] _______ [[many|muchos servicios.]]",
           "options": ["[[will be running|estará gestionando]]", "[[will run|gestionará]]", "[[will have run|habrá gestionado]]"],
           "correctAnswer": 0,
           "explanation": "Futuro continuo (will be + -ing) para acciones en progreso en un punto del futuro.",
@@ -866,7 +866,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el monitoreo o vigilancia.",
       "questions": [
         {
-          "question": "[[Drones|Los drones]] [[are|se]] [[being|están]] [[used|usando]] [[for|para]] [[delivery|entregas]] [[and|y]] _______.",
+          "question": "[[Drones are being used for delivery and|Los drones se están usando para entregas y]] _______.",
           "options": ["[[surveillance|vigilancia]]", "[[reliance|confianza]]", "[[compliance|cumplimiento]]"],
           "correctAnswer": 0,
           "explanation": "'Surveillance' es la observación cercana, a menudo secreta, de alguien o algo.",
@@ -889,7 +889,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para completar la inversión con 'Hardly'.",
       "questions": [
         {
-          "question": "[[Hardly|Apenas]] _______ [[the|se]] [[rocket|había]] [[launched|lanzado el cohete]] [[when|cuando]] [[it|alcanzó]] [[reached|la]] [[orbit.|órbita.]]",
+          "question": "[[Hardly rocket launched when it reached orbit.|Apenas]] _______ [[the|se había lanzado el cohete cuando alcanzó la órbita.]]",
           "options": ["[[had|había]]", "[[did|hizo]]", "[[was|fue]]"],
           "correctAnswer": 0,
           "explanation": "Inversión 'Hardly + had + sujeto + participio'.",
@@ -912,7 +912,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un conjunto de reglas de computación.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[is|está]] [[designed|diseñado]] [[to|para]] [[optimize|optimizar]] [[energy|la eficiencia]] [[efficiency.|energética.]]",
+          "question": "[[The designed to optimize energy efficiency.|El]] _______ [[is|está diseñado para optimizar la eficiencia energética.]]",
           "options": ["[[algorithm|algoritmo]]", "[[rhythm|ritmo]]", "[[logarithm|logaritmo]]"],
           "correctAnswer": 0,
           "explanation": "Un 'algorithm' es un proceso o conjunto de reglas a seguir en cálculos u otras operaciones de resolución de problemas.",
@@ -935,7 +935,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del subjuntivo para un deseo sobre el presente.",
       "questions": [
         {
-          "question": "[[I|Ojalá]] [[wish| ]] [[scientists|los científicos]] _______ [[more|tuvieran]] [[funding|más]] [[for|financiación]] [[their|para]] [[projects.|sus proyectos.]]",
+          "question": "[[I wish scientists funding projects.|Ojalá   los científicos]] _______ [[more for their|tuvieran más financiación para sus proyectos.]]",
           "options": ["[[had|tuvieran]]", "[[have|tienen]]", "[[would have|tendrían]]"],
           "correctAnswer": 0,
           "explanation": "Tras 'I wish', usamos past simple (had) para expresar un deseo sobre una situación presente.",
@@ -958,7 +958,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para algo que ya no es útil.",
       "questions": [
         {
-          "question": "[[Technological|La obsolescencia]] _______ [[occurs|tecnológica]] [[when|ocurre]] [[devices|cuando los dispositivos]] [[become|se vuelven]] [[outdated.|anticuados.]]",
+          "question": "[[Technological when devices become outdated.|La obsolescencia]] _______ [[occurs|tecnológica ocurre cuando los dispositivos se vuelven anticuados.]]",
           "options": ["[[obsolescence|obsolescencia]]", "[[experience|experiencia]]", "[[efficiency|eficiencia]]"],
           "correctAnswer": 0,
           "explanation": "'Obsolescence' es el proceso de volverse obsoleto o anticuado.",
@@ -981,7 +981,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del subjuntivo formal.",
       "questions": [
         {
-          "question": "[[It|Es]] [[is|necesario]] [[necessary|que]] [[that|el]] [[the|equipo]] [[equipment| ]] _______ [[sterilized.|sea esterilizado.]]",
+          "question": "[[It is necessary that the equipment|Es necesario que el equipo  ]] _______ [[sterilized.|sea esterilizado.]]",
           "options": ["[[be|sea]]", "[[is|es]]", "[[was|fue]]"],
           "correctAnswer": 0,
           "explanation": "Tras 'necessary that', se usa el subjuntivo (be) en inglés formal.",
@@ -1004,7 +1004,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para dispositivos que se llevan puestos.",
       "questions": [
         {
-          "question": "_______ [[technology|La tecnología]] [[can|vestible]] [[track|puede]] [[your|rastrear]] [[heart|tu]] [[rate|ritmo]] [[and|cardíaco]] [[sleep.|y el sueño.]]",
+          "question": "_______ [[technology can track your heart rate and sleep.|La tecnología vestible puede rastrear tu ritmo cardíaco y el sueño.]]",
           "options": ["[[Wearable|Vestible]]", "[[Probable|Probable]]", "[[Portable|Portátil]]"],
           "correctAnswer": 0,
           "explanation": "'Wearable technology' son dispositivos electrónicos inteligentes que se llevan sobre el cuerpo.",
@@ -1027,7 +1027,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para completar la inversión con 'No sooner'.",
       "questions": [
         {
-          "question": "[[No|Apenas]] [[sooner|había]] _______ [[the|terminado]] [[update|la]] [[finished|actualización]] [[than|cuando]] [[the|el]] [[system|sistema]] [[crashed.|falló.]]",
+          "question": "[[No sooner finished than the system crashed.|Apenas había]] _______ [[the update|terminado la actualización cuando el sistema falló.]]",
           "options": ["[[had|había]]", "[[did|hizo]]", "[[was|fue]]"],
           "correctAnswer": 0,
           "explanation": "Inversión 'No sooner + had + sujeto + participio'.",
@@ -1050,7 +1050,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el uso de máquinas para hacer tareas.",
       "questions": [
         {
-          "question": "[[The|La]] _______ [[of|de]] [[tasks|tareas]] [[leads|conduce]] [[to|a]] [[increased|un aumento de]] [[productivity.|la productividad.]]",
+          "question": "[[The tasks leads to increased productivity.|La]] _______ [[of|de tareas conduce a un aumento de la productividad.]]",
           "options": ["[[automation|automatización]]", "[[validation|validación]]", "[[speculation|especulación]]"],
           "correctAnswer": 0,
           "explanation": "'Automation' es el uso de sistemas o elementos computarizados para controlar maquinarias o procesos industriales.",
@@ -1073,7 +1073,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal adecuada tras 'Suppose'.",
       "questions": [
         {
-          "question": "[[Suppose|Imagina]] [[we|que]] _______ [[to|construyéramos]] [[build|una]] [[a|base]] [[base|en]] [[on|la]] [[the|luna.]] [[moon.| ]]",
+          "question": "[[Suppose we a base on the moon.|Imagina que]] _______ [[to build|construyéramos una base en la luna.  ]]",
           "options": ["[[were|construyéramos]]", "[[are|somos]]", "[[will be|seremos]]"],
           "correctAnswer": 0,
           "explanation": "'Suppose' se usa con past simple (o were to) para situaciones imaginarias.",
@@ -1096,7 +1096,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la modificación del ADN.",
       "questions": [
         {
-          "question": "[[Genetic|La ingeniería]] _______ [[allows|genética]] [[for|permite]] [[the|la]] [[modification|modificación]] [[of|de]] [[organisms.|organismos.]]",
+          "question": "[[Genetic for the modification of organisms.|La ingeniería]] _______ [[allows|genética permite la modificación de organismos.]]",
           "options": ["[[engineering|ingeniería]]", "[[pioneer|pionero]]", "[[volunteer|voluntario]]"],
           "correctAnswer": 0,
           "explanation": "'Genetic engineering' es la manipulación directa de los genes de un organismo usando biotecnología.",
@@ -1119,7 +1119,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector condicional formal.",
       "questions": [
         {
-          "question": "_______ [[that|Siempre]] [[the|que]] [[tests|las]] [[are|pruebas]] [[successful,|sean un éxito,]] [[the|la]] [[app|app]] [[will|se]] [[launch.|lanzará.]]",
+          "question": "_______ [[that the tests are successful, the app will launch.|Siempre que las pruebas sean un éxito, la app se lanzará.]]",
           "options": ["[[Providing|Siempre que]]", "[[Unless|A menos que]]", "[[Whether|Si (elección)]]"],
           "correctAnswer": 0,
           "explanation": "'Providing that' es un conector formal para condiciones.",
@@ -1142,7 +1142,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para conjuntos de datos masivos.",
       "questions": [
         {
-          "question": "_______ [[refers|se refiere]] [[to|a]] [[extremely|conjuntos]] [[large|de]] [[data|datos]] [[sets.|extremadamente grandes.]]",
+          "question": "_______ [[refers to extremely large data sets.|se refiere a conjuntos de datos extremadamente grandes.]]",
           "options": ["[[Big Data|El Big Data]]", "[[Small Talk|La charla trivial]]", "[[Long Run|A largo plazo]]"],
           "correctAnswer": 0,
           "explanation": "'Big Data' se refiere a conjuntos de datos tan grandes o complejos que las aplicaciones tradicionales de procesamiento de datos no son suficientes.",
@@ -1165,7 +1165,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para completar la inversión con 'Little'.",
       "questions": [
         {
-          "question": "[[Little|Poco]] _______ [[we|sabíamos]] [[know| ]] [[that|que]] [[the|la]] [[AI|IA]] [[would|aprendería]] [[learn|tan]] [[so|rápido.]] [[fast.| ]]",
+          "question": "[[Little know that the AI would learn so fast.|Poco]] _______ [[we|sabíamos   que la IA aprendería tan rápido.  ]]",
           "options": ["[[did|sabíamos]]", "[[had|habíamos]]", "[[do|sabemos]]"],
           "correctAnswer": 0,
           "explanation": "Inversión 'Little + did + sujeto + infinitivo'.",
@@ -1188,7 +1188,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la superposición de info digital.",
       "questions": [
         {
-          "question": "_______ [[reality|La realidad]] [[overlays|aumentada]] [[digital|superpone]] [[info|información]] [[on|digital]] [[the|en el]] [[real|mundo]] [[world.|real.]]",
+          "question": "_______ [[reality overlays digital info on the real world.|La realidad aumentada superpone información digital en el mundo real.]]",
           "options": ["[[Augmented|Aumentada]]", "[[Adjusted|Ajustada]]", "[[Adopted|Adoptada]]"],
           "correctAnswer": 0,
           "explanation": "'Augmented reality' (AR) es una experiencia interactiva de un entorno del mundo real donde los objetos son mejorados por información perceptual generada por computadora.",
@@ -1211,7 +1211,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del past simple tras 'I'd rather'.",
       "questions": [
         {
-          "question": "[[I'd|Preferiría]] [[rather|que]] [[the|la]] [[company|empresa]] _______ [[in|en]] [[eco-friendly|tecnología]] [[tech.|ecológica.]]",
+          "question": "[[I'd rather the company|Preferiría que la empresa]] _______ [[in eco-friendly tech.|en tecnología ecológica.]]",
           "options": ["[[invested|invirtiera]]", "[[invests|invierte]]", "[[invest|invertir]]"],
           "correctAnswer": 0,
           "explanation": "Con un sujeto distinto, 'I'd rather' requiere past simple para preferencias sobre el presente.",
@@ -1234,7 +1234,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el uso de rasgos físicos para ID.",
       "questions": [
         {
-          "question": "_______ [[are|La biometría]] [[used|se]] [[for|usa]] [[identity|para]] [[verification|verificación]] [[and|de]] [[security.|identidad y seguridad.]]",
+          "question": "_______ [[are used for identity verification and security.|La biometría se usa para verificación de identidad y seguridad.]]",
           "options": ["[[Biometrics|La biometría]]", "[[Statistics|La estadística]]", "[[Graphics|Los gráficos]]"],
           "correctAnswer": 0,
           "explanation": "'Biometrics' son medidas corporales y cálculos relacionados con las características humanas.",
@@ -1257,7 +1257,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal pasiva en pasado.",
       "questions": [
         {
-          "question": "[[The|El]] [[laboratory|laboratorio]] _______ [[down|fue]] [[after|cerrado]] [[the|después]] [[safety|de la]] [[violation.|violación de seguridad.]]",
+          "question": "[[The laboratory the safety violation.|El laboratorio]] _______ [[down after|fue cerrado después de la violación de seguridad.]]",
           "options": ["[[was shut|fue cerrado]]", "[[is shut|es cerrado]]", "[[had shut|había cerrado]]"],
           "correctAnswer": 0,
           "explanation": "Pasado simple pasivo: 'was/were + participio'.",

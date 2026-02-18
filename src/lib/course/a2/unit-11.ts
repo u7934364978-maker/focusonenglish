@@ -89,7 +89,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[There|Allí/ahí]] ([[be|ser/estar]]) _______ [[a|un/una]] [[big|grande]] [[library|biblioteca]] [[in|en]] [[my|mi/mis]] [[city|ciudad]].",
+          "question": "[[There big library in my city|Allí/ahí]] ([[be|ser/estar]]) _______ [[a|un/una grande biblioteca en mi/mis ciudad]].",
           "options": [
             "[[is|es/está]]",
             "[[to|a/para]]",
@@ -115,7 +115,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[There|Allí/ahí]] ([[be|ser/estar]]) _______ [[many|many]] [[interesting|interesting]] [[places|places]] [[to|a/para]] [[visit|visit]].",
+          "question": "[[There interesting places to visit|Allí/ahí]] ([[be|ser/estar]]) _______ [[many|many interesting places a/para visit]].",
           "options": [
             "[[to|a/para]]",
             "[[are|son/están]]",
@@ -141,7 +141,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Is|Es/está]] _______ [[a|un/una]] [[cinema|cinema]] [[near|near]] [[the|el/la/los/las]] [[park|park]]?",
+          "question": "[[Is cinema near the park|Es/está]] _______ [[a|un/una cinema near el/la/los/las park]]?",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -167,7 +167,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Are|Son/están]] _______ [[any|alguno/a]] [[museums|museums]] [[open|open]] [[today|hoy]]?",
+          "question": "[[Are museums open today|Son/están]] _______ [[any|alguno/a museums open hoy]]?",
           "options": [
             "[[it|eso]]",
             "[[there|allí/ahí]]",
@@ -193,7 +193,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[bank|banco]] [[is|es/está]] _______ ([[be|ser/estar]]) [[the|el/la/los/las]] [[pharmacy|pharmacy]] [[and|and]] [[the|el/la/los/las]] [[cafe|cafe]].",
+          "question": "[[The bank is pharmacy cafe|El/la/los/las banco es/está]] _______ ([[be and the|ser/estar]]) [[the|el/la/los/las pharmacy and el/la/los/las cafe]].",
           "options": [
             "[[to|a/para]]",
             "[[it|eso]]",
@@ -219,7 +219,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Go|Ir]] _______ ([[straight|straight]]) [[on|en/sobre]] [[for|para/por]] [[two|dos]] [[blocks|blocks]].",
+          "question": "[[Go for two blocks|Ir]] _______ ([[straight|straight]]) [[on|en/sobre para/por dos blocks]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -245,7 +245,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Turn|Turn]] _______ ([[left|left]]) [[at|en]] [[the|el/la/los/las]] [[post|post]] [[office|oficina]].",
+          "question": "[[Turn the post office|Turn]] _______ ([[left|left]]) [[at|en el/la/los/las post oficina]].",
           "options": [
             "[[left|left]]",
             "[[to|a/para]]",
@@ -271,7 +271,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[museum|museo]] [[is|es/está]] _______ ([[opposite|opposite]]) [[the|el/la/los/las]] [[station|station]].",
+          "question": "[[The museum is station|El/la/los/las museo es/está]] _______ ([[opposite|opposite]]) [[the|el/la/los/las station]].",
           "options": [
             "[[to|a/para]]",
             "[[opposite|opposite]]",
@@ -297,7 +297,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[How|Cómo]] _______ ([[far|far]]) [[is|es/está]] [[the|el/la/los/las]] [[airport|airport]] [[from|de/desde]] [[here|aquí]]?",
+          "question": "[[How the airport from here|Cómo]] _______ ([[far|far]]) [[is|es/está el/la/los/las airport de/desde aquí]]?",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -323,7 +323,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[You|Tú/usted]] ([[can|poder]]) _______ [[see|ver]] [[the|el/la/los/las]] [[castle|castle]] [[from|de/desde]] [[the|el/la/los/las]] [[bridge|bridge]].",
+          "question": "[[You the castle from the bridge|Tú/usted]] ([[can|poder]]) _______ [[see|ver el/la/los/las castle de/desde el/la/los/las bridge]].",
           "options": [
             "[[can|poder]]",
             "[[to|a/para]]",
@@ -347,7 +347,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[city|ciudad]] [[has|tiene/ha]] [[a|un/una]] [[beautiful|hermoso/a]] [[central|central]] [[square|square]].",
+      "correctSentence": "[[My city has a beautiful central square|Mi/mis ciudad tiene/ha un/una hermoso/a central square]].",
       "words": [
         "[[square|square]].",
         "[[city|ciudad]]",
@@ -372,7 +372,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[bank|banco]] [[is|es/está]] [[closed|closed]] [[on|en/sobre]] [[Sundays|Sundays]].",
+      "correctSentence": "[[The bank is closed on Sundays|El/la/los/las banco es/está closed en/sobre Sundays]].",
       "words": [
         "[[on|en/sobre]]",
         "[[is|es/está]]",
@@ -396,7 +396,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[There|Allí/ahí]] [[is|es/está]] [[a|un/una]] [[famous|famous]] [[museum|museo]] [[in|en]] [[the|el/la/los/las]] [[city|ciudad]] [[center|center]].",
+      "correctSentence": "[[There is a famous museum in the city center|Allí/ahí es/está un/una famous museo en el/la/los/las ciudad center]].",
       "words": [
         "[[There|Allí/ahí]]",
         "[[a|un/una]]",
@@ -423,7 +423,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Go|Ir]] [[straight|straight]] [[on|en/sobre]] [[and|and]] [[turn|turn]] [[right|right]] [[at|en]] [[the|el/la/los/las]] [[corner|corner]].",
+      "correctSentence": "[[Go straight on and turn right at the corner|Ir straight en/sobre and turn right en el/la/los/las corner]].",
       "words": [
         "[[right|right]]",
         "[[Go|Ir]]",
@@ -450,7 +450,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[library|biblioteca]] [[is|es/está]] [[a|un/una]] [[quiet|tranquilo/callado]] [[place|place]] [[to|a/para]] [[study|estudiar]].",
+      "correctSentence": "[[The library is a quiet place to study|El/la/los/las biblioteca es/está un/una tranquilo/callado place a/para estudiar]].",
       "words": [
         "[[a|un/una]]",
         "[[The|El/la/los/las]]",
@@ -476,7 +476,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Is|Es/está]] [[there|allí/ahí]] [[a|un/una]] [[pharmacy|pharmacy]] [[near|near]] [[here|aquí]]?",
+      "correctSentence": "[[Is there a pharmacy near here|Es/está allí/ahí un/una pharmacy near aquí]]?",
       "words": [
         "[[there|allí/ahí]]",
         "[[Is|Es/está]]",
@@ -500,7 +500,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[station|station]] [[is|es/está]] [[opposite|opposite]] [[the|el/la/los/las]] [[town|pueblo]] [[hall|hall]].",
+      "correctSentence": "[[The station is opposite the town hall|El/la/los/las station es/está opposite el/la/los/las pueblo hall]].",
       "words": [
         "[[The|El/la/los/las]]",
         "[[opposite|opposite]]",
@@ -525,7 +525,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[You|Tú/usted]] [[can|poder]] [[cross|cross]] [[the|el/la/los/las]] [[river|river]] [[by|por]] [[the|el/la/los/las]] [[old|viejo/antiguo]] [[bridge|bridge]].",
+      "correctSentence": "[[You can cross the river by the old bridge|Tú/usted poder cross el/la/los/las river por el/la/los/las viejo/antiguo bridge]].",
       "words": [
         "[[bridge|bridge]].",
         "[[by|por]]",
@@ -552,7 +552,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[market|market]] [[is|es/está]] [[open|open]] [[every|every]] [[Saturday|Saturday]] [[morning|mañana]].",
+      "correctSentence": "[[The market is open every Saturday morning|El/la/los/las market es/está open every Saturday mañana]].",
       "words": [
         "[[is|es/está]]",
         "[[open|open]]",
@@ -577,7 +577,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[castle|castle]] [[is|es/está]] [[on|en/sobre]] [[a|un/una]] [[high|high]] [[hill|hill]].",
+      "correctSentence": "[[The castle is on a high hill|El/la/los/las castle es/está en/sobre un/una high hill]].",
       "words": [
         "[[The|El/la/los/las]]",
         "[[on|en/sobre]]",
@@ -602,7 +602,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Wait|Wait]] [[for|para/por]] [[the|el/la/los/las]] [[green|green]] [[light|light]] [[at|en]] [[the|el/la/los/las]] [[traffic|traffic]] [[lights|lights]].",
+      "correctSentence": "[[Wait for the green light at the traffic lights|Wait para/por el/la/los/las green light en el/la/los/las traffic lights]].",
       "words": [
         "[[Wait|Wait]]",
         "[[green|green]]",
@@ -629,7 +629,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[park|park]] [[is|es/está]] [[very|muy]] [[crowded|crowded]] [[in|en]] [[summer|summer]].",
+      "correctSentence": "[[The park is very crowded in summer|El/la/los/las park es/está muy crowded en summer]].",
       "words": [
         "[[summer|summer]].",
         "[[in|en]]",
@@ -654,7 +654,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[post|post]] [[office|oficina]] [[is|es/está]] [[next|next]] [[to|a/para]] [[the|el/la/los/las]] [[church|church]].",
+      "correctSentence": "[[The post office is next to the church|El/la/los/las post oficina es/está next a/para el/la/los/las church]].",
       "words": [
         "[[The|El/la/los/las]]",
         "[[post|post]]",
@@ -680,7 +680,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[It|Eso]] [[takes|takes]] [[twenty|twenty]] [[minutes|minutes]] [[to|a/para]] [[walk|walk]] [[to|a/para]] [[the|el/la/los/las]] [[station|station]].",
+      "correctSentence": "[[It takes twenty minutes to walk to the station|Eso takes twenty minutes a/para walk a/para el/la/los/las station]].",
       "words": [
         "[[to|a/para]]",
         "[[twenty|twenty]]",
@@ -707,7 +707,7 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[town|pueblo]] [[is|es/está]] [[very|muy]] [[old|viejo/antiguo]] [[and|and]] [[beautiful|hermoso/a]].",
+      "correctSentence": "[[The town is very old and beautiful|El/la/los/las pueblo es/está muy viejo/antiguo and hermoso/a]].",
       "words": [
         "[[town|pueblo]]",
         "[[very|muy]]",

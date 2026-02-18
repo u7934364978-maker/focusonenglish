@@ -13,7 +13,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el demostrativo para algo que tienes cerca.",
       "questions": [
         {
-          "question": "(_____) [[shirt|camisa]] [[is|es]] [[very|muy]] [[nice|bonita]].",
+          "question": "(_____) [[shirt is very nice|camisa es muy bonita]].",
           "options": ["[[This|Esta]]", "[[That|Esa]]", "[[These|Estas]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'This' para un objeto singular que está cerca."
@@ -35,7 +35,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el demostrativo para objetos lejanos.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[like|gustar]] (_____) [[shoes|zapatos]] [[over|por]] [[there|allí]].",
+          "question": "[[I like there|Yo gustar]] (_____) [[shoes over|zapatos por allí]].",
           "options": ["[[those|esos]]", "[[these|estos]]", "[[that|ese]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'those' para objetos plurales que están lejos."
@@ -57,7 +57,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Completa con la forma correcta del verbo 'wear'.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|está]] (_____) [[a|una]] [[blue|azul]] [[jacket|chaqueta]].",
+          "question": "[[He is jacket|Él está]] (_____) [[a blue|una azul chaqueta]].",
           "options": ["[[wearing|llevando puesto]]", "[[wear|lleva]]", "[[wears|lleva]]"],
           "correctAnswer": 0,
           "explanation": "Usamos el presente continuo (is wearing) para describir la ropa que alguien lleva en este momento."
@@ -77,7 +77,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Orden de Adjetivos",
       "instructions": "Ordena la oración (tamaño + color + sustantivo).",
-      "correctSentence": "[[I|Yo]] [[want|querer]] [[a|un]] [[small|pequeño]] [[red|rojo]] [[dress|vestido]].",
+      "correctSentence": "[[I want a small red dress|Yo querer un pequeño rojo vestido]].",
       "words": ["[[dress|vestido]].", "[[red|rojo]]", "[[small|pequeño]]", "[[a|un]]", "[[want|querer]]", "[[I|Yo]]"],
       "explanation": "En inglés, el tamaño suele ir antes que el color."
     },
@@ -96,7 +96,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Pregunta por el precio.",
       "questions": [
         {
-          "question": "(_____) [[is|es]] [[this|este]] [[belt|cinturón]]?",
+          "question": "(_____) [[is this belt|es este cinturón]]?",
           "options": ["[[How much|Cuánto]]", "[[How many|Cuántos]]", "[[What|Qué]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'How much is...' para preguntar precios."
@@ -116,7 +116,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "¿Qué llevas puesto?",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[What|Qué]] [[are|estás]] [[you|tú]] [[wearing|llevando]] [[today|hoy]]?",
+      "correctSentence": "[[What are you wearing today|Qué estás tú llevando hoy]]?",
       "words": ["[[today|hoy]]?", "[[wearing|llevando]]", "[[you|tú]]", "[[are|estás]]", "[[What|Qué]]"],
       "explanation": "Pregunta en presente continuo sobre la vestimenta actual."
     },
@@ -135,7 +135,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión correcta.",
       "questions": [
         {
-          "question": "[[Can|Poder]] [[I|yo]] (_____) [[this|esto]] [[on|puesto]]?",
+          "question": "[[Can I|Poder yo]] (_____) [[this on|esto puesto]]?",
           "options": ["[[try|probar]]", "[[wear|llevar]]", "[[buy|comprar]]"],
           "correctAnswer": 0,
           "explanation": "'Try on' es el phrasal verb para probarse una prenda."
@@ -155,7 +155,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Demasiado Ajustados",
       "instructions": "Ordena la queja sobre la ropa.",
-      "correctSentence": "[[These|Estos]] [[jeans|vaqueros]] [[are|son]] [[too|demasiado]] [[tight|ajustados]].",
+      "correctSentence": "[[These jeans are too tight|Estos vaqueros son demasiado ajustados]].",
       "words": ["[[tight|ajustados]].", "[[too|demasiado]]", "[[are|son]]", "[[jeans|vaqueros]]", "[[These|Estos]]"],
       "explanation": "Jeans es siempre plural en inglés, requiere 'these' y 'are'."
     },
@@ -174,7 +174,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige la talla grande.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesito]] [[a|una]] (_____) [[size|talla]].",
+          "question": "[[I need a|Yo necesito una]] (_____) [[size|talla]].",
           "options": ["[[large|grande]]", "[[small|pequeña]]", "[[long|larga]]"],
           "correctAnswer": 0,
           "explanation": "Large es la talla L (grande)."
@@ -194,7 +194,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "El Vestido de mi Hermana",
       "instructions": "Ordena la descripción.",
-      "correctSentence": "[[My|Mi]] [[sister|hermana]] [[is|está]] [[wearing|llevando]] [[a|un]] [[beautiful|hermoso]] [[pink|rosa]] [[dress|vestido]].",
+      "correctSentence": "[[My sister is wearing a beautiful pink dress|Mi hermana está llevando un hermoso rosa vestido]].",
       "words": ["[[dress|vestido]].", "[[pink|rosa]]", "[[beautiful|hermoso]]", "[[a|un]]", "[[wearing|llevando]]", "[[is|está]]", "[[sister|hermana]]", "[[My|Mi]]"],
       "explanation": "Opinión (beautiful) + Color (pink) + Sustantivo (dress)."
     },
@@ -213,7 +213,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige la prenda adecuada para el frío.",
       "questions": [
         {
-          "question": "[[It|Hace]] [[is|está]] [[cold|frío]]. [[I|Yo]] [[wear|llevo]] [[a|un]] (_____) .",
+          "question": "[[It is. I cold wear a|Hace está frío. Yo llevo un]] (_____) .",
           "options": ["[[coat|abrigo]]", "[[T-shirt|camiseta]]", "[[skirt|falda]]"],
           "correctAnswer": 0,
           "explanation": "El abrigo (coat) es para el frío."
@@ -233,7 +233,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Buscando Talla",
       "instructions": "Ordena la pregunta en la tienda.",
-      "correctSentence": "[[Do|Aux]] [[you|tú]] [[have|tener]] [[these|estos]] [[shoes|zapatos]] [[in|en]] [[size|talla]] [[eight|ocho]]?",
+      "correctSentence": "[[Do you have these shoes in size eight|Aux tú tener estos zapatos en talla ocho]]?",
       "words": ["[[eight|ocho]]?", "[[size|talla]]", "[[in|en]]", "[[shoes|zapatos]]", "[[these|estos]]", "[[have|tener]]", "[[you|tú]]", "[[Do|Aux]]"],
       "explanation": "Preguntando por una talla específica."
     },
@@ -252,7 +252,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el accesorio necesario.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesito]] [[my|mis]] (_____) [[to|para]] [[read|leer]].",
+          "question": "[[I need my read|Yo necesito mis]] (_____) [[to|para leer]].",
           "options": ["[[glasses|gafas]]", "[[gloves|guantes]]", "[[belt|cinturón]]"],
           "correctAnswer": 0,
           "explanation": "Las gafas (glasses) se usan para ver/leer."
@@ -272,7 +272,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Chaqueta Cara",
       "instructions": "Ordena la oración sobre el precio.",
-      "correctSentence": "[[That|Esa]] [[jacket|chaqueta]] [[is|es]] [[very|muy]] [[expensive|cara]].",
+      "correctSentence": "[[That jacket is very expensive|Esa chaqueta es muy cara]].",
       "words": ["[[expensive|cara]].", "[[very|muy]]", "[[is|es]]", "[[jacket|chaqueta]]", "[[That|Esa]]"],
       "explanation": "That + singular para algo alejado."
     },
@@ -291,7 +291,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el calzado deportivo.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|estoy]] [[wearing|llevando]] [[my|mis]] (_____) .",
+          "question": "[[I am wearing my|Yo estoy llevando mis]] (_____) .",
           "options": ["[[sneakers|zapatillas]]", "[[boots|botas]]", "[[sandals|sandalias]]"],
           "correctAnswer": 0,
           "explanation": "Sneakers son para hacer deporte."
@@ -311,7 +311,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "¿Por qué el traje?",
       "instructions": "Ordena la pregunta de causa.",
-      "correctSentence": "[[Why|Por qué]] [[are|estás]] [[you|tú]] [[wearing|llevando]] [[a|un]] [[suit|traje]] [[today|hoy]]?",
+      "correctSentence": "[[Why are you wearing a suit today|Por qué estás tú llevando un traje hoy]]?",
       "words": ["[[today|hoy]]?", "[[suit|traje]]", "[[a|un]]", "[[wearing|llevando]]", "[[you|tú]]", "[[are|estás]]", "[[Why|Por qué]]"],
       "explanation": "Pregunta sobre una vestimenta formal inusual."
     },
@@ -330,7 +330,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Respuesta común en una tienda.",
       "questions": [
         {
-          "question": "[[I'm|Estoy]] [[just|solo]] (_____) , [[thanks|gracias]].",
+          "question": "[[I'm just|Estoy solo]] (_____) , [[thanks|gracias]].",
           "options": ["[[looking|mirando]]", "[[buying|comprando]]", "[[wearing|llevando]]"],
           "correctAnswer": 0,
           "explanation": "'Just looking' significa que no necesitas ayuda inmediata."
@@ -352,7 +352,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "¿Qué lleva un hombre a una boda?",
       "questions": [
         {
-          "question": "[[A|Un]] [[man|hombre]] [[wears|lleva]] [[a|un]] (_____) [[to|a]] [[a|una]] [[wedding|boda]].",
+          "question": "[[A man wears a|Un hombre lleva un]] (_____) [[to a wedding|a una boda]].",
           "options": ["[[suit|traje]]", "[[skirt|falda]]", "[[dress|vestido]]"],
           "correctAnswer": 0,
           "explanation": "Un traje (suit) es la opción formal masculina."
@@ -372,7 +372,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Camiseta Verde",
       "instructions": "Ordena la pregunta sobre gustos.",
-      "correctSentence": "[[Do|Aux]] [[you|tú]] [[like|gustar]] [[this|esta]] [[green|verde]] [[t-shirt|camiseta]]?",
+      "correctSentence": "[[Do you like this green t-shirt|Aux tú gustar esta verde camiseta]]?",
       "words": ["[[t-shirt|camiseta]]?", "[[green|verde]]", "[[this|esta]]", "[[like|gustar]]", "[[you|tú]]", "[[Do|Aux]]"],
       "explanation": "This + color + noun."
     },
@@ -391,7 +391,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el accesorio para sujetar pantalones.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesito]] [[a|un]] (_____) .",
+          "question": "[[I need a|Yo necesito un]] (_____) .",
           "options": ["[[belt|cinturón]]", "[[scarf|bufanda]]", "[[watch|reloj]]"],
           "correctAnswer": 0,
           "explanation": "El cinturón (belt) sujeta los pantalones."
@@ -411,7 +411,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sin Uniforme",
       "instructions": "Ordena la negación en presente continuo.",
-      "correctSentence": "[[They|Ellos]] [[are|están]] [[not|no]] [[wearing|llevando]] [[uniforms|uniformes]] [[at|en]] [[school|escuela]] [[today|hoy]].",
+      "correctSentence": "[[They are not wearing uniforms at school today|Ellos están no llevando uniformes en escuela hoy]].",
       "words": ["[[today|hoy]].", "[[school|escuela]]", "[[at|en]]", "[[uniforms|uniformes]]", "[[wearing|llevando]]", "[[not|no]]", "[[are|están]]", "[[They|Ellos]]"],
       "explanation": "Negativo de lo que se lleva puesto."
     },
@@ -430,7 +430,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector y adjetivo.",
       "questions": [
         {
-          "question": "[[These|Estas]] [[boots|botas]] [[are|son]] [[beautiful|bonitas]], (_____) [[they|ellas]] [[are|son]] (_____) .",
+          "question": "[[These boots are beautiful|Estas botas son bonitas]], (_____) [[they are|ellas son]] (_____) .",
           "options": ["[[but / expensive|pero / caras]]", "[[and / cheap|y / baratas]]", "[[but / small|pero / pequeñas]]"],
           "correctAnswer": 0,
           "explanation": "Indica contraste entre belleza y precio alto."
@@ -450,7 +450,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pantalones Amarillos",
       "instructions": "Ordena la frase de desagrado.",
-      "correctSentence": "[[I|Yo]] [[don't|no]] [[like|gustar]] [[those|esos]] [[yellow|amarillos]] [[pants|pantalones]].",
+      "correctSentence": "[[I don't like those yellow pants|Yo no gustar esos amarillos pantalones]].",
       "words": ["[[pants|pantalones]].", "[[yellow|amarillos]]", "[[those|esos]]", "[[like|gustar]]", "[[don't|no]]", "[[I|Yo]]"],
       "explanation": "Demonstrativo plural + adjetivo + sustantivo."
     },
@@ -469,7 +469,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el orden correcto de adjetivos.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[is|está]] [[wearing|llevando]] (_____) .",
+          "question": "[[She is wearing|Ella está llevando]] (_____) .",
           "options": ["[[a long black skirt|una falda larga negra]]", "[[a black long skirt|una falda negra larga]]", "[[a skirt long black|una falda larga negra]]"],
           "correctAnswer": 0,
           "explanation": "Longitud (long) va antes del color (black)."
@@ -489,7 +489,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "El Recibo",
       "instructions": "Ordena la petición después de pagar.",
-      "correctSentence": "[[Can|Poder]] [[I|yo]] [[have|tener]] [[a|un]] [[receipt|recibo]], [[please|por favor]]?",
+      "correctSentence": "[[Can I, please have a receipt|Poder yo tener un recibo, por favor]]?",
       "words": ["[[please|por favor]]?", "[[receipt|recibo]],", "[[a|un]]", "[[have|tener]]", "[[I|yo]]", "[[Can|Poder]]"],
       "explanation": "Receipt (recibo/ticket) es necesario para cambios."
     },
@@ -508,7 +508,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Accesorio para el sol.",
       "questions": [
         {
-          "question": "[[It|Está]] [[is|está]] [[sunny|soleado]]. [[Wear|Lleva]] [[your|tu]] (_____) .",
+          "question": "[[It is. Wear sunny your|Está está soleado. Lleva tu]] (_____) .",
           "options": ["[[hat|sombrero]]", "[[scarf|bufanda]]", "[[gloves|guantes]]"],
           "correctAnswer": 0,
           "explanation": "El sombrero (hat) protege del sol."
@@ -528,7 +528,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "¿Quién lleva el jersey?",
       "instructions": "Ordena la pregunta de identificación.",
-      "correctSentence": "[[Who|Quién]] [[is|está]] [[wearing|llevando]] [[the|el]] [[red|rojo]] [[sweater|jersey]]?",
+      "correctSentence": "[[Who is wearing the red sweater|Quién está llevando el rojo jersey]]?",
       "words": ["[[sweater|jersey]]?", "[[red|rojo]]", "[[the|el]]", "[[wearing|llevando]]", "[[is|está]]", "[[Who|Quién]]"],
       "explanation": "Preguntando por una persona a través de su ropa."
     },
@@ -547,7 +547,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo de tamaño.",
       "questions": [
         {
-          "question": "[[This|Esta]] [[jacket|chaqueta]] [[is|es]] (_____) [[small|pequeña]] [[for|para]] [[me|mí]].",
+          "question": "[[This jacket is for|Esta chaqueta es]] (_____) [[small me|pequeña para mí]].",
           "options": ["[[too|demasiado]]", "[[very|muy]]", "[[some|algo]]"],
           "correctAnswer": 0,
           "explanation": "'Too' indica un exceso que causa un problema (no me sirve)."
@@ -567,7 +567,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Botas Marrones",
       "instructions": "Ordena la oración de preferencia.",
-      "correctSentence": "[[I|Yo]] [[like|gustar]] [[these|estas]] [[brown|marrones]] [[boots|botas]] [[very|muy]] [[much|mucho]].",
+      "correctSentence": "[[I like these brown boots very much|Yo gustar estas marrones botas muy mucho]].",
       "words": ["[[much|mucho]].", "[[very|muy]]", "[[boots|botas]]", "[[brown|marrones]]", "[[these|estas]]", "[[like|gustar]]", "[[I|Yo]]"],
       "explanation": "These + color + plural noun."
     },
@@ -586,7 +586,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tengo]] [[a|un]] [[new|nuevo]] (_____) [[on|en]] [[my|mi]] [[wrist|muñeca]].",
+          "question": "[[I have a new|Yo tengo un nuevo]] (_____) [[on my wrist|en mi muñeca]].",
           "options": ["[[watch|reloj]]", "[[belt|cinturón]]", "[[glasses|gafas]]"],
           "correctAnswer": 0,
           "explanation": "El reloj (watch) va en la muñeca."
@@ -606,7 +606,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Precio de Vaqueros",
       "instructions": "Ordena la pregunta de precio plural.",
-      "correctSentence": "[[How|Cómo]] [[much|mucho]] [[are|son]] [[those|esos]] [[blue|azules]] [[jeans|vaqueros]]?",
+      "correctSentence": "[[How much are those blue jeans|Cómo mucho son esos azules vaqueros]]?",
       "words": ["[[jeans|vaqueros]]?", "[[blue|azules]]", "[[those|esos]]", "[[are|son]]", "[[much|mucho]]", "[[How|Cómo]]"],
       "explanation": "Are + plural demonstrative para jeans."
     },
@@ -625,7 +625,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "¿Qué va con la camisa en un traje?",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|está]] [[wearing|llevando]] [[a|una]] [[white|blanca]] [[shirt|camisa]] [[and|y]] [[a|una]] (_____) .",
+          "question": "[[He is wearing a white shirt and a|Él está llevando una blanca camisa y una]] (_____) .",
           "options": ["[[tie|corbata]]", "[[skirt|falda]]", "[[dress|vestido]]"],
           "correctAnswer": 0,
           "explanation": "La corbata (tie) es el complemento de la camisa."
@@ -645,7 +645,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Jersey Favorito",
       "instructions": "Ordena la descripción personal.",
-      "correctSentence": "[[I|Yo]] [[am|estoy]] [[wearing|llevando]] [[my|mi]] [[favorite|favorito]] [[sweater|jersey]] [[today|hoy]].",
+      "correctSentence": "[[I am wearing my favorite sweater today|Yo estoy llevando mi favorito jersey hoy]].",
       "words": ["[[today|hoy]].", "[[sweater|jersey]]", "[[favorite|favorito]]", "[[my|mi]]", "[[wearing|llevando]]", "[[am|estoy]]", "[[I|Yo]]"],
       "explanation": "Uso de am wearing + possessive."
     },
@@ -664,7 +664,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el color de las nubes de lluvia.",
       "questions": [
         {
-          "question": "[[The|El]] [[sky|cielo]] [[is|es]] (_____) [[today|hoy]].",
+          "question": "[[The sky is|El cielo es]] (_____) [[today|hoy]].",
           "options": ["[[grey|gris]]", "[[pink|rosa]]", "[[yellow|amarillo]]"],
           "correctAnswer": 0,
           "explanation": "Grey es el color gris."
@@ -684,7 +684,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Te queda bien",
       "instructions": "Ordena el cumplido.",
-      "correctSentence": "[[That|Ese]] [[red|rojo]] [[dress|vestido]] [[looks|se ve]] [[great|genial]] [[on|en]] [[you|ti]].",
+      "correctSentence": "[[That red dress looks great on you|Ese rojo vestido se ve genial en ti]].",
       "words": ["[[you|ti]].", "[[on|en]]", "[[great|genial]]", "[[looks|se ve]]", "[[dress|vestido]]", "[[red|rojo]]", "[[That|Ese]]"],
       "explanation": "'Looks great on you' significa que te queda muy bien."
     },
@@ -703,7 +703,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Completa el diálogo de cambio.",
       "questions": [
         {
-          "question": "[[This|Esta]] [[t-shirt|camiseta]] [[is|es]] [[too|demasiado]] [[big|grande]]. [[Do|Aux]] [[you|tú]] [[have|tener]] [[a|una]] (_____) ?",
+          "question": "[[This t-shirt. Do is too big you have a|Esta camiseta es demasiado grande. Aux tú tener una]] (_____) ?",
           "options": ["[[small|pequeña]]", "[[medium|mediana]]", "[[large|grande]]"],
           "correctAnswer": 0,
           "explanation": "Si es 'too big', pides una 'small'."
@@ -723,7 +723,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Nuevo Abrigo",
       "instructions": "Ordena la pregunta en presente continuo.",
-      "correctSentence": "[[Is|Está]] [[she|ella]] [[wearing|llevando]] [[her|su]] [[new|nuevo]] [[coat|abrigo]] [[today|hoy]]?",
+      "correctSentence": "[[Is she wearing her new coat today|Está ella llevando su nuevo abrigo hoy]]?",
       "words": ["[[today|hoy]]?", "[[coat|abrigo]]", "[[new|nuevo]]", "[[her|su]]", "[[wearing|llevando]]", "[[she|ella]]", "[[Is|Está]]"],
       "explanation": "Pregunta de sí/no sobre la vestimenta."
     },
@@ -742,7 +742,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "¿Qué llevas en las manos?",
       "questions": [
         {
-          "question": "[[I|Yo]] [[wear|llevo]] (_____) [[on|en]] [[my|mis]] [[hands|manos]].",
+          "question": "[[I wear hands|Yo llevo]] (_____) [[on my|en mis manos]].",
           "options": ["[[gloves|guantes]]", "[[socks|calcetines]]", "[[shoes|zapatos]]"],
           "correctAnswer": 0,
           "explanation": "Gloves son guantes."
@@ -762,7 +762,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Zapatillas Moradas",
       "instructions": "Ordena la frase negativa.",
-      "correctSentence": "[[I|Yo]] [[don't|no]] [[like|gustar]] [[these|estas]] [[purple|moradas]] [[sneakers|zapatillas]].",
+      "correctSentence": "[[I don't like these purple sneakers|Yo no gustar estas moradas zapatillas]].",
       "words": ["[[sneakers|zapatillas]].", "[[purple|moradas]]", "[[these|estas]]", "[[like|gustar]]", "[[don't|no]]", "[[I|Yo]]"],
       "explanation": "These + color + noun plural."
     },
@@ -781,7 +781,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar para probarse ropa.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[is|es]] [[the|el]] (_____) [[room|sala]]?",
+          "question": "[[Where is the|Dónde es el]] (_____) [[room|sala]]?",
           "options": ["[[fitting|probador]]", "[[sitting|estar]]", "[[dining|comedor]]"],
           "correctAnswer": 0,
           "explanation": "'Fitting room' es el probador."
@@ -801,7 +801,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vestido de Novia",
       "instructions": "Ordena los adjetivos complejos.",
-      "correctSentence": "[[She|Ella]] [[is|está]] [[wearing|llevando]] [[a|un]] [[beautiful|hermoso]] [[long|largo]] [[white|blanco]] [[dress|vestido]].",
+      "correctSentence": "[[She is wearing a beautiful long white dress|Ella está llevando un hermoso largo blanco vestido]].",
       "words": ["[[dress|vestido]].", "[[white|blanco]]", "[[long|largo]]", "[[beautiful|hermoso]]", "[[a|un]]", "[[wearing|llevando]]", "[[is|está]]", "[[She|Ella]]"],
       "explanation": "Opinión + Tamaño + Color + Sustantivo."
     },
@@ -820,7 +820,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "¿Qué va al cuello?",
       "questions": [
         {
-          "question": "[[Wear|Lleva]] [[a|una]] (_____) [[around|alrededor]] [[your|tu]] [[neck|cuello]].",
+          "question": "[[Wear a neck|Lleva una]] (_____) [[around your|alrededor tu cuello]].",
           "options": ["[[scarf|bufanda]]", "[[belt|cinturón]]", "[[hat|gorro]]"],
           "correctAnswer": 0,
           "explanation": "Scarf es bufanda."
@@ -840,7 +840,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "¿Llevan abrigos?",
       "instructions": "Ordena la pregunta plural.",
-      "correctSentence": "[[Are|Están]] [[they|ellos]] [[wearing|llevando]] [[coats|abrigos]] [[today|hoy]]?",
+      "correctSentence": "[[Are they wearing coats today|Están ellos llevando abrigos hoy]]?",
       "words": ["[[today|hoy]]?", "[[coats|abrigos]]", "[[wearing|llevando]]", "[[they|ellos]]", "[[Are|Están]]"],
       "explanation": "Pregunta de presente continuo para 'they'."
     },
@@ -859,7 +859,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el color del chocolate o la madera.",
       "questions": [
         {
-          "question": "[[My|Mis]] [[shoes|zapatos]] [[are|son]] (_____) .",
+          "question": "[[My shoes are|Mis zapatos son]] (_____) .",
           "options": ["[[brown|marrones]]", "[[blue|azules]]", "[[green|verdes]]"],
           "correctAnswer": 0,
           "explanation": "Brown es marrón."
@@ -879,7 +879,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Botas Negras",
       "instructions": "Ordena la pregunta sobre calzado alejado.",
-      "correctSentence": "[[Do|Aux]] [[you|tú]] [[like|gustar]] [[those|esas]] [[black|negras]] [[boots|botas]]?",
+      "correctSentence": "[[Do you like those black boots|Aux tú gustar esas negras botas]]?",
       "words": ["[[boots|botas]]?", "[[black|negras]]", "[[those|esas]]", "[[like|gustar]]", "[[you|tú]]", "[[Do|Aux]]"],
       "explanation": "Those + color + plural noun."
     },
@@ -898,7 +898,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo de estilo.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesito]] [[a|una]] (_____) [[shirt|camisa]].",
+          "question": "[[I need a|Yo necesito una]] (_____) [[shirt|camisa]].",
           "options": ["[[smart|elegante]]", "[[dirty|sucia]]", "[[old|vieja]]"],
           "correctAnswer": 0,
           "explanation": "'Smart' en este contexto significa elegante o arreglado."
@@ -918,7 +918,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Dónde Pagar",
       "instructions": "Ordena la pregunta para buscar la caja.",
-      "correctSentence": "[[Where|Dónde]] [[can|poder]] [[I|yo]] [[pay|pagar]] [[for|por]] [[these|estas]] [[clothes|ropas]]?",
+      "correctSentence": "[[Where can I pay for these clothes|Dónde poder yo pagar por estas ropas]]?",
       "words": ["[[clothes|ropas]]?", "[[these|estas]]", "[[for|por]]", "[[pay|pagar]]", "[[I|yo]]", "[[can|poder]]", "[[Where|Dónde]]"],
       "explanation": "Preguntando por el mostrador de pago."
     },
@@ -937,13 +937,13 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre el día de compras.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|está]] [[the|el]] [[narrator|narrador]] [[looking|buscando]] [[for|por]]?",
+          "question": "[[What is the narrator looking for|Qué está el narrador buscando por]]?",
           "options": ["[[A new dress|Un vestido nuevo]]", "[[New sneakers|Zapatillas nuevas]]", "[[A blue jacket|Una chaqueta azul]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'I am looking for a new dress for a party'."
         },
         {
-          "question": "[[What|Qué]] [[is|está]] [[Lisa|Lisa]] [[wearing|llevando]]?",
+          "question": "[[What is Lisa wearing|Qué está Lisa llevando]]?",
           "options": ["[[A blue jacket and black pants|Chaqueta azul y pantalones negros]]", "[[A red dress|Un vestido rojo]]", "[[A green skirt|Una falda verde]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'Lisa is wearing a beautiful blue jacket and black pants'."
@@ -965,13 +965,13 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre los gustos de vestir.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|hace]] [[the|la]] [[person|persona]] [[usually|normalmente]] [[wear|llevar]]?",
+          "question": "[[What does the person usually wear|Qué hace la persona normalmente llevar]]?",
           "options": ["[[Jeans and a t-shirt|Vaqueros y camiseta]]", "[[A suit and tie|Traje y corbata]]", "[[A dress|Un vestido]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'Usually, I wear jeans and a grey t-shirt'."
         },
         {
-          "question": "[[What|Qué]] [[is|está]] [[he/she|él/ella]] [[wearing|llevando]] [[today|hoy]]?",
+          "question": "[[What is he/she wearing today|Qué está él/ella llevando hoy]]?",
           "options": ["[[A sweater and a scarf|Un jersey y una bufanda]]", "[[A jacket|Una chaqueta]]", "[[A hat|Un sombrero]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'I am wearing a big brown sweater and a scarf'."
@@ -993,13 +993,13 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Lee el diálogo en la tienda.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[color|color]] [[does|hace]] [[the|el]] [[customer|cliente]] [[want|querer]]?",
+          "question": "[[What color does the customer want|Qué color hace el cliente querer]]?",
           "options": ["[[Black|Negro]]", "[[Brown|Marrón]]", "[[Grey|Gris]]"],
           "correctAnswer": 0,
           "explanation": "El cliente pregunta: 'Do you have them in black?'."
         },
         {
-          "question": "[[What|Qué]] [[size|talla]] [[does|hace]] [[he|él]] [[need|necesitar]]?",
+          "question": "[[What size does he need|Qué talla hace él necesitar]]?",
           "options": ["[[Size nine|Talla nueve]]", "[[Size eight|Talla ocho]]", "[[Size ten|Talla diez]]"],
           "correctAnswer": 0,
           "explanation": "Pregunta: 'Can I try on the brown ones in size nine?'."
@@ -1021,13 +1021,13 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre la ropa de los padres.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|hace]] [[the|el]] [[father|padre]] [[wear|llevar]] [[to|al]] [[work|trabajo]]?",
+          "question": "[[What does the father wear to work|Qué hace el padre llevar al trabajo]]?",
           "options": ["[[A suit and a tie|Traje y corbata]]", "[[A uniform|Un uniforme]]", "[[Jeans|Vaqueros]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'He always wears a suit and a tie to work'."
         },
         {
-          "question": "[[What|Qué]] [[color|color]] [[is|es]] [[the|el]] [[mother's|de la madre]] [[uniform|uniforme]]?",
+          "question": "[[What color is the mother's uniform|Qué color es el de la madre uniforme]]?",
           "options": ["[[White|Blanco]]", "[[Blue|Azul]]", "[[Grey|Gris]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'She wears a white uniform'."
@@ -1049,13 +1049,13 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre los uniformes.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[color|color]] [[is|es]] [[the|la]] [[skirt|falda]] [[for|para]] [[girls|chicas]]?",
+          "question": "[[What color is the skirt for girls|Qué color es la falda para chicas]]?",
           "options": ["[[Blue|Azul]]", "[[Grey|Gris]]", "[[White|Blanca]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'The girls wear a blue skirt'."
         },
         {
-          "question": "[[What|Qué]] [[do|aux]] [[they|ellos]] [[wear|llevar]] [[in|en]] [[winter|invierno]]?",
+          "question": "[[What do they wear in winter|Qué aux ellos llevar en invierno]]?",
           "options": ["[[A dark blue sweater|Un jersey azul oscuro]]", "[[A jacket|Una chaqueta]]", "[[A coat|Un abrigo]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'In winter, we all wear a dark blue sweater'."
@@ -1077,13 +1077,13 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre la ropa de verano.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[does|hace]] [[the|la]] [[person|persona]] [[wear|llevar]] [[at|en]] [[the|la]] [[beach|playa]]?",
+          "question": "[[What does the person wear at the beach|Qué hace la persona llevar en la playa]]?",
           "options": ["[[Sunglasses and a hat|Gafas de sol y sombrero]]", "[[Boots and a scarf|Botas y bufanda]]", "[[A suit|Un traje]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'I wear my sunglasses and a big hat'."
         },
         {
-          "question": "[[What|Qué]] [[doesn't|no]] [[he/she|él/ella]] [[like|gustar]] [[when|cuando]] [[it|hace]] [[is|está]] [[hot|calor]]?",
+          "question": "[[What doesn't he/she like when it is hot|Qué no él/ella gustar cuando hace está calor]]?",
           "options": ["[[Socks or boots|Calcetines o botas]]", "[[Sandals|Sandalias]]", "[[Shorts|Pantalones cortos]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'I don't like wearing socks or boots when it is hot'."
@@ -1105,13 +1105,13 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre la chaqueta de Tom.",
       "questions": [
         {
-          "question": "[[What|De qué]] [[material|material]] [[is|es]] [[the|la]] [[jacket|chaqueta]]?",
+          "question": "[[What material is the jacket|De qué material es la chaqueta]]?",
           "options": ["[[Leather|Cuero]]", "[[Cotton|Algodón]]", "[[Wool|Lana]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'It is a black leather jacket'."
         },
         {
-          "question": "[[Why|Por qué]] [[has|tiene]] [[he|él]] [[the|la]] [[jacket|chaqueta]]?",
+          "question": "[[Why has he the jacket|Por qué tiene él la chaqueta]]?",
           "options": ["[[It was a birthday gift|Fue un regalo de cumple]]", "[[He bought it today|La compró hoy]]", "[[It's his father's|Es de su padre]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'It was a birthday gift from his parents'."
@@ -1133,13 +1133,13 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre Emma.",
       "questions": [
         {
-          "question": "[[What|Cómo]] [[is|es]] [[the|la]] [[scarf|bufanda]]?",
+          "question": "[[What is the scarf|Cómo es la bufanda]]?",
           "options": ["[[Long, green and wool|Larga, verde y de lana]]", "[[Short, red and silk|Corta, roja y de seda]]", "[[Old and brown|Vieja y marrón]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'It is a long, green wool scarf'."
         },
         {
-          "question": "[[Where|Dónde]] [[did|aux]] [[she|ella]] [[find|encontrar]] [[it|la]]?",
+          "question": "[[Where did she find it|Dónde aux ella encontrar la]]?",
           "options": ["[[A boy was holding it|Un niño la tenía]]", "[[On the bench|En el banco]]", "[[In the lake|En el lago]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'A small boy is holding it'."
@@ -1161,13 +1161,13 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre Mark.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|está]] [[Mark|Mark]] [[looking|buscando]] [[for|por]]?",
+          "question": "[[What is Mark looking for|Qué está Mark buscando por]]?",
           "options": ["[[His black tie|Su corbata negra]]", "[[His white shirt|Su camisa blanca]]", "[[His shoes|Sus zapatos]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'He is looking for his black tie'."
         },
         {
-          "question": "[[Who|Quién]] [[had|tenía]] [[the|el]] [[item|objeto]]?",
+          "question": "[[Who had the item|Quién tenía el objeto]]?",
           "options": ["[[His brother|Su hermano]]", "[[His sister|Su hermana]]", "[[His mother|Su madre]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'his brother has it!'."
@@ -1189,13 +1189,13 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre la rutina de vestirse.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[is|es]] [[the|el]] [[weather|tiempo]] [[like|como]]?",
+          "question": "[[What is the weather like|Qué es el tiempo como]]?",
           "options": ["[[Cold and snowy|Frío y con nieve]]", "[[Hot and sunny|Calor y sol]]", "[[Rainy|Lluvia]]"],
           "correctAnswer": 0,
           "explanation": "El texto menciona 'cold winter morning' y 'snow'."
         },
         {
-          "question": "[[What|Qué]] [[is|es]] [[the|la]] [[last|última]] [[thing|cosa]] [[he/she|él/ella]] [[puts|pone]] [[on|puesto]]?",
+          "question": "[[What is the last thing he/she puts on|Qué es la última cosa él/ella pone puesto]]?",
           "options": ["[[Boots|Botas]]", "[[Gloves|Guantes]]", "[[Sweater|Jersey]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'Finally, I put on my boots'."

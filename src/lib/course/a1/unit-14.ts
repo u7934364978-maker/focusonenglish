@@ -13,7 +13,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la oración correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[drink|bebo]] [[water|agua]].",
+          "question": "[[I water|Yo]] (_____) [[drink|bebo agua]].",
           "options": ["[[always|siempre]]", "[[am always|siempre soy]]", "[[drink always|bebo siempre]]"],
           "correctAnswer": 0,
           "explanation": "El adverbio va antes del verbo principal."
@@ -35,7 +35,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la posición correcta con el verbo 'to be'.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|soy/estoy]] (_____) [[late|tarde]].",
+          "question": "[[I am|Yo soy/estoy]] (_____) [[late|tarde]].",
           "options": ["[[never|nunca]]", "[[often|a menudo]]", "[[always|siempre]]"],
           "correctAnswer": 0,
           "explanation": "Con el verbo 'to be', el adverbio va después del verbo."
@@ -55,7 +55,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Normalmente",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[We|Nosotros]] [[usually|normalmente]] [[have|tenemos]] [[lunch|almuerzo]] [[at|en]] [[home|casa]].",
+      "correctSentence": "[[We usually have lunch at home|Nosotros normalmente tenemos almuerzo en casa]].",
       "words": ["[[home|casa]].", "[[at|en]]", "[[lunch|almuerzo]]", "[[have|tenemos]]", "[[usually|normalmente]]", "[[We|Nosotros]]"],
       "explanation": "Usually indica una frecuencia alta, alrededor del 80%."
     },
@@ -74,7 +74,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "(_____) [[often|a menudo]] [[do|aux]] [[you|tú]] [[go|vas]] [[to|al]] [[the|el]] [[gym|gimnasio]]?",
+          "question": "(_____) [[often do you go to the gym|a menudo aux tú vas al el gimnasio]]?",
           "options": ["[[How|Cómo]]", "[[What|Qué]]", "[[When|Cuándo]]"],
           "correctAnswer": 0,
           "explanation": "'How often' es la expresión estándar para preguntar por frecuencia."
@@ -94,7 +94,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "A Veces",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[They|Ellos]] [[sometimes|a veces]] [[watch|ven]] [[horror|de terror]] [[movies|películas]].",
+      "correctSentence": "[[They sometimes watch horror movies|Ellos a veces ven de terror películas]].",
       "words": ["[[movies|películas]].", "[[horror|de terror]]", "[[watch|ven]]", "[[sometimes|a veces]]", "[[They|Ellos]]"],
       "explanation": "Sometimes indica que algo ocurre el 50% de las veces."
     },
@@ -113,7 +113,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta.",
       "questions": [
         {
-          "question": "[[Does|Aux]] [[he|él]] (_____) [[cook|cocina]]?",
+          "question": "[[Does he|Aux él]] (_____) [[cook|cocina]]?",
           "options": ["[[often|a menudo]]", "[[always|siempre]]", "[[never|nunca]]"],
           "correctAnswer": 0,
           "explanation": "Often es muy común en preguntas sobre hábitos."
@@ -133,7 +133,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Casi Nunca",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[hardly ever|casi nunca]] [[go|voy]] [[to|al]] [[the|el]] [[cinema|cine]].",
+      "correctSentence": "[[I hardly ever go to the cinema|Yo casi nunca voy al el cine]].",
       "words": ["[[cinema|cine]].", "[[the|el]]", "[[to|al]]", "[[go|voy]]", "[[hardly ever|casi nunca]]", "[[I|Yo]]"],
       "explanation": "Hardly ever significa casi nunca."
     },
@@ -152,7 +152,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el adverbio correcto.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[is|está]] (_____) [[happy|feliz]].",
+          "question": "[[She is|Ella está]] (_____) [[happy|feliz]].",
           "options": ["[[always|siempre]]", "[[never|nunca]]", "[[often|a menudo]]"],
           "correctAnswer": 0,
           "explanation": "Uso de adverbio después de 'is'."
@@ -172,7 +172,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Dos veces",
       "instructions": "Ordena la frase de frecuencia.",
-      "correctSentence": "[[I|Yo]] [[study|estudio]] [[English|inglés]] [[twice|dos veces]] [[a|a la]] [[week|semana]].",
+      "correctSentence": "[[I study English twice a week|Yo estudio inglés dos veces a la semana]].",
       "words": ["[[week|semana]].", "[[a|a la]]", "[[twice|dos veces]]", "[[English|inglés]]", "[[study|estudio]]", "[[I|Yo]]"],
       "explanation": "Twice a week significa dos veces por semana."
     },
@@ -191,7 +191,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Completa con el adverbio negativo.",
       "questions": [
         {
-          "question": "[[They|Ellos]] (_____) [[eat|comen]] [[meat|carne]].",
+          "question": "[[They meat|Ellos]] (_____) [[eat|comen carne]].",
           "options": ["[[never|nunca]]", "[[always|siempre]]", "[[sometimes|a veces]]"],
           "correctAnswer": 0,
           "explanation": "Never no necesita 'don't' para ser negativo."
@@ -211,7 +211,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Tenis a Menudo",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[father|padre]] [[often|a menudo]] [[plays|juega]] [[tennis|tenis]].",
+      "correctSentence": "[[My father often plays tennis|Mi padre a menudo juega tenis]].",
       "words": ["[[tennis|tenis]].", "[[plays|juega]]", "[[often|a menudo]]", "[[father|padre]]", "[[My|Mi]]"],
       "explanation": "El verbo lleva 's' (plays) y el adverbio va antes."
     },
@@ -230,7 +230,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Completa con el adverbio.",
       "questions": [
         {
-          "question": "[[It|Ello]] [[is|está]] (_____) [[cold|frío]] [[in|en]] [[January|enero]].",
+          "question": "[[It is January|Ello está]] (_____) [[cold in|frío en enero]].",
           "options": ["[[usually|normalmente]]", "[[hardly ever|casi nunca]]", "[[never|nunca]]"],
           "correctAnswer": 0,
           "explanation": "Uso de usually después de is."
@@ -250,7 +250,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Higiene",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[We|Nosotros]] [[always|siempre]] [[brush|lavamos]] [[our|nuestros]] [[teeth|dientes]].",
+      "correctSentence": "[[We always brush our teeth|Nosotros siempre lavamos nuestros dientes]].",
       "words": ["[[teeth|dientes]].", "[[our|nuestros]]", "[[brush|lavamos]]", "[[always|siempre]]", "[[We|Nosotros]]"],
       "explanation": "Un hábito de 100% de frecuencia."
     },
@@ -269,7 +269,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[visit|visito]] [[my|mis]] [[parents|padres]] (_____) [[a|al]] [[month|mes]].",
+          "question": "[[I visit my parents|Yo visito mis padres]] (_____) [[a month|al mes]].",
           "options": ["[[once|una vez]]", "[[one|uno]]", "[[one time|una vez]]"],
           "correctAnswer": 0,
           "explanation": "'Once' es más común que 'one time'."
@@ -289,7 +289,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Fútbol",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[How|Qué]] [[often|tan a menudo]] [[do|aux]] [[they|ellos]] [[play|juegan]] [[football|fútbol]]?",
+      "correctSentence": "[[How often do they play football|Qué tan a menudo aux ellos juegan fútbol]]?",
       "words": ["[[football|fútbol]]?", "[[play|juegan]]", "[[they|ellos]]", "[[do|aux]]", "[[often|tan a menudo]]", "[[How|Qué]]"],
       "explanation": "Estructura de pregunta de frecuencia."
     },
@@ -308,7 +308,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Posición del adverbio.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[get|levanto]] [[up|me]] [[at|a las]] [[seven|siete]].",
+          "question": "[[I up at seven|Yo]] (_____) [[get|levanto me a las siete]].",
           "options": ["[[usually|normalmente]]", "[[get usually|me levanto normalmente]]", "[[am usually|normalmente soy]]"],
           "correctAnswer": 0,
           "explanation": "El adverbio va antes del verbo principal 'get'."
@@ -328,7 +328,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Música Clásica",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[She|Ella]] [[sometimes|a veces]] [[listens|escucha]] [[to|a]] [[classical|clásica]] [[music|música]].",
+      "correctSentence": "[[She sometimes listens to classical music|Ella a veces escucha a clásica música]].",
       "words": ["[[music|música]].", "[[classical|clásica]]", "[[to|a]]", "[[listens|escucha]]", "[[sometimes|a veces]]", "[[She|Ella]]"],
       "explanation": "Recuerda la 's' en el verbo para 'she'."
     },
@@ -347,7 +347,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la oración correcta con 'to be'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[very|muy]] [[busy|ocupados]] [[on|los]] [[Mondays|lunes]].",
+          "question": "[[We busy on Mondays|Nosotros]] (_____) [[very|muy ocupados los lunes]].",
           "options": ["[[are often|estamos a menudo]]", "[[often are|a menudo estamos]]", "[[be often|ser a menudo]]"],
           "correctAnswer": 0,
           "explanation": "Después de 'are' va el adverbio."
@@ -369,7 +369,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "¿Qué adverbio corresponde al 0%?",
       "questions": [
         {
-          "question": "[[Zero|Cero]] [[percent|por ciento]] [[is|es]] (_____) .",
+          "question": "[[Zero percent is|Cero por ciento es]] (_____) .",
           "options": ["[[Never|Nunca]]", "[[Always|Siempre]]", "[[Often|A menudo]]"],
           "correctAnswer": 0,
           "explanation": "Never indica que algo no ocurre nunca."
@@ -391,7 +391,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "¿Qué adverbio corresponde al 100%?",
       "questions": [
         {
-          "question": "[[One hundred|Cien]] [[percent|por ciento]] [[is|es]] (_____) .",
+          "question": "[[One hundred percent is|Cien por ciento es]] (_____) .",
           "options": ["[[Always|Siempre]]", "[[Sometimes|A veces]]", "[[Usually|Normalmente]]"],
           "correctAnswer": 0,
           "explanation": "Always indica totalidad."
@@ -411,7 +411,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Beber Té",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[always|siempre]] [[drink|bebo]] [[tea|té]].",
+      "correctSentence": "[[I always drink tea|Yo siempre bebo té]].",
       "words": ["[[tea|té]].", "[[drink|bebo]]", "[[always|siempre]]", "[[I|Yo]]"],
       "explanation": "Estructura básica de adverbio de frecuencia."
     },
@@ -430,7 +430,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Completa con el adverbio.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[play|juego]] [[games|juegos]].",
+          "question": "[[I games|Yo]] (_____) [[play|juego juegos]].",
           "options": ["[[sometimes|a veces]]", "[[always|siempre]]", "[[never|nunca]]"],
           "correctAnswer": 0,
           "explanation": "Sometimes para frecuencia media."
@@ -450,7 +450,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mamá y la Tele",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[mother|madre]] [[never|nunca]] [[watches|ve]] [[TV|la tele]].",
+      "correctSentence": "[[My mother never watches TV|Mi madre nunca ve la tele]].",
       "words": ["[[TV|la tele]].", "[[watches|ve]]", "[[never|nunca]]", "[[mother|madre]]", "[[My|Mi]]"],
       "explanation": "Recuerda la 'es' en watches."
     },
@@ -469,7 +469,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Pregunta de frecuencia.",
       "questions": [
         {
-          "question": "[[Do|Aux]] [[you|tú]] (_____) [[go|vas]] [[out|fuera]]?",
+          "question": "[[Do you|Aux tú]] (_____) [[go out|vas fuera]]?",
           "options": ["[[often|a menudo]]", "[[always|siempre]]", "[[never|nunca]]"],
           "correctAnswer": 0,
           "explanation": "Often es común en preguntas."
@@ -489,7 +489,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Al Parque",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[We|Nosotros]] [[usually|normalmente]] [[go|vamos]] [[to|al]] [[the|el]] [[park|parque]].",
+      "correctSentence": "[[We usually go to the park|Nosotros normalmente vamos al el parque]].",
       "words": ["[[park|parque]].", "[[the|el]]", "[[to|al]]", "[[go|vamos]]", "[[usually|normalmente]]", "[[We|Nosotros]]"],
       "explanation": "Frecuencia alta con usually."
     },
@@ -508,7 +508,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Posición del adverbio con 'to be'.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|está]] (_____) [[late|tarde]].",
+          "question": "[[He is|Él está]] (_____) [[late|tarde]].",
           "options": ["[[always|siempre]]", "[[always is|siempre está]]", "[[never|nunca]]"],
           "correctAnswer": 0,
           "explanation": "El adverbio va después del verbo 'is'."
@@ -528,7 +528,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pizza",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[They|Ellos]] [[hardly ever|casi nunca]] [[eat|comen]] [[pizza|pizza]].",
+      "correctSentence": "[[They hardly ever eat pizza|Ellos casi nunca comen pizza]].",
       "words": ["[[pizza|pizza]].", "[[eat|comen]]", "[[hardly ever|casi nunca]]", "[[They|Ellos]]"],
       "explanation": "Hardly ever para frecuencia muy baja."
     },
@@ -547,7 +547,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Responde la pregunta.",
       "questions": [
         {
-          "question": "[[How|Qué]] [[often|tan a menudo]] [[do|aux]] [[you|tú]] [[brush|lavas]] [[your|tus]] [[teeth|dientes]]?",
+          "question": "[[How often do you brush your teeth|Qué tan a menudo aux tú lavas tus dientes]]?",
           "options": ["[[Three times a day|Tres veces al día]]", "[[Always|Siempre]]", "[[In the morning|Por la mañana]]"],
           "correctAnswer": 0,
           "explanation": "Respuesta específica de frecuencia."
@@ -567,7 +567,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cocinar",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[I|Yo]] [[sometimes|a veces]] [[cook|cocino]] [[dinner|la cena]].",
+      "correctSentence": "[[I sometimes cook dinner|Yo a veces cocino la cena]].",
       "words": ["[[dinner|la cena]].", "[[cook|cocino]]", "[[sometimes|a veces]]", "[[I|Yo]]"],
       "explanation": "Sometimes en medio de la oración."
     },
@@ -586,7 +586,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el adverbio.",
       "questions": [
         {
-          "question": "[[She|Ella]] (_____) [[listens|escucha]] [[to|a]] [[me|mí]].",
+          "question": "[[She to me|Ella]] (_____) [[listens|escucha a mí]].",
           "options": ["[[always|siempre]]", "[[is always|siempre es]]", "[[listens always|siempre escucha]]"],
           "correctAnswer": 0,
           "explanation": "Adverbio antes del verbo listens."
@@ -606,7 +606,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Domingos",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[We|Nosotros]] [[never|nunca]] [[go|vamos]] [[out|fuera]] [[on|los]] [[Sundays|domingos]].",
+      "correctSentence": "[[We never go out on Sundays|Nosotros nunca vamos fuera los domingos]].",
       "words": ["[[Sundays|domingos]].", "[[on|los]]", "[[out|fuera]]", "[[go|vamos]]", "[[never|nunca]]", "[[We|Nosotros]]"],
       "explanation": "Never para hábito inexistente."
     },
@@ -625,7 +625,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[Do|Aux]] [[they|ellos]] (_____) [[study|estudian]] [[together|juntos]]?",
+          "question": "[[Do they|Aux ellos]] (_____) [[study together|estudian juntos]]?",
           "options": ["[[usually|normalmente]]", "[[always|siempre]]", "[[often|a menudo]]"],
           "correctAnswer": 0,
           "explanation": "Usually es muy común en preguntas de hábito."
@@ -645,7 +645,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Café",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[drink|bebo]] [[coffee|café]] [[three|tres]] [[times|veces]] [[a|al]] [[day|día]].",
+      "correctSentence": "[[I drink coffee three times a day|Yo bebo café tres veces al día]].",
       "words": ["[[day|día]].", "[[a|al]]", "[[times|veces]]", "[[three|tres]]", "[[coffee|café]]", "[[drink|bebo]]", "[[I|Yo]]"],
       "explanation": "Tres veces al día."
     },
@@ -664,7 +664,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|soy/estoy]] (_____) [[happy|feliz]].",
+          "question": "[[I am|Yo soy/estoy]] (_____) [[happy|feliz]].",
           "options": ["[[often|a menudo]]", "[[never|nunca]]", "[[sometimes|a veces]]"],
           "correctAnswer": 0,
           "explanation": "Adverbio después de am."
@@ -684,7 +684,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Lectura",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[He|Él]] [[always|siempre]] [[reads|lee]] [[a|un]] [[book|libro]] [[before|antes de]] [[bed|dormir]].",
+      "correctSentence": "[[He always reads a book before bed|Él siempre lee un libro antes de dormir]].",
       "words": ["[[bed|dormir]].", "[[before|antes de]]", "[[book|libro]]", "[[a|un]]", "[[reads|lee]]", "[[always|siempre]]", "[[He|Él]]"],
       "explanation": "Reads con 's' y adverbio antes."
     },
@@ -703,7 +703,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión.",
       "questions": [
         {
-          "question": "(_____) [[morning|mañana]] [[I|yo]] [[run|corro]].",
+          "question": "(_____) [[morning I run|mañana yo corro]].",
           "options": ["[[Every|Cada]]", "[[All|Todo]]", "[[Always|Siempre]]"],
           "correctAnswer": 0,
           "explanation": "Every morning significa todas las mañanas."
@@ -723,7 +723,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Visitas",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[How|Qué]] [[often|tan a menudo]] [[does|aux]] [[she|ella]] [[visit|visita]] [[you|te]]?",
+      "correctSentence": "[[How often does she visit you|Qué tan a menudo aux ella visita te]]?",
       "words": ["[[you|te]]?", "[[visit|visita]]", "[[she|ella]]", "[[does|aux]]", "[[often|tan a menudo]]", "[[How|Qué]]"],
       "explanation": "Pregunta de frecuencia con tercera persona."
     },
@@ -742,7 +742,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Responde la pregunta.",
       "questions": [
         {
-          "question": "[[Are|Estás]] [[you|tú]] (_____) [[tired|cansado]] [[in|en]] [[the|la]] [[evening|tarde]]?",
+          "question": "[[Are you the evening|Estás tú]] (_____) [[tired in|cansado en la tarde]]?",
           "options": ["[[usually|normalmente]]", "[[always|siempre]]", "[[often|a menudo]]"],
           "correctAnswer": 0,
           "explanation": "Adverbio después de are you."
@@ -784,7 +784,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Comer Juntos",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mis]] [[parents|padres]] [[always|siempre]] [[eat|comen]] [[together|juntos]].",
+      "correctSentence": "[[My parents always eat together|Mis padres siempre comen juntos]].",
       "words": ["[[together|juntos]].", "[[eat|comen]]", "[[always|siempre]]", "[[parents|padres]]", "[[My|Mis]]"],
       "explanation": "Sujeto plural, verbo sin 's'."
     },
@@ -803,7 +803,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[Is|Está]] [[she|ella]] (_____) [[at|en]] [[home|casa]]?",
+          "question": "[[Is she|Está ella]] (_____) [[at home|en casa]]?",
           "options": ["[[often|a menudo]]", "[[always|siempre]]", "[[never|nunca]]"],
           "correctAnswer": 0,
           "explanation": "Adverbio después del sujeto en preguntas con 'is'."
@@ -823,7 +823,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Bebidas",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[We|Nosotros]] [[hardly ever|casi nunca]] [[drink|bebemos]] [[alcohol|alcohol]].",
+      "correctSentence": "[[We hardly ever drink alcohol|Nosotros casi nunca bebemos alcohol]].",
       "words": ["[[alcohol|alcohol]].", "[[drink|bebemos]]", "[[hardly ever|casi nunca]]", "[[We|Nosotros]]"],
       "explanation": "Hardly ever para frecuencia muy baja."
     },
@@ -842,7 +842,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Responde la pregunta.",
       "questions": [
         {
-          "question": "[[Do|Aux]] [[you|tú]] [[study|estudias]] (_____) [[day|día]]?",
+          "question": "[[Do you study|Aux tú estudias]] (_____) [[day|día]]?",
           "options": ["[[every|cada]]", "[[all|todo]]", "[[each|cada]]"],
           "correctAnswer": 0,
           "explanation": "'Every day' es la forma más natural."
@@ -862,7 +862,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Podcasts",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[sometimes|a veces]] [[listen|escucho]] [[to|a]] [[podcasts|podcasts]] [[in|en]] [[English|inglés]].",
+      "correctSentence": "[[I sometimes listen to podcasts in English|Yo a veces escucho a podcasts en inglés]].",
       "words": ["[[English|inglés]].", "[[in|en]]", "[[podcasts|podcasts]]", "[[to|a]]", "[[listen|escucho]]", "[[sometimes|a veces]]", "[[I|Yo]]"],
       "explanation": "Un hábito de aprendizaje."
     },
@@ -881,7 +881,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Elige el adverbio.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es]] (_____) [[quiet|tranquilo]].",
+          "question": "[[He is|Él es]] (_____) [[quiet|tranquilo]].",
           "options": ["[[usually|normalmente]]", "[[usually is|normalmente es]]", "[[never|nunca]]"],
           "correctAnswer": 0,
           "explanation": "Adverbio después de is."
@@ -901,7 +901,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "La Playa",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[They|Ellos]] [[go|van]] [[to|a]] [[the|la]] [[beach|playa]] [[three|tres]] [[times|veces]] [[a|al]] [[year|año]].",
+      "correctSentence": "[[They go to the beach three times a year|Ellos van a la playa tres veces al año]].",
       "words": ["[[year|año]].", "[[a|al]]", "[[times|veces]]", "[[three|tres]]", "[[beach|playa]]", "[[the|la]]", "[[to|a]]", "[[go|van]]", "[[They|Ellos]]"],
       "explanation": "Frecuencia anual."
     },
@@ -920,7 +920,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[How|Qué]] (_____) [[do|aux]] [[you|tú]] [[travel|viajas]]?",
+          "question": "[[How you travel|Qué]] (_____) [[do|aux tú viajas]]?",
           "options": ["[[often|tan a menudo]]", "[[always|siempre]]", "[[usually|normalmente]]"],
           "correctAnswer": 0,
           "explanation": "Pregunta estándar de frecuencia."
@@ -940,7 +940,7 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "content": {
       "title": "Museo",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[The|El]] [[museum|museo]] [[is|está]] [[always|siempre]] [[closed|cerrado]] [[on|los]] [[Mondays|lunes]].",
+      "correctSentence": "[[The museum is always closed on Mondays|El museo está siempre cerrado los lunes]].",
       "words": ["[[Mondays|lunes]].", "[[on|los]]", "[[closed|cerrado]]", "[[always|siempre]]", "[[is|está]]", "[[museum|museo]]", "[[The|El]]"],
       "explanation": "Adverbio después de 'is'."
     },
@@ -959,13 +959,13 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre los hábitos y responde.",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[does|hace]] [[the|la]] [[person|persona]] [[drink|beber]] [[water|agua]]?",
+          "question": "[[When does the person drink water|Cuándo hace la persona beber agua]]?",
           "options": ["[[Always in the morning|Siempre por la mañana]]", "[[Never|Nunca]]", "[[Sometimes in the evening|A veces por la tarde]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'I always drink water in the morning'."
         },
         {
-          "question": "[[How|Qué]] [[often|tan a menudo]] [[does|hace]] [[he|él]] [[smoke|fumar]]?",
+          "question": "[[How often does he smoke|Qué tan a menudo hace él fumar]]?",
           "options": ["[[Never|Nunca]]", "[[Always|Siempre]]", "[[Hardly ever|Casi nunca]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'I never smoke'."
@@ -987,13 +987,13 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre Mr. Brown.",
       "questions": [
         {
-          "question": "[[What|A qué]] [[time|hora]] [[does|hace]] [[he|él]] [[usually|normalmente]] [[arrive|llegar]] [[at|a la]] [[school|escuela]]?",
+          "question": "[[What time does he usually arrive at school|A qué hora hace él normalmente llegar a la escuela]]?",
           "options": ["[[At seven-thirty|A las 7:30]]", "[[At seven|A las 7:00]]", "[[At eight|A las 8:00]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'He usually arrives at school at seven-thirty'."
         },
         {
-          "question": "[[When|Cuándo]] [[does|hace]] [[he|él]] [[correct|corregir]] [[homework|deberes]]?",
+          "question": "[[When does he correct homework|Cuándo hace él corregir deberes]]?",
           "options": ["[[Sometimes at night|A veces por la noche]]", "[[Always in the morning|Siempre por la mañana]]", "[[Never|Nunca]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'He sometimes corrects homework at night'."
@@ -1015,13 +1015,13 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre el restaurante.",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[is|está]] [[the|el]] [[restaurant|restaurante]] [[open|abierto]]?",
+          "question": "[[When is the restaurant open|Cuándo está el restaurante abierto]]?",
           "options": ["[[Tuesday to Sunday|De martes a domingo]]", "[[Every day|Todos los días]]", "[[Only on Monday|Solo el lunes]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'We are always open from Tuesday to Sunday'."
         },
         {
-          "question": "[[Is|Está]] [[the|el]] [[restaurant|restaurante]] [[open|abierto]] [[on|el]] [[Monday|lunes]]?",
+          "question": "[[Is the restaurant open on Monday|Está el restaurante abierto el lunes]]?",
           "options": ["[[No, never|No, nunca]]", "[[Yes, always|Sí, siempre]]", "[[Sometimes|A veces]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'We are never open on Monday'."
@@ -1043,13 +1043,13 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre la hermana.",
       "questions": [
         {
-          "question": "[[How|Qué]] [[often|tan a menudo]] [[does|hace]] [[she|ella]] [[go|ir]] [[to|al]] [[the|el]] [[gym|gimnasio]]?",
+          "question": "[[How often does she go to the gym|Qué tan a menudo hace ella ir al el gimnasio]]?",
           "options": ["[[Always in the morning|Siempre por la mañana]]", "[[Sometimes|A veces]]", "[[Never|Nunca]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'She always goes to the gym in the morning'."
         },
         {
-          "question": "[[When|Cuándo]] [[does|hace]] [[she|ella]] [[play|jugar]] [[tennis|tenis]]?",
+          "question": "[[When does she play tennis|Cuándo hace ella jugar tenis]]?",
           "options": ["[[On Wednesday|El miércoles]]", "[[Every day|Cada día]]", "[[On Monday|El lunes]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'She often plays tennis with her friends on Wednesday'."
@@ -1071,13 +1071,13 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre la limpieza.",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[do|aux]] [[they|ellos]] [[clean|limpiar]] [[the|la]] [[house|casa]]?",
+          "question": "[[When do they clean the house|Cuándo aux ellos limpiar la casa]]?",
           "options": ["[[Always on Saturday|Siempre los sábados]]", "[[On Sunday|Los domingos]]", "[[Never|Nunca]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'We always clean our house on Saturday'."
         },
         {
-          "question": "[[Who|Quién]] [[cleans|limpia]] [[the|el]] [[garden|jardín]]?",
+          "question": "[[Who cleans the garden|Quién limpia el jardín]]?",
           "options": ["[[The husband|El esposo]]", "[[The wife|La esposa]]", "[[The children|Los niños]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'My husband often cleans the garden'."
@@ -1099,13 +1099,13 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre el abuelo.",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[does|hace]] [[he|él]] [[have|tener]] [[his|su]] [[first|primer]] [[coffee|café]]?",
+          "question": "[[When does he have his first coffee|Cuándo hace él tener su primer café]]?",
           "options": ["[[At seven AM|A las 7 AM]]", "[[At eleven AM|A las 11 AM]]", "[[At night|Por la noche]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'He always has a cup of coffee at seven AM'."
         },
         {
-          "question": "[[Does|Hace]] [[he|él]] [[drink|beber]] [[coffee|café]] [[at|por la]] [[night|noche]]?",
+          "question": "[[Does he drink coffee at night|Hace él beber café por la noche]]?",
           "options": ["[[No, never|No, nunca]]", "[[Yes, always|Sí, siempre]]", "[[Usually|Normalmente]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'He never drinks coffee at night'."
@@ -1127,13 +1127,13 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre el estudio.",
       "questions": [
         {
-          "question": "[[How|Qué]] [[often|tan a menudo]] [[does|hace]] [[the|la]] [[person|persona]] [[study|estudiar]]?",
+          "question": "[[How often does the person study|Qué tan a menudo hace la persona estudiar]]?",
           "options": ["[[Every day|Cada día]]", "[[Once a week|Una vez a la semana]]", "[[Never|Nunca]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'I study every day'."
         },
         {
-          "question": "[[Where|Dónde]] [[does|hace]] [[he|él]] [[listen|escuchar]] [[to|a]] [[English|inglés]] [[songs|canciones]]?",
+          "question": "[[Where does he listen to English songs|Dónde hace él escuchar a inglés canciones]]?",
           "options": ["[[In his car|En su coche]]", "[[At home|En casa]]", "[[At school|En la escuela]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'I often listen to English songs in my car'."
@@ -1155,13 +1155,13 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre Max.",
       "questions": [
         {
-          "question": "[[What|A qué]] [[time|hora]] [[do|aux]] [[they|ellos]] [[usually|normalmente]] [[go|van]] [[for|a]] [[a|un]] [[walk|paseo]]?",
+          "question": "[[What time do they usually go for a walk|A qué hora aux ellos normalmente van a un paseo]]?",
           "options": ["[[At six AM|A las 6 AM]]", "[[At seven AM|A las 7 AM]]", "[[At night|Por la noche]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'We usually go for a walk at six AM'."
         },
         {
-          "question": "[[Does|Hace]] [[Max|Max]] [[eat|comer]] [[chocolate|chocolate]]?",
+          "question": "[[Does Max eat chocolate|Hace Max comer chocolate]]?",
           "options": ["[[No, never|No, nunca]]", "[[Yes, always|Sí, siempre]]", "[[Sometimes|A veces]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'He never eats chocolate'."
@@ -1183,13 +1183,13 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre el clima.",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[does|hace]] [[it|ello]] [[often|a menudo]] [[rain|llover]]?",
+          "question": "[[When does it often rain|Cuándo hace ello a menudo llover]]?",
           "options": ["[[In October|En octubre]]", "[[In July|En julio]]", "[[In summer|En verano]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'It often rains in October'."
         },
         {
-          "question": "[[How|Qué]] [[often|tan a menudo]] [[does|hace]] [[it|ello]] [[snow|nevar]] [[in|en]] [[winter|invierno]]?",
+          "question": "[[How often does it snow in winter|Qué tan a menudo hace ello nevar en invierno]]?",
           "options": ["[[Hardly ever|Casi nunca]]", "[[Always|Siempre]]", "[[Usually|Normalmente]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'It hardly ever snows in winter'."
@@ -1211,13 +1211,13 @@ export const UNIT_14_EXERCISES: Exercise[] = [
       "instructions": "Lee sobre la oficina.",
       "questions": [
         {
-          "question": "[[Is|Está]] [[the|el]] [[boss|jefe]] [[on|a]] [[time|tiempo]]?",
+          "question": "[[Is the boss on time|Está el jefe a tiempo]]?",
           "options": ["[[Yes, always|Sí, siempre]]", "[[No, never|No, nunca]]", "[[Sometimes|A veces]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'My boss is always on time'."
         },
         {
-          "question": "[[When|Cuándo]] [[do|aux]] [[they|ellos]] [[finish|terminan]] [[work|trabajo]] [[on|el]] [[Friday|viernes]]?",
+          "question": "[[When do they finish work on Friday|Cuándo aux ellos terminan trabajo el viernes]]?",
           "options": ["[[At four PM|A las 4 PM]]", "[[At five PM|A las 5 PM]]", "[[At nine AM|A las 9 AM]]"],
           "correctAnswer": 0,
           "explanation": "Dice: 'We always leave at four PM'."

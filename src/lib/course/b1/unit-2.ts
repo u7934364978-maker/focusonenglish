@@ -14,7 +14,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[While|Mientras]] [[she|ella]] [[was|estaba]] _______ [[her|sus]] [[memoirs|memorias]], [[a|un]] [[loud|ruido]] [[noise|fuerte]] [[interrupted|interrumpió]] [[her|a ella]].",
+          "question": "[[While she, a loud was memoirs her|Mientras ella estaba]] _______ [[her noise interrupted|sus memorias, un ruido fuerte interrumpió a ella]].",
           "options": [
             "[[wrote|escribió]]",
             "[[writing|escribiendo]]"
@@ -40,10 +40,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la forma correcta del verbo para completar la oración.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[a|un]] [[book|libro]] [[about|sobre]] [[history|historia]] [[when|cuando]] [[the|el]] [[phone|teléfono]] [[rang|sonó]].",
+          "question": "[[He book about history when the phone rang|Él]] _______ [[a|un libro sobre historia cuando el teléfono sonó]].",
           "options": [
             "[[read|leía]]",
-            "[[was|estaba]] [[reading|leyendo]]"
+            "[[was reading|estaba leyendo]]"
           ],
           "correctAnswer": 1,
           "explanation": "El pasado continuo describe una acción en curso interrumpida por un evento puntual en pasado simple.",
@@ -66,10 +66,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[they|ellos]] _______ [[nobody|nadie]] [[noticed|notó]] [[the|la]] [[time|hora]].",
+          "question": "[[Although they the time|Aunque ellos]] _______ [[nobody noticed|nadie notó la hora]].",
           "options": [
             "[[talked|hablaron]]",
-            "[[were|estaban]] [[talking|hablando]]"
+            "[[were talking|estaban hablando]]"
           ],
           "correctAnswer": 1,
           "explanation": "Se usa el pasado continuo para describir una situación en desarrollo mientras otra acción ocurrió.",
@@ -92,10 +92,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Escoge la opción que mejor complete la frase.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[she|ella]] _______ [[for|a]] [[a|una]] [[run|carrera]] [[when|cuando]] [[I|yo]] [[called|llamé]].",
+          "question": "[[Despite the, she rain a I called|A pesar de la lluvia, ella]] _______ [[for run when|a una carrera cuando yo llamé]].",
           "options": [
             "[[went|fue]]",
-            "[[was|estaba]] [[going|yendo]]"
+            "[[was going|estaba yendo]]"
           ],
           "correctAnswer": 0,
           "explanation": "El pasado simple describe una acción completa, mientras que otra ocurría.",
@@ -118,9 +118,9 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[The|El]] [[professor|profesor]] _______ [[the|la]] [[theory|teoría]] [[when|cuando]] [[the|el]] [[projector|proyector]] [[stopped|dejó]] [[working|de funcionar]].",
+          "question": "[[The professor when the projector stopped working|El profesor]] _______ [[the theory|la teoría cuando el proyector dejó de funcionar]].",
           "options": [
-            "[[was|estaba]] [[explaining|explicando]]",
+            "[[was explaining|estaba explicando]]",
             "[[explained|explicó]]"
           ],
           "correctAnswer": 0,
@@ -144,7 +144,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar las oraciones con el tiempo adecuado.",
       "questions": [
         {
-          "question": "[[While|Mientras]] [[I|yo]] [[_______|_______]] [[reading|leía]] [[the|la]] [[letter|carta]], [[the|el]] [[phone|teléfono]] [[rang|sonó]].",
+          "question": "[[While I, the phone _______ reading the letter rang|Mientras yo _______ leía la carta, el teléfono sonó]].",
           "options": [
             "[[was|estaba]]",
             "[[read|leí]]"
@@ -170,7 +170,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar las oraciones con el tiempo adecuado.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[she|ella]] [[_______|_______]] [[walking|caminaba]] [[in|en]] [[the|el]] [[park|parque]].",
+          "question": "[[Despite the, she rain _______ walking in the park|A pesar de la lluvia, ella _______ caminaba en el parque]].",
           "options": [
             "[[was|estaba]]",
             "[[walked|caminó]]"
@@ -196,7 +196,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar las oraciones con el tiempo adecuado.",
       "questions": [
         {
-          "question": "[[I|yo]] [[met|conocí]] [[her|a ella]] [[when|cuando]] [[I|yo]] [[_______|_______]] [[working|trabajaba]] [[at|en]] [[the|la]] [[university|universidad]].",
+          "question": "[[I met her when I _______ working at the university|yo conocí a ella cuando yo _______ trabajaba en la universidad]].",
           "options": [
             "[[was|estaba]]",
             "[[work|trabajé]]"
@@ -222,7 +222,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar las oraciones con el tiempo adecuado.",
       "questions": [
         {
-          "question": "[[He|Él]] [[wrote|escribió]] [[several|varios]] [[books|libros]] [[while|mientras]] [[he|él]] [[_______|_______]] [[living|vivía]] [[abroad|en el extranjero]].",
+          "question": "[[He wrote several books while he _______ living abroad|Él escribió varios libros mientras él _______ vivía en el extranjero]].",
           "options": [
             "[[was|estaba]]",
             "[[lived|vivió]]"
@@ -248,7 +248,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar las oraciones con el tiempo adecuado.",
       "questions": [
         {
-          "question": "[[When|Cuando]] [[I|yo]] [[arrived|llegué]], [[she|ella]] [[_______|_______]] [[already|ya]] [[preparing|preparaba]] [[dinner|la cena]].",
+          "question": "[[When I, she arrived _______ already preparing dinner|Cuando yo llegué, ella _______ ya preparaba la cena]].",
           "options": [
             "[[was|estaba]]",
             "[[prepared|preparó]]"
@@ -272,7 +272,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[While|Mientras]] [[David|David]] [[was|estaba]] [[reading|leyendo]] [[a|un]] [[book|libro]], [[his|su]] [[brother|hermano]] [[was|estaba]] [[playing|jugando]] [[chess|ajedrez]].",
+      "correctSentence": "[[While David, his brother was reading a book was playing chess|Mientras David estaba leyendo un libro, su hermano estaba jugando ajedrez]].",
       "words": [
         "[[brother|hermano]]",
         "[[a|un]]",
@@ -302,7 +302,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Reordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[it|estaba]] [[was|lloviendo]], [[we|nosotros]] [[continued|continuamos]] [[our|nuestro]] [[walk|paseo]] [[through|a través de]] [[the|el]] [[park|parque]].",
+      "correctSentence": "[[Although it, we was continued our walk through the park|Aunque estaba lloviendo, nosotros continuamos nuestro paseo a través de el parque]].",
       "words": [
         "[[through|a través de]]",
         "[[Although|Aunque]]",
@@ -331,7 +331,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Arregla las palabras para formar una oración correcta.",
-      "correctSentence": "[[When|Cuando]] [[I|yo]] [[met|conocí]] [[Sarah|a Sarah]], [[she|ella]] [[was|estaba]] [[living|viviendo]] [[in|en]] [[New|Nueva]] [[York|York]] [[and|y]] [[studying|estudiando]] [[arts|arte]].",
+      "correctSentence": "[[When I, she was met Sarah living in New York and studying arts|Cuando yo conocí a Sarah, ella estaba viviendo en Nueva York y estudiando arte]].",
       "words": [
         "[[I|yo]]",
         "[[she|ella]]",
@@ -363,7 +363,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Coloca las palabras en el orden correcto para formar una oración.",
-      "correctSentence": "[[Despite|A pesar de]] [[the|las]] [[difficulties|dificultades]], [[Marie|Marie]] [[achieved|logró]] [[her|su]] [[dream|sueño]] [[of|de]] [[becoming|convertirse]] [[a|en]] [[doctor|doctora]].",
+      "correctSentence": "[[Despite the, Marie difficulties achieved her dream of becoming a doctor|A pesar de las dificultades, Marie logró su sueño de convertirse en doctora]].",
       "words": [
         "[[achieved|logró]]",
         "[[Despite|A pesar de]]",
@@ -393,7 +393,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correctamente estructurada.",
-      "correctSentence": "[[While|Mientras]] [[I|yo]] [[was|estaba]] [[traveling|viajando]] [[in|en]] [[Spain|España]], [[I|yo]] [[learned|aprendí]] [[about|sobre]] [[its|su]] [[culture|cultura]].",
+      "correctSentence": "[[While I, I learned was traveling in Spain about its culture|Mientras yo estaba viajando en España, yo aprendí sobre su cultura]].",
       "words": [
         "[[While|Mientras]]",
         "[[in|en]]",
@@ -424,7 +424,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración sobre un evento pasado.",
       "questions": [
         {
-          "question": "[[While|Mientras]] [[I|yo]] _______ [[reading|leía]], [[the|el]] [[phone|teléfono]] [[rang|sonó]].",
+          "question": "[[While I, the rang|Mientras yo]] _______ [[reading phone|leía, el teléfono sonó]].",
           "options": [
             "[[was|estaba]]",
             "[[read|leí]]"
@@ -450,7 +450,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración sobre logros pasados.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[his|su]] [[degree|título]] [[although|aunque]] [[he|él]] [[was|estaba]] [[working|trabajando]] [[full|tiempo]] [[time|completo]].",
+          "question": "[[He degree although he was working full time|Él]] _______ [[his|su título aunque él estaba trabajando tiempo completo]].",
           "options": [
             "[[finished|terminó]]",
             "[[was|estaba]]"
@@ -476,7 +476,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la declaración sobre eventos pasados utilizando la opción correcta.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[they|ellos]] _______ [[having|teniendo]] [[a|un]] [[great|gran]] [[time|momento]] [[at|en]] [[the|el]] [[picnic|picnic]].",
+          "question": "[[Despite the, they rain a at the picnic|A pesar de la lluvia, ellos]] _______ [[having great time|teniendo un gran momento en el picnic]].",
           "options": [
             "[[were|estaban]]",
             "[[had|tuvieron]]"
@@ -502,7 +502,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Escoge la opción adecuada para completar la oración acerca de una decisión pasada.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[writing|escribía]] [[a|una]] [[novel|novela]] [[when|cuando]] [[she|ella]] [[decided|decidió]] [[to|viajar]] [[travel|a]] [[to|Europa]].",
+          "question": "[[She a novel when she decided to travel to|Ella]] _______ [[writing|escribía una novela cuando ella decidió viajar a Europa]].",
           "options": [
             "[[was|estaba]]",
             "[[wrote|escribió]]"
@@ -528,7 +528,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra correcta para completar la frase sobre eventos en curso en el pasado.",
       "questions": [
         {
-          "question": "[[When|Cuando]] [[they|ellos]] _______ [[arrived|llegaron]], [[Maria|Maria]] [[was|estaba]] [[preparing|preparando]] [[dinner|la cena]].",
+          "question": "[[When they, Maria preparing dinner|Cuando ellos]] _______ [[arrived was|llegaron, Maria estaba preparando la cena]].",
           "options": [
             "[[arrived|llegaron]]",
             "[[were|estaban]]"
@@ -554,9 +554,9 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Llena los espacios con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[While|Mientras]] [[she|ella]] _______ [[a|un]] [[book|libro]], [[the|el]] [[phone|teléfono]] [[rang|sonó]].",
+          "question": "[[While she, the phone rang|Mientras ella]] _______ [[a book|un libro, el teléfono sonó]].",
           "options": [
-            "[[was|estaba]] [[reading|leyendo]]",
+            "[[was reading|estaba leyendo]]",
             "[[read|leyó]]"
           ],
           "correctAnswer": 0,
@@ -580,9 +580,9 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[he|él]] _______ [[studying|estudiando]], [[he|él]] [[did|no]] [[not|oyó]] [[hear|la]] [[the|alarma]].",
+          "question": "[[Although he, he not hear the|Aunque él]] _______ [[studying did|estudiando, él no oyó la alarma]].",
           "options": [
-            "[[was|estaba]] [[studying|estudiando]]",
+            "[[was studying|estaba estudiando]]",
             "[[studied|estudió]]"
           ],
           "correctAnswer": 0,
@@ -606,9 +606,9 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Usa la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[walking|caminando]] [[in|en]] [[the|el]] [[park|parque]] [[when|cuando]] [[it|empezó]] [[started|a]] [[to|llover]].",
+          "question": "[[They in the park when it started to|Ellos]] _______ [[walking|caminando en el parque cuando empezó a llover]].",
           "options": [
-            "[[were|estaban]] [[walking|caminando]]",
+            "[[were walking|estaban caminando]]",
             "[[walked|caminaron]]"
           ],
           "correctAnswer": 0,
@@ -632,7 +632,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción adecuada.",
       "questions": [
         {
-          "question": "[[Despite|A pesar]] [[of|de]] _______ [[being|estar]] [[tired|cansada]], [[she|ella]] [[finished|terminó]] [[her|su]] [[work|trabajo]] [[on|a]] [[time|tiempo]].",
+          "question": "[[Despite of, she finished her work on time|A pesar de]] _______ [[being tired|estar cansada, ella terminó su trabajo a tiempo]].",
           "options": [
             "[[being|estar]]",
             "[[was|estaba]]"
@@ -658,9 +658,9 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma adecuada del verbo para llenar el espacio.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[cooking|cocinando]] [[dinner|la]] [[when|cena]] [[the|cuando]] [[lights|las]] _______ [[went|luces]] [[out|se apagaron]].",
+          "question": "[[He dinner when the lights out|Él]] _______ [[cooking|cocinando la cena cuando las]] _______ [[went|luces se apagaron]].",
           "options": [
-            "[[was|estaba]] [[cooking|cocinando]]",
+            "[[was cooking|estaba cocinando]]",
             "[[cooked|cocinó]]"
           ],
           "correctAnswer": 0,
@@ -682,7 +682,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[she|ella]] [[was|estaba]] [[feeling|sintiendo]] [[tired|cansada]], [[she|ella]] [[continued|continuó]] [[working|trabajando]] [[on|en]] [[her|su]] [[project|proyecto]].",
+      "correctSentence": "[[Although she, she was feeling tired continued working on her project|Aunque ella estaba sintiendo cansada, ella continuó trabajando en su proyecto]].",
       "words": [
         "[[although|aunque]]",
         "[[continued|continuó]]",
@@ -711,7 +711,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[While|Mientras]] [[he|él]] [[was|estaba]] [[studying|estudiando]], [[his|sus]] [[friends|amigos]] [[were|estaban]] [[playing|jugando]] [[outside|fuera]].",
+      "correctSentence": "[[While he, his friends was studying were playing outside|Mientras él estaba estudiando, sus amigos estaban jugando fuera]].",
       "words": [
         "[[friends|amigos]]",
         "[[were|estaban]]",
@@ -739,7 +739,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[the|la]] [[rain|lluvia]], [[they|ellos]] [[enjoyed|disfrutaron]] [[the|el]] [[picnic|picnic]] [[in|en]] [[the|el]] [[park|parque]].",
+      "correctSentence": "[[Despite the, they rain enjoyed the picnic in the park|A pesar de la lluvia, ellos disfrutaron el picnic en el parque]].",
       "words": [
         "[[picnic|picnic]]",
         "[[they|ellos]]",
@@ -766,7 +766,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[By|Para]] [[the|el]] [[time|momento]] [[we|nosotros]] [[arrived|llegamos]], [[he|él]] [[had|había]] [[already|ya]] [[left|ido]].",
+      "correctSentence": "[[By the, he time we arrived had already left|Para el momento nosotros llegamos, él había ya ido]].",
       "words": [
         "[[he|él]]",
         "[[arrived|llegamos]]",
@@ -794,7 +794,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[When|Cuando]] [[he|él]] [[called|llamó]], [[I|yo]] [[was|estaba]] [[driving|conduciendo]] [[and|y]] [[couldn't|no podía]] [[answer|responder]].",
+      "correctSentence": "[[When he, I called was driving and couldn't answer|Cuando él llamó, yo estaba conduciendo y no podía responder]].",
       "words": [
         "[[when|cuando]]",
         "[[called|llamó]]",
@@ -824,7 +824,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[While|Mientras]] [[I|yo]] _______ [[studying|estudiaba]], [[the|el]] [[phone|teléfono]] [[rang|sonó]].",
+          "question": "[[While I, the rang|Mientras yo]] _______ [[studying phone|estudiaba, el teléfono sonó]].",
           "options": [
             "[[was|estaba]]",
             "[[studied|estudié]]"
@@ -850,7 +850,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la mejor opción para completar la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[reading|leía]] [[a|un]] [[book|libro]] [[when|cuando]] [[I|yo]] [[arrived|llegué]].",
+          "question": "[[She a book when I arrived|Ella]] _______ [[reading|leía un libro cuando yo llegué]].",
           "options": [
             "[[was|estaba]]",
             "[[read|leyó]]"
@@ -876,7 +876,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta del verbo para completar la oración.",
       "questions": [
         {
-          "question": "[[It|Llovía]] _______ [[when|cuando]] [[they|ellos]] [[left|salieron]] [[the|la]] [[office|oficina]].",
+          "question": "[[It they left the office|Llovía]] _______ [[when|cuando ellos salieron la oficina]].",
           "options": [
             "[[was|estaba]]",
             "[[rained|llovió]]"
@@ -902,7 +902,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración seleccionando la opción correcta.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[he|él]] _______ [[nervous|nervioso]], [[he|él]] [[talked|habló]] [[confidently|con confianza]].",
+          "question": "[[Although he, he confidently|Aunque él]] _______ [[nervous talked|nervioso, él habló con confianza]].",
           "options": [
             "[[was|estaba]]",
             "[[is|es]]"
@@ -928,7 +928,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|la]] [[heavy|fuerte]] [[rain|lluvia]], [[they|ellos]] _______ [[walking|caminaban]].",
+          "question": "[[Despite the, they heavy rain|A pesar de la fuerte lluvia, ellos]] _______ [[walking|caminaban]].",
           "options": [
             "[[continued|continuaron]]",
             "[[were|estaban]]"
@@ -954,7 +954,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta en el contexto del pasado simple y continuo.",
       "questions": [
         {
-          "question": "[[While|Mientras]] [[I|yo]] _______ [[studying|estudiaba]], [[my|mi]] [[brother|hermano]] [[called|llamó]].",
+          "question": "[[While I, my called|Mientras yo]] _______ [[studying brother|estudiaba, mi hermano llamó]].",
           "options": [
             "[[was|estaba]]",
             "[[did|hizo]]"
@@ -980,7 +980,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta en el contexto del pasado simple y continuo.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[it|estaba]] _______ [[raining|lloviendo]], [[we|nosotros]] [[went|fuimos]] [[for|a]] [[a|una]] [[walk|caminata]].",
+          "question": "[[Although it, we for a walk|Aunque estaba]] _______ [[raining went|lloviendo, nosotros fuimos a una caminata]].",
           "options": [
             "[[was|estaba]]",
             "[[have|he]]"
@@ -1006,7 +1006,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta en el contexto del pasado simple y continuo.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] _______ [[working|haber trabajado]] [[late|hasta tarde]], [[she|ella]] [[finished|terminó]] [[her|su]] [[project|proyecto]].",
+          "question": "[[Despite late, she finished her project|A pesar de]] _______ [[working|haber trabajado hasta tarde, ella terminó su proyecto]].",
           "options": [
             "[[working|trabajar]]",
             "[[was|era]]"
@@ -1032,7 +1032,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta en el contexto del pasado simple y continuo.",
       "questions": [
         {
-          "question": "[[He|Él]] [[was|estaba]] _______ [[reading|leyendo]] [[when|cuando]] [[the|el]] [[phone|teléfono]] _______.",
+          "question": "[[He was the phone|Él estaba]] _______ [[reading when|leyendo cuando el teléfono]] _______.",
           "options": [
             "[[rang|sonó]]",
             "[[read|leyó]]"
@@ -1058,7 +1058,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta en el contexto del pasado simple y continuo.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[laughing|reían]] [[while|mientras]] [[I|yo]] _______ [[telling|contaba]] [[the|la]] [[story|historia]].",
+          "question": "[[They while I the|Ellos]] _______ [[laughing|reían mientras yo]] _______ [[telling story|contaba la historia]].",
           "options": [
             "[[were|estaban]]",
             "[[told|contaron]]"
@@ -1082,7 +1082,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[While|Mientras]] [[I|yo]] [[was|estaba]] [[reading|leyendo]] [[a|un]] [[book|libro]], [[she|ella]] [[called|llamó]] [[me|a mí]].",
+      "correctSentence": "[[While I, she called was reading a book me|Mientras yo estaba leyendo un libro, ella llamó a mí]].",
       "words": [
         "[[I|yo]]",
         "[[a|un]]",
@@ -1110,7 +1110,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|ellos]] [[were|estaban]] [[discussing|discutiendo]] [[the|el]] [[project|proyecto]] [[when|cuando]] [[the|el]] [[boss|jefe]] [[entered|entró]].",
+      "correctSentence": "[[They were discussing the project when the boss entered|ellos estaban discutiendo el proyecto cuando el jefe entró]].",
       "words": [
         "[[They|ellos]]",
         "[[when|cuando]]",
@@ -1138,7 +1138,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[it|estaba]] [[was|estaba]] [[raining|lloviendo]], [[we|nosotros]] [[decided|decidimos]] [[to|a]] [[go|ir]] [[for|por]] [[a|un]] [[walk|paseo]].",
+      "correctSentence": "[[Although it, we decided was raining to go for a walk|Aunque estaba estaba lloviendo, nosotros decidimos a ir por un paseo]].",
       "words": [
         "[[Although|Aunque]]",
         "[[to|a]]",
@@ -1168,7 +1168,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Despite|A pesar de]] [[the|las]] [[difficulties|dificultades]], [[he|él]] [[managed|logró]] [[to|a]] [[finish|terminar]] [[the|el]] [[book|libro]].",
+      "correctSentence": "[[Despite the, he difficulties managed to finish the book|A pesar de las dificultades, él logró a terminar el libro]].",
       "words": [
         "[[Despite|A pesar de]]",
         "[[he|él]]",
@@ -1196,7 +1196,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[was|estaba]] [[cooking|cocinando]] [[dinner|la cena]] [[when|cuando]] [[the|las]] [[lights|luces]] [[went|se]] [[out|apagaron]].",
+      "correctSentence": "[[He was cooking dinner when the lights went out|Él estaba cocinando la cena cuando las luces se apagaron]].",
       "words": [
         "[[when|cuando]]",
         "[[He|Él]]",
@@ -1226,7 +1226,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[While|Mientras]] [[I|yo]] _______ [[reading|leía]] [[a|un]] [[book|libro]], [[the|el]] [[phone|teléfono]] [[rang|sonó]].",
+          "question": "[[While I, the book phone rang|Mientras yo]] _______ [[reading a|leía un libro, el teléfono sonó]].",
           "options": [
             "[[was|estaba]]",
             "[[read|leí]]"
@@ -1252,7 +1252,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[cooking|cocinaba]] [[dinner|la cena]] [[when|cuando]] [[the|los]] [[guests|invitados]] [[arrived|llegaron]].",
+          "question": "[[She dinner when the guests arrived|Ella]] _______ [[cooking|cocinaba la cena cuando los invitados llegaron]].",
           "options": [
             "[[was|estaba]]",
             "[[cooked|cocinó]]"
@@ -1278,7 +1278,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[a|una]] [[letter|carta]] [[while|mientras]] [[he|él]] [[was|estaba]] [[watching|viendo]] [[TV|televisión]].",
+          "question": "[[He letter while he was watching TV|Él]] _______ [[a|una carta mientras él estaba viendo televisión]].",
           "options": [
             "[[wrote|escribió]]",
             "[[write|escribía]]"
@@ -1304,7 +1304,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[studying|estudiaban]] [[when|cuando]] [[the|la]] [[power|energía]] [[went|se]] [[out|fue]].",
+          "question": "[[They when the power went out|Ellos]] _______ [[studying|estudiaban cuando la energía se fue]].",
           "options": [
             "[[were|estaban]]",
             "[[studied|estudiaron]]"
@@ -1330,7 +1330,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Peter|Peter]] _______ [[traveling|viajaba]] [[to|a]] [[London|Londres]] [[when|cuando]] [[he|él]] [[lost|perdió]] [[his|su]] [[wallet|billetera]].",
+          "question": "[[Peter to London when he lost his wallet|Peter]] _______ [[traveling|viajaba a Londres cuando él perdió su billetera]].",
           "options": [
             "[[was|estaba]]",
             "[[travel|viajó]]"

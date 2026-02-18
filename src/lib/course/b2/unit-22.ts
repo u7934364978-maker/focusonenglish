@@ -12,7 +12,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sugerencia del gerente",
       "instructions": "Ordena las palabras para reportar una sugerencia formal.",
-      "correctSentence": "[[The|El]] [[manager|gerente]] [[suggested|sugirió]] [[that|que]] [[we|pospusiéramos]] [[should|la]] [[postpone|reunión.]] [[the| ]] [[meeting.| ]]",
+      "correctSentence": "[[The manager suggested that we should postpone the meeting.|El gerente sugirió que pospusiéramos la reunión.    ]]",
       "words": [
         "[[manager|gerente]]",
         "[[postpone|reunión.]]",
@@ -40,7 +40,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Escalafón corporativo",
       "instructions": "Ordena las palabras para hablar de ascenso profesional.",
-      "correctSentence": "[[Climbing|Subir]] [[the|por]] [[corporate|el]] [[ladder|escalafón]] [[requires|corporativo]] [[both|requiere]] [[skill|tanto]] [[and|habilidad]] [[ambition.|como ambición.]]",
+      "correctSentence": "[[Climbing the corporate ladder requires both skill and ambition.|Subir por el escalafón corporativo requiere tanto habilidad como ambición.]]",
       "words": [
         "[[the|por]]",
         "[[ladder|corporativo]]",
@@ -68,7 +68,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Negar implicación",
       "instructions": "Ordena las palabras para reportar una negación en pasado.",
-      "correctSentence": "[[He|Él]] [[denied|negó]] [[having|tener]] [[any|ninguna]] [[involvement|implicación]] [[in|en]] [[the|el]] [[financial|escándalo]] [[scandal.|financiero.]]",
+      "correctSentence": "[[He denied having any involvement in the financial scandal.|Él negó tener ninguna implicación en el escándalo financiero.]]",
       "words": [
         "[[denied|negó]]",
         "[[involvement|implicación]]",
@@ -96,7 +96,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Habilidades blandas",
       "instructions": "Ordena las palabras para hablar de competencias interpersonales.",
-      "correctSentence": "[[Soft|Las habilidades]] [[skills|blandas]] [[like|como]] [[empathy|la empatía]] [[are|son]] [[increasingly|cada vez]] [[valued|más valoradas]] [[by|por]] [[recruiters.|los reclutadores.]]",
+      "correctSentence": "[[Soft skills like empathy are increasingly valued by recruiters.|Las habilidades blandas como la empatía son cada vez más valoradas por los reclutadores.]]",
       "words": [
         "[[skills|blandas]]",
         "[[empathy|la empatía]]",
@@ -124,7 +124,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pregunta indirecta",
       "instructions": "Ordena las palabras para reportar una pregunta de sí o no.",
-      "correctSentence": "[[She|Ella]] [[asked|me]] [[me|preguntó]] [[if|si]] [[I|alguna vez]] [[had|había]] [[ever|considerado]] [[considered|trabajar]] [[working|en el]] [[abroad.|extranjero.]]",
+      "correctSentence": "[[She asked me if I had ever considered working abroad.|Ella me preguntó si alguna vez había considerado trabajar en el extranjero.]]",
       "words": [
         "[[asked|me]]",
         "[[ever|considerado]]",
@@ -153,7 +153,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mentoría",
       "instructions": "Ordena las palabras para describir el papel de un mentor.",
-      "correctSentence": "[[Mentoring|La mentoría]] [[provides|proporciona]] [[young|a los jóvenes]] [[professionals|profesionales]] [[with| ]] [[guidance|orientación]] [[and|y]] [[support.|apoyo.]]",
+      "correctSentence": "[[Mentoring provides young professionals with guidance and support.|La mentoría proporciona a los jóvenes profesionales   orientación y apoyo.]]",
       "words": [
         "[[provides|proporciona]]",
         "[[professionals|profesionales]]",
@@ -180,7 +180,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Felicitaciones",
       "instructions": "Ordena las palabras para reportar una felicitación.",
-      "correctSentence": "[[They|Ellos]] [[congratulated|le]] [[him|felicitaron]] [[on|por]] [[winning|ganar]] [[the|el]] [[Employee|premio]] [[of|de]] [[the|Empleado]] [[Year|del]] [[award.|Año.]]",
+      "correctSentence": "[[They congratulated him on winning the Employee of the Year award.|Ellos le felicitaron por ganar el premio de Empleado del Año.]]",
       "words": [
         "[[congratulated|le]]",
         "[[winning|ganar]]",
@@ -210,7 +210,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Talleres y seminarios",
       "instructions": "Ordena las palabras para hablar de formación continua.",
-      "correctSentence": "[[Workshops|Los talleres]] [[and|y]] [[seminars|seminarios]] [[are|son]] [[great|ideales]] [[for|para]] [[continuous|el crecimiento]] [[professional|profesional]] [[growth.|continuo.]]",
+      "correctSentence": "[[Workshops and seminars are great for continuous professional growth.|Los talleres y seminarios son ideales para el crecimiento profesional continuo.]]",
       "words": [
         "[[and|y]]",
         "[[are|son]]",
@@ -238,7 +238,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Advertencia del jefe",
       "instructions": "Ordena las palabras para reportar una advertencia negativa.",
-      "correctSentence": "[[My|Mi]] [[boss|jefe]] [[warned|me]] [[me|advirtió]] [[not|que]] [[to|no]] [[be|llegara]] [[late|tarde]] [[for|a]] [[the|la]] [[client|presentación]] [[presentation.|con el cliente.]]",
+      "correctSentence": "[[My boss warned me not to be late for the client presentation.|Mi jefe me advirtió que no llegara tarde a la presentación con el cliente.]]",
       "words": [
         "[[boss|jefe]]",
         "[[not|que]]",
@@ -269,7 +269,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Prácticas / Pasantía",
       "instructions": "Ordena las palabras para definir una pasantía.",
-      "correctSentence": "[[A|Una]] [[internship|pasantía]] [[is|es]] [[a|un]] [[temporary|puesto]] [[position|temporal]] [[with|con]] [[an|énfasis]] [[emphasis|en]] [[on|la]] [[on-the-job|formación]] [[training.|en el trabajo.]]",
+      "correctSentence": "[[A internship is a temporary position with an emphasis on on-the-job training.|Una pasantía es un puesto temporal con énfasis en la formación en el trabajo.]]",
       "words": [
         "[[internship|pasantía]]",
         "[[temporary|puesto]]",
@@ -300,7 +300,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Explicación de RRHH",
       "instructions": "Ordena las palabras para reportar una explicación.",
-      "correctSentence": "[[The|El]] [[HR|departamento]] [[department|de RRHH]] [[explained|explicó]] [[how|cómo]] [[we|podíamos]] [[could|acceder]] [[access|al]] [[the|nuevo]] [[new|portal.]] [[portal.| ]]",
+      "correctSentence": "[[The HR department explained how we could access the new portal.|El departamento de RRHH explicó cómo podíamos acceder al nuevo portal.  ]]",
       "words": [
         "[[HR|departamento]]",
         "[[how|cómo]]",
@@ -330,7 +330,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Habilidades de liderazgo",
       "instructions": "Ordena las palabras para hablar de capacidades directivas.",
-      "correctSentence": "[[Leadership|Las habilidades]] [[skills|de liderazgo]] [[involve|implican]] [[the|la]] [[ability|capacidad]] [[to|de]] [[inspire|inspirar]] [[and|y]] [[motivate|motivar]] [[a|a un]] [[team.|equipo.]]",
+      "correctSentence": "[[Leadership skills involve the ability to inspire and motivate a team.|Las habilidades de liderazgo implican la capacidad de inspirar y motivar a un equipo.]]",
       "words": [
         "[[skills|de liderazgo]]",
         "[[ability|capacidad]]",
@@ -360,7 +360,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Promesa de feedback",
       "instructions": "Ordena las palabras para reportar una promesa futura.",
-      "correctSentence": "[[He|Él]] [[promised|prometió]] [[that|que]] [[he|enviaría]] [[would|los]] [[send|comentarios]] [[the|antes]] [[feedback|del]] [[by|lunes]] [[Monday|por la]] [[morning.|mañana.]]",
+      "correctSentence": "[[He promised that he would send the feedback by Monday morning.|Él prometió que enviaría los comentarios antes del lunes por la mañana.]]",
       "words": [
         "[[promised|prometió]]",
         "[[would|los]]",
@@ -390,7 +390,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Descripción del puesto",
       "instructions": "Ordena las palabras para hablar de especificaciones laborales.",
-      "correctSentence": "[[A|La]] [[job|descripción]] [[description|del puesto]] [[outlines|resume]] [[the|los]] [[duties|deberes]] [[and|y]] [[responsibilities|responsabilidades]] [[of|de]] [[a|un]] [[role.|cargo.]]",
+      "correctSentence": "[[A job description outlines the duties and responsibilities of a role.|La descripción del puesto resume los deberes y responsabilidades de un cargo.]]",
       "words": [
         "[[job|descripción]]",
         "[[duties|deberes]]",
@@ -420,7 +420,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pregunta con 'Why'",
       "instructions": "Ordena las palabras para reportar una duda.",
-      "correctSentence": "[[She|Ella]] [[wondered|se preguntaba]] [[why|por qué]] [[the|el]] [[recruitment|proceso]] [[process|de selección]] [[was|estaba]] [[taking|tardando]] [[so|tanto]] [[long.|tiempo.]]",
+      "correctSentence": "[[She wondered why the recruitment process was taking so long.|Ella se preguntaba por qué el proceso de selección estaba tardando tanto tiempo.]]",
       "words": [
         "[[wondered|se preguntaba]]",
         "[[the|el]]",
@@ -449,7 +449,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Habilidades de negociación",
       "instructions": "Ordena las palabras para hablar de acuerdos comerciales.",
-      "correctSentence": "[[Negotiation|Las habilidades]] [[skills|de negociación]] [[are|son]] [[essential|esenciales]] [[for|para]] [[closing|cerrar]] [[successful|acuerdos]] [[business|comerciales]] [[deals.|exitosos.]]",
+      "correctSentence": "[[Negotiation skills are essential for closing successful business deals.|Las habilidades de negociación son esenciales para cerrar acuerdos comerciales exitosos.]]",
       "words": [
         "[[skills|de negociación]]",
         "[[essential|esenciales]]",
@@ -477,7 +477,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Recomendación del director",
       "instructions": "Ordena las palabras para reportar una recomendación usando gerundio.",
-      "correctSentence": "[[The|El]] [[director|director]] [[recommended|recomendó]] [[attending|asistir]] [[the|al]] [[upcoming|próximo]] [[leadership|taller]] [[workshop.|de liderazgo.]]",
+      "correctSentence": "[[The director recommended attending the upcoming leadership workshop.|El director recomendó asistir al próximo taller de liderazgo.]]",
       "words": [
         "[[director|director]]",
         "[[the|al]]",
@@ -504,7 +504,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Evaluación de desempeño",
       "instructions": "Ordena las palabras para hablar de revisiones laborales.",
-      "correctSentence": "[[Performance|Las evaluaciones]] [[appraisals|de desempeño]] [[help|ayudan a]] [[evaluate|evaluar]] [[an|la]] [[employee's|contribución de]] [[contribution|un empleado]] [[to|a]] [[the|la]] [[company.|empresa.]]",
+      "correctSentence": "[[Performance appraisals help evaluate an employee's contribution to the company.|Las evaluaciones de desempeño ayudan a evaluar la contribución de un empleado a la empresa.]]",
       "words": [
         "[[appraisals|de desempeño]]",
         "[[evaluate|evaluar]]",
@@ -533,7 +533,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Admitir un error",
       "instructions": "Ordena las palabras para reportar una confesión.",
-      "correctSentence": "[[He|Él]] [[admitted|admitió]] [[that|que]] [[he|había]] [[had|cometido]] [[made|un]] [[a|error]] [[mistake|en]] [[in|el]] [[the|presupuesto.]] [[budget.| ]]",
+      "correctSentence": "[[He admitted that he had made a mistake in the budget.|Él admitió que había cometido un error en el presupuesto.  ]]",
       "words": [
         "[[admitted|admitió]]",
         "[[had|cometido]]",
@@ -563,7 +563,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Trayectoria profesional",
       "instructions": "Ordena las palabras para definir el progreso laboral.",
-      "correctSentence": "[[A|Una]] [[career|trayectoria]] [[path|profesional]] [[is|es]] [[the|la]] [[series|serie]] [[of|de]] [[jobs|trabajos]] [[that|que]] [[lead|llevan]] [[to|a]] [[your|tu]] [[goal.|meta.]]",
+      "correctSentence": "[[A career path is the series of jobs that lead to your goal.|Una trayectoria profesional es la serie de trabajos que llevan a tu meta.]]",
       "words": [
         "[[career|trayectoria]]",
         "[[series|serie]]",
@@ -595,7 +595,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Recordatorio del plazo",
       "instructions": "Ordena las palabras para reportar una advertencia sobre fechas.",
-      "correctSentence": "[[They|Ellos]] [[reminded|nos]] [[us|recordaron]] [[that|que]] [[the|el]] [[deadline|plazo]] [[was|era]] [[final|definitivo]] [[and|y]] [[non-negotiable.|no negociable.]]",
+      "correctSentence": "[[They reminded us that the deadline was final and non-negotiable.|Ellos nos recordaron que el plazo era definitivo y no negociable.]]",
       "words": [
         "[[reminded|nos]]",
         "[[deadline|plazo]]",
@@ -624,7 +624,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Contactos profesionales",
       "instructions": "Ordena las palabras para hablar de redes de contacto.",
-      "correctSentence": "[[Professional|El networking]] [[networking|profesional]] [[can|puede]] [[open|abrir]] [[doors|puertas]] [[to|a]] [[new|nuevas]] [[career|oportunidades]] [[opportunities.|laborales.]]",
+      "correctSentence": "[[Professional networking can open doors to new career opportunities.|El networking profesional puede abrir puertas a nuevas oportunidades laborales.]]",
       "words": [
         "[[networking|profesional]]",
         "[[open|abrir]]",
@@ -652,7 +652,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Insistencia",
       "instructions": "Ordena las palabras para reportar una insistencia.",
-      "correctSentence": "[[She|Ella]] [[insisted|insistió]] [[on|en]] [[handling|encargarse]] [[the|de las]] [[client|relaciones]] [[relations|con los clientes]] [[herself.|ella misma.]]",
+      "correctSentence": "[[She insisted on handling the client relations herself.|Ella insistió en encargarse de las relaciones con los clientes ella misma.]]",
       "words": [
         "[[insisted|insistió]]",
         "[[the|de las]]",
@@ -679,7 +679,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hablar en público",
       "instructions": "Ordena las palabras para hablar de oratoria.",
-      "correctSentence": "[[Public|Hablar]] [[speaking|en público]] [[is|es]] [[a|una]] [[crucial|habilidad]] [[skill|crucial]] [[for|para]] [[any|cualquier]] [[business|líder]] [[leader.|de negocios.]]",
+      "correctSentence": "[[Public speaking is a crucial skill for any business leader.|Hablar en público es una habilidad crucial para cualquier líder de negocios.]]",
       "words": [
         "[[speaking|en público]]",
         "[[crucial|habilidad]]",
@@ -708,7 +708,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Objetivos trimestrales",
       "instructions": "Ordena las palabras para reportar una pregunta sobre resultados.",
-      "correctSentence": "[[The|El]] [[committee|comité]] [[asked|preguntó]] [[whether|si]] [[we|habíamos]] [[had|logrado]] [[achieved|nuestros]] [[our|objetivos]] [[quarterly|trimestrales.]] [[targets.| ]]",
+      "correctSentence": "[[The committee asked whether we had achieved our quarterly targets.|El comité preguntó si habíamos logrado nuestros objetivos trimestrales.  ]]",
       "words": [
         "[[committee|comité]]",
         "[[had|logrado]]",
@@ -741,7 +741,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta para el estilo indirecto.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[told|me]] [[me|dijo]] [[that|que]] [[she|ya]] _______ _______ [[applied|había solicitado]] [[for|el]] [[the|puesto.]] [[position.| ]]",
+          "question": "[[She told me that she for the position.|Ella me dijo que ya]] _______ _______ [[applied|había solicitado el puesto.  ]]",
           "options": ["[[had already|había ya]]", "[[has already|ha ya]]", "[[already|ya]]"],
           "correctAnswer": 0,
           "explanation": "El pasado simple cambia a pasado perfecto en el estilo indirecto.",
@@ -764,7 +764,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa destacar algo importante.",
       "questions": [
         {
-          "question": "[[A|Un]] [[CV|CV]] [[should|debería]] _______ [[your|destacar]] [[key|tus]] [[achievements|logros]] [[and|y]] [[skills.|habilidades.]]",
+          "question": "[[A CV should key skills.|Un CV debería]] _______ [[your achievements and|destacar tus logros y habilidades.]]",
           "options": ["[[highlight|destacar]]", "[[hide|esconder]]", "[[ignore|ignorar]]"],
           "correctAnswer": 0,
           "explanation": "'Highlight' se usa para llamar la atención sobre los puntos fuertes.",
@@ -787,7 +787,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el orden correcto de las palabras en una pregunta indirecta.",
       "questions": [
         {
-          "question": "[[He|Él]] [[asked|preguntó]] [[where|dónde]] _______ _______ _______ _______ _______.",
+          "question": "[[He asked where|Él preguntó dónde]] _______ _______ _______ _______ _______.",
           "options": ["[[the nearest conference room was|estaba la sala más cercana]]", "[[was the nearest conference room|estaba la sala más cercana (orden pregunta)]]", "[[is the nearest conference room|está la sala más cercana]]"],
           "correctAnswer": 0,
           "explanation": "En el estilo indirecto, las preguntas pierden el orden invertido y pasan a orden de frase afirmativa.",
@@ -810,7 +810,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo correcto para dejar un trabajo.",
       "questions": [
         {
-          "question": "[[To| ]] _______ [[is|es]] [[to|dejar]] [[leave|un]] [[a|trabajo]] [[job|de forma]] [[permanently|permanente]] [[and|y]] [[formally.|formal.]]",
+          "question": "[[To to leave a job permanently and formally.| ]] _______ [[is|es dejar un trabajo de forma permanente y formal.]]",
           "options": ["[[resign|dimitir]]", "[[recruit|contratar]]", "[[promote|ascender]]"],
           "correctAnswer": 0,
           "explanation": "'Resign' es la acción voluntaria de dejar el empleo.",
@@ -833,7 +833,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector correcto para esta pregunta indirecta.",
       "questions": [
         {
-          "question": "[[The|El]] [[recruiter|reclutador]] [[asked|preguntó]] _______ [[I|si]] [[could|podía]] [[start|empezar]] [[immediately.|de inmediato.]]",
+          "question": "[[The recruiter asked could|El reclutador preguntó]] _______ [[I start immediately.|si podía empezar de inmediato.]]",
           "options": ["[[whether|si]]", "[[weather|tiempo (clima)]]", "[[how|cómo]]"],
           "correctAnswer": 0,
           "explanation": "'Whether' se usa para reportar preguntas que se responden con sí o no.",
@@ -856,7 +856,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el sueldo deseado.",
       "questions": [
         {
-          "question": "[[A|Una]] _______ _______ [[is|es]] [[the|la]] [[amount|cantidad]] [[of|de]] [[money|dinero]] [[you|que]] [[hope|esperas]] [[to|ganar.]] [[earn.| ]]",
+          "question": "[[A the amount of money you hope to earn.|Una]] _______ _______ [[is|es la cantidad de dinero que esperas ganar.  ]]",
           "options": ["[[salary expectation|expectativa salarial]]", "[[tax return|declaración de impuestos]]", "[[job security|seguridad laboral]]"],
           "correctAnswer": 0,
           "explanation": "Es común que te pregunten esto en una entrevista de trabajo.",
@@ -879,7 +879,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal adecuada tras 'suggest'.",
       "questions": [
         {
-          "question": "[[He|Él]] [[suggested|sugirió]] _______ [[at|quedar a]] [[10|las]] [[AM|10]] [[to|para]] [[discuss|discutir]] [[the|los]] [[results.|resultados.]]",
+          "question": "[[He suggested AM to discuss the results.|Él sugirió]] _______ [[at 10|quedar a las 10 para discutir los resultados.]]",
           "options": ["[[meeting|quedar / reunirse]]", "[[to meet|quedar]]", "[[meet|quedar]]"],
           "correctAnswer": 0,
           "explanation": "'Suggest' nunca va seguido de infinitivo con 'to'. Se usa gerundio o 'that' clause.",
@@ -902,7 +902,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el sustantivo que significa ser digno de confianza.",
       "questions": [
         {
-          "question": "_______ [[is|La fiabilidad]] [[a|es]] [[highly|un]] [[valued|rasgo]] [[trait|muy]] [[in|valorado]] [[any|en]] [[professional|cualquier]] [[environment.|entorno profesional.]]",
+          "question": "_______ [[is a highly valued trait in any professional environment.|La fiabilidad es un rasgo muy valorado en cualquier entorno profesional.]]",
           "options": ["[[Reliability|Fiabilidad]]", "[[Anxiety|Ansiedad]]", "[[Laziness|Pereza]]"],
           "correctAnswer": 0,
           "explanation": "'Reliability' viene del adjetivo 'reliable'.",
@@ -925,7 +925,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta para reportar un hecho pasado.",
       "questions": [
         {
-          "question": "[[The|El]] [[assistant|asistente]] [[reminded|le]] [[the|recordó]] [[CEO|al director]] [[that|que]] [[the|el]] [[flight|vuelo]] _______ _______ _______ [[delayed.|había sido retrasado.]]",
+          "question": "[[The assistant reminded the CEO that the flight|El asistente le recordó al director que el vuelo]] _______ _______ _______ [[delayed.|había sido retrasado.]]",
           "options": ["[[had been|había sido]]", "[[was|fue / era]]", "[[has been|ha sido]]"],
           "correctAnswer": 0,
           "explanation": "El pasado simple o el presente perfecto cambian a pasado perfecto en estilo indirecto.",
@@ -948,7 +948,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el reclutador que busca perfiles específicos.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[is|es]] [[a|un]] [[recruiter|reclutador]] [[who|que]] [[seeks|busca]] [[out| ]] [[high-level|profesionales de]] [[professionals.|alto nivel.]]",
+          "question": "[[A a recruiter who seeks out high-level professionals.|Un]] _______ [[is|es un reclutador que busca   profesionales de alto nivel.]]",
           "options": ["[[headhunter|cazatalentos]]", "[[trainee|aprendiz]]", "[[competitor|competidor]]"],
           "correctAnswer": 0,
           "explanation": "'Headhunter' literalmente significa 'cazador de cabezas'.",
@@ -971,7 +971,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige la estructura correcta con 'deny'.",
       "questions": [
         {
-          "question": "[[He|Él]] [[denied|negó]] _______ [[he|que]] [[was|fuera]] [[responsible|responsable]] [[for|del]] [[the|error.]] [[error.| ]]",
+          "question": "[[He denied responsible for the error.|Él negó]] _______ [[he was|que fuera responsable del error.  ]]",
           "options": ["[[that|que]]", "[[what|qué]]", "[[whether|si]]"],
           "correctAnswer": 0,
           "explanation": "'Deny' puede ir seguido de una cláusula con 'that'.",
@@ -994,7 +994,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la compensación por despido.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ _______ [[is|es]] [[compensation|dinero]] [[given|dado]] [[when|cuando]] [[a|un]] [[job|puesto]] [[is|es]] [[cut.|eliminado.]]",
+          "question": "[[A compensation given when a job is cut.|Un]] _______ _______ [[is|es dinero dado cuando un puesto es eliminado.]]",
           "options": ["[[redundancy package|paquete de indemnización]]", "[[bonus scheme|sistema de bonos]]", "[[pension fund|fondo de pensiones]]"],
           "correctAnswer": 0,
           "explanation": "'Redundancy' se refiere al despido por razones económicas o estructurales.",
@@ -1017,7 +1017,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta para el estilo indirecto.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[asked|preguntó]] [[whether|si]] [[I|yo]] _______ _______ [[the|había terminado]] [[task|la]] [[yet.|tarea ya.]]",
+          "question": "[[She asked whether I|Ella preguntó si yo]] _______ _______ [[the task yet.|había terminado la tarea ya.]]",
           "options": ["[[had finished|había terminado]]", "[[have finished|he terminado]]", "[[finish|termino]]"],
           "correctAnswer": 0,
           "explanation": "El presente perfecto 'have finished' cambia a pasado perfecto 'had finished'.",
@@ -1040,7 +1040,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige la metáfora para la barrera invisible de ascenso.",
       "questions": [
         {
-          "question": "[[The|El]] _______ _______ [[is|es]] [[an|una]] [[invisible|barrera]] [[barrier|invisible]] [[to|al]] [[advancement|progreso]] [[for|de]] [[women.|mujeres.]]",
+          "question": "[[The an invisible barrier to advancement for women.|El]] _______ _______ [[is|es una barrera invisible al progreso de mujeres.]]",
           "options": ["[[glass ceiling|techo de cristal]]", "[[open door|puerta abierta]]", "[[safety net|red de seguridad]]"],
           "correctAnswer": 0,
           "explanation": "'Glass ceiling' impide que ciertos grupos lleguen a los puestos más altos.",
@@ -1063,7 +1063,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición correcta tras 'congratulate'.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[congratulated|me]] [[me|felicitaron]] _______ [[getting|por]] [[the|conseguir]] [[scholarship.|la beca.]]",
+          "question": "[[They congratulated me the|Ellos me felicitaron]] _______ [[getting scholarship.|por conseguir la beca.]]",
           "options": ["[[on|por]]", "[[for|por]]", "[[about|sobre]]"],
           "correctAnswer": 0,
           "explanation": "'Congratulate someone ON something'.",
@@ -1086,7 +1086,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para quien trabaja por su cuenta.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[is|es]] [[a|una]] [[person|persona]] [[who|que]] [[works|trabaja]] [[independently|independientemente.]]",
+          "question": "[[A a person who works independently|Un]] _______ [[is|es una persona que trabaja independientemente.]]",
           "options": ["[[freelancer|autónomo]]", "[[employee|empleado]]", "[[intern|pasante]]"],
           "correctAnswer": 0,
           "explanation": "'Freelancer' gestiona sus propios clientes y horarios.",
@@ -1109,7 +1109,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige la estructura correcta tras 'apologize'.",
       "questions": [
         {
-          "question": "[[The|El]] [[manager|gerente]] [[apologized|se]] _______ _______ [[late|disculpó por]] [[to|llegar]] [[the|tarde]] [[interview.|a la entrevista.]]",
+          "question": "[[The manager apologized to|El gerente se]] _______ _______ [[late the interview.|disculpó por llegar tarde a la entrevista.]]",
           "options": ["[[for being|por ser / estar]]", "[[to be|por ser]]", "[[that he is|que es]]"],
           "correctAnswer": 0,
           "explanation": "'Apologize FOR + -ing'.",
@@ -1132,7 +1132,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa contratar servicios externos.",
       "questions": [
         {
-          "question": "[[To| ]] _______ [[is|es]] [[to|contratar]] [[contract|trabajo]] [[work|con]] [[to|un]] [[an|proveedor]] [[outside|externo.]] [[supplier.| ]]",
+          "question": "[[To to contract work to an outside supplier.| ]] _______ [[is|es contratar trabajo con un proveedor externo.  ]]",
           "options": ["[[outsource|subcontratar]]", "[[automate|automatizar]]", "[[centralize|centralizar]]"],
           "correctAnswer": 0,
           "explanation": "'Outsourcing' permite a las empresas centrarse en su actividad principal.",
@@ -1155,7 +1155,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para reportar una situación en curso.",
       "questions": [
         {
-          "question": "[[He|Él]] [[warned|nos]] [[us|advirtió]] [[that|que]] [[the|el]] [[market|mercado]] _______ _______ [[very|se estaba volviendo]] [[competitive.|muy competitivo.]]",
+          "question": "[[He warned us that the market|Él nos advirtió que el mercado]] _______ _______ [[very competitive.|se estaba volviendo muy competitivo.]]",
           "options": ["[[was becoming|se estaba volviendo]]", "[[is becoming|se está volviendo]]", "[[has become|se ha vuelto]]"],
           "correctAnswer": 0,
           "explanation": "El presente continuo cambia a pasado continuo en el estilo indirecto.",
@@ -1178,7 +1178,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el tiempo inicial de prueba.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ _______ [[is|es]] [[a|un]] [[trial|periodo]] [[period|de prueba]] [[for|para]] [[new|nuevos]] [[employees.|empleados.]]",
+          "question": "[[A a trial period for new employees.|Un]] _______ _______ [[is|es un periodo de prueba para nuevos empleados.]]",
           "options": ["[[probation period|periodo de prueba]]", "[[notice period|periodo de preaviso]]", "[[sick leave|baja por enfermedad]]"],
           "correctAnswer": 0,
           "explanation": "Durante el 'probation period', ambas partes evalúan si el puesto es adecuado.",
@@ -1201,7 +1201,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta para reportar una hipótesis.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[asked|me]] [[me|preguntó]] [[what|qué]] [[I| ]] _______ _______ [[if|si]] [[I|fuera]] [[were|ella.]] [[her.| ]]",
+          "question": "[[She asked me what I I were her.|Ella me preguntó qué  ]] _______ _______ [[if|si fuera ella.  ]]",
           "options": ["[[would do|haría]]", "[[will do|haré]]", "[[did|hice]]"],
           "correctAnswer": 0,
           "explanation": "Los condicionales de tipo 2 suelen mantenerse igual en estilo indirecto.",
@@ -1224,7 +1224,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa fomentar o promover.",
       "questions": [
         {
-          "question": "[[Workplace|La diversidad]] [[diversity|laboral]] _______ [[a|fomenta]] [[more|un entorno]] [[innovative|más]] [[and|innovador]] [[creative|y]] [[environment.|creativo.]]",
+          "question": "[[Workplace diversity innovative and creative environment.|La diversidad laboral]] _______ [[a more|fomenta un entorno más innovador y creativo.]]",
           "options": ["[[fosters|fomenta]]", "[[prevents|impide]]", "[[limits|limita]]"],
           "correctAnswer": 0,
           "explanation": "'Foster' se usa para indicar que algo ayuda al desarrollo de otra cosa positiva.",
@@ -1247,7 +1247,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal de subjuntivo tras 'suggest'.",
       "questions": [
         {
-          "question": "[[The|El]] [[consultant|consultor]] [[suggested|sugirió]] [[that|que]] [[the|la]] [[company|empresa]] _______ [[its|sus]] [[operations.|operaciones.]]",
+          "question": "[[The consultant suggested that the company|El consultor sugirió que la empresa]] _______ [[its operations.|sus operaciones.]]",
           "options": ["[[restructure|reestructure]]", "[[restructures|reestructura]]", "[[to restructure|reestructurar]]"],
           "correctAnswer": 0,
           "explanation": "En inglés formal, se usa el infinitivo sin 'to' (subjuntivo) tras 'suggest that'.",
@@ -1270,7 +1270,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que describe la formación técnica.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[course|curso]] [[provides|proporciona]] [[skills|habilidades]] [[for|para]] [[a|un]] [[specific|oficio]] [[job.|específico.]]",
+          "question": "[[A provides skills for a specific job.|Un]] _______ [[course|curso proporciona habilidades para un oficio específico.]]",
           "options": ["[[vocational|profesional / vocacional]]", "[[academic|académico]]", "[[optional|opcional]]"],
           "correctAnswer": 0,
           "explanation": "'Vocational training' se enfoca en habilidades prácticas para el mercado laboral.",
@@ -1293,7 +1293,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta para reportar una pregunta sobre el pasado.",
       "questions": [
         {
-          "question": "[[The|El]] [[HR|responsable]] [[manager|de RRHH]] [[asked|me]] [[me|preguntó]] [[how|cómo]] [[I|yo]] _______ _______ [[about|me había]] [[the|enterado]] [[opening.|de la vacante.]]",
+          "question": "[[The HR manager asked me how I the|El responsable de RRHH me preguntó cómo yo]] _______ _______ [[about opening.|me había enterado de la vacante.]]",
           "options": ["[[had heard|había oído / enterado]]", "[[have heard|he oído]]", "[[hear|oigo]]"],
           "correctAnswer": 0,
           "explanation": "El pasado simple 'heard' cambia a pasado perfecto 'had heard'.",

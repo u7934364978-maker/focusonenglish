@@ -109,7 +109,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[answer|answer]]) _______ [[many|many]] [[emails|emails]] [[every|every]] [[day|día]].",
+          "question": "[[I emails every day|Yo]] ([[answer|answer]]) _______ [[many|many emails every día]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -135,7 +135,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[not/have|not/have]]) _______ [[any|alguno/a]] [[meetings|meetings]] [[today|hoy]].",
+          "question": "[[She meetings today|Ella]] ([[not/have|not/have]]) _______ [[any|alguno/a meetings hoy]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -161,7 +161,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[be|ser/estar]]) _______ [[working|working]] [[on|en/sobre]] [[a|un/una]] [[new|nuevo]] [[project|project]].",
+          "question": "[[We on a new project|Nosotros]] ([[be|ser/estar]]) _______ [[working|working en/sobre un/una nuevo project]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -187,7 +187,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Do|Hacer]] [[you|tú/usted]] _______ ([[need|necesitar]]) [[any|alguno/a]] [[help|ayudar]] [[with|con]] [[that|ese/esa/aquel]]?",
+          "question": "[[Do you with that|Hacer tú/usted]] _______ ([[need help|necesitar]]) [[any|alguno/a ayudar con ese/esa/aquel]]?",
           "options": [
             "[[need|necesitar]]",
             "[[to|a/para]]",
@@ -213,7 +213,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[have|tener/haber]]) _______ [[a|un/una]] [[conference|conference]] [[last|last]] [[week|semana]].",
+          "question": "[[They conference last week|Ellos]] ([[have|tener/haber]]) _______ [[a|un/una conference last semana]].",
           "options": [
             "[[had|had]]",
             "[[to|a/para]]",
@@ -239,7 +239,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[be|ser/estar]]) _______ [[the|el/la/los/las]] [[CEO|CEO]] [[of|de]] [[the|el/la/los/las]] [[company|company]].",
+          "question": "[[He CEO of the company|Él]] ([[be|ser/estar]]) _______ [[the|el/la/los/las CEO de el/la/los/las company]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -265,7 +265,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[write|escribir]]) _______ [[a|un/una]] [[report|report]] [[this|este/esta]] [[afternoon|tarde]].",
+          "question": "[[I report this afternoon|Yo]] ([[write|escribir]]) _______ [[a|un/una report este/esta tarde]].",
           "options": [
             "[[it|eso]]",
             "[[am writing|am writing]]",
@@ -291,7 +291,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[not/use|not/use]]) _______ [[that|ese/esa/aquel]] [[software|software/programa]] [[anymore|anymore]].",
+          "question": "[[We software anymore|Nosotros]] ([[not/use|not/use]]) _______ [[that|ese/esa/aquel software/programa anymore]].",
           "options": [
             "[[don't use|don't use]]",
             "[[to|a/para]]",
@@ -317,7 +317,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[office|oficina]] ([[be|ser/estar]]) _______ [[on|en/sobre]] [[the|el/la/los/las]] [[fifth|fifth]] [[floor|floor]].",
+          "question": "[[The office fifth floor|El/la/los/las oficina]] ([[be the|ser/estar]]) _______ [[on|en/sobre el/la/los/las fifth floor]].",
           "options": [
             "[[is|es/está]]",
             "[[to|a/para]]",
@@ -343,7 +343,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "_______ [[you|tú/usted]] [[finish|finish]] [[the|el/la/los/las]] [[presentation|presentation]]?",
+          "question": "_______ [[you finish the presentation|tú/usted finish el/la/los/las presentation]]?",
           "options": [
             "[[Did|Did]]",
             "[[to|a/para]]",
@@ -367,7 +367,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[spend|gastar/pasar]] [[most|most]] [[of|de]] [[my|mi/mis]] [[day|día]] [[answering|answering]] [[emails|emails]].",
+      "correctSentence": "[[I spend most of my day answering emails|Yo gastar/pasar most de mi/mis día answering emails]].",
       "words": [
         "[[spend|gastar/pasar]]",
         "[[I|Yo]]",
@@ -393,7 +393,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[have|tener/haber]] [[a|un/una]] [[team|team]] [[meeting|meeting]] [[every|every]] [[Monday|Monday]] [[morning|mañana]].",
+      "correctSentence": "[[We have a team meeting every Monday morning|Nosotros tener/haber un/una team meeting every Monday mañana]].",
       "words": [
         "[[team|team]]",
         "[[morning|mañana]].",
@@ -419,7 +419,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[writing|writing]] [[a|un/una]] [[very|muy]] [[long|largo]] [[report|report]].",
+      "correctSentence": "[[He is writing a very long report|Él es/está writing un/una muy largo report]].",
       "words": [
         "[[long|largo]]",
         "[[writing|writing]]",
@@ -444,7 +444,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[desk|desk]] [[is|es/está]] [[always|siempre]] [[covered|covered]] [[in|en]] [[papers|papers]].",
+      "correctSentence": "[[My desk is always covered in papers|Mi/mis desk es/está siempre covered en papers]].",
       "words": [
         "[[always|siempre]]",
         "[[in|en]]",
@@ -469,7 +469,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[are|son/están]] [[working|working]] [[on|en/sobre]] [[an|un/una]] [[exciting|exciting]] [[new|nuevo]] [[project|project]] [[for|para/por]] [[a|un/una]] [[client|client]].",
+      "correctSentence": "[[We are working on an exciting new project for a client|Nosotros son/están working en/sobre un/una exciting nuevo project para/por un/una client]].",
       "words": [
         "[[project|project]]",
         "[[We|Nosotros]]",
@@ -498,7 +498,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[is|es/está]] [[going|going]] [[on|en/sobre]] [[a|un/una]] [[business|business]] [[trip|trip]] [[to|a/para]] [[New|Nuevo]] [[York|York]].",
+      "correctSentence": "[[She is going on a business trip to New York|Ella es/está going en/sobre un/una business trip a/para Nuevo York]].",
       "words": [
         "[[New|Nuevo]]",
         "[[business|business]]",
@@ -526,7 +526,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[conference|conference]] [[will|hará (futuro)]] [[be|ser/estar]] [[held|held]] [[in|en]] [[the|el/la/los/las]] [[main|principal]] [[hall|hall]].",
+      "correctSentence": "[[The conference will be held in the main hall|El/la/los/las conference hará (futuro) ser/estar held en el/la/los/las principal hall]].",
       "words": [
         "[[The|El/la/los/las]]",
         "[[conference|conference]]",
@@ -553,7 +553,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Our|Nuestro]] [[boss|boss]] [[is|es/está]] [[very|muy]] [[demanding|demanding]] [[but|but]] [[fair|fair]].",
+      "correctSentence": "[[Our boss is very demanding but fair|Nuestro boss es/está muy demanding but fair]].",
       "words": [
         "[[Our|Nuestro]]",
         "[[demanding|demanding]]",
@@ -578,7 +578,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[need|necesitar]] [[to|a/para]] [[print|print]] [[these|estos/estas]] [[documents|documents]] [[before|antes]] [[the|el/la/los/las]] [[meeting|meeting]].",
+      "correctSentence": "[[I need to print these documents before the meeting|Yo necesitar a/para print estos/estas documents antes el/la/los/las meeting]].",
       "words": [
         "[[I|Yo]]",
         "[[the|el/la/los/las]]",
@@ -605,7 +605,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[colleagues|colleagues]] [[are|son/están]] [[very|muy]] [[friendly|simpático/amigable]] [[and|and]] [[supportive|supportive]].",
+      "correctSentence": "[[My colleagues are very friendly and supportive|Mi/mis colleagues son/están muy simpático/amigable and supportive]].",
       "words": [
         "[[friendly|simpático/amigable]]",
         "[[very|muy]]",
@@ -630,7 +630,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[office|oficina]] [[is|es/está]] [[located|located]] [[in|en]] [[the|el/la/los/las]] [[city|ciudad]] [[center|center]].",
+      "correctSentence": "[[The office is located in the city center|El/la/los/las oficina es/está located en el/la/los/las ciudad center]].",
       "words": [
         "[[center|center]].",
         "[[the|el/la/los/las]]",
@@ -656,7 +656,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[use|use]] [[a|un/una]] [[special|special]] [[software|software/programa]] [[to|a/para]] [[manage|manage]] [[our|nuestro]] [[files|files]].",
+      "correctSentence": "[[We use a special software to manage our files|Nosotros use un/una special software/programa a/para manage nuestro files]].",
       "words": [
         "[[special|special]]",
         "[[a|un/una]]",
@@ -683,7 +683,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[gave|gave]] [[a|un/una]] [[brilliant|brilliant]] [[presentation|presentation]] [[to|a/para]] [[the|el/la/los/las]] [[staff|staff]].",
+      "correctSentence": "[[She gave a brilliant presentation to the staff|Ella gave un/una brilliant presentation a/para el/la/los/las staff]].",
       "words": [
         "[[a|un/una]]",
         "[[brilliant|brilliant]]",
@@ -709,7 +709,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[the|el/la/los/las]] [[manager|manager]] [[of|de]] [[the|el/la/los/las]] [[marketing|marketing]] [[department|department]].",
+      "correctSentence": "[[He is the manager of the marketing department|Él es/está el/la/los/las manager de el/la/los/las marketing department]].",
       "words": [
         "[[department|department]].",
         "[[He|Él]]",
@@ -735,7 +735,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[office|oficina]] [[is|es/está]] [[very|muy]] [[busy|ocupado]] [[at|en]] [[this|este/esta]] [[time|tiempo/hora]] [[of|de]] [[year|año]].",
+      "correctSentence": "[[The office is very busy at this time of year|El/la/los/las oficina es/está muy ocupado en este/esta tiempo/hora de año]].",
       "words": [
         "[[busy|ocupado]]",
         "[[at|en]]",

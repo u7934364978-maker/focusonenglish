@@ -89,7 +89,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[If|If]] [[it|eso]] ([[rain|rain]]) [[_______|_______]], [[we|nosotros]] [[will|hará (futuro)]] [[stay|stay]] [[at|en]] [[home|casa/hogar]].",
+          "question": "[[If it, we stay at home|If eso]] ([[rain will|rain]]) [[_______|_______, nosotros hará (futuro) stay en casa/hogar]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -115,7 +115,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[be|ser/estar]]) _______ [[angry|enfadado/enojado]] [[if|if]] [[you|tú/usted]] [[are|son/están]] [[late|late]].",
+          "question": "[[She if you are late|Ella]] ([[be|ser/estar]]) _______ [[angry|enfadado/enojado if tú/usted son/están late]].",
           "options": [
             "[[will be|will be]]",
             "[[to|a/para]]",
@@ -141,7 +141,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[If|If]] [[I|Yo]] ([[have|tener/haber]]) _______ [[enough|enough]] [[money|dinero]], [[I|Yo]] [[will|hará (futuro)]] [[buy|comprar]] [[a|un/una]] [[car|coche]].",
+          "question": "[[If I, I will buy a car|If Yo]] ([[have money|tener/haber]]) _______ [[enough|enough dinero, Yo hará (futuro) comprar un/una coche]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -167,7 +167,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[If|If]] [[they|ellos]] ([[not/hurry|not/hurry]]) [[_______|_______]], [[they|ellos]] [[will|hará (futuro)]] [[miss|miss]] [[the|el/la/los/las]] [[train|train]].",
+          "question": "[[If they, they miss the train|If ellos]] ([[not/hurry will|not/hurry]]) [[_______|_______, ellos hará (futuro) miss el/la/los/las train]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -193,7 +193,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[What|Qué]] _______ [[you|tú/usted]] [[do|hacer]] [[if|if]] [[you|tú/usted]] [[lose|lose]] [[your|tu/tus]] [[job|job]]?",
+          "question": "[[What do if you lose your job|Qué]] _______ [[you|tú/usted hacer if tú/usted lose tu/tus job]]?",
           "options": [
             "[[it|eso]]",
             "[[will|hará (futuro)]]",
@@ -219,7 +219,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[If|If]] [[she|ella]] ([[study|estudiar]]) _______ [[hard|hard]], [[she|ella]] [[will|hará (futuro)]] [[pass|pass]] [[the|el/la/los/las]] [[exam|exam]].",
+          "question": "[[If she, she pass the exam|If ella]] ([[study will|estudiar]]) _______ [[hard|hard, ella hará (futuro) pass el/la/los/las exam]].",
           "options": [
             "[[studies|studies]]",
             "[[to|a/para]]",
@@ -245,7 +245,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[not/be|no ser/estar]]) _______ [[happy|feliz]] [[if|if]] [[he|él]] [[doesn't|no]] [[win|win]].",
+          "question": "[[He if he doesn't win|Él]] ([[not/be|no ser/estar]]) _______ [[happy|feliz if él no win]].",
           "options": [
             "[[won't be|won't be]]",
             "[[to|a/para]]",
@@ -271,7 +271,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[If|If]] [[we|nosotros]] ([[go|ir]]) _______ [[to|a/para]] [[the|el/la/los/las]] [[party|party]], [[we|nosotros]] [[will|hará (futuro)]] [[see|ver]] [[him|le/él]].",
+          "question": "[[If we, we party will see him|If nosotros]] ([[go the|ir]]) _______ [[to|a/para el/la/los/las party, nosotros hará (futuro) ver le/él]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -297,7 +297,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[call|call]]) _______ [[you|tú/usted]] [[if|if]] [[I|Yo]] [[have|tener/haber]] [[any|alguno/a]] [[news|news]].",
+          "question": "[[I if I have any news|Yo]] ([[call|call]]) _______ [[you|tú/usted if Yo tener/haber alguno/a news]].",
           "options": [
             "[[will call|will call]]",
             "[[to|a/para]]",
@@ -323,7 +323,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[If|If]] [[you|tú/usted]] ([[eat|comer]]) _______ [[too|demasiado/también]] [[much|much]], [[you|tú/usted]] [[will|hará (futuro)]] [[feel|feel]] [[sick|sick]].",
+          "question": "[[If you, you will feel sick|If tú/usted]] ([[eat much|comer]]) _______ [[too|demasiado/también much, tú/usted hará (futuro) feel sick]].",
           "options": [
             "[[to|a/para]]",
             "[[it|eso]]",
@@ -347,7 +347,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[If|If]] [[the|el/la/los/las]] [[weather|weather]] [[is|es/está]] [[nice|agradable/simpático]], [[we|nosotros]] [[will|hará (futuro)]] [[go|ir]] [[for|para/por]] [[a|un/una]] [[walk|walk]].",
+      "correctSentence": "[[If the, we weather is nice will go for a walk|If el/la/los/las weather es/está agradable/simpático, nosotros hará (futuro) ir para/por un/una walk]].",
       "words": [
         "[[nice|agradable/simpático]],",
         "[[the|el/la/los/las]]",
@@ -376,7 +376,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[will|hará (futuro)]] [[be|ser/estar]] [[very|muy]] [[happy|feliz]] [[if|if]] [[she|ella]] [[gets|gets]] [[the|el/la/los/las]] [[job|job]].",
+      "correctSentence": "[[She will be very happy if she gets the job|Ella hará (futuro) ser/estar muy feliz if ella gets el/la/los/las job]].",
       "words": [
         "[[happy|feliz]]",
         "[[very|muy]]",
@@ -404,7 +404,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[If|If]] [[I|Yo]] [[see|ver]] [[him|le/él]], [[I|Yo]] [[will|hará (futuro)]] [[tell|tell]] [[him|le/él]] [[your|tu/tus]] [[news|news]].",
+      "correctSentence": "[[If I, I will see him tell him your news|If Yo ver le/él, Yo hará (futuro) tell le/él tu/tus news]].",
       "words": [
         "[[news|news]].",
         "[[will|hará (futuro)]]",
@@ -432,7 +432,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[will|hará (futuro)]] [[miss|miss]] [[the|el/la/los/las]] [[flight|flight]] [[if|if]] [[they|ellos]] [[don't|no]] [[leave|leave]] [[now|ahora]].",
+      "correctSentence": "[[They will miss the flight if they don't leave now|Ellos hará (futuro) miss el/la/los/las flight if ellos no leave ahora]].",
       "words": [
         "[[They|Ellos]]",
         "[[the|el/la/los/las]]",
@@ -460,7 +460,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[If|If]] [[you|tú/usted]] [[don't|no]] [[study|estudiar]], [[you|tú/usted]] [[won't|won't]] [[pass|pass]] [[the|el/la/los/las]] [[test|test]].",
+      "correctSentence": "[[If you, you won't don't study pass the test|If tú/usted no estudiar, tú/usted won't pass el/la/los/las test]].",
       "words": [
         "[[If|If]]",
         "[[you|tú/usted]]",
@@ -487,7 +487,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[What|Qué]] [[will|hará (futuro)]] [[you|tú/usted]] [[do|hacer]] [[if|if]] [[it|eso]] [[rains|rains]] [[on|en/sobre]] [[Saturday|Saturday]]?",
+      "correctSentence": "[[What will you do if it rains on Saturday|Qué hará (futuro) tú/usted hacer if eso rains en/sobre Saturday]]?",
       "words": [
         "[[do|hacer]]",
         "[[will|hará (futuro)]]",
@@ -514,7 +514,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[If|If]] [[we|nosotros]] [[have|tener/haber]] [[time|tiempo/hora]], [[we|nosotros]] [[will|hará (futuro)]] [[visit|visit]] [[the|el/la/los/las]] [[museum|museo]].",
+      "correctSentence": "[[If we, we will have time visit the museum|If nosotros tener/haber tiempo/hora, nosotros hará (futuro) visit el/la/los/las museo]].",
       "words": [
         "[[we|nosotros]]",
         "[[time|tiempo/hora]],",
@@ -541,7 +541,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[will|hará (futuro)]] [[call|call]] [[you|tú/usted]] [[as|as]] [[soon|soon]] [[as|as]] [[I|Yo]] [[arrive|arrive]].",
+      "correctSentence": "[[I will call you as soon as I arrive|Yo hará (futuro) call tú/usted as soon as Yo arrive]].",
       "words": [
         "[[as|as]]",
         "[[you|tú/usted]]",
@@ -568,7 +568,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[If|If]] [[she|ella]] [[doesn't|no]] [[finish|finish]] [[her|su (de ella)]] [[work|trabajo/trabajar]], [[she|ella]] [[won't|won't]] [[go|ir]] [[out|out]].",
+      "correctSentence": "[[If she, she won't doesn't finish her work go out|If ella no finish su (de ella) trabajo/trabajar, ella won't ir out]].",
       "words": [
         "[[she|ella]]",
         "[[If|If]]",
@@ -596,7 +596,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[will|hará (futuro)]] [[be|ser/estar]] [[angry|enfadado/enojado]] [[if|if]] [[you|tú/usted]] [[break|break]] [[his|su (de él)]] [[phone|teléfono]].",
+      "correctSentence": "[[He will be angry if you break his phone|Él hará (futuro) ser/estar enfadado/enojado if tú/usted break su (de él) teléfono]].",
       "words": [
         "[[if|if]]",
         "[[break|break]]",
@@ -623,7 +623,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[If|If]] [[I|Yo]] [[find|find]] [[your|tu/tus]] [[keys|keys]], [[I|Yo]] [[will|hará (futuro)]] [[let|let]] [[you|tú/usted]] [[know|saber/conocer]].",
+      "correctSentence": "[[If I, I find your keys will let you know|If Yo find tu/tus keys, Yo hará (futuro) let tú/usted saber/conocer]].",
       "words": [
         "[[If|If]]",
         "[[will|hará (futuro)]]",
@@ -651,7 +651,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[will|hará (futuro)]] [[be|ser/estar]] [[tired|cansado]] [[if|if]] [[they|ellos]] [[stay|stay]] [[up|up]] [[late|late]].",
+      "correctSentence": "[[They will be tired if they stay up late|Ellos hará (futuro) ser/estar cansado if ellos stay up late]].",
       "words": [
         "[[if|if]]",
         "[[tired|cansado]]",
@@ -678,7 +678,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[If|If]] [[you|tú/usted]] [[are|son/están]] [[hungry|hambriento]], [[I|Yo]] [[will|hará (futuro)]] [[make|hacer]] [[some|some]] [[sandwiches|sandwiches]].",
+      "correctSentence": "[[If you, I will are hungry make some sandwiches|If tú/usted son/están hambriento, Yo hará (futuro) hacer some sandwiches]].",
       "words": [
         "[[make|hacer]]",
         "[[If|If]]",
@@ -705,7 +705,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[will|hará (futuro)]] [[go|ir]] [[to|a/para]] [[the|el/la/los/las]] [[beach|playa]] [[if|if]] [[it's|it's]] [[sunny|sunny]] [[tomorrow|mañana]].",
+      "correctSentence": "[[We will go to the beach if it's sunny tomorrow|Nosotros hará (futuro) ir a/para el/la/los/las playa if it's sunny mañana]].",
       "words": [
         "[[sunny|sunny]]",
         "[[the|el/la/los/las]]",
@@ -733,7 +733,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I'll|I'll]] [[help|ayudar]] [[you|tú/usted]] [[if|if]] [[you|tú/usted]] [[need|necesitar]] [[anything|anything]].",
+      "correctSentence": "[[I'll help you if you need anything|I'll ayudar tú/usted if tú/usted necesitar anything]].",
       "words": [
         "[[you|tú/usted]]",
         "[[anything|anything]].",

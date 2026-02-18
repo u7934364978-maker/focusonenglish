@@ -13,7 +13,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra que describe el temblor violento de la tierra.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[caused|causó]] [[significant|significativos]] [[damage|daños]] [[to|a]] [[the|los]] [[city's|edificios de la ciudad]] [[buildings| ]].",
+          "question": "[[The significant damage to the city's buildings|El]] ______ [[caused|causó significativos daños a los edificios de la ciudad  ]].",
           "options": [
             "[[earthquake|terremoto]]",
             "[[rainbow|arcoíris]]",
@@ -40,7 +40,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para cuando el agua cubre la tierra seca.",
       "questions": [
         {
-          "question": "[[Heavy|Las fuertes]] [[rain|lluvias]] [[led|llevaron]] [[to|a]] [[a|una]] [[severe|severa]] ______ [[in|en]] [[the|el]] [[valley|valle]].",
+          "question": "[[Heavy rain led to a severe valley|Las fuertes lluvias llevaron a una severa]] ______ [[in the|en el valle]].",
           "options": [
             "[[flood|inundación]]",
             "[[drought|sequía]]",
@@ -65,7 +65,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Kit de emergencia",
       "instructions": "Ordena la oración sobre la preparación ante desastres naturales.",
-      "correctSentence": "[[It|Es]] [[is|esencial]] [[essential| ]] [[to|tener]] [[have| ]] [[an|un]] [[emergency|kit de]] [[kit|emergencia]] [[ready|listo]] [[in|en]] [[case|caso]] [[a|un]] [[natural|desastre]] [[disaster|natural]] [[occurs|ocurra]] [[unexpectedly|inesperadamente]].",
+      "correctSentence": "[[It is essential to have an emergency kit ready in case a natural disaster occurs unexpectedly|Es esencial   tener   un kit de emergencia listo en caso un desastre natural ocurra inesperadamente]].",
       "words": [
         "[[unexpectedly|inesperadamente]].",
         "[[natural|desastre]]",
@@ -100,7 +100,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la tormenta tropical violenta.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[destroyed|destruyó]] [[many|muchas]] [[homes|casas]] [[along|a lo largo de]] [[the|la]] [[coast|costa]].",
+          "question": "[[The many homes along the coast|El]] ______ [[destroyed|destruyó muchas casas a lo largo de la costa]].",
           "options": [
             "[[hurricane|huracán]]",
             "[[snowfall|nevada]]",
@@ -127,7 +127,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un incendio incontrolado en el campo.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[was|fue]] [[difficult|difícil]] [[to|de]] [[control|controlar]] [[due|debido]] [[to|a]] [[high|fuertes vientos]] [[winds| ]].",
+          "question": "[[The difficult to control due to high winds|El]] ______ [[was|fue difícil de controlar debido a fuertes vientos  ]].",
           "options": [
             "[[wildfire|incendio forestal]]",
             "[[fountain|fuente]]",
@@ -152,7 +152,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Evacuación",
       "instructions": "Ordena la oración sobre las medidas preventivas ante una tormenta.",
-      "correctSentence": "[[Local|Las autoridades]] [[authorities|locales]] [[ordered|ordenaron]] [[a|una]] [[full|evacuación]] [[evacuation|completa]] [[of|de]] [[the|la]] [[coastal|ciudad]] [[town|costera]] [[before|antes de]] [[the|que la]] [[storm|tormenta]] [[reached|llegara]] [[the|a la]] [[shore|costa]].",
+      "correctSentence": "[[Local authorities ordered a full evacuation of the coastal town before the storm reached the shore|Las autoridades locales ordenaron una evacuación completa de la ciudad costera antes de que la tormenta llegara a la costa]].",
       "words": [
         "[[shore|costa]].",
         "[[ordered|ordenaron]]",
@@ -188,7 +188,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la falta prolongada de lluvia.",
       "questions": [
         {
-          "question": "[[Farmers|Los agricultores]] [[suffered|sufrieron]] [[because|porque]] [[of|de]] [[the|la]] [[long|larga]] ______.",
+          "question": "[[Farmers suffered because of the long|Los agricultores sufrieron porque de la larga]] ______.",
           "options": [
             "[[drought|sequía]]",
             "[[blizzard|tormenta de nieve]]",
@@ -215,7 +215,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la ayuda médica básica inicial.",
       "questions": [
         {
-          "question": "[[Everyone|Todos]] [[should|deberían]] [[know|saber]] [[how|cómo]] [[to| ]] [[provide|brindar]] [[basic|básicos]] ______ [[aid| ]].",
+          "question": "[[Everyone should know how to provide basic|Todos deberían saber cómo   brindar básicos]] ______ [[aid| ]].",
           "options": [
             "[[first|primeros auxilios]]",
             "[[second|segunda ayuda]]",
@@ -240,7 +240,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Equipo de rescate",
       "instructions": "Ordena la oración sobre el trabajo de los rescatistas.",
-      "correctSentence": "[[The|El]] [[rescue|equipo]] [[team|de rescate]] [[worked|trabajó]] [[around|las 24 horas]] [[the| ]] [[clock| ]] [[to|para]] [[find|encontrar]] [[survivors|supervivientes]] [[buried|sepultados]] [[under|bajo]] [[the|los]] [[rubble|escombros]] [[of|del]] [[the| ]] [[building|edificio]].",
+      "correctSentence": "[[The rescue team worked around the clock to find survivors buried under the rubble of the building|El equipo de rescate trabajó las 24 horas     para encontrar supervivientes sepultados bajo los escombros del   edificio]].",
       "words": [
         "[[building|edificio]].",
         "[[survivors|supervivientes]]",
@@ -277,7 +277,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la ola gigante causada por sismos.",
       "questions": [
         {
-          "question": "[[The|El]] [[underwater|submarino]] [[earthquake|terremoto]] [[triggered|desencadenó]] [[a|un]] [[devastating|devastador]] ______.",
+          "question": "[[The underwater earthquake triggered a devastating|El submarino terremoto desencadenó un devastador]] ______.",
           "options": [
             "[[tsunami|tsunami]]",
             "[[whirlpool|remolino]]",
@@ -304,7 +304,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el deslizamiento de tierra.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[blocked|bloqueó]] [[the|la]] [[main|carretera principal]] [[road| ]] [[after|después de]] [[the|la]] [[storm|tormenta]].",
+          "question": "[[The the main road after the storm|El]] ______ [[blocked|bloqueó la carretera principal   después de la tormenta]].",
           "options": [
             "[[landslide|desprendimiento de tierra]]",
             "[[hill|colina]]",
@@ -329,7 +329,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sistemas de alerta",
       "instructions": "Ordena la oración sobre el desarrollo de tecnología de alerta.",
-      "correctSentence": "[[Scientists|Los científicos]] [[are|están]] [[developing|desarrollando]] [[more|sistemas de]] [[advanced|alerta]] [[early|temprana]] [[warning|más]] [[systems|avanzados]] [[to|para]] [[alert|alertar]] [[people|a la gente]] [[about|sobre]] [[volcanic|erupciones]] [[eruptions|volcánicas]].",
+      "correctSentence": "[[Scientists are developing more advanced early warning systems to alert people about volcanic eruptions|Los científicos están desarrollando sistemas de alerta temprana más avanzados para alertar a la gente sobre erupciones volcánicas]].",
       "words": [
         "[[eruptions|volcánicas]].",
         "[[warning|más]]",
@@ -364,7 +364,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la tormenta de nieve intensa.",
       "questions": [
         {
-          "question": "[[The|La]] ______ [[made|hizo]] [[it|que]] [[impossible|fuera imposible]] [[to| ]] [[drive|conducir]] [[on|por]] [[the|la]] [[highway|autopista]].",
+          "question": "[[The it impossible to drive on the highway|La]] ______ [[made|hizo que fuera imposible   conducir por la autopista]].",
           "options": [
             "[[blizzard|ventisca]]",
             "[[sunshine|luz del sol]]",
@@ -391,7 +391,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa salir de un lugar peligroso.",
       "questions": [
         {
-          "question": "[[When|Cuando]] [[the|la]] [[alarm|alarma]] [[sounded|sonó]], [[we|nosotros]] [[had|tuvimos]] [[to| ]] ______ [[the|el]] [[building|edificio]] [[quickly|rápidamente]].",
+          "question": "[[When the, we had alarm sounded to building quickly|Cuando la alarma sonó, nosotros tuvimos  ]] ______ [[the|el edificio rápidamente]].",
           "options": [
             "[[evacuate|evacuar]]",
             "[[decorate|decorar]]",
@@ -416,7 +416,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ayuda humanitaria",
       "instructions": "Ordena la oración sobre la asistencia a las víctimas.",
-      "correctSentence": "[[Many|Muchas]] [[charity|organizaciones]] [[organizations|benéficas]] [[are|están]] [[providing|brindando]] [[food|comida]] [[and|y]] [[clean|agua]] [[water|limpia]] [[to|a]] [[the|las]] [[victims|víctimas]] [[of|del]] [[the| ]] [[natural|desastre]] [[disaster|natural]].",
+      "correctSentence": "[[Many charity organizations are providing food and clean water to the victims of the natural disaster|Muchas organizaciones benéficas están brindando comida y agua limpia a las víctimas del   desastre natural]].",
       "words": [
         "[[disaster|natural]].",
         "[[water|limpia]]",
@@ -453,7 +453,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para las personas afectadas por una tragedia.",
       "questions": [
         {
-          "question": "[[The|Las]] ______ [[from|del]] [[accident|accidente]] [[were|fueron]] [[taken|llevadas]] [[to|al]] [[nearby|hospital cercano]] [[hospital| ]].",
+          "question": "[[The accident were taken to nearby hospital|Las]] ______ [[from|del accidente fueron llevadas al hospital cercano  ]].",
           "options": [
             "[[casualties|víctimas]]",
             "[[witnesses|testigos]]",
@@ -480,7 +480,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa seguir vivo tras un peligro.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ______ [[the|el]] [[winter|invierno]] [[with|con]] [[very|muy]] [[little|poca]] [[food|comida]].",
+          "question": "[[They winter with very little food|Ellos]] ______ [[the|el invierno con muy poca comida]].",
           "options": [
             "[[survived|sobrevivieron]]",
             "[[complained|se quejaron]]",
@@ -505,7 +505,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hipótesis sobre el pasado",
       "instructions": "Ordena la oración hipotética sobre un terremoto.",
-      "correctSentence": "[[If|Si]] [[the|el]] [[earthquake|terremoto]] [[had|hubiera]] [[been|sido]] [[stronger|más fuerte]], [[many|muchos]] [[older|edificios]] [[buildings|antiguos]] [[in|en]] [[the|el]] [[city|centro]] [[center|de la ciudad]] [[would|se habrían]] [[have| ]] [[collapsed|derrumbado]] [[completely|completamente]].",
+      "correctSentence": "[[If the, many older earthquake had been stronger buildings in the city center would have collapsed completely|Si el terremoto hubiera sido más fuerte, muchos edificios antiguos en el centro de la ciudad se habrían   derrumbado completamente]].",
       "words": [
         "[[completely|completamente]].",
         "[[older|edificios]]",
@@ -543,7 +543,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para un lugar de protección temporal.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[found|encontraron]] ______ [[under|bajo]] [[a|un]] [[large|gran]] [[tree|árbol]] [[during|durante]] [[the|la]] [[storm|tormenta]].",
+          "question": "[[They found large tree during the storm|Ellos encontraron]] ______ [[under a|bajo un gran árbol durante la tormenta]].",
           "options": [
             "[[shelter|refugio]]",
             "[[danger|peligro]]",
@@ -570,7 +570,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Elige la profesión de quien da atención médica de urgencia en ambulancias.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[arrived|llegó]] [[quickly|rápidamente]] [[to|para]] [[help|ayudar]] [[the|a la]] [[victim|víctima]].",
+          "question": "[[The quickly to help the victim|El]] ______ [[arrived|llegó rápidamente para ayudar a la víctima]].",
           "options": [
             "[[paramedic|paramédico]]",
             "[[receptionist|recepcionista]]",
@@ -595,7 +595,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Informes de víctimas",
       "instructions": "Ordena la oración sobre el aumento de fallecidos en una inundación.",
-      "correctSentence": "[[According|Según]] [[to| ]] [[the|los]] [[latest|últimos]] [[reports|informes]], [[the|el]] [[death|número]] [[toll|de muertos]] [[from|de]] [[the|la]] [[flood|inundación]] [[has|ha]] [[increased|aumentado]] [[significantly|significativamente]] [[over|en]] [[the|las]] [[last|últimas]] [[few|pocas]] [[hours|horas]].",
+      "correctSentence": "[[According to, the the latest reports death toll from the flood has increased significantly over the last few hours|Según   los últimos informes, el número de muertos de la inundación ha aumentado significativamente en las últimas pocas horas]].",
       "words": [
         "[[hours|horas]].",
         "[[latest|últimos]]",
@@ -633,7 +633,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para el temblor menor tras el sismo principal.",
       "questions": [
         {
-          "question": "[[Residents|Los residentes]] [[felt|sintieron]] [[several|varias]] ______ [[during|durante]] [[the|la]] [[night|noche]].",
+          "question": "[[Residents felt several the|Los residentes sintieron varias]] ______ [[during night|durante la noche]].",
           "options": [
             "[[aftershocks|réplicas]]",
             "[[echoes|ecos]]",
@@ -660,7 +660,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para quien ayuda sin recibir pago.",
       "questions": [
         {
-          "question": "[[Many|Muchos]] ______ [[helped|ayudaron]] [[to|a]] [[distribute|distribuir]] [[blankets|mantas]] [[to|a]] [[homeless|personas sin hogar]] [[people| ]].",
+          "question": "[[Many to distribute blankets to homeless people|Muchos]] ______ [[helped|ayudaron a distribuir mantas a personas sin hogar  ]].",
           "options": [
             "[[volunteers|voluntarios]]",
             "[[thieves|ladrones]]",
@@ -685,7 +685,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Escapando del fuego",
       "instructions": "Ordena la oración sobre la huida ante un incendio forestal.",
-      "correctSentence": "[[While|Mientras]] [[the|el]] [[fire|fuego]] [[was|se]] [[spreading|propagaba]] [[rapidly|rápidamente]], [[the|los]] [[local|residentes]] [[residents|locales]] [[were|fueron]] [[forced|obligados]] [[to|a]] [[leave|dejar]] [[their|sus]] [[homes|hogares]] [[with|con]] [[only|solo]] [[their|sus]] [[essential|pertenencias]] [[belongings|esenciales]].",
+      "correctSentence": "[[While the, the local fire was spreading rapidly residents were forced to leave their homes with only their essential belongings|Mientras el fuego se propagaba rápidamente, los residentes locales fueron obligados a dejar sus hogares con solo sus pertenencias esenciales]].",
       "words": [
         "[[belongings|esenciales]].",
         "[[rapidly|rápidamente]],",
@@ -724,7 +724,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para un sismo leve.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[felt|sentí]] [[a|un]] [[slight|leve]] ______ [[while|mientras]] [[I|yo]] [[was|estaba]] [[sitting|sentado]] [[at|en]] [[my|mi]] [[desk|escritorio]].",
+          "question": "[[I felt a slight at my desk|Yo sentí un leve]] ______ [[while I was sitting|mientras yo estaba sentado en mi escritorio]].",
           "options": [
             "[[tremor|temblor]]",
             "[[tickle|cosquilleo]]",
@@ -751,7 +751,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el sonido de advertencia.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[heard|oímos]] [[the|la]] ______ [[of|de]] [[an|una]] [[ambulance|ambulancia]] [[approaching|acercándose]].",
+          "question": "[[We heard the an|Nosotros oímos la]] ______ [[of ambulance approaching|de una ambulancia acercándose]].",
           "options": [
             "[[siren|sirena]]",
             "[[song|canción]]",
@@ -778,7 +778,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa apagar un fuego.",
       "questions": [
         {
-          "question": "[[The|Los]] [[firefighters|bomberos]] [[managed|lograron]] [[to| ]] ______ [[the|el]] [[flames|llamas]] [[after|después de]] [[two|dos]] [[hours|horas]].",
+          "question": "[[The firefighters managed to hours|Los bomberos lograron  ]] ______ [[the flames after two|el llamas después de dos horas]].",
           "options": [
             "[[extinguish|extinguir]]",
             "[[increase|aumentar]]",
@@ -803,7 +803,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ayuda gubernamental",
       "instructions": "Ordena la oración sobre la asistencia financiera tras un desastre.",
-      "correctSentence": "[[Government|Los funcionarios]] [[officials|del gobierno]] [[announced|anunciaron]] [[that|que]] [[they|ellos]] [[would|brindarían]] [[provide| ]] [[financial|asistencia]] [[assistance|financiera]] [[to|a]] [[all|todas las]] [[families|familias]] [[who|que]] [[lost|perdieron]] [[their|sus]] [[homes|hogares]] [[in|en]] [[the|el]] [[wildfire|incendio]].",
+      "correctSentence": "[[Government officials announced that they would provide financial assistance to all families who lost their homes in the wildfire|Los funcionarios del gobierno anunciaron que ellos brindarían   asistencia financiera a todas las familias que perdieron sus hogares en el incendio]].",
       "words": [
         "[[wildfire|incendio]].",
         "[[announced|anunciaron]]",
@@ -842,7 +842,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Elige el nombre del dispositivo para apagar fuegos pequeños.",
       "questions": [
         {
-          "question": "[[Every|Cada]] [[kitchen|cocina]] [[should|debería]] [[have|tener]] [[a|un]] ______ [[handy|a mano]].",
+          "question": "[[Every kitchen should have a|Cada cocina debería tener un]] ______ [[handy|a mano]].",
           "options": [
             "[[fire extinguisher|extintor]]",
             "[[microwave|microondas]]",
@@ -869,7 +869,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la causa del deslizamiento de tierra.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[was|fue]] [[caused|causado]] [[by|por]] [[excessive|excesiva]] [[rain|lluvia]].",
+          "question": "[[The caused by excessive rain|El]] ______ [[was|fue causado por excesiva lluvia]].",
           "options": [
             "[[landslide|desprendimiento]]",
             "[[sunrise|amanecer]]",
@@ -894,7 +894,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Resistencia estructural",
       "instructions": "Ordena la oración sobre la resistencia de la infraestructura ante una tormenta.",
-      "correctSentence": "[[Even|Aunque]] [[though| ]] [[the|la]] [[storm|tormenta]] [[was|era]] [[very|muy]] [[powerful|poderosa]], [[most|la mayor parte]] [[of|de]] [[the|la]] [[modern|infraestructura]] [[infrastructure|moderna]] [[was|fue]] [[able|capaz]] [[to|de]] [[withstand|resistir]] [[the|los]] [[high|fuertes]] [[winds|vientos]] [[without|sin]] [[major|mayores]] [[problems|problemas]].",
+      "correctSentence": "[[Even though, most the storm was very powerful of the modern infrastructure was able to withstand the high winds without major problems|Aunque   la tormenta era muy poderosa, la mayor parte de la infraestructura moderna fue capaz de resistir los fuertes vientos sin mayores problemas]].",
       "words": [
         "[[problems|problemas]].",
         "[[modern|infraestructura]]",
@@ -935,7 +935,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para medir la fuerza de un terremoto.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[of|de]] [[the|del]] [[earthquake|terremoto]] [[was|fue]] [[7.5|7.5]] [[on|en]] [[the|la]] [[Richter|escala Richter]] [[scale| ]].",
+          "question": "[[The the earthquake was 7.5 on the Richter scale|El]] ______ [[of|de del terremoto fue 7.5 en la escala Richter  ]].",
           "options": [
             "[[magnitude|magnitud]]",
             "[[altitude|altitud]]",
@@ -962,7 +962,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el adjetivo que describe no poder salir de un lugar.",
       "questions": [
         {
-          "question": "[[Several|Varios]] [[people|personas]] [[were|estaban]] ______ [[inside|dentro de]] [[the|el]] [[elevator|ascensor]].",
+          "question": "[[Several people were the|Varios personas estaban]] ______ [[inside elevator|dentro de el ascensor]].",
           "options": [
             "[[trapped|atrapadas]]",
             "[[relaxed|relajadas]]",
@@ -987,7 +987,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ola de calor",
       "instructions": "Ordena la oración sobre consejos ante una ola de calor.",
-      "correctSentence": "[[Local|Las autoridades]] [[authorities|locales]] [[advise|aconsejan]] [[people|a la gente]] [[to| ]] [[avoid|evitar]] [[unnecessary|viajes]] [[travel|innecesarios]] [[during|durante]] [[the|la]] [[heatwave|ola de calor]] [[to|para]] [[prevent|prevenir]] [[health|complicaciones]] [[complications|de salud]].",
+      "correctSentence": "[[Local authorities advise people to avoid unnecessary travel during the heatwave to prevent health complications|Las autoridades locales aconsejan a la gente   evitar viajes innecesarios durante la ola de calor para prevenir complicaciones de salud]].",
       "words": [
         "[[salud| ]].",
         "[[avoid|evitar]]",
@@ -1024,7 +1024,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una inundación muy rápida.",
       "questions": [
         {
-          "question": "[[A|Una]] ______ [[can|puede]] [[sweep|arrastrar]] [[away| ]] [[cars|coches]] [[in|en]] [[seconds|segundos]].",
+          "question": "[[A sweep away cars in seconds|Una]] ______ [[can|puede arrastrar   coches en segundos]].",
           "options": [
             "[[flash flood|inundación repentina]]",
             "[[drip|gotera]]",
@@ -1051,7 +1051,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la falta de suministro eléctrico.",
       "questions": [
         {
-          "question": "[[The|La]] [[storm|tormenta]] [[caused|causó]] [[a|un]] [[major|gran]] ______ [[in|en]] [[the|el]] [[city|centro]].",
+          "question": "[[The storm caused a major the city|La tormenta causó un gran]] ______ [[in|en el centro]].",
           "options": [
             "[[power outage|corte de luz]]",
             "[[traffic jam|atasco]]",
@@ -1076,7 +1076,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mantener la calma",
       "instructions": "Ordena la oración sobre el comportamiento en una emergencia.",
-      "correctSentence": "[[If|Si]] [[you|tú]] [[ever|alguna vez]] [[find|te encuentras]] [[yourself| ]] [[in|en]] [[an|una]] [[emergency|emergencia]], [[you|tú]] [[should|deberías]] [[stay|mantener]] [[calm|la calma]] [[and|y]] [[follow|seguir]] [[the|las]] [[instructions|instrucciones]] [[given|dadas]] [[by|por]] [[the|los]] [[rescue|servicios de]] [[services|rescate]].",
+      "correctSentence": "[[If you, you should ever find yourself in an emergency stay calm and follow the instructions given by the rescue services|Si tú alguna vez te encuentras   en una emergencia, tú deberías mantener la calma y seguir las instrucciones dadas por los servicios de rescate]].",
       "words": [
         "[[rescate| ]].",
         "[[emergency|emergencia]],",
@@ -1119,7 +1119,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para los restos dispersos de destrucción.",
       "questions": [
         {
-          "question": "[[The|Las]] [[streets|calles]] [[were|estaban]] [[full|llenas]] [[of|de]] ______ [[after|después de]] [[the|el]] [[tornado|tornado]].",
+          "question": "[[The streets were full of the tornado|Las calles estaban llenas de]] ______ [[after|después de el tornado]].",
           "options": [
             "[[debris|escombros/restos]]",
             "[[flowers|flores]]",
@@ -1146,7 +1146,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el adjetivo para quien ha tenido que dejar su hogar.",
       "questions": [
         {
-          "question": "[[Thousands|Miles]] [[of|de]] [[people|personas]] [[were|fueron]] ______ [[by|por]] [[the|la]] [[flood|inundación]].",
+          "question": "[[Thousands of people were|Miles de personas fueron]] ______ [[by the flood|por la inundación]].",
           "options": [
             "[[displaced|desplazadas]]",
             "[[employed|empleadas]]",
@@ -1171,7 +1171,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Defensas contra inundaciones",
       "instructions": "Ordena la oración sobre la protección de tierras agrícolas.",
-      "correctSentence": "[[The|El]] [[government|gobierno]] [[is|está]] [[considering|considerando]] [[building|construir]] [[stronger|defensas]] [[flood|contra]] [[defenses|inundaciones]] [[to|más fuertes]] [[protect|para]] [[the|proteger]] [[agricultural|las tierras]] [[lands|agrícolas]] [[from|de]] [[future|futuras]] [[heavy|lluvias]] [[rains|fuertes]].",
+      "correctSentence": "[[The government is considering building stronger flood defenses to protect the agricultural lands from future heavy rains|El gobierno está considerando construir defensas contra inundaciones más fuertes para proteger las tierras agrícolas de futuras lluvias fuertes]].",
       "words": [
         "[[rains|fuertes]].",
         "[[considering|considerando]]",
@@ -1209,7 +1209,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el aviso de peligro inminente.",
       "questions": [
         {
-          "question": "[[The|El]] [[weather|servicio meteorológico]] [[service| ]] [[issued|emitió]] [[a|una]] [[severe|severa]] [[storm|advertencia de tormenta]] ______.",
+          "question": "[[The weather service issued a severe storm|El servicio meteorológico   emitió una severa advertencia de tormenta]] ______.",
           "options": [
             "[[warning|advertencia]]",
             "[[invitation|invitación]]",
@@ -1236,7 +1236,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para el auxilio tras un desastre.",
       "questions": [
         {
-          "question": "[[International|Los suministros]] ______ [[supplies|de socorro internacionales]] [[reached|llegaron]] [[the|a la]] [[affected|zona afectada]] [[area| ]].",
+          "question": "[[International reached the affected area|Los suministros]] ______ [[supplies|de socorro internacionales llegaron a la zona afectada  ]].",
           "options": [
             "[[relief|de socorro]]",
             "[[luxury|de lujo]]",
@@ -1261,7 +1261,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Distribución de suministros",
       "instructions": "Ordena la oración sobre la llegada del equipo de rescate y el trabajo previo.",
-      "correctSentence": "[[By|Para]] [[the|cuando]] [[time| ]] [[the|el]] [[rescue|equipo]] [[team|de rescate]] [[arrived|llegó]], [[the|los]] [[local|voluntarios]] [[volunteers|locales]] [[had|ya]] [[already|habían]] [[distributed|distribuido]] [[most|la mayor parte]] [[of|de]] [[the|los]] [[basic|suministros]] [[supplies|básicos]] [[to|a]] [[the|los]] [[survivors|supervivientes]].",
+      "correctSentence": "[[By the, the time the rescue team arrived local volunteers had already distributed most of the basic supplies to the survivors|Para cuando   el equipo de rescate llegó, los voluntarios locales ya habían distribuido la mayor parte de los suministros básicos a los supervivientes]].",
       "words": [
         "[[supervivientes| ]].",
         "[[local|voluntarios]]",
@@ -1303,7 +1303,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Elige el término técnico para un herido o fallecido.",
       "questions": [
         {
-          "question": "[[Fortunately|Afortunadamente]], [[there|no]] [[were|hubo]] [[no| ]] ______ [[in|en]] [[the|el]] [[small|pequeño]] [[incident|incidente]].",
+          "question": "[[Fortunately were, there no the|Afortunadamente, no hubo  ]] ______ [[in small incident|en el pequeño incidente]].",
           "options": [
             "[[casualties|bajas/víctimas]]",
             "[[winners|ganadores]]",
@@ -1330,7 +1330,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la situación crítica inesperada.",
       "questions": [
         {
-          "question": "[[In|En]] [[case|caso]] [[of|de]] ______, [[please|por favor]] [[press|presione]] [[the|el]] [[red|botón rojo]] [[button| ]].",
+          "question": "[[In case of press button|En caso de]] ______, [[please the red|por favor presione el botón rojo  ]].",
           "options": [
             "[[emergency|emergencia]]",
             "[[entertainment|entretenimiento]]",
@@ -1355,7 +1355,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Simulacros de terremoto",
       "instructions": "Ordena la oración sobre la importancia de los simulacros.",
-      "correctSentence": "[[It|Se]] [[is|recomienda]] [[strongly|encarecidamente]] [[recommended| ]] [[that|que]] [[all|todos los]] [[citizens|ciudadanos]] [[participate|participen]] [[in|en]] [[regular|simulacros]] [[earthquake|regulares]] [[drills|de terremoto]] [[to|para]] [[ensure|asegurar]] [[everyone|que todos]] [[knows|sepan]] [[exactly|exactamente]] [[what|qué]] [[to|hacer]] [[do| ]].",
+      "correctSentence": "[[It is strongly recommended that all citizens participate in regular earthquake drills to ensure everyone knows exactly what to do|Se recomienda encarecidamente   que todos los ciudadanos participen en simulacros regulares de terremoto para asegurar que todos sepan exactamente qué hacer  ]].",
       "words": [
         "[[do| ]].",
         "[[exactly|exactamente]]",
@@ -1396,7 +1396,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Elige el término común para alguien que sufre daño.",
       "questions": [
         {
-          "question": "[[The|La]] ______ [[received|recibió]] [[medical|atención médica]] [[attention| ]] [[immediately|inmediatamente]].",
+          "question": "[[The medical attention immediately|La]] ______ [[received|recibió atención médica   inmediatamente]].",
           "options": [
             "[[victim|víctima]]",
             "[[villain|villano]]",
@@ -1423,7 +1423,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la vuelta a la normalidad.",
       "questions": [
         {
-          "question": "[[The|La]] ______ [[process|proceso de recuperación]] [[after|después de]] [[the|el]] [[disaster|desastre]] [[will|tomará]] [[take| ]] [[years|años]].",
+          "question": "[[The after the disaster will take years|La]] ______ [[process|proceso de recuperación después de el desastre tomará   años]].",
           "options": [
             "[[recovery|recuperación]]",
             "[[discovery|descubrimiento]]",
@@ -1448,7 +1448,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Equipos expertos",
       "instructions": "Ordena la oración sobre la ayuda internacional en un terremoto.",
-      "correctSentence": "[[Many|Muchos]] [[countries|países]] [[have|han]] [[sent|enviado]] [[expert|expertos]] [[search|equipos de]] [[and|búsqueda]] [[rescue|y]] [[teams|rescate]] [[to|a]] [[the|la]] [[earthquake|zona del]] [[zone|terremoto]] [[to|para]] [[help|ayudar]] [[find|a encontrar]] [[people|a personas]] [[who|que]] [[are|todavía]] [[still|están]] [[missing|desaparecidas]].",
+      "correctSentence": "[[Many countries have sent expert search and rescue teams to the earthquake zone to help find people who are still missing|Muchos países han enviado expertos equipos de búsqueda y rescate a la zona del terremoto para ayudar a encontrar a personas que todavía están desaparecidas]].",
       "words": [
         "[[missing|desaparecidas]].",
         "[[search|equipos de]]",
@@ -1490,7 +1490,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el movimiento de rocas colina abajo.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[covered|cubrió]] [[the|las]] [[railway|vías del tren]] [[tracks| ]].",
+          "question": "[[The the railway tracks|El]] ______ [[covered|cubrió las vías del tren  ]].",
           "options": [
             "[[landslide|deslizamiento]]",
             "[[rainbow|arcoíris]]",

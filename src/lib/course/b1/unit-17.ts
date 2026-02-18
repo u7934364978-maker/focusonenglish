@@ -13,7 +13,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para dar un consejo de salud.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[warm|calentar]] [[up| ]] [[before|antes de]] [[you|tú]] [[start|comiences]] [[exercising|a hacer ejercicio]].",
+          "question": "[[You up before you start exercising|Tú]] _______ [[warm|calentar   antes de tú comiences a hacer ejercicio]].",
           "options": [
             "[[should|deberías]]",
             "[[must|debes (obligación)]]",
@@ -40,7 +40,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término correcto para la persona que aplica las reglas.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[is|es]] [[the|la]] [[person|persona]] [[who|que]] [[enforces|aplica]] [[the|las]] [[rules|reglas]].",
+          "question": "[[The the person who enforces the rules|El]] _______ [[is|es la persona que aplica las reglas]].",
           "options": [
             "[[referee|árbitro]]",
             "[[coach|entrenador]]",
@@ -65,7 +65,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hidratación",
       "instructions": "Ordena las palabras para formar una oración sobre la importancia del agua.",
-      "correctSentence": "[[Drinking|Beber]] [[enough|suficiente]] [[water|agua]] [[is|es]] [[essential|esencial]] [[for|para]] [[your|tu]] [[body|cuerpo]].",
+      "correctSentence": "[[Drinking enough water is essential for your body|Beber suficiente agua es esencial para tu cuerpo]].",
       "words": [
         "[[essential|esencial]]",
         "[[body|cuerpo]].",
@@ -94,7 +94,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma superlativa correcta.",
       "questions": [
         {
-          "question": "[[Swimming|La natación]] [[is|es]] [[one|uno]] [[of|de]] [[the|los]] _______ [[exercises|ejercicios]].",
+          "question": "[[Swimming is one of the|La natación es uno de los]] _______ [[exercises|ejercicios]].",
           "options": [
             "[[most complete|más completos]]",
             "[[completest|más completo (incorrecto)]]",
@@ -121,7 +121,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el modal que expresa obligación.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[wear|llevar]] [[a|un]] [[helmet|casco]] [[when|cuando]] [[cycling|vas en bici]].",
+          "question": "[[You a helmet when cycling|Tú]] _______ [[wear|llevar un casco cuando vas en bici]].",
           "options": [
             "[[must|debes (obligación)]]",
             "[[should|deberías (consejo)]]",
@@ -148,7 +148,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el lugar donde se juega al tenis.",
       "questions": [
         {
-          "question": "[[Tennis|El tenis]] [[is|es]] [[played|jugado]] [[on|en]] [[a|una]] _______.",
+          "question": "[[Tennis is played on a|El tenis es jugado en una]] _______.",
           "options": [
             "[[court|pista/cancha]]",
             "[[pitch|campo]]",
@@ -173,7 +173,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Deportes en Equipo",
       "instructions": "Ordena las palabras correctamente.",
-      "correctSentence": "[[I|Yo]] [[really|realmente]] [[enjoy|disfruto]] [[playing|jugando]] [[many|muchos]] [[different|diferentes]] [[team|en equipo]] [[sports|deportes]].",
+      "correctSentence": "[[I really enjoy playing many different team sports|Yo realmente disfruto jugando muchos diferentes en equipo deportes]].",
       "words": [
         "[[sports|deportes]].",
         "[[enjoy|disfruto]]",
@@ -202,7 +202,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el entrenador.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[trains|entrena]] [[the|a los]] [[athletes|atletas]].",
+          "question": "[[The the athletes|El]] _______ [[trains|entrena a los atletas]].",
           "options": [
             "[[coach|entrenador]]",
             "[[spectator|espectador]]",
@@ -229,7 +229,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el comparativo correcto.",
       "questions": [
         {
-          "question": "[[A|Un]] [[marathon|maratón]] [[is|es]] _______ [[than|que]] [[a|una]] [[short|corta]] [[race|carrera]].",
+          "question": "[[A marathon is a|Un maratón es]] _______ [[than short race|que una corta carrera]].",
           "options": [
             "[[harder|más difícil]]",
             "[[hardest|el más difícil]]",
@@ -254,7 +254,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Beneficios del Yoga",
       "instructions": "Ordena las palabras sobre el yoga.",
-      "correctSentence": "[[Yoga|El yoga]] [[helps|ayuda]] [[me|a mí]] [[to|a]] [[improve|mejorar]] [[my|mi]] [[flexibility|flexibilidad]] [[and|y]] [[balance|equilibrio]].",
+      "correctSentence": "[[Yoga helps me to improve my flexibility and balance|El yoga ayuda a mí a mejorar mi flexibilidad y equilibrio]].",
       "words": [
         "[[improve|mejorar]]",
         "[[helps|ayuda]]",
@@ -284,7 +284,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la forma correcta para expresar que algo no es obligatorio.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[go|ir]] [[to|al]] [[the| ]] [[gym|gimnasio]] [[to|para]] [[stay|mantenerte]] [[fit|en forma]].",
+          "question": "[[You to the gym to stay fit|Tú]] _______ [[go|ir al   gimnasio para mantenerte en forma]].",
           "options": [
             "[[don't have to|no tienes que]]",
             "[[mustn't|no debes (prohibición)]]",
@@ -311,7 +311,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el lugar donde se nada.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[go|voy]] [[to|a]] [[the|la]] _______ [[to|para]] [[swim|nadar]].",
+          "question": "[[I go to the|Yo voy a la]] _______ [[to swim|para nadar]].",
           "options": [
             "[[swimming pool|piscina]]",
             "[[stadium|estadio]]",
@@ -336,7 +336,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "El Más Rápido",
       "instructions": "Forma la oración usando el superlativo.",
-      "correctSentence": "[[He|Él]] [[is|es]] [[the|el]] [[fastest|más rápido]] [[runner|corredor]] [[in|en]] [[the|el]] [[entire|entero]] [[local|local]] [[athletics|atletismo]] [[club|club]].",
+      "correctSentence": "[[He is the fastest runner in the entire local athletics club|Él es el más rápido corredor en el entero local atletismo club]].",
       "words": [
         "[[fastest|más rápido]]",
         "[[He|Él]]",
@@ -368,7 +368,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que completa la frase.",
       "questions": [
         {
-          "question": "[[Sports|El deporte]] [[helps|ayuda]] [[to|a]] _______ [[stress|el estrés]].",
+          "question": "[[Sports helps to|El deporte ayuda a]] _______ [[stress|el estrés]].",
           "options": [
             "[[reduce|reducir]]",
             "[[increase|aumentar]]",
@@ -395,7 +395,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el objeto que se usa en el golf.",
       "questions": [
         {
-          "question": "[[Golfers|Los golfistas]] [[use|usan]] _______ [[to|para]] [[hit|golpear]] [[the|la]] [[ball|bola]].",
+          "question": "[[Golfers use the ball|Los golfistas usan]] _______ [[to hit|para golpear la bola]].",
           "options": [
             "[[clubs|palos de golf]]",
             "[[rackets|raquetas]]",
@@ -422,7 +422,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo correcto.",
       "questions": [
         {
-          "question": "[[Activity|La actividad]] [[is|es]] _______ [[for|para]] [[your|tu]] [[health|salud]].",
+          "question": "[[Activity is health|La actividad es]] _______ [[for your|para tu salud]].",
           "options": [
             "[[important|importante]]",
             "[[impossible|imposible]]",
@@ -449,7 +449,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el modal de prohibición.",
       "questions": [
         {
-          "question": "[[You|Tú]] _______ [[touch|tocar]] [[the|el]] [[ball|balón]] [[with|con]] [[your|tus]] [[hands|manos]].",
+          "question": "[[You the ball with your hands|Tú]] _______ [[touch|tocar el balón con tus manos]].",
           "options": [
             "[[mustn't|no debes (prohibición)]]",
             "[[don't have to|no tienes que]]",
@@ -474,7 +474,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Comida Basura",
       "instructions": "Ordena las palabras para formar un consejo negativo.",
-      "correctSentence": "[[You|Tú]] [[shouldn't|no deberías]] [[eat|comer]] [[too|demasiada]] [[much| ]] [[junk|basura]] [[food|comida]] [[every|cada]] [[single|solo]] [[day|día]].",
+      "correctSentence": "[[You shouldn't eat too much junk food every single day|Tú no deberías comer demasiada   basura comida cada solo día]].",
       "words": [
         "[[food|comida]]",
         "[[day|día]].",
@@ -505,7 +505,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para alguien que ve el deporte.",
       "questions": [
         {
-          "question": "[[Thousands|Miles]] [[of|de]] _______ [[were|estaban]] [[at|en]] [[the|el]] [[stadium|estadio]].",
+          "question": "[[Thousands of the stadium|Miles de]] _______ [[were at|estaban en el estadio]].",
           "options": [
             "[[spectators|espectadores]]",
             "[[athletes|atletas]]",
@@ -532,7 +532,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión para 'participar'.",
       "questions": [
         {
-          "question": "[[It|Es]] [[is| ]] [[good|bueno]] [[to| ]] _______ [[in|en]] [[school|escolares]] [[sports|deportes]].",
+          "question": "[[It is good to|Es   bueno  ]] _______ [[in school sports|en escolares deportes]].",
           "options": [
             "[[take part|participar]]",
             "[[take off|despegar]]",
@@ -557,7 +557,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Dieta de Atletas",
       "instructions": "Ordena las palabras sobre la alimentación deportiva.",
-      "correctSentence": "[[Professional|Los profesionales]] [[athletes|atletas]] [[must|deben]] [[always|siempre]] [[follow|seguir]] [[a|una]] [[very|muy]] [[strict|estricta]] [[daily|diaria]] [[diet|dieta]].",
+      "correctSentence": "[[Professional athletes must always follow a very strict daily diet|Los profesionales atletas deben siempre seguir una muy estricta diaria dieta]].",
       "words": [
         "[[diet|dieta]].",
         "[[must|deben]]",
@@ -588,7 +588,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo para 'desarrollar'.",
       "questions": [
         {
-          "question": "[[Sports|El deporte]] [[helps|ayuda]] [[to|a]] _______ [[social|sociales]] [[skills|habilidades]].",
+          "question": "[[Sports helps to skills|El deporte ayuda a]] _______ [[social|sociales habilidades]].",
           "options": [
             "[[develop|desarrollar]]",
             "[[destroy|destruir]]",
@@ -615,7 +615,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para las lesiones físicas.",
       "questions": [
         {
-          "question": "[[Players|Los jugadores]] [[try|intentan]] [[to| ]] [[avoid|evitar]] _______.",
+          "question": "[[Players try to avoid|Los jugadores intentan   evitar]] _______.",
           "options": [
             "[[injuries|lesiones]]",
             "[[injustice|injusticia]]",
@@ -640,7 +640,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Importancia del Sueño",
       "instructions": "Ordena las palabras sobre el descanso.",
-      "correctSentence": "[[It|Es]] [[is| ]] [[extremely|extremadamente]] [[important|importante]] [[to| ]] [[sleep|dormir]] [[at|al]] [[least|menos]] [[eight|ocho]] [[hours|horas]] [[tonight|esta noche]].",
+      "correctSentence": "[[It is extremely important to sleep at least eight hours tonight|Es   extremadamente importante   dormir al menos ocho horas esta noche]].",
       "words": [
         "[[important|importante]]",
         "[[hours|horas]]",
@@ -672,7 +672,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para una serie de competiciones.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[won|ganaron]] [[the|el]] _______ [[last|el pasado]] [[year|año]].",
+          "question": "[[They won the year|Ellos ganaron el]] _______ [[last|el pasado año]].",
           "options": [
             "[[tournament|torneo]]",
             "[[training|entrenamiento]]",
@@ -699,7 +699,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la crema solar.",
       "questions": [
         {
-          "question": "[[Always|Siempre]] [[wear|usa]] _______ [[under|bajo]] [[the|el]] [[sun|sol]].",
+          "question": "[[Always wear sun|Siempre usa]] _______ [[under the|bajo el sol]].",
           "options": [
             "[[sunscreen|protector solar]]",
             "[[sunglasses|gafas de sol]]",
@@ -724,7 +724,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Caminar",
       "instructions": "Ordena las palabras para formar una oración sobre el ejercicio diario.",
-      "correctSentence": "[[Walking|Caminar]] [[to|al]] [[work|trabajo]] [[is|es]] [[always|siempre]] [[a|una]] [[good|buena]] [[way|forma]] [[to|de]] [[stay|mantenerse]] [[fit|en forma]].",
+      "correctSentence": "[[Walking to work is always a good way to stay fit|Caminar al trabajo es siempre una buena forma de mantenerse en forma]].",
       "words": [
         "[[work|trabajo]]",
         "[[Walking|Caminar]]",
@@ -756,7 +756,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[exercise|hago ejercicio]] [[to|para]] _______.",
+          "question": "[[I exercise to|Yo hago ejercicio para]] _______.",
           "options": [
             "[[keep fit|mantenerme en forma]]",
             "[[keep away|mantenerme alejado]]",
@@ -783,7 +783,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el adjetivo para la mente.",
       "questions": [
         {
-          "question": "_______ [[health|La salud]] [[is|es]] [[very|muy]] [[important|importante]].",
+          "question": "_______ [[health is very important|La salud es muy importante]].",
           "options": [
             "[[Mental|Mental]]",
             "[[Metal|Metal]]",
@@ -808,7 +808,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Comparación de Velocidad",
       "instructions": "Ordena las palabras usando el comparativo.",
-      "correctSentence": "[[She|Ella]] [[can|puede]] [[run|correr]] [[much|mucho]] [[faster|más rápido]] [[than|que]] [[the|las]] [[other|otras]] [[girls|chicas]] [[in|en]] [[class|clase]].",
+      "correctSentence": "[[She can run much faster than the other girls in class|Ella puede correr mucho más rápido que las otras chicas en clase]].",
       "words": [
         "[[faster|más rápido]]",
         "[[than|que]]",
@@ -840,7 +840,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el rival.",
       "questions": [
         {
-          "question": "[[Respect|Respeta]] [[your|a tu]] _______ [[during|durante]] [[the|el]] [[match|partido]].",
+          "question": "[[Respect your match|Respeta a tu]] _______ [[during the|durante el partido]].",
           "options": [
             "[[opponent|oponente/rival]]",
             "[[teammate|compañero]]",
@@ -867,7 +867,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la medalla.",
       "questions": [
         {
-          "question": "[[He|Él]] [[won|ganó]] [[the|la]] [[gold|de oro]] _______.",
+          "question": "[[He won the gold|Él ganó la de oro]] _______.",
           "options": [
             "[[medal|medalla]]",
             "[[model|modelo]]",
@@ -892,7 +892,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Energía",
       "instructions": "Ordena las palabras sobre la nutrición.",
-      "correctSentence": "[[A|Un]] [[healthy|saludable]] [[balanced|equilibrado]] [[breakfast|desayuno]] [[gives|da]] [[you|te]] [[energy|energía]] [[for|para]] [[the|el]] [[entire|entero]] [[day|día]].",
+      "correctSentence": "[[A healthy balanced breakfast gives you energy for the entire day|Un saludable equilibrado desayuno da te energía para el entero día]].",
       "words": [
         "[[breakfast|desayuno]]",
         "[[gives|da]]",
@@ -924,7 +924,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para estirar.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[essential|esencial]] [[after|después de]] [[exercise|ejercicio]].",
+          "question": "_______ [[is essential after exercise|es esencial después de ejercicio]].",
           "options": [
             "[[Stretching|Estirar]]",
             "[[Stress|Estrés]]",
@@ -951,7 +951,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el atletismo.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[love|amo]] [[watching|ver]] _______ [[events|eventos]].",
+          "question": "[[I love watching|Yo amo ver]] _______ [[events|eventos]].",
           "options": [
             "[[athletics|atletismo]]",
             "[[maths|matemáticas]]",
@@ -976,7 +976,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Nuevos Deportes",
       "instructions": "Ordena las palabras para expresar un deseo.",
-      "correctSentence": "[[I|Yo]] [[would|me]] [[really|realmente]] [[like|gustaría]] [[to| ]] [[try|probar]] [[indoor|interior]] [[rock|roca]] [[climbing|escalada]] [[this|este]] [[weekend|fin de semana]].",
+      "correctSentence": "[[I would really like to try indoor rock climbing this weekend|Yo me realmente gustaría   probar interior roca escalada este fin de semana]].",
       "words": [
         "[[like|gustaría]]",
         "[[try|probar]]",
@@ -1008,7 +1008,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para 'articulaciones'.",
       "questions": [
         {
-          "question": "[[Cycling|El ciclismo]] [[is|es]] [[good|bueno]] [[for|para]] [[your|tus]] _______.",
+          "question": "[[Cycling is good for your|El ciclismo es bueno para tus]] _______.",
           "options": [
             "[[joints|articulaciones]]",
             "[[points|puntos]]",
@@ -1035,7 +1035,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el superlativo de popular.",
       "questions": [
         {
-          "question": "[[Football|El fútbol]] [[is|es]] [[the|el]] _______ [[sport|deporte]].",
+          "question": "[[Football is the|El fútbol es el]] _______ [[sport|deporte]].",
           "options": [
             "[[most popular|más popular]]",
             "[[more popular|más popular (comparativo)]]",
@@ -1060,7 +1060,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Descanso y Entrenamiento",
       "instructions": "Ordena las palabras para hacer una comparación de igualdad.",
-      "correctSentence": "[[Sleeping|Dormir]] [[is|es]] [[just|justo]] [[as|tan]] [[important|importante]] [[for|para]] [[recovery|recuperación]] [[as|como]] [[daily|diario]] [[physical|físico]] [[training|entrenamiento]].",
+      "correctSentence": "[[Sleeping is just as important for recovery as daily physical training|Dormir es justo tan importante para recuperación como diario físico entrenamiento]].",
       "words": [
         "[[important|importante]]",
         "[[as|como]]",
@@ -1093,7 +1093,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el entrenador personal.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[hired|contraté]] [[a|un]] _______.",
+          "question": "[[I hired a|Yo contraté un]] _______.",
           "options": [
             "[[personal trainer|entrenador personal]]",
             "[[private doctor|médico privado]]",
@@ -1120,7 +1120,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la estructura correcta para comparar igualdades.",
       "questions": [
         {
-          "question": "[[Yoga|El yoga]] [[is|es]] _______ [[relaxing|relajante]] _______ [[meditation|la meditación]].",
+          "question": "[[Yoga is|El yoga es]] _______ [[relaxing|relajante]] _______ [[meditation|la meditación]].",
           "options": [
             "[[as / as|tan / como]]",
             "[[more / than|más / que]]",
@@ -1145,7 +1145,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Consejo de Cafeína",
       "instructions": "Ordena las palabras sobre el consumo de café.",
-      "correctSentence": "[[You|Tú]] [[should|deberías]] [[not|no]] [[drink|beber]] [[too|demasiado]] [[much| ]] [[coffee|café]] [[late|tarde]] [[at|por]] [[the|la]] [[night|noche]].",
+      "correctSentence": "[[You should not drink too much coffee late at the night|Tú deberías no beber demasiado   café tarde por la noche]].",
       "words": [
         "[[drink|beber]]",
         "[[coffee|café]]",
@@ -1177,7 +1177,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que significa hidratación.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[crucial|crucial]] [[for|para]] [[athletes|atletas]].",
+          "question": "_______ [[is crucial for athletes|es crucial para atletas]].",
           "options": [
             "[[Hydration|Hidratación]]",
             "[[Hesitation|Vacilación]]",
@@ -1204,7 +1204,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el superlativo de 'tall'.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[are|son]] [[the|los]] _______ [[players|jugadores]].",
+          "question": "[[They are the|Ellos son los]] _______ [[players|jugadores]].",
           "options": [
             "[[tallest|más altos]]",
             "[[taller|más altos (comparativo)]]",
@@ -1229,7 +1229,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ejercicio Diario",
       "instructions": "Ordena las palabras para un consejo de vida activa.",
-      "correctSentence": "[[Always|Siempre]] [[take|toma]] [[the|las]] [[stairs|escaleras]] [[instead|en vez]] [[of|de]] [[using|usar]] [[the|el]] [[elevator|ascensor]] [[every|cada]] [[day|día]].",
+      "correctSentence": "[[Always take the stairs instead of using the elevator every day|Siempre toma las escaleras en vez de usar el ascensor cada día]].",
       "words": [
         "[[stairs|escaleras]]",
         "[[elevator|ascensor]]",
@@ -1261,7 +1261,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el comparativo de importante.",
       "questions": [
         {
-          "question": "[[Consistency|La constancia]] [[is|es]] _______ [[than|que]] [[intensity|la intensidad]].",
+          "question": "[[Consistency is|La constancia es]] _______ [[than intensity|que la intensidad]].",
           "options": [
             "[[more important|más importante]]",
             "[[most important|la más importante]]",
@@ -1288,7 +1288,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para las instalaciones.",
       "questions": [
         {
-          "question": "[[The|El]] [[gym|gimnasio]] [[has|tiene]] [[great|grandes]] _______.",
+          "question": "[[The gym has great|El gimnasio tiene grandes]] _______.",
           "options": [
             "[[facilities|instalaciones]]",
             "[[faculties|facultades]]",
@@ -1313,7 +1313,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Dieta Saludable",
       "instructions": "Ordena las palabras para formar un consejo nutricional.",
-      "correctSentence": "[[You|Tú]] [[should|deberías]] [[eat|comer]] [[more|más]] [[fresh|frescas]] [[fruits|frutas]] [[and|y]] [[green|verdes]] [[vegetables|verduras]] [[every|cada]] [[single|solo]] [[day|día]].",
+      "correctSentence": "[[You should eat more fresh fruits and green vegetables every single day|Tú deberías comer más frescas frutas y verdes verduras cada solo día]].",
       "words": [
         "[[fruits|frutas]]",
         "[[vegetables|verduras]]",
@@ -1346,7 +1346,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que significa resistencia física.",
       "questions": [
         {
-          "question": "[[Running|Correr]] [[builds|construye]] _______.",
+          "question": "[[Running builds|Correr construye]] _______.",
           "options": [
             "[[endurance|resistencia]]",
             "[[entrance|entrada]]",
@@ -1371,7 +1371,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Entrenamiento Diario",
       "instructions": "Ordena las palabras sobre la rutina de entrenamiento.",
-      "correctSentence": "[[The|Los]] [[players|jugadores]] [[train|entrenan]] [[for|por]] [[many|muchas]] [[hours|horas]] [[every|cada]] [[day|día]] [[during|durante]] [[the|el]] [[summer|verano]].",
+      "correctSentence": "[[The players train for many hours every day during the summer|Los jugadores entrenan por muchas horas cada día durante el verano]].",
       "words": [
         "[[hours|horas]]",
         "[[train|entrenan]]",

@@ -13,7 +13,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[hacer|hacer]] [[la|la]] [[maleta|maleta]]) _______ [[my|mi/mis]] [[suitcase|suitcase]].",
+          "question": "[[I la maleta suitcase|Yo]] ([[hacer|hacer la maleta]]) _______ [[my|mi/mis suitcase]].",
           "options": [
             "[[pack|pack]]",
             "[[are|son/están]]",
@@ -39,7 +39,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Don't|No]] [[forget|forget]] [[your|tu/tus]] ([[protector|protector]] [[solar|solar]]) [[_______|_______]].",
+          "question": "[[Don't forget your solar|No forget tu/tus]] ([[protector|protector solar]]) [[_______|_______]].",
           "options": [
             "[[is|es/está]]",
             "[[are|son/están]]",
@@ -65,7 +65,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesitar]] [[a|un/una]] ([[cargador|cargador]]) _______ [[for|para/por]] [[my|mi/mis]] [[phone|teléfono]].",
+          "question": "[[I need a my|Yo necesitar un/una]] ([[cargador phone|cargador]]) _______ [[for|para/por mi/mis teléfono]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Put|Put]] [[your|tu/tus]] [[clothes|clothes]] ([[en|en]]) _______ [[the|el/la/los/las]] [[bag|bolsa/mochila]].",
+          "question": "[[Put your clothes bag|Put tu/tus clothes]] ([[en|en]]) _______ [[the|el/la/los/las bolsa/mochila]].",
           "options": [
             "[[is|es/está]]",
             "[[are|son/están]]",
@@ -115,7 +115,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[suitcase|suitcase]] [[is|es/está]] [[too|demasiado/también]] [[full|full]].",
+      "correctSentence": "[[My suitcase is too full|Mi/mis suitcase es/está demasiado/también full]].",
       "words": [
         "[[My|Mi/mis]]",
         "[[full|full]].",
@@ -138,7 +138,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[need|necesitar]] [[my|mi/mis]] [[sunglasses|sunglasses]].",
+      "correctSentence": "[[I need my sunglasses|Yo necesitar mi/mis sunglasses]].",
       "words": [
         "[[need|necesitar]]",
         "[[my|mi/mis]]",
@@ -160,7 +160,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Pack|Pack]] [[your|tu/tus]] [[swimsuit|swimsuit]] [[for|para/por]] [[the|el/la/los/las]] [[beach|playa]].",
+      "correctSentence": "[[Pack your swimsuit for the beach|Pack tu/tus swimsuit para/por el/la/los/las playa]].",
       "words": [
         "[[beach|playa]].",
         "[[Pack|Pack]]",
@@ -184,7 +184,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Where|Dónde]] [[is|es/está]] [[my|mi/mis]] [[phone|teléfono]] [[charger|charger]]?",
+      "correctSentence": "[[Where is my phone charger|Dónde es/está mi/mis teléfono charger]]?",
       "words": [
         "[[my|mi/mis]]",
         "[[is|es/está]]",
@@ -207,7 +207,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Don't|No]] [[forget|forget]] [[your|tu/tus]] [[toiletries|toiletries]].",
+      "correctSentence": "[[Don't forget your toiletries|No forget tu/tus toiletries]].",
       "words": [
         "[[toiletries|toiletries]].",
         "[[your|tu/tus]]",

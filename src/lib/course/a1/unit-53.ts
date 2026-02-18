@@ -13,7 +13,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tener/haber]] ([[algo|algo]] [[de|de]]) _______ [[cheese|queso]].",
+          "question": "[[I have|Yo tener/haber]] ([[algo de|algo de]]) _______ [[cheese|queso]].",
           "options": [
             "[[some|some]]",
             "[[is|es/está]]",
@@ -39,7 +39,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[don't|no]] [[have|tener/haber]] ([[nada|nada]] [[de|de]]) _______ [[sugar|azúcar]].",
+          "question": "[[I don't have de|Yo no tener/haber]] ([[nada|nada de]]) _______ [[sugar|azúcar]].",
           "options": [
             "[[any|alguno/a]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Do|Hacer]] [[you|tú/usted]] [[have|tener/haber]] ([[algo|algo]] [[de|de]]) _______ [[salt|sal]]?",
+          "question": "[[Do you have de|Hacer tú/usted tener/haber]] ([[algo|algo de]]) _______ [[salt|sal]]?",
           "options": [
             "[[any|alguno/a]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[need|necesitar]] ([[algunos|algunos]]) _______ [[bananas|bananas]].",
+          "question": "[[We need|Nosotros necesitar]] ([[algunos|algunos]]) _______ [[bananas|bananas]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[There|Allí/ahí]] [[is|es/está]] [[some|some]] [[butter|mantequilla]] [[in|en]] [[the|el/la/los/las]] [[fridge|fridge]].",
+      "correctSentence": "[[There is some butter in the fridge|Allí/ahí es/está some mantequilla en el/la/los/las fridge]].",
       "words": [
         "[[the|el/la/los/las]]",
         "[[some|some]]",
@@ -140,7 +140,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[don't|no]] [[have|tener/haber]] [[any|alguno/a]] [[money|dinero]].",
+      "correctSentence": "[[I don't have any money|Yo no tener/haber alguno/a dinero]].",
       "words": [
         "[[I|Yo]]",
         "[[don't|no]]",
@@ -163,7 +163,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Is|Es/está]] [[there|allí/ahí]] [[any|alguno/a]] [[salt|sal]] [[on|en/sobre]] [[the|el/la/los/las]] [[table|mesa]]?",
+      "correctSentence": "[[Is there any salt on the table|Es/está allí/ahí alguno/a sal en/sobre el/la/los/las mesa]]?",
       "words": [
         "[[there|allí/ahí]]",
         "[[salt|sal]]",
@@ -188,7 +188,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[need|necesitar]] [[some|some]] [[sugar|azúcar]] [[for|para/por]] [[the|el/la/los/las]] [[cake|cake]].",
+      "correctSentence": "[[We need some sugar for the cake|Nosotros necesitar some azúcar para/por el/la/los/las cake]].",
       "words": [
         "[[for|para/por]]",
         "[[some|some]]",
@@ -213,7 +213,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[want|querer]] [[some|some]] [[bananas|bananas]].",
+      "correctSentence": "[[I want some bananas|Yo querer some bananas]].",
       "words": [
         "[[bananas|bananas]].",
         "[[some|some]]",

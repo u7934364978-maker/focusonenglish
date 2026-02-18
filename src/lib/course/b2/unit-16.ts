@@ -12,7 +12,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Redes sociales",
       "instructions": "Ordena las palabras para hablar de comunicación moderna.",
-      "correctSentence": "[[Social|Las redes]] [[media|sociales]] [[has|han]] [[fundamentally|cambiado]] [[changed|fundamentalmente]] [[how|cómo]] [[we|interactuamos]] [[interact|con]] [[with|los]] [[others.|demás.]]",
+      "correctSentence": "[[Social media has fundamentally changed how we interact with others.|Las redes sociales han cambiado fundamentalmente cómo interactuamos con los demás.]]",
       "words": [
         "[[media|sociales]]",
         "[[changed|fundamentalmente]]",
@@ -41,7 +41,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Feed de noticias",
       "instructions": "Ordena las palabras usando gerundios tras verbos de preferencia.",
-      "correctSentence": "[[I|Disfruto]] [[enjoy|deslizarme]] [[scrolling|por]] [[through|mi]] [[my|feed]] [[feed|para]] [[to|estar]] [[stay|al]] [[updated|día]] [[on|de]] [[news.|las noticias.]]",
+      "correctSentence": "[[I enjoy scrolling through my feed to stay updated on news.|Disfruto deslizarme por mi feed para estar al día de las noticias.]]",
       "words": [
         "[[enjoy|deslizarme]]",
         "[[feed|para]]",
@@ -71,7 +71,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Tiempo de pantalla",
       "instructions": "Ordena las palabras usando el segundo condicional para consejos.",
-      "correctSentence": "[[If|Si]] [[I|yo]] [[were|fuera]] [[you,|tú,]] [[I|limitaría]] [[would|mi]] [[limit|tiempo]] [[my|de]] [[screen|pantalla]] [[time|diario.]] [[daily.| ]]",
+      "correctSentence": "[[If I were you, I would limit my screen time daily.|Si yo fuera tú, limitaría mi tiempo de pantalla diario.  ]]",
       "words": [
         "[[were|fuera]]",
         "[[limit|tiempo]]",
@@ -101,7 +101,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Influencers",
       "instructions": "Ordena las palabras para hablar de marketing digital.",
-      "correctSentence": "[[Influencers|Los influencers]] [[play|desempeñan]] [[a|un]] [[significant|papel]] [[role|importante]] [[in|en]] [[modern|las estrategias]] [[marketing|de marketing]] [[strategies.|modernas.]]",
+      "correctSentence": "[[Influencers play a significant role in modern marketing strategies.|Los influencers desempeñan un papel importante en las estrategias de marketing modernas.]]",
       "words": [
         "[[play|desempeñan]]",
         "[[role|importante]]",
@@ -129,7 +129,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Privacidad",
       "instructions": "Ordena las palabras usando infinitivo tras 'forget'.",
-      "correctSentence": "[[Don't|No]] [[forget|olvides]] [[to|revisar]] [[check|los]] [[the|ajustes]] [[privacy|de]] [[settings|privacidad]] [[on|de]] [[your|tu]] [[profile.|perfil.]]",
+      "correctSentence": "[[Don't forget to check the privacy settings on your profile.|No olvides revisar los ajustes de privacidad de tu perfil.]]",
       "words": [
         "[[forget|olvides]]",
         "[[the|ajustes]]",
@@ -158,7 +158,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ciberacoso",
       "instructions": "Ordena las palabras para hablar de problemas en red.",
-      "correctSentence": "[[Cyberbullying|El ciberacoso]] [[is|es]] [[a|un]] [[serious|problema]] [[issue|grave]] [[that|que]] [[needs|necesita]] [[more|más]] [[attention.|atención.]]",
+      "correctSentence": "[[Cyberbullying is a serious issue that needs more attention.|El ciberacoso es un problema grave que necesita más atención.]]",
       "words": [
         "[[is|es]]",
         "[[issue|grave]]",
@@ -186,7 +186,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Dejar una app",
       "instructions": "Ordena las palabras usando 'stop + -ing' para cesar un hábito.",
-      "correctSentence": "[[I|Dejé]] [[stopped|de]] [[using|usar]] [[that|esa]] [[app|aplicación]] [[because|porque]] [[it|era]] [[was|demasiado]] [[too|distrayente.]] [[distracting.| ]]",
+      "correctSentence": "[[I stopped using that app because it was too distracting.|Dejé de usar esa aplicación porque era demasiado distrayente.  ]]",
       "words": [
         "[[stopped|de]]",
         "[[app|aplicación]]",
@@ -215,7 +215,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mensajería instantánea",
       "instructions": "Ordena las palabras para hablar de herramientas de comunicación.",
-      "correctSentence": "[[Instant|La mensajería]] [[messaging|instantánea]] [[has|ha]] [[made|hecho]] [[communication|que la comunicación]] [[faster|sea más rápida]] [[and|y]] [[more|más]] [[efficient.|eficiente.]]",
+      "correctSentence": "[[Instant messaging has made communication faster and more efficient.|La mensajería instantánea ha hecho que la comunicación sea más rápida y más eficiente.]]",
       "words": [
         "[[messaging|instantánea]]",
         "[[made|hecho]]",
@@ -243,7 +243,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Estafa en línea",
       "instructions": "Ordena las palabras usando inversión en el tercer condicional.",
-      "correctSentence": "[[Had|Si]] [[I|hubiera]] [[known|sabido]] [[it|que]] [[was|era]] [[a|una]] [[scam,|estafa,]] [[I|no]] [[wouldn't|habría]] [[have|hecho]] [[clicked.|clic.]]",
+      "correctSentence": "[[Had I known it was a scam, I wouldn't have clicked.|Si hubiera sabido que era una estafa, no habría hecho clic.]]",
       "words": [
         "[[I|hubiera]]",
         "[[scam,|estafa,]]",
@@ -273,7 +273,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hacerse viral",
       "instructions": "Ordena las palabras para hablar de visibilidad online.",
-      "correctSentence": "[[Going|Hacerse]] [[viral|viral]] [[can|puede]] [[provide|proporcionar]] [[a|un]] [[huge|gran]] [[boost|impulso]] [[to|a]] [[small|pequeñas]] [[businesses.|empresas.]]",
+      "correctSentence": "[[Going viral can provide a huge boost to small businesses.|Hacerse viral puede proporcionar un gran impulso a pequeñas empresas.]]",
       "words": [
         "[[viral|viral]]",
         "[[provide|proporcionar]]",
@@ -302,7 +302,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reportar abusos",
       "instructions": "Ordena las palabras usando el subjuntivo formal.",
-      "correctSentence": "[[It|Es]] [[is|esencial]] [[essential|que]] [[that|los]] [[users|usuarios]] [[report|denuncien]] [[any|cualquier]] [[abusive|contenido]] [[content|abusivo]] [[immediately.|de inmediato.]]",
+      "correctSentence": "[[It is essential that users report any abusive content immediately.|Es esencial que los usuarios denuncien cualquier contenido abusivo de inmediato.]]",
       "words": [
         "[[essential|que]]",
         "[[report|denuncien]]",
@@ -331,7 +331,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Algoritmos",
       "instructions": "Ordena las palabras para hablar de personalización.",
-      "correctSentence": "[[Algorithms|Los algoritmos]] [[determine|determinan]] [[what|qué]] [[content|contenido]] [[we|vemos]] [[see|en]] [[on|nuestros]] [[our|feeds.]] [[feeds.| ]]",
+      "correctSentence": "[[Algorithms determine what content we see on our feeds.|Los algoritmos determinan qué contenido vemos en nuestros feeds.  ]]",
       "words": [
         "[[determine|determinan]]",
         "[[content|contenido]]",
@@ -359,7 +359,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Arrepentimiento online",
       "instructions": "Ordena las palabras usando 'regret + -ing' para el pasado.",
-      "correctSentence": "[[I|Me]] [[regret|arrepiento]] [[posting|de haber]] [[that|publicado]] [[comment|ese]] [[during|comentario]] [[the|durante]] [[heated|la acalorada]] [[argument.|discusión.]]",
+      "correctSentence": "[[I regret posting that comment during the heated argument.|Me arrepiento de haber publicado ese comentario durante la acalorada discusión.]]",
       "words": [
         "[[regret|arrepiento]]",
         "[[comment|ese]]",
@@ -387,7 +387,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cuentas verificadas",
       "instructions": "Ordena las palabras para hablar de autenticidad.",
-      "correctSentence": "[[Verification|Las insignias]] [[badges|de verificación]] [[help|ayudan a]] [[distinguish|distinguir]] [[official|las cuentas]] [[accounts|oficiales]] [[from|de las]] [[parodies.|parodias.]]",
+      "correctSentence": "[[Verification badges help distinguish official accounts from parodies.|Las insignias de verificación ayudan a distinguir las cuentas oficiales de las parodias.]]",
       "words": [
         "[[badges|de verificación]]",
         "[[distinguish|distinguir]]",
@@ -414,7 +414,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Evitar estafas",
       "instructions": "Ordena las palabras usando inversión con 'Only by'.",
-      "correctSentence": "[[Only|Solo]] [[by|siendo]] [[being|cuidadosos]] [[careful|podemos]] [[can|evitar]] [[we|las]] [[avoid|estafas]] [[online|en]] [[scams.|línea.]]",
+      "correctSentence": "[[Only by being careful can we avoid online scams.|Solo siendo cuidadosos podemos evitar las estafas en línea.]]",
       "words": [
         "[[by|siendo]]",
         "[[careful|cuidadosos]]",
@@ -442,7 +442,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Uso de hashtags",
       "instructions": "Ordena las palabras para hablar de búsqueda de contenido.",
-      "correctSentence": "[[The|El]] [[hashtag|hashtag]] [[allows|permite]] [[users|a los usuarios]] [[to|encontrar]] [[find|contenido]] [[related|relacionado]] [[content|fácilmente.]] [[easily.| ]]",
+      "correctSentence": "[[The hashtag allows users to find related content easily.|El hashtag permite a los usuarios encontrar contenido relacionado fácilmente.  ]]",
       "words": [
         "[[hashtag|hashtag]]",
         "[[find|contenido]]",
@@ -470,7 +470,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Compartir fotos",
       "instructions": "Ordena las palabras usando 'I'd rather' para preferencias sobre otros.",
-      "correctSentence": "[[I'd|Preferiría]] [[rather|que]] [[you|no]] [[didn't|compartieras]] [[share|mis]] [[my|fotos]] [[personal|personales]] [[photos|en]] [[online.|línea.]]",
+      "correctSentence": "[[I'd rather you didn't share my personal photos online.|Preferiría que no compartieras mis fotos personales en línea.]]",
       "words": [
         "[[rather|que]]",
         "[[my|fotos]]",
@@ -498,7 +498,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Interfaz de usuario",
       "instructions": "Ordena las palabras para hablar de diseño de apps.",
-      "correctSentence": "[[The|La]] [[app's|interfaz]] [[interface|de la app]] [[is|es]] [[very|muy]] [[intuitive|intuitiva]] [[and|y]] [[user-friendly.|fácil de usar.]]",
+      "correctSentence": "[[The app's interface is very intuitive and user-friendly.|La interfaz de la app es muy intuitiva y fácil de usar.]]",
       "words": [
         "[[interface|de la app]]",
         "[[intuitive|intuitiva]]",
@@ -525,7 +525,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pérdida de móvil",
       "instructions": "Ordena las palabras usando 'Supposing' para hipótesis.",
-      "correctSentence": "[[Supposing|Suponiendo]] [[you|que]] [[lost|perdieras]] [[your|tu]] [[phone,|teléfono,]] [[how|¿cómo]] [[would|te]] [[you|pondrías]] [[contact|en contacto]] [[me?|conmigo?]]",
+      "correctSentence": "[[Supposing you lost your phone, how would you contact me?|Suponiendo que perdieras tu teléfono, ¿cómo te pondrías en contacto conmigo?]]",
       "words": [
         "[[you|que]]",
         "[[phone,|teléfono,]]",
@@ -554,7 +554,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Filtración de datos",
       "instructions": "Ordena las palabras para hablar de seguridad informática.",
-      "correctSentence": "[[Data|Las filtraciones]] [[breaches|de datos]] [[can|pueden]] [[expose|exponer]] [[sensitive|información]] [[information|sensible]] [[to|a]] [[hackers.|los hackers.]]",
+      "correctSentence": "[[Data breaches can expose sensitive information to hackers.|Las filtraciones de datos pueden exponer información sensible a los hackers.]]",
       "words": [
         "[[breaches|de datos]]",
         "[[expose|exponer]]",
@@ -581,7 +581,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reunión online",
       "instructions": "Ordena las palabras usando 'Providing that'.",
-      "correctSentence": "[[Providing|Siempre]] [[that|que]] [[the|el]] [[internet|internet]] [[is|esté]] [[stable,|estable,]] [[we|podemos]] [[can|empezar]] [[start|la]] [[the|reunión.]] [[meeting.| ]]",
+      "correctSentence": "[[Providing that the internet is stable, we can start the meeting.|Siempre que el internet esté estable, podemos empezar la reunión.  ]]",
       "words": [
         "[[that|que]]",
         "[[stable,|estable,]]",
@@ -610,7 +610,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Engagement",
       "instructions": "Ordena las palabras para hablar de métricas digitales.",
-      "correctSentence": "[[Engagement|El compromiso]] [[is|es]] [[a|una]] [[key|métrica]] [[metric|clave]] [[for|para]] [[measuring|medir el]] [[social|éxito en las]] [[media|redes]] [[success.|sociales.]]",
+      "correctSentence": "[[Engagement is a key metric for measuring social media success.|El compromiso es una métrica clave para medir el éxito en las redes sociales.]]",
       "words": [
         "[[is|es]]",
         "[[metric|clave]]",
@@ -639,7 +639,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Subir video",
       "instructions": "Ordena las palabras usando 'as soon as'.",
-      "correctSentence": "[[I'll|Te]] [[call|llamaré]] [[you|en cuanto]] [[as|el]] [[soon|video]] [[as|termine]] [[the|de]] [[video|subirse.]] [[finishes| ]] [[uploading.| ]]",
+      "correctSentence": "[[I'll call you as soon as the video finishes uploading.|Te llamaré en cuanto el video termine de subirse.    ]]",
       "words": [
         "[[call|llamaré]]",
         "[[as|el]]",
@@ -668,7 +668,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mensajes directos",
       "instructions": "Ordena las palabras para hablar de privacidad en redes.",
-      "correctSentence": "[[Direct|Los mensajes]] [[messages|directos]] [[allow|permiten]] [[for|conversaciones]] [[private|privadas]] [[conversations|en]] [[on|plataformas]] [[public|públicas.]] [[platforms.| ]]",
+      "correctSentence": "[[Direct messages allow for private conversations on public platforms.|Los mensajes directos permiten conversaciones privadas en plataformas públicas.  ]]",
       "words": [
         "[[messages|directos]]",
         "[[private|privadas]]",
@@ -696,7 +696,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Notificaciones",
       "instructions": "Ordena las palabras usando 'Unless'.",
-      "correctSentence": "[[Unless|A menos]] [[you|que]] [[turn|desactives]] [[off|las]] [[notifications,|notificaciones,]] [[you|te]] [[will|distraerás.]] [[be| ]] [[distracted.| ]]",
+      "correctSentence": "[[Unless you turn off notifications, you will be distracted.|A menos que desactives las notificaciones, te distraerás.    ]]",
       "words": [
         "[[you|que]]",
         "[[notifications,|notificaciones,]]",
@@ -728,7 +728,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta tras 'suggest'.",
       "questions": [
         {
-          "question": "[[I|Sugiero]] [[suggest| ]] _______ [[a|probar]] [[different|una]] [[app|aplicación]] [[for|diferente]] [[video|para]] [[editing.|edición de video.]]",
+          "question": "[[I suggest app for video editing.|Sugiero  ]] _______ [[a different|probar una aplicación diferente para edición de video.]]",
           "options": ["[[trying|probar]]", "[[to try|probar (inf)]]", "[[tried|probó]]"],
           "correctAnswer": 0,
           "explanation": "'Suggest' suele ir seguido de gerundio si no hay un sujeto intermedio.",
@@ -751,7 +751,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para información falsa.",
       "questions": [
         {
-          "question": "_______ [[can|puede]] [[spread|extenderse]] [[very|muy]] [[quickly|rápido]] [[through|a través de]] [[social|las redes]] [[networks.|sociales.]]",
+          "question": "_______ [[can spread very quickly through social networks.|puede extenderse muy rápido a través de las redes sociales.]]",
           "options": ["[[Misinformation|La desinformación]]", "[[Verification|La verificación]]", "[[Collaboration|La colaboración]]"],
           "correctAnswer": 0,
           "explanation": "'Misinformation' es información falsa o inexacta que se difunde, a veces sin mala intención.",
@@ -774,7 +774,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta para la inversión en el tercer condicional.",
       "questions": [
         {
-          "question": "_______ [[the|Si]] [[link|el]] [[been|enlace]] [[broken,|hubiera estado roto,]] [[I|no]] [[wouldn't|habría]] [[have|podido]] [[been|verlo.]] [[able| ]] [[to| ]] [[see| ]] [[it.| ]]",
+          "question": "_______ [[the link been broken, I wouldn't have been able to see it.|Si el enlace hubiera estado roto, no habría podido verlo.        ]]",
           "options": ["[[Had|Si]]", "[[If|Si (normal)]]", "[[Was|Era]]"],
           "correctAnswer": 0,
           "explanation": "Inversión 'Had + sujeto + participio' para el tercer condicional.",
@@ -797,7 +797,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para contenido creado por usuarios.",
       "questions": [
         {
-          "question": "_______ [[content|El contenido]] [[is|generado]] [[crucial|por el usuario]] [[for|es]] [[online|crucial para]] [[communities.|las comunidades online.]]",
+          "question": "_______ [[content is crucial for online communities.|El contenido generado por el usuario es crucial para las comunidades online.]]",
           "options": ["[[User-generated|Generado por el usuario]]", "[[Algorithm-driven|Guiado por algoritmos]]", "[[Corporate-owned|De propiedad corporativa]]"],
           "correctAnswer": 0,
           "explanation": "'User-generated content' (UGC) incluye blogs, videos, fotos y posts creados por usuarios.",
@@ -820,7 +820,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para un recuerdo del pasado.",
       "questions": [
         {
-          "question": "[[I'll|Nunca]] [[never| ]] [[forget|olvidaré haber visto]] _______ [[that|ese]] [[viral|video]] [[video|viral]] [[for|por]] [[the|primera]] [[first|vez.]] [[time.| ]]",
+          "question": "[[I'll never forget viral the first time.|Nunca   olvidaré haber visto]] _______ [[that video for|ese video viral por primera vez.  ]]",
           "options": ["[[seeing|haber visto]]", "[[to see|ver (futuro)]]", "[[saw|visto]]"],
           "correctAnswer": 0,
           "explanation": "'Forget + -ing' se refiere a un recuerdo de una acción pasada.",
@@ -843,7 +843,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una publicación de estado.",
       "questions": [
         {
-          "question": "[[A|Una]] _______ _______ [[is|es]] [[a|un]] [[post|post]] [[that|que]] [[tells|dice a]] [[others|otros]] [[what|qué]] [[you|estás]] [[are|haciendo.]] [[doing.| ]]",
+          "question": "[[A a post that tells others what you are doing.|Una]] _______ _______ [[is|es un post que dice a otros qué estás haciendo.  ]]",
           "options": ["[[status update|actualización de estado]]", "[[password reset|reinicio de contraseña]]", "[[backup file|copia de seguridad]]"],
           "correctAnswer": 0,
           "explanation": "'Status update' es una función común en redes sociales para compartir pensamientos o actividades.",
@@ -866,7 +866,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta tras 'Suppose'.",
       "questions": [
         {
-          "question": "[[Suppose|Imagina]] [[they|que]] _______ [[your|eliminaran]] [[account,|tu cuenta,]] [[what|¿qué]] [[would|harías?]] [[you| ]] [[do?| ]]",
+          "question": "[[Suppose they what would you do?|Imagina que]] _______ [[your account,|eliminaran tu cuenta, ¿qué harías?    ]]",
           "options": ["[[deleted|eliminaran]]", "[[delete|eliminen]]", "[[will delete|eliminarán]]"],
           "correctAnswer": 0,
           "explanation": "'Suppose' se sigue de past simple para situaciones imaginarias en el presente o futuro.",
@@ -889,7 +889,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para impedir el contacto.",
       "questions": [
         {
-          "question": "[[To| ]] _______ [[someone|bloquear a alguien]] [[means|significa]] [[to|impedirle]] [[stop| ]] [[them| ]] [[from|que]] [[contacting|se ponga en]] [[you.|contacto contigo.]]",
+          "question": "[[To means to stop them from contacting you.| ]] _______ [[someone|bloquear a alguien significa impedirle     que se ponga en contacto contigo.]]",
           "options": ["[[block|bloquear]]", "[[tag|etiquetar]]", "[[follow|seguir]]"],
           "correctAnswer": 0,
           "explanation": "'Block' es una medida de seguridad para evitar interacciones no deseadas.",
@@ -912,7 +912,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma para la inversión en el segundo condicional.",
       "questions": [
         {
-          "question": "_______ [[users|Si los usuarios]] [[to|fueran]] [[be|más]] [[more|conscientes,]] [[aware,|habría]] [[there|menos]] [[would|problemas.]] [[be| ]] [[fewer| ]] [[issues.| ]]",
+          "question": "_______ [[users to be more aware, there would be fewer issues.|Si los usuarios fueran más conscientes, habría menos problemas.      ]]",
           "options": ["[[Were|Si]]", "[[Was|Era]]", "[[Did|Hizo]]"],
           "correctAnswer": 0,
           "explanation": "Inversión 'Were + sujeto + to + infinitivo' para el segundo condicional formal.",
@@ -935,7 +935,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para enlazar un perfil.",
       "questions": [
         {
-          "question": "[[To| ]] _______ [[someone|etiquetar a alguien]] [[is|es]] [[to|enlazar]] [[link|su]] [[their|perfil]] [[profile|en]] [[in|un]] [[a|post]] [[post|o]] [[or|foto.]] [[photo.| ]]",
+          "question": "[[To is to link their profile in a post or photo.| ]] _______ [[someone|etiquetar a alguien es enlazar su perfil en un post o foto.  ]]",
           "options": ["[[tag|etiquetar]]", "[[hide|ocultar]]", "[[mute|silenciar]]"],
           "correctAnswer": 0,
           "explanation": "'Tagging' permite que otras personas vean quién aparece en una publicación.",
@@ -958,7 +958,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector condicional formal.",
       "questions": [
         {
-          "question": "_______ [[they|siempre que]] [[follow|sigan]] [[the|las]] [[rules,|normas,]] [[they|pueden]] [[can|quedarse]] [[stay|en]] [[in|el]] [[the|grupo.]] [[group.| ]]",
+          "question": "_______ [[they follow the rules, they can stay in the group.|siempre que sigan las normas, pueden quedarse en el grupo.  ]]",
           "options": ["[[Providing|Siempre que]]", "[[Unless|A menos que]]", "[[Whether|Si (elección)]]"],
           "correctAnswer": 0,
           "explanation": "'Providing' se usa para indicar una condición necesaria.",
@@ -981,7 +981,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una persona influyente en redes.",
       "questions": [
         {
-          "question": "[[An|Un]] _______ [[is|es]] [[someone|alguien]] [[who|que]] [[can|puede]] [[affect|afectar]] [[purchase|las decisiones]] [[decisions.|de compra.]]",
+          "question": "[[An someone who can affect purchase decisions.|Un]] _______ [[is|es alguien que puede afectar las decisiones de compra.]]",
           "options": ["[[influencer|influencer]]", "[[follower|seguidor]]", "[[subscriber|suscriptor]]"],
           "correctAnswer": 0,
           "explanation": "Los 'influencers' tienen autoridad o conocimiento sobre temas específicos ante su audiencia.",
@@ -1004,7 +1004,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del subjuntivo para un arrepentimiento.",
       "questions": [
         {
-          "question": "[[I|Ojalá]] [[wish| ]] [[I|no]] _______ [[spent|hubiera pasado]] [[so|tanto]] [[much|tiempo]] [[time|con]] [[on|el]] [[my|móvil]] [[phone|hoy.]] [[today.| ]]",
+          "question": "[[I wish I so on my phone today.|Ojalá   no]] _______ [[spent much time|hubiera pasado tanto tiempo con el móvil hoy.  ]]",
           "options": ["[[hadn't|no hubiera]]", "[[didn't|no]]", "[[wouldn't|no habría]]"],
           "correctAnswer": 0,
           "explanation": "Tras 'I wish', usamos el past perfect (hadn't spent) para arrepentimientos sobre el pasado.",
@@ -1027,7 +1027,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa 'quitar el sonido'.",
       "questions": [
         {
-          "question": "[[Notifications|Las notificaciones]] [[can|pueden]] [[be|ser]] _______ [[to|para]] [[avoid|evitar]] [[interruptions.|interrupciones.]]",
+          "question": "[[Notifications can be avoid|Las notificaciones pueden ser]] _______ [[to interruptions.|para evitar interrupciones.]]",
           "options": ["[[silenced|silenciadas]]", "[[enhanced|mejoradas]]", "[[deleted|borradas]]"],
           "correctAnswer": 0,
           "explanation": "'Silence' o 'mute' se usan para desactivar avisos sonoros.",
@@ -1050,7 +1050,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para completar la inversión con 'Little'.",
       "questions": [
         {
-          "question": "[[Little|Poco]] _______ [[I|sabía]] [[know|que]] [[that|mi]] [[my|post]] [[post|llegaría]] [[would|a]] [[reach|tanta]] [[so|gente.]] [[many| ]] [[people.| ]]",
+          "question": "[[Little know that my post would reach so many people.|Poco]] _______ [[I|sabía que mi post llegaría a tanta gente.    ]]",
           "options": ["[[did|sabía]]", "[[had|había]]", "[[do|sé]]"],
           "correctAnswer": 0,
           "explanation": "Inversión 'Little + did + sujeto + infinitivo' para expresar falta total de conocimiento.",
@@ -1073,7 +1073,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para alguien que se suscribe a un perfil.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[is|es]] [[someone|alguien]] [[who|que]] [[subscribes|se suscribe]] [[to|para]] [[see|ver]] [[your|tus]] [[updates.|actualizaciones.]]",
+          "question": "[[A someone who subscribes to see your updates.|Un]] _______ [[is|es alguien que se suscribe para ver tus actualizaciones.]]",
           "options": ["[[follower|seguidor]]", "[[hater|odiador]]", "[[stranger|extraño]]"],
           "correctAnswer": 0,
           "explanation": "Un 'follower' es un usuario que elige ver el contenido de otro en su feed.",
@@ -1096,7 +1096,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta tras 'I'd rather' para otra persona.",
       "questions": [
         {
-          "question": "[[I'd|Preferiría]] [[rather|que]] [[you|no]] _______ [[me|me etiquetaras]] [[in|en]] [[that|esa]] [[embarrassing|foto]] [[photo.|vergonzosa.]]",
+          "question": "[[I'd rather you in photo.|Preferiría que no]] _______ [[me that embarrassing|me etiquetaras en esa foto vergonzosa.]]",
           "options": ["[[didn't tag|no etiquetaras]]", "[[not tag|no etiquetar]]", "[[don't tag|no etiquetes]]"],
           "correctAnswer": 0,
           "explanation": "Con un sujeto distinto, usamos past simple para una preferencia negativa sobre el presente.",
@@ -1119,7 +1119,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para los temas más populares.",
       "questions": [
         {
-          "question": "_______ _______ [[are|son]] [[the|los]] [[most|temas]] [[popular|más]] [[subjects|populares]] [[at|en]] [[the|este]] [[moment.|momento.]]",
+          "question": "_______ _______ [[are the most popular subjects at the moment.|son los temas más populares en este momento.]]",
           "options": ["[[Trending topics|Temas de tendencia]]", "[[Breaking news|Noticias de última hora]]", "[[Public records|Registros públicos]]"],
           "correctAnswer": 0,
           "explanation": "'Trending topics' son los temas que están recibiendo más atención en una red social en tiempo real.",
@@ -1142,7 +1142,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para la inversión con 'Hardly'.",
       "questions": [
         {
-          "question": "[[Hardly|Apenas]] _______ [[I|había]] [[posted|publicado]] [[the|la]] [[photo|foto]] [[when|cuando]] [[I|obtuve]] [[got|diez]] [[ten|likes.]] [[likes.| ]]",
+          "question": "[[Hardly posted the photo when I got ten likes.|Apenas]] _______ [[I|había publicado la foto cuando obtuve diez likes.  ]]",
           "options": ["[[had|había]]", "[[did|hice]]", "[[was|fui]]"],
           "correctAnswer": 0,
           "explanation": "Inversión 'Hardly + had + sujeto + participio'.",
@@ -1165,7 +1165,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para registrarse para recibir contenido.",
       "questions": [
         {
-          "question": "[[To| ]] _______ [[is|es]] [[to|registrarse]] [[sign|para]] [[up|recibir]] [[to|contenido]] [[receive|regularmente.]] [[content| ]] [[regularly.| ]]",
+          "question": "[[To to sign up to receive content regularly.| ]] _______ [[is|es registrarse para recibir contenido regularmente.    ]]",
           "options": ["[[subscribe|suscribirse]]", "[[unsubscribe|cancelar suscripción]]", "[[describe|describir]]"],
           "correctAnswer": 0,
           "explanation": "'Subscribe' permite recibir notificaciones o acceso a contenido nuevo de un canal o creador.",
@@ -1188,7 +1188,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para completar la inversión con 'No sooner'.",
       "questions": [
         {
-          "question": "[[No|Apenas]] [[sooner|había]] _______ [[she|comenzado]] [[started|el]] [[the|stream]] [[stream|cuando]] [[than|el]] [[the|chat]] [[chat|se]] [[went|volvió]] [[wild.|loco.]]",
+          "question": "[[No sooner the stream than the chat went wild.|Apenas había]] _______ [[she started|comenzado el stream cuando el chat se volvió loco.]]",
           "options": ["[[had|había]]", "[[did|hizo]]", "[[was|fue]]"],
           "correctAnswer": 0,
           "explanation": "Inversión 'No sooner + had + sujeto + participio'.",
@@ -1211,7 +1211,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el cifrado de extremo a extremo.",
       "questions": [
         {
-          "question": "_______ _______ _______ [[ensures|asegura]] [[that|que]] [[only|solo]] [[the|el]] [[sender|emisor]] [[and|y]] [[receiver|el receptor]] [[can|puedan]] [[read.|leer.]]",
+          "question": "_______ _______ _______ [[ensures that only the sender and receiver can read.|asegura que solo el emisor y el receptor puedan leer.]]",
           "options": ["[[End-to-end encryption|Cifrado de extremo a extremo]]", "[[Cloud storage access|Acceso a la nube]]", "[[Data mining policy|Política de minería de datos]]"],
           "correctAnswer": 0,
           "explanation": "'End-to-end encryption' (E2EE) protege la privacidad de los mensajes digitales.",
@@ -1234,7 +1234,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector condicional adecuado.",
       "questions": [
         {
-          "question": "_______ [[you|a menos que]] [[verify|verifiques]] [[your|tu]] [[account,|cuenta,]] [[you|no]] [[cannot|puedes]] [[access|acceder a]] [[all|todas las]] [[features.|funciones.]]",
+          "question": "_______ [[you verify your account, you cannot access all features.|a menos que verifiques tu cuenta, no puedes acceder a todas las funciones.]]",
           "options": ["[[Unless|A menos que]]", "[[If|Si]]", "[[Whether|Si (elección)]]"],
           "correctAnswer": 0,
           "explanation": "'Unless' introduce una condición negativa (si no verificas...).",
@@ -1257,7 +1257,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la autenticación de dos pasos.",
       "questions": [
         {
-          "question": "_______ _______ _______ [[adds|añade]] [[an|una]] [[extra|capa]] [[layer|extra]] [[of|de]] [[security.|seguridad.]]",
+          "question": "_______ _______ _______ [[adds an extra layer of security.|añade una capa extra de seguridad.]]",
           "options": ["[[Two-factor authentication|Autenticación de dos factores]]", "[[Single sign-on|Inicio de sesión único]]", "[[Automatic login|Inicio automático]]"],
           "correctAnswer": 0,
           "explanation": "2FA requiere dos formas de identificación para acceder a una cuenta.",
@@ -1280,7 +1280,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del subjuntivo tras 'recommend'.",
       "questions": [
         {
-          "question": "[[I|Recomiendo]] [[recommend|que]] [[that| ]] [[you| ]] _______ [[your|cambies]] [[password|tu]] [[every|contraseña]] [[three|cada tres]] [[months.|meses.]]",
+          "question": "[[I recommend that you months.|Recomiendo que    ]] _______ [[your password every three|cambies tu contraseña cada tres meses.]]",
           "options": ["[[change|cambies]]", "[[changes|cambias]]", "[[to change|cambiar]]"],
           "correctAnswer": 0,
           "explanation": "Tras 'recommend that', usamos la forma base del verbo (subjuntivo) en inglés formal.",

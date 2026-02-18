@@ -89,7 +89,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Modern|Modern]] [[life|vida]] [[is|es/está]] _______ ([[busy|ocupado]]) [[than|que (comparativo)]] [[traditional|traditional]] [[life|vida]].",
+          "question": "[[Modern life is traditional|Modern vida es/está]] _______ ([[busy life|ocupado]]) [[than|que (comparativo) traditional vida]].",
           "options": [
             "[[busier|busier]]",
             "[[to|a/para]]",
@@ -115,7 +115,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Cities|Cities]] ([[be|ser/estar]]) _______ [[more|más]] [[crowded|crowded]] [[now|ahora]].",
+          "question": "[[Cities crowded now|Cities]] ([[be|ser/estar]]) _______ [[more|más crowded ahora]].",
           "options": [
             "[[are|son/están]]",
             "[[to|a/para]]",
@@ -141,7 +141,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[In|En]] [[the|el/la/los/las]] [[past|past]], [[people|gente/personas]] ([[live|vivir]]) _______ [[in|en]] [[small|pequeño/pequeña]] [[villages|villages]].",
+          "question": "[[In the, people past small|En el/la/los/las past, gente/personas]] ([[live villages|vivir]]) _______ [[in|en pequeño/pequeña villages]].",
           "options": [
             "[[to|a/para]]",
             "[[it|eso]]",
@@ -167,7 +167,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Technology|Technology]] ([[make|hacer]]) _______ [[our|nuestro]] [[lives|lives]] [[easier|easier]].",
+          "question": "[[Technology lives easier|Technology]] ([[make|hacer]]) _______ [[our|nuestro lives easier]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -193,7 +193,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Traditions|Traditions]] ([[be|ser/estar]]) _______ [[still|still]] [[important|important]] [[to|a/para]] [[some|some]] [[people|gente/personas]].",
+          "question": "[[Traditions important to some people|Traditions]] ([[be|ser/estar]]) _______ [[still|still important a/para some gente/personas]].",
           "options": [
             "[[to|a/para]]",
             "[[are|son/están]]",
@@ -219,7 +219,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[have|tener/haber]]) _______ [[more|más]] [[choices|choices]] [[today|hoy]].",
+          "question": "[[We choices today|Nosotros]] ([[have|tener/haber]]) _______ [[more|más choices hoy]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -245,7 +245,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Life|Vida]] ([[not/be|no ser/estar]]) _______ [[as|as]] [[slow|slow]] [[as|as]] [[it|eso]] [[used|used]] [[to|a/para]] [[be|ser/estar]].",
+          "question": "[[Life slow as it used to be|Vida]] ([[not/be|no ser/estar]]) _______ [[as|as slow as eso used a/para ser/estar]].",
           "options": [
             "[[is|es/está]]",
             "[[to|a/para]]",
@@ -271,7 +271,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[People|Gente/personas]] ([[work|trabajo/trabajar]]) _______ [[longer|longer]] [[hours|hours]] [[now|ahora]].",
+          "question": "[[People hours now|Gente/personas]] ([[work|trabajo/trabajar]]) _______ [[longer|longer hours ahora]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -297,7 +297,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Which|Cuál/cuáles]] ([[be|ser/estar]]) _______ [[better|mejor]], [[the|el/la/los/las]] [[past|past]] [[or|or]] [[the|el/la/los/las]] [[present|present]]?",
+          "question": "[[Which past, the or the present|Cuál/cuáles]] ([[be|ser/estar]]) _______ [[better|mejor, el/la/los/las past or el/la/los/las present]]?",
           "options": [
             "[[is|es/está]]",
             "[[to|a/para]]",
@@ -323,7 +323,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Everything|Everything]] ([[change|change]]) _______ [[so|tan/así que]] [[quickly|quickly]].",
+          "question": "[[Everything quickly|Everything]] ([[change|change]]) _______ [[so|tan/así que quickly]].",
           "options": [
             "[[changes|changes]]",
             "[[to|a/para]]",
@@ -347,7 +347,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Modern|Modern]] [[life|vida]] [[is|es/está]] [[much|much]] [[faster|faster]] [[than|que (comparativo)]] [[it|eso]] [[was|era/fue/estaba/estuvo]] [[in|en]] [[the|el/la/los/las]] [[past|past]].",
+      "correctSentence": "[[Modern life is much faster than it was in the past|Modern vida es/está much faster que (comparativo) eso era/fue/estaba/estuvo en el/la/los/las past]].",
       "words": [
         "[[faster|faster]]",
         "[[life|vida]]",
@@ -376,7 +376,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Many|Many]] [[people|gente/personas]] [[still|still]] [[follow|follow]] [[traditional|traditional]] [[customs|customs]].",
+      "correctSentence": "[[Many people still follow traditional customs|Many gente/personas still follow traditional customs]].",
       "words": [
         "[[customs|customs]].",
         "[[traditional|traditional]]",
@@ -400,7 +400,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Technology|Technology]] [[has|tiene/ha]] [[changed|changed]] [[the|el/la/los/las]] [[way|way]] [[we|nosotros]] [[live|vivir]] [[and|and]] [[work|trabajo/trabajar]].",
+      "correctSentence": "[[Technology has changed the way we live and work|Technology tiene/ha changed el/la/los/las way nosotros vivir and trabajo/trabajar]].",
       "words": [
         "[[changed|changed]]",
         "[[and|and]]",
@@ -427,7 +427,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Life|Vida]] [[in|en]] [[a|un/una]] [[big|grande]] [[city|ciudad]] [[can|poder]] [[be|ser/estar]] [[very|muy]] [[stressful|stressful]].",
+      "correctSentence": "[[Life in a big city can be very stressful|Vida en un/una grande ciudad poder ser/estar muy stressful]].",
       "words": [
         "[[big|grande]]",
         "[[a|un/una]]",
@@ -454,7 +454,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Traditional|Traditional]] [[food|comida]] [[is|es/está]] [[often|a menudo]] [[healthier|healthier]] [[than|que (comparativo)]] [[fast|fast]] [[food|comida]].",
+      "correctSentence": "[[Traditional food is often healthier than fast food|Traditional comida es/está a menudo healthier que (comparativo) fast comida]].",
       "words": [
         "[[often|a menudo]]",
         "[[food|comida]]",
@@ -480,7 +480,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[have|tener/haber]] [[more|más]] [[opportunities|opportunities]] [[today|hoy]] [[than|que (comparativo)]] [[ever|ever]] [[before|antes]].",
+      "correctSentence": "[[We have more opportunities today than ever before|Nosotros tener/haber más opportunities hoy que (comparativo) ever antes]].",
       "words": [
         "[[We|Nosotros]]",
         "[[opportunities|opportunities]]",
@@ -506,7 +506,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[In|En]] [[the|el/la/los/las]] [[past|past]], [[families|families]] [[were|eran/fueron/estaban/estuvieron]] [[usually|usually]] [[larger|larger]].",
+      "correctSentence": "[[In the, families past were usually larger|En el/la/los/las past, families eran/fueron/estaban/estuvieron usually larger]].",
       "words": [
         "[[usually|usually]]",
         "[[past|past]],",
@@ -531,7 +531,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Modern|Modern]] [[technology|technology]] [[makes|makes]] [[communication|communication]] [[very|muy]] [[easy|fácil]].",
+      "correctSentence": "[[Modern technology makes communication very easy|Modern technology makes communication muy fácil]].",
       "words": [
         "[[easy|fácil]].",
         "[[communication|communication]]",
@@ -555,7 +555,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Some|Some]] [[people|gente/personas]] [[prefer|prefer]] [[a|un/una]] [[simpler|simpler]], [[traditional|traditional]] [[lifestyle|lifestyle]].",
+      "correctSentence": "[[Some people, traditional prefer a simpler lifestyle|Some gente/personas prefer un/una simpler, traditional lifestyle]].",
       "words": [
         "[[Some|Some]]",
         "[[lifestyle|lifestyle]].",
@@ -580,7 +580,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[world|mundo]] [[is|es/está]] [[changing|changing]] [[very|muy]] [[quickly|quickly]].",
+      "correctSentence": "[[The world is changing very quickly|El/la/los/las mundo es/está changing muy quickly]].",
       "words": [
         "[[quickly|quickly]].",
         "[[very|muy]]",
@@ -604,7 +604,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Cities|Cities]] [[are|son/están]] [[becoming|becoming]] [[more|más]] [[and|and]] [[more|más]] [[crowded|crowded]].",
+      "correctSentence": "[[Cities are becoming more and more crowded|Cities son/están becoming más and más crowded]].",
       "words": [
         "[[and|and]]",
         "[[more|más]]",
@@ -629,7 +629,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[It's|It's]] [[important|important]] [[to|a/para]] [[keep|keep]] [[our|nuestro]] [[cultural|cultural]] [[traditions|traditions]] [[alive|alive]].",
+      "correctSentence": "[[It's important to keep our cultural traditions alive|It's important a/para keep nuestro cultural traditions alive]].",
       "words": [
         "[[to|a/para]]",
         "[[keep|keep]]",
@@ -655,7 +655,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Is|Es/está]] [[modern|modern]] [[life|vida]] [[really|really]] [[better|mejor]] [[than|que (comparativo)]] [[traditional|traditional]] [[life|vida]]?",
+      "correctSentence": "[[Is modern life really better than traditional life|Es/está modern vida really mejor que (comparativo) traditional vida]]?",
       "words": [
         "[[Is|Es/está]]",
         "[[modern|modern]]",
@@ -681,7 +681,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[spend|gastar/pasar]] [[a|un/una]] [[lot|lot]] [[of|de]] [[time|tiempo/hora]] [[using|using]] [[digital|digital]] [[devices|devices]].",
+      "correctSentence": "[[We spend a lot of time using digital devices|Nosotros gastar/pasar un/una lot de tiempo/hora using digital devices]].",
       "words": [
         "[[using|using]]",
         "[[We|Nosotros]]",
@@ -708,7 +708,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[pace|pace]] [[of|de]] [[life|vida]] [[in|en]] [[the|el/la/los/las]] [[countryside|countryside]] [[is|es/está]] [[much|much]] [[slower|slower]].",
+      "correctSentence": "[[The pace of life in the countryside is much slower|El/la/los/las pace de vida en el/la/los/las countryside es/está much slower]].",
       "words": [
         "[[of|de]]",
         "[[slower|slower]].",

@@ -13,7 +13,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[pagar|pagar]]) _______ [[by|por]] [[card|card]].",
+          "question": "[[I card|Yo]] ([[pagar|pagar]]) _______ [[by|por card]].",
           "options": [
             "[[is|es/está]]",
             "[[are|son/están]]",
@@ -39,7 +39,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Hay|Hay]]) _______ [[an|un/una]] [[ATM|ATM]] [[near|near]] [[here|aquí]]?",
+          "question": "([[Hay ATM near here|Hay]]) _______ [[an|un/una ATM near aquí]]?",
           "options": [
             "[[Is there|Is there]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesitar]] [[to|a/para]] ([[cambiar|cambiar]]) _______ [[some|some]] [[money|dinero]].",
+          "question": "[[I need to money|Yo necesitar a/para]] ([[cambiar|cambiar]]) _______ [[some|some dinero]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] ([[be|ser/estar]]) _______ [[my|mi/mis]] [[wallet|wallet]]?",
+          "question": "[[Where wallet|Dónde]] ([[be|ser/estar]]) _______ [[my|mi/mis wallet]]?",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[don't|no]] [[have|tener/haber]] [[any|alguno/a]] [[cash|cash]].",
+      "correctSentence": "[[I don't have any cash|Yo no tener/haber alguno/a cash]].",
       "words": [
         "[[I|Yo]]",
         "[[don't|no]]",
@@ -138,7 +138,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[wallet|wallet]] [[is|es/está]] [[empty|empty]].",
+      "correctSentence": "[[My wallet is empty|Mi/mis wallet es/está empty]].",
       "words": [
         "[[is|es/está]]",
         "[[My|Mi/mis]]",
@@ -160,7 +160,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[bank|banco]] [[is|es/está]] [[closed|closed]].",
+      "correctSentence": "[[The bank is closed|El/la/los/las banco es/está closed]].",
       "words": [
         "[[The|El/la/los/las]]",
         "[[closed|closed]].",
@@ -182,7 +182,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Where|Dónde]] [[is|es/está]] [[the|el/la/los/las]] [[nearest|nearest]] [[ATM|ATM]]?",
+      "correctSentence": "[[Where is the nearest ATM|Dónde es/está el/la/los/las nearest ATM]]?",
       "words": [
         "[[Where|Dónde]]",
         "[[is|es/está]]",
@@ -205,7 +205,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[exchange|exchange]] [[rate|rate]] [[is|es/está]] [[good|bueno/buena]].",
+      "correctSentence": "[[The exchange rate is good|El/la/los/las exchange rate es/está bueno/buena]].",
       "words": [
         "[[good|bueno/buena]].",
         "[[is|es/está]]",

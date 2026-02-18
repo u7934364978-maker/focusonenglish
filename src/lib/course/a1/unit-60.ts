@@ -39,7 +39,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tener/haber]] ([[algo|algo]] [[de|de]]) _______ [[cheese|queso]].",
+          "question": "[[I have|Yo tener/haber]] ([[algo de|algo de]]) _______ [[cheese|queso]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[pagar|pagar]]) _______ [[by|por]] [[card|card]].",
+          "question": "[[I card|Yo]] ([[pagar|pagar]]) _______ [[by|por card]].",
           "options": [
             "[[pay|pay]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[This|Este/esta]] [[is|es/está]] [[the|el/la/los/las]] [[final|final]] [[review|review]].",
+      "correctSentence": "[[This is the final review|Este/esta es/está el/la/los/las final review]].",
       "words": [
         "[[This|Este/esta]]",
         "[[is|es/está]]",
@@ -138,7 +138,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Talk|Talk]] [[about|sobre/acerca de]] [[shopping|shopping]] [[and|and]] [[food|comida]].",
+      "correctSentence": "[[Talk about shopping and food|Talk sobre/acerca de shopping and comida]].",
       "words": [
         "[[Talk|Talk]]",
         "[[and|and]]",
@@ -161,7 +161,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Order|Pedir/pedido]] [[in|en]] [[a|un/una]] [[restaurant|restaurante]].",
+      "correctSentence": "[[Order in a restaurant|Pedir/pedido en un/una restaurante]].",
       "words": [
         "[[Order|Pedir/pedido]]",
         "[[in|en]]",
@@ -183,7 +183,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Describe|Describe]] [[health|health]] [[issues|issues]].",
+      "correctSentence": "[[Describe health issues|Describe health issues]].",
       "words": [
         "[[issues|issues]].",
         "[[Describe|Describe]]",
@@ -204,7 +204,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Manage|Manage]] [[money|dinero]] [[and|and]] [[payments|payments]].",
+      "correctSentence": "[[Manage money and payments|Manage dinero and payments]].",
       "words": [
         "[[Manage|Manage]]",
         "[[money|dinero]]",

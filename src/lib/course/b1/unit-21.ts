@@ -13,7 +13,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el fenómeno de alteración del clima.",
       "questions": [
         {
-          "question": "______ [[is|es]] [[affecting|afectando]] [[global|globales]] [[temperatures|temperaturas]].",
+          "question": "______ [[is affecting global temperatures|es afectando globales temperaturas]].",
           "options": [
             "[[Climate change|Cambio climático]]",
             "[[Weather forecast|Pronóstico del tiempo]]",
@@ -40,7 +40,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa procesar materiales usados para reutilizarlos.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[must|debemos]] ______ [[our|nuestros]] [[waste|desechos]].",
+          "question": "[[We must|Nosotros debemos]] ______ [[our waste|nuestros desechos]].",
           "options": [
             "[[recycle|reciclar]]",
             "[[throw away|tirar]]",
@@ -65,7 +65,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Contaminación",
       "instructions": "Ordena la oración sobre el impacto de la contaminación.",
-      "correctSentence": "[[Pollution|La contaminación]] [[is|es]] [[bad|mala]] [[for|para]] [[nature|naturaleza]].",
+      "correctSentence": "[[Pollution is bad for nature|La contaminación es mala para naturaleza]].",
       "words": [
         "[[nature|naturaleza]].",
         "[[is|es]]",
@@ -91,7 +91,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para fuentes de energía inagotables.",
       "questions": [
         {
-          "question": "[[Solar|Solar]] [[power|energía]] [[is|es]] [[a|una]] ______ [[source|fuente]].",
+          "question": "[[Solar power is a|Solar energía es una]] ______ [[source|fuente]].",
           "options": [
             "[[renewable|renovable]]",
             "[[fossil|fósil]]",
@@ -118,7 +118,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta del Primer Condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[we|nosotros]] [[don't|no]] [[help|ayudamos]], [[the|la]] [[earth|tierra]] ______ [[warmer|más caliente]].",
+          "question": "[[If we, the earth don't help|Si nosotros no ayudamos, la tierra]] ______ [[warmer|más caliente]].",
           "options": [
             "[[will get|se volverá]]",
             "[[gets|se vuelve]]",
@@ -145,7 +145,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la tala masiva de bosques.",
       "questions": [
         {
-          "question": "______ [[threatens|amenaza]] [[wildlife|vida silvestre]] [[habitats|hábitats]].",
+          "question": "______ [[threatens wildlife habitats|amenaza vida silvestre hábitats]].",
           "options": [
             "[[Deforestation|Deforestación]]",
             "[[Gardening|Jardinería]]",
@@ -170,7 +170,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Huella de Carbono",
       "instructions": "Ordena la oración sobre la reducción del impacto ambiental.",
-      "correctSentence": "[[Reduce|Reduce]] [[your|tu]] [[carbon|de carbono]] [[footprint|huella]].",
+      "correctSentence": "[[Reduce your carbon footprint|Reduce tu de carbono huella]].",
       "words": [
         "[[footprint|huella]].",
         "[[carbon|de carbono]]",
@@ -195,7 +195,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa capaz de mantenerse en el tiempo.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[need|necesitamos]] ______ [[solutions|soluciones]].",
+          "question": "[[We need|Nosotros necesitamos]] ______ [[solutions|soluciones]].",
           "options": [
             "[[sustainable|sostenibles]]",
             "[[temporary|temporales]]",
@@ -222,7 +222,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el adjetivo para animales en riesgo de extinción.",
       "questions": [
         {
-          "question": "[[Pandas|Pandas]] [[are|son]] [[an|una]] ______ [[species|especie]].",
+          "question": "[[Pandas are an|Pandas son una]] ______ [[species|especie]].",
           "options": [
             "[[endangered|en peligro de extinción]]",
             "[[common|común]]",
@@ -249,7 +249,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la capa protectora de la atmósfera.",
       "questions": [
         {
-          "question": "[[The|La]] ______ [[is|está]] [[recovering|recuperándose]].",
+          "question": "[[The recovering|La]] ______ [[is|está recuperándose]].",
           "options": [
             "[[ozone layer|capa de ozono]]",
             "[[ocean floor|fondo del mar]]",
@@ -274,7 +274,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Paneles Solares",
       "instructions": "Ordena la frase sobre la energía solar.",
-      "correctSentence": "[[Solar|Paneles]] [[panels|solares]] [[save|ahorran]] [[energy|energía]].",
+      "correctSentence": "[[Solar panels save energy|Paneles solares ahorran energía]].",
       "words": [
         "[[energy|energía]].",
         "[[panels|solares]]",
@@ -299,7 +299,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta para una probabilidad futura.",
       "questions": [
         {
-          "question": "[[If|Si]] [[you|tú]] [[water|riegas]] [[the|las]] [[trees|árboles]], [[they|ellos]] ______.",
+          "question": "[[If you, they water the trees|Si tú riegas las árboles, ellos]] ______.",
           "options": [
             "[[will survive|sobrevivirán]]",
             "[[survived|sobrevivieron]]",
@@ -326,7 +326,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la comunidad de seres vivos.",
       "questions": [
         {
-          "question": "[[Every|Cada]] ______ [[is|es]] [[fragile|frágil]].",
+          "question": "[[Every fragile|Cada]] ______ [[is|es frágil]].",
           "options": [
             "[[ecosystem|ecosistema]]",
             "[[economy|economía]]",
@@ -353,7 +353,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa natural y sin químicos.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[buy|compro]] ______ [[vegetables|verduras]].",
+          "question": "[[I buy|Yo compro]] ______ [[vegetables|verduras]].",
           "options": [
             "[[organic|orgánicas]]",
             "[[processed|procesadas]]",
@@ -378,7 +378,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Salvar el Planeta",
       "instructions": "Ordena la pregunta sobre acciones ambientales.",
-      "correctSentence": "[[What|Qué]] [[would|harías]] [[you|tú]] [[do|para]] [[to| ]] [[save|salvar]] [[the|el]] [[planet|planeta]] [[?|?]]",
+      "correctSentence": "[[What would you do to save the planet ?|Qué harías tú para   salvar el planeta ?]]",
       "words": [
         "[[save|salvar]]",
         "[[What|Qué]]",
@@ -407,7 +407,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la variedad de vida.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[must|debemos]] [[protect|proteger]] [[global|la]] ______.",
+          "question": "[[We must protect global|Nosotros debemos proteger la]] ______.",
           "options": [
             "[[biodiversity|biodiversidad]]",
             "[[biography|biografía]]",
@@ -434,7 +434,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa ahorrar o preservar.",
       "questions": [
         {
-          "question": "[[Please|Por favor]] ______ [[water|agua]] [[while|mientras]] [[showering|te duchas]].",
+          "question": "[[Please while showering|Por favor]] ______ [[water|agua mientras te duchas]].",
           "options": [
             "[[conserve|conserva / ahorra]]",
             "[[waste|desperdicia]]",
@@ -459,7 +459,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Consejo Ambiental",
       "instructions": "Ordena el consejo usando el segundo condicional.",
-      "correctSentence": "[[Use|Usa]] [[less|menos]] [[plastic|plástico]] [[to|para]] [[help|ayudar]].",
+      "correctSentence": "[[Use less plastic to help|Usa menos plástico para ayudar]].",
       "words": [
         "[[plastic|plástico]]",
         "[[help|ayudar]].",
@@ -485,7 +485,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para fuentes de energía no renovables.",
       "questions": [
         {
-          "question": "______ [[fuels|combustibles]] [[cause|causan]] [[pollution|contaminación]].",
+          "question": "______ [[fuels cause pollution|combustibles causan contaminación]].",
           "options": [
             "[[Fossil|Fósiles]]",
             "[[Green|Verdes]]",
@@ -512,7 +512,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el calentamiento atmosférico.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[is|es]] [[natural|natural]] [[but|pero]] [[increasing|aumentando]].",
+          "question": "[[The natural but increasing|El]] ______ [[is|es natural pero aumentando]].",
           "options": [
             "[[greenhouse effect|efecto invernadero]]",
             "[[lighting effect|efecto de luces]]",
@@ -537,7 +537,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Parques y Aire",
       "instructions": "Ordena la frase hipotética sobre el medio ambiente.",
-      "correctSentence": "[[More|Más]] [[parks|parques]] [[make|hacen]] [[cleaner|más limpio]] [[air|aire]].",
+      "correctSentence": "[[More parks make cleaner air|Más parques hacen más limpio aire]].",
       "words": [
         "[[air|aire]].",
         "[[parks|parques]]",
@@ -563,7 +563,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para el hogar de una especie.",
       "questions": [
         {
-          "question": "[[Polar|Los osos]] [[bears|polares]] [[are|están]] [[losing|perdiendo]] [[their|su]] ______.",
+          "question": "[[Polar bears are losing their|Los osos polares están perdiendo su]] ______.",
           "options": [
             "[[habitat|hábitat]]",
             "[[house|casa]]",
@@ -590,7 +590,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa usar otra vez.",
       "questions": [
         {
-          "question": "______ [[plastic|plástico]] [[bottles|botellas]] [[is|es]] [[good|bueno]].",
+          "question": "______ [[plastic bottles is good|plástico botellas es bueno]].",
           "options": [
             "[[Reusing|Reutilizar]]",
             "[[Losing|Perder]]",
@@ -615,7 +615,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ahorro de Energía",
       "instructions": "Ordena la prohibición sobre el consumo eléctrico.",
-      "correctSentence": "[[Don't|No]] [[waste|desperdicies]] [[any|ninguna]] [[electricity|electricidad]].",
+      "correctSentence": "[[Don't waste any electricity|No desperdicies ninguna electricidad]].",
       "words": [
         "[[electricity|electricidad]].",
         "[[waste|desperdicies]]",
@@ -640,7 +640,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta del Segundo Condicional.",
       "questions": [
         {
-          "question": "[[If|Si]] [[I|yo]] ______ [[the|el]] [[president|presidente]], [[I|yo]] [[would|ayudaría]] [[help| ]].",
+          "question": "[[If I, I would help|Si yo]] ______ [[the president|el presidente, yo ayudaría  ]].",
           "options": [
             "[[were|fuera / fuese]]",
             "[[am|soy]]",
@@ -667,7 +667,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para las sustancias que contaminan.",
       "questions": [
         {
-          "question": "[[Chemical|Químicos]] ______ [[harm|dañan]] [[rivers|ríos]].",
+          "question": "[[Chemical rivers|Químicos]] ______ [[harm|dañan ríos]].",
           "options": [
             "[[pollutants|contaminantes]]",
             "[[solutions|soluciones]]",
@@ -694,7 +694,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el molino que genera energía.",
       "questions": [
         {
-          "question": "[[The|La]] ______ [[is|está]] [[spinning|girando]].",
+          "question": "[[The spinning|La]] ______ [[is|está girando]].",
           "options": [
             "[[wind turbine|turbina eólica]]",
             "[[water mill|molino de agua]]",
@@ -719,7 +719,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Productos Desechables",
       "instructions": "Ordena la oración sobre el consumo responsable.",
-      "correctSentence": "[[Avoid|Evita]] [[using|usar]] [[plastic|plástico]] [[bags|bolsas]].",
+      "correctSentence": "[[Avoid using plastic bags|Evita usar plástico bolsas]].",
       "words": [
         "[[bags|bolsas]].",
         "[[plastic|plástico]]",
@@ -771,7 +771,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el fenómeno que ocurre en los polos.",
       "questions": [
         {
-          "question": "[[The|Los]] ______ [[are|están]] [[melting|derritiéndose]].",
+          "question": "[[The melting|Los]] ______ [[are|están derritiéndose]].",
           "options": [
             "[[ice caps|capas de hielo]]",
             "[[sand dunes|dunas de arena]]",
@@ -796,7 +796,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Bolsas Reutilizables",
       "instructions": "Ordena la frase de causa y efecto.",
-      "correctSentence": "[[Reusable|Reutilizables]] [[bags|bolsas]] [[protect|protegen]] [[nature|naturaleza]].",
+      "correctSentence": "[[Reusable bags protect nature|Reutilizables bolsas protegen naturaleza]].",
       "words": [
         "[[nature|naturaleza]].",
         "[[bags|bolsas]]",
@@ -821,7 +821,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la gestión de basura.",
       "questions": [
         {
-          "question": "[[Proper|Correcta]] [[waste|basura]] ______ [[is|es]] [[key|clave]].",
+          "question": "[[Proper waste|Correcta basura]] ______ [[is key|es clave]].",
           "options": [
             "[[disposal|eliminación]]",
             "[[creation|creación]]",
@@ -848,7 +848,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el ciclo natural del carbono.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[is|está]] [[out|fuera]] [[of|de]] [[balance|equilibrio]].",
+          "question": "[[The out of balance|El]] ______ [[is|está fuera de equilibrio]].",
           "options": [
             "[[carbon cycle|ciclo del carbono]]",
             "[[bicycle|bicicleta]]",
@@ -873,7 +873,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mi Huerto",
       "instructions": "Ordena la oración hipotética sobre cultivar comida.",
-      "correctSentence": "[[I|Yo]] [[would|cultivaría]] [[grow|verduras]] [[my|mis]] [[own|propias]] [[food|comida]].",
+      "correctSentence": "[[I would grow my own food|Yo cultivaría verduras mis propias comida]].",
       "words": [
         "[[food|comida]].",
         "[[grow|verduras]]",
@@ -900,7 +900,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el bosque tropical denso.",
       "questions": [
         {
-          "question": "[[Protect|Protege]] [[the|la]] ______.",
+          "question": "[[Protect the|Protege la]] ______.",
           "options": [
             "[[rainforest|selva tropical]]",
             "[[desert|desierto]]",
@@ -927,7 +927,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la instalación masiva de paneles.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[is|está]] [[huge|enorme]].",
+          "question": "[[The huge|El]] ______ [[is|está enorme]].",
           "options": [
             "[[solar farm|huerto solar]]",
             "[[wind farm|parque eólico]]",
@@ -952,7 +952,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Apagar las Luces",
       "instructions": "Ordena la instrucción para ahorrar energía.",
-      "correctSentence": "[[Switch|Apaga]] [[off|las]] [[the|luces]] [[lights|ahora]].",
+      "correctSentence": "[[Switch off the lights|Apaga las luces ahora]].",
       "words": [
         "[[lights|ahora]].",
         "[[off|las]]",
@@ -977,7 +977,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para convertir residuos en abono.",
       "questions": [
         {
-          "question": "______ [[is|es]] [[easy|fácil]] [[to| ]] [[do|hacer]] [[at|en]] [[home|casa]].",
+          "question": "______ [[is easy to do at home|es fácil   hacer en casa]].",
           "options": [
             "[[Composting|Compostaje]]",
             "[[Cooking|Cocinar]]",
@@ -1004,7 +1004,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para la falta prolongada de lluvia.",
       "questions": [
         {
-          "question": "[[The|La]] ______ [[destroyed|destruyó]] [[the|las]] [[crops|cosechas]].",
+          "question": "[[The the crops|La]] ______ [[destroyed|destruyó las cosechas]].",
           "options": [
             "[[drought|sequía]]",
             "[[flood|inundación]]",
@@ -1029,7 +1029,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vertederos",
       "instructions": "Ordena la frase sobre el exceso de basura.",
-      "correctSentence": "[[Landfills|Los vertederos]] [[are|están]] [[full|llenos]] [[of|de]] [[trash|basura]].",
+      "correctSentence": "[[Landfills are full of trash|Los vertederos están llenos de basura]].",
       "words": [
         "[[trash|basura]].",
         "[[are|están]]",
@@ -1055,7 +1055,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la estabilidad natural.",
       "questions": [
         {
-          "question": "[[Respect|Respeta]] [[the|el]] ______ [[balance|equilibrio]].",
+          "question": "[[Respect the|Respeta el]] ______ [[balance|equilibrio]].",
           "options": [
             "[[ecological|ecológico]]",
             "[[economic|económico]]",
@@ -1082,7 +1082,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para el exceso de agua en una zona.",
       "questions": [
         {
-          "question": "[[There|Hubo]] [[was| ]] [[a|una]] [[severe|severa]] ______.",
+          "question": "[[There was a severe|Hubo   una severa]] ______.",
           "options": [
             "[[flood|inundación]]",
             "[[fire|incendio]]",
@@ -1107,7 +1107,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Plantar Árboles",
       "instructions": "Ordena la acción positiva para el barrio.",
-      "correctSentence": "[[Plant|Planta]] [[trees|árboles]] [[for|para]] [[fresh|fresco]] [[air|aire]].",
+      "correctSentence": "[[Plant trees for fresh air|Planta árboles para fresco aire]].",
       "words": [
         "[[air|aire]].",
         "[[trees|árboles]]",
@@ -1133,7 +1133,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la energía del sol.",
       "questions": [
         {
-          "question": "[[Use|Usa]] ______ [[energy|energía]] [[to|para]] [[save|ahorrar]].",
+          "question": "[[Use to save|Usa]] ______ [[energy|energía para ahorrar]].",
           "options": [
             "[[solar|solar]]",
             "[[nuclear|nuclear]]",
@@ -1160,7 +1160,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa muy importante.",
       "questions": [
         {
-          "question": "[[Action|La acción]] [[is|es]] ______.",
+          "question": "[[Action is|La acción es]] ______.",
           "options": [
             "[[crucial|crucial]]",
             "[[optional|opcional]]",
@@ -1185,7 +1185,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Salvar los Océanos",
       "instructions": "Ordena la frase condicional.",
-      "correctSentence": "[[We|Nosotros]] [[will|salvaremos]] [[save|los]] [[the|océanos]] [[oceans|ahora]].",
+      "correctSentence": "[[We will save the oceans|Nosotros salvaremos los océanos ahora]].",
       "words": [
         "[[oceans|ahora]].",
         "[[the|los]]",
@@ -1211,7 +1211,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para un vertido accidental.",
       "questions": [
         {
-          "question": "[[An|Un]] [[oil|petróleo]] ______ [[occurred|ocurrió]].",
+          "question": "[[An oil|Un petróleo]] ______ [[occurred|ocurrió]].",
           "options": [
             "[[spill|derrame]]",
             "[[gift|regalo]]",
@@ -1238,7 +1238,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para los gases expulsados.",
       "questions": [
         {
-          "question": "[[Reduce|Reduce]] [[toxic|tóxicas]] ______.",
+          "question": "[[Reduce toxic|Reduce tóxicas]] ______.",
           "options": [
             "[[emissions|emisiones]]",
             "[[emotions|emociones]]",
@@ -1263,7 +1263,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Preservar la Naturaleza",
       "instructions": "Ordena la frase sobre la belleza natural.",
-      "correctSentence": "[[Preserve|Preserva]] [[the|la]] [[beauty|belleza]] [[of|de]] [[nature|naturaleza]].",
+      "correctSentence": "[[Preserve the beauty of nature|Preserva la belleza de naturaleza]].",
       "words": [
         "[[nature|naturaleza]].",
         "[[the|la]]",
@@ -1289,7 +1289,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el color asociado con la ecología.",
       "questions": [
         {
-          "question": "[[Live|Vive]] [[in|en]] [[a|una]] ______ [[city|ciudad]].",
+          "question": "[[Live in a|Vive en una]] ______ [[city|ciudad]].",
           "options": [
             "[[green|verde]]",
             "[[grey|gris]]",

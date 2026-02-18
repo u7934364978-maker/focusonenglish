@@ -12,7 +12,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Estudios de posgrado",
       "instructions": "Ordena las palabras para formar una frase sobre el éxito académico.",
-      "correctSentence": "[[She|Ella]] [[is|es]] [[likely|probable]] [[to|que]] [[excel|destaque]] [[in|en]] [[her|sus]] [[postgraduate|estudios]] [[studies.|de posgrado.]]",
+      "correctSentence": "[[She is likely to excel in her postgraduate studies.|Ella es probable que destaque en sus estudios de posgrado.]]",
       "words": [
         "[[likely|probable]]",
         "[[excel|destaque]]",
@@ -40,7 +40,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Educación superior",
       "instructions": "Ordena las palabras para describir los beneficios de la universidad.",
-      "correctSentence": "[[Higher|La educación]] [[education|superior]] [[provides|proporciona]] [[students|a los estudiantes]] [[with| ]] [[specialized|conocimientos]] [[knowledge.|especializados.]]",
+      "correctSentence": "[[Higher education provides students with specialized knowledge.|La educación superior proporciona a los estudiantes   conocimientos especializados.]]",
       "words": [
         "[[provides|proporciona]]",
         "[[knowledge.|especializados.]]",
@@ -66,7 +66,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Currículo actualizado",
       "instructions": "Ordena las palabras sobre los cambios en el plan de estudios.",
-      "correctSentence": "[[The|El]] [[curriculum|currículo]] [[has|ha]] [[been|sido]] [[updated|actualizado]] [[to|para]] [[include|incluir]] [[digital|alfabetización]] [[literacy.|digital.]]",
+      "correctSentence": "[[The curriculum has been updated to include digital literacy.|El currículo ha sido actualizado para incluir alfabetización digital.]]",
       "words": [
         "[[updated|actualizado]]",
         "[[literacy.|digital.]]",
@@ -94,7 +94,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Formación profesional",
       "instructions": "Ordena las palabras sobre matricularse en un curso.",
-      "correctSentence": "[[He|Él]] [[is|está]] [[planning|planeando]] [[to| ]] [[enroll|matricularse]] [[in|en]] [[a|un]] [[vocational|curso de formación]] [[training|profesional.]] [[course.| ]]",
+      "correctSentence": "[[He is planning to enroll in a vocational training course.|Él está planeando   matricularse en un curso de formación profesional.  ]]",
       "words": [
         "[[enroll|matricularse]]",
         "[[planning|planeando]]",
@@ -123,7 +123,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Plazos de entrega",
       "instructions": "Ordena las palabras sobre los retos de los estudiantes.",
-      "correctSentence": "[[Many|Muchos]] [[students|estudiantes]] [[find|encuentran]] [[it| ]] [[difficult|difícil]] [[to|cumplir]] [[meet|con los]] [[strict|plazos]] [[deadlines.|estrictos.]]",
+      "correctSentence": "[[Many students find it difficult to meet strict deadlines.|Muchos estudiantes encuentran   difícil cumplir con los plazos estrictos.]]",
       "words": [
         "[[deadlines.|estrictos.]]",
         "[[difficult|difícil]]",
@@ -151,7 +151,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Doctorado hipotético",
       "instructions": "Ordena las palabras usando el segundo condicional.",
-      "correctSentence": "[[If|Si]] [[I|tuviera]] [[had| ]] [[more|más]] [[time,|tiempo,]] [[I|cursaría]] [[would|un]] [[pursue|doctorado.]] [[a| ]] [[doctorate.| ]]",
+      "correctSentence": "[[If I had more time, I would pursue a doctorate.|Si tuviera   más tiempo, cursaría un doctorado.    ]]",
       "words": [
         "[[pursue|doctorado.]]",
         "[[would|un]]",
@@ -180,7 +180,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pensamiento crítico",
       "instructions": "Ordena las palabras sobre el consejo de un profesor.",
-      "correctSentence": "[[The|El]] [[professor|profesor]] [[encouraged|nos animó]] [[us| ]] [[to|a]] [[think|pensar]] [[critically|críticamente]] [[about|sobre]] [[the|el]] [[text.|texto.]]",
+      "correctSentence": "[[The professor encouraged us to think critically about the text.|El profesor nos animó   a pensar críticamente sobre el texto.]]",
       "words": [
         "[[encouraged|nos animó]]",
         "[[text.|texto.]]",
@@ -209,7 +209,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Becas disponibles",
       "instructions": "Ordena las palabras sobre el apoyo financiero.",
-      "correctSentence": "[[Scholarships|Las becas]] [[are|están]] [[available|disponibles]] [[for|para]] [[students|estudiantes]] [[from|de]] [[low-income|familias de bajos]] [[families.|ingresos.]]",
+      "correctSentence": "[[Scholarships are available for students from low-income families.|Las becas están disponibles para estudiantes de familias de bajos ingresos.]]",
       "words": [
         "[[available|disponibles]]",
         "[[students|estudiantes]]",
@@ -236,7 +236,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Aprendizaje de idiomas",
       "instructions": "Ordena las palabras usando el presente perfecto continuo.",
-      "correctSentence": "[[She|Ella]] [[has|ha]] [[been|estado]] [[studying|estudiando]] [[English|inglés]] [[since|desde]] [[she|que]] [[was|tenía]] [[five|cinco]] [[years|años]] [[old.|de edad.]]",
+      "correctSentence": "[[She has been studying English since she was five years old.|Ella ha estado estudiando inglés desde que tenía cinco años de edad.]]",
       "words": [
         "[[studying|estudiando]]",
         "[[since|desde]]",
@@ -266,7 +266,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Evaluación por pares",
       "instructions": "Ordena las palabras sobre métodos de aprendizaje.",
-      "correctSentence": "[[Peer|La evaluación]] [[assessment|por pares]] [[helps|ayuda a]] [[students|los estudiantes]] [[learn|a aprender]] [[from|unos]] [[each|de]] [[other.|otros.]]",
+      "correctSentence": "[[Peer assessment helps students learn from each other.|La evaluación por pares ayuda a los estudiantes a aprender unos de otros.]]",
       "words": [
         "[[assessment|por pares]]",
         "[[learn|a aprender]]",
@@ -293,7 +293,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Educación a distancia",
       "instructions": "Ordena las palabras sobre el aprendizaje online.",
-      "correctSentence": "[[Distance|La educación]] [[learning|a distancia]] [[has|se ha]] [[become|vuelto]] [[increasingly|cada vez más]] [[popular|popular]] [[recently.|recientemente.]]",
+      "correctSentence": "[[Distance learning has become increasingly popular recently.|La educación a distancia se ha vuelto cada vez más popular recientemente.]]",
       "words": [
         "[[popular|popular]]",
         "[[increasingly|cada vez más]]",
@@ -319,7 +319,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Habilidades blandas",
       "instructions": "Ordena las palabras sobre el mercado laboral.",
-      "correctSentence": "[[Soft|Las habilidades]] [[skills|blandas]] [[are|son]] [[just|tan]] [[as|importantes]] [[important|como las]] [[as|titulaciones]] [[academic|académicas.]] [[qualifications.| ]]",
+      "correctSentence": "[[Soft skills are just as important as academic qualifications.|Las habilidades blandas son tan importantes como las titulaciones académicas.  ]]",
       "words": [
         "[[important|como las]]",
         "[[qualifications.| ]]",
@@ -347,7 +347,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Taller de liderazgo",
       "instructions": "Ordena las palabras sobre un seminario práctico.",
-      "correctSentence": "[[The|El]] [[workshop|taller]] [[focuses|se centra]] [[on|en]] [[developing|desarrollar]] [[leadership|cualidades]] [[qualities.|de liderazgo.]]",
+      "correctSentence": "[[The workshop focuses on developing leadership qualities.|El taller se centra en desarrollar cualidades de liderazgo.]]",
       "words": [
         "[[developing|desarrollar]]",
         "[[workshop|taller]]",
@@ -373,7 +373,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Fin de curso",
       "instructions": "Ordena las palabras usando el futuro perfecto.",
-      "correctSentence": "[[By|Para]] [[the|final]] [[end|de]] [[of|año,]] [[the|habrán]] [[year,|completado]] [[they|el]] [[will|curso.]] [[have| ]] [[completed| ]] [[the| ]] [[course.| ]]",
+      "correctSentence": "[[By the end of the year, they will have completed the course.|Para final de año, habrán completado el curso.        ]]",
       "words": [
         "[[will|curso.]]",
         "[[end|de]]",
@@ -404,7 +404,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Recursos bibliotecarios",
       "instructions": "Ordena las palabras sobre los servicios de la biblioteca.",
-      "correctSentence": "[[The|La]] [[library|biblioteca]] [[offers|ofrece]] [[a|una]] [[wide|amplia]] [[range|gama]] [[of|de]] [[resources|recursos]] [[for|para]] [[researchers.|investigadores.]]",
+      "correctSentence": "[[The library offers a wide range of resources for researchers.|La biblioteca ofrece una amplia gama de recursos para investigadores.]]",
       "words": [
         "[[range|gama]]",
         "[[offers|ofrece]]",
@@ -433,7 +433,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Permiso para la tesis",
       "instructions": "Ordena las palabras sobre una excedencia académica.",
-      "correctSentence": "[[He|Se le]] [[was|concedió]] [[granted|una]] [[a|excedencia]] [[leave|para]] [[of|terminar]] [[absence|su]] [[to|tesis.]] [[finish| ]] [[his| ]] [[thesis.| ]]",
+      "correctSentence": "[[He was granted a leave of absence to finish his thesis.|Se le concedió una excedencia para terminar su tesis.      ]]",
       "words": [
         "[[absence|su]]",
         "[[leave|para]]",
@@ -463,7 +463,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sistema de calificación",
       "instructions": "Ordena las palabras para expresar desacuerdo.",
-      "correctSentence": "[[I|Me]] [[object|opongo]] [[to|al]] [[the|nuevo]] [[new|sistema]] [[grading|de]] [[system|calificación]] [[being|que se está]] [[implemented.|implementando.]]",
+      "correctSentence": "[[I object to the new grading system being implemented.|Me opongo al nuevo sistema de calificación que se está implementando.]]",
       "words": [
         "[[grading|de]]",
         "[[implemented.|implementando.]]",
@@ -491,7 +491,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Dejar los estudios",
       "instructions": "Ordena las palabras sobre abandonar la carrera.",
-      "correctSentence": "[[She|Ella]] [[dropped|abandonó]] [[out|la]] [[of|universidad]] [[university|para]] [[to|empezar]] [[start|su]] [[her|propio]] [[own|negocio.]] [[business.| ]]",
+      "correctSentence": "[[She dropped out of university to start her own business.|Ella abandonó la universidad para empezar su propio negocio.  ]]",
       "words": [
         "[[dropped|abandonó]]",
         "[[business.| ]]",
@@ -520,7 +520,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Incidente en el examen",
       "instructions": "Ordena las palabras usando inversión negativa.",
-      "correctSentence": "[[Hardly|Apenas]] [[had|había]] [[I|yo]] [[started|empezado]] [[the|el]] [[exam|examen]] [[when|cuando]] [[the|las]] [[lights|luces]] [[went|se]] [[out.|apagaron.]]",
+      "correctSentence": "[[Hardly had I started the exam when the lights went out.|Apenas había yo empezado el examen cuando las luces se apagaron.]]",
       "words": [
         "[[had|había]]",
         "[[started|empezado]]",
@@ -550,7 +550,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Evaluación continua",
       "instructions": "Ordena las palabras sobre los sistemas de evaluación.",
-      "correctSentence": "[[Continuous|La evaluación]] [[assessment|continua]] [[provides|proporciona]] [[a|una]] [[more|imagen]] [[accurate|más]] [[picture|precisa]] [[of|del]] [[a|progreso]] [[student's|de un]] [[progress.|estudiante.]]",
+      "correctSentence": "[[Continuous assessment provides a more accurate picture of a student's progress.|La evaluación continua proporciona una imagen más precisa del progreso de un estudiante.]]",
       "words": [
         "[[accurate|más]]",
         "[[student's|de un]]",
@@ -580,7 +580,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Entrega de tareas",
       "instructions": "Ordena las palabras sobre las obligaciones académicas.",
-      "correctSentence": "[[The|Se]] [[students|les]] [[are|exige]] [[required|a los]] [[to|estudiantes]] [[submit|entregar]] [[their|sus]] [[assignments|tareas]] [[by|antes del]] [[Friday.|viernes.]]",
+      "correctSentence": "[[The students are required to submit their assignments by Friday.|Se les exige a los estudiantes entregar sus tareas antes del viernes.]]",
       "words": [
         "[[required|a los]]",
         "[[Friday.|viernes.]]",
@@ -609,7 +609,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Maestro dedicado",
       "instructions": "Ordena las palabras usando inversión con 'Never'.",
-      "correctSentence": "[[Never|Nunca]] [[have|he]] [[I|visto]] [[seen|a un]] [[such|profesor]] [[a|tan]] [[dedicated|dedicado]] [[teacher| ]] [[before.|antes.]]",
+      "correctSentence": "[[Never have I seen such a dedicated teacher before.|Nunca he visto a un profesor tan dedicado   antes.]]",
       "words": [
         "[[before.|antes.]]",
         "[[have|he]]",
@@ -637,7 +637,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Motivación académica",
       "instructions": "Ordena las palabras sobre las metas de un estudiante.",
-      "correctSentence": "[[He|Él]] [[is|está]] [[highly|muy]] [[motivated|motivado]] [[to|para]] [[achieve|lograr]] [[his|sus]] [[academic|metas]] [[goals.|académicas.]]",
+      "correctSentence": "[[He is highly motivated to achieve his academic goals.|Él está muy motivado para lograr sus metas académicas.]]",
       "words": [
         "[[achieve|lograr]]",
         "[[motivated|motivado]]",
@@ -665,7 +665,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Clase aburrida",
       "instructions": "Ordena las palabras usando la estructura 'so... that'.",
-      "correctSentence": "[[The|La]] [[lecture|conferencia]] [[was|fue]] [[so|tan]] [[boring|aburrida]] [[that|que]] [[many|muchos]] [[students|estudiantes]] [[fell|se]] [[asleep.|durmieron.]]",
+      "correctSentence": "[[The lecture was so boring that many students fell asleep.|La conferencia fue tan aburrida que muchos estudiantes se durmieron.]]",
       "words": [
         "[[boring|aburrida]]",
         "[[many|muchos]]",
@@ -694,7 +694,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "content": {
       "title": "Enfoque educativo",
       "instructions": "Ordena las palabras sobre nuevas metodologías.",
-      "correctSentence": "[[They|Ellos]] [[have|han]] [[decided|decidido]] [[to| ]] [[implement|implementar]] [[a|un]] [[more|enfoque]] [[student-centered|más centrado]] [[approach.|en el alumno.]]",
+      "correctSentence": "[[They have decided to implement a more student-centered approach.|Ellos han decidido   implementar un enfoque más centrado en el alumno.]]",
       "words": [
         "[[decided|decidido]]",
         "[[implement|implementar]]",
@@ -725,7 +725,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta después de 'looking forward to'.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[is|está]] [[looking|con]] [[forward|muchas]] [[to|ganas de]] _______ [[from| ]] [[university|graduarse]] [[next|el]] [[summer.|próximo verano.]]",
+          "question": "[[She is looking forward to university next summer.|Ella está con muchas ganas de]] _______ [[from|  graduarse el próximo verano.]]",
           "options": ["[[graduating|graduarse]]", "[[graduates|graduarse]]", "[[graduate|graduarse]]"],
           "correctAnswer": 0,
           "explanation": "'Looking forward to' va seguido siempre de un gerundio (-ing) o un sustantivo.",
@@ -748,7 +748,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para expresar arrepentimiento sobre el pasado.",
       "questions": [
         {
-          "question": "[[I|Ojalá]] [[wish| ]] [[I|yo]] _______ [[studied|estudiado]] [[harder|más]] [[for|para]] [[the|el]] [[entrance|examen]] [[exam.|de ingreso.]]",
+          "question": "[[I wish I harder entrance exam.|Ojalá   yo]] _______ [[studied for the|estudiado más para el examen de ingreso.]]",
           "options": ["[[had|hubiera]]", "[[have|he]]", "[[would|hubiera]]"],
           "correctAnswer": 0,
           "explanation": "'I wish' seguido del past perfect expresa arrepentimiento sobre una situación pasada.",
@@ -771,7 +771,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el nombre que significa 'fama' o 'reputación'.",
       "questions": [
         {
-          "question": "[[The|La]] [[university|universidad]] [[has|tiene]] [[a|una]] _______ [[for|por]] [[academic|su]] [[excellence.|excelencia académica.]]",
+          "question": "[[The university has a|La universidad tiene una]] _______ [[for academic excellence.|por su excelencia académica.]]",
           "options": ["[[report|informe]]", "[[repealing|derogación]]", "[[reputation|reputación]]"],
           "correctAnswer": 2,
           "explanation": "A 'reputation' is the opinion that people have about someone or something.",
@@ -794,7 +794,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el antónimo de 'weaknesses'.",
       "questions": [
         {
-          "question": "[[You|Deberías]] [[should|centrarte]] [[focus|en]] [[on|tus]] _______ [[rather|en]] [[than|lugar]] [[your|de]] [[weaknesses.|en tus debilidades.]]",
+          "question": "[[You should focus on|Deberías centrarte en tus]] _______ [[rather than your weaknesses.|en lugar de en tus debilidades.]]",
           "options": ["[[strangers|extraños]]", "[[strengths|fortalezas]]", "[[stresses|tensiones]]"],
           "correctAnswer": 1,
           "explanation": "'Strengths' son las cualidades o habilidades en las que alguien es particularmente bueno.",
@@ -817,7 +817,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo correcto para 'lograr algo difícil'.",
       "questions": [
         {
-          "question": "[[Despite|A pesar]] [[being|de]] [[tired,|estar cansada,]] [[she|ella]] _______ [[to|logró]] [[complete|completar]] [[the|la]] [[assignment.|tarea.]]",
+          "question": "[[Despite being tired, she|A pesar de estar cansada, ella]] _______ [[to complete the assignment.|logró completar la tarea.]]",
           "options": ["[[managed|logró]]", "[[succeeded|tuvo éxito]]", "[[achieved|alcanzó]]"],
           "correctAnswer": 0,
           "explanation": "'Manage' va seguido de 'to' + infinitivo, mientras que 'succeed' va seguido de 'in' + gerundio.",
@@ -840,7 +840,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para los comentarios del profesor.",
       "questions": [
         {
-          "question": "[[The|El]] [[teacher|profesor]] [[provided|nos]] [[us|dio]] [[with| ]] [[some| ]] [[useful|útiles]] _______ [[on|sobre]] [[our|nuestros]] [[essays.|ensayos.]]",
+          "question": "[[The teacher provided us with some useful our|El profesor nos dio     útiles]] _______ [[on essays.|sobre nuestros ensayos.]]",
           "options": ["[[backfeed|retroalimentación (técnico)]]", "[[feedback|comentarios/retroalimentación]]", "[[feedbag|bolsa de comida]]"],
           "correctAnswer": 1,
           "explanation": "'Feedback' es información sobre algo que has hecho que te dice lo bien que lo hiciste.",
@@ -863,7 +863,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el par correlativo correcto para 'Neither'.",
       "questions": [
         {
-          "question": "[[Neither|Ni]] [[the|los]] [[students|estudiantes]] _______ [[the|el]] [[teacher|profesor]] [[was|estaban]] [[aware|al tanto]] [[of|del]] [[the|cambio.]] [[change.| ]]",
+          "question": "[[Neither the students teacher of the change.|Ni los estudiantes]] _______ [[the was aware|el profesor estaban al tanto del cambio.  ]]",
           "options": ["[[or|o]]", "[[nor|ni]]", "[[and|y]]"],
           "correctAnswer": 1,
           "explanation": "'Neither' siempre se empareja con 'nor'.",
@@ -886,7 +886,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo para actividades fuera del horario escolar.",
       "questions": [
         {
-          "question": "[[It|Es]] [[is|es]] [[essential|esencial]] [[to| ]] [[take|participar]] [[part|en]] [[in| ]] _______ [[activities.|actividades.]]",
+          "question": "[[It is essential to take part in|Es es esencial   participar en  ]] _______ [[activities.|actividades.]]",
           "options": ["[[extracurricular|extraescolares]]", "[[extraordinary|extraordinarias]]", "[[extravagant|extravagantes]]"],
           "correctAnswer": 0,
           "explanation": "Las actividades 'extracurricular' son aquellas que no forman parte del plan de estudios normal.",
@@ -909,7 +909,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta después de 'I'd rather'.",
       "questions": [
         {
-          "question": "[[I'd|Prefiero]] [[rather| ]] _______ [[in|en]] [[the|la]] [[library|biblioteca]] [[than|que]] [[at|en]] [[home.|casa.]]",
+          "question": "[[I'd rather library than at home.|Prefiero  ]] _______ [[in the|en la biblioteca que en casa.]]",
           "options": ["[[studying|estudiar]]", "[[study|estudiar]]", "[[to study|estudiar]]"],
           "correctAnswer": 1,
           "explanation": "'Would rather' va seguido del infinitivo sin 'to' (bare infinitive).",
@@ -932,7 +932,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa 'incluir' o 'tratar'.",
       "questions": [
         {
-          "question": "[[The|El]] [[course|curso]] _______ [[a|una]] [[wide|amplia]] [[range|gama]] [[of|de]] [[subjects...|temas...]]",
+          "question": "[[The course range of subjects...|El curso]] _______ [[a wide|una amplia gama de temas...]]",
           "options": ["[[uncovers|descubre]]", "[[covers|cubre]]", "[[discovers|descubre]]"],
           "correctAnswer": 1,
           "explanation": "En este contexto, 'covers' significa incluir o tratar un tema.",
@@ -955,7 +955,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para una acción que continuará hasta un punto en el futuro.",
       "questions": [
         {
-          "question": "[[By|Para]] [[next|el]] [[month,|próximo mes,]] [[I|habré]] _______ [[English|inglés]] [[for|durante]] [[ten|diez]] [[years.|años.]]",
+          "question": "[[By next month, I|Para el próximo mes, habré]] _______ [[English for ten years.|inglés durante diez años.]]",
           "options": ["[[will have been learning|habré estado aprendiendo]]", "[[will be learning|estaré aprendiendo]]", "[[will have learned|habré aprendido]]"],
           "correctAnswer": 0,
           "explanation": "El futuro perfecto continuo se usa para mostrar cuánto tiempo habrá estado ocurriendo una acción en un punto del futuro.",
@@ -978,7 +978,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el phrasal verb que significa 'cumplir con las normas'.",
       "questions": [
         {
-          "question": "[[You|Debes]] _______ [[with|las]] [[the|normas]] [[university|universitarias.]] [[regulations.| ]]",
+          "question": "[[You the university regulations.|Debes]] _______ [[with|las normas universitarias.  ]]",
           "options": ["[[apply|solicitar]]", "[[rely|confiar]]", "[[comply|cumplir]]"],
           "correctAnswer": 2,
           "explanation": "'Comply with' significa obedecer una regla o una orden.",
@@ -1001,7 +1001,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la estructura de inversión correcta.",
       "questions": [
         {
-          "question": "_______ [[had|había]] [[the|entrado]] [[teacher|el]] [[entered|profesor]] [[the|en la]] [[room|habitación]] [[when...|cuando...]]",
+          "question": "_______ [[had the teacher entered the room when...|había entrado el profesor en la habitación cuando...]]",
           "options": ["[[Hardly|Apenas]]", "[[Hard|Duro]]", "[[Hardest|Más duro]]"],
           "correctAnswer": 0,
           "explanation": "'Hardly' seguido de inversión se usa para mostrar que una cosa sucedió casi inmediatamente después de otra.",
@@ -1024,7 +1024,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el adverbio que intensifica 'motivated'.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[is|está]] _______ [[motivated|motivada]] [[to|para]] [[succeed|tener éxito]] [[in|en]] [[her|su]] [[academic|carrera]] [[career.|académica.]]",
+          "question": "[[She is succeed in her academic career.|Ella está]] _______ [[motivated to|motivada para tener éxito en su carrera académica.]]",
           "options": ["[[strongly|fuertemente]]", "[[highly|muy/altamente]]", "[[deeply|profundamente]]"],
           "correctAnswer": 1,
           "explanation": "'Highly' es la colocación más natural con 'motivated'.",
@@ -1047,7 +1047,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta para el subjuntivo (formal).",
       "questions": [
         {
-          "question": "[[I|Sugiero]] [[suggest|que]] [[that|él]] [[he|él]] _______ [[a|un]] [[gap|año]] [[year|sabático]] [[before|antes de]] [[starting|empezar la]] [[university.|universidad.]]",
+          "question": "[[I suggest that he starting university.|Sugiero que él él]] _______ [[a gap year before|un año sabático antes de empezar la universidad.]]",
           "options": ["[[taking|tomando]]", "[[takes|toma]]", "[[take|tome]]"],
           "correctAnswer": 2,
           "explanation": "En inglés formal, 'suggest' puede ir seguido de una cláusula con la forma base del verbo (subjuntivo).",
@@ -1070,7 +1070,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo para cuando echan a un alumno definitivamente.",
       "questions": [
         {
-          "question": "[[The|El]] [[student|estudiante]] [[was|fue]] _______ [[for|por]] [[cheating|hacer trampas]] [[during|durante]] [[the|el]] [[final|examen]] [[exam.|final.]]",
+          "question": "[[The student was cheating final exam.|El estudiante fue]] _______ [[for during the|por hacer trampas durante el examen final.]]",
           "options": ["[[suspended|suspendido]]", "[[expelled|expulsado]]", "[[excluded|excluido]]"],
           "correctAnswer": 1,
           "explanation": "'Expelled' significa ser obligado oficialmente a abandonar una escuela u organización.",
@@ -1093,7 +1093,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma invertida del segundo condicional (formal).",
       "questions": [
         {
-          "question": "_______ [[I|yo]] [[in|en]] [[your|tu]] [[position,|posición,]] [[I|yo]] [[would|elegiría]] [[choose|una]] [[a|carrera]] [[different|diferente.]] [[major.| ]]",
+          "question": "_______ [[I in your position, I would choose a different major.|yo en tu posición, yo elegiría una carrera diferente.  ]]",
           "options": ["[[Were|Si fuera]]", "[[Am|Si fuera]]", "[[Was|Si fuera]]"],
           "correctAnswer": 0,
           "explanation": "'Were I' es una forma más formal y literaria de decir 'If I were'.",
@@ -1116,7 +1116,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el dinero que se paga por la enseñanza.",
       "questions": [
         {
-          "question": "[[The|Las]] _______ [[fees|tasas]] [[for|del]] [[the|nuevo]] [[new|curso]] [[course|son]] [[are|bastante]] [[quite|razonables.]] [[reasonable.| ]]",
+          "question": "[[The for the new course are quite reasonable.|Las]] _______ [[fees|tasas del nuevo curso son bastante razonables.  ]]",
           "options": ["[[tutoring|tutoría]]", "[[tuition|matrícula/enseñanza]]", "[[intuition|intuición]]"],
           "correctAnswer": 1,
           "explanation": "'Tuition fees' es el término estándar para el coste de la enseñanza universitaria.",
@@ -1139,7 +1139,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición correcta que sigue a 'capable'.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es]] [[capable|capaz]] _______ [[solving|de resolver]] [[complex|problemas]] [[mathematical|matemáticos]] [[problems.|complejos.]]",
+          "question": "[[He is capable complex|Él es capaz]] _______ [[solving mathematical problems.|de resolver problemas matemáticos complejos.]]",
           "options": ["[[for|de]]", "[[of|de]]", "[[to|de]]"],
           "correctAnswer": 1,
           "explanation": "El adjetivo 'capable' siempre va seguido de la preposición 'of' + gerundio.",
@@ -1162,7 +1162,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la organización estudiantil.",
       "questions": [
         {
-          "question": "[[The|La]] [[student|estudiantil]] _______ [[represents|representa]] [[the|los]] [[interests|intereses]] [[of|de]] [[all|todos los]] [[students.|estudiantes.]]",
+          "question": "[[The student interests of all students.|La estudiantil]] _______ [[represents the|representa los intereses de todos los estudiantes.]]",
           "options": ["[[union|sindicato/unión]]", "[[uniform|uniforme]]", "[[unit|unidad]]"],
           "correctAnswer": 0,
           "explanation": "El 'student union' es la organización que defiende los derechos de los alumnos.",
@@ -1185,7 +1185,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para introducir una situación hipotética.",
       "questions": [
         {
-          "question": "_______ [[you|te]] [[were|ofrecieran]] [[offered|una]] [[a|beca,]] [[scholarship,|¿la]] [[would|aceptarías?]] [[you| ]] [[accept| ]] [[it?| ]]",
+          "question": "_______ [[you were offered a scholarship, would you accept it?|te ofrecieran una beca, ¿la aceptarías?      ]]",
           "options": ["[[Suppose|Supón/Supongamos]]", "[[Assuming|Asumiendo]]", "[[Providing|Siempre que]]"],
           "correctAnswer": 0,
           "explanation": "'Suppose' se usa para pedir a alguien que imagine una situación hipotética.",
@@ -1208,7 +1208,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión que significa 'de última generación'.",
       "questions": [
         {
-          "question": "[[The|El]] [[campus|campus]] [[has|tiene]] _______ [[facilities|instalaciones]] [[for|para]] [[sports.|deportes.]]",
+          "question": "[[The campus has for|El campus tiene]] _______ [[facilities sports.|instalaciones para deportes.]]",
           "options": ["[[out-of-date|anticuadas]]", "[[state-of-the-art|de última generación]]", "[[well-known|conocidas]]"],
           "correctAnswer": 1,
           "explanation": "'State-of-the-art' describe algo que utiliza la tecnología o los métodos más modernos.",
@@ -1231,7 +1231,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta después de 'It is worth'.",
       "questions": [
         {
-          "question": "[[It|Vale]] [[is|la]] [[worth|pena]] _______ [[that|que]] [[the|el]] [[deadline|plazo]] [[has|ha]] [[been|sido]] [[extended.|ampliado.]]",
+          "question": "[[It is worth the been extended.|Vale la pena]] _______ [[that deadline has|que el plazo ha sido ampliado.]]",
           "options": ["[[noting|señalar]]", "[[to note|señalar]]", "[[note|señalar]]"],
           "correctAnswer": 0,
           "explanation": "La expresión 'It is worth' siempre va seguida de un gerundio (-ing).",
@@ -1254,7 +1254,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el término correcto para el título de postgrado.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[has|tiene]] [[a|un]] _______ [[degree|título de máster]] [[in|en]] [[environmental|ciencias]] [[science.|ambientales.]]",
+          "question": "[[She has a in|Ella tiene un]] _______ [[degree environmental science.|título de máster en ciencias ambientales.]]",
           "options": ["[[doctoral|doctorado]]", "[[master's|máster]]", "[[bachelor's|grado/licenciatura]]"],
           "correctAnswer": 1,
           "explanation": "Un 'master's degree' es el siguiente nivel académico después del 'bachelor's degree'.",
@@ -1277,7 +1277,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector que significa 'siempre que'.",
       "questions": [
         {
-          "question": "_______ [[that|que]] [[you|estudies]] [[study|mucho,]] [[hard,|aprobarás]] [[you|el]] [[will|examen.]] [[pass| ]] [[the| ]] [[exam.| ]]",
+          "question": "_______ [[that you study hard, you will pass the exam.|que estudies mucho, aprobarás el examen.      ]]",
           "options": ["[[Provided|Siempre que]]", "[[Unless|A menos que]]", "[[Despite|A pesar de]]"],
           "correctAnswer": 0,
           "explanation": "'Provided that' se usa para establecer una condición necesaria.",

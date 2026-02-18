@@ -13,7 +13,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[go|ir]] ([[en|en]]) _______ [[train|train]].",
+          "question": "[[I go|Yo ir]] ([[en|en]]) _______ [[train|train]].",
           "options": [
             "[[is|es/está]]",
             "[[are|son/están]]",
@@ -65,7 +65,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[In|En]] ([[verano|verano]]) [[_______|_______]], [[it|eso]] [[is|es/está]] [[hot|caliente]].",
+          "question": "[[In is, it hot|En]] ([[verano|verano]]) [[_______|_______, eso es/está caliente]].",
           "options": [
             "[[summer|summer]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] ([[be|ser/estar]]) _______ [[my|mi/mis]] [[key|key]]?",
+          "question": "[[Where key|Dónde]] ([[be|ser/estar]]) _______ [[my|mi/mis key]]?",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[This|Este/esta]] [[is|es/está]] [[a|un/una]] [[review|review]] [[of|de]] [[module|module]] [[five|cinco]].",
+      "correctSentence": "[[This is a review of module five|Este/esta es/está un/una review de module cinco]].",
       "words": [
         "[[is|es/está]]",
         "[[five|cinco]].",
@@ -140,7 +140,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Talk|Talk]] [[about|sobre/acerca de]] [[transport|transport]] [[and|and]] [[travel|travel]].",
+      "correctSentence": "[[Talk about transport and travel|Talk sobre/acerca de transport and travel]].",
       "words": [
         "[[travel|travel]].",
         "[[transport|transport]]",
@@ -163,7 +163,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Describe|Describe]] [[the|el/la/los/las]] [[weather|weather]] [[and|and]] [[seasons|seasons]].",
+      "correctSentence": "[[Describe the weather and seasons|Describe el/la/los/las weather and seasons]].",
       "words": [
         "[[the|el/la/los/las]]",
         "[[Describe|Describe]]",
@@ -186,7 +186,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Book|Libro]] [[a|un/una]] [[hotel|hotel]] [[room|habitación]].",
+      "correctSentence": "[[Book a hotel room|Libro un/una hotel habitación]].",
       "words": [
         "[[room|habitación]].",
         "[[hotel|hotel]]",
@@ -208,7 +208,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Prepare|Prepare]] [[for|para/por]] [[a|un/una]] [[holiday|holiday]].",
+      "correctSentence": "[[Prepare for a holiday|Prepare para/por un/una holiday]].",
       "words": [
         "[[holiday|holiday]].",
         "[[for|para/por]]",

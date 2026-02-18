@@ -89,7 +89,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[have|tener/haber]] [[got|tienes/conseguido]]) _______ [[long|largo]] [[hair|hair]].",
+          "question": "[[She got|Ella]] ([[have|tener/haber tienes/conseguido]]) _______ [[long hair|largo hair]].",
           "options": [
             "[[it|eso]]",
             "[[has got|has got]]",
@@ -115,7 +115,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[be|ser/estar]]) _______ [[quite|bastante]] [[tall|alto]].",
+          "question": "[[He tall|Él]] ([[be|ser/estar]]) _______ [[quite|bastante alto]].",
           "options": [
             "[[is|es/está]]",
             "[[to|a/para]]",
@@ -141,7 +141,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[not/be|no ser/estar]]) _______ [[very|muy]] [[slim|slim]].",
+          "question": "[[They slim|Ellos]] ([[not/be|no ser/estar]]) _______ [[very|muy slim]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -167,7 +167,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[My|Mi/mis]] [[brother|hermano]] [[is|es/está]] _______ ([[tall|alto]]) [[than|que (comparativo)]] [[me|me/mí]].",
+          "question": "[[My brother is me|Mi/mis hermano es/está]] _______ ([[tall|alto]]) [[than|que (comparativo) me/mí]].",
           "options": [
             "[[taller|más alto]]",
             "[[it|eso]]",
@@ -193,7 +193,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[is|es/está]] [[the|el/la/los/las]] _______ ([[pretty|pretty]]) [[girl|niña]].",
+          "question": "[[She is the|Ella es/está el/la/los/las]] _______ ([[pretty|pretty]]) [[girl|niña]].",
           "options": [
             "[[to|a/para]]",
             "[[it|eso]]",
@@ -219,7 +219,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ ([[wear|wear]]) [[a|un/una]] [[blue|blue]] [[sweater|sweater]] [[now|ahora]].",
+          "question": "[[He blue sweater now|Él]] _______ ([[wear|wear]]) [[a|un/una blue sweater ahora]].",
           "options": [
             "[[it|eso]]",
             "[[is wearing|is wearing]]",
@@ -245,7 +245,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ ([[not/have|not/have]]) [[a|un/una]] [[beard|beard]].",
+          "question": "[[I beard|Yo]] _______ ([[not/have|not/have]]) [[a|un/una beard]].",
           "options": [
             "[[don't have|don't have]]",
             "[[to|a/para]]",
@@ -271,7 +271,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[What|Qué]] _______ [[he|él]] [[look|mirar]] [[like|gustar/como]]?",
+          "question": "[[What look like|Qué]] _______ [[he|él mirar gustar/como]]?",
           "options": [
             "[[to|a/para]]",
             "[[does|hace]]",
@@ -297,7 +297,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[look|mirar]]) _______ [[like|gustar/como]] [[her|su (de ella)]] [[mother|madre]].",
+          "question": "[[She her mother|Ella]] ([[look|mirar]]) _______ [[like|gustar/como su (de ella) madre]].",
           "options": [
             "[[looks|looks]]",
             "[[to|a/para]]",
@@ -323,7 +323,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[be|ser/estar]]) _______ [[both|both]] [[short|bajo/corto]].",
+          "question": "[[We short|Nosotros]] ([[be|ser/estar]]) _______ [[both|both bajo/corto]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -347,7 +347,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[has|tiene/ha]] [[long|largo]] [[blonde|blonde]] [[hair|hair]].",
+      "correctSentence": "[[She has long blonde hair|Ella tiene/ha largo blonde hair]].",
       "words": [
         "[[hair|hair]].",
         "[[She|Ella]]",
@@ -370,7 +370,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[wearing|wearing]] [[glasses|glasses]].",
+      "correctSentence": "[[He is wearing glasses|Él es/está wearing glasses]].",
       "words": [
         "[[He|Él]]",
         "[[is|es/está]]",
@@ -392,7 +392,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[father|padre]] [[has|tiene/ha]] [[a|un/una]] [[big|grande]] [[moustache|moustache]].",
+      "correctSentence": "[[My father has a big moustache|Mi/mis padre tiene/ha un/una grande moustache]].",
       "words": [
         "[[father|padre]]",
         "[[has|tiene/ha]]",
@@ -416,7 +416,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[shorter|más bajo]] [[than|que (comparativo)]] [[his|su (de él)]] [[brother|hermano]].",
+      "correctSentence": "[[He is shorter than his brother|Él es/está más bajo que (comparativo) su (de él) hermano]].",
       "words": [
         "[[than|que (comparativo)]]",
         "[[He|Él]]",
@@ -440,7 +440,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[is|es/está]] [[very|muy]] [[attractive|attractive]].",
+      "correctSentence": "[[She is very attractive|Ella es/está muy attractive]].",
       "words": [
         "[[She|Ella]]",
         "[[is|es/está]]",
@@ -462,7 +462,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[What|Qué]] [[does|hace]] [[she|ella]] [[look|mirar]] [[like|gustar/como]]?",
+      "correctSentence": "[[What does she look like|Qué hace ella mirar gustar/como]]?",
       "words": [
         "[[look|mirar]]",
         "[[she|ella]]",
@@ -485,7 +485,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[has|tiene/ha]] [[got|tienes/conseguido]] [[blue|blue]] [[eyes|eyes]].",
+      "correctSentence": "[[He has got blue eyes|Él tiene/ha tienes/conseguido blue eyes]].",
       "words": [
         "[[blue|blue]]",
         "[[eyes|eyes]].",
@@ -508,7 +508,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[are|son/están]] [[both|both]] [[very|muy]] [[slim|slim]].",
+      "correctSentence": "[[They are both very slim|Ellos son/están both muy slim]].",
       "words": [
         "[[both|both]]",
         "[[They|Ellos]]",
@@ -531,7 +531,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[is|es/está]] [[the|el/la/los/las]] [[tallest|el más alto]] [[in|en]] [[the|el/la/los/las]] [[class|clase]].",
+      "correctSentence": "[[She is the tallest in the class|Ella es/está el/la/los/las el más alto en el/la/los/las clase]].",
       "words": [
         "[[the|el/la/los/las]]",
         "[[tallest|el más alto]]",
@@ -556,7 +556,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[have|tener/haber]] [[straight|straight]] [[black|black]] [[hair|hair]].",
+      "correctSentence": "[[I have straight black hair|Yo tener/haber straight black hair]].",
       "words": [
         "[[I|Yo]]",
         "[[have|tener/haber]]",
@@ -579,7 +579,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Does|Hace]] [[he|él]] [[have|tener/haber]] [[a|un/una]] [[beard|beard]]?",
+      "correctSentence": "[[Does he have a beard|Hace él tener/haber un/una beard]]?",
       "words": [
         "[[a|un/una]]",
         "[[have|tener/haber]]",
@@ -602,7 +602,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[looks|looks]] [[very|muy]] [[young|young]].",
+      "correctSentence": "[[She looks very young|Ella looks muy young]].",
       "words": [
         "[[young|young]].",
         "[[very|muy]]",
@@ -624,7 +624,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[a|un/una]] [[handsome|handsome]] [[man|hombre]].",
+      "correctSentence": "[[He is a handsome man|Él es/está un/una handsome hombre]].",
       "words": [
         "[[is|es/está]]",
         "[[He|Él]]",
@@ -647,7 +647,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[are|son/están]] [[wearing|wearing]] [[school|escuela]] [[uniforms|uniforms]].",
+      "correctSentence": "[[They are wearing school uniforms|Ellos son/están wearing escuela uniforms]].",
       "words": [
         "[[are|son/están]]",
         "[[They|Ellos]]",
@@ -670,7 +670,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[mother|madre]] [[is|es/está]] [[quite|bastante]] [[short|bajo/corto]].",
+      "correctSentence": "[[My mother is quite short|Mi/mis madre es/está bastante bajo/corto]].",
       "words": [
         "[[mother|madre]]",
         "[[quite|bastante]]",

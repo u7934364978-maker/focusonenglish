@@ -13,7 +13,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una historia larga de ficción.",
       "questions": [
         {
-          "question": "[[A|Una]] _______ [[is|es]] [[a|una]] [[long|larga]] [[fictional|ficticia]] [[story|historia]].",
+          "question": "[[A a long fictional story|Una]] _______ [[is|es una larga ficticia historia]].",
           "options": [
             "[[novel|novela]]",
             "[[biography|biografía]]",
@@ -40,7 +40,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el pronombre relativo adecuado para un objeto.",
       "questions": [
         {
-          "question": "[[The|La]] [[painting|pintura]], _______ [[was|fue]] [[painted|pintada]] [[by|por]] [[Van Gogh|Van Gogh]], [[is|es]] [[famous|famosa]].",
+          "question": "[[The painting, is famous by Van Gogh|La pintura]], _______ [[was painted|fue pintada por Van Gogh, es famosa]].",
           "options": [
             "[[which|la cual / que]]",
             "[[who|quien]]",
@@ -65,7 +65,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Escultura",
       "instructions": "Ordena las palabras para formar una oración en voz pasiva.",
-      "correctSentence": "[[The|La]] [[beautiful|hermosa]] [[statue|estatua]] [[was|fue]] [[carved|tallada]] [[from|de]] [[white|blanco]] [[marble|mármol]].",
+      "correctSentence": "[[The beautiful statue was carved from white marble|La hermosa estatua fue tallada de blanco mármol]].",
       "words": [
         "[[statue|estatua]]",
         "[[marble|mármol]].",
@@ -94,7 +94,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el autor de obras de teatro.",
       "questions": [
         {
-          "question": "[[Shakespeare|Shakespeare]] [[was|fue]] [[a|un]] [[famous|famoso]] _______.",
+          "question": "[[Shakespeare was a famous|Shakespeare fue un famoso]] _______.",
           "options": [
             "[[playwright|dramaturgo]]",
             "[[painter|pintor]]",
@@ -121,7 +121,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el modal para acciones repetidas en el pasado.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[spend|pasaba]] [[hours|horas]] [[drawing|dibujando]] [[in|en]] [[the|el]] [[garden|jardín]].",
+          "question": "[[I hours drawing in the garden|Yo]] _______ [[spend|pasaba horas dibujando en el jardín]].",
           "options": [
             "[[would|solía (acción repetida)]]",
             "[[will|pasaré]]",
@@ -148,7 +148,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el lugar donde se exponen cuadros.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[visited|visitamos]] [[an|una]] [[art|de arte]] _______ [[yesterday|ayer]].",
+          "question": "[[We visited an art|Nosotros visitamos una de arte]] _______ [[yesterday|ayer]].",
           "options": [
             "[[gallery|galería]]",
             "[[library|biblioteca]]",
@@ -173,7 +173,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Personajes de Ficción",
       "instructions": "Ordena las palabras sobre los personajes de un libro.",
-      "correctSentence": "[[The|Los]] [[main|principales]] [[characters|personajes]] [[are|están]] [[based|basados]] [[on|en]] [[real|reales]] [[people|personas]] [[from|de]] [[history|historia]].",
+      "correctSentence": "[[The main characters are based on real people from history|Los principales personajes están basados en reales personas de historia]].",
       "words": [
         "[[based|basados]]",
         "[[people|personas]].",
@@ -204,7 +204,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para un cuadro de naturaleza.",
       "questions": [
         {
-          "question": "[[He|Él]] [[painted|pintó]] [[a|un]] [[beautiful|hermoso]] _______ [[of|de]] [[the|los]] [[Alps|Alpes]].",
+          "question": "[[He painted a beautiful|Él pintó un hermoso]] _______ [[of the Alps|de los Alpes]].",
           "options": [
             "[[landscape|paisaje]]",
             "[[portrait|retrato]]",
@@ -231,7 +231,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de la voz pasiva en presente.",
       "questions": [
         {
-          "question": "[[The|Las]] [[sculptures|esculturas]] _______ [[cleaned|limpiadas]] [[every|cada]] [[month|mes]].",
+          "question": "[[The sculptures month|Las esculturas]] _______ [[cleaned every|limpiadas cada mes]].",
           "options": [
             "[[are|son]]",
             "[[is|es]]",
@@ -256,7 +256,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hábitos Pasados",
       "instructions": "Ordena las palabras para hablar de un estado pasado.",
-      "correctSentence": "[[He|Él]] [[used|solía]] [[to| ]] [[be|ser]] [[a|un]] [[very|muy]] [[famous|famoso]] [[and|y]] [[successful|exitoso]] [[novelist|novelista]].",
+      "correctSentence": "[[He used to be a very famous and successful novelist|Él solía   ser un muy famoso y exitoso novelista]].",
       "words": [
         "[[famous|famoso]]",
         "[[be|ser]]",
@@ -287,7 +287,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la primera versión de un libro.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[is|está]] [[finished|terminado]], [[but|pero]] [[needs|necesita]] [[work|trabajo]].",
+          "question": "[[The finished, but needs work|El]] _______ [[is|está terminado, pero necesita trabajo]].",
           "options": [
             "[[draft|borrador]]",
             "[[chapter|capítulo]]",
@@ -314,7 +314,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el pronombre relativo para un lugar.",
       "questions": [
         {
-          "question": "[[This|Este]] [[is|es]] [[the|el]] [[room|cuarto]] _______ [[he|él]] [[paints|pinta]].",
+          "question": "[[This is the room|Este es el cuarto]] _______ [[he paints|él pinta]].",
           "options": [
             "[[where|donde]]",
             "[[which|el cual]]",
@@ -339,7 +339,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Publicación de Poesía",
       "instructions": "Ordena las palabras sobre la publicación de un libro.",
-      "correctSentence": "[[The|El]] [[new|nuevo]] [[adventure|aventura]] [[book|libro]] [[was|fue]] [[finally|finalmente]] [[published|publicado]] [[last|el pasado]] [[month|mes]].",
+      "correctSentence": "[[The new adventure book was finally published last month|El nuevo aventura libro fue finalmente publicado el pasado mes]].",
       "words": [
         "[[published|publicado]]",
         "[[month|mes]].",
@@ -369,7 +369,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para una obra de arte excepcional.",
       "questions": [
         {
-          "question": "[[This|Esta]] [[statue|estatua]] [[is|es]] [[considered|considerada]] [[a|una]] _______.",
+          "question": "[[This statue is considered a|Esta estatua es considerada una]] _______.",
           "options": [
             "[[masterpiece|obra maestra]]",
             "[[failure|fracaso]]",
@@ -396,7 +396,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el pronombre relativo para información adicional no esencial.",
       "questions": [
         {
-          "question": "[[The|La]] [[exhibition|exhibición]], _______ [[is|es]] [[free|gratuita]], [[opens|abre]] [[soon|pronto]].",
+          "question": "[[The exhibition, opens soon|La exhibición]], _______ [[is free|es gratuita, abre pronto]].",
           "options": [
             "[[which|que / la cual]]",
             "[[who|quien]]",
@@ -423,7 +423,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para un dibujo rápido.",
       "questions": [
         {
-          "question": "[[He|Él]] [[made|hizo]] [[a|un]] [[quick|rápido]] _______ [[before|antes de]] [[painting|pintar]].",
+          "question": "[[He made a quick|Él hizo un rápido]] _______ [[before painting|antes de pintar]].",
           "options": [
             "[[sketch|boceto]]",
             "[[sculpture|escultura]]",
@@ -450,7 +450,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el arte de la cerámica.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[takes|toma]] _______ [[classes|clases]] [[on|los]] [[Fridays|viernes]].",
+          "question": "[[She takes Fridays|Ella toma]] _______ [[classes on|clases los viernes]].",
           "options": [
             "[[pottery|alfarería/cerámica]]",
             "[[poetry|poesía]]",
@@ -475,7 +475,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Materiales Artísticos",
       "instructions": "Ordena las palabras sobre la cerámica.",
-      "correctSentence": "[[Pottery|La cerámica]] [[is|es]] [[usually|usualmente]] [[made|hecha]] [[from|de]] [[wet|húmeda]] [[natural|natural]] [[clay|arcilla]].",
+      "correctSentence": "[[Pottery is usually made from wet natural clay|La cerámica es usualmente hecha de húmeda natural arcilla]].",
       "words": [
         "[[Pottery|La cerámica]]",
         "[[is|es]]",
@@ -504,7 +504,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa inspirar.",
       "questions": [
         {
-          "question": "[[Nature|La naturaleza]] _______ [[many|a muchos]] [[artists|artistas]].",
+          "question": "[[Nature artists|La naturaleza]] _______ [[many|a muchos artistas]].",
           "options": [
             "[[inspires|inspira]]",
             "[[insists|insiste]]",
@@ -531,7 +531,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la historia de la vida de alguien.",
       "questions": [
         {
-          "question": "[[I'm|Estoy]] [[reading|leyendo]] [[a|una]] _______ [[of|de]] [[Einstein|Einstein]].",
+          "question": "[[I'm reading a Einstein|Estoy leyendo una]] _______ [[of|de Einstein]].",
           "options": [
             "[[biography|biografía]]",
             "[[biology|biología]]",
@@ -556,7 +556,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Expresión Artística",
       "instructions": "Ordena las palabras sobre el arte abstracto.",
-      "correctSentence": "[[Abstract|El arte]] [[art|abstracto]] [[often|a menudo]] [[expresses|expresa]] [[very|muy]] [[strong|fuertes]] [[and|y]] [[deep|profundas]] [[emotions|emociones]].",
+      "correctSentence": "[[Abstract art often expresses very strong and deep emotions|El arte abstracto a menudo expresa muy fuertes y profundas emociones]].",
       "words": [
         "[[Abstract|El arte]]",
         "[[art|abstracto]]",
@@ -586,7 +586,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la representación de una persona.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[commissioned|encargó]] [[a|un]] _______ [[of|de]] [[her|su]] [[son|hijo]].",
+          "question": "[[She commissioned a her|Ella encargó un]] _______ [[of son|de su hijo]].",
           "options": [
             "[[portrait|retrato]]",
             "[[portion|porción]]",
@@ -613,7 +613,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige la expresión para hábitos pasados que ya no ocurren.",
       "questions": [
         {
-          "question": "[[The|El]] [[author|autor]] _______ [[write|escribir]] [[at|por]] [[night|la noche]].",
+          "question": "[[The author night|El autor]] _______ [[write at|escribir por la noche]].",
           "options": [
             "[[used to|solía]]",
             "[[is used to|está acostumbrado a]]",
@@ -638,7 +638,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ocio Cultural",
       "instructions": "Ordena las palabras sobre una rutina pasada.",
-      "correctSentence": "[[They|Ellos]] [[would|solían]] [[often|a menudo]] [[go|ir]] [[to|al]] [[the| ]] [[local|local]] [[theater|teatro]] [[every|cada]] [[Friday|viernes]].",
+      "correctSentence": "[[They would often go to the local theater every Friday|Ellos solían a menudo ir al   local teatro cada viernes]].",
       "words": [
         "[[They|Ellos]]",
         "[[would|solían]]",
@@ -669,7 +669,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la persona que evalúa obras de arte.",
       "questions": [
         {
-          "question": "[[The|El]] [[art|de arte]] _______ [[wrote|escribió]] [[a|una]] [[review|reseña]].",
+          "question": "[[The art review|El de arte]] _______ [[wrote a|escribió una reseña]].",
           "options": [
             "[[critic|crítico]]",
             "[[crisis|crisis]]",
@@ -696,7 +696,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que significa creatividad.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[essential|esencial]] [[for|para]] [[any|cualquier]] [[artist|artista]].",
+          "question": "_______ [[is essential for any artist|es esencial para cualquier artista]].",
           "options": [
             "[[Creativity|Creatividad]]",
             "[[Credibility|Credibilidad]]",
@@ -721,7 +721,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Herramientas de Arte",
       "instructions": "Ordena las palabras sobre el trabajo de un escultor.",
-      "correctSentence": "[[The|El]] [[artist|artista]] [[uses|usa]] [[a|un]] [[small|pequeño]] [[chisel|cincel]] [[to|para]] [[carve|tallar]] [[the|el]] [[stone|piedra]].",
+      "correctSentence": "[[The artist uses a small chisel to carve the stone|El artista usa un pequeño cincel para tallar el piedra]].",
       "words": [
         "[[The|El]]",
         "[[artist|artista]]",
@@ -752,7 +752,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el pronombre relativo de posesión.",
       "questions": [
         {
-          "question": "[[The|El]] [[painter|pintor]] _______ [[style|estilo]] [[is|es]] [[unique|único]].",
+          "question": "[[The painter unique|El pintor]] _______ [[style is|estilo es único]].",
           "options": [
             "[[whose|cuyo]]",
             "[[who|quien]]",
@@ -779,7 +779,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la superficie donde se pinta.",
       "questions": [
         {
-          "question": "[[The|El]] [[painter|pintor]] [[prepared|preparó]] [[the|el]] _______.",
+          "question": "[[The painter prepared the|El pintor preparó el]] _______.",
           "options": [
             "[[canvas|lienzo]]",
             "[[candle|vela]]",
@@ -804,7 +804,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cambio de Gustos",
       "instructions": "Ordena las palabras sobre un hábito pasado negativo.",
-      "correctSentence": "[[She|Ella]] [[didn't|no]] [[use|solía]] [[to| ]] [[like|gustarle]] [[modern|moderno]] [[abstract|abstracto]] [[art|arte]] [[at|al]] [[all|principio]].",
+      "correctSentence": "[[She didn't use to like modern abstract art at all|Ella no solía   gustarle moderno abstracto arte al principio]].",
       "words": [
         "[[She|Ella]]",
         "[[didn't|no]]",
@@ -835,7 +835,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para un grupo de obras de arte.",
       "questions": [
         {
-          "question": "[[The|La]] [[museum|museo]] [[has|tiene]] [[a|una]] [[large|gran]] _______ [[of|de]] [[vases|jarrones]].",
+          "question": "[[The museum has a large vases|La museo tiene una gran]] _______ [[of|de jarrones]].",
           "options": [
             "[[collection|colección]]",
             "[[selection|selección]]",
@@ -862,7 +862,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el pronombre relativo para un momento en el tiempo.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[remember|recuerdo]] [[the|el]] [[day|día]] _______ [[we|nosotros]] [[met|conocimos]].",
+          "question": "[[I remember the day|Yo recuerdo el día]] _______ [[we met|nosotros conocimos]].",
           "options": [
             "[[when|cuando]]",
             "[[where|donde]]",
@@ -887,7 +887,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Turismo Cultural",
       "instructions": "Ordena las palabras en voz pasiva.",
-      "correctSentence": "[[The|La]] [[famous|famosa]] [[gallery|galería]] [[is|es]] [[visited|visitada]] [[by|por]] [[many|muchos]] [[foreign|extranjeros]] [[tourists|turistas]].",
+      "correctSentence": "[[The famous gallery is visited by many foreign tourists|La famosa galería es visitada por muchos extranjeros turistas]].",
       "words": [
         "[[The|La]]",
         "[[famous|famosa]]",
@@ -917,7 +917,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra que significa 'género artístico'.",
       "questions": [
         {
-          "question": "[[What|¿Qué]] _______ [[of|de]] [[music|música]] [[do| ]] [[you|tú]] [[like|prefieres]]?",
+          "question": "[[What music do you like|¿Qué]] _______ [[of|de música   tú prefieres]]?",
           "options": [
             "[[genre|género]]",
             "[[gender|género (biológico/gramatical)]]",
@@ -944,7 +944,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa actuar o representar.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[their|su]] [[play|obra]] [[tonight|esta noche]].",
+          "question": "[[They play tonight|Ellos]] _______ [[their|su obra esta noche]].",
           "options": [
             "[[perform|actúan/representan]]",
             "[[reform|reforman]]",
@@ -969,7 +969,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hábitos de Artista",
       "instructions": "Ordena las palabras sobre un hábito pasado.",
-      "correctSentence": "[[The|El]] [[young|joven]] [[painter|pintor]] [[would|solía]] [[always|siempre]] [[carry|llevar]] [[a|un]] [[small|pequeño]] [[sketchbook|cuaderno de bocetos]].",
+      "correctSentence": "[[The young painter would always carry a small sketchbook|El joven pintor solía siempre llevar un pequeño cuaderno de bocetos]].",
       "words": [
         "[[The|El]]",
         "[[young|joven]]",
@@ -999,7 +999,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para un texto breve de no ficción.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[wrote|escribí]] [[an|un]] _______ [[about|sobre]] [[history|historia]].",
+          "question": "[[I wrote an history|Yo escribí un]] _______ [[about|sobre historia]].",
           "options": [
             "[[essay|ensayo]]",
             "[[easy|fácil]]",
@@ -1026,7 +1026,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el pronombre de posesión relativo para un objeto.",
       "questions": [
         {
-          "question": "[[The|El]] [[book|libro]] _______ [[pages|páginas]] [[are|están]] [[old|viejas]].",
+          "question": "[[The book old|El libro]] _______ [[pages are|páginas están viejas]].",
           "options": [
             "[[whose|cuyas]]",
             "[[which|las cuales]]",
@@ -1051,7 +1051,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Música y Pasado",
       "instructions": "Ordena las palabras sobre una habilidad pasada.",
-      "correctSentence": "[[I|Yo]] [[used|solía]] [[to| ]] [[play|tocar]] [[the|el]] [[piano|piano]] [[when|cuando]] [[I|yo]] [[was|era]] [[younger|más joven]].",
+      "correctSentence": "[[I used to play the piano when I was younger|Yo solía   tocar el piano cuando yo era más joven]].",
       "words": [
         "[[I|Yo]]",
         "[[used|solía]]",
@@ -1082,7 +1082,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra que significa rima.",
       "questions": [
         {
-          "question": "[[The|El]] [[poem|poema]] [[has|tiene]] [[a|una]] [[perfect|perfecta]] _______.",
+          "question": "[[The poem has a perfect|El poema tiene una perfecta]] _______.",
           "options": [
             "[[rhyme|rima]]",
             "[[rhythm|ritmo]]",
@@ -1109,7 +1109,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa publicar.",
       "questions": [
         {
-          "question": "[[When|¿Cuándo]] [[will| ]] [[you|tú]] _______ [[the|el]] [[book|libro]]?",
+          "question": "[[When will you book|¿Cuándo   tú]] _______ [[the|el libro]]?",
           "options": [
             "[[publish|publicar]]",
             "[[punish|castigar]]",
@@ -1134,7 +1134,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Visión Artística",
       "instructions": "Ordena las palabras sobre el impacto del arte.",
-      "correctSentence": "[[Visual|El arte]] [[art|visual]] [[helps|ayuda]] [[us|a nosotros]] [[to|a]] [[see|ver]] [[the|el]] [[world|mundo]] [[differently|diferentemente]].",
+      "correctSentence": "[[Visual art helps us to see the world differently|El arte visual ayuda a nosotros a ver el mundo diferentemente]].",
       "words": [
         "[[Visual|El arte]]",
         "[[art|visual]]",
@@ -1164,7 +1164,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el relativo adecuado para añadir información extra.",
       "questions": [
         {
-          "question": "[[The|El]] [[vase|jarrón]], _______ [[is|es]] [[red|rojo]], [[is|es]] [[old|viejo]].",
+          "question": "[[The vase, is old|El jarrón]], _______ [[is red|es rojo, es viejo]].",
           "options": [
             "[[which|el cual]]",
             "[[that|que (incorrecto)]]",
@@ -1191,7 +1191,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el texto de una película.",
       "questions": [
         {
-          "question": "[[The|El]] [[actors|actores]] [[are|están]] [[reading|leyendo]] [[the|el]] _______.",
+          "question": "[[The actors are reading the|El actores están leyendo el]] _______.",
           "options": [
             "[[script|guion]]",
             "[[scribe|escriba]]",
@@ -1216,7 +1216,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Rutina de Poeta",
       "instructions": "Ordena las palabras para hablar de una rutina pasada.",
-      "correctSentence": "[[The|La]] [[young|joven]] [[poet|poeta]] [[would|solía]] [[write|escribir]] [[new|nuevos]] [[poems|poemas]] [[every|cada]] [[single|solo]] [[day|día]].",
+      "correctSentence": "[[The young poet would write new poems every single day|La joven poeta solía escribir nuevos poemas cada solo día]].",
       "words": [
         "[[The|La]]",
         "[[young|joven]]",
@@ -1247,7 +1247,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la institución cultural.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[went|fuimos]] [[to|al]] _______ [[of|de]] [[natural|natural]] [[history|historia]].",
+          "question": "[[We went to natural|Nosotros fuimos al]] _______ [[of history|de natural historia]].",
           "options": [
             "[[museum|museo]]",
             "[[music|música]]",
@@ -1274,7 +1274,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que significa originalidad.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[what|lo que]] [[makes|hace]] [[him|a él]] [[special|especial]].",
+          "question": "_______ [[is what makes him special|es lo que hace a él especial]].",
           "options": [
             "[[Originality|Originalidad]]",
             "[[Oratory|Oratoria]]",
@@ -1299,7 +1299,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Traducciones Literarias",
       "instructions": "Ordena las palabras en voz pasiva pasada.",
-      "correctSentence": "[[The|El]] [[novel|novela]] [[was|fue]] [[translated|traducida]] [[from|del]] [[English|inglés]] [[into|al]] [[Spanish|español]] [[last|el pasado]] [[year|año]].",
+      "correctSentence": "[[The novel was translated from English into Spanish last year|El novela fue traducida del inglés al español el pasado año]].",
       "words": [
         "[[The|El]]",
         "[[novel|novela]]",
@@ -1330,7 +1330,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el profesional que crea imágenes.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[made|hizo]] [[the|los]] [[drawings|dibujos]].",
+          "question": "[[The the drawings|El]] _______ [[made|hizo los dibujos]].",
           "options": [
             "[[illustrator|ilustrador]]",
             "[[illustration|ilustración]]",
@@ -1355,7 +1355,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pintura Habitual",
       "instructions": "Ordena las palabras sobre un hábito pasado constante.",
-      "correctSentence": "[[She|Ella]] [[used|solía]] [[to| ]] [[paint|pintar]] [[beautiful|hermosos]] [[landscapes|paisajes]] [[every|cada]] [[single|solo]] [[weekend|fin de semana]].",
+      "correctSentence": "[[She used to paint beautiful landscapes every single weekend|Ella solía   pintar hermosos paisajes cada solo fin de semana]].",
       "words": [
         "[[She|Ella]]",
         "[[used|solía]]",

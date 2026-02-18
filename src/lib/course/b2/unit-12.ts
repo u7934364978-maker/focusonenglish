@@ -12,7 +12,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sede central",
       "instructions": "Ordena las palabras para describir la ubicación de la oficina.",
-      "correctSentence": "[[The|La]] [[headquarters|sede central]] [[are|está]] [[located|ubicada]] [[in|en]] [[the|el]] [[city|centro]] [[center.|urbano.]]",
+      "correctSentence": "[[The headquarters are located in the city center.|La sede central está ubicada en el centro urbano.]]",
       "words": [
         "[[located|ubicada]]",
         "[[headquarters|sede central]]",
@@ -39,7 +39,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Proyecto terminado",
       "instructions": "Ordena las palabras usando la voz pasiva y una expresión de tiempo.",
-      "correctSentence": "[[The|El]] [[project|proyecto]] [[was|fue]] [[completed|completado]] [[ahead|antes]] [[of|de]] [[schedule.|lo previsto.]]",
+      "correctSentence": "[[The project was completed ahead of schedule.|El proyecto fue completado antes de lo previsto.]]",
       "words": [
         "[[completed|completado]]",
         "[[project|proyecto]]",
@@ -65,7 +65,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Superando expectativas",
       "instructions": "Ordena las palabras usando la inversión con 'Not only'.",
-      "correctSentence": "[[Not|No]] [[only|solo]] [[did|cumplió]] [[he|él]] [[meet|con]] [[the|el]] [[deadline,|plazo,]] [[but|sino]] [[he|que]] [[also|también]] [[exceeded|superó]] [[expectations.|las expectativas.]]",
+      "correctSentence": "[[Not only did he meet the deadline, but he also exceeded expectations.|No solo cumplió él con el plazo, sino que también superó las expectativas.]]",
       "words": [
         "[[meet|con]]",
         "[[deadline,|plazo,]]",
@@ -96,7 +96,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Contratación",
       "instructions": "Ordena las palabras para hablar de recursos humanos.",
-      "correctSentence": "[[We|Necesitamos]] [[need| ]] [[to|reclutar]] [[recruit|a]] [[a|un]] [[new|nuevo]] [[sales|representante]] [[representative.|de ventas.]]",
+      "correctSentence": "[[We need to recruit a new sales representative.|Necesitamos   reclutar a un nuevo representante de ventas.]]",
       "words": [
         "[[recruit|a]]",
         "[[representative.|de ventas.]]",
@@ -123,7 +123,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Seguridad laboral",
       "instructions": "Ordena las palabras usando el subjuntivo formal.",
-      "correctSentence": "[[It|Es]] [[is|esencial]] [[essential|que]] [[that|cada]] [[every|empleado]] [[employee|asista]] [[attend|al]] [[the|entrenamiento]] [[safety|de]] [[training.|seguridad.]]",
+      "correctSentence": "[[It is essential that every employee attend the safety training.|Es esencial que cada empleado asista al entrenamiento de seguridad.]]",
       "words": [
         "[[employee|asista]]",
         "[[essential|que]]",
@@ -152,7 +152,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Actualización técnica",
       "instructions": "Ordena las palabras usando la voz pasiva continua.",
-      "correctSentence": "[[New|Se]] [[software|está]] [[is|instalando]] [[being|nuevo]] [[installed|software]] [[on|en]] [[all|todas]] [[workstations.|las estaciones de trabajo.]]",
+      "correctSentence": "[[New software is being installed on all workstations.|Se está instalando nuevo software en todas las estaciones de trabajo.]]",
       "words": [
         "[[being|nuevo]]",
         "[[software|está]]",
@@ -179,7 +179,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Evaluación de desempeño",
       "instructions": "Ordena las palabras usando la estructura causativa 'have something done'.",
-      "correctSentence": "[[I'm|Me]] [[having|van]] [[my|a]] [[performance|hacer]] [[review|la evaluación]] [[conducted|de desempeño]] [[next|la]] [[week.|semana que viene.]]",
+      "correctSentence": "[[I'm having my performance review conducted next week.|Me van a hacer la evaluación de desempeño la semana que viene.]]",
       "words": [
         "[[review|la evaluación]]",
         "[[performance|hacer]]",
@@ -206,7 +206,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Beneficios laborales",
       "instructions": "Ordena las palabras para hablar de remuneración.",
-      "correctSentence": "[[The|La]] [[company|empresa]] [[offers|ofrece]] [[a|un]] [[competitive|salario]] [[salary|competitivo]] [[and|y]] [[fringe|beneficios]] [[benefits.|adicionales.]]",
+      "correctSentence": "[[The company offers a competitive salary and fringe benefits.|La empresa ofrece un salario competitivo y beneficios adicionales.]]",
       "words": [
         "[[offers|ofrece]]",
         "[[salary|competitivo]]",
@@ -234,7 +234,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reestructuración",
       "instructions": "Ordena las palabras usando la voz pasiva para despidos.",
-      "correctSentence": "[[Several|Varios]] [[employees|empleados]] [[were|fueron]] [[dismissed|despedidos]] [[due|debido]] [[to|a]] [[the|la]] [[restructuring.|reestructuración.]]",
+      "correctSentence": "[[Several employees were dismissed due to the restructuring.|Varios empleados fueron despedidos debido a la reestructuración.]]",
       "words": [
         "[[dismissed|despedidos]]",
         "[[employees|empleados]]",
@@ -261,7 +261,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Confidencialidad",
       "instructions": "Ordena las palabras usando inversión negativa con 'Under no circumstances'.",
-      "correctSentence": "[[Under|Bajo]] [[no|ninguna]] [[circumstances|circunstancia]] [[should|deben]] [[confidential|compartirse]] [[data|datos]] [[be|confidenciales.]] [[shared.| ]]",
+      "correctSentence": "[[Under no circumstances should confidential data be shared.|Bajo ninguna circunstancia deben compartirse datos confidenciales.  ]]",
       "words": [
         "[[circumstances|circunstancia]]",
         "[[no|ninguna]]",
@@ -288,7 +288,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Fusión empresarial",
       "instructions": "Ordena las palabras usando la voz pasiva con verbos de reporte.",
-      "correctSentence": "[[It|Se]] [[is|informa]] [[reported|que]] [[that|la]] [[the|empresa]] [[firm|está]] [[is|planeando]] [[planning|una]] [[a|fusión.]] [[merger.| ]]",
+      "correctSentence": "[[It is reported that the firm is planning a merger.|Se informa que la empresa está planeando una fusión.  ]]",
       "words": [
         "[[reported|que]]",
         "[[firm|está]]",
@@ -316,7 +316,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Delegación de tareas",
       "instructions": "Ordena las palabras para hablar de gestión de equipos.",
-      "correctSentence": "[[The|El]] [[manager|gerente]] [[delegated|delegó]] [[the|las]] [[tasks|tareas]] [[to|en]] [[the|los]] [[most|miembros]] [[experienced|más]] [[members.|experimentados.]]",
+      "correctSentence": "[[The manager delegated the tasks to the most experienced members.|El gerente delegó las tareas en los miembros más experimentados.]]",
       "words": [
         "[[tasks|tareas]]",
         "[[manager|gerente]]",
@@ -345,7 +345,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Entrega de informes",
       "instructions": "Ordena las palabras usando un modal en voz pasiva.",
-      "correctSentence": "[[All|Todos]] [[reports|los informes]] [[must|deben]] [[be|ser]] [[submitted|entregados]] [[by|antes del]] [[Friday|viernes]] [[afternoon.|por la tarde.]]",
+      "correctSentence": "[[All reports must be submitted by Friday afternoon.|Todos los informes deben ser entregados antes del viernes por la tarde.]]",
       "words": [
         "[[submitted|entregados]]",
         "[[reports|los informes]]",
@@ -372,7 +372,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Decisión de la junta",
       "instructions": "Ordena las palabras usando el subjuntivo formal tras 'suggested'.",
-      "correctSentence": "[[The|La]] [[board|junta]] [[suggested|sugirió]] [[that|que]] [[the|el]] [[CEO|director ejecutivo]] [[reconsider|reconsidere]] [[the|la]] [[strategy.|estrategia.]]",
+      "correctSentence": "[[The board suggested that the CEO reconsider the strategy.|La junta sugirió que el director ejecutivo reconsidere la estrategia.]]",
       "words": [
         "[[suggested|sugirió]]",
         "[[CEO|director ejecutivo]]",
@@ -399,7 +399,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Renuncia laboral",
       "instructions": "Ordena las palabras para hablar de cambios de carrera.",
-      "correctSentence": "[[He|Él]] [[resigned|renunció]] [[from|a]] [[his|su]] [[position|puesto]] [[to|para]] [[pursue|buscar]] [[other|otras]] [[opportunities.|oportunidades.]]",
+      "correctSentence": "[[He resigned from his position to pursue other opportunities.|Él renunció a su puesto para buscar otras oportunidades.]]",
       "words": [
         "[[resigned|renunció]]",
         "[[position|puesto]]",
@@ -427,7 +427,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reunión pospuesta",
       "instructions": "Ordena las palabras usando el presente perfecto pasivo.",
-      "correctSentence": "[[The|La]] [[meeting|reunión]] [[has|ha]] [[been|sido]] [[postponed|pospuesta]] [[until|hasta]] [[further|nuevo]] [[notice.|aviso.]]",
+      "correctSentence": "[[The meeting has been postponed until further notice.|La reunión ha sido pospuesta hasta nuevo aviso.]]",
       "words": [
         "[[postponed|pospuesta]]",
         "[[meeting|reunión]]",
@@ -454,7 +454,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Dedicación excepcional",
       "instructions": "Ordena las palabras usando inversión con 'Rarely'.",
-      "correctSentence": "[[Rarely|Rara vez]] [[have|hemos]] [[we|nosotros]] [[seen|visto]] [[such|tanta]] [[dedication|dedicación]] [[from|de]] [[a|un]] [[junior|miembro]] [[staff|del equipo]] [[member.|junior.]]",
+      "correctSentence": "[[Rarely have we seen such dedication from a junior staff member.|Rara vez hemos nosotros visto tanta dedicación de un miembro del equipo junior.]]",
       "words": [
         "[[seen|visto]]",
         "[[we|nosotros]]",
@@ -484,7 +484,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ascenso",
       "instructions": "Ordena las palabras para hablar de promoción interna.",
-      "correctSentence": "[[She|Ella]] [[was|fue]] [[promoted|ascendida]] [[to|a]] [[senior|consultora]] [[consultant|senior]] [[after|después]] [[two|de dos]] [[years.|años.]]",
+      "correctSentence": "[[She was promoted to senior consultant after two years.|Ella fue ascendida a consultora senior después de dos años.]]",
       "words": [
         "[[promoted|ascendida]]",
         "[[consultant|senior]]",
@@ -512,7 +512,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Oficina renovada",
       "instructions": "Ordena las palabras usando la estructura causativa 'had something done'.",
-      "correctSentence": "[[We|Hicimos]] [[had|que]] [[the|la]] [[office|oficina]] [[renovated|fuera renovada]] [[during|durante]] [[the|las]] [[summer|vacaciones de]] [[break.|verano.]]",
+      "correctSentence": "[[We had the office renovated during the summer break.|Hicimos que la oficina fuera renovada durante las vacaciones de verano.]]",
       "words": [
         "[[office|oficina]]",
         "[[had|que]]",
@@ -539,7 +539,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Anuncio de resultados",
       "instructions": "Ordena las palabras usando la voz pasiva en futuro.",
-      "correctSentence": "[[The|Los]] [[results|resultados]] [[will|serán]] [[be|anunciados]] [[announced|al]] [[at|final]] [[the|del]] [[end|mes.]] [[of| ]] [[the| ]] [[month.| ]]",
+      "correctSentence": "[[The results will be announced at the end of the month.|Los resultados serán anunciados al final del mes.      ]]",
       "words": [
         "[[announced|anunciados]]",
         "[[results|resultados]]",
@@ -569,7 +569,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Auditoría urgente",
       "instructions": "Ordena las palabras usando el subjuntivo pasivo tras 'imperative'.",
-      "correctSentence": "[[It|Es]] [[is|imperativo]] [[imperative|que]] [[that|la]] [[the|auditoría]] [[audit|sea]] [[be|completada]] [[completed|para]] [[by|mañana.]] [[tomorrow.| ]]",
+      "correctSentence": "[[It is imperative that the audit be completed by tomorrow.|Es imperativo que la auditoría sea completada para mañana.  ]]",
       "words": [
         "[[audit|sea]]",
         "[[imperative|que]]",
@@ -598,7 +598,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Carga de trabajo",
       "instructions": "Ordena las palabras para hablar de productividad.",
-      "correctSentence": "[[The|La]] [[workload|carga de trabajo]] [[has|ha]] [[increased|aumentado]] [[significantly|significativamente]] [[this|este]] [[quarter.|trimestre.]]",
+      "correctSentence": "[[The workload has increased significantly this quarter.|La carga de trabajo ha aumentado significativamente este trimestre.]]",
       "words": [
         "[[increased|aumentado]]",
         "[[workload|carga de trabajo]]",
@@ -624,7 +624,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Firma del contrato",
       "instructions": "Ordena las palabras usando la inversión tras 'Only after'.",
-      "correctSentence": "[[Only|Solo]] [[after|después de]] [[the|que]] [[contract|se firmara]] [[was|el]] [[signed|contrato]] [[did|celebramos.]] [[we| ]] [[celebrate.| ]]",
+      "correctSentence": "[[Only after the contract was signed did we celebrate.|Solo después de que se firmara el contrato celebramos.    ]]",
       "words": [
         "[[contract|se firmara]]",
         "[[after|después de]]",
@@ -652,7 +652,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sesión de formación",
       "instructions": "Ordena las palabras usando la voz pasiva con 'attended by'.",
-      "correctSentence": "[[The|A la]] [[training|sesión]] [[session|de formación]] [[was|asistieron]] [[attended|más]] [[by|de]] [[over|cincuenta]] [[fifty|personas.]] [[people.| ]]",
+      "correctSentence": "[[The training session was attended by over fifty people.|A la sesión de formación asistieron más de cincuenta personas.  ]]",
       "words": [
         "[[training|sesión]]",
         "[[session|de formación]]",
@@ -680,7 +680,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "content": {
       "title": "Negociación colectiva",
       "instructions": "Ordena las palabras para hablar de derechos laborales.",
-      "correctSentence": "[[Collective|La negociación]] [[bargaining|colectiva]] [[is|es]] [[essential|fundamental]] [[for|para]] [[protecting|proteger]] [[worker|los derechos]] [[rights.|del trabajador.]]",
+      "correctSentence": "[[Collective bargaining is essential for protecting worker rights.|La negociación colectiva es fundamental para proteger los derechos del trabajador.]]",
       "words": [
         "[[bargaining|colectiva]]",
         "[[essential|fundamental]]",
@@ -711,7 +711,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el departamento correcto.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[department|departamento]] [[handles|se encarga de]] [[all|toda la]] [[recruitment.|contratación.]]",
+          "question": "[[The handles all recruitment.|El]] _______ [[department|departamento se encarga de toda la contratación.]]",
           "options": ["[[human resources|recursos humanos]]", "[[public relations|relaciones públicas]]", "[[customer service|atención al cliente]]"],
           "correctAnswer": 0,
           "explanation": "Human Resources (HR) es el departamento que gestiona el personal y las contrataciones.",
@@ -734,7 +734,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de la voz pasiva en pasado.",
       "questions": [
         {
-          "question": "[[The|El]] [[email|correo]] _______ [[to|a]] [[all|todo el]] [[staff|personal]] [[yesterday.|ayer.]]",
+          "question": "[[The email staff yesterday.|El correo]] _______ [[to all|a todo el personal ayer.]]",
           "options": ["[[is sent|se envía]]", "[[was sent|fue enviado]]", "[[has sent|ha enviado]]"],
           "correctAnswer": 1,
           "explanation": "Para acciones terminadas en el pasado (yesterday) en voz pasiva, usamos 'was/were' + participio.",
@@ -757,7 +757,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para alguien en prácticas.",
       "questions": [
         {
-          "question": "[[An|Un]] _______ [[is|es]] [[someone|alguien]] [[who|que]] [[works|trabaja]] [[to|para]] [[gain|ganar]] [[experience.|experiencia.]]",
+          "question": "[[An someone who works to gain experience.|Un]] _______ [[is|es alguien que trabaja para ganar experiencia.]]",
           "options": ["[[intern|becario]]", "[[expert|experto]]", "[[executive|ejecutivo]]"],
           "correctAnswer": 0,
           "explanation": "Un 'intern' es un estudiante o recién graduado que realiza prácticas en una empresa.",
@@ -780,7 +780,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra adecuada para la inversión con 'Little'.",
       "questions": [
         {
-          "question": "[[Little|Poco]] _______ [[we|sabíamos]] [[know| ]] [[that|que]] [[the|la]] [[company|empresa]] [[was|estaba]] [[about|a punto]] [[to|de]] [[expand.|expandirse.]]",
+          "question": "[[Little know that the company was about to expand.|Poco]] _______ [[we|sabíamos   que la empresa estaba a punto de expandirse.]]",
           "options": ["[[did|sabíamos]]", "[[had|habíamos]]", "[[do|sabemos]]"],
           "correctAnswer": 0,
           "explanation": "Uso de 'Little did + sujeto + infinitivo' para expresar que no se sabía algo en absoluto.",
@@ -803,7 +803,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la persona que crea una empresa.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[of|de]] [[the|la]] [[startup|empresa emergente]] [[gave|dio]] [[an|un]] [[inspiring|discurso]] [[speech.|inspirador.]]",
+          "question": "[[The the startup gave an inspiring speech.|El]] _______ [[of|de la empresa emergente dio un discurso inspirador.]]",
           "options": ["[[founder|fundador]]", "[[customer|cliente]]", "[[competitor|competidor]]"],
           "correctAnswer": 0,
           "explanation": "Un 'founder' es la persona que establece o inicia una organización o empresa.",
@@ -826,7 +826,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para el subjuntivo formal.",
       "questions": [
         {
-          "question": "[[I|Sugiero]] [[suggest|que]] [[that|él]] [[he|llegue]] _______ [[at|a]] [[the|la]] [[office|oficina]] [[on|a]] [[time.|tiempo.]]",
+          "question": "[[I suggest that he time.|Sugiero que él llegue]] _______ [[at the office on|a la oficina a tiempo.]]",
           "options": ["[[arrives|llega]]", "[[arrive|llegue]]", "[[arriving|llegando]]"],
           "correctAnswer": 1,
           "explanation": "Tras 'suggest that', el verbo se usa en su forma base (arrive) sin 's'.",
@@ -849,7 +849,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa dejar el trabajo.",
       "questions": [
         {
-          "question": "[[To| ]] _______ [[means|significa]] [[to|dejar]] [[formally|formalmente]] [[leave|tu]] [[your|trabajo.]] [[job.| ]]",
+          "question": "[[To to formally leave your job.| ]] _______ [[means|significa dejar formalmente tu trabajo.  ]]",
           "options": ["[[hire|contratar]]", "[[resign|dimitir]]", "[[fire|despedir]]"],
           "correctAnswer": 1,
           "explanation": "'Resign' es cuando el empleado decide dejar la empresa formalmente.",
@@ -872,7 +872,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de la voz pasiva en presente.",
       "questions": [
         {
-          "question": "[[The|La]] [[office|oficina]] _______ [[every|cada]] [[night|noche]] [[by|por]] [[the|el]] [[maintenance|equipo]] [[team.|de mantenimiento.]]",
+          "question": "[[The office by the maintenance team.|La oficina]] _______ [[every night|cada noche por el equipo de mantenimiento.]]",
           "options": ["[[is cleaned|se limpia]]", "[[cleans|limpia]]", "[[was cleaning|estaba limpiando]]"],
           "correctAnswer": 0,
           "explanation": "Usamos el presente simple pasivo (is cleaned) para rutinas y hechos generales.",
@@ -895,7 +895,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el máximo responsable de la empresa.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[is|es]] [[responsible|responsable]] [[for|de]] [[the|la]] [[overall|estrategia]] [[strategy.|general.]]",
+          "question": "[[The responsible for the overall strategy.|El]] _______ [[is|es responsable de la estrategia general.]]",
           "options": ["[[CEO|director ejecutivo]]", "[[trainee|aprendiz]]", "[[clerk|oficinista]]"],
           "correctAnswer": 0,
           "explanation": "CEO (Chief Executive Officer) es el cargo más alto en la jerarquía de una empresa.",
@@ -918,7 +918,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para la inversión con 'No sooner'.",
       "questions": [
         {
-          "question": "[[No|Apenas]] [[sooner| ]] _______ [[I|me]] [[sat|había]] [[down|sentado]] [[than|cuando]] [[the|empezó]] [[meeting|la]] [[started.|reunión.]]",
+          "question": "[[No sooner down than the meeting started.|Apenas  ]] _______ [[I sat|me había sentado cuando empezó la reunión.]]",
           "options": ["[[did|hice]]", "[[had|había]]", "[[was|fue]]"],
           "correctAnswer": 1,
           "explanation": "'No sooner' requiere el pasado perfecto con inversión (had I sat).",
@@ -941,7 +941,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para beneficios adicionales al salario.",
       "questions": [
         {
-          "question": "_______ [[benefits|beneficios]] [[include|incluyen]] [[health|seguro]] [[insurance|médico]] [[and|y]] [[gym|suscripciones]] [[memberships.|al gimnasio.]]",
+          "question": "_______ [[benefits include health insurance and gym memberships.|beneficios incluyen seguro médico y suscripciones al gimnasio.]]",
           "options": ["[[Fringe|adicionales]]", "[[Front|frontales]]", "[[Flat|planos]]"],
           "correctAnswer": 0,
           "explanation": "'Fringe benefits' son compensaciones no salariales dadas a los empleados.",
@@ -964,7 +964,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del subjuntivo para el verbo 'to be'.",
       "questions": [
         {
-          "question": "[[It|Es]] [[is|vital]] [[vital|que]] [[that|el]] [[the|equipo]] [[team|esté]] _______ [[united|unido]] [[during|durante]] [[the|la]] [[crisis.|crisis.]]",
+          "question": "[[It is vital that the team the crisis.|Es vital que el equipo esté]] _______ [[united during|unido durante la crisis.]]",
           "options": ["[[is|es]]", "[[be|esté]]", "[[been|sido]]"],
           "correctAnswer": 1,
           "explanation": "Tras 'vital that', usamos la forma base 'be' para el subjuntivo.",
@@ -987,7 +987,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un trabajador independiente.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[works|trabaja]] [[for|para]] [[different|diferentes]] [[companies|empresas]] [[simultaneously.|simultáneamente.]]",
+          "question": "[[A for different companies simultaneously.|Un]] _______ [[works|trabaja para diferentes empresas simultáneamente.]]",
           "options": ["[[freelancer|autónomo]]", "[[apprentice|aprendiz]]", "[[employee|empleado]]"],
           "correctAnswer": 0,
           "explanation": "Un 'freelancer' es alguien que trabaja por su cuenta para varios clientes.",
@@ -1010,7 +1010,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de la voz pasiva continua.",
       "questions": [
         {
-          "question": "[[The|El]] [[software|software]] _______ [[at|en]] [[the|este]] [[moment|momento]] [[by|por]] [[the|el]] [[QA|equipo]] [[team.|de control de calidad.]]",
+          "question": "[[The software moment by the QA team.|El software]] _______ [[at the|en este momento por el equipo de control de calidad.]]",
           "options": ["[[is being tested|está siendo probado]]", "[[is testing|está probando]]", "[[has tested|ha probado]]"],
           "correctAnswer": 0,
           "explanation": "Para una acción en progreso en voz pasiva, usamos 'is/are being' + participio.",
@@ -1033,7 +1033,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una evaluación de desempeño.",
       "questions": [
         {
-          "question": "[[An|Una]] _______ [[is|es]] [[a|una]] [[formal|evaluación]] [[assessment|formal]] [[of|del]] [[an|trabajo]] [[employee's|de un]] [[work.|empleado.]]",
+          "question": "[[An a formal assessment of an employee's work.|Una]] _______ [[is|es una evaluación formal del trabajo de un empleado.]]",
           "options": ["[[appraisal|evaluación]]", "[[approval|aprobación]]", "[[appointment|cita]]"],
           "correctAnswer": 0,
           "explanation": "Una 'appraisal' (o performance review) es la entrevista periódica donde se valora el rendimiento del trabajador.",
@@ -1056,7 +1056,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal tras la inversión con 'Only by'.",
       "questions": [
         {
-          "question": "[[Only|Solo]] [[by| ]] _______ [[hard|trabajando duro]] [[will|lograrás]] [[you|tener]] [[succeed|éxito]] [[in|en]] [[this|esta]] [[competitive|empresa]] [[firm.|competitiva.]]",
+          "question": "[[Only by you succeed in this competitive firm.|Solo  ]] _______ [[hard will|trabajando duro lograrás tener éxito en esta empresa competitiva.]]",
           "options": ["[[worked|trabajado]]", "[[working|trabajando]]", "[[works|trabaja]]"],
           "correctAnswer": 1,
           "explanation": "Tras la preposición 'by', el verbo debe ir en gerundio (-ing).",
@@ -1079,7 +1079,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para tu jefe directo.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[is|es]] [[the|la]] [[person|persona]] [[you|a la que]] [[report|informas]] [[to|en]] [[at|el]] [[work.|trabajo.]]",
+          "question": "[[The the person you report to at work.|El]] _______ [[is|es la persona a la que informas en el trabajo.]]",
           "options": ["[[supervisor|supervisor]]", "[[colleague|colega]]", "[[client|cliente]]"],
           "correctAnswer": 0,
           "explanation": "Tu 'supervisor' es la persona encargada de vigilar y dirigir tu trabajo diario.",
@@ -1102,7 +1102,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del subjuntivo tras 'recommended'.",
       "questions": [
         {
-          "question": "[[The|El]] [[director|director]] [[recommended|recomendó]] [[that|que]] [[the|la]] [[meeting|reunión]] _______ [[early.|temprano.]]",
+          "question": "[[The director recommended that the meeting|El director recomendó que la reunión]] _______ [[early.|temprano.]]",
           "options": ["[[starts|empiece]]", "[[start|empiece]]", "[[starting|empezando]]"],
           "correctAnswer": 1,
           "explanation": "Tras 'recommended that', usamos la forma base 'start' para el subjuntivo formal.",
@@ -1125,7 +1125,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa dar un puesto superior.",
       "questions": [
         {
-          "question": "[[To| ]] _______ [[someone|a alguien]] [[is|es]] [[to|darle]] [[give|un]] [[them|puesto]] [[a|más]] [[higher|alto.]] [[position.| ]]",
+          "question": "[[To is to give them a higher position.| ]] _______ [[someone|a alguien es darle un puesto más alto.  ]]",
           "options": ["[[promote|ascender]]", "[[demote|degradar]]", "[[dismiss|despedir]]"],
           "correctAnswer": 0,
           "explanation": "'Promote' es elevar a alguien a un rango o posición superior.",
@@ -1148,7 +1148,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del presente perfecto pasivo.",
       "questions": [
         {
-          "question": "[[The|El]] [[package|paquete]] _______ [[already|ya]] [[been|sido]] [[delivered|entregado]] [[to|a]] [[the|la]] [[office.|oficina.]]",
+          "question": "[[The package delivered to the office.|El paquete]] _______ [[already been|ya sido entregado a la oficina.]]",
           "options": ["[[is|está]]", "[[was|fue]]", "[[has|ha]]"],
           "correctAnswer": 2,
           "explanation": "Usamos 'has already been' para el presente perfecto pasivo con 'already'.",
@@ -1171,7 +1171,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un asesor experto.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[is|es]] [[a|una]] [[person|persona]] [[who|que]] [[provides|proporciona]] [[expert|asesoramiento]] [[advice.|experto.]]",
+          "question": "[[A a person who provides expert advice.|Un]] _______ [[is|es una persona que proporciona asesoramiento experto.]]",
           "options": ["[[consultant|consultor]]", "[[clerk|oficinista]]", "[[intern|becario]]"],
           "correctAnswer": 0,
           "explanation": "Un 'consultant' ofrece su experiencia y consejos profesionales a las empresas.",
@@ -1194,7 +1194,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para la inversión con 'Hardly'.",
       "questions": [
         {
-          "question": "[[Hardly|Apenas]] _______ [[the|había]] [[meeting|comenzado]] [[started|la reunión]] [[when|cuando]] [[the|la]] [[fire|alarma de]] [[alarm|incendios]] [[rang.|sonó.]]",
+          "question": "[[Hardly meeting started when the fire alarm rang.|Apenas]] _______ [[the|había comenzado la reunión cuando la alarma de incendios sonó.]]",
           "options": ["[[did|hizo]]", "[[had|había]]", "[[was|fue]]"],
           "correctAnswer": 1,
           "explanation": "'Hardly' al inicio requiere inversión con el pasado perfecto (had).",
@@ -1217,7 +1217,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el lugar de trabajo.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[should|debería]] [[be|ser]] [[a|un]] [[safe|entorno]] [[and|seguro]] [[inclusive|e]] [[environment.|inclusivo.]]",
+          "question": "[[The be a safe and inclusive environment.|El]] _______ [[should|debería ser un entorno seguro e inclusivo.]]",
           "options": ["[[workplace|lugar de trabajo]]", "[[workshop|taller]]", "[[workout|entrenamiento]]"],
           "correctAnswer": 0,
           "explanation": "'Workplace' se refiere genéricamente a cualquier sitio donde se realiza un trabajo.",
@@ -1240,7 +1240,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del presente perfecto pasivo.",
       "questions": [
         {
-          "question": "[[Several|Varios]] [[changes|cambios]] _______ [[been|sido]] [[made|realizados]] [[to|en]] [[the|la]] [[policy|política]] [[since|desde el]] [[last|año]] [[year.|pasado.]]",
+          "question": "[[Several changes to the policy since last year.|Varios cambios]] _______ [[been made|sido realizados en la política desde el año pasado.]]",
           "options": ["[[have|han]]", "[[are|son]]", "[[were|fueron]]"],
           "correctAnswer": 0,
           "explanation": "Para acciones que empezaron en el pasado y continúan o tienen relevancia ahora (since last year), usamos el presente perfecto pasivo.",
@@ -1263,7 +1263,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa contratar gente nueva.",
       "questions": [
         {
-          "question": "[[To| ]] _______ [[someone|a alguien]] [[is|es]] [[to|encontrar]] [[find|gente]] [[new|nueva]] [[people|para]] [[to|unirse a]] [[join|una]] [[a|empresa.]] [[company.| ]]",
+          "question": "[[To is to find new people to join a company.| ]] _______ [[someone|a alguien es encontrar gente nueva para unirse a una empresa.  ]]",
           "options": ["[[recruit|reclutar]]", "[[reject|rechazar]]", "[[retire|jubilarse]]"],
           "correctAnswer": 0,
           "explanation": "'Recruit' es el proceso de atraer y seleccionar candidatos para un puesto.",

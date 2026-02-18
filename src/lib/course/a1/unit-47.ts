@@ -13,7 +13,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|soy/estoy]] ([[en|en]]) _______ [[holiday|holiday]].",
+          "question": "[[I am|Yo soy/estoy]] ([[en|en]]) _______ [[holiday|holiday]].",
           "options": [
             "[[are|son/están]]",
             "[[on|en/sobre]]",
@@ -39,7 +39,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[ir|ir]]) _______ [[to|a/para]] [[the|el/la/los/las]] [[beach|playa]].",
+          "question": "[[We the beach|Nosotros]] ([[ir|ir]]) _______ [[to|a/para el/la/los/las playa]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[disfrutar|disfrutar]]) _______ [[her|su (de ella)]] [[vacation|vacation]].",
+          "question": "[[She vacation|Ella]] ([[disfrutar|disfrutar]]) _______ [[her|su (de ella) vacation]].",
           "options": [
             "[[is|es/está]]",
             "[[are|son/están]]",
@@ -91,7 +91,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[want|querer]] [[to|a/para]] ([[relajarse|relajarse]]) [[_______|_______]].",
+          "question": "[[I want to|Yo querer a/para]] ([[relajarse|relajarse]]) [[_______|_______]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[love|love]] [[summer|summer]] [[holidays|holidays]].",
+      "correctSentence": "[[I love summer holidays|Yo love summer holidays]].",
       "words": [
         "[[I|Yo]]",
         "[[love|love]]",
@@ -137,7 +137,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[are|son/están]] [[going|going]] [[sightseeing|sightseeing]] [[in|en]] [[Paris|Paris]].",
+      "correctSentence": "[[We are going sightseeing in Paris|Nosotros son/están going sightseeing en Paris]].",
       "words": [
         "[[We|Nosotros]]",
         "[[are|son/están]]",
@@ -161,7 +161,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[A|Un/una]] [[holiday|holiday]] [[is|es/está]] [[for|para/por]] [[relaxing|relaxing]].",
+      "correctSentence": "[[A holiday is for relaxing|Un/una holiday es/está para/por relaxing]].",
       "words": [
         "[[relaxing|relaxing]].",
         "[[for|para/por]]",
@@ -184,7 +184,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[wants|wants]] [[an|un/una]] [[adventure|adventure]] [[vacation|vacation]].",
+      "correctSentence": "[[He wants an adventure vacation|Él wants un/una adventure vacation]].",
       "words": [
         "[[He|Él]]",
         "[[wants|wants]]",
@@ -207,7 +207,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[beach|playa]] [[is|es/está]] [[very|muy]] [[crowded|crowded]].",
+      "correctSentence": "[[The beach is very crowded|El/la/los/las playa es/está muy crowded]].",
       "words": [
         "[[beach|playa]]",
         "[[very|muy]]",

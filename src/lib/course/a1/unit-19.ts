@@ -13,7 +13,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el mes correcto.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[the|el]] [[first|primer]] [[month|mes]] [[of|del]] [[the|el]] [[year|año]].",
+          "question": "_______ [[is the first month of the year|es el primer mes del el año]].",
           "options": ["[[January|Enero]]", "[[February|Febrero]]", "[[March|Marzo]]"],
           "correctAnswer": 0,
           "explanation": "Enero (January) es el primer mes del año."
@@ -35,7 +35,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el mes correcto.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[the|el]] [[last|último]] [[month|mes]] [[of|del]] [[the|el]] [[year|año]].",
+          "question": "_______ [[is the last month of the year|es el último mes del el año]].",
           "options": ["[[November|Noviembre]]", "[[December|Diciembre]]", "[[October|Octubre]]"],
           "correctAnswer": 1,
           "explanation": "Diciembre (December) es el último mes del año."
@@ -55,7 +55,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Orden de los Meses",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[February|Febrero]] [[comes|viene]] [[after|después de]] [[January|Enero]].",
+      "correctSentence": "[[February comes after January|Febrero viene después de Enero]].",
       "words": ["[[February|Febrero]]", "[[comes|viene]]", "[[after|después de]]", "[[January|Enero]]."],
       "explanation": "Febrero va después de Enero."
     },
@@ -74,7 +74,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Responde a la pregunta.",
       "questions": [
         {
-          "question": "[[Which|Qué]] [[month|mes]] [[has|tiene]] [[twenty-eight|veintiocho]] [[days|días]]?",
+          "question": "[[Which month has twenty-eight days|Qué mes tiene veintiocho días]]?",
           "options": ["[[January|Enero]]", "[[February|Febrero]]", "[[March|Marzo]]"],
           "correctAnswer": 1,
           "explanation": "Febrero es el único mes con 28 días (o 29 en años bisiestos)."
@@ -94,7 +94,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Meses Calurosos",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[July|Julio]] [[and|y]] [[August|Agosto]] [[are|son]] [[very|muy]] [[hot|calurosos]] [[months|meses]].",
+      "correctSentence": "[[July and August are very hot months|Julio y Agosto son muy calurosos meses]].",
       "words": ["[[July|Julio]]", "[[and|y]]", "[[August|Agosto]]", "[[are|son]]", "[[very|muy]]", "[[hot|calurosos]]", "[[months|meses]]."],
       "explanation": "Julio y Agosto son meses de verano en el hemisferio norte."
     },
@@ -113,7 +113,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el número ordinal correcto.",
       "questions": [
         {
-          "question": "[[March|Marzo]] [[is|es]] [[the|el]] _______ [[month|mes]].",
+          "question": "[[March is the|Marzo es el]] _______ [[month|mes]].",
           "options": ["[[third|tercer]]", "[[second|segundo]]", "[[fourth|cuarto]]"],
           "correctAnswer": 0,
           "explanation": "Marzo es el tercer mes (third month)."
@@ -133,7 +133,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Días y Números",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[Monday|Lunes]] [[is|es]] [[the|el]] [[first|primer]] [[day|día]] [[of|de]] [[the|la]] [[week|semana]].",
+      "correctSentence": "[[Monday is the first day of the week|Lunes es el primer día de la semana]].",
       "words": ["[[Monday|Lunes]]", "[[is|es]]", "[[the|el]]", "[[first|primer]]", "[[day|día]]", "[[of|de]]", "[[the|la]]", "[[week|semana]]."],
       "explanation": "Lunes se considera el primer día de la semana laboral."
     },
@@ -152,7 +152,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el número ordinal correcto.",
       "questions": [
         {
-          "question": "[[October|Octubre]] [[is|es]] [[the|el]] _______ [[month|mes]].",
+          "question": "[[October is the|Octubre es el]] _______ [[month|mes]].",
           "options": ["[[tenth|décimo]]", "[[ninth|noveno]]", "[[eighth|octavo]]"],
           "correctAnswer": 0,
           "explanation": "Octubre es el décimo mes."
@@ -174,7 +174,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición correcta.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[birthday|cumpleaños]] [[is|es]] _______ [[June|Junio]].",
+          "question": "[[My birthday is|Mi cumpleaños es]] _______ [[June|Junio]].",
           "options": ["[[in|en]]", "[[on|el]]", "[[at|a]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'in' con los meses del año."
@@ -196,7 +196,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición correcta.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[birthday|cumpleaños]] [[is|es]] _______ [[June|Junio]] [[15th|15]].",
+          "question": "[[My birthday is 15th|Mi cumpleaños es]] _______ [[June|Junio 15]].",
           "options": ["[[on|el]]", "[[in|en]]", "[[at|a]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'on' para fechas específicas (mes + día)."
@@ -216,7 +216,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Navidad",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[Christmas|Navidad]] [[is|es]] [[on|el]] [[December|Diciembre]] [[25th|25]].",
+      "correctSentence": "[[Christmas is on December 25th|Navidad es el Diciembre 25]].",
       "words": ["[[Christmas|Navidad]]", "[[is|es]]", "[[on|el]]", "[[December|Diciembre]]", "[[25th|25]]."],
       "explanation": "Usamos 'on' porque es una fecha específica."
     },
@@ -235,7 +235,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra interrogativa correcta.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[your|tu]] [[birthday|cumpleaños]]?",
+          "question": "_______ [[is your birthday|es tu cumpleaños]]?",
           "options": ["[[When|Cuándo]]", "[[Where|Dónde]]", "[[What|Qué]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'When' para preguntar por el tiempo o fechas."
@@ -255,7 +255,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "La Fecha de Hoy",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[What|Cuál]] [[is|es]] [[the|la]] [[date|fecha]] [[today|hoy]]?",
+      "correctSentence": "[[What is the date today|Cuál es la fecha hoy]]?",
       "words": ["[[What|Cuál]]", "[[is|es]]", "[[the|la]]", "[[date|fecha]]", "[[today|hoy]]?"],
       "explanation": "Pregunta estándar para saber la fecha."
     },
@@ -274,7 +274,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la escritura correcta de 12th.",
       "questions": [
         {
-          "question": "[[Today|Hoy]] [[is|es]] [[May|Mayo]] _______.",
+          "question": "[[Today is May|Hoy es Mayo]] _______.",
           "options": ["[[twelfth|12º]]", "[[twelve|12]]", "[[twelveth|12º]]"],
           "correctAnswer": 0,
           "explanation": "El ordinal de 12 es 'twelfth' (con 'f')."
@@ -294,7 +294,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Fiesta de Julio",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[His|Su]] [[party|fiesta]] [[is|es]] [[on|el]] [[July|Julio]] [[4th|4]].",
+      "correctSentence": "[[His party is on July 4th|Su fiesta es el Julio 4]].",
       "words": ["[[His|Su]]", "[[party|fiesta]]", "[[is|es]]", "[[on|el]]", "[[July|Julio]]", "[[4th|4]]."],
       "explanation": "Usamos 'on' para fechas concretas."
     },
@@ -313,7 +313,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición.",
       "questions": [
         {
-          "question": "[[The|La]] [[meeting|reunión]] [[is|es]] _______ [[September|Septiembre]].",
+          "question": "[[The meeting is|La reunión es]] _______ [[September|Septiembre]].",
           "options": ["[[in|en]]", "[[on|el]]", "[[at|a]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'in' solo con el mes."
@@ -333,7 +333,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inicio de Clases",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[School|La escuela]] [[starts|comienza]] [[in|en]] [[September|Septiembre]].",
+      "correctSentence": "[[School starts in September|La escuela comienza en Septiembre]].",
       "words": ["[[School|La escuela]]", "[[starts|comienza]]", "[[in|en]]", "[[September|Septiembre]]."],
       "explanation": "Estructura simple para eventos recurrentes."
     },
@@ -352,7 +352,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta del ordinal.",
       "questions": [
         {
-          "question": "[[Today|Hoy]] [[is|es]] [[the|el]] _______ [[of|de]] [[March|Marzo]].",
+          "question": "[[Today is the March|Hoy es el]] _______ [[of|de Marzo]].",
           "options": ["[[twenty-first|21º]]", "[[twenty-one|21]]", "[[twenty-onest|21º]]"],
           "correctAnswer": 0,
           "explanation": "21st se escribe 'twenty-first'."
@@ -372,7 +372,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Halloween",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[Halloween|Halloween]] [[is|es]] [[on|el]] [[October|Octubre]] [[31st|31]].",
+      "correctSentence": "[[Halloween is on October 31st|Halloween es el Octubre 31]].",
       "words": ["[[Halloween|Halloween]]", "[[is|es]]", "[[on|el]]", "[[October|Octubre]]", "[[31st|31]]."],
       "explanation": "Último día de octubre."
     },
@@ -391,7 +391,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[the|el]] [[exam|examen]]?",
+          "question": "_______ [[is the exam|es el examen]]?",
           "options": ["[[When|Cuándo]]", "[[What|Qué]]", "[[Where|Dónde]]"],
           "correctAnswer": 0,
           "explanation": "Preguntamos por la fecha del examen."
@@ -411,7 +411,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Fecha del Examen",
       "instructions": "Ordena la respuesta.",
-      "correctSentence": "[[The|El]] [[exam|examen]] [[is|es]] [[on|el]] [[April|Abril]] [[2nd|2]].",
+      "correctSentence": "[[The exam is on April 2nd|El examen es el Abril 2]].",
       "words": ["[[The|El]]", "[[exam|examen]]", "[[is|es]]", "[[on|el]]", "[[April|Abril]]", "[[2nd|2]]."],
       "explanation": "Usamos el ordinal 'second' para el día 2."
     },
@@ -430,7 +430,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Si ahora es Julio, ¿qué mes es el siguiente?",
       "questions": [
         {
-          "question": "[[Next|Próximo]] [[month|mes]] [[is|es]] _______.",
+          "question": "[[Next month is|Próximo mes es]] _______.",
           "options": ["[[August|Agosto]]", "[[September|Septiembre]]", "[[June|Junio]]"],
           "correctAnswer": 0,
           "explanation": "August sigue a July."
@@ -452,7 +452,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Si ahora es Mayo, ¿cuál fue el mes pasado?",
       "questions": [
         {
-          "question": "[[Last|Pasado]] [[month|mes]] [[was|fue]] _______.",
+          "question": "[[Last month was|Pasado mes fue]] _______.",
           "options": ["[[April|Abril]]", "[[March|Marzo]]", "[[June|Junio]]"],
           "correctAnswer": 0,
           "explanation": "April va antes que May."
@@ -472,7 +472,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cita Médica",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[I|Yo]] [[have|tengo]] [[a|una]] [[doctor's|del médico]] [[appointment|cita]] [[in|en]] [[June|Junio]].",
+      "correctSentence": "[[I have a doctor's appointment in June|Yo tengo una del médico cita en Junio]].",
       "words": ["[[I|Yo]]", "[[have|tengo]]", "[[a|una]]", "[[doctor's|del médico]]", "[[appointment|cita]]", "[[in|en]]", "[[June|Junio]]."],
       "explanation": "Usamos 'in' con meses."
     },
@@ -491,7 +491,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Completa con la estación.",
       "questions": [
         {
-          "question": "_______ [[starts|comienza]] [[in|en]] [[December|Diciembre]].",
+          "question": "_______ [[starts in December|comienza en Diciembre]].",
           "options": ["[[Winter|Invierno]]", "[[Summer|Verano]]", "[[Spring|Primavera]]"],
           "correctAnswer": 0,
           "explanation": "El invierno empieza en diciembre."
@@ -511,7 +511,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Verano",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[Summer|Verano]] [[starts|comienza]] [[in|en]] [[June|Junio]].",
+      "correctSentence": "[[Summer starts in June|Verano comienza en Junio]].",
       "words": ["[[Summer|Verano]]", "[[starts|comienza]]", "[[in|en]]", "[[June|Junio]]."],
       "explanation": "El verano empieza en junio."
     },
@@ -530,7 +530,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[birthday|cumpleaños]] [[is|es]] [[on|el]] [[March|Marzo]] _______.",
+          "question": "[[My birthday is on March|Mi cumpleaños es el Marzo]] _______.",
           "options": ["[[22nd|22º]]", "[[22th|22º]]", "[[22st|22º]]"],
           "correctAnswer": 0,
           "explanation": "Para el 22 usamos el sufijo 'nd' (second)."
@@ -552,7 +552,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Completa la fecha.",
       "questions": [
         {
-          "question": "[[Valentine's|De San Valentín]] [[Day|Día]] [[is|es]] [[on|el]] [[February|Febrero]] _______.",
+          "question": "[[Valentine's Day is on February|De San Valentín Día es el Febrero]] _______.",
           "options": ["[[14th|14]]", "[[14st|14]]", "[[14rd|14]]"],
           "correctAnswer": 0,
           "explanation": "La mayoría de los números terminan en 'th'."
@@ -572,7 +572,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Fecha Completa",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[Today|Hoy]] [[is|es]] [[Friday,|viernes,]] [[January|enero]] [[13th|13]].",
+      "correctSentence": "[[Today is Friday, January 13th|Hoy es viernes, enero 13]].",
       "words": ["[[Today|Hoy]]", "[[is|es]]", "[[Friday,|viernes,]]", "[[January|enero]]", "[[13th|13]]."],
       "explanation": "Estructura: Día de la semana, Mes + Día ordinal."
     },
@@ -589,7 +589,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Día Favorito",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[My|Mi]] [[favorite|favorito]] [[day|día]] [[is|es]] [[December|Diciembre]] [[24th|24]].",
+      "correctSentence": "[[My favorite day is December 24th|Mi favorito día es Diciembre 24]].",
       "words": ["[[My|Mi]]", "[[favorite|favorito]]", "[[day|día]]", "[[is|es]]", "[[December|Diciembre]]", "[[24th|24]]."],
       "explanation": "Nochebuena (Christmas Eve) es el 24 de diciembre."
     },
@@ -608,7 +608,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de 20º.",
       "questions": [
         {
-          "question": "[[The|El]] [[twentieth|vigésimo]] [[day|día]].",
+          "question": "[[The twentieth day|El vigésimo día]].",
           "options": ["[[twentieth|vigésimo]]", "[[twentyth|vigésimo]]", "[[twentith|vigésimo]]"],
           "correctAnswer": 0,
           "explanation": "Se cambia la 'y' por 'ie' antes de añadir 'th'."
@@ -630,7 +630,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de 31º.",
       "questions": [
         {
-          "question": "[[The|El]] [[thirty-first|trigésimo primero]] [[day|día]].",
+          "question": "[[The thirty-first day|El trigésimo primero día]].",
           "options": ["[[thirty-first|31º]]", "[[thirty-one|31]]", "[[thirty-onest|31º]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'first' para el número uno en ordinales compuestos."
@@ -650,7 +650,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "La Fiesta",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[The|La]] [[party|fiesta]] [[is|es]] [[on|el]] [[June|Junio]] [[23rd|23]].",
+      "correctSentence": "[[The party is on June 23rd|La fiesta es el Junio 23]].",
       "words": ["[[The|La]]", "[[party|fiesta]]", "[[is|es]]", "[[on|el]]", "[[June|Junio]]", "[[23rd|23]]."],
       "explanation": "Usamos 'rd' para el número 3."
     },
@@ -667,7 +667,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cumpleaños de Él",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[His|Su]] [[birthday|cumpleaños]] [[is|es]] [[on|el]] [[August|Agosto]] [[30th|30]].",
+      "correctSentence": "[[His birthday is on August 30th|Su cumpleaños es el Agosto 30]].",
       "words": ["[[His|Su]]", "[[birthday|cumpleaños]]", "[[is|es]]", "[[on|el]]", "[[August|Agosto]]", "[[30th|30]]."],
       "explanation": "Usamos 'on' para la fecha."
     },
@@ -686,7 +686,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición para el año.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[was|fui/era]] [[born|nacido]] _______ [[1990|1990]].",
+          "question": "[[I was born|Yo fui/era nacido]] _______ [[1990|1990]].",
           "options": ["[[in|en]]", "[[on|el]]", "[[at|a]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'in' para años, meses y estaciones."
@@ -708,7 +708,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición para el día.",
       "questions": [
         {
-          "question": "[[The|El]] [[concert|concierto]] [[is|es]] _______ [[Saturday|Sábado]] [[night|noche]].",
+          "question": "[[The concert is night|El concierto es]] _______ [[Saturday|Sábado noche]].",
           "options": ["[[on|el]]", "[[in|en]]", "[[at|a]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'on' para días de la semana."
@@ -730,7 +730,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[your|tu]] [[birthday|cumpleaños]]?",
+          "question": "_______ [[is your birthday|es tu cumpleaños]]?",
           "options": ["[[When|Cuándo]]", "[[How|Cómo]]", "[[Who|Quién]]"],
           "correctAnswer": 0,
           "explanation": "When se usa para tiempo."
@@ -752,8 +752,8 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Responde a la pregunta.",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[is|es]] [[New|Nuevo]] [[Year's|de Año]] [[Day|Día]]?",
-          "options": ["[[January|Enero]] [[1st|1]]", "[[December|Diciembre]] [[31st|31]]", "[[January|Enero]] [[31st|31]]"],
+          "question": "[[When is New Year's Day|Cuándo es Nuevo de Año Día]]?",
+          "options": ["[[January 1st|Enero 1]]", "[[December 31st|Diciembre 31]]", "[[January 31st|Enero 31]]"],
           "correctAnswer": 0,
           "explanation": "El día de Año Nuevo es el 1 de enero."
         }
@@ -772,7 +772,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Respuesta Corta",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[It|Eso]] [[is|es]] [[on|el]] [[January|Enero]] [[1st|1]].",
+      "correctSentence": "[[It is on January 1st|Eso es el Enero 1]].",
       "words": ["[[It|Eso]]", "[[is|es]]", "[[on|el]]", "[[January|Enero]]", "[[1st|1]]."],
       "explanation": "Estructura para responder sobre una fecha."
     },
@@ -789,7 +789,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mes de San Valentín",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[Valentine's|San Valentín]] [[Day|Día]] [[is|es]] [[in|en]] [[February|Febrero]].",
+      "correctSentence": "[[Valentine's Day is in February|San Valentín Día es en Febrero]].",
       "words": ["[[Valentine's|San Valentín]]", "[[Day|Día]]", "[[is|es]]", "[[in|en]]", "[[February|Febrero]]."],
       "explanation": "Usamos 'in' solo con el mes."
     },
@@ -808,7 +808,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[What|Cuál]] [[is|es]] [[your|tu]] [[favorite|favorita]] _______?",
+          "question": "[[What is your favorite|Cuál es tu favorita]] _______?",
           "options": ["[[season|estación]]", "[[month|mes]]", "[[day|día]]"],
           "correctAnswer": 0,
           "explanation": "Season significa estación del año."
@@ -830,7 +830,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Responde a la pregunta.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[favorite|favorita]] [[season|estación]] [[is|es]] _______.",
+          "question": "[[My favorite season is|Mi favorita estación es]] _______.",
           "options": ["[[Spring|Primavera]]", "[[Winter|Invierno]]", "[[Autumn|Otoño]]"],
           "correctAnswer": 0,
           "explanation": "Spring es primavera."
@@ -850,7 +850,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inicio de Primavera",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[Spring|Primavera]] [[starts|comienza]] [[in|en]] [[March|Marzo]].",
+      "correctSentence": "[[Spring starts in March|Primavera comienza en Marzo]].",
       "words": ["[[Spring|Primavera]]", "[[starts|comienza]]", "[[in|en]]", "[[March|Marzo]]."],
       "explanation": "En el hemisferio norte empieza en marzo."
     },
@@ -867,7 +867,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inicio de Otoño",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[Autumn|Otoño]] [[starts|comienza]] [[in|en]] [[September|Septiembre]].",
+      "correctSentence": "[[Autumn starts in September|Otoño comienza en Septiembre]].",
       "words": ["[[Autumn|Otoño]]", "[[starts|comienza]]", "[[in|en]]", "[[September|Septiembre]]."],
       "explanation": "Autumn (Otoño) empieza en septiembre."
     },
@@ -886,7 +886,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta con el posesivo.",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[is|es]] _______ [[birthday|cumpleaños]]?",
+          "question": "[[When is|Cuándo es]] _______ [[birthday|cumpleaños]]?",
           "options": ["[[her|su (de ella)]]", "[[his|su (de él)]]", "[[your|tu]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'her' para posesivo femenino singular."
@@ -908,7 +908,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la respuesta correcta.",
       "questions": [
         {
-          "question": "[[Her|Su]] [[birthday|cumpleaños]] [[is|es]] _______ [[July|Julio]].",
+          "question": "[[Her birthday is|Su cumpleaños es]] _______ [[July|Julio]].",
           "options": ["[[in|en]]", "[[on|el]]", "[[at|a]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'in' con meses."
@@ -930,7 +930,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.\n\n*\"Sarah has a big family. Her birthday is in May. Her father's birthday is in January. Her mother's birthday is in October. Sarah loves family parties. This year, her party is on May 12th.\"*",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[is|es]] [[Sarah's|de Sarah]] [[birthday|cumpleaños]]?",
+          "question": "[[When is Sarah's birthday|Cuándo es de Sarah cumpleaños]]?",
           "options": ["[[In May|En mayo]]", "[[In January|En enero]]", "[[In October|En octubre]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'Her birthday is in May'."
@@ -952,7 +952,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.\n\n*\"Sarah has a big family. Her birthday is in May. Her father's birthday is in January. Her mother's birthday is in October. Sarah loves family parties. This year, her party is on May 12th.\"*",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[is|es]] [[her|su]] [[father's|del padre]] [[birthday|cumpleaños]]?",
+          "question": "[[When is her father's birthday|Cuándo es su del padre cumpleaños]]?",
           "options": ["[[In January|En enero]]", "[[In May|En mayo]]", "[[In October|En octubre]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'Her father's birthday is in January'."
@@ -974,7 +974,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.\n\n*\"Sarah has a big family. Her birthday is in May. Her father's birthday is in January. Her mother's birthday is in October. Sarah loves family parties. This year, her party is on May 12th.\"*",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[is|es]] [[the|la]] [[party|fiesta]] [[this|este]] [[year|año]]?",
+          "question": "[[When is the party this year|Cuándo es la fiesta este año]]?",
           "options": ["[[On May 12th|El 12 de mayo]]", "[[On May 1st|El 1 de mayo]]", "[[In October|En octubre]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'her party is on May 12th'."
@@ -996,7 +996,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.\n\n*\"Our school has many holidays. We have a holiday in December for Christmas. We have another holiday in April for Spring. The long summer holiday starts on June 22nd and ends in September. I love holidays!\"*",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[is|es]] [[the|la]] [[Christmas|de Navidad]] [[holiday|vacación]]?",
+          "question": "[[When is the Christmas holiday|Cuándo es la de Navidad vacación]]?",
           "options": ["[[In December|En diciembre]]", "[[In April|En abril]]", "[[In June|En junio]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'holiday in December for Christmas'."
@@ -1018,7 +1018,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.\n\n*\"Our school has many holidays. We have a holiday in December for Christmas. We have another holiday in April for Spring. The long summer holiday starts on June 22nd and ends in September. I love holidays!\"*",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[does|does]] [[the|la]] [[summer|de verano]] [[holiday|vacación]] [[start|empezar]]?",
+          "question": "[[When does the summer holiday start|Cuándo does la de verano vacación empezar]]?",
           "options": ["[[On June 22nd|El 22 de junio]]", "[[In April|En abril]]", "[[In September|En septiembre]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'starts on June 22nd'."
@@ -1040,7 +1040,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.\n\n*\"Our school has many holidays. We have a holiday in December for Christmas. We have another holiday in April for Spring. The long summer holiday starts on June 22nd and ends in September. I love holidays!\"*",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[does|does]] [[it|ello]] [[end|terminar]]?",
+          "question": "[[When does it end|Cuándo does ello terminar]]?",
           "options": ["[[In September|En septiembre]]", "[[In June|En junio]]", "[[In December|En diciembre]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'ends in September'."
@@ -1062,7 +1062,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.\n\n*\"David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.\"*",
       "questions": [
         {
-          "question": "[[When|Cuándo]] [[is|es]] [[the|la]] [[visit|visita]]?",
+          "question": "[[When is the visit|Cuándo es la visita]]?",
           "options": ["[[On November 3rd|El 3 de noviembre]]", "[[On November 10th|El 10 de noviembre]]", "[[On Friday night|El viernes noche]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'visit is on Friday, November 3rd'."
@@ -1084,7 +1084,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.\n\n*\"David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.\"*",
       "questions": [
         {
-          "question": "[[Who|Con quién]] [[is|está]] [[he|él]] [[going|yendo]] [[with|con]]?",
+          "question": "[[Who is he going with|Con quién está él yendo con]]?",
           "options": ["[[With Paul|Con Paul]]", "[[With his mother|Con su madre]]", "[[Alone|Solo]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'going with his friend Paul'."
@@ -1106,7 +1106,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.\n\n*\"David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.\"*",
       "questions": [
         {
-          "question": "[[What|Qué]] [[time|hora]] [[are|están]] [[they|ellos]] [[meeting|quedando]]?",
+          "question": "[[What time are they meeting|Qué hora están ellos quedando]]?",
           "options": ["[[At 10 AM|A las 10 AM]]", "[[At 10 PM|A las 10 PM]]", "[[At lunch|En el almuerzo]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'meeting at 10 AM'."
@@ -1128,7 +1128,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.\n\n*\"David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.\"*",
       "questions": [
         {
-          "question": "[[Why|Por qué]] [[is|está]] [[he|él]] [[happy|feliz]]?",
+          "question": "[[Why is he happy|Por qué está él feliz]]?",
           "options": ["[[Because he loves history|Porque ama la historia]]", "[[Because it's Friday|Porque es viernes]]", "[[Because he's having lunch|Porque va a almorzar]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'happy because he loves history'."

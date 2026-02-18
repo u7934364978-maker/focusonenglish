@@ -109,7 +109,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[succeed|succeed]]) _______ [[in|en]] [[passing|passing]] [[the|el/la/los/las]] [[exam|exam]].",
+          "question": "[[He passing the exam|Él]] ([[succeed|succeed]]) _______ [[in|en passing el/la/los/las exam]].",
           "options": [
             "[[succeeded|succeeded]]",
             "[[to|a/para]]",
@@ -135,7 +135,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[not/win|not/win]]) _______ [[the|el/la/los/las]] [[competition|competition]].",
+          "question": "[[They competition|Ellos]] ([[not/win|not/win]]) _______ [[the|el/la/los/las competition]].",
           "options": [
             "[[to|a/para]]",
             "[[didn't win|didn't win]]",
@@ -161,7 +161,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[be|ser/estar]]) _______ [[very|muy]] [[proud|proud]] [[of|de]] [[her|su (de ella)]] [[achievement|achievement]].",
+          "question": "[[She proud of her achievement|Ella]] ([[be|ser/estar]]) _______ [[very|muy proud de su (de ella) achievement]].",
           "options": [
             "[[to|a/para]]",
             "[[it|eso]]",
@@ -187,7 +187,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[fail|fail]]) _______ [[to|a/para]] [[arrive|arrive]] [[on|en/sobre]] [[time|tiempo/hora]].",
+          "question": "[[We arrive on time|Nosotros]] ([[fail|fail]]) _______ [[to|a/para arrive en/sobre tiempo/hora]].",
           "options": [
             "[[it|eso]]",
             "[[failed|failed]]",
@@ -213,7 +213,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[hope|hope]]) _______ [[to|a/para]] [[be|ser/estar]] [[successful|successful]] [[one|uno]] [[day|día]].",
+          "question": "[[I be successful one day|Yo]] ([[hope|hope]]) _______ [[to|a/para ser/estar successful uno día]].",
           "options": [
             "[[to|a/para]]",
             "[[hope|hope]]",
@@ -239,7 +239,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[not/give|not/give]] [[up|up]]) _______ [[trying|trying]].",
+          "question": "[[He up|Él]] ([[not/give|not/give up]]) _______ [[trying|trying]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -265,7 +265,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[make|hacer]]) _______ [[a|un/una]] [[lot|lot]] [[of|de]] [[progress|progress]].",
+          "question": "[[They lot of progress|Ellos]] ([[make|hacer]]) _______ [[a|un/una lot de progress]].",
           "options": [
             "[[it|eso]]",
             "[[are making|are making]]",
@@ -291,7 +291,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[What|Qué]] ([[be|ser/estar]]) _______ [[the|el/la/los/las]] [[secret|secret]] [[to|a/para]] [[your|tu/tus]] [[success|success]]?",
+          "question": "[[What secret to your success|Qué]] ([[be|ser/estar]]) _______ [[the|el/la/los/las secret a/para tu/tus success]]?",
           "options": [
             "[[is|es/está]]",
             "[[to|a/para]]",
@@ -317,7 +317,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[work|trabajo/trabajar]]) _______ [[very|muy]] [[hard|hard]] [[to|a/para]] [[achieve|achieve]] [[her|su (de ella)]] [[goals|goals]].",
+          "question": "[[She hard to achieve her goals|Ella]] ([[work|trabajo/trabajar]]) _______ [[very|muy hard a/para achieve su (de ella) goals]].",
           "options": [
             "[[works|works]]",
             "[[it|eso]]",
@@ -343,7 +343,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Eso]] ([[not/be|no ser/estar]]) _______ [[easy|fácil]] [[to|a/para]] [[succeed|succeed]].",
+          "question": "[[It to succeed|Eso]] ([[not/be|no ser/estar]]) _______ [[easy|fácil a/para succeed]].",
           "options": [
             "[[is not|no es/está]]",
             "[[to|a/para]]",
@@ -367,7 +367,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Success|Success]] [[requires|requires]] [[a|un/una]] [[lot|lot]] [[of|de]] [[hard|hard]] [[work|trabajo/trabajar]] [[and|and]] [[dedication|dedication]].",
+      "correctSentence": "[[Success requires a lot of hard work and dedication|Success requires un/una lot de hard trabajo/trabajar and dedication]].",
       "words": [
         "[[a|un/una]]",
         "[[requires|requires]]",
@@ -394,7 +394,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[was|era/fue/estaba/estuvo]] [[very|muy]] [[proud|proud]] [[of|de]] [[her|su (de ella)]] [[academic|academic]] [[achievements|achievements]].",
+      "correctSentence": "[[She was very proud of her academic achievements|Ella era/fue/estaba/estuvo muy proud de su (de ella) academic achievements]].",
       "words": [
         "[[of|de]]",
         "[[achievements|achievements]].",
@@ -420,7 +420,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[didn't|didn't]] [[win|win]] [[the|el/la/los/las]] [[game|game]], [[but|but]] [[they|ellos]] [[played|played]] [[very|muy]] [[well|bien]].",
+      "correctSentence": "[[They didn't, but win the game they played very well|Ellos didn't win el/la/los/las game, but ellos played muy bien]].",
       "words": [
         "[[they|ellos]]",
         "[[the|el/la/los/las]]",
@@ -448,7 +448,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Don't|No]] [[be|ser/estar]] [[afraid|afraid]] [[of|de]] [[failure|failure]]; [[it's|it's]] [[part|part]] [[of|de]] [[learning|learning]].",
+      "correctSentence": "[[Don't be; it's afraid of failure part of learning|No ser/estar afraid de failure; it's part de learning]].",
       "words": [
         "[[it's|it's]]",
         "[[afraid|afraid]]",
@@ -475,7 +475,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[succeeded|succeeded]] [[in|en]] [[reaching|reaching]] [[the|el/la/los/las]] [[top|top]] [[of|de]] [[the|el/la/los/las]] [[mountain|montaña]].",
+      "correctSentence": "[[He succeeded in reaching the top of the mountain|Él succeeded en reaching el/la/los/las top de el/la/los/las montaña]].",
       "words": [
         "[[mountain|montaña]].",
         "[[He|Él]]",
@@ -502,7 +502,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[are|son/están]] [[making|making]] [[good|bueno/buena]] [[progress|progress]] [[with|con]] [[our|nuestro]] [[project|project]].",
+      "correctSentence": "[[We are making good progress with our project|Nosotros son/están making bueno/buena progress con nuestro project]].",
       "words": [
         "[[making|making]]",
         "[[progress|progress]]",
@@ -528,7 +528,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[What|Qué]] [[are|son/están]] [[your|tu/tus]] [[main|principal]] [[goals|goals]] [[for|para/por]] [[this|este/esta]] [[year|año]]?",
+      "correctSentence": "[[What are your main goals for this year|Qué son/están tu/tus principal goals para/por este/esta año]]?",
       "words": [
         "[[What|Qué]]",
         "[[year|año]]?",
@@ -554,7 +554,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Never|Nunca]] [[give|dar]] [[up|up]] [[on|en/sobre]] [[your|tu/tus]] [[dreams|dreams]].",
+      "correctSentence": "[[Never give up on your dreams|Nunca dar up en/sobre tu/tus dreams]].",
       "words": [
         "[[on|en/sobre]]",
         "[[up|up]]",
@@ -578,7 +578,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[It|Eso]] [[was|era/fue/estaba/estuvo]] [[a|un/una]] [[very|muy]] [[difficult|difícil]] [[challenge|challenge]], [[but|but]] [[she|ella]] [[didn't|didn't]] [[fail|fail]].",
+      "correctSentence": "[[It was, but she a very difficult challenge didn't fail|Eso era/fue/estaba/estuvo un/una muy difícil challenge, but ella didn't fail]].",
       "words": [
         "[[a|un/una]]",
         "[[but|but]]",
@@ -606,7 +606,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Winning|Winning]] [[isn't|no es/está]] [[everything|everything]]; [[the|el/la/los/las]] [[most|most]] [[important|important]] [[thing|thing]] [[is|es/está]] [[to|a/para]] [[try|try]].",
+      "correctSentence": "[[Winning isn't; the everything most important thing is to try|Winning no es/está everything; el/la/los/las most important thing es/está a/para try]].",
       "words": [
         "[[the|el/la/los/las]]",
         "[[is|es/está]]",
@@ -634,7 +634,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[is|es/está]] [[a|un/una]] [[very|muy]] [[successful|successful]] [[businesswoman|businesswoman]].",
+      "correctSentence": "[[She is a very successful businesswoman|Ella es/está un/una muy successful businesswoman]].",
       "words": [
         "[[businesswoman|businesswoman]].",
         "[[successful|successful]]",
@@ -658,7 +658,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[felt|felt]] [[a|un/una]] [[great|great]] [[sense|sense]] [[of|de]] [[pride|pride]] [[in|en]] [[his|su (de él)]] [[work|trabajo/trabajar]].",
+      "correctSentence": "[[He felt a great sense of pride in his work|Él felt un/una great sense de pride en su (de él) trabajo/trabajar]].",
       "words": [
         "[[sense|sense]]",
         "[[pride|pride]]",
@@ -686,7 +686,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[results|results]] [[of|de]] [[the|el/la/los/las]] [[test|test]] [[were|eran/fueron/estaban/estuvieron]] [[very|muy]] [[disappointing|disappointing]].",
+      "correctSentence": "[[The results of the test were very disappointing|El/la/los/las results de el/la/los/las test eran/fueron/estaban/estuvieron muy disappointing]].",
       "words": [
         "[[The|El/la/los/las]]",
         "[[test|test]]",
@@ -712,7 +712,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[failed|failed]] [[to|a/para]] [[reach|reach]] [[an|un/una]] [[agreement|agreement]].",
+      "correctSentence": "[[They failed to reach an agreement|Ellos failed a/para reach un/una agreement]].",
       "words": [
         "[[They|Ellos]]",
         "[[failed|failed]]",
@@ -736,7 +736,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Success|Success]] [[is|es/está]] [[the|el/la/los/las]] [[result|result]] [[of|de]] [[many|many]] [[small|pequeño/pequeña]] [[efforts|efforts]].",
+      "correctSentence": "[[Success is the result of many small efforts|Success es/está el/la/los/las result de many pequeño/pequeña efforts]].",
       "words": [
         "[[of|de]]",
         "[[result|result]]",

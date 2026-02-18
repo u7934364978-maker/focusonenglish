@@ -13,7 +13,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para alguien que trabaja sin cobrar por una causa.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[works|trabaja]] [[as|como]] [[a|una]] ______ [[at|en]] [[the|el]] [[local|refugio]] [[animal|de animales]] [[shelter| ]].",
+          "question": "[[She works as a shelter|Ella trabaja como una]] ______ [[at the local animal|en el refugio de animales  ]].",
           "options": [
             "[[volunteer|voluntaria]]",
             "[[manager|gerente]]",
@@ -40,7 +40,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la falta de vivienda.",
       "questions": [
         {
-          "question": "______ [[is|es]] [[a|un]] [[growing|creciente]] [[problem|problema]] [[in|en]] [[many|muchas]] [[big|grandes]] [[cities|ciudades]].",
+          "question": "______ [[is a growing problem in many big cities|es un creciente problema en muchas grandes ciudades]].",
           "options": [
             "[[Homelessness|La falta de vivienda]]",
             "[[Tourism|Turismo]]",
@@ -65,7 +65,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Caridad local",
       "instructions": "Ordena la oración sobre el trabajo de las organizaciones benéficas.",
-      "correctSentence": "[[Local|Las organizaciones]] [[charities|benéficas locales]] [[are|están]] [[working|trabajando]] [[hard|duro]] [[to|para]] [[collect|recolectar]] [[enough|suficiente]] [[food|comida]] [[and|y]] [[warm|ropa]] [[clothing|de abrigo]] [[for|para]] [[families|familias]] [[who|que]] [[have|han]] [[been|sido]] [[affected|afectadas]] [[by|por]] [[the|la]] [[economic|crisis]] [[crisis|económica]].",
+      "correctSentence": "[[Local charities are working hard to collect enough food and warm clothing for families who have been affected by the economic crisis|Las organizaciones benéficas locales están trabajando duro para recolectar suficiente comida y ropa de abrigo para familias que han sido afectadas por la crisis económica]].",
       "words": [
         "[[crisis|económica]].",
         "[[charities|benéficas locales]]",
@@ -108,7 +108,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para recolectar dinero para una causa.",
       "questions": [
         {
-          "question": "[[The|La]] [[school|escuela]] [[organized|organizó]] [[a|un]] ______ [[event|evento de recaudación de fondos]] [[to|para]] [[build|construir]] [[a|una]] [[new|nueva]] [[library|biblioteca]].",
+          "question": "[[The school organized a new library|La escuela organizó un]] ______ [[event to build a|evento de recaudación de fondos para construir una nueva biblioteca]].",
           "options": [
             "[[fundraising|recaudación de fondos]]",
             "[[shopping|compras]]",
@@ -135,7 +135,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una organización que no busca beneficios económicos.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[started|fundaron]] [[a|una]] ______ [[organization|organización sin fines de lucro]] [[to|para]] [[protect|proteger]] [[the|el]] [[environment|medio ambiente]].",
+          "question": "[[They started a to environment|Ellos fundaron una]] ______ [[organization protect the|organización sin fines de lucro para proteger el medio ambiente]].",
           "options": [
             "[[non-profit|sin fines de lucro]]",
             "[[profitable|rentable]]",
@@ -160,7 +160,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Servicio a la comunidad",
       "instructions": "Ordena la oración sobre el impacto del voluntariado semanal.",
-      "correctSentence": "[[If|Si]] [[more|más]] [[people|personas]] [[decided|decidieran]] [[to| ]] [[dedicate|dedicar]] [[just|solo]] [[two|dos]] [[hours|horas]] [[of|de]] [[their|su]] [[week|semana]] [[to|al]] [[community|servicio]] [[service|comunitario]], [[the|la]] [[overall|calidad]] [[quality|de]] [[of|vida]] [[life|general]] [[in|en]] [[our|nuestro]] [[neighborhood|vecindario]] [[would|mejoraría]] [[improve| ]] [[significantly|significativamente]].",
+      "correctSentence": "[[If more, the people decided to dedicate just two hours of their week to community service overall quality of life in our neighborhood would improve significantly|Si más personas decidieran   dedicar solo dos horas de su semana al servicio comunitario, la calidad de vida general en nuestro vecindario mejoraría   significativamente]].",
       "words": [
         "[[significantly|significativamente]].",
         "[[decided|decidieran]]",
@@ -207,7 +207,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para el conocimiento público sobre un tema.",
       "questions": [
         {
-          "question": "[[The|La]] [[campaign|campaña]] [[aims|busca]] [[to| ]] [[raise|aumentar]] ______ [[about|sobre]] [[mental|la salud]] [[health|mental]].",
+          "question": "[[The campaign aims to raise mental health|La campaña busca   aumentar]] ______ [[about|sobre la salud mental]].",
           "options": [
             "[[awareness|concienciación]]",
             "[[confusion|confusión]]",
@@ -234,7 +234,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para lo que se da a la caridad.",
       "questions": [
         {
-          "question": "[[Thank|Gracias]] [[you| ]] [[for|por]] [[your|su]] [[generous|generosa]] ______ [[of|de]] [[fifty|cincuenta]] [[euros|euros]].",
+          "question": "[[Thank you for your generous fifty euros|Gracias   por su generosa]] ______ [[of|de cincuenta euros]].",
           "options": [
             "[[donation|donación]]",
             "[[loan|préstamo]]",
@@ -259,7 +259,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ayuda invernal",
       "instructions": "Ordena la oración sobre el apoyo a personas mayores en invierno.",
-      "correctSentence": "[[During|Durante]] [[the|los]] [[winter|meses]] [[months|de invierno]], [[many|muchos]] [[volunteers|voluntarios]] [[spend|pasan]] [[their|sus]] [[nights|noches]] [[helping|ayudando]] [[the|a los]] [[elderly|ancianos]] [[and|y]] [[those|quienes]] [[living|viven]] [[alone|solos]] [[to|para]] [[ensure|asegurar]] [[they|que]] [[have|tengan]] [[enough|suficiente]] [[heat|calefacción]] [[and|y]] [[food|comida]].",
+      "correctSentence": "[[During the, many volunteers winter months spend their nights helping the elderly and those living alone to ensure they have enough heat and food|Durante los meses de invierno, muchos voluntarios pasan sus noches ayudando a los ancianos y quienes viven solos para asegurar que tengan suficiente calefacción y comida]].",
       "words": [
         "[[food|comida]].",
         "[[months|de invierno]],",
@@ -304,7 +304,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para tener los mismos derechos.",
       "questions": [
         {
-          "question": "[[Gender|La igualdad]] ______ [[is|es]] [[essential|esencial]] [[for|para]] [[a|una]] [[fair|sociedad]] [[society|justa]].",
+          "question": "[[Gender essential for a fair society|La igualdad]] ______ [[is|es esencial para una sociedad justa]].",
           "options": [
             "[[equality|de género]]",
             "[[difference|diferencia]]",
@@ -331,7 +331,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Elige el nombre del lugar que reparte comida a necesitados.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[donated|donamos]] [[some|algunas]] [[canned|latas]] [[goods|de comida]] [[to|al]] [[the| ]] [[local|banco de alimentos]] ______.",
+          "question": "[[We donated some canned goods to the local|Nosotros donamos algunas latas de comida al   banco de alimentos]] ______.",
           "options": [
             "[[food bank|local]]",
             "[[library|biblioteca]]",
@@ -356,7 +356,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Políticas sociales",
       "instructions": "Ordena la oración sobre la presión para reducir la pobreza.",
-      "correctSentence": "[[The|El]] [[government|gobierno]] [[is|está]] [[being|siendo]] [[pressured|presionado]] [[by|por]] [[international|organizaciones]] [[organizations|internacionales]] [[to|para]] [[implement|implementar]] [[more|políticas]] [[effective|más]] [[policies|efectivas]] [[to|para]] [[reduce|reducir]] [[poverty|la pobreza]] [[and|y]] [[improve|mejorar]] [[access|el acceso]] [[to|a]] [[basic|atención médica]] [[healthcare|básica]].",
+      "correctSentence": "[[The government is being pressured by international organizations to implement more effective policies to reduce poverty and improve access to basic healthcare|El gobierno está siendo presionado por organizaciones internacionales para implementar políticas más efectivas para reducir la pobreza y mejorar el acceso a atención médica básica]].",
       "words": [
         "[[healthcare|básica]].",
         "[[government|gobierno]]",
@@ -399,7 +399,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la carencia de recursos básicos.",
       "questions": [
         {
-          "question": "______ [[affects|afecta]] [[millions|a millones]] [[of|de]] [[children|niños]] [[around|en todo]] [[the|el]] [[world|mundo]].",
+          "question": "______ [[affects millions of children around the world|afecta a millones de niños en todo el mundo]].",
           "options": [
             "[[Poverty|La pobreza]]",
             "[[Wealth|La riqueza]]",
@@ -426,7 +426,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa brindar ayuda a un movimiento.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[decided|decidí]] [[to| ]] ______ [[this|esta]] [[cause|causa]] [[because|porque]] [[it|es]] [[is| ]] [[very|muy]] [[important|importante]].",
+          "question": "[[I decided to cause is very important|Yo decidí  ]] ______ [[this because it|esta causa porque es   muy importante]].",
           "options": [
             "[[support|apoyar]]",
             "[[ignore|ignorar]]",
@@ -451,7 +451,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Éxito en la recaudación",
       "instructions": "Ordena la oración sobre el éxito de un evento benéfico.",
-      "correctSentence": "[[By|Para]] [[the|cuando]] [[time| ]] [[the|el]] [[fundraising|evento de]] [[event|recaudación]] [[ended|terminó]] [[at|a]] [[midnight|medianoche]], [[the|los]] [[organizers|organizadores]] [[had|ya]] [[already|habían]] [[collected|recaudado]] [[twice|el doble]] [[as|de]] [[much|dinero]] [[money| ]] [[as|de lo que]] [[they|ellos]] [[had|habían]] [[originally|originalmente]] [[anticipated|previsto]].",
+      "correctSentence": "[[By the, the time the fundraising event ended at midnight organizers had already collected twice as much money as they had originally anticipated|Para cuando   el evento de recaudación terminó a medianoche, los organizadores ya habían recaudado el doble de dinero   de lo que ellos habían originalmente previsto]].",
       "words": [
         "[[anticipated|previsto]].",
         "[[fundraising|evento de]]",
@@ -494,7 +494,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la variedad cultural o social.",
       "questions": [
         {
-          "question": "[[Cultural|La diversidad]] ______ [[enriches|cultural enriquece]] [[our|nuestra]] [[community|comunidad]].",
+          "question": "[[Cultural our community|La diversidad]] ______ [[enriches|cultural enriquece nuestra comunidad]].",
           "options": [
             "[[diversity|diversidad]]",
             "[[uniformity|uniformidad]]",
@@ -521,7 +521,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un lugar de protección temporal.",
       "questions": [
         {
-          "question": "[[The|El]] [[night|refugio nocturno]] ______ [[is|está]] [[open|abierto]] [[for|para]] [[the|las]] [[homeless|personas sin hogar]].",
+          "question": "[[The night for the homeless|El refugio nocturno]] ______ [[is open|está abierto para las personas sin hogar]].",
           "options": [
             "[[shelter|refugio]]",
             "[[stadium|estadio]]",
@@ -546,7 +546,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Acciones individuales",
       "instructions": "Ordena la oración sobre la importancia de cada donación.",
-      "correctSentence": "[[While|Mientras que]] [[many|muchas]] [[people|personas]] [[believe|creen]] [[that|que]] [[individual|las acciones]] [[actions|individuales]] [[don't|no]] [[matter|importan]], [[every|cada]] [[small|pequeña]] [[donation|donación]] [[contributes|contribuye]] [[to|al]] [[the|objetivo]] [[larger|más]] [[goal|grande]] [[of|de]] [[eradicating|erradicar]] [[hunger|el hambre]] [[in|en]] [[our|nuestra]] [[city|ciudad]].",
+      "correctSentence": "[[While many, every people believe that individual actions don't matter small donation contributes to the larger goal of eradicating hunger in our city|Mientras que muchas personas creen que las acciones individuales no importan, cada pequeña donación contribuye al objetivo más grande de erradicar el hambre en nuestra ciudad]].",
       "words": [
         "[[city|ciudad]].",
         "[[people|personas]]",
@@ -590,7 +590,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para alguien que lucha por un cambio social.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[has|ha]] [[been|sido]] [[an|una]] ______ [[for|a favor de]] [[human|los derechos]] [[rights|humanos]] [[since|desde]] [[college|la universidad]].",
+          "question": "[[She has been an college|Ella ha sido una]] ______ [[for human rights since|a favor de los derechos humanos desde la universidad]].",
           "options": [
             "[[activist|activista]]",
             "[[actor|actriz]]",
@@ -617,7 +617,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para integrar a todos los miembros de la sociedad.",
       "questions": [
         {
-          "question": "[[Social|La inclusión]] ______ [[is|es]] [[the|el]] [[key|camino]] [[to|a]] [[peace|la paz]].",
+          "question": "[[Social the key to peace|La inclusión]] ______ [[is|es el camino a la paz]].",
           "options": [
             "[[inclusion|social]]",
             "[[exclusion|exclusión]]",
@@ -642,7 +642,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Responsabilidad social",
       "instructions": "Ordena la oración sobre el fomento del voluntariado en jóvenes.",
-      "correctSentence": "[[It|Es]] [[is|esencial]] [[essential| ]] [[that|que]] [[we|nosotros]] [[encourage|fomentemos]] [[younger|que las]] [[generations|generaciones]] [[to|más]] [[participate|jóvenes]] [[in|participen]] [[volunteering|en actividades]] [[activities|de voluntariado]] [[so|para que]] [[they|ellos]] [[can|puedan]] [[develop|desarrollar]] [[empathy|empatía]] [[and|y]] [[a|un]] [[sense|sentido]] [[of|de]] [[social|responsabilidad]] [[responsibility|social]].",
+      "correctSentence": "[[It is essential that we encourage younger generations to participate in volunteering activities so they can develop empathy and a sense of social responsibility|Es esencial   que nosotros fomentemos que las generaciones más jóvenes participen en actividades de voluntariado para que ellos puedan desarrollar empatía y un sentido de responsabilidad social]].",
       "words": [
         "[[social|responsabilidad]]",
         "[[is|esencial]]",
@@ -687,7 +687,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para defender públicamente una causa.",
       "questions": [
         {
-          "question": "[[His|Su]] ______ [[for|por]] [[better|mejores]] [[schools|escuelas]] [[changed|cambió]] [[the|la]] [[city|ciudad]].",
+          "question": "[[His better schools changed the city|Su]] ______ [[for|por mejores escuelas cambió la ciudad]].",
           "options": [
             "[[advocacy|defensa/promoción]]",
             "[[complaint|queja]]",
@@ -714,7 +714,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la ayuda generosa a los demás.",
       "questions": [
         {
-          "question": "[[Modern|La filantropía]] ______ [[helps|moderna ayuda]] [[solve|a resolver]] [[global|problemas]] [[problems|globales]].",
+          "question": "[[Modern solve global problems|La filantropía]] ______ [[helps|moderna ayuda a resolver problemas globales]].",
           "options": [
             "[[philanthropy|filantropía]]",
             "[[selfishness|egoísmo]]",
@@ -739,7 +739,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reforestación voluntaria",
       "instructions": "Ordena la oración sobre la plantación de árboles.",
-      "correctSentence": "[[Even|Aunque]] [[though| ]] [[the|la]] [[task|tarea]] [[was|era]] [[very|muy]] [[challenging|difícil]], [[the|el]] [[group|grupo]] [[of|de]] [[volunteers|voluntarios]] [[managed|logró]] [[to| ]] [[plant|plantar]] [[over|más de]] [[five|quinientos]] [[hundred| ]] [[trees|árboles]] [[in|en]] [[the|el]] [[local|parque]] [[park|local]] [[during|durante]] [[the|el]] [[weekend|fin de semana]].",
+      "correctSentence": "[[Even though, the the task was very challenging group of volunteers managed to plant over five hundred trees in the local park during the weekend|Aunque   la tarea era muy difícil, el grupo de voluntarios logró   plantar más de quinientos   árboles en el parque local durante el fin de semana]].",
       "words": [
         "[[weekend|fin de semana]].",
         "[[task|tarea]]",
@@ -784,7 +784,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para ganar confianza y control sobre la propia vida.",
       "questions": [
         {
-          "question": "[[Economic|El empoderamiento]] ______ [[of|económico de]] [[women|las mujeres]] [[is|es]] [[vital|vital]].",
+          "question": "[[Economic women is vital|El empoderamiento]] ______ [[of|económico de las mujeres es vital]].",
           "options": [
             "[[empowerment|empoderamiento]]",
             "[[weakness|debilidad]]",
@@ -811,7 +811,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una serie de acciones organizadas para un fin.",
       "questions": [
         {
-          "question": "[[The|La]] ______ [[against|contra]] [[smoking|el tabaco]] [[was|fue]] [[very|muy]] [[successful|exitosa]].",
+          "question": "[[The smoking was very successful|La]] ______ [[against|contra el tabaco fue muy exitosa]].",
           "options": [
             "[[campaign|campaña]]",
             "[[holiday|vacaciones]]",
@@ -838,7 +838,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa organizar a la gente para actuar.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ______ [[the|a la]] [[community|comunidad]] [[to|para]] [[clean|limpiar]] [[the|el]] [[river|río]].",
+          "question": "[[They community to clean the river|Ellos]] ______ [[the|a la comunidad para limpiar el río]].",
           "options": [
             "[[mobilized|movilizaron]]",
             "[[confused|confundieron]]",
@@ -863,7 +863,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Talleres de empleo",
       "instructions": "Ordena la oración sobre el apoyo a ciudadanos desempleados.",
-      "correctSentence": "[[Local|Las autoridades]] [[authorities|locales]] [[are|están]] [[planning|planeando]] [[to| ]] [[launch|lanzar]] [[a|una]] [[series|serie]] [[of|de]] [[workshops|talleres]] [[to|para]] [[help|ayudar]] [[unemployed|a ciudadanos]] [[citizens|desempleados]] [[develop|a desarrollar]] [[new|nuevas]] [[skills|habilidades]] [[and|y]] [[find|encontrar]] [[better|mejores]] [[job|oportunidades]] [[opportunities|laborales]].",
+      "correctSentence": "[[Local authorities are planning to launch a series of workshops to help unemployed citizens develop new skills and find better job opportunities|Las autoridades locales están planeando   lanzar una serie de talleres para ayudar a ciudadanos desempleados a desarrollar nuevas habilidades y encontrar mejores oportunidades laborales]].",
       "words": [
         "[[laborales| ]].",
         "[[planning|planeando]]",
@@ -907,7 +907,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el apoyo mutuo y unidad.",
       "questions": [
         {
-          "question": "[[The|La]] ______ [[shown|mostrada]] [[by|por]] [[the|los]] [[neighbors|vecinos]] [[was|fue]] [[inspiring|inspiradora]].",
+          "question": "[[The by the neighbors was inspiring|La]] ______ [[shown|mostrada por los vecinos fue inspiradora]].",
           "options": [
             "[[solidarity|solidaridad]]",
             "[[jealousy|celos]]",
@@ -934,7 +934,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el crecimiento que cuida los recursos.",
       "questions": [
         {
-          "question": "______ ______ [[is|es]] [[the|el]] [[only|único]] [[way|camino]] [[to|para]] [[save|salvar]] [[the|el]] [[planet|planeta]].",
+          "question": "______ ______ [[is the only way to save the planet|es el único camino para salvar el planeta]].",
           "options": [
             "[[Sustainable development|Desarrollo sostenible]]",
             "[[Rapid urbanization|Urbanización rápida]]",
@@ -959,7 +959,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Advertencia ecológica",
       "instructions": "Ordena la oración sobre la advertencia de los activistas.",
-      "correctSentence": "[[Environmental|Los activistas]] [[activists|medioambientales]] [[have|han]] [[been|estado]] [[warning|advirtiendo]] [[for|durante]] [[decades|décadas]] [[that|que]] [[if|si]] [[we|nosotros]] [[do|no]] [[not|cambiamos]] [[change| ]] [[our|nuestros]] [[consumption|hábitos]] [[habits|de consumo]], [[the|los]] [[natural|recursos]] [[resources|naturales]] [[of|de]] [[our|nuestro]] [[planet|planeta]] [[will|se]] [[be|agotarán]] [[depleted| ]] [[soon|pronto]].",
+      "correctSentence": "[[Environmental activists, the natural have been warning for decades that if we do not change our consumption habits resources of our planet will be depleted soon|Los activistas medioambientales han estado advirtiendo durante décadas que si nosotros no cambiamos   nuestros hábitos de consumo, los recursos naturales de nuestro planeta se agotarán   pronto]].",
       "words": [
         "[[soon|pronto]].",
         "[[activists|medioambientales]]",
@@ -1006,7 +1006,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un asesor con experiencia y confianza.",
       "questions": [
         {
-          "question": "[[The|El]] [[program|programa]] [[connects|conecta]] [[students|estudiantes]] [[with|con]] [[a|un]] ______ [[in|en]] [[their|su]] [[field|campo]].",
+          "question": "[[The program connects students with a field|El programa conecta estudiantes con un]] ______ [[in their|en su campo]].",
           "options": [
             "[[mentor|mentor]]",
             "[[rival|rival]]",
@@ -1033,7 +1033,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa trabajar juntos por un fin.",
       "questions": [
         {
-          "question": "[[Nations|Las naciones]] [[must|deben]] ______ [[to|para]] [[fight|luchar]] [[against|contra]] [[climate|el cambio]] [[change|climático]].",
+          "question": "[[Nations must against climate change|Las naciones deben]] ______ [[to fight|para luchar contra el cambio climático]].",
           "options": [
             "[[cooperate|cooperar]]",
             "[[compete|competir]]",
@@ -1058,7 +1058,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Nueva legislación",
       "instructions": "Ordena la oración sobre el apoyo a ONGs tras una nueva ley.",
-      "correctSentence": "[[Since|Desde que]] [[the|la]] [[new|nueva]] [[legislation|legislación]] [[was|fue]] [[passed|aprobada]], [[many|muchas]] [[non-profit|organizaciones]] [[organizations|sin fines de lucro]] [[have|han]] [[received|recibido]] [[more|más]] [[financial|apoyo]] [[support|financiero]] [[to|para]] [[extend|extender]] [[their|sus]] [[social|programas]] [[programs|sociales]] [[to|a]] [[rural|áreas]] [[areas|rurales]].",
+      "correctSentence": "[[Since the, many non-profit new legislation was passed organizations have received more financial support to extend their social programs to rural areas|Desde que la nueva legislación fue aprobada, muchas organizaciones sin fines de lucro han recibido más apoyo financiero para extender sus programas sociales a áreas rurales]].",
       "words": [
         "[[rurales| ]].",
         "[[new|nueva]]",
@@ -1102,7 +1102,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una ventaja obtenida de una acción.",
       "questions": [
         {
-          "question": "[[Volunteering|El voluntariado]] [[has|tiene]] [[many|muchos]] ______ [[for|para]] [[your|tu]] [[personal|crecimiento]] [[growth|personal]].",
+          "question": "[[Volunteering has many your|El voluntariado tiene muchos]] ______ [[for personal growth|para tu crecimiento personal]].",
           "options": [
             "[[benefits|beneficios]]",
             "[[costs|costes]]",
@@ -1129,7 +1129,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa promover el desarrollo de algo bueno.",
       "questions": [
         {
-          "question": "[[The|La]] [[school|escuela]] [[aims|busca]] [[to| ]] ______ [[a|una]] [[spirit|espíritu]] [[of|de]] [[cooperation|cooperación]].",
+          "question": "[[The school aims to|La escuela busca  ]] ______ [[a spirit of cooperation|una espíritu de cooperación]].",
           "options": [
             "[[foster|fomentar]]",
             "[[destroy|destruir]]",
@@ -1154,7 +1154,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Generosidad abrumadora",
       "instructions": "Ordena la oración sobre el éxito de una colecta.",
-      "correctSentence": "[[Although|Aunque]] [[the|el]] [[fundraising|objetivo de]] [[target|recaudación]] [[seemed|parecía]] [[impossible|imposible]] [[to|de]] [[reach|alcanzar]] [[at|al]] [[first|principio]], [[the|la]] [[overwhelming|generosidad]] [[generosity|abrumadora]] [[of|de]] [[the|la]] [[local|comunidad]] [[community|local]] [[made|hizo]] [[it| ]] [[possible|posible]] [[to| ]] [[hit|alcanzar]] [[the|la]] [[goal|meta]] [[within|en]] [[only|solo]] [[three|tres]] [[days|días]].",
+      "correctSentence": "[[Although the, the overwhelming fundraising target seemed impossible to reach at first generosity of the local community made it possible to hit the goal within only three days|Aunque el objetivo de recaudación parecía imposible de alcanzar al principio, la generosidad abrumadora de la comunidad local hizo   posible   alcanzar la meta en solo tres días]].",
       "words": [
         "[[days|días]].",
         "[[fundraising|objetivo de]]",
@@ -1203,7 +1203,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la preocupación desinteresada por los demás.",
       "questions": [
         {
-          "question": "[[His|Su]] ______ [[inspired|inspiró]] [[many|a muchos]] [[to|a]] [[join|unirse a]] [[the|la]] [[cause|causa]].",
+          "question": "[[His many to join the cause|Su]] ______ [[inspired|inspiró a muchos a unirse a la causa]].",
           "options": [
             "[[altruism|altruismo]]",
             "[[greed|avaricia]]",
@@ -1230,7 +1230,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para el dinero otorgado para un fin específico.",
       "questions": [
         {
-          "question": "[[The|La]] [[NGO|ONG]] [[received|recibió]] [[a|una]] ______ [[to|para]] [[build|construir]] [[new|nuevos]] [[wells|pozos]].",
+          "question": "[[The NGO received a|La ONG recibió una]] ______ [[to build new wells|para construir nuevos pozos]].",
           "options": [
             "[[grant|subvención]]",
             "[[fine|multa]]",
@@ -1255,7 +1255,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Campaña de reciclaje",
       "instructions": "Ordena la oración sobre el impacto de una campaña pasada.",
-      "correctSentence": "[[If|Si]] [[we|nosotros]] [[had|no]] [[not|hubiéramos]] [[started|empezado]] [[the|la]] [[awareness|campaña]] [[campaign|de concienciación]] [[last|el año]] [[year|pasado]], [[fewer|menos]] [[people|gente]] [[would|sabría]] [[know| ]] [[about|sobre]] [[the|la]] [[importance|importancia]] [[of|de]] [[recycling|reciclar]] [[electronic|residuos]] [[waste|electrónicos]] [[correctly|correctamente]].",
+      "correctSentence": "[[If we, fewer people had not started the awareness campaign last year would know about the importance of recycling electronic waste correctly|Si nosotros no hubiéramos empezado la campaña de concienciación el año pasado, menos gente sabría   sobre la importancia de reciclar residuos electrónicos correctamente]].",
       "words": [
         "[[correctly|correctamente]].",
         "[[not|hubiéramos]]",
@@ -1298,7 +1298,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el sufrimiento severo o carencia.",
       "questions": [
         {
-          "question": "[[Many|Muchas]] [[families|familias]] [[face|enfrentan]] [[financial|dificultades]] ______ [[during|durante]] [[the|la]] [[recession|recesión]].",
+          "question": "[[Many families face financial|Muchas familias enfrentan dificultades]] ______ [[during the recession|durante la recesión]].",
           "options": [
             "[[hardship|dificultades]]",
             "[[comfort|comodidad]]",
@@ -1325,7 +1325,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa recomendar públicamente algo.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[continues|continúa]] [[to| ]] ______ ______ [[for|abogando por]] [[better|mejores]] [[working|condiciones]] [[conditions|laborales]].",
+          "question": "[[She continues to better|Ella continúa  ]] ______ ______ [[for working conditions|abogando por mejores condiciones laborales]].",
           "options": [
             "[[advocate|abogando por]]",
             "[[ignore|ignorando]]",
@@ -1350,7 +1350,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Programas de prácticas",
       "instructions": "Ordena la oración sobre prácticas para estudiantes desfavorecidos.",
-      "correctSentence": "[[By|Al]] [[working|trabajar]] [[together|juntos]] [[with|con]] [[local|empresas]] [[businesses|locales]], [[the|el]] [[city|ayuntamiento]] [[council| ]] [[has|ha]] [[managed|logrado]] [[to| ]] [[create|crear]] [[several|varios]] [[new|nuevos]] [[internship|programas de]] [[programs|prácticas]] [[for|para]] [[students|estudiantes]] [[from|de]] [[disadvantaged|entornos]] [[backgrounds|desfavorecidos]].",
+      "correctSentence": "[[By working, the city together with local businesses council has managed to create several new internship programs for students from disadvantaged backgrounds|Al trabajar juntos con empresas locales, el ayuntamiento   ha logrado   crear varios nuevos programas de prácticas para estudiantes de entornos desfavorecidos]].",
       "words": [
         "[[desfavorecidos| ]].",
         "[[working|trabajar]]",
@@ -1394,7 +1394,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el principio o movimiento que se defiende.",
       "questions": [
         {
-          "question": "[[He|Él]] [[dedicated|dedicó]] [[his|su]] [[life|vida]] [[to|a]] [[the|la]] ______ [[of|de]] [[world|la paz]] [[peace|mundial]].",
+          "question": "[[He dedicated his life to the peace|Él dedicó su vida a la]] ______ [[of world|de la paz mundial]].",
           "options": [
             "[[cause|causa]]",
             "[[hobby|afición]]",
@@ -1421,7 +1421,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el verbo que significa restaurar a alguien a una vida normal.",
       "questions": [
         {
-          "question": "[[The|El]] [[center|centro]] [[works|trabaja]] [[to|para]] ______ [[former|a antiguos]] [[prisoners|prisioneros]].",
+          "question": "[[The center works to|El centro trabaja para]] ______ [[former prisoners|a antiguos prisioneros]].",
           "options": [
             "[[rehabilitate|rehabilitar]]",
             "[[punish|castigar]]",
@@ -1446,7 +1446,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Contribución festiva",
       "instructions": "Ordena la oración sobre la donación de alimentos en vacaciones.",
-      "correctSentence": "[[It|Se]] [[is|recomienda]] [[highly|encarecidamente]] [[recommended| ]] [[that|que]] [[we|todos]] [[all|nosotros]] [[contribute|contribuyamos]] [[to|al]] [[the|banco]] [[local|de]] [[food|alimentos]] [[bank|local]] [[to|para]] [[ensure|asegurar]] [[that|que]] [[no|ninguna]] [[family|familia]] [[in|de]] [[our|nuestro]] [[neighborhood|vecindario]] [[has|tenga]] [[to|que]] [[go|pasar]] [[hungry|hambre]] [[during|durante]] [[the|las]] [[holidays|vacaciones]].",
+      "correctSentence": "[[It is highly recommended that we all contribute to the local food bank to ensure that no family in our neighborhood has to go hungry during the holidays|Se recomienda encarecidamente   que todos nosotros contribuyamos al banco de alimentos local para asegurar que ninguna familia de nuestro vecindario tenga que pasar hambre durante las vacaciones]].",
       "words": [
         "[[vacaciones| ]].",
         "[[is|recomienda]]",
@@ -1496,7 +1496,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el respeto a opiniones diferentes.",
       "questions": [
         {
-          "question": "[[We|Debemos]] [[must| ]] [[promote|promover]] ______ [[between|entre]] [[different|diferentes]] [[cultures|culturas]].",
+          "question": "[[We must promote different|Debemos   promover]] ______ [[between cultures|entre diferentes culturas]].",
           "options": [
             "[[tolerance|tolerancia]]",
             "[[anger|enfado]]",
@@ -1523,7 +1523,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para el estado de salud y felicidad de un grupo.",
       "questions": [
         {
-          "question": "[[The|La]] ______ [[of|de]] [[the|los]] [[children|niños]] [[is|es]] [[our|nuestra]] [[priority|prioridad]].",
+          "question": "[[The the children is our priority|La]] ______ [[of|de los niños es nuestra prioridad]].",
           "options": [
             "[[welfare|bienestar]]",
             "[[warfare|guerra]]",
@@ -1548,7 +1548,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Huertos urbanos",
       "instructions": "Ordena la oración sobre la transformación de espacios urbanos.",
-      "correctSentence": "[[Local|Las organizaciones]] [[organizations|locales]] [[are|están]] [[encouraging|animando]] [[citizens|a los ciudadanos]] [[to|a]] [[participate|participar]] [[in|en]] [[community-led|proyectos]] [[projects|liderados]] [[that|por la]] [[aim|comunidad]] [[to|que]] [[transform|buscan]] [[abandoned|transformar]] [[urban|espacios]] [[spaces|urbanos]] [[into|abandonados]] [[vibrant|en]] [[community|vibrantes]] [[gardens|jardines]] [[and|y]] [[parks|parques]].",
+      "correctSentence": "[[Local organizations are encouraging citizens to participate in community-led projects that aim to transform abandoned urban spaces into vibrant community gardens and parks|Las organizaciones locales están animando a los ciudadanos a participar en proyectos liderados por la comunidad que buscan transformar espacios urbanos abandonados en vibrantes jardines y parques]].",
       "words": [
         "[[parques| ]].",
         "[[encouraging|animando]]",
@@ -1593,7 +1593,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para un grupo de personas trabajando por ideas comunes.",
       "questions": [
         {
-          "question": "[[The|El]] [[environmental|movimiento]] ______ [[has|ha]] [[gained|ganado]] [[many|muchos]] [[followers|seguidores]].",
+          "question": "[[The environmental many followers|El movimiento]] ______ [[has gained|ha ganado muchos seguidores]].",
           "options": [
             "[[movement|movimiento]]",
             "[[moment|momento]]",

@@ -39,7 +39,7 @@ export const UNIT_31_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[no|no]] [[-|-]] [[poder|poder]]) _______ [[drive|drive]].",
+          "question": "[[He - poder|Él]] ([[no|no - poder]]) _______ [[drive|drive]].",
           "options": [
             "[[can't|can't]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_31_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Poder|Poder]]? [[-|-]] [[tú|tú]]) _______ [[you|tú/usted]] [[dance|dance]]?",
+          "question": "([[Poder tú? -|Poder? - tú]]) _______ [[you dance|tú/usted dance]]?",
           "options": [
             "[[is|es/está]]",
             "[[are|son/están]]",
@@ -91,7 +91,7 @@ export const UNIT_31_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[poder|poder]]) _______ [[speak|hablar]] [[English|English]].",
+          "question": "[[They English|Ellos]] ([[poder|poder]]) _______ [[speak|hablar English]].",
           "options": [
             "[[is|es/está]]",
             "[[can|poder]]",
@@ -115,7 +115,7 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[can't|can't]] [[speak|hablar]] [[French|French]].",
+      "correctSentence": "[[I can't speak French|Yo can't hablar French]].",
       "words": [
         "[[I|Yo]]",
         "[[can't|can't]]",
@@ -137,7 +137,7 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[can|poder]] [[play|jugar/tocar]] [[the|el/la/los/las]] [[guitar|guitar]].",
+      "correctSentence": "[[She can play the guitar|Ella poder jugar/tocar el/la/los/las guitar]].",
       "words": [
         "[[guitar|guitar]].",
         "[[the|el/la/los/las]]",
@@ -160,7 +160,7 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[dog|dog]] [[can|poder]] [[run|run]] [[very|muy]] [[fast|fast]].",
+      "correctSentence": "[[My dog can run very fast|Mi/mis dog poder run muy fast]].",
       "words": [
         "[[very|muy]]",
         "[[run|run]]",
@@ -184,7 +184,7 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Can|Poder]] [[you|tú/usted]] [[help|ayudar]] [[me|me/mí]], [[please|por favor]]?",
+      "correctSentence": "[[Can you, please help me|Poder tú/usted ayudar me/mí, por favor]]?",
       "words": [
         "[[Can|Poder]]",
         "[[you|tú/usted]]",
@@ -207,7 +207,7 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[can|poder]] [[draw|draw]] [[beautiful|hermoso/a]] [[pictures|pictures]].",
+      "correctSentence": "[[They can draw beautiful pictures|Ellos poder draw hermoso/a pictures]].",
       "words": [
         "[[can|poder]]",
         "[[beautiful|hermoso/a]]",

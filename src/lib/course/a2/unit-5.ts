@@ -97,7 +97,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[get|conseguir/obtener]] [[up|up]]) _______ [[at|en]] [[7|7]] [[o'clock|o'clock]].",
+          "question": "[[I up o'clock|Yo]] ([[get|conseguir/obtener up]]) _______ [[at 7|en 7 o'clock]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -123,7 +123,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[usually/have|usually/have]]) _______ [[breakfast|breakfast]] [[at|en]] [[home|casa/hogar]].",
+          "question": "[[She at home|Ella]] ([[usually/have|usually/have]]) _______ [[breakfast|breakfast en casa/hogar]].",
           "options": [
             "[[to|a/para]]",
             "[[usually has|usually has]]",
@@ -149,7 +149,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[not/work|not/work]]) _______ [[on|en/sobre]] [[Saturdays|Saturdays]].",
+          "question": "[[They Saturdays|Ellos]] ([[not/work|not/work]]) _______ [[on|en/sobre Saturdays]].",
           "options": [
             "[[it|eso]]",
             "[[don't work|don't work]]",
@@ -175,7 +175,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[time|tiempo/hora]] _______ [[he|él]] [[start|start]] [[work|trabajo/trabajar]]?",
+          "question": "[[What time work|Qué tiempo/hora]] _______ [[he start|él start trabajo/trabajar]]?",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -227,7 +227,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[often/go|often/go]]) _______ [[to|a/para]] [[the|el/la/los/las]] [[gym|gym]].",
+          "question": "[[We the gym|Nosotros]] ([[often/go|often/go]]) _______ [[to|a/para el/la/los/las gym]].",
           "options": [
             "[[often go|often go]]",
             "[[to|a/para]]",
@@ -253,7 +253,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Does|Hace]] [[she|ella]] _______ ([[study|estudiar]]) [[in|en]] [[the|el/la/los/las]] [[evenings|evenings]]?",
+          "question": "[[Does she evenings|Hace ella]] _______ ([[study the|estudiar]]) [[in|en el/la/los/las evenings]]?",
           "options": [
             "[[study|estudiar]]",
             "[[to|a/para]]",
@@ -279,7 +279,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[watch|ver/mirar]]) _______ [[TV|TV]] [[every|every]] [[night|noche]].",
+          "question": "[[He every night|Él]] ([[watch|ver/mirar]]) _______ [[TV|TV every noche]].",
           "options": [
             "[[watches|watches]]",
             "[[to|a/para]]",
@@ -305,7 +305,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[hardly|hardly]] [[ever/cook|ever/cook]]) [[_______|_______]].",
+          "question": "[[They ever/cook|Ellos]] ([[hardly|hardly ever/cook]]) [[_______|_______]].",
           "options": [
             "[[hardly ever cook|hardly ever cook]]",
             "[[it|eso]]",
@@ -331,7 +331,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[go|ir]]) _______ [[to|a/para]] [[bed|cama]] [[at|en]] [[midnight|midnight]].",
+          "question": "[[I bed at midnight|Yo]] ([[go|ir]]) _______ [[to|a/para cama en midnight]].",
           "options": [
             "[[it|eso]]",
             "[[go|ir]]",
@@ -355,7 +355,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[always|siempre]] [[wake|wake]] [[up|up]] [[early|early]].",
+      "correctSentence": "[[I always wake up early|Yo siempre wake up early]].",
       "words": [
         "[[I|Yo]]",
         "[[wake|wake]]",
@@ -378,7 +378,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[usually|usually]] [[has|tiene/ha]] [[a|un/una]] [[shower|shower]] [[in|en]] [[the|el/la/los/las]] [[morning|mañana]].",
+      "correctSentence": "[[She usually has a shower in the morning|Ella usually tiene/ha un/una shower en el/la/los/las mañana]].",
       "words": [
         "[[morning|mañana]].",
         "[[a|un/una]]",
@@ -404,7 +404,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[never|nunca]] [[eats|eats]] [[breakfast|breakfast]].",
+      "correctSentence": "[[He never eats breakfast|Él nunca eats breakfast]].",
       "words": [
         "[[eats|eats]]",
         "[[never|nunca]]",
@@ -426,7 +426,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[What|Qué]] [[time|tiempo/hora]] [[do|hacer]] [[you|tú/usted]] [[finish|finish]] [[work|trabajo/trabajar]]?",
+      "correctSentence": "[[What time do you finish work|Qué tiempo/hora hacer tú/usted finish trabajo/trabajar]]?",
       "words": [
         "[[time|tiempo/hora]]",
         "[[What|Qué]]",
@@ -450,7 +450,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[often|a menudo]] [[go|ir]] [[for|para/por]] [[a|un/una]] [[walk|walk]] [[in|en]] [[the|el/la/los/las]] [[evening|tarde/noche]].",
+      "correctSentence": "[[They often go for a walk in the evening|Ellos a menudo ir para/por un/una walk en el/la/los/las tarde/noche]].",
       "words": [
         "[[go|ir]]",
         "[[evening|tarde/noche]].",
@@ -477,7 +477,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[sometimes|a veces]] [[listen|escuchar]] [[to|a/para]] [[the|el/la/los/las]] [[radio|radio]].",
+      "correctSentence": "[[I sometimes listen to the radio|Yo a veces escuchar a/para el/la/los/las radio]].",
       "words": [
         "[[listen|escuchar]]",
         "[[sometimes|a veces]]",
@@ -501,7 +501,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[hardly|hardly]] [[ever|ever]] [[goes|goes]] [[out|out]] [[during|during]] [[the|el/la/los/las]] [[week|semana]].",
+      "correctSentence": "[[She hardly ever goes out during the week|Ella hardly ever goes out during el/la/los/las semana]].",
       "words": [
         "[[She|Ella]]",
         "[[ever|ever]]",
@@ -527,7 +527,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[watches|watches]] [[the|el/la/los/las]] [[news|news]] [[every|every]] [[day|día]].",
+      "correctSentence": "[[He watches the news every day|Él watches el/la/los/las news every día]].",
       "words": [
         "[[He|Él]]",
         "[[the|el/la/los/las]]",
@@ -551,7 +551,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[usually|usually]] [[have|tener/haber]] [[lunch|lunch]] [[at|en]] [[1|1]] [[PM|PM]].",
+      "correctSentence": "[[We usually have lunch at 1 PM|Nosotros usually tener/haber lunch en 1 PM]].",
       "words": [
         "[[1|1]]",
         "[[We|Nosotros]]",
@@ -576,7 +576,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[go|ir]] [[to|a/para]] [[bed|cama]] [[at|en]] [[11|11]] [[o'clock|o'clock]].",
+      "correctSentence": "[[I go to bed at 11 o'clock|Yo ir a/para cama en 11 o'clock]].",
       "words": [
         "[[11|11]]",
         "[[at|en]]",
@@ -601,7 +601,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Does|Hace]] [[he|él]] [[work|trabajo/trabajar]] [[on|en/sobre]] [[weekends|weekends]]?",
+      "correctSentence": "[[Does he work on weekends|Hace él trabajo/trabajar en/sobre weekends]]?",
       "words": [
         "[[on|en/sobre]]",
         "[[work|trabajo/trabajar]]",
@@ -624,7 +624,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[starts|starts]] [[work|trabajo/trabajar]] [[at|en]] [[9|9]] [[AM|Soy/estoy]].",
+      "correctSentence": "[[She starts work at 9 AM|Ella starts trabajo/trabajar en 9 Soy/estoy]].",
       "words": [
         "[[AM|Soy/estoy]].",
         "[[at|en]]",
@@ -648,7 +648,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[never|nunca]] [[drink|beber]] [[coffee|coffee]].",
+      "correctSentence": "[[I never drink coffee|Yo nunca beber coffee]].",
       "words": [
         "[[I|Yo]]",
         "[[coffee|coffee]].",
@@ -670,7 +670,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[always|siempre]] [[study|estudiar]] [[in|en]] [[the|el/la/los/las]] [[library|biblioteca]].",
+      "correctSentence": "[[They always study in the library|Ellos siempre estudiar en el/la/los/las biblioteca]].",
       "words": [
         "[[They|Ellos]]",
         "[[always|siempre]]",
@@ -694,7 +694,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[cooks|cooks]] [[dinner|dinner]] [[for|para/por]] [[his|su (de él)]] [[family|familia]].",
+      "correctSentence": "[[He cooks dinner for his family|Él cooks dinner para/por su (de él) familia]].",
       "words": [
         "[[family|familia]].",
         "[[cooks|cooks]]",

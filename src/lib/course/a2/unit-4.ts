@@ -89,7 +89,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[My|Mi/mis]] [[mother|madre]] ([[have|tener/haber]] [[got|tienes/conseguido]]) _______ [[two|dos]] [[sisters|sisters]].",
+          "question": "[[My mother|Mi/mis madre]] ([[have got|tener/haber tienes/conseguido]]) _______ [[two sisters|dos sisters]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -115,7 +115,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[be|ser/estar]]) _______ [[my|mi/mis]] [[cousins|cousins]].",
+          "question": "[[They cousins|Ellos]] ([[be|ser/estar]]) _______ [[my|mi/mis cousins]].",
           "options": [
             "[[are|son/están]]",
             "[[to|a/para]]",
@@ -141,7 +141,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[How|Cómo]] [[many|many]] [[brothers|brothers]] _______ [[you|tú/usted]] [[got|tienes/conseguido]]?",
+          "question": "[[How many brothers got|Cómo many brothers]] _______ [[you|tú/usted tienes/conseguido]]?",
           "options": [
             "[[have|tener/haber]]",
             "[[to|a/para]]",
@@ -167,7 +167,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[not/have|not/have]]) _______ [[any|alguno/a]] [[children|niños/niñas]].",
+          "question": "[[She children|Ella]] ([[not/have|not/have]]) _______ [[any|alguno/a niños/niñas]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -193,7 +193,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[visit|visit]]) _______ [[our|nuestro]] [[grandparents|grandparents]] [[every|every]] [[Sunday|Sunday]].",
+          "question": "[[We grandparents every Sunday|Nosotros]] ([[visit|visit]]) _______ [[our|nuestro grandparents every Sunday]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -219,7 +219,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[be|ser/estar]]) _______ [[older|older]] [[than|que (comparativo)]] [[his|su (de él)]] [[wife|esposa]].",
+          "question": "[[He than his wife|Él]] ([[be|ser/estar]]) _______ [[older|older que (comparativo) su (de él) esposa]].",
           "options": [
             "[[is|es/está]]",
             "[[to|a/para]]",
@@ -245,7 +245,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Is|Es/está]] _______ [[your|tu/tus]] [[father|padre]]?",
+          "question": "[[Is father|Es/está]] _______ [[your|tu/tus padre]]?",
           "options": [
             "[[it|eso]]",
             "[[that|ese/esa/aquel]]",
@@ -271,7 +271,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[These|Estos/estas]] ([[be|ser/estar]]) _______ [[my|mi/mis]] [[parents|padres]].",
+          "question": "[[These parents|Estos/estas]] ([[be|ser/estar]]) _______ [[my|mi/mis padres]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -297,7 +297,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[My|Mi/mis]] [[sister|hermana]] ([[live|vivir]]) _______ [[in|en]] [[London|Londres]].",
+          "question": "[[My sister|Mi/mis hermana]] ([[live London|vivir]]) _______ [[in|en Londres]].",
           "options": [
             "[[lives|lives]]",
             "[[to|a/para]]",
@@ -323,7 +323,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[be|ser/estar]]) _______ [[married|married]] [[since|since]] [[2010|2010]].",
+          "question": "[[They since 2010|Ellos]] ([[be|ser/estar]]) _______ [[married|married since 2010]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -347,7 +347,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[have|tener/haber]] [[a|un/una]] [[large|large]] [[family|familia]].",
+      "correctSentence": "[[I have a large family|Yo tener/haber un/una large familia]].",
       "words": [
         "[[I|Yo]]",
         "[[have|tener/haber]]",
@@ -370,7 +370,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[mother's|mother's]] [[name|nombre]] [[is|es/está]] [[Maria|Maria]].",
+      "correctSentence": "[[My mother's name is Maria|Mi/mis mother's nombre es/está Maria]].",
       "words": [
         "[[Maria|Maria]].",
         "[[name|nombre]]",
@@ -393,7 +393,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Do|Hacer]] [[you|tú/usted]] [[have|tener/haber]] [[any|alguno/a]] [[siblings|siblings]]?",
+      "correctSentence": "[[Do you have any siblings|Hacer tú/usted tener/haber alguno/a siblings]]?",
       "words": [
         "[[Do|Hacer]]",
         "[[you|tú/usted]]",
@@ -416,7 +416,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[my|mi/mis]] [[favourite|favourite]] [[uncle|uncle]].",
+      "correctSentence": "[[He is my favourite uncle|Él es/está mi/mis favourite uncle]].",
       "words": [
         "[[He|Él]]",
         "[[is|es/está]]",
@@ -439,7 +439,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[grandparents|grandparents]] [[live|vivir]] [[in|en]] [[the|el/la/los/las]] [[countryside|countryside]].",
+      "correctSentence": "[[My grandparents live in the countryside|Mi/mis grandparents vivir en el/la/los/las countryside]].",
       "words": [
         "[[grandparents|grandparents]]",
         "[[My|Mi/mis]]",
@@ -463,7 +463,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[has|tiene/ha]] [[two|dos]] [[daughters|daughters]] [[and|and]] [[one|uno]] [[son|hijo]].",
+      "correctSentence": "[[She has two daughters and one son|Ella tiene/ha dos daughters and uno hijo]].",
       "words": [
         "[[son|hijo]].",
         "[[one|uno]]",
@@ -488,7 +488,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[cousin|cousin]] [[is|es/está]] [[younger|younger]] [[than|que (comparativo)]] [[me|me/mí]].",
+      "correctSentence": "[[My cousin is younger than me|Mi/mis cousin es/está younger que (comparativo) me/mí]].",
       "words": [
         "[[My|Mi/mis]]",
         "[[cousin|cousin]]",
@@ -512,7 +512,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Are|Son/están]] [[your|tu/tus]] [[parents|padres]] [[at|en]] [[home|casa/hogar]]?",
+      "correctSentence": "[[Are your parents at home|Son/están tu/tus padres en casa/hogar]]?",
       "words": [
         "[[at|en]]",
         "[[parents|padres]]",
@@ -535,7 +535,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[married|married]] [[to|a/para]] [[a|un/una]] [[doctor|médico/a]].",
+      "correctSentence": "[[He is married to a doctor|Él es/está married a/para un/una médico/a]].",
       "words": [
         "[[to|a/para]]",
         "[[He|Él]]",
@@ -559,7 +559,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[are|son/están]] [[very|muy]] [[close|close]].",
+      "correctSentence": "[[We are very close|Nosotros son/están muy close]].",
       "words": [
         "[[close|close]].",
         "[[very|muy]]",
@@ -581,7 +581,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[have|tener/haber]] [[got|tienes/conseguido]] [[three|tres]] [[nephews|nephews]].",
+      "correctSentence": "[[I have got three nephews|Yo tener/haber tienes/conseguido tres nephews]].",
       "words": [
         "[[nephews|nephews]].",
         "[[three|tres]]",
@@ -604,7 +604,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[aunt|aunt]] [[works|works]] [[in|en]] [[a|un/una]] [[hospital|hospital]].",
+      "correctSentence": "[[My aunt works in a hospital|Mi/mis aunt works en un/una hospital]].",
       "words": [
         "[[a|un/una]]",
         "[[hospital|hospital]].",
@@ -628,7 +628,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[are|son/están]] [[twins|twins]].",
+      "correctSentence": "[[They are twins|Ellos son/están twins]].",
       "words": [
         "[[twins|twins]].",
         "[[They|Ellos]]",
@@ -649,7 +649,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[is|es/está]] [[my|mi/mis]] [[only|only]] [[sister|hermana]].",
+      "correctSentence": "[[She is my only sister|Ella es/está mi/mis only hermana]].",
       "words": [
         "[[only|only]]",
         "[[my|mi/mis]]",
@@ -672,7 +672,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[husband|esposo]] [[is|es/está]] [[from|de/desde]] [[Canada|Canada]].",
+      "correctSentence": "[[My husband is from Canada|Mi/mis esposo es/está de/desde Canada]].",
       "words": [
         "[[husband|esposo]]",
         "[[from|de/desde]]",

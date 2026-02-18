@@ -89,7 +89,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Eso]] ([[be|ser/estar]]) _______ [[sunny|sunny]] [[today|hoy]].",
+          "question": "[[It today|Eso]] ([[be|ser/estar]]) _______ [[sunny|sunny hoy]].",
           "options": [
             "[[is|es/está]]",
             "[[to|a/para]]",
@@ -115,7 +115,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Eso]] ([[rain|rain]]) _______ [[a|un/una]] [[lot|lot]] [[in|en]] [[autumn|autumn]].",
+          "question": "[[It lot in autumn|Eso]] ([[rain|rain]]) _______ [[a|un/una lot en autumn]].",
           "options": [
             "[[it|eso]]",
             "[[rains|rains]]",
@@ -141,7 +141,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[not/like|not/like]]) _______ [[cold|frío]] [[weather|weather]].",
+          "question": "[[They weather|Ellos]] ([[not/like|not/like]]) _______ [[cold|frío weather]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -167,7 +167,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[What|Qué]] _______ [[the|el/la/los/las]] [[weather|weather]] [[like|gustar/como]]?",
+          "question": "[[What weather like|Qué]] _______ [[the|el/la/los/las weather gustar/como]]?",
           "options": [
             "[[to|a/para]]",
             "[[is|es/está]]",
@@ -193,7 +193,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Eso]] ([[be|ser/estar]]) _______ [[going|going]] [[to|a/para]] [[snow|snow]] [[tomorrow|mañana]].",
+          "question": "[[It to snow tomorrow|Eso]] ([[be|ser/estar]]) _______ [[going|going a/para snow mañana]].",
           "options": [
             "[[it|eso]]",
             "[[is|es/está]]",
@@ -219,7 +219,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[have|tener/haber]]) _______ [[a|un/una]] [[very|muy]] [[hot|caliente]] [[summer|summer]].",
+          "question": "[[We very hot summer|Nosotros]] ([[have|tener/haber]]) _______ [[a|un/una muy caliente summer]].",
           "options": [
             "[[had|had]]",
             "[[to|a/para]]",
@@ -245,7 +245,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Is|Es/está]] [[it|eso]] _______ ([[windy|windy]]) [[outside|outside]]?",
+          "question": "[[Is it|Es/está eso]] _______ ([[windy|windy]]) [[outside|outside]]?",
           "options": [
             "[[windy|windy]]",
             "[[to|a/para]]",
@@ -271,7 +271,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[be|ser/estar]]) _______ [[wearing|wearing]] [[a|un/una]] [[coat|coat]].",
+          "question": "[[I a coat|Yo]] ([[be|ser/estar]]) _______ [[wearing|wearing un/una coat]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -297,7 +297,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[be|ser/estar]]) _______ [[at|en]] [[the|el/la/los/las]] [[beach|playa]].",
+          "question": "[[They the beach|Ellos]] ([[be|ser/estar]]) _______ [[at|en el/la/los/las playa]].",
           "options": [
             "[[to|a/para]]",
             "[[are|son/están]]",
@@ -323,7 +323,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Eso]] ([[get|conseguir/obtener]]) _______ [[dark|dark]] [[early|early]] [[in|en]] [[winter|winter]].",
+          "question": "[[It early in winter|Eso]] ([[get|conseguir/obtener]]) _______ [[dark|dark early en winter]].",
           "options": [
             "[[to|a/para]]",
             "[[it|eso]]",
@@ -347,7 +347,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[weather|weather]] [[is|es/está]] [[beautiful|hermoso/a]] [[today|hoy]].",
+      "correctSentence": "[[The weather is beautiful today|El/la/los/las weather es/está hermoso/a hoy]].",
       "words": [
         "[[today|hoy]].",
         "[[beautiful|hermoso/a]]",
@@ -370,7 +370,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[love|love]] [[the|el/la/los/las]] [[flowers|flowers]] [[in|en]] [[spring|spring]].",
+      "correctSentence": "[[I love the flowers in spring|Yo love el/la/los/las flowers en spring]].",
       "words": [
         "[[flowers|flowers]]",
         "[[I|Yo]]",
@@ -394,7 +394,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[It's|It's]] [[very|muy]] [[cold|frío]] [[in|en]] [[the|el/la/los/las]] [[mountains|mountains]].",
+      "correctSentence": "[[It's very cold in the mountains|It's muy frío en el/la/los/las mountains]].",
       "words": [
         "[[It's|It's]]",
         "[[very|muy]]",
@@ -418,7 +418,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[What's|What's]] [[the|el/la/los/las]] [[temperature|temperature]] [[today|hoy]]?",
+      "correctSentence": "[[What's the temperature today|What's el/la/los/las temperature hoy]]?",
       "words": [
         "[[today|hoy]]?",
         "[[temperature|temperature]]",
@@ -440,7 +440,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[forecast|forecast]] [[says|says]] [[it|eso]] [[will|hará (futuro)]] [[rain|rain]] [[later|later]].",
+      "correctSentence": "[[The forecast says it will rain later|El/la/los/las forecast says eso hará (futuro) rain later]].",
       "words": [
         "[[later|later]].",
         "[[it|eso]]",
@@ -465,7 +465,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[prefer|prefer]] [[summer|summer]] [[to|a/para]] [[winter|winter]].",
+      "correctSentence": "[[I prefer summer to winter|Yo prefer summer a/para winter]].",
       "words": [
         "[[I|Yo]]",
         "[[summer|summer]]",
@@ -488,7 +488,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[It|Eso]] [[was|era/fue/estaba/estuvo]] [[very|muy]] [[windy|windy]] [[last|last]] [[night|noche]].",
+      "correctSentence": "[[It was very windy last night|Eso era/fue/estaba/estuvo muy windy last noche]].",
       "words": [
         "[[It|Eso]]",
         "[[was|era/fue/estaba/estuvo]]",
@@ -512,7 +512,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[had|had]] [[a|un/una]] [[big|grande]] [[storm|storm]] [[yesterday|ayer]].",
+      "correctSentence": "[[We had a big storm yesterday|Nosotros had un/una grande storm ayer]].",
       "words": [
         "[[big|grande]]",
         "[[yesterday|ayer]].",
@@ -536,7 +536,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Is|Es/está]] [[it|eso]] [[going|going]] [[to|a/para]] [[snow|snow]] [[this|este/esta]] [[weekend|weekend]]?",
+      "correctSentence": "[[Is it going to snow this weekend|Es/está eso going a/para snow este/esta weekend]]?",
       "words": [
         "[[to|a/para]]",
         "[[this|este/esta]]",
@@ -561,7 +561,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Autumn|Autumn]] [[is|es/está]] [[my|mi/mis]] [[favourite|favourite]] [[season|season]].",
+      "correctSentence": "[[Autumn is my favourite season|Autumn es/está mi/mis favourite season]].",
       "words": [
         "[[Autumn|Autumn]]",
         "[[is|es/está]]",
@@ -584,7 +584,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Don't|No]] [[forget|forget]] [[your|tu/tus]] [[umbrella|umbrella]]!",
+      "correctSentence": "[[Don't forget your umbrella|No forget tu/tus umbrella]]!",
       "words": [
         "[[Don't|No]]",
         "[[forget|forget]]",
@@ -606,7 +606,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[sun|sun]] [[is|es/está]] [[shining|shining]] [[brightly|brightly]].",
+      "correctSentence": "[[The sun is shining brightly|El/la/los/las sun es/está shining brightly]].",
       "words": [
         "[[shining|shining]]",
         "[[is|es/está]]",
@@ -629,7 +629,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[trees|trees]] [[lose|lose]] [[their|su (de ellos)]] [[leaves|leaves]] [[in|en]] [[autumn|autumn]].",
+      "correctSentence": "[[The trees lose their leaves in autumn|El/la/los/las trees lose su (de ellos) leaves en autumn]].",
       "words": [
         "[[in|en]]",
         "[[The|El/la/los/las]]",
@@ -654,7 +654,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[It's|It's]] [[too|demasiado/también]] [[hot|caliente]] [[to|a/para]] [[go|ir]] [[outside|outside]].",
+      "correctSentence": "[[It's too hot to go outside|It's demasiado/también caliente a/para ir outside]].",
       "words": [
         "[[to|a/para]]",
         "[[hot|caliente]]",
@@ -678,7 +678,7 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I'm|I'm]] [[wearing|wearing]] [[my|mi/mis]] [[warmest|warmest]] [[coat|coat]].",
+      "correctSentence": "[[I'm wearing my warmest coat|I'm wearing mi/mis warmest coat]].",
       "words": [
         "[[I'm|I'm]]",
         "[[wearing|wearing]]",

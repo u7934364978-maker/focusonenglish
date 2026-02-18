@@ -12,7 +12,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Educational Background",
       "instructions": "Order the words to describe a study path.",
-      "correctSentence": "[[She|Ella]] [[had|había]] [[been|estado]] [[studying|estudiando]] [[pedagogy|pedagogía]] [[for|durante]] [[three|tres]] [[years|años]] [[before|antes de que]] [[she|ella]] [[specialized.|se especializara.]]",
+      "correctSentence": "[[She had been studying pedagogy for three years before she specialized.|Ella había estado estudiando pedagogía durante tres años antes de que ella se especializara.]]",
       "words": ["[[studying|estudiando]]", "[[she|ella]]", "[[had|había]]", "[[specialized.|se especializara.]]", "[[pedagogy|pedagogía]]", "[[three|tres]]", "[[before|antes de que]]", "[[years|años]]", "[[been|estado]]", "[[for|durante]]", "[[She|Ella]]"],
       "explanation": "We use the Past Perfect Continuous to show the duration of an activity before another past event.",
       "audio": "audio/b2/unit-2/e1.mp3"
@@ -30,7 +30,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Exam Preparation",
       "instructions": "Order the words to talk about preparing for an exam.",
-      "correctSentence": "[[They|Ellos]] [[had|habían]] [[been|estado]] [[preparing|preparándose]] [[for|para]] [[the|el]] [[entrance|de entrada]] [[exam|examen]] [[all|todo el]] [[summer.|verano.]]",
+      "correctSentence": "[[They had been preparing for the entrance exam all summer.|Ellos habían estado preparándose para el de entrada examen todo el verano.]]",
       "words": ["[[preparing|preparándose]]", "[[entrance|de entrada]]", "[[exam|examen]]", "[[all|todo el]]", "[[had|habían]]", "[[summer.|verano.]]", "[[been|estado]]", "[[They|Ellos]]", "[[for|para]]", "[[the|el]]"],
       "explanation": "Past Perfect Continuous emphasizes the continuous effort leading up to a specific point.",
       "audio": "audio/b2/unit-2/e2.mp3"
@@ -48,7 +48,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Thesis Research",
       "instructions": "Order the words to describe a research process.",
-      "correctSentence": "[[I|Yo]] [[had|había]] [[been|estado]] [[researching|investigando]] [[my|mi]] [[thesis|tesis]] [[for|durante]] [[months|meses]] [[before|antes de]] [[finding|encontrar]] [[the|la]] [[key|clave]] [[reference.|referencia.]]",
+      "correctSentence": "[[I had been researching my thesis for months before finding the key reference.|Yo había estado investigando mi tesis durante meses antes de encontrar la clave referencia.]]",
       "words": ["[[thesis|tesis]]", "[[finding|encontrar]]", "[[had|había]]", "[[reference.|referencia.]]", "[[I|Yo]]", "[[researching|investigando]]", "[[key|clave]]", "[[months|meses]]", "[[before|antes de]]", "[[been|estado]]", "[[the|la]]", "[[for|durante]]"],
       "explanation": "The past perfect continuous describes a process that took place before a specific moment.",
       "audio": "audio/b2/unit-2/e3.mp3"
@@ -66,7 +66,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Teaching Career",
       "instructions": "Order the words to ask about work experience.",
-      "correctSentence": "[[How|¿Cuánto]] [[long|tiempo]] [[had|habías]] [[you|tú]] [[been|estado]] [[teaching|enseñando]] [[when|cuando]] [[you|tú]] [[got|fuiste]] [[promoted?|ascendido?]]",
+      "correctSentence": "[[How long had you been teaching when you got promoted?|¿Cuánto tiempo habías tú estado enseñando cuando tú fuiste ascendido?]]",
       "words": ["[[promoted?|ascendido?]]", "[[long|tiempo]]", "[[you|tú]]", "[[teaching|enseñando]]", "[[had|habías]]", "[[How|¿Cuánto]]", "[[when|cuando]]", "[[been|estado]]", "[[got|fuiste]]", "[[you|tú]]"],
       "explanation": "We use 'how long' with the past perfect continuous to ask about the duration of a past action.",
       "audio": "audio/b2/unit-2/e4.mp3"
@@ -84,7 +84,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Group Project",
       "instructions": "Order the words to describe student work.",
-      "correctSentence": "[[The|Los]] [[students|estudiantes]] [[had|habían]] [[been|estado]] [[working|trabajando]] [[on|en]] [[their|su]] [[project|proyecto]] [[for|durante]] [[an|una]] [[hour.|hora.]]",
+      "correctSentence": "[[The students had been working on their project for an hour.|Los estudiantes habían estado trabajando en su proyecto durante una hora.]]",
       "words": ["[[working|trabajando]]", "[[students|estudiantes]]", "[[hour.|hora.]]", "[[their|su]]", "[[had|habían]]", "[[The|Los]]", "[[project|proyecto]]", "[[on|en]]", "[[been|estado]]", "[[for|durante]]", "[[an|una]]"],
       "explanation": "Use 'for' to specify the duration of the action in the past perfect continuous.",
       "audio": "audio/b2/unit-2/e5.mp3"
@@ -102,7 +102,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Class Attendance",
       "instructions": "Order the words to talk about attendance habits.",
-      "correctSentence": "[[He|Él]] [[had|había]] [[not|no]] [[been|estado]] [[attending|asistiendo]] [[lectures|a clases]] [[regularly|regularmente]] [[before|antes de]] [[the|el]] [[exam.|examen.]]",
+      "correctSentence": "[[He had not been attending lectures regularly before the exam.|Él había no estado asistiendo a clases regularmente antes de el examen.]]",
       "words": ["[[attending|asistiendo]]", "[[exam.|examen.]]", "[[regularly|regularmente]]", "[[not|no]]", "[[had|había]]", "[[He|Él]]", "[[lectures|a clases]]", "[[before|antes de]]", "[[been|estado]]", "[[the|el]]"],
       "explanation": "Negative form of the past perfect continuous: had + not + been + -ing.",
       "audio": "audio/b2/unit-2/e6.mp3"
@@ -120,7 +120,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Curriculum Changes",
       "instructions": "Order the words to describe expectations.",
-      "correctSentence": "[[We|Nosotros]] [[had|habíamos]] [[been|estado]] [[expecting|esperando]] [[the|el]] [[new|nuevo]] [[curriculum|plan de estudios]] [[for|durante]] [[a|mucho]] [[long|tiempo]] [[time.| .]]",
+      "correctSentence": "[[We had been expecting the new curriculum for a long time.|Nosotros habíamos estado esperando el nuevo plan de estudios durante mucho tiempo  .]]",
       "words": ["[[expecting|esperando]]", "[[new|nuevo]]", "[[time.| .]]", "[[had|habíamos]]", "[[We|Nosotros]]", "[[curriculum|plan de estudios]]", "[[long|tiempo]]", "[[been|estado]]", "[[the|el]]", "[[for|durante]]", "[[a|mucho]]"],
       "explanation": "Past perfect continuous is often used with verbs like 'expecting' to show anticipation.",
       "audio": "audio/b2/unit-2/e7.mp3"
@@ -138,7 +138,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mastering Subjects",
       "instructions": "Order the words to talk about study effort.",
-      "correctSentence": "[[She|Ella]] [[had|había]] [[been|estado]] [[trying|intentando]] [[to| ]] [[master|dominar]] [[calculus|el cálculo]] [[all|todo el]] [[semester.|semestre.]]",
+      "correctSentence": "[[She had been trying to master calculus all semester.|Ella había estado intentando   dominar el cálculo todo el semestre.]]",
       "words": ["[[trying|intentando]]", "[[calculus|el cálculo]]", "[[semester.|semestre.]]", "[[had|había]]", "[[She|Ella]]", "[[master|dominar]]", "[[all|todo el]]", "[[been|estado]]", "[[to| ]]"],
       "explanation": "The past perfect continuous describes a continuous effort over a period of time.",
       "audio": "audio/b2/unit-2/e8.mp3"
@@ -156,7 +156,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Long Lectures",
       "instructions": "Order the words to describe a lecture.",
-      "correctSentence": "[[The|El]] [[professor|profesor]] [[had|había]] [[been|estado]] [[speaking|hablando]] [[for|durante]] [[an|una]] [[hour|hora]] [[before|antes de]] [[the|el]] [[break.|descanso.]]",
+      "correctSentence": "[[The professor had been speaking for an hour before the break.|El profesor había estado hablando durante una hora antes de el descanso.]]",
       "words": ["[[speaking|hablando]]", "[[hour|hora]]", "[[had|había]]", "[[break.|descanso.]]", "[[professor|profesor]]", "[[before|antes de]]", "[[been|estado]]", "[[The|El]]", "[[for|durante]]", "[[the|el]]", "[[an|una]]"],
       "explanation": "Describes a continuous action interrupted by another action (the break).",
       "audio": "audio/b2/unit-2/e9.mp3"
@@ -174,7 +174,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Presentation Practice",
       "instructions": "Order the words to talk about practice.",
-      "correctSentence": "[[They|Ellos]] [[had|habían]] [[been|estado]] [[practicing|practicando]] [[their|su]] [[presentation|presentación]] [[all|toda la]] [[morning.|mañana.]]",
+      "correctSentence": "[[They had been practicing their presentation all morning.|Ellos habían estado practicando su presentación toda la mañana.]]",
       "words": ["[[practicing|practicando]]", "[[morning.|mañana.]]", "[[their|su]]", "[[had|habían]]", "[[They|Ellos]]", "[[presentation|presentación]]", "[[all|toda la]]", "[[been|estado]]"],
       "explanation": "Use 'all morning' to emphasize the duration of the activity.",
       "audio": "audio/b2/unit-2/e10.mp3"
@@ -192,7 +192,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "PhD Applications",
       "instructions": "Order the words to describe academic plans.",
-      "correctSentence": "[[I|Yo]] [[had|había]] [[been|estado]] [[thinking|pensando]] [[about|en]] [[applying|solicitar]] [[for| ]] [[a|un]] [[PhD.|doctorado.]]",
+      "correctSentence": "[[I had been thinking about applying for a PhD.|Yo había estado pensando en solicitar   un doctorado.]]",
       "words": ["[[thinking|pensando]]", "[[PhD.|doctorado.]]", "[[had|había]]", "[[applying|solicitar]]", "[[I|Yo]]", "[[about|en]]", "[[for| ]]", "[[been|estado]]", "[[a|un]]"],
       "explanation": "Use 'think about' in the continuous form to describe a process of consideration.",
       "audio": "audio/b2/unit-2/e11.mp3"
@@ -210,7 +210,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Scholarship Search",
       "instructions": "Order the words to talk about seeking funding.",
-      "correctSentence": "[[She|Ella]] [[had|había]] [[been|estado]] [[looking|buscando]] [[for| ]] [[a|una]] [[scholarship|beca]] [[for|durante]] [[months.|meses.]]",
+      "correctSentence": "[[She had been looking for a scholarship for months.|Ella había estado buscando   una beca durante meses.]]",
       "words": ["[[looking|buscando]]", "[[months.|meses.]]", "[[had|había]]", "[[scholarship|beca]]", "[[She|Ella]]", "[[for| ]]", "[[for|durante]]", "[[been|estado]]", "[[a|una]]"],
       "explanation": "Past perfect continuous shows a search that continued up to a certain point.",
       "audio": "audio/b2/unit-2/e12.mp3"
@@ -228,7 +228,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Theoretical Debates",
       "instructions": "Order the words to describe a discussion.",
-      "correctSentence": "[[They|Ellos]] [[had|habían]] [[been|estado]] [[debating|debatiendo]] [[the|la]] [[theory|teoría]] [[for|durante]] [[hours|horas]] [[before|antes de]] [[agreeing.|llegar a un acuerdo.]]",
+      "correctSentence": "[[They had been debating the theory for hours before agreeing.|Ellos habían estado debatiendo la teoría durante horas antes de llegar a un acuerdo.]]",
       "words": ["[[debating|debatiendo]]", "[[agreeing.|llegar a un acuerdo.]]", "[[had|habían]]", "[[theory|teoría]]", "[[They|Ellos]]", "[[hours|horas]]", "[[before|antes de]]", "[[been|estado]]", "[[the|la]]", "[[for|durante]]"],
       "explanation": "Describes a long process of discussion before a result.",
       "audio": "audio/b2/unit-2/e13.mp3"
@@ -246,7 +246,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Campus Life",
       "instructions": "Order the words to talk about living arrangements.",
-      "correctSentence": "[[I|Yo]] [[had|había]] [[been|estado]] [[living|viviendo]] [[on|en el]] [[campus|campus]] [[for|durante]] [[a|un]] [[year|año]] [[when|cuando]] [[I|me]] [[moved|mudé]] [[out.|fuera.]]",
+      "correctSentence": "[[I had been living on campus for a year when I moved out.|Yo había estado viviendo en el campus durante un año cuando me mudé fuera.]]",
       "words": ["[[living|viviendo]]", "[[year|año]]", "[[had|había]]", "[[moved|mudé]]", "[[I|Yo]]", "[[campus|campus]]", "[[when|cuando]]", "[[been|estado]]", "[[on|en el]]", "[[for|durante]]", "[[a|un]]", "[[I|me]]", "[[out.|fuera.]]"],
       "explanation": "Use past perfect continuous for states or habits in the past.",
       "audio": "audio/b2/unit-2/e14.mp3"
@@ -264,7 +264,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Old Textbooks",
       "instructions": "Order the words to describe educational resources.",
-      "correctSentence": "[[We|Nosotros]] [[had|habíamos]] [[been|estado]] [[using|usando]] [[the|los]] [[same|mismos]] [[textbooks|libros de texto]] [[for|durante]] [[a|una]] [[decade.|década.]]",
+      "correctSentence": "[[We had been using the same textbooks for a decade.|Nosotros habíamos estado usando los mismos libros de texto durante una década.]]",
       "words": ["[[using|usando]]", "[[decade.|década.]]", "[[had|habíamos]]", "[[textbooks|libros de texto]]", "[[We|Nosotros]]", "[[same|mismos]]", "[[been|estado]]", "[[the|los]]", "[[for|durante]]", "[[a|una]]"],
       "explanation": "Emphasizes the duration of a situation that no longer exists.",
       "audio": "audio/b2/unit-2/e15.mp3"
@@ -282,7 +282,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Study Groups",
       "instructions": "Order the words to ask a question.",
-      "correctSentence": "[[Had|¿Habíais]] [[you|vosotros]] [[been|estado]] [[studying|estudiando]] [[together|juntos]] [[before|antes de]] [[the|el]] [[final|final]] [[exam?|examen?]]",
+      "correctSentence": "[[Had you been studying together before the final exam?|¿Habíais vosotros estado estudiando juntos antes de el final examen?]]",
       "words": ["[[studying|estudiando]]", "[[exam?|examen?]]", "[[together|juntos]]", "[[Had|¿Habíais]]", "[[you|vosotros]]", "[[final|final]]", "[[before|antes de]]", "[[been|estado]]", "[[the|el]]"],
       "explanation": "Question form of the past perfect continuous: Had + subject + been + -ing.",
       "audio": "audio/b2/unit-2/e16.mp3"
@@ -300,7 +300,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Library Services",
       "instructions": "Order the words to describe library support.",
-      "correctSentence": "[[The|La]] [[library|biblioteca]] [[had|había]] [[been|estado]] [[offering|ofreciendo]] [[online|en línea]] [[resources|recursos]] [[for|durante]] [[years.|años.]]",
+      "correctSentence": "[[The library had been offering online resources for years.|La biblioteca había estado ofreciendo en línea recursos durante años.]]",
       "words": ["[[offering|ofreciendo]]", "[[years.|años.]]", "[[had|había]]", "[[online|en línea]]", "[[library|biblioteca]]", "[[resources|recursos]]", "[[been|estado]]", "[[The|La]]", "[[for|durante]]"],
       "explanation": "Past perfect continuous describes a service that was provided over time.",
       "audio": "audio/b2/unit-2/e17.mp3"
@@ -318,7 +318,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Academic Grades",
       "instructions": "Order the words to talk about results.",
-      "correctSentence": "[[I|Yo]] [[had|había]] [[been|estado]] [[expecting|esperando]] [[a|una]] [[better|mejor]] [[grade|nota]] [[after|después de]] [[all|todo]] [[that|ese]] [[work.|trabajo.]]",
+      "correctSentence": "[[I had been expecting a better grade after all that work.|Yo había estado esperando una mejor nota después de todo ese trabajo.]]",
       "words": ["[[expecting|esperando]]", "[[work.|trabajo.]]", "[[had|había]]", "[[grade|nota]]", "[[I|Yo]]", "[[better|mejor]]", "[[all|todo]]", "[[after|después de]]", "[[been|estado]]", "[[a|una]]", "[[that|ese]]"],
       "explanation": "Expresses a past expectation based on prior continuous work.",
       "audio": "audio/b2/unit-2/e18.mp3"
@@ -336,7 +336,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Conference Notes",
       "instructions": "Order the words to describe note-taking.",
-      "correctSentence": "[[She|Ella]] [[had|había]] [[been|estado]] [[taking|tomando]] [[notes|apuntes]] [[all|durante]] [[through|toda]] [[the|la]] [[conference.|conferencia.]]",
+      "correctSentence": "[[She had been taking notes all through the conference.|Ella había estado tomando apuntes durante toda la conferencia.]]",
       "words": ["[[taking|tomando]]", "[[conference.|conferencia.]]", "[[had|había]]", "[[notes|apuntes]]", "[[She|Ella]]", "[[through|toda]]", "[[all|durante]]", "[[been|estado]]", "[[the|la]]"],
       "explanation": "Past perfect continuous shows an activity that lasted throughout an event.",
       "audio": "audio/b2/unit-2/e19.mp3"
@@ -354,7 +354,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "title": "Insufficient Effort",
       "instructions": "Order the words to talk about study effort.",
-      "correctSentence": "[[They|Ellos]] [[had|habían]] [[not|no]] [[been|estado]] [[working|trabajando]] [[hard|lo suficientemente]] [[enough|duro]] [[to|para]] [[pass.|aprobar.]]",
+      "correctSentence": "[[They had not been working hard enough to pass.|Ellos habían no estado trabajando lo suficientemente duro para aprobar.]]",
       "words": ["[[working|trabajando]]", "[[pass.|aprobar.]]", "[[enough|duro]]", "[[not|no]]", "[[had|habían]]", "[[They|Ellos]]", "[[hard|lo suficientemente]]", "[[to|para]]", "[[been|estado]]"],
       "explanation": "Negative past perfect continuous used to explain a past failure.",
       "audio": "audio/b2/unit-2/e20.mp3"

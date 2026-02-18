@@ -12,7 +12,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cambio climático",
       "instructions": "Ordena las palabras para hablar de un problema global.",
-      "correctSentence": "[[Climate|El cambio]] [[change|climático]] [[is|es]] [[one|uno]] [[of|de]] [[the|los]] [[most|desafíos]] [[pressing|más]] [[challenges|urgentes]] [[of|de]] [[our|nuestro]] [[time.|tiempo.]]",
+      "correctSentence": "[[Climate change is one of the most pressing challenges of our time.|El cambio climático es uno de los desafíos más urgentes de nuestro tiempo.]]",
       "words": [
         "[[change|climático]]",
         "[[most|desafíos]]",
@@ -42,7 +42,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Crisis energética",
       "instructions": "Ordena las palabras usando inversión negativa con 'Never before'.",
-      "correctSentence": "[[Never|Nunca]] [[before|antes]] [[has|el mundo]] [[the|se ha]] [[world|enfrentado]] [[faced|a]] [[such|una]] [[a|crisis]] [[severe|energética]] [[energy|tan]] [[crisis.|severa.]]",
+      "correctSentence": "[[Never before has the world faced such a severe energy crisis.|Nunca antes el mundo se ha enfrentado a una crisis energética tan severa.]]",
       "words": [
         "[[world|enfrentado]]",
         "[[energy|tan]]",
@@ -72,7 +72,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cooperación internacional",
       "instructions": "Ordena las palabras para hablar de soluciones globales.",
-      "correctSentence": "[[International|La cooperación]] [[cooperation|internacional]] [[is|es]] [[vital|vital]] [[to|para]] [[combat|combatir]] [[global|la pobreza]] [[poverty.|global.]]",
+      "correctSentence": "[[International cooperation is vital to combat global poverty.|La cooperación internacional es vital para combatir la pobreza global.]]",
       "words": [
         "[[cooperation|internacional]]",
         "[[poverty.|global.]]",
@@ -99,7 +99,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Acción gubernamental",
       "instructions": "Ordena las palabras usando el subjuntivo formal.",
-      "correctSentence": "[[It|Es]] [[is|esencial]] [[essential|que]] [[that|los]] [[governments|gobiernos]] [[take|tomen]] [[action|medidas]] [[against|contra]] [[pollution.|la contaminación.]]",
+      "correctSentence": "[[It is essential that governments take action against pollution.|Es esencial que los gobiernos tomen medidas contra la contaminación.]]",
       "words": [
         "[[governments|gobiernos]]",
         "[[essential|que]]",
@@ -127,7 +127,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Crisis de refugiados",
       "instructions": "Ordena las palabras para hablar de impacto humanitario.",
-      "correctSentence": "[[The|La]] [[refugee|crisis]] [[crisis|de refugiados]] [[has|ha]] [[placed|puesto]] [[a|a prueba]] [[strain| ]] [[on|los]] [[local|recursos]] [[resources.|locales.]]",
+      "correctSentence": "[[The refugee crisis has placed a strain on local resources.|La crisis de refugiados ha puesto a prueba   los recursos locales.]]",
       "words": [
         "[[crisis|de refugiados]]",
         "[[has|ha]]",
@@ -156,7 +156,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Tratado y conflicto",
       "instructions": "Ordena las palabras usando la inversión 'Scarcely'.",
-      "correctSentence": "[[Scarcely|Apenas]] [[had|se]] [[the|había]] [[treaty|firmado]] [[been|el]] [[signed|tratado]] [[when|cuando]] [[conflict|estalló]] [[broke|el]] [[out.|conflicto.]]",
+      "correctSentence": "[[Scarcely had the treaty been signed when conflict broke out.|Apenas se había firmado el tratado cuando estalló el conflicto.]]",
       "words": [
         "[[treaty|firmado]]",
         "[[signed|tratado]]",
@@ -185,7 +185,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Derecho al agua",
       "instructions": "Ordena las palabras para hablar de derechos básicos.",
-      "correctSentence": "[[Access|El acceso]] [[to|a]] [[clean|agua]] [[water|limpia]] [[is|es]] [[a|un]] [[fundamental|derecho]] [[human|humano]] [[right.|fundamental.]]",
+      "correctSentence": "[[Access to clean water is a fundamental human right.|El acceso a agua limpia es un derecho humano fundamental.]]",
       "words": [
         "[[water|limpia]]",
         "[[clean|agua]]",
@@ -213,7 +213,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Rol de la ONU",
       "instructions": "Ordena las palabras usando 'I'd rather' + past simple para preferencias sobre otros.",
-      "correctSentence": "[[I'd|Preferiría]] [[rather|que]] [[the|la]] [[UN|ONU]] [[took|tomara]] [[a|un]] [[more|papel]] [[active|más]] [[role|activo]] [[in|en]] [[the|las]] [[negotiations.|negociaciones.]]",
+      "correctSentence": "[[I'd rather the UN took a more active role in the negotiations.|Preferiría que la ONU tomara un papel más activo en las negociaciones.]]",
       "words": [
         "[[rather|que]]",
         "[[negotiations.|negociaciones.]]",
@@ -243,7 +243,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Desigualdad económica",
       "instructions": "Ordena las palabras para hablar de problemas socioeconómicos.",
-      "correctSentence": "[[Economic|La desigualdad]] [[inequality|económica]] [[continues|continúa]] [[to|aumentando]] [[widen| ]] [[in|en]] [[many|muchas]] [[developing|naciones]] [[nations.|en desarrollo.]]",
+      "correctSentence": "[[Economic inequality continues to widen in many developing nations.|La desigualdad económica continúa aumentando   en muchas naciones en desarrollo.]]",
       "words": [
         "[[inequality|económica]]",
         "[[developing|naciones]]",
@@ -271,7 +271,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Nivel del mar",
       "instructions": "Ordena las palabras usando 'Supposing' para hipótesis.",
-      "correctSentence": "[[Supposing|Suponiendo]] [[the|que]] [[sea|los niveles]] [[levels|del mar]] [[rose,|subieran,]] [[which|¿qué]] [[cities|ciudades]] [[would|se]] [[be|inundarían?]] [[flooded?| ]]",
+      "correctSentence": "[[Supposing the sea levels rose, which cities would be flooded?|Suponiendo que los niveles del mar subieran, ¿qué ciudades se inundarían?  ]]",
       "words": [
         "[[sea|los niveles]]",
         "[[flooded?| ]]",
@@ -300,7 +300,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Biodiversidad",
       "instructions": "Ordena las palabras para hablar de ecología.",
-      "correctSentence": "[[Biodiversity|La pérdida]] [[loss|de biodiversidad]] [[threatens|amenaza]] [[the|la]] [[stability|estabilidad]] [[of|de]] [[our|nuestros]] [[global|ecosistemas]] [[ecosystems.|globales.]]",
+      "correctSentence": "[[Biodiversity loss threatens the stability of our global ecosystems.|La pérdida de biodiversidad amenaza la estabilidad de nuestros ecosistemas globales.]]",
       "words": [
         "[[loss|de biodiversidad]]",
         "[[stability|estabilidad]]",
@@ -328,7 +328,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Emisiones de carbono",
       "instructions": "Ordena las palabras usando inversión con 'Only by'.",
-      "correctSentence": "[[Only|Solo]] [[by|reduciendo]] [[reducing|las emisiones]] [[carbon|de]] [[emissions|carbono]] [[will|lograremos]] [[we|frenar]] [[slow|el]] [[down|calentamiento.]] [[warming.| ]]",
+      "correctSentence": "[[Only by reducing carbon emissions will we slow down warming.|Solo reduciendo las emisiones de carbono lograremos frenar el calentamiento.  ]]",
       "words": [
         "[[carbon|de]]",
         "[[warming.| ]]",
@@ -357,7 +357,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Seguridad alimentaria",
       "instructions": "Ordena las palabras para hablar de suministros básicos.",
-      "correctSentence": "[[Food|La seguridad]] [[security|alimentaria]] [[is|se ve]] [[compromised|comprometida]] [[by|por]] [[extreme|eventos]] [[weather|climáticos]] [[events|extremos]] [[and|y]] [[war.|la guerra.]]",
+      "correctSentence": "[[Food security is compromised by extreme weather events and war.|La seguridad alimentaria se ve comprometida por eventos climáticos extremos y la guerra.]]",
       "words": [
         "[[security|alimentaria]]",
         "[[extreme|eventos]]",
@@ -386,7 +386,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cumplimiento del acuerdo",
       "instructions": "Ordena las palabras usando 'Providing that'.",
-      "correctSentence": "[[Providing|Siempre]] [[that|que]] [[countries|los países]] [[stick|cumplan]] [[to|con]] [[the|el]] [[agreement,|acuerdo,]] [[progress|el progreso]] [[is|es]] [[possible.|posible.]]",
+      "correctSentence": "[[Providing that countries stick to the agreement, progress is possible.|Siempre que los países cumplan con el acuerdo, el progreso es posible.]]",
       "words": [
         "[[countries|los países]]",
         "[[agreement,|acuerdo,]]",
@@ -415,7 +415,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Trata de personas",
       "instructions": "Ordena las palabras para hablar de derechos humanos.",
-      "correctSentence": "[[Human|La trata]] [[trafficking|de personas]] [[remains|sigue siendo]] [[a|una]] [[horrific|horrible]] [[violation|violación]] [[of|de]] [[basic|derechos]] [[rights.|básicos.]]",
+      "correctSentence": "[[Human trafficking remains a horrific violation of basic rights.|La trata de personas sigue siendo una horrible violación de derechos básicos.]]",
       "words": [
         "[[trafficking|de personas]]",
         "[[violation|violación]]",
@@ -443,7 +443,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ayuda inmediata",
       "instructions": "Ordena las palabras usando inversión con 'No sooner'.",
-      "correctSentence": "[[No|Apenas]] [[sooner|había]] [[had|comenzado]] [[the|la]] [[crisis|crisis]] [[started|cuando]] [[than|llegó]] [[aid|la]] [[arrived.|ayuda.]]",
+      "correctSentence": "[[No sooner had the crisis started than aid arrived.|Apenas había comenzado la crisis cuando llegó la ayuda.]]",
       "words": [
         "[[had|comenzado]]",
         "[[crisis|crisis]]",
@@ -471,7 +471,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Recursos naturales",
       "instructions": "Ordena las palabras para hablar de sostenibilidad.",
-      "correctSentence": "[[The|El]] [[depletion|agotamiento]] [[of|de]] [[natural|los recursos]] [[resources|naturales]] [[is|está]] [[reaching|llegando]] [[a|a un]] [[tipping|punto]] [[point.|crítico.]]",
+      "correctSentence": "[[The depletion of natural resources is reaching a tipping point.|El agotamiento de los recursos naturales está llegando a un punto crítico.]]",
       "words": [
         "[[depletion|agotamiento]]",
         "[[natural|los recursos]]",
@@ -500,7 +500,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pandemia y prevención",
       "instructions": "Ordena las palabras usando inversión en el tercer condicional.",
-      "correctSentence": "[[Had|Si]] [[the|el]] [[world|mundo]] [[acted|hubiera]] [[earlier,|actuado antes,]] [[the|la]] [[pandemic|pandemia]] [[could|podría]] [[have|haber]] [[been|sido]] [[contained.|contenida.]]",
+      "correctSentence": "[[Had the world acted earlier, the pandemic could have been contained.|Si el mundo hubiera actuado antes, la pandemia podría haber sido contenida.]]",
       "words": [
         "[[world|mundo]]",
         "[[acted|hubiera]]",
@@ -530,7 +530,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Desarrollo sostenible",
       "instructions": "Ordena las palabras para hablar de futuro económico.",
-      "correctSentence": "[[Sustainable|El desarrollo]] [[development|sostenible]] [[aims|aspira]] [[to|a]] [[balance|equilibrar]] [[growth|el crecimiento]] [[with|con]] [[conservation.|la conservación.]]",
+      "correctSentence": "[[Sustainable development aims to balance growth with conservation.|El desarrollo sostenible aspira a equilibrar el crecimiento con la conservación.]]",
       "words": [
         "[[development|sostenible]]",
         "[[growth|el crecimiento]]",
@@ -557,7 +557,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Consumo de energía",
       "instructions": "Ordena las palabras usando el subjuntivo tras 'recommended'.",
-      "correctSentence": "[[It|Se]] [[is|recomienda]] [[recommended|que]] [[that|los]] [[citizens|ciudadanos]] [[reduce|reduzcan]] [[their|su]] [[energy|consumo]] [[consumption.|de energía.]]",
+      "correctSentence": "[[It is recommended that citizens reduce their energy consumption.|Se recomienda que los ciudadanos reduzcan su consumo de energía.]]",
       "words": [
         "[[recommended|que]]",
         "[[energy|consumo]]",
@@ -585,7 +585,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ayuda humanitaria",
       "instructions": "Ordena las palabras para hablar de misiones de rescate.",
-      "correctSentence": "[[The|La]] [[humanitarian|misión]] [[aid|de ayuda]] [[mission|humanitaria]] [[provided|proporcionó]] [[relief|alivio]] [[to|a]] [[the|las]] [[victims.|víctimas.]]",
+      "correctSentence": "[[The humanitarian aid mission provided relief to the victims.|La misión de ayuda humanitaria proporcionó alivio a las víctimas.]]",
       "words": [
         "[[humanitarian|misión]]",
         "[[relief|alivio]]",
@@ -613,7 +613,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Unidad global",
       "instructions": "Ordena las palabras usando inversión negativa con 'Never'.",
-      "correctSentence": "[[Never|Nunca]] [[have|he]] [[I|visto]] [[seen|una]] [[a|necesidad]] [[more|más]] [[urgent|urgente]] [[need|de]] [[for|unidad]] [[global|global.]] [[unity.| ]]",
+      "correctSentence": "[[Never have I seen a more urgent need for global unity.|Nunca he visto una necesidad más urgente de unidad global.  ]]",
       "words": [
         "[[seen|una]]",
         "[[urgent|urgente]]",
@@ -643,7 +643,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Urbanización",
       "instructions": "Ordena las palabras para hablar de desarrollo urbano.",
-      "correctSentence": "[[Urbanization|La urbanización]] [[leads|provoca]] [[to|cambios]] [[significant|significativos]] [[changes|en los]] [[in|patrones]] [[land|de uso]] [[use|del]] [[patterns.|suelo.]]",
+      "correctSentence": "[[Urbanization leads to significant changes in land use patterns.|La urbanización provoca cambios significativos en los patrones de uso del suelo.]]",
       "words": [
         "[[significant|significativos]]",
         "[[land|de uso]]",
@@ -671,7 +671,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Energías renovables",
       "instructions": "Ordena las palabras usando inversión en el segundo condicional.",
-      "correctSentence": "[[Were|Si]] [[they|invirtieran]] [[to|más]] [[invest|en]] [[more|renovables,]] [[in|los]] [[renewables,|costes]] [[costs|bajarían.]] [[would| ]] [[decrease.| ]]",
+      "correctSentence": "[[Were they to invest more in renewables, costs would decrease.|Si invirtieran más en renovables, los costes bajarían.    ]]",
       "words": [
         "[[more|renovables,]]",
         "[[costs|bajarían.]]",
@@ -700,7 +700,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "content": {
       "title": "Envejecimiento social",
       "instructions": "Ordena las palabras para hablar de demografía.",
-      "correctSentence": "[[Societal|El envejecimiento]] [[aging|social]] [[presents|presenta]] [[a|un]] [[major|gran]] [[challenge|desafío]] [[for|para]] [[welfare|los sistemas]] [[systems.|de bienestar.]]",
+      "correctSentence": "[[Societal aging presents a major challenge for welfare systems.|El envejecimiento social presenta un gran desafío para los sistemas de bienestar.]]",
       "words": [
         "[[aging|social]]",
         "[[challenge|desafío]]",
@@ -732,7 +732,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la tala masiva de bosques.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[a|un]] [[major|gran]] [[contributor|contribuyente]] [[to|al]] [[global|calentamiento]] [[warming.|global.]]",
+          "question": "_______ [[is a major contributor to global warming.|es un gran contribuyente al calentamiento global.]]",
           "options": ["[[Deforestation|La deforestación]]", "[[Afforestation|La reforestación]]", "[[Irrigation|El riego]]"],
           "correctAnswer": 0,
           "explanation": "La deforestación implica la eliminación de bosques para otros usos del suelo.",
@@ -755,7 +755,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra adecuada para completar la inversión con 'Little'.",
       "questions": [
         {
-          "question": "[[Little|Poco]] _______ [[they|sabían]] [[know| ]] [[that|que]] [[the|los niveles]] [[sea|del mar]] [[levels|estaban]] [[were|subiendo]] [[rising|tan]] [[so|rápido.]] [[fast.| ]]",
+          "question": "[[Little know that the sea levels were rising so fast.|Poco]] _______ [[they|sabían   que los niveles del mar estaban subiendo tan rápido.  ]]",
           "options": ["[[did|sabían]]", "[[had|habían]]", "[[do|sabe]]"],
           "correctAnswer": 0,
           "explanation": "Uso de 'Little did + sujeto + infinitivo' para expresar falta de conocimiento total en el pasado.",
@@ -778,7 +778,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa 'debilitar' o 'socavar'.",
       "questions": [
         {
-          "question": "[[Corruption|La corrupción]] _______ [[the|el]] [[development|desarrollo]] [[of|de]] [[a|una]] [[fair|sociedad]] [[society.|justa.]]",
+          "question": "[[Corruption development of a fair society.|La corrupción]] _______ [[the|el desarrollo de una sociedad justa.]]",
           "options": ["[[supports|apoya]]", "[[undermines|socava]]", "[[strengthens|fortalece]]"],
           "correctAnswer": 1,
           "explanation": "'Undermine' significa debilitar algo gradualmente o hacerlo menos efectivo.",
@@ -801,7 +801,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para arrepentimiento tras 'If only'.",
       "questions": [
         {
-          "question": "[[If|Ojalá]] [[only| ]] [[we|hubiéramos]] _______ [[started|empezado]] [[using|a usar]] [[green|energía]] [[energy|verde]] [[decades|hace]] [[ago.|décadas.]]",
+          "question": "[[If only we using decades ago.|Ojalá   hubiéramos]] _______ [[started green energy|empezado a usar energía verde hace décadas.]]",
           "options": ["[[did|hicimos]]", "[[had|hubiéramos]]", "[[have|habíamos]]"],
           "correctAnswer": 1,
           "explanation": "'If only' + past perfect expresa un fuerte deseo sobre algo que no ocurrió en el pasado.",
@@ -824,7 +824,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que significa 'que afecta a mucha gente o áreas'.",
       "questions": [
         {
-          "question": "[[Pandemics|Las pandemias]] [[can|pueden]] [[cause|causar]] _______ [[social|disrupción]] [[and|social]] [[economic|y]] [[disruption.|económica generalizada.]]",
+          "question": "[[Pandemics can cause and|Las pandemias pueden causar]] _______ [[social economic disruption.|disrupción social y económica generalizada.]]",
           "options": ["[[widespread|generalizada]]", "[[narrow|estrecha]]", "[[limited|limitada]]"],
           "correctAnswer": 0,
           "explanation": "'Widespread' describe algo que se extiende por una zona amplia o entre mucha gente.",
@@ -847,7 +847,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del subjuntivo para un deseo sobre el presente.",
       "questions": [
         {
-          "question": "[[I|Ojalá]] [[wish| ]] [[countries|los países]] _______ [[more|estuvieran]] [[willing|más]] [[to|dispuestos]] [[share|a compartir]] [[resources.|recursos.]]",
+          "question": "[[I wish countries willing resources.|Ojalá   los países]] _______ [[more to share|estuvieran más dispuestos a compartir recursos.]]",
           "options": ["[[are|están]]", "[[were|estuvieran]]", "[[be|estar]]"],
           "correctAnswer": 1,
           "explanation": "Tras 'I wish', se usa 'were' para expresar un deseo sobre una situación presente que es diferente.",
@@ -870,7 +870,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige el sustantivo que significa 'falta de algo'.",
       "questions": [
         {
-          "question": "[[The|La]] _______ [[of|de]] [[resources|recursos]] [[is|es]] [[a|una]] [[major|causa]] [[cause|principal]] [[of|de]] [[geopolitical|tensión]] [[tension.|geopolítica.]]",
+          "question": "[[The resources is a major cause of geopolitical tension.|La]] _______ [[of|de recursos es una causa principal de tensión geopolítica.]]",
           "options": ["[[abundance|abundancia]]", "[[scarcity|escasez]]", "[[surplus|superávit]]"],
           "correctAnswer": 1,
           "explanation": "'Scarcity' es la situación en la que no hay suficiente cantidad de algo necesario.",
@@ -893,7 +893,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta tras 'I'd rather' para otra persona.",
       "questions": [
         {
-          "question": "[[I'd|Preferiría]] [[rather|que]] [[you|no]] _______ [[so|desperdiciaras]] [[much|tanta]] [[water|agua]] [[during|durante]] [[the|la]] [[drought.|sequía.]]",
+          "question": "[[I'd rather you much the drought.|Preferiría que no]] _______ [[so water during|desperdiciaras tanta agua durante la sequía.]]",
           "options": ["[[didn't|desperdiciaras]]", "[[not|no]]", "[[don't|desperdicies]]"],
           "correctAnswer": 0,
           "explanation": "Con un sujeto distinto, usamos past simple para una preferencia sobre el presente.",
@@ -916,7 +916,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa 'hacer algo peor'.",
       "questions": [
         {
-          "question": "[[Famine|La hambruna]] [[is|se ve]] [[often|a menudo]] _______ [[by|por]] [[war|la guerra]] [[and|y]] [[political|la inestabilidad]] [[instability.|política.]]",
+          "question": "[[Famine is often war instability.|La hambruna se ve a menudo]] _______ [[by and political|por la guerra y la inestabilidad política.]]",
           "options": ["[[exacerbated|exacerbada]]", "[[alleviated|aliviada]]", "[[improved|mejorada]]"],
           "correctAnswer": 0,
           "explanation": "'Exacerbate' significa hacer que un problema o situación mala sea aún peor.",
@@ -939,7 +939,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra adecuada para la inversión con 'Hardly'.",
       "questions": [
         {
-          "question": "[[Hardly|Apenas]] _______ [[the|se]] [[announcement|había]] [[been|hecho]] [[made|el]] [[when|anuncio]] [[protests|cuando]] [[began.|comenzaron las protestas.]]",
+          "question": "[[Hardly announcement been made when protests began.|Apenas]] _______ [[the|se había hecho el anuncio cuando comenzaron las protestas.]]",
           "options": ["[[did|hizo]]", "[[has|ha]]", "[[had|había]]"],
           "correctAnswer": 2,
           "explanation": "'Hardly' al inicio de frase requiere inversión del auxiliar (had) y el sujeto.",
@@ -962,7 +962,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige el sustantivo que significa 'uso injusto de algo o alguien'.",
       "questions": [
         {
-          "question": "[[The|La]] _______ [[of|de]] [[labor|mano de obra]] [[is|es]] [[a|un]] [[serious|problema]] [[human|serio]] [[rights|de derechos]] [[issue.|humanos.]]",
+          "question": "[[The labor is a serious human rights issue.|La]] _______ [[of|de mano de obra es un problema serio de derechos humanos.]]",
           "options": ["[[exploitation|explotación]]", "[[appreciation|apreciación]]", "[[evaluation|evaluación]]"],
           "correctAnswer": 0,
           "explanation": "'Exploitation' es el acto de tratar a alguien de forma injusta para beneficiarse de su trabajo.",
@@ -985,7 +985,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para el subjuntivo formal.",
       "questions": [
         {
-          "question": "[[It|Es]] [[is|vital]] [[vital|que]] [[that|la]] [[aid|ayuda]] _______ [[the|llegue a]] [[disaster|la zona]] [[zone|del]] [[quickly.|desastre rápidamente.]]",
+          "question": "[[It is vital that aid disaster zone quickly.|Es vital que la ayuda]] _______ [[the|llegue a la zona del desastre rápidamente.]]",
           "options": ["[[reach|llegue]]", "[[reaches|llega]]", "[[reaching|llegando]]"],
           "correctAnswer": 0,
           "explanation": "Tras 'vital that', el verbo se usa en su forma base (reach) para el subjuntivo.",
@@ -1008,7 +1008,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la falta de nutrición adecuada.",
       "questions": [
         {
-          "question": "_______ [[is|La desnutrición]] [[a|es]] [[significant|un]] [[problem|problema]] [[in|importante]] [[impoverished|en regiones]] [[regions.|empobrecidas.]]",
+          "question": "_______ [[is a significant problem in impoverished regions.|La desnutrición es un problema importante en regiones empobrecidas.]]",
           "options": ["[[Malnutrition|La desnutrición]]", "[[Dehydration|La deshidratación]]", "[[Inflammation|La inflamación]]"],
           "correctAnswer": 0,
           "explanation": "'Malnutrition' ocurre cuando el cuerpo no recibe suficientes nutrientes.",
@@ -1031,7 +1031,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para completar la inversión del segundo condicional.",
       "questions": [
         {
-          "question": "_______ [[they|Si]] [[to|ellos]] [[reduce|redujeran]] [[tariffs,|los aranceles,]] [[global|el comercio]] [[trade|global]] [[would|aumentaría.]] [[increase.| ]]",
+          "question": "_______ [[they to reduce tariffs, global trade would increase.|Si ellos redujeran los aranceles, el comercio global aumentaría.  ]]",
           "options": ["[[Did|Hizo]]", "[[Was|Era]]", "[[Were|Si]]"],
           "correctAnswer": 2,
           "explanation": "Inversión con 'Were + sujeto + to + infinitivo' para hipótesis formales.",
@@ -1054,7 +1054,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que se usa con sanciones.",
       "questions": [
         {
-          "question": "[[Sanctions|Se]] [[were|impusieron]] _______ [[on|sanciones]] [[the|al]] [[country|país]] [[to|para]] [[pressure|presionar]] [[its|a su]] [[government.|gobierno.]]",
+          "question": "[[Sanctions were country to pressure its government.|Se impusieron]] _______ [[on the|sanciones al país para presionar a su gobierno.]]",
           "options": ["[[imposed|impusieron]]", "[[exposed|expusieron]]", "[[composed|compusieron]]"],
           "correctAnswer": 0,
           "explanation": "'Impose sanctions' es la colocación (collocation) habitual para aplicar castigos económicos o políticos.",
@@ -1077,7 +1077,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del subjuntivo tras 'suggest'.",
       "questions": [
         {
-          "question": "[[I|Sugiero]] [[suggest|que]] [[that|el]] [[the|diplomático]] _______ [[a|presente]] [[new|una]] [[proposal.|nueva propuesta.]]",
+          "question": "[[I suggest that the|Sugiero que el diplomático]] _______ [[a new proposal.|presente una nueva propuesta.]]",
           "options": ["[[present|presente]]", "[[presenting|presentando]]", "[[presents|presenta]]"],
           "correctAnswer": 0,
           "explanation": "Tras 'suggest that', el verbo va en forma base (present) en inglés formal.",
@@ -1100,7 +1100,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para personas obligadas a dejar su hogar.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[of|de]] [[people|personas]] [[is|es]] [[a|una]] [[tragic|trágica]] [[consequence|consecuencia]] [[of|de la]] [[war.|guerra.]]",
+          "question": "[[The people is a tragic consequence of war.|El]] _______ [[of|de personas es una trágica consecuencia de la guerra.]]",
           "options": ["[[displacement|desplazamiento]]", "[[replacement|reemplazo]]", "[[arrangement|arreglo]]"],
           "correctAnswer": 0,
           "explanation": "'Displacement' es el hecho de ser obligado a abandonar el lugar donde vives.",
@@ -1123,7 +1123,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector condicional formal.",
       "questions": [
         {
-          "question": "_______ [[they|siempre]] [[reach|que]] [[an|lleguen a]] [[agreement,|un acuerdo,]] [[the|el]] [[ceasefire|alto el fuego]] [[will|se]] [[hold.|mantendrá.]]",
+          "question": "_______ [[they reach an agreement, the ceasefire will hold.|siempre que lleguen a un acuerdo, el alto el fuego se mantendrá.]]",
           "options": ["[[Providing|Siempre que]]", "[[Unless|A menos que]]", "[[Whether|Si (elección)]]"],
           "correctAnswer": 0,
           "explanation": "'Providing' se usa para indicar una condición necesaria.",
@@ -1146,7 +1146,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una prohibición comercial.",
       "questions": [
         {
-          "question": "_______ [[can|Los embargos]] [[severely|pueden]] [[impact|afectar]] [[a|gravemente]] [[nation's|la economía]] [[economy.|de una nación.]]",
+          "question": "_______ [[can severely impact a nation's economy.|Los embargos pueden afectar gravemente la economía de una nación.]]",
           "options": ["[[Embargoes|Los embargos]]", "[[Cargoes|Los cargamentos]]", "[[Echoes|Los ecos]]"],
           "correctAnswer": 0,
           "explanation": "Un 'embargo' es una orden oficial que prohíbe el comercio con un país específico.",
@@ -1169,7 +1169,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para completar la inversión con 'Not until'.",
       "questions": [
         {
-          "question": "[[Not|No]] [[until|fue]] [[the|hasta]] [[crisis|que la]] [[worsened|crisis empeoró]] _______ [[the|cuando]] [[world|el mundo]] [[take|se]] [[notice.|dio cuenta.]]",
+          "question": "[[Not until the crisis worsened world take notice.|No fue hasta que la crisis empeoró]] _______ [[the|cuando el mundo se dio cuenta.]]",
           "options": ["[[did|hizo]]", "[[does|hace]]", "[[had|había]]"],
           "correctAnswer": 0,
           "explanation": "Tras 'Not until + frase', se invierte el sujeto y el auxiliar (did) en la cláusula principal.",
@@ -1192,7 +1192,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para personas que buscan refugio.",
       "questions": [
         {
-          "question": "[[Asylum|Los solicitantes]] _______ [[are|de asilo]] [[looking|buscan]] [[for|protección]] [[protection|contra]] [[from|la]] [[persecution.|persecución.]]",
+          "question": "[[Asylum looking for protection from persecution.|Los solicitantes]] _______ [[are|de asilo buscan protección contra la persecución.]]",
           "options": ["[[seekers|buscadores]]", "[[keepers|guardianes]]", "[[speakers|hablantes]]"],
           "correctAnswer": 0,
           "explanation": "'Asylum seekers' son personas que han dejado su país y buscan protección legal en otro.",
@@ -1215,7 +1215,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma del futuro perfecto.",
       "questions": [
         {
-          "question": "[[By|Para]] [[2050,|2050,]] [[the|el]] [[world|mundo]] _______ [[transitioned|habrá transitado]] [[to|a]] [[cleaner|energía]] [[energy.|más limpia.]]",
+          "question": "[[By 2050, the world|Para 2050, el mundo]] _______ [[transitioned to cleaner energy.|habrá transitado a energía más limpia.]]",
           "options": ["[[will do|hará]]", "[[will be|estará]]", "[[will have|habrá]]"],
           "correctAnswer": 2,
           "explanation": "Future perfect (will have + participio) para acciones que habrán terminado en un punto del futuro.",
@@ -1238,7 +1238,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el autogobierno de una nación.",
       "questions": [
         {
-          "question": "_______ [[is|La soberanía]] [[the|es]] [[power|el]] [[of|poder]] [[a|de]] [[country|un]] [[to|país]] [[govern|para]] [[itself.|gobernarse a sí mismo.]]",
+          "question": "_______ [[is the power of a country to govern itself.|La soberanía es el poder de un país para gobernarse a sí mismo.]]",
           "options": ["[[Sovereignty|La soberanía]]", "[[Dependency|La dependencia]]", "[[Autocracy|La autocracia]]"],
           "correctAnswer": 0,
           "explanation": "'Sovereignty' es el derecho de un país a tener el control total sobre sus asuntos.",
@@ -1261,7 +1261,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal adecuada tras 'Suppose'.",
       "questions": [
         {
-          "question": "[[Suppose|Imagina]] [[the|que]] [[polar|los casquetes]] [[ice|polares]] [[caps|se]] _______ [[how|¿cuánto]] [[much|subiría]] [[would|el]] [[sea|nivel]] [[levels|del]] [[rise?|mar?]]",
+          "question": "[[Suppose the polar ice caps much would sea|Imagina que los casquetes polares se]] _______ [[how levels rise?|¿cuánto subiría el nivel del mar?]]",
           "options": ["[[will melt|derretirán]]", "[[melt|derriten]]", "[[melted|derritieran]]"],
           "correctAnswer": 2,
           "explanation": "'Suppose' se sigue de past simple para situaciones imaginarias.",
@@ -1284,7 +1284,7 @@ export const UNIT_13_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una rebelión armada.",
       "questions": [
         {
-          "question": "[[An|Una]] _______ [[is|es]] [[a|una]] [[rebellion|rebelión]] [[against|contra]] [[an|una]] [[authority|autoridad]] [[or|o]] [[government.|gobierno.]]",
+          "question": "[[An a rebellion against an authority or government.|Una]] _______ [[is|es una rebelión contra una autoridad o gobierno.]]",
           "options": ["[[insurgency|insurgencia]]", "[[emergency|emergencia]]", "[[agency|agencia]]"],
           "correctAnswer": 0,
           "explanation": "Una 'insurgency' es un movimiento de rebelión armada contra un gobierno establecido.",

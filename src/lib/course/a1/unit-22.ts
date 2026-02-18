@@ -15,7 +15,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el demostrativo correcto para algo cercano y singular.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[my|mi]] [[computer|ordenador]] ([[here|aquí]]).",
+          "question": "_______ [[is my computer|es mi ordenador]] ([[here|aquí]]).",
           "options": ["[[This|Este/Esta]]", "[[That|Ese/Esa]]", "[[Those|Esos/Esas]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'This' para un objeto singular que está cerca."
@@ -37,7 +37,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el demostrativo correcto para algo lejano y singular.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[a|un]] [[beautiful|hermoso]] [[painting|cuadro]] [[over there|allí]].",
+          "question": "_______ [[is a beautiful painting over there|es un hermoso cuadro allí]].",
           "options": ["[[This|Este/Esta]]", "[[That|Ese/Esa]]", "[[These|Estos/Estas]]"],
           "correctAnswer": 1,
           "explanation": "Usamos 'That' para un objeto singular que está lejos."
@@ -59,7 +59,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el demostrativo correcto para plural cercano.",
       "questions": [
         {
-          "question": "_______ [[are|son]] [[my|mis]] [[keys|llaves]] ([[here|aquí]]).",
+          "question": "_______ [[are my keys|son mis llaves]] ([[here|aquí]]).",
           "options": ["[[This|Este]]", "[[These|Estos]]", "[[Those|Esos]]"],
           "correctAnswer": 1,
           "explanation": "Usamos 'These' para objetos plurales que están cerca."
@@ -81,7 +81,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el demostrativo correcto para plural lejano.",
       "questions": [
         {
-          "question": "_______ [[glasses|gafas]] [[are|son]] [[expensive|caras]] ([[there|allí]]).",
+          "question": "_______ [[glasses are expensive|gafas son caras]] ([[there|allí]]).",
           "options": ["[[These|Estas]]", "[[Those|Esas]]", "[[This|Esta]]"],
           "correctAnswer": 1,
           "explanation": "Usamos 'Those' para objetos plurales que están lejos."
@@ -103,7 +103,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Indica posesión.",
       "questions": [
         {
-          "question": "[[It|Ello]] [[is|es]] [[Maria|María]]_______ [[watch|reloj]].",
+          "question": "[[It is Maria|Ello es María]]_______ [[watch|reloj]].",
           "options": ["[['s|de (posesivo)]]", "[[s|plural]]", "[[is|es]]"],
           "correctAnswer": 0,
           "explanation": "Añadimos 's al nombre del poseedor para indicar propiedad."
@@ -125,7 +125,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el objeto correcto.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[eat|como]] [[soup|sopa]] [[with|con]] [[a|una]] _______.",
+          "question": "[[I eat soup with a|Yo como sopa con una]] _______.",
           "options": ["[[fork|tenedor]]", "[[spoon|cuchara]]", "[[knife|cuchillo]]"],
           "correctAnswer": 1,
           "explanation": "Usamos una cuchara (spoon) para la sopa."
@@ -147,7 +147,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el objeto adecuado.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesito]] [[a|una]] _______. [[It's|Hace]] [[cold|frío]].",
+          "question": "[[I need a cold|Yo necesito una]] _______. [[It's|Hace frío]].",
           "options": ["[[blanket|manta]]", "[[mirror|espejo]]", "[[camera|cámara]]"],
           "correctAnswer": 0,
           "explanation": "Una manta (blanket) nos calienta cuando hace frío."
@@ -169,7 +169,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo correcto.",
       "questions": [
         {
-          "question": "_______ [[the|la]] [[lamp|lámpara]], [[please|por favor]]. [[It's|Está]] [[dark|oscuro]].",
+          "question": "_______ [[the lamp, please dark. It's|la lámpara, por favor. Está oscuro]].",
           "options": ["[[Turn on|Enciende]]", "[[Turn off|Apaga]]", "[[Close|Cierra]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Turn on' para encender aparatos o luces."
@@ -191,7 +191,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[My|Mi]] [[money|dinero]] [[is|está]] [[in|en]] [[my|mi]] _______.",
+          "question": "[[My money is in my|Mi dinero está en mi]] _______.",
           "options": ["[[wallet|cartera]]", "[[watch|reloj]]", "[[shelf|estantería]]"],
           "correctAnswer": 0,
           "explanation": "El dinero se guarda en la cartera (wallet)."
@@ -213,7 +213,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta del plural.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[have|tengo]] [[two|dos]] _______.",
+          "question": "[[I have two|Yo tengo dos]] _______.",
           "options": ["[[watchs|relojes (error)]]", "[[watches|relojes]]", "[[watch|reloj]]"],
           "correctAnswer": 1,
           "explanation": "Las palabras que terminan en 'ch' forman el plural añadiendo '-es'."
@@ -235,7 +235,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[is|está]] [[on|en]] [[the|la]] [[wall|pared]].",
+          "question": "[[The on the wall|El]] _______ [[is|está en la pared]].",
           "options": ["[[clock|reloj (pared)]]", "[[watch|reloj (pulsera)]]", "[[camera|cámara]]"],
           "correctAnswer": 0,
           "explanation": "'Clock' es el reloj de pared, 'watch' es el de pulsera."
@@ -257,7 +257,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta.",
       "questions": [
         {
-          "question": "_______ [[these|estos]] [[your|tus]] [[books|libros]]?",
+          "question": "_______ [[these your books|estos tus libros]]?",
           "options": ["[[Is|¿Es?]]", "[[Are|¿Son?]]", "[[Do|Auxiliar]]"],
           "correctAnswer": 1,
           "explanation": "Como 'these' es plural, usamos el verbo 'are'."
@@ -279,7 +279,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo opuesto a 'new'.",
       "questions": [
         {
-          "question": "[[This|Este]] [[computer|ordenador]] [[is|es]] _______ [[and|y]] [[slow|lento]].",
+          "question": "[[This computer is slow|Este ordenador es]] _______ [[and|y lento]].",
           "options": ["[[new|nuevo]]", "[[old|viejo]]", "[[expensive|caro]]"],
           "correctAnswer": 1,
           "explanation": "'Old' es lo opuesto a 'new'."
@@ -301,7 +301,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el objeto correcto.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[take|tomo]] [[photos|fotos]] [[with|con]] [[my|mi]] _______.",
+          "question": "[[I take photos with my|Yo tomo fotos con mi]] _______.",
           "options": ["[[camera|cámara]]", "[[laptop|portátil]]", "[[pillow|almohada]]"],
           "correctAnswer": 0,
           "explanation": "Usamos una cámara (camera) para tomar fotos."
@@ -323,7 +323,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Completa con el posesivo.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[are|están]] [[John|Juan]]_______ [[keys|llaves]]?",
+          "question": "[[Where are John|Dónde están Juan]]_______ [[keys|llaves]]?",
           "options": ["[['s|de]]", "[[s|plural]]", "[[is|es]]"],
           "correctAnswer": 0,
           "explanation": "John's keys = las llaves de John."
@@ -345,7 +345,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el mueble correcto.",
       "questions": [
         {
-          "question": "[[The|El]] [[laptop|portátil]] [[is|está]] [[on|sobre]] [[the|la]] _______.",
+          "question": "[[The laptop is on the|El portátil está sobre la]] _______.",
           "options": ["[[coffee table|mesa de centro]]", "[[wardrobe|armario]]", "[[sink|lavabo]]"],
           "correctAnswer": 0,
           "explanation": "Una mesa de centro (coffee table) está en el salón."
@@ -367,7 +367,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el objeto necesario.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[can't|no puedo]] [[see|ver]]! [[Where|Dónde]] [[are|están]] [[my|mis]] _______?",
+          "question": "[[I can't! Where see are my|Yo no puedo ver! Dónde están mis]] _______?",
           "options": ["[[glasses|gafas]]", "[[wallet|cartera]]", "[[umbrella|paraguas]]"],
           "correctAnswer": 0,
           "explanation": "Necesitamos las gafas (glasses) para ver bien."
@@ -389,7 +389,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige la acción correcta.",
       "questions": [
         {
-          "question": "_______ [[the|la]] [[window|ventana]], [[please|por favor]]. [[It's|Está]] [[raining|lloviendo]].",
+          "question": "_______ [[the window, please raining. It's|la ventana, por favor. Está lloviendo]].",
           "options": ["[[Open|Abre]]", "[[Close|Cierra]]", "[[Turn off|Apaga]]"],
           "correctAnswer": 1,
           "explanation": "Cerramos (close) la ventana si llueve."
@@ -411,7 +411,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el objeto correcto.",
       "questions": [
         {
-          "question": "[[Use|Usa]] [[a|una]] _______ [[to|para]] [[dry|secar]] [[your|tus]] [[hands|manos]].",
+          "question": "[[Use a your hands|Usa una]] _______ [[to dry|para secar tus manos]].",
           "options": ["[[towel|toalla]]", "[[soap|jabón]]", "[[shelf|estantería]]"],
           "correctAnswer": 0,
           "explanation": "Usamos una toalla (towel) para secarnos."
@@ -433,7 +433,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[That|Ese]] _______ [[is|es]] [[very|muy]] [[beautiful|hermoso]].",
+          "question": "[[That very beautiful|Ese]] _______ [[is|es muy hermoso]].",
           "options": ["[[vase|jarrón]]", "[[knife|cuchillo]]", "[[oven|horno]]"],
           "correctAnswer": 0,
           "explanation": "Un jarrón (vase) es un objeto decorativo."
@@ -455,7 +455,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo correcto.",
       "questions": [
         {
-          "question": "[[This|Esta]] [[box|caja]] [[is|es]] [[very|muy]] _______.",
+          "question": "[[This box is very|Esta caja es muy]] _______.",
           "options": ["[[heavy|pesada]]", "[[light|ligera]]", "[[cheap|barata]]"],
           "correctAnswer": 0,
           "explanation": "'Heavy' significa que algo pesa mucho."
@@ -477,7 +477,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el demostrativo plural para algo lejano.",
       "questions": [
         {
-          "question": "[[What|Qué]] [[are|son]] _______ [[things|cosas]] [[over there|allí]]?",
+          "question": "[[What are|Qué son]] _______ [[things over there|cosas allí]]?",
           "options": ["[[these|estas]]", "[[those|aquellas/esas]]", "[[this|esta]]"],
           "correctAnswer": 1,
           "explanation": "Usamos 'those' para plural y distancia."
@@ -499,7 +499,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[This|Este]] [[is|es]] [[my|mi]] [[brother|hermano]]_______ [[laptop|portátil]].",
+          "question": "[[This is my brother|Este es mi hermano]]_______ [[laptop|portátil]].",
           "options": ["[['s|de]]", "[[s|plural]]", "[[is|es]]"],
           "correctAnswer": 0,
           "explanation": "Brother's laptop = el portátil de mi hermano."
@@ -521,7 +521,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el mueble correcto.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[put|pongo]] [[my|mis]] [[books|libros]] [[on|en]] [[the|la]] _______.",
+          "question": "[[I put my books on the|Yo pongo mis libros en la]] _______.",
           "options": ["[[shelf|estantería]]", "[[pillow|almohada]]", "[[mirror|espejo]]"],
           "correctAnswer": 0,
           "explanation": "Ponemos los libros en la estantería (shelf)."
@@ -543,7 +543,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige la acción correcta.",
       "questions": [
         {
-          "question": "_______ [[the|la]] [[TV|televisión]] [[and|y]] [[go|ve]] [[to|a]] [[sleep|dormir]].",
+          "question": "_______ [[the TV and go to sleep|la televisión y ve a dormir]].",
           "options": ["[[Turn off|Apaga]]", "[[Turn on|Enciende]]", "[[Open|Abre]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Turn off' para apagar."
@@ -565,7 +565,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[is|está]] [[in|en]] [[the|el]] [[bathroom|baño]].",
+          "question": "[[The in the bathroom|El]] _______ [[is|está en el baño]].",
           "options": ["[[toothbrush|cepillo de dientes]]", "[[knife|cuchillo]]", "[[blanket|manta]]"],
           "correctAnswer": 0,
           "explanation": "El cepillo de dientes (toothbrush) está en el baño."
@@ -587,7 +587,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Elige el utensilio correcto.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesito]] [[a|un]] _______ [[to|para]] [[cut|cortar]] [[the|el]] [[bread|pan]].",
+          "question": "[[I need a cut|Yo necesito un]] _______ [[to the bread|para cortar el pan]].",
           "options": ["[[knife|cuchillo]]", "[[spoon|cuchara]]", "[[glass|vaso]]"],
           "correctAnswer": 0,
           "explanation": "Usamos el cuchillo (knife) para cortar."
@@ -609,7 +609,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[work|trabajo]] [[on|en]] [[my|mi]] _______.",
+          "question": "[[I work on my|Yo trabajo en mi]] _______.",
           "options": ["[[laptop|portátil]]", "[[wallet|cartera]]", "[[rug|alfombra]]"],
           "correctAnswer": 0,
           "explanation": "Trabajamos en el portátil (laptop) o el ordenador."
@@ -631,7 +631,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Pregunta por un objeto cercano.",
       "questions": [
         {
-          "question": "[[Is|¿Es?]] _______ [[your|tu]] [[umbrella|paraguas]]?",
+          "question": "[[Is umbrella|¿Es?]] _______ [[your|tu paraguas]]?",
           "options": ["[[this|este]]", "[[these|estos]]", "[[those|esos]]"],
           "correctAnswer": 0,
           "explanation": "'Umbrella' es singular, por lo que usamos 'this'."
@@ -653,7 +653,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Posesivo para sustantivos que terminan en -s.",
       "questions": [
         {
-          "question": "[[These|Estas]] [[are|son]] [[my|mis]] [[parents|padres]]_______ [[glasses|gafas]].",
+          "question": "[[These are my parents|Estas son mis padres]]_______ [[glasses|gafas]].",
           "options": ["[['|de (plural)]]", "[[s|error]]", "[[is|es]]"],
           "correctAnswer": 0,
           "explanation": "Para palabras en plural que terminan en 's', solo añadimos el apóstrofe: '."
@@ -675,7 +675,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[This|Este]] [[is|es]] [[my|mi]] [[favorite|favorito]] [[book|libro]].",
+      "correctSentence": "[[This is my favorite book|Este es mi favorito libro]].",
       "words": ["[[is|es]]", "[[This|Este]]", "[[my|mi]]", "[[book|libro]].", "[[favorite|favorito]]"],
       "explanation": "Estructura: Demostrativo + verbo + adjetivo + sustantivo."
     },
@@ -692,7 +692,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Preguntas",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Where|Dónde]] [[is|está]] [[Peter|Pedro]]'[[s|de]] [[watch|reloj]]?",
+      "correctSentence": "[[Where is Peter watch|Dónde está Pedro]]'[[s|de reloj]]?",
       "words": ["[[is|está]]", "[[watch|reloj]]?", "[[Where|Dónde]]", "[[Peter|Pedro]]", "'[[s|de]]"],
       "explanation": "Orden en preguntas: Palabra interrogativa + verbo + sujeto."
     },
@@ -709,7 +709,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Demostrativos Plurales",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[These|Estas]] [[glasses|gafas]] [[are|son]] [[very|muy]] [[expensive|caras]].",
+      "correctSentence": "[[These glasses are very expensive|Estas gafas son muy caras]].",
       "words": ["[[are|son]]", "[[glasses|gafas]]", "[[These|Estas]]", "[[expensive|caras]].", "[[very|muy]]"],
       "explanation": "Usamos 'These' con sustantivos en plural."
     },
@@ -726,7 +726,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ubicación",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[The|El]] [[clock|reloj]] [[is|está]] [[above|encima de]] [[the|el]] [[mirror|espejo]].",
+      "correctSentence": "[[The clock is above the mirror|El reloj está encima de el espejo]].",
       "words": ["[[above|encima de]]", "[[clock|reloj]]", "[[mirror|espejo]].", "[[is|está]]", "[[the|el]]", "[[the|el]]"],
       "explanation": "Preposiciones de lugar para indicar posición relativa."
     },
@@ -743,7 +743,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Peticiones",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Please|Por favor]] [[turn off|apaga]] [[your|tu]] [[telephone|teléfono]].",
+      "correctSentence": "[[Please turn off your telephone|Por favor apaga tu teléfono]].",
       "words": ["[[your|tu]]", "[[telephone|teléfono]].", "[[turn off|apaga]]", "[[Please|Por favor]]"],
       "explanation": "Uso del imperativo con 'please'."
     },
@@ -760,7 +760,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mi Habitación",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I|Yo]] [[have|tengo]] [[a|un]] [[big|grande]] [[wardrobe|armario]] [[in|en]] [[my|mi]] [[room|habitación]].",
+      "correctSentence": "[[I have a big wardrobe in my room|Yo tengo un grande armario en mi habitación]].",
       "words": ["[[wardrobe|armario]]", "[[in|en]]", "[[my|mi]]", "[[room|habitación]].", "[[big|grande]]", "[[I|Yo]]", "[[have|tengo]]", "[[a|un]]"],
       "explanation": "Estructura: Sujeto + verbo + objeto + lugar."
     },
@@ -777,7 +777,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pregunta Compleja",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Is|¿Es?]] [[that|ese]] [[expensive|caro]] [[watch|reloj]] [[yours|tuyo]]?",
+      "correctSentence": "[[Is that expensive watch yours|¿Es? ese caro reloj tuyo]]?",
       "words": ["[[watch|reloj]]", "[[expensive|caro]]", "[[yours|tuyo]]?", "[[Is|¿Es?]]", "[[that|ese]]"],
       "explanation": "Los adjetivos van antes del sustantivo."
     },
@@ -794,7 +794,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "En el Cajón",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[The|Los]] [[forks|tenedores]] [[are|están]] [[in|en]] [[the|el]] [[drawer|cajón]].",
+      "correctSentence": "[[The forks are in the drawer|Los tenedores están en el cajón]].",
       "words": ["[[in|en]]", "[[forks|tenedores]]", "[[drawer|cajón]].", "[[The|Los]]", "[[are|están]]", "[[the|el]]"],
       "explanation": "Ubicación de utensilios."
     },
@@ -811,7 +811,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cuadros Antiguos",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Those|Aquellos]] [[paintings|cuadros]] [[are|son]] [[very|muy]] [[old|viejos]].",
+      "correctSentence": "[[Those paintings are very old|Aquellos cuadros son muy viejos]].",
       "words": ["[[old|viejos]].", "[[are|son]]", "[[paintings|cuadros]]", "[[Those|Aquellos]]", "[[very|muy]]"],
       "explanation": "Uso de 'those' para plural y lejanía."
     },
@@ -828,7 +828,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "Las Llaves",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Put|Pon]] [[the|las]] [[keys|llaves]] [[on|sobre]] [[the|la]] [[shelf|estantería]].",
+      "correctSentence": "[[Put the keys on the shelf|Pon las llaves sobre la estantería]].",
       "words": ["[[keys|llaves]]", "[[on|sobre]]", "[[shelf|estantería]].", "[[the|las]]", "[[the|la]]", "[[Put|Pon]]"],
       "explanation": "Uso del imperativo."
     },
@@ -849,7 +849,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "*\"[[I|Yo]] [[have|tengo]] [[a|un]] [[big|grande]] [[desk|escritorio]] [[in|en]] [[my|mi]] [[room|habitación]]. [[On|Sobre]] [[the|el]] [[desk|escritorio]], [[there|allí]] [[is|hay]] [[a|un]] [[modern|moderno]] [[laptop|portátil]] [[and|y]] [[a|una]] [[black|negra]] [[lamp|lámpara]]. [[My|Mis]] [[notebooks|cuadernos]] [[are|están]] [[next to|al lado de]] [[the|el]] [[computer|ordenador]]. [[There|Allí]] [[is|hay]] [[also|también]] [[a|un]] [[small|pequeño]] [[clock|reloj]]. [[I|Yo]] [[like|gusta]] [[my|mi]] [[desk|escritorio]] [[because|porque]] [[it|ello]] [[is|está]] [[very|muy]] [[clean|limpio]].\"*\n\n[[What|De qué]] [[color|color]] [[is|es]] [[the|la]] [[lamp|lámpara]]?",
+          "question": "*\"[[I have. On the a big desk in my room desk is, there a modern. My laptop and a black lamp notebooks are next to. There is the computer also a. I like small clock my desk because it is very clean color is the lamp|Yo tengo un grande escritorio en mi habitación. Sobre el escritorio, allí hay un moderno portátil y una negra lámpara. Mis cuadernos están al lado de el ordenador. Allí hay también un pequeño reloj. Yo gusta mi escritorio porque ello está muy limpio]].\"*\n\n[[What|De qué color es la lámpara]]?",
           "options": ["[[Black|Negra]]", "[[White|Blanca]]", "[[Blue|Azul]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'a black lamp'."
@@ -871,8 +871,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto anterior y responde.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[are|están]] [[the|los]] [[notebooks|cuadernos]]?",
-          "options": ["[[Under|Debajo de]] [[the|el]] [[desk|escritorio]]", "[[Next to|Al lado de]] [[the|el]] [[computer|ordenador]]", "[[In|En]] [[the|el]] [[wardrobe|armario]]"],
+          "question": "[[Where are the notebooks|Dónde están los cuadernos]]?",
+          "options": ["[[Under the desk the|Debajo de el escritorio]]", "[[Next to computer the|Al lado de el ordenador]]", "[[In wardrobe|En el armario]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice: 'My notebooks are next to the computer'."
         }
@@ -893,7 +893,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "*\"[[Sarah|Sara]] [[has|tiene]] [[a|una]] [[new|nueva]] [[camera|cámara]]. [[It|Ella]] [[is|es]] [[small|pequeña]] [[and|y]] [[very|muy]] [[expensive|cara]]. [[She|Ella]] [[takes|toma]] [[photos|fotos]] [[of|de]] [[her|su]] [[dog|perro]] [[in|en]] [[the|el]] [[garden|jardín]]. [[Today|Hoy]], [[she|ella]] [[is|está]] [[happy|feliz]] [[because|porque]] [[her|su]] [[brother|hermano]]'[[s|de]] [[camera|cámara]] [[is|está]] [[broken|rota]], [[but|pero]] [[hers|la suya]] [[is|está]] [[perfect|perfecta]].\"*\n\n[[Is|¿Es?]] [[the|la]] [[camera|cámara]] [[cheap|barata]]?",
+          "question": "*\"[[Sarah has. It a new, she, but hers camera is small and. She takes very expensive photos of. Today her dog in the garden is happy because her brother is broken|Sara tiene una nueva cámara. Ella es pequeña y muy cara. Ella toma fotos de su perro en el jardín. Hoy, ella está feliz porque su hermano]]'[[s camera is perfect camera cheap|de cámara está rota, pero la suya está perfecta]].\"*\n\n[[Is the|¿Es? la cámara barata]]?",
           "options": ["[[Yes, it is.|Sí.]]", "[[No, it is expensive.|No, es cara.]]", "[[It is old.|Es vieja.]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice: 'It is small and very expensive'."
@@ -915,8 +915,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto anterior y responde.",
       "questions": [
         {
-          "question": "[[Whose|De quién]] [[camera|cámara]] [[is|está]] [[broken|rota]]?",
-          "options": ["[[Sarah|Sara]]'[[s|de]]", "[[Her|Su]] [[brother|hermano]]'[[s|de]]", "[[Her|Su]] [[father|padre]]'[[s|de]]"],
+          "question": "[[Whose camera is broken|De quién cámara está rota]]?",
+          "options": ["[[Sarah brother|Sara]]'[[s|de]]", "[[Her|Su hermano]]'[[s father|de]]", "[[Her|Su padre]]'[[s|de]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice: 'her brother's camera is broken'."
         }
@@ -937,7 +937,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "*\"[[Look|Mira]] [[at|a]] [[this|esta]] [[kitchen|cocina]]. [[It|Ella]] [[is|es]] [[very|muy]] [[modern|moderna]]. [[These|Estos]] [[glasses|vasos]] [[are|son]] [[new|nuevos]], [[and|y]] [[that|aquella]] [[fridge|nevera]] [[is|es]] [[very|muy]] [[big|grande]]. [[We|Nosotros]] [[have|tenemos]] [[many|muchos]] [[plates|platos]] [[and|y]] [[silver|plateados]] [[forks|tenedores]]. [[Please|Por favor]], [[put|pon]] [[the|los]] [[knives|cuchillos]] [[in|en]] [[the|el]] [[drawer|cajón]].\"*\n\n[[How|Cómo]] [[is|es]] [[the|la]] [[fridge|nevera]]?",
+          "question": "*\"[[Look at. It is this kitchen, put very modern. These glasses are new, and that fridge is. We have very big many plates. Please and silver forks the knives in the drawer the fridge|Mira a esta cocina. Ella es muy moderna. Estos vasos son nuevos, y aquella nevera es muy grande. Nosotros tenemos muchos platos y plateados tenedores. Por favor, pon los cuchillos en el cajón]].\"*\n\n[[How is|Cómo es la nevera]]?",
           "options": ["[[Small|Pequeña]]", "[[Big|Grande]]", "[[Broken|Rota]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice: 'that fridge is very big'."
@@ -959,8 +959,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto anterior y responde.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[are|están]] [[the|los]] [[knives|cuchillos]]?",
-          "options": ["[[In|En]] [[the|el]] [[drawer|cajón]]", "[[On|Sobre]] [[the|la]] [[table|mesa]]", "[[Under|Debajo de]] [[the|el]] [[sink|fregadero]]"],
+          "question": "[[Where are the knives|Dónde están los cuchillos]]?",
+          "options": ["[[In the drawer the|En el cajón]]", "[[On table the|Sobre la mesa]]", "[[Under sink|Debajo de el fregadero]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'put the knives in the drawer'."
         }
@@ -981,8 +981,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "*\"[[Tom|Tom]] [[is|está]] [[very|muy]] [[tired|cansado]]. [[He|Él]] [[can't|no puede]] [[find|encontrar]] [[his|sus]] [[things|cosas]]. '[[Where|Dónde]] [[is|está]] [[my|mi]] [[watch|reloj]]?' [[he|él]] [[asks|pregunta]]. [[His|Su]] [[watch|reloj]] [[is|está]] [[on|sobre]] [[the|la]] [[shelf|estantería]]. '[[And|Y]] [[where|dónde]] [[are|están]] [[my|mis]] [[keys|llaves]]?' [[Those|Aquellas]] [[keys|llaves]] [[are|están]] [[under|debajo de]] [[the|el]] [[sofa|sofá]]. [[Oh|Oh]] [[Tom|Tom]]!\"*\n\n[[Where|Dónde]] [[is|está]] [[Tom|Tom]]'[[s|de]] [[watch|reloj]]?",
-          "options": ["[[Under|Debajo de]] [[the|el]] [[sofa|sofá]]", "[[On|Sobre]] [[the|la]] [[shelf|estantería]]", "[[In|En]] [[his|su]] [[pocket|bolsillo]]"],
+          "question": "*\"[[Tom is. He can't very tired find his. His watch things is|Tom está muy cansado. Él no puede encontrar sus cosas]]. '[[Where my watch the shelf are my|Dónde está mi reloj]]?' [[he asks is on. Oh Tom|él pregunta. Su reloj está sobre la estantería]]. '[[And where keys keys are under|Y dónde están mis llaves]]?' [[Those the sofa Tom watch|Aquellas llaves están debajo de el sofá. Oh Tom]]!\"*\n\n[[Where is|Dónde está Tom]]'[[s|de reloj]]?",
+          "options": ["[[Under the sofa the|Debajo de el sofá]]", "[[On shelf his|Sobre la estantería]]", "[[In pocket|En su bolsillo]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice: 'His watch is on the shelf'."
         }
@@ -1003,8 +1003,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto anterior y responde.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] [[are|están]] [[the|las]] [[keys|llaves]]?",
-          "options": ["[[On|Sobre]] [[the|la]] [[shelf|estantería]]", "[[Under|Debajo de]] [[the|el]] [[sofa|sofá]]", "[[Behind|Detrás de]] [[the|la]] [[door|puerta]]"],
+          "question": "[[Where are the keys|Dónde están las llaves]]?",
+          "options": ["[[On the shelf the|Sobre la estantería]]", "[[Under sofa the|Debajo de el sofá]]", "[[Behind door|Detrás de la puerta]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice: 'Those keys are under the sofa'."
         }
@@ -1025,7 +1025,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto y responde.",
       "questions": [
         {
-          "question": "*\"[[This|Esta]] [[is|es]] [[my|mi]] [[office|oficina]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[new|nuevo]] [[computer|ordenador]] [[and|y]] [[a|un]] [[small|pequeño]] [[telephone|teléfono]]. [[These|Estos]] [[books|libros]] [[on|sobre]] [[the|el]] [[desk|escritorio]] [[are|son]] [[very|muy]] [[interesting|interesantes]]. [[That|Aquella]] [[big|grande]] [[bookshelf|librería]] [[is|es]] [[for|para]] [[my|mis]] [[documents|documentos]]. [[I|Yo]] [[use|uso]] [[my|mi]] [[office|oficina]] [[every|cada]] [[day|día]].\"*\n\n[[How|Cómo]] [[is|es]] [[the|el]] [[telephone|teléfono]]?",
+          "question": "*\"[[This is. I have my office a new. These computer and a small telephone books on the. That big desk are very interesting bookshelf is. I for my documents use my office every day|Esta es mi oficina. Yo tengo un nuevo ordenador y un pequeño teléfono. Estos libros sobre el escritorio son muy interesantes. Aquella grande librería es para mis documentos. Yo uso mi oficina cada día]].\"*\n\n[[How is the telephone|Cómo es el teléfono]]?",
           "options": ["[[Small|Pequeño]]", "[[Big|Grande]]", "[[Broken|Roto]]"],
           "correctAnswer": 0,
           "explanation": "El texto dice: 'a small telephone'."
@@ -1047,8 +1047,8 @@ export const UNIT_22_EXERCISES: Exercise[] = [
       "instructions": "Lee el texto anterior y responde.",
       "questions": [
         {
-          "question": "[[What|Para qué]] [[is|es]] [[the|la]] [[big|grande]] [[bookshelf|librería]] [[for|para]]?",
-          "options": ["[[For|Para]] [[books|libros]]", "[[For|Para]] [[documents|documentos]]", "[[For|Para]] [[photos|fotos]]"],
+          "question": "[[What is the big bookshelf for|Para qué es la grande librería para]]?",
+          "options": ["[[For books|Para libros]]", "[[For documents|Para documentos]]", "[[For photos|Para fotos]]"],
           "correctAnswer": 1,
           "explanation": "El texto dice: 'That big bookshelf is for my documents'."
         }

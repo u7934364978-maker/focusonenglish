@@ -13,7 +13,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra que describe la capacidad de entender a los demás.",
       "questions": [
         {
-          "question": "[[Having|Tener]] ______ [[is|es]] [[crucial|crucial]] [[for|para]] [[healthy|saludables]] [[relationships|relaciones]].",
+          "question": "[[Having crucial for healthy relationships|Tener]] ______ [[is|es crucial para saludables relaciones]].",
           "options": [
             "[[empathy|empatía]]",
             "[[anger|ira]]",
@@ -40,7 +40,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el término que describe el reconocimiento de las propias emociones.",
       "questions": [
         {
-          "question": "______ [[allows|permite]] [[you|a ti]] [[to| ]] [[manage|gestionar]] [[your|tus]] [[reactions|reacciones]] [[better|mejor]].",
+          "question": "______ [[allows you to manage your reactions better|permite a ti   gestionar tus reacciones mejor]].",
           "options": [
             "[[Self-awareness|El autoconocimiento]]",
             "[[Confusion|La confusión]]",
@@ -65,7 +65,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Expresar sentimientos",
       "instructions": "Ordena la oración sobre la importancia de la comunicación emocional.",
-      "correctSentence": "[[It|Es]] [[is|importante]] [[important| ]] [[to|expresar]] [[express| ]] [[your|tus]] [[feelings|sentimientos]] [[clearly|claramente]] [[to|para]] [[avoid|evitar]] [[misunderstandings|malentendidos]] [[with|con]] [[your|tus]] [[friends|amigos]].",
+      "correctSentence": "[[It is important to express your feelings clearly to avoid misunderstandings with your friends|Es importante   expresar   tus sentimientos claramente para evitar malentendidos con tus amigos]].",
       "words": [
         "[[misunderstandings|malentendidos]]",
         "[[friends|amigos]].",
@@ -100,7 +100,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra que describe la recuperación ante la adversidad.",
       "questions": [
         {
-          "question": "[[Building|Construir]] ______ [[helps|ayuda]] [[us|a nosotros]] [[cope|a lidiar]] [[with|con]] [[stress|el estrés]].",
+          "question": "[[Building us cope with stress|Construir]] ______ [[helps|ayuda a nosotros a lidiar con el estrés]].",
           "options": [
             "[[resilience|resiliencia]]",
             "[[fragility|fragilidad]]",
@@ -127,7 +127,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige la emoción que sientes cuando no logras algo.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[feel|me siento]] ______ [[when|cuando]] [[my|mi]] [[computer|ordenador]] [[doesn't|no]] [[work|funciona]].",
+          "question": "[[I feel computer doesn't work|Yo me siento]] ______ [[when my|cuando mi ordenador no funciona]].",
           "options": [
             "[[frustrated|frustrado]]",
             "[[excited|emocionado]]",
@@ -152,7 +152,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Gestión del estrés",
       "instructions": "Ordena la oración sobre el manejo del estrés.",
-      "correctSentence": "[[Learning|Aprender]] [[how|cómo]] [[to|gestionar]] [[manage| ]] [[your|tu]] [[stress|estrés]] [[is|es]] [[a|una]] [[valuable|valiosa]] [[skill|habilidad]] [[for|para]] [[your|tu]] [[professional|profesional]] [[career|carrera]].",
+      "correctSentence": "[[Learning how to manage your stress is a valuable skill for your professional career|Aprender cómo gestionar   tu estrés es una valiosa habilidad para tu profesional carrera]].",
       "words": [
         "[[career|carrera]].",
         "[[manage| ]]",
@@ -187,7 +187,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra que implica simpatía profunda.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[showed|mostró]] [[great|gran]] ______ [[towards|hacia]] [[the|las]] [[homeless|personas sin hogar]] [[people| ]].",
+          "question": "[[She showed great the|Ella mostró gran]] ______ [[towards homeless people|hacia las personas sin hogar  ]].",
           "options": [
             "[[compassion|compasión]]",
             "[[jealousy|celos]]",
@@ -214,7 +214,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el término que nos impulsa a actuar.",
       "questions": [
         {
-          "question": "[[Without|Sin]] ______, [[it|es]] [[is|difícil]] [[hard| ]] [[to|alcanzar]] [[achieve| ]] [[long-term|metas a largo plazo]] [[goals| ]].",
+          "question": "[[Without is hard to achieve long-term goals|Sin]] ______, [[it|es difícil   alcanzar   metas a largo plazo  ]].",
           "options": [
             "[[motivation|motivación]]",
             "[[fear|miedo]]",
@@ -239,7 +239,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Escucha activa",
       "instructions": "Ordena la oración condicional sobre el trabajo en equipo.",
-      "correctSentence": "[[If|Si]] [[you|tú]] [[listen|escuchas]] [[to|a]] [[your|tus]] [[colleagues|colegas]] [[with|con]] [[an|una]] [[open|mente]] [[mind|abierta]], [[you|tú]] [[will|mejorarás]] [[improve| ]] [[teamwork|el trabajo en equipo]].",
+      "correctSentence": "[[If you, you will listen to your colleagues with an open mind improve teamwork|Si tú escuchas a tus colegas con una mente abierta, tú mejorarás   el trabajo en equipo]].",
       "words": [
         "[[teamwork|el trabajo en equipo]].",
         "[[improve| ]]",
@@ -274,7 +274,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra que describe una visión positiva del futuro.",
       "questions": [
         {
-          "question": "[[His|Su]] ______ [[helped|ayudó]] [[the|al]] [[team|equipo]] [[stay|a mantenerse]] [[positive|positivo]] [[during|durante]] [[the|la]] [[crisis|crisis]].",
+          "question": "[[His the team stay positive during the crisis|Su]] ______ [[helped|ayudó al equipo a mantenerse positivo durante la crisis]].",
           "options": [
             "[[optimism|optimismo]]",
             "[[pessimism|pesimismo]]",
@@ -301,7 +301,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para expresar opiniones de forma respetuosa.",
       "questions": [
         {
-          "question": "[[Being|Ser]] ______ [[is|es]] [[about|se trata de]] [[standing|defender]] [[up| ]] [[for|tus]] [[your|derechos]] [[rights| ]].",
+          "question": "[[Being about standing up for your rights|Ser]] ______ [[is|es se trata de defender   tus derechos  ]].",
           "options": [
             "[[assertive|asertivo]]",
             "[[shy|tímido]]",
@@ -326,7 +326,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Habilidades sociales",
       "instructions": "Ordena la oración sobre el desarrollo de habilidades sociales.",
-      "correctSentence": "[[Developing|Desarrollar]] [[your|tus]] [[social|habilidades]] [[skills|sociales]] [[will|te ayudará]] [[help| ]] [[you|a ti]] [[feel|sentirte]] [[more|más]] [[comfortable|cómodo]] [[in|en]] [[large|grupos]] [[groups|grandes]].",
+      "correctSentence": "[[Developing your social skills will help you feel more comfortable in large groups|Desarrollar tus habilidades sociales te ayudará   a ti sentirte más cómodo en grupos grandes]].",
       "words": [
         "[[groups|grandes]].",
         "[[help| ]]",
@@ -360,7 +360,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el sentimiento de preocupación excesiva.",
       "questions": [
         {
-          "question": "[[Many|Muchos]] [[students|estudiantes]] [[experience|experimentan]] ______ [[before|antes de]] [[final|los exámenes finales]] [[exams| ]].",
+          "question": "[[Many students experience final|Muchos estudiantes experimentan]] ______ [[before exams|antes de los exámenes finales  ]].",
           "options": [
             "[[anxiety|ansiedad]]",
             "[[joy|alegría]]",
@@ -387,7 +387,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa sentir lástima por la situación de otro.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[can|puedo]] ______ [[with|con]] [[your|tus]] [[problems|problemas]], [[but|pero]] [[I|yo]] [[can't|no puedo]] [[fix|solucionarlos]] [[them| ]].",
+          "question": "[[I can, but problems I can't fix them|Yo puedo]] ______ [[with your|con tus problemas, pero yo no puedo solucionarlos  ]].",
           "options": [
             "[[sympathize|simpatizar]]",
             "[[ignore|ignorar]]",
@@ -412,7 +412,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Validar emociones",
       "instructions": "Ordena la oración sobre el respeto a las emociones ajenas.",
-      "correctSentence": "[[We|Nosotros]] [[should|deberíamos]] [[always|siempre]] [[try|intentar]] [[to|validar]] [[validate| ]] [[other|las emociones]] [[people's|de otras]] [[emotions|personas]] [[even|incluso]] [[if|si]] [[we|nosotros]] [[disagree|desacuerdo]] [[with|con]] [[them|ellas]].",
+      "correctSentence": "[[We should always try to validate other people's emotions even if we disagree with them|Nosotros deberíamos siempre intentar validar   las emociones de otras personas incluso si nosotros desacuerdo con ellas]].",
       "words": [
         "[[them|ellas]].",
         "[[validate| ]]",
@@ -448,7 +448,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra que describe mostrarse tal cual uno es.",
       "questions": [
         {
-          "question": "[[Showing|Mostrar]] ______ [[can|puede]] [[strengthen|fortalecer]] [[the|el]] [[bond|vínculo]] [[between|entre]] [[friends|amigos]].",
+          "question": "[[Showing strengthen the bond between friends|Mostrar]] ______ [[can|puede fortalecer el vínculo entre amigos]].",
           "options": [
             "[[vulnerability|vulnerabilidad]]",
             "[[arrogance|arrogancia]]",
@@ -475,7 +475,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el agradecimiento.",
       "questions": [
         {
-          "question": "[[Practicing|Practicar]] ______ [[every|cada]] [[day|día]] [[improves|mejora]] [[mental|la salud mental]] [[health| ]].",
+          "question": "[[Practicing day improves mental health|Practicar]] ______ [[every|cada día mejora la salud mental  ]].",
           "options": [
             "[[gratitude|gratitud]]",
             "[[greed|codicia]]",
@@ -500,7 +500,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sentirse abrumado",
       "instructions": "Ordena la oración sobre el reconocimiento del agotamiento emocional.",
-      "correctSentence": "[[You|Tú]] [[must|debes]] [[be|ser]] [[able|capaz]] [[to|de]] [[recognize|reconocer]] [[when|cuándo]] [[you|tú]] [[are|estás]] [[feeling|sintiéndote]] [[overwhelmed|abrumado]] [[by|por]] [[your|tus]] [[responsibilities|responsabilidades]].",
+      "correctSentence": "[[You must be able to recognize when you are feeling overwhelmed by your responsibilities|Tú debes ser capaz de reconocer cuándo tú estás sintiéndote abrumado por tus responsabilidades]].",
       "words": [
         "[[responsibilities|responsabilidades]].",
         "[[feeling|sintiéndote]]",
@@ -535,7 +535,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para el manejo de los estados internos.",
       "questions": [
         {
-          "question": "______ [[is|es]] [[essential|esencial]] [[to|para]] [[prevent|prevenir]] [[impulsive|acciones impulsivas]] [[actions| ]].",
+          "question": "______ [[is essential to prevent impulsive actions|es esencial para prevenir acciones impulsivas  ]].",
           "options": [
             "[[Self-regulation|La autorregulación]]",
             "[[Distraction|La distracción]]",
@@ -562,7 +562,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que describe la falta de confianza.",
       "questions": [
         {
-          "question": "[[Feeling|Sentirse]] ______ [[makes|hace]] [[it|lo]] [[difficult|difícil]] [[to| ]] [[speak|hablar]] [[in|en]] [[public|público]].",
+          "question": "[[Feeling it difficult to speak in public|Sentirse]] ______ [[makes|hace lo difícil   hablar en público]].",
           "options": [
             "[[insecure|inseguro]]",
             "[[confident|seguro]]",
@@ -587,7 +587,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Resolver conflictos",
       "instructions": "Ordena la oración sobre la gestión de conflictos y la ira.",
-      "correctSentence": "[[It|Es]] [[is|mejor]] [[better| ]] [[to|abordar]] [[address| ]] [[a|un]] [[conflict|conflicto]] [[immediately|inmediatamente]] [[instead|en lugar]] [[of|de]] [[letting|dejar]] [[your|que tu]] [[anger|ira]] [[grow|crezca]] [[over|con el]] [[time|tiempo]].",
+      "correctSentence": "[[It is better to address a conflict immediately instead of letting your anger grow over time|Es mejor   abordar   un conflicto inmediatamente en lugar de dejar que tu ira crezca con el tiempo]].",
       "words": [
         "[[time|tiempo]].",
         "[[anger|ira]]",
@@ -624,7 +624,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la virtud de saber esperar sin enfadarse.",
       "questions": [
         {
-          "question": "______ [[is|es]] [[a|una]] [[key|clave]] [[trait|característica]] [[for|para]] [[teachers|los profesores]].",
+          "question": "______ [[is a key trait for teachers|es una clave característica para los profesores]].",
           "options": [
             "[[Patience|La paciencia]]",
             "[[Speed|La velocidad]]",
@@ -651,7 +651,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que describe a una persona que entiende a los demás.",
       "questions": [
         {
-          "question": "[[An|Un]] ______ [[leader|líder]] [[listens|escucha]] [[to|a]] [[the|las]] [[concerns|preocupaciones]] [[of|de]] [[the|del]] [[staff|personal]].",
+          "question": "[[An listens to the concerns of the staff|Un]] ______ [[leader|líder escucha a las preocupaciones de del personal]].",
           "options": [
             "[[empathetic|empático]]",
             "[[indifferent|indiferente]]",
@@ -676,7 +676,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Diferencias emocionales",
       "instructions": "Ordena la oración sobre la apertura emocional.",
-      "correctSentence": "[[While|Mientras]] [[some|algunas]] [[people|personas]] [[find|encuentran]] [[it|lo]] [[easy|fácil]] [[to|hablar]] [[talk| ]] [[about|sobre]] [[their|sus]] [[emotions|emociones]], [[others|otros]] [[prefer|prefieren]] [[to|mantenerlas]] [[keep| ]] [[them|en]] [[private|privado]].",
+      "correctSentence": "[[While some, others people find it easy to talk about their emotions prefer to keep them private|Mientras algunas personas encuentran lo fácil hablar   sobre sus emociones, otros prefieren mantenerlas   en privado]].",
       "words": [
         "[[private|privado]].",
         "[[emotions|emociones]],",
@@ -714,7 +714,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para el conocimiento instintivo.",
       "questions": [
         {
-          "question": "[[Sometimes|A veces]] [[you|tú]] [[should|deberías]] [[trust|confiar]] [[your|en tu]] ______, [[even|incluso]] [[without|sin]] [[proof|pruebas]].",
+          "question": "[[Sometimes you should trust your without proof|A veces tú deberías confiar en tu]] ______, [[even|incluso sin pruebas]].",
           "options": [
             "[[intuition|intuición]]",
             "[[logic|lógica]]",
@@ -741,7 +741,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que describe sentirse superado por las circunstancias.",
       "questions": [
         {
-          "question": "[[He|Él]] [[felt|se sintió]] ______ [[by|por]] [[the|la]] [[amount|cantidad]] [[of|de]] [[work|trabajo]] [[assigned|asignado]].",
+          "question": "[[He felt amount of work assigned|Él se sintió]] ______ [[by the|por la cantidad de trabajo asignado]].",
           "options": [
             "[[overwhelmed|abrumado]]",
             "[[bored|aburrido]]",
@@ -768,7 +768,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la valoración propia.",
       "questions": [
         {
-          "question": "[[Low|La baja]] ______ [[can|puede]] [[affect|afectar]] [[your|tus]] [[personal|relaciones personales]] [[relationships| ]].",
+          "question": "[[Low affect your personal relationships|La baja]] ______ [[can|puede afectar tus relaciones personales  ]].",
           "options": [
             "[[self-esteem|autoestima]]",
             "[[arrogance|arrogancia]]",
@@ -793,7 +793,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Conversaciones difíciles",
       "instructions": "Ordena la oración sobre el manejo de conversaciones y la escucha activa.",
-      "correctSentence": "[[You|Tú]] [[will|podrás]] [[be| ]] [[able|manejar]] [[to| ]] [[handle|conversaciones]] [[difficult|difíciles]] [[conversations| ]] [[if|si]] [[you|tú]] [[practice|practicas]] [[active|escucha]] [[listening|activa]] [[regularly|regularmente]].",
+      "correctSentence": "[[You will be able to handle difficult conversations if you practice active listening regularly|Tú podrás   manejar   conversaciones difíciles   si tú practicas escucha activa regularmente]].",
       "words": [
         "[[regularly|regularmente]].",
         "[[if|si]]",
@@ -828,7 +828,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que describe la acción de ponerse en el lugar del otro.",
       "questions": [
         {
-          "question": "[[It|Es]] [[is|importante]] [[important| ]] [[to|empatizar]] [[empathize| ]] [[with|con]] [[those|aquellos]] [[who|que]] [[are|están]] [[suffering|sufriendo]].",
+          "question": "[[It is important to empathize with those who are suffering|Es importante   empatizar   con aquellos que están sufriendo]].",
           "options": [
             "[[empathize|empatizar]]",
             "[[criticize|criticar]]",
@@ -855,7 +855,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra que describe la incapacidad de actuar con naturalidad.",
       "questions": [
         {
-          "question": "[[Alcohol|El alcohol]] [[often|a menudo]] [[reduces|reduce]] [[social|las inhibiciones sociales]] [[inhibitions| ]].",
+          "question": "[[Alcohol often reduces social inhibitions|El alcohol a menudo reduce las inhibiciones sociales  ]].",
           "options": [
             "[[inhibitions|inhibiciones]]",
             "[[skills|habilidades]]",
@@ -880,7 +880,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Altruismo y felicidad",
       "instructions": "Ordena la oración sobre la relación entre ayudar y la felicidad.",
-      "correctSentence": "[[Many|Muchos]] [[psychological|estudios]] [[studies|psicológicos]] [[show|muestran]] [[that|que]] [[people|las personas]] [[who|que]] [[help|ayudan]] [[others|a otros]] [[tend|tienden]] [[to|a]] [[be|ser]] [[happier|más felices]] [[in|en]] [[their|sus]] [[lives|vidas]].",
+      "correctSentence": "[[Many psychological studies show that people who help others tend to be happier in their lives|Muchos estudios psicológicos muestran que las personas que ayudan a otros tienden a ser más felices en sus vidas]].",
       "words": [
         "[[lives|vidas]].",
         "[[who|que]]",
@@ -917,7 +917,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el sentimiento de lástima por otros.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[felt|sentí]] [[deep|profunda]] ______ [[for|por]] [[him|él]] [[after|después de]] [[the|el]] [[accident|accidente]].",
+          "question": "[[I felt deep him accident|Yo sentí profunda]] ______ [[for after the|por él después de el accidente]].",
           "options": [
             "[[sympathy|simpatía]]",
             "[[envy|envidia]]",
@@ -944,7 +944,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para el sentimiento de estar solo.",
       "questions": [
         {
-          "question": "[[Elderly|Las personas mayores]] [[people| ]] [[often|a menudo]] [[suffer|sufren]] [[from|de]] ______.",
+          "question": "[[Elderly people often suffer from|Las personas mayores   a menudo sufren de]] ______.",
           "options": [
             "[[loneliness|soledad]]",
             "[[entertainment|entretenimiento]]",
@@ -969,7 +969,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Establecer límites",
       "instructions": "Ordena la oración sobre los límites y el resentimiento.",
-      "correctSentence": "[[If|Si]] [[we|nosotros]] [[don't|no]] [[learn|aprendemos]] [[to|a]] [[set|establecer]] [[boundaries|límites]], [[we|nosotros]] [[might|podríamos]] [[end|terminar]] [[up| ]] [[feeling|sintiéndonos]] [[resentful|resentidos]] [[toward|hacia]] [[our|nuestros]] [[family|familiares]] [[members| ]].",
+      "correctSentence": "[[If we, we don't learn to set boundaries might end up feeling resentful toward our family members|Si nosotros no aprendemos a establecer límites, nosotros podríamos terminar   sintiéndonos resentidos hacia nuestros familiares  ]].",
       "words": [
         "[[members| ]].",
         "[[resentful|resentidos]]",
@@ -1007,7 +1007,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el término que describe ser uno mismo de verdad.",
       "questions": [
         {
-          "question": "______ [[is|es]] [[highly|muy]] [[valued|valorada]] [[in|en]] [[modern|el liderazgo moderno]] [[leadership| ]].",
+          "question": "______ [[is highly valued in modern leadership|es muy valorada en el liderazgo moderno  ]].",
           "options": [
             "[[Authenticity|La autenticidad]]",
             "[[Hypocrisy|La hipocresía]]",
@@ -1034,7 +1034,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el adjetivo que describe la exposición al daño emocional.",
       "questions": [
         {
-          "question": "[[It|Es]] [[is|difícil]] [[hard| ]] [[to|ser]] [[be| ]] ______ [[around|cerca de]] [[new|gente nueva]] [[people| ]].",
+          "question": "[[It is hard to be new people|Es difícil   ser  ]] ______ [[around|cerca de gente nueva  ]].",
           "options": [
             "[[vulnerable|vulnerable]]",
             "[[aggressive|agresivo]]",
@@ -1059,7 +1059,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mantener la calma",
       "instructions": "Ordena la oración sobre el autocontrol en situaciones difíciles.",
-      "correctSentence": "[[Even|Aunque]] [[though| ]] [[it|era]] [[was| ]] [[a|una]] [[difficult|situación]] [[situation|difícil]], [[she|ella]] [[managed|logró]] [[to|mantener]] [[keep| ]] [[her|la]] [[cool|calma]] [[and|y]] [[solve|resolver]] [[the|el]] [[problem|problema]].",
+      "correctSentence": "[[Even though, she it was a difficult situation managed to keep her cool and solve the problem|Aunque   era   una situación difícil, ella logró mantener   la calma y resolver el problema]].",
       "words": [
         "[[problem|problema]].",
         "[[managed|logró]]",
@@ -1097,7 +1097,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el resentimiento por lo ajeno.",
       "questions": [
         {
-          "question": "______ [[can|puede]] [[destroy|destruir]] [[even|incluso]] [[the|las]] [[best|mejores]] [[friendships|amistades]].",
+          "question": "______ [[can destroy even the best friendships|puede destruir incluso las mejores amistades]].",
           "options": [
             "[[Envy|La envidia]]",
             "[[Trust|La confianza]]",
@@ -1124,7 +1124,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la acción de perdonar.",
       "questions": [
         {
-          "question": "[[Practicing|Practicar]] ______ [[is|es]] [[the|el]] [[only|único]] [[way|camino]] [[to|hacia]] [[inner|la paz]] [[peace|interior]].",
+          "question": "[[Practicing the only way to inner peace|Practicar]] ______ [[is|es el único camino hacia la paz interior]].",
           "options": [
             "[[forgiveness|el perdón]]",
             "[[revenge|la venganza]]",
@@ -1149,7 +1149,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Dar un consejo",
       "instructions": "Ordena la oración para dar un consejo usando el segundo condicional.",
-      "correctSentence": "[[If|Si]] [[I|yo]] [[were|fuera]] [[you|tú]], [[I|yo]] [[would|intentaría]] [[try| ]] [[to|pedir]] [[apologize|perdón]] [[to|a]] [[your|tu]] [[brother|hermano]] [[for|por]] [[what|lo que]] [[you|tú]] [[said|dijiste]] [[earlier|antes]].",
+      "correctSentence": "[[If I, I would were you try to apologize to your brother for what you said earlier|Si yo fuera tú, yo intentaría   pedir perdón a tu hermano por lo que tú dijiste antes]].",
       "words": [
         "[[earlier|antes]].",
         "[[to|pedir]]",
@@ -1187,7 +1187,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que describe a una persona modesta.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[his|su]] [[success|éxito]], [[he|él]] [[remained|permaneció]] ______ [[and|y]] [[kind|amable]].",
+          "question": "[[Despite his, he success remained|A pesar de su éxito, él permaneció]] ______ [[and kind|y amable]].",
           "options": [
             "[[humble|humilde]]",
             "[[arrogant|arrogante]]",
@@ -1214,7 +1214,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para el deseo de aprender.",
       "questions": [
         {
-          "question": "[[Children|Los niños]] [[are|tienen]] [[full|están llenos]] [[of|de]] ______ [[about|sobre]] [[the|el]] [[world|mundo]].",
+          "question": "[[Children are full of|Los niños tienen están llenos de]] ______ [[about the world|sobre el mundo]].",
           "options": [
             "[[curiosity|curiosidad]]",
             "[[fear|miedo]]",
@@ -1239,7 +1239,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Lenguaje corporal",
       "instructions": "Ordena la oración sobre el lenguaje corporal y la comunicación.",
-      "correctSentence": "[[Being|Ser]] [[aware|consciente]] [[of|de]] [[your|tu]] [[body|lenguaje]] [[language|corporal]] [[can|puede]] [[help|ayudarte]] [[you|a ti]] [[communicate|comunicar]] [[your|tus]] [[intentions|intenciones]] [[more|más]] [[effectively|eficazmente]].",
+      "correctSentence": "[[Being aware of your body language can help you communicate your intentions more effectively|Ser consciente de tu lenguaje corporal puede ayudarte a ti comunicar tus intenciones más eficazmente]].",
       "words": [
         "[[effectively|eficazmente]].",
         "[[intentions|intenciones]]",
@@ -1274,7 +1274,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que describe a alguien positivo.",
       "questions": [
         {
-          "question": "[[Despite|Pese a]] [[the|los]] [[problems|problemas]], [[she|ella]] [[is|es]] ______ [[about|respecto a]] [[the|el]] [[result|resultado]].",
+          "question": "[[Despite the, she problems is|Pese a los problemas, ella es]] ______ [[about the result|respecto a el resultado]].",
           "options": [
             "[[optimistic|optimista]]",
             "[[pessimistic|pesimista]]",
@@ -1301,7 +1301,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la seguridad en uno mismo.",
       "questions": [
         {
-          "question": "[[Self-confidence|La autoconfianza]] ______ [[is|es]] [[the|la]] [[first|primera]] [[secret|clave]] [[of|del]] [[success|éxito]].",
+          "question": "[[Self-confidence the first secret of success|La autoconfianza]] ______ [[is|es la primera clave del éxito]].",
           "options": [
             "[[confidence|confianza]]",
             "[[fear|miedo]]",
@@ -1326,7 +1326,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Diferenciar emociones",
       "instructions": "Ordena la oración sobre la diferenciación de emociones propias y ajenas.",
-      "correctSentence": "[[We|Nosotros]] [[must|debemos]] [[learn|aprender]] [[how|cómo]] [[to|diferenciar]] [[differentiate| ]] [[between|entre]] [[our|nuestras]] [[own|propias]] [[emotions|emociones]] [[and|y]] [[the|las]] [[emotions|emociones]] [[of|de]] [[others|otros]] [[around|a nuestro]] [[us|alrededor]].",
+      "correctSentence": "[[We must learn how to differentiate between our own emotions and the emotions of others around us|Nosotros debemos aprender cómo diferenciar   entre nuestras propias emociones y las emociones de otros a nuestro alrededor]].",
       "words": [
         "[[us|alrededor]].",
         "[[emotions|emociones]]",
@@ -1364,7 +1364,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo que describe sentir algo con intensidad.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es]] [[very|muy]] ______ [[about|con]] [[helping|la ayuda a]] [[the|los]] [[environment|animales]] [[animals| ]].",
+          "question": "[[He is very helping animals|Él es muy]] ______ [[about the environment|con la ayuda a los animales  ]].",
           "options": [
             "[[passionate|apasionado]]",
             "[[indifferent|indiferente]]",
@@ -1391,7 +1391,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el sentimiento de desconexión social.",
       "questions": [
         {
-          "question": "[[Feeling|Sentir]] ______ [[can|puede]] [[happen|ocurrir]] [[even|incluso]] [[when|cuando]] [[you|tú]] [[are|estás]] [[with|con]] [[people|gente]].",
+          "question": "[[Feeling happen even when you are with people|Sentir]] ______ [[can|puede ocurrir incluso cuando tú estás con gente]].",
           "options": [
             "[[lonely|solo (emoción)]]",
             "[[alone|solo (estado)]]",
@@ -1416,7 +1416,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "content": {
       "title": "Conexiones sociales",
       "instructions": "Ordena la oración sobre la importancia de las conexiones sociales.",
-      "correctSentence": "[[Research|La investigación]] [[has|ha]] [[proven|demostrado]] [[that|que]] [[maintaining|mantener]] [[positive|conexiones]] [[social|sociales]] [[connections|positivas]] [[is|es]] [[vital|vital]] [[for|para]] [[our|nuestra]] [[long-term|felicidad a largo plazo]] [[happiness| ]].",
+      "correctSentence": "[[Research has proven that maintaining positive social connections is vital for our long-term happiness|La investigación ha demostrado que mantener conexiones sociales positivas es vital para nuestra felicidad a largo plazo  ]].",
       "words": [
         "[[happiness| ]].",
         "[[proven|demostrado]]",
@@ -1451,7 +1451,7 @@ export const UNIT_24_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para tratarse bien a uno mismo.",
       "questions": [
         {
-          "question": "[[Practicing|Practicar]] ______ [[means|significa]] [[being|ser]] [[kind|amable]] [[to|con]] [[yourself|uno mismo]].",
+          "question": "[[Practicing being kind to yourself|Practicar]] ______ [[means|significa ser amable con uno mismo]].",
           "options": [
             "[[self-compassion|autocompasión]]",
             "[[self-criticism|autocrítica]]",

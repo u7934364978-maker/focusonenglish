@@ -13,7 +13,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término correcto para una regla oficial.",
       "questions": [
         {
-          "question": "[[Everyone|Todos]] [[must|deben]] [[follow|seguir]] [[the|la]] ______.",
+          "question": "[[Everyone must follow the|Todos deben seguir la]] ______.",
           "options": [
             "[[law|ley]]",
             "[[suggestion|sugerencia]]",
@@ -40,7 +40,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que significa dinero pagado como castigo.",
       "questions": [
         {
-          "question": "[[He|Él]] [[paid|pagó]] [[a|una]] [[heavy|pesada]] ______.",
+          "question": "[[He paid a heavy|Él pagó una pesada]] ______.",
           "options": [
             "[[fine|multa]]",
             "[[bill|factura]]",
@@ -65,7 +65,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reglas de Tráfico",
       "instructions": "Ordena la prohibición sobre conducir.",
-      "correctSentence": "[[You|Tú]] [[must|debes]] [[never|nunca]] [[drive|conducir]] [[any|ningún]] [[vehicle|vehículo]] [[without|sin]] [[a|una]] [[valid|válida]] [[license|licencia]].",
+      "correctSentence": "[[You must never drive any vehicle without a valid license|Tú debes nunca conducir ningún vehículo sin una válida licencia]].",
       "words": [
         "[[license|licencia]].",
         "[[must|debes]]",
@@ -96,7 +96,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la profesión encargada de dictar sentencias.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[listened|escuchó]] [[to|a]] [[the|la]] [[evidence|evidencia]].",
+          "question": "[[The to the evidence|El]] ______ [[listened|escuchó a la evidencia]].",
           "options": [
             "[[judge|juez]]",
             "[[police officer|oficial de policía]]",
@@ -123,7 +123,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de expresar obligación externa.",
       "questions": [
         {
-          "question": "[[You|Tú]] ______ [[wear|llevar]] [[a|un]] [[seatbelt|cinturón]].",
+          "question": "[[You a seatbelt|Tú]] ______ [[wear|llevar un cinturón]].",
           "options": [
             "[[have to|tienes que]]",
             "[[might|podrías]]",
@@ -150,7 +150,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la persona que presencia un hecho.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[told|contó]] [[the|la]] [[truth|verdad]].",
+          "question": "[[The the truth|El]] ______ [[told|contó la verdad]].",
           "options": [
             "[[witness|testigo]]",
             "[[thief|ladrón]]",
@@ -175,7 +175,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Atrapado",
       "instructions": "Ordena la oración sobre la detención de un ladrón.",
-      "correctSentence": "[[The|La]] [[local|local]] [[police|policía]] [[finally|finalmente]] [[caught|atrapó]] [[the|al]] [[dangerous|peligroso]] [[thief|ladrón]] [[last|la pasada]] [[night|noche]].",
+      "correctSentence": "[[The local police finally caught the dangerous thief last night|La local policía finalmente atrapó al peligroso ladrón la pasada noche]].",
       "words": [
         "[[thief|ladrón]]",
         "[[police|policía]]",
@@ -206,7 +206,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa tomar algo ajeno.",
       "questions": [
         {
-          "question": "[[It|Es]] [[is| ]] [[wrong|malo]] [[to| ]] ______ [[money|dinero]].",
+          "question": "[[It is wrong to|Es   malo  ]] ______ [[money|dinero]].",
           "options": [
             "[[steal|robar]]",
             "[[borrow|pedir prestado]]",
@@ -233,7 +233,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para las pruebas en un caso.",
       "questions": [
         {
-          "question": "[[There|Hubo]] [[was| ]] [[no|ninguna]] ______ [[against|contra]] [[him|él]].",
+          "question": "[[There was no him|Hubo   ninguna]] ______ [[against|contra él]].",
           "options": [
             "[[evidence|evidencia / prueba]]",
             "[[alibi|coartada]]",
@@ -260,7 +260,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la profesión que defiende en un juicio.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesito]] [[to| ]] [[talk|hablar]] [[to|con]] [[my|mi]] ______.",
+          "question": "[[I need to talk to my|Yo necesito   hablar con mi]] ______.",
           "options": [
             "[[lawyer|abogado]]",
             "[[dentist|dentista]]",
@@ -285,7 +285,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "En Prisión",
       "instructions": "Ordena la frase sobre una condena de cárcel.",
-      "correctSentence": "[[He|Él]] [[was|fue]] [[immediately|inmediatamente]] [[sent|enviado]] [[to|a]] [[prison|prisión]] [[for|por]] [[several|varios]] [[long|largos]] [[years|años]].",
+      "correctSentence": "[[He was immediately sent to prison for several long years|Él fue inmediatamente enviado a prisión por varios largos años]].",
       "words": [
         "[[prison|prisión]]",
         "[[sent|enviado]]",
@@ -316,7 +316,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el modal para dar un consejo o norma social.",
       "questions": [
         {
-          "question": "[[You|Tú]] ______ [[smoke|fumar]] [[here|aquí]].",
+          "question": "[[You here|Tú]] ______ [[smoke|fumar aquí]].",
           "options": [
             "[[shouldn't|no deberías]]",
             "[[must|debes]]",
@@ -343,7 +343,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el proceso judicial.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[lasted|duró]] [[three|tres]] [[weeks|semanas]].",
+          "question": "[[The three weeks|El]] ______ [[lasted|duró tres semanas]].",
           "options": [
             "[[trial|juicio]]",
             "[[meeting|reunión]]",
@@ -370,7 +370,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo opuesto a inocente.",
       "questions": [
         {
-          "question": "[[The|El]] [[jury|jurado]] [[found|encontró]] [[him|lo]] ______.",
+          "question": "[[The jury found him|El jurado encontró lo]] ______.",
           "options": [
             "[[guilty|culpable]]",
             "[[innocent|inocente]]",
@@ -395,7 +395,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Aparcamiento",
       "instructions": "Ordena la pregunta sobre la obligación de pagar.",
-      "correctSentence": "[[Do|¿]] [[you|tú]] [[really|realmente]] [[have|tienes]] [[to|que]] [[pay|pagar]] [[for|por]] [[parking|aparcamiento]] [[around|alrededor de]] [[this|esta]] [[area|área]] [[?|?]]",
+      "correctSentence": "[[Do you really have to pay for parking around this area ?|¿ tú realmente tienes que pagar por aparcamiento alrededor de esta área ?]]",
       "words": [
         "[[pay|pagar]]",
         "[[Do|¿]]",
@@ -428,7 +428,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el adjetivo para alguien que no hizo nada malo.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es]] ______ [[until|hasta]] [[proven|demostrado]] [[guilty|culpable]].",
+          "question": "[[He is guilty|Él es]] ______ [[until proven|hasta demostrado culpable]].",
           "options": [
             "[[innocent|inocente]]",
             "[[guilty|culpable]]",
@@ -455,7 +455,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el nombre del delito de robar en una tienda.",
       "questions": [
         {
-          "question": "______ [[is|es]] [[a|un]] [[common|común]] [[crime|delito]].",
+          "question": "______ [[is a common crime|es un común delito]].",
           "options": [
             "[[Shoplifting|Hurto en tiendas]]",
             "[[Murder|Asesinato]]",
@@ -480,7 +480,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Identificación",
       "instructions": "Ordena la frase sobre la falta de permiso.",
-      "correctSentence": "[[You|Tú]] [[certainly|ciertamente]] [[cannot|no puedes]] [[enter|entrar]] [[this|este]] [[building|edificio]] [[without|sin]] [[showing|mostrar]] [[your|tu]] [[ID|DNI]].",
+      "correctSentence": "[[You certainly cannot enter this building without showing your ID|Tú ciertamente no puedes entrar este edificio sin mostrar tu DNI]].",
       "words": [
         "[[without|sin]]",
         "[[ID|DNI]].",
@@ -511,7 +511,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que describe la acción de detener a alguien.",
       "questions": [
         {
-          "question": "[[The|La]] [[police|policía]] ______ [[him|lo]] [[yesterday|ayer]].",
+          "question": "[[The police|La policía]] ______ [[him yesterday|lo ayer]].",
           "options": [
             "[[arrested|arrestó]]",
             "[[called|llamó]]",
@@ -538,7 +538,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el grupo de ciudadanos en un juicio.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[reached|llegó a]] [[a|un]] [[verdict|veredicto]].",
+          "question": "[[The a verdict|El]] ______ [[reached|llegó a un veredicto]].",
           "options": [
             "[[jury|jurado]]",
             "[[audience|audiencia]]",
@@ -563,7 +563,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Prohibición",
       "instructions": "Ordena la frase sobre la prohibición de fumar.",
-      "correctSentence": "[[Smoking|Fumar]] [[is|está]] [[strictly|estrictamente]] [[not|no]] [[allowed|permitido]] [[inside|dentro de]] [[any|cualquier]] [[part|parte]] [[of|de]] [[this|este]] [[hospital|hospital]].",
+      "correctSentence": "[[Smoking is strictly not allowed inside any part of this hospital|Fumar está estrictamente no permitido dentro de cualquier parte de este hospital]].",
       "words": [
         "[[allowed|permitido]]",
         "[[is|está]]",
@@ -595,7 +595,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para la persona de la que se sospecha.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[have|tienen]] [[a|un]] [[main|principal]] ______.",
+          "question": "[[They have a main|Ellos tienen un principal]] ______.",
           "options": [
             "[[suspect|sospechoso]]",
             "[[friend|amigo]]",
@@ -622,7 +622,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el valor de la equidad legal.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[seek|buscamos]] ______ [[for|para]] [[all|todos]].",
+          "question": "[[We seek|Nosotros buscamos]] ______ [[for all|para todos]].",
           "options": [
             "[[justice|justicia]]",
             "[[revenge|venganza]]",
@@ -647,7 +647,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Respeto a la Ley",
       "instructions": "Ordena la frase sobre el cumplimiento de las leyes.",
-      "correctSentence": "[[We|Nosotros]] [[must|debemos]] [[always|siempre]] [[respect|respetar]] [[the|las]] [[important|importantes]] [[rules|reglas]] [[of|de]] [[our|nuestra]] [[modern|moderna]] [[society|sociedad]].",
+      "correctSentence": "[[We must always respect the important rules of our modern society|Nosotros debemos siempre respetar las importantes reglas de nuestra moderna sociedad]].",
       "words": [
         "[[rules|reglas]]",
         "[[Respect|Respeta]]",
@@ -679,7 +679,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta para decir que algo no es obligatorio.",
       "questions": [
         {
-          "question": "[[You|Tú]] ______ [[bring|traer]] [[a|un]] [[gift|regalo]].",
+          "question": "[[You a gift|Tú]] ______ [[bring|traer un regalo]].",
           "options": [
             "[[don't have to|no tienes que]]",
             "[[mustn't|no debes]]",
@@ -706,7 +706,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la persona perjudicada.",
       "questions": [
         {
-          "question": "[[The|La]] ______ [[is|está]] [[recovering|recuperándose]].",
+          "question": "[[The recovering|La]] ______ [[is|está recuperándose]].",
           "options": [
             "[[victim|víctima]]",
             "[[culprit|culpable]]",
@@ -733,7 +733,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para ofrecer dinero a cambio de favores ilegales.",
       "questions": [
         {
-          "question": "[[He|Él]] [[was|fue]] [[accused|acusado]] [[of|de]] ______.",
+          "question": "[[He was accused of|Él fue acusado de]] ______.",
           "options": [
             "[[bribery|soborno]]",
             "[[speeding|exceso de velocidad]]",
@@ -758,7 +758,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Seguridad",
       "instructions": "Ordena la frase sobre el propósito de las reglas.",
-      "correctSentence": "[[Rules|Las reglas]] [[keep|mantienen]] [[us|nos]] [[safe|seguros]].",
+      "correctSentence": "[[Rules keep us safe|Las reglas mantienen nos seguros]].",
       "words": [
         "[[safe|seguros]].",
         "[[Rules|Las reglas]]",
@@ -783,7 +783,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para una infracción leve.",
       "questions": [
         {
-          "question": "[[It|Es]] [[was|fue]] [[a|una]] [[minor|menor]] ______.",
+          "question": "[[It was a minor|Es fue una menor]] ______.",
           "options": [
             "[[offense|infracción / delito leve]]",
             "[[tragedy|tragedia]]",
@@ -810,7 +810,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa iniciar un proceso legal contra alguien.",
       "questions": [
         {
-          "question": "[[She|Ella]] ______ [[the|a la]] [[company|empresa]].",
+          "question": "[[She company|Ella]] ______ [[the|a la empresa]].",
           "options": [
             "[[sued|demandó]]",
             "[[bought|compró]]",
@@ -835,7 +835,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Semáforo en Rojo",
       "instructions": "Ordena la obligación de tráfico.",
-      "correctSentence": "[[Always|Siempre]] [[stop|para]] [[at|en]] [[red|rojo]] [[lights|luces]].",
+      "correctSentence": "[[Always stop at red lights|Siempre para en rojo luces]].",
       "words": [
         "[[lights|luces]].",
         "[[Always|Siempre]]",
@@ -861,7 +861,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término legal para el cuidado de un menor.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[fought|lucharon]] [[for|por]] [[joint|la]] ______.",
+          "question": "[[They fought for joint|Ellos lucharon por la]] ______.",
           "options": [
             "[[custody|custodia]]",
             "[[money|dinero]]",
@@ -888,7 +888,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para demostrar que no estabas en el lugar del crimen.",
       "questions": [
         {
-          "question": "[[He|Él]] [[has|tiene]] [[a|una]] [[strong|fuerte]] ______.",
+          "question": "[[He has a strong|Él tiene una fuerte]] ______.",
           "options": [
             "[[alibi|coartada]]",
             "[[excuse|excusa]]",
@@ -913,7 +913,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "¿Es Legal?",
       "instructions": "Ordena la pregunta sobre la legalidad.",
-      "correctSentence": "[[Is|¿Es]] [[it|esto]] [[legal|legal]] [[to| ]] [[park|aparcar]] [[here|aquí]] [[?|?]]",
+      "correctSentence": "[[Is it legal to park here ?|¿Es esto legal   aparcar aquí ?]]",
       "words": [
         "[[here|aquí]]",
         "[[legal|legal]]",
@@ -941,7 +941,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para la decisión final del jurado.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[await|esperamos]] [[the|el]] ______.",
+          "question": "[[We await the|Nosotros esperamos el]] ______.",
           "options": [
             "[[verdict|veredicto]]",
             "[[sentence|sentencia]]",
@@ -968,7 +968,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el lugar de trabajo de la policía.",
       "questions": [
         {
-          "question": "[[Go|Ve]] [[to|a]] [[the|la]] ______.",
+          "question": "[[Go to the|Ve a la]] ______.",
           "options": [
             "[[police station|comisaría]]",
             "[[fire station|parque de bomberos]]",
@@ -993,7 +993,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Propiedad Ajena",
       "instructions": "Ordena el consejo sobre la propiedad.",
-      "correctSentence": "[[Respect|Respeta]] [[the|la]] [[property|propiedad]] [[of|de]] [[others|otros]].",
+      "correctSentence": "[[Respect the property of others|Respeta la propiedad de otros]].",
       "words": [
         "[[property|propiedad]]",
         "[[Respect|Respeta]]",
@@ -1019,7 +1019,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para la condena impuesta.",
       "questions": [
         {
-          "question": "[[He|Él]] [[received|recibió]] [[a|una]] [[long|larga]] ______.",
+          "question": "[[He received a long|Él recibió una larga]] ______.",
           "options": [
             "[[sentence|sentencia / condena]]",
             "[[letter|carta]]",
@@ -1046,7 +1046,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa no permitir por ley.",
       "questions": [
         {
-          "question": "[[Laws|Las leyes]] ______ [[illegal|actos]] [[acts|ilegales]].",
+          "question": "[[Laws acts|Las leyes]] ______ [[illegal|actos ilegales]].",
           "options": [
             "[[prohibit|prohíben]]",
             "[[encourage|fomentan]]",
@@ -1071,7 +1071,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Obedecer",
       "instructions": "Ordena la frase sobre el cumplimiento de normas.",
-      "correctSentence": "[[We|Nosotros]] [[must|debemos]] [[obey|obedecer]] [[the|las]] [[rules|reglas]].",
+      "correctSentence": "[[We must obey the rules|Nosotros debemos obedecer las reglas]].",
       "words": [
         "[[rules|reglas]].",
         "[[obey|obedecer]]",
@@ -1097,7 +1097,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para quien roba entrando en edificios.",
       "questions": [
         {
-          "question": "[[The|El]] ______ [[entered|entró]] [[through|por]] [[the|la]] [[window|ventana]].",
+          "question": "[[The through the window|El]] ______ [[entered|entró por la ventana]].",
           "options": [
             "[[burglar|ladrón (de viviendas)]]",
             "[[policeman|policía]]",
@@ -1124,7 +1124,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para un arreglo negociado.",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[signed|firmaron]] [[the|el]] ______.",
+          "question": "[[They signed the|Ellos firmaron el]] ______.",
           "options": [
             "[[agreement|acuerdo]]",
             "[[conflict|conflicto]]",
@@ -1149,7 +1149,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Promesas",
       "instructions": "Ordena el consejo sobre las promesas.",
-      "correctSentence": "[[Never|Nunca]] [[break|rompas]] [[your|tus]] [[promises|promesas]].",
+      "correctSentence": "[[Never break your promises|Nunca rompas tus promesas]].",
       "words": [
         "[[promises|promesas]].",
         "[[break|rompas]]",
@@ -1174,7 +1174,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término para el miembro de un estado.",
       "questions": [
         {
-          "question": "[[Every|Cada]] ______ [[has|tiene]] [[rights|derechos]].",
+          "question": "[[Every rights|Cada]] ______ [[has|tiene derechos]].",
           "options": [
             "[[citizen|ciudadano]]",
             "[[alien|extranjero/aliado]]",
@@ -1201,7 +1201,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el comportamiento deshonesto oficial.",
       "questions": [
         {
-          "question": "______ [[is|es]] [[a|un]] [[serious|serio]] [[issue|problema]].",
+          "question": "______ [[is a serious issue|es un serio problema]].",
           "options": [
             "[[Corruption|Corrupción]]",
             "[[Honesty|Honestidad]]",
@@ -1226,7 +1226,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Permiso para Aparcar",
       "instructions": "Ordena la pregunta sobre permiso.",
-      "correctSentence": "[[Can|¿Puedo]] [[I|yo]] [[park|aparcar]] [[here|aquí]] [[?|?]]",
+      "correctSentence": "[[Can I park here ?|¿Puedo yo aparcar aquí ?]]",
       "words": [
         "[[here|aquí]]",
         "[[park|aparcar]]",
@@ -1252,7 +1252,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra para algo que es obligatorio.",
       "questions": [
         {
-          "question": "[[It|Es]] [[is|es]] [[your|tu]] ______ [[to|de]] [[vote|votar]].",
+          "question": "[[It is your vote|Es es tu]] ______ [[to|de votar]].",
           "options": [
             "[[duty|deber / obligación]]",
             "[[choice|elección]]",
@@ -1279,7 +1279,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para tener los mismos derechos.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[believe|creemos]] [[in|en]] [[social|la]] ______.",
+          "question": "[[We believe in social|Nosotros creemos en la]] ______.",
           "options": [
             "[[equality|igualdad]]",
             "[[division|división]]",
@@ -1304,7 +1304,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Silencio en la Sala",
       "instructions": "Ordena la frase sobre la llegada del juez.",
-      "correctSentence": "[[Silence|Silencio]] [[in|en]] [[the|la]] [[courtroom|sala]].",
+      "correctSentence": "[[Silence in the courtroom|Silencio en la sala]].",
       "words": [
         "[[courtroom|sala]].",
         "[[Silence|Silencio]]",
@@ -1329,7 +1329,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el sinónimo de sanción económica.",
       "questions": [
         {
-          "question": "[[The|La]] ______ [[was|fue]] [[very|muy]] [[high|alta]].",
+          "question": "[[The very high|La]] ______ [[was|fue muy alta]].",
           "options": [
             "[[penalty|penalización / multa]]",
             "[[reward|recompensa]]",

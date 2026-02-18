@@ -69,7 +69,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[enjoy|enjoy]]) _______ [[reading|reading]] [[books|books]].",
+          "question": "[[I books|Yo]] ([[enjoy|enjoy]]) _______ [[reading|reading books]].",
           "options": [
             "[[to|a/para]]",
             "[[enjoy|enjoy]]",
@@ -95,7 +95,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[have|tener/haber]] [[got|tienes/conseguido]]) _______ [[a|un/una]] [[new|nuevo]] [[phone|teléfono]].",
+          "question": "[[She got phone|Ella]] ([[have|tener/haber tienes/conseguido]]) _______ [[a new|un/una nuevo teléfono]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -121,7 +121,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[chat|chat]]) _______ [[online|online]] [[every|every]] [[day|día]].",
+          "question": "[[We every day|Nosotros]] ([[chat|chat]]) _______ [[online|online every día]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -147,7 +147,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[be|ser/estar]]) _______ [[travel|travel]] [[next|next]] [[week|semana]].",
+          "question": "[[I next week|Yo]] ([[be|ser/estar]]) _______ [[travel|travel next semana]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -173,7 +173,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[meet|conocer/encontrar]]) _______ [[his|su (de él)]] [[friends|friends]] [[at|en]] [[8|8]] [[PM|PM]].",
+          "question": "[[He friends at 8 PM|Él]] ([[meet|conocer/encontrar]]) _______ [[his|su (de él) friends en 8 PM]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -199,7 +199,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[think|pensar/creer]] [[it|eso]] ([[rain|rain]]) _______ [[tomorrow|mañana]].",
+          "question": "[[I think it|Yo pensar/creer eso]] ([[rain|rain]]) _______ [[tomorrow|mañana]].",
           "options": [
             "[[will rain|will rain]]",
             "[[to|a/para]]",
@@ -225,7 +225,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Eso]] ([[might|might]]) _______ [[be|ser/estar]] [[cold|frío]] [[tonight|tonight]].",
+          "question": "[[It cold tonight|Eso]] ([[might|might]]) _______ [[be|ser/estar frío tonight]].",
           "options": [
             "[[might|might]]",
             "[[to|a/para]]",
@@ -251,7 +251,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Who|Quién/que]] ([[invent|invent]]) _______ [[the|el/la/los/las]] [[internet|internet]]?",
+          "question": "[[Who internet|Quién/que]] ([[invent|invent]]) _______ [[the|el/la/los/las internet]]?",
           "options": [
             "[[invented|invented]]",
             "[[to|a/para]]",
@@ -277,7 +277,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Modern|Modern]] [[life|vida]] [[is|es/está]] _______ ([[fast|fast]]) [[than|que (comparativo)]] [[traditional|traditional]] [[life|vida]].",
+          "question": "[[Modern life is traditional|Modern vida es/está]] _______ ([[fast life|fast]]) [[than|que (comparativo) traditional vida]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -303,7 +303,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Do|Hacer]] [[you|tú/usted]] _______ ([[know|saber/conocer]]) [[how|cómo]] [[to|a/para]] [[use|use]] [[this|este/esta]] [[app|app]]?",
+          "question": "[[Do you use this app|Hacer tú/usted]] _______ ([[know to|saber/conocer]]) [[how|cómo a/para use este/esta app]]?",
           "options": [
             "[[know|saber/conocer]]",
             "[[to|a/para]]",
@@ -327,7 +327,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[enjoy|enjoy]] [[going|going]] [[to|a/para]] [[the|el/la/los/las]] [[cinema|cinema]].",
+      "correctSentence": "[[I enjoy going to the cinema|Yo enjoy going a/para el/la/los/las cinema]].",
       "words": [
         "[[to|a/para]]",
         "[[enjoy|enjoy]]",
@@ -351,7 +351,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My|Mi/mis]] [[smartphone|smartphone]] [[is|es/está]] [[very|muy]] [[useful|useful]].",
+      "correctSentence": "[[My smartphone is very useful|Mi/mis smartphone es/está muy useful]].",
       "words": [
         "[[useful|useful]].",
         "[[very|muy]]",
@@ -374,7 +374,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[sent|sent]] [[you|tú/usted]] [[an|un/una]] [[email|email]] [[yesterday|ayer]].",
+      "correctSentence": "[[I sent you an email yesterday|Yo sent tú/usted un/una email ayer]].",
       "words": [
         "[[email|email]]",
         "[[you|tú/usted]]",
@@ -398,7 +398,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[are|son/están]] [[going|going]] [[to|a/para]] [[visit|visit]] [[London|Londres]].",
+      "correctSentence": "[[We are going to visit London|Nosotros son/están going a/para visit Londres]].",
       "words": [
         "[[going|going]]",
         "[[We|Nosotros]]",
@@ -422,7 +422,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[having|having]] [[a|un/una]] [[party|party]] [[on|en/sobre]] [[Saturday|Saturday]].",
+      "correctSentence": "[[He is having a party on Saturday|Él es/está having un/una party en/sobre Saturday]].",
       "words": [
         "[[Saturday|Saturday]].",
         "[[on|en/sobre]]",
@@ -447,7 +447,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[hope|hope]] [[you|tú/usted]] [[will|hará (futuro)]] [[be|ser/estar]] [[happy|feliz]].",
+      "correctSentence": "[[I hope you will be happy|Yo hope tú/usted hará (futuro) ser/estar feliz]].",
       "words": [
         "[[will|hará (futuro)]]",
         "[[hope|hope]]",
@@ -471,7 +471,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[It|Eso]] [[will|hará (futuro)]] [[probably|probably]] [[be|ser/estar]] [[sunny|sunny]] [[tomorrow|mañana]].",
+      "correctSentence": "[[It will probably be sunny tomorrow|Eso hará (futuro) probably ser/estar sunny mañana]].",
       "words": [
         "[[be|ser/estar]]",
         "[[sunny|sunny]]",
@@ -495,7 +495,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[telephone|telephone]] [[was|era/fue/estaba/estuvo]] [[a|un/una]] [[great|great]] [[invention|invention]].",
+      "correctSentence": "[[The telephone was a great invention|El/la/los/las telephone era/fue/estaba/estuvo un/una great invention]].",
       "words": [
         "[[a|un/una]]",
         "[[was|era/fue/estaba/estuvo]]",
@@ -519,7 +519,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Life|Vida]] [[is|es/está]] [[very|muy]] [[busy|ocupado]] [[in|en]] [[the|el/la/los/las]] [[city|ciudad]].",
+      "correctSentence": "[[Life is very busy in the city|Vida es/está muy ocupado en el/la/los/las ciudad]].",
       "words": [
         "[[Life|Vida]]",
         "[[is|es/está]]",
@@ -544,7 +544,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[use|use]] [[my|mi/mis]] [[computer|ordenador]] [[every|every]] [[day|día]].",
+      "correctSentence": "[[I use my computer every day|Yo use mi/mis ordenador every día]].",
       "words": [
         "[[every|every]]",
         "[[day|día]].",

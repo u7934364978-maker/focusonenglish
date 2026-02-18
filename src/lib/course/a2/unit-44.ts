@@ -109,7 +109,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[You|Tú/usted]] ([[should|should]]) _______ [[eat|comer]] [[more|más]] [[vegetables|verduras]].",
+          "question": "[[You more vegetables|Tú/usted]] ([[should|should]]) _______ [[eat|comer más verduras]].",
           "options": [
             "[[should|should]]",
             "[[to|a/para]]",
@@ -135,7 +135,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[try|try]]) _______ [[to|a/para]] [[walk|walk]] [[10,000|10,000]] [[steps|steps]] [[a|un/una]] [[day|día]].",
+          "question": "[[I walk 10,000 steps a day|Yo]] ([[try|try]]) _______ [[to|a/para walk 10,000 steps un/una día]].",
           "options": [
             "[[to|a/para]]",
             "[[it|eso]]",
@@ -187,7 +187,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[be|ser/estar]]) _______ [[trying|trying]] [[to|a/para]] [[lose|lose]] [[weight|weight]].",
+          "question": "[[We to lose weight|Nosotros]] ([[be|ser/estar]]) _______ [[trying|trying a/para lose weight]].",
           "options": [
             "[[are|son/están]]",
             "[[to|a/para]]",
@@ -213,7 +213,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Do|Hacer]] [[you|tú/usted]] _______ ([[go|ir]]) [[to|a/para]] [[the|el/la/los/las]] [[gym|gym]] [[often|a menudo]]?",
+          "question": "[[Do you gym often|Hacer tú/usted]] _______ ([[go the|ir]]) [[to|a/para el/la/los/las gym a menudo]]?",
           "options": [
             "[[go|ir]]",
             "[[it|eso]]",
@@ -239,7 +239,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[eat|comer]]) _______ [[a|un/una]] [[very|muy]] [[healthy|healthy]] [[diet|diet]].",
+          "question": "[[They very healthy diet|Ellos]] ([[eat|comer]]) _______ [[a|un/una muy healthy diet]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -265,7 +265,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[drink|beber]]) _______ [[a|un/una]] [[lot|lot]] [[of|de]] [[water|agua]].",
+          "question": "[[He lot of water|Él]] ([[drink|beber]]) _______ [[a|un/una lot de agua]].",
           "options": [
             "[[drinks|drinks]]",
             "[[it|eso]]",
@@ -291,7 +291,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Eso]] [[is|es/está]] [[important|important]] _______ ([[get|conseguir/obtener]]) [[enough|enough]] [[sleep|dormir]].",
+          "question": "[[It is important sleep|Eso es/está important]] _______ ([[get|conseguir/obtener]]) [[enough|enough dormir]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -317,7 +317,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[feel|feel]]) _______ [[much|much]] [[more|más]] [[energetic|energetic]] [[now|ahora]].",
+          "question": "[[I more energetic now|Yo]] ([[feel|feel]]) _______ [[much|much más energetic ahora]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -343,7 +343,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "_______ [[you|tú/usted]] [[exercise|exercise]] [[every|every]] [[day|día]]?",
+          "question": "_______ [[you exercise every day|tú/usted exercise every día]]?",
           "options": [
             "[[Do|Hacer]]",
             "[[to|a/para]]",
@@ -367,7 +367,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Eating|Eating]] [[fruit|fruta]] [[and|and]] [[vegetables|verduras]] [[is|es/está]] [[a|un/una]] [[healthy|healthy]] [[habit|habit]].",
+      "correctSentence": "[[Eating fruit and vegetables is a healthy habit|Eating fruta and verduras es/está un/una healthy habit]].",
       "words": [
         "[[and|and]]",
         "[[fruit|fruta]]",
@@ -393,7 +393,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[try|try]] [[to|a/para]] [[exercise|exercise]] [[at|en]] [[least|least]] [[three|tres]] [[times|times]] [[a|un/una]] [[week|semana]].",
+      "correctSentence": "[[I try to exercise at least three times a week|Yo try a/para exercise en least tres times un/una semana]].",
       "words": [
         "[[at|en]]",
         "[[try|try]]",
@@ -421,7 +421,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Drinking|Drinking]] [[plenty|plenty]] [[of|de]] [[water|agua]] [[is|es/está]] [[good|bueno/buena]] [[for|para/por]] [[your|tu/tus]] [[skin|skin]].",
+      "correctSentence": "[[Drinking plenty of water is good for your skin|Drinking plenty de agua es/está bueno/buena para/por tu/tus skin]].",
       "words": [
         "[[plenty|plenty]]",
         "[[your|tu/tus]]",
@@ -448,7 +448,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Getting|Getting]] [[enough|enough]] [[sleep|dormir]] [[is|es/está]] [[very|muy]] [[important|important]] [[for|para/por]] [[your|tu/tus]] [[health|health]].",
+      "correctSentence": "[[Getting enough sleep is very important for your health|Getting enough dormir es/está muy important para/por tu/tus health]].",
       "words": [
         "[[important|important]]",
         "[[enough|enough]]",
@@ -475,7 +475,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[enjoy|enjoy]] [[going|going]] [[for|para/por]] [[a|un/una]] [[run|run]] [[in|en]] [[the|el/la/los/las]] [[morning|mañana]].",
+      "correctSentence": "[[I enjoy going for a run in the morning|Yo enjoy going para/por un/una run en el/la/los/las mañana]].",
       "words": [
         "[[in|en]]",
         "[[for|para/por]]",
@@ -502,7 +502,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[has|tiene/ha]] [[a|un/una]] [[very|muy]] [[balanced|balanced]] [[diet|diet]].",
+      "correctSentence": "[[She has a very balanced diet|Ella tiene/ha un/una muy balanced diet]].",
       "words": [
         "[[very|muy]]",
         "[[a|un/una]]",
@@ -526,7 +526,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[should|should]] [[avoid|avoid]] [[eating|eating]] [[too|demasiado/también]] [[much|much]] [[fast|fast]] [[food|comida]].",
+      "correctSentence": "[[We should avoid eating too much fast food|Nosotros should avoid eating demasiado/también much fast comida]].",
       "words": [
         "[[food|comida]].",
         "[[eating|eating]]",
@@ -552,7 +552,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Regular|Regular]] [[exercise|exercise]] [[helps|helps]] [[to|a/para]] [[reduce|reduce]] [[stress|stress]].",
+      "correctSentence": "[[Regular exercise helps to reduce stress|Regular exercise helps a/para reduce stress]].",
       "words": [
         "[[reduce|reduce]]",
         "[[helps|helps]]",
@@ -576,7 +576,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[feel|feel]] [[more|más]] [[energetic|energetic]] [[when|cuándo]] [[I|Yo]] [[eat|comer]] [[well|bien]].",
+      "correctSentence": "[[I feel more energetic when I eat well|Yo feel más energetic cuándo Yo comer bien]].",
       "words": [
         "[[I|Yo]]",
         "[[I|Yo]]",
@@ -602,7 +602,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[trying|trying]] [[to|a/para]] [[lead|lead]] [[a|un/una]] [[more|más]] [[active|active]] [[lifestyle|lifestyle]].",
+      "correctSentence": "[[He is trying to lead a more active lifestyle|Él es/está trying a/para lead un/una más active lifestyle]].",
       "words": [
         "[[lifestyle|lifestyle]].",
         "[[more|más]]",
@@ -629,7 +629,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Walking|Walking]] [[is|es/está]] [[a|un/una]] [[great|great]] [[way|way]] [[to|a/para]] [[stay|stay]] [[fit|fit]].",
+      "correctSentence": "[[Walking is a great way to stay fit|Walking es/está un/una great way a/para stay fit]].",
       "words": [
         "[[is|es/está]]",
         "[[Walking|Walking]]",
@@ -655,7 +655,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[go|ir]] [[to|a/para]] [[the|el/la/los/las]] [[gym|gym]] [[after|después]] [[work|trabajo/trabajar]].",
+      "correctSentence": "[[I go to the gym after work|Yo ir a/para el/la/los/las gym después trabajo/trabajar]].",
       "words": [
         "[[go|ir]]",
         "[[work|trabajo/trabajar]].",
@@ -680,7 +680,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[It's|It's]] [[important|important]] [[to|a/para]] [[find|find]] [[time|tiempo/hora]] [[for|para/por]] [[relaxation|relaxation]].",
+      "correctSentence": "[[It's important to find time for relaxation|It's important a/para find tiempo/hora para/por relaxation]].",
       "words": [
         "[[important|important]]",
         "[[find|find]]",
@@ -705,7 +705,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[lost|lost]] [[five|cinco]] [[kilos|kilos]] [[by|por]] [[changing|changing]] [[his|su (de él)]] [[diet|diet]].",
+      "correctSentence": "[[He lost five kilos by changing his diet|Él lost cinco kilos por changing su (de él) diet]].",
       "words": [
         "[[by|por]]",
         "[[He|Él]]",
@@ -731,7 +731,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Cycling|Cycling]] [[to|a/para]] [[work|trabajo/trabajar]] [[is|es/está]] [[a|un/una]] [[healthy|healthy]] [[choice|choice]].",
+      "correctSentence": "[[Cycling to work is a healthy choice|Cycling a/para trabajo/trabajar es/está un/una healthy choice]].",
       "words": [
         "[[choice|choice]].",
         "[[work|trabajo/trabajar]]",

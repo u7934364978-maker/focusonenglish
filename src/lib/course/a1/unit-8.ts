@@ -10,11 +10,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "[[The|El]] [[number|número]] [[after|después de]] [[twenty-nine|veintinueve]] [[is|es]] [[thirty|treinta]].",
+    "transcript": "[[The number after twenty-nine is thirty|El número después de veintinueve es treinta]].",
     "content": {
-      "title": "[[Number|Número]] [[Sequence|Secuencia]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[next|siguiente]] [[number|número]].",
-      "question": "[[Twenty-eight|Veintiocho]], [[twenty-nine|veintinueve]], (____?).",
+      "title": "[[Number Sequence|Número Secuencia]]",
+      "instructions": "[[Choose the next number|Elige el siguiente número]].",
+      "question": "[[Twenty-eight, twenty-nine|Veintiocho, veintinueve]], (____?).",
       "options": ["[[thirty|treinta]]", "[[twenty|veinte]]", "[[forty|cuarenta]]"],
       "correctAnswer": 0,
       "explanation": "[[After|Después de]] 29 (twenty-nine) [[comes|viene]] 30 (thirty)."
@@ -28,10 +28,10 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "[[Forty|Cuarenta]] [[plus|más]] [[ten|diez]] [[is|es]] [[fifty|cincuenta]].",
+    "transcript": "[[Forty plus ten is fifty|Cuarenta más diez es cincuenta]].",
     "content": {
-      "title": "[[Mental|Mental]] [[Math|Cálculo]]",
-      "instructions": "[[Add|Suma]] [[the|los]] [[numbers|números]].",
+      "title": "[[Mental Math|Mental Cálculo]]",
+      "instructions": "[[Add the numbers|Suma los números]].",
       "question": "[[Forty|Cuarenta]] + [[ten|diez]] = (____?).",
       "options": ["[[sixty|sesenta]]", "[[fifty|cincuenta]]", "[[thirty|treinta]]"],
       "correctAnswer": 1,
@@ -46,10 +46,10 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "[[Seventy|Setenta]] [[minus|menos]] [[twenty|veinte]] [[is|es]] [[fifty|cincuenta]].",
+    "transcript": "[[Seventy minus twenty is fifty|Setenta menos veinte es cincuenta]].",
     "content": {
-      "title": "[[Mental|Mental]] [[Math|Cálculo]]",
-      "instructions": "[[Subtract|Resta]] [[the|los]] [[numbers|números]].",
+      "title": "[[Mental Math|Mental Cálculo]]",
+      "instructions": "[[Subtract the numbers|Resta los números]].",
       "question": "[[Seventy|Setenta]] - [[twenty|veinte]] = (____?).",
       "options": ["[[ninety|noventa]]", "[[fifty|cincuenta]]", "[[forty|cuarenta]]"],
       "correctAnswer": 1,
@@ -64,10 +64,10 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "[[Twenty-five|Veinticinco]] [[and|y]] [[twenty-five|veinticinco]] [[is|es]] [[fifty|cincuenta]].",
+    "transcript": "[[Twenty-five and twenty-five is fifty|Veinticinco y veinticinco es cincuenta]].",
     "content": {
-      "title": "[[Compound|Compuestos]] [[Numbers|Números]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[result|resultado]].",
+      "title": "[[Compound Numbers|Compuestos Números]]",
+      "instructions": "[[Choose the result|Elige el resultado]].",
       "question": "[[Twenty-five|Veinticinco]] + [[twenty-five|veinticinco]] = (____?).",
       "options": ["[[fifty|cincuenta]]", "[[forty|cuarenta]]", "[[sixty|sesenta]]"],
       "correctAnswer": 0,
@@ -82,14 +82,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "[[Ninety|Noventa]] [[is|es]] [[almost|casi]] [[one hundred|cien]].",
+    "transcript": "[[Ninety is almost one hundred|Noventa es casi cien]].",
     "content": {
-      "title": "[[High|Altos]] [[Numbers|Números]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[number|número]].",
-      "question": "[[How|Cómo]] [[do|se]] [[you|tú]] [[say|dice]] 90?",
+      "title": "[[High Numbers|Altos Números]]",
+      "instructions": "[[Choose the number|Elige el número]].",
+      "question": "[[How do you say|Cómo se tú dice]] 90?",
       "options": ["[[ninety|noventa]]", "[[nineteen|diecinueve]]", "[[eighty|ochenta]]"],
       "correctAnswer": 0,
-      "explanation": "[[Ninety|Noventa]] [[is|es]] 90."
+      "explanation": "[[Ninety is|Noventa es]] 90."
     },
     "audioUrl": "audio/a1/unit-8/e6.mp3",
     "topicName": "Vocabulary"
@@ -100,10 +100,10 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "[[Sixty|Sesenta]] [[comes|viene]] [[after|después de]] [[fifty-nine|cincuenta y nueve]].",
+    "transcript": "[[Sixty comes after fifty-nine|Sesenta viene después de cincuenta y nueve]].",
     "content": {
       "title": "[[Sequence|Secuencia]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[number|número]].",
+      "instructions": "[[Choose the number|Elige el número]].",
       "question": "58, 59, (____?).",
       "options": ["[[fifty|cincuenta]]", "[[seventy|setenta]]", "[[sixty|sesenta]]"],
       "correctAnswer": 2,
@@ -118,14 +118,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "[[Eighty|Ochenta]] [[is|es]] [[more|más]] [[than|que]] [[seventy|setenta]].",
+    "transcript": "[[Eighty is more than seventy|Ochenta es más que setenta]].",
     "content": {
       "title": "[[Comparison|Comparación]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[number|número]].",
-      "question": "[[How|Cómo]] [[do|se]] [[you|tú]] [[say|dice]] 80?",
+      "instructions": "[[Choose the number|Elige el número]].",
+      "question": "[[How do you say|Cómo se tú dice]] 80?",
       "options": ["[[eighty|ochenta]]", "[[eighteen|dieciocho]]", "[[eight|ocho]]"],
       "correctAnswer": 0,
-      "explanation": "[[Eighty|Ochenta]] [[is|es]] 80."
+      "explanation": "[[Eighty is|Ochenta es]] 80."
     },
     "audioUrl": "audio/a1/unit-8/e8.mp3",
     "topicName": "Vocabulary"
@@ -136,14 +136,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "[[My|Mi]] [[house|casa]] [[number|número]] [[is|es]] [[sixty-four|sesenta y cuatro]].",
+    "transcript": "[[My house number is sixty-four|Mi casa número es sesenta y cuatro]].",
     "content": {
       "title": "[[Context|Contexto]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[number|número]].",
-      "question": "[[My|Mi]] [[house|casa]] [[number|número]] [[is|es]] 64. [[It|Eso]] [[is|es]] (____).",
+      "instructions": "[[Choose the correct number|Elige el correcto número]].",
+      "question": "[[My house number is|Mi casa número es]] 64. [[It is|Eso es]] (____).",
       "options": ["[[forty-six|cuarenta y seis]]", "[[sixty-four|sesenta y cuatro]]", "[[sixty-six|sesenta y seis]]"],
       "correctAnswer": 1,
-      "explanation": "[[Sixty-four|Sesenta y cuatro]] [[is|es]] 64."
+      "explanation": "[[Sixty-four is|Sesenta y cuatro es]] 64."
     },
     "audioUrl": "audio/a1/unit-8/e9.mp3",
     "topicName": "Vocabulary"
@@ -154,14 +154,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Numbers 20-100",
     "difficulty": "easy",
-    "transcript": "[[There are|Hay]] [[one hundred|cien]] [[pages|páginas]] [[in|en]] [[the|el]] [[book|libro]].",
+    "transcript": "[[There are one hundred pages in the book|Hay cien páginas en el libro]].",
     "content": {
       "title": "[[Number|Número]] 100",
-      "instructions": "[[Select|Selecciona]] [[the|el]] [[number|número]].",
-      "question": "[[The|El]] [[book|libro]] [[has|tiene]] 100 [[pages|páginas]]. [[That|Eso]] [[is|es]] (____).",
+      "instructions": "[[Select the number|Selecciona el número]].",
+      "question": "[[The book. That has is|El libro tiene]] 100 [[pages|páginas. Eso es]] (____).",
       "options": ["[[one hundred|cien]]", "[[one thousand|mil]]", "[[ten|diez]]"],
       "correctAnswer": 0,
-      "explanation": "[[One hundred|Cien]] [[is|es]] 100."
+      "explanation": "[[One hundred is|Cien es]] 100."
     },
     "audioUrl": "audio/a1/unit-8/e10.mp3",
     "topicName": "Vocabulary"
@@ -176,14 +176,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Ages",
     "difficulty": "medium",
-    "transcript": "[[How|Qué]] [[old|tan viejo]] [[is|es]] [[your|tu]] [[mother|madre]]? [[She|Ella]] [[is|tiene]] [[fifty-four|cincuenta y cuatro]].",
+    "transcript": "[[How old? She is your mother is fifty-four|Qué tan viejo es tu madre? Ella tiene cincuenta y cuatro]].",
     "content": {
-      "title": "[[Asking|Preguntar]] [[Age|Edad]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[question|pregunta]] [[for|para]] [[age|edad]].",
-      "question": "[[How|Cómo]] [[do|se]] [[you|tú]] [[ask|pregunta]] [[age|edad]]?",
+      "title": "[[Asking Age|Preguntar Edad]]",
+      "instructions": "[[Choose the correct question for age|Elige la correcta pregunta para edad]].",
+      "question": "[[How do you ask age|Cómo se tú pregunta edad]]?",
       "options": ["[[How age is she?|¿Qué edad es ella?]]", "[[How old is she?|¿Qué edad tiene ella?]]", "[[What age has she?|¿Qué edad tiene ella?]]"],
       "correctAnswer": 1,
-      "explanation": "[[To|Para]] [[ask|preguntar]] [[the|la]] [[age|edad]] [[we|nosotros]] [[use|usamos]] '[[How|Qué]] [[old|viejo]]'."
+      "explanation": "[[To ask the age we use|Para preguntar la edad nosotros usamos]] '[[How old|Qué viejo]]'."
     },
     "audioUrl": "audio/a1/unit-8/e12.mp3",
     "topicName": "Vocabulary"
@@ -194,14 +194,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Ages",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[grandfather|abuelo]] [[is|tiene]] [[eighty-nine|ochenta y nueve]] [[years|años]] [[old|de edad]].",
+    "transcript": "[[My grandfather is eighty-nine years old|Mi abuelo tiene ochenta y nueve años de edad]].",
     "content": {
-      "title": "[[Telling|Decir]] [[the|la]] [[Age|Edad]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[verb|verbo]].",
-      "question": "[[My|Mi]] [[grandfather|abuelo]] (____) 89 [[years|años]] [[old|de edad]].",
+      "title": "[[Telling the Age|Decir la Edad]]",
+      "instructions": "[[Complete the sentence with the correct verb|Completa la frase con la correcta verbo]].",
+      "question": "[[My grandfather|Mi abuelo]] (____) 89 [[years old|años de edad]].",
       "options": ["[[has|tiene]]", "[[is|es/tiene]]", "[[am|soy/tengo]]"],
       "correctAnswer": 1,
-      "explanation": "[[In|En]] [[English|inglés]] [[we|nosotros]] [[use|usamos]] [[the|el]] [[verb|verbo]] '[[to be|ser/estar]]' [[for|para]] [[age|edad]]."
+      "explanation": "[[In English we use the verb|En inglés nosotros usamos el verbo]] '[[to be age|ser/estar]]' [[for|para edad]]."
     },
     "audioUrl": "audio/a1/unit-8/e13.mp3",
     "topicName": "Vocabulary"
@@ -212,14 +212,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Ages",
     "difficulty": "medium",
-    "transcript": "[[How|Qué]] [[old|tan viejo]] [[is|es]] [[the|el]] [[baby|bebé]]? [[He|Él]] [[is|tiene]] [[only|solo]] [[six|seis]] [[months|meses]].",
+    "transcript": "[[How old? He is the baby is only six months|Qué tan viejo es el bebé? Él tiene solo seis meses]].",
     "content": {
-      "title": "[[Age|Edad]] [[in|en]] [[Months|Meses]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[logical|lógica]] [[answer|respuesta]].",
-      "question": "[[The|El]] [[baby|bebé]] [[is|es]] [[very|muy]] [[young|joven]]. [[He|Él]] [[is|es]] (____).",
+      "title": "[[Age in Months|Edad en Meses]]",
+      "instructions": "[[Choose the logical answer|Elige la lógica respuesta]].",
+      "question": "[[The baby. He is very young is|El bebé es muy joven. Él es]] (____).",
       "options": ["[[six months old|seis meses de edad]]", "[[six years old|seis años de edad]]", "[[sixty years old|sesenta años de edad]]"],
       "correctAnswer": 0,
-      "explanation": "[[A|Un]] [[baby|bebé]] [[is|es]] [[measured|medido]] [[in|en]] [[months|meses]]."
+      "explanation": "[[A baby is measured in months|Un bebé es medido en meses]]."
     },
     "audioUrl": "audio/a1/unit-8/e14.mp3",
     "topicName": "Vocabulary"
@@ -230,14 +230,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Ages",
     "difficulty": "medium",
-    "transcript": "[[Are|¿Tienen]] [[they|ellos]] [[twenty|veinte]] [[years|años]] [[old|de edad]]? [[Yes|Sí]], [[they|ellos]] [[are|tienen]].",
+    "transcript": "[[Are they? Yes twenty years, they old are|¿Tienen ellos veinte años de edad? Sí, ellos tienen]].",
     "content": {
-      "title": "[[Question|Pregunta]] [[of|de]] [[Age|Edad]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[plural|plural]] [[form|forma]].",
-      "question": "(____) [[they|ellos]] 20 [[years|años]] [[old|de edad]]?",
+      "title": "[[Question of Age|Pregunta de Edad]]",
+      "instructions": "[[Choose the correct plural form|Elige la correcta plural forma]].",
+      "question": "(____) [[they old|ellos]] 20 [[years|años de edad]]?",
       "options": ["[[Is|Es]]", "[[Are|Son/Tienen]]", "[[Have|Tienen]]"],
       "correctAnswer": 1,
-      "explanation": "[[With|Con]] '[[they|ellos]]' [[we|nosotros]] [[use|usamos]] '[[are|son/tienen]]'."
+      "explanation": "[[With use|Con]] '[[they|ellos]]' [[we|nosotros usamos]] '[[are|son/tienen]]'."
     },
     "audioUrl": "audio/a1/unit-8/e15.mp3",
     "topicName": "Vocabulary"
@@ -248,11 +248,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Ages",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[am|tengo]] [[thirty-two|treinta y dos]] [[years|años]] [[old|de edad]].",
+    "transcript": "[[I am thirty-two years old|Yo tengo treinta y dos años de edad]].",
     "content": {
       "title": "Construir frase",
       "instructions": "Ordena la frase para decir tu edad.",
-      "correctSentence": "[[I|Yo]] [[am|tengo]] [[thirty-two|treinta y dos]] [[years|años]] [[old|de edad]].",
+      "correctSentence": "[[I am thirty-two years old|Yo tengo treinta y dos años de edad]].",
       "words": ["[[old|de edad]].", "[[years|años]]", "[[thirty-two|treinta y dos]]", "[[am|tengo]]", "[[I|Yo]]"],
       "explanation": "Estructura: Sujeto + am/is/are + número + years + old."
     },
@@ -265,11 +265,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Ages",
     "difficulty": "medium",
-    "transcript": "[[How|Qué]] [[old|tan viejo]] [[is|es]] [[your|tu]] [[best|mejor]] [[friend|amigo]]?",
+    "transcript": "[[How old is your best friend|Qué tan viejo es tu mejor amigo]]?",
     "content": {
       "title": "Construir pregunta",
       "instructions": "Ordena la pregunta sobre la edad de un amigo.",
-      "correctSentence": "[[How|Qué]] [[old|tan viejo]] [[is|es]] [[your|tu]] [[best|mejor]] [[friend|amigo]]?",
+      "correctSentence": "[[How old is your best friend|Qué tan viejo es tu mejor amigo]]?",
       "words": ["[[friend|amigo]]?", "[[best|mejor]]", "[[your|tu]]", "[[is|es]]", "[[old|tan viejo]]", "[[How|Qué]]"],
       "explanation": "Estructura: How + old + is + sujeto."
     },
@@ -282,14 +282,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Ages",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[sister|hermana]] [[is|tiene]] [[nineteen|diecinueve]] [[and|y]] [[I|yo]] [[am|tengo]] [[twenty-one|veintiuno]].",
+    "transcript": "[[My sister is nineteen and I am twenty-one|Mi hermana tiene diecinueve y yo tengo veintiuno]].",
     "content": {
-      "title": "[[Comparing|Comparar]] [[Ages|Edades]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
-      "question": "[[My|Mi]] [[sister|hermana]] [[is|tiene]] 19. [[I|Yo]] [[am|tengo]] 21. [[How|Cómo]] [[do|se]] [[you|tú]] [[say|dice]]?",
+      "title": "[[Comparing Ages|Comparar Edades]]",
+      "instructions": "[[Choose the correct option|Elige la correcta opción]].",
+      "question": "[[My sister is am|Mi hermana tiene]] 19. [[I you say|Yo tengo]] 21. [[How do|Cómo se tú dice]]?",
       "options": ["[[She is 19 and I am 21.|Ella tiene 19 y yo 21.]]", "[[She has 19 and I have 21.|Ella tiene 19 y yo 21.]]", "[[She is 21 and I am 19.|Ella tiene 21 y yo 19.]]"],
       "correctAnswer": 0,
-      "explanation": "[[We|Nosotros]] [[use|usamos]] '[[is|es]]' [[and|y]] '[[am|soy]]' [[for|para]] [[ages|edades]]."
+      "explanation": "[[We use|Nosotros usamos]] '[[is ages|es]]' [[and|y]] '[[am|soy]]' [[for|para edades]]."
     },
     "audioUrl": "audio/a1/unit-8/e18.mp3",
     "topicName": "Vocabulary"
@@ -300,14 +300,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Ages",
     "difficulty": "medium",
-    "transcript": "[[My|Mis]] [[parents|padres]] [[are|tienen]] [[the|la]] [[same|misma]] [[age|edad]]. [[They|Ellos]] [[are|tienen]] [[sixty|sesenta]].",
+    "transcript": "[[My parents. They are are the same age sixty|Mis padres tienen la misma edad. Ellos tienen sesenta]].",
     "content": {
       "title": "[[Parents|Padres]]",
-      "instructions": "[[Select|Selecciona]] [[the|el]] [[correct|correcto]] [[verb|verbo]] [[for|para]] [[plural|plural]].",
-      "question": "[[My|Mis]] [[parents|padres]] (____) 60 [[years|años]] [[old|de edad]].",
+      "instructions": "[[Select the correct verb for plural|Selecciona el correcto verbo para plural]].",
+      "question": "[[My parents|Mis padres]] (____) 60 [[years old|años de edad]].",
       "options": ["[[is|es]]", "[[am|soy]]", "[[are|tienen]]"],
       "correctAnswer": 2,
-      "explanation": "[[Parents|Padres]] [[is|es]] [[plural|plural]], [[we|nosotros]] [[use|usamos]] '[[are|tienen]]'."
+      "explanation": "[[Parents is, we plural use|Padres es plural, nosotros usamos]] '[[are|tienen]]'."
     },
     "audioUrl": "audio/a1/unit-8/e19.mp3",
     "topicName": "Vocabulary"
@@ -318,14 +318,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Ages",
     "difficulty": "medium",
-    "transcript": "[[That|Aquel]] [[man|hombre]] [[is|tiene]] [[forty|cuarenta]], [[not|no]] [[fifty|cincuenta]].",
+    "transcript": "[[That man, not fifty is forty|Aquel hombre tiene cuarenta, no cincuenta]].",
     "content": {
-      "title": "[[Correction|Corrección]] [[of|de]] [[Age|Edad]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[number|número]] [[correct|correcto]].",
-      "question": "[[That|Aquel]] [[man|hombre]] [[is|tiene]] 40. [[That|Eso]] [[is|es]] (____).",
+      "title": "[[Correction of Age|Corrección de Edad]]",
+      "instructions": "[[Choose the number correct|Elige el número correcto]].",
+      "question": "[[That man is is|Aquel hombre tiene]] 40. [[That|Eso es]] (____).",
       "options": ["[[forty|cuarenta]]", "[[fifty|cincuenta]]", "[[fourteen|catorce]]"],
       "correctAnswer": 0,
-      "explanation": "[[Forty|Cuarenta]] [[is|es]] 40."
+      "explanation": "[[Forty is|Cuarenta es]] 40."
     },
     "audioUrl": "audio/a1/unit-8/e20.mp3",
     "topicName": "Vocabulary"
@@ -340,14 +340,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Prices",
     "difficulty": "medium",
-    "transcript": "[[How|Cuánto]] [[much|mucho]] [[is|es]] [[this|este]] [[book|libro]]? [[It|Él]] [[is|cuesta]] [[fifteen|quince]] [[pounds|libras]].",
+    "transcript": "[[How much? It is this book is fifteen pounds|Cuánto mucho es este libro? Él cuesta quince libras]].",
     "content": {
-      "title": "[[Asking|Preguntar]] [[Price|Precio]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[question|pregunta]] [[for|para]] [[price|precio]].",
-      "question": "(____) [[much|mucho]] [[is|es]] [[this|este]] [[book|libro]]?",
+      "title": "[[Asking Price|Preguntar Precio]]",
+      "instructions": "[[Choose the correct question for price|Elige la correcta pregunta para precio]].",
+      "question": "(____) [[much is this book|mucho es este libro]]?",
       "options": ["[[How many|Cuántos]]", "[[How much|Cuánto]]", "[[How price|Qué precio]]"],
       "correctAnswer": 1,
-      "explanation": "[[For|Para]] [[prices|precios]] [[we|nosotros]] [[use|usamos]] '[[How|Cómo]] [[much|mucho]]'."
+      "explanation": "[[For prices we use|Para precios nosotros usamos]] '[[How much|Cómo mucho]]'."
     },
     "audioUrl": "audio/a1/unit-8/e22.mp3",
     "topicName": "Vocabulary"
@@ -358,14 +358,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Prices",
     "difficulty": "medium",
-    "transcript": "[[These|Estos]] [[pants|pantalones]] [[are|cuestan]] [[seventy-nine|setenta y nueve]] [[dollars|dólares]].",
+    "transcript": "[[These pants are seventy-nine dollars|Estos pantalones cuestan setenta y nueve dólares]].",
     "content": {
-      "title": "[[Plural|Plural]] [[Price|Precio]]",
-      "instructions": "[[Select|Selecciona]] [[the|el]] [[correct|correcto]] [[verb|verbo]].",
-      "question": "[[These|Estos]] [[pants|pantalones]] (____) $79.",
+      "title": "[[Plural Price|Plural Precio]]",
+      "instructions": "[[Select the correct verb|Selecciona el correcto verbo]].",
+      "question": "[[These pants|Estos pantalones]] (____) $79.",
       "options": ["[[is|es]]", "[[am|soy]]", "[[are|son/cuestan]]"],
       "correctAnswer": 2,
-      "explanation": "[[Pants|Pantalones]] [[is|es]] [[plural|plural]], [[so|por lo que]] [[we|nosotros]] [[use|usamos]] '[[are|son/cuestan]]'."
+      "explanation": "[[Pants is, so plural we use|Pantalones es plural, por lo que nosotros usamos]] '[[are|son/cuestan]]'."
     },
     "audioUrl": "audio/a1/unit-8/e23.mp3",
     "topicName": "Vocabulary"
@@ -376,14 +376,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Prices",
     "difficulty": "medium",
-    "transcript": "[[The|La]] [[coffee|café]] [[is|es]] [[cheap|barato]]. [[It|Él]] [[is|cuesta]] [[only|solo]] [[one|un]] [[euro|euro]] [[and|y]] [[fifty|cincuenta]] [[cents|céntimos]].",
+    "transcript": "[[The coffee. It is is cheap only one euro and fifty cents|La café es barato. Él cuesta solo un euro y cincuenta céntimos]].",
     "content": {
-      "title": "[[Cheap|Barato]] [[Price|Precio]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[logical|lógico]] [[adjective|adjetivo]].",
-      "question": "[[The|El]] [[coffee|café]] [[is|es]] [[only|solo]] 1.50€. [[It|Él]] [[is|es]] (____).",
+      "title": "[[Cheap Price|Barato Precio]]",
+      "instructions": "[[Choose the logical adjective|Elige el lógico adjetivo]].",
+      "question": "[[The coffee is only|El café es solo]] 1.50€. [[It is|Él es]] (____).",
       "options": ["[[expensive|caro]]", "[[cheap|barato]]", "[[big|grande]]"],
       "correctAnswer": 1,
-      "explanation": "[[A|Un]] [[low|bajo]] [[price|precio]] [[is|es]] [[cheap|barato]]."
+      "explanation": "[[A low price is cheap|Un bajo precio es barato]]."
     },
     "audioUrl": "audio/a1/unit-8/e24.mp3",
     "topicName": "Vocabulary"
@@ -394,14 +394,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Prices",
     "difficulty": "medium",
-    "transcript": "[[That|Ese]] [[watch|reloj]] [[is|es]] [[one hundred|cien]] [[pounds|libras]]. [[It|Él]] [[is|es]] [[very|muy]] [[expensive|caro]].",
+    "transcript": "[[That watch. It is one hundred pounds is very expensive|Ese reloj es cien libras. Él es muy caro]].",
     "content": {
-      "title": "[[Expensive|Caro]] [[Price|Precio]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[logical|lógico]] [[adjective|adjetivo]].",
-      "question": "[[That|Ese]] [[watch|reloj]] [[is|es]] £100. [[It|Él]] [[is|es]] (____).",
+      "title": "[[Expensive Price|Caro Precio]]",
+      "instructions": "[[Choose the logical adjective|Elige el lógico adjetivo]].",
+      "question": "[[That watch is is|Ese reloj es]] £100. [[It|Él es]] (____).",
       "options": ["[[cheap|barato]]", "[[expensive|caro]]", "[[young|joven]]"],
       "correctAnswer": 1,
-      "explanation": "[[A|Un]] [[high|alto]] [[price|precio]] [[is|es]] [[expensive|caro]]."
+      "explanation": "[[A high price is expensive|Un alto precio es caro]]."
     },
     "audioUrl": "audio/a1/unit-8/e25.mp3",
     "topicName": "Vocabulary"
@@ -412,14 +412,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Prices",
     "difficulty": "medium",
-    "transcript": "[[How|Cuánto]] [[much|mucho]] [[are|cuestan]] [[those|aquellos]] [[apples|manzanas]]? [[They|Ellas]] [[are|cuestan]] [[three|tres]] [[euros|euros]] [[per|por]] [[kilo|kilo]].",
+    "transcript": "[[How much? They are those apples are three euros per kilo|Cuánto mucho cuestan aquellos manzanas? Ellas cuestan tres euros por kilo]].",
     "content": {
-      "title": "[[Plural|Plural]] [[Price|Precio]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[plural|plural]] [[question|pregunta]].",
-      "question": "[[How much|Cuánto]] (____) [[those|aquellas]] [[apples|manzanas]]?",
+      "title": "[[Plural Price|Plural Precio]]",
+      "instructions": "[[Choose the plural question|Elige la plural pregunta]].",
+      "question": "[[How much apples|Cuánto]] (____) [[those|aquellas manzanas]]?",
       "options": ["[[are|cuestan]]", "[[is|cuesta]]", "[[am|soy]]"],
       "correctAnswer": 0,
-      "explanation": "[[Apples|Manzanas]] [[is|es]] [[plural|plural]], [[we|nosotros]] [[use|usamos]] '[[are|cuestan]]'."
+      "explanation": "[[Apples is, we plural use|Manzanas es plural, nosotros usamos]] '[[are|cuestan]]'."
     },
     "audioUrl": "audio/a1/unit-8/e26.mp3",
     "topicName": "Vocabulary"
@@ -430,13 +430,13 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Prices",
     "difficulty": "medium",
-    "transcript": "[[It|Él]] [[is|cuesta]] [[ninety-nine|noventa y nueve]] [[cents|céntimos]].",
+    "transcript": "[[It is ninety-nine cents|Él cuesta noventa y nueve céntimos]].",
     "content": {
       "title": "Escribir números",
       "instructions": "Escribe el número 99 en inglés.",
       "questions": [
         {
-          "question": "[[It|Él]] [[is|cuesta]] (_____) [[cents|céntimos]].",
+          "question": "[[It is|Él cuesta]] (_____) [[cents|céntimos]].",
           "correctAnswer": "ninety-nine",
           "explanation": "Noventa y nueve es ninety-nine."
         }
@@ -451,13 +451,13 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Prices",
     "difficulty": "medium",
-    "transcript": "[[The|El]] [[price|precio]] [[is|es]] [[forty-two|cuarenta y dos]] [[dollars|dólares]].",
+    "transcript": "[[The price is forty-two dollars|El precio es cuarenta y dos dólares]].",
     "content": {
       "title": "Escribir precios",
       "instructions": "Escribe el número 42 en inglés.",
       "questions": [
         {
-          "question": "[[The|El]] [[price|precio]] [[is|es]] (_____) [[dollars|dólares]].",
+          "question": "[[The price is|El precio es]] (_____) [[dollars|dólares]].",
           "correctAnswer": "forty-two",
           "explanation": "Cuarenta y dos es forty-two."
         }
@@ -472,11 +472,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Prices",
     "difficulty": "medium",
-    "transcript": "[[How|Cuánto]] [[much|mucho]] [[are|cuestan]] [[the|las]] [[tickets|entradas]]?",
+    "transcript": "[[How much are the tickets|Cuánto mucho cuestan las entradas]]?",
     "content": {
       "title": "Pregunta de precio",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[How|Cuánto]] [[much|mucho]] [[are|cuestan]] [[the|las]] [[tickets|entradas]]?",
+      "correctSentence": "[[How much are the tickets|Cuánto mucho cuestan las entradas]]?",
       "words": ["[[tickets|entradas]]?", "[[the|las]]", "[[are|cuestan]]", "[[much|mucho]]", "[[How|Cuánto]]"],
       "explanation": "Estructura: How + much + are + the + nombre."
     },
@@ -489,14 +489,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Prices",
     "difficulty": "medium",
-    "transcript": "[[That|Esa]] [[bag|bolsa]] [[is|cuesta]] [[twenty-six|veintiséis]] [[pounds|libras]].",
+    "transcript": "[[That bag is twenty-six pounds|Esa bolsa cuesta veintiséis libras]].",
     "content": {
-      "title": "[[Identify|Identificar]] [[Price|Precio]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[number|número]].",
-      "question": "[[How|Cómo]] [[do|se]] [[you|tú]] [[write|escribe]] [[twenty-six|veintiséis]]?",
+      "title": "[[Identify Price|Identificar Precio]]",
+      "instructions": "[[Choose the correct number|Elige el correcto número]].",
+      "question": "[[How do you write twenty-six|Cómo se tú escribe veintiséis]]?",
       "options": ["[[26|26]]", "[[62|62]]", "[[16|16]]"],
       "correctAnswer": 0,
-      "explanation": "[[Twenty-six|Veintiséis]] [[is|es]] 26."
+      "explanation": "[[Twenty-six is|Veintiséis es]] 26."
     },
     "audioUrl": "audio/a1/unit-8/e30.mp3",
     "topicName": "Vocabulary"
@@ -511,14 +511,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Phone Numbers",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[number|número]] [[is|es]] [[zero|cero]] [[seven|siete]] [[four|cuatro]] [[three|tres]].",
+    "transcript": "[[My number is zero seven four three|Mi número es cero siete cuatro tres]].",
     "content": {
-      "title": "[[Identify|Identificar]] [[Number|Número]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[number|número]].",
-      "question": "[[Zero|Cero]], [[seven|siete]], [[four|cuatro]], [[three|tres]]. [[It|Eso]] [[is|es]] (____).",
+      "title": "[[Identify Number|Identificar Número]]",
+      "instructions": "[[Choose the correct number|Elige el correcto número]].",
+      "question": "[[Zero is, seven, four, three. It|Cero, siete, cuatro, tres. Eso es]] (____).",
       "options": ["[[0743|0743]]", "[[0473|0473]]", "[[0734|0734]]"],
       "correctAnswer": 0,
-      "explanation": "[[Zero|Cero]], [[seven|siete]], [[four|cuatro]], [[three|tres]] [[is|es]] 0743."
+      "explanation": "[[Zero is, seven, four, three|Cero, siete, cuatro, tres es]] 0743."
     },
     "audioUrl": "audio/a1/unit-8/e32.mp3",
     "topicName": "Vocabulary"
@@ -529,14 +529,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Phone Numbers",
     "difficulty": "medium",
-    "transcript": "[[His|Su]] [[number|número]] [[is|es]] [[nine|nueve]] [[double|doble]] [[one|uno]] [[six|seis]].",
+    "transcript": "[[His number is nine double one six|Su número es nueve doble uno seis]].",
     "content": {
-      "title": "[[Double|Doble]] [[Number|Número]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[number|número]].",
-      "question": "[[Nine|Nueve]], [[double|doble]] [[one|uno]], [[six|seis]]. [[It|Eso]] [[is|es]] (____).",
+      "title": "[[Double Number|Doble Número]]",
+      "instructions": "[[Choose the correct number|Elige el correcto número]].",
+      "question": "[[Nine one, double, six is. It|Nueve, doble uno, seis. Eso es]] (____).",
       "options": ["[[9116|9116]]", "[[9161|9161]]", "[[9216|9216]]"],
       "correctAnswer": 0,
-      "explanation": "[[Double|Doble]] [[one|uno]] [[means|significa]] [[twice|dos veces]] 1 (11)."
+      "explanation": "[[Double one means twice|Doble uno significa dos veces]] 1 (11)."
     },
     "audioUrl": "audio/a1/unit-8/e33.mp3",
     "topicName": "Vocabulary"
@@ -547,14 +547,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Phone Numbers",
     "difficulty": "medium",
-    "transcript": "[[What|Cuál]] [[is|es]] [[her|su]] [[number|número]]? [[It|Él]] [[is|es]] [[eight|ocho]] [[five|cinco]] [[O|cero (letra)]] [[two|dos]].",
+    "transcript": "[[What is? It is her number eight five O two|Cuál es su número? Él es ocho cinco cero (letra) dos]].",
     "content": {
-      "title": "[[Using|Uso]] '[[O|O]]' [[for|para]] [[Zero|Cero]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[number|número]].",
-      "question": "[[Eight|Ocho]], [[five|cinco]], [[O|cero]], [[two|dos]]. [[It|Eso]] [[is|es]] (____).",
+      "title": "[[Using Zero|Uso]] '[[O|O]]' [[for|para Cero]]",
+      "instructions": "[[Choose the correct number|Elige el correcto número]].",
+      "question": "[[Eight is, five, O, two. It|Ocho, cinco, cero, dos. Eso es]] (____).",
       "options": ["[[8502|8502]]", "[[8520|8520]]", "[[8052|8052]]"],
       "correctAnswer": 0,
-      "explanation": "[[In|En]] [[phones|teléfonos]], '[[O|O]]' [[is|es]] [[often|a menudo]] [[zero|cero]]."
+      "explanation": "[[In phones zero|En teléfonos]], '[[O often|O]]' [[is|es a menudo cero]]."
     },
     "audioUrl": "audio/a1/unit-8/e34.mp3",
     "topicName": "Vocabulary"
@@ -565,14 +565,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Phone Numbers",
     "difficulty": "medium",
-    "transcript": "[[Is|¿Es]] [[your|tu]] [[number|número]] [[six|seis]] [[double|doble]] [[four|cuatro]] [[seven|siete]]? [[No|No]], [[it|él]] [[is|es]] [[double|doble]] [[six|seis]].",
+    "transcript": "[[Is your? No number six, it double six double four seven is|¿Es tu número seis doble cuatro siete? No, él es doble seis]].",
     "content": {
       "title": "[[Double|Doble]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[answer|respuesta]].",
-      "question": "[[Six|Seis]], [[double|doble]] [[four|cuatro]], [[seven|siete]]. [[It|Eso]] [[is|es]] (____).",
+      "instructions": "[[Choose the correct answer|Elige la correcta respuesta]].",
+      "question": "[[Six four, double, seven is. It|Seis, doble cuatro, siete. Eso es]] (____).",
       "options": ["[[6447|6447]]", "[[4467|4467]]", "[[6647|6647]]"],
       "correctAnswer": 0,
-      "explanation": "[[Double|Doble]] [[four|cuatro]] [[is|es]] 44."
+      "explanation": "[[Double four is|Doble cuatro es]] 44."
     },
     "audioUrl": "audio/a1/unit-8/e35.mp3",
     "topicName": "Vocabulary"
@@ -583,11 +583,11 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Phone Numbers",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[mobile|móvil]] [[number|número]] [[is|es]] [[zero|cero]] [[nine|nueve]] [[eight|ocho]].",
+    "transcript": "[[My mobile number is zero nine eight|Mi móvil número es cero nueve ocho]].",
     "content": {
       "title": "Frase de teléfono",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[My|Mi]] [[mobile|móvil]] [[number|número]] [[is|es]] [[zero|cero]] [[nine|nueve]] [[eight|ocho]].",
+      "correctSentence": "[[My mobile number is zero nine eight|Mi móvil número es cero nueve ocho]].",
       "words": ["[[eight|ocho]].", "[[nine|nueve]]", "[[zero|cero]]", "[[is|es]]", "[[number|número]]", "[[mobile|móvil]]", "[[My|Mi]]"],
       "explanation": "Orden estándar para decir un número."
     },
@@ -600,13 +600,13 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Phone Numbers",
     "difficulty": "medium",
-    "transcript": "[[Double|Doble]] [[three|tres]] [[is|es]] [[six|seis]] [[and|y]] [[three|tres]]. [[No|No]], [[it|él]] [[is|es]] [[three|tres]] [[three|tres]].",
+    "transcript": "[[Double three. No is is six, it and three three three|Doble tres es seis y tres. No, él es tres tres]].",
     "content": {
       "title": "Doble",
       "instructions": "Completa con el número correcto en cifras.",
       "questions": [
         {
-          "question": "[[Double|Doble]] [[three|tres]] [[is|es]] (____).",
+          "question": "[[Double three is|Doble tres es]] (____).",
           "correctAnswer": "33",
           "explanation": "Double three es 33."
         }
@@ -621,14 +621,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Phone Numbers",
     "difficulty": "medium",
-    "transcript": "[[Is|¿Es]] [[that|ese]] [[zero|cero]] [[or|o]] [[O|cero]]? [[Both|Ambos]] [[are|están]] [[correct|bien]].",
+    "transcript": "[[Is that? Both zero or O are correct|¿Es ese cero o cero? Ambos están bien]].",
     "content": {
-      "title": "[[Zero|Cero]] [[vs|vs]] [[O|O]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
-      "question": "[[How|Cómo]] [[do|se]] [[you|tú]] [[say|dice]] 0 [[in|en]] [[phones|teléfonos]]?",
+      "title": "[[Zero vs O|Cero vs O]]",
+      "instructions": "[[Choose the correct option|Elige la correcta opción]].",
+      "question": "[[How do you say|Cómo se tú dice]] 0 [[in phones|en teléfonos]]?",
       "options": ["[[Both are okay|Ambos están bien]]", "[[Only zero is okay|Solo zero está bien]]", "[[Only O is okay|Solo O está bien]]"],
       "correctAnswer": 0,
-      "explanation": "[[Both|Ambos]] [[are|están]] [[correct|bien]] [[for|para]] [[phone|teléfono]] [[numbers|números]]."
+      "explanation": "[[Both are correct for phone numbers|Ambos están bien para teléfono números]]."
     },
     "audioUrl": "audio/a1/unit-8/e38.mp3",
     "topicName": "Vocabulary"
@@ -639,14 +639,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Phone Numbers",
     "difficulty": "medium",
-    "transcript": "[[Double|Doble]] [[seven|siete]] [[eight|ocho]] [[four|cuatro]].",
+    "transcript": "[[Double seven eight four|Doble siete ocho cuatro]].",
     "content": {
-      "title": "[[Listening|Escuchar]] [[Number|Número]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[number|número]] [[you|tú]] [[hear|oyes]].",
-      "question": "[[Double|Doble]] [[seven|siete]], [[eight|ocho]], [[four|cuatro]]. [[It|Eso]] [[is|es]] (____).",
+      "title": "[[Listening Number|Escuchar Número]]",
+      "instructions": "[[Choose the number you hear|Elige el número tú oyes]].",
+      "question": "[[Double seven, eight is, four. It|Doble siete, ocho, cuatro. Eso es]] (____).",
       "options": ["[[7784|7784]]", "[[7844|7844]]", "[[7884|7884]]"],
       "correctAnswer": 0,
-      "explanation": "[[Double|Doble]] [[seven|siete]] [[is|es]] 77."
+      "explanation": "[[Double seven is|Doble siete es]] 77."
     },
     "audioUrl": "audio/a1/unit-8/e39.mp3",
     "topicName": "Vocabulary"
@@ -657,14 +657,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Phone Numbers",
     "difficulty": "medium",
-    "transcript": "[[Five|Cinco]] [[nine|nueve]] [[double|doble]] [[zero|cero]].",
+    "transcript": "[[Five nine double zero|Cinco nueve doble cero]].",
     "content": {
-      "title": "[[Listening|Escuchar]] [[Number|Número]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[number|número]].",
-      "question": "[[Five|Cinco]], [[nine|nueve]], [[double|doble]] [[zero|cero]]. [[It|Eso]] [[is|es]] (____).",
+      "title": "[[Listening Number|Escuchar Número]]",
+      "instructions": "[[Choose the number|Elige el número]].",
+      "question": "[[Five zero, nine, double. It is|Cinco, nueve, doble cero. Eso es]] (____).",
       "options": ["[[5900|5900]]", "[[590|590]]", "[[5009|5009]]"],
       "correctAnswer": 0,
-      "explanation": "[[Double|Doble]] [[zero|cero]] [[is|es]] 00."
+      "explanation": "[[Double zero is|Doble cero es]] 00."
     },
     "audioUrl": "audio/a1/unit-8/e40.mp3",
     "topicName": "Vocabulary"
@@ -679,14 +679,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[How|Cuánto]] [[much|mucho]] [[are|cuestan]] [[these|estos]]? [[They|Ellos]] [[are|cuestan]] [[fifty-six|cincuenta y seis]] [[pounds|libras]].",
+    "transcript": "[[How much? They are are these fifty-six pounds|Cuánto mucho cuestan estos? Ellos cuestan cincuenta y seis libras]].",
     "content": {
-      "title": "[[Review|Repaso]] [[of|de]] [[Prices|Precios]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[number|número]].",
-      "question": "[[Fifty-six|Cincuenta y seis]] [[pounds|libras]]. [[It|Eso]] [[is|es]] (____).",
+      "title": "[[Review of Prices|Repaso de Precios]]",
+      "instructions": "[[Choose the correct number|Elige el correcto número]].",
+      "question": "[[Fifty-six pounds. It is|Cincuenta y seis libras. Eso es]] (____).",
       "options": ["[[56|56]]", "[[65|65]]", "[[46|46]]"],
       "correctAnswer": 0,
-      "explanation": "[[Fifty-six|Cincuenta y seis]] [[is|es]] 56."
+      "explanation": "[[Fifty-six is|Cincuenta y seis es]] 56."
     },
     "audioUrl": "audio/a1/unit-8/e41.mp3",
     "topicName": "Vocabulary"
@@ -697,14 +697,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[How|Qué]] [[old|tan viejo]] [[is|es]] [[he|él]]? [[He|Él]] [[is|tiene]] [[ninety-three|noventa y tres]].",
+    "transcript": "[[How old? He is is he ninety-three|Qué tan viejo es él? Él tiene noventa y tres]].",
     "content": {
-      "title": "[[Review|Repaso]] [[of|de]] [[Age|Edad]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[number|número]].",
-      "question": "[[He|Él]] [[is|tiene]] 93. [[He|Él]] [[is|tiene]] (____).",
+      "title": "[[Review of Age|Repaso de Edad]]",
+      "instructions": "[[Choose the correct number|Elige el correcto número]].",
+      "question": "[[He is|Él tiene]] 93. [[He is|Él tiene]] (____).",
       "options": ["[[39|39]]", "[[93|93]]", "[[83|83]]"],
       "correctAnswer": 1,
-      "explanation": "[[Ninety-three|Noventa y tres]] [[is|es]] 93."
+      "explanation": "[[Ninety-three is|Noventa y tres es]] 93."
     },
     "audioUrl": "audio/a1/unit-8/e42.mp3",
     "topicName": "Vocabulary"
@@ -715,14 +715,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[number|número]] [[is|es]] [[four|cuatro]] [[eight|ocho]] [[double|doble]] [[two|dos]].",
+    "transcript": "[[My number is four eight double two|Mi número es cuatro ocho doble dos]].",
     "content": {
-      "title": "[[Review|Repaso]] [[of|de]] [[Phone|Teléfono]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[number|número]].",
-      "question": "[[Four|Cuatro]], [[eight|ocho]], [[double|doble]] [[two|dos]]. [[It|Eso]] [[is|es]] (____).",
+      "title": "[[Review of Phone|Repaso de Teléfono]]",
+      "instructions": "[[Choose the correct number|Elige el correcto número]].",
+      "question": "[[Four two, eight, double. It is|Cuatro, ocho, doble dos. Eso es]] (____).",
       "options": ["[[4822|4822]]", "[[482|482]]", "[[4228|4228]]"],
       "correctAnswer": 0,
-      "explanation": "[[Four|Cuatro]], [[eight|ocho]], [[double|doble]] [[two|dos]] [[is|es]] 4822."
+      "explanation": "[[Four two, eight is, double|Cuatro, ocho, doble dos es]] 4822."
     },
     "audioUrl": "audio/a1/unit-8/e43.mp3",
     "topicName": "Vocabulary"
@@ -733,14 +733,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[The|La]] [[table|mesa]] [[is|cuesta]] [[eighty-five|ochenta y cinco]] [[dollars|dólares]].",
+    "transcript": "[[The table is eighty-five dollars|La mesa cuesta ochenta y cinco dólares]].",
     "content": {
-      "title": "[[Review|Repaso]] [[of|de]] [[Prices|Precios]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[number|número]].",
-      "question": "[[Eighty-five|Ochenta y cinco]] [[dollars|dólares]]. [[It|Eso]] [[is|es]] (____).",
+      "title": "[[Review of Prices|Repaso de Precios]]",
+      "instructions": "[[Choose the correct number|Elige el correcto número]].",
+      "question": "[[Eighty-five dollars. It is|Ochenta y cinco dólares. Eso es]] (____).",
       "options": ["[[85|85]]", "[[75|75]]", "[[58|58]]"],
       "correctAnswer": 0,
-      "explanation": "[[Eighty-five|Ochenta y cinco]] [[is|es]] 85."
+      "explanation": "[[Eighty-five is|Ochenta y cinco es]] 85."
     },
     "audioUrl": "audio/a1/unit-8/e44.mp3",
     "topicName": "Vocabulary"
@@ -751,14 +751,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[She|Ella]] [[is|tiene]] [[forty-one|cuarenta y uno]] [[years|años]] [[old|de edad]].",
+    "transcript": "[[She is forty-one years old|Ella tiene cuarenta y uno años de edad]].",
     "content": {
-      "title": "[[Review|Repaso]] [[of|de]] [[Age|Edad]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[number|número]].",
-      "question": "[[She|Ella]] [[is|tiene]] 41 [[years|años]] [[old|de edad]]. [[She|Ella]] [[is|tiene]] (____).",
+      "title": "[[Review of Age|Repaso de Edad]]",
+      "instructions": "[[Choose the correct number|Elige el correcto número]].",
+      "question": "[[She is. She is|Ella tiene]] 41 [[years old|años de edad. Ella tiene]] (____).",
       "options": ["[[14|14]]", "[[41|41]]", "[[51|51]]"],
       "correctAnswer": 1,
-      "explanation": "[[Forty-one|Cuarenta y uno]] [[is|es]] 41."
+      "explanation": "[[Forty-one is|Cuarenta y uno es]] 41."
     },
     "audioUrl": "audio/a1/unit-8/e45.mp3",
     "topicName": "Vocabulary"
@@ -771,12 +771,12 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Twenty-seven|Veintisiete]].",
     "content": {
-      "title": "[[Review|Repaso]] [[of|de]] [[Numbers|Números]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[number|número]].",
-      "question": "[[How|Cómo]] [[do|se]] [[you|tú]] [[write|escribe]] [[twenty-seven|veintisiete]]?",
+      "title": "[[Review of Numbers|Repaso de Números]]",
+      "instructions": "[[Choose the correct number|Elige el correcto número]].",
+      "question": "[[How do you write twenty-seven|Cómo se tú escribe veintisiete]]?",
       "options": ["[[27|27]]", "[[72|72]]", "[[17|17]]"],
       "correctAnswer": 0,
-      "explanation": "[[Twenty-seven|Veintisiete]] [[is|es]] 27."
+      "explanation": "[[Twenty-seven is|Veintisiete es]] 27."
     },
     "audioUrl": "audio/a1/unit-8/e46.mp3",
     "topicName": "Vocabulary"
@@ -789,12 +789,12 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Fifty-three|Cincuenta y tres]].",
     "content": {
-      "title": "[[Review|Repaso]] [[of|de]] [[Numbers|Números]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[number|número]].",
-      "question": "[[How|Cómo]] [[do|se]] [[you|tú]] [[write|escribe]] [[fifty-three|cincuenta y tres]]?",
+      "title": "[[Review of Numbers|Repaso de Números]]",
+      "instructions": "[[Choose the correct number|Elige el correcto número]].",
+      "question": "[[How do you write fifty-three|Cómo se tú escribe cincuenta y tres]]?",
       "options": ["[[35|35]]", "[[53|53]]", "[[63|63]]"],
       "correctAnswer": 1,
-      "explanation": "[[Fifty-three|Cincuenta y tres]] [[is|es]] 53."
+      "explanation": "[[Fifty-three is|Cincuenta y tres es]] 53."
     },
     "audioUrl": "audio/a1/unit-8/e47.mp3",
     "topicName": "Vocabulary"
@@ -807,12 +807,12 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Eighty-six|Ochenta y seis]].",
     "content": {
-      "title": "[[Review|Repaso]] [[of|de]] [[Numbers|Números]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[number|número]].",
-      "question": "[[How|Cómo]] [[do|se]] [[you|tú]] [[write|escribe]] [[eighty-six|ochenta y seis]]?",
+      "title": "[[Review of Numbers|Repaso de Números]]",
+      "instructions": "[[Choose the correct number|Elige el correcto número]].",
+      "question": "[[How do you write eighty-six|Cómo se tú escribe ochenta y seis]]?",
       "options": ["[[68|68]]", "[[76|76]]", "[[86|86]]"],
       "correctAnswer": 2,
-      "explanation": "[[Eighty-six|Ochenta y seis]] [[is|es]] 86."
+      "explanation": "[[Eighty-six is|Ochenta y seis es]] 86."
     },
     "audioUrl": "audio/a1/unit-8/e48.mp3",
     "topicName": "Vocabulary"
@@ -825,12 +825,12 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Thirty-one|Treinta y uno]].",
     "content": {
-      "title": "[[Review|Repaso]] [[of|de]] [[Numbers|Números]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[number|número]].",
-      "question": "[[How|Cómo]] [[do|se]] [[you|tú]] [[write|escribe]] [[thirty-one|treinta y uno]]?",
+      "title": "[[Review of Numbers|Repaso de Números]]",
+      "instructions": "[[Choose the correct number|Elige el correcto número]].",
+      "question": "[[How do you write thirty-one|Cómo se tú escribe treinta y uno]]?",
       "options": ["[[31|31]]", "[[13|13]]", "[[21|21]]"],
       "correctAnswer": 0,
-      "explanation": "[[Thirty-one|Treinta y uno]] [[is|es]] 31."
+      "explanation": "[[Thirty-one is|Treinta y uno es]] 31."
     },
     "audioUrl": "audio/a1/unit-8/e49.mp3",
     "topicName": "Vocabulary"
@@ -843,12 +843,12 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Ninety-seven|Noventa y siete]].",
     "content": {
-      "title": "[[Review|Repaso]] [[of|de]] [[Numbers|Números]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[number|número]].",
-      "question": "[[How|Cómo]] [[do|se]] [[you|tú]] [[write|escribe]] [[ninety-seven|noventa y siete]]?",
+      "title": "[[Review of Numbers|Repaso de Números]]",
+      "instructions": "[[Choose the correct number|Elige el correcto número]].",
+      "question": "[[How do you write ninety-seven|Cómo se tú escribe noventa y siete]]?",
       "options": ["[[79|79]]", "[[97|97]]", "[[87|87]]"],
       "correctAnswer": 1,
-      "explanation": "[[Ninety-seven|Noventa y siete]] [[is|es]] 97."
+      "explanation": "[[Ninety-seven is|Noventa y siete es]] 97."
     },
     "audioUrl": "audio/a1/unit-8/e50.mp3",
     "topicName": "Vocabulary"
@@ -866,16 +866,16 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "medium",
-    "transcript": "[[Hello|Hola]], [[my|mi]] [[name|nombre]] [[is|es]] [[Mark|Mark]]. [[I|Yo]] [[am|tengo]] [[thirty-seven|treinta y siete]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[work|trabajo]] [[in|en]] [[a|un]] [[big|grande]] [[building|edificio]]. [[My|Mi]] [[office|oficina]] [[is|está]] [[on|en]] [[the|el]] [[eighty-second|octogésimo segundo]] [[floor|piso]]. [[The|El]] [[phone|teléfono]] [[number|número]] [[is|es]] [[five|cinco]] [[five|cinco]] [[five|cinco]], [[sixty-four|sesenta y cuatro]], [[twenty|veinte]]. [[There|Allí]] [[are|hay]] [[ninety|noventa]] [[people|personas]] [[in|en]] [[my|mi]] [[department|departamento]]. [[Every|Cada]] [[day|día]], [[I|yo]] [[receive|recibo]] [[eighty-six|ochenta y seis]] [[emails|correos electrónicos]]. [[I|Yo]] [[finish|termino]] [[my|mi]] [[work|trabajo]] [[at|a las]] [[six-thirty|seis y media]] [[PM|de la tarde]].",
+    "transcript": "[[Hello name, my is Mark. I am, twenty. There ninety people. Every thirty-seven years. I old work in a. My office big building is on. The the eighty-second floor phone number is, sixty-four five five five are in my department day, I receive. I finish eighty-six emails my work at six-thirty PM|Hola, mi nombre es Mark. Yo tengo treinta y siete años de edad. Yo trabajo en un grande edificio. Mi oficina está en el octogésimo segundo piso. El teléfono número es cinco cinco cinco, sesenta y cuatro, veinte. Allí hay noventa personas en mi departamento. Cada día, yo recibo ochenta y seis correos electrónicos. Yo termino mi trabajo a las seis y media de la tarde]].",
     "content": {
-      "title": "[[Reading|Lectura]]: [[Mark's|de Mark]] [[Office|Oficina]]",
-      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|detenidamente]].",
+      "title": "[[Reading Office: Mark's|Lectura: de Mark Oficina]]",
+      "instructions": "[[Read the text carefully|Lee el texto detenidamente]].",
       "questions": [
         {
-          "question": "[[Hello|Hola]], [[my|mi]] [[name|nombre]] [[is|es]] [[Mark|Mark]]. [[I|Yo]] [[am|tengo]] [[thirty-seven|treinta y siete]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[work|trabajo]] [[in|en]] [[a|un]] [[big|grande]] [[building|edificio]]. [[My|Mi]] [[office|oficina]] [[is|está]] [[on|en]] [[the|el]] [[eighty-second|octogésimo segundo]] [[floor|piso]]. [[The|El]] [[phone|teléfono]] [[number|número]] [[is|es]] [[five|cinco]] [[five|cinco]] [[five|cinco]], [[sixty-four|sesenta y cuatro]], [[twenty|veinte]]. [[There|Allí]] [[are|hay]] [[ninety|noventa]] [[people|personas]] [[in|en]] [[my|mi]] [[department|departamento]]. [[Every|Cada]] [[day|día]], [[I|yo]] [[receive|recibo]] [[eighty-six|ochenta y seis]] [[emails|correos electrónicos]]. [[I|Yo]] [[finish|termino]] [[my|mi]] [[work|trabajo]] [[at|a las]] [[six-thirty|seis y media]] [[PM|de la tarde]].",
-          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "question": "[[Hello name, my is Mark. I am, twenty. There ninety people. Every thirty-seven years. I old work in a. My office big building is on. The the eighty-second floor phone number is, sixty-four five five five are in my department day, I receive. I finish eighty-six emails my work at six-thirty PM|Hola, mi nombre es Mark. Yo tengo treinta y siete años de edad. Yo trabajo en un grande edificio. Mi oficina está en el octogésimo segundo piso. El teléfono número es cinco cinco cinco, sesenta y cuatro, veinte. Allí hay noventa personas en mi departamento. Cada día, yo recibo ochenta y seis correos electrónicos. Yo termino mi trabajo a las seis y media de la tarde]].",
+          "options": ["[[I have read the text|Yo he leído el texto]]."],
           "correctAnswer": 0,
-          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+          "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
       ]
     },
@@ -887,16 +887,16 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "medium",
-    "transcript": "[[How|Qué]] [[old|tan viejo]] [[is|es]] [[Mark|Mark]]?",
+    "transcript": "[[How old is Mark|Qué tan viejo es Mark]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Mark's|de Mark]] [[Age|Edad]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]] [[based|basada]] [[on|en]] [[the|el]] [[text|texto]].",
+      "title": "[[Comprehension Age: Mark's|Comprensión: de Mark Edad]]",
+      "instructions": "[[Answer the question based on the text|Responde la pregunta basada en el texto]].",
       "questions": [
         {
-          "question": "[[How|Qué]] [[old|tan viejo]] [[is|es]] [[Mark|Mark]]?",
+          "question": "[[How old is Mark|Qué tan viejo es Mark]]?",
           "options": ["[[Forty-seven|Cuarenta y siete]]", "[[Thirty-seven|Treinta y siete]]", "[[Twenty-seven|Veintisiete]]"],
           "correctAnswer": 1,
-          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[I|Yo]] [[am|tengo]] [[thirty-seven|treinta y siete]] [[years|años]] [[old|de edad]]\"."
+          "explanation": "[[The text says am old|El texto dice]]: \"[[I thirty-seven years|Yo tengo treinta y siete años de edad]]\"."
         }
       ]
     },
@@ -908,16 +908,16 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "medium",
-    "transcript": "[[What|En qué]] [[floor|piso]] [[is|está]] [[his|su]] [[office|oficina]]?",
+    "transcript": "[[What floor is his office|En qué piso está su oficina]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Floor|Piso]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Comprehension: Floor|Comprensión: Piso]]",
+      "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[Is|Está]] [[his|su]] [[office|oficina]] [[on|en]] [[the|el]] [[eightieth|octogésimo]] [[floor|piso]]?",
-          "options": ["[[No|No]], [[it|ella]] [[is|está]] [[on|en]] [[the|el]] [[82nd|82º]].", "[[Yes|Sí]], [[it|ella]] [[is|está]].", "[[No|No]], [[it|ella]] [[is|está]] [[on|en]] [[the|el]] [[90th|90º]]."],
+          "question": "[[Is his office on the eightieth floor|Está su oficina en el octogésimo piso]]?",
+          "options": ["[[No is, it on the, it 82nd is on the|No, ella está en el 82º]].", "[[Yes 90th|Sí, ella está]].", "[[No is, it|No, ella está en el 90º]]."],
           "correctAnswer": 0,
-          "explanation": "[[The|El]] [[office|oficina]] [[is|está]] [[on|en]] [[the|el]] [[eighty-second|octogésimo segundo]] [[floor|piso]]."
+          "explanation": "[[The office is on the eighty-second floor|El oficina está en el octogésimo segundo piso]]."
         }
       ]
     },
@@ -929,16 +929,16 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "medium",
-    "transcript": "[[How|Cuántos]] [[many|muchos]] [[emails|correos electrónicos]] [[does|hace]] [[he|él]] [[receive|recibir]]?",
+    "transcript": "[[How many emails does he receive|Cuántos muchos correos electrónicos hace él recibir]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Emails|Correos]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Comprehension: Emails|Comprensión: Correos]]",
+      "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[How|Cuántos]] [[many|muchos]] [[emails|correos electrónicos]] [[does|hace]] [[he|él]] [[receive|recibir]]?",
+          "question": "[[How many emails does he receive|Cuántos muchos correos electrónicos hace él recibir]]?",
           "options": ["[[Ninety|Noventa]]", "[[Sixty-four|Sesenta y cuatro]]", "[[Eighty-six|Ochenta y seis]]"],
           "correctAnswer": 2,
-          "explanation": "[[He|Él]] [[receives|recibe]] [[eighty-six|ochenta y seis]] [[emails|correos electrónicos]]."
+          "explanation": "[[He receives eighty-six emails|Él recibe ochenta y seis correos electrónicos]]."
         }
       ]
     },
@@ -952,16 +952,16 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "medium",
-    "transcript": "[[This|Esta]] [[new|nueva]] [[tablet|tableta]] [[is|es]] [[very|muy]] [[nice|agradable]]. [[The|El]] [[price|precio]] [[is|es]] [[two hundred|doscientos]] [[dollars|dólares]] [[in|en]] [[the|la]] [[big|grande]] [[store|tienda]]. [[But|Pero]] [[in|en]] [[the|la]] [[small|pequeña]] [[store|tienda]], [[it|ella]] [[is|cuesta]] [[one hundred|cien]] [[and|y]] [[sixty-nine|sesenta y nueve]] [[dollars|dólares]]. [[That|Eso]] [[is|es]] [[a|un]] [[good|buen]] [[price|precio]]. [[The|La]] [[tablet|tableta]] [[is|está]] [[available|disponible]] [[in|en]] [[three|tres]] [[colors|colores]]: [[black|negro]], [[silver|plateado]], [[and|y]] [[white|blanco]]. [[The|La]] [[silver|plateada]] [[one|una]] [[is|es]] [[my|mi]] [[favorite|favorita]].",
+    "transcript": "[[This new. The price tablet is, silver, and one is very nice is two hundred. But. The silver my favorite dollars in the big store in the small, it store is one hundred and. That is sixty-nine dollars a good. The price tablet is available: black in three colors white|Esta nueva tableta es muy agradable. El precio es doscientos dólares en la grande tienda. Pero en la pequeña tienda, ella cuesta cien y sesenta y nueve dólares. Eso es un buen precio. La tableta está disponible en tres colores: negro, plateado, y blanco. La plateada una es mi favorita]].",
     "content": {
-      "title": "[[Reading|Lectura]]: [[The|La]] [[New|Nueva]] [[Tablet|Tableta]]",
-      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[about|sobre]] [[the|el]] [[price|precio]].",
+      "title": "[[Reading New: The Tablet|Lectura: La Nueva Tableta]]",
+      "instructions": "[[Read the text about the price|Lee el texto sobre el precio]].",
       "questions": [
         {
-          "question": "[[This|Esta]] [[new|nueva]] [[tablet|tableta]] [[is|es]] [[very|muy]] [[nice|agradable]]. [[The|El]] [[price|precio]] [[is|es]] [[two hundred|doscientos]] [[dollars|dólares]] [[in|en]] [[the|la]] [[big|grande]] [[store|tienda]]. [[But|Pero]] [[in|en]] [[the|la]] [[small|pequeña]] [[store|tienda]], [[it|ella]] [[is|cuesta]] [[one hundred|cien]] [[and|y]] [[sixty-nine|sesenta y nueve]] [[dollars|dólares]]. [[That|Eso]] [[is|es]] [[a|un]] [[good|buen]] [[price|precio]]. [[The|La]] [[tablet|tableta]] [[is|está]] [[available|disponible]] [[in|en]] [[three|tres]] [[colors|colores]]: [[black|negro]], [[silver|plateado]], [[and|y]] [[white|blanco]]. [[The|La]] [[silver|plateada]] [[one|una]] [[is|es]] [[my|mi]] [[favorite|favorita]].",
-          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "question": "[[This new. The price tablet is, silver, and one is very nice is two hundred. But. The silver my favorite dollars in the big store in the small, it store is one hundred and. That is sixty-nine dollars a good. The price tablet is available: black in three colors white|Esta nueva tableta es muy agradable. El precio es doscientos dólares en la grande tienda. Pero en la pequeña tienda, ella cuesta cien y sesenta y nueve dólares. Eso es un buen precio. La tableta está disponible en tres colores: negro, plateado, y blanco. La plateada una es mi favorita]].",
+          "options": ["[[I have read the text|Yo he leído el texto]]."],
           "correctAnswer": 0,
-          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+          "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
       ]
     },
@@ -973,16 +973,16 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "medium",
-    "transcript": "[[How|Cuánto]] [[much|mucho]] [[is|cuesta]] [[the|la]] [[tablet|tableta]] [[in|en]] [[the|la]] [[small|pequeña]] [[store|tienda]]?",
+    "transcript": "[[How much is the tablet in the small store|Cuánto mucho cuesta la tableta en la pequeña tienda]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Price|Precio]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[price|precio]].",
+      "title": "[[Comprehension: Price|Comprensión: Precio]]",
+      "instructions": "[[Choose the correct price|Elige el correcto precio]].",
       "questions": [
         {
-          "question": "[[How|Cuánto]] [[much|mucho]] [[is|cuesta]] [[the|la]] [[tablet|tableta]] [[in|en]] [[the|la]] [[small|pequeña]] [[store|tienda]]?",
+          "question": "[[How much is the tablet in the small store|Cuánto mucho cuesta la tableta en la pequeña tienda]]?",
           "options": ["[[One hundred and ninety-six dollars|196 dólares]]", "[[Two hundred dollars|200 dólares]]", "[[One hundred and sixty-nine dollars|169 dólares]]"],
           "correctAnswer": 2,
-          "explanation": "[[The|El]] [[text|texto]] [[says|dice]]: \"[[it|ella]] [[is|cuesta]] [[one hundred|cien]] [[and|y]] [[sixty-nine|sesenta y nueve]] [[dollars|dólares]]\"."
+          "explanation": "[[The text says is sixty-nine dollars|El texto dice]]: \"[[it one hundred and|ella cuesta cien y sesenta y nueve dólares]]\"."
         }
       ]
     },
@@ -994,16 +994,16 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Which|Cuál]] [[color|color]] [[is|es]] [[the|el]] [[favorite|favorito]]?",
+    "transcript": "[[Which color is the favorite|Cuál color es el favorito]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Favorite|Favorito]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Comprehension: Favorite|Comprensión: Favorito]]",
+      "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[Which|Cuál]] [[color|color]] [[is|es]] [[the|el]] [[favorite|favorito]]?",
+          "question": "[[Which color is the favorite|Cuál color es el favorito]]?",
           "options": ["[[Black|Negro]]", "[[Silver|Plateado]]", "[[White|Blanco]]"],
           "correctAnswer": 1,
-          "explanation": "[[The|El]] [[silver|plateada]] [[one|una]] [[is|es]] [[my|mi]] [[favorite|favorita]]."
+          "explanation": "[[The silver one is my favorite|El plateada una es mi favorita]]."
         }
       ]
     },
@@ -1017,16 +1017,16 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "medium",
-    "transcript": "[[Today|Hoy]] [[is|es]] [[my|mi]] [[grandmother's|de mi abuela]] [[birthday|cumpleaños]]. [[She|Ella]] [[is|tiene]] [[eighty-five|ochenta y cinco]] [[years|años]] [[old|de edad]]. [[There|Allí]] [[are|hay]] [[forty|cuarenta]] [[people|personas]] [[at|en]] [[the|la]] [[party|fiesta]]. [[We|Nosotros]] [[have|tenemos]] [[sixty|sesenta]] [[cupcakes|magdalenas]] [[and|y]] [[one|un]] [[big|grande]] [[cake|pastel]]. [[The|El]] [[cake|pastel]] [[price|precio]] [[is|es]] [[forty-two|cuarenta y dos]] [[euros|euros]]. [[Everyone|Todos]] [[is|están]] [[happy|felices]].",
+    "transcript": "[[Today is. She my grandmother's birthday is eighty-five years. There old are forty people. We at the party have sixty cupcakes. The cake and one big cake price is. Everyone is forty-two euros happy|Hoy es mi de mi abuela cumpleaños. Ella tiene ochenta y cinco años de edad. Allí hay cuarenta personas en la fiesta. Nosotros tenemos sesenta magdalenas y un grande pastel. El pastel precio es cuarenta y dos euros. Todos están felices]].",
     "content": {
-      "title": "[[Reading|Lectura]]: [[The|La]] [[Birthday|Cumpleaños]] [[Party|Fiesta]]",
-      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|la]] [[party|fiesta]].",
+      "title": "[[Reading Birthday: The Party|Lectura: La Cumpleaños Fiesta]]",
+      "instructions": "[[Read about the party|Lee sobre la fiesta]].",
       "questions": [
         {
-          "question": "[[Today|Hoy]] [[is|es]] [[my|mi]] [[grandmother's|de mi abuela]] [[birthday|cumpleaños]]. [[She|Ella]] [[is|tiene]] [[eighty-five|ochenta y cinco]] [[years|años]] [[old|de edad]]. [[There|Allí]] [[are|hay]] [[forty|cuarenta]] [[people|personas]] [[at|en]] [[the|la]] [[party|fiesta]]. [[We|Nosotros]] [[have|tenemos]] [[sixty|sesenta]] [[cupcakes|magdalenas]] [[and|y]] [[one|un]] [[big|grande]] [[cake|pastel]]. [[The|El]] [[cake|pastel]] [[price|precio]] [[is|es]] [[forty-two|cuarenta y dos]] [[euros|euros]]. [[Everyone|Todos]] [[is|están]] [[happy|felices]].",
-          "options": ["[[I|Yo]] [[have|he]] [[read|leído]] [[the|el]] [[text|texto]]."],
+          "question": "[[Today is. She my grandmother's birthday is eighty-five years. There old are forty people. We at the party have sixty cupcakes. The cake and one big cake price is. Everyone is forty-two euros happy|Hoy es mi de mi abuela cumpleaños. Ella tiene ochenta y cinco años de edad. Allí hay cuarenta personas en la fiesta. Nosotros tenemos sesenta magdalenas y un grande pastel. El pastel precio es cuarenta y dos euros. Todos están felices]].",
+          "options": ["[[I have read the text|Yo he leído el texto]]."],
           "correctAnswer": 0,
-          "explanation": "[[Click|Haz clic]] [[to|para]] [[continue|continuar]]."
+          "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
       ]
     },
@@ -1038,16 +1038,16 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "medium",
-    "transcript": "[[How|Qué]] [[old|tan viejo]] [[is|es]] [[the|la]] [[grandmother|abuela]]?",
+    "transcript": "[[How old is the grandmother|Qué tan viejo es la abuela]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[Age|Edad]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Comprehension: Age|Comprensión: Edad]]",
+      "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[Is|Tiene]] [[the|la]] [[grandmother|abuela]] [[eighty|ochenta]] [[years|años]] [[old|de edad]]?",
-          "options": ["[[Yes|Sí]], [[she|ella]] [[is|tiene]].", "[[No|No]], [[she|ella]] [[is|tiene]] [[85|85]].", "[[No|No]], [[she|ella]] [[is|tiene]] [[75|75]]."],
+          "question": "[[Is the grandmother eighty years old|Tiene la abuela ochenta años de edad]]?",
+          "options": ["[[Yes is, she 85 is, she|Sí, ella tiene]].", "[[No is, she|No, ella tiene 85]].", "[[No 75|No, ella tiene 75]]."],
           "correctAnswer": 1,
-          "explanation": "[[The|El]] [[grandmother|abuela]] [[is|tiene]] [[eighty-five|ochenta y cinco]]."
+          "explanation": "[[The grandmother is eighty-five|El abuela tiene ochenta y cinco]]."
         }
       ]
     },
@@ -1059,16 +1059,16 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "medium",
-    "transcript": "[[How|Cuántas]] [[many|muchas]] [[people|personas]] [[are|hay]] [[at|en]] [[the|la]] [[party|fiesta]]?",
+    "transcript": "[[How many people are at the party|Cuántas muchas personas hay en la fiesta]]?",
     "content": {
-      "title": "[[Comprehension|Comprensión]]: [[People|Personas]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question|pregunta]].",
+      "title": "[[Comprehension: People|Comprensión: Personas]]",
+      "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[How|Cuántas]] [[many|muchas]] [[people|personas]] [[are|hay]] [[at|en]] [[the|la]] [[party|fiesta]]?",
+          "question": "[[How many people are at the party|Cuántas muchas personas hay en la fiesta]]?",
           "options": ["[[Sixty|Sesenta]]", "[[Forty|Cuarenta]]", "[[Eighty-five|Ochenta y cinco]]"],
           "correctAnswer": 1,
-          "explanation": "[[There|Allí]] [[are|hay]] [[forty|cuarenta]] [[people|personas]]."
+          "explanation": "[[There are forty people|Allí hay cuarenta personas]]."
         }
       ]
     },

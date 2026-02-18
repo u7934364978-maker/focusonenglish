@@ -109,7 +109,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[catch|catch]]) _______ [[a|un/una]] [[cold|frío]] [[last|last]] [[week|semana]].",
+          "question": "[[I cold last week|Yo]] ([[catch|catch]]) _______ [[a|un/una frío last semana]].",
           "options": [
             "[[caught|caught]]",
             "[[to|a/para]]",
@@ -135,7 +135,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[have|tener/haber]]) _______ [[a|un/una]] [[fever|fever]].",
+          "question": "[[She fever|Ella]] ([[have|tener/haber]]) _______ [[a|un/una fever]].",
           "options": [
             "[[has|tiene/ha]]",
             "[[to|a/para]]",
@@ -161,7 +161,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[not/go|not/go]]) _______ [[to|a/para]] [[work|trabajo/trabajar]] [[because|because]] [[he|él]] [[was|era/fue/estaba/estuvo]] [[ill|ill]].",
+          "question": "[[He work because he was ill|Él]] ([[not/go|not/go]]) _______ [[to|a/para trabajo/trabajar because él era/fue/estaba/estuvo ill]].",
           "options": [
             "[[didn't go|didn't go]]",
             "[[to|a/para]]",
@@ -187,7 +187,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[be|ser/estar]]) _______ [[all|all]] [[sick|sick]].",
+          "question": "[[We sick|Nosotros]] ([[be|ser/estar]]) _______ [[all|all sick]].",
           "options": [
             "[[to|a/para]]",
             "[[it|eso]]",
@@ -213,7 +213,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Do|Hacer]] [[you|tú/usted]] _______ ([[have|tener/haber]]) [[a|un/una]] [[sore|sore]] [[throat|throat]]?",
+          "question": "[[Do you throat|Hacer tú/usted]] _______ ([[have sore|tener/haber]]) [[a|un/una sore throat]]?",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -239,7 +239,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[be|ser/estar]]) _______ [[coughing|coughing]] [[a|un/una]] [[lot|lot]].",
+          "question": "[[They a lot|Ellos]] ([[be|ser/estar]]) _______ [[coughing|coughing un/una lot]].",
           "options": [
             "[[to|a/para]]",
             "[[are|son/están]]",
@@ -265,7 +265,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[take|tomar/llevar]]) _______ [[some|some]] [[aspirin|aspirin]].",
+          "question": "[[I aspirin|Yo]] ([[take|tomar/llevar]]) _______ [[some|some aspirin]].",
           "options": [
             "[[to|a/para]]",
             "[[took|took]]",
@@ -291,7 +291,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[need|necesitar]]) _______ [[to|a/para]] [[stay|stay]] [[in|en]] [[bed|cama]].",
+          "question": "[[She stay in bed|Ella]] ([[need|necesitar]]) _______ [[to|a/para stay en cama]].",
           "options": [
             "[[needs|needs]]",
             "[[it|eso]]",
@@ -317,7 +317,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[medicine|medicine]] ([[make|hacer]]) _______ [[me|me/mí]] [[feel|feel]] [[sleepy|sleepy]].",
+          "question": "[[The medicine sleepy|El/la/los/las medicine]] ([[make feel|hacer]]) _______ [[me|me/mí feel sleepy]].",
           "options": [
             "[[to|a/para]]",
             "[[makes|makes]]",
@@ -343,7 +343,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "_______ [[you|tú/usted]] [[feeling|feeling]] [[better|mejor]] [[now|ahora]]?",
+          "question": "_______ [[you feeling better now|tú/usted feeling mejor ahora]]?",
           "options": [
             "[[Are|Son/están]]",
             "[[it|eso]]",
@@ -367,7 +367,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I've|I've]] [[got|tienes/conseguido]] [[a|un/una]] [[really|really]] [[bad|malo/mala]] [[cold|frío]].",
+      "correctSentence": "[[I've got a really bad cold|I've tienes/conseguido un/una really malo/mala frío]].",
       "words": [
         "[[I've|I've]]",
         "[[got|tienes/conseguido]]",
@@ -391,7 +391,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[stayed|stayed]] [[home|casa/hogar]] [[from|de/desde]] [[school|escuela]] [[with|con]] [[a|un/una]] [[fever|fever]].",
+      "correctSentence": "[[She stayed home from school with a fever|Ella stayed casa/hogar de/desde escuela con un/una fever]].",
       "words": [
         "[[fever|fever]].",
         "[[stayed|stayed]]",
@@ -417,7 +417,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[have|tener/haber]] [[a|un/una]] [[sore|sore]] [[throat|throat]] [[and|and]] [[a|un/una]] [[cough|cough]].",
+      "correctSentence": "[[I have a sore throat and a cough|Yo tener/haber un/una sore throat and un/una cough]].",
       "words": [
         "[[throat|throat]]",
         "[[and|and]]",
@@ -443,7 +443,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Do|Hacer]] [[you|tú/usted]] [[have|tener/haber]] [[any|alguno/a]] [[pills|pills]] [[for|para/por]] [[a|un/una]] [[headache|headache]]?",
+      "correctSentence": "[[Do you have any pills for a headache|Hacer tú/usted tener/haber alguno/a pills para/por un/una headache]]?",
       "words": [
         "[[headache|headache]]?",
         "[[a|un/una]]",
@@ -469,7 +469,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[needs|needs]] [[a|un/una]] [[prescription|prescription]] [[for|para/por]] [[this|este/esta]] [[medicine|medicine]].",
+      "correctSentence": "[[He needs a prescription for this medicine|Él needs un/una prescription para/por este/esta medicine]].",
       "words": [
         "[[medicine|medicine]].",
         "[[prescription|prescription]]",
@@ -494,7 +494,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[feel|feel]] [[sick|sick]] [[after|después]] [[eating|eating]] [[that|ese/esa/aquel]] [[seafood|seafood]].",
+      "correctSentence": "[[I feel sick after eating that seafood|Yo feel sick después eating ese/esa/aquel seafood]].",
       "words": [
         "[[that|ese/esa/aquel]]",
         "[[I|Yo]]",
@@ -519,7 +519,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She's|She's]] [[been|been]] [[sneezing|sneezing]] [[all|all]] [[morning|mañana]].",
+      "correctSentence": "[[She's been sneezing all morning|She's been sneezing all mañana]].",
       "words": [
         "[[sneezing|sneezing]]",
         "[[been|been]]",
@@ -542,7 +542,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[has|tiene/ha]] [[a|un/una]] [[very|muy]] [[high|high]] [[temperature|temperature]].",
+      "correctSentence": "[[He has a very high temperature|Él tiene/ha un/una muy high temperature]].",
       "words": [
         "[[He|Él]]",
         "[[temperature|temperature]].",
@@ -566,7 +566,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Take|Tomar/llevar]] [[two|dos]] [[pills|pills]] [[with|con]] [[water|agua]] [[every|every]] [[four|cuatro]] [[hours|hours]].",
+      "correctSentence": "[[Take two pills with water every four hours|Tomar/llevar dos pills con agua every cuatro hours]].",
       "words": [
         "[[every|every]]",
         "[[hours|hours]].",
@@ -592,7 +592,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[caught|caught]] [[the|el/la/los/las]] [[flu|flu]] [[from|de/desde]] [[my|mi/mis]] [[brother|hermano]].",
+      "correctSentence": "[[I caught the flu from my brother|Yo caught el/la/los/las flu de/desde mi/mis hermano]].",
       "words": [
         "[[brother|hermano]].",
         "[[caught|caught]]",
@@ -617,7 +617,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I've|I've]] [[got|tienes/conseguido]] [[a|un/una]] [[terrible|terrible]] [[toothache|toothache]]; [[I|Yo]] [[need|necesitar]] [[the|el/la/los/las]] [[dentist|dentist]].",
+      "correctSentence": "[[I've got; I a terrible toothache need the dentist|I've tienes/conseguido un/una terrible toothache; Yo necesitar el/la/los/las dentist]].",
       "words": [
         "[[I|Yo]]",
         "[[I've|I've]]",
@@ -644,7 +644,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[looks|looks]] [[very|muy]] [[pale|pale]] [[today|hoy]].",
+      "correctSentence": "[[She looks very pale today|Ella looks muy pale hoy]].",
       "words": [
         "[[pale|pale]]",
         "[[very|muy]]",
@@ -667,7 +667,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[feels|feels]] [[dizzy|dizzy]] [[when|cuándo]] [[he|él]] [[stands|stands]] [[up|up]] [[too|demasiado/también]] [[quickly|quickly]].",
+      "correctSentence": "[[He feels dizzy when he stands up too quickly|Él feels dizzy cuándo él stands up demasiado/también quickly]].",
       "words": [
         "[[when|cuándo]]",
         "[[dizzy|dizzy]]",
@@ -694,7 +694,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[infection|infection]] [[is|es/está]] [[getting|getting]] [[better|mejor]] [[now|ahora]].",
+      "correctSentence": "[[The infection is getting better now|El/la/los/las infection es/está getting mejor ahora]].",
       "words": [
         "[[better|mejor]]",
         "[[getting|getting]]",
@@ -718,7 +718,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[need|necesitar]] [[some|some]] [[syrup|syrup]] [[for|para/por]] [[my|mi/mis]] [[cough|cough]].",
+      "correctSentence": "[[I need some syrup for my cough|Yo necesitar some syrup para/por mi/mis cough]].",
       "words": [
         "[[some|some]]",
         "[[need|necesitar]]",

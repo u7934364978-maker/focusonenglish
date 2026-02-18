@@ -13,7 +13,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Corta|Corta]]) _______ [[the|el/la/los/las]] [[onions|onions]].",
+          "question": "([[Corta onions|Corta]]) _______ [[the|el/la/los/las onions]].",
           "options": [
             "[[Cut|Cut]]",
             "[[is|es/está]]",
@@ -39,7 +39,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Mezcla|Mezcla]]) _______ [[the|el/la/los/las]] [[eggs|eggs]] [[and|and]] [[sugar|azúcar]].",
+          "question": "([[Mezcla eggs and sugar|Mezcla]]) _______ [[the|el/la/los/las eggs and azúcar]].",
           "options": [
             "[[Mix|Mix]]",
             "[[are|son/están]]",
@@ -65,7 +65,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[hornear|hornear]]) _______ [[a|un/una]] [[cake|cake]].",
+          "question": "[[I cake|Yo]] ([[hornear|hornear]]) _______ [[a|un/una cake]].",
           "options": [
             "[[bake|bake]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Hierve|Hierve]]) _______ [[the|el/la/los/las]] [[water|agua]].",
+          "question": "([[Hierve water|Hierve]]) _______ [[the|el/la/los/las agua]].",
           "options": [
             "[[Boil|Boil]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I'm|I'm]] [[baking|baking]] [[a|un/una]] [[chocolate|chocolate]] [[cake|cake]].",
+      "correctSentence": "[[I'm baking a chocolate cake|I'm baking un/una chocolate cake]].",
       "words": [
         "[[I'm|I'm]]",
         "[[baking|baking]]",
@@ -138,7 +138,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Cut|Cut]] [[the|el/la/los/las]] [[vegetables|verduras]] [[into|into]] [[small|pequeño/pequeña]] [[pieces|pieces]].",
+      "correctSentence": "[[Cut the vegetables into small pieces|Cut el/la/los/las verduras into pequeño/pequeña pieces]].",
       "words": [
         "[[pieces|pieces]].",
         "[[into|into]]",
@@ -162,7 +162,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Mix|Mix]] [[all|all]] [[the|el/la/los/las]] [[ingredients|ingredients]] [[together|together]].",
+      "correctSentence": "[[Mix all the ingredients together|Mix all el/la/los/las ingredients together]].",
       "words": [
         "[[the|el/la/los/las]]",
         "[[ingredients|ingredients]]",
@@ -185,7 +185,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Don't|No]] [[fry|fry]] [[the|el/la/los/las]] [[fish|pescado]] [[for|para/por]] [[too|demasiado/también]] [[long|largo]].",
+      "correctSentence": "[[Don't fry the fish for too long|No fry el/la/los/las pescado para/por demasiado/también largo]].",
       "words": [
         "[[fish|pescado]]",
         "[[fry|fry]]",
@@ -210,7 +210,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Boil|Boil]] [[the|el/la/los/las]] [[pasta|pasta]] [[for|para/por]] [[ten|diez]] [[minutes|minutes]].",
+      "correctSentence": "[[Boil the pasta for ten minutes|Boil el/la/los/las pasta para/por diez minutes]].",
       "words": [
         "[[for|para/por]]",
         "[[pasta|pasta]]",

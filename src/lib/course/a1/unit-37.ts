@@ -13,7 +13,7 @@ export const UNIT_37_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|soy/estoy]] ([[bueno|bueno]] [[en|en]]) _______ [[drawing|drawing]].",
+          "question": "[[I am|Yo soy/estoy]] ([[bueno en|bueno en]]) _______ [[drawing|drawing]].",
           "options": [
             "[[is|es/está]]",
             "[[are|son/están]]",
@@ -39,7 +39,7 @@ export const UNIT_37_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es/está]] ([[malo|malo]] [[en|en]]) _______ [[singing|singing]].",
+          "question": "[[He is|Él es/está]] ([[malo en|malo en]]) _______ [[singing|singing]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_37_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She|Ella]] ([[tener|tener]]) _______ [[a|un/una]] [[talent|talent]] [[for|para/por]] [[music|music]].",
+          "question": "[[She talent for music|Ella]] ([[tener|tener]]) _______ [[a|un/una talent para/por music]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_37_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[need|necesitar]] [[to|a/para]] ([[practicar|practicar]]) _______ [[more|más]].",
+          "question": "[[I need to|Yo necesitar a/para]] ([[practicar|practicar]]) _______ [[more|más]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_37_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|es/está]] [[an|un/una]] [[expert|expert]] [[in|en]] [[computers|computers]].",
+      "correctSentence": "[[He is an expert in computers|Él es/está un/una expert en computers]].",
       "words": [
         "[[an|un/una]]",
         "[[computers|computers]].",
@@ -139,7 +139,7 @@ export const UNIT_37_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[a|un/una]] [[beginner|beginner]] [[in|en]] [[English|English]].",
+      "correctSentence": "[[I am a beginner in English|Yo soy/estoy un/una beginner en English]].",
       "words": [
         "[[beginner|beginner]]",
         "[[am|soy/estoy]]",
@@ -163,7 +163,7 @@ export const UNIT_37_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Practice|Practice]] [[makes|makes]] [[perfect|perfect]].",
+      "correctSentence": "[[Practice makes perfect|Practice makes perfect]].",
       "words": [
         "[[makes|makes]]",
         "[[Practice|Practice]]",
@@ -184,7 +184,7 @@ export const UNIT_37_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[is|es/está]] [[very|muy]] [[good|bueno/buena]] [[at|en]] [[cooking|cooking]].",
+      "correctSentence": "[[She is very good at cooking|Ella es/está muy bueno/buena en cooking]].",
       "words": [
         "[[at|en]]",
         "[[She|Ella]]",
@@ -208,7 +208,7 @@ export const UNIT_37_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[am|soy/estoy]] [[bad|malo/mala]] [[at|en]] [[remembering|remembering]] [[names|names]].",
+      "correctSentence": "[[I am bad at remembering names|Yo soy/estoy malo/mala en remembering names]].",
       "words": [
         "[[I|Yo]]",
         "[[am|soy/estoy]]",

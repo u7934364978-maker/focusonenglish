@@ -12,7 +12,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Condicional mixto (1)",
       "instructions": "Ordena las palabras para una condición pasada con resultado presente.",
-      "correctSentence": "[[If|Si]] [[I|hubiera]] [[had|terminado]] [[finished|el]] [[the|informe,]] [[report,|no]] [[I|estaría]] [[wouldn't|tan]] [[be|ocupado]] [[so|ahora.]] [[busy| ]] [[now.| ]]",
+      "correctSentence": "[[If I had finished the report, I wouldn't be so busy now.|Si hubiera terminado el informe, no estaría tan ocupado ahora.    ]]",
       "words": [
         "[[finished|el]]",
         "[[I|hubiera]]",
@@ -43,7 +43,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reducción de plantilla",
       "instructions": "Ordena las palabras para hablar de reestructuración empresarial.",
-      "correctSentence": "[[The|La]] [[company|empresa]] [[has|ha]] [[decided|decidido]] [[to|reducir]] [[downsize|su]] [[its|plantilla]] [[workforce|este]] [[this|año.]] [[year.| ]]",
+      "correctSentence": "[[The company has decided to downsize its workforce this year.|La empresa ha decidido reducir su plantilla este año.  ]]",
       "words": [
         "[[company|empresa]]",
         "[[decided|decidido]]",
@@ -72,7 +72,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Condicional mixto (2)",
       "instructions": "Ordena las palabras para una condición presente con resultado pasado.",
-      "correctSentence": "[[If|Si]] [[she|ella]] [[were|tuviera]] [[more|más]] [[experienced,|experiencia,]] [[she|habría]] [[would|obtenido]] [[have|el]] [[gotten|ascenso.]] [[the| ]] [[promotion.| ]]",
+      "correctSentence": "[[If she were more experienced, she would have gotten the promotion.|Si ella tuviera más experiencia, habría obtenido el ascenso.    ]]",
       "words": [
         "[[experienced,|experiencia,]]",
         "[[would|obtenido]]",
@@ -102,7 +102,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Networking",
       "instructions": "Ordena las palabras para hablar de contactos profesionales.",
-      "correctSentence": "[[Networking|Hacer contactos]] [[is|es]] [[vital|vital]] [[for|para]] [[career|el avance]] [[advancement|profesional]] [[in|en]] [[many|muchas]] [[industries.|industrias.]]",
+      "correctSentence": "[[Networking is vital for career advancement in many industries.|Hacer contactos es vital para el avance profesional en muchas industrias.]]",
       "words": [
         "[[is|es]]",
         "[[advancement|profesional]]",
@@ -130,7 +130,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Seminario y viaje",
       "instructions": "Ordena las palabras usando un condicional mixto.",
-      "correctSentence": "[[I|Habría]] [[would|asistido]] [[have|al]] [[attended|seminario]] [[the|si]] [[seminar|no]] [[if|estuviera]] [[I|viajando]] [[weren't|hoy.]] [[traveling| ]] [[today.| ]]",
+      "correctSentence": "[[I would have attended the seminar if I weren't traveling today.|Habría asistido al seminario si no estuviera viajando hoy.    ]]",
       "words": [
         "[[have|al]]",
         "[[seminar|si]]",
@@ -160,7 +160,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Liderazgo efectivo",
       "instructions": "Ordena las palabras para hablar de habilidades directivas.",
-      "correctSentence": "[[Effective|El liderazgo]] [[leadership|efectivo]] [[requires|requiere]] [[clear|comunicación]] [[communication|clara]] [[and|y]] [[decision-making|habilidades de]] [[skills.|toma de decisiones.]]",
+      "correctSentence": "[[Effective leadership requires clear communication and decision-making skills.|El liderazgo efectivo requiere comunicación clara y habilidades de toma de decisiones.]]",
       "words": [
         "[[leadership|efectivo]]",
         "[[clear|comunicación]]",
@@ -187,7 +187,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inversión y mercado",
       "instructions": "Ordena las palabras usando inversión en el condicional.",
-      "correctSentence": "[[Had|Si]] [[the|el]] [[market|mercado]] [[been|hubiera]] [[stable,|estado estable,]] [[we|habríamos]] [[would|invertido]] [[have|más.]] [[invested| ]] [[more.| ]]",
+      "correctSentence": "[[Had the market been stable, we would have invested more.|Si el mercado hubiera estado estable, habríamos invertido más.    ]]",
       "words": [
         "[[market|mercado]]",
         "[[would|invertido]]",
@@ -216,7 +216,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Fecha límite",
       "instructions": "Ordena las palabras para hablar de plazos de entrega.",
-      "correctSentence": "[[The|La]] [[deadline|fecha límite]] [[for|para]] [[the|la]] [[project|propuesta]] [[proposal|del proyecto]] [[is|es]] [[next|el próximo]] [[Friday|viernes]] [[at|al]] [[noon.|mediodía.]]",
+      "correctSentence": "[[The deadline for the project proposal is next Friday at noon.|La fecha límite para la propuesta del proyecto es el próximo viernes al mediodía.]]",
       "words": [
         "[[deadline|fecha límite]]",
         "[[project|propuesta]]",
@@ -246,7 +246,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Socios actuales",
       "instructions": "Ordena las palabras para un condicional mixto.",
-      "correctSentence": "[[If|Si]] [[they|ellos]] [[hadn't|no]] [[signed|hubieran]] [[the|firmado]] [[contract,|el contrato,]] [[we|no]] [[wouldn't|seríamos]] [[be|socios]] [[partners|ahora.]] [[now.| ]]",
+      "correctSentence": "[[If they hadn't signed the contract, we wouldn't be partners now.|Si ellos no hubieran firmado el contrato, no seríamos socios ahora.  ]]",
       "words": [
         "[[they|ellos]]",
         "[[signed|hubieran]]",
@@ -276,7 +276,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Startup",
       "instructions": "Ordena las palabras para definir una empresa emergente.",
-      "correctSentence": "[[A|Una]] [[startup|startup]] [[is|es]] [[a|un]] [[newly|negocio]] [[established|recién]] [[business|establecido]] [[with|con]] [[high|un alto]] [[growth|potencial]] [[potential.|de crecimiento.]]",
+      "correctSentence": "[[A startup is a newly established business with high growth potential.|Una startup es un negocio recién establecido con un alto potencial de crecimiento.]]",
       "words": [
         "[[startup|startup]]",
         "[[newly|negocio]]",
@@ -306,7 +306,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Contacto formal",
       "instructions": "Ordena las palabras usando inversión con 'Should' para condiciones futuras.",
-      "correctSentence": "[[Should|Si]] [[you|usted]] [[require|requiere]] [[further|más]] [[information,|información,]] [[please|por favor]] [[do|no]] [[not|dude]] [[hesitate|en]] [[to|contactarnos.]] [[contact| ]] [[us.| ]]",
+      "correctSentence": "[[Should you require further information, please do not hesitate to contact us.|Si usted requiere más información, por favor no dude en contactarnos.    ]]",
       "words": [
         "[[you|usted]]",
         "[[further|más]]",
@@ -337,7 +337,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Horas extras",
       "instructions": "Ordena las palabras para hablar de equilibrio laboral.",
-      "correctSentence": "[[Working|Trabajar]] [[overtime|horas extras]] [[can|puede]] [[lead|llevar]] [[to|al]] [[stress|estrés]] [[and|y]] [[a|a un]] [[poor|mal]] [[work-life|equilibrio]] [[balance.|vida-trabajo.]]",
+      "correctSentence": "[[Working overtime can lead to stress and a poor work-life balance.|Trabajar horas extras puede llevar al estrés y a un mal equilibrio vida-trabajo.]]",
       "words": [
         "[[overtime|horas extras]]",
         "[[lead|llevar]]",
@@ -367,7 +367,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Gestión de crisis",
       "instructions": "Ordena las palabras para un condicional mixto.",
-      "correctSentence": "[[If|Si]] [[I|yo]] [[were|fuera]] [[the|el]] [[CEO,|director ejecutivo,]] [[I|habría]] [[would|manejado]] [[have|esa]] [[handled|crisis]] [[that|de forma]] [[crisis|diferente.]] [[differently.| ]]",
+      "correctSentence": "[[If I were the CEO, I would have handled that crisis differently.|Si yo fuera el director ejecutivo, habría manejado esa crisis de forma diferente.  ]]",
       "words": [
         "[[I|yo]]",
         "[[the|el]]",
@@ -398,7 +398,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Beneficios laborales",
       "instructions": "Ordena las palabras para hablar de compensación.",
-      "correctSentence": "[[Employee|Los beneficios]] [[benefits|para empleados]] [[include|incluyen]] [[health|seguro]] [[insurance,|médico,]] [[paid|vacaciones]] [[leave,|pagadas,]] [[and|y]] [[retirement|planes de]] [[plans.|jubilación.]]",
+      "correctSentence": "[[Employee benefits include health insurance, paid leave, and retirement plans.|Los beneficios para empleados incluyen seguro médico, vacaciones pagadas, y planes de jubilación.]]",
       "words": [
         "[[benefits|para empleados]]",
         "[[health|seguro]]",
@@ -427,7 +427,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Oferta de trabajo",
       "instructions": "Ordena las palabras usando inversión con 'Were' para hipótesis futuras.",
-      "correctSentence": "[[Were|Si]] [[they|ellos]] [[to|me]] [[offer|ofrecieran]] [[me|el]] [[the|puesto,]] [[job,|lo]] [[I|aceptaría]] [[would|de]] [[accept|inmediato.]] [[it| ]] [[immediately.| ]]",
+      "correctSentence": "[[Were they to offer me the job, I would accept it immediately.|Si ellos me ofrecieran el puesto, lo aceptaría de inmediato.    ]]",
       "words": [
         "[[they|ellos]]",
         "[[offer|ofrecieran]]",
@@ -458,7 +458,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Subcontratación",
       "instructions": "Ordena las palabras para hablar de eficiencia empresarial.",
-      "correctSentence": "[[Outsourcing|Subcontratar]] [[tasks|tareas]] [[can|puede]] [[help|ayudar a]] [[companies|las empresas]] [[to|a]] [[reduce|reducir]] [[operational|los costes]] [[costs.|operativos.]]",
+      "correctSentence": "[[Outsourcing tasks can help companies to reduce operational costs.|Subcontratar tareas puede ayudar a las empresas a reducir los costes operativos.]]",
       "words": [
         "[[tasks|tareas]]",
         "[[help|ayudar a]]",
@@ -486,7 +486,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cierre del trato",
       "instructions": "Ordena las palabras usando 'Providing that' para condiciones.",
-      "correctSentence": "[[Providing|Siempre]] [[that|que]] [[the|se]] [[conditions|cumplan]] [[are|las]] [[met,|condiciones,]] [[the|el]] [[deal|trato]] [[will|se]] [[go|llevará]] [[through.|a cabo.]]",
+      "correctSentence": "[[Providing that the conditions are met, the deal will go through.|Siempre que se cumplan las condiciones, el trato se llevará a cabo.]]",
       "words": [
         "[[that|que]]",
         "[[conditions|cumplan]]",
@@ -516,7 +516,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Denunciante",
       "instructions": "Ordena las palabras para definir una figura de ética laboral.",
-      "correctSentence": "[[A|Un]] [[whistleblower|denunciante]] [[is|es]] [[someone|alguien]] [[who|que]] [[reports|denuncia]] [[illegal|actividades]] [[activity|ilegales]] [[within|dentro de]] [[an|una]] [[organization.|organización.]]",
+      "correctSentence": "[[A whistleblower is someone who reports illegal activity within an organization.|Un denunciante es alguien que denuncia actividades ilegales dentro de una organización.]]",
       "words": [
         "[[whistleblower|denunciante]]",
         "[[someone|alguien]]",
@@ -546,7 +546,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sin tu ayuda",
       "instructions": "Ordena las palabras usando 'But for' para condiciones negativas.",
-      "correctSentence": "[[But|Si]] [[for|no]] [[your|fuera]] [[help,|por tu ayuda,]] [[we|no]] [[wouldn't|habríamos]] [[have|cumplido]] [[met|el]] [[the|plazo.]] [[deadline.| ]]",
+      "correctSentence": "[[But for your help, we wouldn't have met the deadline.|Si no fuera por tu ayuda, no habríamos cumplido el plazo.  ]]",
       "words": [
         "[[for|fuera]]",
         "[[help,|por tu ayuda,]]",
@@ -575,7 +575,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Junta directiva",
       "instructions": "Ordena las palabras para hablar de gobernanza corporativa.",
-      "correctSentence": "[[The|La]] [[board|junta]] [[of|de]] [[directors|directores]] [[oversees|supervisa]] [[the|la]] [[company's|estrategia]] [[long-term|a largo]] [[strategy.|plazo de la empresa.]]",
+      "correctSentence": "[[The board of directors oversees the company's long-term strategy.|La junta de directores supervisa la estrategia a largo plazo de la empresa.]]",
       "words": [
         "[[board|junta]]",
         "[[directors|directores]]",
@@ -603,7 +603,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Puesto vacante",
       "instructions": "Ordena las palabras usando inversión formal.",
-      "correctSentence": "[[Had|Si]] [[I|hubiera]] [[known|sabido]] [[about|lo de]] [[the|la]] [[vacancy,|vacante,]] [[I|habría]] [[would|solicitado]] [[have|el]] [[applied.|puesto.]]",
+      "correctSentence": "[[Had I known about the vacancy, I would have applied.|Si hubiera sabido lo de la vacante, habría solicitado el puesto.]]",
       "words": [
         "[[I|hubiera]]",
         "[[vacancy,|vacante,]]",
@@ -632,7 +632,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Diversidad laboral",
       "instructions": "Ordena las palabras para hablar de entornos modernos.",
-      "correctSentence": "[[A|Un]] [[diverse|entorno]] [[workplace|diverso]] [[fosters|fomenta]] [[innovation|la innovación]] [[and|y]] [[creative|la resolución]] [[problem-solving.|creativa de problemas.]]",
+      "correctSentence": "[[A diverse workplace fosters innovation and creative problem-solving.|Un entorno diverso fomenta la innovación y la resolución creativa de problemas.]]",
       "words": [
         "[[workplace|diverso]]",
         "[[fosters|fomenta]]",
@@ -659,7 +659,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reconocer un error",
       "instructions": "Ordena las palabras para un condicional mixto.",
-      "correctSentence": "[[If|Si]] [[you|no]] [[weren't|fueras]] [[so|tan]] [[stubborn,|terco,]] [[you|habrías]] [[would|admitido]] [[have|el]] [[admitted|error.]] [[the| ]] [[mistake.| ]]",
+      "correctSentence": "[[If you weren't so stubborn, you would have admitted the mistake.|Si no fueras tan terco, habrías admitido el error.    ]]",
       "words": [
         "[[weren't|fueras]]",
         "[[stubborn,|terco,]]",
@@ -689,7 +689,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Capital de riesgo",
       "instructions": "Ordena las palabras para hablar de financiación.",
-      "correctSentence": "[[Venture|El capital]] [[capital|de riesgo]] [[provides|proporciona]] [[funding|financiación]] [[to|a]] [[startups|startups]] [[in|a]] [[exchange|cambio]] [[for|de]] [[equity.|acciones.]]",
+      "correctSentence": "[[Venture capital provides funding to startups in exchange for equity.|El capital de riesgo proporciona financiación a startups a cambio de acciones.]]",
       "words": [
         "[[capital|de riesgo]]",
         "[[funding|financiación]]",
@@ -718,7 +718,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pedido con descuento",
       "instructions": "Ordena las palabras para una negociación hipotética.",
-      "correctSentence": "[[Suppose|Supongamos]] [[we|que]] [[offered|ofreciéramos]] [[a|un]] [[discount,|descuento,]] [[would|¿haría]] [[you|usted]] [[place|un]] [[an|pedido]] [[order|ahora?]] [[now?| ]]",
+      "correctSentence": "[[Suppose we offered a discount, would you place an order now?|Supongamos que ofreciéramos un descuento, ¿haría usted un pedido ahora?  ]]",
       "words": [
         "[[we|que]]",
         "[[discount,|descuento,]]",
@@ -752,7 +752,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta para el condicional mixto.",
       "questions": [
         {
-          "question": "[[If|Si]] [[I|hubiera]] [[had|aceptado]] [[taken|aquel]] [[that|trabajo,]] [[job,| ]] _______ [[living|estaría viviendo]] [[in|en]] [[London|Londres]] [[now.|ahora.]]",
+          "question": "[[If I had taken that job, London now.|Si hubiera aceptado aquel trabajo,  ]] _______ [[living in|estaría viviendo en Londres ahora.]]",
           "options": ["[[I would be|estaría]]", "[[I would have been|habría estado]]", "[[I am|estoy]]"],
           "correctAnswer": 0,
           "explanation": "Resultado presente de una condición pasada: 'would be + -ing'.",
@@ -775,7 +775,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para despido por falta de necesidad del puesto.",
       "questions": [
         {
-          "question": "_______ [[occurs|La redundancia ocurre]] [[when|cuando]] [[an|un]] [[employer|empleador]] [[no|ya]] [[longer|no]] [[needs|necesita a]] [[an|un]] [[employee.|empleado.]]",
+          "question": "_______ [[occurs when an employer no longer needs an employee.|La redundancia ocurre cuando un empleador ya no necesita a un empleado.]]",
           "options": ["[[Redundancy|Redundancia (despido)]]", "[[Promotion|Ascenso]]", "[[Recruitment|Contratación]]"],
           "correctAnswer": 0,
           "explanation": "'Redundancy' es el término formal para cuando un puesto desaparece.",
@@ -798,7 +798,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la inversión para el tercer condicional.",
       "questions": [
         {
-          "question": "_______ [[you|Si hubieras]] [[checked|revisado]] [[the|los]] [[data,|datos,]] [[we|no]] [[wouldn't|estaríamos]] [[be|en]] [[in|este]] [[this|lío.]] [[mess.| ]]",
+          "question": "_______ [[you checked the data, we wouldn't be in this mess.|Si hubieras revisado los datos, no estaríamos en este lío.  ]]",
           "options": ["[[Had|Si]]", "[[If|Si (normal)]]", "[[Were|Si (presente)]]"],
           "correctAnswer": 0,
           "explanation": "Inversión 'Had + sujeto + participio'.",
@@ -821,7 +821,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la compra de una empresa.",
       "questions": [
         {
-          "question": "[[A|Una]] _______ [[is|es]] [[when|cuando]] [[one|una]] [[company|empresa]] [[buys|compra]] [[another|otra]] [[company.|empresa.]]",
+          "question": "[[A when one company buys another company.|Una]] _______ [[is|es cuando una empresa compra otra empresa.]]",
           "options": ["[[takeover|adquisición]]", "[[merger|fusión]]", "[[partnership|sociedad]]"],
           "correctAnswer": 0,
           "explanation": "A 'takeover' puede ser amistoso u hostil.",
@@ -844,7 +844,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para el condicional mixto.",
       "questions": [
         {
-          "question": "[[If|Si]] [[I|supiera]] _______ [[his|su]] [[number,|número,]] [[I|le]] [[would|habría]] [[have|llamado]] [[called|ayer.]] [[him| ]] [[yesterday.| ]]",
+          "question": "[[If I I would have called him yesterday.|Si supiera]] _______ [[his number,|su número, le habría llamado ayer.    ]]",
           "options": ["[[knew|supiera]]", "[[had known|hubiera sabido]]", "[[know|sé]]"],
           "correctAnswer": 0,
           "explanation": "Condición presente (no saber el número habitualmente) con resultado pasado.",
@@ -867,7 +867,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa dejar el trabajo voluntariamente.",
       "questions": [
         {
-          "question": "[[To| ]] _______ [[is|es]] [[to|dejar]] [[voluntarily|voluntariamente]] [[leave|tu]] [[your|trabajo.]] [[job.| ]]",
+          "question": "[[To to voluntarily leave your job.| ]] _______ [[is|es dejar voluntariamente tu trabajo.  ]]",
           "options": ["[[resign|dimitir]]", "[[be fired|ser despedido]]", "[[be promoted|ser ascendido]]"],
           "correctAnswer": 0,
           "explanation": "'Resign' es dejar el empleo por decisión propia.",
@@ -890,7 +890,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la inversión para el segundo condicional.",
       "questions": [
         {
-          "question": "_______ [[I|Si yo estuviera]] [[in|en]] [[your|tus]] [[shoes,|zapatos,]] [[I|reconsideraría]] [[would|la]] [[reconsider|oferta.]] [[the| ]] [[offer.| ]]",
+          "question": "_______ [[I in your shoes, I would reconsider the offer.|Si yo estuviera en tus zapatos, reconsideraría la oferta.    ]]",
           "options": ["[[Were|Si]]", "[[Was|Era]]", "[[Am|Soy]]"],
           "correctAnswer": 0,
           "explanation": "Inversión formal 'Were I' en lugar de 'If I were'.",
@@ -913,7 +913,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la unión de dos empresas.",
       "questions": [
         {
-          "question": "[[A|Una]] _______ [[is|es]] [[the|la]] [[joining|unión]] [[of|de]] [[two|dos]] [[companies|empresas]] [[into|en]] [[one.|una.]]",
+          "question": "[[A the joining of two companies into one.|Una]] _______ [[is|es la unión de dos empresas en una.]]",
           "options": ["[[merger|fusión]]", "[[monopoly|monopolio]]", "[[liquidation|liquidación]]"],
           "correctAnswer": 0,
           "explanation": "A 'merger' ocurre cuando dos entidades deciden ser una sola.",
@@ -936,7 +936,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector formal para condiciones negativas.",
       "questions": [
         {
-          "question": "_______ _______ [[the|Si no fuera por el]] [[delay,|retraso,]] [[we|habríamos]] [[would|terminado]] [[have|a]] [[finished|tiempo.]] [[on| ]] [[time.| ]]",
+          "question": "_______ _______ [[the delay, we would have finished on time.|Si no fuera por el retraso, habríamos terminado a tiempo.    ]]",
           "options": ["[[But for|Si no fuera por]]", "[[In case of|En caso de]]", "[[Despite|A pesar de]]"],
           "correctAnswer": 0,
           "explanation": "'But for' introduce la única razón por la que algo no sucedió.",
@@ -959,7 +959,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una empresa hija.",
       "questions": [
         {
-          "question": "[[A|Una]] _______ [[is|es]] [[a|una]] [[company|empresa]] [[controlled|controlada]] [[by|por]] [[another|otra]] [[company.|empresa.]]",
+          "question": "[[A a company controlled by another company.|Una]] _______ [[is|es una empresa controlada por otra empresa.]]",
           "options": ["[[subsidiary|subsidiaria]]", "[[competitor|competidora]]", "[[supplier|proveedora]]"],
           "correctAnswer": 0,
           "explanation": "La empresa controladora se llama 'parent company'.",
@@ -982,7 +982,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal tras 'Supposing' para el pasado.",
       "questions": [
         {
-          "question": "[[Supposing|Supongamos]] [[they|que ellos]] _______ _______ [[the|hubieran rechazado la]] [[proposal,|propuesta,]] [[what|¿qué]] [[would|haríamos?]] [[we| ]] [[do?| ]]",
+          "question": "[[Supposing they what would we do?|Supongamos que ellos]] _______ _______ [[the proposal,|hubieran rechazado la propuesta, ¿qué haríamos?    ]]",
           "options": ["[[had rejected|hubieran rechazado]]", "[[rejected|rechazaran]]", "[[reject|rechacen]]"],
           "correctAnswer": 0,
           "explanation": "'Supposing + past perfect' para imaginar un pasado alternativo.",
@@ -1005,7 +1005,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la ganancia antes de impuestos y gastos.",
       "questions": [
         {
-          "question": "[[The|El]] _______ _______ [[is|es]] [[the|los]] [[total|ingresos]] [[revenue|totales]] [[minus|menos]] [[the|el]] [[cost|coste de]] [[of|las ventas.]] [[goods| ]] [[sold.| ]]",
+          "question": "[[The the total revenue minus the cost of goods sold.|El]] _______ _______ [[is|es los ingresos totales menos el coste de las ventas.    ]]",
           "options": ["[[gross profit|beneficio bruto]]", "[[net income|beneficio neto]]", "[[stock market|mercado de valores]]"],
           "correctAnswer": 0,
           "explanation": "'Gross' significa total antes de deducciones.",
@@ -1028,7 +1028,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para el resultado en el condicional mixto.",
       "questions": [
         {
-          "question": "[[If|Si]] [[the|la]] [[company|empresa]] [[hadn't|no]] [[innovated,|hubiera innovado,]] [[it| ]] _______ _______ [[bankrupt|estaría en]] [[now.|quiebra ahora.]]",
+          "question": "[[If the company hadn't innovated, it|Si la empresa no hubiera innovado,  ]] _______ _______ [[bankrupt now.|estaría en quiebra ahora.]]",
           "options": ["[[would be|estaría]]", "[[would have been|habría estado]]", "[[is|está]]"],
           "correctAnswer": 0,
           "explanation": "Situación presente resultante de una falta de acción pasada.",
@@ -1051,7 +1051,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la facturación total.",
       "questions": [
         {
-          "question": "_______ [[is|El ingreso]] [[the|es el]] [[income|dinero]] [[generated|generado]] [[from|por la]] [[normal|actividad]] [[business|normal del]] [[activities.|negocio.]]",
+          "question": "_______ [[is the income generated from normal business activities.|El ingreso es el dinero generado por la actividad normal del negocio.]]",
           "options": ["[[Revenue|Facturación / Ingresos]]", "[[Debt|Deuda]]", "[[Expenditure|Gasto]]"],
           "correctAnswer": 0,
           "explanation": "'Revenue' es el dinero total que entra antes de quitar gastos.",
@@ -1074,7 +1074,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el modal para inversión en el primer condicional.",
       "questions": [
         {
-          "question": "_______ [[there|Si hubiera]] [[be|algún]] [[any|cambio,]] [[changes,|le]] [[we|notificaremos]] [[will|de]] [[notify|inmediato.]] [[you| ]] [[immediately.| ]]",
+          "question": "_______ [[there be any changes, we will notify you immediately.|Si hubiera algún cambio, le notificaremos de inmediato.    ]]",
           "options": ["[[Should|Si]]", "[[Would|Si (pasado)]]", "[[Could|Pudiera]]"],
           "correctAnswer": 0,
           "explanation": "Inversión formal con 'Should' para situaciones posibles.",
@@ -1097,7 +1097,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa encargar tareas a otros.",
       "questions": [
         {
-          "question": "[[To| ]] _______ [[is|es]] [[to|encargar]] [[entrust|una]] [[a|tarea]] [[task|a]] [[to|otra]] [[another|persona.]] [[person.| ]]",
+          "question": "[[To to entrust a task to another person.| ]] _______ [[is|es encargar una tarea a otra persona.  ]]",
           "options": ["[[delegate|delegar]]", "[[micromanage|microgestionar]]", "[[overlook|pasar por alto]]"],
           "correctAnswer": 0,
           "explanation": "'Delegating' es esencial para un liderazgo eficiente.",
@@ -1120,7 +1120,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para el condicional mixto.",
       "questions": [
         {
-          "question": "[[If|Si]] [[she|ella]] _______ [[better|mejores]] [[leadership|habilidades de]] [[skills,|liderazgo,]] [[the|el]] [[team|equipo]] [[would|habría]] [[have|rendido]] [[performed|mejor.]] [[better.| ]]",
+          "question": "[[If she skills, the team would have performed better.|Si ella]] _______ [[better leadership|mejores habilidades de liderazgo, el equipo habría rendido mejor.  ]]",
           "options": ["[[had|tuviera]]", "[[had had|hubiera tenido]]", "[[has|tiene]]"],
           "correctAnswer": 0,
           "explanation": "Capacidad general (tuviera) afectando a un resultado pasado (habría rendido).",
@@ -1143,7 +1143,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para las posesiones de valor de una empresa.",
       "questions": [
         {
-          "question": "_______ [[are|Los activos son]] [[items|bienes]] [[of|propiedad]] [[property|de]] [[owned|una]] [[by|persona]] [[a|o]] [[person|empresa.]] [[or| ]] [[company.| ]]",
+          "question": "_______ [[are items of property owned by a person or company.|Los activos son bienes propiedad de una persona o empresa.    ]]",
           "options": ["[[Assets|Activos]]", "[[Liabilities|Pasivos (deudas)]]", "[[Taxes|Impuestos]]"],
           "correctAnswer": 0,
           "explanation": "'Assets' pueden ser dinero, edificios, maquinaria o patentes.",
@@ -1166,7 +1166,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la inversión para este condicional mixto.",
       "questions": [
         {
-          "question": "_______ [[we|Si hubiéramos]] [[invested|invertido]] [[earlier,|antes,]] [[we|ahora]] [[would|seríamos]] [[be|ricos.]] [[wealthy| ]] [[now.| ]]",
+          "question": "_______ [[we invested earlier, we would be wealthy now.|Si hubiéramos invertido antes, ahora seríamos ricos.    ]]",
           "options": ["[[Had|Si]]", "[[If|Si (normal)]]", "[[Were|Si (presente)]]"],
           "correctAnswer": 0,
           "explanation": "Inversión formal para una condición pasada con efecto presente.",
@@ -1189,7 +1189,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para la oficina principal.",
       "questions": [
         {
-          "question": "[[A|La]] _______ _______ [[is|es]] [[the|la]] [[main|oficina]] [[office|principal]] [[of|de]] [[an|una]] [[organization.|organización.]]",
+          "question": "[[A the main office of an organization.|La]] _______ _______ [[is|es la oficina principal de una organización.]]",
           "options": ["[[headquarters|sede central]]", "[[warehouse|almacén]]", "[[branch|sucursal]]"],
           "correctAnswer": 0,
           "explanation": "'Headquarters' (HQ) se usa a menudo como plural pero se refiere a un solo lugar.",
@@ -1212,7 +1212,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el conector condicional adecuado.",
       "questions": [
         {
-          "question": "_______ [[that|Siempre que]] [[sales|las ventas]] [[increase,|aumenten,]] [[we|nos]] [[will|expandiremos.]] [[expand.| ]]",
+          "question": "_______ [[that sales increase, we will expand.|Siempre que las ventas aumenten, nos expandiremos.  ]]",
           "options": ["[[Providing|Siempre que]]", "[[Unless|A menos que]]", "[[Whether|Si (elección)]]"],
           "correctAnswer": 0,
           "explanation": "'Providing that' indica una condición positiva necesaria.",
@@ -1235,7 +1235,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa ampliar la gama de oferta.",
       "questions": [
         {
-          "question": "[[To| ]] _______ [[is|es]] [[to|ampliar]] [[enlarge|la]] [[the|gama]] [[range|de]] [[of|productos]] [[products|o]] [[or|inversiones.]] [[investments.| ]]",
+          "question": "[[To to enlarge the range of products or investments.| ]] _______ [[is|es ampliar la gama de productos o inversiones.  ]]",
           "options": ["[[diversify|diversificar]]", "[[specialize|especializarse]]", "[[withdraw|retirar]]"],
           "correctAnswer": 0,
           "explanation": "'Don't put all your eggs in one basket' es un consejo para 'diversify'.",
@@ -1258,7 +1258,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal para el resultado pasado en el condicional mixto.",
       "questions": [
         {
-          "question": "[[If|Si]] [[I|yo]] [[were|fuera]] [[you,|tú,]] _______ _______ [[accepted|habría aceptado]] [[the|la]] [[counter-offer.|contraoferta.]]",
+          "question": "[[If I were you,|Si yo fuera tú,]] _______ _______ [[accepted the counter-offer.|habría aceptado la contraoferta.]]",
           "options": ["[[I would have|habría]]", "[[I would|aceptaría]]", "[[I had|había]]"],
           "correctAnswer": 0,
           "explanation": "Consejo sobre el pasado: 'If I were you' + 'would have + participio'.",
@@ -1281,7 +1281,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el control exclusivo del mercado.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[is|es]] [[the|la]] [[exclusive|posesión]] [[possession|exclusiva]] [[or|o]] [[control|control]] [[of|del]] [[the|suministro]] [[supply|de un]] [[of|servicio.]] [[a| ]] [[service.| ]]",
+          "question": "[[A the exclusive possession or control of the supply of a service.|Un]] _______ [[is|es la posesión exclusiva o control del suministro de un servicio.    ]]",
           "options": ["[[monopoly|monopolio]]", "[[competition|competencia]]", "[[bankruptcy|quiebra]]"],
           "correctAnswer": 0,
           "explanation": "Los monopolios suelen estar regulados para evitar abusos de precio.",
@@ -1304,7 +1304,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para completar la inversión formal.",
       "questions": [
         {
-          "question": "_______ [[you|Si tuviera]] [[have|alguna]] [[any|pregunta,]] [[questions,|siéntase]] [[feel|libre]] [[free|de]] [[to|preguntar.]] [[ask.| ]]",
+          "question": "_______ [[you have any questions, feel free to ask.|Si tuviera alguna pregunta, siéntase libre de preguntar.  ]]",
           "options": ["[[Should|Si]]", "[[May|Pueda]]", "[[Can|Pueda]]"],
           "correctAnswer": 0,
           "explanation": "'Should you have' es una alternativa común y elegante a 'If you have'.",

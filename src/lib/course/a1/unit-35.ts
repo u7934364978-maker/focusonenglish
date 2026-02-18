@@ -13,7 +13,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[In|En]] [[my|mi/mis]] [[free|free]] [[time|tiempo/hora]], [[I|Yo]] ([[ver|ver]] [[la|la]] [[tele|tele]]) [[_______|_______]].",
+          "question": "[[In my, I la free time|En mi/mis free tiempo/hora, Yo]] ([[ver tele|ver la tele]]) [[_______|_______]].",
           "options": [
             "[[are|son/están]]",
             "[[watch TV|watch TV]]",
@@ -39,7 +39,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[He|Él]] ([[escuchar|escuchar]] [[música|música]]) _______ [[in|en]] [[his|su (de él)]] [[room|habitación]].",
+          "question": "[[He música room|Él]] ([[escuchar|escuchar música]]) _______ [[in his|en su (de él) habitación]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[quedar|quedar]] [[con|con]] [[amigos|amigos]]) _______ [[on|en/sobre]] [[Saturdays|Saturdays]].",
+          "question": "[[They con amigos Saturdays|Ellos]] ([[quedar|quedar con amigos]]) _______ [[on|en/sobre Saturdays]].",
           "options": [
             "[[meet friends|meet friends]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[disfrutar|disfrutar]]) _______ [[surfing|surfing]] [[the|el/la/los/las]] [[internet|internet]].",
+          "question": "[[We the internet|Nosotros]] ([[disfrutar|disfrutar]]) _______ [[surfing|surfing el/la/los/las internet]].",
           "options": [
             "[[enjoy|enjoy]]",
             "[[is|es/está]]",
@@ -115,7 +115,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[like|gustar/como]] [[meeting|meeting]] [[my|mi/mis]] [[friends|friends]] [[in|en]] [[the|el/la/los/las]] [[park|park]].",
+      "correctSentence": "[[I like meeting my friends in the park|Yo gustar/como meeting mi/mis friends en el/la/los/las park]].",
       "words": [
         "[[friends|friends]]",
         "[[the|el/la/los/las]]",
@@ -141,7 +141,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Watching|Watching]] [[TV|TV]] [[is|es/está]] [[relaxing|relaxing]].",
+      "correctSentence": "[[Watching TV is relaxing|Watching TV es/está relaxing]].",
       "words": [
         "[[Watching|Watching]]",
         "[[relaxing|relaxing]].",
@@ -163,7 +163,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[plays|plays]] [[video|video]] [[games|games]] [[every|every]] [[evening|tarde/noche]].",
+      "correctSentence": "[[He plays video games every evening|Él plays video games every tarde/noche]].",
       "words": [
         "[[He|Él]]",
         "[[plays|plays]]",
@@ -187,7 +187,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She|Ella]] [[enjoys|enjoys]] [[going|going]] [[out|out]] [[for|para/por]] [[dinner|dinner]].",
+      "correctSentence": "[[She enjoys going out for dinner|Ella enjoys going out para/por dinner]].",
       "words": [
         "[[enjoys|enjoys]]",
         "[[out|out]]",
@@ -211,7 +211,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[spend|gastar/pasar]] [[a|un/una]] [[lot|lot]] [[of|de]] [[time|tiempo/hora]] [[on|en/sobre]] [[the|el/la/los/las]] [[internet|internet]].",
+      "correctSentence": "[[We spend a lot of time on the internet|Nosotros gastar/pasar un/una lot de tiempo/hora en/sobre el/la/los/las internet]].",
       "words": [
         "[[the|el/la/los/las]]",
         "[[spend|gastar/pasar]]",

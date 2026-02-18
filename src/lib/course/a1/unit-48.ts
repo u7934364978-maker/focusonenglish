@@ -13,7 +13,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[want|querer]] [[to|a/para]] ([[visitar|visitar]]) _______ [[the|el/la/los/las]] [[museum|museo]].",
+          "question": "[[I want to museum|Yo querer a/para]] ([[visitar|visitar]]) _______ [[the|el/la/los/las museo]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -39,7 +39,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Look|Mirar]] [[at|en]] [[the|el/la/los/las]] ([[monumentos|monumentos]]) [[_______|_______]].",
+          "question": "[[Look at the|Mirar en el/la/los/las]] ([[monumentos|monumentos]]) [[_______|_______]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] ([[tomar|tomar]]) _______ [[a|un/una]] [[lot|lot]] [[of|de]] [[photos|photos]].",
+          "question": "[[We lot of photos|Nosotros]] ([[tomar|tomar]]) _______ [[a|un/una lot de photos]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] ([[be|ser/estar]]) _______ [[the|el/la/los/las]] [[map|map]]?",
+          "question": "[[Where map|Dónde]] ([[be|ser/estar]]) _______ [[the|el/la/los/las map]]?",
           "options": [
             "[[is|es/está]]",
             "[[are|son/están]]",
@@ -115,7 +115,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Don't|No]] [[forget|forget]] [[your|tu/tus]] [[camera|camera]].",
+      "correctSentence": "[[Don't forget your camera|No forget tu/tus camera]].",
       "words": [
         "[[Don't|No]]",
         "[[forget|forget]]",
@@ -137,7 +137,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[tour|tour]] [[starts|starts]] [[at|en]] [[10|10]] [[AM|Soy/estoy]].",
+      "correctSentence": "[[The tour starts at 10 AM|El/la/los/las tour starts en 10 Soy/estoy]].",
       "words": [
         "[[AM|Soy/estoy]].",
         "[[at|en]]",
@@ -161,7 +161,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[want|querer]] [[to|a/para]] [[buy|comprar]] [[a|un/una]] [[souvenir|souvenir]].",
+      "correctSentence": "[[I want to buy a souvenir|Yo querer a/para comprar un/una souvenir]].",
       "words": [
         "[[I|Yo]]",
         "[[souvenir|souvenir]].",
@@ -185,7 +185,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[guide|guide]] [[is|es/está]] [[very|muy]] [[friendly|simpático/amigable]].",
+      "correctSentence": "[[The guide is very friendly|El/la/los/las guide es/está muy simpático/amigable]].",
       "words": [
         "[[very|muy]]",
         "[[is|es/está]]",
@@ -208,7 +208,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[monuments|monuments]] [[are|son/están]] [[very|muy]] [[old|viejo/antiguo]].",
+      "correctSentence": "[[The monuments are very old|El/la/los/las monuments son/están muy viejo/antiguo]].",
       "words": [
         "[[are|son/están]]",
         "[[very|muy]]",

@@ -11,7 +11,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vocabulario Urbano",
       "instructions": "Ordena las palabras para definir un rascacielos.",
-      "correctSentence": "[[A|Un]] [[skyscraper|rascacielos]] [[is|es]] [[a|un]] [[very|muy]] [[tall|alto]] [[building|edificio]] [[in|en]] [[a|una]] [[city|ciudad]].",
+      "correctSentence": "[[A skyscraper is a very tall building in a city|Un rascacielos es un muy alto edificio en una ciudad]].",
       "words": [
         "[[skyscraper|rascacielos]]",
         "[[building|edificio]]",
@@ -41,7 +41,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el término que describe las afueras residenciales.",
       "questions": [
         {
-          "question": "[[The|Las]] _______ [[are|son]] [[the|las]] [[residential|residenciales]] [[areas|zonas]] [[on|en]] [[the|las]] [[outskirts|afueras]] [[of|de]] [[a|una]] [[city|ciudad]].",
+          "question": "[[The the residential areas on the outskirts of a city|Las]] _______ [[are|son las residenciales zonas en las afueras de una ciudad]].",
           "options": [
             "[[suburbs|afueras/suburbios]]",
             "[[city center|centro de la ciudad]]",
@@ -68,7 +68,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Elige el pronombre relativo adecuado para un lugar.",
       "questions": [
         {
-          "question": "[[The|La]] [[house|casa]] _______ [[I|yo]] [[was|nací]] [[born| ]] [[is|es]] [[now|ahora]] [[a|un]] [[museum|museo]].",
+          "question": "[[The house born is now a museum|La casa]] _______ [[I was|yo nací   es ahora un museo]].",
           "options": [
             "[[where|donde]]",
             "[[which|la cual]]",
@@ -93,7 +93,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Voz Pasiva",
       "instructions": "Ordena las palabras para formar una oración en voz pasiva sobre una construcción.",
-      "correctSentence": "[[The|El]] [[shopping|centro]] [[mall|comercial]] [[was|fue]] [[built|construido]] [[in|en]] [[less|menos]] [[than|de]] [[a|un]] [[year|año]].",
+      "correctSentence": "[[The shopping mall was built in less than a year|El centro comercial fue construido en menos de un año]].",
       "words": [
         "[[built|construido]]",
         "[[year|año]].",
@@ -124,7 +124,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una casa independiente.",
       "questions": [
         {
-          "question": "[[A|Una]] _______ [[house|casa]] [[doesn't|no]] [[share|comparte]] [[any|ninguna]] [[walls|pared]] [[with|con]] [[another|otra]].",
+          "question": "[[A doesn't share any walls with another|Una]] _______ [[house|casa no comparte ninguna pared con otra]].",
           "options": [
             "[[detached|independiente]]",
             "[[terraced|adosada]]",
@@ -149,7 +149,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta sobre la vida urbana.",
-      "correctSentence": "[[People|La gente]] [[who|que]] [[live|viven]] [[in|en]] [[big|grandes]] [[cities|ciudades]] [[often|a menudo]] [[suffer|sufren]] [[from|de]] [[stress|estrés]].",
+      "correctSentence": "[[People who live in big cities often suffer from stress|La gente que viven en grandes ciudades a menudo sufren de estrés]].",
       "words": [
         "[[suffer|sufren]]",
         "[[stress|estrés]].",
@@ -178,7 +178,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Relativos de cosas/lugares",
       "instructions": "Ordena las palabras para formar una oración sobre el ocio nocturno.",
-      "correctSentence": "[[This|Este]] [[is|es]] [[the|el]] [[neighborhood|barrio]] [[that|que]] [[has|tiene]] [[the|la]] [[best|mejor]] [[nightlife|vida nocturna]].",
+      "correctSentence": "[[This is the neighborhood that has the best nightlife|Este es el barrio que tiene la mejor vida nocturna]].",
       "words": [
         "[[nightlife|vida nocturna]].",
         "[[has|tiene]]",
@@ -208,7 +208,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el transporte colectivo.",
       "questions": [
         {
-          "question": "_______ [[is|es]] [[more|más]] [[efficient|eficiente]] [[in|en]] [[the|el]] [[city|centro]] [[center|de la ciudad]].",
+          "question": "_______ [[is more efficient in the city center|es más eficiente en el centro de la ciudad]].",
           "options": [
             "[[Public transport|El transporte público]]",
             "[[Private car|Coche privado]]",
@@ -233,7 +233,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración con información adicional.",
-      "correctSentence": "[[London|Londres]], [[the|la]] [[capital|capital]] [[of|del]] [[the| ]] [[UK|Reino Unido]], [[is|es]] [[very|muy]] [[expensive|caro]].",
+      "correctSentence": "[[London capital, the of the, is UK very expensive|Londres, la capital del   Reino Unido, es muy caro]].",
       "words": [
         "[[UK|Reino Unido]],",
         "[[is|es]]",
@@ -261,7 +261,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ubicación",
       "instructions": "Ordena las palabras para indicar en qué planta está el apartamento.",
-      "correctSentence": "[[My|Mi]] [[apartment|apartamento]] [[is|está]] [[on|en]] [[the|la]] [[third|tercera]] [[floor|planta]] [[of|del]] [[the| ]] [[building|edificio]].",
+      "correctSentence": "[[My apartment is on the third floor of the building|Mi apartamento está en la tercera planta del   edificio]].",
       "words": [
         "[[third|tercera]]",
         "[[building|edificio]].",
@@ -292,7 +292,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para el ayuntamiento.",
       "questions": [
         {
-          "question": "[[The|El]] _______ [[is|es]] [[the|el]] [[building|edificio]] [[where|donde]] [[the|la]] [[city|ciudad]] [[government|gobierno]] [[is|está]].",
+          "question": "[[The the building where the city government is|El]] _______ [[is|es el edificio donde la ciudad gobierno está]].",
           "options": [
             "[[town hall|ayuntamiento]]",
             "[[department store|grandes almacenes]]",
@@ -317,7 +317,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración en voz pasiva continua.",
-      "correctSentence": "[[The|La]] [[city|ciudad]] [[is|está]] [[being|siendo]] [[transformed|transformada]] [[by|por]] [[new|nuevos]] [[infrastructure|de infraestructura]] [[projects|proyectos]].",
+      "correctSentence": "[[The city is being transformed by new infrastructure projects|La ciudad está siendo transformada por nuevos de infraestructura proyectos]].",
       "words": [
         "[[being|siendo]]",
         "[[projects|proyectos]].",
@@ -345,7 +345,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Adjetivos Urbanos",
       "instructions": "Ordena las palabras para describir la vida en el centro.",
-      "correctSentence": "[[Living|Vivir]] [[in|en]] [[the|el]] [[city|centro]] [[center|urbano]] [[is|es]] [[very|muy]] [[noisy|ruidoso]] [[and|y]] [[crowded|abarrotado]].",
+      "correctSentence": "[[Living in the city center is very noisy and crowded|Vivir en el centro urbano es muy ruidoso y abarrotado]].",
       "words": [
         "[[Living|Vivir]]",
         "[[noisy|ruidoso]]",
@@ -376,7 +376,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Elige el relativo que indica posesión (cuyo/a).",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es]] [[the|el]] [[architect|arquitecto]] _______ [[designs|diseños]] [[won|ganaron]] [[the|la]] [[competition|competición]].",
+          "question": "[[He is the architect|Él es el arquitecto]] _______ [[designs won the competition|diseños ganaron la competición]].",
           "options": [
             "[[whose|cuyos]]",
             "[[who|quien]]",
@@ -401,7 +401,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración sobre historia urbana.",
-      "correctSentence": "[[Many|Muchos]] [[historical|históricos]] [[buildings|edificios]] [[were|fueron]] [[destroyed|destruidos]] [[during|durante]] [[the|la]] [[war|guerra]].",
+      "correctSentence": "[[Many historical buildings were destroyed during the war|Muchos históricos edificios fueron destruidos durante la guerra]].",
       "words": [
         "[[buildings|edificios]]",
         "[[destroyed|destruidos]]",
@@ -430,7 +430,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una casa adosada en una fila.",
       "questions": [
         {
-          "question": "[[A|Una]] _______ [[house|casa]] [[is|es]] [[part|parte]] [[of|de]] [[a|una]] [[row|fila]] [[of|de]] [[houses|casas]].",
+          "question": "[[A is part of a row of houses|Una]] _______ [[house|casa es parte de una fila de casas]].",
           "options": [
             "[[terraced|adosada]]",
             "[[cottage|casa de campo]]",
@@ -455,7 +455,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Relativos de lugar",
       "instructions": "Ordena las palabras para formar una oración con información extra sobre la biblioteca.",
-      "correctSentence": "[[The|La]] [[library|biblioteca]], [[where|donde]] [[I|yo]] [[study|estudio]] [[every|cada]] [[day|día]], [[is|es]] [[very|muy]] [[quiet|tranquila]].",
+      "correctSentence": "[[The library, where I study every, is day very quiet|La biblioteca, donde yo estudio cada día, es muy tranquila]].",
       "words": [
         "[[library|biblioteca]],",
         "[[day|día]],",
@@ -484,7 +484,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Tráfico en la ciudad",
       "instructions": "Ordena las palabras para describir un problema común del tráfico.",
-      "correctSentence": "[[Traffic|Los]] [[jams|atascos]] [[are|son]] [[very|muy]] [[common|comunes]] [[during|durante]] [[rush|hora]] [[hour|punta]].",
+      "correctSentence": "[[Traffic jams are very common during rush hour|Los atascos son muy comunes durante hora punta]].",
       "words": [
         "[[common|comunes]]",
         "[[during|durante]]",
@@ -511,7 +511,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración sobre diseño urbano.",
-      "correctSentence": "[[The|El]] [[bridge|puente]] [[was|fue]] [[designed|diseñado]] [[by|por]] [[a|un]] [[famous|famoso]] [[engineer|ingeniero]].",
+      "correctSentence": "[[The bridge was designed by a famous engineer|El puente fue diseñado por un famoso ingeniero]].",
       "words": [
         "[[by|por]]",
         "[[famous|famoso]]",
@@ -538,7 +538,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Seguridad Vial",
       "instructions": "Ordena las palabras para formar un consejo de seguridad vial.",
-      "correctSentence": "[[Pedestrians|Los peatones]] [[should|deberían]] [[use|usar]] [[the|el]] [[crosswalk|paso de cebra]] [[to|para]] [[cross|cruzar]] [[the|la]] [[street|calle]] [[safely|con seguridad]].",
+      "correctSentence": "[[Pedestrians should use the crosswalk to cross the street safely|Los peatones deberían usar el paso de cebra para cruzar la calle con seguridad]].",
       "words": [
         "[[should|deberían]]",
         "[[safely|con seguridad]].",
@@ -567,7 +567,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Relativos de objeto",
       "instructions": "Ordena las palabras para formar una oración sobre una compra reciente.",
-      "correctSentence": "[[This|Este]] [[is|es]] [[the|el]] [[car|coche]] [[which|que]] [[I|yo]] [[bought|compré]] [[last|el mes]] [[month|pasado]].",
+      "correctSentence": "[[This is the car which I bought last month|Este es el coche que yo compré el mes pasado]].",
       "words": [
         "[[last|el mes]]",
         "[[I|yo]]",
@@ -595,7 +595,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para definir las afueras de la ciudad.",
-      "correctSentence": "[[The|Las]] [[outskirts|afueras]] [[are|son]] [[parts|partes]] [[of|de]] [[a|una]] [[town|ciudad]] [[furthest|más lejanas]] [[from|del]] [[the| ]] [[center|centro]].",
+      "correctSentence": "[[The outskirts are parts of a town furthest from the center|Las afueras son partes de una ciudad más lejanas del   centro]].",
       "words": [
         "[[town|ciudad]]",
         "[[furthest|más lejanas]]",
@@ -627,7 +627,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Elige el relativo de posesión para personas.",
       "questions": [
         {
-          "question": "[[Is|¿Es]] [[this|este]] [[the|el]] [[man|hombre]] _______ [[keys|llaves]] [[you|has]] [[found|encontrado]]?",
+          "question": "[[Is this the man|¿Es este el hombre]] _______ [[keys you found|llaves has encontrado]]?",
           "options": [
             "[[whose|cuyas]]",
             "[[who|quien]]",
@@ -652,7 +652,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Puerto",
       "instructions": "Ordena las palabras para definir el puerto.",
-      "correctSentence": "[[A|Un]] [[harbor|puerto]] [[is|es]] [[where|donde]] [[ships|barcos]] [[and|y]] [[boats|botes]] [[stay|se quedan]] [[in|en]] [[the|el]] [[water|agua]].",
+      "correctSentence": "[[A harbor is where ships and boats stay in the water|Un puerto es donde barcos y botes se quedan en el agua]].",
       "words": [
         "[[ships|barcos]]",
         "[[is|es]]",
@@ -682,7 +682,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración en pasiva presente.",
-      "correctSentence": "[[The|Las]] [[letters|cartas]] [[are|son]] [[delivered|entregadas]] [[every|cada]] [[morning|mañana]] [[by|por]] [[the|el]] [[postman|cartero]].",
+      "correctSentence": "[[The letters are delivered every morning by the postman|Las cartas son entregadas cada mañana por el cartero]].",
       "words": [
         "[[letters|cartas]]",
         "[[morning|mañana]]",
@@ -712,7 +712,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una gran tienda con secciones.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[store| ]] [[is|es]] [[a|una]] [[large|grande]] [[shop|tienda]].",
+          "question": "[[A is a large shop|Un]] _______ [[store|  es una grande tienda]].",
           "options": [
             "[[department|grandes almacenes]]",
             "[[grocery|tienda de comestibles]]",
@@ -737,7 +737,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Vecinos",
       "instructions": "Ordena las palabras para formar una oración sobre una vecina.",
-      "correctSentence": "[[The|La]] [[woman|mujer]] [[who|que]] [[lives|vive]] [[next|al]] [[door|lado]] [[is|es]] [[very|muy]] [[friendly|amable]].",
+      "correctSentence": "[[The woman who lives next door is very friendly|La mujer que vive al lado es muy amable]].",
       "words": [
         "[[lives|vive]]",
         "[[friendly|amable]].",
@@ -765,7 +765,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para describir la ubicación de un parque.",
-      "correctSentence": "[[The|El]] [[park|parque]] [[is|está]] [[located|situado]] [[right|justo]] [[in|en]] [[the|el]] [[heart|corazón]] [[of|de]] [[the|la]] [[city|ciudad]].",
+      "correctSentence": "[[The park is located right in the heart of the city|El parque está situado justo en el corazón de la ciudad]].",
       "words": [
         "[[heart|corazón]]",
         "[[is|está]]",
@@ -796,7 +796,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de la pasiva continua en singular.",
       "questions": [
         {
-          "question": "[[Our|Nuestra]] [[office|oficina]] _______ [[repainted|repintada]] [[this|esta]] [[week|semana]].",
+          "question": "[[Our office week|Nuestra oficina]] _______ [[repainted this|repintada esta semana]].",
           "options": [
             "[[is being|está siendo]]",
             "[[was|fue]]",
@@ -821,7 +821,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Zonas residenciales",
       "instructions": "Ordena las palabras para definir una zona residencial.",
-      "correctSentence": "[[Residential|Zonas residenciales]] [[areas| ]] [[are|son]] [[parts|partes]] [[of|de]] [[a|una]] [[city|ciudad]] [[where|donde]] [[people|la gente]] [[live|vive]].",
+      "correctSentence": "[[Residential areas are parts of a city where people live|Zonas residenciales   son partes de una ciudad donde la gente vive]].",
       "words": [
         "[[Residential|Zonas residenciales]]",
         "[[live|vive]].",
@@ -850,7 +850,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración con información adicional sobre un libro.",
-      "correctSentence": "[[The|El]] [[book|libro]], [[which|que]] [[I|yo]] [[read|leí]] [[last|anoche]] [[night| ]], [[was|fue]] [[very|muy]] [[interesting|interesante]].",
+      "correctSentence": "[[The book, which I read last, was night very interesting|El libro, que yo leí anoche  , fue muy interesante]].",
       "words": [
         "[[I|yo]]",
         "[[very|muy]]",
@@ -881,7 +881,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una zona sin coches.",
       "questions": [
         {
-          "question": "[[A|Una]] _______ [[zone|zona]] [[is|es]] [[for|para]] [[people|gente]] [[walking|caminando]].",
+          "question": "[[A is for people walking|Una]] _______ [[zone|zona es para gente caminando]].",
           "options": [
             "[[pedestrian|peatonal]]",
             "[[parking|de aparcamiento]]",
@@ -906,7 +906,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Voz Pasiva",
       "instructions": "Ordena las palabras para formar una oración en voz pasiva sobre la tarta.",
-      "correctSentence": "[[The|La]] [[cake|tarta]] [[was|fue]] [[eaten|comida]] [[by|por]] [[the|los]] [[children|niños]].",
+      "correctSentence": "[[The cake was eaten by the children|La tarta fue comida por los niños]].",
       "words": [
         "[[by|por]]",
         "[[the|los]]",
@@ -932,7 +932,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para definir una casa de campo.",
-      "correctSentence": "[[A|Una]] [[cottage|casa de campo]] [[is|es]] [[a|una]] [[small|pequeña]] [[house|casa]], [[usually|normalmente]] [[in|en]] [[the|el]] [[countryside|campo]].",
+      "correctSentence": "[[A cottage, usually in is a small house the countryside|Una casa de campo es una pequeña casa, normalmente en el campo]].",
       "words": [
         "[[small|pequeña]]",
         "[[usually|normalmente]]",
@@ -963,7 +963,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el relativo de lugar para una oración especificativa.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[know|conozco]] [[a|un]] [[place|lugar]] _______ [[you|tú]] [[can|puedes]] [[get|conseguir]] [[pizza|pizza]].",
+          "question": "[[I know a place|Yo conozco un lugar]] _______ [[you can get pizza|tú puedes conseguir pizza]].",
           "options": [
             "[[where|donde]]",
             "[[which|el cual]]",
@@ -988,7 +988,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Casas pareadas",
       "instructions": "Ordena las palabras para definir una casa pareada.",
-      "correctSentence": "[[Semi-detached|Casas pareadas]] [[houses| ]] [[are|están]] [[joined|unidas]] [[to|a]] [[another|otra]] [[house|casa]] [[on|en]] [[one|un]] [[side|lado]].",
+      "correctSentence": "[[Semi-detached houses are joined to another house on one side|Casas pareadas   están unidas a otra casa en un lado]].",
       "words": [
         "[[Semi-detached|Casas pareadas]]",
         "[[side|lado]].",
@@ -1017,7 +1017,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración sobre una infraestructura antigua.",
-      "correctSentence": "[[The|El]] [[bridge|puente]] [[was|fue]] [[built|construido]] [[in|en]] [[the|el]] [[19th|siglo XIX]] [[century| ]].",
+      "correctSentence": "[[The bridge was built in the 19th century|El puente fue construido en el siglo XIX  ]].",
       "words": [
         "[[built|construido]]",
         "[[century| ]].",
@@ -1046,7 +1046,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el adjetivo que significa 'animado'.",
       "questions": [
         {
-          "question": "[[The|El]] [[city|centro]] [[center|urbano]] [[is|es]] [[always|siempre]] _______.",
+          "question": "[[The city center is always|El centro urbano es siempre]] _______.",
           "options": [
             "[[lively|animado]]",
             "[[boring|aburrido]]",
@@ -1071,7 +1071,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ayuda en la ciudad",
       "instructions": "Ordena las palabras para formar una oración sobre alguien que te ayudó.",
-      "correctSentence": "[[He's|Él es]] [[the|el]] [[guy|chico]] [[who|que]] [[helped|ayudó]] [[me|me]] [[with|con]] [[my|mi]] [[luggage|equipaje]].",
+      "correctSentence": "[[He's the guy who helped me with my luggage|Él es el chico que ayudó me con mi equipaje]].",
       "words": [
         "[[the|el]]",
         "[[with|con]]",
@@ -1099,7 +1099,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración sobre problemas urbanos.",
-      "correctSentence": "[[Pollution|La contaminación]] [[is|es]] [[a|un]] [[major|gran]] [[problem|problema]] [[in|en]] [[many|muchas]] [[large|grandes]] [[cities|ciudades]].",
+      "correctSentence": "[[Pollution is a major problem in many large cities|La contaminación es un gran problema en muchas grandes ciudades]].",
       "words": [
         "[[problem|problema]]",
         "[[many|muchas]]",
@@ -1129,7 +1129,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de la pasiva en pasado simple.",
       "questions": [
         {
-          "question": "[[The|La]] [[decision|decisión]] _______ [[made|tomada]].",
+          "question": "[[The decision|La decisión]] _______ [[made|tomada]].",
           "options": [
             "[[was|fue]]",
             "[[were|fueron]]",
@@ -1154,7 +1154,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Desplazamientos",
       "instructions": "Ordena las palabras para formar una oración sobre el trayecto al trabajo.",
-      "correctSentence": "[[I|Yo]] [[live|vivo]] [[on|en]] [[the|las]] [[outskirts|afueras]] [[and|y]] [[have|tengo]] [[a|un]] [[long|largo]] [[commute|trayecto]].",
+      "correctSentence": "[[I live on the outskirts and have a long commute|Yo vivo en las afueras y tengo un largo trayecto]].",
       "words": [
         "[[live|vivo]]",
         "[[outskirts|afueras]]",
@@ -1183,7 +1183,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración de relativo especificativa.",
-      "correctSentence": "[[This|Este]] [[is|es]] [[the|el]] [[computer|ordenador]] [[that|que]] [[I|yo]] [[use|uso]] [[for|para]] [[work|trabajar]].",
+      "correctSentence": "[[This is the computer that I use for work|Este es el ordenador que yo uso para trabajar]].",
       "words": [
         "[[I|yo]]",
         "[[computer|ordenador]]",
@@ -1238,7 +1238,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Normas Urbanas",
       "instructions": "Ordena las palabras para formar una oración en voz pasiva sobre las normas.",
-      "correctSentence": "[[The|Las]] [[new|nuevas]] [[rules|normas]] [[are|son]] [[followed|seguidas]] [[by|por]] [[everyone|todos]].",
+      "correctSentence": "[[The new rules are followed by everyone|Las nuevas normas son seguidas por todos]].",
       "words": [
         "[[rules|normas]]",
         "[[by|por]]",
@@ -1266,7 +1266,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Elige el término para una casa sin escaleras.",
       "questions": [
         {
-          "question": "[[A|Un]] _______ [[is|es]] [[a|una]] [[house|casa]] [[on|en]] [[one|un]] [[level|nivel]].",
+          "question": "[[A a house on one level|Un]] _______ [[is|es una casa en un nivel]].",
           "options": [
             "[[bungalow|bungalow]]",
             "[[skyscraper|rascacielos]]",
@@ -1293,7 +1293,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el relativo para un coche en oración especificativa.",
       "questions": [
         {
-          "question": "[[The|El]] [[car|coche]] _______ [[was|fue]] [[stolen|robado]].",
+          "question": "[[The car|El coche]] _______ [[was stolen|fue robado]].",
           "options": [
             "[[which|que]]",
             "[[who|quien]]",
@@ -1318,7 +1318,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sostenibilidad",
       "instructions": "Ordena las palabras para formar una oración sobre el medio ambiente.",
-      "correctSentence": "[[Recycling|El reciclaje]] [[is|es]] [[very|muy]] [[important|importante]] [[for|para]] [[the|el]] [[environment|medio ambiente]].",
+      "correctSentence": "[[Recycling is very important for the environment|El reciclaje es muy importante para el medio ambiente]].",
       "words": [
         "[[important|importante]]",
         "[[environment|medio ambiente]].",
@@ -1346,7 +1346,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de la pasiva en presente simple plural.",
       "questions": [
         {
-          "question": "[[The|Los]] [[students|estudiantes]] _______ [[taught|enseñados]].",
+          "question": "[[The students|Los estudiantes]] _______ [[taught|enseñados]].",
           "options": [
             "[[are|son]]",
             "[[is|es]]",
@@ -1371,7 +1371,7 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "content": {
       "title": "Paisaje Urbano",
       "instructions": "Ordena las palabras para formar una oración sobre el perfil de la ciudad.",
-      "correctSentence": "[[A|Un]] [[skyscraper|rascacielos]] [[is|es]] [[an|una]] [[iconic|icónica]] [[part|parte]] [[of|de]] [[many|muchos]] [[city|de la ciudad]] [[skylines|horizontes]].",
+      "correctSentence": "[[A skyscraper is an iconic part of many city skylines|Un rascacielos es una icónica parte de muchos de la ciudad horizontes]].",
       "words": [
         "[[skyscraper|rascacielos]]",
         "[[skylines|horizontes]].",

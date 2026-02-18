@@ -13,7 +13,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[Local|La comida]] [[food|local]] [[is|es]] [[often|a menudo]] _______ [[and|y]] [[better|mejor]] [[for|para]] [[the|el]] [[environment|medio ambiente]].",
+          "question": "[[Local food is often environment|La comida local es a menudo]] _______ [[and better for the|y mejor para el medio ambiente]].",
           "options": [
             "[[healthier|más saludable]]",
             "[[cheaper|más barata]]",
@@ -40,7 +40,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma verbal correcta para la voz pasiva.",
       "questions": [
         {
-          "question": "[[Organic|Los vegetales]] [[vegetables|orgánicos]] _______ [[grown|cultivados]] [[without|sin]] [[using|usar]] [[chemicals|químicos]].",
+          "question": "[[Organic vegetables using chemicals|Los vegetales orgánicos]] _______ [[grown without|cultivados sin usar químicos]].",
           "options": [
             "[[are|son]]",
             "[[is|es]]",
@@ -67,7 +67,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el pronombre relativo adecuado.",
       "questions": [
         {
-          "question": "[[The|El]] [[restaurant|restaurante]] _______ [[we|nosotros]] [[had|cenamos]] [[dinner| ]] [[last|anoche]] [[night| ]] [[was|fue]] [[excellent|excelente]].",
+          "question": "[[The restaurant dinner last night was excellent|El restaurante]] _______ [[we had|nosotros cenamos   anoche   fue excelente]].",
           "options": [
             "[[where|donde]]",
             "[[who|quien]]",
@@ -94,7 +94,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo que significa 'reducir'.",
       "questions": [
         {
-          "question": "[[Many|Mucha]] [[people|gente]] [[are|está]] [[trying|intentando]] [[to|a]] _______ [[their|su]] [[meat|consumo de]] [[consumption|carne]].",
+          "question": "[[Many people are trying to meat consumption|Mucha gente está intentando a]] _______ [[their|su consumo de carne]].",
           "options": [
             "[[reduce|reducir]]",
             "[[increase|aumentar]]",
@@ -121,7 +121,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Elige el participio correcto para la voz pasiva.",
       "questions": [
         {
-          "question": "[[Traditional|Los platos]] [[dishes|tradicionales]] [[are|son]] _______ [[with|con]] [[local|ingredientes]] [[ingredients|locales]].",
+          "question": "[[Traditional dishes are local|Los platos tradicionales son]] _______ [[with ingredients|con ingredientes locales]].",
           "options": [
             "[[prepared|preparados]]",
             "[[prepare|preparar]]",
@@ -148,7 +148,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Elige el pronombre relativo para personas.",
       "questions": [
         {
-          "question": "[[The|El]] [[chef|chef]] _______ [[won|ganó]] [[the|la]] [[competition|competencia]] [[is|es]] [[from|de]] [[Italy|Italia]].",
+          "question": "[[The chef competition is from Italy|El chef]] _______ [[won the|ganó la competencia es de Italia]].",
           "options": [
             "[[who|quien]]",
             "[[which|el cual]]",
@@ -175,7 +175,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Elige el modal pasivo correcto.",
       "questions": [
         {
-          "question": "[[Plastic|El embalaje de]] [[packaging|plástico]] _______ [[recycled|reciclado]] [[to|para]] [[protect|proteger]] [[the|los]] [[oceans|océanos]].",
+          "question": "[[Plastic packaging protect the oceans|El embalaje de plástico]] _______ [[recycled to|reciclado para proteger los océanos]].",
           "options": [
             "[[should be|debería ser]]",
             "[[must|debe]]",
@@ -202,7 +202,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que significa 'consejo'.",
       "questions": [
         {
-          "question": "[[Waiters|Los camareros]] [[should|deberían]] [[provide|proporcionar]] _______ [[on|sobre]] [[the|los]] [[best|mejores]] [[dishes|platos]] [[to|para]] [[try|probar]].",
+          "question": "[[Waiters should provide the to try|Los camareros deberían proporcionar]] _______ [[on best dishes|sobre los mejores platos para probar]].",
           "options": [
             "[[advice|consejos]]",
             "[[bill|la cuenta]]",
@@ -229,7 +229,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Elige el pronombre relativo para cosas.",
       "questions": [
         {
-          "question": "[[The|La]] [[recipe|receta]], _______ [[was|fue]] [[given|dada]] [[to|a]] [[me|mí]] [[by|por]] [[my|mi]] [[grandmother|abuela]], [[is|es]] [[a|un]] [[secret|secreto]].",
+          "question": "[[The recipe, is to me by my grandmother a secret|La receta]], _______ [[was given|fue dada a mí por mi abuela, es un secreto]].",
           "options": [
             "[[which|la cual]]",
             "[[who|quien]]",
@@ -256,7 +256,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el adjetivo correcto.",
       "questions": [
         {
-          "question": "_______ [[farming|La agricultura]] [[helps|ayuda]] [[to|a]] [[protect|proteger]] [[biodiversity|la biodiversidad]].",
+          "question": "_______ [[farming helps to protect biodiversity|La agricultura ayuda a proteger la biodiversidad]].",
           "options": [
             "[[Sustainable|Sustentable]]",
             "[[Fast|Rápida]]",
@@ -283,7 +283,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa con el auxiliar de voz pasiva en pasado.",
       "questions": [
         {
-          "question": "[[The|El]] [[cake|pastel]] _______ [[baked|horneado]] [[for|durante]] [[forty-five|cuarenta y cinco]] [[minutes|minutos]].",
+          "question": "[[The cake forty-five minutes|El pastel]] _______ [[baked for|horneado durante cuarenta y cinco minutos]].",
           "options": [
             "[[was|fue]]",
             "[[were|fueron]]"
@@ -309,7 +309,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa con el verbo 'to be' adecuado.",
       "questions": [
         {
-          "question": "[[Fresh|Las frutas]] [[fruits|frescas]] _______ [[delivered|entregadas]] [[every|cada]] [[morning|mañana]].",
+          "question": "[[Fresh fruits morning|Las frutas frescas]] _______ [[delivered every|entregadas cada mañana]].",
           "options": [
             "[[are|son]]",
             "[[is|es]]"
@@ -335,7 +335,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Escribe el pronombre relativo correcto.",
       "questions": [
         {
-          "question": "[[A|Una]] [[person|persona]] _______ [[is|es]] [[vegan|vegana]] [[does| ]] [[not|no]] [[eat|come]] [[meat|carne]] [[or|o]] [[dairy|lácteos]].",
+          "question": "[[A person does not eat meat or dairy|Una persona]] _______ [[is vegan|es vegana   no come carne o lácteos]].",
           "options": [
             "[[who|que]]",
             "[[which|el cual]]"
@@ -361,7 +361,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa con el pronombre relativo de lugar.",
       "questions": [
         {
-          "question": "[[This|Este]] [[is|es]] [[the|el]] [[market|mercado]] _______ [[you|tú]] [[can|puedes]] [[buy|comprar]] [[fresh|pescado]] [[fish|fresco]].",
+          "question": "[[This is the market fish|Este es el mercado]] _______ [[you can buy fresh|tú puedes comprar pescado fresco]].",
           "options": [
             "[[where|donde]]",
             "[[which|el cual]]"
@@ -387,7 +387,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase pasiva.",
       "questions": [
         {
-          "question": "[[The|Las]] [[leftovers|sobras]] [[should|deberían]] _______ [[kept|mantenidas]] [[in|en]] [[the|el]] [[fridge|refrigerador]].",
+          "question": "[[The leftovers should in|Las sobras deberían]] _______ [[kept the fridge|mantenidas en el refrigerador]].",
           "options": [
             "[[be|ser]]",
             "[[is|es]]"
@@ -413,7 +413,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Escribe el pronombre relativo para personas.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|es]] [[the|el]] [[waiter|camarero]] _______ [[served|sirvió]] [[us|a nosotros]] [[yesterday|ayer]].",
+          "question": "[[He is the waiter|Él es el camarero]] _______ [[served us yesterday|sirvió a nosotros ayer]].",
           "options": [
             "[[who|que]]",
             "[[which|el cual]]"
@@ -439,7 +439,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa con el verbo 'to be' adecuado.",
       "questions": [
         {
-          "question": "[[These|Estas]] [[apples|manzanas]] _______ [[grown|cultivadas]] [[in|en]] [[our|nuestro]] [[garden|jardín]].",
+          "question": "[[These apples our garden|Estas manzanas]] _______ [[grown in|cultivadas en nuestro jardín]].",
           "options": [
             "[[are|son]]",
             "[[is|es]]"
@@ -465,7 +465,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Escribe el pronombre relativo para cosas.",
       "questions": [
         {
-          "question": "[[The|El]] [[book|libro]] _______ [[I|yo]] [[am|estoy]] [[reading|leyendo]] [[is|es]] [[about|sobre]] [[healthy|cocina]] [[cooking|saludable]].",
+          "question": "[[The book reading is about healthy cooking|El libro]] _______ [[I am|yo estoy leyendo es sobre cocina saludable]].",
           "options": [
             "[[that|que]]",
             "[[who|quien]]"
@@ -491,7 +491,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa con el verbo 'to be' adecuado.",
       "questions": [
         {
-          "question": "[[Plastic|Botellas de]] [[bottles|plástico]] _______ [[thrown|tiradas]] [[away|a la basura]] [[too|demasiado]] [[often|a menudo]].",
+          "question": "[[Plastic bottles too often|Botellas de plástico]] _______ [[thrown away|tiradas a la basura demasiado a menudo]].",
           "options": [
             "[[are|son]]",
             "[[is|es]]"
@@ -517,7 +517,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración en voz pasiva en pasado.",
       "questions": [
         {
-          "question": "[[The|La]] [[meal|comida]] _______ [[cooked|cocinada]] [[by|por]] [[a|un]] [[professional|chef]] [[chef|profesional]].",
+          "question": "[[The meal a professional chef|La comida]] _______ [[cooked by|cocinada por un chef profesional]].",
           "options": [
             "[[was|fue]]",
             "[[is|es]]"
@@ -543,7 +543,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Escribe el pronombre relativo de lugar.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] [[went|fuimos]] [[to|a]] [[a|una]] [[farm|granja]] _______ [[they|ellos]] [[produce|producen]] [[honey|miel]].",
+          "question": "[[We went to a farm produce honey|Nosotros fuimos a una granja]] _______ [[they|ellos producen miel]].",
           "options": [
             "[[where|donde]]",
             "[[who|quien]]"
@@ -569,7 +569,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa con el verbo 'to be' adecuado.",
       "questions": [
         {
-          "question": "[[The|La]] [[honey|miel]] _______ [[produced|producida]] [[by|por]] [[bees|abejas]] [[in|en]] [[the|el]] [[countryside|campo]].",
+          "question": "[[The honey bees in the countryside|La miel]] _______ [[produced by|producida por abejas en el campo]].",
           "options": [
             "[[is|es]]",
             "[[are|son]]"
@@ -595,7 +595,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa con el verbo auxiliar pasivo.",
       "questions": [
         {
-          "question": "[[Local|Los productos]] [[produce|locales]] [[can|pueden]] _______ [[found|encontrados]] [[at|en]] [[the|el]] [[weekend|mercado de fin de]] [[market|semana]].",
+          "question": "[[Local produce can at market|Los productos locales pueden]] _______ [[found the weekend|encontrados en el mercado de fin de semana]].",
           "options": [
             "[[be|ser]]",
             "[[is|es]]"
@@ -621,7 +621,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Escribe el pronombre relativo para personas.",
       "questions": [
         {
-          "question": "[[The|La]] [[people|gente]] _______ [[live|vive]] [[in|en]] [[the|la]] [[village|aldea]] [[grow|cultiva]] [[their|su]] [[own|propia]] [[food|comida]].",
+          "question": "[[The people the village grow their own food|La gente]] _______ [[live in|vive en la aldea cultiva su propia comida]].",
           "options": [
             "[[who|que]]",
             "[[which|el cual]]"
@@ -647,7 +647,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase pasiva con 'be'.",
       "questions": [
         {
-          "question": "[[Fresh|El agua]] [[water|fresca]] [[must|debe]] _______ [[protected|protegida]] [[for|para]] [[future|generaciones]] [[generations|futuras]].",
+          "question": "[[Fresh water must for|El agua fresca debe]] _______ [[protected future generations|protegida para generaciones futuras]].",
           "options": [
             "[[be|ser]]",
             "[[is|es]]"
@@ -671,7 +671,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Leche orgánica",
       "instructions": "Ordena las palabras en voz pasiva.",
-      "correctSentence": "[[The|La]] [[organic|leche]] [[milk|orgánica]] [[is|es]] [[produced|producida]] [[by|por]] [[local|vacas]] [[cows|locales]].",
+      "correctSentence": "[[The organic milk is produced by local cows|La leche orgánica es producida por vacas locales]].",
       "words": [
         "[[produced|producida]]",
         "[[is|es]]",
@@ -698,7 +698,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Huerto casero",
       "instructions": "Ordena las palabras usando 'where'.",
-      "correctSentence": "[[This|Este]] [[is|es]] [[the|el]] [[garden|jardín]] [[where|donde]] [[we|nosotros]] [[grow|cultivamos]] [[tomatoes|tomates]].",
+      "correctSentence": "[[This is the garden where we grow tomatoes|Este es el jardín donde nosotros cultivamos tomates]].",
       "words": [
         "[[garden|jardín]]",
         "[[where|donde]]",
@@ -725,7 +725,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "El postre del cocinero",
       "instructions": "Ordena las palabras usando 'who'.",
-      "correctSentence": "[[He|Él]] [[is|es]] [[the|el]] [[cook|cocinero]] [[who|que]] [[made|hizo]] [[the|el]] [[dessert|postre]].",
+      "correctSentence": "[[He is the cook who made the dessert|Él es el cocinero que hizo el postre]].",
       "words": [
         "[[cook|cocinero]]",
         "[[who|que]]",
@@ -752,7 +752,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Recipientes reciclables",
       "instructions": "Ordena las palabras en voz pasiva.",
-      "correctSentence": "[[These|Estos]] [[containers|recipientes]] [[are|son]] [[made|hechos]] [[of|de]] [[recycled|vidrio]] [[glass|reciclado]].",
+      "correctSentence": "[[These containers are made of recycled glass|Estos recipientes son hechos de vidrio reciclado]].",
       "words": [
         "[[are|son]]",
         "[[glass|reciclado]]",
@@ -778,7 +778,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Café de comercio justo",
       "instructions": "Ordena las palabras usando 'which'.",
-      "correctSentence": "[[The|El]] [[coffee|café]] [[which|que]] [[I|yo]] [[am|estoy]] [[drinking|bebiendo]] [[is|es]] [[fair|comercio]] [[trade|justo]].",
+      "correctSentence": "[[The coffee which I am drinking is fair trade|El café que yo estoy bebiendo es comercio justo]].",
       "words": [
         "[[coffee|café]]",
         "[[which|que]]",
@@ -808,7 +808,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción que mejor complete la frase pasiva.",
       "questions": [
         {
-          "question": "[[Food|El desperdicio]] [[waste|de comida]] _______ [[minimized|minimizado]] [[to|para]] [[save|ahorrar]] [[resources|recursos]].",
+          "question": "[[Food waste save resources|El desperdicio de comida]] _______ [[minimized to|minimizado para ahorrar recursos]].",
           "options": [
             "[[should be|debería ser]]",
             "[[can|puede]]",
@@ -835,7 +835,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Elige el pronombre relativo adecuado.",
       "questions": [
         {
-          "question": "[[People|La gente]] _______ [[buy|compra]] [[local|productos]] [[produce|locales]] [[support|apoya]] [[small|a pequeños]] [[farmers|agricultores]].",
+          "question": "[[People local produce support small farmers|La gente]] _______ [[buy|compra productos locales apoya a pequeños agricultores]].",
           "options": [
             "[[who|que]]",
             "[[which|el cual]]",
@@ -862,7 +862,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Elige el auxiliar para el pasado pasivo.",
       "questions": [
         {
-          "question": "[[The|El]] [[fish|pescado]] _______ [[caught|atrapado]] [[earlier|más temprano]] [[this|esta]] [[morning|mañana]].",
+          "question": "[[The fish this morning|El pescado]] _______ [[caught earlier|atrapado más temprano esta mañana]].",
           "options": [
             "[[was|fue]]",
             "[[were|fueron]]",
@@ -889,7 +889,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo correcto.",
       "questions": [
         {
-          "question": "[[Frozen|Las comidas]] [[meals|congeladas]] [[are|son]] [[often|a menudo]] _______ [[in|en]] [[salt|sal]].",
+          "question": "[[Frozen meals are often|Las comidas congeladas son a menudo]] _______ [[in salt|en sal]].",
           "options": [
             "[[high|altas]]",
             "[[low|bajas]]",
@@ -916,7 +916,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Elige el pronombre relativo adecuado.",
       "questions": [
         {
-          "question": "[[The|Las]] [[spices|especias]], _______ [[are|son]] [[from|de]] [[India|la India]], [[add|añaden]] [[a|mucho]] [[lot| ]] [[of| ]] [[flavor|sabor]].",
+          "question": "[[The spices, add India a lot of flavor|Las especias]], _______ [[are from|son de la India, añaden mucho     sabor]].",
           "options": [
             "[[which|las cuales]]",
             "[[who|quien]]",
@@ -943,7 +943,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Elige el participio pasado correcto.",
       "questions": [
         {
-          "question": "[[Bread|El pan]] [[is|es]] [[usually|usualmente]] _______ [[in|en]] [[a|un]] [[large|horno]] [[oven|grande]].",
+          "question": "[[Bread is usually a|El pan es usualmente]] _______ [[in large oven|en un horno grande]].",
           "options": [
             "[[baked|horneado]]",
             "[[bake|hornear]]",
@@ -970,7 +970,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Elige el pronombre relativo.",
       "questions": [
         {
-          "question": "[[A|Un]] [[vegetarian|vegetariano]] [[is|es]] [[a|una]] [[person|persona]] _______ [[does| ]] [[not|no]] [[eat|come]] [[meat|carne]].",
+          "question": "[[A vegetarian is a person not eat meat|Un vegetariano es una persona]] _______ [[does|  no come carne]].",
           "options": [
             "[[who|que]]",
             "[[which|el cual]]",
@@ -997,7 +997,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma pasiva correcta.",
       "questions": [
         {
-          "question": "[[Ingredients|Los ingredientes]] _______ [[listed|listados]] [[on|en]] [[the|la]] [[label|etiqueta]].",
+          "question": "[[Ingredients on the label|Los ingredientes]] _______ [[listed|listados en la etiqueta]].",
           "options": [
             "[[should be|deberían ser]]",
             "[[must|deben]]",
@@ -1024,7 +1024,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Elige el participio correcto.",
       "questions": [
         {
-          "question": "[[The|La]] [[soup|sopa]] [[was|fue]] _______ [[with|con]] [[a|un]] [[piece|trozo]] [[of|de]] [[bread|pan]].",
+          "question": "[[The soup was a bread|La sopa fue]] _______ [[with piece of|con un trozo de pan]].",
           "options": [
             "[[served|servida]]",
             "[[serve|servir]]",
@@ -1051,7 +1051,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Elige el pronombre relativo.",
       "questions": [
         {
-          "question": "[[Farmers'|Los mercados]] [[markets|de agricultores]] [[are|son]] [[places|lugares]] _______ [[you|tú]] [[can|puedes]] [[buy|comprar]] [[fresh|productos]] [[produce|frescos]].",
+          "question": "[[Farmers' markets are places produce|Los mercados de agricultores son lugares]] _______ [[you can buy fresh|tú puedes comprar productos frescos]].",
           "options": [
             "[[where|donde]]",
             "[[who|quien]]",
@@ -1078,7 +1078,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Escribe el auxiliar para el pasado pasivo.",
       "questions": [
         {
-          "question": "[[The|La]] [[table|mesa]] _______ [[set|puesta]] [[for|para]] [[six|seis]] [[people|personas]].",
+          "question": "[[The table six people|La mesa]] _______ [[set for|puesta para seis personas]].",
           "options": [
             "[[was|fue]]",
             "[[is|es]]"
@@ -1104,7 +1104,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa con el verbo 'to be' adecuado.",
       "questions": [
         {
-          "question": "[[Most|La mayoría de]] [[vegetables|vegetales]] _______ [[grown|cultivados]] [[in|en]] [[the|el]] [[summer|verano]].",
+          "question": "[[Most vegetables the summer|La mayoría de vegetales]] _______ [[grown in|cultivados en el verano]].",
           "options": [
             "[[are|son]]",
             "[[is|es]]"
@@ -1130,7 +1130,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Escribe el pronombre relativo.",
       "questions": [
         {
-          "question": "[[A|Un]] [[nutritionist|nutricionista]] _______ [[specializes|se especializa]] [[in|en]] [[sports|dieta]] [[diet|deportiva]] [[helped|ayudó]] [[me|a mí]].",
+          "question": "[[A nutritionist sports diet helped me|Un nutricionista]] _______ [[specializes in|se especializa en dieta deportiva ayudó a mí]].",
           "options": [
             "[[who|que]]",
             "[[which|el cual]]"
@@ -1156,7 +1156,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa con el pronombre relativo de lugar.",
       "questions": [
         {
-          "question": "[[This|Esta]] [[is|es]] [[the|la]] [[region|región]] _______ [[the|las]] [[best|mejores]] [[grapes|uvas]] [[are|son]] [[found|encontradas]].",
+          "question": "[[This is the region found|Esta es la región]] _______ [[the best grapes are|las mejores uvas son encontradas]].",
           "options": [
             "[[where|donde]]",
             "[[which|la cual]]"
@@ -1182,7 +1182,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase pasiva con 'be'.",
       "questions": [
         {
-          "question": "[[Fast|La comida]] [[food|rápida]] [[should|debería]] [[not|no]] _______ [[eaten|comida]] [[every|cada]] [[day|día]].",
+          "question": "[[Fast food should not|La comida rápida debería no]] _______ [[eaten every day|comida cada día]].",
           "options": [
             "[[be|ser]]",
             "[[is|es]]"
@@ -1206,7 +1206,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Producción de vino",
       "instructions": "Ordena las palabras en voz pasiva.",
-      "correctSentence": "[[The|El]] [[wine|vino]] [[is|es]] [[produced|producido]] [[in|en]] [[the|el]] [[south|sur]] [[of|de]] [[Spain|España]].",
+      "correctSentence": "[[The wine is produced in the south of Spain|El vino es producido en el sur de España]].",
       "words": [
         "[[produced|producido]]",
         "[[is|es]]",
@@ -1234,7 +1234,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ensayo sobre contaminación",
       "instructions": "Ordena las palabras usando 'who'.",
-      "correctSentence": "[[She|Ella]] [[is|es]] [[the|la]] [[student|estudiante]] [[who|que]] [[wrote|escribió]] [[the|el]] [[essay|ensayo]] [[about|sobre]] [[pollution|contaminación]].",
+      "correctSentence": "[[She is the student who wrote the essay about pollution|Ella es la estudiante que escribió el ensayo sobre contaminación]].",
       "words": [
         "[[student|estudiante]]",
         "[[who|que]]",
@@ -1263,7 +1263,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Bolsas ecológicas",
       "instructions": "Ordena las palabras en voz pasiva.",
-      "correctSentence": "[[These|Estas]] [[bags|bolsas]] [[are|son]] [[made|hechas]] [[of|de]] [[biodegradable|plástico]] [[plastic|biodegradable]].",
+      "correctSentence": "[[These bags are made of biodegradable plastic|Estas bolsas son hechas de plástico biodegradable]].",
       "words": [
         "[[are|son]]",
         "[[plastic|biodegradable]]",
@@ -1289,7 +1289,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Visita al restaurante",
       "instructions": "Ordena las palabras usando 'that'.",
-      "correctSentence": "[[The|El]] [[restaurant|restaurante]] [[that|que]] [[we|nosotros]] [[visited|visitamos]] [[had|tenía]] [[a|un]] [[great|gran]] [[atmosphere|ambiente]].",
+      "correctSentence": "[[The restaurant that we visited had a great atmosphere|El restaurante que nosotros visitamos tenía un gran ambiente]].",
       "words": [
         "[[restaurant|restaurante]]",
         "[[that|que]]",
@@ -1317,7 +1317,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "Energía renovable",
       "instructions": "Ordena las palabras en voz pasiva.",
-      "correctSentence": "[[Renewable|La energía]] [[energy|renovable]] [[is|es]] [[used|utilizada]] [[to|para]] [[power|alimentar]] [[the|la]] [[factory|fábrica]].",
+      "correctSentence": "[[Renewable energy is used to power the factory|La energía renovable es utilizada para alimentar la fábrica]].",
       "words": [
         "[[energy|renovable]]",
         "[[is|es]]",

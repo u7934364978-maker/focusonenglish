@@ -14,7 +14,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[I|Yo]] [[think|pienso]] [[it|que]] _______ [[rain|lloverá]] [[tomorrow|mañana]].",
+          "question": "[[I think it tomorrow|Yo pienso que]] _______ [[rain|lloverá mañana]].",
           "options": [
             "[[will|va a]]",
             "[[is going to|va a ir]]",
@@ -41,7 +41,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[have|tener]] [[a|una]] [[video|videoconferencia]] [[conference|de]] [[at|a]] [[six|las seis]].",
+          "question": "[[We a video conference at six|Nosotros]] _______ [[have|tener una videoconferencia de a las seis]].",
           "options": [
             "[[are going to|vamos a]]",
             "[[will|irá a]]",
@@ -68,7 +68,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que completa correctamente la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[install|instalarán]] [[the|el]] [[software|software]] [[on|el]] [[Friday|viernes]].",
+          "question": "[[They the software on Friday|Ellos]] _______ [[install|instalarán el software el viernes]].",
           "options": [
             "[[will|van a]]",
             "[[are going to|van a ir]]",
@@ -95,7 +95,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción que completa correctamente la oración.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[meeting|se reúne con]] [[his|su]] [[new|nuevo]] [[client|cliente]] [[tomorrow|mañana]] [[morning|en la mañana]].",
+          "question": "[[He his new client tomorrow morning|Él]] _______ [[meeting|se reúne con su nuevo cliente mañana en la mañana]].",
           "options": [
             "[[is|está]]",
             "[[will be|estará]]",
@@ -122,7 +122,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción que completa la pregunta.",
       "questions": [
         {
-          "question": "[[Are|Vas]] [[you|tú]] _______ [[attend|asistir]] [[the|al]] [[seminar|seminario]] [[next|la próxima]] [[week|semana]]?",
+          "question": "[[Are you seminar next week|Vas tú]] _______ [[attend the|asistir al seminario la próxima semana]]?",
           "options": [
             "[[going to|ir a]]",
             "[[will|vas a]]",
@@ -149,7 +149,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[buy|comprar]] [[a|un]] [[new|nuevo]] [[computer|ordenador]] [[tomorrow|mañana]].",
+          "question": "[[He a new computer tomorrow|Él]] _______ [[buy|comprar un nuevo ordenador mañana]].",
           "options": [
             "[[is going to|va a]]",
             "[[will|comprará]]"
@@ -175,7 +175,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[install|instalarán]] [[the|el]] [[software|software]] [[by|para]] [[next|la próxima]] [[week|semana]].",
+          "question": "[[They the software by next week|Ellos]] _______ [[install|instalarán el software para la próxima semana]].",
           "options": [
             "[[will|instalarán]]",
             "[[are installing|están instalando]]"
@@ -201,7 +201,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración usando la forma adecuada del verbo.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[meeting|me reuniré]] [[with|con]] [[the|el]] [[IT|TI]] [[team|equipo]] [[on|el]] [[Thursday|jueves]].",
+          "question": "[[I with the IT team on Thursday|Yo]] _______ [[meeting|me reuniré con el TI equipo el jueves]].",
           "options": [
             "[[am meeting|me reuniré]]",
             "[[will meet|me reuniré]]"
@@ -227,7 +227,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la respuesta correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[update|actualizará]] [[the|el]] [[website|sitio web]] [[this|este]] [[weekend|fin de semana]].",
+          "question": "[[She the website this weekend|Ella]] _______ [[update|actualizará el sitio web este fin de semana]].",
           "options": [
             "[[is going to|va a]]",
             "[[will|actualizará]]"
@@ -253,7 +253,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta con la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[Are|Vas]] _______ [[to|minuto para]] [[attend|asistir]] [[the|al]] [[webinar|seminario web]] [[tomorrow|mañana]]?",
+          "question": "[[Are attend the webinar tomorrow|Vas]] _______ [[to|minuto para asistir al seminario web mañana]]?",
           "options": [
             "[[going|a ir]]",
             "[[will|asistirás]]"
@@ -277,7 +277,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[will|va a]] [[fix|reparar]] [[the|el]] [[computer|ordenador]] [[tomorrow|mañana]].",
+      "correctSentence": "[[He will fix the computer tomorrow|Él va a reparar el ordenador mañana]].",
       "words": [
         "[[fix|reparar]]",
         "[[He|Él]]",
@@ -302,7 +302,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[are|están]] [[visiting|visitando]] [[a|una]] [[tech|tecnológica]] [[conference|conferencia]] [[next|la próxima]] [[week|semana]].",
+      "correctSentence": "[[They are visiting a tech conference next week|Ellos están visitando una tecnológica conferencia la próxima semana]].",
       "words": [
         "[[visiting|visitando]]",
         "[[are|están]]",
@@ -328,7 +328,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[are|estamos]] [[going|vamos]] [[to|a]] [[start|empezar]] [[an|un]] [[online|en línea]] [[course|curso]].",
+      "correctSentence": "[[We are going to start an online course|Nosotros estamos vamos a empezar un en línea curso]].",
       "words": [
         "[[start|empezar]]",
         "[[going|vamos]]",
@@ -355,7 +355,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Anna|Anna]] [[will|va a]] [[launch|lanzar]] [[the|el]] [[new|nuevo]] [[software|software]] [[next|el próximo]] [[month|mes]].",
+      "correctSentence": "[[Anna will launch the new software next month|Anna va a lanzar el nuevo software el próximo mes]].",
       "words": [
         "[[new|nuevo]]",
         "[[launch|lanzar]]",
@@ -382,7 +382,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[are|estamos]] [[interviewing|entrevistando]] [[applicants|candidatos]] [[for|para]] [[the|el]] [[tech|tecnológico]] [[position|puesto]].",
+      "correctSentence": "[[We are interviewing applicants for the tech position|Nosotros estamos entrevistando candidatos para el tecnológico puesto]].",
       "words": [
         "[[position|puesto]]",
         "[[interviewing|entrevistando]]",
@@ -411,7 +411,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta del futuro para completar la oración.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[develop|desarrollar]] [[a|una]] [[new|nueva]] [[app|aplicación]] [[by|para]] [[next|el]] [[year|año]].",
+          "question": "[[They a new app by next year|Ellos]] _______ [[develop|desarrollar una nueva aplicación para el año]].",
           "options": [
             "[[will|auxiliar futuro]]",
             "[[are going to|van a]]"
@@ -437,7 +437,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa con la forma correcta del futuro atendiendo al contexto planificado.",
       "questions": [
         {
-          "question": "[[Our|Nuestra]] [[company|empresa]] _______ [[launch|lanzará]] [[a|un]] [[new|nuevo]] [[website|sitio web]].",
+          "question": "[[Our company new website|Nuestra empresa]] _______ [[launch a|lanzará un nuevo sitio web]].",
           "options": [
             "[[is going to|va a]]",
             "[[will|va a]]"
@@ -463,7 +463,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta del futuro continuo para esta situación planeada.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[meeting|me reuniré]] [[my|con mis]] [[colleagues|colegas]] [[online|en línea]] [[tomorrow|mañana]].",
+          "question": "[[I my colleagues online tomorrow|Yo]] _______ [[meeting|me reuniré con mis colegas en línea mañana]].",
           "options": [
             "[[will be|estarán]]",
             "[[am|estoy]]"
@@ -489,7 +489,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Escoge la forma correcta del futuro según la predicción realizada.",
       "questions": [
         {
-          "question": "[[The|Los]] [[experts|expertos]] [[say|dicen]] [[that|que]] [[artificial|la inteligencia]] [[intelligence|artificial]] _______ [[change|cambiará]] [[many|muchas]] [[industries|industrias]].",
+          "question": "[[The experts say that artificial intelligence industries|Los expertos dicen que la inteligencia artificial]] _______ [[change many|cambiará muchas industrias]].",
           "options": [
             "[[will|va a]]",
             "[[is going to|va a]]"
@@ -515,7 +515,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción apropiada para expresar un plan futuro.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[attend|asistiremos]] [[a|a]] [[tech|una conferencia]] [[conference|de tecnología]] [[next|la próxima]] [[week|semana]].",
+          "question": "[[We a tech conference next week|Nosotros]] _______ [[attend|asistiremos a una conferencia de tecnología la próxima semana]].",
           "options": [
             "[[are going to|vamos a]]",
             "[[will|iremos a]]"
@@ -541,7 +541,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa el espacio en blanco usando la forma correcta del futuro.",
       "questions": [
         {
-          "question": "[[In|En]] [[the|el]] [[future|futuro]], [[she|ella]] _______ [[earn|ganar]] [[more|más]] [[because|porque]] [[she|ella]] [[will|va a]] [[manage|gestionar]] [[a|un]] [[larger|más grande]] [[team|equipo]].",
+          "question": "[[In the, she future more will manage a larger team|En el futuro, ella]] _______ [[earn because she|ganar más porque ella va a gestionar un más grande equipo]].",
           "options": [
             "[[is going to|va a]]",
             "[[will|va a]]"
@@ -567,7 +567,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa el espacio en blanco usando la forma correcta del futuro.",
       "questions": [
         {
-          "question": "[[By|Para]] [[this|esta]] [[time|hora]] [[next|el próximo]] [[year|año]], [[they|ellos]] _______ [[a|un]] [[new|nuevo]] [[software|software]] [[program|programa]].",
+          "question": "[[By this, they time next year new software program|Para esta hora el próximo año, ellos]] _______ [[a|un nuevo software programa]].",
           "options": [
             "[[are launching|están lanzando]]",
             "[[will have launched|habrán lanzado]]"
@@ -593,7 +593,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa el espacio en blanco usando la forma correcta del futuro.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|las]] [[challenges|dificultades]], [[he|él]] _______ [[pursue|perseguir]] [[a|una]] [[degree|licenciatura]] [[in|en]] [[computer|computación]] [[science|ciencia]].",
+          "question": "[[Despite the, he challenges a computer science|A pesar de las dificultades, él]] _______ [[pursue degree in|perseguir una licenciatura en computación ciencia]].",
           "options": [
             "[[is going to|va a]]",
             "[[will|va a]]"
@@ -619,7 +619,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa el espacio en blanco para expresar planes futuros.",
       "questions": [
         {
-          "question": "[[Tomorrow|Mañana]] [[at|a las]] [[3|3]] [[PM|PM]], [[I|yo]] _______ [[my|con mis]] [[colleagues|colegas]] [[to|para]] [[discuss|discutir]] [[the|el]] [[new|nuevo]] [[project|proyecto]].",
+          "question": "[[Tomorrow at, I colleagues 3 PM the new project|Mañana a las 3 PM, yo]] _______ [[my to discuss|con mis colegas para discutir el nuevo proyecto]].",
           "options": [
             "[[am meeting|me reuniré con]]",
             "[[will meet|me reuniré]]"
@@ -645,7 +645,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa el espacio en blanco usando la forma correcta del futuro.",
       "questions": [
         {
-          "question": "[[Although|Aunque]] [[there|hay]] [[is|incertidumbre]], [[the|la]] [[company|compañía]] _______ [[continue|continuará]] [[to|a]] [[invest|invertir]] [[in|en]] [[innovation|innovación]].",
+          "question": "[[Although there, the is company innovation|Aunque hay incertidumbre, la compañía]] _______ [[continue to invest in|continuará a invertir en innovación]].",
           "options": [
             "[[is going to|va a]]",
             "[[will|va a]]"
@@ -669,7 +669,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[are|están]] [[going|van]] [[to|a]] [[attend|asistir]] [[a|a]] [[digital|digital]] [[marketing|marketing]] [[seminar|seminario]] [[next|la próxima]] [[week|semana]].",
+      "correctSentence": "[[They are going to attend a digital marketing seminar next week|Ellos están van a asistir a digital marketing seminario la próxima semana]].",
       "words": [
         "[[next|la próxima]]",
         "[[week|semana]]",
@@ -699,7 +699,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|La]] [[tech|tecnológica]] [[conference|conferencia]] [[is|empieza]] [[starting|mañana]] [[tomorrow|a las]] [[at|9]] [[9|AM]].",
+      "correctSentence": "[[The tech conference is starting tomorrow at 9|La tecnológica conferencia empieza mañana a las 9 AM]].",
       "words": [
         "[[tomorrow|mañana]]",
         "[[starting|empieza]]",
@@ -727,7 +727,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Although|Aunque]] [[they|ellos]] [[are|están]] [[busy|ocupados]], [[they|ellos]] [[will|actualizarán]] [[update|el software]] [[the|esta]] [[software|noche]].",
+      "correctSentence": "[[Although they, they will are busy update the software|Aunque ellos están ocupados, ellos actualizarán el software esta noche]].",
       "words": [
         "[[software|noche]]",
         "[[Although|Aunque]]",
@@ -755,7 +755,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|La]] [[company|empresa]] [[is|va]] [[going|a]] [[to|lanzar]] [[launch|una]] [[a|nueva]] [[new|aplicación]] [[app|el próximo]] [[next|mes]].",
+      "correctSentence": "[[The company is going to launch a new app next|La empresa va a lanzar una nueva aplicación el próximo mes]].",
       "words": [
         "[[to|lanzar]]",
         "[[launch|una]]",
@@ -784,7 +784,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Since|Como]] [[it|es]] [[is|tarde]], [[they|ellos]] [[are|van]] [[going|a]] [[to|pedir]] [[order|comida]] [[food|en]] [[online|línea]].",
+      "correctSentence": "[[Since it, they is are going to order food online|Como es tarde, ellos van a pedir comida en línea]].",
       "words": [
         "[[Since|Como]]",
         "[[it|es]]",
@@ -815,7 +815,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la oración sobre futuros eventos planificados.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[attend|asistir]] [[a|a]] [[digital|digital]] [[marketing|marketing]] [[seminar|seminario]] [[next|la]] [[week|próxima semana]].",
+          "question": "[[She a digital marketing seminar next week|Ella]] _______ [[attend|asistir a digital marketing seminario la próxima semana]].",
           "options": [
             "[[is going to|va a]]",
             "[[will|irá]]"
@@ -841,7 +841,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción adecuada para expresar inevitabilidad futura.",
       "questions": [
         {
-          "question": "[[The|La]] [[meeting|reunión]] _______ [[start|comenzará]] [[as|tan]] [[soon|pronto]] [[as|como]] [[the|el]] [[manager|gerente]] [[arrives|llegue]].",
+          "question": "[[The meeting soon as the manager arrives|La reunión]] _______ [[start as|comenzará tan pronto como el gerente llegue]].",
           "options": [
             "[[will|va a]]",
             "[[is going to|irá a]]"
@@ -867,7 +867,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta considerando el contexto de un futuro ya planificado.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[meeting|reuniremos]] [[with|con]] [[the|el]] [[developer|desarrollador]] [[tomorrow|mañana]] [[afternoon|por la tarde]].",
+          "question": "[[We with the developer tomorrow afternoon|Nosotros]] _______ [[meeting|reuniremos con el desarrollador mañana por la tarde]].",
           "options": [
             "[[are|estamos]]",
             "[[will be|estaremos]]"
@@ -893,7 +893,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción que mejor completa la oración sobre planes definidos para el futuro.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[launch|lanzar]] [[a|una]] [[new|nueva]] [[app|aplicación]] [[by|para]] [[the|el]] [[end|fin]] [[of|del]] [[the|el]] [[year|año]].",
+          "question": "[[They a new app by the end of the year|Ellos]] _______ [[launch|lanzar una nueva aplicación para el fin del el año]].",
           "options": [
             "[[are going to|van a]]",
             "[[will|lanzarán]]"
@@ -919,7 +919,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para predecir acciones futuras generales.",
       "questions": [
         {
-          "question": "[[More|Más]] [[people|personas]] _______ [[rely|confiar]] [[on|en]] [[online|en línea]] [[platforms|plataformas]] [[in|en]] [[the|el]] [[future|futuro]].",
+          "question": "[[More people online platforms in the future|Más personas]] _______ [[rely on|confiar en en línea plataformas en el futuro]].",
           "options": [
             "[[will|auxiliar futuro]]",
             "[[are going to|van a]]"
@@ -945,7 +945,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase con la forma correcta del verbo para expresar futuro.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[attend|asistiré]] [[a|a]] [[virtual|virtual]] [[conference|conferencia]] [[on|sobre]] [[artificial|inteligencia]] [[intelligence|artificial]] [[next|el]] [[weekend|próximo fin de semana]].",
+          "question": "[[I a virtual conference on artificial intelligence next weekend|Yo]] _______ [[attend|asistiré a virtual conferencia sobre inteligencia artificial el próximo fin de semana]].",
           "options": [
             "[[will|asistiré]]",
             "[[am going|voy]]"
@@ -971,7 +971,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase con la forma correcta del verbo para planes futuros.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[meeting|se reunirá]] [[with|con]] [[the|el]] [[tech|tecnológico]] [[team|equipo]] [[tomorrow|mañana]] [[morning|por la mañana]].",
+          "question": "[[She with the tech team tomorrow morning|Ella]] _______ [[meeting|se reunirá con el tecnológico equipo mañana por la mañana]].",
           "options": [
             "[[is|se está]]",
             "[[will|se reunirá]]"
@@ -997,7 +997,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase con la expresión correcta para indicar un plan futuro.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[to|a]] [[launch|lanzar]] [[a|un]] [[new|nuevo]] [[software|software]] [[next|el]] [[quarter|próximo trimestre]].",
+          "question": "[[They launch a new software next quarter|Ellos]] _______ [[to|a lanzar un nuevo software el próximo trimestre]].",
           "options": [
             "[[are going|van]]",
             "[[will|lanzarán]]"
@@ -1023,7 +1023,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase adecuadamente para prever el futuro.",
       "questions": [
         {
-          "question": "[[Despite|A pesar de]] [[the|los]] [[challenges|desafíos]], [[they|ellos]] _______ [[improve|mejorarán]] [[the|el]] [[system|sistema]] [[this|este]] [[year|año]].",
+          "question": "[[Despite the, they challenges the year|A pesar de los desafíos, ellos]] _______ [[improve system this|mejorarán el sistema este año]].",
           "options": [
             "[[will|mejorarán]]",
             "[[are going|van]]"
@@ -1047,7 +1047,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración lógica.",
-      "correctSentence": "[[Although|Aunque]] [[the|el]] [[software|software]] [[is|es]] [[new|nuevo]], [[it|este]] [[is|va]] [[going|a]] [[to|ayudar]] [[help|a]] [[the|la]] [[company|empresa]].",
+      "correctSentence": "[[Although the, it software is new is going to help the company|Aunque el software es nuevo, este va a ayudar a la empresa]].",
       "words": [
         "[[Although|Aunque]]",
         "[[the|el]]",
@@ -1078,7 +1078,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We|Nosotros]] [[are|vamos]] [[going|a]] [[to|instalar]] [[install|un]] [[a|nuevo]] [[new|software]] [[software|la]] [[next|semana]] [[week|próxima]].",
+      "correctSentence": "[[We are going to install a new software next week|Nosotros vamos a instalar un nuevo software la semana próxima]].",
       "words": [
         "[[new|nuevo]]",
         "[[a|un]]",
@@ -1107,7 +1107,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|La]] [[company|empresa]] [[will|lanzará]] [[launch|la]] [[the|nueva]] [[new|aplicación]] [[app|en]] [[in|marzo]]. [[March|La]]",
+      "correctSentence": "[[The company. March will launch the new app in|La empresa lanzará la nueva aplicación en marzo. La]]",
       "words": [
         "[[launch|lanzará]]",
         "[[company|empresa]]",
@@ -1135,7 +1135,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He|Él]] [[is|asistirá]] [[attending|a]] [[a|una]] [[tech|conferencia]] [[conference|tecnológica]] [[next|el]] [[month|mes]].",
+      "correctSentence": "[[He is attending a tech conference next month|Él asistirá a una conferencia tecnológica el mes]].",
       "words": [
         "[[tech|tecnológica]]",
         "[[He|Él]]",
@@ -1162,7 +1162,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They|Ellos]] [[are|están]] [[launching|lanzando]] [[a|un]] [[revolutionary|revolucionario]] [[gadget|dispositivo]] [[given|dada]] [[the|la]] [[high|alta]] [[demand|demanda]].",
+      "correctSentence": "[[They are launching a revolutionary gadget given the high demand|Ellos están lanzando un revolucionario dispositivo dada la alta demanda]].",
       "words": [
         "[[the|la]]",
         "[[demand|demanda]]",
@@ -1191,7 +1191,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Due|Debido]] [[to|a]] [[security|razones]] [[reasons|de]] [[I|seguridad]], [[will|enviaré]] [[the|el]] [[document|documento]] [[tomorrow|mañana]].",
+      "correctSentence": "[[Due to, will security reasons I the document tomorrow|Debido a razones de seguridad, enviaré el documento mañana]].",
       "words": [
         "[[document|documento]]",
         "[[to|a]]",
@@ -1221,7 +1221,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para completar la frase.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[to|a]] [[launch|lanzar]] [[the|la]] [[new|nueva]] [[app|aplicación]] [[next|próxima]] [[week|semana]].",
+          "question": "[[They launch the new app next week|Ellos]] _______ [[to|a lanzar la nueva aplicación próxima semana]].",
           "options": [
             "[[are going|van]]",
             "[[will|lanzarán]]"
@@ -1247,7 +1247,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la opción correcta para completar la oración.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[attend|asistiré]] [[the|a]] [[virtual|virtual]] [[conference|conferencia]] [[tomorrow|mañana]].",
+          "question": "[[I the virtual conference tomorrow|Yo]] _______ [[attend|asistiré a virtual conferencia mañana]].",
           "options": [
             "[[will|asistiré]]",
             "[[am|estoy]]"
@@ -1273,7 +1273,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la respuesta correcta para completar la frase.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[meeting|se reunirá]] [[the|con]] [[new|el nuevo]] [[client|cliente]] [[at|a las]] [[4|4]] [[PM|PM]].",
+          "question": "[[She the new client at 4 PM|Ella]] _______ [[meeting|se reunirá con el nuevo cliente a las 4 PM]].",
           "options": [
             "[[is|está]]",
             "[[will|se reunirá]]"
@@ -1299,7 +1299,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta con la opción correcta.",
       "questions": [
         {
-          "question": "[[Are|Vas]] _______ [[to|a]] [[submit|enviar]] [[the|el]] [[report|informe]] [[by|para]] [[Friday|el viernes]]?",
+          "question": "[[Are submit the report by Friday|Vas]] _______ [[to|a enviar el informe para el viernes]]?",
           "options": [
             "[[going|a ir]]",
             "[[will|enviarás]]"
@@ -1325,7 +1325,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción adecuada para completar la frase.",
       "questions": [
         {
-          "question": "[[The|La]] [[company|empresa]] _______ [[update|actualizará]] [[the|el]] [[software|software]] [[next|próximo]] [[month|mes]].",
+          "question": "[[The company software next month|La empresa]] _______ [[update the|actualizará el software próximo mes]].",
           "options": [
             "[[will|actualizará]]",
             "[[is going|va]]"

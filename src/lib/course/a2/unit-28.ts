@@ -89,7 +89,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Eso]] [[is|es/está]] [[the|el/la/los/las]] _______ ([[hot|caliente]]) [[day|día]] [[of|de]] [[the|el/la/los/las]] [[year|año]].",
+          "question": "[[It is the of|Eso es/está el/la/los/las]] _______ ([[hot the year|caliente]]) [[day|día de el/la/los/las año]].",
           "options": [
             "[[to|a/para]]",
             "[[hottest|hottest]]",
@@ -115,7 +115,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[wind|wind]] [[is|es/está]] _______ ([[strong|fuerte]]) [[than|que (comparativo)]] [[yesterday|ayer]].",
+          "question": "[[The wind is yesterday|El/la/los/las wind es/está]] _______ ([[strong|fuerte]]) [[than|que (comparativo) ayer]].",
           "options": [
             "[[stronger|stronger]]",
             "[[to|a/para]]",
@@ -141,7 +141,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[There|Allí/ahí]] ([[be|ser/estar]]) _______ [[a|un/una]] [[big|grande]] [[storm|storm]] [[last|last]] [[night|noche]].",
+          "question": "[[There big storm last night|Allí/ahí]] ([[be|ser/estar]]) _______ [[a|un/una grande storm last noche]].",
           "options": [
             "[[was|era/fue/estaba/estuvo]]",
             "[[to|a/para]]",
@@ -167,7 +167,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Eso]] ([[snow|snow]]) _______ [[a|un/una]] [[lot|lot]] [[in|en]] [[the|el/la/los/las]] [[mountains|mountains]].",
+          "question": "[[It lot in the mountains|Eso]] ([[snow|snow]]) _______ [[a|un/una lot en el/la/los/las mountains]].",
           "options": [
             "[[snows|snows]]",
             "[[to|a/para]]",
@@ -193,7 +193,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[Are|Son/están]] [[you|tú/usted]] _______ ([[scared|scared]]) [[of|de]] [[thunder|thunder]]?",
+          "question": "[[Are you|Son/están tú/usted]] _______ ([[scared thunder|scared]]) [[of|de thunder]]?",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -219,7 +219,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[temperature|temperature]] [[is|es/está]] _______ ([[low|low]]) [[than|que (comparativo)]] [[zero|zero]].",
+          "question": "[[The temperature is zero|El/la/los/las temperature es/está]] _______ ([[low|low]]) [[than|que (comparativo) zero]].",
           "options": [
             "[[lower|lower]]",
             "[[to|a/para]]",
@@ -245,7 +245,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[It|Eso]] ([[be|ser/estar]]) _______ [[the|el/la/los/las]] [[worst|el peor]] [[flood|flood]] [[in|en]] [[history|history]].",
+          "question": "[[It worst flood in history|Eso]] ([[be|ser/estar]]) _______ [[the|el/la/los/las el peor flood en history]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -271,7 +271,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] ([[not/like|not/like]]) _______ [[extreme|extreme]] [[heat|heat]].",
+          "question": "[[I heat|Yo]] ([[not/like|not/like]]) _______ [[extreme|extreme heat]].",
           "options": [
             "[[don't like|don't like]]",
             "[[to|a/para]]",
@@ -297,7 +297,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] ([[be|ser/estar]]) _______ [[warning|warning]] [[people|gente/personas]] [[about|sobre/acerca de]] [[the|el/la/los/las]] [[hurricane|hurricane]].",
+          "question": "[[They people about the hurricane|Ellos]] ([[be|ser/estar]]) _______ [[warning|warning gente/personas sobre/acerca de el/la/los/las hurricane]].",
           "options": [
             "[[it|eso]]",
             "[[to|a/para]]",
@@ -323,7 +323,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[sun|sun]] ([[be|ser/estar]]) _______ [[shining|shining]] [[very|muy]] [[brightly|brightly]].",
+          "question": "[[The sun brightly|El/la/los/las sun]] ([[be very|ser/estar]]) _______ [[shining|shining muy brightly]].",
           "options": [
             "[[is|es/está]]",
             "[[to|a/para]]",
@@ -347,7 +347,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[storm|storm]] [[caused|caused]] [[a|un/una]] [[lot|lot]] [[of|de]] [[damage|damage]] [[to|a/para]] [[the|el/la/los/las]] [[city|ciudad]].",
+      "correctSentence": "[[The storm caused a lot of damage to the city|El/la/los/las storm caused un/una lot de damage a/para el/la/los/las ciudad]].",
       "words": [
         "[[lot|lot]]",
         "[[to|a/para]]",
@@ -375,7 +375,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I|Yo]] [[heard|heard]] [[the|el/la/los/las]] [[thunder|thunder]] [[from|de/desde]] [[miles|miles]] [[away|away]].",
+      "correctSentence": "[[I heard the thunder from miles away|Yo heard el/la/los/las thunder de/desde miles away]].",
       "words": [
         "[[thunder|thunder]]",
         "[[heard|heard]]",
@@ -400,7 +400,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Lightning|Lightning]] [[struck|struck]] [[a|un/una]] [[tree|tree]] [[in|en]] [[the|el/la/los/las]] [[park|park]].",
+      "correctSentence": "[[Lightning struck a tree in the park|Lightning struck un/una tree en el/la/los/las park]].",
       "words": [
         "[[park|park]].",
         "[[in|en]]",
@@ -425,7 +425,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[There|Allí/ahí]] [[was|era/fue/estaba/estuvo]] [[a|un/una]] [[massive|massive]] [[flood|flood]] [[after|después]] [[the|el/la/los/las]] [[heavy|heavy]] [[rain|rain]].",
+      "correctSentence": "[[There was a massive flood after the heavy rain|Allí/ahí era/fue/estaba/estuvo un/una massive flood después el/la/los/las heavy rain]].",
       "words": [
         "[[a|un/una]]",
         "[[was|era/fue/estaba/estuvo]]",
@@ -452,7 +452,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[temperature|temperature]] [[dropped|dropped]] [[to|a/para]] [[minus|minus]] [[ten|diez]] [[degrees|degrees]].",
+      "correctSentence": "[[The temperature dropped to minus ten degrees|El/la/los/las temperature dropped a/para minus diez degrees]].",
       "words": [
         "[[The|El/la/los/las]]",
         "[[temperature|temperature]]",
@@ -477,7 +477,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[A|Un/una]] [[blizzard|blizzard]] [[is|es/está]] [[a|un/una]] [[very|muy]] [[dangerous|dangerous]] [[snowstorm|snowstorm]].",
+      "correctSentence": "[[A blizzard is a very dangerous snowstorm|Un/una blizzard es/está un/una muy dangerous snowstorm]].",
       "words": [
         "[[blizzard|blizzard]]",
         "[[a|un/una]]",
@@ -502,7 +502,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[drought|drought]] [[lasted|lasted]] [[for|para/por]] [[three|tres]] [[months|months]].",
+      "correctSentence": "[[The drought lasted for three months|El/la/los/las drought lasted para/por tres months]].",
       "words": [
         "[[three|tres]]",
         "[[drought|drought]]",
@@ -526,7 +526,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[It|Eso]] [[was|era/fue/estaba/estuvo]] [[so|tan/así que]] [[foggy|foggy]] [[I|Yo]] [[couldn't|couldn't]] [[see|ver]] [[the|el/la/los/las]] [[road|camino]].",
+      "correctSentence": "[[It was so foggy I couldn't see the road|Eso era/fue/estaba/estuvo tan/así que foggy Yo couldn't ver el/la/los/las camino]].",
       "words": [
         "[[road|camino]].",
         "[[the|el/la/los/las]]",
@@ -553,7 +553,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[ice|ice]] [[on|en/sobre]] [[the|el/la/los/las]] [[lake|lake]] [[is|es/está]] [[very|muy]] [[thick|thick]].",
+      "correctSentence": "[[The ice on the lake is very thick|El/la/los/las ice en/sobre el/la/los/las lake es/está muy thick]].",
       "words": [
         "[[thick|thick]].",
         "[[The|El/la/los/las]]",
@@ -579,7 +579,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Extreme|Extreme]] [[weather|weather]] [[is|es/está]] [[becoming|becoming]] [[more|más]] [[common|common]].",
+      "correctSentence": "[[Extreme weather is becoming more common|Extreme weather es/está becoming más common]].",
       "words": [
         "[[Extreme|Extreme]]",
         "[[weather|weather]]",
@@ -603,7 +603,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[hurricane|hurricane]] [[is|es/está]] [[moving|moving]] [[towards|towards]] [[the|el/la/los/las]] [[coast|coast]].",
+      "correctSentence": "[[The hurricane is moving towards the coast|El/la/los/las hurricane es/está moving towards el/la/los/las coast]].",
       "words": [
         "[[The|El/la/los/las]]",
         "[[hurricane|hurricane]]",
@@ -628,7 +628,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Stay|Stay]] [[inside|inside]] [[during|during]] [[the|el/la/los/las]] [[thunderstorm|thunderstorm]].",
+      "correctSentence": "[[Stay inside during the thunderstorm|Stay inside during el/la/los/las thunderstorm]].",
       "words": [
         "[[Stay|Stay]]",
         "[[inside|inside]]",
@@ -651,7 +651,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[ground|ground]] [[is|es/está]] [[very|muy]] [[dry|dry]] [[after|después]] [[the|el/la/los/las]] [[heatwave|heatwave]].",
+      "correctSentence": "[[The ground is very dry after the heatwave|El/la/los/las ground es/está muy dry después el/la/los/las heatwave]].",
       "words": [
         "[[the|el/la/los/las]]",
         "[[The|El/la/los/las]]",
@@ -677,7 +677,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Be|Ser/estar]] [[careful|careful]], [[the|el/la/los/las]] [[roads|roads]] [[are|son/están]] [[very|muy]] [[wet|wet]].",
+      "correctSentence": "[[Be careful, the roads are very wet|Ser/estar careful, el/la/los/las roads son/están muy wet]].",
       "words": [
         "[[Be|Ser/estar]]",
         "[[careful|careful]],",
@@ -702,7 +702,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[weather|weather]] [[warning|warning]] [[is|es/está]] [[for|para/por]] [[heavy|heavy]] [[snow|snow]].",
+      "correctSentence": "[[The weather warning is for heavy snow|El/la/los/las weather warning es/está para/por heavy snow]].",
       "words": [
         "[[is|es/está]]",
         "[[warning|warning]]",

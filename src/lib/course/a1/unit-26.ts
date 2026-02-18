@@ -13,7 +13,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Gira|Gira]]) _______ [[right|right]] [[at|en]] [[the|el/la/los/las]] [[corner|corner]].",
+          "question": "([[Gira at the corner|Gira]]) _______ [[right|right en el/la/los/las corner]].",
           "options": [
             "[[is|es/está]]",
             "[[are|son/están]]",
@@ -39,7 +39,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Sigue|Sigue]]) _______ [[straight|straight]] [[on|en/sobre]].",
+          "question": "([[Sigue on|Sigue]]) _______ [[straight|straight en/sobre]].",
           "options": [
             "[[Go|Ir]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Cruza|Cruza]]) _______ [[the|el/la/los/las]] [[street|calle]].",
+          "question": "([[Cruza street|Cruza]]) _______ [[the|el/la/los/las calle]].",
           "options": [
             "[[is|es/está]]",
             "[[are|son/están]]",
@@ -91,7 +91,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[The|El/la/los/las]] [[bank|banco]] ([[be|ser/estar]]) _______ [[on|en/sobre]] [[the|el/la/los/las]] [[left|left]].",
+          "question": "[[The bank left|El/la/los/las banco]] ([[be the|ser/estar]]) _______ [[on|en/sobre el/la/los/las left]].",
           "options": [
             "[[is|es/está]]",
             "[[are|son/están]]",
@@ -115,7 +115,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Go|Ir]] [[past|past]] [[the|el/la/los/las]] [[supermarket|supermarket]].",
+      "correctSentence": "[[Go past the supermarket|Ir past el/la/los/las supermarket]].",
       "words": [
         "[[supermarket|supermarket]].",
         "[[Go|Ir]]",
@@ -137,7 +137,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Turn|Turn]] [[right|right]] [[at|en]] [[the|el/la/los/las]] [[traffic|traffic]] [[lights|lights]].",
+      "correctSentence": "[[Turn right at the traffic lights|Turn right en el/la/los/las traffic lights]].",
       "words": [
         "[[lights|lights]].",
         "[[traffic|traffic]]",
@@ -161,7 +161,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[library|biblioteca]] [[is|es/está]] [[on|en/sobre]] [[the|el/la/los/las]] [[second|second]] [[floor|floor]].",
+      "correctSentence": "[[The library is on the second floor|El/la/los/las biblioteca es/está en/sobre el/la/los/las second floor]].",
       "words": [
         "[[is|es/está]]",
         "[[second|second]]",
@@ -186,7 +186,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Cross|Cross]] [[the|el/la/los/las]] [[bridge|bridge]].",
+      "correctSentence": "[[Cross the bridge|Cross el/la/los/las bridge]].",
       "words": [
         "[[the|el/la/los/las]]",
         "[[Cross|Cross]]",
@@ -207,7 +207,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[The|El/la/los/las]] [[hospital|hospital]] [[is|es/está]] [[on|en/sobre]] [[your|tu/tus]] [[right|right]].",
+      "correctSentence": "[[The hospital is on your right|El/la/los/las hospital es/está en/sobre tu/tus right]].",
       "words": [
         "[[The|El/la/los/las]]",
         "[[hospital|hospital]]",

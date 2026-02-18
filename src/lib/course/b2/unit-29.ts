@@ -12,7 +12,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Autor de éxito",
       "instructions": "Ordena las palabras usando una cláusula relativa no definitoria con 'whose'.",
-      "correctSentence": "[[The|El]] [[author,|autor,]] [[whose|cuyo]] [[latest|último]] [[book|libro]] [[became|se convirtió]] [[a|en]] [[bestseller,|un éxito de ventas,]] [[is|está]] [[visiting|visitando]] [[our|nuestra]] [[city.|ciudad.]]",
+      "correctSentence": "[[The author, whose latest book became a bestseller, is visiting our city.|El autor, cuyo último libro se convirtió en un éxito de ventas, está visitando nuestra ciudad.]]",
       "words": [
         "[[author,|autor,]]",
         "[[book|libro]]",
@@ -43,7 +43,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Obra maestra restaurada",
       "instructions": "Ordena las palabras usando una cláusula relativa reducida (participio).",
-      "correctSentence": "[[The|La]] [[masterpiece,|obra maestra,]] [[painted|pintada]] [[in|en]] [[the|el]] [[eighteenth|siglo]] [[century,|dieciocho,]] [[was|fue]] [[restored|restaurada]] [[recently.|recientemente.]]",
+      "correctSentence": "[[The masterpiece, painted in the eighteenth century, was restored recently.|La obra maestra, pintada en el siglo dieciocho, fue restaurada recientemente.]]",
       "words": [
         "[[eighteenth|siglo]]",
         "[[masterpiece,|obra maestra,]]",
@@ -72,7 +72,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Trama fascinante",
       "instructions": "Ordena las palabras sobre literatura.",
-      "correctSentence": "[[A|Una]] [[gripping|trama]] [[plot|fascinante]] [[is|es]] [[essential|esencial]] [[for|para]] [[a|una]] [[successful|novela]] [[mystery|de misterio]] [[novel.|exitosa.]]",
+      "correctSentence": "[[A gripping plot is essential for a successful mystery novel.|Una trama fascinante es esencial para una novela de misterio exitosa.]]",
       "words": [
         "[[plot|fascinante]]",
         "[[mystery|de misterio]]",
@@ -101,7 +101,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Exposición de arte",
       "instructions": "Ordena las palabras usando una cláusula relativa con 'which'.",
-      "correctSentence": "[[The|La]] [[exhibition,|exposición,]] [[which|que]] [[features|presenta]] [[local|artistas]] [[artists,|locales,]] [[will|se]] [[open|abrirá]] [[on|el]] [[Friday.|viernes.]]",
+      "correctSentence": "[[The exhibition, which features local artists, will open on Friday.|La exposición, que presenta artistas locales, se abrirá el viernes.]]",
       "words": [
         "[[exhibition,|exposición,]]",
         "[[local|artistas]]",
@@ -130,7 +130,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "El protagonista",
       "instructions": "Ordena las palabras sobre el desarrollo de personajes.",
-      "correctSentence": "[[The|El]] [[protagonist|protagonista]] [[undergoes|experimenta]] [[a|una]] [[profound|transformación]] [[transformation|profunda]] [[throughout|a lo largo de]] [[the|la]] [[story.|historia.]]",
+      "correctSentence": "[[The protagonist undergoes a profound transformation throughout the story.|El protagonista experimenta una transformación profunda a lo largo de la historia.]]",
       "words": [
         "[[transformation|profunda]]",
         "[[undergoes|experimenta]]",
@@ -158,7 +158,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Becas de arte",
       "instructions": "Ordena las palabras usando una cláusula relativa reducida (gerundio).",
-      "correctSentence": "[[Students|Los estudiantes]] [[applying|que solicitan]] [[for|la]] [[the|beca]] [[scholarship|deben]] [[must|presentar]] [[submit|un]] [[a|portfolio.]] [[portfolio.|]]",
+      "correctSentence": "[[Students applying for the scholarship must submit a portfolio.|Los estudiantes que solicitan la beca deben presentar un portfolio. ]]",
       "words": [
         "[[applying|que solicitan]]",
         "[[portfolio.|]]",
@@ -186,7 +186,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Arte abstracto",
       "instructions": "Ordena las palabras sobre estilos artísticos.",
-      "correctSentence": "[[Abstract|El arte]] [[art|abstracto]] [[often|suele]] [[conveys|transmitir]] [[emotions|emociones]] [[through|a través de]] [[colors|colores]] [[and|y]] [[shapes.|formas.]]",
+      "correctSentence": "[[Abstract art often conveys emotions through colors and shapes.|El arte abstracto suele transmitir emociones a través de colores y formas.]]",
       "words": [
         "[[conveys|transmitir]]",
         "[[shapes.|formas.]]",
@@ -214,7 +214,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Tarde en el museo",
       "instructions": "Ordena las palabras usando 'where' en una cláusula relativa.",
-      "correctSentence": "[[The|El]] [[museum,|museo,]] [[where|donde]] [[I|pasé]] [[spent|la]] [[the|tarde,]] [[afternoon,|tiene]] [[has|una]] [[a|colección]] [[vast|vasta.]] [[collection.|]]",
+      "correctSentence": "[[The museum, where I spent the afternoon, has a vast collection.|El museo, donde pasé la tarde, tiene una colección vasta. ]]",
       "words": [
         "[[spent|la]]",
         "[[collection.|]]",
@@ -244,7 +244,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "La poesía",
       "instructions": "Ordena las palabras sobre géneros literarios.",
-      "correctSentence": "[[Poetry|La poesía]] [[allows|permite]] [[writers|a los escritores]] [[to|expresar]] [[express|ideas]] [[complex|complejas]] [[ideas|de]] [[in|manera]] [[a|concisa.]] [[concise|]] [[way.|]]",
+      "correctSentence": "[[Poetry allows writers to express complex ideas in a concise way.|La poesía permite a los escritores expresar ideas complejas de manera concisa.  ]]",
       "words": [
         "[[express|ideas]]",
         "[[way.|]]",
@@ -274,7 +274,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "La escultora",
       "instructions": "Ordena las palabras usando una cláusula de participio presente.",
-      "correctSentence": "[[The|La]] [[woman|mujer]] [[sitting|sentada]] [[over|allí]] [[there|es]] [[is|una]] [[a|famosa]] [[famous|escultora.]] [[sculptor.|]]",
+      "correctSentence": "[[The woman sitting over there is a famous sculptor.|La mujer sentada allí es una famosa escultora. ]]",
       "words": [
         "[[sitting|sentada]]",
         "[[sculptor.|]]",
@@ -302,7 +302,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Estilo artístico",
       "instructions": "Ordena las palabras sobre características del arte.",
-      "correctSentence": "[[His|Sus]] [[works|obras]] [[are|se]] [[characterized|caracterizan]] [[by|por]] [[their|sus]] [[intricate|detalles]] [[details|intrincados]] [[and|y]] [[vivid|colores]] [[colors.|vivos.]]",
+      "correctSentence": "[[His works are characterized by their intricate details and vivid colors.|Sus obras se caracterizan por sus detalles intrincados y colores vivos.]]",
       "words": [
         "[[characterized|caracterizan]]",
         "[[colors.|vivos.]]",
@@ -332,7 +332,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Libro de la biblioteca",
       "instructions": "Ordena las palabras usando 'of which' para posesión formal.",
-      "correctSentence": "[[The|El]] [[book,|libro,]] [[the|cuya]] [[cover|portada]] [[of|está]] [[which|rota,]] [[is|pertenece]] [[torn,|a]] [[belongs|la]] [[to|biblioteca.]] [[the|]] [[library.|]]",
+      "correctSentence": "[[The book, the cover of which is torn, belongs to the library.|El libro, cuya portada está rota, pertenece a la biblioteca.  ]]",
       "words": [
         "[[cover|portada]]",
         "[[library.|]]",
@@ -363,7 +363,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "El dramaturgo",
       "instructions": "Ordena las palabras sobre teatro y crítica.",
-      "correctSentence": "[[Many|Muchos]] [[critics|críticos]] [[praised|elogiaron]] [[the|al]] [[playwright|dramaturgo]] [[for|por]] [[his|su]] [[innovative|enfoque]] [[approach|innovador]] [[to|del]] [[drama.|drama.]]",
+      "correctSentence": "[[Many critics praised the playwright for his innovative approach to drama.|Muchos críticos elogiaron al dramaturgo por su enfoque innovador del drama.]]",
       "words": [
         "[[praised|elogiaron]]",
         "[[drama.|drama.]]",
@@ -393,7 +393,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Escena inesperada",
       "instructions": "Ordena las palabras usando 'why' en una cláusula relativa.",
-      "correctSentence": "[[The|La]] [[reason|razón]] [[why|por]] [[he|la]] [[left|que]] [[the|abandonó]] [[stage|el]] [[so|escenario]] [[suddenly|tan]] [[is|repentinamente]] [[still|sigue]] [[unknown.|siendo desconocida.]]",
+      "correctSentence": "[[The reason why he left the stage so suddenly is still unknown.|La razón por la que abandonó el escenario tan repentinamente sigue siendo desconocida.]]",
       "words": [
         "[[left|que]]",
         "[[unknown.|siendo desconocida.]]",
@@ -424,7 +424,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Literatura contemporánea",
       "instructions": "Ordena las palabras sobre literatura actual.",
-      "correctSentence": "[[Contemporary|La literatura]] [[literature|contemporánea]] [[reflects|refleja]] [[the|la]] [[diversity|diversidad]] [[of|de]] [[the|la]] [[modern|sociedad]] [[society.|moderna.]]",
+      "correctSentence": "[[Contemporary literature reflects the diversity of the modern society.|La literatura contemporánea refleja la diversidad de la sociedad moderna.]]",
       "words": [
         "[[reflects|refleja]]",
         "[[society.|moderna.]]",
@@ -452,7 +452,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Visita a la galería",
       "instructions": "Ordena las palabras usando una cláusula de participio pasado.",
-      "correctSentence": "[[Most|La mayoría]] [[of|de]] [[the|los]] [[students|estudiantes]] [[invited|invitados]] [[to|a]] [[the|la]] [[gallery|galería]] [[were|quedaron]] [[impressed.|impresionados.]]",
+      "correctSentence": "[[Most of the students invited to the gallery were impressed.|La mayoría de los estudiantes invitados a la galería quedaron impresionados.]]",
       "words": [
         "[[invited|invitados]]",
         "[[impressed.|impresionados.]]",
@@ -481,7 +481,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Adaptación al cine",
       "instructions": "Ordena las palabras sobre cine y literatura.",
-      "correctSentence": "[[The|La]] [[novel|novela]] [[was|fue]] [[adapted|adaptada]] [[into|al]] [[a|cine]] [[movie|que]] [[that|ganó]] [[won|varios]] [[several|premios.]] [[awards.|]]",
+      "correctSentence": "[[The novel was adapted into a movie that won several awards.|La novela fue adaptada al cine que ganó varios premios. ]]",
       "words": [
         "[[adapted|adaptada]]",
         "[[awards.|]]",
@@ -511,7 +511,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pueblo pintoresco",
       "instructions": "Ordena las palabras usando 'in which' en lugar de 'where'.",
-      "correctSentence": "[[The|El]] [[town|pueblo]] [[in|en]] [[which|el]] [[the|que]] [[festival|se]] [[is|celebra]] [[held|el]] [[is|festival]] [[very|es]] [[picturesque.|muy pintoresco.]]",
+      "correctSentence": "[[The town in which the festival is held is very picturesque.|El pueblo en el que se celebra el festival es muy pintoresco.]]",
       "words": [
         "[[which|el]]",
         "[[picturesque.|muy pintoresco.]]",
@@ -541,7 +541,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "El ensayo",
       "instructions": "Ordena las palabras sobre artes escénicas.",
-      "correctSentence": "[[A|Un]] [[rehearsal|ensayo]] [[is|es]] [[a|una]] [[practice|sesión]] [[session|de]] [[for|práctica]] [[a|para]] [[play|una]] [[or|obra]] [[concert.|o concierto.]]",
+      "correctSentence": "[[A rehearsal is a practice session for a play or concert.|Un ensayo es una sesión de práctica para una obra o concierto.]]",
       "words": [
         "[[practice|sesión]]",
         "[[concert.|o concierto.]]",
@@ -571,7 +571,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Libro agotado",
       "instructions": "Ordena las palabras usando una cláusula de participio pasado.",
-      "correctSentence": "[[The|El]] [[book|libro]] [[published|publicado]] [[last|el]] [[month|mes]] [[has|pasado]] [[already|ya]] [[sold|se]] [[out.|ha agotado.]]",
+      "correctSentence": "[[The book published last month has already sold out.|El libro publicado el mes pasado ya se ha agotado.]]",
       "words": [
         "[[published|publicado]]",
         "[[out.|ha agotado.]]",
@@ -599,7 +599,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Arte callejero",
       "instructions": "Ordena las palabras sobre arte urbano.",
-      "correctSentence": "[[Street|El arte]] [[art|callejero]] [[provides|proporciona]] [[a|una]] [[platform|plataforma]] [[for|para]] [[social|el comentario]] [[and|social]] [[political|y]] [[commentary.|político.]]",
+      "correctSentence": "[[Street art provides a platform for social and political commentary.|El arte callejero proporciona una plataforma para el comentario social y político.]]",
       "words": [
         "[[provides|proporciona]]",
         "[[commentary.|político.]]",
@@ -628,7 +628,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "El curador",
       "instructions": "Ordena las palabras usando una estructura formal con 'to whom'.",
-      "correctSentence": "[[The|El]] [[man|hombre]] [[to|con]] [[whom|el]] [[she|que]] [[was|ella]] [[speaking|estaba]] [[is|hablando]] [[a|es]] [[renowned|un]] [[curator.|renombrado curador.]]",
+      "correctSentence": "[[The man to whom she was speaking is a renowned curator.|El hombre con el que ella estaba hablando es un renombrado curador.]]",
       "words": [
         "[[whom|el]]",
         "[[curator.|renombrado curador.]]",
@@ -658,7 +658,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Clímax de la trilogía",
       "instructions": "Ordena las palabras sobre estructuras narrativas.",
-      "correctSentence": "[[The|La]] [[trilogy|trilogía]] [[reached|alcanzó]] [[its|su]] [[climax|punto]] [[in|máximo]] [[the|en]] [[final|el]] [[volume.|último volumen.]]",
+      "correctSentence": "[[The trilogy reached its climax in the final volume.|La trilogía alcanzó su punto máximo en el último volumen.]]",
       "words": [
         "[[reached|alcanzó]]",
         "[[volume.|último volumen.]]",
@@ -686,7 +686,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Lugar de inspiración",
       "instructions": "Ordena las palabras usando 'where' en una cláusula relativa definitoria.",
-      "correctSentence": "[[This|Este]] [[is|es]] [[the|el]] [[spot|lugar]] [[where|donde]] [[the|el]] [[artist|artista]] [[used|solía]] [[to|pintar.]] [[paint.|]]",
+      "correctSentence": "[[This is the spot where the artist used to paint.|Este es el lugar donde el artista solía pintar. ]]",
       "words": [
         "[[artist|artista]]",
         "[[paint.|]]",
@@ -714,7 +714,7 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "content": {
       "title": "Críticas entusiastas",
       "instructions": "Ordena las palabras sobre éxito literario.",
-      "correctSentence": "[[Her|Su]] [[latest|última]] [[collection|colección]] [[of|de]] [[short|relatos]] [[stories|cortos]] [[received|recibió]] [[rave|críticas]] [[reviews.|entusiastas.]]",
+      "correctSentence": "[[Her latest collection of short stories received rave reviews.|Su última colección de relatos cortos recibió críticas entusiastas.]]",
       "words": [
         "[[collection|colección]]",
         "[[reviews.|entusiastas.]]",

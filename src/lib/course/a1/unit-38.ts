@@ -13,7 +13,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Puedo|Puedo]]) _______ [[I|Yo]] [[come|venir]] [[in|en]]?",
+          "question": "([[Puedo come in|Puedo]]) _______ [[I|Yo venir en]]?",
           "options": [
             "[[May|May]]",
             "[[is|es/está]]",
@@ -39,7 +39,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Puedo|Puedo]]) _______ [[I|Yo]] [[use|use]] [[your|tu/tus]] [[pen|bolígrafo/pluma]]?",
+          "question": "([[Puedo use your pen|Puedo]]) _______ [[I|Yo use tu/tus bolígrafo/pluma]]?",
           "options": [
             "[[is|es/está]]",
             "[[are|son/están]]",
@@ -65,7 +65,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "([[Por|Por]] [[favor|favor]]) [[_______|_______]], [[help|ayudar]] [[me|me/mí]].",
+          "question": "([[Por favor, help|Por favor]]) [[_______ me|_______, ayudar me/mí]].",
           "options": [
             "[[are|son/están]]",
             "[[is|es/está]]",
@@ -91,7 +91,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[No|No]], [[you|tú/usted]] ([[no|no]] [[-|-]] [[poder|poder]]) [[_______|_______]].",
+          "question": "[[No -, you poder|No, tú/usted]] ([[no|no - poder]]) [[_______|_______]].",
           "options": [
             "[[are|son/están]]",
             "[[can't|can't]]",
@@ -115,7 +115,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Can|Poder]] [[I|Yo]] [[have|tener/haber]] [[a|un/una]] [[glass|glass]] [[of|de]] [[water|agua]], [[please|por favor]]?",
+      "correctSentence": "[[Can I, please have a glass of water|Poder Yo tener/haber un/una glass de agua, por favor]]?",
       "words": [
         "[[I|Yo]]",
         "[[Can|Poder]]",
@@ -141,7 +141,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[May|May]] [[I|Yo]] [[ask|ask]] [[a|un/una]] [[question|question]]?",
+      "correctSentence": "[[May I ask a question|May Yo ask un/una question]]?",
       "words": [
         "[[May|May]]",
         "[[I|Yo]]",
@@ -164,7 +164,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I'm|I'm]] [[sorry|lo siento]], [[you|tú/usted]] [[can't|can't]] [[smoke|smoke]] [[here|aquí]].",
+      "correctSentence": "[[I'm sorry, you can't smoke here|I'm lo siento, tú/usted can't smoke aquí]].",
       "words": [
         "[[smoke|smoke]]",
         "[[here|aquí]].",
@@ -188,7 +188,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Can|Poder]] [[I|Yo]] [[borrow|borrow]] [[your|tu/tus]] [[book|libro]]?",
+      "correctSentence": "[[Can I borrow your book|Poder Yo borrow tu/tus libro]]?",
       "words": [
         "[[your|tu/tus]]",
         "[[Can|Poder]]",
@@ -211,7 +211,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Go|Ir]] [[ahead|ahead]] [[and|and]] [[start|start]].",
+      "correctSentence": "[[Go ahead and start|Ir ahead and start]].",
       "words": [
         "[[Go|Ir]]",
         "[[start|start]].",

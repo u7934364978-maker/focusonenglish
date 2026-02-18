@@ -12,7 +12,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Especies amenazadas",
       "instructions": "Ordena las palabras usando la voz pasiva continua.",
-      "correctSentence": "[[Thousands|Miles]] [[of|de]] [[species|especies]] [[are|están]] [[being|siendo]] [[threatened|amenazadas]] [[by|por]] [[habitat|la destrucción]] [[destruction.|del hábitat.]]",
+      "correctSentence": "[[Thousands of species are being threatened by habitat destruction.|Miles de especies están siendo amenazadas por la destrucción del hábitat.]]",
       "words": [
         "[[being|siendo]]",
         "[[destruction.|del hábitat.]]",
@@ -40,7 +40,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Plantas por descubrir",
       "instructions": "Ordena las palabras usando un verbo de reporte pasivo.",
-      "correctSentence": "[[It|Se]] [[is|cree]] [[believed|que]] [[that|muchas]] [[many|plantas]] [[plants|aún]] [[have|no]] [[yet|han]] [[to|sido]] [[be|descubiertas]] [[discovered|en]] [[in|la]] [[the|selva]] [[rainforest.|tropical.]]",
+      "correctSentence": "[[It is believed that many plants have yet to be discovered in the rainforest.|Se cree que muchas plantas aún no han sido descubiertas en la selva tropical.]]",
       "words": [
         "[[yet|han]]",
         "[[many|muchas]]",
@@ -73,7 +73,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ecosistemas sensibles",
       "instructions": "Ordena las palabras sobre el medio ambiente.",
-      "correctSentence": "[[The|El]] [[ecosystem|ecosistema]] [[is|es]] [[highly|altamente]] [[sensitive|sensible]] [[to|a]] [[changes|los cambios]] [[in|de]] [[temperature.|temperatura.]]",
+      "correctSentence": "[[The ecosystem is highly sensitive to changes in temperature.|El ecosistema es altamente sensible a los cambios de temperatura.]]",
       "words": [
         "[[sensitive|sensible]]",
         "[[changes|los cambios]]",
@@ -101,7 +101,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Leyes de protección",
       "instructions": "Ordena las palabras usando la voz pasiva con modales (must be).",
-      "correctSentence": "[[Strict|Se]] [[laws|deben]] [[must|aplicar]] [[be|leyes]] [[enforced|estrictas]] [[to|para]] [[protect|proteger]] [[endangered|la fauna]] [[wildlife.|en peligro.]]",
+      "correctSentence": "[[Strict laws must be enforced to protect endangered wildlife.|Se deben aplicar leyes estrictas para proteger la fauna en peligro.]]",
       "words": [
         "[[must|aplicar]]",
         "[[protect|proteger]]",
@@ -129,7 +129,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pérdida de biodiversidad",
       "instructions": "Ordena las palabras sobre problemas ambientales.",
-      "correctSentence": "[[Deforestation|La deforestación]] [[has|ha]] [[led|llevado]] [[to|a]] [[a|una]] [[dramatic|pérdida]] [[loss|dramática]] [[of|de]] [[biodiversity.|biodiversidad.]]",
+      "correctSentence": "[[Deforestation has led to a dramatic loss of biodiversity.|La deforestación ha llevado a una pérdida dramática de biodiversidad.]]",
       "words": [
         "[[led|llevado]]",
         "[[dramatic|pérdida]]",
@@ -157,7 +157,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Especies extintas",
       "instructions": "Ordena las palabras usando la estructura personal de reporte pasivo.",
-      "correctSentence": "[[The|Se]] [[animal|cree]] [[is|que]] [[thought|el]] [[to|animal]] [[have|se]] [[gone|extinguió]] [[extinct|hace]] [[centuries|siglos.]] [[ago.|]]",
+      "correctSentence": "[[The animal is thought to have gone extinct centuries ago.|Se cree que el animal se extinguió hace siglos. ]]",
       "words": [
         "[[thought|el]]",
         "[[extinct|hace]]",
@@ -186,7 +186,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Conservacionistas",
       "instructions": "Ordena las palabras sobre el cuidado de la naturaleza.",
-      "correctSentence": "[[Conservationists|Los conservacionistas]] [[are|están]] [[working|trabajando]] [[hard|duro]] [[to|para]] [[restore|restaurar]] [[the|el]] [[natural|hábitat]] [[habitat.|natural.]]",
+      "correctSentence": "[[Conservationists are working hard to restore the natural habitat.|Los conservacionistas están trabajando duro para restaurar el hábitat natural.]]",
       "words": [
         "[[are|están]]",
         "[[habitat.|natural.]]",
@@ -214,7 +214,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Contaminantes",
       "instructions": "Ordena las palabras en voz pasiva continua.",
-      "correctSentence": "[[Pollutants|Los contaminantes]] [[are|están]] [[being|siendo]] [[released|vertidos]] [[into|al]] [[the|río]] [[river|por]] [[by|la]] [[the|fábrica.]] [[factory.|]]",
+      "correctSentence": "[[Pollutants are being released into the river by the factory.|Los contaminantes están siendo vertidos al río por la fábrica. ]]",
       "words": [
         "[[being|siendo]]",
         "[[factory.|]]",
@@ -243,7 +243,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Parques nacionales",
       "instructions": "Ordena las palabras sobre el cuidado del entorno.",
-      "correctSentence": "[[The|La]] [[preservation|preservación]] [[of|de]] [[national|los parques]] [[parks|nacionales]] [[is|es]] [[essential|esencial]] [[for|para]] [[future|las futuras]] [[generations.|generaciones.]]",
+      "correctSentence": "[[The preservation of national parks is essential for future generations.|La preservación de los parques nacionales es esencial para las futuras generaciones.]]",
       "words": [
         "[[preservation|preservación]]",
         "[[future|las futuras]]",
@@ -272,7 +272,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Comunicación de las ballenas",
       "instructions": "Ordena las palabras usando la pasiva de reporte (are said to).",
-      "correctSentence": "[[Whales|Se]] [[are|dice]] [[said|que]] [[to|las]] [[communicate|ballenas]] [[with|se]] [[each|comunican]] [[other|entre]] [[over|sí]] [[long|a]] [[distances.|largas distancias.]]",
+      "correctSentence": "[[Whales are said to communicate with each other over long distances.|Se dice que las ballenas se comunican entre sí a largas distancias.]]",
       "words": [
         "[[said|que]]",
         "[[distances.|largas distancias.]]",
@@ -302,7 +302,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Turismo sostenible",
       "instructions": "Ordena las palabras sobre viajes responsables.",
-      "correctSentence": "[[Sustainable|El turismo]] [[tourism|sostenible]] [[helps|ayuda]] [[to|a]] [[minimize|minimizar]] [[the|el]] [[impact|impacto]] [[on|en]] [[fragile|ecosistemas]] [[ecosystems.|frágiles.]]",
+      "correctSentence": "[[Sustainable tourism helps to minimize the impact on fragile ecosystems.|El turismo sostenible ayuda a minimizar el impacto en ecosistemas frágiles.]]",
       "words": [
         "[[minimize|minimizar]]",
         "[[fragile|ecosistemas]]",
@@ -331,7 +331,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Proyecto interrumpido",
       "instructions": "Ordena las palabras usando la pasiva de pasado continuo.",
-      "correctSentence": "[[The|El]] [[project|proyecto]] [[was|estaba]] [[being|siendo]] [[completed|finalizado]] [[when|cuando]] [[the|se]] [[budget|recortó]] [[was|el]] [[cut.|presupuesto.]]",
+      "correctSentence": "[[The project was being completed when the budget was cut.|El proyecto estaba siendo finalizado cuando se recortó el presupuesto.]]",
       "words": [
         "[[being|siendo]]",
         "[[cut.|presupuesto.]]",
@@ -360,7 +360,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Calentamiento global",
       "instructions": "Ordena las palabras sobre el cambio climático.",
-      "correctSentence": "[[Global|El calentamiento]] [[warming|global]] [[is|está]] [[causing|haciendo]] [[the|que]] [[polar|los casquetes]] [[ice|polares]] [[caps|se]] [[to|derritan]] [[melt|a]] [[at|un]] [[an|ritmo]] [[alarming|alarmante.]] [[rate.|]]",
+      "correctSentence": "[[Global warming is causing the polar ice caps to melt at an alarming rate.|El calentamiento global está haciendo que los casquetes polares se derritan a un ritmo alarmante. ]]",
       "words": [
         "[[ice|polares]]",
         "[[Global|El calentamiento]]",
@@ -393,7 +393,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Migración de aves",
       "instructions": "Ordena las palabras con la pasiva de expectativa (are expected to).",
-      "correctSentence": "[[These|Se]] [[rare|espera]] [[birds|que]] [[are|estas]] [[expected|aves]] [[to|raras]] [[migrate|migren]] [[south|al]] [[in|sur]] [[early|a]] [[October.|principios de octubre.]]",
+      "correctSentence": "[[These rare birds are expected to migrate south in early October.|Se espera que estas aves raras migren al sur a principios de octubre.]]",
       "words": [
         "[[expected|aves]]",
         "[[October.|principios de octubre.]]",
@@ -423,7 +423,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Recursos naturales",
       "instructions": "Ordena las palabras usando la pasiva modal 'should be used'.",
-      "correctSentence": "[[Natural|Los recursos]] [[resources|naturales]] [[should|deben]] [[be|usarse]] [[used|responsablemente]] [[responsibly|para]] [[to|evitar]] [[avoid|su]] [[depletion.|agotamiento.]]",
+      "correctSentence": "[[Natural resources should be used responsibly to avoid depletion.|Los recursos naturales deben usarse responsablemente para evitar su agotamiento.]]",
       "words": [
         "[[be|usarse]]",
         "[[depletion.|agotamiento.]]",
@@ -451,7 +451,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Incendio forestal",
       "instructions": "Ordena las palabras usando la pasiva de pasado perfecto.",
-      "correctSentence": "[[The|El]] [[forest|bosque]] [[had|había]] [[been|sido]] [[destroyed|destruido]] [[by|por]] [[a|un]] [[wildfire|incendio]] [[before|antes]] [[the|de que]] [[rain|llegara]] [[arrived.|la lluvia.]]",
+      "correctSentence": "[[The forest had been destroyed by a wildfire before the rain arrived.|El bosque había sido destruido por un incendio antes de que llegara la lluvia.]]",
       "words": [
         "[[been|sido]]",
         "[[arrived.|la lluvia.]]",
@@ -482,7 +482,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sobrepesca",
       "instructions": "Ordena las palabras sobre problemas marinos.",
-      "correctSentence": "[[Overfishing|La sobrepesca]] [[poses|representa]] [[a|una]] [[significant|amenaza]] [[threat|significativa]] [[to|para]] [[marine|los ecosistemas]] [[ecosystems|marinos]] [[worldwide.|en todo el mundo.]]",
+      "correctSentence": "[[Overfishing poses a significant threat to marine ecosystems worldwide.|La sobrepesca representa una amenaza significativa para los ecosistemas marinos en todo el mundo.]]",
       "words": [
         "[[threat|significativa]]",
         "[[Overfishing|La sobrepesca]]",
@@ -510,7 +510,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Emisiones de carbono",
       "instructions": "Ordena las palabras usando la pasiva de reporte personal.",
-      "correctSentence": "[[New|Se]] [[measures|cree]] [[are|que]] [[thought|son]] [[to|necesarias]] [[be|nuevas]] [[necessary|medidas]] [[to|para]] [[combat|combatir]] [[carbon|las emisiones]] [[emissions.|de carbono.]]",
+      "correctSentence": "[[New measures are thought to be necessary to combat carbon emissions.|Se cree que son necesarias nuevas medidas para combatir las emisiones de carbono.]]",
       "words": [
         "[[thought|son]]",
         "[[emissions.|de carbono.]]",
@@ -539,7 +539,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Agricultura orgánica",
       "instructions": "Ordena las palabras sobre agricultura sostenible.",
-      "correctSentence": "[[Organic|La agricultura]] [[farming|orgánica]] [[avoids|evita]] [[the|el]] [[use|uso]] [[of|de]] [[synthetic|pesticidas]] [[pesticides|sintéticos]] [[and|y]] [[fertilizers.|fertilizantes.]]",
+      "correctSentence": "[[Organic farming avoids the use of synthetic pesticides and fertilizers.|La agricultura orgánica evita el uso de pesticidas sintéticos y fertilizantes.]]",
       "words": [
         "[[pesticides|sintéticos]]",
         "[[Organic|La agricultura]]",
@@ -568,7 +568,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reforestación",
       "instructions": "Ordena las palabras usando la pasiva de futuro 'will be replanted'.",
-      "correctSentence": "[[Large|Grandes]] [[areas|áreas]] [[of|de]] [[the|la]] [[rainforest|selva]] [[will|serán]] [[be|reforestadas]] [[replanted|con]] [[with|árboles]] [[native|nativos.]] [[trees.|]]",
+      "correctSentence": "[[Large areas of the rainforest will be replanted with native trees.|Grandes áreas de la selva serán reforestadas con árboles nativos. ]]",
       "words": [
         "[[be|reforestadas]]",
         "[[trees.|]]",
@@ -598,7 +598,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Conciencia ecológica",
       "instructions": "Ordena las palabras sobre valores sociales.",
-      "correctSentence": "[[Ecological|La conciencia]] [[awareness|ecológica]] [[has|ha]] [[grown|crecido]] [[among|entre]] [[the|los]] [[youth|jóvenes]] [[in|en]] [[recent|las últimas]] [[decades.|décadas.]]",
+      "correctSentence": "[[Ecological awareness has grown among the youth in recent decades.|La conciencia ecológica ha crecido entre los jóvenes en las últimas décadas.]]",
       "words": [
         "[[awareness|ecológica]]",
         "[[recent|las últimas]]",
@@ -627,7 +627,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Alimentación en el zoo",
       "instructions": "Ordena las palabras usando la pasiva continua en pasado.",
-      "correctSentence": "[[The|Los]] [[animals|animales]] [[were|estaban]] [[being|siendo]] [[fed|alimentados]] [[by|por]] [[the|los]] [[zookeepers|cuidadores]] [[during|durante]] [[the|el]] [[tour.|recorrido.]]",
+      "correctSentence": "[[The animals were being fed by the zookeepers during the tour.|Los animales estaban siendo alimentados por los cuidadores durante el recorrido.]]",
       "words": [
         "[[being|siendo]]",
         "[[tour.|recorrido.]]",
@@ -657,7 +657,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Erosión costera",
       "instructions": "Ordena las palabras usando la voz pasiva continua.",
-      "correctSentence": "[[Erosion|La erosión]] [[of|de]] [[the|la]] [[coastline|costa]] [[is|está]] [[being|siendo]] [[accelerated|acelerada]] [[by|por]] [[the|el]] [[rising|ascenso]] [[sea|del nivel]] [[levels.|del mar.]]",
+      "correctSentence": "[[Erosion of the coastline is being accelerated by the rising sea levels.|La erosión de la costa está siendo acelerada por el ascenso del nivel del mar.]]",
       "words": [
         "[[being|siendo]]",
         "[[levels.|del mar.]]",
@@ -688,7 +688,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Nueva política ambiental",
       "instructions": "Ordena las palabras usando la pasiva de reporte impersonal.",
-      "correctSentence": "[[It|Se]] [[is|entiende]] [[understood|que]] [[that|la]] [[the|nueva]] [[new|política]] [[policy|beneficiará]] [[will|a]] [[benefit|la]] [[local|fauna]] [[wildlife.|local.]]",
+      "correctSentence": "[[It is understood that the new policy will benefit local wildlife.|Se entiende que la nueva política beneficiará a la fauna local.]]",
       "words": [
         "[[understood|que]]",
         "[[wildlife.|local.]]",
@@ -718,7 +718,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Especies migratorias",
       "instructions": "Ordena las palabras sobre el comportamiento animal.",
-      "correctSentence": "[[Many|Muchas]] [[migratory|especies]] [[species|migratorias]] [[rely|dependen]] [[on|de]] [[specific|hábitats]] [[habitats|específicos]] [[to|para]] [[survive|sobrevivir]] [[their|a sus]] [[journeys.|viajes.]]",
+      "correctSentence": "[[Many migratory species rely on specific habitats to survive their journeys.|Muchas especies migratorias dependen de hábitats específicos para sobrevivir a sus viajes.]]",
       "words": [
         "[[species|migratorias]]",
         "[[survive|sobrevivir]]",
