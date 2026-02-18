@@ -369,6 +369,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "content": {
       "title": "Estado civil",
       "instructions": "Elige el adjetivo opuesto a 'single'.",
+      "question": "[[My|Mi]] [[sister|hermana]] [[is|está]] [[not|no]] [[single|soltera]]. [[She|Ella]] [[is|está]] (____).",
       "options": ["[[single|soltera]]", "[[married|casada]]", "[[happy|feliz]]"],
       "correctAnswer": 1,
       "explanation": "'Married' significa casado/a."
@@ -685,9 +686,9 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "transcript": "[[A|Un]] [[nephew|sobrino]] [[is|es]] [[a|un]] [[boy|niño]].",
     "content": {
       "title": "Género",
-      "instructions": "Elige la opción correcta.",
+      "instructions": "Elige la palabra correcta.",
       "question": "[[A|Un]] [[nephew|sobrino]] [[is|es]] [[a|un]] (____).",
-      "options": ["[[nephew / boy|sobrino / niño]]", "[[niece / boy|sobrina / niño]]", "[[nephew / girl|sobrino / niña]]"],
+      "options": ["[[boy|niño]]", "[[girl|niña]]", "[[baby|bebé]]"],
       "correctAnswer": 0,
       "explanation": "Nephew es masculino, niece es femenino."
     },
