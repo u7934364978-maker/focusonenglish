@@ -2,38 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_45_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u45-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Seasons",
-    "difficulty": "easy",
-    "transcript": "Spring. Summer. Autumn. Winter",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Spring|Primavera]]",
-          "back": "Primavera"
-        },
-        {
-          "front": "[[Summer|Verano]]",
-          "back": "Verano"
-        },
-        {
-          "front": "[[Autumn|Otoño]]",
-          "back": "Otoño"
-        },
-        {
-          "front": "[[Winter|Invierno]]",
-          "back": "Invierno"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-45/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u45-e2",
     "type": "multiple-choice",
     "level": "A1",

@@ -2,48 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_14_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u14-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Frequency Adverbs",
-    "difficulty": "easy",
-    "transcript": "Always. Usually. Often. Sometimes. Hardly ever. Never.",
-    "content": {
-      "title": "Vocabulario: Frecuencia",
-      "instructions": "Aprende los adverbios de frecuencia más comunes.",
-      "items": [
-        { "front": "[[Always|Siempre (100%)]]", "back": "Siempre (100%)" },
-        { "front": "[[Usually|Normalmente (80-90%)]]", "back": "Normalmente (80-90%)" },
-        { "front": "[[Often|A menudo (60-70%)]]", "back": "A menudo (60-70%)" },
-        { "front": "[[Sometimes|A veces (50%)]]", "back": "A veces (50%)" },
-        { "front": "[[Hardly ever|Casi nunca (10-20%)]]", "back": "Casi nunca (10-20%)" },
-        { "front": "[[Never|Nunca (0%)]]", "back": "Nunca (0%)" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-14/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u14-e2",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Frequency Expressions",
-    "difficulty": "easy",
-    "transcript": "Every day. Once a week. Twice a month. Three times a year.",
-    "content": {
-      "title": "Expresiones de Frecuencia",
-      "instructions": "Otras formas de decir con qué frecuencia haces algo.",
-      "items": [
-        { "front": "[[Every day|Todos los días]]", "back": "Todos los días" },
-        { "front": "[[Once a week|Una vez a la semana]]", "back": "Una vez a la semana" },
-        { "front": "[[Twice a month|Dos veces al mes]]", "back": "Dos veces al mes" },
-        { "front": "[[Three times a year|Tres veces al año]]", "back": "Tres veces al año" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-14/e2.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u14-e3",
     "type": "multiple-choice",
     "level": "A1",

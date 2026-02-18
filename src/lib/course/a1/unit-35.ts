@@ -2,46 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_35_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u35-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Free Time Activities",
-    "difficulty": "easy",
-    "transcript": "Watch TV. Listen to music. Go out. Meet friends. Play games. Surfing the internet",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Watch TV|Ver la tele]]",
-          "back": "Ver la tele"
-        },
-        {
-          "front": "[[Listen to music|Escuchar música]]",
-          "back": "Escuchar música"
-        },
-        {
-          "front": "[[Go out|Salir]]",
-          "back": "Salir"
-        },
-        {
-          "front": "[[Meet friends|Quedar con amigos]]",
-          "back": "Quedar con amigos"
-        },
-        {
-          "front": "[[Play games|Jugar a juegos]]",
-          "back": "Jugar a juegos"
-        },
-        {
-          "front": "[[Surfing the internet|Navegar por internet]]",
-          "back": "Navegar por internet"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-35/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u35-e2",
     "type": "multiple-choice",
     "level": "A1",

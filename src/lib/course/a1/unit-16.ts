@@ -2,104 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_16_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u16-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Food Categories",
-    "difficulty": "easy",
-    "transcript": "Fruit. Vegetables. Meat. Dairy. Drinks. Snacks. Bread. Pasta. Rice. Eggs.",
-    "content": {
-      "title": "Categorías de Alimentos",
-      "instructions": "Aprende las categorías básicas de comida.",
-      "items": [
-        { "front": "[[Fruit|Fruta]]", "back": "Fruta" },
-        { "front": "[[Vegetables|Verduras]]", "back": "Verduras" },
-        { "front": "[[Meat|Carne]]", "back": "Carne" },
-        { "front": "[[Dairy|Lácteos]]", "back": "Lácteos" },
-        { "front": "[[Drinks|Bebidas]]", "back": "Bebidas" },
-        { "front": "[[Snacks|Meriendas/Aperitivos]]", "back": "Aperitivos" },
-        { "front": "[[Bread|Pan]]", "back": "Pan" },
-        { "front": "[[Pasta|Pasta]]", "back": "Pasta" },
-        { "front": "[[Rice|Arroz]]", "back": "Arroz" },
-        { "front": "[[Eggs|Huevos]]", "back": "Huevos" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-16/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u16-e2",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Common Fruits",
-    "difficulty": "easy",
-    "transcript": "Apple. Banana. Orange. Strawberry. Grapes. Pineapple. Watermelon. Lemon.",
-    "content": {
-      "title": "Frutas Comunes",
-      "instructions": "Nombres de frutas populares.",
-      "items": [
-        { "front": "[[Apple|Manzana]]", "back": "Manzana" },
-        { "front": "[[Banana|Plátano]]", "back": "Plátano" },
-        { "front": "[[Orange|Naranja]]", "back": "Naranja" },
-        { "front": "[[Strawberry|Fresa]]", "back": "Fresa" },
-        { "front": "[[Grapes|Uvas]]", "back": "Uvas" },
-        { "front": "[[Pineapple|Piña]]", "back": "Piña" },
-        { "front": "[[Watermelon|Sandía]]", "back": "Sandía" },
-        { "front": "[[Lemon|Limón]]", "back": "Limón" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-16/e2.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u16-e3",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Common Vegetables",
-    "difficulty": "easy",
-    "transcript": "Tomato. Potato. Onion. Carrot. Lettuce. Cucumber. Broccoli. Garlic.",
-    "content": {
-      "title": "Verduras Comunes",
-      "instructions": "Nombres de verduras y vegetales.",
-      "items": [
-        { "front": "[[Tomato|Tomate]]", "back": "Tomate" },
-        { "front": "[[Potato|Patata]]", "back": "Patata" },
-        { "front": "[[Onion|Cebolla]]", "back": "Cebolla" },
-        { "front": "[[Carrot|Zanahoria]]", "back": "Zanahoria" },
-        { "front": "[[Lettuce|Lechuga]]", "back": "Lechuga" },
-        { "front": "[[Cucumber|Pepino]]", "back": "Pepino" },
-        { "front": "[[Broccoli|Brócoli]]", "back": "Brócoli" },
-        { "front": "[[Garlic|Ajo]]", "back": "Ajo" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-16/e3.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u16-e4",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Drinks",
-    "difficulty": "easy",
-    "transcript": "Water. Milk. Coffee. Tea. Juice. Beer. Wine. Soda.",
-    "content": {
-      "title": "Bebidas",
-      "instructions": "Aprende nombres de líquidos comunes.",
-      "items": [
-        { "front": "[[Water|Agua]]", "back": "Agua" },
-        { "front": "[[Milk|Leche]]", "back": "Leche" },
-        { "front": "[[Coffee|Café]]", "back": "Café" },
-        { "front": "[[Tea|Té]]", "back": "Té" },
-        { "front": "[[Juice|Zumo]]", "back": "Zumo" },
-        { "front": "[[Beer|Cerveza]]", "back": "Cerveza" },
-        { "front": "[[Wine|Vino]]", "back": "Vino" },
-        { "front": "[[Soda|Refresco]]", "back": "Refresco" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-16/e4.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u16-e5",
     "type": "multiple-choice",
     "level": "A1",
@@ -259,27 +161,6 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-16/e12.mp3",
     "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u16-e13",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Meals",
-    "difficulty": "easy",
-    "transcript": "Breakfast. Lunch. Dinner. Snack. Dessert.",
-    "content": {
-      "title": "Comidas del Día",
-      "instructions": "Momentos para comer.",
-      "items": [
-        { "front": "[[Breakfast|Desayuno]]", "back": "Desayuno" },
-        { "front": "[[Lunch|Almuerzo/Comida]]", "back": "Almuerzo" },
-        { "front": "[[Dinner|Cena]]", "back": "Cena" },
-        { "front": "[[Snack|Merienda/Tentempié]]", "back": "Merienda" },
-        { "front": "[[Dessert|Postre]]", "back": "Postre" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-16/e13.mp3",
-    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u16-e14",

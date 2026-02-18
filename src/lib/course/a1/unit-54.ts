@@ -2,42 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_54_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u54-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Much & Many",
-    "difficulty": "easy",
-    "transcript": "Much. Many. A lot of. A little. A few",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Much|Mucho (incontable)]]",
-          "back": "Mucho (incontable)"
-        },
-        {
-          "front": "[[Many|Muchos (contable)]]",
-          "back": "Muchos (contable)"
-        },
-        {
-          "front": "[[A lot of|Mucho/s]]",
-          "back": "Mucho/s"
-        },
-        {
-          "front": "[[A little|Un poco]]",
-          "back": "Un poco"
-        },
-        {
-          "front": "[[A few|Unos pocos]]",
-          "back": "Unos pocos"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-54/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u54-e2",
     "type": "multiple-choice",
     "level": "A1",

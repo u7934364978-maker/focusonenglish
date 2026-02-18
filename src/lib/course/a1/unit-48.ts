@@ -2,50 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_48_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u48-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Sightseeing",
-    "difficulty": "easy",
-    "transcript": "Museum. Monuments. Tour. Guide. Map. Camera. Souvenir",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Museum|Museo]]",
-          "back": "Museo"
-        },
-        {
-          "front": "[[Monuments|Monumentos]]",
-          "back": "Monumentos"
-        },
-        {
-          "front": "[[Tour|Tour]]",
-          "back": "Tour"
-        },
-        {
-          "front": "[[Guide|Guía]]",
-          "back": "Guía"
-        },
-        {
-          "front": "[[Map|Mapa]]",
-          "back": "Mapa"
-        },
-        {
-          "front": "[[Camera|Cámara]]",
-          "back": "Cámara"
-        },
-        {
-          "front": "[[Souvenir|Recuerdo]]",
-          "back": "Recuerdo"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-48/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u48-e2",
     "type": "multiple-choice",
     "level": "A1",

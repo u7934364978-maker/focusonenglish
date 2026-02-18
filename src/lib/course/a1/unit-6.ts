@@ -5,32 +5,6 @@ export const UNIT_6_EXERCISES: Exercise[] = [
   // VOCABULARY: BASIC FAMILY (1-10)
   // ==========================================
   {
-    "id": "a1-u6-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Family Members",
-    "difficulty": "easy",
-    "transcript": "[[Mother|Madre]]. [[Father|Padre]]. [[Parents|Padres]]. [[Son|Hijo]]. [[Daughter|Hija]]. [[Brother|Hermano]]. [[Sister|Hermana]]. [[Siblings|Hermanos]]. [[Grandfather|Abuelo]]. [[Grandmother|Abuela]].",
-    "content": {
-      "title": "Vocabulario: La Familia (Básico)",
-      "instructions": "Aprende los miembros básicos de la familia.",
-      "items": [
-        { "front": "[[Mother|Madre]]", "back": "Mother" },
-        { "front": "[[Father|Padre]]", "back": "Father" },
-        { "front": "[[Parents|Padres]]", "back": "Parents" },
-        { "front": "[[Son|Hijo]]", "back": "Son" },
-        { "front": "[[Daughter|Hija]]", "back": "Daughter" },
-        { "front": "[[Brother|Hermano]]", "back": "Brother" },
-        { "front": "[[Sister|Hermana]]", "back": "Sister" },
-        { "front": "[[Siblings|Hermanos]]", "back": "Siblings" },
-        { "front": "[[Grandfather|Abuelo]]", "back": "Grandfather" },
-        { "front": "[[Grandmother|Abuela]]", "back": "Grandmother" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-6/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u6-e2",
     "type": "multiple-choice",
     "level": "A1",
@@ -192,32 +166,6 @@ export const UNIT_6_EXERCISES: Exercise[] = [
   // ==========================================
   // EXTENDED FAMILY & HIS/HER (11-20)
   // ==========================================
-  {
-    "id": "a1-u6-e11",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Extended Family",
-    "difficulty": "easy",
-    "transcript": "[[Uncle|Tío]]. [[Aunt|Tía]]. [[Cousin|Primo]]. [[Nephew|Sobrino]]. [[Niece|Sobrina]]. [[Husband|Esposo]]. [[Wife|Esposa]]. [[Father-in-law|Suegro]]. [[Mother-in-law|Suegra]]. [[Relatives|Parientes]].",
-    "content": {
-      "title": "Vocabulario: Familia Extendida",
-      "instructions": "Aprende otros parientes comunes.",
-      "items": [
-        { "front": "[[Uncle|Tío]]", "back": "Uncle" },
-        { "front": "[[Aunt|Tía]]", "back": "Aunt" },
-        { "front": "[[Cousin|Primo/a]]", "back": "Cousin" },
-        { "front": "[[Nephew|Sobrino]]", "back": "Nephew" },
-        { "front": "[[Niece|Sobrina]]", "back": "Niece" },
-        { "front": "[[Husband|Esposo]]", "back": "Husband" },
-        { "front": "[[Wife|Esposa]]", "back": "Wife" },
-        { "front": "[[Father-in-law|Suegro]]", "back": "Father-in-law" },
-        { "front": "[[Mother-in-law|Suegra]]", "back": "Mother-in-law" },
-        { "front": "[[Relatives|Parientes]]", "back": "Relatives" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-6/e11.mp3",
-    "topicName": "Vocabulary"
-  },
   {
     "id": "a1-u6-e12",
     "type": "multiple-choice",

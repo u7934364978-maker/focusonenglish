@@ -2,34 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_19_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u19-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Months of the Year",
-    "difficulty": "easy",
-    "transcript": "January. February. March. April. May. June. July. August. September. October. November. December.",
-    "content": {
-      "title": "Los Meses del Año",
-      "instructions": "Aprende los doce meses del año.",
-      "items": [
-        { "front": "[[January|Enero]]", "back": "Enero" },
-        { "front": "[[February|Febrero]]", "back": "Febrero" },
-        { "front": "[[March|Marzo]]", "back": "Marzo" },
-        { "front": "[[April|Abril]]", "back": "Abril" },
-        { "front": "[[May|Mayo]]", "back": "Mayo" },
-        { "front": "[[June|Junio]]", "back": "Junio" },
-        { "front": "[[July|Julio]]", "back": "Julio" },
-        { "front": "[[August|Agosto]]", "back": "Agosto" },
-        { "front": "[[September|Septiembre]]", "back": "Septiembre" },
-        { "front": "[[October|Octubre]]", "back": "Octubre" },
-        { "front": "[[November|Noviembre]]", "back": "Noviembre" },
-        { "front": "[[December|Diciembre]]", "back": "Diciembre" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-19/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u19-e2",
     "type": "multiple-choice",
     "level": "A1",
@@ -127,32 +99,6 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "explanation": "Julio y Agosto son meses de verano en el hemisferio norte."
     },
     "audioUrl": "audio/a1/unit-19/e6.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u19-e7",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Ordinal Numbers",
-    "difficulty": "easy",
-    "transcript": "First. Second. Third. Fourth. Fifth. Sixth. Seventh. Eighth. Ninth. Tenth.",
-    "content": {
-      "title": "Números Ordinales (1-10)",
-      "instructions": "Aprende los números para las fechas.",
-      "items": [
-        { "front": "[[First|Primero]] (1st)", "back": "Primero" },
-        { "front": "[[Second|Segundo]] (2nd)", "back": "Segundo" },
-        { "front": "[[Third|Tercero]] (3rd)", "back": "Tercero" },
-        { "front": "[[Fourth|Cuarto]] (4th)", "back": "Cuarto" },
-        { "front": "[[Fifth|Quinto]] (5th)", "back": "Quinto" },
-        { "front": "[[Sixth|Sexto]] (6th)", "back": "Sexto" },
-        { "front": "[[Seventh|Séptimo]] (7th)", "back": "Séptimo" },
-        { "front": "[[Eighth|Octavo]] (8th)", "back": "Octavo" },
-        { "front": "[[Ninth|Noveno]] (9th)", "back": "Noveno" },
-        { "front": "[[Tenth|Décimo]] (10th)", "back": "Décimo" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-19/e7.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -317,32 +263,6 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u19-e16",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Ordinal Numbers",
-    "difficulty": "medium",
-    "transcript": "Eleventh. Twelfth. Thirteenth. Fourteenth. Fifteenth. Sixteenth. Seventeenth. Eighteenth. Nineteenth. Twentieth.",
-    "content": {
-      "title": "Números Ordinales (11-20)",
-      "instructions": "Aprende los números del 11 al 20.",
-      "items": [
-        { "front": "[[Eleventh|Undécimo]] (11th)", "back": "11º" },
-        { "front": "[[Twelfth|Duodécimo]] (12th)", "back": "12º" },
-        { "front": "[[Thirteenth|Decimotercero]] (13th)", "back": "13º" },
-        { "front": "[[Fourteenth|Decimocuarto]] (14th)", "back": "14º" },
-        { "front": "[[Fifteenth|Decimoquinto]] (15th)", "back": "15º" },
-        { "front": "[[Sixteenth|Decimosexto]] (16th)", "back": "16º" },
-        { "front": "[[Seventeenth|Decimoséptimo]] (17th)", "back": "17º" },
-        { "front": "[[Eighteenth|Decimoctavo]] (18th)", "back": "18º" },
-        { "front": "[[Nineteenth|Decimonoveno]] (19th)", "back": "19º" },
-        { "front": "[[Twentieth|Vigésimo]] (20th)", "back": "20º" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-19/e16.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u19-e17",
     "type": "multiple-choice",
     "level": "A1",
@@ -418,29 +338,6 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "explanation": "Estructura simple para eventos recurrentes."
     },
     "audioUrl": "audio/a1/unit-19/e20.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u19-e21",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Ordinal Numbers",
-    "difficulty": "medium",
-    "transcript": "Twenty-first. Twenty-second. Twenty-third. Twenty-fourth. Twenty-fifth. Thirtieth. Thirty-first.",
-    "content": {
-      "title": "Números Ordinales (21-31)",
-      "instructions": "Aprende los números finales del mes.",
-      "items": [
-        { "front": "[[Twenty-first|Vigesimoprimero]] (21st)", "back": "21º" },
-        { "front": "[[Twenty-second|Vigesisegundo]] (22nd)", "back": "22º" },
-        { "front": "[[Twenty-third|Vigesitercero]] (23rd)", "back": "23º" },
-        { "front": "[[Twenty-fourth|Vigesicuarto]] (24th)", "back": "24º" },
-        { "front": "[[Twenty-fifth|Vigesiquinto]] (25th)", "back": "25º" },
-        { "front": "[[Thirtieth|Trigésimo]] (30th)", "back": "30º" },
-        { "front": "[[Thirty-first|Trigésimo primero]] (31st)", "back": "31º" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-19/e21.mp3",
     "topicName": "Vocabulary"
   },
   {

@@ -2,38 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_40_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u40-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Module 4 Review",
-    "difficulty": "easy",
-    "transcript": "Ability. Frequency. Talent. Activity",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Ability|Habilidad]]",
-          "back": "Habilidad"
-        },
-        {
-          "front": "[[Frequency|Frecuencia]]",
-          "back": "Frecuencia"
-        },
-        {
-          "front": "[[Talent|Talento]]",
-          "back": "Talento"
-        },
-        {
-          "front": "[[Activity|Actividad]]",
-          "back": "Actividad"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u40-e2",
     "type": "multiple-choice",
     "level": "A1",

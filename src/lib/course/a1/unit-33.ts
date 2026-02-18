@@ -2,50 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_33_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u33-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Adverbs of Frequency",
-    "difficulty": "easy",
-    "transcript": "Always. Usually. Often. Sometimes. Never. Every day. Once a week",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Always|Siempre]]",
-          "back": "Siempre"
-        },
-        {
-          "front": "[[Usually|Normalmente]]",
-          "back": "Normalmente"
-        },
-        {
-          "front": "[[Often|A menudo]]",
-          "back": "A menudo"
-        },
-        {
-          "front": "[[Sometimes|A veces]]",
-          "back": "A veces"
-        },
-        {
-          "front": "[[Never|Nunca]]",
-          "back": "Nunca"
-        },
-        {
-          "front": "[[Every day|Cada día]]",
-          "back": "Cada día"
-        },
-        {
-          "front": "[[Once a week|Una vez por semana]]",
-          "back": "Una vez por semana"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-33/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u33-e2",
     "type": "multiple-choice",
     "level": "A1",

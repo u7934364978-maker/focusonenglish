@@ -5,32 +5,6 @@ export const UNIT_5_EXERCISES: Exercise[] = [
   // VOCABULARY: FAMILY MEMBERS (1-10)
   // ==========================================
   {
-    "id": "a1-u5-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Family Members",
-    "difficulty": "easy",
-    "transcript": "[[Father|Padre]]. [[Mother|Madre]]. [[Brother|Hermano]]. [[Sister|Hermana]]. [[Son|Hijo]]. [[Daughter|Hija]]. [[Husband|Esposo]]. [[Wife|Esposa]]. [[Parents|Padres]]. [[Children|Hijos]].",
-    "content": {
-      "title": "Vocabulario: La Familia",
-      "instructions": "Aprende los miembros de la familia nuclear.",
-      "items": [
-        { "front": "[[Father|Padre]]", "back": "Father" },
-        { "front": "[[Mother|Madre]]", "back": "Mother" },
-        { "front": "[[Brother|Hermano]]", "back": "Brother" },
-        { "front": "[[Sister|Hermana]]", "back": "Sister" },
-        { "front": "[[Son|Hijo]]", "back": "Son" },
-        { "front": "[[Daughter|Hija]]", "back": "Daughter" },
-        { "front": "[[Husband|Esposo]]", "back": "Husband" },
-        { "front": "[[Wife|Esposa]]", "back": "Wife" },
-        { "front": "[[Parents|Padres]]", "back": "Parents" },
-        { "front": "[[Children|Hijos]]", "back": "Children" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-5/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u5-e2",
     "type": "multiple-choice",
     "level": "A1",

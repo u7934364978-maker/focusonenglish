@@ -2,50 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_58_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u58-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Health & Illness",
-    "difficulty": "easy",
-    "transcript": "Sick. Pain. Medicine. Doctor. Nurse. Pharmacy. Cold",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Sick|Enfermo]]",
-          "back": "Enfermo"
-        },
-        {
-          "front": "[[Pain|Dolor]]",
-          "back": "Dolor"
-        },
-        {
-          "front": "[[Medicine|Medicina]]",
-          "back": "Medicina"
-        },
-        {
-          "front": "[[Doctor|Médico/a]]",
-          "back": "Doctor"
-        },
-        {
-          "front": "[[Nurse|Enfermero]]",
-          "back": "Enfermero"
-        },
-        {
-          "front": "[[Pharmacy|Farmacia]]",
-          "back": "Farmacia"
-        },
-        {
-          "front": "[[Cold|Frío]]",
-          "back": "Resfriado"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-58/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u58-e2",
     "type": "multiple-choice",
     "level": "A1",

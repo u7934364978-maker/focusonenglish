@@ -2,58 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_27_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u27-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Pets & Animals",
-    "difficulty": "easy",
-    "transcript": "Dog. Cat. Hamster. Rabbit. Bird. Fish. Horse. Elephant. Lion",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Dog|Perro]]",
-          "back": "Perro"
-        },
-        {
-          "front": "[[Cat|Gato]]",
-          "back": "Gato"
-        },
-        {
-          "front": "[[Hamster|Hámster]]",
-          "back": "Hámster"
-        },
-        {
-          "front": "[[Rabbit|Conejo]]",
-          "back": "Conejo"
-        },
-        {
-          "front": "[[Bird|Pájaro]]",
-          "back": "Pájaro"
-        },
-        {
-          "front": "[[Fish|Pescado]]",
-          "back": "Pez"
-        },
-        {
-          "front": "[[Horse|Caballo]]",
-          "back": "Caballo"
-        },
-        {
-          "front": "[[Elephant|Elefante]]",
-          "back": "Elefante"
-        },
-        {
-          "front": "[[Lion|León]]",
-          "back": "León"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-27/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u27-e2",
     "type": "multiple-choice",
     "level": "A1",

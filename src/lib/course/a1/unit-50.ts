@@ -2,42 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_50_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u50-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Module 5 Review",
-    "difficulty": "easy",
-    "transcript": "Travel. Airport. Weather. Season. Hotel",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Travel|Viaje]]",
-          "back": "Viaje"
-        },
-        {
-          "front": "[[Airport|Aeropuerto]]",
-          "back": "Aeropuerto"
-        },
-        {
-          "front": "[[Weather|Tiempo]]",
-          "back": "Tiempo"
-        },
-        {
-          "front": "[[Season|Estación]]",
-          "back": "Estación"
-        },
-        {
-          "front": "[[Hotel|Hotel]]",
-          "back": "Hotel"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-50/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u50-e2",
     "type": "multiple-choice",
     "level": "A1",

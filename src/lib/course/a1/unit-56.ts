@@ -2,50 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_56_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u56-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "At the Restaurant",
-    "difficulty": "easy",
-    "transcript": "Waiter. Order. Bill. Tip. Dessert. Drink. Reservation",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Waiter|Camarero/a]]",
-          "back": "Camarero"
-        },
-        {
-          "front": "[[Order|Pedir/pedido]]",
-          "back": "Pedido"
-        },
-        {
-          "front": "[[Bill|Cuenta]]",
-          "back": "Cuenta"
-        },
-        {
-          "front": "[[Tip|Propina]]",
-          "back": "Propina"
-        },
-        {
-          "front": "[[Dessert|Postre]]",
-          "back": "Postre"
-        },
-        {
-          "front": "[[Drink|Beber]]",
-          "back": "Bebida"
-        },
-        {
-          "front": "[[Reservation|Reserva]]",
-          "back": "Reserva"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-56/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u56-e2",
     "type": "multiple-choice",
     "level": "A1",

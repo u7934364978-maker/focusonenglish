@@ -2,54 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_44_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u44-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "The Weather",
-    "difficulty": "easy",
-    "transcript": "Sunny. Cloudy. Rainy. Snowy. Windy. Hot. Cold. Warm",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Sunny|Soleado]]",
-          "back": "Soleado"
-        },
-        {
-          "front": "[[Cloudy|Nublado]]",
-          "back": "Nublado"
-        },
-        {
-          "front": "[[Rainy|Lluvioso]]",
-          "back": "Lluvioso"
-        },
-        {
-          "front": "[[Snowy|Nevado]]",
-          "back": "Nevado"
-        },
-        {
-          "front": "[[Windy|Ventoso]]",
-          "back": "Ventoso"
-        },
-        {
-          "front": "[[Hot|Caliente]]",
-          "back": "Caluroso"
-        },
-        {
-          "front": "[[Cold|Frío]]",
-          "back": "Frío"
-        },
-        {
-          "front": "[[Warm|Cálido]]",
-          "back": "Cálido"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-44/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u44-e2",
     "type": "multiple-choice",
     "level": "A1",

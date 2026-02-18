@@ -2,50 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_36_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u36-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Musical Instruments",
-    "difficulty": "easy",
-    "transcript": "Piano. Guitar. Drums. Violin. Flute. Trumpet. Saxophone",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Piano|Piano]]",
-          "back": "Piano"
-        },
-        {
-          "front": "[[Guitar|Guitarra]]",
-          "back": "Guitarra"
-        },
-        {
-          "front": "[[Drums|Batería]]",
-          "back": "Batería"
-        },
-        {
-          "front": "[[Violin|Violín]]",
-          "back": "Violín"
-        },
-        {
-          "front": "[[Flute|Flauta]]",
-          "back": "Flauta"
-        },
-        {
-          "front": "[[Trumpet|Trompeta]]",
-          "back": "Trompeta"
-        },
-        {
-          "front": "[[Saxophone|Saxofón]]",
-          "back": "Saxofón"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-36/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u36-e2",
     "type": "multiple-choice",
     "level": "A1",

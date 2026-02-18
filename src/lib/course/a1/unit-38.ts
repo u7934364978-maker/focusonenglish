@@ -2,50 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_38_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u38-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Asking for Permission",
-    "difficulty": "easy",
-    "transcript": "May I. Can I. Please. Of course. Certainly. Go ahead. I'm sorry",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[May I|Puedo]]",
-          "back": "Puedo"
-        },
-        {
-          "front": "[[Can I|Puedo]]",
-          "back": "Puedo"
-        },
-        {
-          "front": "[[Please|Por favor]]",
-          "back": "Por favor"
-        },
-        {
-          "front": "[[Of course|Por supuesto]]",
-          "back": "Por supuesto"
-        },
-        {
-          "front": "[[Certainly|Ciertamente]]",
-          "back": "Ciertamente"
-        },
-        {
-          "front": "[[Go ahead|Adelante]]",
-          "back": "Adelante"
-        },
-        {
-          "front": "[[I'm sorry|Lo siento]]",
-          "back": "Lo siento"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-38/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u38-e2",
     "type": "multiple-choice",
     "level": "A1",

@@ -2,50 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_57_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u57-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Cooking & Recipes",
-    "difficulty": "easy",
-    "transcript": "Cook. Bake. Boil. Fry. Mix. Cut. Ingredients",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Cook|Cocinar]]",
-          "back": "Cocinar"
-        },
-        {
-          "front": "[[Bake|Hornear]]",
-          "back": "Hornear"
-        },
-        {
-          "front": "[[Boil|Hervir]]",
-          "back": "Hervir"
-        },
-        {
-          "front": "[[Fry|Freír]]",
-          "back": "Freír"
-        },
-        {
-          "front": "[[Mix|Mezclar]]",
-          "back": "Mezclar"
-        },
-        {
-          "front": "[[Cut|Cortar]]",
-          "back": "Cortar"
-        },
-        {
-          "front": "[[Ingredients|Ingredientes]]",
-          "back": "Ingredientes"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-57/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u57-e2",
     "type": "multiple-choice",
     "level": "A1",

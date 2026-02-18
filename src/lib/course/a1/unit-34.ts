@@ -2,42 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_34_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u34-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Using 'And', 'But', 'Because'",
-    "difficulty": "easy",
-    "transcript": "And. But. Because. So. Or",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[And|Y]]",
-          "back": "Y"
-        },
-        {
-          "front": "[[But|Pero]]",
-          "back": "Pero"
-        },
-        {
-          "front": "[[Because|Porque]]",
-          "back": "Porque"
-        },
-        {
-          "front": "[[So|Tan/así que]]",
-          "back": "Así que"
-        },
-        {
-          "front": "[[Or|O]]",
-          "back": "O"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-34/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u34-e2",
     "type": "multiple-choice",
     "level": "A1",

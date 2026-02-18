@@ -2,46 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_39_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u39-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Outdoor Activities",
-    "difficulty": "easy",
-    "transcript": "Hiking. Camping. Fishing. Cycling. Picnic. Walking",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Hiking|Senderismo]]",
-          "back": "Senderismo"
-        },
-        {
-          "front": "[[Camping|Camping]]",
-          "back": "Camping"
-        },
-        {
-          "front": "[[Fishing|Pesca]]",
-          "back": "Pesca"
-        },
-        {
-          "front": "[[Cycling|Ciclismo]]",
-          "back": "Ciclismo"
-        },
-        {
-          "front": "[[Picnic|Picnic]]",
-          "back": "Picnic"
-        },
-        {
-          "front": "[[Walking|Caminar]]",
-          "back": "Caminar"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-39/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u39-e2",
     "type": "multiple-choice",
     "level": "A1",

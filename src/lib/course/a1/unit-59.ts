@@ -2,46 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_59_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u59-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Money & Currency",
-    "difficulty": "easy",
-    "transcript": "Cash. Card. Wallet. Bank. ATM. Exchange",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Cash|Efectivo]]",
-          "back": "Efectivo"
-        },
-        {
-          "front": "[[Card|Tarjeta]]",
-          "back": "Tarjeta"
-        },
-        {
-          "front": "[[Wallet|Cartera]]",
-          "back": "Cartera"
-        },
-        {
-          "front": "[[Bank|Banco]]",
-          "back": "Banco"
-        },
-        {
-          "front": "[[ATM|Cajero]]",
-          "back": "Cajero"
-        },
-        {
-          "front": "[[Exchange|Cambio]]",
-          "back": "Cambio"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-59/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u59-e2",
     "type": "multiple-choice",
     "level": "A1",

@@ -2,46 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_53_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u53-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Some & Any",
-    "difficulty": "easy",
-    "transcript": "Cheese. Butter. Sugar. Salt. Banana. Cookie",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Cheese|Queso]]",
-          "back": "Queso"
-        },
-        {
-          "front": "[[Butter|Mantequilla]]",
-          "back": "Mantequilla"
-        },
-        {
-          "front": "[[Sugar|Azúcar]]",
-          "back": "Azúcar"
-        },
-        {
-          "front": "[[Salt|Sal]]",
-          "back": "Sal"
-        },
-        {
-          "front": "[[Banana|Plátano]]",
-          "back": "Plátano"
-        },
-        {
-          "front": "[[Cookie|Galleta]]",
-          "back": "Galleta"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-53/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u53-e2",
     "type": "multiple-choice",
     "level": "A1",

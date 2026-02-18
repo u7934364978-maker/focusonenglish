@@ -2,50 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_49_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u49-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Packing a Suitcase",
-    "difficulty": "easy",
-    "transcript": "Suitcase. Toiletries. Sunscreen. Sunglasses. Swimsuit. Charger. Adapter",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Suitcase|Maleta]]",
-          "back": "Maleta"
-        },
-        {
-          "front": "[[Toiletries|Artículos de aseo]]",
-          "back": "Artículos de aseo"
-        },
-        {
-          "front": "[[Sunscreen|Protector solar]]",
-          "back": "Protector solar"
-        },
-        {
-          "front": "[[Sunglasses|Gafas de sol]]",
-          "back": "Gafas de sol"
-        },
-        {
-          "front": "[[Swimsuit|Bañador]]",
-          "back": "Bañador"
-        },
-        {
-          "front": "[[Charger|Cargador]]",
-          "back": "Cargador"
-        },
-        {
-          "front": "[[Adapter|Adaptador]]",
-          "back": "Adaptador"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-49/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u49-e2",
     "type": "multiple-choice",
     "level": "A1",

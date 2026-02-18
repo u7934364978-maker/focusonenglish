@@ -2,54 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_42_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u42-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Transport",
-    "difficulty": "easy",
-    "transcript": "Bus. Train. Plane. Car. Bicycle. Motorbike. Taxi. Boat",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Bus|Autobús]]",
-          "back": "Autobús"
-        },
-        {
-          "front": "[[Train|Tren]]",
-          "back": "Tren"
-        },
-        {
-          "front": "[[Plane|Avión]]",
-          "back": "Avión"
-        },
-        {
-          "front": "[[Car|Coche]]",
-          "back": "Coche"
-        },
-        {
-          "front": "[[Bicycle|Bicicleta]]",
-          "back": "Bicicleta"
-        },
-        {
-          "front": "[[Motorbike|Moto]]",
-          "back": "Moto"
-        },
-        {
-          "front": "[[Taxi|Taxi]]",
-          "back": "Taxi"
-        },
-        {
-          "front": "[[Boat|Barco]]",
-          "back": "Barco"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-42/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u42-e2",
     "type": "multiple-choice",
     "level": "A1",

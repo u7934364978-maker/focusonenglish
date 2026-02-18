@@ -2,58 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_29_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u29-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Clothes",
-    "difficulty": "easy",
-    "transcript": "Shirt. T-shirt. Trousers. Dress. Skirt. Shoes. Socks. Hat. Coat",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Shirt|Camisa]]",
-          "back": "Camisa"
-        },
-        {
-          "front": "[[T-shirt|Camiseta]]",
-          "back": "Camiseta"
-        },
-        {
-          "front": "[[Trousers|Pantalones]]",
-          "back": "Pantalones"
-        },
-        {
-          "front": "[[Dress|Vestido]]",
-          "back": "Vestido"
-        },
-        {
-          "front": "[[Skirt|Falda]]",
-          "back": "Falda"
-        },
-        {
-          "front": "[[Shoes|Zapatos]]",
-          "back": "Zapatos"
-        },
-        {
-          "front": "[[Socks|Calcetines]]",
-          "back": "Calcetines"
-        },
-        {
-          "front": "[[Hat|Sombrero]]",
-          "back": "Sombrero"
-        },
-        {
-          "front": "[[Coat|Abrigo]]",
-          "back": "Abrigo"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-29/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u29-e2",
     "type": "multiple-choice",
     "level": "A1",

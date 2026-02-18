@@ -2,54 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_32_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u32-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Sports & Hobbies",
-    "difficulty": "easy",
-    "transcript": "Football. Tennis. Basketball. Swimming. Reading. Painting. Music. Travel",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Football|Fútbol]]",
-          "back": "Fútbol"
-        },
-        {
-          "front": "[[Tennis|Tenis]]",
-          "back": "Tenis"
-        },
-        {
-          "front": "[[Basketball|Baloncesto]]",
-          "back": "Baloncesto"
-        },
-        {
-          "front": "[[Swimming|Natación]]",
-          "back": "Natación"
-        },
-        {
-          "front": "[[Reading|Lectura]]",
-          "back": "Lectura"
-        },
-        {
-          "front": "[[Painting|Pintura]]",
-          "back": "Pintura"
-        },
-        {
-          "front": "[[Music|Música]]",
-          "back": "Música"
-        },
-        {
-          "front": "[[Travel|Viajar]]",
-          "back": "Viajar"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-32/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u32-e2",
     "type": "multiple-choice",
     "level": "A1",

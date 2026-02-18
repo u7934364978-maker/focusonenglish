@@ -2,50 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_41_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u41-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "At the Airport",
-    "difficulty": "easy",
-    "transcript": "Passport. Ticket. Flight. Luggage. Gate. Boarding pass. Check-in",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Passport|Pasaporte]]",
-          "back": "Pasaporte"
-        },
-        {
-          "front": "[[Ticket|Billete/Ticket]]",
-          "back": "Billete/Ticket"
-        },
-        {
-          "front": "[[Flight|Vuelo]]",
-          "back": "Vuelo"
-        },
-        {
-          "front": "[[Luggage|Equipaje]]",
-          "back": "Equipaje"
-        },
-        {
-          "front": "[[Gate|Puerta de embarque]]",
-          "back": "Puerta de embarque"
-        },
-        {
-          "front": "[[Boarding pass|Tarjeta de embarque]]",
-          "back": "Tarjeta de embarque"
-        },
-        {
-          "front": "[[Check-in|Facturación]]",
-          "back": "Facturación"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-41/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u41-e2",
     "type": "multiple-choice",
     "level": "A1",

@@ -2,54 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_31_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u31-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Can for Ability",
-    "difficulty": "easy",
-    "transcript": "Swim. Dance. Sing. Run. Cook. Drive. Speak. Draw",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Swim|Nadar]]",
-          "back": "Nadar"
-        },
-        {
-          "front": "[[Dance|Bailar]]",
-          "back": "Bailar"
-        },
-        {
-          "front": "[[Sing|Cantar]]",
-          "back": "Cantar"
-        },
-        {
-          "front": "[[Run|Correr]]",
-          "back": "Correr"
-        },
-        {
-          "front": "[[Cook|Cocinar]]",
-          "back": "Cocinar"
-        },
-        {
-          "front": "[[Drive|Conducir]]",
-          "back": "Conducir"
-        },
-        {
-          "front": "[[Speak|Hablar]]",
-          "back": "Hablar"
-        },
-        {
-          "front": "[[Draw|Dibujar]]",
-          "back": "Dibujar"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-31/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u31-e2",
     "type": "multiple-choice",
     "level": "A1",

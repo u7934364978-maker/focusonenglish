@@ -5,32 +5,6 @@ export const UNIT_10_EXERCISES: Exercise[] = [
   // VOCABULARY REVIEW: MODULE 1 (1-10)
   // ==========================================
   {
-    "id": "a1-u10-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Module 1 Review",
-    "difficulty": "medium",
-    "transcript": "[[Student|Estudiante]]. [[Teacher|Profesor]]. [[Spain|España]]. [[Happy|Feliz]]. [[Sad|Triste]]. [[Brother|Hermano]]. [[Sister|Hermana]]. [[Red|Rojo]]. [[Blue|Azul]]. [[Doctor|Médico]].",
-    "content": {
-      "title": "Repaso de Vocabulario",
-      "instructions": "Repasa palabras clave de las unidades 1 a 9.",
-      "items": [
-        { "front": "[[Student|Estudiante]]", "back": "Student" },
-        { "front": "[[Teacher|Profesor/a]]", "back": "Teacher" },
-        { "front": "[[Spain|España]]", "back": "Spain" },
-        { "front": "[[Happy|Feliz]]", "back": "Happy" },
-        { "front": "[[Sad|Triste]]", "back": "Sad" },
-        { "front": "[[Brother|Hermano]]", "back": "Brother" },
-        { "front": "[[Sister|Hermana]]", "back": "Sister" },
-        { "front": "[[Red|Rojo]]", "back": "Red" },
-        { "front": "[[Blue|Azul]]", "back": "Blue" },
-        { "front": "[[Doctor|Médico]]", "back": "Doctor" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-10/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u10-e2",
     "type": "multiple-choice",
     "level": "A1",

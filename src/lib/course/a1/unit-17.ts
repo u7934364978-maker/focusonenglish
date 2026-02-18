@@ -2,58 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_17_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u17-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Breakfast, Lunch & Dinner",
-    "difficulty": "easy",
-    "transcript": "Bread. Egg. Cereal. Rice. Chicken. Fish. Vegetables. Fruit. Soup",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Bread|Pan]]",
-          "back": "Pan"
-        },
-        {
-          "front": "[[Egg|Huevo]]",
-          "back": "Huevo"
-        },
-        {
-          "front": "[[Cereal|Cereal]]",
-          "back": "Cereal"
-        },
-        {
-          "front": "[[Rice|Arroz]]",
-          "back": "Arroz"
-        },
-        {
-          "front": "[[Chicken|Pollo]]",
-          "back": "Pollo"
-        },
-        {
-          "front": "[[Fish|Pescado]]",
-          "back": "Pescado"
-        },
-        {
-          "front": "[[Vegetables|Verduras]]",
-          "back": "Verduras"
-        },
-        {
-          "front": "[[Fruit|Fruta]]",
-          "back": "Fruta"
-        },
-        {
-          "front": "[[Soup|Sopa]]",
-          "back": "Sopa"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-17/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u17-e2",
     "type": "multiple-choice",
     "level": "A1",
@@ -278,32 +226,6 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "topicName": "Vocabulary"
   },
   {
-    "id": "a1-u17-e11",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Breakfast Items",
-    "difficulty": "easy",
-    "transcript": "Butter. Jam. Yogurt. Honey. Pancakes. Waffles. Sausages. Bacon. Orange juice. Tea.",
-    "content": {
-      "title": "Vocabulario: Desayuno",
-      "instructions": "Aprende más palabras para el desayuno.",
-      "items": [
-        { "front": "[[Butter|Mantequilla]]", "back": "Mantequilla" },
-        { "front": "[[Jam|Mermelada]]", "back": "Mermelada" },
-        { "front": "[[Yogurt|Yogur]]", "back": "Yogur" },
-        { "front": "[[Honey|Miel]]", "back": "Miel" },
-        { "front": "[[Pancakes|Tortitas]]", "back": "Tortitas / Pancakes" },
-        { "front": "[[Waffles|Gofres]]", "back": "Gofres" },
-        { "front": "[[Sausages|Salchichas]]", "back": "Salchichas" },
-        { "front": "[[Bacon|Bacon]]", "back": "Bacon / Tocino" },
-        { "front": "[[Orange juice|Zumo de naranja]]", "back": "Zumo de naranja" },
-        { "front": "[[Tea|Té]]", "back": "Té" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-17/e11.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u17-e12",
     "type": "multiple-choice",
     "level": "A1",
@@ -387,32 +309,6 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "topicName": "Vocabulary"
   },
   {
-    "id": "a1-u17-e16",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Lunch Items",
-    "difficulty": "easy",
-    "transcript": "Sandwich. Salad. Pasta. Pizza. Burger. Fries. Soup. Rice. Beans. Steak.",
-    "content": {
-      "title": "Vocabulario: Almuerzo",
-      "instructions": "Aprende palabras para el almuerzo.",
-      "items": [
-        { "front": "[[Sandwich|Sándwich]]", "back": "Sándwich" },
-        { "front": "[[Salad|Ensalada]]", "back": "Ensalada" },
-        { "front": "[[Pasta|Pasta]]", "back": "Pasta" },
-        { "front": "[[Pizza|Pizza]]", "back": "Pizza" },
-        { "front": "[[Burger|Hamburguesa]]", "back": "Hamburguesa" },
-        { "front": "[[Fries|Patatas fritas]]", "back": "Patatas fritas" },
-        { "front": "[[Soup|Sopa]]", "back": "Sopa" },
-        { "front": "[[Rice|Arroz]]", "back": "Arroz" },
-        { "front": "[[Beans|Judías / Frijoles]]", "back": "Judías / Frijoles" },
-        { "front": "[[Steak|Filete / Bistec]]", "back": "Filete / Bistec" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-17/e16.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u17-e17",
     "type": "multiple-choice",
     "level": "A1",
@@ -489,32 +385,6 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-17/e20.mp3",
     "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u17-e21",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Dinner Items",
-    "difficulty": "easy",
-    "transcript": "Chicken. Fish. Beef. Pork. Vegetables. Potatoes. Roast. Stew. Pie. Dessert.",
-    "content": {
-      "title": "Vocabulario: Cena",
-      "instructions": "Aprende palabras para la cena.",
-      "items": [
-        { "front": "[[Chicken|Pollo]]", "back": "Pollo" },
-        { "front": "[[Fish|Pescado]]", "back": "Pescado" },
-        { "front": "[[Beef|Carne de vaca]]", "back": "Carne de vaca / Ternera" },
-        { "front": "[[Pork|Carne de cerdo]]", "back": "Carne de cerdo" },
-        { "front": "[[Vegetables|Verduras]]", "back": "Verduras" },
-        { "front": "[[Potatoes|Patatas]]", "back": "Patatas" },
-        { "front": "[[Roast|Asado]]", "back": "Asado" },
-        { "front": "[[Stew|Guiso]]", "back": "Guiso" },
-        { "front": "[[Pie|Pastel salado / Empanada]]", "back": "Pastel salado / Empanada" },
-        { "front": "[[Dessert|Postre]]", "back": "Postre" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-17/e21.mp3",
-    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u17-e22",
@@ -597,32 +467,6 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "audio/a1/unit-17/e25.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u17-e26",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Utensils",
-    "difficulty": "easy",
-    "transcript": "Fork. Knife. Spoon. Plate. Bowl. Glass. Cup. Mug. Napkin. Tray.",
-    "content": {
-      "title": "Vocabulario: Utensilios",
-      "instructions": "Aprende los utensilios de la mesa.",
-      "items": [
-        { "front": "[[Fork|Tenedor]]", "back": "Tenedor" },
-        { "front": "[[Knife|Cuchillo]]", "back": "Cuchillo" },
-        { "front": "[[Spoon|Cuchara]]", "back": "Cuchara" },
-        { "front": "[[Plate|Plato]]", "back": "Plato" },
-        { "front": "[[Bowl|Bol / Cuenco]]", "back": "Bol / Cuenco" },
-        { "front": "[[Glass|Vaso]]", "back": "Vaso" },
-        { "front": "[[Cup|Taza (pequeña)]]", "back": "Taza (pequeña)" },
-        { "front": "[[Mug|Taza (grande)]]", "back": "Taza (grande)" },
-        { "front": "[[Napkin|Servilleta]]", "back": "Servilleta" },
-        { "front": "[[Tray|Bandeja]]", "back": "Bandeja" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-17/e26.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -709,32 +553,6 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "topicName": "Vocabulary"
   },
   {
-    "id": "a1-u17-e31",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Kitchen Actions",
-    "difficulty": "medium",
-    "transcript": "Cook. Bake. Fry. Boil. Slice. Mix. Serve. Wash. Set the table. Clear the table.",
-    "content": {
-      "title": "Vocabulario: Acciones",
-      "instructions": "Aprende verbos de cocina y mesa.",
-      "items": [
-        { "front": "[[Cook|Cocinar]]", "back": "Cocinar" },
-        { "front": "[[Bake|Hornear]]", "back": "Hornear" },
-        { "front": "[[Fry|Freír]]", "back": "Freír" },
-        { "front": "[[Boil|Hervir]]", "back": "Hervir" },
-        { "front": "[[Slice|Cortar en rodajas]]", "back": "Cortar en rodajas" },
-        { "front": "[[Mix|Mezclar]]", "back": "Mezclar" },
-        { "front": "[[Serve|Servir]]", "back": "Servir" },
-        { "front": "[[Wash|Lavar]]", "back": "Lavar" },
-        { "front": "[[Set the table|Poner la mesa]]", "back": "Poner la mesa" },
-        { "front": "[[Clear the table|Quitar la mesa]]", "back": "Quitar la mesa" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-17/e31.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u17-e32",
     "type": "multiple-choice",
     "level": "A1",
@@ -811,32 +629,6 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-17/e35.mp3",
     "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u17-e36",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Food Descriptions",
-    "difficulty": "medium",
-    "transcript": "Hot. Cold. Sweet. Salty. Spicy. Delicious. Fresh. Healthy. Unhealthy. Tasty.",
-    "content": {
-      "title": "Vocabulario: Descripciones",
-      "instructions": "Aprende adjetivos para la comida.",
-      "items": [
-        { "front": "[[Hot|Caliente / Picante]]", "back": "Caliente / Picante" },
-        { "front": "[[Cold|Frío]]", "back": "Frío" },
-        { "front": "[[Sweet|Dulce]]", "back": "Dulce" },
-        { "front": "[[Salty|Salado]]", "back": "Salado" },
-        { "front": "[[Spicy|Picante]]", "back": "Picante" },
-        { "front": "[[Delicious|Delicioso]]", "back": "Delicioso" },
-        { "front": "[[Fresh|Fresco]]", "back": "Fresco" },
-        { "front": "[[Healthy|Saludable]]", "back": "Saludable" },
-        { "front": "[[Unhealthy|Poco saludable]]", "back": "Poco saludable" },
-        { "front": "[[Tasty|Sabroso]]", "back": "Sabroso" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-17/e36.mp3",
-    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u17-e37",
@@ -917,32 +709,6 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u17-e41",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Drinks",
-    "difficulty": "easy",
-    "transcript": "Water. Milk. Coffee. Tea. Juice. Soda. Wine. Beer. Lemonade. Hot chocolate.",
-    "content": {
-      "title": "Vocabulario: Bebidas",
-      "instructions": "Aprende nombres de bebidas.",
-      "items": [
-        { "front": "[[Water|Agua]]", "back": "Agua" },
-        { "front": "[[Milk|Leche]]", "back": "Leche" },
-        { "front": "[[Coffee|Café]]", "back": "Café" },
-        { "front": "[[Tea|Té]]", "back": "Té" },
-        { "front": "[[Juice|Zumo]]", "back": "Zumo" },
-        { "front": "[[Soda|Refresco]]", "back": "Refresco" },
-        { "front": "[[Wine|Vino]]", "back": "Vino" },
-        { "front": "[[Beer|Cerveza]]", "back": "Cerveza" },
-        { "front": "[[Lemonade|Limonada]]", "back": "Limonada" },
-        { "front": "[[Hot chocolate|Chocolate caliente]]", "back": "Chocolate caliente" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-17/e41.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u17-e42",
     "type": "multiple-choice",
     "level": "A1",
@@ -1019,32 +785,6 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-17/e45.mp3",
     "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u17-e46",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Meal Times",
-    "difficulty": "easy",
-    "transcript": "Morning. Afternoon. Evening. Night. Early. Late. Fast. Slow. Healthy. Junk food.",
-    "content": {
-      "title": "Vocabulario: Momentos y Tipos",
-      "instructions": "Aprende conceptos sobre las comidas.",
-      "items": [
-        { "front": "[[Morning|Mañana]]", "back": "Mañana" },
-        { "front": "[[Afternoon|Tarde (temprana)]]", "back": "Tarde (temprana)" },
-        { "front": "[[Evening|Tarde (noche/caída)]]", "back": "Tarde (noche/caída)" },
-        { "front": "[[Night|Noche]]", "back": "Noche" },
-        { "front": "[[Early|Temprano]]", "back": "Temprano" },
-        { "front": "[[Late|Tarde (retraso)]]", "back": "Tarde (retraso)" },
-        { "front": "[[Fast|Rápido]]", "back": "Rápido" },
-        { "front": "[[Slow|Lento]]", "back": "Lento" },
-        { "front": "[[Healthy|Saludable]]", "back": "Saludable" },
-        { "front": "[[Junk food|Comida basura]]", "back": "Comida basura" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-17/e46.mp3",
-    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u17-e47",

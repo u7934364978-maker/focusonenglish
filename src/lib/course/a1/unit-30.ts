@@ -2,42 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_30_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u30-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Module 3 Review",
-    "difficulty": "easy",
-    "transcript": "Furniture. Direction. Pet. Body. Clothing",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Furniture|Muebles]]",
-          "back": "Muebles"
-        },
-        {
-          "front": "[[Direction|Dirección]]",
-          "back": "Dirección"
-        },
-        {
-          "front": "[[Pet|Mascota]]",
-          "back": "Mascota"
-        },
-        {
-          "front": "[[Body|Cuerpo]]",
-          "back": "Cuerpo"
-        },
-        {
-          "front": "[[Clothing|Ropa]]",
-          "back": "Ropa"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-30/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u30-e2",
     "type": "multiple-choice",
     "level": "A1",

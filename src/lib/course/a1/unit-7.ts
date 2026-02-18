@@ -5,34 +5,6 @@ export const UNIT_7_EXERCISES: Exercise[] = [
   // VOCABULARY: COLORS (1-10)
   // ==========================================
   {
-    "id": "a1-u7-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Colors",
-    "difficulty": "easy",
-    "transcript": "[[Red|Rojo]]. [[Blue|Azul]]. [[Green|Verde]]. [[Yellow|Amarillo]]. [[Black|Negro]]. [[White|Blanco]]. [[Orange|Naranja]]. [[Pink|Rosa]]. [[Purple|Morado]]. [[Brown|Marrón]]. [[Grey|Gris]]. [[Silver|Plateado]]. [[Gold|Dorado]].",
-    "content": {
-      "title": "[[Vocabulary|Vocabulario]]: [[Colors|Colores]]",
-      "instructions": "[[Learn|Aprende]] [[the|los]] [[names|nombres]] [[of|de]] [[the|los]] [[main|principales]] [[colors|colores]].",
-      "items": [
-        { "front": "[[Red|Rojo]]", "back": "Red" },
-        { "front": "[[Blue|Azul]]", "back": "Blue" },
-        { "front": "[[Green|Verde]]", "back": "Green" },
-        { "front": "[[Yellow|Amarillo]]", "back": "Yellow" },
-        { "front": "[[Black|Negro]]", "back": "Black" },
-        { "front": "[[White|Blanco]]", "back": "White" },
-        { "front": "[[Orange|Naranja]]", "back": "Orange" },
-        { "front": "[[Pink|Rosa]]", "back": "Pink" },
-        { "front": "[[Purple|Morado]]", "back": "Purple" },
-        { "front": "[[Brown|Marrón]]", "back": "Brown" },
-        { "front": "[[Grey|Gris]]", "back": "Grey" },
-        { "front": "[[Silver|Plateado]]", "back": "Silver" },
-        { "front": "[[Gold|Dorado]]", "back": "Gold" }
-      ]
-    },
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u7-e2",
     "type": "multiple-choice",
     "level": "A1",
@@ -189,31 +161,6 @@ export const UNIT_7_EXERCISES: Exercise[] = [
   // VOCABULARY: PHYSICAL TRAITS (11-20)
   // ==========================================
   {
-    "id": "a1-u7-e11",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Physical Traits",
-    "difficulty": "easy",
-    "transcript": "[[Tall|Alto]]. [[Short|Bajo]]. [[Young|Joven]]. [[Old|Viejo]]. [[Thin|Delgado]]. [[Fat|Gordo]]. [[Strong|Fuerte]]. [[Weak|Débil]]. [[Beautiful|Hermoso]]. [[Ugly|Feo]].",
-    "content": {
-      "title": "[[Vocabulary|Vocabulario]]: [[Physical|Físicos]] [[Traits|Rasgos]]",
-      "instructions": "[[Learn|Aprende]] [[adjectives|adjetivos]] [[to|para]] [[describe|describir]] [[people|personas]].",
-      "items": [
-        { "front": "[[Tall|Alto]]", "back": "Tall" },
-        { "front": "[[Short|Bajo]]", "back": "Short" },
-        { "front": "[[Young|Joven]]", "back": "Young" },
-        { "front": "[[Old|Viejo/Mayor]]", "back": "Old" },
-        { "front": "[[Thin|Delgado]]", "back": "Thin" },
-        { "front": "[[Fat|Gordo]]", "back": "Fat" },
-        { "front": "[[Strong|Fuerte]]", "back": "Strong" },
-        { "front": "[[Weak|Débil]]", "back": "Weak" },
-        { "front": "[[Beautiful|Hermoso]]", "back": "Beautiful" },
-        { "front": "[[Ugly|Feo]]", "back": "Ugly" }
-      ]
-    },
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u7-e12",
     "type": "multiple-choice",
     "level": "A1",
@@ -369,31 +316,6 @@ export const UNIT_7_EXERCISES: Exercise[] = [
   // ==========================================
   // VOCABULARY: HAIR & EYES (21-30)
   // ==========================================
-  {
-    "id": "a1-u7-e21",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Describing People",
-    "difficulty": "easy",
-    "transcript": "[[Blonde|Rubio]]. [[Brunette|Castaño]]. [[Redhead|Pelirrojo]]. [[Straight|Liso]]. [[Curly|Rizado]]. [[Long|Largo]]. [[Short|Corto]]. [[Blue eyes|Ojos azules]]. [[Green eyes|Ojos verdes]]. [[Brown eyes|Ojos marrones]].",
-    "content": {
-      "title": "[[Vocabulary|Vocabulario]]: [[Hair|Pelo]] [[and|y]] [[Eyes|Ojos]]",
-      "instructions": "[[Learn|Aprende]] [[to|a]] [[describe|describir]] [[features|rasgos]].",
-      "items": [
-        { "front": "[[Blonde|Rubio]]", "back": "Blonde" },
-        { "front": "[[Brunette|Castaño]]", "back": "Brunette" },
-        { "front": "[[Redhead|Pelirrojo]]", "back": "Redhead" },
-        { "front": "[[Straight hair|Pelo liso]]", "back": "Straight hair" },
-        { "front": "[[Curly hair|Pelo rizado]]", "back": "Curly hair" },
-        { "front": "[[Long hair|Pelo largo]]", "back": "Long hair" },
-        { "front": "[[Short hair|Pelo corto]]", "back": "Short hair" },
-        { "front": "[[Blue eyes|Ojos azules]]", "back": "Blue eyes" },
-        { "front": "[[Green eyes|Ojos verdes]]", "back": "Green eyes" },
-        { "front": "[[Brown eyes|Ojos marrones]]", "back": "Brown eyes" }
-      ]
-    },
-    "topicName": "Vocabulary"
-  },
   {
     "id": "a1-u7-e22",
     "type": "multiple-choice",

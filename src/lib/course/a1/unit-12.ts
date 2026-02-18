@@ -2,51 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_12_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u12-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Days of the Week",
-    "difficulty": "easy",
-    "transcript": "[[Monday|Lunes]]. [[Tuesday|Martes]]. [[Wednesday|Miércoles]]. [[Thursday|Jueves]]. [[Friday|Viernes]]. [[Saturday|Sábado]]. [[Sunday|Domingo]].",
-    "content": {
-      "title": "[[Vocabulary|Vocabulario]]: [[The|Los]] [[Days|Días]]",
-      "instructions": "[[Learn|Aprende]] [[the|los]] [[seven|siete]] [[days|días]] [[of|de]] [[the|la]] [[week|semana]].",
-      "items": [
-        { "front": "[[Monday|Lunes]]", "back": "Lunes" },
-        { "front": "[[Tuesday|Martes]]", "back": "Martes" },
-        { "front": "[[Wednesday|Miércoles]]", "back": "Miércoles" },
-        { "front": "[[Thursday|Jueves]]", "back": "Jueves" },
-        { "front": "[[Friday|Viernes]]", "back": "Viernes" },
-        { "front": "[[Saturday|Sábado]]", "back": "Sábado" },
-        { "front": "[[Sunday|Domingo]]", "back": "Domingo" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-12/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u12-e2",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Days of the Week",
-    "difficulty": "easy",
-    "transcript": "[[Week|Semana]]. [[Weekday|Día de semana]]. [[Weekend|Fin de semana]]. [[Today|Hoy]]. [[Tomorrow|Mañana]]. [[Yesterday|Ayer]].",
-    "content": {
-      "title": "[[Vocabulary|Vocabulario]]: [[Time|Tiempo]] [[Concepts|Conceptos]]",
-      "instructions": "[[Words|Palabras]] [[related|relacionadas]] [[with|con]] [[the|los]] [[days|días]].",
-      "items": [
-        { "front": "[[Week|Semana]]", "back": "Semana" },
-        { "front": "[[Weekday|Día de semana]]", "back": "Día de semana" },
-        { "front": "[[Weekend|Fin de semana]]", "back": "Fin de semana" },
-        { "front": "[[Today|Hoy]]", "back": "Hoy" },
-        { "front": "[[Tomorrow|Mañana]]", "back": "Mañana" },
-        { "front": "[[Yesterday|Ayer]]", "back": "Ayer" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-12/e2.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u12-e3",
     "type": "multiple-choice",
     "level": "A1",

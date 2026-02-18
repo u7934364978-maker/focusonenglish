@@ -5,56 +5,6 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   // MODULE 1: NUMBERS & OBJECTS (1-10)
   // ==========================================
   {
-    "id": "a1-u4-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Numbers 1-10",
-    "difficulty": "easy",
-    "transcript": "[[One|Uno]]. [[Two|Dos]]. [[Three|Tres]]. [[Four|Cuatro]]. [[Five|Cinco]]. [[Six|Seis]]. [[Seven|Siete]]. [[Eight|Ocho]]. [[Nine|Nueve]]. [[Ten|Diez]].",
-    "content": {
-      "title": "Vocabulario: Números 1-10",
-      "instructions": "Aprende los números básicos en inglés.",
-      "items": [
-        { "front": "[[One|Uno]]", "back": "Uno" },
-        { "front": "[[Two|Dos]]", "back": "Dos" },
-        { "front": "[[Three|Tres]]", "back": "Tres" },
-        { "front": "[[Four|Cuatro]]", "back": "Cuatro" },
-        { "front": "[[Five|Cinco]]", "back": "Cinco" },
-        { "front": "[[Six|Seis]]", "back": "Seis" },
-        { "front": "[[Seven|Siete]]", "back": "Siete" },
-        { "front": "[[Eight|Ocho]]", "back": "Ocho" },
-        { "front": "[[Nine|Nueve]]", "back": "Nueve" },
-        { "front": "[[Ten|Diez]]", "back": "Diez" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-4/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u4-e2",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Classroom Objects",
-    "difficulty": "easy",
-    "transcript": "[[Pen|Bolígrafo]]. [[Pencil|Lápiz]]. [[Book|Libro]]. [[Notebook|Libreta]]. [[Eraser|Goma de borrar]]. [[Ruler|Regla]]. [[Desk|Escritorio]]. [[Bag|Mochila]].",
-    "content": {
-      "title": "Objetos de Clase",
-      "instructions": "Aprende el nombre de objetos comunes en el aula.",
-      "items": [
-        { "front": "[[Pen|Bolígrafo]]", "back": "Bolígrafo" },
-        { "front": "[[Pencil|Lápiz]]", "back": "Lápiz" },
-        { "front": "[[Book|Libro]]", "back": "Libro" },
-        { "front": "[[Notebook|Libreta]]", "back": "Libreta" },
-        { "front": "[[Eraser|Goma de borrar]]", "back": "Goma" },
-        { "front": "[[Ruler|Regla]]", "back": "Regla" },
-        { "front": "[[Desk|Escritorio]]", "back": "Escritorio" },
-        { "front": "[[Bag|Mochila]]", "back": "Mochila" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-4/e2.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u4-e3",
     "type": "multiple-choice",
     "level": "A1",

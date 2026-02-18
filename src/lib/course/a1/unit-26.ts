@@ -2,50 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_26_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u26-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Giving Directions",
-    "difficulty": "easy",
-    "transcript": "Go straight. Turn left. Turn right. Go past. Cross. Corner. Traffic lights",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Go straight|Sigue recto]]",
-          "back": "Sigue recto"
-        },
-        {
-          "front": "[[Turn left|Gira a la izquierda]]",
-          "back": "Gira a la izquierda"
-        },
-        {
-          "front": "[[Turn right|Gira a la derecha]]",
-          "back": "Gira a la derecha"
-        },
-        {
-          "front": "[[Go past|Pasa por]]",
-          "back": "Pasa por"
-        },
-        {
-          "front": "[[Cross|Cruza]]",
-          "back": "Cruza"
-        },
-        {
-          "front": "[[Corner|Esquina]]",
-          "back": "Esquina"
-        },
-        {
-          "front": "[[Traffic lights|Semáforo]]",
-          "back": "Semáforo"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-26/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u26-e2",
     "type": "multiple-choice",
     "level": "A1",

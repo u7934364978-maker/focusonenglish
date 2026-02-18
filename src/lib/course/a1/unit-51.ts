@@ -2,50 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_51_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u51-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "At the Supermarket",
-    "difficulty": "easy",
-    "transcript": "Shopping. Basket. Trolley. Aisle. Shelf. Checkout. Receipt",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Shopping|Compras]]",
-          "back": "Compras"
-        },
-        {
-          "front": "[[Basket|Cesta]]",
-          "back": "Cesta"
-        },
-        {
-          "front": "[[Trolley|Carrito]]",
-          "back": "Carrito"
-        },
-        {
-          "front": "[[Aisle|Pasillo]]",
-          "back": "Pasillo"
-        },
-        {
-          "front": "[[Shelf|Estante]]",
-          "back": "Estante"
-        },
-        {
-          "front": "[[Checkout|Caja]]",
-          "back": "Caja"
-        },
-        {
-          "front": "[[Receipt|Recibo/ticket]]",
-          "back": "Recibo"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-51/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u51-e2",
     "type": "multiple-choice",
     "level": "A1",

@@ -2,54 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_52_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u52-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Countable & Uncountable",
-    "difficulty": "easy",
-    "transcript": "Apple. Milk. Water. Egg. Rice. Coffee. Bread. Orange",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Apple|Manzana]]",
-          "back": "Manzana"
-        },
-        {
-          "front": "[[Milk|Leche]]",
-          "back": "Leche"
-        },
-        {
-          "front": "[[Water|Agua]]",
-          "back": "Agua"
-        },
-        {
-          "front": "[[Egg|Huevo]]",
-          "back": "Huevo"
-        },
-        {
-          "front": "[[Rice|Arroz]]",
-          "back": "Arroz"
-        },
-        {
-          "front": "[[Coffee|Café]]",
-          "back": "Café"
-        },
-        {
-          "front": "[[Bread|Pan]]",
-          "back": "Pan"
-        },
-        {
-          "front": "[[Orange|Naranja]]",
-          "back": "Naranja"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-52/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u52-e2",
     "type": "multiple-choice",
     "level": "A1",

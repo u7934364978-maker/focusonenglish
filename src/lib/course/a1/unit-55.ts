@@ -2,46 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_55_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u55-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Clothing Store",
-    "difficulty": "easy",
-    "transcript": "Size. Fitting room. Price tag. Sale. Customer. Shop assistant",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Size|Talla]]",
-          "back": "Talla"
-        },
-        {
-          "front": "[[Fitting room|Probador]]",
-          "back": "Probador"
-        },
-        {
-          "front": "[[Price tag|Etiqueta de precio]]",
-          "back": "Etiqueta de precio"
-        },
-        {
-          "front": "[[Sale|Rebajas]]",
-          "back": "Rebajas"
-        },
-        {
-          "front": "[[Customer|Cliente]]",
-          "back": "Cliente"
-        },
-        {
-          "front": "[[Shop assistant|Dependiente]]",
-          "back": "Dependiente"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-55/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u55-e2",
     "type": "multiple-choice",
     "level": "A1",

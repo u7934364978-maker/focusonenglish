@@ -2,50 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_43_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u43-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Travel Verbs",
-    "difficulty": "easy",
-    "transcript": "Travel. Visit. Stay. Book. Pack. Explore. Fly",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Travel|Viajar]]",
-          "back": "Viajar"
-        },
-        {
-          "front": "[[Visit|Visitar]]",
-          "back": "Visitar"
-        },
-        {
-          "front": "[[Stay|Quedarse/Alojarse]]",
-          "back": "Quedarse/Alojarse"
-        },
-        {
-          "front": "[[Book|Libro]]",
-          "back": "Reservar"
-        },
-        {
-          "front": "[[Pack|Hacer la maleta]]",
-          "back": "Hacer la maleta"
-        },
-        {
-          "front": "[[Explore|Explorar]]",
-          "back": "Explorar"
-        },
-        {
-          "front": "[[Fly|Volar]]",
-          "back": "Volar"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-43/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u43-e2",
     "type": "multiple-choice",
     "level": "A1",

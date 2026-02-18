@@ -2,50 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_46_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u46-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "At the Hotel",
-    "difficulty": "easy",
-    "transcript": "Reception. Room. Key. Breakfast. Elevator. Check-in. Check-out",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Reception|Recepción]]",
-          "back": "Recepción"
-        },
-        {
-          "front": "[[Room|Habitación]]",
-          "back": "Habitación"
-        },
-        {
-          "front": "[[Key|Llave]]",
-          "back": "Llave"
-        },
-        {
-          "front": "[[Breakfast|Desayuno]]",
-          "back": "Desayuno"
-        },
-        {
-          "front": "[[Elevator|Ascensor]]",
-          "back": "Ascensor"
-        },
-        {
-          "front": "[[Check-in|Entrada]]",
-          "back": "Entrada"
-        },
-        {
-          "front": "[[Check-out|Salida]]",
-          "back": "Salida"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-46/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u46-e2",
     "type": "multiple-choice",
     "level": "A1",

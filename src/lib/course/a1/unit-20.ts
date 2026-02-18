@@ -2,57 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_20_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u20-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Body Parts",
-    "difficulty": "easy",
-    "transcript": "Head. Eyes. Ears. Nose. Mouth. Hair. Face. Neck. Shoulder. Arm. Hand. Fingers. Leg. Foot. Toes.",
-    "content": {
-      "title": "Partes del Cuerpo",
-      "instructions": "Aprende los nombres de las partes del cuerpo humano.",
-      "items": [
-        { "front": "[[Head|Cabeza]]", "back": "Cabeza" },
-        { "front": "[[Eyes|Ojos]]", "back": "Ojos" },
-        { "front": "[[Ears|Orejas]]", "back": "Ears" },
-        { "front": "[[Nose|Nariz]]", "back": "Nariz" },
-        { "front": "[[Mouth|Boca]]", "back": "Mouth" },
-        { "front": "[[Neck|Cuello]]", "back": "Cuello" },
-        { "front": "[[Arm|Brazo]]", "back": "Brazo" },
-        { "front": "[[Hand|Mano]]", "back": "Mano" },
-        { "front": "[[Leg|Pierna]]", "back": "Pierna" },
-        { "front": "[[Foot|Pie]]", "back": "Pie" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-20/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u20-e2",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Health Problems",
-    "difficulty": "easy",
-    "transcript": "Headache. Stomach ache. Toothache. Backache. Cold. Fever. Cough. Sore throat. Tired. Sick.",
-    "content": {
-      "title": "Problemas de Salud",
-      "instructions": "Vocabulario para síntomas y malestares.",
-      "items": [
-        { "front": "[[Headache|Dolor de cabeza]]", "back": "Dolor de cabeza" },
-        { "front": "[[Stomach ache|Dolor de estómago]]", "back": "Dolor de estómago" },
-        { "front": "[[Toothache|Dolor de muelas]]", "back": "Dolor de muelas" },
-        { "front": "[[Cold|Resfriado]]", "back": "Resfriado" },
-        { "front": "[[Fever|Fiebre]]", "back": "Fiebre" },
-        { "front": "[[Cough|Tos]]", "back": "Tos" },
-        { "front": "[[Sore throat|Dolor de garganta]]", "back": "Dolor de garganta" },
-        { "front": "[[Tired|Cansado]]", "back": "Cansado" },
-        { "front": "[[Sick|Enfermo]]", "back": "Enfermo" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-20/e2.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u20-e3",
     "type": "multiple-choice",
     "level": "A1",

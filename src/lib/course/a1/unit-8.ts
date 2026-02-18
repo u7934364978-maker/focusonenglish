@@ -5,31 +5,6 @@ export const UNIT_8_EXERCISES: Exercise[] = [
   // VOCABULARY: NUMBERS 20-100 (1-10)
   // ==========================================
   {
-    "id": "a1-u8-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Numbers 20-100",
-    "difficulty": "easy",
-    "transcript": "[[Twenty|Veinte]]. [[Thirty|Treinta]]. [[Forty|Cuarenta]]. [[Fifty|Cincuenta]]. [[Sixty|Sesenta]]. [[Seventy|Setenta]]. [[Eighty|Ochenta]]. [[Ninety|Noventa]]. [[One hundred|Cien]].",
-    "content": {
-      "title": "Vocabulario: Números 20-100",
-      "instructions": "Aprende las decenas en inglés.",
-      "items": [
-        { "front": "[[Twenty|Veinte]]", "back": "Twenty" },
-        { "front": "[[Thirty|Treinta]]", "back": "Thirty" },
-        { "front": "[[Forty|Cuarenta]]", "back": "Forty" },
-        { "front": "[[Fifty|Cincuenta]]", "back": "Fifty" },
-        { "front": "[[Sixty|Sesenta]]", "back": "Sixty" },
-        { "front": "[[Seventy|Setenta]]", "back": "Seventy" },
-        { "front": "[[Eighty|Ochenta]]", "back": "Eighty" },
-        { "front": "[[Ninety|Noventa]]", "back": "Ninety" },
-        { "front": "[[One hundred|Cien]]", "back": "One hundred" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-8/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u8-e2",
     "type": "multiple-choice",
     "level": "A1",
@@ -196,26 +171,6 @@ export const UNIT_8_EXERCISES: Exercise[] = [
   // VOCABULARY: AGES (11-20)
   // ==========================================
   {
-    "id": "a1-u8-e11",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Ages",
-    "difficulty": "easy",
-    "transcript": "[[How|Qué]] [[old|tan viejo]] [[are|eres]] [[you|tú]]? [[I|Yo]] [[am|tengo]] [[twenty|veinte]] [[years|años]] [[old|de edad]]. [[He|Él]] [[is|tiene]] [[forty-five|cuarenta y cinco]]. [[She|Ella]] [[is|tiene]] [[sixty-two|sesenta y dos]]. [[They|Ellos]] [[are|tienen]] [[eighty|ochenta]].",
-    "content": {
-      "title": "Vocabulario: Edades",
-      "instructions": "Aprende a preguntar y decir la edad.",
-      "items": [
-        { "front": "[[How old are you?|¿Cuántos años tienes?]]", "back": "How old are you?" },
-        { "front": "[[I am twenty years old|Tengo veinte años]]", "back": "I am twenty years old" },
-        { "front": "[[He is forty-five|Él tiene cuarenta y cinco]]", "back": "He is forty-five" },
-        { "front": "[[She is sixty-two|Ella tiene sesenta y dos]]", "back": "She is sixty-two" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-8/e11.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u8-e12",
     "type": "multiple-choice",
     "level": "A1",
@@ -379,27 +334,6 @@ export const UNIT_8_EXERCISES: Exercise[] = [
   // ==========================================
   // VOCABULARY: PRICES (21-30)
   // ==========================================
-  {
-    "id": "a1-u8-e21",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Prices",
-    "difficulty": "easy",
-    "transcript": "[[How|Cuánto]] [[much|mucho]] [[is|es]] [[it|ello]]? [[It|Ello]] [[is|es]] [[twenty|veinte]] [[dollars|dólares]]. [[How|Cuánto]] [[much|mucho]] [[are|cuestan]] [[the|las]] [[shoes|zapatos]]? [[They|Ellos]] [[are|cuestan]] [[forty-five|cuarenta y cinco]] [[euros|euros]]. [[Pounds|Libras]]. [[Price|Precio]]. [[Cheap|Barato]]. [[Expensive|Caro]].",
-    "content": {
-      "title": "Vocabulario: Precios",
-      "instructions": "Aprende a preguntar precios y monedas.",
-      "items": [
-        { "front": "[[How much is it?|¿Cuánto cuesta?]]", "back": "How much is it?" },
-        { "front": "[[Twenty dollars|Veinte dólares]]", "back": "Twenty dollars" },
-        { "front": "[[Forty-five euros|Cuarenta y cinco euros]]", "back": "Forty-five euros" },
-        { "front": "[[Cheap|Barato]]", "back": "Cheap" },
-        { "front": "[[Expensive|Caro]]", "back": "Expensive" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-8/e21.mp3",
-    "topicName": "Vocabulary"
-  },
   {
     "id": "a1-u8-e22",
     "type": "multiple-choice",
@@ -571,26 +505,6 @@ export const UNIT_8_EXERCISES: Exercise[] = [
   // ==========================================
   // VOCABULARY: PHONE NUMBERS (31-40)
   // ==========================================
-  {
-    "id": "a1-u8-e31",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Phone Numbers",
-    "difficulty": "easy",
-    "transcript": "[[What|Cuál]] [[is|es]] [[your|tu]] [[phone|teléfono]] [[number|número]]? [[My|Mi]] [[number|número]] [[is|es]] [[zero|cero]] [[one|uno]] [[two|dos]] [[three|tres]] [[four|cuatro]] [[five|cinco]]. [[Zero|Cero]] [[or|o]] [[O|O (letra)]]. [[Double|Doble]].",
-    "content": {
-      "title": "Vocabulario: Teléfonos",
-      "instructions": "Aprende a decir números de teléfono.",
-      "items": [
-        { "front": "[[What is your phone number?|¿Cuál es tu número de teléfono?]]", "back": "What is your phone number?" },
-        { "front": "[[My number is...|Mi número es...]]", "back": "My number is..." },
-        { "front": "[[Double five|Doble cinco (55)]]", "back": "Double five" },
-        { "front": "[[O/Zero|Cero]]", "back": "O/Zero" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-8/e31.mp3",
-    "topicName": "Vocabulary"
-  },
   {
     "id": "a1-u8-e32",
     "type": "multiple-choice",

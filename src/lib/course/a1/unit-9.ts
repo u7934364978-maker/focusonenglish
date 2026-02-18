@@ -5,32 +5,6 @@ export const UNIT_9_EXERCISES: Exercise[] = [
   // VOCABULARY: JOBS & PROFESSIONS (1-10)
   // ==========================================
   {
-    "id": "a1-u9-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Jobs",
-    "difficulty": "easy",
-    "transcript": "[[Teacher|Profesor]]. [[Doctor|Médico]]. [[Nurse|Enfermero]]. [[Engineer|Ingeniero]]. [[Student|Estudiante]]. [[Waiter|Camarero]]. [[Chef|Cocinero]]. [[Police officer|Oficial de policía]]. [[Driver|Conductor]]. [[Artist|Artista]].",
-    "content": {
-      "title": "Vocabulario: Profesiones",
-      "instructions": "Aprende los nombres de las profesiones comunes.",
-      "items": [
-        { "front": "[[Teacher|Profesor/a]]", "back": "Teacher" },
-        { "front": "[[Doctor|Médico/a]]", "back": "Doctor" },
-        { "front": "[[Nurse|Enfermero/a]]", "back": "Nurse" },
-        { "front": "[[Engineer|Ingeniero/a]]", "back": "Engineer" },
-        { "front": "[[Student|Estudiante]]", "back": "Student" },
-        { "front": "[[Waiter|Camarero/a]]", "back": "Waiter" },
-        { "front": "[[Chef|Chef/Cocinero]]", "back": "Chef" },
-        { "front": "[[Police officer|Policía]]", "back": "Police officer" },
-        { "front": "[[Driver|Conductor/a]]", "back": "Driver" },
-        { "front": "[[Artist|Artista]]", "back": "Artist" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-9/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u9-e2",
     "type": "multiple-choice",
     "level": "A1",
@@ -189,28 +163,6 @@ export const UNIT_9_EXERCISES: Exercise[] = [
   // ==========================================
   // GRAMMAR: ARTICLES & PLACES (11-20)
   // ==========================================
-  {
-    "id": "a1-u9-e11",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Workplaces",
-    "difficulty": "easy",
-    "transcript": "[[In|En]] [[a|un]] [[hospital|hospital]]. [[At|En]] [[a|una]] [[school|escuela]]. [[In|En]] [[an|una]] [[office|oficina]]. [[At|En]] [[a|un]] [[restaurant|restaurante]]. [[On|En]] [[a|una]] [[farm|granja]]. [[At|En]] [[the|la]] [[police station|comisaría]].",
-    "content": {
-      "title": "Vocabulario: Lugares de Trabajo",
-      "instructions": "Aprende dónde trabajan estas profesiones.",
-      "items": [
-        { "front": "[[In a hospital|En un hospital]]", "back": "In a hospital" },
-        { "front": "[[At a school|En una escuela]]", "back": "At a school" },
-        { "front": "[[In an office|En una oficina]]", "back": "In an office" },
-        { "front": "[[At a restaurant|En un restaurante]]", "back": "At a restaurant" },
-        { "front": "[[On a farm|En una granja]]", "back": "On a farm" },
-        { "front": "[[At the police station|En la comisaría]]", "back": "At the police station" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-9/e11.mp3",
-    "topicName": "Vocabulary"
-  },
   {
     "id": "a1-u9-e12",
     "type": "multiple-choice",

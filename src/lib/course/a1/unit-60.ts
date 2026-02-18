@@ -2,42 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_60_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u60-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Module 6 Review",
-    "difficulty": "easy",
-    "transcript": "Shopping. Food. Restaurant. Health. Money",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Shopping|Compras]]",
-          "back": "Compras"
-        },
-        {
-          "front": "[[Food|Comida]]",
-          "back": "Comida"
-        },
-        {
-          "front": "[[Restaurant|Restaurante]]",
-          "back": "Restaurante"
-        },
-        {
-          "front": "[[Health|Salud]]",
-          "back": "Salud"
-        },
-        {
-          "front": "[[Money|Dinero]]",
-          "back": "Dinero"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-60/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u60-e2",
     "type": "multiple-choice",
     "level": "A1",

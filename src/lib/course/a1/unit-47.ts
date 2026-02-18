@@ -2,50 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_47_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u47-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Holidays & Vacation",
-    "difficulty": "easy",
-    "transcript": "Holiday. Vacation. Beach. Mountains. Sightseeing. Relax. Adventure",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Holiday|Vacaciones]]",
-          "back": "Vacaciones"
-        },
-        {
-          "front": "[[Vacation|Vacaciones]]",
-          "back": "Vacaciones"
-        },
-        {
-          "front": "[[Beach|Playa]]",
-          "back": "Playa"
-        },
-        {
-          "front": "[[Mountains|Montañas]]",
-          "back": "Montañas"
-        },
-        {
-          "front": "[[Sightseeing|Turismo]]",
-          "back": "Turismo"
-        },
-        {
-          "front": "[[Relax|Relajarse]]",
-          "back": "Relajarse"
-        },
-        {
-          "front": "[[Adventure|Aventura]]",
-          "back": "Aventura"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u47-e2",
     "type": "multiple-choice",
     "level": "A1",

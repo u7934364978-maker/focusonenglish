@@ -2,69 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_13_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u13-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Daily Routine",
-    "difficulty": "easy",
-    "transcript": "[[Wake up|Despertar]]. [[Get up|Levantarse]]. [[Brush my teeth|Lavarse los dientes]]. [[Take a shower|Ducharse]]. [[Get dressed|Vestirse]].",
-    "content": {
-      "title": "[[Vocabulary|Vocabulario]]: [[Morning|Mañana]]",
-      "instructions": "[[Learn|Aprende]] [[the|las]] [[first|primeras]] [[activities|actividades]] [[of|de]] [[the|el]] [[day|día]].",
-      "items": [
-        { "front": "[[Wake up|Despertar]]", "back": "Despertar" },
-        { "front": "[[Get up|Levantarse]]", "back": "Levantarse" },
-        { "front": "[[Brush my teeth|Lavarse los dientes]]", "back": "Lavarse los dientes" },
-        { "front": "[[Take a shower|Ducharse]]", "back": "Ducharse" },
-        { "front": "[[Get dressed|Vestirse]]", "back": "Vestirse" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-13/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u13-e2",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Daily Routine",
-    "difficulty": "easy",
-    "transcript": "[[Have breakfast|Desayunar]]. [[Go to work|Ir al trabajo]]. [[Start work|Empezar a trabajar]]. [[Have lunch|Almorzar]]. [[Finish work|Terminar de trabajar]].",
-    "content": {
-      "title": "[[Vocabulary|Vocabulario]]: [[Work|Trabajo]]",
-      "instructions": "[[Activities|Actividades]] [[during|durante]] [[the|el]] [[day|día]].",
-      "items": [
-        { "front": "[[Have breakfast|Desayunar]]", "back": "Desayunar" },
-        { "front": "[[Go to work|Ir al trabajo]]", "back": "Ir al trabajo" },
-        { "front": "[[Start work|Empezar a trabajar]]", "back": "Empezar a trabajar" },
-        { "front": "[[Have lunch|Almorzar]]", "back": "Almorzar" },
-        { "front": "[[Finish work|Terminar de trabajar]]", "back": "Terminar de trabajar" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-13/e2.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u13-e3",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Daily Routine",
-    "difficulty": "easy",
-    "transcript": "[[Go home|Ir a casa]]. [[Have dinner|Cenar]]. [[Watch TV|Ver la tele]]. [[Go to bed|Ir a la cama]]. [[Sleep|Dormir]].",
-    "content": {
-      "title": "[[Vocabulary|Vocabulario]]: [[Afternoon|Tarde]] [[and|y]] [[Night|Noche]]",
-      "instructions": "[[Activities|Actividades]] [[at|al]] [[the|el]] [[end|final]] [[of|de]] [[the|el]] [[day|día]].",
-      "items": [
-        { "front": "[[Go home|Ir a casa]]", "back": "Ir a casa" },
-        { "front": "[[Have dinner|Cenar]]", "back": "Cenar" },
-        { "front": "[[Watch TV|Ver la tele]]", "back": "Ver la tele" },
-        { "front": "[[Go to bed|Ir a la cama]]", "back": "Ir a la cama" },
-        { "front": "[[Sleep|Dormir]]", "back": "Dormir" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-13/e3.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u13-e4",
     "type": "multiple-choice",
     "level": "A1",

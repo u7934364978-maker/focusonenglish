@@ -2,62 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_28_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u28-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Body Parts",
-    "difficulty": "easy",
-    "transcript": "Head. Arm. Hand. Leg. Foot. Eye. Nose. Mouth. Ear. Shoulder",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Head|Ser/estar]]",
-          "back": "Cabeza"
-        },
-        {
-          "front": "[[Arm|Brazo]]",
-          "back": "Brazo"
-        },
-        {
-          "front": "[[Hand|Mano]]",
-          "back": "Mano"
-        },
-        {
-          "front": "[[Leg|Pierna]]",
-          "back": "Pierna"
-        },
-        {
-          "front": "[[Foot|Pie]]",
-          "back": "Pie"
-        },
-        {
-          "front": "[[Eye|Ojo]]",
-          "back": "Ojo"
-        },
-        {
-          "front": "[[Nose|Nariz]]",
-          "back": "Nariz"
-        },
-        {
-          "front": "[[Mouth|Boca]]",
-          "back": "Boca"
-        },
-        {
-          "front": "[[Ear|Oreja]]",
-          "back": "Oreja"
-        },
-        {
-          "front": "[[Shoulder|Hombro]]",
-          "back": "Hombro"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-28/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u28-e2",
     "type": "multiple-choice",
     "level": "A1",

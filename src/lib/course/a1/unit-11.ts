@@ -2,33 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_11_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u11-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Telling the Time",
-    "difficulty": "easy",
-    "transcript": "[[Time|Tiempo/hora]]. [[Clock|Reloj]]. [[Watch|Reloj de pulsera]]. [[Hour|Hora]]. [[Minute|Minuto]]. [[Second|Segundo]]. [[Quarter|Cuarto]]. [[Half|Media]]. [[Morning|Mañana]]. [[Afternoon|Tarde]]. [[Evening|Tarde-noche]]. [[Night|Noche]].",
-    "content": {
-      "title": "[[Key|Vocabulario]] [[Vocabulary|Clave]]",
-      "instructions": "[[Learn|Aprende]] [[the|las]] [[most|más]] [[important|importantes]] [[words|palabras]] [[of|de]] [[the|la]] [[unit|unidad]].",
-      "items": [
-        { "front": "[[Time|Tiempo/hora]]", "back": "Tiempo / Hora" },
-        { "front": "[[Clock|Reloj]]", "back": "Reloj (de pared/mesa)" },
-        { "front": "[[Watch|Reloj de pulsera]]", "back": "Reloj de pulsera" },
-        { "front": "[[Hour|Hora]]", "back": "Hora" },
-        { "front": "[[Minute|Minuto]]", "back": "Minuto" },
-        { "front": "[[Quarter|Cuarto]]", "back": "Cuarto" },
-        { "front": "[[Half|Media]]", "back": "Media" },
-        { "front": "[[Morning|Mañana]]", "back": "Mañana" },
-        { "front": "[[Afternoon|Tarde]]", "back": "Tarde" },
-        { "front": "[[Evening|Tarde-noche]]", "back": "Tarde-noche" },
-        { "front": "[[Night|Noche]]", "back": "Noche" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-11/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u11-e2",
     "type": "multiple-choice",
     "level": "A1",
@@ -809,28 +782,6 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "audio/a1/unit-11/e40.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u11-e41",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Time Expressions",
-    "difficulty": "medium",
-    "transcript": "[[Always|Siempre]]. [[Usually|Usualmente]]. [[Often|A menudo]]. [[Sometimes|A veces]]. [[Rarely|Raramente]]. [[Never|Nunca]].",
-    "content": {
-      "title": "[[Adverbs|Adverbios]] [[of|de]] [[Frequency|Frecuencia]]",
-      "instructions": "[[Review|Repasa]] [[how|con]] [[often|qué]] [[frequency|frecuencia]] [[you|tú]] [[do|haces]] [[things|las cosas]].",
-      "items": [
-        { "front": "[[Always|Siempre]]", "back": "Siempre" },
-        { "front": "[[Usually|Usualmente]]", "back": "Usualmente" },
-        { "front": "[[Often|A menudo]]", "back": "A menudo" },
-        { "front": "[[Sometimes|A veces]]", "back": "A veces" },
-        { "front": "[[Rarely|Raramente]]", "back": "Raramente" },
-        { "front": "[[Never|Nunca]]", "back": "Nunca" }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-11/e41.mp3",
     "topicName": "Vocabulary"
   },
   {

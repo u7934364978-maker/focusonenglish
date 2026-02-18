@@ -2,50 +2,6 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_37_EXERCISES: Exercise[] = [
   {
-    "id": "a1-u37-e1",
-    "type": "flashcard",
-    "level": "A1",
-    "topic": "Talent & Skills",
-    "difficulty": "easy",
-    "transcript": "Talent. Skill. Good at. Bad at. Expert. Beginner. Practice",
-    "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
-        {
-          "front": "[[Talent|Talento]]",
-          "back": "Talento"
-        },
-        {
-          "front": "[[Skill|Habilidad]]",
-          "back": "Habilidad"
-        },
-        {
-          "front": "[[Good at|Bueno en]]",
-          "back": "Bueno en"
-        },
-        {
-          "front": "[[Bad at|Malo en]]",
-          "back": "Malo en"
-        },
-        {
-          "front": "[[Expert|Experto]]",
-          "back": "Experto"
-        },
-        {
-          "front": "[[Beginner|Principiante]]",
-          "back": "Principiante"
-        },
-        {
-          "front": "[[Practice|Práctica]]",
-          "back": "Práctica"
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-37/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
     "id": "a1-u37-e2",
     "type": "multiple-choice",
     "level": "A1",
