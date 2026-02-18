@@ -68,6 +68,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Identify Profession|Identificar Profesión]]",
       "instructions": "[[Select the proper profession|Selecciona la profesión adecuada]].",
+      "question": "[[I bring food to your table. I am a|Traigo comida a tu mesa. Soy un]] (____).",
       "options": ["[[chef|cocinero]]", "[[engineer|ingeniero]]", "[[waiter|camarero]]"],
       "correctAnswer": 2,
       "explanation": "[[The waiter brings the food to the table|El camarero trae la comida a la mesa]]."
@@ -85,6 +86,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Identify Profession|Identificar Profesión]]",
       "instructions": "[[Choose the correct word|Elige la palabra correcta]].",
+      "question": "[[They study at the university. They are|Ellos estudian en la universidad. Ellos son]] (____).",
       "options": ["[[students|estudiantes]]", "[[nurses|enfermeros]]", "[[police|policías]]"],
       "correctAnswer": 0,
       "explanation": "[[People who study at the university are students|Las personas que estudian en la universidad son estudiantes]]."
@@ -102,6 +104,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Identify Profession|Identificar Profesión]]",
       "instructions": "[[Choose the logical profession|Elige la profesión lógica]].",
+      "question": "[[She cooks in a restaurant. She is a|Ella cocina en un restaurante. Ella es una]] (____).",
       "options": ["[[nurse|enfermera]]", "[[chef|cocinera]]", "[[teacher|profesora]]"],
       "correctAnswer": 1,
       "explanation": "[[Someone who cooks in a restaurant is a chef|Alguien que cocina en un restaurante es chef o cocinero]]."
@@ -119,6 +122,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Identify Profession|Identificar Profesión]]",
       "instructions": "[[Select the occupation|Selecciona la ocupación]].",
+      "question": "[[He drives a bus. He is a|Él conduce un autobús. Él es un]] (____).",
       "options": ["[[driver|conductor]]", "[[police|policía]]", "[[student|estudiante]]"],
       "correctAnswer": 0,
       "explanation": "[[Drives a bus indicates he is a driver|'Drives a bus' indica que es conductor]]."
@@ -136,6 +140,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Identify Profession|Identificar Profesión]]",
       "instructions": "[[Choose the logical profession|Elige la profesión lógica]].",
+      "question": "[[She paints beautiful pictures. She is an|Ella pinta hermosos cuadros. Ella es una]] (____).",
       "options": ["[[engineer|ingeniero]]", "[[artist|artista]]", "[[waiter|camarero]]"],
       "correctAnswer": 1,
       "explanation": "[[Paints pictures defines an artist|'Paints pictures' define a un artista]]."
@@ -153,6 +158,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Identify Profession|Identificar Profesión]]",
       "instructions": "[[Select the correct profession|Selecciona la profesión correcta]].",
+      "question": "[[He builds bridges. He is an|Él construye puentes. Él es un]] (____).",
       "options": ["[[chef|cocinero]]", "[[driver|conductor]]", "[[engineer|ingeniero]]"],
       "correctAnswer": 2,
       "explanation": "[[Building bridges is an engineer's task|Construir puentes es tarea de un ingeniero]]."
@@ -170,6 +176,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Identify Profession|Identificar Profesión]]",
       "instructions": "[[Choose the profession|Elige la profesión]].",
+      "question": "[[They wear blue uniforms. They are|Ellos llevan uniformes azules. Ellos son]] (____).",
       "options": ["[[police officers|policías]]", "[[doctors|médicos]]", "[[artists|artistas]]"],
       "correctAnswer": 0,
       "explanation": "[[Blue uniform and helping usually refers to police officers|Uniforme azul y ayuda suele referirse a policías]]."
