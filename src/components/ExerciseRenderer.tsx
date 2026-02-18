@@ -392,10 +392,12 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           ) : (
             <div className="space-y-6">
               {questions.length > 0 ? renderCurrentQuestion(questions[currentQuestionIdx], currentQuestionIdx) : (
-                <div className="text-center p-10">
-                  <p className="text-xl text-gray-500">Este ejercicio no tiene preguntas configuradas.</p>
-                  <button onClick={() => onComplete({ success: true, score: 100 })} className="mt-6 bg-slate-800 text-white px-8 py-3 rounded-xl font-bold">Continuar</button>
-                </div>
+                (exerciseContent.question || exerciseContent.text || exerciseContent.prompt) ? renderCurrentQuestion(exerciseContent, 0) : (
+                  <div className="text-center p-10">
+                    <p className="text-xl text-gray-500">Este ejercicio no tiene preguntas configuradas.</p>
+                    <button onClick={() => onComplete({ success: true, score: 100 })} className="mt-6 bg-slate-800 text-white px-8 py-3 rounded-xl font-bold">Continuar</button>
+                  </div>
+                )
               )}
             </div>
           )}

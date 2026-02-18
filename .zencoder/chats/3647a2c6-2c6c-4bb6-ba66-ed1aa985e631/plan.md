@@ -21,6 +21,11 @@
    - **Task**: Update `A1_M1_L5_SENTENCE_COMPLETION`, `A1_M1_L5_ERROR_IDENTIFICATION`, `A1_M1_L5_GAP_FILL`, and `A1_M1_L5_COLLOCATION_MATCHING` (replace all placeholders).
    - **Verification**: Check rendering in `/debug/a1-preview/unit-5`.
 
-### [x] Step 5: Final Review & Testing
-   - **Task**: Run `npm run lint` and verify all 60+ exercises in the preview page.
-   - **Task**: Run `npm test` or `npx playwright test e2e/unit-5-expansion.spec.ts` if applicable.
+### [x] Step 5: Fix Exercise Renderer for Flat Exercises
+   - **File**: `src/components/ExerciseRenderer.tsx`
+   - **Task**: Update the renderer to support exercises where the question and options are directly in the `content` object instead of a `questions` array.
+   - **Verification**: Verified that Exercise 2 ("Los Padres") and others in Unit 5 now render correctly.
+
+### [x] Step 6: Final Review & Testing
+   - **Task**: Run `npm run lint` and verify all 60 exercises in the preview page.
+   - **Task**: Ask user to confirm if all exercises are now showing correctly.
