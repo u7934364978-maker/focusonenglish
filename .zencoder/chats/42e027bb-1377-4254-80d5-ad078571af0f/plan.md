@@ -172,6 +172,25 @@ Created detailed implementation plan based on spec.md. See Implementation tasks 
 
 ---
 
+### [x] TASK 5: Pedagogical Explanations for Unit 1
+**Goal**: Add Spanish pedagogical explanations to all Unit 1 exercises for both correct and incorrect feedback.
+
+**References**:
+- Exercises: `/src/lib/a1-m1-l1-detailed.ts`
+- UI: `/src/components/course/ExerciseRenderer.tsx`
+
+**Steps**:
+1. [x] Add `explanation` field to all grammar exercises in `GRAMMAR_QUESTIONS`.
+2. [x] Ensure reading exercises have complete explanations.
+3. [x] Verify the UI displays these explanations regardless of the answer's correctness.
+4. [x] Run E2E tests to confirm visibility.
+
+**Verification Criteria**:
+- ✅ Every exercise in Unit 1 has a pedagogical explanation in Spanish.
+- ✅ Explanations are visible in the feedback box after answering.
+
+---
+
 ## Summary
 
 | Task | Effort | Impact | Status |
@@ -180,6 +199,7 @@ Created detailed implementation plan based on spec.md. See Implementation tasks 
 | 2. Debug & Fix (Lexicon Expansion) | 30 min | Fixes missing word tooltips | [x] ✅ DONE |
 | 3. E2E Tests | 45 min | Ensures reliability | [x] ✅ PASS (12/12 unit tests) |
 | 4. Final Verification | 15 min | Prevents regressions | [x] ✅ PASS |
+| 5. Pedagogical Explanations | 45 min | Improves learning experience | [x] ✅ DONE |
 
 **Total Expected Time**: ~75 minutes (including test writing and debugging time)
 
