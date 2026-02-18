@@ -263,7 +263,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           )}
 
           {/* Fill Blank */}
-          {q.type === 'fill-blank' && (
+          {(q.type === 'fill-blank' || exercise.type === 'fill-blank') && (
             <input
               type="text"
               value={userAnswer || ''}
@@ -368,10 +368,24 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     <div className={`transition-all duration-300 ${isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'}`}>
       <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
         <div className="p-8 border-b border-gray-50 bg-slate-50/50">
-          <div className="flex flex-wrap gap-2 mb-4">
-            <span className="bg-orange-500 text-white px-4 py-1 rounded-full font-black text-xs uppercase tracking-widest">{exercise.level}</span>
-            <span className="bg-blue-500 text-white px-4 py-1 rounded-full font-black text-xs uppercase tracking-widest">{exercise.type}</span>
-            <span className="bg-purple-500 text-white px-4 py-1 rounded-full font-black text-xs uppercase tracking-widest">{exercise.topicName}</span>
+          <div className="flex flex-wrap items-center justify-between gap-4 mb-4">
+            <div className="flex flex-wrap gap-2">
+              <span className="bg-orange-500 text-white px-4 py-1 rounded-full font-black text-xs uppercase tracking-widest">{exercise.level}</span>
+              <span className="bg-blue-500 text-white px-4 py-1 rounded-full font-black text-xs uppercase tracking-widest">{exercise.type}</span>
+              <span className="bg-purple-500 text-white px-4 py-1 rounded-full font-black text-xs uppercase tracking-widest">{exercise.topicName}</span>
+            </div>
+            {exercise.audioUrl && (
+              <button
+                onClick={() => {
+                  const audio = new Audio(exercise.audioUrl?.startsWith('/') ? exercise.audioUrl : `/${exercise.audioUrl}`);
+                  audio.play().catch(err => console.error('Error playing exercise audio:', err));
+                }}
+                className="flex items-center gap-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full font-bold hover:bg-orange-200 transition-all transform hover:scale-105 active:scale-95 shadow-sm border border-orange-200"
+              >
+                <Volume2 className="w-5 h-5" />
+                <span className="hidden sm:inline">Escuchar audio</span>
+              </button>
+            )}
           </div>
           <h2 className="text-3xl font-black text-gray-900 tracking-tight"><TranslatedText text={exerciseContent.title || 'Ejercicio'} /></h2>
           {exerciseContent.instructions && <div className="text-gray-500 mt-2 text-lg font-medium"><Markdown content={exerciseContent.instructions} /></div>}
