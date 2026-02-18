@@ -1,652 +1,153 @@
-// A1 Module 1 Lesson 3: Moods and Questions
-// Redesigned to match the high-quality format of units 5, 6, and 7
+// A1 Module 1 Unit 3: Moods and Questions
 // Focus: Adjectives of mood, Verb 'to be' negatives, Yes/No questions, and short answers
+// Total: 60 Exercises
 
 import { Exercise } from './exercise-types';
 
-// ============================================
-// GRAMMAR EXERCISE 1: Verb 'to be' Negatives (am not, isn't, aren't)
-// ============================================
-export const A1_M1_L3_GRAMMAR_1: Exercise = {
-  id: 'a1-m1-l3-grammar-1',
-  type: 'grammar',
-  title: "Verb 'to be' Negatives",
-  grammarPoint: "Negative forms of 'to be'",
-  explanation: `To make a negative sentence with the verb **to be**, we add **not** after the verb.
-  
-  **Negative Forms:**
-  • **I am not** (Contraction: **I'm not**)
-  • **You are not** (Contractions: **You're not** / **You aren't**)
-  • **He is not** (Contractions: **He's not** / **He isn't**)
-  • **She is not** (Contractions: **She's not** / **She isn't**)
-  • **It is not** (Contractions: **It's not** / **It isn't**)
-  • **We are not** (Contractions: **We're not** / **We aren't**)
-  • **They are not** (Contractions: **They're not** / **They aren't**)
-  
-  **Examples:**
-  • "I **am not** sad."
-  • "He **is not** at home."
-  • "They **aren't** from Spain."`,
-  examples: [
-    "I'm not tired today.",
-    "She isn't a doctor.",
-    "We aren't from Italy.",
-    "It isn't cold outside.",
-    "You're not my teacher."
-  ],
-  questions: [
-    {
-      id: 'a1-m1-l3-g1-q1',
-      type: 'multiple-choice',
-      question: 'I ___ sad. I am happy!',
-      options: ['[[am not|no soy/estoy]]', '[[is not|no es/está]]', '[[are not|no eres/estás]]', '[[no am|no soy]]'],
-      correctAnswer: 'am not',
-      explanation: 'We use "am not" with "I".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g1-q2',
-      type: 'multiple-choice',
-      question: 'He ___ from France. He is from Spain.',
-      options: ['[[am not|no soy/estoy]]', '[[isn\'t|no es/está]]', '[[aren\'t|no son/están]]', '[[not is|no es]]'],
-      correctAnswer: 'isn\'t',
-      explanation: 'We use "isn\'t" (contraction of is not) with "he".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g1-q3',
-      type: 'multiple-choice',
-      question: 'They ___ at school today.',
-      options: ['[[am not|no soy/estoy]]', '[[isn\'t|no es/está]]', '[[aren\'t|no son/están]]', '[[no are|no son]]'],
-      correctAnswer: 'aren\'t',
-      explanation: 'We use "aren\'t" (contraction of are not) with "they".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g1-q4',
-      type: 'fill-blank',
-      question: 'She ___ my sister. She is my friend.',
-      correctAnswer: "isn't",
-      acceptableAnswers: ["isn't", 'is not'],
-      explanation: 'Use "is not" or "isn\'t" for singular third person.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g1-q5',
-      type: 'fill-blank',
-      question: 'We ___ from England. We are from the USA.',
-      correctAnswer: "aren't",
-      acceptableAnswers: ["aren't", 'are not'],
-      explanation: 'Use "are not" or "aren\'t" for plural subjects.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g1-q6',
-      type: 'multiple-choice',
-      question: 'Which contraction is correct for "It is not"?',
-      options: ['[[It\'isnt|ello\'no]]', '[[It isn\'t|Ello no es]]', '[[It\'s not|Ello no es]]', '[[Both 2 and 3|Ambos 2 y 3]]'],
-      correctAnswer: 'Both 2 and 3',
-      explanation: 'Both "It isn\'t" and "It\'s not" are correct contractions.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g1-q7',
-      type: 'true-false',
-      question: 'We can say "I aren\'t tired."',
-      correctAnswer: 'False',
-      explanation: 'False. We must say "I am not tired" or "I\'m not tired".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g1-q8',
-      type: 'fill-blank',
-      question: 'You ___ 20 years old. You are 25!',
-      correctAnswer: "aren't",
-      acceptableAnswers: ["aren't", 'are not', "'re not"],
-      explanation: 'Use "are not" or contractions with "you".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g1-q9',
-      type: 'multiple-choice',
-      question: 'The car ___ new. It is old.',
-      options: ['[[am not|no soy/estoy]]', '[[isn\'t|no es/está]]', '[[aren\'t|no son/están]]', '[[no|no]]'],
-      correctAnswer: 'isn\'t',
-      explanation: 'The car = it, so use "isn\'t".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g1-q10',
-      type: 'true-false',
-      question: '"They\'re not" is a correct contraction.',
-      correctAnswer: 'True',
-      explanation: 'True. "They\'re not" is a common contraction of "They are not".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g1-q11',
-      type: 'fill-blank',
-      question: 'I ___ hungry.',
-      correctAnswer: "am not",
-      acceptableAnswers: ["am not", "'m not"],
-      explanation: 'Negative form for I.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g1-q12',
-      type: 'multiple-choice',
-      question: 'My parents ___ here.',
-      options: ['[[am not|no soy/estoy]]', '[[isn\'t|no es/está]]', '[[aren\'t|no son/están]]', '[[not|no]]'],
-      correctAnswer: 'aren\'t',
-      explanation: '"My parents" (they) = aren\'t.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g1-q13',
-      type: 'fill-blank',
-      question: 'It ___ hot today. It is cold.',
-      correctAnswer: "isn't",
-      acceptableAnswers: ["isn't", "is not", "'s not"],
-      explanation: 'Negative form for it.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g1-q14',
-      type: 'multiple-choice',
-      question: 'Which one is correct?',
-      options: ['[[You no are a student.|tú no eres estudiante]]', '[[You are not a student.|Tú no eres estudiante.]]', '[[You not is a student.|tú no es estudiante]]', '[[You am not a student.|tú soy no estudiante]]'],
-      correctAnswer: 'You are not a student.',
-      explanation: '"You are not" is the correct negative form.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g1-q15',
-      type: 'true-false',
-      question: '"He isn\'t" means the same as "He is not".',
-      correctAnswer: 'True',
-      explanation: 'True. "Isn\'t" is a contraction.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g1-q16',
-      type: 'fill-blank',
-      question: 'London ___ in Italy.',
-      correctAnswer: "isn't",
-      acceptableAnswers: ["isn't", "is not", "'s not"],
-      explanation: 'London = it, so use isn\'t.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g1-q17',
-      type: 'multiple-choice',
-      question: 'We ___ tired.',
-      options: ['[[am not|no soy/estoy]]', '[[isn\'t|no es/está]]', '[[aren\'t|no somos/estamos]]', '[[no|no]]'],
-      correctAnswer: 'aren\'t',
-      explanation: 'We = aren\'t.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g1-q18',
-      type: 'fill-blank',
-      question: 'I ___ 10 years old. I am 20!',
-      correctAnswer: "am not",
-      acceptableAnswers: ["am not", "'m not"],
-      explanation: 'Negative form for I.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g1-q19',
-      type: 'true-false',
-      question: 'We use "don\'t" with the verb "to be" to make it negative.',
-      correctAnswer: 'False',
-      explanation: 'False. With "to be", we only add "not". We don\'t use "don\'t" (e.g., "I am not", not "I don\'t be").',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g1-q20',
-      type: 'multiple-choice',
-      question: 'Which is correct?',
-      options: ["She's not tired.", "She isn't tired.", "She is not tired.", "All are correct."],
-      correctAnswer: 'All are correct.',
-      explanation: 'All three forms are grammatically correct ways to express the negative.',
-      points: 1
+// Helper to create a simple exercise from a question
+const createExercise = (id: string, q: any, topic: string): Exercise => ({
+  id,
+  type: q.type || 'grammar',
+  level: 'A1',
+  topicName: topic,
+  content: {
+    title: topic,
+    instructions: q.type === 'fill-blank' ? 'Escribe la palabra correcta.' : 'Elige la respuesta correcta.',
+    questions: [q]
+  }
+});
+
+const GRAMMAR_QUESTIONS = [
+  // Verb 'to be' Negatives (1-20)
+  { id: 'a1-m1-l3-q1', type: 'multiple-choice', question: 'I ___ sad. I am happy!', options: ['[[am not|no soy/estoy]]', '[[is not|no es/está]]', '[[are not|no eres/estás]]'], correctAnswer: 'am not' },
+  { id: 'a1-m1-l3-q2', type: 'multiple-choice', question: 'He ___ from France. He is from Spain.', options: ['[[am not|no soy/estoy]]', "[[isn't|no es/está]]", "[[aren't|no son/están]]"], correctAnswer: "isn't" },
+  { id: 'a1-m1-l3-q3', type: 'multiple-choice', question: 'They ___ at school today.', options: ['[[am not|no soy/estoy]]', "[[isn't|no es/está]]", "[[aren't|no son/están]]"], correctAnswer: "aren't" },
+  { id: 'a1-m1-l3-q4', type: 'fill-blank', question: 'She ___ my sister. She is my friend.', correctAnswer: "isn't" },
+  { id: 'a1-m1-l3-q5', type: 'fill-blank', question: 'We ___ from England. We are from the USA.', correctAnswer: "aren't" },
+  { id: 'a1-m1-l3-q6', type: 'multiple-choice', question: 'Which contraction is correct for "It is not"?', options: ["[[It isn't|Ello no es]]", "[[It's not|Ello no es]]", "[[Both|Ambos]]"], correctAnswer: 'Both' },
+  { id: 'a1-m1-l3-q7', type: 'true-false', question: 'We can say "I aren\'t tired."', correctAnswer: 'False' },
+  { id: 'a1-m1-l3-q8', type: 'fill-blank', question: 'You ___ 20 years old. You are 25!', correctAnswer: "aren't" },
+  { id: 'a1-m1-l3-q9', type: 'multiple-choice', question: 'The car ___ new. It is old.', options: ['[[am not|no soy/estoy]]', "[[isn't|no es/está]]", "[[aren't|no son/están]]"], correctAnswer: "isn't" },
+  { id: 'a1-m1-l3-q10', type: 'true-false', question: '"They\'re not" is a correct contraction.', correctAnswer: 'True' },
+  { id: 'a1-m1-l3-q11', type: 'fill-blank', question: 'I ___ hungry.', correctAnswer: "am not" },
+  { id: 'a1-m1-l3-q12', type: 'multiple-choice', question: 'My parents ___ here.', options: ['[[am not|no soy/estoy]]', "[[isn't|no es/está]]", "[[aren't|no son/están]]"], correctAnswer: "aren't" },
+  { id: 'a1-m1-l3-q13', type: 'fill-blank', question: 'It ___ hot today. It is cold.', correctAnswer: "isn't" },
+  { id: 'a1-m1-l3-q14', type: 'multiple-choice', question: 'Which one is correct?', options: ['[[You no are|tú no eres]]', '[[You are not|Tú no eres]]', '[[You am not|tú soy no]]'], correctAnswer: 'You are not' },
+  { id: 'a1-m1-l3-q15', type: 'true-false', question: '"He isn\'t" means the same as "He is not".', correctAnswer: 'True' },
+  { id: 'a1-m1-l3-q16', type: 'fill-blank', question: 'London ___ in Italy.', correctAnswer: "isn't" },
+  { id: 'a1-m1-l3-q17', type: 'multiple-choice', question: 'We ___ tired.', options: ['[[am not|no soy/estoy]]', "[[isn't|no es/está]]", "[[aren't|no somos/estamos]]"], correctAnswer: "aren't" },
+  { id: 'a1-m1-l3-q18', type: 'fill-blank', question: 'I ___ 10 years old. I am 20!', correctAnswer: "am not" },
+  { id: 'a1-m1-l3-q19', type: 'true-false', question: 'We use "don\'t" with the verb "to be".', correctAnswer: 'False' },
+  { id: 'a1-m1-l3-q20', type: 'multiple-choice', question: 'Choose the correct form:', options: ["[[She's not|Ella no está]]", "[[She isn't|Ella no está]]", "[[Both|Ambas]]"], correctAnswer: 'Both' },
+
+  // Yes/No Questions (21-40)
+  { id: 'a1-m1-l3-q21', type: 'multiple-choice', question: '___ you from Spain?', options: ['[[Am|¿Soy?]]', '[[Is|¿Es?]]', '[[Are|¿Eres?]]'], correctAnswer: 'Are' },
+  { id: 'a1-m1-l3-q22', type: 'multiple-choice', question: '___ he a doctor?', options: ['[[Am|¿Soy?]]', '[[Is|¿Es?]]', '[[Are|¿Eres?]]'], correctAnswer: 'Is' },
+  { id: 'a1-m1-l3-q23', type: 'fill-blank', question: '___ she your sister?', correctAnswer: 'Is' },
+  { id: 'a1-m1-l3-q24', type: 'multiple-choice', question: 'Are they happy? - Yes, they ___.', options: ['[[am|soy]]', '[[is|es]]', '[[are|son]]'], correctAnswer: 'are' },
+  { id: 'a1-m1-l3-q25', type: 'multiple-choice', question: 'Is it cold today? - No, it ___.', options: ['[[am not|no soy]]', "[[isn't|no es]]", "[[aren't|no son]]"], correctAnswer: "isn't" },
+  { id: 'a1-m1-l3-q26', type: 'fill-blank', question: '___ you and Tom friends?', correctAnswer: 'Are' },
+  { id: 'a1-m1-l3-q27', type: 'true-false', question: 'In a question, the subject comes BEFORE the verb.', correctAnswer: 'False' },
+  { id: 'a1-m1-l3-q28', type: 'multiple-choice', question: 'Am I late? - No, you ___.', options: ['[[am not|no soy]]', "[[aren't|no eres]]", "[[isn't|no es]]"], correctAnswer: "aren't" },
+  { id: 'a1-m1-l3-q29', type: 'fill-blank', question: '___ your name Luis?', correctAnswer: 'Is' },
+  { id: 'a1-m1-l3-q30', type: 'true-false', question: 'Affirmative short answers like "Yes, I\'m" are correct.', correctAnswer: 'False' },
+  { id: 'a1-m1-l3-q31', type: 'multiple-choice', question: '___ the students ready?', options: ['[[Am|¿Soy?]]', '[[Is|¿Es?]]', '[[Are|¿Son?]]'], correctAnswer: 'Are' },
+  { id: 'a1-m1-l3-q32', type: 'fill-blank', question: 'Is she from Japan? - No, she ___.', correctAnswer: "isn't" },
+  { id: 'a1-m1-l3-q33', type: 'multiple-choice', question: '___ I in room 10?', options: ['[[Am|¿Soy?]]', '[[Is|¿Es?]]', '[[Are|¿Eres?]]'], correctAnswer: 'Am' },
+  { id: 'a1-m1-l3-q34', type: 'true-false', question: '"Are you tired?" is a correct question.', correctAnswer: 'True' },
+  { id: 'a1-m1-l3-q35', type: 'fill-blank', question: '___ your parents at home?', correctAnswer: 'Are' },
+  { id: 'a1-m1-l3-q36', type: 'multiple-choice', question: 'Are you hungry? - No, ___.', options: ["[[I am|yo soy]]", "[[I'm not|yo no soy]]", "[[you aren't|tú no eres]]"], correctAnswer: "I'm not" },
+  { id: 'a1-m1-l3-q37', type: 'fill-blank', question: '___ he your teacher?', correctAnswer: 'Is' },
+  { id: 'a1-m1-l3-q38', type: 'multiple-choice', question: 'Is Maria 25? - Yes, ___.', options: ["[[he is|él es]]", "[[she is|ella es]]", "[[it is|ello es]]"], correctAnswer: 'she is' },
+  { id: 'a1-m1-l3-q39', type: 'true-false', question: 'We can say "Is you from Spain?".', correctAnswer: 'False' },
+  { id: 'a1-m1-l3-q40', type: 'fill-blank', question: '___ we ready?', correctAnswer: 'Are' },
+
+  // Practice & Vocabulary (41-55)
+  { id: 'a1-m1-l3-q41', type: 'multiple-choice', question: 'I am ___. I want to sleep.', options: ['[[Happy|Feliz]]', '[[Tired|Cansado]]', '[[Angry|Enojado]]'], correctAnswer: 'Tired' },
+  { id: 'a1-m1-l3-q42', type: 'multiple-choice', question: 'I am ___. I want a sandwich.', options: ['[[Thirsty|Sediento]]', '[[Hungry|Hambriento]]', '[[Bored|Aburrido]]'], correctAnswer: 'Hungry' },
+  { id: 'a1-m1-l3-q43', type: 'fill-blank', question: 'He is not sad. He is ___.', correctAnswer: 'happy' },
+  { id: 'a1-m1-l3-q44', type: 'multiple-choice', question: 'She is ___. She has a lot of work.', options: ['[[Busy|Ocupada]]', '[[Lazy|Perezosa]]', '[[Excited|Emocionada]]'], correctAnswer: 'Busy' },
+  { id: 'a1-m1-l3-q45', type: 'multiple-choice', question: 'They are ___. It is a surprise!', options: ['[[Scared|Asustados]]', '[[Excited|Emocionados]]', '[[Angry|Enojados]]'], correctAnswer: 'Excited' },
+  { id: 'a1-m1-l3-q46', type: 'true-false', question: '"Bored" means you are having a lot of fun.', correctAnswer: 'False' },
+  { id: 'a1-m1-l3-q47', type: 'fill-blank', question: 'Are you ___? No, I am fine.', correctAnswer: 'tired' },
+  { id: 'a1-m1-l3-q48', type: 'multiple-choice', question: 'He is ___. The train is late.', options: ['[[Happy|Feliz]]', '[[Angry|Enojado]]', '[[Sleepy|Soñoliento]]'], correctAnswer: 'Angry' },
+  { id: 'a1-m1-l3-q49', type: 'fill-blank', question: 'She is ___. She wants some water.', correctAnswer: 'thirsty' },
+  { id: 'a1-m1-l3-q50', type: 'multiple-choice', question: 'We are ___. There is nothing to do.', options: ['[[Bored|Aburridos]]', '[[Busy|Ocupados]]', '[[Interested|Interesados]]'], correctAnswer: 'Bored' },
+  { id: 'a1-m1-l3-q51', type: 'true-false', question: '"Fine" and "Well" mean similar things.', correctAnswer: 'True' },
+  { id: 'a1-m1-l3-q52', type: 'multiple-choice', question: 'Are they ___? Yes, they want to go to bed.', options: ['[[Hungry|Hambrientos]]', '[[Tired|Cansados]]', '[[Excited|Emocionados]]'], correctAnswer: 'Tired' },
+  { id: 'a1-m1-l3-q53', type: 'fill-blank', question: 'I am not ___. I am happy.', correctAnswer: 'sad' },
+  { id: 'a1-m1-l3-q54', type: 'multiple-choice', question: 'Is he ___? Yes, he is looking for his dog.', options: ['[[Worried|Preocupado]]', '[[Happy|Feliz]]', '[[Bored|Aburrido]]'], correctAnswer: 'Worried' },
+  { id: 'a1-m1-l3-q55', type: 'true-false', question: '"Nervous" is a feeling.', correctAnswer: 'True' },
+];
+
+// Reading Exercises (56-60)
+const READING_EXERCISES: Exercise[] = [
+  {
+    id: 'a1-m1-l3-reading-1',
+    type: 'reading-comprehension',
+    level: 'A1',
+    topicName: 'Reading',
+    transcript: "Ben: I'm not very well. I'm very tired. Emma: Are you sick? Ben: No, I'm not sick. But I am very busy at work.",
+    content: {
+      title: 'Reading: Ben is tired',
+      instructions: 'Read and answer.',
+      questions: [{ id: 'a1-m1-l3-q56', type: 'multiple-choice', question: 'How is Ben?', options: ['[[Sick|Enfermo]]', '[[Tired|Cansado]]', '[[Happy|Feliz]]'], correctAnswer: 'Tired' }]
     }
-  ]
-};
-
-// ============================================
-// GRAMMAR EXERCISE 2: Verb 'to be' Yes/No Questions
-// ============================================
-export const A1_M1_L3_GRAMMAR_2: Exercise = {
-  id: 'a1-m1-l3-grammar-2',
-  type: 'grammar',
-  title: "Verb 'to be' Yes/No Questions",
-  grammarPoint: "Questions and short answers with 'to be'",
-  explanation: `To make a question with the verb **to be**, we change the order: we put the verb **before** the subject.
-  
-  **Question Order:**
-  • **Am I...?**
-  • **Are you...?**
-  • **Is he/she/it...?**
-  • **Are we...?**
-  • **Are they...?**
-  
-  **Short Answers:**
-  • **Yes, I am. / No, I'm not.**
-  • **Yes, you are. / No, you aren't.**
-  • **Yes, he is. / No, he isn't.**
-  • **Yes, they are. / No, they aren't.**
-  
-  *Note: We do NOT use contractions in affirmative short answers (Yes, I am - NOT Yes, I'm).*`,
-  examples: [
-    "Are you a student? - Yes, I am.",
-    "Is she happy? - No, she isn't.",
-    "Are they at home? - Yes, they are.",
-    "Is it cold? - Yes, it is.",
-    "Am I late? - No, you're not."
-  ],
-  questions: [
-    {
-      id: 'a1-m1-l3-g2-q1',
-      type: 'multiple-choice',
-      question: '___ you from Spain?',
-      options: ['[[Am|¿Soy/Estoy?]]', '[[Is|¿Es/Está?]]', '[[Are|¿Eres/Estás?]]', '[[Be|¿Ser/Estar?]]'],
-      correctAnswer: 'Are',
-      explanation: 'We use "Are" for questions with "you".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g2-q2',
-      type: 'multiple-choice',
-      question: '___ he a doctor?',
-      options: ['[[Am|¿Soy/Estoy?]]', '[[Is|¿Es/Está?]]', '[[Are|¿Eres/Estás?]]', '[[Be|¿Ser/Estar?]]'],
-      correctAnswer: 'Is',
-      explanation: 'We use "Is" for questions with "he".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g2-q3',
-      type: 'fill-blank',
-      question: '___ she your sister?',
-      correctAnswer: 'Is',
-      acceptableAnswers: ['Is', 'is'],
-      explanation: 'Verb "is" before "she" for questions.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g2-q4',
-      type: 'multiple-choice',
-      question: 'Are they happy? - Yes, they ___.',
-      options: ['[[am|soy/estoy]]', '[[is|es/está]]', '[[are|son/están]]', '[[be|ser/estar]]'],
-      correctAnswer: 'are',
-      explanation: 'Short answer affirmative for they.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g2-q5',
-      type: 'multiple-choice',
-      question: 'Is it cold today? - No, it ___.',
-      options: ['[[am not|no soy/estoy]]', '[[isn\'t|no es/está]]', '[[aren\'t|no son/están]]', '[[no is|no es]]'],
-      correctAnswer: 'isn\'t',
-      explanation: 'Short answer negative for it.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g2-q6',
-      type: 'fill-blank',
-      question: '___ you and Tom friends? - Yes, we are.',
-      correctAnswer: 'Are',
-      acceptableAnswers: ['Are', 'are'],
-      explanation: '"You and Tom" = plural, so use "Are".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g2-q7',
-      type: 'true-false',
-      question: 'In a question, the subject comes BEFORE the verb "to be".',
-      correctAnswer: 'False',
-      explanation: 'False. In a question, the verb "to be" comes BEFORE the subject (e.g., "Are you...", not "You are...").',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g2-q8',
-      type: 'multiple-choice',
-      question: 'Am I late? - No, you ___.',
-      options: ['[[am not|no soy/estoy]]', '[[aren\'t|no eres/estás]]', '[[isn\'t|no es/está]]', '[[not are|no eres]]'],
-      correctAnswer: 'aren\'t',
-      explanation: 'If the question is "Am I...?", the answer is "No, you aren\'t".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g2-q9',
-      type: 'fill-blank',
-      question: '___ your name Luis? - Yes, it is.',
-      correctAnswer: 'Is',
-      acceptableAnswers: ['Is', 'is'],
-      explanation: '"Your name" = it, so use "Is".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g2-q10',
-      type: 'true-false',
-      question: 'Affirmative short answers like "Yes, I\'m" are correct.',
-      correctAnswer: 'False',
-      explanation: 'False. We do NOT use contractions in affirmative short answers. We say "Yes, I am".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g2-q11',
-      type: 'multiple-choice',
-      question: '___ the students ready?',
-      options: ['[[Am|¿Soy/Estoy?]]', '[[Is|¿Es/Está?]]', '[[Are|¿Son/Están?]]', '[[Be|¿Ser/Estar?]]'],
-      correctAnswer: 'Are',
-      explanation: '"Students" (plural) = are.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g2-q12',
-      type: 'fill-blank',
-      question: 'Is she from Japan? - No, she ___.',
-      correctAnswer: "isn't",
-      acceptableAnswers: ["isn't", "is not"],
-      explanation: 'Negative short answer for she.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g2-q13',
-      type: 'multiple-choice',
-      question: '___ I in room 10?',
-      options: ['Am', 'Is', 'Are', 'Be'],
-      correctAnswer: 'Am',
-      explanation: 'Am with I.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g2-q14',
-      type: 'true-false',
-      question: '"Are you tired?" is a correct question.',
-      correctAnswer: 'True',
-      explanation: 'True. Verb before subject.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g2-q15',
-      type: 'fill-blank',
-      question: '___ your parents at home?',
-      correctAnswer: 'Are',
-      acceptableAnswers: ['Are', 'are'],
-      explanation: '"Parents" (plural) = are.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g2-q16',
-      type: 'multiple-choice',
-      question: 'Are you hungry? - No, ___.',
-      options: ["I am", "I'm not", "you aren't", "he isn't"],
-      correctAnswer: "I'm not",
-      explanation: 'The answer to "Are you...?" is "I am" or "I\'m not".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g2-q17',
-      type: 'fill-blank',
-      question: '___ he your teacher?',
-      correctAnswer: 'Is',
-      acceptableAnswers: ['Is', 'is'],
-      explanation: 'Is with he.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g2-q18',
-      type: 'multiple-choice',
-      question: 'Is Maria 25? - Yes, ___.',
-      options: ["he is", "she is", "it is", "she's"],
-      correctAnswer: 'she is',
-      explanation: 'No contractions in affirmative short answers.',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g2-q19',
-      type: 'true-false',
-      question: 'We can say "Is you from Spain?".',
-      correctAnswer: 'False',
-      explanation: 'False. We say "Are you from Spain?".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-g2-q20',
-      type: 'fill-blank',
-      question: '___ we ready? - Yes, you are.',
-      correctAnswer: 'Are',
-      acceptableAnswers: ['Are', 'are'],
-      explanation: 'Are with we.',
-      points: 1
+  },
+  {
+    id: 'a1-m1-l3-reading-2',
+    type: 'reading-comprehension',
+    level: 'A1',
+    topicName: 'Reading',
+    transcript: "Ben: My sister is very happy and excited in her new job. But my parents aren't happy today because the train is late!",
+    content: {
+      title: 'Reading: Family Moods',
+      instructions: 'Read and answer.',
+      questions: [{ id: 'a1-m1-l3-q57', type: 'multiple-choice', question: 'How is Ben\'s sister?', options: ['[[Happy|Feliz]]', '[[Angry|Enojada]]', '[[Tired|Cansada]]'], correctAnswer: 'Happy' }]
     }
-  ]
-};
-
-// ============================================
-// READING EXERCISE
-// ============================================
-export const A1_M1_L3_READING: Exercise = {
-  id: 'a1-m1-l3-reading-1',
-  type: 'reading',
-  title: 'Reading: How are you today?',
-  text: `
-# How are you today?
-
-**Emma**: Hi, Ben! How are you today?
-**Ben**: Oh, hello Emma. I'm not very well, actually. I'm very tired.
-**Emma**: I'm sorry to hear that. Are you sick?
-**Ben**: No, I'm not sick. But I am very busy at work.
-**Emma**: Oh, I see. What about your sister? Is she happy in her new job?
-**Ben**: Yes, she is. She's very happy and excited. But my parents aren't happy today.
-**Emma**: Why not? Are they sad?
-**Ben**: No, they aren't sad. They are angry because the train is late!
-**Emma**: Oh no! Well, I'm happy because it is Friday!
-**Ben**: Haha, yes! I'm happy about that too.
-`,
-  wordCount: 120,
-  readingTime: 2,
-  questions: [
-    {
-      id: 'a1-m1-l3-r-q1',
-      type: 'multiple-choice',
-      question: 'How is Ben today?',
-      options: ['[[He is sick|Él está enfermo]]', '[[He is tired|Él está cansado]]', '[[He is happy|Él está feliz]]', '[[He is angry|Él está enojado]]'],
-      correctAnswer: 'He is tired',
-      explanation: 'Ben says "I\'m very tired".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-r-q2',
-      type: 'true-false',
-      question: 'Ben is sick.',
-      correctAnswer: 'False',
-      explanation: 'False. Ben says "No, I\'m not sick".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-r-q3',
-      type: 'multiple-choice',
-      question: 'How is Ben\'s sister?',
-      options: ['[[She is tired|Ella está cansada]]', '[[She is sad|Ella está triste]]', '[[She is happy|Ella está feliz]]', '[[She is angry|Ella está enojada]]'],
-      correctAnswer: 'She is happy',
-      explanation: 'Ben says "She\'s very happy and excited".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-r-q4',
-      type: 'multiple-choice',
-      question: 'Why are the parents angry?',
-      options: ['[[They are sick|Ellos están enfermos]]', '[[The train is late|El tren está retrasado]]', '[[Work is busy|El trabajo está ocupado]]', '[[It is Friday|Es viernes]]'],
-      correctAnswer: 'The train is late',
-      explanation: 'Ben says "They are angry because the train is late!".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-r-q5',
-      type: 'true-false',
-      question: 'Emma is happy.',
-      correctAnswer: 'True',
-      explanation: 'True. Emma says "I\'m happy because it is Friday!".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-r-q6',
-      type: 'multiple-choice',
-      question: 'What day is it?',
-      options: ['[[Monday|Lunes]]', '[[Wednesday|Miércoles]]', '[[Friday|Viernes]]', '[[Sunday|Domingo]]'],
-      correctAnswer: 'Friday',
-      explanation: 'Emma mentions it is Friday.',
-      points: 1
+  },
+  {
+    id: 'a1-m1-l3-reading-3',
+    type: 'reading-comprehension',
+    level: 'A1',
+    topicName: 'Reading',
+    transcript: "Emma: Why are your parents angry? Ben: Because the train is late! Emma: Well, I'm happy because it is Friday!",
+    content: {
+      title: 'Reading: Why Angry?',
+      instructions: 'Read and answer.',
+      questions: [{ id: 'a1-m1-l3-q58', type: 'true-false', question: 'The parents are angry because of the train.', correctAnswer: 'True' }]
     }
-  ]
-};
-
-// ============================================
-// LISTENING EXERCISE
-// ============================================
-export const A1_M1_L3_LISTENING: Exercise = {
-  id: 'a1-m1-l3-listening-1',
-  type: 'listening',
-  title: 'Listening: Are you happy?',
-  audioUrl: '/audio/a1-m1-l3-listening-1.mp3', // Placeholder
-  transcript: `
-**Journalist**: Excuse me! I am from "City News". Are you happy today?
-**Man**: Yes, I am! I'm very happy. It's a beautiful day.
-**Journalist**: Great. And are you from this city?
-**Man**: No, I'm not. I'm a tourist. I'm from Australia.
-**Journalist**: Welcome! And what about your friend? Is he happy too?
-**Man**: This is my brother, actually. He's not happy. He's hungry!
-**Brother**: Yes, I am very hungry! Is there a restaurant near here?
-**Journalist**: Yes, there is one in the park. Is it open?
-**Man**: Let me see... yes, it is!
-**Journalist**: Excellent. Thank you!
-`,
-  questions: [
-    {
-      id: 'a1-m1-l3-l-q1',
-      type: 'multiple-choice',
-      question: 'Who is the woman?',
-      options: ['[[A teacher|Una profesora]]', '[[A journalist|Una periodista]]', '[[A doctor|Una doctora]]', '[[A student|Un/a estudiante]]'],
-      correctAnswer: 'A journalist',
-      explanation: 'She says "I am from City News".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-l-q2',
-      type: 'true-false',
-      question: 'The man is happy.',
-      correctAnswer: 'True',
-      explanation: 'True. He says "Yes, I am! I\'m very happy".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-l-q3',
-      type: 'multiple-choice',
-      question: 'Where is the man from?',
-      options: ['[[England|Inglaterra]]', '[[USA|EE.UU.]]', '[[Australia|Australia]]', '[[Canada|Canadá]]'],
-      correctAnswer: 'Australia',
-      explanation: 'He says "I\'m from Australia".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-l-q4',
-      type: 'multiple-choice',
-      question: 'Who is the second man?',
-      options: ['[[The first man\'s friend|El amigo del primer hombre]]', '[[The first man\'s brother|El hermano del primer hombre]]', '[[A manager|Un gerente]]', '[[A driver|Un conductor]]'],
-      correctAnswer: 'The first man\'s brother',
-      explanation: 'The man says "This is my brother, actually".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-l-q5',
-      type: 'true-false',
-      question: 'The brother is happy.',
-      correctAnswer: 'False',
-      explanation: 'False. The man says "He\'s not happy. He\'s hungry!".',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l3-l-q6',
-      type: 'true-false',
-      question: 'The restaurant is open.',
-      correctAnswer: 'True',
-      explanation: 'True. The man says "yes, it is!".',
-      points: 1
+  },
+  {
+    id: 'a1-m1-l3-reading-4',
+    type: 'reading-comprehension',
+    level: 'A1',
+    topicName: 'Reading',
+    transcript: "Man: I'm very happy. It's a beautiful day. I'm a tourist from Australia. My brother is not happy. He's hungry!",
+    content: {
+      title: 'Reading: The Tourist',
+      instructions: 'Read and answer.',
+      questions: [{ id: 'a1-m1-l3-q59', type: 'multiple-choice', question: 'Where is the man from?', options: ['[[USA|EE.UU.]]', '[[Australia|Australia]]', '[[UK|Reino Unido]]'], correctAnswer: 'Australia' }]
     }
-  ]
-};
-
-// ============================================
-// SPEAKING EXERCISE
-// ============================================
-export const A1_M1_L3_SPEAKING: Exercise = {
-  id: 'a1-m1-l3-speaking-1',
-  type: 'speaking',
-  title: 'Speaking: Feelings Q&A',
-  instructions: 'Record yourself answering these questions about your feelings today.',
-  prompts: [
-    'Are you happy today?',
-    'Are you tired?',
-    'Are you hungry?',
-    'Are you busy?'
-  ],
-  evaluationCriteria: [
-    'Correct use of Yes/No short answers.',
-    'Correct negative form "I am not".',
-    'Pronunciation of adjectives (happy, tired, etc.).'
-  ],
-  questions: [
-    {
-      id: 'a1-m1-l3-s-q1',
-      type: 'speaking',
-      question: 'Answer: Are you happy today? Are you tired?',
-      expectedAnswer: 'Yes, I am. / No, I am not. I am not tired.',
-      points: 2
+  },
+  {
+    id: 'a1-m1-l3-reading-5',
+    type: 'reading-comprehension',
+    level: 'A1',
+    topicName: 'Reading',
+    transcript: "Brother: I am very hungry! Is there a restaurant near here? Journalist: Yes, there is one in the park. Is it open? Man: Let me see... yes, it is!",
+    content: {
+      title: 'Reading: Hungry Brother',
+      instructions: 'Read and answer.',
+      questions: [{ id: 'a1-m1-l3-q60', type: 'true-false', question: 'The restaurant is closed.', correctAnswer: 'False' }]
     }
-  ]
-};
+  }
+];
 
-// ============================================
-// WRITING EXERCISE
-// ============================================
-export const A1_M1_L3_WRITING: Exercise = {
-  id: 'a1-m1-l3-writing-1',
-  type: 'writing',
-  title: 'Writing: My Mood Diary',
-  instructions: 'Write 4-5 short sentences (30-50 words) about how you and your family/friends are feeling today. Use negatives.',
-  prompt: 'How are people feeling today?',
-  minWords: 30,
-  maxWords: 50,
-  rubric: [
-    {
-      criterion: 'Grammar',
-      description: 'Correct use of negative forms of "to be".',
-      maxScore: 4
-    },
-    {
-      criterion: 'Vocabulary',
-      description: 'Use of mood adjectives.',
-      maxScore: 3
-    },
-    {
-      criterion: 'Accuracy',
-      description: 'Subject-verb agreement.',
-      maxScore: 3
-    }
-  ]
-};
+// Flatten grammar questions into individual exercises
+const INDIVIDUAL_GRAMMAR_EXERCISES = GRAMMAR_QUESTIONS.map(q => createExercise(q.id, q, 'Moods & Questions'));
 
-// ============================================
-// ALL EXERCISES CONSOLIDATED
-// ============================================
 export const A1_M1_L3_ALL_EXERCISES: Exercise[] = [
-  A1_M1_L3_GRAMMAR_1,
-  A1_M1_L3_GRAMMAR_2,
-  A1_M1_L3_READING,
-  A1_M1_L3_LISTENING,
-  A1_M1_L3_SPEAKING,
-  A1_M1_L3_WRITING
+  ...INDIVIDUAL_GRAMMAR_EXERCISES,
+  ...READING_EXERCISES
 ];
