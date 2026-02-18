@@ -19,65 +19,65 @@ const createExercise = (id: string, q: any, topic: string): Exercise => ({
 
 const GRAMMAR_QUESTIONS = [
   // Verb 'to be' Negatives (1-20)
-  { id: 'a1-m1-l3-q1', type: 'multiple-choice', question: 'I ___ sad. I am happy!', options: ['[[am not|no soy/estoy]]', '[[is not|no es/está]]', '[[are not|no eres/estás]]'], correctAnswer: 'am not' },
-  { id: 'a1-m1-l3-q2', type: 'multiple-choice', question: 'He ___ from France. He is from Spain.', options: ['[[am not|no soy/estoy]]', "[[isn't|no es/está]]", "[[aren't|no son/están]]"], correctAnswer: "isn't" },
-  { id: 'a1-m1-l3-q3', type: 'multiple-choice', question: 'They ___ at school today.', options: ['[[am not|no soy/estoy]]', "[[isn't|no es/está]]", "[[aren't|no son/están]]"], correctAnswer: "aren't" },
-  { id: 'a1-m1-l3-q4', type: 'fill-blank', question: 'She ___ my sister. She is my friend.', correctAnswer: "isn't" },
-  { id: 'a1-m1-l3-q5', type: 'fill-blank', question: 'We ___ from England. We are from the USA.', correctAnswer: "aren't" },
-  { id: 'a1-m1-l3-q6', type: 'multiple-choice', question: 'Which contraction is correct for "It is not"?', options: ["[[It isn't|Ello no es]]", "[[It's not|Ello no es]]", "[[Both|Ambos]]"], correctAnswer: 'Both' },
-  { id: 'a1-m1-l3-q7', type: 'true-false', question: 'We can say "I aren\'t tired."', correctAnswer: 'False' },
-  { id: 'a1-m1-l3-q8', type: 'fill-blank', question: 'You ___ 20 years old. You are 25!', correctAnswer: "aren't" },
-  { id: 'a1-m1-l3-q9', type: 'multiple-choice', question: 'The car ___ new. It is old.', options: ['[[am not|no soy/estoy]]', "[[isn't|no es/está]]", "[[aren't|no son/están]]"], correctAnswer: "isn't" },
-  { id: 'a1-m1-l3-q10', type: 'true-false', question: '"They\'re not" is a correct contraction.', correctAnswer: 'True' },
-  { id: 'a1-m1-l3-q11', type: 'fill-blank', question: 'I ___ hungry.', correctAnswer: "am not" },
-  { id: 'a1-m1-l3-q12', type: 'multiple-choice', question: 'My parents ___ here.', options: ['[[am not|no soy/estoy]]', "[[isn't|no es/está]]", "[[aren't|no son/están]]"], correctAnswer: "aren't" },
-  { id: 'a1-m1-l3-q13', type: 'fill-blank', question: 'It ___ hot today. It is cold.', correctAnswer: "isn't" },
-  { id: 'a1-m1-l3-q14', type: 'multiple-choice', question: 'Which one is correct?', options: ['[[You no are|tú no eres]]', '[[You are not|Tú no eres]]', '[[You am not|tú soy no]]'], correctAnswer: 'You are not' },
-  { id: 'a1-m1-l3-q15', type: 'true-false', question: '"He isn\'t" means the same as "He is not".', correctAnswer: 'True' },
-  { id: 'a1-m1-l3-q16', type: 'fill-blank', question: 'London ___ in Italy.', correctAnswer: "isn't" },
-  { id: 'a1-m1-l3-q17', type: 'multiple-choice', question: 'We ___ tired.', options: ['[[am not|no soy/estoy]]', "[[isn't|no es/está]]", "[[aren't|no somos/estamos]]"], correctAnswer: "aren't" },
-  { id: 'a1-m1-l3-q18', type: 'fill-blank', question: 'I ___ 10 years old. I am 20!', correctAnswer: "am not" },
-  { id: 'a1-m1-l3-q19', type: 'true-false', question: 'We use "don\'t" with the verb "to be".', correctAnswer: 'False' },
-  { id: 'a1-m1-l3-q20', type: 'multiple-choice', question: 'Choose the correct form:', options: ["[[She's not|Ella no está]]", "[[She isn't|Ella no está]]", "[[Both|Ambas]]"], correctAnswer: 'Both' },
+  { id: 'a1-m1-l3-q1', type: 'multiple-choice', question: '[[I|Yo]] ___ [[sad|triste]]. [[I am|Yo estoy]] [[happy|feliz]]!', options: ['[[am not|no soy/estoy]]', '[[is not|no es/está]]', '[[are not|no eres/estás]]'], correctAnswer: 'am not' },
+  { id: 'a1-m1-l3-q2', type: 'multiple-choice', question: '[[He|Él]] ___ [[from|de]] [[France|Francia]]. [[He is|Él es]] [[from|de]] [[Spain|España]].', options: ['[[am not|no soy/estoy]]', "[[isn't|no es/está]]", "[[aren't|no son/están]]"], correctAnswer: "isn't" },
+  { id: 'a1-m1-l3-q3', type: 'multiple-choice', question: '[[They|Ellos]] ___ [[at|en la]] [[school|escuela]] [[today|hoy]].', options: ['[[am not|no soy/estoy]]', "[[isn't|no es/está]]", "[[aren't|no son/están]]"], correctAnswer: "aren't" },
+  { id: 'a1-m1-l3-q4', type: 'fill-blank', question: '[[She|Ella]] ___ [[my|mi]] [[sister|hermana]]. [[She is|Ella es]] [[my|mi]] [[friend|amiga]].', correctAnswer: "isn't" },
+  { id: 'a1-m1-l3-q5', type: 'fill-blank', question: '[[We|Nosotros]] ___ [[from|de]] [[England|Inglaterra]]. [[We are|Nosotros somos]] [[from|de]] [[the|los]] [[USA|EE.UU.]]', correctAnswer: "aren't" },
+  { id: 'a1-m1-l3-q6', type: 'multiple-choice', question: '[[Which|¿Qué]] [[contraction|contracción]] [[is|es]] [[correct|correcta]] [[for|para]] "[[It is not|Ello no es]]"?', options: ["[[It isn't|Ello no es]]", "[[It's not|Ello no es]]", "[[Both|Ambos]]"], correctAnswer: 'Both' },
+  { id: 'a1-m1-l3-q7', type: 'true-false', question: '[[We|Nosotros]] [[can|podemos]] [[say|decir]] "I aren\'t [[tired|cansado]]."', correctAnswer: 'False' },
+  { id: 'a1-m1-l3-q8', type: 'fill-blank', question: '[[You|Tú]] ___ 20 [[years old|años]]. [[You are|Tú tienes]] 25!', correctAnswer: "aren't" },
+  { id: 'a1-m1-l3-q9', type: 'multiple-choice', question: '[[The|El]] [[car|coche]] ___ [[new|nuevo]]. [[It is|Es]] [[old|viejo]].', options: ['[[am not|no soy/estoy]]', "[[isn't|no es/está]]", "[[aren't|no son/están]]"], correctAnswer: "isn't" },
+  { id: 'a1-m1-l3-q10', type: 'true-false', question: '"They\'re not" [[is|es]] [[a|una]] [[correct|correcta]] [[contraction|contracción]].', correctAnswer: 'True' },
+  { id: 'a1-m1-l3-q11', type: 'fill-blank', question: '[[I|Yo]] ___ [[hungry|hambriento/a]].', correctAnswer: "am not" },
+  { id: 'a1-m1-l3-q12', type: 'multiple-choice', question: '[[My|Mis]] [[parents|padres]] ___ [[here|aquí]].', options: ['[[am not|no soy/estoy]]', "[[isn't|no es/está]]", "[[aren't|no son/están]]"], correctAnswer: "aren't" },
+  { id: 'a1-m1-l3-q13', type: 'fill-blank', question: '[[It|Hace]] ___ [[hot|calor]] [[today|hoy]]. [[It is|Hace]] [[cold|frío]].', correctAnswer: "isn't" },
+  { id: 'a1-m1-l3-q14', type: 'multiple-choice', question: '[[Which|¿Cuál]] [[one|una]] [[is|es]] [[correct|correcta]]?', options: ['[[You no are|tú no eres]]', '[[You are not|Tú no eres]]', '[[You am not|tú soy no]]'], correctAnswer: 'You are not' },
+  { id: 'a1-m1-l3-q15', type: 'true-false', question: '"He isn\'t" [[means|significa]] [[the|lo]] [[same|mismo]] [[as|que]] "He is not".', correctAnswer: 'True' },
+  { id: 'a1-m1-l3-q16', type: 'fill-blank', question: '[[London|Londres]] ___ [[in|en]] [[Italy|Italia]].', correctAnswer: "isn't" },
+  { id: 'a1-m1-l3-q17', type: 'multiple-choice', question: '[[We|Nosotros]] ___ [[tired|cansados]].', options: ['[[am not|no soy/estoy]]', "[[isn't|no es/está]]", "[[aren't|no somos/estamos]]"], correctAnswer: "aren't" },
+  { id: 'a1-m1-l3-q18', type: 'fill-blank', question: '[[I|Yo]] ___ 10 [[years old|años]]. [[I am|Tengo]] 20!', correctAnswer: "am not" },
+  { id: 'a1-m1-l3-q19', type: 'true-false', question: '[[We|Nosotros]] [[use|usamos]] "don\'t" [[with|con]] [[the|el]] [[verb|verbo]] "[[to be|ser/estar]]".', correctAnswer: 'False' },
+  { id: 'a1-m1-l3-q20', type: 'multiple-choice', question: '[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]]:', options: ["[[She's not|Ella no está]]", "[[She isn't|Ella no está]]", "[[Both|Ambas]]"], correctAnswer: 'Both' },
 
   // Yes/No Questions (21-40)
-  { id: 'a1-m1-l3-q21', type: 'multiple-choice', question: '___ you from Spain?', options: ['[[Am|¿Soy?]]', '[[Is|¿Es?]]', '[[Are|¿Eres?]]'], correctAnswer: 'Are' },
-  { id: 'a1-m1-l3-q22', type: 'multiple-choice', question: '___ he a doctor?', options: ['[[Am|¿Soy?]]', '[[Is|¿Es?]]', '[[Are|¿Eres?]]'], correctAnswer: 'Is' },
-  { id: 'a1-m1-l3-q23', type: 'fill-blank', question: '___ she your sister?', correctAnswer: 'Is' },
-  { id: 'a1-m1-l3-q24', type: 'multiple-choice', question: 'Are they happy? - Yes, they ___.', options: ['[[am|soy]]', '[[is|es]]', '[[are|son]]'], correctAnswer: 'are' },
-  { id: 'a1-m1-l3-q25', type: 'multiple-choice', question: 'Is it cold today? - No, it ___.', options: ['[[am not|no soy]]', "[[isn't|no es]]", "[[aren't|no son]]"], correctAnswer: "isn't" },
-  { id: 'a1-m1-l3-q26', type: 'fill-blank', question: '___ you and Tom friends?', correctAnswer: 'Are' },
-  { id: 'a1-m1-l3-q27', type: 'true-false', question: 'In a question, the subject comes BEFORE the verb.', correctAnswer: 'False' },
-  { id: 'a1-m1-l3-q28', type: 'multiple-choice', question: 'Am I late? - No, you ___.', options: ['[[am not|no soy]]', "[[aren't|no eres]]", "[[isn't|no es]]"], correctAnswer: "aren't" },
-  { id: 'a1-m1-l3-q29', type: 'fill-blank', question: '___ your name Luis?', correctAnswer: 'Is' },
-  { id: 'a1-m1-l3-q30', type: 'true-false', question: 'Affirmative short answers like "Yes, I\'m" are correct.', correctAnswer: 'False' },
-  { id: 'a1-m1-l3-q31', type: 'multiple-choice', question: '___ the students ready?', options: ['[[Am|¿Soy?]]', '[[Is|¿Es?]]', '[[Are|¿Son?]]'], correctAnswer: 'Are' },
-  { id: 'a1-m1-l3-q32', type: 'fill-blank', question: 'Is she from Japan? - No, she ___.', correctAnswer: "isn't" },
-  { id: 'a1-m1-l3-q33', type: 'multiple-choice', question: '___ I in room 10?', options: ['[[Am|¿Soy?]]', '[[Is|¿Es?]]', '[[Are|¿Eres?]]'], correctAnswer: 'Am' },
-  { id: 'a1-m1-l3-q34', type: 'true-false', question: '"Are you tired?" is a correct question.', correctAnswer: 'True' },
-  { id: 'a1-m1-l3-q35', type: 'fill-blank', question: '___ your parents at home?', correctAnswer: 'Are' },
-  { id: 'a1-m1-l3-q36', type: 'multiple-choice', question: 'Are you hungry? - No, ___.', options: ["[[I am|yo soy]]", "[[I'm not|yo no soy]]", "[[you aren't|tú no eres]]"], correctAnswer: "I'm not" },
-  { id: 'a1-m1-l3-q37', type: 'fill-blank', question: '___ he your teacher?', correctAnswer: 'Is' },
-  { id: 'a1-m1-l3-q38', type: 'multiple-choice', question: 'Is Maria 25? - Yes, ___.', options: ["[[he is|él es]]", "[[she is|ella es]]", "[[it is|ello es]]"], correctAnswer: 'she is' },
-  { id: 'a1-m1-l3-q39', type: 'true-false', question: 'We can say "Is you from Spain?".', correctAnswer: 'False' },
-  { id: 'a1-m1-l3-q40', type: 'fill-blank', question: '___ we ready?', correctAnswer: 'Are' },
+  { id: 'a1-m1-l3-q21', type: 'multiple-choice', question: '___ [[you|tú]] [[from|de]] [[Spain|España]]?', options: ['[[Am|¿Soy?]]', '[[Is|¿Es?]]', '[[Are|¿Eres?]]'], correctAnswer: 'Are' },
+  { id: 'a1-m1-l3-q22', type: 'multiple-choice', question: '___ [[he|él]] [[a|un]] [[doctor|médico]]?', options: ['[[Am|¿Soy?]]', '[[Is|¿Es?]]', '[[Are|¿Eres?]]'], correctAnswer: 'Is' },
+  { id: 'a1-m1-l3-q23', type: 'fill-blank', question: '___ [[she|ella]] [[your|tu]] [[sister|hermana]]?', correctAnswer: 'Is' },
+  { id: 'a1-m1-l3-q24', type: 'multiple-choice', question: '[[Are|¿Están]] [[they|ellos]] [[happy|felices]]? - [[Yes|Sí]], [[they|ellos]] ___.', options: ['[[am|soy]]', '[[is|es]]', '[[are|están]]'], correctAnswer: 'are' },
+  { id: 'a1-m1-l3-q25', type: 'multiple-choice', question: '[[Is|¿Hace]] [[it|ello]] [[cold|frío]] [[today|hoy]]? - [[No|No]], [[it|ello]] ___.', options: ['[[am not|no soy]]', "[[isn't|no hace]]", "[[aren't|no son]]"], correctAnswer: "isn't" },
+  { id: 'a1-m1-l3-q26', type: 'fill-blank', question: '___ [[you|tú]] [[and|y]] Tom [[friends|amigos]]?', correctAnswer: 'Are' },
+  { id: 'a1-m1-l3-q27', type: 'true-false', question: '[[In|En]] [[a|una]] [[question|pregunta]], [[the|el]] [[subject|sujeto]] [[comes|viene]] [[BEFORE|ANTES]] [[the|del]] [[verb|verbo]].', correctAnswer: 'False' },
+  { id: 'a1-m1-l3-q28', type: 'multiple-choice', question: '[[Am|¿Llego]] [[I|yo]] [[late|tarde]]? - [[No|No]], [[you|tú]] ___.', options: ['[[am not|no soy]]', "[[aren't|no]]", "[[isn't|no es]]"], correctAnswer: "aren't" },
+  { id: 'a1-m1-l3-q29', type: 'fill-blank', question: '___ [[your|tu]] [[name|nombre]] Luis?', correctAnswer: 'Is' },
+  { id: 'a1-m1-l3-q30', type: 'true-false', question: '[[Affirmative|Afirmativas]] [[short|cortas]] [[answers|respuestas]] [[like|como]] "Yes, I\'m" [[are|son]] [[correct|correctas]].', correctAnswer: 'False' },
+  { id: 'a1-m1-l3-q31', type: 'multiple-choice', question: '___ [[the|los]] [[students|estudiantes]] [[ready|listos]]?', options: ['[[Am|¿Soy?]]', '[[Is|¿Es?]]', '[[Are|¿Están?]]'], correctAnswer: 'Are' },
+  { id: 'a1-m1-l3-q32', type: 'fill-blank', question: '[[Is|¿Es]] [[she|ella]] [[from|de]] [[Japan|Japón]]? - [[No|No]], [[she|ella]] ___.', correctAnswer: "isn't" },
+  { id: 'a1-m1-l3-q33', type: 'multiple-choice', question: '___ [[I|yo]] [[in|en]] [[room|habitación]] 10?', options: ['[[Am|¿Estoy?]]', '[[Is|¿Está?]]', '[[Are|¿Estás?]]'], correctAnswer: 'Am' },
+  { id: 'a1-m1-l3-q34', type: 'true-false', question: '"Are you [[tired|cansado]]?" [[is|es]] [[a|una]] [[correct|correcta]] [[question|pregunta]].', correctAnswer: 'True' },
+  { id: 'a1-m1-l3-q35', type: 'fill-blank', question: '___ [[your|tus]] [[parents|padres]] [[at|en]] [[home|casa]]?', correctAnswer: 'Are' },
+  { id: 'a1-m1-l3-q36', type: 'multiple-choice', question: '[[Are|¿Tienes]] [[you|tú]] [[hungry|hambre]]? - [[No|No]], ___.', options: ["[[I am|yo soy]]", "[[I'm not|yo no]]", "[[you aren't|tú no eres]]"], correctAnswer: "I'm not" },
+  { id: 'a1-m1-l3-q37', type: 'fill-blank', question: '___ [[he|él]] [[your|tu]] [[teacher|profesor]]?', correctAnswer: 'Is' },
+  { id: 'a1-m1-l3-q38', type: 'multiple-choice', question: '[[Is|¿Tiene]] Maria 25? - [[Yes|Sí]], ___.', options: ["[[he is|él tiene]]", "[[she is|ella tiene]]", "[[it is|ello tiene]]"], correctAnswer: 'she is' },
+  { id: 'a1-m1-l3-q39', type: 'true-false', question: '[[We|Nosotros]] [[can|podemos]] [[say|decir]] "Is you [[from|de]] [[Spain|España]]?".', correctAnswer: 'False' },
+  { id: 'a1-m1-l3-q40', type: 'fill-blank', question: '___ [[we|nosotros]] [[ready|listos]]?', correctAnswer: 'Are' },
 
   // Practice & Vocabulary (41-55)
-  { id: 'a1-m1-l3-q41', type: 'multiple-choice', question: 'I am ___. I want to sleep.', options: ['[[Happy|Feliz]]', '[[Tired|Cansado]]', '[[Angry|Enojado]]'], correctAnswer: 'Tired' },
-  { id: 'a1-m1-l3-q42', type: 'multiple-choice', question: 'I am ___. I want a sandwich.', options: ['[[Thirsty|Sediento]]', '[[Hungry|Hambriento]]', '[[Bored|Aburrido]]'], correctAnswer: 'Hungry' },
-  { id: 'a1-m1-l3-q43', type: 'fill-blank', question: 'He is not sad. He is ___.', correctAnswer: 'happy' },
-  { id: 'a1-m1-l3-q44', type: 'multiple-choice', question: 'She is ___. She has a lot of work.', options: ['[[Busy|Ocupada]]', '[[Lazy|Perezosa]]', '[[Excited|Emocionada]]'], correctAnswer: 'Busy' },
-  { id: 'a1-m1-l3-q45', type: 'multiple-choice', question: 'They are ___. It is a surprise!', options: ['[[Scared|Asustados]]', '[[Excited|Emocionados]]', '[[Angry|Enojados]]'], correctAnswer: 'Excited' },
-  { id: 'a1-m1-l3-q46', type: 'true-false', question: '"Bored" means you are having a lot of fun.', correctAnswer: 'False' },
-  { id: 'a1-m1-l3-q47', type: 'fill-blank', question: 'Are you ___? No, I am fine.', correctAnswer: 'tired' },
-  { id: 'a1-m1-l3-q48', type: 'multiple-choice', question: 'He is ___. The train is late.', options: ['[[Happy|Feliz]]', '[[Angry|Enojado]]', '[[Sleepy|Soñoliento]]'], correctAnswer: 'Angry' },
-  { id: 'a1-m1-l3-q49', type: 'fill-blank', question: 'She is ___. She wants some water.', correctAnswer: 'thirsty' },
-  { id: 'a1-m1-l3-q50', type: 'multiple-choice', question: 'We are ___. There is nothing to do.', options: ['[[Bored|Aburridos]]', '[[Busy|Ocupados]]', '[[Interested|Interesados]]'], correctAnswer: 'Bored' },
-  { id: 'a1-m1-l3-q51', type: 'true-false', question: '"Fine" and "Well" mean similar things.', correctAnswer: 'True' },
-  { id: 'a1-m1-l3-q52', type: 'multiple-choice', question: 'Are they ___? Yes, they want to go to bed.', options: ['[[Hungry|Hambrientos]]', '[[Tired|Cansados]]', '[[Excited|Emocionados]]'], correctAnswer: 'Tired' },
-  { id: 'a1-m1-l3-q53', type: 'fill-blank', question: 'I am not ___. I am happy.', correctAnswer: 'sad' },
-  { id: 'a1-m1-l3-q54', type: 'multiple-choice', question: 'Is he ___? Yes, he is looking for his dog.', options: ['[[Worried|Preocupado]]', '[[Happy|Feliz]]', '[[Bored|Aburrido]]'], correctAnswer: 'Worried' },
-  { id: 'a1-m1-l3-q55', type: 'true-false', question: '"Nervous" is a feeling.', correctAnswer: 'True' },
+  { id: 'a1-m1-l3-q41', type: 'multiple-choice', question: '[[I am|Estoy]] ___. [[I want|Quiero]] [[to|a]] [[sleep|dormir]].', options: ['[[Happy|Feliz]]', '[[Tired|Cansado]]', '[[Angry|Enojado]]'], correctAnswer: 'Tired' },
+  { id: 'a1-m1-l3-q42', type: 'multiple-choice', question: '[[I am|Tengo]] ___. [[I want|Quiero]] [[a|un]] [[sandwich|sándwich]].', options: ['[[Thirsty|Sediento]]', '[[Hungry|Hambre]]', '[[Bored|Aburrido]]'], correctAnswer: 'Hungry' },
+  { id: 'a1-m1-l3-q43', type: 'fill-blank', question: '[[He|Él]] [[is|está]] [[not|no]] [[sad|triste]]. [[He|Él]] [[is|está]] ___.', correctAnswer: 'happy' },
+  { id: 'a1-m1-l3-q44', type: 'multiple-choice', question: '[[She|Ella]] [[is|está]] ___. [[She|Ella]] [[has|tiene]] [[a|un]] [[lot|mucho]] [[of|de]] [[work|trabajo]].', options: ['[[Busy|Ocupada]]', '[[Lazy|Perezosa]]', '[[Excited|Emocionada]]'], correctAnswer: 'Busy' },
+  { id: 'a1-m1-l3-q45', type: 'multiple-choice', question: '[[They|Ellos]] [[are|están]] ___. [[It is|Es]] [[a|una]] [[surprise|sorpresa]]!', options: ['[[Scared|Asustados]]', '[[Excited|Emocionados]]', '[[Angry|Enojados]]'], correctAnswer: 'Excited' },
+  { id: 'a1-m1-l3-q46', type: 'true-false', question: '"Bored" [[means|significa]] [[you|tú]] [[are|estás]] [[having|teniendo]] [[a|mucha]] [[lot|mucho]] [[of|de]] [[fun|diversión]].', correctAnswer: 'False' },
+  { id: 'a1-m1-l3-q47', type: 'fill-blank', question: '[[Are|¿Estás]] [[you|tú]] ___? [[No|No]], [[I am|estoy]] [[fine|bien]].', correctAnswer: 'tired' },
+  { id: 'a1-m1-l3-q48', type: 'multiple-choice', question: '[[He|Él]] [[is|está]] ___. [[The|El]] [[train|tren]] [[is|está]] [[late|retrasado]].', options: ['[[Happy|Feliz]]', '[[Angry|Enojado]]', '[[Sleepy|Soñoliento]]'], correctAnswer: 'Angry' },
+  { id: 'a1-m1-l3-q49', type: 'fill-blank', question: '[[She|Ella]] [[is|tiene]] ___. [[She|Ella]] [[wants|quiere]] [[some|algo de]] [[water|agua]].', correctAnswer: 'thirsty' },
+  { id: 'a1-m1-l3-q50', type: 'multiple-choice', question: '[[We|Nosotros]] [[are|estamos]] ___. [[There is|No hay]] [[nothing|nada]] [[to|que]] [[do|hacer]].', options: ['[[Bored|Aburridos]]', '[[Busy|Ocupados]]', '[[Interested|Interesados]]'], correctAnswer: 'Bored' },
+  { id: 'a1-m1-l3-q51', type: 'true-false', question: '"Fine" [[and|y]] "Well" [[mean|significan]] [[similar|similares]] [[things|cosas]].', correctAnswer: 'True' },
+  { id: 'a1-m1-l3-q52', type: 'multiple-choice', question: '[[Are|¿Están]] [[they|ellos]] ___? [[Yes|Sí]], [[they|ellos]] [[want|quieren]] [[to|a]] [[go|ir]] [[to|a la]] [[bed|cama]].', options: ['[[Hungry|Hambrientos]]', '[[Tired|Cansados]]', '[[Excited|Emocionados]]'], correctAnswer: 'Tired' },
+  { id: 'a1-m1-l3-q53', type: 'fill-blank', question: '[[I am|Estoy]] [[not|no]] ___. [[I am|Estoy]] [[happy|feliz]].', correctAnswer: 'sad' },
+  { id: 'a1-m1-l3-q54', type: 'multiple-choice', question: '[[Is|¿Está]] [[he|él]] ___? [[Yes|Sí]], [[he|él]] [[is|está]] [[looking|buscando]] [[for|a]] [[his|su]] [[dog|perro]].', options: ['[[Worried|Preocupado]]', '[[Happy|Feliz]]', '[[Bored|Aburrido]]'], correctAnswer: 'Worried' },
+  { id: 'a1-m1-l3-q55', type: 'true-false', question: '"Nervous" [[is|es]] [[a|un]] [[feeling|sentimiento]].', correctAnswer: 'True' },
 ];
 
 // Reading Exercises (56-60)
@@ -87,11 +87,11 @@ const READING_EXERCISES: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: "Ben: I'm not very well. I'm very tired. Emma: Are you sick? Ben: No, I'm not sick. But I am very busy at work.",
+    transcript: "[[Ben|Ben]]: [[I'm not|No estoy]] [[very|muy]] [[well|bien]]. [[I'm|Estoy]] [[very|muy]] [[tired|cansado]]. [[Emma|Emma]]: [[Are|¿Estás]] [[you|tú]] [[sick|enfermo]]? [[Ben|Ben]]: [[No|No]], [[I'm not|no estoy]] [[sick|enfermo]]. [[But|Pero]] [[I am|estoy]] [[very|muy]] [[busy|ocupado]] [[at|en el]] [[work|trabajo]].",
     content: {
-      title: 'Reading: Ben is tired',
-      instructions: 'Read and answer.',
-      questions: [{ id: 'a1-m1-l3-q56', type: 'multiple-choice', question: 'How is Ben?', options: ['[[Sick|Enfermo]]', '[[Tired|Cansado]]', '[[Happy|Feliz]]'], correctAnswer: 'Tired' }]
+      title: '[[Reading|Lectura]]: [[Ben|Ben]] [[is|está]] [[tired|cansado]]',
+      instructions: '[[Read|Lee]] [[and|y]] [[answer|responde]].',
+      questions: [{ id: 'a1-m1-l3-q56', type: 'multiple-choice', question: '[[How|¿Cómo]] [[is|está]] Ben?', options: ['[[Sick|Enfermo]]', '[[Tired|Cansado]]', '[[Happy|Feliz]]'], correctAnswer: 'Tired' }]
     }
   },
   {
@@ -99,11 +99,11 @@ const READING_EXERCISES: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: "Ben: My sister is very happy and excited in her new job. But my parents aren't happy today because the train is late!",
+    transcript: "[[Ben|Ben]]: [[My|Mi]] [[sister|hermana]] [[is|está]] [[very|muy]] [[happy|feliz]] [[and|y]] [[excited|emocionada]] [[in|en]] [[her|su]] [[new|nuevo]] [[job|trabajo]]. [[But|Pero]] [[my|mis]] [[parents|padres]] [[aren't|no están]] [[happy|felices]] [[today|hoy]] [[because|porque]] [[the|el]] [[train|tren]] [[is|está]] [[late|retrasado]]!",
     content: {
-      title: 'Reading: Family Moods',
-      instructions: 'Read and answer.',
-      questions: [{ id: 'a1-m1-l3-q57', type: 'multiple-choice', question: 'How is Ben\'s sister?', options: ['[[Happy|Feliz]]', '[[Angry|Enojada]]', '[[Tired|Cansada]]'], correctAnswer: 'Happy' }]
+      title: '[[Reading|Lectura]]: [[Family|Familia]] [[Moods|Estados de ánimo]]',
+      instructions: '[[Read|Lee]] [[and|y]] [[answer|responde]].',
+      questions: [{ id: 'a1-m1-l3-q57', type: 'multiple-choice', question: '[[How|¿Cómo]] [[is|está]] [[Ben\'s|de Ben]] [[sister|hermana]]?', options: ['[[Happy|Feliz]]', '[[Angry|Enojada]]', '[[Tired|Cansada]]'], correctAnswer: 'Happy' }]
     }
   },
   {
@@ -111,11 +111,11 @@ const READING_EXERCISES: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: "Emma: Why are your parents angry? Ben: Because the train is late! Emma: Well, I'm happy because it is Friday!",
+    transcript: "[[Emma|Emma]]: [[Why|¿Por qué]] [[are|están]] [[your|tus]] [[parents|padres]] [[angry|enojados]]? [[Ben|Ben]]: [[Because|Porque]] [[the|el]] [[train|tren]] [[is|está]] [[late|retrasado]]! [[Emma|Emma]]: [[Well|Bueno]], [[I'm|estoy]] [[happy|feliz]] [[because|porque]] [[it is|es]] [[Friday|viernes]]!",
     content: {
-      title: 'Reading: Why Angry?',
-      instructions: 'Read and answer.',
-      questions: [{ id: 'a1-m1-l3-q58', type: 'true-false', question: 'The parents are angry because of the train.', correctAnswer: 'True' }]
+      title: '[[Reading|Lectura]]: [[Why|¿Por qué]] [[Angry|Enojados]]?',
+      instructions: '[[Read|Lee]] [[and|y]] [[answer|responde]].',
+      questions: [{ id: 'a1-m1-l3-q58', type: 'true-false', question: '[[The|Los]] [[parents|padres]] [[are|están]] [[angry|enojados]] [[because|a causa]] [[of|del]] [[the|el]] [[train|tren]].', correctAnswer: 'True' }]
     }
   },
   {
@@ -123,11 +123,11 @@ const READING_EXERCISES: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: "Man: I'm very happy. It's a beautiful day. I'm a tourist from Australia. My brother is not happy. He's hungry!",
+    transcript: "[[Man|Hombre]]: [[I'm|Estoy]] [[very|muy]] [[happy|feliz]]. [[It's|Es]] [[a|un]] [[beautiful|hermoso]] [[day|día]]. [[I'm|Soy]] [[a|un]] [[tourist|turista]] [[from|de]] [[Australia|Australia]]. [[My|Mi]] [[brother|hermano]] [[is|está]] [[not|no]] [[happy|feliz]]. [[He's|Él tiene]] [[hungry|hambre]]!",
     content: {
-      title: 'Reading: The Tourist',
-      instructions: 'Read and answer.',
-      questions: [{ id: 'a1-m1-l3-q59', type: 'multiple-choice', question: 'Where is the man from?', options: ['[[USA|EE.UU.]]', '[[Australia|Australia]]', '[[UK|Reino Unido]]'], correctAnswer: 'Australia' }]
+      title: '[[Reading|Lectura]]: [[The|El]] [[Tourist|Turista]]',
+      instructions: '[[Read|Lee]] [[and|y]] [[answer|responde]].',
+      questions: [{ id: 'a1-m1-l3-q59', type: 'multiple-choice', question: '[[Where|¿De dónde]] [[is|es]] [[the|el]] [[man|hombre]] [[from|de]]?', options: ['[[USA|EE.UU.]]', '[[Australia|Australia]]', '[[UK|Reino Unido]]'], correctAnswer: 'Australia' }]
     }
   },
   {
@@ -135,11 +135,11 @@ const READING_EXERCISES: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: "Brother: I am very hungry! Is there a restaurant near here? Journalist: Yes, there is one in the park. Is it open? Man: Let me see... yes, it is!",
+    transcript: "[[Brother|Hermano]]: [[I am|Tengo]] [[very|mucha]] [[hungry|hambre]]! [[Is there|¿Hay]] [[a|un]] [[restaurant|restaurante]] [[near|cerca]] [[here|de aquí]]? [[Journalist|Periodista]]: [[Yes|Sí]], [[there is|hay]] [[one|uno]] [[in|en]] [[the|el]] [[park|parque]]. [[Is|¿Está]] [[it|ello]] [[open|abierto]]? [[Man|Hombre]]: [[Let|Deja]] [[me|me]] [[see|ver]]... [[yes|sí]], [[it is|está]]!",
     content: {
-      title: 'Reading: Hungry Brother',
-      instructions: 'Read and answer.',
-      questions: [{ id: 'a1-m1-l3-q60', type: 'true-false', question: 'The restaurant is closed.', correctAnswer: 'False' }]
+      title: '[[Reading|Lectura]]: [[Hungry|Hambriento]] [[Brother|Hermano]]',
+      instructions: '[[Read|Lee]] [[and|y]] [[answer|responde]].',
+      questions: [{ id: 'a1-m1-l3-q60', type: 'true-false', question: '[[The|El]] [[restaurant|restaurante]] [[is|está]] [[closed|cerrado]].', correctAnswer: 'False' }]
     }
   }
 ];
