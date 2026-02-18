@@ -50,13 +50,24 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/8e
 
 ---
 
-### [x] Step: Implementation
+## [x] Implementation (Unit 9)
 
-1. **[x] Add Missing Exercises**: Create `a1-u9-e1` and `a1-u9-e11` in `src/lib/course/a1/unit-9.ts`.
-2. **[x] Bilingualize Vocabulary (e1-e10)**: Update all text fields in exercises e1-e10 to use `[[English|Spanish]]`.
-3. **[x] Bilingualize Grammar (e11-e20)**: Update all text fields in exercises e11-e20.
-4. **[x] Bilingualize Review & Reinforcement (e21-e50)**: Update exercises e21-e50.
-5. **[x] Bilingualize Reading Comprehension (e51-e60)**: Update exercises e51-e60.
-6. **[x] Verification**: Run `npm run validate-exercises` and `npm run lint`.
-7. **[ ] Manual Check**: Preview the exercises in the browser.
-8. **[x] Final Report**: Write the completion report.
+1. [x] **Add Missing Exercises**: Create `a1-u9-e1` and `a1-u9-e11` in `src/lib/course/a1/unit-9.ts`.
+2. [x] **Bilingualize Vocabulary (e1-e10)**: Update all text fields in exercises e1-e10 to use `[[English|Spanish]]`.
+3. [x] **Bilingualize Grammar (e11-e20)**: Update all text fields in exercises e11-e20.
+4. [x] **Bilingualize Review & Reinforcement (e21-e50)**: Update exercises e21-e50.
+5. [x] **Bilingualize Reading Comprehension (e51-e60)**: Update exercises e51-e60.
+6. [x] **Verification**: Run `npm run validate-exercises` and `npm run lint`.
+7. [x] **Final Report**: Write the completion report.
+
+---
+
+## [x] Implementation (Unit 10)
+
+1. [x] **Add Missing Exercises**: Create `a1-u10-e1` in `src/lib/course/a1/unit-10.ts`.
+2. [x] **Bilingualize Vocabulary (e1-e10)**: Update `title`, `instructions`, and `explanation` to `[[English|Spanish]]`.
+3. [x] **Bilingualize Grammar (e11-e20)**: Update text fields.
+4. [x] **Bilingualize Review & Practice (e21-e50)**: Update text fields.
+5. [x] **Bilingualize Reading Comprehension (e51-e60)**: Update text fields.
+6. [x] **Verification**: Run `npm run validate-exercises` and `npm run lint`.
+7. [x] **Final Report**: Write the completion report.

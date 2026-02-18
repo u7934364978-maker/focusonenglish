@@ -28,10 +28,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Nationalities",
     "difficulty": "medium",
-    "transcript": "[[She is. She is from France French|Ella es de Francia. Ella es francesa]].",
+    "transcript": "[[She is from France. She is French|Ella es de Francia. Ella es francesa]].",
     "content": {
       "title": "[[Nationalities|Nacionalidades]]",
       "instructions": "[[Choose the correct nationality|Elige la nacionalidad correcta]].",
+      "question": "[[She is from France. She is|Ella es de Francia. Ella es]] (____).",
       "options": ["[[France|Francia]]", "[[French|francesa]]", "[[Spanish|española]]"],
       "correctAnswer": 1,
       "explanation": "[[French is the nationality for France|French es la nacionalidad de Francia]]."
@@ -45,10 +46,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Emotions",
     "difficulty": "medium",
-    "transcript": "[[I am. I tired need sleep|Yo estoy cansado. Yo necesito dormir]].",
+    "transcript": "[[I am tired. I need to sleep|Yo estoy cansado. Necesito dormir]].",
     "content": {
       "title": "[[Emotions|Emociones]]",
       "instructions": "[[Select the logical emotional state|Selecciona el estado emocional lógico]].",
+      "question": "[[I need to sleep. I am|Necesito dormir. Estoy]] (____).",
       "options": ["[[happy|feliz]]", "[[tired|cansado]]", "[[angry|enfadado]]"],
       "correctAnswer": 1,
       "explanation": "[[If you need to sleep, you are tired|Si necesitas dormir, estás cansado (tired)]]."
@@ -62,10 +64,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[My mother's sister is my aunt|Mi de mi madre hermana es mi tía]].",
+    "transcript": "[[My mother's sister is my aunt|La hermana de mi madre es mi tía]].",
     "content": {
       "title": "[[Family|Familia]]",
       "instructions": "[[Identify the relative|Identifica al pariente]].",
+      "question": "[[My mother's sister is my|La hermana de mi madre es mi]] (____).",
       "options": ["[[uncle|tío]]", "[[aunt|tía]]", "[[cousin|prima]]"],
       "correctAnswer": 1,
       "explanation": "[[Aunt is your mother's or father's sister|Aunt es la hermana de tu madre o padre]]."
@@ -79,10 +82,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Classroom Objects",
     "difficulty": "medium",
-    "transcript": "[[Where is? It is my pen on the table|Dónde está mi bolígrafo? Está está sobre la mesa]].",
+    "transcript": "[[Where is my pen? It is on the table|¿Dónde está mi bolígrafo? Está sobre la mesa]].",
     "content": {
       "title": "[[Objects|Objetos]]",
       "instructions": "[[Choose the writing object|Elige el objeto de escritura]].",
+      "question": "[[I write with a|Yo escribo con un]] (____).",
       "options": ["[[chair|silla]]", "[[table|mesa]]", "[[pen|bolígrafo]]"],
       "correctAnswer": 2,
       "explanation": "[[Pen is a writing tool|Pen es un bolígrafo]]."
@@ -134,6 +138,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Jobs|Trabajos]]",
       "instructions": "[[Select the medical profession|Selecciona la profesión médica]].",
+      "question": "[[A (____) works in a hospital|Un (____) trabaja en un hospital]].",
       "options": ["[[pilot|piloto]]", "[[nurse|enfermero]]", "[[waiter|camarero]]"],
       "correctAnswer": 1,
       "explanation": "[[Nursing is a hospital profession|La enfermería es una profesión de hospital]]."
@@ -147,10 +152,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "medium",
-    "transcript": "[[My father's father is my grandfather|Mi de mi padre padre es mi abuelo]].",
+    "transcript": "[[My father's father is my grandfather|El padre de mi padre es mi abuelo]].",
     "content": {
       "title": "[[Relationships|Relaciones]]",
       "instructions": "[[Choose the correct relative|Elige el pariente correcto]].",
+      "question": "[[My father's father is my|El padre de mi padre es mi]] (____).",
       "options": ["[[grandfather|abuelo]]", "[[brother|hermano]]", "[[son|hijo]]"],
       "correctAnswer": 0,
       "explanation": "[[The grandfather is your father's father|El abuelo es el padre de tu padre]]."
@@ -168,6 +174,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Countries|Países]]",
       "instructions": "[[Identify the country|Identifica el país]].",
+      "question": "[[Rome is in|Roma está en]] (____).",
       "options": ["[[Germany|Alemania]]", "[[Italy|Italia]]", "[[Japan|Japón]]"],
       "correctAnswer": 1,
       "explanation": "[[Rome is the capital of Italy|Roma es la capital de Italia]]."
@@ -185,10 +192,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Verb To Be",
     "difficulty": "medium",
-    "transcript": "[[Are you? Yes ready am, I|¿Estás tú listo? Sí, yo estoy]].",
+    "transcript": "[[Are you ready? Yes, I am|¿Estás listo? Sí, lo estoy]].",
     "content": {
       "title": "[[Verb To Be|Verbo To Be]]",
       "instructions": "[[Choose the correct short answer|Elige la respuesta corta correcta]].",
+      "question": "[[Are you ready?|¿Estás listo?]] (____).",
       "options": ["[[Yes, I'm|sí, soy]]", "[[Yes, I is|sí, es]]", "[[Yes, I am|sí, lo estoy]]"],
       "correctAnswer": 2,
       "explanation": "[[In affirmative short answers, we don't use contractions|En respuestas cortas afirmativas, no se usa contracción]]."
@@ -206,6 +214,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Articles|Artículos]]",
       "instructions": "[[Select the correct article|Selecciona el artículo correcto]].",
+      "question": "[[This is|Esta es]] (____) [[orange|naranja]].",
       "options": ["[[a|una]]", "[[an|una]]", "[[the|la]]"],
       "correctAnswer": 1,
       "explanation": "[[We use 'an' because 'orange' starts with a vowel|Usamos 'an' porque 'orange' empieza por vocal]]."
@@ -257,10 +266,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Whose?",
     "difficulty": "medium",
-    "transcript": "[[Whose car? It is is it the doctor's|De quién coche es esto? Es es del médico]].",
+    "transcript": "[[Whose car is it? It is the doctor's|¿De quién es el coche? Es del médico]].",
     "content": {
       "title": "[[Possession Questions|Preguntas de posesión]]",
       "instructions": "[[Choose the question word|Elige la palabra interrogativa]].",
+      "question": "(____) [[car is it?|es el coche?]]",
       "options": ["[[Who|Quién]]", "[[Which|Cuál]]", "[[Whose|De quién]]"],
       "correctAnswer": 2,
       "explanation": "[[Whose is used to ask about ownership|Whose se usa para preguntar por el dueño]]."
@@ -278,6 +288,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Plurals|Plurales]]",
       "instructions": "[[Choose the correct plural form|Elige la forma plural correcta]].",
+      "question": "[[I have two|Tengo dos]] (____).",
       "options": ["[[watchs|incorrecta]]", "[[watches|relojes]]", "[[watch|reloj]]"],
       "correctAnswer": 1,
       "explanation": "[[Words ending in 'ch' add 'es' for the plural|Las palabras terminadas en 'ch' añaden 'es' para el plural]]."
@@ -308,10 +319,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Questions",
     "difficulty": "medium",
-    "transcript": "[[How are? I you am fine, thanks|Cómo estás tú? Yo estoy bien, gracias]].",
+    "transcript": "[[How are you? I am fine, thanks|¿Cómo estás? Estoy bien, gracias]].",
     "content": {
       "title": "[[Basic Questions|Preguntas básicas]]",
       "instructions": "[[Choose the correct question for how someone is|Elige la pregunta correcta para el estado de ánimo]].",
+      "question": "(____) [[are you?|estás?]]",
       "options": ["[[Who are you|¿quién eres?]]", "[[How are you|¿cómo estás?]]", "[[Where are you|¿dónde estás?]]"],
       "correctAnswer": 1,
       "explanation": "[[How are you? is the standard greeting question|How are you? es la pregunta estándar de saludo]]."
@@ -346,10 +358,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Adjectives",
     "difficulty": "medium",
-    "transcript": "[[My car. It is is red a red car|Mi coche es rojo. Es es un rojo coche]].",
+    "transcript": "[[My car is red. It is a red car|Mi coche es rojo. Es un coche rojo]].",
     "content": {
       "title": "[[Adjective Order|Orden de adjetivos]]",
       "instructions": "[[Choose the correct position of the adjective|Elige la posición correcta del adjetivo]].",
+      "question": "[[It is a|Es un]] (____).",
       "options": ["[[car red|incorrecta]]", "[[red car|coche rojo]]", "[[a red|incorrecta]]"],
       "correctAnswer": 1,
       "explanation": "[[In English, the adjective always goes before the noun|En inglés, el adjetivo siempre va antes del sustantivo]]."
@@ -367,10 +380,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[Where is? He is he from from London|De dónde es él de? Él es de Londres]].",
+    "transcript": "[[Where is he from? He is from London|¿De dónde es él? Es de Londres]].",
     "content": {
       "title": "[[Review: Origin|Repaso: Origen]]",
       "instructions": "[[Choose the correct answer|Elige la respuesta correcta]].",
+      "question": "[[Where is he from?|¿De dónde es él?]] (____).",
       "options": ["[[He is from London|Es de Londres]]", "[[He am from London|incorrecta]]", "[[He is London|incorrecta]]"],
       "correctAnswer": 0,
       "explanation": "[[Subject + is + from + Place|Sujeto + is + from + Lugar]]."
@@ -401,10 +415,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[Who is? He is that man my boss|Quién es aquél hombre? Él es mi jefe]].",
+    "transcript": "[[Who is that man? He is my boss|¿Quién es ese hombre? Es mi jefe]].",
     "content": {
       "title": "[[Review: People|Repaso: Personas]]",
       "instructions": "[[Choose the question word|Elige la palabra interrogativa]].",
+      "question": "(____) [[is that man?|es ese hombre?]]",
       "options": ["[[What|Qué]]", "[[Who|Quién]]", "[[Where|Dónde]]"],
       "correctAnswer": 1,
       "explanation": "[[Who is used for people|Who se usa para personas]]."
@@ -439,11 +454,12 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[Is there a book on the chair|¿Hay hay un libro sobre la silla]]?",
+    "transcript": "[[Is there a book on the chair?|¿Hay un libro sobre la silla?]]",
     "content": {
       "title": "[[Review: Existence|Repaso: Existencia]]",
       "instructions": "[[Choose the correct order for the question|Elige el orden correcto de la pregunta]].",
-      "options": ["[[There is|afirmación]]", "[[Is there|pregunta]]", "[[Are there|plural]]"],
+      "question": "(____) [[a book on the chair?|un libro sobre la silla?]]",
+      "options": ["[[There is|hay (afirmación)]]", "[[Is there|¿hay? (pregunta)]]", "[[Are there|¿hay? (plural)]]"],
       "correctAnswer": 1,
       "explanation": "[[To ask if there is something (singular), we use 'Is there'|Para preguntar si hay algo (singular), usamos 'Is there']]."
     },
@@ -473,10 +489,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[How do you spell your name|Cómo se tú deletreas tu nombre]]?",
+    "transcript": "[[How do you spell your name?|¿Cómo se deletrea tu nombre?]]",
     "content": {
       "title": "[[Review: Alphabet|Repaso: Alfabeto]]",
       "instructions": "[[Choose the verb for spelling|Elige el verbo para deletrear]].",
+      "question": "[[How do you|¿Cómo]] (____) [[your name?|tu nombre?]]",
       "options": ["[[write|escribir]]", "[[spell|deletrear]]", "[[read|leer]]"],
       "correctAnswer": 1,
       "explanation": "[[Spell is the verb we use to ask for the letters of a word|Spell es el verbo que usamos para preguntar por las letras de una palabra]]."
@@ -511,10 +528,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[Whose is? It's this blue pen the teacher|De quién es este azul bolígrafo? Es del profesor]](_____) [[pen|bolígrafo]].",
+    "transcript": "[[Whose is this blue pen? It's the teacher's pen|¿De quién es este bolígrafo azul? Es del profesor]].",
     "content": {
       "title": "[[Review: Posesivo|Repaso: Posesivo]]",
       "instructions": "[[Choose the correct possessive form|Elige la forma posesiva correcta]].",
+      "question": "[[It's the|Es del]] (____) [[pen|bolígrafo]].",
       "options": ["[[teachers|plural]]", "[[teacher's|del profesor]]", "[[teacher is|incorrecta]]"],
       "correctAnswer": 1,
       "explanation": "[[We use 's to indicate singular possession|Usamos 's para indicar posesión singular]]."
@@ -549,6 +567,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Review: Professions|Repaso: Profesiones]]",
       "instructions": "[[Choose the correct article|Elige el artículo correcto]].",
+      "question": "[[I am|Yo soy]] (____) [[engineer|ingeniero]].",
       "options": ["[[a|un]]", "[[an|un]]", "[[the|el]]"],
       "correctAnswer": 1,
       "explanation": "[[Engineer starts with a vowel|Engineer empieza por vocal]]."
@@ -562,10 +581,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[What is your phone number|Cuál es tu teléfono número]]?",
+    "transcript": "[[What is your phone number?|¿Cuál es tu número de teléfono?]]",
     "content": {
       "title": "[[Review: Personal Information|Repaso: Información personal]]",
       "instructions": "[[Choose the question word|Elige la palabra interrogativa]].",
+      "question": "(____) [[is your phone number?|es tu número de teléfono?]]",
       "options": ["[[How|Cómo]]", "[[What|Cuál]]", "[[Who|Quién]]"],
       "correctAnswer": 1,
       "explanation": "[[We use What to ask for the phone number|Usamos What para preguntar por el número de teléfono]]."
@@ -617,10 +637,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[My mother is fifty-two years old|Mi madre es cincuenta y dos años de edad]].",
+    "transcript": "[[My mother is fifty-two years old|Mi madre tiene cincuenta y dos años]].",
     "content": {
       "title": "[[Review: Numbers and Age|Repaso: Números y edad]]",
       "instructions": "[[Choose the correct number|Elige el número correcto]].",
+      "question": "[[My mother is|Mi madre tiene]] (____) [[years old|años]].",
       "options": ["[[forty-two|42]]", "[[fifty-two|52]]", "[[sixty-two|62]]"],
       "correctAnswer": 1,
       "explanation": "[[Fifty-two is 52|Fifty-two es 52]]."
@@ -634,10 +655,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[We are. We are from England British|Nosotros somos de Inglaterra. Nosotros somos británicos]].",
+    "transcript": "[[We are from England. We are British|Somos de Inglaterra. Somos británicos]].",
     "content": {
       "title": "[[Review: Nationalities|Repaso: Nacionalidades]]",
       "instructions": "[[Select the nationality|Selecciona la nacionalidad]].",
+      "question": "[[We are from England. We are|Somos de Inglaterra. Somos]] (____).",
       "options": ["[[English|inglés]]", "[[British|británico]]", "[[American|americano]]"],
       "correctAnswer": 1,
       "explanation": "[[British is the nationality|British es la nacionalidad]]."
@@ -689,10 +711,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[Are they? No sad aren't, they|¿Están ellos tristes? No, ellos no lo están]].",
+    "transcript": "[[Are they sad? No, they aren't|¿Están tristes? No, no lo están]].",
     "content": {
       "title": "[[Review: Short Answers|Repaso: Respuestas cortas]]",
       "instructions": "[[Choose the negative short answer|Elige la respuesta negativa corta]].",
+      "question": "[[Are they sad?|¿Están tristes?]] (____).",
       "options": ["[[No, they no|incorrecta]]", "[[No, they are not|correcto]]", "[[No, they aren't|correcto (más común)]]"],
       "correctAnswer": 2,
       "explanation": "[[Aren't is the contraction of are not|Aren't es la contracción de are not]]."
@@ -706,10 +729,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[I have. His name a brother is Paul|Yo tengo un hermano. Su nombre es Paul]].",
+    "transcript": "[[I have a brother. His name is Paul|Tengo un hermano. Su nombre es Paul]].",
     "content": {
       "title": "[[Review: Possessive Adjectives|Repaso: Adjetivos posesivos]]",
       "instructions": "[[Choose the masculine possessive adjective|Elige el adjetivo posesivo masculino]].",
+      "question": "[[I have a brother.|Tengo un hermano.]] (____) [[name is Paul|nombre es Paul]].",
       "options": ["[[Her|Su (de ella)]]", "[[His|Su (de él)]]", "[[Your|Tu]]"],
       "correctAnswer": 1,
       "explanation": "[[His is used for masculine|His se usa para masculino (el hermano)]]."
@@ -744,10 +768,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[Where is? It is the box behind the door|Dónde está la caja? Está está detrás de la puerta]].",
+    "transcript": "[[Where is the box? It is behind the door|¿Dónde está la caja? Está detrás de la puerta]].",
     "content": {
       "title": "[[Review: Prepositions|Repaso: Preposiciones]]",
       "instructions": "[[Choose the preposition of place|Elige la preposición de lugar]].",
+      "question": "[[It is|Está]] (____) [[the door|la puerta]].",
       "options": ["[[behind|detrás de]]", "[[between|entre]]", "[[in|en]]"],
       "correctAnswer": 0,
       "explanation": "[[Behind means behind|Behind significa detrás de]]."
@@ -782,6 +807,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Review: Numbers and Prices|Repaso: Números y precios]]",
       "instructions": "[[Choose the correct number|Elige el número correcto]].",
+      "question": "[[The price is|El precio es]] (____) [[euros|euros]].",
       "options": ["[[fourteen|14]]", "[[forty|40]]", "[[four|4]]"],
       "correctAnswer": 1,
       "explanation": "[[Forty is 40|Forty es 40]]."
@@ -816,10 +842,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[My grandfather is seventy-eight years old|Mi abuelo tiene setenta y ocho años de edad]].",
+    "transcript": "[[My grandfather is seventy-eight years old|Mi abuelo tiene setenta y ocho años]].",
     "content": {
       "title": "[[Review: Complex Numbers|Repaso: Números complejos]]",
       "instructions": "[[Choose the correct number|Elige el número correcto]].",
+      "question": "[[My grandfather is|Mi abuelo tiene]] (____) [[years old|años]].",
       "options": ["[[sixty-eight|68]]", "[[seventy-eight|78]]", "[[eighty-seven|87]]"],
       "correctAnswer": 1,
       "explanation": "[[Seventy-eight is 78|Seventy-eight es 78]]."
@@ -850,10 +877,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[What is? He is his nationality German|Cuál es su nacionalidad? Él es alemán]].",
+    "transcript": "[[What is his nationality? He is German|¿Cuál es su nacionalidad? Es alemán]].",
     "content": {
       "title": "[[Review: Nationalities|Repaso: Nacionalidades]]",
       "instructions": "[[Choose the nationality|Elige la nacionalidad]].",
+      "question": "[[What is his nationality? He is|¿Cuál es su nacionalidad? Es]] (____).",
       "options": ["[[Germany|Alemania]]", "[[German|alemán]]", "[[Germans|alemanes]]"],
       "correctAnswer": 1,
       "explanation": "[[German is the nationality|German es el adjetivo de nacionalidad singular]]."
@@ -867,10 +895,11 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Review",
     "difficulty": "medium",
-    "transcript": "[[Those are my new shoes|Aquellas son mis nuevas zapatos]].",
+    "transcript": "[[Those are my new shoes|Aquellos son mis zapatos nuevos]].",
     "content": {
       "title": "[[Review: Demonstratives|Repaso: Demostrativos]]",
       "instructions": "[[Choose the far plural demonstrative|Elige el demostrativo plural lejano]].",
+      "question": "(____) [[are my new shoes|son mis zapatos nuevos]].",
       "options": ["[[These|estos]]", "[[That|aquello (singular)]]", "[[Those|aquellos]]"],
       "correctAnswer": 2,
       "explanation": "[[Those is for far plurals|Those se usa para plurales lejanos]]."
