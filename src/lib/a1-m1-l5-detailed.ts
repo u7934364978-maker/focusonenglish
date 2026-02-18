@@ -86,128 +86,128 @@ export const A1_M1_L5_GRAMMAR_1 = {
     },
     {
       id: 'a1-m1-l5-g1-q7',
-      type: 'fill-blank',
-      question: '[[Question 7|Pregunta 7]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 7|Explicación para la pregunta 7]]',
+      type: 'multiple-choice',
+      question: '[[Where is ___ house?|¿Dónde está la casa de ___?]]',
+      options: ['Sarah', 'Sarah\'s', 'Sarahs', 'Sarah is'],
+      correctAnswer: 'Sarah\'s',
+      explanation: '[[We use Sarah\'s to show possession.|Usamos Sarah\'s para mostrar posesión.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g1-q8',
       type: 'fill-blank',
-      question: '[[Question 8|Pregunta 8]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 8|Explicación para la pregunta 8]]',
+      question: '[[This is my brother___ room.|Esta es la habitación de mi hermano.]]',
+      correctAnswer: '\'s',
+      acceptableAnswers: ['\'s', '\'s', 's'],
+      explanation: '[[Brother is singular, so we add \'s.|Brother es singular, por lo que añadimos \'s.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g1-q9',
-      type: 'fill-blank',
-      question: '[[Question 9|Pregunta 9]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 9|Explicación para la pregunta 9]]',
+      type: 'multiple-choice',
+      question: '[[Those are the ___ toys.|Esos son los juguetes de los niños.]]',
+      options: ['children', 'childrens', 'children\'s', 'childrens\''],
+      correctAnswer: 'children\'s',
+      explanation: '[[Children is an irregular plural, so we add \'s.|Children es un plural irregular, por lo que añadimos \'s.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g1-q10',
       type: 'fill-blank',
-      question: '[[Question 10|Pregunta 10]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 10|Explicación para la pregunta 10]]',
+      question: '[[Is that your grandmother___ cat?|¿Es ese el gato de tu abuela?]]',
+      correctAnswer: '\'s',
+      acceptableAnswers: ['\'s', '\'s', 's'],
+      explanation: '[[We add \'s to grandmother to show possession.|Añadimos \'s a grandmother para mostrar posesión.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g1-q11',
-      type: 'fill-blank',
-      question: '[[Question 11|Pregunta 11]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 11|Explicación para la pregunta 11]]',
+      type: 'multiple-choice',
+      question: '[[The ___ names are Mike and Paul.|Los nombres de los chicos son Mike y Paul.]]',
+      options: ['boy\'s', 'boys\'', 'boys', 'boy'],
+      correctAnswer: 'boys\'',
+      explanation: '[[Boys is a regular plural ending in -s, so we only add the apostrophe.|Boys es un plural regular que termina en -s, por lo que solo añadimos el apóstrofe.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g1-q12',
       type: 'fill-blank',
-      question: '[[Question 12|Pregunta 12]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 12|Explicación para la pregunta 12]]',
+      question: '[[That is my uncle___ car.|Ese es el coche de mi tío.]]',
+      correctAnswer: '\'s',
+      acceptableAnswers: ['\'s', '\'s', 's'],
+      explanation: '[[Uncle is singular, so we add \'s.|Uncle es singular, por lo que añadimos \'s.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g1-q13',
-      type: 'fill-blank',
-      question: '[[Question 13|Pregunta 13]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 13|Explicación para la pregunta 13]]',
+      type: 'multiple-choice',
+      question: '[[___ sister is a doctor.|La hermana de Maria es doctora.]]',
+      options: ['Maria', 'Marias', 'Maria\'s', 'Maria is'],
+      correctAnswer: 'Maria\'s',
+      explanation: '[[We add \'s to Maria to show the relationship.|Añadimos \'s a Maria para mostrar el parentesco.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g1-q14',
       type: 'fill-blank',
-      question: '[[Question 14|Pregunta 14]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 14|Explicación para la pregunta 14]]',
+      question: '[[My teacher___ name is Mr. Smith.|El nombre de mi profesor es el Sr. Smith.]]',
+      correctAnswer: '\'s',
+      acceptableAnswers: ['\'s', '\'s', 's'],
+      explanation: '[[Teacher is singular, so we add \'s.|Teacher es singular, por lo que añadimos \'s.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g1-q15',
-      type: 'fill-blank',
-      question: '[[Question 15|Pregunta 15]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 15|Explicación para la pregunta 15]]',
+      type: 'multiple-choice',
+      question: '[[The ___ office is on the second floor.|La oficina de los profesores está en el segundo piso.]]',
+      options: ['teachers\'', 'teacher\'s', 'teachers', 'teacher'],
+      correctAnswer: 'teachers\'',
+      explanation: '[[Use teachers\' for the office of multiple teachers.|Usa teachers\' para la oficina de varios profesores.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g1-q16',
       type: 'fill-blank',
-      question: '[[Question 16|Pregunta 16]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 16|Explicación para la pregunta 16]]',
+      question: '[[Whose bag is this? It is Laura___ bag.|¿De quién es este bolso? Es el bolso de Laura.]]',
+      correctAnswer: '\'s',
+      acceptableAnswers: ['\'s', '\'s', 's'],
+      explanation: '[[We add \'s to show it belongs to Laura.|Añadimos \'s para mostrar que pertenece a Laura.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g1-q17',
-      type: 'fill-blank',
-      question: '[[Question 17|Pregunta 17]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 17|Explicación para la pregunta 17]]',
+      type: 'multiple-choice',
+      question: '[[My ___ garden is beautiful.|El jardín de mis abuelos es hermoso.]]',
+      options: ['grandparents\'', 'grandparent\'s', 'grandparents', 'grandparent'],
+      correctAnswer: 'grandparents\'',
+      explanation: '[[Grandparents is plural, so we only add an apostrophe.|Grandparents es plural, por lo que solo añadimos un apóstrofe.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g1-q18',
       type: 'fill-blank',
-      question: '[[Question 18|Pregunta 18]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 18|Explicación para la pregunta 18]]',
+      question: '[[What is your cousin___ name?|¿Cómo se llama tu primo/a?]]',
+      correctAnswer: '\'s',
+      acceptableAnswers: ['\'s', '\'s', 's'],
+      explanation: '[[Cousin is singular, so we add \'s.|Cousin es singular, por lo que añadimos \'s.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g1-q19',
-      type: 'fill-blank',
-      question: '[[Question 19|Pregunta 19]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 19|Explicación para la pregunta 19]]',
+      type: 'multiple-choice',
+      question: '[[___ bike is red.|La bicicleta de Peter es roja.]]',
+      options: ['Peter', 'Peter\'s', 'Peters', 'Peter is'],
+      correctAnswer: 'Peter\'s',
+      explanation: '[[We use Peter\'s to show ownership.|Usamos Peter\'s para mostrar pertenencia.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g1-q20',
       type: 'fill-blank',
-      question: '[[Question 20|Pregunta 20]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 20|Explicación para la pregunta 20]]',
+      question: '[[My mother___ car is in the garage.|El coche de mi madre está en el garaje.]]',
+      correctAnswer: '\'s',
+      acceptableAnswers: ['\'s', '\'s', 's'],
+      explanation: '[[Mother is singular, so we add \'s.|Mother es singular, por lo que añadimos \'s.]]',
       points: 1
     }
   ]
@@ -307,128 +307,128 @@ export const A1_M1_L5_GRAMMAR_2 = {
     },
     {
       id: 'a1-m1-l5-g2-q7',
-      type: 'fill-blank',
-      question: '[[Question 7|Pregunta 7]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 7|Explicación para la pregunta 7]]',
+      type: 'multiple-choice',
+      question: '[[Your father\'s sister is your ___.|La hermana de tu padre es tu ___.]]',
+      options: ['uncle', 'aunt', 'cousin', 'niece'],
+      correctAnswer: 'aunt',
+      explanation: '[[Your father\'s sister is your aunt.|La hermana de tu padre es tu tía.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g2-q8',
       type: 'fill-blank',
-      question: '[[Question 8|Pregunta 8]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 8|Explicación para la pregunta 8]]',
+      question: '[[My uncle\'s daughter is my ___.|La hija de mi tío es mi ___.]]',
+      correctAnswer: 'cousin',
+      acceptableAnswers: ['cousin', 'Cousin'],
+      explanation: '[[The daughter of your uncle is your cousin.|La hija de tu tío es tu prima.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g2-q9',
-      type: 'fill-blank',
-      question: '[[Question 9|Pregunta 9]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 9|Explicación para la pregunta 9]]',
+      type: 'multiple-choice',
+      question: '[[The plural of "person" is ___.|El plural de "person" es ___.]]',
+      options: ['persons', 'people', 'peoples', 'persones'],
+      correctAnswer: 'people',
+      explanation: '[[The plural of person is people (irregular).|El plural de person es people (irregular).]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g2-q10',
       type: 'fill-blank',
-      question: '[[Question 10|Pregunta 10]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 10|Explicación para la pregunta 10]]',
+      question: '[[My mother\'s son is my ___.|El hijo de mi madre es mi ___.]]',
+      correctAnswer: 'brother',
+      acceptableAnswers: ['brother', 'Brother'],
+      explanation: '[[Your mother\'s son is your brother.|El hijo de tu madre es tu hermano.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g2-q11',
-      type: 'fill-blank',
-      question: '[[Question 11|Pregunta 11]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 11|Explicación para la pregunta 11]]',
+      type: 'multiple-choice',
+      question: '[[Your sister\'s daughter is your ___.|La hija de tu hermana es tu ___.]]',
+      options: ['nephew', 'niece', 'cousin', 'granddaughter'],
+      correctAnswer: 'niece',
+      explanation: '[[Your sister\'s daughter is your niece.|La hija de tu hermana es tu sobrina.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g2-q12',
       type: 'fill-blank',
-      question: '[[Question 12|Pregunta 12]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 12|Explicación para la pregunta 12]]',
+      question: '[[My son\'s son is my ___.|El hijo de mi hijo es mi ___.]]',
+      correctAnswer: 'grandson',
+      acceptableAnswers: ['grandson', 'Grandson'],
+      explanation: '[[Your son\'s son is your grandson.|El hijo de tu hijo es tu nieto.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g2-q13',
-      type: 'fill-blank',
-      question: '[[Question 13|Pregunta 13]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 13|Explicación para la pregunta 13]]',
+      type: 'multiple-choice',
+      question: '[[A person who doesn\'t have brothers or sisters is an ___.|Una persona que no tiene hermanos ni hermanas es un ___.]]',
+      options: ['only brother', 'only child', 'alone child', 'single child'],
+      correctAnswer: 'only child',
+      explanation: '[[An only child has no siblings.|Un only child es un hijo único.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g2-q14',
       type: 'fill-blank',
-      question: '[[Question 14|Pregunta 14]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 14|Explicación para la pregunta 14]]',
+      question: '[[My father\'s father is my ___.|El padre de mi padre es mi ___.]]',
+      correctAnswer: 'grandfather',
+      acceptableAnswers: ['grandfather', 'Grandfather', 'grandpa'],
+      explanation: '[[Your father\'s father is your grandfather.|El padre de tu padre es tu abuelo.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g2-q15',
-      type: 'fill-blank',
-      question: '[[Question 15|Pregunta 15]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 15|Explicación para la pregunta 15]]',
+      type: 'multiple-choice',
+      question: '[[The children of your aunt are your ___.|Los hijos de tu tía son tus ___.]]',
+      options: ['siblings', 'cousins', 'nephews', 'nieces'],
+      correctAnswer: 'cousins',
+      explanation: '[[The children of your aunt/uncle are your cousins.|Los hijos de tu tía/tío son tus primos.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g2-q16',
       type: 'fill-blank',
-      question: '[[Question 16|Pregunta 16]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 16|Explicación para la pregunta 16]]',
+      question: '[[My wife\'s mother is my ___.|La madre de mi esposa es mi ___.]]',
+      correctAnswer: 'mother-in-law',
+      acceptableAnswers: ['mother-in-law', 'mother in law'],
+      explanation: '[[Your spouse\'s mother is your mother-in-law.|La madre de tu cónyuge es tu suegra.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g2-q17',
-      type: 'fill-blank',
-      question: '[[Question 17|Pregunta 17]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 17|Explicación para la pregunta 17]]',
+      type: 'multiple-choice',
+      question: '[[What do you call your brother and sister?|¿Cómo llamas a tu hermano y hermana?]]',
+      options: ['parents', 'children', 'siblings', 'cousins'],
+      correctAnswer: 'siblings',
+      explanation: '[[Siblings refers to brothers and sisters.|Siblings se refiere a hermanos y hermanas.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g2-q18',
       type: 'fill-blank',
-      question: '[[Question 18|Pregunta 18]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 18|Explicación para la pregunta 18]]',
+      question: '[[My daughter\'s daughter is my ___.|La hija de mi hija es mi ___.]]',
+      correctAnswer: 'granddaughter',
+      acceptableAnswers: ['granddaughter', 'Granddaughter'],
+      explanation: '[[Your daughter\'s daughter is your granddaughter.|La hija de tu hija es tu nieta.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g2-q19',
-      type: 'fill-blank',
-      question: '[[Question 19|Pregunta 19]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 19|Explicación para la pregunta 19]]',
+      type: 'multiple-choice',
+      question: '[[Your brother\'s wife is your ___.|La esposa de tu hermano es tu ___.]]',
+      options: ['sister', 'sister-in-law', 'aunt', 'cousin'],
+      correctAnswer: 'sister-in-law',
+      explanation: '[[Your brother\'s wife is your sister-in-law.|La esposa de tu hermano es tu cuñada.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-g2-q20',
       type: 'fill-blank',
-      question: '[[Question 20|Pregunta 20]]',
-      correctAnswer: 'answer',
-      acceptableAnswers: ['answer'],
-      explanation: '[[Explanation for question 20|Explicación para la pregunta 20]]',
+      question: '[[I have three ___: two girls and one boy. (child)|Tengo tres ___: dos niñas y un niño. (hijo)]]',
+      correctAnswer: 'children',
+      acceptableAnswers: ['children', 'Children'],
+      explanation: '[[The plural of child is children.|El plural de child es children.]]',
       points: 1
     }
   ]
@@ -513,127 +513,36 @@ export const A1_M1_L5_READING = {
     {
       id: 'a1-m1-l5-read-q7',
       type: 'multiple-choice',
-      question: '[[Question 7|Pregunta 7]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 7|Explicación para la pregunta 7]]',
+      question: '[[What is Elizabeth\'s nickname?|¿Cuál es el apodo de Elizabeth?]]',
+      options: ['Beth', 'Lizzy', 'Grandma Liz', 'Eli'],
+      correctAnswer: 'Grandma Liz',
+      explanation: '[[The text says "we call her \'Grandma Liz\'".|El texto dice "la llamamos \'Grandma Liz\'".]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-read-q8',
-      type: 'multiple-choice',
-      question: '[[Question 8|Pregunta 8]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 8|Explicación para la pregunta 8]]',
+      type: 'true-false',
+      question: '[[Emma has only one cousin.|Emma tiene solo una prima.]]',
+      correctAnswer: 'False',
+      explanation: '[[False. Emma says she has many cousins.|Falso. Emma dice que tiene muchos primos.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-read-q9',
       type: 'multiple-choice',
-      question: '[[Question 9|Pregunta 9]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 9|Explicación para la pregunta 9]]',
+      question: '[[How old is Dave?|¿Qué edad tiene Dave?]]',
+      options: ['10 years old', '12 years old', '14 years old', '16 years old'],
+      correctAnswer: '10 years old',
+      explanation: '[[The text says "Dave is 10".|El texto dice "Dave tiene 10".]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-read-q10',
-      type: 'multiple-choice',
-      question: '[[Question 10|Pregunta 10]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 10|Explicación para la pregunta 10]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-read-q11',
-      type: 'multiple-choice',
-      question: '[[Question 11|Pregunta 11]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 11|Explicación para la pregunta 11]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-read-q12',
-      type: 'multiple-choice',
-      question: '[[Question 12|Pregunta 12]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 12|Explicación para la pregunta 12]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-read-q13',
-      type: 'multiple-choice',
-      question: '[[Question 13|Pregunta 13]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 13|Explicación para la pregunta 13]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-read-q14',
-      type: 'multiple-choice',
-      question: '[[Question 14|Pregunta 14]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 14|Explicación para la pregunta 14]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-read-q15',
-      type: 'multiple-choice',
-      question: '[[Question 15|Pregunta 15]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 15|Explicación para la pregunta 15]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-read-q16',
-      type: 'multiple-choice',
-      question: '[[Question 16|Pregunta 16]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 16|Explicación para la pregunta 16]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-read-q17',
-      type: 'multiple-choice',
-      question: '[[Question 17|Pregunta 17]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 17|Explicación para la pregunta 17]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-read-q18',
-      type: 'multiple-choice',
-      question: '[[Question 18|Pregunta 18]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 18|Explicación para la pregunta 18]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-read-q19',
-      type: 'multiple-choice',
-      question: '[[Question 19|Pregunta 19]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 19|Explicación para la pregunta 19]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-read-q20',
-      type: 'multiple-choice',
-      question: '[[Question 20|Pregunta 20]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 20|Explicación para la pregunta 20]]',
+      type: 'fill-blank',
+      question: '[[Emma\'s father works in a ___.|El padre de Emma trabaja en un ___.]]',
+      correctAnswer: 'bank',
+      acceptableAnswers: ['bank', 'Bank'],
+      explanation: '[[The text says "he works in a bank".|El texto dice "él trabaja en un banco".]]',
       points: 1
     }
   ]
@@ -737,114 +646,37 @@ export const A1_M1_L5_LISTENING = {
     },
     {
       id: 'a1-m1-l5-list-q7',
-      type: 'true-false',
-      question: '[[Statement 7|Declaración 7]]',
-      correctAnswer: 'True',
-      explanation: '[[Explanation for question 7|Explicación para la pregunta 7]]',
+      type: 'multiple-choice',
+      question: '[[How many cousins does Sarah have on her mother\'s side?|¿Cuántos primos tiene Sarah por parte de su madre?]]',
+      options: ['Two', 'Three', 'Four', 'Five'],
+      correctAnswer: 'Three',
+      explanation: '[[Sarah says "Three on my mother\'s side".|Sarah dice "Tres por parte de mi madre".]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-list-q8',
       type: 'true-false',
-      question: '[[Statement 8|Declaración 8]]',
-      correctAnswer: 'True',
-      explanation: '[[Explanation for question 8|Explicación para la pregunta 8]]',
+      question: '[[Sarah\'s grandmother lives alone.|La abuela de Sarah vive sola.]]',
+      correctAnswer: 'False',
+      explanation: '[[False. She lives with Sarah\'s uncle and aunt.|Falso. Vive con el tío y la tía de Sarah.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-list-q9',
-      type: 'true-false',
-      question: '[[Statement 9|Declaración 9]]',
-      correctAnswer: 'True',
-      explanation: '[[Explanation for question 9|Explicación para la pregunta 9]]',
+      type: 'multiple-choice',
+      question: '[[Who does the grandfather live with?|¿Con quién vive el abuelo?]]',
+      options: ['Sarah', 'Grandmother', 'Aunt Emma', 'Uncle Robert'],
+      correctAnswer: 'Aunt Emma',
+      explanation: '[[Sarah says "He lives with my aunt Emma".|Sarah dice "Él vive con mi tía Emma".]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-list-q10',
-      type: 'true-false',
-      question: '[[Statement 10|Declaración 10]]',
-      correctAnswer: 'True',
-      explanation: '[[Explanation for question 10|Explicación para la pregunta 10]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-list-q11',
-      type: 'true-false',
-      question: '[[Statement 11|Declaración 11]]',
-      correctAnswer: 'True',
-      explanation: '[[Explanation for question 11|Explicación para la pregunta 11]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-list-q12',
-      type: 'true-false',
-      question: '[[Statement 12|Declaración 12]]',
-      correctAnswer: 'True',
-      explanation: '[[Explanation for question 12|Explicación para la pregunta 12]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-list-q13',
-      type: 'true-false',
-      question: '[[Statement 13|Declaración 13]]',
-      correctAnswer: 'True',
-      explanation: '[[Explanation for question 13|Explicación para la pregunta 13]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-list-q14',
-      type: 'true-false',
-      question: '[[Statement 14|Declaración 14]]',
-      correctAnswer: 'True',
-      explanation: '[[Explanation for question 14|Explicación para la pregunta 14]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-list-q15',
-      type: 'true-false',
-      question: '[[Statement 15|Declaración 15]]',
-      correctAnswer: 'True',
-      explanation: '[[Explanation for question 15|Explicación para la pregunta 15]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-list-q16',
-      type: 'true-false',
-      question: '[[Statement 16|Declaración 16]]',
-      correctAnswer: 'True',
-      explanation: '[[Explanation for question 16|Explicación para la pregunta 16]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-list-q17',
-      type: 'true-false',
-      question: '[[Statement 17|Declaración 17]]',
-      correctAnswer: 'True',
-      explanation: '[[Explanation for question 17|Explicación para la pregunta 17]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-list-q18',
-      type: 'true-false',
-      question: '[[Statement 18|Declaración 18]]',
-      correctAnswer: 'True',
-      explanation: '[[Explanation for question 18|Explicación para la pregunta 18]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-list-q19',
-      type: 'true-false',
-      question: '[[Statement 19|Declaración 19]]',
-      correctAnswer: 'True',
-      explanation: '[[Explanation for question 19|Explicación para la pregunta 19]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-list-q20',
-      type: 'true-false',
-      question: '[[Statement 20|Declaración 20]]',
-      correctAnswer: 'True',
-      explanation: '[[Explanation for question 20|Explicación para la pregunta 20]]',
+      type: 'fill-blank',
+      question: '[[Sarah has a ___ family.|Sarah tiene una familia ___.]]',
+      correctAnswer: 'small',
+      acceptableAnswers: ['small', 'Small'],
+      explanation: '[[Sarah says "I have a small family".|Sarah dice "Tengo una familia pequeña".]]',
       points: 1
     }
   ]
@@ -1010,127 +842,37 @@ export const A1_M1_L5_PRONUNCIATION = {
     {
       id: 'a1-m1-l5-pronun-q7',
       type: 'multiple-choice',
-      question: '[[Question 7|Pregunta 7]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 7|Explicación para la pregunta 7]]',
+      question: '[[Which word has a silent "gh"?|¿Qué palabra tiene una "gh" muda?]]',
+      options: ['Daughter', 'Mother', 'Brother', 'Sister'],
+      correctAnswer: 'Daughter',
+      explanation: '[[The word "daughter" is pronounced /ˈdɔːtə/, so the "gh" is silent.|La palabra "daughter" se pronuncia /ˈdɔːtə/, por lo que la "gh" es muda.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-pronun-q8',
       type: 'multiple-choice',
-      question: '[[Question 8|Pregunta 8]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 8|Explicación para la pregunta 8]]',
+      question: '[[In the word "uncle", the stress is on the ___ syllable.|En la palabra "uncle", el acento está en la ___ sílaba.]]',
+      options: ['First', 'Second', 'Third', 'No syllable'],
+      correctAnswer: 'First',
+      explanation: '[[Stress is on the first syllable: UN-cle.|El acento está en la primera sílaba: UN-cle.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-pronun-q9',
       type: 'multiple-choice',
-      question: '[[Question 9|Pregunta 9]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 9|Explicación para la pregunta 9]]',
+      question: '[[How is the "ph" in "nephew" pronounced?|¿Cómo se pronuncia la "ph" en "nephew"?]]',
+      options: ['Like /p/', 'Like /h/', 'Like /f/', 'It is silent'],
+      correctAnswer: 'Like /f/',
+      explanation: '[[The "ph" in nephew is pronounced as /f/: /ˈnefjuː/.|La "ph" en nephew se pronuncia como /f/: /ˈnefjuː/.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-pronun-q10',
       type: 'multiple-choice',
-      question: '[[Question 10|Pregunta 10]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 10|Explicación para la pregunta 10]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-pronun-q11',
-      type: 'multiple-choice',
-      question: '[[Question 11|Pregunta 11]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 11|Explicación para la pregunta 11]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-pronun-q12',
-      type: 'multiple-choice',
-      question: '[[Question 12|Pregunta 12]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 12|Explicación para la pregunta 12]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-pronun-q13',
-      type: 'multiple-choice',
-      question: '[[Question 13|Pregunta 13]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 13|Explicación para la pregunta 13]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-pronun-q14',
-      type: 'multiple-choice',
-      question: '[[Question 14|Pregunta 14]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 14|Explicación para la pregunta 14]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-pronun-q15',
-      type: 'multiple-choice',
-      question: '[[Question 15|Pregunta 15]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 15|Explicación para la pregunta 15]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-pronun-q16',
-      type: 'multiple-choice',
-      question: '[[Question 16|Pregunta 16]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 16|Explicación para la pregunta 16]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-pronun-q17',
-      type: 'multiple-choice',
-      question: '[[Question 17|Pregunta 17]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 17|Explicación para la pregunta 17]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-pronun-q18',
-      type: 'multiple-choice',
-      question: '[[Question 18|Pregunta 18]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 18|Explicación para la pregunta 18]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-pronun-q19',
-      type: 'multiple-choice',
-      question: '[[Question 19|Pregunta 19]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 19|Explicación para la pregunta 19]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-pronun-q20',
-      type: 'multiple-choice',
-      question: '[[Question 20|Pregunta 20]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 20|Explicación para la pregunta 20]]',
+      question: '[[The word "cousin" is pronounced with the stress on the:|La palabra "cousin" se pronuncia con el acento en:]]',
+      options: ['First syllable', 'Second syllable', 'Both syllables', 'No syllable'],
+      correctAnswer: 'First syllable',
+      explanation: '[[The stress is on the first syllable: COU-sin.|El acento está en la primera sílaba: COU-sin.]]',
       points: 1
     }
   ]
@@ -1212,127 +954,82 @@ export const A1_M1_L5_VOCABULARY_1 = {
     {
       id: 'a1-m1-l5-v1-q7',
       type: 'multiple-choice',
-      question: '[[Question 7|Pregunta 7]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 7|Explicación para la pregunta 7]]',
+      question: '[[Your mother\'s husband is your ___.|El esposo de tu madre es tu ___.]]',
+      options: ['brother', 'father', 'son', 'uncle'],
+      correctAnswer: 'father',
+      explanation: '[[Your mother\'s husband is your father.|El esposo de tu madre es tu padre.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-v1-q8',
       type: 'multiple-choice',
-      question: '[[Question 8|Pregunta 8]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 8|Explicación para la pregunta 8]]',
+      question: '[[Your father\'s wife is your ___.|La esposa de tu padre es tu ___.]]',
+      options: ['sister', 'mother', 'daughter', 'aunt'],
+      correctAnswer: 'mother',
+      explanation: '[[Your father\'s wife is your mother.|La esposa de tu padre es tu madre.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-v1-q9',
       type: 'multiple-choice',
-      question: '[[Question 9|Pregunta 9]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 9|Explicación para la pregunta 9]]',
+      question: '[[My father\'s daughter is my ___.|La hija de mi padre es mi ___.]]',
+      options: ['sister', 'brother', 'mother', 'aunt'],
+      correctAnswer: 'sister',
+      explanation: '[[Your father\'s daughter is your sister.|La hija de tu padre es tu hermana.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-v1-q10',
       type: 'multiple-choice',
-      question: '[[Question 10|Pregunta 10]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 10|Explicación para la pregunta 10]]',
+      question: '[[My mother\'s son is my ___.|El hijo de mi madre es mi ___.]]',
+      options: ['sister', 'brother', 'father', 'uncle'],
+      correctAnswer: 'brother',
+      explanation: '[[Your mother\'s son is your brother.|El hijo de tu madre es tu hermano.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-v1-q11',
-      type: 'multiple-choice',
-      question: '[[Question 11|Pregunta 11]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 11|Explicación para la pregunta 11]]',
+      type: 'fill-blank',
+      question: '[[If you are a girl, you are your parents\' ___.|Si eres una niña, eres la ___ de tus padres.]]',
+      correctAnswer: 'daughter',
+      acceptableAnswers: ['daughter', 'Daughter'],
+      explanation: '[[A female child is a daughter.|Una hija mujer es una daughter.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-v1-q12',
-      type: 'multiple-choice',
-      question: '[[Question 12|Pregunta 12]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 12|Explicación para la pregunta 12]]',
+      type: 'fill-blank',
+      question: '[[If you are a boy, you are your parents\' ___.|Si eres un niño, eres el ___ de tus padres.]]',
+      correctAnswer: 'son',
+      acceptableAnswers: ['son', 'Son'],
+      explanation: '[[A male child is a son.|Un hijo varón es un son.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-v1-q13',
       type: 'multiple-choice',
-      question: '[[Question 13|Pregunta 13]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 13|Explicación para la pregunta 13]]',
+      question: '[[Your sister and brother are your parents\' ___.|Tu hermana y hermano son los ___ de tus padres.]]',
+      options: ['parents', 'children', 'cousins', 'grandparents'],
+      correctAnswer: 'children',
+      explanation: '[[Sons and daughters are children.|Los hijos e hijas son children.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-v1-q14',
-      type: 'multiple-choice',
-      question: '[[Question 14|Pregunta 14]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 14|Explicación para la pregunta 14]]',
+      type: 'fill-blank',
+      question: '[[Her ___ works in an office. (esposo)|Su ___ trabaja en una oficina.]]',
+      correctAnswer: 'husband',
+      acceptableAnswers: ['husband', 'Husband'],
+      explanation: '[[A married man is a husband.|Un hombre casado es un husband.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-v1-q15',
-      type: 'multiple-choice',
-      question: '[[Question 15|Pregunta 15]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 15|Explicación para la pregunta 15]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-v1-q16',
-      type: 'multiple-choice',
-      question: '[[Question 16|Pregunta 16]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 16|Explicación para la pregunta 16]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-v1-q17',
-      type: 'multiple-choice',
-      question: '[[Question 17|Pregunta 17]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 17|Explicación para la pregunta 17]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-v1-q18',
-      type: 'multiple-choice',
-      question: '[[Question 18|Pregunta 18]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 18|Explicación para la pregunta 18]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-v1-q19',
-      type: 'multiple-choice',
-      question: '[[Question 19|Pregunta 19]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 19|Explicación para la pregunta 19]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-v1-q20',
-      type: 'multiple-choice',
-      question: '[[Question 20|Pregunta 20]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 20|Explicación para la pregunta 20]]',
+      type: 'fill-blank',
+      question: '[[His ___ is a nurse. (esposa)|Su ___ es enfermera.]]',
+      correctAnswer: 'wife',
+      acceptableAnswers: ['wife', 'Wife'],
+      explanation: '[[A married woman is a wife.|Una mujer casada es una wife.]]',
       points: 1
     }
   ]
@@ -1414,127 +1111,82 @@ export const A1_M1_L5_VOCABULARY_2 = {
     {
       id: 'a1-m1-l5-v2-q7',
       type: 'multiple-choice',
-      question: '[[Question 7|Pregunta 7]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 7|Explicación para la pregunta 7]]',
+      question: '[[Your father\'s father is your ___.|El padre de tu padre es tu ___.]]',
+      options: ['grandfather', 'uncle', 'nephew', 'grandson'],
+      correctAnswer: 'grandfather',
+      explanation: '[[Your father\'s father is your grandfather.|El padre de tu padre es tu abuelo.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-v2-q8',
       type: 'multiple-choice',
-      question: '[[Question 8|Pregunta 8]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 8|Explicación para la pregunta 8]]',
+      question: '[[Your mother\'s sister is your ___.|La hermana de tu madre es tu ___.]]',
+      options: ['uncle', 'aunt', 'cousin', 'niece'],
+      correctAnswer: 'aunt',
+      explanation: '[[Your mother\'s sister is your aunt.|La hermana de tu madre es tu tía.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-v2-q9',
       type: 'multiple-choice',
-      question: '[[Question 9|Pregunta 9]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 9|Explicación para la pregunta 9]]',
+      question: '[[Your father\'s brother is your ___.|El hermano de mi padre es mi ___.]]',
+      options: ['uncle', 'aunt', 'cousin', 'nephew'],
+      correctAnswer: 'uncle',
+      explanation: '[[Your father\'s brother is your uncle.|El hermano de tu padre es tu tío.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-v2-q10',
-      type: 'multiple-choice',
-      question: '[[Question 10|Pregunta 10]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 10|Explicación para la pregunta 10]]',
+      type: 'fill-blank',
+      question: '[[Your sister\'s son is your ___.|El hijo de tu hermana es tu ___.]]',
+      correctAnswer: 'nephew',
+      acceptableAnswers: ['nephew', 'Nephew'],
+      explanation: '[[Your sister\'s son is your nephew.|El hijo de tu hermana es tu sobrino.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-v2-q11',
-      type: 'multiple-choice',
-      question: '[[Question 11|Pregunta 11]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 11|Explicación para la pregunta 11]]',
+      type: 'fill-blank',
+      question: '[[Your brother\'s daughter is your ___.|La hija de tu hermano es tu ___.]]',
+      correctAnswer: 'niece',
+      acceptableAnswers: ['niece', 'Niece'],
+      explanation: '[[Your brother\'s daughter is your niece.|La hija de tu hermano es tu sobrina.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-v2-q12',
       type: 'multiple-choice',
-      question: '[[Question 12|Pregunta 12]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 12|Explicación para la pregunta 12]]',
+      question: '[[Your children\'s son is your ___.|El hijo de tus hijos es tu ___.]]',
+      options: ['grandson', 'granddaughter', 'nephew', 'cousin'],
+      correctAnswer: 'grandson',
+      explanation: '[[Your child\'s son is your grandson.|El hijo de tu hijo/a es tu nieto.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-v2-q13',
       type: 'multiple-choice',
-      question: '[[Question 13|Pregunta 13]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 13|Explicación para la pregunta 13]]',
+      question: '[[Your children\'s daughter is your ___.|La hija de tus hijos es tu ___.]]',
+      options: ['granddaughter', 'grandson', 'niece', 'cousin'],
+      correctAnswer: 'granddaughter',
+      explanation: '[[Your child\'s daughter is your granddaughter.|La hija de tu hijo/a es tu nieta.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-v2-q14',
-      type: 'multiple-choice',
-      question: '[[Question 14|Pregunta 14]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 14|Explicación para la pregunta 14]]',
+      type: 'fill-blank',
+      question: '[[My ___ are very old. (abuelos)|Mis ___ son muy mayores.]]',
+      correctAnswer: 'grandparents',
+      acceptableAnswers: ['grandparents', 'Grandparents'],
+      explanation: '[[Grandmother and grandfather are grandparents.|La abuela y el abuelo son los grandparents.]]',
       points: 1
     },
     {
       id: 'a1-m1-l5-v2-q15',
-      type: 'multiple-choice',
-      question: '[[Question 15|Pregunta 15]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 15|Explicación para la pregunta 15]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-v2-q16',
-      type: 'multiple-choice',
-      question: '[[Question 16|Pregunta 16]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 16|Explicación para la pregunta 16]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-v2-q17',
-      type: 'multiple-choice',
-      question: '[[Question 17|Pregunta 17]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 17|Explicación para la pregunta 17]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-v2-q18',
-      type: 'multiple-choice',
-      question: '[[Question 18|Pregunta 18]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 18|Explicación para la pregunta 18]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-v2-q19',
-      type: 'multiple-choice',
-      question: '[[Question 19|Pregunta 19]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 19|Explicación para la pregunta 19]]',
-      points: 1
-    },
-    {
-      id: 'a1-m1-l5-v2-q20',
-      type: 'multiple-choice',
-      question: '[[Question 20|Pregunta 20]]',
-      options: ["Option A","Option B","Option C","Option D"],
-      correctAnswer: 'Option A',
-      explanation: '[[Explanation for question 20|Explicación para la pregunta 20]]',
+      type: 'fill-blank',
+      question: '[[My ___ is my aunt\'s daughter. (prima)|Mi ___ es la hija de mi tía.]]',
+      correctAnswer: 'cousin',
+      acceptableAnswers: ['cousin', 'Cousin'],
+      explanation: '[[Your aunt\'s or uncle\'s child is your cousin.|El hijo o hija de tu tío o tía es tu cousin.]]',
       points: 1
     }
   ]
@@ -1575,155 +1227,58 @@ export const A1_M1_L5_SENTENCE_COMPLETION = {
     },
     {
       id: 'sc4',
-      sentence: '[[Sample sentence 4.|Oración de ejemplo 4.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 4|Explicación para la oración 4]]',
+      prompt: '[[My grandfather\'s wife is my ___.|La esposa de mi abuelo es mi ___.]]',
+      correctCompletion: 'grandmother',
+      options: ['grandmother', 'mother', 'aunt', 'sister'],
+      explanation: '[[Your grandfather\'s wife is your grandmother.|La esposa de tu abuelo es tu abuela.]]',
       points: 1
     },
     {
       id: 'sc5',
-      sentence: '[[Sample sentence 5.|Oración de ejemplo 5.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 5|Explicación para la oración 5]]',
+      prompt: '[[My uncle\'s wife is my ___.|La esposa de mi tío es mi ___.]]',
+      correctCompletion: 'aunt',
+      options: ['aunt', 'sister', 'mother', 'niece'],
+      explanation: '[[Your uncle\'s wife is your aunt.|La esposa de tu tío es tu tía.]]',
       points: 1
     },
     {
       id: 'sc6',
-      sentence: '[[Sample sentence 6.|Oración de ejemplo 6.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 6|Explicación para la oración 6]]',
+      prompt: '[[My daughter\'s brother is my ___.|El hermano de mi hija es mi ___.]]',
+      correctCompletion: 'son',
+      options: ['son', 'father', 'uncle', 'brother'],
+      explanation: '[[Your daughter\'s brother is your son.|El hermano de tu hija es tu hijo.]]',
       points: 1
     },
     {
       id: 'sc7',
-      sentence: '[[Sample sentence 7.|Oración de ejemplo 7.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 7|Explicación para la oración 7]]',
+      prompt: '[[My son\'s sister is my ___.|La hermana de mi hijo es mi ___.]]',
+      correctCompletion: 'daughter',
+      options: ['daughter', 'mother', 'aunt', 'sister'],
+      explanation: '[[Your son\'s sister is your daughter.|La hermana de tu hijo es tu hija.]]',
       points: 1
     },
     {
       id: 'sc8',
-      sentence: '[[Sample sentence 8.|Oración de ejemplo 8.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 8|Explicación para la oración 8]]',
+      prompt: '[[My father\'s sister is my ___.|La hermana de mi padre es mi ___.]]',
+      correctCompletion: 'aunt',
+      options: ['aunt', 'grandmother', 'niece', 'sister'],
+      explanation: '[[Your father\'s sister is your aunt.|La hermana de tu padre es tu tía.]]',
       points: 1
     },
     {
       id: 'sc9',
-      sentence: '[[Sample sentence 9.|Oración de ejemplo 9.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 9|Explicación para la oración 9]]',
+      prompt: '[[My mother\'s father is my ___.|El padre de mi madre es mi ___.]]',
+      correctCompletion: 'grandfather',
+      options: ['grandfather', 'uncle', 'father', 'son'],
+      explanation: '[[Your mother\'s father is your grandfather.|El padre de tu madre es tu abuelo.]]',
       points: 1
     },
     {
       id: 'sc10',
-      sentence: '[[Sample sentence 10.|Oración de ejemplo 10.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 10|Explicación para la oración 10]]',
-      points: 1
-    },
-    {
-      id: 'sc11',
-      sentence: '[[Sample sentence 11.|Oración de ejemplo 11.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 11|Explicación para la oración 11]]',
-      points: 1
-    },
-    {
-      id: 'sc12',
-      sentence: '[[Sample sentence 12.|Oración de ejemplo 12.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 12|Explicación para la oración 12]]',
-      points: 1
-    },
-    {
-      id: 'sc13',
-      sentence: '[[Sample sentence 13.|Oración de ejemplo 13.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 13|Explicación para la oración 13]]',
-      points: 1
-    },
-    {
-      id: 'sc14',
-      sentence: '[[Sample sentence 14.|Oración de ejemplo 14.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 14|Explicación para la oración 14]]',
-      points: 1
-    },
-    {
-      id: 'sc15',
-      sentence: '[[Sample sentence 15.|Oración de ejemplo 15.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 15|Explicación para la oración 15]]',
-      points: 1
-    },
-    {
-      id: 'sc16',
-      sentence: '[[Sample sentence 16.|Oración de ejemplo 16.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 16|Explicación para la oración 16]]',
-      points: 1
-    },
-    {
-      id: 'sc17',
-      sentence: '[[Sample sentence 17.|Oración de ejemplo 17.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 17|Explicación para la oración 17]]',
-      points: 1
-    },
-    {
-      id: 'sc18',
-      sentence: '[[Sample sentence 18.|Oración de ejemplo 18.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 18|Explicación para la oración 18]]',
-      points: 1
-    },
-    {
-      id: 'sc19',
-      sentence: '[[Sample sentence 19.|Oración de ejemplo 19.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 19|Explicación para la oración 19]]',
-      points: 1
-    },
-    {
-      id: 'sc20',
-      sentence: '[[Sample sentence 20.|Oración de ejemplo 20.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 20|Explicación para la oración 20]]',
+      prompt: '[[My brother\'s daughter is my ___.|La hija de mi hermano es mi ___.]]',
+      correctCompletion: 'niece',
+      options: ['niece', 'nephew', 'daughter', 'cousin'],
+      explanation: '[[Your brother\'s daughter is your niece.|La hija de tu hermano es tu sobrina.]]',
       points: 1
     }
   ]
@@ -1753,164 +1308,74 @@ export const A1_M1_L5_ERROR_IDENTIFICATION = {
     },
     {
       id: 'ei3',
-      sentence: '[[Sample sentence 3.|Oración de ejemplo 3.]]',
+      sentence: 'I have two childs.',
       hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 3|Explicación para la oración 3]]',
+      errorWord: 'childs',
+      correction: 'children',
+      explanation: '[[Incorrect! The plural of "child" is "children".|¡Incorrecto! El plural de "child" es "children".]]',
       points: 1
     },
     {
       id: 'ei4',
-      sentence: '[[Sample sentence 4.|Oración de ejemplo 4.]]',
+      sentence: 'This is John car.',
       hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 4|Explicación para la oración 4]]',
+      errorWord: 'John',
+      correction: 'John\'s',
+      explanation: '[[Incorrect! We need the possessive form. Correct: John\'s car.|¡Incorrecto! Necesitamos la forma posesiva. Correcto: John\'s car.]]',
       points: 1
     },
     {
       id: 'ei5',
-      sentence: '[[Sample sentence 5.|Oración de ejemplo 5.]]',
+      sentence: 'The childrens are playing in the garden.',
       hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 5|Explicación para la oración 5]]',
+      errorWord: 'childrens',
+      correction: 'children',
+      explanation: '[[Incorrect! "Children" is already plural. Do not add "s".|¡Incorrecto! "Children" ya es plural. No añadas "s".]]',
       points: 1
     },
     {
       id: 'ei6',
-      sentence: '[[Sample sentence 6.|Oración de ejemplo 6.]]',
+      sentence: 'My parents house is very big.',
       hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 6|Explicación para la oración 6]]',
+      errorWord: 'parents',
+      correction: 'parents\'',
+      explanation: '[[Incorrect! We need the possessive form. Correct: parents\' house.|¡Incorrecto! Necesitamos la forma posesiva. Correcto: parents\' house.]]',
       points: 1
     },
     {
       id: 'ei7',
-      sentence: '[[Sample sentence 7.|Oración de ejemplo 7.]]',
+      sentence: 'She is an only children.',
       hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 7|Explicación para la oración 7]]',
+      errorWord: 'children',
+      correction: 'child',
+      explanation: '[[Incorrect! Use "child" for singular. Correct: only child.|¡Incorrecto! Usa "child" para singular. Correcto: only child.]]',
       points: 1
     },
     {
       id: 'ei8',
-      sentence: '[[Sample sentence 8.|Oración de ejemplo 8.]]',
+      sentence: 'Your mother sister is your aunt.',
       hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 8|Explicación para la oración 8]]',
+      errorWord: 'mother',
+      correction: 'mother\'s',
+      explanation: '[[Incorrect! We need the possessive form. Correct: mother\'s sister.|¡Incorrecto! Necesitamos la forma posesiva. Correcto: mother\'s sister.]]',
       points: 1
     },
     {
       id: 'ei9',
-      sentence: '[[Sample sentence 9.|Oración de ejemplo 9.]]',
+      sentence: 'My brother wife is from Spain.',
       hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 9|Explicación para la oración 9]]',
+      errorWord: 'brother',
+      correction: 'brother\'s',
+      explanation: '[[Incorrect! We need the possessive form. Correct: brother\'s wife.|¡Incorrecto! Necesitamos la forma posesiva. Correcto: brother\'s wife.]]',
       points: 1
     },
     {
       id: 'ei10',
-      sentence: '[[Sample sentence 10.|Oración de ejemplo 10.]]',
+      sentence: 'I have two brothers and one sisters.',
       hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 10|Explicación para la oración 10]]',
-      points: 1
-    },
-    {
-      id: 'ei11',
-      sentence: '[[Sample sentence 11.|Oración de ejemplo 11.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 11|Explicación para la oración 11]]',
-      points: 1
-    },
-    {
-      id: 'ei12',
-      sentence: '[[Sample sentence 12.|Oración de ejemplo 12.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 12|Explicación para la oración 12]]',
-      points: 1
-    },
-    {
-      id: 'ei13',
-      sentence: '[[Sample sentence 13.|Oración de ejemplo 13.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 13|Explicación para la oración 13]]',
-      points: 1
-    },
-    {
-      id: 'ei14',
-      sentence: '[[Sample sentence 14.|Oración de ejemplo 14.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 14|Explicación para la oración 14]]',
-      points: 1
-    },
-    {
-      id: 'ei15',
-      sentence: '[[Sample sentence 15.|Oración de ejemplo 15.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 15|Explicación para la oración 15]]',
-      points: 1
-    },
-    {
-      id: 'ei16',
-      sentence: '[[Sample sentence 16.|Oración de ejemplo 16.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 16|Explicación para la oración 16]]',
-      points: 1
-    },
-    {
-      id: 'ei17',
-      sentence: '[[Sample sentence 17.|Oración de ejemplo 17.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 17|Explicación para la oración 17]]',
-      points: 1
-    },
-    {
-      id: 'ei18',
-      sentence: '[[Sample sentence 18.|Oración de ejemplo 18.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 18|Explicación para la oración 18]]',
-      points: 1
-    },
-    {
-      id: 'ei19',
-      sentence: '[[Sample sentence 19.|Oración de ejemplo 19.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 19|Explicación para la oración 19]]',
-      points: 1
-    },
-    {
-      id: 'ei20',
-      sentence: '[[Sample sentence 20.|Oración de ejemplo 20.]]',
-      hasError: true,
-      errorWord: 'word',
-      correction: 'corrected',
-      explanation: '[[Explanation for sentence 20|Explicación para la oración 20]]',
+      errorWord: 'sisters',
+      correction: 'sister',
+      explanation: '[[Incorrect! Use "sister" for singular. Correct: one sister.|¡Incorrecto! Usa "sister" para el singular. Correcto: one sister.]]',
       points: 1
     }
   ]
@@ -1925,11 +1390,11 @@ export const A1_M1_L5_GAP_FILL = {
 
 My brother is married. His {{4}} is called Sarah. They have two children - my {{5}} Tom and my {{6}} Emma.
 
-My {{7}} (my mother\'s parents) live nearby. They are very kind.|Tengo una familia grande. Mis {{1}} son John y Mary. Tengo un {{2}} y dos {{3}}.
+My {{7}} (my mother\'s parents) live nearby. My mother also has a sister, Linda. Linda is my {{8}}. Her husband is Mark. Mark is my {{9}}. We all love our {{10}}!|Tengo una familia grande. Mis {{1}} son John y Mary. Tengo un {{2}} y dos {{3}}.
 
 Mi hermano está casado. Su {{4}} se llama Sarah. Tienen dos hijos - mi {{5}} Tom y mi {{6}} Emma.
 
-Mis {{7}} (los padres de mi madre) viven cerca. Son muy amables.]]`,
+Mis {{7}} (los padres de mi madre) viven cerca. Mi madre también tiene una hermana, Linda. Linda es mi {{8}}. Su esposo es Mark. Mark es mi {{9}}. ¡Todos amamos a nuestra {{10}}!]]`,
   gaps: [
     {
       id: 'gap1',
@@ -1989,93 +1454,26 @@ Mis {{7}} (los padres de mi madre) viven cerca. Son muy amables.]]`,
     },
     {
       id: 'gap8',
-      correctAnswer: 'word',
-      acceptableAnswers: ['word'],
-      explanation: '[[Explanation for gap 8|Explicación para el espacio 8]]',
+      gapNumber: 8,
+      correctAnswer: 'aunt',
+      options: ['aunt', 'uncle', 'sister'],
+      explanation: '[[Your mother\'s sister is your aunt.|La hermana de tu madre es tu tía.]]',
       points: 1
     },
     {
       id: 'gap9',
-      correctAnswer: 'word',
-      acceptableAnswers: ['word'],
-      explanation: '[[Explanation for gap 9|Explicación para el espacio 9]]',
+      gapNumber: 9,
+      correctAnswer: 'uncle',
+      options: ['uncle', 'aunt', 'brother'],
+      explanation: '[[Your aunt\'s husband is your uncle.|El esposo de tu tía es tu tío.]]',
       points: 1
     },
     {
       id: 'gap10',
-      correctAnswer: 'word',
-      acceptableAnswers: ['word'],
-      explanation: '[[Explanation for gap 10|Explicación para el espacio 10]]',
-      points: 1
-    },
-    {
-      id: 'gap11',
-      correctAnswer: 'word',
-      acceptableAnswers: ['word'],
-      explanation: '[[Explanation for gap 11|Explicación para el espacio 11]]',
-      points: 1
-    },
-    {
-      id: 'gap12',
-      correctAnswer: 'word',
-      acceptableAnswers: ['word'],
-      explanation: '[[Explanation for gap 12|Explicación para el espacio 12]]',
-      points: 1
-    },
-    {
-      id: 'gap13',
-      correctAnswer: 'word',
-      acceptableAnswers: ['word'],
-      explanation: '[[Explanation for gap 13|Explicación para el espacio 13]]',
-      points: 1
-    },
-    {
-      id: 'gap14',
-      correctAnswer: 'word',
-      acceptableAnswers: ['word'],
-      explanation: '[[Explanation for gap 14|Explicación para el espacio 14]]',
-      points: 1
-    },
-    {
-      id: 'gap15',
-      correctAnswer: 'word',
-      acceptableAnswers: ['word'],
-      explanation: '[[Explanation for gap 15|Explicación para el espacio 15]]',
-      points: 1
-    },
-    {
-      id: 'gap16',
-      correctAnswer: 'word',
-      acceptableAnswers: ['word'],
-      explanation: '[[Explanation for gap 16|Explicación para el espacio 16]]',
-      points: 1
-    },
-    {
-      id: 'gap17',
-      correctAnswer: 'word',
-      acceptableAnswers: ['word'],
-      explanation: '[[Explanation for gap 17|Explicación para el espacio 17]]',
-      points: 1
-    },
-    {
-      id: 'gap18',
-      correctAnswer: 'word',
-      acceptableAnswers: ['word'],
-      explanation: '[[Explanation for gap 18|Explicación para el espacio 18]]',
-      points: 1
-    },
-    {
-      id: 'gap19',
-      correctAnswer: 'word',
-      acceptableAnswers: ['word'],
-      explanation: '[[Explanation for gap 19|Explicación para el espacio 19]]',
-      points: 1
-    },
-    {
-      id: 'gap20',
-      correctAnswer: 'word',
-      acceptableAnswers: ['word'],
-      explanation: '[[Explanation for gap 20|Explicación para el espacio 20]]',
+      gapNumber: 10,
+      correctAnswer: 'family',
+      options: ['family', 'familys', 'families'],
+      explanation: '[[All these people are your family.|Todas estas personas son tu familia.]]',
       points: 1
     }
   ]
@@ -2105,146 +1503,82 @@ export const A1_M1_L5_COLLOCATION_MATCHING = {
     },
     {
       id: 'cm3',
-      word: '[[word3|palabra3]]',
-      correctMatch: '[[match|unión]]',
-      distractors: ['[[dist1|dist1]]', '[[dist2|dist2]]'],
-      example: '[[Example sentence 3.|Oración de ejemplo 3.]]',
+      word: 'Father',
+      correctMatch: '[[male parent|progenitor masculino]]',
+      distractors: ['[[female parent|progenitora femenina]]', '[[sibling|hermano/a]]', '[[nephew|sobrino/a]]'],
+      example: '[[My father is 50 years old.|Mi padre tiene 50 años.]]',
       points: 1
     },
     {
       id: 'cm4',
-      word: '[[word4|palabra4]]',
-      correctMatch: '[[match|unión]]',
-      distractors: ['[[dist1|dist1]]', '[[dist2|dist2]]'],
-      example: '[[Example sentence 4.|Oración de ejemplo 4.]]',
+      word: 'Aunt',
+      correctMatch: '[[parent\'s sister|hermana del padre o madre]]',
+      distractors: ['[[parent\'s brother|hermano del padre o madre]]', '[[niece|sobrina]]', '[[grandmother|abuela]]'],
+      example: '[[My aunt lives in London.|Mi tía vive en Londres.]]',
       points: 1
     },
     {
       id: 'cm5',
-      word: '[[word5|palabra5]]',
-      correctMatch: '[[match|unión]]',
-      distractors: ['[[dist1|dist1]]', '[[dist2|dist2]]'],
-      example: '[[Example sentence 5.|Oración de ejemplo 5.]]',
+      word: 'Cousin',
+      correctMatch: '[[parent\'s sibling\'s child|hijo/a del hermano/a de los padres]]',
+      distractors: ['[[sibling|hermano/a]]', '[[nephew|sobrino/a]]', '[[grandson|nieto]]'],
+      example: '[[My cousin is my aunt\'s son.|Mi primo es el hijo de mi tía.]]',
       points: 1
     },
     {
       id: 'cm6',
-      word: '[[word6|palabra6]]',
-      correctMatch: '[[match|unión]]',
-      distractors: ['[[dist1|dist1]]', '[[dist2|dist2]]'],
-      example: '[[Example sentence 6.|Oración de ejemplo 6.]]',
+      word: 'Grandmother',
+      correctMatch: '[[parent\'s mother|madre del padre o madre]]',
+      distractors: ['[[parent\'s sister|hermana del padre o madre]]', '[[wife|esposa]]', '[[daughter|hija]]'],
+      example: '[[My grandmother is very kind.|Mi abuela es muy amable.]]',
       points: 1
     },
     {
       id: 'cm7',
-      word: '[[word7|palabra7]]',
-      correctMatch: '[[match|unión]]',
-      distractors: ['[[dist1|dist1]]', '[[dist2|dist2]]'],
-      example: '[[Example sentence 7.|Oración de ejemplo 7.]]',
+      word: 'Grandfather',
+      correctMatch: '[[parent\'s father|padre del padre o madre]]',
+      distractors: ['[[parent\'s brother|hermano del padre o madre]]', '[[husband|esposo]]', '[[son|hijo]]'],
+      example: '[[My grandfather loves fishing.|A mi abuelo le encanta pescar.]]',
       points: 1
     },
     {
       id: 'cm8',
-      word: '[[word8|palabra8]]',
-      correctMatch: '[[match|unión]]',
-      distractors: ['[[dist1|dist1]]', '[[dist2|dist2]]'],
-      example: '[[Example sentence 8.|Oración de ejemplo 8.]]',
+      word: 'Niece',
+      correctMatch: '[[sibling\'s daughter|hija del hermano/a]]',
+      distractors: ['[[sibling\'s son|hijo del hermano/a]]', '[[aunt|tía]]', '[[granddaughter|nieta]]'],
+      example: '[[My niece is only two years old.|Mi sobrina solo tiene dos años.]]',
       points: 1
     },
     {
       id: 'cm9',
-      word: '[[word9|palabra9]]',
-      correctMatch: '[[match|unión]]',
-      distractors: ['[[dist1|dist1]]', '[[dist2|dist2]]'],
-      example: '[[Example sentence 9.|Oración de ejemplo 9.]]',
+      word: 'Nephew',
+      correctMatch: '[[sibling\'s son|hijo del hermano/a]]',
+      distractors: ['[[sibling\'s daughter|hija del hermano/a]]', '[[uncle|tío]]', '[[grandson|nieto]]'],
+      example: '[[My nephew is very tall.|Mi sobrino es muy alto.]]',
       points: 1
     },
     {
       id: 'cm10',
-      word: '[[word10|palabra10]]',
-      correctMatch: '[[match|unión]]',
-      distractors: ['[[dist1|dist1]]', '[[dist2|dist2]]'],
-      example: '[[Example sentence 10.|Oración de ejemplo 10.]]',
+      word: 'Son',
+      correctMatch: '[[male child|hijo varón]]',
+      distractors: ['[[female child|hija mujer]]', '[[brother|hermano]]', '[[father|padre]]'],
+      example: '[[Their son is a doctor.|Su hijo es doctor.]]',
       points: 1
     },
     {
       id: 'cm11',
-      word: '[[word11|palabra11]]',
-      correctMatch: '[[match|unión]]',
-      distractors: ['[[dist1|dist1]]', '[[dist2|dist2]]'],
-      example: '[[Example sentence 11.|Oración de ejemplo 11.]]',
+      word: 'Daughter',
+      correctMatch: '[[female child|hija mujer]]',
+      distractors: ['[[male child|hijo varón]]', '[[sister|hermana]]', '[[mother|madre]]'],
+      example: '[[She is their only daughter.|Ella es su única hija.]]',
       points: 1
     },
     {
       id: 'cm12',
-      word: '[[word12|palabra12]]',
-      correctMatch: '[[match|unión]]',
-      distractors: ['[[dist1|dist1]]', '[[dist2|dist2]]'],
-      example: '[[Example sentence 12.|Oración de ejemplo 12.]]',
-      points: 1
-    },
-    {
-      id: 'cm13',
-      word: '[[word13|palabra13]]',
-      correctMatch: '[[match|unión]]',
-      distractors: ['[[dist1|dist1]]', '[[dist2|dist2]]'],
-      example: '[[Example sentence 13.|Oración de ejemplo 13.]]',
-      points: 1
-    },
-    {
-      id: 'cm14',
-      word: '[[word14|palabra14]]',
-      correctMatch: '[[match|unión]]',
-      distractors: ['[[dist1|dist1]]', '[[dist2|dist2]]'],
-      example: '[[Example sentence 14.|Oración de ejemplo 14.]]',
-      points: 1
-    },
-    {
-      id: 'cm15',
-      word: '[[word15|palabra15]]',
-      correctMatch: '[[match|unión]]',
-      distractors: ['[[dist1|dist1]]', '[[dist2|dist2]]'],
-      example: '[[Example sentence 15.|Oración de ejemplo 15.]]',
-      points: 1
-    },
-    {
-      id: 'cm16',
-      word: '[[word16|palabra16]]',
-      correctMatch: '[[match|unión]]',
-      distractors: ['[[dist1|dist1]]', '[[dist2|dist2]]'],
-      example: '[[Example sentence 16.|Oración de ejemplo 16.]]',
-      points: 1
-    },
-    {
-      id: 'cm17',
-      word: '[[word17|palabra17]]',
-      correctMatch: '[[match|unión]]',
-      distractors: ['[[dist1|dist1]]', '[[dist2|dist2]]'],
-      example: '[[Example sentence 17.|Oración de ejemplo 17.]]',
-      points: 1
-    },
-    {
-      id: 'cm18',
-      word: '[[word18|palabra18]]',
-      correctMatch: '[[match|unión]]',
-      distractors: ['[[dist1|dist1]]', '[[dist2|dist2]]'],
-      example: '[[Example sentence 18.|Oración de ejemplo 18.]]',
-      points: 1
-    },
-    {
-      id: 'cm19',
-      word: '[[word19|palabra19]]',
-      correctMatch: '[[match|unión]]',
-      distractors: ['[[dist1|dist1]]', '[[dist2|dist2]]'],
-      example: '[[Example sentence 19.|Oración de ejemplo 19.]]',
-      points: 1
-    },
-    {
-      id: 'cm20',
-      word: '[[word20|palabra20]]',
-      correctMatch: '[[match|unión]]',
-      distractors: ['[[dist1|dist1]]', '[[dist2|dist2]]'],
-      example: '[[Example sentence 20.|Oración de ejemplo 20.]]',
+      word: 'Wife',
+      correctMatch: '[[married woman|mujer casada]]',
+      distractors: ['[[married man|hombre casado]]', '[[sister|hermana]]', '[[mother|madre]]'],
+      example: '[[His wife is a teacher.|Su esposa es profesora.]]',
       points: 1
     }
   ]
