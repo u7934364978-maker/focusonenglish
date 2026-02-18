@@ -45,3 +45,6 @@ Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supa
 Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
  GET /debug/a1-preview/unit-3 200 in 721ms
  GET /debug/a1-preview/unit-3 200 in 725ms
+ ✓ Compiled in 1112ms (2343 modules)
+ ✓ Compiled in 646ms (2343 modules)
+ ✓ Compiled in 821ms (2343 modules)
