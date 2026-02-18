@@ -941,14 +941,14 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[Hello are. We the Millers. We are. She. We are your new. My neighbors name is George. I am an engineer. This is my wife, Sarah is a nurse from Canada. We have two children, a son and a. Their daughter names are Ben. Ben is and Lucy ten and. We Lucy is eight are very happy to be here|Hola. Nosotros somos los Miller. Nosotros somos vuestros nuevos vecinos. Mi nombre es George. Yo soy un ingeniero. Esta es mi esposa, Sarah. Ella es una enfermera. Nosotros somos de Canadá. Nosotros tenemos dos hijos, un hijo y una hija. Sus nombres son Ben y Lucy. Ben tiene diez y Lucy tiene ocho. Nosotros estamos muy felices de estar aquí]].",
+    "transcript": "[[Hello|Hola]]. [[We are|Nosotros somos]] [[the Millers|los Miller]]. [[We are|Nosotros somos]] [[your new neighbors|vuestros nuevos vecinos]]. [[My name|Mi nombre]] [[is|es]] [[George|George]]. [[I am|Yo soy]] [[an engineer|un ingeniero]]. [[This is|Esta es]] [[my wife|mi esposa]], [[Sarah|Sarah]]. [[She is|Ella es]] [[a nurse|una enfermera]]. [[We are|Nosotros somos]] [[from Canada|de Canadá]]. [[We have|Nosotros tenemos]] [[two children|dos hijos]], [[a son|un hijo]] [[and a daughter|y una hija]]. [[Their names|Sus nombres]] [[are|son]] [[Ben and Lucy|Ben y Lucy]]. [[Ben|Ben]] [[is ten|tiene diez]] [[and Lucy|y Lucy]] [[is eight|tiene ocho]]. [[We are|Nosotros estamos]] [[very happy|muy felices]] [[to be here|de estar aquí]].",
     "content": {
-      "title": "[[Reading New: The Neighbors|Lectura: Los Nuevos Vecinos]]",
-      "instructions": "[[Read about the Miller family|Lee sobre la Miller familia]].",
+      "title": "[[Reading: The Neighbors|Lectura: Los Nuevos Vecinos]]",
+      "instructions": "[[Read about the Miller family|Lee sobre la familia Miller]].",
       "questions": [
         {
-          "question": "[[Hello are. We the Millers. We are. She. We are your new. My neighbors name is George. I am an engineer. This is my wife, Sarah is a nurse from Canada. We have two children, a son and a. Their daughter names are Ben. Ben is and Lucy ten and. We Lucy is eight are very happy to be here|Hola. Nosotros somos los Miller. Nosotros somos vuestros nuevos vecinos. Mi nombre es George. Yo soy un ingeniero. Esta es mi esposa, Sarah. Ella es una enfermera. Nosotros somos de Canadá. Nosotros tenemos dos hijos, un hijo y una hija. Sus nombres son Ben y Lucy. Ben tiene diez y Lucy tiene ocho. Nosotros estamos muy felices de estar aquí]].",
-          "options": ["[[I have read the text|Yo he leído el texto]]."],
+          "question": "[[Hello|Hola]]. [[We are|Nosotros somos]] [[the Millers|los Miller]]. [[We are|Nosotros somos]] [[your new neighbors|vuestros nuevos vecinos]]. [[My name|Mi nombre]] [[is|es]] [[George|George]]. [[I am|Yo soy]] [[an engineer|un ingeniero]]. [[This is|Esta es]] [[my wife|mi esposa]], [[Sarah|Sarah]]. [[She is|Ella es]] [[a nurse|una enfermera]]. [[We are|Nosotros somos]] [[from Canada|de Canadá]]. [[We have|Nosotros tenemos]] [[two children|dos hijos]], [[a son|un hijo]] [[and a daughter|y una hija]]. [[Their names|Sus nombres]] [[are|son]] [[Ben and Lucy|Ben y Lucy]]. [[Ben|Ben]] [[is ten|tiene diez]] [[and Lucy|y Lucy]] [[is eight|tiene ocho]]. [[We are|Nosotros estamos]] [[very happy|muy felices]] [[to be here|de estar aquí]].",
+          "options": ["[[I have read the text|He leído el texto]]."],
           "correctAnswer": 0,
           "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
@@ -962,16 +962,16 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Where is the Miller family from|De dónde es la Miller familia de]]?",
+    "transcript": "[[Where|De dónde]] [[is|es]] [[the Miller family|la familia Miller]] [[from|de]]?",
     "content": {
       "title": "[[Comprehension: Origin|Comprensión: Origen]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[Where is the Miller family from|De dónde es la Miller familia de]]?",
+          "question": "[[Where|De dónde]] [[is|es]] [[the Miller family|la familia Miller]] [[from|de]]?",
           "options": ["[[The USA|EE.UU.]]", "[[England|Inglaterra]]", "[[Canada|Canadá]]"],
           "correctAnswer": 2,
-          "explanation": "[[The text says are|El texto dice]]: \"[[We from Canada|Nosotros somos de Canadá]]\"."
+          "explanation": "[[The text says|El texto dice]]: \"[[We are from Canada|Somos de Canadá]]\"."
         }
       ]
     },
@@ -983,16 +983,16 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[What is George's job|Cuál es de George trabajo]]?",
+    "transcript": "[[What|Cuál]] [[is|es]] [[George's job|el trabajo de George]]?",
     "content": {
       "title": "[[Comprehension: Profession|Comprensión: Profesión]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[What is George's job|Cuál es de George trabajo]]?",
+          "question": "[[What|Cuál]] [[is|es]] [[George's job|el trabajo de George]]?",
           "options": ["[[He is an engineer|Es ingeniero]]", "[[He is a doctor|Es médico]]", "[[He is a nurse|Es enfermero]]"],
           "correctAnswer": 0,
-          "explanation": "[[George says an engineer|George dice]]: \"[[I am|Yo soy un ingeniero]]\"."
+          "explanation": "[[George says|George dice]]: \"[[I am an engineer|Soy ingeniero]]\"."
         }
       ]
     },
@@ -1004,16 +1004,16 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[How old is Lucy|Cuántos años tiene Lucy]]?",
+    "transcript": "[[How old|Cuántos años]] [[is|tiene]] [[Lucy|Lucy]]?",
     "content": {
       "title": "[[Comprehension: Age|Comprensión: Edad]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[How old is Lucy|Cuántos años tiene Lucy]]?",
+          "question": "[[How old|Cuántos años]] [[is|tiene]] [[Lucy|Lucy]]?",
           "options": ["[[Ten|Diez]]", "[[Two|Dos]]", "[[Eight|Ocho]]"],
           "correctAnswer": 2,
-          "explanation": "[[The text says is|El texto dice]]: \"[[Lucy eight|Lucy tiene ocho]]\"."
+          "explanation": "[[The text says|El texto dice]]: \"[[Lucy is eight|Lucy tiene ocho]]\"."
         }
       ]
     },
@@ -1027,14 +1027,14 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[Today is. The Monday school is very. There busy are forty-two classrooms. The in this building principal's office is. Mr. White on the second floor is the. He principal is sixty-four years. All old the teachers are. The in their rooms students are happy to learn|Hoy es lunes. La escuela está muy concurrida. Hay hay cuarenta y dos aulas en este edificio. El del director oficina está en el segundo piso. Sr. White es el director. Él es sesenta y cuatro años de edad. Todos los profesores están en sus habitaciones. Los estudiantes están felices de aprender]].",
+    "transcript": "[[Today|Hoy]] [[is|es]] [[Monday|lunes]]. [[The school|La escuela]] [[is|está]] [[very busy|muy concurrida]]. [[There are|Hay]] [[forty-two classrooms|cuarenta y dos aulas]] [[in this building|en este edificio]]. [[The principal's office|La oficina del director]] [[is|está]] [[on the second floor|en el segundo piso]]. [[Mr. White|El Sr. White]] [[is|es]] [[the principal|el director]]. [[He is|Él tiene]] [[sixty-four years old|sesenta y cuatro años]]. [[All the teachers|Todos los profesores]] [[are in their rooms|están en sus aulas]]. [[The students|Los estudiantes]] [[are happy|están felices]] [[to learn|de aprender]].",
     "content": {
-      "title": "[[Reading School: The Day|Lectura: El Escolar Día]]",
+      "title": "[[Reading: The School Day|Lectura: El Día Escolar]]",
       "instructions": "[[Read about the school|Lee sobre la escuela]].",
       "questions": [
         {
-          "question": "[[Today is. The Monday school is very. There busy are forty-two classrooms. The in this building principal's office is. Mr. White on the second floor is the. He principal is sixty-four years. All old the teachers are. The in their rooms students are happy to learn|Hoy es lunes. La escuela está muy concurrida. Hay hay cuarenta y dos aulas en este edificio. El del director oficina está en el segundo piso. Sr. White es el director. Él es sesenta y cuatro años de edad. Todos los profesores están en sus habitaciones. Los estudiantes están felices de aprender]].",
-          "options": ["[[I have read the text|Yo he leído el texto]]."],
+          "question": "[[Today|Hoy]] [[is|es]] [[Monday|lunes]]. [[The school|La escuela]] [[is|está]] [[very busy|muy concurrida]]. [[There are|Hay]] [[forty-two classrooms|cuarenta y dos aulas]] [[in this building|en este edificio]]. [[The principal's office|La oficina del director]] [[is|está]] [[on the second floor|en el segundo piso]]. [[Mr. White|El Sr. White]] [[is|es]] [[the principal|el director]]. [[He is|Él tiene]] [[sixty-four years old|sesenta y cuatro años]]. [[All the teachers|Todos los profesores]] [[are in their rooms|están en sus aulas]]. [[The students|Los estudiantes]] [[are happy|están felices]] [[to learn|de aprender]].",
+          "options": ["[[I have read the text|He leído el texto]]."],
           "correctAnswer": 0,
           "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
@@ -1048,16 +1048,16 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[How many classrooms are there|Cuántas muchas aulas hay allí]]?",
+    "transcript": "[[How many|Cuántas]] [[classrooms|aulas]] [[are there|hay]]?",
     "content": {
       "title": "[[Comprehension: Classrooms|Comprensión: Aulas]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[How many classrooms are there|Cuántas muchas aulas hay allí]]?",
+          "question": "[[How many|Cuántas]] [[classrooms|aulas]] [[are there|hay]]?",
           "options": ["[[Twenty-four|24]]", "[[Sixty-four|64]]", "[[Forty-two|42]]"],
           "correctAnswer": 2,
-          "explanation": "[[The text says are|El texto dice]]: \"[[There forty-two classrooms|Hay hay cuarenta y dos aulas]]\"."
+          "explanation": "[[The text says|El texto dice]]: \"[[There are forty-two classrooms|Hay cuarenta y dos aulas]]\"."
         }
       ]
     },
@@ -1069,16 +1069,16 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Where is the principal's office|Dónde está la del director oficina]]?",
+    "transcript": "[[Where|Dónde]] [[is|está]] [[the principal's office|la oficina del director]]?",
     "content": {
       "title": "[[Comprehension: Location|Comprensión: Ubicación]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[Where is the principal's office|Dónde está la del director oficina]]?",
+          "question": "[[Where|Dónde]] [[is|está]] [[the principal's office|la oficina del director]]?",
           "options": ["[[Second floor|Segundo piso]]", "[[First floor|Primer piso]]", "[[Third floor|Tercer piso]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text mentions the|El texto menciona]]: \"[[on second floor|en el segundo piso]]\"."
+          "explanation": "[[The text mentions|El texto menciona]]: \"[[on the second floor|en el segundo piso]]\"."
         }
       ]
     },
@@ -1090,16 +1090,16 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[How old is Mr. White|Qué edad tiene tiene Sr. White]]?",
+    "transcript": "[[How old|Cuántos años]] [[is|tiene]] [[Mr. White|el Sr. White]]?",
     "content": {
-      "title": "[[Comprehension Age: Principal's|Comprensión: del director Edad]]",
+      "title": "[[Comprehension: Principal's Age|Comprensión: Edad del director]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[How old is Mr. White|Qué edad tiene tiene Sr. White]]?",
+          "question": "[[How old|Cuántos años]] [[is|tiene]] [[Mr. White|el Sr. White]]?",
           "options": ["[[Sixty|60]]", "[[Forty-two|42]]", "[[Sixty-four|64]]"],
           "correctAnswer": 2,
-          "explanation": "[[The text says is old|El texto dice]]: \"[[He sixty-four years|Él es sesenta y cuatro años de edad]]\"."
+          "explanation": "[[The text says|El texto dice]]: \"[[He is sixty-four years old|Tiene sesenta y cuatro años]]\"."
         }
       ]
     },
@@ -1113,14 +1113,14 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[My new. His friend is Japanese name is Kenji. Kenji is very tall. He is and thin thirty-one years. He old is a police. His officer in Tokyo favorite color is. We yellow are very good friends|Mi nuevo amigo es japonés. Su nombre es Kenji. Kenji es muy alto y delgado. Él tiene treinta y uno años de edad. Él es un policía oficial en Tokio. Su favorito color es amarillo. Nosotros estamos muy buenos amigos]].",
+    "transcript": "[[My new friend|Mi nuevo amigo]] [[is Japanese|es japonés]]. [[His name|Su nombre]] [[is Kenji|es Kenji]]. [[Kenji is|Kenji es]] [[very tall and thin|muy alto y delgado]]. [[He is|Él tiene]] [[thirty-one years old|treinta y un años]]. [[He is|Él es]] [[a police officer|un oficial de policía]] [[in Tokyo|en Tokio]]. [[His favorite color|Su color favorito]] [[is yellow|es amarillo]]. [[We are|Nosotros somos]] [[very good friends|muy buenos amigos]].",
     "content": {
-      "title": "[[Reading New: A Friend|Lectura: Un Nuevo Amigo]]",
+      "title": "[[Reading: A Friend|Lectura: Un Amigo]]",
       "instructions": "[[Read about Kenji|Lee sobre Kenji]].",
       "questions": [
         {
-          "question": "[[My new. His friend is Japanese name is Kenji. Kenji is very tall. He is and thin thirty-one years. He old is a police. His officer in Tokyo favorite color is. We yellow are very good friends|Mi nuevo amigo es japonés. Su nombre es Kenji. Kenji es muy alto y delgado. Él tiene treinta y uno años de edad. Él es un policía oficial en Tokio. Su favorito color es amarillo. Nosotros estamos muy buenos amigos]].",
-          "options": ["[[I have read the text|Yo he leído el texto]]."],
+          "question": "[[My new friend|Mi nuevo amigo]] [[is Japanese|es japonés]]. [[His name|Su nombre]] [[is Kenji|es Kenji]]. [[Kenji is|Kenji es]] [[very tall and thin|muy alto y delgado]]. [[He is|Él tiene]] [[thirty-one years old|treinta y un años]]. [[He is|Él es]] [[a police officer|un oficial de policía]] [[in Tokyo|en Tokio]]. [[His favorite color|Su color favorito]] [[is yellow|es amarillo]]. [[We are|Nosotros somos]] [[very good friends|muy buenos amigos]].",
+          "options": ["[[I have read the text|He leído el texto]]."],
           "correctAnswer": 0,
           "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
@@ -1134,16 +1134,16 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[What is Kenji's favorite color|Cuál es de Kenji favorito color]]?",
+    "transcript": "[[What|Cuál]] [[is|es]] [[Kenji's favorite color|el color favorito de Kenji]]?",
     "content": {
-      "title": "[[Comprehension Color: Favorite|Comprensión: Favorito Color]]",
+      "title": "[[Comprehension: Favorite Color|Comprensión: Color favorito]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[What is Kenji's favorite color|Cuál es de Kenji favorito color]]?",
+          "question": "[[What|Cuál]] [[is|es]] [[Kenji's favorite color|el color favorito de Kenji]]?",
           "options": ["[[Blue|Azul]]", "[[Green|Verde]]", "[[Yellow|Amarillo]]"],
           "correctAnswer": 2,
-          "explanation": "[[The text says favorite yellow|El texto dice]]: \"[[His color is|Su favorito color es amarillo]]\"."
+          "explanation": "[[The text says|El texto dice]]: \"[[His favorite color is yellow|Su color favorito es amarillo]]\"."
         }
       ]
     },

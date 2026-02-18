@@ -62,12 +62,8 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/8e
 
 ---
 
-## [x] Implementation (Unit 10)
+## [x] Phase: Reading Translation Refactoring (Unit 9 & 10)
 
-1. [x] **Add Missing Exercises**: Create `a1-u10-e1` in `src/lib/course/a1/unit-10.ts`.
-2. [x] **Bilingualize Vocabulary (e1-e10)**: Update `title`, `instructions`, and `explanation` to `[[English|Spanish]]`.
-3. [x] **Bilingualize Grammar (e11-e20)**: Update text fields.
-4. [x] **Bilingualize Review & Practice (e21-e50)**: Update text fields.
-5. [x] **Bilingualize Reading Comprehension (e51-e60)**: Update text fields.
-6. [x] **Verification**: Run `npm run validate-exercises` and `npm run lint`.
-7. [x] **Final Report**: Write the completion report.
+1. [x] **Refactor Unit 9 Reading (e51-e60)**: Change block translations in `transcript` and `question` to word-by-word/phrase-by-phrase `[[English|Spanish]]`.
+2. [x] **Refactor Unit 10 Reading (e51-e60)**: Change block translations in `transcript` and `question` to word-by-word/phrase-by-phrase `[[English|Spanish]]`.
+3. [x] **Verification**: Run `npm run validate-exercises`.

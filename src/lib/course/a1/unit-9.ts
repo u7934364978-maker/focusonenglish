@@ -942,14 +942,14 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[Hello name, my is Dr. Smith. I am, I help. My many sick a doctor. I work in a. Every day big hospital in London people work is very. I interesting but busy start at eight. I am o'clock in the morning very happy with my job|Hola, mi nombre es Dr. Smith. Yo soy un médico. Yo trabajo en un grande hospital en Londres. Cada día, yo ayudo muchas enfermas personas. Mi trabajo es muy interesante pero estresante/ocupado. Yo empiezo a las ocho en punto en la mañana. Yo estoy muy feliz con mi empleo]].",
+    "transcript": "[[Hello|Hola]], [[my name|mi nombre]] [[is|es]] [[Dr. Smith|Dr. Smith]]. [[I am|Yo soy]] [[a doctor|un médico]]. [[I work|Yo trabajo]] [[in a|en un]] [[big hospital|hospital grande]] [[in London|en Londres]]. [[Every day|Cada día]], [[I help|ayudo a]] [[many|muchas]] [[sick people|personas enfermas]]. [[My work|Mi trabajo]] [[is|es]] [[very|muy]] [[interesting|interesante]] [[but|pero]] [[busy|estresante/ocupado]]. [[I start|Empiezo]] [[at eight o'clock|a las ocho en punto]] [[in the morning|en la mañana]]. [[I am|Estoy]] [[very happy|muy feliz]] [[with my job|con mi empleo]].",
     "content": {
-      "title": "[[Reading Work: Dr. Smith's|Lectura: del Dr. Smith Trabajo]]",
+      "title": "[[Reading Work: Dr. Smith's|Lectura: El trabajo del Dr. Smith]]",
       "instructions": "[[Read the text and prepare for the questions|Lee el texto y prepárate para las preguntas]].",
       "questions": [
         {
-          "question": "[[Hello name, my is Dr. Smith. I am, I help. My many sick a doctor. I work in a. Every day big hospital in London people work is very. I interesting but busy start at eight. I am o'clock in the morning very happy with my job|Hola, mi nombre es Dr. Smith. Yo soy un médico. Yo trabajo en un grande hospital en Londres. Cada día, yo ayudo muchas enfermas personas. Mi trabajo es muy interesante pero estresante/ocupado. Yo empiezo a las ocho en punto en la mañana. Yo estoy muy feliz con mi empleo]].",
-          "options": ["[[I have read the text|Yo he leído el texto]]."],
+          "question": "[[Hello|Hola]], [[my name|mi nombre]] [[is|es]] [[Dr. Smith|Dr. Smith]]. [[I am|Yo soy]] [[a doctor|un médico]]. [[I work|Yo trabajo]] [[in a|en un]] [[big hospital|hospital grande]] [[in London|en Londres]]. [[Every day|Cada día]], [[I help|ayudo a]] [[many|muchas]] [[sick people|personas enfermas]]. [[My work|Mi trabajo]] [[is|es]] [[very|muy]] [[interesting|interesante]] [[but|pero]] [[busy|estresante/ocupado]]. [[I start|Empiezo]] [[at eight o'clock|a las ocho en punto]] [[in the morning|en la mañana]]. [[I am|Estoy]] [[very happy|muy feliz]] [[with my job|con mi empleo]].",
+          "options": ["[[I have read the text|He leído el texto]]."],
           "correctAnswer": 0,
           "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
@@ -963,16 +963,16 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[What is his job|Cuál es su trabajo]]?",
+    "transcript": "[[What|Qué]] [[is|es]] [[his job|su trabajo]]?",
     "content": {
       "title": "[[Comprehension: Dr. Smith|Comprensión: Dr. Smith]]",
       "instructions": "[[Answer the question based on the text|Responde la pregunta basada en el texto]].",
       "questions": [
         {
-          "question": "[[What is his job|Cuál es su trabajo]]?",
+          "question": "[[What|Qué]] [[is|es]] [[his job|su trabajo]]?",
           "options": ["[[He is a teacher|Es profesor]]", "[[He is a driver|Es conductor]]", "[[He is a doctor|Es médico]]"],
           "correctAnswer": 2,
-          "explanation": "[[The text says am|El texto dice]]: \"[[I a doctor|Yo soy un médico]]\"."
+          "explanation": "[[The text says|El texto dice]]: \"[[I am a doctor|Soy médico]]\"."
         }
       ]
     },
@@ -984,13 +984,13 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Where is the hospital|Dónde está el hospital]]?",
+    "transcript": "[[Where|Dónde]] [[is|está]] [[the hospital|el hospital]]?",
     "content": {
       "title": "[[Comprehension: Location|Comprensión: Ubicación]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[Where is the hospital|Dónde está el hospital]]?",
+          "question": "[[Where|Dónde]] [[is|está]] [[the hospital|el hospital]]?",
           "options": ["[[In London|En Londres]]", "[[In Paris|En París]]", "[[In Madrid|En Madrid]]"],
           "correctAnswer": 0,
           "explanation": "[[The hospital is in London|El hospital está en Londres]]."
@@ -1005,16 +1005,16 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[How is his work|Cómo es su trabajo]]?",
+    "transcript": "[[How|Cómo]] [[is|es]] [[his work|su trabajo]]?",
     "content": {
       "title": "[[Comprehension: Description|Comprensión: Descripción]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[How is his work according to him|Cómo es su trabajo según a él]]?",
+          "question": "[[How|Cómo]] [[is|es]] [[his work|su trabajo]] [[according to him|según él]]?",
           "options": ["[[Boring and easy|Aburrido y fácil]]", "[[Interesting but busy|Interesante pero ocupado]]", "[[Easy but boring|Fácil pero aburrido]]"],
           "correctAnswer": 1,
-          "explanation": "[[He says is very interesting but busy|Él dice]]: \"[[My work|Mi trabajo es muy interesante pero estresante/ocupado]]\"."
+          "explanation": "[[He says|Él dice]]: \"[[My work is very interesting but busy|Mi trabajo es muy interesante pero ocupado]]\"."
         }
       ]
     },
@@ -1028,14 +1028,14 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[This is. She Anna is a famous. She chef works in an. Anna cooks Italian restaurant delicious pasta. She has and pizza five assistants. The in the kitchen restaurant opens at. Many people twelve noon visit the restaurant every weekend|Esta es Anna. Ella es una famosa chef. Ella trabaja en un italiano restaurante. Anna cocina deliciosa pasta y pizza. Ella tiene cinco asistentes en la cocina. El restaurante abre a las doce del mediodía. Muchos personas visitan el restaurante cada fin de semana]].",
+    "transcript": "[[This is|Esta es]] [[Anna|Anna]]. [[She is|Ella es]] [[a famous chef|una chef famosa]]. [[She works|Ella trabaja]] [[in an|en un]] [[Italian restaurant|restaurante italiano]]. [[Anna|Anna]] [[cooks|cocina]] [[delicious|deliciosa]] [[pasta and pizza|pasta y pizza]]. [[She has|Ella tiene]] [[five assistants|cinco asistentes]] [[in the kitchen|en la cocina]]. [[The restaurant|El restaurante]] [[opens|abre]] [[at twelve noon|a las doce del mediodía]]. [[Many people|Muchas personas]] [[visit|visitan]] [[the restaurant|el restaurante]] [[every weekend|cada fin de semana]].",
     "content": {
-      "title": "[[Reading the: Anna Chef|Lectura: Anna la Chef]]",
+      "title": "[[Reading: Anna the Chef|Lectura: Anna la Chef]]",
       "instructions": "[[Read the text about Anna|Lee el texto sobre Anna]].",
       "questions": [
         {
-          "question": "[[This is. She Anna is a famous. She chef works in an. Anna cooks Italian restaurant delicious pasta. She has and pizza five assistants. The in the kitchen restaurant opens at. Many people twelve noon visit the restaurant every weekend|Esta es Anna. Ella es una famosa chef. Ella trabaja en un italiano restaurante. Anna cocina deliciosa pasta y pizza. Ella tiene cinco asistentes en la cocina. El restaurante abre a las doce del mediodía. Muchos personas visitan el restaurante cada fin de semana]].",
-          "options": ["[[I have read the text|Yo he leído el texto]]."],
+          "question": "[[This is|Esta es]] [[Anna|Anna]]. [[She is|Ella es]] [[a famous chef|una chef famosa]]. [[She works|Ella trabaja]] [[in an|en un]] [[Italian restaurant|restaurante italiano]]. [[Anna|Anna]] [[cooks|cocina]] [[delicious|deliciosa]] [[pasta and pizza|pasta y pizza]]. [[She has|Ella tiene]] [[five assistants|cinco asistentes]] [[in the kitchen|en la cocina]]. [[The restaurant|El restaurante]] [[opens|abre]] [[at twelve noon|a las doce del mediodía]]. [[Many people|Muchas personas]] [[visit|visitan]] [[the restaurant|el restaurante]] [[every weekend|cada fin de semana]].",
+          "options": ["[[I have read the text|He leído el texto]]."],
           "correctAnswer": 0,
           "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
@@ -1049,13 +1049,13 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[What does Anna cook|Qué aux Anna cocinar]]?",
+    "transcript": "[[What|Qué]] [[does|aux]] [[Anna|Anna]] [[cook|cocina]]?",
     "content": {
-      "title": "[[Comprehension Food: Anna's|Comprensión: de Anna Comida]]",
+      "title": "[[Comprehension: Anna's Food|Comprensión: La comida de Anna]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[What does Anna cook|Qué aux Anna cocinar]]?",
+          "question": "[[What|Qué]] [[does|aux]] [[Anna|Anna]] [[cook|cocina]]?",
           "options": ["[[Burgers and fries|Hamburguesas y patatas]]", "[[Pasta and pizza|Pasta y pizza]]", "[[Sushi and rice|Sushi y arroz]]"],
           "correctAnswer": 1,
           "explanation": "[[She cooks delicious pasta and pizza|Ella cocina deliciosa pasta y pizza]]."
@@ -1070,16 +1070,16 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[How many assistants does she have|Cuántos muchos asistentes aux ella tener]]?",
+    "transcript": "[[How many|Cuántos]] [[assistants|asistentes]] [[does she have|tiene ella]]?",
     "content": {
       "title": "[[Comprehension: Assistants|Comprensión: Asistentes]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[Does she have three assistants|Aux ella tiene tres asistentes]]?",
-          "options": ["[[No has, she five has, she|No, ella tiene cinco]].", "[[Yes ten|Sí, ella tiene]].", "[[No has, she|No, ella tiene diez]]."],
+          "question": "[[Does she have three assistants?|¿Tiene ella tres asistentes?]]",
+          "options": ["[[No, she has five.|No, ella tiene cinco.]]", "[[Yes, she has.|Sí, ella tiene.]]", "[[No, she has ten.|No, ella tiene diez.]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says has|El texto dice]]: \"[[She five assistants|Ella tiene cinco asistentes]]\"."
+          "explanation": "[[The text says she has five assistants|El texto dice que tiene cinco asistentes]]."
         }
       ]
     },
@@ -1091,16 +1091,16 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[When do many people visit|Cuándo aux muchas personas visitar]]?",
+    "transcript": "[[When|Cuándo]] [[do|aux]] [[many people|muchas personas]] [[visit|visitan]]?",
     "content": {
       "title": "[[Comprehension: Visits|Comprensión: Visitas]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[When do many people visit the restaurant|Cuándo aux muchas personas visitar el restaurante]]?",
+          "question": "[[When|Cuándo]] [[do|aux]] [[many people|muchas personas]] [[visit|visitan]] [[the restaurant|el restaurante]]?",
           "options": ["[[Every Monday|Cada lunes]]", "[[Every night|Cada noche]]", "[[Every weekend|Cada fin de semana]]"],
           "correctAnswer": 2,
-          "explanation": "[[Many people visit the restaurant every weekend|Muchos personas visitan el restaurante cada fin de semana]]."
+          "explanation": "[[Many people visit the restaurant every weekend|Muchas personas visitan el restaurante cada fin de semana]]."
         }
       ]
     },
@@ -1114,14 +1114,14 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[Tom is. He a police officer is strong and. He brave works at the. His central police station uniform is dark. He blue has a police. He car helps people in. Tom loves the city his job because it is important|Tom es un policía oficial. Él es fuerte y valiente. Él trabaja en la central policía estación. Su uniforme es oscuro azul. Él tiene un de policía coche. Él ayuda personas en la ciudad. Tom ama su trabajo porque esto es importante]].",
+    "transcript": "[[Tom|Tom]] [[is|es]] [[a police officer|un oficial de policía]]. [[He is|Él es]] [[strong and brave|fuerte y valiente]]. [[He works|Él trabaja]] [[at the|en la]] [[central police station|estación central de policía]]. [[His uniform|Su uniforme]] [[is|es]] [[dark blue|azul oscuro]]. [[He has|Él tiene]] [[a police car|un coche de policía]]. [[He helps|Él ayuda a]] [[people|personas]] [[in the city|en la ciudad]]. [[Tom|Tom]] [[loves|ama]] [[his job|su trabajo]] [[because|porque]] [[it is|es]] [[important|importante]].",
     "content": {
-      "title": "[[Reading Police: The Officer|Lectura: El Policía Oficial]]",
+      "title": "[[Reading: The Police Officer|Lectura: El Oficial de Policía]]",
       "instructions": "[[Read the last text|Lee el último texto]].",
       "questions": [
         {
-          "question": "[[Tom is. He a police officer is strong and. He brave works at the. His central police station uniform is dark. He blue has a police. He car helps people in. Tom loves the city his job because it is important|Tom es un policía oficial. Él es fuerte y valiente. Él trabaja en la central policía estación. Su uniforme es oscuro azul. Él tiene un de policía coche. Él ayuda personas en la ciudad. Tom ama su trabajo porque esto es importante]].",
-          "options": ["[[I have read the text|Yo he leído el texto]]."],
+          "question": "[[Tom|Tom]] [[is|es]] [[a police officer|un oficial de policía]]. [[He is|Él es]] [[strong and brave|fuerte y valiente]]. [[He works|Él trabaja]] [[at the|en la]] [[central police station|estación central de policía]]. [[His uniform|Su uniforme]] [[is|es]] [[dark blue|azul oscuro]]. [[He has|Él tiene]] [[a police car|un coche de policía]]. [[He helps|Él ayuda a]] [[people|personas]] [[in the city|en la ciudad]]. [[Tom|Tom]] [[loves|ama]] [[his job|su trabajo]] [[because|porque]] [[it is|es]] [[important|importante]].",
+          "options": ["[[I have read the text|He leído el texto]]."],
           "correctAnswer": 0,
           "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
@@ -1135,16 +1135,16 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[What color is his uniform|De qué color es su uniforme]]?",
+    "transcript": "[[What color|De qué color]] [[is|es]] [[his uniform|su uniforme]]?",
     "content": {
       "title": "[[Comprehension: Uniform|Comprensión: Uniforme]]",
       "instructions": "[[Answer the question based on the text|Responde la pregunta basada en el texto]].",
       "questions": [
         {
-          "question": "[[What color is his uniform|De qué color es su uniforme]]?",
+          "question": "[[What color|De qué color]] [[is|es]] [[his uniform|su uniforme]]?",
           "options": ["[[Black|Negro]]", "[[Dark blue|Azul oscuro]]", "[[Green|Verde]]"],
           "correctAnswer": 1,
-          "explanation": "[[His uniform is dark blue|Su uniforme es oscuro azul]]."
+          "explanation": "[[His uniform is dark blue|Su uniforme es azul oscuro]]."
         }
       ]
     },
