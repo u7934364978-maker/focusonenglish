@@ -192,15 +192,21 @@ Created detailed implementation plan based on spec.md. See Implementation tasks 
 
 **Changes**:
 1. **Lexicon Audit**: Extracted missing words from Unit 1 exercises (`a1-m1-l1-detailed.ts`).
-2. **Lexicon Update**: Added 17 new entries to `src/lib/course/engine/lexicon.ts`:
-   - `verb`, `to be`, `be`, `use` (fixes missing underlines in headings/questions)
-   - `true`, `false`, `question`, `answer` (exercise meta-terms)
-   - `greetings`, `goodbyes` (plural forms)
+2. **Lexicon Update**: Added 50+ new entries to `src/lib/course/engine/lexicon.ts`:
+   - `verb`, `to be`, `be`, `use`, `contraction`, `pronoun`, `subject`, `sentence`, `opposite`, `capitalized` (grammar meta-terms)
+   - `true`, `false`, `question`, `answer`, `select`, `identify`, `choose`, `best`, `correct` (instructional terms)
+   - `the`, `a`, `an`, `of`, `for`, `and`, `to`, `in`, `on`, `at` (common particles and prepositions)
+   - `always`, `later`, `now`, `today` (time markers)
    - `i`, `you`, `he`, `she`, `it`, `we`, `they` (standalone pronouns)
+   - `I'm`, `He's`, `She's`, `It's`, `We're`, `They're`, `You're` (contractions)
+   - `Sarah's`, `Tom's`, `Maria's` (possessives)
+3. **Explicit Tagging**: Updated `src/lib/a1-m1-l1-detailed.ts` with explicit `[[word|translation]]` tags for:
+   - `AM` and `PM` (to avoid collision with the verb "am")
+   - Meta-terms in instructions to ensure 100% accuracy in tooltips.
 
 **Verification**:
-- Verified the `TranslatedText` component correctly matches these new terms.
-- Verified priority by placing new terms at the top of the `A1_LEXICON` array.
+- Verified that all words identified in student screenshots now have corresponding lexicon entries or explicit tags.
+- Fixed the "AM" (time) vs "am" (verb) collision by using explicit tags in the exercise content.
 
 ---
 
