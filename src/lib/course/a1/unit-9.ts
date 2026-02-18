@@ -5,6 +5,24 @@ export const UNIT_9_EXERCISES: Exercise[] = [
   // VOCABULARY: JOBS & PROFESSIONS (1-10)
   // ==========================================
   {
+    "id": "a1-u9-e1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Jobs",
+    "difficulty": "easy",
+    "transcript": "[[I am a teacher. I work in a school|Yo soy un profesor. Yo trabajo en una escuela]].",
+    "content": {
+      "title": "[[Jobs Introduction|Introducción a los Trabajos]]",
+      "instructions": "[[Choose the correct job|Elige el trabajo correcto]].",
+      "question": "[[I work in a school. I am a|Trabajo en una escuela. Soy un]] (____).",
+      "options": ["[[teacher|profesor]]", "[[doctor|médico]]", "[[driver|conductor]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Teachers work in schools|Los profesores trabajan en escuelas]]."
+    },
+    "audioUrl": "audio/a1/unit-9/e1.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
     "id": "a1-u9-e2",
     "type": "multiple-choice",
     "level": "A1",
@@ -48,11 +66,11 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[I bring. I am food to your table a waiter|Yo traigo comida a tu mesa. Yo soy un camarero]].",
     "content": {
-      "title": "Identificar profesión",
-      "instructions": "Selecciona la profesión adecuada.",
+      "title": "[[Identify Profession|Identificar Profesión]]",
+      "instructions": "[[Select the proper profession|Selecciona la profesión adecuada]].",
       "options": ["[[chef|cocinero]]", "[[engineer|ingeniero]]", "[[waiter|camarero]]"],
       "correctAnswer": 2,
-      "explanation": "El camarero trae la comida a la mesa."
+      "explanation": "[[The waiter brings the food to the table|El camarero trae la comida a la mesa]]."
     },
     "audioUrl": "audio/a1/unit-9/e4.mp3",
     "topicName": "Vocabulary"
@@ -65,11 +83,11 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[They study. They at the university are students|Ellos estudian en la universidad. Ellos son estudiantes]].",
     "content": {
-      "title": "Identificar profesión",
-      "instructions": "Elige la palabra correcta.",
+      "title": "[[Identify Profession|Identificar Profesión]]",
+      "instructions": "[[Choose the correct word|Elige la palabra correcta]].",
       "options": ["[[students|estudiantes]]", "[[nurses|enfermeros]]", "[[police|policías]]"],
       "correctAnswer": 0,
-      "explanation": "Las personas que estudian en la universidad son estudiantes."
+      "explanation": "[[People who study at the university are students|Las personas que estudian en la universidad son estudiantes]]."
     },
     "audioUrl": "audio/a1/unit-9/e5.mp3",
     "topicName": "Vocabulary"
@@ -82,11 +100,11 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[She cooks. She in a restaurant is a chef|Ella cocina en un restaurante. Ella es una cocinera]].",
     "content": {
-      "title": "Identificar profesión",
-      "instructions": "Elige la profesión lógica.",
+      "title": "[[Identify Profession|Identificar Profesión]]",
+      "instructions": "[[Choose the logical profession|Elige la profesión lógica]].",
       "options": ["[[nurse|enfermera]]", "[[chef|cocinera]]", "[[teacher|profesora]]"],
       "correctAnswer": 1,
-      "explanation": "Alguien que cocina en un restaurante es chef o cocinero."
+      "explanation": "[[Someone who cooks in a restaurant is a chef|Alguien que cocina en un restaurante es chef o cocinero]]."
     },
     "audioUrl": "audio/a1/unit-9/e6.mp3",
     "topicName": "Vocabulary"
@@ -99,11 +117,11 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[He drives. He is a bus a driver|Él conduce un autobús. Él es un conductor]].",
     "content": {
-      "title": "Identificar profesión",
-      "instructions": "Selecciona la ocupación.",
+      "title": "[[Identify Profession|Identificar Profesión]]",
+      "instructions": "[[Select the occupation|Selecciona la ocupación]].",
       "options": ["[[driver|conductor]]", "[[police|policía]]", "[[student|estudiante]]"],
       "correctAnswer": 0,
-      "explanation": "Drives a bus indica que es conductor."
+      "explanation": "[[Drives a bus indicates he is a driver|'Drives a bus' indica que es conductor]]."
     },
     "audioUrl": "audio/a1/unit-9/e7.mp3",
     "topicName": "Vocabulary"
@@ -116,11 +134,11 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[She paints. She is beautiful pictures an artist|Ella pinta hermosos cuadros. Ella es una artista]].",
     "content": {
-      "title": "Identificar profesión",
-      "instructions": "Elige la profesión lógica.",
+      "title": "[[Identify Profession|Identificar Profesión]]",
+      "instructions": "[[Choose the logical profession|Elige la profesión lógica]].",
       "options": ["[[engineer|ingeniero]]", "[[artist|artista]]", "[[waiter|camarero]]"],
       "correctAnswer": 1,
-      "explanation": "Paints pictures define a un artista."
+      "explanation": "[[Paints pictures defines an artist|'Paints pictures' define a un artista]]."
     },
     "audioUrl": "audio/a1/unit-9/e8.mp3",
     "topicName": "Vocabulary"
@@ -133,11 +151,11 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[He builds. He bridges is an engineer|Él construye puentes. Él es un ingeniero]].",
     "content": {
-      "title": "Identificar profesión",
-      "instructions": "Selecciona la profesión correcta.",
+      "title": "[[Identify Profession|Identificar Profesión]]",
+      "instructions": "[[Select the correct profession|Selecciona la profesión correcta]].",
       "options": ["[[chef|cocinero]]", "[[driver|conductor]]", "[[engineer|ingeniero]]"],
       "correctAnswer": 2,
-      "explanation": "Construir puentes es tarea de un ingeniero."
+      "explanation": "[[Building bridges is an engineer's task|Construir puentes es tarea de un ingeniero]]."
     },
     "audioUrl": "audio/a1/unit-9/e9.mp3",
     "topicName": "Vocabulary"
@@ -150,11 +168,11 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[They wear. They blue uniforms and help people are police officers|Ellos llevan azul uniformes y ayudan personas. Ellos son policías]].",
     "content": {
-      "title": "Identificar profesión",
-      "instructions": "Elige la profesión.",
+      "title": "[[Identify Profession|Identificar Profesión]]",
+      "instructions": "[[Choose the profession|Elige la profesión]].",
       "options": ["[[police officers|policías]]", "[[doctors|médicos]]", "[[artists|artistas]]"],
       "correctAnswer": 0,
-      "explanation": "Uniforme azul y ayuda suele referirse a policías."
+      "explanation": "[[Blue uniform and helping usually refers to police officers|Uniforme azul y ayuda suele referirse a policías]]."
     },
     "audioUrl": "audio/a1/unit-9/e10.mp3",
     "topicName": "Vocabulary"
@@ -163,6 +181,24 @@ export const UNIT_9_EXERCISES: Exercise[] = [
   // ==========================================
   // GRAMMAR: ARTICLES & PLACES (11-20)
   // ==========================================
+  {
+    "id": "a1-u9-e11",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Grammar",
+    "difficulty": "medium",
+    "transcript": "[[He is a doctor|Él es un médico]].",
+    "content": {
+      "title": "[[Articles: A/An|Artículos: A/An]]",
+      "instructions": "[[Choose the correct article|Elige el artículo correcto]].",
+      "question": "[[He is|Él es]] (____) [[doctor|médico]].",
+      "options": ["[[a|un]]", "[[an|un]]", "[[the|el]]"],
+      "correctAnswer": 0,
+      "explanation": "[[We use 'a' before words starting with a consonant|Usamos 'a' antes de palabras que comienzan con consonante]]."
+    },
+    "audioUrl": "audio/a1/unit-9/e11.mp3",
+    "topicName": "Grammar"
+  },
   {
     "id": "a1-u9-e12",
     "type": "multiple-choice",
@@ -243,11 +279,11 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[My father works on a farm|Mi padre trabaja en una granja]].",
     "content": {
-      "title": "Lugar de trabajo",
-      "instructions": "Ordena la frase.",
+      "title": "[[Workplace|Lugar de trabajo]]",
+      "instructions": "[[Order the sentence|Ordena la frase]].",
       "correctSentence": "[[My father works on a farm|Mi padre trabaja en una granja]].",
       "words": ["[[farm|granja]].", "[[a|una]]", "[[on|en]]", "[[works|trabaja]]", "[[father|padre]]", "[[My|Mi]]"],
-      "explanation": "Con 'farm' usamos la preposición 'on'."
+      "explanation": "[[With 'farm' we use the preposition 'on'|Con 'farm' usamos la preposición 'on']]."
     },
     "audioUrl": "audio/a1/unit-9/e16.mp3",
     "topicName": "Grammar"
@@ -260,11 +296,11 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Where do your parents work|Dónde aux tus padres trabajar]]?",
     "content": {
-      "title": "Pregunta de plural",
-      "instructions": "Ordena la pregunta.",
+      "title": "[[Plural question|Pregunta de plural]]",
+      "instructions": "[[Order the question|Ordena la pregunta]].",
       "correctSentence": "[[Where do your parents work|Dónde aux tus padres trabajar]]?",
       "words": ["[[work|trabajar]]?", "[[parents|padres]]", "[[your|tus]]", "[[do|aux]]", "[[Where|Dónde]]"],
-      "explanation": "Con sujetos plurales usamos 'do'."
+      "explanation": "[[With plural subjects we use 'do'|Con sujetos plurales usamos 'do']]."
     },
     "audioUrl": "audio/a1/unit-9/e17.mp3",
     "topicName": "Grammar"
@@ -313,11 +349,11 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[The artist doesn't work at the school|El artista no trabaja en la escuela]].",
     "content": {
-      "title": "Frase negativa",
-      "instructions": "Ordena la frase negativa.",
+      "title": "[[Negative sentence|Frase negativa]]",
+      "instructions": "[[Order the negative sentence|Ordena la frase negativa]].",
       "correctSentence": "[[The artist doesn't work at the school|El artista no trabaja en la escuela]].",
       "words": ["[[school|escuela]].", "[[the|la]]", "[[at|en]]", "[[work|trabaja]]", "[[doesn't|no]]", "[[artist|artista]]", "[[The|El]]"],
-      "explanation": "Sujeto + doesn't + verbo infinitivo + lugar."
+      "explanation": "[[Subject + doesn't + base verb + place|Sujeto + doesn't + verbo infinitivo + lugar]]."
     },
     "audioUrl": "audio/a1/unit-9/e20.mp3",
     "topicName": "Grammar"
