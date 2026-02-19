@@ -48,8 +48,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   const isReadingExercise = (
     exercise.topicName?.toLowerCase().includes('reading') || 
     exercise.topic?.toLowerCase().includes('reading') || 
-    exercise.type === 'reading-comprehension'
-  ) && !!exercise.transcript;
+    exercise.type === 'reading-comprehension' ||
+    exercise.type === 'reading'
+  ) && (!!exercise.transcript || !!exerciseContent.text);
 
   useEffect(() => {
     setMounted(true);
@@ -431,7 +432,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           {isReadingExercise && showReadingText ? (
             <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
               <div className="p-10 bg-white border-l-8 border-purple-500 rounded-r-3xl shadow-inner text-slate-800 text-2xl leading-relaxed font-medium italic relative">
-                <Markdown content={exercise.transcript!} />
+                <Markdown content={(exerciseContent.text || exercise.transcript)!} />
                 {exercise.audioUrl && (
                   <button
                     onClick={() => playAudio(exercise.audioUrl)}
