@@ -400,459 +400,21 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "topicName": "Vocabulary"
   },
   {
-    "id": "a1-u21-e29",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Grammar: There are",
-    "difficulty": "medium",
-    "transcript": "There are some books on the desk.",
-    "content": {
-      "title": "Afirmación en Plural",
-      "instructions": "Elige la opción correcta.",
-      "questions": [
-        {
-          "question": "_______ [[some books on the desk|algunos libros en el escritorio]].",
-          "options": ["[[There is|Hay]]", "[[There are|Hay (plural)]]", "[[Is there|¿Hay?]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'There are' con 'some' y sustantivos en plural."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-21/e29.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u21-e30",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Rooms",
-    "difficulty": "easy",
-    "transcript": "The garage is for the car.",
-    "content": {
-      "title": "El Garaje",
-      "instructions": "Elige la palabra correcta.",
-      "questions": [
-        {
-          "question": "[[The for the car|El]] _______ [[is|es para el coche]].",
-          "options": ["[[garage|garaje]]", "[[attic|ático]]", "[[bathroom|baño]]"],
-          "correctAnswer": 0,
-          "explanation": "El coche se guarda en el garaje."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-21/e30.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u21-e31",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Prepositions of Place",
-    "difficulty": "medium",
-    "transcript": "The desk is between the bed and the window.",
-    "content": {
-      "title": "Entre dos cosas",
-      "instructions": "Elige la preposición correcta.",
-      "questions": [
-        {
-          "question": "[[The desk is bed window|El escritorio está]] _______ [[the and the|la cama y la ventana]].",
-          "options": ["[[next to|al lado de]]", "[[between|entre]]", "[[under|debajo de]]"],
-          "correctAnswer": 1,
-          "explanation": "'Between' se usa cuando algo está en medio de dos objetos."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-21/e31.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u21-e32",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Bedroom",
-    "difficulty": "easy",
-    "transcript": "I have a soft pillow.",
-    "content": {
-      "title": "En la Cama",
-      "instructions": "Completa la oración.",
-      "questions": [
-        {
-          "question": "[[I have a soft|Yo tengo una suave]] _______.",
-          "options": ["[[pillow|almohada]]", "[[microwave|microondas]]", "[[fork|tenedor]]"],
-          "correctAnswer": 0,
-          "explanation": "Una almohada (pillow) es suave."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-21/e32.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u21-e33",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Home",
-    "difficulty": "easy",
-    "transcript": "The house has a large balcony.",
-    "content": {
-      "title": "Partes de la Casa",
-      "instructions": "Elige la opción correcta.",
-      "questions": [
-        {
-          "question": "[[The house has a large|La casa tiene un grande]] _______.",
-          "options": ["[[balcony|balcón]]", "[[plate|plato]]", "[[spoon|cuchara]]"],
-          "correctAnswer": 0,
-          "explanation": "Un balcón es parte de una casa."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-21/e33.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u21-e34",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Grammar: There is",
-    "difficulty": "medium",
-    "transcript": "There is a microwave in the kitchen.",
-    "content": {
-      "title": "Electrodomésticos",
-      "instructions": "Completa la oración correctamente.",
-      "questions": [
-        {
-          "question": "_______ [[a microwave in the kitchen|un microondas en la cocina]].",
-          "options": ["[[There is|Hay]]", "[[There are|Hay (plural)]]", "[[There not|No hay]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'There is' para un solo objeto."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-21/e34.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u21-e35",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Actions",
-    "difficulty": "medium",
-    "transcript": "I relax in the living room after work.",
-    "content": {
-      "title": "Actividades",
-      "instructions": "Elige el verbo correcto.",
-      "questions": [
-        {
-          "question": "[[I the living room after work|Yo]] _______ [[in|en el salón habitación después de el trabajo]].",
-          "options": ["[[relax|me relajo]]", "[[cook|cocino]]", "[[wash|lavo]]"],
-          "correctAnswer": 0,
-          "explanation": "Normalmente nos relajamos (relax) en el salón."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-21/e35.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u21-e36",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Grammar: Are there",
-    "difficulty": "medium",
-    "transcript": "Are there many rooms in your house?",
-    "content": {
-      "title": "Preguntas sobre la Casa",
-      "instructions": "Completa la pregunta correctamente.",
-      "questions": [
-        {
-          "question": "_______ [[many rooms in your house|muchas habitaciones en tu casa]]?",
-          "options": ["[[Is there|¿Hay?]]", "[[Are there|¿Hay? (plural)]]", "[[Have you|¿Tienes?]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'Are there' para preguntas en plural."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-21/e36.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u21-e37",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Furniture",
-    "difficulty": "medium",
-    "transcript": "The wardrobe is for my clothes.",
-    "content": {
-      "title": "Muebles del Dormitorio",
-      "instructions": "Elige la palabra correcta.",
-      "questions": [
-        {
-          "question": "[[The for my clothes|El]] _______ [[is|es para mis ropa]].",
-          "options": ["[[wardrobe|armario]]", "[[fridge|nevera]]", "[[toilet|inodoro]]"],
-          "correctAnswer": 0,
-          "explanation": "Guardamos la ropa en el armario (wardrobe)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-21/e37.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u21-e38",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Grammar: There aren't",
-    "difficulty": "medium",
-    "transcript": "There aren't any chairs in the garden.",
-    "content": {
-      "title": "Negación en Plural",
-      "instructions": "Completa la oración negativa.",
-      "questions": [
-        {
-          "question": "_______ [[any chairs in the garden|ninguna sillas en el jardín]].",
-          "options": ["[[There isn't|No hay]]", "[[There aren't|No hay (plural)]]", "[[There not|No hay]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'There aren't' para negar en plural."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-21/e38.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u21-e39",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Bathroom",
-    "difficulty": "easy",
-    "transcript": "I wash my hands with soap.",
-    "content": {
-      "title": "Higiene",
-      "instructions": "Elige la palabra correcta.",
-      "questions": [
-        {
-          "question": "[[I wash my hands with|Yo lavo mis manos con]] _______.",
-          "options": ["[[soap|jabón]]", "[[soup|sopa]]", "[[sugar|azúcar]]"],
-          "correctAnswer": 0,
-          "explanation": "Lavamos las manos con jabón (soap)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-21/e39.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u21-e40",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Prepositions: In",
-    "difficulty": "easy",
-    "transcript": "The clothes are in the wardrobe.",
-    "content": {
-      "title": "Dentro de",
-      "instructions": "Elige la preposición correcta.",
-      "questions": [
-        {
-          "question": "[[The clothes are wardrobe|La ropa está]] _______ [[the|el armario]].",
-          "options": ["[[on|encima de]]", "[[in|dentro de]]", "[[under|debajo de]]"],
-          "correctAnswer": 1,
-          "explanation": "La ropa está 'in' (dentro de) el armario."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-21/e40.mp3",
-    "topicName": "Grammar"
-  },
-
-  // SENTENCE BUILDING (41-50)
-  {
-    "id": "a1-u21-e41",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Grammar: There is",
-    "difficulty": "medium",
-    "transcript": "There is a lamp on the desk.",
-    "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[There is a lamp on the desk|Allí está/hay una lámpara sobre el escritorio]].",
-      "words": ["[[lamp|lámpara]]", "[[on|sobre]]", "[[There|Allí]]", "[[is|está/hay]]", "[[the|el]]", "[[desk|escritorio]].", "[[a|una]]"],
-      "explanation": "Estructura: There is + objeto + preposición + lugar."
-    },
-    "audioUrl": "audio/a1/unit-21/e41.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u21-e42",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Vocabulary: Home",
-    "difficulty": "medium",
-    "transcript": "My house is big and comfortable.",
-    "content": {
-      "title": "Describiendo mi casa",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[My house is big and comfortable|Mi casa es grande y cómoda]].",
-      "words": ["[[is|es]]", "[[big|grande]]", "[[My|Mi]]", "[[comfortable|cómoda]].", "[[and|y]]", "[[house|casa]]"],
-      "explanation": "Usamos adjetivos después del verbo 'is' para describir."
-    },
-    "audioUrl": "audio/a1/unit-21/e42.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u21-e43",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Grammar: Plurals",
-    "difficulty": "medium",
-    "transcript": "There are three bedrooms in the house.",
-    "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[There are three bedrooms in the house|Allí están/hay tres dormitorios en la casa]].",
-      "words": ["[[three|tres]]", "[[in|en]]", "[[house|casa]].", "[[bedrooms|dormitorios]]", "[[There|Allí]]", "[[are|están/hay]]", "[[the|la]]"],
-      "explanation": "Usamos 'There are' para el plural."
-    },
-    "audioUrl": "audio/a1/unit-21/e43.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u21-e44",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Prepositions of Place",
-    "difficulty": "medium",
-    "transcript": "The cat is under the bed.",
-    "content": {
-      "title": "Ubicación del Gato",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[The cat is under the bed|El gato está debajo de la cama]].",
-      "words": ["[[under|debajo de]]", "[[cat|gato]]", "[[bed|cama]].", "[[is|está]]", "[[the|el]]", "[[the|la]]"],
-      "explanation": "Estructura: Sujeto + is + preposición + objeto."
-    },
-    "audioUrl": "audio/a1/unit-21/e44.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u21-e45",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Vocabulary: Kitchen",
-    "difficulty": "medium",
-    "transcript": "We have a modern kitchen.",
-    "content": {
-      "title": "Nuestra Cocina",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[We have a modern kitchen|Nosotros tenemos una moderna cocina]].",
-      "words": ["[[a|una]]", "[[modern|moderna]]", "[[We|Nosotros]]", "[[kitchen|cocina]].", "[[have|tenemos]]"],
-      "explanation": "Sujeto + have + adjetivo + sustantivo."
-    },
-    "audioUrl": "audio/a1/unit-21/e45.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u21-e46",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Grammar: Questions",
-    "difficulty": "hard",
-    "transcript": "Is there a garden in your house?",
-    "content": {
-      "title": "Pregunta de Existencia",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Is there a garden in your house|Está/hay allí un jardín en tu casa]]?",
-      "words": ["[[garden|jardín]]", "[[there|allí]]", "[[your|tu]]", "[[house|casa]]?", "[[Is|Está/hay]]", "[[a|un]]", "[[in|en]]"],
-      "explanation": "Invertimos el orden para las preguntas."
-    },
-    "audioUrl": "audio/a1/unit-21/e46.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u21-e47",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Vocabulary: Living Room",
-    "difficulty": "medium",
-    "transcript": "The sofa is next to the window.",
-    "content": {
-      "title": "El Sofá",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[The sofa is next to the window|El sofá está al lado de la ventana]].",
-      "words": ["[[next to|al lado de]]", "[[sofa|sofá]]", "[[window|ventana]].", "[[is|está]]", "[[the|el]]", "[[the|la]]"],
-      "explanation": "Práctica de preposiciones compuestas."
-    },
-    "audioUrl": "audio/a1/unit-21/e47.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u21-e48",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Grammar: Negatives",
-    "difficulty": "medium",
-    "transcript": "There isn't a TV in the kitchen.",
-    "content": {
-      "title": "Negación",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[There isn't a TV in the kitchen|Allí no está/no hay un televisor en la cocina]].",
-      "words": ["[[TV|televisor]]", "[[in|en]]", "[[kitchen|cocina]].", "[[There|Allí]]", "[[isn't|no está/no hay]]", "[[a|un]]", "[[the|la]]"],
-      "explanation": "Uso de la contracción 'isn't'."
-    },
-    "audioUrl": "audio/a1/unit-21/e48.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u21-e49",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Vocabulary: Home",
-    "difficulty": "medium",
-    "transcript": "I love my beautiful garden.",
-    "content": {
-      "title": "Mis Gustos",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I love my beautiful garden|Yo amo mi hermoso jardín]].",
-      "words": ["[[love|amo]]", "[[garden|jardín]].", "[[my|mi]]", "[[I|Yo]]", "[[beautiful|hermoso]]"],
-      "explanation": "Sujeto + verbo + adjetivo posesivo + adjetivo + sustantivo."
-    },
-    "audioUrl": "audio/a1/unit-21/e49.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u21-e50",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Vocabulary: Bathroom",
-    "difficulty": "medium",
-    "transcript": "There are some towels in the bathroom.",
-    "content": {
-      "title": "En el Baño",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[There are some towels in the bathroom|Allí están/hay algunas toallas en el baño]].",
-      "words": ["[[towels|toallas]]", "[[in|en]]", "[[There|Allí]]", "[[the|el]]", "[[are|están/hay]]", "[[bathroom|baño]].", "[[some|algunas]]"],
-      "explanation": "Uso de 'some' en oraciones afirmativas plurales."
-    },
-    "audioUrl": "audio/a1/unit-21/e50.mp3",
-    "topicName": "Vocabulary"
-  },
-
-  // READING COMPREHENSION (51-60)
-  {
     "id": "a1-u21-e51",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: My Small Apartment",
-    "difficulty": "medium",
-    "transcript": "Reading: My Small Apartment. I live in a small apartment. It has one bedroom, a kitchen, and a small living room. There is a comfortable sofa in the living room. The bedroom has a big bed and a desk.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[My new apartment is|Mi nuevo apartamento es]] [[very beautiful.|muy hermoso.]] [[It is on|Está en]] [[the third floor|el tercer piso]] [[of a modern building.|de un edificio moderno.]] [[In the living room,|En el salón,]] [[there is a large grey sofa|hay un gran sofá gris]] [[and a small coffee table.|y una pequeña mesa de centro.]] [[There are two windows|Hay dos ventanas]] [[with a great view.|con una gran vista.]] [[In the kitchen,|En la cocina,]] [[there is a new fridge,|hay una nevera nueva,]] [[a microwave,|un microondas,]] [[and a large oven.|y un horno grande.]] [[I love my bedroom|Amo mi dormitorio]] [[because there is|porque hay]] [[a very comfortable bed.|una cama muy cómoda.]] [[My apartment also has|Mi apartamento también tiene]] [[a small balcony|un pequeño balcón]] [[with many green plants.|con muchas plantas verdes.]] [[I am very happy here!|¡Soy muy feliz aquí!]]",
     "content": {
-      "title": "Lectura: Mi Apartamento Pequeño",
-      "instructions": "Lee el texto y responde.",
+      "title": "[[Reading: The New Apartment|Lectura: El nuevo apartamento]]",
+      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "*\"[[I live. It has in a, and a. There small living small apartment one bedroom, a kitchen room is a comfortable. The sofa in the living room bedroom has a big bed and a desk many bedrooms are there|Yo vivo en un pequeño apartamento. Ello tiene un dormitorio, una cocina, y un pequeño salón habitación. Allí hay un cómodo sofá en el salón habitación. El dormitorio tiene una grande cama y un escritorio]].\"*\n\n[[How|Cuántos muchos dormitorios hay allí]]?",
-          "options": ["[[One|Uno]]", "[[Two|Dos]]", "[[Three|Tres]]"],
+          "question": "[[What color is the sofa in the living room?|¿De qué color es el sofá del salón?]]",
+          "options": ["[[Grey|Gris]]", "[[Blue|Azul]]", "[[White|Blanco]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'It has one bedroom'."
+          "explanation": "[[The text mentions a large grey sofa in the living room.|El texto menciona un gran sofá gris en el salón.]]"
         }
       ]
     },
@@ -863,18 +425,18 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "id": "a1-u21-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: My Small Apartment",
-    "difficulty": "medium",
-    "transcript": "Where is the sofa? In the living room.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[My new apartment is|Mi nuevo apartamento es]] [[very beautiful.|muy hermoso.]] [[It is on|Está en]] [[the third floor|el tercer piso]] [[of a modern building.|de un edificio moderno.]] [[In the living room,|En el salón,]] [[there is a large grey sofa|hay un gran sofá gris]] [[and a small coffee table.|y una pequeña mesa de centro.]] [[There are two windows|Hay dos ventanas]] [[with a great view.|con una gran vista.]] [[In the kitchen,|En la cocina,]] [[there is a new fridge,|hay una nevera nueva,]] [[a microwave,|un microondas,]] [[and a large oven.|y un horno grande.]] [[I love my bedroom|Amo mi dormitorio]] [[because there is|porque hay]] [[a very comfortable bed.|una cama muy cómoda.]] [[My apartment also has|Mi apartamento también tiene]] [[a small balcony|un pequeño balcón]] [[with many green plants.|con muchas plantas verdes.]] [[I am very happy here!|¡Soy muy feliz aquí!]]",
     "content": {
-      "title": "Lectura: Mi Apartamento Pequeño",
-      "instructions": "Lee el texto anterior y responde.",
+      "title": "[[Reading: Kitchen Appliances|Lectura: Electrodomésticos de cocina]]",
+      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "[[Where is the sofa|Dónde está el sofá]]?",
-          "options": ["[[In the kitchen the|En la cocina]]", "[[In living room|En el salón habitación]]", "[[In the bedroom|En el dormitorio]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'There is a comfortable sofa in the living room'."
+          "question": "[[Which appliances are in the kitchen?|¿Qué electrodomésticos hay en la cocina?]]",
+          "options": ["[[Fridge, microwave and oven|Nevera, microondas y horno]]", "[[Washing machine and dryer|Lavadora y secadora]]", "[[TV and lamp|Televisor y lámpara]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The kitchen has a fridge, a microwave, and an oven.|La cocina tiene una nevera, un microondas y un horno.]]"
         }
       ]
     },
@@ -885,18 +447,18 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "id": "a1-u21-e53",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: The New House",
-    "difficulty": "medium",
-    "transcript": "Reading: The New House. My family has a new house. It is big and modern. There is a garage for two cars. In the back, there is a large garden with many trees. My favorite room is the kitchen because it is very bright.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[My new apartment is|Mi nuevo apartamento es]] [[very beautiful.|muy hermoso.]] [[It is on|Está en]] [[the third floor|el tercer piso]] [[of a modern building.|de un edificio moderno.]] [[In the living room,|En el salón,]] [[there is a large grey sofa|hay un gran sofá gris]] [[and a small coffee table.|y una pequeña mesa de centro.]] [[There are two windows|Hay dos ventanas]] [[with a great view.|con una gran vista.]] [[In the kitchen,|En la cocina,]] [[there is a new fridge,|hay una nevera nueva,]] [[a microwave,|un microondas,]] [[and a large oven.|y un horno grande.]] [[I love my bedroom|Amo mi dormitorio]] [[because there is|porque hay]] [[a very comfortable bed.|una cama muy cómoda.]] [[My apartment also has|Mi apartamento también tiene]] [[a small balcony|un pequeño balcón]] [[with many green plants.|con muchas plantas verdes.]] [[I am very happy here!|¡Soy muy feliz aquí!]]",
     "content": {
-      "title": "Lectura: La Casa Nueva",
-      "instructions": "Lee el texto y responde.",
+      "title": "[[Reading: Outdoor Space|Lectura: Espacio exterior]]",
+      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "*\"[[My family. It is has a new house big and. There modern is a garage. In for two cars the back is, there a large. My favorite garden with many trees room is the kitchen because it is very bright many cars is the garage|Mi familia tiene una nueva casa. Ella es grande y moderna. Allí hay un garaje para dos coches. En la parte de atrás, allí hay un grande jardín con muchos árboles. Mi favorita habitación es la cocina porque ella está muy luminosa]].\"*\n\n[[How|Para cuántos muchos coches es el garaje]]?",
-          "options": ["[[One garage|Uno]]", "[[Two|Dos]]", "[[No|Ninguno garaje]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'garage for two cars'."
+          "question": "[[What is on the balcony?|¿Qué hay en el balcón?]]",
+          "options": ["[[Many green plants|Muchas plantas verdes]]", "[[A table and chairs|Una mesa y sillas]]", "[[A bicycle|Una bicicleta]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The text says there is a balcony with many green plants.|El texto dice que hay un balcón con muchas plantas verdes.]]"
         }
       ]
     },
@@ -907,18 +469,18 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "id": "a1-u21-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: The New House",
-    "difficulty": "medium",
-    "transcript": "Why does the person like the kitchen? Because it is very bright.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Welcome to my home!|¡Bienvenido a mi casa!]] [[This is the hall.|Este es el pasillo.]] [[Next to the hall,|Al lado del pasillo,]] [[there is a bathroom.|hay un baño.]] [[In the bathroom,|En el baño,]] [[there is a large mirror|hay un espejo grande]] [[over the sink.|sobre el lavabo.]] [[There are some|Hay algunas]] [[clean white towels|toallas blancas limpias]] [[on the shelf.|en el estante.]] [[My favorite room|Mi habitación favorita]] [[is the study.|es el estudio.]] [[There is a desk|Hay un escritorio]] [[between the bookshelf|entre la estantería]] [[and the window.|y la ventana.]] [[On the desk,|En el escritorio,]] [[there is a computer|hay un ordenador]] [[and a lamp.|y una lámpara.]] [[Under the desk,|Debajo del escritorio,]] [[there is a small wastebasket.|hay una pequeña papelera.]] [[It is a very quiet|Es un lugar muy tranquilo]] [[place to work.|para trabajar.]]",
     "content": {
-      "title": "Lectura: La Casa Nueva",
-      "instructions": "Lee el texto anterior y responde.",
+      "title": "[[Reading: Around the House|Lectura: Por la casa]]",
+      "instructions": "[[Read about the house and answer.|Lee sobre la casa y responde.]]",
       "questions": [
         {
-          "question": "[[Why does the person like the kitchen|Por qué auxiliar la persona gustar la cocina]]?",
-          "options": ["[[Because it is small bright it is next|Porque ella es pequeña]]", "[[Because it is very|Porque ella está muy luminosa]]", "[[Because to the garage|Porque ella está al lado de el garaje]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'because it is very bright'."
+          "question": "[[Where is the desk located?|¿Dónde está el escritorio?]]",
+          "options": ["[[Between the bookshelf and the window|Entre la estantería y la ventana]]", "[[Next to the sink|Al lado del lavabo]]", "[[Behind the sofa|Detrás del sofá]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The desk is between the bookshelf and the window.|El escritorio está entre la estantería y la ventana.]]"
         }
       ]
     },
@@ -929,18 +491,18 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "id": "a1-u21-e55",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Kitchen Rules",
-    "difficulty": "medium",
-    "transcript": "Reading: Kitchen Rules. In my kitchen, there are some rules. Always wash the plates after eating. Don't leave food on the table. The fridge is for everyone, but don't eat my chocolate!",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Welcome to my home!|¡Bienvenido a mi casa!]] [[This is the hall.|Este es el pasillo.]] [[Next to the hall,|Al lado del pasillo,]] [[there is a bathroom.|hay un baño.]] [[In the bathroom,|En el baño,]] [[there is a large mirror|hay un espejo grande]] [[over the sink.|sobre el lavabo.]] [[There are some|Hay algunas]] [[clean white towels|toallas blancas limpias]] [[on the shelf.|en el estante.]] [[My favorite room|Mi habitación favorita]] [[is the study.|es el estudio.]] [[There is a desk|Hay un escritorio]] [[between the bookshelf|entre la estantería]] [[and the window.|y la ventana.]] [[On the desk,|En el escritorio,]] [[there is a computer|hay un ordenador]] [[and a lamp.|y una lámpara.]] [[Under the desk,|Debajo del escritorio,]] [[there is a small wastebasket.|hay una pequeña papelera.]] [[It is a very quiet|Es un lugar muy tranquilo]] [[place to work.|para trabajar.]]",
     "content": {
-      "title": "Lectura: Reglas de la Cocina",
-      "instructions": "Lee el texto y responde.",
+      "title": "[[Reading: The Bathroom|Lectura: El baño]]",
+      "instructions": "[[Read about the house and answer.|Lee sobre la casa y responde.]]",
       "questions": [
         {
-          "question": "*\"[[In my, there kitchen are some rules. Always wash the plates. Don't leave after eating food on. The fridge the table is for, but everyone don't eat my chocolate should you wash|En mi cocina, allí hay algunas reglas. Siempre lava los platos después de comer. No dejes comida sobre la mesa. La nevera es para todos, pero no comas mi chocolate]]!\"*\n\n[[When the plates|Cuándo deberías tú lavar los platos]]?",
-          "options": ["[[Before eating|Antes de comer]]", "[[After eating|Después de comer]]", "[[Never|Nunca]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'Always wash the plates after eating'."
+          "question": "[[What is on the shelf in the bathroom?|¿Qué hay en el estante del baño?]]",
+          "options": ["[[Clean white towels|Toallas blancas limpias]]", "[[A computer|Un ordenador]]", "[[Flowers|Flores]]"],
+          "correctAnswer": 0,
+          "explanation": "[[There are some clean white towels on the shelf.|Hay algunas toallas blancas limpias en el estante.]]"
         }
       ]
     },
@@ -951,18 +513,18 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "id": "a1-u21-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Kitchen Rules",
-    "difficulty": "medium",
-    "transcript": "What should you not eat? The chocolate.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Welcome to my home!|¡Bienvenido a mi casa!]] [[This is the hall.|Este es el pasillo.]] [[Next to the hall,|Al lado del pasillo,]] [[there is a bathroom.|hay un baño.]] [[In the bathroom,|En el baño,]] [[there is a large mirror|hay un espejo grande]] [[over the sink.|sobre el lavabo.]] [[There are some|Hay algunas]] [[clean white towels|toallas blancas limpias]] [[on the shelf.|en el estante.]] [[My favorite room|Mi habitación favorita]] [[is the study.|es el estudio.]] [[There is a desk|Hay un escritorio]] [[between the bookshelf|entre la estantería]] [[and the window.|y la ventana.]] [[On the desk,|En el escritorio,]] [[there is a computer|hay un ordenador]] [[and a lamp.|y una lámpara.]] [[Under the desk,|Debajo del escritorio,]] [[there is a small wastebasket.|hay una pequeña papelera.]] [[It is a very quiet|Es un lugar muy tranquilo]] [[place to work.|para trabajar.]]",
     "content": {
-      "title": "Lectura: Reglas de la Cocina",
-      "instructions": "Lee el texto anterior y responde.",
+      "title": "[[Reading: The Study|Lectura: El estudio]]",
+      "instructions": "[[Read about the house and answer.|Lee sobre la casa y responde.]]",
       "questions": [
         {
-          "question": "[[What should you not eat|Qué deberías tú no comer]]?",
-          "options": ["[[The chocolate|El chocolate]]", "[[The plates|Los platos]]", "[[The table|La mesa]]"],
+          "question": "[[Where is the wastebasket?|¿Dónde está la papelera?]]",
+          "options": ["[[Under the desk|Debajo del escritorio]]", "[[Behind the door|Detrás de la puerta]]", "[[In the kitchen|En la cocina]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'don't eat my chocolate!'"
+          "explanation": "[[The wastebasket is under the desk.|La papelera está debajo del escritorio.]]"
         }
       ]
     },
@@ -973,18 +535,18 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "id": "a1-u21-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: A Beautiful Bedroom",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Reading: A Beautiful Bedroom. My bedroom is my favorite place. It has blue walls and white curtains. There is a large wardrobe for my clothes and a small mirror. On the desk, there is a computer and a lamp.",
+    "transcript": "[[I am looking for|Estoy buscando]] [[a new house.|una casa nueva.]] [[I want a house|Quiero una casa]] [[with three bedrooms.|con tres dormitorios.]] [[I also need|También necesito]] [[a big kitchen|una cocina grande]] [[because I love cooking.|porque me encanta cocinar.]] [[Is there a garden?|¿Hay un jardín?]] [[Yes, I want|Sí, quiero]] [[a garden for my dog.|un jardín para mi perro.]] [[I don't like|No quiero]] [[small apartments.|apartamentos pequeños.]] [[In my dream house,|En la casa de mis sueños,]] [[there are many windows|hay muchas ventanas]] [[and a lot of light.|y mucha luz.]] [[Is there a garage?|¿Hay un garaje?]] [[Yes, a garage|Sí, un garaje]] [[is important for my car.|es importante para mi coche.]] [[I hope I find|¡Espero encontrar]] [[the perfect home soon!|la casa perfecta pronto!]]",
     "content": {
-      "title": "Lectura: Un Dormitorio Hermoso",
-      "instructions": "Lee el texto y responde.",
+      "title": "[[Reading: House Hunting|Lectura: Buscando casa]]",
+      "instructions": "[[Read the desires and answer.|Lee los deseos y responde.]]",
       "questions": [
         {
-          "question": "*\"[[My bedroom. It has is my favorite place blue walls. There and white curtains is a large. On the wardrobe for my clothes and a small mirror desk is, there a computer and a lamp color are the|Mi dormitorio es mi favorito lugar. Ello tiene azules paredes y blancas cortinas. Allí hay un grande armario para mis ropa y un pequeño espejo. Sobre el escritorio, allí hay un ordenador y una lámpara]].\"*\n\n[[What walls|De qué color son las paredes]]?",
-          "options": ["[[White|Blancas]]", "[[Blue|Azules]]", "[[Green|Verdes]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'It has blue walls'."
+          "question": "[[Why does the speaker want a big kitchen?|¿Por qué el hablante quiere una cocina grande?]]",
+          "options": ["[[Because he loves cooking|Porque le encanta cocinar]]", "[[Because he has a big family|Porque tiene una familia grande]]", "[[To put a sofa there|Para poner un sofá allí]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The speaker says he needs a big kitchen because he loves cooking.|El hablante dice que necesita una cocina grande porque le encanta cocinar.]]"
         }
       ]
     },
@@ -995,18 +557,18 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "id": "a1-u21-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: A Beautiful Bedroom",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "What is on the desk? A computer and a lamp.",
+    "transcript": "[[I am looking for|Estoy buscando]] [[a new house.|una casa nueva.]] [[I want a house|Quiero una casa]] [[with three bedrooms.|con tres dormitorios.]] [[I also need|También necesito]] [[a big kitchen|una cocina grande]] [[because I love cooking.|porque me encanta cocinar.]] [[Is there a garden?|¿Hay un jardín?]] [[Yes, I want|Sí, quiero]] [[a garden for my dog.|un jardín para mi perro.]] [[I don't like|No quiero]] [[small apartments.|apartamentos pequeños.]] [[In my dream house,|En la casa de mis sueños,]] [[there are many windows|hay muchas ventanas]] [[and a lot of light.|y mucha luz.]] [[Is there a garage?|¿Hay un garaje?]] [[Yes, a garage|Sí, un garaje]] [[is important for my car.|es importante para mi coche.]] [[I hope I find|¡Espero encontrar]] [[the perfect home soon!|la casa perfecta pronto!]]",
     "content": {
-      "title": "Lectura: Un Dormitorio Hermoso",
-      "instructions": "Lee el texto anterior y responde.",
+      "title": "[[Reading: Requirements|Lectura: Requisitos]]",
+      "instructions": "[[Read the desires and answer.|Lee los deseos y responde.]]",
       "questions": [
         {
-          "question": "[[What is on the desk|Qué está sobre el escritorio]]?",
-          "options": ["[[A bed and a lamp wardrobe|Una cama]]", "[[A computer|Un ordenador y una lámpara]]", "[[A|Un armario]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'On the desk, there is a computer and a lamp'."
+          "question": "[[Who is the garden for?|¿Para quién es el jardín?]]",
+          "options": ["[[For the dog|Para el perro]]", "[[For the children|Para los niños]]", "[[For the car|Para el coche]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The speaker wants a garden for his dog.|El hablante quiere un jardín para su perro.]]"
         }
       ]
     },
@@ -1017,18 +579,18 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "id": "a1-u21-e59",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: The Garden",
-    "difficulty": "medium",
-    "transcript": "Reading: The Garden. My grandfather loves his garden. He works there every morning. There is a small table and two chairs under a tree. He drinks tea and reads the newspaper there.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[In our living room,|En nuestro salón,]] [[there is a lot of furniture.|hay muchos muebles.]] [[There is a large sofa|Hay un sofá grande]] [[against the wall.|contra la pared.]] [[Behind the sofa,|Detrás del sofá,]] [[there are some pictures.|hay algunos cuadros.]] [[Next to the sofa,|Al lado del sofá,]] [[there is a tall lamp.|hay una lámpara alta.]] [[The TV is|La televisión está]] [[in front of|enfrente de]] [[the sofa.|el sofá.]] [[Between the TV|Entre la televisión]] [[and the sofa,|y el sofá,]] [[there is a soft rug.|hay una alfombra suave.]] [[We often sit here|A menudo nos sentamos aquí]] [[in the evening|por la tarde]] [[to watch movies.|para ver películas.]] [[It is a very|Es un lugar muy]] [[cozy place.|acogedor.]]",
     "content": {
-      "title": "Lectura: El Jardín",
-      "instructions": "Lee el texto y responde.",
+      "title": "[[Reading: Furniture Layout|Lectura: Disposición de los muebles]]",
+      "instructions": "[[Read the description and answer.|Lee la descripción y responde.]]",
       "questions": [
         {
-          "question": "*\"[[My grandfather. He loves his garden works there every. There morning is a small. He table and two chairs under a tree drinks tea and reads the newspaper there the chairs|Mi abuelo ama su jardín. Él trabaja allí cada mañana. Allí hay una pequeña mesa y dos sillas debajo de un árbol. Él bebe té y lee el periódico allí]].\"*\n\n[[Where are|Dónde están las sillas]]?",
-          "options": ["[[In the kitchen a|En la cocina]]", "[[Under tree the|Debajo de un árbol]]", "[[In garage|En el garaje]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'two chairs under a tree'."
+          "question": "[[Where are the pictures?|¿Dónde están los cuadros?]]",
+          "options": ["[[Behind the sofa|Detrás del sofá]]", "[[Under the rug|Debajo de la alfombra]]", "[[Next to the TV|Al lado de la televisión]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The text states that there are pictures behind the sofa.|El texto indica que hay cuadros detrás del sofá.]]"
         }
       ]
     },
@@ -1039,18 +601,18 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "id": "a1-u21-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: The Garden",
-    "difficulty": "medium",
-    "transcript": "What does the grandfather do in the garden? He drinks tea and reads the newspaper.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[In our living room,|En nuestro salón,]] [[there is a lot of furniture.|hay muchos muebles.]] [[There is a large sofa|Hay un sofá grande]] [[against the wall.|contra la pared.]] [[Behind the sofa,|Detrás del sofá,]] [[there are some pictures.|hay algunos cuadros.]] [[Next to the sofa,|Al lado del sofá,]] [[there is a tall lamp.|hay una lámpara alta.]] [[The TV is|La televisión está]] [[in front of|enfrente de]] [[the sofa.|el sofá.]] [[Between the TV|Entre la televisión]] [[and the sofa,|y el sofá,]] [[there is a soft rug.|hay una alfombra suave.]] [[We often sit here|A menudo nos sentamos aquí]] [[in the evening|por la tarde]] [[to watch movies.|para ver películas.]] [[It is a very|Es un lugar muy]] [[cozy place.|acogedor.]]",
     "content": {
-      "title": "Lectura: El Jardín",
-      "instructions": "Lee el texto anterior y responde.",
+      "title": "[[Reading: The Rug|Lectura: La alfombra]]",
+      "instructions": "[[Read the description and answer.|Lee la descripción y responde.]]",
       "questions": [
         {
-          "question": "[[What does the grandfather do in the garden|Qué auxiliar el abuelo hacer en el jardín]]?",
-          "options": ["[[He sleeps tea and reads the newspaper cooks|Él duerme]]", "[[He drinks|Él bebe té y lee el periódico]]", "[[He dinner|Él cocina la cena]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'He drinks tea and reads the newspaper there'."
+          "question": "[[What is between the TV and the sofa?|¿Qué hay entre la televisión y el sofá?]]",
+          "options": ["[[A soft rug|Una alfombra suave]]", "[[A tall lamp|Una lámpara alta]]", "[[A wastebasket|Una papelera]]"],
+          "correctAnswer": 0,
+          "explanation": "[[There is a soft rug between the TV and the sofa.|Hay una alfombra suave entre la televisión y el sofá.]]"
         }
       ]
     },

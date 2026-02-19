@@ -142,7 +142,7 @@
           "specs": [
             {
               "title": "unit-9 - Reading exercise loads with word-level translations",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -155,18 +155,53 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 4026,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 498,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:12:18",
+                        "location": {
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                          "column": 18,
+                          "line": 12
+                        },
+                        "snippet": "  10 |   for (const { id, index } of testUnits) {\n  11 |     test(`${id} - Reading exercise loads with word-level translations`, async ({ page }) => {\n> 12 |       await page.goto(`http://127.0.0.1:3001/debug/a1-preview/${id}?index=${index}`);\n     |                  ^\n  13 |       await page.waitForLoadState('networkidle');\n  14 |       \n  15 |       // Verify reading container"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                            "column": 18,
+                            "line": 12
+                          },
+                          "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\", waiting until \"load\"\u001b[22m\n\n\n  10 |   for (const { id, index } of testUnits) {\n  11 |     test(`${id} - Reading exercise loads with word-level translations`, async ({ page }) => {\n> 12 |       await page.goto(`http://127.0.0.1:3001/debug/a1-preview/${id}?index=${index}`);\n     |                  ^\n  13 |       await page.waitForLoadState('networkidle');\n  14 |       \n  15 |       // Verify reading container\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:12:18"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-19T09:25:12.292Z",
+                      "startTime": "2026-02-19T09:37:39.440Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-26c1b-ith-word-level-translations-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-26c1b-ith-word-level-translations-chromium/video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                        "column": 18,
+                        "line": 12
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "2e3fe7285cf3beb1cb49-a3af814b429b44d769e6",
@@ -176,7 +211,7 @@
             },
             {
               "title": "unit-9 - Hovering over a word shows translation and audio button",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -189,18 +224,53 @@
                     {
                       "workerIndex": 1,
                       "parallelIndex": 1,
-                      "status": "passed",
-                      "duration": 4673,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 495,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:26:18",
+                        "location": {
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                          "column": 18,
+                          "line": 26
+                        },
+                        "snippet": "  24 |\n  25 |     test(`${id} - Hovering over a word shows translation and audio button`, async ({ page }) => {\n> 26 |       await page.goto(`http://127.0.0.1:3001/debug/a1-preview/${id}?index=${index}`);\n     |                  ^\n  27 |       await page.waitForLoadState('networkidle');\n  28 |\n  29 |       // Get first translated word"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                            "column": 18,
+                            "line": 26
+                          },
+                          "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\", waiting until \"load\"\u001b[22m\n\n\n  24 |\n  25 |     test(`${id} - Hovering over a word shows translation and audio button`, async ({ page }) => {\n> 26 |       await page.goto(`http://127.0.0.1:3001/debug/a1-preview/${id}?index=${index}`);\n     |                  ^\n  27 |       await page.waitForLoadState('networkidle');\n  28 |\n  29 |       // Get first translated word\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:26:18"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-19T09:25:12.286Z",
+                      "startTime": "2026-02-19T09:37:39.435Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-d6f12-ranslation-and-audio-button-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-d6f12-ranslation-and-audio-button-chromium/video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                        "column": 18,
+                        "line": 26
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "2e3fe7285cf3beb1cb49-5030cac4d8bcb93631ba",
@@ -210,7 +280,7 @@
             },
             {
               "title": "unit-10 - Reading exercise loads with word-level translations",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -223,18 +293,53 @@
                     {
                       "workerIndex": 2,
                       "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 4027,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 508,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:12:18",
+                        "location": {
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                          "column": 18,
+                          "line": 12
+                        },
+                        "snippet": "  10 |   for (const { id, index } of testUnits) {\n  11 |     test(`${id} - Reading exercise loads with word-level translations`, async ({ page }) => {\n> 12 |       await page.goto(`http://127.0.0.1:3001/debug/a1-preview/${id}?index=${index}`);\n     |                  ^\n  13 |       await page.waitForLoadState('networkidle');\n  14 |       \n  15 |       // Verify reading container"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                            "column": 18,
+                            "line": 12
+                          },
+                          "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\", waiting until \"load\"\u001b[22m\n\n\n  10 |   for (const { id, index } of testUnits) {\n  11 |     test(`${id} - Reading exercise loads with word-level translations`, async ({ page }) => {\n> 12 |       await page.goto(`http://127.0.0.1:3001/debug/a1-preview/${id}?index=${index}`);\n     |                  ^\n  13 |       await page.waitForLoadState('networkidle');\n  14 |       \n  15 |       // Verify reading container\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:12:18"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-19T09:25:12.287Z",
+                      "startTime": "2026-02-19T09:37:39.415Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-f091c-ith-word-level-translations-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-f091c-ith-word-level-translations-chromium/video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                        "column": 18,
+                        "line": 12
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "2e3fe7285cf3beb1cb49-c1e55ce5fa225616f376",
@@ -244,7 +349,7 @@
             },
             {
               "title": "unit-10 - Hovering over a word shows translation and audio button",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -257,18 +362,53 @@
                     {
                       "workerIndex": 3,
                       "parallelIndex": 3,
-                      "status": "passed",
-                      "duration": 4729,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 492,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:26:18",
+                        "location": {
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                          "column": 18,
+                          "line": 26
+                        },
+                        "snippet": "  24 |\n  25 |     test(`${id} - Hovering over a word shows translation and audio button`, async ({ page }) => {\n> 26 |       await page.goto(`http://127.0.0.1:3001/debug/a1-preview/${id}?index=${index}`);\n     |                  ^\n  27 |       await page.waitForLoadState('networkidle');\n  28 |\n  29 |       // Get first translated word"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                            "column": 18,
+                            "line": 26
+                          },
+                          "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\", waiting until \"load\"\u001b[22m\n\n\n  24 |\n  25 |     test(`${id} - Hovering over a word shows translation and audio button`, async ({ page }) => {\n> 26 |       await page.goto(`http://127.0.0.1:3001/debug/a1-preview/${id}?index=${index}`);\n     |                  ^\n  27 |       await page.waitForLoadState('networkidle');\n  28 |\n  29 |       // Get first translated word\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:26:18"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-19T09:25:12.317Z",
+                      "startTime": "2026-02-19T09:37:39.455Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-a2e40-ranslation-and-audio-button-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-a2e40-ranslation-and-audio-button-chromium/video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                        "column": 18,
+                        "line": 26
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "2e3fe7285cf3beb1cb49-09c0eeb70b374ae8f191",
@@ -278,7 +418,7 @@
             },
             {
               "title": "Unit 9 - Specific translation check for \"Hello\"",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -289,20 +429,55 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 2291,
-                      "errors": [],
+                      "workerIndex": 4,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 293,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:54:16",
+                        "location": {
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                          "column": 16,
+                          "line": 54
+                        },
+                        "snippet": "  52 |\n  53 |   test('Unit 9 - Specific translation check for \"Hello\"', async ({ page }) => {\n> 54 |     await page.goto('http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50');\n     |                ^\n  55 |     await page.waitForLoadState('networkidle');\n  56 |\n  57 |     const helloSpan = page.locator('span.border-dotted.border-indigo-300:has-text(\"Hello\")').first();"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                            "column": 16,
+                            "line": 54
+                          },
+                          "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\", waiting until \"load\"\u001b[22m\n\n\n  52 |\n  53 |   test('Unit 9 - Specific translation check for \"Hello\"', async ({ page }) => {\n> 54 |     await page.goto('http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50');\n     |                ^\n  55 |     await page.waitForLoadState('networkidle');\n  56 |\n  57 |     const helloSpan = page.locator('span.border-dotted.border-indigo-300:has-text(\"Hello\")').first();\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:54:16"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-19T09:25:16.812Z",
+                      "startTime": "2026-02-19T09:37:41.189Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-b3b34-ranslation-check-for-Hello--chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-b3b34-ranslation-check-for-Hello--chromium/video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                        "column": 16,
+                        "line": 54
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "2e3fe7285cf3beb1cb49-afad9696d5de26f23463",
@@ -312,7 +487,7 @@
             },
             {
               "title": "Unit 10 - Specific translation check for \"Sarah\"",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -323,23 +498,1228 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
-                      "status": "passed",
-                      "duration": 2289,
-                      "errors": [],
+                      "workerIndex": 5,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 231,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:69:16",
+                        "location": {
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                          "column": 16,
+                          "line": 69
+                        },
+                        "snippet": "  67 |\n  68 |   test('Unit 10 - Specific translation check for \"Sarah\"', async ({ page }) => {\n> 69 |     await page.goto('http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50');\n     |                ^\n  70 |     await page.waitForLoadState('networkidle');\n  71 |\n  72 |     // \"Sarah\" is often used in unit 10 reading"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                            "column": 16,
+                            "line": 69
+                          },
+                          "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\", waiting until \"load\"\u001b[22m\n\n\n  67 |\n  68 |   test('Unit 10 - Specific translation check for \"Sarah\"', async ({ page }) => {\n> 69 |     await page.goto('http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50');\n     |                ^\n  70 |     await page.waitForLoadState('networkidle');\n  71 |\n  72 |     // \"Sarah\" is often used in unit 10 reading\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:69:16"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-19T09:25:16.816Z",
+                      "startTime": "2026-02-19T09:37:41.238Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-c0981-ranslation-check-for-Sarah--chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-c0981-ranslation-check-for-Sarah--chromium/video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                        "column": 16,
+                        "line": 69
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-20f7d939d4afaf05689e",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "unit-9 - Reading exercise loads with word-level translations",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 1,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:41.203Z",
                       "annotations": [],
                       "attachments": []
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
-              "id": "2e3fe7285cf3beb1cb49-20f7d939d4afaf05689e",
+              "id": "2e3fe7285cf3beb1cb49-e1e3f7dd82ba0f7853b2",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 11,
+              "column": 9
+            },
+            {
+              "title": "unit-9 - Hovering over a word shows translation and audio button",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 2,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:41.178Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-db8f9619b16422efc6e7",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 25,
+              "column": 9
+            },
+            {
+              "title": "unit-10 - Reading exercise loads with word-level translations",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 1,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:42.018Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-5c4726877c7af8f3075d",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 11,
+              "column": 9
+            },
+            {
+              "title": "unit-10 - Hovering over a word shows translation and audio button",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 6,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:42.079Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-0adfd22d1750b5197597",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 25,
+              "column": 9
+            },
+            {
+              "title": "Unit 9 - Specific translation check for \"Hello\"",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 2,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:42.422Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-d9a3a4181d75d50c2b86",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 53,
+              "column": 7
+            },
+            {
+              "title": "Unit 10 - Specific translation check for \"Sarah\"",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 1,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:42.403Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-f64576760737d4f984aa",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "unit-9 - Reading exercise loads with word-level translations",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 2,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:42.724Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-b8890736cd988c9e935c",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 11,
+              "column": 9
+            },
+            {
+              "title": "unit-9 - Hovering over a word shows translation and audio button",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 1,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:42.787Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-f1ce7cdc41a6555206f8",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 25,
+              "column": 9
+            },
+            {
+              "title": "unit-10 - Reading exercise loads with word-level translations",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 2,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:43.109Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-5ee70c25ae2f1153dd39",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 11,
+              "column": 9
+            },
+            {
+              "title": "unit-10 - Hovering over a word shows translation and audio button",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 2,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:43.131Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-0ae95147749580a8edbf",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 25,
+              "column": 9
+            },
+            {
+              "title": "Unit 9 - Specific translation check for \"Hello\"",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 1,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:43.431Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-bbc62348d3d933d551c5",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 53,
+              "column": 7
+            },
+            {
+              "title": "Unit 10 - Specific translation check for \"Sarah\"",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 1,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:43.504Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-d974d36f7cde34fa5522",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "unit-9 - Reading exercise loads with word-level translations",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 18,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 420,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:12:18",
+                        "location": {
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                          "column": 18,
+                          "line": 12
+                        },
+                        "snippet": "  10 |   for (const { id, index } of testUnits) {\n  11 |     test(`${id} - Reading exercise loads with word-level translations`, async ({ page }) => {\n> 12 |       await page.goto(`http://127.0.0.1:3001/debug/a1-preview/${id}?index=${index}`);\n     |                  ^\n  13 |       await page.waitForLoadState('networkidle');\n  14 |       \n  15 |       // Verify reading container"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                            "column": 18,
+                            "line": 12
+                          },
+                          "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\", waiting until \"load\"\u001b[22m\n\n\n  10 |   for (const { id, index } of testUnits) {\n  11 |     test(`${id} - Reading exercise loads with word-level translations`, async ({ page }) => {\n> 12 |       await page.goto(`http://127.0.0.1:3001/debug/a1-preview/${id}?index=${index}`);\n     |                  ^\n  13 |       await page.waitForLoadState('networkidle');\n  14 |       \n  15 |       // Verify reading container\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:12:18"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:43.833Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-26c1b-ith-word-level-translations-Mobile-Chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-26c1b-ith-word-level-translations-Mobile-Chrome/video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                        "column": 18,
+                        "line": 12
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-cb97943fd305f308c062",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 11,
+              "column": 9
+            },
+            {
+              "title": "unit-9 - Hovering over a word shows translation and audio button",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 19,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 387,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:26:18",
+                        "location": {
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                          "column": 18,
+                          "line": 26
+                        },
+                        "snippet": "  24 |\n  25 |     test(`${id} - Hovering over a word shows translation and audio button`, async ({ page }) => {\n> 26 |       await page.goto(`http://127.0.0.1:3001/debug/a1-preview/${id}?index=${index}`);\n     |                  ^\n  27 |       await page.waitForLoadState('networkidle');\n  28 |\n  29 |       // Get first translated word"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                            "column": 18,
+                            "line": 26
+                          },
+                          "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\", waiting until \"load\"\u001b[22m\n\n\n  24 |\n  25 |     test(`${id} - Hovering over a word shows translation and audio button`, async ({ page }) => {\n> 26 |       await page.goto(`http://127.0.0.1:3001/debug/a1-preview/${id}?index=${index}`);\n     |                  ^\n  27 |       await page.waitForLoadState('networkidle');\n  28 |\n  29 |       // Get first translated word\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:26:18"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:43.841Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-d6f12-ranslation-and-audio-button-Mobile-Chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-d6f12-ranslation-and-audio-button-Mobile-Chrome/video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                        "column": 18,
+                        "line": 26
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-e33ab6b54a7e4ecc9858",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 25,
+              "column": 9
+            },
+            {
+              "title": "unit-10 - Reading exercise loads with word-level translations",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 20,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 281,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:12:18",
+                        "location": {
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                          "column": 18,
+                          "line": 12
+                        },
+                        "snippet": "  10 |   for (const { id, index } of testUnits) {\n  11 |     test(`${id} - Reading exercise loads with word-level translations`, async ({ page }) => {\n> 12 |       await page.goto(`http://127.0.0.1:3001/debug/a1-preview/${id}?index=${index}`);\n     |                  ^\n  13 |       await page.waitForLoadState('networkidle');\n  14 |       \n  15 |       // Verify reading container"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                            "column": 18,
+                            "line": 12
+                          },
+                          "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\", waiting until \"load\"\u001b[22m\n\n\n  10 |   for (const { id, index } of testUnits) {\n  11 |     test(`${id} - Reading exercise loads with word-level translations`, async ({ page }) => {\n> 12 |       await page.goto(`http://127.0.0.1:3001/debug/a1-preview/${id}?index=${index}`);\n     |                  ^\n  13 |       await page.waitForLoadState('networkidle');\n  14 |       \n  15 |       // Verify reading container\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:12:18"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:44.591Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-f091c-ith-word-level-translations-Mobile-Chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-f091c-ith-word-level-translations-Mobile-Chrome/video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                        "column": 18,
+                        "line": 12
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-3456b17822c6b2970281",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 11,
+              "column": 9
+            },
+            {
+              "title": "unit-10 - Hovering over a word shows translation and audio button",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 21,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 263,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:26:18",
+                        "location": {
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                          "column": 18,
+                          "line": 26
+                        },
+                        "snippet": "  24 |\n  25 |     test(`${id} - Hovering over a word shows translation and audio button`, async ({ page }) => {\n> 26 |       await page.goto(`http://127.0.0.1:3001/debug/a1-preview/${id}?index=${index}`);\n     |                  ^\n  27 |       await page.waitForLoadState('networkidle');\n  28 |\n  29 |       // Get first translated word"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                            "column": 18,
+                            "line": 26
+                          },
+                          "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\", waiting until \"load\"\u001b[22m\n\n\n  24 |\n  25 |     test(`${id} - Hovering over a word shows translation and audio button`, async ({ page }) => {\n> 26 |       await page.goto(`http://127.0.0.1:3001/debug/a1-preview/${id}?index=${index}`);\n     |                  ^\n  27 |       await page.waitForLoadState('networkidle');\n  28 |\n  29 |       // Get first translated word\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:26:18"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:44.647Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-a2e40-ranslation-and-audio-button-Mobile-Chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-a2e40-ranslation-and-audio-button-Mobile-Chrome/video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                        "column": 18,
+                        "line": 26
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-456ec113f2edc176c913",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 25,
+              "column": 9
+            },
+            {
+              "title": "Unit 9 - Specific translation check for \"Hello\"",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 22,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 354,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:54:16",
+                        "location": {
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                          "column": 16,
+                          "line": 54
+                        },
+                        "snippet": "  52 |\n  53 |   test('Unit 9 - Specific translation check for \"Hello\"', async ({ page }) => {\n> 54 |     await page.goto('http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50');\n     |                ^\n  55 |     await page.waitForLoadState('networkidle');\n  56 |\n  57 |     const helloSpan = page.locator('span.border-dotted.border-indigo-300:has-text(\"Hello\")').first();"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                            "column": 16,
+                            "line": 54
+                          },
+                          "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50\", waiting until \"load\"\u001b[22m\n\n\n  52 |\n  53 |   test('Unit 9 - Specific translation check for \"Hello\"', async ({ page }) => {\n> 54 |     await page.goto('http://127.0.0.1:3001/debug/a1-preview/unit-9?index=50');\n     |                ^\n  55 |     await page.waitForLoadState('networkidle');\n  56 |\n  57 |     const helloSpan = page.locator('span.border-dotted.border-indigo-300:has-text(\"Hello\")').first();\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:54:16"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:45.488Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-b3b34-ranslation-check-for-Hello--Mobile-Chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-b3b34-ranslation-check-for-Hello--Mobile-Chrome/video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                        "column": 16,
+                        "line": 54
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-27843233b97f5a9dd20f",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 53,
+              "column": 7
+            },
+            {
+              "title": "Unit 10 - Specific translation check for \"Sarah\"",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 23,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 348,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\", waiting until \"load\"\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:69:16",
+                        "location": {
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                          "column": 16,
+                          "line": 69
+                        },
+                        "snippet": "  67 |\n  68 |   test('Unit 10 - Specific translation check for \"Sarah\"', async ({ page }) => {\n> 69 |     await page.goto('http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50');\n     |                ^\n  70 |     await page.waitForLoadState('networkidle');\n  71 |\n  72 |     // \"Sarah\" is often used in unit 10 reading"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                            "column": 16,
+                            "line": 69
+                          },
+                          "message": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50\", waiting until \"load\"\u001b[22m\n\n\n  67 |\n  68 |   test('Unit 10 - Specific translation check for \"Sarah\"', async ({ page }) => {\n> 69 |     await page.goto('http://127.0.0.1:3001/debug/a1-preview/unit-10?index=50');\n     |                ^\n  70 |     await page.waitForLoadState('networkidle');\n  71 |\n  72 |     // \"Sarah\" is often used in unit 10 reading\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts:69:16"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:45.519Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-c0981-ranslation-check-for-Sarah--Mobile-Chrome/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/a1-u9-u10-hover-translatio-c0981-ranslation-check-for-Sarah--Mobile-Chrome/video.webm"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/a1-u9-u10-hover-translations.spec.ts",
+                        "column": 16,
+                        "line": 69
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-7538702435ebe889462f",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "unit-9 - Reading exercise loads with word-level translations",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [
+                    {
+                      "workerIndex": 24,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 2,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:46.024Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-f8f95b5ca0c0640b8a18",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 11,
+              "column": 9
+            },
+            {
+              "title": "unit-9 - Hovering over a word shows translation and audio button",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [
+                    {
+                      "workerIndex": 25,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 1,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:46.077Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-5b0e9d9dae5ff8beb542",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 25,
+              "column": 9
+            },
+            {
+              "title": "unit-10 - Reading exercise loads with word-level translations",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [
+                    {
+                      "workerIndex": 26,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 1,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:46.780Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-66e89da31cf1bfc10c2e",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 11,
+              "column": 9
+            },
+            {
+              "title": "unit-10 - Hovering over a word shows translation and audio button",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [
+                    {
+                      "workerIndex": 27,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 2,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:46.762Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-553e0fcbd42f6cab7870",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 25,
+              "column": 9
+            },
+            {
+              "title": "Unit 9 - Specific translation check for \"Hello\"",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [
+                    {
+                      "workerIndex": 28,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 1,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:46.771Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-2fc0773ad0babaeef1b5",
+              "file": "a1-u9-u10-hover-translations.spec.ts",
+              "line": 53,
+              "column": 7
+            },
+            {
+              "title": "Unit 10 - Specific translation check for \"Sarah\"",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [
+                    {
+                      "workerIndex": 29,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 1,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-19T09:37:46.822Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2e3fe7285cf3beb1cb49-761e3c1ba7cad6b8f469",
               "file": "a1-u9-u10-hover-translations.spec.ts",
               "line": 68,
               "column": 7
@@ -351,11 +1731,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-19T09:25:11.402Z",
-    "duration": 7750.516,
-    "expected": 6,
+    "startTime": "2026-02-19T09:37:38.482Z",
+    "duration": 8370.027,
+    "expected": 0,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 30,
     "flaky": 0
   }
 }

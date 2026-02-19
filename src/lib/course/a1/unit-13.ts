@@ -931,27 +931,50 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[My typical. I Monday wake, I. I go up at. I take six AM a shower. Then and get dressed have breakfast with my family to work. I start, I have. I finish at seven-thirty work at. At eight twelve lunch in a cafe work at. In the four PM evening relax, I and watch. I TV go to bed at ten PM|Mi típico lunes. Yo despierto me a las seis AM. Yo tomo una ducha y me visto. Luego, yo tengo desayuno con mi familia. Yo voy al trabajo a las siete y media. Yo empiezo trabajo a las ocho. A las doce, yo tengo almuerzo en un cafetería. Yo termino trabajo a las cuatro PM. En la tarde, yo me relajo y veo tele. Yo voy a la cama a las diez PM]].",
+    "transcript": "[[My typical Monday.|Mi típico lunes.]] [[I wake up at six AM.|Me despierto a las seis AM.]] [[I take a shower|Tomo una ducha]] [[and get dressed.|y me visto.]] [[Then, I have breakfast|Luego, desayuno]] [[with my family.|con mi familia.]] [[I go to work|Voy al trabajo]] [[at seven-thirty.|a las siete y media.]] [[I start work at eight.|Empiezo a trabajar a las ocho.]] [[At twelve,|A las doce,]] [[I have lunch in a cafe.|almuerzo en una cafetería.]] [[I finish work at four PM.|Termino de trabajar a las cuatro PM.]] [[In the evening,|Por la tarde,]] [[I relax and watch TV.|me relajo y veo la televisión.]] [[I go to bed at ten PM.|Me voy a la cama a las diez PM.]]",
     "content": {
-      "title": "[[A Typical Monday|Un Típico Lunes]]",
+      "title": "[[A Typical Monday|Un Lunes Típico]]",
       "instructions": "[[Read about Monday and answer|Lee sobre el lunes y responde]].",
-      "sourceText": "[[My typical. I Monday wake, I. I go up at. I take six AM a shower. Then and get dressed have breakfast with my family to work. I start, I have. I finish at seven-thirty work at. At eight twelve lunch in a cafe work at. In the four PM evening relax, I and watch. I TV go to bed at ten PM|Mi típico lunes. Yo despierto me a las seis AM. Yo tomo una ducha y me visto. Luego, yo tengo desayuno con mi familia. Yo voy al trabajo a las siete y media. Yo empiezo trabajo a las ocho. A las doce, yo tengo almuerzo en un cafetería. Yo termino trabajo a las cuatro PM. En la tarde, yo me relajo y veo tele. Yo voy a la cama a las diez PM]].",
-      "questions": [
-        {
-          "question": "[[When does the person start work|¿Cuándo hace la persona empezar trabajo]]?",
-          "options": ["[[At eight AM|A las 8 AM]]", "[[At six AM|A las 6 AM]]", "[[At twelve PM|A las 12 PM]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[I start work at eight|I start work at eight]]'."
-        },
-        {
-          "question": "[[Where does he have lunch|¿Dónde hace él tiene almuerzo]]?",
-          "options": ["[[In a cafe|En una cafetería]]", "[[At home|En casa]]", "[[In the office|En la oficina]]"],
-          "correctAnswer": 0,
-          "explanation": "[[It says|Ello dice]]: '[[I have lunch in a cafe|I have lunch in a cafe]]'."
-        }
-      ]
+      "text": "[[My typical Monday.|Mi típico lunes.]] [[I wake up at six AM.|Me despierto a las seis AM.]] [[I take a shower|Tomo una ducha]] [[and get dressed.|y me visto.]] [[Then, I have breakfast|Luego, desayuno]] [[with my family.|con mi familia.]] [[I go to work|Voy al trabajo]] [[at seven-thirty.|a las siete y media.]] [[I start work at eight.|Empiezo a trabajar a las ocho.]] [[At twelve,|A las doce,]] [[I have lunch in a cafe.|almuerzo en una cafetería.]] [[I finish work at four PM.|Termino de trabajar a las cuatro PM.]] [[In the evening,|Por la tarde,]] [[I relax and watch TV.|me relajo y veo la televisión.]] [[I go to bed at ten PM.|Me voy a la cama a las diez PM.]]",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-13/e51.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e51-q1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[When does the person start work?|¿Cuándo empieza a trabajar la persona?]]",
+    "content": {
+      "title": "[[Question 1|Pregunta 1]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[When does the person start work?|¿Cuándo empieza a trabajar la persona?]]",
+      "options": ["[[At eight AM|A las 8 AM]]", "[[At six AM|A las 6 AM]]", "[[At twelve PM|A las 12 PM]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[I start work at eight.|Empiezo a trabajar a las ocho.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e51_q1.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e51-q2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[Where does he have lunch?|¿Dónde almuerza él?]]",
+    "content": {
+      "title": "[[Question 2|Pregunta 2]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[Where does he have lunch?|¿Dónde almuerza él?]]",
+      "options": ["[[In a cafe|En una cafetería]]", "[[At home|En casa]]", "[[In the office|En la oficina]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[I have lunch in a cafe.|Almuerzo en una cafetería.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e51_q2.mp3",
     "topicName": "Reading"
   },
   {
@@ -960,27 +983,50 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Sarah's morning. Sarah routine is a student. She always gets up. She at seven o'clock brushes her teeth. She doesn't and washes her face have breakfast. She has at home a coffee. Her at the university first class is. She loves at eight-thirty her morning coffee|Sarah mañana rutina. Sarah es una estudiante. Ella siempre levanta se a las siete en punto. Ella lava sus dientes y lava su cara. Ella no tiene desayuno en casa. Ella toma un café en la universidad. Su primera clase es a las ocho y media. Ella ama su mañanero café]]!",
+    "transcript": "[[Sarah's morning routine.|La rutina matutina de Sarah.]] [[Sarah is a student.|Sarah es estudiante.]] [[She always gets up|Ella siempre se levanta]] [[at seven o'clock.|a las siete en punto.]] [[She brushes her teeth|Se cepilla los dientes]] [[and washes her face.|y se lava la cara.]] [[She doesn't have breakfast at home.|No desayuna en casa.]] [[She has a coffee|Toma un café]] [[at the university.|en la universidad.]] [[Her first class is|Su primera clase es]] [[at eight-thirty.|a las ocho y media.]] [[She loves her morning coffee!|¡Le encanta su café de la mañana!]]",
     "content": {
-      "title": "[[Sarah's Morning Routine|Sarah Mañana Rutina]]",
-      "instructions": "[[Read about Sarah|Lee sobre Sarah]].",
-      "sourceText": "[[Sarah's morning. Sarah routine is a student. She always gets up. She at seven o'clock brushes her teeth. She doesn't and washes her face have breakfast. She has at home a coffee. Her at the university first class is. She loves at eight-thirty her morning coffee|Sarah mañana rutina. Sarah es una estudiante. Ella siempre levanta se a las siete en punto. Ella lava sus dientes y lava su cara. Ella no tiene desayuno en casa. Ella toma un café en la universidad. Su primera clase es a las ocho y media. Ella ama su mañanero café]]!",
-      "questions": [
-        {
-          "question": "[[What time does Sarah get up|¿Qué hora hace Sarah levanta se]]?",
-          "options": ["[[At seven o'clock|A las siete en punto]]", "[[At eight o'clock|A las ocho en punto]]", "[[At six o'clock|A las seis en punto]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[She always gets up at seven o'clock|She always gets up at seven o'clock]]'."
-        },
-        {
-          "question": "[[Does she have breakfast at home|¿Hace ella tiene desayuno en casa]]?",
-          "options": ["[[No, she doesn't|No, no lo hace]]", "[[Yes, she does|Sí, lo hace]]", "[[Only on Mondays|Solo los lunes]]"],
-          "correctAnswer": 0,
-          "explanation": "[[It says|Ello dice]]: '[[She doesn't have breakfast at home|She doesn't have breakfast at home]]'."
-        }
-      ]
+      "title": "[[Sarah's Morning Routine|La Rutina Matutina de Sarah]]",
+      "instructions": "[[Read about Sarah and answer|Lee sobre Sarah y responde]].",
+      "text": "[[Sarah's morning routine.|La rutina matutina de Sarah.]] [[Sarah is a student.|Sarah es estudiante.]] [[She always gets up|Ella siempre se levanta]] [[at seven o'clock.|a las siete en punto.]] [[She brushes her teeth|Se cepilla los dientes]] [[and washes her face.|y se lava la cara.]] [[She doesn't have breakfast at home.|No desayuna en casa.]] [[She has a coffee|Toma un café]] [[at the university.|en la universidad.]] [[Her first class is|Su primera clase es]] [[at eight-thirty.|a las ocho y media.]] [[She loves her morning coffee!|¡Le encanta su café de la mañana!]]",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-13/e52.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e52-q1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[What time does Sarah get up?|¿A qué hora se levanta Sarah?]]",
+    "content": {
+      "title": "[[Question 1|Pregunta 1]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[What time does Sarah get up?|¿A qué hora se levanta Sarah?]]",
+      "options": ["[[At seven o'clock|A las siete en punto]]", "[[At eight o'clock|A las ocho en punto]]", "[[At six o'clock|A las seis en punto]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[She always gets up at seven o'clock.|Ella siempre se levanta a las siete en punto.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e52_q1.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e52-q2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[Does she have breakfast at home?|¿Desayuna ella en casa?]]",
+    "content": {
+      "title": "[[Question 2|Pregunta 2]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[Does she have breakfast at home?|¿Desayuna ella en casa?]]",
+      "options": ["[[No, she doesn't|No, no lo hace]]", "[[Yes, she does|Sí, lo hace]]", "[[Only on Mondays|Solo los lunes]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[She doesn't have breakfast at home.|No desayuna en casa.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e52_q2.mp3",
     "topicName": "Reading"
   },
   {
@@ -989,27 +1035,50 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Tom's evening. Tom finishes work at. He go, he. He usually home and five-thirty PM to the. Then goes gym for one hour cooks dinner eats pasta. After dinner, he listens. He or salad to the radio or reads a book never watches TV at night because he is very tired|Tom tarde. Tom termina trabajo a las cinco y media PM. Él va al el gimnasio por una hora. Luego, él va casa y cocina cena. Él normalmente come pasta o ensalada. Después de cena, él escucha la el radio o lee un libro. Él nunca ve tele por la noche porque él está muy cansado]].",
+    "transcript": "[[Tom's evening.|La tarde de Tom.]] [[Tom finishes work|Tom termina de trabajar]] [[at five-thirty PM.|a las cinco y media PM.]] [[He goes to the gym|Va al gimnasio]] [[for one hour.|durante una hora.]] [[Then, he goes home|Luego, se va a casa]] [[and cooks dinner.|y prepara la cena.]] [[He usually eats pasta|Normalmente come pasta]] [[or salad.|o ensalada.]] [[After dinner,|Después de cenar,]] [[he listens to the radio|escucha la radio]] [[or reads a book.|o lee un libro.]] [[He never watches TV at night|Nunca ve la televisión por la noche]] [[because he is very tired.|porque está muy cansado.]]",
     "content": {
-      "title": "[[Tom's Evening|Tom Tarde]]",
-      "instructions": "[[Read about Tom|Lee sobre Tom]].",
-      "sourceText": "[[Tom's evening. Tom finishes work at. He go, he. He usually home and five-thirty PM to the. Then goes gym for one hour cooks dinner eats pasta. After dinner, he listens. He or salad to the radio or reads a book never watches TV at night because he is very tired|Tom tarde. Tom termina trabajo a las cinco y media PM. Él va al el gimnasio por una hora. Luego, él va casa y cocina cena. Él normalmente come pasta o ensalada. Después de cena, él escucha la el radio o lee un libro. Él nunca ve tele por la noche porque él está muy cansado]].",
-      "questions": [
-        {
-          "question": "[[How long does he stay at the gym|¿Cuánto tiempo hace él estar en el gimnasio]]?",
-          "options": ["[[One hour|Una hora]]", "[[Two hours|Dos horas]]", "[[Thirty minutes|Treinta minutos]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[He goes to the gym for one hour|He goes to the gym for one hour]]'."
-        },
-        {
-          "question": "[[Does Tom watch TV at night|¿Hace Tom ver tele por la noche]]?",
-          "options": ["[[No, he never does|No, nunca lo hace]]", "[[Yes, usually|Sí, normalmente]]", "[[Only sometimes|Solo a veces]]"],
-          "correctAnswer": 0,
-          "explanation": "[[It says|Ello dice]]: '[[He never watches TV at night|He never watches TV at night]]'."
-        }
-      ]
+      "title": "[[Tom's Evening|La Tarde de Tom]]",
+      "instructions": "[[Read about Tom and answer|Lee sobre Tom y responde]].",
+      "text": "[[Tom's evening.|La tarde de Tom.]] [[Tom finishes work|Tom termina de trabajar]] [[at five-thirty PM.|a las cinco y media PM.]] [[He goes to the gym|Va al gimnasio]] [[for one hour.|durante una hora.]] [[Then, he goes home|Luego, se va a casa]] [[and cooks dinner.|y prepara la cena.]] [[He usually eats pasta|Normalmente come pasta]] [[or salad.|o ensalada.]] [[After dinner,|Después de cenar,]] [[he listens to the radio|escucha la radio]] [[or reads a book.|o lee un libro.]] [[He never watches TV at night|Nunca ve la televisión por la noche]] [[because he is very tired.|porque está muy cansado.]]",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-13/e53.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e53-q1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[How long does he stay at the gym?|¿Cuánto tiempo se queda en el gimnasio?]]",
+    "content": {
+      "title": "[[Question 1|Pregunta 1]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[How long does he stay at the gym?|¿Cuánto tiempo se queda en el gimnasio?]]",
+      "options": ["[[One hour|Una hora]]", "[[Two hours|Dos horas]]", "[[Thirty minutes|Treinta minutos]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[He goes to the gym for one hour.|Va al gimnasio durante una hora.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e53_q1.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e53-q2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[Does Tom watch TV at night?|¿Ve Tom la televisión por la noche?]]",
+    "content": {
+      "title": "[[Question 2|Pregunta 2]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[Does Tom watch TV at night?|¿Ve Tom la televisión por la noche?]]",
+      "options": ["[[No, he never does|No, nunca lo hace]]", "[[Yes, usually|Sí, normalmente]]", "[[Only sometimes|Solo a veces]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[He never watches TV at night.|Nunca ve la televisión por la noche.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e53_q2.mp3",
     "topicName": "Reading"
   },
   {
@@ -1018,27 +1087,50 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Our family. We routine are very busy. In the morning all, we have breakfast. My together at seven children go to. My school by bus wife and I. In go to work by car the evening have, we dinner and. We always talk about our day go to bed early|Nuestra familia rutina. Nosotros estamos muy ocupados. En la mañana, nosotros todos tenemos desayuno juntos a las siete. Mis hijos van a la escuela en autobús. Mi esposa y yo vamos al trabajo en coche. En la tarde, nosotros tenemos cena y hablamos sobre nuestro día. Nosotros siempre vamos a la cama temprano]].",
+    "transcript": "[[Our family routine.|Nuestra rutina familiar.]] [[We are very busy.|Estamos muy ocupados.]] [[In the morning,|Por la mañana,]] [[we all have breakfast together|todos desayunamos juntos]] [[at seven.|a las siete.]] [[My children go to school by bus.|Mis hijos van a la escuela en autobús.]] [[My wife and I go to work by car.|Mi esposa y yo vamos al trabajo en coche.]] [[In the evening,|Por la tarde,]] [[we have dinner and talk|cenamos y hablamos]] [[about our day.|sobre nuestro día.]] [[We always go to bed early.|Siempre nos vamos a la cama temprano.]]",
     "content": {
-      "title": "[[Family Routine|Familia Rutina]]",
-      "instructions": "[[Read about the family|Lee sobre la familia]].",
-      "sourceText": "[[Our family. We routine are very busy. In the morning all, we have breakfast. My together at seven children go to. My school by bus wife and I. In go to work by car the evening have, we dinner and. We always talk about our day go to bed early|Nuestra familia rutina. Nosotros estamos muy ocupados. En la mañana, nosotros todos tenemos desayuno juntos a las siete. Mis hijos van a la escuela en autobús. Mi esposa y yo vamos al trabajo en coche. En la tarde, nosotros tenemos cena y hablamos sobre nuestro día. Nosotros siempre vamos a la cama temprano]].",
-      "questions": [
-        {
-          "question": "[[How do the children go to school|¿Cómo aux los niños van a la escuela]]?",
-          "options": ["[[By bus|En autobús]]", "[[By car|En coche]]", "[[Walking|Caminando]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[My children go to school by bus|My children go to school by bus]]'."
-        },
-        {
-          "question": "[[Do they have breakfast together|¿Hacen ellos tienen desayuno juntos]]?",
-          "options": ["[[Yes, they do|Sí, lo hacen]]", "[[No, they don't|No, no lo hacen]]", "[[Only on weekends|Solo los fines de semana]]"],
-          "correctAnswer": 0,
-          "explanation": "[[It says|Ello dice]]: '[[we all have breakfast together at seven|we all have breakfast together at seven]]'."
-        }
-      ]
+      "title": "[[Family Routine|Rutina Familiar]]",
+      "instructions": "[[Read about the family and answer|Lee sobre la familia y responde]].",
+      "text": "[[Our family routine.|Nuestra rutina familiar.]] [[We are very busy.|Estamos muy ocupados.]] [[In the morning,|Por la mañana,]] [[we all have breakfast together|todos desayunamos juntos]] [[at seven.|a las siete.]] [[My children go to school by bus.|Mis hijos van a la escuela en autobús.]] [[My wife and I go to work by car.|Mi esposa y yo vamos al trabajo en coche.]] [[In the evening,|Por la tarde,]] [[we have dinner and talk|cenamos y hablamos]] [[about our day.|sobre nuestro día.]] [[We always go to bed early.|Siempre nos vamos a la cama temprano.]]",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-13/e54.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e54-q1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[How do the children go to school?|¿Cómo van los niños a la escuela?]]",
+    "content": {
+      "title": "[[Question 1|Pregunta 1]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[How do the children go to school?|¿Cómo van los niños a la escuela?]]",
+      "options": ["[[By bus|En autobús]]", "[[By car|En coche]]", "[[Walking|Caminando]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[My children go to school by bus.|Mis hijos van a la escuela en autobús.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e54_q1.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e54-q2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[Do they have breakfast together?|¿Desayunan juntos?]]",
+    "content": {
+      "title": "[[Question 2|Pregunta 2]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[Do they have breakfast together?|¿Desayunan juntos?]]",
+      "options": ["[[Yes, they do|Sí, lo hacen]]", "[[No, they don't|No, no lo hacen]]", "[[Only on weekends|Solo los fines de semana]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[we all have breakfast together at seven.|todos desayunamos juntos a las siete.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e54_q2.mp3",
     "topicName": "Reading"
   },
   {
@@ -1047,27 +1139,50 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[My weekend. On routine Saturday, I sleep. I until nine o'clock don't work go. I, I stay. I clean to the. In the supermarket and buy food afternoon visit, I my friends. On Sunday at home all day the house. Sunday is and listen to music my favorite day|Mi fin de semana rutina. El sábado, yo duermo hasta nueve en punto. Yo no trabajo. Yo voy al el supermercado y compro comida. En la tarde, yo visito mis amigos. El domingo, yo quedo en casa todo día. Yo limpio la casa y escucho la música. Domingo es mi favorito día]].",
+    "transcript": "[[My weekend routine.|Mi rutina de fin de semana.]] [[On Saturday,|El sábado,]] [[I sleep until nine o'clock.|duermo hasta las nueve en punto.]] [[I don't go to work.|No voy a trabajar.]] [[I go to the supermarket|Voy al supermercado]] [[and buy food.|y compro comida.]] [[In the afternoon,|Por la tarde,]] [[I visit my friends.|visito a mis amigos.]] [[On Sunday,|El domingo,]] [[I stay at home all day.|me quedo en casa todo el día.]] [[I clean the house|Limpio la casa]] [[and listen to music.|y escucho música.]] [[Sunday is my favorite day.|El domingo es mi día favorito.]]",
     "content": {
-      "title": "[[My Weekend Routine|Mi Fin de Semana Rutina]]",
-      "instructions": "[[Read about the weekend|Lee sobre el fin de semana]].",
-      "sourceText": "[[My weekend. On routine Saturday, I sleep. I until nine o'clock don't work go. I, I stay. I clean to the. In the supermarket and buy food afternoon visit, I my friends. On Sunday at home all day the house. Sunday is and listen to music my favorite day|Mi fin de semana rutina. El sábado, yo duermo hasta nueve en punto. Yo no trabajo. Yo voy al el supermercado y compro comida. En la tarde, yo visito mis amigos. El domingo, yo quedo en casa todo día. Yo limpio la casa y escucho la música. Domingo es mi favorito día]].",
-      "questions": [
-        {
-          "question": "[[What time does the person wake up on Saturday|¿Qué hora hace la persona despierta se el sábado]]?",
-          "options": ["[[At nine o'clock|A las nueve en punto]]", "[[At seven o'clock|A las siete en punto]]", "[[At six o'clock|A las seis en punto]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[I sleep until nine o'clock|I sleep until nine o'clock]]'."
-        },
-        {
-          "question": "[[What does he do on Sunday|¿Qué hace él hace el domingo]]?",
-          "options": ["[[Stay at home|Se queda en casa]]", "[[Visit friends|Visita amigos]]", "[[Go to the supermarket|Va al supermercado]]"],
-          "correctAnswer": 0,
-          "explanation": "[[It says|Ello dice]]: '[[On Sunday, I stay at home all day|On Sunday, I stay at home all day]]'."
-        }
-      ]
+      "title": "[[My Weekend Routine|Mi Rutina de Fin de Semana]]",
+      "instructions": "[[Read about the weekend and answer|Lee sobre el fin de semana y responde]].",
+      "text": "[[My weekend routine.|Mi rutina de fin de semana.]] [[On Saturday,|El sábado,]] [[I sleep until nine o'clock.|duermo hasta las nueve en punto.]] [[I don't go to work.|No voy a trabajar.]] [[I go to the supermarket|Voy al supermercado]] [[and buy food.|y compro comida.]] [[In the afternoon,|Por la tarde,]] [[I visit my friends.|visito a mis amigos.]] [[On Sunday,|El domingo,]] [[I stay at home all day.|me quedo en casa todo el día.]] [[I clean the house|Limpio la casa]] [[and listen to music.|y escucho música.]] [[Sunday is my favorite day.|El domingo es mi día favorito.]]",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-13/e55.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e55-q1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[What time does the person wake up on Saturday?|¿A qué hora se despierta la persona el sábado?]]",
+    "content": {
+      "title": "[[Question 1|Pregunta 1]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[What time does the person wake up on Saturday?|¿A qué hora se despierta la persona el sábado?]]",
+      "options": ["[[At nine o'clock|A las nueve en punto]]", "[[At seven o'clock|A las siete en punto]]", "[[At six o'clock|A las seis en punto]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[I sleep until nine o'clock.|duermo hasta las nueve en punto.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e55_q1.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e55-q2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[What does he do on Sunday?|¿Qué hace el domingo?]]",
+    "content": {
+      "title": "[[Question 2|Pregunta 2]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[What does he do on Sunday?|¿Qué hace el domingo?]]",
+      "options": ["[[Stay at home|Se queda en casa]]", "[[Visit friends|Visita amigos]]", "[[Go to the supermarket|Va al supermercado]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[On Sunday, I stay at home all day.|El domingo me quedo en casa todo el día.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e55_q2.mp3",
     "topicName": "Reading"
   },
   {
@@ -1076,27 +1191,50 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[A busy. Dr. Smith doctor is very busy. He wakes up at. He has five AM every day a quick. He starts breakfast and goes to the hospital work at. He six has lunch at. He finishes his desk work at. He is eight PM very tired but he loves his job|Un ocupado doctor. Dr. Smith es muy ocupado. Él despierta se a las cinco AM cada día. Él tiene un rápido desayuno y va al el hospital. Él empieza trabajo a las seis. Él tiene almuerzo en su escritorio. Él termina trabajo a las ocho PM. Él está muy cansado pero él ama su trabajo]].",
+    "transcript": "[[A busy doctor.|Un médico ocupado.]] [[Dr. Smith is very busy.|El Dr. Smith está muy ocupado.]] [[He wakes up at five AM every day.|Se despierta a las cinco AM todos los días.]] [[He has a quick breakfast|Desayuna rápido]] [[and goes to the hospital.|y se va al hospital.]] [[He starts work at six.|Empieza a trabajar a las seis.]] [[He has lunch at his desk.|Almuerza en su escritorio.]] [[He finishes work at eight PM.|Termina de trabajar a las ocho PM.]] [[He is very tired|Está muy cansado]] [[but he loves his job.|pero le encanta su trabajo.]]",
     "content": {
-      "title": "[[A Busy Doctor|Un Ocupado Doctor]]",
-      "instructions": "[[Read about Dr. Smith|Lee sobre Dr. Smith]].",
-      "sourceText": "[[A busy. Dr. Smith doctor is very busy. He wakes up at. He has five AM every day a quick. He starts breakfast and goes to the hospital work at. He six has lunch at. He finishes his desk work at. He is eight PM very tired but he loves his job|Un ocupado doctor. Dr. Smith es muy ocupado. Él despierta se a las cinco AM cada día. Él tiene un rápido desayuno y va al el hospital. Él empieza trabajo a las seis. Él tiene almuerzo en su escritorio. Él termina trabajo a las ocho PM. Él está muy cansado pero él ama su trabajo]].",
-      "questions": [
-        {
-          "question": "[[What time does he wake up|¿A qué hora hace él despertar se]]?",
-          "options": ["[[At five AM|A las 5 AM]]", "[[At six AM|A las 6 AM]]", "[[At eight AM|A las 8 AM]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[He wakes up at five AM|He wakes up at five AM]]'."
-        },
-        {
-          "question": "[[Where does he have lunch|¿Dónde hace él tiene almuerzo]]?",
-          "options": ["[[At his desk|En su escritorio]]", "[[In a cafe|En una cafetería]]", "[[At home|En casa]]"],
-          "correctAnswer": 0,
-          "explanation": "[[It says|Ello dice]]: '[[He has lunch at his desk|He has lunch at his desk]]'."
-        }
-      ]
+      "title": "[[A Busy Doctor|Un Médico Ocupado]]",
+      "instructions": "[[Read about Dr. Smith and answer|Lee sobre el Dr. Smith y responde]].",
+      "text": "[[A busy doctor.|Un médico ocupado.]] [[Dr. Smith is very busy.|El Dr. Smith está muy ocupado.]] [[He wakes up at five AM every day.|Se despierta a las cinco AM todos los días.]] [[He has a quick breakfast|Desayuna rápido]] [[and goes to the hospital.|y se va al hospital.]] [[He starts work at six.|Empieza a trabajar a las seis.]] [[He has lunch at his desk.|Almuerza en su escritorio.]] [[He finishes work at eight PM.|Termina de trabajar a las ocho PM.]] [[He is very tired|Está muy cansado]] [[but he loves his job.|pero le encanta su trabajo.]]",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-13/e56.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e56-q1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[What time does he wake up?|¿A qué hora se despierta?]]",
+    "content": {
+      "title": "[[Question 1|Pregunta 1]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[What time does he wake up?|¿A qué hora se despierta?]]",
+      "options": ["[[At five AM|A las 5 AM]]", "[[At six AM|A las 6 AM]]", "[[At eight AM|A las 8 AM]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[He wakes up at five AM every day.|Se despierta a las cinco AM todos los días.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e56_q1.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e56-q2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[Where does he have lunch?|¿Dónde almuerza él?]]",
+    "content": {
+      "title": "[[Question 2|Pregunta 2]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[Where does he have lunch?|¿Dónde almuerza él?]]",
+      "options": ["[[At his desk|En su escritorio]]", "[[In a cafe|En una cafetería]]", "[[At home|En casa]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[He has lunch at his desk.|Almuerza en su escritorio.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e56_q2.mp3",
     "topicName": "Reading"
   },
   {
@@ -1105,27 +1243,50 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Anna's study. Anna routine studies English for. She usually two hours every day studies in. She reads the afternoon after school books and. Sometimes she listens to English songs watches movies. She wants in English with subtitles to speak English very well|De Anna de estudio rutina. Anna estudia inglés por dos horas cada día. Ella normalmente estudia en la tarde después de la escuela. Ella lee libros y escucha a inglés canciones. A veces ella ve películas en inglés con subtítulos. Ella quiere a hablar inglés muy bien]].",
+    "transcript": "[[Anna's study routine.|La rutina de estudio de Anna.]] [[Anna studies English|Anna estudia inglés]] [[for two hours every day.|durante dos horas todos los días.]] [[She usually studies in the afternoon|Normalmente estudia por la tarde]] [[after school.|después de la escuela.]] [[She reads books|Lee libros]] [[and listens to English songs.|y escucha canciones en inglés.]] [[Sometimes, she watches movies|A veces, ve películas]] [[in English with subtitles.|en inglés con subtítulos.]] [[She wants to speak English very well.|Quiere hablar inglés muy bien.]]",
     "content": {
-      "title": "[[Anna's Study Routine|De Anna de Estudio Rutina]]",
-      "instructions": "[[Read about Anna|Lee sobre Anna]].",
-      "sourceText": "[[Anna's study. Anna routine studies English for. She usually two hours every day studies in. She reads the afternoon after school books and. Sometimes she listens to English songs watches movies. She wants in English with subtitles to speak English very well|De Anna de estudio rutina. Anna estudia inglés por dos horas cada día. Ella normalmente estudia en la tarde después de la escuela. Ella lee libros y escucha a inglés canciones. A veces ella ve películas en inglés con subtítulos. Ella quiere a hablar inglés muy bien]].",
-      "questions": [
-        {
-          "question": "[[How many hours does she study|¿Cuántas muchas horas hace ella estudiar]]?",
-          "options": ["[[Two hours|Dos horas]]", "[[One hour|Una hora]]", "[[Three hours|Tres horas]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[Anna studies English for two hours every day|Anna studies English for two hours every day]]'."
-        },
-        {
-          "question": "[[When does she usually study|¿Cuándo hace ella normalmente estudiar]]?",
-          "options": ["[[In the afternoon|Por la tarde]]", "[[In the morning|Por la mañana]]", "[[At night|Por la noche]]"],
-          "correctAnswer": 0,
-          "explanation": "[[It says|Ello dice]]: '[[She usually studies in the afternoon|She usually studies in the afternoon]]'."
-        }
-      ]
+      "title": "[[Anna's Study Routine|La Rutina de Estudio de Anna]]",
+      "instructions": "[[Read about Anna and answer|Lee sobre Anna y responde]].",
+      "text": "[[Anna's study routine.|La rutina de estudio de Anna.]] [[Anna studies English|Anna estudia inglés]] [[for two hours every day.|durante dos horas todos los días.]] [[She usually studies in the afternoon|Normalmente estudia por la tarde]] [[after school.|después de la escuela.]] [[She reads books|Lee libros]] [[and listens to English songs.|y escucha canciones en inglés.]] [[Sometimes, she watches movies|A veces, ve películas]] [[in English with subtitles.|en inglés con subtítulos.]] [[She wants to speak English very well.|Quiere hablar inglés muy bien.]]",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-13/e57.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e57-q1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[How many hours does she study?|¿Cuántas horas estudia ella?]]",
+    "content": {
+      "title": "[[Question 1|Pregunta 1]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[How many hours does she study?|¿Cuántas horas estudia ella?]]",
+      "options": ["[[Two hours|Dos horas]]", "[[One hour|Una hora]]", "[[Three hours|Tres horas]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[Anna studies English for two hours every day.|Anna estudia inglés durante dos horas todos los días.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e57_q1.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e57-q2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[When does she usually study?|¿Cuándo estudia normalmente?]]",
+    "content": {
+      "title": "[[Question 2|Pregunta 2]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[When does she usually study?|¿Cuándo estudia normalmente?]]",
+      "options": ["[[In the afternoon|Por la tarde]]", "[[In the morning|Por la mañana]]", "[[At night|Por la noche]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[She usually studies in the afternoon.|Normalmente estudia por la tarde.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e57_q2.mp3",
     "topicName": "Reading"
   },
   {
@@ -1134,27 +1295,50 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[My grandfather's. My routine grandfather is eighty. He gets years old up late, at nine o'clock has. He tea and. Then bread for breakfast he goes for. In a walk in the park the afternoon sleeps, he for one. In hour the evening talks, he to his friends on the phone|Mi del abuelo rutina. Mi abuelo tiene ochenta años de edad. Él levanta se tarde, a las nueve en punto. Él toma té y pan para el desayuno. Luego él va por un paseo en el parque. En la tarde, él duerme por una hora. En la noche, él habla a sus amigos por el teléfono]].",
+    "transcript": "[[My grandfather's routine.|La rutina de mi abuelo.]] [[My grandfather is eighty years old.|Mi abuelo tiene ochenta años.]] [[He gets up late,|Se levanta tarde,]] [[at nine o'clock.|a las nueve en punto.]] [[He has tea and bread|Toma té y pan]] [[for breakfast.|para desayunar.]] [[Then, he goes for a walk|Luego, sale a caminar]] [[in the park.|por el parque.]] [[In the afternoon,|Por la tarde,]] [[he sleeps for one hour.|duerme una hora.]] [[In the evening,|Por la noche,]] [[he talks to his friends|habla con sus amigos]] [[on the phone.|por teléfono.]]",
     "content": {
-      "title": "[[My Grandfather's Routine|Mi del Abuelo Rutina]]",
-      "instructions": "[[Read about the grandfather|Lee sobre el abuelo]].",
-      "sourceText": "[[My grandfather's. My routine grandfather is eighty. He gets years old up late, at nine o'clock has. He tea and. Then bread for breakfast he goes for. In a walk in the park the afternoon sleeps, he for one. In hour the evening talks, he to his friends on the phone|Mi del abuelo rutina. Mi abuelo tiene ochenta años de edad. Él levanta se tarde, a las nueve en punto. Él toma té y pan para el desayuno. Luego él va por un paseo en el parque. En la tarde, él duerme por una hora. En la noche, él habla a sus amigos por el teléfono]].",
-      "questions": [
-        {
-          "question": "[[What time does he get up|¿A qué hora hace él levantar se]]?",
-          "options": ["[[At nine o'clock|A las nueve en punto]]", "[[At seven o'clock|A las siete en punto]]", "[[At eight o'clock|A las ocho en punto]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[He gets up late, at nine o'clock|He gets up late, at nine o'clock]]'."
-        },
-        {
-          "question": "[[What does he do in the park|¿Qué hace él hacer en el parque]]?",
-          "options": ["[[Go for a walk|Dar un paseo]]", "[[Play soccer|Jugar al fútbol]]", "[[Sleep|Dormir]]"],
-          "correctAnswer": 0,
-          "explanation": "[[It says|Ello dice]]: '[[he goes for a walk in the park|he goes for a walk in the park]]'."
-        }
-      ]
+      "title": "[[My Grandfather's Routine|La Rutina de mi Abuelo]]",
+      "instructions": "[[Read about the grandfather and answer|Lee sobre el abuelo y responde]].",
+      "text": "[[My grandfather's routine.|La rutina de mi abuelo.]] [[My grandfather is eighty years old.|Mi abuelo tiene ochenta años.]] [[He gets up late,|Se levanta tarde,]] [[at nine o'clock.|a las nueve en punto.]] [[He has tea and bread|Toma té y pan]] [[for breakfast.|para desayunar.]] [[Then, he goes for a walk|Luego, sale a caminar]] [[in the park.|por el parque.]] [[In the afternoon,|Por la tarde,]] [[he sleeps for one hour.|duerme una hora.]] [[In the evening,|Por la noche,]] [[he talks to his friends|habla con sus amigos]] [[on the phone.|por teléfono.]]",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-13/e58.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e58-q1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[What time does he get up?|¿A qué hora se levanta?]]",
+    "content": {
+      "title": "[[Question 1|Pregunta 1]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[What time does he get up?|¿A qué hora se levanta?]]",
+      "options": ["[[At nine o'clock|A las nueve en punto]]", "[[At seven o'clock|A las siete en punto]]", "[[At eight o'clock|A las ocho en punto]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[He gets up late, at nine o'clock.|Se levanta tarde, a las nueve en punto.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e58_q1.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e58-q2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[What does he do in the park?|¿Qué hace en el parque?]]",
+    "content": {
+      "title": "[[Question 2|Pregunta 2]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[What does he do in the park?|¿Qué hace en el parque?]]",
+      "options": ["[[Go for a walk|Dar un paseo]]", "[[Play soccer|Jugar al fútbol]]", "[[Sleep|Dormir]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[he goes for a walk in the park.|sale a caminar por el parque.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e58_q2.mp3",
     "topicName": "Reading"
   },
   {
@@ -1163,27 +1347,50 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[The office. Our routine office, we finish, at early four starts at. We always nine AM have a. We have meeting on Tuesday morning a coffee. We break at eleven finish work at. On Friday five PM PM like. We working in this office|La oficina rutina. Nuestra oficina empieza a las nueve AM. Nosotros siempre tenemos una reunión el martes por la mañana. Nosotros tenemos un café descanso a las once. Nosotros terminamos trabajo a las cinco PM. El viernes, nosotros terminamos temprano, a las cuatro PM. Nosotros gusta trabajando en esta oficina]].",
+    "transcript": "[[Our office routine.|Nuestra rutina de oficina.]] [[Our office starts|Nuestra oficina empieza]] [[at nine AM.|a las nueve AM.]] [[We always have a meeting|Siempre tenemos una reunión]] [[on Tuesday morning.|el martes por la mañana.]] [[We have a coffee break|Tenemos un descanso para el café]] [[at eleven.|a las once.]] [[We finish work|Terminamos de trabajar]] [[at five PM.|a las cinco PM.]] [[On Friday,|El viernes,]] [[we finish early,|terminamos temprano,]] [[at four PM.|a las cuatro PM.]] [[We like working|Nos gusta trabajar]] [[in this office.|en esta oficina.]]",
     "content": {
-      "title": "[[Office Routine|Oficina Rutina]]",
-      "instructions": "[[Read about the office|Lee sobre la oficina]].",
-      "sourceText": "[[The office. Our routine office, we finish, at early four starts at. We always nine AM have a. We have meeting on Tuesday morning a coffee. We break at eleven finish work at. On Friday five PM PM like. We working in this office|La oficina rutina. Nuestra oficina empieza a las nueve AM. Nosotros siempre tenemos una reunión el martes por la mañana. Nosotros tenemos un café descanso a las once. Nosotros terminamos trabajo a las cinco PM. El viernes, nosotros terminamos temprano, a las cuatro PM. Nosotros gusta trabajando en esta oficina]].",
-      "questions": [
-        {
-          "question": "[[When is the meeting|¿Cuándo es la reunión]]?",
-          "options": ["[[Tuesday morning|Martes por la mañana]]", "[[Monday morning|Lunes por la mañana]]", "[[Friday afternoon|Viernes por la tarde]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[We always have a meeting on Tuesday morning|We always have a meeting on Tuesday morning]]'."
-        },
-        {
-          "question": "[[What time do they finish on Friday|¿A qué hora aux ellos terminan el viernes]]?",
-          "options": ["[[At four PM|A las 4 PM]]", "[[At five PM|A las 5 PM]]", "[[At nine AM|A las 9 AM]]"],
-          "correctAnswer": 0,
-          "explanation": "[[It says|Ello dice]]: '[[On Friday, we finish early, at four PM|On Friday, we finish early, at four PM]]'."
-        }
-      ]
+      "title": "[[Office Routine|Rutina de Oficina]]",
+      "instructions": "[[Read about the office and answer|Lee sobre la oficina y responde]].",
+      "text": "[[Our office routine.|Nuestra rutina de oficina.]] [[Our office starts|Nuestra oficina empieza]] [[at nine AM.|a las nueve AM.]] [[We always have a meeting|Siempre tenemos una reunión]] [[on Tuesday morning.|el martes por la mañana.]] [[We have a coffee break|Tenemos un descanso para el café]] [[at eleven.|a las once.]] [[We finish work|Terminamos de trabajar]] [[at five PM.|a las cinco PM.]] [[On Friday,|El viernes,]] [[we finish early,|terminamos temprano,]] [[at four PM.|a las cuatro PM.]] [[We like working|Nos gusta trabajar]] [[in this office.|en esta oficina.]]",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-13/e59.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e59-q1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[When is the meeting?|¿Cuándo es la reunión?]]",
+    "content": {
+      "title": "[[Question 1|Pregunta 1]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[When is the meeting?|¿Cuándo es la reunión?]]",
+      "options": ["[[Tuesday morning|Martes por la mañana]]", "[[Monday morning|Lunes por la mañana]]", "[[Friday afternoon|Viernes por la tarde]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[We always have a meeting on Tuesday morning.|Siempre tenemos una reunión el martes por la mañana.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e59_q1.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e59-q2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[What time do they finish on Friday?|¿A qué hora terminan el viernes?]]",
+    "content": {
+      "title": "[[Question 2|Pregunta 2]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[What time do they finish on Friday?|¿A qué hora terminan el viernes?]]",
+      "options": ["[[At four PM|A las 4 PM]]", "[[At five PM|A las 5 PM]]", "[[At nine AM|A las 9 AM]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[On Friday, we finish early, at four PM.|El viernes terminamos temprano, a las cuatro PM.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e59_q2.mp3",
     "topicName": "Reading"
   },
   {
@@ -1192,27 +1399,50 @@ export const UNIT_13_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Going to. My friend the gym, and. We Peter and. We go I go to the gym together on Monday, Wednesday Friday at six PM stay there for. After the ninety minutes gym are, we very hungry, so we have a. We love big dinner our healthy routine|Ir a el gimnasio. Mi amigo Peter y yo vamos al el gimnasio juntos. Nosotros vamos el lunes, miércoles, y viernes a las seis PM. Nosotros quedamos allí por noventa minutos. Después de el gimnasio, nosotros estamos muy hambrientos, así que nosotros tenemos una grande cena. Nosotros amamos nuestra saludable rutina]]!",
+    "transcript": "[[Going to the gym.|Ir al gimnasio.]] [[My friend Peter and I|Mi amigo Peter y yo]] [[go to the gym together.|vamos juntos al gimnasio.]] [[We go on Monday, Wednesday and Friday|Vamos los lunes, miércoles y viernes]] [[at six PM.|a las seis PM.]] [[We stay there|Nos quedamos allí]] [[for ninety minutes.|durante noventa minutos.]] [[After the gym,|Después del gimnasio,]] [[we are very hungry,|tenemos mucha hambre,]] [[so we have a big dinner.|así que tenemos una gran cena.]] [[We love our healthy routine!|¡Nos encanta nuestra rutina saludable!]]",
     "content": {
-      "title": "[[Going to Gym|Ir al Gimnasio]]",
-      "instructions": "[[Read about Peter and his friend|Lee sobre Peter y su amigo]].",
-      "sourceText": "[[Going to. My friend the gym, and. We Peter and. We go I go to the gym together on Monday, Wednesday Friday at six PM stay there for. After the ninety minutes gym are, we very hungry, so we have a. We love big dinner our healthy routine|Ir a el gimnasio. Mi amigo Peter y yo vamos al el gimnasio juntos. Nosotros vamos el lunes, miércoles, y viernes a las seis PM. Nosotros quedamos allí por noventa minutos. Después de el gimnasio, nosotros estamos muy hambrientos, así que nosotros tenemos una grande cena. Nosotros amamos nuestra saludable rutina]]!",
-      "questions": [
-        {
-          "question": "[[When do they go to the gym|¿Cuándo aux ellos van al el gimnasio]]?",
-          "options": ["[[Monday, Wednesday, and Friday|Lunes, miércoles y viernes]]", "[[Every day|Cada día]]", "[[Only on Saturdays|Solo los sábados]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[We go on Monday, Wednesday, and Friday|We go on Monday, Wednesday, and Friday]]'."
-        },
-        {
-          "question": "[[How long do they stay there|¿Cuánto tiempo aux ellos quedarse allí]]?",
-          "options": ["[[Ninety minutes|Noventa minutos]]", "[[One hour|Una hora]]", "[[Two hours|Dos horas]]"],
-          "correctAnswer": 0,
-          "explanation": "[[It says|Ello dice]]: '[[We stay there for ninety minutes|We stay there for ninety minutes]]'."
-        }
-      ]
+      "title": "[[Going to the Gym|Ir al Gimnasio]]",
+      "instructions": "[[Read about Peter and his friend and answer|Lee sobre Peter y su amigo y responde]].",
+      "text": "[[Going to the gym.|Ir al gimnasio.]] [[My friend Peter and I|Mi amigo Peter y yo]] [[go to the gym together.|vamos juntos al gimnasio.]] [[We go on Monday, Wednesday and Friday|Vamos los lunes, miércoles y viernes]] [[at six PM.|a las seis PM.]] [[We stay there|Nos quedamos allí]] [[for ninety minutes.|durante noventa minutos.]] [[After the gym,|Después del gimnasio,]] [[we are very hungry,|tenemos mucha hambre,]] [[so we have a big dinner.|así que tenemos una gran cena.]] [[We love our healthy routine!|¡Nos encanta nuestra rutina saludable!]]",
+      "questions": []
     },
     "audioUrl": "audio/a1/unit-13/e60.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e60-q1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[When do they go to the gym?|¿Cuándo van al gimnasio?]]",
+    "content": {
+      "title": "[[Question 1|Pregunta 1]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[When do they go to the gym?|¿Cuándo van al gimnasio?]]",
+      "options": ["[[Monday, Wednesday, and Friday|Lunes, miércoles y viernes]]", "[[Every day|Cada día]]", "[[Only on Saturdays|Solo los sábados]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[We go on Monday, Wednesday and Friday.|Vamos los lunes, miércoles y viernes.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e60_q1.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u13-e60-q2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Comprehension",
+    "difficulty": "medium",
+    "transcript": "[[How long do they stay there?|¿Cuánto tiempo se quedan allí?]]",
+    "content": {
+      "title": "[[Question 2|Pregunta 2]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
+      "question": "[[How long do they stay there?|¿Cuánto tiempo se quedan allí?]]",
+      "options": ["[[Ninety minutes|Noventa minutos]]", "[[One hour|Una hora]]", "[[Two hours|Dos horas]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says:|El texto dice:]] [[We stay there for ninety minutes.|Nos quedamos allí durante noventa minutos.]]"
+    },
+    "audioUrl": "audio/a1/unit-13/e60_q2.mp3",
     "topicName": "Reading"
   }
 ];

@@ -402,538 +402,21 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u19-e25",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Dates",
-    "difficulty": "medium",
-    "transcript": "The exam is on April 2nd.",
-    "content": {
-      "title": "Fecha del Examen",
-      "instructions": "Ordena la respuesta.",
-      "correctSentence": "[[The exam is on April 2nd|El examen es el Abril 2]].",
-      "words": ["[[The|El]]", "[[exam|examen]]", "[[is|es]]", "[[on|el]]", "[[April|Abril]]", "[[2nd|2]]."],
-      "explanation": "Usamos el ordinal 'second' para el día 2."
-    },
-    "audioUrl": "audio/a1/unit-19/e25.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u19-e26",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Months",
-    "difficulty": "medium",
-    "transcript": "Next month is August.",
-    "content": {
-      "title": "Mes Próximo",
-      "instructions": "Si ahora es Julio, ¿qué mes es el siguiente?",
-      "questions": [
-        {
-          "question": "[[Next month is|Próximo mes es]] _______.",
-          "options": ["[[August|Agosto]]", "[[September|Septiembre]]", "[[June|Junio]]"],
-          "correctAnswer": 0,
-          "explanation": "August sigue a July."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-19/e26.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u19-e27",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Months",
-    "difficulty": "medium",
-    "transcript": "Last month was April.",
-    "content": {
-      "title": "Mes Pasado",
-      "instructions": "Si ahora es Mayo, ¿cuál fue el mes pasado?",
-      "questions": [
-        {
-          "question": "[[Last month was|Pasado mes fue]] _______.",
-          "options": ["[[April|Abril]]", "[[March|Marzo]]", "[[June|Junio]]"],
-          "correctAnswer": 0,
-          "explanation": "April va antes que May."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-19/e27.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u19-e28",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Dates",
-    "difficulty": "medium",
-    "transcript": "I have a doctor's appointment in June.",
-    "content": {
-      "title": "Cita Médica",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I have a doctor's appointment in June|Yo tengo una del médico cita en Junio]].",
-      "words": ["[[I|Yo]]", "[[have|tengo]]", "[[a|una]]", "[[doctor's|del médico]]", "[[appointment|cita]]", "[[in|en]]", "[[June|Junio]]."],
-      "explanation": "Usamos 'in' con meses."
-    },
-    "audioUrl": "audio/a1/unit-19/e28.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u19-e29",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Seasons",
-    "difficulty": "easy",
-    "transcript": "Winter starts in December.",
-    "content": {
-      "title": "Invierno",
-      "instructions": "Completa con la estación.",
-      "questions": [
-        {
-          "question": "_______ [[starts in December|comienza en Diciembre]].",
-          "options": ["[[Winter|Invierno]]", "[[Summer|Verano]]", "[[Spring|Primavera]]"],
-          "correctAnswer": 0,
-          "explanation": "El invierno empieza en diciembre."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-19/e29.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u19-e30",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Seasons",
-    "difficulty": "easy",
-    "transcript": "Summer starts in June.",
-    "content": {
-      "title": "Verano",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[Summer starts in June|Verano comienza en Junio]].",
-      "words": ["[[Summer|Verano]]", "[[starts|comienza]]", "[[in|en]]", "[[June|Junio]]."],
-      "explanation": "El verano empieza en junio."
-    },
-    "audioUrl": "audio/a1/unit-19/e30.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u19-e31",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Dates",
-    "difficulty": "medium",
-    "transcript": "My birthday is on March 22nd.",
-    "content": {
-      "title": "Fecha de Cumpleaños",
-      "instructions": "Elige la forma correcta.",
-      "questions": [
-        {
-          "question": "[[My birthday is on March|Mi cumpleaños es el Marzo]] _______.",
-          "options": ["[[22nd|22º]]", "[[22th|22º]]", "[[22st|22º]]"],
-          "correctAnswer": 0,
-          "explanation": "Para el 22 usamos el sufijo 'nd' (second)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-19/e31.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u19-e32",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Dates",
-    "difficulty": "medium",
-    "transcript": "Valentine's Day is on February 14th.",
-    "content": {
-      "title": "San Valentín",
-      "instructions": "Completa la fecha.",
-      "questions": [
-        {
-          "question": "[[Valentine's Day is on February|De San Valentín Día es el Febrero]] _______.",
-          "options": ["[[14th|14]]", "[[14st|14]]", "[[14rd|14]]"],
-          "correctAnswer": 0,
-          "explanation": "La mayoría de los números terminan en 'th'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-19/e32.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u19-e33",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Dates",
-    "difficulty": "medium",
-    "transcript": "Today is Friday, January 13th.",
-    "content": {
-      "title": "Fecha Completa",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[Today is Friday, January 13th|Hoy es viernes, enero 13]].",
-      "words": ["[[Today|Hoy]]", "[[is|es]]", "[[Friday,|viernes,]]", "[[January|enero]]", "[[13th|13]]."],
-      "explanation": "Estructura: Día de la semana, Mes + Día ordinal."
-    },
-    "audioUrl": "audio/a1/unit-19/e33.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u19-e34",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Dates",
-    "difficulty": "medium",
-    "transcript": "My favorite day is December 24th.",
-    "content": {
-      "title": "Día Favorito",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[My favorite day is December 24th|Mi favorito día es Diciembre 24]].",
-      "words": ["[[My|Mi]]", "[[favorite|favorito]]", "[[day|día]]", "[[is|es]]", "[[December|Diciembre]]", "[[24th|24]]."],
-      "explanation": "Nochebuena (Christmas Eve) es el 24 de diciembre."
-    },
-    "audioUrl": "audio/a1/unit-19/e34.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u19-e35",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Ordinal Numbers",
-    "difficulty": "hard",
-    "transcript": "Twentieth.",
-    "content": {
-      "title": "Escritura de Ordinales",
-      "instructions": "Elige la forma correcta de 20º.",
-      "questions": [
-        {
-          "question": "[[The twentieth day|El vigésimo día]].",
-          "options": ["[[twentieth|vigésimo]]", "[[twentyth|vigésimo]]", "[[twentith|vigésimo]]"],
-          "correctAnswer": 0,
-          "explanation": "Se cambia la 'y' por 'ie' antes de añadir 'th'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-19/e35.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u19-e36",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Ordinal Numbers",
-    "difficulty": "hard",
-    "transcript": "Thirty-first.",
-    "content": {
-      "title": "Escritura de Ordinales",
-      "instructions": "Elige la forma correcta de 31º.",
-      "questions": [
-        {
-          "question": "[[The thirty-first day|El trigésimo primero día]].",
-          "options": ["[[thirty-first|31º]]", "[[thirty-one|31]]", "[[thirty-onest|31º]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'first' para el número uno en ordinales compuestos."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-19/e36.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u19-e37",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Dates",
-    "difficulty": "medium",
-    "transcript": "The party is on June 23rd.",
-    "content": {
-      "title": "La Fiesta",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[The party is on June 23rd|La fiesta es el Junio 23]].",
-      "words": ["[[The|La]]", "[[party|fiesta]]", "[[is|es]]", "[[on|el]]", "[[June|Junio]]", "[[23rd|23]]."],
-      "explanation": "Usamos 'rd' para el número 3."
-    },
-    "audioUrl": "audio/a1/unit-19/e37.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u19-e38",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Dates",
-    "difficulty": "medium",
-    "transcript": "His birthday is on August 30th.",
-    "content": {
-      "title": "Cumpleaños de Él",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[His birthday is on August 30th|Su cumpleaños es el Agosto 30]].",
-      "words": ["[[His|Su]]", "[[birthday|cumpleaños]]", "[[is|es]]", "[[on|el]]", "[[August|Agosto]]", "[[30th|30]]."],
-      "explanation": "Usamos 'on' para la fecha."
-    },
-    "audioUrl": "audio/a1/unit-19/e38.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u19-e39",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Prepositions",
-    "difficulty": "medium",
-    "transcript": "I was born in 1990.",
-    "content": {
-      "title": "Años",
-      "instructions": "Elige la preposición para el año.",
-      "questions": [
-        {
-          "question": "[[I was born|Yo fui/era nacido]] _______ [[1990|1990]].",
-          "options": ["[[in|en]]", "[[on|el]]", "[[at|a]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'in' para años, meses y estaciones."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-19/e39.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u19-e40",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Prepositions",
-    "difficulty": "medium",
-    "transcript": "The concert is on Saturday night.",
-    "content": {
-      "title": "Días",
-      "instructions": "Elige la preposición para el día.",
-      "questions": [
-        {
-          "question": "[[The concert is night|El concierto es]] _______ [[Saturday|Sábado noche]].",
-          "options": ["[[on|el]]", "[[in|en]]", "[[at|a]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'on' para días de la semana."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-19/e40.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u19-e41",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Questions",
-    "difficulty": "easy",
-    "transcript": "When is your birthday?",
-    "content": {
-      "title": "¿Cuándo?",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "_______ [[is your birthday|es tu cumpleaños]]?",
-          "options": ["[[When|Cuándo]]", "[[How|Cómo]]", "[[Who|Quién]]"],
-          "correctAnswer": 0,
-          "explanation": "When se usa para tiempo."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-19/e41.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u19-e42",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Questions",
-    "difficulty": "easy",
-    "transcript": "When is New Year's Day?",
-    "content": {
-      "title": "Año Nuevo",
-      "instructions": "Responde a la pregunta.",
-      "questions": [
-        {
-          "question": "[[When is New Year's Day|Cuándo es Nuevo de Año Día]]?",
-          "options": ["[[January 1st|Enero 1]]", "[[December 31st|Diciembre 31]]", "[[January 31st|Enero 31]]"],
-          "correctAnswer": 0,
-          "explanation": "El día de Año Nuevo es el 1 de enero."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-19/e42.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u19-e43",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Dates",
-    "difficulty": "medium",
-    "transcript": "It is on January 1st.",
-    "content": {
-      "title": "Respuesta Corta",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[It is on January 1st|Eso es el Enero 1]].",
-      "words": ["[[It|Eso]]", "[[is|es]]", "[[on|el]]", "[[January|Enero]]", "[[1st|1]]."],
-      "explanation": "Estructura para responder sobre una fecha."
-    },
-    "audioUrl": "audio/a1/unit-19/e43.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u19-e44",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Dates",
-    "difficulty": "medium",
-    "transcript": "Valentine's Day is in February.",
-    "content": {
-      "title": "Mes de San Valentín",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[Valentine's Day is in February|San Valentín Día es en Febrero]].",
-      "words": ["[[Valentine's|San Valentín]]", "[[Day|Día]]", "[[is|es]]", "[[in|en]]", "[[February|Febrero]]."],
-      "explanation": "Usamos 'in' solo con el mes."
-    },
-    "audioUrl": "audio/a1/unit-19/e44.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u19-e45",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Seasons",
-    "difficulty": "easy",
-    "transcript": "What is your favorite season?",
-    "content": {
-      "title": "Estación Favorita",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "[[What is your favorite|Cuál es tu favorita]] _______?",
-          "options": ["[[season|estación]]", "[[month|mes]]", "[[day|día]]"],
-          "correctAnswer": 0,
-          "explanation": "Season significa estación del año."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-19/e45.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u19-e46",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Seasons",
-    "difficulty": "easy",
-    "transcript": "My favorite season is Spring.",
-    "content": {
-      "title": "Primavera",
-      "instructions": "Responde a la pregunta.",
-      "questions": [
-        {
-          "question": "[[My favorite season is|Mi favorita estación es]] _______.",
-          "options": ["[[Spring|Primavera]]", "[[Winter|Invierno]]", "[[Autumn|Otoño]]"],
-          "correctAnswer": 0,
-          "explanation": "Spring es primavera."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-19/e46.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u19-e47",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Seasons",
-    "difficulty": "medium",
-    "transcript": "Spring starts in March.",
-    "content": {
-      "title": "Inicio de Primavera",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[Spring starts in March|Primavera comienza en Marzo]].",
-      "words": ["[[Spring|Primavera]]", "[[starts|comienza]]", "[[in|en]]", "[[March|Marzo]]."],
-      "explanation": "En el hemisferio norte empieza en marzo."
-    },
-    "audioUrl": "audio/a1/unit-19/e47.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u19-e48",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Seasons",
-    "difficulty": "medium",
-    "transcript": "Autumn starts in September.",
-    "content": {
-      "title": "Inicio de Otoño",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[Autumn starts in September|Otoño comienza en Septiembre]].",
-      "words": ["[[Autumn|Otoño]]", "[[starts|comienza]]", "[[in|en]]", "[[September|Septiembre]]."],
-      "explanation": "Autumn (Otoño) empieza en septiembre."
-    },
-    "audioUrl": "audio/a1/unit-19/e48.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u19-e49",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Questions",
-    "difficulty": "medium",
-    "transcript": "When is her birthday?",
-    "content": {
-      "title": "Cumpleaños de Ella",
-      "instructions": "Completa la pregunta con el posesivo.",
-      "questions": [
-        {
-          "question": "[[When is|Cuándo es]] _______ [[birthday|cumpleaños]]?",
-          "options": ["[[her|su (de ella)]]", "[[his|su (de él)]]", "[[your|tu]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'her' para posesivo femenino singular."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-19/e49.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u19-e50",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Dates",
-    "difficulty": "medium",
-    "transcript": "Her birthday is in July.",
-    "content": {
-      "title": "Respuesta: Mes",
-      "instructions": "Elige la respuesta correcta.",
-      "questions": [
-        {
-          "question": "[[Her birthday is|Su cumpleaños es]] _______ [[July|Julio]].",
-          "options": ["[[in|en]]", "[[on|el]]", "[[at|a]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'in' con meses."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-19/e50.mp3",
-    "topicName": "Grammar"
-  },
-  {
     "id": "a1-u19-e51",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "Sarah has a big family. Her birthday is in May. Her father's birthday is in January. Her mother's birthday is in October. Sarah loves family parties. This year, her party is on May 12th.",
+    "transcript": "[[My name is David,|Mi nombre es David,]] [[and I want to tell you|y quiero decirte]] [[about my year.|sobre mi año.]] [[January is the first month,|Enero es el primer mes,]] [[and it is very cold.|y hace mucho frío.]] [[My favorite month|Mi mes favorito]] [[is June|es junio]] [[because it's my birthday!|¡porque es mi cumpleaños!]] [[My birthday is on|Mi cumpleaños es el]] [[June 15th.|15 de junio.]] [[In July and August,|En julio y agosto,]] [[there is no school,|no hay escuela,]] [[and we go to the beach.|y vamos a la playa.]] [[September is the ninth month,|Septiembre es el noveno mes,]] [[and school starts again.|y la escuela empieza de nuevo.]] [[Then, in October,|Luego, en octubre,]] [[we celebrate Halloween|celebramos Halloween]] [[on the 31st.|el día 31.]] [[Finally, December is|Finalmente, diciembre es]] [[the twelfth and last month.|el duodécimo y último mes.]] [[Christmas is on|Navidad es el]] [[December 25th,|25 de diciembre,]] [[and I love spending time|y me encanta pasar tiempo]] [[with my family.|con mi familia.]]",
     "content": {
-      "title": "Lectura: La Familia de Sarah",
-      "instructions": "Lee el texto y responde.\n\n*\"Sarah has a big family. Her birthday is in May. Her father's birthday is in January. Her mother's birthday is in October. Sarah loves family parties. This year, her party is on May 12th.\"*",
+      "title": "[[Reading: David's Year|Lectura: El año de David]]",
+      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "[[When is Sarah's birthday|Cuándo es de Sarah cumpleaños]]?",
-          "options": ["[[In May|En mayo]]", "[[In January|En enero]]", "[[In October|En octubre]]"],
+          "question": "[[When is David's birthday?|¿Cuándo es el cumpleaños de David?]]",
+          "options": ["[[On June 15th|El 15 de junio]]", "[[In January|En enero]]", "[[On December 25th|El 25 de diciembre]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'Her birthday is in May'."
+          "explanation": "[[David says his birthday is on June 15th.|David dice que su cumpleaños es el 15 de junio.]]"
         }
       ]
     },
@@ -946,16 +429,16 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "Sarah has a big family. Her birthday is in May. Her father's birthday is in January. Her mother's birthday is in October. Sarah loves family parties. This year, her party is on May 12th.",
+    "transcript": "[[My name is David,|Mi nombre es David,]] [[and I want to tell you|y quiero decirte]] [[about my year.|sobre mi año.]] [[January is the first month,|Enero es el primer mes,]] [[and it is very cold.|y hace mucho frío.]] [[My favorite month|Mi mes favorito]] [[is June|es junio]] [[because it's my birthday!|¡porque es mi cumpleaños!]] [[My birthday is on|Mi cumpleaños es el]] [[June 15th.|15 de junio.]] [[In July and August,|En julio y agosto,]] [[there is no school,|no hay escuela,]] [[and we go to the beach.|y vamos a la playa.]] [[September is the ninth month,|Septiembre es el noveno mes,]] [[and school starts again.|y la escuela empieza de nuevo.]] [[Then, in October,|Luego, en octubre,]] [[we celebrate Halloween|celebramos Halloween]] [[on the 31st.|el día 31.]] [[Finally, December is|Finalmente, diciembre es]] [[the twelfth and last month.|el duodécimo y último mes.]] [[Christmas is on|Navidad es el]] [[December 25th,|25 de diciembre,]] [[and I love spending time|y me encanta pasar tiempo]] [[with my family.|con mi familia.]]",
     "content": {
-      "title": "Lectura: La Familia de Sarah",
-      "instructions": "Lee el texto y responde.\n\n*\"Sarah has a big family. Her birthday is in May. Her father's birthday is in January. Her mother's birthday is in October. Sarah loves family parties. This year, her party is on May 12th.\"*",
+      "title": "[[Reading: School and Holidays|Lectura: Escuela y vacaciones]]",
+      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "[[When is her father's birthday|Cuándo es su del padre cumpleaños]]?",
-          "options": ["[[In January|En enero]]", "[[In May|En mayo]]", "[[In October|En octubre]]"],
+          "question": "[[Which month is the ninth month?|¿Qué mes es el noveno mes?]]",
+          "options": ["[[September|Septiembre]]", "[[October|Octubre]]", "[[December|Diciembre]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'Her father's birthday is in January'."
+          "explanation": "[[The text says September is the ninth month.|El texto dice que septiembre es el noveno mes.]]"
         }
       ]
     },
@@ -968,16 +451,16 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "Sarah has a big family. Her birthday is in May. Her father's birthday is in January. Her mother's birthday is in October. Sarah loves family parties. This year, her party is on May 12th.",
+    "transcript": "[[My name is David,|Mi nombre es David,]] [[and I want to tell you|y quiero decirte]] [[about my year.|sobre mi año.]] [[January is the first month,|Enero es el primer mes,]] [[and it is very cold.|y hace mucho frío.]] [[My favorite month|Mi mes favorito]] [[is June|es junio]] [[because it's my birthday!|¡porque es mi cumpleaños!]] [[My birthday is on|Mi cumpleaños es el]] [[June 15th.|15 de junio.]] [[In July and August,|En julio y agosto,]] [[there is no school,|no hay escuela,]] [[and we go to the beach.|y vamos a la playa.]] [[September is the ninth month,|Septiembre es el noveno mes,]] [[and school starts again.|y la escuela empieza de nuevo.]] [[Then, in October,|Luego, en octubre,]] [[we celebrate Halloween|celebramos Halloween]] [[on the 31st.|el día 31.]] [[Finally, December is|Finalmente, diciembre es]] [[the twelfth and last month.|el duodécimo y último mes.]] [[Christmas is on|Navidad es el]] [[December 25th,|25 de diciembre,]] [[and I love spending time|y me encanta pasar tiempo]] [[with my family.|con mi familia.]]",
     "content": {
-      "title": "Lectura: La Familia de Sarah",
-      "instructions": "Lee el texto y responde.\n\n*\"Sarah has a big family. Her birthday is in May. Her father's birthday is in January. Her mother's birthday is in October. Sarah loves family parties. This year, her party is on May 12th.\"*",
+      "title": "[[Reading: December|Lectura: Diciembre]]",
+      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "[[When is the party this year|Cuándo es la fiesta este año]]?",
-          "options": ["[[On May 12th|El 12 de mayo]]", "[[On May 1st|El 1 de mayo]]", "[[In October|En octubre]]"],
+          "question": "[[When is Christmas?|¿Cuándo es Navidad?]]",
+          "options": ["[[December 25th|25 de diciembre]]", "[[October 31st|31 de octubre]]", "[[June 15th|15 de junio]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'her party is on May 12th'."
+          "explanation": "[[Christmas is on December 25th.|Navidad es el 25 de diciembre.]]"
         }
       ]
     },
@@ -990,16 +473,16 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "Our school has many holidays. We have a holiday in December for Christmas. We have another holiday in April for Spring. The long summer holiday starts on June 22nd and ends in September. I love holidays!",
+    "transcript": "[[The school year|El año escolar]] [[is full of events.|está lleno de eventos.]] [[In February,|En febrero,]] [[on the 14th,|el día 14,]] [[we have Valentine's Day.|tenemos el día de San Valentín.]] [[The first exams|Los primeros exámenes]] [[are in March.|son en marzo.]] [[March is the third month.|Marzo es el tercer mes.]] [[Then, spring break|Luego, las vacaciones de primavera]] [[is usually in April.|suelen ser en abril.]] [[In May,|En mayo,]] [[on the first day,|el primer día,]] [[we celebrate Labor Day.|celebramos el día del trabajo.]] [[June is the|Junio es el]] [[sixth month,|sexto mes,]] [[and it's the end|y es el final]] [[of the first semester.|del primer semestre.]] [[Students are very happy|Los estudiantes están muy felices]] [[when June arrives.|cuando llega junio.]]",
     "content": {
-      "title": "Lectura: Vacaciones Escolares",
-      "instructions": "Lee el texto y responde.\n\n*\"Our school has many holidays. We have a holiday in December for Christmas. We have another holiday in April for Spring. The long summer holiday starts on June 22nd and ends in September. I love holidays!\"*",
+      "title": "[[Reading: School Calendar|Lectura: Calendario escolar]]",
+      "instructions": "[[Read about the school year and answer.|Lee sobre el año escolar y responde.]]",
       "questions": [
         {
-          "question": "[[When is the Christmas holiday|Cuándo es la de Navidad vacación]]?",
-          "options": ["[[In December|En diciembre]]", "[[In April|En abril]]", "[[In June|En junio]]"],
+          "question": "[[When are the first exams?|¿Cuándo son los primeros exámenes?]]",
+          "options": ["[[In March|En marzo]]", "[[In February|En febrero]]", "[[In May|En mayo]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'holiday in December for Christmas'."
+          "explanation": "[[The text says the first exams are in March.|El texto dice que los primeros exámenes son en marzo.]]"
         }
       ]
     },
@@ -1012,16 +495,16 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "Our school has many holidays. We have a holiday in December for Christmas. We have another holiday in April for Spring. The long summer holiday starts on June 22nd and ends in September. I love holidays!",
+    "transcript": "[[The school year|El año escolar]] [[is full of events.|está lleno de eventos.]] [[In February,|En febrero,]] [[on the 14th,|el día 14,]] [[we have Valentine's Day.|tenemos el día de San Valentín.]] [[The first exams|Los primeros exámenes]] [[are in March.|son en marzo.]] [[March is the third month.|Marzo es el tercer mes.]] [[Then, spring break|Luego, las vacaciones de primavera]] [[is usually in April.|suelen ser en abril.]] [[In May,|En mayo,]] [[on the first day,|el primer día,]] [[we celebrate Labor Day.|celebramos el día del trabajo.]] [[June is the|Junio es el]] [[sixth month,|sexto mes,]] [[and it's the end|y es el final]] [[of the first semester.|del primer semestre.]] [[Students are very happy|Los estudiantes están muy felices]] [[when June arrives.|cuando llega junio.]]",
     "content": {
-      "title": "Lectura: Vacaciones Escolares",
-      "instructions": "Lee el texto y responde.\n\n*\"Our school has many holidays. We have a holiday in December for Christmas. We have another holiday in April for Spring. The long summer holiday starts on June 22nd and ends in September. I love holidays!\"*",
+      "title": "[[Reading: Special Days|Lectura: Días especiales]]",
+      "instructions": "[[Read about the school year and answer.|Lee sobre el año escolar y responde.]]",
       "questions": [
         {
-          "question": "[[When does the summer holiday start|Cuándo does la de verano vacación empezar]]?",
-          "options": ["[[On June 22nd|El 22 de junio]]", "[[In April|En abril]]", "[[In September|En septiembre]]"],
+          "question": "[[What do we celebrate on May 1st?|¿Qué celebramos el 1 de mayo?]]",
+          "options": ["[[Labor Day|Día del trabajo]]", "[[Valentine's Day|Día de San Valentín]]", "[[Spring break|Vacaciones de primavera]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'starts on June 22nd'."
+          "explanation": "[[We celebrate Labor Day on May 1st.|Celebramos el día del trabajo el 1 de mayo.]]"
         }
       ]
     },
@@ -1034,16 +517,16 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "Our school has many holidays. We have a holiday in December for Christmas. We have another holiday in April for Spring. The long summer holiday starts on June 22nd and ends in September. I love holidays!",
+    "transcript": "[[The school year|El año escolar]] [[is full of events.|está lleno de eventos.]] [[In February,|En febrero,]] [[on the 14th,|el día 14,]] [[we have Valentine's Day.|tenemos el día de San Valentín.]] [[The first exams|Los primeros exámenes]] [[are in March.|son en marzo.]] [[March is the third month.|Marzo es el tercer mes.]] [[Then, spring break|Luego, las vacaciones de primavera]] [[is usually in April.|suelen ser en abril.]] [[In May,|En mayo,]] [[on the first day,|el primer día,]] [[we celebrate Labor Day.|celebramos el día del trabajo.]] [[June is the|Junio es el]] [[sixth month,|sexto mes,]] [[and it's the end|y es el final]] [[of the first semester.|del primer semestre.]] [[Students are very happy|Los estudiantes están muy felices]] [[when June arrives.|cuando llega junio.]]",
     "content": {
-      "title": "Lectura: Vacaciones Escolares",
-      "instructions": "Lee el texto y responde.\n\n*\"Our school has many holidays. We have a holiday in December for Christmas. We have another holiday in April for Spring. The long summer holiday starts on June 22nd and ends in September. I love holidays!\"*",
+      "title": "[[Reading: Months and Order|Lectura: Meses y orden]]",
+      "instructions": "[[Read about the school year and answer.|Lee sobre el año escolar y responde.]]",
       "questions": [
         {
-          "question": "[[When does it end|Cuándo does ello terminar]]?",
-          "options": ["[[In September|En septiembre]]", "[[In June|En junio]]", "[[In December|En diciembre]]"],
+          "question": "[[What order does June have?|¿Qué orden tiene junio?]]",
+          "options": ["[[Sixth|Sexto]]", "[[Third|Tercero]]", "[[Ninth|Noveno]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'ends in September'."
+          "explanation": "[[June is the sixth month.|Junio es el sexto mes.]]"
         }
       ]
     },
@@ -1055,17 +538,17 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.",
+    "difficulty": "medium",
+    "transcript": "[[Today is|Hoy es]] [[October 10th.|10 de octubre.]] [[It is a|Es un]] [[very important day|día muy importante]] [[for me.|para mí.]] [[Why?|¿Por qué?]] [[Because today is|Porque hoy es]] [[the tenth day|el décimo día]] [[of the tenth month,|del décimo mes,]] [[and I have|y tengo]] [[a big job interview.|una gran entrevista de trabajo.]] [[The interview is|La entrevista es]] [[at ten o'clock.|a las diez en punto.]] [[I am|Estoy]] [[a bit nervous,|un poco nervioso,]] [[but I am|pero estoy]] [[ready.|listo.]] [[My last job|Mi último trabajo]] [[started in January,|empezó en enero,]] [[and it finished|y terminó]] [[last August.|el pasado agosto.]] [[I hope|Espero]] [[this new job|este nuevo trabajo]] [[starts in November.|empiece en noviembre.]]",
     "content": {
-      "title": "Lectura: Visita al Museo",
-      "instructions": "Lee el texto y responde.\n\n*\"David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.\"*",
+      "title": "[[Reading: An Important Day|Lectura: Un día importante]]",
+      "instructions": "[[Read David's notes and answer.|Lee las notas de David y responde.]]",
       "questions": [
         {
-          "question": "[[When is the visit|Cuándo es la visita]]?",
-          "options": ["[[On November 3rd|El 3 de noviembre]]", "[[On November 10th|El 10 de noviembre]]", "[[On Friday night|El viernes noche]]"],
+          "question": "[[What is the date today?|¿Cuál es la fecha de hoy?]]",
+          "options": ["[[October 10th|10 de octubre]]", "[[January 1st|1 de enero]]", "[[November 1st|1 de noviembre]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'visit is on Friday, November 3rd'."
+          "explanation": "[[Today is October 10th according to the text.|Hoy es 10 de octubre según el texto.]]"
         }
       ]
     },
@@ -1077,17 +560,17 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.",
+    "difficulty": "medium",
+    "transcript": "[[Today is|Hoy es]] [[October 10th.|10 de octubre.]] [[It is a|Es un]] [[very important day|día muy importante]] [[for me.|para mí.]] [[Why?|¿Por qué?]] [[Because today is|Porque hoy es]] [[the tenth day|el décimo día]] [[of the tenth month,|del décimo mes,]] [[and I have|y tengo]] [[a big job interview.|una gran entrevista de trabajo.]] [[The interview is|La entrevista es]] [[at ten o'clock.|a las diez en punto.]] [[I am|Estoy]] [[a bit nervous,|un poco nervioso,]] [[but I am|pero estoy]] [[ready.|listo.]] [[My last job|Mi último trabajo]] [[started in January,|empezó en enero,]] [[and it finished|y terminó]] [[last August.|el pasado agosto.]] [[I hope|Espero]] [[this new job|este nuevo trabajo]] [[starts in November.|empiece en noviembre.]]",
     "content": {
-      "title": "Lectura: Visita al Museo",
-      "instructions": "Lee el texto y responde.\n\n*\"David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.\"*",
+      "title": "[[Reading: Job Timeline|Lectura: Cronología laboral]]",
+      "instructions": "[[Read David's notes and answer.|Lee las notas de David y responde.]]",
       "questions": [
         {
-          "question": "[[Who is he going with|Con quién está él yendo con]]?",
-          "options": ["[[With Paul|Con Paul]]", "[[With his mother|Con su madre]]", "[[Alone|Solo]]"],
+          "question": "[[When did his last job finish?|¿Cuándo terminó su último trabajo?]]",
+          "options": ["[[In August|En agosto]]", "[[In January|En enero]]", "[[In November|En noviembre]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'going with his friend Paul'."
+          "explanation": "[[His last job finished last August.|Su último trabajo terminó el pasado agosto.]]"
         }
       ]
     },
@@ -1100,20 +583,20 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.",
+    "transcript": "[[Every year,|Cada año,]] [[my family|mi familia]] [[plans a trip.|planea un viaje.]] [[In May,|En mayo,]] [[we choose|elegimos]] [[the destination.|el destino.]] [[Then,|Luego,]] [[we book the tickets|reservamos los billetes]] [[in June.|en junio.]] [[Our trip is always|Nuestro viaje es siempre]] [[in the middle of July.|a mediados de julio.]] [[July is the|Julio es el]] [[seventh month.|séptimo mes.]] [[We stay|Nos quedamos]] [[for two weeks.|durante dos semanas.]] [[We return home|Volvemos a casa]] [[at the beginning|al principio]] [[of August.|de agosto.]] [[August is the|Agosto es el]] [[eighth month.|octavo mes.]] [[Then,|Luego,]] [[we have to wait|tenemos que esperar]] [[until next year|hasta el año que viene]] [[to travel again.|para viajar de nuevo.]]",
     "content": {
-      "title": "Lectura: Visita al Museo",
-      "instructions": "Lee el texto y responde.\n\n*\"David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.\"*",
+      "title": "[[Reading: Family Trip|Lectura: Viaje familiar]]",
+      "instructions": "[[Read about the trip and answer.|Lee sobre el viaje y responde.]]",
       "questions": [
         {
-          "question": "[[What time are they meeting|Qué hora están ellos quedando]]?",
-          "options": ["[[At 10 AM|A las 10 AM]]", "[[At 10 PM|A las 10 PM]]", "[[At lunch|En el almuerzo]]"],
+          "question": "[[When do they book the tickets?|¿Cuándo reservan los billetes?]]",
+          "options": ["[[In June|En junio]]", "[[In May|En mayo]]", "[[In July|En julio]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'meeting at 10 AM'."
+          "explanation": "[[They book the tickets in June after choosing the destination.|Reservan los billetes en junio después de elegir el destino.]]"
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-19/e59.mp3",
+    "audioUrl": "audio/a1/unit-19/e51.mp3",
     "topicName": "Reading"
   },
   {
@@ -1122,16 +605,16 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.",
+    "transcript": "[[Every year,|Cada año,]] [[my family|mi familia]] [[plans a trip.|planea un viaje.]] [[In May,|En mayo,]] [[we choose|elegimos]] [[the destination.|el destino.]] [[Then,|Luego,]] [[we book the tickets|reservamos los billetes]] [[in June.|en junio.]] [[Our trip is always|Nuestro viaje es siempre]] [[in the middle of July.|a mediados de julio.]] [[July is the|Julio es el]] [[seventh month.|séptimo mes.]] [[We stay|Nos quedamos]] [[for two weeks.|durante dos semanas.]] [[We return home|Volvemos a casa]] [[at the beginning|al principio]] [[of August.|de agosto.]] [[August is the|Agosto es el]] [[eighth month.|octavo mes.]] [[Then,|Luego,]] [[we have to wait|tenemos que esperar]] [[until next year|hasta el año que viene]] [[to travel again.|para viajar de nuevo.]]",
     "content": {
-      "title": "Lectura: Visita al Museo",
-      "instructions": "Lee el texto y responde.\n\n*\"David is going to the London Museum. The visit is on Friday, November 3rd. He is going with his friend Paul. They are meeting at 10 AM. David is very happy because he loves history. After the museum, they are having lunch.\"*",
+      "title": "[[Reading: Trip Duration|Lectura: Duración del viaje]]",
+      "instructions": "[[Read about the trip and answer.|Lee sobre el viaje y responde.]]",
       "questions": [
         {
-          "question": "[[Why is he happy|Por qué está él feliz]]?",
-          "options": ["[[Because he loves history|Porque ama la historia]]", "[[Because it's Friday|Porque es viernes]]", "[[Because he's having lunch|Porque va a almorzar]]"],
+          "question": "[[How long is the trip?|¿Cuánto dura el viaje?]]",
+          "options": ["[[Two weeks|Dos semanas]]", "[[One month|Un mes]]", "[[A few days|Unos días]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'happy because he loves history'."
+          "explanation": "[[The family stays for two weeks during their trip.|La familia se queda durante dos semanas durante su viaje.]]"
         }
       ]
     },

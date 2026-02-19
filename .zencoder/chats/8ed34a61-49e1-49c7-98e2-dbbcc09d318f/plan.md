@@ -86,8 +86,26 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/8e
 
 ---
 
-## [x] Phase: Content Fixes (Unit 12)
+## [x] Phase: Granular Translation Refactor (All A1 Units)
 
-1. [x] **Fix Exercise a1-u12-e38**: Correct the sentence "Today is, tomorrow Monday is" to "Today is Monday, tomorrow is".
-2. [x] **Verification**: Visually verified code change.
-3. [x] **Final Push**: Commit and push the changes.
+1. [x] **Refactor Unit 4**: Change block translations in reading exercises to word-by-word.
+2. [x] **Refactor Unit 5**: Change block translations in reading exercises to word-by-word.
+3. [x] **Refactor Unit 6**: Change block translations in reading exercises to word-by-word.
+4. [x] **Refactor Unit 7**: Change block translations in reading exercises to word-by-word.
+5. [x] **Refactor Unit 8**: Change block translations in reading exercises to word-by-word.
+6. [x] **Refactor Unit 13**: Change block translations in reading exercises to word-by-word.
+7. [x] **Refactor Units 14-25**: Change block translations in reading exercises to word-by-word.
+    - [x] Unit 14
+    - [x] Unit 15
+    - [x] Unit 16
+    - [x] Unit 17
+    - [x] Unit 18
+    - [x] Unit 19
+    - [x] Unit 20
+    - [x] Unit 21
+    - [x] Unit 22
+    - [x] Unit 23
+    - [x] Unit 24
+    - [x] Unit 25
+8. [x] **Verification**: Run `npm run validate-exercises`.
+9. [x] **Final Push**: Commit and push the changes.

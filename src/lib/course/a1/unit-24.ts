@@ -7,18 +7,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e11",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Be vs Have",
+    "topic": "Grammar: Present Continuous",
     "difficulty": "easy",
-    "transcript": "He is tall and slim.",
+    "transcript": "I am reading a book right now.",
     "content": {
-      "title": "Ser vs Tener 1",
-      "instructions": "Elige el verbo correcto para describir la estatura.",
+      "title": "Presente Continuo: Afirmativo",
+      "instructions": "Elige la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[He and slim|Él]] _______ [[tall|alto y delgado]].",
-          "options": ["[[is|es]]", "[[has|tiene]]", "[[am|soy/estoy]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos el verbo 'to be' para describir la estatura y complexión."
+          "question": "[[I|Yo]] _______ [[a book right now|un libro ahora mismo]].",
+          "options": ["[[read|leo]]", "[[am reading|estoy leyendo]]", "[[is reading|está leyendo]]"],
+          "correctAnswer": 1,
+          "explanation": "Usamos am/is/are + verbo-ing para acciones que ocurren ahora mismo."
         }
       ]
     },
@@ -29,18 +29,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e12",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Be vs Have",
+    "topic": "Grammar: Present Continuous",
     "difficulty": "easy",
-    "transcript": "She has blue eyes.",
+    "transcript": "She is watching TV in the living room.",
     "content": {
-      "title": "Ser vs Tener 2",
-      "instructions": "Elige el verbo correcto para describir los ojos.",
+      "title": "Presente Continuo: She",
+      "instructions": "Elige la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[She eyes|Ella]] _______ [[blue|azules ojos]].",
-          "options": ["[[is|es]]", "[[has|tiene]]", "[[are|son]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos el verbo 'to have' para describir rasgos como el color de ojos."
+          "question": "[[She|Ella]] _______ [[TV in the living room|la tele en el salón]].",
+          "options": ["[[is watching|está viendo]]", "[[watches|ve]]", "[[are watching|están viendo]]"],
+          "correctAnswer": 0,
+          "explanation": "Con 'she', usamos 'is' + verbo-ing."
         }
       ]
     },
@@ -51,40 +51,40 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e13",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Hair",
-    "difficulty": "easy",
-    "transcript": "My brother has short dark hair.",
+    "topic": "Grammar: Present Continuous",
+    "difficulty": "medium",
+    "transcript": "They are playing football in the park.",
     "content": {
-      "title": "El Pelo de mi Hermano",
-      "instructions": "Elige la descripción correcta.",
+      "title": "Presente Continuo: They",
+      "instructions": "Elige la forma correcta.",
       "questions": [
         {
-          "question": "[[My brother has hair|Mi hermano tiene]] _______ [[dark|oscuro pelo]].",
-          "options": ["[[short|corto]]", "[[long|largo]]", "[[curly|rizado]]"],
-          "correctAnswer": 0,
-          "explanation": "'Short' es lo opuesto a 'long'."
+          "question": "[[They|Ellos]] _______ [[football in the park|fútbol en el parque]].",
+          "options": ["[[is playing|está jugando]]", "[[play|juegan]]", "[[are playing|están jugando]]"],
+          "correctAnswer": 2,
+          "explanation": "Con 'they', usamos 'are' + verbo-ing."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-24/e13.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u24-e14",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Have got",
+    "topic": "Grammar: Present Continuous",
     "difficulty": "medium",
-    "transcript": "I have got curly blond hair.",
+    "transcript": "What are you doing at the moment?",
     "content": {
-      "title": "Estructura 'Have got'",
-      "instructions": "Completa la oración con 'have got'.",
+      "title": "Presente Continuo: Preguntas",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[I curly blond hair|Yo]] _______ [[got|tengo rizado rubio pelo]].",
-          "options": ["[[has|tiene]]", "[[have|tengo]]", "[[am|soy]]"],
+          "question": "[[What|Qué]] _______ [[you doing at the moment|estás haciendo en este momento]]?",
+          "options": ["[[is|es/está]]", "[[are|eres/estás]]", "[[am|soy/estoy]]"],
           "correctAnswer": 1,
-          "explanation": "Usamos 'I have got' para posesión física en inglés británico."
+          "explanation": "En preguntas con 'you', usamos 'are' delante del sujeto."
         }
       ]
     },
@@ -95,40 +95,40 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e15",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Age",
-    "difficulty": "easy",
-    "transcript": "My grandfather is seventy years old. He is old.",
+    "topic": "Grammar: Present Continuous",
+    "difficulty": "medium",
+    "transcript": "I am not working today.",
     "content": {
-      "title": "Describiendo la Edad",
-      "instructions": "Elige el adjetivo de edad correcto.",
+      "title": "Presente Continuo: Negativo",
+      "instructions": "Elige la forma negativa correcta.",
       "questions": [
         {
-          "question": "[[My grandfather. He is is seventy years old|Mi abuelo es setenta años de edad. Él es]] _______.",
-          "options": ["[[young|joven]]", "[[old|mayor/viejo]]", "[[baby|bebé]]"],
+          "question": "[[I|Yo]] _______ [[today|hoy]].",
+          "options": ["[[not working|no trabajando]]", "[[am not working|no estoy trabajando]]", "[[don't work|no trabajo]]"],
           "correctAnswer": 1,
-          "explanation": "Setenta años es una edad avanzada."
+          "explanation": "La negación se forma con am/is/are + not + verbo-ing."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-24/e15.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u24-e16",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Appearance",
-    "difficulty": "medium",
-    "transcript": "That actor is very handsome.",
+    "topic": "Vocabulary: Actions",
+    "difficulty": "easy",
+    "transcript": "He is drinking water.",
     "content": {
-      "title": "Hombre Atractivo",
-      "instructions": "Elige el adjetivo de belleza masculino.",
+      "title": "Vocabulario: Acciones",
+      "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[That actor is very|Ese actor es muy]] _______.",
-          "options": ["[[pretty|guapa]]", "[[handsome|guapo]]", "[[curly|rizado]]"],
+          "question": "[[He is|Él está]] _______ [[water|agua]].",
+          "options": ["[[eating|comiendo]]", "[[drinking|bebiendo]]", "[[sleeping|durmiendo]]"],
           "correctAnswer": 1,
-          "explanation": "'Handsome' se usa típicamente para hombres guapos."
+          "explanation": "'Drinking' es la acción de beber líquidos como el agua."
         }
       ]
     },
@@ -139,18 +139,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e17",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Questions",
+    "topic": "Grammar: Spelling -ing",
     "difficulty": "medium",
-    "transcript": "What does your sister look like?",
+    "transcript": "She is sitting on the sofa.",
     "content": {
-      "title": "Preguntando por el Físico",
-      "instructions": "Completa la pregunta correctamente.",
+      "title": "Ortografía: -ing",
+      "instructions": "Elige la ortografía correcta.",
       "questions": [
         {
-          "question": "[[What does your sister|Cómo auxiliar tu hermana]] _______ [[like|como]]?",
-          "options": ["[[looks|se ve]]", "[[look|ver]]", "[[see|ver]]"],
+          "question": "[[She is|Ella está]] _______ [[on the sofa|en el sofá]].",
+          "options": ["[[siting|error]]", "[[sitting|sentada/sentándose]]", "[[sit|sentar]]"],
           "correctAnswer": 1,
-          "explanation": "En preguntas con 'does', el verbo principal va en su forma base (look)."
+          "explanation": "Los verbos cortos C-V-C doblan la última consonante antes de añadir '-ing'."
         }
       ]
     },
@@ -161,84 +161,84 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e18",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Facial Features",
-    "difficulty": "easy",
-    "transcript": "He has a big mustache.",
+    "topic": "Grammar: Present Continuous",
+    "difficulty": "medium",
+    "transcript": "Are they listening to music?",
     "content": {
-      "title": "Rasgos Faciales",
-      "instructions": "Identifica la característica física.",
+      "title": "Presente Continuo: Preguntas Sí/No",
+      "instructions": "Elige la opción correcta.",
       "questions": [
         {
-          "question": "[[He has a big|Él tiene un grande]] _______ [[under his nose|debajo de su nariz]].",
-          "options": ["[[beard|barba]]", "[[mustache|bigote]]", "[[glasses|gafas]]"],
-          "correctAnswer": 1,
-          "explanation": "El bigote está debajo de la nariz."
+          "question": "_______ [[they listening to music|ellos escuchando música]]?",
+          "options": ["[[Are|Están]]", "[[Is|Está]]", "[[Do|Hacen (pres. simple)]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'Are' para preguntas en plural con 'they'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-24/e18.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u24-e19",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Plurals",
-    "difficulty": "medium",
-    "transcript": "Her eyes are green.",
+    "topic": "Vocabulary: Actions",
+    "difficulty": "easy",
+    "transcript": "We are learning English.",
     "content": {
-      "title": "Ojos Verdes",
-      "instructions": "Elige el verbo correcto para el plural.",
+      "title": "Vocabulario: Acciones",
+      "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[Her eyes|Sus ojos]] _______ [[green|verdes]].",
-          "options": ["[[is|es/está]]", "[[are|son/están]]", "[[has|tiene]]"],
-          "correctAnswer": 1,
-          "explanation": "'Eyes' es plural, por lo que usamos 'are'."
+          "question": "[[We are|Estamos]] _______ [[English|inglés]].",
+          "options": ["[[learning|aprendiendo]]", "[[cooking|cocinando]]", "[[running|corriendo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Learning' es la acción de aprender algo, como un idioma."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-24/e19.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u24-e20",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Build",
+    "topic": "Grammar: Present Continuous",
     "difficulty": "medium",
-    "transcript": "She goes to the gym, she is very fit.",
+    "transcript": "Look! It is raining outside.",
     "content": {
-      "title": "En Forma",
-      "instructions": "Completa con el adjetivo de complexión.",
+      "title": "Presente Continuo: El Tiempo",
+      "instructions": "Elige la forma correcta.",
       "questions": [
         {
-          "question": "[[She goes, she is to gym very|Ella va al gimnasio, ella está muy]] _______.",
-          "options": ["[[fit|en forma]]", "[[fat|gorda]]", "[[weak|débil]]"],
+          "question": "[[Look! It|¡Mira!]] _______ [[raining outside|lloviendo fuera]].",
+          "options": ["[[is|está]]", "[[are|están]]", "[[rains|llueve]]"],
           "correctAnswer": 0,
-          "explanation": "Ir al gimnasio suele significar estar en forma (fit)."
+          "explanation": "Usamos 'is' con el sujeto impersonal 'it'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-24/e20.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u24-e21",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Wears",
+    "topic": "Grammar: Spelling -ing",
     "difficulty": "medium",
-    "transcript": "He wears glasses for reading.",
+    "transcript": "I am writing an email to my boss.",
     "content": {
-      "title": "Llevar Gafas",
-      "instructions": "Elige el verbo correcto para accesorios.",
+      "title": "Ortografía: Verbos en -e",
+      "instructions": "Elige la ortografía correcta.",
       "questions": [
         {
-          "question": "[[He for reading|Él]] _______ [[glasses|gafas para leer]].",
-          "options": ["[[wears|lleva (puesto)]]", "[[has got|tiene]]", "[[is|es]]"],
+          "question": "[[I am|Estoy]] _______ [[an email|un correo electrónico]].",
+          "options": ["[[writing|escribiendo]]", "[[writeing|error]]", "[[writes|escribe]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'wear' tanto para ropa como para accesorios como las gafas."
+          "explanation": "Los verbos que terminan en '-e' muda pierden la 'e' antes de añadir '-ing'."
         }
       ]
     },
@@ -249,18 +249,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e22",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Hair Color",
+    "topic": "Vocabulary: Actions",
     "difficulty": "easy",
-    "transcript": "She has red hair and freckles.",
+    "transcript": "The students are talking to the teacher.",
     "content": {
-      "title": "Pelo Rojo",
-      "instructions": "Completa la descripción.",
+      "title": "Acciones en Clase",
+      "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[She has freckles|Ella tiene]] _______ [[hair and|pelo y pecas]].",
-          "options": ["[[red|pelirrojo]]", "[[blue|azul]]", "[[tall|alto]]"],
+          "question": "[[The students are|Los estudiantes están]] _______ [[to the teacher|con el profesor]].",
+          "options": ["[[talking|hablando]]", "[[dancing|bailando]]", "[[swimming|nadando]]"],
           "correctAnswer": 0,
-          "explanation": "'Red hair' es el término para pelo pelirrojo."
+          "explanation": "'Talking' es hablar con alguien."
         }
       ]
     },
@@ -271,18 +271,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e23",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Be vs Have",
+    "topic": "Grammar: Present Continuous",
     "difficulty": "medium",
-    "transcript": "My father is bald.",
+    "transcript": "Is he using his phone in class?",
     "content": {
-      "title": "Sin Pelo",
-      "instructions": "Elige el verbo correcto para calvo.",
+      "title": "Preguntas con 'He'",
+      "instructions": "Elige la opción correcta.",
       "questions": [
         {
-          "question": "[[My father|Mi padre]] _______ [[bald|calvo]].",
-          "options": ["[[is|es]]", "[[has|tiene]]", "[[wears|lleva]]"],
-          "correctAnswer": 0,
-          "explanation": "Se dice 'is bald' (es calvo)."
+          "question": "_______ [[he using his phone|él usando su móvil]]?",
+          "options": ["[[Are|Están]]", "[[Is|Está]]", "[[Does|Haces (pres. simple)]]"],
+          "correctAnswer": 1,
+          "explanation": "Usamos 'Is' para preguntas en singular con 'he'."
         }
       ]
     },
@@ -293,18 +293,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e24",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Appearance",
+    "topic": "Vocabulary: Actions",
     "difficulty": "easy",
-    "transcript": "You are a very beautiful person.",
+    "transcript": "My mother is cooking dinner now.",
     "content": {
-      "title": "Hermosa",
-      "instructions": "Elige el adjetivo de belleza.",
+      "title": "Acciones en Casa",
+      "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[You are a very|Tú eres una muy]] _______ [[person|persona]].",
-          "options": ["[[beautiful|hermosa]]", "[[short|baja]]", "[[curly|rizada]]"],
+          "question": "[[My mother is|Mi madre está]] _______ [[dinner now|la cena ahora]].",
+          "options": ["[[cooking|cocinando]]", "[[driving|conduciendo]]", "[[washing|lavando]]"],
           "correctAnswer": 0,
-          "explanation": "Adjetivo para describir a alguien muy atractivo/a."
+          "explanation": "'Cooking' es preparar la comida."
         }
       ]
     },
@@ -315,18 +315,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e25",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Third Person",
-    "difficulty": "medium",
-    "transcript": "Does he have a beard?",
+    "topic": "Grammar: Present Continuous",
+    "difficulty": "hard",
+    "transcript": "Why are you laughing?",
     "content": {
-      "title": "Pregunta con 'Have'",
-      "instructions": "Forma la pregunta correctamente.",
+      "title": "Preguntas 'Wh-'",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "_______ [[he have a beard|él tener una barba]]?",
-          "options": ["[[Does|Auxiliar]]", "[[Do|Auxiliar]]", "[[Is|Es/está]]"],
+          "question": "[[Why|Por qué]] _______ [[you laughing|te estás riendo]]?",
+          "options": ["[[are|estás]]", "[[is|está]]", "[[do|haces]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'Does' para preguntas en presente simple con 'he'."
+          "explanation": "En preguntas con 'you', usamos 'are' después de la partícula interrogativa."
         }
       ]
     },
@@ -334,525 +334,21 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u24-e26",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Eyes",
-    "difficulty": "easy",
-    "transcript": "I have big brown eyes.",
-    "content": {
-      "title": "Ojos Grandes",
-      "instructions": "Describe el tamaño de los ojos.",
-      "questions": [
-        {
-          "question": "[[I have|Yo tengo]] _______ [[brown eyes|marrones ojos]].",
-          "options": ["[[big|grandes]]", "[[long|largos]]", "[[fit|en forma]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'big' para describir el tamaño de los ojos."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-24/e26.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u24-e27",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Grammar: Have got negative",
-    "difficulty": "medium",
-    "transcript": "She hasn't got long hair.",
-    "content": {
-      "title": "Negación con 'Have got'",
-      "instructions": "Elige la forma negativa correcta.",
-      "questions": [
-        {
-          "question": "[[She long hair|Ella]] _______ [[got|tiene largo pelo]].",
-          "options": ["[[hasn't|no tiene]]", "[[haven't|no tengo/tenemos]]", "[[isn't|no es]]"],
-          "correctAnswer": 0,
-          "explanation": "La negación de 'has got' es 'hasn't got'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-24/e27.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u24-e28",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Hair Style",
-    "difficulty": "medium",
-    "transcript": "Is his hair straight or curly?",
-    "content": {
-      "title": "Tipo de Pelo",
-      "instructions": "Elige el adjetivo de forma del pelo.",
-      "questions": [
-        {
-          "question": "[[Is his hair curly|Es su pelo]] _______ [[or|o rizado]]?",
-          "options": ["[[straight|liso]]", "[[tall|alto]]", "[[handsome|guapo]]"],
-          "correctAnswer": 0,
-          "explanation": "'Straight' (liso) es lo opuesto a 'curly' (rizado)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-24/e28.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u24-e29",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Grammar: Adjective Order",
-    "difficulty": "medium",
-    "transcript": "He has short, dark hair.",
-    "content": {
-      "title": "Orden de Adjetivos",
-      "instructions": "Elige la descripción más natural.",
-      "questions": [
-        {
-          "question": "[[He has|Él tiene]] _______ [[hair|pelo]].",
-          "options": ["[[short dark|corto oscuro]]", "[[dark short|oscuro corto]]", "[[hair short|pelo corto]]"],
-          "correctAnswer": 0,
-          "explanation": "En inglés, la longitud (short) suele ir antes del color (dark)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-24/e29.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u24-e30",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: General",
-    "difficulty": "easy",
-    "transcript": "They are a very good-looking couple.",
-    "content": {
-      "title": "Pareja Atractiva",
-      "instructions": "Completa con el adjetivo general.",
-      "questions": [
-        {
-          "question": "[[They are a very|Ellos son una muy]] _______ [[couple|pareja]].",
-          "options": ["[[good-looking|atractiva]]", "[[slim|delgada]]", "[[middle-aged|de mediana edad]]"],
-          "correctAnswer": 0,
-          "explanation": "'Good-looking' es un adjetivo general para atractivo/a."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-24/e30.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u24-e31",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Build",
-    "difficulty": "medium",
-    "transcript": "The basketball player is very tall.",
-    "content": {
-      "title": "Jugador de Baloncesto",
-      "instructions": "Elige la característica típica.",
-      "questions": [
-        {
-          "question": "[[The basketball player is very|El baloncesto jugador es muy]] _______.",
-          "options": ["[[tall|alto]]", "[[short|bajo]]", "[[baby|bebé]]"],
-          "correctAnswer": 0,
-          "explanation": "Los jugadores de baloncesto suelen ser altos (tall)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-24/e31.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u24-e32",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Skin",
-    "difficulty": "medium",
-    "transcript": "She has fair skin and blond hair.",
-    "content": {
-      "title": "Piel Clara",
-      "instructions": "Completa la descripción física.",
-      "questions": [
-        {
-          "question": "[[She has blond hair|Ella tiene]] _______ [[skin and|piel y rubio pelo]].",
-          "options": ["[[fair|clara]]", "[[tanned|bronceada]]", "[[long|larga]]"],
-          "correctAnswer": 0,
-          "explanation": "'Fair skin' significa piel clara."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-24/e32.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u24-e33",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Grammar: How tall",
-    "difficulty": "medium",
-    "transcript": "How tall is your brother?",
-    "content": {
-      "title": "Preguntando la Estatura",
-      "instructions": "Completa la pregunta sobre estatura.",
-      "questions": [
-        {
-          "question": "[[How your brother|Cómo/Cuán]] _______ [[is|es tu hermano]]?",
-          "options": ["[[tall|alto]]", "[[big|grande]]", "[[old|viejo]]"],
-          "correctAnswer": 0,
-          "explanation": "'How tall' es la forma de preguntar por la estatura de alguien."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-24/e33.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u24-e34",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Age",
-    "difficulty": "easy",
-    "transcript": "My daughter is only three. She is a small child.",
-    "content": {
-      "title": "Niña Pequeña",
-      "instructions": "Elige la descripción de edad correcta.",
-      "questions": [
-        {
-          "question": "[[My daughter. She is only three is|Mi hija tiene solo tres. Ella es]] _______.",
-          "options": ["[[young|joven]]", "[[old|vieja]]", "[[middle-aged|de mediana edad]]"],
-          "correctAnswer": 0,
-          "explanation": "Una niña de tres años es muy joven (young)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-24/e34.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u24-e35",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Grammar: Comparison",
-    "difficulty": "medium",
-    "transcript": "Is he tall or short?",
-    "content": {
-      "title": "¿Alto o Bajo?",
-      "instructions": "Completa la alternativa.",
-      "questions": [
-        {
-          "question": "[[Is he tall or|Es él alto o]] _______?",
-          "options": ["[[short|bajo]]", "[[slim|delgado]]", "[[red|rojo]]"],
-          "correctAnswer": 0,
-          "explanation": "'Short' es lo opuesto a 'tall'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-24/e35.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u24-e36",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Hair",
-    "difficulty": "medium",
-    "transcript": "He doesn't have any hair, he is bald.",
-    "content": {
-      "title": "Sin Cabello",
-      "instructions": "Completa con el adjetivo correcto.",
-      "questions": [
-        {
-          "question": "[[He doesn't, he have any hair is|Él no tiene nada pelo, él es]] _______.",
-          "options": ["[[bald|calvo]]", "[[curly|rizado]]", "[[long|largo]]"],
-          "correctAnswer": 0,
-          "explanation": "Alguien sin pelo es calvo (bald)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-24/e36.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u24-e37",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Grammar: Have got question",
-    "difficulty": "medium",
-    "transcript": "Have you got blue eyes?",
-    "content": {
-      "title": "Pregunta con 'Have got'",
-      "instructions": "Forma la pregunta sobre los ojos.",
-      "questions": [
-        {
-          "question": "_______ [[you got blue eyes|tú tienes azules ojos]]?",
-          "options": ["[[Have|Tener]]", "[[Has|Tiene]]", "[[Do|Hacer]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'Have' para preguntas con 'you' en la estructura 'have got'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-24/e37.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u24-e38",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Beauty",
-    "difficulty": "easy",
-    "transcript": "The princess is very pretty.",
-    "content": {
-      "title": "La Princesa",
-      "instructions": "Completa con un adjetivo de belleza femenino.",
-      "questions": [
-        {
-          "question": "[[The princess is very|La princesa es muy]] _______.",
-          "options": ["[[pretty|guapa]]", "[[handsome|guapo]]", "[[bald|calva]]"],
-          "correctAnswer": 0,
-          "explanation": "'Pretty' es muy común para niñas y mujeres."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-24/e38.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u24-e39",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Details",
-    "difficulty": "medium",
-    "transcript": "She has many freckles on her face.",
-    "content": {
-      "title": "Pecas",
-      "instructions": "Identifica el rasgo facial.",
-      "questions": [
-        {
-          "question": "[[She has many her|Ella tiene muchas]] _______ [[on face|en su cara]].",
-          "options": ["[[freckles|pecas]]", "[[beard|barba]]", "[[glasses|gafas]]"],
-          "correctAnswer": 0,
-          "explanation": "Pequeñas manchas en la piel, comunes en pelirrojos."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-24/e39.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u24-e40",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Grammar: Review",
-    "difficulty": "medium",
-    "transcript": "My uncle is middle-aged and very strong.",
-    "content": {
-      "title": "Descripción de mi Tío",
-      "instructions": "Elige la descripción completa.",
-      "questions": [
-        {
-          "question": "[[My uncle is very|Mi tío es]] _______ [[and strong|y muy fuerte]].",
-          "options": ["[[middle-aged|de mediana edad]]", "[[baby|bebé]]", "[[long|largo]]"],
-          "correctAnswer": 0,
-          "explanation": "Un adulto suele ser de mediana edad."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-24/e40.mp3",
-    "topicName": "Vocabulary"
-  },
-
-  // SENTENCE BUILDING (41-50)
-  {
-    "id": "a1-u24-e41",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Description",
-    "difficulty": "easy",
-    "transcript": "He is tall and slim.",
-    "content": {
-      "title": "Él es Alto",
-      "instructions": "Ordena las palabras para describir a alguien.",
-      "correctSentence": "[[He is tall and slim|Él es alto y delgado]].",
-      "words": ["[[slim|delgado]].", "[[and|y]]", "[[tall|alto]]", "[[is|es]]", "[[He|Él]]"],
-      "explanation": "Sujeto + verbo + adjetivo."
-    },
-    "audioUrl": "audio/a1/unit-24/e41.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u24-e42",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Hair Description",
-    "difficulty": "medium",
-    "transcript": "She has long blond hair.",
-    "content": {
-      "title": "Pelo Rubio",
-      "instructions": "Describe el pelo de ella.",
-      "correctSentence": "[[She has long blond hair|Ella tiene largo rubio pelo]].",
-      "words": ["[[hair|pelo]].", "[[blond|rubio]]", "[[long|largo]]", "[[has|tiene]]", "[[She|Ella]]"],
-      "explanation": "Longitud + color + pelo."
-    },
-    "audioUrl": "audio/a1/unit-24/e42.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u24-e43",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Eyes",
-    "difficulty": "easy",
-    "transcript": "My father has brown eyes.",
-    "content": {
-      "title": "Ojos Marrones",
-      "instructions": "Describe los ojos de tu padre.",
-      "correctSentence": "[[My father has brown eyes|Mi padre tiene marrones ojos]].",
-      "words": ["[[eyes|ojos]].", "[[brown|marrones]]", "[[has|tiene]]", "[[father|padre]]", "[[My|Mi]]"],
-      "explanation": "Posesión de rasgos físicos."
-    },
-    "audioUrl": "audio/a1/unit-24/e43.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u24-e44",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Age",
-    "difficulty": "easy",
-    "transcript": "My grandmother is very old.",
-    "content": {
-      "title": "Mi Abuela",
-      "instructions": "Habla sobre la edad de tu abuela.",
-      "correctSentence": "[[My grandmother is very old|Mi abuela es muy mayor]].",
-      "words": ["[[old|mayor]].", "[[very|muy]]", "[[is|es]]", "[[grandmother|abuela]]", "[[My|Mi]]"],
-      "explanation": "Verbo 'to be' para la edad."
-    },
-    "audioUrl": "audio/a1/unit-24/e44.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u24-e45",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Appearance Question",
-    "difficulty": "hard",
-    "transcript": "What does your best friend look like?",
-    "content": {
-      "title": "¿Cómo es tu Amigo?",
-      "instructions": "Pregunta por el físico de alguien.",
-      "correctSentence": "[[What does your best friend look like|Cómo auxiliar tu mejor amigo ver como]]?",
-      "words": ["[[like|como]]?", "[[look|ver]]", "[[friend|amigo]]", "[[best|mejor]]", "[[your|tu]]", "[[does|auxiliar]]", "[[What|Cómo]]"],
-      "explanation": "Estructura de pregunta para apariencia física."
-    },
-    "audioUrl": "audio/a1/unit-24/e45.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u24-e46",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Facial Features",
-    "difficulty": "medium",
-    "transcript": "The teacher wears big glasses.",
-    "content": {
-      "title": "El Profesor",
-      "instructions": "Describe al profesor.",
-      "correctSentence": "[[The teacher wears big glasses|El profesor lleva grandes gafas]].",
-      "words": ["[[glasses|gafas]].", "[[big|grandes]]", "[[wears|lleva]]", "[[teacher|profesor]]", "[[The|El]]"],
-      "explanation": "Uso de 'wear' para gafas."
-    },
-    "audioUrl": "audio/a1/unit-24/e46.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u24-e47",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "General Appearance",
-    "difficulty": "easy",
-    "transcript": "That baby is very cute.",
-    "content": {
-      "title": "Un Bebé Lindo",
-      "instructions": "Describe al bebé.",
-      "correctSentence": "[[That baby is very cute|Ese bebé es muy lindo]].",
-      "words": ["[[cute|lindo]].", "[[very|muy]]", "[[is|es]]", "[[baby|bebé]]", "[[That|Ese]]"],
-      "explanation": "'Cute' es común para bebés y animales."
-    },
-    "audioUrl": "audio/a1/unit-24/e47.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u24-e48",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Hair Color",
-    "difficulty": "medium",
-    "transcript": "His brother has got red hair.",
-    "content": {
-      "title": "Hermano Pelirrojo",
-      "instructions": "Describe el pelo del hermano.",
-      "correctSentence": "[[His brother has got red hair|Su hermano tiene conseguido pelirrojo pelo]].",
-      "words": ["[[hair|pelo]].", "[[red|pelirrojo]]", "[[got|conseguido]]", "[[has|tiene]]", "[[brother|hermano]]", "[[His|Su]]"],
-      "explanation": "Estructura 'has got' para rasgos."
-    },
-    "audioUrl": "audio/a1/unit-24/e48.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u24-e49",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Build",
-    "difficulty": "medium",
-    "transcript": "Is she tall or short?",
-    "content": {
-      "title": "¿Alta o Baja?",
-      "instructions": "Forma la pregunta de alternativa.",
-      "correctSentence": "[[Is she tall or short|Es ella alta o baja]]?",
-      "words": ["[[short|baja]]?", "[[or|o]]", "[[tall|alta]]", "[[she|ella]]", "[[Is|Es]]"],
-      "explanation": "Pregunta de elección."
-    },
-    "audioUrl": "audio/a1/unit-24/e49.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u24-e50",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Hair Style",
-    "difficulty": "hard",
-    "transcript": "My mother has short curly hair.",
-    "content": {
-      "title": "Pelo Rizado",
-      "instructions": "Describe el pelo de tu madre.",
-      "correctSentence": "[[My mother has short curly hair|Mi madre tiene corto rizado pelo]].",
-      "words": ["[[hair|pelo]].", "[[curly|rizado]]", "[[short|corto]]", "[[has|tiene]]", "[[mother|madre]]", "[[My|Mi]]"],
-      "explanation": "Longitud + forma + pelo."
-    },
-    "audioUrl": "audio/a1/unit-24/e50.mp3",
-    "topicName": "Vocabulary"
-  },
-
-  // READING COMPREHENSION (51-60)
-  {
     "id": "a1-u24-e51",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Family Description",
-    "difficulty": "medium",
-    "transcript": "My sister's name is Emma. She is twenty-two years old. She is very tall and slim. Emma has long blond hair and beautiful blue eyes. She doesn't wear glasses.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[It is Sunday morning|Es domingo por la mañana]] [[and my family is|y mi familia está]] [[at home.|en casa.]] [[We are all busy.|Todos estamos ocupados.]] [[I am sitting in the garden|Estoy sentado en el jardín]] [[and I am reading|y estoy leyendo]] [[an interesting book.|un libro interesante.]] [[My father is washing|Mi padre está lavando]] [[his car in the garage.|su coche en el garaje.]] [[My mother is|Mi madre está]] [[in the kitchen;|en la cocina;]] [[she is making|ella está haciendo]] [[a delicious cake|un pastel delicioso]] [[for lunch.|para el almuerzo.]] [[My little brother, Toby,|Mi hermano pequeño, Toby,]] [[is playing with|está jugando con]] [[his dog, Rex.|su perro, Rex.]] [[They are running|Están corriendo]] [[on the grass.|sobre la hierba.]] [[Everyone is enjoying|Todos están disfrutando]] [[the sunny weather.|del tiempo soleado.]]",
     "content": {
-      "title": "Mi Hermana Emma",
-      "instructions": "Lee el texto y responde.",
+      "title": "[[Reading: Sunday Morning|Lectura: Domingo por la mañana]]",
+      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "*\"[[My sister. She is is Emma twenty-two years. She old is very tall. Emma has and slim long blond. She hair and beautiful blue eyes doesn't wear glasses Emma hair|Mi hermana]]'[[s name|de nombre es Emma. Ella es veintidós años de edad. Ella es muy alta y delgada. Emma tiene largo rubio pelo y hermosos azules ojos. Ella no lleva gafas]].\"*\n\n[[How is|Cómo es Emma]]'[[s|de pelo]]?",
-          "options": ["[[Short and dark|Corto y oscuro]]", "[[Long and blond|Largo y rubio]]", "[[Curly and red|Rizado y rojo]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'long blond hair'."
+          "question": "[[What is the speaker doing?|¿Qué está haciendo el narrador?]]",
+          "options": ["[[Reading a book|Leyendo un libro]]", "[[Washing the car|Lavando el coche]]", "[[Making a cake|Haciendo un pastel]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The speaker says he is sitting in the garden reading an interesting book.|El narrador dice que está sentado en el jardín leyendo un libro interesante.]]"
         }
       ]
     },
@@ -863,18 +359,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Family Description",
-    "difficulty": "medium",
-    "transcript": "My sister's name is Emma. She is twenty-two years old. She is very tall and slim. Emma has long blond hair and beautiful blue eyes. She doesn't wear glasses.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[It is Sunday morning|Es domingo por la mañana]] [[and my family is|y mi familia está]] [[at home.|en casa.]] [[We are all busy.|Todos estamos ocupados.]] [[I am sitting in the garden|Estoy sentado en el jardín]] [[and I am reading|y estoy leyendo]] [[an interesting book.|un libro interesante.]] [[My father is washing|Mi padre está lavando]] [[his car in the garage.|su coche en el garaje.]] [[My mother is|Mi madre está]] [[in the kitchen;|en la cocina;]] [[she is making|ella está haciendo]] [[a delicious cake|un pastel delicioso]] [[for lunch.|para el almuerzo.]] [[My little brother, Toby,|Mi hermano pequeño, Toby,]] [[is playing with|está jugando con]] [[his dog, Rex.|su perro, Rex.]] [[They are running|Están corriendo]] [[on the grass.|sobre la hierba.]] [[Everyone is enjoying|Todos están disfrutando]] [[the sunny weather.|del tiempo soleado.]]",
     "content": {
-      "title": "Mi Hermana Emma",
-      "instructions": "Lee el texto y responde.",
+      "title": "[[Reading: Family Activities|Lectura: Actividades familiares]]",
+      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "*\"[[My sister. She is is Emma twenty-two years. She old is very tall. Emma has and slim long blond. She hair and beautiful blue eyes doesn't wear glasses are her|Mi hermana]]'[[s name|de nombre es Emma. Ella es veintidós años de edad. Ella es muy alta y delgada. Emma tiene largo rubio pelo y hermosos azules ojos. Ella no lleva gafas]].\"*\n\n[[What color eyes|De qué color son sus ojos]]?",
-          "options": ["[[Green|Verdes]]", "[[Brown|Marrones]]", "[[Blue|Azules]]"],
-          "correctAnswer": 2,
-          "explanation": "El texto dice 'beautiful blue eyes'."
+          "question": "[[What is the mother doing?|¿Qué está haciendo la madre?]]",
+          "options": ["[[She is making a cake|Ella está haciendo un pastel]]", "[[She is reading a book|Ella está leyendo un libro]]", "[[She is playing with the dog|Ella está jugando con el perro]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The text says she is in the kitchen making a delicious cake.|El texto dice que está en la cocina haciendo un pastel delicioso.]]"
         }
       ]
     },
@@ -885,18 +381,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e53",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Family Description",
-    "difficulty": "medium",
-    "transcript": "My sister's name is Emma. She is twenty-two years old. She is very tall and slim. Emma has long blond hair and beautiful blue eyes. She doesn't wear glasses.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[It is Sunday morning|Es domingo por la mañana]] [[and my family is|y mi familia está]] [[at home.|en casa.]] [[We are all busy.|Todos estamos ocupados.]] [[I am sitting in the garden|Estoy sentado en el jardín]] [[and I am reading|y estoy leyendo]] [[an interesting book.|un libro interesante.]] [[My father is washing|Mi padre está lavando]] [[his car in the garage.|su coche en el garaje.]] [[My mother is|Mi madre está]] [[in the kitchen;|en la cocina;]] [[she is making|ella está haciendo]] [[a delicious cake|un pastel delicioso]] [[for lunch.|para el almuerzo.]] [[My little brother, Toby,|Mi hermano pequeño, Toby,]] [[is playing with|está jugando con]] [[his dog, Rex.|su perro, Rex.]] [[They are running|Están corriendo]] [[on the grass.|sobre la hierba.]] [[Everyone is enjoying|Todos están disfrutando]] [[the sunny weather.|del tiempo soleado.]]",
     "content": {
-      "title": "Mi Hermana Emma",
-      "instructions": "Lee el texto y responde.",
+      "title": "[[Reading: Playing in the Garden|Lectura: Jugando en el jardín]]",
+      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "*\"[[My sister. She is is Emma twenty-two years. She old is very tall. Emma has and slim long blond. She hair and beautiful blue eyes doesn't wear glasses wear glasses|Mi hermana]]'[[s name|de nombre es Emma. Ella es veintidós años de edad. Ella es muy alta y delgada. Emma tiene largo rubio pelo y hermosos azules ojos. Ella no lleva gafas]].\"*\n\n[[Does she|Auxiliar ella llevar gafas]]?",
-          "options": ["[[Yes, she does|Sí]]", "[[No, she doesn't|No]]", "[[Sometimes|A veces]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'She doesn't wear glasses'."
+          "question": "[[What are Toby and Rex doing?|¿Qué están haciendo Toby y Rex?]]",
+          "options": ["[[They are running on the grass|Están corriendo sobre la hierba]]", "[[They are sleeping|Están durmiendo]]", "[[They are washing the car|Están lavando el coche]]"],
+          "correctAnswer": 0,
+          "explanation": "[[Toby is playing with Rex and they are running on the grass.|Toby está jugando con Rex y están corriendo sobre la hierba.]]"
         }
       ]
     },
@@ -907,18 +403,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Brother's Profile",
-    "difficulty": "medium",
-    "transcript": "This is my brother, David. He is thirty years old. He is short and fit. David has short brown hair and a small beard. He wears glasses when he works at the computer.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[I am at the park|Estoy en el parque]] [[with my friends.|con mis amigos.]] [[The sun is shining|El sol está brillando]] [[and many people|y mucha gente]] [[are having a good time.|se lo está pasando bien.]] [[Some children are|Algunos niños están]] [[playing hide and seek.|jugando al escondite.]] [[A group of teenagers|Un grupo de adolescentes]] [[is listening to music|está escuchando música]] [[near the lake.|cerca del lago.]] [[An old man is|Un hombre mayor está]] [[sitting on a bench|sentado en un banco]] [[and he is feeding|y está alimentando]] [[the birds.|a los pájaros.]] [[My friend, Lisa,|Mi amiga, Lisa,]] [[is taking photos|está haciendo fotos]] [[of the flowers.|de las flores.]] [[I am drinking|Yo estoy bebiendo]] [[a cold soda|un refresco frío]] [[and enjoying the view.|y disfrutando de la vista.]] [[It is a perfect day!|¡Es un día perfecto!]]",
     "content": {
-      "title": "Mi Hermano David",
-      "instructions": "Lee sobre David y responde.",
+      "title": "[[Reading: At the Park|Lectura: En el parque]]",
+      "instructions": "[[Read about the park and answer.|Lee sobre el parque y responde.]]",
       "questions": [
         {
-          "question": "*\"[[This is, David is my brother. He. He thirty years old is short and. David fit has short brown. He hair and a small beard wears glasses when he works at the computer David tall|Este es mi hermano, David. Él tiene treinta años de edad. Él es bajo y en forma. David tiene corto marrón pelo y una pequeña barba. Él lleva gafas cuando él trabaja en el ordenador]].\"*\n\n[[Is|Es David alto]]?",
-          "options": ["[[Yes, he is|Sí]]", "[[No, he isn't|No]]", "[[We don't know|No lo sabemos]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'He is short'."
+          "question": "[[What is the old man doing?|¿Qué está haciendo el hombre mayor?]]",
+          "options": ["[[Feeding the birds|Alimentando a los pájaros]]", "[[Playing hide and seek|Jugando al escondite]]", "[[Taking photos|Haciendo fotos]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The old man is sitting on a bench and feeding the birds.|El hombre mayor está sentado en un banco y alimentando a los pájaros.]]"
         }
       ]
     },
@@ -929,18 +425,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e55",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Brother's Profile",
-    "difficulty": "medium",
-    "transcript": "This is my brother, David. He is thirty years old. He is short and fit. David has short brown hair and a small beard. He wears glasses when he works at the computer.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[I am at the park|Estoy en el parque]] [[with my friends.|con mis amigos.]] [[The sun is shining|El sol está brillando]] [[and many people|y mucha gente]] [[are having a good time.|se lo está pasando bien.]] [[Some children are|Algunos niños están]] [[playing hide and seek.|jugando al escondite.]] [[A group of teenagers|Un grupo de adolescentes]] [[is listening to music|está escuchando música]] [[near the lake.|cerca del lago.]] [[An old man is|Un hombre mayor está]] [[sitting on a bench|sentado en un banco]] [[and he is feeding|y está alimentando]] [[the birds.|a los pájaros.]] [[My friend, Lisa,|Mi amiga, Lisa,]] [[is taking photos|está haciendo fotos]] [[of the flowers.|de las flores.]] [[I am drinking|Yo estoy bebiendo]] [[a cold soda|un refresco frío]] [[and enjoying the view.|y disfrutando de la vista.]] [[It is a perfect day!|¡Es un día perfecto!]]",
     "content": {
-      "title": "Mi Hermano David",
-      "instructions": "Lee sobre David y responde.",
+      "title": "[[Reading: Friends at the Park|Lectura: Amigos en el parque]]",
+      "instructions": "[[Read about the park and answer.|Lee sobre el parque y responde.]]",
       "questions": [
         {
-          "question": "*\"[[This is, David is my brother. He. He thirty years old is short and. David fit has short brown. He hair and a small beard wears glasses when he works at the computer he have a beard|Este es mi hermano, David. Él tiene treinta años de edad. Él es bajo y en forma. David tiene corto marrón pelo y una pequeña barba. Él lleva gafas cuando él trabaja en el ordenador]].\"*\n\n[[Does|Auxiliar él tener una barba]]?",
-          "options": ["[[No, he doesn't|No]]", "[[Yes, a small one|Sí, una pequeña]]", "[[Yes, a big one|Sí, una grande]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto menciona 'a small beard'."
+          "question": "[[What is Lisa doing?|¿Qué está haciendo Lisa?]]",
+          "options": ["[[Taking photos of the flowers|Haciendo fotos de las flores]]", "[[Drinking a soda|Bebiendo un refresco]]", "[[Listening to music|Escuchando música]]"],
+          "correctAnswer": 0,
+          "explanation": "[[Lisa is taking photos of the flowers.|Lisa está haciendo fotos de las flores.]]"
         }
       ]
     },
@@ -951,18 +447,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: A New Friend",
-    "difficulty": "medium",
-    "transcript": "I have a new friend from Italy. Her name is Sofia. She is very pretty. Sofia is average height. She has curly red hair and green eyes. She has many freckles on her face.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[I am at the park|Estoy en el parque]] [[with my friends.|con mis amigos.]] [[The sun is shining|El sol está brillando]] [[and many people|y mucha gente]] [[are having a good time.|se lo está pasando bien.]] [[Some children are|Algunos niños están]] [[playing hide and seek.|jugando al escondite.]] [[A group of teenagers|Un grupo de adolescentes]] [[is listening to music|está escuchando música]] [[near the lake.|cerca del lago.]] [[An old man is|Un hombre mayor está]] [[sitting on a bench|sentado en un banco]] [[and he is feeding|y está alimentando]] [[the birds.|a los pájaros.]] [[My friend, Lisa,|Mi amiga, Lisa,]] [[is taking photos|está haciendo fotos]] [[of the flowers.|de las flores.]] [[I am drinking|Yo estoy bebiendo]] [[a cold soda|un refresco frío]] [[and enjoying the view.|y disfrutando de la vista.]] [[It is a perfect day!|¡Es un día perfecto!]]",
     "content": {
-      "title": "Mi Amiga Sofía",
-      "instructions": "Lee y responde.",
+      "title": "[[Reading: The Park Scene|Lectura: La escena del parque]]",
+      "instructions": "[[Read about the park and answer.|Lee sobre el parque y responde.]]",
       "questions": [
         {
-          "question": "*\"[[I have. Her a new friend from Italy name is Sofia. She is very pretty. Sofia is average height. She has curly red. She has hair and green eyes many freckles on her face color is Sofia|Yo tengo una nueva amiga de Italia. Su nombre es Sofía. Ella es muy guapa. Sofía es media estatura. Ella tiene rizado rojo pelo y verdes ojos. Ella tiene muchas pecas en su cara]].\"*\n\n[[What|De qué color es Sofía]]'[[s hair|de pelo]]?",
-          "options": ["[[Blond|Rubio]]", "[[Dark|Oscuro]]", "[[Red|Rojo]]"],
-          "correctAnswer": 2,
-          "explanation": "El texto dice 'red hair'."
+          "question": "[[Where are the teenagers?|¿Dónde están los adolescentes?]]",
+          "options": ["[[Near the lake|Cerca del lago]]", "[[Under a tree|Debajo de un árbol]]", "[[On the grass|Sobre la hierba]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The teenagers are listening to music near the lake.|Los adolescentes están escuchando música cerca del lago.]]"
         }
       ]
     },
@@ -973,18 +469,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: A New Friend",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "I have a new friend from Italy. Her name is Sofia. She is very pretty. Sofia is average height. She has curly red hair and green eyes. She has many freckles on her face.",
+    "transcript": "[[Right now, I am|Ahora mismo, estoy]] [[working in my office.|trabajando en mi oficina.]] [[It is a very busy day.|Es un día muy ajetreado.]] [[My colleague, Mr. Brown,|Mi colega, el Sr. Brown,]] [[is talking on the phone.|está hablando por teléfono.]] [[Two secretaries are|Dos secretarias están]] [[typing documents.|escribiendo documentos a máquina.]] [[We are preparing|Estamos preparando]] [[a presentation|una presentación]] [[for a new client.|para un nuevo cliente.]] [[The boss is not here;|El jefe no está aquí;]] [[he is traveling|él está viajando]] [[to London.|a Londres.]] [[I am waiting for|Estoy esperando]] [[an important email.|un correo importante.]] [[I hope we finish|Espero que terminemos]] [[all the work soon.|todo el trabajo pronto.]]",
     "content": {
-      "title": "Mi Amiga Sofía",
-      "instructions": "Lee y responde.",
+      "title": "[[Reading: At the Office|Lectura: En la oficina]]",
+      "instructions": "[[Read the description and answer.|Lee la descripción y responde.]]",
       "questions": [
         {
-          "question": "*\"[[I have. Her a new friend from Italy name is Sofia. She is very pretty. Sofia is average height. She has curly red. She has hair and green eyes many freckles on her face she have freckles|Yo tengo una nueva amiga de Italia. Su nombre es Sofía. Ella es muy guapa. Sofía es media estatura. Ella tiene rizado rojo pelo y verdes ojos. Ella tiene muchas pecas en su cara]].\"*\n\n[[Does|Auxiliar ella tener pecas]]?",
-          "options": ["[[Yes, many|Sí, muchas]]", "[[No, she doesn't|No]]", "[[Only a few|Solo unas pocas]]"],
+          "question": "[[What is Mr. Brown doing?|¿Qué está haciendo el Sr. Brown?]]",
+          "options": ["[[Talking on the phone|Hablando por teléfono]]", "[[Typing documents|Escribiendo documentos]]", "[[Traveling to London|Viajando a Londres]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice 'She has many freckles'."
+          "explanation": "[[Mr. Brown is talking on the phone.|El Sr. Brown está hablando por teléfono.]]"
         }
       ]
     },
@@ -995,18 +491,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: My Teacher",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Mr. Brown is my English teacher. He is fifty years old. He is middle-aged. He is quite tall. He is bald, but he has a small mustache. He always wears a suit and glasses.",
+    "transcript": "[[Right now, I am|Ahora mismo, estoy]] [[working in my office.|trabajando en mi oficina.]] [[It is a very busy day.|Es un día muy ajetreado.]] [[My colleague, Mr. Brown,|Mi colega, el Sr. Brown,]] [[is talking on the phone.|está hablando por teléfono.]] [[Two secretaries are|Dos secretarias están]] [[typing documents.|escribiendo documentos a máquina.]] [[We are preparing|Estamos preparando]] [[a presentation|una presentación]] [[for a new client.|para un nuevo cliente.]] [[The boss is not here;|El jefe no está aquí;]] [[he is traveling|él está viajando]] [[to London.|a Londres.]] [[I am waiting for|Estoy esperando]] [[an important email.|un correo importante.]] [[I hope we finish|Espero que terminemos]] [[all the work soon.|todo el trabajo pronto.]]",
     "content": {
-      "title": "Mr. Brown",
-      "instructions": "Lee sobre el profesor y responde.",
+      "title": "[[Reading: The Boss|Lectura: El jefe]]",
+      "instructions": "[[Read the description and answer.|Lee la descripción y responde.]]",
       "questions": [
         {
-          "question": "*\"[[Mr. Brown is. He my English teacher is fifty years. He old is middle-aged is. He quite tall. He is bald he, but has a. He always small mustache wears a suit and glasses is his hair|El Sr. Brown es mi inglés profesor. Él tiene cincuenta años de edad. Él es de mediana edad. Él es bastante alto. Él es calvo, pero él tiene un pequeño bigote. Él siempre lleva un traje y gafas]].\"*\n\n[[How|Cómo es su pelo]]?",
-          "options": ["[[It is long|Es largo]]", "[[He is bald|Es calvo]]", "[[It is red|Es rojo]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice 'He is bald' (es calvo)."
+          "question": "[[Where is the boss?|¿Dónde está el jefe?]]",
+          "options": ["[[He is traveling to London|Está viajando a Londres]]", "[[He is in the office|Está en la oficina]]", "[[He is in a meeting|Está en una reunión]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The text says the boss is traveling to London.|El texto dice que el jefe está viajando a Londres.]]"
         }
       ]
     },
@@ -1017,18 +513,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e59",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: My Teacher",
-    "difficulty": "medium",
-    "transcript": "Mr. Brown is my English teacher. He is fifty years old. He is middle-aged. He is quite tall. He is bald, but he has a small mustache. He always wears a suit and glasses.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What are people doing|¿Qué está haciendo la gente]] [[around the world?|en todo el mundo?]] [[In Tokyo, people are|En Tokio, la gente está]] [[waking up|despertándose]] [[and drinking tea.|y bebiendo té.]] [[In New York, many people|En Nueva York, mucha gente]] [[are finishing their work|está terminando su trabajo]] [[and going home.|y yendo a casa.]] [[In Paris, friends are|En París, los amigos están]] [[having dinner|cenando]] [[at a restaurant.|en un restaurante.]] [[Right now, it is raining|Ahora mismo, está lloviendo]] [[in London,|en Londres,]] [[and people are|y la gente está]] [[carrying umbrellas.|llevando paraguas.]] [[The world is always|El mundo está siempre]] [[moving!|en movimiento!]]",
     "content": {
-      "title": "Mr. Brown",
-      "instructions": "Lee sobre el profesor y responde.",
+      "title": "[[Reading: Around the World|Lectura: Alrededor del mundo]]",
+      "instructions": "[[Read about the actions and answer.|Lee sobre las acciones y responde.]]",
       "questions": [
         {
-          "question": "*\"[[Mr. Brown is. He my English teacher is fifty years. He old is middle-aged is. He quite tall. He is bald he, but has a. He always small mustache wears a suit and glasses he have a mustache|El Sr. Brown es mi inglés profesor. Él tiene cincuenta años de edad. Él es de mediana edad. Él es bastante alto. Él es calvo, pero él tiene un pequeño bigote. Él siempre lleva un traje y gafas]].\"*\n\n[[Does|Auxiliar él tener un bigote]]?",
-          "options": ["[[Yes, a small one|Sí, uno pequeño]]", "[[No, he has a beard|No, tiene barba]]", "[[No, he doesn't|No]]"],
+          "question": "[[What are people doing in Tokyo?|¿Qué está haciendo la gente en Tokio?]]",
+          "options": ["[[Waking up and drinking tea|Despertándose y bebiendo té]]", "[[Having dinner|Cenando]]", "[[Going home|Yendo a casa]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice 'he has a small mustache'."
+          "explanation": "[[In Tokyo, people are waking up and drinking tea.|En Tokio, la gente se está despertando y bebiendo té.]]"
         }
       ]
     },
@@ -1039,18 +535,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Review",
+    "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "Look at that photo! My parents are young there. My father has long hair and no glasses. My mother is very pretty with curly blond hair. They look very happy.",
+    "transcript": "[[What are people doing|¿Qué está haciendo la gente]] [[around the world?|en todo el mundo?]] [[In Tokyo, people are|En Tokio, la gente está]] [[waking up|despertándose]] [[and drinking tea.|y bebiendo té.]] [[In New York, many people|En Nueva York, mucha gente]] [[are finishing their work|está terminando su trabajo]] [[and going home.|y yendo a casa.]] [[In Paris, friends are|En París, los amigos están]] [[having dinner|cenando]] [[at a restaurant.|en un restaurante.]] [[Right now, it is raining|Ahora mismo, está lloviendo]] [[in London,|en Londres,]] [[and people are|y la gente está]] [[carrying umbrellas.|llevando paraguas.]] [[The world is always|El mundo está siempre]] [[moving!|en movimiento!]]",
     "content": {
-      "title": "Una Foto Antigua",
-      "instructions": "Lee y responde.",
+      "title": "[[Reading: Global Time|Lectura: Tiempo global]]",
+      "instructions": "[[Read about the actions and answer.|Lee sobre las acciones y responde.]]",
       "questions": [
         {
-          "question": "*\"[[Look at! My parents that photo are young. My there father has long. My mother hair and no glasses is very. They pretty with curly blond hair look very happy|Mira a esa foto! Mis padres son jóvenes allí. Mi padre tiene largo pelo y no gafas. Mi madre es muy guapa con rizado rubio pelo. Ellos se ven muy felices]].\"*\n\n[[How is the mother in the photo|Cómo es la madre en la foto]]?",
-          "options": ["[[Bald and old|Calva y mayor]]", "[[Pretty with curly blond hair|Guapa con pelo rubio rizado]]", "[[Tall with dark hair|Alta con pelo oscuro]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto la describe como 'pretty with curly blond hair'."
+          "question": "[[Why are people in London carrying umbrellas?|¿Por qué la gente en Londres lleva paraguas?]]",
+          "options": ["[[Because it is raining|Porque está lloviendo]]", "[[Because it is sunny|Porque hace sol]]", "[[Because it is cold|Porque hace frío]]"],
+          "correctAnswer": 0,
+          "explanation": "[[People in London are carrying umbrellas because it is raining.|La gente en Londres lleva paraguas porque está lloviendo.]]"
         }
       ]
     },

@@ -804,36 +804,36 @@ export const UNIT_7_EXERCISES: Exercise[] = [
   // READING COMPREHENSION (51-60)
   // ==========================================
 
-  // READING 1: MARK (51)
+  // READING 1: MY COUSIN MARK (51)
   {
     "id": "a1-u7-e51",
     "type": "reading",
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[My cousin. He is Mark is, Mark. He looks wearing a a very special person very tall. He has and strong short curly. His eyes brown hair are big. Today is and green new blue jacket and black pants very handsome|Mi primo Mark es un muy especial persona. Él es muy alto y fuerte. Él tiene corto rizado marrón pelo. Sus ojos son grandes y verdes. Hoy, Mark está llevando una nueva azul chaqueta y negros pantalones. Él se ve muy guapo]].",
+    "transcript": "[[My cousin Mark|Mi primo Mark]] [[is a very special person.|es una persona muy especial.]] [[He is very tall|Él es muy alto]] [[and strong.|y fuerte.]] [[He has short curly brown hair.|Él tiene el pelo corto, rizado y marrón.]] [[His eyes are big|Sus ojos son grandes]] [[and green.|y verdes.]] [[Today, Mark is wearing|Hoy, Mark lleva puesta]] [[a new blue jacket|una chaqueta azul nueva]] [[and black pants.|y pantalones negros.]] [[He looks very handsome.|Él se ve muy guapo.]]",
     "content": {
-      "title": "[[Reading Cousin: My Mark|Lectura: Mi Primo Mark]]",
+      "title": "[[My Cousin Mark|Mi Primo Mark]]",
       "instructions": "[[Read the text and answer|Lee el texto y responde]].",
-      "text": "My cousin Mark is a very special person. He is very tall and strong. He has short curly brown hair. His eyes are big and green. Today, Mark is wearing a new blue jacket and black pants. He looks very handsome.",
+      "text": "[[My cousin Mark|Mi primo Mark]] [[is a very special person.|es una persona muy especial.]] [[He is very tall|Él es muy alto]] [[and strong.|y fuerte.]] [[He has short curly brown hair.|Él tiene el pelo corto, rizado y marrón.]] [[His eyes are big|Sus ojos son grandes]] [[and green.|y verdes.]] [[Today, Mark is wearing|Hoy, Mark lleva puesta]] [[a new blue jacket|una chaqueta azul nueva]] [[and black pants.|y pantalones negros.]] [[He looks very handsome.|Él se ve muy guapo.]]",
       "questions": [
         {
-          "question": "[[How is Mark's hair|Cómo es de Mark pelo]]?",
+          "question": "[[How is Mark's hair?|¿Cómo es el pelo de Mark?]]",
           "options": ["[[Long and straight|Largo y liso]]", "[[Short and curly|Corto y rizado]]", "[[Blonde and wavy|Rubio y ondulado]]"],
           "correctAnswer": 1,
-          "explanation": "[[The text says has brown hair|El texto dice]]: '[[He short curly|Él tiene corto rizado marrón pelo]]'."
+          "explanation": "[[The text says Mark has|El texto dice que Mark tiene]] [[short curly brown hair.|pelo corto, rizado y marrón.]]"
         },
         {
-          "question": "[[What color are his eyes|De qué color son sus ojos]]?",
+          "question": "[[What color are his eyes?|¿De qué color son sus ojos?]]",
           "options": ["[[Blue|Azules]]", "[[Brown|Marrones]]", "[[Green|Verdes]]"],
           "correctAnswer": 2,
-          "explanation": "[[His eyes are big and green|Sus ojos son grandes y verdes]]."
+          "explanation": "[[His eyes are big and green.|Sus ojos son grandes y verdes.]]"
         },
         {
-          "question": "[[What is he wearing today|Qué está él llevando hoy]]?",
+          "question": "[[What is he wearing today?|¿Qué lleva puesto hoy?]]",
           "options": ["[[A red shirt|Una camisa roja]]", "[[A blue jacket|Una chaqueta azul]]", "[[A white coat|Un abrigo blanco]]"],
           "correctAnswer": 1,
-          "explanation": "[[Mark is wearing a new blue jacket|Mark está llevando una nueva azul chaqueta]]."
+          "explanation": "[[Mark is wearing a new blue jacket.|Mark lleva puesta una chaqueta azul nueva.]]"
         }
       ]
     },
@@ -846,29 +846,29 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Our family. There are garden is very beautiful in spring many flowers. The roses are red. The daisies and pink are white. We with yellow centers also have a. The grass big brown wooden bench is always green and soft|Nuestro de la familia jardín es muy hermoso en primavera. Hay son muchas flores. Las rosas son rojas y rosas. Las margaritas son blancas con amarillo centros. Nosotros también tenemos un grande marrón de madera banco. La hierba está siempre verde y suave]].",
+    "transcript": "[[Our family garden|Nuestro jardín familiar]] [[is very beautiful in spring.|es muy hermoso en primavera.]] [[There are many flowers.|Hay muchas flores.]] [[The roses are red and pink.|Las rosas son rojas y rosas.]] [[The daisies are white|Las margaritas son blancas]] [[with yellow centers.|con centros amarillos.]] [[We also have|También tenemos]] [[a big brown wooden bench.|un banco de madera grande y marrón.]] [[The grass is always green|La hierba siempre está verde]] [[and soft.|y suave.]]",
     "content": {
-      "title": "[[Reading Family: The Garden|Lectura: El Familiar Jardín]]",
-      "instructions": "[[Read y answer|Lee and responde]].",
-      "text": "Our family garden is very beautiful in spring. There are many flowers. The roses are red and pink. The daisies are white with yellow centers. We also have a big brown wooden bench. The grass is always green and soft.",
+      "title": "[[The Family Garden|El Jardín Familiar]]",
+      "instructions": "[[Read and answer|Lee y responde]].",
+      "text": "[[Our family garden|Nuestro jardín familiar]] [[is very beautiful in spring.|es muy hermoso en primavera.]] [[There are many flowers.|Hay muchas flores.]] [[The roses are red and pink.|Las rosas son rojas y rosas.]] [[The daisies are white|Las margaritas son blancas]] [[with yellow centers.|con centros amarillos.]] [[We also have|También tenemos]] [[a big brown wooden bench.|un banco de madera grande y marrón.]] [[The grass is always green|La hierba siempre está verde]] [[and soft.|y suave.]]",
       "questions": [
         {
-          "question": "[[What color are the roses|De qué color son las rosas]]?",
+          "question": "[[What color are the roses?|¿De qué color son las rosas?]]",
           "options": ["[[Blue and purple|Azules y moradas]]", "[[Red and pink|Rojas y rosas]]", "[[Yellow and white|Amarillas y blancas]]"],
           "correctAnswer": 1,
-          "explanation": "[[The roses are red and pink|Las rosas son rojas y rosas]]."
+          "explanation": "[[The roses are red and pink.|Las rosas son rojas y rosas.]]"
         },
         {
-          "question": "[[How is the bench|Cómo es el banco]]?",
+          "question": "[[How is the bench?|¿Cómo es el banco?]]",
           "options": ["[[Small and black|Pequeño y negro]]", "[[Big and brown|Grande y marrón]]", "[[Old and grey|Viejo y gris]]"],
           "correctAnswer": 1,
-          "explanation": "[[It is a big brown wooden bench|Él es un grande marrón de madera banco]]."
+          "explanation": "[[It is a big brown wooden bench.|Es un banco de madera grande y marrón.]]"
         },
         {
-          "question": "[[When is the garden very beautiful|Cuándo es el jardín muy hermoso]]?",
+          "question": "[[When is the garden very beautiful?|¿Cuándo es el jardín muy hermoso?]]",
           "options": ["[[In spring|En primavera]]", "[[In winter|En invierno]]", "[[In autumn|En otoño]]"],
           "correctAnswer": 0,
-          "explanation": "[[The garden is beautiful in spring|El jardín es hermoso en primavera]]."
+          "explanation": "[[The garden is beautiful in spring.|El jardín es hermoso en primavera.]]"
         }
       ]
     },
@@ -881,23 +881,23 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[My new. The room is small but cosy walls are light. I blue have a white. On desk and a grey chair the bed is, there a purple. My blanket curtains are yellow. I love and long my room because it is very bright|Mi nueva habitación es pequeña pero acogedora. Las paredes son claro azul. Yo tengo una blanca mesa y una gris silla. En la cama, hay un un morado manta. Mi cortinas son amarillas y largas. Yo amo mi habitación porque esto es muy luminosa]].",
+    "transcript": "[[My new room|Mi habitación nueva]] [[is small but cosy.|es pequeña pero acogedora.]] [[The walls are light blue.|Las paredes son azul claro.]] [[I have a white desk|Tengo un escritorio blanco]] [[and a grey chair.|y una silla gris.]] [[On the bed,|En la cama,]] [[there is a purple blanket.|hay una manta morada.]] [[My curtains are yellow|Mis cortinas son amarillas]] [[and long.|y largas.]] [[I love my room|Amo mi habitación]] [[because it is very bright.|porque es muy luminosa.]]",
     "content": {
-      "title": "[[Reading New: My Room|Lectura: Mi Nueva Habitación]]",
-      "instructions": "[[Read y answer|Lee and responde]].",
-      "text": "My new room is small but cosy. The walls are light blue. I have a white desk and a grey chair. On the bed, there is a purple blanket. My curtains are yellow and long. I love my room because it is very bright.",
+      "title": "[[My New Room|Mi Habitación Nueva]]",
+      "instructions": "[[Read and answer|Lee y responde]].",
+      "text": "[[My new room|Mi habitación nueva]] [[is small but cosy.|es pequeña pero acogedora.]] [[The walls are light blue.|Las paredes son azul claro.]] [[I have a white desk|Tengo un escritorio blanco]] [[and a grey chair.|y una silla gris.]] [[On the bed,|En la cama,]] [[there is a purple blanket.|hay una manta morada.]] [[My curtains are yellow|Mis cortinas son amarillas]] [[and long.|y largas.]] [[I love my room|Amo mi habitación]] [[because it is very bright.|porque es muy luminosa.]]",
       "questions": [
         {
-          "question": "[[What color are the walls|De qué color son las paredes]]?",
+          "question": "[[What color are the walls?|¿De qué color son las paredes?]]",
           "options": ["[[Light blue|Azul claro]]", "[[White|Blanco]]", "[[Purple|Morado]]"],
           "correctAnswer": 0,
-          "explanation": "[[The walls are light blue|Las paredes son claro azul]]."
+          "explanation": "[[The walls are light blue.|Las paredes son azul claro.]]"
         },
         {
-          "question": "[[What color is the blanket|De qué color es la manta]]?",
+          "question": "[[What color is the blanket?|¿De qué color es la manta?]]",
           "options": ["[[Blue|Azul]]", "[[Purple|Morada]]", "[[Yellow|Amarilla]]"],
           "correctAnswer": 1,
-          "explanation": "[[On the bed there is a purple blanket|En la cama hay es una morada manta]]."
+          "explanation": "[[On the bed there is a purple blanket.|En la cama hay una manta morada.]]"
         }
       ]
     },

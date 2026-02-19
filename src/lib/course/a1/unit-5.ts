@@ -923,14 +923,14 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[This is. My a photo of my family father's name is. I David and my mother's name is Maria have one brother, his name is Paul. He is twelve years. We old live in a. My parents small house in Madrid are very. My nice father is a doctor and my mother is an artist|Esta es una foto de mi familia. Mi del padre nombre es David y mi de la madre nombre es Maria. Yo tengo un hermano, su nombre es Paul. Él tiene doce años de edad. Nosotros vivimos en una pequeña casa en Madrid. Mi padres son muy amables. Mi padre es un médico y mi madre es una artista]].",
+    "transcript": "[[This is|Esta es]] [[a photo|una foto]] [[of my family|de mi familia]]. [[My father's name|El nombre de mi padre]] [[is David|es David]] [[and|y]] [[my mother's name|el nombre de mi madre]] [[is Maria|es Maria]]. [[I have|Yo tengo]] [[one brother|un hermano]], [[his name|su nombre]] [[is Paul|es Paul]]. [[He is|Él tiene]] [[twelve years old|doce años]]. [[We live|Nosotros vivimos]] [[in a small house|en una casa pequeña]] [[in Madrid|en Madrid]]. [[My parents|Mis padres]] [[are very nice|son muy amables]]. [[My father|Mi padre]] [[is a doctor|es médico]] [[and|y]] [[my mother|mi madre]] [[is an artist|es artista]].",
     "content": {
-      "title": "[[Reading Family: The Photo|Lectura: La Foto Familiar]]",
+      "title": "[[Reading: The Family Photo|Lectura: La Foto Familiar]]",
       "instructions": "[[Read about the family|Lee sobre la familia]].",
       "questions": [
         {
-          "question": "[[This is. My a photo of my family father's name is. I David and my mother's name is Maria have one brother, his name is Paul. He is twelve years. We old live in a. My parents small house in Madrid are very. My nice father is a doctor and my mother is an artist|Esta es una foto de mi familia. Mi del padre nombre es David y mi de la madre nombre es Maria. Yo tengo un hermano, su nombre es Paul. Él tiene doce años de edad. Nosotros vivimos en una pequeña casa en Madrid. Mi padres son muy amables. Mi padre es un médico y mi madre es una artista]].",
-          "options": ["[[I have read the text|Yo he leído el texto]]."],
+          "question": "[[This is|Esta es]] [[a photo|una foto]] [[of my family|de mi familia]]. [[My father's name|El nombre de mi padre]] [[is David|es David]] [[and|y]] [[my mother's name|el nombre de mi madre]] [[is Maria|es Maria]]. [[I have|Yo tengo]] [[one brother|un hermano]], [[his name|su nombre]] [[is Paul|es Paul]]. [[He is|Él tiene]] [[twelve years old|doce años]]. [[We live|Nosotros vivimos]] [[in a small house|en una casa pequeña]] [[in Madrid|en Madrid]]. [[My parents|Mis padres]] [[are very nice|son muy amables]]. [[My father|Mi padre]] [[is a doctor|es médico]] [[and|y]] [[my mother|mi madre]] [[is an artist|es artista]].",
+          "options": ["[[I have read the text|He leído el texto]]."],
           "correctAnswer": 0,
           "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
@@ -944,16 +944,16 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[What is the father's name|Cuál es el del padre nombre]]?",
+    "transcript": "[[What|Cuál]] [[is|es]] [[the father's name|el nombre del padre]]?",
     "content": {
       "title": "[[Comprehension: Names|Comprensión: Nombres]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[What is the father's name|Cuál es el del padre nombre]]?",
+          "question": "[[What|Cuál]] [[is|es]] [[the father's name|el nombre del padre]]?",
           "options": ["[[Paul|Paul]]", "[[Madrid|Madrid]]", "[[David|David]]"],
           "correctAnswer": 2,
-          "explanation": "[[The text says father's David|El texto dice]]: \"[[My name is|Mi del padre nombre es David]]\"."
+          "explanation": "[[The text says|El texto dice]]: \"[[My father's name is David|El nombre de mi padre es David]]\"."
         }
       ]
     },
@@ -965,16 +965,16 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[How old is Paul|Qué edad tiene tiene Paul]]?",
+    "transcript": "[[How old|Qué edad]] [[is Paul|tiene Paul]]?",
     "content": {
       "title": "[[Comprehension: Age|Comprensión: Edad]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[How old is Paul|Qué edad tiene tiene Paul]]?",
+          "question": "[[How old|Qué edad]] [[is Paul|tiene Paul]]?",
           "options": ["[[Twelve|Doce]]", "[[Ten|Diez]]", "[[Fifteen|Quince]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text mentions is old|El texto menciona]]: \"[[He twelve years|Él tiene doce años de edad]]\"."
+          "explanation": "[[The text mentions|El texto menciona]]: \"[[He is twelve years old|Él tiene doce años]]\"."
         }
       ]
     },
@@ -986,16 +986,16 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[What is Maria's job|Cuál es de Maria trabajo]]?",
+    "transcript": "[[What|Cuál]] [[is Maria's job|es el trabajo de Maria]]?",
     "content": {
       "title": "[[Comprehension: Jobs|Comprensión: Trabajos]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[What is Maria's job|Cuál es de Maria trabajo]]?",
+          "question": "[[What|Cuál]] [[is Maria's job|es el trabajo de Maria]]?",
           "options": ["[[Doctor|Médico]]", "[[Artist|Artista]]", "[[Teacher|Profesora]]"],
           "correctAnswer": 1,
-          "explanation": "[[The text says mother artist is the mother|El texto dice]]: \"[[my is an|mi madre es una artista]]\" ([[Maria es la madre]])."
+          "explanation": "[[The text says|El texto dice]]: \"[[my mother is an artist|mi madre es artista]]\" ([[Maria is the mother|Maria es la madre]])."
         }
       ]
     },
@@ -1009,14 +1009,14 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[The Smith. Mr. family's house is in New York Smith's name is. Mrs. John Smith's name is. They Helen have a son. Their and a daughter son's name is. Toby Toby and their daughter's name is Sarah is eight and. They Sarah is five have a big garden|La Smith de la familia casa está en Nueva York. Sr. de Smith nombre es John. Sra. de Smith nombre es Helen. Ellos tienen un hijo y una hija. Su de su hijo nombre es Toby y su de su hija nombre es Sarah. Toby tiene ocho y Sarah tiene cinco. Ellos tienen un grande jardín]].",
+    "transcript": "[[The Smith family's house|La casa de la familia Smith]] [[is in New York|está en Nueva York]]. [[Mr. Smith's name|El nombre del Sr. Smith]] [[is John|es John]]. [[Mrs. Smith's name|El nombre de la Sra. Smith]] [[is Helen|es Helen]]. [[They have|Ellos tienen]] [[a son|un hijo]] [[and|y]] [[a daughter|una hija]]. [[Their son's name|El nombre de su hijo]] [[is Toby|es Toby]] [[and|y]] [[their daughter's name|el nombre de su hija]] [[is Sarah|es Sarah]]. [[Toby is eight|Toby tiene ocho años]] [[and|y]] [[Sarah is five|Sarah tiene cinco]]. [[They have|Ellos tienen]] [[a big garden|un jardín grande]].",
     "content": {
-      "title": "[[Reading Smith: The Family|Lectura: La Familia Smith]]",
-      "instructions": "[[Read about the Smith family|Lee sobre la Smith familia]].",
+      "title": "[[Reading: The Smith Family|Lectura: La Familia Smith]]",
+      "instructions": "[[Read about the Smith family|Lee sobre la familia Smith]].",
       "questions": [
         {
-          "question": "[[The Smith. Mr. family's house is in New York Smith's name is. Mrs. John Smith's name is. They Helen have a son. Their and a daughter son's name is. Toby Toby and their daughter's name is Sarah is eight and. They Sarah is five have a big garden|La Smith de la familia casa está en Nueva York. Sr. de Smith nombre es John. Sra. de Smith nombre es Helen. Ellos tienen un hijo y una hija. Su de su hijo nombre es Toby y su de su hija nombre es Sarah. Toby tiene ocho y Sarah tiene cinco. Ellos tienen un grande jardín]].",
-          "options": ["[[I have read the text|Yo he leído el texto]]."],
+          "question": "[[The Smith family's house|La casa de la familia Smith]] [[is in New York|está en Nueva York]]. [[Mr. Smith's name|El nombre del Sr. Smith]] [[is John|es John]]. [[Mrs. Smith's name|El nombre de la Sra. Smith]] [[is Helen|es Helen]]. [[They have|Ellos tienen]] [[a son|un hijo]] [[and|y]] [[a daughter|una hija]]. [[Their son's name|El nombre de su hijo]] [[is Toby|es Toby]] [[and|y]] [[their daughter's name|el nombre de su hija]] [[is Sarah|es Sarah]]. [[Toby is eight|Toby tiene ocho años]] [[and|y]] [[Sarah is five|Sarah tiene cinco]]. [[They have|Ellos tienen]] [[a big garden|un jardín grande]].",
+          "options": ["[[I have read the text|He leído el texto]]."],
           "correctAnswer": 0,
           "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
@@ -1030,13 +1030,13 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Where is the house|Dónde está la casa]]?",
+    "transcript": "[[Where|Dónde]] [[is the house|está la casa]]?",
     "content": {
       "title": "[[Comprehension: Location|Comprensión: Ubicación]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[Where is the house|Dónde está la casa]]?",
+          "question": "[[Where|Dónde]] [[is the house|está la casa]]?",
           "options": ["[[London|Londres]]", "[[Paris|París]]", "[[New York|Nueva York]]"],
           "correctAnswer": 2,
           "explanation": "[[The text indicates that the house is in New York|El texto indica que la casa está en Nueva York]]."
@@ -1051,16 +1051,16 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[How many children do John and Helen have|Cuántos muchos hijos tienen John y Helen tener]]?",
+    "transcript": "[[How many|Cuántos]] [[children|hijos]] [[do John and Helen have|tienen John y Helen]]?",
     "content": {
       "title": "[[Comprehension: Children|Comprensión: Hijos]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[How many children do John and Helen have|Cuántos muchos hijos tienen John y Helen tener]]?",
+          "question": "[[How many|Cuántos]] [[children|hijos]] [[do John and Helen have|tienen John y Helen]]?",
           "options": ["[[Two|Dos]]", "[[One|Uno]]", "[[Three|Tres]]"],
           "correctAnswer": 0,
-          "explanation": "[[They have a son|Ellos tienen un hijo]] ([[Toby a daughter|Toby]]) [[and|y una hija]] ([[Sarah|Sarah]])."
+          "explanation": "[[They have|Ellos tienen]] [[a son|un hijo]] ([[Toby|Toby]]) [[and|y]] [[a daughter|una hija]] ([[Sarah|Sarah]])."
         }
       ]
     },
@@ -1072,16 +1072,16 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Who is the youngest child|Quién es la más joven hija]]?",
+    "transcript": "[[Who|Quién]] [[is the youngest child|es el hijo más joven]]?",
     "content": {
       "title": "[[Comprehension: Family|Comprensión: Familia]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[Who is the youngest child|Quién es la más joven hija]]?",
+          "question": "[[Who|Quién]] [[is the youngest child|es el hijo más joven]]?",
           "options": ["[[Toby|Toby]]", "[[Helen|Helen]]", "[[Sarah|Sarah]]"],
           "correctAnswer": 2,
-          "explanation": "[[Sarah is, so five and Toby is eight Sarah is the youngest|Sarah tiene cinco y Toby tiene ocho, así que Sarah es la más joven]]."
+          "explanation": "[[Sarah is five|Sarah tiene cinco años]] [[and Toby is eight|y Toby tiene ocho]], [[so Sarah is the youngest|así que Sarah es la más joven]]."
         }
       ]
     },
@@ -1095,14 +1095,14 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[My name. My brother's is Laura name is. Mike's Mike wife is called. They Linda have a daughter, her name is Sophie. Sophie is my niece. I love my family very much|Mi nombre es Laura. Mi de mi hermano nombre es Mike. de Mike esposa es llamada Linda. Ellos tienen una hija, su nombre es Sophie. Sophie es mi sobrina. Yo amo mi familia mucho mucho]].",
+    "transcript": "[[My name|Mi nombre]] [[is Laura|es Laura]]. [[My brother's name|El nombre de mi hermano]] [[is Mike|es Mike]]. [[Mike's wife|La esposa de Mike]] [[is called Linda|se llama Linda]]. [[They have|Ellos tienen]] [[a daughter|una hija]], [[her name|su nombre]] [[is Sophie|es Sophie]]. [[Sophie is|Sophie es]] [[my niece|mi sobrina]]. [[I love|Yo amo]] [[my family|a mi familia]] [[very much|mucho]].",
     "content": {
-      "title": "[[Reading Brother: Laura's|Lectura: de Laura Hermano]]",
-      "instructions": "[[Read about Laura's family|Lee sobre de Laura familia]].",
+      "title": "[[Reading: Laura's Brother|Lectura: El Hermano de Laura]]",
+      "instructions": "[[Read about Laura's family|Lee sobre la familia de Laura]].",
       "questions": [
         {
-          "question": "[[My name. My brother's is Laura name is. Mike's Mike wife is called. They Linda have a daughter, her name is Sophie. Sophie is my niece. I love my family very much|Mi nombre es Laura. Mi de mi hermano nombre es Mike. de Mike esposa es llamada Linda. Ellos tienen una hija, su nombre es Sophie. Sophie es mi sobrina. Yo amo mi familia mucho mucho]].",
-          "options": ["[[I have read the text|Yo he leído el texto]]."],
+          "question": "[[My name|Mi nombre]] [[is Laura|es Laura]]. [[My brother's name|El nombre de mi hermano]] [[is Mike|es Mike]]. [[Mike's wife|La esposa de Mike]] [[is called Linda|se llama Linda]]. [[They have|Ellos tienen]] [[a daughter|una hija]], [[her name|su nombre]] [[is Sophie|es Sophie]]. [[Sophie is|Sophie es]] [[my niece|mi sobrina]]. [[I love|Yo amo]] [[my family|a mi familia]] [[very much|mucho]].",
+          "options": ["[[I have read the text|He leído el texto]]."],
           "correctAnswer": 0,
           "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
@@ -1116,16 +1116,16 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[What is the relationship between Laura and Sophie|Qué es la relación entre Laura y Sophie]]?",
+    "transcript": "[[What|Cuál]] [[is the relationship|es la relación]] [[between Laura and Sophie|entre Laura y Sophie]]?",
     "content": {
       "title": "[[Comprehension: Relationship|Comprensión: Relación]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
       "questions": [
         {
-          "question": "[[What is the relationship between Laura and Sophie|Qué es la relación entre Laura y Sophie]]?",
-          "options": ["[[Sophie is Laura's daughter|Es su hija]]", "[[Sophie is Laura's niece|Es su sobrina]]", "[[Sophie is Laura's sister|Es su hermana]]"],
+          "question": "[[What|Cuál]] [[is the relationship|es la relación]] [[between Laura and Sophie|entre Laura y Sophie]]?",
+          "options": ["[[Sophie is Laura's daughter|Es la hija de Laura]]", "[[Sophie is Laura's niece|Es la sobrina de Laura]]", "[[Sophie is Laura's sister|Es la hermana de Laura]]"],
           "correctAnswer": 1,
-          "explanation": "[[The text says is|El texto dice]]: \"[[Sophie my niece|Sophie es mi sobrina]]\"."
+          "explanation": "[[The text says|El texto dice]]: \"[[Sophie is my niece|Sophie es mi sobrina]]\"."
         }
       ]
     },

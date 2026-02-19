@@ -896,11 +896,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Hello name! My is Peter. I want to tell. My father's you about my family name is. He Robert is 55 years. My mother's old and he is an engineer name is. She Sarah is 52 and. I have she is a nurse two sisters, Anna and Mary is. Anna 20 and. They Mary is 18 are students have. We a dog. Its name is Rex. We are a very happy family|Hola! Mi nombre es Peter. Yo quiero a decir te sobre mi familia. Mi del padre nombre es Robert. Él tiene 55 años de edad y él es un ingeniero. Mi de la madre nombre es Sarah. Ella tiene 52 y ella es una enfermera. Yo tengo dos hermanas, Anna y Mary. Anna tiene 20 y Mary tiene 18. Ellas son estudiantes. Nosotros tenemos un perro. Su nombre es Rex. Nosotros somos una muy feliz familia]].",
+    "transcript": "[[Hello!|¡Hola!]] [[My name is Peter.|Mi nombre es Peter.]] [[I want to tell you|Quiero contarte]] [[about my family.|sobre mi familia.]] [[My father's name|El nombre de mi padre]] [[is Robert.|es Robert.]] [[He is 55 years old|Él tiene 55 años]] [[and he is an engineer.|y es ingeniero.]] [[My mother's name|El nombre de mi madre]] [[is Sarah.|es Sarah.]] [[She is 52|Ella tiene 52]] [[and she is a nurse.|y es enfermera.]] [[I have two sisters,|Tengo dos hermanas,]] [[Anna and Mary.|Anna y Mary.]] [[Anna is 20|Anna tiene 20]] [[and Mary is 18.|y Mary tiene 18.]] [[They are students.|Ellas son estudiantes.]] [[We have a dog.|Tenemos un perro.]] [[Its name is Rex.|Su nombre es Rex.]] [[We are|Somos]] [[a very happy family.|una familia muy feliz.]]",
     "content": {
-      "title": "[[Reading Family: Peter's|Lectura: de Peter Familia]]",
+      "title": "[[Reading: Peter's Family|Lectura: La Familia de Peter]]",
       "instructions": "[[Read the text carefully|Lee el texto atentamente]].",
-      "text": "[[Hello name! My is Peter. I want to tell. My father's you about my family name is. He Robert is 55 years. My mother's old and he is an engineer name is. She Sarah is 52 and. I have she is a nurse two sisters, Anna and Mary is. Anna 20 and. They Mary is 18 are students have. We a dog. Its name is Rex. We are a very happy family|Hola! Mi nombre es Peter. Yo quiero a decir te sobre mi familia. Mi del padre nombre es Robert. Él tiene 55 años de edad y él es un ingeniero. Mi de la madre nombre es Sarah. Ella tiene 52 y ella es una enfermera. Yo tengo dos hermanas, Anna y Mary. Anna tiene 20 y Mary tiene 18. Ellas son estudiantes. Nosotros tenemos un perro. Su nombre es Rex. Nosotros somos una muy feliz familia]].",
+      "text": "[[Hello!|¡Hola!]] [[My name is Peter.|Mi nombre es Peter.]] [[I want to tell you|Quiero contarte]] [[about my family.|sobre mi familia.]] [[My father's name|El nombre de mi padre]] [[is Robert.|es Robert.]] [[He is 55 years old|Él tiene 55 años]] [[and he is an engineer.|y es ingeniero.]] [[My mother's name|El nombre de mi madre]] [[is Sarah.|es Sarah.]] [[She is 52|Ella tiene 52]] [[and she is a nurse.|y es enfermera.]] [[I have two sisters,|Tengo dos hermanas,]] [[Anna and Mary.|Anna y Mary.]] [[Anna is 20|Anna tiene 20]] [[and Mary is 18.|y Mary tiene 18.]] [[They are students.|Ellas son estudiantes.]] [[We have a dog.|Tenemos un perro.]] [[Its name is Rex.|Su nombre es Rex.]] [[We are|Somos]] [[a very happy family.|una familia muy feliz.]]",
       "questions": []
     },
     "audioUrl": "audio/a1/unit-6/e51.mp3",
@@ -912,13 +912,13 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[How many sisters does Peter have|Cuántas muchas hermanas tiene Peter tener]]?",
+    "transcript": "[[How many sisters|Cuántas hermanas]] [[does Peter have?|tiene Peter?]]",
     "content": {
-      "title": "[[Question|Pregunta]] 1",
-      "instructions": "[[Answer according to the text|Responde según a el texto]].",
+      "title": "[[Question 1|Pregunta 1]]",
+      "instructions": "[[Answer according to the text|Responde según el texto]].",
       "options": ["[[One|Una]]", "[[Three|Tres]]", "[[Two|Dos]]"],
       "correctAnswer": 2,
-      "explanation": "Peter dice: 'I have two sisters, Anna and Mary'."
+      "explanation": "[[Peter says:|Peter dice:]] '[[I have two sisters, Anna and Mary|Tengo dos hermanas, Anna y Mary]]'."
     },
     "audioUrl": "audio/a1/unit-6/e52.mp3",
     "topicName": "Reading"
@@ -929,13 +929,13 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[What is Robert's job|Cuál es de Robert trabajo]]?",
+    "transcript": "[[What is Robert's job?|¿Cuál es el trabajo de Robert?]]",
     "content": {
-      "title": "[[Question|Pregunta]] 2",
-      "instructions": "[[Answer according to the text|Responde según a el texto]].",
+      "title": "[[Question 2|Pregunta 2]]",
+      "instructions": "[[Answer according to the text|Responde según el texto]].",
       "options": ["[[Engineer|Ingeniero]]", "[[Doctor|Médico]]", "[[Teacher|Profesor]]"],
       "correctAnswer": 0,
-      "explanation": "El texto menciona: 'he is an engineer'."
+      "explanation": "[[The text mentions:|El texto menciona:]] '[[he is an engineer|él es ingeniero]]'."
     },
     "audioUrl": "audio/a1/unit-6/e53.mp3",
     "topicName": "Reading"
@@ -946,13 +946,13 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[What is the dog's name|Cómo se llama el del perro nombre]]?",
+    "transcript": "[[What is the dog's name?|¿Cuál es el nombre del perro?]]",
     "content": {
-      "title": "[[Question|Pregunta]] 3",
-      "instructions": "[[Answer according to the text|Responde según a el texto]].",
+      "title": "[[Question 3|Pregunta 3]]",
+      "instructions": "[[Answer according to the text|Responde según el texto]].",
       "options": ["[[Max|Max]]", "[[Felix|Felix]]", "[[Rex|Rex]]"],
       "correctAnswer": 2,
-      "explanation": "El perro se llama Rex."
+      "explanation": "[[The dog's name is Rex.|El nombre del perro es Rex.]]"
     },
     "audioUrl": "audio/a1/unit-6/e54.mp3",
     "topicName": "Reading"
@@ -965,11 +965,11 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Hi Linda, I'm is quite. My family. I big live with my, my, is. My and he parents two brothers my, and grandmother parents. My are both. My teachers at a local school older brother 25, Sam is a chef younger, is. My brother 15, Tom and he is a student grandmother, Alice 80, is years old. She is very active. We and loves gardening live in a large house with a beautiful garden|Hola, yo soy Linda. Mi familia es bastante grande. Yo vivo con mis padres, mis dos hermanos, y mi abuela. Mis padres son ambos profesores en una local escuela. Mi mayor hermano, Sam, tiene 25 y él es un cocinero. Mi menor hermano, Tom, tiene 15 y él es un estudiante. Mi abuela, Alice, tiene 80 años de edad. Ella es muy activa y ama la jardinería. Nosotros vivimos en una grande casa con un hermoso jardín]].",
+    "transcript": "[[Hi,|Hola,]] [[I'm Linda.|soy Linda.]] [[My family is quite big.|Mi familia es bastante grande.]] [[I live with my parents,|Vivo con mis padres,]] [[my two brothers,|mis dos hermanos,]] [[and my grandmother.|y mi abuela.]] [[My parents are both teachers|Mis padres son ambos profesores]] [[at a local school.|en una escuela local.]] [[My older brother, Sam,|Mi hermano mayor, Sam,]] [[is 25|tiene 25 años]] [[and he is a chef.|y es cocinero.]] [[My younger brother, Tom,|Mi hermano menor, Tom,]] [[is 15|tiene 15]] [[and he is a student.|y es estudiante.]] [[My grandmother, Alice,|Mi abuela, Alice,]] [[is 80 years old.|tiene 80 años.]] [[She is very active|Ella es muy activa]] [[and loves gardening.|y ama la jardinería.]] [[We live in a large house|Vivimos en una casa grande]] [[with a beautiful garden.|con un jardín hermoso.]]",
     "content": {
-      "title": "[[Reading Family: Linda's|Lectura: de Linda Familia]]",
-      "instructions": "[[Read about Linda's family|Lee sobre de Linda familia]].",
-      "text": "[[Hi Linda, I'm is quite. My family. I big live with my, my, is. My and he parents two brothers my, and grandmother parents. My are both. My teachers at a local school older brother 25, Sam is a chef younger, is. My brother 15, Tom and he is a student grandmother, Alice 80, is years old. She is very active. We and loves gardening live in a large house with a beautiful garden|Hola, yo soy Linda. Mi familia es bastante grande. Yo vivo con mis padres, mis dos hermanos, y mi abuela. Mis padres son ambos profesores en una local escuela. Mi mayor hermano, Sam, tiene 25 y él es un cocinero. Mi menor hermano, Tom, tiene 15 y él es un estudiante. Mi abuela, Alice, tiene 80 años de edad. Ella es muy activa y ama la jardinería. Nosotros vivimos en una grande casa con un hermoso jardín]].",
+      "title": "[[Reading: Linda's Family|Lectura: La Familia de Linda]]",
+      "instructions": "[[Read about Linda's family|Lee sobre la familia de Linda]].",
+      "text": "[[Hi,|Hola,]] [[I'm Linda.|soy Linda.]] [[My family is quite big.|Mi familia es bastante grande.]] [[I live with my parents,|Vivo con mis padres,]] [[my two brothers,|mis dos hermanos,]] [[and my grandmother.|y mi abuela.]] [[My parents are both teachers|Mis padres son ambos profesores]] [[at a local school.|en una escuela local.]] [[My older brother, Sam,|Mi hermano mayor, Sam,]] [[is 25|tiene 25 años]] [[and he is a chef.|y es cocinero.]] [[My younger brother, Tom,|Mi hermano menor, Tom,]] [[is 15|tiene 15]] [[and he is a student.|y es estudiante.]] [[My grandmother, Alice,|Mi abuela, Alice,]] [[is 80 years old.|tiene 80 años.]] [[She is very active|Ella es muy activa]] [[and loves gardening.|y ama la jardinería.]] [[We live in a large house|Vivimos en una casa grande]] [[with a beautiful garden.|con un jardín hermoso.]]",
       "questions": []
     },
     "audioUrl": "audio/a1/unit-6/e55.mp3",
@@ -981,13 +981,13 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Who does Linda live with|Con quién vive Linda vivir con]]?",
+    "transcript": "[[Who does Linda live with?|¿Con quién vive Linda?]]",
     "content": {
-      "title": "[[Question|Pregunta]] 1",
-      "instructions": "[[Select the correct answer|Selecciona la correcta respuesta]].",
+      "title": "[[Question 1|Pregunta 1]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
       "options": ["[[With her parents and brothers|Con sus padres y hermanos]]", "[[With her parents, brothers and grandmother|Con sus padres, hermanos y abuela]]", "[[With her friends|Con sus amigos]]"],
       "correctAnswer": 1,
-      "explanation": "Linda menciona que vive con sus padres, dos hermanos y su abuela."
+      "explanation": "[[Linda mentions that she lives|Linda menciona que vive]] [[with her parents, two brothers and her grandmother.|con sus padres, dos hermanos y su abuela.]]"
     },
     "audioUrl": "audio/a1/unit-6/e56.mp3",
     "topicName": "Reading"
@@ -998,13 +998,13 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[What is Sam's job|Cuál es el trabajo de Sam trabajo]]?",
+    "transcript": "[[What is Sam's job?|¿Cuál es el trabajo de Sam?]]",
     "content": {
-      "title": "[[Question|Pregunta]] 2",
-      "instructions": "[[Select the correct answer|Selecciona la correcta respuesta]].",
+      "title": "[[Question 2|Pregunta 2]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
       "options": ["[[He is a teacher|Es profesor]]", "[[He is a student|Es estudiante]]", "[[He is a chef|Es cocinero]]"],
       "correctAnswer": 2,
-      "explanation": "El texto dice que Sam es chef."
+      "explanation": "[[The text says that Sam is a chef.|El texto dice que Sam es cocinero.]]"
     },
     "audioUrl": "audio/a1/unit-6/e57.mp3",
     "topicName": "Reading"
@@ -1015,13 +1015,13 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[How old is Alice|Qué edad tiene tiene Alice]]?",
+    "transcript": "[[How old is Alice?|¿Qué edad tiene Alice?]]",
     "content": {
-      "title": "[[Question|Pregunta]] 3",
-      "instructions": "[[Select the correct answer|Selecciona la correcta respuesta]].",
+      "title": "[[Question 3|Pregunta 3]]",
+      "instructions": "[[Select the correct answer|Selecciona la respuesta correcta]].",
       "options": ["[[Eighty|Ochenta]]", "[[Seventy|Setenta]]", "[[Sixty|Sesenta]]"],
       "correctAnswer": 0,
-      "explanation": "El texto indica que Alice tiene 80 años."
+      "explanation": "[[The text indicates that Alice is 80 years old.|El texto indica que Alice tiene 80 años.]]"
     },
     "audioUrl": "audio/a1/unit-6/e58.mp3",
     "topicName": "Reading"

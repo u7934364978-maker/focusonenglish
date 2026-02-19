@@ -398,10 +398,10 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta.",
       "questions": [
         {
-          "question": "[[We have a big|Nosotros tenemos una grande]] _______ [[at 8 PM|a las 8 PM]].",
-          "options": ["[[dinner|cena]]", "[[breakfast|desayuno]]", "[[lunch|almuerzo]]"],
+          "question": "[[We have a big|Nosotros tomamos una gran]] _______ [[at 8 PM|a las 8 PM]].",
+          "options": ["[[dinner|cena]]", "[[snack|merienda]]", "[[juice|zumo]]"],
           "correctAnswer": 0,
-          "explanation": "La comida de la noche es 'dinner'."
+          "explanation": "La cena (dinner) es la comida principal de la noche."
         }
       ]
     },
@@ -410,81 +410,76 @@ export const UNIT_17_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u17-e23",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Dinner",
-    "difficulty": "easy",
-    "transcript": "I like my steak well-done.",
-    "content": {
-      "title": "Punto de la carne",
-      "instructions": "Completa la oración.",
-      "questions": [
-        {
-          "question": "[[I like my|Yo quiero/me gusta mi]] _______ [[well-done|muy hecho]].",
-          "options": ["[[steak|filete]]", "[[milk|leche]]", "[[juice|zumo]]"],
-          "correctAnswer": 0,
-          "explanation": "'Steak' es filete, y 'well-done' es una forma de pedirlo cocinado."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-17/e23.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u17-e24",
     "type": "sentence-building",
     "level": "A1",
     "topic": "Dinner",
     "difficulty": "medium",
-    "transcript": "Do you want some dessert after dinner?",
+    "transcript": "I don't eat meat for dinner.",
     "content": {
-      "title": "¿Quieres postre?",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Do you want some dessert after dinner|¿ tú quieres algo de postre después de la cena]]?",
-      "words": ["[[Do|¿]]", "[[you|tú]]", "[[want|quieres]]", "[[some|algo de]]", "[[dessert|postre]]", "[[after|después de]]", "[[dinner|la cena]]?"],
-      "explanation": "Uso de 'dessert' (postre) después de la cena."
+      "title": "Preferencias de cena",
+      "instructions": "Ordena la oración negativa.",
+      "correctSentence": "[[I don't eat meat for dinner|Yo no como carne para la cena]].",
+      "words": ["[[I|Yo]]", "[[don't|no]]", "[[eat|como]]", "[[meat|carne]]", "[[for|para]]", "[[dinner|la cena]]."],
+      "explanation": "Negación en Presente Simple."
+    },
+    "audioUrl": "audio/a1/unit-17/e23.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u17-e24",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Dinner",
+    "difficulty": "easy",
+    "transcript": "Soup is good for cold nights.",
+    "content": {
+      "title": "Sopa caliente",
+      "instructions": "Completa la oración.",
+      "questions": [
+        {
+          "question": "_______ [[is good for cold nights|es buena para noches frías]].",
+          "options": ["[[Soup|Sopa]]", "[[Ice cream|Helado]]", "[[Water|Agua]]"],
+          "correctAnswer": 0,
+          "explanation": "La sopa (soup) es ideal para el frío."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-17/e24.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u17-e25",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "Dinner",
-    "difficulty": "easy",
-    "transcript": "Salmon is a type of fish.",
+    "difficulty": "medium",
+    "transcript": "Do they want chicken or fish?",
     "content": {
-      "title": "Tipos de comida",
-      "instructions": "Elige la categoría correcta.",
-      "questions": [
-        {
-          "question": "[[Salmon is a type of|El salmón es un tipo de]] _______.",
-          "options": ["[[fish|pescado]]", "[[meat|carne]]", "[[fruit|fruta]]"],
-          "correctAnswer": 0,
-          "explanation": "El salmón es un pez/pescado (fish)."
-        }
-      ]
+      "title": "Elección de cena",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Do they want chicken or fish|¿ ellos quieren pollo o pescado]]?",
+      "words": ["[[Do|¿]]", "[[they|ellos]]", "[[want|quieren]]", "[[chicken|pollo]]", "[[or|o]]", "[[fish|pescado]]?"],
+      "explanation": "Pregunta de elección con 'or'."
     },
     "audioUrl": "audio/a1/unit-17/e25.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u17-e27",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Utensils",
+    "topic": "Kitchen Utensils",
     "difficulty": "easy",
-    "transcript": "I use a knife to cut meat.",
+    "transcript": "I use a knife to cut the meat.",
     "content": {
-      "title": "Cortar la carne",
-      "instructions": "Elige el utensilio correcto.",
+      "title": "Cuchillos",
+      "instructions": "Elige la herramienta correcta.",
       "questions": [
         {
-          "question": "[[I use a cut|Yo uso un]] _______ [[to meat|para cortar carne]].",
+          "question": "[[I use a|Yo uso un]] _______ [[to cut the meat|para cortar la carne]].",
           "options": ["[[knife|cuchillo]]", "[[spoon|cuchara]]", "[[fork|tenedor]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos un cuchillo (knife) para cortar."
+          "explanation": "Se usa un cuchillo (knife) para cortar."
         }
       ]
     },
@@ -493,61 +488,56 @@ export const UNIT_17_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u17-e28",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Utensils",
-    "difficulty": "easy",
-    "transcript": "I drink water from a glass.",
+    "topic": "Kitchen Utensils",
+    "difficulty": "medium",
+    "transcript": "Pass me the spoon, please.",
     "content": {
-      "title": "Beber agua",
-      "instructions": "Completa la oración.",
-      "questions": [
-        {
-          "question": "[[I drink water from a|Yo bebo agua de un]] _______.",
-          "options": ["[[glass|vaso]]", "[[plate|plato]]", "[[fork|tenedor]]"],
-          "correctAnswer": 0,
-          "explanation": "Bebemos agua en un vaso (glass)."
-        }
-      ]
+      "title": "Petición",
+      "instructions": "Ordena la oración imperativa.",
+      "correctSentence": "[[Pass me the spoon, please|Pásame la cuchara, por favor]].",
+      "words": ["[[Pass|Pásame]]", "[[me|la]]", "[[the|]]", "[[spoon|cuchara]],", "[[please|por favor]]."],
+      "explanation": "Uso de imperativos para peticiones."
     },
     "audioUrl": "audio/a1/unit-17/e28.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u17-e29",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Utensils",
-    "difficulty": "medium",
-    "transcript": "The fork is on the left of the plate.",
+    "topic": "Kitchen Utensils",
+    "difficulty": "easy",
+    "transcript": "We eat soup from a bowl.",
     "content": {
-      "title": "Posición en la mesa",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[The fork is on the left of the plate|El tenedor está a la izquierda del el plato]].",
-      "words": ["[[The|El]]", "[[fork|tenedor]]", "[[is|está]]", "[[on|a]]", "[[the|la]]", "[[left|izquierda]]", "[[of|del]]", "[[the|el]]", "[[plate|plato]]."],
-      "explanation": "Práctica de preposiciones de lugar con utensilios."
+      "title": "Cuencos",
+      "instructions": "Elige el recipiente correcto.",
+      "questions": [
+        {
+          "question": "[[We eat soup from a|Comemos sopa de un]] _______.",
+          "options": ["[[bowl|cuenco/bol]]", "[[plate|plato]]", "[[cup|taza]]"],
+          "correctAnswer": 0,
+          "explanation": "La sopa se suele comer en un cuenco (bowl)."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-17/e29.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u17-e30",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Utensils",
-    "difficulty": "easy",
-    "transcript": "Eat your soup with a spoon.",
+    "topic": "Kitchen Utensils",
+    "difficulty": "medium",
+    "transcript": "The forks and knives are on the table.",
     "content": {
-      "title": "Comer sopa",
-      "instructions": "Elige el utensilio correcto.",
-      "questions": [
-        {
-          "question": "[[Eat your soup with a|Come tu sopa con una]] _______.",
-          "options": ["[[spoon|cuchara]]", "[[knife|cuchillo]]", "[[glass|vaso]]"],
-          "correctAnswer": 0,
-          "explanation": "La sopa se come con cuchara (spoon)."
-        }
-      ]
+      "title": "Mesa puesta",
+      "instructions": "Ordena las palabras.",
+      "correctSentence": "[[The forks and knives are on the table|Los tenedores y cuchillos están en la mesa]].",
+      "words": ["[[The|Los]]", "[[forks|tenedores]]", "[[and|y]]", "[[knives|cuchillos]]", "[[are|están]]", "[[on|en]]", "[[the|la]]", "[[table|mesa]]."],
+      "explanation": "Uso del plural y preposiciones de lugar."
     },
     "audioUrl": "audio/a1/unit-17/e30.mp3",
     "topicName": "Vocabulary"
@@ -556,37 +546,37 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "id": "a1-u17-e32",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Kitchen Actions",
-    "difficulty": "medium",
-    "transcript": "Can you help me set the table?",
+    "topic": "Cooking Verbs",
+    "difficulty": "easy",
+    "transcript": "Can you slice the bread?",
     "content": {
-      "title": "Ayuda en casa",
-      "instructions": "Elige la expresión correcta.",
+      "title": "Cortar pan",
+      "instructions": "Elige el verbo de cocina correcto.",
       "questions": [
         {
-          "question": "[[Can you help me|¿Puedes tú ayudarme ayudarme]] _______ [[the table|la mesa]]?",
-          "options": ["[[set|poner]]", "[[make|hacer]]", "[[cook|cocinar]]"],
+          "question": "[[Can you|¿Puedes tú]] _______ [[the bread|el pan]]?",
+          "options": ["[[slice|rebanar/cortar en rodajas]]", "[[boil|hervir]]", "[[fry|freír]]"],
           "correctAnswer": 0,
-          "explanation": "'Set the table' es la expresión para poner la mesa."
+          "explanation": "El pan se corta en rebanadas (slice)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-17/e32.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u17-e33",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Kitchen Actions",
+    "topic": "Cooking Verbs",
     "difficulty": "medium",
-    "transcript": "I wash the dishes after dinner.",
+    "transcript": "Boil the water for the tea.",
     "content": {
-      "title": "Después de cenar",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I wash the dishes after dinner|Yo lavo los platos después de la cena]].",
-      "words": ["[[I|Yo]]", "[[wash|lavo]]", "[[the|los]]", "[[dishes|platos]]", "[[after|después de]]", "[[dinner|la cena]]."],
-      "explanation": "Acción habitual después de comer."
+      "title": "Instrucciones de cocina",
+      "instructions": "Ordena la instrucción.",
+      "correctSentence": "[[Boil the water for the tea|Hierve el agua para el té]].",
+      "words": ["[[Boil|Hierve]]", "[[the|el]]", "[[water|agua]]", "[[for|para]]", "[[the|el]]", "[[tea|té]]."],
+      "explanation": "Uso del imperativo para dar instrucciones."
     },
     "audioUrl": "audio/a1/unit-17/e33.mp3",
     "topicName": "Grammar"
@@ -595,37 +585,37 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "id": "a1-u17-e34",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Kitchen Actions",
-    "difficulty": "medium",
-    "transcript": "We bake a cake for her birthday.",
+    "topic": "Cooking Verbs",
+    "difficulty": "easy",
+    "transcript": "I like to fry eggs for breakfast.",
     "content": {
-      "title": "Hornear un pastel",
-      "instructions": "Completa con el verbo adecuado.",
+      "title": "Huevos fritos",
+      "instructions": "Completa con el verbo correcto.",
       "questions": [
         {
-          "question": "[[We cake for her birthday|Nosotros]] _______ [[a|un pastel para su cumpleaños]].",
-          "options": ["[[bake|horneamos]]", "[[boil|hervimos]]", "[[fry|freímos]]"],
+          "question": "[[I like to|Me gusta]] _______ [[eggs for breakfast|huevos para el desayuno]].",
+          "options": ["[[fry|freír]]", "[[wash|lavar]]", "[[drink|beber]]"],
           "correctAnswer": 0,
-          "explanation": "Los pasteles se hornean (bake)."
+          "explanation": "Los huevos se suelen freír (fry)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-17/e34.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u17-e35",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Kitchen Actions",
+    "topic": "Cooking Verbs",
     "difficulty": "medium",
-    "transcript": "Boil some water for the tea.",
+    "transcript": "Wash the vegetables before cooking.",
     "content": {
-      "title": "Hacer té",
-      "instructions": "Ordena la instrucción.",
-      "correctSentence": "[[Boil some water for the tea|Hierve algo de agua para el té]].",
-      "words": ["[[Boil|Hierve]]", "[[some|algo de]]", "[[water|agua]]", "[[for|para]]", "[[the|el]]", "[[tea|té]]."],
-      "explanation": "Uso del imperativo para dar instrucciones."
+      "title": "Limpieza",
+      "instructions": "Ordena las palabras.",
+      "correctSentence": "[[Wash the vegetables before cooking|Lava las verduras antes de cocinar]].",
+      "words": ["[[Wash|Lava]]", "[[the|las]]", "[[vegetables|verduras]]", "[[before|antes de]]", "[[cooking|cocinar]]."],
+      "explanation": "Importancia de la higiene en la cocina."
     },
     "audioUrl": "audio/a1/unit-17/e35.mp3",
     "topicName": "Grammar"
@@ -634,18 +624,18 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "id": "a1-u17-e37",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Food Descriptions",
+    "topic": "Household Chores",
     "difficulty": "easy",
-    "transcript": "I like sweet food like cake.",
+    "transcript": "I wash the dishes after dinner.",
     "content": {
-      "title": "Comida dulce",
-      "instructions": "Elige el adjetivo correcto.",
+      "title": "Lavar los platos",
+      "instructions": "Elige la opción correcta.",
       "questions": [
         {
-          "question": "[[I like cake|Yo me gusta]] _______ [[food like|comida como pastel]].",
-          "options": ["[[sweet|dulce]]", "[[salty|salada]]", "[[spicy|picante]]"],
+          "question": "[[I wash the after dinner|Yo lavo los]] _______ [[después de la cena]].",
+          "options": ["[[dishes|platos]]", "[[books|libros]]", "[[cars|coches]]"],
           "correctAnswer": 0,
-          "explanation": "El pastel es dulce (sweet)."
+          "explanation": "Después de comer, se lavan los platos (dishes)."
         }
       ]
     },
@@ -656,35 +646,35 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "id": "a1-u17-e38",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Food Descriptions",
+    "topic": "Household Chores",
     "difficulty": "medium",
-    "transcript": "This soup is very hot.",
+    "transcript": "He sets the table for his family.",
     "content": {
-      "title": "Sopa caliente",
+      "title": "Poner la mesa",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[This soup is very hot|Esta sopa está muy caliente]].",
-      "words": ["[[This|Esta]]", "[[soup|sopa]]", "[[is|está]]", "[[very|muy]]", "[[hot|caliente]]."],
-      "explanation": "Uso de 'very' para enfatizar un adjetivo."
+      "correctSentence": "[[He sets the table for his family|Él pone la mesa para su familia]].",
+      "words": ["[[He|Él]]", "[[sets|pone]]", "[[the|la]]", "[[table|mesa]]", "[[for|para]]", "[[his|su]]", "[[family|familia]]."],
+      "explanation": "Estructura de Presente Simple."
     },
     "audioUrl": "audio/a1/unit-17/e38.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u17-e39",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Food Descriptions",
+    "topic": "Household Chores",
     "difficulty": "easy",
-    "transcript": "Fruit and vegetables are healthy.",
+    "transcript": "Can you help me in the kitchen?",
     "content": {
-      "title": "Comida sana",
-      "instructions": "Elige el adjetivo correcto.",
+      "title": "Ayuda en la cocina",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[Fruit and vegetables are|La fruta y las verduras son]] _______.",
-          "options": ["[[healthy|saludables]]", "[[salty|saladas]]", "[[cold|frías]]"],
+          "question": "[[Can you help me the|¿Puedes tú ayudarme en la]] _______?",
+          "options": ["[[kitchen|cocina]]", "[[garden|jardín]]", "[[park|parque]]"],
           "correctAnswer": 0,
-          "explanation": "Frutas y verduras son saludables (healthy)."
+          "explanation": "La cocina (kitchen) es el lugar donde se prepara la comida."
         }
       ]
     },
@@ -695,74 +685,74 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "id": "a1-u17-e40",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Food Descriptions",
+    "topic": "Household Chores",
     "difficulty": "medium",
-    "transcript": "The dinner is delicious, thank you!",
+    "transcript": "We always clean the kitchen together.",
     "content": {
-      "title": "Agradecimiento",
-      "instructions": "Ordena la frase.",
-      "correctSentence": "[[The dinner, thank you is delicious|La cena está deliciosa, gracias a ti]]!",
-      "words": ["[[The|La]]", "[[dinner|cena]]", "[[is|está]]", "[[delicious|deliciosa]],", "[[thank|gracias]]", "[[you|a ti]]!"],
-      "explanation": "Expresión de cortesía tras una comida."
+      "title": "Limpiar juntos",
+      "instructions": "Ordena las palabras.",
+      "correctSentence": "[[We always clean the kitchen together|Nosotros siempre limpiamos la cocina juntos]].",
+      "words": ["[[We|Nosotros]]", "[[always|siempre]]", "[[clean|limpiamos]]", "[[the|la]]", "[[kitchen|cocina]]", "[[together|juntos]]."],
+      "explanation": "Uso de adverbios de frecuencia y adjetivos."
     },
     "audioUrl": "audio/a1/unit-17/e40.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u17-e42",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Drinks",
+    "topic": "Describing Food",
     "difficulty": "easy",
-    "transcript": "Do you want milk in your coffee?",
+    "transcript": "The pizza is very delicious.",
     "content": {
-      "title": "Café con leche",
-      "instructions": "Completa la pregunta.",
+      "title": "Sabor",
+      "instructions": "Elige el adjetivo correcto.",
       "questions": [
         {
-          "question": "[[Do you want your|¿ tú quieres]] _______ [[in coffee|en tu café]]?",
-          "options": ["[[milk|leche]]", "[[meat|carne]]", "[[bread|pan]]"],
+          "question": "[[The pizza is very|La pizza es muy]] _______.",
+          "options": ["[[delicious|deliciosa]]", "[[sad|triste]]", "[[blue|azul]]"],
           "correctAnswer": 0,
-          "explanation": "Pregunta común sobre cómo tomar el café."
+          "explanation": "Delicious describe un buen sabor."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-17/e42.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u17-e43",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Drinks",
+    "topic": "Describing Food",
     "difficulty": "medium",
-    "transcript": "I drink eight glasses of water every day.",
+    "transcript": "I like healthy food like fruit.",
     "content": {
-      "title": "Hábito saludable",
+      "title": "Comida sana",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[I drink eight glasses of water every day|Yo bebo ocho vasos de agua cada día]].",
-      "words": ["[[I|Yo]]", "[[drink|bebo]]", "[[eight|ocho]]", "[[glasses|vasos]]", "[[of|de]]", "[[water|agua]]", "[[every|cada]]", "[[day|día]]."],
-      "explanation": "Uso de cantidades con bebidas."
+      "correctSentence": "[[I like healthy food like fruit|Me gusta la comida saludable como la fruta]].",
+      "words": ["[[I|Me]]", "[[like|gusta]]", "[[healthy|saludable]]", "[[food|comida]]", "[[like|como]]", "[[fruit|fruta]]."],
+      "explanation": "Expresión de preferencias alimentarias."
     },
     "audioUrl": "audio/a1/unit-17/e43.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u17-e44",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Drinks",
+    "topic": "Describing Food",
     "difficulty": "easy",
-    "transcript": "Lemonade is made with lemons.",
+    "transcript": "Don't eat junk food.",
     "content": {
-      "title": "Ingredientes",
-      "instructions": "Elige la palabra correcta.",
+      "title": "Comida basura",
+      "instructions": "Elige la palabra que falta.",
       "questions": [
         {
-          "question": "[[Lemonade is made with|La limonada es hecha con]] _______.",
-          "options": ["[[lemons|limones]]", "[[apples|manzanas]]", "[[milk|leche]]"],
+          "question": "[[Don't eat|No comas]] _______ [[food|comida]].",
+          "options": ["[[junk|basura]]", "[[good|buena]]", "[[green|verde]]"],
           "correctAnswer": 0,
-          "explanation": "La limonada se hace con limones (lemons)."
+          "explanation": "'Junk food' es el término para comida basura."
         }
       ]
     },
@@ -773,18 +763,18 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "id": "a1-u17-e45",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Drinks",
+    "topic": "Describing Food",
     "difficulty": "medium",
-    "transcript": "They have soda with their pizza.",
+    "transcript": "This fish is fresh and tasty.",
     "content": {
-      "title": "Acompañamiento",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[They have soda with their pizza|Ellos toman refresco con su pizza]].",
-      "words": ["[[They|Ellos]]", "[[have|toman]]", "[[soda|refresco]]", "[[with|con]]", "[[their|su]]", "[[pizza|pizza]]."],
-      "explanation": "Uso de 'have' para comer o beber."
+      "title": "Pescado fresco",
+      "instructions": "Ordena las palabras.",
+      "correctSentence": "[[This fish is fresh and tasty|Este pescado es fresco y sabroso]].",
+      "words": ["[[This|Este]]", "[[fish|pescado]]", "[[is|es]]", "[[fresh|fresco]]", "[[and|y]]", "[[tasty|sabroso]]."],
+      "explanation": "Uso de adjetivos para describir comida."
     },
     "audioUrl": "audio/a1/unit-17/e45.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u17-e47",
@@ -794,8 +784,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "Breakfast is in the morning.",
     "content": {
-      "title": "Hora del desayuno",
-      "instructions": "Completa el momento del día.",
+      "title": "Momento del día",
+      "instructions": "Elige el momento correcto.",
       "questions": [
         {
           "question": "[[Breakfast is in the|El desayuno es en la]] _______.",
@@ -870,16 +860,16 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "My name is Sarah and I love food. Every morning, I wake up at seven o'clock. For breakfast, I usually have a bowl of cereal with fresh fruit and a glass of orange juice. At one o'clock, I have lunch with my colleagues at work. We often eat healthy salads or a sandwich with chicken and vegetables. In the evening, I cook dinner for my family. We love pasta and fish. After dinner, we sometimes have a small dessert, like a piece of cake or some yogurt.",
+    "transcript": "[[My name is Sarah|Mi nombre es Sarah]] [[and I love food.|y me encanta la comida.]] [[Every morning,|Cada mañana,]] [[I wake up|me despierto]] [[at seven o'clock.|a las siete en punto.]] [[For breakfast,|Para el desayuno,]] [[I usually have|normalmente tomo]] [[a bowl of cereal|un bol de cereales]] [[with fresh fruit|con fruta fresca]] [[and a glass of orange juice.|y un vaso de zumo de naranja.]] [[At one o'clock,|A la una en punto,]] [[I have lunch|almuerzo]] [[with my colleagues at work.|con mis colegas en el trabajo.]] [[We often eat|A menudo comemos]] [[healthy salads|ensaladas saludables]] [[or a sandwich with chicken|o un sándwich con pollo]] [[and vegetables.|y verduras.]] [[In the evening,|Por la tarde,]] [[I cook dinner|cocino la cena]] [[for my family.|para mi familia.]] [[We love pasta and fish.|Nos encanta la pasta y el pescado.]] [[After dinner,|Después de cenar,]] [[we sometimes have|a veces tomamos]] [[a small dessert,|un pequeño postre,]] [[like a piece of cake|como un trozo de pastel]] [[or some yogurt.|o algo de yogur.]]",
     "content": {
-      "title": "Lectura: Las comidas de Sarah",
-      "instructions": "Lee el texto sobre Sarah y responde.",
+      "title": "[[Reading: Sarah's Meals|Lectura: Las comidas de Sarah]]",
+      "instructions": "[[Read the text about Sarah and answer.|Lee el texto sobre Sarah y responde.]]",
       "questions": [
         {
-          "question": "[[What does Sarah usually have for breakfast|Qué aux Sarah normalmente tomar para el desayuno]]?",
+          "question": "[[What does Sarah usually have for breakfast?|¿Qué suele desayunar Sarah?]]",
           "options": ["[[Cereal, fruit and juice|Cereal, fruta y zumo]]", "[[Eggs and bacon|Huevos y bacon]]", "[[Pizza and soda|Pizza y refresco]]"],
           "correctAnswer": 0,
-          "explanation": "Sarah toma cereal con fruta fresca y zumo de naranja."
+          "explanation": "[[Sarah has cereal with fresh fruit and orange juice.|Sarah toma cereal con fruta fresca y zumo de naranja.]]"
         }
       ]
     },
@@ -892,16 +882,16 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "My name is Sarah and I love food. Every morning, I wake up at seven o'clock. For breakfast, I usually have a bowl of cereal with fresh fruit and a glass of orange juice. At one o'clock, I have lunch with my colleagues at work. We often eat healthy salads or a sandwich with chicken and vegetables. In the evening, I cook dinner for my family. We love pasta and fish. After dinner, we sometimes have a small dessert, like a piece of cake or some yogurt.",
+    "transcript": "[[My name is Sarah|Mi nombre es Sarah]] [[and I love food.|y me encanta la comida.]] [[Every morning,|Cada mañana,]] [[I wake up|me despierto]] [[at seven o'clock.|a las siete en punto.]] [[For breakfast,|Para el desayuno,]] [[I usually have|normalmente tomo]] [[a bowl of cereal|un bol de cereales]] [[with fresh fruit|con fruta fresca]] [[and a glass of orange juice.|y un vaso de zumo de naranja.]] [[At one o'clock,|A la una en punto,]] [[I have lunch|almuerzo]] [[with my colleagues at work.|con mis colegas en el trabajo.]] [[We often eat|A menudo comemos]] [[healthy salads|ensaladas saludables]] [[or a sandwich with chicken|o un sándwich con pollo]] [[and vegetables.|y verduras.]] [[In the evening,|Por la tarde,]] [[I cook dinner|cocino la cena]] [[for my family.|para mi familia.]] [[We love pasta and fish.|Nos encanta la pasta y el pescado.]] [[After dinner,|Después de cenar,]] [[we sometimes have|a veces tomamos]] [[a small dessert,|un pequeño postre,]] [[like a piece of cake|como un trozo de pastel]] [[or some yogurt.|o algo de yogur.]]",
     "content": {
-      "title": "Lectura: El almuerzo de Sarah",
-      "instructions": "Lee el texto sobre Sarah y responde.",
+      "title": "[[Reading: Sarah's Lunch|Lectura: El almuerzo de Sarah]]",
+      "instructions": "[[Read the text about Sarah and answer.|Lee el texto sobre Sarah y responde.]]",
       "questions": [
         {
-          "question": "[[Who does she have lunch with|Con quién aux ella toma el almuerzo con]]?",
+          "question": "[[Who does she have lunch with?|¿Con quién almuerza ella?]]",
           "options": ["[[With her colleagues|Con sus colegas]]", "[[With her family|Con su familia]]", "[[Alone|Sola]]"],
           "correctAnswer": 0,
-          "explanation": "Sarah almuerza con sus colegas del trabajo a la una."
+          "explanation": "[[Sarah has lunch with her colleagues at work.|Sarah almuerza con sus colegas del trabajo a la una.]]"
         }
       ]
     },
@@ -914,16 +904,16 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "My name is Sarah and I love food. Every morning, I wake up at seven o'clock. For breakfast, I usually have a bowl of cereal with fresh fruit and a glass of orange juice. At one o'clock, I have lunch with my colleagues at work. We often eat healthy salads or a sandwich with chicken and vegetables. In the evening, I cook dinner for my family. We love pasta and fish. After dinner, we sometimes have a small dessert, like a piece of cake or some yogurt.",
+    "transcript": "[[My name is Sarah|Mi nombre es Sarah]] [[and I love food.|y me encanta la comida.]] [[Every morning,|Cada mañana,]] [[I wake up|me despierto]] [[at seven o'clock.|a las siete en punto.]] [[For breakfast,|Para el desayuno,]] [[I usually have|normalmente tomo]] [[a bowl of cereal|un bol de cereales]] [[with fresh fruit|con fruta fresca]] [[and a glass of orange juice.|y un vaso de zumo de naranja.]] [[At one o'clock,|A la una en punto,]] [[I have lunch|almuerzo]] [[with my colleagues at work.|con mis colegas en el trabajo.]] [[We often eat|A menudo comemos]] [[healthy salads|ensaladas saludables]] [[or a sandwich with chicken|o un sándwich con pollo]] [[and vegetables.|y verduras.]] [[In the evening,|Por la tarde,]] [[I cook dinner|cocino la cena]] [[for my family.|para mi familia.]] [[We love pasta and fish.|Nos encanta la pasta y el pescado.]] [[After dinner,|Después de cenar,]] [[we sometimes have|a veces tomamos]] [[a small dessert,|un pequeño postre,]] [[like a piece of cake|como un trozo de pastel]] [[or some yogurt.|o algo de yogur.]]",
     "content": {
-      "title": "Lectura: La cena de Sarah",
-      "instructions": "Lee el texto sobre Sarah y responde.",
+      "title": "[[Reading: Sarah's Dinner|Lectura: La cena de Sarah]]",
+      "instructions": "[[Read the text about Sarah and answer.|Lee el texto sobre Sarah y responde.]]",
       "questions": [
         {
-          "question": "[[What do they eat for dinner|Qué aux ellos comen para la cena]]?",
+          "question": "[[What do they eat for dinner?|¿Qué cenan ellos?]]",
           "options": ["[[Pasta and fish|Pasta y pescado]]", "[[Salad and sandwiches|Ensalada y sándwiches]]", "[[Cereal and yogurt|Cereal y yogur]]"],
           "correctAnswer": 0,
-          "explanation": "A su familia le encanta la pasta y el pescado para cenar."
+          "explanation": "[[Her family loves pasta and fish for dinner.|A su familia le encanta la pasta y el pescado para cenar.]]"
         }
       ]
     },
@@ -936,16 +926,16 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "David is a chef in a big restaurant. His day starts very early. He goes to the market at five o'clock to buy fresh vegetables, meat, and fish. In the kitchen, he uses many utensils. He uses a sharp knife to slice the meat and a large pan to fry the vegetables. He always tells his team: 'Wash the dishes and set the tables before the customers arrive!'. David loves cooking healthy and delicious meals for everyone.",
+    "transcript": "[[David is a chef|David es chef]] [[in a big restaurant.|en un restaurante grande.]] [[His day starts very early.|Su día empieza muy temprano.]] [[He goes to the market|Va al mercado]] [[at five o'clock|a las cinco en punto]] [[to buy fresh vegetables,|para comprar verduras frescas,]] [[meat, and fish.|carne y pescado.]] [[In the kitchen,|En la cocina,]] [[he uses many utensils.|usa muchos utensilios.]] [[He uses a sharp knife|Usa un cuchillo afilado]] [[to slice the meat|para cortar la carne]] [[and a large pan|y una sartén grande]] [[to fry the vegetables.|para freír las verduras.]] [[He always tells his team:|Siempre le dice a su equipo:]] [['Wash the dishes|'¡Lavad los platos]] [[and set the tables|y poned las mesas]] [[before the customers arrive!'.|antes de que lleguen los clientes!'.]] [[David loves cooking|A David le encanta cocinar]] [[healthy and delicious meals|comidas saludables y deliciosas]] [[for everyone.|para todos.]]",
     "content": {
-      "title": "Lectura: El Chef David",
-      "instructions": "Lee sobre David y responde.",
+      "title": "[[Reading: Chef David|Lectura: El Chef David]]",
+      "instructions": "[[Read about David and answer.|Lee sobre David y responde.]]",
       "questions": [
         {
-          "question": "[[Where does David go at five o'clock|A dónde aux David va a las cinco en punto]]?",
+          "question": "[[Where does David go at five o'clock?|¿A dónde va David a las cinco en punto?]]",
           "options": ["[[To the market|Al mercado]]", "[[To the restaurant|Al restaurante]]", "[[To his house|A su casa]]"],
           "correctAnswer": 0,
-          "explanation": "David va al mercado temprano para comprar ingredientes frescos."
+          "explanation": "[[David goes to the market early to buy fresh ingredients.|David va al mercado temprano para comprar ingredientes frescos.]]"
         }
       ]
     },
@@ -958,16 +948,16 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "David is a chef in a big restaurant. His day starts very early. He goes to the market at five o'clock to buy fresh vegetables, meat, and fish. In the kitchen, he uses many utensils. He uses a sharp knife to slice the meat and a large pan to fry the vegetables. He always tells his team: 'Wash the dishes and set the tables before the customers arrive!'. David loves cooking healthy and delicious meals for everyone.",
+    "transcript": "[[David is a chef|David es chef]] [[in a big restaurant.|en un restaurante grande.]] [[His day starts very early.|Su día empieza muy temprano.]] [[He goes to the market|Va al mercado]] [[at five o'clock|a las cinco en punto]] [[to buy fresh vegetables,|para comprar verduras frescas,]] [[meat, and fish.|carne y pescado.]] [[In the kitchen,|En la cocina,]] [[he uses many utensils.|usa muchos utensilios.]] [[He uses a sharp knife|Usa un cuchillo afilado]] [[to slice the meat|para cortar la carne]] [[and a large pan|y una sartén grande]] [[to fry the vegetables.|para freír las verduras.]] [[He always tells his team:|Siempre le dice a su equipo:]] [['Wash the dishes|'¡Lavad los platos]] [[and set the tables|y poned las mesas]] [[before the customers arrive!'.|antes de que lleguen los clientes!'.]] [[David loves cooking|A David le encanta cocinar]] [[healthy and delicious meals|comidas saludables y deliciosas]] [[for everyone.|para todos.]]",
     "content": {
-      "title": "Lectura: Utensilios de David",
-      "instructions": "Lee sobre David y responde.",
+      "title": "[[Reading: David's Utensils|Lectura: Utensilios de David]]",
+      "instructions": "[[Read about David and answer.|Lee sobre David y responde.]]",
       "questions": [
         {
-          "question": "[[What does he use to slice the meat|Qué aux él usar para cortar la carne]]?",
+          "question": "[[What does he use to slice the meat?|¿Qué usa para cortar la carne?]]",
           "options": ["[[A sharp knife|Un cuchillo afilado]]", "[[A large pan|Una sartén grande]]", "[[A spoon|Una cuchara]]"],
           "correctAnswer": 0,
-          "explanation": "David usa un cuchillo afilado (sharp knife) para cortar la carne."
+          "explanation": "[[David uses a sharp knife to slice the meat.|David usa un cuchillo afilado para cortar la carne.]]"
         }
       ]
     },
@@ -980,16 +970,16 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "David is a chef in a big restaurant. His day starts very early. He goes to the market at five o'clock to buy fresh vegetables, meat, and fish. In the kitchen, he uses many utensils. He uses a sharp knife to slice the meat and a large pan to fry the vegetables. He always tells his team: 'Wash the dishes and set the tables before the customers arrive!'. David loves cooking healthy and delicious meals for everyone.",
+    "transcript": "[[David is a chef|David es chef]] [[in a big restaurant.|en un restaurante grande.]] [[His day starts very early.|Su día empieza muy temprano.]] [[He goes to the market|Va al mercado]] [[at five o'clock|a las cinco en punto]] [[to buy fresh vegetables,|para comprar verduras frescas,]] [[meat, and fish.|carne y pescado.]] [[In the kitchen,|En la cocina,]] [[he uses many utensils.|usa muchos utensilios.]] [[He uses a sharp knife|Usa un cuchillo afilado]] [[to slice the meat|para cortar la carne]] [[and a large pan|y una sartén grande]] [[to fry the vegetables.|para freír las verduras.]] [[He always tells his team:|Siempre le dice a su equipo:]] [['Wash the dishes|'¡Lavad los platos]] [[and set the tables|y poned las mesas]] [[before the customers arrive!'.|antes de que lleguen los clientes!'.]] [[David loves cooking|A David le encanta cocinar]] [[healthy and delicious meals|comidas saludables y deliciosas]] [[for everyone.|para todos.]]",
     "content": {
-      "title": "Lectura: Instrucciones de David",
-      "instructions": "Lee sobre David y responde.",
+      "title": "[[Reading: David's Instructions|Lectura: Instrucciones de David]]",
+      "instructions": "[[Read about David and answer.|Lee sobre David y responde.]]",
       "questions": [
         {
-          "question": "[[What must the team do before customers arrive|Qué debe el equipo hacer antes de que los clientes lleguen]]?",
+          "question": "[[What must the team do before customers arrive?|¿Qué debe hacer el equipo antes de que lleguen los clientes?]]",
           "options": ["[[Wash dishes and set tables|Lavar platos y poner mesas]]", "[[Go to the market|Ir al mercado]]", "[[Eat dinner|Comer la cena]]"],
           "correctAnswer": 0,
-          "explanation": "David les pide lavar los platos y poner las mesas."
+          "explanation": "[[David asks them to wash the dishes and set the tables.|David les pide lavar los platos y poner las mesas.]]"
         }
       ]
     },
@@ -1002,16 +992,16 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Are you hungry? Today we have a special menu. For lunch, you can have tomato soup or a green salad. The main course is roast chicken with potatoes or grilled fish with rice. For dessert, we have chocolate cake or fresh fruit. We also have many drinks: water, juice, coffee, and tea. Enjoy your meal!",
+    "transcript": "[[Are you hungry?|¿Tienes hambre?]] [[Today we have|Hoy tenemos]] [[a special menu.|un menú especial.]] [[For lunch,|Para el almuerzo,]] [[you can have|puedes tomar]] [[tomato soup|sopa de tomate]] [[or a green salad.|o una ensalada verde.]] [[The main course is|El plato principal es]] [[roast chicken with potatoes|pollo asado con patatas]] [[or grilled fish with rice.|o pescado a la parrilla con arroz.]] [[For dessert,|De postre,]] [[we have chocolate cake|tenemos pastel de chocolate]] [[or fresh fruit.|o fruta fresca.]] [[We also have|También tenemos]] [[many drinks:|muchas bebidas:]] [[water, juice, coffee, and tea.|agua, zumo, café y té.]] [[Enjoy your meal!|¡Que aproveche!]]",
     "content": {
-      "title": "Lectura: El Menú Especial",
-      "instructions": "Lee el menú y responde.",
+      "title": "[[Reading: The Special Menu|Lectura: El Menú Especial]]",
+      "instructions": "[[Read the menu and answer.|Lee el menú y responde.]]",
       "questions": [
         {
-          "question": "[[What is the main course|Qué es el principal plato]]?",
+          "question": "[[What is the main course?|¿Cuál es el plato principal?]]",
           "options": ["[[Chicken or fish|Pollo o pescado]]", "[[Soup or salad|Sopa o ensalada]]", "[[Cake or fruit|Pastel o fruta]]"],
           "correctAnswer": 0,
-          "explanation": "El plato principal (main course) es pollo asado o pescado a la parrilla."
+          "explanation": "[[The main course is roast chicken or grilled fish.|El plato principal es pollo asado o pescado a la parrilla.]]"
         }
       ]
     },
@@ -1024,16 +1014,16 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Are you hungry? Today we have a special menu. For lunch, you can have tomato soup or a green salad. The main course is roast chicken with potatoes or grilled fish with rice. For dessert, we have chocolate cake or fresh fruit. We also have many drinks: water, juice, coffee, and tea. Enjoy your meal!",
+    "transcript": "[[Are you hungry?|¿Tienes hambre?]] [[Today we have|Hoy tenemos]] [[a special menu.|un menú especial.]] [[For lunch,|Para el almuerzo,]] [[you can have|puedes tomar]] [[tomato soup|sopa de tomate]] [[or a green salad.|o una ensalada verde.]] [[The main course is|El plato principal es]] [[roast chicken with potatoes|pollo asado con patatas]] [[or grilled fish with rice.|o pescado a la parrilla con arroz.]] [[For dessert,|De postre,]] [[we have chocolate cake|tenemos pastel de chocolate]] [[or fresh fruit.|o fruta fresca.]] [[We also have|También tenemos]] [[many drinks:|muchas bebidas:]] [[water, juice, coffee, and tea.|agua, zumo, café y té.]] [[Enjoy your meal!|¡Que aproveche!]]",
     "content": {
-      "title": "Lectura: Postres y Bebidas",
-      "instructions": "Lee el menú y responde.",
+      "title": "[[Reading: Desserts and Drinks|Lectura: Postres y Bebidas]]",
+      "instructions": "[[Read the menu and answer.|Lee el menú y responde.]]",
       "questions": [
         {
-          "question": "[[Which desserts are available|Cuáles postres son disponibles]]?",
+          "question": "[[Which desserts are available?|¿Qué postres hay disponibles?]]",
           "options": ["[[Cake and fruit|Pastel y fruta]]", "[[Soup and salad|Sopa y ensalada]]", "[[Coffee and tea|Café y té]]"],
           "correctAnswer": 0,
-          "explanation": "Hay pastel de chocolate o fruta fresca de postre."
+          "explanation": "[[There is chocolate cake or fresh fruit for dessert.|Hay pastel de chocolate o fruta fresca de postre.]]"
         }
       ]
     },
@@ -1046,16 +1036,16 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "At our house, we have a routine. My brother sets the table at seven o'clock. I help my mother in the kitchen. She boils water for the pasta and I slice the bread. My father doesn't cook, but he always washes the dishes after we finish. We never eat junk food. We always eat healthy meals together. It is a very happy time for our family.",
+    "transcript": "[[At our house,|En nuestra casa,]] [[we have a routine.|tenemos una rutina.]] [[My brother sets the table|Mi hermano pone la mesa]] [[at seven o'clock.|a las siete en punto.]] [[I help my mother|Ayudo a mi madre]] [[in the kitchen.|en la cocina.]] [[She boils water|Ella hierve el agua]] [[for the pasta|para la pasta]] [[and I slice the bread.|y yo rebano el pan.]] [[My father doesn't cook,|Mi padre no cocina,]] [[but he always washes the dishes|pero siempre lava los platos]] [[after we finish.|después de que terminamos.]] [[We never eat junk food.|Nunca comemos comida basura.]] [[We always eat|Siempre comemos]] [[healthy meals together.|comidas saludables juntos.]] [[It is a very happy time|Es un momento muy feliz]] [[for our family.|para nuestra familia.]]",
     "content": {
-      "title": "Lectura: Rutina en casa",
-      "instructions": "Lee sobre la rutina y responde.",
+      "title": "[[Reading: Routine at Home|Lectura: Rutina en casa]]",
+      "instructions": "[[Read about the routine and answer.|Lee sobre la rutina y responde.]]",
       "questions": [
         {
-          "question": "[[Who washes the dishes|Quién lava los platos]]?",
+          "question": "[[Who washes the dishes?|¿Quién lava los platos?]]",
           "options": ["[[The father|El padre]]", "[[The brother|El hermano]]", "[[The mother|La madre]]"],
           "correctAnswer": 0,
-          "explanation": "El padre siempre lava los platos después de terminar."
+          "explanation": "[[The father always washes the dishes after finishing.|El padre siempre lava los platos después de terminar.]]"
         }
       ]
     },
@@ -1068,21 +1058,20 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "At our house, we have a routine. My brother sets the table at seven o'clock. I help my mother in the kitchen. She boils water for the pasta and I slice the bread. My father doesn't cook, but he always washes the dishes after we finish. We never eat junk food. We always eat healthy meals together. It is a very happy time for our family.",
+    "transcript": "[[At our house,|En nuestra casa,]] [[we have a routine.|tenemos una rutina.]] [[My brother sets the table|Mi hermano pone la mesa]] [[at seven o'clock.|a las siete en punto.]] [[I help my mother|Ayudo a mi madre]] [[in the kitchen.|en la cocina.]] [[She boils water|Ella hierve el agua]] [[for the pasta|para la pasta]] [[and I slice the bread.|y yo rebano el pan.]] [[My father doesn't cook,|Mi padre no cocina,]] [[but he always washes the dishes|pero siempre lava los platos]] [[after we finish.|después de que terminamos.]] [[We never eat junk food.|Nunca comemos comida basura.]] [[We always eat|Siempre comemos]] [[healthy meals together.|comidas saludables juntos.]] [[It is a very happy time|Es un momento muy feliz]] [[for our family.|para nuestra familia.]]",
     "content": {
-      "title": "Lectura: Hábitos Saludables",
-      "instructions": "Lee sobre la rutina y responde.",
+      "title": "[[Reading: Healthy Habits|Lectura: Hábitos Saludables]]",
+      "instructions": "[[Read about the routine and answer.|Lee sobre la rutina y responde.]]",
       "questions": [
         {
-          "question": "[[Do they eat junk food|¿ ellos comen basura comida]]?",
+          "question": "[[Do they eat junk food?|¿Comen ellos comida basura?]]",
           "options": ["[[No, never|No, nunca]]", "[[Yes, always|Sí, siempre]]", "[[Sometimes|A veces]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice que nunca (never) comen comida basura."
+          "explanation": "[[The text says that they never eat junk food.|El texto dice que nunca comen comida basura.]]"
         }
       ]
     },
     "audioUrl": "audio/a1/unit-17/e60.mp3",
     "topicName": "Reading"
   }
-
 ];

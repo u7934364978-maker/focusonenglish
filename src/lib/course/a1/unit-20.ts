@@ -393,553 +393,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "words": ["[[rest|descansar]].", "[[and|y]]", "[[home|casa]]", "[[at|en]]", "[[stay|quedarte]]", "[[should|deberías]]", "[[You|Tú]]"],
       "explanation": "Consejo común para alguien enfermo."
     },
-    "audioUrl": "audio/a1/unit-20/e22.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u20-e23",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Health Problems",
-    "difficulty": "easy",
-    "transcript": "I have a cough and a cold.",
-    "content": {
-      "title": "Tos y Resfriado",
-      "instructions": "Completa la oración.",
-      "questions": [
-        {
-          "question": "[[I have a a|Yo tengo una]] (_____) [[and cold|y un resfriado]].",
-          "options": ["[[cough|tos]]", "[[cake|pastel]]", "[[car|coche]]"],
-          "correctAnswer": 0,
-          "explanation": "Cough (tos) es un síntoma de salud."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-20/e23.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u20-e24",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Have got symptoms",
-    "difficulty": "medium",
-    "transcript": "I've got a pain in my back.",
-    "content": {
-      "title": "Dolor de Espalda",
-      "instructions": "Ordena la oración sobre el dolor.",
-      "correctSentence": "[[I've got a pain in my back|Tengo conseguido un dolor en mi espalda]].",
-      "words": ["[[back|espalda]].", "[[my|mi]]", "[[in|en]]", "[[pain|dolor]]", "[[got|conseguido]]", "[[I've|Tengo]]"],
-      "explanation": "Otra forma de decir 'I have a backache'."
-    },
-    "audioUrl": "audio/a1/unit-20/e24.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u20-e25",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Body Parts",
-    "difficulty": "easy",
-    "transcript": "Wash your hands before dinner.",
-    "content": {
-      "title": "Lavar las Manos",
-      "instructions": "Completa con la parte del cuerpo adecuada.",
-      "questions": [
-        {
-          "question": "[[Wash your|Lava tus]] (_____) [[before dinner|antes de la cena]].",
-          "options": ["[[hands|manos]]", "[[ears|orejas]]", "[[knees|rodillas]]"],
-          "correctAnswer": 0,
-          "explanation": "Es importante lavarse las manos antes de comer."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-20/e25.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u20-e26",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Shouldn't advice",
-    "difficulty": "medium",
-    "transcript": "You shouldn't exercise when you have a fever.",
-    "content": {
-      "title": "Ejercicio y Fiebre",
-      "instructions": "Ordena el consejo negativo.",
-      "correctSentence": "[[You shouldn't exercise when you have a fever|Tú no deberías ejercitarte cuando tú tienes una fiebre]].",
-      "words": ["[[fever|fiebre]].", "[[a|una]]", "[[have|tienes]]", "[[you|tú]]", "[[when|cuando]]", "[[exercise|ejercitarte]]", "[[shouldn't|no deberías]]", "[[You|Tú]]"],
-      "explanation": "No es recomendable hacer ejercicio si se tiene fiebre."
-    },
-    "audioUrl": "audio/a1/unit-20/e26.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u20-e27",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Body Parts",
-    "difficulty": "medium",
-    "transcript": "I've got ten fingers and ten toes.",
-    "content": {
-      "title": "Dedos",
-      "instructions": "Elige la palabra para los dedos de los pies.",
-      "questions": [
-        {
-          "question": "[[I have ten fingers and ten|Yo tengo diez dedos (manos) y diez]] (_____) .",
-          "options": ["[[toes|dedos (pies)]]", "[[foots|pies (incorrecto)]]", "[[hands|manos]]"],
-          "correctAnswer": 0,
-          "explanation": "En inglés, los dedos de los pies se llaman 'toes'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-20/e27.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u20-e28",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Should for advice",
-    "difficulty": "medium",
-    "transcript": "Where should I go for a check-up?",
-    "content": {
-      "title": "Chequeo Médico",
-      "instructions": "Ordena la pregunta pidiendo consejo sobre un lugar.",
-      "correctSentence": "[[Where should I go for a check-up|Dónde debería yo ir para un chequeo]]?",
-      "words": ["[[check-up|chequeo]]?", "[[a|un]]", "[[for|para]]", "[[go|ir]]", "[[I|yo]]", "[[should|debería]]", "[[Where|Dónde]]"],
-      "explanation": "Pregunta informativa con 'should'."
-    },
-    "audioUrl": "audio/a1/unit-20/e28.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u20-e29",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Symptoms",
-    "difficulty": "medium",
-    "transcript": "I feel sick. I think I ate something bad.",
-    "content": {
-      "title": "Sentirse Enfermo",
-      "instructions": "Elige la expresión de malestar general.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[sick|enfermo]].",
-          "options": ["[[feel|me siento]]", "[[have|tengo]]", "[[am got|estoy (incorrecto)]]"],
-          "correctAnswer": 0,
-          "explanation": "'Feel sick' describe la sensación de estar enfermo o con náuseas."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-20/e29.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u20-e30",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Have got symptoms",
-    "difficulty": "medium",
-    "transcript": "Has she got a toothache again?",
-    "content": {
-      "title": "¿Le duele la muela otra vez?",
-      "instructions": "Ordena la pregunta de tercera persona.",
-      "correctSentence": "[[Has she got a toothache again|Tiene ella conseguido un dolor de muelas otra vez]]?",
-      "words": ["[[again|otra vez]]?", "[[toothache|dolor de muelas]]", "[[a|un]]", "[[got|conseguido]]", "[[she|ella]]", "[[Has|Tiene]]"],
-      "explanation": "Pregunta singular con 'Has... got'."
-    },
-    "audioUrl": "audio/a1/unit-20/e30.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u20-e31",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Body Parts",
-    "difficulty": "easy",
-    "transcript": "My hair is brown and long.",
-    "content": {
-      "title": "El Pelo",
-      "instructions": "Completa con la palabra adecuada.",
-      "questions": [
-        {
-          "question": "[[She has long|Ella tiene largo]] (_____) .",
-          "options": ["[[hair|pelo]]", "[[ears|orejas]]", "[[noses|narices]]"],
-          "correctAnswer": 0,
-          "explanation": "El pelo es lo que solemos describir como largo."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-20/e31.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u20-e32",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Should advice",
-    "difficulty": "medium",
-    "transcript": "You should sleep for eight hours every night.",
-    "content": {
-      "title": "Dormir lo Suficiente",
-      "instructions": "Ordena el consejo de salud.",
-      "correctSentence": "[[You should sleep for eight hours every night|Tú deberías dormir por ocho horas cada noche]].",
-      "words": ["[[night|noche]].", "[[every|cada]]", "[[hours|horas]]", "[[eight|ocho]]", "[[for|por]]", "[[sleep|dormir]]", "[[should|deberías]]", "[[You|Tú]]"],
-      "explanation": "Recomendación estándar de sueño."
-    },
-    "audioUrl": "audio/a1/unit-20/e32.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u20-e33",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Body Parts",
-    "difficulty": "easy",
-    "transcript": "I listen to music with my ears.",
-    "content": {
-      "title": "Oído",
-      "instructions": "Completa con el órgano del sentido.",
-      "questions": [
-        {
-          "question": "[[I listen with my|Yo escucho con mis]] (_____) .",
-          "options": ["[[ears|orejas]]", "[[eyes|ojos]]", "[[mouth|boca]]"],
-          "correctAnswer": 0,
-          "explanation": "Escuchamos a través de las orejas/oídos."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-20/e33.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u20-e34",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Have got symptoms",
-    "difficulty": "medium",
-    "transcript": "We haven't got any medicine at home.",
-    "content": {
-      "title": "Sin Medicina",
-      "instructions": "Ordena la negación de posesión.",
-      "correctSentence": "[[We haven't got any medicine at home|Nosotros no tenemos conseguido nada de medicina en casa]].",
-      "words": ["[[home|casa]].", "[[at|en]]", "[[medicine|medicina]]", "[[any|nada de]]", "[[got|conseguido]]", "[[haven't|no tenemos]]", "[[We|Nosotros]]"],
-      "explanation": "Haven't got + any para negación."
-    },
-    "audioUrl": "audio/a1/unit-20/e34.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u20-e35",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Health Problems",
-    "difficulty": "easy",
-    "transcript": "My stomach hurts. I have a stomach ache.",
-    "content": {
-      "title": "Mal de Estómago",
-      "instructions": "Identifica el término médico.",
-      "questions": [
-        {
-          "question": "[[My stomach. I hurts have a|Mi estómago duele. Yo tengo un]] (_____) .",
-          "options": ["[[stomach ache|dolor de estómago]]", "[[headache|dolor de cabeza]]", "[[toothache|dolor de muelas]]"],
-          "correctAnswer": 0,
-          "explanation": "Stomach ache es el término para el dolor de tripa."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-20/e35.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u20-e36",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Should advice",
-    "difficulty": "medium",
-    "transcript": "What should I eat to be healthy?",
-    "content": {
-      "title": "Comida Saludable",
-      "instructions": "Ordena la pregunta por consejo dietético.",
-      "correctSentence": "[[What should I eat to be healthy|Qué debería yo comer para ser saludable]]?",
-      "words": ["[[healthy|saludable]]?", "[[be|ser]]", "[[to|para]]", "[[eat|comer]]", "[[I|yo]]", "[[should|debería]]", "[[What|Qué]]"],
-      "explanation": "Pregunta informativa sobre nutrición."
-    },
-    "audioUrl": "audio/a1/unit-20/e36.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u20-e37",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Body Parts",
-    "difficulty": "easy",
-    "transcript": "He has broad shoulders.",
-    "content": {
-      "title": "Hombros",
-      "instructions": "Completa con la parte superior del tronco.",
-      "questions": [
-        {
-          "question": "[[The the neck to the arm|Los]] (_____) [[connect|conectan el cuello a el brazo]].",
-          "options": ["[[shoulders|hombros]]", "[[knees|rodillas]]", "[[legs|piernas]]"],
-          "correctAnswer": 0,
-          "explanation": "Los hombros (shoulders) están entre el cuello y los brazos."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-20/e37.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u20-e38",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Shouldn't advice",
-    "difficulty": "medium",
-    "transcript": "You shouldn't use your phone before sleeping.",
-    "content": {
-      "title": "Móvil y Sueño",
-      "instructions": "Ordena el consejo para dormir mejor.",
-      "correctSentence": "[[You shouldn't use your phone before sleeping|Tú no deberías usar tu teléfono antes de dormir]].",
-      "words": ["[[sleeping|dormir]].", "[[before|antes de]]", "[[phone|teléfono]]", "[[your|tu]]", "[[use|usar]]", "[[shouldn't|no deberías]]", "[[You|Tú]]"],
-      "explanation": "Consejo moderno de higiene del sueño."
-    },
-    "audioUrl": "audio/a1/unit-20/e38.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u20-e39",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Symptoms",
-    "difficulty": "medium",
-    "transcript": "She is coughing a lot. She needs some cough syrup.",
-    "content": {
-      "title": "Jarabe para la tos",
-      "instructions": "Elige el remedio adecuado.",
-      "questions": [
-        {
-          "question": "[[She has. She a bad cough needs|Ella tiene una mala tos. Ella necesita]] (_____) .",
-          "options": ["[[cough syrup|jarabe para la tos]]", "[[glasses|gafas]]", "[[a hat|un sombrero]]"],
-          "correctAnswer": 0,
-          "explanation": "El jarabe es para la tos."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-20/e39.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u20-e40",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Have got symptoms",
-    "difficulty": "medium",
-    "transcript": "I've got a very sore back today.",
-    "content": {
-      "title": "Espalda Dolorida",
-      "instructions": "Ordena la oración de malestar.",
-      "correctSentence": "[[I've got a very sore back today|Tengo conseguido un muy dolorida espalda hoy]].",
-      "words": ["[[today|hoy]].", "[[back|espalda]]", "[[sore|dolorida]]", "[[very|muy]]", "[[a|un]]", "[[got|conseguido]]", "[[I've|Tengo]]"],
-      "explanation": "Descripción de un dolor de espalda intenso."
-    },
-    "audioUrl": "audio/a1/unit-20/e40.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u20-e41",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Body Parts",
-    "difficulty": "easy",
-    "transcript": "I smell flowers with my nose.",
-    "content": {
-      "title": "Olfato",
-      "instructions": "Completa con el órgano adecuado.",
-      "questions": [
-        {
-          "question": "[[I smell with my|Yo huelo con mi]] (_____) .",
-          "options": ["[[nose|nariz]]", "[[mouth|boca]]", "[[head|cabeza]]"],
-          "correctAnswer": 0,
-          "explanation": "Olemos con la nariz."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-20/e41.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u20-e42",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Should advice",
-    "difficulty": "medium",
-    "transcript": "You should take a warm shower to relax.",
-    "content": {
-      "title": "Ducha Relajante",
-      "instructions": "Ordena el consejo de bienestar.",
-      "correctSentence": "[[You should take a warm shower to relax|Tú deberías tomar una templada ducha para relajarte]].",
-      "words": ["[[relax|relajarte]].", "[[to|para]]", "[[shower|ducha]]", "[[warm|templada]]", "[[a|una]]", "[[take|tomar]]", "[[should|deberías]]", "[[You|Tú]]"],
-      "explanation": "Sugerencia para aliviar el estrés."
-    },
-    "audioUrl": "audio/a1/unit-20/e42.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u20-e43",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Health Problems",
-    "difficulty": "easy",
-    "transcript": "I feel very weak and tired.",
-    "content": {
-      "title": "Debilidad",
-      "instructions": "Elige el adjetivo de falta de fuerza.",
-      "questions": [
-        {
-          "question": "[[I am. I sick feel|Yo estoy enfermo. Yo me siento]] (_____) .",
-          "options": ["[[weak|débil]]", "[[strong|fuerte]]", "[[happy|feliz]]"],
-          "correctAnswer": 0,
-          "explanation": "'Weak' (débil) es lo opuesto a 'strong'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-20/e43.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u20-e44",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Have got symptoms",
-    "difficulty": "medium",
-    "transcript": "The baby has got a high fever.",
-    "content": {
-      "title": "Fiebre Alta",
-      "instructions": "Ordena la oración sobre el bebé.",
-      "correctSentence": "[[The baby has got a high fever|El bebé tiene conseguido una alta fiebre]].",
-      "words": ["[[fever|fiebre]].", "[[high|alta]]", "[[a|una]]", "[[got|conseguido]]", "[[has|tiene]]", "[[baby|bebé]]", "[[The|El]]"],
-      "explanation": "Descripción de un síntoma grave."
-    },
-    "audioUrl": "audio/a1/unit-20/e44.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u20-e45",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Body Parts",
-    "difficulty": "easy",
-    "transcript": "My legs are tired after the walk.",
-    "content": {
-      "title": "Piernas",
-      "instructions": "Parte del cuerpo usada para caminar.",
-      "questions": [
-        {
-          "question": "[[We walk with our|Nosotros caminamos con nuestras]] (_____) .",
-          "options": ["[[legs|piernas]]", "[[arms|brazos]]", "[[shoulders|hombros]]"],
-          "correctAnswer": 0,
-          "explanation": "Caminamos usando las piernas."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-20/e45.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u20-e46",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Shouldn't advice",
-    "difficulty": "medium",
-    "transcript": "You shouldn't drink too much coffee.",
-    "content": {
-      "title": "Evitar Cafeína",
-      "instructions": "Ordena el consejo negativo.",
-      "correctSentence": "[[You shouldn't drink too much coffee|Tú no deberías beber demasiado mucho café]].",
-      "words": ["[[coffee|café]].", "[[much|mucho]]", "[[too|demasiado]]", "[[drink|beber]]", "[[shouldn't|no deberías]]", "[[You|Tú]]"],
-      "explanation": "Consejo de salud común."
-    },
-    "audioUrl": "audio/a1/unit-20/e46.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u20-e47",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Symptoms",
-    "difficulty": "medium",
-    "transcript": "I need some tissues for my nose.",
-    "content": {
-      "title": "Pañuelos",
-      "instructions": "Identifica el objeto para el resfriado.",
-      "questions": [
-        {
-          "question": "[[I have. I need a cold|Yo tengo un resfriado. Yo necesito]] (_____) .",
-          "options": ["[[tissues|pañuelos de papel]]", "[[a book|un libro]]", "[[shoes|zapatos]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'tissues' (pañuelos) cuando estamos resfriados."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-20/e47.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u20-e48",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Should advice",
-    "difficulty": "medium",
-    "transcript": "You should wear a coat, it's freezing.",
-    "content": {
-      "title": "Abrígate",
-      "instructions": "Ordena el consejo de vestimenta.",
-      "correctSentence": "[[You should, it's wear a coat freezing|Tú deberías llevar un abrigo, está congelando]].",
-      "words": ["[[freezing|congelando]].", "[[it's|está]]", "[[coat|abrigo]],", "[[a|un]]", "[[wear|llevar]]", "[[should|deberías]]", "[[You|Tú]]"],
-      "explanation": "Consejo basado en el clima."
-    },
-    "audioUrl": "audio/a1/unit-20/e48.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u20-e49",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Health Problems",
-    "difficulty": "easy",
-    "transcript": "I feel better today.",
-    "content": {
-      "title": "Mejoría",
-      "instructions": "Elige el adjetivo de recuperación.",
-      "questions": [
-        {
-          "question": "[[Yesterday I. Today I was sick feel|Ayer yo estaba enfermo. Hoy yo me siento]] (_____) .",
-          "options": ["[[better|mejor]]", "[[worse|peor]]", "[[angry|enfadado]]"],
-          "correctAnswer": 0,
-          "explanation": "'Better' indica que la salud ha mejorado."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-20/e49.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u20-e50",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Have got symptoms",
-    "difficulty": "medium",
-    "transcript": "My parents have both got a headache.",
-    "content": {
-      "title": "Dolor Compartido",
-      "instructions": "Ordena la oración plural compleja.",
-      "correctSentence": "[[My parents have both got a headache|Mis padres tienen ambos conseguido un dolor de cabeza]].",
-      "words": ["[[headache|dolor de cabeza]].", "[[a|un]]", "[[got|conseguido]]", "[[both|ambos]]", "[[have|tienen]]", "[[parents|padres]]", "[[My|Mis]]"],
-      "explanation": "Uso de 'both' con 'have got'."
-    },
-    "audioUrl": "audio/a1/unit-20/e50.mp3",
+    "audioUrl": "audio/a1-u20-e22.mp3",
     "topicName": "Grammar"
   },
   {
@@ -947,23 +401,17 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "A visit to the doctor. Today, I don't feel well. I have got a bad headache and a sore throat. I am also very tired. I am at the doctor's office now. The doctor says I should stay at home for two days. He says I should drink a lot of water and sleep. I shouldn't go to work until I feel better.",
+    "difficulty": "hard",
+    "transcript": "[[At the doctor's office,|En la consulta del médico,]] [[David is feeling very sick.|David se siente muy enfermo.]] [['What is the matter?'|'¿Qué te pasa?']] [[asks the nurse.|pregunta la enfermera.]] [['I have got a high fever,'|'Tengo una fiebre alta,']] [[David says,|dice David,]] [['and my head hurts a lot.'|'y mi cabeza me duele mucho.']] [[The nurse says,|La enfermera dice,]] [['You should see the doctor immediately.|'Deberías ver al médico inmediatamente.]] [[Open your mouth,|Abre tu boca,]] [[please.|por favor.]] [[Oh, you have got|Oh, tienes]] [[a very sore throat.'|una garganta muy dolorida.']] [[The doctor arrives|El médico llega]] [[and gives David some advice:|y le da a David algunos consejos:]] [['You should stay at home|'Deberías quedarte en casa]] [[and rest for three days.|y descansar durante tres días.]] [[You should drink|Deberías beber]] [[plenty of water,|mucha agua,]] [[but you shouldn't drink|pero no deberías beber]] [[anything cold.'|nada frío.']] [[David goes home|David va a casa]] [[to rest.|a descansar.]]",
     "content": {
-      "title": "Visita al Médico",
-      "instructions": "Lee sobre la consulta médica.",
+      "title": "[[Reading: At the Doctor|Lectura: En el médico]]",
+      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "[[What symptoms does the patient have|Qué síntomas tiene el paciente tener]]?",
-          "options": ["[[Headache and sore throat|Dolor de cabeza y garganta]]", "[[Stomach ache|Dolor de estómago]]", "[[Toothache|Dolor de muelas]]"],
+          "question": "[[What symptoms has David got?|¿Qué síntomas tiene David?]]",
+          "options": ["[[Fever, headache and sore throat|Fiebre, dolor de cabeza y garganta dolorida]]", "[[Toothache and stomach ache|Dolor de muelas y dolor de estómago]]", "[[Broken leg and blue eyes|Pierna rota y ojos azules]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'I have got a bad headache and a sore throat'."
-        },
-        {
-          "question": "[[What advice does the doctor give|Qué consejo da el médico dar]]?",
-          "options": ["[[Stay at home and drink water|Quedarse en casa y beber agua]]", "[[Go to work|Ir a trabajar]]", "[[Exercise every day|Hacer ejercicio]]"],
-          "correctAnswer": 0,
-          "explanation": "El doctor dice: 'I should stay at home... drink a lot of water'."
+          "explanation": "[[David says he has a fever and headache, and the nurse sees a sore throat.|David dice que tiene fiebre y dolor de cabeza, y la enfermera ve una garganta dolorida.]]"
         }
       ]
     },
@@ -975,23 +423,17 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "Healthy habits. To be healthy, you should eat a lot of fruit and vegetables. You should also drink two liters of water every day. Exercise is important, so you should walk or run for thirty minutes. You shouldn't smoke or eat too much sugar. Sleep is also very important for your body.",
+    "difficulty": "hard",
+    "transcript": "[[At the doctor's office,|En la consulta del médico,]] [[David is feeling very sick.|David se siente muy enfermo.]] [['What is the matter?'|'¿Qué te pasa?']] [[asks the nurse.|pregunta la enfermera.]] [['I have got a high fever,'|'Tengo una fiebre alta,']] [[David says,|dice David,]] [['and my head hurts a lot.'|'y mi cabeza me duele mucho.']] [[The nurse says,|La enfermera dice,]] [['You should see the doctor immediately.|'Deberías ver al médico inmediatamente.]] [[Open your mouth,|Abre tu boca,]] [[please.|por favor.]] [[Oh, you have got|Oh, tienes]] [[a very sore throat.'|una garganta muy dolorida.']] [[The doctor arrives|El médico llega]] [[and gives David some advice:|y le da a David algunos consejos:]] [['You should stay at home|'Deberías quedarte en casa]] [[and rest for three days.|y descansar durante tres días.]] [[You should drink|Deberías beber]] [[plenty of water,|mucha agua,]] [[but you shouldn't drink|pero no deberías beber]] [[anything cold.'|nada frío.']] [[David goes home|David va a casa]] [[to rest.|a descansar.]]",
     "content": {
-      "title": "Hábitos Saludables",
-      "instructions": "Lee sobre los consejos de salud.",
+      "title": "[[Reading: The Doctor's Advice|Lectura: El consejo del médico]]",
+      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "[[How much water should you drink|Cuánto mucho agua deberías tú beber]]?",
-          "options": ["[[Two liters a day|Dos litros al día]]", "[[One glass a day|Un vaso al día]]", "[[Only when thirsty|Solo con sed]]"],
+          "question": "[[What should David do for three days?|¿Qué debería hacer David durante tres días?]]",
+          "options": ["[[Stay at home and rest|Quedarse en casa y descansar]]", "[[Go to work and drink juice|Ir a trabajar y beber zumo]]", "[[Run in the park|Correr en el parque]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'drink two liters of water every day'."
-        },
-        {
-          "question": "[[What shouldn't you do|Qué no deberías tú hacer]]?",
-          "options": ["[[Smoke or eat too much sugar|Fumar o comer mucha azúcar]]", "[[Walk or run|Caminar o correr]]", "[[Sleep|Dormir]]"],
-          "correctAnswer": 0,
-          "explanation": "Dice: 'You shouldn't smoke or eat too much sugar'."
+          "explanation": "[[The doctor tells David he should stay at home and rest for three days.|El médico le dice a David que debería quedarse en casa y descansar tres días.]]"
         }
       ]
     },
@@ -1003,23 +445,17 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "Tom's accident. Tom was playing football yesterday and he fell. Now his right leg hurts a lot. He has got a big purple bruise on his knee. His mother says he should put some ice on it. He shouldn't play football for a week. He feels very sad because he loves sports.",
+    "difficulty": "hard",
+    "transcript": "[[At the doctor's office,|En la consulta del médico,]] [[David is feeling very sick.|David se siente muy enfermo.]] [['What is the matter?'|'¿Qué te pasa?']] [[asks the nurse.|pregunta la enfermera.]] [['I have got a high fever,'|'Tengo una fiebre alta,']] [[David says,|dice David,]] [['and my head hurts a lot.'|'y mi cabeza me duele mucho.']] [[The nurse says,|La enfermera dice,]] [['You should see the doctor immediately.|'Deberías ver al médico inmediatamente.]] [[Open your mouth,|Abre tu boca,]] [[please.|por favor.]] [[Oh, you have got|Oh, tienes]] [[a very sore throat.'|una garganta muy dolorida.']] [[The doctor arrives|El médico llega]] [[and gives David some advice:|y le da a David algunos consejos:]] [['You should stay at home|'Deberías quedarte en casa]] [[and rest for three days.|y descansar durante tres días.]] [[You should drink|Deberías beber]] [[plenty of water,|mucha agua,]] [[but you shouldn't drink|pero no deberías beber]] [[anything cold.'|nada frío.']] [[David goes home|David va a casa]] [[to rest.|a descansar.]]",
     "content": {
-      "title": "El Accidente de Tom",
-      "instructions": "Lee sobre la lesión de Tom.",
+      "title": "[[Reading: Drinking Advice|Lectura: Consejos sobre la bebida]]",
+      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "[[Where does Tom have pain|Dónde le Tom tener dolor]]?",
-          "options": ["[[In his right leg|En su pierna derecha]]", "[[In his arm|En su brazo]]", "[[In his head|En su cabeza]]"],
+          "question": "[[What shouldn't David drink?|¿Qué no debería beber David?]]",
+          "options": ["[[Anything cold|Nada frío]]", "[[Plenty of water|Mucha agua]]", "[[Hot tea|Té caliente]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'his right leg hurts a lot'."
-        },
-        {
-          "question": "[[What should he do|Qué debería él hacer]]?",
-          "options": ["[[Put ice on his knee|Poner hielo en su rodilla]]", "[[Play more football|Jugar más fútbol]]", "[[Go to school|Ir a la escuela]]"],
-          "correctAnswer": 0,
-          "explanation": "Dice: 'he should put some ice on it'."
+          "explanation": "[[The doctor says David shouldn't drink anything cold.|El médico dice que David no debería beber nada frío.]]"
         }
       ]
     },
@@ -1031,23 +467,17 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "Anna's toothache. Anna has got a terrible toothache. She can't eat or sleep. She is very nervous because she doesn't like the dentist. Her father says, 'You should go today, Anna. It is important.' Anna takes some medicine, but her tooth still hurts. Finally, she calls the dentist.",
+    "difficulty": "hard",
+    "transcript": "[[Our body is amazing!|¡Nuestro cuerpo es asombroso!]] [[We have|Tenemos]] [[two eyes to see,|dos ojos para ver,]] [[two ears to hear,|dos oídos para oír,]] [[and one nose|y una nariz]] [[to smell.|para oler.]] [[We use our mouth|Usamos nuestra boca]] [[to eat and speak.|para comer y hablar.]] [[We have got|Tenemos]] [[two hands|dos manos]] [[with five fingers|con cinco dedos]] [[on each one.|en cada una.]] [[Hands are for|Las manos son para]] [[holding things.|sostener cosas.]] [[We have got|Tenemos]] [[two legs|dos piernas]] [[and two feet|y dos pies]] [[to walk and run.|para caminar y correr.]] [[It is important|Es importante]] [[to take care|cuidar]] [[of our body.|de nuestro cuerpo.]] [[You should exercise,|Deberías hacer ejercicio,]] [[eat healthy food,|comer comida saludable,]] [[and sleep eight hours|y dormir ocho horas]] [[every night.|cada noche.]]",
     "content": {
-      "title": "Dolor de Muelas de Anna",
-      "instructions": "Lee sobre Anna.",
+      "title": "[[Reading: The Human Body|Lectura: El cuerpo humano]]",
+      "instructions": "[[Read about the body and answer.|Lee sobre el cuerpo y responde.]]",
       "questions": [
         {
-          "question": "[[Why can't Anna eat|Por qué no puede Anna comer]]?",
-          "options": ["[[Because she has a toothache|Porque le duele la muela]]", "[[Because she is not hungry|Porque no tiene hambre]]", "[[Because she is tired|Porque está cansada]]"],
+          "question": "[[How many fingers do we have on each hand?|¿Cuántos dedos tenemos en cada mano?]]",
+          "options": ["[[Five|Cinco]]", "[[Ten|Diez]]", "[[Two|Dos]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'Anna has got a terrible toothache. She can't eat...'."
-        },
-        {
-          "question": "[[How does she feel about the dentist|Cómo se ella sentir sobre el dentista]]?",
-          "options": ["[[She is nervous|Está nerviosa]]", "[[She is happy|Está feliz]]", "[[She is excited|Está emocionada]]"],
-          "correctAnswer": 0,
-          "explanation": "Dice: 'She is very nervous because she doesn't like the dentist'."
+          "explanation": "[[The text says we have five fingers on each hand.|El texto dice que tenemos cinco dedos en cada mano.]]"
         }
       ]
     },
@@ -1059,27 +489,21 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "The flu season. It is winter and many people have got the flu. My sister has got a high fever and a bad cough. She feels very weak. My mother says we should all wash our hands many times a day. We should also eat oranges because they have vitamin C. We shouldn't share glasses or towels.",
+    "difficulty": "hard",
+    "transcript": "[[Our body is amazing!|¡Nuestro cuerpo es asombroso!]] [[We have|Tenemos]] [[two eyes to see,|dos ojos para ver,]] [[two ears to hear,|dos oídos para oír,]] [[and one nose|y una nariz]] [[to smell.|para oler.]] [[We use our mouth|Usamos nuestra boca]] [[to eat and speak.|para comer y hablar.]] [[We have got|Tenemos]] [[two hands|dos manos]] [[with five fingers|con cinco dedos]] [[on each one.|en cada una.]] [[Hands are for|Las manos son para]] [[holding things.|sostener cosas.]] [[We have got|Tenemos]] [[two legs|dos piernas]] [[and two feet|y dos pies]] [[to walk and run.|para caminar y correr.]] [[It is important|Es importante]] [[to take care|cuidar]] [[of our body.|de nuestro cuerpo.]] [[You should exercise,|Deberías hacer ejercicio,]] [[eat healthy food,|comer comida saludable,]] [[and sleep eight hours|y dormir ocho horas]] [[every night.|cada noche.]]",
     "content": {
-      "title": "Temporada de Gripe",
-      "instructions": "Lee sobre la gripe.",
+      "title": "[[Reading: Using the Body|Lectura: Usando el cuerpo]]",
+      "instructions": "[[Read about the body and answer.|Lee sobre el cuerpo y responde.]]",
       "questions": [
         {
-          "question": "[[What symptoms does the sister have|Qué síntomas tiene la hermana tener]]?",
-          "options": ["[[Fever and cough|Fiebre y tos]]", "[[Stomach ache|Dolor de estómago]]", "[[Broken arm|Brazo roto]]"],
+          "question": "[[What do we use our mouth for?|¿Para qué usamos nuestra boca?]]",
+          "options": ["[[To eat and speak|Para comer y hablar]]", "[[To see and hear|Para ver y oír]]", "[[To walk and run|Para caminar y correr]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'My sister has got a high fever and a bad cough'."
-        },
-        {
-          "question": "[[What should they eat|Qué deberían ellos comer]]?",
-          "options": ["[[Oranges|Naranjas]]", "[[Apples|Manzanas]]", "[[Chocolate|Chocolate]]"],
-          "correctAnswer": 0,
-          "explanation": "Dice: 'We should also eat oranges'."
+          "explanation": "[[We use our mouth to eat and speak.|Usamos la boca para comer y hablar.]]"
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-20/e51.mp3",
+    "audioUrl": "audio/a1/unit-20/e55.mp3",
     "topicName": "Reading"
   },
   {
@@ -1087,23 +511,17 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "Working too much. Mr. Brown works twelve hours every day. He is very stressed. He has got a backache and his eyes are always red. His wife is worried. She says, 'You should work less and relax more. You should go for a walk in the park.' Mr. Brown thinks she is right.",
+    "difficulty": "hard",
+    "transcript": "[[Our body is amazing!|¡Nuestro cuerpo es asombroso!]] [[We have|Tenemos]] [[two eyes to see,|dos ojos para ver,]] [[two ears to hear,|dos oídos para oír,]] [[and one nose|y una nariz]] [[to smell.|para oler.]] [[We use our mouth|Usamos nuestra boca]] [[to eat and speak.|para comer y hablar.]] [[We have got|Tenemos]] [[two hands|dos manos]] [[with five fingers|con cinco dedos]] [[on cada uno.|en cada una.]] [[Hands are for|Las manos son para]] [[holding things.|sostener cosas.]] [[We have got|Tenemos]] [[two legs|dos piernas]] [[and dos pies|y dos pies]] [[to walk and run.|para caminar y correr.]] [[It is important|Es importante]] [[to take care|cuidar]] [[of our body.|de nuestro cuerpo.]] [[You should exercise,|Deberías hacer ejercicio,]] [[eat healthy food,|comer comida saludable,]] [[and sleep eight hours|y dormir ocho horas]] [[every night.|cada noche.]]",
     "content": {
-      "title": "Trabajando Demasiado",
-      "instructions": "Lee sobre Mr. Brown.",
+      "title": "[[Reading: Healthy Habits|Lectura: Hábitos saludables]]",
+      "instructions": "[[Read about the body and answer.|Lee sobre el cuerpo y responde.]]",
       "questions": [
         {
-          "question": "[[How many hours does he work|Cuántas muchas horas hace él trabajar]]?",
-          "options": ["[[Twelve hours a day|Doce horas al día]]", "[[Eight hours a day|Ocho horas al día]]", "[[Five hours a day|Cinco horas al día]]"],
+          "question": "[[How many hours should we sleep?|¿Cuántas horas deberíamos dormir?]]",
+          "options": ["[[Eight hours|Ocho horas]]", "[[Five hours|Cinco horas]]", "[[Twelve hours|Doce horas]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'Mr. Brown works twelve hours every day'."
-        },
-        {
-          "question": "[[What is his problem|Qué está su problema]]?",
-          "options": ["[[Backache and red eyes|Dolor de espalda y ojos rojos]]", "[[Toothache|Dolor de muelas]]", "[[Broken leg|Pierna rota]]"],
-          "correctAnswer": 0,
-          "explanation": "Dice: 'He has got a backache and his eyes are always red'."
+          "explanation": "[[The text advises to sleep eight hours every night.|El texto aconseja dormir ocho horas cada noche.]]"
         }
       ]
     },
@@ -1116,22 +534,16 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "At the pharmacy. I'm at the pharmacy because my son is sick. He's got a sore throat and a cough. I need to buy some medicine. The pharmacist says I should give him this syrup twice a day. He also says my son should drink warm tea with honey. I shouldn't give him very cold water.",
+    "transcript": "[[Maria is not having|Maria no está teniendo]] [[a good day.|un buen día.]] [[She has got|Ella tiene]] [[a terrible toothache.|un terrible dolor de muelas.]] [[Her jaw|Su mandíbula]] [[hurts a lot.|le duele mucho.]] [[She shouldn't|Ella no debería]] [[eat anything hard.|comer nada duro.]] [[She should call|Debería llamar]] [[the dentist|al dentista]] [[right now.|ahora mismo.]] [[Last week,|La semana pasada,]] [[she had|ella tuvo]] [[a stomach ache,|un dolor de estómago,]] [[but now|pero ahora]] [[her stomach|su estómago]] [[is fine.|está bien.]] [[Maria thinks:|Maria piensa:]] [['I should go|'Debería ir]] [[to the doctor|al médico]] [[more often'.|más a menudo'.]]",
     "content": {
-      "title": "En la Farmacia",
-      "instructions": "Lee sobre la farmacia.",
+      "title": "[[Reading: Maria's Health|Lectura: La salud de Maria]]",
+      "instructions": "[[Read about Maria and answer.|Lee sobre Maria y responde.]]",
       "questions": [
         {
-          "question": "[[Who is sick|Quién está enfermo]]?",
-          "options": ["[[The son|El hijo]]", "[[The father|El padre]]", "[[The pharmacist|El farmacéutico]]"],
+          "question": "[[What is the matter with Maria today?|¿Qué le pasa a Maria hoy?]]",
+          "options": ["[[She has got a toothache|Tiene un dolor de muelas]]", "[[She has got a stomach ache|Tiene un dolor de estómago]]", "[[She is very happy|Está muy feliz]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'my son is sick'."
-        },
-        {
-          "question": "[[What should the boy drink|Qué debería el niño beber]]?",
-          "options": ["[[Warm tea with honey|Té caliente con miel]]", "[[Cold water|Agua fría]]", "[[Orange juice|Zumo de naranja]]"],
-          "correctAnswer": 0,
-          "explanation": "Dice: 'my son should drink warm tea with honey'."
+          "explanation": "[[Maria has got a terrible toothache today.|Maria tiene un terrible dolor de muelas hoy.]]"
         }
       ]
     },
@@ -1144,22 +556,16 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "My grandmother's health. My grandmother is eighty years old. She's very healthy because she eats good food. She's got a little pain in her knees sometimes, but she walks every day. She says young people should eat less junk food. She thinks everyone should be active to feel happy.",
+    "transcript": "[[Maria is not having|Maria no está teniendo]] [[a good day.|un buen día.]] [[She has got|Ella tiene]] [[a terrible toothache.|un terrible dolor de muelas.]] [[Her jaw|Su mandíbula]] [[hurts a lot.|le duele mucho.]] [[She shouldn't|Ella no debería]] [[eat anything hard.|comer nada duro.]] [[She should call|Debería llamar]] [[the dentist|al dentista]] [[right now.|ahora mismo.]] [[Last week,|La semana pasada,]] [[she had|ella tuvo]] [[a stomach ache,|un dolor de estómago,]] [[but now|pero ahora]] [[her stomach|su estómago]] [[is fine.|está bien.]] [[Maria thinks:|Maria piensa:]] [['I should go|'Debería ir]] [[to the doctor|al médico]] [[more often'.|más a menudo'.]]",
     "content": {
-      "title": "La Salud de la Abuela",
-      "instructions": "Lee sobre la abuela.",
+      "title": "[[Reading: Who to call?|Lectura: ¿A quién llamar?]]",
+      "instructions": "[[Read about Maria and answer.|Lee sobre Maria y responde.]]",
       "questions": [
         {
-          "question": "[[Why is she healthy|Por qué es ella saludable]]?",
-          "options": ["[[Because she eats good food|Porque come buena comida]]", "[[Because she is young|Porque es joven]]", "[[Because she sleeps all day|Porque duerme todo el día]]"],
+          "question": "[[Who should Maria call?|¿A quién debería llamar Maria?]]",
+          "options": ["[[The dentist|Al dentista]]", "[[The nurse|A la enfermera]]", "[[Her mother|A su madre]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'She's very healthy because she eats good food'."
-        },
-        {
-          "question": "[[What hurts sometimes|Qué duele a veces]]?",
-          "options": ["[[Her knees|Sus rodillas]]", "[[Her head|Su cabeza]]", "[[Her back|Su espalda]]"],
-          "correctAnswer": 0,
-          "explanation": "Dice: 'She's got a little pain in her knees sometimes'."
+          "explanation": "[[Because she has a toothache, she should call the dentist.|Porque tiene dolor de muelas, debería llamar al dentista.]]"
         }
       ]
     },
@@ -1171,23 +577,17 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "A summer cold. Many people think you can't get a cold in summer, but it's possible. My friend Lisa has got a cold now. She was using the air conditioning all day. Now she has a sore throat and she is sneezing. She should turn off the air conditioning and drink water. She shouldn't go to the beach today.",
+    "difficulty": "hard",
+    "transcript": "[[Is it okay|¿Está bien]] [[to exercise|hacer ejercicio]] [[when you are sick?|cuando estás enfermo?]] [[Most doctors say:|La mayoría de los médicos dicen:]] [['No, you shouldn't.'|'No, no deberías.']] [[When you have got|Cuando tienes]] [[a fever|fiebre]] [[or a bad cold,|o un mal resfriado,]] [[your body needs|tu cuerpo necesita]] [[to rest.|descansar.]] [[You shouldn't run|No deberías correr]] [[or go to the gym.|ni ir al gimnasio.]] [[However,|Sin embargo,]] [[if you have|si tienes]] [[a small headache,|un pequeño dolor de cabeza,]] [[a short walk|un paseo corto]] [[can be good.|puede ser bueno.]] [[But always|Pero siempre]] [[listen to your body.|escucha a tu cuerpo.]] [[If you feel|Si te sientes]] [[very tired,|muy cansado,]] [[you should|deberías]] [[just sleep.|simplemente dormir.]]",
     "content": {
-      "title": "Resfriado de Verano",
-      "instructions": "Lee sobre Lisa.",
+      "title": "[[Reading: Exercise and Health|Lectura: Ejercicio y salud]]",
+      "instructions": "[[Read the advice and answer.|Lee el consejo y responde.]]",
       "questions": [
         {
-          "question": "[[Why has she a cold|Por qué tiene ella un resfriado]]?",
-          "options": ["[[Because of air conditioning|Por el aire acondicionado]]", "[[Because of the rain|Por la lluvia]]", "[[Because of the sun|Por el sol]]"],
+          "question": "[[Should you go to the gym with a fever?|¿Deberías ir al gimnasio con fiebre?]]",
+          "options": ["[[No, you shouldn't|No, no deberías]]", "[[Yes, it's good|Sí, es bueno]]", "[[Only for ten minutes|Solo durante diez minutos]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'She was using the air conditioning all day'."
-        },
-        {
-          "question": "[[What is she doing|Qué está ella haciendo]]?",
-          "options": ["[[Sneezing|Estornudando]]", "[[Coughing|Tosiendo]]", "[[Sleeping|Durmiendo]]"],
-          "correctAnswer": 0,
-          "explanation": "Dice: 'she is sneezing'."
+          "explanation": "[[The text says you shouldn't run or go to the gym when you have a fever.|El texto dice que no deberías correr ni ir al gimnasio cuando tienes fiebre.]]"
         }
       ]
     },
@@ -1199,23 +599,17 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "Gym and health. David goes to the gym three times a week. He wants to have a strong body. He works on his arms and legs. After the gym, his muscles often hurt. His coach says he should stretch more. He should also eat more protein like chicken and eggs. He shouldn't lift weights that are too heavy.",
+    "difficulty": "hard",
+    "transcript": "[[Is it okay|¿Está bien]] [[to exercise|hacer ejercicio]] [[when you are sick?|cuando estás enfermo?]] [[Most doctors say:|La mayoría de los médicos dicen:]] [['No, you shouldn't.'|'No, no deberías.']] [[When you have got|Cuando tienes]] [[a fever|fiebre]] [[or a bad cold,|o un mal resfriado,]] [[your body needs|tu cuerpo necesita]] [[to rest.|descansar.]] [[You shouldn't run|No deberías correr]] [[or go to the gym.|ni ir al gimnasio.]] [[However,|Sin embargo,]] [[if you have|si tienes]] [[a small headache,|un pequeño dolor de cabeza,]] [[a short walk|un paseo corto]] [[can be good.|puede ser bueno.]] [[But always|Pero siempre]] [[listen to your body.|escucha a tu cuerpo.]] [[If you feel|Si te sientes]] [[very tired,|muy cansado,]] [[you should|deberías]] [[just sleep.|simplemente dormir.]]",
     "content": {
-      "title": "Gimnasio y Salud",
-      "instructions": "Lee sobre David.",
+      "title": "[[Reading: Small Headaches|Lectura: Pequeños dolores de cabeza]]",
+      "instructions": "[[Read the advice and answer.|Lee el consejo y responde.]]",
       "questions": [
         {
-          "question": "[[How often does he go to the gym|Qué tan a menudo va él ir al el gimnasio]]?",
-          "options": ["[[Three times a week|Tres veces por semana]]", "[[Every day|Cada día]]", "[[Once a month|Una vez al mes]]"],
+          "question": "[[What can be good for a small headache?|¿Qué puede ser bueno para un pequeño dolor de cabeza?]]",
+          "options": ["[[A short walk|Un paseo corto]]", "[[Running a marathon|Correr un maratón]]", "[[Eating candy|Comer caramelos]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'David goes to the gym three times a week'."
-        },
-        {
-          "question": "[[What should he eat more|Qué debería él comer más]]?",
-          "options": ["[[Protein|Proteína]]", "[[Sugar|Azúcar]]", "[[Fruit|Fruta]]"],
-          "correctAnswer": 0,
-          "explanation": "Dice: 'He should also eat more protein'."
+          "explanation": "[[According to the text, a short walk can be good for a small headache.|Según el texto, un paseo corto puede ser bueno para un pequeño dolor de cabeza.]]"
         }
       ]
     },

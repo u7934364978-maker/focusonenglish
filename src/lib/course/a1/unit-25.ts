@@ -7,18 +7,18 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e11",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: What is he like?",
+    "topic": "Grammar: Be going to",
     "difficulty": "easy",
-    "transcript": "What is your best friend like? She is very kind.",
+    "transcript": "I am going to travel to London next month.",
     "content": {
-      "title": "¿Cómo es ella?",
-      "instructions": "Elige la pregunta correcta para la personalidad.",
+      "title": "Planes Futuros: Afirmativo",
+      "instructions": "Elige la forma correcta para expresar planes.",
       "questions": [
         {
-          "question": "_______ [[is your best friend like|es tu mejor amigo/a como]]?",
-          "options": ["[[What|Qué/Cómo]]", "[[How|Cómo (estado)]]", "[[Who|Quién]]"],
-          "correctAnswer": 0,
-          "explanation": "'What is he/she like?' se usa para preguntar por la personalidad."
+          "question": "[[I|Yo]] _______ [[travel to London next month|viajar a Londres el mes que viene]].",
+          "options": ["[[go to|voy a]]", "[[am going to|voy a]]", "[[am go to|error]]"],
+          "correctAnswer": 1,
+          "explanation": "Usamos am/is/are + going to + verbo para planes futuros."
         }
       ]
     },
@@ -29,40 +29,40 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e12",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Positive Traits",
+    "topic": "Grammar: Be going to",
     "difficulty": "easy",
-    "transcript": "My teacher is very intelligent and helpful.",
+    "transcript": "She is going to buy a new car.",
     "content": {
-      "title": "Mi Profesor",
-      "instructions": "Elige el adjetivo positivo.",
+      "title": "Planes Futuros: She",
+      "instructions": "Elige la forma correcta.",
       "questions": [
         {
-          "question": "[[My teacher is very|Mi profesor/a es muy]] _______ [[and helpful|y servicial]].",
-          "options": ["[[intelligent|inteligente]]", "[[lazy|perezoso]]", "[[angry|enfadado]]"],
+          "question": "[[She|Ella]] _______ [[buy a new car|comprar un coche nuevo]].",
+          "options": ["[[is going to|va a]]", "[[are going to|van a]]", "[[goes to|va a]]"],
           "correctAnswer": 0,
-          "explanation": "Intelligent es una característica positiva para un profesor."
+          "explanation": "Con 'she', usamos 'is going to'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-25/e12.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u25-e13",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: How do you feel?",
-    "difficulty": "easy",
-    "transcript": "How do you feel today? I feel very happy.",
+    "topic": "Grammar: Be going to",
+    "difficulty": "medium",
+    "transcript": "We are going to visit our grandparents this weekend.",
     "content": {
-      "title": "¿Cómo te sientes?",
-      "instructions": "Completa la pregunta sobre el estado de ánimo.",
+      "title": "Planes Futuros: We",
+      "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "_______ [[do you feel today|auxiliar tú sentirse hoy]]?",
-          "options": ["[[How|Cómo]]", "[[What|Qué]]", "[[Is|Es]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'How' para preguntar por el estado de ánimo actual."
+          "question": "[[We|Nosotros]] _______ [[visit our grandparents|visitar a nuestros abuelos]].",
+          "options": ["[[is going to|va a]]", "[[are going to|vamos a]]", "[[am going to|voy a]]"],
+          "correctAnswer": 1,
+          "explanation": "Con 'we', usamos 'are going to'."
         }
       ]
     },
@@ -73,62 +73,62 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e14",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Negative Traits",
+    "topic": "Grammar: Be going to",
     "difficulty": "medium",
-    "transcript": "He never works, he is very lazy.",
+    "transcript": "What are you going to do tonight?",
     "content": {
-      "title": "Perezoso",
-      "instructions": "Elige el adjetivo que describe a alguien que no trabaja.",
+      "title": "Planes Futuros: Preguntas",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[He never, he works is very|Él nunca trabaja, él es muy]] _______.",
-          "options": ["[[lazy|perezoso]]", "[[hard-working|trabajador]]", "[[funny|divertido]]"],
-          "correctAnswer": 0,
-          "explanation": "'Lazy' significa perezoso o vago."
+          "question": "[[What|Qué]] _______ [[you going to do tonight|vas a hacer esta noche]]?",
+          "options": ["[[is|es/está]]", "[[are|eres/estás]]", "[[do|haces]]"],
+          "correctAnswer": 1,
+          "explanation": "En preguntas con 'you', usamos 'are' delante de 'you going to'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-25/e14.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u25-e15",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Feelings",
-    "difficulty": "easy",
-    "transcript": "I need a coffee. I am very tired.",
+    "topic": "Grammar: Be going to",
+    "difficulty": "medium",
+    "transcript": "I am not going to watch a movie tonight.",
     "content": {
-      "title": "Cansado",
-      "instructions": "Completa con el estado físico/mental.",
+      "title": "Planes Futuros: Negativo",
+      "instructions": "Elige la forma negativa correcta.",
       "questions": [
         {
-          "question": "[[I need. I am a coffee very|Yo necesito un café. Yo estoy muy]] _______.",
-          "options": ["[[tired|cansado]]", "[[excited|emocionado]]", "[[generous|generoso]]"],
-          "correctAnswer": 0,
-          "explanation": "Cuando necesitamos café, solemos estar cansados (tired)."
+          "question": "[[I|Yo]] _______ [[watch a movie tonight|ver una película esta noche]].",
+          "options": ["[[not going to|no voy a]]", "[[am not going to|no voy a]]", "[[don't go to|no voy a]]"],
+          "correctAnswer": 1,
+          "explanation": "La negación se forma con am/is/are + not + going to."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-25/e15.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u25-e16",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Social",
-    "difficulty": "medium",
-    "transcript": "Please say thank you. Be polite.",
+    "topic": "Vocabulary: Future Time",
+    "difficulty": "easy",
+    "transcript": "I'm going to see him tomorrow.",
     "content": {
-      "title": "Educación",
-      "instructions": "Elige el adjetivo de comportamiento.",
+      "title": "Expresiones de Tiempo Futuro",
+      "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[Please say. Be thank you|Por favor di gracias a ti. Sé]] _______.",
-          "options": ["[[polite|educado]]", "[[rude|grosero]]", "[[shy|tímido]]"],
-          "correctAnswer": 0,
-          "explanation": "Dar las gracias es un acto de educación (polite)."
+          "question": "[[I'm going to see him|Voy a verle]] _______.",
+          "options": ["[[yesterday|ayer]]", "[[tomorrow|mañana]]", "[[last week|la semana pasada]]"],
+          "correctAnswer": 1,
+          "explanation": "'Tomorrow' (mañana) es una expresión de tiempo futuro."
         }
       ]
     },
@@ -139,40 +139,40 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e17",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Adjectives",
-    "difficulty": "easy",
-    "transcript": "She isn't shy, she is very talkative.",
+    "topic": "Grammar: Be going to",
+    "difficulty": "medium",
+    "transcript": "Are they going to play tennis?",
     "content": {
-      "title": "Hablador",
-      "instructions": "Elige lo opuesto a 'shy'.",
+      "title": "Preguntas de Sí/No",
+      "instructions": "Elige la opción correcta.",
       "questions": [
         {
-          "question": "[[She isn't, she shy is very|Ella no es tímida, ella es muy]] _______.",
-          "options": ["[[talkative|habladora]]", "[[quiet|callada]]", "[[sad|triste]]"],
+          "question": "_______ [[they going to play tennis|van ellos a jugar al tenis]]?",
+          "options": ["[[Are|Van]]", "[[Is|Va]]", "[[Do|Hacen]]"],
           "correctAnswer": 0,
-          "explanation": "'Talkative' es alguien que habla mucho, lo opuesto a alguien tímido o callado."
+          "explanation": "Usamos 'Are' para preguntas en plural con 'they'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-25/e17.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u25-e18",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Feelings",
+    "topic": "Vocabulary: Future Expressions",
     "difficulty": "medium",
-    "transcript": "I have an exam tomorrow. I am very nervous.",
+    "transcript": "We are going to move house next year.",
     "content": {
-      "title": "Antes de un Examen",
-      "instructions": "Completa con la emoción adecuada.",
+      "title": "Tiempo Futuro",
+      "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[I have. I an exam tomorrow am very|Yo tengo un examen mañana. Yo estoy muy]] _______.",
-          "options": ["[[nervous|nervioso]]", "[[bored|aburrido]]", "[[brave|valiente]]"],
-          "correctAnswer": 0,
-          "explanation": "Es normal sentirse nervioso antes de un examen."
+          "question": "[[We are going to move house|Nos vamos a mudar de casa]] _______ [[year|año]].",
+          "options": ["[[last|pasado]]", "[[next|próximo]]", "[[now|ahora]]"],
+          "correctAnswer": 1,
+          "explanation": "'Next year' significa el año que viene/el próximo año."
         }
       ]
     },
@@ -183,18 +183,18 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e19",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Why/Because",
+    "topic": "Grammar: Be going to",
     "difficulty": "medium",
-    "transcript": "Why are you sad? Because I lost my keys.",
+    "transcript": "He is going to study medicine.",
     "content": {
-      "title": "¿Por qué?",
-      "instructions": "Completa con la palabra de pregunta.",
+      "title": "Planes de Carrera",
+      "instructions": "Elige la forma correcta.",
       "questions": [
         {
-          "question": "_______ [[are you? Because sad I lost my keys|estás tú triste? Porque yo perdí mis llaves]].",
-          "options": ["[[Why|Por qué]]", "[[What|Qué]]", "[[When|Cuándo]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'Why' para preguntar el motivo de algo."
+          "question": "[[He|Él]] _______ [[study medicine|estudiar medicina]].",
+          "options": ["[[going to|va a]]", "[[is going to|va a]]", "[[am going to|voy a]]"],
+          "correctAnswer": 1,
+          "explanation": "Con 'he', necesitamos el auxiliar 'is' antes de 'going to'."
         }
       ]
     },
@@ -205,18 +205,18 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e20",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: General",
+    "topic": "Vocabulary: Holidays",
     "difficulty": "easy",
-    "transcript": "My brother is a funny person. He makes me laugh.",
+    "transcript": "They are going to go on holiday soon.",
     "content": {
-      "title": "Gracioso",
-      "instructions": "Elige el adjetivo que describe a alguien que hace reír.",
+      "title": "Vocabulario: Vacaciones",
+      "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[My brother. He is a|Mi hermano es una]] _______ [[person makes me laugh|persona. Él hace me reír]].",
-          "options": ["[[funny|graciosa]]", "[[serious|seria]]", "[[scared|asustada]]"],
+          "question": "[[They are going to go on|Ellos se van a ir de]] _______ [[soon|pronto]].",
+          "options": ["[[holiday|vacaciones]]", "[[work|trabajo]]", "[[school|escuela]]"],
           "correctAnswer": 0,
-          "explanation": "'Funny' es alguien que tiene gracia o hace reír."
+          "explanation": "'Go on holiday' es una expresión común para irse de vacaciones."
         }
       ]
     },
@@ -227,40 +227,40 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e21",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Emotions",
-    "difficulty": "medium",
-    "transcript": "Today is my birthday! I am so excited!",
+    "topic": "Grammar: Be going to",
+    "difficulty": "hard",
+    "transcript": "Who is going to cook dinner?",
     "content": {
-      "title": "Emocionado",
-      "instructions": "Elige la emoción positiva e intensa.",
+      "title": "Preguntas con 'Who'",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[Today is! I am my birthday so|Hoy es mi cumpleaños! Yo estoy tan]] _______!",
-          "options": ["[[excited|emocionado]]", "[[worried|preocupado]]", "[[lonely|solo]]"],
+          "question": "[[Who|Quién]] _______ [[going to cook dinner|va a cocinar la cena]]?",
+          "options": ["[[is|es/está]]", "[[are|son/están]]", "[[am|soy/estoy]]"],
           "correctAnswer": 0,
-          "explanation": "En un cumpleaños es normal estar emocionado (excited)."
+          "explanation": "Usamos 'is' con 'who' cuando preguntamos por el sujeto de la acción en singular."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-25/e21.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u25-e22",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Traits",
+    "topic": "Vocabulary: Future",
     "difficulty": "medium",
-    "transcript": "She is very patient with children.",
+    "transcript": "I am going to start a new course next Monday.",
     "content": {
-      "title": "Paciente",
-      "instructions": "Elige el adjetivo de personalidad.",
+      "title": "Planes Educativos",
+      "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[She is very children|Ella es muy]] _______ [[with|con niños]].",
-          "options": ["[[patient|paciente]]", "[[rude|grosera]]", "[[stressed|estresada]]"],
+          "question": "[[I am going to|Voy a]] _______ [[a new course|un nuevo curso]].",
+          "options": ["[[start|empezar]]", "[[finish|terminar]]", "[[look|mirar]]"],
           "correctAnswer": 0,
-          "explanation": "Ser paciente es una gran cualidad al tratar con niños."
+          "explanation": "'Start' (empezar) es lo que haces con un curso nuevo."
         }
       ]
     },
@@ -271,18 +271,18 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e23",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Be",
-    "difficulty": "easy",
-    "transcript": "Are you angry with me?",
+    "topic": "Grammar: Be going to",
+    "difficulty": "medium",
+    "transcript": "Is it going to snow today?",
     "content": {
-      "title": "¿Estás Enfadado?",
-      "instructions": "Completa la pregunta con el verbo to be.",
+      "title": "Predicciones de Tiempo",
+      "instructions": "Elige la opción correcta.",
       "questions": [
         {
-          "question": "_______ [[you angry with me|tú enfadado con migo]]?",
-          "options": ["[[Are|Estás]]", "[[Do|Haces]]", "[[Is|Está]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'Are you...?' para preguntar por un estado emocional."
+          "question": "_______ [[it going to snow today|va a nevar hoy]]?",
+          "options": ["[[Are|Van]]", "[[Is|Va]]", "[[Do|Hacer]]"],
+          "correctAnswer": 1,
+          "explanation": "Usamos 'Is' con el sujeto impersonal 'it' para predicciones del clima."
         }
       ]
     },
@@ -293,18 +293,18 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e24",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Negative",
+    "topic": "Vocabulary: Future Time",
     "difficulty": "medium",
-    "transcript": "Don't be rude to the waiter.",
+    "transcript": "She is going to call you later.",
     "content": {
-      "title": "Sin Mala Educación",
-      "instructions": "Elige el adjetivo de comportamiento negativo.",
+      "title": "Tiempo Futuro Cercano",
+      "instructions": "Elige la expresión correcta.",
       "questions": [
         {
-          "question": "[[Don't be waiter|No seas]] _______ [[to the|con el camarero]].",
-          "options": ["[[rude|grosero]]", "[[kind|amable]]", "[[helpful|servicial]]"],
+          "question": "[[She is going to call you|Ella te va a llamar]] _______.",
+          "options": ["[[later|luego/más tarde]]", "[[now|ahora]]", "[[yesterday|ayer]]"],
           "correctAnswer": 0,
-          "explanation": "'Rude' es ser grosero o maleducado."
+          "explanation": "'Later' se usa para referirse a un momento posterior en el futuro."
         }
       ]
     },
@@ -315,544 +315,40 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e25",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Positive",
-    "difficulty": "easy",
-    "transcript": "My neighbor is very friendly.",
+    "topic": "Grammar: Be going to",
+    "difficulty": "hard",
+    "transcript": "They aren't going to come to the party.",
     "content": {
-      "title": "Un Buen Vecino",
-      "instructions": "Describe a un vecino simpático.",
+      "title": "Negación Plural",
+      "instructions": "Elige la forma negativa correcta.",
       "questions": [
         {
-          "question": "[[My neighbor is very|Mi vecino es muy]] _______.",
-          "options": ["[[friendly|amigable]]", "[[selfish|egoísta]]", "[[scared|asustado]]"],
-          "correctAnswer": 0,
-          "explanation": "'Friendly' significa que alguien es amigable o simpático."
+          "question": "[[They|Ellos]] _______ [[come to the party|venir a la fiesta]].",
+          "options": ["[[isn't going to|no va a]]", "[[aren't going to|no van a]]", "[[not going to|no van a]]"],
+          "correctAnswer": 1,
+          "explanation": "Con 'they', la forma negativa es 'aren't going to'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-25/e25.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e26",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Emotions",
-    "difficulty": "medium",
-    "transcript": "There is a big spider! I am scared!",
-    "content": {
-      "title": "¡Qué Miedo!",
-      "instructions": "Completa con el sentimiento de miedo.",
-      "questions": [
-        {
-          "question": "[[There is! I a big spider am|Allí hay una grande araña! Yo estoy]] _______!",
-          "options": ["[[scared|asustado]]", "[[confident|seguro]]", "[[creative|creativo]]"],
-          "correctAnswer": 0,
-          "explanation": "'Scared' significa tener miedo o estar asustado."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-25/e26.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e27",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Traits",
-    "difficulty": "medium",
-    "transcript": "He always shares his toys. He is very generous.",
-    "content": {
-      "title": "Generoso",
-      "instructions": "Elige el adjetivo para alguien que comparte.",
-      "questions": [
-        {
-          "question": "[[He always. He shares his toys is very|Él siempre comparte sus juguetes. Él es muy]] _______.",
-          "options": ["[[generous|generoso]]", "[[selfish|egoísta]]", "[[honest|honesto]]"],
-          "correctAnswer": 0,
-          "explanation": "Alguien que comparte es generoso (generous)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-25/e27.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e28",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Grammar: Feel",
-    "difficulty": "medium",
-    "transcript": "I feel stressed because I have too much work.",
-    "content": {
-      "title": "Estresado",
-      "instructions": "Completa con el verbo de estado.",
-      "questions": [
-        {
-          "question": "[[I because I have too much work|Yo]] _______ [[stressed|estresado porque yo tengo demasiado mucho trabajo]].",
-          "options": ["[[feel|siento]]", "[[look|veo]]", "[[am like|soy como]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'feel' para expresar cómo nos sentimos internamente."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-25/e28.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e29",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Honesty",
-    "difficulty": "medium",
-    "transcript": "Always tell the truth. Be honest.",
-    "content": {
-      "title": "Honesto",
-      "instructions": "Elige el adjetivo de sinceridad.",
-      "questions": [
-        {
-          "question": "[[Always tell. Be the truth|Siempre di la verdad. Sé]] _______.",
-          "options": ["[[honest|honesto]]", "[[lazy|perezoso]]", "[[shy|tímido]]"],
-          "correctAnswer": 0,
-          "explanation": "'Honest' es alguien que dice la verdad."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-25/e29.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e30",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: General",
-    "difficulty": "easy",
-    "transcript": "Is the new student nice? Yes, he is.",
-    "content": {
-      "title": "Simpático",
-      "instructions": "Completa con un adjetivo general positivo.",
-      "questions": [
-        {
-          "question": "[[Is the new student|¿? el nuevo estudiante]] _______?",
-          "options": ["[[nice|agradable/simpático]]", "[[angry|enfadado]]", "[[stressed|estresado]]"],
-          "correctAnswer": 0,
-          "explanation": "'Nice' es un término muy común para decir que alguien es agradable."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-25/e30.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e31",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Boredom",
-    "difficulty": "easy",
-    "transcript": "This movie is long and slow. I am bored.",
-    "content": {
-      "title": "Aburrido",
-      "instructions": "Elige el estado emocional de falta de interés.",
-      "questions": [
-        {
-          "question": "[[This movie. I am is long and slow|Esta película es larga y lenta. Yo estoy]] _______.",
-          "options": ["[[bored|aburrido]]", "[[happy|feliz]]", "[[brave|valiente]]"],
-          "correctAnswer": 0,
-          "explanation": "Estar 'bored' es la consecuencia de algo que no nos interesa."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-25/e31.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e32",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Confidence",
-    "difficulty": "medium",
-    "transcript": "He is a very confident speaker.",
-    "content": {
-      "title": "Seguro de sí mismo",
-      "instructions": "Elige el adjetivo de seguridad personal.",
-      "questions": [
-        {
-          "question": "[[He is a very|Él es un muy]] _______ [[speaker|hablante]].",
-          "options": ["[[confident|seguro]]", "[[shy|tímido]]", "[[sad|triste]]"],
-          "correctAnswer": 0,
-          "explanation": "'Confident' es tener confianza en uno mismo."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-25/e32.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e33",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Creative",
-    "difficulty": "medium",
-    "transcript": "My sister paints beautiful pictures. She is very creative.",
-    "content": {
-      "title": "Creativa",
-      "instructions": "Describe a alguien con talento artístico.",
-      "questions": [
-        {
-          "question": "[[My sister. She paints beautiful pictures is very|Mi hermana pinta hermosos cuadros. Ella es muy]] _______.",
-          "options": ["[[creative|creativa]]", "[[lazy|perezosa]]", "[[polite|educada]]"],
-          "correctAnswer": 0,
-          "explanation": "Alguien con talento para crear cosas es creativo (creative)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-25/e33.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e34",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Grammar: Question",
-    "difficulty": "medium",
-    "transcript": "What's the matter? You look worried.",
-    "content": {
-      "title": "¿Qué Pasa?",
-      "instructions": "Completa la pregunta sobre un problema.",
-      "questions": [
-        {
-          "question": "[[What's the worried|Qué es el]] _______? [[You look|Tú pareces preocupado]].",
-          "options": ["[[matter|asunto/problema]]", "[[like|como]]", "[[feel|sentir]]"],
-          "correctAnswer": 0,
-          "explanation": "'What's the matter?' es una frase fija para preguntar qué ocurre."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-25/e34.mp3",
     "topicName": "Grammar"
   },
-  {
-    "id": "a1-u25-e35",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Bravery",
-    "difficulty": "medium",
-    "transcript": "Firefighters are very brave.",
-    "content": {
-      "title": "Valiente",
-      "instructions": "Elige el adjetivo de valor.",
-      "questions": [
-        {
-          "question": "[[Firefighters are very|Bomberos son muy]] _______.",
-          "options": ["[[brave|valientes]]", "[[scared|asustados]]", "[[quiet|callados]]"],
-          "correctAnswer": 0,
-          "explanation": "Los bomberos demuestran valentía (bravery)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-25/e35.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e36",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Social",
-    "difficulty": "easy",
-    "transcript": "She doesn't like to talk much. She is quiet.",
-    "content": {
-      "title": "Callada",
-      "instructions": "Describe a alguien que no habla mucho.",
-      "questions": [
-        {
-          "question": "[[She doesn't. She is like to talk much|Ella no gusta a hablar mucho. Ella es]] _______.",
-          "options": ["[[quiet|callada]]", "[[talkative|habladora]]", "[[funny|graciosa]]"],
-          "correctAnswer": 0,
-          "explanation": "'Quiet' describe a una persona silenciosa o callada."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-25/e36.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e37",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: States",
-    "difficulty": "medium",
-    "transcript": "The sea is very calm today.",
-    "content": {
-      "title": "Calma",
-      "instructions": "Elige el adjetivo de tranquilidad.",
-      "questions": [
-        {
-          "question": "[[The sea is very|El mar está muy]] _______ [[today|hoy]].",
-          "options": ["[[calm|calmado]]", "[[angry|enfadado]]", "[[nervous|nervioso]]"],
-          "correctAnswer": 0,
-          "explanation": "'Calm' significa tranquilo o en paz."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-25/e37.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e38",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Negative",
-    "difficulty": "medium",
-    "transcript": "He only thinks about himself. He is selfish.",
-    "content": {
-      "title": "Egoísta",
-      "instructions": "Describe a alguien que no piensa en los demás.",
-      "questions": [
-        {
-          "question": "[[He only. He thinks about himself is|Él solo piensa en sí mismo. Él es]] _______.",
-          "options": ["[[selfish|egoísta]]", "[[generous|generoso]]", "[[helpful|servicial]]"],
-          "correctAnswer": 0,
-          "explanation": "'Selfish' es alguien egoísta."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-25/e38.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e39",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: States",
-    "difficulty": "easy",
-    "transcript": "Are you alone? No, but I feel lonely.",
-    "content": {
-      "title": "Sentirse Solo",
-      "instructions": "Elige el adjetivo de soledad emocional.",
-      "questions": [
-        {
-          "question": "[[Are you? No alone I, but feel|¿? tú solo (físicamente)? No, pero yo siento]] _______.",
-          "options": ["[[lonely|solo (emocionalmente)]]", "[[happy|feliz]]", "[[active|activo]]"],
-          "correctAnswer": 0,
-          "explanation": "'Lonely' describe el sentimiento de soledad."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-25/e39.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e40",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Grammar: Contrast",
-    "difficulty": "medium",
-    "transcript": "My father is serious, but my mother is very funny.",
-    "content": {
-      "title": "Serio vs Divertido",
-      "instructions": "Elige el adjetivo contrastante.",
-      "questions": [
-        {
-          "question": "[[My father, but my is serious mother is very|Mi padre es serio, pero mi madre es muy]] _______.",
-          "options": ["[[funny|divertida]]", "[[shy|tímida]]", "[[tired|cansada]]"],
-          "correctAnswer": 0,
-          "explanation": "'Funny' contrasta bien con 'serious'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-25/e40.mp3",
-    "topicName": "Vocabulary"
-  },
-
-  // SENTENCE BUILDING (41-50)
-  {
-    "id": "a1-u25-e41",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Personality",
-    "difficulty": "easy",
-    "transcript": "My brother is very kind.",
-    "content": {
-      "title": "Él es Amable",
-      "instructions": "Ordena las palabras para describir a alguien.",
-      "correctSentence": "[[My brother is very kind|Mi hermano es muy amable]].",
-      "words": ["[[kind|amable]].", "[[very|muy]]", "[[is|es]]", "[[brother|hermano]]", "[[My|Mi]]"],
-      "explanation": "Sujeto + verbo + adverbio + adjetivo."
-    },
-    "audioUrl": "audio/a1/unit-25/e41.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e42",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Personality Question",
-    "difficulty": "medium",
-    "transcript": "What is your new teacher like?",
-    "content": {
-      "title": "El Nuevo Profesor",
-      "instructions": "Pregunta por la personalidad del profesor.",
-      "correctSentence": "[[What is your new teacher like|Cómo es tu nuevo profesor como]]?",
-      "words": ["[[like|como]]?", "[[teacher|profesor]]", "[[new|nuevo]]", "[[your|tu]]", "[[is|es]]", "[[What|Cómo]]"],
-      "explanation": "Estructura para preguntar por rasgos de carácter."
-    },
-    "audioUrl": "audio/a1/unit-25/e42.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u25-e43",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Feelings",
-    "difficulty": "easy",
-    "transcript": "I feel very tired today.",
-    "content": {
-      "title": "Cansancio",
-      "instructions": "Expresa cómo te sientes hoy.",
-      "correctSentence": "[[I feel very tired today|Yo siento muy cansado hoy]].",
-      "words": ["[[today|hoy]].", "[[tired|cansado]]", "[[very|muy]]", "[[feel|siento]]", "[[I|Yo]]"],
-      "explanation": "Uso del verbo 'feel' para estados actuales."
-    },
-    "audioUrl": "audio/a1/unit-25/e43.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e44",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Reason for Feelings",
-    "difficulty": "medium",
-    "transcript": "She is happy because she has a new job.",
-    "content": {
-      "title": "Nueva Empleada",
-      "instructions": "Explica por qué ella está feliz.",
-      "correctSentence": "[[She is happy because she has a new job|Ella está feliz porque ella tiene un nuevo trabajo]].",
-      "words": ["[[job is|trabajo]].", "[[new|nuevo]]", "[[a|un]]", "[[has|tiene]]", "[[she|ella]]", "[[because|porque]]", "[[happy|feliz]]", "[[She|Ella está]]"],
-      "explanation": "Uniendo sentimientos con motivos usando 'because'."
-    },
-    "audioUrl": "audio/a1/unit-25/e44.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e45",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Work Character",
-    "difficulty": "medium",
-    "transcript": "They are very hard-working people.",
-    "content": {
-      "title": "Gente Trabajadora",
-      "instructions": "Describe a un grupo de personas.",
-      "correctSentence": "[[They are very hard-working people|Ellos son muy trabajadores personas]].",
-      "words": ["[[people|personas]].", "[[hard-working|trabajadores]]", "[[very|muy]]", "[[are|son]]", "[[They|Ellos]]"],
-      "explanation": "Adjetivos compuestos en plural."
-    },
-    "audioUrl": "audio/a1/unit-25/e45.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e46",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Emotions Question",
-    "difficulty": "medium",
-    "transcript": "Why are you so angry?",
-    "content": {
-      "title": "¿Por qué tan Enfadado?",
-      "instructions": "Pregunta el motivo de un enfado.",
-      "correctSentence": "[[Why are you so angry|Por qué estás tú tan enfadado]]?",
-      "words": ["[[angry|enfadado]]?", "[[so|tan]]", "[[you|tú]]", "[[are|estás]]", "[[Why|Por qué]]"],
-      "explanation": "Estructura de pregunta con 'Why' y 'so'."
-    },
-    "audioUrl": "audio/a1/unit-25/e46.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u25-e47",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Personality Contrast",
-    "difficulty": "hard",
-    "transcript": "My sister is shy but very creative.",
-    "content": {
-      "title": "Tímida pero Creativa",
-      "instructions": "Describe el carácter contrastante de tu hermana.",
-      "correctSentence": "[[My sister is shy but very creative|Mi hermana es tímida pero muy creativa]].",
-      "words": ["[[creative|creativa]].", "[[very|muy]]", "[[but|pero]]", "[[shy|tímida]]", "[[is|es]]", "[[sister|hermana]]", "[[My|Mi]]"],
-      "explanation": "Uso de 'but' para contrastar adjetivos."
-    },
-    "audioUrl": "audio/a1/unit-25/e47.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e48",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Current State",
-    "difficulty": "medium",
-    "transcript": "Are you worried about the exam?",
-    "content": {
-      "title": "Preocupación",
-      "instructions": "Pregunta si alguien está preocupado.",
-      "correctSentence": "[[Are you worried about the exam|¿? tú preocupado por el examen]]?",
-      "words": ["[[exam|examen]]?", "[[the|el]]", "[[about|por]]", "[[worried|preocupado]]", "[[you|tú]]", "[[Are|¿?]]"],
-      "explanation": "Uso de 'worried about'."
-    },
-    "audioUrl": "audio/a1/unit-25/e48.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e49",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Social Behavior",
-    "difficulty": "medium",
-    "transcript": "He is a very polite child.",
-    "content": {
-      "title": "Un Niño Educado",
-      "instructions": "Describe el comportamiento del niño.",
-      "correctSentence": "[[He is a very polite child|Él es un muy educado niño]].",
-      "words": ["[[child|niño]].", "[[polite|educado]]", "[[very|muy]]", "[[a|un]]", "[[is|es]]", "[[He|Él]]"],
-      "explanation": "Adjetivos antes del sustantivo."
-    },
-    "audioUrl": "audio/a1/unit-25/e49.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u25-e50",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Problem",
-    "difficulty": "easy",
-    "transcript": "What is the matter with him?",
-    "content": {
-      "title": "¿Qué le Pasa?",
-      "instructions": "Pregunta qué le ocurre a otra persona.",
-      "correctSentence": "[[What is the matter with him|Qué es el asunto con él]]?",
-      "words": ["[[him|él]]?", "[[with|con]]", "[[matter|asunto]]", "[[the|el]]", "[[is|es]]", "[[What|Qué]]"],
-      "explanation": "Variante de 'What is the matter?' para terceros."
-    },
-    "audioUrl": "audio/a1/unit-25/e50.mp3",
-    "topicName": "Grammar"
-  },
-
-  // READING COMPREHENSION (51-60)
   {
     "id": "a1-u25-e51",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Character Profile",
-    "difficulty": "medium",
-    "transcript": "Mark is my best friend. He is twenty-five years old. He is a very funny and talkative person. Everybody likes him because he is very kind and helpful. He is also a very hard-working student at the university.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Next summer,|El próximo verano,]] [[I am going to travel|voy a viajar]] [[to Italy|a Italia]] [[with my best friend.|con mi mejor amigo.]] [[We are going to stay|Nos vamos a quedar]] [[in Rome|en Roma]] [[for one week.|durante una semana.]] [[We are going to visit|Vamos a visitar]] [[the Colosseum|el Coliseo]] [[and many|y muchos]] [[beautiful museums.|museos hermosos.]] [[I am also going to eat|También voy a comer]] [[a lot of pizza|mucha pizza]] [[and pasta.|y pasta.]] [[My friend is going to take|Mi amigo va a hacer]] [[many photos|muchas fotos]] [[of the city.|de la ciudad.]] [[We are very excited|Estamos muy emocionados]] [[about our trip!|por nuestro viaje.]] [[It is going to be|Va a ser]] [[an amazing experience.|una experiencia increíble.]]",
     "content": {
-      "title": "Mi Mejor Amigo Mark",
-      "instructions": "Lee el perfil de Mark y responde.",
+      "title": "[[Reading: Summer Plans|Lectura: Planes de verano]]",
+      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "*\"[[Mark is. He my best friend is a very. Everybody likes funny and talkative person him because. He is he is very kind and helpful also a very hard-working student is Mark personality|Mark es mi mejor amigo. Él es una muy graciosa y habladora persona. A todo el mundo le gusta él porque él es muy amable y servicial. Él es también un muy trabajador estudiante]].\"*\n\n[[How|Cómo es Mark]]'[[s|de personalidad]]?",
-          "options": ["[[Serious and quiet|Serio y callado]]", "[[Funny and talkative|Gracioso y hablador]]", "[[Lazy and rude|Perezoso y grosero]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice que es 'funny and talkative'."
+          "question": "[[Where is the speaker going to travel?|¿A dónde va a viajar el narrador?]]",
+          "options": ["[[To Italy|A Italia]]", "[[To London|A Londres]]", "[[To Paris|A París]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The speaker says he is going to travel to Italy next summer.|El narrador dice que va a viajar a Italia el próximo verano.]]"
         }
       ]
     },
@@ -863,18 +359,18 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Character Profile",
-    "difficulty": "medium",
-    "transcript": "Mark is my best friend. He is twenty-five years old. He is a very funny and talkative person. Everybody likes him because he is very kind and helpful. He is also a very hard-working student at the university.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Next summer,|El próximo verano,]] [[I am going to travel|voy a viajar]] [[to Italy|a Italia]] [[with my best friend.|con mi mejor amigo.]] [[We are going to stay|Nos vamos a quedar]] [[in Rome|en Roma]] [[for one week.|durante una semana.]] [[We are going to visit|Vamos a visitar]] [[the Colosseum|el Coliseo]] [[and many|y muchos]] [[beautiful museums.|museos hermosos.]] [[I am also going to eat|También voy a comer]] [[a lot of pizza|mucha pizza]] [[and pasta.|y pasta.]] [[My friend is going to take|Mi amigo va a hacer]] [[many photos|muchas fotos]] [[of the city.|de la ciudad.]] [[We are very excited|Estamos muy emocionados]] [[about our trip!|por nuestro viaje.]] [[It is going to be|Va a ser]] [[an amazing experience.|una experiencia increíble.]]",
     "content": {
-      "title": "Mi Mejor Amigo Mark",
-      "instructions": "Lee y responde.",
+      "title": "[[Reading: Activities in Rome|Lectura: Actividades en Roma]]",
+      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "*\"[[Mark is. He my best friend is a very. Everybody likes funny and talkative person him because. He is he is very kind and helpful also a very hard-working student Mark a lazy student|Mark es mi mejor amigo. Él es una muy graciosa y habladora persona. A todo el mundo le gusta él porque él es muy amable y servicial. Él es también un muy trabajador estudiante]].\"*\n\n[[Is|Es Mark un perezoso estudiante]]?",
-          "options": ["[[Yes, he is|Sí]]", "[[No, he is hard-working|No, es trabajador]]", "[[We don't know|No lo sabemos]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto especifica que es 'hard-working'."
+          "question": "[[What is the friend going to do?|¿Qué va a hacer el amigo?]]",
+          "options": ["[[Take many photos|Hacer muchas fotos]]", "[[Cook pasta|Cocinar pasta]]", "[[Visit the Colosseum alone|Visitar el Coliseo solo]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The text states that the friend is going to take many photos of the city.|El texto indica que el amigo va a hacer muchas fotos de la ciudad.]]"
         }
       ]
     },
@@ -885,18 +381,18 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e53",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Emotions at Work",
-    "difficulty": "medium",
-    "transcript": "Sarah works in a big office. She is a very creative designer. Today, she is a bit stressed because she has many meetings. But she is usually a very calm and patient person with her colleagues.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Next summer,|El próximo verano,]] [[I am going to travel|voy a viajar]] [[to Italy|a Italia]] [[with my best friend.|con mi mejor amigo.]] [[We are going to stay|Nos vamos a quedar]] [[in Rome|en Roma]] [[for one week.|durante una semana.]] [[We are going to visit|Vamos a visitar]] [[the Colosseum|el Coliseo]] [[and many|y muchos]] [[beautiful museums.|museos hermosos.]] [[I am also going to eat|También voy a comer]] [[a lot of pizza|mucha pizza]] [[and pasta.|y pasta.]] [[My friend is going to take|Mi amigo va a hacer]] [[many photos|muchas fotos]] [[of the city.|de la ciudad.]] [[We are very excited|Estamos muy emocionados]] [[about our trip!|por nuestro viaje.]] [[It is going to be|Va a ser]] [[an amazing experience.|una experiencia increíble.]]",
     "content": {
-      "title": "Sarah en la Oficina",
-      "instructions": "Lee sobre Sarah y responde.",
+      "title": "[[Reading: Italian Food|Lectura: Comida italiana]]",
+      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "*\"[[Sarah is. Today is a very, she. But she creative designer a bit stressed because she has many meetings is usually a very calm and patient person Sarah stressed|Sarah es una muy creativa diseñadora. Hoy, ella está un poco estresada porque ella tiene muchas reuniones. Pero ella es normalmente una muy calmada y paciente persona]].\"*\n\n[[Why is today|Por qué está Sarah estresada hoy]]?",
-          "options": ["[[Because she is lazy|Porque es perezosa]]", "[[Because she has many meetings|Porque tiene muchas reuniones]]", "[[Because she is bored|Porque está aburrida]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto indica que el estrés se debe a las reuniones."
+          "question": "[[What is the speaker going to eat?|¿Qué va a comer el narrador?]]",
+          "options": ["[[Pizza and pasta|Pizza y pasta]]", "[[Hamburgers and fries|Hamburguesas y patatas fritas]]", "[[Fish and chips|Pescado con patatas]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The speaker is going to eat a lot of pizza and pasta in Italy.|El narrador va a comer mucha pizza y pasta en Italia.]]"
         }
       ]
     },
@@ -907,18 +403,18 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Emotions at Work",
-    "difficulty": "medium",
-    "transcript": "Sarah works in a big office. She is a very creative designer. Today, she is a bit stressed because she has many meetings. But she is usually a very calm and patient person with her colleagues.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[I have many plans|Tengo muchos planes]] [[for the next weekend.|para el próximo fin de semana.]] [[On Saturday morning,|El sábado por la mañana,]] [[I am going to clean|voy a limpiar]] [[my apartment.|mi apartamento.]] [[In the afternoon,|Por la tarde,]] [[I am going to meet|voy a quedar con]] [[my sister.|mi hermana.]] [[We are going to have|Vamos a tomar]] [[a coffee|un café]] [[and talk.|y hablar.]] [[On Sunday,|El domingo,]] [[I am not going to work.|no voy a trabajar.]] [[I am going to go|Voy a ir]] [[to the park|al parque]] [[and I am going to relax.|y me voy a relajar.]] [[In the evening,|Por la noche,]] [[I am going to cook|voy a cocinar]] [[a special dinner|una cena especial]] [[for my parents.|para mis padres.]] [[It is going to be|Va a ser]] [[a very busy|un fin de semana]] [[weekend.|muy ajetreado.]]",
     "content": {
-      "title": "Sarah en la Oficina",
-      "instructions": "Lee y responde.",
+      "title": "[[Reading: Weekend Plans|Lectura: Planes de fin de semana]]",
+      "instructions": "[[Read the plans and answer.|Lee los planes y responde.]]",
       "questions": [
         {
-          "question": "*\"[[Sarah is. Today is a very, she. But she creative designer a bit stressed because she has many meetings is usually a very calm and patient person Sarah usually|Sarah es una muy creativa diseñadora. Hoy, ella está un poco estresada porque ella tiene muchas reuniones. Pero ella es normalmente una muy calmada y paciente persona]].\"*\n\n[[How is|Cómo es Sarah normalmente]]?",
-          "options": ["[[Nervous and rude|Nerviosa y grosera]]", "[[Calm and patient|Calmada y paciente]]", "[[Angry and sad|Enfadada y triste]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice que suele ser 'calm and patient'."
+          "question": "[[What is the speaker going to do on Saturday morning?|¿Qué va a hacer el narrador el sábado por la mañana?]]",
+          "options": ["[[Clean the apartment|Limpiar el apartamento]]", "[[Meet his sister|Quedar con su hermana]]", "[[Cook a special dinner|Cocinar una cena especial]]"],
+          "correctAnswer": 0,
+          "explanation": "[[On Saturday morning, the speaker is going to clean his apartment.|El sábado por la mañana, el narrador va a limpiar su apartamento.]]"
         }
       ]
     },
@@ -929,18 +425,18 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e55",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: A Shy Student",
-    "difficulty": "medium",
-    "transcript": "Pablo is a new student in my class. He is from Spain. He is quite shy and quiet, so he doesn't talk much. But he is very honest and kind. We think he is a very intelligent boy.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[I have many plans|Tengo muchos planes]] [[for the next weekend.|para el próximo fin de semana.]] [[On Saturday morning,|El sábado por la mañana,]] [[I am going to clean|voy a limpiar]] [[my apartment.|mi apartamento.]] [[In the afternoon,|Por la tarde,]] [[I am going to meet|voy a quedar con]] [[my sister.|mi hermana.]] [[We are going to have|Vamos a tomar]] [[a coffee|un café]] [[and talk.|y hablar.]] [[On Sunday,|El domingo,]] [[I am not going to work.|no voy a trabajar.]] [[I am going to go|Voy a ir]] [[to the park|al parque]] [[and I am going to relax.|y me voy a relajar.]] [[In the evening,|Por la noche,]] [[I am going to cook|voy a cocinar]] [[a special dinner|una cena especial]] [[for my parents.|para mis padres.]] [[It is going to be|Va a ser]] [[a very busy|un fin de semana]] [[weekend.|muy ajetreado.]]",
     "content": {
-      "title": "El Nuevo Estudiante",
-      "instructions": "Lee sobre Pablo y responde.",
+      "title": "[[Reading: Sunday Activities|Lectura: Actividades del domingo]]",
+      "instructions": "[[Read the plans and answer.|Lee los planes y responde.]]",
       "questions": [
         {
-          "question": "*\"[[Pablo is, so he quite shy and quiet doesn't talk. But much he is very honest and kind Pablo|Pablo es bastante tímido y callado, así que él no habla mucho. Pero él es muy honesto y amable]].\"*\n\n[[Does talk a lot|Auxiliar Pablo habla un montón]]?",
-          "options": ["[[Yes, he is talkative|Sí, es hablador]]", "[[No, he is quiet|No, es callado]]", "[[Sometimes|A veces]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice que es 'quiet' y 'doesn't talk much'."
+          "question": "[[What is the speaker going to do on Sunday?|¿Qué va a hacer el narrador el domingo?]]",
+          "options": ["[[Go to the park and relax|Ir al parque y relajarse]]", "[[Work all day|Trabajar todo el día]]", "[[Clean the apartment|Limpiar el apartamento]]"],
+          "correctAnswer": 0,
+          "explanation": "[[On Sunday, the speaker is going to the park to relax.|El domingo, el narrador va a ir al parque para relajarse.]]"
         }
       ]
     },
@@ -951,18 +447,18 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: A Shy Student",
-    "difficulty": "medium",
-    "transcript": "Pablo is a new student in my class. He is from Spain. He is quite shy and quiet, so he doesn't talk much. But he is very honest and kind. We think he is a very intelligent boy.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[I have many plans|Tengo muchos planes]] [[for the next weekend.|para el próximo fin de semana.]] [[On Saturday morning,|El sábado por la mañana,]] [[I am going to clean|voy a limpiar]] [[my apartment.|mi apartamento.]] [[In the afternoon,|Por la tarde,]] [[I am going to meet|voy a quedar con]] [[my sister.|mi hermana.]] [[We are going to have|Vamos a tomar]] [[a coffee|un café]] [[and talk.|y hablar.]] [[On Sunday,|El domingo,]] [[I am not going to work.|no voy a trabajar.]] [[I am going to go|Voy a ir]] [[to the park|al parque]] [[and I am going to relax.|y me voy a relajar.]] [[In the evening,|Por la noche,]] [[I am going to cook|voy a cocinar]] [[a special dinner|una cena especial]] [[for my parents.|para mis padres.]] [[It is going to be|Va a ser]] [[a very busy|un fin de semana]] [[weekend.|muy ajetreado.]]",
     "content": {
-      "title": "El Nuevo Estudiante",
-      "instructions": "Lee y responde.",
+      "title": "[[Reading: Evening Plans|Lectura: Planes de noche]]",
+      "instructions": "[[Read the plans and answer.|Lee los planes y responde.]]",
       "questions": [
         {
-          "question": "*\"[[Pablo is. But he quite shy and quiet is very. We honest and kind think he is very intelligent|Pablo es bastante tímido y callado. Pero él es muy honesto y amable. Nosotros pensamos él es muy inteligente]].\"*\n\n[[What positive traits does Pablo have|Qué positivo rasgos tiene Pablo tiene]]?",
-          "options": ["[[He is funny|Es gracioso]]", "[[He is honest and kind|Es honesto y amable]]", "[[He is selfish|Es egoísta]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto menciona que es 'honest and kind'."
+          "question": "[[Who is the special dinner for?|¿Para quién es la cena especial?]]",
+          "options": ["[[For the parents|Para los padres]]", "[[For the sister|Para la hermana]]", "[[For friends|Para los amigos]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The speaker is going to cook a special dinner for his parents on Sunday evening.|El narrador va a cocinar una cena especial para sus padres el domingo por la noche.]]"
         }
       ]
     },
@@ -973,18 +469,18 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Feeling Sad",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "My little sister is sad today. Her favorite doll is broken. She is crying in her bedroom. I want to be helpful, so I am going to fix her doll. I want her to be happy again.",
+    "transcript": "[[My brother, David,|Mi hermano, David,]] [[is going to start|va a empezar]] [[university|la universidad]] [[next October.|el próximo octubre.]] [[He is going to study|Él va a estudiar]] [[engineering.|ingeniería.]] [[He is going to live|Él va a vivir]] [[in a student house|en una residencia de estudiantes]] [[with other students.|con otros estudiantes.]] [[He is very happy|Está muy feliz]] [[because he is going to meet|porque va a conocer]] [[new people.|a gente nueva.]] [[I am going to miss him,|Voy a echarle de menos,]] [[but I am also|pero también estoy]] [[very proud of him.|muy orgulloso de él.]] [[We are going to have|Vamos a tener]] [[a big party|una gran fiesta]] [[before he leaves.|antes de que se vaya.]]",
     "content": {
-      "title": "Una Hermana Triste",
-      "instructions": "Lee y responde.",
+      "title": "[[Reading: Starting University|Lectura: Empezando la universidad]]",
+      "instructions": "[[Read about David and answer.|Lee sobre David y responde.]]",
       "questions": [
         {
-          "question": "*\"[[My little. Her favorite sister is sad today doll is. I broken want to be helpful does the sister|Mi pequeña hermana está triste hoy. Su favorita muñeca está rota. Yo quiero a ser servicial]].\"*\n\n[[How feel|Cómo se siente la hermana sentirse]]?",
-          "options": ["[[Happy|Feliz]]", "[[Sad|Triste]]", "[[Angry|Enfadada]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto comienza diciendo que ella está triste (sad)."
+          "question": "[[What is David going to study?|¿Qué va a estudiar David?]]",
+          "options": ["[[Engineering|Ingeniería]]", "[[Medicine|Medicina]]", "[[History|Historia]]"],
+          "correctAnswer": 0,
+          "explanation": "[[David is going to study engineering at university.|David va a estudiar ingeniería en la universidad.]]"
         }
       ]
     },
@@ -995,18 +491,18 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Feeling Sad",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "My little sister is sad today. Her favorite doll is broken. She is crying in her bedroom. I want to be helpful, so I am going to fix her doll. I want her to be happy again.",
+    "transcript": "[[My brother, David,|Mi hermano, David,]] [[is going to start|va a empezar]] [[university|la universidad]] [[next October.|el próximo octubre.]] [[He is going to study|Él va a estudiar]] [[engineering.|ingeniería.]] [[He is going to live|Él va a vivir]] [[in a student house|en una residencia de estudiantes]] [[with other students.|con otros estudiantes.]] [[He is very happy|Está muy feliz]] [[because he is going to meet|porque va a conocer]] [[new people.|a gente nueva.]] [[I am going to miss him,|Voy a echarle de menos,]] [[but I am also|pero también estoy]] [[very proud of him.|muy orgulloso de él.]] [[We are going to have|Vamos a tener]] [[a big party|una gran fiesta]] [[before he leaves.|antes de que se vaya.]]",
     "content": {
-      "title": "Una Hermana Triste",
-      "instructions": "Lee y responde.",
+      "title": "[[Reading: New Life|Lectura: Vida nueva]]",
+      "instructions": "[[Read about David and answer.|Lee sobre David y responde.]]",
       "questions": [
         {
-          "question": "*\"[[I want, so to be helpful I am going to fix her doll|Yo quiero a ser servicial, así que yo voy a a arreglar su muñeca]].\"*\n\n[[Is the brother selfish|Es el hermano egoísta]]?",
-          "options": ["[[Yes, he is|Sí]]", "[[No, he is helpful|No, es servicial]]", "[[Maybe|Tal vez]]"],
-          "correctAnswer": 1,
-          "explanation": "El hermano quiere ayudar, por lo que es 'helpful', no 'selfish'."
+          "question": "[[Who is David going to live with?|¿Con quién va a vivir David?]]",
+          "options": ["[[Other students|Otros estudiantes]]", "[[His parents|Sus padres]]", "[[His brother|Su hermano]]"],
+          "correctAnswer": 0,
+          "explanation": "[[David is going to live in a student house with other students.|David va a vivir en una residencia de estudiantes con otros estudiantes.]]"
         }
       ]
     },
@@ -1017,18 +513,18 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e59",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Brave Firefighters",
-    "difficulty": "medium",
-    "transcript": "Firefighters are very brave people. Their job is very dangerous, but they are not scared. They are always ready to help people in trouble. They are also very strong and fit because they train every day.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[The weather forecast says|El pronóstico del tiempo dice]] [[it is going to be|que va a hacer]] [[a very cold winter.|un invierno muy frío.]] [[It is going to snow|Va a nevar]] [[in the mountains,|en las montañas,]] [[so many people|así que mucha gente]] [[are going to go skiing.|va a ir a esquiar.]] [[I am going to buy|Voy a comprar]] [[a new warm coat|un abrigo nuevo y cálido]] [[and some gloves.|y unos guantes.]] [[We are also|También vamos]] [[going to spend|a pasar]] [[more time|más tiempo]] [[at home|en casa]] [[near the fireplace.|cerca de la chimenea.]] [[My mother is going to make|Mi madre va a hacer]] [[hot chocolate|chocolate caliente]] [[every evening.|cada tarde.]] [[Winter is coming!|¡Se acerca el invierno!]]",
     "content": {
-      "title": "Bomberos Valientes",
-      "instructions": "Lee y responde.",
+      "title": "[[Reading: Winter Forecast|Lectura: Pronóstico de invierno]]",
+      "instructions": "[[Read about winter plans and answer.|Lee sobre los planes de invierno y responde.]]",
       "questions": [
         {
-          "question": "*\"[[Firefighters are. They very brave people are not scared. They are also very strong and fit firefighters scared of|Los bomberos son muy valientes personas. Ellos están no asustados. Ellos son también muy fuertes y en forma]].\"*\n\n[[Are their job|¿? bomberos asustados de su trabajo]]?",
-          "options": ["[[Yes, they are|Sí]]", "[[No, they are brave|No, son valientes]]", "[[Only sometimes|Solo a veces]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice explícitamente 'they are not scared'."
+          "question": "[[What is the speaker going to buy?|¿Qué va a comprar el narrador?]]",
+          "options": ["[[A new warm coat and gloves|Un abrigo nuevo y cálido y guantes]]", "[[A new car|Un coche nuevo]]", "[[A pair of skis|Un par de esquís]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The speaker is going to buy a new warm coat and some gloves for the cold winter.|El narrador va a comprar un abrigo nuevo y cálido y unos guantes para el frío invierno.]]"
         }
       ]
     },
@@ -1039,18 +535,18 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Brave Firefighters",
-    "difficulty": "medium",
-    "transcript": "Firefighters are very brave people. Their job is very dangerous, but they are not scared. They are always ready to help people in trouble. They are also very strong and fit because they train every day.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[The weather forecast says|El pronóstico del tiempo dice]] [[it is going to be|que va a hacer]] [[a very cold winter.|un invierno muy frío.]] [[It is going to snow|Va a nevar]] [[in the mountains,|en las montañas,]] [[so many people|así que mucha gente]] [[are going to go skiing.|va a ir a esquiar.]] [[I am going to buy|Voy a comprar]] [[a new warm coat|un abrigo nuevo y cálido]] [[and some gloves.|y unos guantes.]] [[We are also|También vamos]] [[going to spend|a pasar]] [[more time|más tiempo]] [[at home|en casa]] [[near the fireplace.|cerca de la chimenea.]] [[My mother is going to make|Mi madre va a hacer]] [[hot chocolate|chocolate caliente]] [[every evening.|cada tarde.]] [[Winter is coming!|¡Se acerca el invierno!]]",
     "content": {
-      "title": "Bomberos Valientes",
-      "instructions": "Lee y responde.",
+      "title": "[[Reading: Cozy Winter|Lectura: Invierno acogedor]]",
+      "instructions": "[[Read about winter plans and answer.|Lee sobre los planes de invierno y responde.]]",
       "questions": [
         {
-          "question": "*\"[[They are also very strong and fit because they train every day|Ellos son también muy fuertes y en forma porque ellos entrenan cada día]].\"*\n\n[[Why are they fit|Por qué están ellos en forma]]?",
-          "options": ["[[Because they train every day|Porque entrenan cada día]]", "[[Because they eat a lot|Porque comen mucho]]", "[[Because they are brave|Porque son valientes]]"],
+          "question": "[[What is the mother going to make every evening?|¿Qué va a hacer la madre cada tarde?]]",
+          "options": ["[[Hot chocolate|Chocolate caliente]]", "[[Tea|Té]]", "[[Coffee|Café]]"],
           "correctAnswer": 0,
-          "explanation": "El texto indica que están en forma porque entrenan a diario."
+          "explanation": "[[The text says the mother is going to make hot chocolate every evening.|El texto dice que la madre va a hacer chocolate caliente cada tarde.]]"
         }
       ]
     },

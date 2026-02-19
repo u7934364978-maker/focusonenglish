@@ -1,23 +1,24 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_23_EXERCISES: Exercise[] = [
+
   // MULTIPLE CHOICE (11-40)
   {
     "id": "a1-u23-e11",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Possessive 's",
+    "topic": "Grammar: Comparative Adjectives",
     "difficulty": "easy",
-    "transcript": "My father's name is Robert.",
+    "transcript": "A car is faster than a bicycle.",
     "content": {
-      "title": "El Nombre de mi Padre",
-      "instructions": "Elige la opción correcta para indicar posesión.",
+      "title": "Comparativos: -er",
+      "instructions": "Elige la forma comparativa correcta.",
       "questions": [
         {
-          "question": "[[My father Robert|Mi padre]]_______ [[name is|nombre es Roberto]].",
-          "options": ["[['s|de (posesivo)]]", "[[s|plural]]", "[[is|es]]"],
-          "correctAnswer": 0,
-          "explanation": "Añadimos 's al nombre del poseedor."
+          "question": "[[A car is|Un coche es]] _______ [[than a bicycle|que una bicicleta]].",
+          "options": ["[[fast|rápido]]", "[[faster|más rápido]]", "[[fastest|el más rápido]]"],
+          "correctAnswer": 1,
+          "explanation": "Para adjetivos cortos, añadimos '-er' para formar el comparativo."
         }
       ]
     },
@@ -28,62 +29,62 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "id": "a1-u23-e12",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Siblings",
-    "difficulty": "easy",
-    "transcript": "I have one brother and two sisters.",
+    "topic": "Grammar: Comparative Adjectives",
+    "difficulty": "medium",
+    "transcript": "English is more interesting than math.",
     "content": {
-      "title": "Hermanos y Hermanas",
-      "instructions": "Completa la oración.",
+      "title": "Comparativos: more",
+      "instructions": "Elige la forma comparativa correcta.",
       "questions": [
         {
-          "question": "[[I have one two|Yo tengo un]] _______ [[and sisters|y dos hermanas]].",
-          "options": ["[[brother|hermano]]", "[[mother|madre]]", "[[uncle|tío]]"],
+          "question": "[[English is|El inglés es]] _______ [[than math|que las matemáticas]].",
+          "options": ["[[more interesting|más interesante]]", "[[interester|error]]", "[[interesting|interesante]]"],
           "correctAnswer": 0,
-          "explanation": "'Brother' es el masculino de 'sister'."
+          "explanation": "Para adjetivos largos, usamos 'more' delante del adjetivo."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-23/e12.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u23-e13",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Her vs His",
+    "topic": "Vocabulary: Opposites",
     "difficulty": "easy",
-    "transcript": "This is Maria. Her brother is a doctor.",
+    "transcript": "My house is big, but your house is small.",
     "content": {
-      "title": "Su de ella (Her)",
-      "instructions": "Elige el adjetivo posesivo correcto.",
+      "title": "Adjetivos Opuestos",
+      "instructions": "Elige el opuesto correcto.",
       "questions": [
         {
-          "question": "[[This is Maria is|Esta es María]]. _______ [[brother a doctor|hermano es un doctor]].",
-          "options": ["[[His|Su (de él)]]", "[[Her|Su (de ella)]]", "[[My|Mi]]"],
+          "question": "[[My house is big, but your house is|Mi casa es grande, pero tu casa es]] _______.",
+          "options": ["[[happy|feliz]]", "[[small|pequeña]]", "[[new|nueva]]"],
           "correctAnswer": 1,
-          "explanation": "Usamos 'Her' cuando el poseedor es femenino (María)."
+          "explanation": "El opuesto de 'big' (grande) es 'small' (pequeña)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-23/e13.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u23-e14",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: His vs Her",
-    "difficulty": "easy",
-    "transcript": "That is Paul. His wife is very nice.",
+    "topic": "Grammar: Comparative Adjectives",
+    "difficulty": "medium",
+    "transcript": "Traveling by plane is better than traveling by bus.",
     "content": {
-      "title": "Su de él (His)",
-      "instructions": "Elige el adjetivo posesivo correcto.",
+      "title": "Comparativos Irregulares",
+      "instructions": "Elige el comparativo correcto.",
       "questions": [
         {
-          "question": "[[That is Paul is|Ese es Pablo]]. _______ [[wife very nice|esposa es muy agradable]].",
-          "options": ["[[Her|Su (de ella)]]", "[[His|Su (de él)]]", "[[Our|Nuestro]]"],
+          "question": "[[Traveling by plane is|Viajar en avión es]] _______ [[than traveling by bus|que viajar en autobús]].",
+          "options": ["[[gooder|error]]", "[[better|mejor]]", "[[best|el mejor]]"],
           "correctAnswer": 1,
-          "explanation": "Usamos 'His' cuando el poseedor es masculino (Paul)."
+          "explanation": "'Better' es el comparativo irregular de 'good'."
         }
       ]
     },
@@ -94,18 +95,18 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "id": "a1-u23-e15",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Extended Family",
-    "difficulty": "medium",
-    "transcript": "My mother's sister is my aunt.",
+    "topic": "Vocabulary: Adjectives",
+    "difficulty": "easy",
+    "transcript": "The weather is very hot today.",
     "content": {
-      "title": "Parentesco",
-      "instructions": "Identifica la relación familiar.",
+      "title": "Describiendo el Tiempo",
+      "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[My mother is my|Mi madre]]'[[s sister|de hermana es mi]] _______.",
-          "options": ["[[cousin|prima]]", "[[aunt|tía]]", "[[grandmother|abuela]]"],
-          "correctAnswer": 1,
-          "explanation": "La hermana de tu madre es tu tía (aunt)."
+          "question": "[[The weather is very|El tiempo está muy]] _______ [[today|hoy]].",
+          "options": ["[[hot|caluroso]]", "[[expensive|caro]]", "[[difficult|difícil]]"],
+          "correctAnswer": 0,
+          "explanation": "'Hot' es un adjetivo que describe el clima."
         }
       ]
     },
@@ -116,128 +117,128 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "id": "a1-u23-e16",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Children",
-    "difficulty": "easy",
-    "transcript": "They have two children: a son and a daughter.",
+    "topic": "Grammar: Superlative Adjectives",
+    "difficulty": "medium",
+    "transcript": "The blue whale is the biggest animal in the world.",
     "content": {
-      "title": "Hijos",
-      "instructions": "Completa con la palabra correcta.",
+      "title": "Superlativos: -est",
+      "instructions": "Elige la forma superlativa correcta.",
       "questions": [
         {
-          "question": "[[They have: a son two children and a|Ellos tienen dos hijos: un hijo y una]] _______.",
-          "options": ["[[daughter|hija]]", "[[uncle|tío]]", "[[father|padre]]"],
-          "correctAnswer": 0,
-          "explanation": "'Daughter' es el femenino de 'son'."
+          "question": "[[The blue whale is the|La ballena azul es el]] _______ [[animal in the world|animal del mundo]].",
+          "options": ["[[big|grande]]", "[[bigger|más grande]]", "[[biggest|el más grande]]"],
+          "correctAnswer": 2,
+          "explanation": "Para adjetivos cortos, añadimos '-est' precedido de 'the' para formar el superlativo."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-23/e16.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u23-e17",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Our",
-    "difficulty": "medium",
-    "transcript": "We live in London. Our house is small.",
+    "topic": "Vocabulary: Adjectives",
+    "difficulty": "easy",
+    "transcript": "This exercise is very easy.",
     "content": {
-      "title": "Nuestro (Our)",
-      "instructions": "Elige el posesivo para 'We'.",
+      "title": "Adjetivos",
+      "instructions": "Elige el adjetivo adecuado.",
       "questions": [
         {
-          "question": "[[We live in London|Nosotros vivimos en Londres]]. _______ [[house is small|casa es pequeña]].",
-          "options": ["[[Their|Su (de ellos)]]", "[[Our|Nuestra]]", "[[Your|Vuestra]]"],
-          "correctAnswer": 1,
-          "explanation": "El posesivo de 'We' es 'Our'."
+          "question": "[[This exercise is very|Este ejercicio es muy]] _______.",
+          "options": ["[[easy|fácil]]", "[[tall|alto]]", "[[hungry|hambriento]]"],
+          "correctAnswer": 0,
+          "explanation": "'Easy' describe la dificultad de un ejercicio."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-23/e17.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u23-e18",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Grandparents",
-    "difficulty": "easy",
-    "transcript": "My father's father is my grandfather.",
+    "topic": "Grammar: Superlative Adjectives",
+    "difficulty": "hard",
+    "transcript": "This is the most expensive car in the shop.",
     "content": {
-      "title": "Abuelos",
-      "instructions": "Identifica la relación.",
+      "title": "Superlativos: the most",
+      "instructions": "Elige la forma superlativa correcta.",
       "questions": [
         {
-          "question": "[[My father is my|Mi padre]]'[[s father|de padre es mi]] _______.",
-          "options": ["[[grandfather|abuelo]]", "[[uncle|tío]]", "[[brother|hermano]]"],
-          "correctAnswer": 0,
-          "explanation": "El padre de tu padre es tu abuelo (grandfather)."
+          "question": "[[This is the|Este es el]] _______ [[car in the shop|coche de la tienda]].",
+          "options": ["[[expensive|caro]]", "[[more expensive|más caro]]", "[[most expensive|el más caro]]"],
+          "correctAnswer": 2,
+          "explanation": "Para adjetivos largos, usamos 'the most' delante del adjetivo."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-23/e18.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u23-e19",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Their",
-    "difficulty": "medium",
-    "transcript": "The students are here. Their books are on the table.",
+    "topic": "Vocabulary: Adjectives",
+    "difficulty": "easy",
+    "transcript": "The mountain is very high.",
     "content": {
-      "title": "Su de ellos (Their)",
-      "instructions": "Elige el posesivo para 'They'.",
+      "title": "Describiendo la Naturaleza",
+      "instructions": "Elige el adjetivo correcto.",
       "questions": [
         {
-          "question": "[[The students are here table|Los estudiantes están aquí]]. _______ [[books are on the|libros están sobre la mesa]].",
-          "options": ["[[Their|Sus (de ellos)]]", "[[Her|Sus (de ella)]]", "[[Our|Nuestros]]"],
+          "question": "[[The mountain is very|La montaña es muy]] _______.",
+          "options": ["[[high|alta]]", "[[thirsty|sedienta]]", "[[thin|delgada]]"],
           "correctAnswer": 0,
-          "explanation": "El posesivo de 'They' (plural) es 'Their'."
+          "explanation": "'High' se usa para describir la altura de montañas."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-23/e19.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u23-e20",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Extended Family",
+    "topic": "Grammar: Comparative Adjectives",
     "difficulty": "medium",
-    "transcript": "My aunt's son is my cousin.",
+    "transcript": "My new smartphone is thinner than my old one.",
     "content": {
-      "title": "Primos",
-      "instructions": "Identifica la relación.",
+      "title": "Comparativos: Consonante Doble",
+      "instructions": "Elige la ortografía correcta.",
       "questions": [
         {
-          "question": "[[My aunt is my|Mi tía]]'[[s son|de hijo es mi]] _______.",
-          "options": ["[[nephew|sobrino]]", "[[cousin|primo]]", "[[brother|hermano]]"],
+          "question": "[[My new smartphone is|Mi nuevo móvil es]] _______ [[than my old one|que el viejo]].",
+          "options": ["[[thiner|error]]", "[[thinner|más delgado]]", "[[thin|delgado]]"],
           "correctAnswer": 1,
-          "explanation": "El hijo de tu tía es tu primo (cousin)."
+          "explanation": "Los adjetivos cortos terminados en C-V-C doblan la última consonante al añadir '-er'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-23/e20.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u23-e21",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Possessive 's Plural",
+    "topic": "Grammar: Superlative Adjectives",
     "difficulty": "hard",
-    "transcript": "My parents' car is red.",
+    "transcript": "Mount Everest is the highest mountain in the world.",
     "content": {
-      "title": "Posesivo Plural",
-      "instructions": "Elige la forma correcta para 'padres'.",
+      "title": "Superlativos del Mundo",
+      "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[My parents red|Mis padres]]_______ [[car is|coche es rojo]].",
-          "options": ["[['|de (plural)]]", "[['s|error]]", "[[s's|error]]"],
-          "correctAnswer": 0,
-          "explanation": "Para sustantivos plurales que terminan en 's', solo añadimos el apóstrofe."
+          "question": "[[Mount Everest is the|El monte Everest es la]] _______ [[mountain in the world|montaña del mundo]].",
+          "options": ["[[high|alta]]", "[[higher|más alta]]", "[[highest|la más alta]]"],
+          "correctAnswer": 2,
+          "explanation": "'Highest' es la forma superlativa de 'high'."
         }
       ]
     },
@@ -248,18 +249,18 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "id": "a1-u23-e22",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Marriage",
+    "topic": "Vocabulary: Adjectives",
     "difficulty": "easy",
-    "transcript": "She is not single. She is married.",
+    "transcript": "That movie was very boring.",
     "content": {
-      "title": "Estado Civil",
-      "instructions": "Elige el antónimo de 'single'.",
+      "title": "Opiniones",
+      "instructions": "Elige el adjetivo correcto.",
       "questions": [
         {
-          "question": "[[She is. She is not single|Ella es no soltera. Ella está]] _______.",
-          "options": ["[[married|casada]]", "[[young|joven]]", "[[old|vieja]]"],
+          "question": "[[That movie was very|Esa película fue muy]] _______.",
+          "options": ["[[boring|aburrida]]", "[[tall|alta]]", "[[green|verde]]"],
           "correctAnswer": 0,
-          "explanation": "'Married' (casado/a) es lo opuesto a 'single' (soltero/a)."
+          "explanation": "'Boring' describe una experiencia poco interesante."
         }
       ]
     },
@@ -270,40 +271,40 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "id": "a1-u23-e23",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Relations",
+    "topic": "Grammar: Comparative Adjectives",
     "difficulty": "medium",
-    "transcript": "My brother's daughter is my niece.",
+    "transcript": "A dog is friendlier than a cat.",
     "content": {
-      "title": "Sobrina",
-      "instructions": "Identifica la relación.",
+      "title": "Comparativos con -y",
+      "instructions": "Elige la forma correcta.",
       "questions": [
         {
-          "question": "[[My brother is my|Mi hermano]]'[[s daughter|de hija es mi]] _______.",
-          "options": ["[[niece|sobrina]]", "[[nephew|sobrino]]", "[[aunt|tía]]"],
-          "correctAnswer": 0,
-          "explanation": "La hija de tu hermano es tu sobrina (niece)."
+          "question": "[[A dog is|Un perro es]] _______ [[than a cat|que un gato]].",
+          "options": ["[[more friendly|más amistoso]]", "[[friendlier|más amistoso]]", "[[friendly|amistoso]]"],
+          "correctAnswer": 1,
+          "explanation": "Los adjetivos terminados en '-y' cambian la 'y' por 'i' y añaden '-er'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-23/e23.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u23-e24",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Relations",
-    "difficulty": "medium",
-    "transcript": "My sister's son is my nephew.",
+    "topic": "Vocabulary: Adjectives",
+    "difficulty": "easy",
+    "transcript": "The soup is very salty.",
     "content": {
-      "title": "Sobrino",
-      "instructions": "Identifica la relación.",
+      "title": "Describiendo Comida",
+      "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[My sister is my|Mi hermana]]'[[s son|de hijo es mi]] _______.",
-          "options": ["[[nephew|sobrino]]", "[[niece|sobrina]]", "[[uncle|tío]]"],
+          "question": "[[The soup is very|La sopa está muy]] _______.",
+          "options": ["[[salty|salada]]", "[[fast|rápida]]", "[[tired|cansada]]"],
           "correctAnswer": 0,
-          "explanation": "El hijo de tu hermana es tu sobrino (nephew)."
+          "explanation": "'Salty' describe el sabor de la comida con mucha sal."
         }
       ]
     },
@@ -314,544 +315,40 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "id": "a1-u23-e25",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: General",
-    "difficulty": "easy",
-    "transcript": "I don't have brothers or sisters. I am an only child.",
+    "topic": "Grammar: Superlative Adjectives",
+    "difficulty": "hard",
+    "transcript": "He is the best student in the class.",
     "content": {
-      "title": "Hijo Único",
-      "instructions": "Completa la frase.",
+      "title": "Superlativos Irregulares",
+      "instructions": "Elige la forma superlativa correcta.",
       "questions": [
         {
-          "question": "[[I don't. I am have brothers or sisters an|Yo no tengo hermanos o hermanas. Yo soy un]] _______.",
-          "options": ["[[only child|hijo único]]", "[[baby|bebé]]", "[[twin|gemelo]]"],
-          "correctAnswer": 0,
-          "explanation": "'Only child' significa que no tienes hermanos."
+          "question": "[[He is the|Él es el]] _______ [[student in the class|estudiante de la clase]].",
+          "options": ["[[goodest|error]]", "[[best|mejor]]", "[[better|mejor (comp)]]"],
+          "correctAnswer": 1,
+          "explanation": "'Best' es el superlativo irregular de 'good'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-23/e25.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u23-e26",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Relations",
-    "difficulty": "medium",
-    "transcript": "My husband's mother is my mother-in-law.",
-    "content": {
-      "title": "La Suegra",
-      "instructions": "Aprende términos de familia política.",
-      "questions": [
-        {
-          "question": "[[My husband is my|Mi esposo]]'[[s mother|de madre es mi]] _______.",
-          "options": ["[[mother-in-law|suegra]]", "[[stepmother|madrastra]]", "[[grandmother|abuela]]"],
-          "correctAnswer": 0,
-          "explanation": "La madre de tu esposo es tu suegra (mother-in-law)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-23/e26.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u23-e27",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Grammar: Questions",
-    "difficulty": "medium",
-    "transcript": "Is this your cousin's house?",
-    "content": {
-      "title": "Preguntas de Posesión",
-      "instructions": "Elige la opción correcta.",
-      "questions": [
-        {
-          "question": "[[Is this your cousin|¿Es? esta tu primo]]_______ [[house|casa]]?",
-          "options": ["[['s|de]]", "[[s|plural]]", "[[is|es]]"],
-          "correctAnswer": 0,
-          "explanation": "Preguntamos por la casa 'del primo'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-23/e27.mp3",
     "topicName": "Grammar"
   },
-  {
-    "id": "a1-u23-e28",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Relations",
-    "difficulty": "medium",
-    "transcript": "My parents' sister is my aunt.",
-    "content": {
-      "title": "Tía",
-      "instructions": "Identifica la relación.",
-      "questions": [
-        {
-          "question": "[[My father is my|Mi padre]]'[[s sister|de hermana es mi]] _______.",
-          "options": ["[[aunt|tía]]", "[[niece|sobrina]]", "[[cousin|prima]]"],
-          "correctAnswer": 0,
-          "explanation": "La hermana de tu padre es tu tía (aunt)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-23/e28.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u23-e29",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Age",
-    "difficulty": "medium",
-    "transcript": "My grandparents are very old.",
-    "content": {
-      "title": "Edad",
-      "instructions": "Elige el adjetivo adecuado.",
-      "questions": [
-        {
-          "question": "[[My grandparents are very|Mis abuelos están muy]] _______.",
-          "options": ["[[old|mayores/viejos]]", "[[young|jóvenes]]", "[[single|solteros]]"],
-          "correctAnswer": 0,
-          "explanation": "Normalmente los abuelos son personas mayores (old)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-23/e29.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u23-e30",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Family",
-    "difficulty": "easy",
-    "transcript": "Who is that man? He is my uncle.",
-    "content": {
-      "title": "Identidad",
-      "instructions": "Responde a la pregunta.",
-      "questions": [
-        {
-          "question": "[[Who is? He is that man my|Quién es ese hombre? Él es mi]] _______.",
-          "options": ["[[uncle|tío]]", "[[aunt|tía]]", "[[sister|hermana]]"],
-          "correctAnswer": 0,
-          "explanation": "Si es un hombre ('man'), debe ser 'uncle'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-23/e30.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u23-e31",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Grammar: Its",
-    "difficulty": "hard",
-    "transcript": "The cat is black. Its eyes are green.",
-    "content": {
-      "title": "Su de animal (Its)",
-      "instructions": "Elige el posesivo para un animal.",
-      "questions": [
-        {
-          "question": "[[The cat is black|El gato es negro]]. _______ [[eyes are green|ojos son verdes]].",
-          "options": ["[[His|Su (de él)]]", "[[Its|Su (de ello)]]", "[[Her|Su (de ella)]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'Its' para animales u objetos en singular."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-23/e31.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u23-e32",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Siblings",
-    "difficulty": "medium",
-    "transcript": "Do you have any siblings?",
-    "content": {
-      "title": "Pregunta sobre Hermanos",
-      "instructions": "Elige la palabra que engloba hermanos y hermanas.",
-      "questions": [
-        {
-          "question": "[[Do you have any|Auxiliar tú tienes algún]] _______?",
-          "options": ["[[siblings|hermanos/as]]", "[[parents|padres]]", "[[cousins|primos]]"],
-          "correctAnswer": 0,
-          "explanation": "'Siblings' se refiere a hermanos y hermanas en conjunto."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-23/e32.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u23-e33",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Grammar: Your",
-    "difficulty": "easy",
-    "transcript": "Is this your daughter?",
-    "content": {
-      "title": "Tu (Your)",
-      "instructions": "Pregunta a alguien directamente.",
-      "questions": [
-        {
-          "question": "[[Is this|¿Es? esta]] _______ [[daughter|hija]]?",
-          "options": ["[[your|tu]]", "[[you|tú]]", "[[her|su]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'your' antes de un sustantivo para indicar posesión."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-23/e33.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u23-e34",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Relations",
-    "difficulty": "medium",
-    "transcript": "My son's son is my grandson.",
-    "content": {
-      "title": "Nieto",
-      "instructions": "Identifica la relación.",
-      "questions": [
-        {
-          "question": "[[My son is my|Mi hijo]]'[[s son|de hijo es mi]] _______.",
-          "options": ["[[grandson|nieto]]", "[[granddaughter|nieta]]", "[[nephew|sobrino]]"],
-          "correctAnswer": 0,
-          "explanation": "El hijo de tu hijo es tu nieto (grandson)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-23/e34.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u23-e35",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Relations",
-    "difficulty": "medium",
-    "transcript": "My daughter's daughter is my granddaughter.",
-    "content": {
-      "title": "Nieta",
-      "instructions": "Identifica la relación.",
-      "questions": [
-        {
-          "question": "[[My daughter is my|Mi hija]]'[[s daughter|de hija es mi]] _______.",
-          "options": ["[[granddaughter|nieta]]", "[[grandson|nieto]]", "[[niece|sobrina]]"],
-          "correctAnswer": 0,
-          "explanation": "La hija de tu hija es tu nieta (granddaughter)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-23/e35.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u23-e36",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Twins",
-    "difficulty": "medium",
-    "transcript": "They are identical brothers. They are twins.",
-    "content": {
-      "title": "Gemelos",
-      "instructions": "Elige la palabra correcta.",
-      "questions": [
-        {
-          "question": "[[They are. They are identical brothers|Ellos son idénticos hermanos. Ellos son]] _______.",
-          "options": ["[[twins|gemelos]]", "[[friends|amigos]]", "[[neighbors|vecinos]]"],
-          "correctAnswer": 0,
-          "explanation": "Los hermanos nacidos al mismo tiempo son 'twins'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-23/e36.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u23-e37",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Grammar: Questions",
-    "difficulty": "medium",
-    "transcript": "Whose car is this? It's my brother's.",
-    "content": {
-      "title": "De Quién (Whose)",
-      "instructions": "Elige la palabra interrogativa para posesión.",
-      "questions": [
-        {
-          "question": "_______ [[car is this|coche es este]]?",
-          "options": ["[[Whose|De quién]]", "[[Who|Quién]]", "[[What|Qué]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'Whose' para preguntar por la propiedad de algo."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-23/e37.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u23-e38",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Life",
-    "difficulty": "easy",
-    "transcript": "He doesn't have a wife. He is single.",
-    "content": {
-      "title": "Soltero",
-      "instructions": "Completa la oración.",
-      "questions": [
-        {
-          "question": "[[He doesn't. He have a wife is|Él no tiene una esposa. Él está]] _______.",
-          "options": ["[[single|soltero]]", "[[married|casado]]", "[[parent|padre]]"],
-          "correctAnswer": 0,
-          "explanation": "Alguien sin cónyuge es 'single'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-23/e38.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u23-e39",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Grammar: Our",
-    "difficulty": "easy",
-    "transcript": "We love our grandparents.",
-    "content": {
-      "title": "Nuestros Abuelos",
-      "instructions": "Completa con el posesivo.",
-      "questions": [
-        {
-          "question": "[[We love|Nosotros amamos]] _______ [[grandparents|abuelos]].",
-          "options": ["[[our|nuestros]]", "[[their|sus]]", "[[your|tus]]"],
-          "correctAnswer": 0,
-          "explanation": "Posesivo de 'We'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-23/e39.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u23-e40",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Vocabulary: Relations",
-    "difficulty": "medium",
-    "transcript": "My uncle's wife is my aunt.",
-    "content": {
-      "title": "Tía Política",
-      "instructions": "Identifica la relación.",
-      "questions": [
-        {
-          "question": "[[My uncle is my|Mi tío]]'[[s wife|de esposa es mi]] _______.",
-          "options": ["[[aunt|tía]]", "[[cousin|prima]]", "[[niece|sobrina]]"],
-          "correctAnswer": 0,
-          "explanation": "La esposa de tu tío es tu tía (aunt)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-23/e40.mp3",
-    "topicName": "Vocabulary"
-  },
-
-  // SENTENCE BUILDING (41-50)
-  {
-    "id": "a1-u23-e41",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Grammar: Possessive 's",
-    "difficulty": "medium",
-    "transcript": "This is my sister's dog.",
-    "content": {
-      "title": "El perro de mi hermana",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[This is my sister|Este es mi hermana]]'[[s dog|de perro]].",
-      "words": ["[[sister|hermana]]", "[[is|es]]", "[[This|Este]]", "[[my|mi]]", "'[[s|de]]", "[[dog|perro]]."],
-      "explanation": "Estructura: Sujeto + is + posesivo + objeto."
-    },
-    "audioUrl": "audio/a1/unit-23/e41.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u23-e42",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Grammar: His vs Her",
-    "difficulty": "medium",
-    "transcript": "Her brother is a famous singer.",
-    "content": {
-      "title": "Su hermano",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Her brother is a famous singer|Su hermano es un famoso cantante]].",
-      "words": ["[[singer|cantante]].", "[[is|es]]", "[[famous|famoso]]", "[[Her|Su]]", "[[brother|hermano]]", "[[a|un]]"],
-      "explanation": "Usamos 'Her' para el poseedor femenino."
-    },
-    "audioUrl": "audio/a1/unit-23/e42.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u23-e43",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Vocabulary: Family",
-    "difficulty": "medium",
-    "transcript": "I have two cousins in Spain.",
-    "content": {
-      "title": "Primos en España",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[I have two cousins in Spain|Yo tengo dos primos en España]].",
-      "words": ["[[Spain|España]].", "[[cousins|primos]]", "[[two|dos]]", "[[I|Yo]]", "[[have|tengo]]", "[[in|en]]"],
-      "explanation": "Sujeto + verbo + objeto + lugar."
-    },
-    "audioUrl": "audio/a1/unit-23/e43.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u23-e44",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Grammar: Questions",
-    "difficulty": "medium",
-    "transcript": "How many siblings do you have?",
-    "content": {
-      "title": "Preguntando por hermanos",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[How many siblings do you have|Cuántos muchos hermanos auxiliar tú tienes]]?",
-      "words": ["[[have|tienes]]?", "[[many|muchos]]", "[[do|auxiliar]]", "[[How|Cuántos]]", "[[you|tú]]", "[[siblings|hermanos]]"],
-      "explanation": "Estructura de pregunta con 'How many'."
-    },
-    "audioUrl": "audio/a1/unit-23/e44.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u23-e45",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Grammar: Our",
-    "difficulty": "medium",
-    "transcript": "Our parents are in the kitchen.",
-    "content": {
-      "title": "Nuestros padres",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Our parents are in the kitchen|Nuestros padres están en la cocina]].",
-      "words": ["[[kitchen|cocina]].", "[[in|en]]", "[[are|están]]", "[[the|la]]", "[[Our|Nuestros]]", "[[parents|padres]]"],
-      "explanation": "Posesivo plural."
-    },
-    "audioUrl": "audio/a1/unit-23/e45.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u23-e46",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Vocabulary: Relationships",
-    "difficulty": "medium",
-    "transcript": "My best friend is a teacher.",
-    "content": {
-      "title": "Mejor Amigo",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[My best friend is a teacher|Mi mejor amigo es un profesor]].",
-      "words": ["[[is|es]]", "[[a|un]]", "[[best|mejor]]", "[[My|Mi]]", "[[teacher|profesor]].", "[[friend|amigo]]"],
-      "explanation": "Relaciones personales."
-    },
-    "audioUrl": "audio/a1/unit-23/e46.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u23-e47",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Grammar: Possessive 's",
-    "difficulty": "hard",
-    "transcript": "Is that your mother's car?",
-    "content": {
-      "title": "Pregunta de posesión",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Is that your mother|¿Es? ese tu madre]]'[[s car|de coche]]?",
-      "words": ["[[mother|madre]]", "[[car|coche]]?", "[[Is|¿Es?]]", "[[your|tu]]", "'[[s|de]]", "[[that|ese]]"],
-      "explanation": "Combinando demostrativos y posesivos."
-    },
-    "audioUrl": "audio/a1/unit-23/e47.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u23-e48",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Vocabulary: Family",
-    "difficulty": "medium",
-    "transcript": "He is married to a doctor.",
-    "content": {
-      "title": "Casado con...",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[He is married to a doctor|Él está casado con una doctora]].",
-      "words": ["[[married|casado]]", "[[doctor|doctora]].", "[[is|está]]", "[[to|con]]", "[[a|una]]", "[[He|Él]]"],
-      "explanation": "Usamos 'married to' para indicar con quién se está casado."
-    },
-    "audioUrl": "audio/a1/unit-23/e48.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u23-e49",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Grammar: Their",
-    "difficulty": "medium",
-    "transcript": "Their children are very young.",
-    "content": {
-      "title": "Sus hijos (de ellos)",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Their children are very young|Sus hijos son muy jóvenes]].",
-      "words": ["[[young|jóvenes]].", "[[are|son]]", "[[children|hijos]]", "[[Their|Sus]]", "[[very|muy]]"],
-      "explanation": "Posesivo de tercera persona plural."
-    },
-    "audioUrl": "audio/a1/unit-23/e49.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u23-e50",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Vocabulary: Family Tree",
-    "difficulty": "medium",
-    "transcript": "This is my family tree.",
-    "content": {
-      "title": "Árbol Familiar",
-      "instructions": "Ordena las palabras.",
-      "correctSentence": "[[This is my family tree|Este es mi familia árbol]].",
-      "words": ["[[tree|árbol]].", "[[is|es]]", "[[my|mi]]", "[[This|Este]]", "[[family|familia]]"],
-      "explanation": "Vocabulario específico."
-    },
-    "audioUrl": "audio/a1/unit-23/e50.mp3",
-    "topicName": "Vocabulary"
-  },
-
-  // READING COMPREHENSION (51-60)
   {
     "id": "a1-u23-e51",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Meet my Family",
-    "difficulty": "medium",
-    "transcript": "Reading: Meet my Family. Hi! My name is Ana. I have a big family. My father's name is Carlos and my mother's name is Elena. I have one brother, Pablo, and one sister, Lucia. We live with our grandparents in a big house.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[I have two brothers,|Tengo dos hermanos,]] [[Mark and Tom.|Mark y Tom.]] [[Mark is older than Tom.|Mark es más mayor que Tom.]] [[He is also taller.|Él es también más alto.]] [[However, Tom is|Sin embargo, Tom es]] [[faster than Mark.|más rápido que Mark.]] [[Tom is the fastest runner|Tom es el corredor más rápido]] [[in his school.|de su escuela.]] [[Mark is very serious,|Mark es muy serio,]] [[but Tom is|pero Tom es]] [[more friendly.|más amistoso.]] [[I think Mark is|Creo que Mark es]] [[the most intelligent person|la persona más inteligente]] [[I know.|que conozco.]] [[They are very different,|Son muy diferentes,]] [[but they are|pero son]] [[the best brothers|los mejores hermanos]] [[in the world!|¡del mundo!]]",
     "content": {
-      "title": "Lectura: Conoce a mi Familia",
-      "instructions": "Lee el texto y responde.",
+      "title": "[[Reading: My Brothers|Lectura: Mis hermanos]]",
+      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "*\"[[Hi name! My is Ana. I have, and, Lucia a big. My family father. We with our grandparents in a big house is Carlos|Hola! Mi nombre es Ana. Yo tengo una grande familia. Mi padre]]'[[s name. I have is Carlos and my mother name|de nombre es Carlos y mi madre]]'[[s is Elena one brother, Pablo one sister live|de nombre es Elena. Yo tengo un hermano, Pablo, y una hermana, Lucía. Nosotros vivimos con nuestros abuelos en una grande casa]].\"*\n\n[[Who|Quién es Carlos]]?",
-          "options": ["[[Ana's brother|El hermano de Ana]]", "[[Ana's father|El padre de Ana]]", "[[Ana's grandfather|El abuelo de Ana]]"],
+          "question": "[[Who is the fastest runner?|¿Quién es el corredor más rápido?]]",
+          "options": ["[[Mark|Mark]]", "[[Tom|Tom]]", "[[The speaker|El narrador]]"],
           "correctAnswer": 1,
-          "explanation": "El texto dice: 'My father's name is Carlos'."
+          "explanation": "[[The text states that Tom is the fastest runner in his school.|El texto afirma que Tom es el corredor más rápido de su escuela.]]"
         }
       ]
     },
@@ -862,18 +359,18 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "id": "a1-u23-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Meet my Family",
-    "difficulty": "medium",
-    "transcript": "How many siblings does Ana have? Two.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[I have two brothers,|Tengo dos hermanos,]] [[Mark and Tom.|Mark y Tom.]] [[Mark is older than Tom.|Mark es más mayor que Tom.]] [[He is also taller.|Él es también más alto.]] [[However, Tom is|Sin embargo, Tom es]] [[faster than Mark.|más rápido que Mark.]] [[Tom is the fastest runner|Tom es el corredor más rápido]] [[in his school.|de su escuela.]] [[Mark is very serious,|Mark es muy serio,]] [[but Tom is|pero Tom es]] [[more friendly.|más amistoso.]] [[I think Mark is|Creo que Mark es]] [[the most intelligent person|la persona más inteligente]] [[I know.|que conozco.]] [[They are very different,|Son muy diferentes,]] [[but they are|pero son]] [[the best brothers|los mejores hermanos]] [[in the world!|¡del mundo!]]",
     "content": {
-      "title": "Lectura: Conoce a mi Familia",
-      "instructions": "Lee el texto anterior y responde.",
+      "title": "[[Reading: Brother's Personalities|Lectura: Personalidad de los hermanos]]",
+      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "[[How many siblings does Ana have|Cuántos muchos hermanos auxiliar Ana tiene]]?",
-          "options": ["[[One|Uno]]", "[[Two|Dos]]", "[[Three|Tres]]"],
+          "question": "[[Who is more friendly according to the text?|¿Quién es más simpático según el texto?]]",
+          "options": ["[[Mark|Mark]]", "[[Tom|Tom]]", "[[Both|Ambos]]"],
           "correctAnswer": 1,
-          "explanation": "Ana tiene un hermano (Pablo) y una hermana (Lucía), total dos hermanos."
+          "explanation": "[[The text says that Mark is serious, but Tom is more friendly.|El texto dice que Mark es serio, pero Tom es más simpático.]]"
         }
       ]
     },
@@ -884,18 +381,18 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "id": "a1-u23-e53",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: My Uncle Sam",
-    "difficulty": "medium",
-    "transcript": "Reading: My Uncle Sam. Sam is my father's brother. He is my favorite uncle. Sam is married to Susan. They have a daughter, her name is Lily. Lily is my cousin. We play together every Sunday.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[I have two brothers,|Tengo dos hermanos,]] [[Mark and Tom.|Mark y Tom.]] [[Mark is older than Tom.|Mark es más mayor que Tom.]] [[He is also taller.|Él es también más alto.]] [[However, Tom is|Sin embargo, Tom es]] [[faster than Mark.|más rápido que Mark.]] [[Tom is the fastest runner|Tom es el corredor más rápido]] [[in his school.|de su escuela.]] [[Mark is very serious,|Mark es muy serio,]] [[but Tom is|pero Tom es]] [[more friendly.|más amistoso.]] [[I think Mark is|Creo que Mark es]] [[the most intelligent person|la persona más inteligente]] [[I know.|que conozco.]] [[They are very different,|Son muy diferentes,]] [[but they are|pero son]] [[the best brothers|los mejores hermanos]] [[in the world!|¡del mundo!]]",
     "content": {
-      "title": "Lectura: Mi Tío Sam",
-      "instructions": "Lee el texto y responde.",
+      "title": "[[Reading: Comparing Brothers|Lectura: Comparando hermanos]]",
+      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "*\"[[Sam is. He is my father uncle is married to. They Susan have a daughter, her name is Lily. Lily is my cousin. We play together every Sunday is|Sam es mi padre]]'[[s brother my favorite. Sam|de hermano. Él es mi favorito tío. Sam está casado con Susana. Ellos tienen una hija, su nombre es Lily. Lily es mi prima. Nosotros jugamos juntos cada domingo]].\"*\n\n[[Who Lily|Quién es Lily]]?",
-          "options": ["[[My aunt|Mi tía]]", "[[My cousin|Mi prima]]", "[[My sister|Mi hermana]]"],
+          "question": "[[Is Tom older than Mark?|¿Es Tom mayor que Mark?]]",
+          "options": ["[[Yes, he is|Sí, lo es]]", "[[No, Mark is older than Tom|No, Mark es mayor que Tom]]", "[[They are the same age|Tienen la misma edad]]"],
           "correctAnswer": 1,
-          "explanation": "El texto dice: 'Lily is my cousin'."
+          "explanation": "[[The text explicitly states that Mark is older than Tom.|El texto afirma explícitamente que Mark es mayor que Tom.]]"
         }
       ]
     },
@@ -906,18 +403,18 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "id": "a1-u23-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: My Uncle Sam",
-    "difficulty": "medium",
-    "transcript": "Is Sam married? Yes, he is.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[I am comparing|Estoy comparando]] [[two cities:|dos ciudades:]] [[London and Madrid.|Londres y Madrid.]] [[London is larger|Londres es más grande]] [[than Madrid,|que Madrid,]] [[and it is also|y es también]] [[more expensive.|más cara.]] [[The weather in Madrid|El tiempo en Madrid]] [[is better than|es mejor que]] [[the weather in London.|el tiempo en Londres.]] [[In Madrid,|En Madrid,]] [[it is hotter|hace más calor]] [[and sunnier.|y hay más sol.]] [[However, London has|Sin embargo, Londres tiene]] [[the biggest museums|los museos más grandes]] [[and the most beautiful parks.|y los parques más hermosos.]] [[London is older|Londres es más antigua]] [[than Madrid,|que Madrid,]] [[but Madrid is|pero Madrid es]] [[more lively at night.|más animada por la noche.]] [[Both cities are|Ambas ciudades son]] [[very interesting to visit.|muy interesantes de visitar.]]",
     "content": {
-      "title": "Lectura: Mi Tío Sam",
-      "instructions": "Lee el texto anterior y responde.",
+      "title": "[[Reading: City Comparison|Lectura: Comparación de ciudades]]",
+      "instructions": "[[Read about the cities and answer.|Lee sobre las ciudades y responde.]]",
       "questions": [
         {
-          "question": "[[Is Sam married|¿Está? Sam casado]]?",
-          "options": ["[[Yes, he is.|Sí.]]", "[[No, he is single.|No, está soltero.]]", "[[He is a doctor.|Es doctor.]]"],
+          "question": "[[Which city is more expensive?|¿Qué ciudad es más cara?]]",
+          "options": ["[[London|Londres]]", "[[Madrid|Madrid]]", "[[They are the same|Son iguales]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'Sam is married to Susan'."
+          "explanation": "[[The text states that London is more expensive than Madrid.|El texto afirma que Londres es más cara que Madrid.]]"
         }
       ]
     },
@@ -928,18 +425,18 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "id": "a1-u23-e55",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: The Twins",
-    "difficulty": "medium",
-    "transcript": "Reading: The Twins. Mark and Leo are brothers. They are twins and they are ten years old. Their hair is blond and their eyes are blue. They have a big dog. Its name is Buster. The twins love their dog very much.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[I am comparing|Estoy comparando]] [[two cities:|dos ciudades:]] [[London and Madrid.|Londres y Madrid.]] [[London is larger|Londres es más grande]] [[than Madrid,|que Madrid,]] [[and it is also|y es también]] [[more expensive.|más cara.]] [[The weather in Madrid|El tiempo en Madrid]] [[is better than|es mejor que]] [[the weather in London.|el tiempo en Londres.]] [[In Madrid,|En Madrid,]] [[it is hotter|hace más calor]] [[and sunnier.|y hay más sol.]] [[However, London has|Sin embargo, Londres tiene]] [[the biggest museums|los museos más grandes]] [[and the most beautiful parks.|y los parques más hermosos.]] [[London is older|Londres es más antigua]] [[than Madrid,|que Madrid,]] [[but Madrid is|pero Madrid es]] [[more lively at night.|más animada por la noche.]] [[Both cities are|Ambas ciudades son]] [[very interesting to visit.|muy interesantes de visitar.]]",
     "content": {
-      "title": "Lectura: Los Gemelos",
-      "instructions": "Lee el texto y responde.",
+      "title": "[[Reading: Weather Comparison|Lectura: Comparación del clima]]",
+      "instructions": "[[Read about the cities and answer.|Lee sobre las ciudades y responde.]]",
       "questions": [
         {
-          "question": "*\"[[Mark and. They Leo are brothers are twins and. Their they are ten years old hair is blond. They and their eyes are blue have a big. Its dog name is Buster. The twins love their dog very much|Mark y Leo son hermanos. Ellos son gemelos y ellos tienen diez años de edad. Su pelo es rubio y sus ojos son azules. Ellos tienen un grande perro. Su nombre es Buster. Los gemelos aman su perro mucho]].\"*\n\n[[How old are the twins|Qué edad tienen los gemelos]]?",
-          "options": ["[[Five|Cinco]]", "[[Ten|Diez]]", "[[Twelve|Doce]]"],
+          "question": "[[Where is the weather better according to the text?|¿Dónde es mejor el clima según el texto?]]",
+          "options": ["[[In London|En Londres]]", "[[In Madrid|En Madrid]]", "[[In both|En ambas]]"],
           "correctAnswer": 1,
-          "explanation": "El texto dice: 'they are ten years old'."
+          "explanation": "[[The text says the weather in Madrid is better than the weather in London.|El texto dice que el clima en Madrid es mejor que el de Londres.]]"
         }
       ]
     },
@@ -950,18 +447,18 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "id": "a1-u23-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: The Twins",
-    "difficulty": "medium",
-    "transcript": "What is the dog's name? Buster.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[I am comparing|Estoy comparando]] [[two cities:|dos ciudades:]] [[London and Madrid.|Londres y Madrid.]] [[London is larger|Londres es más grande]] [[than Madrid,|que Madrid,]] [[and it is also|y es también]] [[more expensive.|más cara.]] [[The weather in Madrid|El tiempo en Madrid]] [[is better than|es mejor que]] [[the weather in London.|el tiempo en Londres.]] [[In Madrid,|En Madrid,]] [[it is hotter|hace más calor]] [[and sunnier.|y hay más sol.]] [[However, London has|Sin embargo, Londres tiene]] [[the biggest museums|los museos más grandes]] [[and the most beautiful parks.|y los parques más hermosos.]] [[London is older|Londres es más antigua]] [[than Madrid,|que Madrid,]] [[but Madrid is|pero Madrid es]] [[more lively at night.|más animada por la noche.]] [[Both cities are|Ambas ciudades son]] [[very interesting to visit.|muy interesantes de visitar.]]",
     "content": {
-      "title": "Lectura: Los Gemelos",
-      "instructions": "Lee el texto anterior y responde.",
+      "title": "[[Reading: City Features|Lectura: Características de la ciudad]]",
+      "instructions": "[[Read about the cities and answer.|Lee sobre las ciudades y responde.]]",
       "questions": [
         {
-          "question": "[[What is the dog|Cuál es el perro]]'[[s name|de nombre]]?",
-          "options": ["[[Leo|Leo]]", "[[Buster|Buster]]", "[[Mark|Mark]]"],
+          "question": "[[Which city is more lively at night?|¿Qué ciudad es más animada por la noche?]]",
+          "options": ["[[London|Londres]]", "[[Madrid|Madrid]]", "[[Neither|Ninguna]]"],
           "correctAnswer": 1,
-          "explanation": "El texto dice: 'Its name is Buster'."
+          "explanation": "[[The text states that Madrid is more lively at night.|El texto afirma que Madrid es más animada por la noche.]]"
         }
       ]
     },
@@ -972,18 +469,18 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "id": "a1-u23-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Sarah's Best Friend",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Reading: Sarah's Best Friend. My best friend is Emily. She is 20 years old and she is a student. Her parents are from Italy, but they live in New York now. Emily has a brother, Marco. Marco is 15. We go to the cinema every Saturday.",
+    "transcript": "[[Choosing a new car|Elegir un coche nuevo]] [[is difficult.|es difícil.]] [[This red car|Este coche rojo]] [[is faster than|es más rápido que]] [[the blue one,|el azul,]] [[but it is also|pero también es]] [[more expensive.|más caro.]] [[The blue car|El coche azul]] [[is safer|es más seguro]] [[and more comfortable.|y más cómodo.]] [[In my opinion,|En mi opinión,]] [[it is the best option|es la mejor opción]] [[for a family.|para una familia.]] [[However, the red car|Sin embargo, el coche rojo]] [[is the most beautiful car|es el coche más bonito]] [[in the shop.|de la tienda.]] [[My father thinks|Mi padre piensa]] [[safety is more important|que la seguridad es más importante]] [[than speed.|que la velocidad.]] [[We need to decide|Necesitamos decidir]] [[soon.|pronto.]]",
     "content": {
-      "title": "Lectura: La mejor amiga de Sara",
-      "instructions": "Lee el texto y responde.",
+      "title": "[[Reading: The New Car|Lectura: El coche nuevo]]",
+      "instructions": "[[Read the opinions and answer.|Lee las opiniones y responde.]]",
       "questions": [
         {
-          "question": "*\"[[My best. She friend is. Marco. We 15 go Emily is 20 years. Her parents old and she is a student are from, but Italy they live in. Emily has New York now a brother, Marco is to the cinema every Saturday are Emily's parents|Mi mejor amiga es Emily. Ella tiene veinte años de edad y ella es una estudiante. Sus padres son de Italia, pero ellos viven en Nueva York ahora. Emily tiene un hermano, Marco. Marco tiene quince. Nosotras vamos al el cine cada sábado]].\"*\n\n[[Where|De dónde son de Emily padres]]?",
-          "options": ["[[From USA|De EEUU]]", "[[From Italy|De Italia]]", "[[From Spain|De España]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'Her parents are from Italy'."
+          "question": "[[Which car is faster?|¿Qué coche es más rápido?]]",
+          "options": ["[[The red car|El coche rojo]]", "[[The blue car|El coche azul]]", "[[Both are the same|Ambos son iguales]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The text states that the red car is faster than the blue one.|El texto afirma que el coche rojo es más rápido que el azul.]]"
         }
       ]
     },
@@ -994,18 +491,18 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "id": "a1-u23-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Sarah's Best Friend",
+    "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "How old is Marco? Fifteen.",
+    "transcript": "[[Choosing a new car|Elegir un coche nuevo]] [[is difficult.|es difícil.]] [[This red car|Este coche rojo]] [[is faster than|es más rápido que]] [[the blue one,|el azul,]] [[but it is also|pero también es]] [[more expensive.|más caro.]] [[The blue car|El coche azul]] [[is safer|es más seguro]] [[and more comfortable.|y más cómodo.]] [[In my opinion,|En mi opinión,]] [[it is the best option|es la mejor opción]] [[for a family.|para una familia.]] [[However, the red car|Sin embargo, el coche rojo]] [[is the most beautiful car|es el coche más bonito]] [[in the shop.|de la tienda.]] [[My father thinks|Mi padre piensa]] [[safety is more important|que la seguridad es más importante]] [[than speed.|que la velocidad.]] [[We need to decide|Necesitamos decidir]] [[soon.|pronto.]]",
     "content": {
-      "title": "Lectura: La mejor amiga de Sara",
-      "instructions": "Lee el texto anterior y responde.",
+      "title": "[[Reading: The Safest Choice|Lectura: La opción más segura]]",
+      "instructions": "[[Read the opinions and answer.|Lee las opiniones y responde.]]",
       "questions": [
         {
-          "question": "[[How old is Marco|Qué edad tiene Marco]]?",
-          "options": ["[[15|15]]", "[[20|20]]", "[[10|10]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'Marco is 15'."
+          "question": "[[What does the father think is most important?|¿Qué cree el padre que es más importante?]]",
+          "options": ["[[Speed|Velocidad]]", "[[Safety|Seguridad]]", "[[The color|El color]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The father thinks safety is more important than speed.|El padre cree que la seguridad es más importante que la velocidad.]]"
         }
       ]
     },
@@ -1016,18 +513,18 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "id": "a1-u23-e59",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Family Dinner",
-    "difficulty": "medium",
-    "transcript": "Reading: Family Dinner. Tonight is my grandmother's birthday. All the family is at her house. My aunts and uncles are in the garden. My cousins are playing with a ball. We are very happy because we love our grandmother.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Which animal is the strongest?|¿Qué animal es el más fuerte?]] [[The elephant is|El elefante es]] [[one of the strongest|uno de los animales más fuertes]] [[animals on land.|de la tierra.]] [[It is also|Es también]] [[the largest land animal.|el animal terrestre más grande.]] [[However, the cheetah is|Sin embargo, el guepardo es]] [[much faster|mucho más rápido]] [[than the elephant.|que el elefante.]] [[In the ocean,|En el océano,]] [[the blue whale is|la ballena azul es]] [[the biggest creature|la criatura más grande]] [[of all.|de todas.]] [[Some people think|Algunas personas creen]] [[dolphins are|que los delfines son]] [[the most intelligent|los más inteligentes]] [[animals in the sea.|animales del mar.]] [[Nature is full of|La naturaleza está llena de]] [[amazing and different|animales asombrosos y diferentes]] [[animals.|.]]",
     "content": {
-      "title": "Lectura: Cena Familiar",
-      "instructions": "Lee el texto y responde.",
+      "title": "[[Reading: Animal World|Lectura: El mundo animal]]",
+      "instructions": "[[Read about the animals and answer.|Lee sobre los animales y responde.]]",
       "questions": [
         {
-          "question": "*\"[[Tonight is. All the my grandmother at her house aunts and uncles. My cousins are in the garden are playing. We with a ball are very happy because we love our grandmother are and uncles|Esta noche es mi abuela]]'[[s birthday family is. My|de cumpleaños. Toda la familia está en su casa. Mis tías y tíos están en el jardín. Mis primos están jugando con una pelota. Nosotros estamos muy felices porque nosotros amamos nuestra abuela]].\"*\n\n[[Where the aunts|Dónde están las tías y tíos]]?",
-          "options": ["[[In the kitchen|En la cocina]]", "[[In the garden|En el jardín]]", "[[In the living room|En el salón]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'My aunts and uncles are in the garden'."
+          "question": "[[Which animal is the largest on land?|¿Qué animal es el más grande en la tierra?]]",
+          "options": ["[[The elephant|El elefante]]", "[[The cheetah|El guepardo]]", "[[The blue whale|La ballena azul]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The text says the elephant is the largest land animal.|El texto dice que el elefante es el animal terrestre más grande.]]"
         }
       ]
     },
@@ -1038,18 +535,18 @@ export const UNIT_23_EXERCISES: Exercise[] = [
     "id": "a1-u23-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading: Family Dinner",
-    "difficulty": "medium",
-    "transcript": "Whose birthday is it? The grandmother's.",
+    "topic": "Reading Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Which animal is the strongest?|¿Qué animal es el más fuerte?]] [[The elephant is|El elefante es]] [[one of the strongest|uno de los animales más fuertes]] [[animals on land.|de la tierra.]] [[It is also|Es también]] [[the largest land animal.|el animal terrestre más grande.]] [[However, the cheetah is|Sin embargo, el guepardo es]] [[much faster|mucho más rápido]] [[than the elephant.|que el elefante.]] [[In the ocean,|En el océano,]] [[the blue whale is|la ballena azul es]] [[the biggest creature|la criatura más grande]] [[of all.|de todas.]] [[Some people think|Algunas personas creen]] [[dolphins are|que los delfines son]] [[the most intelligent|los más inteligentes]] [[animals in the sea.|animales del mar.]] [[Nature is full of|La naturaleza está llena de]] [[amazing and different|animales asombrosos y diferentes]] [[animals.|.]]",
     "content": {
-      "title": "Lectura: Cena Familiar",
-      "instructions": "Lee el texto anterior y responde.",
+      "title": "[[Reading: Sea Animals|Lectura: Animales marinos]]",
+      "instructions": "[[Read about the animals and answer.|Lee sobre los animales y responde.]]",
       "questions": [
         {
-          "question": "[[Whose birthday is it|De quién cumpleaños es ello]]?",
-          "options": ["[[The mother's|De la madre]]", "[[The grandmother's|De la abuela]]", "[[The cousin's|Del primo]]"],
-          "correctAnswer": 1,
-          "explanation": "El texto dice: 'Tonight is my grandmother's birthday'."
+          "question": "[[Which animal is considered the most intelligent in the sea?|¿Qué animal es considerado el más inteligente del mar?]]",
+          "options": ["[[The dolphin|El delfín]]", "[[The whale|La ballena]]", "[[The shark|El tiburón]]"],
+          "correctAnswer": 0,
+          "explanation": "[[The text mentions that some people think dolphins are the most intelligent animals in the sea.|El texto menciona que algunas personas creen que los delfines son los animales más inteligentes del mar.]]"
         }
       ]
     },

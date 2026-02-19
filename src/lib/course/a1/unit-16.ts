@@ -400,15 +400,15 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e26",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "There is/are",
+    "topic": "Much/Many",
     "difficulty": "medium",
-    "transcript": "There are some bananas in the basket.",
+    "transcript": "There isn't much salt in the soup.",
     "content": {
-      "title": "Plátanos",
-      "instructions": "Ordena la oración existencial.",
-      "correctSentence": "[[There are some bananas in the basket|Hay allí algunos plátanos en la cesta]].",
-      "words": ["[[basket|cesta]].", "[[the|la]]", "[[in|en]]", "[[bananas|plátanos]]", "[[some|algunos]]", "[[are|allí]]", "[[There|Hay]]"],
-      "explanation": "There are + contable plural."
+      "title": "Mucha Sal",
+      "instructions": "Ordena la negación de cantidad.",
+      "correctSentence": "[[There isn't much salt in the soup|Hay no es mucha sal en la sopa]].",
+      "words": ["[[soup|sopa]].", "[[the|la]]", "[[in|en]]", "[[salt|sal]]", "[[much|mucha]]", "[[isn't|no es]]", "[[There|Hay]]"],
+      "explanation": "Salt es incontable, usamos 'much' en negativo."
     },
     "audioUrl": "audio/a1/unit-16/e26.mp3",
     "topicName": "Grammar"
@@ -417,37 +417,37 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e27",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Quantity",
-    "difficulty": "medium",
-    "transcript": "We have too many cookies.",
+    "topic": "Fast Food",
+    "difficulty": "easy",
+    "transcript": "Burger. Pizza. Fries. Hot dog.",
     "content": {
-      "title": "Demasiadas Galletas",
-      "instructions": "Elige la expresión de exceso.",
+      "title": "Comida Rápida",
+      "instructions": "¿Cuál se asocia con un pan alargado y una salchicha?",
       "questions": [
         {
-          "question": "[[We have|Nosotros tener]] (_____) [[cookies|galletas]].",
-          "options": ["[[too many|demasiadas]]", "[[too much|demasiado]]", "[[a lot of|muchas]]"],
+          "question": "[[I want to eat a|Yo querer a comer un]] (_____) .",
+          "options": ["[[hot dog|perrito caliente]]", "[[pizza|pizza]]", "[[fries|patatas fritas]]"],
           "correctAnswer": 0,
-          "explanation": "Cookies es contable plural, usamos 'too many'."
+          "explanation": "El hot dog es el perrito caliente."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-16/e27.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u16-e28",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Ordering",
+    "topic": "How much",
     "difficulty": "medium",
-    "transcript": "Would you like some dessert?",
+    "transcript": "How much money do you need?",
     "content": {
-      "title": "¿Desea postre?",
-      "instructions": "Ordena la oferta del camarero.",
-      "correctSentence": "[[Would you like some dessert|Aux tú gustar algo de postre]]?",
-      "words": ["[[dessert|postre]]?", "[[some|algo de]]", "[[like|gustar]]", "[[you|tú]]", "[[Would|Aux]]"],
-      "explanation": "Oferta educada con 'Would you like'."
+      "title": "Dinero",
+      "instructions": "Ordena la pregunta de cantidad monetaria.",
+      "correctSentence": "[[How much money do you need|Cómo mucho dinero aux tú necesitar]]?",
+      "words": ["[[need|necesitar]]?", "[[you|tú]]", "[[do|aux]]", "[[money|dinero]]", "[[much|mucho]]", "[[How|Cómo]]"],
+      "explanation": "Money es incontable, usamos 'How much'."
     },
     "audioUrl": "audio/a1/unit-16/e28.mp3",
     "topicName": "Grammar"
@@ -456,18 +456,18 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e29",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Veggies",
+    "topic": "Condiments",
     "difficulty": "easy",
-    "transcript": "Spinach. Peas. Beans.",
+    "transcript": "Salt. Pepper. Oil. Vinegar.",
     "content": {
-      "title": "Verduras Verdes",
-      "instructions": "Identifica los guisantes.",
+      "title": "Condimentos",
+      "instructions": "Para la ensalada uso...",
       "questions": [
         {
-          "question": "[[I don't like|Yo no gustar]] (_____) .",
-          "options": ["[[peas|guisantes]]", "[[pears|peras]]", "[[peaches|melocotones]]"],
+          "question": "[[I put oil and|Yo pongo aceite y]] (_____) [[on my salad|en mi ensalada]].",
+          "options": ["[[vinegar|vinagre]]", "[[sugar|azúcar]]", "[[milk|leche]]"],
           "correctAnswer": 0,
-          "explanation": "Peas son guisantes."
+          "explanation": "El vinagre es el condimento típico junto al aceite."
         }
       ]
     },
@@ -478,15 +478,15 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e30",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "How much",
+    "topic": "Ordering",
     "difficulty": "medium",
-    "transcript": "How much salt do you put in the soup?",
+    "transcript": "Would you like some more bread?",
     "content": {
-      "title": "Cuánta Sal",
-      "instructions": "Ordena la pregunta de cantidad.",
-      "correctSentence": "[[How much salt do you put in the soup|Cómo mucho sal aux tú poner en la sopa]]?",
-      "words": ["[[soup|sopa]]?", "[[the|la]]", "[[in|en]]", "[[put|poner]]", "[[you|tú]]", "[[do|aux]]", "[[salt|sal]]", "[[much|mucho]]", "[[How|Cómo]]"],
-      "explanation": "Salt es incontable, usamos 'How much'."
+      "title": "Más Pan",
+      "instructions": "Ordena la oferta de más comida.",
+      "correctSentence": "[[Would you like some more bread|Aux tú gustar algo más pan]]?",
+      "words": ["[[bread|pan]]?", "[[more|más]]", "[[some|algo]]", "[[like|gustar]]", "[[you|tú]]", "[[Would|Aux]]"],
+      "explanation": "Uso de 'some' en ofertas educadas."
     },
     "audioUrl": "audio/a1/unit-16/e30.mp3",
     "topicName": "Grammar"
@@ -495,18 +495,18 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e31",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Fruit",
-    "difficulty": "easy",
-    "transcript": "Mango. Peach. Pear.",
+    "topic": "Containers",
+    "difficulty": "medium",
+    "transcript": "A bottle of water. A glass of milk. A cup of tea.",
     "content": {
-      "title": "Frutas",
-      "instructions": "Identifica la pera.",
+      "title": "Recipientes",
+      "instructions": "Elige el recipiente correcto.",
       "questions": [
         {
-          "question": "[[This is a|Esta es una]] (_____) .",
-          "options": ["[[pear|pera]]", "[[bear|oso]]", "[[beer|cerveza]]"],
+          "question": "[[I drink a|Yo bebo una]] (_____) [[of water|de agua]].",
+          "options": ["[[bottle|botella]]", "[[box|caja]]", "[[plate|plato]]"],
           "correctAnswer": 0,
-          "explanation": "Pear es pera."
+          "explanation": "El agua se suele servir en botellas o vasos (glasses)."
         }
       ]
     },
@@ -517,15 +517,15 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e32",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Some",
+    "topic": "Some/Any",
     "difficulty": "medium",
-    "transcript": "I need some butter for the cake.",
+    "transcript": "There aren't any oranges in the kitchen.",
     "content": {
-      "title": "Mantequilla",
-      "instructions": "Ordena la oración afirmativa.",
-      "correctSentence": "[[I need some butter for the cake|Yo necesitar algo de mantequilla para el pastel]].",
-      "words": ["[[cake|pastel]].", "[[the|el]]", "[[for|para]]", "[[butter|mantequilla]]", "[[some|algo de]]", "[[need|necesitar]]", "[[I|Yo]]"],
-      "explanation": "Butter es incontable, usamos 'some'."
+      "title": "Sin Naranjas",
+      "instructions": "Ordena la negación plural.",
+      "correctSentence": "[[There aren't any oranges in the kitchen|Hay no son ningún naranjas en la cocina]].",
+      "words": ["[[kitchen|cocina]].", "[[the|la]]", "[[in|en]]", "[[oranges|naranjas]]", "[[any|ningún]]", "[[aren't|no son]]", "[[There|Hay]]"],
+      "explanation": "Negación plural con 'any'."
     },
     "audioUrl": "audio/a1/unit-16/e32.mp3",
     "topicName": "Grammar"
@@ -534,18 +534,18 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e33",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Drinks",
-    "difficulty": "easy",
-    "transcript": "Hot chocolate. Orange juice.",
+    "topic": "Seafood",
+    "difficulty": "medium",
+    "transcript": "Prawns. Crab. Lobster. Mussels.",
     "content": {
-      "title": "Bebidas",
-      "instructions": "Bebida caliente de invierno.",
+      "title": "Mariscos",
+      "instructions": "Elige la traducción de langosta.",
       "questions": [
         {
-          "question": "[[I drink|Yo bebo]] (_____) [[in winter|en invierno]].",
-          "options": ["[[hot chocolate|chocolate caliente]]", "[[cold water|agua fría]]", "[[soda|refresco]]"],
+          "question": "[[I love|Yo amo]] (_____) .",
+          "options": ["[[lobster|langosta]]", "[[crab|cangrejo]]", "[[prawns|gambas]]"],
           "correctAnswer": 0,
-          "explanation": "El chocolate caliente es típico de invierno."
+          "explanation": "Lobster es langosta."
         }
       ]
     },
@@ -556,15 +556,15 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e34",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "How many",
+    "topic": "Quantity",
     "difficulty": "medium",
-    "transcript": "How many oranges are there?",
+    "transcript": "I need a few potatoes for the salad.",
     "content": {
-      "title": "Cuántas Naranjas",
-      "instructions": "Ordena la pregunta de conteo.",
-      "correctSentence": "[[How many oranges are there|Cómo muchas naranjas hay allí]]?",
-      "words": ["[[there|allí]]?", "[[are|hay]]", "[[oranges|naranjas]]", "[[many|muchas]]", "[[How|Cómo]]"],
-      "explanation": "Oranges es contable plural."
+      "title": "Unas Pocas Patatas",
+      "instructions": "Ordena la frase de cantidad pequeña.",
+      "correctSentence": "[[I need a few potatoes for the salad|Yo necesitar unas pocas patatas para la ensalada]].",
+      "words": ["[[salad|ensalada]].", "[[the|la]]", "[[for|para]]", "[[potatoes|patatas]]", "[[few|pocas]]", "[[a|unas]]", "[[need|necesitar]]", "[[I|Yo]]"],
+      "explanation": "'A few' se usa para contables plurales."
     },
     "audioUrl": "audio/a1/unit-16/e34.mp3",
     "topicName": "Grammar"
@@ -573,18 +573,18 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e35",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Condiments",
+    "topic": "Fruit",
     "difficulty": "easy",
-    "transcript": "Salt. Pepper. Oil. Vinegar.",
+    "transcript": "Melon. Pineapple. Grapes. Peach.",
     "content": {
-      "title": "Condimentos",
-      "instructions": "¿Qué se usa con el aceite?",
+      "title": "Más Frutas",
+      "instructions": "Traducción de piña.",
       "questions": [
         {
-          "question": "[[I use oil and|Yo uso aceite y]] (_____) [[for the salad|para la ensalada]].",
-          "options": ["[[vinegar|vinagre]]", "[[sugar|azúcar]]", "[[milk|leche]]"],
+          "question": "[[This is a|Esto es una]] (_____) .",
+          "options": ["[[pineapple|piña]]", "[[peach|melocotón]]", "[[melon|melón]]"],
           "correctAnswer": 0,
-          "explanation": "Aceite y vinagre es el aliño común."
+          "explanation": "Pineapple es piña."
         }
       ]
     },
@@ -595,15 +595,15 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e36",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Any",
+    "topic": "Uncountable",
     "difficulty": "medium",
-    "transcript": "There isn't any cheese in the sandwich.",
+    "transcript": "There is a little milk left.",
     "content": {
-      "title": "Sin Queso",
-      "instructions": "Ordena la negación de existencia.",
-      "correctSentence": "[[There isn't any cheese in the sandwich|Hay no nada de queso en el sándwich]].",
-      "words": ["[[sandwich|sándwich]].", "[[the|el]]", "[[in|en]]", "[[cheese|queso]]", "[[any|nada de]]", "[[isn't|no]]", "[[There|Hay]]"],
-      "explanation": "Isn't + any para incontables negativos."
+      "title": "Un Poco de Leche",
+      "instructions": "Ordena la frase de cantidad pequeña incontable.",
+      "correctSentence": "[[There is a little milk left|Hay es un poco leche queda]].",
+      "words": ["[[left|queda]].", "[[milk|leche]]", "[[little|poco]]", "[[a|un]]", "[[is|es]]", "[[There|Hay]]"],
+      "explanation": "'A little' se usa para incontables."
     },
     "audioUrl": "audio/a1/unit-16/e36.mp3",
     "topicName": "Grammar"
@@ -612,18 +612,18 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e37",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Meat",
-    "difficulty": "medium",
-    "transcript": "Is there any pork in this soup? No, only beef.",
+    "topic": "Bakery",
+    "difficulty": "easy",
+    "transcript": "Baguette. Croissant. Muffin. Pie.",
     "content": {
-      "title": "¿Lleva cerdo?",
-      "instructions": "Completa el diálogo.",
+      "title": "Panadería",
+      "instructions": "Elige la traducción de pastel (de fruta o carne).",
       "questions": [
         {
-          "question": "[[Is there? No any pork, only|Hay allí algo de cerdo? No, solo]] (_____) .",
-          "options": ["[[beef|ternera]]", "[[apple|manzana]]", "[[water|agua]]"],
+          "question": "[[I want an apple|Yo querer un manzana]] (_____) .",
+          "options": ["[[pie|pastel]]", "[[muffin|magdalena]]", "[[baguette|barra de pan]]"],
           "correctAnswer": 0,
-          "explanation": "Ternera es otra opción de carne."
+          "explanation": "Pie se refiere a pasteles tipo tarta rellena."
         }
       ]
     },
@@ -634,15 +634,15 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e38",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Quantities",
+    "topic": "Much/Many",
     "difficulty": "medium",
-    "transcript": "We have a lot of potatoes for dinner.",
+    "transcript": "How many biscuits would you like?",
     "content": {
-      "title": "Muchas Patatas",
-      "instructions": "Ordena la oración de abundancia.",
-      "correctSentence": "[[We have a lot of potatoes for dinner|Nosotros tener una gran de patatas para cena]].",
-      "words": ["[[dinner|cena]].", "[[for|para]]", "[[potatoes|patatas]]", "[[of|de]]", "[[lot|gran]]", "[[a|una]]", "[[have|tener]]", "[[We|Nosotros]]"],
-      "explanation": "A lot of + contable plural."
+      "title": "Galletas",
+      "instructions": "Ordena la oferta de galletas.",
+      "correctSentence": "[[How many biscuits would you like|Cómo muchos galletas aux tú gustar]]?",
+      "words": ["[[like|gustar]]?", "[[you|tú]]", "[[would|aux]]", "[[biscuits|galletas]]", "[[many|muchos]]", "[[How|Cómo]]"],
+      "explanation": "Biscuits es contable, usamos 'many'."
     },
     "audioUrl": "audio/a1/unit-16/e38.mp3",
     "topicName": "Grammar"
@@ -651,37 +651,37 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e39",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Drinks",
+    "topic": "Vegetables",
     "difficulty": "easy",
-    "transcript": "Do you want some sugar? No, thank you.",
+    "transcript": "Cucumber. Spinach. Broccoli. Cauliflower.",
     "content": {
-      "title": "¿Quieres azúcar?",
-      "instructions": "Elige la respuesta educada.",
+      "title": "Más Verduras",
+      "instructions": "Traducción de pepino.",
       "questions": [
         {
-          "question": "[[Do you want some sugar|Aux tú querer algo de azúcar]]?",
-          "options": ["[[No, thank you|No, gracias]]", "[[No, I don't|No (brusco)]]", "[[Yes, some|Sí, algo]]"],
+          "question": "[[I put in my salad|Yo pongo en mi ensalada]] (_____) .",
+          "options": ["[[cucumber|pepino]]", "[[spinach|espinaca]]", "[[broccoli|brócoli]]"],
           "correctAnswer": 0,
-          "explanation": "Respuesta cortés al rechazar una oferta."
+          "explanation": "Cucumber es pepino."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-16/e39.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u16-e40",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Lunch",
+    "topic": "A lot of",
     "difficulty": "medium",
-    "transcript": "I usually have a salad for lunch.",
+    "transcript": "We have a lot of things to buy.",
     "content": {
-      "title": "Almuerzo",
-      "instructions": "Ordena la rutina de comida.",
-      "correctSentence": "[[I usually have a salad for lunch|Yo normalmente tomar una ensalada para almuerzo]].",
-      "words": ["[[lunch|almuerzo]].", "[[for|para]]", "[[salad|ensalada]]", "[[have|tomar]]", "[[usually|normalmente]]", "[[I|Yo]]"],
-      "explanation": "Hobby de comer ensalada al mediodía."
+      "title": "Muchas Cosas",
+      "instructions": "Ordena la oración de gran cantidad.",
+      "correctSentence": "[[We have a lot of things to buy|Nosotros tener un mucho de cosas a comprar]].",
+      "words": ["[[buy|comprar]].", "[[to|a]]", "[[things|cosas]]", "[[of|de]]", "[[lot|mucho]]", "[[a|un]]", "[[have|tener]]", "[[We|Nosotros]]"],
+      "explanation": "'A lot of' funciona con cualquier sustantivo."
     },
     "audioUrl": "audio/a1/unit-16/e40.mp3",
     "topicName": "Grammar"
@@ -690,37 +690,37 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e41",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "A/An/Some",
-    "difficulty": "easy",
-    "transcript": "I want an orange and some grapes.",
+    "topic": "Spices",
+    "difficulty": "medium",
+    "transcript": "Cinnamon. Ginger. Garlic. Chili.",
     "content": {
-      "title": "Frutas",
-      "instructions": "Contables singular y plural.",
+      "title": "Especias",
+      "instructions": "Elige la traducción de ajo.",
       "questions": [
         {
-          "question": "[[I want|Yo querer]] (_____) [[orange and|naranja y]] (_____) [[grapes|uvas]].",
-          "options": ["[[an / some|una / algunas]]", "[[a / some|una / algunas]]", "[[an / a|una / una]]"],
+          "question": "[[This food has too much|Esta comida tiene mucho]] (_____) .",
+          "options": ["[[garlic|ajo]]", "[[ginger|jengibre]]", "[[cinnamon|canela]]"],
           "correctAnswer": 0,
-          "explanation": "Orange empieza por vocal (an), grapes es plural (some)."
+          "explanation": "Garlic es ajo."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-16/e41.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u16-e42",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Negative Existential",
+    "topic": "Any/Some",
     "difficulty": "medium",
-    "transcript": "There aren't any eggs in the fridge.",
+    "transcript": "I would like some more water, please.",
     "content": {
-      "title": "Sin Huevos",
-      "instructions": "Ordena la oración de ausencia.",
-      "correctSentence": "[[There aren't any eggs in the fridge|Hay no ningún huevos en la nevera]].",
-      "words": ["[[fridge|nevera]].", "[[the|la]]", "[[in|en]]", "[[eggs|huevos]]", "[[any|ningún]]", "[[aren't|no]]", "[[There|Hay]]"],
-      "explanation": "Aren't + any para contables plurales."
+      "title": "Más Agua",
+      "instructions": "Ordena la petición de más líquido.",
+      "correctSentence": "[[I would, please like some more water|Yo aux gustar algo más agua, por favor]].",
+      "words": ["[[please|por favor]].", "[[water|agua]],", "[[more|más]]", "[[some|algo]]", "[[like|gustar]]", "[[would|aux]]", "[[I|Yo]]"],
+      "explanation": "Petición educada con 'some'."
     },
     "audioUrl": "audio/a1/unit-16/e42.mp3",
     "topicName": "Grammar"
@@ -729,37 +729,37 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e43",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Quantity",
-    "difficulty": "medium",
-    "transcript": "How much meat do you eat? Not much.",
+    "topic": "Juices",
+    "difficulty": "easy",
+    "transcript": "Apple juice. Orange juice. Tomato juice.",
     "content": {
-      "title": "Cuánta Carne",
-      "instructions": "Respuesta de cantidad negativa.",
+      "title": "Zumos",
+      "instructions": "Traducción de zumo de naranja.",
       "questions": [
         {
-          "question": "[[How much meat do you eat|Cómo mucho carne aux tú comer]]?",
-          "options": ["[[Not much|No mucha]]", "[[Not many|No muchas]]", "[[Not some|No algo]]"],
+          "question": "[[I drink|Yo bebo]] (_____) [[for breakfast|para desayuno]].",
+          "options": ["[[orange juice|zumo de naranja]]", "[[tomato juice|zumo de tomate]]", "[[apple juice|zumo de manzana]]"],
           "correctAnswer": 0,
-          "explanation": "Meat es incontable, usamos 'much' en la respuesta negativa."
+          "explanation": "Orange juice es el clásico zumo de naranja."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-16/e43.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u16-e44",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Ordering",
+    "topic": "Countable/Uncountable",
     "difficulty": "medium",
-    "transcript": "We would like to order two pizzas.",
+    "transcript": "Is there a lot of sugar in this cake?",
     "content": {
-      "title": "Pidiendo Pizzas",
-      "instructions": "Ordena la oración para pedir comida.",
-      "correctSentence": "[[We would like to order two pizzas|Nosotros aux gustar a pedir dos pizzas]].",
-      "words": ["[[pizzas|pizzas]].", "[[two|dos]]", "[[order|pedir]]", "[[to|a]]", "[[like|gustar]]", "[[would|aux]]", "[[We|Nosotros]]"],
-      "explanation": "Estructura formal para un grupo."
+      "title": "Azúcar en el Pastel",
+      "instructions": "Ordena la pregunta sobre un ingrediente dulce.",
+      "correctSentence": "[[Is there a lot of sugar in this cake|Hay allí un mucho de azúcar en este pastel]]?",
+      "words": ["[[cake|pastel]]?", "[[this|este]]", "[[in|en]]", "[[sugar|azúcar]]", "[[of|de]]", "[[lot|mucho]]", "[[a|un]]", "[[there|allí]]", "[[Is|Hay]]"],
+      "explanation": "Pregunta de cantidad general."
     },
     "audioUrl": "audio/a1/unit-16/e44.mp3",
     "topicName": "Grammar"
@@ -768,18 +768,18 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e45",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Snacks/Candy",
+    "topic": "Meals",
     "difficulty": "easy",
-    "transcript": "Honey. Chocolate. Sugar.",
+    "transcript": "Breakfast. Lunch. Dinner. Snack.",
     "content": {
-      "title": "Dulces",
-      "instructions": "Identifica el chocolate.",
+      "title": "Comidas del Día",
+      "instructions": "La comida principal al final del día es...",
       "questions": [
         {
-          "question": "[[I love|Yo amar]] (_____) .",
-          "options": ["[[chocolate|chocolate]]", "[[chicken|pollo]]", "[[cheese|queso]]"],
+          "question": "[[We eat|Nosotros comemos]] (_____) [[at eight p.m|a las ocho p.m]].",
+          "options": ["[[dinner|cena]]", "[[lunch|almuerzo]]", "[[breakfast|desayuno]]"],
           "correctAnswer": 0,
-          "explanation": "Chocolate es el dulce favorito de muchos."
+          "explanation": "Dinner es la cena."
         }
       ]
     },
@@ -790,15 +790,15 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e46",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Questions",
+    "topic": "Ordering",
     "difficulty": "medium",
-    "transcript": "Do we have any juice left?",
+    "transcript": "I would like to order a pizza, please.",
     "content": {
-      "title": "¿Queda zumo?",
-      "instructions": "Ordena la pregunta de existencias.",
-      "correctSentence": "[[Do we have any juice left|Aux nosotros tener algo de zumo restante]]?",
-      "words": ["[[left|restante]]?", "[[juice|zumo]]", "[[any|algo de]]", "[[have|tener]]", "[[we|nosotros]]", "[[Do|Aux]]"],
-      "explanation": "Any + incontable en pregunta."
+      "title": "Pedir Pizza",
+      "instructions": "Ordena la petición al servicio a domicilio.",
+      "correctSentence": "[[I would, please like to order a pizza|Yo aux gustar a pedir una pizza, por favor]].",
+      "words": ["[[please|por favor]].", "[[pizza|pizza]],", "[[a|una]]", "[[order|pedir]]", "[[to|a]]", "[[like|gustar]]", "[[would|aux]]", "[[I|Yo]]"],
+      "explanation": "Forma educada de pedir comida."
     },
     "audioUrl": "audio/a1/unit-16/e46.mp3",
     "topicName": "Grammar"
@@ -807,37 +807,37 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e47",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Quantity",
+    "topic": "Kitchenware",
     "difficulty": "easy",
-    "transcript": "I drink a lot of coffee.",
+    "transcript": "Fork. Knife. Spoon. Plate. Bowl.",
     "content": {
-      "title": "Mucho Café",
-      "instructions": "Completa la frase afirmativa.",
+      "title": "Cubiertos",
+      "instructions": "Para la sopa uso...",
       "questions": [
         {
-          "question": "[[I drink|Yo beber]] (_____) [[coffee|café]].",
-          "options": ["[[a lot of|mucho]]", "[[many|muchos]]", "[[any|algo de]]"],
+          "question": "[[I use a|Yo uso una]] (_____) [[for the soup|para la sopa]].",
+          "options": ["[[spoon|cuchara]]", "[[knife|cuchillo]]", "[[fork|tenedor]]"],
           "correctAnswer": 0,
-          "explanation": "A lot of es perfecto para oraciones afirmativas."
+          "explanation": "Spoon es cuchara."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-16/e47.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u16-e48",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Ordering",
+    "topic": "Preferences",
     "difficulty": "medium",
-    "transcript": "Can I have some more water, please?",
+    "transcript": "Do you like eating fish with lemon?",
     "content": {
-      "title": "Más Agua",
-      "instructions": "Ordena la petición de repetición.",
-      "correctSentence": "[[Can I, please have some more water|Poder yo tomar algo de más agua, por favor]]?",
-      "words": ["[[please|por favor]]?", "[[water|agua]],", "[[more|más]]", "[[some|algo de]]", "[[have|tomar]]", "[[I|yo]]", "[[Can|Poder]]"],
-      "explanation": "Usamos 'some' al ofrecer o pedir algo específicamente."
+      "title": "Pescado con Limón",
+      "instructions": "Ordena la pregunta sobre preferencias.",
+      "correctSentence": "[[Do you like eating fish with lemon|Te gusta comer pescado con limón]]?",
+      "words": ["[[lemon|limón]]?", "[[with|con]]", "[[fish|pescado]]", "[[eating|comer]]", "[[like|gusta]]", "[[you|te]]", "[[Do|Aux]]"],
+      "explanation": "Pregunta de gusto general."
     },
     "audioUrl": "audio/a1/unit-16/e48.mp3",
     "topicName": "Grammar"
@@ -846,8 +846,8 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "id": "a1-u16-e49",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Food Prep",
-    "difficulty": "medium",
+    "topic": "Fast Food",
+    "difficulty": "easy",
     "transcript": "Do you want your steak with fries? Yes, please.",
     "content": {
       "title": "Filete con Patatas",
@@ -887,22 +887,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "My healthy diet. I try to eat healthy food every day. For breakfast, I have an apple and some yogurt. For lunch, I usually have a large salad with chicken and some water. I don't eat much meat for dinner, only fish or vegetables. I never drink soda because it has too much sugar.",
+    "transcript": "[[My healthy diet.|Mi dieta saludable.]] [[I try to eat|Intento comer]] [[healthy food every day.|comida saludable todos los días.]] [[For breakfast,|Para el desayuno,]] [[I have an apple|tomo una manzana]] [[and some yogurt.|y algo de yogur.]] [[For lunch,|Para el almuerzo,]] [[I usually have|normalmente tomo]] [[a large salad with chicken|una ensalada grande con pollo]] [[and some water.|y algo de agua.]] [[I don't eat much meat|No como mucha carne]] [[for dinner,|para la cena,]] [[only fish or vegetables.|solo pescado o verduras.]] [[I never drink soda|Nunca bebo refrescos]] [[because it has|porque tienen]] [[too much sugar.|demasiada azúcar.]]",
     "content": {
-      "title": "Mi Dieta Saludable",
-      "instructions": "Lee sobre la dieta y responde.",
+      "title": "[[My Healthy Diet|Mi Dieta Saludable]]",
+      "instructions": "[[Read about the diet and answer.|Lee sobre la dieta y responde.]]",
       "questions": [
         {
-          "question": "[[What does the person have for breakfast|Qué toma la persona tomar para desayuno]]?",
-          "options": ["[[An apple and yogurt|Manzana y yogur]]", "[[Bread and coffee|Pan y café]]", "[[Eggs and bacon|Huevos y bacon]]"],
+          "question": "[[What does the person have for breakfast?|¿Qué desayuna la persona?]]",
+          "options": ["[[An apple and yogurt|Una manzana y yogur]]", "[[Bread and coffee|Pan y café]]", "[[Eggs and bacon|Huevos y bacon]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'For breakfast, I have an apple and some yogurt'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[For breakfast, I have an apple and some yogurt.|Para el desayuno, tomo una manzana y algo de yogur.]]\""
         },
         {
-          "question": "[[Why doesn't the person drink soda|Por qué no la persona beber refresco]]?",
-          "options": ["[[Because it has too much sugar|Porque tiene mucha azúcar]]", "[[Because it is expensive|Porque es caro]]", "[[Because he/she doesn't like it|Porque no le gusta]]"],
+          "question": "[[Why doesn't the person drink soda?|¿Por qué la persona no bebe refrescos?]]",
+          "options": ["[[Because it has too much sugar|Porque tiene demasiada azúcar]]", "[[Because it is expensive|Porque es caro]]", "[[Because he/she doesn't like it|Porque no le gusta]]"],
           "correctAnswer": 0,
-          "explanation": "Dice: 'I never drink soda because it has too much sugar'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[it has too much sugar.|tiene demasiada azúcar.]]\""
         }
       ]
     },
@@ -915,22 +915,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "At the restaurant. Good evening! Are you ready to order? Yes, please. I would like the beef steak with potatoes and a green salad. And for my friend, some pasta with tomatoes and cheese. Would you like anything to drink? Just some water and a glass of red wine, please.",
+    "transcript": "[[At the restaurant.|En el restaurante.]] [[Good evening!|¡Buenas noches!]] [[Are you ready to order?|¿Están listos para pedir?]] [[Yes, please.|Sí, por favor.]] [[I would like the beef steak|Me gustaría el filete de ternera]] [[with potatoes|con patatas]] [[and a green salad.|y una ensalada verde.]] [[And for my friend,|Y para mi amigo,]] [[some pasta|un poco de pasta]] [[with tomatoes and cheese.|con tomates y queso.]] [[Would you like|¿Les gustaría]] [[anything to drink?|algo para beber?]] [[Just some water|Solo un poco de agua]] [[and a glass of red wine, please.|y una copa de vino tinto, por favor.]]",
     "content": {
-      "title": "En el Restaurante",
-      "instructions": "Lee el diálogo del restaurante.",
+      "title": "[[At the Restaurant|En el Restaurante]]",
+      "instructions": "[[Read the restaurant dialogue.|Lee el diálogo del restaurante.]]",
       "questions": [
         {
-          "question": "[[What does the first person order|Qué pide el primer persona pedir]]?",
-          "options": ["[[Beef steak with potatoes|Filete con patatas]]", "[[Pasta with tomatoes|Pasta con tomates]]", "[[A pizza|Una pizza]]"],
+          "question": "[[What does the first person order?|¿Qué pide la primera persona?]]",
+          "options": ["[[Beef steak with potatoes|Filete de ternera con patatas]]", "[[Pasta with tomatoes|Pasta con tomates]]", "[[A pizza|Una pizza]]"],
           "correctAnswer": 0,
-          "explanation": "El cliente dice: 'I would like the beef steak with potatoes'."
+          "explanation": "[[The customer says:|El cliente dice:]] \"[[I would like the beef steak with potatoes.|Me gustaría el filete de ternera con patatas.]]\""
         },
         {
-          "question": "[[What drinks do they order|Qué bebidas aux ellos pedir]]?",
+          "question": "[[What drinks do they order?|¿Qué bebidas piden?]]",
           "options": ["[[Water and wine|Agua y vino]]", "[[Beer and soda|Cerveza y refresco]]", "[[Coffee and tea|Café y té]]"],
           "correctAnswer": 0,
-          "explanation": "Piden: 'Just some water and a glass of red wine'."
+          "explanation": "[[They ask for:|Piden:]] \"[[Just some water and a glass of red wine.|Solo un poco de agua y una copa de vino tinto.]]\""
         }
       ]
     },
@@ -943,22 +943,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Shopping list. We need to go to the supermarket. We don't have any milk or eggs. We also need some bread and a lot of vegetables for the week. I want to buy some fruit too, maybe some bananas and oranges. Oh, and don't forget the coffee!",
+    "transcript": "[[Shopping list.|Lista de la compra.]] [[We need to go|Necesitamos ir]] [[to the supermarket.|al supermercado.]] [[We don't have|No tenemos]] [[any milk or eggs.|nada de leche ni huevos.]] [[We also need|También necesitamos]] [[some bread|algo de pan]] [[and a lot of vegetables|y muchas verduras]] [[for the week.|para la semana.]] [[I want to buy|Quiero comprar]] [[some fruit too,|algo de fruta también,]] [[maybe some bananas|quizás algunos plátanos]] [[and oranges.|y naranjas.]] [[Oh, and don't forget the coffee!|¡Ah, y no olvides el café!]]",
     "content": {
-      "title": "Lista de la Compra",
-      "instructions": "Lee la lista de la compra.",
+      "title": "[[Shopping List|Lista de la Compra]]",
+      "instructions": "[[Read the shopping list.|Lee la lista de la compra.]]",
       "questions": [
         {
-          "question": "[[What don't they have|Qué no ellos tener]]?",
+          "question": "[[What don't they have?|¿Qué no tienen?]]",
           "options": ["[[Milk or eggs|Leche ni huevos]]", "[[Bread or water|Pan ni agua]]", "[[Fruit or veg|Fruta ni verdura]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'We don't have any milk or eggs'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[We don't have any milk or eggs.|No tenemos nada de leche ni huevos.]]\""
         },
         {
-          "question": "[[Which fruit do they want to buy|Qué fruta aux ellos querer a comprar]]?",
+          "question": "[[Which fruit do they want to buy?|¿Qué fruta quieren comprar?]]",
           "options": ["[[Bananas and oranges|Plátanos y naranjas]]", "[[Apples and pears|Manzanas y peras]]", "[[Grapes|Uvas]]"],
           "correctAnswer": 0,
-          "explanation": "Dice: 'maybe some bananas and oranges'."
+          "explanation": "[[It says:|Dice:]] \"[[maybe some bananas and oranges.|quizás algunos plátanos y naranjas.]]\""
         }
       ]
     },
@@ -971,22 +971,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "A traditional breakfast. In England, some people have a big breakfast on weekends. They have eggs, bacon, sausages, and beans. They also eat some toast with butter or jam. They usually drink tea with milk or some orange juice. It is a very large meal!",
+    "transcript": "[[A traditional breakfast.|Un desayuno tradicional.]] [[In England,|En Inglaterra,]] [[some people have|algunas personas toman]] [[a big breakfast|un gran desayuno]] [[on weekends.|los fines de semana.]] [[They have eggs, bacon,|Toman huevos, bacon,]] [[sausages, and beans.|salchichas y alubias.]] [[They also eat|También comen]] [[some toast|un poco de tostada]] [[with butter or jam.|con mantequilla o mermelada.]] [[They usually drink tea|Normalmente beben té]] [[with milk|con leche]] [[or some orange juice.|o algo de zumo de naranja.]] [[It is a very large meal!|¡Es una comida muy grande!]]",
     "content": {
-      "title": "Desayuno Tradicional",
-      "instructions": "Lee sobre el desayuno inglés.",
+      "title": "[[Traditional Breakfast|Desayuno Tradicional]]",
+      "instructions": "[[Read about the English breakfast.|Lee sobre el desayuno inglés.]]",
       "questions": [
         {
-          "question": "[[What food is in the breakfast|Qué comida es en el desayuno]]?",
+          "question": "[[What food is in the breakfast?|¿Qué comida hay en el desayuno?]]",
           "options": ["[[Eggs, bacon and beans|Huevos, bacon y alubias]]", "[[Cereal and milk|Cereales y leche]]", "[[Fruit and yogurt|Fruta y yogur]]"],
           "correctAnswer": 0,
-          "explanation": "Enumera: 'eggs, bacon, sausages, and beans'."
+          "explanation": "[[It lists:|Enumera:]] \"[[eggs, bacon, sausages, and beans.|huevos, bacon, salchichas y alubias.]]\""
         },
         {
-          "question": "[[What do they drink|Qué aux ellos beber]]?",
+          "question": "[[What do they drink?|¿Qué beben?]]",
           "options": ["[[Tea or orange juice|Té o zumo de naranja]]", "[[Coffee or water|Café o agua]]", "[[Soda|Refresco]]"],
           "correctAnswer": 0,
-          "explanation": "Dice: 'drink tea with milk or some orange juice'."
+          "explanation": "[[It says:|Dice:]] \"[[drink tea with milk or some orange juice.|beben té con leche o algo de zumo de naranja.]]\""
         }
       ]
     },
@@ -999,22 +999,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Dinner party. I am having a dinner party tonight. I am cooking chicken with rice and many vegetables. For dessert, I have some chocolate cake and fruit salad. There is a lot of food for my six friends. I hope they like it!",
+    "transcript": "[[Dinner party.|Fiesta de cena.]] [[I am having|Voy a tener]] [[a dinner party tonight.|una fiesta de cena esta noche.]] [[I am cooking chicken|Estoy cocinando pollo]] [[with rice|con arroz]] [[and many vegetables.|y muchas verduras.]] [[For dessert,|De postre,]] [[I have some chocolate cake|tengo algo de pastel de chocolate]] [[and fruit salad.|y macedonia de frutas.]] [[There is a lot of food|Hay mucha comida]] [[for my six friends.|para mis seis amigos.]] [[I hope they like it!|¡Espero que les guste!]]",
     "content": {
-      "title": "Fiesta de Cena",
-      "instructions": "Lee sobre la cena.",
+      "title": "[[Dinner Party|Fiesta de Cena]]",
+      "instructions": "[[Read about the dinner.|Lee sobre la cena.]]",
       "questions": [
         {
-          "question": "[[What is the main course|Qué es el principal plato]]?",
+          "question": "[[What is the main course?|¿Cuál es el plato principal?]]",
           "options": ["[[Chicken with rice|Pollo con arroz]]", "[[Pasta and cheese|Pasta y queso]]", "[[Beef steak|Filete de ternera]]"],
           "correctAnswer": 0,
-          "explanation": "El anfitrión dice: 'I am cooking chicken with rice'."
+          "explanation": "[[The host says:|El anfitrión dice:]] \"[[I am cooking chicken with rice.|Estoy cocinando pollo con arroz.]]\""
         },
         {
-          "question": "[[What is for dessert|Qué es de postre]]?",
+          "question": "[[What is for dessert?|¿Qué hay de postre?]]",
           "options": ["[[Cake and fruit salad|Pastel y macedonia]]", "[[Ice cream|Helado]]", "[[Chocolate and nuts|Chocolate y nueces]]"],
           "correctAnswer": 0,
-          "explanation": "Dice: 'I have some chocolate cake and fruit salad'."
+          "explanation": "[[It says:|Dice:]] \"[[I have some chocolate cake and fruit salad.|tengo algo de pastel de chocolate y macedonia de frutas.]]\""
         }
       ]
     },
@@ -1027,22 +1027,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Italian food. Maria is from Italy and she loves Italian food. She eats pasta almost every day. Her favorite is pasta with tomato sauce and a lot of cheese. She also likes pizza with many vegetables. She doesn't like fast food like burgers or fries.",
+    "transcript": "[[Italian food.|Comida italiana.]] [[Maria is from Italy|Maria es de Italia]] [[and she loves Italian food.|y le encanta la comida italiana.]] [[She eats pasta|Come pasta]] [[almost every day.|casi todos los días.]] [[Her favorite is pasta|Su favorita es la pasta]] [[with tomato sauce|con salsa de tomate]] [[and a lot of cheese.|y mucho queso.]] [[She also likes pizza|También le gusta la pizza]] [[with many vegetables.|con muchas verduras.]] [[She doesn't like fast food|No le gusta la comida rápida]] [[like burgers or fries.|como hamburguesas o patatas fritas.]]",
     "content": {
-      "title": "Comida Italiana",
-      "instructions": "Lee sobre Maria.",
+      "title": "[[Italian Food|Comida Italiana]]",
+      "instructions": "[[Read about Maria.|Lee sobre Maria.]]",
       "questions": [
         {
-          "question": "[[How often does she eat pasta|Qué tan a menudo hace ella comer pasta]]?",
-          "options": ["[[Almost every day|Casi cada día]]", "[[Once a week|Una vez a la semana]]", "[[Only on weekends|Solo fines de semana]]"],
+          "question": "[[How often does she eat pasta?|¿Qué tan a menudo come pasta?]]",
+          "options": ["[[Almost every day|Casi todos los días]]", "[[Once a week|Una vez a la semana]]", "[[Only on weekends|Solo los fines de semana]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'She eats pasta almost every day'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[She eats pasta almost every day.|Come pasta casi todos los días.]]\""
         },
         {
-          "question": "[[What doesn't she like|Qué no ella gustar]]?",
+          "question": "[[What doesn't she like?|¿Qué no le gusta?]]",
           "options": ["[[Burgers or fries|Hamburguesas o patatas]]", "[[Cheese|Queso]]", "[[Vegetables|Verduras]]"],
           "correctAnswer": 0,
-          "explanation": "Dice: 'She doesn't like fast food like burgers or fries'."
+          "explanation": "[[It says:|Dice:]] \"[[She doesn't like fast food like burgers or fries.|No le gusta la comida rápida como hamburguesas o patatas fritas.]]\""
         }
       ]
     },
@@ -1055,22 +1055,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Tea time. In many countries, people drink tea in the afternoon. Some people like it with milk and sugar. Others prefer it with a piece of lemon. It is common to have some cookies or a small piece of cake with the tea. It is a relaxing time of the day.",
+    "transcript": "[[Tea time.|La hora del té.]] [[In many countries,|En muchos países,]] [[people drink tea|la gente bebe té]] [[in the afternoon.|por la tarde.]] [[Some people like it|A algunas personas les gusta]] [[with milk and sugar.|con leche y azúcar.]] [[Others prefer it|Otros lo prefieren]] [[with a piece of lemon.|con una rodaja de limón.]] [[It is common to have|Es común tomar]] [[some cookies|algunas galletas]] [[or a small piece of cake|o un trozo pequeño de pastel]] [[with the tea.|con el té.]] [[It is a relaxing time|Es un momento relajante]] [[of the day.|del día.]]",
     "content": {
-      "title": "La Hora del Té",
-      "instructions": "Lee sobre la hora del té.",
+      "title": "[[Tea Time|La Hora del Té]]",
+      "instructions": "[[Read about tea time.|Lee sobre la hora del té.]]",
       "questions": [
         {
-          "question": "[[What do people put in the tea|Qué aux personas poner en el té]]?",
+          "question": "[[What do people put in the tea?|¿Qué pone la gente en el té?]]",
           "options": ["[[Milk, sugar or lemon|Leche, azúcar o limón]]", "[[Honey and bread|Miel y pan]]", "[[Water and ice|Agua e hielo]]"],
           "correctAnswer": 0,
-          "explanation": "Menciona: 'milk and sugar' o 'a piece of lemon'."
+          "explanation": "[[It mentions:|Menciona:]] \"[[milk and sugar|leche y azúcar]]\" [[or|o]] \"[[a piece of lemon.|una rodaja de limón.]]\""
         },
         {
-          "question": "[[What do they eat with it|Qué aux ellos comer con ello]]?",
+          "question": "[[What do they eat with it?|¿Qué comen con ello?]]",
           "options": ["[[Cookies or cake|Galletas o pastel]]", "[[Sandwiches|Sándwiches]]", "[[Fruit|Fruta]]"],
           "correctAnswer": 0,
-          "explanation": "Dice: 'have some cookies or a small piece of cake'."
+          "explanation": "[[It says:|Dice:]] \"[[have some cookies or a small piece of cake.|tomar algunas galletas o un trozo pequeño de pastel.]]\""
         }
       ]
     },
@@ -1083,22 +1083,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Vegetarian life. David is a vegetarian. He doesn't eat any meat or fish. He eats a lot of beans, eggs, and cheese for protein. He also loves all types of vegetables and fruit. His favorite meal is vegetable lasagna with some salad on the side.",
+    "transcript": "[[Vegetarian life.|Vida vegetariana.]] [[David is a vegetarian.|David es vegetariano.]] [[He doesn't eat|No come]] [[any meat or fish.|nada de carne ni pescado.]] [[He eats a lot of|Come muchos]] [[beans, eggs, and cheese|alubias, huevos y queso]] [[for protein.|para obtener proteínas.]] [[He also loves|También le encantan]] [[all types of vegetables|todos los tipos de verduras]] [[and fruit.|y fruta.]] [[His favorite meal|Su comida favorita]] [[is vegetable lasagna|es la lasaña de verduras]] [[with some salad|con algo de ensalada]] [[on the side.|como acompañamiento.]]",
     "content": {
-      "title": "Vida Vegetariana",
-      "instructions": "Lee sobre David.",
+      "title": "[[Vegetarian Life|Vida Vegetariana]]",
+      "instructions": "[[Read about David.|Lee sobre David.]]",
       "questions": [
         {
-          "question": "[[What doesn't David eat|Qué no David comer]]?",
+          "question": "[[What doesn't David eat?|¿Qué no come David?]]",
           "options": ["[[Meat or fish|Carne ni pescado]]", "[[Eggs or cheese|Huevos ni queso]]", "[[Vegetables|Verduras]]"],
           "correctAnswer": 0,
-          "explanation": "Como vegetariano, 'He doesn't eat any meat or fish'."
+          "explanation": "[[As a vegetarian,|Como vegetariano,]] \"[[He doesn't eat any meat or fish.|No come nada de carne ni pescado.]]\""
         },
         {
-          "question": "[[What is his favorite meal|Qué es su favorito comida]]?",
+          "question": "[[What is his favorite meal?|¿Cuál es su comida favorita?]]",
           "options": ["[[Vegetable lasagna|Lasaña de verduras]]", "[[Pizza|Pizza]]", "[[Rice and beans|Arroz y alubias]]"],
           "correctAnswer": 0,
-          "explanation": "Dice: 'His favorite meal is vegetable lasagna'."
+          "explanation": "[[It says:|Dice:]] \"[[His favorite meal is vegetable lasagna.|Su comida favorita es la lasaña de verduras.]]\""
         }
       ]
     },
@@ -1111,22 +1111,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "The school canteen. The students eat lunch at the school canteen. Today, the menu is chicken with rice or fish with salad. For dessert, there is some fruit or a yogurt. There isn't any soda, but students can have some water or apple juice.",
+    "transcript": "[[The school canteen.|El comedor escolar.]] [[The students eat lunch|Los estudiantes almuerzan]] [[at the school canteen.|en el comedor escolar.]] [[Today, the menu is|Hoy, el menú es]] [[chicken with rice|pollo con arroz]] [[or fish with salad.|o pescado con ensalada.]] [[For dessert,|De postre,]] [[there is some fruit|hay algo de fruta]] [[or a yogurt.|o un yogur.]] [[There isn't any soda,|No hay ningún refresco,]] [[but students can have|pero los estudiantes pueden tomar]] [[some water or apple juice.|un poco de agua o zumo de manzana.]]",
     "content": {
-      "title": "El Comedor Escolar",
-      "instructions": "Lee sobre el menú escolar.",
+      "title": "[[The School Canteen|El Comedor Escolar]]",
+      "instructions": "[[Read about the school menu.|Lee sobre el menú escolar.]]",
       "questions": [
         {
-          "question": "[[What is the menu today|Qué es el menú hoy]]?",
+          "question": "[[What is the menu today?|¿Cuál es el menú de hoy?]]",
           "options": ["[[Chicken or fish|Pollo o pescado]]", "[[Pizza or pasta|Pizza o pasta]]", "[[Burgers|Hamburguesas]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'chicken with rice or fish with salad'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[chicken with rice or fish with salad.|pollo con arroz o pescado con ensalada.]]\""
         },
         {
-          "question": "[[What can the students drink|Qué pueden los estudiantes beber]]?",
+          "question": "[[What can the students drink?|¿Qué pueden beber los estudiantes?]]",
           "options": ["[[Water or juice|Agua o zumo]]", "[[Soda|Refresco]]", "[[Milk|Leche]]"],
           "correctAnswer": 0,
-          "explanation": "Dice: 'have some water or apple juice'."
+          "explanation": "[[It says:|Dice:]] \"[[have some water or apple juice.|tomar un poco de agua o zumo de manzana.]]\""
         }
       ]
     },
@@ -1139,22 +1139,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Fruit market. Every Saturday, I go to the fruit market. I like buying fresh fruit for the week. I always buy some apples and a pineapple. Sometimes I buy some strawberries if they look good. The fruit at the market is very delicious and cheap.",
+    "transcript": "[[Fruit market.|Mercado de frutas.]] [[Every Saturday,|Cada sábado,]] [[I go|voy]] [[to the fruit market.|al mercado de frutas.]] [[I like buying|Me gusta comprar]] [[fresh fruit|fruta fresca]] [[for the week.|para la semana.]] [[I always buy|Siempre compro]] [[some apples|algunas manzanas]] [[and a pineapple.|y una piña.]] [[Sometimes I buy|A veces compro]] [[some strawberries|algunas fresas]] [[if they look good.|si se ven bien.]] [[The fruit at the market|La fruta en el mercado]] [[is very delicious and cheap.|es muy deliciosa y barata.]]",
     "content": {
-      "title": "Mercado de Frutas",
-      "instructions": "Lee sobre el mercado.",
+      "title": "[[Fruit Market|Mercado de Frutas]]",
+      "instructions": "[[Read about the market.|Lee sobre el mercado.]]",
       "questions": [
         {
-          "question": "[[When does the person go to market|Cuándo hace la persona ir al mercado]]?",
+          "question": "[[When does the person go to the market?|¿Cuándo va la persona al mercado?]]",
           "options": ["[[Every Saturday|Cada sábado]]", "[[Every day|Cada día]]", "[[On Fridays|Los viernes]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'Every Saturday, I go to the fruit market'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[Every Saturday, I go to the fruit market.|Cada sábado, voy al mercado de frutas.]]\""
         },
         {
-          "question": "[[What fruit does he/she always buy|Qué fruta hace él/ella siempre comprar]]?",
-          "options": ["[[Apples and pineapple|Manzanas y piña]]", "[[Strawberries|Fresas]]", "[[Oranges|Naranjas]]"],
+          "question": "[[Which fruit does the person always buy?|¿Qué fruta compra siempre la persona?]]",
+          "options": ["[[Apples and pineapple|Manzanas y piña]]", "[[Strawberries|Fresas]]", "[[Bananas|Plátanos]]"],
           "correctAnswer": 0,
-          "explanation": "Dice: 'I always buy some apples and a pineapple'."
+          "explanation": "[[It says:|Dice:]] \"[[I always buy some apples and a pineapple.|Siempre compro algunas manzanas y una piña.]]\""
         }
       ]
     },

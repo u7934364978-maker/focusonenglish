@@ -860,25 +860,21 @@ export const UNIT_8_EXERCISES: Exercise[] = [
   // ==========================================
 
   // TEXT 1: MARK'S OFFICE
+  // TEXT 1: MARK'S OFFICE
   {
     "id": "a1-u8-e51",
     "type": "reading",
     "level": "A1",
     "topic": "Reading",
     "difficulty": "medium",
-    "transcript": "[[Hello name, my is Mark. I am, twenty. There ninety people. Every thirty-seven years. I old work in a. My office big building is on. The the eighty-second floor phone number is, sixty-four five five five are in my department day, I receive. I finish eighty-six emails my work at six-thirty PM|Hola, mi nombre es Mark. Yo tengo treinta y siete años de edad. Yo trabajo en un grande edificio. Mi oficina está en el octogésimo segundo piso. El teléfono número es cinco cinco cinco, sesenta y cuatro, veinte. Allí hay noventa personas en mi departamento. Cada día, yo recibo ochenta y seis correos electrónicos. Yo termino mi trabajo a las seis y media de la tarde]].",
+    "transcript": "[[Hello, my name is Mark.|Hola, mi nombre es Mark.]] [[I am thirty-seven years old.|Tengo treinta y siete años.]] [[I work in a big building.|Trabajo en un edificio grande.]] [[My office is on|Mi oficina está en]] [[the eighty-second floor.|el piso ochenta y dos.]] [[The phone number is|El número de teléfono es]] [[five five five, sixty-four twenty.|555, sesenta y cuatro veinte.]] [[There are ninety people|Hay noventa personas]] [[in my department.|en mi departamento.]] [[Every day, I receive|Cada día, recibo]] [[eighty-six emails.|ochenta y seis correos electrónicos.]] [[I finish my work|Termino mi trabajo]] [[at six-thirty PM.|a las seis y media de la tarde.]]",
     "content": {
-      "title": "[[Reading Office: Mark's|Lectura: de Mark Oficina]]",
+      "title": "[[Mark's Office|La Oficina de Mark]]",
       "instructions": "[[Read the text carefully|Lee el texto detenidamente]].",
-      "questions": [
-        {
-          "question": "[[Hello name, my is Mark. I am, twenty. There ninety people. Every thirty-seven years. I old work in a. My office big building is on. The the eighty-second floor phone number is, sixty-four five five five are in my department day, I receive. I finish eighty-six emails my work at six-thirty PM|Hola, mi nombre es Mark. Yo tengo treinta y siete años de edad. Yo trabajo en un grande edificio. Mi oficina está en el octogésimo segundo piso. El teléfono número es cinco cinco cinco, sesenta y cuatro, veinte. Allí hay noventa personas en mi departamento. Cada día, yo recibo ochenta y seis correos electrónicos. Yo termino mi trabajo a las seis y media de la tarde]].",
-          "options": ["[[I have read the text|Yo he leído el texto]]."],
-          "correctAnswer": 0,
-          "explanation": "[[Click to continue|Haz clic para continuar]]."
-        }
-      ]
+      "text": "[[Hello, my name is Mark.|Hola, mi nombre es Mark.]] [[I am thirty-seven years old.|Tengo treinta y siete años.]] [[I work in a big building.|Trabajo en un edificio grande.]] [[My office is on|Mi oficina está en]] [[the eighty-second floor.|el piso ochenta y dos.]] [[The phone number is|El número de teléfono es]] [[five five five, sixty-four twenty.|555, sesenta y cuatro veinte.]] [[There are ninety people|Hay noventa personas]] [[in my department.|en mi departamento.]] [[Every day, I receive|Cada día, recibo]] [[eighty-six emails.|ochenta y seis correos electrónicos.]] [[I finish my work|Termino mi trabajo]] [[at six-thirty PM.|a las seis y media de la tarde.]]",
+      "questions": []
     },
+    "audioUrl": "audio/a1/unit-8/e51.mp3",
     "topicName": "Reading"
   },
   {
@@ -887,19 +883,16 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "medium",
-    "transcript": "[[How old is Mark|Qué tan viejo es Mark]]?",
+    "transcript": "[[How old is Mark?|¿Qué edad tiene Mark?]]",
     "content": {
-      "title": "[[Comprehension Age: Mark's|Comprensión: de Mark Edad]]",
+      "title": "[[Mark's Age|La Edad de Mark]]",
       "instructions": "[[Answer the question based on the text|Responde la pregunta basada en el texto]].",
-      "questions": [
-        {
-          "question": "[[How old is Mark|Qué tan viejo es Mark]]?",
-          "options": ["[[Forty-seven|Cuarenta y siete]]", "[[Thirty-seven|Treinta y siete]]", "[[Twenty-seven|Veintisiete]]"],
-          "correctAnswer": 1,
-          "explanation": "[[The text says am old|El texto dice]]: \"[[I thirty-seven years|Yo tengo treinta y siete años de edad]]\"."
-        }
-      ]
+      "question": "[[How old is Mark?|¿Qué edad tiene Mark?]]",
+      "options": ["[[Forty-seven|Cuarenta y siete]]", "[[Thirty-seven|Treinta y siete]]", "[[Twenty-seven|Veintisiete]]"],
+      "correctAnswer": 1,
+      "explanation": "[[The text says:|El texto dice:]] [[I am thirty-seven years old.|Tengo treinta y siete años.]]"
     },
+    "audioUrl": "audio/a1/unit-8/e52.mp3",
     "topicName": "Reading"
   },
   {
@@ -908,19 +901,16 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "medium",
-    "transcript": "[[What floor is his office|En qué piso está su oficina]]?",
+    "transcript": "[[What floor is his office on?|¿En qué piso está su oficina?]]",
     "content": {
-      "title": "[[Comprehension: Floor|Comprensión: Piso]]",
+      "title": "[[Floor|Piso]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
-      "questions": [
-        {
-          "question": "[[Is his office on the eightieth floor|Está su oficina en el octogésimo piso]]?",
-          "options": ["[[No is, it on the, it 82nd is on the|No, ella está en el 82º]].", "[[Yes 90th|Sí, ella está]].", "[[No is, it|No, ella está en el 90º]]."],
-          "correctAnswer": 0,
-          "explanation": "[[The office is on the eighty-second floor|El oficina está en el octogésimo segundo piso]]."
-        }
-      ]
+      "question": "[[Is his office on the eightieth floor?|¿Está su oficina en el piso ochenta?]]",
+      "options": ["[[No, it is on the 82nd.|No, está en el 82.]]", "[[Yes, it is.|Sí, lo está.]]", "[[No, it is on the 90th.|No, está en el 90.]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The office is on the eighty-second floor.|La oficina está en el piso ochenta y dos.]]"
     },
+    "audioUrl": "audio/a1/unit-8/e53.mp3",
     "topicName": "Reading"
   },
   {
@@ -929,19 +919,16 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "medium",
-    "transcript": "[[How many emails does he receive|Cuántos muchos correos electrónicos hace él recibir]]?",
+    "transcript": "[[How many emails does he receive?|¿Cuántos correos electrónicos recibe?]]",
     "content": {
-      "title": "[[Comprehension: Emails|Comprensión: Correos]]",
+      "title": "[[Emails|Correos Electrónicos]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
-      "questions": [
-        {
-          "question": "[[How many emails does he receive|Cuántos muchos correos electrónicos hace él recibir]]?",
-          "options": ["[[Ninety|Noventa]]", "[[Sixty-four|Sesenta y cuatro]]", "[[Eighty-six|Ochenta y seis]]"],
-          "correctAnswer": 2,
-          "explanation": "[[He receives eighty-six emails|Él recibe ochenta y seis correos electrónicos]]."
-        }
-      ]
+      "question": "[[How many emails does he receive?|¿Cuántos correos electrónicos recibe?]]",
+      "options": ["[[Ninety|Noventa]]", "[[Sixty-four|Sesenta y cuatro]]", "[[Eighty-six|Ochenta y seis]]"],
+      "correctAnswer": 2,
+      "explanation": "[[He receives eighty-six emails.|Recibe ochenta y seis correos electrónicos.]]"
     },
+    "audioUrl": "audio/a1/unit-8/e54.mp3",
     "topicName": "Reading"
   },
 
@@ -952,19 +939,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "medium",
-    "transcript": "[[This new. The price tablet is, silver, and one is very nice is two hundred. But. The silver my favorite dollars in the big store in the small, it store is one hundred and. That is sixty-nine dollars a good. The price tablet is available: black in three colors white|Esta nueva tableta es muy agradable. El precio es doscientos dólares en la grande tienda. Pero en la pequeña tienda, ella cuesta cien y sesenta y nueve dólares. Eso es un buen precio. La tableta está disponible en tres colores: negro, plateado, y blanco. La plateada una es mi favorita]].",
+    "transcript": "[[This new tablet is very nice.|Esta nueva tableta es muy agradable.]] [[The price is two hundred dollars|El precio es doscientos dólares]] [[in the big store.|en la tienda grande.]] [[But in the small store,|Pero en la tienda pequeña,]] [[it is one hundred and sixty-nine dollars.|cuesta ciento sesenta y nueve dólares.]] [[That is a good price.|Ese es un buen precio.]] [[The tablet is available in three colors:|La tableta está disponible en tres colores:]] [[black, silver, and white.|negro, plateado y blanco.]] [[The silver one is my favorite.|La plateada es mi favorita.]]",
     "content": {
-      "title": "[[Reading New: The Tablet|Lectura: La Nueva Tableta]]",
-      "instructions": "[[Read the text about the price|Lee el texto sobre el precio]].",
-      "questions": [
-        {
-          "question": "[[This new. The price tablet is, silver, and one is very nice is two hundred. But. The silver my favorite dollars in the big store in the small, it store is one hundred and. That is sixty-nine dollars a good. The price tablet is available: black in three colors white|Esta nueva tableta es muy agradable. El precio es doscientos dólares en la grande tienda. Pero en la pequeña tienda, ella cuesta cien y sesenta y nueve dólares. Eso es un buen precio. La tableta está disponible en tres colores: negro, plateado, y blanco. La plateada una es mi favorita]].",
-          "options": ["[[I have read the text|Yo he leído el texto]]."],
-          "correctAnswer": 0,
-          "explanation": "[[Click to continue|Haz clic para continuar]]."
-        }
-      ]
+      "title": "[[The New Tablet|La Nueva Tableta]]",
+      "instructions": "[[Read the text about the tablet|Lee el texto sobre la tableta]].",
+      "text": "[[This new tablet is very nice.|Esta nueva tableta es muy agradable.]] [[The price is two hundred dollars|El precio es doscientos dólares]] [[in the big store.|en la tienda grande.]] [[But in the small store,|Pero en la tienda pequeña,]] [[it is one hundred and sixty-nine dollars.|cuesta ciento sesenta y nueve dólares.]] [[That is a good price.|Ese es un buen precio.]] [[The tablet is available in three colors:|La tableta está disponible en tres colores:]] [[black, silver, and white.|negro, plateado y blanco.]] [[The silver one is my favorite.|La plateada es mi favorita.]]",
+      "questions": []
     },
+    "audioUrl": "audio/a1/unit-8/e55.mp3",
     "topicName": "Reading"
   },
   {
@@ -973,19 +955,16 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "medium",
-    "transcript": "[[How much is the tablet in the small store|Cuánto mucho cuesta la tableta en la pequeña tienda]]?",
+    "transcript": "[[How much is the tablet in the small store?|¿Cuánto cuesta la tableta en la tienda pequeña?]]",
     "content": {
-      "title": "[[Comprehension: Price|Comprensión: Precio]]",
-      "instructions": "[[Choose the correct price|Elige el correcto precio]].",
-      "questions": [
-        {
-          "question": "[[How much is the tablet in the small store|Cuánto mucho cuesta la tableta en la pequeña tienda]]?",
-          "options": ["[[One hundred and ninety-six dollars|196 dólares]]", "[[Two hundred dollars|200 dólares]]", "[[One hundred and sixty-nine dollars|169 dólares]]"],
-          "correctAnswer": 2,
-          "explanation": "[[The text says is sixty-nine dollars|El texto dice]]: \"[[it one hundred and|ella cuesta cien y sesenta y nueve dólares]]\"."
-        }
-      ]
+      "title": "[[Price|Precio]]",
+      "instructions": "[[Choose the correct price|Elige el precio correcto]].",
+      "question": "[[How much is the tablet in the small store?|¿Cuánto cuesta la tableta en la tienda pequeña?]]",
+      "options": ["[[One hundred and ninety-six dollars|Ciento noventa y seis dólares]]", "[[Two hundred dollars|Doscientos dólares]]", "[[One hundred and sixty-nine dollars|Ciento sesenta y nueve dólares]]"],
+      "correctAnswer": 2,
+      "explanation": "[[In the small store it costs $169.|En la tienda pequeña cuesta 169 $.]]"
     },
+    "audioUrl": "audio/a1/unit-8/e56.mp3",
     "topicName": "Reading"
   },
   {
@@ -994,19 +973,16 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Which color is the favorite|Cuál color es el favorito]]?",
+    "transcript": "[[Which color is the favorite?|¿Qué color es el favorito?]]",
     "content": {
-      "title": "[[Comprehension: Favorite|Comprensión: Favorito]]",
+      "title": "[[Favorite Color|Color Favorito]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
-      "questions": [
-        {
-          "question": "[[Which color is the favorite|Cuál color es el favorito]]?",
-          "options": ["[[Black|Negro]]", "[[Silver|Plateado]]", "[[White|Blanco]]"],
-          "correctAnswer": 1,
-          "explanation": "[[The silver one is my favorite|El plateada una es mi favorita]]."
-        }
-      ]
+      "question": "[[Which color is the favorite?|¿Qué color es el favorito?]]",
+      "options": ["[[Black|Negro]]", "[[Silver|Plateado]]", "[[White|Blanco]]"],
+      "correctAnswer": 1,
+      "explanation": "[[The silver one is the favorite.|La plateada es la favorita.]]"
     },
+    "audioUrl": "audio/a1/unit-8/e57.mp3",
     "topicName": "Reading"
   },
 
@@ -1017,19 +993,14 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "medium",
-    "transcript": "[[Today is. She my grandmother's birthday is eighty-five years. There old are forty people. We at the party have sixty cupcakes. The cake and one big cake price is. Everyone is forty-two euros happy|Hoy es mi de mi abuela cumpleaños. Ella tiene ochenta y cinco años de edad. Allí hay cuarenta personas en la fiesta. Nosotros tenemos sesenta magdalenas y un grande pastel. El pastel precio es cuarenta y dos euros. Todos están felices]].",
+    "transcript": "[[Today is my grandmother's birthday.|Hoy es el cumpleaños de mi abuela.]] [[She is eighty-five years old.|Ella tiene ochenta y cinco años.]] [[There are forty people at the party.|Hay cuarenta personas en la fiesta.]] [[We have sixty cupcakes|Tenemos sesenta magdalenas]] [[and one big cake.|y un pastel grande.]] [[The cake price is forty-two euros.|El precio del pastel es cuarenta y dos euros.]] [[Everyone is happy.|Todos están felices.]]",
     "content": {
-      "title": "[[Reading Birthday: The Party|Lectura: La Cumpleaños Fiesta]]",
+      "title": "[[The Birthday Party|La Fiesta de Cumpleaños]]",
       "instructions": "[[Read about the party|Lee sobre la fiesta]].",
-      "questions": [
-        {
-          "question": "[[Today is. She my grandmother's birthday is eighty-five years. There old are forty people. We at the party have sixty cupcakes. The cake and one big cake price is. Everyone is forty-two euros happy|Hoy es mi de mi abuela cumpleaños. Ella tiene ochenta y cinco años de edad. Allí hay cuarenta personas en la fiesta. Nosotros tenemos sesenta magdalenas y un grande pastel. El pastel precio es cuarenta y dos euros. Todos están felices]].",
-          "options": ["[[I have read the text|Yo he leído el texto]]."],
-          "correctAnswer": 0,
-          "explanation": "[[Click to continue|Haz clic para continuar]]."
-        }
-      ]
+      "text": "[[Today is my grandmother's birthday.|Hoy es el cumpleaños de mi abuela.]] [[She is eighty-five years old.|Ella tiene ochenta y cinco años.]] [[There are forty people at the party.|Hay cuarenta personas en la fiesta.]] [[We have sixty cupcakes|Tenemos sesenta magdalenas]] [[and one big cake.|y un pastel grande.]] [[The cake price is forty-two euros.|El precio del pastel es cuarenta y dos euros.]] [[Everyone is happy.|Todos están felices.]]",
+      "questions": []
     },
+    "audioUrl": "audio/a1/unit-8/e58.mp3",
     "topicName": "Reading"
   },
   {
@@ -1038,19 +1009,16 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "medium",
-    "transcript": "[[How old is the grandmother|Qué tan viejo es la abuela]]?",
+    "transcript": "[[How old is the grandmother?|¿Qué edad tiene la abuela?]]",
     "content": {
-      "title": "[[Comprehension: Age|Comprensión: Edad]]",
+      "title": "[[Age|Edad]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
-      "questions": [
-        {
-          "question": "[[Is the grandmother eighty years old|Tiene la abuela ochenta años de edad]]?",
-          "options": ["[[Yes is, she 85 is, she|Sí, ella tiene]].", "[[No is, she|No, ella tiene 85]].", "[[No 75|No, ella tiene 75]]."],
-          "correctAnswer": 1,
-          "explanation": "[[The grandmother is eighty-five|El abuela tiene ochenta y cinco]]."
-        }
-      ]
+      "question": "[[Is the grandmother eighty years old?|¿Tiene la abuela ochenta años?]]",
+      "options": ["[[Yes, she is.|Sí, los tiene.]]", "[[No, she is 85.|No, tiene 85.]]", "[[No, she is 75.|No, tiene 75.]]"],
+      "correctAnswer": 1,
+      "explanation": "[[The grandmother is eighty-five years old.|La abuela tiene ochenta y cinco años.]]"
     },
+    "audioUrl": "audio/a1/unit-8/e59.mp3",
     "topicName": "Reading"
   },
   {
@@ -1059,19 +1027,16 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Comprehension",
     "difficulty": "medium",
-    "transcript": "[[How many people are at the party|Cuántas muchas personas hay en la fiesta]]?",
+    "transcript": "[[How many people are at the party?|¿Cuántas personas hay en la fiesta?]]",
     "content": {
-      "title": "[[Comprehension: People|Comprensión: Personas]]",
+      "title": "[[People|Personas]]",
       "instructions": "[[Answer the question|Responde la pregunta]].",
-      "questions": [
-        {
-          "question": "[[How many people are at the party|Cuántas muchas personas hay en la fiesta]]?",
-          "options": ["[[Sixty|Sesenta]]", "[[Forty|Cuarenta]]", "[[Eighty-five|Ochenta y cinco]]"],
-          "correctAnswer": 1,
-          "explanation": "[[There are forty people|Allí hay cuarenta personas]]."
-        }
-      ]
+      "question": "[[How many people are at the party?|¿Cuántas personas hay en la fiesta?]]",
+      "options": ["[[Sixty|Sesenta]]", "[[Forty|Cuarenta]]", "[[Eighty-five|Ochenta y cinco]]"],
+      "correctAnswer": 1,
+      "explanation": "[[There are forty people at the party.|Hay cuarenta personas en la fiesta.]]"
     },
+    "audioUrl": "audio/a1/unit-8/e60.mp3",
     "topicName": "Reading"
   }
 ];

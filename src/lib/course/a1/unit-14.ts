@@ -953,22 +953,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "My health habits. I always drink water in the morning. I usually eat a salad for lunch. I sometimes go for a walk in the evening. I never smoke. I hardly ever eat junk food. I want to be healthy for a long time.",
+    "transcript": "[[My health habits.|Mis hábitos de salud.]] [[I always drink water|Siempre bebo agua]] [[in the morning.|por la mañana.]] [[I usually eat a salad|Normalmente como una ensalada]] [[for lunch.|para el almuerzo.]] [[I sometimes go for a walk|A veces voy a dar un paseo]] [[in the evening.|por la tarde.]] [[I never smoke.|Nunca fumo.]] [[I hardly ever eat junk food.|Casi nunca como comida basura.]] [[I want to be healthy|Quiero estar sano]] [[for a long time.|durante mucho tiempo.]]",
     "content": {
-      "title": "Hábitos Saludables",
-      "instructions": "Lee sobre los hábitos y responde.",
+      "title": "[[Healthy Habits|Hábitos Saludables]]",
+      "instructions": "[[Read about the habits and answer.|Lee sobre los hábitos y responde.]]",
       "questions": [
         {
-          "question": "[[When does the person drink water|Cuándo hace la persona beber agua]]?",
+          "question": "[[When does the person drink water?|¿Cuándo bebe agua la persona?]]",
           "options": ["[[Always in the morning|Siempre por la mañana]]", "[[Never|Nunca]]", "[[Sometimes in the evening|A veces por la tarde]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'I always drink water in the morning'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[I always drink water in the morning.|Siempre bebo agua por la mañana.]]\""
         },
         {
-          "question": "[[How often does he smoke|Qué tan a menudo hace él fumar]]?",
+          "question": "[[How often does he smoke?|¿Qué tan a menudo fuma él?]]",
           "options": ["[[Never|Nunca]]", "[[Always|Siempre]]", "[[Hardly ever|Casi nunca]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'I never smoke'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[I never smoke.|Nunca fumo.]]\""
         }
       ]
     },
@@ -981,22 +981,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "The busy teacher. Mr. Brown is a teacher. He is always busy. He usually arrives at school at seven-thirty. He often has meetings after school. He sometimes corrects homework at night. He hardly ever goes out on weekdays. He is usually very tired on Friday.",
+    "transcript": "[[The busy teacher.|El profesor ocupado.]] [[Mr. Brown is a teacher.|El Sr. Brown es profesor.]] [[He is always busy.|Él siempre está ocupado.]] [[He usually arrives at school|Normalmente llega a la escuela]] [[at seven-thirty.|a las siete y media.]] [[He often has meetings|A menudo tiene reuniones]] [[after school.|después de la escuela.]] [[He sometimes corrects homework|A veces corrige los deberes]] [[at night.|por la noche.]] [[He hardly ever goes out|Casi nunca sale]] [[on weekdays.|los días de semana.]] [[He is usually very tired|Normalmente está muy cansado]] [[on Friday.|el viernes.]]",
     "content": {
-      "title": "El Profesor Ocupado",
-      "instructions": "Lee sobre Mr. Brown.",
+      "title": "[[The Busy Teacher|El Profesor Ocupado]]",
+      "instructions": "[[Read about Mr. Brown.|Lee sobre el Sr. Brown.]]",
       "questions": [
         {
-          "question": "[[What time does he usually arrive at school|A qué hora hace él normalmente llegar a la escuela]]?",
-          "options": ["[[At seven-thirty|A las 7:30]]", "[[At seven|A las 7:00]]", "[[At eight|A las 8:00]]"],
+          "question": "[[What time does he usually arrive at school?|¿A qué hora suele llegar a la escuela?]]",
+          "options": ["[[At seven-thirty|A las siete y media]]", "[[At seven|A las siete]]", "[[At eight|A las ocho]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'He usually arrives at school at seven-thirty'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[He usually arrives at school at seven-thirty.|Normalmente llega a la escuela a las siete y media.]]\""
         },
         {
-          "question": "[[When does he correct homework|Cuándo hace él corregir deberes]]?",
+          "question": "[[When does he correct homework?|¿Cuándo corrige los deberes?]]",
           "options": ["[[Sometimes at night|A veces por la noche]]", "[[Always in the morning|Siempre por la mañana]]", "[[Never|Nunca]]"],
           "correctAnswer": 0,
-          "explanation": "Dice: 'He sometimes corrects homework at night'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[He sometimes corrects homework at night.|A veces corrige los deberes por la noche.]]\""
         }
       ]
     },
@@ -1009,22 +1009,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Our restaurant's frequency. We are always open from Tuesday to Sunday. We are never open on Monday. We usually have many people on Saturday night. We often have a special menu on Sunday. People sometimes call to book a table. We hardly ever have empty tables on weekends.",
+    "transcript": "[[Our restaurant's frequency.|La frecuencia de nuestro restaurante.]] [[We are always open|Siempre estamos abiertos]] [[from Tuesday to Sunday.|de martes a domingo.]] [[We are never open on Monday.|Nunca abrimos los lunes.]] [[We usually have many people|Normalmente hay mucha gente]] [[on Saturday night.|el sábado por la noche.]] [[We often have a special menu|A menudo tenemos un menú especial]] [[on Sunday.|el domingo.]] [[People sometimes call|La gente a veces llama]] [[to book a table.|para reservar una mesa.]] [[We hardly ever have empty tables|Casi nunca tenemos mesas vacías]] [[on weekends.|los fines de semana.]]",
     "content": {
-      "title": "Nuestro Restaurante",
-      "instructions": "Lee sobre el restaurante.",
+      "title": "[[Our Restaurant|Nuestro Restaurante]]",
+      "instructions": "[[Read about the restaurant.|Lee sobre el restaurante.]]",
       "questions": [
         {
-          "question": "[[When is the restaurant open|Cuándo está el restaurante abierto]]?",
+          "question": "[[When is the restaurant open?|¿Cuándo está abierto el restaurante?]]",
           "options": ["[[Tuesday to Sunday|De martes a domingo]]", "[[Every day|Todos los días]]", "[[Only on Monday|Solo el lunes]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'We are always open from Tuesday to Sunday'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[We are always open from Tuesday to Sunday.|Siempre estamos abiertos de martes a domingo.]]\""
         },
         {
-          "question": "[[Is the restaurant open on Monday|Está el restaurante abierto el lunes]]?",
+          "question": "[[Is the restaurant open on Monday?|¿Está abierto el restaurante el lunes?]]",
           "options": ["[[No, never|No, nunca]]", "[[Yes, always|Sí, siempre]]", "[[Sometimes|A veces]]"],
           "correctAnswer": 0,
-          "explanation": "Dice: 'We are never open on Monday'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[We are never open on Monday.|Nunca abrimos los lunes.]]\""
         }
       ]
     },
@@ -1037,22 +1037,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "My sister's exercise. My sister is very active. She always goes to the gym in the morning. She usually runs for forty minutes. She often plays tennis with her friends on Wednesday. She sometimes goes swimming in the sea. She hardly ever relaxes on the weekend.",
+    "transcript": "[[My sister's exercise.|El ejercicio de mi hermana.]] [[My sister is very active.|Mi hermana es muy activa.]] [[She always goes to the gym|Siempre va al gimnasio]] [[in the morning.|por la mañana.]] [[She usually runs|Normalmente corre]] [[for forty minutes.|durante cuarenta minutos.]] [[She often plays tennis|A menudo juega al tenis]] [[with her friends|con sus amigos]] [[on Wednesday.|el miércoles.]] [[She sometimes goes swimming|A veces va a nadar]] [[in the sea.|en el mar.]] [[She hardly ever relaxes|Casi nunca se relaja]] [[on the weekend.|el fin de semana.]]",
     "content": {
-      "title": "El Ejercicio de mi Hermana",
-      "instructions": "Lee sobre la hermana.",
+      "title": "[[My Sister's Exercise|El Ejercicio de mi Hermana]]",
+      "instructions": "[[Read about the sister.|Lee sobre la hermana.]]",
       "questions": [
         {
-          "question": "[[How often does she go to the gym|Qué tan a menudo hace ella ir al el gimnasio]]?",
+          "question": "[[How often does she go to the gym?|¿Qué tan a menudo va al gimnasio?]]",
           "options": ["[[Always in the morning|Siempre por la mañana]]", "[[Sometimes|A veces]]", "[[Never|Nunca]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'She always goes to the gym in the morning'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[She always goes to the gym in the morning.|Siempre va al gimnasio por la mañana.]]\""
         },
         {
-          "question": "[[When does she play tennis|Cuándo hace ella jugar tenis]]?",
+          "question": "[[When does she play tennis?|¿Cuándo juega al tenis?]]",
           "options": ["[[On Wednesday|El miércoles]]", "[[Every day|Cada día]]", "[[On Monday|El lunes]]"],
           "correctAnswer": 0,
-          "explanation": "Dice: 'She often plays tennis with her friends on Wednesday'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[She often plays tennis with her friends on Wednesday.|A menudo juega al tenis con sus amigos los miércoles.]]\""
         }
       ]
     },
@@ -1065,22 +1065,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Cleaning habits. We always clean our house on Saturday. I usually clean the kitchen. My husband often cleans the garden. Our children sometimes help us. We never clean on Sunday because we usually visit our grandparents. It is our weekly routine.",
+    "transcript": "[[Cleaning habits.|Hábitos de limpieza.]] [[We always clean our house|Siempre limpiamos nuestra casa]] [[on Saturday.|el sábado.]] [[I usually clean the kitchen.|Normalmente limpio la cocina.]] [[My husband often cleans the garden.|Mi esposo a menudo limpia el jardín.]] [[Our children sometimes help us.|Nuestros hijos a veces nos ayudan.]] [[We never clean on Sunday|Nunca limpiamos los domingos]] [[because we usually visit|porque normalmente visitamos]] [[our grandparents.|a nuestros abuelos.]] [[It is our weekly routine.|Es nuestra rutina semanal.]]",
     "content": {
-      "title": "Hábitos de Limpieza",
-      "instructions": "Lee sobre la limpieza.",
+      "title": "[[Cleaning Habits|Hábitos de Limpieza]]",
+      "instructions": "[[Read about the cleaning.|Lee sobre la limpieza.]]",
       "questions": [
         {
-          "question": "[[When do they clean the house|Cuándo aux ellos limpiar la casa]]?",
+          "question": "[[When do they clean the house?|¿Cuándo limpian la casa?]]",
           "options": ["[[Always on Saturday|Siempre los sábados]]", "[[On Sunday|Los domingos]]", "[[Never|Nunca]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'We always clean our house on Saturday'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[We always clean our house on Saturday.|Siempre limpiamos nuestra casa los sábados.]]\""
         },
         {
-          "question": "[[Who cleans the garden|Quién limpia el jardín]]?",
+          "question": "[[Who cleans the garden?|¿Quién limpia el jardín?]]",
           "options": ["[[The husband|El esposo]]", "[[The wife|La esposa]]", "[[The children|Los niños]]"],
           "correctAnswer": 0,
-          "explanation": "Dice: 'My husband often cleans the garden'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[My husband often cleans the garden.|Mi esposo a menudo limpia el jardín.]]\""
         }
       ]
     },
@@ -1093,22 +1093,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "My grandfather's coffee. My grandfather loves coffee. He always has a cup of coffee at seven AM. He usually has another cup at eleven. He often goes to a cafe with his friends in the afternoon. He never drinks coffee at night because he usually sleeps early.",
+    "transcript": "[[My grandfather's coffee.|El café de mi abuelo.]] [[My grandfather loves coffee.|A mi abuelo le encanta el café.]] [[He always has a cup of coffee|Siempre toma una taza de café]] [[at seven AM.|a las siete de la mañana.]] [[He usually has another cup|Normalmente toma otra taza]] [[at eleven.|a las once.]] [[He often goes to a cafe|A menudo va a una cafetería]] [[with his friends|con sus amigos]] [[in the afternoon.|por la tarde.]] [[He never drinks coffee at night|Nunca toma café por la noche]] [[because he usually sleeps early.|porque normalmente se duerme temprano.]]",
     "content": {
-      "title": "El Café del Abuelo",
-      "instructions": "Lee sobre el abuelo.",
+      "title": "[[Grandfather's Coffee|El Café del Abuelo]]",
+      "instructions": "[[Read about the grandfather.|Lee sobre el abuelo.]]",
       "questions": [
         {
-          "question": "[[When does he have his first coffee|Cuándo hace él tener su primer café]]?",
+          "question": "[[When does he have his first coffee?|¿Cuándo toma su primer café?]]",
           "options": ["[[At seven AM|A las 7 AM]]", "[[At eleven AM|A las 11 AM]]", "[[At night|Por la noche]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'He always has a cup of coffee at seven AM'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[He always has a cup of coffee at seven AM.|Siempre toma una taza de café a las siete de la mañana.]]\""
         },
         {
-          "question": "[[Does he drink coffee at night|Hace él beber café por la noche]]?",
+          "question": "[[Does he drink coffee at night?|¿Bebe café por la noche?]]",
           "options": ["[[No, never|No, nunca]]", "[[Yes, always|Sí, siempre]]", "[[Usually|Normalmente]]"],
           "correctAnswer": 0,
-          "explanation": "Dice: 'He never drinks coffee at night'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[He never drinks coffee at night.|Nunca toma café por la noche.]]\""
         }
       ]
     },
@@ -1121,22 +1121,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "English study. How often do you study English? I study every day. I usually study for one hour. I often listen to English songs in my car. I sometimes talk to my friends in English. I hardly ever watch movies in Spanish now. I always try to learn new words.",
+    "transcript": "[[English study.|Estudio de inglés.]] [[How often do you study English?|¿Qué tan a menudo estudias inglés?]] [[I study every day.|Estudio todos los días.]] [[I usually study|Normalmente estudio]] [[for one hour.|durante una hora.]] [[I often listen to English songs|A menudo escucho canciones en inglés]] [[in my car.|en mi coche.]] [[I sometimes talk|A veces hablo]] [[to my friends in English.|con mis amigos en inglés.]] [[I hardly ever watch movies|Casi nunca veo películas]] [[in Spanish now.|en español ahora.]] [[I always try to learn|Siempre intento aprender]] [[new words.|palabras nuevas.]]",
     "content": {
-      "title": "Estudio de Inglés",
-      "instructions": "Lee sobre el estudio.",
+      "title": "[[English Study|Estudio de Inglés]]",
+      "instructions": "[[Read about the study.|Lee sobre el estudio.]]",
       "questions": [
         {
-          "question": "[[How often does the person study|Qué tan a menudo hace la persona estudiar]]?",
+          "question": "[[How often does the person study?|¿Qué tan a menudo estudia la persona?]]",
           "options": ["[[Every day|Cada día]]", "[[Once a week|Una vez a la semana]]", "[[Never|Nunca]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'I study every day'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[I study every day.|Estudio todos los días.]]\""
         },
         {
-          "question": "[[Where does he listen to English songs|Dónde hace él escuchar a inglés canciones]]?",
+          "question": "[[Where does he listen to English songs?|¿Dónde escucha canciones en inglés?]]",
           "options": ["[[In his car|En su coche]]", "[[At home|En casa]]", "[[At school|En la escuela]]"],
           "correctAnswer": 0,
-          "explanation": "Dice: 'I often listen to English songs in my car'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[I often listen to English songs in my car.|A menudo escucho canciones en inglés en mi coche.]]\""
         }
       ]
     },
@@ -1149,22 +1149,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "My dog's routine. My dog, Max, is very happy. He always wakes up early. We usually go for a walk at six AM. He often plays with his ball in the park. He sometimes barks at the neighbors. He never eats chocolate because it is bad for him. I always give him good food.",
+    "transcript": "[[My dog's routine.|La rutina de mi perro.]] [[My dog, Max, is very happy.|Mi perro, Max, es muy feliz.]] [[He always wakes up early.|Siempre se despierta temprano.]] [[We usually go for a walk|Normalmente vamos a dar un paseo]] [[at six AM.|a las seis de la mañana.]] [[He often plays with his ball|A menudo juega con su pelota]] [[in the park.|en el parque.]] [[He sometimes barks|A veces ladra]] [[at the neighbors.|a los vecinos.]] [[He never eats chocolate|Nunca come chocolate]] [[because it is bad for him.|porque es malo para él.]] [[I always give him good food.|Siempre le doy buena comida.]]",
     "content": {
-      "title": "La Rutina de mi Perro",
-      "instructions": "Lee sobre Max.",
+      "title": "[[My Dog's Routine|La Rutina de mi Perro]]",
+      "instructions": "[[Read about Max.|Lee sobre Max.]]",
       "questions": [
         {
-          "question": "[[What time do they usually go for a walk|A qué hora aux ellos normalmente van a un paseo]]?",
+          "question": "[[What time do they usually go for a walk?|¿A qué hora suelen ir a dar un paseo?]]",
           "options": ["[[At six AM|A las 6 AM]]", "[[At seven AM|A las 7 AM]]", "[[At night|Por la noche]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'We usually go for a walk at six AM'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[We usually go for a walk at six AM.|Normalmente vamos a dar un paseo a las seis de la mañana.]]\""
         },
         {
-          "question": "[[Does Max eat chocolate|Hace Max comer chocolate]]?",
+          "question": "[[Does Max eat chocolate?|¿Come chocolate Max?]]",
           "options": ["[[No, never|No, nunca]]", "[[Yes, always|Sí, siempre]]", "[[Sometimes|A veces]]"],
           "correctAnswer": 0,
-          "explanation": "Dice: 'He never eats chocolate'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[He never eats chocolate.|Nunca come chocolate.]]\""
         }
       ]
     },
@@ -1177,22 +1177,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Weather frequency. In my city, it is usually sunny in summer. It often rains in October. It hardly ever snows in winter. We always have a big festival in July. People sometimes travel to other cities for vacation. I usually stay at home and relax.",
+    "transcript": "[[Weather frequency.|Frecuencia del clima.]] [[In my city,|En mi ciudad,]] [[it is usually sunny|normalmente hace sol]] [[in summer.|en verano.]] [[It often rains in October.|A menudo llueve en octubre.]] [[It hardly ever snows in winter.|Casi nunca nieva en invierno.]] [[We always have|Siempre tenemos]] [[a big festival in July.|un gran festival en julio.]] [[People sometimes travel|La gente a veces viaja]] [[to other cities for vacation.|a otras ciudades por vacaciones.]] [[I usually stay at home|Normalmente me quedo en casa]] [[and relax.|y me relajo.]]",
     "content": {
-      "title": "Frecuencia del Clima",
-      "instructions": "Lee sobre el clima.",
+      "title": "[[Weather Frequency|Frecuencia del Clima]]",
+      "instructions": "[[Read about the weather.|Lee sobre el clima.]]",
       "questions": [
         {
-          "question": "[[When does it often rain|Cuándo hace ello a menudo llover]]?",
+          "question": "[[When does it often rain?|¿Cuándo llueve a menudo?]]",
           "options": ["[[In October|En octubre]]", "[[In July|En julio]]", "[[In summer|En verano]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'It often rains in October'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[It often rains in October.|A menudo llueve en octubre.]]\""
         },
         {
-          "question": "[[How often does it snow in winter|Qué tan a menudo hace ello nevar en invierno]]?",
+          "question": "[[How often does it snow in winter?|¿Qué tan a menudo nieva en invierno?]]",
           "options": ["[[Hardly ever|Casi nunca]]", "[[Always|Siempre]]", "[[Usually|Normalmente]]"],
           "correctAnswer": 0,
-          "explanation": "Dice: 'It hardly ever snows in winter'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[It hardly ever snows in winter.|Casi nunca nieva en invierno.]]\""
         }
       ]
     },
@@ -1205,22 +1205,22 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "Office habits. My boss is always on time. He usually arrives at eight-fifty AM. He often has coffee with us. We sometimes have lunch in the office. We never finish work late on Friday. We always leave at four PM. It is a good office culture.",
+    "transcript": "[[Office habits.|Hábitos de oficina.]] [[My boss is always on time.|Mi jefe siempre llega puntual.]] [[He usually arrives|Normalmente llega]] [[at eight-fifty AM.|a las ocho y cincuenta AM.]] [[He often has coffee with us.|A menudo toma café con nosotros.]] [[We sometimes have lunch|A veces almorzamos]] [[in the office.|en la oficina.]] [[We never finish work late|Nunca terminamos de trabajar tarde]] [[on Friday.|el viernes.]] [[We always leave at four PM.|Siempre nos vamos a las cuatro PM.]] [[It is a good office culture.|Es una buena cultura de oficina.]]",
     "content": {
-      "title": "Hábitos de Oficina",
-      "instructions": "Lee sobre la oficina.",
+      "title": "[[Office Habits|Hábitos de Oficina]]",
+      "instructions": "[[Read about the office.|Lee sobre la oficina.]]",
       "questions": [
         {
-          "question": "[[Is the boss on time|Está el jefe a tiempo]]?",
+          "question": "[[Is the boss on time?|¿Llega puntual el jefe?]]",
           "options": ["[[Yes, always|Sí, siempre]]", "[[No, never|No, nunca]]", "[[Sometimes|A veces]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'My boss is always on time'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[My boss is always on time.|Mi jefe siempre llega puntual.]]\""
         },
         {
-          "question": "[[When do they finish work on Friday|Cuándo aux ellos terminan trabajo el viernes]]?",
+          "question": "[[When do they finish work on Friday?|¿Cuándo terminan de trabajar los viernes?]]",
           "options": ["[[At four PM|A las 4 PM]]", "[[At five PM|A las 5 PM]]", "[[At nine AM|A las 9 AM]]"],
           "correctAnswer": 0,
-          "explanation": "Dice: 'We always leave at four PM'."
+          "explanation": "[[The text says:|El texto dice:]] \"[[We always leave at four PM.|Siempre nos vamos a las cuatro PM.]]\""
         }
       ]
     },
