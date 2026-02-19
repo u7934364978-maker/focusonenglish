@@ -99,7 +99,7 @@ Implement word-by-word translations for reading exercises in units 22 to 24.
 - [x] Audit and update Unit 22.
 - [x] Audit and update Unit 23.
 - [x] Audit and update Unit 24.
-- [x] Manual verification.
+- [x] Manual verification (Fixed renderer bug using tagged text).
 
 ---
 
@@ -109,7 +109,7 @@ Implement word-by-word translations for reading exercises in units 25 to 27.
 - [x] Audit and update Unit 25.
 - [x] Audit and update Unit 26.
 - [x] Audit and update Unit 27.
-- [x] Manual verification.
+- [x] Manual verification (Confirmed working with renderer fix).
 
 ---
 

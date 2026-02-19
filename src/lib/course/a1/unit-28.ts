@@ -1101,7 +1101,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Un Gran Día",
       "instructions": "Lee sobre el día de ayer.",
-      "text": "[[Yesterday|Ayer]] [[was|fue]] [[a great|un gran]] [[day.|día.]] [[I was|Yo estaba]] [[at the|en la]] [[beach|playa]] [[with|con]] [[my|mis]] [[friends.|amigos.]] [[The weather|El tiempo]] [[was|estuvo]] [[beautiful|hermoso]] [[and|y]] [[the sun|el sol]] [[was|estaba]] [[very|muy]] [[hot.|caliente.]] [[We were|Nosotros estábamos]] [[very|muy]] [[happy.|felices.]] [[In the|Por la]] [[evening,|tarde-noche,]] [[we were|estábamos]] [[at|en]] [[a small|un pequeño]] [[restaurant.|restaurante.]]",
+      "text": "[[Yesterday|Ayer]] [[was|fue]] [[a|un]] [[great|gran]] [[day.|día.]] [[I|Yo]] [[was|estaba]] [[at|en]] [[the|la]] [[beach|playa]] [[with|con]] [[my|mis]] [[friends.|amigos.]] [[The|El]] [[weather|tiempo]] [[was|estuvo]] [[beautiful|hermoso]] [[and|y]] [[the|el]] [[sun|sol]] [[was|estaba]] [[very|muy]] [[hot.|caliente.]] [[We|Nosotros]] [[were|estábamos]] [[very|muy]] [[happy.|felices.]] [[In|Por]] [[the|la]] [[evening,|tarde-noche,]] [[we|nosotros]] [[were|estábamos]] [[at|en]] [[a|un]] [[small|pequeño]] [[restaurant.|restaurante.]]",
       "questions": [
         {
           "question": "[[Where was the speaker yesterday?|¿Dónde estaba el narrador ayer?]]",
@@ -1128,7 +1128,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mi Fin de Semana",
       "instructions": "Lee sobre el fin de semana pasado.",
-      "text": "[[My last|Mi último]] [[weekend|fin de semana]] [[was|fue]] [[very|muy]] [[busy.|ajetreado.]] [[On Saturday,|El sábado,]] [[I was|yo estaba]] [[at the|en el]] [[supermarket|supermercado]] [[in the morning.|por la mañana.]] [[Then,|Luego,]] [[I was|estaba]] [[at|en]] [[my parents'|la de mis padres]] [[house.|casa.]] [[My sister|Mi hermana]] [[was|estaba]] [[there|allí]] [[too.|también.]] [[We were|Estábamos]] [[all|todos]] [[very|muy]] [[tired|cansados]] [[on|el]] [[Sunday|domingo]] [[night.|por la noche.]]",
+      "text": "[[My|Mi]] [[last|último]] [[weekend|fin de semana]] [[was|fue]] [[very|muy]] [[busy.|ajetreado.]] [[On|El]] [[Saturday,|sábado,]] [[I|yo]] [[was|estaba]] [[at|en]] [[the|el]] [[supermarket|supermercado]] [[in|por]] [[the|la]] [[morning.|mañana.]] [[Then,|Luego,]] [[I|yo]] [[was|estaba]] [[at|en]] [[my|la de mis]] [[parents'|padres]] [[house.|casa.]] [[My|Mi]] [[sister|hermana]] [[was|estaba]] [[there|allí]] [[too.|también.]] [[We|Nosotros]] [[were|estábamos]] [[all|todos]] [[very|muy]] [[tired|cansados]] [[on|el]] [[Sunday|domingo]] [[night.|por la noche.]]",
       "questions": [
         {
           "question": "[[Where was the speaker on Saturday morning?|¿Dónde estaba el narrador el sábado por la mañana?]]",
@@ -1155,7 +1155,7 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hace Diez Años",
       "instructions": "Lee sobre el pasado del narrador.",
-      "text": "[[Ten|Diez]] [[years|años]] [[ago,|atrás,]] [[my life|mi vida]] [[was|era]] [[different.|diferente.]] [[I was|Era]] [[a student|estudiante]] [[at|en la]] [[university|universidad]] [[and|y]] [[I was not|no era]] [[very|muy]] [[rich.|rico.]] [[My car|Mi coche]] [[was|era]] [[very|muy]] [[old|viejo]] [[and|y]] [[slow.|lento.]] [[But|Pero]] [[I was|era]] [[happy|feliz]] [[because|porque]] [[my friends|mis amigos]] [[were|estaban]] [[always|siempre]] [[with|con]] [[me.|migo.]]",
+      "text": "[[Ten|Diez]] [[years|años]] [[ago,|atrás,]] [[my|mi]] [[life|vida]] [[was|era]] [[different.|diferente.]] [[I|Yo]] [[was|era]] [[a|un]] [[student|estudiante]] [[at|en la]] [[university|universidad]] [[and|y]] [[I|yo]] [[was|era]] [[not|no]] [[very|muy]] [[rich.|rico.]] [[My|Mi]] [[car|coche]] [[was|era]] [[very|muy]] [[old|viejo]] [[and|y]] [[slow.|lento.]] [[But|Pero]] [[I|yo]] [[was|era]] [[happy|feliz]] [[because|porque]] [[my|mis]] [[friends|amigos]] [[were|estaban]] [[always|siempre]] [[with|con]] [[me.|migo.]]",
       "questions": [
         {
           "question": "[[What was the speaker's job ten years ago?|¿Cuál era el trabajo del narrador hace diez años?]]",
