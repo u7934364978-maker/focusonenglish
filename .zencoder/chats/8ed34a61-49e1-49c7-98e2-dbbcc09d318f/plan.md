@@ -83,3 +83,11 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/8e
 1. [x] **Refactor Unit 11 Reading (e51-e60)**: Change block translations in `transcript` and `question` to word-by-word/phrase-by-phrase `[[English|Spanish]]`.
 2. [x] **Refactor Unit 12 Reading (e51-e60)**: Change block translations in `transcript` and `question` to word-by-word/phrase-by-phrase `[[English|Spanish]]`.
 3. [x] **Verification**: Run `npm run validate-exercises`.
+
+---
+
+## [x] Phase: Content Fixes (Unit 12)
+
+1. [x] **Fix Exercise a1-u12-e38**: Correct the sentence "Today is, tomorrow Monday is" to "Today is Monday, tomorrow is".
+2. [x] **Verification**: Visually verified code change.
+3. [x] **Final Push**: Commit and push the changes.

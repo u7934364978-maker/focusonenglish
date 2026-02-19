@@ -697,16 +697,16 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Days of the Week",
     "difficulty": "easy",
-    "transcript": "[[Today is, tomorrow Monday is Tuesday|Hoy es lunes, mañana es martes]].",
+    "transcript": "[[Today is Monday, tomorrow is Tuesday|Hoy es lunes, mañana es martes]].",
     "content": {
       "title": "[[Logical Sequence|Lógica Secuencia]]",
       "instructions": "[[Choose the correct day|Elige el correcto día]].",
       "questions": [
         {
-          "question": "[[Today is, tomorrow Monday is|Hoy es lunes, mañana es]] (_____) .",
+          "question": "[[Today is Monday, tomorrow is|Hoy es lunes, mañana es]] (_____) .",
           "options": ["[[Tuesday|martes]]", "[[Wednesday|miércoles]]", "[[Thursday|jueves]]"],
           "correctAnswer": 0,
-          "explanation": "[[Tuesday follows Monday|Tuesday sigue al Monday]]."
+          "explanation": "[[Tuesday follows Monday|El martes sigue al lunes]]."
         }
       ]
     },
