@@ -1101,16 +1101,16 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "No me siento bien",
       "instructions": "Lee sobre el estado de salud.",
-      "text": "[[Today|Hoy]] [[I don't feel well.|no me siento bien.]] [[I have|Tengo]] [[a headache|dolor de cabeza]] [[and|y]] [[a sore throat.|dolor de garganta.]] [[I think|Creo]] [[I have a cold.|que tengo un resfriado.]] [[I should stay|Debería quedarme]] [[in bed|en cama]] [[and drink|y beber]] [[a lot of water.|mucha agua.]] [[My mother says|Mi madre dice]] [[I have to take|que tengo que tomar]] [[some medicine.|algo de medicina.]] [[If I don't|Si no]] [[feel better|me siento mejor]] [[tomorrow,|mañana,]] [[I should go|debería ir]] [[to the doctor.|al médico.]] [[It is important|Es importante]] [[to be healthy|estar saludable]] [[and rest.|y descansar.]]",
+      "text": "[[Today|Hoy]] [[I|yo]] [[don't|no]] [[feel|me siento]] [[well.|bien.]] [[I|Yo]] [[have|tengo]] [[a|un]] [[headache|dolor de cabeza]] [[and|y]] [[a|un]] [[sore|dolor de]] [[throat.|garganta.]] [[I|Yo]] [[think|creo]] [[I|que yo]] [[have|tengo]] [[a|un]] [[cold.|resfriado.]] [[I|Yo]] [[should|debería]] [[stay|quedarme]] [[in|en]] [[bed|cama]] [[and|y]] [[drink|beber]] [[a|mucha]] [[lot|cantidad]] [[of|de]] [[water.|agua.]] [[My|Mi]] [[mother|madre]] [[says|dice]] [[I|que yo]] [[have|tengo]] [[to|que]] [[take|tomar]] [[some|algo de]] [[medicine.|medicina.]] [[If|Si]] [[I|yo]] [[don't|no]] [[feel|me siento]] [[better|mejor]] [[tomorrow,|mañana,]] [[I|yo]] [[should|debería]] [[go|ir]] [[to|al]] [[the| (art)]] [[doctor.|médico.]] [[It|Ello]] [[is|es]] [[important|importante]] [[to|para]] [[be|estar]] [[healthy|saludable]] [[and|y]] [[rest.|descansar.]]",
       "questions": [
         {
-          "question": "[[What symptoms does the person have?|¿Qué síntomas tiene la persona?]]",
-          "options": ["[[Headache and sore throat|Dolor de cabeza y garganta]]", "[[Stomach ache and fever|Dolor de estómago y fiebre]]", "[[Broken leg|Pierna rota]]"],
+          "question": "[[What|Qué]] [[symptoms|síntomas]] [[does| (aux)]] [[the|la]] [[person|persona]] [[have?|tiene?]]",
+          "options": ["[[Headache|Dolor de cabeza]] [[and|y]] [[sore|dolor de]] [[throat|garganta]]", "[[Stomach|Estómago]] [[ache|dolor]] [[and|y]] [[fever|fiebre]]", "[[Broken|Rota]] [[leg|pierna]]"],
           "correctAnswer": 0
         },
         {
-          "question": "[[What should the person do if they don't feel better tomorrow?|¿Qué debería hacer la persona si no se siente mejor mañana?]]",
-          "options": ["[[Go to the doctor|Ir al médico]]", "[[Go to work|Ir a trabajar]]", "[[Eat sugar|Comer azúcar]]"],
+          "question": "[[What|Qué]] [[should|debería]] [[the|la]] [[person|persona]] [[do|hacer]] [[if|si]] [[they|ellos]] [[don't|no]] [[feel|se sienten]] [[better|mejor]] [[tomorrow?|mañana?]]",
+          "options": ["[[Go|Ir]] [[to|al]] [[the|el]] [[doctor|médico]]", "[[Go|Ir]] [[to|a]] [[work|trabajar]]", "[[Eat|Comer]] [[sugar|azúcar]]"],
           "correctAnswer": 0
         }
       ]
@@ -1128,16 +1128,16 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "En el Hospital",
       "instructions": "Lee sobre la visita al hospital.",
-      "text": "[[Doctor Smith|El doctor Smith]] [[is very busy|está muy ocupado]] [[at the hospital|en el hospital]] [[today.|hoy.]] [[Many patients|Muchos pacientes]] [[are waiting.|están esperando.]] [[A boy|Un niño]] [[has a broken arm|tiene un brazo roto]] [[and a girl|y una niña]] [[has a stomach ache.|tiene dolor de estómago.]] [[The nurse|La enfermera]] [[is taking|está tomando]] [[their temperature.|su temperatura.]] [[Doctor Smith says:|El doctor Smith dice:]] [['You should eat|Deberías comer]] [[fruit and vegetables|fruta y verduras]] [[to be strong.|para estar fuerte.]] [[You have to wash|Tienes que lavar]] [[your hands|tus manos]] [[every day.'|todos los días.']] [[Healthy habits|Los hábitos saludables]] [[are very important|son muy importantes]] [[for everyone.|para todos.]]",
+      "text": "[[Doctor|El doctor]] [[Smith|Smith]] [[is|está]] [[very|muy]] [[busy|ocupado]] [[at|en]] [[the|el]] [[hospital|hospital]] [[today.|hoy.]] [[Many|Muchos]] [[patients|pacientes]] [[are|están]] [[waiting.|esperando.]] [[A|Un]] [[boy|niño]] [[has|tiene]] [[a|un]] [[broken|roto]] [[arm|brazo]] [[and|y]] [[a|una]] [[girl|niña]] [[has|tiene]] [[a|un]] [[stomach|estómago]] [[ache.|dolor de.]] [[The|La]] [[nurse|enfermera]] [[is|está]] [[taking|tomando]] [[their|su]] [[temperature.|temperatura.]] [[Doctor|El doctor]] [[Smith|Smith]] [[says:|dice:]] [['You|Tú]] [[should|deberías]] [[eat|comer]] [[fruit|fruta]] [[and|y]] [[vegetables|verduras]] [[to|para]] [[be|estar]] [[strong.|fuerte.]] [[You|Tú]] [[have|tienes]] [[to|que]] [[wash|lavar]] [[your|tus]] [[hands|manos]] [[every|todos los]] [[day.'|días.']] [[Healthy|Saludables]] [[habits|hábitos]] [[are|son]] [[very|muy]] [[important|importantes]] [[for|para]] [[everyone.|todos.]]",
       "questions": [
         {
-          "question": "[[What is the nurse doing?|¿Qué está haciendo la enfermera?]]",
-          "options": ["[[Taking their temperature|Tomando su temperatura]]", "[[Eating fruit|Comiendo fruta]]", "[[Sleeping|Durmiendo]]"],
+          "question": "[[What|Qué]] [[is|está]] [[the|la]] [[nurse|enfermera]] [[doing?|haciendo?]]",
+          "options": ["[[Taking|Tomando]] [[their|su]] [[temperature|temperatura]]", "[[Eating|Comiendo]] [[fruit|fruta]]", "[[Sleeping|Durmiendo]]"],
           "correctAnswer": 0
         },
         {
-          "question": "[[What advice does the doctor give?|¿Qué consejo da el doctor?]]",
-          "options": ["[[Eat fruit and vegetables|Comer fruta y verduras]]", "[[Watch more TV|Ver más tele]]", "[[Don't wash your hands|No lavar las manos]]"],
+          "question": "[[What|Qué]] [[advice|consejo]] [[does| (aux)]] [[the|el]] [[doctor|doctor]] [[give?|da?]]",
+          "options": ["[[Eat|Comer]] [[fruit|fruta]] [[and|y]] [[vegetables|verduras]]", "[[Watch|Ver]] [[more|más]] [[TV|tele]]", "[[Don't|No]] [[wash|lavar]] [[your|tus]] [[hands|manos]]"],
           "correctAnswer": 0
         }
       ]
@@ -1155,16 +1155,16 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "Un cuerpo sano",
       "instructions": "Lee sobre hábitos saludables.",
-      "text": "[[To have|Para tener]] [[a healthy body,|un cuerpo sano,]] [[you should follow|deberías seguir]] [[some rules.|algunas reglas.]] [[You have to sleep|Tienes que dormir]] [[eight hours|ocho horas]] [[every night.|cada noche.]] [[You should brush|Deberías cepillar]] [[your teeth|tus dientes]] [[after every meal.|después de cada comida.]] [[Exercise|El ejercicio]] [[is also necessary.|es también necesario.]] [[You can walk|Puedes caminar]] [[in the park|en el parque]] [[or go|o ir]] [[to the gym.|al gimnasio.]] [[Don't forget|No olvides]] [[to drink|beber]] [[a lot of water.|mucha agua.]] [[If your body|Si tu cuerpo]] [[feels tired,|se siente cansado,]] [[you should rest.|deberías descansar.]]",
+      "text": "[[To|Para]] [[have|tener]] [[a|un]] [[healthy|sano]] [[body,|cuerpo,]] [[you|tú]] [[should|deberías]] [[follow|seguir]] [[some|algunas]] [[rules.|reglas.]] [[You|Tú]] [[have|tienes]] [[to|que]] [[sleep|dormir]] [[eight|ocho]] [[hours|horas]] [[every|cada]] [[night.|noche.]] [[You|Tú]] [[should|deberías]] [[brush|cepillar]] [[your|tus]] [[teeth|dientes]] [[after|después de]] [[every|cada]] [[meal.|comida.]] [[Exercise|El ejercicio]] [[is|es]] [[also|también]] [[necessary.|necesario.]] [[You|Tú]] [[can|puedes]] [[walk|caminar]] [[in|en]] [[the|el]] [[park|parque]] [[or|o]] [[go|ir]] [[to|al]] [[the| (art)]] [[gym.|gimnasio.]] [[Don't|No]] [[forget|olvides]] [[to|a]] [[drink|beber]] [[a|mucha]] [[lot|cantidad]] [[of|de]] [[water.|agua.]] [[If|Si]] [[your|tu]] [[body|cuerpo]] [[feels|se siente]] [[tired,|cansado,]] [[you|tú]] [[should|deberías]] [[rest.|descansar.]]",
       "questions": [
         {
-          "question": "[[How many hours should you sleep?|¿Cuántas horas deberías dormir?]]",
-          "options": ["[[Eight hours|Ocho horas]]", "[[Five hours|Cinco horas]]", "[[Ten hours|Diez horas]]"],
+          "question": "[[How|Cuántas]] [[many|muchas]] [[hours|horas]] [[should|deberías]] [[you|tú]] [[sleep?|dormir?]]",
+          "options": ["[[Eight|Ocho]] [[hours|horas]]", "[[Five|Cinco]] [[hours|horas]]", "[[Ten|Diez]] [[hours|horas]]"],
           "correctAnswer": 0
         },
         {
-          "question": "[[When should you brush your teeth?|¿Cuándo deberías cepillarte los dientes?]]",
-          "options": ["[[After every meal|Después de cada comida]]", "[[Only in the morning|Solo por la mañana]]", "[[Once a week|Una vez a la semana]]"],
+          "question": "[[When|Cuándo]] [[should|deberías]] [[you|tú]] [[brush|cepillar]] [[your|tus]] [[teeth?|dientes?]]",
+          "options": ["[[After|Después de]] [[every|cada]] [[meal|comida]]", "[[Only|Solo]] [[in|en]] [[the|la]] [[morning|mañana]]", "[[Once|Una vez]] [[a|a la]] [[week|semana]]"],
           "correctAnswer": 0
         }
       ]

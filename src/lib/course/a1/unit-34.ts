@@ -1101,16 +1101,16 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cena en Familia",
       "instructions": "Lee sobre la cena en el restaurante.",
-      "text": "[[I am|Estoy]] [[at a restaurant|en un restaurante]] [[with my family.|con mi familia.]] [[We'd like|Nos gustaría]] [[a table|una mesa]] [[for four|para cuatro]] [[near the window.|cerca de la ventana.]] [[The waiter|El camarero]] [[gives us|nos da]] [[the menu.|el menú.]] [[I'd like|Me gustaría]] [[a steak|un filete]] [[and some salad.|y algo de ensalada.]] [[My sister|Mi hermana]] [[wants|quiere]] [[chicken and rice.|pollo y arroz.]] [[For dessert,|De postre,]] [[we want|queremos]] [[some fruit.|algo de fruta.]] [[The food|La comida]] [[is delicious|está deliciosa]] [[and the bill|y la cuenta]] [[is not|no es]] [[very expensive.|muy cara.]] [[We are paying|Estamos pagando]] [[by card.|con tarjeta.]]",
+      "text": "[[I|Yo]] [[am|estoy]] [[at|en]] [[a|un]] [[restaurant|restaurante]] [[with|con]] [[my|mi]] [[family.|familia.]] [[We'd like|Nos gustaría]] [[a|una]] [[table|mesa]] [[for|para]] [[four|cuatro]] [[near|cerca de]] [[the|la]] [[window.|ventana.]] [[The|El]] [[waiter|camarero]] [[gives|da]] [[us|nos]] [[the|el]] [[menu.|menú.]] [[I'd like|Me gustaría]] [[a|un]] [[steak|filete]] [[and|y]] [[some|algo de]] [[salad.|ensalada.]] [[My|Mi]] [[sister|hermana]] [[wants|quiere]] [[chicken|pollo]] [[and|y]] [[rice.|arroz.]] [[For|De]] [[dessert,|postre,]] [[we|nosotros]] [[want|queremos]] [[some|algo de]] [[fruit.|fruta.]] [[The|La]] [[food|comida]] [[is|está]] [[delicious|deliciosa]] [[and|y]] [[the|la]] [[bill|cuenta]] [[is|es]] [[not|no]] [[very|muy]] [[expensive.|cara.]] [[We|Nosotros]] [[are|estamos]] [[paying|pagando]] [[by|con]] [[card.|tarjeta.]]",
       "questions": [
         {
-          "question": "[[What does the person want to eat?|¿Qué quiere comer la persona?]]",
-          "options": ["[[Steak and salad|Filete y ensalada]]", "[[Chicken and rice|Pollo y arroz]]", "[[Only fruit|Solo fruta]]"],
+          "question": "[[What|Qué]] [[does| (aux)]] [[the|la]] [[person|persona]] [[want|quiere]] [[to|a]] [[eat?|comer?]]",
+          "options": ["[[Steak|Filete]] [[and|y]] [[salad|ensalada]]", "[[Chicken|Pollo]] [[and|y]] [[rice|arroz]]", "[[Only|Solo]] [[fruit|fruta]]"],
           "correctAnswer": 0
         },
         {
-          "question": "[[How are they paying?|¿Cómo están pagando?]]",
-          "options": ["[[By card|Con tarjeta]]", "[[In cash|En efectivo]]", "[[They are not paying|No pagan]]"],
+          "question": "[[How|Cómo]] [[are|están]] [[they|ellos]] [[paying?|pagando?]]",
+          "options": ["[[By|Con]] [[card|tarjeta]]", "[[In|En]] [[cash|efectivo]]", "[[They|Ellos]] [[are|están]] [[not|no]] [[paying|pagando]]"],
           "correctAnswer": 0
         }
       ]
@@ -1128,16 +1128,16 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mi Cafetería Favorita",
       "instructions": "Lee sobre la cafetería.",
-      "text": "[[My favorite cafe|Mi cafetería favorita]] [[is very cozy.|es muy acogedora.]] [[I always|Siempre]] [[order|pido]] [[a cup of coffee|una taza de café]] [[and a piece of cake.|y un trozo de tarta.]] [[Sometimes,|A veces,]] [[I have|tomo]] [[some orange juice|algo de zumo de naranja]] [[too.|también.]] [[There are|Hay]] [[many small tables|muchas mesas pequeñas]] [[and|y]] [[comfortable chairs.|sillas cómodas.]] [[The waiters|Los camareros]] [[are friendly.|son amables.]] [[How much|¿Cuánto]] [[is a coffee?|cuesta un café?]] [[It is only|Cuesta solo]] [[two euros.|dos euros.]] [[I like|Me gusta]] [[to sit here|sentarme aquí]] [[and read|y leer]] [[my book.|mi libro.]]",
+      "text": "[[My|Mi]] [[favorite|favorita]] [[cafe|cafetería]] [[is|es]] [[very|muy]] [[cozy.|acogedora.]] [[I|Yo]] [[always|siempre]] [[order|pido]] [[a|una]] [[cup|taza]] [[of|de]] [[coffee|café]] [[and|y]] [[a|un]] [[piece|trozo]] [[of|de]] [[cake.|tarta.]] [[Sometimes,|A veces,]] [[I|yo]] [[have|tomo]] [[some|algo de]] [[orange|naranja]] [[juice|zumo]] [[too.|también.]] [[There|Allí]] [[are|hay]] [[many|muchas]] [[small|pequeñas]] [[tables|mesas]] [[and|y]] [[comfortable|cómodas]] [[chairs.|sillas.]] [[The|Los]] [[waiters|camareros]] [[are|son]] [[friendly.|amables.]] [[How|Cuánto]] [[much|mucho]] [[is|cuesta]] [[a|un]] [[coffee?|café?]] [[It|Él]] [[is|cuesta]] [[only|solo]] [[two|dos]] [[euros.|euros.]] [[I|Me]] [[like|gusta]] [[to|a]] [[sit|sentarme]] [[here|aquí]] [[and|y]] [[read|leer]] [[my|mi]] [[book.|libro.]]",
       "questions": [
         {
-          "question": "[[What does the person usually order?|¿Qué pide normalmente la persona?]]",
-          "options": ["[[Coffee and cake|Café y tarta]]", "[[Tea and bread|Té y pan]]", "[[Steak and rice|Filete y arroz]]"],
+          "question": "[[What|Qué]] [[does| (aux)]] [[the|la]] [[person|persona]] [[usually|normalmente]] [[order?|pide?]]",
+          "options": ["[[Coffee|Café]] [[and|y]] [[cake|tarta]]", "[[Tea|Té]] [[and|y]] [[bread|pan]]", "[[Steak|Filete]] [[and|y]] [[rice|arroz]]"],
           "correctAnswer": 0
         },
         {
-          "question": "[[How much is the coffee?|¿Cuánto cuesta el café?]]",
-          "options": ["[[Two euros|Dos euros]]", "[[Five euros|Cinco euros]]", "[[One euro|Un euro]]"],
+          "question": "[[How|Cuánto]] [[much|mucho]] [[is|cuesta]] [[the|el]] [[coffee?|café?]]",
+          "options": ["[[Two|Dos]] [[euros|euros]]", "[[Five|Cinco]] [[euros|euros]]", "[[One|Un]] [[euro|euro]]"],
           "correctAnswer": 0
         }
       ]
@@ -1155,16 +1155,16 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "content": {
       "title": "En la Cocina",
       "instructions": "Lee sobre la situación en la cocina.",
-      "text": "[[In the kitchen,|En la cocina,]] [[we have everything|tenemos todo]] [[for lunch.|para el almuerzo.]] [[There is|Hay]] [[some bread|algo de pan]] [[on the table|sobre la mesa]] [[and some milk|y algo de leche]] [[in the fridge.|en la nevera.]] [[We have|Tenemos]] [[many vegetables|muchas verduras]] [[for the salad.|para la ensalada.]] [[I need|Necesito]] [[a knife|un cuchillo]] [[to cut|para cortar]] [[the tomatoes|los tomates]] [[and a spoon|y una cuchara]] [[for the soup.|para la sopa.]] [[How many|¿Cuántas]] [[people|personas]] [[are coming|vienen]] [[for dinner?|para cenar?]] [[Six people|Seis personas]] [[are coming today.|vienen hoy.]]",
+      "text": "[[In|En]] [[the|la]] [[kitchen,|cocina,]] [[we|nosotros]] [[have|tenemos]] [[everything|todo]] [[for|para]] [[lunch.|el almuerzo.]] [[There|Allí]] [[is|hay]] [[some|algo de]] [[bread|pan]] [[on|sobre]] [[the|la]] [[table|mesa]] [[and|y]] [[some|algo de]] [[milk|leche]] [[in|en]] [[the|la]] [[fridge.|nevera.]] [[We|Nosotros]] [[have|tenemos]] [[many|muchas]] [[vegetables|verduras]] [[for|para]] [[the|la]] [[salad.|ensalada.]] [[I|Yo]] [[need|necesito]] [[a|un]] [[knife|cuchillo]] [[to|para]] [[cut|cortar]] [[the|los]] [[tomatoes|tomates]] [[and|y]] [[a|una]] [[spoon|cuchara]] [[for|para]] [[the|la]] [[soup.|sopa.]] [[How|Cuántas]] [[many|muchas]] [[people|personas]] [[are|están]] [[coming|viniendo]] [[for|para]] [[dinner?|cenar?]] [[Six|Seis]] [[people|personas]] [[are|están]] [[coming|viniendo]] [[today.|hoy.]]",
       "questions": [
         {
-          "question": "[[Where is the milk?|¿Dónde está la leche?]]",
-          "options": ["[[In the fridge|En la nevera]]", "[[On the table|Sobre la mesa]]", "[[In the soup|En la sopa]]"],
+          "question": "[[Where|Dónde]] [[is|está]] [[the|la]] [[milk?|leche?]]",
+          "options": ["[[In|En]] [[the|la]] [[fridge|nevera]]", "[[On|Sobre]] [[the|la]] [[table|mesa]]", "[[In|En]] [[the|la]] [[soup|sopa]]"],
           "correctAnswer": 0
         },
         {
-          "question": "[[How many people are coming for dinner?|¿Cuántas personas vienen a cenar?]]",
-          "options": ["[[Six people|Seis personas]]", "[[Four people|Cuatro personas]]", "[[Two people|Dos personas]]"],
+          "question": "[[How|Cuántas]] [[many|muchas]] [[people|personas]] [[are|están]] [[coming|viniendo]] [[for|para]] [[dinner?|cenar?]]",
+          "options": ["[[Six|Seis]] [[people|personas]]", "[[Four|Cuatro]] [[people|personas]]", "[[Two|Dos]] [[people|personas]]"],
           "correctAnswer": 0
         }
       ]

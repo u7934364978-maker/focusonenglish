@@ -1101,16 +1101,16 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Un día de compras",
       "instructions": "Lee sobre el día de compras.",
-      "text": "[[I am|Estoy]] [[at the shopping mall|en el centro comercial]] [[today.|hoy.]] [[I want to buy|Quiero comprar]] [[a new jacket|una chaqueta nueva]] [[and some shoes.|y algunos zapatos.]] [[This red jacket|Esta chaqueta roja]] [[is very beautiful,|es muy hermosa,]] [[but it is|pero es]] [[too expensive.|demasiado cara.]] [[That blue jacket|Esa chaqueta azul]] [[is cheaper|es más barata]] [[and I like it|y me gusta]] [[too.|también.]] [[I am going|Voy]] [[to the fitting room|al probador]] [[to try it on.|a probármela.]] [[I also need|También necesito]] [[a smaller size|una talla más pequeña]] [[for these trousers.|para estos pantalones.]] [[The shop assistant|El dependiente]] [[is helping me.|me está ayudando.]] [[I am paying|Estoy pagando]] [[by card|con tarjeta]] [[at the checkout.|en la caja.]]",
+      "text": "[[I|Yo]] [[am|estoy]] [[at|en]] [[the|el]] [[shopping|centro]] [[mall|comercial]] [[today.|hoy.]] [[I|Yo]] [[want|quiero]] [[to|a]] [[buy|comprar]] [[a|una]] [[new|nueva]] [[jacket|chaqueta]] [[and|y]] [[some|algunos]] [[shoes.|zapatos.]] [[This|Esta]] [[red|roja]] [[jacket|chaqueta]] [[is|es]] [[very|muy]] [[beautiful,|hermosa,]] [[but|pero]] [[it|él]] [[is|es]] [[too|demasiado]] [[expensive.|cara.]] [[That|Esa]] [[blue|azul]] [[jacket|chaqueta]] [[is|es]] [[cheaper|más barata]] [[and|y]] [[I|yo]] [[like|gusta]] [[it|la]] [[too.|también.]] [[I|Yo]] [[am|estoy]] [[going|yendo]] [[to|a]] [[the|el]] [[fitting|probador]] [[room|de ropa]] [[to|a]] [[try|probar]] [[it|la]] [[on.|puesta.]] [[I|Yo]] [[also|también]] [[need|necesito]] [[a|una]] [[smaller|más pequeña]] [[size|talla]] [[for|para]] [[these|estos]] [[trousers.|pantalones.]] [[The|El]] [[shop|tienda]] [[assistant|dependiente]] [[is|está]] [[helping|ayudando]] [[me.|me.]] [[I|Yo]] [[am|estoy]] [[paying|pagando]] [[by|con]] [[card|tarjeta]] [[at|en]] [[the|la]] [[checkout.|caja.]]",
       "questions": [
         {
-          "question": "[[Why doesn't the person buy the red jacket?|¿Por qué la persona no compra la chaqueta roja?]]",
-          "options": ["[[It is too expensive|Es demasiado cara]]", "[[It is too small|Es demasiado pequeña]]", "[[It is ugly|Es fea]]"],
+          "question": "[[Why|Por qué]] [[doesn't| (aux)]] [[the|la]] [[person|persona]] [[buy|compra]] [[the|la]] [[red|roja]] [[jacket?|chaqueta?]]",
+          "options": ["[[It|Ella]] [[is|es]] [[too|demasiado]] [[expensive|cara]]", "[[It|Ella]] [[is|es]] [[too|demasiado]] [[small|pequeña]]", "[[It|Ella]] [[is|es]] [[ugly|fea]]"],
           "correctAnswer": 0
         },
         {
-          "question": "[[Where is the person going to try the jacket?|¿Dónde va la persona a probarse la chaqueta?]]",
-          "options": ["[[To the fitting room|Al probador]]", "[[To the checkout|A la caja]]", "[[To the exit|A la salida]]"],
+          "question": "[[Where|Dónde]] [[is|está]] [[the|la]] [[person|persona]] [[going|yendo]] [[to|a]] [[try|probar]] [[the|la]] [[jacket?|chaqueta?]]",
+          "options": ["[[To|Al]] [[the| (art)]] [[fitting|probador]] [[room|de ropa]]", "[[To|A]] [[the|la]] [[checkout|caja]]", "[[To|A]] [[the|la]] [[exit|salida]]"],
           "correctAnswer": 0
         }
       ]
@@ -1128,16 +1128,16 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "Buscando un regalo",
       "instructions": "Lee sobre Sarah buscando un regalo.",
-      "text": "[[Sarah is looking for|Sarah está buscando]] [[a gift|un regalo]] [[for her brother.|para su hermano.]] [[She is|Ella está]] [[in a big|en unos grandes]] [[department store.|almacenes.]] [[She sees|Ve]] [[a nice watch,|un reloj bonito,]] [[but it is|pero es]] [[the most expensive|el más caro]] [[item|artículo]] [[in the shop.|de la tienda.]] [[Then,|Entonces,]] [[she finds|encuentra]] [[some cool|unas gafas de sol]] [[sunglasses.|geniales.]] [[They are|Están a]] [[half price!|mitad de precio!]] [[Sarah is|Sarah está]] [[very happy.|muy feliz.]] [[She also buys|También compra]] [[a card.|una tarjeta.]] [[She pays|Paga]] [[with cash|con efectivo]] [[and gets|y recibe]] [[a receipt.|un ticket.]]",
+      "text": "[[Sarah|Sarah]] [[is|está]] [[looking|buscando]] [[for|por]] [[a|un]] [[gift|regalo]] [[for|para]] [[her|su]] [[brother.|hermano.]] [[She|Ella]] [[is|está]] [[in|en]] [[a|un]] [[big|grande]] [[department|departamento]] [[store.|almacén.]] [[She|Ella]] [[sees|ve]] [[a|un]] [[nice|bonito]] [[watch,|reloj,]] [[but|pero]] [[it|él]] [[is|es]] [[the|el]] [[most|más]] [[expensive|caro]] [[item|artículo]] [[in|en]] [[the|la]] [[shop.|tienda.]] [[Then,|Entonces,]] [[she|ella]] [[finds|encuentra]] [[some|unas]] [[cool|geniales]] [[sunglasses.|gafas de sol.]] [[They|Ellas]] [[are|están]] [[half|mitad]] [[price!|de precio!]] [[Sarah|Sarah]] [[is|está]] [[very|muy]] [[happy.|feliz.]] [[She|Ella]] [[also|también]] [[buys|compra]] [[a|una]] [[card.|tarjeta.]] [[She|Ella]] [[pays|paga]] [[with|con]] [[cash|efectivo]] [[and|y]] [[gets|recibe]] [[a|un]] [[receipt.|ticket.]]",
       "questions": [
         {
-          "question": "[[What is half price?|¿Qué está a mitad de precio?]]",
-          "options": ["[[The sunglasses|Las gafas de sol]]", "[[The watch|El reloj]]", "[[The card|La tarjeta]]"],
+          "question": "[[What|Qué]] [[is|está]] [[half|mitad]] [[price?|de precio?]]",
+          "options": ["[[The|Las]] [[sunglasses|gafas de sol]]", "[[The|El]] [[watch|reloj]]", "[[The|La]] [[card|tarjeta]]"],
           "correctAnswer": 0
         },
         {
-          "question": "[[How does Sarah pay?|¿Cómo paga Sarah?]]",
-          "options": ["[[With cash|Con efectivo]]", "[[By card|Con tarjeta]]", "[[She doesn't pay|No paga]]"],
+          "question": "[[How|Cómo]] [[does| (aux)]] [[Sarah|Sarah]] [[pay?|paga?]]",
+          "options": ["[[With|Con]] [[cash|efectivo]]", "[[By|Con]] [[card|tarjeta]]", "[[She|Ella]] [[doesn't|no]] [[pay|paga]]"],
           "correctAnswer": 0
         }
       ]
@@ -1155,16 +1155,16 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "content": {
       "title": "En el Supermercado",
       "instructions": "Lee sobre el supermercado.",
-      "text": "[[This supermarket|Este supermercado]] [[is very big.|es muy grande.]] [[It has|Tiene]] [[three floors.|tres plantas.]] [[The food|La comida]] [[is on|está en]] [[the ground floor.|la planta baja.]] [[Clothes|La ropa]] [[are on|está en]] [[the first floor,|la primera planta,]] [[and toys|y los juguetes]] [[are on|están en]] [[the second floor.|la segunda planta.]] [[Today,|Hoy,]] [[there is a big|hay unas grandes]] [[sale|rebajas]] [[on toys.|en juguetes.]] [[Many things|Muchas cosas]] [[are cheaper|son más baratas]] [[than last week.|que la semana pasada.]] [[I am buying|Estoy comprando]] [[a ball|una pelota]] [[for my son.|para mi hijo.]] [[The checkout|La caja]] [[is very busy|está muy concurrida]] [[today.|hoy.]]",
+      "text": "[[This|Este]] [[supermarket|supermercado]] [[is|es]] [[very|muy]] [[big.|grande.]] [[It|Él]] [[has|tiene]] [[three|tres]] [[floors.|plantas.]] [[The|La]] [[food|comida]] [[is|está]] [[on|en]] [[the|la]] [[ground|baja]] [[floor.|planta.]] [[Clothes|La ropa]] [[are|está]] [[on|en]] [[the|la]] [[first|primera]] [[floor,|planta,]] [[and|y]] [[toys|juguetes]] [[are|están]] [[on|en]] [[the|la]] [[second|segunda]] [[floor.|planta.]] [[Today,|Hoy,]] [[there|allí]] [[is|hay]] [[a|unas]] [[big|grandes]] [[sale|rebajas]] [[on|en]] [[toys.|juguetes.]] [[Many|Muchas]] [[things|cosas]] [[are|son]] [[cheaper|más baratas]] [[than|que]] [[last|la pasada]] [[week.|semana.]] [[I|Yo]] [[am|estoy]] [[buying|comprando]] [[a|una]] [[ball|pelota]] [[for|para]] [[my|mi]] [[son.|hijo.]] [[The|La]] [[checkout|caja]] [[is|está]] [[very|muy]] [[busy|concurrida]] [[today.|hoy.]]",
       "questions": [
         {
-          "question": "[[Where are the toys?|¿Dónde están los juguetes?]]",
-          "options": ["[[On the second floor|En la segunda planta]]", "[[On the ground floor|En la planta baja]]", "[[On the first floor|En la primera planta]]"],
+          "question": "[[Where|Dónde]] [[are|están]] [[the|los]] [[toys?|juguetes?]]",
+          "options": ["[[On|En]] [[the|la]] [[second|segunda]] [[floor|planta]]", "[[On|En]] [[the|la]] [[ground|baja]] [[floor|planta]]", "[[On|En]] [[the|la]] [[first|primera]] [[floor|planta]]"],
           "correctAnswer": 0
         },
         {
-          "question": "[[Are the toys more expensive today?|¿Son los juguetes más caros hoy?]]",
-          "options": ["[[No, they are cheaper|No, son más baratos]]", "[[Yes, they are|Sí, lo son]]", "[[They are the same price|Cuestan lo mismo]]"],
+          "question": "[[Are|Son]] [[the|los]] [[toys|juguetes]] [[more|más]] [[expensive|caros]] [[today?|hoy?]]",
+          "options": ["[[No,|No,]] [[they|ellos]] [[are|son]] [[cheaper|más baratos]]", "[[Yes,|Sí,]] [[they|ellos]] [[are|son]]", "[[They|Ellos]] [[are|son]] [[the|el]] [[same|mismo]] [[price|precio]]"],
           "correctAnswer": 0
         }
       ]
