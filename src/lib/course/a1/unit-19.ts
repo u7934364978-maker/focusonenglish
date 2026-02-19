@@ -13,7 +13,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "¿Cuántos meses hay en un año?",
       "questions": [
         {
-          "question": "[[There are|Hay]] (_____) [[months in a year|meses en un año]].",
+          "question": "[[There|Allí]] [[are|hay]] (_____) [[months|meses]] [[in|en]] [[a|un]] [[year|año]].",
           "options": ["[[twelve|doce]]", "[[ten|diez]]", "[[seven|siete]]"],
           "correctAnswer": 0,
           "explanation": "Hay 12 meses en un año."
@@ -35,7 +35,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el mes correcto.",
       "questions": [
         {
-          "question": "_______ [[is the first month of the year|es el primer mes del el año]].",
+          "question": "_______ [[is|es]] [[the|el]] [[first|primer]] [[month|mes]] [[of|de]] [[the|el]] [[year|año]].",
           "options": ["[[January|Enero]]", "[[February|Febrero]]", "[[March|Marzo]]"],
           "correctAnswer": 0,
           "explanation": "Enero (January) es el primer mes del año."
@@ -57,7 +57,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el mes correcto.",
       "questions": [
         {
-          "question": "_______ [[is the last month of the year|es el último mes del el año]].",
+          "question": "_______ [[is|es]] [[the|el]] [[last|último]] [[month|mes]] [[of|de]] [[the|el]] [[year|año]].",
           "options": ["[[November|Noviembre]]", "[[December|Diciembre]]", "[[October|Octubre]]"],
           "correctAnswer": 1,
           "explanation": "Diciembre (December) es el último mes del año."
@@ -77,7 +77,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Orden de los Meses",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[February comes after January|Febrero viene después de Enero]].",
+      "correctSentence": "[[February|Febrero]] [[comes|viene]] [[after|después de]] [[January|Enero]].",
       "words": ["[[February|Febrero]]", "[[comes|viene]]", "[[after|después de]]", "[[January|Enero]]."],
       "explanation": "Febrero va después de Enero."
     },
@@ -96,7 +96,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Responde a la pregunta.",
       "questions": [
         {
-          "question": "[[Which month has twenty-eight days|Qué mes tiene veintiocho días]]?",
+          "question": "[[Which|Qué]] [[month|mes]] [[has|tiene]] [[twenty-eight|veintiocho]] [[days|días]]?",
           "options": ["[[January|Enero]]", "[[February|Febrero]]", "[[March|Marzo]]"],
           "correctAnswer": 1,
           "explanation": "Febrero es el único mes con 28 días (o 29 en años bisiestos)."
@@ -116,7 +116,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Meses Calurosos",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[July and August are very hot months|Julio y Agosto son muy calurosos meses]].",
+      "correctSentence": "[[July|Julio]] [[and|y]] [[August|Agosto]] [[are|son]] [[very|muy]] [[hot|calurosos]] [[months|meses]].",
       "words": ["[[July|Julio]]", "[[and|y]]", "[[August|Agosto]]", "[[are|son]]", "[[very|muy]]", "[[hot|calurosos]]", "[[months|meses]]."],
       "explanation": "Julio y Agosto son meses de verano en el hemisferio norte."
     },
@@ -135,7 +135,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la estación correcta.",
       "questions": [
         {
-          "question": "[[December is in|Diciembre es en]] (_____) .",
+          "question": "[[December|Diciembre]] [[is|es]] [[in|en]] (_____) .",
           "options": ["[[winter|invierno]]", "[[summer|verano]]", "[[spring|primavera]]"],
           "correctAnswer": 0,
           "explanation": "Diciembre es un mes de invierno en el hemisferio norte."
@@ -157,7 +157,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el número ordinal correcto.",
       "questions": [
         {
-          "question": "[[March is the|Marzo es el]] _______ [[month|mes]].",
+          "question": "[[March|Marzo]] [[is|es]] [[the|el]] _______ [[month|mes]].",
           "options": ["[[third|tercer]]", "[[second|segundo]]", "[[fourth|cuarto]]"],
           "correctAnswer": 0,
           "explanation": "Marzo es el tercer mes (third month)."
@@ -177,7 +177,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Días y Números",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[Monday is the first day of the week|Lunes es el primer día de la semana]].",
+      "correctSentence": "[[Monday|Lunes]] [[is|es]] [[the|el]] [[first|primer]] [[day|día]] [[of|de]] [[the|la]] [[week|semana]].",
       "words": ["[[Monday|Lunes]]", "[[is|es]]", "[[the|el]]", "[[first|primer]]", "[[day|día]]", "[[of|de]]", "[[the|la]]", "[[week|semana]]."],
       "explanation": "Lunes se considera el primer día de la semana laboral."
     },
@@ -196,7 +196,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el número ordinal correcto.",
       "questions": [
         {
-          "question": "[[October is the|Octubre es el]] _______ [[month|mes]].",
+          "question": "[[October|Octubre]] [[is|es]] [[the|el]] _______ [[month|mes]].",
           "options": ["[[tenth|décimo]]", "[[ninth|noveno]]", "[[eighth|octavo]]"],
           "correctAnswer": 0,
           "explanation": "Octubre es el décimo mes."
@@ -218,7 +218,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición correcta.",
       "questions": [
         {
-          "question": "[[My birthday is|Mi cumpleaños es]] _______ [[June|Junio]].",
+          "question": "[[My|Mi]] [[birthday|cumpleaños]] [[is|es]] _______ [[June|Junio]].",
           "options": ["[[in|en]]", "[[on|el]]", "[[at|a]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'in' con los meses del año."
@@ -240,7 +240,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición correcta.",
       "questions": [
         {
-          "question": "[[My birthday is 15th|Mi cumpleaños es]] _______ [[June|Junio 15]].",
+          "question": "[[My|Mi]] [[birthday|cumpleaños]] [[is|es]] (_____) [[June|Junio]] [[15th|15]].",
           "options": ["[[on|el]]", "[[in|en]]", "[[at|a]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'on' para fechas específicas (mes + día)."
@@ -260,7 +260,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Navidad",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[Christmas is on December 25th|Navidad es el Diciembre 25]].",
+      "correctSentence": "[[Christmas|Navidad]] [[is|es]] [[on|el]] [[December|Diciembre]] [[25th|25]].",
       "words": ["[[Christmas|Navidad]]", "[[is|es]]", "[[on|el]]", "[[December|Diciembre]]", "[[25th|25]]."],
       "explanation": "Usamos 'on' porque es una fecha específica."
     },
@@ -279,7 +279,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra interrogativa correcta.",
       "questions": [
         {
-          "question": "_______ [[is your birthday|es tu cumpleaños]]?",
+          "question": "_______ [[is|es]] [[your|tu]] [[birthday|cumpleaños]]?",
           "options": ["[[When|Cuándo]]", "[[Where|Dónde]]", "[[What|Qué]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'When' para preguntar por el tiempo o fechas."
@@ -299,7 +299,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "La Fecha de Hoy",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[What is the date today|Cuál es la fecha hoy]]?",
+      "correctSentence": "[[What|Cuál]] [[is|es]] [[the|la]] [[date|fecha]] [[today|hoy]]?",
       "words": ["[[What|Cuál]]", "[[is|es]]", "[[the|la]]", "[[date|fecha]]", "[[today|hoy]]?"],
       "explanation": "Pregunta estándar para saber la fecha."
     },
@@ -318,7 +318,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el número ordinal correcto.",
       "questions": [
         {
-          "question": "[[October is the|Octubre es el]] (_____) [[month|mes]].",
+          "question": "[[October|Octubre]] [[is|es]] [[the|el]] (_____) [[month|mes]].",
           "options": ["[[tenth|décimo]]", "[[eighth|octavo]]", "[[ninth|noveno]]"],
           "correctAnswer": 0,
           "explanation": "Octubre es el mes número diez (tenth)."
@@ -340,7 +340,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la escritura correcta de 12th.",
       "questions": [
         {
-          "question": "[[Today is May|Hoy es Mayo]] _______.",
+          "question": "[[Today|Hoy]] [[is|es]] [[May|Mayo]] _______.",
           "options": ["[[twelfth|12º]]", "[[twelve|12]]", "[[twelveth|12º]]"],
           "correctAnswer": 0,
           "explanation": "El ordinal de 12 es 'twelfth' (con 'f')."
@@ -360,7 +360,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Fiesta de Julio",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[His party is on July 4th|Su fiesta es el Julio 4]].",
+      "correctSentence": "[[His|Su]] [[party|fiesta]] [[is|es]] [[on|el]] [[July|Julio]] [[4th|4]].",
       "words": ["[[His|Su]]", "[[party|fiesta]]", "[[is|es]]", "[[on|el]]", "[[July|Julio]]", "[[4th|4]]."],
       "explanation": "Usamos 'on' para fechas concretas."
     },
@@ -379,7 +379,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición.",
       "questions": [
         {
-          "question": "[[The meeting is|La reunión es]] _______ [[September|Septiembre]].",
+          "question": "[[The|La]] [[meeting|reunión]] [[is|es]] _______ [[September|Septiembre]].",
           "options": ["[[in|en]]", "[[on|el]]", "[[at|a]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'in' solo con el mes."
@@ -399,7 +399,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Inicio de Clases",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[School starts in September|La escuela comienza en Septiembre]].",
+      "correctSentence": "[[School|La escuela]] [[starts|comienza]] [[in|en]] [[September|Septiembre]].",
       "words": ["[[School|La escuela]]", "[[starts|comienza]]", "[[in|en]]", "[[September|Septiembre]]."],
       "explanation": "Estructura simple para eventos recurrentes."
     },
@@ -418,7 +418,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el número ordinal correcto.",
       "questions": [
         {
-          "question": "[[September is the|Septiembre es el]] (_____) [[month|mes]].",
+          "question": "[[September|Septiembre]] [[is|es]] [[the|el]] (_____) [[month|mes]].",
           "options": ["[[ninth|noveno]]", "[[nineth|error]]", "[[nineth|error]]"],
           "correctAnswer": 0,
           "explanation": "El ordinal de 9 es 'ninth' (sin la 'e')."
@@ -440,7 +440,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta del ordinal.",
       "questions": [
         {
-          "question": "[[Today is the March|Hoy es el]] _______ [[of|de Marzo]].",
+          "question": "[[Today|Hoy]] [[is|es]] [[the|el]] _______ [[of|de]] [[March|Marzo]].",
           "options": ["[[twenty-first|21º]]", "[[twenty-one|21]]", "[[twenty-onest|21º]]"],
           "correctAnswer": 0,
           "explanation": "21st se escribe 'twenty-first'."
@@ -460,7 +460,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Halloween",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[Halloween is on October 31st|Halloween es el Octubre 31]].",
+      "correctSentence": "[[Halloween|Halloween]] [[is|es]] [[on|el]] [[October|Octubre]] [[31st|31]].",
       "words": ["[[Halloween|Halloween]]", "[[is|es]]", "[[on|el]]", "[[October|Octubre]]", "[[31st|31]]."],
       "explanation": "Último día de octubre."
     },
@@ -479,7 +479,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "_______ [[is the exam|es el examen]]?",
+          "question": "_______ [[is|es]] [[the|el]] [[exam|examen]]?",
           "options": ["[[When|Cuándo]]", "[[What|Qué]]", "[[Where|Dónde]]"],
           "correctAnswer": 0,
           "explanation": "Preguntamos por la fecha del examen."
@@ -501,7 +501,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el mes correcto.",
       "questions": [
         {
-          "question": "[[Spring starts in|Primavera comienza en]] (_____) .",
+          "question": "[[Spring|Primavera]] [[starts|comienza]] [[in|en]] (_____) .",
           "options": ["[[March|Marzo]]", "[[April|Abril]]", "[[May|Mayo]]"],
           "correctAnswer": 0,
           "explanation": "La primavera suele comenzar en marzo."
@@ -523,7 +523,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Completa con el mes que falta.",
       "questions": [
         {
-          "question": "[[June, July and|Junio, Julio y]] (_____) [[are in summer|son en verano]].",
+          "question": "[[June,|Junio,]] [[July|Julio]] [[and|y]] (_____) [[are|son]] [[in|en]] [[summer|verano]].",
           "options": ["[[August|Agosto]]", "[[September|Septiembre]]", "[[October|Octubre]]"],
           "correctAnswer": 0,
           "explanation": "Junio, julio y agosto son los meses típicos de verano."
@@ -545,7 +545,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el mes de inicio del otoño.",
       "questions": [
         {
-          "question": "[[Autumn starts in|Otoño comienza en]] (_____) .",
+          "question": "[[Autumn|Otoño]] [[starts|comienza]] [[in|en]] (_____) .",
           "options": ["[[September|Septiembre]]", "[[October|Octubre]]", "[[November|Noviembre]]"],
           "correctAnswer": 0,
           "explanation": "El otoño comienza en septiembre en el hemisferio norte."
@@ -565,7 +565,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mes Favorito",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[My favorite month is May|Mi favorito mes es Mayo]].",
+      "correctSentence": "[[My|Mi]] [[favorite|favorito]] [[month|mes]] [[is|es]] [[May|Mayo]].",
       "words": ["[[May|Mayo]].", "[[is|es]]", "[[month|mes]]", "[[favorite|favorito]]", "[[My|Mi]]"],
       "explanation": "Expresa tu preferencia personal."
     },
@@ -584,7 +584,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el número ordinal.",
       "questions": [
         {
-          "question": "[[February is the|Febrero es el]] (_____) [[month|mes]].",
+          "question": "[[February|Febrero]] [[is|es]] [[the|el]] (_____) [[month|mes]].",
           "options": ["[[second|segundo]]", "[[third|tercero]]", "[[first|primer]]"],
           "correctAnswer": 0,
           "explanation": "Febrero es el segundo mes del año."
@@ -606,7 +606,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el número ordinal.",
       "questions": [
         {
-          "question": "[[March is the|Marzo es el]] (_____) [[month|mes]].",
+          "question": "[[March|Marzo]] [[is|es]] [[the|el]] (_____) [[month|mes]].",
           "options": ["[[third|tercero]]", "[[fourth|cuarto]]", "[[second|segundo]]"],
           "correctAnswer": 0,
           "explanation": "Marzo es el tercer mes del año."
@@ -626,7 +626,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cuarto Mes",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[April is the fourth month|Abril es el cuarto mes]].",
+      "correctSentence": "[[April|Abril]] [[is|es]] [[the|el]] [[fourth|cuarto]] [[month|mes]].",
       "words": ["[[month|mes]].", "[[fourth|cuarto]]", "[[the|el]]", "[[is|es]]", "[[April|Abril]]"],
       "explanation": "Abril es el mes número cuatro."
     },
@@ -645,7 +645,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "¿Qué viene después de sixth?",
       "questions": [
         {
-          "question": "[[What comes after sixth|Qué viene después de sexto]]?",
+          "question": "[[What|Qué]] [[comes|viene]] [[after|después de]] [[sixth|sexto]]?",
           "options": ["[[seventh|séptimo]]", "[[fifth|quinto]]", "[[eighth|octavo]]"],
           "correctAnswer": 0,
           "explanation": "Séptimo (seventh) sigue a sexto (sixth)."
@@ -665,7 +665,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mes Once",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[November is the eleventh month|Noviembre es el undécimo mes]].",
+      "correctSentence": "[[November|Noviembre]] [[is|es]] [[the|el]] [[eleventh|undécimo]] [[month|mes]].",
       "words": ["[[month|mes]].", "[[eleventh|undécimo]]", "[[the|el]]", "[[is|es]]", "[[November|Noviembre]]"],
       "explanation": "Ordinal de once es 'eleventh'."
     },
@@ -684,7 +684,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta.",
       "questions": [
         {
-          "question": "[[Today is the|Hoy es el]] (_____) [[of June|de junio]].",
+          "question": "[[Today|Hoy]] [[is|es]] [[the|el]] (_____) [[of|de]] [[June|Junio]].",
           "options": ["[[first|1º]]", "[[one|1]]", "[[oneth|error]]"],
           "correctAnswer": 0,
           "explanation": "Para el primer día del mes usamos el ordinal 'first'."
@@ -706,7 +706,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el ordinal para el día 2.",
       "questions": [
         {
-          "question": "[[Is it the|Es el]] (_____) [[today|hoy]]?",
+          "question": "[[Is|Es]] [[it|ello]] [[the|el]] (_____) [[today|hoy]]?",
           "options": ["[[second|2º]]", "[[two|2]]", "[[twoth|error]]"],
           "correctAnswer": 0,
           "explanation": "El ordinal de 2 es 'second'."
@@ -726,7 +726,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cumpleaños en Agosto",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[My birthday is in August|Mi cumpleaños es en Agosto]].",
+      "correctSentence": "[[My|Mi]] [[birthday|cumpleaños]] [[is|es]] [[in|en]] [[August|Agosto]].",
       "words": ["[[August|Agosto]].", "[[in|en]]", "[[is|es]]", "[[birthday|cumpleaños]]", "[[My|Mi]]"],
       "explanation": "Usamos 'in' para meses sin un día concreto."
     },
@@ -745,7 +745,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[What is the|Cuál es la]] (_____) [[of your birthday|de tu cumpleaños]]?",
+          "question": "[[What|Cuál]] [[is|es]] [[the|la]] (_____) [[of|de]] [[your|tu]] [[birthday|cumpleaños]]?",
           "options": ["[[date|fecha]]", "[[day|día]]", "[[month|mes]]"],
           "correctAnswer": 0,
           "explanation": "'Date' se refiere a la fecha completa (día y mes)."
@@ -765,7 +765,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Año Nuevo",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[New Year is on January 1st|Año Nuevo es el Enero 1]].",
+      "correctSentence": "[[New|Año]] [[Year|Nuevo]] [[is|es]] [[on|el]] [[January|Enero]] [[1st|1]].",
       "words": ["[[1st|1]].", "[[January|Enero]]", "[[on|el]]", "[[is|es]]", "[[Year|Año]]", "[[New|Nuevo]]"],
       "explanation": "Primer día del año."
     },
@@ -784,7 +784,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición para meses.",
       "questions": [
         {
-          "question": "[[I am traveling|Yo estoy viajando]] (_____) [[October|Octubre]].",
+          "question": "[[I|Yo]] [[am|estoy]] [[traveling|viajando]] (_____) [[October|Octubre]].",
           "options": ["[[in|en]]", "[[on|el]]", "[[at|en (hora)]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'in' delante de los meses del año."
@@ -806,7 +806,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición para días.",
       "questions": [
         {
-          "question": "[[Our meeting is|Nuestra reunión es]] (_____) [[Monday morning|Lunes mañana]].",
+          "question": "[[Our|Nuestra]] [[meeting|reunión]] [[is|es]] (_____) [[Monday|Lunes]] [[morning|mañana]].",
           "options": ["[[on|el]]", "[[in|en]]", "[[at|en]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'on' para días de la semana y partes de días específicos."
@@ -826,7 +826,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Terminar el Trabajo",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[He finishes work at 5 o'clock|Él termina el trabajo a las 5]].",
+      "correctSentence": "[[He|Él]] [[finishes|termina]] [[work|el trabajo]] [[at|a las]] [[5|5]] [[o'clock|punto]].",
       "words": ["[[o'clock|punto]].", "[[5|5]]", "[[at|a las]]", "[[work|trabajo]]", "[[finishes|termina]]", "[[He|Él]]"],
       "explanation": "Usamos 'at' para horas específicas."
     },
@@ -845,7 +845,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición para años.",
       "questions": [
         {
-          "question": "[[I was born|Yo nací]] (_____) [[1995|1995]].",
+          "question": "[[I|Yo]] [[was|fui]] [[born|nacido]] (_____) [[1995|1995]].",
           "options": ["[[in|en]]", "[[on|el]]", "[[at|en]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'in' para años."
@@ -867,7 +867,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "¿Cuál es el penúltimo mes del año?",
       "questions": [
         {
-          "question": "[[Which is the|Cuál es el]] (_____) [[month of the year|mes del año]]?",
+          "question": "[[Which|Cuál]] [[is|es]] [[the|el]] (_____) [[month|mes]] [[of|de]] [[the|el]] [[year|año]]?",
           "options": ["[[November|Noviembre]]", "[[December|Diciembre]]", "[[October|Octubre]]"],
           "correctAnswer": 0,
           "explanation": "Noviembre (eleventh month) es el mes antes del último."
@@ -889,7 +889,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige el ordinal para el número 1.",
       "questions": [
         {
-          "question": "[[One becomes|Uno se convierte en]] (_____) .",
+          "question": "[[One|Uno]] [[becomes|se convierte en]] (_____) .",
           "options": ["[[first|primero]]", "[[one|uno]]", "[[oneth|error]]"],
           "correctAnswer": 0,
           "explanation": "El ordinal de 1 es 'first'."
@@ -909,7 +909,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "22 de Abril",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[Today is the 22nd of April|Hoy es el 22 de Abril]].",
+      "correctSentence": "[[Today|Hoy]] [[is|es]] [[the|el]] [[22nd|22]] [[of|de]] [[April|Abril]].",
       "words": ["[[April|Abril]].", "[[of|de]]", "[[22nd|22]]", "[[the|el]]", "[[is|es]]", "[[Today|Hoy]]"],
       "explanation": "22nd se lee 'twenty-second'."
     },
@@ -928,7 +928,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición correcta.",
       "questions": [
         {
-          "question": "[[The anniversary is|El aniversario es]] (_____) [[June 10th|10 de Junio]].",
+          "question": "[[The|El]] [[anniversary|aniversario]] [[is|es]] (_____) [[June|Junio]] [[10th|10]].",
           "options": ["[[on|el]]", "[[in|en]]", "[[at|en]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'on' para fechas específicas con día y mes."
@@ -948,7 +948,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "¿En qué mes estamos?",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[What month is it now|Qué mes es ello ahora]]?",
+      "correctSentence": "[[What|Qué]] [[month|mes]] [[is|es]] [[it|ello]] [[now|ahora]]?",
       "words": ["[[now|ahora]]?", "[[it|ello]]", "[[is|es]]", "[[month|mes]]", "[[What|Qué]]"],
       "explanation": "Pregunta para saber el mes actual."
     },
@@ -967,7 +967,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición correcta.",
       "questions": [
         {
-          "question": "[[See you|Nos vemos]] (_____) [[Tuesday|Martes]]!",
+          "question": "[[See|Ver]] [[you|te]] (_____) [[Tuesday|Martes]]!",
           "options": ["[[on|el]]", "[[in|en]]", "[[at|en]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'on' con días de la semana."
@@ -987,7 +987,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "content": {
       "title": "Agosto Caluroso",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[August is a very hot month|Agosto es un muy caluroso mes]].",
+      "correctSentence": "[[August|Agosto]] [[is|es]] [[a|un]] [[very|muy]] [[hot|caluroso]] [[month|mes]].",
       "words": ["[[month|mes]].", "[[hot|caluroso]]", "[[very|muy]]", "[[a|un]]", "[[is|es]]", "[[August|Agosto]]"],
       "explanation": "Descripción de un mes de verano."
     },
@@ -1006,7 +1006,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de 31st.",
       "questions": [
         {
-          "question": "[[The last day of October is the|El último día de Octubre es el]] (_____) .",
+          "question": "[[The|El]] [[last|último]] [[day|día]] [[of|de]] [[October|Octubre]] [[is|es]] [[the|el]] (_____) .",
           "options": ["[[thirty-first|31º]]", "[[thirty-one|31]]", "[[thirty-oneth|error]]"],
           "correctAnswer": 0,
           "explanation": "31st se escribe 'thirty-first'."
@@ -1022,7 +1022,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[My name is David,|Mi nombre es David,]] [[and I want to tell you|y quiero decirte]] [[about my year.|sobre mi año.]] [[January is the first month,|Enero es el primer mes,]] [[and it is very cold.|y hace mucho frío.]] [[My favorite month|Mi mes favorito]] [[is June|es junio]] [[because it's my birthday!|¡porque es mi cumpleaños!]] [[My birthday is on|Mi cumpleaños es el]] [[June 15th.|15 de junio.]] [[In July and August,|En julio y agosto,]] [[there is no school,|no hay escuela,]] [[and we go to the beach.|y vamos a la playa.]] [[September is the ninth month,|Septiembre es el noveno mes,]] [[and school starts again.|y la escuela empieza de nuevo.]] [[Then, in October,|Luego, en octubre,]] [[we celebrate Halloween|celebramos Halloween]] [[on the 31st.|el día 31.]] [[Finally, December is|Finalmente, diciembre es]] [[the twelfth and last month.|el duodécimo y último mes.]] [[Christmas is on|Navidad es el]] [[December 25th,|25 de diciembre,]] [[and I love spending time|y me encanta pasar tiempo]] [[with my family.|con mi familia.]]",
+    "transcript": "[[My|Mi]] [[name|nombre]] [[is|es]] [[David,|David,]] [[and|y]] [[I|yo]] [[want|quiero]] [[to|a]] [[tell|decir]] [[you|te]] [[about|sobre]] [[my|mi]] [[year.|año.]] [[January|Enero]] [[is|es]] [[the|el]] [[first|primer]] [[month,|mes,]] [[and|y]] [[it|ello]] [[is|es]] [[very|muy]] [[cold.|frío.]] [[My|Mi]] [[favorite|favorito]] [[month|mes]] [[is|es]] [[June|junio]] [[because|porque]] [[it's|es]] [[my|mi]] [[birthday!|cumpleaños!]] [[My|Mi]] [[birthday|cumpleaños]] [[is|es]] [[on|el]] [[June|junio]] [[15th.|15.]] [[In|En]] [[July|julio]] [[and|y]] [[August,|agosto,]] [[there|allí]] [[is|es]] [[no|ninguna]] [[school,|escuela,]] [[and|y]] [[we|nosotros]] [[go|vamos]] [[to|a]] [[the|la]] [[beach.|playa.]] [[September|Septiembre]] [[is|es]] [[the|el]] [[ninth|noveno]] [[month,|mes,]] [[and|y]] [[school|escuela]] [[starts|empieza]] [[again.|de nuevo.]] [[Then,|Luego,]] [[in|en]] [[October,|octubre,]] [[we|nosotros]] [[celebrate|celebramos]] [[Halloween|Halloween]] [[on|el]] [[the|el]] [[31st.|31.]] [[Finally,|Finalmente,]] [[December|diciembre]] [[is|es]] [[the|el]] [[twelfth|duodécimo]] [[and|y]] [[last|último]] [[month.|mes.]] [[Christmas|Navidad]] [[is|es]] [[on|el]] [[December|diciembre]] [[25th,|25,]] [[and|y]] [[I|yo]] [[love|amo]] [[spending|pasar]] [[time|tiempo]] [[with|con]] [[my|mi]] [[family.|familia.]]",
     "content": {
       "title": "[[Reading: David's Year|Lectura: El año de David]]",
       "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
@@ -1044,7 +1044,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[My name is David,|Mi nombre es David,]] [[and I want to tell you|y quiero decirte]] [[about my year.|sobre mi año.]] [[January is the first month,|Enero es el primer mes,]] [[and it is very cold.|y hace mucho frío.]] [[My favorite month|Mi mes favorito]] [[is June|es junio]] [[because it's my birthday!|¡porque es mi cumpleaños!]] [[My birthday is on|Mi cumpleaños es el]] [[June 15th.|15 de junio.]] [[In July and August,|En julio y agosto,]] [[there is no school,|no hay escuela,]] [[and we go to the beach.|y vamos a la playa.]] [[September is the ninth month,|Septiembre es el noveno mes,]] [[and school starts again.|y la escuela empieza de nuevo.]] [[Then, in October,|Luego, en octubre,]] [[we celebrate Halloween|celebramos Halloween]] [[on the 31st.|el día 31.]] [[Finally, December is|Finalmente, diciembre es]] [[the twelfth and last month.|el duodécimo y último mes.]] [[Christmas is on|Navidad es el]] [[December 25th,|25 de diciembre,]] [[and I love spending time|y me encanta pasar tiempo]] [[with my family.|con mi familia.]]",
+    "transcript": "[[My|Mi]] [[name|nombre]] [[is|es]] [[David,|David,]] [[and|y]] [[I|yo]] [[want|quiero]] [[to|a]] [[tell|decir]] [[you|te]] [[about|sobre]] [[my|mi]] [[year.|año.]] [[January|Enero]] [[is|es]] [[the|el]] [[first|primer]] [[month,|mes,]] [[and|y]] [[it|ello]] [[is|es]] [[very|muy]] [[cold.|frío.]] [[My|Mi]] [[favorite|favorito]] [[month|mes]] [[is|es]] [[June|junio]] [[because|porque]] [[it's|es]] [[my|mi]] [[birthday!|cumpleaños!]] [[My|Mi]] [[birthday|cumpleaños]] [[is|es]] [[on|el]] [[June|junio]] [[15th.|15.]] [[In|En]] [[July|julio]] [[and|y]] [[August,|agosto,]] [[there|allí]] [[is|es]] [[no|ninguna]] [[school,|escuela,]] [[and|y]] [[we|nosotros]] [[go|vamos]] [[to|a]] [[the|la]] [[beach.|playa.]] [[September|Septiembre]] [[is|es]] [[the|el]] [[ninth|noveno]] [[month,|mes,]] [[and|y]] [[school|escuela]] [[starts|empieza]] [[again.|de nuevo.]] [[Then,|Luego,]] [[in|en]] [[October,|octubre,]] [[we|nosotros]] [[celebrate|celebramos]] [[Halloween|Halloween]] [[on|el]] [[the|el]] [[31st.|31.]] [[Finally,|Finalmente,]] [[December|diciembre]] [[is|es]] [[the|el]] [[twelfth|duodécimo]] [[and|y]] [[last|último]] [[month.|mes.]] [[Christmas|Navidad]] [[is|es]] [[on|el]] [[December|diciembre]] [[25th,|25,]] [[and|y]] [[I|yo]] [[love|amo]] [[spending|pasar]] [[time|tiempo]] [[with|con]] [[my|mi]] [[family.|familia.]]",
     "content": {
       "title": "[[Reading: School and Holidays|Lectura: Escuela y vacaciones]]",
       "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
@@ -1066,7 +1066,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[My name is David,|Mi nombre es David,]] [[and I want to tell you|y quiero decirte]] [[about my year.|sobre mi año.]] [[January is the first month,|Enero es el primer mes,]] [[and it is very cold.|y hace mucho frío.]] [[My favorite month|Mi mes favorito]] [[is June|es junio]] [[because it's my birthday!|¡porque es mi cumpleaños!]] [[My birthday is on|Mi cumpleaños es el]] [[June 15th.|15 de junio.]] [[In July and August,|En julio y agosto,]] [[there is no school,|no hay escuela,]] [[and we go to the beach.|y vamos a la playa.]] [[September is the ninth month,|Septiembre es el noveno mes,]] [[and school starts again.|y la escuela empieza de nuevo.]] [[Then, in October,|Luego, en octubre,]] [[we celebrate Halloween|celebramos Halloween]] [[on the 31st.|el día 31.]] [[Finally, December is|Finalmente, diciembre es]] [[the twelfth and last month.|el duodécimo y último mes.]] [[Christmas is on|Navidad es el]] [[December 25th,|25 de diciembre,]] [[and I love spending time|y me encanta pasar tiempo]] [[with my family.|con mi familia.]]",
+    "transcript": "[[My|Mi]] [[name|nombre]] [[is|es]] [[David,|David,]] [[and|y]] [[I|yo]] [[want|quiero]] [[to|a]] [[tell|decir]] [[you|te]] [[about|sobre]] [[my|mi]] [[year.|año.]] [[January|Enero]] [[is|es]] [[the|el]] [[first|primer]] [[month,|mes,]] [[and|y]] [[it|ello]] [[is|es]] [[very|muy]] [[cold.|frío.]] [[My|Mi]] [[favorite|favorito]] [[month|mes]] [[is|es]] [[June|junio]] [[because|porque]] [[it's|es]] [[my|mi]] [[birthday!|cumpleaños!]] [[My|Mi]] [[birthday|cumpleaños]] [[is|es]] [[on|el]] [[June|junio]] [[15th.|15.]] [[In|En]] [[July|julio]] [[and|y]] [[August,|agosto,]] [[there|allí]] [[is|es]] [[no|ninguna]] [[school,|escuela,]] [[and|y]] [[we|nosotros]] [[go|vamos]] [[to|a]] [[the|la]] [[beach.|playa.]] [[September|Septiembre]] [[is|es]] [[the|el]] [[ninth|noveno]] [[month,|mes,]] [[and|y]] [[school|escuela]] [[starts|empieza]] [[again.|de nuevo.]] [[Then,|Luego,]] [[in|en]] [[October,|octubre,]] [[we|nosotros]] [[celebrate|celebramos]] [[Halloween|Halloween]] [[on|el]] [[the|el]] [[31st.|31.]] [[Finally,|Finalmente,]] [[December|diciembre]] [[is|es]] [[the|el]] [[twelfth|duodécimo]] [[and|y]] [[last|último]] [[month.|mes.]] [[Christmas|Navidad]] [[is|es]] [[on|el]] [[December|diciembre]] [[25th,|25,]] [[and|y]] [[I|yo]] [[love|amo]] [[spending|pasar]] [[time|tiempo]] [[with|con]] [[my|mi]] [[family.|familia.]]",
     "content": {
       "title": "[[Reading: December|Lectura: Diciembre]]",
       "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
@@ -1088,7 +1088,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[The school year|El año escolar]] [[is full of events.|está lleno de eventos.]] [[In February,|En febrero,]] [[on the 14th,|el día 14,]] [[we have Valentine's Day.|tenemos el día de San Valentín.]] [[The first exams|Los primeros exámenes]] [[are in March.|son en marzo.]] [[March is the third month.|Marzo es el tercer mes.]] [[Then, spring break|Luego, las vacaciones de primavera]] [[is usually in April.|suelen ser en abril.]] [[In May,|En mayo,]] [[on the first day,|el primer día,]] [[we celebrate Labor Day.|celebramos el día del trabajo.]] [[June is the|Junio es el]] [[sixth month,|sexto mes,]] [[and it's the end|y es el final]] [[of the first semester.|del primer semestre.]] [[Students are very happy|Los estudiantes están muy felices]] [[when June arrives.|cuando llega junio.]]",
+    "transcript": "[[The|El]] [[school|escolar]] [[year|año]] [[is|está]] [[full|lleno]] [[of|de]] [[events.|eventos.]] [[In|En]] [[February,|febrero,]] [[on|el]] [[the|el]] [[14th,|14,]] [[we|nosotros]] [[have|tenemos]] [[Valentine's|San Valentín]] [[Day.|Día.]] [[The|Los]] [[first|primeros]] [[exams|exámenes]] [[are|son]] [[in|en]] [[March.|marzo.]] [[March|Marzo]] [[is|es]] [[the|el]] [[third|tercer]] [[month.|mes.]] [[Then,|Luego,]] [[spring|primavera]] [[break|vacaciones]] [[is|es]] [[usually|normalmente]] [[in|en]] [[April.|abril.]] [[In|En]] [[May,|mayo,]] [[on|el]] [[the|el]] [[first|primer]] [[day,|día,]] [[we|nosotros]] [[celebrate|celebramos]] [[Labor|Trabajo]] [[Day.|Día.]] [[June|Junio]] [[is|es]] [[the|el]] [[sixth|sexto]] [[month,|mes,]] [[and|y]] [[it's|es]] [[the|el]] [[end|final]] [[of|de]] [[the|el]] [[first|primer]] [[semester.|semestre.]] [[Students|Estudiantes]] [[are|están]] [[very|muy]] [[happy|felices]] [[when|cuando]] [[June|junio]] [[arrives.|llega.]]",
     "content": {
       "title": "[[Reading: School Calendar|Lectura: Calendario escolar]]",
       "instructions": "[[Read about the school year and answer.|Lee sobre el año escolar y responde.]]",
@@ -1110,7 +1110,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[The school year|El año escolar]] [[is full of events.|está lleno de eventos.]] [[In February,|En febrero,]] [[on the 14th,|el día 14,]] [[we have Valentine's Day.|tenemos el día de San Valentín.]] [[The first exams|Los primeros exámenes]] [[are in March.|son en marzo.]] [[March is the third month.|Marzo es el tercer mes.]] [[Then, spring break|Luego, las vacaciones de primavera]] [[is usually in April.|suelen ser en abril.]] [[In May,|En mayo,]] [[on the first day,|el primer día,]] [[we celebrate Labor Day.|celebramos el día del trabajo.]] [[June is the|Junio es el]] [[sixth month,|sexto mes,]] [[and it's the end|y es el final]] [[of the first semester.|del primer semestre.]] [[Students are very happy|Los estudiantes están muy felices]] [[when June arrives.|cuando llega junio.]]",
+    "transcript": "[[The|El]] [[school|escolar]] [[year|año]] [[is|está]] [[full|lleno]] [[of|de]] [[events.|eventos.]] [[In|En]] [[February,|febrero,]] [[on|el]] [[the|el]] [[14th,|14,]] [[we|nosotros]] [[have|tenemos]] [[Valentine's|San Valentín]] [[Day.|Día.]] [[The|Los]] [[first|primeros]] [[exams|exámenes]] [[are|son]] [[in|en]] [[March.|marzo.]] [[March|Marzo]] [[is|es]] [[the|el]] [[third|tercer]] [[month.|mes.]] [[Then,|Luego,]] [[spring|primavera]] [[break|vacaciones]] [[is|es]] [[usually|normalmente]] [[in|en]] [[April.|abril.]] [[In|En]] [[May,|mayo,]] [[on|el]] [[the|el]] [[first|primer]] [[day,|día,]] [[we|nosotros]] [[celebrate|celebramos]] [[Labor|Trabajo]] [[Day.|Día.]] [[June|Junio]] [[is|es]] [[the|el]] [[sixth|sexto]] [[month,|mes,]] [[and|y]] [[it's|es]] [[the|el]] [[end|final]] [[of|de]] [[the|el]] [[first|primer]] [[semester.|semestre.]] [[Students|Estudiantes]] [[are|están]] [[very|muy]] [[happy|felices]] [[when|cuando]] [[June|junio]] [[arrives.|llega.]]",
     "content": {
       "title": "[[Reading: Special Days|Lectura: Días especiales]]",
       "instructions": "[[Read about the school year and answer.|Lee sobre el año escolar y responde.]]",
@@ -1132,7 +1132,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[The school year|El año escolar]] [[is full of events.|está lleno de eventos.]] [[In February,|En febrero,]] [[on the 14th,|el día 14,]] [[we have Valentine's Day.|tenemos el día de San Valentín.]] [[The first exams|Los primeros exámenes]] [[are in March.|son en marzo.]] [[March is the third month.|Marzo es el tercer mes.]] [[Then, spring break|Luego, las vacaciones de primavera]] [[is usually in April.|suelen ser en abril.]] [[In May,|En mayo,]] [[on the first day,|el primer día,]] [[we celebrate Labor Day.|celebramos el día del trabajo.]] [[June is the|Junio es el]] [[sixth month,|sexto mes,]] [[and it's the end|y es el final]] [[of the first semester.|del primer semestre.]] [[Students are very happy|Los estudiantes están muy felices]] [[when June arrives.|cuando llega junio.]]",
+    "transcript": "[[The|El]] [[school|escolar]] [[year|año]] [[is|está]] [[full|lleno]] [[of|de]] [[events.|eventos.]] [[In|En]] [[February,|febrero,]] [[on|el]] [[the|el]] [[14th,|14,]] [[we|nosotros]] [[have|tenemos]] [[Valentine's|San Valentín]] [[Day.|Día.]] [[The|Los]] [[first|primeros]] [[exams|exámenes]] [[are|son]] [[in|en]] [[March.|marzo.]] [[March|Marzo]] [[is|es]] [[the|el]] [[third|tercer]] [[month.|mes.]] [[Then,|Luego,]] [[spring|primavera]] [[break|vacaciones]] [[is|es]] [[usually|normalmente]] [[in|en]] [[April.|abril.]] [[In|En]] [[May,|mayo,]] [[on|el]] [[the|el]] [[first|primer]] [[day,|día,]] [[we|nosotros]] [[celebrate|celebramos]] [[Labor|Trabajo]] [[Day.|Día.]] [[June|Junio]] [[is|es]] [[the|el]] [[sixth|sexto]] [[month,|mes,]] [[and|y]] [[it's|es]] [[the|el]] [[end|final]] [[of|de]] [[the|el]] [[first|primer]] [[semester.|semestre.]] [[Students|Estudiantes]] [[are|están]] [[very|muy]] [[happy|felices]] [[when|cuando]] [[June|junio]] [[arrives.|llega.]]",
     "content": {
       "title": "[[Reading: Months and Order|Lectura: Meses y orden]]",
       "instructions": "[[Read about the school year and answer.|Lee sobre el año escolar y responde.]]",
@@ -1154,7 +1154,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Today is|Hoy es]] [[October 10th.|10 de octubre.]] [[It is a|Es un]] [[very important day|día muy importante]] [[for me.|para mí.]] [[Why?|¿Por qué?]] [[Because today is|Porque hoy es]] [[the tenth day|el décimo día]] [[of the tenth month,|del décimo mes,]] [[and I have|y tengo]] [[a big job interview.|una gran entrevista de trabajo.]] [[The interview is|La entrevista es]] [[at ten o'clock.|a las diez en punto.]] [[I am|Estoy]] [[a bit nervous,|un poco nervioso,]] [[but I am|pero estoy]] [[ready.|listo.]] [[My last job|Mi último trabajo]] [[started in January,|empezó en enero,]] [[and it finished|y terminó]] [[last August.|el pasado agosto.]] [[I hope|Espero]] [[this new job|este nuevo trabajo]] [[starts in November.|empiece en noviembre.]]",
+    "transcript": "[[Today|Hoy]] [[is|es]] [[October|octubre]] [[10th.|10.]] [[It|Ello]] [[is|es]] [[a|un]] [[very|muy]] [[important|importante]] [[day|día]] [[for|para]] [[me.|mí.]] [[Why?|¿Por qué?]] [[Because|Porque]] [[today|hoy]] [[is|es]] [[the|el]] [[tenth|décimo]] [[day|día]] [[of|de]] [[the|el]] [[tenth|décimo]] [[month,|mes,]] [[and|y]] [[I|yo]] [[have|tengo]] [[a|una]] [[big|gran]] [[job|trabajo]] [[interview.|entrevista.]] [[The|La]] [[interview|entrevista]] [[is|es]] [[at|a las]] [[ten|diez]] [[o'clock.|en punto.]] [[I|Yo]] [[am|estoy]] [[a|un]] [[bit|poco]] [[nervous,|nervioso,]] [[but|pero]] [[I|yo]] [[am|estoy]] [[ready.|listo.]] [[My|Mi]] [[last|último]] [[job|trabajo]] [[started|empezó]] [[in|en]] [[January,|enero,]] [[and|y]] [[it|ello]] [[finished|terminó]] [[last|el pasado]] [[August.|agosto.]] [[I|Yo]] [[hope|espero]] [[this|este]] [[new|nuevo]] [[job|trabajo]] [[starts|empiece]] [[in|en]] [[November.|noviembre.]]",
     "content": {
       "title": "[[Reading: An Important Day|Lectura: Un día importante]]",
       "instructions": "[[Read David's notes and answer.|Lee las notas de David y responde.]]",
@@ -1176,7 +1176,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Today is|Hoy es]] [[October 10th.|10 de octubre.]] [[It is a|Es un]] [[very important day|día muy importante]] [[for me.|para mí.]] [[Why?|¿Por qué?]] [[Because today is|Porque hoy es]] [[the tenth day|el décimo día]] [[of the tenth month,|del décimo mes,]] [[and I have|y tengo]] [[a big job interview.|una gran entrevista de trabajo.]] [[The interview is|La entrevista es]] [[at ten o'clock.|a las diez en punto.]] [[I am|Estoy]] [[a bit nervous,|un poco nervioso,]] [[but I am|pero estoy]] [[ready.|listo.]] [[My last job|Mi último trabajo]] [[started in January,|empezó en enero,]] [[and it finished|y terminó]] [[last August.|el pasado agosto.]] [[I hope|Espero]] [[this new job|este nuevo trabajo]] [[starts in November.|empiece en noviembre.]]",
+    "transcript": "[[Today|Hoy]] [[is|es]] [[October|octubre]] [[10th.|10.]] [[It|Ello]] [[is|es]] [[a|un]] [[very|muy]] [[important|importante]] [[day|día]] [[for|para]] [[me.|mí.]] [[Why?|¿Por qué?]] [[Because|Porque]] [[today|hoy]] [[is|es]] [[the|el]] [[tenth|décimo]] [[day|día]] [[of|de]] [[the|el]] [[tenth|décimo]] [[month,|mes,]] [[and|y]] [[I|yo]] [[have|tengo]] [[a|una]] [[big|gran]] [[job|trabajo]] [[interview.|entrevista.]] [[The|La]] [[interview|entrevista]] [[is|es]] [[at|a las]] [[ten|diez]] [[o'clock.|en punto.]] [[I|Yo]] [[am|estoy]] [[a|un]] [[bit|poco]] [[nervous,|nervioso,]] [[but|pero]] [[I|yo]] [[am|estoy]] [[ready.|listo.]] [[My|Mi]] [[last|último]] [[job|trabajo]] [[started|empezó]] [[in|en]] [[January,|enero,]] [[and|y]] [[it|ello]] [[finished|terminó]] [[last|el pasado]] [[August.|agosto.]] [[I|Yo]] [[hope|espero]] [[this|este]] [[new|nuevo]] [[job|trabajo]] [[starts|empiece]] [[in|en]] [[November.|noviembre.]]",
     "content": {
       "title": "[[Reading: Job Timeline|Lectura: Cronología laboral]]",
       "instructions": "[[Read David's notes and answer.|Lee las notas de David y responde.]]",
@@ -1198,7 +1198,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Every year,|Cada año,]] [[my family|mi familia]] [[plans a trip.|planea un viaje.]] [[In May,|En mayo,]] [[we choose|elegimos]] [[the destination.|el destino.]] [[Then,|Luego,]] [[we book the tickets|reservamos los billetes]] [[in June.|en junio.]] [[Our trip is always|Nuestro viaje es siempre]] [[in the middle of July.|a mediados de julio.]] [[July is the|Julio es el]] [[seventh month.|séptimo mes.]] [[We stay|Nos quedamos]] [[for two weeks.|durante dos semanas.]] [[We return home|Volvemos a casa]] [[at the beginning|al principio]] [[of August.|de agosto.]] [[August is the|Agosto es el]] [[eighth month.|octavo mes.]] [[Then,|Luego,]] [[we have to wait|tenemos que esperar]] [[until next year|hasta el año que viene]] [[to travel again.|para viajar de nuevo.]]",
+    "transcript": "[[Every|Cada]] [[year,|año,]] [[my|mi]] [[family|familia]] [[plans|planea]] [[a|un]] [[trip.|viaje.]] [[In|En]] [[May,|mayo,]] [[we|nosotros]] [[choose|elegimos]] [[the|el]] [[destination.|destino.]] [[Then,|Luego,]] [[we|nosotros]] [[book|reservamos]] [[the|los]] [[tickets|billetes]] [[in|en]] [[June.|junio.]] [[Our|Nuestro]] [[trip|viaje]] [[is|es]] [[always|siempre]] [[in|en]] [[the|el]] [[middle|medio]] [[of|de]] [[July.|julio.]] [[July|Julio]] [[is|es]] [[the|el]] [[seventh|séptimo]] [[month.|mes.]] [[We|Nosotros]] [[stay|quedamos]] [[for|por]] [[two|dos]] [[weeks.|semanas.]] [[We|Nosotros]] [[return|volvemos]] [[home|casa]] [[at|al]] [[the|el]] [[beginning|principio]] [[of|de]] [[August.|agosto.]] [[August|Agosto]] [[is|es]] [[the|el]] [[eighth|octavo]] [[month.|mes.]] [[Then,|Luego,]] [[we|nosotros]] [[have|tenemos]] [[to|que]] [[wait|esperar]] [[until|hasta]] [[next|próximo]] [[year|año]] [[to|a]] [[travel|viajar]] [[again.|de nuevo.]]",
     "content": {
       "title": "[[Reading: Family Trip|Lectura: Viaje familiar]]",
       "instructions": "[[Read about the trip and answer.|Lee sobre el viaje y responde.]]",
@@ -1220,7 +1220,7 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Every year,|Cada año,]] [[my family|mi familia]] [[plans a trip.|planea un viaje.]] [[In May,|En mayo,]] [[we choose|elegimos]] [[the destination.|el destino.]] [[Then,|Luego,]] [[we book the tickets|reservamos los billetes]] [[in June.|en junio.]] [[Our trip is always|Nuestro viaje es siempre]] [[in the middle of July.|a mediados de julio.]] [[July is the|Julio es el]] [[seventh month.|séptimo mes.]] [[We stay|Nos quedamos]] [[for two weeks.|durante dos semanas.]] [[We return home|Volvemos a casa]] [[at the beginning|al principio]] [[of August.|de agosto.]] [[August is the|Agosto es el]] [[eighth month.|octavo mes.]] [[Then,|Luego,]] [[we have to wait|tenemos que esperar]] [[until next year|hasta el año que viene]] [[to travel again.|para viajar de nuevo.]]",
+    "transcript": "[[Every|Cada]] [[year,|año,]] [[my|mi]] [[family|familia]] [[plans|planea]] [[a|un]] [[trip.|viaje.]] [[In|En]] [[May,|mayo,]] [[we|nosotros]] [[choose|elegimos]] [[the|el]] [[destination.|destino.]] [[Then,|Luego,]] [[we|nosotros]] [[book|reservamos]] [[the|los]] [[tickets|billetes]] [[in|en]] [[June.|junio.]] [[Our|Nuestro]] [[trip|viaje]] [[is|es]] [[always|siempre]] [[in|en]] [[the|el]] [[middle|medio]] [[of|de]] [[July.|julio.]] [[July|Julio]] [[is|es]] [[the|el]] [[seventh|séptimo]] [[month.|mes.]] [[We|Nosotros]] [[stay|quedamos]] [[for|por]] [[two|dos]] [[weeks.|semanas.]] [[We|Nosotros]] [[return|volvemos]] [[home|casa]] [[at|al]] [[the|el]] [[beginning|principio]] [[of|de]] [[August.|agosto.]] [[August|Agosto]] [[is|es]] [[the|el]] [[eighth|octavo]] [[month.|mes.]] [[Then,|Luego,]] [[we|nosotros]] [[have|tenemos]] [[to|que]] [[wait|esperar]] [[until|hasta]] [[next|próximo]] [[year|año]] [[to|a]] [[travel|viajar]] [[again.|de nuevo.]]",
     "content": {
       "title": "[[Reading: Trip Duration|Lectura: Duración del viaje]]",
       "instructions": "[[Read about the trip and answer.|Lee sobre el viaje y responde.]]",

@@ -13,7 +13,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la parte del cuerpo que está arriba de todo.",
       "questions": [
         {
-          "question": "[[Which is at the top|Cuál está arriba]]?",
+          "question": "[[Which|Cuál]] [[is|está]] [[at|a]] [[the|la]] [[top|cima]]?",
           "options": ["[[Head|Cabeza]]", "[[Knees|Rodillas]]", "[[Toes|Dedos de los pies]]"],
           "correctAnswer": 0,
           "explanation": "La cabeza (head) es la parte más alta del cuerpo."
@@ -35,7 +35,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "¿Con qué parte del cuerpo vemos?",
       "questions": [
         {
-          "question": "[[I see with my|Yo veo con mis]] (_____) .",
+          "question": "[[I|Yo]] [[see|veo]] [[with|con]] [[my|mis]] (_____) .",
           "options": ["[[eyes|ojos]]", "[[nose|nariz]]", "[[mouth|boca]]"],
           "correctAnswer": 0,
           "explanation": "Usamos los ojos (eyes) para ver."
@@ -57,7 +57,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma contraída de 'I have got'.",
       "questions": [
         {
-          "question": "(_____) [[a headache|un dolor de cabeza]].",
+          "question": "(_____) [[a|un]] [[headache|dolor de cabeza]].",
           "options": ["[[I've got|Tengo]]", "[[I got|Tengo (incorrecto)]]", "[[I am got|Tengo (incorrecto)]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'I've got' (I have got) para síntomas médicos."
@@ -79,7 +79,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el modal para dar un consejo positivo.",
       "questions": [
         {
-          "question": "[[You a doctor|Tú]] (_____) [[see|ver un médico]].",
+          "question": "[[You|Tú]] (_____) [[see|ver]] [[a|un]] [[doctor|médico]].",
           "options": ["[[should|deberías]]", "[[shouldn't|no deberías]]", "[[can't|no puedes]]"],
           "correctAnswer": 0,
           "explanation": "'Should' se usa para dar consejos o sugerencias."
@@ -101,7 +101,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el modal para una prohibición o consejo negativo.",
       "questions": [
         {
-          "question": "[[You to work if you are sick|Tú]] (_____) [[go|ir al trabajo si tú estás enfermo]].",
+          "question": "[[You|Tú]] (_____) [[go|ir]] [[to|al]] [[work|trabajo]] [[if|si]] [[you|tú]] [[are|estás]] [[sick|enfermo]].",
           "options": ["[[shouldn't|no deberías]]", "[[should|deberías]]", "[[must|debes]]"],
           "correctAnswer": 0,
           "explanation": "'Shouldn't' es la forma negativa para aconsejar no hacer algo."
@@ -121,7 +121,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Dolor de Garganta",
       "instructions": "Ordena la oración sobre el síntoma de ella.",
-      "correctSentence": "[[She has got a sore throat|Ella tiene conseguido un dolorida garganta]].",
+      "correctSentence": "[[She|Ella]] [[has|tiene]] [[got|conseguido]] [[a|un]] [[sore|dolorida]] [[throat|garganta]].",
       "words": ["[[throat|garganta]].", "[[sore|dolorida]]", "[[a|un]]", "[[got|conseguido]]", "[[has|tiene]]", "[[She|Ella]]"],
       "explanation": "Tercera persona singular: She has got."
     },
@@ -140,7 +140,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Completa con la parte del cuerpo correcta.",
       "questions": [
         {
-          "question": "[[I use my write|Yo uso mis]] (_____) [[to|para escribir]].",
+          "question": "[[I|Yo]] [[use|uso]] [[my|mis]] (_____) [[to|para]] [[write|escribir]].",
           "options": ["[[hands|manos]]", "[[feet|pies]]", "[[ears|orejas]]"],
           "correctAnswer": 0,
           "explanation": "Escribimos con las manos."
@@ -160,7 +160,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Beber Agua",
       "instructions": "Ordena el consejo saludable.",
-      "correctSentence": "[[You should drink more water|Tú deberías beber más agua]].",
+      "correctSentence": "[[You|Tú]] [[should|deberías]] [[drink|beber]] [[more|más]] [[water|agua]].",
       "words": ["[[water|agua]].", "[[more|más]]", "[[drink|beber]]", "[[should|deberías]]", "[[You|Tú]]"],
       "explanation": "Should + infinitivo sin 'to'."
     },
@@ -179,7 +179,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el síntoma por la descripción.",
       "questions": [
         {
-          "question": "[[His head. He is very hot has a|Su cabeza está muy caliente. Él tiene una]] (_____) .",
+          "question": "[[His|Su]] [[head|cabeza]] [[is|está]] [[very|muy]] [[hot.|caliente.]] [[He|Él]] [[has|tiene]] [[a|una]] (_____) .",
           "options": ["[[fever|fiebre]]", "[[cold|resfriado]]", "[[toothache|dolor de muelas]]"],
           "correctAnswer": 0,
           "explanation": "La cabeza caliente es un signo de fiebre."
@@ -199,7 +199,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "¿Qué te pasa?",
       "instructions": "Ordena la pregunta del médico.",
-      "correctSentence": "[[What is the matter with you|Qué es el asunto con tigo]]?",
+      "correctSentence": "[[What|Qué]] [[is|es]] [[the|el]] [[matter|asunto]] [[with|con]] [[you|tigo]]?",
       "words": ["[[you|tigo]]?", "[[with|con]]", "[[matter|asunto]]", "[[the|el]]", "[[is|es]]", "[[What|Qué]]"],
       "explanation": "'What is the matter?' es una forma común de preguntar qué duele o qué ocurre."
     },
@@ -218,7 +218,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma negativa del consejo.",
       "questions": [
         {
-          "question": "[[You so much candy|Tú]] (_____) [[eat|comer tan muchos caramelos]].",
+          "question": "[[You|Tú]] (_____) [[eat|comer]] [[so|tan]] [[much|muchos]] [[candy|caramelos]].",
           "options": ["[[shouldn't|no deberías]]", "[[should|deberías]]", "[[can|puedes]]"],
           "correctAnswer": 0,
           "explanation": "Es un consejo para evitar algo poco saludable."
@@ -238,7 +238,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Resfriado Fuerte",
       "instructions": "Ordena la oración plural.",
-      "correctSentence": "[[They have got a bad cold|Ellos tienen conseguido un mal resfriado]].",
+      "correctSentence": "[[They|Ellos]] [[have|tienen]] [[got|conseguido]] [[a|un]] [[bad|mal]] [[cold|resfriado]].",
       "words": ["[[cold|resfriado]].", "[[bad|mal]]", "[[a|un]]", "[[got|conseguido]]", "[[have|tienen]]", "[[They|Ellos]]"],
       "explanation": "Have got para sujeto plural."
     },
@@ -257,7 +257,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el plural irregular.",
       "questions": [
         {
-          "question": "[[My|Mis]] (_____) [[hurt|duelen]].",
+          "question": "[[My|Mi]] [[feet|pies]] [[hurt|duelen]].",
           "options": ["[[feet|pies]]", "[[foots|pies (incorrecto)]]", "[[foot|pie]]"],
           "correctAnswer": 0,
           "explanation": "Foot (singular), feet (plural)."
@@ -277,7 +277,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "¿Tomo medicina?",
       "instructions": "Ordena la pregunta pidiendo consejo.",
-      "correctSentence": "[[Should I take some medicine|Debería yo tomar algo de medicina]]?",
+      "correctSentence": "[[Should|Debería]] [[I|yo]] [[take|tomar]] [[some|algo de]] [[medicine|medicina]]?",
       "words": ["[[medicine|medicina]]?", "[[some|algo de]]", "[[take|tomar]]", "[[I|yo]]", "[[Should|Debería]]"],
       "explanation": "Pregunta invirtiendo el sujeto y 'should'."
     },
@@ -296,7 +296,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Completa el consejo para alguien cansado.",
       "questions": [
         {
-          "question": "[[I'm very. You tired should|Estoy muy cansado. Tú deberías]] (_____) .",
+          "question": "[[I'm|Estoy]] [[very|muy]] [[tired.|cansado.]] [[You|Tú]] [[should|deberías]] (_____) .",
           "options": ["[[go to bed|ir a la cama]]", "[[run a marathon|correr una maratón]]", "[[eat a pizza|comer una pizza]]"],
           "correctAnswer": 0,
           "explanation": "Dormir es el mejor consejo para el cansancio."
@@ -316,7 +316,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Dolor de Estómago",
       "instructions": "Ordena la oración sobre el hermano.",
-      "correctSentence": "[[My brother has got a stomach ache|Mi hermano tiene conseguido un estómago dolor]].",
+      "correctSentence": "[[My|Mi]] [[brother|hermano]] [[has|tiene]] [[got|conseguido]] [[a|un]] [[stomach|estómago]] [[ache|dolor]].",
       "words": ["[[ache|dolor]].", "[[stomach|estómago]]", "[[a|un]]", "[[got|conseguido]]", "[[has|tiene]]", "[[brother|hermano]]", "[[My|Mi]]"],
       "explanation": "Estructura de tercera persona para dolores físicos."
     },
@@ -335,7 +335,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Instrucción común del médico.",
       "questions": [
         {
-          "question": "[[Open your ah|Abre tu]] (_____) [[and say|y di ah]].",
+          "question": "[[Open|Abre]] [[your|tu]] (_____) [[and|y]] [[say|di]] [[ah|ah]].",
           "options": ["[[mouth|boca]]", "[[nose|nariz]]", "[[eye|ojo]]"],
           "correctAnswer": 0,
           "explanation": "El médico pide abrir la boca para revisar la garganta."
@@ -355,7 +355,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Bebidas Frías",
       "instructions": "Ordena el consejo negativo largo.",
-      "correctSentence": "[[You shouldn't drink cold drinks with a sore throat|Tú no deberías beber frías bebidas con un dolorida garganta]].",
+      "correctSentence": "[[You|Tú]] [[shouldn't|no deberías]] [[drink|beber]] [[cold|frías]] [[drinks|bebidas]] [[with|con]] [[a|un]] [[sore|dolorida]] [[throat|garganta]].",
       "words": ["[[throat|garganta]].", "[[sore|dolorida]]", "[[with|con]]", "[[drinks|bebidas]]", "[[cold|frías]]", "[[drink|beber]]", "[[shouldn't|no deberías]]", "[[You|Tú]]"],
       "explanation": "Consejo para no empeorar el dolor de garganta."
     },
@@ -374,7 +374,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el especialista adecuado.",
       "questions": [
         {
-          "question": "[[I have. You should a toothache see a|Yo tengo un dolor de muelas. Tú deberías ver un]] (_____) .",
+          "question": "[[I|Yo]] [[have|tengo]] [[a|un]] [[toothache.|dolor de muelas.]] [[You|Tú]] [[should|deberías]] [[see|ver]] [[a|un]] (_____) .",
           "options": ["[[dentist|dentista]]", "[[nurse|enfermero]]", "[[teacher|profesor]]"],
           "correctAnswer": 0,
           "explanation": "El dentista trata los problemas de los dientes."
@@ -394,7 +394,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Síntomas",
       "instructions": "Ordena la pregunta del médico.",
-      "correctSentence": "[[Have you got any symptoms|Tener tú conseguido algún síntomas]]?",
+      "correctSentence": "[[Have|Tener]] [[you|tú]] [[got|conseguido]] [[any|algún]] [[symptoms|síntomas]]?",
       "words": ["[[symptoms|síntomas]]?", "[[any|algún]]", "[[got|conseguido]]", "[[you|tú]]", "[[Have|Tener]]"],
       "explanation": "Pregunta estándar sobre el estado de salud."
     },
@@ -413,7 +413,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Completa con la parte del cuerpo que permite ver.",
       "questions": [
         {
-          "question": "[[I see with my|Yo veo con mis]] (_____) .",
+          "question": "[[I|Yo]] [[see|veo]] [[with|con]] [[my|mis]] (_____) .",
           "options": ["[[eyes|ojos]]", "[[ears|orejas]]", "[[nose|nariz]]"],
           "correctAnswer": 0,
           "explanation": "Vemos a través de los ojos."
@@ -433,7 +433,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Descansar en Casa",
       "instructions": "Ordena el consejo.",
-      "correctSentence": "[[You should stay at home and rest|Tú deberías quedarte en casa y descansar]].",
+      "correctSentence": "[[You|Tú]] [[should|deberías]] [[stay|quedarte]] [[at|en]] [[home|casa]] [[and|y]] [[rest|descansar]].",
       "words": ["[[rest|descansar]].", "[[and|y]]", "[[home|casa]]", "[[at|en]]", "[[stay|quedarte]]", "[[should|deberías]]", "[[You|Tú]]"],
       "explanation": "Consejo común para alguien enfermo."
     },
@@ -452,7 +452,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la parte del cuerpo que usamos para hablar y comer.",
       "questions": [
         {
-          "question": "[[Open your|Abre tu]] (_____) .",
+          "question": "[[Open|Abre]] [[your|tu]] (_____) .",
           "options": ["[[mouth|boca]]", "[[nose|nariz]]", "[[arm|brazo]]"],
           "correctAnswer": 0,
           "explanation": "La boca (mouth) se usa para ingerir comida y hablar."
@@ -496,7 +496,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para las extremidades inferiores.",
       "questions": [
         {
-          "question": "[[I have two|Yo tengo dos]] (_____) .",
+          "question": "[[I|Yo]] [[have|tengo]] [[two|dos]] (_____) .",
           "options": ["[[legs|piernas]]", "[[arms|brazos]]", "[[shoulders|hombros]]"],
           "correctAnswer": 0,
           "explanation": "'Legs' son las piernas."
@@ -516,7 +516,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Manos Grandes",
       "instructions": "Ordena la descripción.",
-      "correctSentence": "[[He has got big hands|Él tiene conseguido grandes manos]].",
+      "correctSentence": "[[He|Él]] [[has|tiene]] [[got|conseguido]] [[big|grandes]] [[hands|manos]].",
       "words": ["[[hands|manos]].", "[[big|grandes]]", "[[got|conseguido]]", "[[has|tiene]]", "[[He|Él]]"],
       "explanation": "Descripción física usando 'has got'."
     },
@@ -535,7 +535,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el síntoma de dolor de tripa.",
       "questions": [
         {
-          "question": "[[I have got a|Yo tengo un]] (_____) .",
+          "question": "[[I|Yo]] [[have|tengo]] [[got|conseguido]] [[a|un]] (_____) .",
           "options": ["[[stomach ache|dolor de estómago]]", "[[headache|dolor de cabeza]]", "[[toothache|dolor de muelas]]"],
           "correctAnswer": 0,
           "explanation": "'Stomach ache' es dolor de estómago."
@@ -557,7 +557,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Identifica el dolor dental.",
       "questions": [
         {
-          "question": "[[She has got a|Ella tiene un]] (_____) .",
+          "question": "[[She|Ella]] [[has|tiene]] [[got|conseguido]] [[a|un]] (_____) .",
           "options": ["[[toothache|dolor de muelas]]", "[[backache|dolor de espalda]]", "[[earache|dolor de oídos]]"],
           "correctAnswer": 0,
           "explanation": "'Toothache' es el dolor de dientes o muelas."
@@ -577,7 +577,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Tomar Medicina",
       "instructions": "Ordena el consejo del doctor.",
-      "correctSentence": "[[You should take some medicine|Tú deberías tomar algo de medicina]].",
+      "correctSentence": "[[You|Tú]] [[should|deberías]] [[take|tomar]] [[some|algo de]] [[medicine|medicina]].",
       "words": ["[[medicine|medicina]].", "[[some|algo de]]", "[[take|tomar]]", "[[should|deberías]]", "[[You|Tú]]"],
       "explanation": "Uso de 'should' para recomendaciones médicas."
     },
@@ -596,7 +596,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el consejo negativo.",
       "questions": [
         {
-          "question": "[[You|Tú]] (_____) [[eat so much candy|comer tantos caramelos]].",
+          "question": "[[You|Tú]] (_____) [[eat|comer]] [[so|tan]] [[much|tantos]] [[candy|caramelos]].",
           "options": ["[[shouldn't|no deberías]]", "[[should|deberías]]", "[[can|puedes]]"],
           "correctAnswer": 0,
           "explanation": "No se recomienda comer muchos caramelos si te duelen los dientes."
@@ -616,7 +616,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "¿Qué te ocurre?",
       "instructions": "Ordena la pregunta del médico.",
-      "correctSentence": "[[What is the matter with you|Qué es el asunto con tú]]?",
+      "correctSentence": "[[What|Qué]] [[is|es]] [[the|el]] [[matter|asunto]] [[with|con]] [[you|tú]]?",
       "words": ["[[you|tú]]?", "[[with|con]]", "[[matter|asunto]]", "[[the|el]]", "[[is|es]]", "[[What|Qué]]"],
       "explanation": "'What is the matter?' es una forma común de preguntar qué pasa o qué duele."
     },
@@ -635,7 +635,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el estado físico.",
       "questions": [
         {
-          "question": "[[I feel very|Yo me siento muy]] (_____) [[today|hoy]].",
+          "question": "[[I|Yo]] [[feel|me siento]] [[very|muy]] (_____) [[today|hoy]].",
           "options": ["[[tired|cansado]]", "[[happy|feliz]]", "[[cold|frío]]"],
           "correctAnswer": 0,
           "explanation": "'Tired' significa cansado."
@@ -657,7 +657,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el síntoma de dolor en la espalda.",
       "questions": [
         {
-          "question": "[[I have got a|Yo tengo un]] (_____) .",
+          "question": "[[I|Yo]] [[have|tengo]] [[got|conseguido]] [[a|un]] (_____) .",
           "options": ["[[backache|dolor de espalda]]", "[[earache|dolor de oídos]]", "[[headache|dolor de cabeza]]"],
           "correctAnswer": 0,
           "explanation": "'Backache' es el dolor de espalda."
@@ -679,7 +679,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra para la temperatura alta.",
       "questions": [
         {
-          "question": "[[He has got a high|Él tiene una alta]] (_____) .",
+          "question": "[[He|Él]] [[has|tiene]] [[got|conseguido]] [[a|una]] [[high|alta]] (_____) .",
           "options": ["[[fever|fiebre]]", "[[cold|frío]]", "[[cough|tos]]"],
           "correctAnswer": 0,
           "explanation": "'Fever' se refiere a la fiebre o temperatura corporal elevada."
@@ -699,7 +699,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hombros Anchos",
       "instructions": "Ordena la descripción física.",
-      "correctSentence": "[[My shoulders are very broad|Mis hombros son muy anchos]].",
+      "correctSentence": "[[My|Mis]] [[shoulders|hombros]] [[are|son]] [[very|muy]] [[broad|anchos]].",
       "words": ["[[broad|anchos]].", "[[very|muy]]", "[[are|son]]", "[[shoulders|hombros]]", "[[My|Mis]]"],
       "explanation": "'Shoulders' son los hombros."
     },
@@ -718,7 +718,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la parte del cuerpo que usamos para oler.",
       "questions": [
         {
-          "question": "[[I smell with my|Yo huelo con mi]] (_____) .",
+          "question": "[[I|Yo]] [[smell|huelo]] [[with|con]] [[my|mi]] (_____) .",
           "options": ["[[nose|nariz]]", "[[mouth|boca]]", "[[eye|ojo]]"],
           "correctAnswer": 0,
           "explanation": "Usamos la nariz (nose) para oler."
@@ -738,7 +738,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mala Tos",
       "instructions": "Ordena la oración sobre el síntoma.",
-      "correctSentence": "[[She has got a bad cough|Ella tiene conseguido una mala tos]].",
+      "correctSentence": "[[She|Ella]] [[has|tiene]] [[got|conseguido]] [[a|una]] [[bad|mala]] [[cough|tos]].",
       "words": ["[[cough|tos]].", "[[bad|mala]]", "[[a|una]]", "[[got|conseguido]]", "[[has|tiene]]", "[[She|Ella]]"],
       "explanation": "'Cough' es tos."
     },
@@ -757,7 +757,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta pidiendo consejo.",
       "questions": [
         {
-          "question": "(_____) [[I go to the hospital|debería yo ir al hospital]]?",
+          "question": "(_____) [[I|yo]] [[go|ir]] [[to|al]] [[the|el]] [[hospital|hospital]]?",
           "options": ["[[Should|Debería]]", "[[Do|Auxiliar]]", "[[Am|Soy/Estoy]]"],
           "correctAnswer": 0,
           "explanation": "Invertimos el orden de 'Should' y el sujeto para hacer preguntas."
@@ -777,7 +777,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Lavar la Cara",
       "instructions": "Ordena el comando.",
-      "correctSentence": "[[Wash your face and hands|Lava tu cara y manos]].",
+      "correctSentence": "[[Wash|Lava]] [[your|tu]] [[face|cara]] [[and|y]] [[hands|manos]].",
       "words": ["[[hands|manos]].", "[[and|y]]", "[[face|cara]]", "[[your|tu]]", "[[Wash|Lava]]"],
       "explanation": "'Face' es la cara."
     },
@@ -796,7 +796,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo para expresar dolor físico.",
       "questions": [
         {
-          "question": "[[My leg|Mi pierna]] (_____) [[when I walk|cuando yo camino]].",
+          "question": "[[My|Mi]] [[leg|pierna]] (_____) [[when|cuando]] [[I|yo]] [[walk|camino]].",
           "options": ["[[hurts|duele]]", "[[hates|odia]]", "[[helps|ayuda]]"],
           "correctAnswer": 0,
           "explanation": "'Hurts' significa duele."
@@ -816,7 +816,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Dolor en el Pecho",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[I have got a pain in my chest|Yo tengo un dolor en mi pecho]].",
+      "correctSentence": "[[I|Yo]] [[have|tengo]] [[got|conseguido]] [[a|un]] [[pain|dolor]] [[in|en]] [[my|mi]] [[chest|pecho]].",
       "words": ["[[chest|pecho]].", "[[my|mi]]", "[[in|en]]", "[[pain|dolor]]", "[[a|un]]", "[[got|tengo]]", "[[have|tengo]]", "[[I|Yo]]"],
       "explanation": "'Chest' es el pecho."
     },
@@ -835,7 +835,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Identifica los dedos de la mano.",
       "questions": [
         {
-          "question": "[[He has very long|Él tiene muy largos]] (_____) .",
+          "question": "[[He|Él]] [[has|tiene]] [[very|muy]] [[long|largos]] (_____) .",
           "options": ["[[fingers|dedos (mano)]]", "[[toes|dedos (pie)]]", "[[knees|rodillas]]"],
           "correctAnswer": 0,
           "explanation": "'Fingers' son los dedos de las manos."
@@ -857,7 +857,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Traduce la frase.",
       "questions": [
         {
-          "question": "[[I have got|Yo tengo]] (_____) .",
+          "question": "[[I|Yo]] [[have|tengo]] [[got|conseguido]] (_____) .",
           "options": ["[[a cold|un resfriado]]", "[[a hot|un calor]]", "[[a sun|un sol]]"],
           "correctAnswer": 0,
           "explanation": "'A cold' significa un resfriado."
@@ -879,7 +879,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Identifica el síntoma.",
       "questions": [
         {
-          "question": "[[She has got|Ella tiene]] (_____) .",
+          "question": "[[She|Ella]] [[has|tiene]] [[got|conseguido]] (_____) .",
           "options": ["[[a cough|tos]]", "[[a laugh|una risa]]", "[[a coffee|un café]]"],
           "correctAnswer": 0,
           "explanation": "'Cough' es tos."
@@ -901,7 +901,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Traduce 'mareado'.",
       "questions": [
         {
-          "question": "[[I feel|Me siento]] (_____) .",
+          "question": "[[I|Yo]] [[feel|me siento]] (_____) .",
           "options": ["[[dizzy|mareado]]", "[[busy|ocupado]]", "[[lazy|perezoso]]"],
           "correctAnswer": 0,
           "explanation": "'Dizzy' significa mareado."
@@ -921,7 +921,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Consejo Médico",
       "instructions": "Ordena la frase de consejo.",
-      "correctSentence": "[[You should drink water|Deberías beber agua]].",
+      "correctSentence": "[[You|Tú]] [[should|deberías]] [[drink|beber]] [[water|agua]].",
       "words": ["[[water|agua]].", "[[drink|beber]]", "[[should|deberías]]", "[[You|Tú]]"],
       "explanation": "'Should' se usa para dar consejos."
     },
@@ -940,7 +940,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la recomendación correcta.",
       "questions": [
         {
-          "question": "[[You are tired. You|Estás cansado. Tú]] (_____) [[rest.|descansar.]]",
+          "question": "[[You|Estás]] [[are|cansado.]] [[tired.|Tú]] [[You|deberías]] (_____) [[rest.|descansar.]]",
           "options": ["[[should|deberías]]", "[[shouldn't|no deberías]]", "[[can|puedes]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'should' para recomendar descanso."
@@ -962,7 +962,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma negativa del consejo.",
       "questions": [
         {
-          "question": "[[You are sick. You|Estás enfermo. Tú]] (_____) [[go out.|salir.]]",
+          "question": "[[You|Estás]] [[are|enfermo.]] [[sick.|Tú]] [[You|no]] (_____) [[go|deberías]] [[out.|salir.]]",
           "options": ["[[shouldn't|no deberías]]", "[[should|deberías]]", "[[don't|no]]"],
           "correctAnswer": 0,
           "explanation": "'Shouldn't' es la forma negativa de 'should'."
@@ -982,7 +982,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "Quedarse en Cama",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[He should stay in bed|Él debería quedarse en cama]].",
+      "correctSentence": "[[He|Él]] [[should|debería]] [[stay|quedarse]] [[in|en]] [[bed|cama]].",
       "words": ["[[bed|cama]].", "[[in|en]]", "[[stay|quedarse]]", "[[should|debería]]", "[[He|Él]]"],
       "explanation": "'Stay in bed' es quedarse en la cama."
     },
@@ -1001,7 +1001,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "instructions": "Traduce 'músculos'.",
       "questions": [
         {
-          "question": "[[He has got strong|Él tiene fuertes]] (_____) .",
+          "question": "[[He|Él]] [[has|tiene]] [[got|conseguido]] [[strong|fuertes]] (_____) .",
           "options": ["[[muscles|músculos]]", "[[bones|huesos]]", "[[skin|piel]]"],
           "correctAnswer": 0,
           "explanation": "'Muscles' son los músculos."
@@ -1017,7 +1017,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[At the doctor's office,|En la consulta del médico,]] [[David is feeling very sick.|David se siente muy enfermo.]] [['What is the matter?'|'¿Qué te pasa?']] [[asks the nurse.|pregunta la enfermera.]] [['I have got a high fever,'|'Tengo una fiebre alta,']] [[David says,|dice David,]] [['and my head hurts a lot.'|'y mi cabeza me duele mucho.']] [[The nurse says,|La enfermera dice,]] [['You should see the doctor immediately.|'Deberías ver al médico inmediatamente.]] [[Open your mouth,|Abre tu boca,]] [[please.|por favor.]] [[Oh, you have got|Oh, tienes]] [[a very sore throat.'|una garganta muy dolorida.']] [[The doctor arrives|El médico llega]] [[and gives David some advice:|y le da a David algunos consejos:]] [['You should stay at home|'Deberías quedarte en casa]] [[and rest for three days.|y descansar durante tres días.]] [[You should drink|Deberías beber]] [[plenty of water,|mucha agua,]] [[but you shouldn't drink|pero no deberías beber]] [[anything cold.'|nada frío.']] [[David goes home|David va a casa]] [[to rest.|a descansar.]]",
+    "transcript": "[[At|En]] [[the|la]] [[doctor's|del médico]] [[office,|consulta,]] [[David|David]] [[is|está]] [[feeling|sintiéndose]] [[very|muy]] [[sick.|enfermo.]] [['What|'Qué]] [[is|es]] [[the|el]] [[matter?'|asunto?']] [[asks|pregunta]] [[the|la]] [[nurse.|enfermera.]] [['I|'Yo]] [[have|tengo]] [[got|conseguido]] [[a|una]] [[high|alta]] [[fever,'|fiebre,']] [[David|David]] [[says,|dice,]] [['and|'y]] [[my|mi]] [[head|cabeza]] [[hurts|duele]] [[a|un]] [[lot.'|mucho.']] [[The|La]] [[nurse|enfermera]] [[says,|dice,]] [['You|'Tú]] [[should|deberías]] [[see|ver]] [[the|al]] [[doctor|médico]] [[immediately.|inmediatamente.]] [[Open|Abre]] [[your|tu]] [[mouth,|boca,]] [[please.|por favor.]] [[Oh,|Oh,]] [[you|tú]] [[have|tienes]] [[got|conseguido]] [[a|una]] [[very|muy]] [[sore|dolorida]] [[throat.'|garganta.']] [[The|El]] [[doctor|médico]] [[arrives|llega]] [[and|y]] [[gives|da]] [[David|David]] [[some|algunos]] [[advice:|consejos:]] [['You|'Tú]] [[should|deberías]] [[stay|quedarte]] [[at|en]] [[home|casa]] [[and|y]] [[rest|descansar]] [[for|durante]] [[three|tres]] [[days.|días.]] [[You|Tú]] [[should|deberías]] [[drink|beber]] [[plenty|abundancia]] [[of|de]] [[water,|agua,]] [[but|pero]] [[you|tú]] [[shouldn't|no deberías]] [[drink|beber]] [[anything|nada]] [[cold.'|frío.']] [[David|David]] [[goes|va]] [[home|casa]] [[to|a]] [[rest.|descansar.]]",
     "content": {
       "title": "[[Reading: At the Doctor|Lectura: En el médico]]",
       "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
@@ -1039,7 +1039,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[At the doctor's office,|En la consulta del médico,]] [[David is feeling very sick.|David se siente muy enfermo.]] [['What is the matter?'|'¿Qué te pasa?']] [[asks the nurse.|pregunta la enfermera.]] [['I have got a high fever,'|'Tengo una fiebre alta,']] [[David says,|dice David,]] [['and my head hurts a lot.'|'y mi cabeza me duele mucho.']] [[The nurse says,|La enfermera dice,]] [['You should see the doctor immediately.|'Deberías ver al médico inmediatamente.]] [[Open your mouth,|Abre tu boca,]] [[please.|por favor.]] [[Oh, you have got|Oh, tienes]] [[a very sore throat.'|una garganta muy dolorida.']] [[The doctor arrives|El médico llega]] [[and gives David some advice:|y le da a David algunos consejos:]] [['You should stay at home|'Deberías quedarte en casa]] [[and rest for three days.|y descansar durante tres días.]] [[You should drink|Deberías beber]] [[plenty of water,|mucha agua,]] [[but you shouldn't drink|pero no deberías beber]] [[anything cold.'|nada frío.']] [[David goes home|David va a casa]] [[to rest.|a descansar.]]",
+    "transcript": "[[At|En]] [[the|la]] [[doctor's|del médico]] [[office,|consulta,]] [[David|David]] [[is|está]] [[feeling|sintiéndose]] [[very|muy]] [[sick.|enfermo.]] [['What|'Qué]] [[is|es]] [[the|el]] [[matter?'|asunto?']] [[asks|pregunta]] [[the|la]] [[nurse.|enfermera.]] [['I|'Yo]] [[have|tengo]] [[got|conseguido]] [[a|una]] [[high|alta]] [[fever,'|fiebre,']] [[David|David]] [[says,|dice,]] [['and|'y]] [[my|mi]] [[head|cabeza]] [[hurts|duele]] [[a|un]] [[lot.'|mucho.']] [[The|La]] [[nurse|enfermera]] [[says,|dice,]] [['You|'Tú]] [[should|deberías]] [[see|ver]] [[the|al]] [[doctor|médico]] [[immediately.|inmediatamente.]] [[Open|Abre]] [[your|tu]] [[mouth,|boca,]] [[please.|por favor.]] [[Oh,|Oh,]] [[you|tú]] [[have|tienes]] [[got|conseguido]] [[a|una]] [[very|muy]] [[sore|dolorida]] [[throat.'|garganta.']] [[The|El]] [[doctor|médico]] [[arrives|llega]] [[and|y]] [[gives|da]] [[David|David]] [[some|algunos]] [[advice:|consejos:]] [['You|'Tú]] [[should|deberías]] [[stay|quedarte]] [[at|en]] [[home|casa]] [[and|y]] [[rest|descansar]] [[for|durante]] [[three|tres]] [[days.|días.]] [[You|Tú]] [[should|deberías]] [[drink|beber]] [[plenty|abundancia]] [[of|de]] [[water,|agua,]] [[but|pero]] [[you|tú]] [[shouldn't|no deberías]] [[drink|beber]] [[anything|nada]] [[cold.'|frío.']] [[David|David]] [[goes|va]] [[home|casa]] [[to|a]] [[rest.|descansar.]]",
     "content": {
       "title": "[[Reading: The Doctor's Advice|Lectura: El consejo del médico]]",
       "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
@@ -1061,7 +1061,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[At the doctor's office,|En la consulta del médico,]] [[David is feeling very sick.|David se siente muy enfermo.]] [['What is the matter?'|'¿Qué te pasa?']] [[asks the nurse.|pregunta la enfermera.]] [['I have got a high fever,'|'Tengo una fiebre alta,']] [[David says,|dice David,]] [['and my head hurts a lot.'|'y mi cabeza me duele mucho.']] [[The nurse says,|La enfermera dice,]] [['You should see the doctor immediately.|'Deberías ver al médico inmediatamente.]] [[Open your mouth,|Abre tu boca,]] [[please.|por favor.]] [[Oh, you have got|Oh, tienes]] [[a very sore throat.'|una garganta muy dolorida.']] [[The doctor arrives|El médico llega]] [[and gives David some advice:|y le da a David algunos consejos:]] [['You should stay at home|'Deberías quedarte en casa]] [[and rest for three days.|y descansar durante tres días.]] [[You should drink|Deberías beber]] [[plenty of water,|mucha agua,]] [[but you shouldn't drink|pero no deberías beber]] [[anything cold.'|nada frío.']] [[David goes home|David va a casa]] [[to rest.|a descansar.]]",
+    "transcript": "[[At|En]] [[the|la]] [[doctor's|del médico]] [[office,|consulta,]] [[David|David]] [[is|está]] [[feeling|sintiéndose]] [[very|muy]] [[sick.|enfermo.]] [['What|'Qué]] [[is|es]] [[the|el]] [[matter?'|asunto?']] [[asks|pregunta]] [[the|la]] [[nurse.|enfermera.]] [['I|'Yo]] [[have|tengo]] [[got|conseguido]] [[a|una]] [[high|alta]] [[fever,'|fiebre,']] [[David|David]] [[says,|dice,]] [['and|'y]] [[my|mi]] [[head|cabeza]] [[hurts|duele]] [[a|un]] [[lot.'|mucho.']] [[The|La]] [[nurse|enfermera]] [[says,|dice,]] [['You|'Tú]] [[should|deberías]] [[see|ver]] [[the|al]] [[doctor|médico]] [[immediately.|inmediatamente.]] [[Open|Abre]] [[your|tu]] [[mouth,|boca,]] [[please.|por favor.]] [[Oh,|Oh,]] [[you|tú]] [[have|tienes]] [[got|conseguido]] [[a|una]] [[very|muy]] [[sore|dolorida]] [[throat.'|garganta.']] [[The|El]] [[doctor|médico]] [[arrives|llega]] [[and|y]] [[gives|da]] [[David|David]] [[some|algunos]] [[advice:|consejos:]] [['You|'Tú]] [[should|deberías]] [[stay|quedarte]] [[at|en]] [[home|casa]] [[and|y]] [[rest|descansar]] [[for|durante]] [[three|tres]] [[days.|días.]] [[You|Tú]] [[should|deberías]] [[drink|beber]] [[plenty|abundancia]] [[of|de]] [[water,|agua,]] [[but|pero]] [[you|tú]] [[shouldn't|no deberías]] [[drink|beber]] [[anything|nada]] [[cold.'|frío.']] [[David|David]] [[goes|va]] [[home|casa]] [[to|a]] [[rest.|descansar.]]",
     "content": {
       "title": "[[Reading: Drinking Advice|Lectura: Consejos sobre la bebida]]",
       "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
@@ -1083,7 +1083,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Our body is amazing!|¡Nuestro cuerpo es asombroso!]] [[We have|Tenemos]] [[two eyes to see,|dos ojos para ver,]] [[two ears to hear,|dos oídos para oír,]] [[and one nose|y una nariz]] [[to smell.|para oler.]] [[We use our mouth|Usamos nuestra boca]] [[to eat and speak.|para comer y hablar.]] [[We have got|Tenemos]] [[two hands|dos manos]] [[with five fingers|con cinco dedos]] [[on each one.|en cada una.]] [[Hands are for|Las manos son para]] [[holding things.|sostener cosas.]] [[We have got|Tenemos]] [[two legs|dos piernas]] [[and two feet|y dos pies]] [[to walk and run.|para caminar y correr.]] [[It is important|Es importante]] [[to take care|cuidar]] [[of our body.|de nuestro cuerpo.]] [[You should exercise,|Deberías hacer ejercicio,]] [[eat healthy food,|comer comida saludable,]] [[and sleep eight hours|y dormir ocho horas]] [[every night.|cada noche.]]",
+    "transcript": "[[Our|Nuestro]] [[body|cuerpo]] [[is|es]] [[amazing!|asombroso!]] [[We|Nosotros]] [[have|tenemos]] [[two|dos]] [[eyes|ojos]] [[to|para]] [[see,|ver,]] [[two|dos]] [[ears|oídos]] [[to|para]] [[hear,|oír,]] [[and|y]] [[one|una]] [[nose|nariz]] [[to|para]] [[smell.|oler.]] [[We|Nosotros]] [[use|usamos]] [[our|nuestra]] [[mouth|boca]] [[to|para]] [[eat|comer]] [[and|y]] [[speak.|hablar.]] [[We|Nosotros]] [[have|tenemos]] [[got|conseguido]] [[two|dos]] [[hands|manos]] [[with|con]] [[five|cinco]] [[fingers|dedos]] [[on|en]] [[each|cada]] [[one.|una.]] [[Hands|Manos]] [[are|son]] [[for|para]] [[holding|sostener]] [[things.|cosas.]] [[We|Nosotros]] [[have|tenemos]] [[got|conseguido]] [[two|dos]] [[legs|piernas]] [[and|y]] [[two|dos]] [[feet|pies]] [[to|para]] [[walk|caminar]] [[and|y]] [[run.|correr.]] [[It|Ello]] [[is|es]] [[important|importante]] [[to|a]] [[take|tomar]] [[care|cuidado]] [[of|de]] [[our|nuestro]] [[body.|cuerpo.]] [[You|Tú]] [[should|deberías]] [[exercise,|ejercitar,]] [[eat|comer]] [[healthy|saludable]] [[food,|comida,]] [[and|y]] [[sleep|dormir]] [[eight|ocho]] [[hours|horas]] [[every|cada]] [[night.|noche.]]",
     "content": {
       "title": "[[Reading: The Human Body|Lectura: El cuerpo humano]]",
       "instructions": "[[Read about the body and answer.|Lee sobre el cuerpo y responde.]]",
@@ -1105,7 +1105,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Our body is amazing!|¡Nuestro cuerpo es asombroso!]] [[We have|Tenemos]] [[two eyes to see,|dos ojos para ver,]] [[two ears to hear,|dos oídos para oír,]] [[and one nose|y una nariz]] [[to smell.|para oler.]] [[We use our mouth|Usamos nuestra boca]] [[to eat and speak.|para comer y hablar.]] [[We have got|Tenemos]] [[two hands|dos manos]] [[with five fingers|con cinco dedos]] [[on each one.|en cada una.]] [[Hands are for|Las manos son para]] [[holding things.|sostener cosas.]] [[We have got|Tenemos]] [[two legs|dos piernas]] [[and two feet|y dos pies]] [[to walk and run.|para caminar y correr.]] [[It is important|Es importante]] [[to take care|cuidar]] [[of our body.|de nuestro cuerpo.]] [[You should exercise,|Deberías hacer ejercicio,]] [[eat healthy food,|comer comida saludable,]] [[and sleep eight hours|y dormir ocho horas]] [[every night.|cada noche.]]",
+    "transcript": "[[Our|Nuestro]] [[body|cuerpo]] [[is|es]] [[amazing!|asombroso!]] [[We|Nosotros]] [[have|tenemos]] [[two|dos]] [[eyes|ojos]] [[to|para]] [[see,|ver,]] [[two|dos]] [[ears|oídos]] [[to|para]] [[hear,|oír,]] [[and|y]] [[one|una]] [[nose|nariz]] [[to|para]] [[smell.|oler.]] [[We|Nosotros]] [[use|usamos]] [[our|nuestra]] [[mouth|boca]] [[to|para]] [[eat|comer]] [[and|y]] [[speak.|hablar.]] [[We|Nosotros]] [[have|tenemos]] [[got|conseguido]] [[two|dos]] [[hands|manos]] [[with|con]] [[five|cinco]] [[fingers|dedos]] [[on|en]] [[each|cada]] [[one.|una.]] [[Hands|Manos]] [[are|son]] [[for|para]] [[holding|sostener]] [[things.|cosas.]] [[We|Nosotros]] [[have|tenemos]] [[got|conseguido]] [[two|dos]] [[legs|piernas]] [[and|y]] [[two|dos]] [[feet|pies]] [[to|para]] [[walk|caminar]] [[and|y]] [[run.|correr.]] [[It|Ello]] [[is|es]] [[important|importante]] [[to|a]] [[take|tomar]] [[care|cuidado]] [[of|de]] [[our|nuestro]] [[body.|cuerpo.]] [[You|Tú]] [[should|deberías]] [[exercise,|ejercitar,]] [[eat|comer]] [[healthy|saludable]] [[food,|comida,]] [[and|y]] [[sleep|dormir]] [[eight|ocho]] [[hours|horas]] [[every|cada]] [[night.|noche.]]",
     "content": {
       "title": "[[Reading: Using the Body|Lectura: Usando el cuerpo]]",
       "instructions": "[[Read about the body and answer.|Lee sobre el cuerpo y responde.]]",
@@ -1149,7 +1149,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Maria is not having|Maria no está teniendo]] [[a good day.|un buen día.]] [[She has got|Ella tiene]] [[a terrible toothache.|un terrible dolor de muelas.]] [[Her jaw|Su mandíbula]] [[hurts a lot.|le duele mucho.]] [[She shouldn't|Ella no debería]] [[eat anything hard.|comer nada duro.]] [[She should call|Debería llamar]] [[the dentist|al dentista]] [[right now.|ahora mismo.]] [[Last week,|La semana pasada,]] [[she had|ella tuvo]] [[a stomach ache,|un dolor de estómago,]] [[but now|pero ahora]] [[her stomach|su estómago]] [[is fine.|está bien.]] [[Maria thinks:|Maria piensa:]] [['I should go|'Debería ir]] [[to the doctor|al médico]] [[more often'.|más a menudo'.]]",
+    "transcript": "[[Maria|Maria]] [[is|está]] [[not|no]] [[having|teniendo]] [[a|un]] [[good|buen]] [[day.|día.]] [[She|Ella]] [[has|tiene]] [[got|conseguido]] [[a|un]] [[terrible|terrible]] [[toothache.|dolor de muelas.]] [[Her|Su]] [[jaw|mandíbula]] [[hurts|duele]] [[a|un]] [[lot.|mucho.]] [[She|Ella]] [[shouldn't|no debería]] [[eat|comer]] [[anything|nada]] [[hard.|duro.]] [[She|Ella]] [[should|debería]] [[call|llamar]] [[the|al]] [[dentist|dentista]] [[right|ahora]] [[now.|mismo.]] [[Last|La pasada]] [[week,|semana,]] [[she|ella]] [[had|tuvo]] [[a|un]] [[stomach|estómago]] [[ache,|dolor,]] [[but|pero]] [[now|ahora]] [[her|su]] [[stomach|estómago]] [[is|está]] [[fine.|bien.]] [[Maria|Maria]] [[thinks:|piensa:]] [['I|'Yo]] [[should|debería]] [[go|ir]] [[to|al]] [[the|el]] [[doctor|médico]] [[more|más]] [[often'.|a menudo'.]]",
     "content": {
       "title": "[[Reading: Maria's Health|Lectura: La salud de Maria]]",
       "instructions": "[[Read about Maria and answer.|Lee sobre Maria y responde.]]",
@@ -1171,7 +1171,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Maria is not having|Maria no está teniendo]] [[a good day.|un buen día.]] [[She has got|Ella tiene]] [[a terrible toothache.|un terrible dolor de muelas.]] [[Her jaw|Su mandíbula]] [[hurts a lot.|le duele mucho.]] [[She shouldn't|Ella no debería]] [[eat anything hard.|comer nada duro.]] [[She should call|Debería llamar]] [[the dentist|al dentista]] [[right now.|ahora mismo.]] [[Last week,|La semana pasada,]] [[she had|ella tuvo]] [[a stomach ache,|un dolor de estómago,]] [[but now|pero ahora]] [[her stomach|su estómago]] [[is fine.|está bien.]] [[Maria thinks:|Maria piensa:]] [['I should go|'Debería ir]] [[to the doctor|al médico]] [[more often'.|más a menudo'.]]",
+    "transcript": "[[Maria|Maria]] [[is|está]] [[not|no]] [[having|teniendo]] [[a|un]] [[good|buen]] [[day.|día.]] [[She|Ella]] [[has|tiene]] [[got|conseguido]] [[a|un]] [[terrible|terrible]] [[toothache.|dolor de muelas.]] [[Her|Su]] [[jaw|mandíbula]] [[hurts|duele]] [[a|un]] [[lot.|mucho.]] [[She|Ella]] [[shouldn't|no debería]] [[eat|comer]] [[anything|nada]] [[hard.|duro.]] [[She|Ella]] [[should|debería]] [[call|llamar]] [[the|al]] [[dentist|dentista]] [[right|ahora]] [[now.|mismo.]] [[Last|La pasada]] [[week,|semana,]] [[she|ella]] [[had|tuvo]] [[a|un]] [[stomach|estómago]] [[ache,|dolor,]] [[but|pero]] [[now|ahora]] [[her|su]] [[stomach|estómago]] [[is|está]] [[fine.|bien.]] [[Maria|Maria]] [[thinks:|piensa:]] [['I|'Yo]] [[should|debería]] [[go|ir]] [[to|al]] [[the|el]] [[doctor|médico]] [[more|más]] [[often'.|a menudo'.]]",
     "content": {
       "title": "[[Reading: Who to call?|Lectura: ¿A quién llamar?]]",
       "instructions": "[[Read about Maria and answer.|Lee sobre Maria y responde.]]",
@@ -1193,7 +1193,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Is it okay|¿Está bien]] [[to exercise|hacer ejercicio]] [[when you are sick?|cuando estás enfermo?]] [[Most doctors say:|La mayoría de los médicos dicen:]] [['No, you shouldn't.'|'No, no deberías.']] [[When you have got|Cuando tienes]] [[a fever|fiebre]] [[or a bad cold,|o un mal resfriado,]] [[your body needs|tu cuerpo necesita]] [[to rest.|descansar.]] [[You shouldn't run|No deberías correr]] [[or go to the gym.|ni ir al gimnasio.]] [[However,|Sin embargo,]] [[if you have|si tienes]] [[a small headache,|un pequeño dolor de cabeza,]] [[a short walk|un paseo corto]] [[can be good.|puede ser bueno.]] [[But always|Pero siempre]] [[listen to your body.|escucha a tu cuerpo.]] [[If you feel|Si te sientes]] [[very tired,|muy cansado,]] [[you should|deberías]] [[just sleep.|simplemente dormir.]]",
+    "transcript": "[[Is|¿Es]] [[it|ello]] [[okay|está bien]] [[to|a]] [[exercise|ejercitar]] [[when|cuando]] [[you|tú]] [[are|estás]] [[sick?|enfermo?]] [[Most|Mayoría]] [[doctors|médicos]] [[say:|dicen:]] [['No,|'No,]] [[you|tú]] [[shouldn't.'|no deberías.']] [[When|Cuando]] [[you|tú]] [[have|tienes]] [[got|conseguido]] [[a|una]] [[fever|fiebre]] [[or|o]] [[a|un]] [[bad|mal]] [[cold,|resfriado,]] [[your|tu]] [[body|cuerpo]] [[needs|necesita]] [[to|a]] [[rest.|descansar.]] [[You|Tú]] [[shouldn't|no deberías]] [[run|correr]] [[or|ni]] [[go|ir]] [[to|al]] [[the|el]] [[gym.|gimnasio.]] [[However,|Sin embargo,]] [[if|si]] [[you|tú]] [[have|tienes]] [[a|un]] [[small|pequeño]] [[headache,|dolor de cabeza,]] [[a|un]] [[short|corto]] [[walk|paseo]] [[can|puede]] [[be|ser]] [[good.|bueno.]] [[But|Pero]] [[always|siempre]] [[listen|escucha]] [[to|a]] [[your|tu]] [[body.|cuerpo.]] [[If|Si]] [[you|tú]] [[feel|te sientes]] [[very|muy]] [[tired,|cansado,]] [[you|tú]] [[should|deberías]] [[just|simplemente]] [[sleep.|dormir.]]",
     "content": {
       "title": "[[Reading: Exercise and Health|Lectura: Ejercicio y salud]]",
       "instructions": "[[Read the advice and answer.|Lee el consejo y responde.]]",
@@ -1215,7 +1215,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Is it okay|¿Está bien]] [[to exercise|hacer ejercicio]] [[when you are sick?|cuando estás enfermo?]] [[Most doctors say:|La mayoría de los médicos dicen:]] [['No, you shouldn't.'|'No, no deberías.']] [[When you have got|Cuando tienes]] [[a fever|fiebre]] [[or a bad cold,|o un mal resfriado,]] [[your body needs|tu cuerpo necesita]] [[to rest.|descansar.]] [[You shouldn't run|No deberías correr]] [[or go to the gym.|ni ir al gimnasio.]] [[However,|Sin embargo,]] [[if you have|si tienes]] [[a small headache,|un pequeño dolor de cabeza,]] [[a short walk|un paseo corto]] [[can be good.|puede ser bueno.]] [[But always|Pero siempre]] [[listen to your body.|escucha a tu cuerpo.]] [[If you feel|Si te sientes]] [[very tired,|muy cansado,]] [[you should|deberías]] [[just sleep.|simplemente dormir.]]",
+    "transcript": "[[Is|¿Es]] [[it|ello]] [[okay|está bien]] [[to|a]] [[exercise|ejercitar]] [[when|cuando]] [[you|tú]] [[are|estás]] [[sick?|enfermo?]] [[Most|Mayoría]] [[doctors|médicos]] [[say:|dicen:]] [['No,|'No,]] [[you|tú]] [[shouldn't.'|no deberías.']] [[When|Cuando]] [[you|tú]] [[have|tienes]] [[got|conseguido]] [[a|una]] [[fever|fiebre]] [[or|o]] [[a|un]] [[bad|mal]] [[cold,|resfriado,]] [[your|tu]] [[body|cuerpo]] [[needs|necesita]] [[to|a]] [[rest.|descansar.]] [[You|Tú]] [[shouldn't|no deberías]] [[run|correr]] [[or|ni]] [[go|ir]] [[to|al]] [[the|el]] [[gym.|gimnasio.]] [[However,|Sin embargo,]] [[if|si]] [[you|tú]] [[have|tienes]] [[a|un]] [[small|pequeño]] [[headache,|dolor de cabeza,]] [[a|un]] [[short|corto]] [[walk|paseo]] [[can|puede]] [[be|ser]] [[good.|bueno.]] [[But|Pero]] [[always|siempre]] [[listen|escucha]] [[to|a]] [[your|tu]] [[body.|cuerpo.]] [[If|Si]] [[you|tú]] [[feel|te sientes]] [[very|muy]] [[tired,|cansado,]] [[you|tú]] [[should|deberías]] [[just|simplemente]] [[sleep.|dormir.]]",
     "content": {
       "title": "[[Reading: Small Headaches|Lectura: Pequeños dolores de cabeza]]",
       "instructions": "[[Read the advice and answer.|Lee el consejo y responde.]]",

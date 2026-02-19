@@ -15,7 +15,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo correcto.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[at seven o'clock.|a las siete en punto.]]",
+          "question": "[[I|Yo]] (_____) [[at|a]] [[seven|siete]] [[o'clock.|en punto.]]",
           "options": ["[[wake up|me despierto]]", "[[sleep|duermo]]", "[[cook|cocino]]"],
           "correctAnswer": 0,
           "explanation": "'Wake up' significa despertarse."
@@ -37,7 +37,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la rutina.",
       "questions": [
         {
-          "question": "[[She|Ella]] (_____) [[a shower in the morning.|una ducha por la mañana.]]",
+          "question": "[[She|Ella]] (_____) [[a|una]] [[shower|ducha]] [[in|en]] [[the|la]] [[morning.|mañana.]]",
           "options": ["[[takes|toma]]", "[[eats|come]]", "[[reads|lee]]"],
           "correctAnswer": 0,
           "explanation": "'Take a shower' es ducharse."
@@ -57,7 +57,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Desayunar",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[I have breakfast with my family|Yo desayuno con mi familia]].",
+      "correctSentence": "[[I|Yo]] [[have|tomo]] [[breakfast|el desayuno]] [[with|con]] [[my|mi]] [[family.|familia.]]",
       "words": ["[[family|familia]].", "[[my|mi]]", "[[with|con]]", "[[breakfast|desayuno]]", "[[have|tomo]]", "[[I|Yo]]"],
       "explanation": "'Have breakfast' es desayunar."
     },
@@ -76,7 +76,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el destino correcto.",
       "questions": [
         {
-          "question": "[[He goes to|Él va al]] (_____) [[by bus.|en autobús.]]",
+          "question": "[[He|Él]] [[goes|va]] [[to|al]] (_____) [[by|por]] [[bus.|autobús.]]",
           "options": ["[[work|trabajo]]", "[[bed|cama]]", "[[shower|ducha]]"],
           "correctAnswer": 0,
           "explanation": "'Go to work' es ir al trabajo."
@@ -98,7 +98,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo de inicio.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[work at nine.|el trabajo a las nueve.]]",
+          "question": "[[I|Yo]] (_____) [[work|trabajo]] [[at|a las]] [[nine.|nueve.]]",
           "options": ["[[start|empiezo]]", "[[finish|termino]]", "[[watch|veo]]"],
           "correctAnswer": 0,
           "explanation": "'Start' significa empezar."
@@ -120,7 +120,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la frase.",
       "questions": [
         {
-          "question": "[[They|Ellos]] (_____) [[lunch at the office.|el almuerzo en la oficina.]]",
+          "question": "[[They|Ellos]] (_____) [[lunch|almuerzo]] [[at|en]] [[the|la]] [[office.|oficina.]]",
           "options": ["[[have|toman]]", "[[go|van]]", "[[do|hacen]]"],
           "correctAnswer": 0,
           "explanation": "'Have lunch' es almorzar o comer al mediodía."
@@ -140,7 +140,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Terminar el Trabajo",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[I finish work at five o'clock|Termino de trabajar a las cinco]].",
+      "correctSentence": "[[I|Yo]] [[finish|termino]] [[work|el trabajo]] [[at|a las]] [[five|cinco]] [[o'clock|punto]].",
       "words": ["[[o'clock|en punto]].", "[[five|cinco]]", "[[at|a las]]", "[[work|el trabajo]]", "[[finish|termino]]", "[[I|Yo]]"],
       "explanation": "'Finish' es terminar."
     },
@@ -159,7 +159,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la dirección correcta.",
       "questions": [
         {
-          "question": "[[She goes|Ella va]] (_____) [[after work.|después del trabajo.]]",
+          "question": "[[She|Ella]] [[goes|va]] (_____) [[after|después del]] [[work.|trabajo.]]",
           "options": ["[[home|a casa]]", "[[to office|a la oficina]]", "[[to gym|al gimnasio]]"],
           "correctAnswer": 0,
           "explanation": "'Go home' no lleva preposición 'to'."
@@ -181,7 +181,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la comida del día.",
       "questions": [
         {
-          "question": "[[We have|Cenamos]] (_____) [[at eight.|a las ocho.]]",
+          "question": "[[We|Nosotros]] [[have|tenemos]] (_____) [[at|a las]] [[eight.|ocho.]]",
           "options": ["[[dinner|la cena]]", "[[breakfast|el desayuno]]", "[[lunch|el almuerzo]]"],
           "correctAnswer": 0,
           "explanation": "La cena es 'dinner'."
@@ -203,7 +203,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la rutina final.",
       "questions": [
         {
-          "question": "[[I go to|Voy a la]] (_____) [[at eleven.|a las once.]]",
+          "question": "[[I|Yo]] [[go|voy]] [[to|a]] (_____) [[at|a las]] [[eleven.|once.]]",
           "options": ["[[bed|cama]]", "[[work|trabajo]]", "[[kitchen|cocina]]"],
           "correctAnswer": 0,
           "explanation": "'Go to bed' es irse a la cama."
@@ -227,7 +227,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta del verbo.",
       "questions": [
         {
-          "question": "[[He|Él]] (_____) [[coffee in the morning.|café por la mañana.]]",
+          "question": "[[He|Él]] (_____) [[coffee|café]] [[in|en]] [[the|la]] [[morning.|mañana.]]",
           "options": ["[[drinks|bebe]]", "[[drink|beber]]", "[[drinking|bebiendo]]"],
           "correctAnswer": 0,
           "explanation": "En la 3ª persona del singular (he/she/it) añadimos 's' al verbo."
@@ -249,7 +249,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta para 'she'.",
       "questions": [
         {
-          "question": "[[She|Ella]] (_____) [[TV in the evening.|la televisión por la tarde/noche.]]",
+          "question": "[[She|Ella]] (_____) [[TV|televisión]] [[in|en]] [[the|la]] [[evening.|tarde/noche.]]",
           "options": ["[[watches|ve]]", "[[watchs|error]]", "[[watch|ver]]"],
           "correctAnswer": 0,
           "explanation": "Los verbos que terminan en -ch añaden 'es' en la 3ª persona."
@@ -271,7 +271,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el auxiliar correcto.",
       "questions": [
         {
-          "question": "(_____) [[he work on Saturdays?|él trabaja los sábados?]]",
+          "question": "(_____) [[he|él]] [[work|trabaja]] [[on|los]] [[Saturdays?|sábados?]]",
           "options": ["[[Does|¿Hace?]]", "[[Do|¿Hace?]]", "[[Is|¿Es?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Does' para preguntas con he/she/it."
@@ -293,7 +293,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma negativa correcta.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[like eggs for breakfast.|me gustan los huevos para desayunar.]]",
+          "question": "[[I|Yo]] (_____) [[like|gustan]] [[eggs|huevos]] [[for|para]] [[breakfast.|desayuno.]]",
           "options": ["[[don't|no]]", "[[doesn't|no (3ª pers)]]", "[[not|no]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'don't' (do not) para la negación con I/you/we/they."
@@ -315,7 +315,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma negativa para 'she'.",
       "questions": [
         {
-          "question": "[[She|Ella]] (_____) [[drink tea.|bebe té.]]",
+          "question": "[[She|Ella]] (_____) [[drink|bebe]] [[tea.|té.]]",
           "options": ["[[doesn't|no]]", "[[don't|no]]", "[[isn't|no es]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'doesn't' (does not) para la negación con he/she/it."
@@ -335,7 +335,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hábito Diario",
       "instructions": "Ordena la frase de hábito.",
-      "correctSentence": "[[They study English every day|Ellos estudian inglés todos los días]].",
+      "correctSentence": "[[They|Ellos]] [[study|estudian]] [[English|inglés]] [[every|cada]] [[day|día]].",
       "words": ["[[day|día]].", "[[every|cada]]", "[[English|inglés]]", "[[study|estudian]]", "[[They|Ellos]]"],
       "explanation": "El Presente Simple se usa para hábitos diarios."
     },
@@ -354,7 +354,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el auxiliar para 'you'.",
       "questions": [
         {
-          "question": "(_____) [[you live in a house?|vives en una casa?]]",
+          "question": "(_____) [[you|tú]] [[live|vives]] [[in|en]] [[a|una]] [[house?|casa?]]",
           "options": ["[[Do|¿Hace?]]", "[[Does|¿Hace?]]", "[[Are|¿Eres?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Do' para preguntas con you."
@@ -376,7 +376,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo correcto para 'my father'.",
       "questions": [
         {
-          "question": "[[My father|Mi padre]] (_____) [[in a bank.|en un banco.]]",
+          "question": "[[My|Mi]] [[father|padre]] (_____) [[in|en]] [[a|un]] [[bank.|banco.]]",
           "options": ["[[works|trabaja]]", "[[work|trabajar]]", "[[working|trabajando]]"],
           "correctAnswer": 0,
           "explanation": "'My father' equivale a 'he', por lo que añadimos 's'."
@@ -398,7 +398,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo correcto para 'we'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[football on Sundays.|al fútbol los domingos.]]",
+          "question": "[[We|Nosotros]] (_____) [[football|fútbol]] [[on|los]] [[Sundays.|domingos.]]",
           "options": ["[[play|jugamos]]", "[[plays|juega]]", "[[playing|jugando]]"],
           "correctAnswer": 0,
           "explanation": "Con 'we' usamos el verbo en su forma base."
@@ -418,7 +418,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pregunta de Tiempo",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[What time do you wake up?|¿A qué hora te despiertas?]]",
+      "correctSentence": "[[What|Qué]] [[time|hora]] [[do|hacer]] [[you|tú]] [[wake|te]] [[up?|despiertas?]]",
       "words": ["[[up?|despiertas?]]", "[[wake|te]]", "[[you|tú]]", "[[do|hacer]]", "[[time|hora]]", "[[What|Qué]]"],
       "explanation": "Orden: Wh-word + auxiliary + subject + verb."
     },
@@ -438,7 +438,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta con 'they'.",
       "questions": [
         {
-          "question": "(_____) [[they study at night?|estudian ellos por la noche?]]",
+          "question": "(_____) [[they|ellos]] [[study|estudian]] [[at|por la]] [[night?|noche?]]",
           "options": ["[[Do|¿Hacen?]]", "[[Does|¿Hace?]]", "[[Are|¿Están?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Do' para preguntar con 'they'."
@@ -460,7 +460,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma correcta de 'have' para 'she'.",
       "questions": [
         {
-          "question": "[[She|Ella]] (_____) [[breakfast at home.|el desayuno en casa.]]",
+          "question": "[[She|Ella]] (_____) [[breakfast|desayuno]] [[at|en]] [[home.|casa.]]",
           "options": ["[[has|tiene]]", "[[have|tener]]", "[[haves|error]]"],
           "correctAnswer": 0,
           "explanation": "'Have' cambia a 'has' en la tercera persona singular."
@@ -480,7 +480,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Negación de Rutina",
       "instructions": "Ordena la frase negativa.",
-      "correctSentence": "[[I don't go to the gym on Mondays|No voy al gimnasio los lunes]].",
+      "correctSentence": "[[I|Yo]] [[don't|no]] [[go|voy]] [[to|a]] [[the|el]] [[gym|gimnasio]] [[on|los]] [[Mondays.|lunes.]]",
       "words": ["[[Mondays|lunes]].", "[[on|los]]", "[[gym|gimnasio]]", "[[the|al]]", "[[to|a]]", "[[go|voy]]", "[[don't|no]]", "[[I|Yo]]"],
       "explanation": "Usamos 'don't' para negar rutinas con 'I'."
     },
@@ -499,7 +499,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta con 'she'.",
       "questions": [
         {
-          "question": "(_____) [[she go to work by train?|va ella al trabajo en tren?]]",
+          "question": "(_____) [[she|ella]] [[go|va]] [[to|al]] [[work|trabajo]] [[by|por]] [[train?|tren?]]",
           "options": ["[[Does|¿Hace?]]", "[[Do|¿Hacen?]]", "[[Is|¿Está?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Does' para preguntas con 'he/she/it'."
@@ -521,7 +521,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo para 'el gato'.",
       "questions": [
         {
-          "question": "[[My cat|Mi gato]] (_____) [[all day.|todo el día.]]",
+          "question": "[[My|Mi]] [[cat|gato]] (_____) [[all|todo el]] [[day.|día.]]",
           "options": ["[[sleeps|duerme]]", "[[sleep|dormir]]", "[[sleeping|durmiendo]]"],
           "correctAnswer": 0,
           "explanation": "'My cat' es 'it', por lo que añadimos 's' al verbo."
@@ -541,7 +541,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pregunta de Lugar",
       "instructions": "Ordena la pregunta sobre la hermana.",
-      "correctSentence": "[[Where does your sister live?|¿Dónde vive tu hermana?]]",
+      "correctSentence": "[[Where|Dónde]] [[does|hacer]] [[your|tu]] [[sister|hermana]] [[live?|vive?]]",
       "words": ["[[live?|vive?]]", "[[sister|hermana]]", "[[your|tu]]", "[[does|hacer]]", "[[Where|Dónde]]"],
       "explanation": "Wh-word + does + subject + verb."
     },
@@ -560,7 +560,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma negativa para 'we'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[watch TV in the morning.|vemos la tele por la mañana.]]",
+          "question": "[[We|Nosotros]] (_____) [[watch|vemos]] [[TV|tele]] [[in|en]] [[the|la]] [[morning.|mañana.]]",
           "options": ["[[don't|no]]", "[[doesn't|no]]", "[[isn't|no somos]]"],
           "correctAnswer": 0,
           "explanation": "La negación para 'we' es 'don't'."
@@ -582,7 +582,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la forma para 'he'.",
       "questions": [
         {
-          "question": "[[He|Él]] (_____) [[work late.|el trabajo tarde.]]",
+          "question": "[[He|Él]] (_____) [[work|trabajo]] [[late.|tarde.]]",
           "options": ["[[finishes|termina]]", "[[finishs|error]]", "[[finish|terminar]]"],
           "correctAnswer": 0,
           "explanation": "Los verbos terminados en -sh añaden 'es' en la 3ª persona."
@@ -602,7 +602,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pregunta de Transporte",
       "instructions": "Ordena la pregunta sobre cómo ir al trabajo.",
-      "correctSentence": "[[How do you go to work?|¿Cómo vas al trabajo?]]",
+      "correctSentence": "[[How|Cómo]] [[do|hacer]] [[you|tú]] [[go|vas]] [[to|al]] [[work?|trabajo?]]",
       "words": ["[[work?|trabajo?]]", "[[to|al]]", "[[go|vas]]", "[[you|tú]]", "[[do|hacer]]", "[[How|Cómo]]"],
       "explanation": "Wh-word + do + subject + verb + complements."
     },
@@ -621,7 +621,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta de posesión.",
       "questions": [
         {
-          "question": "(_____) [[you have any brothers?|tienes algún hermano?]]",
+          "question": "(_____) [[you|tú]] [[have|tienes]] [[any|algún]] [[brothers?|hermano?]]",
           "options": ["[[Do|¿Haces?]]", "[[Have|¿Tienes?]]", "[[Does|¿Hace?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos el auxiliar 'Do' para hacer preguntas con el verbo 'have'."
@@ -645,7 +645,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la hora correcta.",
       "questions": [
         {
-          "question": "[[It's|Son las]] (_____) [[half past eight.|ocho y media.]]",
+          "question": "[[It's|Son las]] (_____) [[half|y]] [[past|media]] [[eight.|ocho.]]",
           "options": ["[[8:30|8:30]]", "[[8:00|8:00]]", "[[8:15|8:15]]"],
           "correctAnswer": 0,
           "explanation": "'Half past' significa 'y media'."
@@ -667,7 +667,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la hora correcta.",
       "questions": [
         {
-          "question": "[[It's|Son las]] (_____) [[quarter past ten.|diez y cuarto.]]",
+          "question": "[[It's|Son las]] (_____) [[quarter|y]] [[past|cuarto]] [[ten.|diez.]]",
           "options": ["[[10:15|10:15]]", "[[10:45|10:45]]", "[[10:30|10:30]]"],
           "correctAnswer": 0,
           "explanation": "'Quarter past' significa 'y cuarto'."
@@ -689,7 +689,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la hora correcta.",
       "questions": [
         {
-          "question": "[[It's|Son las]] (_____) [[quarter to six.|seis menos cuarto.]]",
+          "question": "[[It's|Son las]] (_____) [[quarter|menos]] [[to|cuarto]] [[six.|seis.]]",
           "options": ["[[5:45|5:45]]", "[[6:15|6:15]]", "[[6:45|6:45]]"],
           "correctAnswer": 0,
           "explanation": "'Quarter to six' es las seis menos cuarto (5:45)."
@@ -709,7 +709,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hora en punto",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[It is ten o'clock|Son las diez en punto]].",
+      "correctSentence": "[[It|Ello]] [[is|es/son]] [[ten|diez]] [[o'clock|en punto]].",
       "words": ["[[o'clock|en punto]].", "[[ten|diez]]", "[[is|es/son]]", "[[It|Ello]]"],
       "explanation": "'O'clock' se usa para horas exactas."
     },
@@ -728,7 +728,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la pregunta correcta.",
       "questions": [
         {
-          "question": "(_____) [[is it?|es?]]",
+          "question": "(_____) [[is|es]] [[it?|ello?]]",
           "options": ["[[What time|Qué hora]]", "[[How time|Cómo hora]]", "[[Where time|Dónde hora]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'What time is it?' para preguntar la hora."
@@ -750,7 +750,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la hora.",
       "questions": [
         {
-          "question": "[[It's|Son las]] (_____) [[five past eleven.|once y cinco.]]",
+          "question": "[[It's|Son las]] (_____) [[five|cinco]] [[past|y]] [[eleven.|once.]]",
           "options": ["[[11:05|11:05]]", "[[11:50|11:50]]", "[[5:11|5:11]]"],
           "correctAnswer": 0,
           "explanation": "'Five past' son cinco minutos pasados de la hora."
@@ -772,7 +772,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la hora correcta.",
       "questions": [
         {
-          "question": "[[It's|Son las]] (_____) [[twenty to four.|cuatro menos veinte.]]",
+          "question": "[[It's|Son las]] (_____) [[twenty|veinte]] [[to|menos]] [[four.|cuatro.]]",
           "options": ["[[3:40|3:40]]", "[[4:20|4:20]]", "[[4:40|4:40]]"],
           "correctAnswer": 0,
           "explanation": "'Twenty to four' es las cuatro menos veinte (3:40)."
@@ -792,7 +792,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Hora de la comida",
       "instructions": "Ordena la pregunta sobre un evento.",
-      "correctSentence": "[[At what time is lunch?|¿A qué hora es el almuerzo?]]",
+      "correctSentence": "[[At|A]] [[what|qué]] [[time|hora]] [[is|es]] [[lunch?|el almuerzo?]]",
       "words": ["[[lunch?|almuerzo?]]", "[[is|es]]", "[[time|hora]]", "[[what|qué]]", "[[At|A]]"],
       "explanation": "Usamos 'At what time' para preguntar cuándo ocurre algo."
     },
@@ -857,7 +857,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el adverbio correcto.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[drink water.|bebo agua.]]",
+          "question": "[[I|Yo]] (_____) [[drink|bebo]] [[water.|agua.]]",
           "options": ["[[always|siempre]]", "[[never|nunca]]", "[[sometimes|a veces]]"],
           "correctAnswer": 0,
           "explanation": "'Always' indica una frecuencia del 100%."
@@ -879,7 +879,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el adverbio para '0%'.",
       "questions": [
         {
-          "question": "[[She|Ella]] (_____) [[eats meat.|come carne.]]",
+          "question": "[[She|Ella]] (_____) [[eats|come]] [[meat.|carne.]]",
           "options": ["[[never|nunca]]", "[[always|siempre]]", "[[often|a menudo]]"],
           "correctAnswer": 0,
           "explanation": "'Never' significa que la acción no ocurre nunca."
@@ -899,8 +899,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Frecuencia: A veces",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[I sometimes go to the gym|A veces voy al gimnasio]].",
-      "words": ["[[gym|gimnasio]].", "[[the|al]]", "[[to|a]]", "[[go|voy]]", "[[sometimes|a veces]]", "[[I|Yo]]"],
+      "correctSentence": "[[I|Yo]] [[sometimes|a veces]] [[go|voy]] [[to the|al]] [[gym.|gimnasio.]]",
+      "words": ["[[gym.|gimnasio.]]", "[[the|al]]", "[[to|a]]", "[[go|voy]]", "[[sometimes|a veces]]", "[[I|Yo]]"],
       "explanation": "Los adverbios de frecuencia suelen ir antes del verbo principal."
     },
     "audioUrl": "audio/a1/unit-21/e43.mp3",
@@ -918,7 +918,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición para las horas.",
       "questions": [
         {
-          "question": "[[I wake up|Me despierto]] (_____) [[seven.|las siete.]]",
+          "question": "[[I|Yo]] [[wake up|me despierto]] (_____) [[seven.|las siete.]]",
           "options": ["[[at|a las]]", "[[on|el]]", "[[in|en]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'at' para las horas exactas."
@@ -940,7 +940,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición correcta.",
       "questions": [
         {
-          "question": "[[She works|Ella trabaja]] (_____) [[the morning.|la mañana.]]",
+          "question": "[[She|Ella]] [[works|trabaja]] (_____) [[the|la]] [[morning.|mañana.]]",
           "options": ["[[in|en/por]]", "[[at|a las]]", "[[on|el]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'in' para 'the morning', 'the afternoon' y 'the evening'."
@@ -962,7 +962,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la excepción.",
       "questions": [
         {
-          "question": "[[We study|Estudiamos]] (_____) [[night.|la noche.]]",
+          "question": "[[We|Nosotros]] [[study|estudiamos]] (_____) [[night.|la noche.]]",
           "options": ["[[at|por]]", "[[in|en]]", "[[on|el]]"],
           "correctAnswer": 0,
           "explanation": "'Night' es una excepción y usa 'at'."
@@ -982,8 +982,8 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "content": {
       "title": "Días de la Semana",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[He plays tennis on Tuesdays|Él juega al tenis los martes]].",
-      "words": ["[[Tuesdays|martes]].", "[[on|los]]", "[[tennis|tenis]]", "[[plays|juega]]", "[[He|Él]]"],
+      "correctSentence": "[[He|Él]] [[plays|juega]] [[tennis|al tenis]] [[on|los]] [[Tuesdays.|martes.]]",
+      "words": ["[[Tuesdays.|martes.]]", "[[on|los]]", "[[tennis|tenis]]", "[[plays|juega]]", "[[He|Él]]"],
       "explanation": "Usamos 'on' para los días de la semana."
     },
     "audioUrl": "audio/a1/unit-21/e47.mp3",
@@ -1001,7 +1001,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige la preposición para 'noon'.",
       "questions": [
         {
-          "question": "[[Lunch is|El almuerzo es]] (_____) [[noon.|mediodía.]]",
+          "question": "[[Lunch|El almuerzo]] [[is|es]] (_____) [[noon.|mediodía.]]",
           "options": ["[[at|al]]", "[[in|en]]", "[[on|el]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'at' para 'noon' y 'midnight'."
@@ -1023,7 +1023,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Elige el adverbio de frecuencia.",
       "questions": [
         {
-          "question": "[[They|Ellos]] (_____) [[watch movies.|ven películas.]]",
+          "question": "[[They|Ellos]] (_____) [[watch|ven]] [[movies.|películas.]]",
           "options": ["[[often|a menudo]]", "[[never|nunca]]", "[[always|siempre]]"],
           "correctAnswer": 0,
           "explanation": "'Often' significa con frecuencia."
@@ -1045,7 +1045,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "(_____) [[she speak English?|ella habla inglés?]]",
+          "question": "(_____) [[she|ella]] [[speak|habla]] [[English?|inglés?]]",
           "options": ["[[Does|¿Hace?]]", "[[Is|¿Es?]]", "[[Do|¿Hace?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Does' para preguntas con 'she'."
@@ -1063,7 +1063,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Every day,|Cada día,]] [[I wake up|me despierto]] [[at six o'clock.|a las seis en punto.]] [[I have a shower|Me doy una ducha]] [[and then|y luego]] [[I have breakfast.|desayuno.]] [[I always eat|Siempre como]] [[toast and fruit.|tostadas y fruta.]] [[I go to work|Voy al trabajo]] [[by train|en tren]] [[at seven thirty.|a las siete y media.]] [[I start work|Empiezo a trabajar]] [[at eight.|a las ocho.]] [[I am very busy|Estoy muy ocupado]] [[all day.|todo el día.]] [[I have lunch|Almuerzo]] [[at one o'clock|a la una en punto]] [[with my colleagues.|con mis compañeros.]] [[I finish work|Termino de trabajar]] [[at five.|a las cinco.]] [[In the evening,|Por la tarde,]] [[I relax|me relajo]] [[and watch TV.|y veo la televisión.]] [[I go to bed|Me voy a la cama]] [[at ten thirty.|a las diez y media.]]",
+    "transcript": "[[Every|Cada]] [[day,|día,]] [[I|Yo]] [[wake up|me despierto]] [[at|a las]] [[six|seis]] [[o'clock.|en punto.]] [[I|Yo]] [[have|me doy]] [[a|una]] [[shower|ducha]] [[and|y]] [[then|luego]] [[I|Yo]] [[have|tomo]] [[breakfast.|el desayuno.]] [[I|Yo]] [[always|siempre]] [[eat|como]] [[toast|tostadas]] [[and|y]] [[fruit.|fruta.]] [[I|Yo]] [[go|voy]] [[to|al]] [[work|trabajo]] [[by|en]] [[train|tren]] [[at|a las]] [[seven|siete]] [[thirty.|y media.]] [[I|Yo]] [[start|empiezo]] [[work|a trabajar]] [[at|a las]] [[eight.|ocho.]] [[I|Yo]] [[am|estoy]] [[very|muy]] [[busy|ocupado]] [[all|todo]] [[day.|el día.]] [[I|Yo]] [[have|tomo]] [[lunch|el almuerzo]] [[at|a]] [[one|la una]] [[o'clock|en punto]] [[with|con]] [[my|mis]] [[colleagues.|compañeros.]] [[I|Yo]] [[finish|termino]] [[work|de trabajar]] [[at|a las]] [[five.|cinco.]] [[In|Por]] [[the|la]] [[evening,|tarde,]] [[I|Yo]] [[relax|me relajo]] [[and|y]] [[watch|veo]] [[TV.|la televisión.]] [[I|Yo]] [[go|voy]] [[to|a]] [[bed|la cama]] [[at|a las]] [[ten|diez]] [[thirty.|y media.]]",
     "content": {
       "title": "[[Reading: My Daily Routine|Lectura: Mi rutina diaria]]",
       "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
@@ -1085,7 +1085,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Every day,|Cada día,]] [[I wake up|me despierto]] [[at six o'clock.|a las seis en punto.]] [[I have a shower|Me doy una ducha]] [[and then|y luego]] [[I have breakfast.|desayuno.]] [[I always eat|Siempre como]] [[toast and fruit.|tostadas y fruta.]] [[I go to work|Voy al trabajo]] [[by train|en tren]] [[at seven thirty.|a las siete y media.]] [[I start work|Empiezo a trabajar]] [[at eight.|a las ocho.]] [[I am very busy|Estoy muy ocupado]] [[all day.|todo el día.]] [[I have lunch|Almuerzo]] [[at one o'clock|a la una en punto]] [[with my colleagues.|con mis compañeros.]] [[I finish work|Termino de trabajar]] [[at five.|a las cinco.]] [[In the evening,|Por la tarde,]] [[I relax|me relajo]] [[and watch TV.|y veo la televisión.]] [[I go to bed|Me voy a la cama]] [[at ten thirty.|a las diez y media.]]",
+    "transcript": "[[Every|Cada]] [[day,|día,]] [[I|Yo]] [[wake up|me despierto]] [[at|a las]] [[six|seis]] [[o'clock.|en punto.]] [[I|Yo]] [[have|me doy]] [[a|una]] [[shower|ducha]] [[and|y]] [[then|luego]] [[I|Yo]] [[have|tomo]] [[breakfast.|el desayuno.]] [[I|Yo]] [[always|siempre]] [[eat|como]] [[toast|tostadas]] [[and|y]] [[fruit.|fruta.]] [[I|Yo]] [[go|voy]] [[to|al]] [[work|trabajo]] [[by|en]] [[train|tren]] [[at|a las]] [[seven|siete]] [[thirty.|y media.]] [[I|Yo]] [[start|empiezo]] [[work|a trabajar]] [[at|a las]] [[eight.|ocho.]] [[I|Yo]] [[am|estoy]] [[very|muy]] [[busy|ocupado]] [[all|todo]] [[day.|el día.]] [[I|Yo]] [[have|tomo]] [[lunch|el almuerzo]] [[at|a]] [[one|la una]] [[o'clock|en punto]] [[with|con]] [[my|mis]] [[colleagues.|compañeros.]] [[I|Yo]] [[finish|termino]] [[work|de trabajar]] [[at|a las]] [[five.|cinco.]] [[In|Por]] [[the|la]] [[evening,|tarde,]] [[I|Yo]] [[relax|me relajo]] [[and|y]] [[watch|veo]] [[TV.|la televisión.]] [[I|Yo]] [[go|voy]] [[to|a]] [[bed|la cama]] [[at|a las]] [[ten|diez]] [[thirty.|y media.]]",
     "content": {
       "title": "[[Reading: Transportation|Lectura: Transporte]]",
       "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
@@ -1107,7 +1107,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Every day,|Cada día,]] [[I wake up|me despierto]] [[at six o'clock.|a las seis en punto.]] [[I have a shower|Me doy una ducha]] [[and then|y luego]] [[I have breakfast.|desayuno.]] [[I always eat|Siempre como]] [[toast and fruit.|tostadas y fruta.]] [[I go to work|Voy al trabajo]] [[by train|en tren]] [[at seven thirty.|a las siete y media.]] [[I start work|Empiezo a trabajar]] [[at eight.|a las ocho.]] [[I am very busy|Estoy muy ocupado]] [[all day.|todo el día.]] [[I have lunch|Almuerzo]] [[at one o'clock|a la una en punto]] [[with my colleagues.|con mis compañeros.]] [[I finish work|Termino de trabajar]] [[at five.|a las cinco.]] [[In the evening,|Por la tarde,]] [[I relax|me relajo]] [[and watch TV.|y veo la televisión.]] [[I go to bed|Me voy a la cama]] [[at ten thirty.|a las diez y media.]]",
+    "transcript": "[[Every|Cada]] [[day,|día,]] [[I|Yo]] [[wake up|me despierto]] [[at|a las]] [[six|seis]] [[o'clock.|en punto.]] [[I|Yo]] [[have|me doy]] [[a|una]] [[shower|ducha]] [[and|y]] [[then|luego]] [[I|Yo]] [[have|tomo]] [[breakfast.|el desayuno.]] [[I|Yo]] [[always|siempre]] [[eat|como]] [[toast|tostadas]] [[and|y]] [[fruit.|fruta.]] [[I|Yo]] [[go|voy]] [[to|al]] [[work|trabajo]] [[by|en]] [[train|tren]] [[at|a las]] [[seven|siete]] [[thirty.|y media.]] [[I|Yo]] [[start|empiezo]] [[work|a trabajar]] [[at|a las]] [[eight.|ocho.]] [[I|Yo]] [[am|estoy]] [[very|muy]] [[busy|ocupado]] [[all|todo]] [[day.|el día.]] [[I|Yo]] [[have|tomo]] [[lunch|el almuerzo]] [[at|a]] [[one|la una]] [[o'clock|en punto]] [[with|con]] [[my|mis]] [[colleagues.|compañeros.]] [[I|Yo]] [[finish|termino]] [[work|de trabajar]] [[at|a las]] [[five.|cinco.]] [[In|Por]] [[the|la]] [[evening,|tarde,]] [[I|Yo]] [[relax|me relajo]] [[and|y]] [[watch|veo]] [[TV.|la televisión.]] [[I|Yo]] [[go|voy]] [[to|a]] [[bed|la cama]] [[at|a las]] [[ten|diez]] [[thirty.|y media.]]",
     "content": {
       "title": "[[Reading: Finishing Work|Lectura: Terminando de trabajar]]",
       "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
@@ -1129,7 +1129,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[My brother, David,|Mi hermano, David,]] [[has a very different routine.|tiene una rutina muy diferente.]] [[He doesn't wake up|Él no se despierta]] [[early.|temprano.]] [[He wakes up|Se despierta]] [[at eleven o'clock.|a las once en punto.]] [[He is a musician.|Es músico.]] [[He doesn't work|No trabaja]] [[in an office.|en una oficina.]] [[He plays the guitar|Toca la guitarra]] [[in a club|en un club]] [[at night.|por la noche.]] [[He starts work|Empiezo a trabajar]] [[at ten PM|a las diez de la noche]] [[and finishes|y termina]] [[at three AM.|a las tres de la mañana.]] [[He has lunch|Almuerza]] [[at four in the afternoon.|a las cuatro de la tarde.]] [[He likes his job|Le gusta su trabajo]] [[because he loves music.|porque ama la música.]]",
+    "transcript": "[[My|Mi]] [[brother,|hermano,]] [[David,|David,]] [[has|tiene]] [[a|una]] [[very|muy]] [[different|diferente]] [[routine.|rutina.]] [[He|Él]] [[doesn't|no]] [[wake up|se despierta]] [[early.|temprano.]] [[He|Él]] [[wakes up|se despierta]] [[at|a las]] [[eleven|once]] [[o'clock.|en punto.]] [[He|Él]] [[is|es]] [[a|un]] [[musician.|músico.]] [[He|Él]] [[doesn't|no]] [[work|trabaja]] [[in|en]] [[an|una]] [[office.|oficina.]] [[He|Él]] [[plays|toca]] [[the|la]] [[guitar|guitarra]] [[in|en]] [[a|un]] [[club|club]] [[at|por la]] [[night.|noche.]] [[He|Él]] [[starts|empieza]] [[work|a trabajar]] [[at|a las]] [[ten|diez]] [[PM|de la noche]] [[and|y]] [[finishes|termina]] [[at|a las]] [[three|tres]] [[AM.|de la mañana.]] [[He|Él]] [[has|toma]] [[lunch|el almuerzo]] [[at|a las]] [[four|cuatro]] [[in|de]] [[the|la]] [[afternoon.|tarde.]] [[He|Él]] [[likes|le gusta]] [[his|su]] [[job|trabajo]] [[because|porque]] [[he|él]] [[loves|ama]] [[music.|la música.]]",
     "content": {
       "title": "[[Reading: David's Routine|Lectura: La rutina de David]]",
       "instructions": "[[Read about David and answer.|Lee sobre David y responde.]]",
@@ -1151,7 +1151,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[My brother, David,|Mi hermano, David,]] [[has a very different routine.|tiene una rutina muy diferente.]] [[He doesn't wake up|Él no se despierta]] [[early.|temprano.]] [[He wakes up|Se despierta]] [[at eleven o'clock.|a las once en punto.]] [[He is a musician.|Es músico.]] [[He doesn't work|No trabaja]] [[in an office.|en una oficina.]] [[He plays the guitar|Toca la guitarra]] [[in a club|en un club]] [[at night.|por la noche.]] [[He starts work|Empiezo a trabajar]] [[at ten PM|a las diez de la noche]] [[and finishes|y termina]] [[at three AM.|a las tres de la mañana.]] [[He has lunch|Almuerza]] [[at four in the afternoon.|a las cuatro de la tarde.]] [[He likes his job|Le gusta su trabajo]] [[because he loves music.|porque ama la música.]]",
+    "transcript": "[[My|Mi]] [[brother,|hermano,]] [[David,|David,]] [[has|tiene]] [[a|una]] [[very|muy]] [[different|diferente]] [[routine.|rutina.]] [[He|Él]] [[doesn't|no]] [[wake up|se despierta]] [[early.|temprano.]] [[He|Él]] [[wakes up|se despierta]] [[at|a las]] [[eleven|once]] [[o'clock.|en punto.]] [[He|Él]] [[is|es]] [[a|un]] [[musician.|músico.]] [[He|Él]] [[doesn't|no]] [[work|trabaja]] [[in|en]] [[an|una]] [[office.|oficina.]] [[He|Él]] [[plays|toca]] [[the|la]] [[guitar|guitarra]] [[in|en]] [[a|un]] [[club|club]] [[at|por la]] [[night.|noche.]] [[He|Él]] [[starts|empieza]] [[work|a trabajar]] [[at|a las]] [[ten|diez]] [[PM|de la noche]] [[and|y]] [[finishes|termina]] [[at|a las]] [[three|tres]] [[AM.|de la mañana.]] [[He|Él]] [[has|toma]] [[lunch|el almuerzo]] [[at|a las]] [[four|cuatro]] [[in|de]] [[the|la]] [[afternoon.|tarde.]] [[He|Él]] [[likes|le gusta]] [[his|su]] [[job|trabajo]] [[because|porque]] [[he|él]] [[loves|ama]] [[music.|la música.]]",
     "content": {
       "title": "[[Reading: Working Hours|Lectura: Horario de trabajo]]",
       "instructions": "[[Read about David and answer.|Lee sobre David y responde.]]",
@@ -1173,7 +1173,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Sarah and Tom|Sarah y Tom]] [[are very active.|son muy activos.]] [[They go to the gym|Van al gimnasio]] [[three times a week.|tres veces por semana.]] [[On Mondays,|Los lunes,]] [[they go swimming.|van a nadar.]] [[On Wednesdays,|Los miércoles,]] [[they play tennis.|juegan al tenis.]] [[And on Fridays,|Y los viernes,]] [[they do yoga.|hacen yoga.]] [[They usually meet|Normalmente se encuentran]] [[at six thirty PM.|a las seis y media de la tarde.]] [[After the gym,|Después del gimnasio,]] [[they sometimes have|a veces cenan]] [[dinner together.|juntos.]] [[They don't like|No les gustan]] [[fast food.|la comida rápida.]] [[They prefer|Prefieren]] [[healthy salads.|ensaladas saludables.]]",
+    "transcript": "[[Sarah|Sarah]] [[and|y]] [[Tom|Tom]] [[are|son]] [[very|muy]] [[active.|activos.]] [[They|Ellos]] [[go|van]] [[to|al]] [[the|el]] [[gym|gimnasio]] [[three|tres]] [[times|veces]] [[a|por]] [[week.|semana.]] [[On|Los]] [[Mondays,|lunes,]] [[they|ellos]] [[go|van]] [[swimming.|a nadar.]] [[On|Los]] [[Wednesdays,|miércoles,]] [[they|ellos]] [[play|juegan]] [[tennis.|al tenis.]] [[And|Y]] [[on|los]] [[Fridays,|viernes,]] [[they|ellos]] [[do|hacen]] [[yoga.|yoga.]] [[They|Ellos]] [[usually|normalmente]] [[meet|se encuentran]] [[at|a las]] [[six|seis]] [[thirty|y media]] [[PM.|de la tarde.]] [[After|Después]] [[the|del]] [[gym,|gimnasio,]] [[they|ellos]] [[sometimes|a veces]] [[have|cenan]] [[dinner|cenan]] [[together.|juntos.]] [[They|Ellos]] [[don't|no]] [[like|les gusta]] [[fast|la comida]] [[food.|rápida.]] [[They|Ellos]] [[prefer|prefieren]] [[healthy|ensaladas]] [[salads.|saludables.]]",
     "content": {
       "title": "[[Reading: Active Life|Lectura: Vida activa]]",
       "instructions": "[[Read and answer.|Lee y responde.]]",
@@ -1195,7 +1195,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Sarah and Tom|Sarah y Tom]] [[are very active.|son muy activos.]] [[They go to the gym|Van al gimnasio]] [[three times a week.|tres veces por semana.]] [[On Mondays,|Los lunes,]] [[they go swimming.|van a nadar.]] [[On Wednesdays,|Los miércoles,]] [[they play tennis.|juegan al tenis.]] [[And on Fridays,|Y los viernes,]] [[they do yoga.|hacen yoga.]] [[They usually meet|Normalmente se encuentran]] [[at six thirty PM.|a las seis y media de la tarde.]] [[After the gym,|Después del gimnasio,]] [[they sometimes have|a veces cenan]] [[dinner together.|juntos.]] [[They don't like|No les gustan]] [[fast food.|la comida rápida.]] [[They prefer|Prefieren]] [[healthy salads.|ensaladas saludables.]]",
+    "transcript": "[[Sarah|Sarah]] [[and|y]] [[Tom|Tom]] [[are|son]] [[very|muy]] [[active.|activos.]] [[They|Ellos]] [[go|van]] [[to|al]] [[the|el]] [[gym|gimnasio]] [[three|tres]] [[times|veces]] [[a|por]] [[week.|semana.]] [[On|Los]] [[Mondays,|lunes,]] [[they|ellos]] [[go|van]] [[swimming.|a nadar.]] [[On|Los]] [[Wednesdays,|miércoles,]] [[they|ellos]] [[play|juegan]] [[tennis.|al tenis.]] [[And|Y]] [[on|los]] [[Fridays,|viernes,]] [[they|ellos]] [[do|hacen]] [[yoga.|yoga.]] [[They|Ellos]] [[usually|normalmente]] [[meet|se encuentran]] [[at|a las]] [[six|seis]] [[thirty|y media]] [[PM.|de la tarde.]] [[After|Después]] [[the|del]] [[gym,|gimnasio,]] [[they|ellos]] [[sometimes|a veces]] [[have|cenan]] [[dinner|cenan]] [[together.|juntos.]] [[They|Ellos]] [[don't|no]] [[like|les gusta]] [[fast|la comida]] [[food.|rápida.]] [[They|Ellos]] [[prefer|prefieren]] [[healthy|ensaladas]] [[salads.|saludables.]]",
     "content": {
       "title": "[[Reading: Dinner Habits|Lectura: Hábitos de cena]]",
       "instructions": "[[Read and answer.|Lee y responde.]]",
@@ -1217,7 +1217,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Sunday is my favorite day.|El domingo es mi día favorito.]] [[I don't work.|No trabajo.]] [[I stay in bed|Me quedo en la cama]] [[until ten o'clock.|hasta las diez en punto.]] [[Then,|Luego,]] [[I have a big breakfast.|tomo un gran desayuno.]] [[I read the newspaper|Leo el periódico]] [[and listen to music.|y escucho música.]] [[In the afternoon,|Por la tarde,]] [[I often visit|a menudo visito]] [[my grandparents.|a mis abuelos.]] [[We have tea|Tomamos té]] [[and talk|y hablamos]] [[for hours.|durante horas.]] [[In the evening,|Por la tarde/noche,]] [[I prepare|preparo]] [[my clothes|mi ropa]] [[for Monday.|para el lunes.]] [[I go to sleep|Me voy a dormir]] [[early.|temprano.]]",
+    "transcript": "[[Sunday|El domingo]] [[is|es]] [[my|mi]] [[favorite|favorito]] [[day.|día.]] [[I|Yo]] [[don't|no]] [[work.|trabajo.]] [[I|Yo]] [[stay|me quedo]] [[in|en]] [[bed|la cama]] [[until|hasta]] [[ten|las diez]] [[o'clock.|en punto.]] [[Then,|Luego,]] [[I|Yo]] [[have|tomo]] [[a|un]] [[big|gran]] [[breakfast.|desayuno.]] [[I|Yo]] [[read|leo]] [[the|el]] [[newspaper|periódico]] [[and|y]] [[listen|escucho]] [[to|a]] [[music.|música.]] [[In|Por]] [[the|la]] [[afternoon,|tarde,]] [[I|Yo]] [[often|a menudo]] [[visit|visito]] [[my|a mis]] [[grandparents.|abuelos.]] [[We|Nosotros]] [[have|tomamos]] [[tea|té]] [[and|y]] [[talk|hablamos]] [[for|durante]] [[hours.|horas.]] [[In|Por]] [[the|la]] [[evening,|tarde/noche,]] [[I|Yo]] [[prepare|preparo]] [[my|mi]] [[clothes|ropa]] [[for|para]] [[Monday.|el lunes.]] [[I|Yo]] [[go|me voy]] [[to|a]] [[sleep|dormir]] [[early.|temprano.]]",
     "content": {
       "title": "[[Reading: Sunday Routine|Lectura: Rutina de domingo]]",
       "instructions": "[[Read about the Sunday and answer.|Lee sobre el domingo y responde.]]",
@@ -1239,7 +1239,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Sunday is my favorite day.|El domingo es mi día favorito.]] [[I don't work.|No trabajo.]] [[I stay in bed|Me quedo en la cama]] [[until ten o'clock.|hasta las diez en punto.]] [[Then,|Luego,]] [[I have a big breakfast.|tomo un gran desayuno.]] [[I read the newspaper|Leo el periódico]] [[and listen to music.|y escucho música.]] [[In the afternoon,|Por la tarde,]] [[I often visit|a menudo visito]] [[my grandparents.|a mis abuelos.]] [[We have tea|Tomamos té]] [[and talk|y hablamos]] [[for hours.|durante horas.]] [[In the evening,|Por la tarde/noche,]] [[I prepare|preparo]] [[my clothes|mi ropa]] [[for Monday.|para el lunes.]] [[I go to sleep|Me voy a dormir]] [[early.|temprano.]]",
+    "transcript": "[[Sunday|El domingo]] [[is|es]] [[my|mi]] [[favorite|favorito]] [[day.|día.]] [[I|Yo]] [[don't|no]] [[work.|trabajo.]] [[I|Yo]] [[stay|me quedo]] [[in|en]] [[bed|la cama]] [[until|hasta]] [[ten|las diez]] [[o'clock.|en punto.]] [[Then,|Luego,]] [[I|Yo]] [[have|tomo]] [[a|un]] [[big|gran]] [[breakfast.|desayuno.]] [[I|Yo]] [[read|leo]] [[the|el]] [[newspaper|periódico]] [[and|y]] [[listen|escucho]] [[to|a]] [[music.|música.]] [[In|Por]] [[the|la]] [[afternoon,|tarde,]] [[I|Yo]] [[often|a menudo]] [[visit|visito]] [[my|a mis]] [[grandparents.|abuelos.]] [[We|Nosotros]] [[have|tomamos]] [[tea|té]] [[and|y]] [[talk|hablamos]] [[for|durante]] [[hours.|horas.]] [[In|Por]] [[the|la]] [[evening,|tarde/noche,]] [[I|Yo]] [[prepare|preparo]] [[my|mi]] [[clothes|ropa]] [[for|para]] [[Monday.|el lunes.]] [[I|Yo]] [[go|me voy]] [[to|a]] [[sleep|dormir]] [[early.|temprano.]]",
     "content": {
       "title": "[[Reading: Afternoon Activities|Lectura: Actividades de tarde]]",
       "instructions": "[[Read and answer.|Lee y responde.]]",
@@ -1261,7 +1261,7 @@ export const UNIT_21_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Do you have|¿Tienes]] [[a healthy routine?|una rutina saludable?]] [[It is important|Es importante]] [[to have good habits.|tener buenos hábitos.]] [[You should drink|Deberías beber]] [[eight glasses of water|ocho vasos de agua]] [[every day.|cada día.]] [[You shouldn't skip|No deberías saltarte]] [[breakfast.|el desayuno.]] [[Exercise is also important.|El ejercicio también es importante.]] [[Try to walk|Intenta caminar]] [[thirty minutes|treinta minutos]] [[every morning.|cada mañana.]] [[Finally,|Finalmente,]] [[don't use your phone|no uses tu teléfono]] [[before you sleep.|antes de dormir.]] [[Resting is vital|Descansar es vital]] [[for your health.|para tu salud.]]",
+    "transcript": "[[Do|¿]] [[you|tú]] [[have|tienes]] [[a|una]] [[healthy|saludable]] [[routine?|rutina?]] [[It|Ello]] [[is|es]] [[important|importante]] [[to|de]] [[have|tener]] [[good|buenos]] [[habits.|hábitos.]] [[You|Tú]] [[should|deberías]] [[drink|beber]] [[eight|ocho]] [[glasses|vasos]] [[of|de]] [[water|agua]] [[every|cada]] [[day.|día.]] [[You|Tú]] [[shouldn't|no deberías]] [[skip|saltarte]] [[breakfast.|el desayuno.]] [[Exercise|El ejercicio]] [[is|es]] [[also|también]] [[important.|importante.]] [[Try|Intenta]] [[to|de]] [[walk|caminar]] [[thirty|treinta]] [[minutes|minutos]] [[every|cada]] [[morning.|mañana.]] [[Finally,|Finalmente,]] [[don't|no]] [[use|uses]] [[your|tu]] [[phone|teléfono]] [[before|antes de]] [[you|tú]] [[sleep.|duermas.]] [[Resting|Descansar]] [[is|es]] [[vital|vital]] [[for|para]] [[your|tu]] [[health.|salud.]]",
     "content": {
       "title": "[[Reading: Healthy Tips|Lectura: Consejos saludables]]",
       "instructions": "[[Read the tips and answer.|Lee los consejos y responde.]]",
