@@ -1101,16 +1101,16 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Bienvenido al Grand Hotel",
       "instructions": "Lee sobre los servicios del hotel.",
-      "text": "[[Welcome|Bienvenido]] [[to the Grand Hotel.|al Grand Hotel.]] [[We have|Tenemos]] [[50 rooms.|50 habitaciones.]] [[Our|Nuestras]] [[double rooms|habitaciones dobles]] [[are large|son grandes]] [[and|y]] [[they have|tienen]] [[a balcony|un balcón]] [[with a sea view.|con vista al mar.]] [[There is|Hay]] [[a minibar,|un minibar,]] [[a safe,|una caja fuerte,]] [[and|y]] [[free Wi-Fi|Wi-Fi gratis]] [[in every room.|en cada habitación.]] [[Breakfast|El desayuno]] [[is|es]] [[from 7 am to 10 am|de 7 am a 10 am]] [[in the restaurant|en el restaurante]] [[on the first floor.|en la primera planta.]] [[Enjoy your stay!|¡Disfrute su estancia!]]",
+      "text": "[[Welcome|Bienvenido]] [[to|al]] [[the|]] [[Grand|Grand]] [[Hotel.|Hotel.]] [[We|Nosotros]] [[have|tenemos]] [[50|50]] [[rooms.|habitaciones.]] [[Our|Nuestras]] [[double|dobles]] [[rooms|habitaciones]] [[are|son]] [[large|grandes]] [[and|y]] [[they|ellas]] [[have|tienen]] [[a|un]] [[balcony|balcón]] [[with|con]] [[a|]] [[sea|vista al]] [[view.|mar.]] [[There|Hay]] [[is|]] [[a|un]] [[minibar,|minibar,]] [[a|una]] [[safe,|caja fuerte,]] [[and|y]] [[free|gratis]] [[Wi-Fi|Wi-Fi]] [[in|en]] [[every|cada]] [[room.|habitación.]] [[Breakfast|El desayuno]] [[is|es]] [[from|de]] [[7|7]] [[am|am]] [[to|a]] [[10|10]] [[am|am]] [[in|en]] [[the|el]] [[restaurant|restaurante]] [[on|en]] [[the|la]] [[first|primera]] [[floor.|planta.]] [[Enjoy|Disfrute]] [[your|su]] [[stay!|estancia!]]",
       "questions": [
         {
-          "question": "[[What can you see from the double rooms?|¿Qué se puede ver desde las habitaciones dobles?]]",
-          "options": ["[[The sea|El mar]]", "[[The park|El parque]]", "[[The street|La calle]]"],
+          "question": "[[What|Qué]] [[can|se puede]] [[you|]] [[see|ver]] [[from|desde]] [[the|las]] [[double|habitaciones]] [[rooms?|dobles?]]",
+          "options": ["[[The|El]] [[sea|mar]]", "[[The|El]] [[park|parque]]", "[[The|La]] [[street|calle]]"],
           "correctAnswer": 0
         },
         {
-          "question": "[[Where is the restaurant?|¿Dónde está el restaurante?]]",
-          "options": ["[[On the first floor|En la primera planta]]", "[[In the lobby|En el vestíbulo]]", "[[On the roof|En la azotea]]"],
+          "question": "[[Where|Dónde]] [[is|está]] [[the|el]] [[restaurant?|restaurante?]]",
+          "options": ["[[On|En]] [[the|la]] [[first|primera]] [[floor|planta]]", "[[In|En]] [[the|el]] [[lobby|vestíbulo]]", "[[On|En]] [[the|la]] [[roof|azotea]]"],
           "correctAnswer": 0
         }
       ]
@@ -1128,16 +1128,16 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mi Habitación 402",
       "instructions": "Lee la descripción de la habitación.",
-      "text": "[[I am in|Estoy en la]] [[room 402.|habitación 402.]] [[My room|Mi habitación]] [[is|está]] [[between|entre]] [[the elevator|el ascensor]] [[and the|y la]] [[laundry room.|lavandería.]] [[It is|Es]] [[a single room|una habitación individual]] [[with a small bed|con una cama pequeña]] [[and a desk.|y un escritorio.]] [[There is|Hay]] [[a lamp|una lámpara]] [[on the desk|sobre el escritorio]] [[and a chair|y una silla]] [[next to it.|al lado.]] [[The bathroom|El baño]] [[is clean|está limpio]] [[and|y]] [[there are|hay]] [[fresh towels.|toallas limpias.]] [[I need to ask|Necesito pedir]] [[for one more|una]] [[pillow|almohada]] [[more|más]] [[at the reception.|en la recepción.]]",
+      "text": "[[I|Yo]] [[am|estoy]] [[in|en la]] [[room|habitación]] [[402.|402.]] [[My|Mi]] [[room|habitación]] [[is|está]] [[between|entre]] [[the|el]] [[elevator|ascensor]] [[and|y]] [[the|la]] [[laundry|lavandería.]] [[room.|]] [[It|Esto]] [[is|es]] [[a|una]] [[single|individual]] [[room|habitación]] [[with|con]] [[a|una]] [[small|pequeña]] [[bed|cama]] [[and|y]] [[a|un]] [[desk.|escritorio.]] [[There|Hay]] [[is|]] [[a|una]] [[lamp|lámpara]] [[on|sobre]] [[the|el]] [[desk|escritorio]] [[and|y]] [[a|una]] [[chair|silla]] [[next|al lado]] [[to|de]] [[it.|ello.]] [[The|El]] [[bathroom|baño]] [[is|está]] [[clean|limpio]] [[and|y]] [[there|hay]] [[are|]] [[fresh|limpias]] [[towels.|toallas.]] [[I|Yo]] [[need|necesito]] [[to|]] [[ask|pedir]] [[for|]] [[one|una]] [[more|más]] [[pillow|almohada]] [[at|en]] [[the|la]] [[reception.|recepción.]]",
       "questions": [
         {
-          "question": "[[What type of room is it?|¿Qué tipo de habitación es?]]",
-          "options": ["[[A single room|Una habitación individual]]", "[[A double room|Una habitación doble]]", "[[A suite|Una suite]]"],
+          "question": "[[What|Qué]] [[type|tipo]] [[of|de]] [[room|habitación]] [[is|es]] [[it?|esto?]]",
+          "options": ["[[A|Una]] [[single|individual]] [[room|habitación]]", "[[A|Una]] [[double|doble]] [[room|habitación]]", "[[A|Una]] [[suite|suite]]"],
           "correctAnswer": 0
         },
         {
-          "question": "[[Where is the lamp?|¿Dónde está la lámpara?]]",
-          "options": ["[[On the desk|Sobre el escritorio]]", "[[Under the bed|Debajo de la cama]]", "[[Next to the shower|Al lado de la ducha]]"],
+          "question": "[[Where|Dónde]] [[is|está]] [[the|la]] [[lamp?|lámpara?]]",
+          "options": ["[[On|Sobre]] [[the|el]] [[desk|escritorio]]", "[[Under|Debajo de]] [[the|la]] [[bed|cama]]", "[[Next|Al lado]] [[to|de]] [[the|la]] [[shower|ducha]]"],
           "correctAnswer": 0
         }
       ]
@@ -1155,16 +1155,16 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "content": {
       "title": "En la Recepción",
       "instructions": "Lee sobre las facilidades del hotel.",
-      "text": "[[At the hotel reception,|En la recepción del hotel,]] [[you can get|puedes obtener]] [[your key card|tu tarjeta-llave]] [[and information|e información]] [[about the city.|sobre la ciudad.]] [[The lobby|El vestíbulo]] [[is very large|es muy grande]] [[and has|y tiene]] [[comfortable sofas.|sofás cómodos.]] [[You can also|También puedes]] [[book a taxi|reservar un taxi]] [[or a tour.|o un tour.]] [[The gym|El gimnasio]] [[and the|y la]] [[swimming pool|piscina]] [[are|están]] [[behind the lobby.|detrás del vestíbulo.]] [[Remember|Recuerde]] [[to check out|hacer la salida]] [[before 11 am.|antes de las 11 am.]]",
+      "text": "[[At|En]] [[the|la]] [[hotel|del hotel]] [[reception,|recepción,]] [[you|tú]] [[can|puedes]] [[get|obtener]] [[your|tu]] [[key|tarjeta-llave]] [[card|]] [[and|e]] [[information|información]] [[about|sobre]] [[the|la]] [[city.|ciudad.]] [[The|El]] [[lobby|vestíbulo]] [[is|es]] [[very|muy]] [[large|grande]] [[and|y]] [[has|tiene]] [[comfortable|cómodos]] [[sofas.|sofás.]] [[You|Tú]] [[can|puedes]] [[also|también]] [[book|reservar]] [[a|un]] [[taxi|taxi]] [[or|o]] [[a|un]] [[tour.|tour.]] [[The|El]] [[gym|gimnasio]] [[and|y]] [[the|la]] [[swimming|piscina]] [[pool|]] [[are|están]] [[behind|detrás de]] [[the|el]] [[lobby.|vestíbulo.]] [[Remember|Recuerde]] [[to|]] [[check|hacer la salida]] [[out|]] [[before|antes de]] [[11|las 11]] [[am.|am.]]",
       "questions": [
         {
-          "question": "[[Where are the gym and the pool?|¿Dónde están el gimnasio y la piscina?]]",
-          "options": ["[[Behind the lobby|Detrás del vestíbulo]]", "[[On the roof|En el tejado]]", "[[Next to the restaurant|Al lado del restaurante]]"],
+          "question": "[[Where|Dónde]] [[are|están]] [[the|el]] [[gym|gimnasio]] [[and|y]] [[the|la]] [[pool?|piscina?]]",
+          "options": ["[[Behind|Detrás de]] [[the|el]] [[lobby|vestíbulo]]", "[[On|En]] [[the|la]] [[roof|tejado]]", "[[Next|Al lado]] [[to|de]] [[the|el]] [[restaurant|restaurante]]"],
           "correctAnswer": 0
         },
         {
-          "question": "[[What time is check-out?|¿A qué hora es la salida?]]",
-          "options": ["[[Before 11 am|Antes de las 11 am]]", "[[At 12 pm|A las 12 pm]]", "[[At 9 am|A las 9 am]]"],
+          "question": "[[What|Qué]] [[time|hora]] [[is|es]] [[check-out?|la salida?]]",
+          "options": ["[[Before|Antes de]] [[11|las 11]] [[am|am]]", "[[At|A]] [[12|las 12]] [[pm|pm]]", "[[At|A]] [[9|las 9]] [[am|am]]"],
           "correctAnswer": 0
         }
       ]

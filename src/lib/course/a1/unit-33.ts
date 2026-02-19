@@ -1101,16 +1101,16 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "content": {
       "title": "Un Día de Turismo",
       "instructions": "Lee sobre el día de turismo.",
-      "text": "[[I am|Estoy]] [[in the city center|en el centro de la ciudad]] [[today.|hoy.]] [[There are|Hay]] [[many famous|muchos famosos]] [[monuments|monumentos]] [[here.|aquí.]] [[First,|Primero,]] [[I am visiting|estoy visitando]] [[the National Museum.|el Museo Nacional.]] [[The entrance fee|La tarifa de entrada]] [[is 15 euros,|es de 15 euros,]] [[but|pero]] [[it is free|es gratis]] [[for students.|para estudiantes.]] [[Next,|Después,]] [[I am walking|estoy caminando]] [[through the park|a través del parque]] [[to see the fountain.|para ver la fuente.]] [[I have|Tengo]] [[a map|un mapa]] [[and|y]] [[a brochure.|un folleto.]] [[I want to take|Quiero hacer]] [[many photos|muchas fotos]] [[and buy|y comprar]] [[some postcards|algunas postales]] [[later.|más tarde.]]",
+      "text": "[[I|Yo]] [[am|estoy]] [[in|en]] [[the|el]] [[city|centro]] [[center|de la]] [[today.|ciudad hoy.]] [[There|Hay]] [[are|]] [[many|muchos]] [[famous|famosos]] [[monuments|monumentos]] [[here.|aquí.]] [[First,|Primero,]] [[I|yo]] [[am|estoy]] [[visiting|visitando]] [[the|el]] [[National|Museo]] [[Museum.|Nacional.]] [[The|La]] [[entrance|tarifa de]] [[fee|entrada]] [[is|es]] [[15|15]] [[euros,|euros,]] [[but|pero]] [[it|esto]] [[is|es]] [[free|gratis]] [[for|para]] [[students.|estudiantes.]] [[Next,|Después,]] [[I|yo]] [[am|estoy]] [[walking|caminando]] [[through|a través de]] [[the|el]] [[park|parque]] [[to|para]] [[see|ver]] [[the|la]] [[fountain.|fuente.]] [[I|Yo]] [[have|tengo]] [[a|un]] [[map|mapa]] [[and|y]] [[a|un]] [[brochure.|folleto.]] [[I|Yo]] [[want|quiero]] [[to|]] [[take|hacer]] [[many|muchas]] [[photos|fotos]] [[and|y]] [[buy|comprar]] [[some|algunas]] [[postcards|postales]] [[later.|más tarde.]]",
       "questions": [
         {
-          "question": "[[Is the museum free for everyone?|¿Es el museo gratis para todos?]]",
-          "options": ["[[No, only for students|No, solo para estudiantes]]", "[[Yes, it is|Sí, lo es]]", "[[Only on Sundays|Solo los domingos]]"],
+          "question": "[[Is|¿Es]] [[the|el]] [[museum|museo]] [[free|gratis]] [[for|para]] [[everyone?|todos?]]",
+          "options": ["[[No,|No,]] [[only|solo]] [[for|para]] [[students|estudiantes]]", "[[Yes,|Sí,]] [[it|lo]] [[is|es]]", "[[Only|Solo]] [[on|los]] [[Sundays|domingos]]"],
           "correctAnswer": 0
         },
         {
-          "question": "[[Where is the person walking?|¿Por dónde está caminando la persona?]]",
-          "options": ["[[Through the park|A través del parque]]", "[[Inside the museum|Dentro del museo]]", "[[On the bridge|Sobre el puente]]"],
+          "question": "[[Where|¿Por dónde]] [[is|está]] [[the|la]] [[person|persona]] [[walking?|caminando?]]",
+          "options": ["[[Through|A través de]] [[the|el]] [[park|parque]]", "[[Inside|Dentro de]] [[the|el]] [[museum|museo]]", "[[On|Sobre]] [[the|el]] [[bridge|puente]]"],
           "correctAnswer": 0
         }
       ]
@@ -1128,16 +1128,16 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "content": {
       "title": "Visita al Castillo Viejo",
       "instructions": "Lee las instrucciones del tour.",
-      "text": "[[Welcome|Bienvenidos]] [[to the Old Castle.|al Castillo Viejo.]] [[Please|Por favor]] [[follow|siga]] [[the tour guide.|al guía turístico.]] [[Turn right|Gire a la derecha]] [[and look|y mire]] [[at the main tower.|la torre principal.]] [[It is|Tiene]] [[over five hundred|más de quinientos]] [[years old.|años de antigüedad.]] [[Don't touch|No toque]] [[the old walls|los muros viejos]] [[and please|y por favor]] [[don't take photos|no haga fotos]] [[inside the palace.|dentro del palacio.]] [[You can buy|Puede comprar]] [[souvenirs|recuerdos]] [[at the shop|en la tienda]] [[near the entrance.|cerca de la entrada.]] [[Enjoy your tour!|¡Disfrute su tour!]]",
+      "text": "[[Welcome|Bienvenidos]] [[to|al]] [[the|]] [[Old|Castillo]] [[Castle.|Viejo.]] [[Please|Por favor]] [[follow|siga]] [[the|al]] [[tour|guía]] [[guide.|turístico.]] [[Turn|Gire a la]] [[right|derecha]] [[and|y]] [[look|mire]] [[at|]] [[the|la]] [[main|torre]] [[tower.|principal.]] [[It|Él]] [[is|tiene]] [[over|más de]] [[five|quinientos]] [[hundred|]] [[years|años de]] [[old.|antigüedad.]] [[Don't|No]] [[touch|toque]] [[the|los]] [[old|muros]] [[walls|viejos]] [[and|y]] [[please|por favor]] [[don't|no]] [[take|haga]] [[photos|fotos]] [[inside|dentro del]] [[the|]] [[palace.|palacio.]] [[You|Tú]] [[can|puedes]] [[buy|comprar]] [[souvenirs|recuerdos]] [[at|en]] [[the|la]] [[shop|tienda]] [[near|cerca de]] [[the|la]] [[entrance.|entrada.]] [[Enjoy|Disfrute]] [[your|su]] [[tour!|tour!]]",
       "questions": [
         {
-          "question": "[[Can you take photos inside the palace?|¿Se pueden hacer fotos dentro del palacio?]]",
-          "options": ["[[No, you can't|No, no se puede]]", "[[Yes, you can|Sí, se puede]]", "[[Only with a ticket|Solo con billete]]"],
+          "question": "[[Can|¿Se puede]] [[you|]] [[take|hacer]] [[photos|fotos]] [[inside|dentro del]] [[the|]] [[palace?|palacio?]]",
+          "options": ["[[No,|No,]] [[you|no se]] [[can't|puede]]", "[[Yes,|Sí,]] [[you|se]] [[can|puede]]", "[[Only|Solo]] [[with|con]] [[a|un]] [[ticket|billete]]"],
           "correctAnswer": 0
         },
         {
-          "question": "[[Where is the souvenir shop?|¿Dónde está la tienda de recuerdos?]]",
-          "options": ["[[Near the entrance|Cerca de la entrada]]", "[[Inside the tower|Dentro de la torre]]", "[[Behind the castle|Detrás del castillo]]"],
+          "question": "[[Where|Dónde]] [[is|está]] [[the|la]] [[souvenir|tienda de]] [[shop?|recuerdos?]]",
+          "options": ["[[Near|Cerca de]] [[the|la]] [[entrance|entrada]]", "[[Inside|Dentro de]] [[the|la]] [[tower|torre]]", "[[Behind|Detrás del]] [[the|]] [[castle|castillo]]"],
           "correctAnswer": 0
         }
       ]
@@ -1155,16 +1155,16 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "content": {
       "title": "En la Plaza de la Ciudad",
       "instructions": "Lee sobre la visita a la plaza.",
-      "text": "[[Today,|Hoy,]] [[we are visiting|estamos visitando]] [[the city square.|la plaza de la ciudad.]] [[Many people|Mucha gente]] [[are taking photos|está haciendo fotos]] [[of the statue|de la estatua]] [[of the king.|del rey.]] [[We are having|Lo estamos pasando]] [[a great time.|muy bien.]] [[Our guide|Nuestro guía]] [[is explaining|está explicando]] [[the history|la historia]] [[of the old cathedral.|de la vieja catedral.]] [[It is|Es]] [[a beautiful day|un día precioso]] [[for sightseeing.|para hacer turismo.]] [[Later,|Más tarde,]] [[we are going|vamos a ir]] [[to the art gallery|a la galería de arte]] [[to see the new exhibition.|para ver la nueva exposición.]]",
+      "text": "[[Today,|Hoy,]] [[we|nosotros]] [[are|estamos]] [[visiting|visitando]] [[the|la]] [[city|plaza de la]] [[square.|ciudad.]] [[Many|Mucha]] [[people|gente]] [[are|está]] [[taking|haciendo]] [[photos|fotos]] [[of|de]] [[the|la]] [[statue|estatua]] [[of|del]] [[the|]] [[king.|rey.]] [[We|Nosotros]] [[are|estamos]] [[having|pasando]] [[a|un]] [[great|gran]] [[time.|tiempo.]] [[Our|Nuestro]] [[guide|guía]] [[is|está]] [[explaining|explicando]] [[the|la]] [[history|historia]] [[of|de]] [[the|la]] [[old|vieja]] [[cathedral.|catedral.]] [[It|Esto]] [[is|es]] [[a|un]] [[beautiful|precioso]] [[day|día]] [[for|para]] [[sightseeing.|hacer turismo.]] [[Later,|Más tarde,]] [[we|nosotros]] [[are|estamos]] [[going|yendo]] [[to|a]] [[the|la]] [[art|galería de]] [[gallery|arte]] [[to|para]] [[see|ver]] [[the|la]] [[new|nueva]] [[exhibition.|exposición.]]",
       "questions": [
         {
-          "question": "[[What is the guide doing?|¿Qué está haciendo el guía?]]",
-          "options": ["[[Explaining history|Explicando historia]]", "[[Taking photos|Haciendo fotos]]", "[[Buying souvenirs|Comprando recuerdos]]"],
+          "question": "[[What|Qué]] [[is|está]] [[the|el]] [[guide|guía]] [[doing?|haciendo?]]",
+          "options": ["[[Explaining|Explicando]] [[history|historia]]", "[[Taking|Haciendo]] [[photos|fotos]]", "[[Buying|Comprando]] [[souvenirs|recuerdos]]"],
           "correctAnswer": 0
         },
         {
-          "question": "[[Where are they going later?|¿A dónde van después?]]",
-          "options": ["[[To the art gallery|A la galería de arte]]", "[[To the castle|Al castillo]]", "[[To the park|Al parque]]"],
+          "question": "[[Where|A dónde]] [[are|]] [[they|ellos]] [[going|van]] [[later?|después?]]",
+          "options": ["[[To|A]] [[the|la]] [[art|galería de]] [[gallery|arte]]", "[[To|Al]] [[the|]] [[castle|castillo]]", "[[To|Al]] [[the|]] [[park|parque]]"],
           "correctAnswer": 0
         }
       ]

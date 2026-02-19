@@ -46,8 +46,8 @@ export const TranslatedText: React.FC<TranslatedTextProps> = ({ text, className,
 
   if (!text || typeof text !== 'string') return text;
 
-  // 1. Handle explicit translations: [[word|translation]]
-  const explicitRegex = /\[\[(.*?)\|(.*?)\]\]/g;
+  // 1. Handle explicit translations: [[word|translation]] or [[word]]
+  const explicitRegex = /\[\[(.*?)(?:\|(.*?))?\]\]/g;
   const parts: (string | React.ReactNode)[] = [];
   
   let lastIndex = 0;
@@ -59,7 +59,7 @@ export const TranslatedText: React.FC<TranslatedTextProps> = ({ text, className,
     }
 
     const word = match[1];
-    const translation = match[2];
+    const translation = match[2] || word;
 
     parts.push(
       <Tooltip key={`explicit-${match.index}`} word={word} translation={translation} useStrong={useStrong} />

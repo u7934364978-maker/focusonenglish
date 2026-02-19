@@ -1101,16 +1101,16 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "content": {
       "title": "Viaje a Londres",
       "instructions": "Lee sobre el plan de viaje.",
-      "text": "[[I am traveling|Estoy viajando]] [[to London|a Londres]] [[by plane.|en avión.]] [[I have|Tengo]] [[my passport|mi pasaporte]] [[and|y]] [[my ticket|mi billete]] [[in my bag.|en mi bolso.]] [[The flight|El vuelo]] [[is|es]] [[at 10 am.|a las 10 am.]] [[I am staying|Me estoy quedando]] [[at a nice hotel|en un hotel agradable]] [[near|cerca de]] [[the city center.|el centro de la ciudad.]] [[I usually|Normalmente]] [[go to work|voy al trabajo]] [[by car,|en coche,]] [[but|pero]] [[for my holidays,|para mis vacaciones,]] [[I prefer|prefiero]] [[the train|el tren]] [[or|o]] [[the plane.|el avión.]] [[It is|Es]] [[more exciting!|más emocionante!]]",
+      "text": "[[I|Yo]] [[am|estoy]] [[traveling|viajando]] [[to|a]] [[London|Londres]] [[by|en]] [[plane.|avión.]] [[I|Yo]] [[have|tengo]] [[my|mi]] [[passport|pasaporte]] [[and|y]] [[my|mi]] [[ticket|billete]] [[in|en]] [[my|mi]] [[bag.|bolso.]] [[The|El]] [[flight|vuelo]] [[is|es]] [[at|a las]] [[10|10]] [[am.|am.]] [[I|Yo]] [[am|me]] [[staying|quedo]] [[at|en]] [[a|un]] [[nice|bonito]] [[hotel|hotel]] [[near|cerca de]] [[the|el]] [[city|centro]] [[center.|urbano.]] [[I|Yo]] [[usually|normalmente]] [[go|voy]] [[to|al]] [[work|trabajo]] [[by|en]] [[car,|coche,]] [[but|pero]] [[for|para]] [[my|mis]] [[holidays,|vacaciones,]] [[I|yo]] [[prefer|prefiero]] [[the|el]] [[train|tren]] [[or|o]] [[the|el]] [[plane.|avión.]] [[It|Esto]] [[is|es]] [[more|más]] [[exciting!|emocionante!]]",
       "questions": [
         {
-          "question": "[[How is the person traveling to London?|¿Cómo viaja la persona a Londres?]]",
-          "options": ["[[By plane|En avión]]", "[[By car|En coche]]", "[[By train|En tren]]"],
+          "question": "[[How|Cómo]] [[is|está]] [[the|la]] [[person|persona]] [[traveling|viajando]] [[to|a]] [[London?|Londres?]]",
+          "options": ["[[By|En]] [[plane|avión]]", "[[By|En]] [[car|coche]]", "[[By|En]] [[train|tren]]"],
           "correctAnswer": 0
         },
         {
-          "question": "[[Where is the hotel?|¿Dónde está el hotel?]]",
-          "options": ["[[Near the city center|Cerca del centro]]", "[[At the airport|En el aeropuerto]]", "[[Far from the city|Lejos de la ciudad]]"],
+          "question": "[[Where|Dónde]] [[is|está]] [[the|el]] [[hotel?|hotel?]]",
+          "options": ["[[Near|Cerca]] [[the|del]] [[city|centro]] [[center|]]", "[[At|En]] [[the|el]] [[airport|aeropuerto]]", "[[Far|Lejos]] [[from|de]] [[the|la]] [[city|ciudad]]"],
           "correctAnswer": 0
         }
       ]
@@ -1128,16 +1128,16 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mi Transporte Diario",
       "instructions": "Lee sobre los trayectos diarios.",
-      "text": "[[My daily|Mi diario]] [[commute|trayecto al trabajo]] [[is simple.|es sencillo.]] [[I walk|Camino]] [[to the|hacia la]] [[bus stop|parada de autobús]] [[near|cerca de]] [[my house.|mi casa.]] [[Then,|Luego,]] [[I take|cojo]] [[the bus|el autobús]] [[to the|a la]] [[station.|estación.]] [[From|Desde]] [[the station,|la estación,]] [[I go by|voy en]] [[metro|metro]] [[to my office.|a mi oficina.]] [[It takes|Tarda]] [[about|unos]] [[forty|cuarenta]] [[minutes.|minutos.]] [[On weekends,|Los fines de semana,]] [[I like|me gusta]] [[to ride|montar en]] [[my bicycle|mi bicicleta]] [[in the park.|en el parque.]] [[Sometimes,|A veces,]] [[my friends|mis amigos]] [[and I|y yo]] [[go to the beach|vamos a la playa]] [[by car.|en coche.]]",
+      "text": "[[My|Mi]] [[daily|diario]] [[commute|trayecto]] [[is|es]] [[simple.|sencillo.]] [[I|Yo]] [[walk|camino]] [[to|a]] [[the|la]] [[bus|parada de]] [[stop|autobús]] [[near|cerca de]] [[my|mi]] [[house.|casa.]] [[Then,|Luego,]] [[I|yo]] [[take|cojo]] [[the|el]] [[bus|autobús]] [[to|a]] [[the|la]] [[station.|estación.]] [[From|Desde]] [[the|la]] [[station,|estación,]] [[I|yo]] [[go|voy]] [[by|en]] [[metro|metro]] [[to|a]] [[my|mi]] [[office.|oficina.]] [[It|Esto]] [[takes|tarda]] [[about|unos]] [[forty|cuarenta]] [[minutes.|minutos.]] [[On|Los]] [[weekends,|fines de semana,]] [[I|yo]] [[like|me gusta]] [[to|]] [[ride|montar en]] [[my|mi]] [[bicycle|bicicleta]] [[in|en]] [[the|el]] [[park.|parque.]] [[Sometimes,|A veces,]] [[my|mis]] [[friends|amigos]] [[and|y]] [[I|yo]] [[go|vamos]] [[to|a]] [[the|la]] [[beach|playa]] [[by|en]] [[car.|coche.]]",
       "questions": [
         {
-          "question": "[[How does the person go to the office?|¿Cómo va la persona a la oficina?]]",
-          "options": ["[[By metro|En metro]]", "[[By bicycle|En bicicleta]]", "[[By car|En coche]]"],
+          "question": "[[How|Cómo]] [[does|]] [[the|la]] [[person|persona]] [[go|va]] [[to|a]] [[the|la]] [[office?|oficina?]]",
+          "options": ["[[By|En]] [[metro|metro]]", "[[By|En]] [[bicycle|bicicleta]]", "[[By|En]] [[car|coche]]"],
           "correctAnswer": 0
         },
         {
-          "question": "[[What does the person do on weekends?|¿Qué hace la persona los fines de semana?]]",
-          "options": ["[[Ride a bicycle|Montar en bicicleta]]", "[[Take the bus|Coger el autobús]]", "[[Go to the office|Ir a la oficina]]"],
+          "question": "[[What|Qué]] [[does|hace]] [[the|la]] [[person|persona]] [[do|]] [[on|los]] [[weekends?|fines de semana?]]",
+          "options": ["[[Ride|Montar]] [[a|en]] [[bicycle|bicicleta]]", "[[Take|Coger]] [[the|el]] [[bus|autobús]]", "[[Go|Ir]] [[to|a]] [[the|la]] [[office|oficina]]"],
           "correctAnswer": 0
         }
       ]
@@ -1155,16 +1155,16 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "content": {
       "title": "En la Estación",
       "instructions": "Lee sobre la situación en la estación.",
-      "text": "[[When|Cuando]] [[we travel,|viajamos,]] [[we always|siempre]] [[check|miramos]] [[the departure board|el panel de salidas]] [[first.|primero.]] [[Our train|Nuestro tren]] [[is|está]] [[on platform 4.|en el andén 4.]] [[It leaves|Sale]] [[at half past two.|a las dos y media.]] [[We have|Tenemos]] [[our tickets|nuestros billetes]] [[and|y]] [[suitcases.|maletas.]] [[The station|La estación]] [[is very busy|está muy concurrida]] [[today.|hoy.]] [[Many people|Mucha gente]] [[are traveling|está viajando]] [[for the holidays.|por las vacaciones.]] [[I hope|Espero que]] [[the train|el tren]] [[is on time|esté en hora]] [[and|y]] [[not delayed.|no retrasado.]]",
+      "text": "[[When|Cuando]] [[we|nosotros]] [[travel,|viajamos,]] [[we|nosotros]] [[always|siempre]] [[check|miramos]] [[the|el]] [[departure|panel de]] [[board|salidas]] [[first.|primero.]] [[Our|Nuestro]] [[train|tren]] [[is|está]] [[on|en]] [[platform|el andén]] [[4.|4.]] [[It|Él]] [[leaves|sale]] [[at|a]] [[half|las]] [[past|dos]] [[two.|y media.]] [[We|Nosotros]] [[have|tenemos]] [[our|nuestros]] [[tickets|billetes]] [[and|y]] [[suitcases.|maletas.]] [[The|La]] [[station|estación]] [[is|es]] [[very|muy]] [[busy|concurrida]] [[today.|hoy.]] [[Many|Mucha]] [[people|gente]] [[are|está]] [[traveling|viajando]] [[for|por]] [[the|las]] [[holidays.|vacaciones.]] [[I|Yo]] [[hope|espero que]] [[the|el]] [[train|tren]] [[is|esté]] [[on|en]] [[time|hora]] [[and|y]] [[not|no]] [[delayed.|retrasado.]]",
       "questions": [
         {
-          "question": "[[What platform is the train on?|¿En qué andén está el tren?]]",
-          "options": ["[[Platform 4|Andén 4]]", "[[Platform 2|Andén 2]]", "[[The departure board|El panel de salidas]]"],
+          "question": "[[What|Qué]] [[platform|andén]] [[is|está]] [[the|el]] [[train|tren]] [[on?|en?]]",
+          "options": ["[[Platform|Andén]] [[4|4]]", "[[Platform|Andén]] [[2|2]]", "[[The|El]] [[departure|panel de]] [[board|salidas]]"],
           "correctAnswer": 0
         },
         {
-          "question": "[[What time does the train leave?|¿A qué hora sale el tren?]]",
-          "options": ["[[At half past two|A las dos y media]]", "[[At two o'clock|A las dos en punto]]", "[[At three o'clock|A las tres en punto]]"],
+          "question": "[[What|Qué]] [[time|hora]] [[does|]] [[the|el]] [[train|tren]] [[leave?|sale?]]",
+          "options": ["[[At|A]] [[half|las]] [[past|dos]] [[two|y media]]", "[[At|A]] [[two|las]] [[o'clock|dos en punto]]", "[[At|A]] [[three|las]] [[o'clock|tres en punto]]"],
           "correctAnswer": 0
         }
       ]

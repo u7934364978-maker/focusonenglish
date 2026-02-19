@@ -46,10 +46,13 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   const questions = exerciseContent.questions || [];
   
   const isReadingExercise = (
-    exercise.topicName?.toLowerCase().includes('reading') || 
-    exercise.topic?.toLowerCase().includes('reading') || 
+    exercise.type === 'reading' ||
     exercise.type === 'reading-comprehension' ||
-    exercise.type === 'reading'
+    (
+      (exercise.topicName?.toLowerCase().includes('reading') || 
+       exercise.topic?.toLowerCase().includes('reading')) &&
+      exercise.type !== 'multiple-choice'
+    )
   ) && (!!exercise.transcript || !!exerciseContent.text);
 
   useEffect(() => {

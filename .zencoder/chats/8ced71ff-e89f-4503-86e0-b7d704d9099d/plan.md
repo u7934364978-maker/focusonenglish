@@ -139,7 +139,7 @@ Implement word-by-word translations for reading exercises in units 34 to 36.
 - [x] Audit and update Unit 34.
 - [x] Audit and update Unit 35.
 - [x] Audit and update Unit 36.
-- [x] Manual verification.
+- [x] Manual verification (Fixed bracket visibility issue in Renderer and TranslatedText).
 
 ---
 
