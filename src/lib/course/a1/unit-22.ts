@@ -1063,6 +1063,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Reading: Peter's Hobbies|Lectura: Las aficiones de Peter]]",
       "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
+      "text": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Peter.|Peter.]] [[I|Yo]] [[have|tengo]] [[many|muchas]] [[hobbies.|aficiones.]] [[In|En]] [[my|mi]] [[free|libre]] [[time,|tiempo,]] [[I|Me]] [[like|gusta]] [[playing|tocar]] [[the|la]] [[guitar.|guitarra.]] [[I|Yo]] [[can|sé]] [[play|tocar]] [[many|muchas]] [[songs.|canciones.]] [[I|Yo]] [[also|también]] [[love|me encanta]] [[taking|hacer]] [[photos|fotos]] [[of|de]] [[animals|animales]] [[and|y]] [[flowers.|flores.]] [[My|Mi]] [[sister,|hermana,]] [[Anna,|Anna,]] [[has|tiene]] [[different|diferentes]] [[interests.|intereses.]] [[She|Ella]] [[hates|odia]] [[music,|la música,]] [[but|pero]] [[she|ella]] [[loves|le encanta]] [[reading|leer]] [[books.|libros.]] [[She|Ella]] [[can|sabe]] [[read|leer]] [[very|muy]] [[fast.|rápido.]] [[On|Los]] [[Sundays,|domingos,]] [[we|nosotros]] [[go|vamos]] [[hiking|a hacer senderismo]] [[together|juntos]] [[in|en]] [[the|las]] [[mountains.|montañas.]]",
       "questions": [
         {
           "question": "[[What instrument can Peter play?|¿Qué instrumento sabe tocar Peter?]]",
@@ -1085,6 +1086,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Reading: Anna's Preferences|Lectura: Las preferencias de Anna]]",
       "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
+      "text": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Peter.|Peter.]] [[I|Yo]] [[have|tengo]] [[many|muchas]] [[hobbies.|aficiones.]] [[In|En]] [[my|mi]] [[free|libre]] [[time,|tiempo,]] [[I|Me]] [[like|gusta]] [[playing|tocar]] [[the|la]] [[guitar.|guitarra.]] [[I|Yo]] [[can|sé]] [[play|tocar]] [[many|muchas]] [[songs.|canciones.]] [[I|Yo]] [[also|también]] [[love|me encanta]] [[taking|hacer]] [[photos|fotos]] [[of|de]] [[animals|animales]] [[and|y]] [[flowers.|flores.]] [[My|Mi]] [[sister,|hermana,]] [[Anna,|Anna,]] [[has|tiene]] [[different|diferentes]] [[interests.|intereses.]] [[She|Ella]] [[hates|odia]] [[music,|la música,]] [[but|pero]] [[she|ella]] [[loves|le encanta]] [[reading|leer]] [[books.|libros.]] [[She|Ella]] [[can|sabe]] [[read|leer]] [[very|muy]] [[fast.|rápido.]] [[On|Los]] [[Sundays,|domingos,]] [[we|nosotros]] [[go|vamos]] [[hiking|a hacer senderismo]] [[together|juntos]] [[in|en]] [[the|las]] [[mountains.|montañas.]]",
       "questions": [
         {
           "question": "[[What does Anna love doing?|¿Qué le encanta hacer a Anna?]]",
@@ -1107,6 +1109,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Reading: Weekend Activity|Lectura: Actividad de fin de semana]]",
       "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
+      "text": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Peter.|Peter.]] [[I|Yo]] [[have|tengo]] [[many|muchas]] [[hobbies.|aficiones.]] [[In|En]] [[my|mi]] [[free|libre]] [[time,|tiempo,]] [[I|Me]] [[like|gusta]] [[playing|tocar]] [[the|la]] [[guitar.|guitarra.]] [[I|Yo]] [[can|sé]] [[play|tocar]] [[many|muchas]] [[songs.|canciones.]] [[I|Yo]] [[also|también]] [[love|me encanta]] [[taking|hacer]] [[photos|fotos]] [[of|de]] [[animals|animales]] [[and|y]] [[flowers.|flores.]] [[My|Mi]] [[sister,|hermana,]] [[Anna,|Anna,]] [[has|tiene]] [[different|diferentes]] [[interests.|intereses.]] [[She|Ella]] [[hates|odia]] [[music,|la música,]] [[but|pero]] [[she|ella]] [[loves|le encanta]] [[reading|leer]] [[books.|libros.]] [[She|Ella]] [[can|sabe]] [[read|leer]] [[very|muy]] [[fast.|rápido.]] [[On|Los]] [[Sundays,|domingos,]] [[we|nosotros]] [[go|vamos]] [[hiking|a hacer senderismo]] [[together|juntos]] [[in|en]] [[the|las]] [[mountains.|montañas.]]",
       "questions": [
         {
           "question": "[[What do Peter and Anna do on Sundays?|¿Qué hacen Peter y Anna los domingos?]]",
@@ -1129,6 +1132,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Reading: About Swimming|Lectura: Sobre la natación]]",
       "instructions": "[[Read and answer.|Lee y responde.]]",
+      "text": "[[Can|¿]] [[you|tú]] [[swim?|sabes nadar?]] [[Swimming|La natación]] [[is|es]] [[a|una]] [[great|gran]] [[hobby.|afición.]] [[It|Ello]] [[is|es]] [[good|bueno]] [[for|para]] [[your|tu]] [[health.|salud.]] [[Some|Algunas]] [[people|personas]] [[can|saben]] [[swim|nadar]] [[very|muy]] [[well,|bien,]] [[but|pero]] [[others|otras]] [[can't|no saben]] [[swim|nadar]] [[at|en]] [[all.|absoluto.]] [[If|Si]] [[you|tú]] [[can't|no sabes]] [[swim,|nadar,]] [[you|tú]] [[can|puedes]] [[take|tomar]] [[lessons.|clases.]] [[I|Me]] [[love|encanta]] [[swimming|nadar]] [[in|en]] [[the|el]] [[sea,|mar,]] [[but|pero]] [[I|yo]] [[don't|no]] [[like|me gusta]] [[swimming|nadar]] [[in|en]] [[pools.|piscinas.]] [[The|El]] [[water|agua]] [[in|de]] [[pools|las piscinas]] [[is|está]] [[often|a menudo]] [[cold.|fría.]] [[Do|¿]] [[you|tú]] [[want|quieres]] [[to|de]] [[go|ir]] [[to|a]] [[the|la]] [[beach|playa]] [[this|este]] [[weekend?|fin de semana?]]",
       "questions": [
         {
           "question": "[[Why does the speaker like the sea more than pools?|¿Por qué al hablante le gusta más el mar que las piscinas?]]",
@@ -1151,6 +1155,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Reading: Cooking with Lucy|Lectura: Cocinando con Lucy]]",
       "instructions": "[[Read about Lucy and answer.|Lee sobre Lucy y responde.]]",
+      "text": "[[Cooking|Cocinar]] [[is|es]] [[a|una]] [[popular|popular]] [[hobby.|afición.]] [[Many|Muchas]] [[people|personas]] [[enjoy|disfrutan]] [[making|haciendo]] [[delicious|deliciosas]] [[meals|comidas]] [[for|para]] [[their|su]] [[family.|familia.]] [[My|Mi]] [[friend,|amiga,]] [[Lucy,|Lucy,]] [[can|sabe]] [[cook|cocinar]] [[excellent|excelente]] [[Italian|italiana]] [[food.|comida.]] [[She|Ella]] [[loves|ama]] [[making|hacer]] [[pasta|pasta]] [[and|y]] [[pizza.|pizza.]] [[However,|Sin embargo,]] [[she|ella]] [[can't|no sabe]] [[bake|hornear]] [[cakes.|pasteles.]] [[She|Ella]] [[hates|odia]] [[baking|hornear]] [[because|porque]] [[it|ello]] [[is|es]] [[difficult.|difícil.]] [[I|Yo]] [[like|gusta]] [[helping|ayudar]] [[her|a ella]] [[in|en]] [[the|la]] [[kitchen.|cocina.]] [[We|Nosotros]] [[always|siempre]] [[have|tenemos]] [[a|un]] [[good|buen]] [[time|rato]] [[together.|juntos.]]",
       "questions": [
         {
           "question": "[[What can Lucy cook well?|¿Qué sabe cocinar bien Lucy?]]",
@@ -1173,6 +1178,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Reading: Baking|Lectura: Hornear]]",
       "instructions": "[[Read about Lucy and answer.|Lee sobre Lucy y responde.]]",
+      "text": "[[Cooking|Cocinar]] [[is|es]] [[a|una]] [[popular|popular]] [[hobby.|afición.]] [[Many|Muchas]] [[people|personas]] [[enjoy|disfrutan]] [[making|haciendo]] [[delicious|deliciosas]] [[meals|comidas]] [[for|para]] [[their|su]] [[family.|familia.]] [[My|Mi]] [[friend,|amiga,]] [[Lucy,|Lucy,]] [[can|sabe]] [[cook|cocinar]] [[excellent|excelente]] [[Italian|italiana]] [[food.|comida.]] [[She|Ella]] [[loves|ama]] [[making|hacer]] [[pasta|pasta]] [[and|y]] [[pizza.|pizza.]] [[However,|Sin embargo,]] [[she|ella]] [[can't|no sabe]] [[bake|hornear]] [[cakes.|pasteles.]] [[She|Ella]] [[hates|odia]] [[baking|hornear]] [[because|porque]] [[it|ello]] [[is|es]] [[difficult.|difícil.]] [[I|Yo]] [[like|gusta]] [[helping|ayudar]] [[her|a ella]] [[in|en]] [[the|la]] [[kitchen.|cocina.]] [[We|Nosotros]] [[always|siempre]] [[have|tenemos]] [[a|un]] [[good|buen]] [[time|rato]] [[together.|juntos.]]",
       "questions": [
         {
           "question": "[[Why does Lucy hate baking?|¿Por qué Lucy odia hornear?]]",
@@ -1195,6 +1201,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Reading: Types of Hobbies|Lectura: Tipos de aficiones]]",
       "instructions": "[[Read and answer.|Lee y responde.]]",
+      "text": "[[Hobbies|Las aficiones]] [[are|son]] [[important|importantes]] [[for|para]] [[everyone.|todos.]] [[They|Ellos]] [[help|ayudan]] [[us|a nosotros]] [[to|a]] [[relax.|relajarnos.]] [[Some|Algunas]] [[people|personas]] [[prefer|prefieren]] [[indoor|de interior]] [[hobbies,|aficiones,]] [[like|como]] [[playing|jugar]] [[board|de mesa]] [[games|juegos]] [[or|o]] [[painting.|pintar.]] [[Other|Otras]] [[people|personas]] [[like|gustan]] [[outdoor|al aire libre]] [[hobbies,|aficiones,]] [[like|como]] [[running|correr]] [[or|o]] [[gardening.|jardinería.]] [[What|Cuál]] [[is|es]] [[your|tu]] [[favorite|favorita]] [[hobby?|afición?]] [[Do|¿]] [[you|tú]] [[like|gustas]] [[doing|hacer]] [[it|ello]] [[alone|solo]] [[or|o]] [[with|con]] [[friends?|amigos?]] [[Most|La mayoría de la]] [[people|gente]] [[love|aman]] [[sharing|compartir]] [[their|sus]] [[hobbies|aficiones]] [[with|con]] [[others.|otros.]]",
       "questions": [
         {
           "question": "[[What is an example of an indoor hobby mentioned?|¿Cuál es un ejemplo mencionado de afición de interior?]]",
@@ -1217,6 +1224,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Reading: Tom's Sports|Lectura: Los deportes de Tom]]",
       "instructions": "[[Read about Tom and answer.|Lee sobre Tom y responde.]]",
+      "text": "[[Tom|Tom]] [[is|es]] [[very|muy]] [[good|bueno]] [[at|en]] [[sports.|deportes.]] [[He|Él]] [[can|sabe]] [[play|jugar]] [[football,|fútbol,]] [[basketball,|baloncesto,]] [[and|y]] [[tennis.|tenis.]] [[He|Él]] [[also|también]] [[likes|gusta]] [[swimming|nadar]] [[in|en]] [[the|el]] [[river.|río.]] [[He|Él]] [[can't|no sabe]] [[play|tocar]] [[any|ningún]] [[instruments,|instrumentos,]] [[but|pero]] [[he|él]] [[loves|ama]] [[listening|escuchar]] [[to|a]] [[rock|rock]] [[music.|música.]] [[Every|Cada]] [[Friday,|viernes,]] [[he|él]] [[goes|va]] [[to|al]] [[the|el]] [[stadium|estadio]] [[to|para]] [[watch|ver]] [[a|un]] [[game.|partido.]] [[He|Él]] [[is|es]] [[a|un]] [[big|gran]] [[fan|fan]] [[of|de]] [[his|su]] [[local|local]] [[team.|equipo.]]",
       "questions": [
         {
           "question": "[[What can't Tom do?|¿Qué no sabe hacer Tom?]]",
@@ -1239,6 +1247,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Reading: Friday Night|Lectura: Viernes noche]]",
       "instructions": "[[Read about Tom and answer.|Lee sobre Tom y responde.]]",
+      "text": "[[Tom|Tom]] [[is|es]] [[very|muy]] [[good|bueno]] [[at|en]] [[sports.|deportes.]] [[He|Él]] [[can|sabe]] [[play|jugar]] [[football,|fútbol,]] [[basketball,|baloncesto,]] [[and|y]] [[tennis.|tenis.]] [[He|Él]] [[also|también]] [[likes|gusta]] [[swimming|nadar]] [[in|en]] [[the|el]] [[river.|río.]] [[He|Él]] [[can't|no sabe]] [[play|tocar]] [[any|ningún]] [[instruments,|instrumentos,]] [[but|pero]] [[he|él]] [[loves|ama]] [[listening|escuchar]] [[to|a]] [[rock|rock]] [[music.|música.]] [[Every|Cada]] [[Friday,|viernes,]] [[he|él]] [[goes|va]] [[to|al]] [[the|el]] [[stadium|estadio]] [[to|para]] [[watch|ver]] [[a|un]] [[game.|partido.]] [[He|Él]] [[is|es]] [[a|un]] [[big|gran]] [[fan|fan]] [[of|de]] [[his|su]] [[local|local]] [[team.|equipo.]]",
       "questions": [
         {
           "question": "[[Where does Tom go on Fridays?|¿A dónde va Tom los viernes?]]",
@@ -1261,6 +1270,7 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Reading: The Joy of Traveling|Lectura: El placer de viajar]]",
       "instructions": "[[Read and answer.|Lee y responde.]]",
+      "text": "[[Do|¿]] [[you|te]] [[like|gusta]] [[traveling?|viajar?]] [[Traveling|Viajar]] [[is|es]] [[my|mi]] [[favorite|favorita]] [[hobby.|afición.]] [[I|Yo]] [[love|amo]] [[visiting|visitar]] [[new|nuevos]] [[places|lugares]] [[and|y]] [[meeting|conocer]] [[new|nueva]] [[people.|gente.]] [[I|Yo]] [[can|sé]] [[speak|hablar]] [[English|inglés]] [[and|y]] [[Spanish,|español,]] [[so|así que]] [[I|yo]] [[can|puedo]] [[talk|hablar]] [[to|con]] [[many|mucha]] [[people.|gente.]] [[I|Yo]] [[don't|no]] [[like|gusta]] [[traveling|viajar]] [[by|en]] [[plane|avión]] [[because|porque]] [[I|yo]] [[am|tengo]] [[afraid|miedo]] [[of|a las]] [[heights.|alturas.]] [[I|Yo]] [[prefer|prefiero]] [[traveling|viajar]] [[by|en]] [[train.|tren.]] [[The|Las]] [[views|vistas]] [[from|desde]] [[the|el]] [[train|tren]] [[are|son]] [[always|siempre]] [[beautiful.|hermosas.]]",
       "questions": [
         {
           "question": "[[How does the speaker prefer to travel?|¿Cómo prefiere viajar el hablante?]]",

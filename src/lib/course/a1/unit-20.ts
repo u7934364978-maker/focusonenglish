@@ -1065,6 +1065,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Reading: Drinking Advice|Lectura: Consejos sobre la bebida]]",
       "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
+      "text": "[[At|En]] [[the|la]] [[doctor's|del médico]] [[office,|consulta,]] [[David|David]] [[is|está]] [[feeling|sintiéndose]] [[very|muy]] [[sick.|enfermo.]] [['What|'Qué]] [[is|es]] [[the|el]] [[matter?'|asunto?']] [[asks|pregunta]] [[the|la]] [[nurse.|enfermera.]] [['I|'Yo]] [[have|tengo]] [[got|conseguido]] [[a|una]] [[high|alta]] [[fever,'|fiebre,']] [[David|David]] [[says,|dice,]] [['and|'y]] [[my|mi]] [[head|cabeza]] [[hurts|duele]] [[a|un]] [[lot.'|mucho.']] [[The|La]] [[nurse|enfermera]] [[says,|dice,]] [['You|'Tú]] [[should|deberías]] [[see|ver]] [[the|al]] [[doctor|médico]] [[immediately.|inmediatamente.]] [[Open|Abre]] [[your|tu]] [[mouth,|boca,]] [[please.|por favor.]] [[Oh,|Oh,]] [[you|tú]] [[have|tienes]] [[got|conseguido]] [[a|una]] [[very|muy]] [[sore|dolorida]] [[throat.'|garganta.']] [[The|El]] [[doctor|médico]] [[arrives|llega]] [[and|y]] [[gives|da]] [[David|David]] [[some|algunos]] [[advice:|consejos:]] [['You|'Tú]] [[should|deberías]] [[stay|quedarte]] [[at|en]] [[home|casa]] [[and|y]] [[rest|descansar]] [[for|durante]] [[three|tres]] [[days.|días.]] [[You|Tú]] [[should|deberías]] [[drink|beber]] [[plenty|abundancia]] [[of|de]] [[water,|agua,]] [[but|pero]] [[you|tú]] [[shouldn't|no deberías]] [[drink|beber]] [[anything|nada]] [[cold.'|frío.']] [[David|David]] [[goes|va]] [[home|casa]] [[to|a]] [[rest.|descansar.]]",
       "questions": [
         {
           "question": "[[What shouldn't David drink?|¿Qué no debería beber David?]]",
@@ -1087,6 +1088,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Reading: The Human Body|Lectura: El cuerpo humano]]",
       "instructions": "[[Read about the body and answer.|Lee sobre el cuerpo y responde.]]",
+      "text": "[[Our|Nuestro]] [[body|cuerpo]] [[is|es]] [[amazing!|asombroso!]] [[We|Nosotros]] [[have|tenemos]] [[two|dos]] [[eyes|ojos]] [[to|para]] [[see,|ver,]] [[two|dos]] [[ears|oídos]] [[to|para]] [[hear,|oír,]] [[and|y]] [[one|una]] [[nose|nariz]] [[to|para]] [[smell.|oler.]] [[We|Nosotros]] [[use|usamos]] [[our|nuestra]] [[mouth|boca]] [[to|para]] [[eat|comer]] [[and|y]] [[speak.|hablar.]] [[We|Nosotros]] [[have|tenemos]] [[got|conseguido]] [[two|dos]] [[hands|manos]] [[with|con]] [[five|cinco]] [[fingers|dedos]] [[on|en]] [[each|cada]] [[one.|una.]] [[Hands|Manos]] [[are|son]] [[for|para]] [[holding|sostener]] [[things.|cosas.]] [[We|Nosotros]] [[have|tenemos]] [[got|conseguido]] [[two|dos]] [[legs|piernas]] [[and|y]] [[two|dos]] [[feet|pies]] [[to|para]] [[walk|caminar]] [[and|y]] [[run.|correr.]] [[It|Ello]] [[is|es]] [[important|importante]] [[to|a]] [[take|tomar]] [[care|cuidado]] [[of|de]] [[our|nuestro]] [[body.|cuerpo.]] [[You|Tú]] [[should|deberías]] [[exercise,|ejercitar,]] [[eat|comer]] [[healthy|saludable]] [[food,|comida,]] [[and|y]] [[sleep|dormir]] [[eight|ocho]] [[hours|horas]] [[every|cada]] [[night.|noche.]]",
       "questions": [
         {
           "question": "[[How many fingers do we have on each hand?|¿Cuántos dedos tenemos en cada mano?]]",
@@ -1109,6 +1111,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Reading: Using the Body|Lectura: Usando el cuerpo]]",
       "instructions": "[[Read about the body and answer.|Lee sobre el cuerpo y responde.]]",
+      "text": "[[Our|Nuestro]] [[body|cuerpo]] [[is|es]] [[amazing!|asombroso!]] [[We|Nosotros]] [[have|tenemos]] [[two|dos]] [[eyes|ojos]] [[to|para]] [[see,|ver,]] [[two|dos]] [[ears|oídos]] [[to|para]] [[hear,|oír,]] [[and|y]] [[one|una]] [[nose|nariz]] [[to|para]] [[smell.|oler.]] [[We|Nosotros]] [[use|usamos]] [[our|nuestra]] [[mouth|boca]] [[to|para]] [[eat|comer]] [[and|y]] [[speak.|hablar.]] [[We|Nosotros]] [[have|tenemos]] [[got|conseguido]] [[two|dos]] [[hands|manos]] [[with|con]] [[five|cinco]] [[fingers|dedos]] [[on|en]] [[each|cada]] [[one.|una.]] [[Hands|Manos]] [[are|son]] [[for|para]] [[holding|sostener]] [[things.|cosas.]] [[We|Nosotros]] [[have|tenemos]] [[got|conseguido]] [[two|dos]] [[legs|piernas]] [[and|y]] [[two|dos]] [[feet|pies]] [[to|para]] [[walk|caminar]] [[and|y]] [[run.|correr.]] [[It|Ello]] [[is|es]] [[important|importante]] [[to|a]] [[take|tomar]] [[care|cuidado]] [[of|de]] [[our|nuestro]] [[body.|cuerpo.]] [[You|Tú]] [[should|deberías]] [[exercise,|ejercitar,]] [[eat|comer]] [[healthy|saludable]] [[food,|comida,]] [[and|y]] [[sleep|dormir]] [[eight|ocho]] [[hours|horas]] [[every|cada]] [[night.|noche.]]",
       "questions": [
         {
           "question": "[[What do we use our mouth for?|¿Para qué usamos nuestra boca?]]",
@@ -1131,6 +1134,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Reading: Healthy Habits|Lectura: Hábitos saludables]]",
       "instructions": "[[Read about the body and answer.|Lee sobre el cuerpo y responde.]]",
+      "text": "[[Our|Nuestro]] [[body|cuerpo]] [[is|es]] [[amazing!|asombroso!]] [[We|Nosotros]] [[have|tenemos]] [[two|dos]] [[eyes|ojos]] [[to|para]] [[see,|ver,]] [[two|dos]] [[ears|oídos]] [[to|para]] [[hear,|oír,]] [[and|y]] [[one|una]] [[nose|nariz]] [[to|para]] [[smell.|oler.]] [[We|Nosotros]] [[use|usamos]] [[our|nuestra]] [[mouth|boca]] [[to|para]] [[eat|comer]] [[and|y]] [[speak.|hablar.]] [[We|Nosotros]] [[have|tenemos]] [[got|conseguido]] [[two|dos]] [[hands|manos]] [[with|con]] [[five|cinco]] [[fingers|dedos]] [[on|en]] [[each|cada]] [[one.|una.]] [[Hands|Manos]] [[are|son]] [[for|para]] [[holding|sostener]] [[things.|cosas.]] [[We|Nosotros]] [[have|tenemos]] [[got|conseguido]] [[two|dos]] [[legs|piernas]] [[and|y]] [[two|dos]] [[feet|pies]] [[to|para]] [[walk|caminar]] [[and|y]] [[run.|correr.]] [[It|Ello]] [[is|es]] [[important|importante]] [[to|a]] [[take|tomar]] [[care|cuidado]] [[of|de]] [[our|nuestro]] [[body.|cuerpo.]] [[You|Tú]] [[should|deberías]] [[exercise,|ejercitar,]] [[eat|comer]] [[healthy|saludable]] [[food,|comida,]] [[and|y]] [[sleep|dormir]] [[eight|ocho]] [[hours|horas]] [[every|cada]] [[night.|noche.]]",
       "questions": [
         {
           "question": "[[How many hours should we sleep?|¿Cuántas horas deberíamos dormir?]]",
@@ -1153,6 +1157,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Reading: Maria's Health|Lectura: La salud de Maria]]",
       "instructions": "[[Read about Maria and answer.|Lee sobre Maria y responde.]]",
+      "text": "[[Maria|Maria]] [[is|está]] [[not|no]] [[having|teniendo]] [[a|un]] [[good|buen]] [[day.|día.]] [[She|Ella]] [[has|tiene]] [[got|conseguido]] [[a|un]] [[terrible|terrible]] [[toothache.|dolor de muelas.]] [[Her|Su]] [[jaw|mandíbula]] [[hurts|duele]] [[a|un]] [[lot.|mucho.]] [[She|Ella]] [[shouldn't|no debería]] [[eat|comer]] [[anything|nada]] [[hard.|duro.]] [[She|Ella]] [[should|debería]] [[call|llamar]] [[the|al]] [[dentist|dentista]] [[right|ahora]] [[now.|mismo.]] [[Last|La pasada]] [[week,|semana,]] [[she|ella]] [[had|tuvo]] [[a|un]] [[stomach|estómago]] [[ache,|dolor,]] [[but|pero]] [[now|ahora]] [[her|su]] [[stomach|estómago]] [[is|está]] [[fine.|bien.]] [[Maria|Maria]] [[thinks:|piensa:]] [['I|'Yo]] [[should|debería]] [[go|ir]] [[to|al]] [[the|el]] [[doctor|médico]] [[more|más]] [[often'.|a menudo'.]]",
       "questions": [
         {
           "question": "[[What is the matter with Maria today?|¿Qué le pasa a Maria hoy?]]",
