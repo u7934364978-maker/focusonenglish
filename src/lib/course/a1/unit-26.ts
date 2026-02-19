@@ -1070,7 +1070,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mi Cumpleaños",
       "instructions": "Lee sobre los planes de cumpleaños.",
-      "text": "[[Next Saturday|El próximo sábado]] [[is|es]] [[my|mi]] [[birthday.|cumpleaños.]] [[I am going to have|Voy a tener]] [[a party|una fiesta]] [[with|con]] [[my|mis]] [[friends.|amigos.]] [[We are going to eat|Vamos a comer]] [[pizza|pizza]] [[and|y]] [[listen to music.|escuchar música.]] [[My|Mis]] [[parents|padres]] [[are going to buy|van a comprar]] [[a big|un gran]] [[cake.|pastel.]] [[I am|Estoy]] [[very|muy]] [[happy.|feliz.]]",
+      "text": "[[Next|El próximo]] [[Saturday|sábado]] [[is|es]] [[my|mi]] [[birthday.|cumpleaños.]] [[I|Yo]] [[am|estoy]] [[going|yendo]] [[to|a]] [[have|tener]] [[a|una]] [[party|fiesta]] [[with|con]] [[my|mis]] [[friends.|amigos.]] [[We|Nosotros]] [[are|estamos]] [[going|yendo]] [[to|a]] [[eat|comer]] [[pizza|pizza]] [[and|y]] [[listen|escuchar]] [[to|a]] [[music.|música.]] [[My|Mis]] [[parents|padres]] [[are|están]] [[going|yendo]] [[to|a]] [[buy|comprar]] [[a|un]] [[big|gran]] [[cake.|pastel.]] [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy.|feliz.]]",
       "questions": [
         {
           "question": "[[When is the birthday?|¿Cuándo es el cumpleaños?]]",
@@ -1097,7 +1097,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Viaje a Londres",
       "instructions": "Lee sobre el viaje del hermano.",
-      "text": "[[My|Mi]] [[brother|hermano]] [[is going to travel|va a viajar]] [[to London|a Londres]] [[next month.|el mes que viene.]] [[He is going to stay|Se va a quedar]] [[in a|en un]] [[hotel|hotel]] [[near|cerca de]] [[the center.|el centro.]] [[He is going to visit|Va a visitar]] [[many|muchos]] [[museums.|museos.]] [[He is not|Él no]] [[going to take|va a llevar]] [[his|su]] [[car,|coche,]] [[he is|él va a]] [[going to travel|viajar]] [[by plane.|en avión.]]",
+      "text": "[[My|Mi]] [[brother|hermano]] [[is|está]] [[going|yendo]] [[to|a]] [[travel|viajar]] [[to|a]] [[London|Londres]] [[next|el próximo]] [[month.|mes.]] [[He|Él]] [[is|está]] [[going|yendo]] [[to|a]] [[stay|quedarse]] [[in|en]] [[a|un]] [[hotel|hotel]] [[near|cerca de]] [[the|el]] [[center.|centro.]] [[He|Él]] [[is|está]] [[going|yendo]] [[to|a]] [[visit|visitar]] [[many|muchos]] [[museums.|museos.]] [[He|Él]] [[is|está]] [[not|no]] [[going|yendo]] [[to|a]] [[take|llevar]] [[his|su]] [[car,|coche,]] [[he|él]] [[is|está]] [[going|yendo]] [[to|a]] [[travel|viajar]] [[by|en]] [[plane.|avión.]]",
       "questions": [
         {
           "question": "[[Where is the brother going to stay?|¿Dónde se va a quedar el hermano?]]",
@@ -1124,7 +1124,7 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "content": {
       "title": "Va a Llover",
       "instructions": "Lee sobre el tiempo.",
-      "text": "[[Look at|Mira]] [[the sky!|el cielo!]] [[It is|Está]] [[very|muy]] [[dark.|oscuro.]] [[I think|Creo que]] [[it is going to|va a]] [[rain|llover]] [[soon.|pronto.]] [[I am going to|Voy a]] [[take|coger]] [[my|mi]] [[umbrella.|paraguas.]] [[We are not|No vamos a]] [[going to walk|caminar]] [[to the|al]] [[park|parque]] [[today.|hoy.]]",
+      "text": "[[Look|Mira]] [[at|a]] [[the|el]] [[sky!|cielo!]] [[It|Esto]] [[is|está]] [[very|muy]] [[dark.|oscuro.]] [[I|Yo]] [[think|creo]] [[it|esto]] [[is|está]] [[going|yendo]] [[to|a]] [[rain|llover]] [[soon.|pronto.]] [[I|Yo]] [[am|estoy]] [[going|yendo]] [[to|a]] [[take|coger]] [[my|mi]] [[umbrella.|paraguas.]] [[We|Nosotros]] [[are|estamos]] [[not|no]] [[going|yendo]] [[to|a]] [[walk|caminar]] [[to|a]] [[the|el]] [[park|parque]] [[today.|hoy.]]",
       "questions": [
         {
           "question": "[[What is the weather going to be?|¿Cómo va a ser el tiempo?]]",

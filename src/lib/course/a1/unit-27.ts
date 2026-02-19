@@ -1096,7 +1096,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Buscando el Supermercado",
       "instructions": "Lee las instrucciones para llegar al supermercado.",
-      "text": "[[Excuse me,|Disculpe,]] [[how|cómo]] [[can I|puedo]] [[get to|llegar a]] [[the supermarket?|el supermercado?]] [[Go|Vaya]] [[straight|recto]] [[on|por]] [[this|esta]] [[street|calle]] [[and|y]] [[turn|gire]] [[left|a la izquierda]] [[at|en]] [[the corner.|la esquina.]] [[The supermarket|El supermercado]] [[is|está]] [[next to|al lado de]] [[the bank,|el banco,]] [[opposite|enfrente de]] [[the park.|el parque.]] [[It is|Está]] [[very|muy]] [[near|cerca]] [[from here.|de aquí.]]",
+      "text": "[[Excuse me,|Disculpe,]] [[how|cómo]] [[can|puedo]] [[I|yo]] [[get|llegar]] [[to|a]] [[the|el]] [[supermarket?|supermercado?]] [[Go|Vaya]] [[straight|recto]] [[on|por]] [[this|esta]] [[street|calle]] [[and|y]] [[turn|gire]] [[left|a la izquierda]] [[at|en]] [[the|la]] [[corner.|esquina.]] [[The|El]] [[supermarket|supermercado]] [[is|está]] [[next|al lado]] [[to|de]] [[the|el]] [[bank,|banco,]] [[opposite|enfrente de]] [[the|el]] [[park.|parque.]] [[It|Esto]] [[is|está]] [[very|muy]] [[near|cerca]] [[from|de]] [[here.|aquí.]]",
       "questions": [
         {
           "question": "[[Where is the supermarket?|¿Dónde está el supermercado?]]",
@@ -1123,7 +1123,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "El Centro del Pueblo",
       "instructions": "Lee sobre los lugares en el centro.",
-      "text": "[[Welcome|Bienvenidos]] [[to|a]] [[our|nuestro]] [[town|pueblo]] [[center.|centro.]] [[There is|Hay]] [[a big|una gran]] [[square|plaza]] [[with|con]] [[a beautiful|una hermosa]] [[church.|iglesia.]] [[The museum|El museo]] [[is|está]] [[behind|detrás de]] [[the church.|la iglesia.]] [[If|Si]] [[you are|tienes]] [[hungry,|hambre,]] [[there is|hay]] [[a cafe|una cafetería]] [[next to|al lado de]] [[the cinema.|el cine.]] [[The bus station|La estación de autobuses]] [[is|está]] [[opposite|enfrente de]] [[the hotel.|el hotel.]]",
+      "text": "[[Welcome|Bienvenidos]] [[to|a]] [[our|nuestro]] [[town|pueblo]] [[center.|centro.]] [[There|Allí]] [[is|hay]] [[a|una]] [[big|gran]] [[square|plaza]] [[with|con]] [[a|una]] [[beautiful|hermosa]] [[church.|iglesia.]] [[The|El]] [[museum|museo]] [[is|está]] [[behind|detrás de]] [[the|la]] [[church.|iglesia.]] [[If|Si]] [[you|tú]] [[are|estás]] [[hungry,|hambriento,]] [[there|allí]] [[is|hay]] [[a|una]] [[cafe|cafetería]] [[next|al lado]] [[to|de]] [[the|el]] [[cinema.|cine.]] [[The|La]] [[bus|autobús]] [[station|estación]] [[is|está]] [[opposite|enfrente de]] [[the|el]] [[hotel.|hotel.]]",
       "questions": [
         {
           "question": "[[Where is the museum?|¿Dónde está el museo?]]",
@@ -1150,7 +1150,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "content": {
       "title": "Al Aeropuerto",
       "instructions": "Lee cómo llegar al aeropuerto.",
-      "text": "[[To go|Para ir]] [[to|a]] [[the airport,|el aeropuerto,]] [[you need|necesitas]] [[to take|tomar]] [[the bus|el autobús]] [[at|en]] [[the station.|la estación.]] [[Go|Vaya]] [[straight|recto]] [[on|por]] [[this|esta]] [[road|carretera]] [[and|y]] [[turn|gire]] [[right|a la derecha]] [[at|en]] [[the hospital.|el hospital.]] [[The airport|El aeropuerto]] [[is|está]] [[on your|a su]] [[left.|izquierda.]] [[It is|Está]] [[about|a unos]] [[twenty|veinte]] [[minutes|minutos]] [[from here.|de aquí.]]",
+      "text": "[[To|Para]] [[go|ir]] [[to|a]] [[the|el]] [[airport,|aeropuerto,]] [[you|tú]] [[need|necesitas]] [[to|a]] [[take|tomar]] [[the|el]] [[bus|autobús]] [[at|en]] [[the|la]] [[station.|estación.]] [[Go|Vaya]] [[straight|recto]] [[on|por]] [[this|esta]] [[road|carretera]] [[and|y]] [[turn|gire]] [[right|a la derecha]] [[at|en]] [[the|el]] [[hospital.|hospital.]] [[The|El]] [[airport|aeropuerto]] [[is|está]] [[on|en]] [[your|su]] [[left.|izquierda.]] [[It|Esto]] [[is|está]] [[about|a unos]] [[twenty|veinte]] [[minutes|minutos]] [[from|de]] [[here.|aquí.]]",
       "questions": [
         {
           "question": "[[Where is the airport?|¿Dónde está el aeropuerto?]]",

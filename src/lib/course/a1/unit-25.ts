@@ -1065,7 +1065,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "Un Domingo en Casa",
       "instructions": "Lee sobre lo que hace la familia.",
-      "text": "[[It is|Es]] [[Sunday|domingo]] [[afternoon.|por la tarde.]] [[My|Mi]] [[family|familia]] [[is at|está en]] [[home.|casa.]] [[My|Mi]] [[father|padre]] [[is cooking|está cocinando]] [[in|en]] [[the|la]] [[kitchen.|cocina.]] [[My|Mi]] [[mother|madre]] [[is reading|está leyendo]] [[a book|un libro]] [[on|en]] [[the|el]] [[sofa.|sofá.]] [[My|Mi]] [[brother|hermano]] [[is playing|está jugando]] [[with|con]] [[his|sus]] [[toys.|juguetes.]] [[I am|Yo estoy]] [[writing|escribiendo]] [[in|en]] [[my|mi]] [[diary.|diario.]]",
+      "text": "[[It|Esto]] [[is|es]] [[Sunday|domingo]] [[afternoon.|por la tarde.]] [[My|Mi]] [[family|familia]] [[is|está]] [[at|en]] [[home.|casa.]] [[My|Mi]] [[father|padre]] [[is|está]] [[cooking|cocinando]] [[in|en]] [[the|la]] [[kitchen.|cocina.]] [[My|Mi]] [[mother|madre]] [[is|está]] [[reading|leyendo]] [[a|un]] [[book|libro]] [[on|en]] [[the|el]] [[sofa.|sofá.]] [[My|Mi]] [[brother|hermano]] [[is|está]] [[playing|jugando]] [[with|con]] [[his|sus]] [[toys.|juguetes.]] [[I|Yo]] [[am|estoy]] [[writing|escribiendo]] [[in|en]] [[my|mi]] [[diary.|diario.]]",
       "questions": [
         {
           "question": "[[What is the father doing?|¿Qué está haciendo el padre?]]",
@@ -1092,7 +1092,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "En el Parque",
       "instructions": "Lee sobre el parque.",
-      "text": "[[We are|Estamos]] [[at|en]] [[the|el]] [[park|parque]] [[now.|ahora.]] [[Many|Muchas]] [[people|personas]] [[are here.|están aquí.]] [[Some|Algunos]] [[children|niños]] [[are running.|están corriendo.]] [[A girl|Una niña]] [[is eating|está comiendo]] [[an ice cream.|un helado.]] [[Two|Dos]] [[boys|chicos]] [[are playing|están jugando]] [[football.|al fútbol.]] [[I am|Yo estoy]] [[sitting|sentado]] [[under|debajo de]] [[a tree.|un árbol.]]",
+      "text": "[[We|Nosotros]] [[are|estamos]] [[at|en]] [[the|el]] [[park|parque]] [[now.|ahora.]] [[Many|Muchas]] [[people|personas]] [[are|están]] [[here.|aquí.]] [[Some|Algunos]] [[children|niños]] [[are|están]] [[running.|corriendo.]] [[A|Una]] [[girl|niña]] [[is|está]] [[eating|comiendo]] [[an|un]] [[ice cream.|helado.]] [[Two|Dos]] [[boys|chicos]] [[are|están]] [[playing|jugando]] [[football.|fútbol.]] [[I|Yo]] [[am|estoy]] [[sitting|sentado]] [[under|debajo de]] [[a|un]] [[tree.|árbol.]]",
       "questions": [
         {
           "question": "[[What is the girl eating?|¿Qué está comiendo la niña?]]",
@@ -1119,7 +1119,7 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "content": {
       "title": "¿Quién Canta?",
       "instructions": "Lee sobre la hermana.",
-      "text": "[[Listen!|¡Escucha!]] [[Someone|Alguien]] [[is singing.|está cantando.]] [[It is|Es]] [[my|mi]] [[sister.|hermana.]] [[She is|Ella está]] [[in|en]] [[her|su]] [[bedroom.|habitación.]] [[She is|Ella está]] [[practicing|practicando]] [[for|para]] [[a|un]] [[concert.|concierto.]] [[My|Mi]] [[dog|perro]] [[is listening|está escuchando]] [[to her.|a ella.]]",
+      "text": "[[Listen!|¡Escucha!]] [[Someone|Alguien]] [[is|está]] [[singing.|cantando.]] [[It|Esto]] [[is|es]] [[my|mi]] [[sister.|hermana.]] [[She|Ella]] [[is|está]] [[in|en]] [[her|su]] [[bedroom.|habitación.]] [[She|Ella]] [[is|está]] [[practicing|practicando]] [[for|para]] [[a|un]] [[concert.|concierto.]] [[My|Mi]] [[dog|perro]] [[is|está]] [[listening|escuchando]] [[to|a]] [[her.|ella.]]",
       "questions": [
         {
           "question": "[[Where is the sister?|¿Dónde está la hermana?]]",

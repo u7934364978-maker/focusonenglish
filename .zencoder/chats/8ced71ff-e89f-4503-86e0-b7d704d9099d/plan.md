@@ -103,13 +103,13 @@ Implement word-by-word translations for reading exercises in units 22 to 24.
 
 ---
 
-### [ ] Step: Phase 9 (Units 25-27)
+### [x] Step: Phase 9 (Units 25-27)
 Implement word-by-word translations for reading exercises in units 25 to 27.
 
-- [ ] Audit and update Unit 25.
-- [ ] Audit and update Unit 26.
-- [ ] Audit and update Unit 27.
-- [ ] Manual verification.
+- [x] Audit and update Unit 25.
+- [x] Audit and update Unit 26.
+- [x] Audit and update Unit 27.
+- [x] Manual verification.
 
 ---
 
