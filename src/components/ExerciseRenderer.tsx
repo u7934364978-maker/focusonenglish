@@ -430,13 +430,13 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         <div className="p-8">
           {isReadingExercise && showReadingText ? (
             <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
-              <div className="p-10 bg-white border-l-8 border-purple-500 rounded-r-3xl shadow-inner text-slate-800 text-2xl leading-relaxed font-medium italic relative group">
+              <div className="p-10 bg-white border-l-8 border-purple-500 rounded-r-3xl shadow-inner text-slate-800 text-2xl leading-relaxed font-medium italic relative">
                 <Markdown content={exercise.transcript!} />
                 {exercise.audioUrl && (
                   <button
                     onClick={() => playAudio(exercise.audioUrl)}
                     disabled={audioLoading}
-                    className="absolute top-4 right-4 p-4 bg-purple-100 text-purple-600 rounded-full opacity-0 group-hover:opacity-100 transition-all hover:bg-purple-200 shadow-md active:scale-90"
+                    className="absolute top-4 right-4 p-4 bg-purple-100 text-purple-600 rounded-full opacity-0 hover:opacity-100 transition-all hover:bg-purple-200 shadow-md active:scale-90"
                     title="Escuchar texto"
                   >
                     <Volume2 className={`w-8 h-8 ${audioLoading ? 'animate-pulse' : ''}`} />

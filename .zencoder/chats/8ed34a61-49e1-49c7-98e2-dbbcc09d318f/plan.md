@@ -67,3 +67,11 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/8e
 1. [x] **Refactor Unit 9 Reading (e51-e60)**: Change block translations in `transcript` and `question` to word-by-word/phrase-by-phrase `[[English|Spanish]]`.
 2. [x] **Refactor Unit 10 Reading (e51-e60)**: Change block translations in `transcript` and `question` to word-by-word/phrase-by-phrase `[[English|Spanish]]`.
 3. [x] **Verification**: Run `npm run validate-exercises`.
+
+---
+
+## [x] Phase: Hover Translation UI (Reading Exercises)
+
+1. [x] **Modify TranslatedText Component**: Update `src/components/course/exercises/TranslatedText.tsx` to handle hover-based translation display and add `AudioButton` for pronunciation.
+2. [x] **Verification**: Visually verify in the browser that translations appear on hover and disappear on mouse leave. (Automated with Playwright: `e2e/a1-u9-u10-hover-translations.spec.ts`)
+3. [x] **Final Push**: Commit and push the changes.

@@ -2,6 +2,7 @@
 
 import React, { useMemo } from 'react';
 import { GLOBAL_LEXICON } from '@/lib/course/engine/lexicon';
+import AudioButton from '../AudioButton';
 
 interface TranslatedTextProps {
   text: string;
@@ -118,18 +119,26 @@ interface TooltipProps {
 }
 
 const Tooltip: React.FC<TooltipProps> = ({ word, translation, useStrong }) => (
-  <span className="group relative inline-block border-b-2 border-dotted border-indigo-300 hover:border-indigo-500 cursor-help mx-0.5 transition-colors">
+  <span className="group relative inline-block border-b-2 border-dotted border-indigo-300 hover:border-indigo-500 cursor-help mx-0.5 transition-all duration-200">
     <span className={useStrong ? "font-bold text-indigo-700 dark:text-indigo-400" : "text-indigo-600 dark:text-indigo-400 font-medium"}>
       {word}
     </span>
-    <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-max max-w-[200px] p-3 bg-slate-900 text-white text-xs rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pointer-events-none z-[100] shadow-2xl border border-slate-700 transform translate-y-1 group-hover:translate-y-0" aria-hidden="true">
-      <span className="block font-black text-indigo-400 mb-1 uppercase tracking-widest text-[10px]">
-        {word}
+    <span 
+      className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-max max-w-[220px] p-3 bg-slate-900 text-white text-xs rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-[100] shadow-2xl border border-slate-700 transform translate-y-1 group-hover:translate-y-0 pointer-events-none group-hover:pointer-events-auto" 
+      aria-hidden="true"
+    >
+      <span className="flex items-center justify-between gap-3 mb-2">
+        <span className="block font-black text-indigo-400 uppercase tracking-widest text-[10px] truncate">
+          {word}
+        </span>
+        <AudioButton text={word} size="sm" className="bg-slate-800 hover:bg-slate-700 text-indigo-400 border-none scale-75" />
       </span>
-      <span className="block text-slate-200 leading-snug">
+      <span className="block text-slate-200 leading-snug font-medium text-sm">
         {translation}
       </span>
       <span className="absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent border-t-slate-900"></span>
+      {/* Invisible bridge to handle the gap between word and tooltip */}
+      <div className="absolute top-full left-0 right-0 h-4" />
     </span>
   </span>
 );
