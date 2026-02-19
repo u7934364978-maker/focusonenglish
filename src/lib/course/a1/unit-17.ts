@@ -860,16 +860,16 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[My name is Sarah|Mi nombre es Sarah]] [[and I love food.|y me encanta la comida.]] [[Every morning,|Cada mañana,]] [[I wake up|me despierto]] [[at seven o'clock.|a las siete en punto.]] [[For breakfast,|Para el desayuno,]] [[I usually have|normalmente tomo]] [[a bowl of cereal|un bol de cereales]] [[with fresh fruit|con fruta fresca]] [[and a glass of orange juice.|y un vaso de zumo de naranja.]] [[At one o'clock,|A la una en punto,]] [[I have lunch|almuerzo]] [[with my colleagues at work.|con mis colegas en el trabajo.]] [[We often eat|A menudo comemos]] [[healthy salads|ensaladas saludables]] [[or a sandwich with chicken|o un sándwich con pollo]] [[and vegetables.|y verduras.]] [[In the evening,|Por la tarde,]] [[I cook dinner|cocino la cena]] [[for my family.|para mi familia.]] [[We love pasta and fish.|Nos encanta la pasta y el pescado.]] [[After dinner,|Después de cenar,]] [[we sometimes have|a veces tomamos]] [[a small dessert,|un pequeño postre,]] [[like a piece of cake|como un trozo de pastel]] [[or some yogurt.|o algo de yogur.]]",
+    "transcript": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]] [[and|y]] [[I|yo]] [[love|amo]] [[food.|comida.]] [[Every|Cada]] [[morning,|mañana,]] [[I|yo]] [[wake|despierto]] [[up|aux]] [[at|a]] [[seven|las siete]] [[o'clock.|en punto.]] [[For|Para]] [[breakfast,|desayuno,]] [[I|yo]] [[usually|normalmente]] [[have|tomo]] [[a|un]] [[bowl|bol]] [[of|de]] [[cereal|cereal]] [[with|con]] [[fresh|fresca]] [[fruit|fruta]] [[and|y]] [[a|un]] [[glass|vaso]] [[of|de]] [[orange|naranja]] [[juice.|zumo.]] [[At|A]] [[one|la una]] [[o'clock,|en punto,]] [[I|yo]] [[have|tomo]] [[lunch|almuerzo]] [[with|con]] [[my|mis]] [[colleagues|colegas]] [[at|en]] [[work.|trabajo.]] [[We|Nosotros]] [[often|a menudo]] [[eat|comemos]] [[healthy|saludables]] [[salads|ensaladas]] [[or|o]] [[a|un]] [[sandwich|sándwich]] [[with|con]] [[chicken|pollo]] [[and|y]] [[vegetables.|verduras.]] [[In|En]] [[the|la]] [[evening,|tarde,]] [[I|yo]] [[cook|cocino]] [[dinner|cena]] [[for|para]] [[my|mi]] [[family.|familia.]] [[We|Nosotros]] [[love|amamos]] [[pasta|pasta]] [[and|y]] [[fish.|pescado.]] [[After|Después]] [[dinner,|cena,]] [[we|nosotros]] [[sometimes|a veces]] [[have|tomamos]] [[a|un]] [[small|pequeño]] [[dessert,|postre,]] [[like|como]] [[a|un]] [[piece|trozo]] [[of|de]] [[cake|pastel]] [[or|o]] [[some|algo de]] [[yogurt.|yogur.]]",
     "content": {
-      "title": "[[Reading: Sarah's Meals|Lectura: Las comidas de Sarah]]",
-      "instructions": "[[Read the text about Sarah and answer.|Lee el texto sobre Sarah y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[Sarah's|de Sarah]] [[Meals|Comidas]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[about|sobre]] [[Sarah|Sarah]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[What does Sarah usually have for breakfast?|¿Qué suele desayunar Sarah?]]",
-          "options": ["[[Cereal, fruit and juice|Cereal, fruta y zumo]]", "[[Eggs and bacon|Huevos y bacon]]", "[[Pizza and soda|Pizza y refresco]]"],
+          "question": "[[What|Qué]] [[does|aux]] [[Sarah|Sarah]] [[usually|normalmente]] [[have|toma]] [[for|para]] [[breakfast?|desayuno?]]",
+          "options": ["[[Cereal,|Cereal,]] [[fruit|fruta]] [[and|y]] [[juice|zumo]]", "[[Eggs|Huevos]] [[and|y]] [[bacon|bacon]]", "[[Pizza|Pizza]] [[and|y]] [[soda|refresco]]"],
           "correctAnswer": 0,
-          "explanation": "[[Sarah has cereal with fresh fruit and orange juice.|Sarah toma cereal con fruta fresca y zumo de naranja.]]"
+          "explanation": "[[Sarah|Sarah]] [[has|toma]] [[cereal|cereal]] [[with|con]] [[fresh|fresca]] [[fruit|fruta]] [[and|y]] [[orange|naranja]] [[juice.|zumo.]]"
         }
       ]
     },
@@ -882,16 +882,16 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[My name is Sarah|Mi nombre es Sarah]] [[and I love food.|y me encanta la comida.]] [[Every morning,|Cada mañana,]] [[I wake up|me despierto]] [[at seven o'clock.|a las siete en punto.]] [[For breakfast,|Para el desayuno,]] [[I usually have|normalmente tomo]] [[a bowl of cereal|un bol de cereales]] [[with fresh fruit|con fruta fresca]] [[and a glass of orange juice.|y un vaso de zumo de naranja.]] [[At one o'clock,|A la una en punto,]] [[I have lunch|almuerzo]] [[with my colleagues at work.|con mis colegas en el trabajo.]] [[We often eat|A menudo comemos]] [[healthy salads|ensaladas saludables]] [[or a sandwich with chicken|o un sándwich con pollo]] [[and vegetables.|y verduras.]] [[In the evening,|Por la tarde,]] [[I cook dinner|cocino la cena]] [[for my family.|para mi familia.]] [[We love pasta and fish.|Nos encanta la pasta y el pescado.]] [[After dinner,|Después de cenar,]] [[we sometimes have|a veces tomamos]] [[a small dessert,|un pequeño postre,]] [[like a piece of cake|como un trozo de pastel]] [[or some yogurt.|o algo de yogur.]]",
+    "transcript": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]] [[and|y]] [[I|yo]] [[love|amo]] [[food.|comida.]] [[Every|Cada]] [[morning,|mañana,]] [[I|yo]] [[wake|despierto]] [[up|aux]] [[at|a]] [[seven|las siete]] [[o'clock.|en punto.]] [[For|Para]] [[breakfast,|desayuno,]] [[I|yo]] [[usually|normalmente]] [[have|tomo]] [[a|un]] [[bowl|bol]] [[of|de]] [[cereal|cereal]] [[with|con]] [[fresh|fresca]] [[fruit|fruta]] [[and|y]] [[a|un]] [[glass|vaso]] [[of|de]] [[orange|naranja]] [[juice.|zumo.]] [[At|A]] [[one|la una]] [[o'clock,|en punto,]] [[I|yo]] [[have|tomo]] [[lunch|almuerzo]] [[with|con]] [[my|mis]] [[colleagues|colegas]] [[at|en]] [[work.|trabajo.]] [[We|Nosotros]] [[often|a menudo]] [[eat|comemos]] [[healthy|saludables]] [[salads|ensaladas]] [[or|o]] [[a|un]] [[sandwich|sándwich]] [[with|con]] [[chicken|pollo]] [[and|y]] [[vegetables.|verduras.]] [[In|En]] [[the|la]] [[evening,|tarde,]] [[I|yo]] [[cook|cocino]] [[dinner|cena]] [[for|para]] [[my|mi]] [[family.|familia.]] [[We|Nosotros]] [[love|amamos]] [[pasta|pasta]] [[and|y]] [[fish.|pescado.]] [[After|Después]] [[dinner,|cena,]] [[we|nosotros]] [[sometimes|a veces]] [[have|tomamos]] [[a|un]] [[small|pequeño]] [[dessert,|postre,]] [[like|como]] [[a|un]] [[piece|trozo]] [[of|de]] [[cake|pastel]] [[or|o]] [[some|algo de]] [[yogurt.|yogur.]]",
     "content": {
-      "title": "[[Reading: Sarah's Lunch|Lectura: El almuerzo de Sarah]]",
-      "instructions": "[[Read the text about Sarah and answer.|Lee el texto sobre Sarah y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[Sarah's|de Sarah]] [[Lunch|Almuerzo]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[about|sobre]] [[Sarah|Sarah]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[Who does she have lunch with?|¿Con quién almuerza ella?]]",
-          "options": ["[[With her colleagues|Con sus colegas]]", "[[With her family|Con su familia]]", "[[Alone|Sola]]"],
+          "question": "[[Who|Con quién]] [[does|aux]] [[she|ella]] [[have|almuerza]] [[lunch|]] [[with?|?]]",
+          "options": ["[[With|Con]] [[her|sus]] [[colleagues|colegas]]", "[[With|Con]] [[her|su]] [[family|familia]]", "[[Alone|Sola]]"],
           "correctAnswer": 0,
-          "explanation": "[[Sarah has lunch with her colleagues at work.|Sarah almuerza con sus colegas del trabajo a la una.]]"
+          "explanation": "[[Sarah|Sarah]] [[has|toma]] [[lunch|almuerzo]] [[with|con]] [[her|sus]] [[colleagues|colegas]] [[at|en]] [[work.|trabajo.]]"
         }
       ]
     },
@@ -904,16 +904,16 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[My name is Sarah|Mi nombre es Sarah]] [[and I love food.|y me encanta la comida.]] [[Every morning,|Cada mañana,]] [[I wake up|me despierto]] [[at seven o'clock.|a las siete en punto.]] [[For breakfast,|Para el desayuno,]] [[I usually have|normalmente tomo]] [[a bowl of cereal|un bol de cereales]] [[with fresh fruit|con fruta fresca]] [[and a glass of orange juice.|y un vaso de zumo de naranja.]] [[At one o'clock,|A la una en punto,]] [[I have lunch|almuerzo]] [[with my colleagues at work.|con mis colegas en el trabajo.]] [[We often eat|A menudo comemos]] [[healthy salads|ensaladas saludables]] [[or a sandwich with chicken|o un sándwich con pollo]] [[and vegetables.|y verduras.]] [[In the evening,|Por la tarde,]] [[I cook dinner|cocino la cena]] [[for my family.|para mi familia.]] [[We love pasta and fish.|Nos encanta la pasta y el pescado.]] [[After dinner,|Después de cenar,]] [[we sometimes have|a veces tomamos]] [[a small dessert,|un pequeño postre,]] [[like a piece of cake|como un trozo de pastel]] [[or some yogurt.|o algo de yogur.]]",
+    "transcript": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]] [[and|y]] [[I|yo]] [[love|amo]] [[food.|comida.]] [[Every|Cada]] [[morning,|mañana,]] [[I|yo]] [[wake|despierto]] [[up|aux]] [[at|a]] [[seven|las siete]] [[o'clock.|en punto.]] [[For|Para]] [[breakfast,|desayuno,]] [[I|yo]] [[usually|normalmente]] [[have|tomo]] [[a|un]] [[bowl|bol]] [[of|de]] [[cereal|cereal]] [[with|con]] [[fresh|fresca]] [[fruit|fruta]] [[and|y]] [[a|un]] [[glass|vaso]] [[of|de]] [[orange|naranja]] [[juice.|zumo.]] [[At|A]] [[one|la una]] [[o'clock,|en punto,]] [[I|yo]] [[have|tomo]] [[lunch|almuerzo]] [[with|con]] [[my|mis]] [[colleagues|colegas]] [[at|en]] [[work.|trabajo.]] [[We|Nosotros]] [[often|a menudo]] [[eat|comemos]] [[healthy|saludables]] [[salads|ensaladas]] [[or|o]] [[a|un]] [[sandwich|sándwich]] [[with|con]] [[chicken|pollo]] [[and|y]] [[vegetables.|verduras.]] [[In|En]] [[the|la]] [[evening,|tarde,]] [[I|yo]] [[cook|cocino]] [[dinner|cena]] [[for|para]] [[my|mi]] [[family.|familia.]] [[We|Nosotros]] [[love|amamos]] [[pasta|pasta]] [[and|y]] [[fish.|pescado.]] [[After|Después]] [[dinner,|cena,]] [[we|nosotros]] [[sometimes|a veces]] [[have|tomamos]] [[a|un]] [[small|pequeño]] [[dessert,|postre,]] [[like|como]] [[a|un]] [[piece|trozo]] [[of|de]] [[cake|pastel]] [[or|o]] [[some|algo de]] [[yogurt.|yogur.]]",
     "content": {
-      "title": "[[Reading: Sarah's Dinner|Lectura: La cena de Sarah]]",
-      "instructions": "[[Read the text about Sarah and answer.|Lee el texto sobre Sarah y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[Sarah's|de Sarah]] [[Dinner|Cena]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[about|sobre]] [[Sarah|Sarah]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[What do they eat for dinner?|¿Qué cenan ellos?]]",
-          "options": ["[[Pasta and fish|Pasta y pescado]]", "[[Salad and sandwiches|Ensalada y sándwiches]]", "[[Cereal and yogurt|Cereal y yogur]]"],
+          "question": "[[What|Qué]] [[do|aux]] [[they|ellos]] [[eat|comen]] [[for|para]] [[dinner?|cena?]]",
+          "options": ["[[Pasta|Pasta]] [[and|y]] [[fish|pescado]]", "[[Salad|Ensalada]] [[and|y]] [[sandwiches|sándwiches]]", "[[Cereal|Cereal]] [[and|y]] [[yogurt|yogur]]"],
           "correctAnswer": 0,
-          "explanation": "[[Her family loves pasta and fish for dinner.|A su familia le encanta la pasta y el pescado para cenar.]]"
+          "explanation": "[[Her|Su]] [[family|familia]] [[loves|ama]] [[pasta|pasta]] [[and|y]] [[fish|pescado]] [[for|para]] [[dinner.|cena.]]"
         }
       ]
     },
@@ -926,16 +926,16 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[David is a chef|David es chef]] [[in a big restaurant.|en un restaurante grande.]] [[His day starts very early.|Su día empieza muy temprano.]] [[He goes to the market|Va al mercado]] [[at five o'clock|a las cinco en punto]] [[to buy fresh vegetables,|para comprar verduras frescas,]] [[meat, and fish.|carne y pescado.]] [[In the kitchen,|En la cocina,]] [[he uses many utensils.|usa muchos utensilios.]] [[He uses a sharp knife|Usa un cuchillo afilado]] [[to slice the meat|para cortar la carne]] [[and a large pan|y una sartén grande]] [[to fry the vegetables.|para freír las verduras.]] [[He always tells his team:|Siempre le dice a su equipo:]] [['Wash the dishes|'¡Lavad los platos]] [[and set the tables|y poned las mesas]] [[before the customers arrive!'.|antes de que lleguen los clientes!'.]] [[David loves cooking|A David le encanta cocinar]] [[healthy and delicious meals|comidas saludables y deliciosas]] [[for everyone.|para todos.]]",
+    "transcript": "[[David|David]] [[is|es]] [[a|un]] [[chef|chef]] [[in|en]] [[a|un]] [[big|grande]] [[restaurant.|restaurante.]] [[His|Su]] [[day|día]] [[starts|empieza]] [[very|muy]] [[early.|temprano.]] [[He|Él]] [[goes|va]] [[to|al]] [[the|el]] [[market|mercado]] [[at|a]] [[five|las cinco]] [[o'clock|en punto]] [[to|para]] [[buy|comprar]] [[fresh|frescas]] [[vegetables,|verduras,]] [[meat,|carne,]] [[and|y]] [[fish.|pescado.]] [[In|En]] [[the|la]] [[kitchen,|cocina,]] [[he|él]] [[uses|usa]] [[many|muchos]] [[utensils.|utensilios.]] [[He|Él]] [[uses|usa]] [[a|un]] [[sharp|afilado]] [[knife|cuchillo]] [[to|para]] [[slice|cortar]] [[the|la]] [[meat|carne]] [[and|y]] [[a|una]] [[large|grande]] [[pan|sartén]] [[to|para]] [[fry|freír]] [[the|las]] [[vegetables.|verduras.]] [[He|Él]] [[always|siempre]] [[tells|dice]] [[his|su]] [[team:|equipo:]] [['Wash|'Lavad]] [[the|los]] [[dishes|platos]] [[and|y]] [[set|poned]] [[the|las]] [[tables|mesas]] [[before|antes]] [[the|los]] [[customers|clientes]] [[arrive!'.|lleguen!'.]] [[David|David]] [[loves|ama]] [[cooking|cocinar]] [[healthy|saludables]] [[and|y]] [[delicious|deliciosas]] [[meals|comidas]] [[for|para]] [[everyone.|todos.]]",
     "content": {
-      "title": "[[Reading: Chef David|Lectura: El Chef David]]",
-      "instructions": "[[Read about David and answer.|Lee sobre David y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[Chef|Chef]] [[David|David]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[David|David]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[Where does David go at five o'clock?|¿A dónde va David a las cinco en punto?]]",
-          "options": ["[[To the market|Al mercado]]", "[[To the restaurant|Al restaurante]]", "[[To his house|A su casa]]"],
+          "question": "[[Where|A dónde]] [[does|aux]] [[David|David]] [[go|va]] [[at|a]] [[five|las cinco]] [[o'clock?|en punto?]]",
+          "options": ["[[To|Al]] [[the|el]] [[market|mercado]]", "[[To|Al]] [[the|el]] [[restaurant|restaurante]]", "[[To|A]] [[his|su]] [[house|casa]]"],
           "correctAnswer": 0,
-          "explanation": "[[David goes to the market early to buy fresh ingredients.|David va al mercado temprano para comprar ingredientes frescos.]]"
+          "explanation": "[[David|David]] [[goes|va]] [[to|al]] [[the|el]] [[market|mercado]] [[early|temprano]] [[to|para]] [[buy|comprar]] [[fresh|frescos]] [[ingredients.|ingredientes.]]"
         }
       ]
     },
@@ -948,16 +948,16 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[David is a chef|David es chef]] [[in a big restaurant.|en un restaurante grande.]] [[His day starts very early.|Su día empieza muy temprano.]] [[He goes to the market|Va al mercado]] [[at five o'clock|a las cinco en punto]] [[to buy fresh vegetables,|para comprar verduras frescas,]] [[meat, and fish.|carne y pescado.]] [[In the kitchen,|En la cocina,]] [[he uses many utensils.|usa muchos utensilios.]] [[He uses a sharp knife|Usa un cuchillo afilado]] [[to slice the meat|para cortar la carne]] [[and a large pan|y una sartén grande]] [[to fry the vegetables.|para freír las verduras.]] [[He always tells his team:|Siempre le dice a su equipo:]] [['Wash the dishes|'¡Lavad los platos]] [[and set the tables|y poned las mesas]] [[before the customers arrive!'.|antes de que lleguen los clientes!'.]] [[David loves cooking|A David le encanta cocinar]] [[healthy and delicious meals|comidas saludables y deliciosas]] [[for everyone.|para todos.]]",
+    "transcript": "[[David|David]] [[is|es]] [[a|un]] [[chef|chef]] [[in|en]] [[a|un]] [[big|grande]] [[restaurant.|restaurante.]] [[His|Su]] [[day|día]] [[starts|empieza]] [[very|muy]] [[early.|temprano.]] [[He|Él]] [[goes|va]] [[to|al]] [[the|el]] [[market|mercado]] [[at|a]] [[five|las cinco]] [[o'clock|en punto]] [[to|para]] [[buy|comprar]] [[fresh|frescas]] [[vegetables,|verduras,]] [[meat,|carne,]] [[and|y]] [[fish.|pescado.]] [[In|En]] [[the|la]] [[kitchen,|cocina,]] [[he|él]] [[uses|usa]] [[many|muchos]] [[utensils.|utensilios.]] [[He|Él]] [[uses|usa]] [[a|un]] [[sharp|afilado]] [[knife|cuchillo]] [[to|para]] [[slice|cortar]] [[the|la]] [[meat|carne]] [[and|y]] [[a|una]] [[large|grande]] [[pan|sartén]] [[to|para]] [[fry|freír]] [[the|las]] [[vegetables.|verduras.]] [[He|Él]] [[always|siempre]] [[tells|dice]] [[his|su]] [[team:|equipo:]] [['Wash|'Lavad]] [[the|los]] [[dishes|platos]] [[and|y]] [[set|poned]] [[the|las]] [[tables|mesas]] [[before|antes]] [[the|los]] [[customers|clientes]] [[arrive!'.|lleguen!'.]] [[David|David]] [[loves|ama]] [[cooking|cocinar]] [[healthy|saludables]] [[and|y]] [[delicious|deliciosas]] [[meals|comidas]] [[for|para]] [[everyone.|todos.]]",
     "content": {
-      "title": "[[Reading: David's Utensils|Lectura: Utensilios de David]]",
-      "instructions": "[[Read about David and answer.|Lee sobre David y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[David's|de David]] [[Utensils|Utensilios]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[David|David]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[What does he use to slice the meat?|¿Qué usa para cortar la carne?]]",
-          "options": ["[[A sharp knife|Un cuchillo afilado]]", "[[A large pan|Una sartén grande]]", "[[A spoon|Una cuchara]]"],
+          "question": "[[What|Qué]] [[does|aux]] [[he|él]] [[use|usa]] [[to|para]] [[slice|cortar]] [[the|la]] [[meat?|carne?]]",
+          "options": ["[[A|Un]] [[sharp|afilado]] [[knife|cuchillo]]", "[[A|Una]] [[large|grande]] [[pan|sartén]]", "[[A|Una]] [[spoon|cuchara]]"],
           "correctAnswer": 0,
-          "explanation": "[[David uses a sharp knife to slice the meat.|David usa un cuchillo afilado para cortar la carne.]]"
+          "explanation": "[[David|David]] [[uses|usa]] [[a|un]] [[sharp|afilado]] [[knife|cuchillo]] [[to|para]] [[slice|cortar]] [[the|la]] [[meat.|carne.]]"
         }
       ]
     },
@@ -970,16 +970,16 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[David is a chef|David es chef]] [[in a big restaurant.|en un restaurante grande.]] [[His day starts very early.|Su día empieza muy temprano.]] [[He goes to the market|Va al mercado]] [[at five o'clock|a las cinco en punto]] [[to buy fresh vegetables,|para comprar verduras frescas,]] [[meat, and fish.|carne y pescado.]] [[In the kitchen,|En la cocina,]] [[he uses many utensils.|usa muchos utensilios.]] [[He uses a sharp knife|Usa un cuchillo afilado]] [[to slice the meat|para cortar la carne]] [[and a large pan|y una sartén grande]] [[to fry the vegetables.|para freír las verduras.]] [[He always tells his team:|Siempre le dice a su equipo:]] [['Wash the dishes|'¡Lavad los platos]] [[and set the tables|y poned las mesas]] [[before the customers arrive!'.|antes de que lleguen los clientes!'.]] [[David loves cooking|A David le encanta cocinar]] [[healthy and delicious meals|comidas saludables y deliciosas]] [[for everyone.|para todos.]]",
+    "transcript": "[[David|David]] [[is|es]] [[a|un]] [[chef|chef]] [[in|en]] [[a|un]] [[big|grande]] [[restaurant.|restaurante.]] [[His|Su]] [[day|día]] [[starts|empieza]] [[very|muy]] [[early.|temprano.]] [[He|Él]] [[goes|va]] [[to|al]] [[the|el]] [[market|mercado]] [[at|a]] [[five|las cinco]] [[o'clock|en punto]] [[to|para]] [[buy|comprar]] [[fresh|frescas]] [[vegetables,|verduras,]] [[meat,|carne,]] [[and|y]] [[fish.|pescado.]] [[In|En]] [[the|la]] [[kitchen,|cocina,]] [[he|él]] [[uses|usa]] [[many|muchos]] [[utensils.|utensilios.]] [[He|Él]] [[uses|usa]] [[a|un]] [[sharp|afilado]] [[knife|cuchillo]] [[to|para]] [[slice|cortar]] [[the|la]] [[meat|carne]] [[and|y]] [[a|una]] [[large|grande]] [[pan|sartén]] [[to|para]] [[fry|freír]] [[the|las]] [[vegetables.|verduras.]] [[He|Él]] [[always|siempre]] [[tells|dice]] [[his|su]] [[team:|equipo:]] [['Wash|'Lavad]] [[the|los]] [[dishes|platos]] [[and|y]] [[set|poned]] [[the|las]] [[tables|mesas]] [[before|antes]] [[the|los]] [[customers|clientes]] [[arrive!'.|lleguen!'.]] [[David|David]] [[loves|ama]] [[cooking|cocinar]] [[healthy|saludables]] [[and|y]] [[delicious|deliciosas]] [[meals|comidas]] [[for|para]] [[everyone.|todos.]]",
     "content": {
-      "title": "[[Reading: David's Instructions|Lectura: Instrucciones de David]]",
-      "instructions": "[[Read about David and answer.|Lee sobre David y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[David's|de David]] [[Instructions|Instrucciones]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[David|David]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[What must the team do before customers arrive?|¿Qué debe hacer el equipo antes de que lleguen los clientes?]]",
-          "options": ["[[Wash dishes and set tables|Lavar platos y poner mesas]]", "[[Go to the market|Ir al mercado]]", "[[Eat dinner|Comer la cena]]"],
+          "question": "[[What|Qué]] [[must|debe]] [[the|el]] [[team|equipo]] [[do|hacer]] [[before|antes]] [[customers|clientes]] [[arrive?|lleguen?]]",
+          "options": ["[[Wash|Lavar]] [[dishes|platos]] [[and|y]] [[set|poner]] [[tables|mesas]]", "[[Go|Ir]] [[to|al]] [[the|el]] [[market|mercado]]", "[[Eat|Comer]] [[dinner|la cena]]"],
           "correctAnswer": 0,
-          "explanation": "[[David asks them to wash the dishes and set the tables.|David les pide lavar los platos y poner las mesas.]]"
+          "explanation": "[[David|David]] [[asks|pide]] [[them|les]] [[to|a]] [[wash|lavar]] [[the|los]] [[dishes|platos]] [[and|y]] [[set|poner]] [[the|las]] [[tables.|mesas.]]"
         }
       ]
     },
@@ -992,16 +992,16 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Are you hungry?|¿Tienes hambre?]] [[Today we have|Hoy tenemos]] [[a special menu.|un menú especial.]] [[For lunch,|Para el almuerzo,]] [[you can have|puedes tomar]] [[tomato soup|sopa de tomate]] [[or a green salad.|o una ensalada verde.]] [[The main course is|El plato principal es]] [[roast chicken with potatoes|pollo asado con patatas]] [[or grilled fish with rice.|o pescado a la parrilla con arroz.]] [[For dessert,|De postre,]] [[we have chocolate cake|tenemos pastel de chocolate]] [[or fresh fruit.|o fruta fresca.]] [[We also have|También tenemos]] [[many drinks:|muchas bebidas:]] [[water, juice, coffee, and tea.|agua, zumo, café y té.]] [[Enjoy your meal!|¡Que aproveche!]]",
+    "transcript": "[[Are|Están]] [[you|ustedes]] [[hungry?|hambrientos?]] [[Today|Hoy]] [[we|nosotros]] [[have|tenemos]] [[a|un]] [[special|especial]] [[menu.|menú.]] [[For|Para]] [[lunch,|almuerzo,]] [[you|tú]] [[can|puedes]] [[have|tomar]] [[tomato|tomate]] [[soup|sopa]] [[or|o]] [[a|una]] [[green|verde]] [[salad.|ensalada.]] [[The|El]] [[main|principal]] [[course|plato]] [[is|es]] [[roast|asado]] [[chicken|pollo]] [[with|con]] [[potatoes|patatas]] [[or|o]] [[grilled|a la parrilla]] [[fish|pescado]] [[with|con]] [[rice.|arroz.]] [[For|Para]] [[dessert,|postre,]] [[we|nosotros]] [[have|tenemos]] [[chocolate|chocolate]] [[cake|pastel]] [[or|o]] [[fresh|fresca]] [[fruit.|fruta.]] [[We|Nosotros]] [[also|también]] [[have|tenemos]] [[many|muchas]] [[drinks:|bebidas:]] [[water,|agua,]] [[juice,|zumo,]] [[coffee,|café,]] [[and|y]] [[tea.|té.]] [[Enjoy|Disfruta]] [[your|tu]] [[meal!|comida!]]",
     "content": {
-      "title": "[[Reading: The Special Menu|Lectura: El Menú Especial]]",
-      "instructions": "[[Read the menu and answer.|Lee el menú y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[The|El]] [[Special|Especial]] [[Menu|Menú]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[menu|menú]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[What is the main course?|¿Cuál es el plato principal?]]",
-          "options": ["[[Chicken or fish|Pollo o pescado]]", "[[Soup or salad|Sopa o ensalada]]", "[[Cake or fruit|Pastel o fruta]]"],
+          "question": "[[What|Qué]] [[is|es]] [[the|el]] [[main|principal]] [[course?|plato?]]",
+          "options": ["[[Chicken|Pollo]] [[or|o]] [[fish|pescado]]", "[[Soup|Sopa]] [[or|o]] [[salad|ensalada]]", "[[Cake|Pastel]] [[or|o]] [[fruit|fruta]]"],
           "correctAnswer": 0,
-          "explanation": "[[The main course is roast chicken or grilled fish.|El plato principal es pollo asado o pescado a la parrilla.]]"
+          "explanation": "[[The|El]] [[main|principal]] [[course|plato]] [[is|es]] [[roast|asado]] [[chicken|pollo]] [[or|o]] [[grilled|a la parrilla]] [[fish.|pescado.]]"
         }
       ]
     },
@@ -1014,16 +1014,16 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Are you hungry?|¿Tienes hambre?]] [[Today we have|Hoy tenemos]] [[a special menu.|un menú especial.]] [[For lunch,|Para el almuerzo,]] [[you can have|puedes tomar]] [[tomato soup|sopa de tomate]] [[or a green salad.|o una ensalada verde.]] [[The main course is|El plato principal es]] [[roast chicken with potatoes|pollo asado con patatas]] [[or grilled fish with rice.|o pescado a la parrilla con arroz.]] [[For dessert,|De postre,]] [[we have chocolate cake|tenemos pastel de chocolate]] [[or fresh fruit.|o fruta fresca.]] [[We also have|También tenemos]] [[many drinks:|muchas bebidas:]] [[water, juice, coffee, and tea.|agua, zumo, café y té.]] [[Enjoy your meal!|¡Que aproveche!]]",
+    "transcript": "[[Are|Están]] [[you|ustedes]] [[hungry?|hambrientos?]] [[Today|Hoy]] [[we|nosotros]] [[have|tenemos]] [[a|un]] [[special|especial]] [[menu.|menú.]] [[For|Para]] [[lunch,|almuerzo,]] [[you|tú]] [[can|puedes]] [[have|tomar]] [[tomato|tomate]] [[soup|sopa]] [[or|o]] [[a|una]] [[green|verde]] [[salad.|ensalada.]] [[The|El]] [[main|principal]] [[course|plato]] [[is|es]] [[roast|asado]] [[chicken|pollo]] [[with|con]] [[potatoes|patatas]] [[or|o]] [[grilled|a la parrilla]] [[fish|pescado]] [[with|con]] [[rice.|arroz.]] [[For|Para]] [[dessert,|postre,]] [[we|nosotros]] [[have|tenemos]] [[chocolate|chocolate]] [[cake|pastel]] [[or|o]] [[fresh|fresca]] [[fruit.|fruta.]] [[We|Nosotros]] [[also|también]] [[have|tenemos]] [[many|muchas]] [[drinks:|bebidas:]] [[water,|agua,]] [[juice,|zumo,]] [[coffee,|café,]] [[and|y]] [[tea.|té.]] [[Enjoy|Disfruta]] [[your|tu]] [[meal!|comida!]]",
     "content": {
-      "title": "[[Reading: Desserts and Drinks|Lectura: Postres y Bebidas]]",
-      "instructions": "[[Read the menu and answer.|Lee el menú y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[Desserts|Postres]] [[and|y]] [[Drinks|Bebidas]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[menu|menú]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[Which desserts are available?|¿Qué postres hay disponibles?]]",
-          "options": ["[[Cake and fruit|Pastel y fruta]]", "[[Soup and salad|Sopa y ensalada]]", "[[Coffee and tea|Café y té]]"],
+          "question": "[[Which|Qué]] [[desserts|postres]] [[are|están]] [[available?|disponibles?]]",
+          "options": ["[[Cake|Pastel]] [[and|y]] [[fruit|fruta]]", "[[Soup|Sopa]] [[and|y]] [[salad|ensalada]]", "[[Coffee|Café]] [[and|y]] [[tea|té]]"],
           "correctAnswer": 0,
-          "explanation": "[[There is chocolate cake or fresh fruit for dessert.|Hay pastel de chocolate o fruta fresca de postre.]]"
+          "explanation": "[[There|Hay]] [[is|es]] [[chocolate|chocolate]] [[cake|pastel]] [[or|o]] [[fresh|fresca]] [[fruit|fruta]] [[for|para]] [[dessert.|postre.]]"
         }
       ]
     },
@@ -1036,16 +1036,16 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[At our house,|En nuestra casa,]] [[we have a routine.|tenemos una rutina.]] [[My brother sets the table|Mi hermano pone la mesa]] [[at seven o'clock.|a las siete en punto.]] [[I help my mother|Ayudo a mi madre]] [[in the kitchen.|en la cocina.]] [[She boils water|Ella hierve el agua]] [[for the pasta|para la pasta]] [[and I slice the bread.|y yo rebano el pan.]] [[My father doesn't cook,|Mi padre no cocina,]] [[but he always washes the dishes|pero siempre lava los platos]] [[after we finish.|después de que terminamos.]] [[We never eat junk food.|Nunca comemos comida basura.]] [[We always eat|Siempre comemos]] [[healthy meals together.|comidas saludables juntos.]] [[It is a very happy time|Es un momento muy feliz]] [[for our family.|para nuestra familia.]]",
+    "transcript": "[[At|En]] [[our|nuestra]] [[house,|casa,]] [[we|nosotros]] [[have|tenemos]] [[a|una]] [[routine.|rutina.]] [[My|Mi]] [[brother|hermano]] [[sets|pone]] [[the|la]] [[table|mesa]] [[at|a]] [[seven|las siete]] [[o'clock.|en punto.]] [[I|Yo]] [[help|ayudo]] [[my|mi]] [[mother|madre]] [[in|en]] [[the|la]] [[kitchen.|cocina.]] [[She|Ella]] [[boils|hierve]] [[water|agua]] [[for|para]] [[the|la]] [[pasta|pasta]] [[and|y]] [[I|yo]] [[slice|rebano]] [[the|el]] [[bread.|pan.]] [[My|Mi]] [[father|padre]] [[doesn't|no]] [[cook,|cocina,]] [[but|pero]] [[he|él]] [[always|siempre]] [[washes|lava]] [[the|los]] [[dishes|platos]] [[after|después de que]] [[we|nosotros]] [[finish.|terminamos.]] [[We|Nosotros]] [[never|nunca]] [[eat|comemos]] [[junk|basura]] [[food.|comida.]] [[We|Nosotros]] [[always|siempre]] [[eat|comemos]] [[healthy|saludables]] [[meals|comidas]] [[together.|juntos.]] [[It|Él]] [[is|es]] [[a|un]] [[very|muy]] [[happy|feliz]] [[time|momento]] [[for|para]] [[our|nuestra]] [[family.|familia.]]",
     "content": {
-      "title": "[[Reading: Routine at Home|Lectura: Rutina en casa]]",
-      "instructions": "[[Read about the routine and answer.|Lee sobre la rutina y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[Routine|Rutina]] [[at|en]] [[Home|Casa]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|la]] [[routine|rutina]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[Who washes the dishes?|¿Quién lava los platos?]]",
-          "options": ["[[The father|El padre]]", "[[The brother|El hermano]]", "[[The mother|La madre]]"],
+          "question": "[[Who|Quién]] [[washes|lava]] [[the|los]] [[dishes?|platos?]]",
+          "options": ["[[The|El]] [[father|padre]]", "[[The|El]] [[brother|hermano]]", "[[The|La]] [[mother|madre]]"],
           "correctAnswer": 0,
-          "explanation": "[[The father always washes the dishes after finishing.|El padre siempre lava los platos después de terminar.]]"
+          "explanation": "[[The|El]] [[father|padre]] [[always|siempre]] [[washes|lava]] [[the|los]] [[dishes|platos]] [[after|después de]] [[finishing.|terminar.]]"
         }
       ]
     },
@@ -1058,16 +1058,16 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[At our house,|En nuestra casa,]] [[we have a routine.|tenemos una rutina.]] [[My brother sets the table|Mi hermano pone la mesa]] [[at seven o'clock.|a las siete en punto.]] [[I help my mother|Ayudo a mi madre]] [[in the kitchen.|en la cocina.]] [[She boils water|Ella hierve el agua]] [[for the pasta|para la pasta]] [[and I slice the bread.|y yo rebano el pan.]] [[My father doesn't cook,|Mi padre no cocina,]] [[but he always washes the dishes|pero siempre lava los platos]] [[after we finish.|después de que terminamos.]] [[We never eat junk food.|Nunca comemos comida basura.]] [[We always eat|Siempre comemos]] [[healthy meals together.|comidas saludables juntos.]] [[It is a very happy time|Es un momento muy feliz]] [[for our family.|para nuestra familia.]]",
+    "transcript": "[[At|En]] [[our|nuestra]] [[house,|casa,]] [[we|nosotros]] [[have|tenemos]] [[a|una]] [[routine.|rutina.]] [[My|Mi]] [[brother|hermano]] [[sets|pone]] [[the|la]] [[table|mesa]] [[at|a]] [[seven|las siete]] [[o'clock.|en punto.]] [[I|Yo]] [[help|ayudo]] [[my|mi]] [[mother|madre]] [[in|en]] [[the|la]] [[kitchen.|cocina.]] [[She|Ella]] [[boils|hierve]] [[water|agua]] [[for|para]] [[the|la]] [[pasta|pasta]] [[and|y]] [[I|yo]] [[slice|rebano]] [[the|el]] [[bread.|pan.]] [[My|Mi]] [[father|padre]] [[doesn't|no]] [[cook,|cocina,]] [[but|pero]] [[he|él]] [[always|siempre]] [[washes|lava]] [[the|los]] [[dishes|platos]] [[after|después de que]] [[we|nosotros]] [[finish.|terminamos.]] [[We|Nosotros]] [[never|nunca]] [[eat|comemos]] [[junk|basura]] [[food.|comida.]] [[We|Nosotros]] [[always|siempre]] [[eat|comemos]] [[healthy|saludables]] [[meals|comidas]] [[together.|juntos.]] [[It|Él]] [[is|es]] [[a|un]] [[very|muy]] [[happy|feliz]] [[time|momento]] [[for|para]] [[our|nuestra]] [[family.|familia.]]",
     "content": {
-      "title": "[[Reading: Healthy Habits|Lectura: Hábitos Saludables]]",
-      "instructions": "[[Read about the routine and answer.|Lee sobre la rutina y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[Healthy|Saludables]] [[Habits|Hábitos]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|la]] [[routine|rutina]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[Do they eat junk food?|¿Comen ellos comida basura?]]",
-          "options": ["[[No, never|No, nunca]]", "[[Yes, always|Sí, siempre]]", "[[Sometimes|A veces]]"],
+          "question": "[[Do|¿Aux]] [[they|ellos]] [[eat|comen]] [[junk|basura]] [[food?|comida?]]",
+          "options": ["[[No,|No,]] [[never|nunca]]", "[[Yes,|Sí,]] [[always|siempre]]", "[[Sometimes|A veces]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says that they never eat junk food.|El texto dice que nunca comen comida basura.]]"
+          "explanation": "[[The|El]] [[text|texto]] [[says|dice]] [[that|que]] [[they|ellos]] [[never|nunca]] [[eat|comen]] [[junk|basura]] [[food.|comida.]]"
         }
       ]
     },

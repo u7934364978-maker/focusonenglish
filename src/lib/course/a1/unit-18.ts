@@ -1017,16 +1017,16 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Welcome to the Grand Mall!|¡Bienvenido al Grand Mall!]] [[Today is Saturday,|Hoy es sábado,]] [[and the mall is very busy.|y el centro comercial está muy concurrido.]] [[Many people are shopping|Muchas personas están comprando]] [[for new clothes.|ropa nueva.]] [[I am looking at|Estoy mirando]] [[this blue shirt.|esta camisa azul.]] [[It is very nice,|Es muy bonita,]] [[but it is too small.|pero es demasiado pequeña.]] [[I need a large size.|Necesito una talla grande.]] [[My friend Sarah|Mi amiga Sarah]] [[is trying on|se está probando]] [[those black boots|esas botas negras]] [[over there.|por allí.]] [[She thinks|Ella piensa]] [[they are very comfortable.|que son muy cómodas.]] [[We also need|También necesitamos]] [[some accessories.|algunos accesorios.]] [[I want a new belt,|Quiero un cinturón nuevo,]] [[and Sarah wants|y Sarah quiere]] [[a pink scarf.|una bufanda rosa.]] [[Everything is|Todo está]] [[on sale today!|en oferta hoy!]]",
+    "transcript": "[[Welcome|Bienvenido]] [[to|al]] [[the|el]] [[Grand|Grand]] [[Mall!|Mall!]] [[Today|Hoy]] [[is|es]] [[Saturday,|sábado,]] [[and|y]] [[the|el]] [[mall|centro comercial]] [[is|está]] [[very|muy]] [[busy.|concurrido.]] [[Many|Muchas]] [[people|personas]] [[are|están]] [[shopping|comprando]] [[for|por]] [[new|nueva]] [[clothes.|ropa.]] [[I|Yo]] [[am|estoy]] [[looking|mirando]] [[at|a]] [[this|esta]] [[blue|azul]] [[shirt.|camisa.]] [[It|Ella]] [[is|es]] [[very|muy]] [[nice,|bonita,]] [[but|pero]] [[it|ella]] [[is|es]] [[too|demasiado]] [[small.|pequeña.]] [[I|Yo]] [[need|necesito]] [[a|una]] [[large|grande]] [[size.|talla.]] [[My|Mi]] [[friend|amiga]] [[Sarah|Sarah]] [[is|está]] [[trying|probando]] [[on|se]] [[those|esas]] [[black|negras]] [[boots|botas]] [[over|por]] [[there.|allí.]] [[She|Ella]] [[thinks|piensa]] [[they|ellas]] [[are|son]] [[very|muy]] [[comfortable.|cómodas.]] [[We|Nosotros]] [[also|también]] [[need|necesitamos]] [[some|algunos]] [[accessories.|accesorios.]] [[I|Yo]] [[want|quiero]] [[a|un]] [[new|nuevo]] [[belt,|cinturón,]] [[and|y]] [[Sarah|Sarah]] [[wants|quiere]] [[a|una]] [[pink|rosa]] [[scarf.|bufanda.]] [[Everything|Todo]] [[is|está]] [[on|en]] [[sale|oferta]] [[today!|hoy!]]",
     "content": {
-      "title": "[[Reading: At the Mall|Lectura: En el centro comercial]]",
-      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[At|En]] [[the|el]] [[Mall|Centro comercial]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[Why does the speaker need a large size?|¿Por qué el hablante necesita una talla grande?]]",
-          "options": ["[[Because the shirt is too small|Porque la camisa es demasiado pequeña]]", "[[Because the shirt is too big|Porque la camisa es demasiado grande]]", "[[Because he likes large clothes|Porque le gusta la ropa grande]]"],
+          "question": "[[Why|Por qué]] [[does|aux]] [[the|el]] [[speaker|hablante]] [[need|necesita]] [[a|una]] [[large|grande]] [[size?|talla?]]",
+          "options": ["[[Because|Porque]] [[the|la]] [[shirt|camisa]] [[is|es]] [[too|demasiado]] [[small|pequeña]]", "[[Because|Porque]] [[the|la]] [[shirt|camisa]] [[is|es]] [[too|demasiado]] [[big|grande]]", "[[Because|Porque]] [[he|él]] [[likes|gusta]] [[large|grandes]] [[clothes|ropas]]"],
           "correctAnswer": 0,
-          "explanation": "[[The speaker says the blue shirt is very nice but too small.|El hablante dice que la camisa azul es muy bonita pero demasiado pequeña.]]"
+          "explanation": "[[The|El]] [[speaker|hablante]] [[says|dice]] [[the|la]] [[blue|azul]] [[shirt|camisa]] [[is|es]] [[very|muy]] [[nice|bonita]] [[but|pero]] [[too|demasiado]] [[small.|pequeña.]]"
         }
       ]
     },
@@ -1039,16 +1039,16 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Welcome to the Grand Mall!|¡Bienvenido al Grand Mall!]] [[Today is Saturday,|Hoy es sábado,]] [[and the mall is very busy.|y el centro comercial está muy concurrido.]] [[Many people are shopping|Muchas personas están comprando]] [[for new clothes.|ropa nueva.]] [[I am looking at|Estoy mirando]] [[this blue shirt.|esta camisa azul.]] [[It is very nice,|Es muy bonita,]] [[but it is too small.|pero es demasiado pequeña.]] [[I need a large size.|Necesito una talla grande.]] [[My friend Sarah|Mi amiga Sarah]] [[is trying on|se está probando]] [[those black boots|esas botas negras]] [[over there.|por allí.]] [[She thinks|Ella piensa]] [[they are very comfortable.|que son muy cómodas.]] [[We also need|También necesitamos]] [[some accessories.|algunos accesorios.]] [[I want a new belt,|Quiero un cinturón nuevo,]] [[and Sarah wants|y Sarah quiere]] [[a pink scarf.|una bufanda rosa.]] [[Everything is|Todo está]] [[on sale today!|en oferta hoy!]]",
+    "transcript": "[[Welcome|Bienvenido]] [[to|al]] [[the|el]] [[Grand|Grand]] [[Mall!|Mall!]] [[Today|Hoy]] [[is|es]] [[Saturday,|sábado,]] [[and|y]] [[the|el]] [[mall|centro comercial]] [[is|está]] [[very|muy]] [[busy.|concurrido.]] [[Many|Muchas]] [[people|personas]] [[are|están]] [[shopping|comprando]] [[for|por]] [[new|nueva]] [[clothes.|ropa.]] [[I|Yo]] [[am|estoy]] [[looking|mirando]] [[at|a]] [[this|esta]] [[blue|azul]] [[shirt.|camisa.]] [[It|Ella]] [[is|es]] [[very|muy]] [[nice,|bonita,]] [[but|pero]] [[it|ella]] [[is|es]] [[too|demasiado]] [[small.|pequeña.]] [[I|Yo]] [[need|necesito]] [[a|una]] [[large|grande]] [[size.|talla.]] [[My|Mi]] [[friend|amiga]] [[Sarah|Sarah]] [[is|está]] [[trying|probando]] [[on|se]] [[those|esas]] [[black|negras]] [[boots|botas]] [[over|por]] [[there.|allí.]] [[She|Ella]] [[thinks|piensa]] [[they|ellas]] [[are|son]] [[very|muy]] [[comfortable.|cómodas.]] [[We|Nosotros]] [[also|también]] [[need|necesitamos]] [[some|algunos]] [[accessories.|accesorios.]] [[I|Yo]] [[want|quiero]] [[a|un]] [[new|nuevo]] [[belt,|cinturón,]] [[and|y]] [[Sarah|Sarah]] [[wants|quiere]] [[a|una]] [[pink|rosa]] [[scarf.|bufanda.]] [[Everything|Todo]] [[is|está]] [[on|en]] [[sale|oferta]] [[today!|hoy!]]",
     "content": {
-      "title": "[[Reading: Sarah's Choice|Lectura: La elección de Sarah]]",
-      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[Sarah's|de Sarah]] [[Choice|Elección]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[What is Sarah trying on?|¿Qué se está probando Sarah?]]",
-          "options": ["[[Those black boots|Esas botas negras]]", "[[A blue shirt|Una camisa azul]]", "[[A pink scarf|Una bufanda rosa]]"],
+          "question": "[[What|Qué]] [[is|está]] [[Sarah|Sarah]] [[trying|probando]] [[on?|se?]]",
+          "options": ["[[Those|Esas]] [[black|negras]] [[boots|botas]]", "[[A|Una]] [[blue|azul]] [[shirt|camisa]]", "[[A|Una]] [[pink|rosa]] [[scarf|bufanda]]"],
           "correctAnswer": 0,
-          "explanation": "[[Sarah is trying on those black boots and she thinks they are comfortable.|Sarah se está probando esas botas negras y piensa que son cómodas.]]"
+          "explanation": "[[Sarah|Sarah]] [[is|está]] [[trying|probando]] [[on|se]] [[those|esas]] [[black|negras]] [[boots|botas]] [[and|y]] [[she|ella]] [[thinks|piensa]] [[they|ellas]] [[are|son]] [[comfortable.|cómodas.]]"
         }
       ]
     },
@@ -1061,16 +1061,16 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Welcome to the Grand Mall!|¡Bienvenido al Grand Mall!]] [[Today is Saturday,|Hoy es sábado,]] [[and the mall is very busy.|y el centro comercial está muy concurrido.]] [[Many people are shopping|Muchas personas están comprando]] [[for new clothes.|ropa nueva.]] [[I am looking at|Estoy mirando]] [[this blue shirt.|esta camisa azul.]] [[It is very nice,|Es muy bonita,]] [[but it is too small.|pero es demasiado pequeña.]] [[I need a large size.|Necesito una talla grande.]] [[My friend Sarah|Mi amiga Sarah]] [[is trying on|se está probando]] [[those black boots|esas botas negras]] [[over there.|por allí.]] [[She thinks|Ella piensa]] [[they are very comfortable.|que son muy cómodas.]] [[We also need|También necesitamos]] [[some accessories.|algunos accesorios.]] [[I want a new belt,|Quiero un cinturón nuevo,]] [[and Sarah wants|y Sarah quiere]] [[a pink scarf.|una bufanda rosa.]] [[Everything is|Todo está]] [[on sale today!|en oferta hoy!]]",
+    "transcript": "[[Welcome|Bienvenido]] [[to|al]] [[the|el]] [[Grand|Grand]] [[Mall!|Mall!]] [[Today|Hoy]] [[is|es]] [[Saturday,|sábado,]] [[and|y]] [[the|el]] [[mall|centro comercial]] [[is|está]] [[very|muy]] [[busy.|concurrido.]] [[Many|Muchas]] [[people|personas]] [[are|están]] [[shopping|comprando]] [[for|por]] [[new|nueva]] [[clothes.|ropa.]] [[I|Yo]] [[am|estoy]] [[looking|mirando]] [[at|a]] [[this|esta]] [[blue|azul]] [[shirt.|camisa.]] [[It|Ella]] [[is|es]] [[very|muy]] [[nice,|bonita,]] [[but|pero]] [[it|ella]] [[is|es]] [[too|demasiado]] [[small.|pequeña.]] [[I|Yo]] [[need|necesito]] [[a|una]] [[large|grande]] [[size.|talla.]] [[My|Mi]] [[friend|amiga]] [[Sarah|Sarah]] [[is|está]] [[trying|probando]] [[on|se]] [[those|esas]] [[black|negras]] [[boots|botas]] [[over|por]] [[there.|allí.]] [[She|Ella]] [[thinks|piensa]] [[they|ellas]] [[are|son]] [[very|muy]] [[comfortable.|cómodas.]] [[We|Nosotros]] [[also|también]] [[need|necesitamos]] [[some|algunos]] [[accessories.|accesorios.]] [[I|Yo]] [[want|quiero]] [[a|un]] [[new|nuevo]] [[belt,|cinturón,]] [[and|y]] [[Sarah|Sarah]] [[wants|quiere]] [[a|una]] [[pink|rosa]] [[scarf.|bufanda.]] [[Everything|Todo]] [[is|está]] [[on|en]] [[sale|oferta]] [[today!|hoy!]]",
     "content": {
-      "title": "[[Reading: Accessories|Lectura: Accesorios]]",
-      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[Accessories|Accesorios]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[What accessories do they want?|¿Qué accesorios quieren?]]",
-          "options": ["[[A belt and a scarf|Un cinturón y una bufanda]]", "[[Boots and shirts|Botas y camisas]]", "[[Gloves and hats|Guantes y sombreros]]"],
+          "question": "[[What|Qué]] [[accessories|accesorios]] [[do|aux]] [[they|ellos]] [[want?|quieren?]]",
+          "options": ["[[A|Un]] [[belt|cinturón]] [[and|y]] [[a|una]] [[scarf|bufanda]]", "[[Boots|Botas]] [[and|y]] [[shirts|camisas]]", "[[Gloves|Guantes]] [[and|y]] [[hats|sombreros]]"],
           "correctAnswer": 0,
-          "explanation": "[[The speaker wants a new belt and Sarah wants a pink scarf.|El hablante quiere un cinturón nuevo y Sarah quiere una bufanda rosa.]]"
+          "explanation": "[[The|El]] [[speaker|hablante]] [[wants|quiere]] [[a|un]] [[new|nuevo]] [[belt|cinturón]] [[and|y]] [[Sarah|Sarah]] [[wants|quiere]] [[a|una]] [[pink|rosa]] [[scarf.|bufanda.]]"
         }
       ]
     },
@@ -1083,16 +1083,16 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Hello! Can I help you?|¡Hola! ¿Puedo ayudarle?]] [[Yes, please.|Sí, por favor.]] [[I am looking for|Estoy buscando]] [[a suit for a wedding.|un traje para una boda.]] [[We have|Tenemos]] [[this beautiful grey suit|este hermoso traje gris]] [[and that dark blue one.|y aquel azul oscuro.]] [[I like the grey one.|Me gusta el gris.]] [[Can I try it on?|¿Puedo probármelo?]] [[Of course!|¡Por supuesto!]] [[The fitting room is|El probador está]] [[right over there.|justo por allí.]] [[Does it fit?|¿Le queda bien?]] [[It's a bit tight.|Está un poco ajustado.]] [[Do you have|¿Tiene]] [[a larger size?|una talla más grande?]] [[Yes, here is|Sí, aquí tiene]] [[an extra-large.|una extra grande.]] [[It fits perfectly!|¡Queda perfectamente!]] [[How much is it?|¿Cuánto cuesta?]] [[It is two hundred dollars.|Cuesta doscientos dólares.]]",
+    "transcript": "[[Hello!|¡Hola!]] [[Can|Puedo]] [[I|yo]] [[help|ayudar]] [[you?|le?]] [[Yes,|Sí,]] [[please.|por favor.]] [[I|Yo]] [[am|estoy]] [[looking|buscando]] [[for|por]] [[a|un]] [[suit|traje]] [[for|para]] [[a|una]] [[wedding.|boda.]] [[We|Nosotros]] [[have|tenemos]] [[this|este]] [[beautiful|hermoso]] [[grey|gris]] [[suit|traje]] [[and|y]] [[that|aquel]] [[dark|oscuro]] [[blue|azul]] [[one.|uno.]] [[I|Yo]] [[like|gusto]] [[the|el]] [[grey|gris]] [[one.|uno.]] [[Can|Puedo]] [[I|yo]] [[try|probar]] [[it|lo]] [[on?|me?]] [[Of|Por]] [[course!|supuesto!]] [[The|El]] [[fitting|probador]] [[room|cuarto]] [[is|está]] [[right|justo]] [[over|por]] [[there.|allí.]] [[Does|¿Aux]] [[it|él]] [[fit?|queda bien?]] [[It's|Él está]] [[a|un]] [[bit|poco]] [[tight.|ajustado.]] [[Do|¿Aux]] [[you|usted]] [[have|tiene]] [[a|una]] [[larger|más grande]] [[size?|talla?]] [[Yes,|Sí,]] [[here|aquí]] [[is|está]] [[an|una]] [[extra-large.|extra grande.]] [[It|Él]] [[fits|queda]] [[perfectly!|perfectamente!]] [[How|Cuánto]] [[much|mucho]] [[is|es]] [[it?|él?]] [[It|Él]] [[is|es]] [[two|doscientos]] [[hundred|]] [[dollars.|dólares.]]",
     "content": {
-      "title": "[[Reading: Wedding Suit|Lectura: Traje de Boda]]",
-      "instructions": "[[Read the dialogue and answer.|Lee el diálogo y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[Wedding|Boda]] [[Suit|Traje]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[dialogue|diálogo]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[What is the customer looking for?|¿Qué está buscando el cliente?]]",
-          "options": ["[[A suit for a wedding|Un traje para una boda]]", "[[A blue shirt|Una camisa azul]]", "[[Grey shoes|Zapatos grises]]"],
+          "question": "[[What|Qué]] [[is|está]] [[the|el]] [[customer|cliente]] [[looking|buscando]] [[for?|por?]]",
+          "options": ["[[A|Un]] [[suit|traje]] [[for|para]] [[a|una]] [[wedding|boda]]", "[[A|Una]] [[blue|azul]] [[shirt|camisa]]", "[[Grey|Gris]] [[shoes|zapatos]]"],
           "correctAnswer": 0,
-          "explanation": "[[The customer is looking for a suit for a wedding.|El cliente está buscando un traje para una boda.]]"
+          "explanation": "[[The|El]] [[customer|cliente]] [[is|está]] [[looking|buscando]] [[for|por]] [[a|un]] [[suit|traje]] [[for|para]] [[a|una]] [[wedding.|boda.]]"
         }
       ]
     },
@@ -1105,16 +1105,16 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Hello! Can I help you?|¡Hola! ¿Puedo ayudarle?]] [[Yes, please.|Sí, por favor.]] [[I am looking for|Estoy buscando]] [[a suit for a wedding.|un traje para una boda.]] [[We have|Tenemos]] [[this beautiful grey suit|este hermoso traje gris]] [[and that dark blue one.|y aquel azul oscuro.]] [[I like the grey one.|Me gusta el gris.]] [[Can I try it on?|¿Puedo probármelo?]] [[Of course!|¡Por supuesto!]] [[The fitting room is|El probador está]] [[right over there.|justo por allí.]] [[Does it fit?|¿Le queda bien?]] [[It's a bit tight.|Está un poco ajustado.]] [[Do you have|¿Tiene]] [[a larger size?|una talla más grande?]] [[Yes, here is|Sí, aquí tiene]] [[an extra-large.|una extra grande.]] [[It fits perfectly!|¡Queda perfectamente!]] [[How much is it?|¿Cuánto cuesta?]] [[It is two hundred dollars.|Cuesta doscientos dólares.]]",
+    "transcript": "[[Hello!|¡Hola!]] [[Can|Puedo]] [[I|yo]] [[help|ayudar]] [[you?|le?]] [[Yes,|Sí,]] [[please.|por favor.]] [[I|Yo]] [[am|estoy]] [[looking|buscando]] [[for|por]] [[a|un]] [[suit|traje]] [[for|para]] [[a|una]] [[wedding.|boda.]] [[We|Nosotros]] [[have|tenemos]] [[this|este]] [[beautiful|hermoso]] [[grey|gris]] [[suit|traje]] [[and|y]] [[that|aquel]] [[dark|oscuro]] [[blue|azul]] [[one.|uno.]] [[I|Yo]] [[like|gusto]] [[the|el]] [[grey|gris]] [[one.|uno.]] [[Can|Puedo]] [[I|yo]] [[try|probar]] [[it|lo]] [[on?|me?]] [[Of|Por]] [[course!|supuesto!]] [[The|El]] [[fitting|probador]] [[room|cuarto]] [[is|está]] [[right|justo]] [[over|por]] [[there.|allí.]] [[Does|¿Aux]] [[it|él]] [[fit?|queda bien?]] [[It's|Él está]] [[a|un]] [[bit|poco]] [[tight.|ajustado.]] [[Do|¿Aux]] [[you|usted]] [[have|tiene]] [[a|una]] [[larger|más grande]] [[size?|talla?]] [[Yes,|Sí,]] [[here|aquí]] [[is|está]] [[an|una]] [[extra-large.|extra grande.]] [[It|Él]] [[fits|queda]] [[perfectly!|perfectamente!]] [[How|Cuánto]] [[much|mucho]] [[is|es]] [[it?|él?]] [[It|Él]] [[is|es]] [[two|doscientos]] [[hundred|]] [[dollars.|dólares.]]",
     "content": {
-      "title": "[[Reading: The Fitting Room|Lectura: El Probador]]",
-      "instructions": "[[Read the dialogue and answer.|Lee el diálogo y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[The|El]] [[Fitting|Probador]] [[Room|Cuarto]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[dialogue|diálogo]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[How does the first suit fit?|¿Cómo le queda el primer traje?]]",
-          "options": ["[[It's a bit tight|Está un poco ajustado]]", "[[It's too big|Es demasiado grande]]", "[[It's perfect|Es perfecto]]"],
+          "question": "[[How|Cómo]] [[does|aux]] [[the|el]] [[first|primer]] [[suit|traje]] [[fit?|queda?]]",
+          "options": ["[[It's|Él está]] [[a|un]] [[bit|poco]] [[tight|ajustado]]", "[[It's|Él está]] [[too|demasiado]] [[big|grande]]", "[[It's|Él está]] [[perfect|perfecto]]"],
           "correctAnswer": 0,
-          "explanation": "[[The customer says the first suit is a bit tight.|El cliente dice que el primer traje está un poco ajustado.]]"
+          "explanation": "[[The|El]] [[customer|cliente]] [[says|dice]] [[the|el]] [[first|primer]] [[suit|traje]] [[is|es]] [[a|un]] [[bit|poco]] [[tight.|ajustado.]]"
         }
       ]
     },
@@ -1127,16 +1127,16 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Hello! Can I help you?|¡Hola! ¿Puedo ayudarle?]] [[Yes, please.|Sí, por favor.]] [[I am looking for|Estoy buscando]] [[a suit for a wedding.|un traje para una boda.]] [[We have|Tenemos]] [[this beautiful grey suit|este hermoso traje gris]] [[and that dark blue one.|y aquel azul oscuro.]] [[I like the grey one.|Me gusta el gris.]] [[Can I try it on?|¿Puedo probármelo?]] [[Of course!|¡Por supuesto!]] [[The fitting room is|El probador está]] [[right over there.|justo por allí.]] [[Does it fit?|¿Le queda bien?]] [[It's a bit tight.|Está un poco ajustado.]] [[Do you have|¿Tiene]] [[a larger size?|una talla más grande?]] [[Yes, here is|Sí, aquí tiene]] [[an extra-large.|una extra grande.]] [[It fits perfectly!|¡Queda perfectamente!]] [[How much is it?|¿Cuánto cuesta?]] [[It is two hundred dollars.|Cuesta doscientos dólares.]]",
+    "transcript": "[[Hello!|¡Hola!]] [[Can|Puedo]] [[I|yo]] [[help|ayudar]] [[you?|le?]] [[Yes,|Sí,]] [[please.|por favor.]] [[I|Yo]] [[am|estoy]] [[looking|buscando]] [[for|por]] [[a|un]] [[suit|traje]] [[for|para]] [[a|una]] [[wedding.|boda.]] [[We|Nosotros]] [[have|tenemos]] [[this|este]] [[beautiful|hermoso]] [[grey|gris]] [[suit|traje]] [[and|y]] [[that|aquel]] [[dark|oscuro]] [[blue|azul]] [[one.|uno.]] [[I|Yo]] [[like|gusto]] [[the|el]] [[grey|gris]] [[one.|uno.]] [[Can|Puedo]] [[I|yo]] [[try|probar]] [[it|lo]] [[on?|me?]] [[Of|Por]] [[course!|supuesto!]] [[The|El]] [[fitting|probador]] [[room|cuarto]] [[is|está]] [[right|justo]] [[over|por]] [[there.|allí.]] [[Does|¿Aux]] [[it|él]] [[fit?|queda bien?]] [[It's|Él está]] [[a|un]] [[bit|poco]] [[tight.|ajustado.]] [[Do|¿Aux]] [[you|usted]] [[have|tiene]] [[a|una]] [[larger|más grande]] [[size?|talla?]] [[Yes,|Sí,]] [[here|aquí]] [[is|está]] [[an|una]] [[extra-large.|extra grande.]] [[It|Él]] [[fits|queda]] [[perfectly!|perfectamente!]] [[How|Cuánto]] [[much|mucho]] [[is|es]] [[it?|él?]] [[It|Él]] [[is|es]] [[two|doscientos]] [[hundred|]] [[dollars.|dólares.]]",
     "content": {
-      "title": "[[Reading: The Price|Lectura: El Precio]]",
-      "instructions": "[[Read the dialogue and answer.|Lee el diálogo y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[The|El]] [[Price|Precio]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[dialogue|diálogo]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[How much is the suit?|¿Cuánto cuesta el traje?]]",
-          "options": ["[[Two hundred dollars|Doscientos dólares]]", "[[One hundred dollars|Cien dólares]]", "[[Three hundred dollars|Trescientos dólares]]"],
+          "question": "[[How|Cuánto]] [[much|mucho]] [[is|es]] [[the|el]] [[suit?|traje?]]",
+          "options": ["[[Two|Doscientos]] [[hundred|]] [[dollars|dólares]]", "[[One|Cien]] [[hundred|]] [[dollars|dólares]]", "[[Three|Trescientos]] [[hundred|]] [[dollars|dólares]]"],
           "correctAnswer": 0,
-          "explanation": "[[The suit costs two hundred dollars.|El traje cuesta doscientos dólares.]]"
+          "explanation": "[[The|El]] [[suit|traje]] [[costs|cuesta]] [[two|doscientos]] [[hundred|]] [[dollars.|dólares.]]"
         }
       ]
     },
@@ -1149,16 +1149,16 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[It is winter in London.|Es invierno en Londres.]] [[The weather is|El tiempo está]] [[cold and rainy.|frío y lluvioso.]] [[People are wearing|La gente está llevando]] [[warm clothes.|ropa abrigada.]] [[Look at that man.|Mira a aquel hombre.]] [[He is wearing|Él está llevando]] [[a long brown coat,|un abrigo largo marrón,]] [[a woolly scarf,|una bufanda de lana,]] [[and leather gloves.|y guantes de cuero.]] [[He also has|También tiene]] [[an umbrella.|un paraguas.]] [[Those children|Aquellos niños]] [[over there|por allí]] [[are wearing|están llevando]] [[bright yellow raincoats|impermeables amarillo brillante]] [[and red boots.|y botas rojas.]] [[They are jumping|Ellos están saltando]] [[in the water puddles.|en los charcos de agua.]] [[Everyone is|Todo el mundo está]] [[trying to stay dry!|intentando mantenerse seco!]]",
+    "transcript": "[[It|Él]] [[is|es]] [[winter|invierno]] [[in|en]] [[London.|Londres.]] [[The|El]] [[weather|tiempo]] [[is|está]] [[cold|frío]] [[and|y]] [[rainy.|lluvioso.]] [[People|Personas]] [[are|están]] [[wearing|llevando]] [[warm|abrigada]] [[clothes.|ropa.]] [[Look|Mira]] [[at|a]] [[that|aquel]] [[man.|hombre.]] [[He|Él]] [[is|está]] [[wearing|llevando]] [[a|un]] [[long|largo]] [[brown|marrón]] [[coat,|abrigo,]] [[a|una]] [[woolly|de lana]] [[scarf,|bufanda,]] [[and|y]] [[leather|de cuero]] [[gloves.|guantes.]] [[He|Él]] [[also|también]] [[has|tiene]] [[an|un]] [[umbrella.|paraguas.]] [[Those|Aquellos]] [[children|niños]] [[over|por]] [[there|allí]] [[are|están]] [[wearing|llevando]] [[bright|brillante]] [[yellow|amarillo]] [[raincoats|impermeables]] [[and|y]] [[red|rojas]] [[boots.|botas.]] [[They|Ellos]] [[are|están]] [[jumping|saltando]] [[in|en]] [[the|los]] [[water|de agua]] [[puddles.|charcos.]] [[Everyone|Todo el mundo]] [[is|está]] [[trying|intentando]] [[to|mantenerse]] [[stay|]] [[dry!|seco!]]",
     "content": {
-      "title": "[[Reading: Winter Clothes|Lectura: Ropa de Invierno]]",
-      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[Winter|Invierno]] [[Clothes|Ropa]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[What is the man wearing?|¿Qué lleva puesto el hombre?]]",
-          "options": ["[[A long brown coat, a scarf and gloves|Un abrigo largo marrón, una bufanda y guantes]]", "[[A yellow raincoat and red boots|Un impermeable amarillo y botas rojas]]", "[[A suit and a tie|Un traje y una corbata]]"],
+          "question": "[[What|Qué]] [[is|está]] [[the|el]] [[man|hombre]] [[wearing?|llevando puesto?]]",
+          "options": ["[[A|Un]] [[long|largo]] [[brown|marrón]] [[coat,|abrigo,]] [[a|una]] [[scarf|bufanda]] [[and|y]] [[gloves|guantes]]", "[[A|Un]] [[yellow|amarillo]] [[raincoat|impermeable]] [[and|y]] [[red|rojas]] [[boots|botas]]", "[[A|Un]] [[suit|traje]] [[and|y]] [[a|una]] [[tie|corbata]]"],
           "correctAnswer": 0,
-          "explanation": "[[The man is wearing a long brown coat, a woolly scarf, and leather gloves.|El hombre lleva un abrigo largo marrón, una bufanda de lana y guantes de cuero.]]"
+          "explanation": "[[The|El]] [[man|hombre]] [[is|está]] [[wearing|llevando]] [[a|un]] [[long|largo]] [[brown|marrón]] [[coat,|abrigo,]] [[a|una]] [[woolly|de lana]] [[scarf,|bufanda,]] [[and|y]] [[leather|de cuero]] [[gloves.|guantes.]]"
         }
       ]
     },
@@ -1171,16 +1171,16 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[It is winter in London.|Es invierno en Londres.]] [[The weather is|El tiempo está]] [[cold and rainy.|frío y lluvioso.]] [[People are wearing|La gente está llevando]] [[warm clothes.|ropa abrigada.]] [[Look at that man.|Mira a aquel hombre.]] [[He is wearing|Él está llevando]] [[a long brown coat,|un abrigo largo marrón,]] [[a woolly scarf,|una bufanda de lana,]] [[and leather gloves.|y guantes de cuero.]] [[He also has|También tiene]] [[an umbrella.|un paraguas.]] [[Those children|Aquellos niños]] [[over there|por allí]] [[are wearing|están llevando]] [[bright yellow raincoats|impermeables amarillo brillante]] [[and red boots.|y botas rojas.]] [[They are jumping|Ellos están saltando]] [[in the water puddles.|en los charcos de agua.]] [[Everyone is|Todo el mundo está]] [[trying to stay dry!|intentando mantenerse seco!]]",
+    "transcript": "[[It|Él]] [[is|es]] [[winter|invierno]] [[in|en]] [[London.|Londres.]] [[The|El]] [[weather|tiempo]] [[is|está]] [[cold|frío]] [[and|y]] [[rainy.|lluvioso.]] [[People|Personas]] [[are|están]] [[wearing|llevando]] [[warm|abrigada]] [[clothes.|ropa.]] [[Look|Mira]] [[at|a]] [[that|aquel]] [[man.|hombre.]] [[He|Él]] [[is|está]] [[wearing|llevando]] [[a|un]] [[long|largo]] [[brown|marrón]] [[coat,|abrigo,]] [[a|una]] [[woolly|de lana]] [[scarf,|bufanda,]] [[and|y]] [[leather|de cuero]] [[gloves.|guantes.]] [[He|Él]] [[also|también]] [[has|tiene]] [[an|un]] [[umbrella.|paraguas.]] [[Those|Aquellos]] [[children|niños]] [[over|por]] [[there|allí]] [[are|están]] [[wearing|llevando]] [[bright|brillante]] [[yellow|amarillo]] [[raincoats|impermeables]] [[and|y]] [[red|rojas]] [[boots.|botas.]] [[They|Ellos]] [[are|están]] [[jumping|saltando]] [[in|en]] [[the|los]] [[water|de agua]] [[puddles.|charcos.]] [[Everyone|Todo el mundo]] [[is|está]] [[trying|intentando]] [[to|mantenerse]] [[stay|]] [[dry!|seco!]]",
     "content": {
-      "title": "[[Reading: The Children|Lectura: Los Niños]]",
-      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[The|Los]] [[Children|Niños]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[What are the children wearing?|¿Qué llevan puesto los niños?]]",
-          "options": ["[[Bright yellow raincoats and red boots|Impermeables amarillo brillante y botas rojas]]", "[[Brown coats and gloves|Abrigos marrones y guantes]]", "[[Sneakers and t-shirts|Zapatillas y camisetas]]"],
+          "question": "[[What|Qué]] [[are|están]] [[the|los]] [[children|niños]] [[wearing?|llevando puestos?]]",
+          "options": ["[[Bright|Brillante]] [[yellow|amarillo]] [[raincoats|impermeables]] [[and|y]] [[red|rojas]] [[boots|botas]]", "[[Brown|Marrones]] [[coats|abrigos]] [[and|y]] [[gloves|guantes]]", "[[Sneakers|Zapatillas]] [[and|y]] [[t-shirts|camisetas]]"],
           "correctAnswer": 0,
-          "explanation": "[[The children are wearing bright yellow raincoats and red boots.|Los niños llevan impermeables amarillo brillante y botas rojas.]]"
+          "explanation": "[[The|Los]] [[children|niños]] [[are|están]] [[wearing|llevando]] [[bright|brillante]] [[yellow|amarillo]] [[raincoats|impermeables]] [[and|y]] [[red|rojas]] [[boots.|botas.]]"
         }
       ]
     },
@@ -1193,16 +1193,16 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[I love summer!|¡Me encanta el verano!]] [[When it's sunny,|Cuando está soleado,]] [[I wear|llevo]] [[light clothes.|ropa ligera.]] [[Today,|Hoy,]] [[I am wearing|estoy llevando]] [[a white T-shirt|una camiseta blanca]] [[and denim shorts.|y pantalones cortos de mezclilla.]] [[I also have|También tengo]] [[my favorite sunglasses|mis gafas de sol favoritas]] [[and some comfortable sandals.|y unas sandalias cómodas.]] [[My brother|Mi hermano]] [[is wearing|está llevando]] [[a green cap|una gorra verde]] [[to protect his head|para proteger su cabeza]] [[from the sun.|del sol.]] [[We are going|Vamos]] [[to the beach.|a la playa.]] [[I need to find|Necesito encontrar]] [[my swimsuit.|mi traje de baño.]] [[It is in|Está en]] [[that bag|aquella bolsa]] [[under the table.|debajo de la mesa.]]",
+    "transcript": "[[I|Yo]] [[love|amo]] [[summer!|verano!]] [[When|Cuando]] [[it's|está]] [[sunny,|soleado,]] [[I|yo]] [[wear|llevo]] [[light|ligera]] [[clothes.|ropa.]] [[Today,|Hoy,]] [[I|yo]] [[am|estoy]] [[wearing|llevando]] [[a|una]] [[white|blanca]] [[T-shirt|camiseta]] [[and|y]] [[denim|mezclilla]] [[shorts.|pantalones cortos.]] [[I|Yo]] [[also|también]] [[have|tengo]] [[my|mis]] [[favorite|favoritas]] [[sunglasses|gafas de sol]] [[and|y]] [[some|unas]] [[comfortable|cómodas]] [[sandals.|sandalias.]] [[My|Mi]] [[brother|hermano]] [[is|está]] [[wearing|llevando]] [[a|una]] [[green|verde]] [[cap|gorra]] [[to|para]] [[protect|proteger]] [[his|su]] [[head|cabeza]] [[from|del]] [[the|el]] [[sun.|sol.]] [[We|Nosotros]] [[are|estamos]] [[going|yendo]] [[to|a]] [[the|la]] [[beach.|playa.]] [[I|Yo]] [[need|necesito]] [[to|]] [[find|encontrar]] [[my|mi]] [[swimsuit.|traje de baño.]] [[It|Él]] [[is|está]] [[in|en]] [[that|aquella]] [[bag|bolsa]] [[under|debajo de]] [[the|la]] [[table.|mesa.]]",
     "content": {
-      "title": "[[Reading: Summer Style|Lectura: Estilo de Verano]]",
-      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[Summer|Verano]] [[Style|Estilo]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[What is the speaker wearing today?|¿Qué lleva el hablante hoy?]]",
-          "options": ["[[A white T-shirt and denim shorts|Una camiseta blanca y pantalones cortos de mezclilla]]", "[[A swimsuit and a cap|Un traje de baño y una gorra]]", "[[Sandals and a bag|Sandalias y una bolsa]]"],
+          "question": "[[What|Qué]] [[is|está]] [[the|el]] [[speaker|hablante]] [[wearing|llevando]] [[today?|hoy?]]",
+          "options": ["[[A|Una]] [[white|blanca]] [[T-shirt|camiseta]] [[and|y]] [[denim|mezclilla]] [[shorts|pantalones cortos]]", "[[A|Un]] [[swimsuit|traje de baño]] [[and|y]] [[a|una]] [[cap|gorra]]", "[[Sandals|Sandalias]] [[and|y]] [[a|una]] [[bag|bolsa]]"],
           "correctAnswer": 0,
-          "explanation": "[[The speaker is wearing a white T-shirt and denim shorts.|El hablante lleva una camiseta blanca y pantalones cortos de mezclilla.]]"
+          "explanation": "[[The|El]] [[speaker|hablante]] [[is|está]] [[wearing|llevando]] [[a|una]] [[white|blanca]] [[T-shirt|camiseta]] [[and|y]] [[denim|mezclilla]] [[shorts.|pantalones cortos.]]"
         }
       ]
     },
@@ -1215,16 +1215,16 @@ export const UNIT_18_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[I love summer!|¡Me encanta el verano!]] [[When it's sunny,|Cuando está soleado,]] [[I wear|llevo]] [[light clothes.|ropa ligera.]] [[Today,|Hoy,]] [[I am wearing|estoy llevando]] [[a white T-shirt|una camiseta blanca]] [[and denim shorts.|y pantalones cortos de mezclilla.]] [[I also have|También tengo]] [[my favorite sunglasses|mis gafas de sol favoritas]] [[and some comfortable sandals.|y unas sandalias cómodas.]] [[My brother|Mi hermano]] [[is wearing|está llevando]] [[a green cap|una gorra verde]] [[to protect his head|para proteger su cabeza]] [[from the sun.|del sol.]] [[We are going|Vamos]] [[to the beach.|a la playa.]] [[I need to find|Necesito encontrar]] [[my swimsuit.|mi traje de baño.]] [[It is in|Está en]] [[that bag|aquella bolsa]] [[under the table.|debajo de la mesa.]]",
+    "transcript": "[[I|Yo]] [[love|amo]] [[summer!|verano!]] [[When|Cuando]] [[it's|está]] [[sunny,|soleado,]] [[I|yo]] [[wear|llevo]] [[light|ligera]] [[clothes.|ropa.]] [[Today,|Hoy,]] [[I|yo]] [[am|estoy]] [[wearing|llevando]] [[a|una]] [[white|blanca]] [[T-shirt|camiseta]] [[and|y]] [[denim|mezclilla]] [[shorts.|pantalones cortos.]] [[I|Yo]] [[also|también]] [[have|tengo]] [[my|mis]] [[favorite|favoritas]] [[sunglasses|gafas de sol]] [[and|y]] [[some|unas]] [[comfortable|cómodas]] [[sandals.|sandalias.]] [[My|Mi]] [[brother|hermano]] [[is|está]] [[wearing|llevando]] [[a|una]] [[green|verde]] [[cap|gorra]] [[to|para]] [[protect|proteger]] [[his|su]] [[head|cabeza]] [[from|del]] [[the|el]] [[sun.|sol.]] [[We|Nosotros]] [[are|estamos]] [[going|yendo]] [[to|a]] [[the|la]] [[beach.|playa.]] [[I|Yo]] [[need|necesito]] [[to|]] [[find|encontrar]] [[my|mi]] [[swimsuit.|traje de baño.]] [[It|Él]] [[is|está]] [[in|en]] [[that|aquella]] [[bag|bolsa]] [[under|debajo de]] [[the|la]] [[table.|mesa.]]",
     "content": {
-      "title": "[[Reading: Finding the Swimsuit|Lectura: Encontrando el traje de baño]]",
-      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
+      "title": "[[Reading:|Lectura:]] [[Finding|Encontrando]] [[the|el]] [[Swimsuit|Traje de baño]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[Where is the swimsuit?|¿Dónde está el traje de baño?]]",
-          "options": ["[[In that bag under the table|En aquella bolsa debajo de la mesa]]", "[[On the table|Sobre la mesa]]", "[[At the beach|En la playa]]"],
+          "question": "[[Where|Dónde]] [[is|está]] [[the|el]] [[swimsuit?|traje de baño?]]",
+          "options": ["[[In|En]] [[that|aquella]] [[bag|bolsa]] [[under|debajo de]] [[the|la]] [[table|mesa]]", "[[On|Sobre]] [[the|la]] [[table|mesa]]", "[[At|En]] [[the|la]] [[beach|playa]]"],
           "correctAnswer": 0,
-          "explanation": "[[The swimsuit is in that bag under the table.|El traje de baño está en aquella bolsa debajo de la mesa.]]"
+          "explanation": "[[The|El]] [[swimsuit|traje de baño]] [[is|está]] [[in|en]] [[that|aquella]] [[bag|bolsa]] [[under|debajo de]] [[the|la]] [[table.|mesa.]]"
         }
       ]
     },

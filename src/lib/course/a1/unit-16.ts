@@ -887,22 +887,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[My healthy diet.|Mi dieta saludable.]] [[I try to eat|Intento comer]] [[healthy food every day.|comida saludable todos los días.]] [[For breakfast,|Para el desayuno,]] [[I have an apple|tomo una manzana]] [[and some yogurt.|y algo de yogur.]] [[For lunch,|Para el almuerzo,]] [[I usually have|normalmente tomo]] [[a large salad with chicken|una ensalada grande con pollo]] [[and some water.|y algo de agua.]] [[I don't eat much meat|No como mucha carne]] [[for dinner,|para la cena,]] [[only fish or vegetables.|solo pescado o verduras.]] [[I never drink soda|Nunca bebo refrescos]] [[because it has|porque tienen]] [[too much sugar.|demasiada azúcar.]]",
+    "transcript": "[[My|Mi]] [[healthy|saludable]] [[diet.|dieta.]] [[I|Yo]] [[try|intento]] [[to|a]] [[eat|comer]] [[healthy|saludable]] [[food|comida]] [[every|cada]] [[day.|día.]] [[For|Para]] [[breakfast,|desayuno,]] [[I|yo]] [[have|tomo]] [[an|una]] [[apple|manzana]] [[and|y]] [[some|algo de]] [[yogurt.|yogur.]] [[For|Para]] [[lunch,|almuerzo,]] [[I|yo]] [[usually|normalmente]] [[have|tomo]] [[a|una]] [[large|grande]] [[salad|ensalada]] [[with|con]] [[chicken|pollo]] [[and|y]] [[some|algo de]] [[water.|agua.]] [[I|Yo]] [[don't|no]] [[eat|como]] [[much|mucha]] [[meat|carne]] [[for|para]] [[dinner,|cena,]] [[only|solo]] [[fish|pescado]] [[or|o]] [[vegetables.|verduras.]] [[I|Yo]] [[never|nunca]] [[drink|bebo]] [[soda|refresco]] [[because|porque]] [[it|él]] [[has|tiene]] [[too|demasiada]] [[much|mucha]] [[sugar.|azúcar.]]",
     "content": {
-      "title": "[[My Healthy Diet|Mi Dieta Saludable]]",
-      "instructions": "[[Read about the diet and answer.|Lee sobre la dieta y responde.]]",
+      "title": "[[My|Mi]] [[Healthy|Saludable]] [[Diet|Dieta]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|la]] [[diet|dieta]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[What does the person have for breakfast?|¿Qué desayuna la persona?]]",
-          "options": ["[[An apple and yogurt|Una manzana y yogur]]", "[[Bread and coffee|Pan y café]]", "[[Eggs and bacon|Huevos y bacon]]"],
+          "question": "[[What|Qué]] [[does|aux]] [[the|la]] [[person|persona]] [[have|toma]] [[for|para]] [[breakfast?|desayuno?]]",
+          "options": ["[[An|Una]] [[apple|manzana]] [[and|y]] [[yogurt|yogur]]", "[[Bread|Pan]] [[and|y]] [[coffee|café]]", "[[Eggs|Huevos]] [[and|y]] [[bacon|bacon]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[For breakfast, I have an apple and some yogurt.|Para el desayuno, tomo una manzana y algo de yogur.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[For|Para]] [[breakfast,|desayuno,]] [[I|yo]] [[have|tomo]] [[an|una]] [[apple|manzana]] [[and|y]] [[some|un poco de]] [[yogurt.|yogur.]]\""
         },
         {
-          "question": "[[Why doesn't the person drink soda?|¿Por qué la persona no bebe refrescos?]]",
-          "options": ["[[Because it has too much sugar|Porque tiene demasiada azúcar]]", "[[Because it is expensive|Porque es caro]]", "[[Because he/she doesn't like it|Porque no le gusta]]"],
+          "question": "[[Why|Por qué]] [[doesn't|no]] [[the|la]] [[person|persona]] [[drink|bebe]] [[soda?|refresco?]]",
+          "options": ["[[Because|Porque]] [[it|él]] [[has|tiene]] [[too|demasiada]] [[much|mucha]] [[sugar|azúcar]]", "[[Because|Porque]] [[it|él]] [[is|es]] [[expensive|caro]]", "[[Because|Porque]] [[he/she|él/ella]] [[doesn't|no]] [[like|gusta]] [[it|lo]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[it has too much sugar.|tiene demasiada azúcar.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[it|él]] [[has|tiene]] [[too|demasiada]] [[much|mucha]] [[sugar.|azúcar.]]\""
         }
       ]
     },
@@ -915,22 +915,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[At the restaurant.|En el restaurante.]] [[Good evening!|¡Buenas noches!]] [[Are you ready to order?|¿Están listos para pedir?]] [[Yes, please.|Sí, por favor.]] [[I would like the beef steak|Me gustaría el filete de ternera]] [[with potatoes|con patatas]] [[and a green salad.|y una ensalada verde.]] [[And for my friend,|Y para mi amigo,]] [[some pasta|un poco de pasta]] [[with tomatoes and cheese.|con tomates y queso.]] [[Would you like|¿Les gustaría]] [[anything to drink?|algo para beber?]] [[Just some water|Solo un poco de agua]] [[and a glass of red wine, please.|y una copa de vino tinto, por favor.]]",
+    "transcript": "[[At|En]] [[the|el]] [[restaurant.|restaurante.]] [[Good|Buenas]] [[evening!|noches!]] [[Are|Están]] [[you|ustedes]] [[ready|listos]] [[to|para]] [[order?|pedir?]] [[Yes,|Sí,]] [[please.|por favor.]] [[I|Yo]] [[would|me]] [[like|gustaría]] [[the|el]] [[beef|vacuno]] [[steak|filete]] [[with|con]] [[potatoes|patatas]] [[and|y]] [[a|una]] [[green|verde]] [[salad.|ensalada.]] [[And|Y]] [[for|para]] [[my|mi]] [[friend,|amigo,]] [[some|un poco de]] [[pasta|pasta]] [[with|con]] [[tomatoes|tomates]] [[and|y]] [[cheese.|queso.]] [[Would|Les]] [[you|ustedes]] [[like|gustaría]] [[anything|algo]] [[to|para]] [[drink?|beber?]] [[Just|Solo]] [[some|un poco de]] [[water|agua]] [[and|y]] [[a|una]] [[glass|copa]] [[of|de]] [[red|tinto]] [[wine,|vino,]] [[please.|por favor.]]",
     "content": {
-      "title": "[[At the Restaurant|En el Restaurante]]",
-      "instructions": "[[Read the restaurant dialogue.|Lee el diálogo del restaurante.]]",
+      "title": "[[At|En]] [[the|el]] [[Restaurant|Restaurante]]",
+      "instructions": "[[Read|Lee]] [[the|el]] [[restaurant|restaurante]] [[dialogue.|diálogo.]]",
       "questions": [
         {
-          "question": "[[What does the first person order?|¿Qué pide la primera persona?]]",
-          "options": ["[[Beef steak with potatoes|Filete de ternera con patatas]]", "[[Pasta with tomatoes|Pasta con tomates]]", "[[A pizza|Una pizza]]"],
+          "question": "[[What|Qué]] [[does|aux]] [[the|la]] [[first|primera]] [[person|persona]] [[order?|pide?]]",
+          "options": ["[[Beef|Vacuno]] [[steak|filete]] [[with|con]] [[potatoes|patatas]]", "[[Pasta|Pasta]] [[with|con]] [[tomatoes|tomates]]", "[[A|Una]] [[pizza|pizza]]"],
           "correctAnswer": 0,
-          "explanation": "[[The customer says:|El cliente dice:]] \"[[I would like the beef steak with potatoes.|Me gustaría el filete de ternera con patatas.]]\""
+          "explanation": "[[The|El]] [[customer|cliente]] [[says:|dice:]] \"[[I|Yo]] [[would|me]] [[like|gustaría]] [[the|el]] [[beef|vacuno]] [[steak|filete]] [[with|con]] [[potatoes.|patatas.]]\""
         },
         {
-          "question": "[[What drinks do they order?|¿Qué bebidas piden?]]",
-          "options": ["[[Water and wine|Agua y vino]]", "[[Beer and soda|Cerveza y refresco]]", "[[Coffee and tea|Café y té]]"],
+          "question": "[[What|Qué]] [[drinks|bebidas]] [[do|aux]] [[they|ellos]] [[order?|piden?]]",
+          "options": ["[[Water|Agua]] [[and|y]] [[wine|vino]]", "[[Beer|Cerveza]] [[and|y]] [[soda|refresco]]", "[[Coffee|Café]] [[and|y]] [[tea|té]]"],
           "correctAnswer": 0,
-          "explanation": "[[They ask for:|Piden:]] \"[[Just some water and a glass of red wine.|Solo un poco de agua y una copa de vino tinto.]]\""
+          "explanation": "[[They|Ellos]] [[ask|piden]] [[for:|por:]] \"[[Just|Solo]] [[some|un poco de]] [[water|agua]] [[and|y]] [[a|una]] [[glass|copa]] [[of|de]] [[red|tinto]] [[wine.|vino.]]\""
         }
       ]
     },
@@ -943,22 +943,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Shopping list.|Lista de la compra.]] [[We need to go|Necesitamos ir]] [[to the supermarket.|al supermercado.]] [[We don't have|No tenemos]] [[any milk or eggs.|nada de leche ni huevos.]] [[We also need|También necesitamos]] [[some bread|algo de pan]] [[and a lot of vegetables|y muchas verduras]] [[for the week.|para la semana.]] [[I want to buy|Quiero comprar]] [[some fruit too,|algo de fruta también,]] [[maybe some bananas|quizás algunos plátanos]] [[and oranges.|y naranjas.]] [[Oh, and don't forget the coffee!|¡Ah, y no olvides el café!]]",
+    "transcript": "[[Shopping|De compras]] [[list.|lista.]] [[We|Nosotros]] [[need|necesitamos]] [[to|ir]] [[go|a]] [[to|al]] [[the|el]] [[supermarket.|supermercado.]] [[We|Nosotros]] [[don't|no]] [[have|tenemos]] [[any|nada de]] [[milk|leche]] [[or|ni]] [[eggs.|huevos.]] [[We|Nosotros]] [[also|también]] [[need|necesitamos]] [[some|un poco de]] [[bread|pan]] [[and|y]] [[a|muchas]] [[lot|cantidad]] [[of|de]] [[vegetables|verduras]] [[for|para]] [[the|la]] [[week.|semana.]] [[I|Yo]] [[want|quiero]] [[to|comprar]] [[buy|a]] [[some|un poco de]] [[fruit|fruta]] [[too,|también,]] [[maybe|quizás]] [[some|algunos]] [[bananas|plátanos]] [[and|y]] [[oranges.|naranjas.]] [[Oh,|Oh,]] [[and|y]] [[don't|no]] [[forget|olvides]] [[the|el]] [[coffee!|café!]]",
     "content": {
-      "title": "[[Shopping List|Lista de la Compra]]",
-      "instructions": "[[Read the shopping list.|Lee la lista de la compra.]]",
+      "title": "[[Shopping|De compras]] [[List|Lista]]",
+      "instructions": "[[Read|Lee]] [[the|la]] [[shopping|de compras]] [[list.|lista.]]",
       "questions": [
         {
-          "question": "[[What don't they have?|¿Qué no tienen?]]",
-          "options": ["[[Milk or eggs|Leche ni huevos]]", "[[Bread or water|Pan ni agua]]", "[[Fruit or veg|Fruta ni verdura]]"],
+          "question": "[[What|Qué]] [[don't|no]] [[they|ellos]] [[have?|tienen?]]",
+          "options": ["[[Milk|Leche]] [[or|ni]] [[eggs|huevos]]", "[[Bread|Pan]] [[or|ni]] [[water|agua]]", "[[Fruit|Fruta]] [[or|ni]] [[veg|verdura]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[We don't have any milk or eggs.|No tenemos nada de leche ni huevos.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[We|Nosotros]] [[don't|no]] [[have|tenemos]] [[any|nada de]] [[milk|leche]] [[or|ni]] [[eggs.|huevos.]]\""
         },
         {
-          "question": "[[Which fruit do they want to buy?|¿Qué fruta quieren comprar?]]",
-          "options": ["[[Bananas and oranges|Plátanos y naranjas]]", "[[Apples and pears|Manzanas y peras]]", "[[Grapes|Uvas]]"],
+          "question": "[[Which|Qué]] [[fruit|fruta]] [[do|aux]] [[they|ellos]] [[want|quieren]] [[to|comprar]] [[buy?|?]]",
+          "options": ["[[Bananas|Plátanos]] [[and|y]] [[oranges|naranjas]]", "[[Apples|Manzanas]] [[and|y]] [[pears|peras]]", "[[Grapes|Uvas]]"],
           "correctAnswer": 0,
-          "explanation": "[[It says:|Dice:]] \"[[maybe some bananas and oranges.|quizás algunos plátanos y naranjas.]]\""
+          "explanation": "[[It|Él]] [[says:|dice:]] \"[[maybe|quizás]] [[some|algunos]] [[bananas|plátanos]] [[and|y]] [[oranges.|naranjas.]]\""
         }
       ]
     },
@@ -971,22 +971,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[A traditional breakfast.|Un desayuno tradicional.]] [[In England,|En Inglaterra,]] [[some people have|algunas personas toman]] [[a big breakfast|un gran desayuno]] [[on weekends.|los fines de semana.]] [[They have eggs, bacon,|Toman huevos, bacon,]] [[sausages, and beans.|salchichas y alubias.]] [[They also eat|También comen]] [[some toast|un poco de tostada]] [[with butter or jam.|con mantequilla o mermelada.]] [[They usually drink tea|Normalmente beben té]] [[with milk|con leche]] [[or some orange juice.|o algo de zumo de naranja.]] [[It is a very large meal!|¡Es una comida muy grande!]]",
+    "transcript": "[[A|Un]] [[traditional|tradicional]] [[breakfast.|desayuno.]] [[In|En]] [[England,|Inglaterra,]] [[some|algunas]] [[people|personas]] [[have|toman]] [[a|un]] [[big|gran]] [[breakfast|desayuno]] [[on|en]] [[weekends.|fines de semana.]] [[They|Ellos]] [[have|toman]] [[eggs,|huevos,]] [[bacon,|bacon,]] [[sausages,|salchichas,]] [[and|y]] [[beans.|alubias.]] [[They|Ellos]] [[also|también]] [[eat|comen]] [[some|un poco de]] [[toast|tostada]] [[with|con]] [[butter|mantequilla]] [[or|o]] [[jam.|mermelada.]] [[They|Ellos]] [[usually|normalmente]] [[drink|beben]] [[tea|té]] [[with|con]] [[milk|leche]] [[or|o]] [[some|un poco de]] [[orange|naranja]] [[juice.|zumo.]] [[It|Él]] [[is|es]] [[a|una]] [[very|muy]] [[large|grande]] [[meal!|comida!]]",
     "content": {
-      "title": "[[Traditional Breakfast|Desayuno Tradicional]]",
-      "instructions": "[[Read about the English breakfast.|Lee sobre el desayuno inglés.]]",
+      "title": "[[Traditional|Tradicional]] [[Breakfast|Desayuno]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|el]] [[English|inglés]] [[breakfast.|desayuno.]]",
       "questions": [
         {
-          "question": "[[What food is in the breakfast?|¿Qué comida hay en el desayuno?]]",
-          "options": ["[[Eggs, bacon and beans|Huevos, bacon y alubias]]", "[[Cereal and milk|Cereales y leche]]", "[[Fruit and yogurt|Fruta y yogur]]"],
+          "question": "[[What|Qué]] [[food|comida]] [[is|está]] [[in|en]] [[the|el]] [[breakfast?|desayuno?]]",
+          "options": ["[[Eggs,|Huevos,]] [[bacon|bacon]] [[and|y]] [[beans|alubias]]", "[[Cereal|Cereal]] [[and|y]] [[milk|leche]]", "[[Fruit|Fruta]] [[and|y]] [[yogurt|yogur]]"],
           "correctAnswer": 0,
-          "explanation": "[[It lists:|Enumera:]] \"[[eggs, bacon, sausages, and beans.|huevos, bacon, salchichas y alubias.]]\""
+          "explanation": "[[It|Él]] [[lists:|enumera:]] \"[[eggs,|huevos,]] [[bacon,|bacon,]] [[sausages,|salchichas,]] [[and|y]] [[beans.|alubias.]]\""
         },
         {
-          "question": "[[What do they drink?|¿Qué beben?]]",
-          "options": ["[[Tea or orange juice|Té o zumo de naranja]]", "[[Coffee or water|Café o agua]]", "[[Soda|Refresco]]"],
+          "question": "[[What|Qué]] [[do|aux]] [[they|ellos]] [[drink?|beben?]]",
+          "options": ["[[Tea|Té]] [[or|o]] [[orange|naranja]] [[juice|zumo]]", "[[Coffee|Café]] [[or|o]] [[water|agua]]", "[[Soda|Refresco]]"],
           "correctAnswer": 0,
-          "explanation": "[[It says:|Dice:]] \"[[drink tea with milk or some orange juice.|beben té con leche o algo de zumo de naranja.]]\""
+          "explanation": "[[It|Él]] [[says:|dice:]] \"[[drink|beber]] [[tea|té]] [[with|con]] [[milk|leche]] [[or|o]] [[some|un poco de]] [[orange|naranja]] [[juice.|zumo.]]\""
         }
       ]
     },
@@ -999,22 +999,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Dinner party.|Fiesta de cena.]] [[I am having|Voy a tener]] [[a dinner party tonight.|una fiesta de cena esta noche.]] [[I am cooking chicken|Estoy cocinando pollo]] [[with rice|con arroz]] [[and many vegetables.|y muchas verduras.]] [[For dessert,|De postre,]] [[I have some chocolate cake|tengo algo de pastel de chocolate]] [[and fruit salad.|y macedonia de frutas.]] [[There is a lot of food|Hay mucha comida]] [[for my six friends.|para mis seis amigos.]] [[I hope they like it!|¡Espero que les guste!]]",
+    "transcript": "[[Dinner|Cena]] [[party.|fiesta.]] [[I|Yo]] [[am|voy]] [[having|a tener]] [[a|una]] [[dinner|cena]] [[party|fiesta]] [[tonight.|esta noche.]] [[I|Yo]] [[am|estoy]] [[cooking|cocinando]] [[chicken|pollo]] [[with|con]] [[rice|arroz]] [[and|y]] [[many|muchas]] [[vegetables.|verduras.]] [[For|Para]] [[dessert,|postre,]] [[I|yo]] [[have|tengo]] [[some|un poco de]] [[chocolate|chocolate]] [[cake|pastel]] [[and|y]] [[fruit|fruta]] [[salad.|ensalada.]] [[There|Hay]] [[is|es]] [[a|mucha]] [[lot|cantidad]] [[of|de]] [[food|comida]] [[for|para]] [[my|mis]] [[six|seis]] [[friends.|amigos.]] [[I|Yo]] [[hope|espero]] [[they|ellos]] [[like|gusten]] [[it!|la!]]",
     "content": {
-      "title": "[[Dinner Party|Fiesta de Cena]]",
-      "instructions": "[[Read about the dinner.|Lee sobre la cena.]]",
+      "title": "[[Dinner|Cena]] [[Party|Fiesta]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|la]] [[dinner.|cena.]]",
       "questions": [
         {
-          "question": "[[What is the main course?|¿Cuál es el plato principal?]]",
-          "options": ["[[Chicken with rice|Pollo con arroz]]", "[[Pasta and cheese|Pasta y queso]]", "[[Beef steak|Filete de ternera]]"],
+          "question": "[[What|Qué]] [[is|es]] [[the|el]] [[main|principal]] [[course?|plato?]]",
+          "options": ["[[Chicken|Pollo]] [[with|con]] [[rice|arroz]]", "[[Pasta|Pasta]] [[and|y]] [[cheese|queso]]", "[[Beef|Vacuno]] [[steak|filete]]"],
           "correctAnswer": 0,
-          "explanation": "[[The host says:|El anfitrión dice:]] \"[[I am cooking chicken with rice.|Estoy cocinando pollo con arroz.]]\""
+          "explanation": "[[The|El]] [[host|anfitrión]] [[says:|dice:]] \"[[I|Yo]] [[am|estoy]] [[cooking|cocinando]] [[chicken|pollo]] [[with|con]] [[rice.|arroz.]]\""
         },
         {
-          "question": "[[What is for dessert?|¿Qué hay de postre?]]",
-          "options": ["[[Cake and fruit salad|Pastel y macedonia]]", "[[Ice cream|Helado]]", "[[Chocolate and nuts|Chocolate y nueces]]"],
+          "question": "[[What|Qué]] [[is|hay]] [[for|de]] [[dessert?|postre?]]",
+          "options": ["[[Cake|Pastel]] [[and|y]] [[fruit|fruta]] [[salad|ensalada]]", "[[Ice|Helado]] [[cream|de crema]]", "[[Chocolate|Chocolate]] [[and|y]] [[nuts|nueces]]"],
           "correctAnswer": 0,
-          "explanation": "[[It says:|Dice:]] \"[[I have some chocolate cake and fruit salad.|tengo algo de pastel de chocolate y macedonia de frutas.]]\""
+          "explanation": "[[It|Él]] [[says:|dice:]] \"[[I|Yo]] [[have|tengo]] [[some|un poco de]] [[chocolate|chocolate]] [[cake|pastel]] [[and|y]] [[fruit|fruta]] [[salad.|ensalada.]]\""
         }
       ]
     },
@@ -1027,22 +1027,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Italian food.|Comida italiana.]] [[Maria is from Italy|Maria es de Italia]] [[and she loves Italian food.|y le encanta la comida italiana.]] [[She eats pasta|Come pasta]] [[almost every day.|casi todos los días.]] [[Her favorite is pasta|Su favorita es la pasta]] [[with tomato sauce|con salsa de tomate]] [[and a lot of cheese.|y mucho queso.]] [[She also likes pizza|También le gusta la pizza]] [[with many vegetables.|con muchas verduras.]] [[She doesn't like fast food|No le gusta la comida rápida]] [[like burgers or fries.|como hamburguesas o patatas fritas.]]",
+    "transcript": "[[Italian|Italiana]] [[food.|comida.]] [[Maria|Maria]] [[is|es]] [[from|de]] [[Italy|Italia]] [[and|y]] [[she|ella]] [[loves|ama]] [[Italian|italiana]] [[food.|comida.]] [[She|Ella]] [[eats|come]] [[pasta|pasta]] [[almost|casi]] [[every|cada]] [[day.|día.]] [[Her|Su]] [[favorite|favorita]] [[is|es]] [[pasta|pasta]] [[with|con]] [[tomato|tomate]] [[sauce|salsa]] [[and|y]] [[a|mucho]] [[lot|cantidad]] [[of|de]] [[cheese.|queso.]] [[She|Ella]] [[also|también]] [[likes|gusta]] [[pizza|pizza]] [[with|con]] [[many|muchas]] [[vegetables.|verduras.]] [[She|Ella]] [[doesn't|no]] [[like|gusta]] [[fast|rápida]] [[food|comida]] [[like|como]] [[burgers|hamburguesas]] [[or|o]] [[fries.|patatas.]]",
     "content": {
-      "title": "[[Italian Food|Comida Italiana]]",
-      "instructions": "[[Read about Maria.|Lee sobre Maria.]]",
+      "title": "[[Italian|Italiana]] [[Food|Comida]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[Maria.|Maria.]]",
       "questions": [
         {
-          "question": "[[How often does she eat pasta?|¿Qué tan a menudo come pasta?]]",
-          "options": ["[[Almost every day|Casi todos los días]]", "[[Once a week|Una vez a la semana]]", "[[Only on weekends|Solo los fines de semana]]"],
+          "question": "[[How|Qué]] [[often|tan a menudo]] [[does|aux]] [[she|ella]] [[eat|come]] [[pasta?|pasta?]]",
+          "options": ["[[Almost|Casi]] [[every|cada]] [[day|día]]", "[[Once|Una vez]] [[a|a la]] [[week|semana]]", "[[Only|Solo]] [[on|en]] [[weekends|fines de semana]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[She eats pasta almost every day.|Come pasta casi todos los días.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[She|Ella]] [[eats|come]] [[pasta|pasta]] [[almost|casi]] [[every|cada]] [[day.|día.]]\""
         },
         {
-          "question": "[[What doesn't she like?|¿Qué no le gusta?]]",
-          "options": ["[[Burgers or fries|Hamburguesas o patatas]]", "[[Cheese|Queso]]", "[[Vegetables|Verduras]]"],
+          "question": "[[What|Qué]] [[doesn't|no]] [[she|ella]] [[like?|gusta?]]",
+          "options": ["[[Burgers|Hamburguesas]] [[or|o]] [[fries|patatas]]", "[[Cheese|Queso]]", "[[Vegetables|Verduras]]"],
           "correctAnswer": 0,
-          "explanation": "[[It says:|Dice:]] \"[[She doesn't like fast food like burgers or fries.|No le gusta la comida rápida como hamburguesas o patatas fritas.]]\""
+          "explanation": "[[It|Él]] [[says:|dice:]] \"[[She|Ella]] [[doesn't|no]] [[like|gusta]] [[fast|rápida]] [[food|comida]] [[like|como]] [[burgers|hamburguesas]] [[or|o]] [[fries.|patatas.]]\""
         }
       ]
     },
@@ -1055,22 +1055,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Tea time.|La hora del té.]] [[In many countries,|En muchos países,]] [[people drink tea|la gente bebe té]] [[in the afternoon.|por la tarde.]] [[Some people like it|A algunas personas les gusta]] [[with milk and sugar.|con leche y azúcar.]] [[Others prefer it|Otros lo prefieren]] [[with a piece of lemon.|con una rodaja de limón.]] [[It is common to have|Es común tomar]] [[some cookies|algunas galletas]] [[or a small piece of cake|o un trozo pequeño de pastel]] [[with the tea.|con el té.]] [[It is a relaxing time|Es un momento relajante]] [[of the day.|del día.]]",
+    "transcript": "[[Tea|Té]] [[time.|hora.]] [[In|En]] [[many|muchos]] [[countries,|países,]] [[people|personas]] [[drink|beben]] [[tea|té]] [[in|en]] [[the|la]] [[afternoon.|tarde.]] [[Some|Algunas]] [[people|personas]] [[like|gustan]] [[it|lo]] [[with|con]] [[milk|leche]] [[and|y]] [[sugar.|azúcar.]] [[Others|Otros]] [[prefer|prefieren]] [[it|lo]] [[with|con]] [[a|una]] [[piece|rodaja]] [[of|de]] [[lemon.|limón.]] [[It|Él]] [[is|es]] [[common|común]] [[to|tomar]] [[have|algo]] [[some|algunas]] [[cookies|galletas]] [[or|o]] [[a|un]] [[small|pequeño]] [[piece|trozo]] [[of|de]] [[cake|pastel]] [[with|con]] [[the|el]] [[tea.|té.]] [[It|Él]] [[is|es]] [[a|un]] [[relaxing|relajante]] [[time|momento]] [[of|del]] [[the|el]] [[day.|día.]]",
     "content": {
-      "title": "[[Tea Time|La Hora del Té]]",
-      "instructions": "[[Read about tea time.|Lee sobre la hora del té.]]",
+      "title": "[[Tea|Té]] [[Time|Hora]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[tea|té]] [[time.|hora.]]",
       "questions": [
         {
-          "question": "[[What do people put in the tea?|¿Qué pone la gente en el té?]]",
-          "options": ["[[Milk, sugar or lemon|Leche, azúcar o limón]]", "[[Honey and bread|Miel y pan]]", "[[Water and ice|Agua e hielo]]"],
+          "question": "[[What|Qué]] [[do|aux]] [[people|personas]] [[put|ponen]] [[in|en]] [[the|el]] [[tea?|té?]]",
+          "options": ["[[Milk,|Leche,]] [[sugar|azúcar]] [[or|o]] [[lemon|limón]]", "[[Honey|Miel]] [[and|y]] [[bread|pan]]", "[[Water|Agua]] [[and|y]] [[ice|hielo]]"],
           "correctAnswer": 0,
-          "explanation": "[[It mentions:|Menciona:]] \"[[milk and sugar|leche y azúcar]]\" [[or|o]] \"[[a piece of lemon.|una rodaja de limón.]]\""
+          "explanation": "[[It|Él]] [[mentions:|menciona:]] \"[[milk|leche]] [[and|y]] [[sugar|azúcar]]\" [[or|o]] \"[[a|una]] [[piece|rodaja]] [[of|de]] [[lemon.|limón.]]\""
         },
         {
-          "question": "[[What do they eat with it?|¿Qué comen con ello?]]",
-          "options": ["[[Cookies or cake|Galletas o pastel]]", "[[Sandwiches|Sándwiches]]", "[[Fruit|Fruta]]"],
+          "question": "[[What|Qué]] [[do|aux]] [[they|ellos]] [[eat|comen]] [[with|con]] [[it?|él?]]",
+          "options": ["[[Cookies|Galletas]] [[or|o]] [[cake|pastel]]", "[[Sandwiches|Sándwiches]]", "[[Fruit|Fruta]]"],
           "correctAnswer": 0,
-          "explanation": "[[It says:|Dice:]] \"[[have some cookies or a small piece of cake.|tomar algunas galletas o un trozo pequeño de pastel.]]\""
+          "explanation": "[[It|Él]] [[says:|dice:]] \"[[have|tomar]] [[some|algunas]] [[cookies|galletas]] [[or|o]] [[a|un]] [[small|pequeño]] [[piece|trozo]] [[of|de]] [[cake.|pastel.]]\""
         }
       ]
     },
@@ -1083,22 +1083,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Vegetarian life.|Vida vegetariana.]] [[David is a vegetarian.|David es vegetariano.]] [[He doesn't eat|No come]] [[any meat or fish.|nada de carne ni pescado.]] [[He eats a lot of|Come muchos]] [[beans, eggs, and cheese|alubias, huevos y queso]] [[for protein.|para obtener proteínas.]] [[He also loves|También le encantan]] [[all types of vegetables|todos los tipos de verduras]] [[and fruit.|y fruta.]] [[His favorite meal|Su comida favorita]] [[is vegetable lasagna|es la lasaña de verduras]] [[with some salad|con algo de ensalada]] [[on the side.|como acompañamiento.]]",
+    "transcript": "[[Vegetarian|Vegetariana]] [[life.|vida.]] [[David|David]] [[is|es]] [[a|un]] [[vegetarian.|vegetariano.]] [[He|Él]] [[doesn't|no]] [[eat|come]] [[any|nada de]] [[meat|carne]] [[or|ni]] [[fish.|pescado.]] [[He|Él]] [[eats|come]] [[a|muchas]] [[lot|cantidad]] [[of|de]] [[beans,|alubias,]] [[eggs,|huevos,]] [[and|y]] [[cheese|queso]] [[for|para]] [[protein.|proteínas.]] [[He|Él]] [[also|también]] [[loves|ama]] [[all|todos]] [[types|tipos]] [[of|de]] [[vegetables|verduras]] [[and|y]] [[fruit.|fruta.]] [[His|Su]] [[favorite|favorita]] [[meal|comida]] [[is|es]] [[vegetable|verduras]] [[lasagna|lasaña]] [[with|con]] [[some|un poco de]] [[salad|ensalada]] [[on|en]] [[the|el]] [[side.|lado.]]",
     "content": {
-      "title": "[[Vegetarian Life|Vida Vegetariana]]",
-      "instructions": "[[Read about David.|Lee sobre David.]]",
+      "title": "[[Vegetarian|Vegetariana]] [[Life|Vida]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[David.|David.]]",
       "questions": [
         {
-          "question": "[[What doesn't David eat?|¿Qué no come David?]]",
-          "options": ["[[Meat or fish|Carne ni pescado]]", "[[Eggs or cheese|Huevos ni queso]]", "[[Vegetables|Verduras]]"],
+          "question": "[[What|Qué]] [[doesn't|no]] [[David|David]] [[eat?|come?]]",
+          "options": ["[[Meat|Carne]] [[or|ni]] [[fish|pescado]]", "[[Eggs|Huevos]] [[or|ni]] [[cheese|queso]]", "[[Vegetables|Verduras]]"],
           "correctAnswer": 0,
-          "explanation": "[[As a vegetarian,|Como vegetariano,]] \"[[He doesn't eat any meat or fish.|No come nada de carne ni pescado.]]\""
+          "explanation": "[[As|Como]] [[a|un]] [[vegetarian,|vegetariano,]] \"[[He|Él]] [[doesn't|no]] [[eat|come]] [[any|nada de]] [[meat|carne]] [[or|ni]] [[fish.|pescado.]]\""
         },
         {
-          "question": "[[What is his favorite meal?|¿Cuál es su comida favorita?]]",
-          "options": ["[[Vegetable lasagna|Lasaña de verduras]]", "[[Pizza|Pizza]]", "[[Rice and beans|Arroz y alubias]]"],
+          "question": "[[What|Qué]] [[is|es]] [[his|su]] [[favorite|favorita]] [[meal?|comida?]]",
+          "options": ["[[Vegetable|Verduras]] [[lasagna|lasaña]]", "[[Pizza|Pizza]]", "[[Rice|Arroz]] [[and|y]] [[beans|alubias]]"],
           "correctAnswer": 0,
-          "explanation": "[[It says:|Dice:]] \"[[His favorite meal is vegetable lasagna.|Su comida favorita es la lasaña de verduras.]]\""
+          "explanation": "[[It|Él]] [[says:|dice:]] \"[[His|Su]] [[favorite|favorita]] [[meal|comida]] [[is|es]] [[vegetable|verduras]] [[lasagna.|lasaña.]]\""
         }
       ]
     },
@@ -1111,22 +1111,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[The school canteen.|El comedor escolar.]] [[The students eat lunch|Los estudiantes almuerzan]] [[at the school canteen.|en el comedor escolar.]] [[Today, the menu is|Hoy, el menú es]] [[chicken with rice|pollo con arroz]] [[or fish with salad.|o pescado con ensalada.]] [[For dessert,|De postre,]] [[there is some fruit|hay algo de fruta]] [[or a yogurt.|o un yogur.]] [[There isn't any soda,|No hay ningún refresco,]] [[but students can have|pero los estudiantes pueden tomar]] [[some water or apple juice.|un poco de agua o zumo de manzana.]]",
+    "transcript": "[[The|El]] [[school|escolar]] [[canteen.|comedor.]] [[The|Los]] [[students|estudiantes]] [[eat|comen]] [[lunch|almuerzo]] [[at|en]] [[the|el]] [[school|escolar]] [[canteen.|comedor.]] [[Today,|Hoy,]] [[the|el]] [[menu|menú]] [[is|es]] [[chicken|pollo]] [[with|con]] [[rice|arroz]] [[or|o]] [[fish|pescado]] [[with|con]] [[salad.|ensalada.]] [[For|Para]] [[dessert,|postre,]] [[there|allí]] [[is|hay]] [[some|un poco de]] [[fruit|fruta]] [[or|o]] [[a|un]] [[yogurt.|yogur.]] [[There|Allí]] [[isn't|no hay]] [[any|ningún]] [[soda,|refresco,]] [[but|pero]] [[students|estudiantes]] [[can|pueden]] [[have|tomar]] [[some|un poco de]] [[water|agua]] [[or|o]] [[apple|manzana]] [[juice.|zumo.]]",
     "content": {
-      "title": "[[The School Canteen|El Comedor Escolar]]",
-      "instructions": "[[Read about the school menu.|Lee sobre el menú escolar.]]",
+      "title": "[[The|El]] [[School|Escolar]] [[Canteen|Comedor]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|el]] [[school|escolar]] [[menu.|menú.]]",
       "questions": [
         {
-          "question": "[[What is the menu today?|¿Cuál es el menú de hoy?]]",
-          "options": ["[[Chicken or fish|Pollo o pescado]]", "[[Pizza or pasta|Pizza o pasta]]", "[[Burgers|Hamburguesas]]"],
+          "question": "[[What|Qué]] [[is|es]] [[the|el]] [[menu|menú]] [[today?|hoy?]]",
+          "options": ["[[Chicken|Pollo]] [[or|o]] [[fish|pescado]]", "[[Pizza|Pizza]] [[or|o]] [[pasta|pasta]]", "[[Burgers|Hamburguesas]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[chicken with rice or fish with salad.|pollo con arroz o pescado con ensalada.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[chicken|pollo]] [[with|con]] [[rice|arroz]] [[or|o]] [[fish|pescado]] [[with|con]] [[salad.|ensalada.]]\""
         },
         {
-          "question": "[[What can the students drink?|¿Qué pueden beber los estudiantes?]]",
-          "options": ["[[Water or juice|Agua o zumo]]", "[[Soda|Refresco]]", "[[Milk|Leche]]"],
+          "question": "[[What|Qué]] [[can|pueden]] [[the|los]] [[students|estudiantes]] [[drink?|beber?]]",
+          "options": ["[[Water|Agua]] [[or|o]] [[juice|zumo]]", "[[Soda|Refresco]]", "[[Milk|Leche]]"],
           "correctAnswer": 0,
-          "explanation": "[[It says:|Dice:]] \"[[have some water or apple juice.|tomar un poco de agua o zumo de manzana.]]\""
+          "explanation": "[[It|Él]] [[says:|dice:]] \"[[have|tomar]] [[some|un poco de]] [[water|agua]] [[or|o]] [[apple|manzana]] [[juice.|zumo.]]\""
         }
       ]
     },
@@ -1139,22 +1139,22 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Fruit market.|Mercado de frutas.]] [[Every Saturday,|Cada sábado,]] [[I go|voy]] [[to the fruit market.|al mercado de frutas.]] [[I like buying|Me gusta comprar]] [[fresh fruit|fruta fresca]] [[for the week.|para la semana.]] [[I always buy|Siempre compro]] [[some apples|algunas manzanas]] [[and a pineapple.|y una piña.]] [[Sometimes I buy|A veces compro]] [[some strawberries|algunas fresas]] [[if they look good.|si se ven bien.]] [[The fruit at the market|La fruta en el mercado]] [[is very delicious and cheap.|es muy deliciosa y barata.]]",
+    "transcript": "[[Fruit|Fruta]] [[market.|mercado.]] [[Every|Cada]] [[Saturday,|sábado,]] [[I|yo]] [[go|voy]] [[to|al]] [[the|el]] [[fruit|fruta]] [[market.|mercado.]] [[I|Yo]] [[like|gusto]] [[buying|comprar]] [[fresh|fresca]] [[fruit|fruta]] [[for|para]] [[the|la]] [[week.|semana.]] [[I|Yo]] [[always|siempre]] [[buy|compro]] [[some|algunas]] [[apples|manzanas]] [[and|y]] [[a|una]] [[pineapple.|piña.]] [[Sometimes|A veces]] [[I|yo]] [[buy|compro]] [[some|algunas]] [[strawberries|fresas]] [[if|si]] [[they|ellas]] [[look|ven]] [[good.|bien.]] [[The|La]] [[fruit|fruta]] [[at|en]] [[the|el]] [[market|mercado]] [[is|es]] [[very|muy]] [[delicious|deliciosa]] [[and|y]] [[cheap.|barata.]]",
     "content": {
-      "title": "[[Fruit Market|Mercado de Frutas]]",
-      "instructions": "[[Read about the market.|Lee sobre el mercado.]]",
+      "title": "[[Fruit|Fruta]] [[Market|Mercado]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|el]] [[market.|mercado.]]",
       "questions": [
         {
-          "question": "[[When does the person go to the market?|¿Cuándo va la persona al mercado?]]",
-          "options": ["[[Every Saturday|Cada sábado]]", "[[Every day|Cada día]]", "[[On Fridays|Los viernes]]"],
+          "question": "[[When|Cuándo]] [[does|aux]] [[the|la]] [[person|persona]] [[go|va]] [[to|al]] [[the|el]] [[market?|mercado?]]",
+          "options": ["[[Every|Cada]] [[Saturday|sábado]]", "[[Every|Cada]] [[day|día]]", "[[On|Los]] [[Fridays|viernes]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[Every Saturday, I go to the fruit market.|Cada sábado, voy al mercado de frutas.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[Every|Cada]] [[Saturday,|sábado,]] [[I|yo]] [[go|voy]] [[to|al]] [[the|el]] [[fruit|fruta]] [[market.|mercado.]]\""
         },
         {
-          "question": "[[Which fruit does the person always buy?|¿Qué fruta compra siempre la persona?]]",
-          "options": ["[[Apples and pineapple|Manzanas y piña]]", "[[Strawberries|Fresas]]", "[[Bananas|Plátanos]]"],
+          "question": "[[Which|Qué]] [[fruit|fruta]] [[does|aux]] [[the|la]] [[person|persona]] [[always|siempre]] [[buy?|compra?]]",
+          "options": ["[[Apples|Manzanas]] [[and|y]] [[pineapple|piña]]", "[[Strawberries|Fresas]]", "[[Bananas|Plátanos]]"],
           "correctAnswer": 0,
-          "explanation": "[[It says:|Dice:]] \"[[I always buy some apples and a pineapple.|Siempre compro algunas manzanas y una piña.]]\""
+          "explanation": "[[It|Él]] [[says:|dice:]] \"[[I|Yo]] [[always|siempre]] [[buy|compro]] [[some|algunas]] [[apples|manzanas]] [[and|y]] [[a|una]] [[pineapple.|piña.]]\""
         }
       ]
     },
