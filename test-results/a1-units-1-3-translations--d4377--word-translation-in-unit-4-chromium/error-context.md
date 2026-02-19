@@ -1,0 +1,61 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic: © 2026 Focus English
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - 'heading "Review: Unidad 4Lección 4 de 4 • Ejercicio 8 de 13" [level=1] [ref=e9]':
+          - text: "Review: Unidad 4"
+          - generic [ref=e10]: Lección 4 de 4 • Ejercicio 8 de 13
+      - generic [ref=e11]:
+        - button [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+        - button [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+    - main [ref=e18]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e25]:
+              - generic [ref=e26]: A1
+              - generic [ref=e27]: multiple-choice
+              - generic [ref=e28]: Reading
+            - 'heading "Comprehension: Students" [level=2] [ref=e29]':
+              - generic [ref=e31]: "Comprehension: Students"
+            - paragraph [ref=e34]:
+              - generic [ref=e36]: Answer the question
+              - text: .
+          - generic [ref=e38]:
+            - paragraph [ref=e41]:
+              - generic [ref=e43]: How many
+              - generic [ref=e45]: students
+              - generic [ref=e47]: are in the class
+              - text: "?"
+            - button "Comprender texto y responder" [ref=e49] [cursor=pointer]:
+              - text: Comprender texto y responder
+              - img [ref=e50]
+        - generic [ref=e52]:
+          - generic [ref=e53]: "⏱️ Tiempo estimado: 5 min"
+          - generic [ref=e54]: 📅 2/19/2026
+  - generic [ref=e59] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e60]:
+      - img [ref=e61]
+    - generic [ref=e64]:
+      - button "Open issues overlay" [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e67]: "1"
+          - generic [ref=e68]: "2"
+        - generic [ref=e69]:
+          - text: Issue
+          - generic [ref=e70]: s
+      - button "Collapse issues badge" [ref=e71]:
+        - img [ref=e72]
+  - alert [ref=e74]
+  - iframe [ref=e75]:
+    
+```

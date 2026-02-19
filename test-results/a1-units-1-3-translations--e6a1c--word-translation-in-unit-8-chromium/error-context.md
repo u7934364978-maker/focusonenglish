@@ -1,0 +1,73 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic: © 2026 Focus English
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - 'heading "Review: Unidad 8Lección 4 de 4 • Ejercicio 6 de 11" [level=1] [ref=e9]':
+          - text: "Review: Unidad 8"
+          - generic [ref=e10]: Lección 4 de 4 • Ejercicio 6 de 11
+      - generic [ref=e11]:
+        - button [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+        - button [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+    - main [ref=e18]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e24]:
+              - generic [ref=e25]:
+                - generic [ref=e26]: A1
+                - generic [ref=e27]: reading
+                - generic [ref=e28]: Reading
+              - button "Escuchar audio" [ref=e29] [cursor=pointer]:
+                - img [ref=e30]
+                - generic [ref=e34]: Escuchar audio
+            - heading "The New Tablet" [level=2] [ref=e35]:
+              - generic [ref=e37]: The New Tablet
+            - paragraph [ref=e40]:
+              - generic [ref=e42]: Read the text about the tablet
+              - text: .
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - paragraph [ref=e47]:
+                - generic [ref=e49]: This new tablet is very nice.
+                - generic [ref=e51]: The price is two hundred dollars
+                - generic [ref=e53]: in the big store.
+                - generic [ref=e55]: But in the small store,
+                - generic [ref=e57]: it is one hundred and sixty-nine dollars.
+                - generic [ref=e59]: That is a good price.
+                - generic [ref=e61]: "The tablet is available in three colors:"
+                - generic [ref=e63]: black, silver, and white.
+                - generic [ref=e65]: The silver one is my favorite.
+              - button "Escuchar texto" [ref=e66] [cursor=pointer]:
+                - img [ref=e67]
+            - button "Comprender texto y responder" [ref=e72] [cursor=pointer]:
+              - text: Comprender texto y responder
+              - img [ref=e73]
+        - generic [ref=e75]:
+          - generic [ref=e76]: "⏱️ Tiempo estimado: 5 min"
+          - generic [ref=e77]: 📅 2/19/2026
+  - generic [ref=e82] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e83]:
+      - img [ref=e84]
+    - generic [ref=e87]:
+      - button "Open issues overlay" [ref=e88]:
+        - generic [ref=e89]:
+          - generic [ref=e90]: "1"
+          - generic [ref=e91]: "2"
+        - generic [ref=e92]:
+          - text: Issue
+          - generic [ref=e93]: s
+      - button "Collapse issues badge" [ref=e94]:
+        - img [ref=e95]
+  - alert [ref=e97]
+  - iframe [ref=e98]:
+    
+```

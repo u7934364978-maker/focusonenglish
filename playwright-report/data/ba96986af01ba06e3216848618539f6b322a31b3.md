@@ -1,0 +1,86 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic: © 2026 Focus English
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - 'heading "Review: Unidad 9Lección 4 de 4 • Ejercicio 14 de 15" [level=1] [ref=e9]':
+          - text: "Review: Unidad 9"
+          - generic [ref=e10]: Lección 4 de 4 • Ejercicio 14 de 15
+      - generic [ref=e11]:
+        - button [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+        - button [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+    - main [ref=e18]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e25]:
+              - generic [ref=e26]: A1
+              - generic [ref=e27]: reading
+              - generic [ref=e28]: Reading
+            - 'heading "Reading: The Police Officer" [level=2] [ref=e29]':
+              - generic [ref=e31]: "Reading: The Police Officer"
+            - paragraph [ref=e34]:
+              - generic [ref=e36]: Read the last text
+              - text: .
+          - generic [ref=e38]:
+            - paragraph [ref=e41]:
+              - generic [ref=e43]: Tom
+              - generic [ref=e45]: is
+              - generic [ref=e47]: a police officer
+              - text: .
+              - generic [ref=e49]: He is
+              - generic [ref=e51]: strong and brave
+              - text: .
+              - generic [ref=e53]: He works
+              - generic [ref=e55]: at the
+              - generic [ref=e57]: central police station
+              - text: .
+              - generic [ref=e59]: His uniform
+              - generic [ref=e61]: is
+              - generic [ref=e63]: dark blue
+              - text: .
+              - generic [ref=e65]: He has
+              - generic [ref=e67]: a police car
+              - text: .
+              - generic [ref=e69]: He helps
+              - generic [ref=e71]: people
+              - generic [ref=e73]: in the city
+              - text: .
+              - generic [ref=e75]: Tom
+              - generic [ref=e77]: loves
+              - generic [ref=e79]: his job
+              - generic [ref=e81]: because
+              - generic [ref=e83]: it is
+              - generic [ref=e85]: important
+              - text: .
+            - button "Comprender texto y responder" [ref=e87] [cursor=pointer]:
+              - text: Comprender texto y responder
+              - img [ref=e88]
+        - generic [ref=e90]:
+          - generic [ref=e91]: "⏱️ Tiempo estimado: 5 min"
+          - generic [ref=e92]: 📅 2/19/2026
+  - generic [ref=e97] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e98]:
+      - img [ref=e99]
+    - generic [ref=e102]:
+      - button "Open issues overlay" [ref=e103]:
+        - generic [ref=e104]:
+          - generic [ref=e105]: "1"
+          - generic [ref=e106]: "2"
+        - generic [ref=e107]:
+          - text: Issue
+          - generic [ref=e108]: s
+      - button "Collapse issues badge" [ref=e109]:
+        - img [ref=e110]
+  - alert [ref=e112]
+  - iframe [ref=e113]:
+    
+```

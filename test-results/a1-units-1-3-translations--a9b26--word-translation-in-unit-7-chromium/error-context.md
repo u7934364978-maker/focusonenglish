@@ -1,0 +1,55 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic: © 2026 Focus English
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - 'heading "Review: Unidad 7Lección 4 de 4 • Ejercicio 6 de 12" [level=1] [ref=e9]':
+          - text: "Review: Unidad 7"
+          - generic [ref=e10]: Lección 4 de 4 • Ejercicio 6 de 12
+      - generic [ref=e11]:
+        - button [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+        - button [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+    - main [ref=e18]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e25]:
+              - generic [ref=e26]: A1
+              - generic [ref=e27]: multiple-choice
+              - generic [ref=e28]: Vocabulary
+            - heading "Descriptions" [level=2] [ref=e29]:
+              - generic [ref=e31]: Descriptions
+            - paragraph [ref=e34]:
+              - generic [ref=e36]: What color is the hair of a blonde
+              - text: "?"
+          - generic [ref=e39]:
+            - paragraph [ref=e40]: Este ejercicio no tiene preguntas configuradas.
+            - button "Continuar" [ref=e41] [cursor=pointer]
+        - generic [ref=e42]:
+          - generic [ref=e43]: "⏱️ Tiempo estimado: 5 min"
+          - generic [ref=e44]: 📅 2/19/2026
+  - generic [ref=e49] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e50]:
+      - img [ref=e51]
+    - generic [ref=e54]:
+      - button "Open issues overlay" [ref=e55]:
+        - generic [ref=e56]:
+          - generic [ref=e57]: "1"
+          - generic [ref=e58]: "2"
+        - generic [ref=e59]:
+          - text: Issue
+          - generic [ref=e60]: s
+      - button "Collapse issues badge" [ref=e61]:
+        - img [ref=e62]
+  - alert [ref=e64]
+  - iframe [ref=e65]:
+    
+```

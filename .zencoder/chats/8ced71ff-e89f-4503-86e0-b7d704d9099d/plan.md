@@ -93,5 +93,135 @@ Implement word-by-word translations for reading exercises in units 19 to 21.
 
 ---
 
+### [x] Step: Phase 8 (Units 22-24)
+Implement word-by-word translations for reading exercises in units 22 to 24.
+
+- [x] Audit and update Unit 22.
+- [x] Audit and update Unit 23.
+- [x] Audit and update Unit 24.
+- [x] Manual verification.
+
+---
+
+### [ ] Step: Phase 9 (Units 25-27)
+Implement word-by-word translations for reading exercises in units 25 to 27.
+
+- [ ] Audit and update Unit 25.
+- [ ] Audit and update Unit 26.
+- [ ] Audit and update Unit 27.
+- [ ] Manual verification.
+
+---
+
+### [ ] Step: Phase 10 (Units 28-30)
+Implement word-by-word translations for reading exercises in units 28 to 30.
+
+- [ ] Audit and update Unit 28.
+- [ ] Audit and update Unit 29.
+- [ ] Audit and update Unit 30.
+- [ ] Manual verification.
+
+---
+
+### [ ] Step: Phase 11 (Units 31-33)
+Implement word-by-word translations for reading exercises in units 31 to 33.
+
+- [ ] Audit and update Unit 31.
+- [ ] Audit and update Unit 32.
+- [ ] Audit and update Unit 33.
+- [ ] Manual verification.
+
+---
+
+### [ ] Step: Phase 12 (Units 34-36)
+Implement word-by-word translations for reading exercises in units 34 to 36.
+
+- [ ] Audit and update Unit 34.
+- [ ] Audit and update Unit 35.
+- [ ] Audit and update Unit 36.
+- [ ] Manual verification.
+
+---
+
+### [ ] Step: Phase 13 (Units 37-39)
+Implement word-by-word translations for reading exercises in units 37 to 39.
+
+- [ ] Audit and update Unit 37.
+- [ ] Audit and update Unit 38.
+- [ ] Audit and update Unit 39.
+- [ ] Manual verification.
+
+---
+
+### [ ] Step: Phase 14 (Units 40-42)
+Implement word-by-word translations for reading exercises in units 40 to 42.
+
+- [ ] Audit and update Unit 40.
+- [ ] Audit and update Unit 41.
+- [ ] Audit and update Unit 42.
+- [ ] Manual verification.
+
+---
+
+### [ ] Step: Phase 15 (Units 43-45)
+Implement word-by-word translations for reading exercises in units 43 to 45.
+
+- [ ] Audit and update Unit 43.
+- [ ] Audit and update Unit 44.
+- [ ] Audit and update Unit 45.
+- [ ] Manual verification.
+
+---
+
+### [ ] Step: Phase 16 (Units 46-48)
+Implement word-by-word translations for reading exercises in units 46 to 48.
+
+- [ ] Audit and update Unit 46.
+- [ ] Audit and update Unit 47.
+- [ ] Audit and update Unit 48.
+- [ ] Manual verification.
+
+---
+
+### [ ] Step: Phase 17 (Units 49-51)
+Implement word-by-word translations for reading exercises in units 49 to 51.
+
+- [ ] Audit and update Unit 49.
+- [ ] Audit and update Unit 50.
+- [ ] Audit and update Unit 51.
+- [ ] Manual verification.
+
+---
+
+### [ ] Step: Phase 18 (Units 52-54)
+Implement word-by-word translations for reading exercises in units 52 to 54.
+
+- [ ] Audit and update Unit 52.
+- [ ] Audit and update Unit 53.
+- [ ] Audit and update Unit 54.
+- [ ] Manual verification.
+
+---
+
+### [ ] Step: Phase 19 (Units 55-57)
+Implement word-by-word translations for reading exercises in units 55 to 57.
+
+- [ ] Audit and update Unit 55.
+- [ ] Audit and update Unit 56.
+- [ ] Audit and update Unit 57.
+- [ ] Manual verification.
+
+---
+
+### [ ] Step: Phase 20 (Units 58-60)
+Implement word-by-word translations for reading exercises in units 58 to 60.
+
+- [ ] Audit and update Unit 58.
+- [ ] Audit and update Unit 59.
+- [ ] Audit and update Unit 60.
+- [ ] Manual verification.
+
+---
+
 ### [ ] Step: Report
 After completion, write a report to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/8ced71ff-e89f-4503-86e0-b7d704d9099d/report.md`.
