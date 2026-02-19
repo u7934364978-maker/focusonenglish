@@ -13,7 +13,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el artículo correcto.",
       "questions": [
         {
-          "question": "[[I have|Yo tengo]] (_____) [[apple|manzana]].",
+          "question": "[[I|Yo]] [[have|tengo]] (_____) [[apple|manzana]].",
           "options": ["[[an|una]]", "[[a|una]]", "[[some|algunas]]"],
           "correctAnswer": 0,
           "explanation": "Apple empieza por vocal, usamos 'an'."
@@ -35,7 +35,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta para líquidos.",
       "questions": [
         {
-          "question": "[[There is the fridge|Hay es]] (_____) [[milk in|leche en el nevera]].",
+          "question": "[[There|Hay]] [[is|es]] (_____) [[milk|leche]] [[in|en]] [[the|el]] [[fridge|nevera]].",
           "options": ["[[some|algo de]]", "[[a|una]]", "[[an|una]]"],
           "correctAnswer": 0,
           "explanation": "La leche es incontable, usamos 'some' en afirmativo."
@@ -55,7 +55,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "¿Tienes pan?",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Do you have any bread|Aux tú tener algo de pan]]?",
+      "correctSentence": "[[Do|Aux]] [[you|tú]] [[have|tener]] [[any|algo de]] [[bread|pan]]?",
       "words": ["[[bread|pan]]?", "[[any|algo de]]", "[[have|tener]]", "[[you|tú]]", "[[Do|Aux]]"],
       "explanation": "Usamos 'any' en preguntas con sustantivos incontables."
     },
@@ -74,7 +74,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige los determinantes correctos.",
       "questions": [
         {
-          "question": "[[I want|Yo querer]] (_____) [[sandwich and|sándwich y]] (_____) [[juice|zumo]].",
+          "question": "[[I|Yo]] [[want|querer]] (_____) [[sandwich|sándwich]] [[and|y]] (_____) [[juice|zumo]].",
           "options": ["[[a / some|un / algo de]]", "[[some / an|algo de / un]]", "[[a / a|un / un]]"],
           "correctAnswer": 0,
           "explanation": "Sandwich es contable (a), juice es incontable (some)."
@@ -94,7 +94,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sin Tomates",
       "instructions": "Ordena la negación.",
-      "correctSentence": "[[We don't have any tomatoes|Nosotros no tener ningún tomates]].",
+      "correctSentence": "[[We|Nosotros]] [[don't|no]] [[have|tener]] [[any|ningún]] [[tomatoes|tomates]].",
       "words": ["[[tomatoes|tomates]].", "[[any|ningún]]", "[[have|tener]]", "[[don't|no]]", "[[We|Nosotros]]"],
       "explanation": "Usamos 'any' en oraciones negativas con sustantivos plurales."
     },
@@ -113,7 +113,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la partícula interrogativa.",
       "questions": [
         {
-          "question": "(_____) [[water do you drink|agua aux tú beber]]?",
+          "question": "(_____) [[water|agua]] [[do|aux]] [[you|tú]] [[drink|beber]]?",
           "options": ["[[How much|Cuánta]]", "[[How many|Cuántos]]", "[[How some|Cuánto (incorrecto)]]"],
           "correctAnswer": 0,
           "explanation": "Water es incontable, usamos 'How much'."
@@ -133,7 +133,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cuántos Huevos",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[How many eggs do we need|Cómo muchos huevos aux nosotros necesitar]]?",
+      "correctSentence": "[[How|Cómo]] [[many|muchos]] [[eggs|huevos]] [[do|aux]] [[we|nosotros]] [[need|necesitar]]?",
       "words": ["[[need|necesitar]]?", "[[we|nosotros]]", "[[do|aux]]", "[[eggs|huevos]]", "[[many|muchos]]", "[[How|Cómo]]"],
       "explanation": "Eggs es contable plural, usamos 'How many'."
     },
@@ -152,7 +152,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Completa con la expresión de cantidad.",
       "questions": [
         {
-          "question": "[[I eat|Yo comer]] (_____) [[fruit|fruta]].",
+          "question": "[[I|Yo]] [[eat|comer]] (_____) [[fruit|fruta]].",
           "options": ["[[a lot of|mucha]]", "[[much|mucha]]", "[[many|muchas]]"],
           "correctAnswer": 0,
           "explanation": "'A lot of' se usa habitualmente en afirmativo tanto para contables como incontables."
@@ -172,7 +172,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Desayuno",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[What do you have for breakfast|Qué aux tú tomar para desayuno]]?",
+      "correctSentence": "[[What|Qué]] [[do|aux]] [[you|tú]] [[have|tomar]] [[for|para]] [[breakfast|desayuno]]?",
       "words": ["[[breakfast|desayuno]]?", "[[for|para]]", "[[have|tomar]]", "[[you|tú]]", "[[do|aux]]", "[[What|Qué]]"],
       "explanation": "Pregunta sobre la primera comida del día."
     },
@@ -191,7 +191,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[I like|Yo gustar]] (_____) [[with|con]] (_____) .",
+          "question": "[[I|Yo]] [[like|gustar]] (_____) [[with|con]] (_____) .",
           "options": ["[[chicken / rice|pollo / arroz]]", "[[beef / pasta|ternera / pasta]]", "[[fish / salad|pescado / ensalada]]"],
           "correctAnswer": 0,
           "explanation": "Traducción de pollo y arroz."
@@ -211,7 +211,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pedir un Café",
       "instructions": "Ordena la petición educada.",
-      "correctSentence": "[[Can I, please have a cup of coffee|Poder yo tomar una taza de café, por favor]]?",
+      "correctSentence": "[[Can|Poder]] [[I|yo]] [[have|tomar]] [[a|una]] [[cup|taza]] [[of|de]] [[coffee,|café,]] [[please|por favor]]?",
       "words": ["[[please|por favor]]?", "[[coffee|café]],", "[[of|de]]", "[[cup|taza]]", "[[have|tomar]]", "[[I|yo]]", "[[Can|Poder]]"],
       "explanation": "Estructura común para pedir en una cafetería."
     },
@@ -230,7 +230,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Identifica el alimento.",
       "questions": [
         {
-          "question": "[[Which is a fish|Cuál es un pescado]]?",
+          "question": "[[Which|Cuál]] [[is|es]] [[a|un]] [[fish|pescado]]?",
           "options": ["[[Salmon|Salmón]]", "[[Beef|Ternera]]", "[[Pork|Cerdo]]"],
           "correctAnswer": 0,
           "explanation": "El salmón es un tipo de pescado."
@@ -250,7 +250,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "¿Hay azúcar?",
       "instructions": "Ordena la pregunta sobre un ingrediente.",
-      "correctSentence": "[[Is there any sugar in this tea|Hay allí algo de azúcar en este té]]?",
+      "correctSentence": "[[Is|Hay]] [[there|allí]] [[any|algo de]] [[sugar|azúcar]] [[in|en]] [[this|este]] [[tea|té]]?",
       "words": ["[[tea|té]]?", "[[this|este]]", "[[in|en]]", "[[sugar|azúcar]]", "[[any|algo de]]", "[[there|allí]]", "[[Is|Hay]]"],
       "explanation": "Sugar es incontable, usamos 'any' en preguntas."
     },
@@ -269,7 +269,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Dulces y frutas finales.",
       "questions": [
         {
-          "question": "[[I want. I order something sweet|Yo querer algo dulce. Yo pido]] (_____) .",
+          "question": "[[I|Yo]] [[want.|querer.]] [[I|Yo]] [[order|pido]] [[something|algo]] [[sweet|dulce]] (_____) .",
           "options": ["[[ice cream|helado]]", "[[garlic|ajo]]", "[[onions|cebollas]]"],
           "correctAnswer": 0,
           "explanation": "El helado es un dulce adecuado como postre."
@@ -289,7 +289,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Un Vaso de Agua",
       "instructions": "Ordena la petición formal.",
-      "correctSentence": "[[I would, please like a glass of water|Yo aux gustar un vaso de agua, por favor]].",
+      "correctSentence": "[[I|Yo]] [[would|aux]] [[like|gustar]] [[a|un]] [[glass|vaso]] [[of|de]] [[water,|agua,]] [[please|por favor]].",
       "words": ["[[please|por favor]].", "[[water|agua]],", "[[of|de]]", "[[glass|vaso]]", "[[like|gustar]]", "[[would|aux]]", "[[I|Yo]]"],
       "explanation": "'Would like' es la forma educada de decir 'quiero'."
     },
@@ -308,7 +308,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "¿Cuál de estos es un producto lácteo?",
       "questions": [
         {
-          "question": "[[Which is a dairy product|Cuál es un lácteo producto]]?",
+          "question": "[[Which|Cuál]] [[is|es]] [[a|un]] [[dairy|lácteo]] [[product|producto]]?",
           "options": ["[[Cheese|Queso]]", "[[Bread|Pan]]", "[[Carrot|Zanahoria]]"],
           "correctAnswer": 0,
           "explanation": "El queso se hace con leche."
@@ -328,7 +328,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ordenando",
       "instructions": "Ordena la pregunta del camarero.",
-      "correctSentence": "[[What would you like to eat|Qué aux tú gustar a comer]]?",
+      "correctSentence": "[[What|Qué]] [[would|aux]] [[you|tú]] [[like|gustar]] [[to|a]] [[eat|comer]]?",
       "words": ["[[eat|comer]]?", "[[to|a]]", "[[like|gustar]]", "[[you|tú]]", "[[would|aux]]", "[[What|Qué]]"],
       "explanation": "Pregunta estándar en un restaurante."
     },
@@ -347,7 +347,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la traducción de patatas fritas (bolsa).",
       "questions": [
         {
-          "question": "[[I buy a bag of|Yo compro una bolsa de]] (_____) .",
+          "question": "[[I|Yo]] [[buy|compro]] [[a|una]] [[bag|bolsa]] [[of|de]] (_____) .",
           "options": ["[[crisps|patatas fritas]]", "[[potatoes|patatas]]", "[[chips|patatas fritas (plato)]]"],
           "correctAnswer": 0,
           "explanation": "En inglés británico, 'crisps' son las de bolsa."
@@ -367,7 +367,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sin Cebolla",
       "instructions": "Ordena la frase de gusto personal.",
-      "correctSentence": "[[I don't like eating onions|Yo no gustar comer cebollas]].",
+      "correctSentence": "[[I|Yo]] [[don't|no]] [[like|gustar]] [[eating|comer]] [[onions|cebollas]].",
       "words": ["[[onions|cebollas]].", "[[eating|comer]]", "[[like|gustar]]", "[[don't|no]]", "[[I|Yo]]"],
       "explanation": "Estructura negativa + gerundio."
     },
@@ -386,7 +386,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "¿Qué se unta en la tostada?",
       "questions": [
         {
-          "question": "[[I put toast|Yo pongo]] (_____) [[on my|en mi tostada]].",
+          "question": "[[I|Yo]] [[put|pongo]] (_____) [[on|en]] [[my|mi]] [[toast|tostada]].",
           "options": ["[[jam|mermelada]]", "[[soup|sopa]]", "[[rice|arroz]]"],
           "correctAnswer": 0,
           "explanation": "Jam (mermelada) es común en el desayuno."
@@ -406,7 +406,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mucha Sal",
       "instructions": "Ordena la negación de cantidad.",
-      "correctSentence": "[[There isn't much salt in the soup|Hay no es mucha sal en la sopa]].",
+      "correctSentence": "[[There|Hay]] [[isn't|no es]] [[much|mucha]] [[salt|sal]] [[in|en]] [[the|la]] [[soup|sopa]].",
       "words": ["[[soup|sopa]].", "[[the|la]]", "[[in|en]]", "[[salt|sal]]", "[[much|mucha]]", "[[isn't|no es]]", "[[There|Hay]]"],
       "explanation": "Salt es incontable, usamos 'much' en negativo."
     },
@@ -425,7 +425,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "¿Cuál se asocia con un pan alargado y una salchicha?",
       "questions": [
         {
-          "question": "[[I want to eat a|Yo querer a comer un]] (_____) .",
+          "question": "[[I|Yo]] [[want|querer]] [[to|a]] [[eat|comer]] [[a|un]] (_____) .",
           "options": ["[[hot dog|perrito caliente]]", "[[pizza|pizza]]", "[[fries|patatas fritas]]"],
           "correctAnswer": 0,
           "explanation": "El hot dog es el perrito caliente."
@@ -445,7 +445,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Dinero",
       "instructions": "Ordena la pregunta de cantidad monetaria.",
-      "correctSentence": "[[How much money do you need|Cómo mucho dinero aux tú necesitar]]?",
+      "correctSentence": "[[How|Cómo]] [[much|mucho]] [[money|dinero]] [[do|aux]] [[you|tú]] [[need|necesitar]]?",
       "words": ["[[need|necesitar]]?", "[[you|tú]]", "[[do|aux]]", "[[money|dinero]]", "[[much|mucho]]", "[[How|Cómo]]"],
       "explanation": "Money es incontable, usamos 'How much'."
     },
@@ -464,7 +464,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Para la ensalada uso...",
       "questions": [
         {
-          "question": "[[I put oil and|Yo pongo aceite y]] (_____) [[on my salad|en mi ensalada]].",
+          "question": "[[I|Yo]] [[put|pongo]] [[oil|aceite]] [[and|y]] (_____) [[on|en]] [[my|mi]] [[salad|ensalada]].",
           "options": ["[[vinegar|vinagre]]", "[[sugar|azúcar]]", "[[milk|leche]]"],
           "correctAnswer": 0,
           "explanation": "El vinagre es el condimento típico junto al aceite."
@@ -484,7 +484,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Más Pan",
       "instructions": "Ordena la oferta de más comida.",
-      "correctSentence": "[[Would you like some more bread|Aux tú gustar algo más pan]]?",
+      "correctSentence": "[[Would|Aux]] [[you|tú]] [[like|gustar]] [[some|algo]] [[more|más]] [[bread|pan]]?",
       "words": ["[[bread|pan]]?", "[[more|más]]", "[[some|algo]]", "[[like|gustar]]", "[[you|tú]]", "[[Would|Aux]]"],
       "explanation": "Uso de 'some' en ofertas educadas."
     },
@@ -503,7 +503,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige el recipiente correcto.",
       "questions": [
         {
-          "question": "[[I drink a|Yo bebo una]] (_____) [[of water|de agua]].",
+          "question": "[[I|Yo]] [[drink|bebo]] [[a|una]] (_____) [[of|de]] [[water|agua]].",
           "options": ["[[bottle|botella]]", "[[box|caja]]", "[[plate|plato]]"],
           "correctAnswer": 0,
           "explanation": "El agua se suele servir en botellas o vasos (glasses)."
@@ -523,7 +523,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sin Naranjas",
       "instructions": "Ordena la negación plural.",
-      "correctSentence": "[[There aren't any oranges in the kitchen|Hay no son ningún naranjas en la cocina]].",
+      "correctSentence": "[[There|Hay]] [[aren't|no son]] [[any|ningún]] [[oranges|naranjas]] [[in|en]] [[the|la]] [[kitchen|cocina]].",
       "words": ["[[kitchen|cocina]].", "[[the|la]]", "[[in|en]]", "[[oranges|naranjas]]", "[[any|ningún]]", "[[aren't|no son]]", "[[There|Hay]]"],
       "explanation": "Negación plural con 'any'."
     },
@@ -542,7 +542,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la traducción de langosta.",
       "questions": [
         {
-          "question": "[[I love|Yo amo]] (_____) .",
+          "question": "[[I|Yo]] [[love|amo]] (_____) .",
           "options": ["[[lobster|langosta]]", "[[crab|cangrejo]]", "[[prawns|gambas]]"],
           "correctAnswer": 0,
           "explanation": "Lobster es langosta."
@@ -562,7 +562,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Unas Pocas Patatas",
       "instructions": "Ordena la frase de cantidad pequeña.",
-      "correctSentence": "[[I need a few potatoes for the salad|Yo necesitar unas pocas patatas para la ensalada]].",
+      "correctSentence": "[[I|Yo]] [[need|necesitar]] [[a|unas]] [[few|pocas]] [[potatoes|patatas]] [[for|para]] [[the|la]] [[salad|ensalada]].",
       "words": ["[[salad|ensalada]].", "[[the|la]]", "[[for|para]]", "[[potatoes|patatas]]", "[[few|pocas]]", "[[a|unas]]", "[[need|necesitar]]", "[[I|Yo]]"],
       "explanation": "'A few' se usa para contables plurales."
     },
@@ -581,7 +581,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Traducción de piña.",
       "questions": [
         {
-          "question": "[[This is a|Esto es una]] (_____) .",
+          "question": "[[This|Esto]] [[is|es]] [[a|una]] (_____) .",
           "options": ["[[pineapple|piña]]", "[[peach|melocotón]]", "[[melon|melón]]"],
           "correctAnswer": 0,
           "explanation": "Pineapple es piña."
@@ -601,7 +601,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Un Poco de Leche",
       "instructions": "Ordena la frase de cantidad pequeña incontable.",
-      "correctSentence": "[[There is a little milk left|Hay es un poco leche queda]].",
+      "correctSentence": "[[There|Hay]] [[is|es]] [[a|un]] [[little|poco]] [[milk|leche]] [[left|queda]].",
       "words": ["[[left|queda]].", "[[milk|leche]]", "[[little|poco]]", "[[a|un]]", "[[is|es]]", "[[There|Hay]]"],
       "explanation": "'A little' se usa para incontables."
     },
@@ -620,7 +620,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la traducción de pastel (de fruta o carne).",
       "questions": [
         {
-          "question": "[[I want an apple|Yo querer un manzana]] (_____) .",
+          "question": "[[I|Yo]] [[want|querer]] [[an|un]] [[apple|manzana]] (_____) .",
           "options": ["[[pie|pastel]]", "[[muffin|magdalena]]", "[[baguette|barra de pan]]"],
           "correctAnswer": 0,
           "explanation": "Pie se refiere a pasteles tipo tarta rellena."
@@ -640,7 +640,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Galletas",
       "instructions": "Ordena la oferta de galletas.",
-      "correctSentence": "[[How many biscuits would you like|Cómo muchos galletas aux tú gustar]]?",
+      "correctSentence": "[[How|Cómo]] [[many|muchos]] [[biscuits|galletas]] [[would|aux]] [[you|tú]] [[like|gustar]]?",
       "words": ["[[like|gustar]]?", "[[you|tú]]", "[[would|aux]]", "[[biscuits|galletas]]", "[[many|muchos]]", "[[How|Cómo]]"],
       "explanation": "Biscuits es contable, usamos 'many'."
     },
@@ -659,7 +659,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Traducción de pepino.",
       "questions": [
         {
-          "question": "[[I put in my salad|Yo pongo en mi ensalada]] (_____) .",
+          "question": "[[I|Yo]] [[put|pongo]] [[in|en]] [[my|mi]] [[salad|ensalada]] (_____) .",
           "options": ["[[cucumber|pepino]]", "[[spinach|espinaca]]", "[[broccoli|brócoli]]"],
           "correctAnswer": 0,
           "explanation": "Cucumber es pepino."
@@ -679,7 +679,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Muchas Cosas",
       "instructions": "Ordena la oración de gran cantidad.",
-      "correctSentence": "[[We have a lot of things to buy|Nosotros tener un mucho de cosas a comprar]].",
+      "correctSentence": "[[We|Nosotros]] [[have|tener]] [[a|un]] [[lot|mucho]] [[of|de]] [[things|cosas]] [[to|a]] [[buy|comprar]].",
       "words": ["[[buy|comprar]].", "[[to|a]]", "[[things|cosas]]", "[[of|de]]", "[[lot|mucho]]", "[[a|un]]", "[[have|tener]]", "[[We|Nosotros]]"],
       "explanation": "'A lot of' funciona con cualquier sustantivo."
     },
@@ -698,7 +698,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Elige la traducción de ajo.",
       "questions": [
         {
-          "question": "[[This food has too much|Esta comida tiene mucho]] (_____) .",
+          "question": "[[This|Esta]] [[food|comida]] [[has|tiene]] [[too|demasiado]] [[much|mucho]] (_____) .",
           "options": ["[[garlic|ajo]]", "[[ginger|jengibre]]", "[[cinnamon|canela]]"],
           "correctAnswer": 0,
           "explanation": "Garlic es ajo."
@@ -718,7 +718,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Más Agua",
       "instructions": "Ordena la petición de más líquido.",
-      "correctSentence": "[[I would, please like some more water|Yo aux gustar algo más agua, por favor]].",
+      "correctSentence": "[[I|Yo]] [[would|aux]] [[like|gustar]] [[some|algo]] [[more|más]] [[water,|agua,]] [[please|por favor]].",
       "words": ["[[please|por favor]].", "[[water|agua]],", "[[more|más]]", "[[some|algo]]", "[[like|gustar]]", "[[would|aux]]", "[[I|Yo]]"],
       "explanation": "Petición educada con 'some'."
     },
@@ -737,7 +737,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Traducción de zumo de naranja.",
       "questions": [
         {
-          "question": "[[I drink|Yo bebo]] (_____) [[for breakfast|para desayuno]].",
+          "question": "[[I|Yo]] [[drink|bebo]] (_____) [[for|para]] [[breakfast|desayuno]].",
           "options": ["[[orange juice|zumo de naranja]]", "[[tomato juice|zumo de tomate]]", "[[apple juice|zumo de manzana]]"],
           "correctAnswer": 0,
           "explanation": "Orange juice es el clásico zumo de naranja."
@@ -757,7 +757,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Azúcar en el Pastel",
       "instructions": "Ordena la pregunta sobre un ingrediente dulce.",
-      "correctSentence": "[[Is there a lot of sugar in this cake|Hay allí un mucho de azúcar en este pastel]]?",
+      "correctSentence": "[[Is|Hay]] [[there|allí]] [[a|un]] [[lot|mucho]] [[of|de]] [[sugar|azúcar]] [[in|en]] [[this|este]] [[cake|pastel]]?",
       "words": ["[[cake|pastel]]?", "[[this|este]]", "[[in|en]]", "[[sugar|azúcar]]", "[[of|de]]", "[[lot|mucho]]", "[[a|un]]", "[[there|allí]]", "[[Is|Hay]]"],
       "explanation": "Pregunta de cantidad general."
     },
@@ -776,7 +776,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "La comida principal al final del día es...",
       "questions": [
         {
-          "question": "[[We eat|Nosotros comemos]] (_____) [[at eight p.m|a las ocho p.m]].",
+          "question": "[[We|Nosotros]] [[eat|comemos]] (_____) [[at|a]] [[eight|las ocho]] [[p.m|p.m]].",
           "options": ["[[dinner|cena]]", "[[lunch|almuerzo]]", "[[breakfast|desayuno]]"],
           "correctAnswer": 0,
           "explanation": "Dinner es la cena."
@@ -796,7 +796,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pedir Pizza",
       "instructions": "Ordena la petición al servicio a domicilio.",
-      "correctSentence": "[[I would, please like to order a pizza|Yo aux gustar a pedir una pizza, por favor]].",
+      "correctSentence": "[[I|Yo]] [[would|aux]] [[like|gustar]] [[to|a]] [[order|pedir]] [[a|una]] [[pizza,|pizza,]] [[please|por favor]].",
       "words": ["[[please|por favor]].", "[[pizza|pizza]],", "[[a|una]]", "[[order|pedir]]", "[[to|a]]", "[[like|gustar]]", "[[would|aux]]", "[[I|Yo]]"],
       "explanation": "Forma educada de pedir comida."
     },
@@ -815,7 +815,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Para la sopa uso...",
       "questions": [
         {
-          "question": "[[I use a|Yo uso una]] (_____) [[for the soup|para la sopa]].",
+          "question": "[[I|Yo]] [[use|uso]] [[a|una]] (_____) [[for|para]] [[the|la]] [[soup|sopa]].",
           "options": ["[[spoon|cuchara]]", "[[knife|cuchillo]]", "[[fork|tenedor]]"],
           "correctAnswer": 0,
           "explanation": "Spoon es cuchara."
@@ -835,7 +835,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pescado con Limón",
       "instructions": "Ordena la pregunta sobre preferencias.",
-      "correctSentence": "[[Do you like eating fish with lemon|Te gusta comer pescado con limón]]?",
+      "correctSentence": "[[Do|Aux]] [[you|te]] [[like|gusta]] [[eating|comer]] [[fish|pescado]] [[with|con]] [[lemon|limón]]?",
       "words": ["[[lemon|limón]]?", "[[with|con]]", "[[fish|pescado]]", "[[eating|comer]]", "[[like|gusta]]", "[[you|te]]", "[[Do|Aux]]"],
       "explanation": "Pregunta de gusto general."
     },
@@ -854,7 +854,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
       "instructions": "Completa el acompañamiento.",
       "questions": [
         {
-          "question": "[[Do you want your steak with|Aux tú querer tu filete con]] (_____) ?",
+          "question": "[[Do|Aux]] [[you|tú]] [[want|querer]] [[your|tu]] [[steak|filete]] [[with|con]] (_____) ?",
           "options": ["[[fries|patatas fritas]]", "[[fruit|fruta]]", "[[milk|leche]]"],
           "correctAnswer": 0,
           "explanation": "Fries (patatas fritas) es el acompañamiento típico del steak."
@@ -874,7 +874,7 @@ export const UNIT_16_EXERCISES: Exercise[] = [
     "content": {
       "title": "Sin Azúcar",
       "instructions": "Ordena la oración negativa alternativa.",
-      "correctSentence": "[[There is no sugar in this coffee|Hay es ningún azúcar en este café]].",
+      "correctSentence": "[[There|Hay]] [[is|es]] [[no|ningún]] [[sugar|azúcar]] [[in|en]] [[this|este]] [[coffee|café]].",
       "words": ["[[coffee|café]].", "[[this|este]]", "[[in|en]]", "[[sugar|azúcar]]", "[[no|ningún]]", "[[is|es]]", "[[There|Hay]]"],
       "explanation": "Uso de 'no' para indicar ausencia total sin auxiliar negativo."
     },

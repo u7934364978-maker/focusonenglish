@@ -13,7 +13,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[I for breakfast|Yo]] ([[comer|comer]]) _______ [[cereal|cereal para/por breakfast]].",
+          "question": "[[I|Yo]] (_____) [[cereal|cereal]] [[for|para]] [[breakfast|desayuno]].",
           "options": [
             "[[eat|comer]]",
             "[[are|son/están]]",
@@ -39,7 +39,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[She - gustar|Ella]] ([[no|no - gustar]]) _______ [[fish|pescado]].",
+          "question": "[[She|Ella]] (_____) [[fish|pescado]].",
           "options": [
             "[[doesn't like|doesn't like]]",
             "[[is|es/está]]",
@@ -65,7 +65,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[We for dinner|Nosotros]] ([[tener|tener]]) _______ [[chicken|pollo para/por dinner]].",
+          "question": "[[We|Nosotros]] (_____) [[chicken|pollo]] [[for|para]] [[dinner|la cena]].",
           "options": [
             "[[have|tener/haber]]",
             "[[are|son/están]]",
@@ -91,7 +91,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración con la opción correcta.",
       "questions": [
         {
-          "question": "[[They with lunch|Ellos]] ([[be|ser/estar]]) _______ [[water|agua con lunch]].",
+          "question": "[[They|Ellos]] (_____) [[water|agua]] [[with|con]] [[lunch|el almuerzo]].",
           "options": [
             "[[drink|beber]]",
             "[[is|es/está]]",
@@ -115,14 +115,14 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Breakfast is the most important meal|Breakfast es/está el/la/los/las most important meal]].",
+      "correctSentence": "[[Breakfast|Desayuno]] [[is|es]] [[the|el]] [[most|más]] [[important|importante]] [[meal|comida]].",
       "words": [
-        "[[Breakfast|Breakfast]]",
-        "[[is|es/está]]",
-        "[[meal|meal]].",
-        "[[the|el/la/los/las]]",
-        "[[most|most]]",
-        "[[important|important]]"
+        "[[Breakfast|Desayuno]]",
+        "[[is|es]]",
+        "[[meal|comida]].",
+        "[[the|el]]",
+        "[[most|más]]",
+        "[[important|importante]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -139,15 +139,15 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I usually have a sandwich for lunch|Yo usually tener/haber un/una sandwich para/por lunch]].",
+      "correctSentence": "[[I|Yo]] [[usually|normalmente]] [[have|tomo]] [[a|un]] [[sandwich|sándwich]] [[for|para]] [[lunch|el almuerzo]].",
       "words": [
         "[[I|Yo]]",
-        "[[lunch|lunch]].",
-        "[[sandwich|sandwich]]",
-        "[[for|para/por]]",
-        "[[usually|usually]]",
-        "[[have|tener/haber]]",
-        "[[a|un/una]]"
+        "[[lunch|almuerzo]].",
+        "[[sandwich|sándwich]]",
+        "[[for|para]]",
+        "[[usually|normalmente]]",
+        "[[have|tomo]]",
+        "[[a|un]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -164,14 +164,14 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They eat dinner at 8 o'clock|Ellos comer dinner en 8 o'clock]].",
+      "correctSentence": "[[They|Ellos]] [[eat|comen]] [[dinner|la cena]] [[at|a]] [[8|las ocho]] [[o'clock|en punto]].",
       "words": [
         "[[They|Ellos]]",
-        "[[at|en]]",
-        "[[o'clock|o'clock]].",
-        "[[8|8]]",
-        "[[eat|comer]]",
-        "[[dinner|dinner]]"
+        "[[at|a]]",
+        "[[o'clock|en punto]].",
+        "[[8|las ocho]]",
+        "[[eat|comen]]",
+        "[[dinner|la cena]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -211,14 +211,14 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Construcción de Oraciones",
       "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We eat a lot of fruit|Nosotros comer un/una lot de fruta]].",
+      "correctSentence": "[[We|Nosotros]] [[eat|comen]] [[a|un]] [[lot|mucho]] [[of|de]] [[fruit|fruta]].",
       "words": [
         "[[We|Nosotros]]",
         "[[fruit|fruta]].",
         "[[of|de]]",
-        "[[eat|comer]]",
-        "[[lot|lot]]",
-        "[[a|un/una]]"
+        "[[eat|comen]]",
+        "[[lot|mucho]]",
+        "[[a|un]]"
       ],
       "explanation": "Practica el orden de las palabras en inglés."
     },
@@ -237,7 +237,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta.",
       "questions": [
         {
-          "question": "[[I eat toast with butter and|Yo como tostadas con mantequilla y]] _______.",
+          "question": "[[I|Yo]] [[eat|como]] [[toast|tostada]] [[with|con]] [[butter|mantequilla]] [[and|y]] (_____) .",
           "options": ["[[jam|mermelada]]", "[[meat|carne]]", "[[soup|sopa]]"],
           "correctAnswer": 0,
           "explanation": "La mermelada (jam) es común con las tostadas."
@@ -259,7 +259,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[She drinks orange the|Ella bebe naranja]] _______ [[in morning|en la mañana]].",
+          "question": "[[She|Ella]] [[drinks|bebe]] [[orange|naranja]] (_____) [[in|en]] [[the|la]] [[morning|mañana]].",
           "options": ["[[juice|zumo]]", "[[milk|leche]]", "[[water|agua]]"],
           "correctAnswer": 0,
           "explanation": "'Orange juice' significa zumo de naranja."
@@ -279,8 +279,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pregunta sobre el desayuno",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Do you like honey with your yogurt|¿ tú te gusta miel con tu yogur]]?",
-      "words": ["[[Do|¿]]", "[[you|tú]]", "[[like|te gusta]]", "[[honey|miel]]", "[[with|con]]", "[[your|tu]]", "[[yogurt|yogur]]?"],
+      "correctSentence": "[[Do|Aux]] [[you|tú]] [[like|gusta]] [[honey|miel]] [[with|con]] [[your|tu]] [[yogurt|yogur]]?",
+      "words": ["[[Do|Aux]]", "[[you|tú]]", "[[like|gusta]]", "[[honey|miel]]", "[[with|con]]", "[[your|tu]]", "[[yogurt|yogur]]?"],
       "explanation": "Estructura de pregunta con 'Do you like...?'."
     },
     "audioUrl": "audio/a1/unit-17/e14.mp3",
@@ -298,7 +298,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[Bees make|Las abejas hacen]] _______.",
+          "question": "[[Bees|Las abejas]] [[make|hacen]] (_____) .",
           "options": ["[[honey|miel]]", "[[sugar|azúcar]]", "[[salt|sal]]"],
           "correctAnswer": 0,
           "explanation": "Las abejas producen miel (honey)."
@@ -320,7 +320,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "[[I have a healthy|Yo tomo una saludable]] _______ [[for lunch|para el almuerzo]].",
+          "question": "[[I|Yo]] [[have|tomo]] [[a|una]] [[healthy|saludable]] (_____) [[for|para]] [[lunch|el almuerzo]].",
           "options": ["[[salad|ensalada]]", "[[cake|pastel]]", "[[candy|caramelo]]"],
           "correctAnswer": 0,
           "explanation": "La ensalada (salad) es una opción saludable (healthy)."
@@ -340,8 +340,8 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Costumbres",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[Italians eat a lot of pasta|Los italianos comen un montón de pasta]].",
-      "words": ["[[Italians|Los italianos]]", "[[eat|comen]]", "[[a|un]]", "[[lot|montón]]", "[[of|de]]", "[[pasta|pasta]]."],
+      "correctSentence": "[[Italians|Los italianos]] [[eat|comen]] [[a|un]] [[lot|mucho]] [[of|de]] [[pasta|pasta]].",
+      "words": ["[[Italians|Los italianos]]", "[[eat|comen]]", "[[a|un]]", "[[lot|mucho]]", "[[of|de]]", "[[pasta|pasta]]."],
       "explanation": "Uso de 'a lot of' para expresar gran cantidad."
     },
     "audioUrl": "audio/a1/unit-17/e18.mp3",
@@ -359,7 +359,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra correcta.",
       "questions": [
         {
-          "question": "[[Is there kitchen|¿Hay allí]] _______ [[in the|en la cocina]]?",
+          "question": "[[Is|Hay]] [[there|allí]] (_____) [[in|en]] [[the|la]] [[kitchen|cocina]]?",
           "options": ["[[rice|arroz]]", "[[bread|pan]]", "[[apple|manzana]]"],
           "correctAnswer": 0,
           "explanation": "Pregunta por la existencia de arroz (rice)."
@@ -379,7 +379,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mi almuerzo favorito",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[My favorite lunch is pizza with extra cheese|Mi favorito almuerzo es pizza con extra queso]].",
+      "correctSentence": "[[My|Mi]] [[favorite|favorito]] [[lunch|almuerzo]] [[is|es]] [[pizza|pizza]] [[with|con]] [[extra|extra]] [[cheese|queso]].",
       "words": ["[[My|Mi]]", "[[favorite|favorito]]", "[[lunch|almuerzo]]", "[[is|es]]", "[[pizza|pizza]]", "[[with|con]]", "[[extra|extra]]", "[[cheese|queso]]."],
       "explanation": "Expresión de preferencias personales."
     },
@@ -418,7 +418,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Preferencias de cena",
       "instructions": "Ordena la oración negativa.",
-      "correctSentence": "[[I don't eat meat for dinner|Yo no como carne para la cena]].",
+      "correctSentence": "[[I|Yo]] [[don't|no]] [[eat|como]] [[meat|carne]] [[for|para]] [[dinner|la cena]].",
       "words": ["[[I|Yo]]", "[[don't|no]]", "[[eat|como]]", "[[meat|carne]]", "[[for|para]]", "[[dinner|la cena]]."],
       "explanation": "Negación en Presente Simple."
     },
@@ -437,7 +437,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración.",
       "questions": [
         {
-          "question": "_______ [[is good for cold nights|es buena para noches frías]].",
+          "question": "(_____) [[is|es]] [[good|buena]] [[for|para]] [[cold|frías]] [[nights|noches]].",
           "options": ["[[Soup|Sopa]]", "[[Ice cream|Helado]]", "[[Water|Agua]]"],
           "correctAnswer": 0,
           "explanation": "La sopa (soup) es ideal para el frío."
@@ -457,7 +457,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Elección de cena",
       "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Do they want chicken or fish|¿ ellos quieren pollo o pescado]]?",
+      "correctSentence": "[[Do|¿]] [[they|ellos]] [[want|quieren]] [[chicken|pollo]] [[or|o]] [[fish|pescado]]?",
       "words": ["[[Do|¿]]", "[[they|ellos]]", "[[want|quieren]]", "[[chicken|pollo]]", "[[or|o]]", "[[fish|pescado]]?"],
       "explanation": "Pregunta de elección con 'or'."
     },
@@ -476,7 +476,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la herramienta correcta.",
       "questions": [
         {
-          "question": "[[I use a|Yo uso un]] _______ [[to cut the meat|para cortar la carne]].",
+          "question": "[[I|Yo]] [[use|uso]] [[a|un]] (_____) [[to|para]] [[cut|cortar]] [[the|la]] [[meat|carne]].",
           "options": ["[[knife|cuchillo]]", "[[spoon|cuchara]]", "[[fork|tenedor]]"],
           "correctAnswer": 0,
           "explanation": "Se usa un cuchillo (knife) para cortar."
@@ -496,7 +496,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Petición",
       "instructions": "Ordena la oración imperativa.",
-      "correctSentence": "[[Pass me the spoon, please|Pásame la cuchara, por favor]].",
+      "correctSentence": "[[Pass|Pásame]] [[me|]] [[the|]] [[spoon,|cuchara,]] [[please|por favor]].",
       "words": ["[[Pass|Pásame]]", "[[me|la]]", "[[the|]]", "[[spoon|cuchara]],", "[[please|por favor]]."],
       "explanation": "Uso de imperativos para peticiones."
     },
@@ -515,7 +515,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el recipiente correcto.",
       "questions": [
         {
-          "question": "[[We eat soup from a|Comemos sopa de un]] _______.",
+          "question": "[[We|Nosotros]] [[eat|comemos]] [[soup|sopa]] [[from|de]] [[a|un]] (_____) .",
           "options": ["[[bowl|cuenco/bol]]", "[[plate|plato]]", "[[cup|taza]]"],
           "correctAnswer": 0,
           "explanation": "La sopa se suele comer en un cuenco (bowl)."
@@ -535,7 +535,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mesa puesta",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[The forks and knives are on the table|Los tenedores y cuchillos están en la mesa]].",
+      "correctSentence": "[[The|Los]] [[forks|tenedores]] [[and|y]] [[knives|cuchillos]] [[are|están]] [[on|en]] [[the|la]] [[table|mesa]].",
       "words": ["[[The|Los]]", "[[forks|tenedores]]", "[[and|y]]", "[[knives|cuchillos]]", "[[are|están]]", "[[on|en]]", "[[the|la]]", "[[table|mesa]]."],
       "explanation": "Uso del plural y preposiciones de lugar."
     },
@@ -554,7 +554,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el verbo de cocina correcto.",
       "questions": [
         {
-          "question": "[[Can you|¿Puedes tú]] _______ [[the bread|el pan]]?",
+          "question": "[[Can|¿Puedes]] [[you|tú]] (_____) [[the|el]] [[bread|pan]]?",
           "options": ["[[slice|rebanar/cortar en rodajas]]", "[[boil|hervir]]", "[[fry|freír]]"],
           "correctAnswer": 0,
           "explanation": "El pan se corta en rebanadas (slice)."
@@ -574,7 +574,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Instrucciones de cocina",
       "instructions": "Ordena la instrucción.",
-      "correctSentence": "[[Boil the water for the tea|Hierve el agua para el té]].",
+      "correctSentence": "[[Boil|Hierve]] [[the|el]] [[water|agua]] [[for|para]] [[the|el]] [[tea|té]].",
       "words": ["[[Boil|Hierve]]", "[[the|el]]", "[[water|agua]]", "[[for|para]]", "[[the|el]]", "[[tea|té]]."],
       "explanation": "Uso del imperativo para dar instrucciones."
     },
@@ -593,7 +593,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa con el verbo correcto.",
       "questions": [
         {
-          "question": "[[I like to|Me gusta]] _______ [[eggs for breakfast|huevos para el desayuno]].",
+          "question": "[[I|Me]] [[like|gusta]] [[to|]] (_____) [[eggs|huevos]] [[for|para]] [[breakfast|el desayuno]].",
           "options": ["[[fry|freír]]", "[[wash|lavar]]", "[[drink|beber]]"],
           "correctAnswer": 0,
           "explanation": "Los huevos se suelen freír (fry)."
@@ -613,7 +613,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Limpieza",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[Wash the vegetables before cooking|Lava las verduras antes de cocinar]].",
+      "correctSentence": "[[Wash|Lava]] [[the|las]] [[vegetables|verduras]] [[before|antes de]] [[cooking|cocinar]].",
       "words": ["[[Wash|Lava]]", "[[the|las]]", "[[vegetables|verduras]]", "[[before|antes de]]", "[[cooking|cocinar]]."],
       "explanation": "Importancia de la higiene en la cocina."
     },
@@ -632,7 +632,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la opción correcta.",
       "questions": [
         {
-          "question": "[[I wash the after dinner|Yo lavo los]] _______ [[después de la cena]].",
+          "question": "[[I|Yo]] [[wash|lavo]] [[the|los]] (_____) [[after|después de]] [[dinner|la cena]].",
           "options": ["[[dishes|platos]]", "[[books|libros]]", "[[cars|coches]]"],
           "correctAnswer": 0,
           "explanation": "Después de comer, se lavan los platos (dishes)."
@@ -652,7 +652,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Poner la mesa",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[He sets the table for his family|Él pone la mesa para su familia]].",
+      "correctSentence": "[[He|Él]] [[sets|pone]] [[the|la]] [[table|mesa]] [[for|para]] [[his|su]] [[family|familia]].",
       "words": ["[[He|Él]]", "[[sets|pone]]", "[[the|la]]", "[[table|mesa]]", "[[for|para]]", "[[his|su]]", "[[family|familia]]."],
       "explanation": "Estructura de Presente Simple."
     },
@@ -671,7 +671,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[Can you help me the|¿Puedes tú ayudarme en la]] _______?",
+          "question": "[[Can|¿Puedes]] [[you|tú]] [[help|ayudarme]] [[me|]] [[in|en]] [[the|la]] (_____) ?",
           "options": ["[[kitchen|cocina]]", "[[garden|jardín]]", "[[park|parque]]"],
           "correctAnswer": 0,
           "explanation": "La cocina (kitchen) es el lugar donde se prepara la comida."
@@ -691,7 +691,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Limpiar juntos",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[We always clean the kitchen together|Nosotros siempre limpiamos la cocina juntos]].",
+      "correctSentence": "[[We|Nosotros]] [[always|siempre]] [[clean|limpiamos]] [[the|la]] [[kitchen|cocina]] [[together|juntos]].",
       "words": ["[[We|Nosotros]]", "[[always|siempre]]", "[[clean|limpiamos]]", "[[the|la]]", "[[kitchen|cocina]]", "[[together|juntos]]."],
       "explanation": "Uso de adverbios de frecuencia y adjetivos."
     },
@@ -710,7 +710,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el adjetivo correcto.",
       "questions": [
         {
-          "question": "[[The pizza is very|La pizza es muy]] _______.",
+          "question": "[[The|La]] [[pizza|pizza]] [[is|es]] [[very|muy]] (_____) .",
           "options": ["[[delicious|deliciosa]]", "[[sad|triste]]", "[[blue|azul]]"],
           "correctAnswer": 0,
           "explanation": "Delicious describe un buen sabor."
@@ -730,7 +730,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Comida sana",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[I like healthy food like fruit|Me gusta la comida saludable como la fruta]].",
+      "correctSentence": "[[I|Me]] [[like|gusta]] [[healthy|saludable]] [[food|comida]] [[like|como]] [[fruit|fruta]].",
       "words": ["[[I|Me]]", "[[like|gusta]]", "[[healthy|saludable]]", "[[food|comida]]", "[[like|como]]", "[[fruit|fruta]]."],
       "explanation": "Expresión de preferencias alimentarias."
     },
@@ -749,7 +749,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la palabra que falta.",
       "questions": [
         {
-          "question": "[[Don't eat|No comas]] _______ [[food|comida]].",
+          "question": "[[Don't|No]] [[eat|comas]] (_____) [[food|comida]].",
           "options": ["[[junk|basura]]", "[[good|buena]]", "[[green|verde]]"],
           "correctAnswer": 0,
           "explanation": "'Junk food' es el término para comida basura."
@@ -769,7 +769,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Pescado fresco",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[This fish is fresh and tasty|Este pescado es fresco y sabroso]].",
+      "correctSentence": "[[This|Este]] [[fish|pescado]] [[is|es]] [[fresh|fresco]] [[and|y]] [[tasty|sabroso]].",
       "words": ["[[This|Este]]", "[[fish|pescado]]", "[[is|es]]", "[[fresh|fresco]]", "[[and|y]]", "[[tasty|sabroso]]."],
       "explanation": "Uso de adjetivos para describir comida."
     },
@@ -788,7 +788,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige el momento correcto.",
       "questions": [
         {
-          "question": "[[Breakfast is in the|El desayuno es en la]] _______.",
+          "question": "[[Breakfast|El desayuno]] [[is|es]] [[in|en]] [[the|la]] (_____) .",
           "options": ["[[morning|mañana]]", "[[night|noche]]", "[[evening|tarde]]"],
           "correctAnswer": 0,
           "explanation": "El desayuno es por la mañana (morning)."
@@ -808,7 +808,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Frecuencia",
       "instructions": "Ordena la oración.",
-      "correctSentence": "[[I always eat a healthy breakfast|Yo siempre como un saludable desayuno]].",
+      "correctSentence": "[[I|Yo]] [[always|siempre]] [[eat|como]] [[a|un]] [[healthy|saludable]] [[breakfast|desayuno]].",
       "words": ["[[I|Yo]]", "[[always|siempre]]", "[[eat|como]]", "[[a|un]]", "[[healthy|saludable]]", "[[breakfast|desayuno]]."],
       "explanation": "Uso de adverbios de frecuencia."
     },
@@ -827,7 +827,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
       "instructions": "Elige la hora correcta.",
       "questions": [
         {
-          "question": "[[Lunch is at|El almuerzo es a la]] _______ [[o'clock|en punto]].",
+          "question": "[[Lunch|El almuerzo]] [[is|es]] [[at|a la]] (_____) [[o'clock|en punto]].",
           "options": ["[[one|una]]", "[[night|noche]]", "[[morning|mañana]]"],
           "correctAnswer": 0,
           "explanation": "Indica una hora específica para el almuerzo."
@@ -847,7 +847,7 @@ export const UNIT_17_EXERCISES: Exercise[] = [
     "content": {
       "title": "Cena tardía",
       "instructions": "Ordena las palabras.",
-      "correctSentence": "[[They have dinner late at night|Ellos cenan la cena tarde por la noche]].",
+      "correctSentence": "[[They|Ellos]] [[have|cenan]] [[dinner|la cena]] [[late|tarde]] [[at|por la]] [[night|noche]].",
       "words": ["[[They|Ellos]]", "[[have|cenan]]", "[[dinner|la cena]]", "[[late|tarde]]", "[[at|por la]]", "[[night|noche]]."],
       "explanation": "Uso de 'late at night' para indicar tiempo."
     },
