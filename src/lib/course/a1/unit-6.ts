@@ -10,7 +10,7 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "easy",
-    "transcript": "[[My mother and my father are my parents|Mi madre y mi padre son mis padres]].",
+    "transcript": "[[My|Mi]] [[mother|madre]] [[and|y]] [[my|mi]] [[father|padre]] [[are|son]] [[my|mis]] [[parents|padres]].",
     "content": {
       "title": "Los Padres",
       "instructions": "Elige la palabra correcta.",

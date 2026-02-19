@@ -10,7 +10,7 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Family Members",
     "difficulty": "easy",
-    "transcript": "[[He is. She is my father my mother. They are my parents|Él es mi padre. Ella es mi madre. Ellos son mis padres]].",
+    "transcript": "[[He|Él]] [[is|es]]. [[She|Ella]] [[is|es]] [[my|mi]] [[father|padre]] [[my|mi]] [[mother|madre]]. [[They|Ellos]] [[are|son]] [[my|mis]] [[parents|padres]].",
     "content": {
       "title": "Los Padres",
       "instructions": "Elige el término colectivo correcto.",

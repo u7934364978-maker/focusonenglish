@@ -85,7 +85,7 @@ const READING_EXERCISES: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: 'Hello! My name is Alex. I am from London. I am a student. Today is a good day. I am happy.',
+    transcript: '[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Alex|Alex]]. [[I|Yo]] [[am|soy]] [[from|de]] [[London|Londres]]. [[I|Yo]] [[am|soy]] [[a|un]] [[student|estudiante]]. [[Today|Hoy]] [[is|es]] [[a|un]] [[good|buen]] [[day|día]]. [[I|Yo]] [[am|estoy]] [[happy|feliz]].',
     content: {
       title: 'Reading: Meet Alex',
       instructions: 'Read the text and answer the questions.',
@@ -114,7 +114,7 @@ const READING_EXERCISES: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: 'This is my friend, Sarah. She is a teacher. She is very nice. We are in the classroom now. It is 9:00 [[AM|de la mañana]].',
+    transcript: '[[This|Esta]] [[is|es]] [[my|mi]] [[friend|amiga]], [[Sarah|Sara]]. [[She|Ella]] [[is|es]] [[a|una]] [[teacher|profesora]]. [[She|Ella]] [[is|es]] [[very|muy]] [[nice|agradable]]. [[We|Nosotros]] [[are|estamos]] [[in|en]] [[the|el]] [[classroom|aula]] [[now|ahora]]. [[It|Ello]] [[is|es]] [[9:00]] [[AM|de la mañana]].',
     content: {
       title: 'Reading: My Friend Sarah',
       instructions: 'Read the text and answer the questions.',
@@ -160,7 +160,7 @@ const ADDITIONAL_READINGS: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: 'Good morning! I am Maria. This is my dog, Max. Max is brown. He is a good dog.',
+    transcript: '[[Good|Buenos]] [[morning|días]]! [[I|Yo]] [[am|soy]] [[Maria|María]]. [[This|Este]] [[is|es]] [[my|mi]] [[dog|perro]], [[Max|Max]]. [[Max|Max]] [[is|es]] [[brown|marrón]]. [[He|Él]] [[is|es]] [[a|un]] [[good|buen]] [[dog|perro]].',
     content: {
       title: 'Reading: Maria and Max',
       instructions: 'Read and answer.',
@@ -172,7 +172,7 @@ const ADDITIONAL_READINGS: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: 'Hi, I am Tom. I am 20 years old. I am from Canada. Nice to meet you!',
+    transcript: '[[Hi|Hola]], [[I|Yo]] [[am|soy]] [[Tom|Tom]]. [[I|Yo]] [[am|tengo]] [[20]] [[years old|años]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Canada|Canadá]]. [[Nice|Mucho]] [[to|gusto]] [[meet|en conocer]] [[you|a ti]]!',
     content: {
       title: 'Reading: Tom from Canada',
       instructions: 'Read and answer.',
@@ -184,7 +184,7 @@ const ADDITIONAL_READINGS: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: 'It is 6:00 [[PM|de la tarde]]. Good evening! We are at the restaurant. The food is good. We are happy.',
+    transcript: '[[It|Ello]] [[is|es]] [[6:00]] [[PM|de la tarde]]. [[Good|Buenas]] [[evening|noches]]! [[We|Nosotros]] [[are|estamos]] [[at|en]] [[the|el]] [[restaurant|restaurante]]. [[The|La]] [[food|comida]] [[is|está]] [[good|buena]]. [[We|Nosotros]] [[are|estamos]] [[happy|felices]].',
     content: {
       title: 'Reading: At the Restaurant',
       instructions: 'Read and answer.',

@@ -942,13 +942,13 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[Hello|Hola]], [[my name|mi nombre]] [[is|es]] [[Dr. Smith|Dr. Smith]]. [[I am|Yo soy]] [[a doctor|un médico]]. [[I work|Yo trabajo]] [[in a|en un]] [[big hospital|hospital grande]] [[in London|en Londres]]. [[Every day|Cada día]], [[I help|ayudo a]] [[many|muchas]] [[sick people|personas enfermas]]. [[My work|Mi trabajo]] [[is|es]] [[very|muy]] [[interesting|interesante]] [[but|pero]] [[busy|estresante/ocupado]]. [[I start|Empiezo]] [[at eight o'clock|a las ocho en punto]] [[in the morning|en la mañana]]. [[I am|Estoy]] [[very happy|muy feliz]] [[with my job|con mi empleo]].",
+    "transcript": "[[Hello,|Hola,]] [[my|mi]] [[name|nombre]] [[is|es]] [[Dr.|Dr.]] [[Smith.|Smith.]] [[I|Yo]] [[am|soy]] [[a|un]] [[doctor.|médico.]] [[I|Yo]] [[work|trabajo]] [[in|en]] [[a|un]] [[big|grande]] [[hospital|hospital]] [[in|en]] [[London.|Londres.]] [[Every|Cada]] [[day,|día,]] [[I|yo]] [[help|ayudo]] [[many|muchas]] [[sick|enfermas]] [[people.|personas.]] [[My|Mi]] [[work|trabajo]] [[is|es]] [[very|muy]] [[interesting|interesante]] [[but|pero]] [[busy.|ocupado.]] [[I|Yo]] [[start|empiezo]] [[at|a las]] [[eight|ocho]] [[o'clock|en punto]] [[in|en]] [[the|la]] [[morning.|mañana.]] [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[with|con]] [[my|mi]] [[job.|empleo.]]",
     "content": {
       "title": "[[Reading Work: Dr. Smith's|Lectura: El trabajo del Dr. Smith]]",
       "instructions": "[[Read the text and prepare for the questions|Lee el texto y prepárate para las preguntas]].",
       "questions": [
         {
-          "question": "[[Hello|Hola]], [[my name|mi nombre]] [[is|es]] [[Dr. Smith|Dr. Smith]]. [[I am|Yo soy]] [[a doctor|un médico]]. [[I work|Yo trabajo]] [[in a|en un]] [[big hospital|hospital grande]] [[in London|en Londres]]. [[Every day|Cada día]], [[I help|ayudo a]] [[many|muchas]] [[sick people|personas enfermas]]. [[My work|Mi trabajo]] [[is|es]] [[very|muy]] [[interesting|interesante]] [[but|pero]] [[busy|estresante/ocupado]]. [[I start|Empiezo]] [[at eight o'clock|a las ocho en punto]] [[in the morning|en la mañana]]. [[I am|Estoy]] [[very happy|muy feliz]] [[with my job|con mi empleo]].",
+          "question": "[[Hello,|Hola,]] [[my|mi]] [[name|nombre]] [[is|es]] [[Dr.|Dr.]] [[Smith.|Smith.]] [[I|Yo]] [[am|soy]] [[a|un]] [[doctor.|médico.]] [[I|Yo]] [[work|trabajo]] [[in|en]] [[a|un]] [[big|grande]] [[hospital|hospital]] [[in|en]] [[London.|Londres.]] [[Every|Cada]] [[day,|día,]] [[I|yo]] [[help|ayudo]] [[many|muchas]] [[sick|enfermas]] [[people.|personas.]] [[My|Mi]] [[work|trabajo]] [[is|es]] [[very|muy]] [[interesting|interesante]] [[but|pero]] [[busy.|ocupado.]] [[I|Yo]] [[start|empiezo]] [[at|a las]] [[eight|ocho]] [[o'clock|en punto]] [[in|en]] [[the|la]] [[morning.|mañana.]] [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[with|con]] [[my|mi]] [[job.|empleo.]]",
           "options": ["[[I have read the text|He leído el texto]]."],
           "correctAnswer": 0,
           "explanation": "[[Click to continue|Haz clic para continuar]]."
@@ -1028,13 +1028,13 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[This is|Esta es]] [[Anna|Anna]]. [[She is|Ella es]] [[a famous chef|una chef famosa]]. [[She works|Ella trabaja]] [[in an|en un]] [[Italian restaurant|restaurante italiano]]. [[Anna|Anna]] [[cooks|cocina]] [[delicious|deliciosa]] [[pasta and pizza|pasta y pizza]]. [[She has|Ella tiene]] [[five assistants|cinco asistentes]] [[in the kitchen|en la cocina]]. [[The restaurant|El restaurante]] [[opens|abre]] [[at twelve noon|a las doce del mediodía]]. [[Many people|Muchas personas]] [[visit|visitan]] [[the restaurant|el restaurante]] [[every weekend|cada fin de semana]].",
+    "transcript": "[[This|Esta]] [[is|es]] [[Anna.|Anna.]] [[She|Ella]] [[is|es]] [[a|una]] [[famous|famosa]] [[chef.|chef.]] [[She|Ella]] [[works|trabaja]] [[in|en]] [[an|un]] [[Italian|italiano]] [[restaurant.|restaurante.]] [[Anna|Anna]] [[cooks|cocina]] [[delicious|deliciosa]] [[pasta|pasta]] [[and|y]] [[pizza.|pizza.]] [[She|Ella]] [[has|tiene]] [[five|cinco]] [[assistants|asistentes]] [[in|en]] [[the|la]] [[kitchen.|cocina.]] [[The|El]] [[restaurant|restaurante]] [[opens|abre]] [[at|a las]] [[twelve|doce]] [[noon.|del mediodía.]] [[Many|Muchas]] [[people|personas]] [[visit|visitan]] [[the|el]] [[restaurant|restaurante]] [[every|cada]] [[weekend.|fin de semana.]]",
     "content": {
       "title": "[[Reading: Anna the Chef|Lectura: Anna la Chef]]",
       "instructions": "[[Read the text about Anna|Lee el texto sobre Anna]].",
       "questions": [
         {
-          "question": "[[This is|Esta es]] [[Anna|Anna]]. [[She is|Ella es]] [[a famous chef|una chef famosa]]. [[She works|Ella trabaja]] [[in an|en un]] [[Italian restaurant|restaurante italiano]]. [[Anna|Anna]] [[cooks|cocina]] [[delicious|deliciosa]] [[pasta and pizza|pasta y pizza]]. [[She has|Ella tiene]] [[five assistants|cinco asistentes]] [[in the kitchen|en la cocina]]. [[The restaurant|El restaurante]] [[opens|abre]] [[at twelve noon|a las doce del mediodía]]. [[Many people|Muchas personas]] [[visit|visitan]] [[the restaurant|el restaurante]] [[every weekend|cada fin de semana]].",
+          "question": "[[This|Esta]] [[is|es]] [[Anna.|Anna.]] [[She|Ella]] [[is|es]] [[a|una]] [[famous|famosa]] [[chef.|chef.]] [[She|Ella]] [[works|trabaja]] [[in|en]] [[an|un]] [[Italian|italiano]] [[restaurant.|restaurante.]] [[Anna|Anna]] [[cooks|cocina]] [[delicious|deliciosa]] [[pasta|pasta]] [[and|y]] [[pizza.|pizza.]] [[She|Ella]] [[has|tiene]] [[five|cinco]] [[assistants|asistentes]] [[in|en]] [[the|la]] [[kitchen.|cocina.]] [[The|El]] [[restaurant|restaurante]] [[opens|abre]] [[at|a las]] [[twelve|doce]] [[noon.|del mediodía.]] [[Many|Muchas]] [[people|personas]] [[visit|visitan]] [[the|el]] [[restaurant|restaurante]] [[every|cada]] [[weekend.|fin de semana.]]",
           "options": ["[[I have read the text|He leído el texto]]."],
           "correctAnswer": 0,
           "explanation": "[[Click to continue|Haz clic para continuar]]."
@@ -1114,13 +1114,13 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[Tom|Tom]] [[is|es]] [[a police officer|un oficial de policía]]. [[He is|Él es]] [[strong and brave|fuerte y valiente]]. [[He works|Él trabaja]] [[at the|en la]] [[central police station|estación central de policía]]. [[His uniform|Su uniforme]] [[is|es]] [[dark blue|azul oscuro]]. [[He has|Él tiene]] [[a police car|un coche de policía]]. [[He helps|Él ayuda a]] [[people|personas]] [[in the city|en la ciudad]]. [[Tom|Tom]] [[loves|ama]] [[his job|su trabajo]] [[because|porque]] [[it is|es]] [[important|importante]].",
+    "transcript": "[[Tom|Tom]] [[is|es]] [[a|un]] [[police|oficial de policía]] [[officer.|oficial de policía.]] [[He|Él]] [[is|es]] [[strong|fuerte]] [[and|y]] [[brave.|valiente.]] [[He|Él]] [[works|trabaja]] [[at|en]] [[the|la]] [[central|central]] [[police|policía]] [[station.|estación.]] [[His|Su]] [[uniform|uniforme]] [[is|es]] [[dark|oscuro]] [[blue.|azul.]] [[He|Él]] [[has|tiene]] [[a|un]] [[police|policía]] [[car.|coche.]] [[He|Él]] [[helps|ayuda]] [[people|personas]] [[in|en]] [[the|la]] [[city.|ciudad.]] [[Tom|Tom]] [[loves|ama]] [[his|su]] [[job|trabajo]] [[because|porque]] [[it|ello]] [[is|es]] [[important.|importante.]]",
     "content": {
       "title": "[[Reading: The Police Officer|Lectura: El Oficial de Policía]]",
       "instructions": "[[Read the last text|Lee el último texto]].",
       "questions": [
         {
-          "question": "[[Tom|Tom]] [[is|es]] [[a police officer|un oficial de policía]]. [[He is|Él es]] [[strong and brave|fuerte y valiente]]. [[He works|Él trabaja]] [[at the|en la]] [[central police station|estación central de policía]]. [[His uniform|Su uniforme]] [[is|es]] [[dark blue|azul oscuro]]. [[He has|Él tiene]] [[a police car|un coche de policía]]. [[He helps|Él ayuda a]] [[people|personas]] [[in the city|en la ciudad]]. [[Tom|Tom]] [[loves|ama]] [[his job|su trabajo]] [[because|porque]] [[it is|es]] [[important|importante]].",
+          "question": "[[Tom|Tom]] [[is|es]] [[a|un]] [[police|oficial de policía]] [[officer.|oficial de policía.]] [[He|Él]] [[is|es]] [[strong|fuerte]] [[and|y]] [[brave.|valiente.]] [[He|Él]] [[works|trabaja]] [[at|en]] [[the|la]] [[central|central]] [[police|policía]] [[station.|estación.]] [[His|Su]] [[uniform|uniforme]] [[is|es]] [[dark|oscuro]] [[blue.|azul.]] [[He|Él]] [[has|tiene]] [[a|un]] [[police|policía]] [[car.|coche.]] [[He|Él]] [[helps|ayuda]] [[people|personas]] [[in|en]] [[the|la]] [[city.|ciudad.]] [[Tom|Tom]] [[loves|ama]] [[his|su]] [[job|trabajo]] [[because|porque]] [[it|ello]] [[is|es]] [[important.|importante.]]",
           "options": ["[[I have read the text|He leído el texto]]."],
           "correctAnswer": 0,
           "explanation": "[[Click to continue|Haz clic para continuar]]."

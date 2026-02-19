@@ -953,28 +953,28 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[My busy week|Mi semana ocupada]]. [[On Monday|El lunes]] [[and|y]] [[Tuesday|martes]], [[I work|trabajo]] [[in the office|en la oficina]]. [[On Wednesday|El miércoles]], [[I study|estudio]] [[at the library|en la biblioteca]]. [[On Thursday|El jueves]], [[I have|tengo]] [[a meeting|una reunión]] [[with my boss|con mi jefe]]. [[On Friday|El viernes]], [[I finish early|termino temprano]]. [[I love|¡Me encanta]] [[the weekend|el fin de semana]]! [[On Saturday|El sábado]], [[I go|voy]] [[to the park|al parque]], [[and|y]] [[on Sunday|el domingo]], [[I stay|me quedo]] [[at home|en casa]].",
+    "transcript": "[[My|Mi]] [[busy|ocupada]] [[week|semana]]. [[On|El]] [[Monday|lunes]] [[and|y]] [[Tuesday|martes]], [[I|yo]] [[work|trabajo]] [[in|en]] [[the|la]] [[office|oficina]]. [[On|El]] [[Wednesday|miércoles]], [[I|yo]] [[study|estudio]] [[at|en]] [[the|la]] [[library|biblioteca]]. [[On|El]] [[Thursday|jueves]], [[I|yo]] [[have|tengo]] [[a|una]] [[meeting|reunión]] [[with|con]] [[my|mi]] [[boss|jefe]]. [[On|El]] [[Friday|viernes]], [[I|yo]] [[finish|termino]] [[early|temprano]]. [[I|Yo]] [[love|amo]] [[the|el]] [[weekend|fin de semana]]! [[On|El]] [[Saturday|sábado]], [[I|yo]] [[go|voy]] [[to|a]] [[the|el]] [[park|parque]], [[and|y]] [[on|el]] [[Sunday|domingo]], [[I|yo]] [[stay|me quedo]] [[at|en]] [[home|casa]].",
     "content": {
       "title": "[[Reading: My Busy Week|Lectura: Mi semana ocupada]]",
       "instructions": "[[Read the text and answer the questions|Lee el texto y responde las preguntas]].",
       "questions": [
         {
-          "question": "[[When does the person study|¿Cuándo estudia la persona]]?",
+          "question": "[[When|Cuándo]] [[does|aux]] [[the|la]] [[person|persona]] [[study|estudia]]?",
           "options": ["[[On Wednesday|El miércoles]]", "[[On Monday|El lunes]]", "[[On Friday|El viernes]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[On Wednesday, I study at the library|El miércoles, estudio en la biblioteca]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[On|El]] [[Wednesday|miércoles]], [[I|yo]] [[study|estudio]] [[at|en]] [[the|la]] [[library|biblioteca]]'."
         },
         {
-          "question": "[[What does he do on Sunday|¿Qué hace él el domingo]]?",
+          "question": "[[What|Qué]] [[does|aux]] [[he|él]] [[do|hace]] [[on|el]] [[Sunday|domingo]]?",
           "options": ["[[Stay at home|Se queda en casa]]", "[[Go to the park|Va al parque]]", "[[Work in the office|Trabaja en la oficina]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[on Sunday, I stay at home|el domingo, me quedo en casa]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[on|el]] [[Sunday|domingo]], [[I|yo]] [[stay|me quedo]] [[at|en]] [[home|casa]]'."
         },
         {
-          "question": "[[When does he have a meeting|¿Cuándo tiene él una reunión]]?",
+          "question": "[[When|Cuándo]] [[does|aux]] [[he|él]] [[have|tiene]] [[a|una]] [[meeting|reunión]]?",
           "options": ["[[On Thursday|El jueves]]", "[[On Friday|El viernes]]", "[[On Tuesday|El martes]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[On Thursday, I have a meeting|El jueves, tengo una reunión]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[On|El]] [[Thursday|jueves]], [[I|yo]] [[have|tengo]] [[a|una]] [[meeting|reunión]]'."
         }
       ]
     },
@@ -987,28 +987,28 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Hello|Hola]]! [[I am|Soy]] [[Maria|Maria]]. [[I am|Estoy]] [[very happy|muy feliz]] [[today|hoy]] [[because|porque]] [[it is|es]] [[Friday|viernes]]. [[I have|Tengo]] [[no classes|ninguna clase]] [[today|hoy]]. [[Tomorrow|Mañana]] [[is|es]] [[Saturday|sábado]] [[and|y]] [[I have|tengo]] [[a party|una fiesta]] [[at my house|en mi casa]]. [[All|Todos]] [[my friends|mis amigos]] [[are coming|vienen]]. [[On Sunday|El domingo]], [[I sleep|duermo]] [[all day|todo el día]]. [[Then|Luego]], [[on Monday|el lunes]], [[school|la escuela]] [[starts again|comienza de nuevo]].",
+    "transcript": "[[Hello|Hola]]! [[I|Yo]] [[am|soy]] [[Maria|Maria]]. [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[today|hoy]] [[because|porque]] [[it|ello]] [[is|es]] [[Friday|viernes]]. [[I|Yo]] [[have|tengo]] [[no|ninguna]] [[classes|clase]] [[today|hoy]]. [[Tomorrow|Mañana]] [[is|es]] [[Saturday|sábado]] [[and|y]] [[I|yo]] [[have|tengo]] [[a|una]] [[party|fiesta]] [[at|en]] [[my|mi]] [[house|casa]]. [[All|Todos]] [[my|mis]] [[friends|amigos]] [[are|vienen]] [[coming|vienen]]. [[On|El]] [[Sunday|domingo]], [[I|yo]] [[sleep|duermo]] [[all|todo]] [[day|el día]]. [[Then|Luego]], [[on|el]] [[Monday|lunes]], [[school|la escuela]] [[starts|comienza]] [[again|de nuevo]].",
     "content": {
       "title": "[[Reading: Maria's Plans|Lectura: Los planes de Maria]]",
       "instructions": "[[Read about Maria and answer the questions|Lee sobre Maria y responde las preguntas]].",
       "questions": [
         {
-          "question": "[[Why is Maria happy today|¿Por qué está Maria feliz hoy]]?",
+          "question": "[[Why|Por qué]] [[is|está]] [[Maria|Maria]] [[happy|feliz]] [[today|hoy]]?",
           "options": ["[[Because it is Friday|Porque es viernes]]", "[[Because it is Sunday|Porque es domingo]]", "[[Because she is at school|Porque está en la escuela]]"],
           "correctAnswer": 0,
-          "explanation": "[[Maria says|Maria dice]]: '[[I am very happy today because it is Friday|Estoy muy feliz hoy porque es viernes]]'."
+          "explanation": "[[Maria|Maria]] [[says|dice]]: '[[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[today|hoy]] [[because|porque]] [[it|ello]] [[is|es]] [[Friday|viernes]]'."
         },
         {
-          "question": "[[What is happening tomorrow|¿Qué pasa mañana]]?",
+          "question": "[[What|Qué]] [[is|está]] [[happening|pasando]] [[tomorrow|mañana]]?",
           "options": ["[[She has a party|Ella tiene una fiesta]]", "[[She has classes|Ella tiene clases]]", "[[She goes to school|Ella va a la escuela]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[Tomorrow is Saturday and I have a party|Mañana es sábado y tengo una fiesta]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[Tomorrow|Mañana]] [[is|es]] [[Saturday|sábado]] [[and|y]] [[I|yo]] [[have|tengo]] [[a|una]] [[party|fiesta]]'."
         },
         {
-          "question": "[[What does Maria do on Sunday|¿Qué hace Maria el domingo]]?",
-          "options": ["[[Sleep all day|Duerme todo el día]]", "[[Go to a party|Va a una fiesta]]", "[[Start school|Empieza la escuela]]"],
+          "question": "[[What|Qué]] [[does|aux]] [[Maria|Maria]] [[do|hace]] [[on|el]] [[Sunday|domingo]]?",
+          "options": ["[[Sleep all day|Duerme todo el día]]", "[[Go to a party|Va una fiesta]]", "[[Start school|Empieza la escuela]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[On Sunday, I sleep all day|El domingo, duermo todo el día]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[On|El]] [[Sunday|domingo]], [[I|yo]] [[sleep|duermo]] [[all|todo]] [[day|el día]]'."
         }
       ]
     },
@@ -1021,28 +1021,28 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[John's work schedule|El horario de trabajo de John]]. [[John|John]] [[is|es]] [[a doctor|un médico]]. [[He works|Trabaja]] [[from Monday|de lunes]] [[to Thursday|a jueves]] [[in a big hospital|en un hospital grande]]. [[He has|Tiene]] [[Friday off|el viernes libre]]. [[On Saturday morning|El sábado por la mañana]], [[he goes|va]] [[to the gym|al gimnasio]]. [[On Saturday evening|El sábado por la noche]], [[he visits|visita]] [[his parents|a sus padres]]. [[Sunday|El domingo]] [[is|es]] [[his favorite day|su día favorito]] [[for relaxing|para relajarse]].",
+    "transcript": "[[John's|De John]] [[work|trabajo]] [[schedule|horario]]. [[John|John]] [[is|es]] [[a|un]] [[doctor|médico]]. [[He|Él]] [[works|trabaja]] [[from|de]] [[Monday|lunes]] [[to|a]] [[Thursday|jueves]] [[in|en]] [[a|un]] [[big|grande]] [[hospital|hospital]]. [[He|Él]] [[has|tiene]] [[Friday|el viernes]] [[off|libre]]. [[On|El]] [[Saturday|sábado]] [[morning|por la mañana]], [[he|él]] [[goes|va]] [[to|al]] [[the|el]] [[gym|gimnasio]]. [[On|El]] [[Saturday|sábado]] [[evening|por la noche]], [[he|él]] [[visits|visita]] [[his|sus]] [[parents|padres]]. [[Sunday|Domingo]] [[is|es]] [[his|su]] [[favorite|favorito]] [[day|día]] [[for|para]] [[relaxing|relajarse]].",
     "content": {
       "title": "[[Reading: John's Schedule|Lectura: El horario de John]]",
       "instructions": "[[Read about John and answer the questions|Lee sobre John y responde las preguntas]].",
       "questions": [
         {
-          "question": "[[What is John's day off|¿Cuál es el día libre de John]]?",
+          "question": "[[What|Cuál]] [[is|es]] [[John's|de John]] [[day|día]] [[off|libre]]?",
           "options": ["[[Friday|Viernes]]", "[[Monday|Lunes]]", "[[Saturday|Sábado]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[He has Friday off|Tiene el viernes libre]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[He|Él]] [[has|tiene]] [[Friday|el viernes]] [[off|libre]]'."
         },
         {
-          "question": "[[When does he visit his parents|¿Cuándo visita a sus padres]]?",
+          "question": "[[When|Cuándo]] [[does|aux]] [[he|él]] [[visit|visita]] [[his|sus]] [[parents|padres]]?",
           "options": ["[[On Saturday evening|El sábado por la noche]]", "[[On Sunday|El domingo]]", "[[On Thursday|El jueves]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[On Saturday evening, he visits his parents|El sábado por la noche, visita a sus padres]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[On|El]] [[Saturday|sábado]] [[evening|por la noche]], [[he|él]] [[visits|visita]] [[his|sus]] [[parents|padres]]'."
         },
         {
-          "question": "[[Is John a doctor|¿Es John médico]]?",
+          "question": "[[Is|Es]] [[John|John]] [[a|un]] [[doctor|médico]]?",
           "options": ["[[Yes, he is|Sí, lo es]]", "[[No, he is a teacher|No, es profesor]]", "[[No, he is a student|No, es estudiante]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text starts saying|El texto comienza diciendo]]: '[[John is a doctor|John es un médico]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[John|John]] [[is|es]] [[a|un]] [[doctor|médico]]'."
         }
       ]
     },
@@ -1055,28 +1055,28 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Our restaurant|Nuestro restaurante]] [[is open|está abierto]] [[six days a week|seis días a la semana]]. [[We are open|Estamos abiertos]] [[from Tuesday|de martes]] [[to Sunday|a domingo]]. [[We are closed|Estamos cerrados]] [[on Monday|el lunes]]. [[On Tuesday|El martes]] [[and|y]] [[Wednesday|miércoles]], [[we have|tenemos]] [[a special price|un precio especial]] [[for lunch|para el almuerzo]]. [[Saturday|El sábado]] [[is|es]] [[our busiest day|nuestro día más concurrido]]. [[We hope|Esperamos]] [[to see you soon|veros pronto]]!",
+    "transcript": "[[Our|Nuestro]] [[restaurant|restaurante]] [[is|está]] [[open|abierto]] [[six|seis]] [[days|días]] [[a|a la]] [[week|semana]]. [[We|Nosotros]] [[are|estamos]] [[open|abiertos]] [[from|de]] [[Tuesday|martes]] [[to|a]] [[Sunday|domingo]]. [[We|Nosotros]] [[are|estamos]] [[closed|cerrados]] [[on|el]] [[Monday|lunes]]. [[On|El]] [[Tuesday|martes]] [[and|y]] [[Wednesday|miércoles]], [[we|nosotros]] [[have|tenemos]] [[a|un]] [[special|especial]] [[price|precio]] [[for|para el]] [[lunch|almuerzo]]. [[Saturday|Sábado]] [[is|es]] [[our|nuestro]] [[busiest|más concurrido]] [[day|día]]. [[We|Nosotros]] [[hope|esperamos]] [[to|a]] [[see|ver]] [[you|os]] [[soon|pronto]]!",
     "content": {
       "title": "[[Reading: Restaurant Schedule|Lectura: El horario del restaurante]]",
       "instructions": "[[Read about the restaurant and answer the questions|Lee sobre el restaurante y responde las preguntas]].",
       "questions": [
         {
-          "question": "[[Which day is the restaurant closed|¿Qué día está cerrado el restaurante]]?",
+          "question": "[[Which|Qué]] [[day|día]] [[is|está]] [[the|el]] [[restaurant|restaurante]] [[closed|cerrado]]?",
           "options": ["[[Monday|Lunes]]", "[[Sunday|Domingo]]", "[[Tuesday|Martes]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[We are closed on Monday|Estamos cerrados el lunes]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[We|Nosotros]] [[are|estamos]] [[closed|cerrados]] [[on|el]] [[Monday|lunes]]'."
         },
         {
-          "question": "[[When is the special price|¿Cuándo es el precio especial]]?",
+          "question": "[[When|Cuándo]] [[is|es]] [[the|el]] [[special|especial]] [[price|precio]]?",
           "options": ["[[Tuesday and Wednesday|Martes y miércoles]]", "[[Saturday|Sábado]]", "[[Sunday|Domingo]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[On Tuesday and Wednesday, we have a special price|El martes y miércoles, tenemos un precio especial]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[On|El]] [[Tuesday|martes]] [[and|y]] [[Wednesday|miércoles]], [[we|nosotros]] [[have|tenemos]] [[a|un]] [[special|especial]] [[price|precio]]'."
         },
         {
-          "question": "[[Which is the busiest day|¿Cuál es el día más concurrido]]?",
+          "question": "[[Which|Cuál]] [[is|es]] [[the|el]] [[busiest|más concurrido]] [[day|día]]?",
           "options": ["[[Saturday|Sábado]]", "[[Monday|Lunes]]", "[[Sunday|Domingo]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[Saturday is our busiest day|El sábado es nuestro día más concurrido]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[Saturday|Sábado]] [[is|es]] [[our|nuestro]] [[busiest|más concurrido]] [[day|día]]'."
         }
       ]
     },
@@ -1089,28 +1089,28 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[School starts|La escuela comienza]] [[at eight o'clock|a las ocho en punto]] [[from Monday|de lunes]] [[to Friday|a viernes]]. [[My favorite subjects|Mis asignaturas favoritas]] [[are|son]] [[English and Music|inglés y música]]. [[On Tuesday|El martes]], [[I have|tengo]] [[English class|clase de inglés]]. [[On Thursday|El jueves]], [[I have|tengo]] [[Music class|clase de música]]. [[I don't have school|No tengo escuela]] [[on Saturday|el sábado]] [[and|y]] [[Sunday|domingo]]. [[I like|Me gusta]] [[the weekend|el fin de semana]] [[very much|mucho]].",
+    "transcript": "[[School|La escuela]] [[starts|comienza]] [[at|a las]] [[eight|ocho]] [[o'clock|en punto]] [[from|de]] [[Monday|lunes]] [[to|a]] [[Friday|viernes]]. [[My|Mis]] [[favorite|favoritas]] [[subjects|asignaturas]] [[are|son]] [[English|inglés]] [[and|y]] [[Music|música]]. [[On|El]] [[Tuesday|martes]], [[I|yo]] [[have|tengo]] [[English|inglés]] [[class|clase]]. [[On|El]] [[Thursday|jueves]], [[I|yo]] [[have|tengo]] [[Music|música]] [[class|clase]]. [[I|Yo]] [[don't|no]] [[have|tengo]] [[school|escuela]] [[on|el]] [[Saturday|sábado]] [[and|y]] [[Sunday|domingo]]. [[I|Yo]] [[like|gusta]] [[the|el]] [[weekend|fin de semana]] [[very|muy]] [[much|mucho]].",
     "content": {
       "title": "[[Reading: The School|Lectura: La escuela]]",
       "instructions": "[[Read about the school and answer the questions|Lee sobre la escuela y responde las preguntas]].",
       "questions": [
         {
-          "question": "[[When does the student have Music class|¿Cuándo tiene el estudiante clase de música]]?",
+          "question": "[[When|Cuándo]] [[does|aux]] [[the|el]] [[student|estudiante]] [[have|tiene]] [[Music|música]] [[class|clase]]?",
           "options": ["[[On Thursday|El jueves]]", "[[On Tuesday|El martes]]", "[[On Friday|El viernes]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[On Thursday, I have Music class|El jueves, tengo clase de música]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[On|El]] [[Thursday|jueves]], [[I|yo]] [[have|tengo]] [[Music|música]] [[class|clase]]'."
         },
         {
-          "question": "[[Are there classes on Saturday|¿Hay clases el sábado]]?",
+          "question": "[[Are|Hay]] [[there|allí]] [[classes|clases]] [[on|el]] [[Saturday|sábado]]?",
           "options": ["[[No, there aren't|No, no las hay]]", "[[Yes, there are|Sí, las hay]]", "[[Only in the morning|Solo por la mañana]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[I don't have school on Saturday and Sunday|No tengo escuela los sábados y domingos]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[I|Yo]] [[don't|no]] [[have|tengo]] [[school|escuela]] [[on|el]] [[Saturday|sábado]] [[and|y]] [[Sunday|domingo]]'."
         },
         {
-          "question": "[[What time does school start|¿A qué hora empieza la escuela]]?",
+          "question": "[[What|Qué]] [[time|hora]] [[does|aux]] [[school|la escuela]] [[start|empieza]]?",
           "options": ["[[At eight o'clock|A las ocho en punto]]", "[[At nine o'clock|A las nueve en punto]]", "[[At seven o'clock|A las siete en punto]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[School starts at eight o'clock|La escuela comienza a las ocho en punto]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[School|La escuela]] [[starts|comienza]] [[at|a las]] [[eight|ocho]] [[o'clock|en punto]]'."
         }
       ]
     },
@@ -1123,28 +1123,28 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[My gym routine|Mi rutina de gimnasio]]. [[I go|Voy]] [[to the gym|al gimnasio]] [[three times a week|veces a la semana]]. [[I go|Voy]] [[on Monday|el lunes]], [[Wednesday|miércoles]], [[and|y]] [[Friday|viernes]]. [[On Monday|El lunes]], [[I run|corro]] [[for thirty minutes|durante treinta minutos]]. [[On Wednesday|El miércoles]], [[I lift weights|levanto pesas]]. [[On Friday|El viernes]], [[I swim|nado]] [[in the pool|en la piscina]]. [[On the weekend|El fin de semana]], [[I relax|me relajo]] [[and|y]] [[watch movies|veo películas]].",
+    "transcript": "[[My|Mi]] [[gym|de gimnasio]] [[routine|rutina]]. [[I|Yo]] [[go|voy]] [[to|al]] [[the|el]] [[gym|gimnasio]] [[three|tres]] [[times|veces]] [[a|a la]] [[week|semana]]. [[I|Yo]] [[go|voy]] [[on|el]] [[Monday|lunes]], [[Wednesday|miércoles]], [[and|y]] [[Friday|viernes]]. [[On|El]] [[Monday|lunes]], [[I|yo]] [[run|corro]] [[for|durante]] [[thirty|treinta]] [[minutes|minutos]]. [[On|El]] [[Wednesday|miércoles]], [[I|yo]] [[lift|levanto]] [[weights|pesas]]. [[On|El]] [[Friday|viernes]], [[I|yo]] [[swim|nado]] [[in|en]] [[the|la]] [[pool|piscina]]. [[On|En]] [[the|el]] [[weekend|fin de semana]], [[I|yo]] [[relax|me relajo]] [[and|y]] [[watch|veo]] [[movies|películas]].",
     "content": {
       "title": "[[Reading: Gym Routine|Lectura: Rutina de gimnasio]]",
       "instructions": "[[Read about the gym and answer the questions|Lee sobre el gimnasio y responde las preguntas]].",
       "questions": [
         {
-          "question": "[[How many times a week does he go to the gym|¿Cuántas veces a la semana va al gimnasio]]?",
+          "question": "[[How|Cuántas]] [[many|muchas]] [[times|veces]] [[a|a la]] [[week|semana]] [[does|aux]] [[he|él]] [[go|va]] [[to|al]] [[the|el]] [[gym|gimnasio]]?",
           "options": ["[[Three times|Tres veces]]", "[[Five times|Cinco veces]]", "[[Every day|Cada día]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[I go to the gym three times a week|Voy al gimnasio tres veces a la semana]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[I|Yo]] [[go|voy]] [[to|al]] [[the|el]] [[gym|gimnasio]] [[three|tres]] [[times|veces]] [[a|a la]] [[week|semana]]'."
         },
         {
-          "question": "[[When does he swim|¿Cuándo nada él]]?",
+          "question": "[[When|Cuándo]] [[does|aux]] [[he|él]] [[swim|nada]]?",
           "options": ["[[On Friday|El viernes]]", "[[On Monday|El lunes]]", "[[On Saturday|El sábado]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[On Friday, I swim in the pool|El viernes, nado en la piscina]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[On|El]] [[Friday|viernes]], [[I|yo]] [[swim|nado]] [[in|en]] [[the|la]] [[pool|piscina]]'."
         },
         {
-          "question": "[[What does he do on Monday|¿Qué hace él el lunes]]?",
+          "question": "[[What|Qué]] [[does|aux]] [[he|él]] [[do|hace]] [[on|el]] [[Monday|lunes]]?",
           "options": ["[[Run|Correr]]", "[[Swim|Nadar]]", "[[Lift weights|Levantar pesas]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[On Monday, I run for thirty minutes|El lunes, corro durante treinta minutos]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[On|El]] [[Monday|lunes]], [[I|yo]] [[run|corro]] [[for|durante]] [[thirty|treinta]] [[minutes|minutos]]'."
         }
       ]
     },
@@ -1157,28 +1157,28 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[The bank schedule|El horario del banco]]. [[The bank|El banco]] [[is open|está abierto]] [[from Monday|de lunes]] [[to Friday|a viernes]], [[from nine AM|de nueve AM]] [[to five PM|a cinco PM]]. [[On Saturday|El sábado]], [[it is open|está abierto]] [[only|solo]] [[from nine AM|de nueve AM]] [[to twelve PM|a doce PM]]. [[It is closed|Está cerrado]] [[on Sunday|el domingo]]. [[I usually go|Normalmente voy]] [[to the bank|al banco]] [[on Wednesday morning|el miércoles por la mañana]].",
+    "transcript": "[[The|El]] [[bank|banco]] [[schedule|horario]]. [[The|El]] [[bank|banco]] [[is|está]] [[open|abierto]] [[from|de]] [[Monday|lunes]] [[to|a]] [[Friday|viernes]], [[from|de]] [[nine|nueve]] [[AM|AM]] [[to|a]] [[five|cinco]] [[PM|PM]]. [[On|El]] [[Saturday|sábado]], [[it|ello]] [[is|está]] [[open|abierto]] [[only|solo]] [[from|de]] [[nine|nueve]] [[AM|AM]] [[to|a]] [[twelve|doce]] [[PM|PM]]. [[It|Ello]] [[is|está]] [[closed|cerrado]] [[on|el]] [[Sunday|domingo]]. [[I|Yo]] [[usually|normalmente]] [[go|voy]] [[to|al]] [[the|el]] [[bank|banco]] [[on|el]] [[Wednesday|miércoles]] [[morning|por la mañana]].",
     "content": {
       "title": "[[Reading: Bank Schedule|Lectura: Horario del banco]]",
       "instructions": "[[Read about the bank and answer the questions|Lee sobre el banco y responde las preguntas]].",
       "questions": [
         {
-          "question": "[[What time does the bank close on Saturdays|¿A qué hora cierra el banco los sábados]]?",
+          "question": "[[What|Qué]] [[time|hora]] [[does|aux]] [[the|el]] [[bank|banco]] [[close|cierra]] [[on|los]] [[Saturdays|sábados]]?",
           "options": ["[[Twelve PM|12:00 PM]]", "[[Five PM|5:00 PM]]", "[[Nine AM|9:00 AM]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[On Saturday, it is open only from nine AM to twelve PM|El sábado, solo está abierto de nueve AM a doce PM]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[On|El]] [[Saturday|sábado]], [[it|ello]] [[is|está]] [[open|abierto]] [[only|solo]] [[from|de]] [[nine|nueve]] [[AM|AM]] [[to|a]] [[twelve|doce]] [[PM|PM]]'."
         },
         {
-          "question": "[[Is the bank open on Sunday|¿Está abierto el banco el domingo]]?",
+          "question": "[[Is|Está]] [[the|el]] [[bank|banco]] [[open|abierto]] [[on|el]] [[Sunday|domingo]]?",
           "options": ["[[No, it isn't|No, no lo está]]", "[[Yes, it is|Sí, lo está]]", "[[Only in the morning|Solo por la mañana]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[It is closed on Sunday|Está cerrado el domingo]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[It|Ello]] [[is|está]] [[closed|cerrado]] [[on|el]] [[Sunday|domingo]]'."
         },
         {
-          "question": "[[When does the person go to the bank|¿Cuándo va la persona al banco]]?",
+          "question": "[[When|Cuándo]] [[does|aux]] [[the|la]] [[person|persona]] [[go|va]] [[to|al]] [[the|el]] [[bank|banco]]?",
           "options": ["[[On Wednesday morning|El miércoles por la mañana]]", "[[On Monday|El lunes]]", "[[On Friday|El viernes]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[I usually go to the bank on Wednesday morning|Normalmente voy al banco el miércoles por la mañana]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[I|Yo]] [[usually|normalmente]] [[go|voy]] [[to|al]] [[the|el]] [[bank|banco]] [[on|el]] [[Wednesday|miércoles]] [[morning|por la mañana]]'."
         }
       ]
     },
@@ -1191,28 +1191,28 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[My favorite cafe|Mi cafetería favorita]]. [[I love|Amo]] [[this cafe|esta cafetería]] [[because|porque]] [[it is|es]] [[very quiet|muy tranquila]]. [[I go there|Voy allí]] [[every Tuesday|cada martes]] [[and|y]] [[Thursday|jueves]] [[with my friend|con mi amiga]] [[Sarah|Sarah]]. [[We have|Tomamos]] [[coffee and cake|café y pastel]]. [[On Sunday afternoon|El domingo por la tarde]], [[I go there|voy allí]] [[alone|solo]] [[to read a book|para leer un libro]]. [[The cafe|La cafetería]] [[is|es]] [[very small|muy pequeña]] [[but|pero]] [[beautiful|hermosa]].",
+    "transcript": "[[My|Mi]] [[favorite|favorita]] [[cafe|cafetería]]. [[I|Yo]] [[love|amo]] [[this|esta]] [[cafe|cafetería]] [[because|porque]] [[it|ello]] [[is|es]] [[very|muy]] [[quiet|tranquila]]. [[I|Yo]] [[go|voy]] [[there|allí]] [[every|cada]] [[Tuesday|martes]] [[and|y]] [[Thursday|jueves]] [[with|con]] [[my|mi]] [[friend|amiga]] [[Sarah|Sarah]]. [[We|Nosotros]] [[have|tomamos]] [[coffee|café]] [[and|y]] [[cake|pastel]]. [[On|El]] [[Sunday|domingo]] [[afternoon|por la tarde]], [[I|yo]] [[go|voy]] [[there|allí]] [[alone|solo]] [[to|para]] [[read|leer]] [[a|un]] [[book|libro]]. [[The|La]] [[cafe|cafetería]] [[is|es]] [[very|muy]] [[small|pequeña]] [[but|pero]] [[beautiful|hermosa]].",
     "content": {
       "title": "[[Reading: My Favorite Cafe|Lectura: Mi cafetería favorita]]",
       "instructions": "[[Read about the cafe and answer the questions|Lee sobre la cafetería y responde las preguntas]].",
       "questions": [
         {
-          "question": "[[Who does the person go with on Tuesdays|¿Con quién va la persona los martes]]?",
+          "question": "[[Who|Con quién]] [[does|aux]] [[the|la]] [[person|persona]] [[go|va]] [[with|con]] [[on|los]] [[Tuesdays|martes]]?",
           "options": ["[[With Sarah|Con Sarah]]", "[[Alone|Sola]]", "[[With his parents|Con sus padres]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[I go there every Tuesday and Thursday with my friend Sarah|Voy allí cada martes y jueves con mi amiga Sarah]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[I|Yo]] [[go|voy]] [[there|allí]] [[every|cada]] [[Tuesday|martes]] [[and|y]] [[Thursday|jueves]] [[with|con]] [[my|mi]] [[friend|amiga]] [[Sarah|Sarah]]'."
         },
         {
-          "question": "[[When does he/she go alone|¿Cuándo va solo/a]]?",
+          "question": "[[When|Cuándo]] [[does|aux]] [[he/she|él/ella]] [[go|va]] [[alone|solo/a]]?",
           "options": ["[[On Sunday afternoon|El domingo por la tarde]]", "[[On Thursday|El jueves]]", "[[Every day|Cada día]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[On Sunday afternoon, I go there alone|El domingo por la tarde, voy allí solo]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[On|El]] [[Sunday|domingo]] [[afternoon|por la tarde]], [[I|yo]] [[go|voy]] [[there|allí]] [[alone|solo]]'."
         },
         {
-          "question": "[[Why does he/she like this cafe|¿Por qué le gusta este café]]?",
+          "question": "[[Why|Por qué]] [[does|aux]] [[he/she|él/ella]] [[like|gusta]] [[this|este]] [[cafe|café]]?",
           "options": ["[[Because it is quiet|Porque es tranquilo]]", "[[Because it is big|Porque es grande]]", "[[Because it is cheap|Porque es barato]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[I love this cafe because it is very quiet|Amo este café porque es muy tranquilo]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[I|Yo]] [[love|amo]] [[this|esta]] [[cafe|cafetería]] [[because|porque]] [[it|ello]] [[is|es]] [[very|muy]] [[quiet|tranquila]]'."
         }
       ]
     },
@@ -1225,28 +1225,28 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Today|Hoy]] [[is|es]] [[Monday|lunes]], [[September 1st|1 de septiembre]]. [[It is|Es]] [[the first day|el primer día]] [[of my new job|de mi nuevo trabajo]]. [[I am|Estoy]] [[very nervous|muy nervioso]]. [[I work|Trabajo]] [[from Monday|de lunes]] [[to Friday|a viernes]], [[from eight-thirty AM|de ocho y media AM]] [[to four-thirty PM|a cuatro y media PM]]. [[Next Saturday|El próximo sábado]] [[is|es]] [[my birthday|mi cumpleaños]], [[so|así que]] [[I am|estoy]] [[very happy|muy feliz]] [[about the weekend|por el fin de semana]]!",
+    "transcript": "[[Today|Hoy]] [[is|es]] [[Monday|lunes]], [[September|septiembre]] [[1st|1]]. [[It|Ello]] [[is|es]] [[the|el]] [[first|primer]] [[day|día]] [[of|de]] [[my|mi]] [[new|nuevo]] [[job|trabajo]]. [[I|Yo]] [[am|estoy]] [[very|muy]] [[nervous|nervioso]]. [[I|Yo]] [[work|trabajo]] [[from|de]] [[Monday|lunes]] [[to|a]] [[Friday|viernes]], [[from|de]] [[eight-thirty|ocho y media]] [[AM|AM]] [[to|a]] [[four-thirty|cuatro y media]] [[PM|PM]]. [[Next|El próximo]] [[Saturday|sábado]] [[is|es]] [[my|mi]] [[birthday|cumpleaños]], [[so|así que]] [[I|yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[about|por]] [[the|el]] [[weekend|fin de semana]]!",
     "content": {
       "title": "[[Reading: New Job|Lectura: Nuevo trabajo]]",
       "instructions": "[[Read about the first day and answer the questions|Lee sobre el primer día y responde las preguntas]].",
       "questions": [
         {
-          "question": "[[What day is today|¿Qué día es hoy]]?",
+          "question": "[[What|Qué]] [[day|día]] [[is|es]] [[today|hoy]]?",
           "options": ["[[Monday|Lunes]]", "[[Saturday|Sábado]]", "[[Friday|Viernes]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text starts saying|El texto comienza diciendo]]: '[[Today is Monday|Hoy es lunes]]'."
+          "explanation": "[[The text starts saying|El texto comienza diciendo]]: '[[Today|Hoy]] [[is|es]] [[Monday|lunes]]'."
         },
         {
-          "question": "[[When is the birthday|¿Cuándo es el cumpleaños]]?",
+          "question": "[[When|Cuándo]] [[is|es]] [[the|el]] [[birthday|cumpleaños]]?",
           "options": ["[[Next Saturday|El próximo sábado]]", "[[Today|Hoy]]", "[[Monday|Lunes]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[Next Saturday is my birthday|El próximo sábado es mi cumpleaños]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[Next|El próximo]] [[Saturday|sábado]] [[is|es]] [[my|mi]] [[birthday|cumpleaños]]'."
         },
         {
-          "question": "[[What time does he finish work|¿A qué hora termina de trabajar]]?",
+          "question": "[[What|Qué]] [[time|hora]] [[does|aux]] [[he|él]] [[finish|termina]] [[work|el trabajo]]?",
           "options": ["[[At four-thirty PM|A las cuatro y media PM]]", "[[At eight-thirty AM|A las ocho y media AM]]", "[[At five o'clock|A las cinco en punto]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[from eight-thirty AM to four-thirty PM|de ocho y media AM a cuatro y media PM]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[from|de]] [[eight-thirty|ocho y media]] [[AM|AM]] [[to|a]] [[four-thirty|cuatro y media]] [[PM|PM]]'."
         }
       ]
     },
@@ -1259,7 +1259,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Cleaning day|Día de limpieza]]. [[In my house|En mi casa]], [[Saturday|el sábado]] [[is|es]] [[cleaning day|día de limpieza]]. [[My wife|Mi esposa]] [[cleans|limpia]] [[the kitchen|la cocina]] [[and|y]] [[the living room|el salón]]. [[I clean|Yo limpio]] [[the bedrooms|los dormitorios]] [[and|y]] [[the bathroom|el baño]]. [[On Sunday|El domingo]], [[we don't clean|no limpiamos]] [[anything|nada]]. [[We|Simplemente]] [[just relax|nos relajamos]] [[and|y]] [[visit our friends|visitamos a nuestros amigos]]. [[It is|Es]] [[a good routine|una buena rutina]].",
+    "transcript": "[[Cleaning|De limpieza]] [[day|día]]. [[In|En]] [[my|mi]] [[house|casa]], [[Saturday|el sábado]] [[is|es]] [[cleaning|de limpieza]] [[day|día]]. [[My|Mi]] [[wife|esposa]] [[cleans|limpia]] [[the|la]] [[kitchen|cocina]] [[and|y]] [[the|el]] [[living|salón]] [[room|salón]]. [[I|Yo]] [[clean|limpio]] [[the|los]] [[bedrooms|dormitorios]] [[and|y]] [[the|el]] [[bathroom|baño]]. [[On|El]] [[Sunday|domingo]], [[we|nosotros]] [[don't|no]] [[clean|limpiamos]] [[anything|nada]]. [[We|Nosotros]] [[just|simplemente]] [[relax|nos relajamos]] [[and|y]] [[visit|visitamos]] [[our|nuestros]] [[friends|amigos]]. [[It|Ello]] [[is|es]] [[a|una]] [[good|buena]] [[routine|rutina]].",
     "content": {
       "title": "[[Reading: Cleaning Day|Lectura: Día de limpieza]]",
       "instructions": "[[Read about the cleaning routine and answer the questions|Lee sobre la rutina de limpieza y responde las preguntas]].",

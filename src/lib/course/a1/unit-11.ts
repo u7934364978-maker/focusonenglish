@@ -964,16 +964,16 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "medium",
-    "transcript": "[[My name|Mi nombre]] [[is|es]] [[Peter|Peter]]. [[I get up|Me levanto]] [[at six o'clock|a las seis en punto]] [[every day|cada día]]. [[I have breakfast|Desayuno]] [[at six-thirty|a las seis y media]]. [[Then|Luego]] [[I go to work|voy al trabajo]] [[at seven|a las siete]]. [[I finish work|Termino el trabajo]] [[at four PM|a las cuatro PM]]. [[I am|Estoy]] [[usually|normalmente]] [[home|en casa]] [[at four-thirty|a las cuatro y media]]. [[I have dinner|Ceno]] [[at eight|a las ocho]] [[and|y]] [[go to bed|me voy a la cama]] [[at ten|a las diez]].",
+    "transcript": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Peter|Peter]]. [[I|Yo]] [[get|levanto]] [[up|me]] [[at|a las]] [[six|seis]] [[o'clock|en punto]] [[every|cada]] [[day|día]]. [[I|Yo]] [[have|tomo]] [[breakfast|el desayuno]] [[at|a las]] [[six-thirty|seis y media]]. [[Then|Luego]] [[I|yo]] [[go|voy]] [[to|a]] [[work|el trabajo]] [[at|a las]] [[seven|siete]]. [[I|Yo]] [[finish|termino]] [[work|el trabajo]] [[at|a las]] [[four|cuatro]] [[PM|PM]]. [[I|Yo]] [[am|estoy]] [[usually|normalmente]] [[home|en casa]] [[at|a las]] [[four-thirty|cuatro y media]]. [[I|Yo]] [[have|tomo]] [[dinner|la cena]] [[at|a las]] [[eight|ocho]] [[and|y]] [[go|voy]] [[to|a la]] [[bed|cama]] [[at|a las]] [[ten|diez]].",
     "content": {
       "title": "[[Reading: Peter's Routine|Lectura: La rutina de Peter]]",
       "instructions": "[[Read the text and answer the questions|Lee el texto y responde las preguntas]].",
       "questions": [
         {
-          "question": "[[What time does Peter get up|¿A qué hora se levanta Peter]]?",
+          "question": "[[What|Qué]] [[time|hora]] [[does|aux]] [[Peter|Peter]] [[get|levanta]] [[up|se]]?",
           "options": ["[[At six o'clock|A las seis en punto]]", "[[At seven o'clock|A las siete en punto]]", "[[At eight o'clock|A las ocho en punto]]"],
           "correctAnswer": 0,
-          "explanation": "[[Peter says|Peter dice]]: '[[I get up at six o'clock|Me levanto a las seis en punto]]'."
+          "explanation": "[[Peter|Peter]] [[says|dice]]: '[[I|Yo]] [[get|levanto]] [[up|me]] [[at|a las]] [[six|seis]] [[o'clock|en punto]]'."
         },
         {
           "question": "[[When does he finish work|¿Cuándo termina de trabajar]]?",
@@ -997,28 +997,28 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "medium",
-    "transcript": "[[Emma|Emma]] [[is|es]] [[a student|una estudiante]]. [[Her school|Su escuela]] [[starts|comienza]] [[at nine o'clock|a las nueve en punto]]. [[She leaves home|Sale de casa]] [[at eight-fifteen|a las ocho y cuarto]]. [[She has classes|Tiene clases]] [[in the morning|por la mañana]] [[and|y]] [[afternoon|por la tarde]]. [[She eats lunch|Almuerza]] [[with her friends|con sus amigos]] [[at twelve-thirty|a las doce y media]]. [[She goes home|Se va a casa]] [[at three PM|a las tres PM]] [[and|y]] [[does her homework|hace sus deberes]].",
+    "transcript": "[[Emma|Emma]] [[is|es]] [[a|una]] [[student|estudiante]]. [[Her|Su]] [[school|escuela]] [[starts|comienza]] [[at|a las]] [[nine|nueve]] [[o'clock|en punto]]. [[She|Ella]] [[leaves|sale]] [[home|de casa]] [[at|a las]] [[eight-fifteen|ocho y cuarto]]. [[She|Ella]] [[has|tiene]] [[classes|clases]] [[in|en]] [[the|la]] [[morning|mañana]] [[and|y]] [[afternoon|tarde]]. [[She|Ella]] [[eats|almuerza]] [[lunch|el almuerzo]] [[with|con]] [[her|sus]] [[friends|amigos]] [[at|a las]] [[twelve-thirty|doce y media]]. [[She|Ella]] [[goes|va]] [[home|a casa]] [[at|a las]] [[three|tres]] [[PM|PM]] [[and|y]] [[does|hace]] [[her|sus]] [[homework|deberes]].",
     "content": {
       "title": "[[Reading: Emma at School|Lectura: Emma en la escuela]]",
       "instructions": "[[Read the text and answer the questions|Lee el texto y responde las preguntas]].",
       "questions": [
         {
-          "question": "[[What time does school start|¿A qué hora comienza la escuela]]?",
+          "question": "[[What|Qué]] [[time|hora]] [[does|aux]] [[school|la escuela]] [[start|comienza]]?",
           "options": ["[[At 9:00 AM|A las 9:00 AM]]", "[[At 8:15 AM|A las 8:15 AM]]", "[[At 12:30 PM|A las 12:30 PM]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[Her school starts at nine o'clock|Su escuela comienza a las nueve en punto]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[Her|Su]] [[school|escuela]] [[starts|comienza]] [[at|a las]] [[nine|nueve]] [[o'clock|en punto]]'."
         },
         {
-          "question": "[[When does she eat lunch|¿Cuándo almuerza ella]]?",
+          "question": "[[When|Cuándo]] [[does|aux]] [[she|ella]] [[eat|almuerza]] [[lunch|el almuerzo]]?",
           "options": ["[[At 12:30 PM|A las 12:30 PM]]", "[[At 3:00 PM|A las 3:00 PM]]", "[[At 9:00 AM|A las 9:00 AM]]"],
           "correctAnswer": 0,
-          "explanation": "[[Emma says|Emma dice]]: '[[She eats lunch with her friends at twelve-thirty|Ella almuerza con sus amigos a las doce y media]]'."
+          "explanation": "[[Emma|Emma]] [[says|dice]]: '[[She|Ella]] [[eats|almuerza]] [[lunch|el almuerzo]] [[with|con]] [[her|sus]] [[friends|amigos]] [[at|a las]] [[twelve-thirty|doce y media]]'."
         },
         {
-          "question": "[[What does she do at three PM|¿Qué hace ella a las tres PM]]?",
+          "question": "[[What|Qué]] [[does|aux]] [[she|ella]] [[do|hace]] [[at|a las]] [[three|tres]] [[PM|PM]]?",
           "options": ["[[She goes home|Se va a casa]]", "[[She goes to school|Va a la escuela]]", "[[She eats breakfast|Desayuna]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[She goes home at three PM|Ella se va a casa a las tres PM]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[She|Ella]] [[goes|va]] [[home|a casa]] [[at|a las]] [[three|tres]] [[PM|PM]]'."
         }
       ]
     },
@@ -1030,28 +1030,28 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "medium",
-    "transcript": "[[John|John]] [[is|es]] [[a doctor|un médico]]. [[He works|Trabaja]] [[at night|por la noche]] [[in a hospital|en un hospital]]. [[He starts|Comienza]] [[his work|su trabajo]] [[at eight PM|a las ocho PM]] [[and|y]] [[finishes|termina]] [[at six AM|a las seis AM]]. [[He is|Está]] [[very tired|muy cansado]] [[in the morning|por la mañana]]. [[He sleeps|Duerme]] [[from eight AM|desde las ocho AM]] [[to four PM|hasta las cuatro PM]]. [[He has breakfast|Desayuna]] [[at five PM|a las cinco PM]] [[before|antes de que]] [[he goes to work|se vaya al trabajo]].",
+    "transcript": "[[John|John]] [[is|es]] [[a|un]] [[doctor|médico]]. [[He|Él]] [[works|trabaja]] [[at|por la]] [[night|noche]] [[in|en]] [[a|un]] [[hospital|hospital]]. [[He|Él]] [[starts|comienza]] [[his|su]] [[work|trabajo]] [[at|a las]] [[eight|ocho]] [[PM|PM]] [[and|y]] [[finishes|termina]] [[at|a las]] [[six|seis]] [[AM|AM]]. [[He|Él]] [[is|está]] [[very|muy]] [[tired|cansado]] [[in|en]] [[the|la]] [[morning|mañana]]. [[He|Él]] [[sleeps|duerme]] [[from|desde las]] [[eight|ocho]] [[AM|AM]] [[to|hasta las]] [[four|cuatro]] [[PM|PM]]. [[He|Él]] [[has|toma]] [[breakfast|el desayuno]] [[at|a las]] [[five|cinco]] [[PM|PM]] [[before|antes de que]] [[he|él]] [[goes|vaya]] [[to|al]] [[work|trabajo]].",
     "content": {
       "title": "[[Reading: John's Schedule|Lectura: El horario de John]]",
       "instructions": "[[Read the text and answer the questions|Lee el texto y responde las preguntas]].",
       "questions": [
         {
-          "question": "[[When does John work|¿Cuándo trabaja John]]?",
+          "question": "[[When|Cuándo]] [[does|aux]] [[John|John]] [[work|trabaja]]?",
           "options": ["[[At night|Por la noche]]", "[[In the morning|Por la mañana]]", "[[In the afternoon|Por la tarde]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[He works at night|Trabaja por la noche]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[He|Él]] [[works|trabaja]] [[at|por la]] [[night|noche]]'."
         },
         {
-          "question": "[[What time does he finish work|¿A qué hora termina de trabajar]]?",
+          "question": "[[What|Qué]] [[time|hora]] [[does|aux]] [[he|él]] [[finish|termina]] [[work|el trabajo]]?",
           "options": ["[[At 6:00 AM|A las 6:00 AM]]", "[[At 8:00 PM|A las 8:00 PM]]", "[[At 5:00 PM|A las 5:00 PM]]"],
           "correctAnswer": 0,
-          "explanation": "[[John says|John dice]]: '[[finishes at six AM|termina a las seis AM]]'."
+          "explanation": "[[John|John]] [[says|dice]]: '[[finishes|termina]] [[at|a las]] [[six|seis]] [[AM|AM]]'."
         },
         {
-          "question": "[[When does he sleep|¿Cuándo duerme él]]?",
+          "question": "[[When|Cuándo]] [[does|aux]] [[he|él]] [[sleep|duerme]]?",
           "options": ["[[From 8:00 AM to 4:00 PM|De 8:00 AM a 4:00 PM]]", "[[From 8:00 PM to 6:00 AM|De 8:00 PM a 6:00 AM]]", "[[In the evening|Por la tarde/noche]]"],
           "correctAnswer": 0,
-          "explanation": "[[John says|John dice]]: '[[He sleeps from eight AM to four PM|Duerme de ocho AM a cuatro PM]]'."
+          "explanation": "[[John|John]] [[says|dice]]: '[[He|Él]] [[sleeps|duerme]] [[from|desde las]] [[eight|ocho]] [[AM|AM]] [[to|hasta las]] [[four|cuatro]] [[PM|PM]]'."
         }
       ]
     },
@@ -1063,22 +1063,22 @@ export const UNIT_11_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading",
     "difficulty": "medium",
-    "transcript": "[[Today|Hoy]] [[is|es]] [[Saturday|Sábado]]. [[I am not|No estoy]] [[at work|en el trabajo]]. [[I usually|Normalmente me]] [[get up late|levanto tarde]] [[at ten o'clock|a las diez en punto]]. [[I have|Tomo]] [[a long breakfast|un desayuno largo]] [[with my family|con mi familia]]. [[In the afternoon|Por la tarde]], [[we go|vamos]] [[to the park|al parque]]. [[We have dinner|Cenamos]] [[at seven PM|a las siete PM]] [[and then|y luego]] [[we watch|vemos]] [[a movie|una película]]. [[I love|¡Me encantan]] [[Saturdays|los sábados]]!",
+    "transcript": "[[Today|Hoy]] [[is|es]] [[Saturday|Sábado]]. [[I|Yo]] [[am|estoy]] [[not|no]] [[at|en el]] [[work|trabajo]]. [[I|Yo]] [[usually|normalmente]] [[get|levanto]] [[up|me]] [[late|tarde]] [[at|a las]] [[ten|diez]] [[o'clock|en punto]]. [[I|Yo]] [[have|tomo]] [[a|un]] [[long|largo]] [[breakfast|desayuno]] [[with|con]] [[my|mi]] [[family|familia]]. [[In|En]] [[the|la]] [[afternoon|tarde]], [[we|nosotros]] [[go|vamos]] [[to|a]] [[the|el]] [[park|parque]]. [[We|Nosotros]] [[have|tomamos]] [[dinner|la cena]] [[at|a las]] [[seven|siete]] [[PM|PM]] [[and|y]] [[then|luego]] [[we|nosotros]] [[watch|vemos]] [[a|una]] [[movie|película]]. [[I|Yo]] [[love|amo]] [[Saturdays|los sábados]]!",
     "content": {
       "title": "[[Reading: My Saturday|Lectura: Mi sábado]]",
       "instructions": "[[Read the text and answer the questions|Lee el texto y responde las preguntas]].",
       "questions": [
         {
-          "question": "[[What time does the person get up on Saturdays|¿A qué hora se levanta la persona los sábados]]?",
+          "question": "[[What|Qué]] [[time|hora]] [[does|aux]] [[the|la]] [[person|persona]] [[get|levanta]] [[up|se]] [[on|los]] [[Saturdays|sábados]]?",
           "options": ["[[At 10:00 AM|A las 10:00 AM]]", "[[At 7:00 AM|A las 7:00 AM]]", "[[At 6:00 AM|A las 6:00 AM]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[I usually get up late at ten o'clock|Normalmente me levanto tarde a las diez en punto]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[I|Yo]] [[usually|normalmente]] [[get|levanto]] [[up|me]] [[late|tarde]] [[at|a las]] [[ten|diez]] [[o'clock|en punto]]'."
         },
         {
-          "question": "[[What does the family do in the afternoon|¿Qué hace la familia por la tarde]]?",
+          "question": "[[What|Qué]] [[does|aux]] [[the|la]] [[family|familia]] [[do|hace]] [[in|en]] [[the|la]] [[afternoon|tarde]]?",
           "options": ["[[They go to the park|Van al parque]]", "[[They go to work|Van al trabajo]]", "[[They go to school|Van a la escuela]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says|El texto dice]]: '[[In the afternoon, we go to the park|Por la tarde, vamos al parque]]'."
+          "explanation": "[[The text says|El texto dice]]: '[[In|En]] [[the|la]] [[afternoon|tarde]], [[we|nosotros]] [[go|vamos]] [[to|a]] [[the|el]] [[park|parque]]'."
         }
       ]
     },

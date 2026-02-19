@@ -10,7 +10,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Articles: a/an",
     "difficulty": "easy",
-    "transcript": "[[A book. An eraser|Un libro. Una goma]].",
+    "transcript": "[[A|Un]] [[book|libro]]. [[An|Una]] [[eraser|goma]].",
     "content": {
       "title": "Uso de 'a' y 'an'",
       "instructions": "Elige el artículo correcto según el sonido inicial.",
@@ -32,7 +32,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Numbers 1-10",
     "difficulty": "easy",
-    "transcript": "[[I have three books|Yo tengo tres libros]].",
+    "transcript": "[[I|Yo]] [[have|tengo]] [[three|tres]] [[books|libros]].",
     "content": {
       "title": "Contando Objetos",
       "instructions": "Elige el número correcto para (3).",

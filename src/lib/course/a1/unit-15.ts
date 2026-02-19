@@ -7,16 +7,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "easy",
-    "transcript": "I love playing the guitar.",
+    "transcript": "[[I|Yo]] [[love|amo]] [[playing|tocar]] [[the|la]] [[guitar.|guitarra.]]",
     "content": {
-      "title": "Vocabulario de Hobbies",
-      "instructions": "Elige la traducción correcta.",
+      "title": "[[Hobby|Vocabulario]] [[Vocabulary|de Hobbies]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation.|traducción.]]",
       "questions": [
         {
-          "question": "[[I love|Yo amo]] (_____) [[the guitar|la guitarra]].",
+          "question": "[[I|Yo]] [[love|amo]] (_____) [[the|la]] [[guitar|guitarra]].",
           "options": ["[[playing|tocar]]", "[[running|correr]]", "[[cooking|cocinar]]"],
           "correctAnswer": 0,
-          "explanation": "Playing se usa para instrumentos musicales y deportes de equipo."
+          "explanation": "[[Playing|Playing]] [[is|se]] [[used|usa]] [[for|para]] [[musical|musicales]] [[instruments|instrumentos]] [[and|y]] [[team|de]] [[sports.|equipo.]]"
         }
       ]
     },
@@ -29,16 +29,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "easy",
-    "transcript": "She likes gardening.",
+    "transcript": "[[She|Ella]] [[likes|le gusta]] [[gardening.|la jardinería.]]",
     "content": {
-      "title": "Jardinería",
-      "instructions": "Elige el hobby correcto.",
+      "title": "[[Gardening|Jardinería]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[hobby.|hobby.]]",
       "questions": [
         {
-          "question": "[[She likes|A ella le gusta]] (_____) .",
+          "question": "[[She|A ella]] [[likes|le gusta]] (_____) .",
           "options": ["[[gardening|la jardinería]]", "[[swimming|nadar]]", "[[painting|pintar]]"],
           "correctAnswer": 0,
-          "explanation": "Gardening significa trabajar en el jardín."
+          "explanation": "[[Gardening|Gardening]] [[means|significa]] [[working|trabajar]] [[in|en]] [[the|el]] [[garden.|jardín.]]"
         }
       ]
     },
@@ -51,13 +51,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "We like swimming in the sea.",
+    "transcript": "[[We|Nosotros]] [[like|gusta]] [[swimming|nadar]] [[in|en]] [[the|el]] [[sea.|mar.]]",
     "content": {
-      "title": "Nadar en el Mar",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[We like swimming in the sea|Nosotros gusta nadar en el mar]].",
+      "title": "[[Swimming|Nadar]] [[in|en]] [[the|el]] [[Sea|Mar]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence|oración]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[We|Nosotros]] [[like|gusta]] [[swimming|nadar]] [[in|en]] [[the|el]] [[sea|mar]].",
       "words": ["[[sea|mar]].", "[[the|el]]", "[[in|en]]", "[[swimming|nadar]]", "[[like|gusta]]", "[[We|Nosotros]]"],
-      "explanation": "Después de 'like' usamos el verbo con -ing."
+      "explanation": "[[After|Después de]] '[[like|like]]' [[we|nosotros]] [[use|usamos]] [[the|el]] [[verb|verbo]] [[with|con]] [[-ing.|-ing.]]"
     },
     "audioUrl": "audio/a1/unit-15/e5.mp3",
     "topicName": "Grammar"
@@ -68,16 +68,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Like + -ing",
     "difficulty": "easy",
-    "transcript": "Do you like cooking?",
+    "transcript": "[[Do|¿Te]] [[you|]] [[like|gusta]] [[cooking?|cocinar?]]",
     "content": {
-      "title": "Preguntar Gustos",
-      "instructions": "Completa la pregunta.",
+      "title": "[[Asking|Preguntar]] [[about|sobre]] [[Likes|Gustos]]",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[question.|pregunta.]]",
       "questions": [
         {
-          "question": "[[Do you like|Te gusta]] (_____) ?",
+          "question": "[[Do|¿Te]] [[you|]] [[like|gusta]] (_____) ?",
           "options": ["[[cooking|cocinar]]", "[[cook|cocinar]]", "[[to cooking|cocinar]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos la forma -ing después de 'like' en preguntas también."
+          "explanation": "[[We|Nosotros]] [[use|usamos]] [[the|la]] [[-ing|forma -ing]] [[form|]] [[after|después de]] '[[like|like]]' [[in|en]] [[questions|preguntas]] [[too.|también.]]"
         }
       ]
     },
@@ -90,13 +90,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Love/Hate + -ing",
     "difficulty": "medium",
-    "transcript": "I hate waiting for the bus.",
+    "transcript": "[[I|Yo]] [[hate|odio]] [[waiting|esperar]] [[for|por]] [[the|el]] [[bus.|autobús.]]",
     "content": {
-      "title": "Odiar esperar",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I hate waiting for the bus|Yo odio esperar por el autobús]].",
+      "title": "[[Hate|Odiar]] [[Waiting|esperar]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence|oración]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[I|Yo]] [[hate|odio]] [[waiting|esperar]] [[for|por]] [[the|el]] [[bus|autobús]].",
       "words": ["[[bus|autobús]].", "[[the|el]]", "[[for|por]]", "[[waiting|esperar]]", "[[hate|odio]]", "[[I|Yo]]"],
-      "explanation": "Hate funciona igual que like, requiere -ing."
+      "explanation": "[[Hate|Hate]] [[works|funciona]] [[the|de la]] [[same|misma]] [[way|manera]] [[as|que]] [[like,|like,]] [[it|esto]] [[requires|requiere]] [[-ing.|-ing.]]"
     },
     "audioUrl": "audio/a1/unit-15/e7.mp3",
     "topicName": "Grammar"
@@ -107,16 +107,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "easy",
-    "transcript": "He loves taking photos.",
+    "transcript": "[[He|Él]] [[loves|ama]] [[taking|hacer]] [[photos.|fotos.]]",
     "content": {
-      "title": "Fotografía",
-      "instructions": "Elige el verbo correcto.",
+      "title": "[[Photography|Fotografía]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[verb.|verbo.]]",
       "questions": [
         {
-          "question": "[[He loves|Él ama]] (_____) [[photos|fotos]].",
+          "question": "[[He|Él]] [[loves|ama]] (_____) [[photos|fotos]].",
           "options": ["[[taking|hacer]]", "[[making|hacer]]", "[[doing|hacer]]"],
           "correctAnswer": 0,
-          "explanation": "La expresión correcta es 'take photos'."
+          "explanation": "[[The|La]] [[correct|correcta]] [[expression|expresión]] [[is|es]] '[[take|take]] [[photos|photos]]'."
         }
       ]
     },
@@ -129,13 +129,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "medium",
-    "transcript": "My sister loves drawing animals.",
+    "transcript": "[[My|Mi]] [[sister|hermana]] [[loves|ama]] [[drawing|dibujar]] [[animals.|animales.]]",
     "content": {
-      "title": "Dibujar Animales",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[My sister loves drawing animals|Mi hermana ama dibujar animales]].",
+      "title": "[[Drawing|Dibujar]] [[Animals|Animales]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence|oración]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[My|Mi]] [[sister|hermana]] [[loves|ama]] [[drawing|dibujar]] [[animals|animales]].",
       "words": ["[[animals|animales]].", "[[drawing|dibujar]]", "[[loves|ama]]", "[[sister|hermana]]", "[[My|Mi]]"],
-      "explanation": "Loves indica una preferencia muy fuerte."
+      "explanation": "[[Loves|Loves]] [[indicates|indica]] [[a|una]] [[very|muy]] [[strong|fuerte]] [[preference.|preferencia.]]"
     },
     "audioUrl": "audio/a1/unit-15/e9.mp3",
     "topicName": "Vocabulary"
@@ -146,16 +146,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "They don't like watching horror movies.",
+    "transcript": "[[They|Ellos]] [[don't|no]] [[like|les gusta]] [[watching|ver]] [[horror|de terror]] [[movies.|películas.]]",
     "content": {
-      "title": "Negación de Gustos",
-      "instructions": "Elige la forma negativa correcta.",
+      "title": "[[Negating|Negación]] [[Likes|de Gustos]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[negative|negativa]] [[form.|forma.]]",
       "questions": [
         {
-          "question": "[[They|Ellos]] (_____) [[watching horror movies|ver de terror películas]].",
+          "question": "[[They|Ellos]] (_____) [[watching|ver]] [[horror|de terror]] [[movies|películas]].",
           "options": ["[[don't like|no les gusta]]", "[[doesn't like|no les gusta]]", "[[no like|no gusta]]"],
           "correctAnswer": 0,
-          "explanation": "Para 'they' usamos 'don't' + 'like' + verbo -ing."
+          "explanation": "[[For|Para]] '[[they|they]]' [[we|nosotros]] [[use|usamos]] '[[don't|don't]]' + '[[like|like]]' + [[verb|verbo]] [[-ing.|-ing.]]"
         }
       ]
     },
@@ -168,13 +168,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "medium",
-    "transcript": "I like listening to pop music.",
+    "transcript": "[[I|Me]] [[like|gusta]] [[listening|escuchar]] [[to|a]] [[pop|pop]] [[music.|música.]]",
     "content": {
-      "title": "Música Pop",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I like listening to pop music|Me gusta escuchar a pop música]].",
+      "title": "[[Pop|Música]] [[Music|Pop]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence|oración]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[I|Me]] [[like|gusta]] [[listening|escuchar]] [[to|a]] [[pop|pop]] [[music|música]].",
       "words": ["[[music|música]].", "[[pop|pop]]", "[[to|a]]", "[[listening|escuchar]]", "[[like|gusta]]", "[[I|Yo]]"],
-      "explanation": "Listen siempre va acompañado de 'to'."
+      "explanation": "[[Listen|Listen]] [[always|siempre]] [[goes|va]] [[with|con]] '[[to.|to.]]'"
     },
     "audioUrl": "audio/a1/unit-15/e11.mp3",
     "topicName": "Vocabulary"
@@ -185,16 +185,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "easy",
-    "transcript": "Running is healthy.",
+    "transcript": "[[Running|Correr]] [[is|es]] [[healthy.|saludable.]]",
     "content": {
-      "title": "Hobby como Sujeto",
-      "instructions": "Elige la palabra correcta.",
+      "title": "[[Hobby|Hobby]] [[as|como]] [[Subject|Sujeto]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word.|palabra.]]",
       "questions": [
         {
-          "question": "(_____) [[is healthy|es saludable]].",
+          "question": "(_____) [[is|es]] [[healthy|saludable]].",
           "options": ["[[Running|Correr]]", "[[Run|Correr]]", "[[To running|Correr]]"],
           "correctAnswer": 0,
-          "explanation": "Cuando un verbo es el sujeto de la oración, usamos la forma -ing."
+          "explanation": "[[When|Cuando]] [[a|un]] [[verb|verbo]] [[is|es]] [[the|el]] [[subject|sujeto]] [[of|de]] [[the|la]] [[sentence,|oración,]] [[we|nosotros]] [[use|usamos]] [[the|la]] [[-ing|forma -ing.]] [[form.|]]"
         }
       ]
     },
@@ -207,13 +207,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "Does she like dancing salsa?",
+    "transcript": "[[Does|¿A ella]] [[she|]] [[like|gusta]] [[dancing|bailar]] [[salsa?|salsa?]]",
     "content": {
-      "title": "Pregunta de Gustos",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Does she like dancing salsa|A ella gusta bailar salsa]]?",
+      "title": "[[Question|Pregunta]] [[about|de]] [[Likes|Gustos]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[question|pregunta]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[Does|¿A ella]] [[she|]] [[like|gusta]] [[dancing|bailar]] [[salsa|salsa]]?",
       "words": ["[[salsa|salsa]]?", "[[dancing|bailar]]", "[[like|gusta]]", "[[she|ella]]", "[[Does|Aux]]"],
-      "explanation": "Usamos 'Does' para preguntas con 'she'."
+      "explanation": "[[We|Nosotros]] [[use|usamos]] '[[Does|Does]]' [[for|para]] [[questions|preguntas]] [[with|con]] '[[she.|she.]]'"
     },
     "audioUrl": "audio/a1/unit-15/e13.mp3",
     "topicName": "Grammar"
@@ -224,16 +224,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "easy",
-    "transcript": "My father likes reading the newspaper.",
+    "transcript": "[[My|Mi]] [[father|padre]] [[likes|gusta]] [[reading|leer]] [[the|el]] [[newspaper.|periódico.]]",
     "content": {
-      "title": "Leer el Periódico",
-      "instructions": "Elige el objeto correcto.",
+      "title": "[[Reading|Leer]] [[the|el]] [[Newspaper|Periódico]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[object.|objeto.]]",
       "questions": [
         {
-          "question": "[[My father likes reading the|Mi padre gusta leer el]] (_____) .",
+          "question": "[[My|Mi]] [[father|padre]] [[likes|gusta]] [[reading|leer]] [[the|el]] (_____) .",
           "options": ["[[newspaper|periódico]]", "[[book|libro]]", "[[magazine|revista]]"],
           "correctAnswer": 0,
-          "explanation": "Newspaper es el término específico para periódico."
+          "explanation": "[[Newspaper|Newspaper]] [[is|es]] [[the|el]] [[specific|específico]] [[term|término]] [[for|para]] [[newspaper.|periódico.]]"
         }
       ]
     },
@@ -246,13 +246,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "I don't like traveling by plane.",
+    "transcript": "[[I|Yo]] [[don't|no]] [[like|gusta]] [[traveling|viajar]] [[by|en]] [[plane.|avión.]]",
     "content": {
-      "title": "Viajar en Avión",
-      "instructions": "Ordena la oración negativa.",
-      "correctSentence": "[[I don't like traveling by plane|Yo no gusta viajar por avión]].",
-      "words": ["[[plane|avión]].", "[[by|por]]", "[[traveling|viajar]]", "[[like|gusta]]", "[[don't|no]]", "[[I|Yo]]"],
-      "explanation": "Negación con 'I don't like'."
+      "title": "[[Traveling|Viajar]] [[by|en]] [[Plane|Avión]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[negative|negativa]] [[sentence|oración]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[I|Yo]] [[don't|no]] [[like|gusta]] [[traveling|viajar]] [[by|en]] [[plane|avión]].",
+      "words": ["[[plane|avión]].", "[[by|en]]", "[[traveling|viajar]]", "[[like|gusta]]", "[[don't|no]]", "[[I|Yo]]"],
+      "explanation": "[[Negation|Negación]] [[with|con]] '[[I|I]] [[don't|don't]] [[like.|like.]]'"
     },
     "audioUrl": "audio/a1/unit-15/e15.mp3",
     "topicName": "Grammar"
@@ -263,16 +263,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "easy",
-    "transcript": "Painting is my favorite hobby.",
+    "transcript": "[[Painting|Pintar]] [[is|es]] [[my|mi]] [[favorite|favorito]] [[hobby.|pasatiempo.]]",
     "content": {
-      "title": "Mi Hobby Favorito",
-      "instructions": "Elige la palabra que falta.",
+      "title": "[[My|Mi]] [[Favorite|Favorito]] [[Hobby|Hobby]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[missing|faltante]] [[word.|palabra.]]",
       "questions": [
         {
-          "question": "[[Painting is my favorite|Pintar es mi favorito]] (_____) .",
+          "question": "[[Painting|Pintar]] [[is|es]] [[my|mi]] [[favorite|favorito]] (_____) .",
           "options": ["[[hobby|pasatiempo]]", "[[job|trabajo]]", "[[sport|deporte]]"],
           "correctAnswer": 0,
-          "explanation": "Hobby significa pasatiempo o afición."
+          "explanation": "[[Hobby|Hobby]] [[means|significa]] [[hobby|pasatiempo]] [[or|o]] [[pastime.|afición.]]"
         }
       ]
     },
@@ -285,13 +285,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Love/Hate + -ing",
     "difficulty": "medium",
-    "transcript": "Children love playing in the park.",
+    "transcript": "[[Children|Niños]] [[love|aman]] [[playing|jugar]] [[in|en]] [[the|el]] [[park.|parque.]]",
     "content": {
-      "title": "Niños en el Parque",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[Children love playing in the park|Niños aman jugar en el parque]].",
+      "title": "[[Children|Niños]] [[in|en]] [[the|el]] [[Park|Parque]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence|oración]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[Children|Niños]] [[love|aman]] [[playing|jugar]] [[in|en]] [[the|el]] [[park|parque]].",
       "words": ["[[park|parque]].", "[[the|el]]", "[[in|en]]", "[[playing|jugar]]", "[[love|aman]]", "[[Children|Niños]]"],
-      "explanation": "Sujeto plural + love + -ing."
+      "explanation": "[[Plural|Plural]] [[subject|sujeto]] + [[love|love]] + [[-ing.|-ing.]]"
     },
     "audioUrl": "audio/a1/unit-15/e17.mp3",
     "topicName": "Grammar"
@@ -302,16 +302,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "medium",
-    "transcript": "Do you like playing chess?",
+    "transcript": "[[Do|¿Te]] [[you|]] [[like|gusta]] [[playing|jugar]] [[chess?|ajedrez?]]",
     "content": {
-      "title": "Ajedrez",
-      "instructions": "Elige el nombre del juego.",
+      "title": "[[Chess|Ajedrez]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[name|nombre]] [[of|del]] [[the|el]] [[game.|juego.]]",
       "questions": [
         {
-          "question": "[[Do you like playing|Te gusta jugar]] (_____) ?",
+          "question": "[[Do|¿Te]] [[you|]] [[like|gusta]] [[playing|jugar]] (_____) ?",
           "options": ["[[chess|ajedrez]]", "[[cards|cartas]]", "[[games|juegos]]"],
           "correctAnswer": 0,
-          "explanation": "Chess es ajedrez."
+          "explanation": "[[Chess|Chess]] [[is|es]] [[chess.|ajedrez.]]"
         }
       ]
     },
@@ -324,13 +324,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "My cat likes sleeping on the sofa.",
+    "transcript": "[[My|Mi]] [[cat|gato]] [[likes|gusta]] [[sleeping|dormir]] [[on|en]] [[the|el]] [[sofa.|sofá.]]",
     "content": {
-      "title": "El Gato en el Sofá",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[My cat likes sleeping on the sofa|Mi gato gusta dormir en el sofá]].",
+      "title": "[[The|El]] [[Cat|Gato]] [[on|en]] [[the|el]] [[Sofa|Sofá]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence|oración]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[My|Mi]] [[cat|gato]] [[likes|gusta]] [[sleeping|dormir]] [[on|en]] [[the|el]] [[sofa|sofá]].",
       "words": ["[[sofa|sofá]].", "[[the|el]]", "[[on|en]]", "[[sleeping|dormir]]", "[[likes|gusta]]", "[[cat|gato]]", "[[My|Mi]]"],
-      "explanation": "Tercera persona singular (cat) lleva 'likes'."
+      "explanation": "[[Third|Tercera]] [[person|persona]] [[singular|singular]] ([[cat|cat]]) [[takes|lleva]] '[[likes.|likes.]]'"
     },
     "audioUrl": "audio/a1/unit-15/e19.mp3",
     "topicName": "Grammar"
@@ -341,16 +341,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "medium",
-    "transcript": "I love hiking in the mountains.",
+    "transcript": "[[I|Yo]] [[love|amo]] [[hiking|hacer senderismo]] [[in|en]] [[the|las]] [[mountains.|montañas.]]",
     "content": {
-      "title": "Senderismo",
-      "instructions": "Elige la actividad.",
+      "title": "[[Hiking|Senderismo]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[activity.|actividad.]]",
       "questions": [
         {
-          "question": "[[I love|Yo amo]] (_____) [[in the mountains|en las montañas]].",
+          "question": "[[I|Yo]] [[love|amo]] (_____) [[in|en]] [[the|las]] [[mountains|montañas]].",
           "options": ["[[hiking|hacer senderismo]]", "[[running|correr]]", "[[swimming|nadar]]"],
           "correctAnswer": 0,
-          "explanation": "Hiking es caminar por el campo o la montaña por placer."
+          "explanation": "[[Hiking|Hiking]] [[is|es]] [[walking|caminar]] [[in|por]] [[the|el]] [[countryside|campo]] [[or|o]] [[mountains|montaña]] [[for|por]] [[pleasure.|placer.]]"
         }
       ]
     },
@@ -363,16 +363,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Likes and Dislikes",
     "difficulty": "medium",
-    "transcript": "I love coffee but I hate tea.",
+    "transcript": "[[I|Yo]] [[love|amo]] [[coffee|el café]] [[but|pero]] [[I|yo]] [[hate|odio]] [[tea.|el té.]]",
     "content": {
-      "title": "Contrastes",
-      "instructions": "Elige el conector correcto.",
+      "title": "[[Contrasts|Contrastes]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[connector.|conector.]]",
       "questions": [
         {
-          "question": "[[I love coffee|Amo el café]] (_____) [[I hate tea|odio el té]].",
+          "question": "[[I|Amo]] [[love|el]] [[coffee|café]] (_____) [[I|odio]] [[hate|el]] [[tea|té]].",
           "options": ["[[but|pero]]", "[[and|y]]", "[[or|o]]"],
           "correctAnswer": 0,
-          "explanation": "'But' se usa para contrastar dos ideas opuestas."
+          "explanation": "'[[But|But]]' [[is|se]] [[used|usa]] [[to|para]] [[contrast|contrastar]] [[two|dos]] [[opposite|opuestas]] [[ideas.|ideas.]]"
         }
       ]
     },
@@ -385,13 +385,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Likes and Dislikes",
     "difficulty": "medium",
-    "transcript": "They really like playing video games.",
+    "transcript": "[[They|Ellos]] [[really|realmente]] [[like|gustan]] [[playing|jugar]] [[video|video]] [[games.|juegos.]]",
     "content": {
-      "title": "Realmente",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[They really like playing video games|Ellos realmente gustan jugar videojuegos]].",
+      "title": "[[Really|Realmente]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence|oración]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[They|Ellos]] [[really|realmente]] [[like|gustan]] [[playing|jugar]] [[video|video]] [[games|juegos]].",
       "words": ["[[games|videojuegos]].", "[[video|video]]", "[[playing|jugar]]", "[[like|gustan]]", "[[really|realmente]]", "[[They|Ellos]]"],
-      "explanation": "Really intensifica el gusto."
+      "explanation": "[[Really|Really]] [[intensifies|intensifica]] [[the|el]] [[liking.|gusto.]]"
     },
     "audioUrl": "audio/a1/unit-15/e22.mp3",
     "topicName": "Vocabulary"
@@ -402,16 +402,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "easy",
-    "transcript": "Cooking is fun.",
+    "transcript": "[[Cooking|Cocinar]] [[is|es]] [[fun.|divertido.]]",
     "content": {
-      "title": "Divertido",
-      "instructions": "Elige el adjetivo.",
+      "title": "[[Fun|Divertido]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[adjective.|adjetivo.]]",
       "questions": [
         {
-          "question": "[[Cooking is|Cocinar es]] (_____) .",
+          "question": "[[Cooking|Cocinar]] [[is|es]] (_____) .",
           "options": ["[[fun|divertido]]", "[[funny|gracioso]]", "[[bored|aburrido]]"],
           "correctAnswer": 0,
-          "explanation": "Fun describe una actividad placentera."
+          "explanation": "[[Fun|Fun]] [[describes|describe]] [[a|una]] [[pleasant|placentera]] [[activity.|actividad.]]"
         }
       ]
     },
@@ -424,13 +424,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Likes and Dislikes",
     "difficulty": "medium",
-    "transcript": "Do you like listening to the radio?",
+    "transcript": "[[Do|¿Te]] [[you|]] [[like|gusta]] [[listening|escuchar]] [[to|a]] [[the|la]] [[radio?|radio?]]",
     "content": {
-      "title": "La Radio",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Do you like listening to the radio|Te gusta escuchar a la radio]]?",
+      "title": "[[The|La]] [[Radio|Radio]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[question|pregunta]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[Do|¿Te]] [[you|]] [[like|gusta]] [[listening|escuchar]] [[to|a]] [[the|la]] [[radio|radio]]?",
       "words": ["[[radio|radio]]?", "[[the|la]]", "[[to|a]]", "[[listening|escuchar]]", "[[like|gusta]]", "[[you|te]]", "[[Do|Aux]]"],
-      "explanation": "Estructura de pregunta estándar."
+      "explanation": "[[Standard|Estándar]] [[question|pregunta]] [[structure.|estructura.]]"
     },
     "audioUrl": "audio/a1/unit-15/e24.mp3",
     "topicName": "Grammar"
@@ -441,16 +441,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "medium",
-    "transcript": "She loves knitting sweaters.",
+    "transcript": "[[She|Ella]] [[loves|ama]] [[knitting|tejer]] [[sweaters.|suéteres.]]",
     "content": {
-      "title": "Tejer",
-      "instructions": "Elige el verbo correcto.",
+      "title": "[[Knitting|Tejer]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[verb.|verbo.]]",
       "questions": [
         {
-          "question": "[[She loves|Ella ama]] (_____) [[sweaters|suéteres]].",
+          "question": "[[She|Ella]] [[loves|ama]] (_____) [[sweaters|suéteres]].",
           "options": ["[[knitting|tejer]]", "[[painting|pintar]]", "[[cooking|cocinar]]"],
           "correctAnswer": 0,
-          "explanation": "Knitting es tejer con agujas."
+          "explanation": "[[Knitting|Knitting]] [[is|es]] [[knitting|tejer]] [[with|con]] [[needles.|agujas.]]"
         }
       ]
     },
@@ -463,13 +463,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Likes and Dislikes",
     "difficulty": "medium",
-    "transcript": "We don't like watching football on TV.",
+    "transcript": "[[We|Nosotros]] [[don't|no]] [[like|les gusta]] [[watching|ver]] [[football|fútbol]] [[on|en]] [[TV.|la tele.]]",
     "content": {
-      "title": "Fútbol en TV",
-      "instructions": "Ordena la oración negativa.",
-      "correctSentence": "[[We don't like watching football on TV|Nosotros no gusta ver fútbol en TV]].",
+      "title": "[[Football|Fútbol]] [[on|en]] [[TV|TV]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[negative|negativa]] [[sentence|oración]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[We|Nosotros]] [[don't|no]] [[like|les gusta]] [[watching|ver]] [[football|fútbol]] [[on|en]] [[TV|TV]].",
       "words": ["[[TV|TV]].", "[[on|en]]", "[[football|fútbol]]", "[[watching|ver]]", "[[like|gusta]]", "[[don't|no]]", "[[We|Nosotros]]"],
-      "explanation": "Estructura negativa con 'on TV'."
+      "explanation": "[[Negative|Estructura]] [[structure|negativa]] [[with|con]] '[[on|on]] [[TV.|TV.]]'"
     },
     "audioUrl": "audio/a1/unit-15/e26.mp3",
     "topicName": "Grammar"
@@ -480,16 +480,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "easy",
-    "transcript": "What is your favorite hobby?",
+    "transcript": "[[What|¿Cuál]] [[is|es]] [[your|tu]] [[favorite|favorito]] [[hobby?|pasatiempo?]]",
     "content": {
-      "title": "Pregunta de Hobbies",
-      "instructions": "Completa la pregunta.",
+      "title": "[[Hobby|Pregunta]] [[Question|de Hobbies]]",
+      "instructions": "[[Complete|Completa]] [[the|la]] [[question.|pregunta.]]",
       "questions": [
         {
-          "question": "(_____) [[is your favorite hobby|es tu favorito hobby]]?",
+          "question": "(_____) [[is|es]] [[your|tu]] [[favorite|favorito]] [[hobby|pasatiempo]]?",
           "options": ["[[What|Qué/Cuál]]", "[[Who|Quién]]", "[[How|Cómo]]"],
           "correctAnswer": 0,
-          "explanation": "'What' se usa para preguntar 'cuál' entre varias opciones."
+          "explanation": "'[[What|What]]' [[is|se]] [[used|usa]] [[to|para]] [[ask|preguntar]] '[[which|cuál]]' [[among|entre]] [[several|varias]] [[options.|opciones.]]"
         }
       ]
     },
@@ -502,13 +502,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "He likes taking his dog for a walk.",
+    "transcript": "[[He|Él]] [[likes|gusta]] [[taking|llevar]] [[his|su]] [[dog|perro]] [[for|por]] [[a|un]] [[walk.|paseo.]]",
     "content": {
-      "title": "Pasear al Perro",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[He likes taking his dog for a walk|Él gusta llevar su perro por un paseo]].",
+      "title": "[[Walking|Pasear]] [[the|al]] [[Dog|Perro]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence|oración]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[He|Él]] [[likes|gusta]] [[taking|llevar]] [[his|su]] [[dog|perro]] [[for|por]] [[a|un]] [[walk|paseo]].",
       "words": ["[[walk|paseo]].", "[[a|un]]", "[[for|por]]", "[[dog|perro]]", "[[his|su]]", "[[taking|llevar]]", "[[likes|gusta]]", "[[He|Él]]"],
-      "explanation": "Take someone for a walk."
+      "explanation": "[[Take|Take]] [[someone|alguien]] [[for|para]] [[a|un]] [[walk.|paseo.]]"
     },
     "audioUrl": "audio/a1/unit-15/e28.mp3",
     "topicName": "Vocabulary"
@@ -519,16 +519,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "medium",
-    "transcript": "They love playing board games.",
+    "transcript": "[[They|Ellos]] [[love|aman]] [[playing|jugar]] [[board|de mesa]] [[games.|juegos.]]",
     "content": {
-      "title": "Juegos de Mesa",
-      "instructions": "Elige el tipo de juego.",
+      "title": "[[Board|Juegos]] [[Games|de Mesa]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[type|tipo]] [[of|de]] [[game.|juego.]]",
       "questions": [
         {
-          "question": "[[They love playing|Ellos aman jugar]] (_____) [[games|juegos]].",
+          "question": "[[They|Ellos]] [[love|aman]] [[playing|jugar]] (_____) [[games|juegos]].",
           "options": ["[[board|de mesa]]", "[[table|mesa]]", "[[desk|escritorio]]"],
           "correctAnswer": 0,
-          "explanation": "Board games es el término para juegos de mesa."
+          "explanation": "[[Board|Board]] [[games|games]] [[is|es]] [[the|el]] [[term|término]] [[for|para]] [[board|juegos]] [[games.|de mesa.]]"
         }
       ]
     },
@@ -541,13 +541,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "Do you like taking photos of nature?",
+    "transcript": "[[Do|¿Te]] [[you|]] [[like|gusta]] [[taking|hacer]] [[photos|fotos]] [[of|de]] [[nature?|naturaleza?]]",
     "content": {
-      "title": "Fotos de la Naturaleza",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Do you like taking photos of nature|Te gusta hacer fotos de naturaleza]]?",
+      "title": "[[Nature|Fotos]] [[Photos|de la Naturaleza]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[question|pregunta]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[Do|¿Te]] [[you|]] [[like|gusta]] [[taking|hacer]] [[photos|fotos]] [[of|de]] [[nature|naturaleza]]?",
       "words": ["[[nature|naturaleza]]?", "[[of|de]]", "[[photos|fotos]]", "[[taking|hacer]]", "[[like|gusta]]", "[[you|te]]", "[[Do|Aux]]"],
-      "explanation": "Pregunta sobre un hobby específico."
+      "explanation": "[[Question|Pregunta]] [[about|sobre]] [[a|un]] [[specific|específico]] [[hobby.|pasatiempo.]]"
     },
     "audioUrl": "audio/a1/unit-15/e30.mp3",
     "topicName": "Vocabulary"
@@ -558,16 +558,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Like + -ing",
     "difficulty": "easy",
-    "transcript": "I don't like reading.",
+    "transcript": "[[I|Yo]] [[don't|no]] [[like|les gusta]] [[reading.|leer.]]",
     "content": {
-      "title": "Negación Corta",
-      "instructions": "Elige la forma correcta.",
+      "title": "[[Short|Negación]] [[Negation|Corta]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form.|forma.]]",
       "questions": [
         {
           "question": "[[I|Yo]] (_____) [[reading|leer]].",
-          "options": ["[[don't like|no gusta]]", "[[no like|no gusta]]", "[[not like|no gusta]]"],
+          "options": ["[[don't like|no les gusta]]", "[[no like|no gusta]]", "[[not like|no gusta]]"],
           "correctAnswer": 0,
-          "explanation": "Estructura básica de negación."
+          "explanation": "[[Basic|Estructura]] [[negative|básica]] [[structure.|de negación.]]"
         }
       ]
     },
@@ -580,13 +580,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Likes and Dislikes",
     "difficulty": "medium",
-    "transcript": "She loves eating Italian food.",
+    "transcript": "[[She|Ella]] [[loves|ama]] [[eating|comer]] [[Italian|italiana]] [[food.|comida.]]",
     "content": {
-      "title": "Comida Italiana",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[She loves eating Italian food|Ella ama comer italiana comida]].",
+      "title": "[[Italian|Comida]] [[Food|Italiana]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence|oración]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[She|Ella]] [[loves|ama]] [[eating|comer]] [[Italian|italiana]] [[food|comida]].",
       "words": ["[[food|comida]].", "[[Italian|italiana]]", "[[eating|comer]]", "[[loves|ama]]", "[[She|Ella]]"],
-      "explanation": "El adjetivo va antes del sustantivo."
+      "explanation": "[[The|El]] [[adjective|adjetivo]] [[goes|va]] [[before|antes]] [[the|del]] [[noun.|sustantivo.]]"
     },
     "audioUrl": "audio/a1/unit-15/e32.mp3",
     "topicName": "Vocabulary"
@@ -597,16 +597,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "medium",
-    "transcript": "Is swimming boring? No, it's exciting.",
+    "transcript": "[[Is|¿Es]] [[swimming|nadar]] [[boring?|aburrido?]] [[No,|No,]] [[it's|ello es]] [[exciting.|emocionante.]]",
     "content": {
-      "title": "Emocionante",
-      "instructions": "Elige el adjetivo de respuesta.",
+      "title": "[[Exciting|Emocionante]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[answer|adjetivo de]] [[adjective.|respuesta.]]",
       "questions": [
         {
-          "question": "[[Is swimming boring? No, it's|Es nadar aburrido? No, ello es]] (_____) .",
+          "question": "[[Is|¿Es]] [[swimming|nadar]] [[boring?|aburrido?]] [[No,|No,]] [[it's|ello es]] (_____) .",
           "options": ["[[exciting|emocionante]]", "[[excited|emocionado]]", "[[bored|aburrido]]"],
           "correctAnswer": 0,
-          "explanation": "Exciting describe algo que causa emoción."
+          "explanation": "[[Exciting|Exciting]] [[describes|describe]] [[something|algo]] [[that|que]] [[causes|causa]] [[excitement.|emoción.]]"
         }
       ]
     },
@@ -619,13 +619,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Likes and Dislikes",
     "difficulty": "medium",
-    "transcript": "They like going to the cinema on Friday.",
+    "transcript": "[[They|Ellos]] [[like|gustan]] [[going|ir]] [[to|al]] [[the|el]] [[cinema|cine]] [[on|el]] [[Friday.|viernes.]]",
     "content": {
-      "title": "Viernes de Cine",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[They like going to the cinema on Friday|Ellos gustan ir al el cine el viernes]].",
+      "title": "[[Cinema|Viernes]] [[on|de]] [[Friday|Cine]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence|oración]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[They|Ellos]] [[like|gustan]] [[going|ir]] [[to|al]] [[the|el]] [[cinema|cine]] [[on|el]] [[Friday|viernes]].",
       "words": ["[[Friday|viernes]].", "[[on|el]]", "[[cinema|cine]]", "[[the|el]]", "[[to|al]]", "[[going|ir]]", "[[like|gustan]]", "[[They|Ellos]]"],
-      "explanation": "Usamos 'on' para días de la semana."
+      "explanation": "[[We|Nosotros]] [[use|usamos]] '[[on|on]]' [[for|para]] [[days|días]] [[of|de]] [[the|la]] [[week.|semana.]]"
     },
     "audioUrl": "audio/a1/unit-15/e34.mp3",
     "topicName": "Vocabulary"
@@ -636,16 +636,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "easy",
-    "transcript": "I enjoy painting.",
+    "transcript": "[[I|Yo]] [[enjoy|disfruto]] [[painting.|pintar.]]",
     "content": {
-      "title": "Disfrutar",
-      "instructions": "Elige el sinónimo de 'like'.",
+      "title": "[[Enjoy|Disfrutar]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[synonym|sinónimo]] [[of|de]] '[[like|like]]'.",
       "questions": [
         {
           "question": "[[I|Yo]] (_____) [[painting|pintar]].",
           "options": ["[[enjoy|disfruto]]", "[[want|quiero]]", "[[go|voy]]"],
           "correctAnswer": 0,
-          "explanation": "Enjoy es un sinónimo de like y también usa -ing."
+          "explanation": "[[Enjoy|Enjoy]] [[is|es]] [[a|un]] [[synonym|sinónimo]] [[of|de]] [[like|like]] [[and|y]] [[also|también]] [[uses|usa]] [[-ing.|-ing.]]"
         }
       ]
     },
@@ -658,13 +658,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Likes and Dislikes",
     "difficulty": "medium",
-    "transcript": "Does your brother like playing football?",
+    "transcript": "[[Does|¿A tu]] [[your|]] [[brother|hermano]] [[like|gusta]] [[playing|jugar]] [[football?|fútbol?]]",
     "content": {
-      "title": "Tu Hermano",
-      "instructions": "Ordena la pregunta sobre otra persona.",
-      "correctSentence": "[[Does your brother like playing football|A tu hermano gusta jugar fútbol]]?",
+      "title": "[[Your|Tu]] [[Brother|Hermano]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[question|pregunta]] [[about|sobre]] [[another|otra]] [[person.|persona.]]",
+      "correctSentence": "[[Does|¿A tu]] [[your|]] [[brother|hermano]] [[like|gusta]] [[playing|jugar]] [[football|fútbol]]?",
       "words": ["[[football|fútbol]]?", "[[playing|jugar]]", "[[like|gusta]]", "[[brother|hermano]]", "[[your|tu]]", "[[Does|Aux]]"],
-      "explanation": "Your brother es 'he', por eso usamos 'Does'."
+      "explanation": "[[Your|Your]] [[brother|brother]] [[is|es]] '[[he,|he,]]' [[so|por]] [[that's|eso]] [[why|]] [[we|nosotros]] [[use|usamos]] '[[Does.|Does.]]'"
     },
     "audioUrl": "audio/a1/unit-15/e36.mp3",
     "topicName": "Grammar"
@@ -675,16 +675,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "medium",
-    "transcript": "My mother likes baking cakes.",
+    "transcript": "[[My|Mi]] [[mother|madre]] [[likes|gusta]] [[baking|hornear]] [[cakes.|pasteles.]]",
     "content": {
-      "title": "Hornear",
-      "instructions": "Elige el verbo correcto para repostería.",
+      "title": "[[Baking|Hornear]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[verb|verbo]] [[for|para]] [[baking.|repostería.]]",
       "questions": [
         {
-          "question": "[[My mother likes|A mi madre gusta]] (_____) [[cakes|pasteles]].",
+          "question": "[[My|Mi]] [[mother|madre]] [[likes|gusta]] (_____) [[cakes|pasteles]].",
           "options": ["[[baking|hornear]]", "[[cooking|cocinar]]", "[[making|hacer]]"],
           "correctAnswer": 0,
-          "explanation": "Baking se usa específicamente para cosas hechas en el horno."
+          "explanation": "[[Baking|Baking]] [[is|se]] [[used|usa]] [[specifically|específicamente]] [[for|para]] [[things|cosas]] [[made|hechas]] [[in|en]] [[the|el]] [[oven.|horno.]]"
         }
       ]
     },
@@ -697,13 +697,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Likes and Dislikes",
     "difficulty": "medium",
-    "transcript": "I like drawing but I don't like painting.",
+    "transcript": "[[I|Me]] [[like|gusta]] [[drawing|dibujar]] [[but|pero]] [[I|me]] [[don't|no]] [[like|gusta]] [[painting.|pintar.]]",
     "content": {
-      "title": "Gusto y No Gusto",
-      "instructions": "Ordena la oración compleja.",
-      "correctSentence": "[[I like drawing but I don't like painting|Me gusta dibujar pero no me gusta pintar]].",
+      "title": "[[Likes|Gusto]] [[and|y]] [[Dislikes|No Gusto]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[complex|compleja]] [[sentence|oración]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[I|Me]] [[like|gusta]] [[drawing|dibujar]] [[but|pero]] [[I|me]] [[don't|no]] [[like|gusta]] [[painting|pintar]].",
       "words": ["[[painting|pintar]].", "[[like|gusta]]", "[[don't|no]]", "[[I|me]]", "[[but|pero]]", "[[drawing|dibujar]]", "[[like|gusta]]", "[[I|Me]]"],
-      "explanation": "Combinando afirmación y negación con 'but'."
+      "explanation": "[[Combining|Combinando]] [[affirmation|afirmación]] [[and|y]] [[negation|negación]] [[with|con]] '[[but.|but.]]'"
     },
     "audioUrl": "audio/a1/unit-15/e38.mp3",
     "topicName": "Grammar"
@@ -714,16 +714,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "easy",
-    "transcript": "Gardening is relaxing.",
+    "transcript": "[[Gardening|Jardinería]] [[is|es]] [[relaxing.|relajante.]]",
     "content": {
-      "title": "Relajante",
-      "instructions": "Elige el adjetivo correcto.",
+      "title": "[[Relaxing|Relajante]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[adjective.|adjetivo.]]",
       "questions": [
         {
-          "question": "[[Gardening is|Jardinería es]] (_____) .",
+          "question": "[[Gardening|Jardinería]] [[is|es]] (_____) .",
           "options": ["[[relaxing|relajante]]", "[[busy|ocupado]]", "[[loud|ruidoso]]"],
           "correctAnswer": 0,
-          "explanation": "Relaxing describe algo que ayuda a relajarse."
+          "explanation": "[[Relaxing|Relaxing]] [[describes|describe]] [[something|algo]] [[that|que]] [[helps|ayuda]] [[to|a]] [[relax.|relajarse.]]"
         }
       ]
     },
@@ -736,13 +736,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "We love singing in the shower.",
+    "transcript": "[[We|Nosotros]] [[love|amamos]] [[singing|cantar]] [[in|en]] [[the|la]] [[shower.|ducha.]]",
     "content": {
-      "title": "Cantar en la Ducha",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[We love singing in the shower|Nosotros amamos cantar en la ducha]].",
+      "title": "[[Singing|Cantar]] [[in|en]] [[the|la]] [[Shower|Ducha]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence|oración]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[We|Nosotros]] [[love|amamos]] [[singing|cantar]] [[in|en]] [[the|la]] [[shower|ducha]].",
       "words": ["[[shower|ducha]].", "[[the|la]]", "[[in|en]]", "[[singing|cantar]]", "[[love|amamos]]", "[[We|Nosotros]]"],
-      "explanation": "Un lugar común para un hobby."
+      "explanation": "[[A|Un]] [[common|común]] [[place|lugar]] [[for|para]] [[a|un]] [[hobby.|pasatiempo.]]"
     },
     "audioUrl": "audio/a1/unit-15/e40.mp3",
     "topicName": "Vocabulary"
@@ -753,16 +753,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "medium",
-    "transcript": "My friend likes collecting stamps.",
+    "transcript": "[[My|Mi]] [[friend|amigo]] [[likes|gusta]] [[collecting|coleccionar]] [[stamps.|sellos.]]",
     "content": {
-      "title": "Coleccionar",
-      "instructions": "Elige el verbo correcto.",
+      "title": "[[Collecting|Coleccionar]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[verb.|verbo.]]",
       "questions": [
         {
-          "question": "[[My friend likes|A mi amigo gusta]] (_____) [[stamps|sellos]].",
+          "question": "[[My|Mi]] [[friend|amigo]] [[likes|gusta]] (_____) [[stamps|sellos]].",
           "options": ["[[collecting|coleccionar]]", "[[picking|recoger]]", "[[taking|tomar]]"],
           "correctAnswer": 0,
-          "explanation": "Collecting es el verbo para reunir objetos como hobby."
+          "explanation": "[[Collecting|Collecting]] [[is|es]] [[the|el]] [[verb|verbo]] [[for|para]] [[gathering|reunir]] [[objects|objetos]] [[as|como]] [[a|un]] [[hobby.|pasatiempo.]]"
         }
       ]
     },
@@ -775,13 +775,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Likes and Dislikes",
     "difficulty": "medium",
-    "transcript": "Do you like listening to music?",
+    "transcript": "[[Do|¿Te]] [[you|]] [[like|gusta]] [[listening|escuchar]] [[to|a]] [[music?|música?]]",
     "content": {
-      "title": "Música",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Do you like listening to music|Te gusta escuchar a música]]?",
+      "title": "[[Music|Música]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[question|pregunta]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[Do|¿Te]] [[you|]] [[like|gusta]] [[listening|escuchar]] [[to|a]] [[music|música]]?",
       "words": ["[[music|música]]?", "[[to|a]]", "[[listening|escuchar]]", "[[like|gusta]]", "[[you|te]]", "[[Do|Aux]]"],
-      "explanation": "Pregunta básica sobre música."
+      "explanation": "[[Basic|Pregunta]] [[question|básica]] [[about|sobre]] [[music.|música.]]"
     },
     "audioUrl": "audio/a1/unit-15/e42.mp3",
     "topicName": "Grammar"
@@ -792,16 +792,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "easy",
-    "transcript": "Fishing is quiet.",
+    "transcript": "[[Fishing|La pesca]] [[is|es]] [[quiet.|tranquila.]]",
     "content": {
-      "title": "Pesca",
-      "instructions": "Elige el adjetivo que describe la pesca.",
+      "title": "[[Fishing|Pesca]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[adjective|adjetivo]] [[that|que]] [[describes|describe]] [[fishing.|la pesca.]]",
       "questions": [
         {
-          "question": "[[Fishing is|Pesca es]] (_____) .",
+          "question": "[[Fishing|La pesca]] [[is|es]] (_____) .",
           "options": ["[[quiet|tranquilo]]", "[[noisy|ruidoso]]", "[[fast|rápido]]"],
           "correctAnswer": 0,
-          "explanation": "Quiet significa tranquilo o silencioso."
+          "explanation": "[[Quiet|Quiet]] [[means|significa]] [[quiet|tranquilo]] [[or|o]] [[silent.|silencioso.]]"
         }
       ]
     },
@@ -814,13 +814,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "I like playing with my children.",
+    "transcript": "[[I|Me]] [[like|gusta]] [[playing|jugar]] [[with|con]] [[my|mis]] [[children.|hijos.]]",
     "content": {
-      "title": "Jugar con Niños",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I like playing with my children|Me gusta jugar con mis hijos]].",
+      "title": "[[Playing|Jugar]] [[with|con]] [[Children|Niños]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence|oración]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[I|Me]] [[like|gusta]] [[playing|jugar]] [[with|con]] [[my|mis]] [[children|hijos]].",
       "words": ["[[children|hijos]].", "[[my|mis]]", "[[with|con]]", "[[playing|jugar]]", "[[like|gusta]]", "[[I|Me]]"],
-      "explanation": "Hobby familiar."
+      "explanation": "[[Family|Hobby]] [[hobby.|familiar.]]"
     },
     "audioUrl": "audio/a1/unit-15/e44.mp3",
     "topicName": "Vocabulary"
@@ -831,16 +831,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "medium",
-    "transcript": "They love playing cards.",
+    "transcript": "[[They|Ellos]] [[love|aman]] [[playing|jugar]] [[cards.|a las cartas.]]",
     "content": {
-      "title": "Cartas",
-      "instructions": "Elige el objeto del juego.",
+      "title": "[[Cards|Cartas]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[object|objeto]] [[of|del]] [[the|el]] [[game.|juego.]]",
       "questions": [
         {
-          "question": "[[They love playing|Ellos aman jugar]] (_____) .",
+          "question": "[[They|Ellos]] [[love|aman]] [[playing|jugar]] (_____) .",
           "options": ["[[cards|cartas]]", "[[papers|papeles]]", "[[letters|cartas/letras]]"],
           "correctAnswer": 0,
-          "explanation": "Cards se refiere a la baraja de juego."
+          "explanation": "[[Cards|Cards]] [[refers|se]] [[to|refiere]] [[the|a]] [[deck|la]] [[of|baraja]] [[cards.|de juego.]]"
         }
       ]
     },
@@ -853,13 +853,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Likes and Dislikes",
     "difficulty": "medium",
-    "transcript": "She doesn't like cooking on Sundays.",
+    "transcript": "[[She|Ella]] [[doesn't|no]] [[like|le gusta]] [[cooking|cocinar]] [[on|los]] [[Sundays.|domingos.]]",
     "content": {
-      "title": "Domingos sin Cocina",
-      "instructions": "Ordena la oración negativa.",
-      "correctSentence": "[[She doesn't like cooking on Sundays|A ella no gusta cocinar los domingos]].",
+      "title": "[[Sundays|Domingos]] [[without|sin]] [[Cooking|Cocina]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[negative|negativa]] [[sentence|oración]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[She|Ella]] [[doesn't|no]] [[like|le gusta]] [[cooking|cocinar]] [[on|los]] [[Sundays|domingos]].",
       "words": ["[[Sundays|domingos]].", "[[on|los]]", "[[cooking|cocinar]]", "[[like|gusta]]", "[[doesn't|no]]", "[[She|A ella]]"],
-      "explanation": "Negación en tercera persona singular."
+      "explanation": "[[Negation|Negación]] [[in|en]] [[third|tercera]] [[person|persona]] [[singular.|singular.]]"
     },
     "audioUrl": "audio/a1/unit-15/e46.mp3",
     "topicName": "Grammar"
@@ -870,16 +870,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "easy",
-    "transcript": "Dancing is my passion.",
+    "transcript": "[[Dancing|Bailar]] [[is|es]] [[my|mi]] [[passion.|pasión.]]",
     "content": {
-      "title": "Pasión",
-      "instructions": "Elige la palabra que falta.",
+      "title": "[[Passion|Pasión]]",
+      "instructions": "[[Choose|Elige]] [[the|la]] [[missing|faltante]] [[word.|palabra.]]",
       "questions": [
         {
-          "question": "[[Dancing is my|Bailar es mi]] (_____) .",
+          "question": "[[Dancing|Bailar]] [[is|es]] [[my|mi]] (_____) .",
           "options": ["[[passion|pasión]]", "[[problem|problema]]", "[[person|persona]]"],
           "correctAnswer": 0,
-          "explanation": "Passion indica un gusto extremo."
+          "explanation": "[[Passion|Passion]] [[indicates|indica]] [[an|un]] [[extreme|gusto]] [[liking.|extremo.]]"
         }
       ]
     },
@@ -892,13 +892,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "I like walking in the city.",
+    "transcript": "[[I|Me]] [[like|gusta]] [[walking|caminar]] [[in|en]] [[the|la]] [[city.|ciudad.]]",
     "content": {
-      "title": "Caminar por la Ciudad",
-      "instructions": "Ordena la oración.",
-      "correctSentence": "[[I like walking in the city|Me gusta caminar en la ciudad]].",
+      "title": "[[Walking|Caminar]] [[in|por]] [[the|la]] [[City|Ciudad]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence|oración]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[I|Me]] [[like|gusta]] [[walking|caminar]] [[in|en]] [[the|la]] [[city|ciudad]].",
       "words": ["[[city|ciudad]].", "[[the|la]]", "[[in|en]]", "[[walking|caminar]]", "[[like|gusta]]", "[[I|Me]]"],
-      "explanation": "Un hobby simple y saludable."
+      "explanation": "[[A|Un]] [[simple|simple]] [[and|y]] [[healthy|saludable]] [[hobby.|pasatiempo.]]"
     },
     "audioUrl": "audio/a1/unit-15/e48.mp3",
     "topicName": "Vocabulary"
@@ -909,16 +909,16 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobby Vocabulary",
     "difficulty": "medium",
-    "transcript": "Is gardening difficult? No, it's relaxing.",
+    "transcript": "[[Is|¿Es]] [[gardening|la jardinería]] [[difficult?|difícil?]] [[No,|No,]] [[it's|ello es]] [[relaxing.|relajante.]]",
     "content": {
-      "title": "Adjetivos",
-      "instructions": "Elige el adjetivo de respuesta.",
+      "title": "[[Adjectives|Adjetivos]]",
+      "instructions": "[[Choose|Elige]] [[the|el]] [[answer|adjetivo de]] [[adjective.|respuesta.]]",
       "questions": [
         {
-          "question": "[[Is gardening? No difficult is, it|Es jardinería difícil? No, ello es]] (_____) .",
+          "question": "[[Is|¿Es]] [[gardening|la jardinería]] [[difficult?|difícil?]] [[No,|No,]] [[it's|ello es]] (_____) .",
           "options": ["[[relaxing|relajante]]", "[[relaxed|relajado]]", "[[boring|aburrido]]"],
           "correctAnswer": 0,
-          "explanation": "Relaxing describe la actividad."
+          "explanation": "[[Relaxing|Relaxing]] [[describes|describe]] [[the|la]] [[activity.|actividad.]]"
         }
       ]
     },
@@ -931,13 +931,13 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "I like listening to classical music while I study.",
+    "transcript": "[[I|Yo]] [[like|gusta]] [[listening|escuchar]] [[to|a]] [[classical|clásica]] [[music|música]] [[while|mientras]] [[I|yo]] [[study.|estudio.]]",
     "content": {
-      "title": "Música para Estudiar",
-      "instructions": "Ordena la oración larga.",
-      "correctSentence": "[[I like listening to classical music while I study|Yo gusta escuchar a clásica música mientras yo estudio]].",
+      "title": "[[Music|Música]] [[to|para]] [[Study|Estudiar]]",
+      "instructions": "[[Put|Ordena]] [[the|la]] [[long|larga]] [[sentence|oración]] [[in|en]] [[order.|orden.]]",
+      "correctSentence": "[[I|Yo]] [[like|gusta]] [[listening|escuchar]] [[to|a]] [[classical|clásica]] [[music|música]] [[while|mientras]] [[I|yo]] [[study|estudio]].",
       "words": ["[[study|estudio]].", "[[I|yo]]", "[[while|mientras]]", "[[music|música]]", "[[to|a]]", "[[classical|clásica]]", "[[listening|escuchar]]", "[[like|gusta]]", "[[I|Yo]]"],
-      "explanation": "Combinando un gusto con otra acción."
+      "explanation": "[[Combining|Combinando]] [[a|un]] [[liking|gusto]] [[with|con]] [[another|otra]] [[action.|acción.]]"
     },
     "audioUrl": "audio/a1/unit-15/e50.mp3",
     "topicName": "Grammar"
@@ -948,22 +948,22 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[My family's hobbies.|Los hobbies de mi familia.]] [[We all like doing|A todos nos gusta hacer]] [[different things.|cosas diferentes.]] [[I love reading books|Me encanta leer libros]] [[about history.|sobre historia.]] [[My wife likes gardening|A mi esposa le gusta la jardinería]] [[in our backyard.|en nuestro patio trasero.]] [[She has beautiful flowers.|Tiene flores hermosas.]] [[Our son, Peter, likes playing|A nuestro hijo, Peter, le gusta jugar]] [[video games with his friends.|a videojuegos con sus amigos.]] [[On Sundays,|Los domingos,]] [[we all like walking|a todos nos gusta caminar]] [[in the park together.|en el parque juntos.]]",
+    "transcript": "[[My|Los]] [[family's|hobbies]] [[hobbies.|de mi familia.]] [[We|A]] [[all|todos]] [[like|nos]] [[doing|gusta]] [[different|hacer]] [[things.|cosas]] [[different.|diferentes.]] [[I|Me]] [[love|encanta]] [[reading|leer]] [[books|libros]] [[about|sobre]] [[history.|historia.]] [[My|A]] [[wife|mi]] [[likes|esposa]] [[gardening|le gusta]] [[in|la]] [[our|jardinería]] [[backyard.|en nuestro patio trasero.]] [[She|Ella]] [[has|tiene]] [[beautiful|flores]] [[flowers.|hermosas.]] [[Our|Nuestro]] [[son,|hijo,]] [[Peter,|Peter,]] [[likes|le]] [[playing|gusta]] [[video|jugar]] [[games|a]] [[with|videojuegos]] [[his|con]] [[friends.|sus]] [[friends.|amigos.]] [[On|Los]] [[Sundays,|domingos,]] [[we|a]] [[all|todos]] [[like|nos]] [[walking|gusta]] [[in|caminar]] [[the|en]] [[park|el]] [[together.|parque juntos.]]",
     "content": {
-      "title": "[[Family Hobbies|Hobbies de mi Familia]]",
-      "instructions": "[[Read about the hobbies and answer.|Lee sobre los hobbies y responde.]]",
+      "title": "[[Family|Hobbies]] [[Hobbies|de mi Familia]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|los]] [[hobbies|hobbies]] [[and|y]] [[answer.|responde.]]",
       "questions": [
         {
-          "question": "[[What does the wife like doing?|¿Qué le gusta hacer a la esposa?]]",
-          "options": ["[[Gardening|Jardinería]]", "[[Reading|Leer]]", "[[Playing video games|Jugar videojuegos]]"],
+          "question": "[[What|¿Qué]] [[does|le]] [[the|gusta]] [[wife|hacer]] [[like|a]] [[doing?|la esposa?]]",
+          "options": ["[[Gardening|Jardinería]]", "[[Reading|Leer]]", "[[Playing|Jugar]] [[video|videojuegos]] [[games|]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[My wife likes gardening in our backyard.|A mi esposa le gusta la jardinería en nuestro patio trasero.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[My|A]] [[wife|mi]] [[likes|esposa]] [[gardening|le gusta]] [[in|la]] [[our|jardinería]] [[backyard.|en nuestro patio trasero.]]\""
         },
         {
-          "question": "[[What does Peter like doing?|¿Qué le gusta hacer a Peter?]]",
-          "options": ["[[Playing video games|Jugar videojuegos]]", "[[Walking in the park|Caminar en el parque]]", "[[Reading history|Leer historia]]"],
+          "question": "[[What|¿Qué]] [[does|le]] [[Peter|gusta]] [[like|hacer]] [[doing?|a Peter?]]",
+          "options": ["[[Playing|Jugar]] [[video|videojuegos]] [[games|]]", "[[Walking|Caminar]] [[in|en]] [[the|el]] [[park|parque]]", "[[Reading|Leer]] [[history|historia]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[Our son, Peter, likes playing video games.|Nuestro hijo, Peter, le gusta jugar a videojuegos.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[Our|A]] [[son,|nuestro]] [[Peter,|hijo,]] [[likes|Peter,]] [[playing|le]] [[video|gusta]] [[games.|jugar a videojuegos.]]\""
         }
       ]
     },
@@ -976,22 +976,22 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Sarah and her music.|Sarah y su música.]] [[Sarah is very musical.|Sarah es muy musical.]] [[She loves playing the piano|Le encanta tocar el piano]] [[and the violin.|y el violín.]] [[She practices|Practica]] [[for two hours every day.|durante dos horas todos los días.]] [[She doesn't like singing|No le gusta cantar]] [[because she is shy.|porque es tímida.]] [[Her dream is to play|Su sueño es tocar]] [[in a big orchestra one day.|en una gran orquesta algún día.]]",
+    "transcript": "[[Sarah|Sarah]] [[and|y]] [[her|su]] [[music.|música.]] [[Sarah|Sarah]] [[is|es]] [[very|muy]] [[musical.|musical.]] [[She|Ella]] [[loves|ama]] [[playing|tocar]] [[the|el]] [[piano|piano]] [[and|y]] [[the|el]] [[violin.|violín.]] [[She|Ella]] [[practices|practica]] [[for|durante]] [[two|dos]] [[hours|horas]] [[every|todos]] [[day.|los días.]] [[She|Ella]] [[doesn't|no]] [[like|le gusta]] [[singing|cantar]] [[because|porque]] [[she|ella]] [[is|es]] [[shy.|tímida.]] [[Her|Su]] [[dream|sueño]] [[is|es]] [[to|]] [[play|tocar]] [[in|en]] [[a|una]] [[big|gran]] [[orchestra|orquesta]] [[one|algún]] [[day.|día.]]",
     "content": {
-      "title": "[[Sarah and her Music|Sarah y su Música]]",
-      "instructions": "[[Read about Sarah.|Lee sobre Sarah.]]",
+      "title": "[[Sarah|Sarah]] [[and|y]] [[her|su]] [[Music|Música]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[Sarah.|Sarah.]]",
       "questions": [
         {
-          "question": "[[Which instruments does she play?|¿Qué instrumentos toca ella?]]",
-          "options": ["[[Piano and violin|Piano y violín]]", "[[Guitar and drums|Guitarra y batería]]", "[[Flute|Flauta]]"],
+          "question": "[[Which|¿Qué]] [[instruments|instrumentos]] [[does|toca]] [[she|ella]] [[play?|?]]",
+          "options": ["[[Piano|Piano]] [[and|y]] [[violin|violín]]", "[[Guitar|Guitarra]] [[and|y]] [[drums|batería]]", "[[Flute|Flauta]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[She loves playing the piano and the violin.|Le encanta tocar el piano y el violín.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[She|Ella]] [[loves|ama]] [[playing|tocar]] [[the|el]] [[piano|piano]] [[and|y]] [[the|el]] [[violin.|violín.]]\""
         },
         {
-          "question": "[[Does Sarah like singing?|¿Le gusta cantar a Sarah?]]",
-          "options": ["[[No, she doesn't|No, no le gusta]]", "[[Yes, she loves it|Sí, le encanta]]", "[[Only with friends|Solo con amigos]]"],
+          "question": "[[Does|¿Le]] [[Sarah|gusta]] [[like|cantar]] [[singing?|a Sarah?]]",
+          "options": ["[[No,|No,]] [[she|no]] [[doesn't|le gusta]]", "[[Yes,|Sí,]] [[she|le]] [[loves|encanta]] [[it|]]", "[[Only|Solo]] [[with|con]] [[friends|amigos]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[She doesn't like singing because she is shy.|No le gusta cantar porque es tímida.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[She|Ella]] [[doesn't|no]] [[like|le gusta]] [[singing|cantar]] [[because|porque]] [[she|ella]] [[is|es]] [[shy.|tímida.]]\""
         }
       ]
     },
@@ -1004,22 +1004,22 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Tom's sports.|Los deportes de Tom.]] [[Tom is a very active person.|Tom es una persona muy activa.]] [[He likes running every morning|Le gusta correr todas las mañanas]] [[before work.|antes del trabajo.]] [[On Saturdays,|Los sábados,]] [[he plays football|juega al fútbol]] [[with his local team.|con su equipo local.]] [[He doesn't like basketball|No le gusta el baloncesto]] [[because he is not very tall.|porque no es muy alto.]] [[In summer, he loves swimming|En verano, le encanta nadar]] [[in the sea.|en el mar.]]",
+    "transcript": "[[Tom's|De Tom]] [[sports.|deportes.]] [[Tom|Tom]] [[is|es]] [[a|una]] [[very|muy]] [[active|activa]] [[person.|persona.]] [[He|Él]] [[likes|gusta]] [[running|correr]] [[every|cada]] [[morning|mañana]] [[before|antes de]] [[work.|trabajar.]] [[On|Los]] [[Saturdays,|sábados,]] [[he|él]] [[plays|juega]] [[football|fútbol]] [[with|con]] [[his|su]] [[local|local]] [[team.|equipo.]] [[He|Él]] [[doesn't|no]] [[like|le gusta]] [[basketball|el baloncesto]] [[because|porque]] [[he|él]] [[is|es]] [[not|no]] [[very|muy]] [[tall.|alto.]] [[In|En]] [[summer,|verano,]] [[he|él]] [[loves|ama]] [[swimming|nadar]] [[in|en]] [[the|el]] [[sea.|mar.]]",
     "content": {
-      "title": "[[Tom's Sports|Los Deportes de Tom]]",
-      "instructions": "[[Read about Tom.|Lee sobre Tom.]]",
+      "title": "[[Tom's|De Tom]] [[Sports|Deportes]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[Tom.|Tom.]]",
       "questions": [
         {
-          "question": "[[When does Tom go running?|¿Cuándo va a correr Tom?]]",
-          "options": ["[[Every morning|Todas las mañanas]]", "[[On Saturdays|Los sábados]]", "[[In the evening|Por la tarde]]"],
+          "question": "[[When|Cuándo]] [[does|va]] [[Tom|Tom]] [[go|a]] [[running?|correr?]]",
+          "options": ["[[Every|Cada]] [[morning|mañana]]", "[[On|Los]] [[Saturdays|sábados]]", "[[In|Por]] [[the|la]] [[evening|tarde]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[He likes running every morning before work.|Le gusta correr todas las mañanas antes del trabajo.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[He|Él]] [[likes|gusta]] [[running|correr]] [[every|cada]] [[morning|mañana]] [[before|antes de]] [[work.|trabajar.]]\""
         },
         {
-          "question": "[[Why doesn't he like basketball?|¿Por qué no le gusta el baloncesto?]]",
-          "options": ["[[Because he is not tall|Porque no es alto]]", "[[Because it is boring|Porque es aburrido]]", "[[Because he doesn't have a ball|Porque no tiene pelota]]"],
+          "question": "[[Why|Por qué]] [[doesn't|no]] [[he|le]] [[like|gusta]] [[basketball?|el baloncesto?]]",
+          "options": ["[[Because|Porque]] [[he|él]] [[is|es]] [[not|no]] [[tall|alto]]", "[[Because|Porque]] [[it|esto]] [[is|es]] [[boring|aburrido]]", "[[Because|Porque]] [[he|él]] [[doesn't|no]] [[have|tiene]] [[a|una]] [[ball|pelota]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[He doesn't like basketball because he is not very tall.|No le gusta el baloncesto porque no es muy alto.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[He|Él]] [[doesn't|no]] [[like|le gusta]] [[basketball|el baloncesto]] [[because|porque]] [[he|él]] [[is|es]] [[not|no]] [[very|muy]] [[tall.|alto.]]\""
         }
       ]
     },
@@ -1032,22 +1032,22 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Maria's creative hobbies.|Los hobbies creativos de Maria.]] [[Maria is an artist.|Maria es artista.]] [[In her free time,|En su tiempo libre,]] [[she loves painting and drawing.|le encanta pintar y dibujar.]] [[She likes painting landscapes|Le gusta pintar paisajes]] [[and drawing animals.|y dibujar animales.]] [[She doesn't like watching TV|No le gusta ver la televisión]] [[because she thinks|porque piensa que]] [[it is a waste of time.|es una pérdida de tiempo.]] [[She always listens to the radio|Siempre escucha la radio]] [[while she works.|mientras trabaja.]]",
+    "transcript": "[[Maria's|De Maria]] [[creative|creativos]] [[hobbies.|hobbies.]] [[Maria|Maria]] [[is|es]] [[an|una]] [[artist.|artista.]] [[In|En]] [[her|su]] [[free|libre]] [[time,|tiempo,]] [[she|ella]] [[loves|ama]] [[painting|pintar]] [[and|y]] [[drawing.|dibujar.]] [[She|Ella]] [[likes|gusta]] [[painting|pintar]] [[landscapes|paisajes]] [[and|y]] [[drawing|dibujar]] [[animals.|animales.]] [[She|Ella]] [[doesn't|no]] [[like|le gusta]] [[watching|ver]] [[TV|la televisión]] [[because|porque]] [[she|ella]] [[thinks|piensa]] [[it|esto]] [[is|es]] [[a|una]] [[waste|pérdida]] [[of|de]] [[time.|tiempo.]] [[She|Ella]] [[always|siempre]] [[listens|escucha]] [[to|la]] [[the|la]] [[radio|radio]] [[while|mientras]] [[she|ella]] [[works.|trabaja.]]",
     "content": {
-      "title": "[[Maria's Creativity|La Creatividad de Maria]]",
-      "instructions": "[[Read about Maria.|Lee sobre Maria.]]",
+      "title": "[[Maria's|De Maria]] [[Creativity|Creatividad]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[Maria.|Maria.]]",
       "questions": [
         {
-          "question": "[[What does Maria like painting?|¿Qué le gusta pintar a Maria?]]",
+          "question": "[[What|Qué]] [[does|le]] [[Maria|Maria]] [[like|gusta]] [[painting?|pintar?]]",
           "options": ["[[Landscapes|Paisajes]]", "[[People|Personas]]", "[[Cities|Ciudades]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[She likes painting landscapes.|Le gusta pintar paisajes.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[She|Ella]] [[likes|gusta]] [[painting|pintar]] [[landscapes.|paisajes.]]\""
         },
         {
-          "question": "[[Does she like watching TV?|¿Le gusta ver la televisión?]]",
-          "options": ["[[No, she doesn't|No, no le gusta]]", "[[Yes, every night|Sí, todas las noches]]", "[[Only movies|Solo películas]]"],
+          "question": "[[Does|¿Le]] [[she|ella]] [[like|gusta]] [[watching|ver]] [[TV?|la televisión?]]",
+          "options": ["[[No,|No,]] [[she|ella]] [[doesn't|no lo hace]]", "[[Yes,|Sí,]] [[every|cada]] [[night|noche]]", "[[Only|Solo]] [[movies|películas]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[She doesn't like watching TV.|No le gusta ver la televisión.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[She|Ella]] [[doesn't|no]] [[like|le gusta]] [[watching|ver]] [[TV.|la televisión.]]\""
         }
       ]
     },
@@ -1060,22 +1060,22 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[My favorite weekend activity.|Mi actividad favorita del fin de semana.]] [[I love traveling.|Me encanta viajar.]] [[Every month,|Cada mes,]] [[I visit a different city.|visito una ciudad diferente.]] [[I like taking photos|Me gusta hacer fotos]] [[of old buildings|de edificios antiguos]] [[and eating local food.|y comer comida local.]] [[I hate packing my suitcase,|Odio hacer la maleta,]] [[but I love being in new places.|pero me encanta estar en lugares nuevos.]] [[My next trip is to Rome.|Mi próximo viaje es a Roma.]]",
+    "transcript": "[[My|Mi]] [[favorite|favorita]] [[weekend|fin de semana]] [[activity.|actividad.]] [[I|Yo]] [[love|amo]] [[traveling.|viajar.]] [[Every|Cada]] [[month,|mes,]] [[I|yo]] [[visit|visito]] [[a|una]] [[different|diferente]] [[city.|ciudad.]] [[I|Yo]] [[like|gusta]] [[taking|hacer]] [[photos|fotos]] [[of|de]] [[old|antiguos]] [[buildings|edificios]] [[and|y]] [[eating|comer]] [[local|local]] [[food.|comida.]] [[I|Yo]] [[hate|odio]] [[packing|hacer]] [[my|mi]] [[suitcase,|maleta,]] [[but|pero]] [[I|yo]] [[love|amo]] [[being|estar]] [[in|en]] [[new|nuevos]] [[places.|lugares.]] [[My|Mi]] [[next|próximo]] [[trip|viaje]] [[is|es]] [[to|a]] [[Rome.|Roma.]]",
     "content": {
-      "title": "[[Favorite Activity|Actividad Favorita]]",
-      "instructions": "[[Read about the traveler.|Lee sobre el viajero.]]",
+      "title": "[[Favorite|Favorita]] [[Activity|Actividad]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|el]] [[traveler.|viajero.]]",
       "questions": [
         {
-          "question": "[[How often does the person travel?|¿Qué tan a menudo viaja la persona?]]",
-          "options": ["[[Every month|Cada mes]]", "[[Every week|Cada semana]]", "[[Once a year|Una vez al año]]"],
+          "question": "[[How|Qué]] [[often|tan a menudo]] [[does|viaja]] [[the|la]] [[person|persona]] [[travel?|?]]",
+          "options": ["[[Every|Cada]] [[month|mes]]", "[[Every|Cada]] [[week|semana]]", "[[Once|Una vez]] [[a|al]] [[year|año]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[Every month, I visit a different city.|Cada mes, visito una ciudad diferente.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[Every|Cada]] [[month,|mes,]] [[I|yo]] [[visit|visito]] [[a|una]] [[different|diferente]] [[city.|ciudad.]]\""
         },
         {
-          "question": "[[What does he/she hate doing?|¿Qué odia hacer él/ella?]]",
-          "options": ["[[Packing the suitcase|Hacer la maleta]]", "[[Taking photos|Hacer fotos]]", "[[Eating local food|Comer comida local]]"],
+          "question": "[[What|Qué]] [[does|odia]] [[he/she|él/ella]] [[hate|]] [[doing?|hacer?]]",
+          "options": ["[[Packing|Hacer]] [[the|la]] [[suitcase|maleta]]", "[[Taking|Hacer]] [[photos|fotos]]", "[[Eating|Comer]] [[local|local]] [[food|comida]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[I hate packing my suitcase.|Odio hacer la maleta.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[I|Yo]] [[hate|odio]] [[packing|hacer]] [[my|mi]] [[suitcase.|maleta.]]\""
         }
       ]
     },
@@ -1088,22 +1088,22 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Anna's cooking class.|La clase de cocina de Anna.]] [[Anna likes cooking very much.|A Anna le gusta mucho cocinar.]] [[Every Tuesday,|Todos los martes,]] [[she goes to a cooking class.|va a una clase de cocina.]] [[She learns to make|Aprende a hacer]] [[different types of pasta and bread.|diferentes tipos de pasta y pan.]] [[She loves making dinner|Le encanta preparar la cena]] [[for her friends|para sus amigos]] [[on the weekend.|el fin de semana.]] [[They all think|Todos piensan que]] [[her food is delicious.|su comida es deliciosa.]]",
+    "transcript": "[[Anna's|De Anna]] [[cooking|cocina]] [[class.|clase.]] [[Anna|Anna]] [[likes|gusta]] [[cooking|cocinar]] [[very|muy]] [[much.|mucho.]] [[Every|Cada]] [[Tuesday,|martes,]] [[she|ella]] [[goes|va]] [[to|a]] [[a|una]] [[cooking|cocina]] [[class.|clase.]] [[She|Ella]] [[learns|aprende]] [[to|a]] [[make|hacer]] [[different|diferentes]] [[types|tipos]] [[of|de]] [[pasta|pasta]] [[and|y]] [[bread.|pan.]] [[She|Ella]] [[loves|ama]] [[making|preparar]] [[dinner|la cena]] [[for|para]] [[her|sus]] [[friends|amigos]] [[on|en]] [[the|el]] [[weekend.|fin de semana.]] [[They|Ellos]] [[all|todos]] [[think|piensan]] [[her|su]] [[food|comida]] [[is|es]] [[delicious.|deliciosa.]]",
     "content": {
-      "title": "[[Cooking Class|Clase de Cocina]]",
-      "instructions": "[[Read about Anna.|Lee sobre Anna.]]",
+      "title": "[[Cooking|Cocina]] [[Class|Clase]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[Anna.|Anna.]]",
       "questions": [
         {
-          "question": "[[When does Anna go to her class?|¿Cuándo va Anna a su clase?]]",
-          "options": ["[[On Tuesday|El martes]]", "[[On Wednesday|El miércoles]]", "[[Every day|Cada día]]"],
+          "question": "[[When|Cuándo]] [[does|va]] [[Anna|Anna]] [[go|a]] [[to|su]] [[her|]] [[class?|clase?]]",
+          "options": ["[[On|El]] [[Tuesday|martes]]", "[[On|El]] [[Wednesday|miércoles]]", "[[Every|Cada]] [[day|día]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[Every Tuesday, she goes to a cooking class.|Todos los martes, va a una clase de cocina.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[Every|Cada]] [[Tuesday,|martes,]] [[she|ella]] [[goes|va]] [[to|a]] [[a|una]] [[cooking|cocina]] [[class.|clase.]]\""
         },
         {
-          "question": "[[What does she learn to make?|¿Qué aprende a hacer ella?]]",
-          "options": ["[[Pasta and bread|Pasta y pan]]", "[[Pizza and cake|Pizza y pastel]]", "[[Salads|Ensaladas]]"],
+          "question": "[[What|Qué]] [[does|aprende]] [[she|ella]] [[learn|]] [[to|a]] [[make?|hacer?]]",
+          "options": ["[[Pasta|Pasta]] [[and|y]] [[bread|pan]]", "[[Pizza|Pizza]] [[and|y]] [[cake|pastel]]", "[[Salads|Ensaladas]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[She learns to make different types of pasta and bread.|Aprende a hacer diferentes tipos de pasta y pan.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[She|Ella]] [[learns|aprende]] [[to|a]] [[make|hacer]] [[different|diferentes]] [[types|tipos]] [[of|de]] [[pasta|pasta]] [[and|y]] [[bread.|pan.]]\""
         }
       ]
     },
@@ -1116,22 +1116,22 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[My grandfather's hobby.|El hobby de mi abuelo.]] [[My grandfather is seventy years old|Mi abuelo tiene setenta años]] [[but he is very active.|pero es muy activo.]] [[His favorite hobby is gardening.|Su hobby favorito es la jardinería.]] [[He spends three hours|Pasa tres horas]] [[in his garden every morning.|en su jardín todas las mañanas.]] [[He likes growing vegetables|Le gusta cultivar verduras]] [[like tomatoes and carrots.|como tomates y zanahorias.]] [[He loves being outside in the sun.|Le encanta estar fuera al sol.]]",
+    "transcript": "[[My|Mi]] [[grandfather's|de abuelo]] [[hobby.|hobby.]] [[My|Mi]] [[grandfather|abuelo]] [[is|tiene]] [[seventy|setenta]] [[years|años]] [[old|de edad]] [[but|pero]] [[he|él]] [[is|está]] [[very|muy]] [[active.|activo.]] [[His|Su]] [[favorite|favorito]] [[hobby|hobby]] [[is|es]] [[gardening.|jardinería.]] [[He|Él]] [[spends|pasa]] [[three|tres]] [[hours|horas]] [[in|en]] [[his|su]] [[garden|jardín]] [[every|cada]] [[morning.|mañana.]] [[He|Él]] [[likes|gusta]] [[growing|cultivar]] [[vegetables|verduras]] [[like|como]] [[tomatoes|tomates]] [[and|y]] [[carrots.|zanahorias.]] [[He|Él]] [[loves|ama]] [[being|estar]] [[outside|fuera]] [[in|en]] [[the|el]] [[sun.|sol.]]",
     "content": {
-      "title": "[[Grandfather's Hobby|El Hobby del Abuelo]]",
-      "instructions": "[[Read about the grandfather.|Lee sobre el abuelo.]]",
+      "title": "[[Grandfather's|De Abuelo]] [[Hobby|Hobby]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|el]] [[grandfather.|abuelo.]]",
       "questions": [
         {
-          "question": "[[What does the grandfather grow?|¿Qué cultiva el abuelo?]]",
+          "question": "[[What|Qué]] [[does|cultiva]] [[the|el]] [[grandfather|abuelo]] [[grow?|?]]",
           "options": ["[[Vegetables|Verduras]]", "[[Flowers|Flores]]", "[[Fruit|Fruta]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[He likes growing vegetables like tomatoes and carrots.|Le gusta cultivar verduras como tomates y zanahorias.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[He|Él]] [[likes|gusta]] [[growing|cultivar]] [[vegetables|verduras]] [[like|como]] [[tomatoes|tomates]] [[and|y]] [[carrots.|zanahorias.]]\""
         },
         {
-          "question": "[[How much time does he spend in the garden?|¿Cuánto tiempo pasa en el jardín?]]",
-          "options": ["[[Three hours|Tres horas]]", "[[One hour|Una hora]]", "[[All day|Todo el día]]"],
+          "question": "[[How|Cuánto]] [[much|mucho]] [[time|tiempo]] [[does|pasa]] [[he|él]] [[spend|]] [[in|en]] [[the|el]] [[garden?|jardín?]]",
+          "options": ["[[Three|Tres]] [[hours|horas]]", "[[One|Una]] [[hour|hora]]", "[[All|Todo]] [[day|el día]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[He spends three hours in his garden every morning.|Pasa tres horas en su jardín todas las mañanas.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[He|Él]] [[spends|pasa]] [[three|tres]] [[hours|horas]] [[in|en]] [[his|su]] [[garden|jardín]] [[every|cada]] [[morning.|mañana.]]\""
         }
       ]
     },
@@ -1144,22 +1144,22 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Video games.|Videojuegos.]] [[My brother and I|Mi hermano y yo]] [[love playing video games.|nos encanta jugar a videojuegos.]] [[We play together|Jugamos juntos]] [[every Friday night.|todos los viernes por la noche.]] [[I like sports games|Me gustan los juegos de deportes]] [[like football and basketball.|como el fútbol y el baloncesto.]] [[My brother likes action games.|A mi hermano le gustan los juegos de acción.]] [[Our parents think we play too much,|Nuestros padres piensan que jugamos demasiado,]] [[but we think it is very fun.|pero nosotros pensamos que es muy divertido.]]",
+    "transcript": "[[Video|Videojuegos]] [[games.|]] [[My|Mi]] [[brother|hermano]] [[and|y]] [[I|yo]] [[love|amamos]] [[playing|jugar]] [[video|videojuegos]] [[games.|]] [[We|Nosotros]] [[play|jugamos]] [[together|juntos]] [[every|cada]] [[Friday|viernes]] [[night.|noche.]] [[I|Yo]] [[like|gusta]] [[sports|de deportes]] [[games|juegos]] [[like|como]] [[football|fútbol]] [[and|y]] [[basketball.|baloncesto.]] [[My|Mi]] [[brother|hermano]] [[likes|gusta]] [[action|de acción]] [[games.|juegos.]] [[Our|Nuestros]] [[parents|padres]] [[think|piensan]] [[we|nosotros]] [[play|jugamos]] [[too|demasiado]] [[much,|]] [[but|pero]] [[we|nosotros]] [[think|pensamos]] [[it|esto]] [[is|es]] [[very|muy]] [[fun.|divertido.]]",
     "content": {
-      "title": "[[Video Games|Videojuegos]]",
-      "instructions": "[[Read about the brothers.|Lee sobre los hermanos.]]",
+      "title": "[[Video|Videojuegos]] [[Games|]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|los]] [[brothers.|hermanos.]]",
       "questions": [
         {
-          "question": "[[When do they play together?|¿Cuándo juegan juntos?]]",
-          "options": ["[[Friday night|Viernes por la noche]]", "[[Saturday morning|Sábado por la mañana]]", "[[Every day|Cada día]]"],
+          "question": "[[When|Cuándo]] [[do|juegan]] [[they|ellos]] [[play|]] [[together?|juntos?]]",
+          "options": ["[[Friday|Viernes]] [[night|noche]]", "[[Saturday|Sábado]] [[morning|mañana]]", "[[Every|Cada]] [[day|día]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[We play together every Friday night.|Jugamos juntos todos los viernes por la noche.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[We|Nosotros]] [[play|jugamos]] [[together|juntos]] [[every|cada]] [[Friday|viernes]] [[night.|noche.]]\""
         },
         {
-          "question": "[[What type of games does the narrator like?|¿Qué tipo de juegos le gustan al narrador?]]",
-          "options": ["[[Sports games|Juegos de deportes]]", "[[Action games|Juegos de acción]]", "[[Chess|Ajedrez]]"],
+          "question": "[[What|Qué]] [[type|tipo]] [[of|de]] [[games|juegos]] [[does|le]] [[the|el]] [[narrator|narrador]] [[like?|gustan?]]",
+          "options": ["[[Sports|De deportes]] [[games|juegos]]", "[[Action|De acción]] [[games|juegos]]", "[[Chess|Ajedrez]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[I like sports games like football and basketball.|Me gustan los juegos de deportes como el fútbol y el baloncesto.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[I|Yo]] [[like|gusta]] [[sports|de deportes]] [[games|juegos]] [[like|como]] [[football|fútbol]] [[and|y]] [[basketball.|baloncesto.]]\""
         }
       ]
     },
@@ -1172,22 +1172,22 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Learning to play the guitar.|Aprendiendo a tocar la guitarra.]] [[I am taking guitar lessons.|Estoy tomando clases de guitarra.]] [[I have a class|Tengo una clase]] [[every Thursday afternoon.|todos los jueves por la tarde.]] [[I like my teacher|Me gusta mi profesor]] [[because he is very patient.|porque es muy paciente.]] [[I love playing old songs.|Me encanta tocar canciones antiguas.]] [[Sometimes I sing|A veces canto]] [[while I play,|mientras toco,]] [[but my voice is not very good.|pero mi voz no es muy buena.]] [[I practice every day.|Practico todos los días.]]",
+    "transcript": "[[Learning|Aprendiendo]] [[to|a]] [[play|tocar]] [[the|la]] [[guitar.|guitarra.]] [[I|Yo]] [[am|estoy]] [[taking|tomando]] [[guitar|de guitarra]] [[lessons.|clases.]] [[I|Yo]] [[have|tengo]] [[a|una]] [[class|clase]] [[every|cada]] [[Thursday|jueves]] [[afternoon.|tarde.]] [[I|Yo]] [[like|gusta]] [[my|mi]] [[teacher|profesor]] [[because|porque]] [[he|él]] [[is|es]] [[very|muy]] [[patient.|paciente.]] [[I|Yo]] [[love|amo]] [[playing|tocar]] [[old|antiguas]] [[songs.|canciones.]] [[Sometimes|A veces]] [[I|yo]] [[sing|canto]] [[while|mientras]] [[I|yo]] [[play,|toco,]] [[but|pero]] [[my|mi]] [[voice|voz]] [[is|es]] [[not|no]] [[very|muy]] [[good.|buena.]] [[I|Yo]] [[practice|practico]] [[every|cada]] [[day.|día.]]",
     "content": {
-      "title": "[[Learning Guitar|Aprender Guitarra]]",
-      "instructions": "[[Read about the guitar lessons.|Lee sobre las clases de guitarra.]]",
+      "title": "[[Learning|Aprendiendo]] [[Guitar|Guitarra]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|las]] [[guitar|de guitarra]] [[lessons.|clases.]]",
       "questions": [
         {
-          "question": "[[When is the class?|¿Cuándo es la clase?]]",
-          "options": ["[[Thursday afternoon|Jueves por la tarde]]", "[[Monday morning|Lunes por la mañana]]", "[[Friday night|Viernes por la noche]]"],
+          "question": "[[When|Cuándo]] [[is|es]] [[the|la]] [[class?|clase?]]",
+          "options": ["[[Thursday|Jueves]] [[afternoon|tarde]]", "[[Monday|Lunes]] [[morning|mañana]]", "[[Friday|Viernes]] [[night|noche]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[I have a class every Thursday afternoon.|Tengo una clase todos los jueves por la tarde.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[I|Yo]] [[have|tengo]] [[a|una]] [[class|clase]] [[every|cada]] [[Thursday|jueves]] [[afternoon.|tarde.]]\""
         },
         {
-          "question": "[[Does he/she sing well?|¿Canta bien él/ella?]]",
-          "options": ["[[No, the voice is not very good|No, la voz no es muy buena]]", "[[Yes, very well|Sí, muy bien]]", "[[He/she doesn't sing|Él/ella no canta]]"],
+          "question": "[[Does|¿]] [[he/she|él/ella]] [[sing|canta]] [[well?|bien?]]",
+          "options": ["[[No,|No,]] [[the|la]] [[voice|voz]] [[is|es]] [[not|no]] [[very|muy]] [[good|buena]]", "[[Yes,|Sí,]] [[very|muy]] [[well|bien]]", "[[He/she|Él/ella]] [[doesn't|no]] [[sing|canta]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[my voice is not very good.|mi voz no es muy buena.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[My|Mi]] [[voice|voz]] [[is|es]] [[not|no]] [[very|muy]] [[good.|buena.]]\""
         }
       ]
     },
@@ -1200,22 +1200,22 @@ export const UNIT_15_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "medium",
-    "transcript": "[[Dancing class.|Clase de baile.]] [[My friend Lisa and I|Mi amiga Lisa y yo]] [[go to a dancing class|vamos a una clase de baile]] [[on Wednesday evening.|el miércoles por la noche.]] [[We love dancing salsa.|Nos encanta bailar salsa.]] [[It is very energetic and fun.|Es muy enérgico y divertido.]] [[Our teacher is from Colombia.|Nuestro profesor es de Colombia.]] [[After the class,|Después de la clase,]] [[we go to a cafe|vamos a una cafetería]] [[and have a drink.|y tomamos algo.]] [[We are always very happy|Siempre estamos muy contentos]] [[after dancing.|después de bailar.]]",
+    "transcript": "[[Dancing|Baile]] [[class.|clase.]] [[My|Mi]] [[friend|amiga]] [[Lisa|Lisa]] [[and|y]] [[I|yo]] [[go|vamos]] [[to|a]] [[a|una]] [[dancing|baile]] [[class|clase]] [[on|el]] [[Wednesday|miércoles]] [[evening.|noche.]] [[We|Nosotros]] [[love|amamos]] [[dancing|bailar]] [[salsa.|salsa.]] [[It|Esto]] [[is|es]] [[very|muy]] [[energetic|enérgico]] [[and|y]] [[fun.|divertido.]] [[Our|Nuestro]] [[teacher|profesor]] [[is|es]] [[from|de]] [[Colombia.|Colombia.]] [[After|Después de]] [[the|la]] [[class,|clase,]] [[we|nosotros]] [[go|vamos]] [[to|a]] [[a|una]] [[cafe|cafetería]] [[and|y]] [[have|tomamos]] [[a|una]] [[drink.|bebida.]] [[We|Nosotros]] [[are|estamos]] [[always|siempre]] [[very|muy]] [[happy|felices]] [[after|después de]] [[dancing.|bailar.]]",
     "content": {
-      "title": "[[Dancing Class|Clase de Baile]]",
-      "instructions": "[[Read about Lisa and her friend.|Lee sobre Lisa y su amiga.]]",
+      "title": "[[Dancing|Baile]] [[Class|Clase]]",
+      "instructions": "[[Read|Lee]] [[about|sobre]] [[Lisa|Lisa]] [[and|y]] [[her|su]] [[friend.|amiga.]]",
       "questions": [
         {
-          "question": "[[What type of dance do they do?|¿Qué tipo de baile hacen?]]",
+          "question": "[[What|Qué]] [[type|tipo]] [[of|de]] [[dance|baile]] [[do|hacen]] [[they|ellos]] [[do?|?]]",
           "options": ["[[Salsa|Salsa]]", "[[Tango|Tango]]", "[[Ballet|Ballet]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[We love dancing salsa.|Nos encanta bailar salsa.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[We|Nosotros]] [[love|amamos]] [[dancing|bailar]] [[salsa.|salsa.]]\""
         },
         {
-          "question": "[[Where is the teacher from?|¿De dónde es el profesor?]]",
+          "question": "[[Where|De dónde]] [[is|es]] [[the|el]] [[teacher|profesor]] [[from?|?]]",
           "options": ["[[Colombia|Colombia]]", "[[Spain|España]]", "[[Mexico|México]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says:|El texto dice:]] \"[[Our teacher is from Colombia.|Nuestro profesor es de Colombia.]]\""
+          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[Our|Nuestro]] [[teacher|profesor]] [[is|es]] [[from|de]] [[Colombia.|Colombia.]]\""
         }
       ]
     },

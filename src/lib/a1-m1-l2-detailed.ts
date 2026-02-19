@@ -87,7 +87,7 @@ const READING_EXERCISES: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: '[[Meet Mario. He is from Italy. He is 21 years old. He is a student of Architecture. He is very friendly.|Conoce a Mario. Él es de Italia. Tiene 21 años. Es estudiante de arquitectura. Es muy amable.]]',
+    transcript: '[[Meet|Conoce]] [[Mario|a Mario]]. [[He|Él]] [[is|es]] [[from|de]] [[Italy|Italia]]. [[He|Él]] [[is|tiene]] [[21]] [[years old|años]]. [[He|Él]] [[is|es]] [[a|un]] [[student|estudiante]] [[of|de]] [[Architecture|arquitectura]]. [[He|Él]] [[is|es]] [[very|muy]] [[friendly|amable]].',
     content: {
       title: '[[Reading: Mario from Italy|Lectura: Mario de Italia]]',
       instructions: '[[Read and answer.|Lee y responde.]]',
@@ -99,7 +99,7 @@ const READING_EXERCISES: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: '[[Meet Yuki. She is from Japan. She is 23 years old. She is a student of Medicine. She is very intelligent.|Conoce a Yuki. Ella es de Japón. Tiene 23 años. Es estudiante de Medicina. Es muy inteligente.]]',
+    transcript: '[[Meet|Conoce]] [[Yuki|a Yuki]]. [[She|Ella]] [[is|es]] [[from|de]] [[Japan|Japón]]. [[She|Ella]] [[is|tiene]] [[23]] [[years old|años]]. [[She|Ella]] [[is|es]] [[a|una]] [[student|estudiante]] [[of|de]] [[Medicine|medicina]]. [[She|Ella]] [[is|es]] [[very|muy]] [[intelligent|inteligente]].',
     content: {
       title: '[[Reading: Yuki from Japan|Lectura: Yuki de Japón]]',
       instructions: '[[Read and answer.|Lee y responde.]]',
@@ -111,7 +111,7 @@ const READING_EXERCISES: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: '[[Carlos and Elena are from Spain. They are 22 years old. They are students of Business. They are very happy here.|Carlos y Elena son de España. Tienen 22 años. Son estudiantes de Negocios. Están muy felices aquí.]]',
+    transcript: '[[Carlos|Carlos]] [[and|y]] [[Elena|Elena]] [[are|son]] [[from|de]] [[Spain|España]]. [[They|Ellos]] [[are|tienen]] [[22]] [[years old|años]]. [[They|Ellos]] [[are|son]] [[students|estudiantes]] [[of|de]] [[Business|negocios]]. [[They|Ellos]] [[are|están]] [[very|muy]] [[happy|felices]] [[here|aquí]].',
     content: {
       title: '[[Reading: Carlos and Elena|Lectura: Carlos y Elena]]',
       instructions: '[[Read and answer.|Lee y responde.]]',
@@ -123,7 +123,7 @@ const READING_EXERCISES: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: '[[Julia is from Germany. She is a nurse. Her friend Hans is a doctor. They are from Munich.|Julia es de Alemania. Es enfermera. Su amigo Hans es doctor. Son de Múnich.]]',
+    transcript: '[[Julia|Julia]] [[is|es]] [[from|de]] [[Germany|Alemania]]. [[She|Ella]] [[is|es]] [[a|una]] [[nurse|enfermera]]. [[Her|Su]] [[friend|amigo]] [[Hans|Hans]] [[is|es]] [[a|un]] [[doctor|doctor]]. [[They|Ellos]] [[are|son]] [[from|de]] [[Munich|Múnich]].',
     content: {
       title: '[[Reading: Julia and Hans|Lectura: Julia y Hans]]',
       instructions: '[[Read and answer.|Lee y responde.]]',
@@ -135,7 +135,7 @@ const READING_EXERCISES: Exercise[] = [
     type: 'reading-comprehension',
     level: 'A1',
     topicName: 'Reading',
-    transcript: '[[The International Students Club is open every day. It is a great place to meet people from many countries.|El Club de Estudiantes Internacionales está abierto todos los días. Es un gran lugar para conocer gente de muchos países.]]',
+    transcript: '[[The|El]] [[International|Internacional]] [[Students|Estudiantes]] [[Club|Club]] [[is|está]] [[open|abierto]] [[every|cada]] [[day|día]]. [[It|Ello]] [[is|es]] [[a|un]] [[great|gran]] [[place|lugar]] [[to|para]] [[meet|conocer]] [[people|gente]] [[from|de]] [[many|muchos]] [[countries|países]].',
     content: {
       title: '[[Reading: The Club|Lectura: El Club]]',
       instructions: '[[Read and answer.|Lee y responde.]]',
