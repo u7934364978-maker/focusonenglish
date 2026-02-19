@@ -109,3 +109,56 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/8e
     - [x] Unit 25
 8. [x] **Verification**: Run `npm run validate-exercises`.
 9. [x] **Final Push**: Commit and push the changes.
+
+---
+
+## [x] Phase: Complete A1 Units (18-60) to 60 Exercises
+
+1. [x] **Complete Unit 18**: Fill missing exercises e1-e3, e24-e50 following academic line (Clothes & Shopping).
+2. [x] **Complete Unit 19**: Fill missing exercises up to e60 (Dates, Months, Ordinal Numbers).
+3. [x] **Complete Unit 20**: Fill missing exercises up to e60 (Body Parts, Health Problems).
+4. [x] **Complete Unit 21**: Correct curriculum and fill up to e60 (Daily Routine & Time).
+5. [x] **Complete Unit 22**: Correct curriculum and fill up to e60 (Free Time & Hobbies).
+6. [x] **Complete Unit 23**: Correct curriculum and fill up to e60 (Jobs & Workplace).
+7. [x] **Complete Unit 24**: Correct curriculum and fill up to e60 (Food & Drinks).
+8. [x] **Complete Unit 25**: Correct curriculum and fill up to e60 (Actions / Present Continuous).
+9. [x] **Complete Unit 26**: Correct curriculum and fill up to e60 (Future: Be going to).
+10. [x] **Complete Units 27-30**: Fill up to e60 exercises.
+    - [x] Unit 27 (Giving Directions & Places)
+    - [x] Unit 28 (Past Simple: To Be)
+    - [x] Unit 29 (Past Simple: Regular Verbs)
+    - [x] Unit 30 (Past Simple: Irregular Verbs)
+11. [x] **Complete Units 31-40**: Fill up to e60 exercises following curriculum.
+    - [x] Unit 31 (Transportation & Travel)
+    - [x] Unit 32 (Weather & Seasons)
+    - [x] Unit 33 (Health & Body II)
+    - [x] Unit 34 (Technology & Devices)
+    - [x] Unit 35 (Comparative Adjectives)
+    - [x] Unit 36 (Superlative Adjectives)
+    - [x] Unit 37 (Modals: Can / Could)
+    - [x] Unit 38 (Modals: Should / Must)
+    - [x] Unit 39 (Adverbs of Manner)
+    - [x] Unit 40 (Review Module 4)
+12. [x] **Complete Units 41-59**: Fill up to e60 exercises following curriculum.
+    - [x] Unit 41 (Shopping & Money)
+    - [x] Unit 42 (Present Perfect Introduction)
+    - [x] Unit 43 (Experiences: Been vs Gone)
+    - [x] Unit 44 (Ever / Never)
+    - [x] Unit 45 (Just / Already / Yet)
+    - [x] Unit 46 (Since / For)
+    - [x] Unit 47 (Review Module 5)
+    - [x] Unit 48 (Environment & Nature)
+    - [x] Unit 49 (Animals & Habitats)
+    - [x] Unit 50 (Movies & TV Shows)
+    - [x] Unit 51 (Media & News)
+    - [x] Unit 52 (Social Media & Online Life)
+    - [x] Unit 53 (Technology of the Future)
+    - [x] Unit 54 (Space & Exploration)
+    - [x] Unit 55 (Science & Innovation)
+    - [x] Unit 56 (Inventions that Changed the World)
+    - [x] Unit 57 (Culture & Traditions)
+    - [x] Unit 58 (Society & Community)
+    - [x] Unit 59 (Future Goals & Dreams)
+13. [x] **Complete Unit 60**: Final Review & A1 Certification.
+14. [x] **Verification**: Run `npm run validate-exercises`.
+15. [x] **Final Push**: Commit and push the changes.

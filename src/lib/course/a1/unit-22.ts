@@ -2,23 +2,235 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_22_EXERCISES: Exercise[] = [
 
-  // MULTIPLE CHOICE (11-40)
+  // VOCABULARY: Hobbies (1-10)
+  {
+    "id": "a1-u22-e1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "easy",
+    "transcript": "I like reading books.",
+    "content": {
+      "title": "Leer Libros",
+      "instructions": "Elige la actividad correcta.",
+      "questions": [
+        {
+          "question": "[[I like|Me gusta]] (_____) [[books.|libros.]]",
+          "options": ["[[reading|leer]]", "[[cooking|cocinar]]", "[[swimming|nadar]]"],
+          "correctAnswer": 0,
+          "explanation": "'Reading' es leer."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e1.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u22-e2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "easy",
+    "transcript": "She loves listening to music.",
+    "content": {
+      "title": "Escuchar Música",
+      "instructions": "Completa el hobby.",
+      "questions": [
+        {
+          "question": "[[She loves|Ella ama]] (_____) [[to music.|la música.]]",
+          "options": ["[[listening|escuchar]]", "[[watching|ver]]", "[[playing|tocar]]"],
+          "correctAnswer": 0,
+          "explanation": "'Listening to music' es escuchar música."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e2.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u22-e3",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "medium",
+    "transcript": "I play video games with my friends.",
+    "content": {
+      "title": "Videojuegos",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[I play video games with my friends|Juego a videojuegos con mis amigos]].",
+      "words": ["[[friends|amigos]].", "[[my|mis]]", "[[with|con]]", "[[games|juegos]]", "[[video|video]]", "[[play|juego]]", "[[I|Yo]]"],
+      "explanation": "'Play video games' es jugar a videojuegos."
+    },
+    "audioUrl": "audio/a1/unit-22/e3.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u22-e4",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "easy",
+    "transcript": "They go swimming in the pool.",
+    "content": {
+      "title": "Nadar",
+      "instructions": "Elige el lugar correcto.",
+      "questions": [
+        {
+          "question": "[[They go swimming in the|Ellos van a nadar en la]] (_____) .",
+          "options": ["[[pool|piscina]]", "[[kitchen|cocina]]", "[[library|biblioteca]]"],
+          "correctAnswer": 0,
+          "explanation": "Nadamos en la piscina (pool)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e4.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u22-e5",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "medium",
+    "transcript": "I collect old coins.",
+    "content": {
+      "title": "Coleccionar",
+      "instructions": "Elige el objeto de colección.",
+      "questions": [
+        {
+          "question": "[[I collect old|Colecciono viejas]] (_____) .",
+          "options": ["[[coins|monedas]]", "[[cars|coches]]", "[[shoes|zapatos]]"],
+          "correctAnswer": 0,
+          "explanation": "'Coins' son monedas."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e5.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u22-e6",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "easy",
+    "transcript": "We take photos of nature.",
+    "content": {
+      "title": "Fotografía",
+      "instructions": "Completa la acción.",
+      "questions": [
+        {
+          "question": "[[We|Nosotros]] (_____) [[photos of nature.|fotos de la naturaleza.]]",
+          "options": ["[[take|tomamos]]", "[[make|hacemos]]", "[[do|hacemos]]"],
+          "correctAnswer": 0,
+          "explanation": "La expresión correcta es 'take photos'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e6.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u22-e7",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "medium",
+    "transcript": "She paints beautiful pictures.",
+    "content": {
+      "title": "Pintura",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[She paints beautiful pictures|Ella pinta cuadros hermosos]].",
+      "words": ["[[pictures|cuadros]].", "[[beautiful|hermosos]]", "[[paints|pinta]]", "[[She|Ella]]"],
+      "explanation": "'Paints pictures' es pintar cuadros."
+    },
+    "audioUrl": "audio/a1/unit-22/e7.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u22-e8",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "medium",
+    "transcript": "I do gardening in the afternoon.",
+    "content": {
+      "title": "Jardinería",
+      "instructions": "Elige el verbo adecuado.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] (_____) [[gardening in the afternoon.|jardinería por la tarde.]]",
+          "options": ["[[do|hago]]", "[[make|hago]]", "[[play|juego]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos el verbo 'do' con 'gardening'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e8.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u22-e9",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "easy",
+    "transcript": "They watch movies at home.",
+    "content": {
+      "title": "Ver Películas",
+      "instructions": "Elige el objeto.",
+      "questions": [
+        {
+          "question": "[[They watch|Ellos ven]] (_____) [[at home.|en casa.]]",
+          "options": ["[[movies|películas]]", "[[radios|radios]]", "[[music|música]]"],
+          "correctAnswer": 0,
+          "explanation": "'Movies' son películas."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e9.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u22-e10",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "medium",
+    "transcript": "He likes traveling to different countries.",
+    "content": {
+      "title": "Viajar",
+      "instructions": "Completa el hobby de viaje.",
+      "questions": [
+        {
+          "question": "[[He likes|Le gusta]] (_____) [[to different countries.|a diferentes países.]]",
+          "options": ["[[traveling|viajar]]", "[[cooking|cocinar]]", "[[sleeping|dormir]]"],
+          "correctAnswer": 0,
+          "explanation": "'Traveling' es viajar."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e10.mp3",
+    "topicName": "Vocabulary"
+  },
+
+  // GRAMMAR: Can / Can't (Habilities) (11-30)
   {
     "id": "a1-u22-e11",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Countable/Uncountable",
-    "difficulty": "easy",
-    "transcript": "I have an apple in my bag.",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "I can play the piano.",
     "content": {
-      "title": "Sustantivos Contables",
-      "instructions": "Elige la opción correcta.",
+      "title": "Habilidad Afirmativa",
+      "instructions": "Elige el auxiliar correcto.",
       "questions": [
         {
-          "question": "[[I have|Yo tengo]] _______ [[apple in my bag|manzana en mi bolsa]].",
-          "options": ["[[a|una]]", "[[an|una (antes de vocal)]]", "[[some|algunas]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'an' antes de sustantivos contables que empiezan con sonido de vocal."
+          "question": "[[I|Yo]] (_____) [[play the piano.|tocar el piano.]]",
+          "options": ["[[can|puedo]]", "[[do|hago]]", "[[is|soy]]"],
+          "correctAnswer": 0,
+          "explanation": "'Can' se usa para expresar habilidad."
         }
       ]
     },
@@ -29,18 +241,18 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "id": "a1-u22-e12",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Countable/Uncountable",
-    "difficulty": "easy",
-    "transcript": "I would like some water, please.",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "She can't swim.",
     "content": {
-      "title": "Sustantivos Incontables",
-      "instructions": "Elige la opción correcta.",
+      "title": "Habilidad Negativa",
+      "instructions": "Elige la forma negativa.",
       "questions": [
         {
-          "question": "[[I would like|Me gustaría]] _______ [[water, please|agua, por favor]].",
-          "options": ["[[a|un]]", "[[an|un]]", "[[some|algo de]]"],
-          "correctAnswer": 2,
-          "explanation": "El agua es incontable, por lo que usamos 'some' en oraciones afirmativas."
+          "question": "[[She|Ella]] (_____) [[swim.|nadar.]]",
+          "options": ["[[can't|no puede]]", "[[don't|no]]", "[[not|no]]"],
+          "correctAnswer": 0,
+          "explanation": "'Can't' (cannot) es la negación de 'can'."
         }
       ]
     },
@@ -51,42 +263,37 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "id": "a1-u22-e13",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Food",
-    "difficulty": "easy",
-    "transcript": "I eat bread for breakfast.",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "Can you speak Italian?",
     "content": {
-      "title": "Vocabulario: Comida",
-      "instructions": "Elige la palabra correcta.",
+      "title": "Preguntas con Can",
+      "instructions": "Elige el orden correcto.",
       "questions": [
         {
-          "question": "[[I eat|Yo como]] _______ [[for breakfast|para desayunar]].",
-          "options": ["[[bread|pan]]", "[[milk|leche]]", "[[water|agua]]"],
+          "question": "(_____) [[you speak Italian?|hablas italiano?]]",
+          "options": ["[[Can|¿Puedes?]]", "[[Do|¿Haces?]]", "[[Are|¿Eres?]]"],
           "correctAnswer": 0,
-          "explanation": "'Bread' (pan) es algo que se come."
+          "explanation": "Para preguntas de habilidad, empezamos con 'Can'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-22/e13.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e14",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar: Quantifiers",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "How much sugar do you want?",
+    "transcript": "They can cook very well.",
     "content": {
-      "title": "Preguntas de Cantidad",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "_______ [[sugar do you want|azúcar quieres]]?",
-          "options": ["[[How many|Cuántos]]", "[[How much|Cuánto]]", "[[How some|Error]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'How much' para preguntar la cantidad de sustantivos incontables como el azúcar."
-        }
-      ]
+      "title": "Cocinar Bien",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[They can cook very well|Ellos saben cocinar muy bien]].",
+      "words": ["[[well|bien]].", "[[very|muy]]", "[[cook|cocinar]]", "[[can|saben/pueden]]", "[[They|Ellos]]"],
+      "explanation": "'Can' también se usa para 'saber hacer algo'."
     },
     "audioUrl": "audio/a1/unit-22/e14.mp3",
     "topicName": "Grammar"
@@ -95,18 +302,18 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "id": "a1-u22-e15",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Quantifiers",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "How many eggs are in the fridge?",
+    "transcript": "He can't drive a car.",
     "content": {
-      "title": "Preguntas de Cantidad",
-      "instructions": "Completa la pregunta.",
+      "title": "No Saber Conducir",
+      "instructions": "Elige la opción correcta.",
       "questions": [
         {
-          "question": "_______ [[eggs are in the fridge|huevos hay en la nevera]]?",
-          "options": ["[[How many|Cuántos]]", "[[How much|Cuánto]]", "[[How any|Error]]"],
+          "question": "[[He|Él]] (_____) [[drive a car.|conducir un coche.]]",
+          "options": ["[[can't|no sabe]]", "[[doesn't|no]]", "[[can|sabe]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'How many' para preguntar la cantidad de sustantivos contables en plural."
+          "explanation": "Expresamos falta de habilidad con 'can't'."
         }
       ]
     },
@@ -117,40 +324,40 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "id": "a1-u22-e16",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Drinks",
+    "topic": "Can / Can't",
     "difficulty": "easy",
-    "transcript": "She drinks orange juice every morning.",
+    "transcript": "Yes, I can.",
     "content": {
-      "title": "Vocabulario: Bebidas",
-      "instructions": "Completa la oración.",
+      "title": "Respuesta Corta",
+      "instructions": "Responde positivamente.",
       "questions": [
         {
-          "question": "[[She drinks orange|Ella bebe naranja]] _______ [[every morning|cada mañana]].",
-          "options": ["[[meat|carne]]", "[[juice|zumo]]", "[[rice|arroz]]"],
-          "correctAnswer": 1,
-          "explanation": "El zumo (juice) es una bebida de fruta."
+          "question": "[[Can you dance?|¿Sabes bailar?]] (_____) .",
+          "options": ["[[Yes, I can|Sí, sé]]", "[[Yes, I do|Sí]]", "[[Yes, I am|Sí]]"],
+          "correctAnswer": 0,
+          "explanation": "En respuestas cortas repetimos el auxiliar 'can'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-22/e16.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e17",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Any",
-    "difficulty": "medium",
-    "transcript": "Is there any milk in the bottle?",
+    "topic": "Can / Can't",
+    "difficulty": "easy",
+    "transcript": "No, she can't.",
     "content": {
-      "title": "Uso de 'Any'",
-      "instructions": "Elige la opción correcta.",
+      "title": "Respuesta Negativa",
+      "instructions": "Responde negativamente.",
       "questions": [
         {
-          "question": "[[Is there|Hay]] _______ [[milk in the bottle|leche en la botella]]?",
-          "options": ["[[some|algo de]]", "[[any|alguna/algo de (preg)]]", "[[a|una]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'any' para preguntas con sustantivos incontables."
+          "question": "[[Can she sing?|¿Sabe cantar?]] (_____) .",
+          "options": ["[[No, she can't|No, no sabe]]", "[[No, she doesn't|No]]", "[[No, she not|No]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'can't' para la respuesta corta negativa."
         }
       ]
     },
@@ -159,42 +366,37 @@ export const UNIT_22_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u22-e18",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Vocabulary: Vegetables",
-    "difficulty": "medium",
-    "transcript": "Carrots are good for your eyes.",
+    "topic": "Can / Can't",
+    "difficulty": "hard",
+    "transcript": "Birds can fly in the sky.",
     "content": {
-      "title": "Vocabulario: Verduras",
-      "instructions": "Elige la verdura correcta.",
-      "questions": [
-        {
-          "question": "_______ [[are good for your eyes|son buenas para tus ojos]].",
-          "options": ["[[Carrots|Zanahorias]]", "[[Beef|Ternera]]", "[[Cheese|Queso]]"],
-          "correctAnswer": 0,
-          "explanation": "Las zanahorias (carrots) son verduras conocidas por ser buenas para la vista."
-        }
-      ]
+      "title": "Los Pájaros",
+      "instructions": "Ordena la frase sobre animales.",
+      "correctSentence": "[[Birds can fly in the sky|Los pájaros pueden volar en el cielo]].",
+      "words": ["[[sky|cielo]].", "[[the|el]]", "[[in|en]]", "[[fly|volar]]", "[[can|pueden]]", "[[Birds|Los pájaros]]"],
+      "explanation": "Habilidad natural de los animales."
     },
     "audioUrl": "audio/a1/unit-22/e18.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e19",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Negatives",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "We don't have any pasta left.",
+    "transcript": "Can he play guitar?",
     "content": {
-      "title": "Negación con 'Any'",
-      "instructions": "Elige la opción correcta.",
+      "title": "Habilidad con Instrumentos",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[We don't have|No tenemos]] _______ [[pasta left|pasta que quede]].",
-          "options": ["[[some|algo de]]", "[[any|nada de (neg)]]", "[[a|una]]"],
-          "correctAnswer": 1,
-          "explanation": "En oraciones negativas, usamos 'any' con sustantivos incontables."
+          "question": "(_____) [[he play guitar?|toca la guitarra?]]",
+          "options": ["[[Can|¿Sabe?]]", "[[Does|¿Hace?]]", "[[Is|¿Es?]]"],
+          "correctAnswer": 0,
+          "explanation": "Preguntamos por la habilidad de tocar un instrumento con 'Can'."
         }
       ]
     },
@@ -205,40 +407,42 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "id": "a1-u22-e20",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Fruit",
-    "difficulty": "easy",
-    "transcript": "Bananas are yellow.",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "Cats can jump very high.",
     "content": {
-      "title": "Vocabulario: Frutas",
-      "instructions": "Elige la fruta correcta.",
+      "title": "Los Gatos",
+      "instructions": "Elige el verbo de habilidad.",
       "questions": [
         {
-          "question": "_______ [[are yellow|son amarillas]].",
-          "options": ["[[Apples|Manzanas]]", "[[Bananas|Plátanos]]", "[[Cherries|Cerezas]]"],
-          "correctAnswer": 1,
-          "explanation": "Los plátanos (bananas) son de color amarillo."
+          "question": "[[Cats|Los gatos]] (_____) [[jump very high.|saltar muy alto.]]",
+          "options": ["[[can|pueden]]", "[[can't|no pueden]]", "[[do|hacen]]"],
+          "correctAnswer": 0,
+          "explanation": "Los gatos tienen la habilidad de saltar alto."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-22/e20.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
+
+  // GRAMMAR: Like / Love / Hate + -ing (21-30)
   {
     "id": "a1-u22-e21",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Countable/Uncountable",
+    "topic": "Like + -ing",
     "difficulty": "medium",
-    "transcript": "I need some information about the menu.",
+    "transcript": "I like singing in the shower.",
     "content": {
-      "title": "Sustantivos Incontables",
-      "instructions": "Elige la opción correcta.",
+      "title": "Gustos personales",
+      "instructions": "Elige la forma correcta del verbo tras 'like'.",
       "questions": [
         {
-          "question": "[[I need|Necesito]] _______ [[information|información]].",
-          "options": ["[[an|una]]", "[[some|algo de]]", "[[a|una]]"],
-          "correctAnswer": 1,
-          "explanation": "'Information' es incontable en inglés, por lo que usamos 'some'."
+          "question": "[[I like|Me gusta]] (_____) [[in the shower.|en la ducha.]]",
+          "options": ["[[singing|cantar]]", "[[sing|cantar]]", "[[sings|canta]]"],
+          "correctAnswer": 0,
+          "explanation": "Tras verbos de preferencia (like, love, hate) solemos usar la forma -ing."
         }
       ]
     },
@@ -249,40 +453,40 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "id": "a1-u22-e22",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Meat",
+    "topic": "Love + -ing",
     "difficulty": "medium",
-    "transcript": "I don't eat chicken or beef.",
+    "transcript": "She loves dancing.",
     "content": {
-      "title": "Vocabulario: Carnes",
-      "instructions": "Completa la oración.",
+      "title": "Encantar",
+      "instructions": "Elige el verbo correcto para 'encantar'.",
       "questions": [
         {
-          "question": "[[I don't eat|No como]] _______ [[or beef|o ternera]].",
-          "options": ["[[chicken|pollo]]", "[[potato|patata]]", "[[banana|plátano]]"],
+          "question": "[[She loves|A ella le encanta]] (_____) .",
+          "options": ["[[dancing|bailar]]", "[[dance|bailar]]", "[[dances|baila]]"],
           "correctAnswer": 0,
-          "explanation": "'Chicken' (pollo) es un tipo de carne."
+          "explanation": "Tras 'love' usamos la forma -ing."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-22/e22.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e23",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Quantifiers",
+    "topic": "Hate + -ing",
     "difficulty": "medium",
-    "transcript": "There isn't much salt in the soup.",
+    "transcript": "I hate washing the dishes.",
     "content": {
-      "title": "Uso de 'Much'",
-      "instructions": "Elige la opción correcta.",
+      "title": "Odiar",
+      "instructions": "Completa con el sentimiento de desagrado.",
       "questions": [
         {
-          "question": "[[There isn't|No hay]] _______ [[salt in the soup|sal en la sopa]].",
-          "options": ["[[many|mucha (contable)]]", "[[much|mucha (incontable)]]", "[[some|algo de]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'much' para sustantivos incontables en oraciones negativas."
+          "question": "[[I|Yo]] (_____) [[washing the dishes.|fregar los platos.]]",
+          "options": ["[[hate|odio]]", "[[love|amo]]", "[[like|me gusta]]"],
+          "correctAnswer": 0,
+          "explanation": "'Hate' se usa para algo que nos desagrada mucho."
         }
       ]
     },
@@ -291,22 +495,17 @@ export const UNIT_22_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u22-e24",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar: Quantifiers",
-    "difficulty": "medium",
-    "transcript": "There aren't many potatoes in the basket.",
+    "topic": "Like + -ing",
+    "difficulty": "hard",
+    "transcript": "He likes playing tennis.",
     "content": {
-      "title": "Uso de 'Many'",
-      "instructions": "Elige la opción correcta.",
-      "questions": [
-        {
-          "question": "[[There aren't|No hay]] _______ [[potatoes in the basket|patatas en la cesta]].",
-          "options": ["[[much|muchas]]", "[[many|muchas]]", "[[any|ninguna]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'many' para sustantivos contables en plural."
-        }
-      ]
+      "title": "Deporte y Gustos",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[He likes playing tennis|A él le gusta jugar al tenis]].",
+      "words": ["[[tennis|tenis]].", "[[playing|jugar]]", "[[likes|le gusta]]", "[[He|Él]]"],
+      "explanation": "Forma: Sujeto + like(s) + verbo-ing + objeto."
     },
     "audioUrl": "audio/a1/unit-22/e24.mp3",
     "topicName": "Grammar"
@@ -315,40 +514,561 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "id": "a1-u22-e25",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Dairy",
-    "difficulty": "easy",
-    "transcript": "Cheese is made from milk.",
+    "topic": "Like + -ing",
+    "difficulty": "medium",
+    "transcript": "They don't like running.",
     "content": {
-      "title": "Lácteos",
-      "instructions": "Completa la oración.",
+      "title": "Gustos Negativos",
+      "instructions": "Elige la forma negativa.",
       "questions": [
         {
-          "question": "_______ [[is made from milk|está hecho de leche]].",
-          "options": ["[[Cheese|Queso]]", "[[Rice|Arroz]]", "[[Bread|Pan]]"],
+          "question": "[[They|Ellos]] (_____) [[running.|correr.]]",
+          "options": ["[[don't like|no les gusta]]", "[[doesn't like|no le gusta]]", "[[not like|no gusta]]"],
           "correctAnswer": 0,
-          "explanation": "El queso (cheese) es un producto lácteo derivado de la leche."
+          "explanation": "Negación de 'like' con 'don't'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-22/e25.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u22-e26",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Love + -ing",
+    "difficulty": "medium",
+    "transcript": "We love traveling.",
+    "content": {
+      "title": "Viajes",
+      "instructions": "Completa la frase.",
+      "questions": [
+        {
+          "question": "[[We|Nosotros]] (_____) [[traveling.|viajar.]]",
+          "options": ["[[love|amamos]]", "[[hates|odias]]", "[[loves|ama]]"],
+          "correctAnswer": 0,
+          "explanation": "Con 'we' usamos 'love' sin 's'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e26.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u22-e27",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Like + -ing",
+    "difficulty": "hard",
+    "transcript": "Do you like cooking?",
+    "content": {
+      "title": "Pregunta de Gusto",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Do you like cooking?|¿Te gusta cocinar?]]",
+      "words": ["[[cooking?|cocinar?]]", "[[like|gusta]]", "[[you|te]]", "[[Do|Hacer]]"],
+      "explanation": "Orden: Do + subject + like + verb-ing?"
+    },
+    "audioUrl": "audio/a1/unit-22/e27.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u22-e28",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hate + -ing",
+    "difficulty": "medium",
+    "transcript": "He hates getting up early.",
+    "content": {
+      "title": "Odiar Madrugar",
+      "instructions": "Elige la forma correcta del verbo.",
+      "questions": [
+        {
+          "question": "[[He hates|Él odia]] (_____) [[up early.|temprano.]]",
+          "options": ["[[getting|levantarse]]", "[[get|levantar]]", "[[gets|levanta]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos -ing tras 'hate'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e28.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u22-e29",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Like + -ing",
+    "difficulty": "medium",
+    "transcript": "Does she like playing the guitar?",
+    "content": {
+      "title": "Pregunta 3ª Persona",
+      "instructions": "Elige el auxiliar correcto.",
+      "questions": [
+        {
+          "question": "(_____) [[she like playing the guitar?|a ella le gusta tocar la guitarra?]]",
+          "options": ["[[Does|¿Hace?]]", "[[Do|¿Hace?]]", "[[Is|¿Es?]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'Does' para preguntas con 'she'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e29.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u22-e30",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Love + -ing",
+    "difficulty": "hard",
+    "transcript": "I love taking photos.",
+    "content": {
+      "title": "Hobby Favorito",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[I love taking photos|Me encanta hacer fotos]].",
+      "words": ["[[photos|fotos]].", "[[taking|hacer]]", "[[love|encanta]]", "[[I|Me]]"],
+      "explanation": "Expresión de gran gusto."
+    },
+    "audioUrl": "audio/a1/unit-22/e30.mp3",
+    "topicName": "Grammar"
+  },
+
+  // MIXED PRACTICE & VOCABULARY (31-40)
+  {
+    "id": "a1-u22-e31",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "medium",
+    "transcript": "I like drawing.",
+    "content": {
+      "title": "Dibujar",
+      "instructions": "Elige el hobby artístico.",
+      "questions": [
+        {
+          "question": "[[I like|Me gusta]] (_____) .",
+          "options": ["[[drawing|dibujar]]", "[[running|correr]]", "[[eating|comer]]"],
+          "correctAnswer": 0,
+          "explanation": "'Drawing' es dibujar."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e31.mp3",
     "topicName": "Vocabulary"
   },
+  {
+    "id": "a1-u22-e32",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "medium",
+    "transcript": "She is good at dancing.",
+    "content": {
+      "title": "Ser Bueno en Algo",
+      "instructions": "Elige la actividad.",
+      "questions": [
+        {
+          "question": "[[She is good at|Ella es buena en]] (_____) .",
+          "options": ["[[dancing|bailar]]", "[[dance|bailar]]", "[[dancer|bailarina]]"],
+          "correctAnswer": 0,
+          "explanation": "Tras la preposición 'at' usamos la forma -ing."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e32.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u22-e33",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "medium",
+    "transcript": "He is interested in cinema.",
+    "content": {
+      "title": "Intereses",
+      "instructions": "Elige el campo de interés.",
+      "questions": [
+        {
+          "question": "[[He is interested in|Él está interesado en el]] (_____) .",
+          "options": ["[[cinema|cine]]", "[[market|mercado]]", "[[office|oficina]]"],
+          "correctAnswer": 0,
+          "explanation": "'Cinema' es el cine."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e33.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u22-e34",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "hard",
+    "transcript": "My hobby is collecting stamps.",
+    "content": {
+      "title": "Mi Hobby",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[My hobby is collecting stamps|Mi afición es coleccionar sellos]].",
+      "words": ["[[stamps|sellos]].", "[[collecting|coleccionar]]", "[[is|es]]", "[[hobby|afición]]", "[[My|Mi]]"],
+      "explanation": "'Stamps' son sellos."
+    },
+    "audioUrl": "audio/a1/unit-22/e34.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u22-e35",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "easy",
+    "transcript": "I like playing chess.",
+    "content": {
+      "title": "Ajedrez",
+      "instructions": "Elige el juego de mesa.",
+      "questions": [
+        {
+          "question": "[[I like playing|Me gusta jugar al]] (_____) .",
+          "options": ["[[chess|ajedrez]]", "[[football|fútbol]]", "[[swimming|natación]]"],
+          "correctAnswer": 0,
+          "explanation": "'Chess' es ajedrez."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e35.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u22-e36",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "medium",
+    "transcript": "She goes hiking every weekend.",
+    "content": {
+      "title": "Senderismo",
+      "instructions": "Elige la actividad de montaña.",
+      "questions": [
+        {
+          "question": "[[She goes|Ella va a hacer]] (_____) [[every weekend.|cada fin de semana.]]",
+          "options": ["[[hiking|senderismo]]", "[[shopping|compras]]", "[[sleeping|dormir]]"],
+          "correctAnswer": 0,
+          "explanation": "'Hiking' es senderismo o caminatas por el campo/montaña."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e36.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u22-e37",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "medium",
+    "transcript": "Do you like knitting?",
+    "content": {
+      "title": "Tejer",
+      "instructions": "Completa la pregunta.",
+      "questions": [
+        {
+          "question": "[[Do you like|¿Te gusta]] (_____) ?",
+          "options": ["[[knitting|tejer]]", "[[running|correr]]", "[[singing|cantar]]"],
+          "correctAnswer": 0,
+          "explanation": "'Knitting' es tejer (hacer punto)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e37.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u22-e38",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "hard",
+    "transcript": "He loves woodworking in his garage.",
+    "content": {
+      "title": "Carpintería",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[He loves woodworking in his garage|Él ama la carpintería en su garaje]].",
+      "words": ["[[garage|garaje]].", "[[his|su]]", "[[in|en]]", "[[woodworking|carpintería]]", "[[loves|ama]]", "[[He|Él]]"],
+      "explanation": "'Woodworking' es el trabajo con madera o carpintería."
+    },
+    "audioUrl": "audio/a1/unit-22/e38.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u22-e39",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "easy",
+    "transcript": "I enjoy cooking Italian food.",
+    "content": {
+      "title": "Disfrutar",
+      "instructions": "Elige el verbo de disfrute.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] (_____) [[cooking Italian food.|cocinar comida italiana.]]",
+          "options": ["[[enjoy|disfruto]]", "[[hate|odio]]", "[[sad|triste]]"],
+          "correctAnswer": 0,
+          "explanation": "'Enjoy' significa disfrutar."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e39.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u22-e40",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "medium",
+    "transcript": "She spends a lot of time drawing.",
+    "content": {
+      "title": "Pasar el Tiempo",
+      "instructions": "Completa con el verbo adecuado.",
+      "questions": [
+        {
+          "question": "[[She|Ella]] (_____) [[a lot of time drawing.|mucho tiempo dibujando.]]",
+          "options": ["[[spends|pasa]]", "[[does|hace]]", "[[has|tiene]]"],
+          "correctAnswer": 0,
+          "explanation": "'Spend time' es pasar el tiempo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e40.mp3",
+    "topicName": "Vocabulary"
+  },
+
+  // MIXED PRACTICE (41-50)
+  {
+    "id": "a1-u22-e41",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "I can't play chess very well.",
+    "content": {
+      "title": "Ajedrez y Habilidad",
+      "instructions": "Elige la opción correcta.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] (_____) [[play chess very well.|jugar al ajedrez muy bien.]]",
+          "options": ["[[can't|no sé]]", "[[can|sé]]", "[[am|soy]]"],
+          "correctAnswer": 0,
+          "explanation": "'Can't' expresa falta de habilidad."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e41.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u22-e42",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Like + -ing",
+    "difficulty": "medium",
+    "transcript": "Do you like hiking in the mountains?",
+    "content": {
+      "title": "Senderismo",
+      "instructions": "Elige el verbo correcto.",
+      "questions": [
+        {
+          "question": "[[Do you like|¿Te gusta]] (_____) [[in the mountains?|en las montañas?]]",
+          "options": ["[[hiking|hacer senderismo]]", "[[hike|hacer senderismo]]", "[[hikes|hace senderismo]]"],
+          "correctAnswer": 0,
+          "explanation": "Tras 'like' usamos la forma -ing."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e42.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u22-e43",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Can / Can't",
+    "difficulty": "hard",
+    "transcript": "Can your brother drive a truck?",
+    "content": {
+      "title": "Conducir Camiones",
+      "instructions": "Ordena la pregunta de habilidad.",
+      "correctSentence": "[[Can your brother drive a truck?|¿Sabe tu hermano conducir un camión?]]",
+      "words": ["[[truck?|camión?]]", "[[a|un]]", "[[drive|conducir]]", "[[brother|hermano]]", "[[your|tu]]", "[[Can|¿Sabe?]]"],
+      "explanation": "Preguntamos por la habilidad de un tercero."
+    },
+    "audioUrl": "audio/a1/unit-22/e43.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u22-e44",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hate + -ing",
+    "difficulty": "medium",
+    "transcript": "She hates waiting for the bus.",
+    "content": {
+      "title": "Esperar",
+      "instructions": "Elige la forma correcta tras 'hate'.",
+      "questions": [
+        {
+          "question": "[[She hates|Ella odia]] (_____) [[for the bus.|el autobús.]]",
+          "options": ["[[waiting|esperar]]", "[[wait|esperar]]", "[[waits|espera]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos la forma -ing para expresar lo que se odia."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e44.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u22-e45",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "medium",
+    "transcript": "I am interested in learning languages.",
+    "content": {
+      "title": "Aprender Idiomas",
+      "instructions": "Elige la actividad de interés.",
+      "questions": [
+        {
+          "question": "[[I am interested in|Estoy interesado en]] (_____) [[languages.|idiomas.]]",
+          "options": ["[[learning|aprender]]", "[[cooking|cocinar]]", "[[playing|tocar]]"],
+          "correctAnswer": 0,
+          "explanation": "'Learning languages' es aprender idiomas."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u22-e46",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Can / Can't",
+    "difficulty": "hard",
+    "transcript": "My sister can speak three languages.",
+    "content": {
+      "title": "Políglota",
+      "instructions": "Ordena la frase de habilidad.",
+      "correctSentence": "[[My sister can speak three languages|Mi hermana sabe hablar tres idiomas]].",
+      "words": ["[[languages|idiomas]].", "[[three|tres]]", "[[speak|hablar]]", "[[can|sabe]]", "[[sister|hermana]]", "[[My|Mi]]"],
+      "explanation": "Expresamos una habilidad lingüística."
+    },
+    "audioUrl": "audio/a1/unit-22/e46.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u22-e47",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Love + -ing",
+    "difficulty": "medium",
+    "transcript": "They love playing football.",
+    "content": {
+      "title": "Deportes",
+      "instructions": "Elige el verbo de gusto.",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] (_____) [[playing football.|jugar al fútbol.]]",
+          "options": ["[[love|aman]]", "[[loves|ama]]", "[[hates|odia]]"],
+          "correctAnswer": 0,
+          "explanation": "Con 'they' usamos 'love' sin 's'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e47.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u22-e48",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Hobbies",
+    "difficulty": "medium",
+    "transcript": "Do you have any hobbies?",
+    "content": {
+      "title": "Pregunta General",
+      "instructions": "Elige la palabra para aficiones.",
+      "questions": [
+        {
+          "question": "[[Do you have any|¿Tienes alguna]] (_____) ?",
+          "options": ["[[hobbies|afición]]", "[[works|trabajos]]", "[[homes|casas]]"],
+          "correctAnswer": 0,
+          "explanation": "'Hobbies' son las aficiones."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e48.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u22-e49",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Like + -ing",
+    "difficulty": "hard",
+    "transcript": "We like going to the cinema.",
+    "content": {
+      "title": "Ir al Cine",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[We like going to the cinema|Nos gusta ir al cine]].",
+      "words": ["[[cinema|cine]].", "[[the|al]]", "[[to|a]]", "[[going|ir]]", "[[like|gusta]]", "[[We|Nos]]"],
+      "explanation": "Usamos 'going' tras 'like'."
+    },
+    "audioUrl": "audio/a1/unit-22/e49.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u22-e50",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "Can he fix a computer?",
+    "content": {
+      "title": "Reparar",
+      "instructions": "Completa la pregunta de habilidad técnica.",
+      "questions": [
+        {
+          "question": "(_____) [[he fix a computer?|él sabe arreglar un ordenador?]]",
+          "options": ["[[Can|¿Sabe?]]", "[[Is|¿Es?]]", "[[Does|¿Hace?]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'Can' para preguntar si alguien sabe hacer algo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-22/e50.mp3",
+    "topicName": "Grammar"
+  },
+
+  // READING COMPREHENSION (51-60)
   {
     "id": "a1-u22-e51",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Every Saturday morning,|Cada sábado por la mañana,]] [[I go to the local market|voy al mercado local]] [[to buy fresh food.|para comprar comida fresca.]] [[First, I buy|Primero, compro]] [[some vegetables:|algunas verduras:]] [[a kilo of potatoes,|un kilo de patatas,]] [[some carrots,|algunas zanahorias,]] [[and an onion.|y una cebolla.]] [[Then, I go to the fruit stand.|Luego, voy al puesto de fruta.]] [[I always buy|Siempre compro]] [[some red apples|algunas manzanas rojas]] [[and a bunch of bananas.|y un racimo de plátanos.]] [[I don't buy|No compro]] [[any oranges|ninguna naranja]] [[because I have|porque tengo]] [[an orange tree|un naranjo]] [[in my garden.|en mi jardín.]] [[Finally, I buy|Finalmente, compro]] [[some fresh bread|algo de pan fresco]] [[and a bottle of milk.|y una botella de leche.]] [[Now, I have|Ahora, tengo]] [[everything I need|todo lo que necesito]] [[for the week!|para la semana!]]",
+    "transcript": "[[My name is Peter.|Mi nombre es Peter.]] [[I have many hobbies.|Tengo muchas aficiones.]] [[In my free time,|En mi tiempo libre,]] [[I like playing the guitar.|me gusta tocar la guitarra.]] [[I can play|Sé tocar]] [[many songs.|muchas canciones.]] [[I also love|También me encanta]] [[taking photos|hacer fotos]] [[of animals and flowers.|de animales y flores.]] [[My sister, Anna,|Mi hermana, Anna,]] [[has different interests.|tiene intereses diferentes.]] [[She hates|Ella odia]] [[music,|la música,]] [[but she loves|pero le encanta]] [[reading books.|leer libros.]] [[She can read|Ella sabe leer]] [[very fast.|muy rápido.]] [[On Sundays,|Los domingos,]] [[we go hiking|vamos a hacer senderismo]] [[together|juntos]] [[in the mountains.|en las montañas.]]",
     "content": {
-      "title": "[[Reading: Market Day|Lectura: Día de mercado]]",
+      "title": "[[Reading: Peter's Hobbies|Lectura: Las aficiones de Peter]]",
       "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "[[Why doesn't the speaker buy oranges?|¿Por qué el hablante no compra naranjas?]]",
-          "options": ["[[Because he doesn't like them|Porque no le gustan]]", "[[Because he has a tree in his garden|Porque tiene un árbol en su jardín]]", "[[Because they are expensive|Porque son caras]]"],
-          "correctAnswer": 1,
-          "explanation": "[[The speaker says he doesn't buy oranges because he has an orange tree in his garden.|El hablante dice que no compra naranjas porque tiene un naranjo en su jardín.]]"
+          "question": "[[What instrument can Peter play?|¿Qué instrumento sabe tocar Peter?]]",
+          "options": ["[[The guitar|La guitarra]]", "[[The piano|El piano]]", "[[The drums|La batería]]"],
+          "correctAnswer": 0,
+          "explanation": "[[Peter says: 'I like playing the guitar.'|Peter dice: 'Me gusta tocar la guitarra.']]"
         }
       ]
     },
@@ -361,16 +1081,16 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Every Saturday morning,|Cada sábado por la mañana,]] [[I go to the local market|voy al mercado local]] [[to buy fresh food.|para comprar comida fresca.]] [[First, I buy|Primero, compro]] [[some vegetables:|algunas verduras:]] [[a kilo of potatoes,|un kilo de patatas,]] [[some carrots,|algunas zanahorias,]] [[and an onion.|y una cebolla.]] [[Then, I go to the fruit stand.|Luego, voy al puesto de fruta.]] [[I always buy|Siempre compro]] [[some red apples|algunas manzanas rojas]] [[and a bunch of bananas.|y un racimo de plátanos.]] [[I don't buy|No compro]] [[any oranges|ninguna naranja]] [[because I have|porque tengo]] [[an orange tree|un naranjo]] [[in my garden.|en mi jardín.]] [[Finally, I buy|Finalmente, compro]] [[some fresh bread|algo de pan fresco]] [[and a bottle of milk.|y una botella de leche.]] [[Now, I have|Ahora, tengo]] [[everything I need|todo lo que necesito]] [[for the week!|para la semana!]]",
+    "transcript": "[[My name is Peter.|Mi nombre es Peter.]] [[I have many hobbies.|Tengo muchas aficiones.]] [[In my free time,|En mi tiempo libre,]] [[I like playing the guitar.|me gusta tocar la guitarra.]] [[I can play|Sé tocar]] [[many songs.|muchas canciones.]] [[I also love|También me encanta]] [[taking photos|hacer fotos]] [[of animals and flowers.|de animales y flores.]] [[My sister, Anna,|Mi hermana, Anna,]] [[has different interests.|tiene intereses diferentes.]] [[She hates|Ella odia]] [[music,|la música,]] [[but she loves|pero le encanta]] [[reading books.|leer libros.]] [[She can read|Ella sabe leer]] [[very fast.|muy rápido.]] [[On Sundays,|Los domingos,]] [[we go hiking|vamos a hacer senderismo]] [[together|juntos]] [[in the mountains.|en las montañas.]]",
     "content": {
-      "title": "[[Reading: Vegetables and Fruit|Lectura: Verduras y frutas]]",
+      "title": "[[Reading: Anna's Preferences|Lectura: Las preferencias de Anna]]",
       "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "[[Which fruit does the speaker always buy?|¿Qué fruta compra siempre el hablante?]]",
-          "options": ["[[Red apples and bananas|Manzanas rojas y plátanos]]", "[[Oranges and grapes|Naranjas y uvas]]", "[[Pears and watermelons|Peras y sandías]]"],
+          "question": "[[What does Anna love doing?|¿Qué le encanta hacer a Anna?]]",
+          "options": ["[[Reading books|Leer libros]]", "[[Listening to music|Escuchar música]]", "[[Taking photos|Hacer fotos]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text mentions buying some red apples and a bunch of bananas.|El texto menciona la compra de algunas manzanas rojas y un racimo de plátanos.]]"
+          "explanation": "[[The text says Anna loves reading books.|El texto dice que a Anna le encanta leer libros.]]"
         }
       ]
     },
@@ -383,16 +1103,16 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Every Saturday morning,|Cada sábado por la mañana,]] [[I go to the local market|voy al mercado local]] [[to buy fresh food.|para comprar comida fresca.]] [[First, I buy|Primero, compro]] [[some vegetables:|algunas verduras:]] [[a kilo of potatoes,|un kilo de patatas,]] [[some carrots,|algunas zanahorias,]] [[and an onion.|y una cebolla.]] [[Then, I go to the fruit stand.|Luego, voy al puesto de fruta.]] [[I always buy|Siempre compro]] [[some red apples|algunas manzanas rojas]] [[and a bunch of bananas.|y un racimo de plátanos.]] [[I don't buy|No compro]] [[any oranges|ninguna naranja]] [[because I have|porque tengo]] [[an orange tree|un naranjo]] [[in my garden.|en mi jardín.]] [[Finally, I buy|Finalmente, compro]] [[some fresh bread|algo de pan fresco]] [[and a bottle of milk.|y una botella de leche.]] [[Now, I have|Ahora, tengo]] [[everything I need|todo lo que necesito]] [[for the week!|para la semana!]]",
+    "transcript": "[[My name is Peter.|Mi nombre es Peter.]] [[I have many hobbies.|Tengo muchas aficiones.]] [[In my free time,|En mi tiempo libre,]] [[I like playing the guitar.|me gusta tocar la guitarra.]] [[I can play|Sé tocar]] [[many songs.|muchas canciones.]] [[I also love|También me encanta]] [[taking photos|hacer fotos]] [[of animals and flowers.|de animales y flores.]] [[My sister, Anna,|Mi hermana, Anna,]] [[has different interests.|tiene intereses diferentes.]] [[She hates|Ella odia]] [[music,|la música,]] [[but she loves|pero le encanta]] [[reading books.|leer libros.]] [[She can read|Ella sabe leer]] [[very fast.|muy rápido.]] [[On Sundays,|Los domingos,]] [[we go hiking|vamos a hacer senderismo]] [[together|juntos]] [[in the mountains.|en las montañas.]]",
     "content": {
-      "title": "[[Reading: Dairy and Bakery|Lectura: Lácteos y panadería]]",
+      "title": "[[Reading: Weekend Activity|Lectura: Actividad de fin de semana]]",
       "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
       "questions": [
         {
-          "question": "[[What are the last two items mentioned?|¿Cuáles son los dos últimos artículos mencionados?]]",
-          "options": ["[[Fresh bread and a bottle of milk|Pan fresco y una botella de leche]]", "[[Meat and cheese|Carne y queso]]", "[[Water and juice|Agua y zumo]]"],
+          "question": "[[What do Peter and Anna do on Sundays?|¿Qué hacen Peter y Anna los domingos?]]",
+          "options": ["[[Go hiking|Hacer senderismo]]", "[[Go swimming|Ir a nadar]]", "[[Stay at home|Quedarse en casa]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text ends by mentioning fresh bread and a bottle of milk.|El texto termina mencionando pan fresco y una botella de leche.]]"
+          "explanation": "[[They go hiking together in the mountains on Sundays.|Van a hacer senderismo juntos a las montañas los domingos.]]"
         }
       ]
     },
@@ -405,16 +1125,16 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Hi, I'm Sarah.|Hola, soy Sarah.]] [[I am a vegetarian,|Soy vegetariana,]] [[so I don't eat|así que no como]] [[any meat or fish.|nada de carne ni pescado.]] [[For lunch,|Para almorzar,]] [[I usually have|suelo tomar]] [[a big salad|una ensalada grande]] [[with tomatoes,|con tomates,]] [[cucumbers,|pepinos,]] [[and some cheese.|y algo de queso.]] [[I also drink|También bebo]] [[a lot of water.|mucha agua.]] [[For dinner,|Para cenar,]] [[I like cooking|me gusta cocinar]] [[pasta with vegetables.|pasta con verduras.]] [[I don't put|No pongo]] [[much salt|mucha sal]] [[in my food,|en mi comida,]] [[but I use|pero uso]] [[a lot of olive oil.|mucho aceite de oliva.]] [[It is a very|Es una dieta muy]] [[healthy diet.|saludable.]]",
+    "transcript": "[[Can you swim?|¿Sabes nadar?]] [[Swimming is|La natación es]] [[a great hobby.|una gran afición.]] [[It is good|Es bueno]] [[for your health.|para tu salud.]] [[Some people|Algunas personas]] [[can swim|saben nadar]] [[very well,|muy bien,]] [[but others|pero otras]] [[can't swim|no saben nadar]] [[at all.|en absoluto.]] [[If you can't swim,|Si no sabes nadar,]] [[you can take|puedes tomar]] [[lessons.|clases.]] [[I love swimming|A mí me encanta nadar]] [[in the sea,|en el mar,]] [[but I don't like|pero no me gusta]] [[swimming in pools.|nadar en piscinas.]] [[The water in pools|El agua de las piscinas]] [[is often cold.|está a menudo fría.]] [[Do you want|¿Quieres]] [[to go to the beach|ir a la playa]] [[this weekend?|este fin de semana?]]",
     "content": {
-      "title": "[[Reading: Sarah's Diet|Lectura: La dieta de Sarah]]",
-      "instructions": "[[Read about Sarah and answer.|Lee sobre Sarah y responde.]]",
+      "title": "[[Reading: About Swimming|Lectura: Sobre la natación]]",
+      "instructions": "[[Read and answer.|Lee y responde.]]",
       "questions": [
         {
-          "question": "[[What does Sarah eat for lunch?|¿Qué come Sarah para almorzar?]]",
-          "options": ["[[A salad with tomatoes and cheese|Una ensalada con tomates y queso]]", "[[Chicken and rice|Pollo y arroz]]", "[[A hamburger|Una hamburguesa]]"],
+          "question": "[[Why does the speaker like the sea more than pools?|¿Por qué al hablante le gusta más el mar que las piscinas?]]",
+          "options": ["[[Because pool water is often cold|Porque el agua de la piscina está a menudo fría]]", "[[Because the sea is blue|Porque el mar es azul]]", "[[Because pools are small|Porque las piscinas son pequeñas]]"],
           "correctAnswer": 0,
-          "explanation": "[[Sarah usually has a big salad with tomatoes, cucumbers, and cheese for lunch.|Sarah suele almorzar una ensalada grande con tomates, pepinos y algo de queso.]]"
+          "explanation": "[[The speaker says pool water is often cold.|El hablante dice que el agua de las piscinas está a menudo fría.]]"
         }
       ]
     },
@@ -427,16 +1147,16 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Hi, I'm Sarah.|Hola, soy Sarah.]] [[I am a vegetarian,|Soy vegetariana,]] [[so I don't eat|así que no como]] [[any meat or fish.|nada de carne ni pescado.]] [[For lunch,|Para almorzar,]] [[I usually have|suelo tomar]] [[a big salad|una ensalada grande]] [[with tomatoes,|con tomates,]] [[cucumbers,|pepinos,]] [[and some cheese.|y algo de queso.]] [[I also drink|También bebo]] [[a lot of water.|mucha agua.]] [[For dinner,|Para cenar,]] [[I like cooking|me gusta cocinar]] [[pasta with vegetables.|pasta con verduras.]] [[I don't put|No pongo]] [[much salt|mucha sal]] [[in my food,|en mi comida,]] [[but I use|pero uso]] [[a lot of olive oil.|mucho aceite de oliva.]] [[It is a very|Es una dieta muy]] [[healthy diet.|saludable.]]",
+    "transcript": "[[Cooking is|Cocinar es]] [[a popular hobby.|una afición popular.]] [[Many people|Mucha gente]] [[enjoy making|disfruta haciendo]] [[delicious meals|comidas deliciosas]] [[for their family.|para su familia.]] [[My friend, Lucy,|Mi amiga, Lucy,]] [[can cook|sabe cocinar]] [[excellent Italian food.|excelente comida italiana.]] [[She loves|Le encanta]] [[making pasta|hacer pasta]] [[and pizza.|y pizza.]] [[However,|Sin embargo,]] [[she can't bake|no sabe hornear]] [[cakes.|pasteles.]] [[She hates|Ella odia]] [[baking|hornear]] [[because it is|porque es]] [[difficult.|difícil.]] [[I like|A mí me gusta]] [[helping her|ayudarla]] [[in the kitchen.|en la cocina.]] [[We always have|Siempre nos lo pasamos]] [[a good time|bien]] [[together.|juntos.]]",
     "content": {
-      "title": "[[Reading: Healthy Choices|Lectura: Opciones saludables]]",
-      "instructions": "[[Read about Sarah and answer.|Lee sobre Sarah y responde.]]",
+      "title": "[[Reading: Cooking with Lucy|Lectura: Cocinando con Lucy]]",
+      "instructions": "[[Read about Lucy and answer.|Lee sobre Lucy y responde.]]",
       "questions": [
         {
-          "question": "[[Does Sarah use a lot of salt?|¿Usa Sarah mucha sal?]]",
-          "options": ["[[No, she doesn't put much salt|No, ella no pone mucha sal]]", "[[Yes, she loves salt|Sí, le encanta la sal]]", "[[Only in the salad|Solo en la ensalada]]"],
+          "question": "[[What can Lucy cook well?|¿Qué sabe cocinar bien Lucy?]]",
+          "options": ["[[Italian food|Comida italiana]]", "[[Cakes|Pasteles]]", "[[Chinese food|Comida china]]"],
           "correctAnswer": 0,
-          "explanation": "[[Sarah mentions that she doesn't put much salt in her food.|Sarah menciona que no pone mucha sal en su comida.]]"
+          "explanation": "[[The text says Lucy can cook excellent Italian food.|El texto dice que Lucy sabe cocinar excelente comida italiana.]]"
         }
       ]
     },
@@ -449,20 +1169,20 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Hi, I'm Sarah.|Hola, soy Sarah.]] [[I am a vegetarian,|Soy vegetariana,]] [[so I don't eat|así que no como]] [[any meat or fish.|nada de carne ni pescado.]] [[For lunch,|Para almorzar,]] [[I usually have|suelo tomar]] [[a big salad|una ensalada grande]] [[with tomatoes,|con tomates,]] [[cucumbers,|pepinos,]] [[and some cheese.|y algo de queso.]] [[I also drink|También bebo]] [[a lot of water.|mucha agua.]] [[For dinner,|Para cenar,]] [[I like cooking|me gusta cocinar]] [[pasta with vegetables.|pasta con verduras.]] [[I don't put|No pongo]] [[much salt|mucha sal]] [[in my food,|en mi comida,]] [[but I use|pero uso]] [[a lot of olive oil.|mucho aceite de oliva.]] [[It is a very|Es una dieta muy]] [[healthy diet.|saludable.]]",
+    "transcript": "[[Cooking is|Cocinar es]] [[a popular hobby.|una afición popular.]] [[Many people|Mucha gente]] [[enjoy making|disfruta haciendo]] [[delicious meals|comidas deliciosas]] [[for their family.|para su familia.]] [[My friend, Lucy,|Mi amiga, Lucy,]] [[can cook|sabe cocinar]] [[excellent Italian food.|excelente comida italiana.]] [[She loves|Le encanta]] [[making pasta|hacer pasta]] [[and pizza.|y pizza.]] [[However,|Sin embargo,]] [[she can't bake|no sabe hornear]] [[cakes.|pasteles.]] [[She hates|Ella odia]] [[baking|hornear]] [[because it is|porque es]] [[difficult.|difícil.]] [[I like|A mí me gusta]] [[helping her|ayudarla]] [[in the kitchen.|en la cocina.]] [[We always have|Siempre nos lo pasamos]] [[a good time|bien]] [[together.|juntos.]]",
     "content": {
-      "title": "[[Reading: Sarah's Drinks|Lectura: Las bebidas de Sarah]]",
-      "instructions": "[[Read about Sarah and answer.|Lee sobre Sarah y responde.]]",
+      "title": "[[Reading: Baking|Lectura: Hornear]]",
+      "instructions": "[[Read about Lucy and answer.|Lee sobre Lucy y responde.]]",
       "questions": [
         {
-          "question": "[[What does Sarah drink?|¿Qué bebe Sarah?]]",
-          "options": ["[[A lot of water|Mucha agua]]", "[[Wine and beer|Vino y cerveza]]", "[[Soda and juice|Refrescos y zumo]]"],
+          "question": "[[Why does Lucy hate baking?|¿Por qué Lucy odia hornear?]]",
+          "options": ["[[Because it is difficult|Porque es difícil]]", "[[Because it is boring|Porque es aburrido]]", "[[Because she doesn't have an oven|Porque no tiene horno]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text states that she drinks a lot of water.|El texto indica que bebe mucha agua.]]"
+          "explanation": "[[She hates baking because it is difficult.|Odia hornear porque es difícil.]]"
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-22/e56.mp3",
+    "audioUrl": "audio/a1/unit-22/e55.mp3",
     "topicName": "Reading"
   },
   {
@@ -470,17 +1190,17 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "[[To make a chocolate cake,|Para hacer un pastel de chocolate,]] [[you need|necesitas]] [[some basic ingredients.|algunos ingredientes básicos.]] [[First, you need|Primero, necesitas]] [[four eggs|cuatro huevos]] [[and some sugar.|y algo de azúcar.]] [[How much sugar?|¿Cuánta azúcar?]] [[About two hundred grams.|Unos doscientos gramos.]] [[You also need|También necesitas]] [[some butter,|algo de mantequilla,]] [[flour,|harina,]] [[and, of course,|y, por supuesto,]] [[some chocolate.|algo de chocolate.]] [[Mix everything|Mezcla todo]] [[in a large bowl.|en un cuenco grande.]] [[Don't forget|No olvides]] [[to put some milk|poner algo de leche]] [[if the mix is too dry.|si la mezcla está demasiado seca.]] [[Bake it for|Hornea durante]] [[forty-five minutes.|cuarenta y cinco minutos.]] [[Enjoy your cake!|¡Disfruta de tu pastel!]]",
+    "difficulty": "hard",
+    "transcript": "[[Hobbies are|Las aficiones son]] [[important for|importantes para]] [[everyone.|todos.]] [[They help|Ayudan]] [[us to relax.|a relajarnos.]] [[Some people|Algunas personas]] [[prefer|prefieren]] [[indoor hobbies,|aficiones de interior,]] [[like playing|como jugar]] [[board games|a juegos de mesa]] [[or painting.|o pintar.]] [[Other people|Otras personas]] [[like|les gustan]] [[outdoor hobbies,|las aficiones al aire libre,]] [[like running|como correr]] [[or gardening.|o la jardinería.]] [[What is|¿Cuál es]] [[your favorite hobby?|tu afición favorita?]] [[Do you like|¿Te gusta]] [[doing it|hacerla]] [[alone|solo]] [[or with friends?|o con amigos?]] [[Most people|La mayoría de la gente]] [[love sharing|ama compartir]] [[their hobbies|sus aficiones]] [[with others.|con otros.]]",
     "content": {
-      "title": "[[Reading: Baking a Cake|Lectura: Horneando un pastel]]",
-      "instructions": "[[Read the recipe and answer.|Lee la receta y responde.]]",
+      "title": "[[Reading: Types of Hobbies|Lectura: Tipos de aficiones]]",
+      "instructions": "[[Read and answer.|Lee y responde.]]",
       "questions": [
         {
-          "question": "[[How many eggs are needed for the cake?|¿Cuántos huevos se necesitan para el pastel?]]",
-          "options": ["[[Four eggs|Cuatro huevos]]", "[[Two eggs|Dos huevos]]", "[[Ten eggs|Diez huevos]]"],
+          "question": "[[What is an example of an indoor hobby mentioned?|¿Cuál es un ejemplo mencionado de afición de interior?]]",
+          "options": ["[[Painting|Pintar]]", "[[Running|Correr]]", "[[Gardening|Jardinería]]"],
           "correctAnswer": 0,
-          "explanation": "[[The recipe specifies that you need four eggs.|La receta especifica que necesitas cuatro huevos.]]"
+          "explanation": "[[Painting is mentioned as an indoor hobby.|Se menciona pintar como una afición de interior.]]"
         }
       ]
     },
@@ -492,17 +1212,17 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "[[To make a chocolate cake,|Para hacer un pastel de chocolate,]] [[you need|necesitas]] [[some basic ingredients.|algunos ingredientes básicos.]] [[First, you need|Primero, necesitas]] [[four eggs|cuatro huevos]] [[and some sugar.|y algo de azúcar.]] [[How much sugar?|¿Cuánta azúcar?]] [[About two hundred grams.|Unos doscientos gramos.]] [[You also need|También necesitas]] [[some butter,|algo de mantequilla,]] [[flour,|harina,]] [[and, of course,|y, por supuesto,]] [[some chocolate.|algo de chocolate.]] [[Mix everything|Mezcla todo]] [[in a large bowl.|en un cuenco grande.]] [[Don't forget|No olvides]] [[to put some milk|poner algo de leche]] [[if the mix is too dry.|si la mezcla está demasiado seca.]] [[Bake it for|Hornea durante]] [[forty-five minutes.|cuarenta y cinco minutos.]] [[Enjoy your cake!|¡Disfruta de tu pastel!]]",
+    "difficulty": "hard",
+    "transcript": "[[Tom is|Tom es]] [[very good at sports.|muy bueno en los deportes.]] [[He can play|Sabe jugar]] [[football, basketball,|al fútbol, al baloncesto,]] [[and tennis.|y al tenis.]] [[He also likes|También le gusta]] [[swimming|nadar]] [[in the river.|en el río.]] [[He can't play|No sabe tocar]] [[any instruments,|ningún instrumento,]] [[but he loves|pero le encanta]] [[listening to|escuchar]] [[rock music.|música rock.]] [[Every Friday,|Cada viernes,]] [[he goes to|va al]] [[the stadium|estadio]] [[to watch|para ver]] [[a game.|un partido.]] [[He is|Él es]] [[a big fan|un gran fan]] [[of his local team.|de su equipo local.]]",
     "content": {
-      "title": "[[Reading: Cake Ingredients|Lectura: Ingredientes del pastel]]",
-      "instructions": "[[Read the recipe and answer.|Lee la receta y responde.]]",
+      "title": "[[Reading: Tom's Sports|Lectura: Los deportes de Tom]]",
+      "instructions": "[[Read about Tom and answer.|Lee sobre Tom y responde.]]",
       "questions": [
         {
-          "question": "[[When should you add milk?|¿Cuándo se debe añadir leche?]]",
-          "options": ["[[If the mix is too dry|Si la mezcla está demasiado seca]]", "[[Always, at the beginning|Siempre, al principio]]", "[[After baking|Después de hornear]]"],
+          "question": "[[What can't Tom do?|¿Qué no sabe hacer Tom?]]",
+          "options": ["[[Play instruments|Tocar instrumentos]]", "[[Play tennis|Jugar al tenis]]", "[[Swim in the river|Nadar en el río]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says to put some milk if the mix is too dry.|El texto dice que pongas algo de leche si la mezcla está demasiado seca.]]"
+          "explanation": "[[The text says: 'He can't play any instruments.'|El texto dice: 'No sabe tocar ningún instrumento.']]"
         }
       ]
     },
@@ -515,20 +1235,20 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Eating a lot of fruit|Comer mucha fruta]] [[is very good|es muy bueno]] [[for your health.|para tu salud.]] [[Some people eat|Algunas personas comen]] [[an apple every day.|una manzana cada día.]] [[Apples have|Las manzanas tienen]] [[a lot of vitamins.|muchas vitaminas.]] [[How many vitamins?|¿Cuántas vitaminas?]] [[Many!|¡Muchas!]] [[I also like|También me gustan]] [[strawberries and grapes.|las fresas y las uvas.]] [[Is there any sugar|¿Hay algo de azúcar]] [[in fruit?|en la fruta?]] [[Yes, there is|Sí, hay]] [[some natural sugar.|algo de azúcar natural.]] [[However, it is|Sin embargo, es]] [[much healthier|mucho más saludable]] [[than the sugar|que el azúcar]] [[in soda or candy.|en los refrescos o caramelos.]] [[Try to eat|Intenta comer]] [[three pieces of fruit|tres piezas de fruta]] [[every day.|cada día.]]",
+    "transcript": "[[Tom is|Tom es]] [[very good at sports.|muy bueno en los deportes.]] [[He can play|Sabe jugar]] [[football, basketball,|al fútbol, al baloncesto,]] [[and tennis.|y al tenis.]] [[He also likes|También le gusta]] [[swimming|nadar]] [[in the river.|en el río.]] [[He can't play|No sabe tocar]] [[any instruments,|ningún instrumento,]] [[but he loves|pero le encanta]] [[listening to|escuchar]] [[rock music.|música rock.]] [[Every Friday,|Cada viernes,]] [[he goes to|va al]] [[the stadium|estadio]] [[to watch|para ver]] [[a game.|un partido.]] [[He is|Él es]] [[a big fan|un gran fan]] [[of his local team.|de su equipo local.]]",
     "content": {
-      "title": "[[Reading: Fruit and Health|Lectura: Fruta y salud]]",
-      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
+      "title": "[[Reading: Friday Night|Lectura: Viernes noche]]",
+      "instructions": "[[Read about Tom and answer.|Lee sobre Tom y responde.]]",
       "questions": [
         {
-          "question": "[[What is healthier than the sugar in soda?|¿Qué es más saludable que el azúcar de los refrescos?]]",
-          "options": ["[[The natural sugar in fruit|El azúcar natural de la fruta]]", "[[Chocolate cakes|Los pasteles de chocolate]]", "[[Salt|La sal]]"],
+          "question": "[[Where does Tom go on Fridays?|¿A dónde va Tom los viernes?]]",
+          "options": ["[[To the stadium|Al estadio]]", "[[To the cinema|Al cine]]", "[[To a concert|A un concierto]]"],
           "correctAnswer": 0,
-          "explanation": "[[The natural sugar in fruit is healthier than the sugar in soda or candy.|El azúcar natural de la fruta es más saludable que el azúcar de los refrescos o los caramelos.]]"
+          "explanation": "[[Every Friday, he goes to the stadium to watch a game.|Cada viernes va al estadio a ver un partido.]]"
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-22/e51.mp3",
+    "audioUrl": "audio/a1/unit-22/e59.mp3",
     "topicName": "Reading"
   },
   {
@@ -537,20 +1257,21 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Reading Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Eating a lot of fruit|Comer mucha fruta]] [[is very good|es muy bueno]] [[for your health.|para tu salud.]] [[Some people eat|Algunas personas comen]] [[an apple every day.|una manzana cada día.]] [[Apples have|Las manzanas tienen]] [[a lot of vitamins.|muchas vitaminas.]] [[How many vitamins?|¿Cuántas vitaminas?]] [[Many!|¡Muchas!]] [[I also like|También me gustan]] [[strawberries and grapes.|las fresas y las uvas.]] [[Is there any sugar|¿Hay algo de azúcar]] [[in fruit?|en la fruta?]] [[Yes, there is|Sí, hay]] [[some natural sugar.|algo de azúcar natural.]] [[However, it is|Sin embargo, es]] [[much healthier|mucho más saludable]] [[than the sugar|que el azúcar]] [[in soda or candy.|en los refrescos o caramelos.]] [[Try to eat|Intenta comer]] [[three pieces of fruit|tres piezas de fruta]] [[every day.|cada día.]]",
+    "transcript": "[[Do you like|¿Te gusta]] [[traveling?|viajar?]] [[Traveling is|Viajar es]] [[my favorite hobby.|mi afición favorita.]] [[I love|Me encanta]] [[visiting|visitar]] [[new places|nuevos lugares]] [[and meeting|y conocer]] [[new people.|gente nueva.]] [[I can speak|Sé hablar]] [[English and Spanish,|inglés y español,]] [[so I can talk|así que puedo hablar]] [[to many people.|con mucha gente.]] [[I don't like|No me gusta]] [[traveling by plane|viajar en avión]] [[because I am|porque tengo]] [[afraid of heights.|miedo a las alturas.]] [[I prefer|Prefiero]] [[traveling by train.|viajar en tren.]] [[The views|Las vistas]] [[from the train|desde el tren]] [[are always|son siempre]] [[beautiful.|hermosas.]]",
     "content": {
-      "title": "[[Reading: Daily Fruit|Lectura: Fruta diaria]]",
-      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
+      "title": "[[Reading: The Joy of Traveling|Lectura: El placer de viajar]]",
+      "instructions": "[[Read and answer.|Lee y responde.]]",
       "questions": [
         {
-          "question": "[[How many pieces of fruit should you eat?|¿Cuántas piezas de fruta deberías comer?]]",
-          "options": ["[[Three pieces every day|Tres piezas cada día]]", "[[One piece every week|Una pieza cada semana]]", "[[Ten pieces every day|Diez piezas cada día]]"],
+          "question": "[[How does the speaker prefer to travel?|¿Cómo prefiere viajar el hablante?]]",
+          "options": ["[[By train|En tren]]", "[[By plane|En avión]]", "[[By boat|En barco]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text suggests trying to eat three pieces of fruit every day.|El texto sugiere intentar comer tres piezas de fruta cada día.]]"
+          "explanation": "[[The speaker says: 'I prefer traveling by train.'|El hablante dice: 'Prefiero viajar en tren.']]"
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-22/e51.mp3",
+    "audioUrl": "audio/a1/unit-22/e60.mp3",
     "topicName": "Reading"
   }
 ];
+

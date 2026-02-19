@@ -2,6 +2,28 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_19_EXERCISES: Exercise[] = [
   {
+    "id": "a1-u19-e1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Months",
+    "difficulty": "easy",
+    "transcript": "There are twelve months in a year.",
+    "content": {
+      "title": "Meses del Año",
+      "instructions": "¿Cuántos meses hay en un año?",
+      "questions": [
+        {
+          "question": "[[There are|Hay]] (_____) [[months in a year|meses en un año]].",
+          "options": ["[[twelve|doce]]", "[[ten|diez]]", "[[seven|siete]]"],
+          "correctAnswer": 0,
+          "explanation": "Hay 12 meses en un año."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e1.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
     "id": "a1-u19-e2",
     "type": "multiple-choice",
     "level": "A1",
@@ -99,6 +121,28 @@ export const UNIT_19_EXERCISES: Exercise[] = [
       "explanation": "Julio y Agosto son meses de verano en el hemisferio norte."
     },
     "audioUrl": "audio/a1/unit-19/e6.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u19-e7",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Months",
+    "difficulty": "easy",
+    "transcript": "December is in winter.",
+    "content": {
+      "title": "Invierno",
+      "instructions": "Elige la estación correcta.",
+      "questions": [
+        {
+          "question": "[[December is in|Diciembre es en]] (_____) .",
+          "options": ["[[winter|invierno]]", "[[summer|verano]]", "[[spring|primavera]]"],
+          "correctAnswer": 0,
+          "explanation": "Diciembre es un mes de invierno en el hemisferio norte."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e7.mp3",
     "topicName": "Vocabulary"
   },
   {
@@ -263,6 +307,28 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "topicName": "Grammar"
   },
   {
+    "id": "a1-u19-e16",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Ordinal Numbers",
+    "difficulty": "easy",
+    "transcript": "October is the tenth month.",
+    "content": {
+      "title": "Décimo Mes",
+      "instructions": "Elige el número ordinal correcto.",
+      "questions": [
+        {
+          "question": "[[October is the|Octubre es el]] (_____) [[month|mes]].",
+          "options": ["[[tenth|décimo]]", "[[eighth|octavo]]", "[[ninth|noveno]]"],
+          "correctAnswer": 0,
+          "explanation": "Octubre es el mes número diez (tenth)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e16.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
     "id": "a1-u19-e17",
     "type": "multiple-choice",
     "level": "A1",
@@ -341,6 +407,28 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     "topicName": "Vocabulary"
   },
   {
+    "id": "a1-u19-e21",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Ordinal Numbers",
+    "difficulty": "easy",
+    "transcript": "September is the ninth month.",
+    "content": {
+      "title": "Noveno Mes",
+      "instructions": "Elige el número ordinal correcto.",
+      "questions": [
+        {
+          "question": "[[September is the|Septiembre es el]] (_____) [[month|mes]].",
+          "options": ["[[ninth|noveno]]", "[[nineth|error]]", "[[nineth|error]]"],
+          "correctAnswer": 0,
+          "explanation": "El ordinal de 9 es 'ninth' (sin la 'e')."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e21.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
     "id": "a1-u19-e22",
     "type": "multiple-choice",
     "level": "A1",
@@ -400,6 +488,533 @@ export const UNIT_19_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-19/e24.mp3",
     "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u19-e25",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Months",
+    "difficulty": "easy",
+    "transcript": "Spring starts in March.",
+    "content": {
+      "title": "Inicio de Primavera",
+      "instructions": "Elige el mes correcto.",
+      "questions": [
+        {
+          "question": "[[Spring starts in|Primavera comienza en]] (_____) .",
+          "options": ["[[March|Marzo]]", "[[April|Abril]]", "[[May|Mayo]]"],
+          "correctAnswer": 0,
+          "explanation": "La primavera suele comenzar en marzo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e25.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u19-e26",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Months",
+    "difficulty": "easy",
+    "transcript": "June, July and August are in summer.",
+    "content": {
+      "title": "Meses de Verano",
+      "instructions": "Completa con el mes que falta.",
+      "questions": [
+        {
+          "question": "[[June, July and|Junio, Julio y]] (_____) [[are in summer|son en verano]].",
+          "options": ["[[August|Agosto]]", "[[September|Septiembre]]", "[[October|Octubre]]"],
+          "correctAnswer": 0,
+          "explanation": "Junio, julio y agosto son los meses típicos de verano."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e26.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u19-e27",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Months",
+    "difficulty": "easy",
+    "transcript": "Autumn starts in September.",
+    "content": {
+      "title": "Otoño",
+      "instructions": "Elige el mes de inicio del otoño.",
+      "questions": [
+        {
+          "question": "[[Autumn starts in|Otoño comienza en]] (_____) .",
+          "options": ["[[September|Septiembre]]", "[[October|Octubre]]", "[[November|Noviembre]]"],
+          "correctAnswer": 0,
+          "explanation": "El otoño comienza en septiembre en el hemisferio norte."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e27.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u19-e28",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Months",
+    "difficulty": "medium",
+    "transcript": "My favorite month is May.",
+    "content": {
+      "title": "Mes Favorito",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[My favorite month is May|Mi favorito mes es Mayo]].",
+      "words": ["[[May|Mayo]].", "[[is|es]]", "[[month|mes]]", "[[favorite|favorito]]", "[[My|Mi]]"],
+      "explanation": "Expresa tu preferencia personal."
+    },
+    "audioUrl": "audio/a1/unit-19/e28.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u19-e29",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Ordinal Numbers",
+    "difficulty": "easy",
+    "transcript": "February is the second month.",
+    "content": {
+      "title": "Segundo Mes",
+      "instructions": "Elige el número ordinal.",
+      "questions": [
+        {
+          "question": "[[February is the|Febrero es el]] (_____) [[month|mes]].",
+          "options": ["[[second|segundo]]", "[[third|tercero]]", "[[first|primer]]"],
+          "correctAnswer": 0,
+          "explanation": "Febrero es el segundo mes del año."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e29.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u19-e30",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Ordinal Numbers",
+    "difficulty": "easy",
+    "transcript": "March is the third month.",
+    "content": {
+      "title": "Tercer Mes",
+      "instructions": "Elige el número ordinal.",
+      "questions": [
+        {
+          "question": "[[March is the|Marzo es el]] (_____) [[month|mes]].",
+          "options": ["[[third|tercero]]", "[[fourth|cuarto]]", "[[second|segundo]]"],
+          "correctAnswer": 0,
+          "explanation": "Marzo es el tercer mes del año."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e30.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u19-e31",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Ordinal Numbers",
+    "difficulty": "medium",
+    "transcript": "April is the fourth month.",
+    "content": {
+      "title": "Cuarto Mes",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[April is the fourth month|Abril es el cuarto mes]].",
+      "words": ["[[month|mes]].", "[[fourth|cuarto]]", "[[the|el]]", "[[is|es]]", "[[April|Abril]]"],
+      "explanation": "Abril es el mes número cuatro."
+    },
+    "audioUrl": "audio/a1/unit-19/e31.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u19-e32",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Ordinal Numbers",
+    "difficulty": "medium",
+    "transcript": "Fifth. Sixth. Seventh. Eighth.",
+    "content": {
+      "title": "Sucesión de Ordinales",
+      "instructions": "¿Qué viene después de sixth?",
+      "questions": [
+        {
+          "question": "[[What comes after sixth|Qué viene después de sexto]]?",
+          "options": ["[[seventh|séptimo]]", "[[fifth|quinto]]", "[[eighth|octavo]]"],
+          "correctAnswer": 0,
+          "explanation": "Séptimo (seventh) sigue a sexto (sixth)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e32.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u19-e33",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Ordinal Numbers",
+    "difficulty": "hard",
+    "transcript": "November is the eleventh month.",
+    "content": {
+      "title": "Mes Once",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[November is the eleventh month|Noviembre es el undécimo mes]].",
+      "words": ["[[month|mes]].", "[[eleventh|undécimo]]", "[[the|el]]", "[[is|es]]", "[[November|Noviembre]]"],
+      "explanation": "Ordinal de once es 'eleventh'."
+    },
+    "audioUrl": "audio/a1/unit-19/e33.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u19-e34",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Dates",
+    "difficulty": "easy",
+    "transcript": "Today is the first of June.",
+    "content": {
+      "title": "Primero de Junio",
+      "instructions": "Elige la forma correcta.",
+      "questions": [
+        {
+          "question": "[[Today is the|Hoy es el]] (_____) [[of June|de junio]].",
+          "options": ["[[first|1º]]", "[[one|1]]", "[[oneth|error]]"],
+          "correctAnswer": 0,
+          "explanation": "Para el primer día del mes usamos el ordinal 'first'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e34.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u19-e35",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Dates",
+    "difficulty": "easy",
+    "transcript": "Is it the second or the third today?",
+    "content": {
+      "title": "¿Segundo o Tercero?",
+      "instructions": "Elige el ordinal para el día 2.",
+      "questions": [
+        {
+          "question": "[[Is it the|Es el]] (_____) [[today|hoy]]?",
+          "options": ["[[second|2º]]", "[[two|2]]", "[[twoth|error]]"],
+          "correctAnswer": 0,
+          "explanation": "El ordinal de 2 es 'second'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e35.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u19-e36",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Dates",
+    "difficulty": "medium",
+    "transcript": "My birthday is in August.",
+    "content": {
+      "title": "Cumpleaños en Agosto",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[My birthday is in August|Mi cumpleaños es en Agosto]].",
+      "words": ["[[August|Agosto]].", "[[in|en]]", "[[is|es]]", "[[birthday|cumpleaños]]", "[[My|Mi]]"],
+      "explanation": "Usamos 'in' para meses sin un día concreto."
+    },
+    "audioUrl": "audio/a1/unit-19/e36.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u19-e37",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Dates",
+    "difficulty": "medium",
+    "transcript": "What is the date of your birthday?",
+    "content": {
+      "title": "Fecha de Cumpleaños",
+      "instructions": "Completa la pregunta.",
+      "questions": [
+        {
+          "question": "[[What is the|Cuál es la]] (_____) [[of your birthday|de tu cumpleaños]]?",
+          "options": ["[[date|fecha]]", "[[day|día]]", "[[month|mes]]"],
+          "correctAnswer": 0,
+          "explanation": "'Date' se refiere a la fecha completa (día y mes)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e37.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u19-e38",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Dates",
+    "difficulty": "medium",
+    "transcript": "New Year is on January 1st.",
+    "content": {
+      "title": "Año Nuevo",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[New Year is on January 1st|Año Nuevo es el Enero 1]].",
+      "words": ["[[1st|1]].", "[[January|Enero]]", "[[on|el]]", "[[is|es]]", "[[Year|Año]]", "[[New|Nuevo]]"],
+      "explanation": "Primer día del año."
+    },
+    "audioUrl": "audio/a1/unit-19/e38.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u19-e39",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Prepositions of Time",
+    "difficulty": "medium",
+    "transcript": "I am traveling in October.",
+    "content": {
+      "title": "Viaje en Octubre",
+      "instructions": "Elige la preposición para meses.",
+      "questions": [
+        {
+          "question": "[[I am traveling|Yo estoy viajando]] (_____) [[October|Octubre]].",
+          "options": ["[[in|en]]", "[[on|el]]", "[[at|en (hora)]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'in' delante de los meses del año."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e39.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u19-e40",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Prepositions of Time",
+    "difficulty": "medium",
+    "transcript": "Our meeting is on Monday morning.",
+    "content": {
+      "title": "Reunión el Lunes",
+      "instructions": "Elige la preposición para días.",
+      "questions": [
+        {
+          "question": "[[Our meeting is|Nuestra reunión es]] (_____) [[Monday morning|Lunes mañana]].",
+          "options": ["[[on|el]]", "[[in|en]]", "[[at|en]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'on' para días de la semana y partes de días específicos."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e40.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u19-e41",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Prepositions of Time",
+    "difficulty": "medium",
+    "transcript": "He finishes work at 5 o'clock.",
+    "content": {
+      "title": "Terminar el Trabajo",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[He finishes work at 5 o'clock|Él termina el trabajo a las 5]].",
+      "words": ["[[o'clock|punto]].", "[[5|5]]", "[[at|a las]]", "[[work|trabajo]]", "[[finishes|termina]]", "[[He|Él]]"],
+      "explanation": "Usamos 'at' para horas específicas."
+    },
+    "audioUrl": "audio/a1/unit-19/e41.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u19-e42",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Prepositions of Time",
+    "difficulty": "hard",
+    "transcript": "I was born in 1995.",
+    "content": {
+      "title": "Año de Nacimiento",
+      "instructions": "Elige la preposición para años.",
+      "questions": [
+        {
+          "question": "[[I was born|Yo nací]] (_____) [[1995|1995]].",
+          "options": ["[[in|en]]", "[[on|el]]", "[[at|en]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'in' para años."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e42.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u19-e43",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Months",
+    "difficulty": "medium",
+    "transcript": "September, October, November, December.",
+    "content": {
+      "title": "Fin de Año",
+      "instructions": "¿Cuál es el penúltimo mes del año?",
+      "questions": [
+        {
+          "question": "[[Which is the|Cuál es el]] (_____) [[month of the year|mes del año]]?",
+          "options": ["[[November|Noviembre]]", "[[December|Diciembre]]", "[[October|Octubre]]"],
+          "correctAnswer": 0,
+          "explanation": "Noviembre (eleventh month) es el mes antes del último."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e43.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u19-e44",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Ordinal Numbers",
+    "difficulty": "easy",
+    "transcript": "The first. The second. The third.",
+    "content": {
+      "title": "Ordinales Básicos",
+      "instructions": "Elige el ordinal para el número 1.",
+      "questions": [
+        {
+          "question": "[[One becomes|Uno se convierte en]] (_____) .",
+          "options": ["[[first|primero]]", "[[one|uno]]", "[[oneth|error]]"],
+          "correctAnswer": 0,
+          "explanation": "El ordinal de 1 es 'first'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e44.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u19-e45",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Ordinal Numbers",
+    "difficulty": "medium",
+    "transcript": "Today is the 22nd of April.",
+    "content": {
+      "title": "22 de Abril",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[Today is the 22nd of April|Hoy es el 22 de Abril]].",
+      "words": ["[[April|Abril]].", "[[of|de]]", "[[22nd|22]]", "[[the|el]]", "[[is|es]]", "[[Today|Hoy]]"],
+      "explanation": "22nd se lee 'twenty-second'."
+    },
+    "audioUrl": "audio/a1/unit-19/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u19-e46",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Dates",
+    "difficulty": "medium",
+    "transcript": "My parents' anniversary is on June 10th.",
+    "content": {
+      "title": "Aniversario",
+      "instructions": "Elige la preposición correcta.",
+      "questions": [
+        {
+          "question": "[[The anniversary is|El aniversario es]] (_____) [[June 10th|10 de Junio]].",
+          "options": ["[[on|el]]", "[[in|en]]", "[[at|en]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'on' para fechas específicas con día y mes."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e46.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u19-e47",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Asking about Dates",
+    "difficulty": "medium",
+    "transcript": "What month is it now?",
+    "content": {
+      "title": "¿En qué mes estamos?",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[What month is it now|Qué mes es ello ahora]]?",
+      "words": ["[[now|ahora]]?", "[[it|ello]]", "[[is|es]]", "[[month|mes]]", "[[What|Qué]]"],
+      "explanation": "Pregunta para saber el mes actual."
+    },
+    "audioUrl": "audio/a1/unit-19/e47.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u19-e48",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Prepositions of Time",
+    "difficulty": "easy",
+    "transcript": "See you on Tuesday!",
+    "content": {
+      "title": "Nos vemos el Martes",
+      "instructions": "Elige la preposición correcta.",
+      "questions": [
+        {
+          "question": "[[See you|Nos vemos]] (_____) [[Tuesday|Martes]]!",
+          "options": ["[[on|el]]", "[[in|en]]", "[[at|en]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'on' con días de la semana."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e48.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u19-e49",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Months",
+    "difficulty": "medium",
+    "transcript": "August is a very hot month.",
+    "content": {
+      "title": "Agosto Caluroso",
+      "instructions": "Ordena la oración.",
+      "correctSentence": "[[August is a very hot month|Agosto es un muy caluroso mes]].",
+      "words": ["[[month|mes]].", "[[hot|caluroso]]", "[[very|muy]]", "[[a|un]]", "[[is|es]]", "[[August|Agosto]]"],
+      "explanation": "Descripción de un mes de verano."
+    },
+    "audioUrl": "audio/a1/unit-19/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u19-e50",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Ordinal Numbers",
+    "difficulty": "hard",
+    "transcript": "Which is the thirty-first day?",
+    "content": {
+      "title": "Día 31",
+      "instructions": "Elige la forma correcta de 31st.",
+      "questions": [
+        {
+          "question": "[[The last day of October is the|El último día de Octubre es el]] (_____) .",
+          "options": ["[[thirty-first|31º]]", "[[thirty-one|31]]", "[[thirty-oneth|error]]"],
+          "correctAnswer": 0,
+          "explanation": "31st se escribe 'thirty-first'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-19/e50.mp3",
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u19-e51",

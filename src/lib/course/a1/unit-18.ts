@@ -2,6 +2,72 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_18_EXERCISES: Exercise[] = [
   {
+    "id": "a1-u18-e1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Clothing Vocabulary",
+    "difficulty": "easy",
+    "transcript": "I am buying a new shirt today.",
+    "content": {
+      "title": "Vocabulario: Camisas",
+      "instructions": "Elige la palabra correcta para la imagen mental de una camisa.",
+      "questions": [
+        {
+          "question": "[[I am buying a new|Yo estoy comprando una nueva]] (_____) [[today|hoy]].",
+          "options": ["[[shirt|camisa]]", "[[skirt|falda]]", "[[socks|calcetines]]"],
+          "correctAnswer": 0,
+          "explanation": "'Shirt' se refiere a una camisa."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e1.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u18-e2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Clothing Vocabulary",
+    "difficulty": "easy",
+    "transcript": "These pants are black.",
+    "content": {
+      "title": "Vocabulario: Pantalones",
+      "instructions": "Identifica los pantalones.",
+      "questions": [
+        {
+          "question": "[[These|Estos]] (_____) [[are black|son negros]].",
+          "options": ["[[pants|pantalones]]", "[[hats|sombreros]]", "[[gloves|guantes]]"],
+          "correctAnswer": 0,
+          "explanation": "'Pants' son pantalones (en inglés americano; 'trousers' en británico)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e2.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u18-e3",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Clothing Vocabulary",
+    "difficulty": "easy",
+    "transcript": "I need new shoes.",
+    "content": {
+      "title": "Vocabulario: Calzado",
+      "instructions": "Elige el calzado correcto.",
+      "questions": [
+        {
+          "question": "[[I need new|Yo necesito nuevos]] (_____) .",
+          "options": ["[[shoes|zapatos]]", "[[coats|abrigos]]", "[[belts|cinturones]]"],
+          "correctAnswer": 0,
+          "explanation": "'Shoes' significa zapatos."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e3.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
     "id": "a1-u18-e4",
     "type": "multiple-choice",
     "level": "A1",
@@ -399,6 +465,550 @@ export const UNIT_18_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "audio/a1/unit-18/e23.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u18-e24",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Clothing Vocabulary",
+    "difficulty": "easy",
+    "transcript": "I am wearing a yellow skirt.",
+    "content": {
+      "title": "Vocabulario: Falda",
+      "instructions": "Elige la prenda correcta.",
+      "questions": [
+        {
+          "question": "[[I am wearing a yellow|Yo estoy llevando una amarilla]] (_____) .",
+          "options": ["[[skirt|falda]]", "[[shirt|camisa]]", "[[dress|vestido]]"],
+          "correctAnswer": 0,
+          "explanation": "'Skirt' significa falda."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e24.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u18-e25",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Clothing Vocabulary",
+    "difficulty": "easy",
+    "transcript": "My socks are white.",
+    "content": {
+      "title": "Vocabulario: Calcetines",
+      "instructions": "Elige la palabra para calcetines.",
+      "questions": [
+        {
+          "question": "[[My|Mis]] (_____) [[are white|son blancos]].",
+          "options": ["[[socks|calcetines]]", "[[boots|botas]]", "[[shoes|zapatos]]"],
+          "correctAnswer": 0,
+          "explanation": "'Socks' son calcetines."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e25.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u18-e26",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Clothing Vocabulary",
+    "difficulty": "easy",
+    "transcript": "It is cold. I need a coat.",
+    "content": {
+      "title": "Vocabulario: Abrigo",
+      "instructions": "Elige la prenda para el frío.",
+      "questions": [
+        {
+          "question": "[[It is cold. I need a|Hace frío. Yo necesito un]] (_____) .",
+          "options": ["[[coat|abrigo]]", "[[T-shirt|camiseta]]", "[[belt|cinturón]]"],
+          "correctAnswer": 0,
+          "explanation": "'Coat' significa abrigo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e26.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u18-e27",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Clothing Vocabulary",
+    "difficulty": "easy",
+    "transcript": "Take your hat and gloves.",
+    "content": {
+      "title": "Accesorios de Invierno",
+      "instructions": "Identifica los accesorios.",
+      "questions": [
+        {
+          "question": "[[Take your|Toma tu]] (_____) [[and|y]] (_____) .",
+          "options": ["[[hat / gloves|gorro / guantes]]", "[[belt / socks|cinturón / calcetines]]", "[[tie / shoes|corbata / zapatos]]"],
+          "correctAnswer": 0,
+          "explanation": "'Hat' es gorro/sombrero y 'gloves' son guantes."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e27.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u18-e28",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Clothing Vocabulary",
+    "difficulty": "medium",
+    "transcript": "I am wearing a blue T-shirt.",
+    "content": {
+      "title": "La Camiseta Azul",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[I am wearing a blue T-shirt|Yo estoy llevando una azul camiseta]].",
+      "words": ["[[T-shirt|camiseta]].", "[[blue|azul]]", "[[a|una]]", "[[wearing|llevando]]", "[[am|estoy]]", "[[I|Yo]]"],
+      "explanation": "Estructura: Sujeto + am wearing + color + prenda."
+    },
+    "audioUrl": "audio/a1/unit-18/e28.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e29",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Demonstratives",
+    "difficulty": "easy",
+    "transcript": "Look at that bird up there.",
+    "content": {
+      "title": "Demostrativo Singular Lejos",
+      "instructions": "Elige el demostrativo para algo lejano.",
+      "questions": [
+        {
+          "question": "[[Look at|Mira]] (_____) [[bird up there|pájaro allí arriba]].",
+          "options": ["[[that|ese]]", "[[this|este]]", "[[those|esos]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'that' para un objeto singular que está lejos."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e29.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e30",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Demonstratives",
+    "difficulty": "easy",
+    "transcript": "These apples are delicious.",
+    "content": {
+      "title": "Demostrativo Plural Cerca",
+      "instructions": "Elige el demostrativo para objetos cercanos.",
+      "questions": [
+        {
+          "question": "(_____) [[apples are delicious|manzanas son deliciosas]].",
+          "options": ["[[These|Estas]]", "[[Those|Esas]]", "[[This|Esta]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'these' para objetos plurales que están cerca."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e30.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e31",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Demonstratives",
+    "difficulty": "medium",
+    "transcript": "Do you like this watch?",
+    "content": {
+      "title": "¿Te gusta este reloj?",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Do you like this watch|¿ Te gusta este reloj]]?",
+      "words": ["[[watch|reloj]]?", "[[this|este]]", "[[like|gusta]]", "[[you|te]]", "[[Do|¿]]"],
+      "explanation": "Estructura de pregunta con demostrativo cercano."
+    },
+    "audioUrl": "audio/a1/unit-18/e31.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e32",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Demonstratives",
+    "difficulty": "easy",
+    "transcript": "I want to buy that tie.",
+    "content": {
+      "title": "Esa Corbata",
+      "instructions": "Elige el demostrativo correcto.",
+      "questions": [
+        {
+          "question": "[[I want to buy|Yo quiero comprar]] (_____) [[tie|corbata]].",
+          "options": ["[[that|esa]]", "[[those|esas]]", "[[this|esta]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'that' para una corbata que está a cierta distancia."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e32.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e33",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Demonstratives",
+    "difficulty": "medium",
+    "transcript": "How much are those boots?",
+    "content": {
+      "title": "¿Cuánto cuestan esas botas?",
+      "instructions": "Ordena la pregunta de precio.",
+      "correctSentence": "[[How much are those boots|Cuánto cuestan esas botas]]?",
+      "words": ["[[boots|botas]]?", "[[those|esas]]", "[[are|cuestan]]", "[[much|tanto]]", "[[How|Cómo]]"],
+      "explanation": "Pregunta de precio para objetos plurales lejanos."
+    },
+    "audioUrl": "audio/a1/unit-18/e33.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e34",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Wearing",
+    "difficulty": "easy",
+    "transcript": "Is she wearing a scarf?",
+    "content": {
+      "title": "¿Lleva bufanda?",
+      "instructions": "Completa la pregunta en presente continuo.",
+      "questions": [
+        {
+          "question": "[[Is she|Está ella]] (_____) [[a scarf|una bufanda]]?",
+          "options": ["[[wearing|llevando]]", "[[wear|llevar]]", "[[wears|lleva]]"],
+          "correctAnswer": 0,
+          "explanation": "Pregunta sobre lo que alguien lleva puesto ahora."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e34.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e35",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Wearing",
+    "difficulty": "easy",
+    "transcript": "They are wearing suits for the meeting.",
+    "content": {
+      "title": "Trajes para la Reunión",
+      "instructions": "Elige la forma verbal plural.",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] (_____) [[wearing suits|llevando trajes]].",
+          "options": ["[[are|están]]", "[[is|está]]", "[[am|estoy]]"],
+          "correctAnswer": 0,
+          "explanation": "Con 'They' usamos el auxiliar 'are'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e35.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e36",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Wearing",
+    "difficulty": "medium",
+    "transcript": "I am not wearing my glasses.",
+    "content": {
+      "title": "Sin Gafas",
+      "instructions": "Ordena la oración negativa.",
+      "correctSentence": "[[I am not wearing my glasses|Yo no estoy llevando mis gafas]].",
+      "words": ["[[glasses|gafas]].", "[[my|mis]]", "[[wearing|llevando]]", "[[not|no]]", "[[am|estoy]]", "[[I|Yo]]"],
+      "explanation": "La negación se coloca después del auxiliar 'am'."
+    },
+    "audioUrl": "audio/a1/unit-18/e36.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e37",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Wearing",
+    "difficulty": "easy",
+    "transcript": "We are wearing warm clothes in winter.",
+    "content": {
+      "title": "Ropa de Invierno",
+      "instructions": "Elige la forma correcta.",
+      "questions": [
+        {
+          "question": "[[We|Nosotros]] (_____) [[wearing warm clothes|llevando abrigada ropa]].",
+          "options": ["[[are|estamos]]", "[[am|estoy]]", "[[is|está]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'are' con 'we'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e37.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e38",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Wearing",
+    "difficulty": "medium",
+    "transcript": "What is he wearing?",
+    "content": {
+      "title": "¿Qué lleva él?",
+      "instructions": "Ordena la pregunta corta.",
+      "correctSentence": "[[What is he wearing|Qué está él llevando]]?",
+      "words": ["[[wearing|llevando]]?", "[[he|él]]", "[[is|está]]", "[[What|Qué]]"],
+      "explanation": "Estructura de pregunta: Wh- + auxiliar + sujeto + verbo-ing."
+    },
+    "audioUrl": "audio/a1/unit-18/e38.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e39",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Adjective Order",
+    "difficulty": "easy",
+    "transcript": "A big green bag.",
+    "content": {
+      "title": "Bolso Grande y Verde",
+      "instructions": "Elige el orden correcto (tamaño + color).",
+      "questions": [
+        {
+          "question": "[[A|Un]] (_____) [[bag|bolso]].",
+          "options": ["[[big green|grande verde]]", "[[green big|verde grande]]", "[[big and green|grande y verde]]"],
+          "correctAnswer": 0,
+          "explanation": "En inglés, el tamaño (big) va antes que el color (green)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e39.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e40",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Adjective Order",
+    "difficulty": "medium",
+    "transcript": "She has a beautiful long skirt.",
+    "content": {
+      "title": "Falda Larga y Hermosa",
+      "instructions": "Ordena (opinión + tamaño + sustantivo).",
+      "correctSentence": "[[She has a beautiful long skirt|Ella tiene una hermosa larga falda]].",
+      "words": ["[[skirt|falda]].", "[[long|larga]]", "[[beautiful|hermosa]]", "[[a|una]]", "[[has|tiene]]", "[[She|Ella]]"],
+      "explanation": "La opinión (beautiful) va antes que el tamaño (long)."
+    },
+    "audioUrl": "audio/a1/unit-18/e40.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e41",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Adjective Order",
+    "difficulty": "easy",
+    "transcript": "I want those small black boots.",
+    "content": {
+      "title": "Botas Pequeñas Negras",
+      "instructions": "Elige el orden correcto.",
+      "questions": [
+        {
+          "question": "[[I want those|Yo quiero esas]] (_____) [[boots|botas]].",
+          "options": ["[[small black|pequeñas negras]]", "[[black small|negras pequeñas]]", "[[small and black|pequeñas y negras]]"],
+          "correctAnswer": 0,
+          "explanation": "Tamaño (small) antes que color (black)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e41.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e42",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Adjective Order",
+    "difficulty": "medium",
+    "transcript": "He is buying a cheap blue shirt.",
+    "content": {
+      "title": "Camisa Barata Azul",
+      "instructions": "Ordena (opinión/precio + color).",
+      "correctSentence": "[[He is buying a cheap blue shirt|Él está comprando una barata azul camisa]].",
+      "words": ["[[shirt|camisa]].", "[[blue|azul]]", "[[cheap|barata]]", "[[a|una]]", "[[buying|comprando]]", "[[is|está]]", "[[He|Él]]"],
+      "explanation": "El precio/calidad (cheap) suele ir antes que el color (blue)."
+    },
+    "audioUrl": "audio/a1/unit-18/e42.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e43",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Adjective Order",
+    "difficulty": "easy",
+    "transcript": "A new white dress.",
+    "content": {
+      "title": "Vestido Nuevo Blanco",
+      "instructions": "Elige el orden correcto.",
+      "questions": [
+        {
+          "question": "[[A|Un]] (_____) [[dress|vestido]].",
+          "options": ["[[new white|nuevo blanco]]", "[[white new|blanco nuevo]]", "[[newly white|recién blanco]]"],
+          "correctAnswer": 0,
+          "explanation": "Edad/Estado (new) antes que color (white)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e43.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e44",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Shopping",
+    "difficulty": "easy",
+    "transcript": "How much does this jacket cost?",
+    "content": {
+      "title": "¿Cuánto cuesta esta chaqueta?",
+      "instructions": "Elige la forma correcta de preguntar el costo.",
+      "questions": [
+        {
+          "question": "[[How much|Cuánto]] (_____) [[this jacket cost|esta chaqueta cuesta]]?",
+          "options": ["[[does|auxiliar]]", "[[do|auxiliar plural]]", "[[is|es]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'does' con sujetos singulares (this jacket) en preguntas con verbos de acción (cost)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e44.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e45",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Shopping",
+    "difficulty": "medium",
+    "transcript": "It costs forty-five pounds.",
+    "content": {
+      "title": "Cuesta 45 Libras",
+      "instructions": "Ordena la respuesta sobre el precio.",
+      "correctSentence": "[[It costs forty-five pounds|Eso cuesta cuarenta y cinco libras]].",
+      "words": ["[[pounds|libras]].", "[[forty-five|cuarenta y cinco]]", "[[costs|cuesta]]", "[[It|Eso]]"],
+      "explanation": "Estructura: Sujeto + verbo + cantidad + moneda."
+    },
+    "audioUrl": "audio/a1/unit-18/e45.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e46",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Shopping",
+    "difficulty": "easy",
+    "transcript": "I am looking for a new belt.",
+    "content": {
+      "title": "Buscando un Cinturón",
+      "instructions": "Elige la expresión para 'buscando'.",
+      "questions": [
+        {
+          "question": "[[I am|Yo estoy]] (_____) [[for a new belt|por un nuevo cinturón]].",
+          "options": ["[[looking|buscando]]", "[[trying|probando]]", "[[buying|comprando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Look for' significa buscar algo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e46.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u18-e47",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Shopping",
+    "difficulty": "medium",
+    "transcript": "Can I help you? Yes, I want to buy these sunglasses.",
+    "content": {
+      "title": "Comprando Gafas de Sol",
+      "instructions": "Ordena la respuesta del cliente.",
+      "correctSentence": "[[Yes, I want to buy these sunglasses|Sí, yo quiero comprar estas gafas de sol]].",
+      "words": ["[[sunglasses|gafas de sol]].", "[[these|estas]]", "[[buy|comprar]]", "[[to|a]]", "[[want|quiero]]", "[[I|yo]]", "[[Yes,|Sí,]]"],
+      "explanation": "Sunglasses es plural, usamos 'these'."
+    },
+    "audioUrl": "audio/a1/unit-18/e47.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u18-e48",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Shopping",
+    "difficulty": "easy",
+    "transcript": "Where is the checkout? It's over there.",
+    "content": {
+      "title": "¿Dónde está la caja?",
+      "instructions": "Elige la palabra para el lugar de pago.",
+      "questions": [
+        {
+          "question": "[[Where is the|Dónde está la]] (_____) ?",
+          "options": ["[[checkout|caja]]", "[[fitting room|probador]]", "[[mall|centro comercial]]"],
+          "correctAnswer": 0,
+          "explanation": "'Checkout' es la caja o zona donde se paga en una tienda."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e48.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u18-e49",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Shopping",
+    "difficulty": "medium",
+    "transcript": "How much are these gloves?",
+    "content": {
+      "title": "¿Cuánto cuestan estos guantes?",
+      "instructions": "Ordena la pregunta plural.",
+      "correctSentence": "[[How much are these gloves|Cuánto cuestan estos guantes]]?",
+      "words": ["[[gloves|guantes]]?", "[[these|estos]]", "[[are|cuestan]]", "[[much|tanto]]", "[[How|Cómo]]"],
+      "explanation": "Guantes (gloves) es plural, usamos 'are' y 'these'."
+    },
+    "audioUrl": "audio/a1/unit-18/e49.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u18-e50",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Shopping",
+    "difficulty": "easy",
+    "transcript": "This scarf is on sale.",
+    "content": {
+      "title": "En Oferta",
+      "instructions": "Elige la expresión para 'en oferta'.",
+      "questions": [
+        {
+          "question": "[[This scarf is|Esta bufanda está]] (_____) .",
+          "options": ["[[on sale|en oferta]]", "[[in sale|en rebaja (error)]]", "[[for sale|a la venta]]"],
+          "correctAnswer": 0,
+          "explanation": "'On sale' significa que tiene descuento u oferta."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-18/e50.mp3",
     "topicName": "Vocabulary"
   },
   {

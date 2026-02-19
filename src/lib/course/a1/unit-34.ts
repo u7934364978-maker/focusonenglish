@@ -1,236 +1,1324 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_34_EXERCISES: Exercise[] = [
+  // VOCABULARY: FOOD & RESTAURANTS (1-20)
+  {
+    "id": "a1-u34-e1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "easy",
+    "transcript": "I want to see the menu, please.",
+    "content": {
+      "title": "El menú",
+      "instructions": "Identifica el objeto informativo en un restaurante.",
+      "questions": [
+        {
+          "question": "[[I want to see the|Quiero ver el]] (_____) [[please.|por favor.]]",
+          "options": ["[[menu|menú]]", "[[book|libro]]", "[[map|mapa]]"],
+          "correctAnswer": 0,
+          "explanation": "'Menu' es la carta o menú del restaurante."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e1.mp3",
+    "topicName": "Vocabulary"
+  },
   {
     "id": "a1-u34-e2",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Using 'And', 'But', 'Because'",
+    "topic": "Food & Restaurants",
     "difficulty": "easy",
-    "transcript": "I like coffee  and tea.",
+    "transcript": "The waiter is very helpful.",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Camarero",
+      "instructions": "Identifica al trabajador del restaurante.",
       "questions": [
         {
-          "question": "[[I like coffee|Yo gustar/como coffee]] ([[y|y]]) _______ [[tea|tea]].",
-          "options": [
-            "[[and|and]]",
-            "[[is|es/está]]",
-            "[[are|son/están]]"
-          ],
+          "question": "[[The|El]] (_____) [[is very helpful.|es muy servicial.]]",
+          "options": ["[[waiter|camarero]]", "[[teacher|profesor]]", "[[doctor|médico]]"],
           "correctAnswer": 0,
-          "explanation": "Práctica de la estructura gramatical básica."
+          "explanation": "'Waiter' es camarero."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-34/e2.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u34-e3",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Using 'And', 'But', 'Because'",
+    "topic": "Food & Restaurants",
     "difficulty": "easy",
-    "transcript": "I want to go  but I am tired.",
+    "transcript": "Can I have a glass of water?",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Vaso de agua",
+      "instructions": "Identifica el recipiente para líquidos.",
       "questions": [
         {
-          "question": "[[I want to go|Yo querer a/para ir]] ([[pero am tired|pero]]) _______ [[I|Yo soy/estoy cansado]].",
-          "options": [
-            "[[but|but]]",
-            "[[is|es/está]]",
-            "[[are|son/están]]"
-          ],
+          "question": "[[Can I have a|¿Me puede dar un]] (_____) [[of water?|de agua?]]",
+          "options": ["[[glass|vaso]]", "[[plate|plato]]", "[[fork|tenedor]]"],
           "correctAnswer": 0,
-          "explanation": "Práctica de la estructura gramatical básica."
+          "explanation": "'Glass' es vaso."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-34/e3.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u34-e4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Using 'And', 'But', 'Because'",
+    "topic": "Food & Restaurants",
     "difficulty": "easy",
-    "transcript": "I am happy  because it is Friday.",
+    "transcript": "I need a knife and a fork.",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Cuchillo y tenedor",
+      "instructions": "Identifica los cubiertos.",
       "questions": [
         {
-          "question": "[[I am happy is|Yo soy/estoy feliz]] ([[porque Friday|porque]]) _______ [[it|eso es/está Friday]].",
-          "options": [
-            "[[because|because]]",
-            "[[is|es/está]]",
-            "[[are|son/están]]"
-          ],
+          "question": "[[I need a|Necesito un]] (_____) [[and a fork.|y un tenedor.]]",
+          "options": ["[[knife|cuchillo]]", "[[spoon|cuchara]]", "[[cup|taza]]"],
           "correctAnswer": 0,
-          "explanation": "Práctica de la estructura gramatical básica."
+          "explanation": "'Knife' es cuchillo."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-34/e4.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u34-e5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Using 'And', 'But', 'Because'",
+    "topic": "Food & Restaurants",
     "difficulty": "easy",
-    "transcript": "Do you want juice  or water?",
+    "transcript": "Eat your vegetables.",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Verduras",
+      "instructions": "Identifica el grupo de alimentos.",
       "questions": [
         {
-          "question": "[[Do you want juice|Hacer tú/usted querer juice]] ([[o|o]]) _______ [[water|agua]]?",
-          "options": [
-            "[[or|or]]",
-            "[[is|es/está]]",
-            "[[are|son/están]]"
-          ],
+          "question": "[[Eat your|Come tus]] (_____) .",
+          "options": ["[[vegetables|verduras]]", "[[sweets|dulces]]", "[[bread|pan]]"],
           "correctAnswer": 0,
-          "explanation": "Práctica de la estructura gramatical básica."
+          "explanation": "'Vegetables' o 'veggies' son verduras."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-34/e5.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u34-e6",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Using 'And', 'But', 'Because'",
+    "topic": "Food & Restaurants",
     "difficulty": "easy",
-    "transcript": "I can speak English and Spanish.",
+    "transcript": "The bill, please.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I can speak English and Spanish|Yo poder hablar English and Spanish]].",
-      "words": [
-        "[[I|Yo]]",
-        "[[Spanish|Spanish]].",
-        "[[can|poder]]",
-        "[[English|English]]",
-        "[[speak|hablar]]",
-        "[[and|and]]"
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
+      "title": "La cuenta",
+      "instructions": "Identifica el documento de pago.",
+      "questions": [
+        {
+          "question": "[[The|La]] (_____) [[please.|por favor.]]",
+          "options": ["[[bill|cuenta]]", "[[card|tarjeta]]", "[[coin|moneda]]"],
+          "correctAnswer": 0,
+          "explanation": "'Bill' es la cuenta en un restaurante (UK/US)."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-34/e6.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u34-e7",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Using 'And', 'But', 'Because'",
-    "difficulty": "easy",
-    "transcript": "He is tall but his brother is short.",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "Do you want some dessert?",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He is tall but his brother is short|Él es/está alto but su (de él) hermano es/está bajo/corto]].",
-      "words": [
-        "[[brother|hermano]]",
-        "[[but|but]]",
-        "[[short|bajo/corto]].",
-        "[[is|es/está]]",
-        "[[tall|alto]]",
-        "[[his|su (de él)]]",
-        "[[is|es/está]]",
-        "[[He|Él]]"
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
+      "title": "Postre",
+      "instructions": "Identifica el plato dulce final.",
+      "questions": [
+        {
+          "question": "[[Do you want some|¿Quieres algo de]] (_____) ?",
+          "options": ["[[dessert|postre]]", "[[soup|sopa]]", "[[salad|ensalada]]"],
+          "correctAnswer": 0,
+          "explanation": "'Dessert' es postre."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-34/e7.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u34-e8",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Using 'And', 'But', 'Because'",
+    "topic": "Food & Restaurants",
     "difficulty": "easy",
-    "transcript": "I am studying because I have a test.",
+    "transcript": "I like chicken and rice.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I am studying because I have a test|Yo soy/estoy studying because Yo tener/haber un/una test]].",
-      "words": [
-        "[[I|Yo]]",
-        "[[because|because]]",
-        "[[have|tener/haber]]",
-        "[[I|Yo]]",
-        "[[am|soy/estoy]]",
-        "[[studying|studying]]",
-        "[[a|un/una]]",
-        "[[test|test]]."
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
+      "title": "Pollo y arroz",
+      "instructions": "Identifica los alimentos básicos.",
+      "questions": [
+        {
+          "question": "[[I like|Me gusta el]] (_____) [[and rice.|y el arroz.]]",
+          "options": ["[[chicken|pollo]]", "[[fish|pescado]]", "[[beef|ternera]]"],
+          "correctAnswer": 0,
+          "explanation": "'Chicken' es pollo."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-34/e8.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u34-e9",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Using 'And', 'But', 'Because'",
-    "difficulty": "easy",
-    "transcript": "She likes music and she can dance.",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "Pass me the salt, please.",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She likes music and she can dance|Ella likes music and ella poder dance]].",
-      "words": [
-        "[[She|Ella]]",
-        "[[and|and]]",
-        "[[can|poder]]",
-        "[[music|music]]",
-        "[[she|ella]]",
-        "[[likes|likes]]",
-        "[[dance|dance]]."
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
+      "title": "La sal",
+      "instructions": "Identifica el condimento.",
+      "questions": [
+        {
+          "question": "[[Pass me the|Pásame la]] (_____) [[please.|por favor.]]",
+          "options": ["[[salt|sal]]", "[[pepper|pimienta]]", "[[sugar|azúcar]]"],
+          "correctAnswer": 0,
+          "explanation": "'Salt' es sal."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-34/e9.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u34-e10",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Using 'And', 'But', 'Because'",
-    "difficulty": "easy",
-    "transcript": "I am tired so I am going to bed.",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "Where is my spoon?",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I am tired so I am going to bed|Yo soy/estoy cansado tan/así que Yo soy/estoy going a/para cama]].",
-      "words": [
-        "[[I|Yo]]",
-        "[[tired|cansado]]",
-        "[[so|tan/así que]]",
-        "[[bed|cama]].",
-        "[[to|a/para]]",
-        "[[I|Yo]]",
-        "[[am|soy/estoy]]",
-        "[[going|going]]",
-        "[[am|soy/estoy]]"
-      ],
-      "explanation": "Practica el orden de las palabras en inglés."
+      "title": "Cuchara",
+      "instructions": "Identifica el cubierto para sopa.",
+      "questions": [
+        {
+          "question": "[[Where is my|¿Dónde está mi]] (_____) ?",
+          "options": ["[[spoon|cuchara]]", "[[knife|cuchillo]]", "[[napkin|servilleta]]"],
+          "correctAnswer": 0,
+          "explanation": "'Spoon' es cuchara."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-34/e10.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e11",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "easy",
+    "transcript": "I drink orange juice.",
+    "content": {
+      "title": "Zumo de naranja",
+      "instructions": "Identifica la bebida de fruta.",
+      "questions": [
+        {
+          "question": "[[I drink orange|Bebo zumo de]] (_____) .",
+          "options": ["[[juice|naranja]]", "[[milk|leche]]", "[[tea|té]]"],
+          "correctAnswer": 0,
+          "explanation": "'Juice' es zumo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e11.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e12",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "Use a napkin.",
+    "content": {
+      "title": "Servilleta",
+      "instructions": "Identifica el objeto para limpiarse.",
+      "questions": [
+        {
+          "question": "[[Use a|Usa una]] (_____) .",
+          "options": ["[[napkin|servilleta]]", "[[plate|plato]]", "[[table|mesa]]"],
+          "correctAnswer": 0,
+          "explanation": "'Napkin' es servilleta."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e12.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e13",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "The soup is hot.",
+    "content": {
+      "title": "Sopa caliente",
+      "instructions": "Identifica el plato líquido.",
+      "questions": [
+        {
+          "question": "[[The|La]] (_____) [[is hot.|está caliente.]]",
+          "options": ["[[soup|sopa]]", "[[salad|ensalada]]", "[[steak|filete]]"],
+          "correctAnswer": 0,
+          "explanation": "'Soup' es sopa."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e13.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e14",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "easy",
+    "transcript": "I want a cup of coffee.",
+    "content": {
+      "title": "Taza de café",
+      "instructions": "Identifica el recipiente pequeño.",
+      "questions": [
+        {
+          "question": "[[I want a|Quiero una]] (_____) [[of coffee.|de café.]]",
+          "options": ["[[cup|taza]]", "[[bottle|botella]]", "[[glass|vaso]]"],
+          "correctAnswer": 0,
+          "explanation": "'Cup' es taza."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e14.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e15",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "The steak is delicious.",
+    "content": {
+      "title": "Filete delicioso",
+      "instructions": "Identifica el plato de carne.",
+      "questions": [
+        {
+          "question": "[[The|El]] (_____) [[is delicious.|está delicioso.]]",
+          "options": ["[[steak|filete / chuletón]]", "[[fruit|fruta]]", "[[cheese|queso]]"],
+          "correctAnswer": 0,
+          "explanation": "'Steak' es filete o chuletón de carne."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e15.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e16",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "Put it on the plate.",
+    "content": {
+      "title": "Plato",
+      "instructions": "Identifica el objeto donde se sirve la comida.",
+      "questions": [
+        {
+          "question": "[[Put it on the|Ponlo en el]] (_____) .",
+          "options": ["[[plate|plato]]", "[[glass|vaso]]", "[[fork|tenedor]]"],
+          "correctAnswer": 0,
+          "explanation": "'Plate' es plato."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e16.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e17",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "I love fresh fruit.",
+    "content": {
+      "title": "Fruta fresca",
+      "instructions": "Identifica el grupo de alimentos.",
+      "questions": [
+        {
+          "question": "[[I love fresh|Me encanta la]] (_____) [[fresca.]]",
+          "options": ["[[fruit|fruta]]", "[[meat|carne]]", "[[bread|pan]]"],
+          "correctAnswer": 0,
+          "explanation": "'Fruit' es fruta."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e17.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e18",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "Can I have the check, please?",
+    "content": {
+      "title": "La cuenta (US)",
+      "instructions": "Identifica la palabra para cuenta en inglés americano.",
+      "questions": [
+        {
+          "question": "[[Can I have the|¿Me da la]] (_____) [[please?|por favor?]]",
+          "options": ["[[check|cuenta]]", "[[ticket|ticket]]", "[[menu|menú]]"],
+          "correctAnswer": 0,
+          "explanation": "'Check' es como se pide la cuenta en EEUU."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e18.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e19",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "The restaurant is closed.",
+    "content": {
+      "title": "Cerrado",
+      "instructions": "Identifica el estado del establecimiento.",
+      "questions": [
+        {
+          "question": "[[The restaurant is|El restaurante está]] (_____) .",
+          "options": ["[[closed|cerrado]]", "[[open|abierto]]", "[[new|nuevo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Closed' es cerrado."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e19.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e20",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "easy",
+    "transcript": "Enjoy your meal!",
+    "content": {
+      "title": "Buen provecho",
+      "instructions": "Identifica la expresión para antes de comer.",
+      "questions": [
+        {
+          "question": "[[Enjoy your|Disfruta tu]] (_____) !",
+          "options": ["[[meal|comida]]", "[[day|día]]", "[[trip|viaje]]"],
+          "correctAnswer": 0,
+          "explanation": "'Meal' es comida. 'Enjoy your meal' es buen provecho."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e20.mp3",
+    "topicName": "Vocabulary"
+  },
+
+  // GRAMMAR: ORDERING, SOME/ANY, HOW MUCH/MANY (21-40)
+  {
+    "id": "a1-u34-e21",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "I'd like a salad, please.",
+    "content": {
+      "title": "Me gustaría",
+      "instructions": "Usa la forma abreviada de 'I would like'.",
+      "questions": [
+        {
+          "question": "(_____) [[like a salad, please.|una ensalada, por favor.]]",
+          "options": ["[[I'd|Me gustaría]]", "[[I|Yo]]", "[[I'm|Yo soy]]"],
+          "correctAnswer": 0,
+          "explanation": "I'd like = I would like (Me gustaría)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e21.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e22",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "Would you like some water?",
+    "content": {
+      "title": "¿Quieres agua?",
+      "instructions": "Uso de 'some' en ofrecimientos.",
+      "questions": [
+        {
+          "question": "[[Would you like|¿Le gustaría]] (_____) [[water?|algo de agua?]]",
+          "options": ["[[some|algo de]]", "[[any|algo de (pregunta común)]]", "[[a|un]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'some' en preguntas cuando estamos ofreciendo algo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e22.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e23",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "I don't have any bread.",
+    "content": {
+      "title": "No tengo pan",
+      "instructions": "Uso de 'any' en frases negativas.",
+      "questions": [
+        {
+          "question": "[[I don't have|No tengo]] (_____) [[bread.|nada de pan.]]",
+          "options": ["[[any|nada de]]", "[[some|algo de]]", "[[a|un]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'any' para frases negativas."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e23.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e24",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "How much is the soup?",
+    "content": {
+      "title": "¿Cuánto cuesta?",
+      "instructions": "Pregunta por precio.",
+      "questions": [
+        {
+          "question": "[[How|Cuánto]] (_____) [[is the soup?|cuesta la sopa?]]",
+          "options": ["[[much|mucho]]", "[[many|muchos]]", "[[long|largo]]"],
+          "correctAnswer": 0,
+          "explanation": "'How much is...?' se usa para preguntar el precio."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e24.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e25",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "How many apples do you want?",
+    "content": {
+      "title": "¿Cuántas manzanas?",
+      "instructions": "Pregunta por cantidad contable.",
+      "questions": [
+        {
+          "question": "[[How|Cuántas]] (_____) [[apples do you want?|manzanas quieres?]]",
+          "options": ["[[many|muchas]]", "[[much|mucho]]", "[[some|algunas]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'How many' para cosas que se pueden contar (contables)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e25.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e26",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "I'd like to order now.",
+    "content": {
+      "title": "Pedir",
+      "instructions": "Verbo para ordenar comida.",
+      "questions": [
+        {
+          "question": "[[I'd like to|Me gustaría]] (_____) [[now.|pedir ahora.]]",
+          "options": ["[[order|pedir / ordenar]]", "[[ask|preguntar]]", "[[give|dar]]"],
+          "correctAnswer": 0,
+          "explanation": "'Order' es pedir comida en un restaurante."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e26.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e27",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "hard",
+    "transcript": "Can we have a table for two, please?",
+    "content": {
+      "title": "Mesa para dos",
+      "instructions": "Ordena la petición.",
+      "correctSentence": "[[Can we have a table for two please|¿Podemos tener una mesa para dos por favor]]?",
+      "words": ["[[please|por favor]]?", "[[two|dos]]", "[[for|para]]", "[[table|mesa]]", "[[a|una]]", "[[have|tener]]", "[[we|nosotros]]", "[[Can|podemos]]"],
+      "explanation": "Petición educada al llegar al restaurante."
+    },
+    "audioUrl": "audio/a1/unit-34/e27.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e28",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "There isn't any sugar in my tea.",
+    "content": {
+      "title": "No hay azúcar",
+      "instructions": "Uso de 'any' con incontables negativos.",
+      "questions": [
+        {
+          "question": "[[There isn't|No hay]] (_____) [[sugar in my tea.|azúcar en mi té.]]",
+          "options": ["[[any|nada de]]", "[[a|un]]", "[[some|algo de]]"],
+          "correctAnswer": 0,
+          "explanation": "Sugar es incontable, usamos 'any' en negativa."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e28.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e29",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "I'll have the chicken, please.",
+    "content": {
+      "title": "Tomaré el pollo",
+      "instructions": "Uso de 'will' para decidir al momento.",
+      "questions": [
+        {
+          "question": "(_____) [[have the chicken, please.|tomaré el pollo, por favor.]]",
+          "options": ["[[I'll|Tomaré]]", "[[I'm|Soy]]", "[[I do|Hago]]"],
+          "correctAnswer": 0,
+          "explanation": "'I'll have...' es una forma común de elegir un plato del menú."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e29.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e30",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "How much orange juice is left?",
+    "content": {
+      "title": "¿Cuánto zumo queda?",
+      "instructions": "Pregunta por cantidad incontable.",
+      "questions": [
+        {
+          "question": "[[How|Cuánto]] (_____) [[orange juice is left?|zumo de naranja queda?]]",
+          "options": ["[[much|mucho]]", "[[many|muchos]]", "[[any|nada]]"],
+          "correctAnswer": 0,
+          "explanation": "Juice es incontable, usamos 'How much'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e30.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e31",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "Are there any tomatoes in the salad?",
+    "content": {
+      "title": "¿Hay tomates?",
+      "instructions": "Pregunta sobre existencia en plural.",
+      "questions": [
+        {
+          "question": "[[Are there|¿Hay]] (_____) [[tomatoes in the salad?|tomates en la ensalada?]]",
+          "options": ["[[any|algunos]]", "[[a|un]]", "[[some|algunos (afirmativo)]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'any' para preguntar por cosas plurales."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e31.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e32",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "I'd like some more water.",
+    "content": {
+      "title": "Algo más de agua",
+      "instructions": "Petición afirmativa.",
+      "questions": [
+        {
+          "question": "[[I'd like|Me gustaría]] (_____) [[more water.|algo más de agua.]]",
+          "options": ["[[some|algo de]]", "[[any|nada de]]", "[[many|muchos]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'some' en frases afirmativas."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e32.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e33",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "hard",
+    "transcript": "How many people are in the restaurant?",
+    "content": {
+      "title": "¿Cuántas personas?",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[How many people are in the restaurant|¿Cuántas personas hay en el restaurante]]?",
+      "words": ["[[restaurant|restaurante]]?", "[[the|el]]", "[[in|en]]", "[[are|están/hay]]", "[[people|personas]]", "[[many|cuántas]]", "[[How|]]"],
+      "explanation": "How many + plural + are in..."
+    },
+    "audioUrl": "audio/a1/unit-34/e33.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e34",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "The bill is thirty euros.",
+    "content": {
+      "title": "Treinta euros",
+      "instructions": "Identifica el número.",
+      "questions": [
+        {
+          "question": "[[The bill is|La cuenta es de]] (_____) [[euros.]]",
+          "options": ["[[thirty|treinta]]", "[[thirteen|trece]]", "[[three|tres]]"],
+          "correctAnswer": 0,
+          "explanation": "'Thirty' es 30."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e34.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e35",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "Can I pay by card?",
+    "content": {
+      "title": "Pagar con tarjeta",
+      "instructions": "Uso de la preposición para métodos de pago.",
+      "questions": [
+        {
+          "question": "[[Can I pay|¿Puedo pagar]] (_____) [[card?|con tarjeta?]]",
+          "options": ["[[by|con]]", "[[with|con (objeto)]]", "[[on|sobre]]"],
+          "correctAnswer": 0,
+          "explanation": "Decimos 'pay by card' o 'pay in cash'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e35.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e36",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "Everything is perfect.",
+    "content": {
+      "title": "Todo perfecto",
+      "instructions": "Identifica el pronombre indefinido.",
+      "questions": [
+        {
+          "question": "(_____) [[is perfect.|está perfecto.]]",
+          "options": ["[[Everything|Todo]]", "[[Everyone|Todos (personas)]]", "[[Every|Cada]]"],
+          "correctAnswer": 0,
+          "explanation": "'Everything' se refiere a todas las cosas."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e36.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e37",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "I'd like to pay now.",
+    "content": {
+      "title": "Pagar ahora",
+      "instructions": "Verbo para abonar la cuenta.",
+      "questions": [
+        {
+          "question": "[[I'd like to|Me gustaría]] (_____) [[now.|pagar ahora.]]",
+          "options": ["[[pay|pagar]]", "[[buy|comprar]]", "[[get|obtener]]"],
+          "correctAnswer": 0,
+          "explanation": "'Pay' es pagar."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e37.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e38",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "Is there any milk in the fridge?",
+    "content": {
+      "title": "¿Hay leche?",
+      "instructions": "Pregunta por incontable.",
+      "questions": [
+        {
+          "question": "[[Is there|¿Hay]] (_____) [[milk in the fridge?|leche en la nevera?]]",
+          "options": ["[[any|nada de]]", "[[some|algo de]]", "[[a|una]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'any' en preguntas de existencia."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e38.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e39",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "hard",
+    "transcript": "Would you like a table near the window?",
+    "content": {
+      "title": "Mesa cerca de la ventana",
+      "instructions": "Ordena la oferta.",
+      "correctSentence": "[[Would you like a table near the window|¿Le gustaría una mesa cerca de la ventana]]?",
+      "words": ["[[window|ventana]]?", "[[the|la]]", "[[near|cerca de]]", "[[table|mesa]]", "[[a|una]]", "[[like|gustaría]]", "[[you|le]]", "[[Would|¿]]"],
+      "explanation": "Pregunta educada de ofrecimiento."
+    },
+    "audioUrl": "audio/a1/unit-34/e39.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e40",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "We need two small spoons.",
+    "content": {
+      "title": "Cucharas pequeñas",
+      "instructions": "Orden de adjetivos.",
+      "questions": [
+        {
+          "question": "[[We need two|Necesitamos dos]] (_____) .",
+          "options": ["[[small spoons|cucharas pequeñas]]", "[[spoons small|pequeñas cucharas]]", "[[small spoon|cuchara pequeña]]"],
+          "correctAnswer": 0,
+          "explanation": "En inglés el adjetivo va antes del sustantivo (small spoons)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e40.mp3",
+    "topicName": "Grammar"
+  },
+
+  // REVIEW & READING (41-60)
+  {
+    "id": "a1-u34-e41",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "easy",
+    "transcript": "I like cheese.",
+    "content": {
+      "title": "Queso",
+      "instructions": "Identifica el alimento lácteo.",
+      "questions": [
+        {
+          "question": "[[I like|Me gusta el]] (_____) .",
+          "options": ["[[cheese|queso]]", "[[cake|pastel]]", "[[meat|carne]]"],
+          "correctAnswer": 0,
+          "explanation": "'Cheese' es queso."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e41.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e42",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "The restaurant is very busy.",
+    "content": {
+      "title": "Ocupado / Lleno",
+      "instructions": "Identifica el estado del restaurante.",
+      "questions": [
+        {
+          "question": "[[The restaurant is very|El restaurante está muy]] (_____) .",
+          "options": ["[[busy|concurrido / lleno]]", "[[free|libre]]", "[[large|grande]]"],
+          "correctAnswer": 0,
+          "explanation": "'Busy' significa ocupado o con mucha gente."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e42.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e43",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "easy",
+    "transcript": "Drink your tea.",
+    "content": {
+      "title": "Té",
+      "instructions": "Identifica la bebida caliente.",
+      "questions": [
+        {
+          "question": "[[Drink your|Bebe tu]] (_____) .",
+          "options": ["[[tea|té]]", "[[soup|sopa]]", "[[water|agua]]"],
+          "correctAnswer": 0,
+          "explanation": "'Tea' es té."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e43.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e44",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "Where is the kitchen?",
+    "content": {
+      "title": "Cocina",
+      "instructions": "Identifica el lugar donde se cocina.",
+      "questions": [
+        {
+          "question": "[[Where is the|¿Dónde está la]] (_____) ?",
+          "options": ["[[kitchen|cocina]]", "[[bedroom|dormitorio]]", "[[lobby|entrada]]"],
+          "correctAnswer": 0,
+          "explanation": "'Kitchen' es cocina."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e44.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e45",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "Do you want some sugar?",
+    "content": {
+      "title": "Azúcar",
+      "instructions": "Identifica el endulzante.",
+      "questions": [
+        {
+          "question": "[[Do you want some|¿Quieres algo de]] (_____) ?",
+          "options": ["[[sugar|azúcar]]", "[[salt|sal]]", "[[pepper|pimienta]]"],
+          "correctAnswer": 0,
+          "explanation": "'Sugar' es azúcar."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e46",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "I'm having lunch.",
+    "content": {
+      "title": "Almorzando",
+      "instructions": "Identifica el momento de la comida.",
+      "questions": [
+        {
+          "question": "[[I'm having|Estoy]] (_____) .",
+          "options": ["[[lunch|almorzando]]", "[[breakfast|desayunando]]", "[[dinner|cenando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Lunch' es el almuerzo o comida del mediodía."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e46.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e47",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "Is this seat free?",
+    "content": {
+      "title": "Asiento libre",
+      "instructions": "Pregunta por disponibilidad de asiento.",
+      "questions": [
+        {
+          "question": "[[Is this|¿Está este]] (_____) [[free?|libre?]]",
+          "options": ["[[seat|asiento]]", "[[table|mesa]]", "[[plate|plato]]"],
+          "correctAnswer": 0,
+          "explanation": "'Seat' es asiento."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e47.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e48",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "We are having dinner at 8 pm.",
+    "content": {
+      "title": "Cenando",
+      "instructions": "Identifica la comida de la noche.",
+      "questions": [
+        {
+          "question": "[[We are having|Estamos]] (_____) [[at 8 pm.]]",
+          "options": ["[[dinner|cenando]]", "[[lunch|almorzando]]", "[[breakfast|desayunando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Dinner' es la cena."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e48.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e49",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "The food is great.",
+    "content": {
+      "title": "La comida",
+      "instructions": "Identifica la palabra general para alimento.",
+      "questions": [
+        {
+          "question": "[[The|La]] (_____) [[is great.|está genial.]]",
+          "options": ["[[food|comida]]", "[[room|habitación]]", "[[drink|bebida]]"],
+          "correctAnswer": 0,
+          "explanation": "'Food' es comida en general."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e50",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "easy",
+    "transcript": "I need a bottle of water.",
+    "content": {
+      "title": "Botella",
+      "instructions": "Identifica el recipiente.",
+      "questions": [
+        {
+          "question": "[[I need a|Necesito una]] (_____) [[of water.]]",
+          "options": ["[[bottle|botella]]", "[[cup|taza]]", "[[glass|vaso]]"],
+          "correctAnswer": 0,
+          "explanation": "'Bottle' es botella."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e50.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e51",
+    "type": "reading",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "I am at a restaurant with my family. We'd like a table for four near the window. The waiter gives us the menu. I'd like a steak and some salad. My sister wants chicken and rice. For dessert, we want some fruit. The food is delicious and the bill is not very expensive. We are paying by card.",
+    "content": {
+      "title": "Cena en Familia",
+      "instructions": "Lee sobre la cena en el restaurante.",
+      "text": "[[I am|Estoy]] [[at a restaurant|en un restaurante]] [[with my family.|con mi familia.]] [[We'd like|Nos gustaría]] [[a table|una mesa]] [[for four|para cuatro]] [[near the window.|cerca de la ventana.]] [[The waiter|El camarero]] [[gives us|nos da]] [[the menu.|el menú.]] [[I'd like|Me gustaría]] [[a steak|un filete]] [[and some salad.|y algo de ensalada.]] [[My sister|Mi hermana]] [[wants|quiere]] [[chicken and rice.|pollo y arroz.]] [[For dessert,|De postre,]] [[we want|queremos]] [[some fruit.|algo de fruta.]] [[The food|La comida]] [[is delicious|está deliciosa]] [[and the bill|y la cuenta]] [[is not|no es]] [[very expensive.|muy cara.]] [[We are paying|Estamos pagando]] [[by card.|con tarjeta.]]",
+      "questions": [
+        {
+          "question": "[[What does the person want to eat?|¿Qué quiere comer la persona?]]",
+          "options": ["[[Steak and salad|Filete y ensalada]]", "[[Chicken and rice|Pollo y arroz]]", "[[Only fruit|Solo fruta]]"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "[[How are they paying?|¿Cómo están pagando?]]",
+          "options": ["[[By card|Con tarjeta]]", "[[In cash|En efectivo]]", "[[They are not paying|No pagan]]"],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e51.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u34-e52",
+    "type": "reading",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "My favorite cafe is very cozy. I always order a cup of coffee and a piece of cake. Sometimes, I have some orange juice too. There are many small tables and comfortable chairs. The waiters are friendly. How much is a coffee? It is only two euros. I like to sit here and read my book.",
+    "content": {
+      "title": "Mi Cafetería Favorita",
+      "instructions": "Lee sobre la cafetería.",
+      "text": "[[My favorite cafe|Mi cafetería favorita]] [[is very cozy.|es muy acogedora.]] [[I always|Siempre]] [[order|pido]] [[a cup of coffee|una taza de café]] [[and a piece of cake.|y un trozo de tarta.]] [[Sometimes,|A veces,]] [[I have|tomo]] [[some orange juice|algo de zumo de naranja]] [[too.|también.]] [[There are|Hay]] [[many small tables|muchas mesas pequeñas]] [[and|y]] [[comfortable chairs.|sillas cómodas.]] [[The waiters|Los camareros]] [[are friendly.|son amables.]] [[How much|¿Cuánto]] [[is a coffee?|cuesta un café?]] [[It is only|Cuesta solo]] [[two euros.|dos euros.]] [[I like|Me gusta]] [[to sit here|sentarme aquí]] [[and read|y leer]] [[my book.|mi libro.]]",
+      "questions": [
+        {
+          "question": "[[What does the person usually order?|¿Qué pide normalmente la persona?]]",
+          "options": ["[[Coffee and cake|Café y tarta]]", "[[Tea and bread|Té y pan]]", "[[Steak and rice|Filete y arroz]]"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "[[How much is the coffee?|¿Cuánto cuesta el café?]]",
+          "options": ["[[Two euros|Dos euros]]", "[[Five euros|Cinco euros]]", "[[One euro|Un euro]]"],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e52.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u34-e53",
+    "type": "reading",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "In the kitchen, we have everything for lunch. There is some bread on the table and some milk in the fridge. We have many vegetables for the salad. I need a knife to cut the tomatoes and a spoon for the soup. How many people are coming for dinner? Six people are coming today.",
+    "content": {
+      "title": "En la Cocina",
+      "instructions": "Lee sobre la situación en la cocina.",
+      "text": "[[In the kitchen,|En la cocina,]] [[we have everything|tenemos todo]] [[for lunch.|para el almuerzo.]] [[There is|Hay]] [[some bread|algo de pan]] [[on the table|sobre la mesa]] [[and some milk|y algo de leche]] [[in the fridge.|en la nevera.]] [[We have|Tenemos]] [[many vegetables|muchas verduras]] [[for the salad.|para la ensalada.]] [[I need|Necesito]] [[a knife|un cuchillo]] [[to cut|para cortar]] [[the tomatoes|los tomates]] [[and a spoon|y una cuchara]] [[for the soup.|para la sopa.]] [[How many|¿Cuántas]] [[people|personas]] [[are coming|vienen]] [[for dinner?|para cenar?]] [[Six people|Seis personas]] [[are coming today.|vienen hoy.]]",
+      "questions": [
+        {
+          "question": "[[Where is the milk?|¿Dónde está la leche?]]",
+          "options": ["[[In the fridge|En la nevera]]", "[[On the table|Sobre la mesa]]", "[[In the soup|En la sopa]]"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "[[How many people are coming for dinner?|¿Cuántas personas vienen a cenar?]]",
+          "options": ["[[Six people|Seis personas]]", "[[Four people|Cuatro personas]]", "[[Two people|Dos personas]]"],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e53.mp3",
+    "topicName": "Reading"
+  },
+  {
+    "id": "a1-u34-e54",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "easy",
+    "transcript": "I drink water.",
+    "content": {
+      "title": "Agua",
+      "instructions": "Identifica la bebida básica.",
+      "questions": [
+        {
+          "question": "[[I drink|Bebo]] (_____) .",
+          "options": ["[[water|agua]]", "[[juice|zumo]]", "[[milk|leche]]"],
+          "correctAnswer": 0,
+          "explanation": "'Water' es agua."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e54.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e55",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "Would you like some dessert?",
+    "content": {
+      "title": "¿Le gustaría...?",
+      "instructions": "Usa 'Would' para ofrecimientos educados.",
+      "questions": [
+        {
+          "question": "(_____) [[you like some dessert?|¿le gustaría algo de postre?]]",
+          "options": ["[[Would|¿Le gustaría?]]", "[[Do|¿Hace?]]", "[[Are|¿Es?]]"],
+          "correctAnswer": 0,
+          "explanation": "'Would you like...?' es la forma estándar de ofrecer algo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e55.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e56",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "hard",
+    "transcript": "I'd like a glass of orange juice.",
+    "content": {
+      "title": "Zumo de naranja",
+      "instructions": "Ordena la petición.",
+      "correctSentence": "[[I'd like a glass of orange juice|Me gustaría un vaso de zumo de naranja]].",
+      "words": ["[[juice|naranja]].", "[[orange|zumo de]]", "[[of|de]]", "[[glass|vaso]]", "[[a|un]]", "[[like|gustaría]]", "[[I'd|Me]]"],
+      "explanation": "Estructura de petición educada."
+    },
+    "audioUrl": "audio/a1/unit-34/e56.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e57",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "We don't have any tomatoes.",
+    "content": {
+      "title": "No tenemos tomates",
+      "instructions": "Uso de 'any' en negativa plural.",
+      "questions": [
+        {
+          "question": "[[We don't have|No tenemos]] (_____) [[tomatoes.|ningún tomate.]]",
+          "options": ["[[any|ningún]]", "[[some|algunos]]", "[[many|muchos]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'any' en frases negativas."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e57.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e58",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "How much does it cost?",
+    "content": {
+      "title": "¿Cuánto cuesta?",
+      "instructions": "Pregunta por el costo.",
+      "questions": [
+        {
+          "question": "[[How|Cuánto]] (_____) [[does it cost?|cuesta?]]",
+          "options": ["[[much|mucho]]", "[[many|muchos]]", "[[any|nada]]"],
+          "correctAnswer": 0,
+          "explanation": "'How much' se usa para precios."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e58.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u34-e59",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "medium",
+    "transcript": "The salad is very fresh.",
+    "content": {
+      "title": "Ensalada fresca",
+      "instructions": "Identifica el adjetivo de estado.",
+      "questions": [
+        {
+          "question": "[[The salad is very|La ensalada está muy]] (_____) .",
+          "options": ["[[fresh|fresca]]", "[[old|vieja]]", "[[hot|caliente]]"],
+          "correctAnswer": 0,
+          "explanation": "'Fresh' es fresco/a."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e59.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-e60",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food & Restaurants",
+    "difficulty": "easy",
+    "transcript": "I need a napkin.",
+    "content": {
+      "title": "Servilleta",
+      "instructions": "Identifica el objeto de limpieza.",
+      "questions": [
+        {
+          "question": "[[I need a|Necesito una]] (_____) .",
+          "options": ["[[napkin|servilleta]]", "[[spoon|cuchara]]", "[[cup|taza]]"],
+          "correctAnswer": 0,
+          "explanation": "'Napkin' es servilleta."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-34/e60.mp3",
     "topicName": "Vocabulary"
   }
 ];

@@ -2,23 +2,235 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_24_EXERCISES: Exercise[] = [
 
-  // MULTIPLE CHOICE (11-40)
+  // VOCABULARY: Food & Drinks (1-10)
+  {
+    "id": "a1-u24-e1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "easy",
+    "transcript": "I eat an apple every day.",
+    "content": {
+      "title": "Frutas",
+      "instructions": "Elige la fruta correcta.",
+      "questions": [
+        {
+          "question": "[[I eat|Como]] (_____) [[every day.|cada día.]]",
+          "options": ["[[an apple|una manzana]]", "[[a bread|un pan]]", "[[a milk|una leche]]"],
+          "correctAnswer": 0,
+          "explanation": "'Apple' es una fruta."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e1.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Drinks",
+    "difficulty": "easy",
+    "transcript": "She drinks orange juice.",
+    "content": {
+      "title": "Bebidas",
+      "instructions": "Completa la frase con la bebida.",
+      "questions": [
+        {
+          "question": "[[She drinks orange|Ella bebe naranja]] (_____) .",
+          "options": ["[[juice|zumo]]", "[[meat|carne]]", "[[egg|huevo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Orange juice' es zumo de naranja."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e2.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e3",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Meals",
+    "difficulty": "medium",
+    "transcript": "I have breakfast at eight.",
+    "content": {
+      "title": "Desayuno",
+      "instructions": "Ordena la frase sobre la primera comida.",
+      "correctSentence": "[[I have breakfast at eight|Yo desayuno a las ocho]].",
+      "words": ["[[eight|ocho]].", "[[at|a las]]", "[[breakfast|desayuno]]", "[[have|tomo]]", "[[I|Yo]]"],
+      "explanation": "'Have breakfast' es desayunar."
+    },
+    "audioUrl": "audio/a1/unit-24/e3.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e4",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "easy",
+    "transcript": "We like eating pizza.",
+    "content": {
+      "title": "Comida Popular",
+      "instructions": "Elige la comida correcta.",
+      "questions": [
+        {
+          "question": "[[We like eating|Nos gusta comer]] (_____) .",
+          "options": ["[[pizza|pizza]]", "[[water|agua]]", "[[coffee|café]]"],
+          "correctAnswer": 0,
+          "explanation": "La pizza es una comida."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e4.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e5",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "medium",
+    "transcript": "Rice is common in Asia.",
+    "content": {
+      "title": "Cereales",
+      "instructions": "Traduce 'arroz'.",
+      "questions": [
+        {
+          "question": "(_____) [[is common in Asia.|es común en Asia.]]",
+          "options": ["[[Rice|Arroz]]", "[[Bread|Pan]]", "[[Milk|Leche]]"],
+          "correctAnswer": 0,
+          "explanation": "'Rice' es arroz."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e5.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e6",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Drinks",
+    "difficulty": "easy",
+    "transcript": "He wants a glass of water.",
+    "content": {
+      "title": "Bebidas Básicas",
+      "instructions": "Identifica la bebida.",
+      "questions": [
+        {
+          "question": "[[He wants a glass of|Él quiere un vaso de]] (_____) .",
+          "options": ["[[water|agua]]", "[[chicken|pollo]]", "[[cheese|queso]]"],
+          "correctAnswer": 0,
+          "explanation": "'Water' es agua."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e6.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e7",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "medium",
+    "transcript": "They buy bread every morning.",
+    "content": {
+      "title": "El Pan",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[They buy bread every morning|Ellos compran pan cada mañana]].",
+      "words": ["[[morning|mañana]].", "[[every|cada]]", "[[bread|pan]]", "[[buy|compran]]", "[[They|Ellos]]"],
+      "explanation": "'Bread' es pan."
+    },
+    "audioUrl": "audio/a1/unit-24/e7.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e8",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "medium",
+    "transcript": "Do you like fish?",
+    "content": {
+      "title": "Pescado",
+      "instructions": "Completa la pregunta.",
+      "questions": [
+        {
+          "question": "[[Do you like|¿Te gusta el]] (_____) ?",
+          "options": ["[[fish|pescado]]", "[[juice|zumo]]", "[[banana|plátano]]"],
+          "correctAnswer": 0,
+          "explanation": "'Fish' es pescado."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e8.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e9",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "easy",
+    "transcript": "Vegetables are healthy.",
+    "content": {
+      "title": "Verduras",
+      "instructions": "Elige la categoría correcta.",
+      "questions": [
+        {
+          "question": "(_____) [[are healthy.|son saludables.]]",
+          "options": ["[[Vegetables|Las verduras]]", "[[Candies|Los caramelos]]", "[[Sodas|Los refrescos]]"],
+          "correctAnswer": 0,
+          "explanation": "'Vegetables' son las verduras."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e9.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e10",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Drinks",
+    "difficulty": "medium",
+    "transcript": "Would you like some tea?",
+    "content": {
+      "title": "El Té",
+      "instructions": "Completa el ofrecimiento.",
+      "questions": [
+        {
+          "question": "[[Would you like some|¿Te gustaría un poco de]] (_____) ?",
+          "options": ["[[tea|té]]", "[[meat|carne]]", "[[potato|patata]]"],
+          "correctAnswer": 0,
+          "explanation": "'Tea' es té."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e10.mp3",
+    "topicName": "Vocabulary"
+  },
+
+  // GRAMMAR: Countable / Uncountable (11-30)
   {
     "id": "a1-u24-e11",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Present Continuous",
-    "difficulty": "easy",
-    "transcript": "I am reading a book right now.",
+    "topic": "Countable/Uncountable",
+    "difficulty": "medium",
+    "transcript": "I have an egg for breakfast.",
     "content": {
-      "title": "Presente Continuo: Afirmativo",
-      "instructions": "Elige la forma correcta del verbo.",
+      "title": "Contables: Singular",
+      "instructions": "Elige el artículo correcto.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[a book right now|un libro ahora mismo]].",
-          "options": ["[[read|leo]]", "[[am reading|estoy leyendo]]", "[[is reading|está leyendo]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos am/is/are + verbo-ing para acciones que ocurren ahora mismo."
+          "question": "[[I have|Tomo]] (_____) [[egg for breakfast.|un huevo para desayunar.]]",
+          "options": ["[[an|un (vocal)]]", "[[a|un (consonante)]]", "[[some|algo de]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'an' antes de sonidos de vocal como 'egg'."
         }
       ]
     },
@@ -29,18 +241,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e12",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Present Continuous",
-    "difficulty": "easy",
-    "transcript": "She is watching TV in the living room.",
+    "topic": "Countable/Uncountable",
+    "difficulty": "medium",
+    "transcript": "I would like some milk.",
     "content": {
-      "title": "Presente Continuo: She",
-      "instructions": "Elige la forma correcta del verbo.",
+      "title": "Incontables: Afirmativo",
+      "instructions": "Elige el cuantificador para incontables.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[TV in the living room|la tele en el salón]].",
-          "options": ["[[is watching|está viendo]]", "[[watches|ve]]", "[[are watching|están viendo]]"],
+          "question": "[[I would like|Me gustaría]] (_____) [[milk.|leche.]]",
+          "options": ["[[some|algo de]]", "[[a|una]]", "[[an|una]]"],
           "correctAnswer": 0,
-          "explanation": "Con 'she', usamos 'is' + verbo-ing."
+          "explanation": "Usamos 'some' con sustantivos incontables en frases afirmativas."
         }
       ]
     },
@@ -51,18 +263,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e13",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Present Continuous",
+    "topic": "Countable/Uncountable",
     "difficulty": "medium",
-    "transcript": "They are playing football in the park.",
+    "transcript": "Is there any sugar?",
     "content": {
-      "title": "Presente Continuo: They",
-      "instructions": "Elige la forma correcta.",
+      "title": "Incontables: Pregunta",
+      "instructions": "Completa la pregunta.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[football in the park|fútbol en el parque]].",
-          "options": ["[[is playing|está jugando]]", "[[play|juegan]]", "[[are playing|están jugando]]"],
-          "correctAnswer": 2,
-          "explanation": "Con 'they', usamos 'are' + verbo-ing."
+          "question": "[[Is there|¿Hay]] (_____) [[sugar?|azúcar?]]",
+          "options": ["[[any|algo de (preg)]]", "[[some|algo de]]", "[[a|un]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'any' para preguntas con sustantivos incontables."
         }
       ]
     },
@@ -71,22 +283,17 @@ export const UNIT_24_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u24-e14",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar: Present Continuous",
-    "difficulty": "medium",
-    "transcript": "What are you doing at the moment?",
+    "topic": "Countable/Uncountable",
+    "difficulty": "hard",
+    "transcript": "We don't have any pasta.",
     "content": {
-      "title": "Presente Continuo: Preguntas",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "[[What|Qué]] _______ [[you doing at the moment|estás haciendo en este momento]]?",
-          "options": ["[[is|es/está]]", "[[are|eres/estás]]", "[[am|soy/estoy]]"],
-          "correctAnswer": 1,
-          "explanation": "En preguntas con 'you', usamos 'are' delante del sujeto."
-        }
-      ]
+      "title": "Incontables: Negativo",
+      "instructions": "Ordena la frase negativa.",
+      "correctSentence": "[[We don't have any pasta|No tenemos nada de pasta]].",
+      "words": ["[[pasta|pasta]].", "[[any|nada de]]", "[[have|tenemos]]", "[[don't|no]]", "[[We|Nosotros]]"],
+      "explanation": "Usamos 'any' en frases negativas con incontables."
     },
     "audioUrl": "audio/a1/unit-24/e14.mp3",
     "topicName": "Grammar"
@@ -95,18 +302,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e15",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Present Continuous",
+    "topic": "Quantifiers",
     "difficulty": "medium",
-    "transcript": "I am not working today.",
+    "transcript": "How much water do you drink?",
     "content": {
-      "title": "Presente Continuo: Negativo",
-      "instructions": "Elige la forma negativa correcta.",
+      "title": "Cuánto: Incontable",
+      "instructions": "Elige la forma correcta de preguntar cantidad.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[today|hoy]].",
-          "options": ["[[not working|no trabajando]]", "[[am not working|no estoy trabajando]]", "[[don't work|no trabajo]]"],
-          "correctAnswer": 1,
-          "explanation": "La negación se forma con am/is/are + not + verbo-ing."
+          "question": "(_____) [[water do you drink?|agua bebes?]]",
+          "options": ["[[How much|Cuánto]]", "[[How many|Cuántos]]", "[[How any|Error]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'How much' para sustantivos incontables como el agua."
         }
       ]
     },
@@ -117,42 +324,37 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e16",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Actions",
-    "difficulty": "easy",
-    "transcript": "He is drinking water.",
+    "topic": "Quantifiers",
+    "difficulty": "medium",
+    "transcript": "How many tomatoes are there?",
     "content": {
-      "title": "Vocabulario: Acciones",
-      "instructions": "Completa la oración.",
+      "title": "Cuántos: Contable",
+      "instructions": "Elige la forma para contables en plural.",
       "questions": [
         {
-          "question": "[[He is|Él está]] _______ [[water|agua]].",
-          "options": ["[[eating|comiendo]]", "[[drinking|bebiendo]]", "[[sleeping|durmiendo]]"],
-          "correctAnswer": 1,
-          "explanation": "'Drinking' es la acción de beber líquidos como el agua."
+          "question": "(_____) [[tomatoes are there?|tomates hay?]]",
+          "options": ["[[How many|Cuántos]]", "[[How much|Cuánto]]", "[[How some|Error]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'How many' para sustantivos contables en plural."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-24/e16.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u24-e17",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar: Spelling -ing",
-    "difficulty": "medium",
-    "transcript": "She is sitting on the sofa.",
+    "topic": "Quantifiers",
+    "difficulty": "hard",
+    "transcript": "There is a lot of salt.",
     "content": {
-      "title": "Ortografía: -ing",
-      "instructions": "Elige la ortografía correcta.",
-      "questions": [
-        {
-          "question": "[[She is|Ella está]] _______ [[on the sofa|en el sofá]].",
-          "options": ["[[siting|error]]", "[[sitting|sentada/sentándose]]", "[[sit|sentar]]"],
-          "correctAnswer": 1,
-          "explanation": "Los verbos cortos C-V-C doblan la última consonante antes de añadir '-ing'."
-        }
-      ]
+      "title": "Mucho/a",
+      "instructions": "Ordena la frase para mucha cantidad.",
+      "correctSentence": "[[There is a lot of salt|Hay mucha sal]].",
+      "words": ["[[salt|sal]].", "[[of|de]]", "[[lot|mucho]]", "[[a|un]]", "[[is|hay]]", "[[There|Allí]]"],
+      "explanation": "'A lot of' se usa tanto para contables como para incontables."
     },
     "audioUrl": "audio/a1/unit-24/e17.mp3",
     "topicName": "Grammar"
@@ -161,18 +363,18 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e18",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Present Continuous",
+    "topic": "Countable/Uncountable",
     "difficulty": "medium",
-    "transcript": "Are they listening to music?",
+    "transcript": "Do we have any carrots?",
     "content": {
-      "title": "Presente Continuo: Preguntas Sí/No",
-      "instructions": "Elige la opción correcta.",
+      "title": "Contables: Pregunta",
+      "instructions": "Elige el cuantificador para plural contable.",
       "questions": [
         {
-          "question": "_______ [[they listening to music|ellos escuchando música]]?",
-          "options": ["[[Are|Están]]", "[[Is|Está]]", "[[Do|Hacen (pres. simple)]]"],
+          "question": "[[Do we have|¿Tenemos]] (_____) [[carrots?|zanahorias?]]",
+          "options": ["[[any|algunas (preg)]]", "[[a|una]]", "[[much|mucha]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'Are' para preguntas en plural con 'they'."
+          "explanation": "Usamos 'any' para preguntas en plural."
         }
       ]
     },
@@ -183,62 +385,63 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e19",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Actions",
-    "difficulty": "easy",
-    "transcript": "We are learning English.",
+    "topic": "Countable/Uncountable",
+    "difficulty": "medium",
+    "transcript": "There aren't many eggs.",
     "content": {
-      "title": "Vocabulario: Acciones",
-      "instructions": "Completa la oración.",
+      "title": "No hay muchos/as",
+      "instructions": "Completa la frase negativa contable.",
       "questions": [
         {
-          "question": "[[We are|Estamos]] _______ [[English|inglés]].",
-          "options": ["[[learning|aprendiendo]]", "[[cooking|cocinando]]", "[[running|corriendo]]"],
+          "question": "[[There aren't|No hay]] (_____) [[eggs.|muchos huevos.]]",
+          "options": ["[[many|muchos/as]]", "[[much|mucho/a]]", "[[any|ningún]]"],
           "correctAnswer": 0,
-          "explanation": "'Learning' es la acción de aprender algo, como un idioma."
+          "explanation": "Usamos 'many' con sustantivos contables en negativo."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-24/e19.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u24-e20",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Present Continuous",
+    "topic": "Countable/Uncountable",
     "difficulty": "medium",
-    "transcript": "Look! It is raining outside.",
+    "transcript": "There isn't much cheese.",
     "content": {
-      "title": "Presente Continuo: El Tiempo",
-      "instructions": "Elige la forma correcta.",
+      "title": "No hay mucho/a",
+      "instructions": "Completa la frase negativa incontable.",
       "questions": [
         {
-          "question": "[[Look! It|¡Mira!]] _______ [[raining outside|lloviendo fuera]].",
-          "options": ["[[is|está]]", "[[are|están]]", "[[rains|llueve]]"],
+          "question": "[[There isn't|No hay]] (_____) [[cheese.|mucho queso.]]",
+          "options": ["[[much|mucho/a]]", "[[many|muchos/as]]", "[[any|ningún]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'is' con el sujeto impersonal 'it'."
+          "explanation": "Usamos 'much' con sustantivos incontables en negativo."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-24/e20.mp3",
     "topicName": "Grammar"
   },
+
   {
     "id": "a1-u24-e21",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Spelling -ing",
+    "topic": "Countable/Uncountable",
     "difficulty": "medium",
-    "transcript": "I am writing an email to my boss.",
+    "transcript": "I have some orange juice.",
     "content": {
-      "title": "Ortografía: Verbos en -e",
-      "instructions": "Elige la ortografía correcta.",
+      "title": "Zumo de Naranja",
+      "instructions": "Elige el cuantificador para el zumo.",
       "questions": [
         {
-          "question": "[[I am|Estoy]] _______ [[an email|un correo electrónico]].",
-          "options": ["[[writing|escribiendo]]", "[[writeing|error]]", "[[writes|escribe]]"],
+          "question": "[[I have|Tomo]] (_____) [[orange juice.|zumo de naranja.]]",
+          "options": ["[[some|un poco de]]", "[[a|un]]", "[[an|un]]"],
           "correctAnswer": 0,
-          "explanation": "Los verbos que terminan en '-e' muda pierden la 'e' antes de añadir '-ing'."
+          "explanation": "'Juice' es incontable, usamos 'some'."
         }
       ]
     },
@@ -249,42 +452,37 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e22",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Actions",
-    "difficulty": "easy",
-    "transcript": "The students are talking to the teacher.",
+    "topic": "Countable/Uncountable",
+    "difficulty": "medium",
+    "transcript": "Do you want an orange?",
     "content": {
-      "title": "Acciones en Clase",
-      "instructions": "Completa la oración.",
+      "title": "Una Naranja",
+      "instructions": "Elige el artículo para la fruta.",
       "questions": [
         {
-          "question": "[[The students are|Los estudiantes están]] _______ [[to the teacher|con el profesor]].",
-          "options": ["[[talking|hablando]]", "[[dancing|bailando]]", "[[swimming|nadando]]"],
+          "question": "[[Do you want|¿Quieres]] (_____) [[orange?|una naranja?]]",
+          "options": ["[[an|una (vocal)]]", "[[a|una]]", "[[some|algunas]]"],
           "correctAnswer": 0,
-          "explanation": "'Talking' es hablar con alguien."
+          "explanation": "La naranja es contable singular y empieza por vocal."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-24/e22.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u24-e23",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar: Present Continuous",
+    "topic": "Countable/Uncountable",
     "difficulty": "medium",
-    "transcript": "Is he using his phone in class?",
+    "transcript": "There is some bread on the table.",
     "content": {
-      "title": "Preguntas con 'He'",
-      "instructions": "Elige la opción correcta.",
-      "questions": [
-        {
-          "question": "_______ [[he using his phone|él usando su móvil]]?",
-          "options": ["[[Are|Están]]", "[[Is|Está]]", "[[Does|Haces (pres. simple)]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'Is' para preguntas en singular con 'he'."
-        }
-      ]
+      "title": "Pan en la mesa",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[There is some bread on the table|Hay algo de pan en la mesa]].",
+      "words": ["[[table|mesa]].", "[[the|la]]", "[[on|en]]", "[[bread|pan]]", "[[some|algo de]]", "[[is|hay]]", "[[There|Hay]]"],
+      "explanation": "'Bread' es incontable en inglés."
     },
     "audioUrl": "audio/a1/unit-24/e23.mp3",
     "topicName": "Grammar"
@@ -293,40 +491,40 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e24",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Actions",
-    "difficulty": "easy",
-    "transcript": "My mother is cooking dinner now.",
+    "topic": "Countable/Uncountable",
+    "difficulty": "medium",
+    "transcript": "We don't have any milk.",
     "content": {
-      "title": "Acciones en Casa",
-      "instructions": "Completa la oración.",
+      "title": "Sin Leche",
+      "instructions": "Completa la negación incontable.",
       "questions": [
         {
-          "question": "[[My mother is|Mi madre está]] _______ [[dinner now|la cena ahora]].",
-          "options": ["[[cooking|cocinando]]", "[[driving|conduciendo]]", "[[washing|lavando]]"],
+          "question": "[[We don't have|No tenemos]] (_____) [[milk.|leche.]]",
+          "options": ["[[any|nada de]]", "[[some|algo de]]", "[[a|una]]"],
           "correctAnswer": 0,
-          "explanation": "'Cooking' es preparar la comida."
+          "explanation": "Usamos 'any' para negar con incontables."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-24/e24.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u24-e25",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Present Continuous",
-    "difficulty": "hard",
-    "transcript": "Why are you laughing?",
+    "topic": "Countable/Uncountable",
+    "difficulty": "medium",
+    "transcript": "How many bananas do you want?",
     "content": {
-      "title": "Preguntas 'Wh-'",
-      "instructions": "Completa la pregunta.",
+      "title": "Cuántos Plátanos",
+      "instructions": "Elige la pregunta de cantidad contable.",
       "questions": [
         {
-          "question": "[[Why|Por qué]] _______ [[you laughing|te estás riendo]]?",
-          "options": ["[[are|estás]]", "[[is|está]]", "[[do|haces]]"],
+          "question": "(_____) [[bananas do you want?|plátanos quieres?]]",
+          "options": ["[[How many|Cuántos]]", "[[How much|Cuánto]]", "[[How any|Error]]"],
           "correctAnswer": 0,
-          "explanation": "En preguntas con 'you', usamos 'are' después de la partícula interrogativa."
+          "explanation": "Los plátanos son contables en plural."
         }
       ]
     },
@@ -334,21 +532,550 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u24-e51",
+    "id": "a1-u24-e26",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Countable/Uncountable",
+    "difficulty": "hard",
+    "transcript": "I need a lot of sugar for the cake.",
+    "content": {
+      "title": "Mucho Azúcar",
+      "instructions": "Ordena la frase de cantidad.",
+      "correctSentence": "[[I need a lot of sugar for the cake|Necesito mucho azúcar para el pastel]].",
+      "words": ["[[cake|pastel]].", "[[the|el]]", "[[for|para]]", "[[sugar|azúcar]]", "[[of|de]]", "[[lot|mucho]]", "[[a|un]]", "[[need|necesito]]", "[[I|Yo]]"],
+      "explanation": "'A lot of' funciona con incontables."
+    },
+    "audioUrl": "audio/a1/unit-24/e26.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u24-e27",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "[[It is Sunday morning|Es domingo por la mañana]] [[and my family is|y mi familia está]] [[at home.|en casa.]] [[We are all busy.|Todos estamos ocupados.]] [[I am sitting in the garden|Estoy sentado en el jardín]] [[and I am reading|y estoy leyendo]] [[an interesting book.|un libro interesante.]] [[My father is washing|Mi padre está lavando]] [[his car in the garage.|su coche en el garaje.]] [[My mother is|Mi madre está]] [[in the kitchen;|en la cocina;]] [[she is making|ella está haciendo]] [[a delicious cake|un pastel delicioso]] [[for lunch.|para el almuerzo.]] [[My little brother, Toby,|Mi hermano pequeño, Toby,]] [[is playing with|está jugando con]] [[his dog, Rex.|su perro, Rex.]] [[They are running|Están corriendo]] [[on the grass.|sobre la hierba.]] [[Everyone is enjoying|Todos están disfrutando]] [[the sunny weather.|del tiempo soleado.]]",
+    "topic": "Countable/Uncountable",
+    "difficulty": "medium",
+    "transcript": "There are some eggs in the fridge.",
     "content": {
-      "title": "[[Reading: Sunday Morning|Lectura: Domingo por la mañana]]",
-      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
+      "title": "Huevos",
+      "instructions": "Elige el cuantificador para plural afirmativo.",
       "questions": [
         {
-          "question": "[[What is the speaker doing?|¿Qué está haciendo el narrador?]]",
-          "options": ["[[Reading a book|Leyendo un libro]]", "[[Washing the car|Lavando el coche]]", "[[Making a cake|Haciendo un pastel]]"],
+          "question": "[[There are|Hay]] (_____) [[eggs in the fridge.|huevos en la nevera.]]",
+          "options": ["[[some|algunos]]", "[[any|algunos (preg)]]", "[[an|un]]"],
           "correctAnswer": 0,
-          "explanation": "[[The speaker says he is sitting in the garden reading an interesting book.|El narrador dice que está sentado en el jardín leyendo un libro interesante.]]"
+          "explanation": "Usamos 'some' para frases afirmativas en plural."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e27.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u24-e28",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Countable/Uncountable",
+    "difficulty": "medium",
+    "transcript": "Is there any water?",
+    "content": {
+      "title": "Pregunta: Agua",
+      "instructions": "Completa la pregunta incontable.",
+      "questions": [
+        {
+          "question": "[[Is there|¿Hay]] (_____) [[water?|agua?]]",
+          "options": ["[[any|algo de]]", "[[a|una]]", "[[some|algo de (afir)]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'any' para preguntas con incontables."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e28.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u24-e29",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Countable/Uncountable",
+    "difficulty": "hard",
+    "transcript": "How much meat do we have?",
+    "content": {
+      "title": "Cuánta Carne",
+      "instructions": "Ordena la pregunta de cantidad.",
+      "correctSentence": "[[How much meat do we have?|¿Cuánta carne tenemos?]]",
+      "words": ["[[have?|tenemos?]]", "[[we|nosotros]]", "[[do|hacer]]", "[[meat|carne]]", "[[much|cuánta]]", "[[How|Cómo]]"],
+      "explanation": "'Meat' es incontable."
+    },
+    "audioUrl": "audio/a1/unit-24/e29.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u24-e30",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Countable/Uncountable",
+    "difficulty": "medium",
+    "transcript": "I don't eat much salt.",
+    "content": {
+      "title": "Poca Sal",
+      "instructions": "Completa la frase negativa.",
+      "questions": [
+        {
+          "question": "[[I don't eat|No como]] (_____) [[salt.|mucha sal.]]",
+          "options": ["[[much|mucha]]", "[[many|muchas]]", "[[a|una]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'much' para incontables en negativo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e30.mp3",
+    "topicName": "Grammar"
+  },
+
+  // MIXED PRACTICE & VOCABULARY (31-40)
+  {
+    "id": "a1-u24-e31",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "easy",
+    "transcript": "I like chicken and potatoes.",
+    "content": {
+      "title": "Cena Común",
+      "instructions": "Elige el plato principal.",
+      "questions": [
+        {
+          "question": "[[I like|Me gusta el]] (_____) [[and potatoes.|y las patatas.]]",
+          "options": ["[[chicken|pollo]]", "[[milk|leche]]", "[[tea|té]]"],
+          "correctAnswer": 0,
+          "explanation": "'Chicken' es una comida muy común."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e31.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e32",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Drinks",
+    "difficulty": "medium",
+    "transcript": "Do you want some coffee?",
+    "content": {
+      "title": "Café",
+      "instructions": "Ofrece una bebida.",
+      "questions": [
+        {
+          "question": "[[Do you want some|¿Quieres un poco de]] (_____) ?",
+          "options": ["[[coffee|café]]", "[[bread|pan]]", "[[meat|carne]]"],
+          "correctAnswer": 0,
+          "explanation": "'Coffee' es una bebida caliente."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e32.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e33",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "easy",
+    "transcript": "Cheese is yellow or white.",
+    "content": {
+      "title": "El Queso",
+      "instructions": "Elige el lácteo.",
+      "questions": [
+        {
+          "question": "(_____) [[is yellow or white.|es amarillo o blanco.]]",
+          "options": ["[[Cheese|El queso]]", "[[Water|El agua]]", "[[Apple|La manzana]]"],
+          "correctAnswer": 0,
+          "explanation": "'Cheese' es queso."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e33.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e34",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "hard",
+    "transcript": "I usually have a salad for lunch.",
+    "content": {
+      "title": "Comida Ligera",
+      "instructions": "Ordena la frase sobre el almuerzo.",
+      "correctSentence": "[[I usually have a salad for lunch|Suelo tomar una ensalada para el almuerzo]].",
+      "words": ["[[lunch|almuerzo]].", "[[for|para el]]", "[[salad|ensalada]]", "[[a|una]]", "[[have|tomo]]", "[[usually|suelo/normalmente]]", "[[I|Yo]]"],
+      "explanation": "'Salad' es ensalada."
+    },
+    "audioUrl": "audio/a1/unit-24/e34.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e35",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Drinks",
+    "difficulty": "easy",
+    "transcript": "Milk is good for children.",
+    "content": {
+      "title": "La Leche",
+      "instructions": "Elige la bebida láctea.",
+      "questions": [
+        {
+          "question": "(_____) [[is good for children.|es buena para los niños.]]",
+          "options": ["[[Milk|La leche]]", "[[Wine|El vino]]", "[[Beer|La cerveza]]"],
+          "correctAnswer": 0,
+          "explanation": "'Milk' es leche."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e35.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e36",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "medium",
+    "transcript": "Beef is a type of meat.",
+    "content": {
+      "title": "Carnes",
+      "instructions": "Elige el tipo de carne.",
+      "questions": [
+        {
+          "question": "(_____) [[is a type of meat.|es un tipo de carne.]]",
+          "options": ["[[Beef|La ternera]]", "[[Banana|El plátano]]", "[[Carrot|La zanahoria]]"],
+          "correctAnswer": 0,
+          "explanation": "'Beef' es carne de ternera/vaca."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e36.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e37",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Drinks",
+    "difficulty": "medium",
+    "transcript": "Orange juice is sweet.",
+    "content": {
+      "title": "Zumos",
+      "instructions": "Completa el nombre de la bebida.",
+      "questions": [
+        {
+          "question": "[[Orange|Naranja]] (_____) [[is sweet.|es dulce.]]",
+          "options": ["[[juice|zumo]]", "[[bread|pan]]", "[[meat|carne]]"],
+          "correctAnswer": 0,
+          "explanation": "'Juice' es zumo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e37.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e38",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Meals",
+    "difficulty": "hard",
+    "transcript": "We have dinner at nine PM.",
+    "content": {
+      "title": "La Cena",
+      "instructions": "Ordena la frase sobre la última comida.",
+      "correctSentence": "[[We have dinner at nine PM|Cenamos a las nueve de la noche]].",
+      "words": ["[[PM|de la noche]].", "[[nine|nueve]]", "[[at|a las]]", "[[dinner|la cena]]", "[[have|tomamos]]", "[[We|Nosotros]]"],
+      "explanation": "'Have dinner' es cenar."
+    },
+    "audioUrl": "audio/a1/unit-24/e38.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e39",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "easy",
+    "transcript": "Do you eat pasta?",
+    "content": {
+      "title": "La Pasta",
+      "instructions": "Completa con la comida italiana.",
+      "questions": [
+        {
+          "question": "[[Do you eat|¿Comes]] (_____) ?",
+          "options": ["[[pasta|pasta]]", "[[water|agua]]", "[[milk|leche]]"],
+          "correctAnswer": 0,
+          "explanation": "'Pasta' es un alimento básico."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e39.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e40",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "medium",
+    "transcript": "Bananas and apples are fruit.",
+    "content": {
+      "title": "Frutas Variadas",
+      "instructions": "Elige la categoría.",
+      "questions": [
+        {
+          "question": "[[Bananas and apples are|Plátanos y manzanas son]] (_____) .",
+          "options": ["[[fruit|fruta]]", "[[meat|carne]]", "[[drinks|bebidas]]"],
+          "correctAnswer": 0,
+          "explanation": "Tanto los plátanos como las manzanas son frutas."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e40.mp3",
+    "topicName": "Vocabulary"
+  },
+
+  // FINAL MIX & READING (41-60)
+  {
+    "id": "a1-u24-e41",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "medium",
+    "transcript": "Do you prefer tea or coffee?",
+    "content": {
+      "title": "Preferencias",
+      "instructions": "Completa la pregunta sobre bebidas calientes.",
+      "questions": [
+        {
+          "question": "[[Do you prefer|¿Prefieres]] (_____) [[or coffee?|o café?]]",
+          "options": ["[[tea|té]]", "[[meat|carne]]", "[[rice|arroz]]"],
+          "correctAnswer": 0,
+          "explanation": "'Tea' y 'coffee' son bebidas calientes comunes."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e41.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e42",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "easy",
+    "transcript": "I want a sandwich.",
+    "content": {
+      "title": "Merienda",
+      "instructions": "Elige la comida rápida.",
+      "questions": [
+        {
+          "question": "[[I want a|Quiero un]] (_____) .",
+          "options": ["[[sandwich|sándwich]]", "[[juice|zumo]]", "[[water|agua]]"],
+          "correctAnswer": 0,
+          "explanation": "Un 'sandwich' es comida sólida."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e42.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e43",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Quantifiers",
+    "difficulty": "hard",
+    "transcript": "There isn't any sugar in my tea.",
+    "content": {
+      "title": "Sin Azúcar",
+      "instructions": "Ordena la frase negativa.",
+      "correctSentence": "[[There isn't any sugar in my tea|No hay nada de azúcar en mi té]].",
+      "words": ["[[tea|té]].", "[[my|mi]]", "[[in|en]]", "[[sugar|azúcar]]", "[[any|nada de]]", "[[isn't|no hay]]", "[[There|Allí]]"],
+      "explanation": "Usamos 'any' en oraciones negativas."
+    },
+    "audioUrl": "audio/a1/unit-24/e43.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u24-e44",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "medium",
+    "transcript": "Is there any butter?",
+    "content": {
+      "title": "La Mantequilla",
+      "instructions": "Pregunta por un ingrediente incontable.",
+      "questions": [
+        {
+          "question": "[[Is there any|¿Hay algo de]] (_____) ?",
+          "options": ["[[butter|mantequilla]]", "[[egg|huevo]]", "[[apple|manzana]]"],
+          "correctAnswer": 0,
+          "explanation": "'Butter' es mantequilla, un sustantivo incontable."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e44.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e45",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "easy",
+    "transcript": "Sugar is very sweet.",
+    "content": {
+      "title": "Sabor",
+      "instructions": "Identifica el ingrediente dulce.",
+      "questions": [
+        {
+          "question": "(_____) [[is very sweet.|es muy dulce.]]",
+          "options": ["[[Sugar|El azúcar]]", "[[Salt|La sal]]", "[[Pepper|La pimienta]]"],
+          "correctAnswer": 0,
+          "explanation": "'Sugar' es azúcar."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e46",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Drinks",
+    "difficulty": "medium",
+    "transcript": "Would you like a glass of milk?",
+    "content": {
+      "title": "Ofrecimiento",
+      "instructions": "Completa el ofrecimiento de bebida.",
+      "questions": [
+        {
+          "question": "[[Would you like a glass of|¿Te gustaría un vaso de]] (_____) ?",
+          "options": ["[[milk|leche]]", "[[meat|carne]]", "[[bread|pan]]"],
+          "correctAnswer": 0,
+          "explanation": "Ofrecemos un vaso de 'milk' (leche)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e46.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e47",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "hard",
+    "transcript": "I eat vegetables every day because they are healthy.",
+    "content": {
+      "title": "Salud",
+      "instructions": "Ordena la frase larga sobre salud.",
+      "correctSentence": "[[I eat vegetables every day because they are healthy|Como verduras cada día porque son saludables]].",
+      "words": ["[[healthy|saludables]].", "[[are|son]]", "[[they|ellas]]", "[[because|porque]]", "[[day|día]]", "[[every|cada]]", "[[vegetables|verduras]]", "[[eat|como]]", "[[I|Yo]]"],
+      "explanation": "Frase compleja combinando vocabulario y conectores."
+    },
+    "audioUrl": "audio/a1/unit-24/e47.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e48",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "medium",
+    "transcript": "Do you put salt on your food?",
+    "content": {
+      "title": "Condimentos",
+      "instructions": "Completa la pregunta sobre condimentos.",
+      "questions": [
+        {
+          "question": "[[Do you put|¿Pones]] (_____) [[on your food?|en tu comida?]]",
+          "options": ["[[salt|sal]]", "[[water|agua]]", "[[juice|zumo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Salt' (sal) es un condimento común."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e48.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e49",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Meals",
+    "difficulty": "easy",
+    "transcript": "Breakfast is the first meal of the day.",
+    "content": {
+      "title": "Comidas del Día",
+      "instructions": "Identifica la primera comida.",
+      "questions": [
+        {
+          "question": "(_____) [[is the first meal of the day.|es la primera comida del día.]]",
+          "options": ["[[Breakfast|El desayuno]]", "[[Lunch|El almuerzo]]", "[[Dinner|La cena]]"],
+          "correctAnswer": 0,
+          "explanation": "'Breakfast' es el desayuno."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e50",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "medium",
+    "transcript": "I like strawberry yogurt.",
+    "content": {
+      "title": "Lácteos",
+      "instructions": "Elige el postre lácteo.",
+      "questions": [
+        {
+          "question": "[[I like strawberry|Me gusta el fresa]] (_____) .",
+          "options": ["[[yogurt|yogur]]", "[[meat|carne]]", "[[egg|huevo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Yogurt' es un producto lácteo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-24/e50.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u24-e51",
+    "type": "reading",
+    "level": "A1",
+    "topic": "Food",
+    "difficulty": "medium",
+    "transcript": "I have a big breakfast. I eat two eggs, some bread, and I drink orange juice. I don't like coffee, so I drink tea.",
+    "content": {
+      "title": "Mi Desayuno",
+      "instructions": "Lee el texto y responde a las preguntas.",
+      "text": "[[I have|Tomo]] [[a big|un gran]] [[breakfast.|desayuno.]] [[I eat|Como]] [[two|dos]] [[eggs,|huevos,]] [[some|un poco de]] [[bread,|pan,]] [[and|y]] [[I drink|bebo]] [[orange|naranja]] [[juice.|zumo.]] [[I don't|No]] [[like|me gusta]] [[coffee,|el café,]] [[so|así que]] [[I drink|bebo]] [[tea.|té.]]",
+      "questions": [
+        {
+          "question": "[[What does the person drink?|¿Qué bebe la persona?]]",
+          "options": ["[[Tea and juice|Té y zumo]]", "[[Coffee and milk|Café y leche]]", "[[Water and soda|Agua y refresco]]"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "[[Does the person like coffee?|¿Le gusta el café a la persona?]]",
+          "options": ["[[No, they don't|No, no le gusta]]", "[[Yes, they do|Sí, le gusta]]", "[[They only like milk|Solo le gusta la leche]]"],
+          "correctAnswer": 0
         }
       ]
     },
@@ -357,20 +1084,25 @@ export const UNIT_24_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u24-e52",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "[[It is Sunday morning|Es domingo por la mañana]] [[and my family is|y mi familia está]] [[at home.|en casa.]] [[We are all busy.|Todos estamos ocupados.]] [[I am sitting in the garden|Estoy sentado en el jardín]] [[and I am reading|y estoy leyendo]] [[an interesting book.|un libro interesante.]] [[My father is washing|Mi padre está lavando]] [[his car in the garage.|su coche en el garaje.]] [[My mother is|Mi madre está]] [[in the kitchen;|en la cocina;]] [[she is making|ella está haciendo]] [[a delicious cake|un pastel delicioso]] [[for lunch.|para el almuerzo.]] [[My little brother, Toby,|Mi hermano pequeño, Toby,]] [[is playing with|está jugando con]] [[his dog, Rex.|su perro, Rex.]] [[They are running|Están corriendo]] [[on the grass.|sobre la hierba.]] [[Everyone is enjoying|Todos están disfrutando]] [[the sunny weather.|del tiempo soleado.]]",
+    "topic": "Food",
+    "difficulty": "medium",
+    "transcript": "At lunch, I usually have a salad with chicken and tomatoes. It is healthy. I drink a lot of water.",
     "content": {
-      "title": "[[Reading: Family Activities|Lectura: Actividades familiares]]",
-      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
+      "title": "Un Almuerzo Saludable",
+      "instructions": "Lee sobre el almuerzo.",
+      "text": "[[At|En el]] [[lunch,|almuerzo,]] [[I usually|normalmente]] [[have|tomo]] [[a salad|una ensalada]] [[with|con]] [[chicken|pollo]] [[and|y]] [[tomatoes.|tomates.]] [[It is|Es]] [[healthy.|saludable.]] [[I drink|Bebo]] [[a lot of|mucha]] [[water.|agua.]]",
       "questions": [
         {
-          "question": "[[What is the mother doing?|¿Qué está haciendo la madre?]]",
-          "options": ["[[She is making a cake|Ella está haciendo un pastel]]", "[[She is reading a book|Ella está leyendo un libro]]", "[[She is playing with the dog|Ella está jugando con el perro]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The text says she is in the kitchen making a delicious cake.|El texto dice que está en la cocina haciendo un pastel delicioso.]]"
+          "question": "[[What is in the salad?|¿Qué hay en la ensalada?]]",
+          "options": ["[[Chicken and tomatoes|Pollo y tomates]]", "[[Fish and rice|Pescado y arroz]]", "[[Meat and potatoes|Carne y patatas]]"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "[[How much water does the person drink?|¿Cuánta agua bebe la persona?]]",
+          "options": ["[[A lot|Mucha]]", "[[Not much|No mucha]]", "[[None|Nada]]"],
+          "correctAnswer": 0
         }
       ]
     },
@@ -379,20 +1111,25 @@ export const UNIT_24_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u24-e53",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "[[It is Sunday morning|Es domingo por la mañana]] [[and my family is|y mi familia está]] [[at home.|en casa.]] [[We are all busy.|Todos estamos ocupados.]] [[I am sitting in the garden|Estoy sentado en el jardín]] [[and I am reading|y estoy leyendo]] [[an interesting book.|un libro interesante.]] [[My father is washing|Mi padre está lavando]] [[his car in the garage.|su coche en el garaje.]] [[My mother is|Mi madre está]] [[in the kitchen;|en la cocina;]] [[she is making|ella está haciendo]] [[a delicious cake|un pastel delicioso]] [[for lunch.|para el almuerzo.]] [[My little brother, Toby,|Mi hermano pequeño, Toby,]] [[is playing with|está jugando con]] [[his dog, Rex.|su perro, Rex.]] [[They are running|Están corriendo]] [[on the grass.|sobre la hierba.]] [[Everyone is enjoying|Todos están disfrutando]] [[the sunny weather.|del tiempo soleado.]]",
+    "topic": "Food",
+    "difficulty": "medium",
+    "transcript": "We go to a restaurant for dinner. I want pizza with cheese and mushrooms. My friend wants pasta. We don't want any meat.",
     "content": {
-      "title": "[[Reading: Playing in the Garden|Lectura: Jugando en el jardín]]",
-      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
+      "title": "En el Restaurante",
+      "instructions": "Lee sobre la cena en el restaurante.",
+      "text": "[[We go|Vamos]] [[to a|a un]] [[restaurant|restaurante]] [[for|para la]] [[dinner.|cena.]] [[I want|Quiero]] [[pizza|pizza]] [[with|con]] [[cheese|queso]] [[and|y]] [[mushrooms.|champiñones.]] [[My|Mi]] [[friend|amigo]] [[wants|quiere]] [[pasta.|pasta.]] [[We don't|No]] [[want|queremos]] [[any|nada de]] [[meat.|carne.]]",
       "questions": [
         {
-          "question": "[[What are Toby and Rex doing?|¿Qué están haciendo Toby y Rex?]]",
-          "options": ["[[They are running on the grass|Están corriendo sobre la hierba]]", "[[They are sleeping|Están durmiendo]]", "[[They are washing the car|Están lavando el coche]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Toby is playing with Rex and they are running on the grass.|Toby está jugando con Rex y están corriendo sobre la hierba.]]"
+          "question": "[[What does the friend want?|¿Qué quiere el amigo?]]",
+          "options": ["[[Pasta|Pasta]]", "[[Pizza|Pizza]]", "[[Meat|Carne]]"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "[[Do they eat meat tonight?|¿Comen carne esta noche?]]",
+          "options": ["[[No, they don't|No, no comen]]", "[[Yes, they do|Sí, comen]]", "[[Only the friend|Solo el amigo]]"],
+          "correctAnswer": 0
         }
       ]
     },
@@ -403,154 +1140,150 @@ export const UNIT_24_EXERCISES: Exercise[] = [
     "id": "a1-u24-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Food",
     "difficulty": "hard",
-    "transcript": "[[I am at the park|Estoy en el parque]] [[with my friends.|con mis amigos.]] [[The sun is shining|El sol está brillando]] [[and many people|y mucha gente]] [[are having a good time.|se lo está pasando bien.]] [[Some children are|Algunos niños están]] [[playing hide and seek.|jugando al escondite.]] [[A group of teenagers|Un grupo de adolescentes]] [[is listening to music|está escuchando música]] [[near the lake.|cerca del lago.]] [[An old man is|Un hombre mayor está]] [[sitting on a bench|sentado en un banco]] [[and he is feeding|y está alimentando]] [[the birds.|a los pájaros.]] [[My friend, Lisa,|Mi amiga, Lisa,]] [[is taking photos|está haciendo fotos]] [[of the flowers.|de las flores.]] [[I am drinking|Yo estoy bebiendo]] [[a cold soda|un refresco frío]] [[and enjoying the view.|y disfrutando de la vista.]] [[It is a perfect day!|¡Es un día perfecto!]]",
+    "transcript": "How many bananas do we have?",
     "content": {
-      "title": "[[Reading: At the Park|Lectura: En el parque]]",
-      "instructions": "[[Read about the park and answer.|Lee sobre el parque y responde.]]",
+      "title": "Contando Fruta",
+      "instructions": "Pregunta la cantidad de plátanos.",
       "questions": [
         {
-          "question": "[[What is the old man doing?|¿Qué está haciendo el hombre mayor?]]",
-          "options": ["[[Feeding the birds|Alimentando a los pájaros]]", "[[Playing hide and seek|Jugando al escondite]]", "[[Taking photos|Haciendo fotos]]"],
+          "question": "(_____) [[bananas do we have?|plátanos tenemos?]]",
+          "options": ["[[How many|Cuántos]]", "[[How much|Cuánto]]", "[[How any|Error]]"],
           "correctAnswer": 0,
-          "explanation": "[[The old man is sitting on a bench and feeding the birds.|El hombre mayor está sentado en un banco y alimentando a los pájaros.]]"
+          "explanation": "Los plátanos son contables en plural, usamos 'How many'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-24/e54.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u24-e55",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Food",
     "difficulty": "hard",
-    "transcript": "[[I am at the park|Estoy en el parque]] [[with my friends.|con mis amigos.]] [[The sun is shining|El sol está brillando]] [[and many people|y mucha gente]] [[are having a good time.|se lo está pasando bien.]] [[Some children are|Algunos niños están]] [[playing hide and seek.|jugando al escondite.]] [[A group of teenagers|Un grupo de adolescentes]] [[is listening to music|está escuchando música]] [[near the lake.|cerca del lago.]] [[An old man is|Un hombre mayor está]] [[sitting on a bench|sentado en un banco]] [[and he is feeding|y está alimentando]] [[the birds.|a los pájaros.]] [[My friend, Lisa,|Mi amiga, Lisa,]] [[is taking photos|está haciendo fotos]] [[of the flowers.|de las flores.]] [[I am drinking|Yo estoy bebiendo]] [[a cold soda|un refresco frío]] [[and enjoying the view.|y disfrutando de la vista.]] [[It is a perfect day!|¡Es un día perfecto!]]",
+    "transcript": "How much salt is in the soup?",
     "content": {
-      "title": "[[Reading: Friends at the Park|Lectura: Amigos en el parque]]",
-      "instructions": "[[Read about the park and answer.|Lee sobre el parque y responde.]]",
+      "title": "La Sopa",
+      "instructions": "Pregunta por la sal (incontable).",
       "questions": [
         {
-          "question": "[[What is Lisa doing?|¿Qué está haciendo Lisa?]]",
-          "options": ["[[Taking photos of the flowers|Haciendo fotos de las flores]]", "[[Drinking a soda|Bebiendo un refresco]]", "[[Listening to music|Escuchando música]]"],
+          "question": "(_____) [[salt is in the soup?|sal hay en la sopa?]]",
+          "options": ["[[How much|Cuánta]]", "[[How many|Cuántas]]", "[[How some|Error]]"],
           "correctAnswer": 0,
-          "explanation": "[[Lisa is taking photos of the flowers.|Lisa está haciendo fotos de las flores.]]"
+          "explanation": "La sal es incontable, usamos 'How much'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-24/e55.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u24-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "[[I am at the park|Estoy en el parque]] [[with my friends.|con mis amigos.]] [[The sun is shining|El sol está brillando]] [[and many people|y mucha gente]] [[are having a good time.|se lo está pasando bien.]] [[Some children are|Algunos niños están]] [[playing hide and seek.|jugando al escondite.]] [[A group of teenagers|Un grupo de adolescentes]] [[is listening to music|está escuchando música]] [[near the lake.|cerca del lago.]] [[An old man is|Un hombre mayor está]] [[sitting on a bench|sentado en un banco]] [[and he is feeding|y está alimentando]] [[the birds.|a los pájaros.]] [[My friend, Lisa,|Mi amiga, Lisa,]] [[is taking photos|está haciendo fotos]] [[of the flowers.|de las flores.]] [[I am drinking|Yo estoy bebiendo]] [[a cold soda|un refresco frío]] [[and enjoying the view.|y disfrutando de la vista.]] [[It is a perfect day!|¡Es un día perfecto!]]",
+    "topic": "Drinks",
+    "difficulty": "easy",
+    "transcript": "I drink a lot of water every day.",
     "content": {
-      "title": "[[Reading: The Park Scene|Lectura: La escena del parque]]",
-      "instructions": "[[Read about the park and answer.|Lee sobre el parque y responde.]]",
+      "title": "Hábito Saludable",
+      "instructions": "Elige el cuantificador de gran cantidad.",
       "questions": [
         {
-          "question": "[[Where are the teenagers?|¿Dónde están los adolescentes?]]",
-          "options": ["[[Near the lake|Cerca del lago]]", "[[Under a tree|Debajo de un árbol]]", "[[On the grass|Sobre la hierba]]"],
+          "question": "[[I drink|Bebo]] (_____) [[water every day.|mucha agua cada día.]]",
+          "options": ["[[a lot of|mucha]]", "[[many|muchos]]", "[[an|una]]"],
           "correctAnswer": 0,
-          "explanation": "[[The teenagers are listening to music near the lake.|Los adolescentes están escuchando música cerca del lago.]]"
+          "explanation": "'A lot of' funciona con el agua (incontable)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-24/e56.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u24-e57",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "[[Right now, I am|Ahora mismo, estoy]] [[working in my office.|trabajando en mi oficina.]] [[It is a very busy day.|Es un día muy ajetreado.]] [[My colleague, Mr. Brown,|Mi colega, el Sr. Brown,]] [[is talking on the phone.|está hablando por teléfono.]] [[Two secretaries are|Dos secretarias están]] [[typing documents.|escribiendo documentos a máquina.]] [[We are preparing|Estamos preparando]] [[a presentation|una presentación]] [[for a new client.|para un nuevo cliente.]] [[The boss is not here;|El jefe no está aquí;]] [[he is traveling|él está viajando]] [[to London.|a Londres.]] [[I am waiting for|Estoy esperando]] [[an important email.|un correo importante.]] [[I hope we finish|Espero que terminemos]] [[all the work soon.|todo el trabajo pronto.]]",
+    "topic": "Food",
+    "difficulty": "hard",
+    "transcript": "Do you have any apples in the kitchen?",
     "content": {
-      "title": "[[Reading: At the Office|Lectura: En la oficina]]",
-      "instructions": "[[Read the description and answer.|Lee la descripción y responde.]]",
-      "questions": [
-        {
-          "question": "[[What is Mr. Brown doing?|¿Qué está haciendo el Sr. Brown?]]",
-          "options": ["[[Talking on the phone|Hablando por teléfono]]", "[[Typing documents|Escribiendo documentos]]", "[[Traveling to London|Viajando a Londres]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Mr. Brown is talking on the phone.|El Sr. Brown está hablando por teléfono.]]"
-        }
-      ]
+      "title": "En la Cocina",
+      "instructions": "Ordena la pregunta sobre las manzanas.",
+      "correctSentence": "[[Do you have any apples in the kitchen|¿Tienes algunas manzanas en la cocina]]?",
+      "words": ["[[kitchen|cocina]]?", "[[the|la]]", "[[in|en]]", "[[apples|manzanas]]", "[[any|algunas]]", "[[have|tienes]]", "[[you|tú]]", "[[Do|¿]]"],
+      "explanation": "Usamos 'any' para preguntar por objetos contables en plural."
     },
     "audioUrl": "audio/a1/unit-24/e57.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u24-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Food",
     "difficulty": "medium",
-    "transcript": "[[Right now, I am|Ahora mismo, estoy]] [[working in my office.|trabajando en mi oficina.]] [[It is a very busy day.|Es un día muy ajetreado.]] [[My colleague, Mr. Brown,|Mi colega, el Sr. Brown,]] [[is talking on the phone.|está hablando por teléfono.]] [[Two secretaries are|Dos secretarias están]] [[typing documents.|escribiendo documentos a máquina.]] [[We are preparing|Estamos preparando]] [[a presentation|una presentación]] [[for a new client.|para un nuevo cliente.]] [[The boss is not here;|El jefe no está aquí;]] [[he is traveling|él está viajando]] [[to London.|a Londres.]] [[I am waiting for|Estoy esperando]] [[an important email.|un correo importante.]] [[I hope we finish|Espero que terminemos]] [[all the work soon.|todo el trabajo pronto.]]",
+    "transcript": "We eat rice with vegetables.",
     "content": {
-      "title": "[[Reading: The Boss|Lectura: El jefe]]",
-      "instructions": "[[Read the description and answer.|Lee la descripción y responde.]]",
+      "title": "Acompañamiento",
+      "instructions": "Completa la frase sobre la cena.",
       "questions": [
         {
-          "question": "[[Where is the boss?|¿Dónde está el jefe?]]",
-          "options": ["[[He is traveling to London|Está viajando a Londres]]", "[[He is in the office|Está en la oficina]]", "[[He is in a meeting|Está en una reunión]]"],
+          "question": "[[We eat|Comemos]] (_____) [[with vegetables.|con verduras.]]",
+          "options": ["[[rice|arroz]]", "[[juice|zumo]]", "[[tea|té]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says the boss is traveling to London.|El texto dice que el jefe está viajando a Londres.]]"
+          "explanation": "El arroz (rice) se come con verduras."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-24/e58.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u24-e59",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "[[What are people doing|¿Qué está haciendo la gente]] [[around the world?|en todo el mundo?]] [[In Tokyo, people are|En Tokio, la gente está]] [[waking up|despertándose]] [[and drinking tea.|y bebiendo té.]] [[In New York, many people|En Nueva York, mucha gente]] [[are finishing their work|está terminando su trabajo]] [[and going home.|y yendo a casa.]] [[In Paris, friends are|En París, los amigos están]] [[having dinner|cenando]] [[at a restaurant.|en un restaurante.]] [[Right now, it is raining|Ahora mismo, está lloviendo]] [[in London,|en Londres,]] [[and people are|y la gente está]] [[carrying umbrellas.|llevando paraguas.]] [[The world is always|El mundo está siempre]] [[moving!|en movimiento!]]",
+    "topic": "Drinks",
+    "difficulty": "easy",
+    "transcript": "Is this apple juice or orange juice?",
     "content": {
-      "title": "[[Reading: Around the World|Lectura: Alrededor del mundo]]",
-      "instructions": "[[Read about the actions and answer.|Lee sobre las acciones y responde.]]",
+      "title": "Tipos de Zumo",
+      "instructions": "Identifica los tipos de zumo.",
       "questions": [
         {
-          "question": "[[What are people doing in Tokyo?|¿Qué está haciendo la gente en Tokio?]]",
-          "options": ["[[Waking up and drinking tea|Despertándose y bebiendo té]]", "[[Having dinner|Cenando]]", "[[Going home|Yendo a casa]]"],
+          "question": "[[Is this apple|¿Es este de manzana]] (_____) [[or orange juice?|o zumo de naranja?]]",
+          "options": ["[[juice|zumo]]", "[[meat|carne]]", "[[bread|pan]]"],
           "correctAnswer": 0,
-          "explanation": "[[In Tokyo, people are waking up and drinking tea.|En Tokio, la gente se está despertando y bebiendo té.]]"
+          "explanation": "'Juice' se usa para definir zumos de frutas."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-24/e59.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u24-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "[[What are people doing|¿Qué está haciendo la gente]] [[around the world?|en todo el mundo?]] [[In Tokyo, people are|En Tokio, la gente está]] [[waking up|despertándose]] [[and drinking tea.|y bebiendo té.]] [[In New York, many people|En Nueva York, mucha gente]] [[are finishing their work|está terminando su trabajo]] [[and going home.|y yendo a casa.]] [[In Paris, friends are|En París, los amigos están]] [[having dinner|cenando]] [[at a restaurant.|en un restaurante.]] [[Right now, it is raining|Ahora mismo, está lloviendo]] [[in London,|en Londres,]] [[and people are|y la gente está]] [[carrying umbrellas.|llevando paraguas.]] [[The world is always|El mundo está siempre]] [[moving!|en movimiento!]]",
+    "topic": "Food",
+    "difficulty": "medium",
+    "transcript": "I like bread with butter.",
     "content": {
-      "title": "[[Reading: Global Time|Lectura: Tiempo global]]",
-      "instructions": "[[Read about the actions and answer.|Lee sobre las acciones y responde.]]",
+      "title": "Desayuno Típico",
+      "instructions": "Completa la combinación clásica.",
       "questions": [
         {
-          "question": "[[Why are people in London carrying umbrellas?|¿Por qué la gente en Londres lleva paraguas?]]",
-          "options": ["[[Because it is raining|Porque está lloviendo]]", "[[Because it is sunny|Porque hace sol]]", "[[Because it is cold|Porque hace frío]]"],
+          "question": "[[I like bread with|Me gusta el pan con]] (_____) .",
+          "options": ["[[butter|mantequilla]]", "[[water|agua]]", "[[juice|zumo]]"],
           "correctAnswer": 0,
-          "explanation": "[[People in London are carrying umbrellas because it is raining.|La gente en Londres lleva paraguas porque está lloviendo.]]"
+          "explanation": "El pan con mantequilla es muy común."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-24/e60.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   }
 ];
+

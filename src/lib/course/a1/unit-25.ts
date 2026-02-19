@@ -2,23 +2,235 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_25_EXERCISES: Exercise[] = [
 
-  // MULTIPLE CHOICE (11-40)
+  // VOCABULARY: Common Actions (1-10)
+  {
+    "id": "a1-u25-e1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "easy",
+    "transcript": "I am eating an apple.",
+    "content": {
+      "title": "Comer",
+      "instructions": "Elige la acción de comer.",
+      "questions": [
+        {
+          "question": "[[I am|Estoy]] (_____) [[an apple.|una manzana.]]",
+          "options": ["[[eating|comiendo]]", "[[drinking|bebiendo]]", "[[sleeping|durmiendo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Eating' es comiendo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e1.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "easy",
+    "transcript": "She is drinking water.",
+    "content": {
+      "title": "Beber",
+      "instructions": "Completa la frase sobre beber.",
+      "questions": [
+        {
+          "question": "[[She is|Ella está]] (_____) [[water.|agua.]]",
+          "options": ["[[drinking|bebiendo]]", "[[eating|comiendo]]", "[[running|corriendo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Drinking' es bebiendo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e2.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e3",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "medium",
+    "transcript": "They are playing football.",
+    "content": {
+      "title": "Jugar",
+      "instructions": "Ordena la frase sobre jugar al fútbol.",
+      "correctSentence": "[[They are playing football|Ellos están jugando al fútbol]].",
+      "words": ["[[football|fútbol]].", "[[playing|jugando]]", "[[are|están]]", "[[They|Ellos]]"],
+      "explanation": "'Playing' es jugando."
+    },
+    "audioUrl": "audio/a1/unit-25/e3.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e4",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "easy",
+    "transcript": "He is sleeping now.",
+    "content": {
+      "title": "Dormir",
+      "instructions": "Elige la acción de dormir.",
+      "questions": [
+        {
+          "question": "[[He is|Él está]] (_____) [[now.|ahora.]]",
+          "options": ["[[sleeping|durmiendo]]", "[[working|trabajando]]", "[[reading|leyendo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Sleeping' es durmiendo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e4.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e5",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "medium",
+    "transcript": "We are working today.",
+    "content": {
+      "title": "Trabajar",
+      "instructions": "Elige la acción de trabajar.",
+      "questions": [
+        {
+          "question": "[[We are|Estamos]] (_____) [[today.|hoy.]]",
+          "options": ["[[working|trabajando]]", "[[playing|jugando]]", "[[swimming|nadando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Working' es trabajando."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e5.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e6",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "easy",
+    "transcript": "I am reading a book.",
+    "content": {
+      "title": "Leer",
+      "instructions": "Identifica la acción de leer.",
+      "questions": [
+        {
+          "question": "[[I am|Estoy]] (_____) [[a book.|un libro.]]",
+          "options": ["[[reading|leyendo]]", "[[writing|escribiendo]]", "[[listening|escuchando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Reading' es leyendo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e6.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e7",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "medium",
+    "transcript": "She is writing a letter.",
+    "content": {
+      "title": "Escribir",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[She is writing a letter|Ella está escribiendo una carta]].",
+      "words": ["[[letter|carta]].", "[[a|una]]", "[[writing|escribiendo]]", "[[is|está]]", "[[She|Ella]]"],
+      "explanation": "'Writing' es escribiendo."
+    },
+    "audioUrl": "audio/a1/unit-25/e7.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e8",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "medium",
+    "transcript": "Are you listening to music?",
+    "content": {
+      "title": "Escuchar",
+      "instructions": "Completa la pregunta sobre música.",
+      "questions": [
+        {
+          "question": "[[Are you|¿Estás]] (_____) [[to music?|escuchando música?]]",
+          "options": ["[[listening|escuchando]]", "[[watching|mirando]]", "[[singing|cantando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Listening' es escuchando."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e8.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e9",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "easy",
+    "transcript": "They are watching TV.",
+    "content": {
+      "title": "Ver",
+      "instructions": "Elige la acción de ver la televisión.",
+      "questions": [
+        {
+          "question": "[[They are|Ellos están]] (_____) [[TV.|la tele.]]",
+          "options": ["[[watching|viendo]]", "[[cooking|cocinando]]", "[[cleaning|limpiando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Watching' es viendo/mirando (la televisión)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e9.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e10",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "medium",
+    "transcript": "He is cooking dinner.",
+    "content": {
+      "title": "Cocinar",
+      "instructions": "Completa la acción en la cocina.",
+      "questions": [
+        {
+          "question": "[[He is|Él está]] (_____) [[dinner.|la cena.]]",
+          "options": ["[[cooking|cocinando]]", "[[washing|lavando]]", "[[buying|comprando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Cooking' es cocinando."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e10.mp3",
+    "topicName": "Vocabulary"
+  },
+
+  // GRAMMAR: Present Continuous (11-30)
   {
     "id": "a1-u25-e11",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Be going to",
-    "difficulty": "easy",
-    "transcript": "I am going to travel to London next month.",
+    "topic": "Present Continuous",
+    "difficulty": "medium",
+    "transcript": "I am working at the moment.",
     "content": {
-      "title": "Planes Futuros: Afirmativo",
-      "instructions": "Elige la forma correcta para expresar planes.",
+      "title": "Estructura: I am",
+      "instructions": "Elige la forma correcta del verbo 'be'.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[travel to London next month|viajar a Londres el mes que viene]].",
-          "options": ["[[go to|voy a]]", "[[am going to|voy a]]", "[[am go to|error]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos am/is/are + going to + verbo para planes futuros."
+          "question": "[[I|Yo]] (_____) [[working at the moment.|trabajando en este momento.]]",
+          "options": ["[[am|soy/estoy]]", "[[is|es/está]]", "[[are|eres/estás]]"],
+          "correctAnswer": 0,
+          "explanation": "Con 'I' siempre usamos 'am' en el presente continuo."
         }
       ]
     },
@@ -29,18 +241,18 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e12",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Be going to",
-    "difficulty": "easy",
-    "transcript": "She is going to buy a new car.",
+    "topic": "Present Continuous",
+    "difficulty": "medium",
+    "transcript": "She is studying for the exam.",
     "content": {
-      "title": "Planes Futuros: She",
-      "instructions": "Elige la forma correcta.",
+      "title": "Estructura: She is",
+      "instructions": "Elige la forma del verbo 'be' para ella.",
       "questions": [
         {
-          "question": "[[She|Ella]] _______ [[buy a new car|comprar un coche nuevo]].",
-          "options": ["[[is going to|va a]]", "[[are going to|van a]]", "[[goes to|va a]]"],
+          "question": "[[She|Ella]] (_____) [[studying for the exam.|estudiando para el examen.]]",
+          "options": ["[[is|es/está]]", "[[am|soy/estoy]]", "[[are|eres/estás]]"],
           "correctAnswer": 0,
-          "explanation": "Con 'she', usamos 'is going to'."
+          "explanation": "Con 'she', 'he' o 'it' usamos 'is'."
         }
       ]
     },
@@ -51,18 +263,18 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e13",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Be going to",
+    "topic": "Present Continuous",
     "difficulty": "medium",
-    "transcript": "We are going to visit our grandparents this weekend.",
+    "transcript": "We are having lunch.",
     "content": {
-      "title": "Planes Futuros: We",
-      "instructions": "Completa la oración.",
+      "title": "Estructura: We are",
+      "instructions": "Completa con el auxiliar plural.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[visit our grandparents|visitar a nuestros abuelos]].",
-          "options": ["[[is going to|va a]]", "[[are going to|vamos a]]", "[[am going to|voy a]]"],
-          "correctAnswer": 1,
-          "explanation": "Con 'we', usamos 'are going to'."
+          "question": "[[We|Nosotros]] (_____) [[having lunch.|almorzando.]]",
+          "options": ["[[are|estamos]]", "[[is|está]]", "[[am|estoy]]"],
+          "correctAnswer": 0,
+          "explanation": "Con 'we', 'you' y 'they' usamos 'are'."
         }
       ]
     },
@@ -71,22 +283,17 @@ export const UNIT_25_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u25-e14",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar: Be going to",
-    "difficulty": "medium",
-    "transcript": "What are you going to do tonight?",
+    "topic": "Present Continuous",
+    "difficulty": "hard",
+    "transcript": "You are not listening to me.",
     "content": {
-      "title": "Planes Futuros: Preguntas",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "[[What|Qué]] _______ [[you going to do tonight|vas a hacer esta noche]]?",
-          "options": ["[[is|es/está]]", "[[are|eres/estás]]", "[[do|haces]]"],
-          "correctAnswer": 1,
-          "explanation": "En preguntas con 'you', usamos 'are' delante de 'you going to'."
-        }
-      ]
+      "title": "Negación",
+      "instructions": "Ordena la frase negativa.",
+      "correctSentence": "[[You are not listening to me|No me estás escuchando]].",
+      "words": ["[[me|mí]].", "[[to|a]]", "[[listening|escuchando]]", "[[not|no]]", "[[are|estás]]", "[[You|Tú]]"],
+      "explanation": "La negación se pone después del verbo 'be'."
     },
     "audioUrl": "audio/a1/unit-25/e14.mp3",
     "topicName": "Grammar"
@@ -95,18 +302,18 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e15",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Be going to",
+    "topic": "Present Continuous",
     "difficulty": "medium",
-    "transcript": "I am not going to watch a movie tonight.",
+    "transcript": "What are you doing?",
     "content": {
-      "title": "Planes Futuros: Negativo",
-      "instructions": "Elige la forma negativa correcta.",
+      "title": "Pregunta: What",
+      "instructions": "Elige la palabra interrogativa.",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[watch a movie tonight|ver una película esta noche]].",
-          "options": ["[[not going to|no voy a]]", "[[am not going to|no voy a]]", "[[don't go to|no voy a]]"],
-          "correctAnswer": 1,
-          "explanation": "La negación se forma con am/is/are + not + going to."
+          "question": "(_____) [[are you doing?|estás haciendo?]]",
+          "options": ["[[What|Qué]]", "[[Who|Quién]]", "[[Where|Dónde]]"],
+          "correctAnswer": 0,
+          "explanation": "'What are you doing?' es '¿Qué estás haciendo?'."
         }
       ]
     },
@@ -117,42 +324,37 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e16",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Future Time",
-    "difficulty": "easy",
-    "transcript": "I'm going to see him tomorrow.",
+    "topic": "Present Continuous",
+    "difficulty": "medium",
+    "transcript": "Is it raining outside?",
     "content": {
-      "title": "Expresiones de Tiempo Futuro",
-      "instructions": "Elige la palabra correcta.",
+      "title": "Pregunta: Clima",
+      "instructions": "Completa la pregunta sobre el tiempo.",
       "questions": [
         {
-          "question": "[[I'm going to see him|Voy a verle]] _______.",
-          "options": ["[[yesterday|ayer]]", "[[tomorrow|mañana]]", "[[last week|la semana pasada]]"],
-          "correctAnswer": 1,
-          "explanation": "'Tomorrow' (mañana) es una expresión de tiempo futuro."
+          "question": "(_____) [[it raining outside?|está lloviendo fuera?]]",
+          "options": ["[[Is|¿Está]]", "[[Are|¿Están]]", "[[Am|¿Estoy]]"],
+          "correctAnswer": 0,
+          "explanation": "Para preguntas, el verbo 'be' va al principio."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-25/e16.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u25-e17",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar: Be going to",
-    "difficulty": "medium",
-    "transcript": "Are they going to play tennis?",
+    "topic": "Present Continuous",
+    "difficulty": "hard",
+    "transcript": "Where are they going?",
     "content": {
-      "title": "Preguntas de Sí/No",
-      "instructions": "Elige la opción correcta.",
-      "questions": [
-        {
-          "question": "_______ [[they going to play tennis|van ellos a jugar al tenis]]?",
-          "options": ["[[Are|Van]]", "[[Is|Va]]", "[[Do|Hacen]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'Are' para preguntas en plural con 'they'."
-        }
-      ]
+      "title": "Pregunta: Dirección",
+      "instructions": "Ordena la pregunta sobre a dónde van.",
+      "correctSentence": "[[Where are they going|¿A dónde van ellos]]?",
+      "words": ["[[going|yendo]]?", "[[they|ellos]]", "[[are|están]]", "[[Where|Dónde]]"],
+      "explanation": "Estructura: WH + be + sujeto + verbo-ing."
     },
     "audioUrl": "audio/a1/unit-25/e17.mp3",
     "topicName": "Grammar"
@@ -161,40 +363,40 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e18",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Future Expressions",
+    "topic": "Present Continuous",
     "difficulty": "medium",
-    "transcript": "We are going to move house next year.",
+    "transcript": "I am not sleeping.",
     "content": {
-      "title": "Tiempo Futuro",
-      "instructions": "Completa la oración.",
+      "title": "Negación: I am not",
+      "instructions": "Elige la forma negativa para 'I'.",
       "questions": [
         {
-          "question": "[[We are going to move house|Nos vamos a mudar de casa]] _______ [[year|año]].",
-          "options": ["[[last|pasado]]", "[[next|próximo]]", "[[now|ahora]]"],
-          "correctAnswer": 1,
-          "explanation": "'Next year' significa el año que viene/el próximo año."
+          "question": "[[I|Yo]] (_____) [[sleeping.|durmiendo.]]",
+          "options": ["[[am not|no estoy]]", "[[isn't|no está]]", "[[aren't|no están]]"],
+          "correctAnswer": 0,
+          "explanation": "La negación de 'I am' es 'I am not'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-25/e18.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u25-e19",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Be going to",
+    "topic": "Present Continuous",
     "difficulty": "medium",
-    "transcript": "He is going to study medicine.",
+    "transcript": "Is he working today?",
     "content": {
-      "title": "Planes de Carrera",
-      "instructions": "Elige la forma correcta.",
+      "title": "Pregunta: He",
+      "instructions": "Forma la pregunta para él.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[study medicine|estudiar medicina]].",
-          "options": ["[[going to|va a]]", "[[is going to|va a]]", "[[am going to|voy a]]"],
-          "correctAnswer": 1,
-          "explanation": "Con 'he', necesitamos el auxiliar 'is' antes de 'going to'."
+          "question": "(_____) [[he working today?|él trabajando hoy?]]",
+          "options": ["[[Is|¿Está]]", "[[Are|¿Está]]", "[[Do|¿Hace]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'Is' para preguntas en tercera persona singular."
         }
       ]
     },
@@ -205,40 +407,41 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e20",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Holidays",
-    "difficulty": "easy",
-    "transcript": "They are going to go on holiday soon.",
+    "topic": "Present Continuous",
+    "difficulty": "medium",
+    "transcript": "They are not playing.",
     "content": {
-      "title": "Vocabulario: Vacaciones",
-      "instructions": "Elige la palabra correcta.",
+      "title": "Negación: They aren't",
+      "instructions": "Elige la forma negativa para ellos.",
       "questions": [
         {
-          "question": "[[They are going to go on|Ellos se van a ir de]] _______ [[soon|pronto]].",
-          "options": ["[[holiday|vacaciones]]", "[[work|trabajo]]", "[[school|escuela]]"],
+          "question": "[[They|Ellos]] (_____) [[playing.|jugando.]]",
+          "options": ["[[are not|no están]]", "[[is not|no está]]", "[[am not|no estoy]]"],
           "correctAnswer": 0,
-          "explanation": "'Go on holiday' es una expresión común para irse de vacaciones."
+          "explanation": "La negación de 'They are' es 'They are not' (o 'aren't')."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-25/e20.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
+
   {
     "id": "a1-u25-e21",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Be going to",
-    "difficulty": "hard",
-    "transcript": "Who is going to cook dinner?",
+    "topic": "Present Continuous",
+    "difficulty": "medium",
+    "transcript": "Are they playing in the park?",
     "content": {
-      "title": "Preguntas con 'Who'",
-      "instructions": "Completa la pregunta.",
+      "title": "Preguntas Plurales",
+      "instructions": "Completa la pregunta con 'they'.",
       "questions": [
         {
-          "question": "[[Who|Quién]] _______ [[going to cook dinner|va a cocinar la cena]]?",
-          "options": ["[[is|es/está]]", "[[are|son/están]]", "[[am|soy/estoy]]"],
+          "question": "(_____) [[they playing in the park?|están ellos jugando en el parque?]]",
+          "options": ["[[Are|¿Están]]", "[[Is|¿Está]]", "[[Do|¿Hacen]]"],
           "correctAnswer": 0,
-          "explanation": "Usamos 'is' con 'who' cuando preguntamos por el sujeto de la acción en singular."
+          "explanation": "Usamos 'Are' para preguntas con 'they'."
         }
       ]
     },
@@ -249,42 +452,37 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e22",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Future",
+    "topic": "Present Continuous",
     "difficulty": "medium",
-    "transcript": "I am going to start a new course next Monday.",
+    "transcript": "I am not listening to the radio.",
     "content": {
-      "title": "Planes Educativos",
-      "instructions": "Completa la oración.",
+      "title": "Negación: I",
+      "instructions": "Elige la forma negativa para 'I'.",
       "questions": [
         {
-          "question": "[[I am going to|Voy a]] _______ [[a new course|un nuevo curso]].",
-          "options": ["[[start|empezar]]", "[[finish|terminar]]", "[[look|mirar]]"],
+          "question": "[[I|Yo]] (_____) [[listening to the radio.|escuchando la radio.]]",
+          "options": ["[[am not|no estoy]]", "[[don't|no]]", "[[not|no]]"],
           "correctAnswer": 0,
-          "explanation": "'Start' (empezar) es lo que haces con un curso nuevo."
+          "explanation": "La negación de 'I am' es 'I am not'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-25/e22.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u25-e23",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Grammar: Be going to",
+    "topic": "Present Continuous",
     "difficulty": "medium",
-    "transcript": "Is it going to snow today?",
+    "transcript": "Is she reading a book?",
     "content": {
-      "title": "Predicciones de Tiempo",
-      "instructions": "Elige la opción correcta.",
-      "questions": [
-        {
-          "question": "_______ [[it going to snow today|va a nevar hoy]]?",
-          "options": ["[[Are|Van]]", "[[Is|Va]]", "[[Do|Hacer]]"],
-          "correctAnswer": 1,
-          "explanation": "Usamos 'Is' con el sujeto impersonal 'it' para predicciones del clima."
-        }
-      ]
+      "title": "Pregunta: She",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Is she reading a book|¿Está ella leyendo un libro]]?",
+      "words": ["[[book|libro]]?", "[[a|un]]", "[[reading|leyendo]]", "[[she|ella]]", "[[Is|Está]]"],
+      "explanation": "Orden: Be + subject + verb-ing + complements?"
     },
     "audioUrl": "audio/a1/unit-25/e23.mp3",
     "topicName": "Grammar"
@@ -293,40 +491,40 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e24",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary: Future Time",
+    "topic": "Present Continuous",
     "difficulty": "medium",
-    "transcript": "She is going to call you later.",
+    "transcript": "We are having a party.",
     "content": {
-      "title": "Tiempo Futuro Cercano",
-      "instructions": "Elige la expresión correcta.",
+      "title": "Tener una fiesta",
+      "instructions": "Elige el auxiliar correcto para 'we'.",
       "questions": [
         {
-          "question": "[[She is going to call you|Ella te va a llamar]] _______.",
-          "options": ["[[later|luego/más tarde]]", "[[now|ahora]]", "[[yesterday|ayer]]"],
+          "question": "[[We|Nosotros]] (_____) [[having a party.|teniendo una fiesta.]]",
+          "options": ["[[are|estamos]]", "[[is|está]]", "[[am|estoy]]"],
           "correctAnswer": 0,
-          "explanation": "'Later' se usa para referirse a un momento posterior en el futuro."
+          "explanation": "Con 'we' usamos 'are'."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-25/e24.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u25-e25",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Grammar: Be going to",
-    "difficulty": "hard",
-    "transcript": "They aren't going to come to the party.",
+    "topic": "Present Continuous",
+    "difficulty": "medium",
+    "transcript": "What is he eating?",
     "content": {
-      "title": "Negación Plural",
-      "instructions": "Elige la forma negativa correcta.",
+      "title": "¿Qué come?",
+      "instructions": "Completa la pregunta con el auxiliar.",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[come to the party|venir a la fiesta]].",
-          "options": ["[[isn't going to|no va a]]", "[[aren't going to|no van a]]", "[[not going to|no van a]]"],
-          "correctAnswer": 1,
-          "explanation": "Con 'they', la forma negativa es 'aren't going to'."
+          "question": "[[What|Qué]] (_____) [[he eating?|está él comiendo?]]",
+          "options": ["[[is|está]]", "[[are|están]]", "[[am|estoy]]"],
+          "correctAnswer": 0,
+          "explanation": "Usamos 'is' para 'he/she/it'."
         }
       ]
     },
@@ -334,21 +532,550 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u25-e51",
+    "id": "a1-u25-e26",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Present Continuous",
+    "difficulty": "hard",
+    "transcript": "They are not working today.",
+    "content": {
+      "title": "Hoy no trabajan",
+      "instructions": "Ordena la frase negativa.",
+      "correctSentence": "[[They are not working today|Ellos no están trabajando hoy]].",
+      "words": ["[[today|hoy]].", "[[working|trabajando]]", "[[not|no]]", "[[are|están]]", "[[They|Ellos]]"],
+      "explanation": "Forma negativa: Subject + be + not + verb-ing."
+    },
+    "audioUrl": "audio/a1/unit-25/e26.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u25-e27",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "[[Next summer,|El próximo verano,]] [[I am going to travel|voy a viajar]] [[to Italy|a Italia]] [[with my best friend.|con mi mejor amigo.]] [[We are going to stay|Nos vamos a quedar]] [[in Rome|en Roma]] [[for one week.|durante una semana.]] [[We are going to visit|Vamos a visitar]] [[the Colosseum|el Coliseo]] [[and many|y muchos]] [[beautiful museums.|museos hermosos.]] [[I am also going to eat|También voy a comer]] [[a lot of pizza|mucha pizza]] [[and pasta.|y pasta.]] [[My friend is going to take|Mi amigo va a hacer]] [[many photos|muchas fotos]] [[of the city.|de la ciudad.]] [[We are very excited|Estamos muy emocionados]] [[about our trip!|por nuestro viaje.]] [[It is going to be|Va a ser]] [[an amazing experience.|una experiencia increíble.]]",
+    "topic": "Present Continuous",
+    "difficulty": "medium",
+    "transcript": "Is it snowing?",
     "content": {
-      "title": "[[Reading: Summer Plans|Lectura: Planes de verano]]",
-      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
+      "title": "Pregunta de Tiempo",
+      "instructions": "Elige el auxiliar para 'it'.",
       "questions": [
         {
-          "question": "[[Where is the speaker going to travel?|¿A dónde va a viajar el narrador?]]",
-          "options": ["[[To Italy|A Italia]]", "[[To London|A Londres]]", "[[To Paris|A París]]"],
+          "question": "(_____) [[it snowing?|¿está nevando?]]",
+          "options": ["[[Is|¿Está]]", "[[Are|¿Están]]", "[[Am|¿Estoy]]"],
           "correctAnswer": 0,
-          "explanation": "[[The speaker says he is going to travel to Italy next summer.|El narrador dice que va a viajar a Italia el próximo verano.]]"
+          "explanation": "Para fenómenos atmosféricos (it) usamos 'is'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e27.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u25-e28",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Present Continuous",
+    "difficulty": "medium",
+    "transcript": "I am looking for my keys.",
+    "content": {
+      "title": "Buscando las llaves",
+      "instructions": "Completa con el verbo 'be' correcto.",
+      "questions": [
+        {
+          "question": "[[I|Yo]] (_____) [[looking for my keys.|buscando mis llaves.]]",
+          "options": ["[[am|estoy]]", "[[is|está]]", "[[are|estás]]"],
+          "correctAnswer": 0,
+          "explanation": "Con 'I' siempre usamos 'am'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e28.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u25-e29",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Present Continuous",
+    "difficulty": "hard",
+    "transcript": "Who are you calling?",
+    "content": {
+      "title": "Llamada telefónica",
+      "instructions": "Ordena la pregunta.",
+      "correctSentence": "[[Who are you calling|¿A quién estás llamando]]?",
+      "words": ["[[calling|llamando]]?", "[[you|tú]]", "[[are|estás]]", "[[Who|Quién]]"],
+      "explanation": "Wh-word + be + subject + verb-ing?"
+    },
+    "audioUrl": "audio/a1/unit-25/e29.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u25-e30",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Present Continuous",
+    "difficulty": "medium",
+    "transcript": "She is not feeling well.",
+    "content": {
+      "title": "Sentirse mal",
+      "instructions": "Elige la forma negativa para 'she'.",
+      "questions": [
+        {
+          "question": "[[She|Ella]] (_____) [[feeling well.|sintiéndose bien.]]",
+          "options": ["[[is not|no está]]", "[[am not|no estoy]]", "[[are not|no están]]"],
+          "correctAnswer": 0,
+          "explanation": "La negación para 'she' es 'is not' (o 'isn't')."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e30.mp3",
+    "topicName": "Grammar"
+  },
+
+  // MIXED ACTIONS & GRAMMAR (31-40)
+  {
+    "id": "a1-u25-e31",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "easy",
+    "transcript": "The sun is shining.",
+    "content": {
+      "title": "El Sol",
+      "instructions": "Completa sobre el tiempo.",
+      "questions": [
+        {
+          "question": "[[The sun is|El sol está]] (_____) .",
+          "options": ["[[shining|brillando]]", "[[raining|lloviendo]]", "[[snowing|nevando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Shining' es brillando."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e31.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e32",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "medium",
+    "transcript": "Why are you crying?",
+    "content": {
+      "title": "Emociones",
+      "instructions": "Elige la acción de llorar.",
+      "questions": [
+        {
+          "question": "[[Why are you|¿Por qué estás]] (_____) ?",
+          "options": ["[[crying|llorando]]", "[[laughing|riendo]]", "[[smiling|sonriendo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Crying' es llorando."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e32.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e33",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "easy",
+    "transcript": "I am walking to the park.",
+    "content": {
+      "title": "Caminar",
+      "instructions": "Identifica la acción de caminar.",
+      "questions": [
+        {
+          "question": "[[I am|Estoy]] (_____) [[to the park.|al parque.]]",
+          "options": ["[[walking|caminando]]", "[[running|corriendo]]", "[[driving|conduciendo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Walking' es caminando."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e33.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e34",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "hard",
+    "transcript": "The children are running in the garden.",
+    "content": {
+      "title": "Correr",
+      "instructions": "Ordena la frase sobre los niños.",
+      "correctSentence": "[[The children are running in the garden|Los niños están corriendo en el jardín]].",
+      "words": ["[[garden|jardín]].", "[[the|el]]", "[[in|en]]", "[[running|corriendo]]", "[[are|están]]", "[[children|niños]]", "[[The|Los]]"],
+      "explanation": "'Running' es corriendo."
+    },
+    "audioUrl": "audio/a1/unit-25/e34.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e35",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "easy",
+    "transcript": "She is driving a car.",
+    "content": {
+      "title": "Conducir",
+      "instructions": "Elige la acción de conducir.",
+      "questions": [
+        {
+          "question": "[[She is|Ella está]] (_____) [[a car.|un coche.]]",
+          "options": ["[[driving|conduciendo]]", "[[riding|montando]]", "[[flying|volando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Driving' es conducir (un coche, autobús, etc.)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e35.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e36",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "medium",
+    "transcript": "He is waiting for the bus.",
+    "content": {
+      "title": "Esperar",
+      "instructions": "Completa la frase sobre esperar.",
+      "questions": [
+        {
+          "question": "[[He is|Él está]] (_____) [[for the bus.|el autobús.]]",
+          "options": ["[[waiting|esperando]]", "[[coming|viniendo]]", "[[going|yendo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Waiting' es esperar."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e36.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e37",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "medium",
+    "transcript": "Are you cleaning your room?",
+    "content": {
+      "title": "Limpiar",
+      "instructions": "Completa la pregunta sobre limpieza.",
+      "questions": [
+        {
+          "question": "[[Are you|¿Estás]] (_____) [[your room?|tu habitación?]]",
+          "options": ["[[cleaning|limpiando]]", "[[making|haciendo]]", "[[buying|comprando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Cleaning' es limpiando."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e37.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e38",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "hard",
+    "transcript": "We are sitting on the sofa.",
+    "content": {
+      "title": "Sentarse",
+      "instructions": "Ordena la frase.",
+      "correctSentence": "[[We are sitting on the sofa|Estamos sentados en el sofá]].",
+      "words": ["[[sofa|sofá]].", "[[the|el]]", "[[on|en]]", "[[sitting|sentados]]", "[[are|estamos]]", "[[We|Nosotros]]"],
+      "explanation": "'Sitting' es sentarse."
+    },
+    "audioUrl": "audio/a1/unit-25/e38.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e39",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "easy",
+    "transcript": "I am standing near the door.",
+    "content": {
+      "title": "Estar de pie",
+      "instructions": "Identifica la posición.",
+      "questions": [
+        {
+          "question": "[[I am|Estoy]] (_____) [[near the door.|cerca de la puerta.]]",
+          "options": ["[[standing|de pie]]", "[[sitting|sentado]]", "[[lying|tumbado]]"],
+          "correctAnswer": 0,
+          "explanation": "'Standing' es estar de pie."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e39.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e40",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "medium",
+    "transcript": "What are you buying?",
+    "content": {
+      "title": "Comprar",
+      "instructions": "Elige la acción de comprar.",
+      "questions": [
+        {
+          "question": "[[What are you|¿Qué estás]] (_____) ?",
+          "options": ["[[buying|comprando]]", "[[selling|vendiendo]]", "[[paying|pagando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Buying' es comprar."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e40.mp3",
+    "topicName": "Vocabulary"
+  },
+
+  // FINAL MIX & READING (41-60)
+  {
+    "id": "a1-u25-e41",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "medium",
+    "transcript": "They are laughing at a joke.",
+    "content": {
+      "title": "Reír",
+      "instructions": "Elige la acción de reír.",
+      "questions": [
+        {
+          "question": "[[They are|Ellos están]] (_____) [[at a joke.|de un chiste.]]",
+          "options": ["[[laughing|riendo]]", "[[crying|llorando]]", "[[shouting|gritando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Laughing' es riendo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e41.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e42",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "easy",
+    "transcript": "Is she smiling?",
+    "content": {
+      "title": "Sonreír",
+      "instructions": "Completa la pregunta sobre sonreír.",
+      "questions": [
+        {
+          "question": "[[Is she|¿Está ella]] (_____) ?",
+          "options": ["[[smiling|sonriendo]]", "[[shouting|gritando]]", "[[talking|hablando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Smiling' es sonriendo."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e42.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e43",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Present Continuous",
+    "difficulty": "hard",
+    "transcript": "I am not feeling well today.",
+    "content": {
+      "title": "Sentimientos",
+      "instructions": "Ordena la frase sobre cómo te sientes.",
+      "correctSentence": "[[I am not feeling well today|No me encuentro bien hoy]].",
+      "words": ["[[today|hoy]].", "[[well|bien]]", "[[feeling|encontrando/sintiendo]]", "[[not|no]]", "[[am|estoy]]", "[[I|Yo]]"],
+      "explanation": "'Feeling' se usa para expresar estados o sentimientos."
+    },
+    "audioUrl": "audio/a1/unit-25/e43.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u25-e44",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "medium",
+    "transcript": "Are they talking on the phone?",
+    "content": {
+      "title": "Hablar",
+      "instructions": "Completa la pregunta sobre hablar por teléfono.",
+      "questions": [
+        {
+          "question": "[[Are they|¿Están ellos]] (_____) [[on the phone?|por teléfono?]]",
+          "options": ["[[talking|hablando]]", "[[singing|cantando]]", "[[playing|jugando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Talking' es hablando."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e44.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e45",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "easy",
+    "transcript": "I am singing a song.",
+    "content": {
+      "title": "Cantar",
+      "instructions": "Identifica la acción de cantar.",
+      "questions": [
+        {
+          "question": "[[I am|Estoy]] (_____) [[a song.|una canción.]]",
+          "options": ["[[singing|cantando]]", "[[dancing|bailando]]", "[[listening|escuchando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Singing' es cantando."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e46",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "medium",
+    "transcript": "She is dancing in the room.",
+    "content": {
+      "title": "Bailar",
+      "instructions": "Completa la acción de bailar.",
+      "questions": [
+        {
+          "question": "[[She is|Ella está]] (_____) [[in the room.|en la habitación.]]",
+          "options": ["[[dancing|bailando]]", "[[running|corriendo]]", "[[jumping|saltando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Dancing' es bailando."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e46.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e47",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Present Continuous",
+    "difficulty": "hard",
+    "transcript": "Look! The plane is flying very high.",
+    "content": {
+      "title": "Volar",
+      "instructions": "Ordena la frase sobre el avión.",
+      "correctSentence": "[[The plane is flying very high|El avión está volando muy alto]].",
+      "words": ["[[high|alto]].", "[[very|muy]]", "[[flying|volando]]", "[[is|está]]", "[[plane|avión]]", "[[The|El]]"],
+      "explanation": "'Flying' es volando."
+    },
+    "audioUrl": "audio/a1/unit-25/e47.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u25-e48",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "medium",
+    "transcript": "Is he jumping on the bed?",
+    "content": {
+      "title": "Saltar",
+      "instructions": "Completa la pregunta sobre saltar.",
+      "questions": [
+        {
+          "question": "[[Is he|¿Está él]] (_____) [[on the bed?|en la cama?]]",
+          "options": ["[[jumping|saltando]]", "[[sleeping|durmiendo]]", "[[sitting|sentado]]"],
+          "correctAnswer": 0,
+          "explanation": "'Jumping' es saltando."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e48.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e49",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "easy",
+    "transcript": "They are swimming in the pool.",
+    "content": {
+      "title": "Nadar",
+      "instructions": "Identifica la acción de nadar.",
+      "questions": [
+        {
+          "question": "[[They are|Ellos están]] (_____) [[in the pool.|en la piscina.]]",
+          "options": ["[[swimming|nadando]]", "[[running|corriendo]]", "[[walking|caminando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Swimming' es nadando."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e50",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Actions",
+    "difficulty": "medium",
+    "transcript": "What are you looking at?",
+    "content": {
+      "title": "Mirar",
+      "instructions": "Elige la acción de mirar algo.",
+      "questions": [
+        {
+          "question": "[[What are you|¿Qué estás]] (_____) [[at?|mirando?]]",
+          "options": ["[[looking|mirando]]", "[[listening|escuchando]]", "[[waiting|esperando]]"],
+          "correctAnswer": 0,
+          "explanation": "'Looking at' es mirar algo fijamente."
+        }
+      ]
+    },
+    "audioUrl": "audio/a1/unit-25/e50.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u25-e51",
+    "type": "reading",
+    "level": "A1",
+    "topic": "Present Continuous",
+    "difficulty": "medium",
+    "transcript": "It is Sunday afternoon. My family is at home. My father is cooking in the kitchen. My mother is reading a book on the sofa. My brother is playing with his toys. I am writing in my diary.",
+    "content": {
+      "title": "Un Domingo en Casa",
+      "instructions": "Lee sobre lo que hace la familia.",
+      "text": "[[It is|Es]] [[Sunday|domingo]] [[afternoon.|por la tarde.]] [[My|Mi]] [[family|familia]] [[is at|está en]] [[home.|casa.]] [[My|Mi]] [[father|padre]] [[is cooking|está cocinando]] [[in|en]] [[the|la]] [[kitchen.|cocina.]] [[My|Mi]] [[mother|madre]] [[is reading|está leyendo]] [[a book|un libro]] [[on|en]] [[the|el]] [[sofa.|sofá.]] [[My|Mi]] [[brother|hermano]] [[is playing|está jugando]] [[with|con]] [[his|sus]] [[toys.|juguetes.]] [[I am|Yo estoy]] [[writing|escribiendo]] [[in|en]] [[my|mi]] [[diary.|diario.]]",
+      "questions": [
+        {
+          "question": "[[What is the father doing?|¿Qué está haciendo el padre?]]",
+          "options": ["[[Cooking|Cocinando]]", "[[Reading|Leyendo]]", "[[Playing|Jugando]]"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "[[Where is the mother?|¿Dónde está la madre?]]",
+          "options": ["[[On the sofa|En el sofá]]", "[[In the kitchen|En la cocina]]", "[[In the garden|En el jardín]]"],
+          "correctAnswer": 0
         }
       ]
     },
@@ -357,20 +1084,25 @@ export const UNIT_25_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u25-e52",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "[[Next summer,|El próximo verano,]] [[I am going to travel|voy a viajar]] [[to Italy|a Italia]] [[with my best friend.|con mi mejor amigo.]] [[We are going to stay|Nos vamos a quedar]] [[in Rome|en Roma]] [[for one week.|durante una semana.]] [[We are going to visit|Vamos a visitar]] [[the Colosseum|el Coliseo]] [[and many|y muchos]] [[beautiful museums.|museos hermosos.]] [[I am also going to eat|También voy a comer]] [[a lot of pizza|mucha pizza]] [[and pasta.|y pasta.]] [[My friend is going to take|Mi amigo va a hacer]] [[many photos|muchas fotos]] [[of the city.|de la ciudad.]] [[We are very excited|Estamos muy emocionados]] [[about our trip!|por nuestro viaje.]] [[It is going to be|Va a ser]] [[an amazing experience.|una experiencia increíble.]]",
+    "topic": "Present Continuous",
+    "difficulty": "medium",
+    "transcript": "We are at the park now. Many people are here. Some children are running. A girl is eating an ice cream. Two boys are playing football. I am sitting under a tree.",
     "content": {
-      "title": "[[Reading: Activities in Rome|Lectura: Actividades en Roma]]",
-      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
+      "title": "En el Parque",
+      "instructions": "Lee sobre el parque.",
+      "text": "[[We are|Estamos]] [[at|en]] [[the|el]] [[park|parque]] [[now.|ahora.]] [[Many|Muchas]] [[people|personas]] [[are here.|están aquí.]] [[Some|Algunos]] [[children|niños]] [[are running.|están corriendo.]] [[A girl|Una niña]] [[is eating|está comiendo]] [[an ice cream.|un helado.]] [[Two|Dos]] [[boys|chicos]] [[are playing|están jugando]] [[football.|al fútbol.]] [[I am|Yo estoy]] [[sitting|sentado]] [[under|debajo de]] [[a tree.|un árbol.]]",
       "questions": [
         {
-          "question": "[[What is the friend going to do?|¿Qué va a hacer el amigo?]]",
-          "options": ["[[Take many photos|Hacer muchas fotos]]", "[[Cook pasta|Cocinar pasta]]", "[[Visit the Colosseum alone|Visitar el Coliseo solo]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The text states that the friend is going to take many photos of the city.|El texto indica que el amigo va a hacer muchas fotos de la ciudad.]]"
+          "question": "[[What is the girl eating?|¿Qué está comiendo la niña?]]",
+          "options": ["[[An ice cream|Un helado]]", "[[An apple|Una manzana]]", "[[A sandwich|Un sándwich]]"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "[[Where is the speaker sitting?|¿Dónde está sentado el narrador?]]",
+          "options": ["[[Under a tree|Debajo de un árbol]]", "[[On a bench|En un banco]]", "[[On the grass|En la hierba]]"],
+          "correctAnswer": 0
         }
       ]
     },
@@ -379,20 +1111,25 @@ export const UNIT_25_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u25-e53",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "[[Next summer,|El próximo verano,]] [[I am going to travel|voy a viajar]] [[to Italy|a Italia]] [[with my best friend.|con mi mejor amigo.]] [[We are going to stay|Nos vamos a quedar]] [[in Rome|en Roma]] [[for one week.|durante una semana.]] [[We are going to visit|Vamos a visitar]] [[the Colosseum|el Coliseo]] [[and many|y muchos]] [[beautiful museums.|museos hermosos.]] [[I am also going to eat|También voy a comer]] [[a lot of pizza|mucha pizza]] [[and pasta.|y pasta.]] [[My friend is going to take|Mi amigo va a hacer]] [[many photos|muchas fotos]] [[of the city.|de la ciudad.]] [[We are very excited|Estamos muy emocionados]] [[about our trip!|por nuestro viaje.]] [[It is going to be|Va a ser]] [[an amazing experience.|una experiencia increíble.]]",
+    "topic": "Present Continuous",
+    "difficulty": "medium",
+    "transcript": "Listen! Someone is singing. It is my sister. She is in her bedroom. She is practicing for a concert. My dog is listening to her.",
     "content": {
-      "title": "[[Reading: Italian Food|Lectura: Comida italiana]]",
-      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
+      "title": "¿Quién Canta?",
+      "instructions": "Lee sobre la hermana.",
+      "text": "[[Listen!|¡Escucha!]] [[Someone|Alguien]] [[is singing.|está cantando.]] [[It is|Es]] [[my|mi]] [[sister.|hermana.]] [[She is|Ella está]] [[in|en]] [[her|su]] [[bedroom.|habitación.]] [[She is|Ella está]] [[practicing|practicando]] [[for|para]] [[a|un]] [[concert.|concierto.]] [[My|Mi]] [[dog|perro]] [[is listening|está escuchando]] [[to her.|a ella.]]",
       "questions": [
         {
-          "question": "[[What is the speaker going to eat?|¿Qué va a comer el narrador?]]",
-          "options": ["[[Pizza and pasta|Pizza y pasta]]", "[[Hamburgers and fries|Hamburguesas y patatas fritas]]", "[[Fish and chips|Pescado con patatas]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The speaker is going to eat a lot of pizza and pasta in Italy.|El narrador va a comer mucha pizza y pasta en Italia.]]"
+          "question": "[[Where is the sister?|¿Dónde está la hermana?]]",
+          "options": ["[[In her bedroom|En su habitación]]", "[[In the garden|En el jardín]]", "[[At school|En la escuela]]"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "[[Who is listening to the sister?|¿Quién está escuchando a la hermana?]]",
+          "options": ["[[The dog|El perro]]", "[[The brother|El hermano]]", "[[The father|El padre]]"],
+          "correctAnswer": 0
         }
       ]
     },
@@ -403,154 +1140,150 @@ export const UNIT_25_EXERCISES: Exercise[] = [
     "id": "a1-u25-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Present Continuous",
     "difficulty": "hard",
-    "transcript": "[[I have many plans|Tengo muchos planes]] [[for the next weekend.|para el próximo fin de semana.]] [[On Saturday morning,|El sábado por la mañana,]] [[I am going to clean|voy a limpiar]] [[my apartment.|mi apartamento.]] [[In the afternoon,|Por la tarde,]] [[I am going to meet|voy a quedar con]] [[my sister.|mi hermana.]] [[We are going to have|Vamos a tomar]] [[a coffee|un café]] [[and talk.|y hablar.]] [[On Sunday,|El domingo,]] [[I am not going to work.|no voy a trabajar.]] [[I am going to go|Voy a ir]] [[to the park|al parque]] [[and I am going to relax.|y me voy a relajar.]] [[In the evening,|Por la noche,]] [[I am going to cook|voy a cocinar]] [[a special dinner|una cena especial]] [[for my parents.|para mis padres.]] [[It is going to be|Va a ser]] [[a very busy|un fin de semana]] [[weekend.|muy ajetreado.]]",
+    "transcript": "Why are they not working?",
     "content": {
-      "title": "[[Reading: Weekend Plans|Lectura: Planes de fin de semana]]",
-      "instructions": "[[Read the plans and answer.|Lee los planes y responde.]]",
+      "title": "Pregunta Negativa",
+      "instructions": "Pregunta por qué no están trabajando.",
       "questions": [
         {
-          "question": "[[What is the speaker going to do on Saturday morning?|¿Qué va a hacer el narrador el sábado por la mañana?]]",
-          "options": ["[[Clean the apartment|Limpiar el apartamento]]", "[[Meet his sister|Quedar con su hermana]]", "[[Cook a special dinner|Cocinar una cena especial]]"],
+          "question": "[[Why|Por qué]] (_____) [[not working?|no están trabajando?]]",
+          "options": ["[[are they|están ellos]]", "[[is they|error]]", "[[do they|error]]"],
           "correctAnswer": 0,
-          "explanation": "[[On Saturday morning, the speaker is going to clean his apartment.|El sábado por la mañana, el narrador va a limpiar su apartamento.]]"
+          "explanation": "Estructura: WH + be + sujeto + not + verbo-ing."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-25/e54.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u25-e55",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Present Continuous",
     "difficulty": "hard",
-    "transcript": "[[I have many plans|Tengo muchos planes]] [[for the next weekend.|para el próximo fin de semana.]] [[On Saturday morning,|El sábado por la mañana,]] [[I am going to clean|voy a limpiar]] [[my apartment.|mi apartamento.]] [[In the afternoon,|Por la tarde,]] [[I am going to meet|voy a quedar con]] [[my sister.|mi hermana.]] [[We are going to have|Vamos a tomar]] [[a coffee|un café]] [[and talk.|y hablar.]] [[On Sunday,|El domingo,]] [[I am not going to work.|no voy a trabajar.]] [[I am going to go|Voy a ir]] [[to the park|al parque]] [[and I am going to relax.|y me voy a relajar.]] [[In the evening,|Por la noche,]] [[I am going to cook|voy a cocinar]] [[a special dinner|una cena especial]] [[for my parents.|para mis padres.]] [[It is going to be|Va a ser]] [[a very busy|un fin de semana]] [[weekend.|muy ajetreado.]]",
+    "transcript": "Is she coming to the party tonight?",
     "content": {
-      "title": "[[Reading: Sunday Activities|Lectura: Actividades del domingo]]",
-      "instructions": "[[Read the plans and answer.|Lee los planes y responde.]]",
+      "title": "Planes Próximos",
+      "instructions": "Completa sobre planes inmediatos.",
       "questions": [
         {
-          "question": "[[What is the speaker going to do on Sunday?|¿Qué va a hacer el narrador el domingo?]]",
-          "options": ["[[Go to the park and relax|Ir al parque y relajarse]]", "[[Work all day|Trabajar todo el día]]", "[[Clean the apartment|Limpiar el apartamento]]"],
+          "question": "(_____) [[she coming to the party tonight?|ella viniendo a la fiesta esta noche?]]",
+          "options": ["[[Is|¿Está]]", "[[Are|¿Están]]", "[[Does|¿Hace]]"],
           "correctAnswer": 0,
-          "explanation": "[[On Sunday, the speaker is going to the park to relax.|El domingo, el narrador va a ir al parque para relajarse.]]"
+          "explanation": "Usamos el presente continuo para acciones que están ocurriendo ahora o planes muy cercanos."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-25/e55.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u25-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "[[I have many plans|Tengo muchos planes]] [[for the next weekend.|para el próximo fin de semana.]] [[On Saturday morning,|El sábado por la mañana,]] [[I am going to clean|voy a limpiar]] [[my apartment.|mi apartamento.]] [[In the afternoon,|Por la tarde,]] [[I am going to meet|voy a quedar con]] [[my sister.|mi hermana.]] [[We are going to have|Vamos a tomar]] [[a coffee|un café]] [[and talk.|y hablar.]] [[On Sunday,|El domingo,]] [[I am not going to work.|no voy a trabajar.]] [[I am going to go|Voy a ir]] [[to the park|al parque]] [[and I am going to relax.|y me voy a relajar.]] [[In the evening,|Por la noche,]] [[I am going to cook|voy a cocinar]] [[a special dinner|una cena especial]] [[for my parents.|para mis padres.]] [[It is going to be|Va a ser]] [[a very busy|un fin de semana]] [[weekend.|muy ajetreado.]]",
+    "topic": "Present Continuous",
+    "difficulty": "easy",
+    "transcript": "I am having a shower now.",
     "content": {
-      "title": "[[Reading: Evening Plans|Lectura: Planes de noche]]",
-      "instructions": "[[Read the plans and answer.|Lee los planes y responde.]]",
+      "title": "Rutina Ahora",
+      "instructions": "Completa sobre ducharse.",
       "questions": [
         {
-          "question": "[[Who is the special dinner for?|¿Para quién es la cena especial?]]",
-          "options": ["[[For the parents|Para los padres]]", "[[For the sister|Para la hermana]]", "[[For friends|Para los amigos]]"],
+          "question": "[[I am|Estoy]] (_____) [[a shower now.|una ducha ahora.]]",
+          "options": ["[[having|tomando]]", "[[doing|haciendo]]", "[[making|haciendo]]"],
           "correctAnswer": 0,
-          "explanation": "[[The speaker is going to cook a special dinner for his parents on Sunday evening.|El narrador va a cocinar una cena especial para sus padres el domingo por la noche.]]"
+          "explanation": "Usamos 'have a shower' para ducharse."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-25/e56.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u25-e57",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "[[My brother, David,|Mi hermano, David,]] [[is going to start|va a empezar]] [[university|la universidad]] [[next October.|el próximo octubre.]] [[He is going to study|Él va a estudiar]] [[engineering.|ingeniería.]] [[He is going to live|Él va a vivir]] [[in a student house|en una residencia de estudiantes]] [[with other students.|con otros estudiantes.]] [[He is very happy|Está muy feliz]] [[because he is going to meet|porque va a conocer]] [[new people.|a gente nueva.]] [[I am going to miss him,|Voy a echarle de menos,]] [[but I am also|pero también estoy]] [[very proud of him.|muy orgulloso de él.]] [[We are going to have|Vamos a tener]] [[a big party|una gran fiesta]] [[before he leaves.|antes de que se vaya.]]",
+    "topic": "Present Continuous",
+    "difficulty": "hard",
+    "transcript": "Are you feeling better now?",
     "content": {
-      "title": "[[Reading: Starting University|Lectura: Empezando la universidad]]",
-      "instructions": "[[Read about David and answer.|Lee sobre David y responde.]]",
-      "questions": [
-        {
-          "question": "[[What is David going to study?|¿Qué va a estudiar David?]]",
-          "options": ["[[Engineering|Ingeniería]]", "[[Medicine|Medicina]]", "[[History|Historia]]"],
-          "correctAnswer": 0,
-          "explanation": "[[David is going to study engineering at university.|David va a estudiar ingeniería en la universidad.]]"
-        }
-      ]
+      "title": "Salud",
+      "instructions": "Ordena la pregunta sobre la salud.",
+      "correctSentence": "[[Are you feeling better now|¿Te encuentras mejor ahora]]?",
+      "words": ["[[now|ahora]]?", "[[better|mejor]]", "[[feeling|encontrando]]", "[[you|te]]", "[[Are|¿]]"],
+      "explanation": "Usamos el presente continuo para preguntar por estados actuales."
     },
     "audioUrl": "audio/a1/unit-25/e57.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u25-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Actions",
     "difficulty": "medium",
-    "transcript": "[[My brother, David,|Mi hermano, David,]] [[is going to start|va a empezar]] [[university|la universidad]] [[next October.|el próximo octubre.]] [[He is going to study|Él va a estudiar]] [[engineering.|ingeniería.]] [[He is going to live|Él va a vivir]] [[in a student house|en una residencia de estudiantes]] [[with other students.|con otros estudiantes.]] [[He is very happy|Está muy feliz]] [[because he is going to meet|porque va a conocer]] [[new people.|a gente nueva.]] [[I am going to miss him,|Voy a echarle de menos,]] [[but I am also|pero también estoy]] [[very proud of him.|muy orgulloso de él.]] [[We are going to have|Vamos a tener]] [[a big party|una gran fiesta]] [[before he leaves.|antes de que se vaya.]]",
+    "transcript": "We are helping our mother.",
     "content": {
-      "title": "[[Reading: New Life|Lectura: Vida nueva]]",
-      "instructions": "[[Read about David and answer.|Lee sobre David y responde.]]",
+      "title": "Ayudar",
+      "instructions": "Completa sobre ayudar.",
       "questions": [
         {
-          "question": "[[Who is David going to live with?|¿Con quién va a vivir David?]]",
-          "options": ["[[Other students|Otros estudiantes]]", "[[His parents|Sus padres]]", "[[His brother|Su hermano]]"],
+          "question": "[[We are|Estamos]] (_____) [[our mother.|a nuestra madre.]]",
+          "options": ["[[helping|ayudando]]", "[[watching|viendo]]", "[[playing|jugando]]"],
           "correctAnswer": 0,
-          "explanation": "[[David is going to live in a student house with other students.|David va a vivir en una residencia de estudiantes con otros estudiantes.]]"
+          "explanation": "'Helping' es ayudando."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-25/e58.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u25-e59",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "[[The weather forecast says|El pronóstico del tiempo dice]] [[it is going to be|que va a hacer]] [[a very cold winter.|un invierno muy frío.]] [[It is going to snow|Va a nevar]] [[in the mountains,|en las montañas,]] [[so many people|así que mucha gente]] [[are going to go skiing.|va a ir a esquiar.]] [[I am going to buy|Voy a comprar]] [[a new warm coat|un abrigo nuevo y cálido]] [[and some gloves.|y unos guantes.]] [[We are also|También vamos]] [[going to spend|a pasar]] [[more time|más tiempo]] [[at home|en casa]] [[near the fireplace.|cerca de la chimenea.]] [[My mother is going to make|Mi madre va a hacer]] [[hot chocolate|chocolate caliente]] [[every evening.|cada tarde.]] [[Winter is coming!|¡Se acerca el invierno!]]",
+    "topic": "Actions",
+    "difficulty": "easy",
+    "transcript": "Is he wearing a blue shirt?",
     "content": {
-      "title": "[[Reading: Winter Forecast|Lectura: Pronóstico de invierno]]",
-      "instructions": "[[Read about winter plans and answer.|Lee sobre los planes de invierno y responde.]]",
+      "title": "Ropa",
+      "instructions": "Completa sobre llevar ropa.",
       "questions": [
         {
-          "question": "[[What is the speaker going to buy?|¿Qué va a comprar el narrador?]]",
-          "options": ["[[A new warm coat and gloves|Un abrigo nuevo y cálido y guantes]]", "[[A new car|Un coche nuevo]]", "[[A pair of skis|Un par de esquís]]"],
+          "question": "[[Is he|¿Lleva él puesto]] (_____) [[a blue shirt?|una camisa azul?]]",
+          "options": ["[[wearing|llevando (puesto)]]", "[[carrying|llevando (en la mano)]]", "[[using|usando]]"],
           "correctAnswer": 0,
-          "explanation": "[[The speaker is going to buy a new warm coat and some gloves for the cold winter.|El narrador va a comprar un abrigo nuevo y cálido y unos guantes para el frío invierno.]]"
+          "explanation": "'Wearing' se usa para la ropa que llevamos puesta."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-25/e59.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u25-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "hard",
-    "transcript": "[[The weather forecast says|El pronóstico del tiempo dice]] [[it is going to be|que va a hacer]] [[a very cold winter.|un invierno muy frío.]] [[It is going to snow|Va a nevar]] [[in the mountains,|en las montañas,]] [[so many people|así que mucha gente]] [[are going to go skiing.|va a ir a esquiar.]] [[I am going to buy|Voy a comprar]] [[a new warm coat|un abrigo nuevo y cálido]] [[and some gloves.|y unos guantes.]] [[We are also|También vamos]] [[going to spend|a pasar]] [[more time|más tiempo]] [[at home|en casa]] [[near the fireplace.|cerca de la chimenea.]] [[My mother is going to make|Mi madre va a hacer]] [[hot chocolate|chocolate caliente]] [[every evening.|cada tarde.]] [[Winter is coming!|¡Se acerca el invierno!]]",
+    "topic": "Actions",
+    "difficulty": "medium",
+    "transcript": "The birds are singing in the garden.",
     "content": {
-      "title": "[[Reading: Cozy Winter|Lectura: Invierno acogedor]]",
-      "instructions": "[[Read about winter plans and answer.|Lee sobre los planes de invierno y responde.]]",
+      "title": "Pájaros",
+      "instructions": "Completa la acción de los animales.",
       "questions": [
         {
-          "question": "[[What is the mother going to make every evening?|¿Qué va a hacer la madre cada tarde?]]",
-          "options": ["[[Hot chocolate|Chocolate caliente]]", "[[Tea|Té]]", "[[Coffee|Café]]"],
+          "question": "[[The birds are|Los pájaros están]] (_____) [[in the garden.|en el jardín.]]",
+          "options": ["[[singing|cantando]]", "[[swimming|nadando]]", "[[reading|leyendo]]"],
           "correctAnswer": 0,
-          "explanation": "[[The text says the mother is going to make hot chocolate every evening.|El texto dice que la madre va a hacer chocolate caliente cada tarde.]]"
+          "explanation": "Los pájaros cantan (sing)."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-25/e60.mp3",
-    "topicName": "Reading"
+    "topicName": "Vocabulary"
   }
 ];
+
