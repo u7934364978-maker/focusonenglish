@@ -611,13 +611,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[Mary's house|La casa de Mary]] [[is|es]] [[beautiful|hermosa]].",
     "content": {
       "title": "Saxon Genitive: Basic",
-      "instructions": "Identifica el Saxon Genitive.",
+      "instructions": "Selecciona la forma correcta del Saxon Genitive para 'el libro de John'.",
       "questions": [
         {
-          "question": "[[John's book|El libro de John]] [[is|es]] [[on the table|en la mesa]].",
-          "options": ["Correcto", "Incorrecto"],
+          "question": "¿Cuál es la forma correcta del Saxon Genitive?",
+          "options": ["[[John's book|El libro de John]]", "[[Book's John|El libro John's]]", "[[John book's|El John libro's]]"],
           "correctAnswer": 0,
-          "explanation": "Saxon Genitive: nombre + 's + sustantivo = posesión."
+          "explanation": "Saxon Genitive: nombre + 's + sustantivo = posesión. 'John's book' es correcto."
         }
       ]
     },
@@ -650,13 +650,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[Michael's car|El coche de Michael]] [[is|es]] [[red|rojo]].",
     "content": {
       "title": "Saxon Genitive: Michael's Car",
-      "instructions": "Completa con Saxon Genitive.",
+      "instructions": "Selecciona la forma correcta del Saxon Genitive para 'el padre de David'.",
       "questions": [
         {
-          "question": "[[David's father|El padre de David]] [[works|trabaja]] [[at a hospital|en un hospital]].",
-          "options": ["Correcto", "Incorrecto"],
+          "question": "¿Cuál es la forma correcta?",
+          "options": ["[[David's father|El padre de David]]", "[[Father's David|El padre David's]]", "[[David father's|El David padre's]]"],
           "correctAnswer": 0,
-          "explanation": "Saxon Genitive: David's = del David."
+          "explanation": "'David's father' es la forma correcta del Saxon Genitive."
         }
       ]
     },
@@ -689,13 +689,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[Anna's grandfather|El abuelo de Anna]] [[lives|vive]] [[in Italy|en Italia]].",
     "content": {
       "title": "Saxon Genitive: Anna's Grandfather",
-      "instructions": "Completa el Saxon Genitive.",
+      "instructions": "Selecciona la forma correcta del Saxon Genitive para 'el tío de Tom'.",
       "questions": [
         {
-          "question": "[[Tom's uncle|El tío de Tom]] [[is|es]] [[a pilot|un piloto]].",
-          "options": ["Correcto", "Incorrecto"],
+          "question": "¿Cuál es la forma correcta?",
+          "options": ["[[Tom's uncle|El tío de Tom]]", "[[Uncle's Tom|El tío Tom's]]", "[[Tom uncle's|El Tom tío's]]"],
           "correctAnswer": 0,
-          "explanation": "Tom's uncle = El tío de Tom."
+          "explanation": "'Tom's uncle' es la forma correcta del Saxon Genitive."
         }
       ]
     },
@@ -728,13 +728,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[Robert's house|La casa de Robert]] [[has|tiene]] [[a big garden|un jardín grande]].",
     "content": {
       "title": "Saxon Genitive: Robert's House",
-      "instructions": "Identifica Saxon Genitive.",
+      "instructions": "Selecciona la forma correcta del Saxon Genitive para 'la habitación de Peter'.",
       "questions": [
         {
-          "question": "[[Peter's room|La habitación de Peter]] [[is|es]] [[very tidy|muy ordenada]].",
-          "options": ["Correcto", "Incorrecto"],
+          "question": "¿Cuál es la forma correcta?",
+          "options": ["[[Peter's room|La habitación de Peter]]", "[[Room's Peter|La habitación Peter's]]", "[[Peter room's|El Peter habitación's]]"],
           "correctAnswer": 0,
-          "explanation": "Peter's room = La habitación de Peter."
+          "explanation": "'Peter's room' es la forma correcta del Saxon Genitive."
         }
       ]
     },
@@ -767,13 +767,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[Oliver's children|Los hijos de Oliver]] [[study|estudian]] [[at university|en la universidad]].",
     "content": {
       "title": "Saxon Genitive: Oliver's Children",
-      "instructions": "Completa Saxon Genitive.",
+      "instructions": "Selecciona la forma correcta del Saxon Genitive para 'la prima de Victoria'.",
       "questions": [
         {
-          "question": "[[Victoria's cousin|La prima de Victoria]] [[lives|vive]] [[in France|en Francia]].",
-          "options": ["Correcto", "Incorrecto"],
+          "question": "¿Cuál es la forma correcta?",
+          "options": ["[[Victoria's cousin|La prima de Victoria]]", "[[Cousin's Victoria|La prima Victoria's]]", "[[Victoria cousin's|La Victoria prima's]]"],
           "correctAnswer": 0,
-          "explanation": "Victoria's cousin = La prima de Victoria."
+          "explanation": "'Victoria's cousin' es la forma correcta del Saxon Genitive."
         }
       ]
     },
@@ -806,13 +806,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[George's wife|La esposa de George]] [[is|es]] [[a lawyer|abogada]].",
     "content": {
       "title": "Saxon Genitive: George's Wife",
-      "instructions": "Completa Saxon Genitive.",
+      "instructions": "Selecciona la forma correcta del Saxon Genitive para 'el novio de Monica'.",
       "questions": [
         {
-          "question": "[[Monica's boyfriend|El novio de Monica]] [[is|es]] [[very kind|muy amable]].",
-          "options": ["Correcto", "Incorrecto"],
+          "question": "¿Cuál es la forma correcta?",
+          "options": ["[[Monica's boyfriend|El novio de Monica]]", "[[Boyfriend's Monica|El novio Monica's]]", "[[Monica boyfriend's|El Monica novio's]]"],
           "correctAnswer": 0,
-          "explanation": "Monica's boyfriend = El novio de Monica."
+          "explanation": "'Monica's boyfriend' es la forma correcta del Saxon Genitive."
         }
       ]
     },
@@ -845,13 +845,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[Catherine's students|Los estudiantes de Catherine]] [[are|son]] [[excellent|excelentes]].",
     "content": {
       "title": "Saxon Genitive: Catherine's Students",
-      "instructions": "Identifica Saxon Genitive correcto.",
+      "instructions": "Selecciona la forma correcta del Saxon Genitive para 'el sobrino de Samuel'.",
       "questions": [
         {
-          "question": "[[Samuel's nephew|El sobrino de Samuel]] [[is|es]] [[a musician|un músico]].",
-          "options": ["Correcto", "Incorrecto"],
+          "question": "¿Cuál es la forma correcta?",
+          "options": ["[[Samuel's nephew|El sobrino de Samuel]]", "[[Nephew's Samuel|El sobrino Samuel's]]", "[[Samuel nephew's|El Samuel sobrino's]]"],
           "correctAnswer": 0,
-          "explanation": "Samuel's nephew = El sobrino de Samuel."
+          "explanation": "'Samuel's nephew' es la forma correcta del Saxon Genitive."
         }
       ]
     },
@@ -884,13 +884,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[William's sons|Los hijos de William]] [[are|son]] [[very athletic|muy atléticos]].",
     "content": {
       "title": "Saxon Genitive Review",
-      "instructions": "Completa con Saxon Genitive.",
+      "instructions": "Selecciona la forma correcta del Saxon Genitive para 'la tía de Diana'.",
       "questions": [
         {
-          "question": "[[Diana's aunt|La tía de Diana]] [[is|es]] [[a fashion designer|diseñadora de moda]].",
-          "options": ["Correcto", "Incorrecto"],
+          "question": "¿Cuál es la forma correcta?",
+          "options": ["[[Diana's aunt|La tía de Diana]]", "[[Aunt's Diana|La tía Diana's]]", "[[Diana aunt's|La Diana tía's]]"],
           "correctAnswer": 0,
-          "explanation": "Diana's aunt = La tía de Diana."
+          "explanation": "'Diana's aunt' es la forma correcta del Saxon Genitive."
         }
       ]
     },
