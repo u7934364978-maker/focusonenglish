@@ -2,7 +2,7 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_1_EXERCISES: Exercise[] = [
   // ==========================================
-  // SECTION 1: SUBJECT PRONOUNS (Exercises 1-10)
+  // LESSON 1: SUBJECT PRONOUNS (Exercises 1-15)
   // ==========================================
   {
     "id": "a2-u1-e1",
@@ -187,7 +187,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A2",
     "topic": "Subject Pronouns",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "transcript": "[[We are neighbors|Nosotros somos vecinos]].",
     "content": {
       "title": "Subject Pronouns: Review",
@@ -204,16 +204,12 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "audioUrl": "audio/a2/unit-1/e10.mp3",
     "topicName": "Grammar"
   },
-
-  // ==========================================
-  // SECTION 2: BE VERB - AFFIRMATIVE (Exercises 11-25)
-  // ==========================================
   {
     "id": "a2-u1-e11",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
-    "difficulty": "easy",
+    "topic": "Subject Pronouns",
+    "difficulty": "medium",
     "transcript": "[[I am an engineer|Yo soy ingeniero]].",
     "content": {
       "title": "Be Verb: I am",
@@ -235,7 +231,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "type": "sentence-building",
     "level": "A2",
     "topic": "Be Verb Present Simple",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "transcript": "[[You are Italian|Tú eres italiano]].",
     "content": {
       "title": "Be Verb: You are",
@@ -252,7 +248,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A2",
     "topic": "Be Verb Present Simple",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "transcript": "[[He is a doctor|Él es un doctor]].",
     "content": {
       "title": "Be Verb: He/She/It is",
@@ -274,7 +270,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "type": "sentence-building",
     "level": "A2",
     "topic": "Be Verb Present Simple",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "transcript": "[[She is a lawyer|Ella es abogada]].",
     "content": {
       "title": "Be Verb: She is",
@@ -291,7 +287,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A2",
     "topic": "Be Verb Present Simple",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "transcript": "[[It is a book|Es un libro]].",
     "content": {
       "title": "Be Verb: It is",
@@ -308,12 +304,16 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "audioUrl": "audio/a2/unit-1/e15.mp3",
     "topicName": "Grammar"
   },
+
+  // ==========================================
+  // LESSON 2: BE VERB AFFIRMATIVE (Exercises 16-30)
+  // ==========================================
   {
     "id": "a2-u1-e16",
     "type": "sentence-building",
     "level": "A2",
     "topic": "Be Verb Present Simple",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "transcript": "[[We are friends|Nosotros somos amigos]].",
     "content": {
       "title": "Be Verb: We are",
@@ -503,15 +503,110 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "audioUrl": "audio/a2/unit-1/e25.mp3",
     "topicName": "Grammar"
   },
-
-  // ==========================================
-  // SECTION 3: BE VERB - NEGATIVE (Exercises 26-40)
-  // ==========================================
   {
     "id": "a2-u1-e26",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Be Verb Present Simple",
+    "difficulty": "medium",
+    "transcript": "[[They are from Argentina|Ellos son de Argentina]].",
+    "content": {
+      "title": "Be Verb: Origin (Multiple)",
+      "instructions": "Ordena para indicar origen de un grupo.",
+      "correctSentence": "[[They are from Argentina|Ellos son de Argentina]].",
+      "words": ["[[Argentina|Argentina]].", "[[from|de]]", "[[are|son]]", "[[They|Ellos]]"],
+      "explanation": "They + are + from + país."
+    },
+    "audioUrl": "audio/a2/unit-1/e26.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u1-e27",
     "type": "multiple-choice",
     "level": "A2",
     "topic": "Be Verb Present Simple",
+    "difficulty": "medium",
+    "transcript": "[[He is a musician|Él es músico]].",
+    "content": {
+      "title": "Be Verb: Profession (Male)",
+      "instructions": "Completa con 'is' para profesión masculina.",
+      "questions": [
+        {
+          "question": "[[He|Él]] _______ [[a lawyer|un abogado]].",
+          "options": ["[[am|soy]]", "[[is|es]]", "[[are|son]]"],
+          "correctAnswer": 1,
+          "explanation": "Con 'he' usamos 'is'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-1/e27.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u1-e28",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Be Verb Present Simple",
+    "difficulty": "hard",
+    "transcript": "[[She is a student at university|Ella es estudiante en la universidad]].",
+    "content": {
+      "title": "Be Verb: Education",
+      "instructions": "Ordena para hablar sobre educación.",
+      "correctSentence": "[[She is a student at university|Ella es estudiante en la universidad]].",
+      "words": ["[[university|universidad]].", "[[at|en]]", "[[student|estudiante]]", "[[a|una]]", "[[is|es]]", "[[She|Ella]]"],
+      "explanation": "She + is + a + student + at + lugar."
+    },
+    "audioUrl": "audio/a2/unit-1/e28.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u1-e29",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Be Verb Present Simple",
+    "difficulty": "hard",
+    "transcript": "[[We are Brazilian and Spanish|Nosotros somos brasileños y españoles]].",
+    "content": {
+      "title": "Be Verb: Nationality",
+      "instructions": "Completa con 'are' para nacionalidades.",
+      "questions": [
+        {
+          "question": "[[We|Nosotros]] _______ [[French|franceses]].",
+          "options": ["[[am|soy]]", "[[is|es]]", "[[are|somos]]"],
+          "correctAnswer": 2,
+          "explanation": "Con 'we' usamos 'are' para nacionalidades."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-1/e29.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u1-e30",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Be Verb Present Simple",
+    "difficulty": "hard",
+    "transcript": "[[It is an important document|Eso es un documento importante]].",
+    "content": {
+      "title": "Be Verb: Objects with Adjectives",
+      "instructions": "Ordena la oración con objeto y adjetivo.",
+      "correctSentence": "[[It is an important document|Eso es un documento importante]].",
+      "words": ["[[document|documento]].", "[[important|importante]]", "[[an|un]]", "[[is|es]]", "[[It|Eso]]"],
+      "explanation": "It + is + an/a + adjetivo + objeto."
+    },
+    "audioUrl": "audio/a2/unit-1/e30.mp3",
+    "topicName": "Grammar"
+  },
+
+  // ==========================================
+  // LESSON 3: BE VERB NEGATIVE (Exercises 31-45)
+  // ==========================================
+  {
+    "id": "a2-u1-e31",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Be Verb Negative",
     "difficulty": "medium",
     "transcript": "[[I am not a doctor|Yo no soy un doctor]].",
     "content": {
@@ -526,14 +621,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "audioUrl": "audio/a2/unit-1/e26.mp3",
+    "audioUrl": "audio/a2/unit-1/e31.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a2-u1-e27",
+    "id": "a2-u1-e32",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Negative",
     "difficulty": "medium",
     "transcript": "[[You are not ready|Tú no estás listo]].",
     "content": {
@@ -543,14 +638,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "words": ["[[ready|listo]].", "[[not|no]]", "[[are|eres]]", "[[You|Tú]]"],
       "explanation": "Negación: You + are + not."
     },
-    "audioUrl": "audio/a2/unit-1/e27.mp3",
+    "audioUrl": "audio/a2/unit-1/e32.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a2-u1-e28",
+    "id": "a2-u1-e33",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Negative",
     "difficulty": "medium",
     "transcript": "[[He is not tall|Él no es alto]].",
     "content": {
@@ -565,14 +660,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "audioUrl": "audio/a2/unit-1/e28.mp3",
+    "audioUrl": "audio/a2/unit-1/e33.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a2-u1-e29",
+    "id": "a2-u1-e34",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Negative",
     "difficulty": "medium",
     "transcript": "[[It is not raining|No está lloviendo]].",
     "content": {
@@ -582,14 +677,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "words": ["[[raining|lloviendo]].", "[[not|no]]", "[[is|está]]", "[[It|Eso]]"],
       "explanation": "It + is + not para negar con cosas."
     },
-    "audioUrl": "audio/a2/unit-1/e29.mp3",
+    "audioUrl": "audio/a2/unit-1/e34.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a2-u1-e30",
+    "id": "a2-u1-e35",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Negative",
     "difficulty": "medium",
     "transcript": "[[We are not tired|Nosotros no estamos cansados]].",
     "content": {
@@ -604,14 +699,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "audioUrl": "audio/a2/unit-1/e30.mp3",
+    "audioUrl": "audio/a2/unit-1/e35.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a2-u1-e31",
+    "id": "a2-u1-e36",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Negative",
     "difficulty": "medium",
     "transcript": "[[You are not late|Ustedes no llegaron tarde]].",
     "content": {
@@ -621,14 +716,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "words": ["[[late|tarde]].", "[[not|no]]", "[[are|sois]]", "[[You|Ustedes]]"],
       "explanation": "Estructura negativa: You + are + not."
     },
-    "audioUrl": "audio/a2/unit-1/e31.mp3",
+    "audioUrl": "audio/a2/unit-1/e36.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a2-u1-e32",
+    "id": "a2-u1-e37",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Negative",
     "difficulty": "medium",
     "transcript": "[[They are not students|Ellos no son estudiantes]].",
     "content": {
@@ -643,14 +738,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "audioUrl": "audio/a2/unit-1/e32.mp3",
+    "audioUrl": "audio/a2/unit-1/e37.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a2-u1-e33",
+    "id": "a2-u1-e38",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Negative",
     "difficulty": "medium",
     "transcript": "[[She is not a chef|Ella no es una chef]].",
     "content": {
@@ -660,14 +755,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "words": ["[[chef|chef]].", "[[a|una]]", "[[not|no]]", "[[is|es]]", "[[She|Ella]]"],
       "explanation": "She + is + not + a + profesión."
     },
-    "audioUrl": "audio/a2/unit-1/e33.mp3",
+    "audioUrl": "audio/a2/unit-1/e38.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a2-u1-e34",
+    "id": "a2-u1-e39",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Negative",
     "difficulty": "hard",
     "transcript": "[[I am not from Europe|Yo no soy de Europa]].",
     "content": {
@@ -682,14 +777,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "audioUrl": "audio/a2/unit-1/e34.mp3",
+    "audioUrl": "audio/a2/unit-1/e39.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a2-u1-e35",
+    "id": "a2-u1-e40",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Negative",
     "difficulty": "hard",
     "transcript": "[[We are not 30 years old|Nosotros no tenemos 30 años]].",
     "content": {
@@ -699,14 +794,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "words": ["[[old|años]].", "[[years|años]]", "[[thirty|treinta]]", "[[not|no]]", "[[are|somos]]", "[[We|Nosotros]]"],
       "explanation": "We + are + not + edad."
     },
-    "audioUrl": "audio/a2/unit-1/e35.mp3",
+    "audioUrl": "audio/a2/unit-1/e40.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a2-u1-e36",
+    "id": "a2-u1-e41",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Negative",
     "difficulty": "hard",
     "transcript": "[[You are not sad|Tú no estás triste]].",
     "content": {
@@ -721,14 +816,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "audioUrl": "audio/a2/unit-1/e36.mp3",
+    "audioUrl": "audio/a2/unit-1/e41.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a2-u1-e37",
+    "id": "a2-u1-e42",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Negative",
     "difficulty": "hard",
     "transcript": "[[They are not married|Ellos no están casados]].",
     "content": {
@@ -738,14 +833,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "words": ["[[married|casados]].", "[[not|no]]", "[[are|están]]", "[[They|Ellos]]"],
       "explanation": "They + are + not + adjetivo."
     },
-    "audioUrl": "audio/a2/unit-1/e37.mp3",
+    "audioUrl": "audio/a2/unit-1/e42.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a2-u1-e38",
+    "id": "a2-u1-e43",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Negative",
     "difficulty": "hard",
     "transcript": "[[He is not interested in sports|Él no está interesado en los deportes]].",
     "content": {
@@ -760,14 +855,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "audioUrl": "audio/a2/unit-1/e38.mp3",
+    "audioUrl": "audio/a2/unit-1/e43.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a2-u1-e39",
+    "id": "a2-u1-e44",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Negative",
     "difficulty": "hard",
     "transcript": "[[It is not sunny today|No hace sol hoy]].",
     "content": {
@@ -777,14 +872,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "words": ["[[today|hoy]].", "[[not|no]]", "[[sunny|soleado]]", "[[is|hace]]", "[[It|Eso]]"],
       "explanation": "It + is + not + clima."
     },
-    "audioUrl": "audio/a2/unit-1/e39.mp3",
+    "audioUrl": "audio/a2/unit-1/e44.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a2-u1-e40",
+    "id": "a2-u1-e45",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Negative",
     "difficulty": "hard",
     "transcript": "[[She is not the manager|Ella no es la gerente]].",
     "content": {
@@ -799,18 +894,18 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "audioUrl": "audio/a2/unit-1/e40.mp3",
+    "audioUrl": "audio/a2/unit-1/e45.mp3",
     "topicName": "Grammar"
   },
 
   // ==========================================
-  // SECTION 4: BE VERB - QUESTIONS (Exercises 41-60)
+  // LESSON 4: BE VERB QUESTIONS & READING (Exercises 46-60)
   // ==========================================
   {
-    "id": "a2-u1-e41",
+    "id": "a2-u1-e46",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Questions",
     "difficulty": "hard",
     "transcript": "[[Are you a teacher|¿Eres profesor?]]?",
     "content": {
@@ -825,14 +920,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "audioUrl": "audio/a2/unit-1/e41.mp3",
+    "audioUrl": "audio/a2/unit-1/e46.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a2-u1-e42",
+    "id": "a2-u1-e47",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Questions",
     "difficulty": "hard",
     "transcript": "[[Is he from Japan|¿Es él de Japón?]]?",
     "content": {
@@ -842,153 +937,36 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "words": ["[[Japan|Japón]]?", "[[from|de]]", "[[he|él]]", "[[Is|¿Es]]"],
       "explanation": "Pregunta: Is + he + ...?"
     },
-    "audioUrl": "audio/a2/unit-1/e42.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a2-u1-e43",
-    "type": "multiple-choice",
-    "level": "A2",
-    "topic": "Be Verb Present Simple",
-    "difficulty": "hard",
-    "transcript": "[[Is she happy|¿Es ella feliz?]]?",
-    "content": {
-      "title": "Questions: Is she?",
-      "instructions": "Forma la pregunta con 'Is she?'",
-      "questions": [
-        {
-          "question": "_______ [[she|ella]] [[a nurse|una enfermera]]?",
-          "options": ["[[Am|¿Soy]]", "[[Is|¿Es]]", "[[Are|¿Son]]"],
-          "correctAnswer": 1,
-          "explanation": "Pregunta: Is + she + ...?"
-        }
-      ]
-    },
-    "audioUrl": "audio/a2/unit-1/e43.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a2-u1-e44",
-    "type": "sentence-building",
-    "level": "A2",
-    "topic": "Be Verb Present Simple",
-    "difficulty": "hard",
-    "transcript": "[[Am I late|¿Llego tarde?]]?",
-    "content": {
-      "title": "Questions: Am I?",
-      "instructions": "Ordena la pregunta con 'Am I?'",
-      "correctSentence": "[[Am I late|¿Llego tarde?]]?",
-      "words": ["[[late|tarde]]?", "[[I|yo]]", "[[Am|¿Soy]]"],
-      "explanation": "Pregunta: Am + I + ...?"
-    },
-    "audioUrl": "audio/a2/unit-1/e44.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a2-u1-e45",
-    "type": "multiple-choice",
-    "level": "A2",
-    "topic": "Be Verb Present Simple",
-    "difficulty": "hard",
-    "transcript": "[[Are we ready|¿Estamos listos?]]?",
-    "content": {
-      "title": "Questions: Are we?",
-      "instructions": "Forma la pregunta con 'Are we?'",
-      "questions": [
-        {
-          "question": "_______ [[we|nosotros]] [[colleagues|colegas]]?",
-          "options": ["[[Is|¿Es]]", "[[Are|¿Somos]]", "[[Am|¿Soy]]"],
-          "correctAnswer": 1,
-          "explanation": "Pregunta: Are + we + ...?"
-        }
-      ]
-    },
-    "audioUrl": "audio/a2/unit-1/e45.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a2-u1-e46",
-    "type": "sentence-building",
-    "level": "A2",
-    "topic": "Be Verb Present Simple",
-    "difficulty": "hard",
-    "transcript": "[[Are they at home|¿Están ellos en casa?]]?",
-    "content": {
-      "title": "Questions: Are they?",
-      "instructions": "Ordena la pregunta con 'Are they?'",
-      "correctSentence": "[[Are they at home|¿Están ellos en casa?]]?",
-      "words": ["[[home|casa]]?", "[[at|en]]", "[[they|ellos]]", "[[Are|¿Están]]"],
-      "explanation": "Pregunta: Are + they + ...?"
-    },
-    "audioUrl": "audio/a2/unit-1/e46.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a2-u1-e47",
-    "type": "multiple-choice",
-    "level": "A2",
-    "topic": "Be Verb Present Simple",
-    "difficulty": "hard",
-    "transcript": "[[Is it cold outside|¿Hace frío afuera?]]?",
-    "content": {
-      "title": "Questions: Is it? (Weather)",
-      "instructions": "Forma la pregunta sobre el clima.",
-      "questions": [
-        {
-          "question": "_______ [[it|eso]] [[sunny|soleado]]?",
-          "options": ["[[Are|¿Son]]", "[[Am|¿Soy]]", "[[Is|¿Está]]"],
-          "correctAnswer": 2,
-          "explanation": "Pregunta: Is + it + clima?"
-        }
-      ]
-    },
     "audioUrl": "audio/a2/unit-1/e47.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a2-u1-e48",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Questions",
     "difficulty": "hard",
     "transcript": "[[Where are you from|¿De dónde eres?]]?",
     "content": {
       "title": "Questions: Where are you from?",
-      "instructions": "Ordena la pregunta sobre origen.",
-      "correctSentence": "[[Where are you from|¿De dónde eres?]]?",
-      "words": ["[[from|de]]?", "[[you|tú]]", "[[are|eres]]", "[[Where|¿Dónde]]"],
-      "explanation": "Pregunta de información: Where + are + you + from?"
+      "instructions": "Forma la pregunta sobre origen.",
+      "questions": [
+        {
+          "question": "_______ [[are|eres]] [[you|tú]] [[from|de]]?",
+          "options": ["[[What|¿Qué]]", "[[Where|¿Dónde]]", "[[Who|¿Quién]]"],
+          "correctAnswer": 1,
+          "explanation": "Pregunta: Where + are + you + from?"
+        }
+      ]
     },
     "audioUrl": "audio/a2/unit-1/e48.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a2-u1-e49",
-    "type": "multiple-choice",
-    "level": "A2",
-    "topic": "Be Verb Present Simple",
-    "difficulty": "hard",
-    "transcript": "[[Who is she|¿Quién es ella?]]?",
-    "content": {
-      "title": "Questions: Who is she?",
-      "instructions": "Forma la pregunta con 'Who is?'",
-      "questions": [
-        {
-          "question": "_______ [[is|es]] [[he|él]]?",
-          "options": ["[[What|¿Qué]]", "[[Who|¿Quién]]", "[[Where|¿Dónde]]"],
-          "correctAnswer": 1,
-          "explanation": "Pregunta: Who + is + pronombre?"
-        }
-      ]
-    },
-    "audioUrl": "audio/a2/unit-1/e49.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a2-u1-e50",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Questions",
     "difficulty": "hard",
     "transcript": "[[What is your name|¿Cuál es tu nombre?]]?",
     "content": {
@@ -998,170 +976,14 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       "words": ["[[name|nombre]]?", "[[your|tu]]", "[[is|es]]", "[[What|¿Qué]]"],
       "explanation": "Pregunta común: What + is + your + name?"
     },
-    "audioUrl": "audio/a2/unit-1/e50.mp3",
+    "audioUrl": "audio/a2/unit-1/e49.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a2-u1-e51",
+    "id": "a2-u1-e50",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
-    "difficulty": "hard",
-    "transcript": "[[How old are you|¿Cuántos años tienes?]]?",
-    "content": {
-      "title": "Questions: How old are you?",
-      "instructions": "Forma la pregunta sobre edad.",
-      "questions": [
-        {
-          "question": "_______ [[old|viejo]] [[is|es]] [[he|él]]?",
-          "options": ["[[How|¿Qué tan]]", "[[What|¿Cuál]]", "[[Where|¿Dónde]]"],
-          "correctAnswer": 0,
-          "explanation": "Pregunta: How + old + are/is?"
-        }
-      ]
-    },
-    "audioUrl": "audio/a2/unit-1/e51.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a2-u1-e52",
-    "type": "sentence-building",
-    "level": "A2",
-    "topic": "Be Verb Present Simple",
-    "difficulty": "hard",
-    "transcript": "[[What job are you|¿Qué trabajo tienes?]]?",
-    "content": {
-      "title": "Questions: What job?",
-      "instructions": "Ordena la pregunta sobre profesión.",
-      "correctSentence": "[[What job are you|¿Qué trabajo tienes?]]?",
-      "words": ["[[you|tú]]?", "[[are|tienes]]", "[[job|trabajo]]", "[[What|¿Qué]]"],
-      "explanation": "Pregunta: What + job + are + you?"
-    },
-    "audioUrl": "audio/a2/unit-1/e52.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a2-u1-e53",
-    "type": "multiple-choice",
-    "level": "A2",
-    "topic": "Be Verb Present Simple",
-    "difficulty": "hard",
-    "transcript": "[[Are you happy about this|¿Estás feliz con esto?]]?",
-    "content": {
-      "title": "Questions: Affirmative + Negative",
-      "instructions": "Elige la pregunta correcta sobre emociones.",
-      "questions": [
-        {
-          "question": "_______ [[you|tú]] [[satisfied|satisfecho]]?",
-          "options": ["[[Is|¿Es]]", "[[Am|¿Soy]]", "[[Are|¿Estás]]"],
-          "correctAnswer": 2,
-          "explanation": "Are + you + adjetivo?"
-        }
-      ]
-    },
-    "audioUrl": "audio/a2/unit-1/e53.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a2-u1-e54",
-    "type": "sentence-building",
-    "level": "A2",
-    "topic": "Be Verb Present Simple",
-    "difficulty": "hard",
-    "transcript": "[[Are you married or single|¿Estás casado o soltero?]]?",
-    "content": {
-      "title": "Questions: Marital Status",
-      "instructions": "Ordena la pregunta sobre estado civil.",
-      "correctSentence": "[[Are you married or single|¿Estás casado o soltero?]]?",
-      "words": ["[[single|soltero]]?", "[[or|o]]", "[[married|casado]]", "[[you|tú]]", "[[Are|¿Estás]]"],
-      "explanation": "Pregunta: Are + you + opción + or + opción?"
-    },
-    "audioUrl": "audio/a2/unit-1/e54.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a2-u1-e55",
-    "type": "multiple-choice",
-    "level": "A2",
-    "topic": "Be Verb Present Simple",
-    "difficulty": "hard",
-    "transcript": "[[Is everyone ready|¿Todos están listos?]]?",
-    "content": {
-      "title": "Questions: Everyone",
-      "instructions": "Forma la pregunta con 'everyone'.",
-      "questions": [
-        {
-          "question": "_______ [[everyone|todos]] [[here|aquí]]?",
-          "options": ["[[Are|¿Están]]", "[[Is|¿Está]]", "[[Am|¿Estoy]]"],
-          "correctAnswer": 1,
-          "explanation": "Is + everyone (singular)?"
-        }
-      ]
-    },
-    "audioUrl": "audio/a2/unit-1/e55.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a2-u1-e56",
-    "type": "sentence-building",
-    "level": "A2",
-    "topic": "Be Verb Present Simple",
-    "difficulty": "hard",
-    "transcript": "[[Are there problems|¿Hay problemas?]]?",
-    "content": {
-      "title": "Questions: Are there?",
-      "instructions": "Ordena la pregunta con 'Are there?'",
-      "correctSentence": "[[Are there problems|¿Hay problemas?]]?",
-      "words": ["[[problems|problemas]]?", "[[there|hay]]", "[[Are|¿Hay]]"],
-      "explanation": "Pregunta: Are + there + noun?"
-    },
-    "audioUrl": "audio/a2/unit-1/e56.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a2-u1-e57",
-    "type": "multiple-choice",
-    "level": "A2",
-    "topic": "Be Verb Present Simple",
-    "difficulty": "hard",
-    "transcript": "[[Is there a supermarket nearby|¿Hay un supermercado cerca?]]?",
-    "content": {
-      "title": "Questions: Is there?",
-      "instructions": "Forma la pregunta con 'Is there?'",
-      "questions": [
-        {
-          "question": "_______ [[there|hay]] [[a hospital|un hospital]] [[near here|cerca de aquí]]?",
-          "options": ["[[Are|¿Hay]]", "[[Is|¿Hay]]", "[[Am|¿Hay]]"],
-          "correctAnswer": 1,
-          "explanation": "Is + there + singular noun?"
-        }
-      ]
-    },
-    "audioUrl": "audio/a2/unit-1/e57.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a2-u1-e58",
-    "type": "sentence-building",
-    "level": "A2",
-    "topic": "Be Verb Present Simple",
-    "difficulty": "hard",
-    "transcript": "[[Why are you late|¿Por qué llegas tarde?]]?",
-    "content": {
-      "title": "Questions: Why are you?",
-      "instructions": "Ordena la pregunta con 'Why?'",
-      "correctSentence": "[[Why are you late|¿Por qué llegas tarde?]]?",
-      "words": ["[[late|tarde]]?", "[[you|tú]]", "[[are|eres]]", "[[Why|¿Por qué]]"],
-      "explanation": "Pregunta: Why + are + you + adjetivo?"
-    },
-    "audioUrl": "audio/a2/unit-1/e58.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a2-u1-e59",
-    "type": "multiple-choice",
-    "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Questions",
     "difficulty": "hard",
     "transcript": "[[How are you today|¿Cómo estás hoy?]]?",
     "content": {
@@ -1176,24 +998,207 @@ export const UNIT_1_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "audioUrl": "audio/a2/unit-1/e59.mp3",
+    "audioUrl": "audio/a2/unit-1/e50.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a2-u1-e60",
+    "id": "a2-u1-e51",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Be Verb Present Simple",
+    "topic": "Be Verb Questions",
     "difficulty": "hard",
-    "transcript": "[[What color is your car|¿De qué color es tu coche?]]?",
+    "transcript": "[[How old are you|¿Cuántos años tienes?]]?",
     "content": {
-      "title": "Questions: Final Review",
-      "instructions": "Ordena la pregunta final sobre color.",
-      "correctSentence": "[[What color is your car|¿De qué color es tu coche?]]?",
-      "words": ["[[car|coche]]?", "[[your|tu]]", "[[is|es]]", "[[color|color]]", "[[What|¿Qué]]"],
-      "explanation": "Pregunta compleja: What + color + is + your + noun?"
+      "title": "Questions: How old are you?",
+      "instructions": "Ordena la pregunta sobre edad.",
+      "correctSentence": "[[How old are you|¿Cuántos años tienes?]]?",
+      "words": ["[[you|tú]]?", "[[are|eres]]", "[[old|viejo]]", "[[How|¿Qué tan]]"],
+      "explanation": "Pregunta: How + old + are + you?"
     },
-    "audioUrl": "audio/a2/unit-1/e60.mp3",
+    "audioUrl": "audio/a2/unit-1/e51.mp3",
     "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u1-e52",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Be Verb Questions",
+    "difficulty": "hard",
+    "transcript": "[[Who is she|¿Quién es ella?]]?",
+    "content": {
+      "title": "Questions: Who is she?",
+      "instructions": "Forma la pregunta con 'Who is?'",
+      "questions": [
+        {
+          "question": "_______ [[is|es]] [[he|él]]?",
+          "options": ["[[What|¿Qué]]", "[[Who|¿Quién]]", "[[Where|¿Dónde]]"],
+          "correctAnswer": 1,
+          "explanation": "Pregunta: Who + is + pronombre?"
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-1/e52.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u1-e53",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Be Verb Questions",
+    "difficulty": "hard",
+    "transcript": "[[Are there problems|¿Hay problemas?]]?",
+    "content": {
+      "title": "Questions: Are there?",
+      "instructions": "Ordena la pregunta con 'Are there?'",
+      "correctSentence": "[[Are there problems|¿Hay problemas?]]?",
+      "words": ["[[problems|problemas]]?", "[[there|hay]]", "[[Are|¿Hay]]"],
+      "explanation": "Pregunta: Are + there + noun (plural)?"
+    },
+    "audioUrl": "audio/a2/unit-1/e53.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u1-e54",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Be Verb Questions",
+    "difficulty": "hard",
+    "transcript": "[[Is there a supermarket nearby|¿Hay un supermercado cerca?]]?",
+    "content": {
+      "title": "Questions: Is there?",
+      "instructions": "Forma la pregunta con 'Is there?'",
+      "questions": [
+        {
+          "question": "_______ [[there|hay]] [[a hospital|un hospital]] [[near here|cerca de aquí]]?",
+          "options": ["[[Are|¿Hay]]", "[[Is|¿Hay]]", "[[Am|¿Hay]]"],
+          "correctAnswer": 1,
+          "explanation": "Is + there + singular noun?"
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-1/e54.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u1-e55",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Be Verb Questions",
+    "difficulty": "hard",
+    "transcript": "[[Why are you late|¿Por qué llegas tarde?]]?",
+    "content": {
+      "title": "Questions: Why are you?",
+      "instructions": "Ordena la pregunta con 'Why?'",
+      "correctSentence": "[[Why are you late|¿Por qué llegas tarde?]]?",
+      "words": ["[[late|tarde]]?", "[[you|tú]]", "[[are|eres]]", "[[Why|¿Por qué]]"],
+      "explanation": "Pregunta: Why + are + you + adjetivo?"
+    },
+    "audioUrl": "audio/a2/unit-1/e55.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u1-e56",
+    "type": "reading",
+    "level": "A2",
+    "topic": "Reading",
+    "difficulty": "hard",
+    "transcript": "[[Hello, my name is Maria|Hola, mi nombre es María]]. [[I am 28 years old|Tengo 28 años]]. [[I am from Spain|Soy de España]]. [[I am an engineer|Soy ingeniera]]. [[My best friend is Tom|Mi mejor amigo es Tom]]. [[He is from the United States|Él es de los Estados Unidos]]. [[He is 30 years old|Tiene 30 años]]. [[We are colleagues at work|Somos colegas en el trabajo]]. [[We are not married|No estamos casados]]. [[We are very happy together|Somos muy felices juntos]].",
+    "content": {
+      "title": "Reading: About Maria and Tom",
+      "instructions": "Lee el texto sobre Maria y Tom.",
+      "questions": [
+        {
+          "question": "[[Read and understand the text about Maria and Tom|Lee y entiende el texto sobre Maria y Tom]].",
+          "options": ["[[I have read the text|He leído el texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click to continue|Haz clic para continuar]]."
+        }
+      ]
+    },
+    "topicName": "Reading"
+  },
+  {
+    "id": "a2-u1-e57",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What is Maria's profession|¿Cuál es la profesión de Maria?]]?",
+    "content": {
+      "title": "Comprehension: Maria's Job",
+      "instructions": "Responde basándote en el texto.",
+      "questions": [
+        {
+          "question": "[[What is Maria's profession|¿Cuál es la profesión de Maria?]]?",
+          "options": ["[[She is a doctor|Ella es doctora]]", "[[She is an engineer|Ella es ingeniera]]", "[[She is a teacher|Ella es maestra]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice: 'I am an engineer' (Soy ingeniera)."
+        }
+      ]
+    },
+    "topicName": "Reading"
+  },
+  {
+    "id": "a2-u1-e58",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Where is Tom from|¿De dónde es Tom?]]?",
+    "content": {
+      "title": "Comprehension: Tom's Origin",
+      "instructions": "Responde basándote en el texto.",
+      "questions": [
+        {
+          "question": "[[Where is Tom from|¿De dónde es Tom?]]?",
+          "options": ["[[He is from Spain|Él es de España]]", "[[He is from the United States|Él es de los Estados Unidos]]", "[[He is from France|Él es de Francia]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice: 'He is from the United States' (Él es de los Estados Unidos)."
+        }
+      ]
+    },
+    "topicName": "Reading"
+  },
+  {
+    "id": "a2-u1-e59",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[How old is Tom|¿Cuántos años tiene Tom?]]?",
+    "content": {
+      "title": "Comprehension: Tom's Age",
+      "instructions": "Responde basándote en el texto.",
+      "questions": [
+        {
+          "question": "[[How old is Tom|¿Cuántos años tiene Tom?]]?",
+          "options": ["[[He is 25 years old|Tiene 25 años]]", "[[He is 28 years old|Tiene 28 años]]", "[[He is 30 years old|Tiene 30 años]]"],
+          "correctAnswer": 2,
+          "explanation": "El texto dice: 'He is 30 years old' (Tiene 30 años)."
+        }
+      ]
+    },
+    "topicName": "Reading"
+  },
+  {
+    "id": "a2-u1-e60",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Are Maria and Tom married|¿Maria y Tom están casados?]]?",
+    "content": {
+      "title": "Comprehension: Marital Status",
+      "instructions": "Responde basándote en el texto.",
+      "questions": [
+        {
+          "question": "[[Are Maria and Tom married|¿Maria y Tom están casados?]]?",
+          "options": ["[[Yes, they are married|Sí, están casados]]", "[[No, they are not married|No, no están casados]]", "[[Maybe they are engaged|Quizás están comprometidos]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice: 'We are not married' (No estamos casados)."
+        }
+      ]
+    },
+    "topicName": "Reading"
   }
 ];
