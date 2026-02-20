@@ -1,0 +1,936 @@
+{
+  "course": {
+    "unit_id": "unit6",
+    "unit_title": "Social Interactions and Customs",
+    "level": "A2-Narrative",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Understand modal verbs: Can, Could, May for permission and ability",
+    "Master vocabulary for social situations and etiquette",
+    "Use polite forms in social interactions"
+  ],
+  "blocks": [
+    {
+      "block_id": "hook",
+      "title": "The Hook: Introduction",
+      "duration_minutes": 5,
+      "content": [
+        {
+          "interaction_id": "u6_h_1",
+          "type": "multiple_choice",
+          "prompt_es": "Exercise 1: Social customs, politeness vocabulary",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option 1"
+            },
+            {
+              "id": "o2",
+              "text": "Option 2"
+            },
+            {
+              "id": "o3",
+              "text": "Option 3"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocab_lesson_6"
+        },
+        {
+          "interaction_id": "u6_h_2",
+          "type": "fill_in_blanks",
+          "prompt_es": "Exercise 2: Social customs, politeness vocabulary",
+          "text": "Sample text with [blank] to fill",
+          "mastery_tag": "vocab_lesson_6"
+        },
+        {
+          "interaction_id": "u6_h_3",
+          "type": "matching",
+          "prompt_es": "Exercise 3: Social customs, politeness vocabulary",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option 1"
+            },
+            {
+              "id": "o2",
+              "text": "Option 2"
+            },
+            {
+              "id": "o3",
+              "text": "Option 3"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocab_lesson_6"
+        },
+        {
+          "interaction_id": "u6_h_4",
+          "type": "reorder",
+          "prompt_es": "Exercise 4: Social customs, politeness vocabulary",
+          "text": "Sample text with [blank] to fill",
+          "mastery_tag": "vocab_lesson_6"
+        },
+        {
+          "interaction_id": "u6_h_5",
+          "type": "multiple_choice",
+          "prompt_es": "Exercise 5: Social customs, politeness vocabulary",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option 1"
+            },
+            {
+              "id": "o2",
+              "text": "Option 2"
+            },
+            {
+              "id": "o3",
+              "text": "Option 3"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocab_lesson_6"
+        }
+      ]
+    },
+    {
+      "block_id": "encounter",
+      "title": "The Encounter: Main Content",
+      "duration_minutes": 15,
+      "content": [
+        {
+          "interaction_id": "u6_e_6",
+          "type": "multiple_choice",
+          "prompt_es": "Exercise: Practice Modal verbs (Can, Could, May)",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option 1"
+            },
+            {
+              "id": "o2",
+              "text": "Option 2"
+            },
+            {
+              "id": "o3",
+              "text": "Option 3"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar_unit_6"
+        },
+        {
+          "interaction_id": "u6_e_7",
+          "type": "fill_in_blanks",
+          "prompt_es": "Exercise: Practice Modal verbs (Can, Could, May)",
+          "text": "Text with [answer] for blank",
+          "mastery_tag": "grammar_unit_6"
+        },
+        {
+          "interaction_id": "u6_e_8",
+          "type": "matching",
+          "prompt_es": "Exercise: Practice Modal verbs (Can, Could, May)",
+          "mastery_tag": "grammar_unit_6",
+          "pairs": [
+            {
+              "id": "p1",
+              "word": "Word 1",
+              "correctMatch": "Match 1",
+              "distractors": [
+                "Distractor 1",
+                "Distractor 2"
+              ]
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_e_9",
+          "type": "error_correction",
+          "prompt_es": "Exercise: Practice Modal verbs (Can, Could, May)",
+          "mastery_tag": "grammar_unit_6",
+          "errors": [
+            {
+              "error": "wrong",
+              "correction": "correct",
+              "explanation_es": "Explanation"
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_e_10",
+          "type": "reorder",
+          "prompt_es": "Exercise: Practice Modal verbs (Can, Could, May)",
+          "mastery_tag": "grammar_unit_6",
+          "sentences": [
+            "word1",
+            "word2",
+            "word3"
+          ],
+          "correct_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "interaction_id": "u6_e_11",
+          "type": "multiple_choice",
+          "prompt_es": "Exercise: Practice Modal verbs (Can, Could, May)",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option 1"
+            },
+            {
+              "id": "o2",
+              "text": "Option 2"
+            },
+            {
+              "id": "o3",
+              "text": "Option 3"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar_unit_6"
+        },
+        {
+          "interaction_id": "u6_e_12",
+          "type": "fill_in_blanks",
+          "prompt_es": "Exercise: Practice Modal verbs (Can, Could, May)",
+          "text": "Text with [answer] for blank",
+          "mastery_tag": "grammar_unit_6"
+        },
+        {
+          "interaction_id": "u6_e_13",
+          "type": "matching",
+          "prompt_es": "Exercise: Practice Modal verbs (Can, Could, May)",
+          "mastery_tag": "grammar_unit_6",
+          "pairs": [
+            {
+              "id": "p1",
+              "word": "Word 1",
+              "correctMatch": "Match 1",
+              "distractors": [
+                "Distractor 1",
+                "Distractor 2"
+              ]
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_e_14",
+          "type": "error_correction",
+          "prompt_es": "Exercise: Practice Modal verbs (Can, Could, May)",
+          "mastery_tag": "grammar_unit_6",
+          "errors": [
+            {
+              "error": "wrong",
+              "correction": "correct",
+              "explanation_es": "Explanation"
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_e_15",
+          "type": "reorder",
+          "prompt_es": "Exercise: Practice Modal verbs (Can, Could, May)",
+          "mastery_tag": "grammar_unit_6",
+          "sentences": [
+            "word1",
+            "word2",
+            "word3"
+          ],
+          "correct_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "interaction_id": "u6_e_16",
+          "type": "multiple_choice",
+          "prompt_es": "Exercise: Practice Modal verbs (Can, Could, May)",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option 1"
+            },
+            {
+              "id": "o2",
+              "text": "Option 2"
+            },
+            {
+              "id": "o3",
+              "text": "Option 3"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar_unit_6"
+        },
+        {
+          "interaction_id": "u6_e_17",
+          "type": "fill_in_blanks",
+          "prompt_es": "Exercise: Practice Modal verbs (Can, Could, May)",
+          "text": "Text with [answer] for blank",
+          "mastery_tag": "grammar_unit_6"
+        },
+        {
+          "interaction_id": "u6_e_18",
+          "type": "matching",
+          "prompt_es": "Exercise: Practice Modal verbs (Can, Could, May)",
+          "mastery_tag": "grammar_unit_6",
+          "pairs": [
+            {
+              "id": "p1",
+              "word": "Word 1",
+              "correctMatch": "Match 1",
+              "distractors": [
+                "Distractor 1",
+                "Distractor 2"
+              ]
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_e_19",
+          "type": "error_correction",
+          "prompt_es": "Exercise: Practice Modal verbs (Can, Could, May)",
+          "mastery_tag": "grammar_unit_6",
+          "errors": [
+            {
+              "error": "wrong",
+              "correction": "correct",
+              "explanation_es": "Explanation"
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_e_20",
+          "type": "reorder",
+          "prompt_es": "Exercise: Practice Modal verbs (Can, Could, May)",
+          "mastery_tag": "grammar_unit_6",
+          "sentences": [
+            "word1",
+            "word2",
+            "word3"
+          ],
+          "correct_order": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "deep_dive",
+      "title": "The Deep Dive: Mastery",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "u6_d_21",
+          "type": "multiple_choice",
+          "prompt_es": "Deep Dive Exercise 21",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option 1"
+            },
+            {
+              "id": "o2",
+              "text": "Option 2"
+            },
+            {
+              "id": "o3",
+              "text": "Option 3"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "deep_dive_6"
+        },
+        {
+          "interaction_id": "u6_d_22",
+          "type": "fill_in_blanks",
+          "prompt_es": "Deep Dive Exercise 22",
+          "text": "Content with [answer] blank",
+          "mastery_tag": "deep_dive_6"
+        },
+        {
+          "interaction_id": "u6_d_23",
+          "type": "matching",
+          "prompt_es": "Deep Dive Exercise 23",
+          "mastery_tag": "deep_dive_6",
+          "pairs": [
+            {
+              "id": "p1",
+              "word": "A",
+              "correctMatch": "B",
+              "distractors": [
+                "C",
+                "D"
+              ]
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_d_24",
+          "type": "error_correction",
+          "prompt_es": "Deep Dive Exercise 24",
+          "mastery_tag": "deep_dive_6",
+          "errors": [
+            {
+              "error": "x",
+              "correction": "y",
+              "explanation_es": "Why"
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_d_25",
+          "type": "reorder",
+          "prompt_es": "Deep Dive Exercise 25",
+          "mastery_tag": "deep_dive_6",
+          "sentences": [
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "correct_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "interaction_id": "u6_d_26",
+          "type": "multiple_choice",
+          "prompt_es": "Deep Dive Exercise 26",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option 1"
+            },
+            {
+              "id": "o2",
+              "text": "Option 2"
+            },
+            {
+              "id": "o3",
+              "text": "Option 3"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "deep_dive_6"
+        },
+        {
+          "interaction_id": "u6_d_27",
+          "type": "fill_in_blanks",
+          "prompt_es": "Deep Dive Exercise 27",
+          "text": "Content with [answer] blank",
+          "mastery_tag": "deep_dive_6"
+        },
+        {
+          "interaction_id": "u6_d_28",
+          "type": "matching",
+          "prompt_es": "Deep Dive Exercise 28",
+          "mastery_tag": "deep_dive_6",
+          "pairs": [
+            {
+              "id": "p1",
+              "word": "A",
+              "correctMatch": "B",
+              "distractors": [
+                "C",
+                "D"
+              ]
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_d_29",
+          "type": "error_correction",
+          "prompt_es": "Deep Dive Exercise 29",
+          "mastery_tag": "deep_dive_6",
+          "errors": [
+            {
+              "error": "x",
+              "correction": "y",
+              "explanation_es": "Why"
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_d_30",
+          "type": "reorder",
+          "prompt_es": "Deep Dive Exercise 30",
+          "mastery_tag": "deep_dive_6",
+          "sentences": [
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "correct_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "interaction_id": "u6_d_31",
+          "type": "multiple_choice",
+          "prompt_es": "Deep Dive Exercise 31",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option 1"
+            },
+            {
+              "id": "o2",
+              "text": "Option 2"
+            },
+            {
+              "id": "o3",
+              "text": "Option 3"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "deep_dive_6"
+        },
+        {
+          "interaction_id": "u6_d_32",
+          "type": "fill_in_blanks",
+          "prompt_es": "Deep Dive Exercise 32",
+          "text": "Content with [answer] blank",
+          "mastery_tag": "deep_dive_6"
+        },
+        {
+          "interaction_id": "u6_d_33",
+          "type": "matching",
+          "prompt_es": "Deep Dive Exercise 33",
+          "mastery_tag": "deep_dive_6",
+          "pairs": [
+            {
+              "id": "p1",
+              "word": "A",
+              "correctMatch": "B",
+              "distractors": [
+                "C",
+                "D"
+              ]
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_d_34",
+          "type": "error_correction",
+          "prompt_es": "Deep Dive Exercise 34",
+          "mastery_tag": "deep_dive_6",
+          "errors": [
+            {
+              "error": "x",
+              "correction": "y",
+              "explanation_es": "Why"
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_d_35",
+          "type": "reorder",
+          "prompt_es": "Deep Dive Exercise 35",
+          "mastery_tag": "deep_dive_6",
+          "sentences": [
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "correct_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "interaction_id": "u6_d_36",
+          "type": "multiple_choice",
+          "prompt_es": "Deep Dive Exercise 36",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option 1"
+            },
+            {
+              "id": "o2",
+              "text": "Option 2"
+            },
+            {
+              "id": "o3",
+              "text": "Option 3"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "deep_dive_6"
+        },
+        {
+          "interaction_id": "u6_d_37",
+          "type": "fill_in_blanks",
+          "prompt_es": "Deep Dive Exercise 37",
+          "text": "Content with [answer] blank",
+          "mastery_tag": "deep_dive_6"
+        },
+        {
+          "interaction_id": "u6_d_38",
+          "type": "matching",
+          "prompt_es": "Deep Dive Exercise 38",
+          "mastery_tag": "deep_dive_6",
+          "pairs": [
+            {
+              "id": "p1",
+              "word": "A",
+              "correctMatch": "B",
+              "distractors": [
+                "C",
+                "D"
+              ]
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_d_39",
+          "type": "error_correction",
+          "prompt_es": "Deep Dive Exercise 39",
+          "mastery_tag": "deep_dive_6",
+          "errors": [
+            {
+              "error": "x",
+              "correction": "y",
+              "explanation_es": "Why"
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_d_40",
+          "type": "reorder",
+          "prompt_es": "Deep Dive Exercise 40",
+          "mastery_tag": "deep_dive_6",
+          "sentences": [
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "correct_order": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "practice",
+      "title": "The Practice: Real-Life Scenarios",
+      "duration_minutes": 15,
+      "content": [
+        {
+          "interaction_id": "u6_p_41",
+          "type": "multiple_choice",
+          "prompt_es": "Practice Exercise 41",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option 1"
+            },
+            {
+              "id": "o2",
+              "text": "Option 2"
+            },
+            {
+              "id": "o3",
+              "text": "Option 3"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "practice_6"
+        },
+        {
+          "interaction_id": "u6_p_42",
+          "type": "fill_in_blanks",
+          "prompt_es": "Practice Exercise 42",
+          "text": "Practice text with [answer]",
+          "mastery_tag": "practice_6"
+        },
+        {
+          "interaction_id": "u6_p_43",
+          "type": "matching",
+          "prompt_es": "Practice Exercise 43",
+          "mastery_tag": "practice_6",
+          "pairs": [
+            {
+              "id": "p1",
+              "word": "X",
+              "correctMatch": "Y",
+              "distractors": [
+                "Z1",
+                "Z2"
+              ]
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_p_44",
+          "type": "error_correction",
+          "prompt_es": "Practice Exercise 44",
+          "mastery_tag": "practice_6",
+          "errors": [
+            {
+              "error": "err",
+              "correction": "fix",
+              "explanation_es": "Because"
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_p_45",
+          "type": "reorder",
+          "prompt_es": "Practice Exercise 45",
+          "mastery_tag": "practice_6",
+          "sentences": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "interaction_id": "u6_p_46",
+          "type": "multiple_choice",
+          "prompt_es": "Practice Exercise 46",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option 1"
+            },
+            {
+              "id": "o2",
+              "text": "Option 2"
+            },
+            {
+              "id": "o3",
+              "text": "Option 3"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "practice_6"
+        },
+        {
+          "interaction_id": "u6_p_47",
+          "type": "fill_in_blanks",
+          "prompt_es": "Practice Exercise 47",
+          "text": "Practice text with [answer]",
+          "mastery_tag": "practice_6"
+        },
+        {
+          "interaction_id": "u6_p_48",
+          "type": "matching",
+          "prompt_es": "Practice Exercise 48",
+          "mastery_tag": "practice_6",
+          "pairs": [
+            {
+              "id": "p1",
+              "word": "X",
+              "correctMatch": "Y",
+              "distractors": [
+                "Z1",
+                "Z2"
+              ]
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_p_49",
+          "type": "error_correction",
+          "prompt_es": "Practice Exercise 49",
+          "mastery_tag": "practice_6",
+          "errors": [
+            {
+              "error": "err",
+              "correction": "fix",
+              "explanation_es": "Because"
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_p_50",
+          "type": "reorder",
+          "prompt_es": "Practice Exercise 50",
+          "mastery_tag": "practice_6",
+          "sentences": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "interaction_id": "u6_p_51",
+          "type": "multiple_choice",
+          "prompt_es": "Practice Exercise 51",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option 1"
+            },
+            {
+              "id": "o2",
+              "text": "Option 2"
+            },
+            {
+              "id": "o3",
+              "text": "Option 3"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "practice_6"
+        },
+        {
+          "interaction_id": "u6_p_52",
+          "type": "fill_in_blanks",
+          "prompt_es": "Practice Exercise 52",
+          "text": "Practice text with [answer]",
+          "mastery_tag": "practice_6"
+        },
+        {
+          "interaction_id": "u6_p_53",
+          "type": "matching",
+          "prompt_es": "Practice Exercise 53",
+          "mastery_tag": "practice_6",
+          "pairs": [
+            {
+              "id": "p1",
+              "word": "X",
+              "correctMatch": "Y",
+              "distractors": [
+                "Z1",
+                "Z2"
+              ]
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_p_54",
+          "type": "error_correction",
+          "prompt_es": "Practice Exercise 54",
+          "mastery_tag": "practice_6",
+          "errors": [
+            {
+              "error": "err",
+              "correction": "fix",
+              "explanation_es": "Because"
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_p_55",
+          "type": "reorder",
+          "prompt_es": "Practice Exercise 55",
+          "mastery_tag": "practice_6",
+          "sentences": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_order": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "interaction_id": "u6_p_56",
+          "type": "multiple_choice",
+          "prompt_es": "Practice Exercise 56",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Option 1"
+            },
+            {
+              "id": "o2",
+              "text": "Option 2"
+            },
+            {
+              "id": "o3",
+              "text": "Option 3"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "practice_6"
+        },
+        {
+          "interaction_id": "u6_p_57",
+          "type": "fill_in_blanks",
+          "prompt_es": "Practice Exercise 57",
+          "text": "Practice text with [answer]",
+          "mastery_tag": "practice_6"
+        },
+        {
+          "interaction_id": "u6_p_58",
+          "type": "matching",
+          "prompt_es": "Practice Exercise 58",
+          "mastery_tag": "practice_6",
+          "pairs": [
+            {
+              "id": "p1",
+              "word": "X",
+              "correctMatch": "Y",
+              "distractors": [
+                "Z1",
+                "Z2"
+              ]
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_p_59",
+          "type": "error_correction",
+          "prompt_es": "Practice Exercise 59",
+          "mastery_tag": "practice_6",
+          "errors": [
+            {
+              "error": "err",
+              "correction": "fix",
+              "explanation_es": "Because"
+            }
+          ]
+        },
+        {
+          "interaction_id": "u6_p_60",
+          "type": "reorder",
+          "prompt_es": "Practice Exercise 60",
+          "mastery_tag": "practice_6",
+          "sentences": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correct_order": [
+            0,
+            1,
+            2
+          ]
+        }
+      ]
+    }
+  ]
+}
