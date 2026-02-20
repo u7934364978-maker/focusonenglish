@@ -14,7 +14,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[Where is your|¿Dónde está tu]] (_____) ?",
+          "question": "[[Where is your|¿Dónde está tu]] (_____) [[passport|pasaporte]]?",
           "options": ["[[passport|pasaporte]]", "[[ticket|billete]]", "[[visa|visado]]"],
           "correctAnswer": 0,
           "explanation": "'Passport' es pasaporte."
@@ -36,7 +36,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Identifica el documento.",
       "questions": [
         {
-          "question": "[[I have my|Tengo mi]] (_____) .",
+          "question": "[[I have my|Tengo mi]] (_____) [[boarding pass|tarjeta de embarque]].",
           "options": ["[[boarding pass|tarjeta de embarque]]", "[[id card|dni]]", "[[credit card|tarjeta de crédito]]"],
           "correctAnswer": 0,
           "explanation": "'Boarding pass' es tarjeta de embarque."
@@ -58,7 +58,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[Your|Tu]] (_____) [[is number 10.]]",
+          "question": "[[Your|Tu]] (_____) [[gate|puerta de embarque]] [[is number 10|es el número 10]].",
           "options": ["[[gate|puerta de embarque]]", "[[seat|asiento]]", "[[flight|vuelo]]"],
           "correctAnswer": 0,
           "explanation": "'Gate' es la puerta de embarque en un aeropuerto."
@@ -80,7 +80,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[My|Mi]] (_____) [[is over there.]]",
+          "question": "[[My|Mi]] (_____) [[luggage|equipaje]] [[is over there|está allí]].",
           "options": ["[[luggage|equipaje]]", "[[backpack|mochila]]", "[[handbag|bolso]]"],
           "correctAnswer": 0,
           "explanation": "'Luggage' es equipaje."
@@ -102,7 +102,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[We are at the|Estamos en el]] (_____) .",
+          "question": "[[We are at the|Estamos en el]] (_____) [[airport|aeropuerto]].",
           "options": ["[[airport|aeropuerto]]", "[[station|estación]]", "[[port|puerto]]"],
           "correctAnswer": 0,
           "explanation": "'Airport' es aeropuerto."
@@ -124,7 +124,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is late.]]",
+          "question": "[[The|El]] (_____) [[flight|vuelo]] [[is late|está retrasado]].",
           "options": ["[[flight|vuelo]]", "[[plane|avión]]", "[[pilot|piloto]]"],
           "correctAnswer": 0,
           "explanation": "'Flight' es vuelo."
@@ -146,7 +146,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[Go to the|Ve al]] (_____) .",
+          "question": "[[Go to the|Ve al]] (_____) [[check-in desk|mostrador de facturación]].",
           "options": ["[[check-in desk|mostrador de facturación]]", "[[security check|control de seguridad]]", "[[exit|salida]]"],
           "correctAnswer": 0,
           "explanation": "'Check-in desk' es el mostrador de facturación."
@@ -168,7 +168,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Take off your shoes for|Quítate los zapatos para]] (_____) .",
+          "question": "[[Take off your shoes for|Quítate los zapatos para]] (_____) [[security|seguridad]].",
           "options": ["[[security|seguridad]]", "[[the plane|el avión]]", "[[sleeping|dormir]]"],
           "correctAnswer": 0,
           "explanation": "'Security' es seguridad."
@@ -190,7 +190,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[Where is my|¿Dónde está mi]] (_____) ?",
+          "question": "[[Where is my|¿Dónde está mi]] (_____) [[seat|asiento]]?",
           "options": ["[[seat|asiento]]", "[[table|mesa]]", "[[window|ventana]]"],
           "correctAnswer": 0,
           "explanation": "'Seat' es asiento."
@@ -212,7 +212,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The suitcase is very|La maleta es muy]] (_____) .",
+          "question": "[[The suitcase is very|La maleta es muy]] (_____) [[heavy|pesada]].",
           "options": ["[[heavy|pesada]]", "[[light|ligera]]", "[[small|pequeña]]"],
           "correctAnswer": 0,
           "explanation": "'Heavy' es pesada."
@@ -234,7 +234,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[The plane is on the|El avión está en la]] (_____) .",
+          "question": "[[The plane is on the|El avión está en la]] (_____) [[runway|pista]].",
           "options": ["[[runway|pista de aterrizaje/despegue]]", "[[road|carretera]]", "[[street|calle]]"],
           "correctAnswer": 0,
           "explanation": "'Runway' es pista."
@@ -256,7 +256,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[Look at the|Mira la]] (_____) .",
+          "question": "[[Look at the|Mira la]] (_____) [[departure board|pantalla de salidas]].",
           "options": ["[[departure board|pantalla de salidas]]", "[[menu|menú]]", "[[clock|reloj]]"],
           "correctAnswer": 0,
           "explanation": "'Departure board' es la pantalla donde salen los vuelos."
@@ -278,7 +278,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[I need a|Necesito un]] (_____) [[for my bags.]]",
+          "question": "[[I need a|Necesito un]] (_____) [[trolley|carrito]] [[for my bags|para mis maletas]].",
           "options": ["[[trolley|carrito]]", "[[car|coche]]", "[[basket|cesta]]"],
           "correctAnswer": 0,
           "explanation": "'Trolley' es el carrito para maletas."
@@ -300,7 +300,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[Where is the|¿Dónde está la]] (_____) ?",
+          "question": "[[Where is the|¿Dónde está la]] (_____) [[arrivals hall|sala de llegadas]]?",
           "options": ["[[arrivals hall|sala de llegadas]]", "[[kitchen|cocina]]", "[[bathroom|baño]]"],
           "correctAnswer": 0,
           "explanation": "'Arrivals hall' es la sala de llegadas."
@@ -322,7 +322,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Identifica la persona.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is on the plane.]]",
+          "question": "[[The|El]] (_____) [[pilot|piloto]] [[is on the plane|está en el avión]].",
           "options": ["[[pilot|piloto]]", "[[driver|conductor]]", "[[captain|capitán]]"],
           "correctAnswer": 0,
           "explanation": "'Pilot' es piloto."
@@ -344,7 +344,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Identifica el documento.",
       "questions": [
         {
-          "question": "[[Show your|Enseña tu]] (_____) [[at the counter.]]",
+          "question": "[[Show your|Enseña tu]] (_____) [[visa|visado]] [[at the counter|en el mostrador]].",
           "options": ["[[visa|visado]]", "[[photo|foto]]", "[[money|dinero]]"],
           "correctAnswer": 0,
           "explanation": "'Visa' es visado."
@@ -366,7 +366,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[Wait in the|Espera en la]] (_____) .",
+          "question": "[[Wait in the|Espera en la]] (_____) [[lounge|sala de espera]].",
           "options": ["[[lounge|sala de espera/salón]]", "[[shop|tienda]]", "[[car park|aparcamiento]]"],
           "correctAnswer": 0,
           "explanation": "'Lounge' es sala de espera."
@@ -388,7 +388,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[Collect your bags at|Recoge tus maletas en]] (_____) .",
+          "question": "[[Collect your bags at|Recoge tus maletas en]] (_____) [[baggage claim|recogida de equipajes]].",
           "options": ["[[baggage claim|recogida de equipajes]]", "[[security|seguridad]]", "[[customs|aduana]]"],
           "correctAnswer": 0,
           "explanation": "'Baggage claim' es la recogida de equipajes."

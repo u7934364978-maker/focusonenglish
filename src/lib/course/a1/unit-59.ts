@@ -36,7 +36,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[My main|Mi principal]] (_____) [[is to learn English.]]",
+          "question": "[[My main|Mi principal]] (_____) [[is to learn English.|es aprender inglés.]]",
           "options": ["[[goal|meta/objetivo]]", "[[gold|oro]]", "[[gate|puerta]]"],
           "correctAnswer": 0,
           "explanation": "'Goal' es meta u objetivo."
@@ -80,7 +80,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[What is your|¿Cuál es tu]] (_____) [[for tonight?]]",
+          "question": "[[What is your|¿Cuál es tu]] (_____) [[for tonight?|para esta noche?]]",
           "options": ["[[plan|plan]]", "[[plain|sencillo]]", "[[plane|avión]]"],
           "correctAnswer": 0,
           "explanation": "'Plan' es plan."
@@ -102,7 +102,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I|Espero]] (_____) [[you have a nice day.]]",
+          "question": "[[I|Espero]] (_____) [[you have a nice day.|tengas un buen día.]]",
           "options": ["[[hope|esperar/esperanza]]", "[[hole|agujero]]", "[[help|ayuda]]"],
           "correctAnswer": 0,
           "explanation": "'Hope' es esperanza o el verbo esperar (con optimismo)."
@@ -124,7 +124,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Make a|Pide un]] (_____) [[and blow out the candles.]]",
+          "question": "[[Make a|Pide un]] (_____) [[and blow out the candles.|y sopla las velas.]]",
           "options": ["[[wish|deseo]]", "[[watch|reloj]]", "[[wash|lavar]]"],
           "correctAnswer": 0,
           "explanation": "'Wish' es deseo o desear."
@@ -168,7 +168,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[You can|Puedes]] (_____) [[anything if you try.]]",
+          "question": "[[You can|Puedes]] (_____) [[anything if you try.|cualquier cosa si lo intentas.]]",
           "options": ["[[achieve|lograr/alcanzar]]", "[[active|activo]]", "[[advice|consejo]]"],
           "correctAnswer": 0,
           "explanation": "'Achieve' es lograr o alcanzar una meta."
@@ -212,7 +212,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[She is a very|Ella es una mujer muy]] (_____) [[woman.]]",
+          "question": "[[She is a very|Ella es una muy]] (_____) [[woman.|mujer.]]",
           "options": ["[[successful|exitosa]]", "[[successive|sucesiva]]", "[[suspicious|sospechosa]]"],
           "correctAnswer": 0,
           "explanation": "'Successful' es exitoso o exitosa."
@@ -234,7 +234,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I want to|Quiero]] (_____) [[my life.]]",
+          "question": "[[I want to|Quiero]] (_____) [[my life.|mi vida.]]",
           "options": ["[[change|cambiar]]", "[[charge|cargar]]", "[[chance|oportunidad]]"],
           "correctAnswer": 0,
           "explanation": "'Change' es cambiar o cambio."
@@ -256,7 +256,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I want to|Quiero]] (_____) [[my skills.]]",
+          "question": "[[I want to|Quiero]] (_____) [[my skills.|mis habilidades.]]",
           "options": ["[[improve|mejorar]]", "[[import|importar]]", "[[impress|impresionar]]"],
           "correctAnswer": 0,
           "explanation": "'Improve' es mejorar."
@@ -366,7 +366,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[What is your|¿Cuál es tu]] (_____) [[for the future?]]",
+          "question": "[[What is your|¿Cuál es tu]] (_____) [[for the future?|para el futuro?]]",
           "options": ["[[vision|visión]]", "[[visit|visita]]", "[[version|versión]]"],
           "correctAnswer": 0,
           "explanation": "'Vision' es visión."
@@ -388,7 +388,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[is key.]]",
+          "question": "(_____) [[is key.|es clave.]]",
           "options": ["[[Determination|Determinación]]", "[[Decoration|Decoración]]", "[[Description|Descripción]]"],
           "correctAnswer": 0,
           "explanation": "'Determination' es determinación."
@@ -432,7 +432,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[in yourself.]]",
+          "question": "(_____) [[in yourself.|en ti mismo.]]",
           "options": ["[[Believe|Cree/Creer]]", "[[Before|Antes]]", "[[Below|Debajo]]"],
           "correctAnswer": 0,
           "explanation": "'Believe' es creer."
@@ -456,7 +456,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'going to' para planes.",
       "questions": [
         {
-          "question": "[[I am|Yo]] (_____) [[to travel next year.]]",
+          "question": "[[I am|Yo]] (_____) [[to travel next year.|viajar el año que viene.]]",
           "options": ["[[going|voy]]", "[[go|ir]]", "[[will|iré]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'be + going to' para expresar planes futuros."
@@ -478,7 +478,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'want to'.",
       "questions": [
         {
-          "question": "[[I want|Quiero]] (_____) [[a teacher.]]",
+          "question": "[[I want|Quiero]] (_____) [[a teacher.|un profesor.]]",
           "options": ["[[to become|convertirme en]]", "[[become|convertirme]]", "[[becoming|convirtiéndome]]"],
           "correctAnswer": 0,
           "explanation": "'Want' requiere 'to' antes del siguiente infinitivo."
@@ -500,7 +500,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Estructura con 'hope that'.",
       "questions": [
         {
-          "question": "[[I hope|Espero]] (_____) [[you succeed.]]",
+          "question": "[[I hope|Espero]] (_____) [[you succeed.|tengas éxito.]]",
           "options": ["[[that|que]]", "[[than|que (comparativo)]]", "[[what|qué]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'that' después de 'hope' para introducir una oración."
@@ -522,7 +522,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'will' para promesas/decisiones.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[try to do my best.]]",
+          "question": "[[I|Yo]] (_____) [[try to do my best.|dar lo mejor de mí.]]",
           "options": ["[[will|intentaré]]", "[[am going to|voy a]]", "[[shall|deberé]]"],
           "correctAnswer": 0,
           "explanation": "'Will' se usa para decisiones espontáneas o promesas."
@@ -544,7 +544,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Pregunta con 'going to'.",
       "questions": [
         {
-          "question": "(_____) [[you going to study tonight?]]",
+          "question": "(_____) [[you going to study tonight?|vas a estudiar esta noche?]]",
           "options": ["[[Are|¿Eres/Estás?]]", "[[Do|¿Haces?]]", "[[Will|¿Harás?]]"],
           "correctAnswer": 0,
           "explanation": "Formamos preguntas con 'Are you going to...?'"
@@ -583,7 +583,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'will' para predicciones.",
       "questions": [
         {
-          "question": "[[I think I|Creo que yo]] (_____) [[travel to Japan one day.]]",
+          "question": "[[I think I|Creo que yo]] (_____) [[travel to Japan one day.|viajar a Japón algún día.]]",
           "options": ["[[will|viajaré]]", "[[am going to|voy a]]", "[[would|viajaría]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'will' para predicciones inciertas en el futuro lejano."
@@ -605,7 +605,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Verbo 'hope' + infinitivo.",
       "questions": [
         {
-          "question": "[[He|Él]] (_____) [[to find a good job.]]",
+          "question": "[[He|Él]] (_____) [[to find a good job.|encontrar un buen trabajo.]]",
           "options": ["[[hopes|espera]]", "[[hope|esperar]]", "[[hoping|esperando]]"],
           "correctAnswer": 0,
           "explanation": "Añadimos '-s' para la tercera persona del singular."
@@ -627,7 +627,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Negación con 'going to'.",
       "questions": [
         {
-          "question": "[[I'm|No me]] (_____) [[going to give up.]]",
+          "question": "[[I'm|No me]] (_____) [[going to give up.|a rendirme.]]",
           "options": ["[[not|no]]", "[[no|no]]", "[[don't|no]]"],
           "correctAnswer": 0,
           "explanation": "Ponemos 'not' después del verbo 'be'."
@@ -666,7 +666,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'will'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[achieve our goals together.]]",
+          "question": "[[We|Nosotros]] (_____) [[achieve our goals together.|lograremos nuestras metas juntos.]]",
           "options": ["[[will|lograremos]]", "[[are going to|vamos a]]", "[[would|lograríamos]]"],
           "correctAnswer": 0,
           "explanation": "'Will' para expresar confianza en el futuro."
@@ -688,7 +688,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Estructura 'be going to'.",
       "questions": [
         {
-          "question": "[[She|Ella]] (_____) [[going to start a new course.]]",
+          "question": "[[She|Ella]] (_____) [[going to start a new course.|a empezar un nuevo curso.]]",
           "options": ["[[is|va]]", "[[are|van]]", "[[am|voy]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'is' con 'she'."
@@ -710,7 +710,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Verbo 'want' + infinitivo.",
       "questions": [
         {
-          "question": "[[I want|Quiero]] (_____) [[many countries.]]",
+          "question": "[[I want|Quiero]] (_____) [[many countries.|muchos países.]]",
           "options": ["[[to visit|visitar]]", "[[visiting|visitando]]", "[[visit|visitar (forma base)]]"],
           "correctAnswer": 0,
           "explanation": "'Want' requiere 'to' antes del siguiente verbo."
@@ -732,7 +732,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Verbo 'hope' con presente simple.",
       "questions": [
         {
-          "question": "[[I hope you|Espero que a ti te]] (_____) [[your new house.]]",
+          "question": "[[I hope you|Espero que a ti te]] (_____) [[your new house.|tu nueva casa.]]",
           "options": ["[[like|guste]]", "[[likes|gusta]]", "[[liking|gustando]]"],
           "correctAnswer": 0,
           "explanation": "Después de 'hope', usamos el presente simple para deseos futuros."
@@ -754,7 +754,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Presente continuo para planes.",
       "questions": [
         {
-          "question": "[[They|Ellos]] (_____) [[going to move to a bigger city.]]",
+          "question": "[[They|Ellos]] (_____) [[going to move to a bigger city.|a mudarse a una ciudad más grande.]]",
           "options": ["[[are|se van]]", "[[is|se va]]", "[[am|me voy]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'are' con 'they'."
@@ -776,7 +776,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Futuro con 'will'.",
       "questions": [
         {
-          "question": "[[I|Yo te]] (_____) [[call you as soon as I can.]]",
+          "question": "[[I|Yo te]] (_____) [[call you as soon as I can.|llamarte tan pronto como pueda.]]",
           "options": ["[[will|llamaré]]", "[[am going to|voy a llamar]]", "[[would|llamaría]]"],
           "correctAnswer": 0,
           "explanation": "'Will' para promesas."
@@ -798,7 +798,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Negación en presente simple.",
       "questions": [
         {
-          "question": "[[He|Él]] (_____) [[want to fail.]]",
+          "question": "[[He|Él]] (_____) [[want to fail.|querer fracasar.]]",
           "options": ["[[doesn't|no (auxiliar)]]", "[[don't|no]]", "[[no|no]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'doesn't' para 'he'."
@@ -820,7 +820,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'would love to'.",
       "questions": [
         {
-          "question": "[[I|Me]] (_____) [[love to travel the world.]]",
+          "question": "[[I|Me]] (_____) [[love to travel the world.|encantaría viajar por el mundo.]]",
           "options": ["[[would|encantaría (auxiliar)]]", "[[should|debería]]", "[[could|podría]]"],
           "correctAnswer": 0,
           "explanation": "'Would love' significa me encantaría."
@@ -859,7 +859,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'can'.",
       "questions": [
         {
-          "question": "[[Dreams|Los sueños]] (_____) [[come true.]]",
+          "question": "[[Dreams|Los sueños]] (_____) [[come true.|hacerse realidad.]]",
           "options": ["[[can|pueden]]", "[[must|deben]]", "[[should|deberían]]"],
           "correctAnswer": 0,
           "explanation": "'Can' expresa posibilidad."
@@ -883,7 +883,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[You need to have a clear|Necesitas tener una]] (_____) [[clara.]]",
+          "question": "[[You need to have a clear|Necesitas tener una clara]] (_____) .",
           "options": ["[[vision|visión]]", "[[visit|visita]]", "[[version|versión]]"],
           "correctAnswer": 0,
           "explanation": "'Vision' es visión."
@@ -905,7 +905,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Stay|Mantente]] (_____) [[on your goals.]]",
+          "question": "[[Stay|Mantente]] (_____) [[on your goals.|en tus metas.]]",
           "options": ["[[focused|enfocado/enfocada]]", "[[fixed|fijado]]", "[[faced|enfrentado]]"],
           "correctAnswer": 0,
           "explanation": "'Focused' es enfocado o enfocada."
@@ -949,7 +949,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I am|Estoy]] (_____) [[in my abilities.]]",
+          "question": "[[I am|Estoy]] (_____) [[in my abilities.|en mis habilidades.]]",
           "options": ["[[confident|seguro/confiado]]", "[[confidential|confidencial]]", "[[confused|confundido]]"],
           "correctAnswer": 0,
           "explanation": "'Confident' es seguro de sí mismo o confiado."
@@ -971,7 +971,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is more important than the destination.]]",
+          "question": "[[The|El]] (_____) [[is more important than the destination.|es más importante que el destino.]]",
           "options": ["[[journey|viaje/trayecto]]", "[[journal|diario]]", "[[joining|unirse]]"],
           "correctAnswer": 0,
           "explanation": "'Journey' es el viaje o trayecto."
@@ -993,7 +993,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[is a great teacher.]]",
+          "question": "(_____) [[is a great teacher.|es un gran maestro.]]",
           "options": ["[[Experience|Experiencia]]", "[[Experiment|Experimento]]", "[[Exhibition|Exhibición]]"],
           "correctAnswer": 0,
           "explanation": "'Experience' es experiencia."
@@ -1037,7 +1037,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[Success|El éxito]] (_____) [[time.]]",
+          "question": "[[Success|El éxito]] (_____) [[time.|tiempo.]]",
           "options": ["[[takes|lleva/toma]]", "[[makes|hace]]", "[[gives|da]]"],
           "correctAnswer": 0,
           "explanation": "'Takes time' significa lleva o toma tiempo."
@@ -1059,7 +1059,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Your|Tu]] (_____) [[will be rewarded.]]",
+          "question": "[[Your|Tu]] (_____) [[will be rewarded.|será recompensado.]]",
           "options": ["[[effort|esfuerzo]]", "[[effect|efecto]]", "[[error|error]]"],
           "correctAnswer": 0,
           "explanation": "'Effort' es esfuerzo."
@@ -1081,7 +1081,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Don't be|No tengas]] (_____) [[to fail.]]",
+          "question": "[[Don't be|No tengas]] (_____) [[to fail.|a fracasar.]]",
           "options": ["[[afraid|miedo/temeroso]]", "[[after|después]]", "[[ahead|adelante]]"],
           "correctAnswer": 0,
           "explanation": "'Be afraid' es tener miedo."
@@ -1101,7 +1101,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "content": {
       "title": "Mis sueños futuros",
       "instructions": "Lee sobre los planes y metas para el futuro.",
-      "text": "[[Everyone|Todos]] [[has|tienen]] [[dreams|sueños]] [[and|y]] [[goals|metas]] [[for|para]] [[the|el]] [[future.|futuro.]] [[For|Para]] [[some|algunas]] [[people,|personas,]] [[the|el]] [[dream|sueño]] [[is|es]] [[to|]] [[travel|viajar por]] [[the|el]] [[world|mundo]] [[and|y]] [[see|ver]] [[different|diferentes]] [[cultures.|culturas.]] [[For|Para]] [[others,|otros,]] [[the|la]] [[goal|meta]] [[is|es]] [[to|]] [[have|tener]] [[a|una]] [[successful|carrera]] [[career|exitosa]] [[and|y]] [[help|ayudar a]] [[their|sus]] [[families.|familias.]] [[I|Yo]] [[have|tengo]] [[many|muchos]] [[plans|planes]] [[for|para]] [[my|mi]] [[future.|futuro.]] [[First,|Primero,]] [[I|yo]] [[am|]] [[going|voy]] [[to|a]] [[finish|terminar]] [[my|mis]] [[studies|estudios]] [[and|y]] [[get|obtener]] [[a|un]] [[good|buen]] [[degree.|título.]] [[Then,|Luego,]] [[I|yo]] [[want|quiero]] [[to|]] [[find|encontrar]] [[a|un]] [[job|trabajo]] [[that|que]] [[I|]] [[love.|ame.]] [[I|También]] [[also|]] [[hope|espero]] [[to|]] [[learn|aprender]] [[more|más]] [[languages|idiomas]] [[because|porque]] [[it|esto]] [[opens|abre]] [[many|muchas]] [[opportunities.|oportunidades.]] [[I|Yo]] [[know|sé]] [[that|que]] [[achieving|lograr]] [[goals|metas]] [[is|]] [[not|no]] [[always|siempre]] [[easy.|es fácil.]] [[It|Esto]] [[takes|lleva]] [[time,|tiempo,]] [[hard|trabajo]] [[work,|duro]] [[and|y]] [[determination.|determinación.]] [[Sometimes|A veces]] [[we|nosotros]] [[fail,|fracasamos,]] [[but|pero]] [[we|]] [[should|deberíamos]] [[not|no]] [[give|rendirnos.]] [[up.|]] [[We|Nosotros]] [[can|podemos]] [[learn|aprender]] [[from|de]] [[our|nuestros]] [[mistakes|errores]] [[and|y]] [[try|intentar]] [[again.|de nuevo.]] [[Having|Tener]] [[a|una]] [[positive|visión]] [[vision|positiva]] [[for|para]] [[the|el]] [[future|futuro]] [[helps|nos ayuda]] [[us|]] [[stay|a mantenernos]] [[focused|enfocados]] [[and|y]] [[motivated|motivados]] [[every|todos]] [[day.|los días.]]",
+      "text": "[[Everyone|Todos]] [[has|tienen]] [[dreams|sueños]] [[and|y]] [[goals|metas]] [[for|para]] [[the|el]] [[future.|futuro.]] [[For|Para]] [[some|algunas]] [[people,|personas,]] [[the|el]] [[dream|sueño]] [[is|es]] [[to|]] [[travel|viajar por]] [[the|el]] [[world|mundo]] [[and|y]] [[see|ver]] [[different|diferentes]] [[cultures.|culturas.]] [[For|Para]] [[others,|otros,]] [[the|la]] [[goal|meta]] [[is|es]] [[to|]] [[have|tener]] [[a|una]] [[successful|exitosa]] [[career|carrera]] [[and|y]] [[help|ayudar a]] [[their|sus]] [[families.|familias.]] [[I|Yo]] [[have|tengo]] [[many|muchos]] [[plans|planes]] [[for|para]] [[my|mi]] [[future.|futuro.]] [[First,|Primero,]] [[I|yo]] [[am|]] [[going|voy]] [[to|a]] [[finish|terminar]] [[my|mis]] [[studies|estudios]] [[and|y]] [[get|obtener]] [[a|un]] [[good|buen]] [[degree.|título.]] [[Then,|Luego,]] [[I|yo]] [[want|quiero]] [[to|]] [[find|encontrar]] [[a|un]] [[job|trabajo]] [[that|que]] [[I|]] [[love.|ame.]] [[I|Yo]] [[also|también]] [[hope|espero]] [[to|]] [[learn|aprender]] [[more|más]] [[languages|idiomas]] [[because|porque]] [[it|esto]] [[opens|abre]] [[many|muchas]] [[opportunities.|oportunidades.]] [[I|Yo]] [[know|sé]] [[that|que]] [[achieving|lograr]] [[goals|metas]] [[is|es]] [[not|no]] [[always|siempre]] [[easy.|fácil.]] [[It|Esto]] [[takes|lleva]] [[time,|tiempo,]] [[hard|duro]] [[work,|trabajo]] [[and|y]] [[determination.|determinación.]] [[Sometimes|A veces]] [[we|nosotros]] [[fail,|fracasamos,]] [[but|pero]] [[we|nosotros]] [[should|deberíamos]] [[not|no]] [[give up.|rendirnos.]] [[We|Nosotros]] [[can|podemos]] [[learn|aprender]] [[from|de]] [[our|nuestros]] [[mistakes|errores]] [[and|y]] [[try|intentar]] [[again.|de nuevo.]] [[Having|Tener]] [[a|una]] [[positive|positiva]] [[vision|visión]] [[for|para]] [[the|el]] [[future|futuro]] [[helps|ayuda]] [[us|a nosotros]] [[stay|a mantenernos]] [[focused|enfocados]] [[and|y]] [[motivated|motivados]] [[every|todos]] [[day.|los días.]]",
       "questions": [
         {
           "question": "[[What is one possible dream mentioned?|¿Cuál es un posible sueño mencionado?]]",
@@ -1133,7 +1133,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "content": {
       "title": "Planificando el futuro",
       "instructions": "Lee sobre la importancia de la planificación.",
-      "text": "[[Planning|Planificar]] [[for|para]] [[the|el]] [[future|futuro]] [[is|es]] [[a|una]] [[great|gran]] [[way|forma]] [[to|de]] [[improve|mejorar]] [[your|tu]] [[life.|vida.]] [[When|Cuando]] [[you|tú]] [[have|tienes]] [[a|un]] [[clear|plan]] [[plan,|claro,]] [[you|]] [[know|sabes]] [[which|qué]] [[steps|pasos]] [[to|]] [[take|tomar]] [[to|para]] [[achieve|lograr]] [[your|tus]] [[goals.|metas.]] [[You|Tú]] [[can|puedes]] [[start|empezar]] [[with|con]] [[small|metas]] [[goals,|pequeñas,]] [[like|como]] [[learning|aprender]] [[five|cinco]] [[new|nuevas]] [[English|palabras]] [[words|de inglés]] [[every|cada]] [[day.|día.]] [[These|Estos]] [[small|pequeños]] [[steps|pasos]] [[lead|llevan]] [[to|a]] [[big|un gran]] [[progress|progreso]] [[over|con el]] [[time.|tiempo.]] [[It|También]] [[is|es]] [[also|]] [[important|importante]] [[to|]] [[be|ser]] [[flexible.|flexible.]] [[Plans|Los planes]] [[can|pueden]] [[change,|cambiar,]] [[and|y]] [[that|eso]] [[is|está]] [[okay.|bien.]] [[The|El]] [[future|futuro]] [[is|no]] [[not|]] [[set|está escrito]] [[in|en]] [[stone,|piedra,]] [[and|y]] [[we|]] [[have|tenemos]] [[the|el]] [[power|poder]] [[to|de]] [[create|crear]] [[our|nuestro]] [[own|propio]] [[destiny.|destino.]] [[Sometimes|A veces]] [[new|nuevas]] [[opportunities|oportunidades]] [[appear|aparecen]] [[that|que]] [[we|]] [[didn't|no]] [[expect.|esperábamos.]] [[Being|Estar]] [[open|abierto]] [[to|al]] [[change|cambio]] [[helps|nos ayuda]] [[us|]] [[grow|a crecer]] [[and|y]] [[discover|descubrir]] [[new|nuevo]] [[potential.|potencial.]] [[Success|El éxito]] [[is|no]] [[not|]] [[just|solo]] [[about|sobre]] [[the|el]] [[final|resultado]] [[result,|final,]] [[but|sino]] [[also|también]] [[about|sobre]] [[the|el]] [[journey|viaje]] [[and|y]] [[the|el]] [[effort|esfuerzo]] [[we|que]] [[make|hacemos]] [[along|por]] [[the|el]] [[way.|camino.]] [[Believe|Cree]] [[in|en]] [[yourself|ti mismo]] [[and|y]] [[keep|sigue]] [[moving|avanzando]] [[forward|]] [[toward|hacia]] [[your|tus]] [[dreams.|sueños.]]",
+      "text": "[[Planning|Planificar]] [[for|para]] [[the|el]] [[future|futuro]] [[is|es]] [[a|una]] [[great|gran]] [[way|forma]] [[to|de]] [[improve|mejorar]] [[your|tu]] [[life.|vida.]] [[When|Cuando]] [[you|tú]] [[have|tienes]] [[a|un]] [[clear|claro]] [[plan,|plan,]] [[you|]] [[know|sabes]] [[which|qué]] [[steps|pasos]] [[to|]] [[take|tomar]] [[to|para]] [[achieve|lograr]] [[your|tus]] [[goals.|metas.]] [[You|Tú]] [[can|puedes]] [[start|empezar]] [[with|con]] [[small|pequeñas]] [[goals,|metas,]] [[like|como]] [[learning|aprender]] [[five|cinco]] [[new|nuevas]] [[English|inglés]] [[words|palabras]] [[every|cada]] [[day.|día.]] [[These|Estos]] [[small|pequeños]] [[steps|pasos]] [[lead|llevan]] [[to|a]] [[big|un gran]] [[progress|progreso]] [[over|con el]] [[time.|tiempo.]] [[It|También]] [[is|es]] [[also|]] [[important|importante]] [[to|]] [[be|ser]] [[flexible.|flexible.]] [[Plans|Los planes]] [[can|pueden]] [[change,|cambiar,]] [[and|y]] [[that|eso]] [[is|está]] [[okay.|bien.]] [[The|El]] [[future|futuro]] [[is|no]] [[not|]] [[set|está escrito]] [[in|en]] [[stone,|piedra,]] [[and|y]] [[we|]] [[have|tenemos]] [[the|el]] [[power|poder]] [[to|de]] [[create|crear]] [[our|nuestro]] [[own|propio]] [[destiny.|destino.]] [[Sometimes|A veces]] [[new|nuevas]] [[opportunities|oportunidades]] [[appear|aparecen]] [[that|que]] [[we|]] [[didn't|no]] [[expect.|esperábamos.]] [[Being|Estar]] [[open|abierto]] [[to|al]] [[change|cambio]] [[helps|nos ayuda]] [[us|]] [[grow|a crecer]] [[and|y]] [[discover|descubrir]] [[new|nuevo]] [[potential.|potencial.]] [[Success|El éxito]] [[is|no]] [[not|]] [[just|solo]] [[about|sobre]] [[the|el]] [[final|final]] [[result,|resultado,]] [[but|sino]] [[also|también]] [[about|sobre]] [[the|el]] [[journey|viaje]] [[and|y]] [[the|el]] [[effort|esfuerzo]] [[we|que]] [[make|hacemos]] [[along|por]] [[the|el]] [[way.|camino.]] [[Believe|Cree]] [[in|en]] [[yourself|ti mismo]] [[and|y]] [[keep|sigue]] [[moving|avanzando]] [[forward|adelante]] [[toward|hacia]] [[your|tus]] [[dreams.|sueños.]]",
       "questions": [
         {
           "question": "[[How can small steps help you?|¿Cómo pueden ayudarte los pequeños pasos?]]",
@@ -1245,7 +1245,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Estructura 'be going to'.",
       "questions": [
         {
-          "question": "[[I'm|Voy]] (_____) [[to do it.]]",
+          "question": "[[I'm|Voy]] (_____) [[to do it.|hacerlo.]]",
           "options": ["[[going|a]]", "[[go|ir]]", "[[will|haré]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'going to' para intenciones."
@@ -1267,7 +1267,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Futuro con 'will'.",
       "questions": [
         {
-          "question": "[[Everything|Todo]] (_____) [[be fine.]]",
+          "question": "[[Everything|Todo]] (_____) [[be fine.|estará bien.]]",
           "options": ["[[will|estará]]", "[[is going to|va a estar]]", "[[would|estaría]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'will' para predicciones generales."
@@ -1289,7 +1289,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'How many'.",
       "questions": [
         {
-          "question": "(_____) [[dreams do you have?]]",
+          "question": "(_____) [[dreams do you have?|sueños tienes?]]",
           "options": ["[[How many|Cuántos]]", "[[How much|Cuánto]]", "[[How long|Cuánto tiempo]]"],
           "correctAnswer": 0,
           "explanation": "'Dreams' es contable."
@@ -1311,7 +1311,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Adjetivo + preposición.",
       "questions": [
         {
-          "question": "[[Success is possible|El éxito es posible]] (_____) [[everyone.]]",
+          "question": "[[Success is possible|El éxito es posible]] (_____) [[everyone.|todos.]]",
           "options": ["[[for|para]]", "[[to|a]]", "[[at|en]]"],
           "correctAnswer": 0,
           "explanation": "Se dice 'possible for'."

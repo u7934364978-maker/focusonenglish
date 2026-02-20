@@ -14,7 +14,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la dirección.",
       "questions": [
         {
-          "question": "[[Turn|Gira a la]] (_____) .",
+          "question": "[[Turn|Gira a la]] (_____) [[left|izquierda]].",
           "options": ["[[left|izquierda]]", "[[right|derecha]]", "[[straight|recto]]"],
           "correctAnswer": 0,
           "explanation": "'Left' es izquierda."
@@ -36,7 +36,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la dirección.",
       "questions": [
         {
-          "question": "[[Turn|Gira a la]] (_____) .",
+          "question": "[[Turn|Gira a la]] (_____) [[right|derecha]].",
           "options": ["[[right|derecha]]", "[[left|izquierda]]", "[[back|atrás]]"],
           "correctAnswer": 0,
           "explanation": "'Right' es derecha."
@@ -58,7 +58,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la dirección.",
       "questions": [
         {
-          "question": "[[Go|Ve]] (_____) [[on.]]",
+          "question": "[[Go|Ve]] (_____) [[straight on|todo recto]].",
           "options": ["[[straight|recto]]", "[[slowly|despacio]]", "[[quickly|rápido]]"],
           "correctAnswer": 0,
           "explanation": "'Straight' es recto."
@@ -80,7 +80,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[The bank is on the|El banco está en la]] (_____) .",
+          "question": "[[The bank is on the|El banco está en la]] (_____) [[corner|esquina]].",
           "options": ["[[corner|esquina]]", "[[middle|medio]]", "[[end|final]]"],
           "correctAnswer": 0,
           "explanation": "'Corner' es esquina."
@@ -102,7 +102,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[I have a|Tengo un]] (_____) .",
+          "question": "[[I have a|Tengo un]] (_____) [[map|mapa]].",
           "options": ["[[map|mapa]]", "[[book|libro]]", "[[pen|bolígrafo]]"],
           "correctAnswer": 0,
           "explanation": "'Map' es mapa."
@@ -124,7 +124,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[Is it|¿Está]] (_____) [[from here?]]",
+          "question": "[[Is it|¿Está]] (_____) [[far from here|lejos de aquí]]?",
           "options": ["[[far|lejos]]", "[[near|cerca]]", "[[close|cerca]]"],
           "correctAnswer": 0,
           "explanation": "'Far' es lejos."
@@ -146,7 +146,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la preposición.",
       "questions": [
         {
-          "question": "[[The museum is|El museo está]] (_____) [[the park.]]",
+          "question": "[[The museum is|El museo está]] (_____) [[near the park|cerca del parque]].",
           "options": ["[[near|cerca de]]", "[[under|debajo de]]", "[[behind|detrás de]]"],
           "correctAnswer": 0,
           "explanation": "'Near' es cerca."
@@ -168,7 +168,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la preposición.",
       "questions": [
         {
-          "question": "[[Go|Pasa]] (_____) [[the supermarket.]]",
+          "question": "[[Go|Pasa]] (_____) [[past the supermarket|por delante del supermercado]].",
           "options": ["[[past|por delante de]]", "[[through|a través de]]", "[[to|a]]"],
           "correctAnswer": 0,
           "explanation": "'Past' se usa para indicar que debes pasar por delante de un lugar sin entrar."
@@ -190,7 +190,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "(_____) [[the street.]]",
+          "question": "[[Cross|Cruza]] (_____) [[the street|la calle]].",
           "options": ["[[Cross|Cruza]]", "[[Open|Abre]]", "[[Stop|Para]]"],
           "correctAnswer": 0,
           "explanation": "'Cross' es cruzar."
@@ -212,7 +212,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Follow the|Sigue las]] (_____) .",
+          "question": "[[Follow the|Sigue las]] (_____) [[signs|señales]].",
           "options": ["[[signs|señales/letreros]]", "[[songs|canciones]]", "[[sights|vistas]]"],
           "correctAnswer": 0,
           "explanation": "'Signs' son señales o letreros."
@@ -234,7 +234,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Walk for two|Camina durante dos]] (_____) .",
+          "question": "[[Walk for two|Camina durante dos]] (_____) [[blocks|manzanas]].",
           "options": ["[[blocks|manzanas (calles)]]", "[[books|libros]]", "[[boats|barcos]]"],
           "correctAnswer": 0,
           "explanation": "'Blocks' se refiere a las manzanas de casas en una ciudad."
@@ -256,7 +256,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Take the second|Toma el segundo]] (_____) [[on the right.]]",
+          "question": "[[Take the second|Toma el segundo]] (_____) [[turning on the right|giro a la derecha]].",
           "options": ["[[turning|giro/bocacalle]]", "[[running|corriendo]]", "[[walking|caminando]]"],
           "correctAnswer": 0,
           "explanation": "'Turning' es un giro o una calle donde puedes girar."
@@ -278,7 +278,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la dirección.",
       "questions": [
         {
-          "question": "[[Go|Ve]] (_____) [[to the station.]]",
+          "question": "[[Go|Ve]] (_____) [[back to the station|de vuelta a la estación]].",
           "options": ["[[back|atrás/vuelve]]", "[[up|arriba]]", "[[down|abajo]]"],
           "correctAnswer": 0,
           "explanation": "'Go back' es volver o ir hacia atrás."
@@ -300,7 +300,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la preposición.",
       "questions": [
         {
-          "question": "[[The library is|La biblioteca está]] (_____) [[the post office.]]",
+          "question": "[[The library is|La biblioteca está]] (_____) [[opposite the post office|en frente de la oficina de correos]].",
           "options": ["[[opposite|en frente de]]", "[[inside|dentro de]]", "[[with|con]]"],
           "correctAnswer": 0,
           "explanation": "'Opposite' significa al otro lado de la calle o en frente de."
@@ -322,7 +322,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la preposición.",
       "questions": [
         {
-          "question": "[[It is|Está]] (_____) [[the cinema and the cafe.]]",
+          "question": "[[It is|Está]] (_____) [[between the cinema and the cafe|entre el cine y el café]].",
           "options": ["[[between|entre]]", "[[among|entre (muchos)]]", "[[beside|al lado de]]"],
           "correctAnswer": 0,
           "explanation": "'Between' se usa para indicar que algo está entre dos cosas."
@@ -344,7 +344,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[You will see a big|Verás un gran]] (_____) .",
+          "question": "[[You will see a big|Verás un gran]] (_____) [[bridge|puente]].",
           "options": ["[[bridge|puente]]", "[[building|edificio]]", "[[bus|autobús]]"],
           "correctAnswer": 0,
           "explanation": "'Bridge' es puente."
@@ -366,7 +366,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[Stop at the|Para en el]] (_____) .",
+          "question": "[[Stop at the|Para en el]] (_____) [[traffic lights|semáforo]].",
           "options": ["[[traffic lights|semáforo]]", "[[stop sign|señal de stop]]", "[[green light|luz verde]]"],
           "correctAnswer": 0,
           "explanation": "'Traffic lights' es semáforo."
@@ -388,7 +388,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Use the|Usa el]] (_____) .",
+          "question": "[[Use the|Usa el]] (_____) [[pedestrian crossing|paso de peatones]].",
           "options": ["[[pedestrian crossing|paso de peatones]]", "[[car park|aparcamiento]]", "[[bus stop|parada de autobús]]"],
           "correctAnswer": 0,
           "explanation": "'Pedestrian crossing' es paso de peatones (zebra crossing)."
@@ -410,7 +410,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is on the GPS.]]",
+          "question": "[[The|La]] (_____) [[location|ubicación]] [[is on the GPS|está en el GPS]].",
           "options": ["[[location|ubicación]]", "[[library|biblioteca]]", "[[lesson|lección]]"],
           "correctAnswer": 0,
           "explanation": "'Location' es ubicación."
@@ -432,7 +432,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[I am|Estoy]] (_____) .",
+          "question": "[[I am|Estoy]] (_____) [[lost|perdido]].",
           "options": ["[[lost|perdido]]", "[[last|último]]", "[[fast|rápido]]"],
           "correctAnswer": 0,
           "explanation": "'Lost' es perdido."
@@ -456,7 +456,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Pregunta por direcciones.",
       "questions": [
         {
-          "question": "(_____) [[do I get to the museum?]]",
+          "question": "(_____) [[do I get to the museum|llego al museo]]?",
           "options": ["[[How|Cómo]]", "[[Where|Dónde]]", "[[When|Cuándo]]"],
           "correctAnswer": 0,
           "explanation": "'How do I get to' se usa para preguntar el camino a un lugar."
@@ -478,7 +478,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la preposición de tiempo/espacio.",
       "questions": [
         {
-          "question": "[[Go straight|Sigue recto]] (_____) [[the park.]]",
+          "question": "[[Go straight|Sigue recto]] (_____) [[until the park|hasta el parque]].",
           "options": ["[[until|hasta]]", "[[at|en]]", "[[for|durante]]"],
           "correctAnswer": 0,
           "explanation": "'Until' significa hasta un punto determinado."
@@ -500,7 +500,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la preposición.",
       "questions": [
         {
-          "question": "[[Turn left|Gira a la izquierda]] (_____) [[the supermarket.]]",
+          "question": "[[Turn left|Gira a la izquierda]] (_____) [[at the supermarket|en el supermercado]].",
           "options": ["[[at|en]]", "[[in|en]]", "[[on|en]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'at' para puntos específicos en el mapa."
@@ -522,7 +522,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'Is there'.",
       "questions": [
         {
-          "question": "(_____) [[a pharmacy near here?]]",
+          "question": "(_____) [[a pharmacy near here|una farmacia cerca de aquí]]?",
           "options": ["[[Is there|¿Hay?]]", "[[Are there|¿Hay? (plural)]]", "[[There is|Hay]]"],
           "correctAnswer": 0,
           "explanation": "Pregunta por un lugar en singular."
@@ -544,7 +544,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la preposición.",
       "questions": [
         {
-          "question": "[[Walk|Camina]] (_____) [[the bridge.]]",
+          "question": "[[Walk|Camina]] (_____) [[across the bridge|por el puente]].",
           "options": ["[[across|a través de/por]]", "[[under|debajo de]]", "[[on|en]]"],
           "correctAnswer": 0,
           "explanation": "'Across' se usa para cruzar de un lado a otro."
@@ -583,7 +583,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'Can you'.",
       "questions": [
         {
-          "question": "(_____) [[you show me on the map?]]",
+          "question": "(_____) [[you show me on the map|puedes enseñarme en el mapa]]?",
           "options": ["[[Can|¿Puedes?]]", "[[Do|¿Haces?]]", "[[Are|¿Eres?]]"],
           "correctAnswer": 0,
           "explanation": "'Can you' para pedir a alguien que haga algo."
@@ -605,7 +605,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la preposición.",
       "questions": [
         {
-          "question": "[[The park is|El parque está]] (_____) [[the school.]]",
+          "question": "[[The park is|El parque está]] (_____) [[behind the school|detrás de la escuela]].",
           "options": ["[[behind|detrás de]]", "[[in front of|delante de]]", "[[next to|al lado de]]"],
           "correctAnswer": 0,
           "explanation": "'Behind' es detrás de."
@@ -627,7 +627,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Uso del superlativo.",
       "questions": [
         {
-          "question": "[[Where is the|¿Dónde está el]] (_____) [[bank?]]",
+          "question": "[[Where is the|¿Dónde está el]] (_____) [[nearest bank|banco más cercano]]?",
           "options": ["[[nearest|más cercano]]", "[[nearer|más cercano (comparativo)]]", "[[near|cerca]]"],
           "correctAnswer": 0,
           "explanation": "'Nearest' es el superlativo de 'near'."
@@ -666,7 +666,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la preposición.",
       "questions": [
         {
-          "question": "[[Go|Ve]] (_____) [[the street.]]",
+          "question": "[[Go|Ve]] (_____) [[up the street|calle arriba]].",
           "options": ["[[up|hacia arriba]]", "[[down|hacia abajo]]", "[[in|en]]"],
           "correctAnswer": 0,
           "explanation": "'Go up the street' significa seguir la calle hacia arriba (o simplemente seguirla)."
@@ -688,7 +688,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica el número ordinal.",
       "questions": [
         {
-          "question": "[[Turn at the|Gira en la]] (_____) [[street.]]",
+          "question": "[[Turn at the|Gira en la]] (_____) [[second street|segunda calle]].",
           "options": ["[[second|segunda]]", "[[two|dos]]", "[[twice|dos veces]]"],
           "correctAnswer": 0,
           "explanation": "Usamos números ordinales para dar instrucciones."
@@ -710,7 +710,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Pregunta con 'need to'.",
       "questions": [
         {
-          "question": "(_____) [[I need to take a bus?]]",
+          "question": "(_____) [[I need to take a bus|necesito coger un autobús]]?",
           "options": ["[[Do|¿Hago? (auxiliar)]]", "[[Does|¿Hace?]]", "[[Am|¿Soy?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Do' para preguntar con 'I'."
@@ -732,7 +732,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la expresión.",
       "questions": [
         {
-          "question": "[[It takes ten minutes|Se tarda diez minutos]] (_____) .",
+          "question": "[[It takes ten minutes|Se tarda diez minutos]] (_____) [[on foot|a pie]].",
           "options": ["[[on foot|a pie]]", "[[by foot|por pie (incorrecto)]]", "[[walking|caminando]]"],
           "correctAnswer": 0,
           "explanation": "'On foot' es la expresión habitual para 'caminando'."
@@ -754,7 +754,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra interrogativa.",
       "questions": [
         {
-          "question": "(_____) [[way is the city center?]]",
+          "question": "(_____) [[way is the city center|es el camino al centro de la ciudad]]?",
           "options": ["[[Which|Por cuál/Qué]]", "[[How|Cómo]]", "[[Where|Dónde]]"],
           "correctAnswer": 0,
           "explanation": "'Which way' pregunta por el camino o dirección."
@@ -776,7 +776,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Uso del presente continuo.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[for the library.]]",
+          "question": "[[I|Yo]] (_____) [[am looking|estoy buscando]] [[for the library|la biblioteca]].",
           "options": ["[[am looking|estoy buscando]]", "[[look|miro]]", "[[looking|buscando]]"],
           "correctAnswer": 0,
           "explanation": "'I am looking for' significa estoy buscando algo en este momento."
@@ -798,7 +798,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Identifica la preposición.",
       "questions": [
         {
-          "question": "[[The school is|La escuela está]] (_____) [[the library.]]",
+          "question": "[[The school is|La escuela está]] (_____) [[next to the library|al lado de la biblioteca]].",
           "options": ["[[next to|al lado de]]", "[[above|encima de]]", "[[under|debajo de]]"],
           "correctAnswer": 0,
           "explanation": "'Next to' es al lado de."

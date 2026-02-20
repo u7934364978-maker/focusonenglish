@@ -14,7 +14,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I go to|Voy a la]] (_____) [[every morning.]]",
+          "question": "[[I go to|Voy a la]] (_____) [[every morning.|todas las mañanas.]]",
           "options": ["[[school|escuela/colegio]]", "[[shop|tienda]]", "[[station|estación]]"],
           "correctAnswer": 0,
           "explanation": "'School' es escuela o colegio."
@@ -36,7 +36,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El/La]] (_____) [[is very kind.]]",
+          "question": "[[The|El/La]] (_____) [[is very kind.|es muy amable.]]",
           "options": ["[[teacher|profesor/profesora]]", "[[traveler|viajero]]", "[[taxis|taxis]]"],
           "correctAnswer": 0,
           "explanation": "'Teacher' es profesor o profesora."
@@ -80,7 +80,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Open your|Abre tu]] (_____) [[to page ten.]]",
+          "question": "[[Open your|Abre tu]] (_____) [[to page ten.|por la página diez.]]",
           "options": ["[[book|libro]]", "[[box|caja]]", "[[bag|bolso]]"],
           "correctAnswer": 0,
           "explanation": "'Book' es libro."
@@ -102,7 +102,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I need a|Necesito un]] (_____) [[to write.]]",
+          "question": "[[I need a|Necesito un]] (_____) [[to write.|para escribir.]]",
           "options": ["[[pencil|lápiz]]", "[[paper|papel]]", "[[pen|bolígrafo]]"],
           "correctAnswer": 0,
           "explanation": "'Pencil' es lápiz."
@@ -124,7 +124,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is on the second floor.]]",
+          "question": "[[The|El]] (_____) [[is on the second floor.|está en el segundo piso.]]",
           "options": ["[[classroom|aula/salón de clase]]", "[[cleanroom|sala blanca]]", "[[clubhouse|club]]"],
           "correctAnswer": 0,
           "explanation": "'Classroom' es el aula o salón de clase."
@@ -168,7 +168,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I have an|Tengo un]] (_____) [[tomorrow.]]",
+          "question": "[[I have an|Tengo un]] (_____) [[tomorrow.|mañana.]]",
           "options": ["[[exam|examen]]", "[[example|ejemplo]]", "[[extra|extra]]"],
           "correctAnswer": 0,
           "explanation": "'Exam' es examen."
@@ -190,7 +190,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I got a good|Saqué una buena]] (_____) [[in English.]]",
+          "question": "[[I got a good|Saqué una buena]] (_____) [[in English.|en inglés.]]",
           "options": ["[[grade|nota/calificación]]", "[[grape|uva]]", "[[grass|hierba]]"],
           "correctAnswer": 0,
           "explanation": "'Grade' es nota o calificación."
@@ -234,7 +234,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[My favorite|Mi]] (_____) [[favorita]] [[is History.]]",
+          "question": "[[My favorite|Mi]] (_____) [[is History.|es Historia.]]",
           "options": ["[[subject|asignatura/materia]]", "[[subtract|restar]]", "[[submit|enviar]]"],
           "correctAnswer": 0,
           "explanation": "'Subject' es una asignatura o materia de estudio."
@@ -278,7 +278,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is very quiet.]]",
+          "question": "[[The|La]] (_____) [[is very quiet.|es muy silenciosa.]]",
           "options": ["[[library|biblioteca]]", "[[laboratory|laboratorio]]", "[[lesson|lección]]"],
           "correctAnswer": 0,
           "explanation": "'Library' es biblioteca."
@@ -300,7 +300,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[This|Esta]] (_____) [[is very interesting.]]",
+          "question": "[[This|Esta]] (_____) [[is very interesting.|es muy interesante.]]",
           "options": ["[[lesson|lección]]", "[[listen|escuchar]]", "[[letter|carta]]"],
           "correctAnswer": 0,
           "explanation": "'Lesson' es lección."
@@ -344,7 +344,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We have a|Tenemos una]] (_____) [[today.]]",
+          "question": "[[We have a|Tenemos una]] (_____) [[today.|hoy.]]",
           "options": ["[[presentation|presentación]]", "[[preparation|preparación]]", "[[prediction|predicción]]"],
           "correctAnswer": 0,
           "explanation": "'Presentation' es presentación."
@@ -366,7 +366,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is ten weeks long.]]",
+          "question": "[[The|El]] (_____) [[is ten weeks long.|dura diez semanas.]]",
           "options": ["[[course|curso]]", "[[case|caso]]", "[[cause|causa]]"],
           "correctAnswer": 0,
           "explanation": "'Course' es curso."
@@ -456,7 +456,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Presente simple.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[English two hours every day.]]",
+          "question": "[[I|Yo]] (_____) [[English two hours every day.|inglés dos horas todos los días.]]",
           "options": ["[[study|estudio]]", "[[studies|estudia]]", "[[studying|estudiando]]"],
           "correctAnswer": 0,
           "explanation": "Con 'I', usamos la forma base del verbo en presente simple."
@@ -478,7 +478,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Presente continuo.",
       "questions": [
         {
-          "question": "[[She|Ella]] (_____) [[French this year.]]",
+          "question": "[[She|Ella]] (_____) [[French this year.|francés este año.]]",
           "options": ["[[is learning|está aprendiendo]]", "[[learns|aprende]]", "[[learn|aprender]]"],
           "correctAnswer": 0,
           "explanation": "Para procesos actuales, usamos am/is/are + gerundio."
@@ -500,7 +500,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'much' con sustantivos incontables.",
       "questions": [
         {
-          "question": "[[Do you have|¿Tienes]] (_____) [[homework tonight?]]",
+          "question": "[[Do you have|¿Tienes]] (_____) [[homework tonight?|deberes esta noche?]]",
           "options": ["[[much|mucho (incontable)]]", "[[many|muchos (contable)]]", "[[a lot|un montón]]"],
           "correctAnswer": 0,
           "explanation": "'Homework' es incontable en inglés, por lo que usamos 'much'."
@@ -522,7 +522,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica el posesivo.",
       "questions": [
         {
-          "question": "(_____) [[favorite subject is Science.]]",
+          "question": "(_____) [[favorite subject is Science.|mi asignatura favorita es la ciencia.]]",
           "options": ["[[My|Mi]]", "[[I|Yo]]", "[[Me|Mí]]"],
           "correctAnswer": 0,
           "explanation": "'My' es el adjetivo posesivo para 'yo'."
@@ -544,7 +544,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Pregunta en pasado simple.",
       "questions": [
         {
-          "question": "(_____) [[you pass the exam?]]",
+          "question": "(_____) [[you pass the exam?|pasaste el examen?]]",
           "options": ["[[Did|¿Pasaste? (auxiliar)]]", "[[Do|¿Pasas?]]", "[[Does|¿Pasa?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Did' para preguntas en pasado."
@@ -583,7 +583,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Phrasal verb 'look for'.",
       "questions": [
         {
-          "question": "[[I am|Estoy]] (_____) [[for my pencil.]]",
+          "question": "[[I am|Estoy]] (_____) [[for my pencil.|mi lápiz.]]",
           "options": ["[[looking|mirando/buscando]]", "[[watching|viendo]]", "[[seeing|viendo]]"],
           "correctAnswer": 0,
           "explanation": "'Look for' significa buscar."
@@ -605,7 +605,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Negación en presente simple.",
       "questions": [
         {
-          "question": "[[He|Él]] (_____) [[have a pen.]]",
+          "question": "[[He|Él]] (_____) [[have a pen.|tiene un bolígrafo.]]",
           "options": ["[[doesn't|no (auxiliar)]]", "[[don't|no]]", "[[no|no]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'doesn't' para la tercera persona del singular (he/she/it)."
@@ -627,7 +627,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'should'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[arrive early at school.]]",
+          "question": "[[We|Nosotros]] (_____) [[arrive early at school.|llegar temprano a la escuela.]]",
           "options": ["[[should|deberíamos]]", "[[shall|deberemos]]", "[[will|llegaremos]]"],
           "correctAnswer": 0,
           "explanation": "'Should' se usa para consejos o sugerencias."
@@ -666,7 +666,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'like to' + infinitivo.",
       "questions": [
         {
-          "question": "[[I like|Me gusta]] (_____) [[books in the library.]]",
+          "question": "[[I like|Me gusta]] (_____) [[books in the library.|leer libros en la biblioteca.]]",
           "options": ["[[to read|leer]]", "[[reading|leyendo]]", "[[read|leer (forma base)]]"],
           "correctAnswer": 0,
           "explanation": "Tras 'like' podemos usar tanto 'to' + infinitivo como el gerundio."
@@ -688,7 +688,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'There is'.",
       "questions": [
         {
-          "question": "(_____) [[a big chalkboard in the classroom.]]",
+          "question": "(_____) [[a big chalkboard in the classroom.|una pizarra grande en el aula.]]",
           "options": ["[[There is|Hay (singular)]]", "[[There are|Hay (plural)]]", "[[Is there|¿Hay?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'There is' para una sola unidad."
@@ -710,7 +710,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Pasado simple regular.",
       "questions": [
         {
-          "question": "[[I|Terminé]] (_____) [[my homework an hour ago.]]",
+          "question": "[[I|Terminé]] (_____) [[my homework an hour ago.|mis deberes hace una hora.]]",
           "options": ["[[finished|terminé]]", "[[finish|terminar]]", "[[finishing|terminando]]"],
           "correctAnswer": 0,
           "explanation": "Añadimos '-ed' para formar el pasado de los verbos regulares."
@@ -732,7 +732,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'How many' con contables.",
       "questions": [
         {
-          "question": "(_____) [[students are in the class?]]",
+          "question": "(_____) [[students are in the class?|estudiantes hay en la clase?]]",
           "options": ["[[How many|Cuántos]]", "[[How much|Cuánto]]", "[[How often|Con qué frecuencia]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'How many' para preguntar por la cantidad de elementos contables (estudiantes)."
@@ -754,7 +754,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Pasado simple de 'tell'.",
       "questions": [
         {
-          "question": "[[The teacher|El profesor]] (_____) [[us to open our books.]]",
+          "question": "[[The teacher|El profesor]] (_____) [[us to open our books.|que abriéramos nuestros libros.]]",
           "options": ["[[told|nos dijo]]", "[[tells|nos dice]]", "[[tell|decir]]"],
           "correctAnswer": 0,
           "explanation": "'Told' es el pasado irregular de 'tell'."
@@ -776,7 +776,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Adjetivo + preposición.",
       "questions": [
         {
-          "question": "[[I am good|Soy bueno]] (_____) [[Mathematics.]]",
+          "question": "[[I am good|Soy bueno]] (_____) [[Mathematics.|las matemáticas.]]",
           "options": ["[[at|en]]", "[[in|en]]", "[[on|en]]"],
           "correctAnswer": 0,
           "explanation": "Se dice 'good at' para expresar que se nos da bien algo."
@@ -798,7 +798,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Comparativo con adjetivo terminado en '-y'.",
       "questions": [
         {
-          "question": "[[This book is|Este libro es]] (_____) [[than that one.]]",
+          "question": "[[This book is|Este libro es]] (_____) [[than that one.|que ese.]]",
           "options": ["[[easier|más fácil]]", "[[easyer|más fácil (incorrecto)]]", "[[more easy|más fácil (incorrecto)]]"],
           "correctAnswer": 0,
           "explanation": "Para adjetivos terminados en '-y', cambiamos la 'y' por 'i' y añadimos '-er'."
@@ -820,7 +820,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[I need to|Necesito]] (_____) [[a question.]]",
+          "question": "[[I need to|Necesito]] (_____) [[a question.|una pregunta.]]",
           "options": ["[[ask|hacer (preguntar)]]", "[[do|hacer (realizar)]]", "[[make|hacer (crear)]]"],
           "correctAnswer": 0,
           "explanation": "En inglés se dice 'ask a question'."
@@ -859,7 +859,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Presente continuo + propósito.",
       "questions": [
         {
-          "question": "[[I am studying|Estoy estudiando]] (_____) [[my exams.]]",
+          "question": "[[I am studying|Estoy estudiando]] (_____) [[my exams.|mis exámenes.]]",
           "options": ["[[for|para]]", "[[to|a]]", "[[at|en]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'for' para indicar el motivo o el examen para el cual estudiamos."
@@ -883,7 +883,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I have a|Tengo un]] (_____) [[in my bag.]]",
+          "question": "[[I have a|Tengo un]] (_____) [[in my bag.|en mi bolso.]]",
           "options": ["[[pen|bolígrafo/pluma]]", "[[pin|alfiler]]", "[[pan|sartén]]"],
           "correctAnswer": 0,
           "explanation": "'Pen' es bolígrafo o pluma."
@@ -905,7 +905,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is clean.]]",
+          "question": "[[The|El]] (_____) [[is clean.|está limpio.]]",
           "options": ["[[desk|escritorio/pupitre]]", "[[disk|disco]]", "[[dark|oscuro]]"],
           "correctAnswer": 0,
           "explanation": "'Desk' es un escritorio o pupitre."
@@ -927,7 +927,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[the test.]]",
+          "question": "[[I|Yo]] (_____) [[the test.|el examen.]]",
           "options": ["[[failed|suspendí]]", "[[passed|aprobé]]", "[[fell|caí]]"],
           "correctAnswer": 0,
           "explanation": "'Failed' es el pasado de 'fail' (suspender o fallar un examen)."
@@ -971,7 +971,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I am a|Soy un]] (_____) [[de esta escuela.]]",
+          "question": "[[I am a|Soy un]] (_____) [[of this school.|de esta escuela.]]",
           "options": ["[[graduate|graduado/graduada]]", "[[grade|nota]]", "[[gravity|gravedad]]"],
           "correctAnswer": 0,
           "explanation": "'Graduate' es una persona que se ha graduado."
@@ -993,7 +993,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is very heavy.]]",
+          "question": "[[The|El]] (_____) [[is very heavy.|es muy pesado.]]",
           "options": ["[[dictionary|diccionario]]", "[[distance|distancia]]", "[[direction|dirección]]"],
           "correctAnswer": 0,
           "explanation": "'Dictionary' es diccionario."
@@ -1037,7 +1037,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The student got an|El estudiante sacó un]] (_____) [[on the test.]]",
+          "question": "[[The student got an|El estudiante sacó un]] (_____) [[on the test.|en el examen.]]",
           "options": ["[[A|Sobresaliente (A)]]", "[[B|Notable (B)]]", "[[C|Aprobado (C)]]"],
           "correctAnswer": 0,
           "explanation": "En el sistema anglosajón, 'A' es la calificación más alta."
@@ -1059,7 +1059,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[There is a|Hay un tour por el]] (_____) [[tour today.]]",
+          "question": "[[There is a|Hay un]] (_____) [[tour today.|tour hoy.]]",
           "options": ["[[campus|campus]]", "[[camp|campamento]]", "[[camera|cámara]]"],
           "correctAnswer": 0,
           "explanation": "'Campus' es el recinto de una universidad."
@@ -1081,7 +1081,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I am a|Soy un]] (_____) [[tuyo.]]",
+          "question": "[[I am a|Soy un]] (_____) [[of yours.|tuyo.]]",
           "options": ["[[classmate|compañero de clase]]", "[[classroom|aula]]", "[[classic|clásico]]"],
           "correctAnswer": 0,
           "explanation": "'Classmate' es un compañero de clase."
@@ -1162,7 +1162,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is very beautiful in the spring.]]",
+          "question": "[[The|El]] (_____) [[is very beautiful in the spring.|es muy hermoso en la primavera.]]",
           "options": ["[[campus|campus]]", "[[classroom|aula]]", "[[club|club]]"],
           "correctAnswer": 0,
           "explanation": "'Campus' es el recinto universitario."
@@ -1184,7 +1184,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[I need to|Necesito]] (_____) [[for the course.]]",
+          "question": "[[I need to|Necesito]] (_____) [[for the course.|para el curso.]]",
           "options": ["[[register|registrarme/inscribirme]]", "[[reserve|reservar]]", "[[receive|recibir]]"],
           "correctAnswer": 0,
           "explanation": "'Register' es inscribirse o registrarse en un curso."
@@ -1206,7 +1206,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[What is the|¿Cuál es la]] (_____) [[para los deberes?]]",
+          "question": "[[What is the|¿Cuál es la]] (_____) [[for the homework?|para los deberes?]]",
           "options": ["[[deadline|fecha límite]]", "[[daylight|luz del día]]", "[[database|base de datos]]"],
           "correctAnswer": 0,
           "explanation": "'Deadline' es la fecha límite."
@@ -1245,7 +1245,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[I am|Estoy]] (_____) [[a math course.]]",
+          "question": "[[I am|Estoy]] (_____) [[taking a math course.|haciendo un curso de matemáticas.]]",
           "options": ["[[taking|haciendo/tomando]]", "[[making|haciendo/creando]]", "[[doing|haciendo]]"],
           "correctAnswer": 0,
           "explanation": "En inglés se suele decir 'take a course'."
@@ -1267,7 +1267,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Presente continuo.",
       "questions": [
         {
-          "question": "[[The teacher is|El profesor está]] (_____) [[the project.]]",
+          "question": "[[The teacher is|El profesor está]] (_____) [[the project.|el proyecto.]]",
           "options": ["[[explaining|explicando]]", "[[exploring|explorando]]", "[[exporting|exportando]]"],
           "correctAnswer": 0,
           "explanation": "'Explaining' es explicando."
@@ -1289,7 +1289,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I need a|Necesito un]] (_____) [[for my translation.]]",
+          "question": "[[I need a|Necesito un]] (_____) [[for my translation.|para mi traducción.]]",
           "options": ["[[dictionary|diccionario]]", "[[directory|directorio]]", "[[discovery|descubrimiento]]"],
           "correctAnswer": 0,
           "explanation": "'Dictionary' es diccionario."
@@ -1311,7 +1311,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Pregunta básica.",
       "questions": [
         {
-          "question": "[[Are you|¿Estás]] (_____) [[for the lesson?]]",
+          "question": "[[Are you|¿Estás]] (_____) [[for the lesson?|para la lección?]]",
           "options": ["[[ready|listo]]", "[[read|leer]]", "[[red|rojo]]"],
           "correctAnswer": 0,
           "explanation": "'Ready' significa listo."

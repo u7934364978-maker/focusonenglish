@@ -36,7 +36,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[She is my|Ella es mi]] (_____) [[at work.]]",
+          "question": "[[She is my|Ella es mi]] (_____) [[at work.|en el trabajo.]]",
           "options": ["[[colleague|colega/compañero]]", "[[college|universidad]]", "[[color|color]]"],
           "correctAnswer": 0,
           "explanation": "'Colleague' es colega o compañero de trabajo."
@@ -58,7 +58,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El/La]] (_____) [[is in the office.]]",
+          "question": "[[The|El/La]] (_____) [[is in the office.|está en la oficina.]]",
           "options": ["[[manager|gerente/manager]]", "[[messenger|mensajero]]", "[[manner|manera]]"],
           "correctAnswer": 0,
           "explanation": "'Manager' es gerente o responsable."
@@ -80,7 +80,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I receive my|Recibo mi]] (_____) [[every month.]]",
+          "question": "[[I receive my|Recibo mi]] (_____) [[every month.|cada mes.]]",
           "options": ["[[salary|salario/sueldo]]", "[[salad|ensalada]]", "[[sale|venta]]"],
           "correctAnswer": 0,
           "explanation": "'Salary' es salario o sueldo."
@@ -102,7 +102,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I have a job|Tengo una]] (_____) [[de trabajo hoy.]]",
+          "question": "[[I have a job|Tengo una]] (_____) [[today.|hoy.]]",
           "options": ["[[interview|entrevista]]", "[[internet|internet]]", "[[internal|interno]]"],
           "correctAnswer": 0,
           "explanation": "'Interview' es entrevista."
@@ -124,7 +124,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Send your|Envía tu]] (_____) [[to the company.]]",
+          "question": "[[Send your|Envía tu]] (_____) [[to the company.|a la empresa.]]",
           "options": ["[[application|solicitud]]", "[[appliance|electrodoméstico]]", "[[appointment|cita]]"],
           "correctAnswer": 0,
           "explanation": "'Application' es una solicitud, por ejemplo, para un trabajo."
@@ -168,8 +168,8 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We have a team|Tenemos una]] (_____) [[de equipo a las nueve.]]",
-          "options": ["[[meeting|reunión]]", "[[meaning|significado]]", "[[marking|marcando]]"],
+          "question": "[[We have a team|Tenemos una reunión de]] (_____) [[at nine.|a las nueve.]]",
+          "options": ["[[meeting|equipo]]", "[[meaning|significado]]", "[[marking|marcando]]"],
           "correctAnswer": 0,
           "explanation": "'Meeting' es reunión."
         }
@@ -212,7 +212,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is Friday afternoon.]]",
+          "question": "[[The|La]] (_____) [[is Friday afternoon.|es el viernes por la tarde.]]",
           "options": ["[[deadline|fecha límite]]", "[[daylight|luz del día]]", "[[downline|línea descendente]]"],
           "correctAnswer": 0,
           "explanation": "'Deadline' es la fecha límite."
@@ -234,7 +234,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is very modern.]]",
+          "question": "[[The|La]] (_____) [[is very modern.|es muy moderna.]]",
           "options": ["[[office|oficina]]", "[[officer|oficial]]", "[[offering|ofrenda]]"],
           "correctAnswer": 0,
           "explanation": "'Office' es oficina."
@@ -256,7 +256,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[My|Mi]] (_____) [[is near the window.]]",
+          "question": "[[My|Mi]] (_____) [[is near the window.|está cerca de la ventana.]]",
           "options": ["[[desk|escritorio]]", "[[disk|disco]]", "[[dock|muelle]]"],
           "correctAnswer": 0,
           "explanation": "'Desk' es escritorio."
@@ -278,7 +278,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I use a|Uso un/una]] (_____) [[all day.]]",
+          "question": "[[I use a|Uso un/una]] (_____) [[all day.|todo el día.]]",
           "options": ["[[computer|ordenador/computadora]]", "[[calculator|calculadora]]", "[[calendar|calendario]]"],
           "correctAnswer": 0,
           "explanation": "'Computer' es ordenador o computadora."
@@ -322,7 +322,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is ringing.]]",
+          "question": "[[The|El]] (_____) [[is ringing.|está sonando.]]",
           "options": ["[[telephone|teléfono]]", "[[telescope|telescopio]]", "[[television|televisión]]"],
           "correctAnswer": 0,
           "explanation": "'Telephone' es teléfono."
@@ -344,7 +344,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is always right.]]",
+          "question": "[[The|El]] (_____) [[is always right.|siempre tiene la razón.]]",
           "options": ["[[customer|cliente]]", "[[custom|costumbre]]", "[[costume|disfraz]]"],
           "correctAnswer": 0,
           "explanation": "'Customer' es cliente."
@@ -388,7 +388,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[I need to|Necesito]] (_____) [[these documents.]]",
+          "question": "[[I need to|Necesito]] (_____) [[these documents.|estos documentos.]]",
           "options": ["[[print|imprimir]]", "[[paint|pintar]]", "[[point|señalar]]"],
           "correctAnswer": 0,
           "explanation": "'Print' es imprimir."
@@ -432,7 +432,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Our|Nuestra]] (_____) [[is growing fast.]]",
+          "question": "[[Our|Nuestra]] (_____) [[is growing fast.|está creciendo rápido.]]",
           "options": ["[[company|empresa/compañía]]", "[[campaign|campaña]]", "[[companion|compañero]]"],
           "correctAnswer": 0,
           "explanation": "'Company' es empresa o compañía."
@@ -456,7 +456,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Preposición de tiempo.",
       "questions": [
         {
-          "question": "[[I have a meeting|Tengo una reunión]] (_____) [[nine o'clock.]]",
+          "question": "[[I have a meeting|Tengo una reunión]] (_____) [[at nine o'clock.|a las nueve en punto.]]",
           "options": ["[[at|a las]]", "[[on|en]]", "[[in|en]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'at' para horas específicas."
@@ -478,7 +478,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Preposición 'with'.",
       "questions": [
         {
-          "question": "[[He|Él]] (_____) [[with many talented people.]]",
+          "question": "[[He|Él]] (_____) [[with many talented people.|con mucha gente talentosa.]]",
           "options": ["[[works|trabaja]]", "[[work|trabajar]]", "[[working|trabajando]]"],
           "correctAnswer": 0,
           "explanation": "Tercera persona del singular (He works)."
@@ -500,7 +500,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Phrasal verb 'look for'.",
       "questions": [
         {
-          "question": "[[Are you|¿Estás]] (_____) [[for a new job?]]",
+          "question": "[[Are you|¿Estás]] (_____) [[looking for a new job?|buscando un nuevo trabajo?]]",
           "options": ["[[looking|mirando/buscando]]", "[[watching|viendo]]", "[[seeing|viendo]]"],
           "correctAnswer": 0,
           "explanation": "'Look for' significa buscar."
@@ -522,7 +522,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Voz pasiva básica.",
       "questions": [
         {
-          "question": "[[My salary|Mi salario]] (_____) [[paid at the end of the month.]]",
+          "question": "[[My salary|Mi salario]] (_____) [[is paid at the end of the month.|es pagado al final del mes.]]",
           "options": ["[[is|es]]", "[[are|son]]", "[[be|ser]]"],
           "correctAnswer": 0,
           "explanation": "'Salary' es singular, usamos 'is'."
@@ -544,7 +544,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Pregunta básica.",
       "questions": [
         {
-          "question": "(_____) [[do you work?]]",
+          "question": "(_____) [[do you work?|trabajas?]]",
           "options": ["[[Where|Dónde]]", "[[When|Cuándo]]", "[[What|Qué]]"],
           "correctAnswer": 0,
           "explanation": "'Where' se usa para preguntar por lugares."
@@ -583,7 +583,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Pasado simple regular.",
       "questions": [
         {
-          "question": "[[The meeting|La reunión]] (_____) [[two hours.]]",
+          "question": "[[The meeting|La reunión]] (_____) [[lasted two hours.|duró dos horas.]]",
           "options": ["[[lasted|duró]]", "[[lasts|dura]]", "[[lasting|durando]]"],
           "correctAnswer": 0,
           "explanation": "'Lasted' es el pasado regular de 'last' (durar)."
@@ -605,7 +605,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Negación en tercera persona.",
       "questions": [
         {
-          "question": "[[She|A ella]] (_____) [[like her current job.]]",
+          "question": "[[She|A ella]] (_____) [[doesn't like her current job.|no le gusta su trabajo actual.]]",
           "options": ["[[doesn't|no (auxiliar)]]", "[[don't|no]]", "[[no|no]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'doesn't' para la tercera persona (she)."
@@ -627,7 +627,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'must'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[finish the project today.]]",
+          "question": "[[We|Nosotros]] (_____) [[must finish the project today.|debemos terminar el proyecto hoy.]]",
           "options": ["[[must|debemos]]", "[[should|deberíamos]]", "[[will|terminaremos]]"],
           "correctAnswer": 0,
           "explanation": "'Must' indica obligación."
@@ -666,7 +666,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Presente continuo.",
       "questions": [
         {
-          "question": "[[I am|Estoy]] (_____) [[an email to a client.]]",
+          "question": "[[I am|Estoy]] (_____) [[writing an email to a client.|escribiendo un correo a un cliente.]]",
           "options": ["[[writing|escribiendo]]", "[[reading|leyendo]]", "[[sending|enviando]]"],
           "correctAnswer": 0,
           "explanation": "Acción en progreso."
@@ -688,7 +688,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Verbo 'have' en tercera persona.",
       "questions": [
         {
-          "question": "[[The company|La empresa]] (_____) [[fifty employees.]]",
+          "question": "[[The company|La empresa]] (_____) [[has fifty employees.|tiene cincuenta empleados.]]",
           "options": ["[[has|tiene]]", "[[have|tener]]", "[[having|teniendo]]"],
           "correctAnswer": 0,
           "explanation": "'The company' equivale a 'it', por lo que usamos 'has'."
@@ -710,7 +710,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Pregunta en pasado simple.",
       "questions": [
         {
-          "question": "(_____) [[you receive the document?]]",
+          "question": "(_____) [[did you receive the document?|recibiste el documento?]]",
           "options": ["[[Did|¿Recibiste? (auxiliar)]]", "[[Do|¿Recibes?]]", "[[Does|¿Recibe?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Did' para preguntas en pasado."
@@ -732,7 +732,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'How many' con contables.",
       "questions": [
         {
-          "question": "(_____) [[emails do you send daily?]]",
+          "question": "(_____) [[how many emails do you send daily?|cuántos correos envías diariamente?]]",
           "options": ["[[How many|Cuántos]]", "[[How much|Cuánto]]", "[[How long|Cuánto tiempo]]"],
           "correctAnswer": 0,
           "explanation": "'Emails' es contable."
@@ -754,7 +754,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Adjetivo + preposición + gerundio.",
       "questions": [
         {
-          "question": "[[I am good|Soy bueno]] (_____) [[solving problems.]]",
+          "question": "[[I am good|Soy bueno]] (_____) [[at solving problems.|resolviendo problemas.]]",
           "options": ["[[at|en]]", "[[in|en]]", "[[on|en]]"],
           "correctAnswer": 0,
           "explanation": "Se dice 'good at'."
@@ -776,7 +776,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Preposición de lugar.",
       "questions": [
         {
-          "question": "[[The office is|La oficina está]] (_____) [[the top floor.]]",
+          "question": "[[The office is|La oficina está]] (_____) [[on the top floor.|en el último piso.]]",
           "options": ["[[on|en]]", "[[at|en]]", "[[in|en]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'on' para pisos de edificios."
@@ -798,7 +798,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Comparativo.",
       "questions": [
         {
-          "question": "[[He earns|Él gana]] (_____) [[money than me.]]",
+          "question": "[[He earns|Él gana]] (_____) [[more money than me.|más dinero que yo.]]",
           "options": ["[[more|más]]", "[[most|lo más]]", "[[much|mucho]]"],
           "correctAnswer": 0,
           "explanation": "'More' es el comparativo de superioridad."
@@ -820,7 +820,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica la preposición.",
       "questions": [
         {
-          "question": "[[I need to talk|Necesito hablar]] (_____) [[my boss.]]",
+          "question": "[[I need to talk|Necesito hablar]] (_____) [[to my boss.|con mi jefe.]]",
           "options": ["[[to|con/a]]", "[[at|en]]", "[[on|en]]"],
           "correctAnswer": 0,
           "explanation": "En inglés se suele decir 'talk to someone'."
@@ -859,7 +859,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Futuro con 'going to'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[to have a lunch meeting.]]",
+          "question": "[[We|Nosotros]] (_____) [[are going to have a lunch meeting.|vamos a tener una reunión durante el almuerzo.]]",
           "options": ["[[are going|vamos]]", "[[is going|va]]", "[[am going|voy]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'are going' para 'we'."
@@ -905,7 +905,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is on the desk.]]",
+          "question": "[[The|El]] (_____) [[is on the desk.|está sobre el escritorio.]]",
           "options": ["[[laptop|portátil]]", "[[desktop|escritorio]]", "[[tablet|tableta]]"],
           "correctAnswer": 0,
           "explanation": "'Laptop' es ordenador portátil."
@@ -949,7 +949,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[We need to|Necesitamos]] (_____) [[a más gente.]]",
+          "question": "[[We need to|Necesitamos]] (_____) [[more people.|a más gente.]]",
           "options": ["[[hire|contratar]]", "[[fire|despedir]]", "[[higher|más alto]]"],
           "correctAnswer": 0,
           "explanation": "'Hire' es contratar."
@@ -971,7 +971,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[He was|Él fue]] (_____) [[de su trabajo.]]",
+          "question": "[[He was|Él fue]] (_____) [[from his job.|de su trabajo.]]",
           "options": ["[[fired|despedido]]", "[[hired|contratado]]", "[[fixed|arreglado]]"],
           "correctAnswer": 0,
           "explanation": "'Fired' es el pasado/participio de 'fire' (despedir)."
@@ -993,7 +993,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Our|Nuestro]] (_____) [[is to increase sales.]]",
+          "question": "[[Our|Nuestro]] (_____) [[is to increase sales.|es aumentar las ventas.]]",
           "options": ["[[target|objetivo/meta]]", "[[table|mesa]]", "[[traffic|tráfico]]"],
           "correctAnswer": 0,
           "explanation": "'Target' es objetivo o meta."
@@ -1015,7 +1015,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is very profitable.]]",
+          "question": "[[The|El]] (_____) [[is very profitable.|es muy rentable.]]",
           "options": ["[[business|negocio]]", "[[busy|ocupado]]", "[[browser|navegador]]"],
           "correctAnswer": 0,
           "explanation": "'Business' es negocio."
@@ -1081,7 +1081,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[My|Mi]] (_____) [[is very demanding.]]",
+          "question": "[[My|Mi]] (_____) [[is very demanding.|es muy exigente.]]",
           "options": ["[[boss|jefe/jefa]]", "[[bus|autobús]]", "[[base|base]]"],
           "correctAnswer": 0,
           "explanation": "'Boss' es jefe o jefa."
@@ -1162,7 +1162,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We have an|Tenemos una]] (_____) [[para una recepcionista.]]",
+          "question": "[[We have an|Tenemos una]] (_____) [[for a receptionist.|para una recepcionista.]]",
           "options": ["[[opening|vacante/puesto libre]]", "[[operating|operando]]", "[[ordering|ordenando]]"],
           "correctAnswer": 0,
           "explanation": "'Opening' puede significar una vacante en una empresa."
@@ -1245,7 +1245,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Preposición 'on'.",
       "questions": [
         {
-          "question": "[[I am working|Estoy trabajando]] (_____) [[my presentation.]]",
+          "question": "[[I am working|Estoy trabajando]] (_____) [[my presentation.|en mi presentación.]]",
           "options": ["[[on|en]]", "[[at|en]]", "[[in|en]]"],
           "correctAnswer": 0,
           "explanation": "Se dice 'work on' algo (un proyecto, presentación, etc.)."
@@ -1267,7 +1267,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Presente simple.",
       "questions": [
         {
-          "question": "[[The office|La oficina]] (_____) [[at six PM.]]",
+          "question": "[[The office|La oficina]] (_____) [[at six PM.|a las seis de la tarde.]]",
           "options": ["[[closes|cierra]]", "[[close|cerrar]]", "[[closing|cerrando]]"],
           "correctAnswer": 0,
           "explanation": "Tercera persona del singular."
@@ -1311,7 +1311,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[Are you|¿Estás]] (_____) [[right now?]]",
+          "question": "[[Are you|¿Estás]] (_____) [[right now?|ahora mismo?]]",
           "options": ["[[busy|ocupado]]", "[[business|negocio]]", "[[boss|jefe]]"],
           "correctAnswer": 0,
           "explanation": "'Busy' significa ocupado."

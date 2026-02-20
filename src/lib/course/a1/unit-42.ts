@@ -14,7 +14,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I have a|Tengo una]] (_____) .",
+          "question": "[[I have a|Tengo una]] (_____) [[reservation|reserva]].",
           "options": ["[[reservation|reserva]]", "[[restaurant|restaurante]]", "[[reception|recepción]]"],
           "correctAnswer": 0,
           "explanation": "'Reservation' es reserva."
@@ -36,7 +36,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[Where is the|¿Dónde está la]] (_____) ?",
+          "question": "[[Where is the|¿Dónde está la]] (_____) [[reception|recepción]]?",
           "options": ["[[reception|recepción]]", "[[room|habitación]]", "[[bathroom|baño]]"],
           "correctAnswer": 0,
           "explanation": "'Reception' es la recepción."
@@ -58,7 +58,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[Here is your|Aquí tienes tu]] (_____) .",
+          "question": "[[Here is your|Aquí tienes tu]] (_____) [[key|llave]].",
           "options": ["[[key|llave]]", "[[bag|bolsa]]", "[[card|tarjeta]]"],
           "correctAnswer": 0,
           "explanation": "'Key' es llave."
@@ -80,7 +80,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is on the first floor.]]",
+          "question": "[[The|La]] (_____) [[room|habitación]] [[is on the first floor|está en el primer piso]].",
           "options": ["[[room|habitación]]", "[[roof|techo]]", "[[road|carretera]]"],
           "correctAnswer": 0,
           "explanation": "'Room' es habitación."
@@ -102,7 +102,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Identifica el tipo de habitación.",
       "questions": [
         {
-          "question": "[[I need a|Necesito una]] (_____) [[room.]]",
+          "question": "[[I need a|Necesito una]] (_____) [[room|habitación]].",
           "options": ["[[single|individual]]", "[[double|doble]]", "[[triple|triple]]"],
           "correctAnswer": 0,
           "explanation": "'Single room' es habitación individual."
@@ -124,7 +124,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Identifica el tipo de habitación.",
       "questions": [
         {
-          "question": "[[We want a|Queremos una]] (_____) [[room.]]",
+          "question": "[[We want a|Queremos una]] (_____) [[room|habitación]].",
           "options": ["[[double|doble]]", "[[single|individual]]", "[[small|pequeña]]"],
           "correctAnswer": 0,
           "explanation": "'Double room' es habitación doble."
@@ -168,7 +168,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[Take the|Coge el]] (_____) [[to the third floor.]]",
+          "question": "[[Take the|Coge el]] (_____) [[lift|ascensor]] [[to the third floor|hacia el tercer piso]].",
           "options": ["[[lift|ascensor]]", "[[stairs|escaleras]]", "[[door|puerta]]"],
           "correctAnswer": 0,
           "explanation": "'Lift' es ascensor (UK) o 'elevator' (US)."
@@ -190,7 +190,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Identifica el servicio.",
       "questions": [
         {
-          "question": "[[The hotel has|El hotel tiene]] (_____) [[Wi-Fi.]]",
+          "question": "[[The hotel has|El hotel tiene]] (_____) [[Wi-Fi|Wi-Fi]].",
           "options": ["[[free|gratis]]", "[[expensive|caro]]", "[[slow|lento]]"],
           "correctAnswer": 0,
           "explanation": "'Free' es gratis."
@@ -212,7 +212,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[This is a five-]] (_____) [[hotel.]]",
+          "question": "[[This is a five-|Este es un hotel de cinco]] (_____) [[star hotel|estrellas]].",
           "options": ["[[star|estrella]]", "[[sun|sol]]", "[[moon|luna]]"],
           "correctAnswer": 0,
           "explanation": "'Star' es estrella."
@@ -278,7 +278,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[I need some clean|Necesito unas]] (_____) [[limpias.]]",
+          "question": "[[I need some clean|Necesito unas]] (_____) [[towels|toallas]] [[clean|limpias]].",
           "options": ["[[towels|toallas]]", "[[sheets|sábanas]]", "[[pillows|almohadas]]"],
           "correctAnswer": 0,
           "explanation": "'Towels' es toallas."
@@ -300,7 +300,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Identifica el sistema.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is not working.]]",
+          "question": "[[The|El]] (_____) [[air conditioning|aire acondicionado]] [[is not working|no funciona]].",
           "options": ["[[air conditioning|aire acondicionado]]", "[[heating|calefacción]]", "[[light|luz]]"],
           "correctAnswer": 0,
           "explanation": "'Air conditioning' es aire acondicionado."
@@ -322,7 +322,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is open.]]",
+          "question": "[[The|La]] (_____) [[pool|piscina]] [[is open|está abierta]].",
           "options": ["[[pool|piscina]]", "[[park|parque]]", "[[beach|playa]]"],
           "correctAnswer": 0,
           "explanation": "'Pool' es piscina."
@@ -344,7 +344,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Identifica el tipo de alojamiento.",
       "questions": [
         {
-          "question": "[[Where is the|¿Dónde está la]] (_____) ?",
+          "question": "[[Where is the|¿Dónde está la]] (_____) [[guest house|pensión]]?",
           "options": ["[[guest house|pensión/casa de huéspedes]]", "[[castle|castillo]]", "[[tent|tienda de campaña]]"],
           "correctAnswer": 0,
           "explanation": "'Guest house' es una casa de huéspedes o pensión."
@@ -366,7 +366,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Identifica el servicio.",
       "questions": [
         {
-          "question": "[[Is there|¿Hay]] (_____) ?",
+          "question": "[[Is there|¿Hay]] (_____) [[room service|servicio de habitaciones]]?",
           "options": ["[[room service|servicio de habitaciones]]", "[[car service|servicio de coches]]", "[[bus service|servicio de autobuses]]"],
           "correctAnswer": 0,
           "explanation": "'Room service' es el servicio de habitaciones."
@@ -388,7 +388,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Identifica la parte de la habitación.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[has a nice view.]]",
+          "question": "[[The|El]] (_____) [[balcony|balcón]] [[has a nice view|tiene una buena vista]].",
           "options": ["[[balcony|balcón]]", "[[door|puerta]]", "[[wall|pared]]"],
           "correctAnswer": 0,
           "explanation": "'Balcony' es balcón."

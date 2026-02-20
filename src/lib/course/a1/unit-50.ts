@@ -14,7 +14,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I want to write a|Quiero escribir una]] (_____) [[del hotel.]]",
+          "question": "[[I want to write a|Quiero escribir una]] (_____) [[of the hotel.|del hotel.]]",
           "options": ["[[review|reseña/comentario]]", "[[river|río]]", "[[radio|radio]]"],
           "correctAnswer": 0,
           "explanation": "'Review' es una reseña o comentario sobre un servicio o producto."
@@ -36,7 +36,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[was very helpful.]]",
+          "question": "[[The|El]] (_____) [[was very helpful.|era muy servicial.]]",
           "options": ["[[staff|personal]]", "[[stuff|cosas]]", "[[stage|escenario/etapa]]"],
           "correctAnswer": 0,
           "explanation": "'Staff' se refiere al conjunto de trabajadores de un lugar."
@@ -58,7 +58,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[was excellent.]]",
+          "question": "[[The|El]] (_____) [[was excellent.|fue excelente.]]",
           "options": ["[[service|servicio]]", "[[server|servidor]]", "[[series|serie]]"],
           "correctAnswer": 0,
           "explanation": "'Service' es servicio."
@@ -80,7 +80,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The breakfast was|El desayuno estaba]] (_____) .",
+          "question": "[[The breakfast was|El desayuno estaba]] (_____) [[included.|incluido.]]",
           "options": ["[[included|incluido]]", "[[increased|aumentado]]", "[[inside|dentro]]"],
           "correctAnswer": 0,
           "explanation": "'Included' significa incluido."
@@ -102,7 +102,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[I highly|Recomiendo encarecidamente este]] (_____) [[this place.]]",
+          "question": "[[I highly|Recomiendo encarecidamente]] (_____) [[this place.|este lugar.]]",
           "options": ["[[recommend|recomiendo]]", "[[remember|recuerdo]]", "[[recognize|reconozco]]"],
           "correctAnswer": 0,
           "explanation": "'Recommend' es recomendar."
@@ -124,7 +124,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[What is your|¿Cuál es tu]] (_____) [[about the food?]]",
+          "question": "[[What is your|¿Cuál es tu]] (_____) [[about the food?|sobre la comida?]]",
           "options": ["[[opinion|opinión]]", "[[option|opción]]", "[[operation|operación]]"],
           "correctAnswer": 0,
           "explanation": "'Opinion' es opinión."
@@ -146,7 +146,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The room was very|La habitación era muy]] (_____) .",
+          "question": "[[The room was very|La habitación era muy]] (_____) [[comfortable.|cómoda.]]",
           "options": ["[[comfortable|cómoda]]", "[[company|compañía]]", "[[complete|completa]]"],
           "correctAnswer": 0,
           "explanation": "'Comfortable' es cómodo."
@@ -168,7 +168,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is perfect.]]",
+          "question": "[[The|La]] (_____) [[location is perfect.|ubicación es perfecta.]]",
           "options": ["[[location|ubicación]]", "[[lesson|lección]]", "[[library|biblioteca]]"],
           "correctAnswer": 0,
           "explanation": "'Location' es ubicación."
@@ -190,7 +190,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We enjoyed our|Disfrutamos de nuestra]] (_____) .",
+          "question": "[[We enjoyed our|Disfrutamos de nuestra]] (_____) [[stay.|estancia.]]",
           "options": ["[[stay|estancia]]", "[[story|historia]]", "[[study|estudio]]"],
           "correctAnswer": 0,
           "explanation": "'Stay' como sustantivo significa estancia."
@@ -212,7 +212,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The price was|El precio era]] (_____) .",
+          "question": "[[The price was|El precio era]] (_____) [[reasonable.|razonable.]]",
           "options": ["[[reasonable|razonable]]", "[[ready|listo]]", "[[real|real]]"],
           "correctAnswer": 0,
           "explanation": "'Reasonable' significa razonable o justo."
@@ -234,7 +234,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[I had a|Tuve una]] (_____) [[experience.]]",
+          "question": "[[I had a|Tuve una]] (_____) [[bad experience.|mala experiencia.]]",
           "options": ["[[bad|mala]]", "[[big|grande]]", "[[blue|azul]]"],
           "correctAnswer": 0,
           "explanation": "'Bad' es malo."
@@ -256,7 +256,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[Everything was very|Todo estaba muy]] (_____) .",
+          "question": "[[Everything was very|Todo estaba muy]] (_____) [[clean.|limpio.]]",
           "options": ["[[clean|limpio]]", "[[clear|claro]]", "[[close|cerrado]]"],
           "correctAnswer": 0,
           "explanation": "'Clean' es limpio."
@@ -278,7 +278,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The atmosphere was|El ambiente era]] (_____) .",
+          "question": "[[The atmosphere was|El ambiente era]] (_____) [[pleasant.|agradable.]]",
           "options": ["[[pleasant|agradable]]", "[[please|por favor]]", "[[plastic|plástico]]"],
           "correctAnswer": 0,
           "explanation": "'Pleasant' es agradable."
@@ -300,7 +300,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I will|Sin duda que]] (_____) [[come back.]]",
+          "question": "[[I will|Sin duda que]] (_____) [[come back.|volveré.]]",
           "options": ["[[definitely|definitivamente]]", "[[different|diferente]]", "[[difficult|difícil]]"],
           "correctAnswer": 0,
           "explanation": "'Definitely' significa sin duda o definitivamente."
@@ -322,7 +322,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The wifi was|El wifi era]] (_____) .",
+          "question": "[[The wifi was|El wifi era]] (_____) [[slow.|lento.]]",
           "options": ["[[slow|lento]]", "[[short|corto]]", "[[small|pequeño]]"],
           "correctAnswer": 0,
           "explanation": "'Slow' es lento."
@@ -344,7 +344,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The decoration is|La decoración es]] (_____) .",
+          "question": "[[The decoration is|La decoración es]] (_____) [[unique.|única.]]",
           "options": ["[[unique|única]]", "[[under|debajo]]", "[[useful|útil]]"],
           "correctAnswer": 0,
           "explanation": "'Unique' significa único o excepcional."
@@ -366,7 +366,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|Las]] (_____) [[son increíbles.]]",
+          "question": "[[The|Las]] (_____) [[views are amazing.|son increíbles.]]",
           "options": ["[[views|vistas]]", "[[visits|visitas]]", "[[voices|voces]]"],
           "correctAnswer": 0,
           "explanation": "'Views' son vistas."
@@ -388,7 +388,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[of the food is high.]]",
+          "question": "[[The|La]] (_____) [[quality of the food is high.|de la comida es alta.]]",
           "options": ["[[quality|calidad]]", "[[quantity|cantidad]]", "[[question|pregunta]]"],
           "correctAnswer": 0,
           "explanation": "'Quality' es calidad."
@@ -456,7 +456,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'too' con adjetivos.",
       "questions": [
         {
-          "question": "[[I think that the hotel is|Creo que el hotel es]] (_____) [[expensive.]]",
+          "question": "[[I think that the hotel is|Creo que el hotel es]] (_____) [[too expensive.|demasiado caro.]]",
           "options": ["[[too|demasiado]]", "[[very|muy]]", "[[so|tan]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'too' antes de un adjetivo para indicar que algo es excesivo."
@@ -478,7 +478,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Comparativo con énfasis.",
       "questions": [
         {
-          "question": "[[The staff was|El personal era]] (_____) [[better than I expected.]]",
+          "question": "[[The staff was|El personal era]] (_____) [[better than I expected.|mucho mejor de lo que esperaba.]]",
           "options": ["[[much|mucho]]", "[[more|más]]", "[[very|muy]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'much' delante de un comparativo para dar énfasis."
@@ -500,7 +500,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Uso del superlativo 'best'.",
       "questions": [
         {
-          "question": "[[It was one of the|Fue uno de los]] (_____) [[restaurants in the city.]]",
+          "question": "[[It was one of the|Fue uno de los]] (_____) [[best restaurants in the city.|mejores restaurantes de la ciudad.]]",
           "options": ["[[best|mejores]]", "[[better|mejores (comp.)]]", "[[goodest|mejor (incorrecto)]]"],
           "correctAnswer": 0,
           "explanation": "'Best' es el superlativo de 'good'."
@@ -522,7 +522,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'would' para el condicional.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[recommend this hotel to anyone.]]",
+          "question": "[[I|Yo]] (_____) [[recommend this hotel to anyone.|recomendaría este hotel a cualquiera.]]",
           "options": ["[[would|recomendaría]]", "[[will|recomendaré]]", "[[can|puedo recomendar]]"],
           "correctAnswer": 0,
           "explanation": "'Would' se usa para formar el condicional de los verbos."
@@ -544,7 +544,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'too many'.",
       "questions": [
         {
-          "question": "[[There were|Había]] (_____) [[people in the pool.]]",
+          "question": "[[There were|Había]] (_____) [[people in the pool.|personas en la piscina.]]",
           "options": ["[[too many|demasiadas]]", "[[too much|demasiado (incontable)]]", "[[very many|muchísimas]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'too many' con sustantivos contables en plural."
@@ -583,7 +583,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Comparativo de igualdad en negativa.",
       "questions": [
         {
-          "question": "[[The service wasn't|El servicio no fue]] (_____) [[good as I expected.]]",
+          "question": "[[The service wasn't|El servicio no fue]] (_____) [[good as I expected.|tan bueno como esperaba.]]",
           "options": ["[[as|tan]]", "[[so|tan]]", "[[more|más]]"],
           "correctAnswer": 0,
           "explanation": "En oraciones negativas de igualdad, se usa 'as... as' o 'so... as'."
@@ -605,7 +605,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Negación en pasado simple.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[like the noise at night.]]",
+          "question": "[[I|Yo]] (_____) [[like the noise at night.|gustó el ruido por la noche.]]",
           "options": ["[[didn't|no (auxiliar)]]", "[[don't|no (presente)]]", "[[not|no]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'didn't' para negar en pasado simple."
@@ -627,7 +627,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'during'.",
       "questions": [
         {
-          "question": "[[Everything was perfect|Todo fue perfecto]] (_____) [[our stay.]]",
+          "question": "[[Everything was perfect|Todo fue perfecto]] (_____) [[our stay.|nuestra estancia.]]",
           "options": ["[[during|durante]]", "[[for|por/durante]]", "[[while|mientras]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'during' seguido de un sustantivo para indicar cuándo ocurrió algo."
@@ -666,7 +666,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Comparativo con énfasis.",
       "questions": [
         {
-          "question": "[[It is|Es]] (_____) [[more comfortable than my house.]]",
+          "question": "[[It is|Es]] (_____) [[more comfortable than my house.|más cómodo que mi casa.]]",
           "options": ["[[much|mucho]]", "[[very|muy]]", "[[so|tan]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'much' para enfatizar un comparativo ('much more...')."
@@ -688,7 +688,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'would like to'.",
       "questions": [
         {
-          "question": "[[I|Me]] (_____) [[like to stay here again.]]",
+          "question": "[[I|Me]] (_____) [[like to stay here again.|gustaría quedarme aquí de nuevo.]]",
           "options": ["[[would|gustaría]]", "[[will|gustará]]", "[[should|debería]]"],
           "correctAnswer": 0,
           "explanation": "'I would like to' es la forma educada de decir 'quiero' (me gustaría)."
@@ -710,7 +710,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'a lot of'.",
       "questions": [
         {
-          "question": "[[The hotel has|El hotel tiene]] (_____) [[positive reviews.]]",
+          "question": "[[The hotel has|El hotel tiene]] (_____) [[positive reviews.|reseñas positivas.]]",
           "options": ["[[a lot of|muchas]]", "[[much|mucha]]", "[[many|muchas]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'a lot of' tanto para contables como incontables."
@@ -732,7 +732,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Verbo de opinión.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[that the service is improving.]]",
+          "question": "[[I|Yo]] (_____) [[that the service is improving.|que el servicio está mejorando.]]",
           "options": ["[[believe|creo/considero]]", "[[belong|pertenezco]]", "[[begin|empiezo]]"],
           "correctAnswer": 0,
           "explanation": "'Believe' se usa para expresar creencias u opiniones."
@@ -754,7 +754,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'so' para énfasis.",
       "questions": [
         {
-          "question": "[[The food was|¡La comida estaba]] (_____) [[tasty!]]",
+          "question": "[[The food was|¡La comida estaba]] (_____) [[tasty!|sabrosa!]]",
           "options": ["[[so|tan]]", "[[such|tan]]", "[[very|muy]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'so' delante de un adjetivo para dar énfasis."
@@ -776,7 +776,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Pregunta en pasado simple.",
       "questions": [
         {
-          "question": "(_____) [[you enjoy your holiday?]]",
+          "question": "[[Did|¿Hiciste (auxiliar)?]] [[you enjoy your holiday?|disfrutaste tus vacaciones?]]",
           "options": ["[[Did|¿Hiciste (auxiliar)?]]", "[[Do|¿Haces?]]", "[[Have|¿Has?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Did' para preguntas sobre acciones pasadas."
@@ -798,7 +798,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'complain'.",
       "questions": [
         {
-          "question": "[[I would like to|Me gustaría]] (_____) [[sobre la habitación.]]",
+          "question": "[[I would like to|Me gustaría]] (_____) [[about the room.|sobre la habitación.]]",
           "options": ["[[complain|quejarme]]", "[[complete|completar]]", "[[compare|comparar]]"],
           "correctAnswer": 0,
           "explanation": "'Complain' significa quejarse o reclamar."
@@ -820,7 +820,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'too'.",
       "questions": [
         {
-          "question": "[[The price is|El precio es]] (_____) [[high for the quality.]]",
+          "question": "[[The price is|El precio es]] (_____) [[high for the quality.|alto para la calidad.]]",
           "options": ["[[too|demasiado]]", "[[very|muy]]", "[[so|tan]]"],
           "correctAnswer": 0,
           "explanation": "'Too high' indica que el precio es excesivo en relación a la calidad."
@@ -859,7 +859,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Pasado de 'have to'.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[wait for a long time.]]",
+          "question": "[[I|Yo]] (_____) [[had to wait for a long time.|tuve que esperar mucho tiempo.]]",
           "options": ["[[had to|tuve que]]", "[[have to|tengo que]]", "[[has to|tiene que]]"],
           "correctAnswer": 0,
           "explanation": "'Had to' es la forma de expresar obligación o necesidad en el pasado."
@@ -927,7 +927,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[I was very|Estaba muy]] (_____) [[con la habitación.]]",
+          "question": "[[I was very|Estaba muy]] (_____) [[disappointed with the room.|decepcionado con la habitación.]]",
           "options": ["[[disappointed|decepcionado]]", "[[different|diferente]]", "[[dangerous|peligroso]]"],
           "correctAnswer": 0,
           "explanation": "'Disappointed' significa decepcionado."
@@ -949,7 +949,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|Las]] (_____) [[estaban limpias.]]",
+          "question": "[[The|Las]] (_____) [[towels were clean.|estaban limpias.]]",
           "options": ["[[towels|toallas]]", "[[tables|mesas]]", "[[tickets|billetes]]"],
           "correctAnswer": 0,
           "explanation": "'Towels' son toallas."
@@ -971,7 +971,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[estaba cerrada para limpieza.]]",
+          "question": "[[The|La]] (_____) [[pool was closed for cleaning.|estaba cerrada para limpieza.]]",
           "options": ["[[pool|piscina]]", "[[poor|pobre]]", "[[pull|tirar]]"],
           "correctAnswer": 0,
           "explanation": "'Pool' es piscina."
@@ -993,7 +993,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The view from the|La vista desde el]] (_____) [[era genial.]]",
+          "question": "[[The view from the|La vista desde el]] (_____) [[was great.|era genial.]]",
           "options": ["[[balcony|balcón]]", "[[bank|banco]]", "[[building|edificio]]"],
           "correctAnswer": 0,
           "explanation": "'Balcony' es balcón."
@@ -1015,7 +1015,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[estaba fuera de servicio.]]",
+          "question": "[[The|El]] (_____) [[was out of order.|estaba fuera de servicio.]]",
           "options": ["[[elevator|ascensor]]", "[[example|ejemplo]]", "[[entrance|entrada]]"],
           "correctAnswer": 0,
           "explanation": "'Elevator' es ascensor (en inglés americano; 'lift' en británico)."
@@ -1059,7 +1059,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la expresión.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[conditioning was very loud.]]",
+          "question": "[[The|El]] (_____) [[conditioning was very loud.|acondicionado era muy ruidoso.]]",
           "options": ["[[air|aire]]", "[[aim|objetivo]]", "[[all|todo]]"],
           "correctAnswer": 0,
           "explanation": "'Air conditioning' es el aire acondicionado."
@@ -1081,7 +1081,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El proceso de]] (_____) [[fue fácil.]]",
+          "question": "[[The|El proceso de]] (_____) [[process was easy.|fue fácil.]]",
           "options": ["[[reservation|reserva]]", "[[restoration|restauración]]", "[[reception|recepción]]"],
           "correctAnswer": 0,
           "explanation": "'Reservation' es reserva."
@@ -1162,7 +1162,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The restaurant has a five-star|El restaurante tiene una]] (_____) [[de cinco estrellas.]]",
+          "question": "[[The restaurant has a five-star|El restaurante tiene una]] (_____) [[rating.|de cinco estrellas.]]",
           "options": ["[[rating|calificación/puntuación]]", "[[running|corriendo]]", "[[reading|lectura]]"],
           "correctAnswer": 0,
           "explanation": "'Rating' es la calificación o puntuación que recibe un establecimiento."
@@ -1184,7 +1184,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|Las]] (_____) [[eran demasiado pequeñas.]]",
+          "question": "[[The|Las]] (_____) [[portions were too small.|eran demasiado pequeñas.]]",
           "options": ["[[portions|raciones/porciones]]", "[[positions|posiciones]]", "[[portraits|retratos]]"],
           "correctAnswer": 0,
           "explanation": "'Portions' se refiere a la cantidad de comida servida."
@@ -1206,7 +1206,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The hotel was|El hotel era]] (_____) [[like the photos.]]",
+          "question": "[[The hotel was|El hotel era]] (_____) [[exactly like the photos.|exactamente como las fotos.]]",
           "options": ["[[exactly|exactamente]]", "[[example|ejemplo]]", "[[except|excepto]]"],
           "correctAnswer": 0,
           "explanation": "'Exactly' significa exactamente."
@@ -1245,7 +1245,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The bed was very|La cama era muy]] (_____) .",
+          "question": "[[The bed was very|La cama era muy]] (_____) [[hard.|dura.]]",
           "options": ["[[hard|dura]]", "[[head|cabeza]]", "[[heart|corazón]]"],
           "correctAnswer": 0,
           "explanation": "'Hard' puede significar duro o difícil."
@@ -1267,7 +1267,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I would stay there again without|Volvería a quedarme allí sin]] (_____) .",
+          "question": "[[I would stay there again without|Volvería a quedarme allí sin]] (_____) [[hesitation.|vacilación/duda.]]",
           "options": ["[[hesitation|vacilación/duda]]", "[[heating|calefacción]]", "[[history|historia]]"],
           "correctAnswer": 0,
           "explanation": "'Without hesitation' significa sin dudarlo."
@@ -1289,7 +1289,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The noise from the street was|El ruido de la calle era]] (_____) .",
+          "question": "[[The noise from the street was|El ruido de la calle era]] (_____) [[annoying.|molesto.]]",
           "options": ["[[annoying|molesto]]", "[[angry|enfadado]]", "[[another|otro]]"],
           "correctAnswer": 0,
           "explanation": "'Annoying' significa que algo molesta o irrita."
@@ -1311,7 +1311,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[you book in advance.]]",
+          "question": "[[I|Yo]] (_____) [[you book in advance.|te sugiero que reserves con antelación.]]",
           "options": ["[[suggest|sugiero]]", "[[support|apoyo]]", "[[suppose|supongo]]"],
           "correctAnswer": 0,
           "explanation": "'Suggest' es sugerir."

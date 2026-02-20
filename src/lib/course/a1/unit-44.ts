@@ -14,7 +14,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[A|Una]] (_____) [[for two, please.]]",
+          "question": "[[A|Una]] (_____) [[for two, please|para dos, por favor]].",
           "options": ["[[table|mesa]]", "[[chair|silla]]", "[[room|habitación]]"],
           "correctAnswer": 0,
           "explanation": "'Table' es mesa."
@@ -36,7 +36,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[Can I see the|¿Puedo ver el]] (_____) [[, please?]]",
+          "question": "[[Can I see the|¿Puedo ver el]] (_____) [[menu, please?|menú, por favor?]]",
           "options": ["[[menu|menú/carta]]", "[[map|mapa]]", "[[book|libro]]"],
           "correctAnswer": 0,
           "explanation": "'Menu' es el menú o la carta del restaurante."
@@ -58,7 +58,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica la persona.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is here.]]",
+          "question": "[[The|El]] (_____) [[waiter is here|camarero está aquí]].",
           "options": ["[[waiter|camarero]]", "[[doctor|doctor]]", "[[teacher|profesor]]"],
           "correctAnswer": 0,
           "explanation": "'Waiter' es camarero."
@@ -80,7 +80,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[Are you ready to|¿Estás listo para]] (_____) ?",
+          "question": "[[Are you ready to|¿Estás listo para]] (_____) [[order|pedir]]?",
           "options": ["[[order|pedir]]", "[[pay|pagar]]", "[[leave|irse]]"],
           "correctAnswer": 0,
           "explanation": "'Order' es pedir (comida/bebida)."
@@ -102,7 +102,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el término.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[, please.]]",
+          "question": "[[The|La]] (_____) [[bill, please|cuenta, por favor]].",
           "options": ["[[bill|cuenta]]", "[[tip|propina]]", "[[food|comida]]"],
           "correctAnswer": 0,
           "explanation": "'Bill' es la cuenta (en UK se usa más 'bill', en US 'check')."
@@ -124,7 +124,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[I am|Tengo]] (_____) .",
+          "question": "[[I am|Tengo]] (_____) [[hungry|hambre]].",
           "options": ["[[hungry|hambre/hambriento]]", "[[thirsty|sed]]", "[[tired|sueño]]"],
           "correctAnswer": 0,
           "explanation": "'Hungry' es hambriento."
@@ -146,7 +146,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[I am|Tengo]] (_____) .",
+          "question": "[[I am|Tengo]] (_____) [[thirsty|sed]].",
           "options": ["[[thirsty|sed/sediento]]", "[[hungry|hambre]]", "[[happy|felicidad]]"],
           "correctAnswer": 0,
           "explanation": "'Thirsty' es sediento."
@@ -168,7 +168,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Would you like a|¿Te gustaría un]] (_____) ?",
+          "question": "[[Would you like a|¿Te gustaría un]] (_____) [[starter|entrante]]?",
           "options": ["[[starter|entrante]]", "[[dessert|postre]]", "[[drink|bebida]]"],
           "correctAnswer": 0,
           "explanation": "'Starter' es el plato entrante."
@@ -190,7 +190,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I want the|Quiero el]] (_____) [[course.]]",
+          "question": "[[I want the|Quiero el]] (_____) [[main course|plato principal]].",
           "options": ["[[main|principal]]", "[[small|pequeño]]", "[[first|primero]]"],
           "correctAnswer": 0,
           "explanation": "'Main course' es el plato principal."
@@ -212,7 +212,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Do you want any|¿Quieres algún]] (_____) ?",
+          "question": "[[Do you want any|¿Quieres algún]] (_____) [[dessert|postre]]?",
           "options": ["[[dessert|postre]]", "[[desert|desierto]]", "[[dinner|cena]]"],
           "correctAnswer": 0,
           "explanation": "'Dessert' es postre."
@@ -234,7 +234,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The food is|La comida está]] (_____) .",
+          "question": "[[The food is|La comida está]] (_____) [[delicious|deliciosa]].",
           "options": ["[[delicious|deliciosa]]", "[[bad|mala]]", "[[cold|fría]]"],
           "correctAnswer": 0,
           "explanation": "'Delicious' es delicioso."
@@ -256,7 +256,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica la bebida.",
       "questions": [
         {
-          "question": "[[Can I have some|¿Me pone un poco de]] (_____) [[, please?]]",
+          "question": "[[Can I have some|¿Me pone un poco de]] (_____) [[water, please|agua, por favor?]]",
           "options": ["[[water|agua]]", "[[wine|vino]]", "[[juice|zumo]]"],
           "correctAnswer": 0,
           "explanation": "'Water' es agua."
@@ -278,7 +278,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Leave a|Deja una]] (_____) [[for the waiter.]]",
+          "question": "[[Leave a|Deja una]] (_____) [[tip for the waiter|propina para el camarero]].",
           "options": ["[[tip|propina]]", "[[tax|impuesto]]", "[[note|nota]]"],
           "correctAnswer": 0,
           "explanation": "'Tip' es propina."
@@ -300,7 +300,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el cubierto.",
       "questions": [
         {
-          "question": "[[I need a|Necesito un]] (_____) .",
+          "question": "[[I need a|Necesito un]] (_____) [[fork|tenedor]].",
           "options": ["[[fork|tenedor]]", "[[knife|cuchillo]]", "[[spoon|cuchara]]"],
           "correctAnswer": 0,
           "explanation": "'Fork' es tenedor."
@@ -322,7 +322,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el cubierto.",
       "questions": [
         {
-          "question": "[[Can I have a|¿Me da un]] (_____) ?",
+          "question": "[[Can I have a|¿Me da un]] (_____) [[knife?|cuchillo?]]",
           "options": ["[[knife|cuchillo]]", "[[plate|plato]]", "[[glass|vaso]]"],
           "correctAnswer": 0,
           "explanation": "'Knife' es cuchillo (la 'k' es muda)."
@@ -344,7 +344,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el cubierto.",
       "questions": [
         {
-          "question": "[[This|Esta]] (_____) [[is dirty.]]",
+          "question": "[[This|Esta]] (_____) [[spoon is dirty|cuchara está sucia]].",
           "options": ["[[spoon|cuchara]]", "[[napkin|servilleta]]", "[[cup|taza]]"],
           "correctAnswer": 0,
           "explanation": "'Spoon' es cuchara."
@@ -366,7 +366,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I need a|Necesito una]] (_____) .",
+          "question": "[[I need a|Necesito una]] (_____) [[napkin|servilleta]].",
           "options": ["[[napkin|servilleta]]", "[[paper|papel]]", "[[towel|toalla]]"],
           "correctAnswer": 0,
           "explanation": "'Napkin' es servilleta."
@@ -388,7 +388,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el estado.",
       "questions": [
         {
-          "question": "[[The restaurant is fully|El restaurante está totalmente]] (_____) .",
+          "question": "[[The restaurant is fully|El restaurante está totalmente]] (_____) [[booked|completo]].",
           "options": ["[[booked|reservado/completo]]", "[[open|abierto]]", "[[empty|vacío]]"],
           "correctAnswer": 0,
           "explanation": "'Fully booked' significa que todas las mesas están reservadas."
@@ -410,7 +410,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica la bebida.",
       "questions": [
         {
-          "question": "[[I would like a|Me gustaría una]] (_____) [[of wine.]]",
+          "question": "[[I would like a|Me gustaría una]] (_____) [[glass of wine|copa de vino]].",
           "options": ["[[glass|copa/vaso]]", "[[bottle|botella]]", "[[cup|taza]]"],
           "correctAnswer": 0,
           "explanation": "'Glass' es copa o vaso."
@@ -432,7 +432,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Is the|¿Está el]] (_____) [[charge included?]]",
+          "question": "[[Is the|¿Está el]] (_____) [[service charge included?|servicio incluido?]]",
           "options": ["[[service|servicio]]", "[[food|comida]]", "[[drink|bebida]]"],
           "correctAnswer": 0,
           "explanation": "'Service charge' es el cargo por servicio."
@@ -456,7 +456,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'would like'.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[like to order now.]]",
+          "question": "[[I|Yo]] (_____) [[would like to order now|me gustaría pedir ahora]].",
           "options": ["[[would|gustaría (auxiliar)]]", "[[am|soy]]", "[[will|haré]]"],
           "correctAnswer": 0,
           "explanation": "'I would like' es la forma educada de decir 'quiero'."
@@ -478,7 +478,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Petición educada.",
       "questions": [
         {
-          "question": "(_____) [[I have the check, please?]]",
+          "question": "[[Can|¿Puedo]] (_____) [[I have the check, please?|tomar la cuenta, por favor?]]",
           "options": ["[[Can|¿Puedo?]]", "[[Do|¿Hago?]]", "[[Am|¿Soy?]]"],
           "correctAnswer": 0,
           "explanation": "'Can I have' se usa para pedir cosas en un restaurante."
@@ -500,7 +500,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'any' en preguntas.",
       "questions": [
         {
-          "question": "[[Is there|¿Hay]] (_____) [[soup today?]]",
+          "question": "[[Is there|¿Hay]] (_____) [[any soup today?|alguna sopa hoy?]]",
           "options": ["[[any|algo de]]", "[[some|algo de (afirmativo)]]", "[[a|una]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'any' en preguntas con sustantivos incontables."
@@ -522,7 +522,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Ofrecimiento con 'Would you like'.",
       "questions": [
         {
-          "question": "(_____) [[you like something to drink?]]",
+          "question": "[[Would|¿Te gustaría]] (_____) [[you like something to drink?|algo para beber?]]",
           "options": ["[[Would|¿Te gustaría?]]", "[[Do|¿Haces?]]", "[[Can|¿Puedes?]]"],
           "correctAnswer": 0,
           "explanation": "'Would you like' es la forma estándar de ofrecer algo."
@@ -544,7 +544,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'some' en afirmativo.",
       "questions": [
         {
-          "question": "[[We have|Tenemos]] (_____) [[fresh fish.]]",
+          "question": "[[We have|Tenemos]] (_____) [[some fresh fish|algo de pescado fresco]].",
           "options": ["[[some|un poco de/algo de]]", "[[any|algo de (negativo/pregunta)]]", "[[a|un]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'some' en frases afirmativas."
@@ -583,7 +583,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Petición educada con 'Could'.",
       "questions": [
         {
-          "question": "(_____) [[you bring me a napkin?]]",
+          "question": "[[Could|¿Podría]] (_____) [[you bring me a napkin?|traerme una servilleta?]]",
           "options": ["[[Could|¿Podría?]]", "[[Do|¿Haces?]]", "[[Are|¿Eres?]]"],
           "correctAnswer": 0,
           "explanation": "'Could you bring me' es muy educado para pedir algo en la mesa."
@@ -605,7 +605,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Pregunta por precio.",
       "questions": [
         {
-          "question": "(_____) [[is the steak?]]",
+          "question": "[[How much|Cuánto]] (_____) [[is the steak?|cuesta el filete?]]",
           "options": ["[[How much|Cuánto (precio)]]", "[[How many|Cuántos]]", "[[What|Qué]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'How much' para el precio."
@@ -627,7 +627,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Negación en presente simple.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[eat meat.]]",
+          "question": "[[I|Yo]] (_____) [[do not eat meat|no como carne]].",
           "options": ["[[do not|no (auxiliar)]]", "[[does not|no]]", "[[am not|no soy]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'do not' para negar con 'I'."
@@ -666,7 +666,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el pronombre indefinido.",
       "questions": [
         {
-          "question": "(_____) [[is very good.]]",
+          "question": "[[Everything|Todo]] (_____) [[is very good|está muy bueno]].",
           "options": ["[[Everything|Todo]]", "[[Something|Algo]]", "[[Nothing|Nada]]"],
           "correctAnswer": 0,
           "explanation": "'Everything' se usa para referirse a todo en general."
@@ -688,7 +688,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Uso de demostrativo.",
       "questions": [
         {
-          "question": "[[Is|¿Está]] (_____) [[table free?]]",
+          "question": "[[Is|¿Está]] (_____) [[this table free?|esta mesa libre?]]",
           "options": ["[[this|esta]]", "[[that|esa]]", "[[these|estas]]"],
           "correctAnswer": 0,
           "explanation": "'This' para algo que está cerca."
@@ -710,7 +710,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Pregunta con 'would like'.",
       "questions": [
         {
-          "question": "(_____) [[would you like for dessert?]]",
+          "question": "[[What|Qué]] (_____) [[would you like for dessert?|te gustaría de postre?]]",
           "options": ["[[What|Qué]]", "[[Who|Quién]]", "[[How|Cómo]]"],
           "correctAnswer": 0,
           "explanation": "'What would you like' es la pregunta estándar para saber qué quiere alguien."
@@ -732,7 +732,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Presente simple (he/she/it).",
       "questions": [
         {
-          "question": "[[The chicken|El pollo]] (_____) [[with chips.]]",
+          "question": "[[The chicken|El pollo]] (_____) [[comes with chips|viene con patatas fritas]].",
           "options": ["[[comes|viene]]", "[[come|venir]]", "[[coming|viniendo]]"],
           "correctAnswer": 0,
           "explanation": "Añadimos 's' al verbo en tercera persona del singular."
@@ -754,7 +754,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'Are there any'.",
       "questions": [
         {
-          "question": "(_____) [[any olives in the salad?]]",
+          "question": "[[Are there|¿Hay]] (_____) [[any olives in the salad?|algunas aceitunas en la ensalada?]]",
           "options": ["[[Are there|¿Hay? (plural)]]", "[[Is there|¿Hay? (singular)]]", "[[There are|Hay]]"],
           "correctAnswer": 0,
           "explanation": "Pregunta en plural."
@@ -776,7 +776,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Presente continuo para acción actual.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[for the dinner.]]",
+          "question": "[[I|Yo]] (_____) [[am paying for the dinner|estoy pagando la cena]].",
           "options": ["[[am paying|estoy pagando]]", "[[pay|pago]]", "[[pays|paga]]"],
           "correctAnswer": 0,
           "explanation": "Acción que ocurre en este momento."
@@ -798,7 +798,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Adjetivos para cocinar carne.",
       "questions": [
         {
-          "question": "[[I would like my steak|Me gustaría mi filete]] (_____) .",
+          "question": "[[I would like my steak|Me gustaría mi filete]] (_____) [[well done|muy hecho]].",
           "options": ["[[well done|muy hecho]]", "[[medium|al punto]]", "[[rare|poco hecho]]"],
           "correctAnswer": 0,
           "explanation": "'Well done' es muy hecho."
@@ -820,7 +820,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Pregunta por lugar.",
       "questions": [
         {
-          "question": "(_____) [[a toilet in the restaurant?]]",
+          "question": "[[Is there|¿Hay]] (_____) [[a toilet in the restaurant?|un baño en el restaurante?]]",
           "options": ["[[Is there|¿Hay?]]", "[[Are there|¿Hay? (plural)]]", "[[There is|Hay]]"],
           "correctAnswer": 0,
           "explanation": "Pregunta en singular."
@@ -859,7 +859,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Petición con 'some more'.",
       "questions": [
         {
-          "question": "[[Can we have|¿Podemos tener]] (_____) [[bread, please?]]",
+          "question": "[[Can we have|¿Podemos tener]] (_____) [[some more bread, please?|un poco más de pan, por favor?]]",
           "options": ["[[some more|un poco más]]", "[[any more|más (negativo)]]", "[[much more|mucho más]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'some' en peticiones donde esperamos un 'sí'."
@@ -883,7 +883,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The soup is|La sopa está]] (_____) .",
+          "question": "[[The soup is|La sopa está]] (_____) [[hot|caliente]].",
           "options": ["[[hot|caliente]]", "[[cold|fría]]", "[[sweet|dulce]]"],
           "correctAnswer": 0,
           "explanation": "'Hot' es caliente."
@@ -905,7 +905,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The ice cream is|El helado está]] (_____) .",
+          "question": "[[The ice cream is|El helado está]] (_____) [[cold|frío]].",
           "options": ["[[cold|frío]]", "[[hot|caliente]]", "[[spicy|picante]]"],
           "correctAnswer": 0,
           "explanation": "'Cold' es frío."
@@ -927,7 +927,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[I love|Me encanta la comida]] (_____) [[food.]]",
+          "question": "[[I love|Me encanta la comida]] (_____) [[spicy food|picante]].",
           "options": ["[[spicy|picante]]", "[[sweet|dulce]]", "[[salty|salada]]"],
           "correctAnswer": 0,
           "explanation": "'Spicy' es picante."
@@ -949,7 +949,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica la bebida.",
       "questions": [
         {
-          "question": "[[Can I have a glass of|¿Me da un vaso de]] (_____) [[juice?]]",
+          "question": "[[Can I have a glass of|¿Me da un vaso de]] (_____) [[orange juice?|zumo de naranja?]]",
           "options": ["[[orange|naranja]]", "[[apple|manzana]]", "[[milk|leche]]"],
           "correctAnswer": 0,
           "explanation": "'Orange juice' es zumo de naranja."
@@ -971,7 +971,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[I am|Estoy]] (_____) .",
+          "question": "[[I am|Estoy]] (_____) [[full|lleno/saciado]].",
           "options": ["[[full|lleno/saciado]]", "[[empty|vacío]]", "[[hungry|hambriento]]"],
           "correctAnswer": 0,
           "explanation": "'I am full' significa que ya no puedes comer más porque estás saciado."
@@ -993,7 +993,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica la bebida.",
       "questions": [
         {
-          "question": "[[Please, bring me a glass of|Por favor, tráeme un vaso de]] (_____) .",
+          "question": "[[Please, bring me a glass of|Por favor, tráeme un vaso de]] (_____) [[milk|leche]].",
           "options": ["[[milk|leche]]", "[[coffee|café]]", "[[tea|té]]"],
           "correctAnswer": 0,
           "explanation": "'Milk' es leche."
@@ -1015,7 +1015,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica la expresión.",
       "questions": [
         {
-          "question": "(_____) [[the change.]]",
+          "question": "[[Keep|Quédate]] (_____) [[the change|el cambio]].",
           "options": ["[[Keep|Quédate]]", "[[Give|Da]]", "[[Take|Toma]]"],
           "correctAnswer": 0,
           "explanation": "'Keep the change' se usa cuando no quieres las monedas de vuelta."
@@ -1037,7 +1037,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[Wait for me at the|Espérame en la]] (_____) .",
+          "question": "[[Wait for me at the|Espérame en la]] (_____) [[entrance|entrada]].",
           "options": ["[[entrance|entrada]]", "[[exit|salida]]", "[[bar|barra]]"],
           "correctAnswer": 0,
           "explanation": "'Entrance' es la entrada."
@@ -1059,7 +1059,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Is there a|¿Hay un menú de]] (_____) [[menu?]]",
+          "question": "[[Is there a|¿Hay un menú de]] (_____) [[children's menu?|niños?]]",
           "options": ["[[children's|niños]]", "[[adult's|adultos]]", "[[student's|estudiantes]]"],
           "correctAnswer": 0,
           "explanation": "'Children's menu' es el menú infantil."
@@ -1081,7 +1081,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The fish is too|El pescado está demasiado]] (_____) .",
+          "question": "[[The fish is too|El pescado está demasiado]] (_____) [[salty|salado]].",
           "options": ["[[salty|salado]]", "[[sweet|dulce]]", "[[bitter|amargo]]"],
           "correctAnswer": 0,
           "explanation": "'Salty' es salado."
@@ -1162,7 +1162,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[The restaurant|El restaurante]] (_____) [[at 7 pm.]]",
+          "question": "[[The restaurant|El restaurante]] (_____) [[opens at 7 pm|abre a las siete]].",
           "options": ["[[opens|abre]]", "[[closes|cierra]]", "[[eats|come]]"],
           "correctAnswer": 0,
           "explanation": "'Opens' es abre."
@@ -1184,7 +1184,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Do you have a table|¿Tienen una mesa]] (_____) ?",
+          "question": "[[Do you have a table|¿Tienen una mesa]] (_____) [[outside|fuera]]?",
           "options": ["[[outside|fuera/en la terraza]]", "[[inside|dentro]]", "[[upstairs|arriba]]"],
           "correctAnswer": 0,
           "explanation": "'Outside' significa fuera o en la terraza."
@@ -1206,7 +1206,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The coffee is too|El café está demasiado]] (_____) .",
+          "question": "[[The coffee is too|El café está demasiado]] (_____) [[sweet|dulce]].",
           "options": ["[[sweet|dulce]]", "[[salty|salado]]", "[[strong|fuerte]]"],
           "correctAnswer": 0,
           "explanation": "'Sweet' es dulce."
@@ -1245,7 +1245,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[I need to|Necesito]] (_____) [[my hands.]]",
+          "question": "[[I need to|Necesito]] (_____) [[wash my hands|lavarme las manos]].",
           "options": ["[[wash|lavar]]", "[[eat|comer]]", "[[clean|limpiar]]"],
           "correctAnswer": 0,
           "explanation": "'Wash' es lavar."
@@ -1267,7 +1267,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica la forma de pago.",
       "questions": [
         {
-          "question": "[[Can I pay by|¿Puedo pagar con]] (_____) [[card?]]",
+          "question": "[[Can I pay by|¿Puedo pagar con]] (_____) [[credit card?|tarjeta de crédito?]]",
           "options": ["[[credit|crédito]]", "[[money|dinero]]", "[[paper|papel]]"],
           "correctAnswer": 0,
           "explanation": "'Credit card' es tarjeta de crédito."
@@ -1289,7 +1289,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The service is very|El servicio es muy]] (_____) .",
+          "question": "[[The service is very|El servicio es muy]] (_____) [[slow|lento]].",
           "options": ["[[slow|lento]]", "[[fast|rápido]]", "[[good|bueno]]"],
           "correctAnswer": 0,
           "explanation": "'Slow' es lento."
@@ -1311,7 +1311,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[Could you|¿Podría]] (_____) [[a good dish?]]",
+          "question": "[[Could you|¿Podría]] (_____) [[recommend a good dish?|recomendar un buen plato?]]",
           "options": ["[[recommend|recomendar]]", "[[cook|cocinar]]", "[[eat|comer]]"],
           "correctAnswer": 0,
           "explanation": "'Recommend' es recomendar."

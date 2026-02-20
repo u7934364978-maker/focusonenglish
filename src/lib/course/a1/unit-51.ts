@@ -14,7 +14,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[There are many|Hay muchos]] (_____) [[in the park.]]",
+          "question": "[[There are many|Hay muchos]] (_____) [[trees in the park.|en el parque.]]",
           "options": ["[[trees|árboles]]", "[[treats|golosinas]]", "[[trains|trenes]]"],
           "correctAnswer": 0,
           "explanation": "'Trees' son árboles."
@@ -36,7 +36,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is very beautiful.]]",
+          "question": "[[The|La]] (_____) [[flower is very beautiful.|es muy hermosa.]]",
           "options": ["[[flower|flor]]", "[[floor|suelo]]", "[[flour|harina]]"],
           "correctAnswer": 0,
           "explanation": "'Flower' es flor."
@@ -80,7 +80,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is covered in snow.]]",
+          "question": "[[The|La]] (_____) [[mountain is covered in snow.|está cubierta de nieve.]]",
           "options": ["[[mountain|montaña]]", "[[morning|mañana]]", "[[mouse|ratón]]"],
           "correctAnswer": 0,
           "explanation": "'Mountain' es montaña."
@@ -124,7 +124,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is very dark.]]",
+          "question": "[[The|El]] (_____) [[forest is very dark.|es muy oscuro.]]",
           "options": ["[[forest|bosque]]", "[[field|campo]]", "[[farm|granja]]"],
           "correctAnswer": 0,
           "explanation": "'Forest' es bosque."
@@ -146,7 +146,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is blue today.]]",
+          "question": "[[The|El]] (_____) [[sky is blue today.|está azul hoy.]]",
           "options": ["[[sky|cielo]]", "[[sun|sol]]", "[[star|estrella]]"],
           "correctAnswer": 0,
           "explanation": "'Sky' es cielo."
@@ -168,7 +168,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is very hot.]]",
+          "question": "[[The|El]] (_____) [[sun is very hot.|está muy caliente.]]",
           "options": ["[[sun|sol]]", "[[son|hijo]]", "[[sea|mar]]"],
           "correctAnswer": 0,
           "explanation": "'Sun' es sol."
@@ -190,7 +190,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is bright tonight.]]",
+          "question": "[[The|La]] (_____) [[moon is bright tonight.|está brillante esta noche.]]",
           "options": ["[[moon|luna]]", "[[morning|mañana]]", "[[mountain|montaña]]"],
           "correctAnswer": 0,
           "explanation": "'Moon' es luna."
@@ -234,7 +234,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is green.]]",
+          "question": "[[The|La]] (_____) [[grass is green.|está verde.]]",
           "options": ["[[grass|hierba/césped]]", "[[glass|vaso]]", "[[gas|gas]]"],
           "correctAnswer": 0,
           "explanation": "'Grass' es hierba o césped."
@@ -256,7 +256,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|Los]] (_____) [[live in the wild.]]",
+          "question": "[[The|Los]] (_____) [[animals live in the wild.|viven en estado salvaje.]]",
           "options": ["[[animals|animales]]", "[[actions|acciones]]", "[[areas|áreas]]"],
           "correctAnswer": 0,
           "explanation": "'Animals' son animales."
@@ -278,7 +278,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is very calm.]]",
+          "question": "[[The|El]] (_____) [[lake is very calm.|está muy tranquilo.]]",
           "options": ["[[lake|lago]]", "[[land|tierra]]", "[[lamp|lámpara]]"],
           "correctAnswer": 0,
           "explanation": "'Lake' es lago."
@@ -300,7 +300,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is sandy.]]",
+          "question": "[[The|La]] (_____) [[beach is sandy.|está arenosa.]]",
           "options": ["[[beach|playa]]", "[[bench|banco]]", "[[box|caja]]"],
           "correctAnswer": 0,
           "explanation": "'Beach' es playa."
@@ -322,7 +322,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is very dry.]]",
+          "question": "[[The|El]] (_____) [[desert is very dry.|es muy seco.]]",
           "options": ["[[desert|desierto]]", "[[dessert|postre]]", "[[distance|distancia]]"],
           "correctAnswer": 0,
           "explanation": "'Desert' es desierto (con una sola 's')."
@@ -344,7 +344,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|Las]] (_____) [[are beautiful at night.]]",
+          "question": "[[The|Las]] (_____) [[stars are beautiful at night.|están hermosas por la noche.]]",
           "options": ["[[stars|estrellas]]", "[[stairs|escaleras]]", "[[stones|piedras]]"],
           "correctAnswer": 0,
           "explanation": "'Stars' son estrellas."
@@ -366,7 +366,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is in the middle of the ocean.]]",
+          "question": "[[The|La]] (_____) [[island is in the middle of the ocean.|está en medio del océano.]]",
           "options": ["[[island|isla]]", "[[ice|hielo]]", "[[ink|tinta]]"],
           "correctAnswer": 0,
           "explanation": "'Island' es isla (la 's' es muda)."
@@ -388,7 +388,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is very high.]]",
+          "question": "[[The|La]] (_____) [[waterfall is very high.|es muy alta.]]",
           "options": ["[[waterfall|cascada/catarata]]", "[[water|agua]]", "[[watermelon|sandía]]"],
           "correctAnswer": 0,
           "explanation": "'Waterfall' es cascada o catarata."
@@ -410,7 +410,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is fresh here.]]",
+          "question": "[[The|El]] (_____) [[air is fresh here.|está fresco aquí.]]",
           "options": ["[[air|aire]]", "[[all|todo]]", "[[and|y]]"],
           "correctAnswer": 0,
           "explanation": "'Air' es aire."
@@ -432,7 +432,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[needs our help.]]",
+          "question": "[[The|El]] (_____) [[planet needs our help.|necesita nuestra ayuda.]]",
           "options": ["[[planet|planeta]]", "[[plane|avión]]", "[[plant|planta]]"],
           "correctAnswer": 0,
           "explanation": "'Planet' es planeta."
@@ -456,7 +456,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'There are'.",
       "questions": [
         {
-          "question": "(_____) [[many different animals in the forest.]]",
+          "question": "(_____) [[There are many different animals in the forest.|hay muchos animales diferentes en el bosque.]]",
           "options": ["[[There are|Hay (plural)]]", "[[There is|Hay (singular)]]", "[[Are there|¿Hay?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'There are' para indicar la existencia de varios elementos."
@@ -478,7 +478,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Uso del modal 'must'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[protect the environment.]]",
+          "question": "[[We|Nosotros]] (_____) [[must protect the environment.|debemos proteger el medio ambiente.]]",
           "options": ["[[must|debemos]]", "[[can|podemos]]", "[[will|deberemos]]"],
           "correctAnswer": 0,
           "explanation": "'Must' indica obligación o una fuerte necesidad."
@@ -500,7 +500,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Uso del gerundio tras 'like'.",
       "questions": [
         {
-          "question": "[[I like|Me gusta]] (_____) [[in the mountains.]]",
+          "question": "[[I like|Me gusta]] (_____) [[walking in the mountains.|caminar por las montañas.]]",
           "options": ["[[walking|caminar/pasear (gerundio)]]", "[[walk|caminar]]", "[[walked|caminado]]"],
           "correctAnswer": 0,
           "explanation": "Tras el verbo 'like', el siguiente verbo suele ir en gerundio (-ing)."
@@ -522,7 +522,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Comparativo con adjetivo corto.",
       "questions": [
         {
-          "question": "[[The sun is|El sol es]] (_____) [[than the moon.]]",
+          "question": "[[The sun is|El sol es]] (_____) [[bigger than the moon.|más grande que la luna.]]",
           "options": ["[[bigger|más grande]]", "[[big|grande]]", "[[more big|más grande (incorrecto)]]"],
           "correctAnswer": 0,
           "explanation": "Para adjetivos cortos terminados en CVC (consonante-vocal-consonante), duplicamos la consonante y añadimos '-er'."
@@ -544,7 +544,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Imperativo negativo.",
       "questions": [
         {
-          "question": "(_____) [[throw trash on the ground.]]",
+          "question": "(_____) [[Don't throw trash on the ground.|no tires basura al suelo.]]",
           "options": ["[[Don't|No (auxiliar imperativo)]]", "[[No|No]]", "[[Not|No]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Don't' para dar órdenes negativas."
@@ -583,7 +583,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'can'.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[see the stars from my window.]]",
+          "question": "[[I|Yo]] (_____) [[can see the stars from my window.|puedo ver las estrellas desde mi ventana.]]",
           "options": ["[[can|puedo]]", "[[could|podría]]", "[[must|debo]]"],
           "correctAnswer": 0,
           "explanation": "'Can' indica capacidad física o posibilidad."
@@ -605,7 +605,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Verbo en presente simple.",
       "questions": [
         {
-          "question": "[[The flowers|Las flores]] (_____) [[in the spring.]]",
+          "question": "[[The flowers|Las flores]] (_____) [[grow in the spring.|crecen en la primavera.]]",
           "options": ["[[grow|crecen]]", "[[grows|crece]]", "[[growing|creciendo]]"],
           "correctAnswer": 0,
           "explanation": "Para el plural (flowers), usamos la forma base del verbo (grow)."
@@ -627,7 +627,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Uso del modal 'should'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[use less water.]]",
+          "question": "[[We|Nosotros]] (_____) [[should use less water.|deberíamos usar menos agua.]]",
           "options": ["[[should|deberíamos]]", "[[shall|deberemos]]", "[[will|usaremos]]"],
           "correctAnswer": 0,
           "explanation": "'Should' se usa para dar consejos o sugerencias."
@@ -666,7 +666,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la preposición.",
       "questions": [
         {
-          "question": "[[I am interested|Estoy interesado]] (_____) [[nature photography.]]",
+          "question": "[[I am interested|Estoy interesado]] (_____) [[in nature photography.|en la fotografía de naturaleza.]]",
           "options": ["[[in|en]]", "[[at|en]]", "[[on|en]]"],
           "correctAnswer": 0,
           "explanation": "Se dice 'interested in' para expresar interés por algo."
@@ -688,7 +688,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The ocean is very|El océano es muy]] (_____) .",
+          "question": "[[The ocean is very|El océano es muy]] (_____) [[deep.|profundo.]]",
           "options": ["[[deep|profundo]]", "[[dark|oscuro]]", "[[dirty|sucio]]"],
           "correctAnswer": 0,
           "explanation": "'Deep' significa profundo."
@@ -710,7 +710,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Uso del phrasal verb 'look for'.",
       "questions": [
         {
-          "question": "[[We are|Estamos]] (_____) [[for a place to camp.]]",
+          "question": "[[We are|Estamos]] (_____) [[looking for a place to camp.|buscando un lugar para acampar.]]",
           "options": ["[[looking|buscando]]", "[[watching|mirando]]", "[[seeing|viendo]]"],
           "correctAnswer": 0,
           "explanation": "'Look for' significa buscar."
@@ -732,7 +732,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'There is'.",
       "questions": [
         {
-          "question": "(_____) [[a small bird on the tree.]]",
+          "question": "(_____) [[There is a small bird on the tree.|hay un pequeño pájaro en el árbol.]]",
           "options": ["[[There is|Hay (singular)]]", "[[There are|Hay (plural)]]", "[[Is there|¿Hay?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'There is' para una sola unidad."
@@ -754,7 +754,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Presente continuo.",
       "questions": [
         {
-          "question": "[[The birds are|Los pájaros están]] (_____) [[high.]]",
+          "question": "[[The birds are|Los pájaros están]] (_____) [[flying high.|volando alto.]]",
           "options": ["[[flying|volando]]", "[[flew|volaron]]", "[[fly|volar]]"],
           "correctAnswer": 0,
           "explanation": "Usamos el gerundio (-ing) para acciones en progreso."
@@ -776,7 +776,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Pasado del verbo 'to be'.",
       "questions": [
         {
-          "question": "[[It|Hacía]] (_____) [[very cold yesterday.]]",
+          "question": "[[It|Hacía]] (_____) [[was very cold yesterday.|mucho frío ayer.]]",
           "options": ["[[was|hacía/estaba]]", "[[were|eran/estaban]]", "[[is|es]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'was' para el pasado de 'it'."
@@ -798,7 +798,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Pasado simple de 'go'.",
       "questions": [
         {
-          "question": "[[I|Fui]] (_____) [[to the mountain last week.]]",
+          "question": "[[I|Fui]] (_____) [[went to the mountain last week.|a la montaña la semana pasada.]]",
           "options": ["[[went|fui]]", "[[go|ir]]", "[[gone|ido]]"],
           "correctAnswer": 0,
           "explanation": "'Went' es el pasado irregular de 'go'."
@@ -820,7 +820,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Pasado simple de 'see'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[a beautiful sunset.]]",
+          "question": "[[We|Nosotros]] (_____) [[saw a beautiful sunset.|vimos una hermosa puesta de sol.]]",
           "options": ["[[saw|vimos]]", "[[see|ver]]", "[[seen|visto]]"],
           "correctAnswer": 0,
           "explanation": "'Saw' es el pasado irregular de 'see'."
@@ -859,7 +859,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Comparativo irregular.",
       "questions": [
         {
-          "question": "[[Nature is|La naturaleza es]] (_____) [[than the city.]]",
+          "question": "[[Nature is|La naturaleza es]] (_____) [[better than the city.|mejor que la ciudad.]]",",
           "options": ["[[better|mejor]]", "[[gooder|mejor (incorrecto)]]", "[[best|el mejor]]"],
           "correctAnswer": 0,
           "explanation": "'Better' es el comparativo irregular de 'good'."
@@ -883,7 +883,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is blue.]]",
+          "question": "[[The|El]] (_____) [[ocean is blue.|océano es azul.]]",
           "options": ["[[ocean|océano]]", "[[often|a menudo]]", "[[orange|naranja]]"],
           "correctAnswer": 0,
           "explanation": "'Ocean' es océano."
@@ -905,7 +905,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[I like the|Me gusta el aire]] (_____) [[air.]]",
+          "question": "[[I like the|Me gusta el]] (_____) [[fresh air.|aire fresco.]]",
           "options": ["[[fresh|fresco]]", "[[fast|rápido]]", "[[front|frente]]"],
           "correctAnswer": 0,
           "explanation": "'Fresh' significa fresco."
@@ -949,7 +949,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[The birds|Los pájaros]] (_____) [[in the morning.]]",
+          "question": "[[The birds|Los pájaros]] (_____) [[sing in the morning.|cantan por la mañana.]]",
           "options": ["[[sing|cantan]]", "[[send|envían]]", "[[sit|se sientan]]"],
           "correctAnswer": 0,
           "explanation": "'Sing' es cantar."
@@ -971,7 +971,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[está lleno de vacas.]]",
+          "question": "[[The|El]] (_____) [[field is full of cows.|campo está lleno de vacas.]]",
           "options": ["[[field|campo]]", "[[file|archivo]]", "[[film|película]]"],
           "correctAnswer": 0,
           "explanation": "'Field' se refiere a un campo o prado."
@@ -993,7 +993,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Presente continuo.",
       "questions": [
         {
-          "question": "[[The weather is|El tiempo está]] (_____) .",
+          "question": "[[The weather is|El tiempo está]] (_____) [[changing.|cambiando.]]",
           "options": ["[[changing|cambiando]]", "[[charging|cargando]]", "[[checking|comprobando]]"],
           "correctAnswer": 0,
           "explanation": "'Changing' es el gerundio de 'change'."
@@ -1015,7 +1015,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[está en peligro.]]",
+          "question": "[[The|El]] (_____) [[environment is in danger.|medio ambiente está en peligro.]]",
           "options": ["[[environment|medio ambiente]]", "[[everywhere|en todas partes]]", "[[experience|experiencia]]"],
           "correctAnswer": 0,
           "explanation": "'Environment' es el medio ambiente."
@@ -1037,7 +1037,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[I like the|Me gusta la luz]] (_____) [[light.]]",
+          "question": "[[I like the|Me gusta la]] (_____) [[natural light.|luz natural.]]",
           "options": ["[[natural|natural]]", "[[national|nacional]]", "[[normal|normal]]"],
           "correctAnswer": 0,
           "explanation": "'Natural' es natural."
@@ -1059,7 +1059,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|Las]] (_____) [[están cayendo de los árboles.]]",
+          "question": "[[The|Las]] (_____) [[leaves are falling from the trees.|hojas están cayendo de los árboles.]]",
           "options": ["[[leaves|hojas]]", "[[lives|vidas]]", "[[lights|luces]]"],
           "correctAnswer": 0,
           "explanation": "'Leaves' es el plural de 'leaf' (hoja)."
@@ -1081,7 +1081,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[va a través del bosque.]]",
+          "question": "[[The|El]] (_____) [[path goes through the forest.|sendero va a través del bosque.]]",
           "options": ["[[path|sendero/camino]]", "[[part|parte]]", "[[past|pasado]]"],
           "correctAnswer": 0,
           "explanation": "'Path' es un sendero o camino."
@@ -1162,7 +1162,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[bin is near the door.]]",
+          "question": "[[The|El]] (_____) [[recycling bin is near the door.|cubo de reciclaje está cerca de la puerta.]]",
           "options": ["[[recycling|reciclaje]]", "[[reducing|reducción]]", "[[reusing|reutilización]]"],
           "correctAnswer": 0,
           "explanation": "'Recycling bin' es el cubo de reciclaje."
@@ -1184,7 +1184,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is changing rapidly.]]",
+          "question": "[[The|El]] (_____) [[climate is changing rapidly.|clima está cambiando rápidamente.]]",
           "options": ["[[climate|clima]]", "[[cloud|nube]]", "[[clean|limpio]]"],
           "correctAnswer": 0,
           "explanation": "'Climate' es clima."
@@ -1245,7 +1245,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The water is|El agua está]] (_____) .",
+          "question": "[[The water is|El agua está]] (_____) [[contaminated.|contaminada.]]",
           "options": ["[[contaminated|contaminada]]", "[[colorful|colorida]]", "[[comfortable|cómoda]]"],
           "correctAnswer": 0,
           "explanation": "'Contaminated' significa contaminado."
@@ -1267,7 +1267,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Pregunta básica.",
       "questions": [
         {
-          "question": "[[Is it|¿Es]] (_____) [[for the environment?]]",
+          "question": "[[Is it|¿Es]] (_____) [[good for the environment?|bueno para el medio ambiente?]]",",
           "options": ["[[good|bueno]]", "[[bad|malo]]", "[[well|bien]]"],
           "correctAnswer": 0,
           "explanation": "Preguntamos si algo es beneficioso para el entorno."
@@ -1289,7 +1289,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The mountain air is very|El aire de la montaña es muy]] (_____) .",
+          "question": "[[The mountain air is very|El aire de la montaña es muy]] (_____) [[pure.|puro.]]",
           "options": ["[[pure|puro]]", "[[poor|pobre]]", "[[pink|rosa]]"],
           "correctAnswer": 0,
           "explanation": "'Pure' significa puro o limpio."
@@ -1311,7 +1311,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[We need to|Necesitamos]] (_____) [[more trees.]]",
+          "question": "[[We need to|Necesitamos]] (_____) [[plant more trees.|plantar más árboles.]]",",
           "options": ["[[plant|plantar]]", "[[place|colocar]]", "[[play|jugar]]"],
           "correctAnswer": 0,
           "explanation": "'Plant' como verbo significa plantar."

@@ -14,7 +14,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[My trip was|Mi viaje fue]] (_____) .",
+          "question": "[[My trip was|Mi viaje fue]] (_____) [[amazing|increíble]] .",
           "options": ["[[amazing|increíble/asombroso]]", "[[angry|enfadado]]", "[[after|después]]"],
           "correctAnswer": 0,
           "explanation": "'Amazing' es increíble o asombroso."
@@ -36,7 +36,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The flight was|El vuelo fue]] (_____) .",
+          "question": "[[The flight was|El vuelo fue]] (_____) [[boring|aburrido]] .",
           "options": ["[[boring|aburrido]]", "[[bright|brillante]]", "[[brave|valiente]]"],
           "correctAnswer": 0,
           "explanation": "'Boring' es aburrido."
@@ -102,7 +102,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[We had a|Tuvimos un tiempo]] (_____) [[time.]]",
+          "question": "[[We had a|Tuvimos un tiempo]] (_____) [[time.|tiempo.]]",
           "options": ["[[fun|divertido]]", "[[fat|gordo]]", "[[fine|bueno]]"],
           "correctAnswer": 0,
           "explanation": "'Fun' es divertido."
@@ -124,7 +124,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[was long.]]",
+          "question": "[[The|El]] (_____) [[was long.|fue largo.]]",
           "options": ["[[journey|trayecto/viaje]]", "[[juice|zumo]]", "[[jacket|chaqueta]]"],
           "correctAnswer": 0,
           "explanation": "'Journey' se refiere al trayecto o desplazamiento de un viaje."
@@ -212,7 +212,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[my flight.]]",
+          "question": "[[I|Yo]] (_____) [[my flight.|mi vuelo.]]",
           "options": ["[[missed|perdí (el transporte)]]", "[[messy|sucio]]", "[[missing|faltando]]"],
           "correctAnswer": 0,
           "explanation": "'Miss' se usa para cuando pierdes un tren, avión, etc."
@@ -234,7 +234,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[safely.]]",
+          "question": "[[We|Nosotros]] (_____) [[safely.|a salvo.]]",
           "options": ["[[arrived|llegamos]]", "[[airplane|avión]]", "[[airport|aeropuerto]]"],
           "correctAnswer": 0,
           "explanation": "'Arrive' es llegar."
@@ -278,7 +278,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[I felt|Me sentí]] (_____) [[after the journey.]]",
+          "question": "[[I felt|Me sentí]] (_____) [[after the journey.|después del trayecto.]]",
           "options": ["[[tired|cansado]]", "[[tall|alto]]", "[[thin|delgado]]"],
           "correctAnswer": 0,
           "explanation": "'Tired' es cansado."
@@ -322,7 +322,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[I stayed in a|Me quedé en un]] (_____) [[hostel.]]",
+          "question": "[[I stayed in a|Me quedé en un]] (_____) [[hostel.|hostal.]]",
           "options": ["[[cheap|barato]]", "[[clean|limpio]]", "[[cold|frío]]"],
           "correctAnswer": 0,
           "explanation": "'Cheap' es barato."
@@ -432,7 +432,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'last' para tiempo pasado.",
       "questions": [
         {
-          "question": "[[I went there|Fui allí el]] (_____) [[summer.]]",
+          "question": "[[I went there|Fui allí el]] (_____) [[summer.|verano.]]",
           "options": ["[[last|pasado]]", "[[next|próximo]]", "[[this|este]]"],
           "correctAnswer": 0,
           "explanation": "'Last' se usa para referirse al periodo de tiempo anterior (pasado)."
@@ -478,7 +478,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Pregunta en pasado simple.",
       "questions": [
         {
-          "question": "(_____) [[you like the food?]]",
+          "question": "(_____) [[you like the food?|te gustó la comida?]]",
           "options": ["[[Did|¿Hiciste (auxiliar)?]]", "[[Do|¿Haces?]]", "[[Are|¿Eres/Estás?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Did' como auxiliar para preguntas en pasado simple."
@@ -500,7 +500,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Uso del comparativo.",
       "questions": [
         {
-          "question": "[[The weather was|El tiempo fue]] (_____) [[than I expected.]]",
+          "question": "[[The weather was|El tiempo fue]] (_____) [[than I expected.|de lo que esperaba.]]",
           "options": ["[[better|mejor]]", "[[good|bueno]]", "[[best|el mejor]]"],
           "correctAnswer": 0,
           "explanation": "'Better' es el comparativo de 'good'."
@@ -522,7 +522,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'for' con periodos de tiempo.",
       "questions": [
         {
-          "question": "[[We stayed there|Nos quedamos allí]] (_____) [[a week.]]",
+          "question": "[[We stayed there|Nos quedamos allí]] (_____) [[a week.|una semana.]]",
           "options": ["[[for|durante/por]]", "[[during|durante (con evento)]]", "[[since|desde]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'for' para indicar la duración de un periodo de tiempo."
@@ -544,7 +544,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Negación en pasado simple.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[like the hotel.]]",
+          "question": "[[I|Yo]] (_____) [[like the hotel.|gustó el hotel.]]",
           "options": ["[[didn't|no (auxiliar)]]", "[[don't|no (presente)]]", "[[not|no]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'didn't' para negar acciones en el pasado simple."
@@ -583,7 +583,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Verbo irregular en pasado.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[many monuments.]]",
+          "question": "[[We|Nosotros]] (_____) [[many monuments.|muchos monumentos.]]",
           "options": ["[[saw|vimos]]", "[[seen|visto]]", "[[see|ver]]"],
           "correctAnswer": 0,
           "explanation": "'Saw' es el pasado simple del verbo irregular 'see'."
@@ -605,7 +605,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Pasado del verbo 'to be'.",
       "questions": [
         {
-          "question": "[[It|Hacía]] (_____) [[very hot yesterday.]]",
+          "question": "[[It|Hacía]] (_____) [[very hot yesterday.|mucho calor ayer.]]",
           "options": ["[[was|hacía (estaba)]]", "[[were|eran/estaban]]", "[[is|es/está]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'was' para el pasado de 'it'."
@@ -627,7 +627,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Pasado del verbo 'to have'.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[a lot of fun.]]",
+          "question": "[[I|Yo]] (_____) [[a lot of fun.|muy bien/mucha diversión.]]",
           "options": ["[[had|tuve/lo pasé]]", "[[has|tiene]]", "[[have|tengo]]"],
           "correctAnswer": 0,
           "explanation": "'Had' es el pasado del verbo 'have'."
@@ -666,7 +666,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Comparativo con adjetivos largos.",
       "questions": [
         {
-          "question": "[[The hotel was|El hotel era]] (_____) [[than the flight.]]",
+          "question": "[[The hotel was|El hotel era]] (_____) [[than the flight.|que el vuelo.]]",
           "options": ["[[more expensive|más caro]]", "[[expensiver|más caro (incorrecto)]]", "[[most expensive|el más caro]]"],
           "correctAnswer": 0,
           "explanation": "Con adjetivos largos como 'expensive', usamos 'more' para formar el comparativo."
@@ -688,7 +688,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'because' para dar razones.",
       "questions": [
         {
-          "question": "[[We went by train|Fuimos en tren]] (_____) [[it was cheaper.]]",
+          "question": "[[We went by train|Fuimos en tren]] (_____) [[it was cheaper.|era más barato.]]",
           "options": ["[[because|porque]]", "[[but|pero]]", "[[so|así que]]"],
           "correctAnswer": 0,
           "explanation": "'Because' se usa para explicar la razón de algo."
@@ -710,7 +710,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Verbo irregular en pasado.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[some souvenirs.]]",
+          "question": "[[I|Yo]] (_____) [[some souvenirs.|algunos recuerdos.]]",
           "options": ["[[bought|compré]]", "[[boughted|compré (incorrecto)]]", "[[buy|comprar]]"],
           "correctAnswer": 0,
           "explanation": "'Bought' es el pasado simple del verbo irregular 'buy'."
@@ -732,7 +732,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'so' para enfatizar.",
       "questions": [
         {
-          "question": "[[The city was|¡La ciudad era]] (_____) [[beautiful!]]",
+          "question": "[[The city was|¡La ciudad era]] (_____) [[beautiful!|hermosa!]]",
           "options": ["[[so|tan]]", "[[very|muy]]", "[[such|tan]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'so' delante de un adjetivo para dar énfasis."
@@ -754,7 +754,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'really' para énfasis.",
       "questions": [
         {
-          "question": "[[I|De verdad que me]] (_____) [[loved the museums.]]",
+          "question": "[[I|De verdad que me]] (_____) [[loved the museums.|encantaron los museos.]]",
           "options": ["[[really|encantaron (realmente)]]", "[[real|real]]", "[[very|muy]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'really' antes del verbo para enfatizar el sentimiento."
@@ -776,7 +776,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Pasado del verbo 'to be' (plural).",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[there last week.]]",
+          "question": "[[We|Nosotros]] (_____) [[there last week.|allí la semana pasada.]]",
           "options": ["[[were|estábamos]]", "[[was|estaba]]", "[[are|estamos]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'were' para el pasado de 'we'."
@@ -798,7 +798,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Pregunta con preposición al final.",
       "questions": [
         {
-          "question": "(_____) [[did you go with?]]",
+          "question": "(_____) [[did you go with?|fuiste con?]]",
           "options": ["[[Who|Quién]]", "[[Where|Dónde]]", "[[What|Qué]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Who' para preguntar por personas."
@@ -820,7 +820,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Superlativo con adjetivos largos.",
       "questions": [
         {
-          "question": "[[It was the|Era el]] (_____) [[beautiful place.]]",
+          "question": "[[It was the|Era el]] (_____) [[beautiful place.|lugar hermoso.]]",
           "options": ["[[most|más]]", "[[more|más (comp.)]]", "[[best|mejor]]"],
           "correctAnswer": 0,
           "explanation": "Para el superlativo de adjetivos largos, usamos 'the most'."
@@ -859,7 +859,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Pasado del verbo 'feel'.",
       "questions": [
         {
-          "question": "[[I|Yo me]] (_____) [[very happy.]]",
+          "question": "[[I|Yo me]] (_____) [[very happy.|muy feliz.]]",
           "options": ["[[felt|sentí]]", "[[fall|caigo]]", "[[fell|caí]]"],
           "correctAnswer": 0,
           "explanation": "'Felt' es el pasado simple del verbo irregular 'feel'."
@@ -905,7 +905,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Pasado del verbo 'take'.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[many photos.]]",
+          "question": "[[I|Yo]] (_____) [[many photos.|muchas fotos.]]",
           "options": ["[[took|hice/tomé]]", "[[taken|tomado]]", "[[take|tomar]]"],
           "correctAnswer": 0,
           "explanation": "'Took' es el pasado de 'take'."
@@ -927,7 +927,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The local|Las]] (_____) [[locales eran interesantes.]]",
+          "question": "[[The local|Las]] (_____) [[were interesting.|eran interesantes.]]",
           "options": ["[[customs|costumbres]]", "[[costumes|disfraces]]", "[[customers|clientes]]"],
           "correctAnswer": 0,
           "explanation": "'Customs' se refiere a las tradiciones o costumbres de un lugar."
@@ -949,7 +949,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Pasado del verbo 'meet'.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[new friends.]]",
+          "question": "[[I|Yo]] (_____) [[new friends.|nuevos amigos.]]",
           "options": ["[[met|conocí]]", "[[meet|conocer]]", "[[meeted|conocí (incorrecto)]]"],
           "correctAnswer": 0,
           "explanation": "'Met' es el pasado del verbo irregular 'meet'."
@@ -1015,7 +1015,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|Los]] (_____) [[eran caros.]]",
+          "question": "[[The|Los]] (_____) [[were expensive.|eran caros.]]",
           "options": ["[[souvenirs|recuerdos/souvenirs]]", "[[stations|estaciones]]", "[[streets|calles]]"],
           "correctAnswer": 0,
           "explanation": "'Souvenirs' son los objetos de recuerdo que compramos en los viajes."
@@ -1037,7 +1037,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Identifica la expresión.",
       "questions": [
         {
-          "question": "[[I had a|Lo pasé]] (_____) [[time.]]",
+          "question": "[[I had a|Lo pasé]] (_____) [[time.|bien.]]",
           "options": ["[[great|genial]]", "[[bad|mal]]", "[[long|largo]]"],
           "correctAnswer": 0,
           "explanation": "'I had a great time' significa que lo pasaste muy bien."
@@ -1162,7 +1162,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Pasado del verbo 'think'.",
       "questions": [
         {
-          "question": "[[The trip was better than I|El viaje fue mejor de lo que]] (_____) .",
+          "question": "[[The trip was better than I|El viaje fue mejor de lo que]] (_____) [[thought.|pensé.]]",
           "options": ["[[thought|pensé/creí]]", "[[think|pensar]]", "[[thinked|pensé (incorrecto)]]"],
           "correctAnswer": 0,
           "explanation": "'Thought' es el pasado simple del verbo irregular 'think'."
@@ -1184,7 +1184,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We had some|Tuvimos algunos]] (_____) [[con el vuelo.]]",
+          "question": "[[We had some|Tuvimos algunos]] (_____) [[with the flight.|con el vuelo.]]",
           "options": ["[[problems|problemas]]", "[[programs|programas]]", "[[presents|regalos]]"],
           "correctAnswer": 0,
           "explanation": "'Problems' es problemas."
@@ -1206,7 +1206,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Identifica la expresión.",
       "questions": [
         {
-          "question": "[[The tickets were already|Las entradas ya estaban]] (_____) [[out.]]",
+          "question": "[[The tickets were already|Las entradas ya estaban]] (_____) [[out.|agotadas.]]",
           "options": ["[[sold|vendidas (agotadas)]]", "[[said|dichas]]", "[[sent|enviadas]]"],
           "correctAnswer": 0,
           "explanation": "'Sold out' significa agotado (todas las entradas vendidas)."
@@ -1267,7 +1267,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'any' en preguntas.",
       "questions": [
         {
-          "question": "[[Did you take|¿Hiciste]] (_____) [[photos?]]",
+          "question": "[[Did you take|¿Hiciste]] (_____) [[photos?|fotos?]]",
           "options": ["[[any|alguna/s]]", "[[some|algunas]]", "[[no|ninguna]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'any' en oraciones interrogativas."
@@ -1311,7 +1311,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Identifica la preposición.",
       "questions": [
         {
-          "question": "[[I want to travel|Quiero viajar]] (_____) [[the world.]]",
+          "question": "[[I want to travel|Quiero viajar]] (_____) [[the world.|el mundo.]]",
           "options": ["[[around|alrededor de/por todo]]", "[[about|sobre]]", "[[across|a través de]]"],
           "correctAnswer": 0,
           "explanation": "'Travel around' significa viajar por diversos lugares de una zona o del mundo."

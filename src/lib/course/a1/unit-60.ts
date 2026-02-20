@@ -14,7 +14,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de vocabulario.",
       "questions": [
         {
-          "question": "[[English is a global|El inglés es un]] (_____) [[global.]]",
+          "question": "[[English is a global|El inglés es un]] (_____) [[global.|global.]]",
           "options": ["[[language|idioma]]", "[[luggage|equipaje]]", "[[landscape|paisaje]]"],
           "correctAnswer": 0,
           "explanation": "'Language' es idioma."
@@ -58,7 +58,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de adjetivos.",
       "questions": [
         {
-          "question": "[[My family is very|Mi familia es muy]] (_____) [[to me.]]",
+          "question": "[[My family is very|Mi familia es muy]] (_____) [[to me.|para mí.]]",
           "options": ["[[important|importante]]", "[[impotent|impotente]]", "[[impatient|impaciente]]"],
           "correctAnswer": 0,
           "explanation": "'Important' es importante."
@@ -102,7 +102,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de vocabulario.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is beautiful today.]]",
+          "question": "[[The|El]] (_____) [[is beautiful today.|está hermoso hoy.]]",
           "options": ["[[weather|tiempo]]", "[[leather|cuero]]", "[[feather|pluma]]"],
           "correctAnswer": 0,
           "explanation": "'Weather' es el tiempo."
@@ -168,7 +168,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de vocabulario.",
       "questions": [
         {
-          "question": "(_____) [[is changing the world.]]",
+          "question": "(_____) [[is changing the world.|está cambiando el mundo.]]",
           "options": ["[[Technology|Tecnología]]", "[[Terminology|Terminología]]", "[[Topology|Topología]]"],
           "correctAnswer": 0,
           "explanation": "'Technology' es tecnología."
@@ -190,7 +190,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de vocabulario.",
       "questions": [
         {
-          "question": "(_____) [[is key to success.]]",
+          "question": "(_____) [[is key to success.|es clave para el éxito.]]",
           "options": ["[[Communication|Comunicación]]", "[[Collection|Colección]]", "[[Connection|Conexión]]"],
           "correctAnswer": 0,
           "explanation": "'Communication' es comunicación."
@@ -256,7 +256,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de comida.",
       "questions": [
         {
-          "question": "(_____) [[is the most important meal of the day.]]",
+          "question": "(_____) [[is the most important meal of the day.|es la comida más importante del día.]]",
           "options": ["[[Breakfast|Desayuno]]", "[[Dinner|Cena]]", "[[Lunch|Comida]]"],
           "correctAnswer": 0,
           "explanation": "'Breakfast' es desayuno."
@@ -278,7 +278,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de fechas.",
       "questions": [
         {
-          "question": "[[My|Mi]] (_____) [[is in September.]]",
+          "question": "[[My|Mi]] (_____) [[is in September.|es en septiembre.]]",
           "options": ["[[birthday|cumpleaños]]", "[[holiday|vacaciones]]", "[[weekday|día de diario]]"],
           "correctAnswer": 0,
           "explanation": "'Birthday' es cumpleaños."
@@ -344,7 +344,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de cultura.",
       "questions": [
         {
-          "question": "[[It is a|Es una]] (_____) [[to exchange gifts.]]",
+          "question": "[[It is a|Es una]] (_____) [[to exchange gifts.|intercambiar regalos.]]",
           "options": ["[[tradition|tradición]]", "[[condition|condición]]", "[[direction|dirección]]"],
           "correctAnswer": 0,
           "explanation": "'Tradition' es tradición."
@@ -366,7 +366,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de salud.",
       "questions": [
         {
-          "question": "(_____) [[is the most important thing.]]",
+          "question": "(_____) [[is the most important thing.|es lo más importante.]]",
           "options": ["[[Health|Salud]]", "[[Wealth|Riqueza]]", "[[Death|Muerte]]"],
           "correctAnswer": 0,
           "explanation": "'Health' es salud."
@@ -410,7 +410,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de vocabulario.",
       "questions": [
         {
-          "question": "(_____) [[is very valuable.]]",
+          "question": "(_____) [[is very valuable.|es muy valiosa.]]",
           "options": ["[[Education|Educación]]", "[[Exhibition|Exhibición]]", "[[Expression|Expresión]]"],
           "correctAnswer": 0,
           "explanation": "'Education' es educación."
@@ -456,7 +456,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de gramática.",
       "questions": [
         {
-          "question": "[[I am|Estoy]] (_____) [[English every day.]]",
+          "question": "[[I am|Estoy]] (_____) [[English every day.|inglés todos los días.]]",
           "options": ["[[learning|aprendiendo]]", "[[learn|aprender]]", "[[learned|aprendido]]"],
           "correctAnswer": 0,
           "explanation": "Acción en curso."
@@ -478,7 +478,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de gramática.",
       "questions": [
         {
-          "question": "[[He|Él]] (_____) [[to London last summer.]]",
+          "question": "[[He|Él]] (_____) [[to London last summer.|a Londres el verano pasado.]]",
           "options": ["[[went|fue]]", "[[go|va]]", "[[gone|ido]]"],
           "correctAnswer": 0,
           "explanation": "'Went' es el pasado irregular de 'go'."
@@ -500,7 +500,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de gramática.",
       "questions": [
         {
-          "question": "[[I am|Voy]] (_____) [[to visit my parents next weekend.]]",
+          "question": "[[I am|Voy]] (_____) [[to visit my parents next weekend.|a visitar a mis padres el próximo fin de semana.]]",
           "options": ["[[going|a]]", "[[go|ir]]", "[[will|haré]]"],
           "correctAnswer": 0,
           "explanation": "'Going to' para planes futuros."
@@ -522,7 +522,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de gramática.",
       "questions": [
         {
-          "question": "[[You|Tú]] (_____) [[follow the rules.]]",
+          "question": "[[You|Tú]] (_____) [[follow the rules.|seguir las reglas.]]",
           "options": ["[[must|debes]]", "[[most|más]]", "[[might|podrías]]"],
           "correctAnswer": 0,
           "explanation": "'Must' indica obligación."
@@ -544,7 +544,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de gramática.",
       "questions": [
         {
-          "question": "[[This book is|Este libro es]] (_____) [[interesting than that one.]]",
+          "question": "[[This book is|Este libro es]] (_____) [[interesting than that one.|interesante que ese.]]",
           "options": ["[[more|más]]", "[[most|el más]]", "[[much|mucho]]"],
           "correctAnswer": 0,
           "explanation": "'More' para comparar adjetivos largos."
@@ -583,7 +583,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de gramática.",
       "questions": [
         {
-          "question": "[[Do you know|¿Sabes]] (_____) [[the station is?]]",
+          "question": "[[Do you know|¿Sabes]] (_____) [[the station is?|está la estación?]]",
           "options": ["[[where|dónde]]", "[[what|qué]]", "[[who|quién]]"],
           "correctAnswer": 0,
           "explanation": "'Where' para preguntar por lugares."
@@ -605,7 +605,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de gramática.",
       "questions": [
         {
-          "question": "[[I don't like coffee,|No me gusta el café,]] (_____) [[I like tea.]]",
+          "question": "[[I don't like coffee,|No me gusta el café,]] (_____) [[I like tea.|me gusta el té.]]",
           "options": ["[[but|pero]]", "[[and|y]]", "[[because|porque]]"],
           "correctAnswer": 0,
           "explanation": "'But' indica contraste."
@@ -627,7 +627,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de gramática.",
       "questions": [
         {
-          "question": "(_____) [[a supermarket near my house.]]",
+          "question": "(_____) [[a supermarket near my house.|un supermercado cerca de mi casa.]]",
           "options": ["[[There is|Hay]]", "[[There are|Hay (plural)]]", "[[Is there|¿Hay?]]"],
           "correctAnswer": 0,
           "explanation": "'There is' para un solo objeto."
@@ -666,7 +666,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de gramática.",
       "questions": [
         {
-          "question": "[[If it rains, I|Si llueve, yo]] (_____) [[stay at home.]]",
+          "question": "[[If it rains, I|Si llueve, yo]] (_____) [[stay at home.|quedarme en casa.]]",
           "options": ["[[will|me quedaré]]", "[[would|me quedaría]]", "[[am|me estoy]]"],
           "correctAnswer": 0,
           "explanation": "Primer condicional para situaciones probables."
@@ -688,7 +688,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de gramática.",
       "questions": [
         {
-          "question": "[[She is the|Ella es la]] (_____) [[person in the class.]]",
+          "question": "[[She is the|Ella es la]] (_____) [[person in the class.|persona de la clase.]]",
           "options": ["[[tallest|más alta]]", "[[taller|más alta (comparativo)]]", "[[tall|alta]]"],
           "correctAnswer": 0,
           "explanation": "Superlativo de un adjetivo corto."
@@ -710,7 +710,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de gramática.",
       "questions": [
         {
-          "question": "[[I|Tengo]] (_____) [[to finish this work today.]]",
+          "question": "[[I|Tengo]] (_____) [[to finish this work today.|terminar este trabajo hoy.]]",
           "options": ["[[have|que]]", "[[must|debo]]", "[[should|debería]]"],
           "correctAnswer": 0,
           "explanation": "'Have to' indica necesidad u obligación externa."
@@ -732,7 +732,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de gramática.",
       "questions": [
         {
-          "question": "[[He doesn't have|Él no tiene]] (_____) [[money.]]",
+          "question": "[[He doesn't have|Él no tiene]] (_____) [[money.|dinero.]]",
           "options": ["[[any|nada de]]", "[[some|algo de]]", "[[none|nada]]"],
           "correctAnswer": 0,
           "explanation": "'Any' en oraciones negativas."
@@ -754,7 +754,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de expresiones.",
       "questions": [
         {
-          "question": "[[I'm looking forward|Tengo muchas ganas de]] (_____) [[you.]]",
+          "question": "[[I'm looking forward|Tengo muchas ganas de]] (_____) [[you.|conocerte.]]",
           "options": ["[[to meeting|conocerte]]", "[[to meet|conocer]]", "[[meeting|conociendo]]"],
           "correctAnswer": 0,
           "explanation": "'Looking forward to' + verbo en -ing."
@@ -776,7 +776,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de gramática.",
       "questions": [
         {
-          "question": "[[Everything|Todo]] (_____) [[be fine.]]",
+          "question": "[[Everything|Todo]] (_____) [[be fine.|estará bien.]]",
           "options": ["[[will|estará]]", "[[is going to|va a estar]]", "[[would|estaría]]"],
           "correctAnswer": 0,
           "explanation": "'Will' para predicciones generales."
@@ -798,7 +798,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de modales.",
       "questions": [
         {
-          "question": "[[I|No puedo]] (_____) [[swim very well.]]",
+          "question": "[[I|No puedo]] (_____) [[swim very well.|nadar muy bien.]]",
           "options": ["[[can't|poder]]", "[[don't|no]]", "[[not|no]]"],
           "correctAnswer": 0,
           "explanation": "'Can't' es la contracción de 'cannot'."
@@ -820,7 +820,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de gramática.",
       "questions": [
         {
-          "question": "[[I|Me]] (_____) [[love to travel the world.]]",
+          "question": "[[I|Me]] (_____) [[love to travel the world.|encantaría viajar por el mundo.]]",
           "options": ["[[would|encantaría (auxiliar)]]", "[[should|debería]]", "[[could|podría]]"],
           "correctAnswer": 0,
           "explanation": "'Would love to' para deseos."
@@ -859,7 +859,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Identifica el sustantivo.",
       "questions": [
         {
-          "question": "[[This is the|Este es el]] (_____) [[of the course.]]",
+          "question": "[[This is the|Este es el]] (_____) [[of the course.|del curso.]]",
           "options": ["[[end|final]]", "[[and|y]]", "[[aid|ayuda]]"],
           "correctAnswer": 0,
           "explanation": "'End' es final."
@@ -883,7 +883,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[You have|Has]] (_____) [[the A1 level.]]",
+          "question": "[[You have|Has]] (_____) [[the A1 level.|el nivel A1.]]",
           "options": ["[[completed|completado]]", "[[compared|comparado]]", "[[computed|calculado]]"],
           "correctAnswer": 0,
           "explanation": "'Completed' es completado."
@@ -905,7 +905,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[on your success!]]",
+          "question": "(_____) [[on your success!|por tu éxito!]]",
           "options": ["[[Congratulations|Felicidades]]", "[[Concentrations|Concentraciones]]", "[[Contributions|Contribuciones]]"],
           "correctAnswer": 0,
           "explanation": "'Congratulations' es felicidades."
@@ -1015,7 +1015,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[You are|Estás]] (_____) [[for the next level.]]",
+          "question": "[[You are|Estás]] (_____) [[for the next level.|para el siguiente nivel.]]",
           "options": ["[[ready|listo/lista]]", "[[reading|leyendo]]", "[[really|realmente]]"],
           "correctAnswer": 0,
           "explanation": "'Ready' es listo o preparada."
@@ -1059,7 +1059,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[I am so|Estoy tan]] (_____) [[for you.]]",
+          "question": "[[I am so|Estoy tan]] (_____) [[for you.|por ti.]]",
           "options": ["[[happy|feliz]]", "[[heavy|pesado]]", "[[hobby|pasatiempo]]"],
           "correctAnswer": 0,
           "explanation": "'Happy' es feliz."
@@ -1081,7 +1081,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "(_____) [[going!]]",
+          "question": "(_____) [[going!|adelante!]]",
           "options": ["[[Keep|Sigue/Mantén]]", "[[Kick|Patea]]", "[[Kiss|Besa]]"],
           "correctAnswer": 0,
           "explanation": "'Keep going' significa seguir adelante."
@@ -1101,7 +1101,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "content": {
       "title": "¡Felicidades por completar el A1!",
       "instructions": "Lee la conclusión del curso.",
-      "text": "[[Congratulations!|¡Felicidades!]] [[You|Tú]] [[have|has]] [[completed|completado]] [[the|el]] [[A1|inglés]] [[English|A1]] [[course.|curso de.]] [[This|Este]] [[is|es]] [[a|un]] [[very|paso]] [[important|muy]] [[step|importante]] [[in|en]] [[your|tu]] [[language|viaje]] [[journey.|lingüístico.]] [[Over|En]] [[the|las]] [[past|últimas]] [[sixty|sesenta]] [[units,|unidades,]] [[you|]] [[have|has]] [[learned|aprendido]] [[a|mucho]] [[lot|]] [[of|]] [[vocabulary,|vocabulario,]] [[basic|gramática]] [[grammar,|básica]] [[and|y]] [[useful|expresiones]] [[expressions|útiles]] [[for|para]] [[daily|la vida]] [[life.|diaria.]] [[You|Tú]] [[can|puedes]] [[now|ahora]] [[introduce|presentarte,]] [[yourself,|]] [[talk|hablar]] [[about|sobre]] [[your|tu]] [[family,|familia,]] [[describe|describir]] [[your|tu]] [[home,|casa,]] [[and|y]] [[express|expresar]] [[your|tus]] [[dreams|sueños]] [[for|para]] [[the|el]] [[future.|futuro.]] [[You|Tú]] [[have|también]] [[also|]] [[improved|has mejorado]] [[your|tus]] [[reading|habilidades de lectura]] [[and|y]] [[listening|audición.]] [[skills.|]] [[Learning|Aprender]] [[a|un]] [[new|nuevo]] [[language|idioma]] [[takes|lleva]] [[time|tiempo]] [[and|y]] [[patience,|paciencia,]] [[and|y]] [[you|]] [[should|deberías]] [[be|estar]] [[proud|orgulloso]] [[of|de]] [[your|tu]] [[hard|trabajo]] [[work.|duro.]] [[This|Este]] [[is|es]] [[just|solo]] [[the|el]] [[beginning.|principio.]] [[Now|Ahora]] [[you|tienes]] [[have|]] [[a|una]] [[solid|base]] [[foundation|sólida]] [[to|para]] [[move|pasar]] [[to|al]] [[the|]] [[A1|nivel]] [[level.|A2.]] [[Remember|Recuerda]] [[to|]] [[practice|practicar]] [[every|todos]] [[day,|los días,]] [[even|incluso]] [[if|si]] [[it|es]] [[is|]] [[just|solo]] [[for|durante]] [[a|unos]] [[few|pocos]] [[minutes.|minutos.]] [[Read|Lee]] [[books,|libros,]] [[watch|ve]] [[movies|películas]] [[in|en]] [[English,|inglés,]] [[and|y]] [[try|trata]] [[to|de]] [[speak|hablar]] [[whenever|siempre que]] [[you|]] [[can.|puedas.]] [[Well|Bien]] [[done,|hecho,]] [[and|y]] [[good|buena]] [[luck|suerte]] [[with|con]] [[your|tus]] [[future|futuros]] [[studies!|estudios!]]",
+      "text": "[[Congratulations!|¡Felicidades!]] [[You|Tú]] [[have|has]] [[completed|completado]] [[the|el]] [[English|inglés]] [[A1|A1]] [[course.|curso.]] [[This|Este]] [[is|es]] [[a|un]] [[very|muy]] [[important|importante]] [[step|paso]] [[in|en]] [[your|tu]] [[language|idioma]] [[journey.|viaje.]] [[Over|En]] [[the|las]] [[past|últimas]] [[sixty|sesenta]] [[units,|unidades,]] [[you|tú]] [[have|has]] [[learned|aprendido]] [[a lot of|mucho]] [[vocabulary,|vocabulario,]] [[basic|básica]] [[grammar,|gramática]] [[and|y]] [[useful|útiles]] [[expressions|expresiones]] [[for|para]] [[daily|la vida]] [[life.|diaria.]] [[You|Tú]] [[can|puedes]] [[now|ahora]] [[introduce|presentarte]] [[yourself,|a ti mismo,]] [[talk|hablar]] [[about|sobre]] [[your|tu]] [[family,|familia,]] [[describe|describir]] [[your|tu]] [[home,|casa,]] [[and|y]] [[express|expresar]] [[your|tus]] [[dreams|sueños]] [[for|para]] [[the|el]] [[future.|futuro.]] [[You|Tú]] [[have|has]] [[also|también]] [[improved|mejorado]] [[your|tus]] [[reading|lectura]] [[and|y]] [[listening|escucha]] [[skills.|habilidades.]] [[Learning|Aprender]] [[a|un]] [[new|nuevo]] [[language|idioma]] [[takes|lleva]] [[time|tiempo]] [[and|y]] [[patience,|paciencia,]] [[and|y]] [[you|tú]] [[should|deberías]] [[be|estar]] [[proud|orgulloso]] [[of|de]] [[your|tu]] [[hard|duro]] [[work.|trabajo.]] [[This|Este]] [[is|es]] [[just|solo]] [[the|el]] [[beginning.|principio.]] [[Now|Ahora]] [[you|tú]] [[have|tienes]] [[a|una]] [[solid|sólida]] [[foundation|base]] [[to|para]] [[move|pasar]] [[to|al]] [[the|el]] [[A2|A2]] [[level.|nivel.]] [[Remember|Recuerda]] [[to|]] [[practice|practicar]] [[every|cada]] [[day,|día,]] [[even|incluso]] [[if|si]] [[it|esto]] [[is|es]] [[just|solo]] [[for|por]] [[a|unos]] [[few|pocos]] [[minutes.|minutos.]] [[Read|Lee]] [[books,|libros,]] [[watch|ve]] [[movies|películas]] [[in|en]] [[English,|inglés,]] [[and|y]] [[try|intenta]] [[to|]] [[speak|hablar]] [[whenever|siempre que]] [[you|tú]] [[can.|puedas.]] [[Well|Bien]] [[done,|hecho,]] [[and|y]] [[good|buena]] [[luck|suerte]] [[with|con]] [[your|tus]] [[future|futuros]] [[studies!|estudios!]]",
       "questions": [
         {
           "question": "[[What level have you completed?|¿Qué nivel has completado?]]",
@@ -1133,7 +1133,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "content": {
       "title": "Tu futuro con el inglés",
       "instructions": "Lee sobre tus metas futuras.",
-      "text": "[[Achieving|Lograr]] [[your|tus]] [[language|metas]] [[goals|lingüísticas]] [[is|es]] [[a|un]] [[wonderful|sentimiento]] [[feeling.|maravilloso.]] [[When|Cuando]] [[you|]] [[look|miras]] [[back,|atrás,]] [[you|]] [[can|puedes]] [[see|ver]] [[how|cuánto]] [[much|]] [[you|]] [[have|has]] [[improved|mejorado]] [[since|desde la]] [[Unit|Unidad]] [[1.|1.]] [[At|Al]] [[the|]] [[beginning,|principio,]] [[everything|todo]] [[was|era]] [[new|nuevo]] [[and|y]] [[sometimes|a veces]] [[difficult.|difícil.]] [[Now,|Ahora,]] [[you|]] [[can|puedes]] [[understand|entender]] [[many|muchas]] [[words|palabras]] [[and|y]] [[sentences|frases]] [[in|en]] [[English.|inglés.]] [[This|Este]] [[progress|progreso]] [[is|es]] [[the|el]] [[result|resultado]] [[of|de]] [[your|tu]] [[consistency|constancia]] [[and|y]] [[determination.|determinación.]] [[To|Para]] [[continue|seguir]] [[growing,|creciendo,]] [[it|]] [[is|es]] [[helpful|útil]] [[to|]] [[set|fijar]] [[new|nuevas]] [[goals|metas]] [[for|para]] [[the|el]] [[A1|nivel]] [[level.|A2.]] [[Think|Piensa]] [[about|en]] [[what|lo que]] [[you|]] [[want|quieres]] [[to|]] [[achieve|lograr]] [[next.|después.]] [[Do|¿Quieres]] [[you|]] [[want|]] [[to|]] [[understand|entender]] [[your|tus]] [[favorite|canciones]] [[songs?|favoritas?]] [[Do|¿Quieres]] [[you|]] [[want|]] [[to|]] [[travel|viajar]] [[to|a]] [[an|un]] [[English-speaking|país de habla]] [[country?|inglesa?]] [[Having|Tener]] [[a|una]] [[clear|meta]] [[goal|clara]] [[will|te]] [[keep|mantendrá]] [[you|]] [[motivated.|motivado.]] [[English|El inglés]] [[is|es]] [[a|una]] [[tool|herramienta]] [[that|que]] [[opens|abre]] [[many|muchas]] [[doors|puertas]] [[in|en]] [[work,|el trabajo,]] [[travel,|los viajes]] [[and|y]] [[education.|la educación.]] [[Enjoy|Disfruta]] [[the|del]] [[process|proceso]] [[of|de]] [[learning|aprender]] [[and|y]] [[be|sé]] [[patient|paciente]] [[with|contigo]] [[yourself.|mismo.]] [[You|¡Lo]] [[are|estás]] [[doing|haciendo]] [[great!|genial!]] [[Keep|Sigue]] [[going|así]] [[and|y]] [[never|nunca]] [[lose|pierdas]] [[your|tu]] [[curiosity|curiosidad]] [[about|por]] [[the|el]] [[world|mundo]] [[and|y]] [[its|sus]] [[languages.|idiomas.]]",
+      "text": "[[Achieving|Lograr]] [[your|tus]] [[language|idioma]] [[goals|metas]] [[is|es]] [[a|un]] [[wonderful|maravilloso]] [[feeling.|sentimiento.]] [[When|Cuando]] [[you|tú]] [[look|miras]] [[back,|atrás,]] [[you|tú]] [[can|puedes]] [[see|ver]] [[how|cuánto]] [[much|mucho]] [[you|tú]] [[have|has]] [[improved|mejorado]] [[since|desde la]] [[Unit|Unidad]] [[1.|1.]] [[At|Al]] [[the|]] [[beginning,|principio,]] [[everything|todo]] [[was|era]] [[new|nuevo]] [[and|y]] [[sometimes|a veces]] [[difficult.|difícil.]] [[Now,|Ahora,]] [[you|tú]] [[can|puedes]] [[understand|entender]] [[many|muchas]] [[words|palabras]] [[and|y]] [[sentences|frases]] [[in|en]] [[English.|inglés.]] [[This|Este]] [[progress|progreso]] [[is|es]] [[the|el]] [[result|resultado]] [[of|de]] [[your|tu]] [[consistency|constancia]] [[and|y]] [[determination.|determinación.]] [[To|Para]] [[continue|seguir]] [[growing,|creciendo,]] [[it|esto]] [[is|es]] [[helpful|útil]] [[to|]] [[set|fijar]] [[new|nuevas]] [[goals|metas]] [[for|para]] [[the|el]] [[A2|A2]] [[level.|nivel.]] [[Think|Piensa]] [[about|en]] [[what|lo que]] [[you|tú]] [[want|quieres]] [[to|]] [[achieve|lograr]] [[next.|después.]] [[Do|¿Quieres]] [[you|tú]] [[want|]] [[to|]] [[understand|entender]] [[your|tus]] [[favorite|favoritas]] [[songs?|canciones?]] [[Do|¿Quieres]] [[you|tú]] [[want|]] [[to|]] [[travel|viajar]] [[to|a]] [[an|un]] [[English-speaking|de habla inglesa]] [[country?|país?]] [[Having|Tener]] [[a|una]] [[clear|clara]] [[goal|meta]] [[will|te]] [[keep|mantendrá]] [[you|tú]] [[motivated.|motivado.]] [[English|El inglés]] [[is|es]] [[a|una]] [[tool|herramienta]] [[that|que]] [[opens|abre]] [[many|muchas]] [[doors|puertas]] [[in|en]] [[work,|el trabajo,]] [[travel,|los viajes]] [[and|y]] [[education.|la educación.]] [[Enjoy|Disfruta]] [[the|del]] [[process|proceso]] [[of|de]] [[learning|aprender]] [[and|y]] [[be|sé]] [[patient|paciente]] [[with|contigo]] [[yourself.|mismo.]] [[You|Tú]] [[are|estás]] [[doing|haciendo]] [[great!|¡genial!]] [[Keep|Sigue]] [[going|adelante]] [[and|y]] [[never|nunca]] [[lose|pierdas]] [[your|tu]] [[curiosity|curiosidad]] [[about|por]] [[the|el]] [[world|mundo]] [[and|y]] [[its|sus]] [[languages.|idiomas.]]",
       "questions": [
         {
           "question": "[[What is progress the result of?|¿De qué es resultado el progreso?]]",
@@ -1184,7 +1184,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Identifica la frase.",
       "questions": [
         {
-          "question": "[[You have a bright future|Tienes un futuro brillante]] (_____) [[of you.]]",
+          "question": "[[You have a bright future|Tienes un futuro brillante]] (_____) [[of you.|de ti.]]",
           "options": ["[[ahead|por delante]]", "[[above|por encima]]", "[[along|a lo largo]]"],
           "correctAnswer": 0,
           "explanation": "'Ahead of you' significa por delante de ti."
@@ -1206,7 +1206,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Identifica el phrasal verb.",
       "questions": [
         {
-          "question": "[[Never|Nunca]] (_____) [[on your dreams.]]",
+          "question": "[[Never|Nunca]] (_____) [[on your dreams.|en tus sueños.]]",
           "options": ["[[give up|te rindas]]", "[[get up|te levantes]]", "[[go up|subas]]"],
           "correctAnswer": 0,
           "explanation": "'Give up' es rendirse."
@@ -1267,7 +1267,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The|Lo]] (_____) [[is yet to come.]]",
+          "question": "[[The|Lo]] (_____) [[is yet to come.|está por venir.]]",
           "options": ["[[best|mejor]]", "[[better|mejor (comparativo)]]", "[[good|bueno]]"],
           "correctAnswer": 0,
           "explanation": "'The best' es el mejor / lo mejor."
@@ -1289,7 +1289,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Repaso de gramática.",
       "questions": [
         {
-          "question": "(_____) [[units did you complete?]]",
+          "question": "(_____) [[units did you complete?|unidades completaste?]]",
           "options": ["[[How many|Cuántas]]", "[[How much|Cuánto]]", "[[How long|Cuánto tiempo]]"],
           "correctAnswer": 0,
           "explanation": "'Units' es contable."
@@ -1311,7 +1311,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[You are ready for your A1|Estás listo para tu]] (_____) [[A1.]]",
+          "question": "[[You are ready for your A1|Estás listo para tu]] (_____) [[A1.|A1.]]",
           "options": ["[[certificate|certificado]]", "[[celebration|celebración]]", "[[collection|colección]]"],
           "correctAnswer": 0,
           "explanation": "'Certificate' es certificado."

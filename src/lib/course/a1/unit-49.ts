@@ -14,7 +14,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The Eiffel Tower is a|La Torre Eiffel es un]] (_____) [[landmark.]]",
+          "question": "[[The Eiffel Tower is a|La Torre Eiffel es un]] (_____) [[landmark.|lugar emblemático.]]",
           "options": ["[[famous|famoso]]", "[[fat|gordo]]", "[[final|final]]"],
           "correctAnswer": 0,
           "explanation": "'Famous' es famoso."
@@ -36,7 +36,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The city has many|La ciudad tiene muchos]] (_____) [[buildings.]]",
+          "question": "[[The city has many|La ciudad tiene muchos]] (_____) [[buildings.|edificios.]]",
           "options": ["[[modern|modernos]]", "[[mountain|montaña]]", "[[morning|mañana]]"],
           "correctAnswer": 0,
           "explanation": "'Modern' es moderno."
@@ -80,7 +80,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is very tall.]]",
+          "question": "[[The|La]] (_____) [[is very tall.|es muy alta.]]",
           "options": ["[[statue|estatua]]", "[[station|estación]]", "[[stamp|sello]]"],
           "correctAnswer": 0,
           "explanation": "'Statue' es estatua."
@@ -102,7 +102,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We walked through the main|Caminamos por la]] (_____) [[principal.]]",
+          "question": "[[We walked through the main|Caminamos por la]] (_____) [[square.|plaza principal.]]",
           "options": ["[[square|plaza]]", "[[store|tienda]]", "[[school|escuela]]"],
           "correctAnswer": 0,
           "explanation": "'Square' significa plaza en este contexto."
@@ -124,7 +124,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is historic.]]",
+          "question": "[[The|La]] (_____) [[is historic.|es histórica.]]",
           "options": ["[[cathedral|catedral]]", "[[castle|castillo]]", "[[capital|capital]]"],
           "correctAnswer": 0,
           "explanation": "'Cathedral' es catedral."
@@ -146,7 +146,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is beautiful.]]",
+          "question": "[[The|El]] (_____) [[is beautiful.|es hermoso.]]",
           "options": ["[[palace|palacio]]", "[[place|lugar]]", "[[plane|avión]]"],
           "correctAnswer": 0,
           "explanation": "'Palace' es palacio."
@@ -168,7 +168,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[They live in a|Viven en una calle]] (_____) [[street.]]",
+          "question": "[[They live in a|Viven en una calle]] (_____) [[street.|estrecha.]]",
           "options": ["[[narrow|estrecha]]", "[[noisy|ruidosa]]", "[[new|nueva]]"],
           "correctAnswer": 0,
           "explanation": "'Narrow' es estrecho."
@@ -190,7 +190,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[from the top is amazing.]]",
+          "question": "[[The|La]] (_____) [[from the top is amazing.|desde arriba es increíble.]]",
           "options": ["[[view|vista]]", "[[voice|voz]]", "[[village|pueblo]]"],
           "correctAnswer": 0,
           "explanation": "'View' es vista."
@@ -256,7 +256,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[There is a|Hay una]] (_____) [[in the middle.]]",
+          "question": "[[There is a|Hay una]] (_____) [[in the middle.|en el medio.]]",
           "options": ["[[fountain|fuente]]", "[[forest|bosque]]", "[[flower|flor]]"],
           "correctAnswer": 0,
           "explanation": "'Fountain' es fuente."
@@ -278,7 +278,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is very high.]]",
+          "question": "[[The|La]] (_____) [[is very high.|es muy alta.]]",
           "options": ["[[tower|torre]]", "[[town|ciudad/pueblo]]", "[[ticket|billete]]"],
           "correctAnswer": 0,
           "explanation": "'Tower' es torre."
@@ -344,7 +344,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The museum is|El museo está]] (_____) [[near the park.]]",
+          "question": "[[The museum is|El museo está]] (_____) [[near the park.|cerca del parque.]]",
           "options": ["[[located|situado/ubicado]]", "[[looked|mirado]]", "[[liked|gustado]]"],
           "correctAnswer": 0,
           "explanation": "'Located' significa situado o ubicado."
@@ -388,7 +388,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[This is the most popular|Este es el]] (_____) [[más popular.]]",
+          "question": "[[This is the most popular|Este es el]] (_____) [[site.|lugar más popular.]]",
           "options": ["[[site|lugar/sitio]]", "[[side|lado]]", "[[size|tamaño]]"],
           "correctAnswer": 0,
           "explanation": "'Site' se refiere a un lugar o sitio de interés."
@@ -410,7 +410,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|Las]] (_____) [[are white.]]",
+          "question": "[[The|Las]] (_____) [[are white.|son blancas.]]",
           "options": ["[[walls|paredes/muros]]", "[[walks|caminatas]]", "[[ways|caminos]]"],
           "correctAnswer": 0,
           "explanation": "'Walls' son paredes o muros."
@@ -432,7 +432,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[It is an|Es una ciudad]] (_____) [[city.]]",
+          "question": "[[It is an|Es una ciudad]] (_____) [[city.|antigua.]]",
           "options": ["[[ancient|antigua]]", "[[action|acción]]", "[[angry|enfadada]]"],
           "correctAnswer": 0,
           "explanation": "'Ancient' significa muy antiguo."
@@ -456,7 +456,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'as... as' para comparaciones.",
       "questions": [
         {
-          "question": "[[The tower is|La torre es]] (_____) [[tall]] (_____) [[the building.]]",
+          "question": "[[The tower is|La torre es]] (_____) [[tall|alta]] (_____) [[the building.|el edificio.]]",
           "options": ["[[as / as|tan / como]]", "[[so / as|tan / como (neg.)]]", "[[more / than|más / que]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'as + adjetivo + as' para decir que dos cosas son iguales en alguna característica."
@@ -478,7 +478,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'There is'.",
       "questions": [
         {
-          "question": "(_____) [[a beautiful square in the center.]]",
+          "question": "(_____) [[a beautiful square in the center.|una plaza hermosa en el centro.]]",
           "options": ["[[There is|Hay (singular)]]", "[[There are|Hay (plural)]]", "[[Is there|¿Hay?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'There is' para indicar la existencia de una sola cosa."
@@ -500,7 +500,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Voz pasiva en pasado simple.",
       "questions": [
         {
-          "question": "[[The palace|El palacio]] (_____) [[built in the 18th century.]]",
+          "question": "[[The palace|El palacio]] (_____) [[built in the 18th century.|construido en el siglo XVIII.]]",
           "options": ["[[was|fue]]", "[[were|fueron]]", "[[is|es]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'was' + participio (built) para la voz pasiva en singular."
@@ -522,7 +522,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Uso del modal 'can'.",
       "questions": [
         {
-          "question": "[[You|Puedes]] (_____) [[see the whole city from here.]]",
+          "question": "[[You|Puedes]] (_____) [[see the whole city from here.|ver toda la ciudad desde aquí.]]",
           "options": ["[[can|puedes]]", "[[must|debes]]", "[[should|deberías]]"],
           "correctAnswer": 0,
           "explanation": "'Can' indica posibilidad o capacidad de ver algo."
@@ -544,7 +544,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Preposición de lugar.",
       "questions": [
         {
-          "question": "[[The river is located|El río está situado]] (_____) [[the bridge.]]",
+          "question": "[[The river is located|El río está situado]] (_____) [[the bridge.|el puente.]]",
           "options": ["[[under|bajo/debajo de]]", "[[over|sobre/encima de]]", "[[next to|al lado de]]"],
           "correctAnswer": 0,
           "explanation": "'Under' significa debajo de algo (con contacto o no)."
@@ -583,7 +583,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Pregunta con 'There are'.",
       "questions": [
         {
-          "question": "(_____) [[there many historic buildings?]]",
+          "question": "(_____) [[there many historic buildings?|muchos edificios históricos?]]",
           "options": ["[[Are|¿Hay? (plural)]]", "[[Is|¿Hay? (singular)]]", "[[Do|¿Haces?]]"],
           "correctAnswer": 0,
           "explanation": "Para preguntar por la existencia de varias cosas, usamos 'Are there?'."
@@ -605,7 +605,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'made of' para materiales.",
       "questions": [
         {
-          "question": "[[The statue is|La estatua está]] (_____) [[bronze.]]",
+          "question": "[[The statue is|La estatua está]] (_____) [[bronze.|bronce.]]",
           "options": ["[[made of|hecha de]]", "[[made from|hecha de (cambio total)]]", "[[make of|hacer de]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'made of' cuando el material básico de un objeto no ha cambiado."
@@ -627,7 +627,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica la preposición.",
       "questions": [
         {
-          "question": "[[It is located|Está situado]] (_____) [[the center of the city.]]",
+          "question": "[[It is located|Está situado]] (_____) [[the center of the city.|el centro de la ciudad.]]",
           "options": ["[[in|en]]", "[[at|en (punto)]]", "[[on|sobre/en]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'in the center' para localizaciones generales dentro de un área."
@@ -666,7 +666,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Negación con 'any'.",
       "questions": [
         {
-          "question": "[[There isn't|No hay]] (_____) [[fountain in this square.]]",
+          "question": "[[There isn't|No hay]] (_____) [[fountain in this square.|fuente en esta plaza.]]",
           "options": ["[[any|ninguna]]", "[[some|alguna]]", "[[a|una]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'any' en oraciones negativas para indicar 'ninguno/a'."
@@ -688,7 +688,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Comparativo con adjetivo corto.",
       "questions": [
         {
-          "question": "[[The cathedral is|La catedral es]] (_____) [[than the palace.]]",
+          "question": "[[The cathedral is|La catedral es]] (_____) [[than the palace.|que el palacio.]]",
           "options": ["[[older|más vieja]]", "[[more old|más vieja (incorrecto)]]", "[[oldest|la más vieja]]"],
           "correctAnswer": 0,
           "explanation": "Para adjetivos cortos como 'old', añadimos '-er' para el comparativo."
@@ -710,7 +710,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'Everything'.",
       "questions": [
         {
-          "question": "(_____) [[is very clean here.]]",
+          "question": "(_____) [[is very clean here.|está muy limpio aquí.]]",
           "options": ["[[Everything|Todo]]", "[[Everywhere|En todas partes]]", "[[Everyone|Todos (personas)]]"],
           "correctAnswer": 0,
           "explanation": "'Everything' se refiere a todas las cosas."
@@ -732,7 +732,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Infinitivo de propósito.",
       "questions": [
         {
-          "question": "[[This is a quiet place|Este es un sitio tranquilo]] (_____) [[sit.]]",
+          "question": "[[This is a quiet place|Este es un sitio tranquilo]] (_____) [[sit.|sentarse.]]",
           "options": ["[[to|para]]", "[[for|por]]", "[[at|en]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'to' + verbo para expresar el propósito de algo."
@@ -754,7 +754,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Preposición de lugar.",
       "questions": [
         {
-          "question": "[[The monument is|El monumento está]] (_____) [[the museum.]]",
+          "question": "[[The monument is|El monumento está]] (_____) [[the museum.|el museo.]]",
           "options": ["[[behind|detrás de]]", "[[between|entre]]", "[[opposite|enfrente de]]"],
           "correctAnswer": 0,
           "explanation": "'Behind' significa detrás de algo."
@@ -798,7 +798,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Pregunta con 'can'.",
       "questions": [
         {
-          "question": "(_____) [[can I find a tourist map?]]",
+          "question": "(_____) [[can I find a tourist map?|puedo encontrar un mapa turístico?]]",
           "options": ["[[Where|Dónde]]", "[[How|Cómo]]", "[[Who|Quién]]"],
           "correctAnswer": 0,
           "explanation": "'Where' se usa para preguntar por lugares."
@@ -820,7 +820,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Expresión de lugar.",
       "questions": [
         {
-          "question": "[[The entrance is|La entrada está]] (_____) [[the right.]]",
+          "question": "[[The entrance is|La entrada está]] (_____) [[the right.|la derecha.]]",
           "options": ["[[on|a/en]]", "[[in|en]]", "[[at|en]]"],
           "correctAnswer": 0,
           "explanation": "Decimos 'on the right' para indicar a la derecha."
@@ -859,7 +859,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'looks like'.",
       "questions": [
         {
-          "question": "[[It|Eso]] (_____) [[like a castle.]]",
+          "question": "[[It|Eso]] (_____) [[like a castle.|como un castillo.]]",
           "options": ["[[looks|parece (mira)]]", "[[likes|gusta]]", "[[is|es]]"],
           "correctAnswer": 0,
           "explanation": "'Looks like' significa tener la apariencia de algo."
@@ -905,7 +905,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'full of'.",
       "questions": [
         {
-          "question": "[[The garden is|El jardín está]] (_____) [[flowers.]]",
+          "question": "[[The garden is|El jardín está]] (_____) [[flowers.|flores.]]",
           "options": ["[[full of|lleno de]]", "[[feel of|sentirse de]]", "[[fall of|caída de]]"],
           "correctAnswer": 0,
           "explanation": "'Full of' significa lleno de algo."
@@ -971,7 +971,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|Las]] (_____) [[están hechas de mármol.]]",
+          "question": "[[The|Las]] (_____) [[stairs are made of marble.|están hechas de mármol.]]",
           "options": ["[[stairs|escaleras]]", "[[stars|estrellas]]", "[[stones|piedras]]"],
           "correctAnswer": 0,
           "explanation": "'Stairs' son las escaleras de un edificio."
@@ -1059,7 +1059,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The city center is|El centro es solo]] (_____) [[only.]]",
+          "question": "[[The city center is|El centro es solo]] (_____) [[only.|peatonal.]]",
           "options": ["[[pedestrian|peatonal]]", "[[petrol|gasolina]]", "[[perfect|perfecto]]"],
           "correctAnswer": 0,
           "explanation": "'Pedestrian' se refiere a las personas que caminan."
@@ -1081,7 +1081,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The exhibition is in the main|La exposición es en la]] (_____) [[principal.]]",
+          "question": "[[The exhibition is in the main|La exposición es en la]] (_____) [[hall.|sala principal.]]",
           "options": ["[[hall|sala/pasillo]]", "[[hill|colina]]", "[[hell|infierno]]"],
           "correctAnswer": 0,
           "explanation": "'Hall' puede significar sala de exposiciones o pasillo."
@@ -1184,7 +1184,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[There is an information|Hay un]] (_____) [[de información en la entrada.]]",
+          "question": "[[There is an information|Hay un]] (_____) [[desk at the entrance.|mostrador de información en la entrada.]]",
           "options": ["[[desk|mostrador/escritorio]]", "[[dish|plato]]", "[[door|puerta]]"],
           "correctAnswer": 0,
           "explanation": "'Information desk' es el mostrador de información."
@@ -1206,7 +1206,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[del edificio está decorada.]]",
+          "question": "[[The|La]] (_____) [[of the building is decorated.|del edificio está decorada.]]",
           "options": ["[[facade|fachada]]", "[[face|cara]]", "[[fact|hecho]]"],
           "correctAnswer": 0,
           "explanation": "'Facade' es la fachada de un edificio."
@@ -1245,7 +1245,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|Los]] (_____) [[son muy elegantes.]]",
+          "question": "[[The|Los]] (_____) [[arches are very elegant.|arcos son muy elegantes.]]",
           "options": ["[[arches|arcos]]", "[[areas|áreas]]", "[[arms|brazos]]"],
           "correctAnswer": 0,
           "explanation": "'Arches' son arcos arquitectónicos."
@@ -1267,7 +1267,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Pregunta de distancia.",
       "questions": [
         {
-          "question": "[[Is it|¿Está]] (_____) [[from here?]]",
+          "question": "[[Is it|¿Está]] (_____) [[from here?|de aquí?]]",
           "options": ["[[far|lejos]]", "[[fast|rápido]]", "[[free|libre/gratis]]"],
           "correctAnswer": 0,
           "explanation": "'Far' significa lejos."
@@ -1289,7 +1289,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|Las]] (_____) [[son antiguas.]]",
+          "question": "[[The|Las]] (_____) [[columns are ancient.|columnas son antiguas.]]",
           "options": ["[[columns|columnas]]", "[[colors|colores]]", "[[clocks|relojes]]"],
           "correctAnswer": 0,
           "explanation": "'Columns' son columnas."
@@ -1311,7 +1311,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[It is open every day|Está abierto todos los días]] (_____) [[Monday.]]",
+          "question": "[[It is open every day|Está abierto todos los días]] (_____) [[Monday.|lunes.]]",
           "options": ["[[except|excepto]]", "[[example|ejemplo]]", "[[expect|esperar]]"],
           "correctAnswer": 0,
           "explanation": "'Except' significa excepto o salvo."

@@ -14,7 +14,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is very colorful.]]",
+          "question": "[[The|La]] (_____) [[is very colorful.|es muy colorida.]]",
           "options": ["[[painting|pintura/cuadro]]", "[[planning|planificación]]", "[[playing|jugando]]"],
           "correctAnswer": 0,
           "explanation": "'Painting' es una pintura o un cuadro."
@@ -80,7 +80,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is very loud.]]",
+          "question": "[[The|La]] (_____) [[is very loud.|está muy fuerte.]]",
           "options": ["[[music|música]]", "[[museum|museo]]", "[[movie|película]]"],
           "correctAnswer": 0,
           "explanation": "'Music' es música."
@@ -102,7 +102,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I am going to a|Voy a un]] (_____) [[tonight.]]",
+          "question": "[[I am going to a|Voy a un]] (_____) [[tonight.|esta noche.]]",
           "options": ["[[concert|concierto]]", "[[cinema|cine]]", "[[coffee|café]]"],
           "correctAnswer": 0,
           "explanation": "'Concert' es concierto."
@@ -124,7 +124,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We went to the|Fuimos al]] (_____) [[to see a play.]]",
+          "question": "[[We went to the|Fuimos al]] (_____) [[to see a play.|para ver una obra de teatro.]]",
           "options": ["[[theater|teatro]]", "[[theory|teoría]]", "[[through|a través]]"],
           "correctAnswer": 0,
           "explanation": "'Theater' es teatro."
@@ -146,7 +146,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[was very exciting.]]",
+          "question": "[[The|La]] (_____) [[was very exciting.|fue muy emocionante.]]",
           "options": ["[[movie|película]]", "[[mountain|montaña]]", "[[morning|mañana]]"],
           "correctAnswer": 0,
           "explanation": "'Movie' es película."
@@ -168,7 +168,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[She likes to|Le gusta]] (_____) [[ballet.]]",
+          "question": "[[She likes to|Le gusta]] (_____) [[ballet.|ballet.]]",
           "options": ["[[dance|bailar]]", "[[drink|beber]]", "[[drive|conducir]]"],
           "correctAnswer": 0,
           "explanation": "'Dance' es bailar."
@@ -190,7 +190,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[is very diverse.]]",
+          "question": "(_____) [[is very diverse.|es muy diversa.]]",
           "options": ["[[Culture|Cultura]]", "[[Country|País]]", "[[Color|Color]]"],
           "correctAnswer": 0,
           "explanation": "'Culture' es cultura."
@@ -234,7 +234,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is made of marble.]]",
+          "question": "[[The|La]] (_____) [[is made of marble.|está hecha de mármol.]]",
           "options": ["[[statue|estatua]]", "[[station|estación]]", "[[status|estado]]"],
           "correctAnswer": 0,
           "explanation": "'Statue' es estatua."
@@ -256,7 +256,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[There is a new|Hay una nueva]] (_____) [[at the gallery.]]",
+          "question": "[[There is a new|Hay una nueva]] (_____) [[at the gallery.|en la galería.]]",
           "options": ["[[exhibition|exhibición/exposición]]", "[[example|ejemplo]]", "[[exercise|ejercicio]]"],
           "correctAnswer": 0,
           "explanation": "'Exhibition' es exhibición o exposición."
@@ -300,7 +300,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El/La]] (_____) [[wrote a great book.]]",
+          "question": "[[The|El/La]] (_____) [[wrote a great book.|escribió un gran libro.]]",
           "options": ["[[author|autor/autora]]", "[[actor|actor]]", "[[artist|artista]]"],
           "correctAnswer": 0,
           "explanation": "'Author' es autor o autora."
@@ -344,7 +344,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is every summer.]]",
+          "question": "[[The|El]] (_____) [[is every summer.|es cada verano.]]",
           "options": ["[[festival|festival]]", "[[fashion|moda]]", "[[family|familia]]"],
           "correctAnswer": 0,
           "explanation": "'Festival' es festival."
@@ -388,7 +388,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[sang beautifully.]]",
+          "question": "[[The|El]] (_____) [[sang beautifully.|cantó maravillosamente.]]",
           "options": ["[[choir|coro]]", "[[chair|silla]]", "[[child|niño]]"],
           "correctAnswer": 0,
           "explanation": "'Choir' es coro."
@@ -432,7 +432,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[This is a|Este es un edificio]] (_____) [[building.]]",
+          "question": "[[This is a|Este es un]] (_____) [[building.|edificio.]]",
           "options": ["[[historical|histórico]]", "[[holiday|festivo]]", "[[hospital|hospitalario]]"],
           "correctAnswer": 0,
           "explanation": "'Historical' significa histórico."
@@ -456,7 +456,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Uso del gerundio tras 'like'.",
       "questions": [
         {
-          "question": "[[I like|Me gusta]] (_____) [[art galleries on weekends.]]",
+          "question": "[[I like|Me gusta]] (_____) [[art galleries on weekends.|visitar galerías de arte los fines de semana.]]",
           "options": ["[[visiting|visitar (gerundio)]]", "[[visit|visitar]]", "[[visited|visitado]]"],
           "correctAnswer": 0,
           "explanation": "Tras 'like', el siguiente verbo suele ir en gerundio (-ing)."
@@ -478,7 +478,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Comparativo con adjetivo largo.",
       "questions": [
         {
-          "question": "[[She is a|Ella es una]] (_____) [[artist than her brother.]]",
+          "question": "[[She is a|Ella es una]] (_____) [[artist than her brother.|artista que su hermano.]]",
           "options": ["[[more famous|más famosa]]", "[[famous|famosa]]", "[[most famous|la más famosa]]"],
           "correctAnswer": 0,
           "explanation": "Para adjetivos largos como 'famous', usamos 'more' para comparar."
@@ -500,7 +500,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Presente perfecto con 'ever'.",
       "questions": [
         {
-          "question": "[[Have you|¿Has]] (_____) [[seen that movie?]]",
+          "question": "[[Have you|¿Has]] (_____) [[seen that movie?|visto esa película?]]",
           "options": ["[[ever|alguna vez]]", "[[never|nunca]]", "[[already|ya]]"],
           "correctAnswer": 0,
           "explanation": "'Ever' se usa en preguntas para preguntar si algo ha ocurrido en cualquier momento."
@@ -522,7 +522,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Pasado simple de 'go'.",
       "questions": [
         {
-          "question": "[[We|Fuimos]] (_____) [[to a concert last night.]]",
+          "question": "[[We|Fuimos]] (_____) [[to a concert last night.|a un concierto anoche.]]",
           "options": ["[[went|fuimos]]", "[[go|ir]]", "[[gone|ido]]"],
           "correctAnswer": 0,
           "explanation": "'Went' es el pasado irregular de 'go'."
@@ -544,7 +544,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la preposición.",
       "questions": [
         {
-          "question": "[[The museum is open every day|El museo está abierto todos los días]] (_____) [[Monday.]]",
+          "question": "[[The museum is open every day|El museo está abierto todos los días]] (_____) [[Monday.|el lunes.]]",
           "options": ["[[except|excepto]]", "[[extra|extra]]", "[[enough|suficiente]]"],
           "correctAnswer": 0,
           "explanation": "'Except' significa excepto."
@@ -583,7 +583,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Petición de permiso con 'can'.",
       "questions": [
         {
-          "question": "(_____) [[I take photos in the museum?]]",
+          "question": "(_____) [[I take photos in the museum?|hacer fotos en el museo?]]",
           "options": ["[[Can|¿Puedo?]]", "[[Do|¿Hago?]]", "[[Are|¿Soy/Estoy?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Can I' para pedir permiso."
@@ -605,7 +605,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Adjetivo + preposición.",
       "questions": [
         {
-          "question": "[[I am interested|Estoy interesado]] (_____) [[ancient history.]]",
+          "question": "[[I am interested|Estoy interesado]] (_____) [[ancient history.|la historia antigua.]]",
           "options": ["[[in|en]]", "[[at|en]]", "[[on|en]]"],
           "correctAnswer": 0,
           "explanation": "Se dice 'interested in'."
@@ -627,7 +627,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'should'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[respect other cultures.]]",
+          "question": "[[We|Nosotros]] (_____) [[respect other cultures.|respetar otras culturas.]]",
           "options": ["[[should|deberíamos]]", "[[could|podríamos]]", "[[would|respetaríamos]]"],
           "correctAnswer": 0,
           "explanation": "'Should' se usa para consejos o deberes morales."
@@ -666,7 +666,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Presente simple para horarios.",
       "questions": [
         {
-          "question": "[[The opera|La ópera]] (_____) [[at 8 PM.]]",
+          "question": "[[The opera|La ópera]] (_____) [[at 8 PM.|a las 8 PM.]]",
           "options": ["[[starts|empieza]]", "[[start|empezar]]", "[[starting|empezando]]"],
           "correctAnswer": 0,
           "explanation": "Usamos la 's' en el verbo para la tercera persona del singular (the opera)."
@@ -688,7 +688,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Negación en presente simple.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[like modern art very much.]]",
+          "question": "[[I|Yo]] (_____) [[like modern art very much.|me gusta mucho el arte moderno.]]",
           "options": ["[[don't|no (auxiliar)]]", "[[doesn't|no]]", "[[not|no]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'don't' para la primera persona (I)."
@@ -710,7 +710,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Superlativo con adjetivo largo.",
       "questions": [
         {
-          "question": "[[This is the|Esta es la]] (_____) [[painting in the world.]]",
+          "question": "[[This is the|Esta es la]] (_____) [[painting in the world.|pintura del mundo.]]",
           "options": ["[[most beautiful|más hermosa]]", "[[more beautiful|más hermosa (comparativo)]]", "[[beautifulest|más hermosa (incorrecto)]]"],
           "correctAnswer": 0,
           "explanation": "Para adjetivos largos, usamos 'the most' para el superlativo."
@@ -732,7 +732,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Pregunta en pasado simple.",
       "questions": [
         {
-          "question": "(_____) [[you enjoy the concert?]]",
+          "question": "(_____) [[you enjoy the concert?|disfrutaste el concierto?]]",
           "options": ["[[Did|¿Disfrutaste? (auxiliar)]]", "[[Do|¿Disfrutas?]]", "[[Does|¿Disfruta?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Did' para preguntas en pasado."
@@ -754,7 +754,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Presente continuo.",
       "questions": [
         {
-          "question": "[[I am|Estoy]] (_____) [[at the sculptures.]]",
+          "question": "[[I am|Estoy]] (_____) [[at the sculptures.|las esculturas.]]",
           "options": ["[[looking|mirando]]", "[[seeing|viendo]]", "[[watching|viendo]]"],
           "correctAnswer": 0,
           "explanation": "'Look at' es mirar algo fijamente."
@@ -776,7 +776,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The entrance is|La entrada es]] (_____) [[for students.]]",
+          "question": "[[The entrance is|La entrada es]] (_____) [[for students.|para estudiantes.]]",
           "options": ["[[free|gratis]]", "[[fresh|fresco]]", "[[full|lleno]]"],
           "correctAnswer": 0,
           "explanation": "'Free' significa gratis."
@@ -798,7 +798,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Presente perfecto (experiencia).",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[been to that museum before.]]",
+          "question": "[[I|Yo]] (_____) [[been to that museum before.|he estado en ese museo antes.]]",
           "options": ["[[have|he]]", "[[has|ha]]", "[[had|había]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'have' con 'I' para el presente perfecto."
@@ -820,7 +820,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Comparativo irregular.",
       "questions": [
         {
-          "question": "[[This book is|Este libro es]] (_____) [[than the movie.]]",
+          "question": "[[This book is|Este libro es]] (_____) [[than the movie.|que la película.]]",
           "options": ["[[better|mejor]]", "[[gooder|más bueno (incorrecto)]]", "[[best|el mejor]]"],
           "correctAnswer": 0,
           "explanation": "'Better' es el comparativo irregular de 'good'."
@@ -859,7 +859,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Pregunta con 'do'.",
       "questions": [
         {
-          "question": "(_____) [[you like classical music?]]",
+          "question": "(_____) [[you like classical music?|te gusta la música clásica?]]",
           "options": ["[[Do|¿Te gusta? (auxiliar)]]", "[[Are|¿Eres?]]", "[[Does|¿Le gusta?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Do' para preguntas con 'you'."
@@ -883,7 +883,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I like the|Me gusta el]] (_____) [[of the painting.]]",
+          "question": "[[I like the|Me gusta el]] (_____) [[of the painting.|del cuadro.]]",
           "options": ["[[color|color]]", "[[collar|cuello]]", "[[column|columna]]"],
           "correctAnswer": 0,
           "explanation": "'Color' es color."
@@ -905,7 +905,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is very large.]]",
+          "question": "[[The|El]] (_____) [[is very large.|es muy grande.]]",
           "options": ["[[stage|escenario]]", "[[state|estado]]", "[[stay|estancia]]"],
           "correctAnswer": 0,
           "explanation": "'Stage' es escenario."
@@ -949,7 +949,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[applauded loudly.]]",
+          "question": "[[The|La]] (_____) [[applauded loudly.|aplaudió fuertemente.]]",
           "options": ["[[audience|audiencia/público]]", "[[audio|audio]]", "[[author|autor]]"],
           "correctAnswer": 0,
           "explanation": "'Audience' es la audiencia o el público."
@@ -993,7 +993,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I like the|Me gusta el]] (_____) [[of the building.]]",
+          "question": "[[I like the|Me gusta el]] (_____) [[style of the building.|estilo del edificio.]]",
           "options": ["[[style|estilo]]", "[[still|todavía]]", "[[stone|piedra]]"],
           "correctAnswer": 0,
           "explanation": "'Style' es estilo."
@@ -1015,7 +1015,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[was very elaborate.]]",
+          "question": "[[The|El]] (_____) [[was very elaborate.|fue muy elaborado.]]",
           "options": ["[[costume|disfraz/vestuario]]", "[[customer|cliente]]", "[[custom|costumbre]]"],
           "correctAnswer": 0,
           "explanation": "'Costume' es un disfraz o el vestuario de una obra."
@@ -1059,7 +1059,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is for painting.]]",
+          "question": "[[The|El]] (_____) [[is for painting.|es para pintar.]]",
           "options": ["[[brush|pincel/brocha]]", "[[bridge|puente]]", "[[bright|brillante]]"],
           "correctAnswer": 0,
           "explanation": "'Brush' es pincel o brocha."
@@ -1162,7 +1162,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The entrance|La]] (_____) [[de entrada]] [[is ten euros.]]",
+          "question": "[[The entrance|La entrada]] (_____) [[is ten euros.|es de diez euros.]]",
           "options": ["[[fee|tarifa]]", "[[feet|pies]]", "[[feel|sentir]]"],
           "correctAnswer": 0,
           "explanation": "'Fee' es una tarifa o tasa."
@@ -1184,7 +1184,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El/La]] (_____) [[explained the history of the painting.]]",
+          "question": "[[The|El/La]] (_____) [[explained the history of the painting.|explicó la historia del cuadro.]]",
           "options": ["[[guide|guía]]", "[[guard|guardia]]", "[[guest|invitado]]"],
           "correctAnswer": 0,
           "explanation": "'Guide' es un guía."
@@ -1245,7 +1245,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The gallery is|La galería está]] (_____) [[today.]]",
+          "question": "[[The gallery is|La galería está]] (_____) [[today.|hoy.]]",
           "options": ["[[closed|cerrada]]", "[[close|cerrar/cerca]]", "[[closer|más cerca]]"],
           "correctAnswer": 0,
           "explanation": "'Closed' es el adjetivo cerrado."
@@ -1267,7 +1267,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[He is the best|Él es el mejor]] (_____) [[in the group.]]",
+          "question": "[[He is the best|Él es el mejor]] (_____) [[in the group.|del grupo.]]",
           "options": ["[[musician|músico]]", "[[musical|musical]]", "[[museum|museo]]"],
           "correctAnswer": 0,
           "explanation": "'Musician' es músico."
@@ -1289,7 +1289,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[This is a|Esta es una]] (_____) [[of art.]]",
+          "question": "[[This is a|Esta es una]] (_____) [[of art.|de arte.]]",
           "options": ["[[masterpiece|obra maestra]]", "[[mountain|montaña]]", "[[massage|masaje]]"],
           "correctAnswer": 0,
           "explanation": "'Masterpiece' es obra maestra."
@@ -1311,7 +1311,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Pregunta básica.",
       "questions": [
         {
-          "question": "[[Do you want to|¿Quieres]] (_____) [[the show?]]",
+          "question": "[[Do you want to|¿Quieres]] (_____) [[the show?|el espectáculo?]]",
           "options": ["[[see|ver]]", "[[say|decir]]", "[[sea|mar]]"],
           "correctAnswer": 0,
           "explanation": "'See' es ver."

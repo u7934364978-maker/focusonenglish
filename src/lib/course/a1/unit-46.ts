@@ -14,7 +14,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I have some|Tengo algo de]] (_____) .",
+          "question": "[[I have some|Tengo algo de]] (_____).",
           "options": ["[[cash|efectivo]]", "[[card|tarjeta]]", "[[coin|moneda]]"],
           "correctAnswer": 0,
           "explanation": "'Cash' es dinero en efectivo."
@@ -36,7 +36,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[I pay by|Pago con]] (_____) [[card.]]",
+          "question": "[[I pay by|Pago con]] (_____) [[card|tarjeta]].",
           "options": ["[[credit|crédito]]", "[[paper|papel]]", "[[gift|regalo]]"],
           "correctAnswer": 0,
           "explanation": "'Credit card' es tarjeta de crédito."
@@ -58,7 +58,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[This is very|Esto es muy]] (_____) .",
+          "question": "[[This is very|Esto es muy]] (_____).",
           "options": ["[[expensive|caro]]", "[[cheap|barato]]", "[[new|nuevo]]"],
           "correctAnswer": 0,
           "explanation": "'Expensive' es caro."
@@ -80,7 +80,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[These shoes are|Estos zapatos son]] (_____) .",
+          "question": "[[These shoes are|Estos zapatos son]] (_____).",
           "options": ["[[cheap|baratos]]", "[[expensive|caros]]", "[[old|viejos]]"],
           "correctAnswer": 0,
           "explanation": "'Cheap' es barato."
@@ -102,7 +102,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[What is the|¿Cuál es el]] (_____) ?",
+          "question": "[[What is the|¿Cuál es el]] (_____)?",
           "options": ["[[price|precio]]", "[[tag|etiqueta]]", "[[shop|tienda]]"],
           "correctAnswer": 0,
           "explanation": "'Price' es precio."
@@ -124,7 +124,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[There is a big|Hay unas grandes]] (_____) .",
+          "question": "[[There is a big|Hay unas grandes]] (_____).",
           "options": ["[[sale|rebajas/ofertas]]", "[[shop|tienda]]", "[[money|dinero]]"],
           "correctAnswer": 0,
           "explanation": "'Sale' se refiere a rebajas u ofertas."
@@ -146,7 +146,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Here is your|Aquí tiene su]] (_____) .",
+          "question": "[[Here is your|Aquí tiene su]] (_____).",
           "options": ["[[change|cambio/vuelta]]", "[[ticket|billete]]", "[[bag|bolsa]]"],
           "correctAnswer": 0,
           "explanation": "'Change' es el cambio o la vuelta cuando pagas."
@@ -168,7 +168,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[I need a|Necesito un]] (_____) .",
+          "question": "[[I need a|Necesito un]] (_____).",
           "options": ["[[receipt|recibo/ticket de compra]]", "[[paper|papel]]", "[[wallet|cartera]]"],
           "correctAnswer": 0,
           "explanation": "'Receipt' es el ticket de compra o recibo."
@@ -190,7 +190,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[My|Mi]] (_____) [[is empty.]]",
+          "question": "[[My|Mi]] (_____) [[is empty|está vacía]].",
           "options": ["[[wallet|cartera]]", "[[bag|bolsa]]", "[[pocket|bolsillo]]"],
           "correctAnswer": 0,
           "explanation": "'Wallet' es cartera o billetera."
@@ -212,7 +212,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[Where is the|¿Dónde están los]] (_____) [[store?]]",
+          "question": "[[Where is the|¿Dónde están los]] (_____) [[store|almacenes]]?",
           "options": ["[[department|grandes almacenes]]", "[[small|pequeña]]", "[[food|comida]]"],
           "correctAnswer": 0,
           "explanation": "'Department store' son unos grandes almacenes."
@@ -234,7 +234,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I like this|Me gusta este servicio al]] (_____) .",
+          "question": "[[I like this|Me gusta este servicio al]] (_____).",
           "options": ["[[customer|cliente]]", "[[shop|tienda]]", "[[money|dinero]]"],
           "correctAnswer": 0,
           "explanation": "'Customer' es cliente."
@@ -256,7 +256,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica a la persona.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[assistant is helpful.]]",
+          "question": "[[The|El]] (_____) [[assistant is helpful|dependiente es amable]].",
           "options": ["[[shop|dependiente (de tienda)]]", "[[work|trabajo]]", "[[home|casa]]"],
           "correctAnswer": 0,
           "explanation": "'Shop assistant' es el dependiente o vendedor."
@@ -278,7 +278,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[I want to buy a|Quiero comprar un]] (_____) .",
+          "question": "[[I want to buy a|Quiero comprar un]] (_____).",
           "options": ["[[gift|regalo]]", "[[price|precio]]", "[[bill|factura]]"],
           "correctAnswer": 0,
           "explanation": "'Gift' es regalo."
@@ -300,7 +300,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[Do you have a|¿Tienes una]] (_____) [[bag?]]",
+          "question": "[[Do you have a|¿Tienes una]] (_____) [[bag|bolsa]]?",
           "options": ["[[shopping|compra]]", "[[money|dinero]]", "[[hand|mano]]"],
           "correctAnswer": 0,
           "explanation": "'Shopping bag' es una bolsa para la compra."
@@ -322,7 +322,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I am looking for a|Estoy buscando un]] (_____) .",
+          "question": "[[I am looking for a|Estoy buscando un]] (_____).",
           "options": ["[[discount|descuento]]", "[[price|precio]]", "[[card|tarjeta]]"],
           "correctAnswer": 0,
           "explanation": "'Discount' es descuento."
@@ -344,7 +344,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[Pay at the|Pague en la]] (_____) [[desk.]]",
+          "question": "[[Pay at the|Pague en la]] (_____) [[desk|caja]].",
           "options": ["[[cash|caja (donde se paga)]]", "[[work|trabajo]]", "[[front|frente]]"],
           "correctAnswer": 0,
           "explanation": "'Cash desk' o 'checkout' es la caja."
@@ -366,7 +366,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is very big.]]",
+          "question": "[[The|El]] (_____) [[is very big|es muy grande]].",
           "options": ["[[mall|centro comercial]]", "[[market|mercado]]", "[[museum|museo]]"],
           "correctAnswer": 0,
           "explanation": "'Mall' o 'shopping center' es centro comercial."
@@ -388,7 +388,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[I need to|Necesito]] (_____) [[money.]]",
+          "question": "[[I need to|Necesito]] (_____) [[money|dinero]].",
           "options": ["[[withdraw|retirar/sacar]]", "[[spend|gastar]]", "[[lose|perder]]"],
           "correctAnswer": 0,
           "explanation": "'Withdraw money' es sacar dinero (del cajero)."
@@ -410,7 +410,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[Where is the|¿Dónde está el]] (_____) ?",
+          "question": "[[Where is the|¿Dónde está el]] (_____)?",
           "options": ["[[ATM|cajero automático]]", "[[bank|banco]]", "[[shop|tienda]]"],
           "correctAnswer": 0,
           "explanation": "'ATM' es Automated Teller Machine (cajero automático)."
@@ -432,7 +432,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[I am|Estoy]] (_____) [[too much money.]]",
+          "question": "[[I am|Estoy]] (_____) [[too much money|demasiado dinero]].",
           "options": ["[[spending|gastando]]", "[[saving|ahorrando]]", "[[making|ganando/haciendo]]"],
           "correctAnswer": 0,
           "explanation": "'Spend' es gastar."
@@ -456,7 +456,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Pregunta por el precio.",
       "questions": [
         {
-          "question": "(_____) [[is this shirt?]]",
+          "question": "(_____) [[is this shirt|cuesta esta camisa]]?",
           "options": ["[[How much|Cuánto (precio)]]", "[[How many|Cuántos]]", "[[How long|Cuánto tiempo]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'How much' para preguntar por el precio."
@@ -478,7 +478,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Pregunta por precio en plural.",
       "questions": [
         {
-          "question": "[[How much|Cuánto]] (_____) [[these shoes?]]",
+          "question": "[[How much|Cuánto]] (_____) [[these shoes|estos zapatos]]?",
           "options": ["[[are|cuestan (son)]]", "[[is|cuesta (es)]]", "[[do|auxiliar]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'are' para objetos en plural."
@@ -500,7 +500,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'can' para permiso.",
       "questions": [
         {
-          "question": "(_____) [[I pay by card?]]",
+          "question": "(_____) [[I pay by card|puedo pagar con tarjeta]]?",
           "options": ["[[Can|¿Puedo?]]", "[[Do|¿Hago?]]", "[[Am|¿Soy?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Can' para pedir permiso o preguntar posibilidad."
@@ -522,7 +522,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'enough'.",
       "questions": [
         {
-          "question": "[[I don't have|No tengo]] (_____) [[money.]]",
+          "question": "[[I don't have|No tengo]] (_____) [[money|dinero]].",
           "options": ["[[enough|suficiente]]", "[[too|demasiado]]", "[[lot|mucho]]"],
           "correctAnswer": 0,
           "explanation": "'Enough' significa suficiente."
@@ -544,7 +544,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'too' + adjetivo.",
       "questions": [
         {
-          "question": "[[It is|Es]] (_____) [[expensive for me.]]",
+          "question": "[[It is|Es]] (_____) [[expensive for me|caro para mí]].",
           "options": ["[[too|demasiado]]", "[[enough|suficiente]]", "[[very|muy]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'too' delante de un adjetivo para indicar exceso."
@@ -583,7 +583,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[Where can I find the|¿Dónde puedo encontrar el]] (_____) [[room?]]",
+          "question": "[[Where can I find the|¿Dónde puedo encontrar el]] (_____) [[room|probador]]?",
           "options": ["[[fitting|probador]]", "[[bed|dormitorio]]", "[[living|salón]]"],
           "correctAnswer": 0,
           "explanation": "'Fitting room' es el probador en una tienda de ropa."
@@ -605,7 +605,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Frase típica en tiendas.",
       "questions": [
         {
-          "question": "[[I am|Solo]] (_____) [[looking, thank you.]]",
+          "question": "[[I am|Solo]] (_____) [[looking, thank you|estoy mirando, gracias]].",
           "options": ["[[just|estoy]]", "[[now|ahora]]", "[[not|no]]"],
           "correctAnswer": 0,
           "explanation": "'I'm just looking' se usa cuando no necesitas ayuda del dependiente."
@@ -627,7 +627,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el comparativo.",
       "questions": [
         {
-          "question": "[[Do you have this in a|¿Tiene esto en una talla]] (_____) [[size?]]",
+          "question": "[[Do you have this in a|¿Tiene esto en una]] (_____) [[size|talla más pequeña]]?",
           "options": ["[[smaller|más pequeña]]", "[[small|pequeña]]", "[[smallest|la más pequeña]]"],
           "correctAnswer": 0,
           "explanation": "'Smaller' es el comparativo de 'small'."
@@ -666,7 +666,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Uso de comparativo irregular.",
       "questions": [
         {
-          "question": "[[This color is|Este color es]] (_____) [[than that one.]]",
+          "question": "[[This color is|Este color es]] (_____) [[than that one|que ese]].",
           "options": ["[[better|mejor]]", "[[good|bueno]]", "[[best|el mejor]]"],
           "correctAnswer": 0,
           "explanation": "'Better' es el comparativo de 'good'."
@@ -688,7 +688,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[Do you|¿Ustedes]] (_____) [[cash?]]",
+          "question": "[[Do you|¿Ustedes]] (_____) [[cash|efectivo]]?",
           "options": ["[[accept|aceptan]]", "[[want|quieren]]", "[[need|necesitan]]"],
           "correctAnswer": 0,
           "explanation": "'Accept' es aceptar."
@@ -710,7 +710,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[I need to|Necesito]] (_____) [[this.]]",
+          "question": "[[I need to|Necesito]] (_____) [[this|esto]].",
           "options": ["[[exchange|cambiar (por otro)]]", "[[buy|comprar]]", "[[pay|pagar]]"],
           "correctAnswer": 0,
           "explanation": "'Exchange' se usa para cambiar un artículo por otro."
@@ -732,7 +732,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica la estructura.",
       "questions": [
         {
-          "question": "(_____) [[a discount on these?]]",
+          "question": "(_____) [[a discount on these|un descuento en estos]]?",
           "options": ["[[Is there|¿Hay (singular)?]]", "[[Are there|¿Hay (plural)?]]", "[[Do|¿Haces?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Is there' con sustantivos singulares como 'discount'."
@@ -754,7 +754,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I want a|Quiero un]] (_____) [[please.]]",
+          "question": "[[I want a|Quiero un]] (_____) [[please|por favor]].",
           "options": ["[[refund|reembolso/devolución de dinero]]", "[[receipt|recibo]]", "[[bill|factura]]"],
           "correctAnswer": 0,
           "explanation": "'Refund' es la devolución del dinero pagado."
@@ -776,7 +776,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[Can you|¿Puede]] (_____) [[me that jacket?]]",
+          "question": "[[Can you|¿Puede]] (_____) [[me that jacket|esa chaqueta]]?",
           "options": ["[[show|mostrarme]]", "[[look|mirar]]", "[[buy|comprar]]"],
           "correctAnswer": 0,
           "explanation": "'Show' es mostrar."
@@ -798,7 +798,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'Which'.",
       "questions": [
         {
-          "question": "(_____) [[one do you prefer?]]",
+          "question": "(_____) [[one do you prefer|prefieres]]?",
           "options": ["[[Which|Cuál]]", "[[What|Qué]]", "[[Who|Quién]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Which' cuando hay un número limitado de opciones."
@@ -820,7 +820,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el comparativo.",
       "questions": [
         {
-          "question": "[[It is|Es]] (_____) [[online.]]",
+          "question": "[[It is|Es]] (_____) [[online|en línea]].",
           "options": ["[[cheaper|más barato]]", "[[cheap|barato]]", "[[cheapest|el más barato]]"],
           "correctAnswer": 0,
           "explanation": "'Cheaper' es el comparativo de 'cheap'."
@@ -859,7 +859,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Uso de la preposición 'for'.",
       "questions": [
         {
-          "question": "[[I am paying|Estoy pagando]] (_____) [[these items.]]",
+          "question": "[[I am paying|Estoy pagando]] (_____) [[these items|estos artículos]].",
           "options": ["[[for|por]]", "[[to|a]]", "[[with|con]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'pay for' para indicar qué estamos pagando."
@@ -883,7 +883,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The price is too|El precio es demasiado]] (_____) .",
+          "question": "[[The price is too|El precio es demasiado]] (_____).",
           "options": ["[[high|alto]]", "[[low|bajo]]", "[[small|pequeño]]"],
           "correctAnswer": 0,
           "explanation": "'High price' es precio alto."
@@ -905,7 +905,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[I am|Estoy]] (_____) [[money for a new car.]]",
+          "question": "[[I am|Estoy]] (_____) [[money for a new car|dinero para un coche nuevo]].",
           "options": ["[[saving|ahorrando]]", "[[spending|gastando]]", "[[finding|encontrando]]"],
           "correctAnswer": 0,
           "explanation": "'Save' es ahorrar."
@@ -927,7 +927,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Keep the receipt for the|Guarde el ticket para la]] (_____) .",
+          "question": "[[Keep the receipt for the|Guarde el ticket para la]] (_____).",
           "options": ["[[guarantee|garantía]]", "[[price|precio]]", "[[shop|tienda]]"],
           "correctAnswer": 0,
           "explanation": "'Guarantee' o 'warranty' es garantía."
@@ -949,7 +949,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[This is a real|¡Esto es una verdadera]] (_____) !",
+          "question": "[[This is a real|¡Esto es una verdadera]] (_____)!",
           "options": ["[[bargain|ganga/chollo]]", "[[problem|problema]]", "[[shop|tienda]]"],
           "correctAnswer": 0,
           "explanation": "'Bargain' es una ganga o algo muy barato."
@@ -971,7 +971,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is very long.]]",
+          "question": "[[The|La]] (_____) [[is very long|es muy larga]].",
           "options": ["[[queue|fila/cola]]", "[[shop|tienda]]", "[[bill|factura]]"],
           "correctAnswer": 0,
           "explanation": "'Queue' (UK) es la fila o cola para esperar."
@@ -993,7 +993,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica la expresión.",
       "questions": [
         {
-          "question": "[[Everything is|Todo está a]] (_____) [[price.]]",
+          "question": "[[Everything is|Todo está a]] (_____) [[price|precio]].",
           "options": ["[[half|mitad]]", "[[full|completo]]", "[[no|ningún]]"],
           "correctAnswer": 0,
           "explanation": "'Half price' significa al 50% de descuento."
@@ -1015,7 +1015,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I am looking for the bakery|Estoy buscando la]] (_____) [[de panadería.]]",
+          "question": "[[I am looking for the|Estoy buscando la]] (_____) [[bakery section|sección de panadería]].",
           "options": ["[[section|sección]]", "[[station|estación]]", "[[room|habitación]]"],
           "correctAnswer": 0,
           "explanation": "'Section' es una sección o pasillo del supermercado/tienda."
@@ -1037,7 +1037,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[Here is your|Aquí tiene su]] (_____) .",
+          "question": "[[Here is your|Aquí tiene su]] (_____).",
           "options": ["[[bill|cuenta/factura]]", "[[change|cambio]]", "[[gift|regalo]]"],
           "correctAnswer": 0,
           "explanation": "'Bill' es la cuenta o factura."
@@ -1059,7 +1059,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Can I have a gift|¿Me lo puede]] (_____) [[para regalo, por favor?]]",
+          "question": "[[Can I have a gift|¿Me puede dar un]] (_____) [[wrap, please|envoltorio de regalo, por favor]]?",
           "options": ["[[wrap|envolver]]", "[[price|precio]]", "[[card|tarjeta]]"],
           "correctAnswer": 0,
           "explanation": "'Gift wrap' es el papel o el acto de envolver para regalo."
@@ -1081,7 +1081,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Preposición de tiempo.",
       "questions": [
         {
-          "question": "[[The shop is open|La tienda abre]] (_____) [[9 PM.]]",
+          "question": "[[The shop is open|La tienda abre]] (_____) [[9 PM|las 9 de la noche]].",
           "options": ["[[until|hasta]]", "[[at|a las]]", "[[since|desde]]"],
           "correctAnswer": 0,
           "explanation": "'Until' significa hasta un momento determinado."
@@ -1162,7 +1162,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica la expresión.",
       "questions": [
         {
-          "question": "[[I need a new|Necesito un nuevo]] (_____) [[of trousers.]]",
+          "question": "[[I need a new|Necesito un nuevo]] (_____) [[of trousers|par de pantalones]].",
           "options": ["[[pair|par]]", "[[set|juego]]", "[[piece|pieza]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'pair of' con prendas que tienen dos partes, como 'trousers', 'shoes', etc."
@@ -1184,7 +1184,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[The|Los]] (_____) [[rooms are over there.]]",
+          "question": "[[The|Los]] (_____) [[rooms are over there|probadores están por allí]].",
           "options": ["[[changing|probadores]]", "[[living|salones]]", "[[bed|dormitorios]]"],
           "correctAnswer": 0,
           "explanation": "'Changing rooms' es otra forma de decir probadores."
@@ -1206,7 +1206,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica la expresión.",
       "questions": [
         {
-          "question": "[[I'll|Me lo]] (_____) [[it.]]",
+          "question": "[[I'll|Me lo]] (_____) [[it|llevo]].",
           "options": ["[[take|llevo]]", "[[bring|traigo]]", "[[give|doy]]"],
           "correctAnswer": 0,
           "explanation": "'I'll take it' es la frase estándar para decir que vas a comprar algo."
@@ -1245,7 +1245,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Uso de la preposición 'for'.",
       "questions": [
         {
-          "question": "[[It's a gift|Es un regalo]] (_____) [[my mother.]]",
+          "question": "[[It's a gift|Es un regalo]] (_____) [[my mother|para mi madre]].",
           "options": ["[[for|para]]", "[[to|a]]", "[[of|de]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'for' para indicar el destinatario de un regalo."
@@ -1267,7 +1267,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica la estructura.",
       "questions": [
         {
-          "question": "(_____) [[you help me, please?]]",
+          "question": "(_____) [[you help me, please|puede ayudarme, por favor]]?",
           "options": ["[[Can|¿Puede?]]", "[[Do|¿Hace?]]", "[[Are|¿Es?]]"],
           "correctAnswer": 0,
           "explanation": "Petición educada con 'Can'."
@@ -1289,7 +1289,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica el posesivo.",
       "questions": [
         {
-          "question": "[[This is|Esto es]] (_____) [[not yours.]]",
+          "question": "[[This is|Esto es]] (_____) [[not yours|no es tuyo]].",
           "options": ["[[mine|mío]]", "[[my|mi]]", "[[me|yo]]"],
           "correctAnswer": 0,
           "explanation": "'Mine' es el pronombre posesivo (mío)."
@@ -1311,7 +1311,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Identifica la estructura.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[to pay the bill now.]]",
+          "question": "[[I|Yo]] (_____) [[to pay the bill now|pagar la cuenta ahora]].",
           "options": ["[[need|necesito]]", "[[can|puedo]]", "[[want|quiero]]"],
           "correctAnswer": 0,
           "explanation": "'Need to' indica obligación o necesidad."

@@ -14,7 +14,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica a la autoridad.",
       "questions": [
         {
-          "question": "[[Call the|Llame a la]] (_____) !",
+          "question": "[[Call the|Llame a la]] (_____)!",
           "options": ["[[police|policía]]", "[[doctor|médico]]", "[[teacher|profesor]]"],
           "correctAnswer": 0,
           "explanation": "'Police' es policía."
@@ -80,7 +80,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[me, please!]]",
+          "question": "(_____) [[me, please|ayúdeme, por favor]]!",
           "options": ["[[Help|Ayuda]]", "[[Hear|Oye]]", "[[Have|Ten]]"],
           "correctAnswer": 0,
           "explanation": "'Help' es ayuda o ayudar."
@@ -124,7 +124,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[station is nearby.]]",
+          "question": "[[The|La]] (_____) [[station is nearby|estación está cerca]].",
           "options": ["[[fire|fuego/bomberos]]", "[[bus|autobús]]", "[[train|tren]]"],
           "correctAnswer": 0,
           "explanation": "'Fire station' es el parque de bomberos."
@@ -190,7 +190,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[Is there a|¿Hay una]] (_____) [[here?]]",
+          "question": "[[Is there a|¿Hay una]] (_____) [[here|aquí]]?",
           "options": ["[[pharmacy|farmacia]]", "[[factory|fábrica]]", "[[bakery|panadería]]"],
           "correctAnswer": 0,
           "explanation": "'Pharmacy' es farmacia."
@@ -212,7 +212,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[station is on the corner.]]",
+          "question": "[[The|La]] (_____) [[station is on the corner|estación está en la esquina]].",
           "options": ["[[police|policía]]", "[[petrol|gasolina]]", "[[radio|radio]]"],
           "correctAnswer": 0,
           "explanation": "'Police station' es la comisaría."
@@ -234,7 +234,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[my wallet.]]",
+          "question": "[[I|Yo]] (_____) [[my wallet|mi cartera]].",
           "options": ["[[lost|perdí]]", "[[found|encontré]]", "[[sold|vendí]]"],
           "correctAnswer": 0,
           "explanation": "'Lost' es el pasado de 'lose' (perder)."
@@ -256,7 +256,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[a mobile phone.]]",
+          "question": "[[I|Yo]] (_____) [[a mobile phone|un teléfono móvil]].",
           "options": ["[[found|encontré]]", "[[lost|perdí]]", "[[bought|compré]]"],
           "correctAnswer": 0,
           "explanation": "'Found' es el pasado de 'find' (encontrar)."
@@ -322,7 +322,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[Is there a|¿Hay una oficina de]] (_____) [[near here?]]",
+          "question": "[[Is there a|¿Hay una]] (_____) [[office near here|oficina de correos cerca de aquí]]?",
           "options": ["[[post|correos]]", "[[park|parque]]", "[[police|policía]]"],
           "correctAnswer": 0,
           "explanation": "'Post office' es la oficina de correos."
@@ -410,7 +410,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[I am|Estoy]] (_____) [[now.]]",
+          "question": "[[I am|Estoy]] (_____) [[now|ahora]].",
           "options": ["[[safe|seguro/a salvo]]", "[[soft|suave]]", "[[sad|triste]]"],
           "correctAnswer": 0,
           "explanation": "'Safe' significa a salvo o seguro."
@@ -456,7 +456,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Presente perfecto para acciones recientes.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[lost my bag.]]",
+          "question": "[[I|Yo]] (_____) [[lost my bag|he perdido mi bolso]].",
           "options": ["[[have|he]]", "[[am|soy]]", "[[do|hago]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'have' + participio para el presente perfecto."
@@ -478,7 +478,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'can' para peticiones.",
       "questions": [
         {
-          "question": "(_____) [[you help me?]]",
+          "question": "(_____) [[you help me|puede ayudarme]]?",
           "options": ["[[Can|¿Puede?]]", "[[Do|¿Hace?]]", "[[Are|¿Es?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Can' para pedir ayuda."
@@ -500,7 +500,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Uso del superlativo.",
       "questions": [
         {
-          "question": "[[Where is the|¿Dónde está la]] (_____) [[police station?]]",
+          "question": "[[Where is the|¿Dónde está la]] (_____) [[police station|comisaría]]?",
           "options": ["[[nearest|más cercana]]", "[[nearer|más cercana (comp.)]]", "[[next|siguiente]]"],
           "correctAnswer": 0,
           "explanation": "'Nearest' es el superlativo de 'near'."
@@ -522,7 +522,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'need to'.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[to go to the hospital.]]",
+          "question": "[[I|Yo]] (_____) [[to go to the hospital|ir al hospital]].",
           "options": ["[[need|necesito]]", "[[can|puedo]]", "[[am|soy]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'need to' + infinitivo para expresar necesidad."
@@ -544,7 +544,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Uso del imperativo para órdenes urgentes.",
       "questions": [
         {
-          "question": "(_____) [[an ambulance now!]]",
+          "question": "(_____) [[an ambulance now|una ambulancia ahora]]!",
           "options": ["[[Call|Llame]]", "[[Calling|Llamando]]", "[[To call|Llamar]]"],
           "correctAnswer": 0,
           "explanation": "El imperativo se forma con la base del verbo sin sujeto."
@@ -583,7 +583,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'Is there'.",
       "questions": [
         {
-          "question": "(_____) [[a doctor in the house?]]",
+          "question": "(_____) [[a doctor in the house?|un médico en la casa?]]",
           "options": ["[[Is there|¿Hay?]]", "[[Are there|¿Hay (plural)?]]", "[[Do|¿Haces?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Is there' para preguntar si hay algo en singular."
@@ -605,7 +605,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Expresar malestar.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[feel well.]]",
+          "question": "[[I|Yo]] (_____) [[feel well|me siento bien]].",
           "options": ["[[don't|no (auxiliar)]]", "[[not|no]]", "[[am not|no soy]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'don't' para negar en el presente simple."
@@ -627,7 +627,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'must'.",
       "questions": [
         {
-          "question": "[[You|Tú]] (_____) [[stay here.]]",
+          "question": "[[You|Tú]] (_____) [[stay here|quedarte aquí]].",
           "options": ["[[must|debes]]", "[[can|puedes]]", "[[will|serás/harás]]"],
           "correctAnswer": 0,
           "explanation": "'Must' indica una obligación fuerte."
@@ -666,7 +666,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Presente perfecto con 'someone'.",
       "questions": [
         {
-          "question": "[[Someone|Alguien]] (_____) [[stolen my camera.]]",
+          "question": "[[Someone|Alguien]] (_____) [[stolen my camera|ha robado mi cámara]].",
           "options": ["[[has|ha]]", "[[have|han]]", "[[is|es]]"],
           "correctAnswer": 0,
           "explanation": "Con 'someone' usamos la tercera persona del singular (has)."
@@ -710,7 +710,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Pregunta sobre seguridad.",
       "questions": [
         {
-          "question": "[[Is it|¿Es]] (_____) [[to go out?]]",
+          "question": "[[Is it|¿Es]] (_____) [[to go out|seguro salir]]?",
           "options": ["[[safe|seguro]]", "[[danger|peligro]]", "[[dark|oscuro]]"],
           "correctAnswer": 0,
           "explanation": "'Safe' es el adjetivo seguro."
@@ -732,7 +732,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'waiting for'.",
       "questions": [
         {
-          "question": "[[I am|Estoy]] (_____) [[for the ambulance.]]",
+          "question": "[[I am|Estoy]] (_____) [[for the ambulance|la ambulancia]].",
           "options": ["[[waiting|esperando]]", "[[looking|mirando]]", "[[calling|llamando]]"],
           "correctAnswer": 0,
           "explanation": "'Wait for' es esperar a alguien o algo."
@@ -754,7 +754,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'have to'.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[to call my family.]]",
+          "question": "[[I|Yo]] (_____) [[to call my family|llamar a mi familia]].",
           "options": ["[[have|tengo]]", "[[must|debo]]", "[[can|puedo]]"],
           "correctAnswer": 0,
           "explanation": "'Have to' indica una necesidad u obligación externa."
@@ -776,7 +776,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is very big.]]",
+          "question": "[[The|El]] (_____) [[is very big|es muy grande]].",
           "options": ["[[fire|fuego]]", "[[smoke|humo]]", "[[water|agua]]"],
           "correctAnswer": 0,
           "explanation": "'Fire' es fuego o incendio."
@@ -798,7 +798,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'can' para permiso.",
       "questions": [
         {
-          "question": "(_____) [[I use your phone?]]",
+          "question": "(_____) [[I use your phone|puedo usar tu teléfono]]?",
           "options": ["[[Can|¿Puedo?]]", "[[Must|¿Debo?]]", "[[Will|¿Haré?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Can' para pedir permiso informalmente."
@@ -820,7 +820,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica la expresión.",
       "questions": [
         {
-          "question": "[[Everything is|Todo está]] (_____) [[control.]]",
+          "question": "[[Everything is|Todo está]] (_____) [[control|bajo control]].",
           "options": ["[[under|bajo]]", "[[over|sobre]]", "[[in|en]]"],
           "correctAnswer": 0,
           "explanation": "'Under control' significa bajo control."
@@ -859,7 +859,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Concordancia con 'police'.",
       "questions": [
         {
-          "question": "[[The police|La policía]] (_____) [[coming.]]",
+          "question": "[[The police|La policía]] (_____) [[coming|está viniendo]].",
           "options": ["[[are|están (vienen)]]", "[[is|está]]", "[[am|soy]]"],
           "correctAnswer": 0,
           "explanation": "En inglés, 'police' siempre se trata como un plural."
@@ -883,7 +883,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[What is the emergency|¿Cuál es el]] (_____) [[de emergencia?]]",
+          "question": "[[What is the|¿Cuál es el]] (_____) [[emergency number|número de emergencia]]?",
           "options": ["[[number|número]]", "[[name|nombre]]", "[[note|nota]]"],
           "correctAnswer": 0,
           "explanation": "'Emergency number' es el número de teléfono de emergencias."
@@ -905,7 +905,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[Please,|Por favor,]] (_____) [[here.]]",
+          "question": "[[Please,|Por favor,]] (_____) [[here|aquí]].",
           "options": ["[[wait|espere]]", "[[work|trabaje]]", "[[walk|camine]]"],
           "correctAnswer": 0,
           "explanation": "'Wait' es esperar."
@@ -927,7 +927,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[My|Mis]] (_____) [[are lost.]]",
+          "question": "[[My|Mis]] (_____) [[are lost|están perdidos]].",
           "options": ["[[documents|documentos]]", "[[doors|puertas]]", "[[dogs|perros]]"],
           "correctAnswer": 0,
           "explanation": "'Documents' es documentos."
@@ -971,7 +971,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Where can I find a|¿Dónde puedo encontrar un teléfono]] (_____) ?",
+          "question": "[[Where can I find a|¿Dónde puedo encontrar un]] (_____) [[phone|teléfono]]?",
           "options": ["[[public|público]]", "[[private|privado]]", "[[police|policía]]"],
           "correctAnswer": 0,
           "explanation": "'Public phone' es teléfono público."
@@ -1037,7 +1037,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[Stay|Manténgase]] (_____) !",
+          "question": "[[Stay|Manténgase]] (_____) [[calm|tranquilo]]!",
           "options": ["[[calm|tranquilo/en calma]]", "[[cold|frío]]", "[[clean|limpio]]"],
           "correctAnswer": 0,
           "explanation": "'Calm' es tranquilo."
@@ -1059,7 +1059,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Is there a|¿Hay un]] (_____) [[aid kit?]]",
+          "question": "[[Is there a|¿Hay un]] (_____) [[aid kit|botiquín de primeros auxilios]]?",
           "options": ["[[first|primer]]", "[[fast|rápido]]", "[[fine|bueno]]"],
           "correctAnswer": 0,
           "explanation": "'First aid kit' es el botiquín de primeros auxilios."
@@ -1157,7 +1157,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Where is the nearest|¿Dónde está la]] (_____) [[más cercana?]]",
+          "question": "[[Where is the nearest|¿Dónde está la]] (_____) [[exit|salida]] [[?|más cercana?]]",
           "options": ["[[exit|salida]]", "[[entry|entrada]]", "[[east|este]]"],
           "correctAnswer": 0,
           "explanation": "'Exit' es salida."
@@ -1179,7 +1179,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Is this the|¿Es esta la]] (_____) ?",
+          "question": "[[Is this the|¿Es esta la]] (_____) [[entrance|entrada]]?",
           "options": ["[[entrance|entrada]]", "[[exit|salida]]", "[[end|fin]]"],
           "correctAnswer": 0,
           "explanation": "'Entrance' es entrada."
@@ -1201,7 +1201,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[My car is being|Mi coche está siendo]] (_____) .",
+          "question": "[[My car is being|Mi coche está siendo]] (_____) [[towed|remolcado]] .",
           "options": ["[[towed|remolcado (por la grúa)]]", "[[taken|llevado]]", "[[told|dicho]]"],
           "correctAnswer": 0,
           "explanation": "'Towed' se usa cuando la grúa se lleva el coche."
@@ -1240,7 +1240,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[I am looking for the|Estoy buscando el]] (_____) [[hall.]]",
+          "question": "[[I am looking for the|Estoy buscando el]] (_____) [[hall.|ayuntamiento.]]",
           "options": ["[[town|ayuntamiento]]", "[[train|tren]]", "[[toy|juguete]]"],
           "correctAnswer": 0,
           "explanation": "'Town hall' es el ayuntamiento."
@@ -1262,7 +1262,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Is there a|¿Hay un]] (_____) [[nearby?]]",
+          "question": "[[Is there a|¿Hay un]] (_____) [[toilet|aseo/baño]] [[nearby?|cerca?]]",
           "options": ["[[toilet|aseo/baño]]", "[[table|mesa]]", "[[ticket|billete]]"],
           "correctAnswer": 0,
           "explanation": "'Toilet' o 'restroom' es el aseo."
@@ -1284,7 +1284,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[My luggage is|Mi equipaje ha]] (_____) .",
+          "question": "[[My luggage is|Mi equipaje ha]] (_____) [[missing|desaparecido]] .",
           "options": ["[[missing|desaparecido/falta]]", "[[making|haciendo]]", "[[moving|moviéndose]]"],
           "correctAnswer": 0,
           "explanation": "'Missing' se usa para algo que no está donde debería estar."
@@ -1306,7 +1306,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Pregunta básica.",
       "questions": [
         {
-          "question": "[[Do you|¿Usted]] (_____) [[English?]]",
+          "question": "[[Do you|¿Usted]] (_____) [[speak|habla]] [[English?|inglés?]]",
           "options": ["[[speak|habla]]", "[[say|dice]]", "[[study|estudia]]"],
           "correctAnswer": 0,
           "explanation": "'Speak' es hablar un idioma."

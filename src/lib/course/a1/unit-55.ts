@@ -14,7 +14,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[is very interesting.]]",
+          "question": "(_____) [[is very interesting.|es muy interesante.]]",
           "options": ["[[Science|Ciencia]]", "[[Silence|Silencio]]", "[[Sentence|Sentencia]]"],
           "correctAnswer": 0,
           "explanation": "'Science' es ciencia."
@@ -58,7 +58,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We are doing an|Estamos haciendo un]] (_____) [[today.]]",
+          "question": "[[We are doing an|Estamos haciendo un]] (_____) [[today.|hoy.]]",
           "options": ["[[experiment|experimento]]", "[[experience|experiencia]]", "[[expert|experto]]"],
           "correctAnswer": 0,
           "explanation": "'Experiment' es experimento."
@@ -80,7 +80,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is full of equipment.]]",
+          "question": "[[The|El]] (_____) [[is full of equipment.|está lleno de equipo.]]",
           "options": ["[[laboratory|laboratorio]]", "[[library|biblioteca]]", "[[lavatory|lavabo]]"],
           "correctAnswer": 0,
           "explanation": "'Laboratory' es laboratorio."
@@ -146,7 +146,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Mars is known as the red|Marte es conocido como el]] (_____) [[rojo.]]",
+          "question": "[[Mars is known as the red|Marte es conocido como el]] (_____) [[planet.|planeta]] [[red.|rojo.]]",
           "options": ["[[planet|planeta]]", "[[plant|planta]]", "[[plane|avión]]"],
           "correctAnswer": 0,
           "explanation": "'Planet' es planeta."
@@ -190,7 +190,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Einstein had a famous|Einstein tenía una famosa]] (_____) [[of relativity.]]",
+          "question": "[[Einstein had a famous|Einstein tenía una famosa]] (_____) [[theory of relativity.|teoría de la relatividad.]]",
           "options": ["[[theory|teoría]]", "[[theater|teatro]]", "[[theme|tema]]"],
           "correctAnswer": 0,
           "explanation": "'Theory' es teoría."
@@ -256,7 +256,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[explains how the world works.]]",
+          "question": "(_____) [[explains how the world works.|explica cómo funciona el mundo.]]",
           "options": ["[[Physics|Física]]", "[[Physic|Físico]]", "[[Physical|Físico (adj)]]"],
           "correctAnswer": 0,
           "explanation": "'Physics' es la asignatura o ciencia de la Física."
@@ -278,7 +278,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We study elements in|Estudiamos los elementos en la clase de]] (_____) [[class.]]",
+          "question": "[[We study elements in|Estudiamos los elementos en la clase de]] (_____) [[class.|química.]]",
           "options": ["[[chemistry|química]]", "[[character|carácter]]", "[[chemical|químico]]"],
           "correctAnswer": 0,
           "explanation": "'Chemistry' es química."
@@ -300,7 +300,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[is the study of life.]]",
+          "question": "(_____) [[is the study of life.|es el estudio de la vida.]]",
           "options": ["[[Biology|Biología]]", "[[Biologist|Biólogo]]", "[[Biological|Biológico]]"],
           "correctAnswer": 0,
           "explanation": "'Biology' es biología."
@@ -322,7 +322,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The sun provides solar|El sol proporciona]] (_____) [[solar.]]",
+          "question": "[[The sun provides|El sol proporciona]] (_____) [[solar energy.|energía solar.]]",
           "options": ["[[energy|energía]]", "[[engine|motor]]", "[[enemy|enemigo]]"],
           "correctAnswer": 0,
           "explanation": "'Energy' es energía."
@@ -344,7 +344,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[keeps us on the ground.]]",
+          "question": "(_____) [[keeps us on the ground.|nos mantiene en el suelo.]]",
           "options": ["[[Gravity|Gravedad]]", "[[Graveyard|Cementerio]]", "[[Graduation|Graduación]]"],
           "correctAnswer": 0,
           "explanation": "'Gravity' es gravedad."
@@ -366,7 +366,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[powers our homes.]]",
+          "question": "(_____) [[powers our homes.|da energía a nuestros hogares.]]",
           "options": ["[[Electricity|Electricidad]]", "[[Electronics|Electrónica]]", "[[Election|Elección]]"],
           "correctAnswer": 0,
           "explanation": "'Electricity' es electricidad."
@@ -388,7 +388,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Water can exist as a liquid,|El agua puede existir como líquido,]] (_____) [[or gas.]]",
+          "question": "[[Water can exist as a liquid,|El agua puede existir como líquido,]] (_____) [[or gas.|o gas.]]",
           "options": ["[[solid|sólido]]", "[[soldier|soldado]]", "[[solution|solución]]"],
           "correctAnswer": 0,
           "explanation": "'Solid' es sólido."
@@ -410,7 +410,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Steam is the|El vapor es la forma de]] (_____) [[del agua.]]",
+          "question": "[[Steam is the|El vapor es la forma de]] (_____) [[of water.|del agua.]]",
           "options": ["[[gas|gas]]", "[[glass|vidrio]]", "[[grass|hierba]]"],
           "correctAnswer": 0,
           "explanation": "'Gas' es gas."
@@ -432,7 +432,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[turned blue.]]",
+          "question": "[[The|La]] (_____) [[turned blue.|se volvió azul.]]",
           "options": ["[[solution|solución]]", "[[selection|selección]]", "[[situation|situación]]"],
           "correctAnswer": 0,
           "explanation": "'Solution' puede referirse a una mezcla química o a la respuesta a un problema."
@@ -456,7 +456,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Adjetivo + preposición.",
       "questions": [
         {
-          "question": "[[I am interested|Estoy interesado]] (_____) [[learning about space.]]",
+          "question": "[[I am interested|Estoy interesado]] (_____) [[in learning about space.|en aprender sobre el espacio.]]",
           "options": ["[[in|en]]", "[[at|en]]", "[[on|en]]"],
           "correctAnswer": 0,
           "explanation": "Se dice 'interested in'."
@@ -478,7 +478,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Presente simple (plural).",
       "questions": [
         {
-          "question": "[[Scientists|Los científicos]] (_____) [[that there is water on Mars.]]",
+          "question": "[[Scientists|Los científicos]] (_____) [[that there is water on Mars.|que hay agua en Marte.]]",
           "options": ["[[believe|creen]]", "[[believes|cree]]", "[[believing|creyendo]]"],
           "correctAnswer": 0,
           "explanation": "Con un sujeto plural (Scientists), usamos la forma base del verbo."
@@ -500,7 +500,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Presente simple (singular).",
       "questions": [
         {
-          "question": "[[The planet|El planeta]] (_____) [[around the star.]]",
+          "question": "[[The planet|El planeta]] (_____) [[around the star.|alrededor de la estrella.]]",
           "options": ["[[orbits|orbita]]", "[[orbit|orbitar]]", "[[orbiting|orbitando]]"],
           "correctAnswer": 0,
           "explanation": "Para la tercera persona del singular (The planet), añadimos '-s' al verbo."
@@ -544,7 +544,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Preguntas en presente simple.",
       "questions": [
         {
-          "question": "(_____) [[happens if you mix these two chemicals?]]",
+          "question": "(_____) [[happens if you mix these two chemicals?|pasa si mezclas estos dos productos químicos?]]",
           "options": ["[[What|Qué]]", "[[Who|Quién]]", "[[Where|Dónde]]"],
           "correctAnswer": 0,
           "explanation": "'What' se usa para preguntar por cosas o sucesos."
@@ -583,7 +583,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Infinitivo de propósito.",
       "questions": [
         {
-          "question": "[[Scientists use microscopes|Los científicos usan microscopios]] (_____) [[tiny things.]]",
+          "question": "[[Scientists use microscopes|Los científicos usan microscopios]] (_____) [[to see tiny things.|para ver cosas diminutas.]]",
           "options": ["[[to see|para ver]]", "[[for see|para ver (incorrecto)]]", "[[seeing|viendo]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'to' + infinitivo para expresar el propósito de una acción."
@@ -605,7 +605,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Pregunta con 'Is there'.",
       "questions": [
         {
-          "question": "(_____) [[life on other planets?]]",
+          "question": "(_____) [[life on other planets?|vida en otros planetas?]]",
           "options": ["[[Is there|¿Hay? (singular)]]", "[[Are there|¿Hay? (plural)]]", "[[There is|Hay]]"],
           "correctAnswer": 0,
           "explanation": "'Life' es un sustantivo incontable, por lo que usamos 'Is there'."
@@ -627,7 +627,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Voz pasiva básica.",
       "questions": [
         {
-          "question": "[[Everything is|Todo está]] (_____) [[of atoms.]]",
+          "question": "[[Everything is|Todo está]] (_____) [[made of atoms.|hecho de átomos.]]",
           "options": ["[[made|hecho]]", "[[make|hacer]]", "[[making|haciendo]]"],
           "correctAnswer": 0,
           "explanation": "'Made' es el participio de 'make'."
@@ -666,7 +666,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Pasado simple regular.",
       "questions": [
         {
-          "question": "[[Newton|Newton]] (_____) [[gravity when an apple fell.]]",
+          "question": "[[Newton|Newton]] (_____) [[gravity when an apple fell.|la gravedad cuando una manzana cayó.]]",
           "options": ["[[discovered|descubrió]]", "[[discover|descubrir]]", "[[discovering|descubriendo]]"],
           "correctAnswer": 0,
           "explanation": "Añadimos '-ed' para formar el pasado regular."
@@ -688,7 +688,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Negación en tercera persona.",
       "questions": [
         {
-          "question": "[[The moon|La luna]] (_____) [[have its own light.]]",
+          "question": "[[The moon|La luna]] (_____) [[have its own light.|tiene su propia luz.]]",
           "options": ["[[doesn't|no (auxiliar)]]", "[[don't|no]]", "[[no|no]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'doesn't' para la tercera persona del singular."
@@ -710,7 +710,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Comparativo con adjetivo corto.",
       "questions": [
         {
-          "question": "[[Light travels|La luz viaja]] (_____) [[than sound.]]",
+          "question": "[[Light travels|La luz viaja]] (_____) [[faster than sound.|más rápido que el sonido.]]",
           "options": ["[[faster|más rápido]]", "[[fastest|lo más rápido]]", "[[more fast|más rápido (incorrecto)]]"],
           "correctAnswer": 0,
           "explanation": "Añadimos '-er' a los adjetivos cortos para el comparativo."
@@ -732,7 +732,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Presente simple (plural).",
       "questions": [
         {
-          "question": "[[Plants|Las plantas]] (_____) [[sunlight to grow.]]",
+          "question": "[[Plants|Las plantas]] (_____) [[need sunlight to grow.|necesitan luz solar para crecer.]]",
           "options": ["[[need|necesitan]]", "[[needs|necesita]]", "[[needing|necesitando]]"],
           "correctAnswer": 0,
           "explanation": "Para un sujeto plural, usamos la forma base del verbo."
@@ -754,7 +754,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Presente continuo.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[the reaction in the lab.]]",
+          "question": "[[We|Nosotros]] (_____) [[are observing the reaction in the lab.|estamos observando la reacción en el laboratorio.]]",
           "options": ["[[are observing|estamos observando]]", "[[is observing|está observando]]", "[[observe|observar]]"],
           "correctAnswer": 0,
           "explanation": "Usamos are + gerundio para 'we'."
@@ -776,7 +776,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'How many' con contables.",
       "questions": [
         {
-          "question": "(_____) [[planets are in our solar system?]]",
+          "question": "(_____) [[planets are in our solar system?|planetas hay en nuestro sistema solar?]]",
           "options": ["[[How many|Cuántos]]", "[[How much|Cuánto]]", "[[How far|A qué distancia]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'How many' para preguntar por la cantidad de elementos contables."
@@ -798,7 +798,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Pasado simple irregular.",
       "questions": [
         {
-          "question": "[[The scientist|El científico]] (_____) [[a Nobel Prize last year.]]",
+          "question": "[[The scientist|El científico]] (_____) [[won a Nobel Prize last year.|ganó un Premio Nobel el año pasado.]]",
           "options": ["[[won|ganó]]", "[[win|ganar]]", "[[wins|gana]]"],
           "correctAnswer": 0,
           "explanation": "'Won' es el pasado irregular de 'win'."
@@ -820,7 +820,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Verbo 'want' + infinitivo.",
       "questions": [
         {
-          "question": "[[Do you want|¿Quieres]] (_____) [[the stars tonight?]]",
+          "question": "[[Do you want|¿Quieres]] (_____) [[to see the stars tonight?|ver las estrellas esta noche?]]",
           "options": ["[[to see|ver]]", "[[seeing|viendo]]", "[[see|ver (forma base)]]"],
           "correctAnswer": 0,
           "explanation": "El verbo 'want' requiere 'to' antes del siguiente verbo."
@@ -859,7 +859,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Demostrativo singular.",
       "questions": [
         {
-          "question": "(_____) [[microscope is powerful.]]",
+          "question": "(_____) [[microscope is powerful.|microscopio es potente.]]",
           "options": ["[[This|Este]]", "[[These|Estos]]", "[[That|Ese]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'This' para algo singular y cercano."
@@ -883,7 +883,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is very intelligent.]]",
+          "question": "[[The|El]] (_____) [[is very intelligent.|es muy inteligente.]]",
           "options": ["[[robot|robot]]", "[[road|carretera]]", "[[roof|techo]]"],
           "correctAnswer": 0,
           "explanation": "'Robot' es robot."
@@ -905,7 +905,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We have a|Tenemos un]] (_____) [[to see the moon.]]",
+          "question": "[[We have a|Tenemos un]] (_____) [[to see the moon.|para ver la luna.]]",
           "options": ["[[telescope|telescopio]]", "[[telephone|teléfono]]", "[[television|televisión]]"],
           "correctAnswer": 0,
           "explanation": "'Telescope' es telescopio."
@@ -927,7 +927,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El test de]] (_____) [[test was very accurate.]]",
+          "question": "[[The|El test de]] (_____) [[test was very accurate.|fue muy preciso.]]",
           "options": ["[[DNA|ADN]]", "[[USA|EEUU]]", "[[NASA|NASA]]"],
           "correctAnswer": 0,
           "explanation": "'DNA' es ADN en inglés."
@@ -949,7 +949,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We need to find a|Necesitamos encontrar una]] (_____) [[for this disease.]]",
+          "question": "[[We need to find a|Necesitamos encontrar una]] (_____) [[for this disease.|para esta enfermedad.]]",
           "options": ["[[cure|cura]]", "[[care|cuidado]]", "[[core|núcleo]]"],
           "correctAnswer": 0,
           "explanation": "'Cure' es cura."
@@ -971,7 +971,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[system has eight planets.]]",
+          "question": "[[The|El]] (_____) [[system has eight planets.|sistema tiene ocho planetas.]]",
           "options": ["[[solar|solar]]", "[[sound|sonido]]", "[[solid|sólido]]"],
           "correctAnswer": 0,
           "explanation": "'Solar' se refiere al sol."
@@ -993,7 +993,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[reaction produced heat.]]",
+          "question": "[[The|La]] (_____) [[reaction produced heat.|reacción produjo calor.]]",
           "options": ["[[chemical|química (adj)]]", "[[cheerful|alegre]]", "[[cheap|barato]]"],
           "correctAnswer": 0,
           "explanation": "'Chemical' es químico/a."
@@ -1015,7 +1015,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[is necessary for humans.]]",
+          "question": "(_____) [[is necessary for humans.|es necesario para los humanos.]]",
           "options": ["[[Oxygen|Oxígeno]]", "[[Ocean|Océano]]", "[[Orange|Naranja]]"],
           "correctAnswer": 0,
           "explanation": "'Oxygen' es oxígeno."
@@ -1037,7 +1037,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[dioxide is a greenhouse gas.]]",
+          "question": "(_____) [[dioxide is a greenhouse gas.|dióxido es un gas de efecto invernadero.]]",
           "options": ["[[Carbon|Carbono]]", "[[Cabin|Cabina]]", "[[Cactus|Cactus]]"],
           "correctAnswer": 0,
           "explanation": "'Carbon' es carbono."
@@ -1081,7 +1081,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[station is orbiting the Earth.]]",
+          "question": "[[The|La]] (_____) [[station is orbiting the Earth.|estación está orbitando la Tierra.]]",
           "options": ["[[space|espacial]]", "[[spice|especia]]", "[[speed|velocidad]]"],
           "correctAnswer": 0,
           "explanation": "'Space' en este contexto funciona como adjetivo (espacial)."
@@ -1162,7 +1162,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El método]] (_____) [[method is a logical process.]]",
+          "question": "[[The|El método]] (_____) [[method is a logical process.|es un proceso lógico.]]",
           "options": ["[[scientific|científico]]", "[[scientist|científico (persona)]]", "[[science|ciencia]]"],
           "correctAnswer": 0,
           "explanation": "'Scientific' es el adjetivo."
@@ -1184,7 +1184,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We are studying the|Estamos estudiando las]] (_____) [[of motion.]]",
+          "question": "[[We are studying the|Estamos estudiando las]] (_____) [[of motion.|del movimiento.]]",
           "options": ["[[laws|leyes]]", "[[lows|bajos]]", "[[lays|pone]]"],
           "correctAnswer": 0,
           "explanation": "'Laws' son las leyes."
@@ -1206,7 +1206,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[is a fascinating force.]]",
+          "question": "(_____) [[is a fascinating force.|es una fuerza fascinante.]]",
           "options": ["[[Magnetism|Magnetismo]]", "[[Magic|Magia]]", "[[Magnet|Imán]]"],
           "correctAnswer": 0,
           "explanation": "'Magnetism' es magnetismo."
@@ -1227,7 +1227,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "title": "¿Te gusta ver documentales de ciencia?",
       "instructions": "Ordena la pregunta.",
       "correctSentence": "[[Do you like to watch science documentaries|¿Te gusta ver documentales de ciencia]]?",
-      "words": ["[[documentaries|documentales]]?", "[[science|ciencia]]", "[[watch|ver]]", "[[to|para]]", "[[like|gustar]]", "[[you|tú]]", "[[Do|¿Haces? (auxiliar)]]"],
+      "words": ["[[documentaries|documentales]]?", "[[science|ciencia]]", "[[watch|ver]]", "[[to|para]]", "[[like|te gusta]]", "[[you|tú]]", "[[Do|¿Haces? (auxiliar)]]"],
       "explanation": "Pregunta con 'Do' + sujeto + 'like to' + verbo."
     },
     "audioUrl": "audio/a1/unit-55/e56.mp3",
@@ -1245,7 +1245,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Preposición de tema.",
       "questions": [
         {
-          "question": "[[I am reading a book|Estoy leyendo un libro]] (_____) [[evolution.]]",
+          "question": "[[I am reading a book|Estoy leyendo un libro]] (_____) [[about evolution.|sobre la evolución.]]",
           "options": ["[[about|sobre]]", "[[above|encima]]", "[[around|alrededor]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'about' para indicar el tema de un libro, conversación, etc."
@@ -1267,7 +1267,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Presente simple.",
       "questions": [
         {
-          "question": "[[The earth|La tierra]] (_____) [[around the sun.]]",
+          "question": "[[The earth|La tierra]] (_____) [[around the sun.|alrededor del sol.]]",
           "options": ["[[revolves|gira]]", "[[revolve|girar]]", "[[revolving|girando]]"],
           "correctAnswer": 0,
           "explanation": "Tercera persona del singular."
@@ -1289,7 +1289,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We have|Tenemos]] (_____) [[to learn about the universe.]]",
+          "question": "[[We have|Tenemos]] (_____) [[much to learn about the universe.|mucho que aprender sobre el universo.]]",
           "options": ["[[much|mucho]]", "[[many|muchos]]", "[[very|muy]]"],
           "correctAnswer": 0,
           "explanation": "'Much' se usa para cantidades abstractas o incontables."
@@ -1311,7 +1311,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Presente continuo.",
       "questions": [
         {
-          "question": "[[The universe|El universo]] (_____) [[expanding.]]",
+          "question": "[[The universe|El universo]] (_____) [[is expanding.|se está expandiendo.]]",
           "options": ["[[is|está]]", "[[are|están]]", "[[be|ser]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'is' con sujetos singulares en el presente continuo."

@@ -36,7 +36,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Our|Nuestra]] (_____) [[is very active.]]",
+          "question": "[[Our|Nuestra]] (_____) [[is very active.|es muy activa.]]",
           "options": ["[[community|comunidad]]", "[[commodity|mercancía]]", "[[committee|comité]]"],
           "correctAnswer": 0,
           "explanation": "'Community' es comunidad."
@@ -80,7 +80,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[makes important decisions.]]",
+          "question": "[[The|El]] (_____) [[makes important decisions.|toma decisiones importantes.]]",
           "options": ["[[government|gobierno]]", "[[agreement|acuerdo]]", "[[apartment|apartamento]]"],
           "correctAnswer": 0,
           "explanation": "'Government' es gobierno."
@@ -91,6 +91,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "topicName": "Vocabulary"
   },
   {
+    "id": "a1-u58-e5",
     "id": "a1-u58-e5",
     "type": "multiple-choice",
     "level": "A1",
@@ -146,7 +147,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We have the|Tenemos el]] (_____) [[to speak.]]",
+          "question": "[[We have the|Tenemos el]] (_____) [[to speak.|a hablar.]]",
           "options": ["[[right|derecho]]", "[[write|escribir]]", "[[night|noche]]"],
           "correctAnswer": 0,
           "explanation": "'Right' puede significar derecho (como derecho humano)."
@@ -168,7 +169,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[It is our|Es nuestra]] (_____) [[to help.]]",
+          "question": "[[It is our|Es nuestra]] (_____) [[to help.|ayudar.]]",
           "options": ["[[responsibility|responsabilidad]]", "[[possibility|posibilidad]]", "[[flexibility|flexibilidad]]"],
           "correctAnswer": 0,
           "explanation": "'Responsibility' es responsabilidad."
@@ -212,7 +213,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is next month.]]",
+          "question": "[[The|La]] (_____) [[is next month.|es el mes que viene.]]",
           "options": ["[[election|elección]]", "[[collection|colección]]", "[[direction|dirección]]"],
           "correctAnswer": 0,
           "explanation": "'Election' es elección."
@@ -234,7 +235,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[She is a|Ella es una]] (_____) [[at the hospital.]]",
+          "question": "[[She is a|Ella es una]] (_____) [[at the hospital.|en el hospital.]]",
           "options": ["[[volunteer|voluntaria]]", "[[veteran|veterana]]", "[[visitor|visitante]]"],
           "correctAnswer": 0,
           "explanation": "'Volunteer' es voluntario o voluntaria."
@@ -278,7 +279,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Can you|¿Puedes]] (_____) [[me with this?]]",
+          "question": "[[Can you|¿Puedes]] (_____) [[me with this?|ayudarme con esto?]]",
           "options": ["[[help|ayudarme]]", "[[hold|sostener]]", "[[hear|oír]]"],
           "correctAnswer": 0,
           "explanation": "'Help' es ayuda o ayudar."
@@ -322,7 +323,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[meets once a week.]]",
+          "question": "[[The|El]] (_____) [[meets once a week.|se reúne una vez a la semana.]]",
           "options": ["[[group|grupo]]", "[[grape|uva]]", "[[ground|suelo]]"],
           "correctAnswer": 0,
           "explanation": "'Group' es grupo."
@@ -410,7 +411,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[is very important.]]",
+          "question": "(_____) [[is very important.|es muy importante.]]",
           "options": ["[[Safety|Seguridad]]", "[[Salty|Salado]]", "[[Slightly|Ligeramente]]"],
           "correctAnswer": 0,
           "explanation": "'Safety' es seguridad."
@@ -432,7 +433,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[for all.]]",
+          "question": "(_____) [[for all.|para todos.]]",
           "options": ["[[Justice|Justicia]]", "[[Justify|Justificar]]", "[[Journal|Diario]]"],
           "correctAnswer": 0,
           "explanation": "'Justice' es justicia."
@@ -456,7 +457,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'must'.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[follow the rules.]]",
+          "question": "[[We|Nosotros]] (_____) [[follow the rules.|seguir las reglas.]]",
           "options": ["[[must|debemos]]", "[[most|más]]", "[[might|podríamos]]"],
           "correctAnswer": 0,
           "explanation": "'Must' indica obligación."
@@ -478,7 +479,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Estructura 'It is... to...'.",
       "questions": [
         {
-          "question": "[[It is important|Es importante]] (_____) [[in elections.]]",
+          "question": "[[It is important|Es importante]] (_____) [[in elections.|en las elecciones.]]",
           "options": ["[[to vote|votar]]", "[[voting|votando]]", "[[vote|votar (forma base)]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'to' + infinitivo después de 'It is important'."
@@ -500,7 +501,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'each other'.",
       "questions": [
         {
-          "question": "[[People help|La gente se ayuda]] (_____) [[in our town.]]",
+          "question": "[[People help|La gente se ayuda]] (_____) [[in our town.|en nuestro pueblo.]]",
           "options": ["[[each other|mutuamente]]", "[[every other|cada otro]]", "[[one another|uno al otro (incorrecto aquí)]]"],
           "correctAnswer": 0,
           "explanation": "'Each other' significa mutuamente."
@@ -522,7 +523,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Presente simple.",
       "questions": [
         {
-          "question": "[[They|Ellos]] (_____) [[the community project.]]",
+          "question": "[[They|Ellos]] (_____) [[the community project.|el proyecto comunitario.]]",
           "options": ["[[support|apoyan]]", "[[supports|apoya]]", "[[supporting|apoyando]]"],
           "correctAnswer": 0,
           "explanation": "Con 'they', usamos la forma base del verbo."
@@ -544,7 +545,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Pregunta indirecta.",
       "questions": [
         {
-          "question": "[[Do you know|¿Sabes]] (_____) [[the mayor is?]]",
+          "question": "[[Do you know|¿Sabes]] (_____) [[the mayor is?|es el alcalde?]]",
           "options": ["[[who|quién]]", "[[what|qué]]", "[[where|dónde]]"],
           "correctAnswer": 0,
           "explanation": "'Who' se usa para personas."
@@ -583,7 +584,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Presente continuo (futuro cercano).",
       "questions": [
         {
-          "question": "[[I am|Estoy]] (_____) [[this weekend.]]",
+          "question": "[[I am|Estoy]] (_____) [[this weekend.|este fin de semana.]]",
           "options": ["[[volunteering|haciendo voluntariado]]", "[[volunteer|voluntario]]", "[[volunteered|hice voluntariado]]"],
           "correctAnswer": 0,
           "explanation": "Usamos el presente continuo para planes fijos en el futuro."
@@ -605,7 +606,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Negación con 'should'.",
       "questions": [
         {
-          "question": "[[You|Tú]] (_____) [[break the law.]]",
+          "question": "[[You|Tú]] (_____) [[break the law.|romper la ley.]]",
           "options": ["[[shouldn't|no deberías]]", "[[don't|no]]", "[[not|no]]"],
           "correctAnswer": 0,
           "explanation": "'Shouldn't' se usa para dar consejos negativos."
@@ -627,7 +628,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'any' en preguntas.",
       "questions": [
         {
-          "question": "[[Is there|¿Hay]] (_____) [[meeting today?]]",
+          "question": "[[Is there|¿Hay]] (_____) [[meeting today?|reunión hoy?]]",
           "options": ["[[any|alguna]]", "[[some|alguna (afirmativa)]]", "[[none|ninguna]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'any' en preguntas con sustantivos contables o incontables."
@@ -666,7 +667,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Presente simple (tercera persona).",
       "questions": [
         {
-          "question": "[[The government|El gobierno]] (_____) [[free education.]]",
+          "question": "[[The government|El gobierno]] (_____) [[free education.|educación gratuita.]]",
           "options": ["[[provides|proporciona]]", "[[provide|proporcionar]]", "[[providing|proporcionando]]"],
           "correctAnswer": 0,
           "explanation": "Usamos '-s' para la tercera persona del singular."
@@ -688,7 +689,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Pasado simple regular.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[for the new mayor last week.]]",
+          "question": "[[We|Nosotros]] (_____) [[for the new mayor last week.|por el nuevo alcalde la semana pasada.]]",
           "options": ["[[voted|votamos]]", "[[vote|votar]]", "[[voting|votando]]"],
           "correctAnswer": 0,
           "explanation": "Añadimos '-ed' para formar el pasado regular."
@@ -710,7 +711,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Pregunta de frecuencia.",
       "questions": [
         {
-          "question": "(_____) [[do you help your neighbors?]]",
+          "question": "(_____) [[do you help your neighbors?|ayudas a tus vecinos?]]",
           "options": ["[[How often|Con qué frecuencia]]", "[[How many|Cuántos]]", "[[How much|Cuánto]]"],
           "correctAnswer": 0,
           "explanation": "'How often' pregunta por la frecuencia."
@@ -732,7 +733,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Comparativo con adjetivo corto terminado en 'y'.",
       "questions": [
         {
-          "question": "[[This rule is|Esta regla es]] (_____) [[to follow.]]",
+          "question": "[[This rule is|Esta regla es]] (_____) [[to follow.|de seguir.]]",
           "options": ["[[easier|más fácil]]", "[[more easy|más fácil (incorrecto)]]", "[[easy|fácil]]"],
           "correctAnswer": 0,
           "explanation": "Cambiamos 'y' por 'i' y añadimos 'er' para el comparativo."
@@ -754,7 +755,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Presente continuo.",
       "questions": [
         {
-          "question": "[[They|Ellos]] (_____) [[discussing the new law.]]",
+          "question": "[[They|Ellos]] (_____) [[discussing the new law.|debatiendo la nueva ley.]]",
           "options": ["[[are|están]]", "[[is|está]]", "[[be|ser]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'are' para 'they'."
@@ -776,7 +777,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'There are'.",
       "questions": [
         {
-          "question": "(_____) [[many volunteers in the project.]]",
+          "question": "(_____) [[many volunteers in the project.|muchos voluntarios en el proyecto.]]",
           "options": ["[[There are|Hay (plural)]]", "[[There is|Hay (singular)]]", "[[Are there|¿Hay?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'There are' para varios objetos/personas."
@@ -798,7 +799,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Negación en presente simple (tercera persona).",
       "questions": [
         {
-          "question": "[[He|Él]] (_____) [[follow the rules.]]",
+          "question": "[[He|Él]] (_____) [[follow the rules.|seguir las reglas.]]",
           "options": ["[[doesn't|no (auxiliar)]]", "[[don't|no]]", "[[no|no]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'doesn't' para 'he'."
@@ -820,7 +821,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'would like to'.",
       "questions": [
         {
-          "question": "[[I|Me]] (_____) [[like to help the community.]]",
+          "question": "[[I|Me]] (_____) [[like to help the community.|gustaría ayudar a la comunidad.]]",
           "options": ["[[would|gustaría (auxiliar)]]", "[[should|debería]]", "[[will|haré]]"],
           "correctAnswer": 0,
           "explanation": "'Would like' significa gustaría."
@@ -859,7 +860,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Verbo 'have' con 'everyone'.",
       "questions": [
         {
-          "question": "[[Everyone|Todos]] (_____) [[a role in society.]]",
+          "question": "[[Everyone|Todos]] (_____) [[a role in society.|un papel en la sociedad.]]",
           "options": ["[[has|tiene]]", "[[have|tienen]]", "[[having|teniendo]]"],
           "correctAnswer": 0,
           "explanation": "'Everyone' se trata como singular gramaticalmente."
@@ -883,7 +884,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[helps homeless people.]]",
+          "question": "[[The|La]] (_____) [[helps homeless people.|ayuda a las personas sin hogar.]]",
           "options": ["[[charity|caridad]]", "[[cherry|cereza]]", "[[chart|tabla]]"],
           "correctAnswer": 0,
           "explanation": "'Charity' es caridad o una organización benéfica."
@@ -905,7 +906,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[He made a|Él hizo una]] (_____) [[to the school.]]",
+          "question": "[[He made a|Él hizo una]] (_____) [[to the school.|a la escuela.]]",
           "options": ["[[donation|donación]]", "[[direction|dirección]]", "[[duration|duración]]"],
           "correctAnswer": 0,
           "explanation": "'Donation' es donación."
@@ -927,7 +928,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[of speech is a fundamental right.]]",
+          "question": "(_____) [[of speech is a fundamental right.|de expresión es un derecho fundamental.]]",
           "options": ["[[Freedom|Libertad]]", "[[Friday|viernes]]", "[[Friendship|amistad]]"],
           "correctAnswer": 0,
           "explanation": "'Freedom' es libertad."
@@ -949,7 +950,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We are|Somos]] (_____) [[of the same club.]]",
+          "question": "[[We are|Somos]] (_____) [[of the same club.|del mismo club.]]",
           "options": ["[[members|miembros]]", "[[numbers|números]]", "[[mothers|madres]]"],
           "correctAnswer": 0,
           "explanation": "'Members' son los miembros."
@@ -971,7 +972,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[in the world.]]",
+          "question": "(_____) [[in the world.|en el mundo.]]",
           "options": ["[[Peace|Paz]]", "[[Piece|pieza]]", "[[Place|lugar]]"],
           "correctAnswer": 0,
           "explanation": "'Peace' es paz."
@@ -993,7 +994,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[was very productive.]]",
+          "question": "[[The|La]] (_____) [[was very productive.|fue muy productiva.]]",
           "options": ["[[meeting|reunión]]", "[[meaning|significado]]", "[[melting|derretimiento]]"],
           "correctAnswer": 0,
           "explanation": "'Meeting' es reunión."
@@ -1037,7 +1038,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[He is a|Él es un]] (_____) [[in our community.]]",
+          "question": "[[He is a|Él es un]] (_____) [[in our community.|en nuestra comunidad.]]",
           "options": ["[[leader|líder]]", "[[ladder|escalera]]", "[[letter|carta]]"],
           "correctAnswer": 0,
           "explanation": "'Leader' es líder."
@@ -1081,7 +1082,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[is the basis of society.]]",
+          "question": "(_____) [[is the basis of society.|es la base de la sociedad.]]",
           "options": ["[[Respect|Respeto]]", "[[Report|Informe]]", "[[Repeat|Repetir]]"],
           "correctAnswer": 0,
           "explanation": "'Respect' es respeto."
@@ -1101,7 +1102,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Ser un buen ciudadano",
       "instructions": "Lee sobre las responsabilidades de un ciudadano.",
-      "text": "[[Being|Ser]] [[a|un]] [[good|buen]] [[citizen|ciudadano]] [[means|significa]] [[helping|ayudar a]] [[others|otros]] [[and|y]] [[following|seguir]] [[the|las]] [[rules.|reglas.]] [[In|En]] [[a|una]] [[community,|comunidad,]] [[people|la gente]] [[work|trabaja]] [[together|junta]] [[to|para]] [[make|hacer]] [[their|su]] [[neighborhood|vecindario]] [[better.|mejor.]] [[For|Por]] [[example,|ejemplo,]] [[some|algunas]] [[people|personas]] [[volunteer|hacen voluntariado]] [[at|en]] [[local|caridades]] [[charities|locales]] [[or|o]] [[help|ayudan a]] [[their|sus]] [[elderly|ancianos]] [[neighbors|vecinos]] [[with|con]] [[their|sus]] [[groceries.|compras.]] [[Following|Seguir las]] [[laws|leyes]] [[and|y]] [[rules|reglas]] [[is|es]] [[also|también]] [[important|importante]] [[for|para]] [[everyone's|la]] [[safety.|seguridad de todos.]] [[When|Cuando]] [[we|nosotros]] [[vote|votamos]] [[in|en]] [[elections,|elecciones,]] [[we|]] [[participate|participamos]] [[in|en]] [[our|nuestro]] [[government|gobierno]] [[and|y]] [[choose|elegimos a]] [[the|las]] [[people|personas]] [[who|que]] [[make|toman]] [[decisions|decisiones]] [[for|para]] [[our|nuestro]] [[country.|país.]] [[Protecting|Proteger]] [[the|el]] [[environment|medio ambiente]] [[is|es]] [[another|otra]] [[responsibility|responsabilidad]] [[of|de]] [[a|un]] [[good|buen]] [[citizen.|ciudadano.]] [[We|Nosotros]] [[can|podemos]] [[recycle,|reciclar,]] [[use|usar]] [[less|menos]] [[water,|agua,]] [[and|y]] [[keep|mantener]] [[our|nuestros]] [[parks|parques]] [[clean.|limpios.]] [[Small|Las pequeñas]] [[actions|acciones]] [[can|pueden]] [[make|marcar]] [[a|una]] [[big|gran]] [[difference|diferencia]] [[when|cuando]] [[everyone|todos]] [[helps.|ayudan.]] [[Respecting|Respetar a]] [[others,|otros,]] [[even|incluso]] [[if|si]] [[they|]] [[are|son]] [[different|diferentes]] [[from|de]] [[us,|nosotros,]] [[is|es]] [[the|la]] [[key|clave]] [[to|para]] [[a|una]] [[peaceful|sociedad]] [[society.|pacífica.]]",
+      "text": "[[Being|Ser]] [[a|un]] [[good|buen]] [[citizen|ciudadano]] [[means|significa]] [[helping|ayudar a]] [[others|otros]] [[and|y]] [[following|seguir]] [[the|las]] [[rules.|reglas.]] [[In|En]] [[a|una]] [[community,|comunidad,]] [[people|la gente]] [[work|trabaja]] [[together|junta]] [[to|para]] [[make|hacer]] [[their|su]] [[neighborhood|vecindario]] [[better.|mejor.]] [[For|Por]] [[example,|ejemplo,]] [[some|algunas]] [[people|personas]] [[volunteer|hacen voluntariado]] [[at|en]] [[local|locales]] [[charities|caridades]] [[or|o]] [[help|ayudan a]] [[their|sus]] [[elderly|ancianos]] [[neighbors|vecinos]] [[with|con]] [[their|sus]] [[groceries.|compras.]] [[Following|Seguir las]] [[laws|leyes]] [[and|y]] [[rules|reglas]] [[is|es]] [[also|también]] [[important|importante]] [[for|para]] [[everyone's|la]] [[safety.|seguridad de todos.]] [[When|Cuando]] [[we|nosotros]] [[vote|votamos]] [[in|en]] [[elections,|elecciones,]] [[we|nosotros]] [[participate|participamos]] [[in|en]] [[our|nuestro]] [[government|gobierno]] [[and|y]] [[choose|elegimos a]] [[the|las]] [[people|personas]] [[who|que]] [[make|toman]] [[decisions|decisiones]] [[for|para]] [[our|nuestro]] [[country.|país.]] [[Protecting|Proteger]] [[the|el]] [[environment|medio ambiente]] [[is|es]] [[another|otra]] [[responsibility|responsabilidad]] [[of|de]] [[a|un]] [[good|buen]] [[citizen.|ciudadano.]] [[We|Nosotros]] [[can|podemos]] [[recycle,|reciclar,]] [[use|usar]] [[less|menos]] [[water,|agua,]] [[and|y]] [[keep|mantener]] [[our|nuestros]] [[parks|parques]] [[clean.|limpios.]] [[Small|Las pequeñas]] [[actions|acciones]] [[can|pueden]] [[make|marcar]] [[a|una]] [[big|gran]] [[difference|diferencia]] [[when|cuando]] [[everyone|todos]] [[helps.|ayudan.]] [[Respecting|Respetar a]] [[others,|otros,]] [[even|incluso]] [[if|si]] [[they|ellos]] [[are|son]] [[different|diferentes]] [[from|de]] [[us,|nosotros,]] [[is|es]] [[the|la]] [[key|clave]] [[to|para]] [[a|una]] [[peaceful|pacífica]] [[society.|sociedad.]]",
       "questions": [
         {
           "question": "[[What does being a good citizen mean?|¿Qué significa ser un buen ciudadano?]]",
@@ -1133,7 +1134,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "content": {
       "title": "Centros comunitarios",
       "instructions": "Lee sobre la importancia de los centros comunitarios.",
-      "text": "[[Community|Los centros]] [[centers|comunitarios]] [[are|son]] [[important|lugares]] [[places|importantes]] [[in|en]] [[many|muchos]] [[towns.|pueblos.]] [[They|Ellos]] [[provide|proporcionan]] [[a|un]] [[space|espacio]] [[where|donde]] [[people|la gente]] [[can|puede]] [[meet,|reunirse,]] [[learn|aprender]] [[new|nuevas]] [[skills,|habilidades]] [[and|y]] [[support|apoyarse]] [[each|]] [[other.|mutuamente.]] [[Many|Muchos]] [[community|centros]] [[centers|comunitarios]] [[offer|ofrecen]] [[free|clases]] [[classes,|gratuitas,]] [[such|como]] [[as|]] [[English|lecciones de]] [[lessons,|inglés,]] [[computer|informática]] [[skills,|o habilidades]] [[or|]] [[cooking.|de cocina.]] [[They|También]] [[also|]] [[organize|organizan]] [[activities|actividades]] [[for|para]] [[children|niños]] [[and|y]] [[teenagers|adolescentes]] [[after|después del]] [[school.|colegio.]] [[For|Para]] [[older|personas]] [[people,|mayores,]] [[the|el]] [[community|centro]] [[center|comunitario]] [[is|es]] [[a|un]] [[great|gran]] [[place|lugar]] [[to|para]] [[meet|conocer]] [[friends|amigos]] [[and|y]] [[avoid|evitar]] [[loneliness.|la soledad.]] [[Volunteers|Los voluntarios]] [[often|a menudo]] [[help|ayudan a]] [[run|dirigir]] [[these|estos]] [[centers|centros]] [[and|y]] [[organize|organizar]] [[events|eventos]] [[like|como]] [[local|festivales]] [[festivals|locales]] [[or|o]] [[markets.|mercados.]] [[Having|Tener]] [[a|un]] [[community|centro]] [[center|comunitario]] [[helps|ayuda a]] [[people|la gente]] [[feel|a sentirse]] [[connected|conectada]] [[to|con]] [[their|sus]] [[neighbors|vecinos]] [[and|y]] [[their|su]] [[town.|pueblo.]] [[It|Es]] [[is|]] [[a|un]] [[place|lugar]] [[where|donde]] [[everyone|todos]] [[is|son]] [[welcome,|bienvenidos,]] [[no|sin]] [[matter|importar]] [[their|su]] [[age|edad]] [[or|o]] [[background.|procedencia.]] [[Supporting|Apoyar]] [[our|nuestro]] [[local|centro]] [[community|comunitario]] [[center|local]] [[is|es]] [[a|una]] [[great|gran]] [[way|forma]] [[to|de]] [[strengthen|fortalecer]] [[our|nuestra]] [[society.|sociedad.]]",
+      "text": "[[Community|Los centros]] [[centers|comunitarios]] [[are|son]] [[important|lugares]] [[places|importantes]] [[in|en]] [[many|muchos]] [[towns.|pueblos.]] [[They|Ellos]] [[provide|proporcionan]] [[a|un]] [[space|espacio]] [[where|donde]] [[people|la gente]] [[can|puede]] [[meet,|reunirse,]] [[learn|aprender]] [[new|nuevas]] [[skills,|habilidades]] [[and|y]] [[support|apoyarse]] [[each|]] [[other.|mutuamente.]] [[Many|Muchos]] [[community|centros]] [[centers|comunitarios]] [[offer|ofrecen]] [[free|gratuitas]] [[classes,|clases,]] [[such|como]] [[as|]] [[English|inglés]] [[lessons,|lecciones,]] [[computer|informática]] [[skills,|habilidades]] [[or|o]] [[cooking.|de cocina.]] [[They|También]] [[also|]] [[organize|organizan]] [[activities|actividades]] [[for|para]] [[children|niños]] [[and|y]] [[teenagers|adolescentes]] [[after|después del]] [[school.|colegio.]] [[For|Para]] [[older|personas]] [[people,|mayores,]] [[the|el]] [[community|centro]] [[center|comunitario]] [[is|es]] [[a|un]] [[great|gran]] [[place|lugar]] [[to|para]] [[meet|conocer]] [[friends|amigos]] [[and|y]] [[avoid|evitar]] [[loneliness.|la soledad.]] [[Volunteers|Los voluntarios]] [[often|a menudo]] [[help|ayudan a]] [[run|dirigir]] [[these|estos]] [[centers|centros]] [[and|y]] [[organize|organizar]] [[events|eventos]] [[like|como]] [[local|locales]] [[festivals|festivales]] [[or|o]] [[markets.|mercados.]] [[Having|Tener]] [[a|un]] [[community|centro]] [[center|comunitario]] [[helps|ayuda a]] [[people|la gente]] [[feel|a sentirse]] [[connected|conectada]] [[to|con]] [[their|sus]] [[neighbors|vecinos]] [[and|y]] [[their|su]] [[town.|pueblo.]] [[It|Es]] [[is|]] [[a|un]] [[place|lugar]] [[where|donde]] [[everyone|todos]] [[is|son]] [[welcome,|bienvenidos,]] [[no|sin]] [[matter|importar]] [[their|su]] [[age|edad]] [[or|o]] [[background.|procedencia.]] [[Supporting|Apoyar]] [[our|nuestro]] [[local|local]] [[community|comunitario]] [[center|centro]] [[is|es]] [[a|una]] [[great|gran]] [[way|forma]] [[to|de]] [[strengthen|fortalecer]] [[our|nuestra]] [[society.|sociedad.]]",
       "questions": [
         {
           "question": "[[What can people do at a community center?|¿Qué puede hacer la gente en un centro comunitario?]]",
@@ -1162,7 +1163,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[We should|Deberíamos]] (_____) [[diversity.]]",
+          "question": "[[We should|Deberíamos]] (_____) [[diversity.|la diversidad.]]",
           "options": ["[[value|valorar]]", "[[valley|valle]]", "[[volume|volumen]]"],
           "correctAnswer": 0,
           "explanation": "'Value' puede ser el verbo valorar."
@@ -1184,7 +1185,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la frase.",
       "questions": [
         {
-          "question": "[[They are working for the|Están trabajando por el]] (_____) [[good.]]",
+          "question": "[[They are working for the|Están trabajando por el]] (_____) [[good.|bien.]]",
           "options": ["[[common|común]]", "[[coming|viniendo]]", "[[column|columna]]"],
           "correctAnswer": 0,
           "explanation": "'Common good' es el bien común."
@@ -1206,7 +1207,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[for everyone.]]",
+          "question": "(_____) [[for everyone.|para todos.]]",
           "options": ["[[Equality|Igualdad]]", "[[Quality|Calidad]]", "[[Quantity|Cantidad]]"],
           "correctAnswer": 0,
           "explanation": "'Equality' es igualdad."
@@ -1245,7 +1246,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Adjetivo + preposición.",
       "questions": [
         {
-          "question": "[[We are proud|Estamos orgullosos]] (_____) [[our town.]]",
+          "question": "[[We are proud|Estamos orgullosos]] (_____) [[our town.|nuestro pueblo.]]",
           "options": ["[[of|de]]", "[[at|en]]", "[[for|por]]"],
           "correctAnswer": 0,
           "explanation": "Se dice 'proud of'."
@@ -1267,7 +1268,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Presente continuo.",
       "questions": [
         {
-          "question": "[[The community|La comunidad]] (_____) [[growing fast.]]",
+          "question": "[[The community|La comunidad]] (_____) [[growing fast.|creciendo rápido.]]",
           "options": ["[[is|está]]", "[[are|están]]", "[[am|estoy]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'is' para la comunidad (singular)."
@@ -1289,7 +1290,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'How many'.",
       "questions": [
         {
-          "question": "(_____) [[laws do we have?]]",
+          "question": "(_____) [[laws do we have?|leyes tenemos?]]",
           "options": ["[[How many|Cuántas]]", "[[How much|Cuánto]]", "[[How long|Cuánto tiempo]]"],
           "correctAnswer": 0,
           "explanation": "'Laws' es contable."
@@ -1311,7 +1312,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Estructura 'It is... to...'.",
       "questions": [
         {
-          "question": "[[It is necessary|Es necesario]] (_____) [[the rules.]]",
+          "question": "[[It is necessary|Es necesario]] (_____) [[the rules.|las reglas.]]",
           "options": ["[[to follow|seguir]]", "[[following|siguiendo]]", "[[follow|seguir (forma base)]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'to' + infinitivo después de 'It is necessary'."

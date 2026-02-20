@@ -14,7 +14,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I use my|Uso mi]] (_____) [[every day.]]",
+          "question": "[[I use my|Uso mi]] (_____) [[every day.|todos los días.]]",
           "options": ["[[computer|ordenador/computadora]]", "[[calculator|calculadora]]", "[[camera|cámara]]"],
           "correctAnswer": 0,
           "explanation": "'Computer' es ordenador o computadora."
@@ -58,7 +58,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is on the desk.]]",
+          "question": "[[The|El]] (_____) [[is on the desk.|está en el escritorio.]]",
           "options": ["[[laptop|portátil]]", "[[label|etiqueta]]", "[[lamp|lámpara]]"],
           "correctAnswer": 0,
           "explanation": "'Laptop' es un ordenador portátil."
@@ -80,7 +80,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is very large.]]",
+          "question": "[[The|La]] (_____) [[is very large.|es muy grande.]]",
           "options": ["[[screen|pantalla]]", "[[screw|tornillo]]", "[[scene|escena]]"],
           "correctAnswer": 0,
           "explanation": "'Screen' es pantalla."
@@ -124,7 +124,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Move the|Mueve el]] (_____) [[to click.]]",
+          "question": "[[Move the|Mueve el]] (_____) [[to click.|para hacer clic.]]",
           "options": ["[[mouse|ratón]]", "[[mouth|boca]]", "[[month|mes]]"],
           "correctAnswer": 0,
           "explanation": "'Mouse' es ratón (de ordenador)."
@@ -146,7 +146,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is very slow today.]]",
+          "question": "[[The|El]] (_____) [[is very slow today.|está muy lento hoy.]]",
           "options": ["[[internet|internet]]", "[[interest|interés]]", "[[internal|interno]]"],
           "correctAnswer": 0,
           "explanation": "'Internet' es internet."
@@ -168,7 +168,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[This|Este]] (_____) [[is very useful.]]",
+          "question": "[[This|Este]] (_____) [[is very useful.|es muy útil.]]",
           "options": ["[[website|sitio web]]", "[[weather|tiempo]]", "[[welcome|bienvenido]]"],
           "correctAnswer": 0,
           "explanation": "'Website' es un sitio o página web."
@@ -234,7 +234,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[My|Mi]] (_____) [[is low.]]",
+          "question": "[[My|Mi]] (_____) [[is low.|está baja.]]",
           "options": ["[[battery|batería]]", "[[battle|batalla]]", "[[better|mejor]]"],
           "correctAnswer": 0,
           "explanation": "'Battery' es batería."
@@ -256,7 +256,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I need a|Necesito un]] (_____) [[for my phone.]]",
+          "question": "[[I need a|Necesito un]] (_____) [[for my phone.|para mi teléfono.]]",
           "options": ["[[charger|cargador]]", "[[change|cambio]]", "[[charge|carga]]"],
           "correctAnswer": 0,
           "explanation": "'Charger' es cargador."
@@ -278,7 +278,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Click the|Haz clic en el]] (_____) [[on the screen.]]",
+          "question": "[[Click the|Haz clic en el]] (_____) [[on the screen.|en la pantalla.]]",
           "options": ["[[button|botón]]", "[[bottom|fondo]]", "[[bottle|botella]]"],
           "correctAnswer": 0,
           "explanation": "'Button' es botón."
@@ -344,7 +344,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I am|Estoy]] (_____) [[a file.]]",
+          "question": "[[I am|Estoy]] (_____) [[a file.|un archivo.]]",
           "options": ["[[downloading|descargando]]", "[[doing|haciendo]]", "[[drawing|dibujando]]"],
           "correctAnswer": 0,
           "explanation": "'Downloading' es descargando."
@@ -388,7 +388,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I have an|Tengo una]] (_____) [[for that.]]",
+          "question": "[[I have an|Tengo una]] (_____) [[for that.|para eso.]]",
           "options": ["[[app|aplicación/app]]", "[[apple|manzana]]", "[[arm|brazo]]"],
           "correctAnswer": 0,
           "explanation": "'App' es la abreviatura de 'application'."
@@ -432,7 +432,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|Los]] (_____) [[are very loud.]]",
+          "question": "[[The|Los]] (_____) [[are very loud.|están muy fuertes.]]",
           "options": ["[[speakers|altavoces]]", "[[spoons|cucharas]]", "[[spaces|espacios]]"],
           "correctAnswer": 0,
           "explanation": "'Speakers' son altavoces."
@@ -456,7 +456,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Uso del infinitivo de propósito.",
       "questions": [
         {
-          "question": "[[I use my phone|Uso mi teléfono]] (_____) [[my messages.]]",
+          "question": "[[I use my phone|Uso mi teléfono]] (_____) [[my messages.|mis mensajes.]]",
           "options": ["[[to check|para comprobar]]", "[[checking|comprobando]]", "[[check|comprobar]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'to' + infinitivo para expresar el propósito de una acción."
@@ -478,7 +478,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Presente continuo.",
       "questions": [
         {
-          "question": "[[She|Ella]] (_____) [[an email right now.]]",
+          "question": "[[She|Ella]] (_____) [[an email right now.|un correo electrónico ahora mismo.]]",
           "options": ["[[is sending|está enviando]]", "[[sends|envía]]", "[[send|enviar]]"],
           "correctAnswer": 0,
           "explanation": "Para acciones que ocurren en el momento, usamos am/is/are + gerundio."
@@ -500,7 +500,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'can' para peticiones.",
       "questions": [
         {
-          "question": "(_____) [[you help me with the computer?]]",
+          "question": "(_____) [[you help me with the computer?|ayudarme con el ordenador?]]",
           "options": ["[[Can|Puedes]]", "[[Do|¿Haces?]]", "[[Are|¿Eres/Estás?]]"],
           "correctAnswer": 0,
           "explanation": "'Can' se usa para pedir ayuda o permiso de forma educada."
@@ -522,7 +522,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Negación en presente simple.",
       "questions": [
         {
-          "question": "[[My laptop|Mi portátil]] (_____) [[work.]]",
+          "question": "[[My laptop|Mi portátil]] (_____) [[work.|funciona.]]",
           "options": ["[[doesn't|no (auxiliar)]]", "[[don't|no]]", "[[no|no]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'doesn't' para la tercera persona del singular (it) en negaciones."
@@ -544,7 +544,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Uso del phrasal verb 'look for'.",
       "questions": [
         {
-          "question": "[[I am|Estoy]] (_____) [[for a new charger.]]",
+          "question": "[[I am|Estoy]] (_____) [[for a new charger.|un nuevo cargador.]]",
           "options": ["[[looking|mirando/buscando]]", "[[watching|viendo]]", "[[seeing|viendo]]"],
           "correctAnswer": 0,
           "explanation": "'Look for' significa buscar."
@@ -583,7 +583,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Pregunta en presente simple.",
       "questions": [
         {
-          "question": "(_____) [[you have a charger?]]",
+          "question": "(_____) [[you have a charger?|tienes un cargador?]]",
           "options": ["[[Do|¿Tienes? (auxiliar)]]", "[[Are|¿Estás?]]", "[[Does|¿Tiene?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Do' para preguntas con 'you'."
@@ -605,7 +605,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'need to'.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[to buy a new battery.]]",
+          "question": "[[I|Yo]] (_____) [[to buy a new battery.|que comprar una batería nueva.]]",
           "options": ["[[need|necesito]]", "[[must|debo]]", "[[should|debería]]"],
           "correctAnswer": 0,
           "explanation": "'Need to' expresa necesidad."
@@ -627,7 +627,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Imperativo.",
       "questions": [
         {
-          "question": "(_____) [[off your computer at night.]]",
+          "question": "(_____) [[off your computer at night.|tu ordenador por la noche.]]",
           "options": ["[[Turn|Apaga/Gira]]", "[[Tore|Roto]]", "[[Took|Tomó]]"],
           "correctAnswer": 0,
           "explanation": "'Turn off' es el phrasal verb para apagar."
@@ -666,7 +666,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Uso de la preposición 'to'.",
       "questions": [
         {
-          "question": "[[I am sending a photo|Estoy enviando una foto]] (_____) [[my friend.]]",
+          "question": "[[I am sending a photo|Estoy enviando una foto]] (_____) [[my friend.|mi amigo/a.]]",
           "options": ["[[to|a]]", "[[at|a]]", "[[for|para]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'to' para indicar el destinatario."
@@ -688,7 +688,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Pasado simple de 'buy'.",
       "questions": [
         {
-          "question": "[[I|Compré]] (_____) [[this phone last year.]]",
+          "question": "[[I|Yo]] (_____) [[this phone last year.|este teléfono el año pasado.]]",
           "options": ["[[bought|compré]]", "[[buy|comprar]]", "[[buying|comprando]]"],
           "correctAnswer": 0,
           "explanation": "'Bought' es el pasado irregular de 'buy'."
@@ -710,7 +710,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Pregunta en pasado simple.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] (_____) [[you buy that laptop?]]",
+          "question": "[[Where|Dónde]] (_____) [[you buy that laptop?|compraste ese portátil?]]",
           "options": ["[[did|compraste (auxiliar)]]", "[[do|compras]]", "[[does|compra]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'did' para preguntas en pasado simple."
@@ -732,7 +732,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Presente perfecto continuo (introducción básica).",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[been using this computer for three years.]]",
+          "question": "[[I|Yo]] (_____) [[been using this computer for three years.|he estado usando este ordenador durante tres años.]]",
           "options": ["[[have|he]]", "[[has|ha]]", "[[had|había]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'have' con 'I'."
@@ -754,7 +754,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Futuro con 'will'.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[call you on your phone later.]]",
+          "question": "[[I|Yo]] (_____) [[call you on your phone later.|te llamaré a tu teléfono más tarde.]]",
           "options": ["[[will|llamaré]]", "[[would|llamaría]]", "[[can|puedo llamar]]"],
           "correctAnswer": 0,
           "explanation": "'Will' se usa para promesas o decisiones espontáneas en el futuro."
@@ -776,7 +776,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Comparativo con adjetivo largo.",
       "questions": [
         {
-          "question": "[[This screen is|Esta pantalla es]] (_____) [[than that one.]]",
+          "question": "[[This screen is|Esta pantalla es]] (_____) [[than that one.|que esa.]]",
           "options": ["[[more expensive|más cara]]", "[[expensive|cara]]", "[[expensiver|más cara (incorrecto)]]"],
           "correctAnswer": 0,
           "explanation": "Para adjetivos largos, usamos 'more' antes del adjetivo."
@@ -798,7 +798,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Superlativo con adjetivo corto.",
       "questions": [
         {
-          "question": "[[My phone is the|Mi teléfono es el]] (_____) [[model.]]",
+          "question": "[[My phone is the|Mi teléfono es el]] (_____) [[model.|modelo.]]",
           "options": ["[[newest|más nuevo]]", "[[newer|más nuevo (comparativo)]]", "[[most new|más nuevo (incorrecto)]]"],
           "correctAnswer": 0,
           "explanation": "Para adjetivos cortos, añadimos '-est' para el superlativo."
@@ -820,7 +820,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Imperativo negativo.",
       "questions": [
         {
-          "question": "(_____) [[share your password with anyone.]]",
+          "question": "(_____) [[share your password with anyone.|compartas tu contraseña con nadie.]]",
           "options": ["[[Don't|No (auxiliar)]]", "[[No|No]]", "[[Not|No]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'Don't' para órdenes negativas."
@@ -859,7 +859,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Adjetivo + preposición.",
       "questions": [
         {
-          "question": "[[I am interested|Estoy interesado]] (_____) [[new technology.]]",
+          "question": "[[I am interested|Estoy interesado]] (_____) [[new technology.|en la nueva tecnología.]]",
           "options": ["[[in|en]]", "[[at|en]]", "[[on|en]]"],
           "correctAnswer": 0,
           "explanation": "Se dice 'interested in'."
@@ -883,7 +883,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[I need to|Necesito]] (_____) [[my battery.]]",
+          "question": "[[I need to|Necesito]] (_____) [[my battery.|mi batería.]]",
           "options": ["[[charge|cargar]]", "[[change|cambiar]]", "[[choose|elegir]]"],
           "correctAnswer": 0,
           "explanation": "'Charge' es cargar (energía)."
@@ -927,7 +927,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Click on the|Haz clic en el]] (_____) [[below.]]",
+          "question": "[[Click on the|Haz clic en el]] (_____) [[below.|abajo.]]",
           "options": ["[[link|enlace/link]]", "[[line|línea]]", "[[list|lista]]"],
           "correctAnswer": 0,
           "explanation": "'Link' es un enlace web."
@@ -949,7 +949,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[I am|Estoy]] (_____) [[my status.]]",
+          "question": "[[I am|Estoy]] (_____) [[my status.|mi estado.]]",
           "options": ["[[updating|actualizando]]", "[[uplifting|elevando]]", "[[upsetting|molestando]]"],
           "correctAnswer": 0,
           "explanation": "'Updating' es actualizando."
@@ -971,7 +971,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is very old.]]",
+          "question": "[[The|El]] (_____) [[is very old.|está muy viejo.]]",
           "options": ["[[software|software/programa]]", "[[softball|softbol]]", "[[sofa|sofá]]"],
           "correctAnswer": 0,
           "explanation": "'Software' se refiere a los programas de un ordenador."
@@ -993,7 +993,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "(_____) [[the changes before closing.]]",
+          "question": "(_____) [[the changes before closing.|los cambios antes de cerrar.]]",
           "options": ["[[Save|Guarda]]", "[[Sale|Rebaja]]", "[[Safe|Seguro]]"],
           "correctAnswer": 0,
           "explanation": "'Save' es guardar (en informática)."
@@ -1015,7 +1015,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|Los]] (_____) [[están muy importantes.]]",
+          "question": "[[The|Los]] (_____) [[are very important.|son muy importantes.]]",
           "options": ["[[data|datos]]", "[[date|fecha]]", "[[dark|oscuro]]"],
           "correctAnswer": 0,
           "explanation": "'Data' significa datos."
@@ -1059,7 +1059,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is out of paper.]]",
+          "question": "[[The|La]] (_____) [[is out of paper.|se ha quedado sin papel.]]",
           "options": ["[[printer|impresora]]", "[[private|privado]]", "[[price|precio]]"],
           "correctAnswer": 0,
           "explanation": "'Printer' es impresora."
@@ -1162,7 +1162,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[My|Mi]] (_____) [[is very light.]]",
+          "question": "[[My|Mi]] (_____) [[is very light.|es muy ligera.]]",
           "options": ["[[tablet|tablet/tableta]]", "[[table|mesa]]", "[[ticket|billete]]"],
           "correctAnswer": 0,
           "explanation": "'Tablet' es tableta."
@@ -1206,7 +1206,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The screen|La pantalla]] (_____) [[is high.]]",
+          "question": "[[The screen|La pantalla]] (_____) [[is high.|es alta.]]",
           "options": ["[[resolution|resolución]]", "[[revolution|revolución]]", "[[restitution|restitución]]"],
           "correctAnswer": 0,
           "explanation": "'Resolution' es resolución."
@@ -1245,7 +1245,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is too large to send.]]",
+          "question": "[[The|El]] (_____) [[is too large to send.|es demasiado grande para enviar.]]",
           "options": ["[[file|archivo]]", "[[film|película]]", "[[field|campo]]"],
           "correctAnswer": 0,
           "explanation": "'File' es archivo."
@@ -1289,7 +1289,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[I need to|Necesito]] (_____) [[my router.]]",
+          "question": "[[I need to|Necesito]] (_____) [[my router.|mi rúter.]]",
           "options": ["[[restart|reiniciar]]", "[[reserve|reservar]]", "[[resort|recurso]]"],
           "correctAnswer": 0,
           "explanation": "'Restart' es reiniciar."
@@ -1311,7 +1311,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Pregunta con 'want to'.",
       "questions": [
         {
-          "question": "[[Do you|¿Tú]] (_____) [[to play a game?]]",
+          "question": "[[Do you|¿Tú]] (_____) [[to play a game?|jugar a un juego?]]",
           "options": ["[[want|quieres]]", "[[went|fuiste]]", "[[work|trabajas]]"],
           "correctAnswer": 0,
           "explanation": "'Want' es el verbo querer."

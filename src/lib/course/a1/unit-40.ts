@@ -36,7 +36,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Repaso del clima.",
       "questions": [
         {
-          "question": "[[It is|Está]] (_____) [[and hot today.]]",
+          "question": "[[It is|Está]] (_____) [[and hot today|y caluroso hoy]].",
           "options": ["[[sunny|soleado]]", "[[rainy|lluvioso]]", "[[snowy|nevado]]"],
           "correctAnswer": 0,
           "explanation": "'Sunny' es soleado."
@@ -58,7 +58,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Repaso de partes del cuerpo.",
       "questions": [
         {
-          "question": "[[My|Mi]] (_____) [[hurts.]]",
+          "question": "[[My|Mi]] (_____) [[hurts|me duele]].",
           "options": ["[[stomach|estómago]]", "[[head|cabeza]]", "[[arm|brazo]]"],
           "correctAnswer": 0,
           "explanation": "'Stomach' es estómago."
@@ -80,7 +80,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Repaso de dispositivos.",
       "questions": [
         {
-          "question": "[[I use my|Uso mi]] (_____) [[to watch movies.]]",
+          "question": "[[I use my|Uso mi]] (_____) [[to watch movies|para ver películas]].",
           "options": ["[[tablet|tableta]]", "[[phone|teléfono]]", "[[laptop|portátil]]"],
           "correctAnswer": 0,
           "explanation": "'Tablet' es tableta."
@@ -102,7 +102,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Repaso de profesiones.",
       "questions": [
         {
-          "question": "[[He is a|Él es]] (_____) [[in a hospital.]]",
+          "question": "[[He is a|Él es]] (_____) [[in a hospital|en un hospital]].",
           "options": ["[[doctor|médico]]", "[[teacher|profesor]]", "[[nurse|enfermero]]"],
           "correctAnswer": 0,
           "explanation": "'Doctor' es médico."
@@ -146,7 +146,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Identifica la estación.",
       "questions": [
         {
-          "question": "[[In|En]] (_____) [[, it is cold and snowy.]]",
+          "question": "[[In|En]] (_____) [[, it is cold and snowy|, hace frío y nieva]].",
           "options": ["[[winter|invierno]]", "[[summer|verano]]", "[[spring|primavera]]"],
           "correctAnswer": 0,
           "explanation": "'Winter' es invierno."
@@ -190,7 +190,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Repaso de equipo de oficina/informática.",
       "questions": [
         {
-          "question": "[[My|Mi]] (_____) [[is broken.]]",
+          "question": "[[My|Mi]] (_____) [[is broken|está roto]].",
           "options": ["[[mouse|ratón]]", "[[keyboard|teclado]]", "[[screen|pantalla]]"],
           "correctAnswer": 0,
           "explanation": "'Mouse' es ratón."
@@ -212,7 +212,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Identifica la profesión.",
       "questions": [
         {
-          "question": "[[She is a|Ella es]] (_____) [[for a website.]]",
+          "question": "[[She is a|Ella es]] (_____) [[for a website|para un sitio web]].",
           "options": ["[[journalist|periodista]]", "[[actor|actor]]", "[[chef|cocinero]]"],
           "correctAnswer": 0,
           "explanation": "'Journalist' es periodista."
@@ -256,7 +256,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Identifica el clima.",
       "questions": [
         {
-          "question": "[[The weather is|El tiempo está]] (_____) [[today.]]",
+          "question": "[[The weather is|El tiempo está]] (_____) [[today|hoy]].",
           "options": ["[[cloudy|nublado]]", "[[sunny|soleado]]", "[[windy|ventoso]]"],
           "correctAnswer": 0,
           "explanation": "'Cloudy' es nublado."
@@ -278,7 +278,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Identifica la parte del cuerpo.",
       "questions": [
         {
-          "question": "[[He has a sore|Tiene la]] (_____) [[dolorida.]]",
+          "question": "[[He has a sore|Tiene la]] (_____) [[sore|dolorida]].",
           "options": ["[[back|espalda]]", "[[knee|rodilla]]", "[[neck|cuello]]"],
           "correctAnswer": 0,
           "explanation": "'Back' es espalda."
@@ -322,7 +322,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Identifica el concepto laboral.",
       "questions": [
         {
-          "question": "[[My|Mi]] (_____) [[is paid every month.]]",
+          "question": "[[My|Mi]] (_____) [[is paid every month|se paga cada mes]].",
           "options": ["[[salary|salario / sueldo]]", "[[job|trabajo]]", "[[work|trabajo]]"],
           "correctAnswer": 0,
           "explanation": "'Salary' es el dinero recibido por el trabajo."
@@ -344,7 +344,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[says 'Stop'.]]",
+          "question": "[[The|La]] (_____) [[says 'Stop'|dice 'Pare']].",
           "options": ["[[sign|señal]]", "[[book|libro]]", "[[note|nota]]"],
           "correctAnswer": 0,
           "explanation": "'Sign' es señal."
@@ -366,7 +366,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[He|Él]] (_____) [[a taxi.]]",
+          "question": "[[He|Él]] (_____) [[a taxi|un taxi]].",
           "options": ["[[drives|conduce]]", "[[flies|vuela]]", "[[rides|monta]]"],
           "correctAnswer": 0,
           "explanation": "'Drives' es el verbo para conducir vehículos de motor."
@@ -388,7 +388,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The weather|El]] (_____) [[del tiempo]] [[is good.]]",
+          "question": "[[The weather|El]] (_____) [[forecast|pronóstico]] [[is good|es bueno]].",
           "options": ["[[forecast|pronóstico]]", "[[force|fuerza]]", "[[fast|rápido]]"],
           "correctAnswer": 0,
           "explanation": "'Forecast' es pronóstico."
@@ -820,7 +820,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Pregunta de habilidad/favor.",
       "questions": [
         {
-          "question": "(_____) [[you help me?]]",
+          "question": "(_____) [[you help me?|puedes ayudarme?]]",
           "options": ["[[Can|¿Puedes?]]", "[[Do|¿Haces?]]", "[[Are|¿Eres?]]"],
           "correctAnswer": 0,
           "explanation": "'Can' para peticiones o habilidades."
@@ -859,7 +859,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Identifica la forma correcta.",
       "questions": [
         {
-          "question": "[[This is the|Este es el]] (_____) [[exercise.]]",
+          "question": "[[This is the|Este es el]] (_____) [[exercise|ejercicio]].",
           "options": ["[[easiest|más fácil]]", "[[easyest|incorrecto]]", "[[most easy|incorrecto]]"],
           "correctAnswer": 0,
           "explanation": "La 'y' cambia a 'i' y se añade 'est'."
@@ -883,7 +883,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Identifica el vehículo.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is arriving.]]",
+          "question": "[[The|La]] (_____) [[is arriving|está llegando]].",
           "options": ["[[ambulance|ambulancia]]", "[[bus|autobús]]", "[[taxi|taxi]]"],
           "correctAnswer": 0,
           "explanation": "'Ambulance' es ambulancia."
@@ -971,7 +971,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Identifica la preposición.",
       "questions": [
         {
-          "question": "[[We must arrive|Debemos llegar]] (_____) [[the meeting starts.]]",
+          "question": "[[We must arrive|Debemos llegar]] (_____) [[the meeting starts|la reunión comienza]].",
           "options": ["[[before|antes de que]]", "[[after|después de que]]", "[[during|durante]]"],
           "correctAnswer": 0,
           "explanation": "'Before' es antes de."
@@ -993,7 +993,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adverbio.",
       "questions": [
         {
-          "question": "[[It is raining|Está lloviendo]] (_____) [[now.]]",
+          "question": "[[It is raining|Está lloviendo]] (_____) [[now|ahora]].",
           "options": ["[[heavily|fuertemente / intensamente]]", "[[heavy|pesado]]", "[[hard|duro]]"],
           "correctAnswer": 0,
           "explanation": "'Heavily' se usa para lluvia intensa."
@@ -1015,7 +1015,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Identifica el comparativo.",
       "questions": [
         {
-          "question": "[[London is|Londres es]] (_____) [[than Oxford.]]",
+          "question": "[[London is|Londres es]] (_____) [[than Oxford|que Oxford]].",
           "options": ["[[bigger|más grande]]", "[[big|grande]]", "[[the biggest|la más grande]]"],
           "correctAnswer": 0,
           "explanation": "Doblamos la consonante y añadimos '-er'."
@@ -1037,7 +1037,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Identifica el superlativo.",
       "questions": [
         {
-          "question": "[[This is the|Este es el]] (_____) [[expensive car in the shop.]]",
+          "question": "[[This is the|Este es el]] (_____) [[expensive car in the shop|coche caro de la tienda]].",
           "options": ["[[most|más]]", "[[more|más (comparativo)]]", "[[er|incorrecto]]"],
           "correctAnswer": 0,
           "explanation": "'Most' para superlativo de adjetivos largos."
@@ -1059,7 +1059,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Identifica el consejo.",
       "questions": [
         {
-          "question": "[[You|Tú]] (_____) [[rest if you are tired.]]",
+          "question": "[[You|Tú]] (_____) [[rest if you are tired|descansar si estás cansado]].",
           "options": ["[[should|deberías]]", "[[mustn't|no debes]]", "[[can|puedes]]"],
           "correctAnswer": 0,
           "explanation": "'Should' es lo más natural para un consejo amable."
@@ -1081,7 +1081,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adverbio.",
       "questions": [
         {
-          "question": "[[She paints pictures|Pinta cuadros]] (_____) .",
+          "question": "[[She paints pictures|Pinta cuadros]] (_____) [[beautifully|hermosamente]].",
           "options": ["[[beautifully|hermosamente]]", "[[beautiful|hermoso]]", "[[beauty|belleza]]"],
           "correctAnswer": 0,
           "explanation": "El adverbio describe el modo de pintar."

@@ -36,7 +36,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[It is a very old|Es una]] (_____) [[muy antigua.]]",
+          "question": "[[It is a very old|Es una]] (_____) [[tradition.|tradición muy antigua.]]",
           "options": ["[[tradition|tradición]]", "[[direction|dirección]]", "[[condition|condición]]"],
           "correctAnswer": 0,
           "explanation": "'Tradition' es tradición."
@@ -58,7 +58,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[This is a local|Esta es una]] (_____) [[local.]]",
+          "question": "[[This is a local|Esta es una]] (_____) [[local custom.|costumbre local.]]",
           "options": ["[[custom|costumbre]]", "[[customer|cliente]]", "[[costume|disfraz]]"],
           "correctAnswer": 0,
           "explanation": "'Custom' es costumbre."
@@ -80,7 +80,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We are going to a music|Vamos a un]] (_____) [[de música.]]",
+          "question": "[[We are going to a music|Vamos a un]] (_____) [[music festival.|festival de música.]]",
           "options": ["[[festival|festival]]", "[[factory|fábrica]]", "[[facility|instalación]]"],
           "correctAnswer": 0,
           "explanation": "'Festival' es festival."
@@ -102,7 +102,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[was very colorful.]]",
+          "question": "[[The|La]] (_____) [[celebration was very colorful.|celebración fue muy colorida.]]",
           "options": ["[[celebration|celebración]]", "[[collection|colección]]", "[[connection|conexión]]"],
           "correctAnswer": 0,
           "explanation": "'Celebration' es celebración."
@@ -146,7 +146,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[There are many|Hay muchas]] (_____) [[in the world.]]",
+          "question": "[[There are many|Hay muchas]] (_____) [[religions in the world.|religiones en el mundo.]]",
           "options": ["[[religions|religiones]]", "[[regions|regiones]]", "[[reasons|razones]]"],
           "correctAnswer": 0,
           "explanation": "'Religion' es religión."
@@ -168,7 +168,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We respect everyone's|Respetamos las]] (_____) [[de todos.]]",
+          "question": "[[We respect everyone's|Respetamos las]] (_____) [[beliefs.|creencias de todos.]]",
           "options": ["[[beliefs|creencias]]", "[[briefs|resúmenes]]", "[[blocks|bloques]]"],
           "correctAnswer": 0,
           "explanation": "'Beliefs' son las creencias (plural de belief)."
@@ -190,7 +190,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We live in a friendly|Vivimos en una]] (_____) [[amigable.]]",
+          "question": "[[We live in a friendly|Vivimos en una]] (_____) [[friendly community.|comunidad amigable.]]",
           "options": ["[[community|comunidad]]", "[[commodity|mercancía]]", "[[committee|comité]]"],
           "correctAnswer": 0,
           "explanation": "'Community' es comunidad."
@@ -212,7 +212,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[makes us stronger.]]",
+          "question": "(_____) [[makes us stronger.|nos hace más fuertes.]]",
           "options": ["[[Diversity|Diversidad]]", "[[Difficulty|Dificultad]]", "[[Direction|Dirección]]"],
           "correctAnswer": 0,
           "explanation": "'Diversity' es diversidad."
@@ -234,7 +234,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[is part of our identity.]]",
+          "question": "(_____) [[is part of our identity.|es parte de nuestra identidad.]]",
           "options": ["[[Language|Idioma/Lengua]]", "[[Luggage|Equipaje]]", "[[Land|Tierra]]"],
           "correctAnswer": 0,
           "explanation": "'Language' es idioma."
@@ -278,7 +278,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I love listening to traditional|Me encanta escuchar]] (_____) [[tradicional.]]",
+          "question": "[[I love listening to traditional|Me encanta escuchar]] (_____) [[traditional music.|música tradicional.]]",
           "options": ["[[music|música]]", "[[magic|magia]]", "[[movie|película]]"],
           "correctAnswer": 0,
           "explanation": "'Music' es música."
@@ -300,7 +300,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[They are performing a traditional|Están realizando una]] (_____) [[tradicional.]]",
+          "question": "[[They are performing a traditional|Están realizando una]] (_____) [[traditional dance.|danza tradicional.]]",
           "options": ["[[dance|danza/baile]]", "[[dinner|cena]]", "[[dinner|cena]]"],
           "correctAnswer": 0,
           "explanation": "'Dance' es danza o baile."
@@ -322,7 +322,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I like trying traditional|Me gusta probar la]] (_____) [[tradicional.]]",
+          "question": "[[I like trying traditional|Me gusta probar la]] (_____) [[traditional food.|comida tradicional.]]",
           "options": ["[[food|comida]]", "[[foot|pie]]", "[[floor|suelo]]"],
           "correctAnswer": 0,
           "explanation": "'Food' es comida."
@@ -366,7 +366,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[They wear traditional|Llevan]] (_____) [[tradicionales.]]",
+          "question": "[[They wear traditional|Llevan]] (_____) [[traditional costumes.|trajes tradicionales.]]",
           "options": ["[[costumes|disfraces/trajes]]", "[[customs|costumbres]]", "[[customers|clientes]]"],
           "correctAnswer": 0,
           "explanation": "'Costumes' son disfraces o trajes típicos."
@@ -388,7 +388,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is performed at sunset.]]",
+          "question": "[[The|El]] (_____) [[ritual is performed at sunset.|ritual se realiza al atardecer.]]",
           "options": ["[[ritual|ritual]]", "[[rhythm|ritmo]]", "[[river|río]]"],
           "correctAnswer": 0,
           "explanation": "'Ritual' es ritual."
@@ -798,7 +798,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Negación en presente simple.",
       "questions": [
         {
-          "question": "[[They|Ellos]] (_____) [[eat meat during this festival.]]",
+          "question": "[[They|Ellos]] (_____) [[eat meat during this festival.|comen carne durante este festival.]]",
           "options": ["[[don't|no (auxiliar)]]", "[[doesn't|no]]", "[[no|no]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'don't' para 'they'."
@@ -820,7 +820,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Verbo 'want' + infinitivo.",
       "questions": [
         {
-          "question": "[[I want|Quiero]] (_____) [[a different country.]]",
+          "question": "[[I want|Quiero]] (_____) [[a different country.|un país diferente.]]",
           "options": ["[[to visit|visitar]]", "[[visiting|visitando]]", "[[visit|visitar (forma base)]]"],
           "correctAnswer": 0,
           "explanation": "'Want' requiere 'to' antes del siguiente verbo."
@@ -859,7 +859,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'too'.",
       "questions": [
         {
-          "question": "[[The music was|La música estaba]] (_____) [[loud.]]",
+          "question": "[[The music was|La música estaba]] (_____) [[loud.|fuerte.]]",
           "options": ["[[too|demasiado]]", "[[to|a]]", "[[two|dos]]"],
           "correctAnswer": 0,
           "explanation": "'Too' seguido de un adjetivo significa demasiado."
@@ -883,7 +883,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[They are wearing|Llevan puestas]] (_____) [[for the parade.]]",
+          "question": "[[They are wearing|Llevan puestas]] (_____) [[for the parade.|para el desfile.]]",
           "options": ["[[masks|máscaras]]", "[[marks|marcas]]", "[[tasks|tareas]]"],
           "correctAnswer": 0,
           "explanation": "'Masks' son máscaras."
@@ -905,7 +905,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is starting now.]]",
+          "question": "[[The|El]] (_____) [[is starting now.|está empezando ahora.]]",
           "options": ["[[parade|desfile/pasacalles]]", "[[paradise|paraíso]]", "[[partner|compañero]]"],
           "correctAnswer": 0,
           "explanation": "'Parade' es un desfile."
@@ -927,7 +927,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I like the|Me gusta el]] (_____) [[of the music.]]",
+          "question": "[[I like the|Me gusta el]] (_____) [[of the music.|de la música.]]",
           "options": ["[[rhythm|ritmo]]", "[[rhyme|rima]]", "[[river|río]]"],
           "correctAnswer": 0,
           "explanation": "'Rhythm' es ritmo."
@@ -949,7 +949,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is very famous.]]",
+          "question": "[[The|La]] (_____) [[is very famous.|es muy famosa.]]",
           "options": ["[[legend|leyenda]]", "[[lesson|lección]]", "[[level|nivel]]"],
           "correctAnswer": 0,
           "explanation": "'Legend' es leyenda."
@@ -971,7 +971,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We went to the|Fuimos al]] (_____) [[to see a play.]]",
+          "question": "[[We went to the|Fuimos al]] (_____) [[to see a play.|para ver una obra.]]",
           "options": ["[[theater|teatro]]", "[[theory|teoría]]", "[[theme|tema]]"],
           "correctAnswer": 0,
           "explanation": "'Theater' es teatro."
@@ -993,7 +993,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is made of stone.]]",
+          "question": "[[The|La]] (_____) [[is made of stone.|está hecha de piedra.]]",
           "options": ["[[sculpture|escultura]]", "[[structure|estructura]]", "[[signature|firma]]"],
           "correctAnswer": 0,
           "explanation": "'Sculpture' es escultura."
@@ -1037,7 +1037,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is stunning.]]",
+          "question": "[[The|La]] (_____) [[is stunning.|es impresionante.]]",
           "options": ["[[architecture|arquitectura]]", "[[agriculture|agricultura]]", "[[adventure|aventura]]"],
           "correctAnswer": 0,
           "explanation": "'Architecture' es arquitectura."
@@ -1081,7 +1081,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[was magical.]]",
+          "question": "[[The|La]] (_____) [[was magical.|era mágica.]]",
           "options": ["[[atmosphere|atmósfera/ambiente]]", "[[attachment|archivo adjunto]]", "[[attraction|atracción]]"],
           "correctAnswer": 0,
           "explanation": "'Atmosphere' puede referirse al ambiente de un lugar."
@@ -1162,7 +1162,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[This is a|Este es un lugar]] (_____) [[place.]]",
+          "question": "[[This is a|Este es un lugar]] (_____) [[place.|sagrado.]]",
           "options": ["[[sacred|sagrado]]", "[[scared|asustado]]", "[[secret|secreto]]"],
           "correctAnswer": 0,
           "explanation": "'Sacred' significa sagrado."
@@ -1206,7 +1206,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "(_____) [[tells the stories of the people.]]",
+          "question": "(_____) [[tells the stories of the people.|cuenta las historias de la gente.]]",
           "options": ["[[Folklore|Folclore]]", "[[Followers|Seguidores]]", "[[Folders|Carpetas]]"],
           "correctAnswer": 0,
           "explanation": "'Folklore' es el folclore."
@@ -1245,7 +1245,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Adjetivo + preposición.",
       "questions": [
         {
-          "question": "[[We are proud|Estamos orgullosos]] (_____) [[our heritage.]]",
+          "question": "[[We are proud|Estamos orgullosos]] (_____) [[our heritage.|de nuestra herencia.]]",
           "options": ["[[of|de]]", "[[at|en]]", "[[for|por]]"],
           "correctAnswer": 0,
           "explanation": "Se dice 'proud of'."
@@ -1267,7 +1267,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'still'.",
       "questions": [
         {
-          "question": "[[The tradition is|La tradición]] (_____) [[alive today.]]",
+          "question": "[[The tradition is|La tradición]] (_____) [[alive today.|todavía está viva hoy.]]",
           "options": ["[[still|todavía]]", "[[steal|robar]]", "[[steel|acero]]"],
           "correctAnswer": 0,
           "explanation": "'Still' indica que una situación continúa."
@@ -1289,7 +1289,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'How many'.",
       "questions": [
         {
-          "question": "(_____) [[customs do you know?]]",
+          "question": "(_____) [[customs do you know?|costumbres conoces?]]",
           "options": ["[[How many|Cuántas]]", "[[How much|Cuánto]]", "[[How long|Cuánto tiempo]]"],
           "correctAnswer": 0,
           "explanation": "'Customs' es contable."
@@ -1311,7 +1311,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Adjetivo + preposición.",
       "questions": [
         {
-          "question": "[[Culture is essential|La cultura es esencial]] (_____) [[society.]]",
+          "question": "[[Culture is essential|La cultura es esencial]] (_____) [[society.|para la sociedad.]]",
           "options": ["[[for|para]]", "[[to|a]]", "[[at|en]]"],
           "correctAnswer": 0,
           "explanation": "Se dice 'essential for'."

@@ -14,7 +14,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I am on|Estoy de]] (_____) .",
+          "question": "[[I am on|Estoy de]] (_____) [[holiday|vacaciones]].",
           "options": ["[[holiday|vacaciones (UK)]]", "[[work|trabajo]]", "[[school|escuela]]"],
           "correctAnswer": 0,
           "explanation": "'Holiday' es vacaciones (UK)."
@@ -36,7 +36,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[I need a tourist|Necesito una]] (_____) [[turística.]]",
+          "question": "[[I need a tourist|Necesito una]] (_____) [[guide|guía turística]].",
           "options": ["[[guide|guía]]", "[[map|mapa]]", "[[bag|bolsa]]"],
           "correctAnswer": 0,
           "explanation": "'Tourist guide' es una guía turística (libro o persona)."
@@ -58,7 +58,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[Let's visit the|Visitemos el]] (_____) .",
+          "question": "[[Let's visit the|Visitemos el]] (_____) [[museum|museo]].",
           "options": ["[[museum|museo]]", "[[market|mercado]]", "[[mall|centro comercial]]"],
           "correctAnswer": 0,
           "explanation": "'Museum' es museo."
@@ -80,7 +80,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I want to buy a|Quiero comprar un]] (_____) .",
+          "question": "[[I want to buy a|Quiero comprar un]] (_____) [[souvenir|recuerdo]].",
           "options": ["[[souvenir|recuerdo/souvenir]]", "[[bread|pan]]", "[[car|coche]]"],
           "correctAnswer": 0,
           "explanation": "'Souvenir' es un objeto de recuerdo."
@@ -102,7 +102,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[Take a photo of the|Haz una foto del]] (_____) .",
+          "question": "[[Take a photo of the|Haz una foto del]] (_____) [[castle|castillo]].",
           "options": ["[[castle|castillo]]", "[[beach|playa]]", "[[park|parque]]"],
           "correctAnswer": 0,
           "explanation": "'Castle' es castillo."
@@ -124,7 +124,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[We are going to the|Vamos a la]] (_____) .",
+          "question": "[[We are going to the|Vamos a la]] (_____) [[beach|playa]].",
           "options": ["[[beach|playa]]", "[[mountain|montaña]]", "[[forest|bosque]]"],
           "correctAnswer": 0,
           "explanation": "'Beach' es playa."
@@ -146,7 +146,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[I have a|Tengo una]] (_____) .",
+          "question": "[[I have a|Tengo una]] (_____) [[camera|cámara]].",
           "options": ["[[camera|cámara]]", "[[phone|móvil]]", "[[laptop|portátil]]"],
           "correctAnswer": 0,
           "explanation": "'Camera' es cámara fotográfica."
@@ -168,7 +168,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[Where is the tourist|¿Dónde está la]] (_____) [[office?]]",
+          "question": "[[Where is the tourist|¿Dónde está la]] (_____) [[information office?|oficina de información turística?]]",
           "options": ["[[information|información]]", "[[police|policía]]", "[[post|correos]]"],
           "correctAnswer": 0,
           "explanation": "'Information office' es la oficina de información turística."
@@ -190,7 +190,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Let's take a city|Hagamos un]] (_____) [[por la ciudad.]]",
+          "question": "[[Let's take a city|Hagamos un]] (_____) [[tour of the city|recorrido por la ciudad]].",
           "options": ["[[tour|recorrido/tour]]", "[[rest|descanso]]", "[[nap|siesta]]"],
           "correctAnswer": 0,
           "explanation": "'Tour' es un recorrido turístico."
@@ -212,7 +212,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[I am sending a|Estoy enviando una]] (_____) .",
+          "question": "[[I am sending a|Estoy enviando una]] (_____) [[postcard|postal]].",
           "options": ["[[postcard|postal]]", "[[letter|carta]]", "[[email|correo electrónico]]"],
           "correctAnswer": 0,
           "explanation": "'Postcard' es una postal turística."
@@ -234,7 +234,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is beautiful.]]",
+          "question": "[[The|El]] (_____) [[weather is beautiful|tiempo es hermoso]].",
           "options": ["[[weather|tiempo]]", "[[time|hora]]", "[[day|día]]"],
           "correctAnswer": 0,
           "explanation": "'Weather' se refiere al clima/tiempo atmosférico."
@@ -256,7 +256,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[Do you have a|¿Tienes un]] (_____) ?",
+          "question": "[[Do you have a|¿Tienes un]] (_____) [[brochure|folleto]]?",
           "options": ["[[brochure|folleto]]", "[[book|libro]]", "[[ticket|billete]]"],
           "correctAnswer": 0,
           "explanation": "'Brochure' es un folleto informativo."
@@ -278,7 +278,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[I love the|Me encantan las]] (_____) .",
+          "question": "[[I love the|Me encantan las]] (_____) [[mountains|montañas]].",
           "options": ["[[mountains|montañas]]", "[[valleys|valles]]", "[[lakes|lagos]]"],
           "correctAnswer": 0,
           "explanation": "'Mountains' es montañas."
@@ -300,7 +300,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica la actividad.",
       "questions": [
         {
-          "question": "[[Let's go|Vayamos a hacer]] (_____) .",
+          "question": "[[Let's go|Vayamos a hacer]] (_____) [[hiking|senderismo]].",
           "options": ["[[hiking|senderismo]]", "[[swimming|natación]]", "[[dancing|baile]]"],
           "correctAnswer": 0,
           "explanation": "'Hiking' es senderismo o caminata por la montaña."
@@ -322,7 +322,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[Is the|¿Está el]] (_____) [[open today?]]",
+          "question": "[[Is the|¿Está el]] (_____) [[monument open today?|monumento abierto hoy?]]",
           "options": ["[[monument|monumento]]", "[[mountain|montaña]]", "[[morning|mañana]]"],
           "correctAnswer": 0,
           "explanation": "'Monument' es monumento."
@@ -344,7 +344,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[I need|Necesito]] (_____) .",
+          "question": "[[I need|Necesito]] (_____) [[sunscreen|protector solar]].",
           "options": ["[[sunscreen|protector solar]]", "[[sunglasses|gafas de sol]]", "[[sunlight|luz solar]]"],
           "correctAnswer": 0,
           "explanation": "'Sunscreen' es crema protectora solar."
@@ -366,7 +366,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[I am wearing|Llevo puestas]] (_____) .",
+          "question": "[[I am wearing|Llevo puestas]] (_____) [[sunglasses|gafas de sol]].",
           "options": ["[[sunglasses|gafas de sol]]", "[[sunscreen|protector solar]]", "[[sunhat|sombrero]]"],
           "correctAnswer": 0,
           "explanation": "'Sunglasses' son gafas de sol."
@@ -388,7 +388,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The|Las]] (_____) [[are amazing.]]",
+          "question": "[[The|Las]] (_____) [[views are amazing|vistas son increíbles]].",
           "options": ["[[views|vistas]]", "[[visits|visitas]]", "[[voices|voces]]"],
           "correctAnswer": 0,
           "explanation": "'Views' son las vistas o paisajes."
@@ -410,10 +410,10 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica la actividad.",
       "questions": [
         {
-          "question": "[[I love|Me encanta]] (_____) .",
+          "question": "[[I love|Me encanta]] (_____) [[sightseeing|hacer turismo]].",
           "options": ["[[sightseeing|hacer turismo/ver monumentos]]", "[[working|trabajar]]", "[[sleeping|dormir]]"],
           "correctAnswer": 0,
-          "explanation": "'Sightseeing' es la actividad de visitar lugares famosos de una ciudad."
+          "explanation": "'Sightseeing' es la activity de visitar lugares famosos de una ciudad."
         }
       ]
     },
@@ -432,7 +432,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[Where can I|¿Dónde puedo]] (_____) [[money?]]",
+          "question": "[[Where can I|¿Dónde puedo]] (_____) [[exchange money|cambiar dinero]]?",
           "options": ["[[exchange|cambiar]]", "[[spend|gastar]]", "[[find|encontrar]]"],
           "correctAnswer": 0,
           "explanation": "'Exchange money' es cambiar moneda."
@@ -456,7 +456,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'going to' para planes.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[to visit Paris next week.]]",
+          "question": "[[I|Yo]] (_____) [[am going to visit Paris next week|voy a visitar París la próxima semana]].",
           "options": ["[[am going|voy]]", "[[go|voy]]", "[[will go|iré]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'be going to' para planes futuros próximos."
@@ -478,7 +478,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Presente perfecto (experiencia).",
       "questions": [
         {
-          "question": "(_____) [[you seen the Eiffel Tower?]]",
+          "question": "[[Have|¿Has]] (_____) [[you seen the Eiffel Tower?|visto la Torre Eiffel?]]",
           "options": ["[[Have|¿Has?]]", "[[Do|¿Haces?]]", "[[Are|¿Eres?]]"],
           "correctAnswer": 0,
           "explanation": "'Have you seen' se usa para preguntar sobre experiencias pasadas."
@@ -500,7 +500,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Presente continuo para estancia actual.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[in a nice hotel.]]",
+          "question": "[[We|Nosotros]] (_____) [[are staying in a nice hotel|nos estamos quedando en un hotel agradable]].",
           "options": ["[[are staying|nos estamos quedando]]", "[[stay|quedamos]]", "[[staying|quedando]]"],
           "correctAnswer": 0,
           "explanation": "Acción continua que ocurre durante el viaje."
@@ -522,7 +522,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Verbo + infinitivo.",
       "questions": [
         {
-          "question": "[[I want|Quiero]] (_____) [[some photos.]]",
+          "question": "[[I want|Quiero]] (_____) [[to take some photos|tomar algunas fotos]].",
           "options": ["[[to take|hacer/tomar]]", "[[taking|haciendo]]", "[[take|hacer]]"],
           "correctAnswer": 0,
           "explanation": "Usamos el infinitivo con 'to' después del verbo 'want'."
@@ -544,7 +544,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'can' para posibilidad.",
       "questions": [
         {
-          "question": "[[Where|Dónde]] (_____) [[I buy tickets?]]",
+          "question": "[[Where|Dónde]] (_____) [[can I buy tickets?|puedo comprar entradas?]]",
           "options": ["[[can|puedo]]", "[[do|hago]]", "[[am|soy]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'can' para preguntar por posibilidades."
@@ -583,7 +583,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Pregunta por duración.",
       "questions": [
         {
-          "question": "(_____) [[are you staying?]]",
+          "question": "[[How long|Cuánto tiempo]] (_____) [[are you staying?|te quedas?]]",
           "options": ["[[How long|Cuánto tiempo]]", "[[How much|Cuánto (dinero)]]", "[[How many|Cuántos]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'How long' para preguntar por periodos de tiempo."
@@ -605,7 +605,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'would like'.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[like to see the old town.]]",
+          "question": "[[I|Yo]] (_____) [[would like to see the old town|me gustaría ver el casco antiguo]].",
           "options": ["[[would|gustaría (auxiliar)]]", "[[am|soy]]", "[[do|hago]]"],
           "correctAnswer": 0,
           "explanation": "'I would like to' para expresar deseos educadamente."
@@ -627,7 +627,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Pregunta con 'far from'.",
       "questions": [
         {
-          "question": "[[Is it|¿Está]] (_____) [[from the center?]]",
+          "question": "[[Is it|¿Está]] (_____) [[far from the center?|lejos del centro?]]",
           "options": ["[[far|lejos]]", "[[near|cerca]]", "[[next|al lado]]"],
           "correctAnswer": 0,
           "explanation": "'Far from' es lejos de."
@@ -666,7 +666,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Negación en presente continuo.",
       "questions": [
         {
-          "question": "[[I am|Yo no]] (_____) [[taking the bus.]]",
+          "question": "[[I am|Yo no]] (_____) [[taking the bus|voy a coger el autobús]].",
           "options": ["[[not|negativo]]", "[[no|no]]", "[[don't|no]]"],
           "correctAnswer": 0,
           "explanation": "En el presente continuo usamos 'not' después de 'be'."
@@ -688,7 +688,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el superlativo.",
       "questions": [
         {
-          "question": "[[This is the|Estas son las]] (_____) [[holiday ever.]]",
+          "question": "[[This is the|Estas son las]] (_____) [[best holiday ever|mejores vacaciones de mi vida]].",
           "options": ["[[best|mejores]]", "[[good|buenas]]", "[[better|mejores (comparativo)]]"],
           "correctAnswer": 0,
           "explanation": "'Best' es el superlativo de 'good'."
@@ -710,7 +710,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'every' para hábitos.",
       "questions": [
         {
-          "question": "[[We visit a new city|Visitamos una ciudad nueva]] (_____) [[year.]]",
+          "question": "[[We visit a new city|Visitamos una ciudad nueva]] (_____) [[every year|cada año]].",
           "options": ["[[every|cada]]", "[[all|todo]]", "[[some|algunos]]"],
           "correctAnswer": 0,
           "explanation": "'Every year' indica una rutina anual."
@@ -732,7 +732,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Uso de infinitivo.",
       "questions": [
         {
-          "question": "[[I need|Necesito]] (_____) [[my passport.]]",
+          "question": "[[I need|Necesito]] (_____) [[to check my passport|comprobar mi pasaporte]].",
           "options": ["[[to check|comprobar]]", "[[checking|comprobando]]", "[[check|comprobar]]"],
           "correctAnswer": 0,
           "explanation": "Después de 'need' usamos infinitivo con 'to'."
@@ -754,7 +754,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'by' para medios de transporte.",
       "questions": [
         {
-          "question": "[[Are you going|¿Vas a ir]] (_____) [[car or by train?]]",
+          "question": "[[Are you going|¿Vas a ir]] (_____) [[by car or by train?|en coche o en tren?]]",
           "options": ["[[by|en (medio de transporte)]]", "[[in|en]]", "[[on|en]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'by' para indicar el medio de transporte."
@@ -776,7 +776,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Preposición de tiempo con días.",
       "questions": [
         {
-          "question": "[[The museum is closed|El museo está cerrado]] (_____) [[Mondays.]]",
+          "question": "[[The museum is closed|El museo está cerrado]] (_____) [[on Mondays|los lunes]].",
           "options": ["[[on|en/los]]", "[[at|en]]", "[[in|en]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'on' con los días de la semana."
@@ -798,7 +798,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica la expresión.",
       "questions": [
         {
-          "question": "[[We are having a|Lo estamos pasando]] (_____) [[time.]]",
+          "question": "[[We are having a|Lo estamos pasando]] (_____) [[great time|genial]].",
           "options": ["[[great|genial]]", "[[bad|mal]]", "[[slow|lento]]"],
           "correctAnswer": 0,
           "explanation": "'Have a great time' significa pasarlo muy bien."
@@ -820,7 +820,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'a lot of'.",
       "questions": [
         {
-          "question": "[[Is there|¿Hay]] (_____) [[traffic?]]",
+          "question": "[[Is there|¿Hay]] (_____) [[a lot of traffic?|mucho tráfico?]]",
           "options": ["[[a lot of|mucho]]", "[[many|muchos]]", "[[any|algo de]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'a lot of' con sustantivos incontables como 'traffic'."
@@ -859,7 +859,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[I need to|Necesito]] (_____) [[a pharmacy.]]",
+          "question": "[[I need to|Necesito]] (_____) [[find a pharmacy|encontrar una farmacia]].",
           "options": ["[[find|encontrar]]", "[[look|mirar]]", "[[walk|caminar]]"],
           "correctAnswer": 0,
           "explanation": "'Find' es encontrar."
@@ -883,7 +883,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The city is very|La ciudad es muy]] (_____) .",
+          "question": "[[The city is very|La ciudad es muy]] (_____) [[noisy|ruidosa]].",
           "options": ["[[noisy|ruidosa]]", "[[quiet|tranquila]]", "[[small|pequeña]]"],
           "correctAnswer": 0,
           "explanation": "'Noisy' es ruidoso."
@@ -905,7 +905,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[I love the|Me encanta la comida]] (_____) [[food.]]",
+          "question": "[[I love the|Me encanta la comida]] (_____) [[local food|local]].",
           "options": ["[[local|local]]", "[[fast|rápida]]", "[[old|vieja]]"],
           "correctAnswer": 0,
           "explanation": "'Local food' es la comida típica del lugar."
@@ -927,7 +927,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[We are walking in the|Estamos caminando por el]] (_____) .",
+          "question": "[[We are walking in the|Estamos caminando por el]] (_____) [[old town|casco antiguo]].",
           "options": ["[[old town|casco antiguo]]", "[[new city|ciudad nueva]]", "[[big park|gran parque]]"],
           "correctAnswer": 0,
           "explanation": "'Old town' es el centro histórico o casco antiguo."
@@ -949,7 +949,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I am having|Me estoy]] (_____) .",
+          "question": "[[I am having|Me estoy]] (_____) [[fun|divirtiendo]].",
           "options": ["[[fun|divirtiendo]]", "[[sad|poniendo triste]]", "[[angry|enfadando]]"],
           "correctAnswer": 0,
           "explanation": "'Have fun' es divertirse."
@@ -971,7 +971,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[Let's|Vamos a]] (_____) [[a car.]]",
+          "question": "[[Let's|Vamos a]] (_____) [[rent a car|alquilar un coche]].",
           "options": ["[[rent|alquilar]]", "[[buy|comprar]]", "[[sell|vender]]"],
           "correctAnswer": 0,
           "explanation": "'Rent' es alquilar."
@@ -993,7 +993,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[It is a|Es un día]] (_____) [[day.]]",
+          "question": "[[It is a|Es un día]] (_____) [[sunny day|soleado]].",
           "options": ["[[sunny|soleado]]", "[[rainy|lluvioso]]", "[[cold|frío]]"],
           "correctAnswer": 0,
           "explanation": "'Sunny' es soleado."
@@ -1015,7 +1015,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[We are going on a|Vamos a hacer un viaje en]] (_____) .",
+          "question": "[[We are going on a|Vamos a hacer un viaje en]] (_____) [[boat trip|barco]].",
           "options": ["[[boat trip|barco]]", "[[bus trip|autobús]]", "[[car trip|coche]]"],
           "correctAnswer": 0,
           "explanation": "'Boat trip' es una excursión o viaje en barco."
@@ -1037,7 +1037,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[See you|Nos vemos]] (_____) !",
+          "question": "[[See you|Nos vemos]] (_____) [[soon|pronto]]!",
           "options": ["[[soon|pronto]]", "[[later|luego]]", "[[now|ahora]]"],
           "correctAnswer": 0,
           "explanation": "'Soon' significa pronto."
@@ -1059,7 +1059,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[The city is very|La ciudad está muy]] (_____) .",
+          "question": "[[The city is very|La ciudad está muy]] (_____) [[crowded|abarrotada]].",
           "options": ["[[crowded|abarrotada/llena de gente]]", "[[empty|vacía]]", "[[quiet|tranquila]]"],
           "correctAnswer": 0,
           "explanation": "'Crowded' significa que hay muchísima gente."
@@ -1081,7 +1081,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo.",
       "questions": [
         {
-          "question": "[[I am having a|Lo estoy pasando]] (_____) [[time.]]",
+          "question": "[[I am having a|Lo estoy pasando]] (_____) [[wonderful time|maravillosamente]].",
           "options": ["[[wonderful|maravillosamente]]", "[[bad|mal]]", "[[short|poco]]"],
           "correctAnswer": 0,
           "explanation": "'Wonderful' es maravilloso."
@@ -1162,7 +1162,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[The entrance|La]] (_____) [[is ten euros.]]",
+          "question": "[[The entrance fee|La tarifa de entrada]] (_____) [[is ten euros|es de diez euros]].",
           "options": ["[[fee|tarifa/precio]]", "[[door|puerta]]", "[[card|tarjeta]]"],
           "correctAnswer": 0,
           "explanation": "'Entrance fee' es el precio de la entrada."
@@ -1184,7 +1184,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[Do you want to go on a|¿Quieres ir a una]] (_____) [[tour?]]",
+          "question": "[[Do you want to go on a|¿Quieres ir a una]] (_____) [[guided tour|visita guiada]]?",
           "options": ["[[guided|guiada]]", "[[long|larga]]", "[[fast|rápida]]"],
           "correctAnswer": 0,
           "explanation": "'Guided tour' es una visita guiada."
@@ -1206,7 +1206,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra.",
       "questions": [
         {
-          "question": "[[I am staying for a|Me quedo]] (_____) .",
+          "question": "[[I am staying for a|Me quedo durante]] (_____) [[fortnight|quince días]].",
           "options": ["[[fortnight|quince días/dos semanas]]", "[[week|semana]]", "[[month|mes]]"],
           "correctAnswer": 0,
           "explanation": "'Fortnight' es una forma común en UK de decir dos semanas o quince días."
@@ -1245,7 +1245,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is very interesting.]]",
+          "question": "[[The|La]] (_____) [[gallery is very interesting|galería es muy interesante]].",
           "options": ["[[gallery|galería (de arte)]]", "[[garage|garaje]]", "[[garden|jardín]]"],
           "correctAnswer": 0,
           "explanation": "'Gallery' suele referirse a una galería de arte."
@@ -1267,7 +1267,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'can'.",
       "questions": [
         {
-          "question": "(_____) [[we take photos here?]]",
+          "question": "[[Can|¿Podemos]] (_____) [[we take photos here|hacer fotos aquí]]?",
           "options": ["[[Can|¿Podemos?]]", "[[Do|¿Hacemos?]]", "[[Are|¿Somos?]]"],
           "correctAnswer": 0,
           "explanation": "Pregunta sobre permiso o posibilidad."
@@ -1289,7 +1289,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is very old.]]",
+          "question": "[[The|La]] (_____) [[is very old.|es muy vieja.]]",
           "options": ["[[statue|estatua]]", "[[station|estación]]", "[[store|tienda]]"],
           "correctAnswer": 0,
           "explanation": "'Statue' es estatua."
@@ -1311,7 +1311,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Uso del superlativo.",
       "questions": [
         {
-          "question": "[[Where is the|¿Dónde está el]] (_____) [[park?]]",
+          "question": "[[Where is the|¿Dónde está el]] (_____) [[park?|parque?]]",
           "options": ["[[nearest|más cercano]]", "[[nearer|más cercano (comp.)]]", "[[next|siguiente]]"],
           "correctAnswer": 0,
           "explanation": "'Nearest' es el superlativo de 'near'."
