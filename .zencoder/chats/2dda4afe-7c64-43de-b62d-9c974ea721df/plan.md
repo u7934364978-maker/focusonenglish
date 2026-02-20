@@ -111,14 +111,28 @@ Add lesson separation logic to A2 preview page (matching A1).
 
 ---
 
-### [ ] Step: Create A2 Units 3-60
+### [✅] Unit 3: Family Members (COMPLETED)
 
-Continue building remaining 58 units following same structure and difficulty progression.
+**Commit**: 905ef02d
+
+**Structure**:
+- **Lesson 1** (e1-e15): Possessive adjectives (My, Your, His, Her, Its) + Family members basic
+- **Lesson 2** (e16-e30): Possessive adjectives with family context (Our, Their) + Family relationships
+- **Lesson 3** (e31-e45): Saxon Genitive (Mary's, John's, etc.)
+- **Lesson 4** (e46-e60): Mixed practice (Brother-in-law, Stepmother, etc.) + Reading Comprehension (Jennifer's Family)
+
+**Status**: ✅ Fully functional, 60 exercises created, lesson structure working, reading passage + 4 comprehension questions included.
+
+---
+
+### [ ] Step: Create A2 Units 4-60
+
+Continue building remaining 57 units following same structure and difficulty progression.
 
 Next units to build:
-- Unit 3: Family Members (Possessive adjectives, Saxon Genitive)
 - Unit 4: Describing Appearance (Have got, Adjective order)
 - Unit 5: Personality Traits (Adjectives in English, Very/Really)
+- Unit 6: Review: My World (Module 1 Review)
 - ... (continue for all 60 units)
 
 Instructions for each unit:
