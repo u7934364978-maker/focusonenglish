@@ -150,9 +150,11 @@ Review and fix pedagogically invalid questions in Units 1-3.
 
 ---
 
-### [✅] Unit 4: Describing Appearance (COMPLETED)
+### [✅] Unit 4: Describing Appearance (COMPLETED & VERIFIED)
 
-**Commit**: ba35f866
+**Commits**: 
+- ba35f866: Initial recreation from scratch
+- e55e05c8: Pedagogical review - Fixed e50 illogical sentence structure
 
 **Structure**:
 - **Lesson 1** (e1-e15): Have Got basics (I/You/He/She/It/We/They) + Physical descriptions vocabulary
@@ -165,7 +167,13 @@ Review and fix pedagogically invalid questions in Units 1-3.
 - Adjective order in English
 - Physical description vocabulary and patterns
 
-**Status**: ✅ Fully functional, recreated from scratch with proper translations, 60 exercises with correct structure, reading passage + 4 comprehension questions included.
+**Pedagogical Quality**:
+- ✅ All 60 exercises have proper structure and context
+- ✅ All questions have logical pedagogical validity
+- ✅ Fixed e50: Removed "He is dressed very ___ and fashionably" → Now clear sentence structure
+- ✅ All translations are correct and contextually appropriate
+
+**Status**: ✅ Fully functional, recreated from scratch with proper translations, 60 exercises with correct structure, pedagogically verified, reading passage + 4 comprehension questions included.
 
 ---
 
