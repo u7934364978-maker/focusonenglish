@@ -130,16 +130,21 @@ Add lesson separation logic to A2 preview page (matching A1).
 Review and fix pedagogically invalid questions in Units 1-3.
 
 **Issues Found & Fixed**:
-- Unit 3, Lesson 3 (Saxon Genitive exercises e31, e33, e35, e37, e39, e41, e43, e45): Converted from "Correcto/Incorrecto" format to proper multiple-choice
+- Unit 3, Lesson 3 (Saxon Genitive exercises e31, e33, e35, e37, e39, e41, e43, e45): Converted from "Correcto/Incorrecto" format
+- Unit 3, Lesson 4 (Mixed Practice exercises e48, e54): Converted from "Correcto/Incorrecto" format
 - Unit 1 & 2: No pedagogical issues found
+
+**Total Fixed**: 10 exercises
 
 **Corrections Applied**:
 1. ✅ Convert "Correcto/Incorrecto" format to proper multiple-choice with grammatical options
 2. ✅ Each question now has clear context and reference information
 3. ✅ Provide options with correct vs. incorrect grammatical constructions (e.g., "John's book" vs "Book's John" vs "John book's")
-4. ✅ Verified all 3 units for similar issues
+4. ✅ Verified all 3 units exhaustively for similar issues
 
-**Commit**: 70ea4ef6
+**Commits**: 
+- 70ea4ef6: Initial 8 exercises (Lesson 3)
+- a00c8cb7: Remaining 2 exercises (Lesson 4)
 
 **Status**: ✅ Completed
 
