@@ -991,10 +991,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la descripción de estilo general.",
       "questions": [
         {
-          "question": "He is dressed very _______ [[and|y]] [[fashionably|a la moda]].",
-          "options": ["[[casually|informalmente]]", "[[carefully|cuidadosamente]]", "[[smartly|elegantemente]]"],
-          "correctAnswer": 2,
-          "explanation": "'He is dressed smartly' describe cómo alguien se viste."
+          "question": "He is dressed very _______.",
+          "options": ["[[casually|informalmente]]", "[[smartly|elegantemente]]", "[[messily|desordenadamente]]"],
+          "correctAnswer": 1,
+          "explanation": "'He is dressed smartly' describe un estilo de vestimenta elegante y cuidado."
         }
       ]
     },
