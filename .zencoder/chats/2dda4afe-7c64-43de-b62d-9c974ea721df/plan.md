@@ -150,12 +150,30 @@ Review and fix pedagogically invalid questions in Units 1-3.
 
 ---
 
-### [ ] Step: Create A2 Units 4-60
+### [✅] Unit 4: Describing Appearance (COMPLETED)
 
-Continue building remaining 57 units following same structure and difficulty progression.
+**Commit**: ba35f866
+
+**Structure**:
+- **Lesson 1** (e1-e15): Have Got basics (I/You/He/She/It/We/They) + Physical descriptions vocabulary
+- **Lesson 2** (e16-e30): Adjective Order (size + color, age + shape, quality + color, texture + color, etc.)
+- **Lesson 3** (e31-e45): Describing People with Have Got + Complex descriptions (face, hair, body, clothing, distinctive features)
+- **Lesson 4** (e46-e60): Mixed practice + Reading Comprehension (Sophie description with 4 comprehension questions)
+
+**Key Grammar**:
+- Have got (all forms): I have got, You have got, He/She/It has got, We/They have got
+- Adjective order in English
+- Physical description vocabulary and patterns
+
+**Status**: ✅ Fully functional, recreated from scratch with proper translations, 60 exercises with correct structure, reading passage + 4 comprehension questions included.
+
+---
+
+### [ ] Step: Create A2 Units 5-60
+
+Continue building remaining 56 units following same structure and difficulty progression.
 
 Next units to build:
-- Unit 4: Describing Appearance (Have got, Adjective order)
 - Unit 5: Personality Traits (Adjectives in English, Very/Really)
 - Unit 6: Review: My World (Module 1 Review)
 - ... (continue for all 60 units)
