@@ -97,14 +97,28 @@ Add lesson separation logic to A2 preview page (matching A1).
 
 ---
 
-### [ ] Step: Create A2 Units 2-60
+### [✅] Unit 2: Personal Information (COMPLETED)
 
-Continue building remaining 59 units following same structure and difficulty progression.
+**Commit**: d4b09d54
+
+**Structure**:
+- **Lesson 1** (e1-e15): Question words (What, Where, Who, When, Why, How, Which) + Alphabet (Spelling, Names)
+- **Lesson 2** (e16-e30): Be Verb Questions (Name, Job, Location, Birthday, etc.)
+- **Lesson 3** (e31-e45): Be Verb Negatives & Questions Review
+- **Lesson 4** (e46-e60): Questions Review + Reading Comprehension (David & Sarah: Engineers in New York)
+
+**Status**: ✅ Fully functional, 60 exercises created, lesson structure working, reading passage + 4 comprehension questions included.
+
+---
+
+### [ ] Step: Create A2 Units 3-60
+
+Continue building remaining 58 units following same structure and difficulty progression.
 
 Next units to build:
-- Unit 2: Personal Information (Question words, Be verb negatives/questions)
 - Unit 3: Family Members (Possessive adjectives, Saxon Genitive)
 - Unit 4: Describing Appearance (Have got, Adjective order)
+- Unit 5: Personality Traits (Adjectives in English, Very/Really)
 - ... (continue for all 60 units)
 
 Instructions for each unit:
