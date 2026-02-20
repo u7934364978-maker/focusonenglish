@@ -68,15 +68,17 @@ Display all 60 A2 units with their grammatical content organized by module in th
 Create Unit 1 of A2 course with 60 exercises following A1 structure.
 
 1. ✅ Create `/src/lib/course/a2/unit-1.ts`
-2. ✅ Structure: 60 exercises organized in 4 sections
-   - Section 1 (e1-e10): Subject Pronouns
-   - Section 2 (e11-e25): Be Verb Affirmative  
-   - Section 3 (e26-e40): Be Verb Negative
-   - Section 4 (e41-e60): Be Verb Questions
-3. ✅ Exercise types: multiple-choice, sentence-building
+2. ✅ Structure: 60 exercises organized in 4 lessons (15 exercises each)
+   - Lesson 1 (e1-e15): Subject Pronouns + Be Verb basic
+   - Lesson 2 (e16-e30): Be Verb Affirmative  
+   - Lesson 3 (e31-e45): Be Verb Negative
+   - Lesson 4 (e46-e60): Be Verb Questions (e46-e55) + Reading Comprehension (e56-e60)
+3. ✅ Exercise types: multiple-choice, sentence-building, reading
 4. ✅ Difficulty progression: easy → medium → hard
 5. ✅ All exercises include: id, type, level, topic, transcript, content, audioUrl
 6. ✅ Grammar topics covered: Subject pronouns, Be verb (all forms)
+7. ✅ Reading comprehension: 1 passage + 4 questions (e56-e60)
+8. ✅ Commit: 8393a94a (fixed structure with lessons + reading)
 
 ---
 
