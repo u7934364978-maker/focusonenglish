@@ -203,13 +203,13 @@ Implement word-by-word translations for reading exercises in units 52 to 54.
 
 ---
 
-### [ ] Step: Phase 19 (Units 55-57)
+### [x] Step: Phase 19 (Units 55-57)
 Implement word-by-word translations for reading exercises in units 55 to 57.
 
-- [ ] Audit and update Unit 55.
-- [ ] Audit and update Unit 56.
-- [ ] Audit and update Unit 57.
-- [ ] Manual verification.
+- [x] Audit and update Unit 55.
+- [x] Audit and update Unit 56.
+- [x] Audit and update Unit 57.
+- [x] Manual verification.
 
 ---
 
