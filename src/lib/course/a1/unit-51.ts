@@ -859,7 +859,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Comparativo irregular.",
       "questions": [
         {
-          "question": "[[Nature is|La naturaleza es]] (_____) [[better than the city.|mejor que la ciudad.]]",",
+          "question": "[[Nature is|La naturaleza es]] (_____) [[better than the city.|mejor que la ciudad.]]",
           "options": ["[[better|mejor]]", "[[gooder|mejor (incorrecto)]]", "[[best|el mejor]]"],
           "correctAnswer": 0,
           "explanation": "'Better' es el comparativo irregular de 'good'."
@@ -1267,7 +1267,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Pregunta básica.",
       "questions": [
         {
-          "question": "[[Is it|¿Es]] (_____) [[good for the environment?|bueno para el medio ambiente?]]",",
+          "question": "[[Is it|¿Es]] (_____) [[good for the environment?|bueno para el medio ambiente?]]",
           "options": ["[[good|bueno]]", "[[bad|malo]]", "[[well|bien]]"],
           "correctAnswer": 0,
           "explanation": "Preguntamos si algo es beneficioso para el entorno."
@@ -1311,7 +1311,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Identifica el verbo.",
       "questions": [
         {
-          "question": "[[We need to|Necesitamos]] (_____) [[plant more trees.|plantar más árboles.]]",",
+          "question": "[[We need to|Necesitamos]] (_____) [[plant more trees.|plantar más árboles.]]",
           "options": ["[[plant|plantar]]", "[[place|colocar]]", "[[play|jugar]]"],
           "correctAnswer": 0,
           "explanation": "'Plant' como verbo significa plantar."
