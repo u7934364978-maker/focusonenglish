@@ -82,6 +82,21 @@ Create Unit 1 of A2 course with 60 exercises following A1 structure.
 
 ---
 
+### [x] Step: Display Lessons in A2 Preview Page
+
+Add lesson separation logic to A2 preview page (matching A1).
+
+1. ✅ Update `/src/app/debug/a2-preview/[unitId]/page.tsx`
+2. ✅ Implement CHUNK_SIZE = 15 (4 lessons per unit)
+3. ✅ Add lesson tracking: lessonNumber, totalLessons, exerciseInLesson
+4. ✅ Display "Lección X de Y" in navigation bar
+5. ✅ Show lesson completion modal (¡Lección X Completada!)
+6. ✅ Show unit completion modal (¡UNIDAD COMPLETADA!)
+7. ✅ Progress bar per lesson
+8. ✅ Commit: b8a2ffa6
+
+---
+
 ### [ ] Step: Create A2 Units 2-60
 
 Continue building remaining 59 units following same structure and difficulty progression.
@@ -94,7 +109,8 @@ Next units to build:
 
 Instructions for each unit:
 1. Reference grammar topics from `a2-syllabus.ts`
-2. Create 60 exercises with 4 sections (Vocab + Grammar)
+2. Create 60 exercises with 4 lessons (15 exercises each)
 3. Follow A1 exercise structure and patterns
 4. Include varied contexts and practical examples
 5. Maintain consistent difficulty progression
+6. Include reading comprehension in lesson 4 (exercises e56-e60)
