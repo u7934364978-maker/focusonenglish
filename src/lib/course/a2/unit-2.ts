@@ -1,104 +1,44 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_2_EXERCISES: Exercise[] = [
+  // ==========================================
+  // LESSON 1: QUESTION WORDS & ALPHABET (Exercises 1-15)
+  // ==========================================
   {
     "id": "a2-u2-e1",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A2",
-    "topic": "Describing Appearance",
-    "difficulty": "medium",
-    "transcript": "Tall. Short. Slim. Thin. Fat. Overweight. Attractive. Beautiful. Handsome. Blonde. Curly. Straight. Beard. Moustache. Dark hair",
+    "topic": "Question Words",
+    "difficulty": "easy",
+    "transcript": "[[What is your name|¿Cuál es tu nombre?]]?",
     "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
+      "title": "Question Words: What",
+      "instructions": "Identifica la pregunta correcta con 'What'.",
+      "questions": [
         {
-          "front": "[[Tall|Alto]]",
-          "back": "Alto/a"
-        },
-        {
-          "front": "[[Short|Bajo/corto]]",
-          "back": "Bajo/a"
-        },
-        {
-          "front": "[[Slim|Delgado/a]]",
-          "back": "Delgado/a"
-        },
-        {
-          "front": "[[Thin|Flaco/a]]",
-          "back": "Flaco/a"
-        },
-        {
-          "front": "[[Fat|Gordo/a]]",
-          "back": "Gordo/a"
-        },
-        {
-          "front": "[[Overweight|Con sobrepeso]]",
-          "back": "Con sobrepeso"
-        },
-        {
-          "front": "[[Attractive|Atractivo/a]]",
-          "back": "Atractivo/a"
-        },
-        {
-          "front": "[[Beautiful|Hermoso/a]]",
-          "back": "Hermosa"
-        },
-        {
-          "front": "[[Handsome|Guapo]]",
-          "back": "Guapo"
-        },
-        {
-          "front": "[[Blonde|Rubio/a]]",
-          "back": "Rubio/a"
-        },
-        {
-          "front": "[[Curly|Rizado]]",
-          "back": "Rizado"
-        },
-        {
-          "front": "[[Straight|Liso]]",
-          "back": "Liso"
-        },
-        {
-          "front": "[[Beard|Barba]]",
-          "back": "Barba"
-        },
-        {
-          "front": "[[Moustache|Bigote]]",
-          "back": "Bigote"
-        },
-        {
-          "front": "[[Dark hair|Pelo oscuro]]",
-          "back": "Pelo oscuro"
+          "question": "_______ [[is|es]] [[your name|tu nombre]]?",
+          "options": ["[[Who|¿Quién]]", "[[What|¿Qué]]", "[[Where|¿Dónde]]"],
+          "correctAnswer": 1,
+          "explanation": "'What' se usa para preguntar sobre cosas o nombres."
         }
       ]
     },
     "audioUrl": "audio/a2/unit-2/e1.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u2-e2",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A2",
-    "topic": "Describing Appearance",
-    "difficulty": "medium",
-    "transcript": "She  has got long hair.",
+    "topic": "Question Words",
+    "difficulty": "easy",
+    "transcript": "[[Where are you from|¿De dónde eres?]]?",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[She got|Ella]] ([[have|tener/haber tienes/conseguido]]) _______ [[long hair|largo hair]].",
-          "options": [
-            "[[it|eso]]",
-            "[[has got|has got]]",
-            "[[to|a/para]]"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Práctica de la estructura gramatical A2."
-        }
-      ]
+      "title": "Question Words: Where",
+      "instructions": "Ordena la pregunta con 'Where'.",
+      "correctSentence": "[[Where are you from|¿De dónde eres?]]?",
+      "words": ["[[from|de]]?", "[[you|tú]]", "[[are|eres]]", "[[Where|¿Dónde]]"],
+      "explanation": "'Where' se usa para preguntar sobre lugares."
     },
     "audioUrl": "audio/a2/unit-2/e2.mp3",
     "topicName": "Grammar"
@@ -107,22 +47,18 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a2-u2-e3",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Describing Appearance",
-    "difficulty": "medium",
-    "transcript": "He  is quite tall.",
+    "topic": "Question Words",
+    "difficulty": "easy",
+    "transcript": "[[Who is she|¿Quién es ella?]]?",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Question Words: Who",
+      "instructions": "Identifica la pregunta correcta con 'Who'.",
       "questions": [
         {
-          "question": "[[He tall|Él]] ([[be|ser/estar]]) _______ [[quite|bastante alto]].",
-          "options": [
-            "[[is|es/está]]",
-            "[[to|a/para]]",
-            "[[it|eso]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Práctica de la estructura gramatical A2."
+          "question": "_______ [[is|es]] [[he|él]]?",
+          "options": ["[[What|¿Qué]]", "[[Who|¿Quién]]", "[[When|¿Cuándo]]"],
+          "correctAnswer": 1,
+          "explanation": "'Who' se usa para preguntar sobre personas."
         }
       ]
     },
@@ -131,26 +67,17 @@ export const UNIT_2_EXERCISES: Exercise[] = [
   },
   {
     "id": "a2-u2-e4",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A2",
-    "topic": "Describing Appearance",
-    "difficulty": "medium",
-    "transcript": "They  are not very slim.",
+    "topic": "Question Words",
+    "difficulty": "easy",
+    "transcript": "[[When are you coming|¿Cuándo vienes?]]?",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[They slim|Ellos]] ([[not/be|no ser/estar]]) _______ [[very|muy slim]].",
-          "options": [
-            "[[it|eso]]",
-            "[[to|a/para]]",
-            "[[are not|no son/están]]"
-          ],
-          "correctAnswer": 2,
-          "explanation": "Práctica de la estructura gramatical A2."
-        }
-      ]
+      "title": "Question Words: When",
+      "instructions": "Ordena la pregunta con 'When'.",
+      "correctSentence": "[[When are you coming|¿Cuándo vienes?]]?",
+      "words": ["[[coming|viniendo]]?", "[[you|tú]]", "[[are|eres]]", "[[When|¿Cuándo]]"],
+      "explanation": "'When' se usa para preguntar sobre tiempo."
     },
     "audioUrl": "audio/a2/unit-2/e4.mp3",
     "topicName": "Grammar"
@@ -159,22 +86,18 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a2-u2-e5",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Describing Appearance",
-    "difficulty": "medium",
-    "transcript": "My brother is taller  than me.",
+    "topic": "Question Words",
+    "difficulty": "easy",
+    "transcript": "[[Why are you late|¿Por qué llegas tarde?]]?",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Question Words: Why",
+      "instructions": "Completa con 'Why' para preguntar razones.",
       "questions": [
         {
-          "question": "[[My brother is me|Mi/mis hermano es/está]] _______ ([[tall|alto]]) [[than|que (comparativo) me/mí]].",
-          "options": [
-            "[[taller|más alto]]",
-            "[[it|eso]]",
-            "[[to|a/para]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Práctica de la estructura gramatical A2."
+          "question": "_______ [[is|es]] [[she|ella]] [[here|aquí]]?",
+          "options": ["[[How|¿Cómo]]", "[[Why|¿Por qué]]", "[[What|¿Qué]]"],
+          "correctAnswer": 1,
+          "explanation": "'Why' se usa para preguntar la razón o causa."
         }
       ]
     },
@@ -183,26 +106,17 @@ export const UNIT_2_EXERCISES: Exercise[] = [
   },
   {
     "id": "a2-u2-e6",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A2",
-    "topic": "Describing Appearance",
-    "difficulty": "medium",
-    "transcript": "She is the prettiest  girl.",
+    "topic": "Question Words",
+    "difficulty": "easy",
+    "transcript": "[[How are you|¿Cómo estás?]]?",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[She is the|Ella es/está el/la/los/las]] _______ ([[pretty|pretty]]) [[girl|niña]].",
-          "options": [
-            "[[to|a/para]]",
-            "[[it|eso]]",
-            "[[prettiest|prettiest]]"
-          ],
-          "correctAnswer": 2,
-          "explanation": "Práctica de la estructura gramatical A2."
-        }
-      ]
+      "title": "Question Words: How",
+      "instructions": "Ordena la pregunta con 'How'.",
+      "correctSentence": "[[How are you|¿Cómo estás?]]?",
+      "words": ["[[you|tú]]?", "[[are|estás]]", "[[How|¿Cómo]]"],
+      "explanation": "'How' se usa para preguntar sobre estado o manera."
     },
     "audioUrl": "audio/a2/unit-2/e6.mp3",
     "topicName": "Grammar"
@@ -211,126 +125,96 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a2-u2-e7",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Describing Appearance",
-    "difficulty": "medium",
-    "transcript": "He is wearing  a blue sweater now.",
+    "topic": "Alphabet",
+    "difficulty": "easy",
+    "transcript": "[[How do you spell your name|¿Cómo deletreas tu nombre?]]?",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Alphabet: Spelling",
+      "instructions": "Completa la pregunta sobre deletreo.",
       "questions": [
         {
-          "question": "[[He blue sweater now|Él]] _______ ([[wear|wear]]) [[a|un/una blue sweater ahora]].",
-          "options": [
-            "[[it|eso]]",
-            "[[is wearing|is wearing]]",
-            "[[to|a/para]]"
-          ],
+          "question": "[[How do you|¿Cómo]]... [[your name|tu nombre]]?",
+          "options": ["[[write|escribes]]", "[[spell|deletreas]]", "[[say|dices]]"],
           "correctAnswer": 1,
-          "explanation": "Práctica de la estructura gramatical A2."
+          "explanation": "'Spell' significa deletrear."
         }
       ]
     },
     "audioUrl": "audio/a2/unit-2/e7.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a2-u2-e8",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A2",
-    "topic": "Describing Appearance",
-    "difficulty": "medium",
-    "transcript": "I don't have  a beard.",
+    "topic": "Alphabet",
+    "difficulty": "easy",
+    "transcript": "[[My name is spelled M-A-R-I-A|Mi nombre se deletrea M-A-R-I-A]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[I beard|Yo]] _______ ([[not/have|not/have]]) [[a|un/una beard]].",
-          "options": [
-            "[[don't have|don't have]]",
-            "[[to|a/para]]",
-            "[[it|eso]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Práctica de la estructura gramatical A2."
-        }
-      ]
+      "title": "Alphabet: Spelling Name",
+      "instructions": "Ordena la oración sobre deletreo.",
+      "correctSentence": "[[My name is spelled M-A-R-I-A|Mi nombre se deletrea M-A-R-I-A]].",
+      "words": ["[[M-A-R-I-A|M-A-R-I-A]].", "[[spelled|deletrea]]", "[[is|se]]", "[[name|nombre]]", "[[My|Mi]]"],
+      "explanation": "Estructura: My name + is spelled + letras."
     },
     "audioUrl": "audio/a2/unit-2/e8.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a2-u2-e9",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Describing Appearance",
-    "difficulty": "medium",
-    "transcript": "What does he look like?",
+    "topic": "Job Titles",
+    "difficulty": "easy",
+    "transcript": "[[What is your job|¿Cuál es tu trabajo?]]?",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Job Titles: Question",
+      "instructions": "Identifica la pregunta sobre profesión.",
       "questions": [
         {
-          "question": "[[What look like|Qué]] _______ [[he|él mirar gustar/como]]?",
-          "options": [
-            "[[to|a/para]]",
-            "[[does|hace]]",
-            "[[it|eso]]"
-          ],
+          "question": "_______ [[is|es]] [[your job|tu trabajo]]?",
+          "options": ["[[Who|¿Quién]]", "[[What|¿Qué]]", "[[Where|¿Dónde]]"],
           "correctAnswer": 1,
-          "explanation": "Práctica de la estructura gramatical A2."
+          "explanation": "'What' se usa para preguntar sobre profesión."
         }
       ]
     },
     "audioUrl": "audio/a2/unit-2/e9.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a2-u2-e10",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A2",
-    "topic": "Describing Appearance",
-    "difficulty": "medium",
-    "transcript": "She  looks like her mother.",
+    "topic": "Job Titles",
+    "difficulty": "easy",
+    "transcript": "[[I am a doctor|Soy un doctor]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[She her mother|Ella]] ([[look|mirar]]) _______ [[like|gustar/como su (de ella) madre]].",
-          "options": [
-            "[[looks|looks]]",
-            "[[to|a/para]]",
-            "[[it|eso]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Práctica de la estructura gramatical A2."
-        }
-      ]
+      "title": "Job Titles: Response",
+      "instructions": "Ordena la respuesta sobre profesión.",
+      "correctSentence": "[[I am a doctor|Soy un doctor]].",
+      "words": ["[[doctor|doctor]].", "[[a|un]]", "[[am|soy]]", "[[I|Yo]]"],
+      "explanation": "I + am + a + job title."
     },
     "audioUrl": "audio/a2/unit-2/e10.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a2-u2-e11",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Describing Appearance",
+    "topic": "Question Words",
     "difficulty": "medium",
-    "transcript": "We  are both short.",
+    "transcript": "[[Which one is yours|¿Cuál es el tuyo?]]?",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Question Words: Which",
+      "instructions": "Identifica 'Which' para elección.",
       "questions": [
         {
-          "question": "[[We short|Nosotros]] ([[be|ser/estar]]) _______ [[both|both bajo/corto]].",
-          "options": [
-            "[[it|eso]]",
-            "[[to|a/para]]",
-            "[[are|son/están]]"
-          ],
-          "correctAnswer": 2,
-          "explanation": "Práctica de la estructura gramatical A2."
+          "question": "_______ [[book|libro]] [[is|es]] [[yours|tuyo]]?",
+          "options": ["[[What|¿Qué]]", "[[Which|¿Cuál]]", "[[Who|¿Quién]]"],
+          "correctAnswer": 1,
+          "explanation": "'Which' se usa para elegir entre opciones."
         }
       ]
     },
@@ -341,43 +225,37 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a2-u2-e12",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Describing Appearance",
+    "topic": "Alphabet",
     "difficulty": "medium",
-    "transcript": "She has long blonde hair.",
+    "transcript": "[[Can you spell that|¿Puedes deletrear eso?]]?",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She has long blonde hair|Ella tiene/ha largo blonde hair]].",
-      "words": [
-        "[[hair|hair]].",
-        "[[She|Ella]]",
-        "[[has|tiene/ha]]",
-        "[[long|largo]]",
-        "[[blonde|blonde]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Alphabet: Polite Request",
+      "instructions": "Ordena la pregunta educada.",
+      "correctSentence": "[[Can you spell that|¿Puedes deletrear eso?]]?",
+      "words": ["[[that|eso]]?", "[[spell|deletrear]]", "[[you|puedes]]", "[[Can|¿Puedes]]"],
+      "explanation": "Can + you + spell + palabra."
     },
     "audioUrl": "audio/a2/unit-2/e12.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u2-e13",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A2",
-    "topic": "Describing Appearance",
+    "topic": "Job Titles",
     "difficulty": "medium",
-    "transcript": "He is wearing glasses.",
+    "transcript": "[[What are their jobs|¿Cuáles son sus trabajos?]]?",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He is wearing glasses|Él es/está wearing glasses]].",
-      "words": [
-        "[[He|Él]]",
-        "[[is|es/está]]",
-        "[[wearing|wearing]]",
-        "[[glasses|glasses]]."
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Job Titles: Plural",
+      "instructions": "Pregunta sobre trabajos en plural.",
+      "questions": [
+        {
+          "question": "_______ [[are|son]] [[their jobs|sus trabajos]]?",
+          "options": ["[[Who|¿Quiénes]]", "[[What|¿Qué]]", "[[Where|¿Dónde]]"],
+          "correctAnswer": 1,
+          "explanation": "'What' para plural de profesiones."
+        }
+      ]
     },
     "audioUrl": "audio/a2/unit-2/e13.mp3",
     "topicName": "Vocabulary"
@@ -386,185 +264,158 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a2-u2-e14",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Describing Appearance",
+    "topic": "Question Words",
     "difficulty": "medium",
-    "transcript": "My father has a big moustache.",
+    "transcript": "[[Who are your friends|¿Quiénes son tus amigos?]]?",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My father has a big moustache|Mi/mis padre tiene/ha un/una grande moustache]].",
-      "words": [
-        "[[father|padre]]",
-        "[[has|tiene/ha]]",
-        "[[My|Mi/mis]]",
-        "[[a|un/una]]",
-        "[[big|grande]]",
-        "[[moustache|moustache]]."
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Question Words: Who (Plural)",
+      "instructions": "Ordena pregunta con 'Who' plural.",
+      "correctSentence": "[[Who are your friends|¿Quiénes son tus amigos?]]?",
+      "words": ["[[friends|amigos]]?", "[[your|tus]]", "[[are|son]]", "[[Who|¿Quiénes]]"],
+      "explanation": "Who + are (plural)."
     },
     "audioUrl": "audio/a2/unit-2/e14.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u2-e15",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A2",
-    "topic": "Describing Appearance",
+    "topic": "Alphabet",
     "difficulty": "medium",
-    "transcript": "He is shorter than his brother.",
+    "transcript": "[[S-M-I-T-H spells Smith|S-M-I-T-H deletrea Smith]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He is shorter than his brother|Él es/está más bajo que (comparativo) su (de él) hermano]].",
-      "words": [
-        "[[than|que (comparativo)]]",
-        "[[He|Él]]",
-        "[[brother|hermano]].",
-        "[[is|es/está]]",
-        "[[shorter|más bajo]]",
-        "[[his|su (de él)]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Alphabet: Spelling Example",
+      "instructions": "Identifica el apellido correcto.",
+      "questions": [
+        {
+          "question": "[[S-M-I-T-H spells|S-M-I-T-H deletrea]] _______.",
+          "options": ["[[Smith|Smith]]", "[[Smile|Sonrisa]]", "[[Small|Pequeño]]"],
+          "correctAnswer": 0,
+          "explanation": "S-M-I-T-H deletrea 'Smith'."
+        }
+      ]
     },
     "audioUrl": "audio/a2/unit-2/e15.mp3",
     "topicName": "Vocabulary"
   },
+
+  // ==========================================
+  // LESSON 2: BE VERB QUESTIONS (Exercises 16-30)
+  // ==========================================
   {
     "id": "a2-u2-e16",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Describing Appearance",
+    "topic": "Be Verb Questions",
     "difficulty": "medium",
-    "transcript": "She is very attractive.",
+    "transcript": "[[Is your name John|¿Tu nombre es John?]]?",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She is very attractive|Ella es/está muy attractive]].",
-      "words": [
-        "[[She|Ella]]",
-        "[[is|es/está]]",
-        "[[very|muy]]",
-        "[[attractive|attractive]]."
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Be Verb Questions: Name",
+      "instructions": "Ordena pregunta sobre nombre.",
+      "correctSentence": "[[Is your name John|¿Tu nombre es John?]]?",
+      "words": ["[[John|John]]?", "[[name|nombre]]", "[[your|tu]]", "[[Is|¿Es]]"],
+      "explanation": "Is + your name + nombre?"
     },
     "audioUrl": "audio/a2/unit-2/e16.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u2-e17",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A2",
-    "topic": "Describing Appearance",
+    "topic": "Be Verb Questions",
     "difficulty": "medium",
-    "transcript": "What does she look like?",
+    "transcript": "[[Are you a teacher|¿Eres profesor?]]?",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[What does she look like|Qué hace ella mirar gustar/como]]?",
-      "words": [
-        "[[look|mirar]]",
-        "[[she|ella]]",
-        "[[like|gustar/como]]?",
-        "[[does|hace]]",
-        "[[What|Qué]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Be Verb Questions: Job",
+      "instructions": "Pregunta sobre profesión.",
+      "questions": [
+        {
+          "question": "_______ [[you|tú]] [[a nurse|una enfermera]]?",
+          "options": ["[[Is|¿Es]]", "[[Are|¿Eres]]", "[[Am|¿Soy]]"],
+          "correctAnswer": 1,
+          "explanation": "Are + you + a + job?"
+        }
+      ]
     },
     "audioUrl": "audio/a2/unit-2/e17.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u2-e18",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Describing Appearance",
+    "topic": "Be Verb Questions",
     "difficulty": "medium",
-    "transcript": "He has got blue eyes.",
+    "transcript": "[[What is your telephone number|¿Cuál es tu número de teléfono?]]?",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He has got blue eyes|Él tiene/ha tienes/conseguido blue eyes]].",
-      "words": [
-        "[[blue|blue]]",
-        "[[eyes|eyes]].",
-        "[[has|tiene/ha]]",
-        "[[got|tienes/conseguido]]",
-        "[[He|Él]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Be Verb Questions: Telephone",
+      "instructions": "Ordena pregunta sobre teléfono.",
+      "correctSentence": "[[What is your telephone number|¿Cuál es tu número de teléfono?]]?",
+      "words": ["[[number|número]]?", "[[telephone|teléfono]]", "[[your|tu]]", "[[is|es]]", "[[What|¿Cuál]]"],
+      "explanation": "What + is + your + noun?"
     },
     "audioUrl": "audio/a2/unit-2/e18.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u2-e19",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A2",
-    "topic": "Describing Appearance",
+    "topic": "Be Verb Questions",
     "difficulty": "medium",
-    "transcript": "They are both very slim.",
+    "transcript": "[[Where is your office|¿Dónde está tu oficina?]]?",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They are both very slim|Ellos son/están both muy slim]].",
-      "words": [
-        "[[both|both]]",
-        "[[They|Ellos]]",
-        "[[very|muy]]",
-        "[[are|son/están]]",
-        "[[slim|slim]]."
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Be Verb Questions: Location",
+      "instructions": "Pregunta sobre ubicación.",
+      "questions": [
+        {
+          "question": "_______ [[is|está]] [[your house|tu casa]]?",
+          "options": ["[[When|¿Cuándo]]", "[[Where|¿Dónde]]", "[[What|¿Qué]]"],
+          "correctAnswer": 1,
+          "explanation": "Where + is + ubicación?"
+        }
+      ]
     },
     "audioUrl": "audio/a2/unit-2/e19.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u2-e20",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Describing Appearance",
+    "topic": "Be Verb Questions",
     "difficulty": "medium",
-    "transcript": "She is the tallest in the class.",
+    "transcript": "[[When is your birthday|¿Cuándo es tu cumpleaños?]]?",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She is the tallest in the class|Ella es/está el/la/los/las el más alto en el/la/los/las clase]].",
-      "words": [
-        "[[the|el/la/los/las]]",
-        "[[tallest|el más alto]]",
-        "[[in|en]]",
-        "[[the|el/la/los/las]]",
-        "[[is|es/está]]",
-        "[[She|Ella]]",
-        "[[class|clase]]."
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Be Verb Questions: Birthday",
+      "instructions": "Ordena pregunta sobre cumpleaños.",
+      "correctSentence": "[[When is your birthday|¿Cuándo es tu cumpleaños?]]?",
+      "words": ["[[birthday|cumpleaños]]?", "[[your|tu]]", "[[is|es]]", "[[When|¿Cuándo]]"],
+      "explanation": "When + is + your + fecha?"
     },
     "audioUrl": "audio/a2/unit-2/e20.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u2-e21",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A2",
-    "topic": "Describing Appearance",
+    "topic": "Job Titles",
     "difficulty": "medium",
-    "transcript": "I have straight black hair.",
+    "transcript": "[[Are they lawyers|¿Son ellos abogados?]]?",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I have straight black hair|Yo tener/haber straight black hair]].",
-      "words": [
-        "[[I|Yo]]",
-        "[[have|tener/haber]]",
-        "[[hair|hair]].",
-        "[[black|black]]",
-        "[[straight|straight]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Be Verb Questions: Job (Plural)",
+      "instructions": "Pregunta sobre profesiones.",
+      "questions": [
+        {
+          "question": "_______ [[they|ellos]] [[doctors|doctores]]?",
+          "options": ["[[Is|¿Es]]", "[[Are|¿Son]]", "[[Am|¿Soy]]"],
+          "correctAnswer": 1,
+          "explanation": "Are + they + job (plural)?"
+        }
+      ]
     },
     "audioUrl": "audio/a2/unit-2/e21.mp3",
     "topicName": "Vocabulary"
@@ -573,114 +424,776 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "id": "a2-u2-e22",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Describing Appearance",
+    "topic": "Be Verb Questions",
     "difficulty": "medium",
-    "transcript": "Does he have a beard?",
+    "transcript": "[[Is she a musician|¿Es ella una música?]]?",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Does he have a beard|Hace él tener/haber un/una beard]]?",
-      "words": [
-        "[[a|un/una]]",
-        "[[have|tener/haber]]",
-        "[[Does|Hace]]",
-        "[[beard|beard]]?",
-        "[[he|él]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Be Verb Questions: Job (Female)",
+      "instructions": "Ordena pregunta sobre profesión.",
+      "correctSentence": "[[Is she a musician|¿Es ella una música?]]?",
+      "words": ["[[musician|música]]?", "[[a|una]]", "[[she|ella]]", "[[Is|¿Es]]"],
+      "explanation": "Is + she + a + job?"
     },
     "audioUrl": "audio/a2/unit-2/e22.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a2-u2-e23",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A2",
-    "topic": "Describing Appearance",
+    "topic": "Question Words",
     "difficulty": "medium",
-    "transcript": "She looks very young.",
+    "transcript": "[[How old are you|¿Cuántos años tienes?]]?",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She looks very young|Ella looks muy young]].",
-      "words": [
-        "[[young|young]].",
-        "[[very|muy]]",
-        "[[looks|looks]]",
-        "[[She|Ella]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Question Words: Age",
+      "instructions": "Pregunta sobre edad.",
+      "questions": [
+        {
+          "question": "_______ [[old|viejo]] [[is|es]] [[he|él]]?",
+          "options": ["[[How|¿Qué tan]]", "[[What|¿Cuál]]", "[[When|¿Cuándo]]"],
+          "correctAnswer": 0,
+          "explanation": "How + old + is/are?"
+        }
+      ]
     },
     "audioUrl": "audio/a2/unit-2/e23.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u2-e24",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Describing Appearance",
-    "difficulty": "medium",
-    "transcript": "He is a handsome man.",
+    "topic": "Be Verb Questions",
+    "difficulty": "hard",
+    "transcript": "[[What is your email address|¿Cuál es tu dirección de correo?]]?",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He is a handsome man|Él es/está un/una handsome hombre]].",
-      "words": [
-        "[[is|es/está]]",
-        "[[He|Él]]",
-        "[[man|hombre]].",
-        "[[handsome|handsome]]",
-        "[[a|un/una]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Be Verb Questions: Email",
+      "instructions": "Ordena pregunta sobre email.",
+      "correctSentence": "[[What is your email address|¿Cuál es tu dirección de correo?]]?",
+      "words": ["[[address|dirección]]?", "[[email|correo]]", "[[your|tu]]", "[[is|es]]", "[[What|¿Cuál]]"],
+      "explanation": "What + is + your + email?"
     },
     "audioUrl": "audio/a2/unit-2/e24.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u2-e25",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A2",
-    "topic": "Describing Appearance",
-    "difficulty": "medium",
-    "transcript": "They are wearing school uniforms.",
+    "topic": "Question Words",
+    "difficulty": "hard",
+    "transcript": "[[Why are you interested in this job|¿Por qué estás interesado en este trabajo?]]?",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They are wearing school uniforms|Ellos son/están wearing escuela uniforms]].",
-      "words": [
-        "[[are|son/están]]",
-        "[[They|Ellos]]",
-        "[[school|escuela]]",
-        "[[wearing|wearing]]",
-        "[[uniforms|uniforms]]."
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Question Words: Reason",
+      "instructions": "Pregunta con 'Why'.",
+      "questions": [
+        {
+          "question": "_______ [[are|eres]] [[you|tú]] [[here|aquí]]?",
+          "options": ["[[What|¿Qué]]", "[[Why|¿Por qué]]", "[[Where|¿Dónde]]"],
+          "correctAnswer": 1,
+          "explanation": "Why + are + you?"
+        }
+      ]
     },
     "audioUrl": "audio/a2/unit-2/e25.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u2-e26",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Describing Appearance",
-    "difficulty": "medium",
-    "transcript": "My mother is quite short.",
+    "topic": "Be Verb Negative",
+    "difficulty": "hard",
+    "transcript": "[[I am not a student|Yo no soy estudiante]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My mother is quite short|Mi/mis madre es/está bastante bajo/corto]].",
-      "words": [
-        "[[mother|madre]]",
-        "[[quite|bastante]]",
-        "[[short|bajo/corto]].",
-        "[[is|es/está]]",
-        "[[My|Mi/mis]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Be Verb Negative: Profession",
+      "instructions": "Ordena negación sobre profesión.",
+      "correctSentence": "[[I am not a student|Yo no soy estudiante]].",
+      "words": ["[[student|estudiante]].", "[[a|un]]", "[[not|no]]", "[[am|soy]]", "[[I|Yo]]"],
+      "explanation": "I + am + not + a + job."
     },
     "audioUrl": "audio/a2/unit-2/e26.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e27",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Be Verb Negative",
+    "difficulty": "hard",
+    "transcript": "[[She is not an engineer|Ella no es ingeniera]].",
+    "content": {
+      "title": "Be Verb Negative: Job (Female)",
+      "instructions": "Completa negación sobre profesión.",
+      "questions": [
+        {
+          "question": "[[He|Él]] _______ [[a lawyer|un abogado]].",
+          "options": ["[[is not|no es]]", "[[am not|no soy]]", "[[are not|no son]]"],
+          "correctAnswer": 0,
+          "explanation": "He + is + not + a + job."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-2/e27.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e28",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Be Verb Negative",
+    "difficulty": "hard",
+    "transcript": "[[We are not doctors|Nosotros no somos doctores]].",
+    "content": {
+      "title": "Be Verb Negative: Jobs (Plural)",
+      "instructions": "Ordena negación en plural.",
+      "correctSentence": "[[We are not doctors|Nosotros no somos doctores]].",
+      "words": ["[[doctors|doctores]].", "[[not|no]]", "[[are|somos]]", "[[We|Nosotros]]"],
+      "explanation": "We + are + not + jobs."
+    },
+    "audioUrl": "audio/a2/unit-2/e28.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e29",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Job Titles",
+    "difficulty": "hard",
+    "transcript": "[[Are you a chef|¿Eres chef?]]?",
+    "content": {
+      "title": "Job Titles: Chef",
+      "instructions": "Pregunta sobre profesión de chef.",
+      "questions": [
+        {
+          "question": "_______ [[you|tú]] [[a chef|un chef]]?",
+          "options": ["[[Is|¿Es]]", "[[Are|¿Eres]]", "[[Am|¿Soy]]"],
+          "correctAnswer": 1,
+          "explanation": "Are + you + a + job?"
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-2/e29.mp3",
     "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u2-e30",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Job Titles",
+    "difficulty": "hard",
+    "transcript": "[[I am an accountant|Yo soy contador]].",
+    "content": {
+      "title": "Job Titles: Accountant",
+      "instructions": "Ordena profesión de contador.",
+      "correctSentence": "[[I am an accountant|Yo soy contador]].",
+      "words": ["[[accountant|contador]].", "[[an|un]]", "[[am|soy]]", "[[I|Yo]]"],
+      "explanation": "I + am + an + job (vowel sound)."
+    },
+    "audioUrl": "audio/a2/unit-2/e30.mp3",
+    "topicName": "Vocabulary"
+  },
+
+  // ==========================================
+  // LESSON 3: BE VERB NEGATIVE & QUESTIONS REVIEW (Exercises 31-45)
+  // ==========================================
+  {
+    "id": "a2-u2-e31",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Be Verb Negative",
+    "difficulty": "medium",
+    "transcript": "[[They are not students|Ellos no son estudiantes]].",
+    "content": {
+      "title": "Be Verb Negative: They",
+      "instructions": "Completa negación con 'they'.",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] _______ [[nurses|enfermeras]].",
+          "options": ["[[is not|no es]]", "[[are not|no son]]", "[[am not|no soy]]"],
+          "correctAnswer": 1,
+          "explanation": "They + are + not."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-2/e31.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e32",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Be Verb Negative",
+    "difficulty": "medium",
+    "transcript": "[[You are not a teacher|Tú no eres profesor]].",
+    "content": {
+      "title": "Be Verb Negative: You",
+      "instructions": "Ordena negación con 'you'.",
+      "correctSentence": "[[You are not a teacher|Tú no eres profesor]].",
+      "words": ["[[teacher|profesor]].", "[[a|un]]", "[[not|no]]", "[[are|eres]]", "[[You|Tú]]"],
+      "explanation": "You + are + not + a + job."
+    },
+    "audioUrl": "audio/a2/unit-2/e32.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e33",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Be Verb Questions",
+    "difficulty": "medium",
+    "transcript": "[[Is your name spelled correctly|¿Tu nombre se deletrea correctamente?]]?",
+    "content": {
+      "title": "Be Verb Questions: Spelling",
+      "instructions": "Pregunta sobre deletreo correcto.",
+      "questions": [
+        {
+          "question": "_______ [[your name|tu nombre]] [[spelled|delettreado]] [[correctly|correctamente]]?",
+          "options": ["[[Is|¿Es]]", "[[Are|¿Eres]]", "[[Does|¿Hace]]"],
+          "correctAnswer": 0,
+          "explanation": "Is + your name + adjective?"
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-2/e33.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e34",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Question Words",
+    "difficulty": "medium",
+    "transcript": "[[What are your hobbies|¿Cuáles son tus hobbies?]]?",
+    "content": {
+      "title": "Question Words: Hobbies",
+      "instructions": "Ordena pregunta sobre hobbies.",
+      "correctSentence": "[[What are your hobbies|¿Cuáles son tus hobbies?]]?",
+      "words": ["[[hobbies|hobbies]]?", "[[your|tus]]", "[[are|son]]", "[[What|¿Cuáles]]"],
+      "explanation": "What + are + your + noun (plural)?"
+    },
+    "audioUrl": "audio/a2/unit-2/e34.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e35",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Be Verb Questions",
+    "difficulty": "medium",
+    "transcript": "[[Who are they|¿Quiénes son?]]?",
+    "content": {
+      "title": "Be Verb Questions: Who",
+      "instructions": "Pregunta sobre identidad.",
+      "questions": [
+        {
+          "question": "_______ [[is|es]] [[she|ella]]?",
+          "options": ["[[What|¿Qué]]", "[[Who|¿Quién]]", "[[Where|¿Dónde]]"],
+          "correctAnswer": 1,
+          "explanation": "Who + is + pronombre?"
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-2/e35.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e36",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Be Verb Negative",
+    "difficulty": "medium",
+    "transcript": "[[It is not correct|No es correcto]].",
+    "content": {
+      "title": "Be Verb Negative: It",
+      "instructions": "Ordena negación con 'it'.",
+      "correctSentence": "[[It is not correct|No es correcto]].",
+      "words": ["[[correct|correcto]].", "[[not|no]]", "[[is|es]]", "[[It|Eso]]"],
+      "explanation": "It + is + not + adjetivo."
+    },
+    "audioUrl": "audio/a2/unit-2/e36.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e37",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Job Titles",
+    "difficulty": "hard",
+    "transcript": "[[Are they accountants|¿Son ellos contadores?]]?",
+    "content": {
+      "title": "Job Titles: Accountant (Plural)",
+      "instructions": "Pregunta en plural sobre profesión.",
+      "questions": [
+        {
+          "question": "_______ [[they|ellos]] [[engineers|ingenieros]]?",
+          "options": ["[[Is|¿Es]]", "[[Are|¿Son]]", "[[Am|¿Soy]]"],
+          "correctAnswer": 1,
+          "explanation": "Are + they + job (plural)?"
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-2/e37.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u2-e38",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Alphabet",
+    "difficulty": "hard",
+    "transcript": "[[How do you pronounce this word|¿Cómo pronuncias esta palabra?]]?",
+    "content": {
+      "title": "Alphabet: Pronunciation",
+      "instructions": "Ordena pregunta sobre pronunciación.",
+      "correctSentence": "[[How do you pronounce this word|¿Cómo pronuncias esta palabra?]]?",
+      "words": ["[[word|palabra]]?", "[[this|esta]]", "[[pronounce|pronuncias]]", "[[you|tú]]", "[[do|haces]]", "[[How|¿Cómo]]"],
+      "explanation": "How + do + you + pronounce?"
+    },
+    "audioUrl": "audio/a2/unit-2/e38.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u2-e39",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Question Words",
+    "difficulty": "hard",
+    "transcript": "[[Which job do you prefer|¿Qué trabajo prefieres?]]?",
+    "content": {
+      "title": "Question Words: Which Job",
+      "instructions": "Pregunta para elegir entre opciones.",
+      "questions": [
+        {
+          "question": "_______ [[job|trabajo]] [[is|es]] [[better|mejor]]?",
+          "options": ["[[What|¿Qué]]", "[[Which|¿Cuál]]", "[[Who|¿Quién]]"],
+          "correctAnswer": 1,
+          "explanation": "'Which' para elegir entre opciones."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-2/e39.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e40",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Be Verb Negative",
+    "difficulty": "hard",
+    "transcript": "[[She is not an architect|Ella no es arquitecta]].",
+    "content": {
+      "title": "Be Verb Negative: Architect",
+      "instructions": "Ordena negación.",
+      "correctSentence": "[[She is not an architect|Ella no es arquitecta]].",
+      "words": ["[[architect|arquitecta]].", "[[an|una]]", "[[not|no]]", "[[is|es]]", "[[She|Ella]]"],
+      "explanation": "She + is + not + an + job (vowel)."
+    },
+    "audioUrl": "audio/a2/unit-2/e40.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u2-e41",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Be Verb Questions",
+    "difficulty": "hard",
+    "transcript": "[[Are you interested in this position|¿Te interesa esta posición?]]?",
+    "content": {
+      "title": "Be Verb Questions: Interest",
+      "instructions": "Pregunta sobre interés.",
+      "questions": [
+        {
+          "question": "_______ [[you|tú]] [[interested|interesado]] [[in|en]] [[this|esto]]?",
+          "options": ["[[Is|¿Es]]", "[[Are|¿Estás]]", "[[Do|¿Haces]]"],
+          "correctAnswer": 1,
+          "explanation": "Are + you + interested + in?"
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-2/e41.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e42",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Question Words",
+    "difficulty": "hard",
+    "transcript": "[[Why are you not a teacher|¿Por qué no eres profesor?]]?",
+    "content": {
+      "title": "Question Words: Why Negative",
+      "instructions": "Ordena pregunta con negación.",
+      "correctSentence": "[[Why are you not a teacher|¿Por qué no eres profesor?]]?",
+      "words": ["[[teacher|profesor]]?", "[[a|un]]", "[[not|no]]", "[[you|tú]]", "[[are|eres]]", "[[Why|¿Por qué]]"],
+      "explanation": "Why + are + you + not?"
+    },
+    "audioUrl": "audio/a2/unit-2/e42.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e43",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Alphabet",
+    "difficulty": "hard",
+    "transcript": "[[The word is A-P-P-L-E|La palabra es A-P-P-L-E]].",
+    "content": {
+      "title": "Alphabet: Word Spelling",
+      "instructions": "Identifica la palabra delettreada.",
+      "questions": [
+        {
+          "question": "[[A-P-P-L-E spells|A-P-P-L-E deletrea]] _______.",
+          "options": ["[[apple|manzana]]", "[[able|capaz]]", "[[apple tree|árbol de manzana]]"],
+          "correctAnswer": 0,
+          "explanation": "A-P-P-L-E deletrea 'apple'."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-2/e43.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u2-e44",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Be Verb Questions",
+    "difficulty": "hard",
+    "transcript": "[[What is your experience|¿Cuál es tu experiencia?]]?",
+    "content": {
+      "title": "Be Verb Questions: Experience",
+      "instructions": "Ordena pregunta sobre experiencia.",
+      "correctSentence": "[[What is your experience|¿Cuál es tu experiencia?]]?",
+      "words": ["[[experience|experiencia]]?", "[[your|tu]]", "[[is|es]]", "[[What|¿Cuál]]"],
+      "explanation": "What + is + your + noun?"
+    },
+    "audioUrl": "audio/a2/unit-2/e44.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e45",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Be Verb Negative",
+    "difficulty": "hard",
+    "transcript": "[[We are not managers|Nosotros no somos gerentes]].",
+    "content": {
+      "title": "Be Verb Negative: Manager",
+      "instructions": "Completa negación de 'manager'.",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] _______ [[managers|gerentes]].",
+          "options": ["[[is not|no es]]", "[[are not|no son]]", "[[am not|no soy]]"],
+          "correctAnswer": 1,
+          "explanation": "They + are + not + job."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-2/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+
+  // ==========================================
+  // LESSON 4: QUESTIONS REVIEW & READING (Exercises 46-60)
+  // ==========================================
+  {
+    "id": "a2-u2-e46",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Question Words",
+    "difficulty": "hard",
+    "transcript": "[[Can you spell your last name|¿Puedes deletrear tu apellido?]]?",
+    "content": {
+      "title": "Questions: Last Name",
+      "instructions": "Ordena pregunta sobre apellido.",
+      "correctSentence": "[[Can you spell your last name|¿Puedes deletrear tu apellido?]]?",
+      "words": ["[[name|apellido]]?", "[[last|último]]", "[[your|tu]]", "[[spell|deletrear]]", "[[you|puedes]]", "[[Can|¿Puedes]]"],
+      "explanation": "Can + you + spell + ...?"
+    },
+    "audioUrl": "audio/a2/unit-2/e46.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e47",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Question Words",
+    "difficulty": "hard",
+    "transcript": "[[How many jobs have you had|¿Cuántos trabajos has tenido?]]?",
+    "content": {
+      "title": "Questions: How Many",
+      "instructions": "Pregunta con 'How many'.",
+      "questions": [
+        {
+          "question": "_______ [[jobs|trabajos]] [[are|hay]] [[here|aquí]]?",
+          "options": ["[[How much|¿Cuánto]]", "[[How many|¿Cuántos]]", "[[How often|¿Con qué frecuencia]]"],
+          "correctAnswer": 1,
+          "explanation": "'How many' para contar."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-2/e47.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e48",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Question Words",
+    "difficulty": "hard",
+    "transcript": "[[What does your father do|¿Qué hace tu padre?]]?",
+    "content": {
+      "title": "Questions: Father's Job",
+      "instructions": "Ordena pregunta sobre padre.",
+      "correctSentence": "[[What does your father do|¿Qué hace tu padre?]]?",
+      "words": ["[[do|hace]]?", "[[father|padre]]", "[[your|tu]]", "[[does|hace]]", "[[What|¿Qué]]"],
+      "explanation": "What + does + your + parent + do?"
+    },
+    "audioUrl": "audio/a2/unit-2/e48.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e49",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Question Words",
+    "difficulty": "hard",
+    "transcript": "[[Who is your manager|¿Quién es tu gerente?]]?",
+    "content": {
+      "title": "Questions: Manager",
+      "instructions": "Pregunta sobre gerente.",
+      "questions": [
+        {
+          "question": "_______ [[is|es]] [[your supervisor|tu supervisor]]?",
+          "options": ["[[What|¿Qué]]", "[[Who|¿Quién]]", "[[Where|¿Dónde]]"],
+          "correctAnswer": 1,
+          "explanation": "'Who' para personas."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-2/e49.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e50",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Question Words",
+    "difficulty": "hard",
+    "transcript": "[[Where do you work|¿Dónde trabajas?]]?",
+    "content": {
+      "title": "Questions: Workplace",
+      "instructions": "Ordena pregunta sobre trabajo.",
+      "correctSentence": "[[Where do you work|¿Dónde trabajas?]]?",
+      "words": ["[[work|trabajas]]?", "[[you|tú]]", "[[do|haces]]", "[[Where|¿Dónde]]"],
+      "explanation": "Where + do + you + verb?"
+    },
+    "audioUrl": "audio/a2/unit-2/e50.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e51",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Question Words",
+    "difficulty": "hard",
+    "transcript": "[[When did you start your job|¿Cuándo empezaste tu trabajo?]]?",
+    "content": {
+      "title": "Questions: Start Date",
+      "instructions": "Pregunta sobre inicio de trabajo.",
+      "questions": [
+        {
+          "question": "_______ [[did|hiciste]] [[you|tú]] [[start|empezaste]] [[here|aquí]]?",
+          "options": ["[[When|¿Cuándo]]", "[[Why|¿Por qué]]", "[[How|¿Cómo]]"],
+          "correctAnswer": 0,
+          "explanation": "'When' para fechas."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-2/e51.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e52",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Job Titles",
+    "difficulty": "hard",
+    "transcript": "[[What position are you applying for|¿Qué posición estás solicitando?]]?",
+    "content": {
+      "title": "Job Titles: Position",
+      "instructions": "Ordena pregunta sobre posición.",
+      "correctSentence": "[[What position are you applying for|¿Qué posición estás solicitando?]]?",
+      "words": ["[[for|para]]?", "[[applying|solicitando]]", "[[you|tú]]", "[[are|estás]]", "[[position|posición]]", "[[What|¿Qué]]"],
+      "explanation": "What + are + you + verb + ...?"
+    },
+    "audioUrl": "audio/a2/unit-2/e52.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u2-e53",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Job Titles",
+    "difficulty": "hard",
+    "transcript": "[[Is he a designer|¿Es él un diseñador?]]?",
+    "content": {
+      "title": "Job Titles: Designer",
+      "instructions": "Pregunta sobre diseñador.",
+      "questions": [
+        {
+          "question": "_______ [[she|ella]] [[a photographer|una fotógrafa]]?",
+          "options": ["[[Is|¿Es]]", "[[Are|¿Son]]", "[[Am|¿Soy]]"],
+          "correctAnswer": 0,
+          "explanation": "Is + she + a + job?"
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-2/e53.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u2-e54",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Alphabet",
+    "difficulty": "hard",
+    "transcript": "[[My initials are J.R|Mis iniciales son J.R]].",
+    "content": {
+      "title": "Alphabet: Initials",
+      "instructions": "Ordena sobre iniciales.",
+      "correctSentence": "[[My initials are J.R|Mis iniciales son J.R]].",
+      "words": ["[[J.R|J.R]].", "[[are|son]]", "[[initials|iniciales]]", "[[My|Mis]]"],
+      "explanation": "My initials + are + letras."
+    },
+    "audioUrl": "audio/a2/unit-2/e54.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u2-e55",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Question Words",
+    "difficulty": "hard",
+    "transcript": "[[What is your professional background|¿Cuál es tu trasfondo profesional?]]?",
+    "content": {
+      "title": "Questions: Professional Background",
+      "instructions": "Pregunta sobre experiencia profesional.",
+      "questions": [
+        {
+          "question": "[[What|¿Qué]] [[is|es]] [[your|tu]] [[experience|experiencia]]?",
+          "options": ["[[Is correct|Es correcto]]", "[[Is good question|Es buena pregunta]]", "[[Grammatically correct|Gramaticalmente correcto]]"],
+          "correctAnswer": 2,
+          "explanation": "What + is + your + noun?"
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-2/e55.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u2-e56",
+    "type": "reading",
+    "level": "A2",
+    "topic": "Reading",
+    "difficulty": "hard",
+    "transcript": "[[Hello, my name is David Smith|Hola, mi nombre es David Smith]]. [[I am an engineer|Soy ingeniero]]. [[I work at a technology company|Trabajo en una empresa de tecnología]]. [[My wife is also an engineer|Mi esposa también es ingeniera]]. [[We both have experience in software development|Ambos tenemos experiencia en desarrollo de software]]. [[Her name is Sarah Johnson|Su nombre es Sarah Johnson]]. [[She spells it S-A-R-A-H|Se deletrea S-A-R-A-H]]. [[We are not managers, but we want to be managers in the future|No somos gerentes, pero queremos serlo en el futuro]]. [[Our office is in New York|Nuestra oficina está en Nueva York]]. [[We both love our jobs|Ambos amamos nuestros trabajos]].",
+    "content": {
+      "title": "Reading: David and Sarah",
+      "instructions": "Lee el texto sobre David y Sarah.",
+      "questions": [
+        {
+          "question": "[[Read and understand the text about David and Sarah|Lee y entiende el texto sobre David y Sarah]].",
+          "options": ["[[I have read the text|He leído el texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click to continue|Haz clic para continuar]]."
+        }
+      ]
+    },
+    "topicName": "Reading"
+  },
+  {
+    "id": "a2-u2-e57",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What is David's profession|¿Cuál es la profesión de David?]]?",
+    "content": {
+      "title": "Comprehension: David's Job",
+      "instructions": "Responde basándote en el texto.",
+      "questions": [
+        {
+          "question": "[[What is David's profession|¿Cuál es la profesión de David?]]?",
+          "options": ["[[He is a teacher|Es profesor]]", "[[He is an engineer|Es ingeniero]]", "[[He is a manager|Es gerente]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice: 'I am an engineer' (Soy ingeniero)."
+        }
+      ]
+    },
+    "topicName": "Reading"
+  },
+  {
+    "id": "a2-u2-e58",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What is Sarah's name spelled|¿Cómo se deletrea el nombre de Sarah?]]?",
+    "content": {
+      "title": "Comprehension: Sarah's Spelling",
+      "instructions": "Responde basándote en el texto.",
+      "questions": [
+        {
+          "question": "[[How is Sarah's name spelled|¿Cómo se deletrea el nombre de Sarah?]]?",
+          "options": ["[[S-A-R-A-H|S-A-R-A-H]]", "[[S-A-R-E-A|S-A-R-E-A]]", "[[S-E-R-A-H|S-E-R-A-H]]"],
+          "correctAnswer": 0,
+          "explanation": "El texto dice: 'S-A-R-A-H' (Se deletrea S-A-R-A-H)."
+        }
+      ]
+    },
+    "topicName": "Reading"
+  },
+  {
+    "id": "a2-u2-e59",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Where is their office|¿Dónde está su oficina?]]?",
+    "content": {
+      "title": "Comprehension: Office Location",
+      "instructions": "Responde basándote en el texto.",
+      "questions": [
+        {
+          "question": "[[Where is their office|¿Dónde está su oficina?]]?",
+          "options": ["[[In Boston|En Boston]]", "[[In New York|En Nueva York]]", "[[In Chicago|En Chicago]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice: 'Our office is in New York' (Nuestra oficina está en Nueva York)."
+        }
+      ]
+    },
+    "topicName": "Reading"
+  },
+  {
+    "id": "a2-u2-e60",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Are David and Sarah managers|¿Son David y Sarah gerentes?]]?",
+    "content": {
+      "title": "Comprehension: Management Status",
+      "instructions": "Responde basándote en el texto.",
+      "questions": [
+        {
+          "question": "[[Are David and Sarah managers now|¿Son David y Sarah gerentes ahora?]]?",
+          "options": ["[[Yes, they are managers|Sí, son gerentes]]", "[[No, they are not managers|No, no son gerentes]]", "[[Maybe, they want to be|Quizás, quieren serlo]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice: 'We are not managers' (No somos gerentes)."
+        }
+      ]
+    },
+    "topicName": "Reading"
   }
 ];
