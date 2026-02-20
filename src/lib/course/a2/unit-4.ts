@@ -1,104 +1,44 @@
-import { Exercise } from '@/lib/exercise-generator';
+import { Exercise } from '@/types/exercise';
 
 export const UNIT_4_EXERCISES: Exercise[] = [
+  // ==========================================
+  // LESSON 1: HAVE GOT BASIC (Exercises 1-15)
+  // ==========================================
   {
     "id": "a2-u4-e1",
-    "type": "flashcard",
+    "type": "multiple-choice",
     "level": "A2",
-    "topic": "Family & Relationships",
-    "difficulty": "medium",
-    "transcript": "Mother. Father. Sister. Brother. Grandmother. Grandfather. Cousin. Aunt. Uncle. Niece. Nephew. Wife. Husband. Child. Parent",
+    "topic": "Have Got",
+    "difficulty": "easy",
+    "transcript": "[[I have got blue eyes|Tengo los ojos azules]].",
     "content": {
-      "title": "Vocabulario Clave",
-      "instructions": "Aprende las palabras más importantes de la unidad.",
-      "items": [
+      "title": "Have Got: I",
+      "instructions": "Selecciona la forma correcta con 'have got'.",
+      "questions": [
         {
-          "front": "[[Mother|Madre]]",
-          "back": "Madre"
-        },
-        {
-          "front": "[[Father|Padre]]",
-          "back": "Padre"
-        },
-        {
-          "front": "[[Sister|Hermana]]",
-          "back": "Hermana"
-        },
-        {
-          "front": "[[Brother|Hermano]]",
-          "back": "Hermano"
-        },
-        {
-          "front": "[[Grandmother|Abuela]]",
-          "back": "Abuela"
-        },
-        {
-          "front": "[[Grandfather|Abuelo]]",
-          "back": "Abuelo"
-        },
-        {
-          "front": "[[Cousin|Primo/a]]",
-          "back": "Primo/a"
-        },
-        {
-          "front": "[[Aunt|Tía]]",
-          "back": "Tía"
-        },
-        {
-          "front": "[[Uncle|Tío]]",
-          "back": "Tío"
-        },
-        {
-          "front": "[[Niece|Sobrina]]",
-          "back": "Sobrina"
-        },
-        {
-          "front": "[[Nephew|Sobrino]]",
-          "back": "Sobrino"
-        },
-        {
-          "front": "[[Wife|Esposa]]",
-          "back": "Esposa"
-        },
-        {
-          "front": "[[Husband|Esposo]]",
-          "back": "Esposo"
-        },
-        {
-          "front": "[[Child|Niño/niña]]",
-          "back": "Niño/Hijo"
-        },
-        {
-          "front": "[[Parent|Progenitor]]",
-          "back": "Progenitor"
+          "question": "[[I|Yo]] _______ [[blue eyes|los ojos azules]].",
+          "options": ["[[have got|tengo]]", "[[has got|tiene]]", "[[am|soy]]"],
+          "correctAnswer": 0,
+          "explanation": "Con 'I' usamos 'have got' para describir características físicas."
         }
       ]
     },
     "audioUrl": "audio/a2/unit-4/e1.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u4-e2",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A2",
-    "topic": "Family & Relationships",
-    "difficulty": "medium",
-    "transcript": "My mother  has got two sisters.",
+    "topic": "Have Got",
+    "difficulty": "easy",
+    "transcript": "[[You have got brown hair|Tienes el cabello marrón]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[My mother|Mi/mis madre]] ([[have got|tener/haber tienes/conseguido]]) _______ [[two sisters|dos sisters]].",
-          "options": [
-            "[[it|eso]]",
-            "[[to|a/para]]",
-            "[[has got|has got]]"
-          ],
-          "correctAnswer": 2,
-          "explanation": "Práctica de la estructura gramatical A2."
-        }
-      ]
+      "title": "Have Got: You",
+      "instructions": "Ordena la oración con 'have got'.",
+      "correctSentence": "[[You have got brown hair|Tienes el cabello marrón]].",
+      "words": ["[[hair|cabello]].", "[[brown|marrón]]", "[[have got|tienes]]", "[[You|Tú]]"],
+      "explanation": "Con 'you' usamos 'have got' para hablar de características físicas."
     },
     "audioUrl": "audio/a2/unit-4/e2.mp3",
     "topicName": "Grammar"
@@ -107,22 +47,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a2-u4-e3",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Family & Relationships",
-    "difficulty": "medium",
-    "transcript": "They  are my cousins.",
+    "topic": "Have Got",
+    "difficulty": "easy",
+    "transcript": "[[He has got a beard|Tiene una barba]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Have Got: He/She",
+      "instructions": "Completa con 'has got' para tercera persona singular.",
       "questions": [
         {
-          "question": "[[They cousins|Ellos]] ([[be|ser/estar]]) _______ [[my|mi/mis cousins]].",
-          "options": [
-            "[[are|son/están]]",
-            "[[to|a/para]]",
-            "[[it|eso]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Práctica de la estructura gramatical A2."
+          "question": "[[She|Ella]] _______ [[long hair|el cabello largo]].",
+          "options": ["[[have got|tengo]]", "[[has got|tiene]]", "[[am|soy]]"],
+          "correctAnswer": 1,
+          "explanation": "Con 'he/she' usamos 'has got'."
         }
       ]
     },
@@ -131,26 +67,17 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a2-u4-e4",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A2",
-    "topic": "Family & Relationships",
-    "difficulty": "medium",
-    "transcript": "How many brothers have you got?",
+    "topic": "Have Got",
+    "difficulty": "easy",
+    "transcript": "[[It has got a long tail|Tiene una cola larga]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[How many brothers got|Cómo many brothers]] _______ [[you|tú/usted tienes/conseguido]]?",
-          "options": [
-            "[[have|tener/haber]]",
-            "[[to|a/para]]",
-            "[[it|eso]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Práctica de la estructura gramatical A2."
-        }
-      ]
+      "title": "Have Got: It",
+      "instructions": "Ordena la oración sobre características de objetos.",
+      "correctSentence": "[[It has got a long tail|Tiene una cola larga]].",
+      "words": ["[[tail|cola]].", "[[long|larga]]", "[[a|una]]", "[[has got|tiene]]", "[[It|Esto]]"],
+      "explanation": "Con 'it' usamos 'has got' para describir características de animales u objetos."
     },
     "audioUrl": "audio/a2/unit-4/e4.mp3",
     "topicName": "Grammar"
@@ -159,22 +86,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a2-u4-e5",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Family & Relationships",
-    "difficulty": "medium",
-    "transcript": "She  doesn't have any children.",
+    "topic": "Have Got",
+    "difficulty": "easy",
+    "transcript": "[[We have got dark skin|Tenemos la piel oscura]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Have Got: We/They",
+      "instructions": "Completa con 'have got' para primera persona plural.",
       "questions": [
         {
-          "question": "[[She children|Ella]] ([[not/have|not/have]]) _______ [[any|alguno/a niños/niñas]].",
-          "options": [
-            "[[it|eso]]",
-            "[[to|a/para]]",
-            "[[doesn't have|doesn't have]]"
-          ],
-          "correctAnswer": 2,
-          "explanation": "Práctica de la estructura gramatical A2."
+          "question": "[[They|Ellos]] _______ [[green eyes|los ojos verdes]].",
+          "options": ["[[have got|tienen]]", "[[has got|tiene]]", "[[am|soy]]"],
+          "correctAnswer": 0,
+          "explanation": "Con 'we/they' usamos 'have got' en forma base."
         }
       ]
     },
@@ -183,202 +106,156 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a2-u4-e6",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A2",
-    "topic": "Family & Relationships",
-    "difficulty": "medium",
-    "transcript": "We  visit our grandparents every Sunday.",
+    "topic": "Physical Description",
+    "difficulty": "easy",
+    "transcript": "[[My sister has got curly hair|Mi hermana tiene el cabello rizado]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[We grandparents every Sunday|Nosotros]] ([[visit|visit]]) _______ [[our|nuestro grandparents every Sunday]].",
-          "options": [
-            "[[it|eso]]",
-            "[[to|a/para]]",
-            "[[visit|visit]]"
-          ],
-          "correctAnswer": 2,
-          "explanation": "Práctica de la estructura gramatical A2."
-        }
-      ]
+      "title": "Family Member Descriptions",
+      "instructions": "Ordena la oración describiendo a un miembro de la familia.",
+      "correctSentence": "[[My sister has got curly hair|Mi hermana tiene el cabello rizado]].",
+      "words": ["[[hair|cabello]].", "[[curly|rizado]]", "[[has got|tiene]]", "[[sister|hermana]]", "[[My|Mi]]"],
+      "explanation": "'My sister has got curly hair' describe las características de la hermana."
     },
     "audioUrl": "audio/a2/unit-4/e6.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a2-u4-e7",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Family & Relationships",
-    "difficulty": "medium",
-    "transcript": "He  is older than his wife.",
+    "topic": "Physical Description",
+    "difficulty": "easy",
+    "transcript": "[[The boy has got a round face|El niño tiene la cara redonda]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Face Shapes",
+      "instructions": "Selecciona la palabra correcta para forma de cara.",
       "questions": [
         {
-          "question": "[[He than his wife|Él]] ([[be|ser/estar]]) _______ [[older|older que (comparativo) su (de él) esposa]].",
-          "options": [
-            "[[is|es/está]]",
-            "[[to|a/para]]",
-            "[[it|eso]]"
-          ],
+          "question": "The girl [[has got|tiene]] an _______ [[face|cara]].",
+          "options": ["[[round|redonda]]", "[[long|larga]]", "[[square|cuadrada]]"],
           "correctAnswer": 0,
-          "explanation": "Práctica de la estructura gramatical A2."
+          "explanation": "'Round face' = cara redonda."
         }
       ]
     },
     "audioUrl": "audio/a2/unit-4/e7.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a2-u4-e8",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A2",
-    "topic": "Family & Relationships",
+    "topic": "Physical Description",
     "difficulty": "medium",
-    "transcript": "Is that your father?",
+    "transcript": "[[He has got a big nose|Tiene la nariz grande]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[Is father|Es/está]] _______ [[your|tu/tus padre]]?",
-          "options": [
-            "[[it|eso]]",
-            "[[that|ese/esa/aquel]]",
-            "[[to|a/para]]"
-          ],
-          "correctAnswer": 1,
-          "explanation": "Práctica de la estructura gramatical A2."
-        }
-      ]
+      "title": "Facial Features",
+      "instructions": "Ordena la oración describiendo características faciales.",
+      "correctSentence": "[[He has got a big nose|Tiene la nariz grande]].",
+      "words": ["[[nose|nariz]].", "[[big|grande]]", "[[a|una]]", "[[has got|tiene]]", "[[He|Él]]"],
+      "explanation": "'He has got a big nose' describe la nariz de alguien."
     },
     "audioUrl": "audio/a2/unit-4/e8.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a2-u4-e9",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Family & Relationships",
+    "topic": "Physical Description",
     "difficulty": "medium",
-    "transcript": "These  are my parents.",
+    "transcript": "[[She has got small ears|Tiene las orejas pequeñas]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Ears",
+      "instructions": "Completa la oración sobre orejas.",
       "questions": [
         {
-          "question": "[[These parents|Estos/estas]] ([[be|ser/estar]]) _______ [[my|mi/mis padres]].",
-          "options": [
-            "[[it|eso]]",
-            "[[to|a/para]]",
-            "[[are|son/están]]"
-          ],
-          "correctAnswer": 2,
-          "explanation": "Práctica de la estructura gramatical A2."
+          "question": "He [[has got|tiene]] _______ [[ears|orejas]].",
+          "options": ["[[big|grandes]]", "[[small|pequeñas]]", "[[tall|altas]]"],
+          "correctAnswer": 0,
+          "explanation": "'Has got big ears' = tiene las orejas grandes."
         }
       ]
     },
     "audioUrl": "audio/a2/unit-4/e9.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a2-u4-e10",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A2",
-    "topic": "Family & Relationships",
+    "topic": "Physical Description",
     "difficulty": "medium",
-    "transcript": "My sister  lives in London.",
+    "transcript": "[[My grandfather has got gray hair|Mi abuelo tiene el cabello gris]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
-      "questions": [
-        {
-          "question": "[[My sister|Mi/mis hermana]] ([[live London|vivir]]) _______ [[in|en Londres]].",
-          "options": [
-            "[[lives|lives]]",
-            "[[to|a/para]]",
-            "[[it|eso]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Práctica de la estructura gramatical A2."
-        }
-      ]
+      "title": "Hair Color",
+      "instructions": "Ordena la oración describiendo color de cabello.",
+      "correctSentence": "[[My grandfather has got gray hair|Mi abuelo tiene el cabello gris]].",
+      "words": ["[[hair|cabello]].", "[[gray|gris]]", "[[has got|tiene]]", "[[grandfather|abuelo]]", "[[My|Mi]]"],
+      "explanation": "'My grandfather has got gray hair' describe el color del cabello del abuelo."
     },
     "audioUrl": "audio/a2/unit-4/e10.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a2-u4-e11",
     "type": "multiple-choice",
     "level": "A2",
-    "topic": "Family & Relationships",
+    "topic": "Physical Description",
     "difficulty": "medium",
-    "transcript": "They  have been married since 2010.",
+    "transcript": "[[The girl has got blonde hair|La niña tiene el cabello rubio]].",
     "content": {
-      "title": "Practica la Gramática",
-      "instructions": "Completa la oración con la opción correcta.",
+      "title": "Hair Colors",
+      "instructions": "Selecciona el color de cabello correcto.",
       "questions": [
         {
-          "question": "[[They since 2010|Ellos]] ([[be|ser/estar]]) _______ [[married|married since 2010]].",
-          "options": [
-            "[[it|eso]]",
-            "[[to|a/para]]",
-            "[[have been|have been]]"
-          ],
-          "correctAnswer": 2,
-          "explanation": "Práctica de la estructura gramatical A2."
+          "question": "She [[has got|tiene]] _______ [[hair|cabello]].",
+          "options": ["[[blonde|rubio]]", "[[black|negro]]", "[[red|rojo]]"],
+          "correctAnswer": 0,
+          "explanation": "'Blonde hair' = cabello rubio."
         }
       ]
     },
     "audioUrl": "audio/a2/unit-4/e11.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a2-u4-e12",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Family & Relationships",
+    "topic": "Physical Description",
     "difficulty": "medium",
-    "transcript": "I have a large family.",
+    "transcript": "[[I have got a slim figure|Tengo una figura esbelta]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I have a large family|Yo tener/haber un/una large familia]].",
-      "words": [
-        "[[I|Yo]]",
-        "[[have|tener/haber]]",
-        "[[a|un/una]]",
-        "[[large|large]]",
-        "[[family|familia]]."
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Body Types",
+      "instructions": "Ordena la oración describiendo tipo de cuerpo.",
+      "correctSentence": "[[I have got a slim figure|Tengo una figura esbelta]].",
+      "words": ["[[figure|figura]].", "[[slim|esbelta]]", "[[a|una]]", "[[have got|tengo]]", "[[I|Yo]]"],
+      "explanation": "'I have got a slim figure' describe tu tipo de cuerpo."
     },
     "audioUrl": "audio/a2/unit-4/e12.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a2-u4-e13",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A2",
-    "topic": "Family & Relationships",
+    "topic": "Physical Description",
     "difficulty": "medium",
-    "transcript": "My mother's name is Maria.",
+    "transcript": "[[He has got a tall body|Tiene un cuerpo alto]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My mother's name is Maria|Mi/mis mother's nombre es/está Maria]].",
-      "words": [
-        "[[Maria|Maria]].",
-        "[[name|nombre]]",
-        "[[mother's|mother's]]",
-        "[[My|Mi/mis]]",
-        "[[is|es/está]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Height",
+      "instructions": "Completa la oración sobre altura.",
+      "questions": [
+        {
+          "question": "She [[has got|tiene]] a _______ [[body|cuerpo]].",
+          "options": ["[[short|bajo]]", "[[tall|alto]]", "[[wide|ancho]]"],
+          "correctAnswer": 1,
+          "explanation": "'Tall body' = cuerpo alto."
+        }
+      ]
     },
     "audioUrl": "audio/a2/unit-4/e13.mp3",
     "topicName": "Vocabulary"
@@ -387,302 +264,941 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a2-u4-e14",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Family & Relationships",
+    "topic": "Physical Description",
     "difficulty": "medium",
-    "transcript": "Do you have any siblings?",
+    "transcript": "[[They have got brown skin|Tienen la piel marrón]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Do you have any siblings|Hacer tú/usted tener/haber alguno/a siblings]]?",
-      "words": [
-        "[[Do|Hacer]]",
-        "[[you|tú/usted]]",
-        "[[have|tener/haber]]",
-        "[[siblings|siblings]]?",
-        "[[any|alguno/a]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Skin Tone",
+      "instructions": "Ordena la oración describiendo color de piel.",
+      "correctSentence": "[[They have got brown skin|Tienen la piel marrón]].",
+      "words": ["[[skin|piel]].", "[[brown|marrón]]", "[[have got|tienen]]", "[[They|Ellos]]"],
+      "explanation": "'They have got brown skin' describe el color de piel."
     },
     "audioUrl": "audio/a2/unit-4/e14.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a2-u4-e15",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A2",
-    "topic": "Family & Relationships",
+    "topic": "Have Got Review",
     "difficulty": "medium",
-    "transcript": "He is my favourite uncle.",
+    "transcript": "[[My brother has got a beard|Mi hermano tiene una barba]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He is my favourite uncle|Él es/está mi/mis favourite uncle]].",
-      "words": [
-        "[[He|Él]]",
-        "[[is|es/está]]",
-        "[[my|mi/mis]]",
-        "[[favourite|favourite]]",
-        "[[uncle|uncle]]."
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Have Got Review",
+      "instructions": "Completa con la forma correcta de 'have got'.",
+      "questions": [
+        {
+          "question": "We _______ [[blue eyes|los ojos azules]].",
+          "options": ["[[has got|tiene]]", "[[have got|tenemos]]", "[[am|soy]]"],
+          "correctAnswer": 1,
+          "explanation": "Con 'we' usamos 'have got' en forma base."
+        }
+      ]
     },
     "audioUrl": "audio/a2/unit-4/e15.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
+
+  // ==========================================
+  // LESSON 2: ADJECTIVE ORDER (Exercises 16-30)
+  // ==========================================
   {
     "id": "a2-u4-e16",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A2",
-    "topic": "Family & Relationships",
+    "topic": "Adjective Order",
     "difficulty": "medium",
-    "transcript": "My grandparents live in the countryside.",
+    "transcript": "[[She has got a big red book|Tiene un libro rojo grande]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My grandparents live in the countryside|Mi/mis grandparents vivir en el/la/los/las countryside]].",
-      "words": [
-        "[[grandparents|grandparents]]",
-        "[[My|Mi/mis]]",
-        "[[live|vivir]]",
-        "[[in|en]]",
-        "[[the|el/la/los/las]]",
-        "[[countryside|countryside]]."
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Adjective Order: Size + Color",
+      "instructions": "Selecciona el orden correcto de adjetivos.",
+      "questions": [
+        {
+          "question": "I have a _______ _______ [[car|coche]].",
+          "options": ["[[big red|rojo grande]]", "[[red big|grande rojo]]", "[[big red|grande rojo]]"],
+          "correctAnswer": 2,
+          "explanation": "En inglés: tamaño + color. 'Big red car' (coche rojo grande)."
+        }
+      ]
     },
     "audioUrl": "audio/a2/unit-4/e16.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u4-e17",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Family & Relationships",
+    "topic": "Adjective Order",
     "difficulty": "medium",
-    "transcript": "She has two daughters and one son.",
+    "transcript": "[[He has got a small yellow phone|Tiene un teléfono amarillo pequeño]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She has two daughters and one son|Ella tiene/ha dos daughters and uno hijo]].",
-      "words": [
-        "[[son|hijo]].",
-        "[[one|uno]]",
-        "[[She|Ella]]",
-        "[[has|tiene/ha]]",
-        "[[two|dos]]",
-        "[[daughters|daughters]]",
-        "[[and|and]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Adjective Order in Context",
+      "instructions": "Ordena la oración con adjetivos en el orden correcto.",
+      "correctSentence": "[[He has a small yellow phone|Tiene un pequeño teléfono amarillo]].",
+      "words": ["[[phone|teléfono]].", "[[yellow|amarillo]]", "[[small|pequeño]]", "[[a|un]]", "[[has|tiene]]", "[[He|Él]]"],
+      "explanation": "Orden: size (pequeño) + color (amarillo) + sustantivo (teléfono)."
     },
     "audioUrl": "audio/a2/unit-4/e17.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u4-e18",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A2",
-    "topic": "Family & Relationships",
+    "topic": "Adjective Order",
     "difficulty": "medium",
-    "transcript": "My cousin is younger than me.",
+    "transcript": "[[The boy has a long black jacket|El niño tiene una chaqueta negra larga]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My cousin is younger than me|Mi/mis cousin es/está younger que (comparativo) me/mí]].",
-      "words": [
-        "[[My|Mi/mis]]",
-        "[[cousin|cousin]]",
-        "[[is|es/está]]",
-        "[[than|que (comparativo)]]",
-        "[[younger|younger]]",
-        "[[me|me/mí]]."
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Adjective Order: Length + Color",
+      "instructions": "Selecciona el orden correcto.",
+      "questions": [
+        {
+          "question": "She has a _______ _______ [[dress|vestido]].",
+          "options": ["[[long black|negro largo]]", "[[black long|largo negro]]", "[[long black|largo negro]]"],
+          "correctAnswer": 2,
+          "explanation": "'Long black dress' sigue el orden: longitud + color."
+        }
+      ]
     },
     "audioUrl": "audio/a2/unit-4/e18.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u4-e19",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Family & Relationships",
+    "topic": "Adjective Order",
     "difficulty": "medium",
-    "transcript": "Are your parents at home?",
+    "transcript": "[[They have old round glasses|Tienen gafas redondas viejas]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[Are your parents at home|Son/están tu/tus padres en casa/hogar]]?",
-      "words": [
-        "[[at|en]]",
-        "[[parents|padres]]",
-        "[[home|casa/hogar]]?",
-        "[[your|tu/tus]]",
-        "[[Are|Son/están]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Adjective Order: Age + Shape",
+      "instructions": "Ordena los adjetivos correctamente.",
+      "correctSentence": "[[They have old round glasses|Tienen gafas redondas viejas]].",
+      "words": ["[[glasses|gafas]].", "[[round|redondas]]", "[[old|viejas]]", "[[have|tienen]]", "[[They|Ellos]]"],
+      "explanation": "Orden: age (old) + shape (round) + sustantivo (glasses)."
     },
     "audioUrl": "audio/a2/unit-4/e19.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u4-e20",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A2",
-    "topic": "Family & Relationships",
+    "topic": "Adjective Order",
     "difficulty": "medium",
-    "transcript": "He is married to a doctor.",
+    "transcript": "[[My mother has a beautiful white sweater|Mi madre tiene un hermoso suéter blanco]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[He is married to a doctor|Él es/está married a/para un/una médico/a]].",
-      "words": [
-        "[[to|a/para]]",
-        "[[He|Él]]",
-        "[[is|es/está]]",
-        "[[a|un/una]]",
-        "[[doctor|médico/a]].",
-        "[[married|married]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Adjective Order: Quality + Color",
+      "instructions": "Selecciona el orden correcto.",
+      "questions": [
+        {
+          "question": "She has a _______ _______ [[hat|sombrero]].",
+          "options": ["[[beautiful white|blanco hermoso]]", "[[white beautiful|hermoso blanco]]", "[[beautiful white|hermoso blanco]]"],
+          "correctAnswer": 2,
+          "explanation": "'Beautiful white hat' sigue el orden: quality + color."
+        }
+      ]
     },
     "audioUrl": "audio/a2/unit-4/e20.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u4-e21",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Family & Relationships",
+    "topic": "Adjective Order",
     "difficulty": "medium",
-    "transcript": "We are very close.",
+    "transcript": "[[I have a comfortable new bed|Tengo una cama nueva cómoda]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[We are very close|Nosotros son/están muy close]].",
-      "words": [
-        "[[close|close]].",
-        "[[very|muy]]",
-        "[[are|son/están]]",
-        "[[We|Nosotros]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Adjective Order: Quality + Age",
+      "instructions": "Ordena los adjetivos en el orden correcto.",
+      "correctSentence": "[[I have a comfortable new bed|Tengo una cama nueva cómoda]].",
+      "words": ["[[bed|cama]].", "[[new|nueva]]", "[[comfortable|cómoda]]", "[[a|una]]", "[[have|tengo]]", "[[I|Yo]]"],
+      "explanation": "Orden: quality (comfortable) + age (new) + sustantivo (bed)."
     },
     "audioUrl": "audio/a2/unit-4/e21.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u4-e22",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A2",
-    "topic": "Family & Relationships",
+    "topic": "Adjective Order",
     "difficulty": "medium",
-    "transcript": "I have got three nephews.",
+    "transcript": "[[He has got thick brown hair|Tiene el cabello marrón grueso]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[I have got three nephews|Yo tener/haber tienes/conseguido tres nephews]].",
-      "words": [
-        "[[nephews|nephews]].",
-        "[[three|tres]]",
-        "[[got|tienes/conseguido]]",
-        "[[have|tener/haber]]",
-        "[[I|Yo]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Adjective Order: Texture + Color",
+      "instructions": "Selecciona el orden correcto para describir cabello.",
+      "questions": [
+        {
+          "question": "She has _______ _______ [[hair|cabello]].",
+          "options": ["[[blonde curly|rizado rubio]]", "[[curly blonde|rubio rizado]]", "[[curly blonde|rizado rubio]]"],
+          "correctAnswer": 2,
+          "explanation": "'Curly blonde hair' sigue el orden: texture + color."
+        }
+      ]
     },
     "audioUrl": "audio/a2/unit-4/e22.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u4-e23",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Family & Relationships",
+    "topic": "Adjective Order",
     "difficulty": "medium",
-    "transcript": "My aunt works in a hospital.",
+    "transcript": "[[They have big dark eyes|Tienen los ojos oscuros grandes]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My aunt works in a hospital|Mi/mis aunt works en un/una hospital]].",
-      "words": [
-        "[[a|un/una]]",
-        "[[hospital|hospital]].",
-        "[[in|en]]",
-        "[[works|works]]",
-        "[[aunt|aunt]]",
-        "[[My|Mi/mis]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Adjective Order: Size + Color (Eyes)",
+      "instructions": "Ordena los adjetivos para describir ojos.",
+      "correctSentence": "[[They have big dark eyes|Tienen los ojos oscuros grandes]].",
+      "words": ["[[eyes|ojos]].", "[[dark|oscuros]]", "[[big|grandes]]", "[[have|tienen]]", "[[They|Ellos]]"],
+      "explanation": "Orden: size (big) + color (dark) + sustantivo (eyes)."
     },
     "audioUrl": "audio/a2/unit-4/e23.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u4-e24",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A2",
-    "topic": "Family & Relationships",
+    "topic": "Adjective Order",
     "difficulty": "medium",
-    "transcript": "They are twins.",
+    "transcript": "[[My sister has a lovely pink dress|Mi hermana tiene un lindo vestido rosa]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[They are twins|Ellos son/están twins]].",
-      "words": [
-        "[[twins|twins]].",
-        "[[They|Ellos]]",
-        "[[are|son/están]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Adjective Order Multiple",
+      "instructions": "Selecciona el orden correcto con múltiples adjetivos.",
+      "questions": [
+        {
+          "question": "She has a _______ _______ _______ [[bag|bolsa]].",
+          "options": ["[[beautiful big red|grande roja hermosa]]", "[[beautiful big red|hermosa grande roja]]", "[[beautiful big red|hermosa grande roja]]"],
+          "correctAnswer": 2,
+          "explanation": "Orden: quality (beautiful) + size (big) + color (red)."
+        }
+      ]
     },
     "audioUrl": "audio/a2/unit-4/e24.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u4-e25",
     "type": "sentence-building",
     "level": "A2",
-    "topic": "Family & Relationships",
+    "topic": "Adjective Order",
     "difficulty": "medium",
-    "transcript": "She is my only sister.",
+    "transcript": "[[He has a modern rectangular office|Tiene una oficina rectangular moderna]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[She is my only sister|Ella es/está mi/mis only hermana]].",
-      "words": [
-        "[[only|only]]",
-        "[[my|mi/mis]]",
-        "[[is|es/está]]",
-        "[[sister|hermana]].",
-        "[[She|Ella]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Adjective Order: Age + Shape",
+      "instructions": "Ordena los adjetivos correctamente.",
+      "correctSentence": "[[He has a modern rectangular office|Tiene una oficina rectangular moderna]].",
+      "words": ["[[office|oficina]].", "[[rectangular|rectangular]]", "[[modern|moderna]]", "[[a|una]]", "[[has|tiene]]", "[[He|Él]]"],
+      "explanation": "Orden: age (modern) + shape (rectangular) + sustantivo (office)."
     },
     "audioUrl": "audio/a2/unit-4/e25.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a2-u4-e26",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A2",
-    "topic": "Family & Relationships",
-    "difficulty": "medium",
-    "transcript": "My husband is from Canada.",
+    "topic": "Adjective Order",
+    "difficulty": "hard",
+    "transcript": "[[I have a small old round table|Tengo una mesa pequeña redonda vieja]].",
     "content": {
-      "title": "Construcción de Oraciones",
-      "instructions": "Ordena las palabras para formar una oración correcta.",
-      "correctSentence": "[[My husband is from Canada|Mi/mis esposo es/está de/desde Canada]].",
-      "words": [
-        "[[husband|esposo]]",
-        "[[from|de/desde]]",
-        "[[Canada|Canada]].",
-        "[[My|Mi/mis]]",
-        "[[is|es/está]]"
-      ],
-      "explanation": "Practica el orden de las palabras en nivel A2."
+      "title": "Adjective Order Complex",
+      "instructions": "Selecciona el orden correcto con tres adjetivos.",
+      "questions": [
+        {
+          "question": "He has a _______ _______ _______ [[notebook|cuaderno]].",
+          "options": ["[[small old blue|azul viejo pequeño]]", "[[small old blue|pequeño viejo azul]]", "[[small old blue|pequeño viejo azul]]"],
+          "correctAnswer": 2,
+          "explanation": "Orden: size (small) + age (old) + color (blue)."
+        }
+      ]
     },
     "audioUrl": "audio/a2/unit-4/e26.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u4-e27",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Adjective Order",
+    "difficulty": "hard",
+    "transcript": "[[My grandmother has a beautiful old silver ring|Mi abuela tiene un anillo de plata antiguo hermoso]].",
+    "content": {
+      "title": "Adjective Order Complex",
+      "instructions": "Ordena los adjetivos en el orden correcto.",
+      "correctSentence": "[[My grandmother has a beautiful old silver ring|Mi abuela tiene un anillo de plata antiguo hermoso]].",
+      "words": ["[[ring|anillo]].", "[[silver|plata]]", "[[old|antiguo]]", "[[beautiful|hermoso]]", "[[a|un]]", "[[has|tiene]]", "[[grandmother|abuela]]", "[[My|Mi]]"],
+      "explanation": "Orden: quality (beautiful) + age (old) + color/material (silver)."
+    },
+    "audioUrl": "audio/a2/unit-4/e27.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u4-e28",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Adjective Order",
+    "difficulty": "hard",
+    "transcript": "[[They have comfortable long black shoes|Tienen zapatos negros largos cómodos]].",
+    "content": {
+      "title": "Adjective Order for Clothing",
+      "instructions": "Selecciona el orden correcto para ropa.",
+      "questions": [
+        {
+          "question": "She has a _______ _______ _______ [[coat|abrigo]].",
+          "options": ["[[nice long warm|cálido largo bonito]]", "[[nice long warm|bonito largo cálido]]", "[[nice long warm|bonito largo cálido]]"],
+          "correctAnswer": 2,
+          "explanation": "Orden: quality (nice) + size (long) + quality (warm)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-4/e28.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u4-e29",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Adjective Order",
+    "difficulty": "hard",
+    "transcript": "[[He wears an elegant dark expensive watch|Usa un reloj caro oscuro elegante]].",
+    "content": {
+      "title": "Adjective Order Multiple",
+      "instructions": "Ordena los adjetivos correctamente.",
+      "correctSentence": "[[He has an elegant dark expensive watch|Tiene un reloj caro oscuro elegante]].",
+      "words": ["[[watch|reloj]].", "[[expensive|caro]]", "[[dark|oscuro]]", "[[elegant|elegante]]", "[[an|un]]", "[[has|tiene]]", "[[He|Él]]"],
+      "explanation": "Orden: quality (elegant) + color (dark) + quality (expensive)."
+    },
+    "audioUrl": "audio/a2/unit-4/e29.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u4-e30",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Adjective Order Review",
+    "difficulty": "hard",
+    "transcript": "[[My family has a wonderful new house|Mi familia tiene una casa nueva maravillosa]].",
+    "content": {
+      "title": "Adjective Order Review",
+      "instructions": "Selecciona el orden correcto de adjetivos.",
+      "questions": [
+        {
+          "question": "She has a _______ _______ _______ [[car|coche]].",
+          "options": ["[[beautiful new red|rojo nuevo hermoso]]", "[[beautiful new red|hermoso nuevo rojo]]", "[[beautiful new red|hermoso nuevo rojo]]"],
+          "correctAnswer": 2,
+          "explanation": "Orden: quality (beautiful) + age (new) + color (red)."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-4/e30.mp3",
+    "topicName": "Grammar"
+  },
+
+  // ==========================================
+  // LESSON 3: DESCRIBING PEOPLE (Exercises 31-45)
+  // ==========================================
+  {
+    "id": "a2-u4-e31",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Describing People",
+    "difficulty": "medium",
+    "transcript": "[[She is tall and slim|Es alta y delgada]].",
+    "content": {
+      "title": "Height and Build",
+      "instructions": "Completa la descripción física.",
+      "questions": [
+        {
+          "question": "He [[is|es]] _______ [[and|y]] [[slim|delgado]].",
+          "options": ["[[short|bajo]]", "[[tall|alto]]", "[[heavy|pesado]]"],
+          "correctAnswer": 1,
+          "explanation": "'He is tall and slim' describe su altura y constitución."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-4/e31.mp3",
     "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e32",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Describing People",
+    "difficulty": "medium",
+    "transcript": "[[My friend has got a round face and kind eyes|Mi amigo tiene la cara redonda y ojos amables]].",
+    "content": {
+      "title": "Face Description",
+      "instructions": "Ordena la descripción de la cara.",
+      "correctSentence": "[[She has a round face|Tiene la cara redonda]].",
+      "words": ["[[face|cara]].", "[[round|redonda]]", "[[a|una]]", "[[has|tiene]]", "[[She|Ella]]"],
+      "explanation": "'She has a round face' describe la forma de la cara."
+    },
+    "audioUrl": "audio/a2/unit-4/e32.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e33",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Describing People",
+    "difficulty": "medium",
+    "transcript": "[[He has brown eyes and a beard|Tiene los ojos marrones y una barba]].",
+    "content": {
+      "title": "Eyes and Facial Hair",
+      "instructions": "Completa la descripción de características faciales.",
+      "questions": [
+        {
+          "question": "She [[has got|tiene]] _______ [[eyes|ojos]] [[and|y]] [[long hair|cabello largo]].",
+          "options": ["[[blue|azules]]", "[[green|verdes]]", "[[brown|marrones]]"],
+          "correctAnswer": 0,
+          "explanation": "'She has got blue eyes' describe el color de los ojos."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-4/e33.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e34",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Describing People",
+    "difficulty": "medium",
+    "transcript": "[[My mother has got dark curly hair|Mi madre tiene el cabello rizado oscuro]].",
+    "content": {
+      "title": "Hair Description",
+      "instructions": "Ordena la descripción del cabello.",
+      "correctSentence": "[[She has dark curly hair|Tiene el cabello rizado oscuro]].",
+      "words": ["[[hair|cabello]].", "[[curly|rizado]]", "[[dark|oscuro]]", "[[has|tiene]]", "[[She|Ella]]"],
+      "explanation": "'She has dark curly hair' describe el tipo y color del cabello."
+    },
+    "audioUrl": "audio/a2/unit-4/e34.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e35",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Describing People",
+    "difficulty": "medium",
+    "transcript": "[[The boy is wearing a blue jacket|El niño lleva una chaqueta azul]].",
+    "content": {
+      "title": "Clothing Description",
+      "instructions": "Completa la descripción de ropa.",
+      "questions": [
+        {
+          "question": "She [[is wearing|lleva]] a _______ [[dress|vestido]].",
+          "options": ["[[red|rojo]]", "[[green|verde]]", "[[yellow|amarillo]]"],
+          "correctAnswer": 0,
+          "explanation": "'She is wearing a red dress' describe lo que alguien lleva puesto."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-4/e35.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e36",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Describing People",
+    "difficulty": "medium",
+    "transcript": "[[She is attractive with beautiful features|Es atractiva con características hermosas]].",
+    "content": {
+      "title": "General Appearance",
+      "instructions": "Ordena la descripción general de apariencia.",
+      "correctSentence": "[[She is attractive|Es atractiva]].",
+      "words": ["[[attractive|atractiva]].", "[[is|es]]", "[[She|Ella]]"],
+      "explanation": "'She is attractive' describe la apariencia general de alguien."
+    },
+    "audioUrl": "audio/a2/unit-4/e36.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e37",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Describing People",
+    "difficulty": "medium",
+    "transcript": "[[He looks young for his age|Se ve joven para su edad]].",
+    "content": {
+      "title": "Age Appearance",
+      "instructions": "Completa la descripción de edad aparente.",
+      "questions": [
+        {
+          "question": "She _______ [[young|joven]] for [[her age|su edad]].",
+          "options": ["[[looks|parece]]", "[[is|es]]", "[[has|tiene]]"],
+          "correctAnswer": 0,
+          "explanation": "'She looks young' describe cómo aparenta edad alguien."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-4/e37.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e38",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Describing People",
+    "difficulty": "medium",
+    "transcript": "[[He has a friendly smile|Tiene una sonrisa amistosa]].",
+    "content": {
+      "title": "Smile Description",
+      "instructions": "Ordena la descripción de la sonrisa.",
+      "correctSentence": "[[He has a friendly smile|Tiene una sonrisa amistosa]].",
+      "words": ["[[smile|sonrisa]].", "[[friendly|amistosa]]", "[[a|una]]", "[[has|tiene]]", "[[He|Él]]"],
+      "explanation": "'He has a friendly smile' describe la sonrisa de alguien."
+    },
+    "audioUrl": "audio/a2/unit-4/e38.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e39",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Describing People",
+    "difficulty": "medium",
+    "transcript": "[[She has a slim waist and nice figure|Tiene una cintura delgada y una buena figura]].",
+    "content": {
+      "title": "Figure Description",
+      "instructions": "Completa la descripción de la figura.",
+      "questions": [
+        {
+          "question": "He [[has|tiene]] a _______ [[waist|cintura]].",
+          "options": ["[[slim|delgada]]", "[[wide|ancha]]", "[[thick|gruesa]]"],
+          "correctAnswer": 0,
+          "explanation": "'He has a slim waist' describe la cintura delgada."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-4/e39.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e40",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Describing People",
+    "difficulty": "medium",
+    "transcript": "[[My sister is wearing glasses|Mi hermana lleva gafas]].",
+    "content": {
+      "title": "Glasses/Spectacles",
+      "instructions": "Ordena la oración sobre lentes/gafas.",
+      "correctSentence": "[[She is wearing glasses|Lleva gafas]].",
+      "words": ["[[glasses|gafas]].", "[[wearing|llevando]]", "[[is|está]]", "[[She|Ella]]"],
+      "explanation": "'She is wearing glasses' indica que alguien lleva gafas."
+    },
+    "audioUrl": "audio/a2/unit-4/e40.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e41",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Describing People",
+    "difficulty": "hard",
+    "transcript": "[[He is bald with a mustache|Es calvo con bigote]].",
+    "content": {
+      "title": "Head Description",
+      "instructions": "Completa la descripción de la cabeza.",
+      "questions": [
+        {
+          "question": "He [[is|es]] _______ [[with|con]] [[a beard|una barba]].",
+          "options": ["[[hairy|cabelludo]]", "[[bald|calvo]]", "[[long-haired|cabello largo]]"],
+          "correctAnswer": 1,
+          "explanation": "'He is bald' describe que no tiene cabello."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-4/e41.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e42",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Describing People",
+    "difficulty": "hard",
+    "transcript": "[[She has a scar on her face|Tiene una cicatriz en la cara]].",
+    "content": {
+      "title": "Distinctive Features",
+      "instructions": "Ordena la descripción de características distintivas.",
+      "correctSentence": "[[She has a scar on her face|Tiene una cicatriz en la cara]].",
+      "words": ["[[face|cara]].", "[[her|su]]", "[[on|en]]", "[[scar|cicatriz]]", "[[a|una]]", "[[has|tiene]]", "[[She|Ella]]"],
+      "explanation": "'She has a scar on her face' describe una característica distintiva."
+    },
+    "audioUrl": "audio/a2/unit-4/e42.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e43",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Describing People",
+    "difficulty": "hard",
+    "transcript": "[[He has freckles on his nose|Tiene pecas en la nariz]].",
+    "content": {
+      "title": "Skin Features",
+      "instructions": "Completa la descripción de características de la piel.",
+      "questions": [
+        {
+          "question": "She [[has|tiene]] _______ [[on|en]] [[her|su]] [[cheeks|mejillas]].",
+          "options": ["[[freckles|pecas]]", "[[wrinkles|arrugas]]", "[[spots|manchas]]"],
+          "correctAnswer": 0,
+          "explanation": "'She has freckles' describe las pecas en la cara."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-4/e43.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e44",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Describing People",
+    "difficulty": "hard",
+    "transcript": "[[My grandfather has wrinkles and white hair|Mi abuelo tiene arrugas y cabello blanco]].",
+    "content": {
+      "title": "Age-Related Features",
+      "instructions": "Ordena la descripción de características por edad.",
+      "correctSentence": "[[He has wrinkles and white hair|Tiene arrugas y cabello blanco]].",
+      "words": ["[[hair|cabello]].", "[[white|blanco]]", "[[and|y]]", "[[wrinkles|arrugas]]", "[[has|tiene]]", "[[He|Él]]"],
+      "explanation": "'He has wrinkles and white hair' describe características de edad avanzada."
+    },
+    "audioUrl": "audio/a2/unit-4/e44.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e45",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Describing People Review",
+    "difficulty": "hard",
+    "transcript": "[[She is short with long red hair|Es baja con cabello rojo largo]].",
+    "content": {
+      "title": "Overall Description",
+      "instructions": "Completa la descripción general de persona.",
+      "questions": [
+        {
+          "question": "He [[is|es]] [[tall|alto]] [[with|con]] _______ [[eyes|ojos]].",
+          "options": ["[[green|verdes]]", "[[blue|azules]]", "[[brown|marrones]]"],
+          "correctAnswer": 1,
+          "explanation": "Describing overall appearance with height and eye color."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-4/e45.mp3",
+    "topicName": "Vocabulary"
+  },
+
+  // ==========================================
+  // LESSON 4: MIXED PRACTICE & READING (Exercises 46-60)
+  // ==========================================
+  {
+    "id": "a2-u4-e46",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Mixed Practice",
+    "difficulty": "hard",
+    "transcript": "[[My friend is wearing a beautiful new red jacket|Mi amigo lleva una hermosa chaqueta roja nueva]].",
+    "content": {
+      "title": "Mixed Description",
+      "instructions": "Completa la descripción mixta.",
+      "questions": [
+        {
+          "question": "She [[is wearing|lleva]] a _______ _______ _______ [[dress|vestido]].",
+          "options": ["[[beautiful new blue|azul nuevo hermoso]]", "[[beautiful new blue|hermoso nuevo azul]]", "[[beautiful new blue|hermoso nuevo azul]]"],
+          "correctAnswer": 2,
+          "explanation": "Orden: quality + age + color."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-4/e46.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u4-e47",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Mixed Practice",
+    "difficulty": "hard",
+    "transcript": "[[She has a beautiful round face with big dark eyes|Tiene una hermosa cara redonda con ojos oscuros grandes]].",
+    "content": {
+      "title": "Complex Description",
+      "instructions": "Ordena la descripción compleja.",
+      "correctSentence": "[[She has a beautiful round face|Tiene una hermosa cara redonda]].",
+      "words": ["[[face|cara]].", "[[round|redonda]]", "[[beautiful|hermosa]]", "[[a|una]]", "[[has|tiene]]", "[[She|Ella]]"],
+      "explanation": "Orden: quality (beautiful) + shape (round)."
+    },
+    "audioUrl": "audio/a2/unit-4/e47.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a2-u4-e48",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Mixed Practice",
+    "difficulty": "hard",
+    "transcript": "[[Tom is tall and athletic|Tom es alto y atlético]].",
+    "content": {
+      "title": "Personality + Appearance",
+      "instructions": "Distingue entre descripción de apariencia y personalidad.",
+      "questions": [
+        {
+          "question": "She [[is|es]] _______ [[and|y]] [[intelligent|inteligente]].",
+          "options": ["[[beautiful|hermosa]]", "[[tall|alta]]", "[[slim|delgada]]"],
+          "correctAnswer": 0,
+          "explanation": "'She is beautiful and intelligent' mezcla apariencia con personalidad."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-4/e48.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e49",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Mixed Practice",
+    "difficulty": "hard",
+    "transcript": "[[He looks serious but friendly|Se ve serio pero amistoso]].",
+    "content": {
+      "title": "Expression Description",
+      "instructions": "Ordena la descripción de expresión.",
+      "correctSentence": "[[He looks friendly|Se ve amistoso]].",
+      "words": ["[[friendly|amistoso]].", "[[looks|parece]]", "[[He|Él]]"],
+      "explanation": "'He looks friendly' describe la expresión de la cara."
+    },
+    "audioUrl": "audio/a2/unit-4/e49.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e50",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Mixed Practice",
+    "difficulty": "hard",
+    "transcript": "[[She is dressed elegantly|Está vestida elegantemente]].",
+    "content": {
+      "title": "Overall Style",
+      "instructions": "Completa la descripción de estilo general.",
+      "questions": [
+        {
+          "question": "He is dressed very _______ [[and|y]] [[fashionably|a la moda]].",
+          "options": ["[[casually|informalmente]]", "[[carefully|cuidadosamente]]", "[[smartly|elegantemente]]"],
+          "correctAnswer": 2,
+          "explanation": "'He is dressed smartly' describe cómo alguien se viste."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-4/e50.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e51",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Mixed Practice",
+    "difficulty": "hard",
+    "transcript": "[[They are wearing matching outfits|Llevan atuendos a juego]].",
+    "content": {
+      "title": "Coordinated Clothing",
+      "instructions": "Ordena la descripción de ropa coordinada.",
+      "correctSentence": "[[They are wearing matching outfits|Llevan atuendos a juego]].",
+      "words": ["[[outfits|atuendos]].", "[[matching|a juego]]", "[[wearing|llevando]]", "[[are|están]]", "[[They|Ellos]]"],
+      "explanation": "'They are wearing matching outfits' describe ropa coordinada."
+    },
+    "audioUrl": "audio/a2/unit-4/e51.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e52",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Mixed Practice",
+    "difficulty": "hard",
+    "transcript": "[[The athlete has a muscular build|El atleta tiene una constitución musculosa]].",
+    "content": {
+      "title": "Athletic Build",
+      "instructions": "Completa la descripción de constitución atlética.",
+      "questions": [
+        {
+          "question": "He [[has|tiene]] a _______ [[build|constitución]].",
+          "options": ["[[strong|fuerte]]", "[[muscular|musculosa]]", "[[athletic|atlética]]"],
+          "correctAnswer": 1,
+          "explanation": "'He has a muscular build' describe la constitución física."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-4/e52.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e53",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Mixed Practice",
+    "difficulty": "hard",
+    "transcript": "[[She has an oval-shaped face|Tiene la cara ovalada]].",
+    "content": {
+      "title": "Face Shapes",
+      "instructions": "Ordena la descripción de formas faciales.",
+      "correctSentence": "[[She has an oval face|Tiene la cara ovalada]].",
+      "words": ["[[face|cara]].", "[[oval|ovalada]]", "[[an|una]]", "[[has|tiene]]", "[[She|Ella]]"],
+      "explanation": "'She has an oval face' describe la forma de la cara."
+    },
+    "audioUrl": "audio/a2/unit-4/e53.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e54",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Mixed Practice",
+    "difficulty": "hard",
+    "transcript": "[[He has a deep voice|Tiene una voz profunda]].",
+    "content": {
+      "title": "Voice Description",
+      "instructions": "Completa la descripción de la voz.",
+      "questions": [
+        {
+          "question": "She [[has|tiene]] a _______ [[voice|voz]].",
+          "options": ["[[soft|suave]]", "[[high|aguda]]", "[[clear|clara]]"],
+          "correctAnswer": 2,
+          "explanation": "'She has a clear voice' describe cualidades de la voz."
+        }
+      ]
+    },
+    "audioUrl": "audio/a2/unit-4/e54.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e55",
+    "type": "sentence-building",
+    "level": "A2",
+    "topic": "Mixed Practice",
+    "difficulty": "hard",
+    "transcript": "[[She has a warm smile and kind eyes|Tiene una sonrisa cálida y ojos amables]].",
+    "content": {
+      "title": "Character Expression",
+      "instructions": "Ordena la descripción que revela carácter.",
+      "correctSentence": "[[She has a warm smile|Tiene una sonrisa cálida]].",
+      "words": ["[[smile|sonrisa]].", "[[warm|cálida]]", "[[a|una]]", "[[has|tiene]]", "[[She|Ella]]"],
+      "explanation": "'She has a warm smile' describe una sonrisa que expresa calidez."
+    },
+    "audioUrl": "audio/a2/unit-4/e55.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a2-u4-e56",
+    "type": "reading",
+    "level": "A2",
+    "topic": "Reading",
+    "difficulty": "hard",
+    "transcript": "[[Hello, I would like to tell you about my best friend Sophie|Hola, me gustaría hablar sobre mi mejor amiga Sophie]]. [[She is twenty years old|Tiene veinte años]]. [[Sophie has got a beautiful round face with big blue eyes|Sophie tiene una hermosa cara redonda con ojos azules grandes]]. [[She has long curly blonde hair that reaches her shoulders|Tiene un cabello rubio rizado largo que le llega a los hombros]]. [[She is tall and slim|Es alta y delgada]]. [[She has a warm smile and a friendly personality|Tiene una sonrisa cálida y una personalidad amistosa]]. [[She loves wearing colorful clothes, especially beautiful bright dresses|Le encanta usar ropa colorida, especialmente hermosos vestidos brillantes]]. [[She is wearing a red jacket today|Hoy lleva una chaqueta roja]]. [[Everyone likes Sophie because she is kind and beautiful|A todos les gusta Sophie porque es amable y hermosa]]. [[She is my best friend and I am very proud to know her|Es mi mejor amiga y estoy muy orgulloso de conocerla]].",
+    "content": {
+      "title": "Reading: My Best Friend Sophie",
+      "instructions": "Lee el texto sobre Sophie.",
+      "questions": [
+        {
+          "question": "[[Read and understand the text about Sophie|Lee y entiende el texto sobre Sophie]].",
+          "options": ["[[I have read the text|He leído el texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click to continue|Haz clic para continuar]]."
+        }
+      ]
+    },
+    "topicName": "Reading"
+  },
+  {
+    "id": "a2-u4-e57",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[How old is Sophie|¿Cuántos años tiene Sophie?]]?",
+    "content": {
+      "title": "Comprehension: Sophie's Age",
+      "instructions": "Responde basándote en el texto.",
+      "questions": [
+        {
+          "question": "[[How old is Sophie|¿Cuántos años tiene Sophie?]]?",
+          "options": ["[[She is 18 years old|Tiene 18 años]]", "[[She is 20 years old|Tiene 20 años]]", "[[She is 25 years old|Tiene 25 años]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice: 'She is twenty years old' (Tiene veinte años)."
+        }
+      ]
+    },
+    "topicName": "Reading"
+  },
+  {
+    "id": "a2-u4-e58",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What color are Sophie's eyes|¿Qué color tienen los ojos de Sophie?]]?",
+    "content": {
+      "title": "Comprehension: Eye Color",
+      "instructions": "Responde basándote en el texto.",
+      "questions": [
+        {
+          "question": "[[What color are Sophie's eyes|¿Qué color tienen los ojos de Sophie?]]?",
+          "options": ["[[They are brown|Son marrones]]", "[[They are blue|Son azules]]", "[[They are green|Son verdes]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice: 'Sophie has got big blue eyes' (Sophie tiene ojos azules grandes)."
+        }
+      ]
+    },
+    "topicName": "Reading"
+  },
+  {
+    "id": "a2-u4-e59",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What is Sophie's hair like|¿Cómo es el cabello de Sophie?]]?",
+    "content": {
+      "title": "Comprehension: Hair Description",
+      "instructions": "Responde basándote en el texto.",
+      "questions": [
+        {
+          "question": "[[Sophie's hair is|El cabello de Sophie es]]...",
+          "options": ["[[short and straight|corto y liso]]", "[[long curly and blonde|largo, rizado y rubio]]", "[[short curly and brown|corto, rizado y marrón]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice: 'She has long curly blonde hair' (Tiene un cabello rubio rizado largo)."
+        }
+      ]
+    },
+    "topicName": "Reading"
+  },
+  {
+    "id": "a2-u4-e60",
+    "type": "multiple-choice",
+    "level": "A2",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What color is the jacket Sophie is wearing today|¿Qué color tiene la chaqueta que Sophie lleva hoy?]]?",
+    "content": {
+      "title": "Comprehension: Clothing",
+      "instructions": "Responde basándote en el texto.",
+      "questions": [
+        {
+          "question": "[[What color is Sophie's jacket today|¿Qué color tiene la chaqueta de Sophie hoy?]]?",
+          "options": ["[[It is blue|Es azul]]", "[[It is red|Es roja]]", "[[It is green|Es verde]]"],
+          "correctAnswer": 1,
+          "explanation": "El texto dice: 'She is wearing a red jacket today' (Hoy lleva una chaqueta roja)."
+        }
+      ]
+    },
+    "topicName": "Reading"
   }
 ];
