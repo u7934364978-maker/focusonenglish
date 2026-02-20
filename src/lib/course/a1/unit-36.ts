@@ -58,7 +58,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Identifica la parte del cuerpo.",
       "questions": [
         {
-          "question": "[[My|Mi]] (_____) [[hurts.|duele.]]",
+          "question": "[[My|Mi ... duele.]] (_____) [[hurts.|]]",
           "options": ["[[back|espalda]]", "[[front|frente]]", "[[arm|brazo]]"],
           "correctAnswer": 0,
           "explanation": "'Back' es espalda."
@@ -190,7 +190,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Identifica la parte del cuerpo.",
       "questions": [
         {
-          "question": "[[My|Mi]] (_____) [[is broken.|está rota.]]",
+          "question": "[[My|Mi ... está rota.]] (_____) [[is broken.|]]",
           "options": ["[[leg|pierna]]", "[[arm|brazo]]", "[[finger|dedo]]"],
           "correctAnswer": 0,
           "explanation": "'Leg' es pierna."
@@ -256,7 +256,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Identifica el síntoma.",
       "questions": [
         {
-          "question": "[[She has a|Ella tiene dolor de]] (_____) [[ache.]]",
+          "question": "[[She has a|Ella tiene dolor de]] (_____) [[ache|]] .",
           "options": ["[[stomach|estómago]]", "[[back|espalda]]", "[[ear|oído]]"],
           "correctAnswer": 0,
           "explanation": "'Stomach ache' es dolor de estómago."
@@ -278,7 +278,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Identifica la parte del cuerpo.",
       "questions": [
         {
-          "question": "[[My|Mis]] (_____) [[are long.|son largos.]]",
+          "question": "[[My|Mis ... son largos.]] (_____) [[are long.|]]",
           "options": ["[[arms|brazos]]", "[[legs|piernas]]", "[[shoulders|hombros]]"],
           "correctAnswer": 0,
           "explanation": "'Arms' son los brazos."
@@ -300,7 +300,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo de bienestar.",
       "questions": [
         {
-          "question": "[[Keep a|Mantén una dieta]] (_____) [[diet.]]",
+          "question": "[[Keep a|Mantén una dieta ...]] (_____) [[diet|dieta]] .",
           "options": ["[[healthy|saludable]]", "[[bad|mala]]", "[[fast|rápida]]"],
           "correctAnswer": 0,
           "explanation": "'Healthy' es saludable."
@@ -366,7 +366,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Identifica la parte del cuerpo (plural irregular).",
       "questions": [
         {
-          "question": "[[My|Mis]] (_____) [[are cold.|están fríos.]]",
+          "question": "[[My|Mis ... están fríos.]] (_____) [[are cold.|]]",
           "options": ["[[feet|pies]]", "[[foots|pies (incorrecto)]]", "[[hands|manos]]"],
           "correctAnswer": 0,
           "explanation": "'Feet' es el plural de 'foot'."
@@ -456,7 +456,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'should' para dar consejo.",
       "questions": [
         {
-          "question": "[[You|Tú]] (_____) [[go to the doctor.]]",
+          "question": "[[You|Tú]] (_____) [[go|ir]] [[to|a]] [[the|el]] [[doctor.|médico.]]",
           "options": ["[[should|deberías]]", "[[have|tienes]]", "[[must|debes (obligación)]]"],
           "correctAnswer": 0,
           "explanation": "'Should' se usa para dar consejos o recomendaciones."
@@ -478,7 +478,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'shouldn't' para consejo negativo.",
       "questions": [
         {
-          "question": "[[You|Tú]] (_____) [[eat so much sugar.]]",
+          "question": "[[You|Tú]] (_____) [[eat|comas]] [[so|tan]] [[much|mucho]] [[sugar.|azúcar.]]",
           "options": ["[[shouldn't|no deberías]]", "[[don't|no haces]]", "[[can't|no puedes]]"],
           "correctAnswer": 0,
           "explanation": "'Shouldn't' es la forma negativa de 'should'."
@@ -500,7 +500,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'have to' para necesidad.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[take my medicine.]]",
+          "question": "[[I|Yo]] (_____) [[take|tomar]] [[my|mi]] [[medicine.|medicina.]]",
           "options": ["[[have to|tengo que]]", "[[should|debería]]", "[[has to|tiene que (incorrecto)]]"],
           "correctAnswer": 0,
           "explanation": "'Have to' indica una necesidad u obligación externa."
@@ -522,7 +522,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'feel' con adjetivos de estado.",
       "questions": [
         {
-          "question": "[[She|Ella]] (_____) [[sick today.]]",
+          "question": "[[She|Ella]] (_____) [[sick|enferma]] [[today.|hoy.]]",
           "options": ["[[feels|se siente]]", "[[is feeling|se está sintiendo]]", "[[feel|se siente (incorrecto)]]"],
           "correctAnswer": 0,
           "explanation": "Con 'she/he/it' añadimos 's' al verbo 'feel'."
@@ -544,7 +544,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Pregunta de necesidad.",
       "questions": [
         {
-          "question": "(_____) [[you have to wear glasses?]]",
+          "question": "(_____) [[you|tú]] [[have|tienes]] [[to|que]] [[wear|usar]] [[glasses?|gafas?]]",
           "options": ["[[Do|¿Haces?]]", "[[Does|¿Hace?]]", "[[Are|¿Eres?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos el auxiliar 'do' para preguntas con 'have to'."
@@ -566,7 +566,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Pregunta sobre el estado de salud.",
       "questions": [
         {
-          "question": "[[How|Cómo]] (_____) [[you feel?]]",
+          "question": "[[How|Cómo]] (_____) [[you|te]] [[feel?|sientes?]]",
           "options": ["[[do|auxiliar]]", "[[are|eres]]", "[[feel|sientes]]"],
           "correctAnswer": 0,
           "explanation": "Pregunta estándar para saber cómo está alguien."
@@ -586,7 +586,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "Consejo médico",
       "instructions": "Ordena la frase de recomendación.",
-      "correctSentence": "[[I think you should stay in bed|Creo que deberías quedarte en cama]].",
+      "correctSentence": "[[I|Yo]] [[think|creo]] [[you|que tú]] [[should|deberías]] [[stay|quedarte]] [[in|en]] [[bed|cama]].",
       "words": ["[[bed|cama]].", "[[in|en]]", "[[stay|quedarte]]", "[[should|deberías]]", "[[you|tú]]", "[[think|creo]]", "[[I|Yo]]"],
       "explanation": "I think + sujeto + should + verbo + complementos."
     },
@@ -605,7 +605,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'doesn't have to' para falta de necesidad.",
       "questions": [
         {
-          "question": "[[He|Él]] (_____) [[to go to work.]]",
+          "question": "[[He|Él]] (_____) [[to| (art)]] [[go|ir]] [[to|al]] [[work.|trabajo.]]",
           "options": ["[[doesn't have|no tiene que]]", "[[hasn't|no ha (incorrecto)]]", "[[shouldn't|no debería]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'doesn't have to' cuando algo no es necesario."
@@ -627,7 +627,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Pedir consejo.",
       "questions": [
         {
-          "question": "[[What|Qué]] (_____) [[I do for my cold?]]",
+          "question": "[[What|Qué]] (_____) [[I|yo]] [[do|debería hacer]] [[for|por]] [[my|mi]] [[cold?|resfriado?]]",
           "options": ["[[should|debería]]", "[[have|tengo]]", "[[must|debo]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'should' en preguntas para pedir consejos."
@@ -649,7 +649,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'have to' para necesidad de salud.",
       "questions": [
         {
-          "question": "[[You|Tú]] (_____) [[drink more water.]]",
+          "question": "[[You|Tú]] (_____) [[drink|beber]] [[more|más]] [[water.|agua.]]",
           "options": ["[[have to|tienes que]]", "[[should to|deberías a (incorrecto)]]", "[[are to|vas a]]"],
           "correctAnswer": 0,
           "explanation": "'Have to' no lleva 'to' antes del verbo principal, sino que es parte de la estructura."
@@ -671,7 +671,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Pregunta de estado con 'feel'.",
       "questions": [
         {
-          "question": "(_____) [[she feel better now?]]",
+          "question": "(_____) [[she|ella]] [[feel|se siente]] [[better|mejor]] [[now?|ahora?]]",
           "options": ["[[Does|¿Se siente?]]", "[[Is|¿Está?]]", "[[Do|¿Hace?]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'does' para preguntas en 3ª persona singular."
@@ -693,7 +693,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Recomendación general.",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[exercise every day.]]",
+          "question": "[[We|Nosotros]] (_____) [[exercise|hacer ejercicio]] [[every|todos los]] [[day.|días.]]",
           "options": ["[[should|deberíamos]]", "[[can|podemos]]", "[[will|haremos]]"],
           "correctAnswer": 0,
           "explanation": "Consejo para un hábito saludable."
@@ -713,7 +713,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "Al dentista",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[She has to see a dentist because of her toothache|Ella tiene que ver a un dentista por su dolor de muelas]].",
+      "correctSentence": "[[She|Ella]] [[has|tiene]] [[to|que]] [[see|ver]] [[a|a un]] [[dentist|dentista]] [[because|porque]] [[of|debido a]] [[her|su]] [[toothache|dolor de muelas]].",
       "words": ["[[toothache|muelas]].", "[[her|su]]", "[[of|de/por]]", "[[because|debido/porque]]", "[[dentist|dentista]]", "[[a|un]]", "[[see|ver]]", "[[to|a]]", "[[has|tiene]]", "[[She|Ella]]"],
       "explanation": "Sujeto + has to + verbo + complementos + motivo."
     },
@@ -732,7 +732,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Uso de 'feel' con partes del cuerpo.",
       "questions": [
         {
-          "question": "[[My eyes|Mis ojos]] (_____) [[dry.]]",
+          "question": "[[My|Mis]] [[eyes|ojos]] (_____) [[dry.|secos.]]",
           "options": ["[[feel|se sienten]]", "[[feels|se sienten (incorrecto)]]", "[[is|son]]"],
           "correctAnswer": 0,
           "explanation": "Eyes es plural, por lo tanto usamos 'feel'."
@@ -754,7 +754,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Consejo negativo.",
       "questions": [
         {
-          "question": "[[You|Tú]] (_____) [[go outside without a coat.]]",
+          "question": "[[You|Tú]] (_____) [[go|ir]] [[outside|fuera]] [[without|sin]] [[a|un]] [[coat.|abrigo.]]",
           "options": ["[[shouldn't|no deberías]]", "[[don't|no vas]]", "[[can't|no puedes]]"],
           "correctAnswer": 0,
           "explanation": "'Shouldn't' para indicar que algo no es recomendable."
@@ -776,7 +776,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Pregunta de cantidad.",
       "questions": [
         {
-          "question": "[[How|Cuántas]] (_____) [[hours of sleep do you need?]]",
+          "question": "[[How|Cuántas]] (_____) [[hours|horas]] [[of|de]] [[sleep|sueño]] [[do| (aux)]] [[you|tú]] [[need?|necesitas?]]",
           "options": ["[[many|muchas]]", "[[much|mucho]]", "[[long|largo]]"],
           "correctAnswer": 0,
           "explanation": "Hours es contable, usamos 'How many'."
@@ -798,7 +798,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Negativa con 'feel'.",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[well today.]]",
+          "question": "[[I|Yo]] (_____) [[well|bien]] [[today.|hoy.]]",
           "options": ["[[don't feel|no me siento]]", "[[am not feel|no estoy sentir (incorrecto)]]", "[[feel not|siento no (incorrecto)]]"],
           "correctAnswer": 0,
           "explanation": "Usamos 'don't' para negar el verbo 'feel'."
@@ -820,7 +820,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Pregunta de consejo.",
       "questions": [
         {
-          "question": "(_____) [[she take an aspirin?]]",
+          "question": "(_____) [[she|ella]] [[take|tomar]] [[an|una]] [[aspirin?|aspirina?]]",
           "options": ["[[Should|¿Debería?]]", "[[Has|¿Tiene?]]", "[[Does|¿Hace?]]"],
           "correctAnswer": 0,
           "explanation": "'Should' encabeza la pregunta de consejo."
@@ -840,7 +840,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "content": {
       "title": "Con fiebre",
       "instructions": "Ordena la frase.",
-      "correctSentence": "[[I have to stay home because I have a fever|Tengo que quedarme en casa porque tengo fiebre]].",
+      "correctSentence": "[[I|Yo]] [[have|tengo]] [[to|que]] [[stay|quedarme]] [[home|en casa]] [[because|porque]] [[I|yo]] [[have|tengo]] [[a|una]] [[fever|fiebre]].",
       "words": ["[[fever|fiebre]].", "[[a|una]]", "[[have|tengo]]", "[[I|Yo]]", "[[because|porque]]", "[[home|casa]]", "[[stay|quedarme]]", "[[to|a]]", "[[have|tengo]]", "[[I|Yo]]"],
       "explanation": "Estructura de causa y efecto con obligación."
     },
@@ -859,7 +859,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo comparativo de salud.",
       "questions": [
         {
-          "question": "[[He feels|Él se siente]] (_____) [[after the medicine.]]",
+          "question": "[[He|Él]] [[feels|se siente]] (_____) [[after|después de]] [[the|la]] [[medicine.|medicina.]]",
           "options": ["[[better|mejor]]", "[[well|bien]]", "[[good|bueno]]"],
           "correctAnswer": 0,
           "explanation": "'Better' es el estado de recuperación."
@@ -883,7 +883,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Identifica la parte de la pierna.",
       "questions": [
         {
-          "question": "[[My|Mi]] (_____) [[hurts.]]",
+          "question": "[[My|Mi]] (_____) [[hurts.|duele.]]",
           "options": ["[[knee|rodilla]]", "[[elbow|codo]]", "[[wrist|muñeca]]"],
           "correctAnswer": 0,
           "explanation": "'Knee' es rodilla."
@@ -905,7 +905,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Identifica la enfermedad común.",
       "questions": [
         {
-          "question": "[[She has a bad|Ella tiene un mal]] (_____) .",
+          "question": "[[She has a bad|Ella tiene un mal ...]] (_____) .",
           "options": ["[[cold|resfriado]]", "[[hot|calor]]", "[[sun|sol]]"],
           "correctAnswer": 0,
           "explanation": "'Cold' como sustantivo es resfriado."
@@ -949,7 +949,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar donde se compran medicinas.",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is next to the bank.]]",
+          "question": "[[The|La]] (_____) [[is|está]] [[next to|al lado de]] [[the|el]] [[bank.|banco.]]",
           "options": ["[[pharmacy|farmacia]]", "[[library|biblioteca]]", "[[bakery|panadería]]"],
           "correctAnswer": 0,
           "explanation": "'Pharmacy' es farmacia (o 'drugstore')."
@@ -993,7 +993,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Identifica el adjetivo de capacidad física.",
       "questions": [
         {
-          "question": "[[He is very|Él es muy]] (_____) [[and healthy.]]",
+          "question": "[[He|Él]] [[is|es]] [[very|muy]] (_____) [[and|y]] [[healthy.|saludable.]]",
           "options": ["[[strong|fuerte]]", "[[weak|débil]]", "[[heavy|pesado]]"],
           "correctAnswer": 0,
           "explanation": "'Strong' es fuerte."
@@ -1015,7 +1015,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Identifica los nutrientes.",
       "questions": [
         {
-          "question": "[[Drink fruit juice for|Bebe zumo de fruta por las]] (_____) .",
+          "question": "[[Drink fruit juice for|Bebe zumo de fruta por las ...]] (_____) .",
           "options": ["[[vitamins|vitaminas]]", "[[sugar|azúcar]]", "[[water|agua]]"],
           "correctAnswer": 0,
           "explanation": "'Vitamins' son las vitaminas."
@@ -1059,7 +1059,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Identifica la parte de la cabeza.",
       "questions": [
         {
-          "question": "[[My|Mis]] (_____) [[are small.]]",
+          "question": "[[My|Mis]] (_____) [[are|son]] [[small.|pequeñas.]]",
           "options": ["[[ears|orejas]]", "[[eyes|ojos]]", "[[hair|pelo]]"],
           "correctAnswer": 0,
           "explanation": "'Ears' son las orejas u oídos."
@@ -1081,7 +1081,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto para cubrir heridas pequeñas.",
       "questions": [
         {
-          "question": "[[I need a|Necesito una]] (_____) [[for my finger.]]",
+          "question": "[[I need a|Necesito una]] (_____) [[for|para]] [[my|mi]] [[finger.|dedo.]]",
           "options": ["[[plaster|tirita / curita]]", "[[bandage|venda]]", "[[cream|crema]]"],
           "correctAnswer": 0,
           "explanation": "'Plaster' es como se llama a las tiritas en el Reino Unido (Band-aid en EEUU)."

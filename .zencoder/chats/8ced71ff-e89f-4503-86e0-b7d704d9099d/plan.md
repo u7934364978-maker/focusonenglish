@@ -143,33 +143,33 @@ Implement word-by-word translations for reading exercises in units 34 to 36.
 
 ---
 
-### [ ] Step: Phase 13 (Units 37-39)
+### [x] Step: Phase 13 (Units 37-39)
 Implement word-by-word translations for reading exercises in units 37 to 39.
 
-- [ ] Audit and update Unit 37.
-- [ ] Audit and update Unit 38.
-- [ ] Audit and update Unit 39.
-- [ ] Manual verification.
+- [x] Audit and update Unit 37.
+- [x] Audit and update Unit 38.
+- [x] Audit and update Unit 39.
+- [x] Manual verification.
 
 ---
 
-### [ ] Step: Phase 14 (Units 40-42)
+### [x] Step: Phase 14 (Units 40-42)
 Implement word-by-word translations for reading exercises in units 40 to 42.
 
-- [ ] Audit and update Unit 40.
-- [ ] Audit and update Unit 41.
-- [ ] Audit and update Unit 42.
-- [ ] Manual verification.
+- [x] Audit and update Unit 40.
+- [x] Audit and update Unit 41.
+- [x] Audit and update Unit 42.
+- [x] Manual verification.
 
 ---
 
-### [ ] Step: Phase 15 (Units 43-45)
+### [x] Step: Phase 15 (Units 43-45)
 Implement word-by-word translations for reading exercises in units 43 to 45.
 
-- [ ] Audit and update Unit 43.
-- [ ] Audit and update Unit 44.
-- [ ] Audit and update Unit 45.
-- [ ] Manual verification.
+- [x] Audit and update Unit 43.
+- [x] Audit and update Unit 44.
+- [x] Audit and update Unit 45.
+- [x] Manual verification.
 
 ---
 

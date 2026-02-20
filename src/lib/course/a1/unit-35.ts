@@ -14,7 +14,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Identifica la tienda de comestibles.",
       "questions": [
         {
-          "question": "[[Where is the nearest|¿Dónde está el]] (_____) [[más cercano?]]",
+          "question": "[[Where is the nearest|¿Dónde está el ... más cercano?]] (_____) ?",
           "options": ["[[supermarket|supermercado]]", "[[library|biblioteca]]", "[[bank|banco]]"],
           "correctAnswer": 0,
           "explanation": "'Supermarket' es el supermercado."
@@ -36,7 +36,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Verbo para el precio.",
       "questions": [
         {
-          "question": "[[How much does this|¿Cuánto]] (_____) [[esto?]]",
+          "question": "[[How much does this|¿Cuánto ... esto?]] (_____) ?",
           "options": ["[[cost|cuesta]]", "[[buy|compra]]", "[[sell|vende]]"],
           "correctAnswer": 0,
           "explanation": "'Cost' es costar."
@@ -58,7 +58,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Identifica la categoría de artículos.",
       "questions": [
         {
-          "question": "[[I need to buy some new|Necesito comprar algo de]] (_____) [[nueva.]]",
+          "question": "[[I need to buy some new|Necesito comprar algo de ... nueva.]] (_____) .",
           "options": ["[[clothes|ropa]]", "[[books|libros]]", "[[food|comida]]"],
           "correctAnswer": 0,
           "explanation": "'Clothes' es ropa."
@@ -80,7 +80,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Identifica al trabajador de la tienda.",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is very kind.|es muy amable.]]",
+          "question": "[[The|El/La]] (_____) [[is very kind.|es muy amable.]]",
           "options": ["[[shop assistant|dependiente]]", "[[manager|gerente]]", "[[customer|cliente]]"],
           "correctAnswer": 0,
           "explanation": "'Shop assistant' es el dependiente de una tienda."
@@ -102,7 +102,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra para la medida de la ropa.",
       "questions": [
         {
-          "question": "[[Do you have this in a smaller|¿Tiene esto en una]] (_____) [[más pequeña?]]",
+          "question": "[[Do you have this in a smaller|¿Tiene esto en una ... más pequeña?]] (_____) ?",
           "options": ["[[size|talla]]", "[[color|color]]", "[[price|precio]]"],
           "correctAnswer": 0,
           "explanation": "'Size' es talla."
@@ -124,7 +124,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto para obsequiar.",
       "questions": [
         {
-          "question": "[[I'm looking for a|Estoy buscando un]] (_____) [[for my friend.|para mi amigo.]]",
+          "question": "[[I'm looking for a|Estoy buscando un ...]] (_____) [[for my friend.|para mi amigo.]]",
           "options": ["[[gift|regalo]]", "[[bag|bolsa]]", "[[card|tarjeta]]"],
           "correctAnswer": 0,
           "explanation": "'Gift' es regalo (sinónimo de 'present')."
@@ -212,7 +212,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Identifica el comprobante de compra.",
       "questions": [
         {
-          "question": "[[Keep the|Guarda el]] (_____) [[in case you want to return it.|por si quieres devolverlo.]]",
+          "question": "[[Keep the|Guarda el ... por si quieres devolverlo.]] (_____) [[in case you want to return it.|por si quieres devolverlo.]]",
           "options": ["[[receipt|recibo / ticket]]", "[[paper|papel]]", "[[money|dinero]]"],
           "correctAnswer": 0,
           "explanation": "'Receipt' es el recibo o ticket de compra."
@@ -278,8 +278,8 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Identifica el lugar con muchas tiendas.",
       "questions": [
         {
-          "question": "[[The shopping|El]] (_____) [[comercial]] [[is open until 10 pm.]]",
-          "options": ["[[mall|centro / mall]]", "[[center|centro (general)]]", "[[store|tienda]]"],
+          "question": "[[The shopping|El centro comercial ...]] (_____) [[is open until 10 pm.|está abierto hasta las 10 pm.]]",
+          "options": ["[[mall|centro comercial]]", "[[center|centro (general)]]", "[[store|tienda]]"],
           "correctAnswer": 0,
           "explanation": "'Shopping mall' es centro comercial."
         }
@@ -300,7 +300,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto para llevar compras.",
       "questions": [
         {
-          "question": "[[I need a plastic|Necesito una]] (_____) [[de plástico.]]",
+          "question": "[[I need a plastic|Necesito una bolsa de plástico.]] (_____) .",
           "options": ["[[bag|bolsa]]", "[[box|caja]]", "[[pocket|bolsillo]]"],
           "correctAnswer": 0,
           "explanation": "'Bag' es bolsa."
@@ -322,7 +322,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Identifica la palabra para descuentos especiales.",
       "questions": [
         {
-          "question": "[[There is a big|Hay unas grandes]] (_____) [[in that department store.]]",
+          "question": "[[There is a big|Hay unas grandes ... en esa tienda.]] (_____) [[in that department store.|en esos grandes almacenes.]]",
           "options": ["[[sale|rebajas / liquidación]]", "[[buy|compra]]", "[[market|mercado]]"],
           "correctAnswer": 0,
           "explanation": "'Sale' se refiere a periodo de rebajas."
@@ -366,7 +366,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Identifica la prenda.",
       "questions": [
         {
-          "question": "[[I like that leather|Me gusta esa]] (_____) [[de cuero.]]",
+          "question": "[[I like that leather|Me gusta esa ... de cuero.]] (_____) .",
           "options": ["[[jacket|chaqueta]]", "[[dress|vestido]]", "[[hat|sombrero]]"],
           "correctAnswer": 0,
           "explanation": "'Jacket' es chaqueta."
@@ -410,7 +410,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Identifica el objeto con el precio.",
       "questions": [
         {
-          "question": "[[The price|La]] (_____) [[de precio]] [[is missing.|falta.]]",
+          "question": "[[The price|La etiqueta de precio ... falta.]] (_____) [[is missing.|falta.]]",
           "options": ["[[tag|etiqueta]]", "[[paper|papel]]", "[[sticker|pegatina]]"],
           "correctAnswer": 0,
           "explanation": "'Price tag' es etiqueta de precio."
@@ -949,7 +949,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Identifica el tipo de tienda grande.",
       "questions": [
         {
-          "question": "[[I am looking for a|Estoy buscando unos]] (_____) [[store.]]",
+          "question": "[[I am looking for a|Estoy buscando unos ...]] (_____) [[store.|tienda.]]",
           "options": ["[[department|grandes almacenes]]", "[[small|pequeña]]", "[[food|comida]]"],
           "correctAnswer": 0,
           "explanation": "'Department store' son grandes almacenes (ej. El Corte Inglés)."
@@ -1015,7 +1015,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Identifica el nivel del edificio.",
       "questions": [
         {
-          "question": "[[The shop is on the second|La tienda está en la segunda]] (_____) .",
+          "question": "[[The shop is on the second|La tienda está en la segunda ...]] (_____) .",
           "options": ["[[floor|planta / piso]]", "[[door|puerta]]", "[[wall|pared]]"],
           "correctAnswer": 0,
           "explanation": "'Floor' es planta o piso en un edificio."
