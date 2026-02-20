@@ -949,13 +949,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[Patricia's stepmother|La madrastra de Patricia]] [[is|es]] [[very caring|muy cariñosa]].",
     "content": {
       "title": "Family: Stepmother",
-      "instructions": "Completa sobre madrastra.",
+      "instructions": "Selecciona la forma correcta del Saxon Genitive para 'el padrastro de John'.",
       "questions": [
         {
-          "question": "[[John's stepfather|El padrastro de John]] [[is|es]] [[a businessman|un hombre de negocios]].",
-          "options": ["Correcto", "Incorrecto"],
+          "question": "¿Cuál es la forma correcta?",
+          "options": ["[[John's stepfather|El padrastro de John]]", "[[Stepfather's John|El padrastro John's]]", "[[John stepfather's|El John padrastro's]]"],
           "correctAnswer": 0,
-          "explanation": "'Stepfather' = padrastro."
+          "explanation": "'John's stepfather' es la forma correcta del Saxon Genitive."
         }
       ]
     },
@@ -1066,13 +1066,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[Peter's uncle's car|El coche del tío de Peter]] [[is|es]] [[very expensive|muy caro]].",
     "content": {
       "title": "Saxon Genitive: Double Possessive",
-      "instructions": "Completa Saxon Genitive doble.",
+      "instructions": "Selecciona la forma correcta del Saxon Genitive doble para 'el trabajo de la madre de Susan'.",
       "questions": [
         {
-          "question": "[[Susan's mother's job|El trabajo de la madre de Susan]] [[is|es]] [[challenging|desafiante]].",
-          "options": ["Correcto", "Incorrecto"],
+          "question": "¿Cuál es la forma correcta?",
+          "options": ["[[Susan's mother's job|El trabajo de la madre de Susan]]", "[[Mother's Susan's job|El trabajo del Susan madre's]]", "[[Job's Susan's mother|El trabajo Susan's madre's]]"],
           "correctAnswer": 0,
-          "explanation": "Susan's mother's job = El trabajo de la madre de Susan."
+          "explanation": "'Susan's mother's job' es la forma correcta del Saxon Genitive doble."
         }
       ]
     },
