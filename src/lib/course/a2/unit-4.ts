@@ -355,7 +355,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "She [[has|tiene]] [[a|un]] _______ _______ [[dress|vestido]].",
-          "options": ["[[long black|negro largo]]", "[[black long|largo negro]]", "[[long black|largo negro]]"],
+          "options": ["[[short black|negro corto]]", "[[black long|negro largo (orden incorrecto)]]", "[[long black|vestido negro largo]]"],
           "correctAnswer": 2,
           "explanation": "'[[Long|largo]] [[black|negro]] [[dress|vestido]]' sigue el orden: longitud + [[color|color]]."
         }
@@ -394,7 +394,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "She [[has|tiene]] [[a|un]] _______ _______ [[hat|sombrero]].",
-          "options": ["[[beautiful white|blanco hermoso]]", "[[white beautiful|hermoso blanco]]", "[[beautiful white|hermoso blanco]]"],
+          "options": ["[[ugly white|blanco feo]]", "[[white beautiful|blanco hermoso (orden incorrecto)]]", "[[beautiful white|sombrero hermoso blanco]]"],
           "correctAnswer": 2,
           "explanation": "'[[Beautiful|hermoso]] [[white|blanco]] [[hat|sombrero]]' sigue el orden: quality + [[color|color]]."
         }
@@ -433,7 +433,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "She [[has|tiene]] _______ _______ [[hair|cabello]].",
-          "options": ["[[blonde curly|rizado rubio]]", "[[curly blonde|rubio rizado]]", "[[curly blonde|rizado rubio]]"],
+          "options": ["[[straight blonde|rubio liso]]", "[[blonde curly|rubio rizado (orden incorrecto)]]", "[[curly blonde|cabello rizado rubio]]"],
           "correctAnswer": 2,
           "explanation": "'[[Curly|rizado]] [[blonde|rubio/rubia]] [[hair|cabello]]' sigue el orden: texture + [[color|color]]."
         }
@@ -472,7 +472,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "She [[has|tiene]] [[a|un]] _______ _______ _______ [[bag|bolsa]].",
-          "options": ["[[beautiful big red|grande roja hermosa]]", "[[beautiful big red|hermosa grande roja]]", "[[beautiful big red|hermosa grande roja]]"],
+          "options": ["[[ugly small blue|azul pequeño feo]]", "[[red beautiful big|rojo hermoso grande (orden incorrecto)]]", "[[beautiful big red|bolsa hermosa grande roja]]"],
           "correctAnswer": 2,
           "explanation": "Orden: quality ([[beautiful|hermoso]]) + [[size|tamaño]] ([[big|grande]]) + [[color|color]] ([[red|rojo]])."
         }
@@ -511,7 +511,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "He [[has|tiene]] [[a|un]] _______ _______ _______ [[notebook|cuaderno]].",
-          "options": ["[[small old blue|azul viejo pequeño]]", "[[small old blue|pequeño viejo azul]]", "[[small old blue|pequeño viejo azul]]"],
+          "options": ["[[large new red|rojo nuevo grande]]", "[[blue old small|azul viejo pequeño (orden incorrecto)]]", "[[small old blue|cuaderno pequeño viejo azul]]"],
           "correctAnswer": 2,
           "explanation": "Orden: [[size|tamaño]] ([[small|pequeño]]) + age ([[old|viejo]]) + [[color|color]] ([[blue|azul]])."
         }
@@ -550,7 +550,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "She [[has|tiene]] [[a|un]] _______ _______ _______ [[coat|abrigo]].",
-          "options": ["[[nice long warm|cálido largo bonito]]", "[[nice long warm|bonito largo cálido]]", "[[nice long warm|bonito largo cálido]]"],
+          "options": ["[[ugly short cold|frío corto feo]]", "[[warm long nice|cálido largo bonito (orden incorrecto)]]", "[[nice long warm|abrigo bonito largo cálido]]"],
           "correctAnswer": 2,
           "explanation": "Orden: quality ([[nice|agradable]]) + [[size|tamaño]] ([[long|largo]]) + quality ([[warm|cálido]])."
         }
@@ -589,7 +589,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "She [[has|tiene]] [[a|un]] _______ _______ _______ [[car|coche]].",
-          "options": ["[[beautiful new red|rojo nuevo hermoso]]", "[[beautiful new red|hermoso nuevo rojo]]", "[[beautiful new red|hermoso nuevo rojo]]"],
+          "options": ["[[ugly old blue|azul viejo feo]]", "[[red new beautiful|rojo nuevo hermoso (orden incorrecto)]]", "[[beautiful new red|coche hermoso nuevo rojo]]"],
           "correctAnswer": 2,
           "explanation": "Orden: quality ([[beautiful|hermoso]]) + age ([[new|nuevo]]) + [[color|color]] ([[red|rojo]])."
         }

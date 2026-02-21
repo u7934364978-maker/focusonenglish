@@ -92,6 +92,28 @@ Fixed additional untranslated words found during comprehensive scan:
 
 ---
 
+## NEW TASK: Fix A2 Unit 4 Exercise 16 Duplicate Options
+
+### [x] Fix duplicate answer options
+**Exercise**: a2-u4-e16 (Unit 4, Lesson 2, Exercise 1)
+**Issue**: Two answer options were identical/repetitive:
+- ❌ Option 1: "[[big red|rojo grande]]"
+- ❌ Option 3: "[[big red|grande rojo]]"
+- Both started with "big red" but had different translations
+
+**Solution**: Replaced with distinct, pedagogically valid options:
+- ✅ Option 1: "[[small red|rojo pequeño]]" (wrong size)
+- ✅ Option 2: "[[red big|rojo grande (orden incorrecto)]]" (wrong order)
+- ✅ Option 3: "[[big red|coche rojo grande]]" (correct - size before color)
+
+### [x] Git commit & push
+- **Commit Hash**: `fdd3f7c9`
+- **Message**: "Fix A2 Unit 4 Exercise 16 (Lesson 2, Exercise 1): Remove duplicate answer options and improve exercise clarity"
+- **Files Modified**: 2 files changed, 24 insertions(+), 3 deletions(-)
+- **Status**: ✅ Pushed to main branch
+
+---
+
 ## ✅ TASK COMPLETED: A2 Unit 4 Complete Translation Review
 
 ### Summary
