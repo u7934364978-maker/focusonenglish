@@ -133,10 +133,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra correcta para forma de cara.",
       "questions": [
         {
-          "question": "The girl [[has got|tiene]] an _______ [[face|cara]].",
+          "question": "The young girl with soft, youthful features [[has got|tiene]] an _______ [[face|cara]].",
           "options": ["[[round|redonda]]", "[[long|larga]]", "[[square|cuadrada]]"],
           "correctAnswer": 0,
-          "explanation": "'Round face' = cara redonda."
+          "explanation": "Soft, youthful features typically correspond to a 'round face' (cara redonda)."
         }
       ]
     },
@@ -172,10 +172,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración sobre orejas.",
       "questions": [
         {
-          "question": "He [[has got|tiene]] _______ [[ears|orejas]].",
+          "question": "The boy who is self-conscious about his prominent ears [[has got|tiene]] _______ [[ears|orejas]].",
           "options": ["[[big|grandes]]", "[[small|pequeñas]]", "[[tall|altas]]"],
           "correctAnswer": 0,
-          "explanation": "'Has got big ears' = tiene las orejas grandes."
+          "explanation": "Being self-conscious about prominent features suggests 'has got big ears' (tiene las orejas grandes)."
         }
       ]
     },
@@ -211,10 +211,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, selecciona el color de cabello correcto.",
       "questions": [
         {
-          "question": "[[The girl|La niña]] [[has got|tiene]] _______ [[hair|cabello]].",
+          "question": "The girl from Scandinavia with fair skin [[has got|tiene]] _______ [[hair|cabello]].",
           "options": ["[[blonde|rubio]]", "[[black|negro]]", "[[red|rojo]]"],
           "correctAnswer": 0,
-          "explanation": "En la descripción, la niña tiene cabello rubio (blonde hair)."
+          "explanation": "People from Scandinavia typically have 'blonde hair' (cabello rubio). Fair skin is commonly associated with blonde hair."
         }
       ]
     },
@@ -250,10 +250,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa la oración sobre altura.",
       "questions": [
         {
-          "question": "[[He|Él]] [[has got|tiene]] a _______ [[body|cuerpo]].",
+          "question": "The basketball player who reaches high shelves without a ladder [[has got|tiene]] a _______ [[body|cuerpo]].",
           "options": ["[[short|bajo]]", "[[tall|alto]]", "[[wide|ancho]]"],
           "correctAnswer": 1,
-          "explanation": "En la descripción, él tiene un cuerpo alto (tall body)."
+          "explanation": "A basketball player who reaches high objects typically has a 'tall body' (cuerpo alto)."
         }
       ]
     },
@@ -614,10 +614,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa sobre altura y constitución.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[is|es]] _______ [[and|y]] [[slim|delgada]].",
+          "question": "The model who stands out in crowds and needs to duck through doorways [[is|es]] _______ [[and|y]] [[slim|delgada]].",
           "options": ["[[short|baja]]", "[[tall|alta]]", "[[heavy|pesada]]"],
           "correctAnswer": 1,
-          "explanation": "En la descripción, ella es alta (tall) y delgada (slim)."
+          "explanation": "Standing out in crowds and needing to duck through doorways indicates the person is 'tall' (alta) and paired with 'slim' suggests an athletic build."
         }
       ]
     },
@@ -653,10 +653,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa sobre características faciales.",
       "questions": [
         {
-          "question": "[[He|Él]] [[has got|tiene]] _______ [[eyes|ojos]] [[and|y]] [[a beard|una barba]].",
+          "question": "The bearded man with Mediterranean heritage [[has got|tiene]] _______ [[eyes|ojos]] [[and|y]] [[a beard|una barba]].",
           "options": ["[[blue|azules]]", "[[green|verdes]]", "[[brown|marrones]]"],
           "correctAnswer": 2,
-          "explanation": "En la descripción, él tiene los ojos marrones (brown eyes) y una barba."
+          "explanation": "Mediterranean heritage typically features 'brown eyes' (ojos marrones), which commonly pair with dark beards."
         }
       ]
     },
@@ -692,10 +692,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la descripción de ropa.",
       "questions": [
         {
-          "question": "She [[is wearing|lleva]] a _______ [[dress|vestido]].",
+          "question": "She [[is wearing|lleva]] a _______ [[dress|vestido]] to the formal evening gala.",
           "options": ["[[red|rojo]]", "[[green|verde]]", "[[yellow|amarillo]]"],
           "correctAnswer": 0,
-          "explanation": "'She is wearing a red dress' describe lo que alguien lleva puesto."
+          "explanation": "At a formal evening gala, a 'red dress' (vestido rojo) is a classic, elegant choice that stands out."
         }
       ]
     },
@@ -770,10 +770,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa sobre la figura.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[has|tiene]] a _______ [[waist|cintura]].",
+          "question": "The ballet dancer with a graceful posture [[has|tiene]] a _______ [[waist|cintura]].",
           "options": ["[[slim|delgada]]", "[[wide|ancha]]", "[[thick|gruesa]]"],
           "correctAnswer": 0,
-          "explanation": "En la descripción, ella tiene una cintura delgada (slim waist)."
+          "explanation": "Ballet dancers characteristically have a 'slim waist' (cintura delgada) due to their training and physique."
         }
       ]
     },
@@ -848,10 +848,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la descripción de características de la piel.",
       "questions": [
         {
-          "question": "She [[has|tiene]] _______ [[on|en]] [[her|su]] [[cheeks|mejillas]].",
+          "question": "The young fair-skinned girl with red hair [[has|tiene]] _______ [[on|en]] [[her|su]] [[cheeks|mejillas]].",
           "options": ["[[freckles|pecas]]", "[[wrinkles|arrugas]]", "[[spots|manchas]]"],
           "correctAnswer": 0,
-          "explanation": "'She has freckles' describe las pecas en la cara."
+          "explanation": "Fair-skinned people with red hair commonly have 'freckles' (pecas) on their cheeks - a natural feature caused by sun exposure."
         }
       ]
     },
@@ -887,10 +887,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa cómo se ve la persona.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[is|es]] [[short|baja]] [[with|con]] _______ [[hair|cabello]].",
+          "question": "[[She|Ella]] [[is|es]] [[short|baja]] [[with|con]] distinctive, striking _______ [[hair|cabello]].",
           "options": ["[[long black|negro largo]]", "[[long red|rojo largo]]", "[[short brown|marrón corto]]"],
           "correctAnswer": 1,
-          "explanation": "En la descripción, ella es baja con cabello rojo largo (short with long red hair)."
+          "explanation": "'Long red hair' (cabello rojo largo) is distinctive and striking. Red hair is the rarest and most distinctive hair color."
         }
       ]
     },
@@ -952,10 +952,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa sobre apariencia física.",
       "questions": [
         {
-          "question": "[[Tom|Tom]] [[is|es]] _______ [[and|y]] [[athletic|atlético]].",
+          "question": "[[Tom|Tom]], the star soccer player, [[is|es]] _______ [[and|y]] [[athletic|atlético]].",
           "options": ["[[beautiful|hermoso]]", "[[tall|alto]]", "[[slim|delgado]]"],
           "correctAnswer": 1,
-          "explanation": "En la descripción, Tom es alto (tall) y atlético (athletic)."
+          "explanation": "Star soccer players typically are 'tall' (alto) and athletic - height gives them an advantage in the sport."
         }
       ]
     },
@@ -991,10 +991,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa cómo se viste.",
       "questions": [
         {
-          "question": "[[He|Él]] is dressed very _______.",
+          "question": "The businessman arriving at a formal board meeting in a tailored suit and polished shoes is dressed very _______.",
           "options": ["[[casually|informalmente]]", "[[smartly|elegantemente]]", "[[messily|desordenadamente]]"],
           "correctAnswer": 1,
-          "explanation": "En la descripción, él está vestido elegantemente (dressed smartly)."
+          "explanation": "A tailored suit and polished shoes at a formal board meeting indicates someone is dressed 'smartly' (elegantemente) - the professional choice."
         }
       ]
     },
@@ -1030,10 +1030,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la descripción de constitución atlética.",
       "questions": [
         {
-          "question": "He [[has|tiene]] a _______ [[build|constitución]].",
+          "question": "The weightlifter who trains 6 hours daily [[has|tiene]] a _______ [[build|constitución]].",
           "options": ["[[strong|fuerte]]", "[[muscular|musculosa]]", "[[athletic|atlética]]"],
           "correctAnswer": 1,
-          "explanation": "'He has a muscular build' describe la constitución física."
+          "explanation": "Someone who trains intensively as a weightlifter develops a 'muscular build' (constitución musculosa) - visible muscle development from strength training."
         }
       ]
     },
@@ -1069,10 +1069,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la descripción de la voz.",
       "questions": [
         {
-          "question": "She [[has|tiene]] a _______ [[voice|voz]].",
+          "question": "The professional news broadcaster with excellent diction and audible pronunciation [[has|tiene]] a _______ [[voice|voz]].",
           "options": ["[[soft|suave]]", "[[high|aguda]]", "[[clear|clara]]"],
           "correctAnswer": 2,
-          "explanation": "'She has a clear voice' describe cualidades de la voz."
+          "explanation": "Professional broadcasters with excellent diction are known for having a 'clear voice' (voz clara) - easily understood and well-articulated."
         }
       ]
     },
