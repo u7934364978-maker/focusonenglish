@@ -297,20 +297,39 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a2-u4-e13",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A2",
     "topic": "Physical Description",
     "difficulty": "medium",
     "transcript": "[[He has got a tall body|Tiene un cuerpo alto]].",
     "content": {
       "title": "[[Height|Altura]]",
-      "instructions": "Según la descripción, completa la oración sobre altura.",
-      "questions": [
+      "instructions": "Relaciona cada palabra de altura con su descripción.",
+      "pairs": [
         {
-          "question": "[[The|el/la]] [[basketball|baloncesto]] [[player|jugador]] [[who|quién]] [[reaches|alcanza]] [[high|altos]] [[shelves|estantes]] [[without|sin]] [[a|un]] [[ladder|escalera]] [[has got|tiene]] [[a|un]] _______ [[body|cuerpo]].",
-          "options": ["[[short|bajo]]", "[[tall|alto]]", "[[wide|ancho]]"],
-          "correctAnswer": 1,
-          "explanation": "[[A|un/una]] [[basketball|baloncesto]] [[player|jugador]] [[who|quién]] [[reaches|alcanza]] [[high|altos]] [[objects|objetos]] [[typically|típicamente]] [[has|tiene/tienen]] [[a|un/una]] '[[tall|alto]] [[body|cuerpo]]' (cuerpo alto)."
+          "word": "[[tall|alto]]",
+          "definition": "[[of great height|de gran altura]]",
+          "translation": "alto"
+        },
+        {
+          "word": "[[short|bajo]]",
+          "definition": "[[of little height|de poca altura]]",
+          "translation": "bajo"
+        },
+        {
+          "word": "[[average|promedio]]",
+          "definition": "[[of middle height|de altura media]]",
+          "translation": "promedio"
+        },
+        {
+          "word": "[[giant|gigante]]",
+          "definition": "[[extremely tall|extremadamente alto]]",
+          "translation": "gigante"
+        },
+        {
+          "word": "[[dwarf|enano]]",
+          "definition": "[[extremely short|extremadamente bajo]]",
+          "translation": "enano"
         }
       ]
     },
@@ -661,20 +680,39 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   // ==========================================
   {
     "id": "a2-u4-e31",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A2",
     "topic": "Describing People",
     "difficulty": "medium",
     "transcript": "[[She is tall and slim|Es alta y delgada]].",
     "content": {
       "title": "[[Height|Altura]] [[and|y]] [[Build|Constitución]]",
-      "instructions": "Según la descripción, completa sobre altura y constitución.",
-      "questions": [
+      "instructions": "Relaciona cada palabra de constitución con su sinónimo.",
+      "pairs": [
         {
-          "question": "[[The|el/la]] [[model|modelo]] [[who|quién]] [[stands|se destaca]] [[out|fuera]] [[in|en]] [[crowds|multitudes]] [[and|y]] [[needs|necesita]] [[to|a]] [[duck|agacharse]] [[through|por]] [[doorways|puertas]] [[is|es]] _______ [[and|y]] [[slim|delgada]].",
-          "options": ["[[short|baja]]", "[[tall|alta]]", "[[heavy|pesada]]"],
-          "correctAnswer": 1,
-          "explanation": "[[Standing|De pie]] out [[in|en]] crowds [[and|y]] needing [[to|a]] [[duck|agacharse]] [[through|por]] [[doorways|puertas]] indicates [[the|el/la/los/las]] [[person|persona]] [[is|es/está]] '[[tall|alto]]' (alta) [[and|y]] [[paired|combinado]] [[with|con]] '[[slim|esbelta]]' [[suggests|sugiere]] [[an|un/una]] [[athletic|atlético]] [[build|constitución]]."
+          "word": "[[slim|esbelta]]",
+          "definition": "[[thin and graceful|delgada y elegante]]",
+          "translation": "esbelta"
+        },
+        {
+          "word": "[[heavy|pesada]]",
+          "definition": "[[overweight|con sobrepeso]]",
+          "translation": "pesada"
+        },
+        {
+          "word": "[[athletic|atlética]]",
+          "definition": "[[strong and muscular|fuerte y musculosa]]",
+          "translation": "atlética"
+        },
+        {
+          "word": "[[stocky|fornida]]",
+          "definition": "[[short and strong|baja y fuerte]]",
+          "translation": "fornida"
+        },
+        {
+          "word": "[[lean|esbelta]]",
+          "definition": "[[thin without excess fat|delgada sin grasa excesiva]]",
+          "translation": "esbelta"
         }
       ]
     },
@@ -700,20 +738,39 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a2-u4-e33",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A2",
     "topic": "Describing People",
     "difficulty": "medium",
     "transcript": "[[He has brown eyes and a beard|Tiene los ojos marrones y una barba]].",
     "content": {
       "title": "[[Eyes|Ojos]] [[and|y]] [[Facial Hair|Vello Facial]]",
-      "instructions": "Según la descripción, completa sobre características faciales.",
-      "questions": [
+      "instructions": "Relaciona cada característica facial con su descripción.",
+      "pairs": [
         {
-          "question": "[[The|el/la]] [[young|joven]] [[man|hombre]] [[with|con]] [[Mediterranean|Mediterráneo]] heritage [[has got|tiene]] _______ [[eyes|ojos]].",
-          "options": ["[[blue|azules]]", "[[green|verdes]]", "[[brown|marrones]]"],
-          "correctAnswer": 2,
-          "explanation": "People [[with|con]] Mediterranean heritage [[typically|típicamente]] [[have|tengo/tienes/tienen]] '[[brown|marrón]] [[eyes|ojos]]' (ojos marrones) due [[to|a]] [[their|su]] [[genetic|genético]] [[background|herencia]]."
+          "word": "[[beard|barba]]",
+          "definition": "[[hair on a man's chin|cabello en la barbilla del hombre]]",
+          "translation": "barba"
+        },
+        {
+          "word": "[[moustache|bigote]]",
+          "definition": "[[hair on upper lip|cabello en el labio superior]]",
+          "translation": "bigote"
+        },
+        {
+          "word": "[[freckles|pecas]]",
+          "definition": "[[small brown spots on skin|pequeñas manchas marrones en la piel]]",
+          "translation": "pecas"
+        },
+        {
+          "word": "[[wrinkles|arrugas]]",
+          "definition": "[[lines on the skin|líneas en la piel]]",
+          "translation": "arrugas"
+        },
+        {
+          "word": "[[dimples|hoyuelos]]",
+          "definition": "[[small indentations in cheeks|pequeñas indentaciones en las mejillas]]",
+          "translation": "hoyuelos"
         }
       ]
     },
@@ -739,20 +796,39 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a2-u4-e35",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A2",
     "topic": "Describing People",
     "difficulty": "medium",
     "transcript": "[[The boy is wearing a blue jacket|El niño lleva una chaqueta azul]].",
     "content": {
       "title": "[[Clothing|Ropa]] [[Description|Descripción]]",
-      "instructions": "Completa la descripción de ropa.",
-      "questions": [
+      "instructions": "Relaciona cada palabra de ropa con su descripción.",
+      "pairs": [
         {
-          "question": "She [[is wearing|lleva]] [[a|un]] _______ [[dress|vestido]] [[to|a]] [[the|el/la]] [[formal|formal]] [[evening|noche]] [[gala|gala]].",
-          "options": ["[[red|rojo]]", "[[green|verde]]", "[[yellow|amarillo]]"],
-          "correctAnswer": 0,
-          "explanation": "[[At|en]] [[a|un/una]] [[formal|formal]] [[evening|tarde/noche]] [[gala|gala]], [[a|un/una]] '[[red|rojo]] [[dress|vestido]]' (vestido rojo) [[is|es/está]] [[a|un/una]] [[classic|clásica]], [[elegant|elegante]] [[choice|opción]] [[that|que]] [[stands|se destaca]] [[out|fuera]]."
+          "word": "[[dress|vestido]]",
+          "definition": "[[a garment worn by women|prenda usada por mujeres]]",
+          "translation": "vestido"
+        },
+        {
+          "word": "[[jacket|chaqueta]]",
+          "definition": "[[a short coat|abrigo corto]]",
+          "translation": "chaqueta"
+        },
+        {
+          "word": "[[trousers|pantalones]]",
+          "definition": "[[garment covering legs|prenda que cubre las piernas]]",
+          "translation": "pantalones"
+        },
+        {
+          "word": "[[shirt|camisa]]",
+          "definition": "[[upper garment with buttons|prenda superior con botones]]",
+          "translation": "camisa"
+        },
+        {
+          "word": "[[shoes|zapatos]]",
+          "definition": "[[garment worn on feet|prenda usada en los pies]]",
+          "translation": "zapatos"
         }
       ]
     },
@@ -778,20 +854,39 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a2-u4-e37",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A2",
     "topic": "Describing People",
     "difficulty": "medium",
     "transcript": "[[He looks young for his age|Se ve joven para su edad]].",
     "content": {
       "title": "[[Age|Edad]] [[Appearance|Apariencia]]",
-      "instructions": "Según la descripción, completa sobre edad aparente.",
-      "questions": [
+      "instructions": "Relaciona cada palabra de edad con su descripción.",
+      "pairs": [
         {
-          "question": "[[He|Él]] _______ [[young|joven]] [[for|para]] [[his age|su edad]].",
-          "options": ["[[looks|parece]]", "[[is|es]]", "[[has|tiene]]"],
-          "correctAnswer": 0,
-          "explanation": "En la descripción, él se ve joven para su edad (looks [[young|joven]] [[for|para]] [[his|su]] age)."
+          "word": "[[young|joven]]",
+          "definition": "[[early in life or existence|al principio de la vida]]",
+          "translation": "joven"
+        },
+        {
+          "word": "[[old|viejo]]",
+          "definition": "[[advanced in age|avanzado en edad]]",
+          "translation": "viejo"
+        },
+        {
+          "word": "[[middle-aged|de mediana edad]]",
+          "definition": "[[between young and old|entre joven y viejo]]",
+          "translation": "de mediana edad"
+        },
+        {
+          "word": "[[elderly|anciano]]",
+          "definition": "[[very old|muy viejo]]",
+          "translation": "anciano"
+        },
+        {
+          "word": "[[infant|bebé]]",
+          "definition": "[[very young child|niño muy pequeño]]",
+          "translation": "bebé"
         }
       ]
     },
@@ -817,20 +912,39 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a2-u4-e39",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A2",
     "topic": "Describing People",
     "difficulty": "medium",
     "transcript": "[[She has a slim waist and nice figure|Tiene una cintura delgada y una buena figura]].",
     "content": {
       "title": "[[Figure|Figura]] [[Description|Descripción]]",
-      "instructions": "Según la descripción, completa sobre la figura.",
-      "questions": [
+      "instructions": "Relaciona cada palabra de figura con su definición.",
+      "pairs": [
         {
-          "question": "[[The|el/la]] [[ballet|ballet]] [[dancer|bailarín]] [[with|con]] [[a|un]] [[graceful|grácil]] [[posture|postura]] [[has|tiene]] [[a|un]] _______ [[waist|cintura]].",
-          "options": ["[[slim|delgada]]", "[[wide|ancha]]", "[[thick|gruesa]]"],
-          "correctAnswer": 0,
-          "explanation": "Ballet dancers [[characteristically|característicamente]] [[have|tengo/tienes/tienen]] [[a|un/una]] '[[slim|esbelta]] [[waist|cintura]]' (cintura delgada) due [[to|a]] [[their|su]] [[training|entrenamiento]] [[and|y]] [[physique|físico]]."
+          "word": "[[slim|esbelta]]",
+          "definition": "[[thin and attractive|delgada y atractiva]]",
+          "translation": "esbelta"
+        },
+        {
+          "word": "[[curvy|curvilínea]]",
+          "definition": "[[having attractive curves|teniendo curvas atractivas]]",
+          "translation": "curvilínea"
+        },
+        {
+          "word": "[[fit|en forma]]",
+          "definition": "[[healthy and muscular|saludable y musculoso]]",
+          "translation": "en forma"
+        },
+        {
+          "word": "[[graceful|grácil]]",
+          "definition": "[[elegant and flowing|elegante y fluido]]",
+          "translation": "grácil"
+        },
+        {
+          "word": "[[athletic|atlética]]",
+          "definition": "[[strong like a sports person|fuerte como deportista]]",
+          "translation": "atlética"
         }
       ]
     },
@@ -856,20 +970,39 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a2-u4-e41",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A2",
     "topic": "Describing People",
     "difficulty": "hard",
     "transcript": "[[He is bald with a mustache|Es calvo con bigote]].",
     "content": {
       "title": "[[Head|Cabeza]] [[Description|Descripción]]",
-      "instructions": "Completa la descripción de la cabeza.",
-      "questions": [
+      "instructions": "Relaciona cada característica de cabeza con su descripción.",
+      "pairs": [
         {
-          "question": "He [[is|es]] _______ [[with|con]] [[a beard|una barba]].",
-          "options": ["[[hairy|cabelludo]]", "[[bald|calvo]]", "[[long-haired|cabello largo]]"],
-          "correctAnswer": 1,
-          "explanation": "'[[He|él]] [[is|es/está]] bald' [[describe|describe]] que [[no|no]] tiene cabello."
+          "word": "[[bald|calvo]]",
+          "definition": "[[without hair on head|sin cabello en la cabeza]]",
+          "translation": "calvo"
+        },
+        {
+          "word": "[[hairy|cabelludo]]",
+          "definition": "[[having a lot of hair|teniendo mucho cabello]]",
+          "translation": "cabelludo"
+        },
+        {
+          "word": "[[shaved|afeitado]]",
+          "definition": "[[hair has been cut very short|cabello cortado muy corto]]",
+          "translation": "afeitado"
+        },
+        {
+          "word": "[[curly|rizado]]",
+          "definition": "[[hair in loops or coils|cabello en bucles]]",
+          "translation": "rizado"
+        },
+        {
+          "word": "[[straight|liso]]",
+          "definition": "[[hair not curly|cabello no rizado]]",
+          "translation": "liso"
         }
       ]
     },
@@ -895,20 +1028,39 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a2-u4-e43",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A2",
     "topic": "Describing People",
     "difficulty": "hard",
     "transcript": "[[He has freckles on his nose|Tiene pecas en la nariz]].",
     "content": {
       "title": "[[Skin|Piel]] [[Features|Características]]",
-      "instructions": "Completa la descripción de características de la piel.",
-      "questions": [
+      "instructions": "Relaciona cada característica de piel con su descripción.",
+      "pairs": [
         {
-          "question": "[[The|el/la]] [[young|joven]] [[fair|clara]]-[[skinned|piel]] [[girl|niña]] [[with|con]] [[red|rojo]] [[hair|cabello]] [[has|tiene]] _______ [[on|en]] [[her|su]] [[cheeks|mejillas]].",
-          "options": ["[[freckles|pecas]]", "[[wrinkles|arrugas]]", "[[spots|manchas]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Fair|clara]]-skinned [[people|gente]] [[with|con]] [[red|rojo]] [[hair|cabello]] [[commonly|comúnmente]] [[have|tengo/tienes/tienen]] '[[freckles|pecas]]' (pecas) [[on|en]] [[their|su]] [[cheeks|mejillas]] - [[a|un/una]] [[natural|natural]] [[feature|característica]] [[caused|causada]] [[by|por]] [[sun|sol]] [[exposure|exposición]]."
+          "word": "[[freckles|pecas]]",
+          "definition": "[[small brown marks on skin|pequeñas marcas marrones en la piel]]",
+          "translation": "pecas"
+        },
+        {
+          "word": "[[moles|lunares]]",
+          "definition": "[[dark raised marks on skin|marcas oscuras elevadas en la piel]]",
+          "translation": "lunares"
+        },
+        {
+          "word": "[[birthmarks|marcas de nacimiento]]",
+          "definition": "[[marks present from birth|marcas presentes desde el nacimiento]]",
+          "translation": "marcas de nacimiento"
+        },
+        {
+          "word": "[[tattoos|tatuajes]]",
+          "definition": "[[permanent designs on skin|diseños permanentes en la piel]]",
+          "translation": "tatuajes"
+        },
+        {
+          "word": "[[acne|acné]]",
+          "definition": "[[skin condition with spots|condición de piel con manchas]]",
+          "translation": "acné"
         }
       ]
     },
@@ -934,20 +1086,39 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a2-u4-e45",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A2",
     "topic": "Describing People Review",
     "difficulty": "hard",
     "transcript": "[[She is short with long red hair|Es baja con cabello rojo largo]].",
     "content": {
       "title": "[[Overall|General]] [[Description|Descripción]]",
-      "instructions": "Según la descripción, completa cómo se ve la persona.",
-      "questions": [
+      "instructions": "Relaciona cada palabra de descripción general con su definición.",
+      "pairs": [
         {
-          "question": "[[She|Ella]] [[is|es]] [[short|baja]] [[with|con]] [[distinctive|distintivo]], [[striking|llamativo]] _______ [[hair|cabello]].",
-          "options": ["[[long black|negro largo]]", "[[long red|rojo largo]]", "[[short brown|marrón corto]]"],
-          "correctAnswer": 1,
-          "explanation": "'[[Long|largo]] [[red|rojo]] [[hair|cabello]]' (cabello rojo largo) [[is|es/está]] distinctive [[and|y]] striking. [[Red|rojo]] [[hair|cabello]] [[is|es/está]] [[the|el/la/los/las]] rarest [[and|y]] most distinctive [[hair|cabello]] [[color|color]]."
+          "word": "[[striking|llamativo]]",
+          "definition": "[[impressive and memorable|impresionante y memorable]]",
+          "translation": "llamativo"
+        },
+        {
+          "word": "[[distinctive|distintivo]]",
+          "definition": "[[characteristic and different|característico y diferente]]",
+          "translation": "distintivo"
+        },
+        {
+          "word": "[[elegant|elegante]]",
+          "definition": "[[stylish and refined|con estilo y refinado]]",
+          "translation": "elegante"
+        },
+        {
+          "word": "[[unique|único]]",
+          "definition": "[[one of a kind|único en su tipo]]",
+          "translation": "único"
+        },
+        {
+          "word": "[[remarkable|notable]]",
+          "definition": "[[worthy of attention|digno de atención]]",
+          "translation": "notable"
         }
       ]
     },
@@ -999,20 +1170,39 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a2-u4-e48",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A2",
     "topic": "Mixed Practice",
     "difficulty": "hard",
     "transcript": "[[Tom is tall and athletic|Tom es alto y atlético]].",
     "content": {
       "title": "[[Personality|Personalidad]] + [[Appearance|Apariencia]]",
-      "instructions": "Según la descripción, completa sobre apariencia física.",
-      "questions": [
+      "instructions": "Relaciona cada palabra de apariencia con su sinónimo.",
+      "pairs": [
         {
-          "question": "[[Tom|Tom]], [[the|el/la]] [[star|estrella]] [[soccer|fútbol]] [[player|jugador]], [[is|es]] _______ [[and|y]] [[athletic|atlético]].",
-          "options": ["[[beautiful|hermoso]]", "[[tall|alto]]", "[[slim|delgado]]"],
-          "correctAnswer": 1,
-          "explanation": "[[Star|Estrella]] [[soccer|fútbol]] [[players|jugadores]] [[typically|típicamente]] [[are|son]] '[[tall|alto]]' (alto) [[and|y]] [[athletic|atlético]] - height gives [[them|les]] [[an|un/una]] advantage [[in|en]] [[the|el/la/los/las]] [[sport|deporte]]."
+          "word": "[[athletic|atlético]]",
+          "definition": "[[having a strong, muscular body|teniendo un cuerpo fuerte y musculoso]]",
+          "translation": "atlético"
+        },
+        {
+          "word": "[[fit|en forma]]",
+          "definition": "[[in good physical condition|en buena condición física]]",
+          "translation": "en forma"
+        },
+        {
+          "word": "[[strong|fuerte]]",
+          "definition": "[[having physical power|teniendo poder físico]]",
+          "translation": "fuerte"
+        },
+        {
+          "word": "[[agile|ágil]]",
+          "definition": "[[able to move quickly and easily|capaz de moverse rápida y fácilmente]]",
+          "translation": "ágil"
+        },
+        {
+          "word": "[[vigorous|vigoroso]]",
+          "definition": "[[energetic and active|energético y activo]]",
+          "translation": "vigoroso"
         }
       ]
     },
@@ -1038,20 +1228,39 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a2-u4-e50",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A2",
     "topic": "Mixed Practice",
     "difficulty": "hard",
     "transcript": "[[He is dressed elegantly|Está vestido elegantemente]].",
     "content": {
       "title": "[[Overall|General]] [[Style|Estilo]]",
-      "instructions": "Según la descripción, completa cómo se viste.",
-      "questions": [
+      "instructions": "Relaciona cada palabra de estilo con su descripción.",
+      "pairs": [
         {
-          "question": "[[The|el/la/los/las]] [[businessman|hombre de negocios]] [[arriving|llegando]] [[at|en]] [[a|un/una]] [[formal|formal]] [[board|junta]] meeting [[in|en]] [[a|un/una]] [[tailored|ajustada]] suit [[and|y]] polished [[shoes|zapatos]] [[is|es/está]] dressed [[very|muy]] _______.",
-          "options": ["[[casually|informalmente]]", "[[smartly|elegantemente]]", "[[messily|desordenadamente]]"],
-          "correctAnswer": 1,
-          "explanation": "[[A|un/una]] [[tailored|ajustada]] [[suit|traje]] [[and|y]] polished [[shoes|zapatos]] [[at|en]] [[a|un/una]] [[formal|formal]] [[board|junta]] [[meeting|reunión]] [[indicates|indica]] someone [[is|es/está]] dressed '[[smartly|elegantemente]]' (elegantemente) - [[the|el/la/los/las]] [[professional|profesional]] [[choice|opción]]."
+          "word": "[[smartly|elegantemente]]",
+          "definition": "[[in a neat, well-dressed manner|de manera elegante y bien vestida]]",
+          "translation": "elegantemente"
+        },
+        {
+          "word": "[[casually|informalmente]]",
+          "definition": "[[in a relaxed, informal way|de manera relajada e informal]]",
+          "translation": "informalmente"
+        },
+        {
+          "word": "[[formally|formalmente]]",
+          "definition": "[[in a proper, official manner|de manera propia y oficial]]",
+          "translation": "formalmente"
+        },
+        {
+          "word": "[[stylishly|con estilo]]",
+          "definition": "[[fashionably and attractively|de manera elegante y atractiva]]",
+          "translation": "con estilo"
+        },
+        {
+          "word": "[[neatly|pulcramente]]",
+          "definition": "[[in a tidy, orderly way|de manera ordenada y limpia]]",
+          "translation": "pulcramente"
         }
       ]
     },
@@ -1077,20 +1286,39 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a2-u4-e52",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A2",
     "topic": "Mixed Practice",
     "difficulty": "hard",
     "transcript": "[[The athlete has a muscular build|El atleta tiene una constitución musculosa]].",
     "content": {
       "title": "[[Athletic|Atlético]] [[Build|Constitución]]",
-      "instructions": "Completa la descripción de constitución atlética.",
-      "questions": [
+      "instructions": "Relaciona cada palabra de constitución atlética con su descripción.",
+      "pairs": [
         {
-          "question": "[[The|el/la]] [[weightlifter|levantador de pesas]] [[who|quién]] [[trains|entrena]] 6 [[hours|horas]] daily [[has|tiene]] [[a|un]] _______ [[build|constitución]].",
-          "options": ["[[strong|fuerte]]", "[[muscular|musculosa]]", "[[athletic|atlética]]"],
-          "correctAnswer": 1,
-          "explanation": "Someone [[who|quién]] [[trains|entrena]] [[intensively|intensamente]] [[as|como]] [[a|un/una]] [[weightlifter|levantador de pesas]] [[develops|desarrolla]] [[a|un/una]] '[[muscular|muscular]] [[build|constitución]]' (constitución musculosa) - [[visible|visible]] [[muscle|músculo]] [[development|desarrollo]] [[from|de]] [[strength|fuerza]] [[training|entrenamiento]]."
+          "word": "[[muscular|musculosa]]",
+          "definition": "[[having visible developed muscles|teniendo músculos visibles desarrollados]]",
+          "translation": "musculosa"
+        },
+        {
+          "word": "[[toned|tonificada]]",
+          "definition": "[[firm and well-defined muscles|músculos firmes y bien definidos]]",
+          "translation": "tonificada"
+        },
+        {
+          "word": "[[ripped|marcada]]",
+          "definition": "[[very muscular with visible definition|muy musculosa con definición visible]]",
+          "translation": "marcada"
+        },
+        {
+          "word": "[[bulky|voluminosa]]",
+          "definition": "[[large and heavily muscled|grande y fuertemente musculada]]",
+          "translation": "voluminosa"
+        },
+        {
+          "word": "[[lean|esbelta]]",
+          "definition": "[[thin with visible muscles|delgada con músculos visibles]]",
+          "translation": "esbelta"
         }
       ]
     },
@@ -1116,20 +1344,39 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a2-u4-e54",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A2",
     "topic": "Mixed Practice",
     "difficulty": "hard",
     "transcript": "[[He has a deep voice|Tiene una voz profunda]].",
     "content": {
       "title": "[[Voice|Voz]] [[Description|Descripción]]",
-      "instructions": "Completa la descripción de la voz.",
-      "questions": [
+      "instructions": "Relaciona cada característica de voz con su descripción.",
+      "pairs": [
         {
-          "question": "[[The|el/la]] [[professional|profesional]] [[news|noticias]] [[broadcaster|locutor]] [[with|con]] [[excellent|excelente]] [[diction|dicción]] [[and|y]] [[audible|audible]] [[pronunciation|pronunciación]] [[has|tiene]] [[a|un]] _______ [[voice|voz]].",
-          "options": ["[[soft|suave]]", "[[high|aguda]]", "[[clear|clara]]"],
-          "correctAnswer": 2,
-          "explanation": "[[Professional|Profesional]] [[broadcasters|locutores]] [[with|con]] [[excellent|excelente]] [[diction|dicción]] [[are|están]] [[known|conocidos]] [[for|por]] [[having|tener]] [[a|un/una]] '[[clear|clara]] [[voice|voz]]' (voz clara) - [[easily|fácilmente]] [[understood|entendida]] [[and|y]] [[well-articulated|bien articulada]]."
+          "word": "[[deep|profunda]]",
+          "definition": "[[low in pitch|baja en tono]]",
+          "translation": "profunda"
+        },
+        {
+          "word": "[[clear|clara]]",
+          "definition": "[[easy to hear and understand|fácil de oír y entender]]",
+          "translation": "clara"
+        },
+        {
+          "word": "[[soft|suave]]",
+          "definition": "[[quiet and gentle|tranquila y gentil]]",
+          "translation": "suave"
+        },
+        {
+          "word": "[[loud|fuerte]]",
+          "definition": "[[high in volume|alto en volumen]]",
+          "translation": "fuerte"
+        },
+        {
+          "word": "[[hoarse|ronca]]",
+          "definition": "[[rough and harsh|áspera y fuerte]]",
+          "translation": "ronca"
         }
       ]
     },
