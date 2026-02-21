@@ -511,8 +511,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "He [[has|tiene]] [[a|un]] _______ _______ _______ [[notebook|cuaderno]].",
-          "options": ["[[large new red|rojo nuevo grande]]", "[[blue old small|azul viejo pequeño (orden incorrecto)]]", "[[small old blue|cuaderno pequeño viejo azul]]"],
-          "correctAnswer": 2,
+          "options": ["[[blue old small|azul viejo pequeño]]", "[[small old blue|cuaderno pequeño viejo azul]]"],
+          "correctAnswer": 1,
           "explanation": "Orden: [[size|tamaño]] ([[small|pequeño]]) + age ([[old|viejo]]) + [[color|color]] ([[blue|azul]])."
         }
       ]
@@ -550,8 +550,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "She [[has|tiene]] [[a|un]] _______ _______ _______ [[coat|abrigo]].",
-          "options": ["[[ugly short cold|frío corto feo]]", "[[warm long nice|cálido largo bonito (orden incorrecto)]]", "[[nice long warm|abrigo bonito largo cálido]]"],
-          "correctAnswer": 2,
+          "options": ["[[warm long nice|cálido largo bonito]]", "[[nice long warm|abrigo bonito largo cálido]]"],
+          "correctAnswer": 1,
           "explanation": "Orden: quality ([[nice|agradable]]) + [[size|tamaño]] ([[long|largo]]) + quality ([[warm|cálido]])."
         }
       ]
@@ -589,8 +589,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "She [[has|tiene]] [[a|un]] _______ _______ _______ [[car|coche]].",
-          "options": ["[[ugly old blue|azul viejo feo]]", "[[red new beautiful|rojo nuevo hermoso (orden incorrecto)]]", "[[beautiful new red|coche hermoso nuevo rojo]]"],
-          "correctAnswer": 2,
+          "options": ["[[red new beautiful|rojo nuevo hermoso]]", "[[beautiful new red|coche hermoso nuevo rojo]]"],
+          "correctAnswer": 1,
           "explanation": "Orden: quality ([[beautiful|hermoso]]) + age ([[new|nuevo]]) + [[color|color]] ([[red|rojo]])."
         }
       ]
