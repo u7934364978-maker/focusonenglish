@@ -298,6 +298,30 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c5
 
 ---
 
+## NEW TASK: Add Missing Translations in Lesson 3 Exercises
+
+### [x] Fix untranslated words in Lesson 3 exercises 1, 3, 9, 13, 15
+**Exercises Updated**: e31, e33, e39, e43, e45
+**Untranslated Words Fixed**:
+- **Exercise 31** (Lesson 3, Exercise 1):
+  - Added: "[[model|modelo]]", "[[who|quién]]", "[[crowds|multitudes]]", "[[needs|necesita]]"
+- **Exercise 33** (Lesson 3, Exercise 3):
+  - Added: "[[Mediterranean|Mediterráneo]]"
+- **Exercise 39** (Lesson 3, Exercise 9):
+  - Added: "[[ballet|ballet]]", "[[dancer|bailarín]]"
+- **Exercise 43** (Lesson 3, Exercise 13):
+  - Added: "[[skinned|piel]]" (fixing "fair-skinned")
+- **Exercise 45** (Lesson 3, Exercise 15):
+  - Added: "[[distinctive|distintivo]]", "[[striking|llamativo]]"
+
+### [x] Git commit & push
+- **Commit Hash**: `aa41a50a`
+- **Message**: "Fix A2 Unit 4 Lesson 3 exercises 1,3,9,13,15: Add missing translations"
+- **Files Modified**: 1 file changed, 5 insertions(+), 5 deletions(-)
+- **Status**: ✅ Pushed to main branch
+
+---
+
 ## ✅ ALL TASKS COMPLETED
 
 ### Summary
@@ -311,5 +335,6 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c5
 - Fixed dual-correct-answer issue in Exercise 22
 - Removed all student-cueing hints from Exercises 22, 24
 - Reduced three-adjective exercises to 2 options (Exercises 26, 28, 30)
-- **Total Commits**: 12 commits completed
-- **Final Status**: All words in A2 Unit 4 and Unit 2 Exercise 55 properly translated, all duplicate/dual-correct options resolved, ALL student-cueing hints removed, and adjective order exercises simplified to optimal difficulty
+- Added missing translations in Lesson 3 exercises 1, 3, 9, 13, 15
+- **Total Commits**: 13 commits completed
+- **Final Status**: All words in A2 Unit 4 (all lessons 1-3) and Unit 2 Exercise 55 properly translated, all duplicate/dual-correct options resolved, ALL student-cueing hints removed, and adjective order exercises simplified to optimal difficulty
