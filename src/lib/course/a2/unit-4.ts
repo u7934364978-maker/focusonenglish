@@ -13,13 +13,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "transcript": "[[I have got blue eyes|Tengo los ojos azules]].",
     "content": {
       "title": "[[Have Got|Tener]]: [[I|Yo]]",
-      "instructions": "Selecciona la forma correcta con '[[[[have|tengo/tienes/tienen]] got|tengo]]'.",
+      "instructions": "Selecciona la forma correcta con '[[have got|tengo/tienes/tienen]]'.",
       "questions": [
         {
           "question": "[[I|Yo]] _______ [[blue eyes|los ojos azules]].",
           "options": ["[[have got|tengo]]", "[[has got|tiene]]", "[[am|soy]]"],
           "correctAnswer": 0,
-          "explanation": "Con '[[I|yo]]' usamos '[[[[have|tengo/tienes/tienen]] got|tengo]]' para describir características físicas."
+          "explanation": "Con '[[I|yo]]' usamos '[[have got|tengo/tienes/tienen]]' para describir características físicas."
         }
       ]
     },
@@ -35,10 +35,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "transcript": "[[You have got brown hair|Tienes el cabello marrón]].",
     "content": {
       "title": "[[Have Got|Tener]]: [[You|Tú]]",
-      "instructions": "Ordena la oración con '[[[[have|tengo/tienes/tienen]] got|tengo]]'.",
+      "instructions": "Ordena la oración con '[[have got|tengo/tienes/tienen]]'.",
       "correctSentence": "[[You have got brown hair|Tienes el cabello marrón]].",
       "words": ["[[hair|cabello]].", "[[brown|marrón]]", "[[have got|tienes]]", "[[You|Tú]]"],
-      "explanation": "Con '[[you|tú]]' usamos '[[[[have|tengo/tienes/tienen]] got|tengo]]' para hablar de características físicas."
+      "explanation": "Con '[[you|tú]]' usamos '[[have got|tengo/tienes/tienen]]' para hablar de características físicas."
     },
     "audioUrl": "audio/a2/unit-4/e2.mp3",
     "topicName": "Grammar"
@@ -52,13 +52,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "transcript": "[[He has got a beard|Tiene una barba]].",
     "content": {
       "title": "[[Have Got|Tener]]: [[He/She|Él/Ella]]",
-      "instructions": "Completa con '[[[[has|tiene/tienen]] got|tiene]]' para tercera persona singular.",
+      "instructions": "Completa con '[[has got|tiene/tienen]]' para tercera persona singular.",
       "questions": [
         {
           "question": "[[She|Ella]] _______ [[long hair|el cabello largo]].",
           "options": ["[[have got|tengo]]", "[[has got|tiene]]", "[[am|soy]]"],
           "correctAnswer": 1,
-          "explanation": "Con '[[he|él]]/[[she|ella]]' usamos '[[[[has|tiene/tienen]] got|tiene]]'."
+          "explanation": "Con '[[he|él]]/[[she|ella]]' usamos '[[has got|tiene/tienen]]'."
         }
       ]
     },
@@ -77,7 +77,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena la oración sobre características de objetos.",
       "correctSentence": "[[It has got a long tail|Tiene una cola larga]].",
       "words": ["[[tail|cola]].", "[[long|larga]]", "[[a|una]]", "[[has got|tiene]]", "[[It|Esto]]"],
-      "explanation": "Con '[[it|eso]]' usamos '[[[[has|tiene/tienen]] got|tiene]]' para describir características de animales u objetos."
+      "explanation": "Con '[[it|eso]]' usamos '[[has got|tiene/tienen]]' para describir características de animales u objetos."
     },
     "audioUrl": "audio/a2/unit-4/e4.mp3",
     "topicName": "Grammar"
@@ -91,13 +91,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "transcript": "[[We have got dark skin|Tenemos la piel oscura]].",
     "content": {
       "title": "[[Have Got|Tener]]: [[We/They|Nosotros/Ellos]]",
-      "instructions": "Completa con '[[[[have|tengo/tienes/tienen]] got|tengo]]' para primera persona plural.",
+      "instructions": "Completa con '[[have got|tengo/tienes/tienen]]' para primera persona plural.",
       "questions": [
         {
           "question": "[[They|Ellos]] _______ [[green eyes|los ojos verdes]].",
           "options": ["[[have got|tienen]]", "[[has got|tiene]]", "[[am|soy]]"],
           "correctAnswer": 0,
-          "explanation": "Con '[[we|nosotros/nosotras]]/[[they|ellos/ellas]]' usamos '[[[[have|tengo/tienes/tienen]] got|tengo]]' en forma base."
+          "explanation": "Con '[[we|nosotros/nosotras]]/[[they|ellos/ellas]]' usamos '[[have got|tengo/tienes/tienen]]' en forma base."
         }
       ]
     },
@@ -116,7 +116,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena la oración describiendo [[a|un/una]] un miembro de la familia.",
       "correctSentence": "[[My sister has got curly hair|Mi hermana tiene el cabello rizado]].",
       "words": ["[[hair|cabello]].", "[[curly|rizado]]", "[[has got|tiene]]", "[[sister|hermana]]", "[[My|Mi]]"],
-      "explanation": "'[[My|mi]] [[sister|hermana]] [[[[has|tiene/tienen]] got|tiene]] curly [[hair|cabello]]' describe las características de la hermana."
+      "explanation": "'[[My|mi]] [[sister|hermana]] [[has got|tiene/tienen]] [[curly|rizado]] [[hair|cabello]]' [[describe|describe]] las características de la hermana."
     },
     "audioUrl": "audio/a2/unit-4/e6.mp3",
     "topicName": "Vocabulary"
@@ -133,10 +133,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra correcta para forma de cara.",
       "questions": [
         {
-          "question": "The young girl with soft, youthful features [[has got|tiene]] an _______ [[face|cara]].",
+          "question": "[[The|el/la]] [[young|joven]] [[girl|niñ[[a|un]]]] [[with|con]] [[soft|suave]], [[youthful|juvenil]] [[features|características]] [[has got|tiene]] [[an|un]] _______ [[face|cara]].",
           "options": ["[[round|redonda]]", "[[long|larga]]", "[[square|cuadrada]]"],
           "correctAnswer": 0,
-          "explanation": "[[Soft|suave]], [[youthful|juvenil]] features typically correspond [[to|[[a|un/una]]]] [[a|un/una]] '[[round|redonda]] [[face|cara]]' (cara redonda)."
+          "explanation": "[[Soft|suave]], [[youthful|juvenil]] [[features|características]] [[typically|típicamente]] correspond [[to|[[a|un/una]]]] [[a|un/una]] '[[round|redonda]] [[face|cara]]' (cara redonda)."
         }
       ]
     },
@@ -155,7 +155,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena la oración describiendo características faciales.",
       "correctSentence": "[[He has got a big nose|Tiene la nariz grande]].",
       "words": ["[[nose|nariz]].", "[[big|grande]]", "[[a|una]]", "[[has got|tiene]]", "[[He|Él]]"],
-      "explanation": "'[[He|él]] [[[[has|tiene/tienen]] got|tiene]] [[a|un/una]] [[big|grande]] [[nose|nariz]]' describe la nariz de alguien."
+      "explanation": "'[[He|él]] [[has got|tiene/tienen]] [[a|un/una]] [[big|grande]] [[nose|nariz]]' [[describe|describe]] la nariz de alguien."
     },
     "audioUrl": "audio/a2/unit-4/e8.mp3",
     "topicName": "Vocabulary"
@@ -172,10 +172,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la oración sobre orejas.",
       "questions": [
         {
-          "question": "The boy who is self-conscious about his prominent ears [[has got|tiene]] _______ [[ears|orejas]].",
+          "question": "[[The|el/la]] [[boy|niño]] who [[is|es]] [[self-conscious|cohibido]] [[about|sobre]] his [[prominent|prominente]] [[ears|orejas]] [[has got|tiene]] _______ [[ears|orejas]].",
           "options": ["[[big|grandes]]", "[[small|pequeñas]]", "[[tall|altas]]"],
           "correctAnswer": 0,
-          "explanation": "Being self-conscious [[about|sobre]] prominent features suggests '[[[[has|tiene/tienen]] got|tiene]] [[big|grande]] [[ears|oídos]]' (tiene las orejas grandes)."
+          "explanation": "[[Being|siendo]] [[self-conscious|cohibido]] [[about|sobre]] [[prominent|prominente]] [[features|características]] [[suggests|sugiere]] '[[has got|tiene/tienen]] [[big|grande]] [[ears|oídos]]' (tiene las orejas grandes)."
         }
       ]
     },
@@ -194,7 +194,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena la oración describiendo color de cabello.",
       "correctSentence": "[[My grandfather has got gray hair|Mi abuelo tiene el cabello gris]].",
       "words": ["[[hair|cabello]].", "[[gray|gris]]", "[[has got|tiene]]", "[[grandfather|abuelo]]", "[[My|Mi]]"],
-      "explanation": "'[[My|mi]] [[grandfather|abuelo]] [[[[has|tiene/tienen]] got|tiene]] [[gray|gris]] [[hair|cabello]]' describe el color del cabello del abuelo."
+      "explanation": "'[[My|mi]] [[grandfather|abuelo]] [[has got|tiene/tienen]] [[gray|gris]] [[hair|cabello]]' [[describe|describe]] el [[color|color]] del cabello del abuelo."
     },
     "audioUrl": "audio/a2/unit-4/e10.mp3",
     "topicName": "Vocabulary"
@@ -211,10 +211,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, selecciona el color de cabello correcto.",
       "questions": [
         {
-          "question": "The girl from Scandinavia with fair skin [[has got|tiene]] _______ [[hair|cabello]].",
+          "question": "[[The|el/la]] [[girl|niñ[[a|un]]]] [[from|de]] Scandinavia [[with|con]] [[fair|clara]] [[skin|piel]] [[has got|tiene]] _______ [[hair|cabello]].",
           "options": ["[[blonde|rubio]]", "[[black|negro]]", "[[red|rojo]]"],
           "correctAnswer": 0,
-          "explanation": "[[People|gente]] [[from|de]] Scandinavia typically [[have|tengo/tienes/tienen]] '[[blonde|rubio/rubia]] [[hair|cabello]]' (cabello rubio). Fair [[skin|piel]] [[is|es/está]] commonly associated [[with|con]] [[blonde|rubio/rubia]] [[hair|cabello]]."
+          "explanation": "[[People|gente]] [[from|de]] Scandinavia [[typically|típicamente]] [[have|tengo/tienes/tienen]] '[[blonde|rubio/rubia]] [[hair|cabello]]' (cabello rubio). [[Fair|clara]] [[skin|piel]] [[is|es/está]] commonly associated [[with|con]] [[blonde|rubio/rubia]] [[hair|cabello]]."
         }
       ]
     },
@@ -233,7 +233,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena la oración describiendo tipo de cuerpo.",
       "correctSentence": "[[I have got a slim figure|Tengo una figura esbelta]].",
       "words": ["[[figure|figura]].", "[[slim|esbelta]]", "[[a|una]]", "[[have got|tengo]]", "[[I|Yo]]"],
-      "explanation": "'[[I|yo]] [[[[have|tengo/tienes/tienen]] got|tengo]] [[a|un/una]] slim figure' describe tu tipo de cuerpo."
+      "explanation": "'[[I|yo]] [[have got|tengo/tienes/tienen]] [[a|un/una]] [[slim|esbelta]] [[figure|figura]]' [[describe|describe]] tu tipo de cuerpo."
     },
     "audioUrl": "audio/a2/unit-4/e12.mp3",
     "topicName": "Vocabulary"
@@ -250,10 +250,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa la oración sobre altura.",
       "questions": [
         {
-          "question": "The basketball player who reaches high shelves without a ladder [[has got|tiene]] a _______ [[body|cuerpo]].",
+          "question": "[[The|el/la]] basketball player who reaches high shelves [[without|sin]] [[a|un]] ladder [[has got|tiene]] [[a|un]] _______ [[body|cuerpo]].",
           "options": ["[[short|bajo]]", "[[tall|alto]]", "[[wide|ancho]]"],
           "correctAnswer": 1,
-          "explanation": "[[A|un/una]] [[basketball|baloncesto]] [[player|jugador]] [[who|quién]] reaches high objects typically [[has|tiene/tienen]] [[a|un/una]] '[[tall|alto]] body' (cuerpo alto)."
+          "explanation": "[[A|un/una]] [[basketball|baloncesto]] [[player|jugador]] [[who|quién]] reaches high objects [[typically|típicamente]] [[has|tiene/tienen]] [[a|un/una]] '[[tall|alto]] [[body|cuerpo]]' (cuerpo alto)."
         }
       ]
     },
@@ -272,7 +272,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena la oración describiendo color de piel.",
       "correctSentence": "[[They have got brown skin|Tienen la piel marrón]].",
       "words": ["[[skin|piel]].", "[[brown|marrón]]", "[[have got|tienen]]", "[[They|Ellos]]"],
-      "explanation": "'[[They|ellos/ellas]] [[[[have|tengo/tienes/tienen]] got|tengo]] [[brown|marrón]] [[skin|piel]]' describe el color de piel."
+      "explanation": "'[[They|ellos/ellas]] [[have got|tengo/tienes/tienen]] [[brown|marrón]] [[skin|piel]]' [[describe|describe]] el [[color|color]] de piel."
     },
     "audioUrl": "audio/a2/unit-4/e14.mp3",
     "topicName": "Vocabulary"
@@ -286,13 +286,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "transcript": "[[My brother has got a beard|Mi hermano tiene una barba]].",
     "content": {
       "title": "[[Have Got|Tener]] [[Review|Repaso]]",
-      "instructions": "Completa con la forma correcta de '[[[[have|tengo/tienes/tienen]] got|tengo]]'.",
+      "instructions": "Completa con la forma correcta de '[[have got|tengo/tienes/tienen]]'.",
       "questions": [
         {
           "question": "We _______ [[blue eyes|los ojos azules]].",
           "options": ["[[has got|tiene]]", "[[have got|tenemos]]", "[[am|soy]]"],
           "correctAnswer": 1,
-          "explanation": "Con '[[we|nosotros/nosotras]]' usamos '[[[[have|tengo/tienes/tienen]] got|tengo]]' en forma base."
+          "explanation": "Con '[[we|nosotros/nosotras]]' usamos '[[have got|tengo/tienes/tienen]]' en forma base."
         }
       ]
     },
@@ -315,10 +315,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el orden correcto de adjetivos.",
       "questions": [
         {
-          "question": "I have a _______ _______ [[car|coche]].",
+          "question": "I [[have|tener]] [[a|un]] _______ _______ [[car|coche]].",
           "options": ["[[big red|rojo grande]]", "[[red big|grande rojo]]", "[[big red|grande rojo]]"],
           "correctAnswer": 2,
-          "explanation": "En inglés: tamaño + color. '[[Big|grande]] [[red|rojo]] [[car|coche]]' (coche rojo grande)."
+          "explanation": "En inglés: tamaño + [[color|color]]. '[[Big|grande]] [[red|rojo]] [[car|coche]]' (coche rojo grande)."
         }
       ]
     },
@@ -337,7 +337,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena la oración con adjetivos en el orden correcto.",
       "correctSentence": "[[He has a small yellow phone|Tiene un pequeño teléfono amarillo]].",
       "words": ["[[phone|teléfono]].", "[[yellow|amarillo]]", "[[small|pequeño]]", "[[a|un]]", "[[has|tiene]]", "[[He|Él]]"],
-      "explanation": "Orden: size (pequeño) + color (amarillo) + sustantivo (teléfono)."
+      "explanation": "Orden: [[size|tamaño]] (pequeño) + [[color|color]] (amarillo) + sustantivo (teléfono)."
     },
     "audioUrl": "audio/a2/unit-4/e17.mp3",
     "topicName": "Grammar"
@@ -354,10 +354,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el orden correcto.",
       "questions": [
         {
-          "question": "She has a _______ _______ [[dress|vestido]].",
+          "question": "She [[has|tiene]] [[a|un]] _______ _______ [[dress|vestido]].",
           "options": ["[[long black|negro largo]]", "[[black long|largo negro]]", "[[long black|largo negro]]"],
           "correctAnswer": 2,
-          "explanation": "'[[Long|largo]] [[black|negro]] [[dress|vestido]]' sigue el orden: longitud + color."
+          "explanation": "'[[Long|largo]] [[black|negro]] [[dress|vestido]]' sigue el orden: longitud + [[color|color]]."
         }
       ]
     },
@@ -376,7 +376,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena los adjetivos correctamente.",
       "correctSentence": "[[They have old round glasses|Tienen gafas redondas viejas]].",
       "words": ["[[glasses|gafas]].", "[[round|redondas]]", "[[old|viejas]]", "[[have|tienen]]", "[[They|Ellos]]"],
-      "explanation": "Orden: age ([[old|viejo]]) + shape ([[round|redonda]]) + sustantivo (glasses)."
+      "explanation": "Orden: age ([[old|viejo]]) + [[shape|forma]] ([[round|redonda]]) + sustantivo (glasses)."
     },
     "audioUrl": "audio/a2/unit-4/e19.mp3",
     "topicName": "Grammar"
@@ -393,10 +393,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el orden correcto.",
       "questions": [
         {
-          "question": "She has a _______ _______ [[hat|sombrero]].",
+          "question": "She [[has|tiene]] [[a|un]] _______ _______ [[hat|sombrero]].",
           "options": ["[[beautiful white|blanco hermoso]]", "[[white beautiful|hermoso blanco]]", "[[beautiful white|hermoso blanco]]"],
           "correctAnswer": 2,
-          "explanation": "'[[Beautiful|hermoso]] [[white|blanco]] [[hat|sombrero]]' sigue el orden: quality + color."
+          "explanation": "'[[Beautiful|hermoso]] [[white|blanco]] [[hat|sombrero]]' sigue el orden: quality + [[color|color]]."
         }
       ]
     },
@@ -432,10 +432,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el orden correcto para describir cabello.",
       "questions": [
         {
-          "question": "She has _______ _______ [[hair|cabello]].",
+          "question": "She [[has|tiene]] _______ _______ [[hair|cabello]].",
           "options": ["[[blonde curly|rizado rubio]]", "[[curly blonde|rubio rizado]]", "[[curly blonde|rizado rubio]]"],
           "correctAnswer": 2,
-          "explanation": "'Curly [[blonde|rubio/rubia]] [[hair|cabello]]' sigue el orden: texture + color."
+          "explanation": "'[[Curly|rizado]] [[blonde|rubio/rubia]] [[hair|cabello]]' sigue el orden: texture + [[color|color]]."
         }
       ]
     },
@@ -454,7 +454,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena los adjetivos para describir ojos.",
       "correctSentence": "[[They have big dark eyes|Tienen los ojos oscuros grandes]].",
       "words": ["[[eyes|ojos]].", "[[dark|oscuros]]", "[[big|grandes]]", "[[have|tienen]]", "[[They|Ellos]]"],
-      "explanation": "Orden: size ([[big|grande]]) + color ([[dark|oscuro]]) + sustantivo ([[eyes|ojos]])."
+      "explanation": "Orden: [[size|tamaño]] ([[big|grande]]) + [[color|color]] ([[dark|oscuro]]) + sustantivo ([[eyes|ojos]])."
     },
     "audioUrl": "audio/a2/unit-4/e23.mp3",
     "topicName": "Grammar"
@@ -471,10 +471,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el orden correcto con múltiples adjetivos.",
       "questions": [
         {
-          "question": "She has a _______ _______ _______ [[bag|bolsa]].",
+          "question": "She [[has|tiene]] [[a|un]] _______ _______ _______ [[bag|bolsa]].",
           "options": ["[[beautiful big red|grande roja hermosa]]", "[[beautiful big red|hermosa grande roja]]", "[[beautiful big red|hermosa grande roja]]"],
           "correctAnswer": 2,
-          "explanation": "Orden: quality ([[beautiful|hermoso]]) + size ([[big|grande]]) + color ([[red|rojo]])."
+          "explanation": "Orden: quality ([[beautiful|hermoso]]) + [[size|tamaño]] ([[big|grande]]) + [[color|color]] ([[red|rojo]])."
         }
       ]
     },
@@ -493,7 +493,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena los adjetivos correctamente.",
       "correctSentence": "[[He has a modern rectangular office|Tiene una oficina rectangular moderna]].",
       "words": ["[[office|oficina]].", "[[rectangular|rectangular]]", "[[modern|moderna]]", "[[a|una]]", "[[has|tiene]]", "[[He|Él]]"],
-      "explanation": "Orden: age (modern) + shape (rectangular) + sustantivo ([[office|oficina]])."
+      "explanation": "Orden: age (modern) + [[shape|forma]] (rectangular) + sustantivo ([[office|oficina]])."
     },
     "audioUrl": "audio/a2/unit-4/e25.mp3",
     "topicName": "Grammar"
@@ -510,10 +510,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el orden correcto con tres adjetivos.",
       "questions": [
         {
-          "question": "He has a _______ _______ _______ [[notebook|cuaderno]].",
+          "question": "He [[has|tiene]] [[a|un]] _______ _______ _______ [[notebook|cuaderno]].",
           "options": ["[[small old blue|azul viejo pequeño]]", "[[small old blue|pequeño viejo azul]]", "[[small old blue|pequeño viejo azul]]"],
           "correctAnswer": 2,
-          "explanation": "Orden: size ([[small|pequeño]]) + age ([[old|viejo]]) + color ([[blue|azul]])."
+          "explanation": "Orden: [[size|tamaño]] ([[small|pequeño]]) + age ([[old|viejo]]) + [[color|color]] ([[blue|azul]])."
         }
       ]
     },
@@ -532,7 +532,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena los adjetivos en el orden correcto.",
       "correctSentence": "[[My grandmother has a beautiful old silver ring|Mi abuela tiene un anillo de plata antiguo hermoso]].",
       "words": ["[[ring|anillo]].", "[[silver|plata]]", "[[old|antiguo]]", "[[beautiful|hermoso]]", "[[a|un]]", "[[has|tiene]]", "[[grandmother|abuela]]", "[[My|Mi]]"],
-      "explanation": "Orden: quality ([[beautiful|hermoso]]) + age ([[old|viejo]]) + color/material ([[silver|plata]])."
+      "explanation": "Orden: quality ([[beautiful|hermoso]]) + age ([[old|viejo]]) + [[color|color]]/material ([[silver|plata]])."
     },
     "audioUrl": "audio/a2/unit-4/e27.mp3",
     "topicName": "Grammar"
@@ -549,10 +549,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el orden correcto para ropa.",
       "questions": [
         {
-          "question": "She has a _______ _______ _______ [[coat|abrigo]].",
+          "question": "She [[has|tiene]] [[a|un]] _______ _______ _______ [[coat|abrigo]].",
           "options": ["[[nice long warm|cálido largo bonito]]", "[[nice long warm|bonito largo cálido]]", "[[nice long warm|bonito largo cálido]]"],
           "correctAnswer": 2,
-          "explanation": "Orden: quality ([[nice|agradable]]) + size ([[long|largo]]) + quality ([[warm|cálido]])."
+          "explanation": "Orden: quality ([[nice|agradable]]) + [[size|tamaño]] ([[long|largo]]) + quality ([[warm|cálido]])."
         }
       ]
     },
@@ -571,7 +571,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena los adjetivos correctamente.",
       "correctSentence": "[[He has an elegant dark expensive watch|Tiene un reloj caro oscuro elegante]].",
       "words": ["[[watch|reloj]].", "[[expensive|caro]]", "[[dark|oscuro]]", "[[elegant|elegante]]", "[[an|un]]", "[[has|tiene]]", "[[He|Él]]"],
-      "explanation": "Orden: quality (elegant) + color ([[dark|oscuro]]) + quality (expensive)."
+      "explanation": "Orden: quality (elegant) + [[color|color]] ([[dark|oscuro]]) + quality (expensive)."
     },
     "audioUrl": "audio/a2/unit-4/e29.mp3",
     "topicName": "Grammar"
@@ -588,10 +588,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el orden correcto de adjetivos.",
       "questions": [
         {
-          "question": "She has a _______ _______ _______ [[car|coche]].",
+          "question": "She [[has|tiene]] [[a|un]] _______ _______ _______ [[car|coche]].",
           "options": ["[[beautiful new red|rojo nuevo hermoso]]", "[[beautiful new red|hermoso nuevo rojo]]", "[[beautiful new red|hermoso nuevo rojo]]"],
           "correctAnswer": 2,
-          "explanation": "Orden: quality ([[beautiful|hermoso]]) + age ([[new|nuevo]]) + color ([[red|rojo]])."
+          "explanation": "Orden: quality ([[beautiful|hermoso]]) + age ([[new|nuevo]]) + [[color|color]] ([[red|rojo]])."
         }
       ]
     },
@@ -614,10 +614,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa sobre altura y constitución.",
       "questions": [
         {
-          "question": "The model who stands out in crowds and needs to duck through doorways [[is|es]] _______ [[and|y]] [[slim|delgada]].",
+          "question": "[[The|el/la]] model who stands out [[in|en]] crowds [[and|y]] needs [[to|[[a|un]]]] duck through doorways [[is|es]] _______ [[and|y]] [[slim|delgada]].",
           "options": ["[[short|baja]]", "[[tall|alta]]", "[[heavy|pesada]]"],
           "correctAnswer": 1,
-          "explanation": "Standing out [[in|en]] crowds [[and|y]] needing [[to|[[a|un/una]]]] duck through doorways indicates [[the|el/la/los/las]] [[person|persona]] [[is|es/está]] '[[tall|alto]]' (alta) [[and|y]] paired [[with|con]] 'slim' suggests [[an|un/una]] athletic build."
+          "explanation": "Standing out [[in|en]] crowds [[and|y]] needing [[to|[[a|un/una]]]] duck through doorways indicates [[the|el/la/los/las]] [[person|persona]] [[is|es/está]] '[[tall|alto]]' (alta) [[and|y]] paired [[with|con]] '[[slim|esbelta]]' [[suggests|sugiere]] [[an|un/una]] [[athletic|atlético]] build."
         }
       ]
     },
@@ -636,7 +636,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena la descripción de la cara.",
       "correctSentence": "[[She has a round face|Tiene la cara redonda]].",
       "words": ["[[face|cara]].", "[[round|redonda]]", "[[a|una]]", "[[has|tiene]]", "[[She|Ella]]"],
-      "explanation": "'[[She|ella]] [[has|tiene/tienen]] [[a|un/una]] [[round|redonda]] [[face|cara]]' describe la forma de la cara."
+      "explanation": "'[[She|ella]] [[has|tiene/tienen]] [[a|un/una]] [[round|redonda]] [[face|cara]]' [[describe|describe]] la forma de la cara."
     },
     "audioUrl": "audio/a2/unit-4/e32.mp3",
     "topicName": "Vocabulary"
@@ -653,10 +653,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa sobre características faciales.",
       "questions": [
         {
-          "question": "The bearded man with Mediterranean heritage [[has got|tiene]] _______ [[eyes|ojos]] [[and|y]] [[a beard|una barba]].",
+          "question": "[[The|el/la]] bearded [[man|hombre]] [[with|con]] Mediterranean heritage [[has got|tiene]] _______ [[eyes|ojos]] [[and|y]] [[a beard|una barba]].",
           "options": ["[[blue|azules]]", "[[green|verdes]]", "[[brown|marrones]]"],
           "correctAnswer": 2,
-          "explanation": "Mediterranean heritage typically features '[[brown|marrón]] [[eyes|ojos]]' (ojos marrones), [[which|cuál]] commonly pair [[with|con]] [[dark|oscuro]] beards."
+          "explanation": "Mediterranean heritage [[typically|típicamente]] [[features|características]] '[[brown|marrón]] [[eyes|ojos]]' (ojos marrones), [[which|cuál]] commonly pair [[with|con]] [[dark|oscuro]] beards."
         }
       ]
     },
@@ -675,7 +675,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena la descripción del cabello.",
       "correctSentence": "[[She has dark curly hair|Tiene el cabello rizado oscuro]].",
       "words": ["[[hair|cabello]].", "[[curly|rizado]]", "[[dark|oscuro]]", "[[has|tiene]]", "[[She|Ella]]"],
-      "explanation": "'[[She|ella]] [[has|tiene/tienen]] [[dark|oscuro]] curly [[hair|cabello]]' describe el tipo y color del cabello."
+      "explanation": "'[[She|ella]] [[has|tiene/tienen]] [[dark|oscuro]] [[curly|rizado]] [[hair|cabello]]' [[describe|describe]] el tipo y [[color|color]] del cabello."
     },
     "audioUrl": "audio/a2/unit-4/e34.mp3",
     "topicName": "Vocabulary"
@@ -692,7 +692,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la descripción de ropa.",
       "questions": [
         {
-          "question": "She [[is wearing|lleva]] a _______ [[dress|vestido]] to the formal evening gala.",
+          "question": "She [[is wearing|lleva]] [[a|un]] _______ [[dress|vestido]] [[to|[[a|un]]]] [[the|el/la]] formal evening gala.",
           "options": ["[[red|rojo]]", "[[green|verde]]", "[[yellow|amarillo]]"],
           "correctAnswer": 0,
           "explanation": "[[At|en]] [[a|un/una]] formal [[evening|tarde/noche]] gala, [[a|un/una]] '[[red|rojo]] [[dress|vestido]]' (vestido rojo) [[is|es/está]] [[a|un/una]] classic, elegant choice that stands out."
@@ -714,7 +714,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena la descripción general de apariencia.",
       "correctSentence": "[[She is attractive|Es atractiva]].",
       "words": ["[[attractive|atractiva]].", "[[is|es]]", "[[She|Ella]]"],
-      "explanation": "'[[She|ella]] [[is|es/está]] attractive' describe la apariencia general de alguien."
+      "explanation": "'[[She|ella]] [[is|es/está]] attractive' [[describe|describe]] la apariencia general de alguien."
     },
     "audioUrl": "audio/a2/unit-4/e36.mp3",
     "topicName": "Vocabulary"
@@ -731,7 +731,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa sobre edad aparente.",
       "questions": [
         {
-          "question": "[[He|Él]] _______ [[young|joven]] for [[his age|su edad]].",
+          "question": "[[He|Él]] _______ [[young|joven]] [[for|para]] [[his age|su edad]].",
           "options": ["[[looks|parece]]", "[[is|es]]", "[[has|tiene]]"],
           "correctAnswer": 0,
           "explanation": "En la descripción, él se ve joven para su edad (looks [[young|joven]] [[for|para]] [[his|su]] age)."
@@ -753,7 +753,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena la descripción de la sonrisa.",
       "correctSentence": "[[He has a friendly smile|Tiene una sonrisa amistosa]].",
       "words": ["[[smile|sonrisa]].", "[[friendly|amistosa]]", "[[a|una]]", "[[has|tiene]]", "[[He|Él]]"],
-      "explanation": "'[[He|él]] [[has|tiene/tienen]] [[a|un/una]] [[friendly|amable]] smile' describe la sonrisa de alguien."
+      "explanation": "'[[He|él]] [[has|tiene/tienen]] [[a|un/una]] [[friendly|amable]] smile' [[describe|describe]] la sonrisa de alguien."
     },
     "audioUrl": "audio/a2/unit-4/e38.mp3",
     "topicName": "Vocabulary"
@@ -770,10 +770,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa sobre la figura.",
       "questions": [
         {
-          "question": "The ballet dancer with a graceful posture [[has|tiene]] a _______ [[waist|cintura]].",
+          "question": "[[The|el/la]] ballet dancer [[with|con]] [[a|un]] graceful posture [[has|tiene]] [[a|un]] _______ [[waist|cintura]].",
           "options": ["[[slim|delgada]]", "[[wide|ancha]]", "[[thick|gruesa]]"],
           "correctAnswer": 0,
-          "explanation": "Ballet dancers characteristically [[have|tengo/tienes/tienen]] [[a|un/una]] 'slim [[waist|cintura]]' (cintura delgada) due [[to|[[a|un/una]]]] [[their|su]] training [[and|y]] physique."
+          "explanation": "Ballet dancers characteristically [[have|tengo/tienes/tienen]] [[a|un/una]] '[[slim|esbelta]] [[waist|cintura]]' (cintura delgada) due [[to|[[a|un/una]]]] [[their|su]] training [[and|y]] physique."
         }
       ]
     },
@@ -812,7 +812,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           "question": "He [[is|es]] _______ [[with|con]] [[a beard|una barba]].",
           "options": ["[[hairy|cabelludo]]", "[[bald|calvo]]", "[[long-haired|cabello largo]]"],
           "correctAnswer": 1,
-          "explanation": "'[[He|él]] [[is|es/está]] bald' describe que [[no|no]] tiene cabello."
+          "explanation": "'[[He|él]] [[is|es/está]] bald' [[describe|describe]] que [[no|no]] tiene cabello."
         }
       ]
     },
@@ -831,7 +831,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena la descripción de características distintivas.",
       "correctSentence": "[[She has a scar on her face|Tiene una cicatriz en la cara]].",
       "words": ["[[face|cara]].", "[[her|su]]", "[[on|en]]", "[[scar|cicatriz]]", "[[a|una]]", "[[has|tiene]]", "[[She|Ella]]"],
-      "explanation": "'[[She|ella]] [[has|tiene/tienen]] [[a|un/una]] scar [[on|en]] [[her|la]] [[face|cara]]' describe una característica distintiva."
+      "explanation": "'[[She|ella]] [[has|tiene/tienen]] [[a|un/una]] scar [[on|en]] [[her|la]] [[face|cara]]' [[describe|describe]] una característica distintiva."
     },
     "audioUrl": "audio/a2/unit-4/e42.mp3",
     "topicName": "Vocabulary"
@@ -848,10 +848,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la descripción de características de la piel.",
       "questions": [
         {
-          "question": "The young fair-skinned girl with red hair [[has|tiene]] _______ [[on|en]] [[her|su]] [[cheeks|mejillas]].",
+          "question": "[[The|el/la]] [[young|joven]] [[fair|clara]]-skinned [[girl|niñ[[a|un]]]] [[with|con]] [[red|rojo]] [[hair|cabello]] [[has|tiene]] _______ [[on|en]] [[her|su]] [[cheeks|mejillas]].",
           "options": ["[[freckles|pecas]]", "[[wrinkles|arrugas]]", "[[spots|manchas]]"],
           "correctAnswer": 0,
-          "explanation": "Fair-skinned [[people|gente]] [[with|con]] [[red|rojo]] [[hair|cabello]] commonly [[have|tengo/tienes/tienen]] 'freckles' (pecas) [[on|en]] [[their|su]] [[cheeks|mejillas]] - [[a|un/una]] natural feature caused by sun exposure."
+          "explanation": "[[Fair|clara]]-skinned [[people|gente]] [[with|con]] [[red|rojo]] [[hair|cabello]] commonly [[have|tengo/tienes/tienen]] 'freckles' (pecas) [[on|en]] [[their|su]] [[cheeks|mejillas]] - [[a|un/una]] natural [[feature|característica]] caused by sun exposure."
         }
       ]
     },
@@ -870,7 +870,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena la descripción de características por edad.",
       "correctSentence": "[[He has wrinkles and white hair|Tiene arrugas y cabello blanco]].",
       "words": ["[[hair|cabello]].", "[[white|blanco]]", "[[and|y]]", "[[wrinkles|arrugas]]", "[[has|tiene]]", "[[He|Él]]"],
-      "explanation": "'[[He|él]] [[has|tiene/tienen]] wrinkles [[and|y]] [[white|blanco]] [[hair|cabello]]' describe características de edad avanzada."
+      "explanation": "'[[He|él]] [[has|tiene/tienen]] wrinkles [[and|y]] [[white|blanco]] [[hair|cabello]]' [[describe|describe]] características de edad avanzada."
     },
     "audioUrl": "audio/a2/unit-4/e44.mp3",
     "topicName": "Vocabulary"
@@ -890,7 +890,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           "question": "[[She|Ella]] [[is|es]] [[short|baja]] [[with|con]] distinctive, striking _______ [[hair|cabello]].",
           "options": ["[[long black|negro largo]]", "[[long red|rojo largo]]", "[[short brown|marrón corto]]"],
           "correctAnswer": 1,
-          "explanation": "'[[Long|largo]] [[red|rojo]] [[hair|cabello]]' (cabello rojo largo) [[is|es/está]] distinctive [[and|y]] striking. [[Red|rojo]] [[hair|cabello]] [[is|es/está]] [[the|el/la/los/las]] rarest [[and|y]] most distinctive [[hair|cabello]] color."
+          "explanation": "'[[Long|largo]] [[red|rojo]] [[hair|cabello]]' (cabello rojo largo) [[is|es/está]] distinctive [[and|y]] striking. [[Red|rojo]] [[hair|cabello]] [[is|es/está]] [[the|el/la/los/las]] rarest [[and|y]] most distinctive [[hair|cabello]] [[color|color]]."
         }
       ]
     },
@@ -913,10 +913,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa con el orden correcto de adjetivos.",
       "questions": [
         {
-          "question": "[[He|Él]] [[is wearing|lleva]] a _______ _______ _______ [[jacket|chaqueta]].",
+          "question": "[[He|Él]] [[is wearing|lleva]] [[a|un]] _______ _______ _______ [[jacket|chaqueta]].",
           "options": ["[[beautiful new red|roja nueva hermosa]]", "[[beautiful new red|hermosa nueva roja]]", "[[beautiful new red|hermosa nueva roja]]"],
           "correctAnswer": 2,
-          "explanation": "En la descripción: orden correcto es quality ([[beautiful|hermoso]]) + age ([[new|nuevo]]) + color ([[red|rojo]])."
+          "explanation": "En la descripción: orden correcto es quality ([[beautiful|hermoso]]) + age ([[new|nuevo]]) + [[color|color]] ([[red|rojo]])."
         }
       ]
     },
@@ -935,7 +935,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena la descripción compleja.",
       "correctSentence": "[[She has a beautiful round face|Tiene una hermosa cara redonda]].",
       "words": ["[[face|cara]].", "[[round|redonda]]", "[[beautiful|hermosa]]", "[[a|una]]", "[[has|tiene]]", "[[She|Ella]]"],
-      "explanation": "Orden: quality ([[beautiful|hermoso]]) + shape ([[round|redonda]])."
+      "explanation": "Orden: quality ([[beautiful|hermoso]]) + [[shape|forma]] ([[round|redonda]])."
     },
     "audioUrl": "audio/a2/unit-4/e47.mp3",
     "topicName": "Grammar"
@@ -952,10 +952,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa sobre apariencia física.",
       "questions": [
         {
-          "question": "[[Tom|Tom]], the star soccer player, [[is|es]] _______ [[and|y]] [[athletic|atlético]].",
+          "question": "[[Tom|Tom]], [[the|el/la]] star soccer player, [[is|es]] _______ [[and|y]] [[athletic|atlético]].",
           "options": ["[[beautiful|hermoso]]", "[[tall|alto]]", "[[slim|delgado]]"],
           "correctAnswer": 1,
-          "explanation": "Star soccer players typically [[are|sois/está[[is|es/está]]/[[son|hijo]]/están]] '[[tall|alto]]' (alto) [[and|y]] athletic - height gives [[them|los/las]] [[an|un/una]] advantage [[in|en]] [[the|el/la/los/las]] [[sport|deporte]]."
+          "explanation": "Star soccer players [[typically|típicamente]] [[are|sois/está[[is|es/está]]/[[son|hijo]]/están]] '[[tall|alto]]' (alto) [[and|y]] [[athletic|atlético]] - height gives [[them|los/las]] [[an|un/una]] advantage [[in|en]] [[the|el/la/los/las]] [[sport|deporte]]."
         }
       ]
     },
@@ -974,7 +974,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena la descripción de expresión.",
       "correctSentence": "[[He looks friendly|Se ve amistoso]].",
       "words": ["[[friendly|amistoso]].", "[[looks|parece]]", "[[He|Él]]"],
-      "explanation": "'[[He|él]] looks [[friendly|amable]]' describe la expresión de la cara."
+      "explanation": "'[[He|él]] looks [[friendly|amable]]' [[describe|describe]] la expresión de la cara."
     },
     "audioUrl": "audio/a2/unit-4/e49.mp3",
     "topicName": "Vocabulary"
@@ -1013,7 +1013,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena la descripción de ropa coordinada.",
       "correctSentence": "[[They are wearing matching outfits|Llevan atuendos a juego]].",
       "words": ["[[outfits|atuendos]].", "[[matching|a juego]]", "[[wearing|llevando]]", "[[are|están]]", "[[They|Ellos]]"],
-      "explanation": "'[[They|ellos/ellas]] [[are|sois/está[[is|es/está]]/[[son|hijo]]/están]] wearing matching outfits' describe ropa coordinada."
+      "explanation": "'[[They|ellos/ellas]] [[are|sois/está[[is|es/está]]/[[son|hijo]]/están]] wearing matching outfits' [[describe|describe]] ropa coordinada."
     },
     "audioUrl": "audio/a2/unit-4/e51.mp3",
     "topicName": "Vocabulary"
@@ -1030,7 +1030,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la descripción de constitución atlética.",
       "questions": [
         {
-          "question": "The weightlifter who trains 6 hours daily [[has|tiene]] a _______ [[build|constitución]].",
+          "question": "[[The|el/la]] weightlifter who trains 6 hours daily [[has|tiene]] [[a|un]] _______ [[build|constitución]].",
           "options": ["[[strong|fuerte]]", "[[muscular|musculosa]]", "[[athletic|atlética]]"],
           "correctAnswer": 1,
           "explanation": "Someone [[who|quién]] trains intensively as [[a|un/una]] weightlifter develops [[a|un/una]] 'muscular build' (constitución musculosa) - visible muscle development [[from|de]] strength training."
@@ -1052,7 +1052,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena la descripción de formas faciales.",
       "correctSentence": "[[She has an oval face|Tiene la cara ovalada]].",
       "words": ["[[face|cara]].", "[[oval|ovalada]]", "[[an|una]]", "[[has|tiene]]", "[[She|Ella]]"],
-      "explanation": "'[[She|ella]] [[has|tiene/tienen]] [[an|un/una]] [[oval|ovalada]] [[face|cara]]' describe la forma de la cara."
+      "explanation": "'[[She|ella]] [[has|tiene/tienen]] [[an|un/una]] [[oval|ovalada]] [[face|cara]]' [[describe|describe]] la forma de la cara."
     },
     "audioUrl": "audio/a2/unit-4/e53.mp3",
     "topicName": "Vocabulary"
@@ -1069,7 +1069,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la descripción de la voz.",
       "questions": [
         {
-          "question": "The professional news broadcaster with excellent diction and audible pronunciation [[has|tiene]] a _______ [[voice|voz]].",
+          "question": "[[The|el/la]] professional news broadcaster [[with|con]] excellent diction [[and|y]] audible pronunciation [[has|tiene]] [[a|un]] _______ [[voice|voz]].",
           "options": ["[[soft|suave]]", "[[high|aguda]]", "[[clear|clara]]"],
           "correctAnswer": 2,
           "explanation": "Professional broadcasters [[with|con]] [[excellent|excelente]] diction [[are|sois/está[[is|es/está]]/[[son|hijo]]/están]] known [[for|para]] having [[a|un/una]] 'clear voice' (voz clara) - easily understood [[and|y]] well-articulated."
@@ -1091,7 +1091,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena la descripción que revela [[car|coche]]ácter.",
       "correctSentence": "[[She has a warm smile|Tiene una sonrisa cálida]].",
       "words": ["[[smile|sonrisa]].", "[[warm|cálida]]", "[[a|una]]", "[[has|tiene]]", "[[She|Ella]]"],
-      "explanation": "'[[She|ella]] [[has|tiene/tienen]] [[a|un/una]] [[warm|cálido]] smile' describe una sonrisa que expresa calidez."
+      "explanation": "'[[She|ella]] [[has|tiene/tienen]] [[a|un/una]] [[warm|cálido]] smile' [[describe|describe]] una sonrisa que expresa calidez."
     },
     "audioUrl": "audio/a2/unit-4/e55.mp3",
     "topicName": "Vocabulary"
@@ -1153,7 +1153,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           "question": "[[What color are Sophie's eyes|¿Qué color tienen los ojos de Sophie?]]?",
           "options": ["[[They are brown|Son marrones]]", "[[They are blue|Son azules]]", "[[They are green|Son verdes]]"],
           "correctAnswer": 1,
-          "explanation": "El texto dice: 'Sophie [[[[has|tiene/tienen]] got|tiene]] [[big|grande]] [[blue|azul]] [[eyes|ojos]]' (Sophie tiene ojos azules grandes)."
+          "explanation": "El texto dice: 'Sophie [[has got|tiene/tienen]] [[big|grande]] [[blue|azul]] [[eyes|ojos]]' (Sophie tiene ojos azules grandes)."
         }
       ]
     },
@@ -1174,7 +1174,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           "question": "[[Sophie's hair is|El cabello de Sophie es]]...",
           "options": ["[[short and straight|corto y liso]]", "[[long curly and blonde|largo, rizado y rubio]]", "[[short curly and brown|corto, rizado y marrón]]"],
           "correctAnswer": 1,
-          "explanation": "El texto dice: '[[She|ella]] [[has|tiene/tienen]] [[long|largo]] curly [[blonde|rubio/rubia]] [[hair|cabello]]' (Tiene un cabello rubio rizado largo)."
+          "explanation": "El texto dice: '[[She|ella]] [[has|tiene/tienen]] [[long|largo]] [[curly|rizado]] [[blonde|rubio/rubia]] [[hair|cabello]]' (Tiene un cabello rubio rizado largo)."
         }
       ]
     },
