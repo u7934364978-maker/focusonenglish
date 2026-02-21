@@ -248,7 +248,22 @@ Review and fix pedagogically invalid questions in Units 1-3.
 5. ✅ Verified translations in exercise samples
 6. ✅ Committed (9b4f51da) and pushed to GitHub
 
-**Status**: ✅ COMPLETE - All exercises fully translated in bilingual format
+**Status**: ✅ UNIT 4 COMPLETE - Full word-by-word translation applied (Commit: 6db156f4)
+
+**Improvements Made**:
+- ✅ Script updated to handle compound words correctly (have got, has got, etc.)
+- ✅ All English words in Unit 4 now in [[english|spanish]] format
+- ✅ Properly preserved existing translations to avoid double-nesting
+- ✅ 60 exercises with ~240 individual word-by-word translations
+- ✅ Comprehensive dictionary with 100+ word pairs
+
+**Unit 4 Fully Translated Fields**:
+- Questions: All English words wrapped in [[...]]
+- Options: All vocabulary translated
+- Explanations: All text bilingual
+- Examples: body parts, adjectives, verbs, common words
+
+**Next Step**: Repeat word-by-word translation for Units 1, 2, 3
 
 ---
 
