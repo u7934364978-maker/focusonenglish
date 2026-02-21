@@ -251,6 +251,35 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c5
 
 ---
 
+## NEW TASK: Reduce Three-Adjective Exercises to 2 Options
+
+### [x] Reduce options and remove hints from three-adjective exercises
+**Exercises Updated**: e26, e28, e30 (Lesson 2, Exercises 11, 13, 15)
+**Changes Made**:
+- **Exercise 26** (Lesson 2, Exercise 11):
+  - Reduced from 3 to 2 options
+  - Removed distractor: "[[large new red|rojo nuevo grande]]"
+  - Option A: "[[blue old small|azul viejo pequeño]]" (wrong)
+  - Option B: "[[small old blue|cuaderno pequeño viejo azul]]" (correct - now correctAnswer: 1)
+- **Exercise 28** (Lesson 2, Exercise 13):
+  - Reduced from 3 to 2 options
+  - Removed distractor: "[[ugly short cold|frío corto feo]]"
+  - Option A: "[[warm long nice|cálido largo bonito]]" (wrong - hint removed)
+  - Option B: "[[nice long warm|abrigo bonito largo cálido]]" (correct - now correctAnswer: 1)
+- **Exercise 30** (Lesson 2, Exercise 15):
+  - Reduced from 3 to 2 options
+  - Removed distractor: "[[ugly old blue|azul viejo feo]]"
+  - Option A: "[[red new beautiful|rojo nuevo hermoso]]" (wrong - hint removed)
+  - Option B: "[[beautiful new red|coche hermoso nuevo rojo]]" (correct - now correctAnswer: 1)
+
+### [x] Git commit & push
+- **Commit Hash**: `efcdc326`
+- **Message**: "Fix A2 Unit 4 Exercises 26, 28, 30 (Lesson 2, Exercises 11, 13, 15): Reduce to 2 options and remove student-cueing hints"
+- **Files Modified**: 1 file changed, 6 insertions(+), 6 deletions(-)
+- **Status**: ✅ Pushed to main branch
+
+---
+
 ## ✅ ALL TASKS COMPLETED
 
 ### Summary
@@ -263,5 +292,6 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c5
 - Reduced multiple-choice options from 3 to 2 for **4 two-adjective exercises**
 - Fixed dual-correct-answer issue in Exercise 22
 - Removed student-cueing hints from Exercise 24
-- **Total Commits**: 10 commits completed
-- **Final Status**: All words in A2 Unit 4 and Unit 2 Exercise 55 properly translated, all duplicate/dual-correct options resolved, distractor hints removed, and two-adjective exercises simplified
+- Reduced three-adjective exercises to 2 options (Exercises 26, 28, 30)
+- **Total Commits**: 11 commits completed
+- **Final Status**: All words in A2 Unit 4 and Unit 2 Exercise 55 properly translated, all duplicate/dual-correct options resolved, distractor hints removed, and adjective order exercises simplified to optimal difficulty
