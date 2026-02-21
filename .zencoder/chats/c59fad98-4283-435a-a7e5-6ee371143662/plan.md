@@ -384,6 +384,32 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c5
 
 ---
 
+## NEW TASK: Convert All Vocabulary Exercises to Matching Format
+
+### [x] Convert vocabulary exercises from multiple-choice to matching format
+**Objective**: Replace traditional multiple-choice vocabulary exercises with matching exercises containing 5 word-definition/synonym pairs.
+
+**Converted Exercises** (16 total):
+- **Batch 1**: e7 (Face Shapes), e9 (Ears), e11 (Hair Colors)
+- **Batch 2**: e13 (Height), e31 (Height and Build), e33 (Eyes and Facial Hair), e35 (Clothing)
+- **Batch 3**: e37 (Age Appearance), e39 (Figure Description), e41 (Head Description), e43 (Skin Features)
+- **Batch 4**: e45 (Overall Description), e48 (Athletic Appearance), e50 (Overall Style), e52 (Athletic Build), e54 (Voice Description)
+
+**Exercise Structure** (standard for all matching exercises):
+```
+"type": "matching"
+"instructions": "Relaciona cada palabra con su definición/sinónimo"
+"pairs": [5 pairs, each with word, definition, and translation]
+```
+
+### [x] Git commits & push
+- **Commit 1**: `f6f8b2b7` - "Convert vocabulary exercises e7, e9, e11 to matching format"
+- **Commit 2**: `3344ad21` - "Convert all remaining vocabulary exercises to matching format: e13, e31, e33, e35, e37, e39, e41, e43, e45, e48, e50, e52, e54"
+- **Files Modified**: 1 file changed, 416 insertions(+), 129 deletions(-)
+- **Status**: ✅ All 16 vocabulary exercises successfully converted from multiple-choice to matching format
+
+---
+
 ## ✅ ALL TASKS COMPLETED
 
 ### Summary
@@ -401,5 +427,6 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c5
 - Refocused Exercise 33 for consistency and pedagogical clarity
 - Fixed identical answer options in Exercise 46 (Lesson 4)
 - Added missing translations in Lesson 4 exercises 5, 7, 9
-- **Total Commits**: 16 commits completed
-- **Final Status**: All words in A2 Unit 4 (all lessons 1-4) and Unit 2 Exercise 55 properly translated, all duplicate/identical/dual-correct options resolved, ALL student-cueing hints removed, exercise consistency improved, and adjective order exercises simplified to optimal difficulty
+- **Converted 16 vocabulary exercises** from multiple-choice to matching format (5 pairs each)
+- **Total Commits**: 18 commits completed
+- **Final Status**: All words in A2 Unit 4 (all lessons 1-4) and Unit 2 Exercise 55 properly translated, all duplicate/identical/dual-correct options resolved, ALL student-cueing hints removed, exercise consistency improved, adjective order exercises simplified to optimal difficulty, and all vocabulary exercises converted to pedagogically superior matching format
