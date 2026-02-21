@@ -12,7 +12,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[I have got blue eyes|Tengo los ojos azules]].",
     "content": {
-      "title": "Have Got: I",
+      "title": "[[Have Got|Tener]]: [[I|Yo]]",
       "instructions": "Selecciona la forma correcta con 'have got'.",
       "questions": [
         {
@@ -34,7 +34,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[You have got brown hair|Tienes el cabello marrón]].",
     "content": {
-      "title": "Have Got: You",
+      "title": "[[Have Got|Tener]]: [[You|Tú]]",
       "instructions": "Ordena la oración con 'have got'.",
       "correctSentence": "[[You have got brown hair|Tienes el cabello marrón]].",
       "words": ["[[hair|cabello]].", "[[brown|marrón]]", "[[have got|tienes]]", "[[You|Tú]]"],
@@ -51,7 +51,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[He has got a beard|Tiene una barba]].",
     "content": {
-      "title": "Have Got: He/She",
+      "title": "[[Have Got|Tener]]: [[He/She|Él/Ella]]",
       "instructions": "Completa con 'has got' para tercera persona singular.",
       "questions": [
         {
@@ -73,7 +73,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[It has got a long tail|Tiene una cola larga]].",
     "content": {
-      "title": "Have Got: It",
+      "title": "[[Have Got|Tener]]: [[It|Eso]]",
       "instructions": "Ordena la oración sobre características de objetos.",
       "correctSentence": "[[It has got a long tail|Tiene una cola larga]].",
       "words": ["[[tail|cola]].", "[[long|larga]]", "[[a|una]]", "[[has got|tiene]]", "[[It|Esto]]"],
@@ -90,7 +90,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[We have got dark skin|Tenemos la piel oscura]].",
     "content": {
-      "title": "Have Got: We/They",
+      "title": "[[Have Got|Tener]]: [[We/They|Nosotros/Ellos]]",
       "instructions": "Completa con 'have got' para primera persona plural.",
       "questions": [
         {
@@ -112,7 +112,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[My sister has got curly hair|Mi hermana tiene el cabello rizado]].",
     "content": {
-      "title": "Family Member Descriptions",
+      "title": "[[Family|Familia]] [[Member|Miembro]] [[Descriptions|Descripciones]]",
       "instructions": "Ordena la oración describiendo a un miembro de la familia.",
       "correctSentence": "[[My sister has got curly hair|Mi hermana tiene el cabello rizado]].",
       "words": ["[[hair|cabello]].", "[[curly|rizado]]", "[[has got|tiene]]", "[[sister|hermana]]", "[[My|Mi]]"],
@@ -129,7 +129,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[The boy has got a round face|El niño tiene la cara redonda]].",
     "content": {
-      "title": "Face Shapes",
+      "title": "[[Face|Cara]] [[Shapes|Formas]]",
       "instructions": "Selecciona la palabra correcta para forma de cara.",
       "questions": [
         {
@@ -207,7 +207,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[The girl has got blonde hair|La niña tiene el cabello rubio]].",
     "content": {
-      "title": "Hair Colors",
+      "title": "[[Hair|Cabello]] [[Colors|Colores]]",
       "instructions": "Según la descripción, selecciona el color de cabello correcto.",
       "questions": [
         {
@@ -229,7 +229,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[I have got a slim figure|Tengo una figura esbelta]].",
     "content": {
-      "title": "Body Types",
+      "title": "[[Body|Cuerpo]] [[Types|Tipos]]",
       "instructions": "Ordena la oración describiendo tipo de cuerpo.",
       "correctSentence": "[[I have got a slim figure|Tengo una figura esbelta]].",
       "words": ["[[figure|figura]].", "[[slim|esbelta]]", "[[a|una]]", "[[have got|tengo]]", "[[I|Yo]]"],
@@ -246,7 +246,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[He has got a tall body|Tiene un cuerpo alto]].",
     "content": {
-      "title": "Height",
+      "title": "[[Height|Altura]]",
       "instructions": "Según la descripción, completa la oración sobre altura.",
       "questions": [
         {
@@ -268,7 +268,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[They have got brown skin|Tienen la piel marrón]].",
     "content": {
-      "title": "Skin Tone",
+      "title": "[[Skin|Piel]] [[Tone|Tono]]",
       "instructions": "Ordena la oración describiendo color de piel.",
       "correctSentence": "[[They have got brown skin|Tienen la piel marrón]].",
       "words": ["[[skin|piel]].", "[[brown|marrón]]", "[[have got|tienen]]", "[[They|Ellos]]"],
@@ -285,7 +285,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[My brother has got a beard|Mi hermano tiene una barba]].",
     "content": {
-      "title": "Have Got Review",
+      "title": "[[Have Got|Tener]] [[Review|Repaso]]",
       "instructions": "Completa con la forma correcta de 'have got'.",
       "questions": [
         {
@@ -311,7 +311,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[She has got a big red book|Tiene un libro rojo grande]].",
     "content": {
-      "title": "Adjective Order: Size + Color",
+      "title": "[[Adjective|Adjetivo]] [[Order|Orden]]: [[Size|Tamaño]] + [[Color|Color]]",
       "instructions": "Selecciona el orden correcto de adjetivos.",
       "questions": [
         {
@@ -333,7 +333,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[He has got a small yellow phone|Tiene un teléfono amarillo pequeño]].",
     "content": {
-      "title": "Adjective Order in Context",
+      "title": "[[Adjective|Adjetivo]] [[Order|Orden]] [[in Context|en Contexto]]",
       "instructions": "Ordena la oración con adjetivos en el orden correcto.",
       "correctSentence": "[[He has a small yellow phone|Tiene un pequeño teléfono amarillo]].",
       "words": ["[[phone|teléfono]].", "[[yellow|amarillo]]", "[[small|pequeño]]", "[[a|un]]", "[[has|tiene]]", "[[He|Él]]"],
@@ -350,7 +350,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[The boy has a long black jacket|El niño tiene una chaqueta negra larga]].",
     "content": {
-      "title": "Adjective Order: Length + Color",
+      "title": "[[Adjective|Adjetivo]] [[Order|Orden]]: [[Length|Longitud]] + [[Color|Color]]",
       "instructions": "Selecciona el orden correcto.",
       "questions": [
         {
@@ -372,7 +372,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[They have old round glasses|Tienen gafas redondas viejas]].",
     "content": {
-      "title": "Adjective Order: Age + Shape",
+      "title": "[[Adjective|Adjetivo]] [[Order|Orden]]: [[Age|Edad]] + [[Shape|Forma]]",
       "instructions": "Ordena los adjetivos correctamente.",
       "correctSentence": "[[They have old round glasses|Tienen gafas redondas viejas]].",
       "words": ["[[glasses|gafas]].", "[[round|redondas]]", "[[old|viejas]]", "[[have|tienen]]", "[[They|Ellos]]"],
@@ -389,7 +389,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[My mother has a beautiful white sweater|Mi madre tiene un hermoso suéter blanco]].",
     "content": {
-      "title": "Adjective Order: Quality + Color",
+      "title": "[[Adjective|Adjetivo]] [[Order|Orden]]: [[Quality|Calidad]] + [[Color|Color]]",
       "instructions": "Selecciona el orden correcto.",
       "questions": [
         {
@@ -411,7 +411,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[I have a comfortable new bed|Tengo una cama nueva cómoda]].",
     "content": {
-      "title": "Adjective Order: Quality + Age",
+      "title": "[[Adjective|Adjetivo]] [[Order|Orden]]: [[Quality|Calidad]] + [[Age|Edad]]",
       "instructions": "Ordena los adjetivos en el orden correcto.",
       "correctSentence": "[[I have a comfortable new bed|Tengo una cama nueva cómoda]].",
       "words": ["[[bed|cama]].", "[[new|nueva]]", "[[comfortable|cómoda]]", "[[a|una]]", "[[have|tengo]]", "[[I|Yo]]"],
@@ -428,7 +428,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[He has got thick brown hair|Tiene el cabello marrón grueso]].",
     "content": {
-      "title": "Adjective Order: Texture + Color",
+      "title": "[[Adjective|Adjetivo]] [[Order|Orden]]: [[Texture|Textura]] + [[Color|Color]]",
       "instructions": "Selecciona el orden correcto para describir cabello.",
       "questions": [
         {
@@ -450,7 +450,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[They have big dark eyes|Tienen los ojos oscuros grandes]].",
     "content": {
-      "title": "Adjective Order: Size + Color (Eyes)",
+      "title": "[[Adjective|Adjetivo]] [[Order|Orden]]: [[Size|Tamaño]] + [[Color|Color]] ([[Eyes|Ojos]])",
       "instructions": "Ordena los adjetivos para describir ojos.",
       "correctSentence": "[[They have big dark eyes|Tienen los ojos oscuros grandes]].",
       "words": ["[[eyes|ojos]].", "[[dark|oscuros]]", "[[big|grandes]]", "[[have|tienen]]", "[[They|Ellos]]"],
@@ -467,7 +467,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[My sister has a lovely pink dress|Mi hermana tiene un lindo vestido rosa]].",
     "content": {
-      "title": "Adjective Order Multiple",
+      "title": "[[Adjective|Adjetivo]] [[Order|Orden]] [[Multiple|Múltiple]]",
       "instructions": "Selecciona el orden correcto con múltiples adjetivos.",
       "questions": [
         {
@@ -489,7 +489,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[He has a modern rectangular office|Tiene una oficina rectangular moderna]].",
     "content": {
-      "title": "Adjective Order: Age + Shape",
+      "title": "[[Adjective|Adjetivo]] [[Order|Orden]]: [[Age|Edad]] + [[Shape|Forma]]",
       "instructions": "Ordena los adjetivos correctamente.",
       "correctSentence": "[[He has a modern rectangular office|Tiene una oficina rectangular moderna]].",
       "words": ["[[office|oficina]].", "[[rectangular|rectangular]]", "[[modern|moderna]]", "[[a|una]]", "[[has|tiene]]", "[[He|Él]]"],
@@ -506,7 +506,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[I have a small old round table|Tengo una mesa pequeña redonda vieja]].",
     "content": {
-      "title": "Adjective Order Complex",
+      "title": "[[Adjective|Adjetivo]] [[Order|Orden]] [[Complex|Complejo]]",
       "instructions": "Selecciona el orden correcto con tres adjetivos.",
       "questions": [
         {
@@ -528,7 +528,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[My grandmother has a beautiful old silver ring|Mi abuela tiene un anillo de plata antiguo hermoso]].",
     "content": {
-      "title": "Adjective Order Complex",
+      "title": "[[Adjective|Adjetivo]] [[Order|Orden]] [[Complex|Complejo]]",
       "instructions": "Ordena los adjetivos en el orden correcto.",
       "correctSentence": "[[My grandmother has a beautiful old silver ring|Mi abuela tiene un anillo de plata antiguo hermoso]].",
       "words": ["[[ring|anillo]].", "[[silver|plata]]", "[[old|antiguo]]", "[[beautiful|hermoso]]", "[[a|un]]", "[[has|tiene]]", "[[grandmother|abuela]]", "[[My|Mi]]"],
@@ -567,7 +567,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[He wears an elegant dark expensive watch|Usa un reloj caro oscuro elegante]].",
     "content": {
-      "title": "Adjective Order Multiple",
+      "title": "[[Adjective|Adjetivo]] [[Order|Orden]] [[Multiple|Múltiple]]",
       "instructions": "Ordena los adjetivos correctamente.",
       "correctSentence": "[[He has an elegant dark expensive watch|Tiene un reloj caro oscuro elegante]].",
       "words": ["[[watch|reloj]].", "[[expensive|caro]]", "[[dark|oscuro]]", "[[elegant|elegante]]", "[[an|un]]", "[[has|tiene]]", "[[He|Él]]"],
@@ -649,7 +649,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[He has brown eyes and a beard|Tiene los ojos marrones y una barba]].",
     "content": {
-      "title": "Eyes and Facial Hair",
+      "title": "[[Eyes|Ojos]] [[and|y]] [[Facial Hair|Vello Facial]]",
       "instructions": "Según la descripción, completa sobre características faciales.",
       "questions": [
         {
@@ -671,7 +671,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[My mother has got dark curly hair|Mi madre tiene el cabello rizado oscuro]].",
     "content": {
-      "title": "Hair Description",
+      "title": "[[Hair|Cabello]] [[Description|Descripción]]",
       "instructions": "Ordena la descripción del cabello.",
       "correctSentence": "[[She has dark curly hair|Tiene el cabello rizado oscuro]].",
       "words": ["[[hair|cabello]].", "[[curly|rizado]]", "[[dark|oscuro]]", "[[has|tiene]]", "[[She|Ella]]"],
@@ -688,7 +688,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[The boy is wearing a blue jacket|El niño lleva una chaqueta azul]].",
     "content": {
-      "title": "Clothing Description",
+      "title": "[[Clothing|Ropa]] [[Description|Descripción]]",
       "instructions": "Completa la descripción de ropa.",
       "questions": [
         {
@@ -710,7 +710,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[She is attractive with beautiful features|Es atractiva con características hermosas]].",
     "content": {
-      "title": "General Appearance",
+      "title": "[[General|General]] [[Appearance|Apariencia]]",
       "instructions": "Ordena la descripción general de apariencia.",
       "correctSentence": "[[She is attractive|Es atractiva]].",
       "words": ["[[attractive|atractiva]].", "[[is|es]]", "[[She|Ella]]"],
@@ -727,7 +727,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[He looks young for his age|Se ve joven para su edad]].",
     "content": {
-      "title": "Age Appearance",
+      "title": "[[Age|Edad]] [[Appearance|Apariencia]]",
       "instructions": "Según la descripción, completa sobre edad aparente.",
       "questions": [
         {
@@ -749,7 +749,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[He has a friendly smile|Tiene una sonrisa amistosa]].",
     "content": {
-      "title": "Smile Description",
+      "title": "[[Smile|Sonrisa]] [[Description|Descripción]]",
       "instructions": "Ordena la descripción de la sonrisa.",
       "correctSentence": "[[He has a friendly smile|Tiene una sonrisa amistosa]].",
       "words": ["[[smile|sonrisa]].", "[[friendly|amistosa]]", "[[a|una]]", "[[has|tiene]]", "[[He|Él]]"],
@@ -766,7 +766,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[She has a slim waist and nice figure|Tiene una cintura delgada y una buena figura]].",
     "content": {
-      "title": "Figure Description",
+      "title": "[[Figure|Figura]] [[Description|Descripción]]",
       "instructions": "Según la descripción, completa sobre la figura.",
       "questions": [
         {
@@ -805,7 +805,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[He is bald with a mustache|Es calvo con bigote]].",
     "content": {
-      "title": "Head Description",
+      "title": "[[Head|Cabeza]] [[Description|Descripción]]",
       "instructions": "Completa la descripción de la cabeza.",
       "questions": [
         {
@@ -827,7 +827,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[She has a scar on her face|Tiene una cicatriz en la cara]].",
     "content": {
-      "title": "Distinctive Features",
+      "title": "[[Distinctive|Distintivas]] [[Features|Características]]",
       "instructions": "Ordena la descripción de características distintivas.",
       "correctSentence": "[[She has a scar on her face|Tiene una cicatriz en la cara]].",
       "words": ["[[face|cara]].", "[[her|su]]", "[[on|en]]", "[[scar|cicatriz]]", "[[a|una]]", "[[has|tiene]]", "[[She|Ella]]"],
@@ -844,7 +844,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[He has freckles on his nose|Tiene pecas en la nariz]].",
     "content": {
-      "title": "Skin Features",
+      "title": "[[Skin|Piel]] [[Features|Características]]",
       "instructions": "Completa la descripción de características de la piel.",
       "questions": [
         {
@@ -866,7 +866,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[My grandfather has wrinkles and white hair|Mi abuelo tiene arrugas y cabello blanco]].",
     "content": {
-      "title": "Age-Related Features",
+      "title": "[[Age|Edad]]-[[Related|Relacionadas]] [[Features|Características]]",
       "instructions": "Ordena la descripción de características por edad.",
       "correctSentence": "[[He has wrinkles and white hair|Tiene arrugas y cabello blanco]].",
       "words": ["[[hair|cabello]].", "[[white|blanco]]", "[[and|y]]", "[[wrinkles|arrugas]]", "[[has|tiene]]", "[[He|Él]]"],
@@ -883,7 +883,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[She is short with long red hair|Es baja con cabello rojo largo]].",
     "content": {
-      "title": "Overall Description",
+      "title": "[[Overall|General]] [[Description|Descripción]]",
       "instructions": "Según la descripción, completa cómo se ve la persona.",
       "questions": [
         {
@@ -909,7 +909,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[My friend is wearing a beautiful new red jacket|Mi amigo lleva una hermosa chaqueta roja nueva]].",
     "content": {
-      "title": "Mixed Description",
+      "title": "[[Mixed|Mixta]] [[Description|Descripción]]",
       "instructions": "Según la descripción, completa con el orden correcto de adjetivos.",
       "questions": [
         {
@@ -931,7 +931,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[She has a beautiful round face with big dark eyes|Tiene una hermosa cara redonda con ojos oscuros grandes]].",
     "content": {
-      "title": "Complex Description",
+      "title": "[[Complex|Compleja]] [[Description|Descripción]]",
       "instructions": "Ordena la descripción compleja.",
       "correctSentence": "[[She has a beautiful round face|Tiene una hermosa cara redonda]].",
       "words": ["[[face|cara]].", "[[round|redonda]]", "[[beautiful|hermosa]]", "[[a|una]]", "[[has|tiene]]", "[[She|Ella]]"],
@@ -948,7 +948,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[Tom is tall and athletic|Tom es alto y atlético]].",
     "content": {
-      "title": "Personality + Appearance",
+      "title": "[[Personality|Personalidad]] + [[Appearance|Apariencia]]",
       "instructions": "Según la descripción, completa sobre apariencia física.",
       "questions": [
         {
@@ -970,7 +970,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[He looks serious but friendly|Se ve serio pero amistoso]].",
     "content": {
-      "title": "Expression Description",
+      "title": "[[Expression|Expresión]] [[Description|Descripción]]",
       "instructions": "Ordena la descripción de expresión.",
       "correctSentence": "[[He looks friendly|Se ve amistoso]].",
       "words": ["[[friendly|amistoso]].", "[[looks|parece]]", "[[He|Él]]"],
@@ -987,7 +987,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[He is dressed elegantly|Está vestido elegantemente]].",
     "content": {
-      "title": "Overall Style",
+      "title": "[[Overall|General]] [[Style|Estilo]]",
       "instructions": "Según la descripción, completa cómo se viste.",
       "questions": [
         {
@@ -1009,7 +1009,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[They are wearing matching outfits|Llevan atuendos a juego]].",
     "content": {
-      "title": "Coordinated Clothing",
+      "title": "[[Coordinated|Coordinada]] [[Clothing|Ropa]]",
       "instructions": "Ordena la descripción de ropa coordinada.",
       "correctSentence": "[[They are wearing matching outfits|Llevan atuendos a juego]].",
       "words": ["[[outfits|atuendos]].", "[[matching|a juego]]", "[[wearing|llevando]]", "[[are|están]]", "[[They|Ellos]]"],
@@ -1026,7 +1026,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[The athlete has a muscular build|El atleta tiene una constitución musculosa]].",
     "content": {
-      "title": "Athletic Build",
+      "title": "[[Athletic|Atlético]] [[Build|Constitución]]",
       "instructions": "Completa la descripción de constitución atlética.",
       "questions": [
         {
@@ -1048,7 +1048,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[She has an oval-shaped face|Tiene la cara ovalada]].",
     "content": {
-      "title": "Face Shapes",
+      "title": "[[Face|Cara]] [[Shapes|Formas]]",
       "instructions": "Ordena la descripción de formas faciales.",
       "correctSentence": "[[She has an oval face|Tiene la cara ovalada]].",
       "words": ["[[face|cara]].", "[[oval|ovalada]]", "[[an|una]]", "[[has|tiene]]", "[[She|Ella]]"],
@@ -1065,7 +1065,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[He has a deep voice|Tiene una voz profunda]].",
     "content": {
-      "title": "Voice Description",
+      "title": "[[Voice|Voz]] [[Description|Descripción]]",
       "instructions": "Completa la descripción de la voz.",
       "questions": [
         {
@@ -1087,7 +1087,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[She has a warm smile and kind eyes|Tiene una sonrisa cálida y ojos amables]].",
     "content": {
-      "title": "Character Expression",
+      "title": "[[Character|Carácter]] [[Expression|Expresión]]",
       "instructions": "Ordena la descripción que revela carácter.",
       "correctSentence": "[[She has a warm smile|Tiene una sonrisa cálida]].",
       "words": ["[[smile|sonrisa]].", "[[warm|cálida]]", "[[a|una]]", "[[has|tiene]]", "[[She|Ella]]"],
@@ -1104,7 +1104,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[Hello, I would like to tell you about my best friend Sophie|Hola, me gustaría hablar sobre mi mejor amiga Sophie]]. [[She is twenty years old|Tiene veinte años]]. [[Sophie has got a beautiful round face with big blue eyes|Sophie tiene una hermosa cara redonda con ojos azules grandes]]. [[She has long curly blonde hair that reaches her shoulders|Tiene un cabello rubio rizado largo que le llega a los hombros]]. [[She is tall and slim|Es alta y delgada]]. [[She has a warm smile and a friendly personality|Tiene una sonrisa cálida y una personalidad amistosa]]. [[She loves wearing colorful clothes, especially beautiful bright dresses|Le encanta usar ropa colorida, especialmente hermosos vestidos brillantes]]. [[She is wearing a red jacket today|Hoy lleva una chaqueta roja]]. [[Everyone likes Sophie because she is kind and beautiful|A todos les gusta Sophie porque es amable y hermosa]]. [[She is my best friend and I am very proud to know her|Es mi mejor amiga y estoy muy orgulloso de conocerla]].",
     "content": {
-      "title": "Reading: My Best Friend Sophie",
+      "title": "[[Reading|Lectura]]: [[My Best Friend Sophie|Mi Mejor Amiga Sophie]]",
       "instructions": "Lee el texto sobre Sophie.",
       "questions": [
         {
@@ -1125,7 +1125,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[How old is Sophie|¿Cuántos años tiene Sophie?]]?",
     "content": {
-      "title": "Comprehension: Sophie's Age",
+      "title": "[[Comprehension|Comprensión]]: [[Sophie's Age|Edad de Sophie]]",
       "instructions": "Responde basándote en el texto.",
       "questions": [
         {
@@ -1146,7 +1146,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[What color are Sophie's eyes|¿Qué color tienen los ojos de Sophie?]]?",
     "content": {
-      "title": "Comprehension: Eye Color",
+      "title": "[[Comprehension|Comprensión]]: [[Eye Color|Color de Ojos]]",
       "instructions": "Responde basándote en el texto.",
       "questions": [
         {
@@ -1167,7 +1167,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[What is Sophie's hair like|¿Cómo es el cabello de Sophie?]]?",
     "content": {
-      "title": "Comprehension: Hair Description",
+      "title": "[[Comprehension|Comprensión]]: [[Hair Description|Descripción del Cabello]]",
       "instructions": "Responde basándote en el texto.",
       "questions": [
         {

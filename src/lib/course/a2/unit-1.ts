@@ -12,8 +12,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[I|Yo]] [[am|soy]] [[a student|una estudiante]].",
     "content": {
-      "title": "Subject Pronouns: I",
-      "instructions": "Identifica el pronombre sujeto correcto para la primera persona singular.",
+      "title": "[[Subject Pronouns|Pronombres Sujeto]]: [[I|Yo]]",
+      "instructions": "[[Identify|Identifica]] [[the correct subject pronoun for first person singular|el pronombre sujeto correcto para la primera persona singular]].",
       "questions": [
         {
           "question": "_______ [[am|soy]] [[a teacher|un profesor]].",
@@ -34,8 +34,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[You|Tú]] [[are|eres]] [[nice|amable]].",
     "content": {
-      "title": "Subject Pronouns: You",
-      "instructions": "Elige el pronombre para la segunda persona singular.",
+      "title": "[[Subject Pronouns|Pronombres Sujeto]]: [[You|Tú]]",
+      "instructions": "[[Choose|Elige]] [[the pronoun for second person singular|el pronombre para la segunda persona singular]].",
       "questions": [
         {
           "question": "_______ [[are|eres]] [[a good friend|un buen amigo]].",
@@ -56,8 +56,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[He is from Spain|Él es de España]].",
     "content": {
-      "title": "Subject Pronouns: He",
-      "instructions": "Ordena la oración usando el pronombre 'he'.",
+      "title": "[[Subject Pronouns|Pronombres Sujeto]]: [[He|Él]]",
+      "instructions": "[[Order the sentence using the pronoun 'he'|Ordena la oración usando el pronombre he]].",
       "correctSentence": "[[He is from Spain|Él es de España]].",
       "words": ["[[Spain|España]].", "[[from|de]]", "[[is|es]]", "[[He|Él]]"],
       "explanation": "'He' es el pronombre para la tercera persona singular masculina."
@@ -73,8 +73,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[She|Ella]] [[is|es]] [[a nurse|una enfermera]].",
     "content": {
-      "title": "Subject Pronouns: She",
-      "instructions": "Identifica el pronombre para la tercera persona singular femenina.",
+      "title": "[[Subject Pronouns|Pronombres Sujeto]]: [[She|Ella]]",
+      "instructions": "[[Identify the pronoun for third person singular feminine|Identifica el pronombre para la tercera persona singular femenina]].",
       "questions": [
         {
           "question": "_______ [[is|es]] [[a doctor|una doctora]].",
@@ -95,8 +95,8 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[It is a cat|Es un gato]].",
     "content": {
-      "title": "Subject Pronouns: It",
-      "instructions": "Ordena la oración usando 'it' para un objeto.",
+      "title": "[[Subject Pronouns|Pronombres Sujeto]]: [[It|Eso/Esto]]",
+      "instructions": "[[Order the sentence using 'it' for an object|Ordena la oración usando it para un objeto]].",
       "correctSentence": "[[It is a cat|Es un gato]].",
       "words": ["[[cat|gato]].", "[[a|un]]", "[[is|es]]", "[[It|Eso]]"],
       "explanation": "'It' se usa para cosas u animales neutros."
@@ -112,7 +112,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[We|Nosotros]] [[are|somos]] [[students|estudiantes]].",
     "content": {
-      "title": "Subject Pronouns: We",
+      "title": "[[Subject Pronouns|Pronombres Sujeto]]: [[We|Nosotros/as]]",
       "instructions": "Elige el pronombre para la primera persona plural.",
       "questions": [
         {
@@ -134,7 +134,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[You are engineers|Ustedes son ingenieros]].",
     "content": {
-      "title": "Subject Pronouns: You (Plural)",
+      "title": "[[Subject Pronouns|Pronombres Sujeto]]: [[You|Ustedes]] ([[Plural|Plural]])",
       "instructions": "Ordena la oración con 'you' en plural.",
       "correctSentence": "[[You are engineers|Ustedes son ingenieros]].",
       "words": ["[[engineers|ingenieros]].", "[[are|sois]]", "[[You|Ustedes]]"],
@@ -151,7 +151,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[They|Ellos]] [[are|son]] [[musicians|músicos]].",
     "content": {
-      "title": "Subject Pronouns: They",
+      "title": "[[Subject Pronouns|Pronombres Sujeto]]: [[They|Ellos/as]]",
       "instructions": "Identifica el pronombre para la tercera persona plural.",
       "questions": [
         {

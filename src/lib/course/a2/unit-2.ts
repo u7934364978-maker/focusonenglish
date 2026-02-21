@@ -12,7 +12,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[What is your name|¿Cuál es tu nombre?]]?",
     "content": {
-      "title": "Question Words: What",
+      "title": "[[Question Words|Palabras de Pregunta]]: [[What|¿Qué?]]",
       "instructions": "Identifica la pregunta correcta con 'What'.",
       "questions": [
         {
@@ -34,7 +34,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Where are you from|¿De dónde eres?]]?",
     "content": {
-      "title": "Question Words: Where",
+      "title": "[[Question Words|Palabras de Pregunta]]: [[Where|¿Dónde?]]",
       "instructions": "Ordena la pregunta con 'Where'.",
       "correctSentence": "[[Where are you from|¿De dónde eres?]]?",
       "words": ["[[from|de]]?", "[[you|tú]]", "[[are|eres]]", "[[Where|¿Dónde]]"],
@@ -51,7 +51,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Who is she|¿Quién es ella?]]?",
     "content": {
-      "title": "Question Words: Who",
+      "title": "[[Question Words|Palabras de Pregunta]]: [[Who|¿Quién?]]",
       "instructions": "Identifica la pregunta correcta con 'Who'.",
       "questions": [
         {
@@ -73,7 +73,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[When are you coming|¿Cuándo vienes?]]?",
     "content": {
-      "title": "Question Words: When",
+      "title": "[[Question Words|Palabras de Pregunta]]: [[When|¿Cuándo?]]",
       "instructions": "Ordena la pregunta con 'When'.",
       "correctSentence": "[[When are you coming|¿Cuándo vienes?]]?",
       "words": ["[[coming|viniendo]]?", "[[you|tú]]", "[[are|eres]]", "[[When|¿Cuándo]]"],
@@ -90,7 +90,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Why are you late|¿Por qué llegas tarde?]]?",
     "content": {
-      "title": "Question Words: Why",
+      "title": "[[Question Words|Palabras de Pregunta]]: [[Why|¿Por qué?]]",
       "instructions": "Completa con 'Why' para preguntar razones.",
       "questions": [
         {
@@ -112,7 +112,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[How are you|¿Cómo estás?]]?",
     "content": {
-      "title": "Question Words: How",
+      "title": "[[Question Words|Palabras de Pregunta]]: [[How|¿Cómo?]]",
       "instructions": "Ordena la pregunta con 'How'.",
       "correctSentence": "[[How are you|¿Cómo estás?]]?",
       "words": ["[[you|tú]]?", "[[are|estás]]", "[[How|¿Cómo]]"],
@@ -129,7 +129,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[How do you spell your name|¿Cómo deletreas tu nombre?]]?",
     "content": {
-      "title": "Alphabet: Spelling",
+      "title": "[[Alphabet|Alfabeto]]: [[Spelling|Deletreo]]",
       "instructions": "Completa la pregunta sobre deletreo.",
       "questions": [
         {
@@ -151,7 +151,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[My name is spelled M-A-R-I-A|Mi nombre se deletrea M-A-R-I-A]].",
     "content": {
-      "title": "Alphabet: Spelling Name",
+      "title": "[[Alphabet|Alfabeto]]: [[Spelling Name|Deletreo de Nombre]]",
       "instructions": "Ordena la oración sobre deletreo.",
       "correctSentence": "[[My name is spelled M-A-R-I-A|Mi nombre se deletrea M-A-R-I-A]].",
       "words": ["[[M-A-R-I-A|M-A-R-I-A]].", "[[spelled|deletrea]]", "[[is|se]]", "[[name|nombre]]", "[[My|Mi]]"],
@@ -168,7 +168,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[What is your job|¿Cuál es tu trabajo?]]?",
     "content": {
-      "title": "Job Titles: Question",
+      "title": "[[Job Titles|Títulos de Trabajo]]: [[Question|Pregunta]]",
       "instructions": "Identifica la pregunta sobre profesión.",
       "questions": [
         {
@@ -190,7 +190,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[I am a doctor|Soy un doctor]].",
     "content": {
-      "title": "Job Titles: Response",
+      "title": "[[Job Titles|Títulos de Trabajo]]: [[Response|Respuesta]]",
       "instructions": "Ordena la respuesta sobre profesión.",
       "correctSentence": "[[I am a doctor|Soy un doctor]].",
       "words": ["[[doctor|doctor]].", "[[a|un]]", "[[am|soy]]", "[[I|Yo]]"],
@@ -207,7 +207,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Which one is yours|¿Cuál es el tuyo?]]?",
     "content": {
-      "title": "Question Words: Which",
+      "title": "[[Question Words|Palabras de Pregunta]]: [[Which|¿Cuál?]]",
       "instructions": "Identifica 'Which' para elección.",
       "questions": [
         {
@@ -229,7 +229,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Can you spell that|¿Puedes deletrear eso?]]?",
     "content": {
-      "title": "Alphabet: Polite Request",
+      "title": "[[Alphabet|Alfabeto]]: [[Polite Request|Solicitud Educada]]",
       "instructions": "Ordena la pregunta educada.",
       "correctSentence": "[[Can you spell that|¿Puedes deletrear eso?]]?",
       "words": ["[[that|eso]]?", "[[spell|deletrear]]", "[[you|puedes]]", "[[Can|¿Puedes]]"],
@@ -246,7 +246,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[What are their jobs|¿Cuáles son sus trabajos?]]?",
     "content": {
-      "title": "Job Titles: Plural",
+      "title": "[[Job Titles|Títulos de Trabajo]]: [[Plural|Plural]]",
       "instructions": "Pregunta sobre trabajos en plural.",
       "questions": [
         {

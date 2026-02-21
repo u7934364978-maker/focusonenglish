@@ -12,7 +12,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[My name is Emma|Mi nombre es Emma]].",
     "content": {
-      "title": "Possessive Adjectives: My",
+      "title": "[[Possessive Adjectives|Adjetivos Posesivos]]: [[My|Mi]]",
       "instructions": "Identifica el adjetivo posesivo correcto.",
       "questions": [
         {
@@ -34,7 +34,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Your mother is kind|Tu madre es amable]].",
     "content": {
-      "title": "Possessive Adjectives: Your",
+      "title": "[[Possessive Adjectives|Adjetivos Posesivos]]: [[Your|Tu/Su]]",
       "instructions": "Ordena la oración con 'your'.",
       "correctSentence": "[[Your mother is kind|Tu madre es amable]].",
       "words": ["[[kind|amable]].", "[[is|es]]", "[[mother|madre]]", "[[Your|Tu]]"],
@@ -51,7 +51,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[His sister is a teacher|Su hermana es maestra]].",
     "content": {
-      "title": "Possessive Adjectives: His",
+      "title": "[[Possessive Adjectives|Adjetivos Posesivos]]: [[His|Su]]",
       "instructions": "Completa con 'His' para masculino.",
       "questions": [
         {
@@ -73,7 +73,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[Her father works in London|Su padre trabaja en Londres]].",
     "content": {
-      "title": "Possessive Adjectives: Her",
+      "title": "[[Possessive Adjectives|Adjetivos Posesivos]]: [[Her|Su]]",
       "instructions": "Ordena la oración con 'her'.",
       "correctSentence": "[[Her father works in London|Su padre trabaja en Londres]].",
       "words": ["[[London|Londres]].", "[[in|en]]", "[[works|trabaja]]", "[[father|padre]]", "[[Her|Su]]"],
@@ -90,7 +90,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "easy",
     "transcript": "[[The dog has its toys|El perro tiene sus juguetes]].",
     "content": {
-      "title": "Possessive Adjectives: Its",
+      "title": "[[Possessive Adjectives|Adjetivos Posesivos]]: [[Its|Su]]",
       "instructions": "Identifica 'its' para cosas.",
       "questions": [
         {
@@ -129,7 +129,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Our children go to school|Nuestros hijos van a la escuela]].",
     "content": {
-      "title": "Possessive Adjectives: Our",
+      "title": "[[Possessive Adjectives|Adjetivos Posesivos]]: [[Our|Nuestro/a]]",
       "instructions": "Identifica 'Our' para nosotros.",
       "questions": [
         {
@@ -151,7 +151,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Their aunts live in Spain|Sus tías viven en España]].",
     "content": {
-      "title": "Possessive Adjectives: Their",
+      "title": "[[Possessive Adjectives|Adjetivos Posesivos]]: [[Their|Su]]",
       "instructions": "Ordena la oración con 'their'.",
       "correctSentence": "[[Their aunts live in Spain|Sus tías viven en España]].",
       "words": ["[[Spain|España]].", "[[in|en]]", "[[live|viven]]", "[[aunts|tías]]", "[[Their|Sus]]"],
@@ -168,7 +168,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[My uncle is my father's brother|Mi tío es el hermano de mi padre]].",
     "content": {
-      "title": "Family: Uncle",
+      "title": "[[Family|Familia]]: [[Uncle|Tío]]",
       "instructions": "Identifica la palabra para tío.",
       "questions": [
         {
@@ -190,7 +190,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[His aunt is my father's sister|Su tía es la hermana de mi padre]].",
     "content": {
-      "title": "Family: Aunt",
+      "title": "[[Family|Familia]]: [[Aunt|Tía]]",
       "instructions": "Ordena la oración sobre tía.",
       "correctSentence": "[[His aunt is my father's sister|Su tía es la hermana de mi padre]].",
       "words": ["[[sister|hermana]].", "[[father's|padre's]]", "[[my|mi]]", "[[is|es]]", "[[aunt|tía]]", "[[His|Su]]"],
@@ -207,7 +207,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[My cousin is my aunt's child|Mi primo es el hijo de mi tía]].",
     "content": {
-      "title": "Family: Cousin",
+      "title": "[[Family|Familia]]: [[Cousin|Primo]]",
       "instructions": "Completa con 'cousin'.",
       "questions": [
         {
@@ -229,7 +229,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[My grandson is very young|Mi nieto es muy joven]].",
     "content": {
-      "title": "Family: Grandson",
+      "title": "[[Family|Familia]]: [[Grandson|Nieto]]",
       "instructions": "Ordena la oración sobre nieto.",
       "correctSentence": "[[My grandson is very young|Mi nieto es muy joven]].",
       "words": ["[[young|joven]].", "[[very|muy]]", "[[is|es]]", "[[grandson|nieto]]", "[[My|Mi]]"],
@@ -268,7 +268,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[My sister is married|Mi hermana está casada]].",
     "content": {
-      "title": "Family: Sister",
+      "title": "[[Family|Familia]]: [[Sister|Hermana]]",
       "instructions": "Ordena la oración sobre hermana.",
       "correctSentence": "[[My sister is married|Mi hermana está casada]].",
       "words": ["[[married|casada]].", "[[is|está]]", "[[sister|hermana]]", "[[My|Mi]]"],
@@ -372,7 +372,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[Their brother is a student|Su hermano es estudiante]].",
     "content": {
-      "title": "Family: Brother",
+      "title": "[[Family|Familia]]: [[Brother|Hermano]]",
       "instructions": "Ordena la oración sobre hermano.",
       "correctSentence": "[[Their brother is a student|Su hermano es estudiante]].",
       "words": ["[[student|estudiante]].", "[[a|un]]", "[[is|es]]", "[[brother|hermano]]", "[[Their|Su]]"],
@@ -389,7 +389,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[His grandparents live in France|Sus abuelos viven en Francia]].",
     "content": {
-      "title": "Family: Grandparents",
+      "title": "[[Family|Familia]]: [[Grandparents|Abuelos]]",
       "instructions": "Completa sobre los abuelos.",
       "questions": [
         {
@@ -467,7 +467,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[My niece is a talented pianist|Mi sobrina es una pianista talentosa]].",
     "content": {
-      "title": "Family: Niece",
+      "title": "[[Family|Familia]]: [[Niece|Sobrina]]",
       "instructions": "Identifica a la sobrina.",
       "questions": [
         {
@@ -528,7 +528,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[His son is interested in sports|Su hijo está interesado en deportes]].",
     "content": {
-      "title": "Family: Son",
+      "title": "[[Family|Familia]]: [[Son|Hijo]]",
       "instructions": "Ordena la oración sobre hijo.",
       "correctSentence": "[[His son is interested in sports|Su hijo está interesado en deportes]].",
       "words": ["[[sports|deportes]].", "[[in|en]]", "[[interested|interesado]]", "[[is|está]]", "[[son|hijo]]", "[[His|Su]]"],
@@ -567,7 +567,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[My in-laws are very kind|Mis suegros son muy amables]].",
     "content": {
-      "title": "Family: In-laws",
+      "title": "[[Family|Familia]]: [[In-laws|Suegros]]",
       "instructions": "Ordena la oración sobre suegros.",
       "correctSentence": "[[My in-laws are very kind|Mis suegros son muy amables]].",
       "words": ["[[kind|amables]].", "[[very|muy]]", "[[are|son]]", "[[in-laws|suegros]]", "[[My|Mis]]"],
@@ -909,7 +909,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[My sister's husband is my brother-in-law|El esposo de mi hermana es mi cuñado]].",
     "content": {
-      "title": "Family: Brother-in-law",
+      "title": "[[Family|Familia]]: [[Brother-in-law|Cuñado]]",
       "instructions": "Completa sobre cuñado.",
       "questions": [
         {
@@ -948,7 +948,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[Patricia's stepmother|La madrastra de Patricia]] [[is|es]] [[very caring|muy cariñosa]].",
     "content": {
-      "title": "Family: Stepmother",
+      "title": "[[Family|Familia]]: [[Stepmother|Madrastra]]",
       "instructions": "Selecciona la forma correcta del Saxon Genitive para 'el padrastro de John'.",
       "questions": [
         {
