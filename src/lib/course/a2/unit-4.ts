@@ -208,13 +208,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "transcript": "[[The girl has got blonde hair|La niña tiene el cabello rubio]].",
     "content": {
       "title": "Hair Colors",
-      "instructions": "Selecciona el color de cabello correcto.",
+      "instructions": "Según la descripción, selecciona el color de cabello correcto.",
       "questions": [
         {
-          "question": "She [[has got|tiene]] _______ [[hair|cabello]].",
+          "question": "[[The girl|La niña]] [[has got|tiene]] _______ [[hair|cabello]].",
           "options": ["[[blonde|rubio]]", "[[black|negro]]", "[[red|rojo]]"],
           "correctAnswer": 0,
-          "explanation": "'Blonde hair' = cabello rubio."
+          "explanation": "En la descripción, la niña tiene cabello rubio (blonde hair)."
         }
       ]
     },
@@ -247,13 +247,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "transcript": "[[He has got a tall body|Tiene un cuerpo alto]].",
     "content": {
       "title": "Height",
-      "instructions": "Completa la oración sobre altura.",
+      "instructions": "Según la descripción, completa la oración sobre altura.",
       "questions": [
         {
-          "question": "She [[has got|tiene]] a _______ [[body|cuerpo]].",
+          "question": "[[He|Él]] [[has got|tiene]] a _______ [[body|cuerpo]].",
           "options": ["[[short|bajo]]", "[[tall|alto]]", "[[wide|ancho]]"],
           "correctAnswer": 1,
-          "explanation": "'Tall body' = cuerpo alto."
+          "explanation": "En la descripción, él tiene un cuerpo alto (tall body)."
         }
       ]
     },
@@ -611,13 +611,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "transcript": "[[She is tall and slim|Es alta y delgada]].",
     "content": {
       "title": "Height and Build",
-      "instructions": "Completa la descripción física.",
+      "instructions": "Según la descripción, completa sobre altura y constitución.",
       "questions": [
         {
-          "question": "He [[is|es]] _______ [[and|y]] [[slim|delgado]].",
-          "options": ["[[short|bajo]]", "[[tall|alto]]", "[[heavy|pesado]]"],
+          "question": "[[She|Ella]] [[is|es]] _______ [[and|y]] [[slim|delgada]].",
+          "options": ["[[short|baja]]", "[[tall|alta]]", "[[heavy|pesada]]"],
           "correctAnswer": 1,
-          "explanation": "'He is tall and slim' describe su altura y constitución."
+          "explanation": "En la descripción, ella es alta (tall) y delgada (slim)."
         }
       ]
     },
@@ -650,13 +650,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "transcript": "[[He has brown eyes and a beard|Tiene los ojos marrones y una barba]].",
     "content": {
       "title": "Eyes and Facial Hair",
-      "instructions": "Completa la descripción de características faciales.",
+      "instructions": "Según la descripción, completa sobre características faciales.",
       "questions": [
         {
-          "question": "She [[has got|tiene]] _______ [[eyes|ojos]] [[and|y]] [[long hair|cabello largo]].",
+          "question": "[[He|Él]] [[has got|tiene]] _______ [[eyes|ojos]] [[and|y]] [[a beard|una barba]].",
           "options": ["[[blue|azules]]", "[[green|verdes]]", "[[brown|marrones]]"],
-          "correctAnswer": 0,
-          "explanation": "'She has got blue eyes' describe el color de los ojos."
+          "correctAnswer": 2,
+          "explanation": "En la descripción, él tiene los ojos marrones (brown eyes) y una barba."
         }
       ]
     },
@@ -728,13 +728,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "transcript": "[[He looks young for his age|Se ve joven para su edad]].",
     "content": {
       "title": "Age Appearance",
-      "instructions": "Completa la descripción de edad aparente.",
+      "instructions": "Según la descripción, completa sobre edad aparente.",
       "questions": [
         {
-          "question": "She _______ [[young|joven]] for [[her age|su edad]].",
+          "question": "[[He|Él]] _______ [[young|joven]] for [[his age|su edad]].",
           "options": ["[[looks|parece]]", "[[is|es]]", "[[has|tiene]]"],
           "correctAnswer": 0,
-          "explanation": "'She looks young' describe cómo aparenta edad alguien."
+          "explanation": "En la descripción, él se ve joven para su edad (looks young for his age)."
         }
       ]
     },
@@ -767,13 +767,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "transcript": "[[She has a slim waist and nice figure|Tiene una cintura delgada y una buena figura]].",
     "content": {
       "title": "Figure Description",
-      "instructions": "Completa la descripción de la figura.",
+      "instructions": "Según la descripción, completa sobre la figura.",
       "questions": [
         {
-          "question": "He [[has|tiene]] a _______ [[waist|cintura]].",
+          "question": "[[She|Ella]] [[has|tiene]] a _______ [[waist|cintura]].",
           "options": ["[[slim|delgada]]", "[[wide|ancha]]", "[[thick|gruesa]]"],
           "correctAnswer": 0,
-          "explanation": "'He has a slim waist' describe la cintura delgada."
+          "explanation": "En la descripción, ella tiene una cintura delgada (slim waist)."
         }
       ]
     },
@@ -884,13 +884,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "transcript": "[[She is short with long red hair|Es baja con cabello rojo largo]].",
     "content": {
       "title": "Overall Description",
-      "instructions": "Completa la descripción general de persona.",
+      "instructions": "Según la descripción, completa cómo se ve la persona.",
       "questions": [
         {
-          "question": "He [[is|es]] [[tall|alto]] [[with|con]] _______ [[eyes|ojos]].",
-          "options": ["[[green|verdes]]", "[[blue|azules]]", "[[brown|marrones]]"],
+          "question": "[[She|Ella]] [[is|es]] [[short|baja]] [[with|con]] _______ [[hair|cabello]].",
+          "options": ["[[long black|negro largo]]", "[[long red|rojo largo]]", "[[short brown|marrón corto]]"],
           "correctAnswer": 1,
-          "explanation": "Describing overall appearance with height and eye color."
+          "explanation": "En la descripción, ella es baja con cabello rojo largo (short with long red hair)."
         }
       ]
     },
@@ -910,13 +910,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "transcript": "[[My friend is wearing a beautiful new red jacket|Mi amigo lleva una hermosa chaqueta roja nueva]].",
     "content": {
       "title": "Mixed Description",
-      "instructions": "Completa la descripción mixta.",
+      "instructions": "Según la descripción, completa con el orden correcto de adjetivos.",
       "questions": [
         {
-          "question": "She [[is wearing|lleva]] a _______ _______ _______ [[dress|vestido]].",
-          "options": ["[[beautiful new blue|azul nuevo hermoso]]", "[[beautiful new blue|hermoso nuevo azul]]", "[[beautiful new blue|hermoso nuevo azul]]"],
+          "question": "[[He|Él]] [[is wearing|lleva]] a _______ _______ _______ [[jacket|chaqueta]].",
+          "options": ["[[beautiful new red|roja nueva hermosa]]", "[[beautiful new red|hermosa nueva roja]]", "[[beautiful new red|hermosa nueva roja]]"],
           "correctAnswer": 2,
-          "explanation": "Orden: quality + age + color."
+          "explanation": "En la descripción: orden correcto es quality (beautiful) + age (new) + color (red)."
         }
       ]
     },
@@ -949,13 +949,13 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "transcript": "[[Tom is tall and athletic|Tom es alto y atlético]].",
     "content": {
       "title": "Personality + Appearance",
-      "instructions": "Distingue entre descripción de apariencia y personalidad.",
+      "instructions": "Según la descripción, completa sobre apariencia física.",
       "questions": [
         {
-          "question": "She [[is|es]] _______ [[and|y]] [[intelligent|inteligente]].",
-          "options": ["[[beautiful|hermosa]]", "[[tall|alta]]", "[[slim|delgada]]"],
-          "correctAnswer": 0,
-          "explanation": "'She is beautiful and intelligent' mezcla apariencia con personalidad."
+          "question": "[[Tom|Tom]] [[is|es]] _______ [[and|y]] [[athletic|atlético]].",
+          "options": ["[[beautiful|hermoso]]", "[[tall|alto]]", "[[slim|delgado]]"],
+          "correctAnswer": 1,
+          "explanation": "En la descripción, Tom es alto (tall) y atlético (athletic)."
         }
       ]
     },
@@ -985,16 +985,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A2",
     "topic": "Mixed Practice",
     "difficulty": "hard",
-    "transcript": "[[She is dressed elegantly|Está vestida elegantemente]].",
+    "transcript": "[[He is dressed elegantly|Está vestido elegantemente]].",
     "content": {
       "title": "Overall Style",
-      "instructions": "Completa la descripción de estilo general.",
+      "instructions": "Según la descripción, completa cómo se viste.",
       "questions": [
         {
-          "question": "He is dressed very _______.",
+          "question": "[[He|Él]] is dressed very _______.",
           "options": ["[[casually|informalmente]]", "[[smartly|elegantemente]]", "[[messily|desordenadamente]]"],
           "correctAnswer": 1,
-          "explanation": "'He is dressed smartly' describe un estilo de vestimenta elegante y cuidado."
+          "explanation": "En la descripción, él está vestido elegantemente (dressed smartly)."
         }
       ]
     },
