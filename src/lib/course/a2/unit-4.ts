@@ -472,7 +472,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "She [[has|tiene]] [[a|un]] _______ _______ _______ [[bag|bolsa]].",
-          "options": ["[[ugly small blue|azul pequeño feo]]", "[[red beautiful big|rojo hermoso grande (orden incorrecto)]]", "[[beautiful big red|bolsa hermosa grande roja]]"],
+          "options": ["[[ugly small blue|azul pequeño feo]]", "[[red beautiful big|rojo hermoso grande]]", "[[beautiful big red|bolsa hermosa grande roja]]"],
           "correctAnswer": 2,
           "explanation": "Orden: quality ([[beautiful|hermoso]]) + [[size|tamaño]] ([[big|grande]]) + [[color|color]] ([[red|rojo]])."
         }
