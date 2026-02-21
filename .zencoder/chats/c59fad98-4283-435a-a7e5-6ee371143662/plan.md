@@ -215,6 +215,24 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c5
 
 ---
 
+## NEW TASK: Fix Duplicate Correct Answers in Two-Adjective Exercises
+
+### [x] Fix Exercise 22 with dual correct answers
+**Exercise**: a2-u4-e22 (Unit 4, Lesson 2, Exercise 7)
+**Issue**: Both "straight blonde" and "curly blonde" were grammatically correct
+**Solution**: Changed Option A distractor:
+- ❌ Before: "[[straight blonde|rubio liso]]" (also correct)
+- ✅ After: "[[blonde straight|rubio liso (orden incorrecto)]]" (wrong order)
+- **Correct answer remains**: Option B "[[curly blonde|cabello rizado rubio]]" (correctAnswer: 1)
+
+### [x] Git commit & push
+- **Commit Hash**: `584583e0`
+- **Message**: "Fix A2 Unit 4 Exercise 22 (Lesson 2, Exercise 7): Change 'straight blonde' to 'blonde straight' to make distractor pedagogically incorrect"
+- **Files Modified**: 1 file changed, 1 insertion(+), 1 deletion(-)
+- **Status**: ✅ Pushed to main branch
+
+---
+
 ## ✅ ALL TASKS COMPLETED
 
 ### Summary
@@ -225,5 +243,6 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c5
 - Fixed Exercise 16 in Unit 4 with duplicate options
 - Fixed **7 exercises** in Lesson 2 of Unit 4 with duplicate answer options
 - Reduced multiple-choice options from 3 to 2 for **4 two-adjective exercises**
-- **Total Commits**: 8 commits completed
-- **Final Status**: All words in A2 Unit 4 and Unit 2 Exercise 55 properly translated, all duplicate options resolved, and two-adjective exercises simplified
+- Fixed dual-correct-answer issue in Exercise 22
+- **Total Commits**: 9 commits completed
+- **Final Status**: All words in A2 Unit 4 and Unit 2 Exercise 55 properly translated, all duplicate/dual-correct options resolved, and two-adjective exercises simplified
