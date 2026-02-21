@@ -361,6 +361,29 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c5
 
 ---
 
+## NEW TASK: Add Missing Translations in Lesson 4 Exercises 5, 7, 9
+
+### [x] Fix untranslated words in Lesson 4 exercises 5, 7, 9
+**Exercises Updated**: e50, e52, e54
+**Untranslated Words Fixed**:
+- **Exercise 50** (Lesson 4, Exercise 5):
+  - Question: "[[businessman|hombre de negocios]]", "[[arriving|llegando]]", "[[board|junta]]", "[[tailored|ajustada]]"
+  - Explanation: "[[tailored|ajustada]]", "[[suit|traje]]", "[[board|junta]]", "[[meeting|reunión]]", "[[indicates|indica]]", "[[professional|profesional]]"
+- **Exercise 52** (Lesson 4, Exercise 7):
+  - Question: "[[weightlifter|levantador de pesas]]", "[[hours|horas]]"
+  - Explanation: "[[intensively|intensamente]]", "[[as|como]]", "[[weightlifter|levantador de pesas]]", "[[develops|desarrolla]]"
+- **Exercise 54** (Lesson 4, Exercise 9):
+  - Question: "[[professional|profesional]]", "[[news|noticias]]", "[[broadcaster|locutor]]", "[[excellent|excelente]]", "[[diction|dicción]]", "[[audible|audible]]", "[[pronunciation|pronunciación]]"
+  - Explanation: "[[Professional|Profesional]]", "[[broadcasters|locutores]]", "[[known|conocidos]]", "[[for|por]]", "[[having|tener]]", "[[clear|clara]]", "[[easily|fácilmente]]", "[[understood|entendida]]", "[[well-articulated|bien articulada]]"
+
+### [x] Git commit & push
+- **Commit Hash**: `f2f488eb`
+- **Message**: "Fix A2 Unit 4 Lesson 4 exercises 5,7,9: Add missing translations for all untranslated words"
+- **Files Modified**: 1 file changed, 6 insertions(+), 6 deletions(-)
+- **Status**: ✅ Pushed to main branch
+
+---
+
 ## ✅ ALL TASKS COMPLETED
 
 ### Summary
@@ -377,5 +400,6 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c5
 - Added missing translations in Lesson 3 exercises 1, 3, 9, 13, 15
 - Refocused Exercise 33 for consistency and pedagogical clarity
 - Fixed identical answer options in Exercise 46 (Lesson 4)
-- **Total Commits**: 15 commits completed
+- Added missing translations in Lesson 4 exercises 5, 7, 9
+- **Total Commits**: 16 commits completed
 - **Final Status**: All words in A2 Unit 4 (all lessons 1-4) and Unit 2 Exercise 55 properly translated, all duplicate/identical/dual-correct options resolved, ALL student-cueing hints removed, exercise consistency improved, and adjective order exercises simplified to optimal difficulty
