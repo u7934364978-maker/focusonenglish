@@ -169,8 +169,61 @@ If the feature is trivial and doesn't warrant full specification, update this wo
 
 Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c59fad98-4283-435a-a7e5-6ee371143662/plan.md`.
 
-### [ ] Step: Implementation
+## NEW TASK: Fix A2 Unit 4 Lesson 2 Duplicate Answer Options
 
-This step should be replaced with detailed implementation tasks from the Planning step.
+### [x] Fix all duplicate answer options in Lesson 2
+**Issues**: Exercises 18, 20, 22, 24, 26, 28, 30 all had two identical answer option prefixes
+**Solution**: Replaced with pedagogically distinct alternatives for each exercise:
+- **Exercise 18**: `[[long black|negro largo]]` duplicates → "short black" (wrong size), "black long" (wrong order), "long black" (correct)
+- **Exercise 20**: `[[beautiful white|blanco hermoso]]` duplicates → "ugly white" (wrong quality), "white beautiful" (wrong order), "beautiful white" (correct)
+- **Exercise 22**: `[[curly blonde|rubio rizado]]` duplicates → "straight blonde" (wrong texture), "blonde curly" (wrong order), "curly blonde" (correct)
+- **Exercise 24**: Multiple-adjective duplicates → distinct size/quality/order alternatives
+- **Exercise 26**: Three-adjective duplicates → distinct wrong size, wrong order, and correct answer options
+- **Exercise 28**: Clothing adjectives duplicates → distinct quality/size/texture alternatives
+- **Exercise 30**: Adjective order review duplicates → distinct pedagogical variations
 
-If Planning didn't replace this step, execute the tasks in `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c59fad98-4283-435a-a7e5-6ee371143662/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.
+### [x] Git commit & push (Lesson 2 comprehensive fix)
+- **Commit Hash**: `6e5bae8f`
+- **Message**: "Fix A2 Unit 4 Lesson 2: Replace duplicate answer options with pedagogically distinct alternatives (exercises 18, 20, 22, 24, 26, 28, 30)"
+- **Status**: ✅ Pushed to main branch
+
+---
+
+## NEW TASK: Reduce Multiple-Choice Options for Two-Adjective Exercises
+
+### [x] Reduce options from 3 to 2 for two-adjective exercises
+**Exercises Updated**: e16, e18, e20, e22 (Lesson 2)
+**Changes Made**:
+- **Exercise 16** (big red): Options reduced from 3 to 2
+  - Option 0: "[[small red|rojo pequeño]]" (wrong size)
+  - Option 1: "[[big red|coche rojo grande]]" (correct - now correctAnswer: 1)
+- **Exercise 18** (long black): Options reduced from 3 to 2
+  - Option 0: "[[short black|negro corto]]" (wrong length)
+  - Option 1: "[[long black|vestido negro largo]]" (correct - now correctAnswer: 1)
+- **Exercise 20** (beautiful white): Options reduced from 3 to 2
+  - Option 0: "[[ugly white|blanco feo]]" (wrong quality)
+  - Option 1: "[[beautiful white|sombrero hermoso blanco]]" (correct - now correctAnswer: 1)
+- **Exercise 22** (curly blonde): Options reduced from 3 to 2
+  - Option 0: "[[straight blonde|rubio liso]]" (wrong texture)
+  - Option 1: "[[curly blonde|cabello rizado rubio]]" (correct - now correctAnswer: 1)
+
+### [x] Git commit & push
+- **Commit Hash**: `630d36bc`
+- **Message**: "Fix A2 Unit 4: Reduce multiple-choice options from 3 to 2 for exercises with two adjectives (e16, e18, e20, e22)"
+- **Files Modified**: 1 file changed, 8 insertions(+), 8 deletions(-)
+- **Status**: ✅ Pushed to main branch
+
+---
+
+## ✅ ALL TASKS COMPLETED
+
+### Summary
+- Fixed **7 instances** of nested/malformed brackets in Unit 4
+- Added Spanish translations to **9 untranslated titles**
+- Fixed **25+ exercises** with untranslated English words
+- Fixed Exercise 55 in Unit 2 with nonsensical question
+- Fixed Exercise 16 in Unit 4 with duplicate options
+- Fixed **7 exercises** in Lesson 2 of Unit 4 with duplicate answer options
+- Reduced multiple-choice options from 3 to 2 for **4 two-adjective exercises**
+- **Total Commits**: 8 commits completed
+- **Final Status**: All words in A2 Unit 4 and Unit 2 Exercise 55 properly translated, all duplicate options resolved, and two-adjective exercises simplified
