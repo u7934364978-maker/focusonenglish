@@ -315,10 +315,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Selecciona el orden correcto de adjetivos.",
       "questions": [
         {
-          "question": "I [[have|tener]] [[a|un]] _______ _______ [[car|coche]].",
-          "options": ["[[big red|rojo grande]]", "[[red big|grande rojo]]", "[[big red|grande rojo]]"],
+          "question": "I [[have|tengo]] [[a|un]] _______ _______ [[car|coche]].",
+          "options": ["[[small red|rojo pequeño]]", "[[red big|rojo grande (orden incorrecto)]]", "[[big red|coche rojo grande]]"],
           "correctAnswer": 2,
-          "explanation": "En inglés: tamaño + [[color|color]]. '[[Big|grande]] [[red|rojo]] [[car|coche]]' (coche rojo grande)."
+          "explanation": "En inglés, el orden correcto de adjetivos es: tamaño + [[color|color]]. '[[big red car|coche rojo grande]]' es correcto. El tamaño ([[big|grande]]) va antes del [[color|color]] ([[red|rojo]])."
         }
       ]
     },
