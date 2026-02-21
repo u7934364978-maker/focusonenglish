@@ -13,13 +13,13 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "transcript": "[[What is your name|¿Cuál es tu nombre?]]?",
     "content": {
       "title": "[[Question Words|Palabras de Pregunta]]: [[What|¿Qué?]]",
-      "instructions": "Identifica la pregunta correcta con 'What'.",
+      "instructions": "Identifica la pregunta correcta con '[[What|qué]]'.",
       "questions": [
         {
           "question": "_______ [[is|es]] [[your name|tu nombre]]?",
           "options": ["[[Who|¿Quién]]", "[[What|¿Qué]]", "[[Where|¿Dónde]]"],
           "correctAnswer": 1,
-          "explanation": "'What' se usa para preguntar sobre cosas o nombres."
+          "explanation": "'[[What|qué]]' se usa para preguntar sobre cosas o nombres."
         }
       ]
     },
@@ -35,10 +35,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "transcript": "[[Where are you from|¿De dónde eres?]]?",
     "content": {
       "title": "[[Question Words|Palabras de Pregunta]]: [[Where|¿Dónde?]]",
-      "instructions": "Ordena la pregunta con 'Where'.",
+      "instructions": "Ordena la pregunta con '[[Where|dónde]]'.",
       "correctSentence": "[[Where are you from|¿De dónde eres?]]?",
       "words": ["[[from|de]]?", "[[you|tú]]", "[[are|eres]]", "[[Where|¿Dónde]]"],
-      "explanation": "'Where' se usa para preguntar sobre lugares."
+      "explanation": "'[[Where|dónde]]' se usa para preguntar sobre lugares."
     },
     "audioUrl": "audio/a2/unit-2/e2.mp3",
     "topicName": "Grammar"
@@ -52,13 +52,13 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "transcript": "[[Who is she|¿Quién es ella?]]?",
     "content": {
       "title": "[[Question Words|Palabras de Pregunta]]: [[Who|¿Quién?]]",
-      "instructions": "Identifica la pregunta correcta con 'Who'.",
+      "instructions": "Identifica la pregunta correcta con '[[Who|quién]]'.",
       "questions": [
         {
           "question": "_______ [[is|es]] [[he|él]]?",
           "options": ["[[What|¿Qué]]", "[[Who|¿Quién]]", "[[When|¿Cuándo]]"],
           "correctAnswer": 1,
-          "explanation": "'Who' se usa para preguntar sobre personas."
+          "explanation": "'[[Who|quién]]' se usa para preguntar sobre personas."
         }
       ]
     },
@@ -74,10 +74,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "transcript": "[[When are you coming|¿Cuándo vienes?]]?",
     "content": {
       "title": "[[Question Words|Palabras de Pregunta]]: [[When|¿Cuándo?]]",
-      "instructions": "Ordena la pregunta con 'When'.",
+      "instructions": "Ordena la pregunta con '[[When|cuándo]]'.",
       "correctSentence": "[[When are you coming|¿Cuándo vienes?]]?",
       "words": ["[[coming|viniendo]]?", "[[you|tú]]", "[[are|eres]]", "[[When|¿Cuándo]]"],
-      "explanation": "'When' se usa para preguntar sobre tiempo."
+      "explanation": "'[[When|cuándo]]' se usa para preguntar sobre tiempo."
     },
     "audioUrl": "audio/a2/unit-2/e4.mp3",
     "topicName": "Grammar"
@@ -91,13 +91,13 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "transcript": "[[Why are you late|¿Por qué llegas tarde?]]?",
     "content": {
       "title": "[[Question Words|Palabras de Pregunta]]: [[Why|¿Por qué?]]",
-      "instructions": "Completa con 'Why' para preguntar razones.",
+      "instructions": "Completa con '[[Why|por qué]]' para preguntar razones.",
       "questions": [
         {
           "question": "_______ [[is|es]] [[she|ella]] [[here|aquí]]?",
           "options": ["[[How|¿Cómo]]", "[[Why|¿Por qué]]", "[[What|¿Qué]]"],
           "correctAnswer": 1,
-          "explanation": "'Why' se usa para preguntar la razón o causa."
+          "explanation": "'[[Why|por qué]]' se usa para preguntar la razón o causa."
         }
       ]
     },
@@ -113,10 +113,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "transcript": "[[How are you|¿Cómo estás?]]?",
     "content": {
       "title": "[[Question Words|Palabras de Pregunta]]: [[How|¿Cómo?]]",
-      "instructions": "Ordena la pregunta con 'How'.",
+      "instructions": "Ordena la pregunta con '[[How|cómo]]'.",
       "correctSentence": "[[How are you|¿Cómo estás?]]?",
       "words": ["[[you|tú]]?", "[[are|estás]]", "[[How|¿Cómo]]"],
-      "explanation": "'How' se usa para preguntar sobre estado o manera."
+      "explanation": "'[[How|cómo]]' se usa para preguntar sobre estado o manera."
     },
     "audioUrl": "audio/a2/unit-2/e6.mp3",
     "topicName": "Grammar"
@@ -155,7 +155,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena la oración sobre deletreo.",
       "correctSentence": "[[My name is spelled M-A-R-I-A|Mi nombre se deletrea M-A-R-I-A]].",
       "words": ["[[M-A-R-I-A|M-A-R-I-A]].", "[[spelled|deletrea]]", "[[is|se]]", "[[name|nombre]]", "[[My|Mi]]"],
-      "explanation": "Estructura: My name + is spelled + letras."
+      "explanation": "Estructura: [[My|mi]] name + [[is|es/está]] spelled + letras."
     },
     "audioUrl": "audio/a2/unit-2/e8.mp3",
     "topicName": "Vocabulary"
@@ -175,7 +175,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "_______ [[is|es]] [[your job|tu trabajo]]?",
           "options": ["[[Who|¿Quién]]", "[[What|¿Qué]]", "[[Where|¿Dónde]]"],
           "correctAnswer": 1,
-          "explanation": "'What' se usa para preguntar sobre profesión."
+          "explanation": "'[[What|qué]]' se usa para preguntar sobre profesión."
         }
       ]
     },
@@ -194,7 +194,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena la respuesta sobre profesión.",
       "correctSentence": "[[I am a doctor|Soy un doctor]].",
       "words": ["[[doctor|doctor]].", "[[a|un]]", "[[am|soy]]", "[[I|Yo]]"],
-      "explanation": "I + am + a + job title."
+      "explanation": "[[I|yo]] + [[am|soy/estoy]] + [[a|un/una]] + job title."
     },
     "audioUrl": "audio/a2/unit-2/e10.mp3",
     "topicName": "Vocabulary"
@@ -208,13 +208,13 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "transcript": "[[Which one is yours|¿Cuál es el tuyo?]]?",
     "content": {
       "title": "[[Question Words|Palabras de Pregunta]]: [[Which|¿Cuál?]]",
-      "instructions": "Identifica 'Which' para elección.",
+      "instructions": "Identifica '[[Which|cuál]]' para elección.",
       "questions": [
         {
           "question": "_______ [[book|libro]] [[is|es]] [[yours|tuyo]]?",
           "options": ["[[What|¿Qué]]", "[[Which|¿Cuál]]", "[[Who|¿Quién]]"],
           "correctAnswer": 1,
-          "explanation": "'Which' se usa para elegir entre opciones."
+          "explanation": "'[[Which|cuál]]' se usa para elegir entre opciones."
         }
       ]
     },
@@ -233,7 +233,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena la pregunta educada.",
       "correctSentence": "[[Can you spell that|¿Puedes deletrear eso?]]?",
       "words": ["[[that|eso]]?", "[[spell|deletrear]]", "[[you|puedes]]", "[[Can|¿Puedes]]"],
-      "explanation": "Can + you + spell + palabra."
+      "explanation": "[[Can|puedo]] + [[you|tú]] + spell + palabra."
     },
     "audioUrl": "audio/a2/unit-2/e12.mp3",
     "topicName": "Grammar"
@@ -253,7 +253,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "_______ [[are|son]] [[their jobs|sus trabajos]]?",
           "options": ["[[Who|¿Quiénes]]", "[[What|¿Qué]]", "[[Where|¿Dónde]]"],
           "correctAnswer": 1,
-          "explanation": "'What' para plural de profesiones."
+          "explanation": "'[[What|qué]]' para plural de profesiones."
         }
       ]
     },
@@ -269,10 +269,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "transcript": "[[Who are your friends|¿Quiénes son tus amigos?]]?",
     "content": {
       "title": "Question Words: Who (Plural)",
-      "instructions": "Ordena pregunta con 'Who' plural.",
+      "instructions": "Ordena pregunta con '[[Who|quién]]' plural.",
       "correctSentence": "[[Who are your friends|¿Quiénes son tus amigos?]]?",
       "words": ["[[friends|amigos]]?", "[[your|tus]]", "[[are|son]]", "[[Who|¿Quiénes]]"],
-      "explanation": "Who + are (plural)."
+      "explanation": "[[Who|quién]] + [[are|sois/está[[is|es/está]]/[[son|hijo]]/están]] (plural)."
     },
     "audioUrl": "audio/a2/unit-2/e14.mp3",
     "topicName": "Grammar"
@@ -292,7 +292,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "[[S-M-I-T-H spells|S-M-I-T-H deletrea]] _______.",
           "options": ["[[Smith|Smith]]", "[[Smile|Sonrisa]]", "[[Small|Pequeño]]"],
           "correctAnswer": 0,
-          "explanation": "S-M-I-T-H deletrea 'Smith'."
+          "explanation": "S-M-[[I|yo]]-T-H deletrea 'Smith'."
         }
       ]
     },
@@ -315,7 +315,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena pregunta sobre nombre.",
       "correctSentence": "[[Is your name John|¿Tu nombre es John?]]?",
       "words": ["[[John|John]]?", "[[name|nombre]]", "[[your|tu]]", "[[Is|¿Es]]"],
-      "explanation": "Is + your name + nombre?"
+      "explanation": "[[Is|es/está]] + [[your|tu]] name + nombre?"
     },
     "audioUrl": "audio/a2/unit-2/e16.mp3",
     "topicName": "Grammar"
@@ -335,7 +335,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "_______ [[you|tú]] [[a nurse|una enfermera]]?",
           "options": ["[[Is|¿Es]]", "[[Are|¿Eres]]", "[[Am|¿Soy]]"],
           "correctAnswer": 1,
-          "explanation": "Are + you + a + job?"
+          "explanation": "[[Are|sois/está[[is|es/está]]/[[son|hijo]]/están]] + [[you|tú]] + [[a|un/una]] + job?"
         }
       ]
     },
@@ -354,7 +354,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena pregunta sobre teléfono.",
       "correctSentence": "[[What is your telephone number|¿Cuál es tu número de teléfono?]]?",
       "words": ["[[number|número]]?", "[[telephone|teléfono]]", "[[your|tu]]", "[[is|es]]", "[[What|¿Cuál]]"],
-      "explanation": "What + is + your + noun?"
+      "explanation": "[[What|qué]] + [[is|es/está]] + [[your|tu]] + noun?"
     },
     "audioUrl": "audio/a2/unit-2/e18.mp3",
     "topicName": "Grammar"
@@ -374,7 +374,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "_______ [[is|está]] [[your house|tu casa]]?",
           "options": ["[[When|¿Cuándo]]", "[[Where|¿Dónde]]", "[[What|¿Qué]]"],
           "correctAnswer": 1,
-          "explanation": "Where + is + ubicación?"
+          "explanation": "[[Where|dónde]] + [[is|es/está]] + ubicación?"
         }
       ]
     },
@@ -393,7 +393,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena pregunta sobre cumpleaños.",
       "correctSentence": "[[When is your birthday|¿Cuándo es tu cumpleaños?]]?",
       "words": ["[[birthday|cumpleaños]]?", "[[your|tu]]", "[[is|es]]", "[[When|¿Cuándo]]"],
-      "explanation": "When + is + your + fecha?"
+      "explanation": "[[When|cuándo]] + [[is|es/está]] + [[your|tu]] + fecha?"
     },
     "audioUrl": "audio/a2/unit-2/e20.mp3",
     "topicName": "Grammar"
@@ -413,7 +413,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "_______ [[they|ellos]] [[doctors|doctores]]?",
           "options": ["[[Is|¿Es]]", "[[Are|¿Son]]", "[[Am|¿Soy]]"],
           "correctAnswer": 1,
-          "explanation": "Are + they + job (plural)?"
+          "explanation": "[[Are|sois/está[[is|es/está]]/[[son|hijo]]/están]] + [[they|ellos/ellas]] + job (plural)?"
         }
       ]
     },
@@ -432,7 +432,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena pregunta sobre profesión.",
       "correctSentence": "[[Is she a musician|¿Es ella una música?]]?",
       "words": ["[[musician|música]]?", "[[a|una]]", "[[she|ella]]", "[[Is|¿Es]]"],
-      "explanation": "Is + she + a + job?"
+      "explanation": "[[Is|es/está]] + [[she|ella]] + [[a|un/una]] + job?"
     },
     "audioUrl": "audio/a2/unit-2/e22.mp3",
     "topicName": "Vocabulary"
@@ -452,7 +452,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "_______ [[old|viejo]] [[is|es]] [[he|él]]?",
           "options": ["[[How|¿Qué tan]]", "[[What|¿Cuál]]", "[[When|¿Cuándo]]"],
           "correctAnswer": 0,
-          "explanation": "How + old + is/are?"
+          "explanation": "[[How|cómo]] + [[old|viejo]] + [[is|es/está]]/[[are|sois/está[[is|es/está]]/[[son|hijo]]/están]]?"
         }
       ]
     },
@@ -471,7 +471,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena pregunta sobre email.",
       "correctSentence": "[[What is your email address|¿Cuál es tu dirección de correo?]]?",
       "words": ["[[address|dirección]]?", "[[email|correo]]", "[[your|tu]]", "[[is|es]]", "[[What|¿Cuál]]"],
-      "explanation": "What + is + your + email?"
+      "explanation": "[[What|qué]] + [[is|es/está]] + [[your|tu]] + email?"
     },
     "audioUrl": "audio/a2/unit-2/e24.mp3",
     "topicName": "Grammar"
@@ -485,13 +485,13 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "transcript": "[[Why are you interested in this job|¿Por qué estás interesado en este trabajo?]]?",
     "content": {
       "title": "Question Words: Reason",
-      "instructions": "Pregunta con 'Why'.",
+      "instructions": "Pregunta con '[[Why|por qué]]'.",
       "questions": [
         {
           "question": "_______ [[are|eres]] [[you|tú]] [[here|aquí]]?",
           "options": ["[[What|¿Qué]]", "[[Why|¿Por qué]]", "[[Where|¿Dónde]]"],
           "correctAnswer": 1,
-          "explanation": "Why + are + you?"
+          "explanation": "[[Why|por qué]] + [[are|sois/está[[is|es/está]]/[[son|hijo]]/están]] + [[you|tú]]?"
         }
       ]
     },
@@ -510,7 +510,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena negación sobre profesión.",
       "correctSentence": "[[I am not a student|Yo no soy estudiante]].",
       "words": ["[[student|estudiante]].", "[[a|un]]", "[[not|no]]", "[[am|soy]]", "[[I|Yo]]"],
-      "explanation": "I + am + not + a + job."
+      "explanation": "[[I|yo]] + [[am|soy/estoy]] + [[not|[[no|no]]]] + [[a|un/una]] + job."
     },
     "audioUrl": "audio/a2/unit-2/e26.mp3",
     "topicName": "Grammar"
@@ -530,7 +530,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "[[He|Él]] _______ [[a lawyer|un abogado]].",
           "options": ["[[is not|no es]]", "[[am not|no soy]]", "[[are not|no son]]"],
           "correctAnswer": 0,
-          "explanation": "He + is + not + a + job."
+          "explanation": "[[He|él]] + [[is|es/está]] + [[not|[[no|no]]]] + [[a|un/una]] + job."
         }
       ]
     },
@@ -549,7 +549,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena negación en plural.",
       "correctSentence": "[[We are not doctors|Nosotros no somos doctores]].",
       "words": ["[[doctors|doctores]].", "[[not|no]]", "[[are|somos]]", "[[We|Nosotros]]"],
-      "explanation": "We + are + not + jobs."
+      "explanation": "[[We|nosotros/nosotras]] + [[are|sois/está[[is|es/está]]/[[son|hijo]]/están]] + [[not|[[no|no]]]] + jobs."
     },
     "audioUrl": "audio/a2/unit-2/e28.mp3",
     "topicName": "Grammar"
@@ -563,13 +563,13 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "transcript": "[[Are you a chef|¿Eres chef?]]?",
     "content": {
       "title": "Job Titles: Chef",
-      "instructions": "Pregunta sobre profesión de chef.",
+      "instructions": "Pregunta sobre profesión de [[chef|cocinero]].",
       "questions": [
         {
           "question": "_______ [[you|tú]] [[a chef|un chef]]?",
           "options": ["[[Is|¿Es]]", "[[Are|¿Eres]]", "[[Am|¿Soy]]"],
           "correctAnswer": 1,
-          "explanation": "Are + you + a + job?"
+          "explanation": "[[Are|sois/está[[is|es/está]]/[[son|hijo]]/están]] + [[you|tú]] + [[a|un/una]] + job?"
         }
       ]
     },
@@ -588,7 +588,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena profesión de contador.",
       "correctSentence": "[[I am an accountant|Yo soy contador]].",
       "words": ["[[accountant|contador]].", "[[an|un]]", "[[am|soy]]", "[[I|Yo]]"],
-      "explanation": "I + am + an + job (vowel sound)."
+      "explanation": "[[I|yo]] + [[am|soy/estoy]] + [[an|un/una]] + job (vowel sound)."
     },
     "audioUrl": "audio/a2/unit-2/e30.mp3",
     "topicName": "Vocabulary"
@@ -606,13 +606,13 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "transcript": "[[They are not students|Ellos no son estudiantes]].",
     "content": {
       "title": "Be Verb Negative: They",
-      "instructions": "Completa negación con 'they'.",
+      "instructions": "Completa negación con '[[they|ellos/ellas]]'.",
       "questions": [
         {
           "question": "[[They|Ellos]] _______ [[nurses|enfermeras]].",
           "options": ["[[is not|no es]]", "[[are not|no son]]", "[[am not|no soy]]"],
           "correctAnswer": 1,
-          "explanation": "They + are + not."
+          "explanation": "[[They|ellos/ellas]] + [[are|sois/está[[is|es/está]]/[[son|hijo]]/están]] + [[not|[[no|no]]]]."
         }
       ]
     },
@@ -628,10 +628,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "transcript": "[[You are not a teacher|Tú no eres profesor]].",
     "content": {
       "title": "Be Verb Negative: You",
-      "instructions": "Ordena negación con 'you'.",
+      "instructions": "Ordena negación con '[[you|tú]]'.",
       "correctSentence": "[[You are not a teacher|Tú no eres profesor]].",
       "words": ["[[teacher|profesor]].", "[[a|un]]", "[[not|no]]", "[[are|eres]]", "[[You|Tú]]"],
-      "explanation": "You + are + not + a + job."
+      "explanation": "[[You|tú]] + [[are|sois/está[[is|es/está]]/[[son|hijo]]/están]] + [[not|[[no|no]]]] + [[a|un/una]] + job."
     },
     "audioUrl": "audio/a2/unit-2/e32.mp3",
     "topicName": "Grammar"
@@ -651,7 +651,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "_______ [[your name|tu nombre]] [[spelled|delettreado]] [[correctly|correctamente]]?",
           "options": ["[[Is|¿Es]]", "[[Are|¿Eres]]", "[[Does|¿Hace]]"],
           "correctAnswer": 0,
-          "explanation": "Is + your name + adjective?"
+          "explanation": "[[Is|es/está]] + [[your|tu]] name + adjective?"
         }
       ]
     },
@@ -670,7 +670,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena pregunta sobre hobbies.",
       "correctSentence": "[[What are your hobbies|¿Cuáles son tus hobbies?]]?",
       "words": ["[[hobbies|hobbies]]?", "[[your|tus]]", "[[are|son]]", "[[What|¿Cuáles]]"],
-      "explanation": "What + are + your + noun (plural)?"
+      "explanation": "[[What|qué]] + [[are|sois/está[[is|es/está]]/[[son|hijo]]/están]] + [[your|tu]] + noun (plural)?"
     },
     "audioUrl": "audio/a2/unit-2/e34.mp3",
     "topicName": "Grammar"
@@ -690,7 +690,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "_______ [[is|es]] [[she|ella]]?",
           "options": ["[[What|¿Qué]]", "[[Who|¿Quién]]", "[[Where|¿Dónde]]"],
           "correctAnswer": 1,
-          "explanation": "Who + is + pronombre?"
+          "explanation": "[[Who|quién]] + [[is|es/está]] + pronombre?"
         }
       ]
     },
@@ -706,10 +706,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "transcript": "[[It is not correct|No es correcto]].",
     "content": {
       "title": "Be Verb Negative: It",
-      "instructions": "Ordena negación con 'it'.",
+      "instructions": "Ordena negación con '[[it|eso]]'.",
       "correctSentence": "[[It is not correct|No es correcto]].",
       "words": ["[[correct|correcto]].", "[[not|no]]", "[[is|es]]", "[[It|Eso]]"],
-      "explanation": "It + is + not + adjetivo."
+      "explanation": "[[It|eso]] + [[is|es/está]] + [[not|[[no|no]]]] + adjetivo."
     },
     "audioUrl": "audio/a2/unit-2/e36.mp3",
     "topicName": "Grammar"
@@ -729,7 +729,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "_______ [[they|ellos]] [[engineers|ingenieros]]?",
           "options": ["[[Is|¿Es]]", "[[Are|¿Son]]", "[[Am|¿Soy]]"],
           "correctAnswer": 1,
-          "explanation": "Are + they + job (plural)?"
+          "explanation": "[[Are|sois/está[[is|es/está]]/[[son|hijo]]/están]] + [[they|ellos/ellas]] + job (plural)?"
         }
       ]
     },
@@ -748,7 +748,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena pregunta sobre pronunciación.",
       "correctSentence": "[[How do you pronounce this word|¿Cómo pronuncias esta palabra?]]?",
       "words": ["[[word|palabra]]?", "[[this|esta]]", "[[pronounce|pronuncias]]", "[[you|tú]]", "[[do|haces]]", "[[How|¿Cómo]]"],
-      "explanation": "How + do + you + pronounce?"
+      "explanation": "[[How|cómo]] + [[do|hago/haces/hacen]] + [[you|tú]] + pronounce?"
     },
     "audioUrl": "audio/a2/unit-2/e38.mp3",
     "topicName": "Vocabulary"
@@ -768,7 +768,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "_______ [[job|trabajo]] [[is|es]] [[better|mejor]]?",
           "options": ["[[What|¿Qué]]", "[[Which|¿Cuál]]", "[[Who|¿Quién]]"],
           "correctAnswer": 1,
-          "explanation": "'Which' para elegir entre opciones."
+          "explanation": "'[[Which|cuál]]' para elegir entre opciones."
         }
       ]
     },
@@ -787,7 +787,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena negación.",
       "correctSentence": "[[She is not an architect|Ella no es arquitecta]].",
       "words": ["[[architect|arquitecta]].", "[[an|una]]", "[[not|no]]", "[[is|es]]", "[[She|Ella]]"],
-      "explanation": "She + is + not + an + job (vowel)."
+      "explanation": "[[She|ella]] + [[is|es/está]] + [[not|[[no|no]]]] + [[an|un/una]] + job (vowel)."
     },
     "audioUrl": "audio/a2/unit-2/e40.mp3",
     "topicName": "Vocabulary"
@@ -807,7 +807,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "_______ [[you|tú]] [[interested|interesado]] [[in|en]] [[this|esto]]?",
           "options": ["[[Is|¿Es]]", "[[Are|¿Estás]]", "[[Do|¿Haces]]"],
           "correctAnswer": 1,
-          "explanation": "Are + you + interested + in?"
+          "explanation": "[[Are|sois/está[[is|es/está]]/[[son|hijo]]/están]] + [[you|tú]] + interested + [[in|en]]?"
         }
       ]
     },
@@ -826,7 +826,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena pregunta con negación.",
       "correctSentence": "[[Why are you not a teacher|¿Por qué no eres profesor?]]?",
       "words": ["[[teacher|profesor]]?", "[[a|un]]", "[[not|no]]", "[[you|tú]]", "[[are|eres]]", "[[Why|¿Por qué]]"],
-      "explanation": "Why + are + you + not?"
+      "explanation": "[[Why|por qué]] + [[are|sois/está[[is|es/está]]/[[son|hijo]]/están]] + [[you|tú]] + [[not|[[no|no]]]]?"
     },
     "audioUrl": "audio/a2/unit-2/e42.mp3",
     "topicName": "Grammar"
@@ -846,7 +846,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "[[A-P-P-L-E spells|A-P-P-L-E deletrea]] _______.",
           "options": ["[[apple|manzana]]", "[[able|capaz]]", "[[apple tree|árbol de manzana]]"],
           "correctAnswer": 0,
-          "explanation": "A-P-P-L-E deletrea 'apple'."
+          "explanation": "[[A|un/una]]-P-P-L-E deletrea '[[apple|manzana]]'."
         }
       ]
     },
@@ -865,7 +865,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena pregunta sobre experiencia.",
       "correctSentence": "[[What is your experience|¿Cuál es tu experiencia?]]?",
       "words": ["[[experience|experiencia]]?", "[[your|tu]]", "[[is|es]]", "[[What|¿Cuál]]"],
-      "explanation": "What + is + your + noun?"
+      "explanation": "[[What|qué]] + [[is|es/está]] + [[your|tu]] + noun?"
     },
     "audioUrl": "audio/a2/unit-2/e44.mp3",
     "topicName": "Grammar"
@@ -885,7 +885,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "[[They|Ellos]] _______ [[managers|gerentes]].",
           "options": ["[[is not|no es]]", "[[are not|no son]]", "[[am not|no soy]]"],
           "correctAnswer": 1,
-          "explanation": "They + are + not + job."
+          "explanation": "[[They|ellos/ellas]] + [[are|sois/está[[is|es/está]]/[[son|hijo]]/están]] + [[not|[[no|no]]]] + job."
         }
       ]
     },
@@ -908,7 +908,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena pregunta sobre apellido.",
       "correctSentence": "[[Can you spell your last name|¿Puedes deletrear tu apellido?]]?",
       "words": ["[[name|apellido]]?", "[[last|último]]", "[[your|tu]]", "[[spell|deletrear]]", "[[you|puedes]]", "[[Can|¿Puedes]]"],
-      "explanation": "Can + you + spell + ...?"
+      "explanation": "[[Can|puedo]] + [[you|tú]] + spell + ...?"
     },
     "audioUrl": "audio/a2/unit-2/e46.mp3",
     "topicName": "Grammar"
@@ -922,13 +922,13 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "transcript": "[[How many jobs have you had|¿Cuántos trabajos has tenido?]]?",
     "content": {
       "title": "Questions: How Many",
-      "instructions": "Pregunta con 'How many'.",
+      "instructions": "Pregunta con '[[[[How|cómo]] many|cuántos]]'.",
       "questions": [
         {
           "question": "_______ [[jobs|trabajos]] [[are|hay]] [[here|aquí]]?",
           "options": ["[[How much|¿Cuánto]]", "[[How many|¿Cuántos]]", "[[How often|¿Con qué frecuencia]]"],
           "correctAnswer": 1,
-          "explanation": "'How many' para contar."
+          "explanation": "'[[[[How|cómo]] many|cuántos]]' para contar."
         }
       ]
     },
@@ -947,7 +947,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena pregunta sobre padre.",
       "correctSentence": "[[What does your father do|¿Qué hace tu padre?]]?",
       "words": ["[[do|hace]]?", "[[father|padre]]", "[[your|tu]]", "[[does|hace]]", "[[What|¿Qué]]"],
-      "explanation": "What + does + your + parent + do?"
+      "explanation": "[[What|qué]] + [[does|hace]] + [[your|tu]] + [[parent|padre/madre]] + [[do|hago/haces/hacen]]?"
     },
     "audioUrl": "audio/a2/unit-2/e48.mp3",
     "topicName": "Grammar"
@@ -967,7 +967,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "_______ [[is|es]] [[your supervisor|tu supervisor]]?",
           "options": ["[[What|¿Qué]]", "[[Who|¿Quién]]", "[[Where|¿Dónde]]"],
           "correctAnswer": 1,
-          "explanation": "'Who' para personas."
+          "explanation": "'[[Who|quién]]' para personas."
         }
       ]
     },
@@ -986,7 +986,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena pregunta sobre trabajo.",
       "correctSentence": "[[Where do you work|¿Dónde trabajas?]]?",
       "words": ["[[work|trabajas]]?", "[[you|tú]]", "[[do|haces]]", "[[Where|¿Dónde]]"],
-      "explanation": "Where + do + you + verb?"
+      "explanation": "[[Where|dónde]] + [[do|hago/haces/hacen]] + [[you|tú]] + verb?"
     },
     "audioUrl": "audio/a2/unit-2/e50.mp3",
     "topicName": "Grammar"
@@ -1006,7 +1006,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "_______ [[did|hiciste]] [[you|tú]] [[start|empezaste]] [[here|aquí]]?",
           "options": ["[[When|¿Cuándo]]", "[[Why|¿Por qué]]", "[[How|¿Cómo]]"],
           "correctAnswer": 0,
-          "explanation": "'When' para fechas."
+          "explanation": "'[[When|cuándo]]' para fechas."
         }
       ]
     },
@@ -1025,7 +1025,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena pregunta sobre posición.",
       "correctSentence": "[[What position are you applying for|¿Qué posición estás solicitando?]]?",
       "words": ["[[for|para]]?", "[[applying|solicitando]]", "[[you|tú]]", "[[are|estás]]", "[[position|posición]]", "[[What|¿Qué]]"],
-      "explanation": "What + are + you + verb + ...?"
+      "explanation": "[[What|qué]] + [[are|sois/está[[is|es/está]]/[[son|hijo]]/están]] + [[you|tú]] + verb + ...?"
     },
     "audioUrl": "audio/a2/unit-2/e52.mp3",
     "topicName": "Vocabulary"
@@ -1045,7 +1045,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "_______ [[she|ella]] [[a photographer|una fotógrafa]]?",
           "options": ["[[Is|¿Es]]", "[[Are|¿Son]]", "[[Am|¿Soy]]"],
           "correctAnswer": 0,
-          "explanation": "Is + she + a + job?"
+          "explanation": "[[Is|es/está]] + [[she|ella]] + [[a|un/una]] + job?"
         }
       ]
     },
@@ -1064,7 +1064,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
       "instructions": "Ordena sobre iniciales.",
       "correctSentence": "[[My initials are J.R|Mis iniciales son J.R]].",
       "words": ["[[J.R|J.R]].", "[[are|son]]", "[[initials|iniciales]]", "[[My|Mis]]"],
-      "explanation": "My initials + are + letras."
+      "explanation": "[[My|mi]] initials + [[are|sois/está[[is|es/está]]/[[son|hijo]]/están]] + letras."
     },
     "audioUrl": "audio/a2/unit-2/e54.mp3",
     "topicName": "Vocabulary"
@@ -1084,7 +1084,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "[[What|¿Qué]] [[is|es]] [[your|tu]] [[experience|experiencia]]?",
           "options": ["[[Is correct|Es correcto]]", "[[Is good question|Es buena pregunta]]", "[[Grammatically correct|Gramaticalmente correcto]]"],
           "correctAnswer": 2,
-          "explanation": "What + is + your + noun?"
+          "explanation": "[[What|qué]] + [[is|es/está]] + [[your|tu]] + noun?"
         }
       ]
     },
@@ -1127,7 +1127,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "[[What is David's profession|¿Cuál es la profesión de David?]]?",
           "options": ["[[He is a teacher|Es profesor]]", "[[He is an engineer|Es ingeniero]]", "[[He is a manager|Es gerente]]"],
           "correctAnswer": 1,
-          "explanation": "El texto dice: 'I am an engineer' (Soy ingeniero)."
+          "explanation": "El texto dice: '[[I|yo]] [[am|soy/estoy]] [[an|un/una]] [[engineer|ingeniero]]' (Soy ingeniero)."
         }
       ]
     },
@@ -1148,7 +1148,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "[[How is Sarah's name spelled|¿Cómo se deletrea el nombre de Sarah?]]?",
           "options": ["[[S-A-R-A-H|S-A-R-A-H]]", "[[S-A-R-E-A|S-A-R-E-A]]", "[[S-E-R-A-H|S-E-R-A-H]]"],
           "correctAnswer": 0,
-          "explanation": "El texto dice: 'S-A-R-A-H' (Se deletrea S-A-R-A-H)."
+          "explanation": "El texto dice: 'S-[[A|un/una]]-R-[[A|un/una]]-H' (Se deletrea S-[[A|un/una]]-R-[[A|un/una]]-H)."
         }
       ]
     },
@@ -1169,7 +1169,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "[[Where is their office|¿Dónde está su oficina?]]?",
           "options": ["[[In Boston|En Boston]]", "[[In New York|En Nueva York]]", "[[In Chicago|En Chicago]]"],
           "correctAnswer": 1,
-          "explanation": "El texto dice: 'Our office is in New York' (Nuestra oficina está en Nueva York)."
+          "explanation": "El texto dice: '[[Our|nuestro]] [[office|oficina]] [[is|es/está]] [[in|en]] [[New|nuevo]] York' (Nuestra oficina está en Nueva York)."
         }
       ]
     },
@@ -1190,7 +1190,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
           "question": "[[Are David and Sarah managers now|¿Son David y Sarah gerentes ahora?]]?",
           "options": ["[[Yes, they are managers|Sí, son gerentes]]", "[[No, they are not managers|No, no son gerentes]]", "[[Maybe, they want to be|Quizás, quieren serlo]]"],
           "correctAnswer": 1,
-          "explanation": "El texto dice: 'We are not managers' (No somos gerentes)."
+          "explanation": "El texto dice: '[[We|nosotros/nosotras]] [[are|sois/está[[is|es/está]]/[[son|hijo]]/están]] [[not|[[no|no]]]] managers' ([[No|no]] somos gerentes)."
         }
       ]
     },

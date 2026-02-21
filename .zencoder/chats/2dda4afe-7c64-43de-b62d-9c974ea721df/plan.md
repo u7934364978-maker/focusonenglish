@@ -222,30 +222,37 @@ Review and fix pedagogically invalid questions in Units 1-3.
 
 ---
 
-### [✅] Step: Complete Translation of Units 1-4
+### [⚠️] Step: Complete Translation of Units 1-4
 
-**Issue**: Titles, instructions, and some exercise phrases lack complete translations in [[english|spanish]] format.
+**Issue**: Complete translations needed in [[english|spanish]] format for:
+1. ✅ **Titles** - DONE (Commit: c55560d1)
+2. ❌ **Questions** - All English words in question stems need translation
+3. ❌ **Options** - All answer options need translation
+4. ❌ **Explanations** - All English phrases in explanations need translation
+5. ❌ **Instructions** - Some still need [[english|spanish]] format
 
-**Solution Implemented**:
-1. ✅ Updated Unit 1 - Added translations to all 60 exercise titles
-   - Pattern: `"[[Subject Pronouns|Pronombres Sujeto]]: [[I|Yo]]"`
-   - Updated 11 title variations
-2. ✅ Updated Unit 2 - Added translations to all 60 exercise titles
-   - Pattern: `"[[Question Words|Palabras de Pregunta]]: [[What|¿Qué?]]"`
-   - Updated 14 title variations
-3. ✅ Updated Unit 3 - Added translations to all 60 exercise titles
-   - Pattern: `"[[Possessive Adjectives|Adjetivos Posesivos]]: [[My|Mi]]"`
-   - Updated 20 title variations
-4. ✅ Updated Unit 4 - Added translations to all 60 exercise titles
-   - Pattern: `"[[Have Got|Tener]]: [[I|Yo]]"` and others
-   - Updated 53 title variations
+**Example Problem** (Unit 4, e7):
+```
+"question": "The young girl with soft, youthful features has got an _______ face."
+// Should be:
+"question": "[[The|La]] [[young|joven]] [[girl|niña]] [[with|con]] [[soft|suave]], [[youthful|juveniles]] [[features|características]] [[has got|tiene]] [[an|un]] _______ [[face|cara]]."
 
-**Translations Applied**:
-- All 240 exercise titles now have complete [[english|spanish]] format
-- Subject Pronouns, Question Words, Possessive Adjectives, Family Relations, Physical Descriptions, and Adjective Order all translated
-- Commit: c55560d1
+"options": ["[[round|redonda]]", "[[long|larga]]", "[[square|cuadrada]]"]
+// Already partially translated
+```
 
-**Status**: ✅ Completed - All exercise titles fully translated
+**Solution Approach** (PENDING):
+1. [ ] Analyze scope: How many words need translation across all 240 exercises?
+2. [ ] Create translation script to handle [[english|spanish]] pattern for:
+   - Question stems
+   - Answer options  
+   - Explanations
+   - Instructions
+3. [ ] Apply translations to Units 1-4
+4. [ ] Verify all English text is wrapped in [[]]
+5. [ ] Commit and push
+
+**Status**: ⚠️ Partial - Titles only. Need complete translation of questions, options, and explanations
 
 ---
 

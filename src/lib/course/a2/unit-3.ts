@@ -19,7 +19,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "_______ [[family|familia]] [[is|es]] [[large|grande]].",
           "options": ["[[His|Su]]", "[[My|Mi]]", "[[Her|Su]]"],
           "correctAnswer": 1,
-          "explanation": "'My' es el adjetivo posesivo para la primera persona singular."
+          "explanation": "'[[My|mi]]' es el adjetivo posesivo para la primera persona singular."
         }
       ]
     },
@@ -35,10 +35,10 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[Your mother is kind|Tu madre es amable]].",
     "content": {
       "title": "[[Possessive Adjectives|Adjetivos Posesivos]]: [[Your|Tu/Su]]",
-      "instructions": "Ordena la oración con 'your'.",
+      "instructions": "Ordena la oración con '[[your|tu]]'.",
       "correctSentence": "[[Your mother is kind|Tu madre es amable]].",
       "words": ["[[kind|amable]].", "[[is|es]]", "[[mother|madre]]", "[[Your|Tu]]"],
-      "explanation": "'Your' es el adjetivo posesivo para la segunda persona singular."
+      "explanation": "'[[Your|tu]]' es el adjetivo posesivo para la segunda persona singular."
     },
     "audioUrl": "audio/a2/unit-3/e2.mp3",
     "topicName": "Grammar"
@@ -52,13 +52,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[His sister is a teacher|Su hermana es maestra]].",
     "content": {
       "title": "[[Possessive Adjectives|Adjetivos Posesivos]]: [[His|Su]]",
-      "instructions": "Completa con 'His' para masculino.",
+      "instructions": "Completa con '[[His|su]]' para masculino.",
       "questions": [
         {
           "question": "_______ [[brother|hermano]] [[is|es]] [[a doctor|un doctor]].",
           "options": ["[[Her|Su]]", "[[His|Su]]", "[[Its|Su]]"],
           "correctAnswer": 1,
-          "explanation": "'His' es el adjetivo posesivo para la tercera persona singular masculina."
+          "explanation": "'[[His|su]]' es el adjetivo posesivo para la tercera persona singular masculina."
         }
       ]
     },
@@ -74,10 +74,10 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[Her father works in London|Su padre trabaja en Londres]].",
     "content": {
       "title": "[[Possessive Adjectives|Adjetivos Posesivos]]: [[Her|Su]]",
-      "instructions": "Ordena la oración con 'her'.",
+      "instructions": "Ordena la oración con '[[her|la]]'.",
       "correctSentence": "[[Her father works in London|Su padre trabaja en Londres]].",
       "words": ["[[London|Londres]].", "[[in|en]]", "[[works|trabaja]]", "[[father|padre]]", "[[Her|Su]]"],
-      "explanation": "'Her' es el adjetivo posesivo para la tercera persona singular femenina."
+      "explanation": "'[[Her|la]]' es el adjetivo posesivo para la tercera persona singular femenina."
     },
     "audioUrl": "audio/a2/unit-3/e4.mp3",
     "topicName": "Grammar"
@@ -91,13 +91,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[The dog has its toys|El perro tiene sus juguetes]].",
     "content": {
       "title": "[[Possessive Adjectives|Adjetivos Posesivos]]: [[Its|Su]]",
-      "instructions": "Identifica 'its' para cosas.",
+      "instructions": "Identifica '[[its|su]]' para cosas.",
       "questions": [
         {
           "question": "The cat likes _______ [[food|comida]].",
           "options": ["[[its|su]]", "[[his|su]]", "[[her|su]]"],
           "correctAnswer": 0,
-          "explanation": "'Its' es el adjetivo posesivo para cosas."
+          "explanation": "'[[Its|su]]' es el adjetivo posesivo para cosas."
         }
       ]
     },
@@ -116,7 +116,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena la oración sobre los padres.",
       "correctSentence": "[[My parents are retired|Mis padres están jubilados]].",
       "words": ["[[retired|jubilados]].", "[[are|están]]", "[[parents|padres]]", "[[My|Mis]]"],
-      "explanation": "Parents = madre + padre."
+      "explanation": "[[Parents|padres]] = madre + padre."
     },
     "audioUrl": "audio/a2/unit-3/e6.mp3",
     "topicName": "Vocabulary"
@@ -130,13 +130,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[Our children go to school|Nuestros hijos van a la escuela]].",
     "content": {
       "title": "[[Possessive Adjectives|Adjetivos Posesivos]]: [[Our|Nuestro/a]]",
-      "instructions": "Identifica 'Our' para nosotros.",
+      "instructions": "Identifica '[[Our|nuestro]]' para nosotros.",
       "questions": [
         {
           "question": "_______ [[grandmother|abuela]] [[lives|vive]] [[with us|con nosotros]].",
           "options": ["[[Their|Su]]", "[[Our|Nuestra]]", "[[His|Su]]"],
           "correctAnswer": 1,
-          "explanation": "'Our' es el adjetivo posesivo para la primera persona plural."
+          "explanation": "'[[Our|nuestro]]' es el adjetivo posesivo para la primera persona plural."
         }
       ]
     },
@@ -152,10 +152,10 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[Their aunts live in Spain|Sus tías viven en España]].",
     "content": {
       "title": "[[Possessive Adjectives|Adjetivos Posesivos]]: [[Their|Su]]",
-      "instructions": "Ordena la oración con 'their'.",
+      "instructions": "Ordena la oración con '[[their|su]]'.",
       "correctSentence": "[[Their aunts live in Spain|Sus tías viven en España]].",
       "words": ["[[Spain|España]].", "[[in|en]]", "[[live|viven]]", "[[aunts|tías]]", "[[Their|Sus]]"],
-      "explanation": "'Their' es el adjetivo posesivo para la tercera persona plural."
+      "explanation": "'[[Their|su]]' es el adjetivo posesivo para la tercera persona plural."
     },
     "audioUrl": "audio/a2/unit-3/e8.mp3",
     "topicName": "Grammar"
@@ -175,7 +175,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "[[My mother's brother is my|El hermano de mi madre es mi]]...",
           "options": ["[[aunt|tía]]", "[[uncle|tío]]", "[[cousin|primo]]"],
           "correctAnswer": 1,
-          "explanation": "'Uncle' es el hermano del padre o la madre."
+          "explanation": "'[[Uncle|tío]]' es el hermano del padre o la madre."
         }
       ]
     },
@@ -191,10 +191,10 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[His aunt is my father's sister|Su tía es la hermana de mi padre]].",
     "content": {
       "title": "[[Family|Familia]]: [[Aunt|Tía]]",
-      "instructions": "Ordena la oración sobre tía.",
+      "instructions": "Ordena la oración sobre tí[[a|un/una]].",
       "correctSentence": "[[His aunt is my father's sister|Su tía es la hermana de mi padre]].",
       "words": ["[[sister|hermana]].", "[[father's|padre's]]", "[[my|mi]]", "[[is|es]]", "[[aunt|tía]]", "[[His|Su]]"],
-      "explanation": "'Aunt' es la hermana del padre o la madre."
+      "explanation": "'[[Aunt|tí[[a|un/una]]]]' es la hermana del padre o la madre."
     },
     "audioUrl": "audio/a2/unit-3/e10.mp3",
     "topicName": "Vocabulary"
@@ -208,13 +208,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[My cousin is my aunt's child|Mi primo es el hijo de mi tía]].",
     "content": {
       "title": "[[Family|Familia]]: [[Cousin|Primo]]",
-      "instructions": "Completa con 'cousin'.",
+      "instructions": "Completa con '[[cousin|primo/prima]]'.",
       "questions": [
         {
           "question": "[[My uncle's child is my|El hijo de mi tío es mi]]...",
           "options": ["[[brother|hermano]]", "[[cousin|primo]]", "[[nephew|sobrino]]"],
           "correctAnswer": 1,
-          "explanation": "'Cousin' es el hijo del tío o la tía."
+          "explanation": "'[[Cousin|primo/prima]]' es el hijo del tío o la tí[[a|un/una]]."
         }
       ]
     },
@@ -253,7 +253,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "_______ [[husband|esposo]] [[is|es]] [[a lawyer|un abogado]].",
           "options": ["[[Its|Su]]", "[[Her|Su]]", "[[Our|Nuestro]]"],
           "correctAnswer": 1,
-          "explanation": "'Her' se usa para referirse a su esposo (de ella)."
+          "explanation": "'[[Her|la]]' se usa para referirse [[a|un/una]] su esposo (de ella)."
         }
       ]
     },
@@ -272,7 +272,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena la oración sobre hermana.",
       "correctSentence": "[[My sister is married|Mi hermana está casada]].",
       "words": ["[[married|casada]].", "[[is|está]]", "[[sister|hermana]]", "[[My|Mi]]"],
-      "explanation": "Sister = hermana (hermano = brother)."
+      "explanation": "[[Sister|hermana]] = hermana (hermano = [[brother|hermano]])."
     },
     "audioUrl": "audio/a2/unit-3/e14.mp3",
     "topicName": "Vocabulary"
@@ -292,7 +292,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "_______ [[children|hijos]] [[are|son]] [[happy|felices]].",
           "options": ["[[My|Mis]]", "[[His|Sus]]", "[[Your|Tus]]"],
           "correctAnswer": 0,
-          "explanation": "'My' = mis (primera persona singular)."
+          "explanation": "'[[My|mi]]' = mis (primera persona singular)."
         }
       ]
     },
@@ -318,7 +318,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "_______ [[family|familia]] [[is|es]] [[large|grande]].",
           "options": ["[[Her|Su]]", "[[My|Mi]]", "[[Our|Nuestra]]"],
           "correctAnswer": 1,
-          "explanation": "'My' para la primera persona singular."
+          "explanation": "'[[My|mi]]' para la primera persona singular."
         }
       ]
     },
@@ -337,7 +337,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena la oración sobre el padre.",
       "correctSentence": "[[My father works as an engineer|Mi padre trabaja como ingeniero]].",
       "words": ["[[engineer|ingeniero]].", "[[an|un]]", "[[as|como]]", "[[works|trabaja]]", "[[father|padre]]", "[[My|Mi]]"],
-      "explanation": "'Father' = padre."
+      "explanation": "'[[Father|padre]]' = padre."
     },
     "audioUrl": "audio/a2/unit-3/e17.mp3",
     "topicName": "Vocabulary"
@@ -357,7 +357,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "_______ [[mother|madre]] [[is|es]] [[a doctor|una doctora]].",
           "options": ["[[Its|Su]]", "[[His|Su]]", "[[Her|Su]]"],
           "correctAnswer": 2,
-          "explanation": "'Her' = su (tercera persona singular femenina)."
+          "explanation": "'[[Her|la]]' = su (tercera persona singular femenina)."
         }
       ]
     },
@@ -376,7 +376,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena la oración sobre hermano.",
       "correctSentence": "[[Their brother is a student|Su hermano es estudiante]].",
       "words": ["[[student|estudiante]].", "[[a|un]]", "[[is|es]]", "[[brother|hermano]]", "[[Their|Su]]"],
-      "explanation": "Brother = hermano."
+      "explanation": "[[Brother|hermano]] = hermano."
     },
     "audioUrl": "audio/a2/unit-3/e19.mp3",
     "topicName": "Vocabulary"
@@ -396,7 +396,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "[[My grandfather and grandmother are my|Mi abuelo y abuela son mis]]...",
           "options": ["[[parents|padres]]", "[[grandparents|abuelos]]", "[[aunts|tías]]"],
           "correctAnswer": 1,
-          "explanation": "'Grandparents' = abuelos (grandfather + grandmother)."
+          "explanation": "'[[Grandparents|abuelos]]' = abuelos ([[grandfather|abuelo]] + [[grandmother|abuela]])."
         }
       ]
     },
@@ -415,7 +415,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena la oración.",
       "correctSentence": "[[My grandfather's stories are interesting|Las historias de mi abuelo son interesantes]].",
       "words": ["[[interesting|interesantes]].", "[[are|son]]", "[[stories|historias]]", "[[grandfather's|abuelo's]]", "[[My|Mi]]"],
-      "explanation": "Grandfather's = del abuelo."
+      "explanation": "[[Grandfather|abuelo]]'s = del abuelo."
     },
     "audioUrl": "audio/a2/unit-3/e21.mp3",
     "topicName": "Grammar"
@@ -435,7 +435,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "_______ [[children|hijos]] [[study|estudian]] [[at home|en casa]].",
           "options": ["[[Their|Sus]]", "[[Our|Nuestros]]", "[[His|Sus]]"],
           "correctAnswer": 0,
-          "explanation": "'Their' = sus (tercera persona plural)."
+          "explanation": "'[[Their|su]]' = sus (tercera persona plural)."
         }
       ]
     },
@@ -454,7 +454,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena la oración sobre sobrino.",
       "correctSentence": "[[His nephew is playing in the garden|Su sobrino está jugando en el jardín]].",
       "words": ["[[garden|jardín]].", "[[the|el]]", "[[in|en]]", "[[playing|jugando]]", "[[is|está]]", "[[nephew|sobrino]]", "[[His|Su]]"],
-      "explanation": "'Nephew' = sobrino (son of brother or sister)."
+      "explanation": "'Nephew' = sobrino ([[son|hijo]] [[of|de]] [[brother|hermano]] [[or|o]] [[sister|hermana]])."
     },
     "audioUrl": "audio/a2/unit-3/e23.mp3",
     "topicName": "Vocabulary"
@@ -468,13 +468,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[My niece is a talented pianist|Mi sobrina es una pianista talentosa]].",
     "content": {
       "title": "[[Family|Familia]]: [[Niece|Sobrina]]",
-      "instructions": "Identifica a la sobrina.",
+      "instructions": "Identifica [[a|un/una]] la sobrina.",
       "questions": [
         {
           "question": "[[Your brother's daughter is your|La hija de tu hermano es tu]]...",
           "options": ["[[sister|hermana]]", "[[niece|sobrina]]", "[[cousin|prima]]"],
           "correctAnswer": 1,
-          "explanation": "'Niece' = sobrina (daughter of brother or sister)."
+          "explanation": "'[[Niece|sobrina]]' = sobrina ([[daughter|hija]] [[of|de]] [[brother|hermano]] [[or|o]] [[sister|hermana]])."
         }
       ]
     },
@@ -490,10 +490,10 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[Our neighbors are very friendly|Nuestros vecinos son muy amables]].",
     "content": {
       "title": "Possessive: Neighbors",
-      "instructions": "Ordena la oración con 'our'.",
+      "instructions": "Ordena la oración con '[[our|nuestro]]'.",
       "correctSentence": "[[Our neighbors are very friendly|Nuestros vecinos son muy amables]].",
       "words": ["[[friendly|amables]].", "[[very|muy]]", "[[are|son]]", "[[neighbors|vecinos]]", "[[Our|Nuestros]]"],
-      "explanation": "'Our' = nuestro/a/os/as."
+      "explanation": "'[[Our|nuestro]]' = nuestro/[[a|un/una]]/os/as."
     },
     "audioUrl": "audio/a2/unit-3/e25.mp3",
     "topicName": "Grammar"
@@ -513,7 +513,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "_______ [[daughter|hija]] [[is|es]] [[very smart|muy inteligente]].",
           "options": ["[[His|Su]]", "[[My|Mi]]", "[[Their|Su]]"],
           "correctAnswer": 1,
-          "explanation": "'My' = mi (primera persona singular)."
+          "explanation": "'[[My|mi]]' = mi (primera persona singular)."
         }
       ]
     },
@@ -532,7 +532,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena la oración sobre hijo.",
       "correctSentence": "[[His son is interested in sports|Su hijo está interesado en deportes]].",
       "words": ["[[sports|deportes]].", "[[in|en]]", "[[interested|interesado]]", "[[is|está]]", "[[son|hijo]]", "[[His|Su]]"],
-      "explanation": "'Son' = hijo (daughter = hija)."
+      "explanation": "'[[Son|hijo]]' = hijo ([[daughter|hija]] = hija)."
     },
     "audioUrl": "audio/a2/unit-3/e27.mp3",
     "topicName": "Vocabulary"
@@ -552,7 +552,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "_______ [[family|familia]] [[lives|vive]] [[in different countries|en diferentes países]].",
           "options": ["[[Her|Su]]", "[[Its|Su]]", "[[Their|Su]]"],
           "correctAnswer": 2,
-          "explanation": "'Their' = su (tercera persona plural)."
+          "explanation": "'[[Their|su]]' = su (tercera persona plural)."
         }
       ]
     },
@@ -571,7 +571,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena la oración sobre suegros.",
       "correctSentence": "[[My in-laws are very kind|Mis suegros son muy amables]].",
       "words": ["[[kind|amables]].", "[[very|muy]]", "[[are|son]]", "[[in-laws|suegros]]", "[[My|Mis]]"],
-      "explanation": "'In-laws' = suegros (parientes políticos)."
+      "explanation": "'[[In|en]]-laws' = suegros (parientes políticos)."
     },
     "audioUrl": "audio/a2/unit-3/e29.mp3",
     "topicName": "Vocabulary"
@@ -591,7 +591,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "_______ [[relatives|parientes]] [[visit|visitan]] [[us often|nos visitan seguido]].",
           "options": ["[[Your|Tus]]", "[[Our|Nuestros]]", "[[My|Mis]]"],
           "correctAnswer": 1,
-          "explanation": "'Our' = nuestro/a/os/as (primera persona plural)."
+          "explanation": "'[[Our|nuestro]]' = nuestro/[[a|un/una]]/os/as (primera persona plural)."
         }
       ]
     },
@@ -617,7 +617,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "¿Cuál es la forma correcta del Saxon Genitive?",
           "options": ["[[John's book|El libro de John]]", "[[Book's John|El libro John's]]", "[[John book's|El John libro's]]"],
           "correctAnswer": 0,
-          "explanation": "Saxon Genitive: nombre + 's + sustantivo = posesión. 'John's book' es correcto."
+          "explanation": "Saxon Genitive: nombre + 's + sustantivo = posesión. 'John's [[book|libro]]' es correcto."
         }
       ]
     },
@@ -636,7 +636,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena con Saxon Genitive.",
       "correctSentence": "[[Emma's mother is a teacher|La madre de Emma es maestra]].",
       "words": ["[[teacher|maestra]].", "[[a|una]]", "[[is|es]]", "[[mother|madre]]", "[[Emma's|de Emma]]"],
-      "explanation": "Emma's mother = La madre de Emma."
+      "explanation": "Emma's [[mother|madre]] = La madre de Emma."
     },
     "audioUrl": "audio/a2/unit-3/e32.mp3",
     "topicName": "Grammar"
@@ -656,7 +656,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "¿Cuál es la forma correcta?",
           "options": ["[[David's father|El padre de David]]", "[[Father's David|El padre David's]]", "[[David father's|El David padre's]]"],
           "correctAnswer": 0,
-          "explanation": "'David's father' es la forma correcta del Saxon Genitive."
+          "explanation": "'David's [[father|padre]]' es la forma correcta del Saxon Genitive."
         }
       ]
     },
@@ -675,7 +675,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena con Saxon Genitive.",
       "correctSentence": "[[Sarah's sister is a doctor|La hermana de Sarah es una doctora]].",
       "words": ["[[doctor|doctora]].", "[[a|una]]", "[[is|es]]", "[[sister|hermana]]", "[[Sarah's|de Sarah]]"],
-      "explanation": "Sarah's sister = La hermana de Sarah."
+      "explanation": "Sarah's [[sister|hermana]] = La hermana de Sarah."
     },
     "audioUrl": "audio/a2/unit-3/e34.mp3",
     "topicName": "Grammar"
@@ -695,7 +695,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "¿Cuál es la forma correcta?",
           "options": ["[[Tom's uncle|El tío de Tom]]", "[[Uncle's Tom|El tío Tom's]]", "[[Tom uncle's|El Tom tío's]]"],
           "correctAnswer": 0,
-          "explanation": "'Tom's uncle' es la forma correcta del Saxon Genitive."
+          "explanation": "'Tom's [[uncle|tío]]' es la forma correcta del Saxon Genitive."
         }
       ]
     },
@@ -714,7 +714,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena con Saxon Genitive.",
       "correctSentence": "[[Lisa's parents are very supportive|Los padres de Lisa son muy supportivos]].",
       "words": ["[[supportive|supportivos]].", "[[very|muy]]", "[[are|son]]", "[[parents|padres]]", "[[Lisa's|de Lisa]]"],
-      "explanation": "Lisa's parents = Los padres de Lisa."
+      "explanation": "Lisa's [[parents|padres]] = Los padres de Lisa."
     },
     "audioUrl": "audio/a2/unit-3/e36.mp3",
     "topicName": "Grammar"
@@ -734,7 +734,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "¿Cuál es la forma correcta?",
           "options": ["[[Peter's room|La habitación de Peter]]", "[[Room's Peter|La habitación Peter's]]", "[[Peter room's|El Peter habitación's]]"],
           "correctAnswer": 0,
-          "explanation": "'Peter's room' es la forma correcta del Saxon Genitive."
+          "explanation": "'Peter's [[room|habitación]]' es la forma correcta del Saxon Genitive."
         }
       ]
     },
@@ -773,7 +773,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "¿Cuál es la forma correcta?",
           "options": ["[[Victoria's cousin|La prima de Victoria]]", "[[Cousin's Victoria|La prima Victoria's]]", "[[Victoria cousin's|La Victoria prima's]]"],
           "correctAnswer": 0,
-          "explanation": "'Victoria's cousin' es la forma correcta del Saxon Genitive."
+          "explanation": "'Victoria's [[cousin|primo/prima]]' es la forma correcta del Saxon Genitive."
         }
       ]
     },
@@ -792,7 +792,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena con Saxon Genitive.",
       "correctSentence": "[[James's grandmother was a teacher|La abuela de James fue maestra]].",
       "words": ["[[teacher|maestra]].", "[[a|una]]", "[[was|fue]]", "[[grandmother|abuela]]", "[[James's|de James]]"],
-      "explanation": "James's grandmother = La abuela de James."
+      "explanation": "James's [[grandmother|abuela]] = La abuela de James."
     },
     "audioUrl": "audio/a2/unit-3/e40.mp3",
     "topicName": "Grammar"
@@ -831,7 +831,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena con Saxon Genitive.",
       "correctSentence": "[[Nicholas's daughter wants to be a singer|La hija de Nicholas quiere ser cantante]].",
       "words": ["[[singer|cantante]].", "[[a|una]]", "[[be|ser]]", "[[to|a]]", "[[wants|quiere]]", "[[daughter|hija]]", "[[Nicholas's|de Nicholas]]"],
-      "explanation": "Nicholas's daughter = La hija de Nicholas."
+      "explanation": "Nicholas's [[daughter|hija]] = La hija de Nicholas."
     },
     "audioUrl": "audio/a2/unit-3/e42.mp3",
     "topicName": "Grammar"
@@ -884,13 +884,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "transcript": "[[William's sons|Los hijos de William]] [[are|son]] [[very athletic|muy atléticos]].",
     "content": {
       "title": "Saxon Genitive Review",
-      "instructions": "Selecciona la forma correcta del Saxon Genitive para 'la tía de Diana'.",
+      "instructions": "Selecciona la forma correcta del Saxon Genitive para 'la tí[[a|un/una]] de Diana'.",
       "questions": [
         {
           "question": "¿Cuál es la forma correcta?",
           "options": ["[[Diana's aunt|La tía de Diana]]", "[[Aunt's Diana|La tía Diana's]]", "[[Diana aunt's|La Diana tía's]]"],
           "correctAnswer": 0,
-          "explanation": "'Diana's aunt' es la forma correcta del Saxon Genitive."
+          "explanation": "'Diana's [[aunt|tí[[a|un/una]]]]' es la forma correcta del Saxon Genitive."
         }
       ]
     },
@@ -916,7 +916,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "[[My husband's sister is my|La hermana de mi esposo es mi]]...",
           "options": ["[[niece|sobrina]]", "[[sister|hermana]]", "[[sister-in-law|cuñada]]"],
           "correctAnswer": 2,
-          "explanation": "'Sister-in-law' = cuñada (pariente política)."
+          "explanation": "'[[Sister|hermana]]-[[in|en]]-law' = cuñada (pariente política)."
         }
       ]
     },
@@ -935,7 +935,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena la oración.",
       "correctSentence": "[[Tom's brother-in-law works as a teacher|El cuñado de Tom trabaja como profesor]].",
       "words": ["[[teacher|profesor]].", "[[a|un]]", "[[as|como]]", "[[works|trabaja]]", "[[brother-in-law|cuñado]]", "[[Tom's|de Tom]]"],
-      "explanation": "'Brother-in-law' = cuñado."
+      "explanation": "'[[Brother|hermano]]-[[in|en]]-law' = cuñado."
     },
     "audioUrl": "audio/a2/unit-3/e47.mp3",
     "topicName": "Vocabulary"
@@ -994,7 +994,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "_______ [[relatives|parientes]] [[come|vienen]] [[from different places|de diferentes lugares]].",
           "options": ["[[Your|Tus]]", "[[His|Sus]]", "[[Our|Nuestros]]"],
           "correctAnswer": 2,
-          "explanation": "'Our' = nuestro/a/os/as."
+          "explanation": "'[[Our|nuestro]]' = nuestro/[[a|un/una]]/os/as."
         }
       ]
     },
@@ -1013,7 +1013,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena la oración.",
       "correctSentence": "[[His wife's parents are visiting next month|Los padres de su esposa visitan el próximo mes]].",
       "words": ["[[month|mes]].", "[[next|próximo]]", "[[visiting|visitan]]", "[[are|son]]", "[[parents|padres]]", "[[wife's|esposa]]", "[[His|Su]]"],
-      "explanation": "His wife's parents = Los padres de su esposa."
+      "explanation": "[[His|su]] [[wife|esposa]]'s [[parents|padres]] = Los padres de su esposa."
     },
     "audioUrl": "audio/a2/unit-3/e51.mp3",
     "topicName": "Grammar"
@@ -1033,7 +1033,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "_______ [[family reunions|reuniones familiares]] [[are|son]] [[very special|muy especiales]].",
           "options": ["[[Their|Sus]]", "[[My|Mis]]", "[[Your|Tus]]"],
           "correctAnswer": 0,
-          "explanation": "'Their' = su (tercera persona plural)."
+          "explanation": "'[[Their|su]]' = su (tercera persona plural)."
         }
       ]
     },
@@ -1052,7 +1052,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena con posesivo.",
       "correctSentence": "[[My aunt's house has a swimming pool|La casa de mi tía tiene una piscina]].",
       "words": ["[[pool|piscina]].", "[[swimming|natación]]", "[[a|una]]", "[[has|tiene]]", "[[house|casa]]", "[[aunt's|tía]]", "[[My|Mi]]"],
-      "explanation": "My aunt's house = La casa de mi tía."
+      "explanation": "[[My|mi]] [[aunt|tí[[a|un/una]]]]'s [[house|casa]] = La casa de mi tí[[a|un/una]]."
     },
     "audioUrl": "audio/a2/unit-3/e53.mp3",
     "topicName": "Grammar"
@@ -1072,7 +1072,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "¿Cuál es la forma correcta?",
           "options": ["[[Susan's mother's job|El trabajo de la madre de Susan]]", "[[Mother's Susan's job|El trabajo del Susan madre's]]", "[[Job's Susan's mother|El trabajo Susan's madre's]]"],
           "correctAnswer": 0,
-          "explanation": "'Susan's mother's job' es la forma correcta del Saxon Genitive doble."
+          "explanation": "'Susan's [[mother|madre]]'s job' es la forma correcta del Saxon Genitive doble."
         }
       ]
     },
@@ -1091,7 +1091,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
       "instructions": "Ordena la oración.",
       "correctSentence": "[[Charles's sister's children are studying medicine|Los hijos de la hermana de Charles estudian medicina]].",
       "words": ["[[medicine|medicina]].", "[[studying|estudian]]", "[[are|son]]", "[[children|hijos]]", "[[sister's|hermana]]", "[[Charles's|Charles]]"],
-      "explanation": "Charles's sister's children = Los hijos de la hermana de Charles."
+      "explanation": "Charles's [[sister|hermana]]'s [[children|hijos]] = Los hijos de la hermana de Charles."
     },
     "audioUrl": "audio/a2/unit-3/e55.mp3",
     "topicName": "Grammar"
@@ -1132,7 +1132,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "[[What does Jennifer's father do|¿Qué hace el padre de Jennifer?]]?",
           "options": ["[[He is a doctor|Es doctor]]", "[[He is an engineer|Es ingeniero]]", "[[He is a teacher|Es profesor]]"],
           "correctAnswer": 1,
-          "explanation": "El texto dice: 'He works as an engineer' (Trabaja como ingeniero)."
+          "explanation": "El texto dice: '[[He|él]] works as [[an|un/una]] [[engineer|ingeniero]]' (Trabaja como ingeniero)."
         }
       ]
     },
@@ -1153,7 +1153,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "[[What is Emma's profession|¿Cuál es la profesión de Emma?]]?",
           "options": ["[[She is a doctor|Es doctora]]", "[[She is a teacher|Es maestra]]", "[[She is a nurse|Es enfermera]]"],
           "correctAnswer": 1,
-          "explanation": "El texto dice: 'She is a teacher' (Es maestra)."
+          "explanation": "El texto dice: '[[She|ella]] [[is|es/está]] [[a|un/una]] [[teacher|profesor]]' (Es maestra)."
         }
       ]
     },
@@ -1174,7 +1174,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "[[What is Sophie's husband's name|¿Cuál es el nombre del esposo de Sophie?]]?",
           "options": ["[[His name is Michael|Su nombre es Michael]]", "[[His name is David|Su nombre es David]]", "[[His name is Tom|Su nombre es Tom]]"],
           "correctAnswer": 2,
-          "explanation": "El texto dice: 'Her husband is Tom' (Su esposo es Tom)."
+          "explanation": "El texto dice: '[[Her|la]] [[husband|esposo]] [[is|es/está]] Tom' (Su esposo es Tom)."
         }
       ]
     },
@@ -1195,7 +1195,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
           "question": "[[Where does Jennifer's family live|¿Dónde vive la familia de Jennifer?]]?",
           "options": ["[[They live in Paris|Viven en París]]", "[[They live in London|Viven en Londres]]", "[[They live in Madrid|Viven en Madrid]]"],
           "correctAnswer": 1,
-          "explanation": "El texto dice: 'Our family lives in London' (Nuestra familia vive en Londres)."
+          "explanation": "El texto dice: '[[Our|nuestro]] [[family|familia]] lives [[in|en]] London' (Nuestra familia vive en Londres)."
         }
       ]
     },
