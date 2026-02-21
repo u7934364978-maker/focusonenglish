@@ -214,7 +214,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           "question": "[[The|el/la]] [[girl|niña]] [[from|de]] Scandinavia [[with|con]] [[fair|clara]] [[skin|piel]] [[has got|tiene]] _______ [[hair|cabello]].",
           "options": ["[[blonde|rubio]]", "[[black|negro]]", "[[red|rojo]]"],
           "correctAnswer": 0,
-          "explanation": "[[People|gente]] [[from|de]] Scandinavia [[typically|típicamente]] [[have|tengo/tienes/tienen]] '[[blonde|rubio/rubia]] [[hair|cabello]]' (cabello rubio). [[Fair|clara]] [[skin|piel]] [[is|es/está]] commonly associated [[with|con]] [[blonde|rubio/rubia]] [[hair|cabello]]."
+          "explanation": "[[People|gente]] [[from|de]] Scandinavia [[typically|típicamente]] [[have|tengo/tienes/tienen]] '[[blonde|rubio/rubia]] [[hair|cabello]]' (cabello rubio). [[Fair|clara]] [[skin|piel]] [[is|es/está]] [[commonly|comúnmente]] associated [[with|con]] [[blonde|rubio/rubia]] [[hair|cabello]]."
         }
       ]
     },
@@ -571,7 +571,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena los adjetivos correctamente.",
       "correctSentence": "[[He has an elegant dark expensive watch|Tiene un reloj caro oscuro elegante]].",
       "words": ["[[watch|reloj]].", "[[expensive|caro]]", "[[dark|oscuro]]", "[[elegant|elegante]]", "[[an|un]]", "[[has|tiene]]", "[[He|Él]]"],
-      "explanation": "Orden: quality (elegant) + [[color|color]] ([[dark|oscuro]]) + quality (expensive)."
+      "explanation": "Orden: quality ([[elegant|elegante]]) + [[color|color]] ([[dark|oscuro]]) + quality ([[expensive|caro]])."
     },
     "audioUrl": "audio/a2/unit-4/e29.mp3",
     "topicName": "Grammar"
@@ -614,10 +614,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa sobre altura y constitución.",
       "questions": [
         {
-          "question": "[[The|el/la]] model who stands out [[in|en]] crowds [[and|y]] needs [[to|a]] duck through doorways [[is|es]] _______ [[and|y]] [[slim|delgada]].",
+          "question": "[[The|el/la]] model who [[stands|se destaca]] [[out|fuera]] [[in|en]] crowds [[and|y]] needs [[to|a]] [[duck|agacharse]] [[through|por]] [[doorways|puertas]] [[is|es]] _______ [[and|y]] [[slim|delgada]].",
           "options": ["[[short|baja]]", "[[tall|alta]]", "[[heavy|pesada]]"],
           "correctAnswer": 1,
-          "explanation": "Standing out [[in|en]] crowds [[and|y]] needing [[to|a]] duck through doorways indicates [[the|el/la/los/las]] [[person|persona]] [[is|es/está]] '[[tall|alto]]' (alta) [[and|y]] paired [[with|con]] '[[slim|esbelta]]' [[suggests|sugiere]] [[an|un/una]] [[athletic|atlético]] build."
+          "explanation": "[[Standing|De pie]] out [[in|en]] crowds [[and|y]] needing [[to|a]] [[duck|agacharse]] [[through|por]] [[doorways|puertas]] indicates [[the|el/la/los/las]] [[person|persona]] [[is|es/está]] '[[tall|alto]]' (alta) [[and|y]] [[paired|combinado]] [[with|con]] '[[slim|esbelta]]' [[suggests|sugiere]] [[an|un/una]] [[athletic|atlético]] [[build|constitución]]."
         }
       ]
     },
@@ -656,7 +656,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           "question": "[[The|el/la]] bearded [[man|hombre]] [[with|con]] Mediterranean heritage [[has got|tiene]] _______ [[eyes|ojos]] [[and|y]] [[a beard|una barba]].",
           "options": ["[[blue|azules]]", "[[green|verdes]]", "[[brown|marrones]]"],
           "correctAnswer": 2,
-          "explanation": "Mediterranean heritage [[typically|típicamente]] [[features|características]] '[[brown|marrón]] [[eyes|ojos]]' (ojos marrones), [[which|cuál]] commonly pair [[with|con]] [[dark|oscuro]] beards."
+          "explanation": "Mediterranean heritage [[typically|típicamente]] [[features|características]] '[[brown|marrón]] [[eyes|ojos]]' (ojos marrones), [[which|cuál]] [[commonly|comúnmente]] [[pair|se emparejan]] [[with|con]] [[dark|oscuro]] beards."
         }
       ]
     },
@@ -692,10 +692,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la descripción de ropa.",
       "questions": [
         {
-          "question": "She [[is wearing|lleva]] [[a|un]] _______ [[dress|vestido]] [[to|a]] [[the|el/la]] formal evening gala.",
+          "question": "She [[is wearing|lleva]] [[a|un]] _______ [[dress|vestido]] [[to|a]] [[the|el/la]] [[formal|formal]] [[evening|noche]] [[gala|gala]].",
           "options": ["[[red|rojo]]", "[[green|verde]]", "[[yellow|amarillo]]"],
           "correctAnswer": 0,
-          "explanation": "[[At|en]] [[a|un/una]] formal [[evening|tarde/noche]] gala, [[a|un/una]] '[[red|rojo]] [[dress|vestido]]' (vestido rojo) [[is|es/está]] [[a|un/una]] classic, elegant choice that stands out."
+          "explanation": "[[At|en]] [[a|un/una]] [[formal|formal]] [[evening|tarde/noche]] [[gala|gala]], [[a|un/una]] '[[red|rojo]] [[dress|vestido]]' (vestido rojo) [[is|es/está]] [[a|un/una]] [[classic|clásica]], [[elegant|elegante]] [[choice|opción]] [[that|que]] [[stands|se destaca]] [[out|fuera]]."
         }
       ]
     },
@@ -770,10 +770,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa sobre la figura.",
       "questions": [
         {
-          "question": "[[The|el/la]] ballet dancer [[with|con]] [[a|un]] graceful posture [[has|tiene]] [[a|un]] _______ [[waist|cintura]].",
+          "question": "[[The|el/la]] ballet dancer [[with|con]] [[a|un]] [[graceful|grácil]] [[posture|postura]] [[has|tiene]] [[a|un]] _______ [[waist|cintura]].",
           "options": ["[[slim|delgada]]", "[[wide|ancha]]", "[[thick|gruesa]]"],
           "correctAnswer": 0,
-          "explanation": "Ballet dancers characteristically [[have|tengo/tienes/tienen]] [[a|un/una]] '[[slim|esbelta]] [[waist|cintura]]' (cintura delgada) due [[to|a]] [[their|su]] training [[and|y]] physique."
+          "explanation": "Ballet dancers [[characteristically|característicamente]] [[have|tengo/tienes/tienen]] [[a|un/una]] '[[slim|esbelta]] [[waist|cintura]]' (cintura delgada) due [[to|a]] [[their|su]] [[training|entrenamiento]] [[and|y]] [[physique|físico]]."
         }
       ]
     },
@@ -851,7 +851,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           "question": "[[The|el/la]] [[young|joven]] [[fair|clara]]-skinned [[girl|niña]] [[with|con]] [[red|rojo]] [[hair|cabello]] [[has|tiene]] _______ [[on|en]] [[her|su]] [[cheeks|mejillas]].",
           "options": ["[[freckles|pecas]]", "[[wrinkles|arrugas]]", "[[spots|manchas]]"],
           "correctAnswer": 0,
-          "explanation": "[[Fair|clara]]-skinned [[people|gente]] [[with|con]] [[red|rojo]] [[hair|cabello]] commonly [[have|tengo/tienes/tienen]] 'freckles' (pecas) [[on|en]] [[their|su]] [[cheeks|mejillas]] - [[a|un/una]] natural [[feature|característica]] caused by sun exposure."
+          "explanation": "[[Fair|clara]]-skinned [[people|gente]] [[with|con]] [[red|rojo]] [[hair|cabello]] [[commonly|comúnmente]] [[have|tengo/tienes/tienen]] '[[freckles|pecas]]' (pecas) [[on|en]] [[their|su]] [[cheeks|mejillas]] - [[a|un/una]] [[natural|natural]] [[feature|característica]] [[caused|causada]] by [[sun|sol]] [[exposure|exposición]]."
         }
       ]
     },
@@ -870,7 +870,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Ordena la descripción de características por edad.",
       "correctSentence": "[[He has wrinkles and white hair|Tiene arrugas y cabello blanco]].",
       "words": ["[[hair|cabello]].", "[[white|blanco]]", "[[and|y]]", "[[wrinkles|arrugas]]", "[[has|tiene]]", "[[He|Él]]"],
-      "explanation": "'[[He|él]] [[has|tiene/tienen]] wrinkles [[and|y]] [[white|blanco]] [[hair|cabello]]' [[describe|describe]] características de edad avanzada."
+      "explanation": "'[[He|él]] [[has|tiene/tienen]] [[wrinkles|arrugas]] [[and|y]] [[white|blanco]] [[hair|cabello]]' [[describe|describe]] características de edad avanzada."
     },
     "audioUrl": "audio/a2/unit-4/e44.mp3",
     "topicName": "Vocabulary"
@@ -991,10 +991,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa cómo se viste.",
       "questions": [
         {
-          "question": "[[The|el/la/los/las]] businessman arriving [[at|en]] [[a|un/una]] formal board meeting [[in|en]] [[a|un/una]] tailored suit [[and|y]] polished [[shoes|zapatos]] [[is|es/está]] dressed [[very|muy]] _______.",
+          "question": "[[The|el/la/los/las]] businessman arriving [[at|en]] [[a|un/una]] [[formal|formal]] board meeting [[in|en]] [[a|un/una]] tailored suit [[and|y]] polished [[shoes|zapatos]] [[is|es/está]] dressed [[very|muy]] _______.",
           "options": ["[[casually|informalmente]]", "[[smartly|elegantemente]]", "[[messily|desordenadamente]]"],
           "correctAnswer": 1,
-          "explanation": "[[A|un/una]] tailored suit [[and|y]] polished [[shoes|zapatos]] [[at|en]] [[a|un/una]] formal board meeting indicates someone [[is|es/está]] dressed 'smartly' (elegantemente) - [[the|el/la/los/las]] professional choice."
+          "explanation": "[[A|un/una]] tailored suit [[and|y]] polished [[shoes|zapatos]] [[at|en]] [[a|un/una]] [[formal|formal]] board meeting indicates someone [[is|es/está]] dressed '[[smartly|elegantemente]]' (elegantemente) - [[the|el/la/los/las]] professional [[choice|opción]]."
         }
       ]
     },
@@ -1033,7 +1033,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           "question": "[[The|el/la]] weightlifter who trains 6 hours daily [[has|tiene]] [[a|un]] _______ [[build|constitución]].",
           "options": ["[[strong|fuerte]]", "[[muscular|musculosa]]", "[[athletic|atlética]]"],
           "correctAnswer": 1,
-          "explanation": "Someone [[who|quién]] trains intensively as [[a|un/una]] weightlifter develops [[a|un/una]] 'muscular build' (constitución musculosa) - visible muscle development [[from|de]] strength training."
+          "explanation": "Someone [[who|quién]] [[trains|entrena]] intensively as [[a|un/una]] weightlifter develops [[a|un/una]] '[[muscular|muscular]] [[build|constitución]]' (constitución musculosa) - [[visible|visible]] [[muscle|músculo]] [[development|desarrollo]] [[from|de]] [[strength|fuerza]] [[training|entrenamiento]]."
         }
       ]
     },

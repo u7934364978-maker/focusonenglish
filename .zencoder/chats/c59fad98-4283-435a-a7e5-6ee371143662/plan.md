@@ -29,6 +29,11 @@
 ### [x] Verify all fixes in browser
 - Page loads successfully with all corrections applied
 
+### [x] Git commit
+- **Commit Hash**: `e6d7ae1f`
+- **Message**: "Fix A2 Unit 4: Remove nested brackets and add Spanish translations to titles"
+- **Files Modified**: 8 files changed, 880 insertions(+), 17 deletions(-)
+
 ---
 
 ## Workflow Steps
