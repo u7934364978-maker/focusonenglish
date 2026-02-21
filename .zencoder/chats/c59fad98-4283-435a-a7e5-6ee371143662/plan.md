@@ -322,6 +322,26 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c5
 
 ---
 
+## NEW TASK: Refocus Exercise 33 for Consistency
+
+### [x] Simplify and refocus Exercise 33 question
+**Exercise**: a2-u4-e33 (Unit 4, Lesson 3, Exercise 3)
+**Issue**: Exercise lacked consistency - question mentioned both "eyes" and "a beard" but only filled in eyes, creating structural confusion
+**Solution**:
+- ❌ Before: "The bearded man with Mediterranean heritage has got _______ eyes and a beard."
+- ✅ After: "The young man with Mediterranean heritage has got _______ eyes."
+- Removed redundant "bearded" descriptor and "and a beard" clause
+- Added missing translations: "[[young|joven]]", "[[genetic|genético]]", "[[background|herencia]]"
+- Simplified explanation to focus on the learning objective
+
+### [x] Git commit & push
+- **Commit Hash**: `15a8c5fd`
+- **Message**: "Fix A2 Unit 4 Exercise 33 (Lesson 3, Exercise 3): Refocus exercise for consistency"
+- **Files Modified**: 1 file changed, 2 insertions(+), 2 deletions(-)
+- **Status**: ✅ Pushed to main branch
+
+---
+
 ## ✅ ALL TASKS COMPLETED
 
 ### Summary
@@ -336,5 +356,6 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c5
 - Removed all student-cueing hints from Exercises 22, 24
 - Reduced three-adjective exercises to 2 options (Exercises 26, 28, 30)
 - Added missing translations in Lesson 3 exercises 1, 3, 9, 13, 15
-- **Total Commits**: 13 commits completed
-- **Final Status**: All words in A2 Unit 4 (all lessons 1-3) and Unit 2 Exercise 55 properly translated, all duplicate/dual-correct options resolved, ALL student-cueing hints removed, and adjective order exercises simplified to optimal difficulty
+- Refocused Exercise 33 for consistency and pedagogical clarity
+- **Total Commits**: 14 commits completed
+- **Final Status**: All words in A2 Unit 4 (all lessons 1-3) and Unit 2 Exercise 55 properly translated, all duplicate/dual-correct options resolved, ALL student-cueing hints removed, exercise consistency improved, and adjective order exercises simplified to optimal difficulty
