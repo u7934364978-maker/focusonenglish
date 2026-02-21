@@ -614,7 +614,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa sobre altura y constitución.",
       "questions": [
         {
-          "question": "[[The|el/la]] model who [[stands|se destaca]] [[out|fuera]] [[in|en]] crowds [[and|y]] needs [[to|a]] [[duck|agacharse]] [[through|por]] [[doorways|puertas]] [[is|es]] _______ [[and|y]] [[slim|delgada]].",
+          "question": "[[The|el/la]] [[model|modelo]] [[who|quién]] [[stands|se destaca]] [[out|fuera]] [[in|en]] [[crowds|multitudes]] [[and|y]] [[needs|necesita]] [[to|a]] [[duck|agacharse]] [[through|por]] [[doorways|puertas]] [[is|es]] _______ [[and|y]] [[slim|delgada]].",
           "options": ["[[short|baja]]", "[[tall|alta]]", "[[heavy|pesada]]"],
           "correctAnswer": 1,
           "explanation": "[[Standing|De pie]] out [[in|en]] crowds [[and|y]] needing [[to|a]] [[duck|agacharse]] [[through|por]] [[doorways|puertas]] indicates [[the|el/la/los/las]] [[person|persona]] [[is|es/está]] '[[tall|alto]]' (alta) [[and|y]] [[paired|combinado]] [[with|con]] '[[slim|esbelta]]' [[suggests|sugiere]] [[an|un/una]] [[athletic|atlético]] [[build|constitución]]."
@@ -653,7 +653,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa sobre características faciales.",
       "questions": [
         {
-          "question": "[[The|el/la]] bearded [[man|hombre]] [[with|con]] Mediterranean heritage [[has got|tiene]] _______ [[eyes|ojos]] [[and|y]] [[a beard|una barba]].",
+          "question": "[[The|el/la]] bearded [[man|hombre]] [[with|con]] [[Mediterranean|Mediterráneo]] heritage [[has got|tiene]] _______ [[eyes|ojos]] [[and|y]] [[a beard|una barba]].",
           "options": ["[[blue|azules]]", "[[green|verdes]]", "[[brown|marrones]]"],
           "correctAnswer": 2,
           "explanation": "Mediterranean heritage [[typically|típicamente]] [[features|características]] '[[brown|marrón]] [[eyes|ojos]]' (ojos marrones), [[which|cuál]] [[commonly|comúnmente]] [[pair|se emparejan]] [[with|con]] [[dark|oscuro]] beards."
@@ -770,7 +770,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa sobre la figura.",
       "questions": [
         {
-          "question": "[[The|el/la]] ballet dancer [[with|con]] [[a|un]] [[graceful|grácil]] [[posture|postura]] [[has|tiene]] [[a|un]] _______ [[waist|cintura]].",
+          "question": "[[The|el/la]] [[ballet|ballet]] [[dancer|bailarín]] [[with|con]] [[a|un]] [[graceful|grácil]] [[posture|postura]] [[has|tiene]] [[a|un]] _______ [[waist|cintura]].",
           "options": ["[[slim|delgada]]", "[[wide|ancha]]", "[[thick|gruesa]]"],
           "correctAnswer": 0,
           "explanation": "Ballet dancers [[characteristically|característicamente]] [[have|tengo/tienes/tienen]] [[a|un/una]] '[[slim|esbelta]] [[waist|cintura]]' (cintura delgada) due [[to|a]] [[their|su]] [[training|entrenamiento]] [[and|y]] [[physique|físico]]."
@@ -848,7 +848,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la descripción de características de la piel.",
       "questions": [
         {
-          "question": "[[The|el/la]] [[young|joven]] [[fair|clara]]-skinned [[girl|niña]] [[with|con]] [[red|rojo]] [[hair|cabello]] [[has|tiene]] _______ [[on|en]] [[her|su]] [[cheeks|mejillas]].",
+          "question": "[[The|el/la]] [[young|joven]] [[fair|clara]]-[[skinned|piel]] [[girl|niña]] [[with|con]] [[red|rojo]] [[hair|cabello]] [[has|tiene]] _______ [[on|en]] [[her|su]] [[cheeks|mejillas]].",
           "options": ["[[freckles|pecas]]", "[[wrinkles|arrugas]]", "[[spots|manchas]]"],
           "correctAnswer": 0,
           "explanation": "[[Fair|clara]]-skinned [[people|gente]] [[with|con]] [[red|rojo]] [[hair|cabello]] [[commonly|comúnmente]] [[have|tengo/tienes/tienen]] '[[freckles|pecas]]' (pecas) [[on|en]] [[their|su]] [[cheeks|mejillas]] - [[a|un/una]] [[natural|natural]] [[feature|característica]] [[caused|causada]] [[by|por]] [[sun|sol]] [[exposure|exposición]]."
@@ -887,7 +887,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa cómo se ve la persona.",
       "questions": [
         {
-          "question": "[[She|Ella]] [[is|es]] [[short|baja]] [[with|con]] distinctive, striking _______ [[hair|cabello]].",
+          "question": "[[She|Ella]] [[is|es]] [[short|baja]] [[with|con]] [[distinctive|distintivo]], [[striking|llamativo]] _______ [[hair|cabello]].",
           "options": ["[[long black|negro largo]]", "[[long red|rojo largo]]", "[[short brown|marrón corto]]"],
           "correctAnswer": 1,
           "explanation": "'[[Long|largo]] [[red|rojo]] [[hair|cabello]]' (cabello rojo largo) [[is|es/está]] distinctive [[and|y]] striking. [[Red|rojo]] [[hair|cabello]] [[is|es/está]] [[the|el/la/los/las]] rarest [[and|y]] most distinctive [[hair|cabello]] [[color|color]]."
