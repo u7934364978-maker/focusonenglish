@@ -133,29 +133,34 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Relaciona cada palabra con su definición.",
       "pairs": [
         {
+          "id": "pair-0",
           "word": "[[round|redonda]]",
-          "definition": "[[circular in shape|circular en forma]]",
-          "translation": "redonda"
+          "correctMatch": "[[circular in shape|circular en forma]]",
+          "distractors": ["[[extended in length|extendida en longitud]]", "[[having four equal angles|teniendo cuatro ángulos iguales]]", "[[not wide|no ancha]]", "[[wide and spacious|ancha y espaciosa]]"]
         },
         {
+          "id": "pair-1",
           "word": "[[long|larga]]",
-          "definition": "[[extended in length|extendida en longitud]]",
-          "translation": "larga"
+          "correctMatch": "[[extended in length|extendida en longitud]]",
+          "distractors": ["[[circular in shape|circular en forma]]", "[[having four equal angles|teniendo cuatro ángulos iguales]]", "[[not wide|no ancha]]", "[[wide and spacious|ancha y espaciosa]]"]
         },
         {
+          "id": "pair-2",
           "word": "[[square|cuadrada]]",
-          "definition": "[[having four equal angles|teniendo cuatro ángulos iguales]]",
-          "translation": "cuadrada"
+          "correctMatch": "[[having four equal angles|teniendo cuatro ángulos iguales]]",
+          "distractors": ["[[circular in shape|circular en forma]]", "[[extended in length|extendida en longitud]]", "[[not wide|no ancha]]", "[[wide and spacious|ancha y espaciosa]]"]
         },
         {
+          "id": "pair-3",
           "word": "[[narrow|estrecha]]",
-          "definition": "[[not wide|no ancha]]",
-          "translation": "estrecha"
+          "correctMatch": "[[not wide|no ancha]]",
+          "distractors": ["[[circular in shape|circular en forma]]", "[[extended in length|extendida en longitud]]", "[[having four equal angles|teniendo cuatro ángulos iguales]]", "[[wide and spacious|ancha y espaciosa]]"]
         },
         {
+          "id": "pair-4",
           "word": "[[broad|ancha]]",
-          "definition": "[[wide and spacious|ancha y espaciosa]]",
-          "translation": "ancha"
+          "correctMatch": "[[wide and spacious|ancha y espaciosa]]",
+          "distractors": ["[[circular in shape|circular en forma]]", "[[extended in length|extendida en longitud]]", "[[having four equal angles|teniendo cuatro ángulos iguales]]", "[[not wide|no ancha]]"]
         }
       ]
     },
@@ -191,29 +196,34 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Relaciona cada palabra con su sinónimo.",
       "pairs": [
         {
+          "id": "pair-0",
           "word": "[[big|grandes]]",
-          "definition": "[[large in size|grande en tamaño]]",
-          "translation": "grandes"
+          "correctMatch": "[[large in size|grande en tamaño]]",
+          "distractors": ["[[little in size|poco en tamaño]]", "[[noticeable and standing out|notorio y destacado]]", "[[fine and fragile|fino y frágil]]", "[[having a sharp tip|teniendo una punta afilada]]"]
         },
         {
+          "id": "pair-1",
           "word": "[[small|pequeñas]]",
-          "definition": "[[little in size|poco en tamaño]]",
-          "translation": "pequeñas"
+          "correctMatch": "[[little in size|poco en tamaño]]",
+          "distractors": ["[[large in size|grande en tamaño]]", "[[noticeable and standing out|notorio y destacado]]", "[[fine and fragile|fino y frágil]]", "[[having a sharp tip|teniendo una punta afilada]]"]
         },
         {
+          "id": "pair-2",
           "word": "[[prominent|prominentes]]",
-          "definition": "[[noticeable and standing out|notorio y destacado]]",
-          "translation": "prominentes"
+          "correctMatch": "[[noticeable and standing out|notorio y destacado]]",
+          "distractors": ["[[large in size|grande en tamaño]]", "[[little in size|poco en tamaño]]", "[[fine and fragile|fino y frágil]]", "[[having a sharp tip|teniendo una punta afilada]]"]
         },
         {
+          "id": "pair-3",
           "word": "[[delicate|delicadas]]",
-          "definition": "[[fine and fragile|fino y frágil]]",
-          "translation": "delicadas"
+          "correctMatch": "[[fine and fragile|fino y frágil]]",
+          "distractors": ["[[large in size|grande en tamaño]]", "[[little in size|poco en tamaño]]", "[[noticeable and standing out|notorio y destacado]]", "[[having a sharp tip|teniendo una punta afilada]]"]
         },
         {
+          "id": "pair-4",
           "word": "[[pointed|puntiagudas]]",
-          "definition": "[[having a sharp tip|teniendo una punta afilada]]",
-          "translation": "puntiagudas"
+          "correctMatch": "[[having a sharp tip|teniendo una punta afilada]]",
+          "distractors": ["[[large in size|grande en tamaño]]", "[[little in size|poco en tamaño]]", "[[noticeable and standing out|notorio y destacado]]", "[[fine and fragile|fino y frágil]]"]
         }
       ]
     },
@@ -249,29 +259,34 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Relaciona cada color de cabello con su descripción.",
       "pairs": [
         {
+          "id": "pair-0",
           "word": "[[blonde|rubio]]",
-          "definition": "[[light yellow color|color amarillo claro]]",
-          "translation": "rubio"
+          "correctMatch": "[[light yellow color|color amarillo claro]]",
+          "distractors": ["[[darkest color|color más oscuro]]", "[[color like fire|color como fuego]]", "[[dark earth color|color marrón oscuro]]", "[[color between black and white|color entre negro y blanco]]"]
         },
         {
+          "id": "pair-1",
           "word": "[[black|negro]]",
-          "definition": "[[darkest color|color más oscuro]]",
-          "translation": "negro"
+          "correctMatch": "[[darkest color|color más oscuro]]",
+          "distractors": ["[[light yellow color|color amarillo claro]]", "[[color like fire|color como fuego]]", "[[dark earth color|color marrón oscuro]]", "[[color between black and white|color entre negro y blanco]]"]
         },
         {
+          "id": "pair-2",
           "word": "[[red|rojo]]",
-          "definition": "[[color like fire|color como fuego]]",
-          "translation": "rojo"
+          "correctMatch": "[[color like fire|color como fuego]]",
+          "distractors": ["[[light yellow color|color amarillo claro]]", "[[darkest color|color más oscuro]]", "[[dark earth color|color marrón oscuro]]", "[[color between black and white|color entre negro y blanco]]"]
         },
         {
+          "id": "pair-3",
           "word": "[[brown|marrón]]",
-          "definition": "[[dark earth color|color marrón oscuro]]",
-          "translation": "marrón"
+          "correctMatch": "[[dark earth color|color marrón oscuro]]",
+          "distractors": ["[[light yellow color|color amarillo claro]]", "[[darkest color|color más oscuro]]", "[[color like fire|color como fuego]]", "[[color between black and white|color entre negro y blanco]]"]
         },
         {
+          "id": "pair-4",
           "word": "[[gray|gris]]",
-          "definition": "[[color between black and white|color entre negro y blanco]]",
-          "translation": "gris"
+          "correctMatch": "[[color between black and white|color entre negro y blanco]]",
+          "distractors": ["[[light yellow color|color amarillo claro]]", "[[darkest color|color más oscuro]]", "[[color like fire|color como fuego]]", "[[dark earth color|color marrón oscuro]]"]
         }
       ]
     },
@@ -307,29 +322,34 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Relaciona cada palabra de altura con su descripción.",
       "pairs": [
         {
+          "id": "pair-0",
           "word": "[[tall|alto]]",
-          "definition": "[[of great height|de gran altura]]",
-          "translation": "alto"
+          "correctMatch": "[[of great height|de gran altura]]",
+          "distractors": ["[[of little height|de poca altura]]", "[[of middle height|de altura media]]", "[[extremely tall|extremadamente alto]]", "[[extremely short|extremadamente bajo]]"]
         },
         {
+          "id": "pair-1",
           "word": "[[short|bajo]]",
-          "definition": "[[of little height|de poca altura]]",
-          "translation": "bajo"
+          "correctMatch": "[[of little height|de poca altura]]",
+          "distractors": ["[[of great height|de gran altura]]", "[[of middle height|de altura media]]", "[[extremely tall|extremadamente alto]]", "[[extremely short|extremadamente bajo]]"]
         },
         {
+          "id": "pair-2",
           "word": "[[average|promedio]]",
-          "definition": "[[of middle height|de altura media]]",
-          "translation": "promedio"
+          "correctMatch": "[[of middle height|de altura media]]",
+          "distractors": ["[[of great height|de gran altura]]", "[[of little height|de poca altura]]", "[[extremely tall|extremadamente alto]]", "[[extremely short|extremadamente bajo]]"]
         },
         {
+          "id": "pair-3",
           "word": "[[giant|gigante]]",
-          "definition": "[[extremely tall|extremadamente alto]]",
-          "translation": "gigante"
+          "correctMatch": "[[extremely tall|extremadamente alto]]",
+          "distractors": ["[[of great height|de gran altura]]", "[[of little height|de poca altura]]", "[[of middle height|de altura media]]", "[[extremely short|extremadamente bajo]]"]
         },
         {
+          "id": "pair-4",
           "word": "[[dwarf|enano]]",
-          "definition": "[[extremely short|extremadamente bajo]]",
-          "translation": "enano"
+          "correctMatch": "[[extremely short|extremadamente bajo]]",
+          "distractors": ["[[of great height|de gran altura]]", "[[of little height|de poca altura]]", "[[of middle height|de altura media]]", "[[extremely tall|extremadamente alto]]"]
         }
       ]
     },
@@ -690,29 +710,34 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Relaciona cada palabra de constitución con su sinónimo.",
       "pairs": [
         {
+          "id": "pair-0",
           "word": "[[slim|esbelta]]",
-          "definition": "[[thin and graceful|delgada y elegante]]",
-          "translation": "esbelta"
+          "correctMatch": "[[thin and graceful|delgada y elegante]]",
+          "distractors": ["[[overweight|con sobrepeso]]", "[[strong and muscular|fuerte y musculosa]]", "[[short and strong|baja y fuerte]]", "[[thin without excess fat|delgada sin grasa excesiva]]"]
         },
         {
+          "id": "pair-1",
           "word": "[[heavy|pesada]]",
-          "definition": "[[overweight|con sobrepeso]]",
-          "translation": "pesada"
+          "correctMatch": "[[overweight|con sobrepeso]]",
+          "distractors": ["[[thin and graceful|delgada y elegante]]", "[[strong and muscular|fuerte y musculosa]]", "[[short and strong|baja y fuerte]]", "[[thin without excess fat|delgada sin grasa excesiva]]"]
         },
         {
-          "word": "[[athletic|atlética]]",
-          "definition": "[[strong and muscular|fuerte y musculosa]]",
-          "translation": "atlética"
+          "id": "pair-2",
+          "word": "[[athletic|atl\u00e9tica]]",
+          "correctMatch": "[[strong and muscular|fuerte y musculosa]]",
+          "distractors": ["[[thin and graceful|delgada y elegante]]", "[[overweight|con sobrepeso]]", "[[short and strong|baja y fuerte]]", "[[thin without excess fat|delgada sin grasa excesiva]]"]
         },
         {
+          "id": "pair-3",
           "word": "[[stocky|fornida]]",
-          "definition": "[[short and strong|baja y fuerte]]",
-          "translation": "fornida"
+          "correctMatch": "[[short and strong|baja y fuerte]]",
+          "distractors": ["[[thin and graceful|delgada y elegante]]", "[[overweight|con sobrepeso]]", "[[strong and muscular|fuerte y musculosa]]", "[[thin without excess fat|delgada sin grasa excesiva]]"]
         },
         {
+          "id": "pair-4",
           "word": "[[lean|esbelta]]",
-          "definition": "[[thin without excess fat|delgada sin grasa excesiva]]",
-          "translation": "esbelta"
+          "correctMatch": "[[thin without excess fat|delgada sin grasa excesiva]]",
+          "distractors": ["[[thin and graceful|delgada y elegante]]", "[[overweight|con sobrepeso]]", "[[strong and muscular|fuerte y musculosa]]", "[[short and strong|baja y fuerte]]"]
         }
       ]
     },
@@ -748,29 +773,34 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Relaciona cada característica facial con su descripción.",
       "pairs": [
         {
+          "id": "pair-0",
           "word": "[[beard|barba]]",
-          "definition": "[[hair on a man's chin|cabello en la barbilla del hombre]]",
-          "translation": "barba"
+          "correctMatch": "[[hair on a man's chin|cabello en la barbilla del hombre]]",
+          "distractors": ["[[hair on upper lip|cabello en el labio superior]]", "[[small brown spots on skin|peque\u00f1as manchas marrones en la piel]]", "[[lines on the skin|l\u00edneas en la piel]]", "[[small indentations in cheeks|peque\u00f1as indentaciones en las mejillas]]"]
         },
         {
+          "id": "pair-1",
           "word": "[[moustache|bigote]]",
-          "definition": "[[hair on upper lip|cabello en el labio superior]]",
-          "translation": "bigote"
+          "correctMatch": "[[hair on upper lip|cabello en el labio superior]]",
+          "distractors": ["[[hair on a man's chin|cabello en la barbilla del hombre]]", "[[small brown spots on skin|peque\u00f1as manchas marrones en la piel]]", "[[lines on the skin|l\u00edneas en la piel]]", "[[small indentations in cheeks|peque\u00f1as indentaciones en las mejillas]]"]
         },
         {
+          "id": "pair-2",
           "word": "[[freckles|pecas]]",
-          "definition": "[[small brown spots on skin|pequeñas manchas marrones en la piel]]",
-          "translation": "pecas"
+          "correctMatch": "[[small brown spots on skin|peque\u00f1as manchas marrones en la piel]]",
+          "distractors": ["[[hair on a man's chin|cabello en la barbilla del hombre]]", "[[hair on upper lip|cabello en el labio superior]]", "[[lines on the skin|l\u00edneas en la piel]]", "[[small indentations in cheeks|peque\u00f1as indentaciones en las mejillas]]"]
         },
         {
+          "id": "pair-3",
           "word": "[[wrinkles|arrugas]]",
-          "definition": "[[lines on the skin|líneas en la piel]]",
-          "translation": "arrugas"
+          "correctMatch": "[[lines on the skin|l\u00edneas en la piel]]",
+          "distractors": ["[[hair on a man's chin|cabello en la barbilla del hombre]]", "[[hair on upper lip|cabello en el labio superior]]", "[[small brown spots on skin|peque\u00f1as manchas marrones en la piel]]", "[[small indentations in cheeks|peque\u00f1as indentaciones en las mejillas]]"]
         },
         {
+          "id": "pair-4",
           "word": "[[dimples|hoyuelos]]",
-          "definition": "[[small indentations in cheeks|pequeñas indentaciones en las mejillas]]",
-          "translation": "hoyuelos"
+          "correctMatch": "[[small indentations in cheeks|peque\u00f1as indentaciones en las mejillas]]",
+          "distractors": ["[[hair on a man's chin|cabello en la barbilla del hombre]]", "[[hair on upper lip|cabello en el labio superior]]", "[[small brown spots on skin|peque\u00f1as manchas marrones en la piel]]", "[[lines on the skin|l\u00edneas en la piel]]"]
         }
       ]
     },
@@ -806,29 +836,34 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Relaciona cada palabra de ropa con su descripción.",
       "pairs": [
         {
+          "id": "pair-0",
           "word": "[[dress|vestido]]",
-          "definition": "[[a garment worn by women|prenda usada por mujeres]]",
-          "translation": "vestido"
+          "correctMatch": "[[a garment worn by women|prenda usada por mujeres]]",
+          "distractors": ["[[a short coat|abrigo corto]]", "[[garment covering legs|prenda que cubre las piernas]]", "[[upper garment with buttons|prenda superior con botones]]", "[[garment worn on feet|prenda usada en los pies]]"]
         },
         {
+          "id": "pair-1",
           "word": "[[jacket|chaqueta]]",
-          "definition": "[[a short coat|abrigo corto]]",
-          "translation": "chaqueta"
+          "correctMatch": "[[a short coat|abrigo corto]]",
+          "distractors": ["[[a garment worn by women|prenda usada por mujeres]]", "[[garment covering legs|prenda que cubre las piernas]]", "[[upper garment with buttons|prenda superior con botones]]", "[[garment worn on feet|prenda usada en los pies]]"]
         },
         {
+          "id": "pair-2",
           "word": "[[trousers|pantalones]]",
-          "definition": "[[garment covering legs|prenda que cubre las piernas]]",
-          "translation": "pantalones"
+          "correctMatch": "[[garment covering legs|prenda que cubre las piernas]]",
+          "distractors": ["[[a garment worn by women|prenda usada por mujeres]]", "[[a short coat|abrigo corto]]", "[[upper garment with buttons|prenda superior con botones]]", "[[garment worn on feet|prenda usada en los pies]]"]
         },
         {
+          "id": "pair-3",
           "word": "[[shirt|camisa]]",
-          "definition": "[[upper garment with buttons|prenda superior con botones]]",
-          "translation": "camisa"
+          "correctMatch": "[[upper garment with buttons|prenda superior con botones]]",
+          "distractors": ["[[a garment worn by women|prenda usada por mujeres]]", "[[a short coat|abrigo corto]]", "[[garment covering legs|prenda que cubre las piernas]]", "[[garment worn on feet|prenda usada en los pies]]"]
         },
         {
+          "id": "pair-4",
           "word": "[[shoes|zapatos]]",
-          "definition": "[[garment worn on feet|prenda usada en los pies]]",
-          "translation": "zapatos"
+          "correctMatch": "[[garment worn on feet|prenda usada en los pies]]",
+          "distractors": ["[[a garment worn by women|prenda usada por mujeres]]", "[[a short coat|abrigo corto]]", "[[garment covering legs|prenda que cubre las piernas]]", "[[upper garment with buttons|prenda superior con botones]]"]
         }
       ]
     },
@@ -864,29 +899,34 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Relaciona cada palabra de edad con su descripción.",
       "pairs": [
         {
+          "id": "pair-0",
           "word": "[[young|joven]]",
-          "definition": "[[early in life or existence|al principio de la vida]]",
-          "translation": "joven"
+          "correctMatch": "[[early in life or existence|al principio de la vida]]",
+          "distractors": ["[[advanced in age|avanzado en edad]]", "[[between young and old|entre joven y viejo]]", "[[very old|muy viejo]]", "[[very young child|ni\u00f1o muy peque\u00f1o]]"]
         },
         {
+          "id": "pair-1",
           "word": "[[old|viejo]]",
-          "definition": "[[advanced in age|avanzado en edad]]",
-          "translation": "viejo"
+          "correctMatch": "[[advanced in age|avanzado en edad]]",
+          "distractors": ["[[early in life or existence|al principio de la vida]]", "[[between young and old|entre joven y viejo]]", "[[very old|muy viejo]]", "[[very young child|ni\u00f1o muy peque\u00f1o]]"]
         },
         {
+          "id": "pair-2",
           "word": "[[middle-aged|de mediana edad]]",
-          "definition": "[[between young and old|entre joven y viejo]]",
-          "translation": "de mediana edad"
+          "correctMatch": "[[between young and old|entre joven y viejo]]",
+          "distractors": ["[[early in life or existence|al principio de la vida]]", "[[advanced in age|avanzado en edad]]", "[[very old|muy viejo]]", "[[very young child|ni\u00f1o muy peque\u00f1o]]"]
         },
         {
+          "id": "pair-3",
           "word": "[[elderly|anciano]]",
-          "definition": "[[very old|muy viejo]]",
-          "translation": "anciano"
+          "correctMatch": "[[very old|muy viejo]]",
+          "distractors": ["[[early in life or existence|al principio de la vida]]", "[[advanced in age|avanzado en edad]]", "[[between young and old|entre joven y viejo]]", "[[very young child|ni\u00f1o muy peque\u00f1o]]"]
         },
         {
-          "word": "[[infant|bebé]]",
-          "definition": "[[very young child|niño muy pequeño]]",
-          "translation": "bebé"
+          "id": "pair-4",
+          "word": "[[infant|beb\u00e9]]",
+          "correctMatch": "[[very young child|ni\u00f1o muy peque\u00f1o]]",
+          "distractors": ["[[early in life or existence|al principio de la vida]]", "[[advanced in age|avanzado en edad]]", "[[between young and old|entre joven y viejo]]", "[[very old|muy viejo]]"]
         }
       ]
     },
@@ -922,29 +962,34 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Relaciona cada palabra de figura con su definición.",
       "pairs": [
         {
+          "id": "pair-0",
           "word": "[[slim|esbelta]]",
-          "definition": "[[thin and attractive|delgada y atractiva]]",
-          "translation": "esbelta"
+          "correctMatch": "[[thin and attractive|delgada y atractiva]]",
+          "distractors": ["[[having attractive curves|teniendo curvas atractivas]]", "[[healthy and muscular|saludable y musculoso]]", "[[elegant and flowing|elegante y fluido]]", "[[strong like a sports person|fuerte como deportista]]"]
         },
         {
-          "word": "[[curvy|curvilínea]]",
-          "definition": "[[having attractive curves|teniendo curvas atractivas]]",
-          "translation": "curvilínea"
+          "id": "pair-1",
+          "word": "[[curvy|curvil\u00ednea]]",
+          "correctMatch": "[[having attractive curves|teniendo curvas atractivas]]",
+          "distractors": ["[[thin and attractive|delgada y atractiva]]", "[[healthy and muscular|saludable y musculoso]]", "[[elegant and flowing|elegante y fluido]]", "[[strong like a sports person|fuerte como deportista]]"]
         },
         {
+          "id": "pair-2",
           "word": "[[fit|en forma]]",
-          "definition": "[[healthy and muscular|saludable y musculoso]]",
-          "translation": "en forma"
+          "correctMatch": "[[healthy and muscular|saludable y musculoso]]",
+          "distractors": ["[[thin and attractive|delgada y atractiva]]", "[[having attractive curves|teniendo curvas atractivas]]", "[[elegant and flowing|elegante y fluido]]", "[[strong like a sports person|fuerte como deportista]]"]
         },
         {
-          "word": "[[graceful|grácil]]",
-          "definition": "[[elegant and flowing|elegante y fluido]]",
-          "translation": "grácil"
+          "id": "pair-3",
+          "word": "[[graceful|gr\u00e1cil]]",
+          "correctMatch": "[[elegant and flowing|elegante y fluido]]",
+          "distractors": ["[[thin and attractive|delgada y atractiva]]", "[[having attractive curves|teniendo curvas atractivas]]", "[[healthy and muscular|saludable y musculoso]]", "[[strong like a sports person|fuerte como deportista]]"]
         },
         {
-          "word": "[[athletic|atlética]]",
-          "definition": "[[strong like a sports person|fuerte como deportista]]",
-          "translation": "atlética"
+          "id": "pair-4",
+          "word": "[[athletic|atl\u00e9tica]]",
+          "correctMatch": "[[strong like a sports person|fuerte como deportista]]",
+          "distractors": ["[[thin and attractive|delgada y atractiva]]", "[[having attractive curves|teniendo curvas atractivas]]", "[[healthy and muscular|saludable y musculoso]]", "[[elegant and flowing|elegante y fluido]]"]
         }
       ]
     },
@@ -980,29 +1025,34 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Relaciona cada característica de cabeza con su descripción.",
       "pairs": [
         {
+          "id": "pair-0",
           "word": "[[bald|calvo]]",
-          "definition": "[[without hair on head|sin cabello en la cabeza]]",
-          "translation": "calvo"
+          "correctMatch": "[[without hair on head|sin cabello en la cabeza]]",
+          "distractors": ["[[having a lot of hair|teniendo mucho cabello]]", "[[hair has been cut very short|cabello cortado muy corto]]", "[[hair in loops or coils|cabello en bucles]]", "[[hair not curly|cabello no rizado]]"]
         },
         {
+          "id": "pair-1",
           "word": "[[hairy|cabelludo]]",
-          "definition": "[[having a lot of hair|teniendo mucho cabello]]",
-          "translation": "cabelludo"
+          "correctMatch": "[[having a lot of hair|teniendo mucho cabello]]",
+          "distractors": ["[[without hair on head|sin cabello en la cabeza]]", "[[hair has been cut very short|cabello cortado muy corto]]", "[[hair in loops or coils|cabello en bucles]]", "[[hair not curly|cabello no rizado]]"]
         },
         {
+          "id": "pair-2",
           "word": "[[shaved|afeitado]]",
-          "definition": "[[hair has been cut very short|cabello cortado muy corto]]",
-          "translation": "afeitado"
+          "correctMatch": "[[hair has been cut very short|cabello cortado muy corto]]",
+          "distractors": ["[[without hair on head|sin cabello en la cabeza]]", "[[having a lot of hair|teniendo mucho cabello]]", "[[hair in loops or coils|cabello en bucles]]", "[[hair not curly|cabello no rizado]]"]
         },
         {
+          "id": "pair-3",
           "word": "[[curly|rizado]]",
-          "definition": "[[hair in loops or coils|cabello en bucles]]",
-          "translation": "rizado"
+          "correctMatch": "[[hair in loops or coils|cabello en bucles]]",
+          "distractors": ["[[without hair on head|sin cabello en la cabeza]]", "[[having a lot of hair|teniendo mucho cabello]]", "[[hair has been cut very short|cabello cortado muy corto]]", "[[hair not curly|cabello no rizado]]"]
         },
         {
+          "id": "pair-4",
           "word": "[[straight|liso]]",
-          "definition": "[[hair not curly|cabello no rizado]]",
-          "translation": "liso"
+          "correctMatch": "[[hair not curly|cabello no rizado]]",
+          "distractors": ["[[without hair on head|sin cabello en la cabeza]]", "[[having a lot of hair|teniendo mucho cabello]]", "[[hair has been cut very short|cabello cortado muy corto]]", "[[hair in loops or coils|cabello en bucles]]"]
         }
       ]
     },
@@ -1038,29 +1088,34 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Relaciona cada característica de piel con su descripción.",
       "pairs": [
         {
+          "id": "pair-0",
           "word": "[[freckles|pecas]]",
-          "definition": "[[small brown marks on skin|pequeñas marcas marrones en la piel]]",
-          "translation": "pecas"
+          "correctMatch": "[[small brown marks on skin|peque\u00f1as marcas marrones en la piel]]",
+          "distractors": ["[[dark raised marks on skin|marcas oscuras elevadas en la piel]]", "[[marks present from birth|marcas presentes desde el nacimiento]]", "[[permanent designs on skin|dise\u00f1os permanentes en la piel]]", "[[skin condition with spots|condici\u00f3n de piel con manchas]]"]
         },
         {
+          "id": "pair-1",
           "word": "[[moles|lunares]]",
-          "definition": "[[dark raised marks on skin|marcas oscuras elevadas en la piel]]",
-          "translation": "lunares"
+          "correctMatch": "[[dark raised marks on skin|marcas oscuras elevadas en la piel]]",
+          "distractors": ["[[small brown marks on skin|peque\u00f1as marcas marrones en la piel]]", "[[marks present from birth|marcas presentes desde el nacimiento]]", "[[permanent designs on skin|dise\u00f1os permanentes en la piel]]", "[[skin condition with spots|condici\u00f3n de piel con manchas]]"]
         },
         {
+          "id": "pair-2",
           "word": "[[birthmarks|marcas de nacimiento]]",
-          "definition": "[[marks present from birth|marcas presentes desde el nacimiento]]",
-          "translation": "marcas de nacimiento"
+          "correctMatch": "[[marks present from birth|marcas presentes desde el nacimiento]]",
+          "distractors": ["[[small brown marks on skin|peque\u00f1as marcas marrones en la piel]]", "[[dark raised marks on skin|marcas oscuras elevadas en la piel]]", "[[permanent designs on skin|dise\u00f1os permanentes en la piel]]", "[[skin condition with spots|condici\u00f3n de piel con manchas]]"]
         },
         {
+          "id": "pair-3",
           "word": "[[tattoos|tatuajes]]",
-          "definition": "[[permanent designs on skin|diseños permanentes en la piel]]",
-          "translation": "tatuajes"
+          "correctMatch": "[[permanent designs on skin|dise\u00f1os permanentes en la piel]]",
+          "distractors": ["[[small brown marks on skin|peque\u00f1as marcas marrones en la piel]]", "[[dark raised marks on skin|marcas oscuras elevadas en la piel]]", "[[marks present from birth|marcas presentes desde el nacimiento]]", "[[skin condition with spots|condici\u00f3n de piel con manchas]]"]
         },
         {
-          "word": "[[acne|acné]]",
-          "definition": "[[skin condition with spots|condición de piel con manchas]]",
-          "translation": "acné"
+          "id": "pair-4",
+          "word": "[[acne|acn\u00e9]]",
+          "correctMatch": "[[skin condition with spots|condici\u00f3n de piel con manchas]]",
+          "distractors": ["[[small brown marks on skin|peque\u00f1as marcas marrones en la piel]]", "[[dark raised marks on skin|marcas oscuras elevadas en la piel]]", "[[marks present from birth|marcas presentes desde el nacimiento]]", "[[permanent designs on skin|dise\u00f1os permanentes en la piel]]"]
         }
       ]
     },
@@ -1096,29 +1151,34 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Relaciona cada palabra de descripción general con su definición.",
       "pairs": [
         {
+          "id": "pair-0",
           "word": "[[striking|llamativo]]",
-          "definition": "[[impressive and memorable|impresionante y memorable]]",
-          "translation": "llamativo"
+          "correctMatch": "[[impressive and memorable|impresionante y memorable]]",
+          "distractors": ["[[characteristic and different|caracter\u00edstico y diferente]]", "[[stylish and refined|con estilo y refinado]]", "[[one of a kind|\u00fanico en su tipo]]", "[[worthy of attention|digno de atenci\u00f3n]]"]
         },
         {
+          "id": "pair-1",
           "word": "[[distinctive|distintivo]]",
-          "definition": "[[characteristic and different|característico y diferente]]",
-          "translation": "distintivo"
+          "correctMatch": "[[characteristic and different|caracter\u00edstico y diferente]]",
+          "distractors": ["[[impressive and memorable|impresionante y memorable]]", "[[stylish and refined|con estilo y refinado]]", "[[one of a kind|\u00fanico en su tipo]]", "[[worthy of attention|digno de atenci\u00f3n]]"]
         },
         {
+          "id": "pair-2",
           "word": "[[elegant|elegante]]",
-          "definition": "[[stylish and refined|con estilo y refinado]]",
-          "translation": "elegante"
+          "correctMatch": "[[stylish and refined|con estilo y refinado]]",
+          "distractors": ["[[impressive and memorable|impresionante y memorable]]", "[[characteristic and different|caracter\u00edstico y diferente]]", "[[one of a kind|\u00fanico en su tipo]]", "[[worthy of attention|digno de atenci\u00f3n]]"]
         },
         {
-          "word": "[[unique|único]]",
-          "definition": "[[one of a kind|único en su tipo]]",
-          "translation": "único"
+          "id": "pair-3",
+          "word": "[[unique|\u00fanico]]",
+          "correctMatch": "[[one of a kind|\u00fanico en su tipo]]",
+          "distractors": ["[[impressive and memorable|impresionante y memorable]]", "[[characteristic and different|caracter\u00edstico y diferente]]", "[[stylish and refined|con estilo y refinado]]", "[[worthy of attention|digno de atenci\u00f3n]]"]
         },
         {
+          "id": "pair-4",
           "word": "[[remarkable|notable]]",
-          "definition": "[[worthy of attention|digno de atención]]",
-          "translation": "notable"
+          "correctMatch": "[[worthy of attention|digno de atenci\u00f3n]]",
+          "distractors": ["[[impressive and memorable|impresionante y memorable]]", "[[characteristic and different|caracter\u00edstico y diferente]]", "[[stylish and refined|con estilo y refinado]]", "[[one of a kind|\u00fanico en su tipo]]"]
         }
       ]
     },
@@ -1180,29 +1240,34 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Relaciona cada palabra de apariencia con su sinónimo.",
       "pairs": [
         {
-          "word": "[[athletic|atlético]]",
-          "definition": "[[having a strong, muscular body|teniendo un cuerpo fuerte y musculoso]]",
-          "translation": "atlético"
+          "id": "pair-0",
+          "word": "[[athletic|atl\u00e9tico]]",
+          "correctMatch": "[[having a strong, muscular body|teniendo un cuerpo fuerte y musculoso]]",
+          "distractors": ["[[in good physical condition|en buena condici\u00f3n f\u00edsica]]", "[[having physical power|teniendo poder f\u00edsico]]", "[[able to move quickly and easily|capaz de moverse r\u00e1pida y f\u00e1cilmente]]", "[[energetic and active|energ\u00e9tico y activo]]"]
         },
         {
+          "id": "pair-1",
           "word": "[[fit|en forma]]",
-          "definition": "[[in good physical condition|en buena condición física]]",
-          "translation": "en forma"
+          "correctMatch": "[[in good physical condition|en buena condici\u00f3n f\u00edsica]]",
+          "distractors": ["[[having a strong, muscular body|teniendo un cuerpo fuerte y musculoso]]", "[[having physical power|teniendo poder f\u00edsico]]", "[[able to move quickly and easily|capaz de moverse r\u00e1pida y f\u00e1cilmente]]", "[[energetic and active|energ\u00e9tico y activo]]"]
         },
         {
+          "id": "pair-2",
           "word": "[[strong|fuerte]]",
-          "definition": "[[having physical power|teniendo poder físico]]",
-          "translation": "fuerte"
+          "correctMatch": "[[having physical power|teniendo poder f\u00edsico]]",
+          "distractors": ["[[having a strong, muscular body|teniendo un cuerpo fuerte y musculoso]]", "[[in good physical condition|en buena condici\u00f3n f\u00edsica]]", "[[able to move quickly and easily|capaz de moverse r\u00e1pida y f\u00e1cilmente]]", "[[energetic and active|energ\u00e9tico y activo]]"]
         },
         {
-          "word": "[[agile|ágil]]",
-          "definition": "[[able to move quickly and easily|capaz de moverse rápida y fácilmente]]",
-          "translation": "ágil"
+          "id": "pair-3",
+          "word": "[[agile|\u00e1gil]]",
+          "correctMatch": "[[able to move quickly and easily|capaz de moverse r\u00e1pida y f\u00e1cilmente]]",
+          "distractors": ["[[having a strong, muscular body|teniendo un cuerpo fuerte y musculoso]]", "[[in good physical condition|en buena condici\u00f3n f\u00edsica]]", "[[having physical power|teniendo poder f\u00edsico]]", "[[energetic and active|energ\u00e9tico y activo]]"]
         },
         {
+          "id": "pair-4",
           "word": "[[vigorous|vigoroso]]",
-          "definition": "[[energetic and active|energético y activo]]",
-          "translation": "vigoroso"
+          "correctMatch": "[[energetic and active|energ\u00e9tico y activo]]",
+          "distractors": ["[[having a strong, muscular body|teniendo un cuerpo fuerte y musculoso]]", "[[in good physical condition|en buena condici\u00f3n f\u00edsica]]", "[[having physical power|teniendo poder f\u00edsico]]", "[[able to move quickly and easily|capaz de moverse r\u00e1pida y f\u00e1cilmente]]"]
         }
       ]
     },
@@ -1238,29 +1303,34 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Relaciona cada palabra de estilo con su descripción.",
       "pairs": [
         {
+          "id": "pair-0",
           "word": "[[smartly|elegantemente]]",
-          "definition": "[[in a neat, well-dressed manner|de manera elegante y bien vestida]]",
-          "translation": "elegantemente"
+          "correctMatch": "[[in a neat, well-dressed manner|de manera elegante y bien vestida]]",
+          "distractors": ["[[in a relaxed, informal way|de manera relajada e informal]]", "[[in a proper, official manner|de manera propia y oficial]]", "[[fashionably and attractively|de manera elegante y atractiva]]", "[[in a tidy, orderly way|de manera ordenada y limpia]]"]
         },
         {
+          "id": "pair-1",
           "word": "[[casually|informalmente]]",
-          "definition": "[[in a relaxed, informal way|de manera relajada e informal]]",
-          "translation": "informalmente"
+          "correctMatch": "[[in a relaxed, informal way|de manera relajada e informal]]",
+          "distractors": ["[[in a neat, well-dressed manner|de manera elegante y bien vestida]]", "[[in a proper, official manner|de manera propia y oficial]]", "[[fashionably and attractively|de manera elegante y atractiva]]", "[[in a tidy, orderly way|de manera ordenada y limpia]]"]
         },
         {
+          "id": "pair-2",
           "word": "[[formally|formalmente]]",
-          "definition": "[[in a proper, official manner|de manera propia y oficial]]",
-          "translation": "formalmente"
+          "correctMatch": "[[in a proper, official manner|de manera propia y oficial]]",
+          "distractors": ["[[in a neat, well-dressed manner|de manera elegante y bien vestida]]", "[[in a relaxed, informal way|de manera relajada e informal]]", "[[fashionably and attractively|de manera elegante y atractiva]]", "[[in a tidy, orderly way|de manera ordenada y limpia]]"]
         },
         {
+          "id": "pair-3",
           "word": "[[stylishly|con estilo]]",
-          "definition": "[[fashionably and attractively|de manera elegante y atractiva]]",
-          "translation": "con estilo"
+          "correctMatch": "[[fashionably and attractively|de manera elegante y atractiva]]",
+          "distractors": ["[[in a neat, well-dressed manner|de manera elegante y bien vestida]]", "[[in a relaxed, informal way|de manera relajada e informal]]", "[[in a proper, official manner|de manera propia y oficial]]", "[[in a tidy, orderly way|de manera ordenada y limpia]]"]
         },
         {
+          "id": "pair-4",
           "word": "[[neatly|pulcramente]]",
-          "definition": "[[in a tidy, orderly way|de manera ordenada y limpia]]",
-          "translation": "pulcramente"
+          "correctMatch": "[[in a tidy, orderly way|de manera ordenada y limpia]]",
+          "distractors": ["[[in a neat, well-dressed manner|de manera elegante y bien vestida]]", "[[in a relaxed, informal way|de manera relajada e informal]]", "[[in a proper, official manner|de manera propia y oficial]]", "[[fashionably and attractively|de manera elegante y atractiva]]"]
         }
       ]
     },
@@ -1296,29 +1366,34 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Relaciona cada palabra de constitución atlética con su descripción.",
       "pairs": [
         {
+          "id": "pair-0",
           "word": "[[muscular|musculosa]]",
-          "definition": "[[having visible developed muscles|teniendo músculos visibles desarrollados]]",
-          "translation": "musculosa"
+          "correctMatch": "[[having visible developed muscles|teniendo m\u00fasculos visibles desarrollados]]",
+          "distractors": ["[[firm and well-defined muscles|m\u00fasculos firmes y bien definidos]]", "[[very muscular with visible definition|muy musculosa con definici\u00f3n visible]]", "[[large and heavily muscled|grande y fuertemente musculada]]", "[[thin with visible muscles|delgada con m\u00fasculos visibles]]"]
         },
         {
+          "id": "pair-1",
           "word": "[[toned|tonificada]]",
-          "definition": "[[firm and well-defined muscles|músculos firmes y bien definidos]]",
-          "translation": "tonificada"
+          "correctMatch": "[[firm and well-defined muscles|m\u00fasculos firmes y bien definidos]]",
+          "distractors": ["[[having visible developed muscles|teniendo m\u00fasculos visibles desarrollados]]", "[[very muscular with visible definition|muy musculosa con definici\u00f3n visible]]", "[[large and heavily muscled|grande y fuertemente musculada]]", "[[thin with visible muscles|delgada con m\u00fasculos visibles]]"]
         },
         {
+          "id": "pair-2",
           "word": "[[ripped|marcada]]",
-          "definition": "[[very muscular with visible definition|muy musculosa con definición visible]]",
-          "translation": "marcada"
+          "correctMatch": "[[very muscular with visible definition|muy musculosa con definici\u00f3n visible]]",
+          "distractors": ["[[having visible developed muscles|teniendo m\u00fasculos visibles desarrollados]]", "[[firm and well-defined muscles|m\u00fasculos firmes y bien definidos]]", "[[large and heavily muscled|grande y fuertemente musculada]]", "[[thin with visible muscles|delgada con m\u00fasculos visibles]]"]
         },
         {
+          "id": "pair-3",
           "word": "[[bulky|voluminosa]]",
-          "definition": "[[large and heavily muscled|grande y fuertemente musculada]]",
-          "translation": "voluminosa"
+          "correctMatch": "[[large and heavily muscled|grande y fuertemente musculada]]",
+          "distractors": ["[[having visible developed muscles|teniendo m\u00fasculos visibles desarrollados]]", "[[firm and well-defined muscles|m\u00fasculos firmes y bien definidos]]", "[[very muscular with visible definition|muy musculosa con definici\u00f3n visible]]", "[[thin with visible muscles|delgada con m\u00fasculos visibles]]"]
         },
         {
+          "id": "pair-4",
           "word": "[[lean|esbelta]]",
-          "definition": "[[thin with visible muscles|delgada con músculos visibles]]",
-          "translation": "esbelta"
+          "correctMatch": "[[thin with visible muscles|delgada con m\u00fasculos visibles]]",
+          "distractors": ["[[having visible developed muscles|teniendo m\u00fasculos visibles desarrollados]]", "[[firm and well-defined muscles|m\u00fasculos firmes y bien definidos]]", "[[very muscular with visible definition|muy musculosa con definici\u00f3n visible]]", "[[large and heavily muscled|grande y fuertemente musculada]]"]
         }
       ]
     },
@@ -1354,29 +1429,34 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Relaciona cada característica de voz con su descripción.",
       "pairs": [
         {
+          "id": "pair-0",
           "word": "[[deep|profunda]]",
-          "definition": "[[low in pitch|baja en tono]]",
-          "translation": "profunda"
+          "correctMatch": "[[low in pitch|baja en tono]]",
+          "distractors": ["[[easy to hear and understand|f\u00e1cil de o\u00edr y entender]]", "[[quiet and gentle|tranquila y gentil]]", "[[high in volume|alto en volumen]]", "[[rough and harsh|\u00e1spera y fuerte]]"]
         },
         {
+          "id": "pair-1",
           "word": "[[clear|clara]]",
-          "definition": "[[easy to hear and understand|fácil de oír y entender]]",
-          "translation": "clara"
+          "correctMatch": "[[easy to hear and understand|f\u00e1cil de o\u00edr y entender]]",
+          "distractors": ["[[low in pitch|baja en tono]]", "[[quiet and gentle|tranquila y gentil]]", "[[high in volume|alto en volumen]]", "[[rough and harsh|\u00e1spera y fuerte]]"]
         },
         {
+          "id": "pair-2",
           "word": "[[soft|suave]]",
-          "definition": "[[quiet and gentle|tranquila y gentil]]",
-          "translation": "suave"
+          "correctMatch": "[[quiet and gentle|tranquila y gentil]]",
+          "distractors": ["[[low in pitch|baja en tono]]", "[[easy to hear and understand|f\u00e1cil de o\u00edr y entender]]", "[[high in volume|alto en volumen]]", "[[rough and harsh|\u00e1spera y fuerte]]"]
         },
         {
+          "id": "pair-3",
           "word": "[[loud|fuerte]]",
-          "definition": "[[high in volume|alto en volumen]]",
-          "translation": "fuerte"
+          "correctMatch": "[[high in volume|alto en volumen]]",
+          "distractors": ["[[low in pitch|baja en tono]]", "[[easy to hear and understand|f\u00e1cil de o\u00edr y entender]]", "[[quiet and gentle|tranquila y gentil]]", "[[rough and harsh|\u00e1spera y fuerte]]"]
         },
         {
+          "id": "pair-4",
           "word": "[[hoarse|ronca]]",
-          "definition": "[[rough and harsh|áspera y fuerte]]",
-          "translation": "ronca"
+          "correctMatch": "[[rough and harsh|\u00e1spera y fuerte]]",
+          "distractors": ["[[low in pitch|baja en tono]]", "[[easy to hear and understand|f\u00e1cil de o\u00edr y entender]]", "[[quiet and gentle|tranquila y gentil]]", "[[high in volume|alto en volumen]]"]
         }
       ]
     },
