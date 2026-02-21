@@ -653,10 +653,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa sobre características faciales.",
       "questions": [
         {
-          "question": "[[The|el/la]] bearded [[man|hombre]] [[with|con]] [[Mediterranean|Mediterráneo]] heritage [[has got|tiene]] _______ [[eyes|ojos]] [[and|y]] [[a beard|una barba]].",
+          "question": "[[The|el/la]] [[young|joven]] [[man|hombre]] [[with|con]] [[Mediterranean|Mediterráneo]] heritage [[has got|tiene]] _______ [[eyes|ojos]].",
           "options": ["[[blue|azules]]", "[[green|verdes]]", "[[brown|marrones]]"],
           "correctAnswer": 2,
-          "explanation": "Mediterranean heritage [[typically|típicamente]] [[features|características]] '[[brown|marrón]] [[eyes|ojos]]' (ojos marrones), [[which|cuál]] [[commonly|comúnmente]] [[pair|se emparejan]] [[with|con]] [[dark|oscuro]] beards."
+          "explanation": "People [[with|con]] Mediterranean heritage [[typically|típicamente]] [[have|tengo/tienes/tienen]] '[[brown|marrón]] [[eyes|ojos]]' (ojos marrones) due [[to|a]] [[their|su]] [[genetic|genético]] [[background|herencia]]."
         }
       ]
     },
