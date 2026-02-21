@@ -233,6 +233,24 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c5
 
 ---
 
+## NEW TASK: Remove Student-Cueing Hints from Distractor Options
+
+### [x] Remove explicit order hints from Exercise 24
+**Exercise**: a2-u4-e24 (Unit 4, Lesson 2, Exercise 9)
+**Issue**: Option B had "(orden incorrecto)" which cued students to the wrong answer
+**Solution**: 
+- ❌ Before: "[[red beautiful big|rojo hermoso grande (orden incorrecto)]]"
+- ✅ After: "[[red beautiful big|rojo hermoso grande]]"
+- Removes pedagogical hint while maintaining distractor validity
+
+### [x] Git commit & push
+- **Commit Hash**: `39e0f365`
+- **Message**: "Fix A2 Unit 4 Exercise 24 (Lesson 2, Exercise 9): Remove '(orden incorrecto)' hint from option B to avoid student cueing"
+- **Files Modified**: 1 file changed, 1 insertion(+), 1 deletion(-)
+- **Status**: ✅ Pushed to main branch
+
+---
+
 ## ✅ ALL TASKS COMPLETED
 
 ### Summary
@@ -244,5 +262,6 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c5
 - Fixed **7 exercises** in Lesson 2 of Unit 4 with duplicate answer options
 - Reduced multiple-choice options from 3 to 2 for **4 two-adjective exercises**
 - Fixed dual-correct-answer issue in Exercise 22
-- **Total Commits**: 9 commits completed
-- **Final Status**: All words in A2 Unit 4 and Unit 2 Exercise 55 properly translated, all duplicate/dual-correct options resolved, and two-adjective exercises simplified
+- Removed student-cueing hints from Exercise 24
+- **Total Commits**: 10 commits completed
+- **Final Status**: All words in A2 Unit 4 and Unit 2 Exercise 55 properly translated, all duplicate/dual-correct options resolved, distractor hints removed, and two-adjective exercises simplified
