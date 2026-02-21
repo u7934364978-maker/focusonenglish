@@ -433,7 +433,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "She [[has|tiene]] _______ _______ [[hair|cabello]].",
-          "options": ["[[blonde straight|rubio liso (orden incorrecto)]]", "[[curly blonde|cabello rizado rubio]]"],
+          "options": ["[[blonde straight|rubio liso]]", "[[curly blonde|cabello rizado rubio]]"],
           "correctAnswer": 1,
           "explanation": "'[[Curly|rizado]] [[blonde|rubio/rubia]] [[hair|cabello]]' sigue el orden: texture + [[color|color]]."
         }
