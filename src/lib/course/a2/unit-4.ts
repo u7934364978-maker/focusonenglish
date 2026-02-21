@@ -316,8 +316,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "I [[have|tengo]] [[a|un]] _______ _______ [[car|coche]].",
-          "options": ["[[small red|rojo pequeño]]", "[[red big|rojo grande (orden incorrecto)]]", "[[big red|coche rojo grande]]"],
-          "correctAnswer": 2,
+          "options": ["[[small red|rojo pequeño]]", "[[big red|coche rojo grande]]"],
+          "correctAnswer": 1,
           "explanation": "En inglés, el orden correcto de adjetivos es: tamaño + [[color|color]]. '[[big red car|coche rojo grande]]' es correcto. El tamaño ([[big|grande]]) va antes del [[color|color]] ([[red|rojo]])."
         }
       ]
@@ -355,8 +355,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "She [[has|tiene]] [[a|un]] _______ _______ [[dress|vestido]].",
-          "options": ["[[short black|negro corto]]", "[[black long|negro largo (orden incorrecto)]]", "[[long black|vestido negro largo]]"],
-          "correctAnswer": 2,
+          "options": ["[[short black|negro corto]]", "[[long black|vestido negro largo]]"],
+          "correctAnswer": 1,
           "explanation": "'[[Long|largo]] [[black|negro]] [[dress|vestido]]' sigue el orden: longitud + [[color|color]]."
         }
       ]
@@ -394,8 +394,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "She [[has|tiene]] [[a|un]] _______ _______ [[hat|sombrero]].",
-          "options": ["[[ugly white|blanco feo]]", "[[white beautiful|blanco hermoso (orden incorrecto)]]", "[[beautiful white|sombrero hermoso blanco]]"],
-          "correctAnswer": 2,
+          "options": ["[[ugly white|blanco feo]]", "[[beautiful white|sombrero hermoso blanco]]"],
+          "correctAnswer": 1,
           "explanation": "'[[Beautiful|hermoso]] [[white|blanco]] [[hat|sombrero]]' sigue el orden: quality + [[color|color]]."
         }
       ]
@@ -433,8 +433,8 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "She [[has|tiene]] _______ _______ [[hair|cabello]].",
-          "options": ["[[straight blonde|rubio liso]]", "[[blonde curly|rubio rizado (orden incorrecto)]]", "[[curly blonde|cabello rizado rubio]]"],
-          "correctAnswer": 2,
+          "options": ["[[straight blonde|rubio liso]]", "[[curly blonde|cabello rizado rubio]]"],
+          "correctAnswer": 1,
           "explanation": "'[[Curly|rizado]] [[blonde|rubio/rubia]] [[hair|cabello]]' sigue el orden: texture + [[color|color]]."
         }
       ]
