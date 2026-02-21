@@ -914,9 +914,9 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "questions": [
         {
           "question": "[[He|Él]] [[is wearing|lleva]] [[a|un]] _______ _______ _______ [[jacket|chaqueta]].",
-          "options": ["[[beautiful new red|roja nueva hermosa]]", "[[beautiful new red|hermosa nueva roja]]", "[[beautiful new red|hermosa nueva roja]]"],
+          "options": ["[[red new beautiful|roja nueva hermosa]]", "[[new beautiful red|nueva hermosa roja]]", "[[beautiful new red|hermosa nueva roja]]"],
           "correctAnswer": 2,
-          "explanation": "En la descripción: orden correcto es quality ([[beautiful|hermoso]]) + age ([[new|nuevo]]) + [[color|color]] ([[red|rojo]])."
+          "explanation": "El orden correcto de adjetivos es: quality ([[beautiful|hermoso]]) + age ([[new|nuevo]]) + [[color|color]] ([[red|rojo]]) = 'beautiful new red' (hermosa nueva roja)."
         }
       ]
     },
