@@ -430,3 +430,47 @@ Save to `/Users/lidia/Documents/focusonenglish/focusonenglish/.zencoder/chats/c5
 - **Converted 16 vocabulary exercises** from multiple-choice to matching format (5 pairs each)
 - **Total Commits**: 18 commits completed
 - **Final Status**: All words in A2 Unit 4 (all lessons 1-4) and Unit 2 Exercise 55 properly translated, all duplicate/identical/dual-correct options resolved, ALL student-cueing hints removed, exercise consistency improved, adjective order exercises simplified to optimal difficulty, and all vocabulary exercises converted to pedagogically superior matching format
+
+---
+
+## 🔧 HOTFIX: Fix Vercel Deployment Error - Matching Exercise Format
+
+### [x] Issue Identified
+**Problem**: Vercel deployment failing with "Application error: a client-side exception has occurred"
+**Root Cause**: All 16 matching vocabulary exercises had incorrect data structure that didn't match the MatchingPair TypeScript interface
+
+**Expected Structure** (MatchingPair type):
+```
+{
+  id: string
+  word: string
+  correctMatch: string
+  distractors: string[]
+}
+```
+
+**Old Structure** (causing errors):
+```
+{
+  word: string
+  definition: string
+  translation: string
+}
+```
+
+### [x] Fix Applied
+**Solution**: Converted all 16 matching exercises to correct structure
+- Exercise IDs fixed: e7, e9, e11, e13, e31, e33, e35, e37, e39, e41, e43, e45, e48, e50, e52, e54
+- Each pair now has: id, word, correctMatch (converted from definition), and distractors array (populated with other definitions)
+- Total pairs converted: 80 (16 exercises × 5 pairs each)
+
+### [x] Git Commit & Push
+- **Commit Hash**: `55291951`
+- **Message**: "Fix: Convert all 16 matching exercises to proper format (correctMatch/distractors structure)"
+- **Files Modified**: `src/lib/course/a2/unit-4.ts` (249 insertions, 169 deletions)
+- **Status**: ✅ Pushed to main branch
+
+### ✅ Expected Result
+- Vercel deployment should now succeed without runtime errors
+- Matching exercises will render correctly with proper definition matching
+- All 80 pairs properly formatted with distractors for pedagogical variety
