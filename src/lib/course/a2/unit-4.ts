@@ -250,10 +250,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa la oración sobre altura.",
       "questions": [
         {
-          "question": "[[The|el/la]] basketball player who reaches high shelves [[without|sin]] [[a|un]] ladder [[has got|tiene]] [[a|un]] _______ [[body|cuerpo]].",
+          "question": "[[The|el/la]] [[basketball|baloncesto]] [[player|jugador]] [[who|quién]] [[reaches|alcanza]] [[high|altos]] [[shelves|estantes]] [[without|sin]] [[a|un]] [[ladder|escalera]] [[has got|tiene]] [[a|un]] _______ [[body|cuerpo]].",
           "options": ["[[short|bajo]]", "[[tall|alto]]", "[[wide|ancho]]"],
           "correctAnswer": 1,
-          "explanation": "[[A|un/una]] [[basketball|baloncesto]] [[player|jugador]] [[who|quién]] reaches high objects [[typically|típicamente]] [[has|tiene/tienen]] [[a|un/una]] '[[tall|alto]] [[body|cuerpo]]' (cuerpo alto)."
+          "explanation": "[[A|un/una]] [[basketball|baloncesto]] [[player|jugador]] [[who|quién]] [[reaches|alcanza]] [[high|altos]] [[objects|objetos]] [[typically|típicamente]] [[has|tiene/tienen]] [[a|un/una]] '[[tall|alto]] [[body|cuerpo]]' (cuerpo alto)."
         }
       ]
     },

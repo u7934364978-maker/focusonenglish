@@ -34,6 +34,18 @@
 - **Message**: "Fix A2 Unit 4: Remove nested brackets and add Spanish translations to titles"
 - **Files Modified**: 8 files changed, 880 insertions(+), 17 deletions(-)
 
+### [x] Fix untranslated words in exercises (20+ instances)
+Fixed all bare English words not wrapped in [[word|translation]] format including:
+- "commonly", "elegant", "stands", "duck", "through", "doorways", "paired", "gala", "classic", "choice"
+- "graceful", "posture", "characteristically", "training", "physique", "freckles", "wrinkles"
+- "formal", "visible", "muscle", "development", "exposure", "smartly", "build"
+
+### [x] Git commit & push (Translation fixes)
+- **Commit Hash**: `fce3c5c1`
+- **Message**: "Fix A2 Unit 4: Add missing Spanish translations for all untranslated words in exercises"
+- **Files Modified**: 2 files changed, 19 insertions(+), 14 deletions(-)
+- **Status**: ✅ Pushed to main branch
+
 ---
 
 ## Workflow Steps
