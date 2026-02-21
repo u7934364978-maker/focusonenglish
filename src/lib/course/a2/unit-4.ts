@@ -133,10 +133,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Selecciona la palabra correcta para forma de cara.",
       "questions": [
         {
-          "question": "[[The|el/la]] [[young|joven]] [[girl|niñ[[a|un]]]] [[with|con]] [[soft|suave]], [[youthful|juvenil]] [[features|características]] [[has got|tiene]] [[an|un]] _______ [[face|cara]].",
+          "question": "[[The|el/la]] [[young|joven]] [[girl|niña]] [[with|con]] [[soft|suave]], [[youthful|juvenil]] [[features|características]] [[has got|tiene]] [[an|un]] _______ [[face|cara]].",
           "options": ["[[round|redonda]]", "[[long|larga]]", "[[square|cuadrada]]"],
           "correctAnswer": 0,
-          "explanation": "[[Soft|suave]], [[youthful|juvenil]] [[features|características]] [[typically|típicamente]] correspond [[to|[[a|un/una]]]] [[a|un/una]] '[[round|redonda]] [[face|cara]]' (cara redonda)."
+          "explanation": "[[Soft|suave]], [[youthful|juvenil]] [[features|características]] [[typically|típicamente]] correspond [[to|a]] [[a|un/una]] '[[round|redonda]] [[face|cara]]' (cara redonda)."
         }
       ]
     },
@@ -151,7 +151,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[He has got a big nose|Tiene la nariz grande]].",
     "content": {
-      "title": "Facial Features",
+      "title": "[[Facial|Faciales]] [[Features|Características]]",
       "instructions": "Ordena la oración describiendo características faciales.",
       "correctSentence": "[[He has got a big nose|Tiene la nariz grande]].",
       "words": ["[[nose|nariz]].", "[[big|grande]]", "[[a|una]]", "[[has got|tiene]]", "[[He|Él]]"],
@@ -168,7 +168,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[She has got small ears|Tiene las orejas pequeñas]].",
     "content": {
-      "title": "Ears",
+      "title": "[[Ears|Orejas]]",
       "instructions": "Completa la oración sobre orejas.",
       "questions": [
         {
@@ -190,7 +190,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[My grandfather has got gray hair|Mi abuelo tiene el cabello gris]].",
     "content": {
-      "title": "Hair Color",
+      "title": "[[Hair|Cabello]] [[Color|Color]]",
       "instructions": "Ordena la oración describiendo color de cabello.",
       "correctSentence": "[[My grandfather has got gray hair|Mi abuelo tiene el cabello gris]].",
       "words": ["[[hair|cabello]].", "[[gray|gris]]", "[[has got|tiene]]", "[[grandfather|abuelo]]", "[[My|Mi]]"],
@@ -211,7 +211,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, selecciona el color de cabello correcto.",
       "questions": [
         {
-          "question": "[[The|el/la]] [[girl|niñ[[a|un]]]] [[from|de]] Scandinavia [[with|con]] [[fair|clara]] [[skin|piel]] [[has got|tiene]] _______ [[hair|cabello]].",
+          "question": "[[The|el/la]] [[girl|niña]] [[from|de]] Scandinavia [[with|con]] [[fair|clara]] [[skin|piel]] [[has got|tiene]] _______ [[hair|cabello]].",
           "options": ["[[blonde|rubio]]", "[[black|negro]]", "[[red|rojo]]"],
           "correctAnswer": 0,
           "explanation": "[[People|gente]] [[from|de]] Scandinavia [[typically|típicamente]] [[have|tengo/tienes/tienen]] '[[blonde|rubio/rubia]] [[hair|cabello]]' (cabello rubio). [[Fair|clara]] [[skin|piel]] [[is|es/está]] commonly associated [[with|con]] [[blonde|rubio/rubia]] [[hair|cabello]]."
@@ -545,7 +545,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[They have comfortable long black shoes|Tienen zapatos negros largos cómodos]].",
     "content": {
-      "title": "Adjective Order for Clothing",
+      "title": "[[Adjective|Adjetivo]] [[Order|Orden]] [[for|para]] [[Clothing|Ropa]]",
       "instructions": "Selecciona el orden correcto para ropa.",
       "questions": [
         {
@@ -584,7 +584,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[My family has a wonderful new house|Mi familia tiene una casa nueva maravillosa]].",
     "content": {
-      "title": "Adjective Order Review",
+      "title": "[[Adjective|Adjetivo]] [[Order|Orden]] [[Review|Repaso]]",
       "instructions": "Selecciona el orden correcto de adjetivos.",
       "questions": [
         {
@@ -610,14 +610,14 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[She is tall and slim|Es alta y delgada]].",
     "content": {
-      "title": "Height and Build",
+      "title": "[[Height|Altura]] [[and|y]] [[Build|Constitución]]",
       "instructions": "Según la descripción, completa sobre altura y constitución.",
       "questions": [
         {
-          "question": "[[The|el/la]] model who stands out [[in|en]] crowds [[and|y]] needs [[to|[[a|un]]]] duck through doorways [[is|es]] _______ [[and|y]] [[slim|delgada]].",
+          "question": "[[The|el/la]] model who stands out [[in|en]] crowds [[and|y]] needs [[to|a]] duck through doorways [[is|es]] _______ [[and|y]] [[slim|delgada]].",
           "options": ["[[short|baja]]", "[[tall|alta]]", "[[heavy|pesada]]"],
           "correctAnswer": 1,
-          "explanation": "Standing out [[in|en]] crowds [[and|y]] needing [[to|[[a|un/una]]]] duck through doorways indicates [[the|el/la/los/las]] [[person|persona]] [[is|es/está]] '[[tall|alto]]' (alta) [[and|y]] paired [[with|con]] '[[slim|esbelta]]' [[suggests|sugiere]] [[an|un/una]] [[athletic|atlético]] build."
+          "explanation": "Standing out [[in|en]] crowds [[and|y]] needing [[to|a]] duck through doorways indicates [[the|el/la/los/las]] [[person|persona]] [[is|es/está]] '[[tall|alto]]' (alta) [[and|y]] paired [[with|con]] '[[slim|esbelta]]' [[suggests|sugiere]] [[an|un/una]] [[athletic|atlético]] build."
         }
       ]
     },
@@ -632,7 +632,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[My friend has got a round face and kind eyes|Mi amigo tiene la cara redonda y ojos amables]].",
     "content": {
-      "title": "Face Description",
+      "title": "[[Face|Cara]] [[Description|Descripción]]",
       "instructions": "Ordena la descripción de la cara.",
       "correctSentence": "[[She has a round face|Tiene la cara redonda]].",
       "words": ["[[face|cara]].", "[[round|redonda]]", "[[a|una]]", "[[has|tiene]]", "[[She|Ella]]"],
@@ -692,7 +692,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la descripción de ropa.",
       "questions": [
         {
-          "question": "She [[is wearing|lleva]] [[a|un]] _______ [[dress|vestido]] [[to|[[a|un]]]] [[the|el/la]] formal evening gala.",
+          "question": "She [[is wearing|lleva]] [[a|un]] _______ [[dress|vestido]] [[to|a]] [[the|el/la]] formal evening gala.",
           "options": ["[[red|rojo]]", "[[green|verde]]", "[[yellow|amarillo]]"],
           "correctAnswer": 0,
           "explanation": "[[At|en]] [[a|un/una]] formal [[evening|tarde/noche]] gala, [[a|un/una]] '[[red|rojo]] [[dress|vestido]]' (vestido rojo) [[is|es/está]] [[a|un/una]] classic, elegant choice that stands out."
@@ -773,7 +773,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           "question": "[[The|el/la]] ballet dancer [[with|con]] [[a|un]] graceful posture [[has|tiene]] [[a|un]] _______ [[waist|cintura]].",
           "options": ["[[slim|delgada]]", "[[wide|ancha]]", "[[thick|gruesa]]"],
           "correctAnswer": 0,
-          "explanation": "Ballet dancers characteristically [[have|tengo/tienes/tienen]] [[a|un/una]] '[[slim|esbelta]] [[waist|cintura]]' (cintura delgada) due [[to|[[a|un/una]]]] [[their|su]] training [[and|y]] physique."
+          "explanation": "Ballet dancers characteristically [[have|tengo/tienes/tienen]] [[a|un/una]] '[[slim|esbelta]] [[waist|cintura]]' (cintura delgada) due [[to|a]] [[their|su]] training [[and|y]] physique."
         }
       ]
     },
@@ -788,7 +788,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[My sister is wearing glasses|Mi hermana lleva gafas]].",
     "content": {
-      "title": "Glasses/Spectacles",
+      "title": "[[Glasses|Gafas]]/[[Spectacles|Lentes]]",
       "instructions": "Ordena la oración sobre lentes/gafas.",
       "correctSentence": "[[She is wearing glasses|Lleva gafas]].",
       "words": ["[[glasses|gafas]].", "[[wearing|llevando]]", "[[is|está]]", "[[She|Ella]]"],
@@ -848,7 +848,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la descripción de características de la piel.",
       "questions": [
         {
-          "question": "[[The|el/la]] [[young|joven]] [[fair|clara]]-skinned [[girl|niñ[[a|un]]]] [[with|con]] [[red|rojo]] [[hair|cabello]] [[has|tiene]] _______ [[on|en]] [[her|su]] [[cheeks|mejillas]].",
+          "question": "[[The|el/la]] [[young|joven]] [[fair|clara]]-skinned [[girl|niña]] [[with|con]] [[red|rojo]] [[hair|cabello]] [[has|tiene]] _______ [[on|en]] [[her|su]] [[cheeks|mejillas]].",
           "options": ["[[freckles|pecas]]", "[[wrinkles|arrugas]]", "[[spots|manchas]]"],
           "correctAnswer": 0,
           "explanation": "[[Fair|clara]]-skinned [[people|gente]] [[with|con]] [[red|rojo]] [[hair|cabello]] commonly [[have|tengo/tienes/tienen]] 'freckles' (pecas) [[on|en]] [[their|su]] [[cheeks|mejillas]] - [[a|un/una]] natural [[feature|característica]] caused by sun exposure."
@@ -1188,7 +1188,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[What color is the jacket Sophie is wearing today|¿Qué color tiene la chaqueta que Sophie lleva hoy?]]?",
     "content": {
-      "title": "Comprehension: Clothing",
+      "title": "[[Comprehension|Comprensión]]: [[Clothing|Ropa]]",
       "instructions": "Responde basándote en el texto.",
       "questions": [
         {
