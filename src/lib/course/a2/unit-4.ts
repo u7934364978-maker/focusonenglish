@@ -991,10 +991,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa cómo se viste.",
       "questions": [
         {
-          "question": "[[The|el/la/los/las]] businessman arriving [[at|en]] [[a|un/una]] [[formal|formal]] board meeting [[in|en]] [[a|un/una]] tailored suit [[and|y]] polished [[shoes|zapatos]] [[is|es/está]] dressed [[very|muy]] _______.",
+          "question": "[[The|el/la/los/las]] [[businessman|hombre de negocios]] [[arriving|llegando]] [[at|en]] [[a|un/una]] [[formal|formal]] [[board|junta]] meeting [[in|en]] [[a|un/una]] [[tailored|ajustada]] suit [[and|y]] polished [[shoes|zapatos]] [[is|es/está]] dressed [[very|muy]] _______.",
           "options": ["[[casually|informalmente]]", "[[smartly|elegantemente]]", "[[messily|desordenadamente]]"],
           "correctAnswer": 1,
-          "explanation": "[[A|un/una]] tailored suit [[and|y]] polished [[shoes|zapatos]] [[at|en]] [[a|un/una]] [[formal|formal]] board meeting indicates someone [[is|es/está]] dressed '[[smartly|elegantemente]]' (elegantemente) - [[the|el/la/los/las]] professional [[choice|opción]]."
+          "explanation": "[[A|un/una]] [[tailored|ajustada]] [[suit|traje]] [[and|y]] polished [[shoes|zapatos]] [[at|en]] [[a|un/una]] [[formal|formal]] [[board|junta]] [[meeting|reunión]] [[indicates|indica]] someone [[is|es/está]] dressed '[[smartly|elegantemente]]' (elegantemente) - [[the|el/la/los/las]] [[professional|profesional]] [[choice|opción]]."
         }
       ]
     },
@@ -1030,10 +1030,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la descripción de constitución atlética.",
       "questions": [
         {
-          "question": "[[The|el/la]] weightlifter who trains 6 hours daily [[has|tiene]] [[a|un]] _______ [[build|constitución]].",
+          "question": "[[The|el/la]] [[weightlifter|levantador de pesas]] [[who|quién]] [[trains|entrena]] 6 [[hours|horas]] daily [[has|tiene]] [[a|un]] _______ [[build|constitución]].",
           "options": ["[[strong|fuerte]]", "[[muscular|musculosa]]", "[[athletic|atlética]]"],
           "correctAnswer": 1,
-          "explanation": "Someone [[who|quién]] [[trains|entrena]] intensively as [[a|un/una]] weightlifter develops [[a|un/una]] '[[muscular|muscular]] [[build|constitución]]' (constitución musculosa) - [[visible|visible]] [[muscle|músculo]] [[development|desarrollo]] [[from|de]] [[strength|fuerza]] [[training|entrenamiento]]."
+          "explanation": "Someone [[who|quién]] [[trains|entrena]] [[intensively|intensamente]] [[as|como]] [[a|un/una]] [[weightlifter|levantador de pesas]] [[develops|desarrolla]] [[a|un/una]] '[[muscular|muscular]] [[build|constitución]]' (constitución musculosa) - [[visible|visible]] [[muscle|músculo]] [[development|desarrollo]] [[from|de]] [[strength|fuerza]] [[training|entrenamiento]]."
         }
       ]
     },
@@ -1069,10 +1069,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Completa la descripción de la voz.",
       "questions": [
         {
-          "question": "[[The|el/la]] professional news broadcaster [[with|con]] excellent diction [[and|y]] audible pronunciation [[has|tiene]] [[a|un]] _______ [[voice|voz]].",
+          "question": "[[The|el/la]] [[professional|profesional]] [[news|noticias]] [[broadcaster|locutor]] [[with|con]] [[excellent|excelente]] [[diction|dicción]] [[and|y]] [[audible|audible]] [[pronunciation|pronunciación]] [[has|tiene]] [[a|un]] _______ [[voice|voz]].",
           "options": ["[[soft|suave]]", "[[high|aguda]]", "[[clear|clara]]"],
           "correctAnswer": 2,
-          "explanation": "Professional broadcasters [[with|con]] [[excellent|excelente]] diction [[are|sois/está[[is|es/está]]/[[son|hijo]]/están]] known [[for|para]] having [[a|un/una]] 'clear voice' (voz clara) - easily understood [[and|y]] well-articulated."
+          "explanation": "[[Professional|Profesional]] [[broadcasters|locutores]] [[with|con]] [[excellent|excelente]] [[diction|dicción]] [[are|están]] [[known|conocidos]] [[for|por]] [[having|tener]] [[a|un/una]] '[[clear|clara]] [[voice|voz]]' (voz clara) - [[easily|fácilmente]] [[understood|entendida]] [[and|y]] [[well-articulated|bien articulada]]."
         }
       ]
     },
