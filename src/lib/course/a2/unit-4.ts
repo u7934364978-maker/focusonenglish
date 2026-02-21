@@ -851,7 +851,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
           "question": "[[The|el/la]] [[young|joven]] [[fair|clara]]-skinned [[girl|niña]] [[with|con]] [[red|rojo]] [[hair|cabello]] [[has|tiene]] _______ [[on|en]] [[her|su]] [[cheeks|mejillas]].",
           "options": ["[[freckles|pecas]]", "[[wrinkles|arrugas]]", "[[spots|manchas]]"],
           "correctAnswer": 0,
-          "explanation": "[[Fair|clara]]-skinned [[people|gente]] [[with|con]] [[red|rojo]] [[hair|cabello]] [[commonly|comúnmente]] [[have|tengo/tienes/tienen]] '[[freckles|pecas]]' (pecas) [[on|en]] [[their|su]] [[cheeks|mejillas]] - [[a|un/una]] [[natural|natural]] [[feature|característica]] [[caused|causada]] by [[sun|sol]] [[exposure|exposición]]."
+          "explanation": "[[Fair|clara]]-skinned [[people|gente]] [[with|con]] [[red|rojo]] [[hair|cabello]] [[commonly|comúnmente]] [[have|tengo/tienes/tienen]] '[[freckles|pecas]]' (pecas) [[on|en]] [[their|su]] [[cheeks|mejillas]] - [[a|un/una]] [[natural|natural]] [[feature|característica]] [[caused|causada]] [[by|por]] [[sun|sol]] [[exposure|exposición]]."
         }
       ]
     },
@@ -952,10 +952,10 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       "instructions": "Según la descripción, completa sobre apariencia física.",
       "questions": [
         {
-          "question": "[[Tom|Tom]], [[the|el/la]] star soccer player, [[is|es]] _______ [[and|y]] [[athletic|atlético]].",
+          "question": "[[Tom|Tom]], [[the|el/la]] [[star|estrella]] [[soccer|fútbol]] [[player|jugador]], [[is|es]] _______ [[and|y]] [[athletic|atlético]].",
           "options": ["[[beautiful|hermoso]]", "[[tall|alto]]", "[[slim|delgado]]"],
           "correctAnswer": 1,
-          "explanation": "Star soccer players [[typically|típicamente]] [[are|sois/está[[is|es/está]]/[[son|hijo]]/están]] '[[tall|alto]]' (alto) [[and|y]] [[athletic|atlético]] - height gives [[them|los/las]] [[an|un/una]] advantage [[in|en]] [[the|el/la/los/las]] [[sport|deporte]]."
+          "explanation": "[[Star|Estrella]] [[soccer|fútbol]] [[players|jugadores]] [[typically|típicamente]] [[are|son]] '[[tall|alto]]' (alto) [[and|y]] [[athletic|atlético]] - height gives [[them|les]] [[an|un/una]] advantage [[in|en]] [[the|el/la/los/las]] [[sport|deporte]]."
         }
       ]
     },

@@ -46,6 +46,17 @@ Fixed all bare English words not wrapped in [[word|translation]] format includin
 - **Files Modified**: 2 files changed, 19 insertions(+), 14 deletions(-)
 - **Status**: ✅ Pushed to main branch
 
+### [x] Fix Exercise 13 untranslated words
+Fixed missing translations in exercise 13 (a2-u4-e13) - "Height and Build":
+- Added translations for: basketball, player, who, reaches, high, shelves, ladder, objects
+- Lines updated: 253 (question), 256 (explanation)
+
+### [x] Git commit & push (Exercise 13 fixes)
+- **Commit Hash**: `c0257c15`
+- **Message**: "Fix A2 Unit 4 Exercise 13: Add missing translations for basketball, player, who, reaches, high, shelves, ladder, objects"
+- **Files Modified**: 2 files changed, 14 insertions(+), 2 deletions(-)
+- **Status**: ✅ Pushed to main branch
+
 ---
 
 ## Workflow Steps
