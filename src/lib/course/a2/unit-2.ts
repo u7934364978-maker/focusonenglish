@@ -1077,14 +1077,14 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "difficulty": "hard",
     "transcript": "[[What is your professional background|¿Cuál es tu trasfondo profesional?]]?",
     "content": {
-      "title": "Questions: Professional Background",
-      "instructions": "Pregunta sobre experiencia profesional.",
+      "title": "[[Questions|Preguntas]]: [[Professional Background|Trasfondo Profesional]]",
+      "instructions": "Responde a la pregunta sobre experiencia profesional.",
       "questions": [
         {
-          "question": "[[What|¿Qué]] [[is|es]] [[your|tu]] [[experience|experiencia]]?",
-          "options": ["[[Is correct|Es correcto]]", "[[Is good question|Es buena pregunta]]", "[[Grammatically correct|Gramaticalmente correcto]]"],
-          "correctAnswer": 2,
-          "explanation": "[[What|qué]] + [[is|es/está]] + [[your|tu]] + noun?"
+          "question": "[[What|¿Qué]] [[is|es]] [[your|tu]] [[professional|profesional]] [[experience|experiencia]]?",
+          "options": ["[[I am a software engineer|Soy ingeniero de software]]", "[[That is a good question|Esa es una buena pregunta]]", "[[You work very hard|Trabajas muy duro]]"],
+          "correctAnswer": 0,
+          "explanation": "Esta pregunta solicita información sobre experiencia profesional. La respuesta correcta describe una ocupación. '[[I am a|Soy un/una]] + profesión' es la estructura correcta para responder."
         }
       ]
     },

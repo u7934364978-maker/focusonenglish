@@ -57,6 +57,29 @@ Fixed missing translations in exercise 13 (a2-u4-e13) - "Height and Build":
 - **Files Modified**: 2 files changed, 14 insertions(+), 2 deletions(-)
 - **Status**: ✅ Pushed to main branch
 
+### [x] Fix Exercise 43 and 47 untranslated words
+Fixed additional untranslated words found during comprehensive scan:
+- **Exercise 43**: Added translation for "by" (por) in explanation
+- **Exercise 47**: Added translations for "star", "soccer", "players" in question and explanation
+
+### [x] Final verification & commit
+- **Commit Hash**: `df65de80`
+- **Message**: "Fix A2 Unit 4: Add final missing translations for exercises 43 and 47 (by, star, soccer, players)"
+- **Files Modified**: 2 files changed, 14 insertions(+), 3 deletions(-)
+- **Status**: ✅ All exercises in A2 Unit 4 are now fully translated
+- **Verification**: Comprehensive scan confirms no remaining untranslated English words
+
+---
+
+## ✅ TASK COMPLETED: A2 Unit 4 Complete Translation Review
+
+### Summary
+- Fixed **7 instances** of nested/malformed brackets
+- Added Spanish translations to **9 untranslated titles**
+- Fixed **25+ exercises** with untranslated English words
+- **3 major commits** completed
+- **Final Status**: All words in A2 Unit 4 exercises now properly translated in [[English|Español]] format
+
 ---
 
 ## Workflow Steps
