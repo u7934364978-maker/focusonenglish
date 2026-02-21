@@ -123,20 +123,39 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a2-u4-e7",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A2",
     "topic": "Physical Description",
     "difficulty": "easy",
     "transcript": "[[The boy has got a round face|El niño tiene la cara redonda]].",
     "content": {
       "title": "[[Face|Cara]] [[Shapes|Formas]]",
-      "instructions": "Selecciona la palabra correcta para forma de cara.",
-      "questions": [
+      "instructions": "Relaciona cada palabra con su definición.",
+      "pairs": [
         {
-          "question": "[[The|el/la]] [[young|joven]] [[girl|niña]] [[with|con]] [[soft|suave]], [[youthful|juvenil]] [[features|características]] [[has got|tiene]] [[an|un]] _______ [[face|cara]].",
-          "options": ["[[round|redonda]]", "[[long|larga]]", "[[square|cuadrada]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Soft|suave]], [[youthful|juvenil]] [[features|características]] [[typically|típicamente]] correspond [[to|a]] [[a|un/una]] '[[round|redonda]] [[face|cara]]' (cara redonda)."
+          "word": "[[round|redonda]]",
+          "definition": "[[circular in shape|circular en forma]]",
+          "translation": "redonda"
+        },
+        {
+          "word": "[[long|larga]]",
+          "definition": "[[extended in length|extendida en longitud]]",
+          "translation": "larga"
+        },
+        {
+          "word": "[[square|cuadrada]]",
+          "definition": "[[having four equal angles|teniendo cuatro ángulos iguales]]",
+          "translation": "cuadrada"
+        },
+        {
+          "word": "[[narrow|estrecha]]",
+          "definition": "[[not wide|no ancha]]",
+          "translation": "estrecha"
+        },
+        {
+          "word": "[[broad|ancha]]",
+          "definition": "[[wide and spacious|ancha y espaciosa]]",
+          "translation": "ancha"
         }
       ]
     },
@@ -162,20 +181,39 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a2-u4-e9",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A2",
     "topic": "Physical Description",
     "difficulty": "medium",
     "transcript": "[[She has got small ears|Tiene las orejas pequeñas]].",
     "content": {
       "title": "[[Ears|Orejas]]",
-      "instructions": "Completa la oración sobre orejas.",
-      "questions": [
+      "instructions": "Relaciona cada palabra con su sinónimo.",
+      "pairs": [
         {
-          "question": "[[The|el/la]] [[boy|niño]] who [[is|es]] [[self-conscious|cohibido]] [[about|sobre]] his [[prominent|prominente]] [[ears|orejas]] [[has got|tiene]] _______ [[ears|orejas]].",
-          "options": ["[[big|grandes]]", "[[small|pequeñas]]", "[[tall|altas]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Being|siendo]] [[self-conscious|cohibido]] [[about|sobre]] [[prominent|prominente]] [[features|características]] [[suggests|sugiere]] '[[has got|tiene/tienen]] [[big|grande]] [[ears|oídos]]' (tiene las orejas grandes)."
+          "word": "[[big|grandes]]",
+          "definition": "[[large in size|grande en tamaño]]",
+          "translation": "grandes"
+        },
+        {
+          "word": "[[small|pequeñas]]",
+          "definition": "[[little in size|poco en tamaño]]",
+          "translation": "pequeñas"
+        },
+        {
+          "word": "[[prominent|prominentes]]",
+          "definition": "[[noticeable and standing out|notorio y destacado]]",
+          "translation": "prominentes"
+        },
+        {
+          "word": "[[delicate|delicadas]]",
+          "definition": "[[fine and fragile|fino y frágil]]",
+          "translation": "delicadas"
+        },
+        {
+          "word": "[[pointed|puntiagudas]]",
+          "definition": "[[having a sharp tip|teniendo una punta afilada]]",
+          "translation": "puntiagudas"
         }
       ]
     },
@@ -201,20 +239,39 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a2-u4-e11",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A2",
     "topic": "Physical Description",
     "difficulty": "medium",
     "transcript": "[[The girl has got blonde hair|La niña tiene el cabello rubio]].",
     "content": {
       "title": "[[Hair|Cabello]] [[Colors|Colores]]",
-      "instructions": "Según la descripción, selecciona el color de cabello correcto.",
-      "questions": [
+      "instructions": "Relaciona cada color de cabello con su descripción.",
+      "pairs": [
         {
-          "question": "[[The|el/la]] [[girl|niña]] [[from|de]] Scandinavia [[with|con]] [[fair|clara]] [[skin|piel]] [[has got|tiene]] _______ [[hair|cabello]].",
-          "options": ["[[blonde|rubio]]", "[[black|negro]]", "[[red|rojo]]"],
-          "correctAnswer": 0,
-          "explanation": "[[People|gente]] [[from|de]] Scandinavia [[typically|típicamente]] [[have|tengo/tienes/tienen]] '[[blonde|rubio/rubia]] [[hair|cabello]]' (cabello rubio). [[Fair|clara]] [[skin|piel]] [[is|es/está]] [[commonly|comúnmente]] associated [[with|con]] [[blonde|rubio/rubia]] [[hair|cabello]]."
+          "word": "[[blonde|rubio]]",
+          "definition": "[[light yellow color|color amarillo claro]]",
+          "translation": "rubio"
+        },
+        {
+          "word": "[[black|negro]]",
+          "definition": "[[darkest color|color más oscuro]]",
+          "translation": "negro"
+        },
+        {
+          "word": "[[red|rojo]]",
+          "definition": "[[color like fire|color como fuego]]",
+          "translation": "rojo"
+        },
+        {
+          "word": "[[brown|marrón]]",
+          "definition": "[[dark earth color|color marrón oscuro]]",
+          "translation": "marrón"
+        },
+        {
+          "word": "[[gray|gris]]",
+          "definition": "[[color between black and white|color entre negro y blanco]]",
+          "translation": "gris"
         }
       ]
     },
