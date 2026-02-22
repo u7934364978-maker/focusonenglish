@@ -120,6 +120,24 @@ Implement the task according to the technical specification and general engineer
 
 ---
 
+### [x] Step: Critical Hotfix - Undefined .split() TypeError (Round 4 - Additional)
+
+**Issue**: `Uncaught TypeError: can't access property "split", e is undefined` (additional locations in API routes and components)
+
+**Additional Fixes Applied**:
+- dashboard/page.tsx: Add null check for userData.level
+- blog/[category]/[slug]/page.tsx: Add null check for article.content
+- cuenta/registro/page.tsx: Add null check for formData.firstName
+- api/evaluate-writing/route.ts: Add null check for essay parameter
+- api/webhooks/stripe/route.ts: Add null check for customer_details.name
+- components/course/StudyPremium.client.tsx: Add null checks in extractLines and extractPhrases
+- components/course/renderers/WritingRenderer.tsx: Add null check for wordCount
+- Commit: `c330f2cf`
+- Build Status: ✅ Success
+- Changes: 7 files modified
+
+---
+
 ### [x] Step: Ready for New Feature Development
 
 **Status**: ✅ COMPLETE
@@ -132,6 +150,7 @@ All critical errors resolved. Application is stable and ready for new feature de
 - Commit `22a32535`: Fixed undefined.split() in 2 files (Round 1)
 - Commit `adb3ecaa`: Fixed undefined.split() in 4 additional files (Round 2)
 - Commit `29fa67cf`: Fixed undefined.split() comprehensively in 7 files (Round 3 - Final)
+- Commit `c330f2cf`: Fixed undefined.split() in additional locations (Round 4)
 
 **Application Status**: 
 - ✅ Builds successfully
