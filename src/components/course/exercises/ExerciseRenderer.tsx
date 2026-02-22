@@ -513,7 +513,7 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
 
   // --- FALLBACK FOR FILL BLANKS ---
   if (ex.type === "fillBlanks") {
-    const parts = ex.text.split("___");
+    const parts = (ex.text || "").split("___");
     return (
       <div className="space-y-4">
         {ex.instructions && <p className="text-sm font-bold text-slate-500 uppercase tracking-tight">{ex.instructions}</p>}
