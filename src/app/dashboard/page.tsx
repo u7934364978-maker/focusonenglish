@@ -179,7 +179,7 @@ export default function DashboardPage() {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-3xl font-bold">
-                ¡Hola, {userData.name.split(' ')[0]}! 👋
+                ¡Hola, {(userData.name || "").split(' ')[0]}! 👋
               </h1>
               <p className="text-base text-coral-100 mt-2">
                 Continúa fortaleciendo tu inglés • Nivel: <span className="font-bold text-white">{userData.level}</span> {userData.userLevel > 0 && <span className="ml-2 bg-white/20 px-3 py-1 rounded-full text-xs font-bold text-white border border-white/30">{userData.levelTitle} (Lvl {userData.userLevel})</span>}

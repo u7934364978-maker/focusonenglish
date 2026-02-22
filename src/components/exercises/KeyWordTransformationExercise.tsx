@@ -119,6 +119,7 @@ export default function KeyWordTransformationExercise({ exercise, onComplete, on
 
   // Count word limit for each transformation (3-6 words including key word)
   const getWordCount = (text: string): number => {
+    if (!text) return 0;
     return text.trim().split(/\s+/).filter(word => word.length > 0).length;
   };
 

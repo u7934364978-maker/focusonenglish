@@ -578,7 +578,7 @@ export default function EnhancedVoiceRecorder({
             </div>
             <div className="mt-3 flex items-center gap-2 text-sm text-amber-700">
               <span>📊</span>
-              <span>Word count: <strong>{transcript.trim().split(/\s+/).length}</strong> words</span>
+              <span>Word count: <strong>{(transcript || "").trim().split(/\s+/).length}</strong> words</span>
             </div>
           </div>
         )}

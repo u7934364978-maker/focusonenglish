@@ -167,7 +167,7 @@ export const localCourseService = {
       if (Array.isArray(ans)) return ans;
       if (typeof ans !== 'string') return ans.toString();
       
-      if (ans.includes('/')) {
+      if (ans && ans.includes && ans.includes('/')) {
         return ans.split('/').map(a => a.trim()).filter(Boolean);
       }
       return ans;

@@ -293,7 +293,7 @@ export default function WeeklyCourseViewer({ weekData }: WeeklyCourseViewerProps
                             <h3 className={`font-bold transition-colors ${
                               isCompleted ? 'text-green-700' : 'text-slate-900 group-hover:text-coral-600'
                             }`}>
-                              Activity {activity.id.split('-').pop()}
+                              Activity {(activity.id || "").split('-').pop()}
                             </h3>
                           </div>
                         </div>

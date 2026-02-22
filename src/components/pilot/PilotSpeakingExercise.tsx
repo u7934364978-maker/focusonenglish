@@ -99,7 +99,7 @@ export default function PilotSpeakingExercise({
           Mission Objective
         </div>
         <h4 className="text-2xl font-black text-slate-900 dark:text-white mb-4 leading-tight">
-          {prompt.split('. ').map((sentence, i) => (
+          {(prompt || "").split('. ').map((sentence, i) => (
             <span key={i} className="block">{sentence}{i === 0 ? '.' : ''}</span>
           ))}
         </h4>
