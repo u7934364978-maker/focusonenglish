@@ -47,8 +47,8 @@ export async function POST(request: NextRequest) {
       console.log('💰 Processing Checkout Session:', session.id);
       
       const customerEmail = session.customer_details?.email || session.customer_email || session.metadata?.email;
-      const firstName = session.metadata?.firstName || session.customer_details?.name?.split(' ')[0] || '';
-      const lastName = session.metadata?.lastName || session.customer_details?.name?.split(' ').slice(1).join(' ') || '';
+      const firstName = session.metadata?.firstName || (session.customer_details?.name || "").split(' ')[0] || '';
+      const lastName = session.metadata?.lastName || (session.customer_details?.name || "").split(' ').slice(1).join(' ') || '';
       const planName = session.metadata?.planName || 'Plan Estándar';
 
       if (!customerEmail) {

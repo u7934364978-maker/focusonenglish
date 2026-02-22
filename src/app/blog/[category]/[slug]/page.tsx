@@ -89,7 +89,7 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
   }
 
   // Generate Article Schema for SEO
-  const wordCount = article.content.split(/\s+/).length;
+  const wordCount = (article.content || "").split(/\s+/).length;
 
   const categoryLabels: Record<string, string> = {
     trabajo: "Inglés para Trabajar",

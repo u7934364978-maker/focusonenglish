@@ -505,7 +505,7 @@ export default function DashboardPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Academic Line */}
               <Link
-                href={`/dashboard/examenes/${userData.level.split('(')[1]?.replace(')', '') || 'C1'}`}
+                href={`/dashboard/examenes/${(userData.level || "").split('(')[1]?.replace(')', '') || 'C1'}`}
                 className="group bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all border-2 border-purple-50 hover:border-purple-200 hover:-translate-y-2 transform relative overflow-hidden"
               >
                 <div className="absolute top-0 right-0 w-32 h-32 bg-purple-50 rounded-bl-full -mr-16 -mt-16 group-hover:scale-110 transition-transform" />

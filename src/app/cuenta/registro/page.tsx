@@ -98,7 +98,7 @@ export default function SignupPage() {
 
     try {
       // Separar nombre completo
-      const [firstName, ...lastNameParts] = formData.firstName.split(" ");
+      const [firstName, ...lastNameParts] = (formData.firstName || "").split(" ");
       const lastName = lastNameParts.join(" ") || formData.lastName || "N/A";
 
       // 1. Guardar en HubSpot

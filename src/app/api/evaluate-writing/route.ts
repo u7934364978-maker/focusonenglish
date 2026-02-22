@@ -102,7 +102,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Calculate word count
-    const wordCount = essay.split(/\s+/).filter(w => w.length > 0).length;
+    const wordCount = (essay || "").split(/\s+/).filter(w => w.length > 0).length;
     
     // Word count validation
     let wordCountFeedback = '';

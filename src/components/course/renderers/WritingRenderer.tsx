@@ -26,7 +26,7 @@ export default function WritingRenderer({
   lessonLevel
 }: WritingRendererProps) {
   const currentAnswer = answers[exercise.id] || '';
-  const wordCount = currentAnswer.split(/\s+/).filter(w => w.length > 0).length;
+  const wordCount = (currentAnswer || "").split(/\s+/).filter(w => w.length > 0).length;
 
   return (
     <div className="space-y-8 animate-in fade-in duration-500">

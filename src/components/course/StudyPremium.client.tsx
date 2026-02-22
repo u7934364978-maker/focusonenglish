@@ -13,13 +13,13 @@ const TAB_LABEL: Record<TabKey, string> = {
 };
 
 function extractLines(md: string, starts: string[]) {
-  const lines = md.split("\n").map(l => l.trim());
+  const lines = (md || "").split("\n").map(l => l.trim());
   return lines.filter(l => starts.some(s => l.startsWith(s)));
 }
 
 function extractPhrases(md: string) {
   // Extract simple reusable lines (very MVP)
-  const lines = md.split("\n").map(l => l.trim());
+  const lines = (md || "").split("\n").map(l => l.trim());
   return lines
     .filter(l =>
       l &&
