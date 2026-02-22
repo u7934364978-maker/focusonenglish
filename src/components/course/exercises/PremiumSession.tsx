@@ -1858,7 +1858,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       case 'listening_dictation':
         const template = interaction.transcript_template || interaction.transcriptTemplate || "";
         const blanks = (template.match(/___/g) || []).length;
-        const parts = template.split('___');
+        const templateParts = template.split('___');
         
         return (
           <div className="w-full max-w-2xl mx-auto space-y-8">
@@ -1877,10 +1877,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
               
               <div className="bg-white p-6 rounded-2xl border-2 border-orange-200">
                 <div className="text-xl leading-relaxed flex flex-wrap items-center justify-center gap-2">
-                  {parts.map((part: string, idx: number) => (
+                  {templateParts.map((part: string, idx: number) => (
                     <React.Fragment key={idx}>
                       {part && <span className="text-slate-700">{part}</span>}
-                      {idx < parts.length - 1 && (
+                      {idx < templateParts.length - 1 && (
                         <input
                           type="text"
                           value={inputValues[idx] || ""}
