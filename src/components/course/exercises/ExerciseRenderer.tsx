@@ -4,7 +4,8 @@ import React, { useState, useRef, useEffect, useImperativeHandle, forwardRef } f
 import type { 
   ExerciseItem, 
   ReadingExercise, 
-  ListeningExercise, 
+  ListeningExercise,
+  DictationExercise,
   MatchingExercise,
   ReadingQuestion,
   WordSearchExercise as WordSearchType,
@@ -18,6 +19,7 @@ import WordSearchExercise from "../../exercises/WordSearchExercise";
 import CrosswordExercise from "../../exercises/CrosswordExercise";
 import FlashcardExercise from "../../exercises/FlashcardExercise";
 import DragDropExercise from "../../exercises/DragDropExercise";
+import DictationRenderer from "../renderers/DictationRenderer";
 
 export interface ExerciseRendererRef {
   check: () => boolean;
@@ -55,7 +57,7 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
         onResult(allCorrect);
         return allCorrect;
       }
-      if (ex.type === "fillBlanks") {
+      if (ex.type === "fillBlanks" || ex.type === "listening_dictation") {
         const correctAnswers = (ex as any).answers.map((a: string) => a.toLowerCase().trim());
         const userAnswers = fillAnswers.map((a: string) => (a || "").toLowerCase().trim());
         const allCorrect = correctAnswers.every((a: string, i: number) => a === userAnswers[i]);
@@ -88,7 +90,7 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
         const questions = (ex as any).questions as ReadingQuestion[];
         const answeredCount = Object.keys(multiAnswers).length;
         onSelectionChange(answeredCount === questions.length);
-      } else if (ex.type === "fillBlanks") {
+      } else if (ex.type === "fillBlanks" || ex.type === "listening_dictation") {
         const correctAnswers = (ex as any).answers;
         const filledCount = fillAnswers.filter(a => a && a.trim().length > 0).length;
         onSelectionChange(filledCount === correctAnswers.length);
@@ -362,6 +364,17 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
           )}
         </div>
       </div>
+    );
+  }
+
+  if (ex.type === "listening_dictation") {
+    const dex = ex as DictationExercise;
+    return (
+      <DictationRenderer
+        exercise={dex}
+        onComplete={onResult}
+        showFeedback={submitted}
+      />
     );
   }
 

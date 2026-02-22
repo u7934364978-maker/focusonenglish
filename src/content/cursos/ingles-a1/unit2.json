@@ -270,6 +270,24 @@
           "stimulus_es": "Ella es muy inteligente",
           "correct_answer": "She is very smart",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I25",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/a1/unit2/greeting.mp3",
+          "transcript_template": "Nice to ___ you!",
+          "correct_answer": "meet",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U2_I26",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/a1/unit2/introduction.mp3",
+          "transcript_template": "I ___ a student.",
+          "correct_answer": "am",
+          "mastery_tag": "listening"
         }
       ]
     }

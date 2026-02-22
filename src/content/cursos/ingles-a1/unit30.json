@@ -5861,6 +5861,24 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I301",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit30/review.mp3",
+          "transcript_template": "Let's ___ what we learned.",
+          "correct_answer": "review",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U30_I302",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit30/practice.mp3",
+          "transcript_template": "___ makes perfect!",
+          "correct_answer": "Practice",
+          "mastery_tag": "listening"
         }
       ]
     }

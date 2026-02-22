@@ -3790,6 +3790,24 @@
           "prompt_es": "Escribe 'Yo limpié la ventana':",
           "correct_answer": "I cleaned the window",
           "mastery_tag": "past_simple_regular_verbs"
+        },
+        {
+          "interaction_id": "U10_I201",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit10/time.mp3",
+          "transcript_template": "What ___ is it?",
+          "correct_answer": "time",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U10_I202",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit10/oclock.mp3",
+          "transcript_template": "It's three ___.",
+          "correct_answer": "o'clock",
+          "mastery_tag": "listening"
         }
       ]
     }

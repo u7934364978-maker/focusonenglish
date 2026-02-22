@@ -17,12 +17,33 @@
           "type": "matching",
           "prompt_es": "Une la palabra con su traducción correcta:",
           "pairs": [
-            { "id": "p0", "left": "Understand", "right": "Entender" },
-            { "id": "p1", "left": "Speak", "right": "Hablar" },
-            { "id": "p2", "left": "Write", "right": "Escribir" },
-            { "id": "p3", "left": "Read", "right": "Leer" }
+            {
+              "id": "p0",
+              "left": "Understand",
+              "right": "Entender"
+            },
+            {
+              "id": "p1",
+              "left": "Speak",
+              "right": "Hablar"
+            },
+            {
+              "id": "p2",
+              "left": "Write",
+              "right": "Escribir"
+            },
+            {
+              "id": "p3",
+              "left": "Read",
+              "right": "Leer"
+            }
           ],
-          "correct_answer": { "p0": "p0", "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -45,13 +66,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Ellos estudian en la universidad'",
           "options": [
-            { "id": "w0", "text": "They" },
-            { "id": "w1", "text": "study" },
-            { "id": "w2", "text": "at" },
-            { "id": "w3", "text": "the" },
-            { "id": "w4", "text": "university" }
+            {
+              "id": "w0",
+              "text": "They"
+            },
+            {
+              "id": "w1",
+              "text": "study"
+            },
+            {
+              "id": "w2",
+              "text": "at"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "university"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -67,9 +109,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Aprender' en inglés?",
           "options": [
-            { "id": "o1", "text": "Learn" },
-            { "id": "o2", "text": "Read" },
-            { "id": "o3", "text": "Speak" }
+            {
+              "id": "o1",
+              "text": "Learn"
+            },
+            {
+              "id": "o2",
+              "text": "Read"
+            },
+            {
+              "id": "o3",
+              "text": "Speak"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -79,12 +130,33 @@
           "type": "matching",
           "prompt_es": "Acciones comunes:",
           "pairs": [
-            { "id": "p0", "left": "Work", "right": "Trabajar" },
-            { "id": "p1", "left": "Live", "right": "Vivir" },
-            { "id": "p2", "left": "Eat", "right": "Comer" },
-            { "id": "p3", "left": "Drink", "right": "Beber" }
+            {
+              "id": "p0",
+              "left": "Work",
+              "right": "Trabajar"
+            },
+            {
+              "id": "p1",
+              "left": "Live",
+              "right": "Vivir"
+            },
+            {
+              "id": "p2",
+              "left": "Eat",
+              "right": "Comer"
+            },
+            {
+              "id": "p3",
+              "left": "Drink",
+              "right": "Beber"
+            }
           ],
-          "correct_answer": { "p0": "p0", "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -107,12 +179,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Uso mi ordenador'",
           "options": [
-            { "id": "w1", "text": "use" },
-            { "id": "w2", "text": "my" },
-            { "id": "w3", "text": "computer" },
-            { "id": "w0", "text": "I" }
+            {
+              "id": "w1",
+              "text": "use"
+            },
+            {
+              "id": "w2",
+              "text": "my"
+            },
+            {
+              "id": "w3",
+              "text": "computer"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -128,9 +217,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Vivir' en inglés?",
           "options": [
-            { "id": "o1", "text": "Live" },
-            { "id": "o2", "text": "Like" },
-            { "id": "o3", "text": "Look" }
+            {
+              "id": "o1",
+              "text": "Live"
+            },
+            {
+              "id": "o2",
+              "text": "Like"
+            },
+            {
+              "id": "o3",
+              "text": "Look"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -140,12 +238,33 @@
           "type": "matching",
           "prompt_es": "Más verbos:",
           "pairs": [
-            { "id": "p0", "left": "Help", "right": "Ayudar" },
-            { "id": "p1", "left": "Visit", "right": "Visitar" },
-            { "id": "p2", "left": "Watch", "right": "Mirar" },
-            { "id": "p3", "left": "Study", "right": "Estudiar" }
+            {
+              "id": "p0",
+              "left": "Help",
+              "right": "Ayudar"
+            },
+            {
+              "id": "p1",
+              "left": "Visit",
+              "right": "Visitar"
+            },
+            {
+              "id": "p2",
+              "left": "Watch",
+              "right": "Mirar"
+            },
+            {
+              "id": "p3",
+              "left": "Study",
+              "right": "Estudiar"
+            }
           ],
-          "correct_answer": { "p0": "p0", "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -168,13 +287,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Comemos a la una'",
           "options": [
-            { "id": "w1", "text": "eat" },
-            { "id": "w2", "text": "at" },
-            { "id": "w3", "text": "one" },
-            { "id": "w4", "text": "o'clock" },
-            { "id": "w0", "text": "We" }
+            {
+              "id": "w1",
+              "text": "eat"
+            },
+            {
+              "id": "w2",
+              "text": "at"
+            },
+            {
+              "id": "w3",
+              "text": "one"
+            },
+            {
+              "id": "w4",
+              "text": "o'clock"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -190,9 +330,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Comer' en inglés?",
           "options": [
-            { "id": "o1", "text": "Eat" },
-            { "id": "o2", "text": "Drink" },
-            { "id": "o3", "text": "Sleep" }
+            {
+              "id": "o1",
+              "text": "Eat"
+            },
+            {
+              "id": "o2",
+              "text": "Drink"
+            },
+            {
+              "id": "o3",
+              "text": "Sleep"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -225,12 +374,33 @@
           "type": "matching",
           "prompt_es": "Sujetos y verbos:",
           "pairs": [
-            { "id": "p1", "left": "I", "right": "Yo" },
-            { "id": "p2", "left": "You", "right": "Tú/Vosotros" },
-            { "id": "p3", "left": "We", "right": "Nosotros" },
-            { "id": "p4", "left": "They", "right": "Ellos" }
+            {
+              "id": "p1",
+              "left": "I",
+              "right": "Yo"
+            },
+            {
+              "id": "p2",
+              "left": "You",
+              "right": "Tú/Vosotros"
+            },
+            {
+              "id": "p3",
+              "left": "We",
+              "right": "Nosotros"
+            },
+            {
+              "id": "p4",
+              "left": "They",
+              "right": "Ellos"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "grammar"
         },
         {
@@ -238,9 +408,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma negativa correcta?",
           "options": [
-            { "id": "o1", "text": "I don't know" },
-            { "id": "o2", "text": "I no know" },
-            { "id": "o3", "text": "I not know" }
+            {
+              "id": "o1",
+              "text": "I don't know"
+            },
+            {
+              "id": "o2",
+              "text": "I no know"
+            },
+            {
+              "id": "o3",
+              "text": "I not know"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -252,6 +431,24 @@
           "stimulus_en": "We ________ English.",
           "correct_answer": "study",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I25",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit14/live.mp3",
+          "transcript_template": "Where do you ___?",
+          "correct_answer": "live",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U14_I26",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit14/city.mp3",
+          "transcript_template": "I live in a ___.",
+          "correct_answer": "city",
+          "mastery_tag": "listening"
         }
       ]
     }

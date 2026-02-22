@@ -6261,6 +6261,24 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U24_I301",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit24/have.mp3",
+          "transcript_template": "I ___ a new car.",
+          "correct_answer": "have",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U24_I302",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit24/has.mp3",
+          "transcript_template": "She ___ two cats.",
+          "correct_answer": "has",
+          "mastery_tag": "listening"
         }
       ]
     }

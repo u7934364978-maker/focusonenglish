@@ -5361,6 +5361,24 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U28_I301",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit28/more.mp3",
+          "transcript_template": "I need ___ time.",
+          "correct_answer": "more",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U28_I302",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit28/than.mp3",
+          "transcript_template": "This is better ___ that.",
+          "correct_answer": "than",
+          "mastery_tag": "listening"
         }
       ]
     }

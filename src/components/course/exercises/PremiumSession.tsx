@@ -1855,6 +1855,62 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
           </div>
         );
 
+      case 'listening_dictation':
+        const template = interaction.transcript_template || interaction.transcriptTemplate || "";
+        const blanks = (template.match(/___/g) || []).length;
+        const parts = template.split('___');
+        
+        return (
+          <div className="w-full max-w-2xl mx-auto space-y-8">
+            <div className="bg-orange-50 p-8 rounded-3xl border-2 border-orange-100">
+              <h3 className="text-2xl font-black text-slate-800 text-center mb-6">{interaction.prompt_es}</h3>
+              
+              <div className="flex justify-center mb-6">
+                <button
+                  onClick={() => playAudio(interaction.audio_url || interaction.audioUrl)}
+                  className="bg-orange-600 text-white px-8 py-4 rounded-2xl font-black text-lg hover:bg-orange-700 transition-all shadow-lg flex items-center gap-3 active:scale-95"
+                >
+                  <Volume2 className="w-6 h-6" />
+                  Reproducir Audio
+                </button>
+              </div>
+              
+              <div className="bg-white p-6 rounded-2xl border-2 border-orange-200">
+                <div className="text-xl leading-relaxed flex flex-wrap items-center justify-center gap-2">
+                  {parts.map((part: string, idx: number) => (
+                    <React.Fragment key={idx}>
+                      {part && <span className="text-slate-700">{part}</span>}
+                      {idx < parts.length - 1 && (
+                        <input
+                          type="text"
+                          value={inputValues[idx] || ""}
+                          disabled={!!feedback}
+                          className={`border-2 rounded-lg px-3 py-2 min-w-[120px] text-center font-bold ${
+                            feedback
+                              ? (inputValues[idx] || "").toLowerCase().trim() === (interaction.correct_answer || "").toLowerCase().trim()
+                                ? "border-green-500 bg-green-50 text-green-700"
+                                : "border-red-500 bg-red-50 text-red-700"
+                              : "border-orange-300 focus:border-orange-500 focus:outline-none"
+                          }`}
+                          placeholder="..."
+                          onChange={(e) => setInputValues(prev => ({ ...prev, [idx]: e.target.value }))}
+                        />
+                      )}
+                    </React.Fragment>
+                  ))}
+                </div>
+              </div>
+              
+              {feedback && feedback.correct === false && (
+                <div className="mt-4 p-4 bg-amber-50 rounded-xl border border-amber-200">
+                  <p className="text-sm font-bold text-amber-800 mb-1">Respuesta correcta:</p>
+                  <p className="text-lg text-amber-700">{interaction.correct_answer}</p>
+                </div>
+              )}
+            </div>
+          </div>
+        );
+
       default:
         return (
           <div className="text-center p-12 bg-slate-50 rounded-[3rem] border-4 border-dashed border-slate-200">

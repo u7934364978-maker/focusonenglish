@@ -7,6 +7,7 @@ export type ExerciseBase = {
     | "errorCorrection"
     | "reading"
     | "listening"
+    | "listening_dictation"
     | "matching"
     | "word-search"
     | "crossword"
@@ -48,6 +49,16 @@ export type ListeningExercise = ExerciseBase & {
   transcript?: string;
   duration: number;
   questions: ReadingQuestion[];
+};
+
+export type DictationExercise = ExerciseBase & {
+  type: "listening_dictation";
+  title: string;
+  audioUrl: string;
+  transcriptTemplate: string;
+  answers: string[];
+  duration?: number;
+  explanation?: string;
 };
 
 export type MatchingPair = {
@@ -159,6 +170,7 @@ export type ExerciseItem =
   | ErrorCorrectionExercise
   | ReadingExercise
   | ListeningExercise
+  | DictationExercise
   | MatchingExercise
   | WordSearchExercise
   | CrosswordExercise

@@ -17,12 +17,33 @@
           "type": "matching",
           "prompt_es": "Relaciona las frutas con su nombre en inglés:",
           "pairs": [
-            { "id": "p1", "left": "Apple", "right": "Manzana" },
-            { "id": "p2", "left": "Banana", "right": "Plátano" },
-            { "id": "p3", "left": "Strawberry", "right": "Fresa" },
-            { "id": "p4", "left": "Orange", "right": "Naranja" }
+            {
+              "id": "p1",
+              "left": "Apple",
+              "right": "Manzana"
+            },
+            {
+              "id": "p2",
+              "left": "Banana",
+              "right": "Plátano"
+            },
+            {
+              "id": "p3",
+              "left": "Strawberry",
+              "right": "Fresa"
+            },
+            {
+              "id": "p4",
+              "left": "Orange",
+              "right": "Naranja"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -30,9 +51,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál de estos alimentos es 'Healthy' (saludable)?",
           "options": [
-            { "id": "o1", "text": "Salad" },
-            { "id": "o2", "text": "Candy" },
-            { "id": "o3", "text": "Soda" }
+            {
+              "id": "o1",
+              "text": "Salad"
+            },
+            {
+              "id": "o2",
+              "text": "Candy"
+            },
+            {
+              "id": "o3",
+              "text": "Soda"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -50,12 +80,33 @@
           "type": "matching",
           "prompt_es": "Une las verduras:",
           "pairs": [
-            { "id": "p1", "left": "Carrot", "right": "Zanahoria" },
-            { "id": "p2", "left": "Broccoli", "right": "Brócoli" },
-            { "id": "p3", "left": "Lettuce", "right": "Lechuga" },
-            { "id": "p4", "left": "Cucumber", "right": "Pepino" }
+            {
+              "id": "p1",
+              "left": "Carrot",
+              "right": "Zanahoria"
+            },
+            {
+              "id": "p2",
+              "left": "Broccoli",
+              "right": "Brócoli"
+            },
+            {
+              "id": "p3",
+              "left": "Lettuce",
+              "right": "Lechuga"
+            },
+            {
+              "id": "p4",
+              "left": "Cucumber",
+              "right": "Pepino"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -71,13 +122,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'La fruta es buena para ti'",
           "options": [
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "good" },
-            { "id": "w3", "text": "for" },
-            { "id": "w4", "text": "you" },
-            { "id": "w0", "text": "Fruit" }
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "good"
+            },
+            {
+              "id": "w3",
+              "text": "for"
+            },
+            {
+              "id": "w4",
+              "text": "you"
+            },
+            {
+              "id": "w0",
+              "text": "Fruit"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -85,9 +157,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Junk food'?",
           "options": [
-            { "id": "o1", "text": "Comida basura" },
-            { "id": "o2", "text": "Comida fresca" },
-            { "id": "o3", "text": "Comida casera" }
+            {
+              "id": "o1",
+              "text": "Comida basura"
+            },
+            {
+              "id": "o2",
+              "text": "Comida fresca"
+            },
+            {
+              "id": "o3",
+              "text": "Comida casera"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -120,12 +201,33 @@
           "type": "matching",
           "prompt_es": "Más alimentos:",
           "pairs": [
-            { "id": "p1", "left": "Yogurt", "right": "Yogur" },
-            { "id": "p2", "left": "Nuts", "right": "Frutos secos" },
-            { "id": "p3", "left": "Honey", "right": "Miel" },
-            { "id": "p4", "left": "Milk", "right": "Leche" }
+            {
+              "id": "p1",
+              "left": "Yogurt",
+              "right": "Yogur"
+            },
+            {
+              "id": "p2",
+              "left": "Nuts",
+              "right": "Frutos secos"
+            },
+            {
+              "id": "p3",
+              "left": "Honey",
+              "right": "Miel"
+            },
+            {
+              "id": "p4",
+              "left": "Milk",
+              "right": "Leche"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -133,9 +235,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Desayuno saludable'?",
           "options": [
-            { "id": "o1", "text": "Healthy breakfast" },
-            { "id": "o2", "text": "Heavy breakfast" },
-            { "id": "o3", "text": "Hungry breakfast" }
+            {
+              "id": "o1",
+              "text": "Healthy breakfast"
+            },
+            {
+              "id": "o2",
+              "text": "Heavy breakfast"
+            },
+            {
+              "id": "o3",
+              "text": "Hungry breakfast"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -145,12 +256,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Te gusta el brócoli?'",
           "options": [
-            { "id": "w1", "text": "do" },
-            { "id": "w2", "text": "you" },
-            { "id": "w3", "text": "like" },
-            { "id": "w4", "text": "broccoli?" }
+            {
+              "id": "w1",
+              "text": "do"
+            },
+            {
+              "id": "w2",
+              "text": "you"
+            },
+            {
+              "id": "w3",
+              "text": "like"
+            },
+            {
+              "id": "w4",
+              "text": "broccoli?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -173,11 +301,27 @@
           "type": "matching",
           "prompt_es": "Relaciona adjetivos:",
           "pairs": [
-            { "id": "p1", "left": "Sweet", "right": "Dulce" },
-            { "id": "p2", "left": "Sour", "right": "Agrio" },
-            { "id": "p3", "left": "Salty", "right": "Salado" }
+            {
+              "id": "p1",
+              "left": "Sweet",
+              "right": "Dulce"
+            },
+            {
+              "id": "p2",
+              "left": "Sour",
+              "right": "Agrio"
+            },
+            {
+              "id": "p3",
+              "left": "Salty",
+              "right": "Salado"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -185,9 +329,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué es 'Watermelon'?",
           "options": [
-            { "id": "o1", "text": "Sandía" },
-            { "id": "o2", "text": "Melón" },
-            { "id": "o3", "text": "Limón" }
+            {
+              "id": "o1",
+              "text": "Sandía"
+            },
+            {
+              "id": "o2",
+              "text": "Melón"
+            },
+            {
+              "id": "o3",
+              "text": "Limón"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -205,13 +358,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Mi comida favorita es la ensalada'",
           "options": [
-            { "id": "w1", "text": "favorite" },
-            { "id": "w2", "text": "food" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "salad" },
-            { "id": "w0", "text": "My" }
+            {
+              "id": "w1",
+              "text": "favorite"
+            },
+            {
+              "id": "w2",
+              "text": "food"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "salad"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -234,11 +408,27 @@
           "type": "matching",
           "prompt_es": "Une los verbos:",
           "pairs": [
-            { "id": "p1", "left": "Wash", "right": "Lavar" },
-            { "id": "p2", "left": "Cut", "right": "Cortar" },
-            { "id": "p3", "left": "Mix", "right": "Mezclar" }
+            {
+              "id": "p1",
+              "left": "Wash",
+              "right": "Lavar"
+            },
+            {
+              "id": "p2",
+              "left": "Cut",
+              "right": "Cortar"
+            },
+            {
+              "id": "p3",
+              "left": "Mix",
+              "right": "Mezclar"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -246,9 +436,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Pera'?",
           "options": [
-            { "id": "o1", "text": "Pear" },
-            { "id": "o2", "text": "Bear" },
-            { "id": "o3", "text": "Peel" }
+            {
+              "id": "o1",
+              "text": "Pear"
+            },
+            {
+              "id": "o2",
+              "text": "Bear"
+            },
+            {
+              "id": "o3",
+              "text": "Peel"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -260,6 +459,24 @@
           "stimulus_en": "The ________ is red.",
           "correct_answer": "apple",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U18_I25",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit18/there.mp3",
+          "transcript_template": "___ is a book on the table.",
+          "correct_answer": "There",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U18_I26",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit18/are.mp3",
+          "transcript_template": "There ___ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "listening"
         }
       ]
     }

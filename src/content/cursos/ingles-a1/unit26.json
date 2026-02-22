@@ -5711,6 +5711,24 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U26_I301",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit26/much.mp3",
+          "transcript_template": "How ___ is it?",
+          "correct_answer": "much",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U26_I302",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit26/many.mp3",
+          "transcript_template": "How ___ apples do you want?",
+          "correct_answer": "many",
+          "mastery_tag": "listening"
         }
       ]
     }

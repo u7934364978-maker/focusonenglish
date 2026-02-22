@@ -17,12 +17,33 @@
           "type": "matching",
           "prompt_es": "Une los días de la semana (Lunes a Jueves):",
           "pairs": [
-            { "id": "p1", "left": "Monday", "right": "Lunes" },
-            { "id": "p2", "left": "Tuesday", "right": "Martes" },
-            { "id": "p3", "left": "Wednesday", "right": "Miércoles" },
-            { "id": "p4", "left": "Thursday", "right": "Jueves" }
+            {
+              "id": "p1",
+              "left": "Monday",
+              "right": "Lunes"
+            },
+            {
+              "id": "p2",
+              "left": "Tuesday",
+              "right": "Martes"
+            },
+            {
+              "id": "p3",
+              "left": "Wednesday",
+              "right": "Miércoles"
+            },
+            {
+              "id": "p4",
+              "left": "Thursday",
+              "right": "Jueves"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -30,12 +51,33 @@
           "type": "matching",
           "prompt_es": "Une los días del fin de semana y otros:",
           "pairs": [
-            { "id": "p1", "left": "Friday", "right": "Viernes" },
-            { "id": "p2", "left": "Saturday", "right": "Sábado" },
-            { "id": "p3", "left": "Sunday", "right": "Domingo" },
-            { "id": "p4", "left": "Weekend", "right": "Fin de semana" }
+            {
+              "id": "p1",
+              "left": "Friday",
+              "right": "Viernes"
+            },
+            {
+              "id": "p2",
+              "left": "Saturday",
+              "right": "Sábado"
+            },
+            {
+              "id": "p3",
+              "left": "Sunday",
+              "right": "Domingo"
+            },
+            {
+              "id": "p4",
+              "left": "Weekend",
+              "right": "Fin de semana"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -43,9 +85,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se pregunta '¿Qué día es hoy?'?",
           "options": [
-            { "id": "o1", "text": "What day is it today?" },
-            { "id": "o2", "text": "Which day is today?" },
-            { "id": "o3", "text": "What time is today?" }
+            {
+              "id": "o1",
+              "text": "What day is it today?"
+            },
+            {
+              "id": "o2",
+              "text": "Which day is today?"
+            },
+            {
+              "id": "o3",
+              "text": "What time is today?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "phrases"
@@ -71,13 +122,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Mi día favorito es el sábado'",
           "options": [
-            { "id": "w1", "text": "favorite" },
-            { "id": "w2", "text": "day" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "Saturday" },
-            { "id": "w0", "text": "My" }
+            {
+              "id": "w1",
+              "text": "favorite"
+            },
+            {
+              "id": "w2",
+              "text": "day"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "Saturday"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -92,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "Si hoy es martes, ¿qué día fue ayer?",
           "options": [
-            { "id": "o1", "text": "Monday" },
-            { "id": "o2", "text": "Wednesday" },
-            { "id": "o3", "text": "Thursday" }
+            {
+              "id": "o1",
+              "text": "Monday"
+            },
+            {
+              "id": "o2",
+              "text": "Wednesday"
+            },
+            {
+              "id": "o3",
+              "text": "Thursday"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -112,12 +193,33 @@
           "type": "matching",
           "prompt_es": "Une los conceptos temporales:",
           "pairs": [
-            { "id": "p1", "left": "Today", "right": "Hoy" },
-            { "id": "p2", "left": "Yesterday", "right": "Ayer" },
-            { "id": "p3", "left": "Tomorrow", "right": "Mañana" },
-            { "id": "p4", "left": "Next week", "right": "La próxima semana" }
+            {
+              "id": "p1",
+              "left": "Today",
+              "right": "Hoy"
+            },
+            {
+              "id": "p2",
+              "left": "Yesterday",
+              "right": "Ayer"
+            },
+            {
+              "id": "p3",
+              "left": "Tomorrow",
+              "right": "Mañana"
+            },
+            {
+              "id": "p4",
+              "left": "Next week",
+              "right": "La próxima semana"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -133,12 +235,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Trabajo los lunes'",
           "options": [
-            { "id": "w1", "text": "work" },
-            { "id": "w2", "text": "on" },
-            { "id": "w3", "text": "Mondays" },
-            { "id": "w0", "text": "I" }
+            {
+              "id": "w1",
+              "text": "work"
+            },
+            {
+              "id": "w2",
+              "text": "on"
+            },
+            {
+              "id": "w3",
+              "text": "Mondays"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -146,9 +265,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Weekdays'?",
           "options": [
-            { "id": "o1", "text": "Días de entre semana (L-V)" },
-            { "id": "o2", "text": "Fines de semana" },
-            { "id": "o3", "text": "Días festivos" }
+            {
+              "id": "o1",
+              "text": "Días de entre semana (L-V)"
+            },
+            {
+              "id": "o2",
+              "text": "Fines de semana"
+            },
+            {
+              "id": "o3",
+              "text": "Días festivos"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -173,12 +301,33 @@
           "type": "matching",
           "prompt_es": "Une las abreviaturas comunes:",
           "pairs": [
-            { "id": "p1", "left": "Mon", "right": "Monday" },
-            { "id": "p2", "left": "Tue", "right": "Tuesday" },
-            { "id": "p3", "left": "Wed", "right": "Wednesday" },
-            { "id": "p4", "left": "Thu", "right": "Thursday" }
+            {
+              "id": "p1",
+              "left": "Mon",
+              "right": "Monday"
+            },
+            {
+              "id": "p2",
+              "left": "Tue",
+              "right": "Tuesday"
+            },
+            {
+              "id": "p3",
+              "left": "Wed",
+              "right": "Wednesday"
+            },
+            {
+              "id": "p4",
+              "left": "Thu",
+              "right": "Thursday"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -186,9 +335,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el último día de la semana laboral típica?",
           "options": [
-            { "id": "o1", "text": "Friday" },
-            { "id": "o2", "text": "Saturday" },
-            { "id": "o3", "text": "Sunday" }
+            {
+              "id": "o1",
+              "text": "Friday"
+            },
+            {
+              "id": "o2",
+              "text": "Saturday"
+            },
+            {
+              "id": "o3",
+              "text": "Sunday"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -206,12 +364,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Es hoy jueves?'",
           "options": [
-            { "id": "w1", "text": "it" },
-            { "id": "w2", "text": "Thursday" },
-            { "id": "w3", "text": "today" },
-            { "id": "w0", "text": "Is" }
+            {
+              "id": "w1",
+              "text": "it"
+            },
+            {
+              "id": "w2",
+              "text": "Thursday"
+            },
+            {
+              "id": "w3",
+              "text": "today"
+            },
+            {
+              "id": "w0",
+              "text": "Is"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -234,10 +409,21 @@
           "type": "matching",
           "prompt_es": "Días del fin de semana:",
           "pairs": [
-            { "id": "p1", "left": "Saturday", "right": "Sábado" },
-            { "id": "p2", "left": "Sunday", "right": "Domingo" }
+            {
+              "id": "p1",
+              "left": "Saturday",
+              "right": "Sábado"
+            },
+            {
+              "id": "p2",
+              "left": "Sunday",
+              "right": "Domingo"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -245,9 +431,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cada lunes'?",
           "options": [
-            { "id": "o1", "text": "Every Monday" },
-            { "id": "o2", "text": "All Monday" },
-            { "id": "o3", "text": "One Monday" }
+            {
+              "id": "o1",
+              "text": "Every Monday"
+            },
+            {
+              "id": "o2",
+              "text": "All Monday"
+            },
+            {
+              "id": "o3",
+              "text": "One Monday"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "phrases"
@@ -259,6 +454,24 @@
           "stimulus_en": "Yesterday was ________.",
           "correct_answer": "Sunday",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U12_I25",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit12/like.mp3",
+          "transcript_template": "I ___ chocolate.",
+          "correct_answer": "like",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U12_I26",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit12/favorite.mp3",
+          "transcript_template": "What's your ___ food?",
+          "correct_answer": "favorite",
+          "mastery_tag": "listening"
         }
       ]
     }

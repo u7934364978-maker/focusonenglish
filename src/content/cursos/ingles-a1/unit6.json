@@ -17,12 +17,33 @@
           "type": "matching",
           "prompt_es": "Asocia los miembros de la familia:",
           "pairs": [
-            { "id": "p1", "left": "Father", "right": "Padre" },
-            { "id": "p2", "left": "Mother", "right": "Madre" },
-            { "id": "p3", "left": "Brother", "right": "Hermano" },
-            { "id": "p4", "left": "Sister", "right": "Hermana" }
+            {
+              "id": "p1",
+              "left": "Father",
+              "right": "Padre"
+            },
+            {
+              "id": "p2",
+              "left": "Mother",
+              "right": "Madre"
+            },
+            {
+              "id": "p3",
+              "left": "Brother",
+              "right": "Hermano"
+            },
+            {
+              "id": "p4",
+              "left": "Sister",
+              "right": "Hermana"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -38,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Hijo'?",
           "options": [
-            { "id": "o1", "text": "Son" },
-            { "id": "o2", "text": "Sun" },
-            { "id": "o3", "text": "Daughter" }
+            {
+              "id": "o1",
+              "text": "Son"
+            },
+            {
+              "id": "o2",
+              "text": "Sun"
+            },
+            {
+              "id": "o3",
+              "text": "Daughter"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -65,13 +95,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "His" },
-            { "id": "w2", "text": "father" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "at" },
-            { "id": "w5", "text": "work" }
+            {
+              "id": "w1",
+              "text": "His"
+            },
+            {
+              "id": "w2",
+              "text": "father"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "at"
+            },
+            {
+              "id": "w5",
+              "text": "work"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -79,12 +130,33 @@
           "type": "matching",
           "prompt_es": "Más familia:",
           "pairs": [
-            { "id": "p1", "left": "Son", "right": "Hijo" },
-            { "id": "p2", "left": "Daughter", "right": "Hija" },
-            { "id": "p3", "left": "Baby", "right": "Bebé" },
-            { "id": "p4", "left": "Parents", "right": "Padres" }
+            {
+              "id": "p1",
+              "left": "Son",
+              "right": "Hijo"
+            },
+            {
+              "id": "p2",
+              "left": "Daughter",
+              "right": "Hija"
+            },
+            {
+              "id": "p3",
+              "left": "Baby",
+              "right": "Bebé"
+            },
+            {
+              "id": "p4",
+              "left": "Parents",
+              "right": "Padres"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -105,12 +177,33 @@
           "interaction_id": "U6_I9",
           "type": "matching",
           "pairs": [
-            { "id": "p1", "left": "Grandfather", "right": "Abuelo" },
-            { "id": "p2", "left": "Grandmother", "right": "Abuela" },
-            { "id": "p3", "left": "Uncle", "right": "Tío" },
-            { "id": "p4", "left": "Aunt", "right": "Tía" }
+            {
+              "id": "p1",
+              "left": "Grandfather",
+              "right": "Abuelo"
+            },
+            {
+              "id": "p2",
+              "left": "Grandmother",
+              "right": "Abuela"
+            },
+            {
+              "id": "p3",
+              "left": "Uncle",
+              "right": "Tío"
+            },
+            {
+              "id": "p4",
+              "left": "Aunt",
+              "right": "Tía"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -126,9 +219,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Primos'?",
           "options": [
-            { "id": "o1", "text": "Cousins" },
-            { "id": "o2", "text": "Children" },
-            { "id": "o3", "text": "Friends" }
+            {
+              "id": "o1",
+              "text": "Cousins"
+            },
+            {
+              "id": "o2",
+              "text": "Children"
+            },
+            {
+              "id": "o3",
+              "text": "Friends"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -153,12 +255,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "Who" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "that" },
-            { "id": "w4", "text": "man?" }
+            {
+              "id": "w1",
+              "text": "Who"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "that"
+            },
+            {
+              "id": "w4",
+              "text": "man?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -166,12 +285,33 @@
           "type": "matching",
           "prompt_es": "Más parientes:",
           "pairs": [
-            { "id": "p1", "left": "Cousin", "right": "Primo/a" },
-            { "id": "p2", "left": "Children", "right": "Hijos/Niños" },
-            { "id": "p3", "left": "Grandparents", "right": "Abuelos" },
-            { "id": "p4", "left": "Family", "right": "Familia" }
+            {
+              "id": "p1",
+              "left": "Cousin",
+              "right": "Primo/a"
+            },
+            {
+              "id": "p2",
+              "left": "Children",
+              "right": "Hijos/Niños"
+            },
+            {
+              "id": "p3",
+              "left": "Grandparents",
+              "right": "Abuelos"
+            },
+            {
+              "id": "p4",
+              "left": "Family",
+              "right": "Familia"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -193,12 +333,33 @@
           "type": "matching",
           "prompt_es": "Posesivos:",
           "pairs": [
-            { "id": "p1", "left": "I", "right": "My" },
-            { "id": "p2", "left": "You", "right": "Your" },
-            { "id": "p3", "left": "We", "right": "Our" },
-            { "id": "p4", "left": "They", "right": "Their" }
+            {
+              "id": "p1",
+              "left": "I",
+              "right": "My"
+            },
+            {
+              "id": "p2",
+              "left": "You",
+              "right": "Your"
+            },
+            {
+              "id": "p3",
+              "left": "We",
+              "right": "Our"
+            },
+            {
+              "id": "p4",
+              "left": "They",
+              "right": "Their"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "grammar"
         },
         {
@@ -206,9 +367,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el posesivo de 'She'?",
           "options": [
-            { "id": "o1", "text": "Her" },
-            { "id": "o2", "text": "His" },
-            { "id": "o3", "text": "Hers" }
+            {
+              "id": "o1",
+              "text": "Her"
+            },
+            {
+              "id": "o2",
+              "text": "His"
+            },
+            {
+              "id": "o3",
+              "text": "Hers"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -233,14 +403,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "Her" },
-            { "id": "w2", "text": "sister" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "ten" },
-            { "id": "w5", "text": "years" },
-            { "id": "w6", "text": "old" }
+            {
+              "id": "w1",
+              "text": "Her"
+            },
+            {
+              "id": "w2",
+              "text": "sister"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "ten"
+            },
+            {
+              "id": "w5",
+              "text": "years"
+            },
+            {
+              "id": "w6",
+              "text": "old"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -256,12 +451,33 @@
           "type": "matching",
           "prompt_es": "Más familia 2:",
           "pairs": [
-            { "id": "p1", "left": "Husband", "right": "Esposo" },
-            { "id": "p2", "left": "Wife", "right": "Esposa" },
-            { "id": "p3", "left": "Man", "right": "Hombre" },
-            { "id": "p4", "left": "Woman", "right": "Mujer" }
+            {
+              "id": "p1",
+              "left": "Husband",
+              "right": "Esposo"
+            },
+            {
+              "id": "p2",
+              "left": "Wife",
+              "right": "Esposa"
+            },
+            {
+              "id": "p3",
+              "left": "Man",
+              "right": "Hombre"
+            },
+            {
+              "id": "p4",
+              "left": "Woman",
+              "right": "Mujer"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -271,6 +487,24 @@
           "stimulus_es": "Ella es mi madre",
           "correct_answer": "She is my mother",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U6_I25",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit6/family.mp3",
+          "transcript_template": "She is my ___.",
+          "correct_answer": "sister",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U6_I26",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit6/parents.mp3",
+          "transcript_template": "My ___ are doctors.",
+          "correct_answer": "parents",
+          "mastery_tag": "listening"
         }
       ]
     }

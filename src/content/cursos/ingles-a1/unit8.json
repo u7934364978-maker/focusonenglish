@@ -17,12 +17,33 @@
           "type": "matching",
           "prompt_es": "Une la palabra con su traducción correcta:",
           "pairs": [
-            { "id": "p0", "left": "Ninety", "right": "Noventa" },
-            { "id": "p1", "left": "Twenty", "right": "Veinte" },
-            { "id": "p2", "left": "Fifty", "right": "Cincuenta" },
-            { "id": "p3", "left": "One hundred", "right": "Cien" }
+            {
+              "id": "p0",
+              "left": "Ninety",
+              "right": "Noventa"
+            },
+            {
+              "id": "p1",
+              "left": "Twenty",
+              "right": "Veinte"
+            },
+            {
+              "id": "p2",
+              "left": "Fifty",
+              "right": "Cincuenta"
+            },
+            {
+              "id": "p3",
+              "left": "One hundred",
+              "right": "Cien"
+            }
           ],
-          "correct_answer": { "p0": "p0", "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -45,13 +66,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
-            { "id": "w0", "text": "Seventy" },
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "a" },
-            { "id": "w3", "text": "big" },
-            { "id": "w4", "text": "number" }
+            {
+              "id": "w0",
+              "text": "Seventy"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "big"
+            },
+            {
+              "id": "w4",
+              "text": "number"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -67,9 +109,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Sesenta' en inglés?",
           "options": [
-            { "id": "o1", "text": "Sixty" },
-            { "id": "o2", "text": "Sixteen" },
-            { "id": "o3", "text": "Six" }
+            {
+              "id": "o1",
+              "text": "Sixty"
+            },
+            {
+              "id": "o2",
+              "text": "Sixteen"
+            },
+            {
+              "id": "o3",
+              "text": "Six"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -79,12 +130,33 @@
           "type": "matching",
           "prompt_es": "Une la palabra con su traducción correcta:",
           "pairs": [
-            { "id": "p0", "left": "Price", "right": "Precio" },
-            { "id": "p1", "left": "Age", "right": "Edad" },
-            { "id": "p2", "left": "Quantity", "right": "Cantidad" },
-            { "id": "p3", "left": "Total", "right": "Total" }
+            {
+              "id": "p0",
+              "left": "Price",
+              "right": "Precio"
+            },
+            {
+              "id": "p1",
+              "left": "Age",
+              "right": "Edad"
+            },
+            {
+              "id": "p2",
+              "left": "Quantity",
+              "right": "Cantidad"
+            },
+            {
+              "id": "p3",
+              "left": "Total",
+              "right": "Total"
+            }
           ],
-          "correct_answer": { "p0": "p0", "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -107,12 +179,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
-            { "id": "w0", "text": "There" },
-            { "id": "w1", "text": "are" },
-            { "id": "w2", "text": "fifty" },
-            { "id": "w3", "text": "students" }
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w2",
+              "text": "fifty"
+            },
+            {
+              "id": "w3",
+              "text": "students"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -128,9 +217,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Ochenta' en inglés?",
           "options": [
-            { "id": "o1", "text": "Eighty" },
-            { "id": "o2", "text": "Eighteen" },
-            { "id": "o3", "text": "Eight" }
+            {
+              "id": "o1",
+              "text": "Eighty"
+            },
+            {
+              "id": "o2",
+              "text": "Eighteen"
+            },
+            {
+              "id": "o3",
+              "text": "Eight"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -140,12 +238,33 @@
           "type": "matching",
           "prompt_es": "Une la palabra con su traducción correcta:",
           "pairs": [
-            { "id": "p0", "left": "Forty", "right": "Cuarenta" },
-            { "id": "p1", "left": "Sixty", "right": "Sesenta" },
-            { "id": "p2", "left": "Seventy", "right": "Setenta" },
-            { "id": "p3", "left": "Eighty", "right": "Ochenta" }
+            {
+              "id": "p0",
+              "left": "Forty",
+              "right": "Cuarenta"
+            },
+            {
+              "id": "p1",
+              "left": "Sixty",
+              "right": "Sesenta"
+            },
+            {
+              "id": "p2",
+              "left": "Seventy",
+              "right": "Setenta"
+            },
+            {
+              "id": "p3",
+              "left": "Eighty",
+              "right": "Ochenta"
+            }
           ],
-          "correct_answer": { "p0": "p0", "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -168,12 +287,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
-            { "id": "w0", "text": "We" },
-            { "id": "w1", "text": "need" },
-            { "id": "w2", "text": "ninety" },
-            { "id": "w3", "text": "pages" }
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w1",
+              "text": "need"
+            },
+            {
+              "id": "w2",
+              "text": "ninety"
+            },
+            {
+              "id": "w3",
+              "text": "pages"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -189,12 +325,39 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Cincuenta' en inglés?",
           "options": [
-            { "id": "o1", "text": "Fifty" },
-            { "id": "o2", "text": "Fifteen" },
-            { "id": "o3", "text": "Five" }
+            {
+              "id": "o1",
+              "text": "Fifty"
+            },
+            {
+              "id": "o2",
+              "text": "Fifteen"
+            },
+            {
+              "id": "o3",
+              "text": "Five"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U8_I19",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit8/work.mp3",
+          "transcript_template": "I ___ in an office.",
+          "correct_answer": "work",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U8_I20",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit8/job.mp3",
+          "transcript_template": "What is your ___?",
+          "correct_answer": "job",
+          "mastery_tag": "listening"
         }
       ]
     }

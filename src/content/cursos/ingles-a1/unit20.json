@@ -17,12 +17,33 @@
           "type": "matching",
           "prompt_es": "Une cada dirección con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "Turn left", "right": "Gira a la izquierda" },
-            { "id": "p2", "left": "Turn right", "right": "Gira a la derecha" },
-            { "id": "p3", "left": "Go straight ahead", "right": "Sigue recto" },
-            { "id": "p4", "left": "Go past", "right": "Pasa por delante de" }
+            {
+              "id": "p1",
+              "left": "Turn left",
+              "right": "Gira a la izquierda"
+            },
+            {
+              "id": "p2",
+              "left": "Turn right",
+              "right": "Gira a la derecha"
+            },
+            {
+              "id": "p3",
+              "left": "Go straight ahead",
+              "right": "Sigue recto"
+            },
+            {
+              "id": "p4",
+              "left": "Go past",
+              "right": "Pasa por delante de"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -30,9 +51,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo pides ayuda educadamente?",
           "options": [
-            { "id": "o1", "text": "Excuse me" },
-            { "id": "o2", "text": "Move please" },
-            { "id": "o3", "text": "Hey you" }
+            {
+              "id": "o1",
+              "text": "Excuse me"
+            },
+            {
+              "id": "o2",
+              "text": "Move please"
+            },
+            {
+              "id": "o3",
+              "text": "Hey you"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "phrases"
@@ -50,12 +80,33 @@
           "type": "matching",
           "prompt_es": "Elementos de la calle:",
           "pairs": [
-            { "id": "p1", "left": "Traffic lights", "right": "Semáforo" },
-            { "id": "p2", "left": "Roundabout", "right": "Rotonda" },
-            { "id": "p3", "left": "Bridge", "right": "Puente" },
-            { "id": "p4", "left": "Corner", "right": "Esquina" }
+            {
+              "id": "p1",
+              "left": "Traffic lights",
+              "right": "Semáforo"
+            },
+            {
+              "id": "p2",
+              "left": "Roundabout",
+              "right": "Rotonda"
+            },
+            {
+              "id": "p3",
+              "left": "Bridge",
+              "right": "Puente"
+            },
+            {
+              "id": "p4",
+              "left": "Corner",
+              "right": "Esquina"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -71,14 +122,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '¿Cómo llego al cine?'",
           "options": [
-            { "id": "w1", "text": "do" },
-            { "id": "w2", "text": "I" },
-            { "id": "w3", "text": "get" },
-            { "id": "w4", "text": "to" },
-            { "id": "w5", "text": "the cinema?" },
-            { "id": "w0", "text": "How" }
+            {
+              "id": "w1",
+              "text": "do"
+            },
+            {
+              "id": "w2",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "get"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "the cinema?"
+            },
+            {
+              "id": "w0",
+              "text": "How"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -86,9 +162,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Cross the street'?",
           "options": [
-            { "id": "o1", "text": "Cruza la calle" },
-            { "id": "o2", "text": "Mira la calle" },
-            { "id": "o3", "text": "Camina por la calle" }
+            {
+              "id": "o1",
+              "text": "Cruza la calle"
+            },
+            {
+              "id": "o2",
+              "text": "Mira la calle"
+            },
+            {
+              "id": "o3",
+              "text": "Camina por la calle"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -121,11 +206,27 @@
           "type": "matching",
           "prompt_es": "Más indicaciones:",
           "pairs": [
-            { "id": "p1", "left": "Take the first turning", "right": "Toma la primera salida" },
-            { "id": "p2", "left": "Next to", "right": "Al lado de" },
-            { "id": "p3", "left": "Opposite", "right": "Enfrente de" }
+            {
+              "id": "p1",
+              "left": "Take the first turning",
+              "right": "Toma la primera salida"
+            },
+            {
+              "id": "p2",
+              "left": "Next to",
+              "right": "Al lado de"
+            },
+            {
+              "id": "p3",
+              "left": "Opposite",
+              "right": "Enfrente de"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "phrases"
         },
         {
@@ -133,9 +234,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Lejos'?",
           "options": [
-            { "id": "o1", "text": "Far" },
-            { "id": "o2", "text": "Near" },
-            { "id": "o3", "text": "Fast" }
+            {
+              "id": "o1",
+              "text": "Far"
+            },
+            {
+              "id": "o2",
+              "text": "Near"
+            },
+            {
+              "id": "o3",
+              "text": "Fast"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -145,13 +255,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'El hospital está allí'",
           "options": [
-            { "id": "w1", "text": "hospital" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "over" },
-            { "id": "w4", "text": "there" },
-            { "id": "w0", "text": "The" }
+            {
+              "id": "w1",
+              "text": "hospital"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "over"
+            },
+            {
+              "id": "w4",
+              "text": "there"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -174,11 +305,27 @@
           "type": "matching",
           "prompt_es": "Señales de tráfico:",
           "pairs": [
-            { "id": "p1", "left": "Stop", "right": "Pare/Stop" },
-            { "id": "p2", "left": "One way", "right": "Sentido único" },
-            { "id": "p3", "left": "No entry", "right": "Prohibido el paso" }
+            {
+              "id": "p1",
+              "left": "Stop",
+              "right": "Pare/Stop"
+            },
+            {
+              "id": "p2",
+              "left": "One way",
+              "right": "Sentido único"
+            },
+            {
+              "id": "p3",
+              "left": "No entry",
+              "right": "Prohibido el paso"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -186,9 +333,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Over there'?",
           "options": [
-            { "id": "o1", "text": "Allí/Por allí" },
-            { "id": "o2", "text": "Aquí mismo" },
-            { "id": "o3", "text": "Cerca de ti" }
+            {
+              "id": "o1",
+              "text": "Allí/Por allí"
+            },
+            {
+              "id": "o2",
+              "text": "Aquí mismo"
+            },
+            {
+              "id": "o3",
+              "text": "Cerca de ti"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -206,14 +362,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Toma la segunda a la izquierda'",
           "options": [
-            { "id": "w1", "text": "the" },
-            { "id": "w2", "text": "second" },
-            { "id": "w3", "text": "on" },
-            { "id": "w4", "text": "the" },
-            { "id": "w5", "text": "left" },
-            { "id": "w0", "text": "Take" }
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "second"
+            },
+            {
+              "id": "w3",
+              "text": "on"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "left"
+            },
+            {
+              "id": "w0",
+              "text": "Take"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -236,11 +417,27 @@
           "type": "matching",
           "prompt_es": "Acciones de navegación:",
           "pairs": [
-            { "id": "p1", "left": "Follow the signs", "right": "Sigue las señales" },
-            { "id": "p2", "left": "Keep going", "right": "Sigue adelante" },
-            { "id": "p3", "left": "Look for", "right": "Busca" }
+            {
+              "id": "p1",
+              "left": "Follow the signs",
+              "right": "Sigue las señales"
+            },
+            {
+              "id": "p2",
+              "left": "Keep going",
+              "right": "Sigue adelante"
+            },
+            {
+              "id": "p3",
+              "left": "Look for",
+              "right": "Busca"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -248,9 +445,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'A la derecha'?",
           "options": [
-            { "id": "o1", "text": "On the right" },
-            { "id": "o2", "text": "On the light" },
-            { "id": "o3", "text": "On the night" }
+            {
+              "id": "o1",
+              "text": "On the right"
+            },
+            {
+              "id": "o2",
+              "text": "On the light"
+            },
+            {
+              "id": "o3",
+              "text": "On the night"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -262,6 +468,24 @@
           "stimulus_en": "You ________ a map.",
           "correct_answer": "need",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U20_I25",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit20/going.mp3",
+          "transcript_template": "I am ___ to the store.",
+          "correct_answer": "going",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U20_I26",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit20/will.mp3",
+          "transcript_template": "I ___ call you later.",
+          "correct_answer": "will",
+          "mastery_tag": "listening"
         }
       ]
     }

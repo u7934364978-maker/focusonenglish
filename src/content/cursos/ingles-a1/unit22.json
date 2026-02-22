@@ -5611,6 +5611,24 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I301",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit22/was.mp3",
+          "transcript_template": "She ___ happy yesterday.",
+          "correct_answer": "was",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U22_I302",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit22/were.mp3",
+          "transcript_template": "They ___ at school.",
+          "correct_answer": "were",
+          "mastery_tag": "listening"
         }
       ]
     }
