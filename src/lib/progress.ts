@@ -116,3 +116,58 @@ export function calculateUnitProgress(
     percentage
   };
 }
+
+export type StarRating = 'bronze' | 'silver' | 'gold' | null;
+
+export type UnitCompletionResult = {
+  stars: StarRating;
+  accuracy: number;
+  isNewRecord: boolean;
+};
+
+export function calculateStarRating(accuracyPercentage: number): StarRating {
+  if (accuracyPercentage >= 95) return 'gold';
+  if (accuracyPercentage >= 80) return 'silver';
+  if (accuracyPercentage >= 60) return 'bronze';
+  return null;
+}
+
+export async function completeUnitWithStars(params: {
+  userId: string;
+  courseId: string;
+  unitId: string;
+  totalExercises: number;
+  correctExercises: number;
+  supabaseClient: any;
+}): Promise<UnitCompletionResult> {
+  const { userId, courseId, unitId, totalExercises, correctExercises, supabaseClient } = params;
+  
+  const { data, error } = await supabaseClient
+    .rpc('complete_unit_with_stars', {
+      p_user_id: userId,
+      p_course_id: courseId,
+      p_unit_id: unitId,
+      p_total_exercises: totalExercises,
+      p_correct_exercises: correctExercises
+    });
+
+  if (error) {
+    console.error('Error completing unit with stars:', error);
+    
+    const accuracy = totalExercises > 0 
+      ? Math.round((correctExercises / totalExercises) * 100) 
+      : 0;
+    return {
+      stars: calculateStarRating(accuracy),
+      accuracy,
+      isNewRecord: false
+    };
+  }
+
+  const result = data?.[0];
+  return {
+    stars: result?.unit_stars || null,
+    accuracy: result?.accuracy_percentage || 0,
+    isNewRecord: result?.is_new_record || false
+  };
+}

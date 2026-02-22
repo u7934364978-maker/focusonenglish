@@ -18,6 +18,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { UnitData, PremiumBlock, PremiumContent } from "@/types/premium-course";
 import { getSolutionText, isLikelyEnglish, getEncouragingMessage } from "@/lib/premium-utils";
+import { calculateStarRating } from "@/lib/progress";
 import WordSearchExercise from "../../exercises/WordSearchExercise";
 import CrosswordExercise from "../../exercises/CrosswordExercise";
 
@@ -54,6 +55,8 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
   const [audioCache, setAudioCache] = useState<Record<string, string>>({});
   const [flashcardIndex, setFlashcardIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
+  const [exerciseResults, setExerciseResults] = useState<{ correct: number; total: number }>({ correct: 0, total: 0 });
+  const [unitStars, setUnitStars] = useState<'bronze' | 'silver' | 'gold' | null>(null);
   
   const currentAudioRef = useRef<HTMLAudioElement | null>(null);
   const prefetchingRef = useRef<Set<string>>(new Set());
@@ -380,6 +383,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
           setCurrentSceneIndex(0);
           setInteractionIndex(0);
         } else {
+          const accuracy = exerciseResults.total > 0 
+            ? Math.round((exerciseResults.correct / exerciseResults.total) * 100) 
+            : 0;
+          setUnitStars(calculateStarRating(accuracy));
           setShowSummary(true);
         }
       }
@@ -387,6 +394,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       if (currentIndex < queue.length - 1) {
         setCurrentIndex(currentIndex + 1);
       } else {
+        const accuracy = exerciseResults.total > 0 
+          ? Math.round((exerciseResults.correct / exerciseResults.total) * 100) 
+          : 0;
+        setUnitStars(calculateStarRating(accuracy));
         setShowSummary(true);
       }
     }
@@ -508,6 +519,8 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       setFeedback({ correct: true, message });
       playAudio('/audio/correct.mp3');
 
+      setExerciseResults(prev => ({ correct: prev.correct + 1, total: prev.total + 1 }));
+
       // Track progress if callback is provided
       if (onInteractionCorrect && interaction.interaction_id) {
         onInteractionCorrect(interaction.interaction_id);
@@ -535,6 +548,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
       setFeedback({ correct: false, message: message });
       playAudio('/audio/wrong.mp3');
+      
+      if (currentFails >= 3) {
+        setExerciseResults(prev => ({ correct: prev.correct, total: prev.total + 1 }));
+      }
     }
   };
 
@@ -574,6 +591,18 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
   };
 
   if (showSummary) {
+    const accuracy = exerciseResults.total > 0 
+      ? Math.round((exerciseResults.correct / exerciseResults.total) * 100) 
+      : 0;
+
+    const starColors = {
+      gold: { bg: 'bg-amber-100', text: 'text-amber-600', border: 'border-amber-500' },
+      silver: { bg: 'bg-slate-100', text: 'text-slate-600', border: 'border-slate-400' },
+      bronze: { bg: 'bg-orange-100', text: 'text-orange-600', border: 'border-orange-500' }
+    };
+
+    const starConfig = unitStars ? starColors[unitStars] : null;
+
     return (
       <div className="flex flex-col items-center justify-center min-h-screen bg-white text-center p-6 overflow-hidden relative">
         <motion.div 
@@ -615,26 +644,73 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         >
           <Trophy className="w-16 h-16 text-amber-600" />
         </motion.div>
+
+        {unitStars && starConfig && (
+          <motion.div
+            initial={{ scale: 0, rotate: -180 }}
+            animate={{ scale: 1, rotate: 0 }}
+            transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
+            className="mb-6"
+          >
+            <div className={`flex items-center gap-2 ${starConfig.bg} px-8 py-4 rounded-full border-2 ${starConfig.border}`}>
+              <Star className={`w-8 h-8 ${starConfig.text} fill-current`} />
+              <span className={`text-2xl font-black ${starConfig.text} uppercase`}>
+                {unitStars === 'gold' && '¡Oro!'}
+                {unitStars === 'silver' && '¡Plata!'}
+                {unitStars === 'bronze' && '¡Bronce!'}
+              </span>
+              <Star className={`w-8 h-8 ${starConfig.text} fill-current`} />
+            </div>
+          </motion.div>
+        )}
+
         <motion.h2 
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.2 }}
+          transition={{ delay: 0.3 }}
           className="text-4xl font-black text-slate-900 mb-4"
         >
           ¡Unidad Completada!
         </motion.h2>
-        <motion.p 
-          initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.3 }}
-          className="text-xl text-slate-600 mb-12"
-        >
-          Has terminado todas las actividades de esta unidad.
-        </motion.p>
         <motion.div 
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.4 }}
+          className="text-xl text-slate-600 mb-2"
+        >
+          <p className="font-bold">
+            {exerciseResults.correct} de {exerciseResults.total} ejercicios correctos
+          </p>
+          <p className="text-3xl font-black text-indigo-600 mt-2">
+            {accuracy}% de precisión
+          </p>
+        </motion.div>
+        {unitStars && (
+          <motion.p 
+            initial={{ y: 20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ delay: 0.5 }}
+            className="text-lg text-slate-500 mb-12 max-w-md"
+          >
+            {unitStars === 'gold' && '¡Excelente trabajo! Dominas esta unidad perfectamente.'}
+            {unitStars === 'silver' && '¡Muy bien! Tu nivel de comprensión es sólido.'}
+            {unitStars === 'bronze' && '¡Buen trabajo! Sigue practicando para mejorar.'}
+          </motion.p>
+        )}
+        {!unitStars && (
+          <motion.p 
+            initial={{ y: 20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ delay: 0.5 }}
+            className="text-lg text-slate-500 mb-12 max-w-md"
+          >
+            Intenta repetir la unidad para mejorar tu puntuación y ganar estrellas.
+          </motion.p>
+        )}
+        <motion.div 
+          initial={{ y: 20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.6 }}
           className="flex flex-col gap-4 w-full max-w-xs z-10"
         >
           <Button onClick={onComplete} className="h-16 rounded-2xl bg-indigo-600 text-white text-xl font-black shadow-lg hover:bg-indigo-700 border-b-8 border-indigo-800 active:translate-y-1 active:border-b-0 transition-all">

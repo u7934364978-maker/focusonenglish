@@ -89,19 +89,20 @@ npm test -- progress
 
 ---
 
-### [ ] Phase 1: Quick Wins - Unit Star System
+### [x] Phase 1: Quick Wins - Unit Star System
+<!-- chat-id: 5bc7bceb-863a-40aa-9dd5-3dbdb1486f9b -->
 
 **Objective**: Award Bronze/Silver/Gold stars based on performance  
 **Duration**: 2 weeks  
 **Files**: `user_progress` table, `progress.ts`, `PremiumSession.tsx`
 
 #### Tasks:
-- [ ] Create Supabase migration `20260222_unit_stars.sql` to add `unit_stars` column
-- [ ] Implement star calculation logic (Bronze=60%, Silver=80%, Gold=95%)
-- [ ] Add `completeUnitWithStars()` function to `src/lib/supabase/progress.ts`
-- [ ] Display star rating in unit completion modal
-- [ ] Write unit tests for star calculation with edge cases
-- [ ] Write E2E test: complete unit and verify star stored in database
+- [x] Create Supabase migration `20260222_unit_stars.sql` to add `unit_stars` column
+- [x] Implement star calculation logic (Bronze=60%, Silver=80%, Gold=95%)
+- [x] Add `completeUnitWithStars()` function to `src/lib/progress.ts`
+- [x] Display star rating in unit completion modal
+- [x] Write unit tests for star calculation with edge cases
+- [x] Write E2E test: complete unit and verify star stored in database
 
 **Verification**:
 ```bash
