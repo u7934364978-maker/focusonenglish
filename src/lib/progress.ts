@@ -132,6 +132,22 @@ export function calculateStarRating(accuracyPercentage: number): StarRating {
   return null;
 }
 
+export function isReviewUnit(unitId: string): boolean {
+  const unitNumber = parseInt(unitId.replace(/\D/g, ''), 10);
+  return !isNaN(unitNumber) && unitNumber % 10 === 0;
+}
+
+export function calculateStreakBonusXP(currentStreak: number, isReview: boolean): number {
+  if (!isReview) return 0;
+  
+  if (currentStreak >= 30) return 30;
+  if (currentStreak >= 20) return 20;
+  if (currentStreak >= 10) return 10;
+  if (currentStreak >= 3) return 5;
+  
+  return 0;
+}
+
 export async function completeUnitWithStars(params: {
   userId: string;
   courseId: string;
@@ -139,8 +155,9 @@ export async function completeUnitWithStars(params: {
   totalExercises: number;
   correctExercises: number;
   supabaseClient: any;
+  currentStreak?: number;
 }): Promise<UnitCompletionResult> {
-  const { userId, courseId, unitId, totalExercises, correctExercises, supabaseClient } = params;
+  const { userId, courseId, unitId, totalExercises, correctExercises, supabaseClient, currentStreak = 0 } = params;
   
   const { data, error } = await supabaseClient
     .rpc('complete_unit_with_stars', {
@@ -162,6 +179,35 @@ export async function completeUnitWithStars(params: {
       accuracy,
       isNewRecord: false
     };
+  }
+
+  const bonusXP = calculateStreakBonusXP(currentStreak, isReviewUnit(unitId));
+  if (bonusXP > 0) {
+    await supabaseClient
+      .from('xp_transactions')
+      .insert({
+        user_id: userId,
+        amount: bonusXP,
+        source: 'streak-bonus',
+        source_id: unitId,
+        description: `Bonus de racha (${currentStreak} días) en unidad de repaso ${unitId}`
+      });
+
+    const { data: currentXPData } = await supabaseClient
+      .from('user_xp')
+      .select('total_xp')
+      .eq('user_id', userId)
+      .single();
+
+    if (currentXPData) {
+      await supabaseClient
+        .from('user_xp')
+        .update({ 
+          total_xp: currentXPData.total_xp + bonusXP,
+          updated_at: new Date().toISOString()
+        })
+        .eq('user_id', userId);
+    }
   }
 
   const result = data?.[0];

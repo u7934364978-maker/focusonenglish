@@ -114,18 +114,19 @@ npm run test:e2e -- complete-unit
 
 ---
 
-### [ ] Phase 1: Quick Wins - Streak Visibility
+### [x] Phase 1: Quick Wins - Streak Visibility
+<!-- chat-id: 3aea13e6-3553-4c5a-abc9-45a29bf44125 -->
 
 **Objective**: Show current streak to motivate daily engagement  
 **Duration**: 1 week  
 **Files**: `PremiumUnitViewer.tsx`, `user_streaks` table (existing)
 
 #### Tasks:
-- [ ] Query existing `user_streaks` table for current user streak
-- [ ] Display streak badge in course header
-- [ ] Award bonus XP for review units (10, 20, 30...)
-- [ ] Test streak increments correctly on daily activity
-- [ ] Write unit tests for streak XP bonus logic
+- [x] Query existing `user_streaks` table for current user streak
+- [x] Display streak badge in course header
+- [x] Award bonus XP for review units (10, 20, 30...)
+- [x] Test streak increments correctly on daily activity
+- [x] Write unit tests for streak XP bonus logic
 
 **Verification**:
 ```bash

@@ -1,4 +1,10 @@
-import { calculateUnitProgress, calculateStarRating, type StarRating } from '@/lib/progress';
+import { 
+  calculateUnitProgress, 
+  calculateStarRating, 
+  isReviewUnit, 
+  calculateStreakBonusXP,
+  type StarRating 
+} from '@/lib/progress';
 
 describe('Progress Calculation', () => {
   describe('calculateUnitProgress', () => {
@@ -279,6 +285,137 @@ describe('Progress Calculation', () => {
         const total = 20;
         const accuracy = Math.round((correct / total) * 100); // 60%
         expect(calculateStarRating(accuracy)).toBe('bronze');
+      });
+    });
+  });
+
+  describe('isReviewUnit', () => {
+    it('should identify review units ending in 0', () => {
+      expect(isReviewUnit('unit10')).toBe(true);
+      expect(isReviewUnit('unit20')).toBe(true);
+      expect(isReviewUnit('unit30')).toBe(true);
+      expect(isReviewUnit('unit40')).toBe(true);
+      expect(isReviewUnit('unit50')).toBe(true);
+      expect(isReviewUnit('unit60')).toBe(true);
+    });
+
+    it('should not identify non-review units', () => {
+      expect(isReviewUnit('unit1')).toBe(false);
+      expect(isReviewUnit('unit5')).toBe(false);
+      expect(isReviewUnit('unit11')).toBe(false);
+      expect(isReviewUnit('unit25')).toBe(false);
+      expect(isReviewUnit('unit37')).toBe(false);
+    });
+
+    it('should handle different unit ID formats', () => {
+      expect(isReviewUnit('10')).toBe(true);
+      expect(isReviewUnit('20')).toBe(true);
+      expect(isReviewUnit('U10')).toBe(true);
+      expect(isReviewUnit('U_20')).toBe(true);
+      expect(isReviewUnit('unit-30')).toBe(true);
+    });
+
+    it('should handle edge cases', () => {
+      expect(isReviewUnit('0')).toBe(true);
+      expect(isReviewUnit('100')).toBe(true);
+      expect(isReviewUnit('abc')).toBe(false);
+      expect(isReviewUnit('')).toBe(false);
+    });
+  });
+
+  describe('calculateStreakBonusXP', () => {
+    describe('for review units', () => {
+      it('should award 30 XP for streak >= 30 days', () => {
+        expect(calculateStreakBonusXP(30, true)).toBe(30);
+        expect(calculateStreakBonusXP(35, true)).toBe(30);
+        expect(calculateStreakBonusXP(100, true)).toBe(30);
+      });
+
+      it('should award 20 XP for streak >= 20 days', () => {
+        expect(calculateStreakBonusXP(20, true)).toBe(20);
+        expect(calculateStreakBonusXP(25, true)).toBe(20);
+        expect(calculateStreakBonusXP(29, true)).toBe(20);
+      });
+
+      it('should award 10 XP for streak >= 10 days', () => {
+        expect(calculateStreakBonusXP(10, true)).toBe(10);
+        expect(calculateStreakBonusXP(15, true)).toBe(10);
+        expect(calculateStreakBonusXP(19, true)).toBe(10);
+      });
+
+      it('should award 5 XP for streak >= 3 days', () => {
+        expect(calculateStreakBonusXP(3, true)).toBe(5);
+        expect(calculateStreakBonusXP(5, true)).toBe(5);
+        expect(calculateStreakBonusXP(9, true)).toBe(5);
+      });
+
+      it('should award 0 XP for streak < 3 days', () => {
+        expect(calculateStreakBonusXP(0, true)).toBe(0);
+        expect(calculateStreakBonusXP(1, true)).toBe(0);
+        expect(calculateStreakBonusXP(2, true)).toBe(0);
+      });
+    });
+
+    describe('for non-review units', () => {
+      it('should award 0 XP regardless of streak', () => {
+        expect(calculateStreakBonusXP(0, false)).toBe(0);
+        expect(calculateStreakBonusXP(3, false)).toBe(0);
+        expect(calculateStreakBonusXP(10, false)).toBe(0);
+        expect(calculateStreakBonusXP(20, false)).toBe(0);
+        expect(calculateStreakBonusXP(30, false)).toBe(0);
+        expect(calculateStreakBonusXP(100, false)).toBe(0);
+      });
+    });
+
+    describe('real-world scenarios', () => {
+      it('should calculate bonus for 7-day streak on review unit', () => {
+        const streak = 7;
+        const isReview = isReviewUnit('unit10');
+        const bonus = calculateStreakBonusXP(streak, isReview);
+        expect(bonus).toBe(5);
+      });
+
+      it('should calculate bonus for 14-day streak on review unit', () => {
+        const streak = 14;
+        const isReview = isReviewUnit('unit20');
+        const bonus = calculateStreakBonusXP(streak, isReview);
+        expect(bonus).toBe(10);
+      });
+
+      it('should calculate no bonus for 30-day streak on non-review unit', () => {
+        const streak = 30;
+        const isReview = isReviewUnit('unit15');
+        const bonus = calculateStreakBonusXP(streak, isReview);
+        expect(bonus).toBe(0);
+      });
+
+      it('should calculate bonus for perfect month on review unit', () => {
+        const streak = 30;
+        const isReview = isReviewUnit('unit30');
+        const bonus = calculateStreakBonusXP(streak, isReview);
+        expect(bonus).toBe(30);
+      });
+    });
+
+    describe('edge cases', () => {
+      it('should handle boundary at 3 days', () => {
+        expect(calculateStreakBonusXP(2, true)).toBe(0);
+        expect(calculateStreakBonusXP(3, true)).toBe(5);
+      });
+
+      it('should handle boundary at 10 days', () => {
+        expect(calculateStreakBonusXP(9, true)).toBe(5);
+        expect(calculateStreakBonusXP(10, true)).toBe(10);
+      });
+
+      it('should handle boundary at 20 days', () => {
+        expect(calculateStreakBonusXP(19, true)).toBe(10);
+        expect(calculateStreakBonusXP(20, true)).toBe(20);
+      });
+
+      it('should handle boundary at 30 days', () => {
+        expect(calculateStreakBonusXP(29, true)).toBe(20);
+        expect(calculateStreakBonusXP(30, true)).toBe(30);
       });
     });
   });

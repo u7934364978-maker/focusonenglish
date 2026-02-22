@@ -8,13 +8,15 @@ import {
   Trophy,
   Target,
   CheckCircle2,
-  ListChecks
+  ListChecks,
+  Flame
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import PremiumCourseSession from './exercises/PremiumSession';
 import { UnitData, PremiumBlock } from '@/types/premium-course';
 import { calculateUnitProgress } from '@/lib/progress';
+import { useGamification } from '@/lib/hooks/use-gamification';
 
 interface Props {
   unitData: UnitData;
@@ -34,6 +36,7 @@ export default function PremiumUnitViewer({
   const [isCompleted, setIsCompleted] = useState(false);
   const [startIndex, setStartIndex] = useState(0);
   const [localCompletedIds, setLocalCompletedIds] = useState<string[]>(completedInteractionIds);
+  const { streak } = useGamification();
 
   // Flatten all blocks into a single exercise queue to know the indices
   const exerciseQueue = useMemo(() => {
@@ -93,9 +96,19 @@ export default function PremiumUnitViewer({
             <button className="p-2 text-slate-400 hover:text-slate-600 transition-colors">
               <X className="w-8 h-8" />
             </button>
-            <div className="bg-orange-100 px-6 py-2 rounded-2xl flex items-center gap-2 border border-orange-200">
-              <Star className="w-5 h-5 text-orange-500 fill-orange-500" />
-              <span className="font-black text-orange-700 uppercase tracking-widest text-sm">Premium Course</span>
+            <div className="flex items-center gap-3">
+              {streak.currentStreak > 0 && (
+                <div className="bg-red-100 px-6 py-2 rounded-2xl flex items-center gap-2 border border-red-200">
+                  <Flame className="w-5 h-5 text-red-500 fill-red-500" />
+                  <span className="font-black text-red-700 uppercase tracking-widest text-sm">
+                    {streak.currentStreak} día{streak.currentStreak !== 1 ? 's' : ''}
+                  </span>
+                </div>
+              )}
+              <div className="bg-orange-100 px-6 py-2 rounded-2xl flex items-center gap-2 border border-orange-200">
+                <Star className="w-5 h-5 text-orange-500 fill-orange-500" />
+                <span className="font-black text-orange-700 uppercase tracking-widest text-sm">Premium Course</span>
+              </div>
             </div>
           </div>
 
