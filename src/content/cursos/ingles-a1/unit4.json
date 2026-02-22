@@ -1,56 +1,294 @@
 {
   "course": {
-    "unit_id": "unit4",
-    "unit_title": "Jobs and Work",
-    "level": "A1",
-    "total_duration_minutes": 60,
     "language_ui": "es-ES",
-    "target_language": "en"
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U4",
+    "unit_title": "Alphabet & Spelling",
+    "total_duration_minutes": 120
   },
-  "learning_outcomes": [
-    "Recognize common job titles through visual association",
-    "Identify workplace settings",
-    "Associate professions with their English names without translation"
-  ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Discovery: Jobs",
+      "title": "The Alphabet",
       "content": [
         {
-          "interaction_id": "A1_U4_B1_I1",
+          "interaction_id": "U4_I1",
           "type": "matching",
-          "prompt_es": "Une la imagen con el trabajo:",
+          "prompt_es": "Une los conceptos:",
           "pairs": [
-            {
-              "id": "p1",
-              "left": "",
-              "right": "Teacher",
-              "left_image": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
-            },
-            {
-              "id": "p2",
-              "left": "",
-              "right": "Doctor",
-              "left_image": "https://images.pexels.com/photos/3714743/pexels-photo-3714743.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
-            },
-            {
-              "id": "p3",
-              "left": "",
-              "right": "Chef",
-              "left_image": "https://images.pexels.com/photos/2102934/pexels-photo-2102934.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
-            },
-            {
-              "id": "p4",
-              "left": "",
-              "right": "Pilot",
-              "left_image": "https://images.pexels.com/photos/3228723/pexels-photo-3228723.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
-            }
+            { "id": "p1", "left": "Alphabet", "right": "Alfabeto" },
+            { "id": "p2", "left": "Letter", "right": "Letra" },
+            { "id": "p3", "left": "Vowel", "right": "Vocal" },
+            { "id": "p4", "left": "Consonant", "right": "Consonante" }
           ],
           "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary:jobs",
-          "concept_tags": ["vocabulary", "jobs"],
-          "complexity": 1
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I2",
+          "type": "transformation",
+          "prompt_es": "Completa con 'vowel' o 'consonant':",
+          "stimulus_en": "The letter 'B' is a ________.",
+          "correct_answer": "consonant",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estas es una vocal?",
+          "options": [
+            { "id": "o1", "text": "E" },
+            { "id": "o2", "text": "M" },
+            { "id": "o3", "text": "S" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I4",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Deletrea tu nombre'",
+          "stimulus_es": "Deletrea tu nombre",
+          "correct_answer": "Spell your name",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I5",
+          "type": "true_false",
+          "prompt_es": "¿'Apple' comienza con una vocal?",
+          "correct_answer": true,
+          "mastery_tag": "phonics"
+        },
+        {
+          "interaction_id": "U4_I6",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la pregunta:",
+          "options": [
+            { "id": "w1", "text": "How" },
+            { "id": "w2", "text": "do" },
+            { "id": "w3", "text": "you" },
+            { "id": "w4", "text": "spell" },
+            { "id": "w5", "text": "that?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U4_I7",
+          "type": "matching",
+          "prompt_es": "Letras y sonidos:",
+          "pairs": [
+            { "id": "p1", "left": "Spell", "right": "Deletrear" },
+            { "id": "p2", "left": "Word", "right": "Palabra" },
+            { "id": "p3", "left": "First name", "right": "Nombre" },
+            { "id": "p4", "left": "Last name", "right": "Apellido" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I8",
+          "type": "transformation",
+          "prompt_es": "Completa con la letra que falta en 'A-P-P-L-E':",
+          "stimulus_en": "A - P - P - ________ - E",
+          "correct_answer": "L",
+          "mastery_tag": "spelling"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Spelling and Names",
+      "content": [
+        {
+          "interaction_id": "U4_I9",
+          "type": "matching",
+          "prompt_es": "Vocabulario de identificación:",
+          "pairs": [
+            { "id": "p1", "left": "Full name", "right": "Nombre completo" },
+            { "id": "p2", "left": "Mr.", "right": "Señor" },
+            { "id": "p3", "left": "Ms.", "right": "Señora/ita" },
+            { "id": "p4", "left": "Signature", "right": "Firma" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I10",
+          "type": "transformation",
+          "prompt_es": "Completa con 'a' o 'an':",
+          "stimulus_en": "This is ________ apple.",
+          "correct_answer": "an",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U4_I11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'apellido'?",
+          "options": [
+            { "id": "o1", "text": "Last name" },
+            { "id": "o2", "text": "Old name" },
+            { "id": "o3", "text": "Next name" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I12",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿Cuál es tu apellido?'",
+          "stimulus_es": "¿Cuál es tu apellido?",
+          "correct_answer": "What is your last name?",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I13",
+          "type": "true_false",
+          "prompt_es": "¿La letra 'Y' es siempre una consonante en inglés?",
+          "correct_answer": false,
+          "mastery_tag": "phonics"
+        },
+        {
+          "interaction_id": "U4_I14",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase:",
+          "options": [
+            { "id": "w1", "text": "My" },
+            { "id": "w2", "text": "name" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "John" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U4_I15",
+          "type": "matching",
+          "prompt_es": "Deletreo de objetos:",
+          "pairs": [
+            { "id": "p1", "left": "B-O-O-K", "right": "Libro" },
+            { "id": "p2", "left": "H-O-U-S-E", "right": "Casa" },
+            { "id": "p3", "left": "P-E-N", "right": "Bolígrafo" },
+            { "id": "p4", "left": "C-A-R", "right": "Coche" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I16",
+          "type": "transformation",
+          "prompt_es": "Completa con la letra que falta en 'W-O-R-D':",
+          "stimulus_en": "W - O - ________ - D",
+          "correct_answer": "R",
+          "mastery_tag": "spelling"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Practice and Review",
+      "content": [
+        {
+          "interaction_id": "U4_I17",
+          "type": "matching",
+          "prompt_es": "Más términos:",
+          "pairs": [
+            { "id": "p1", "left": "Vowels", "right": "Vocales" },
+            { "id": "p2", "left": "Consonants", "right": "Consonantes" },
+            { "id": "p3", "left": "Small letter", "right": "Minúscula" },
+            { "id": "p4", "left": "Capital letter", "right": "Mayúscula" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Deletrear'?",
+          "options": [
+            { "id": "o1", "text": "Spell" },
+            { "id": "o2", "text": "Speak" },
+            { "id": "o3", "text": "Space" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I19",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿Puedes deletrear eso, por favor?'",
+          "stimulus_es": "¿Puedes deletrear eso, por favor?",
+          "correct_answer": "Can you spell that, please?",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I20",
+          "type": "true_false",
+          "prompt_es": "¿'Name' tiene cuatro letras?",
+          "correct_answer": true,
+          "mastery_tag": "logic"
+        },
+        {
+          "interaction_id": "U4_I21",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la pregunta:",
+          "options": [
+            { "id": "w1", "text": "What" },
+            { "id": "w2", "text": "is" },
+            { "id": "w3", "text": "the" },
+            { "id": "w4", "text": "first" },
+            { "id": "w5", "text": "letter?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U4_I22",
+          "type": "transformation",
+          "prompt_es": "Escribe la vocal que falta en 'H-O-L-A': (en inglés)",
+          "stimulus_en": "H - E - L - L - ________",
+          "correct_answer": "O",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I23",
+          "type": "matching",
+          "prompt_es": "Asocia letras y palabras:",
+          "pairs": [
+            { "id": "p1", "left": "B", "right": "Boy" },
+            { "id": "p2", "left": "G", "right": "Girl" },
+            { "id": "p3", "left": "T", "right": "Teacher" },
+            { "id": "p4", "left": "S", "right": "Student" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I24",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Mi nombre es Sarah'",
+          "stimulus_es": "Mi nombre es Sarah",
+          "correct_answer": "My name is Sarah",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U4_I25",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit4/spell-name.mp3",
+          "transcript_template": "How do you ___ your name?",
+          "correct_answer": "spell",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U4_I26",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit4/letter.mp3",
+          "transcript_template": "What ___ comes after 'K'?",
+          "correct_answer": "letter",
+          "mastery_tag": "listening"
         }
       ]
     }

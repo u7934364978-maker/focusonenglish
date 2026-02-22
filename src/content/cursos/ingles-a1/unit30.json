@@ -1,478 +1,5946 @@
 {
   "course": {
-    "unit_id": "unit30",
-    "unit_title": "Free Time & Hobbies",
-    "level": "A1",
-    "total_duration_minutes": 120,
     "language_ui": "es-ES",
-    "target_language": "en"
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U30",
+    "unit_title": "Module 3 Review",
+    "total_duration_minutes": 120
   },
-  "learning_outcomes": [
-    "Talk about common hobbies and free time activities",
-    "Express likes and dislikes correctly",
-    "Ask others about their favorite activities",
-    "Understand a simple text about leisure time"
-  ],
   "blocks": [
     {
-      "block_id": "B1",
-      "title": "Vocabulary: Hobbies",
+      "block_id": "B30",
+      "title": "Module 3 Review",
       "content": [
         {
-          "interaction_id": "A1_U30_B1_I1",
+          "interaction_id": "U30_I1",
           "type": "matching",
-          "prompt_es": "Une los hobbies con su traducción:",
+          "prompt_es": "Une la palabra con su traducción correcta:",
           "pairs": [
             {
+              "id": "p0",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
               "id": "p1",
-              "left": "Read books",
-              "right": "Leer libros"
+              "left": "Furniture",
+              "right": "Muebles"
             },
             {
               "id": "p2",
-              "left": "Play football",
-              "right": "Jugar fútbol"
+              "left": "Pet",
+              "right": "Mascota"
             },
             {
               "id": "p3",
-              "left": "Watch movies",
-              "right": "Ver películas"
-            },
-            {
-              "id": "p4",
-              "left": "Listen to music",
-              "right": "Escuchar música"
+              "left": "Direction",
+              "right": "Dirección"
             }
           ],
           "correct_answer": {
+            "p0": "p0",
             "p1": "p1",
             "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
+            "p3": "p3"
           },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U30_B1_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ir al gimnasio'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Go to the gym"
-            },
-            {
-              "id": "o2",
-              "text": "Do the gym"
-            },
-            {
-              "id": "o3",
-              "text": "Make the gym"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "interaction_id": "U30_I2",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "A1_U30_B1_I3",
-          "type": "flashcard",
-          "prompt_es": "Nueva palabra: Viajar",
-          "stimulus_en": "Travel",
-          "correct_answer": "Viajar",
-          "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U30_B1_I4",
-          "type": "multiple_choice",
-          "prompt_es": "Si te gusta el agua, tu hobby es:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Running"
-            },
-            {
-              "id": "o2",
-              "text": "Swimming"
-            },
-            {
-              "id": "o3",
-              "text": "Cooking"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U30_B1_I5",
-          "type": "matching",
-          "prompt_es": "Más actividades:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Cook",
-              "right": "Cocinar"
-            },
-            {
-              "id": "p2",
-              "left": "Dance",
-              "right": "Bailar"
-            },
-            {
-              "id": "p3",
-              "left": "Paint",
-              "right": "Pintar"
-            },
-            {
-              "id": "p4",
-              "left": "Sing",
-              "right": "Cantar"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B2",
-      "title": "Grammar: Expressing Likes",
-      "content": [
-        {
-          "interaction_id": "A1_U30_B2_I1",
-          "type": "multiple_choice",
-          "prompt_es": "Usamos '-ing' después de 'like' para acciones. 'Me gusta bailar' es:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I like dance"
-            },
-            {
-              "id": "o2",
-              "text": "I like dancing"
-            },
-            {
-              "id": "o3",
-              "text": "I am like dancing"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U30_B2_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'like' o 'don't like':",
-          "stimulus_en": "I ________ pizza. It's my favorite! (Me gusta)",
-          "correct_answer": "like",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U30_B2_I3",
+          "interaction_id": "U30_I3",
           "type": "true_false",
-          "prompt_es": "¿Es correcto decir 'She likes reading' (a ella le gusta leer)?",
+          "prompt_es": "¿Es correcta esta frase?: \"Describe your house and neighborhood.\"",
           "correct_answer": true,
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "A1_U30_B2_I4",
-          "type": "multiple_choice",
-          "prompt_es": "Forma negativa: 'No me gusta correr'",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I not like running"
-            },
-            {
-              "id": "o2",
-              "text": "I don't like running"
-            },
-            {
-              "id": "o3",
-              "text": "I doesn't like running"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U30_B2_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'like' (Les gusta):",
-          "stimulus_en": "They ________ listening to music.",
-          "correct_answer": "like",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Syntax: Do you like...?",
-      "content": [
-        {
-          "interaction_id": "A1_U30_B3_I1",
+          "interaction_id": "U30_I4",
           "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Te gusta leer?'",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
+            {
+              "id": "w4",
+              "text": "body"
+            },
+            {
+              "id": "w6",
+              "text": "clothes"
+            },
             {
               "id": "w1",
-              "text": "Do"
+              "text": "parts"
+            },
+            {
+              "id": "w5",
+              "text": "and"
+            },
+            {
+              "id": "w0",
+              "text": "Identify"
             },
             {
               "id": "w2",
-              "text": "you"
+              "text": "of"
             },
             {
               "id": "w3",
-              "text": "like"
-            },
-            {
-              "id": "w4",
-              "text": "reading?"
+              "text": "the"
             }
           ],
           "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I5",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuerpo",
+          "correct_answer": "Body",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Muebles' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Furniture"
+            },
+            {
+              "id": "o2",
+              "text": "Direction"
+            },
+            {
+              "id": "o3",
+              "text": "Clothing"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I7",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p1",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p2",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p3",
+              "left": "Clothing",
+              "right": "Ropa"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I8",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Parts identify of the body and clothes\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "directions"
+            },
+            {
+              "id": "w0",
+              "text": "Give"
+            },
+            {
+              "id": "w4",
+              "text": "station"
+            }
+          ],
+          "correct_answer": [
+            "w0",
             "w1",
             "w2",
             "w3",
             "w4"
           ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
+          "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "A1_U30_B3_I2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Cuál es tu hobby favorito?'",
+          "interaction_id": "U30_I11",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Muebles",
+          "correct_answer": "Furniture",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mascota' en inglés?",
           "options": [
             {
-              "id": "w1",
-              "text": "What"
+              "id": "o1",
+              "text": "Pet"
+            },
+            {
+              "id": "o2",
+              "text": "Direction"
+            },
+            {
+              "id": "o3",
+              "text": "Body"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I13",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p1",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p2",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p3",
+              "left": "Body",
+              "right": "Cuerpo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I14",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Give directions to the station.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w4",
+              "text": "animals"
             },
             {
               "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w0",
+              "text": "Talk"
+            },
+            {
+              "id": "w1",
+              "text": "about"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I17",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mascota",
+          "correct_answer": "Pet",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dirección' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Direction"
+            },
+            {
+              "id": "o2",
+              "text": "Clothing"
+            },
+            {
+              "id": "o3",
+              "text": "Furniture"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I19",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p1",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p2",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p3",
+              "left": "Furniture",
+              "right": "Muebles"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I20",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"About talk your favorite animals\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w5",
+              "text": "module"
+            },
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w6",
+              "text": "three"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
               "text": "is"
             },
             {
               "id": "w3",
-              "text": "your"
-            },
-            {
-              "id": "w4",
-              "text": "favorite"
-            },
-            {
-              "id": "w5",
-              "text": "hobby?"
+              "text": "review"
             }
           ],
           "correct_answer": [
+            "w0",
             "w1",
             "w2",
             "w3",
             "w4",
-            "w5"
+            "w5",
+            "w6"
           ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
+          "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "A1_U30_B3_I3",
+          "interaction_id": "U30_I23",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Sí, me gusta.' (Respuesta corta)",
-          "stimulus_en": "Yes, I do.",
-          "correct_answer": "Yes, I do.",
-          "mastery_tag": "syntax",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dirección",
+          "correct_answer": "Direction",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U30_B3_I4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la pregunta: '________ you like sports?'",
-          "stimulus_en": "Do",
-          "correct_answer": "Do",
-          "mastery_tag": "syntax",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U30_B3_I5",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'No, no me gusta.'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "No,"
-            },
-            {
-              "id": "w2",
-              "text": "I"
-            },
-            {
-              "id": "w3",
-              "text": "don't."
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B4",
-      "title": "Reading & My Weekend",
-      "content": [
-        {
-          "interaction_id": "A1_U30_B4_I2",
+          "interaction_id": "U30_I24",
           "type": "multiple_choice",
-          "prompt_es": "¿Le gusta ver la televisión al autor?",
+          "prompt_es": "¿Cómo se dice 'Ropa' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Yes, he does"
+              "text": "Clothing"
             },
             {
               "id": "o2",
-              "text": "No, he doesn't"
+              "text": "Furniture"
             },
             {
               "id": "o3",
-              "text": "Sometimes"
+              "text": "Direction"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ],
-          "stimulus_en": "Tom does not like to watch television. He prefers to read books. Every evening, Tom sits in his chair with a good book. His favorite book is about animals. Tom's cat, Max, sits next to him. They enjoy the quiet time together. Tom thinks reading is more fun than watching TV."
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U30_B4_I4",
-          "type": "short_writing",
-          "prompt_es": "Responde: 'Do you like cooking?'",
-          "stimulus_es": "Sí (Respuesta corta)",
-          "correct_answer": "Yes, I do.",
-          "mastery_tag": "syntax",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U30_B4_I5",
-          "type": "categorization",
-          "prompt_es": "Deportes vs Relax:",
-          "categories": [
+          "interaction_id": "U30_I25",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
             {
-              "id": "c1",
-              "title": "Sports",
-              "items": [
-                "Football",
-                "Tennis",
-                "Swimming",
-                "Running"
-              ]
+              "id": "p0",
+              "left": "Clothing",
+              "right": "Ropa"
             },
             {
-              "id": "c2",
-              "title": "Relax",
-              "items": [
-                "Reading",
-                "Movies",
-                "Music",
-                "Sleeping"
-              ]
+              "id": "p1",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p2",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p3",
+              "left": "Pet",
+              "right": "Mascota"
             }
           ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I26",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"This is a review of module three.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "your"
+            },
+            {
+              "id": "w4",
+              "text": "neighborhood"
+            },
+            {
+              "id": "w3",
+              "text": "and"
+            },
+            {
+              "id": "w2",
+              "text": "house"
+            },
+            {
+              "id": "w0",
+              "text": "Describe"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I29",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ropa",
+          "correct_answer": "Clothing",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuerpo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Body"
+            },
+            {
+              "id": "o3",
+              "text": "Direction"
+            },
+            {
+              "id": "o2",
+              "text": "Clothing"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I31",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p1",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p2",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p3",
+              "left": "Direction",
+              "right": "Dirección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I32",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Your describe house and neighborhood\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w0",
+              "text": "Identify"
+            },
+            {
+              "id": "w6",
+              "text": "clothes"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "parts"
+            },
+            {
+              "id": "w4",
+              "text": "body"
+            },
+            {
+              "id": "w5",
+              "text": "and"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I35",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuerpo",
+          "correct_answer": "Body",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Muebles' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Furniture"
+            },
+            {
+              "id": "o2",
+              "text": "Pet"
+            },
+            {
+              "id": "o3",
+              "text": "Clothing"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I37",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p1",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p2",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p3",
+              "left": "Clothing",
+              "right": "Ropa"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I38",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Identify parts of the body and clothes.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "directions"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "station"
+            },
+            {
+              "id": "w0",
+              "text": "Give"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I41",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Muebles",
+          "correct_answer": "Furniture",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mascota' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Furniture"
+            },
+            {
+              "id": "o1",
+              "text": "Pet"
+            },
+            {
+              "id": "o3",
+              "text": "Clothing"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I43",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p1",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p2",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p3",
+              "left": "Body",
+              "right": "Cuerpo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I44",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Directions give to the station\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w1",
+              "text": "about"
+            },
+            {
+              "id": "w0",
+              "text": "Talk"
+            },
+            {
+              "id": "w4",
+              "text": "animals"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I47",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mascota",
+          "correct_answer": "Pet",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dirección' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Pet"
+            },
+            {
+              "id": "o3",
+              "text": "Clothing"
+            },
+            {
+              "id": "o1",
+              "text": "Direction"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I49",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p1",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p2",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p3",
+              "left": "Furniture",
+              "right": "Muebles"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I50",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Talk about your favorite animals.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w5",
+              "text": "module"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w6",
+              "text": "three"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "review"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I53",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dirección",
+          "correct_answer": "Direction",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ropa' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Direction"
+            },
+            {
+              "id": "o2",
+              "text": "Pet"
+            },
+            {
+              "id": "o1",
+              "text": "Clothing"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I55",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p1",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p2",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p3",
+              "left": "Pet",
+              "right": "Mascota"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I56",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Is this a review of module three\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "house"
+            },
+            {
+              "id": "w3",
+              "text": "and"
+            },
+            {
+              "id": "w4",
+              "text": "neighborhood"
+            },
+            {
+              "id": "w1",
+              "text": "your"
+            },
+            {
+              "id": "w0",
+              "text": "Describe"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I59",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ropa",
+          "correct_answer": "Clothing",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuerpo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Pet"
+            },
+            {
+              "id": "o1",
+              "text": "Body"
+            },
+            {
+              "id": "o2",
+              "text": "Direction"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I61",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p1",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p2",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p3",
+              "left": "Direction",
+              "right": "Dirección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I62",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Describe your house and neighborhood.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "and"
+            },
+            {
+              "id": "w4",
+              "text": "body"
+            },
+            {
+              "id": "w6",
+              "text": "clothes"
+            },
+            {
+              "id": "w0",
+              "text": "Identify"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "parts"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I65",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuerpo",
+          "correct_answer": "Body",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I66",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Muebles' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Furniture"
+            },
+            {
+              "id": "o2",
+              "text": "Pet"
+            },
+            {
+              "id": "o3",
+              "text": "Direction"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I67",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p1",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p2",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p3",
+              "left": "Clothing",
+              "right": "Ropa"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I68",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Parts identify of the body and clothes\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w0",
+              "text": "Give"
+            },
+            {
+              "id": "w4",
+              "text": "station"
+            },
+            {
+              "id": "w1",
+              "text": "directions"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I71",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Muebles",
+          "correct_answer": "Furniture",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I72",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mascota' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Pet"
+            },
+            {
+              "id": "o2",
+              "text": "Direction"
+            },
+            {
+              "id": "o3",
+              "text": "Furniture"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I73",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p1",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p2",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p3",
+              "left": "Body",
+              "right": "Cuerpo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I74",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Give directions to the station.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "animals"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w0",
+              "text": "Talk"
+            },
+            {
+              "id": "w1",
+              "text": "about"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I77",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mascota",
+          "correct_answer": "Pet",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dirección' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Clothing"
+            },
+            {
+              "id": "o3",
+              "text": "Body"
+            },
+            {
+              "id": "o1",
+              "text": "Direction"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I79",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p1",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p2",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p3",
+              "left": "Furniture",
+              "right": "Muebles"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I80",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"About talk your favorite animals\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "module"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w3",
+              "text": "review"
+            },
+            {
+              "id": "w6",
+              "text": "three"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I83",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dirección",
+          "correct_answer": "Direction",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ropa' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Pet"
+            },
+            {
+              "id": "o1",
+              "text": "Clothing"
+            },
+            {
+              "id": "o3",
+              "text": "Body"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I85",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p1",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p2",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p3",
+              "left": "Pet",
+              "right": "Mascota"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I86",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"This is a review of module three.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "and"
+            },
+            {
+              "id": "w4",
+              "text": "neighborhood"
+            },
+            {
+              "id": "w1",
+              "text": "your"
+            },
+            {
+              "id": "w2",
+              "text": "house"
+            },
+            {
+              "id": "w0",
+              "text": "Describe"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I89",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ropa",
+          "correct_answer": "Clothing",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuerpo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Body"
+            },
+            {
+              "id": "o2",
+              "text": "Furniture"
+            },
+            {
+              "id": "o3",
+              "text": "Direction"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I91",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p1",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p2",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p3",
+              "left": "Direction",
+              "right": "Dirección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I92",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Your describe house and neighborhood\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "parts"
+            },
+            {
+              "id": "w0",
+              "text": "Identify"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "and"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w4",
+              "text": "body"
+            },
+            {
+              "id": "w6",
+              "text": "clothes"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I95",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuerpo",
+          "correct_answer": "Body",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Muebles' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Pet"
+            },
+            {
+              "id": "o3",
+              "text": "Direction"
+            },
+            {
+              "id": "o1",
+              "text": "Furniture"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I97",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p1",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p2",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p3",
+              "left": "Clothing",
+              "right": "Ropa"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I98",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Identify parts of the body and clothes.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Give"
+            },
+            {
+              "id": "w4",
+              "text": "station"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "directions"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I101",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Muebles",
+          "correct_answer": "Furniture",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I102",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mascota' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Body"
+            },
+            {
+              "id": "o1",
+              "text": "Pet"
+            },
+            {
+              "id": "o3",
+              "text": "Direction"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I103",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p1",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p2",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p3",
+              "left": "Body",
+              "right": "Cuerpo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I104",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I105",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Directions give to the station\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I106",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "about"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w0",
+              "text": "Talk"
+            },
+            {
+              "id": "w4",
+              "text": "animals"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I107",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mascota",
+          "correct_answer": "Pet",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I108",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dirección' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Furniture"
+            },
+            {
+              "id": "o2",
+              "text": "Clothing"
+            },
+            {
+              "id": "o1",
+              "text": "Direction"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I109",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p1",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p2",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p3",
+              "left": "Furniture",
+              "right": "Muebles"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I110",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I111",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Talk about your favorite animals.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I112",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "review"
+            },
+            {
+              "id": "w6",
+              "text": "three"
+            },
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "module"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I113",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dirección",
+          "correct_answer": "Direction",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I114",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ropa' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Clothing"
+            },
+            {
+              "id": "o3",
+              "text": "Furniture"
+            },
+            {
+              "id": "o2",
+              "text": "Direction"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I115",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p1",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p2",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p3",
+              "left": "Pet",
+              "right": "Mascota"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I116",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I117",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Is this a review of module three\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I118",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "house"
+            },
+            {
+              "id": "w1",
+              "text": "your"
+            },
+            {
+              "id": "w3",
+              "text": "and"
+            },
+            {
+              "id": "w0",
+              "text": "Describe"
+            },
+            {
+              "id": "w4",
+              "text": "neighborhood"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I119",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ropa",
+          "correct_answer": "Clothing",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I120",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuerpo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Direction"
+            },
+            {
+              "id": "o3",
+              "text": "Furniture"
+            },
+            {
+              "id": "o1",
+              "text": "Body"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I121",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p1",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p2",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p3",
+              "left": "Direction",
+              "right": "Dirección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I122",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I123",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Describe your house and neighborhood.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I124",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "clothes"
+            },
+            {
+              "id": "w5",
+              "text": "and"
+            },
+            {
+              "id": "w1",
+              "text": "parts"
+            },
+            {
+              "id": "w0",
+              "text": "Identify"
+            },
+            {
+              "id": "w4",
+              "text": "body"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I125",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuerpo",
+          "correct_answer": "Body",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I126",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Muebles' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Body"
+            },
+            {
+              "id": "o1",
+              "text": "Furniture"
+            },
+            {
+              "id": "o2",
+              "text": "Direction"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I127",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p1",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p2",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p3",
+              "left": "Clothing",
+              "right": "Ropa"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I128",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I129",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Parts identify of the body and clothes\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I130",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w1",
+              "text": "directions"
+            },
+            {
+              "id": "w4",
+              "text": "station"
+            },
+            {
+              "id": "w0",
+              "text": "Give"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I131",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Muebles",
+          "correct_answer": "Furniture",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I132",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mascota' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Pet"
+            },
+            {
+              "id": "o2",
+              "text": "Direction"
+            },
+            {
+              "id": "o3",
+              "text": "Body"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I133",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p1",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p2",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p3",
+              "left": "Body",
+              "right": "Cuerpo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I134",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I135",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Give directions to the station.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I136",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Talk"
+            },
+            {
+              "id": "w4",
+              "text": "animals"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w1",
+              "text": "about"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I137",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mascota",
+          "correct_answer": "Pet",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I138",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dirección' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Body"
+            },
+            {
+              "id": "o3",
+              "text": "Clothing"
+            },
+            {
+              "id": "o1",
+              "text": "Direction"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I139",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p1",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p2",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p3",
+              "left": "Furniture",
+              "right": "Muebles"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I140",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I141",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"About talk your favorite animals\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I142",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "module"
+            },
+            {
+              "id": "w3",
+              "text": "review"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w6",
+              "text": "three"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I143",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dirección",
+          "correct_answer": "Direction",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I144",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ropa' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Direction"
+            },
+            {
+              "id": "o2",
+              "text": "Pet"
+            },
+            {
+              "id": "o1",
+              "text": "Clothing"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I145",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p1",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p2",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p3",
+              "left": "Pet",
+              "right": "Mascota"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I146",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I147",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"This is a review of module three.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I148",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "house"
+            },
+            {
+              "id": "w1",
+              "text": "your"
+            },
+            {
+              "id": "w0",
+              "text": "Describe"
+            },
+            {
+              "id": "w4",
+              "text": "neighborhood"
+            },
+            {
+              "id": "w3",
+              "text": "and"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I149",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ropa",
+          "correct_answer": "Clothing",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I150",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuerpo' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Body"
+            },
+            {
+              "id": "o2",
+              "text": "Furniture"
+            },
+            {
+              "id": "o3",
+              "text": "Direction"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I151",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p1",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p2",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p3",
+              "left": "Direction",
+              "right": "Dirección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I152",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I153",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Your describe house and neighborhood\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I154",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "parts"
+            },
+            {
+              "id": "w0",
+              "text": "Identify"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "body"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w6",
+              "text": "clothes"
+            },
+            {
+              "id": "w5",
+              "text": "and"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I155",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuerpo",
+          "correct_answer": "Body",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I156",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Muebles' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Pet"
+            },
+            {
+              "id": "o3",
+              "text": "Clothing"
+            },
+            {
+              "id": "o1",
+              "text": "Furniture"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I157",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p1",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p2",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p3",
+              "left": "Clothing",
+              "right": "Ropa"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I158",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I159",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Identify parts of the body and clothes.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I160",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "directions"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Give"
+            },
+            {
+              "id": "w4",
+              "text": "station"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I161",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Muebles",
+          "correct_answer": "Furniture",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I162",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mascota' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Furniture"
+            },
+            {
+              "id": "o3",
+              "text": "Direction"
+            },
+            {
+              "id": "o1",
+              "text": "Pet"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I163",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p1",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p2",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p3",
+              "left": "Body",
+              "right": "Cuerpo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I164",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I165",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Directions give to the station\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I166",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w0",
+              "text": "Talk"
+            },
+            {
+              "id": "w1",
+              "text": "about"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w4",
+              "text": "animals"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I167",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mascota",
+          "correct_answer": "Pet",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I168",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dirección' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Direction"
+            },
+            {
+              "id": "o2",
+              "text": "Body"
+            },
+            {
+              "id": "o3",
+              "text": "Furniture"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I169",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p1",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p2",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p3",
+              "left": "Furniture",
+              "right": "Muebles"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I170",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I171",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Talk about your favorite animals.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I172",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "module"
+            },
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w6",
+              "text": "three"
+            },
+            {
+              "id": "w3",
+              "text": "review"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I173",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dirección",
+          "correct_answer": "Direction",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I174",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ropa' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Body"
+            },
+            {
+              "id": "o2",
+              "text": "Furniture"
+            },
+            {
+              "id": "o1",
+              "text": "Clothing"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I175",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p1",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p2",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p3",
+              "left": "Pet",
+              "right": "Mascota"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I176",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I177",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Is this a review of module three\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I178",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "house"
+            },
+            {
+              "id": "w3",
+              "text": "and"
+            },
+            {
+              "id": "w0",
+              "text": "Describe"
+            },
+            {
+              "id": "w1",
+              "text": "your"
+            },
+            {
+              "id": "w4",
+              "text": "neighborhood"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I179",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ropa",
+          "correct_answer": "Clothing",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I180",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuerpo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Direction"
+            },
+            {
+              "id": "o3",
+              "text": "Pet"
+            },
+            {
+              "id": "o1",
+              "text": "Body"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I181",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p1",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p2",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p3",
+              "left": "Direction",
+              "right": "Dirección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I182",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I183",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Describe your house and neighborhood.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I184",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "and"
+            },
+            {
+              "id": "w0",
+              "text": "Identify"
+            },
+            {
+              "id": "w1",
+              "text": "parts"
+            },
+            {
+              "id": "w6",
+              "text": "clothes"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "body"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I185",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuerpo",
+          "correct_answer": "Body",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I186",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Muebles' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Furniture"
+            },
+            {
+              "id": "o3",
+              "text": "Pet"
+            },
+            {
+              "id": "o2",
+              "text": "Body"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I187",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p1",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p2",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p3",
+              "left": "Clothing",
+              "right": "Ropa"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I188",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I189",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Parts identify of the body and clothes\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I190",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "station"
+            },
+            {
+              "id": "w1",
+              "text": "directions"
+            },
+            {
+              "id": "w0",
+              "text": "Give"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I191",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Muebles",
+          "correct_answer": "Furniture",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I192",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mascota' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Pet"
+            },
+            {
+              "id": "o3",
+              "text": "Clothing"
+            },
+            {
+              "id": "o2",
+              "text": "Direction"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I193",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p1",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p2",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p3",
+              "left": "Body",
+              "right": "Cuerpo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I194",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I195",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Give directions to the station.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I196",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w0",
+              "text": "Talk"
+            },
+            {
+              "id": "w1",
+              "text": "about"
+            },
+            {
+              "id": "w4",
+              "text": "animals"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I197",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mascota",
+          "correct_answer": "Pet",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I198",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dirección' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Pet"
+            },
+            {
+              "id": "o3",
+              "text": "Furniture"
+            },
+            {
+              "id": "o1",
+              "text": "Direction"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I199",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p1",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p2",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p3",
+              "left": "Furniture",
+              "right": "Muebles"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I200",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I201",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"About talk your favorite animals\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I202",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w6",
+              "text": "three"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "module"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w3",
+              "text": "review"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I203",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dirección",
+          "correct_answer": "Direction",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I204",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ropa' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Body"
+            },
+            {
+              "id": "o1",
+              "text": "Clothing"
+            },
+            {
+              "id": "o3",
+              "text": "Direction"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I205",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p1",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p2",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p3",
+              "left": "Pet",
+              "right": "Mascota"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I206",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I207",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"This is a review of module three.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I208",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "your"
+            },
+            {
+              "id": "w4",
+              "text": "neighborhood"
+            },
+            {
+              "id": "w0",
+              "text": "Describe"
+            },
+            {
+              "id": "w2",
+              "text": "house"
+            },
+            {
+              "id": "w3",
+              "text": "and"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I209",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ropa",
+          "correct_answer": "Clothing",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I210",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuerpo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Pet"
+            },
+            {
+              "id": "o3",
+              "text": "Furniture"
+            },
+            {
+              "id": "o1",
+              "text": "Body"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I211",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p1",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p2",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p3",
+              "left": "Direction",
+              "right": "Dirección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I212",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I213",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Your describe house and neighborhood\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I214",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w5",
+              "text": "and"
+            },
+            {
+              "id": "w6",
+              "text": "clothes"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Identify"
+            },
+            {
+              "id": "w4",
+              "text": "body"
+            },
+            {
+              "id": "w1",
+              "text": "parts"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I215",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuerpo",
+          "correct_answer": "Body",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I216",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Muebles' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Body"
+            },
+            {
+              "id": "o1",
+              "text": "Furniture"
+            },
+            {
+              "id": "o2",
+              "text": "Direction"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I217",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p1",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p2",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p3",
+              "left": "Clothing",
+              "right": "Ropa"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I218",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I219",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Identify parts of the body and clothes.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I220",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Give"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "directions"
+            },
+            {
+              "id": "w4",
+              "text": "station"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I221",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Muebles",
+          "correct_answer": "Furniture",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I222",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mascota' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Pet"
+            },
+            {
+              "id": "o2",
+              "text": "Direction"
+            },
+            {
+              "id": "o3",
+              "text": "Clothing"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I223",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p1",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p2",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p3",
+              "left": "Body",
+              "right": "Cuerpo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I224",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I225",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Directions give to the station\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I226",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "animals"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w1",
+              "text": "about"
+            },
+            {
+              "id": "w0",
+              "text": "Talk"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I227",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mascota",
+          "correct_answer": "Pet",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I228",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dirección' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Direction"
+            },
+            {
+              "id": "o3",
+              "text": "Furniture"
+            },
+            {
+              "id": "o2",
+              "text": "Pet"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I229",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p1",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p2",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p3",
+              "left": "Furniture",
+              "right": "Muebles"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I230",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I231",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Talk about your favorite animals.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I232",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w5",
+              "text": "module"
+            },
+            {
+              "id": "w6",
+              "text": "three"
+            },
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w3",
+              "text": "review"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I233",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dirección",
+          "correct_answer": "Direction",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I234",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ropa' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Clothing"
+            },
+            {
+              "id": "o3",
+              "text": "Pet"
+            },
+            {
+              "id": "o2",
+              "text": "Direction"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I235",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p1",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p2",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p3",
+              "left": "Pet",
+              "right": "Mascota"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I236",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I237",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Is this a review of module three\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I238",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "your"
+            },
+            {
+              "id": "w0",
+              "text": "Describe"
+            },
+            {
+              "id": "w2",
+              "text": "house"
+            },
+            {
+              "id": "w4",
+              "text": "neighborhood"
+            },
+            {
+              "id": "w3",
+              "text": "and"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I239",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ropa",
+          "correct_answer": "Clothing",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I240",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuerpo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Pet"
+            },
+            {
+              "id": "o1",
+              "text": "Body"
+            },
+            {
+              "id": "o3",
+              "text": "Furniture"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I241",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p1",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p2",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p3",
+              "left": "Direction",
+              "right": "Dirección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I242",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I243",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Describe your house and neighborhood.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I244",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w6",
+              "text": "clothes"
+            },
+            {
+              "id": "w5",
+              "text": "and"
+            },
+            {
+              "id": "w0",
+              "text": "Identify"
+            },
+            {
+              "id": "w4",
+              "text": "body"
+            },
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w1",
+              "text": "parts"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I245",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuerpo",
+          "correct_answer": "Body",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I246",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Muebles' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Furniture"
+            },
+            {
+              "id": "o3",
+              "text": "Clothing"
+            },
+            {
+              "id": "o2",
+              "text": "Body"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I247",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p1",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p2",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p3",
+              "left": "Clothing",
+              "right": "Ropa"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I248",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I249",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Parts identify of the body and clothes\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I250",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "to"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w1",
+              "text": "directions"
+            },
+            {
+              "id": "w0",
+              "text": "Give"
+            },
+            {
+              "id": "w4",
+              "text": "station"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I251",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Muebles",
+          "correct_answer": "Furniture",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I252",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mascota' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Pet"
+            },
+            {
+              "id": "o2",
+              "text": "Body"
+            },
+            {
+              "id": "o3",
+              "text": "Furniture"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I253",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p1",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p2",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p3",
+              "left": "Body",
+              "right": "Cuerpo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I254",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I255",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Give directions to the station.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I256",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w1",
+              "text": "about"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            },
+            {
+              "id": "w0",
+              "text": "Talk"
+            },
+            {
+              "id": "w4",
+              "text": "animals"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I257",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mascota",
+          "correct_answer": "Pet",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I258",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dirección' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Pet"
+            },
+            {
+              "id": "o3",
+              "text": "Furniture"
+            },
+            {
+              "id": "o1",
+              "text": "Direction"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I259",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p1",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p2",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p3",
+              "left": "Furniture",
+              "right": "Muebles"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I260",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I261",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"About talk your favorite animals\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I262",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w6",
+              "text": "three"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            },
+            {
+              "id": "w5",
+              "text": "module"
+            },
+            {
+              "id": "w3",
+              "text": "review"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I263",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dirección",
+          "correct_answer": "Direction",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I264",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ropa' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Furniture"
+            },
+            {
+              "id": "o1",
+              "text": "Clothing"
+            },
+            {
+              "id": "o2",
+              "text": "Pet"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I265",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p1",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p2",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p3",
+              "left": "Pet",
+              "right": "Mascota"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I266",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I267",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"This is a review of module three.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I268",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Describe"
+            },
+            {
+              "id": "w2",
+              "text": "house"
+            },
+            {
+              "id": "w4",
+              "text": "neighborhood"
+            },
+            {
+              "id": "w1",
+              "text": "your"
+            },
+            {
+              "id": "w3",
+              "text": "and"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I269",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ropa",
+          "correct_answer": "Clothing",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I270",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuerpo' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Furniture"
+            },
+            {
+              "id": "o3",
+              "text": "Direction"
+            },
+            {
+              "id": "o1",
+              "text": "Body"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I271",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p1",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p2",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p3",
+              "left": "Direction",
+              "right": "Dirección"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I272",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I273",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Your describe house and neighborhood\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I274",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "of"
+            },
+            {
+              "id": "w0",
+              "text": "Identify"
+            },
+            {
+              "id": "w5",
+              "text": "and"
+            },
+            {
+              "id": "w1",
+              "text": "parts"
+            },
+            {
+              "id": "w4",
+              "text": "body"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "clothes"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I275",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Cuerpo",
+          "correct_answer": "Body",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I276",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Muebles' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Body"
+            },
+            {
+              "id": "o1",
+              "text": "Furniture"
+            },
+            {
+              "id": "o2",
+              "text": "Direction"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I277",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p1",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p2",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p3",
+              "left": "Clothing",
+              "right": "Ropa"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I278",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I279",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Identify parts of the body and clothes.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I280",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "station"
+            },
+            {
+              "id": "w0",
+              "text": "Give"
+            },
+            {
+              "id": "w1",
+              "text": "directions"
+            },
+            {
+              "id": "w2",
+              "text": "to"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I281",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Muebles",
+          "correct_answer": "Furniture",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I282",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Mascota' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Body"
+            },
+            {
+              "id": "o2",
+              "text": "Furniture"
+            },
+            {
+              "id": "o1",
+              "text": "Pet"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I283",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Pet",
+              "right": "Mascota"
+            },
+            {
+              "id": "p1",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p2",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p3",
+              "left": "Body",
+              "right": "Cuerpo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I284",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I285",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Directions give to the station\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I286",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "animals"
+            },
+            {
+              "id": "w0",
+              "text": "Talk"
+            },
+            {
+              "id": "w1",
+              "text": "about"
+            },
+            {
+              "id": "w2",
+              "text": "your"
+            },
+            {
+              "id": "w3",
+              "text": "favorite"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I287",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mascota",
+          "correct_answer": "Pet",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I288",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Dirección' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Clothing"
+            },
+            {
+              "id": "o1",
+              "text": "Direction"
+            },
+            {
+              "id": "o2",
+              "text": "Body"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I289",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Direction",
+              "right": "Dirección"
+            },
+            {
+              "id": "p1",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p2",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p3",
+              "left": "Furniture",
+              "right": "Muebles"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I290",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The cat is (debajo) ________ the table.",
+          "correct_answer": "under",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I291",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Talk about your favorite animals.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I292",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w5",
+              "text": "module"
+            },
+            {
+              "id": "w6",
+              "text": "three"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "review"
+            },
+            {
+              "id": "w4",
+              "text": "of"
+            },
+            {
+              "id": "w0",
+              "text": "This"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I293",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Dirección",
+          "correct_answer": "Direction",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I294",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ropa' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Clothing"
+            },
+            {
+              "id": "o3",
+              "text": "Direction"
+            },
+            {
+              "id": "o2",
+              "text": "Furniture"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I295",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Clothing",
+              "right": "Ropa"
+            },
+            {
+              "id": "p1",
+              "left": "Body",
+              "right": "Cuerpo"
+            },
+            {
+              "id": "p2",
+              "left": "Furniture",
+              "right": "Muebles"
+            },
+            {
+              "id": "p3",
+              "left": "Pet",
+              "right": "Mascota"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I296",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "There (hay - plural) ________ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U30_I297",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Is this a review of module three\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I298",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "house"
+            },
+            {
+              "id": "w3",
+              "text": "and"
+            },
+            {
+              "id": "w4",
+              "text": "neighborhood"
+            },
+            {
+              "id": "w1",
+              "text": "your"
+            },
+            {
+              "id": "w0",
+              "text": "Describe"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U30_I299",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Ropa",
+          "correct_answer": "Clothing",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I300",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Cuerpo' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Direction"
+            },
+            {
+              "id": "o1",
+              "text": "Body"
+            },
+            {
+              "id": "o2",
+              "text": "Furniture"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U30_I301",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit30/review.mp3",
+          "transcript_template": "Let's ___ what we learned.",
+          "correct_answer": "review",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U30_I302",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit30/practice.mp3",
+          "transcript_template": "___ makes perfect!",
+          "correct_answer": "Practice",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U30_I303",
+          "type": "pronunciation",
+          "title": "Pronunciation Practice - Module 3 Review",
+          "instructions": "Practice these sentences from Module 3. Focus on clear pronunciation of body parts, furniture, and prepositions.",
+          "focusPoints": [
+            "Clear consonant clusters (str-, thr-)",
+            "Accurate vowel sounds in key vocabulary",
+            "Preposition pronunciation (on, under, between)"
+          ],
+          "targetSentences": [
+            {
+              "text": "The cat is sleeping under the table.",
+              "phonetic": "/ðə kæt ɪz ˈsliːpɪŋ ˈʌndə ðə ˈteɪbl/",
+              "audioUrl": "/audio/a1/unit30/review-sentence-1.mp3"
+            },
+            {
+              "text": "My head hurts and I need to rest.",
+              "phonetic": "/maɪ hed hɜːts ænd aɪ niːd tuː rest/",
+              "audioUrl": "/audio/a1/unit30/review-sentence-2.mp3"
+            },
+            {
+              "text": "Please turn right at the corner.",
+              "phonetic": "/pliːz tɜːn raɪt æt ðə ˈkɔːnə/",
+              "audioUrl": "/audio/a1/unit30/review-sentence-3.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U30_PRON_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'under'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "/ˈʌndə/ (vocal corta en 'u')"
+                },
+                {
+                  "id": "o2",
+                  "text": "/ˈuːndə/ (vocal larga en 'u')"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation"
+        },
+        {
+          "interaction_id": "U30_I304",
+          "type": "speaking",
+          "prompt": "Describe your bedroom. Tell me about the furniture and where things are located. Use at least 4 prepositions.",
+          "expectedResponse": "My bedroom has a bed, a desk, and a wardrobe. The bed is against the wall, and there's a lamp on the bedside table. My computer is on the desk, and my clothes are in the wardrobe.",
+          "hints": [
+            "Mention furniture items (bed, desk, chair, wardrobe)",
+            "Use prepositions: on, in, under, next to, against",
+            "Describe at least 3-4 items"
+          ],
+          "targetWords": ["bed", "desk", "on", "in", "next to"],
+          "timeLimit": 90,
+          "mastery_tag": "speaking"
         }
       ]
     }

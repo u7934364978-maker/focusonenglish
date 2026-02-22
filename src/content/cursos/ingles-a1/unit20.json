@@ -1,47 +1,41 @@
 {
   "course": {
-    "unit_id": "unit20",
-    "unit_title": "Module 2 Review",
-    "level": "A1",
-    "total_duration_minutes": 120,
     "language_ui": "es-ES",
-    "target_language": "en"
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U20",
+    "unit_title": "Giving Directions",
+    "total_duration_minutes": 120
   },
-  "learning_outcomes": [
-    "Consolidate vocabulary from Units 11-19",
-    "Review Present Simple in affirmative, negative, and interrogative forms",
-    "Apply time expressions and dates correctly",
-    "Review likes, dislikes, and daily routines"
-  ],
   "blocks": [
     {
-      "block_id": "B1",
-      "title": "Module 2 Vocabulary Recap",
+      "block_id": "B20",
+      "title": "Navigation and Directions",
       "content": [
         {
-          "interaction_id": "A1_U20_B1_I1",
+          "interaction_id": "U20_I1",
           "type": "matching",
-          "prompt_es": "Asocia cada palabra con su categoría:",
+          "prompt_es": "Une cada dirección con su traducción:",
           "pairs": [
             {
               "id": "p1",
-              "left": "Dinner",
-              "right": "Meal"
+              "left": "Turn left",
+              "right": "Gira a la izquierda"
             },
             {
               "id": "p2",
-              "left": "October",
-              "right": "Month"
+              "left": "Turn right",
+              "right": "Gira a la derecha"
             },
             {
               "id": "p3",
-              "left": "Tuesday",
-              "right": "Day"
+              "left": "Go straight ahead",
+              "right": "Sigue recto"
             },
             {
               "id": "p4",
-              "left": "Brother",
-              "right": "Family"
+              "left": "Go past",
+              "right": "Pasa por delante de"
             }
           ],
           "correct_answer": {
@@ -50,102 +44,61 @@
             "p3": "p3",
             "p4": "p4"
           },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U20_B1_I2",
+          "interaction_id": "U20_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es lo opuesto de 'Boring'?",
+          "prompt_es": "¿Cómo pides ayuda educadamente?",
           "options": [
             {
               "id": "o1",
-              "text": "Interesting"
+              "text": "Excuse me"
             },
             {
               "id": "o2",
-              "text": "Brave"
+              "text": "Move please"
             },
             {
               "id": "o3",
-              "text": "Quiet"
+              "text": "Hey you"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "mastery_tag": "phrases"
         },
         {
-          "interaction_id": "A1_U20_B1_I3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'A las ocho en punto'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "At eight o'clock"
-            },
-            {
-              "id": "o2",
-              "text": "In eight o'clock"
-            },
-            {
-              "id": "o3",
-              "text": "On eight o'clock"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "interaction_id": "U20_I3",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Gira a la derecha en la esquina'",
+          "stimulus_es": "Gira a la derecha en la esquina",
+          "correct_answer": "Turn right at the corner",
+          "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "A1_U20_B1_I4",
-          "type": "flashcard",
-          "prompt_es": "Vocabulario clave de rutina:",
-          "stimulus_en": "Brush my teeth",
-          "correct_answer": "Lavarme los dientes",
-          "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B1_I5",
+          "interaction_id": "U20_I4",
           "type": "matching",
-          "prompt_es": "Relaciona alimentos:",
+          "prompt_es": "Elementos de la calle:",
           "pairs": [
             {
               "id": "p1",
-              "left": "Egg",
-              "right": "Huevo"
+              "left": "Traffic lights",
+              "right": "Semáforo"
             },
             {
               "id": "p2",
-              "left": "Cheese",
-              "right": "Queso"
+              "left": "Roundabout",
+              "right": "Rotonda"
             },
             {
               "id": "p3",
-              "left": "Chicken",
-              "right": "Pollo"
+              "left": "Bridge",
+              "right": "Puente"
             },
             {
               "id": "p4",
-              "left": "Milk",
-              "right": "Leche"
+              "left": "Corner",
+              "right": "Esquina"
             }
           ],
           "correct_answer": {
@@ -154,346 +107,447 @@
             "p3": "p3",
             "p4": "p4"
           },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B2",
-      "title": "Module 2 Grammar Review",
-      "content": [
-        {
-          "interaction_id": "A1_U20_B2_I1",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con el verbo (Present Simple):",
-          "stimulus_en": "My sister ________ (work) in a hospital.",
-          "correct_answer": "works",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U20_B2_I2",
-          "type": "multiple_choice",
-          "prompt_es": "A él NO le gusta bailar:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "He don't like dancing"
-            },
-            {
-              "id": "o2",
-              "text": "He doesn't like dancing"
-            },
-            {
-              "id": "o3",
-              "text": "He not like dancing"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "interaction_id": "U20_I5",
+          "type": "transformation",
+          "prompt_es": "Completa: 'Está a tu ________ (izquierda).'",
+          "stimulus_en": "It's on your ________.",
+          "correct_answer": "left",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U20_B2_I3",
-          "type": "fill_blanks",
-          "prompt_es": "Usa la preposición correcta:",
-          "stimulus_en": "The meeting is ________ Friday at 10:00.",
-          "correct_answer": "on",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B2_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es correcto: 'I have lunch in 1 o'clock'?",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B2_I5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Tengo hambre'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I have hungry"
-            },
-            {
-              "id": "o2",
-              "text": "I am hungry"
-            },
-            {
-              "id": "o3",
-              "text": "I do hungry"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Syntax & Practical Usage",
-      "content": [
-        {
-          "interaction_id": "A1_U20_B3_I1",
+          "interaction_id": "U20_I6",
           "type": "reorder_words",
-          "prompt_es": "Ordena la pregunta: '¿A qué hora te levantas?'",
+          "prompt_es": "Ordena: '¿Cómo llego al cine?'",
           "options": [
             {
               "id": "w1",
-              "text": "What"
-            },
-            {
-              "id": "w2",
-              "text": "time"
-            },
-            {
-              "id": "w3",
               "text": "do"
             },
             {
-              "id": "w4",
-              "text": "you"
+              "id": "w2",
+              "text": "I"
             },
             {
-              "id": "w5",
+              "id": "w3",
               "text": "get"
             },
             {
-              "id": "w6",
-              "text": "up?"
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "the cinema?"
+            },
+            {
+              "id": "w0",
+              "text": "How"
             }
           ],
           "correct_answer": [
+            "w0",
             "w1",
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6"
+            "w5"
           ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
+          "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "A1_U20_B3_I2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Mi hermano prefiere el café'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "My"
-            },
-            {
-              "id": "w2",
-              "text": "brother"
-            },
-            {
-              "id": "w3",
-              "text": "prefers"
-            },
-            {
-              "id": "w4",
-              "text": "coffee"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B3_I3",
-          "type": "short_writing",
-          "prompt_es": "Traduce: '¿Cuándo es tu cumpleaños?'",
-          "stimulus_en": "When is your birthday?",
-          "correct_answer": "When is your birthday?",
-          "mastery_tag": "syntax",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B3_I4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la rutina:",
-          "stimulus_en": "I go ________ bed at 11 PM.",
-          "correct_answer": "to",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B3_I5",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Nosotros no comemos carne'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "We"
-            },
-            {
-              "id": "w2",
-              "text": "don't"
-            },
-            {
-              "id": "w3",
-              "text": "eat"
-            },
-            {
-              "id": "w4",
-              "text": "meat"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B4",
-      "title": "Global Module Review",
-      "content": [
-        {
-          "interaction_id": "A1_U20_B4_I2",
+          "interaction_id": "U20_I7",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuándo es el cumpleaños de Elena?",
+          "prompt_es": "¿Qué significa 'Cross the street'?",
           "options": [
             {
               "id": "o1",
-              "text": "In June"
+              "text": "Cruza la calle"
             },
             {
               "id": "o2",
-              "text": "In August"
+              "text": "Mira la calle"
             },
             {
               "id": "o3",
-              "text": "On Sunday"
+              "text": "Camina por la calle"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ],
-          "stimulus_en": "Elena's birthday is in August. She has a big party with her friends. They eat cake and play games. Elena feels very happy. Her best friend gives her a beautiful gift. Everyone sings Happy Birthday to Elena, and they all have fun. Elena's birthday is a special day for her."
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U20_B4_I3",
-          "type": "audio_player",
-          "prompt_es": "Escucha y escribe lo que dice:",
-          "audioUrl": "/audio/courses/ingles-a1/shared/47826287034d0ebeef39d9565a9d0f6f.mp3",
-          "text": "Can you tell the time?",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
+          "interaction_id": "U20_I8",
+          "type": "true_false",
+          "prompt_es": "'On your right' significa 'A tu izquierda'.",
+          "correct_answer": false,
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U20_B4_I4",
+          "interaction_id": "U20_I9",
           "type": "short_writing",
-          "prompt_es": "Escribe una frase sobre algo que te guste (ej. I like coffee):",
-          "stimulus_es": "Me gusta...",
-          "correct_answer": "^I like .+$",
-          "mastery_tag": "syntax",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
+          "prompt_es": "Traduce: 'Sigue recto por dos cuadras/bloques'",
+          "stimulus_es": "Sigue recto por dos bloques",
+          "correct_answer": "Go straight for two blocks",
+          "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "A1_U20_B4_I5",
-          "type": "categorization",
-          "prompt_es": "Clasifica según el tiempo o la comida:",
-          "categories": [
+          "interaction_id": "U20_I10",
+          "type": "transformation",
+          "prompt_es": "Completa: 'Turn left ________ (en) the traffic lights.'",
+          "stimulus_en": "Turn left ________ the traffic lights.",
+          "correct_answer": "at",
+          "mastery_tag": "prepositions"
+        },
+        {
+          "interaction_id": "U20_I11",
+          "type": "matching",
+          "prompt_es": "Más indicaciones:",
+          "pairs": [
             {
-              "id": "c1",
-              "title": "Time/Date",
-              "items": [
-                "January",
-                "Monday",
-                "Morning"
-              ]
+              "id": "p1",
+              "left": "Take the first turning",
+              "right": "Toma la primera salida"
             },
             {
-              "id": "c2",
-              "title": "Food/Drink",
-              "items": [
-                "Bread",
-                "Milk",
-                "Soup"
-              ]
+              "id": "p2",
+              "left": "Next to",
+              "right": "Al lado de"
+            },
+            {
+              "id": "p3",
+              "left": "Opposite",
+              "right": "Enfrente de"
             }
           ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "phrases"
+        },
+        {
+          "interaction_id": "U20_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lejos'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Far"
+            },
+            {
+              "id": "o2",
+              "text": "Near"
+            },
+            {
+              "id": "o3",
+              "text": "Fast"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U20_I13",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'El hospital está allí'",
+          "options": [
+            {
+              "id": "w1",
+              "text": "hospital"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "over"
+            },
+            {
+              "id": "w4",
+              "text": "there"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U20_I14",
+          "type": "true_false",
+          "prompt_es": "'Take the bus' significa 'Gira el autobús'.",
+          "correct_answer": false,
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U20_I15",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Cruza el puente'",
+          "stimulus_es": "Cruza el puente",
+          "correct_answer": "Cross the bridge",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U20_I16",
+          "type": "matching",
+          "prompt_es": "Señales de tráfico:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Stop",
+              "right": "Pare/Stop"
+            },
+            {
+              "id": "p2",
+              "left": "One way",
+              "right": "Sentido único"
+            },
+            {
+              "id": "p3",
+              "left": "No entry",
+              "right": "Prohibido el paso"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U20_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Over there'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Allí/Por allí"
+            },
+            {
+              "id": "o2",
+              "text": "Aquí mismo"
+            },
+            {
+              "id": "o3",
+              "text": "Cerca de ti"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U20_I18",
+          "type": "transformation",
+          "prompt_es": "Completa: 'It is ________ (cerca) the park.'",
+          "stimulus_en": "It is ________ the park.",
+          "correct_answer": "near",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U20_I19",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Toma la segunda a la izquierda'",
+          "options": [
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "second"
+            },
+            {
+              "id": "w3",
+              "text": "on"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "left"
+            },
+            {
+              "id": "w0",
+              "text": "Take"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U20_I20",
+          "type": "true_false",
+          "prompt_es": "En inglés, 'Street' y 'Road' significan lo mismo.",
+          "correct_answer": true,
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U20_I21",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Semáforo' en inglés:",
+          "stimulus_es": "Semáforo",
+          "correct_answer": "Traffic lights",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U20_I22",
+          "type": "matching",
+          "prompt_es": "Acciones de navegación:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Follow the signs",
+              "right": "Sigue las señales"
+            },
+            {
+              "id": "p2",
+              "left": "Keep going",
+              "right": "Sigue adelante"
+            },
+            {
+              "id": "p3",
+              "left": "Look for",
+              "right": "Busca"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U20_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'A la derecha'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "On the right"
+            },
+            {
+              "id": "o2",
+              "text": "On the light"
+            },
+            {
+              "id": "o3",
+              "text": "On the night"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U20_I24",
+          "type": "transformation",
+          "prompt_es": "Completa: 'You ________ (necesitas) a map.'",
+          "stimulus_en": "You ________ a map.",
+          "correct_answer": "need",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U20_I25",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit20/going.mp3",
+          "transcript_template": "I am ___ to the store.",
+          "correct_answer": "going",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U20_I26",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit20/will.mp3",
+          "transcript_template": "I ___ call you later.",
+          "correct_answer": "will",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U20_I27",
+          "type": "pronunciation",
+          "title": "Pronunciation Practice - Giving Directions",
+          "instructions": "Listen to these direction phrases and repeat them. Pay attention to the rhythm and stress.",
+          "focusPoints": [
+            "Clear 'th' sounds in 'the'",
+            "Stress on action words (turn, go, take)",
+            "Natural intonation for instructions"
+          ],
+          "targetSentences": [
+            {
+              "text": "Turn left at the traffic lights.",
+              "phonetic": "/tɜːn left æt ðə ˈtræfɪk laɪts/",
+              "audioUrl": "/audio/a1/unit20/direction-1.mp3"
+            },
+            {
+              "text": "Go straight ahead for two blocks.",
+              "phonetic": "/ɡəʊ streɪt əˈhed fɔː tuː blɒks/",
+              "audioUrl": "/audio/a1/unit20/direction-2.mp3"
+            },
+            {
+              "text": "Excuse me, where is the nearest bank?",
+              "phonetic": "/ɪkˈskjuːz miː, weər ɪz ðə ˈnɪərɪst bæŋk/",
+              "audioUrl": "/audio/a1/unit20/direction-3.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U20_PRON_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'excuse' correctamente?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "EX-cuse (primera sílaba)"
+                },
+                {
+                  "id": "o2",
+                  "text": "ex-CUSE (segunda sílaba)"
+                }
+              ],
+              "correct_answer": "o2",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation"
+        },
+        {
+          "interaction_id": "U20_I28",
+          "type": "speaking",
+          "prompt": "Give me directions from your house to the nearest supermarket. Use at least 3 direction phrases.",
+          "expectedResponse": "Turn right when you leave my house, then go straight ahead for two blocks. Turn left at the traffic lights, and the supermarket is on your right.",
+          "hints": [
+            "Use phrases like 'turn left/right', 'go straight', 'it's on your left/right'",
+            "Mention landmarks like traffic lights or corners",
+            "Speak clearly and at a natural pace"
+          ],
+          "targetWords": ["turn", "straight", "left", "right", "traffic lights"],
+          "timeLimit": 60,
+          "mastery_tag": "speaking"
         }
       ]
     }

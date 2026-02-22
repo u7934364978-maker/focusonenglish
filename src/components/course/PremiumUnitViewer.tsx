@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import { 
   Play, 
   Star,
@@ -9,62 +9,37 @@ import {
   Target,
   CheckCircle2,
   ListChecks,
-  Settings2,
-  RefreshCcw
+  Flame
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import PremiumCourseSession from './exercises/PremiumSession';
 import { UnitData, PremiumBlock } from '@/types/premium-course';
-import { useUser } from '@/hooks/useAuth';
-import { useRouter } from 'next/navigation';
-import { premiumCourseService } from '@/lib/services/premium-course-service';
-import { AdaptiveEngine, UserPerformanceRecord } from '@/lib/course-engine/adaptive';
-import { CourseUnit } from '@/lib/course-engine/schema';
+import { calculateUnitProgress } from '@/lib/progress';
+import { useGamification } from '@/lib/hooks/use-gamification';
 
 interface Props {
   unitData: UnitData;
-  nextUnitUrl?: string;
+  userId?: string;
+  completedInteractionIds?: string[];
+  onProgressUpdate?: (interactionId: string) => void;
 }
 
-export default function PremiumUnitViewer({ unitData, nextUnitUrl }: Props) {
+export default function PremiumUnitViewer({ 
+  unitData, 
+  userId, 
+  completedInteractionIds = [],
+  onProgressUpdate 
+}: Props) {
   const { course, blocks, learning_outcomes } = unitData;
-  const { user } = useUser();
-  const router = useRouter();
   const [isStarted, setIsStarted] = useState(false);
   const [isCompleted, setIsCompleted] = useState(false);
   const [startIndex, setStartIndex] = useState(0);
-  const [srsData, setSrsData] = useState<UserPerformanceRecord[]>([]);
-  const [isAdaptive, setIsAdaptive] = useState(true);
-  const [isLoadingSrs, setIsLoadingSrs] = useState(true);
+  const [localCompletedIds, setLocalCompletedIds] = useState<string[]>(completedInteractionIds);
+  const { streak } = useGamification();
 
-  // Fetch SRS data on load
-  useEffect(() => {
-    const fetchSRS = async () => {
-      if (user && unitData) {
-        setIsLoadingSrs(true);
-        const allInteractionIds = blocks.flatMap(b => b.content.map(c => c.interaction_id)).filter(Boolean) as string[];
-        if (allInteractionIds.length > 0) {
-          const data = await premiumCourseService.getSRSPerformance(user.id, allInteractionIds);
-          setSrsData(data);
-        }
-        setIsLoadingSrs(false);
-      }
-    };
-    fetchSRS();
-  }, [user, unitData, blocks]);
-
-  // Mixed/Adaptive Queue
-  const adaptiveQueue = useMemo(() => {
-    if (!isAdaptive) return null;
-    return AdaptiveEngine.generateSequence(unitData as unknown as CourseUnit, srsData, {
-      maxExercises: 20,
-      reviewPriority: 0.4
-    });
-  }, [unitData, srsData, isAdaptive]);
-
-  // Flatten all blocks into a single exercise queue (static view)
-  const staticQueue = useMemo(() => {
+  // Flatten all blocks into a single exercise queue to know the indices
+  const exerciseQueue = useMemo(() => {
     const items: any[] = [];
     blocks.forEach((block: PremiumBlock) => {
       block.content.forEach((content: any) => {
@@ -79,23 +54,21 @@ export default function PremiumUnitViewer({ unitData, nextUnitUrl }: Props) {
     return items;
   }, [blocks]);
 
-  const handlePerformanceUpdate = async (interactionId: string, quality: number) => {
-    if (user) {
-      await premiumCourseService.updateSRS(user.id, interactionId, quality);
-      // Refresh local SRS state (optimistic or re-fetch)
-      // For now, let's just refresh if it was a fail or first success
-      if (quality === 0 || quality >= 3) {
-        const allInteractionIds = blocks.flatMap(b => b.content.map(c => c.interaction_id)).filter(Boolean) as string[];
-        const data = await premiumCourseService.getSRSPerformance(user.id, allInteractionIds);
-        setSrsData(data);
-      }
-    }
-  };
+  const allInteractionIds = useMemo(() => {
+    return exerciseQueue
+      .map(ex => ex.interaction_id)
+      .filter(Boolean) as string[];
+  }, [exerciseQueue]);
 
-  const handleConceptUpdate = async (tags: string[], success: boolean) => {
-    if (user) {
-      await premiumCourseService.updateConceptMastery(user.id, tags, success);
+  const unitProgress = useMemo(() => {
+    return calculateUnitProgress(allInteractionIds, localCompletedIds);
+  }, [allInteractionIds, localCompletedIds]);
+
+  const handleExerciseComplete = (interactionId: string) => {
+    if (!localCompletedIds.includes(interactionId)) {
+      setLocalCompletedIds(prev => [...prev, interactionId]);
     }
+    onProgressUpdate?.(interactionId);
   };
 
   if (isStarted) {
@@ -103,16 +76,13 @@ export default function PremiumUnitViewer({ unitData, nextUnitUrl }: Props) {
       <PremiumCourseSession 
         unitData={unitData}
         initialIndex={startIndex}
-        customQueue={isAdaptive ? adaptiveQueue : staticQueue}
-        userId={user?.id}
-        onPerformanceUpdate={handlePerformanceUpdate}
-        onConceptUpdate={handleConceptUpdate}
+        userId={userId}
         onComplete={() => {
           setIsCompleted(true);
           setIsStarted(false);
         }}
-        onNextUnit={nextUnitUrl ? () => router.push(nextUnitUrl) : undefined}
         onExit={() => setIsStarted(false)}
+        onExerciseComplete={handleExerciseComplete}
       />
     );
   }
@@ -126,9 +96,19 @@ export default function PremiumUnitViewer({ unitData, nextUnitUrl }: Props) {
             <button className="p-2 text-slate-400 hover:text-slate-600 transition-colors">
               <X className="w-8 h-8" />
             </button>
-            <div className="bg-orange-100 px-6 py-2 rounded-2xl flex items-center gap-2 border border-orange-200">
-              <Star className="w-5 h-5 text-orange-500 fill-orange-500" />
-              <span className="font-black text-orange-700 uppercase tracking-widest text-sm">Premium Course</span>
+            <div className="flex items-center gap-3">
+              {streak.currentStreak > 0 && (
+                <div className="bg-red-100 px-6 py-2 rounded-2xl flex items-center gap-2 border border-red-200">
+                  <Flame className="w-5 h-5 text-red-500 fill-red-500" />
+                  <span className="font-black text-red-700 uppercase tracking-widest text-sm">
+                    {streak.currentStreak} día{streak.currentStreak !== 1 ? 's' : ''}
+                  </span>
+                </div>
+              )}
+              <div className="bg-orange-100 px-6 py-2 rounded-2xl flex items-center gap-2 border border-orange-200">
+                <Star className="w-5 h-5 text-orange-500 fill-orange-500" />
+                <span className="font-black text-orange-700 uppercase tracking-widest text-sm">Premium Course</span>
+              </div>
             </div>
           </div>
 
@@ -140,41 +120,39 @@ export default function PremiumUnitViewer({ unitData, nextUnitUrl }: Props) {
             <div className="absolute -right-20 -top-20 w-64 h-64 bg-indigo-50 rounded-full blur-3xl opacity-50 group-hover:scale-150 transition-transform duration-1000" />
             
             <div className="relative z-10 space-y-6">
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                  <span className="px-4 py-1.5 bg-indigo-600 text-white rounded-xl font-black text-xs uppercase tracking-[0.2em]">
-                    {course.unit_id} · {course.level}
+              <div className="flex items-center gap-3 flex-wrap">
+                <span className="px-4 py-1.5 bg-indigo-600 text-white rounded-xl font-black text-xs uppercase tracking-[0.2em]">
+                  {course.unit_id} · {course.level}
+                </span>
+                {isCompleted && (
+                  <span className="px-4 py-1.5 bg-green-100 text-green-700 rounded-xl font-black text-xs uppercase tracking-[0.2em] flex items-center gap-1">
+                    <CheckCircle2 className="w-3 h-3" /> Completado
                   </span>
-                  {isCompleted && (
-                    <span className="px-4 py-1.5 bg-green-100 text-green-700 rounded-xl font-black text-xs uppercase tracking-[0.2em] flex items-center gap-1">
-                      <CheckCircle2 className="w-3 h-3" /> Completado
-                    </span>
-                  )}
-                </div>
-                
-                <Button
-                  variant="secondary"
-                  size="sm"
-                  onClick={() => setIsAdaptive(!isAdaptive)}
-                  className={`rounded-xl font-bold flex items-center gap-2 transition-all ${isAdaptive ? 'text-indigo-600 bg-indigo-50' : 'text-slate-400'}`}
-                >
-                  <Settings2 className="w-4 h-4" />
-                  {isAdaptive ? 'Modo Adaptativo' : 'Modo Secuencial'}
-                </Button>
+                )}
+                {unitProgress.total > 0 && (
+                  <span className="px-4 py-1.5 bg-purple-100 text-purple-700 rounded-xl font-black text-xs uppercase tracking-[0.2em]">
+                    {unitProgress.completed}/{unitProgress.total} ({unitProgress.percentage}%)
+                  </span>
+                )}
               </div>
               
               <h1 className="text-4xl md:text-6xl font-black tracking-tight leading-tight">
                 {course.unit_title}
               </h1>
 
-              {isAdaptive && (
-                <div className="bg-indigo-50/50 rounded-2xl p-4 border border-indigo-100 flex items-center gap-4">
-                  <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center text-indigo-600 shadow-sm">
-                    <RefreshCcw className="w-5 h-5" />
+              {unitProgress.total > 0 && (
+                <div className="pt-4 space-y-2">
+                  <div className="flex items-center justify-between text-sm">
+                    <span className="font-bold text-slate-600">Progreso</span>
+                    <span className="font-black text-indigo-600">{unitProgress.percentage}%</span>
                   </div>
-                  <div>
-                    <p className="text-sm font-bold text-indigo-900">Sesión Inteligente Activada</p>
-                    <p className="text-xs text-indigo-700/70 font-medium">Mezclando nuevo contenido con repasos de temas fallados.</p>
+                  <div className="w-full h-4 bg-slate-100 rounded-full overflow-hidden">
+                    <motion.div
+                      initial={{ width: 0 }}
+                      animate={{ width: `${unitProgress.percentage}%` }}
+                      transition={{ duration: 0.5, ease: "easeOut" }}
+                      className="h-full bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full"
+                    />
                   </div>
                 </div>
               )}
@@ -205,36 +183,39 @@ export default function PremiumUnitViewer({ unitData, nextUnitUrl }: Props) {
           </div>
 
           <div className="grid gap-4">
-            {(isAdaptive ? adaptiveQueue : staticQueue)?.map((exercise: any, idx: number) => {
-              const perf = srsData.find(p => p.interaction_id === exercise.interaction_id);
-              const isReview = perf && (new Date(perf.next_review_at) <= new Date() || perf.quality < 3);
-
+            {exerciseQueue.map((exercise: any, idx: number) => {
+              const isExerciseCompleted = exercise.interaction_id && localCompletedIds.includes(exercise.interaction_id);
               return (
                 <motion.div
-                  key={`${exercise.interaction_id}-${idx}`}
+                  key={idx}
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: idx * 0.05 }}
-                  className={`bg-white hover:bg-slate-50 border-2 rounded-2xl p-4 flex items-center justify-between group transition-all ${isReview ? 'border-orange-100 bg-orange-50/20' : 'border-slate-100'}`}
+                  className={`bg-white hover:bg-slate-50 border-2 rounded-2xl p-4 flex items-center justify-between group transition-all ${
+                    isExerciseCompleted ? 'border-green-200 bg-green-50/50' : 'border-slate-100'
+                  }`}
                 >
                   <div className="flex items-center gap-4">
-                    <div className={`w-10 h-10 rounded-xl flex items-center justify-center font-bold transition-colors ${isReview ? 'bg-orange-100 text-orange-600' : 'bg-slate-100 text-slate-500 group-hover:bg-indigo-100 group-hover:text-indigo-600'}`}>
-                      {idx + 1}
+                    <div className={`w-10 h-10 rounded-xl flex items-center justify-center font-bold transition-colors ${
+                      isExerciseCompleted 
+                        ? 'bg-green-100 text-green-600' 
+                        : 'bg-slate-100 group-hover:bg-indigo-100 text-slate-500 group-hover:text-indigo-600'
+                    }`}>
+                      {isExerciseCompleted ? (
+                        <CheckCircle2 className="w-5 h-5" />
+                      ) : (
+                        idx + 1
+                      )}
                     </div>
                     <div className="space-y-0.5">
-                      <div className="flex items-center gap-2">
-                        <p className="text-xs font-black text-indigo-600 uppercase tracking-widest">{exercise.blockTitle || 'Repaso'}</p>
-                        {isReview && (
-                          <span className="text-[10px] font-black bg-orange-100 text-orange-600 px-2 py-0.5 rounded-full uppercase">Review</span>
-                        )}
-                      </div>
-                      <h3 className="font-bold text-slate-700 line-clamp-1">{exercise.displayTitle || (exercise as any).prompt_es || 'Ejercicio'}</h3>
+                      <p className="text-xs font-black text-indigo-600 uppercase tracking-widest">{exercise.blockTitle}</p>
+                      <h3 className="font-bold text-slate-700 line-clamp-1">{exercise.displayTitle}</h3>
                     </div>
                   </div>
                   
                   <Button
                     size="sm"
-                    variant="secondary"
+                    variant="ghost"
                     onClick={() => {
                       setStartIndex(idx);
                       setIsStarted(true);

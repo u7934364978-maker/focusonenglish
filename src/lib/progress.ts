@@ -94,3 +94,126 @@ export function isWeekUnlocked(goal: string, level: string, weekNumber: number) 
   const prevProgress = loadWeekProgress(goal, level, prevWeek);
   return Boolean(prevProgress?.coreUnlockedNext);
 }
+
+export type UnitProgress = {
+  total: number;
+  completed: number;
+  percentage: number;
+};
+
+export function calculateUnitProgress(
+  allInteractionIds: string[],
+  completedInteractionIds: string[]
+): UnitProgress {
+  const total = allInteractionIds.length;
+  const completedSet = new Set(completedInteractionIds);
+  const completed = allInteractionIds.filter(id => completedSet.has(id)).length;
+  const percentage = total > 0 ? Math.round((completed / total) * 100) : 0;
+  
+  return {
+    total,
+    completed,
+    percentage
+  };
+}
+
+export type StarRating = 'bronze' | 'silver' | 'gold' | null;
+
+export type UnitCompletionResult = {
+  stars: StarRating;
+  accuracy: number;
+  isNewRecord: boolean;
+};
+
+export function calculateStarRating(accuracyPercentage: number): StarRating {
+  if (accuracyPercentage >= 95) return 'gold';
+  if (accuracyPercentage >= 80) return 'silver';
+  if (accuracyPercentage >= 60) return 'bronze';
+  return null;
+}
+
+export function isReviewUnit(unitId: string): boolean {
+  const unitNumber = parseInt(unitId.replace(/\D/g, ''), 10);
+  return !isNaN(unitNumber) && unitNumber % 10 === 0;
+}
+
+export function calculateStreakBonusXP(currentStreak: number, isReview: boolean): number {
+  if (!isReview) return 0;
+  
+  if (currentStreak >= 30) return 30;
+  if (currentStreak >= 20) return 20;
+  if (currentStreak >= 10) return 10;
+  if (currentStreak >= 3) return 5;
+  
+  return 0;
+}
+
+export async function completeUnitWithStars(params: {
+  userId: string;
+  courseId: string;
+  unitId: string;
+  totalExercises: number;
+  correctExercises: number;
+  supabaseClient: any;
+  currentStreak?: number;
+}): Promise<UnitCompletionResult> {
+  const { userId, courseId, unitId, totalExercises, correctExercises, supabaseClient, currentStreak = 0 } = params;
+  
+  const { data, error } = await supabaseClient
+    .rpc('complete_unit_with_stars', {
+      p_user_id: userId,
+      p_course_id: courseId,
+      p_unit_id: unitId,
+      p_total_exercises: totalExercises,
+      p_correct_exercises: correctExercises
+    });
+
+  if (error) {
+    console.error('Error completing unit with stars:', error);
+    
+    const accuracy = totalExercises > 0 
+      ? Math.round((correctExercises / totalExercises) * 100) 
+      : 0;
+    return {
+      stars: calculateStarRating(accuracy),
+      accuracy,
+      isNewRecord: false
+    };
+  }
+
+  const bonusXP = calculateStreakBonusXP(currentStreak, isReviewUnit(unitId));
+  if (bonusXP > 0) {
+    await supabaseClient
+      .from('xp_transactions')
+      .insert({
+        user_id: userId,
+        amount: bonusXP,
+        source: 'streak-bonus',
+        source_id: unitId,
+        description: `Bonus de racha (${currentStreak} días) en unidad de repaso ${unitId}`
+      });
+
+    const { data: currentXPData } = await supabaseClient
+      .from('user_xp')
+      .select('total_xp')
+      .eq('user_id', userId)
+      .single();
+
+    if (currentXPData) {
+      await supabaseClient
+        .from('user_xp')
+        .update({ 
+          total_xp: currentXPData.total_xp + bonusXP,
+          updated_at: new Date().toISOString()
+        })
+        .eq('user_id', userId);
+    }
+  }
+
+  const result = data?.[0];
+  return {
+    stars: result?.unit_stars || null,
+    accuracy: result?.accuracy_percentage || 0,
+    isNewRecord: result?.is_new_record || false
+  };
+}

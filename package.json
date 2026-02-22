@@ -4,7 +4,7 @@
   "description": "Focus English - Cursos de Inglés Especializados para Trabajo, Viajes y Exámenes",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3001 -H 127.0.0.1",
+    "dev": "next dev -p 5436",
     "build": "next build",
     "start": "next start -p ${PORT:-3000}",
     "lint": "next lint",
@@ -29,9 +29,11 @@
     "generate-audio": "ts-node --esm scripts/generate-course-audio.ts",
     "generate-audio:test": "ts-node --esm scripts/generate-course-audio.ts test",
     "generate-audio:all": "ts-node --esm scripts/generate-course-audio.ts all",
-    "generate-audio:a1-expansion": "ts-node --esm scripts/generate-a1-expansion-audio.ts",
+    "generate-audio:a1": "ts-node scripts/generate-course-audio-a1.ts",
+    "generate-audio:a1:test": "ts-node scripts/generate-course-audio-a1.ts test",
+    "generate-audio:a1:list": "ts-node scripts/generate-course-audio-a1.ts list",
+    "generate-audio:a1:units": "ts-node scripts/generate-course-audio-a1.ts units",
     "validate-exercises": "node scripts/validate-exercises.mjs",
-    "validate-courses": "npx tsx scripts/validate-courses.mjs",
     "validate-exercise-types": "node scripts/validate-exercise-types.mjs",
     "validate-weeks": "node scripts/validate-week.mjs src/content/weeks/*.json",
     "audit-seo": "node scripts/audit-blog-seo.mjs"
@@ -53,7 +55,6 @@
     "clsx": "^2.1.1",
     "elevenlabs-node": "^2.0.3",
     "framer-motion": "^12.29.0",
-    "glob": "^13.0.5",
     "gray-matter": "^4.0.3",
     "js-yaml": "^4.1.1",
     "lucide-react": "^0.562.0",
@@ -88,7 +89,6 @@
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
     "ts-node": "^10.9.2",
-    "tsconfig-paths": "^4.2.0",
     "typescript": "^5.7.2"
   },
   "engines": {

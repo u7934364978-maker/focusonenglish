@@ -1,47 +1,41 @@
 {
   "course": {
-    "unit_id": "unit18",
-    "unit_title": "Likes & Dislikes",
-    "level": "A1",
-    "total_duration_minutes": 120,
     "language_ui": "es-ES",
-    "target_language": "en"
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U18",
+    "unit_title": "Healthy Eating",
+    "total_duration_minutes": 120
   },
-  "learning_outcomes": [
-    "Use verbs like 'like', 'love', 'hate', and 'enjoy'",
-    "Express preferences using 'prefer'",
-    "Understand the basic use of gerunds (-ing) after preference verbs",
-    "Form questions and negatives about likes and dislikes"
-  ],
   "blocks": [
     {
-      "block_id": "B1",
-      "title": "Vocabulary: Verbs of Preference",
+      "block_id": "B18",
+      "title": "Nutrition and Habits",
       "content": [
         {
-          "interaction_id": "A1_U18_B1_I1",
+          "interaction_id": "U18_I1",
           "type": "matching",
-          "prompt_es": "Une cada verbo con su intensidad (de menos a más):",
+          "prompt_es": "Relaciona las frutas con su nombre en inglés:",
           "pairs": [
             {
               "id": "p1",
-              "left": "Hate",
-              "right": "Odiar (--) "
+              "left": "Apple",
+              "right": "Manzana"
             },
             {
               "id": "p2",
-              "left": "Don't like",
-              "right": "No gustar (-)"
+              "left": "Banana",
+              "right": "Plátano"
             },
             {
               "id": "p3",
-              "left": "Like",
-              "right": "Gustar (+)"
+              "left": "Strawberry",
+              "right": "Fresa"
             },
             {
               "id": "p4",
-              "left": "Love",
-              "right": "Encantar/Amar (++)"
+              "left": "Orange",
+              "right": "Naranja"
             }
           ],
           "correct_answer": {
@@ -50,102 +44,61 @@
             "p3": "p3",
             "p4": "p4"
           },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U18_B1_I2",
+          "interaction_id": "U18_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Disfrutar'?",
+          "prompt_es": "¿Cuál de estos alimentos es 'Healthy' (saludable)?",
           "options": [
             {
               "id": "o1",
-              "text": "Enjoy"
+              "text": "Salad"
             },
             {
               "id": "o2",
-              "text": "Prefer"
+              "text": "Candy"
             },
             {
               "id": "o3",
-              "text": "Hate"
+              "text": "Soda"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U18_B1_I3",
-          "type": "flashcard",
-          "prompt_es": "Estudia esta expresión:",
-          "stimulus_en": "My favorite...",
-          "correct_answer": "Mi ... favorito/a",
-          "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "interaction_id": "U18_I3",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Bebo mucha agua'",
+          "stimulus_es": "Bebo mucha agua",
+          "correct_answer": "I drink a lot of water",
+          "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "A1_U18_B1_I4",
-          "type": "multiple_choice",
-          "prompt_es": "Si algo no te gusta nada, dices:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I love it"
-            },
-            {
-              "id": "o2",
-              "text": "I like it"
-            },
-            {
-              "id": "o3",
-              "text": "I hate it"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B1_I5",
+          "interaction_id": "U18_I4",
           "type": "matching",
-          "prompt_es": "Vocabulario relacionado:",
+          "prompt_es": "Une las verduras:",
           "pairs": [
             {
               "id": "p1",
-              "left": "Interesting",
-              "right": "Interesante"
+              "left": "Carrot",
+              "right": "Zanahoria"
             },
             {
               "id": "p2",
-              "left": "Boring",
-              "right": "Aburrido"
+              "left": "Broccoli",
+              "right": "Brócoli"
             },
             {
               "id": "p3",
-              "left": "Fun",
-              "right": "Divertido"
+              "left": "Lettuce",
+              "right": "Lechuga"
             },
             {
               "id": "p4",
-              "left": "Great",
-              "right": "Genial"
+              "left": "Cucumber",
+              "right": "Pepino"
             }
           ],
           "correct_answer": {
@@ -154,315 +107,376 @@
             "p3": "p3",
             "p4": "p4"
           },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B2",
-      "title": "Grammar: Expressing Likes & Gerunds",
-      "content": [
+          "mastery_tag": "vocabulary"
+        },
         {
-          "interaction_id": "A1_U18_B2_I1",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta del verbo (Present Simple):",
-          "stimulus_en": "She ________ (like) chocolate.",
+          "interaction_id": "U18_I5",
+          "type": "transformation",
+          "prompt_es": "Completa con 'Like' o 'Likes' (3ª persona):",
+          "stimulus_en": "She ________ eating apples.",
           "correct_answer": "likes",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "A1_U18_B2_I2",
-          "type": "multiple_choice",
-          "prompt_es": "Después de 'like' y 'hate', solemos añadir '-ing' al verbo. 'Me gusta leer' es:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I like read"
-            },
-            {
-              "id": "o2",
-              "text": "I like reading"
-            },
-            {
-              "id": "o3",
-              "text": "I like reads"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B2_I3",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la frase: 'Él disfruta cocinar'",
-          "stimulus_en": "He enjoys ________ (cook).",
-          "correct_answer": "cooking",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B2_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es correcto decir: 'I don't like boring movies'?",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B2_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'prefer':",
-          "stimulus_en": "They ________ tea to coffee.",
-          "correct_answer": "prefer",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Syntax: Questions & Negatives",
-      "content": [
-        {
-          "interaction_id": "A1_U18_B3_I1",
+          "interaction_id": "U18_I6",
           "type": "reorder_words",
-          "prompt_es": "Ordena la pregunta: '¿Te gusta el fútbol?'",
+          "prompt_es": "Ordena: 'La fruta es buena para ti'",
           "options": [
             {
               "id": "w1",
-              "text": "Do"
+              "text": "is"
             },
             {
               "id": "w2",
+              "text": "good"
+            },
+            {
+              "id": "w3",
+              "text": "for"
+            },
+            {
+              "id": "w4",
               "text": "you"
             },
             {
-              "id": "w3",
-              "text": "like"
-            },
-            {
-              "id": "w4",
-              "text": "football?"
+              "id": "w0",
+              "text": "Fruit"
             }
           ],
           "correct_answer": [
+            "w0",
             "w1",
             "w2",
             "w3",
             "w4"
           ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
+          "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "A1_U18_B3_I2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'A ella no le gusta limpiar'",
+          "interaction_id": "U18_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa 'Junk food'?",
           "options": [
             {
-              "id": "w1",
-              "text": "She"
+              "id": "o1",
+              "text": "Comida basura"
             },
             {
-              "id": "w2",
-              "text": "doesn't"
+              "id": "o2",
+              "text": "Comida fresca"
             },
             {
-              "id": "w3",
-              "text": "like"
-            },
-            {
-              "id": "w4",
-              "text": "cleaning"
+              "id": "o3",
+              "text": "Comida casera"
             }
           ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U18_B3_I3",
+          "interaction_id": "U18_I8",
+          "type": "true_false",
+          "prompt_es": "'Fresh' significa 'Congelado'.",
+          "correct_answer": false,
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U18_I9",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Odiamos esperar'",
-          "stimulus_en": "We hate waiting",
-          "correct_answer": "We hate waiting",
-          "mastery_tag": "syntax",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
+          "prompt_es": "Traduce: 'No me gustan los refrescos'",
+          "stimulus_es": "No me gustan los refrescos",
+          "correct_answer": "I don't like soda",
+          "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "A1_U18_B3_I4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la pregunta:",
-          "stimulus_en": "________ he like dancing?",
-          "correct_answer": "Does",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "interaction_id": "U18_I10",
+          "type": "transformation",
+          "prompt_es": "Completa: '________ vegetables every day.' (Come verduras...)",
+          "stimulus_en": "________ every day.",
+          "correct_answer": "Eat vegetables",
+          "mastery_tag": "phrases"
         },
         {
-          "interaction_id": "A1_U18_B3_I5",
+          "interaction_id": "U18_I11",
+          "type": "matching",
+          "prompt_es": "Más alimentos:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Yogurt",
+              "right": "Yogur"
+            },
+            {
+              "id": "p2",
+              "left": "Nuts",
+              "right": "Frutos secos"
+            },
+            {
+              "id": "p3",
+              "left": "Honey",
+              "right": "Miel"
+            },
+            {
+              "id": "p4",
+              "left": "Milk",
+              "right": "Leche"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U18_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Desayuno saludable'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Healthy breakfast"
+            },
+            {
+              "id": "o2",
+              "text": "Heavy breakfast"
+            },
+            {
+              "id": "o3",
+              "text": "Hungry breakfast"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U18_I13",
           "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Qué música prefieres?'",
+          "prompt_es": "Ordena: '¿Te gusta el brócoli?'",
           "options": [
             {
               "id": "w1",
-              "text": "What"
-            },
-            {
-              "id": "w2",
-              "text": "music"
-            },
-            {
-              "id": "w3",
               "text": "do"
             },
             {
-              "id": "w4",
+              "id": "w2",
               "text": "you"
             },
             {
-              "id": "w5",
-              "text": "prefer?"
+              "id": "w3",
+              "text": "like"
+            },
+            {
+              "id": "w4",
+              "text": "broccoli?"
             }
           ],
           "correct_answer": [
             "w1",
             "w2",
             "w3",
-            "w4",
-            "w5"
+            "w4"
           ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B4",
-      "title": "Context & Review",
-      "content": [
+          "mastery_tag": "syntax"
+        },
         {
-          "interaction_id": "A1_U18_B4_I2",
+          "interaction_id": "U18_I14",
+          "type": "true_false",
+          "prompt_es": "La palabra 'Sugar' significa 'Sal'.",
+          "correct_answer": false,
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U18_I15",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Zumo de naranja'",
+          "stimulus_es": "Zumo de naranja",
+          "correct_answer": "Orange juice",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U18_I16",
+          "type": "matching",
+          "prompt_es": "Relaciona adjetivos:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Sweet",
+              "right": "Dulce"
+            },
+            {
+              "id": "p2",
+              "left": "Sour",
+              "right": "Agrio"
+            },
+            {
+              "id": "p3",
+              "left": "Salty",
+              "right": "Salado"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U18_I17",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué odia Mark?",
+          "prompt_es": "¿Qué es 'Watermelon'?",
           "options": [
             {
               "id": "o1",
-              "text": "Books"
+              "text": "Sandía"
             },
             {
               "id": "o2",
-              "text": "Getting up early"
+              "text": "Melón"
             },
             {
               "id": "o3",
-              "text": "Saturday"
+              "text": "Limón"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ],
-          "stimulus_en": "Mark is a student. He likes Saturdays. He sleeps late on Saturdays. Mark hates getting up early. On Monday, he gets up at 6 a.m. He is very tired. Mark does not like mornings. He wants to sleep more."
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U18_B4_I4",
-          "type": "short_writing",
-          "prompt_es": "Responde sobre ti (puedes usar 'I like' o 'I don't like'): 'Do you like pizza?'",
-          "stimulus_es": "Me gusta la pizza / No me gusta la pizza",
-          "correct_answer": "^(I like pizza|I don't like pizza)$",
-          "mastery_tag": "syntax",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
+          "interaction_id": "U18_I18",
+          "type": "transformation",
+          "prompt_es": "Completa: 'I ________ eat burgers.' (No como hamburguesas)",
+          "stimulus_en": "I ________ eat burgers.",
+          "correct_answer": "don't",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "A1_U18_B4_I5",
-          "type": "categorization",
-          "prompt_es": "Clasifica según el sentimiento:",
-          "categories": [
+          "interaction_id": "U18_I19",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Mi comida favorita es la ensalada'",
+          "options": [
             {
-              "id": "c1",
-              "title": "Positive",
-              "items": [
-                "Love",
-                "Enjoy",
-                "Like"
-              ]
+              "id": "w1",
+              "text": "favorite"
             },
             {
-              "id": "c2",
-              "title": "Negative",
-              "items": [
-                "Hate",
-                "Don't like",
-                "Dislike"
-              ]
+              "id": "w2",
+              "text": "food"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "salad"
+            },
+            {
+              "id": "w0",
+              "text": "My"
             }
           ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U18_I20",
+          "type": "true_false",
+          "prompt_es": "'A lot of' se usa para expresar 'una pequeña cantidad'.",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U18_I21",
+          "type": "short_writing",
+          "prompt_es": "Escribe 'Zanahoria' en inglés:",
+          "stimulus_es": "Zanahoria",
+          "correct_answer": "Carrot",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U18_I22",
+          "type": "matching",
+          "prompt_es": "Une los verbos:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "Wash",
+              "right": "Lavar"
+            },
+            {
+              "id": "p2",
+              "left": "Cut",
+              "right": "Cortar"
+            },
+            {
+              "id": "p3",
+              "left": "Mix",
+              "right": "Mezclar"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U18_I23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Pera'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Pear"
+            },
+            {
+              "id": "o2",
+              "text": "Bear"
+            },
+            {
+              "id": "o3",
+              "text": "Peel"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U18_I24",
+          "type": "transformation",
+          "prompt_es": "Completa: 'La ________ (manzana) es roja.'",
+          "stimulus_en": "The ________ is red.",
+          "correct_answer": "apple",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U18_I25",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit18/there.mp3",
+          "transcript_template": "___ is a book on the table.",
+          "correct_answer": "There",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U18_I26",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit18/are.mp3",
+          "transcript_template": "There ___ three chairs.",
+          "correct_answer": "are",
+          "mastery_tag": "listening"
         }
       ]
     }

@@ -1,32 +1,979 @@
 {
   "course": {
-    "unit_id": "unit22",
-    "unit_title": "Furniture & Household Items",
-    "level": "A1",
-    "total_duration_minutes": 120,
     "language_ui": "es-ES",
-    "target_language": "en"
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U22",
+    "unit_title": "Furniture & Household Items",
+    "total_duration_minutes": 120
   },
-  "learning_outcomes": [
-    "Identify common furniture and household items",
-    "Use prepositions of place to describe where things are",
-    "Give and follow simple instructions (imperatives)",
-    "Distinguish between different household objects"
-  ],
   "blocks": [
     {
-      "block_id": "B1",
-      "title": "Vocabulary: Home Furniture",
+      "block_id": "B22",
+      "title": "Furniture & Household Items",
       "content": [
         {
-          "interaction_id": "A1_U22_B1_I1",
+          "interaction_id": "U22_I1",
           "type": "matching",
-          "prompt_es": "Une los muebles con su traducción:",
+          "prompt_es": "Une la palabra con su traducción correcta:",
           "pairs": [
+            {
+              "id": "p0",
+              "left": "Window",
+              "right": "Ventana"
+            },
+            {
+              "id": "p1",
+              "left": "Chair",
+              "right": "Silla"
+            },
+            {
+              "id": "p2",
+              "left": "Mirror",
+              "right": "Espejo"
+            },
+            {
+              "id": "p3",
+              "left": "Fridge",
+              "right": "Nevera"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I2",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I3",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Close the door, please.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I4",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w4",
+              "text": "fridge"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I5",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Puerta",
+          "correct_answer": "Door",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lámpara' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Sofa"
+            },
+            {
+              "id": "o1",
+              "text": "Lamp"
+            },
+            {
+              "id": "o2",
+              "text": "Mirror"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I7",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Chair",
+              "right": "Silla"
+            },
+            {
+              "id": "p1",
+              "left": "Mirror",
+              "right": "Espejo"
+            },
+            {
+              "id": "p2",
+              "left": "Fridge",
+              "right": "Nevera"
+            },
+            {
+              "id": "p3",
+              "left": "Sofa",
+              "right": "Sofá"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I8",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_IMG1",
+          "type": "image_labeling",
+          "id": "U22_IMG1",
+          "title": "Label the Living Room",
+          "instructions": "Drag the correct labels to each item in the living room",
+          "imageUrl": "/images/a1/unit21-30/living-room.jpg",
+          "labels": [
+            "Sofa",
+            "Table",
+            "Lamp",
+            "TV",
+            "Curtains"
+          ],
+          "labelPoints": [
+            {
+              "id": "point1",
+              "x": 25,
+              "y": 60,
+              "correctLabel": "Sofa"
+            },
+            {
+              "id": "point2",
+              "x": 50,
+              "y": 75,
+              "correctLabel": "Table"
+            },
+            {
+              "id": "point3",
+              "x": 65,
+              "y": 50,
+              "correctLabel": "Lamp"
+            },
+            {
+              "id": "point4",
+              "x": 75,
+              "y": 35,
+              "correctLabel": "TV"
+            },
+            {
+              "id": "point5",
+              "x": 15,
+              "y": 20,
+              "correctLabel": "Curtains"
+            }
+          ],
+          "explanation": "These are common furniture items found in a living room.",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I9",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Have we a new fridge\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I10",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "open"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w1",
+              "text": "windows"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I11",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Espejo",
+          "correct_answer": "Mirror",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nevera' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Sofa"
+            },
+            {
+              "id": "o1",
+              "text": "Fridge"
+            },
+            {
+              "id": "o2",
+              "text": "Window"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I13",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Mirror",
+              "right": "Espejo"
+            },
+            {
+              "id": "p1",
+              "left": "Fridge",
+              "right": "Nevera"
+            },
+            {
+              "id": "p2",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p3",
+              "left": "Door",
+              "right": "Puerta"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I14",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I15",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The windows are open.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I16",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Put"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "table"
+            },
+            {
+              "id": "w3",
+              "text": "on"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "book"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I17",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mesa",
+          "correct_answer": "Table",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ventana' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Door"
+            },
+            {
+              "id": "o2",
+              "text": "Bed"
+            },
+            {
+              "id": "o1",
+              "text": "Window"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I19",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fridge",
+              "right": "Nevera"
+            },
+            {
+              "id": "p1",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p2",
+              "left": "Door",
+              "right": "Puerta"
+            },
+            {
+              "id": "p3",
+              "left": "Lamp",
+              "right": "Lámpara"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I20",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I21",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The put book on the table\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I22",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "sofa"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "big"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I23",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Puerta",
+          "correct_answer": "Door",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lámpara' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Fridge"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
+            },
+            {
+              "id": "o1",
+              "text": "Lamp"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I25",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p1",
+              "left": "Door",
+              "right": "Puerta"
+            },
+            {
+              "id": "p2",
+              "left": "Lamp",
+              "right": "Lámpara"
+            },
+            {
+              "id": "p3",
+              "left": "Bed",
+              "right": "Cama"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I26",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I27",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The sofa is very big.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I28",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "door,"
+            },
+            {
+              "id": "w0",
+              "text": "Close"
+            },
+            {
+              "id": "w3",
+              "text": "please"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I29",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Espejo",
+          "correct_answer": "Mirror",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nevera' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fridge"
+            },
+            {
+              "id": "o3",
+              "text": "Door"
+            },
+            {
+              "id": "o2",
+              "text": "Mirror"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I31",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Door",
+              "right": "Puerta"
+            },
+            {
+              "id": "p1",
+              "left": "Lamp",
+              "right": "Lámpara"
+            },
+            {
+              "id": "p2",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p3",
+              "left": "Table",
+              "right": "Mesa"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I32",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The close door, please\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I34",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "fridge"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I35",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mesa",
+          "correct_answer": "Table",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ventana' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Fridge"
+            },
+            {
+              "id": "o3",
+              "text": "Door"
+            },
+            {
+              "id": "o1",
+              "text": "Window"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I37",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lamp",
+              "right": "Lámpara"
+            },
+            {
+              "id": "p1",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p2",
+              "left": "Table",
+              "right": "Mesa"
+            },
+            {
+              "id": "p3",
+              "left": "Window",
+              "right": "Ventana"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I38",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I39",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"We have a new fridge.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I40",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "open"
+            },
+            {
+              "id": "w1",
+              "text": "windows"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I41",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Puerta",
+          "correct_answer": "Door",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lámpara' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Window"
+            },
+            {
+              "id": "o3",
+              "text": "Fridge"
+            },
+            {
+              "id": "o1",
+              "text": "Lamp"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I43",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bed",
+              "right": "Cama"
+            },
             {
               "id": "p1",
               "left": "Table",
               "right": "Mesa"
+            },
+            {
+              "id": "p2",
+              "left": "Window",
+              "right": "Ventana"
+            },
+            {
+              "id": "p3",
+              "left": "Chair",
+              "right": "Silla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I44",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I45",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Windows the are open\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I46",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "on"
+            },
+            {
+              "id": "w5",
+              "text": "table"
+            },
+            {
+              "id": "w2",
+              "text": "book"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Put"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I47",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Espejo",
+          "correct_answer": "Mirror",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I48",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nevera' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fridge"
+            },
+            {
+              "id": "o3",
+              "text": "Door"
+            },
+            {
+              "id": "o2",
+              "text": "Mirror"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I49",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Table",
+              "right": "Mesa"
+            },
+            {
+              "id": "p1",
+              "left": "Window",
+              "right": "Ventana"
             },
             {
               "id": "p2",
@@ -35,71 +982,1760 @@
             },
             {
               "id": "p3",
-              "left": "Bed",
-              "right": "Cama"
+              "left": "Mirror",
+              "right": "Espejo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I50",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I51",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Put the book on the table.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
             },
             {
-              "id": "p4",
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "big"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "sofa"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I53",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mesa",
+          "correct_answer": "Table",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ventana' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Window"
+            },
+            {
+              "id": "o3",
+              "text": "Mirror"
+            },
+            {
+              "id": "o2",
+              "text": "Bed"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I55",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Window",
+              "right": "Ventana"
+            },
+            {
+              "id": "p1",
+              "left": "Chair",
+              "right": "Silla"
+            },
+            {
+              "id": "p2",
+              "left": "Mirror",
+              "right": "Espejo"
+            },
+            {
+              "id": "p3",
+              "left": "Fridge",
+              "right": "Nevera"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I56",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I57",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Sofa the is very big\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I58",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "please"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Close"
+            },
+            {
+              "id": "w2",
+              "text": "door,"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I59",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Puerta",
+          "correct_answer": "Door",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I60",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lámpara' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Bed"
+            },
+            {
+              "id": "o1",
+              "text": "Lamp"
+            },
+            {
+              "id": "o3",
+              "text": "Mirror"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I61",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Chair",
+              "right": "Silla"
+            },
+            {
+              "id": "p1",
+              "left": "Mirror",
+              "right": "Espejo"
+            },
+            {
+              "id": "p2",
+              "left": "Fridge",
+              "right": "Nevera"
+            },
+            {
+              "id": "p3",
               "left": "Sofa",
               "right": "Sofá"
             }
           ],
           "correct_answer": {
+            "p0": "p0",
             "p1": "p1",
             "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
+            "p3": "p3"
           },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U22_B1_I2",
+          "interaction_id": "U22_I62",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I63",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Close the door, please.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I64",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w4",
+              "text": "fridge"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I65",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Espejo",
+          "correct_answer": "Mirror",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I66",
           "type": "multiple_choice",
-          "prompt_es": "¿En qué mueble duermes (sleep)?",
+          "prompt_es": "¿Cómo se dice 'Nevera' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "In a bed"
-            },
-            {
-              "id": "o2",
-              "text": "On a chair"
+              "text": "Fridge"
             },
             {
               "id": "o3",
-              "text": "In a fridge"
+              "text": "Bed"
+            },
+            {
+              "id": "o2",
+              "text": "Door"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U22_B1_I3",
-          "type": "flashcard",
-          "prompt_es": "Nueva palabra: Nevera",
-          "stimulus_en": "Fridge / Refrigerator",
-          "correct_answer": "Nevera / Frigorífico",
-          "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "interaction_id": "U22_I67",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Mirror",
+              "right": "Espejo"
+            },
+            {
+              "id": "p1",
+              "left": "Fridge",
+              "right": "Nevera"
+            },
+            {
+              "id": "p2",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p3",
+              "left": "Door",
+              "right": "Puerta"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U22_B1_I4",
+          "interaction_id": "U22_I68",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I69",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Have we a new fridge\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I70",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "windows"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "open"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I71",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mesa",
+          "correct_answer": "Table",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I72",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Espejo'?",
+          "prompt_es": "¿Cómo se dice 'Ventana' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Bed"
+            },
+            {
+              "id": "o3",
+              "text": "Door"
+            },
+            {
+              "id": "o1",
+              "text": "Window"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I73",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fridge",
+              "right": "Nevera"
+            },
+            {
+              "id": "p1",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p2",
+              "left": "Door",
+              "right": "Puerta"
+            },
+            {
+              "id": "p3",
+              "left": "Lamp",
+              "right": "Lámpara"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I74",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I75",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The windows are open.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I76",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Put"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "book"
+            },
+            {
+              "id": "w5",
+              "text": "table"
+            },
+            {
+              "id": "w3",
+              "text": "on"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I77",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Puerta",
+          "correct_answer": "Door",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I78",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lámpara' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Bed"
+            },
+            {
+              "id": "o1",
+              "text": "Lamp"
+            },
+            {
+              "id": "o2",
+              "text": "Window"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I79",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p1",
+              "left": "Door",
+              "right": "Puerta"
+            },
+            {
+              "id": "p2",
+              "left": "Lamp",
+              "right": "Lámpara"
+            },
+            {
+              "id": "p3",
+              "left": "Bed",
+              "right": "Cama"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I80",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I81",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The put book on the table\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I82",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "sofa"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "big"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I83",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Espejo",
+          "correct_answer": "Mirror",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I84",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nevera' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Table"
+            },
+            {
+              "id": "o2",
+              "text": "Bed"
+            },
+            {
+              "id": "o1",
+              "text": "Fridge"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I85",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Door",
+              "right": "Puerta"
+            },
+            {
+              "id": "p1",
+              "left": "Lamp",
+              "right": "Lámpara"
+            },
+            {
+              "id": "p2",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p3",
+              "left": "Table",
+              "right": "Mesa"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I86",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I87",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The sofa is very big.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I88",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Close"
+            },
+            {
+              "id": "w2",
+              "text": "door,"
+            },
+            {
+              "id": "w3",
+              "text": "please"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I89",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mesa",
+          "correct_answer": "Table",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I90",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ventana' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Chair"
+            },
+            {
+              "id": "o2",
+              "text": "Mirror"
+            },
+            {
+              "id": "o1",
+              "text": "Window"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I91",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lamp",
+              "right": "Lámpara"
+            },
+            {
+              "id": "p1",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p2",
+              "left": "Table",
+              "right": "Mesa"
+            },
+            {
+              "id": "p3",
+              "left": "Window",
+              "right": "Ventana"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I92",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I93",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The close door, please\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I94",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "fridge"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I95",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Puerta",
+          "correct_answer": "Door",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I96",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lámpara' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Lamp"
+            },
+            {
+              "id": "o3",
+              "text": "Fridge"
+            },
+            {
+              "id": "o2",
+              "text": "Door"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I97",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p1",
+              "left": "Table",
+              "right": "Mesa"
+            },
+            {
+              "id": "p2",
+              "left": "Window",
+              "right": "Ventana"
+            },
+            {
+              "id": "p3",
+              "left": "Chair",
+              "right": "Silla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I98",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I99",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"We have a new fridge.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I100",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "open"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w1",
+              "text": "windows"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I101",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Espejo",
+          "correct_answer": "Mirror",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I102",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nevera' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Table"
+            },
+            {
+              "id": "o2",
+              "text": "Window"
+            },
+            {
+              "id": "o1",
+              "text": "Fridge"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I103",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Table",
+              "right": "Mesa"
+            },
+            {
+              "id": "p1",
+              "left": "Window",
+              "right": "Ventana"
+            },
+            {
+              "id": "p2",
+              "left": "Chair",
+              "right": "Silla"
+            },
+            {
+              "id": "p3",
+              "left": "Mirror",
+              "right": "Espejo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I104",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I105",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Windows the are open\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I106",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Put"
+            },
+            {
+              "id": "w3",
+              "text": "on"
+            },
+            {
+              "id": "w2",
+              "text": "book"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "table"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I107",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mesa",
+          "correct_answer": "Table",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I108",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ventana' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Mirror"
+            },
+            {
+              "id": "o1",
+              "text": "Window"
+            },
+            {
+              "id": "o2",
+              "text": "Fridge"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I109",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Window",
+              "right": "Ventana"
+            },
+            {
+              "id": "p1",
+              "left": "Chair",
+              "right": "Silla"
+            },
+            {
+              "id": "p2",
+              "left": "Mirror",
+              "right": "Espejo"
+            },
+            {
+              "id": "p3",
+              "left": "Fridge",
+              "right": "Nevera"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I110",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I111",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Put the book on the table.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I112",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "big"
+            },
+            {
+              "id": "w1",
+              "text": "sofa"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I113",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Puerta",
+          "correct_answer": "Door",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I114",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lámpara' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Fridge"
+            },
+            {
+              "id": "o1",
+              "text": "Lamp"
+            },
+            {
+              "id": "o2",
+              "text": "Chair"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I115",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Chair",
+              "right": "Silla"
+            },
+            {
+              "id": "p1",
+              "left": "Mirror",
+              "right": "Espejo"
+            },
+            {
+              "id": "p2",
+              "left": "Fridge",
+              "right": "Nevera"
+            },
+            {
+              "id": "p3",
+              "left": "Sofa",
+              "right": "Sofá"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I116",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I117",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Sofa the is very big\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I118",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "please"
+            },
+            {
+              "id": "w0",
+              "text": "Close"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "door,"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I119",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Espejo",
+          "correct_answer": "Mirror",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I120",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nevera' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Door"
+            },
+            {
+              "id": "o1",
+              "text": "Fridge"
+            },
+            {
+              "id": "o2",
+              "text": "Sofa"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I121",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Mirror",
+              "right": "Espejo"
+            },
+            {
+              "id": "p1",
+              "left": "Fridge",
+              "right": "Nevera"
+            },
+            {
+              "id": "p2",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p3",
+              "left": "Door",
+              "right": "Puerta"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I122",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I123",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Close the door, please.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I124",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w4",
+              "text": "fridge"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I125",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mesa",
+          "correct_answer": "Table",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I126",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ventana' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Table"
+            },
+            {
+              "id": "o1",
+              "text": "Window"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I127",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fridge",
+              "right": "Nevera"
+            },
+            {
+              "id": "p1",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p2",
+              "left": "Door",
+              "right": "Puerta"
+            },
+            {
+              "id": "p3",
+              "left": "Lamp",
+              "right": "Lámpara"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I128",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I129",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Have we a new fridge\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I130",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "open"
+            },
+            {
+              "id": "w1",
+              "text": "windows"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I131",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Puerta",
+          "correct_answer": "Door",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I132",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lámpara' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Lamp"
+            },
+            {
+              "id": "o3",
+              "text": "Chair"
+            },
+            {
+              "id": "o2",
+              "text": "Mirror"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I133",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p1",
+              "left": "Door",
+              "right": "Puerta"
+            },
+            {
+              "id": "p2",
+              "left": "Lamp",
+              "right": "Lámpara"
+            },
+            {
+              "id": "p3",
+              "left": "Bed",
+              "right": "Cama"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I134",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I135",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The windows are open.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I136",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Put"
+            },
+            {
+              "id": "w3",
+              "text": "on"
+            },
+            {
+              "id": "w5",
+              "text": "table"
+            },
+            {
+              "id": "w2",
+              "text": "book"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I137",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Espejo",
+          "correct_answer": "Mirror",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I138",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nevera' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fridge"
+            },
+            {
+              "id": "o2",
+              "text": "Lamp"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I139",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Door",
+              "right": "Puerta"
+            },
+            {
+              "id": "p1",
+              "left": "Lamp",
+              "right": "Lámpara"
+            },
+            {
+              "id": "p2",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p3",
+              "left": "Table",
+              "right": "Mesa"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I140",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I141",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The put book on the table\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I142",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w4",
+              "text": "big"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "sofa"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I143",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mesa",
+          "correct_answer": "Table",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I144",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ventana' en inglés?",
           "options": [
             {
               "id": "o1",
@@ -111,22 +2747,911 @@
             },
             {
               "id": "o3",
+              "text": "Table"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I145",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lamp",
+              "right": "Lámpara"
+            },
+            {
+              "id": "p1",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p2",
+              "left": "Table",
+              "right": "Mesa"
+            },
+            {
+              "id": "p3",
+              "left": "Window",
+              "right": "Ventana"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I146",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I147",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The sofa is very big.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I148",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "door,"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Close"
+            },
+            {
+              "id": "w3",
+              "text": "please"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I149",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Puerta",
+          "correct_answer": "Door",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I150",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lámpara' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Table"
+            },
+            {
+              "id": "o2",
+              "text": "Window"
+            },
+            {
+              "id": "o1",
               "text": "Lamp"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U22_B1_I5",
+          "interaction_id": "U22_I151",
           "type": "matching",
-          "prompt_es": "Objetos de la casa:",
+          "prompt_es": "Une la palabra con su traducción correcta:",
           "pairs": [
+            {
+              "id": "p0",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p1",
+              "left": "Table",
+              "right": "Mesa"
+            },
+            {
+              "id": "p2",
+              "left": "Window",
+              "right": "Ventana"
+            },
+            {
+              "id": "p3",
+              "left": "Chair",
+              "right": "Silla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I152",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I153",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The close door, please\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I154",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "fridge"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I155",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Espejo",
+          "correct_answer": "Mirror",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I156",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nevera' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Chair"
+            },
+            {
+              "id": "o1",
+              "text": "Fridge"
+            },
+            {
+              "id": "o2",
+              "text": "Table"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I157",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Table",
+              "right": "Mesa"
+            },
+            {
+              "id": "p1",
+              "left": "Window",
+              "right": "Ventana"
+            },
+            {
+              "id": "p2",
+              "left": "Chair",
+              "right": "Silla"
+            },
+            {
+              "id": "p3",
+              "left": "Mirror",
+              "right": "Espejo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I158",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I159",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"We have a new fridge.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I160",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "windows"
+            },
+            {
+              "id": "w3",
+              "text": "open"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I161",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mesa",
+          "correct_answer": "Table",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I162",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ventana' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Lamp"
+            },
+            {
+              "id": "o2",
+              "text": "Fridge"
+            },
+            {
+              "id": "o1",
+              "text": "Window"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I163",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Window",
+              "right": "Ventana"
+            },
+            {
+              "id": "p1",
+              "left": "Chair",
+              "right": "Silla"
+            },
+            {
+              "id": "p2",
+              "left": "Mirror",
+              "right": "Espejo"
+            },
+            {
+              "id": "p3",
+              "left": "Fridge",
+              "right": "Nevera"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I164",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I165",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Windows the are open\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I166",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "on"
+            },
+            {
+              "id": "w5",
+              "text": "table"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "book"
+            },
+            {
+              "id": "w0",
+              "text": "Put"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I167",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Puerta",
+          "correct_answer": "Door",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I168",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lámpara' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Window"
+            },
+            {
+              "id": "o1",
+              "text": "Lamp"
+            },
+            {
+              "id": "o3",
+              "text": "Mirror"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I169",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Chair",
+              "right": "Silla"
+            },
+            {
+              "id": "p1",
+              "left": "Mirror",
+              "right": "Espejo"
+            },
+            {
+              "id": "p2",
+              "left": "Fridge",
+              "right": "Nevera"
+            },
+            {
+              "id": "p3",
+              "left": "Sofa",
+              "right": "Sofá"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I170",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I171",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Put the book on the table.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I172",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "sofa"
+            },
+            {
+              "id": "w4",
+              "text": "big"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I173",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Espejo",
+          "correct_answer": "Mirror",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I174",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nevera' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Table"
+            },
+            {
+              "id": "o1",
+              "text": "Fridge"
+            },
+            {
+              "id": "o2",
+              "text": "Mirror"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I175",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Mirror",
+              "right": "Espejo"
+            },
+            {
+              "id": "p1",
+              "left": "Fridge",
+              "right": "Nevera"
+            },
+            {
+              "id": "p2",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p3",
+              "left": "Door",
+              "right": "Puerta"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I176",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I177",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Sofa the is very big\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I178",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "door,"
+            },
+            {
+              "id": "w0",
+              "text": "Close"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "please"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I179",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mesa",
+          "correct_answer": "Table",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I180",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ventana' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Window"
+            },
+            {
+              "id": "o2",
+              "text": "Chair"
+            },
+            {
+              "id": "o3",
+              "text": "Table"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I181",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fridge",
+              "right": "Nevera"
+            },
+            {
+              "id": "p1",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p2",
+              "left": "Door",
+              "right": "Puerta"
+            },
+            {
+              "id": "p3",
+              "left": "Lamp",
+              "right": "Lámpara"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I182",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I183",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Close the door, please.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I184",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "fridge"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I185",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Puerta",
+          "correct_answer": "Door",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I186",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lámpara' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Lamp"
+            },
+            {
+              "id": "o2",
+              "text": "Fridge"
+            },
+            {
+              "id": "o3",
+              "text": "Sofa"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I187",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p1",
+              "left": "Door",
+              "right": "Puerta"
+            },
+            {
+              "id": "p2",
+              "left": "Lamp",
+              "right": "Lámpara"
+            },
+            {
+              "id": "p3",
+              "left": "Bed",
+              "right": "Cama"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I188",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I189",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Have we a new fridge\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I190",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "open"
+            },
+            {
+              "id": "w1",
+              "text": "windows"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I191",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Espejo",
+          "correct_answer": "Mirror",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I192",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nevera' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fridge"
+            },
+            {
+              "id": "o3",
+              "text": "Sofa"
+            },
+            {
+              "id": "o2",
+              "text": "Mirror"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I193",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Door",
+              "right": "Puerta"
+            },
             {
               "id": "p1",
               "left": "Lamp",
@@ -134,249 +3659,728 @@
             },
             {
               "id": "p2",
-              "left": "Shelf",
-              "right": "Estante"
+              "left": "Bed",
+              "right": "Cama"
             },
             {
               "id": "p3",
-              "left": "Door",
-              "right": "Puerta"
+              "left": "Table",
+              "right": "Mesa"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I194",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I195",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The windows are open.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I196",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Put"
             },
             {
-              "id": "p4",
+              "id": "w2",
+              "text": "book"
+            },
+            {
+              "id": "w5",
+              "text": "table"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "on"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I197",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mesa",
+          "correct_answer": "Table",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I198",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ventana' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Window"
+            },
+            {
+              "id": "o2",
+              "text": "Fridge"
+            },
+            {
+              "id": "o3",
+              "text": "Door"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I199",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lamp",
+              "right": "Lámpara"
+            },
+            {
+              "id": "p1",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p2",
+              "left": "Table",
+              "right": "Mesa"
+            },
+            {
+              "id": "p3",
               "left": "Window",
               "right": "Ventana"
             }
           ],
           "correct_answer": {
+            "p0": "p0",
             "p1": "p1",
             "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
+            "p3": "p3"
           },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B2",
-      "title": "Grammar: Prepositions of Place",
-      "content": [
-        {
-          "interaction_id": "A1_U22_B2_I1",
-          "type": "multiple_choice",
-          "prompt_es": "'The book is on the table'. 'On' significa:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Debajo de"
-            },
-            {
-              "id": "o2",
-              "text": "Encima de"
-            },
-            {
-              "id": "o3",
-              "text": "Al lado de"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U22_B2_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'under' (debajo) o 'next to' (al lado):",
-          "stimulus_en": "The shoes are ________ the bed.",
-          "correct_answer": "under",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "interaction_id": "U22_I200",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "A1_U22_B2_I3",
+          "interaction_id": "U22_I201",
           "type": "true_false",
-          "prompt_es": "¿Significa 'behind' detrás de?",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "prompt_es": "¿Es correcta esta frase?: \"The put book on the table\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "A1_U22_B2_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dirías 'La lámpara está al lado del sofá'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "The lamp is behind the sofa"
-            },
-            {
-              "id": "o2",
-              "text": "The lamp is next to the sofa"
-            },
-            {
-              "id": "o3",
-              "text": "The lamp is on the sofa"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U22_B2_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la preposición correcta (en/dentro de):",
-          "stimulus_en": "The milk is ________ the fridge.",
-          "correct_answer": "in",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Syntax & Instructions",
-      "content": [
-        {
-          "interaction_id": "A1_U22_B3_I1",
+          "interaction_id": "U22_I202",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Pon el libro en la mesa'",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
             {
               "id": "w1",
-              "text": "Put"
+              "text": "sofa"
             },
             {
               "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "book"
+              "text": "is"
             },
             {
               "id": "w4",
-              "text": "on"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "table"
+              "text": "big"
             }
           ],
           "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U22_B3_I2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Cierra la puerta, por favor'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "Close"
-            },
-            {
-              "id": "w2",
-              "text": "the"
-            },
-            {
-              "id": "w3",
-              "text": "door,"
-            },
-            {
-              "id": "w4",
-              "text": "please"
-            }
-          ],
-          "correct_answer": [
+            "w0",
             "w1",
             "w2",
             "w3",
             "w4"
           ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
+          "mastery_tag": "syntax"
         },
         {
-          "interaction_id": "A1_U22_B3_I3",
+          "interaction_id": "U22_I203",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'La silla es azul'",
-          "stimulus_en": "The chair is blue",
-          "correct_answer": "The chair is blue",
-          "mastery_tag": "syntax",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Puerta",
+          "correct_answer": "Door",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U22_B3_I4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con el verbo correcto (Open/Close):",
-          "stimulus_en": "It is hot. ________ the window, please.",
-          "correct_answer": "Open",
-          "mastery_tag": "syntax",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U22_B3_I5",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Hay un espejo en el baño'",
+          "interaction_id": "U22_I204",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lámpara' en inglés?",
           "options": [
             {
+              "id": "o2",
+              "text": "Table"
+            },
+            {
+              "id": "o3",
+              "text": "Chair"
+            },
+            {
+              "id": "o1",
+              "text": "Lamp"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I205",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p1",
+              "left": "Table",
+              "right": "Mesa"
+            },
+            {
+              "id": "p2",
+              "left": "Window",
+              "right": "Ventana"
+            },
+            {
+              "id": "p3",
+              "left": "Chair",
+              "right": "Silla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I206",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I207",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The sofa is very big.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I208",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "door,"
+            },
+            {
               "id": "w1",
-              "text": "There"
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "please"
+            },
+            {
+              "id": "w0",
+              "text": "Close"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I209",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Espejo",
+          "correct_answer": "Mirror",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I210",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nevera' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Chair"
+            },
+            {
+              "id": "o2",
+              "text": "Door"
+            },
+            {
+              "id": "o1",
+              "text": "Fridge"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I211",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Table",
+              "right": "Mesa"
+            },
+            {
+              "id": "p1",
+              "left": "Window",
+              "right": "Ventana"
+            },
+            {
+              "id": "p2",
+              "left": "Chair",
+              "right": "Silla"
+            },
+            {
+              "id": "p3",
+              "left": "Mirror",
+              "right": "Espejo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I212",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I213",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The close door, please\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I214",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w4",
+              "text": "fridge"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I215",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mesa",
+          "correct_answer": "Table",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I216",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ventana' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Window"
+            },
+            {
+              "id": "o2",
+              "text": "Door"
+            },
+            {
+              "id": "o3",
+              "text": "Sofa"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I217",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Window",
+              "right": "Ventana"
+            },
+            {
+              "id": "p1",
+              "left": "Chair",
+              "right": "Silla"
+            },
+            {
+              "id": "p2",
+              "left": "Mirror",
+              "right": "Espejo"
+            },
+            {
+              "id": "p3",
+              "left": "Fridge",
+              "right": "Nevera"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I218",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I219",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"We have a new fridge.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I220",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "open"
+            },
+            {
+              "id": "w1",
+              "text": "windows"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I221",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Puerta",
+          "correct_answer": "Door",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I222",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lámpara' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Window"
+            },
+            {
+              "id": "o1",
+              "text": "Lamp"
+            },
+            {
+              "id": "o3",
+              "text": "Chair"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I223",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Chair",
+              "right": "Silla"
+            },
+            {
+              "id": "p1",
+              "left": "Mirror",
+              "right": "Espejo"
+            },
+            {
+              "id": "p2",
+              "left": "Fridge",
+              "right": "Nevera"
+            },
+            {
+              "id": "p3",
+              "left": "Sofa",
+              "right": "Sofá"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I224",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I225",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Windows the are open\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I226",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Put"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "table"
+            },
+            {
+              "id": "w3",
+              "text": "on"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "book"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I227",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Espejo",
+          "correct_answer": "Mirror",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I228",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nevera' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fridge"
+            },
+            {
+              "id": "o3",
+              "text": "Mirror"
+            },
+            {
+              "id": "o2",
+              "text": "Table"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I229",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Mirror",
+              "right": "Espejo"
+            },
+            {
+              "id": "p1",
+              "left": "Fridge",
+              "right": "Nevera"
+            },
+            {
+              "id": "p2",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p3",
+              "left": "Door",
+              "right": "Puerta"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I230",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I231",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Put the book on the table.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I232",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "big"
+            },
+            {
+              "id": "w1",
+              "text": "sofa"
             },
             {
               "id": "w2",
@@ -384,120 +4388,1296 @@
             },
             {
               "id": "w3",
-              "text": "a"
+              "text": "very"
             },
             {
-              "id": "w4",
-              "text": "mirror"
-            },
-            {
-              "id": "w5",
-              "text": "in"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "bathroom"
+              "id": "w0",
+              "text": "The"
             }
           ],
           "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I233",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mesa",
+          "correct_answer": "Table",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I234",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ventana' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Window"
+            },
+            {
+              "id": "o2",
+              "text": "Mirror"
+            },
+            {
+              "id": "o3",
+              "text": "Table"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I235",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fridge",
+              "right": "Nevera"
+            },
+            {
+              "id": "p1",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p2",
+              "left": "Door",
+              "right": "Puerta"
+            },
+            {
+              "id": "p3",
+              "left": "Lamp",
+              "right": "Lámpara"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I236",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I237",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Sofa the is very big\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I238",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "door,"
+            },
+            {
+              "id": "w0",
+              "text": "Close"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "please"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I239",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Puerta",
+          "correct_answer": "Door",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I240",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lámpara' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Lamp"
+            },
+            {
+              "id": "o2",
+              "text": "Fridge"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I241",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p1",
+              "left": "Door",
+              "right": "Puerta"
+            },
+            {
+              "id": "p2",
+              "left": "Lamp",
+              "right": "Lámpara"
+            },
+            {
+              "id": "p3",
+              "left": "Bed",
+              "right": "Cama"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I242",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I243",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Close the door, please.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I244",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w4",
+              "text": "fridge"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I245",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Espejo",
+          "correct_answer": "Mirror",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I246",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nevera' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Table"
+            },
+            {
+              "id": "o1",
+              "text": "Fridge"
+            },
+            {
+              "id": "o2",
+              "text": "Sofa"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I247",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Door",
+              "right": "Puerta"
+            },
+            {
+              "id": "p1",
+              "left": "Lamp",
+              "right": "Lámpara"
+            },
+            {
+              "id": "p2",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p3",
+              "left": "Table",
+              "right": "Mesa"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I248",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I249",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Have we a new fridge\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I250",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w1",
+              "text": "windows"
+            },
+            {
+              "id": "w3",
+              "text": "open"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I251",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mesa",
+          "correct_answer": "Table",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I252",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ventana' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Bed"
+            },
+            {
+              "id": "o1",
+              "text": "Window"
+            },
+            {
+              "id": "o2",
+              "text": "Table"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I253",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Lamp",
+              "right": "Lámpara"
+            },
+            {
+              "id": "p1",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p2",
+              "left": "Table",
+              "right": "Mesa"
+            },
+            {
+              "id": "p3",
+              "left": "Window",
+              "right": "Ventana"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I254",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I255",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The windows are open.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I256",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "on"
+            },
+            {
+              "id": "w5",
+              "text": "table"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w0",
+              "text": "Put"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "book"
+            }
+          ],
+          "correct_answer": [
+            "w0",
             "w1",
             "w2",
             "w3",
             "w4",
-            "w5",
-            "w6",
-            "w7"
+            "w5"
           ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B4",
-      "title": "Reading & Contextual Review",
-      "content": [
+          "mastery_tag": "syntax"
+        },
         {
-          "interaction_id": "A1_U22_B4_I2",
+          "interaction_id": "U22_I257",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Puerta",
+          "correct_answer": "Door",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I258",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué hay en el salón?",
+          "prompt_es": "¿Cómo se dice 'Lámpara' en inglés?",
           "options": [
             {
+              "id": "o3",
+              "text": "Window"
+            },
+            {
               "id": "o1",
-              "text": "A big mirror"
+              "text": "Lamp"
             },
             {
               "id": "o2",
-              "text": "A gray sofa"
+              "text": "Fridge"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I259",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Bed",
+              "right": "Cama"
+            },
+            {
+              "id": "p1",
+              "left": "Table",
+              "right": "Mesa"
+            },
+            {
+              "id": "p2",
+              "left": "Window",
+              "right": "Ventana"
+            },
+            {
+              "id": "p3",
+              "left": "Chair",
+              "right": "Silla"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I260",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I261",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The put book on the table\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I262",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "big"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "sofa"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I263",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Espejo",
+          "correct_answer": "Mirror",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I264",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nevera' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Chair"
             },
             {
               "id": "o3",
-              "text": "A fridge"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ],
-          "stimulus_en": "In the living room, there is a gray sofa. The sofa is big and comfortable. Sarah likes to sit on the sofa and read her book. She has a small cat, and the cat sleeps on the sofa. The living room is bright with a big window. Sarah is happy in her living room."
-        },
-        {
-          "interaction_id": "A1_U22_B4_I4",
-          "type": "short_writing",
-          "prompt_es": "Responde en inglés: 'Is there a TV in your bedroom?' (Usa 'Yes, there is' o 'No, there isn't')",
-          "stimulus_es": "Sí, hay",
-          "correct_answer": "Yes, there is",
-          "mastery_tag": "syntax",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U22_B4_I5",
-          "type": "categorization",
-          "prompt_es": "Clasifica en Muebles u Otros Objetos:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Furniture",
-              "items": [
-                "Sofa",
-                "Bed",
-                "Shelf",
-                "Chair"
-              ]
+              "text": "Mirror"
             },
             {
-              "id": "c2",
-              "title": "Other Items",
-              "items": [
-                "Mirror",
-                "Lamp",
-                "Door",
-                "Window"
-              ]
+              "id": "o1",
+              "text": "Fridge"
             }
           ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I265",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Table",
+              "right": "Mesa"
+            },
+            {
+              "id": "p1",
+              "left": "Window",
+              "right": "Ventana"
+            },
+            {
+              "id": "p2",
+              "left": "Chair",
+              "right": "Silla"
+            },
+            {
+              "id": "p3",
+              "left": "Mirror",
+              "right": "Espejo"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I266",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I267",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The sofa is very big.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I268",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w0",
+              "text": "Close"
+            },
+            {
+              "id": "w2",
+              "text": "door,"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "please"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I269",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mesa",
+          "correct_answer": "Table",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I270",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ventana' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Window"
+            },
+            {
+              "id": "o2",
+              "text": "Chair"
+            },
+            {
+              "id": "o3",
+              "text": "Bed"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I271",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Window",
+              "right": "Ventana"
+            },
+            {
+              "id": "p1",
+              "left": "Chair",
+              "right": "Silla"
+            },
+            {
+              "id": "p2",
+              "left": "Mirror",
+              "right": "Espejo"
+            },
+            {
+              "id": "p3",
+              "left": "Fridge",
+              "right": "Nevera"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I272",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I273",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"The close door, please\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I274",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w4",
+              "text": "fridge"
+            },
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "new"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I275",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Puerta",
+          "correct_answer": "Door",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I276",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lámpara' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Fridge"
+            },
+            {
+              "id": "o2",
+              "text": "Sofa"
+            },
+            {
+              "id": "o1",
+              "text": "Lamp"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I277",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Chair",
+              "right": "Silla"
+            },
+            {
+              "id": "p1",
+              "left": "Mirror",
+              "right": "Espejo"
+            },
+            {
+              "id": "p2",
+              "left": "Fridge",
+              "right": "Nevera"
+            },
+            {
+              "id": "p3",
+              "left": "Sofa",
+              "right": "Sofá"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I278",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I279",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"We have a new fridge.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I280",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "windows"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w3",
+              "text": "open"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I281",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Espejo",
+          "correct_answer": "Mirror",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I282",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nevera' en inglés?",
+          "options": [
+            {
+              "id": "o2",
+              "text": "Lamp"
+            },
+            {
+              "id": "o1",
+              "text": "Fridge"
+            },
+            {
+              "id": "o3",
+              "text": "Table"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I283",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Mirror",
+              "right": "Espejo"
+            },
+            {
+              "id": "p1",
+              "left": "Fridge",
+              "right": "Nevera"
+            },
+            {
+              "id": "p2",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p3",
+              "left": "Door",
+              "right": "Puerta"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I284",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I285",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Windows the are open\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I286",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w3",
+              "text": "on"
+            },
+            {
+              "id": "w0",
+              "text": "Put"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "book"
+            },
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "table"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I287",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Mesa",
+          "correct_answer": "Table",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I288",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Ventana' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Window"
+            },
+            {
+              "id": "o3",
+              "text": "Lamp"
+            },
+            {
+              "id": "o2",
+              "text": "Mirror"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I289",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Fridge",
+              "right": "Nevera"
+            },
+            {
+              "id": "p1",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p2",
+              "left": "Door",
+              "right": "Puerta"
+            },
+            {
+              "id": "p3",
+              "left": "Lamp",
+              "right": "Lámpara"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I290",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "My bed (ser/estar - ello) ________ comfortable.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I291",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Put the book on the table.\"",
+          "correct_answer": true,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I292",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w1",
+              "text": "sofa"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "big"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I293",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Puerta",
+          "correct_answer": "Door",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I294",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Lámpara' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Mirror"
+            },
+            {
+              "id": "o2",
+              "text": "Chair"
+            },
+            {
+              "id": "o1",
+              "text": "Lamp"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I295",
+          "type": "matching",
+          "prompt_es": "Une la palabra con su traducción correcta:",
+          "pairs": [
+            {
+              "id": "p0",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p1",
+              "left": "Door",
+              "right": "Puerta"
+            },
+            {
+              "id": "p2",
+              "left": "Lamp",
+              "right": "Lámpara"
+            },
+            {
+              "id": "p3",
+              "left": "Bed",
+              "right": "Cama"
+            }
+          ],
+          "correct_answer": {
+            "p0": "p0",
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I296",
+          "type": "transformation",
+          "prompt_es": "Completa con la forma correcta:",
+          "stimulus_en": "The lamp (ser/estar - ello) ________ on the table.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U22_I297",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: \"Sofa the is very big\"",
+          "correct_answer": false,
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I298",
+          "type": "reorder_words",
+          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w3",
+              "text": "please"
+            },
+            {
+              "id": "w2",
+              "text": "door,"
+            },
+            {
+              "id": "w0",
+              "text": "Close"
+            }
+          ],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U22_I299",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés:",
+          "stimulus_es": "Espejo",
+          "correct_answer": "Mirror",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I300",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'Nevera' en inglés?",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Mirror"
+            },
+            {
+              "id": "o1",
+              "text": "Fridge"
+            },
+            {
+              "id": "o2",
+              "text": "Chair"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U22_I301",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit22/was.mp3",
+          "transcript_template": "She ___ happy yesterday.",
+          "correct_answer": "was",
+          "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U22_I302",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/a1/unit22/were.mp3",
+          "transcript_template": "They ___ at school.",
+          "correct_answer": "were",
+          "mastery_tag": "listening"
         }
       ]
     }

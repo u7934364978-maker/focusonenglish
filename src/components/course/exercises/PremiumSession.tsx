@@ -13,12 +13,12 @@ import {
   ArrowRight,
   RotateCcw,
   Lightbulb,
-  Sparkles,
-  Loader2
+  Sparkles
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { UnitData, PremiumBlock, PremiumContent } from "@/types/premium-course";
 import { getSolutionText, isLikelyEnglish, getEncouragingMessage } from "@/lib/premium-utils";
+import { calculateStarRating } from "@/lib/progress";
 import WordSearchExercise from "../../exercises/WordSearchExercise";
 import CrosswordExercise from "../../exercises/CrosswordExercise";
 
@@ -26,40 +26,13 @@ interface Props {
   unitData: UnitData;
   onComplete: () => void;
   onExit: () => void;
-  onNextUnit?: () => void;
   onInteractionCorrect?: (interactionId: string) => void;
-  onPerformanceUpdate?: (interactionId: string, quality: number) => void;
-  onConceptUpdate?: (tags: string[], success: boolean) => void;
+  onExerciseComplete?: (interactionId: string) => void;
   initialIndex?: number;
-  continuousMode?: boolean;
-  customQueue?: any[];
   userId?: string;
 }
 
-const normalizeForComparison = (text: string) => {
-  if (!text) return "";
-  return text
-    .toLowerCase()
-    .trim()
-    .replace(/['’‘´`]/g, "'") // Normalize quotes
-    .replace(/\s+/g, " ")     // Normalize spaces
-    .replace(/[.?!,;:\-_(){}\[\]]/g, "") // Remove basic punctuation for comparison
-    .normalize("NFD").replace(/[\u0300-\u036f]/g, ""); // Remove accents
-};
-
-export default function PremiumCourseSession({ 
-  unitData, 
-  onComplete, 
-  onExit, 
-  onNextUnit,
-  onInteractionCorrect, 
-  onPerformanceUpdate, 
-  onConceptUpdate,
-  initialIndex = 0, 
-  continuousMode = false,
-  customQueue, 
-  userId 
-}: Props) {
+export default function PremiumCourseSession({ unitData, onComplete, onExit, onInteractionCorrect, onExerciseComplete, initialIndex = 0, userId }: Props) {
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
   const [selectedOption, setSelectedOption] = useState<any>(null);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
@@ -82,50 +55,29 @@ export default function PremiumCourseSession({
   const [audioCache, setAudioCache] = useState<Record<string, string>>({});
   const [flashcardIndex, setFlashcardIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
-  const [showHint, setShowHint] = useState(false);
-  const [activeGapIndex, setActiveGapIndex] = useState(0);
-  const [aiExplanation, setAiExplanation] = useState<string | null>(null);
-  const [isExplaining, setIsExplaining] = useState(false);
+  const [exerciseResults, setExerciseResults] = useState<{ correct: number; total: number }>({ correct: 0, total: 0 });
+  const [unitStars, setUnitStars] = useState<'bronze' | 'silver' | 'gold' | null>(null);
   
   const currentAudioRef = useRef<HTMLAudioElement | null>(null);
   const prefetchingRef = useRef<Set<string>>(new Set());
 
   // Flatten and normalize all blocks into a single exercise queue
   const queue = useMemo(() => {
-    if (customQueue) return customQueue;
     const normalizeInteraction = (interaction: any): any => {
       if (!interaction) return null;
       
       const normalized = { ...interaction };
 
-      // Standardize correct_answer
-      if (!normalized.correct_answer) {
-        normalized.correct_answer = normalized.correctAnswer || normalized.answer || normalized.solution || normalized.correct_answer_en || normalized.correct_answer_es || normalized.gap || (Array.isArray(normalized.acceptableAnswers) ? normalized.acceptableAnswers[0] : normalized.acceptableAnswers);
-      }
-
-      // Handle cases where correct_answer is an object (like in matching) but type is wrong
-      if (typeof normalized.correct_answer === 'object' && !Array.isArray(normalized.correct_answer) && normalized.type !== 'matching') {
-        normalized.type = 'matching';
-      }
-
       // Normalize type (handle camelCase from migrations)
       const typeMap: Record<string, string> = {
         'multipleChoice': 'multiple_choice',
         'multiple-choice': 'multiple_choice',
-        'speaking-analysis': 'multiple_choice',
-        'reading-comprehension': 'multiple_choice',
-        'pronunciation-practice': 'audio_player',
         'fillBlanks': 'fill_blanks',
         'fill_blank': 'fill_blanks',
-        'fill-blank': 'fill_blanks',
-        'fill-blanks': 'fill_blanks',
         'drag-drop': 'reorder_words',
-        'sentence-building': 'reorder_words',
         'matching': 'matching',
         'flashcard': 'flashcard',
-        'audio-player': 'audio_player',
-        'short-answer': 'fill_blanks',
-        'fill-blanks-mc': 'fill_blanks'
+        'audio-player': 'audio_player'
       };
       if (typeMap[normalized.type]) {
         normalized.type = typeMap[normalized.type];
@@ -138,46 +90,10 @@ export default function PremiumCourseSession({
       if (normalized.instructions && !normalized.prompt_es) {
         normalized.prompt_es = normalized.instructions;
       }
-      if (normalized.question && !normalized.prompt_es) {
-        normalized.prompt_es = normalized.question;
-      }
-      if (normalized.title && !normalized.prompt_es) {
-        normalized.prompt_es = normalized.title;
-      }
-      if (normalized.topic && !normalized.prompt_es) {
-        normalized.prompt_es = normalized.topic;
-      }
-      if (!normalized.prompt_es) {
-        normalized.prompt_es = "Selecciona la respuesta correcta:";
-      }
 
       // Normalize stimulus
       if (normalized.text && !normalized.stimulus_en) {
         normalized.stimulus_en = normalized.text;
-      }
-      if (normalized.stimulus_en && !normalized.text) {
-        normalized.text = normalized.stimulus_en;
-      }
-      if (normalized.scenario && !normalized.stimulus_en) {
-        normalized.stimulus_en = normalized.scenario;
-      }
-      if (normalized.sentence && !normalized.stimulus_en) {
-        normalized.stimulus_en = normalized.sentence;
-      }
-      if (normalized.context && !normalized.stimulus_en) {
-        normalized.stimulus_en = normalized.context;
-      }
-      if (normalized.textPassage && !normalized.stimulus_en) {
-        normalized.stimulus_en = normalized.textPassage;
-      }
-      if (normalized.cloze && !normalized.stimulus_en) {
-        normalized.stimulus_en = normalized.cloze;
-      }
-      if (normalized.gappedText && !normalized.stimulus_en) {
-        normalized.stimulus_en = normalized.gappedText;
-      }
-      if (normalized.paragraph && !normalized.stimulus_en) {
-        normalized.stimulus_en = normalized.paragraph;
       }
       
       // Handle the case where stimulus is in the prompt but there is a text field
@@ -187,11 +103,9 @@ export default function PremiumCourseSession({
       }
 
       // Normalize options (handle array of strings from migrations)
-      if (Array.isArray(normalized.options) && normalized.options.length > 0 && typeof normalized.options[0] === 'string') {
-        const ans = normalized.correctAnswer || normalized.answer || normalized.correct_answer || normalized.correct_answer_en;
-        const hasLetterAnswer = typeof ans === 'string' && /^[A-E]$/.test(ans);
+      if (normalized.options && normalized.options.length > 0 && typeof normalized.options[0] === 'string') {
         normalized.options = normalized.options.map((opt: string, idx: number) => ({
-          id: hasLetterAnswer ? String.fromCharCode(65 + idx) : idx.toString(),
+          id: idx.toString(),
           text: opt
         }));
       }
@@ -203,79 +117,11 @@ export default function PremiumCourseSession({
 
       // Normalize correct_answer for fill_blanks
       if (normalized.answers && !normalized.correct_answer) {
-        normalized.correct_answer = Array.isArray(normalized.answers) ? normalized.answers.join(' / ') : normalized.answers;
-      }
-      if (normalized.acceptableAnswers && !normalized.correct_answer) {
-        normalized.correct_answer = Array.isArray(normalized.acceptableAnswers) ? normalized.acceptableAnswers.join(' / ') : normalized.acceptableAnswers;
-      }
-      if (normalized.answer && !normalized.correct_answer) {
-        normalized.correct_answer = normalized.answer;
-      }
-      
-      // Clean up stimulus_en for fill_blank if it contains the answer in brackets or parentheses
-      if (['fill_blanks', 'fill_blank', 'fill-blank', 'fill-blanks-mc', 'transformation'].includes(normalized.type) && normalized.stimulus_en) {
-        // Remove bracketed or parenthesized answers even if they don't have underscores yet
-        // Patterns: (answer), [answer], ______ (answer), (answer) ______, etc.
-        const cleanStimulus = (text: string) => {
-          if (!text) return text;
-          let cleaned = text;
-          
-          // 1. Remove parenthesized/bracketed text that matches the correct answer
-          if (normalized.correct_answer) {
-            const ans = String(normalized.correct_answer).toLowerCase().trim();
-            // Escapar caracteres especiales para regex
-            const escapedAns = ans.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-            // Regex que busca la respuesta entre paréntesis o corchetes, con posibles espacios alrededor
-            const ansRegex = new RegExp(`\\s*[\\(\\[]\\s*${escapedAns}\\s*[\\)\\]]\\s*`, 'gi');
-            cleaned = cleaned.replace(ansRegex, ' ');
-          }
-
-          // 2. Remove common AI patterns like "______ (answer)" or "______ [answer]"
-          // EXCEPCIÓN: No eliminar si contiene indicadores pedagógicos
-          cleaned = cleaned.replace(/_{2,}\s*[\(\[](?![^\]\)]*(?:positive|negative|past|present|future|verb|noun|adj))[^\]\)]+[\)\]]/gi, '______');
-          cleaned = cleaned.replace(/[\(\[](?![^\]\)]*(?:positive|negative|past|present|future|verb|noun|adj))[^\]\)]+[\)\]]\s*_{2,}/gi, '______');
-          
-          // 3. Strip any parentheses that contain exactly one word which matches any of the answers
-          if (normalized.correct_answer) {
-            const answers = String(normalized.correct_answer).toLowerCase().split(/[/\s,]+/).filter(Boolean);
-            answers.forEach(a => {
-              const esc = a.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-              const r = new RegExp(`\\s*[\\(\\[]\\s*${esc}\\s*[\\)\\]]\\s*`, 'gi');
-              cleaned = cleaned.replace(r, ' ');
-            });
-          }
-
-          // 4. Remove standalone parenthesized words if they look like answers (1-3 words)
-          // Solo si hay guiones bajos cerca, para no romper explicaciones legítimas
-          // EXCEPCIÓN: No eliminar si contiene indicadores pedagógicos como "positive", "negative", "past", "present", etc.
-          if (cleaned.includes('___') || /_{2,}/.test(cleaned)) {
-            cleaned = cleaned.replace(/\s*\((?![^)]*(?:positive|negative|past|present|future|verb|noun|adj))[^)]+\)\s*/gi, ' ')
-                             .replace(/\s*\[(?![^\]]*(?:positive|negative|past|present|future|verb|noun|adj))[^\]]+\]\s*/gi, ' ');
-          }
-
-          return cleaned.trim().replace(/\s+/g, ' ');
-        };
-
-        normalized.stimulus_en = cleanStimulus(normalized.stimulus_en);
-        
-        if (normalized.prompt_es) {
-          normalized.prompt_es = cleanStimulus(normalized.prompt_es);
-        }
-      }
-
-      // Final check: if stimulus_en and prompt_es are identical, clear prompt_es
-      if (normalized.stimulus_en && normalized.prompt_es && 
-          normalized.stimulus_en.toLowerCase().trim() === normalized.prompt_es.toLowerCase().trim()) {
-        normalized.prompt_es = "Completa el espacio:";
-      }
-
-      // Final check: if stimulus_en contains many underscores but no "___", normalize it to "___" for easier processing
-      if (normalized.stimulus_en && /_{4,}/.test(normalized.stimulus_en)) {
-        normalized.stimulus_en = normalized.stimulus_en.replace(/_{4,}/g, '___');
+        normalized.correct_answer = Array.isArray(normalized.answers) ? normalized.answers.join(' ') : normalized.answers;
       }
 
       // Normalize pairs for matching
-      if (Array.isArray(normalized.pairs) && normalized.pairs.length > 0 && normalized.pairs[0].word) {
+      if (normalized.pairs && normalized.pairs.length > 0 && normalized.pairs[0].word) {
         normalized.pairs = normalized.pairs.map((p: any) => ({
           id: p.id || Math.random().toString(36).substr(2, 9),
           left: p.word,
@@ -284,55 +130,15 @@ export default function PremiumCourseSession({
       }
 
       // Normalize reorder_words (drag-drop)
-      if (normalized.type === 'reorder_words') {
-        if (normalized.words && !normalized.options) {
-          normalized.options = normalized.words.map((word: string, idx: number) => ({
-            id: idx.toString(),
-            text: word
-          }));
-        }
-
-        if (normalized.correctOrder && Array.isArray(normalized.correctOrder) && normalized.options) {
-          // Map correctOrder (array of strings) to option IDs
-          // Robust mapping that handles duplicates and case-insensitivity
-          const tempOptions = [...normalized.options];
-          normalized.correct_answer = normalized.correctOrder.map((word: string) => {
-            const index = tempOptions.findIndex((o: any) => 
-              normalizeForComparison(o.text) === normalizeForComparison(word)
-            );
-            if (index !== -1) {
-              const foundId = tempOptions[index].id;
-              // "Consume" this option so it's not reused for the next identical word in correctOrder
-              tempOptions.splice(index, 1);
-              return foundId;
-            }
-            return null;
-          }).filter(Boolean);
-        }
-
-        if (normalized.correctSentence && !normalized.options) {
+      if (normalized.correctSentence && normalized.type === 'reorder_words') {
+        if (!normalized.options) {
           const words = normalized.correctSentence.split(' ');
           normalized.options = words.map((word: string, idx: number) => ({
             id: idx.toString(),
             text: word
           }));
-          normalized.correct_answer = (normalized.options || []).map((o: any) => o.id);
-        } else if (typeof normalized.correct_answer === 'string' && normalized.options) {
-          // If correct_answer is a string but type is reorder_words, try to map it to IDs
-          const words = normalized.correct_answer.split(' ');
-          normalized.correct_answer = words.map((w: string) => 
-            normalized.options.find((o: any) => normalizeForComparison(o.text) === normalizeForComparison(w))?.id
-          ).filter(Boolean);
+          normalized.correct_answer = normalized.options.map((o: any) => o.id);
         }
-      }
-
-      // Normalize flashcards
-      if (normalized.type === 'flashcard' && !normalized.flashcards && normalized.stimulus_en) {
-        normalized.flashcards = [{
-          front: normalized.stimulus_en,
-          back: normalized.correct_answer || normalized.stimulus_es || '',
-          pronunciation: normalized.pronunciation
-        }];
       }
 
       return normalized;
@@ -340,179 +146,8 @@ export default function PremiumCourseSession({
 
     const items: any[] = [];
     unitData.blocks.forEach((block: PremiumBlock) => {
-      let blockStimulus: string | null = null;
       block.content.forEach((content: PremiumContent) => {
-        // Capture stimulus from items that have it (reading context)
-        const currentStimulus = content.stimulus_en || content.text || content.textPassage || content.scenario;
-        if (currentStimulus && (content.type === 'reading-comprehension' || (content.concept_tags && content.concept_tags.includes('reading')))) {
-          blockStimulus = currentStimulus;
-        }
-
-        // Handle multi-question exercises from A2 generation
-        // Crosswords and Word Searches should NOT be flattened even if they have 'items' or 'words'
-        const shouldNotFlatten = ['crossword', 'word-search', 'word_search'].includes(content.type as string);
-        const subQuestions = shouldNotFlatten ? null : (content.questions || content.transformations || content.items || content.sentences || (content.type === 'reading-comprehension' ? content.reading : null));
-        
-        if (subQuestions && Array.isArray(subQuestions)) {
-          // Collect all correct answers to use as a word bank if it's a fill-blank exercise without options
-          const isFillBlankBlock = ['fill_blank', 'fill-blank', 'fill_blanks', 'transformation'].includes(content.type as string);
-          let blockWordBank: any[] = [];
-          if (isFillBlankBlock) {
-            const allPossibleAnswers = new Set<string>();
-            subQuestions.forEach(q => {
-              const answers = q.acceptableAnswers || q.answer || q.answers || q.correct_answer || q.correctAnswer || q.gap;
-              if (Array.isArray(answers)) answers.forEach(a => allPossibleAnswers.add(String(a)));
-              else if (answers) allPossibleAnswers.add(String(answers));
-            });
-            blockWordBank = Array.from(allPossibleAnswers).map((text, idx) => ({ id: text, text }));
-          }
-
-          subQuestions.forEach((q: any, qIdx: number) => {
-            // Ensure we don't lose the main instructions or title, but avoid duplicates
-            const rawInstructions = (q.instructions || content.instructions || content.prompt_es || content.topic || content.title || block.title || "").trim();
-            const qText = (q.question || q.prompt || q.scenario || q.sentence || "").trim();
-            
-            // Stronger duplication check
-            const clean = (t: string) => t.toLowerCase().replace(/[.:!¡¿?]/g, '').trim();
-            const isDuplicate = qText && rawInstructions && 
-                              (clean(rawInstructions).includes(clean(qText).substring(0, 20)) ||
-                               clean(qText).includes(clean(rawInstructions).substring(0, 20)));
-
-            const flattened = {
-              ...content,
-              ...q,
-              interaction_id: `${content.interaction_id || 'ex'}-q${qIdx}`,
-              main_instructions: isDuplicate ? (block.title || "Exercise") : rawInstructions,
-              blockTitle: block.title
-            };
-
-            // Apply word bank if it's a fill-blank block and current question has no options
-            if (isFillBlankBlock && (!flattened.options || flattened.options.length === 0) && blockWordBank.length > 1) {
-              flattened.options = blockWordBank;
-            }
-            
-            // Map question-specific fields to standard fields
-            if (q.question && !flattened.prompt_es) {
-              flattened.prompt_es = q.question;
-            }
-            if (q.scenario && !flattened.stimulus_en) {
-              flattened.stimulus_en = q.scenario;
-            }
-            if (q.sentence && !flattened.stimulus_en) {
-              flattened.stimulus_en = q.sentence;
-            }
-            if (q.context && !flattened.stimulus_en) {
-              flattened.stimulus_en = q.context;
-            }
-            if (q.question && !flattened.stimulus_en) {
-              flattened.stimulus_en = q.question;
-            }
-            if (content.textPassage && !flattened.stimulus_en) {
-              flattened.stimulus_en = content.textPassage;
-            }
-            if (!flattened.stimulus_en && blockStimulus && (flattened.type === 'true_false' || (flattened.concept_tags && flattened.concept_tags.includes('reading')))) {
-              flattened.stimulus_en = blockStimulus;
-            }
-
-            // Clean up stimulus for fill-blank exercises
-            if (flattened.stimulus_en && isFillBlankBlock) {
-              const answer = String(flattened.correct_answer || flattened.gap || q.answer || q.acceptableAnswers?.[0] || "");
-              if (answer) {
-                const escapedAnswer = answer.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-                // Regex to handle " (answer - extra)" -> "(extra)"
-                const fullHintRegex = new RegExp(`\\(\\s*${escapedAnswer}\\s*-\\s*([^)]+)\\)`, 'gi');
-                const simpleHintRegex = new RegExp(`\\(\\s*${escapedAnswer}\\s*\\)`, 'gi');
-                
-                if (fullHintRegex.test(flattened.stimulus_en)) {
-                  flattened.stimulus_en = flattened.stimulus_en.replace(fullHintRegex, '($1)');
-                } else {
-                  flattened.stimulus_en = flattened.stimulus_en.replace(simpleHintRegex, '');
-                }
-              }
-              // Also replace multiple underscores with a single standard gap marker
-              flattened.stimulus_en = flattened.stimulus_en.replace(/_{2,}/g, '___').replace(/\s{2,}/g, ' ').trim();
-            }
-            if (Array.isArray(q.options) && typeof q.options[0] === 'string') {
-              flattened.options = q.options.map((opt: string, idx: number) => ({
-                id: q.type === 'multiple-choice' && opt.includes(') ') ? opt.split(') ')[0] : String.fromCharCode(65 + idx),
-                text: opt.includes(') ') ? opt.split(') ')[1] : opt
-              }));
-            }
-            if (q.correctAnswer && !flattened.correct_answer) {
-              flattened.correct_answer = q.correctAnswer;
-            }
-            if (q.answer && !flattened.correct_answer) {
-              flattened.correct_answer = q.answer;
-            }
-            if (q.answers && !flattened.correct_answer) {
-              flattened.correct_answer = Array.isArray(q.answers) ? q.answers.join(' / ') : q.answers;
-            }
-            if (q.solution && !flattened.correct_answer) {
-              flattened.correct_answer = q.solution;
-            }
-            if (q.correct_answer && !flattened.correct_answer) {
-              flattened.correct_answer = q.correct_answer;
-            }
-            if (q.acceptableAnswers && !flattened.correct_answer) {
-              flattened.correct_answer = Array.isArray(q.acceptableAnswers) ? q.acceptableAnswers.join(' / ') : q.acceptableAnswers;
-            }
-            if (q.correct_answer_es && !flattened.correct_answer_es) {
-              flattened.correct_answer_es = q.correct_answer_es;
-            }
-            if (q.explanation && !flattened.feedback_correct_es) {
-              flattened.feedback_correct_es = q.explanation;
-            }
-
-            // Handle reorder_words fields in sub-questions
-            if (q.words && q.correctOrder && !flattened.options) {
-              flattened.type = 'reorder_words';
-              flattened.options = (q.words || []).map((w: string, idx: number) => ({ id: idx.toString(), text: w }));
-              flattened.correct_answer = (Array.isArray(q.correctOrder) ? q.correctOrder : []).map((w: string) => 
-                (flattened.options || []).find((o: any) => o.text === w)?.id
-              ).filter(Boolean);
-            }
-
-            items.push(normalizeInteraction(flattened));
-          });
-        } 
-        else if (content.sentences && Array.isArray(content.sentences) && content.type === 'sentence-building') {
-          content.sentences.forEach((s: any, sIdx: number) => {
-            items.push(normalizeInteraction({
-              ...content,
-              ...s,
-              type: 'reorder_words',
-              interaction_id: `${content.interaction_id || 'ex'}-s${sIdx}`,
-              prompt_es: content.instructions || "Ordena la oración:",
-              correctSentence: Array.isArray(s.correctOrder) ? s.correctOrder.join(' ') : (s.correctOrder || ""),
-              options: (Array.isArray(s.words) ? s.words : []).map((w: string, idx: number) => ({ id: idx.toString(), text: w })),
-              blockTitle: block.title
-            }));
-          });
-        }
-        else if (content.targetSentences && Array.isArray(content.targetSentences) && content.type === 'pronunciation-practice') {
-          content.targetSentences.forEach((s: any, sIdx: number) => {
-            items.push(normalizeInteraction({
-              ...content,
-              ...s,
-              type: 'audio_player',
-              interaction_id: `${content.interaction_id || 'ex'}-p${sIdx}`,
-              prompt_es: s.spanish || s.spanishTranslation || content.instructions || "Escucha y repite:",
-              stimulus_en: s.english || s.englishSentence,
-              audioUrl: s.audioModelURL || s.audioModelUrl,
-              tts_en: s.english || s.englishSentence,
-              pronunciationTips: s.pronunciationTips || s.pronunciation_tips,
-              phonetic: s.phonetic || s.phoneticTranscription,
-              blockTitle: block.title
-            }));
-          });
-        }
-        else {
-          const finalItem = { ...content, blockTitle: block.title };
-          if (!finalItem.stimulus_en && blockStimulus && (finalItem.type === 'true_false' || (finalItem.concept_tags && finalItem.concept_tags.includes('reading')))) {
-            finalItem.stimulus_en = blockStimulus;
-          }
-          items.push(normalizeInteraction(finalItem));
-        }
+        items.push(normalizeInteraction({ ...content, blockTitle: block.title }));
       });
     });
     return items;
@@ -533,74 +168,10 @@ export default function PremiumCourseSession({
     setIsFlipped(false);
     setShuffledRight([]);
     setShuffledOptions([]);
-    setAiExplanation(null);
-    setIsExplaining(false);
   }, [currentIndex]);
-
-  const handleRequestAIExplanation = async () => {
-    const interaction = isVideoMode ? currentItem.video.interactions[interactionIndex] : currentItem;
-    if (!interaction || isExplaining || aiExplanation) return;
-
-    // Obtener ID de forma robusta
-    const id = interaction.interaction_id || interaction.id;
-    if (!id) {
-      console.warn("Cannot request explanation: interaction_id is missing", interaction);
-      return;
-    }
-
-    setIsExplaining(true);
-    try {
-      // Enviar solo lo necesario para evitar payloads pesados y asegurar compatibilidad
-      const response = await fetch('/api/course/explain', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ 
-          interaction: {
-            interaction_id: id,
-            type: interaction.type,
-            prompt_es: interaction.prompt_es || interaction.prompt,
-            stimulus_en: interaction.stimulus_en || interaction.text,
-            correct_answer: interaction.correct_answer || interaction.correctAnswer
-          } 
-        }),
-      });
-      
-      const data = await response.json();
-      if (data.success) {
-        setAiExplanation(data.explanation);
-      } else {
-        setAiExplanation("Lo siento, no pude generar una explicación en este momento.");
-      }
-    } catch (error) {
-      console.error("AI Explanation Error:", error);
-      setAiExplanation("Error de conexión al generar la explicación.");
-    } finally {
-      setIsExplaining(false);
-    }
-  };
 
   const currentItem = queue[currentIndex];
   const progress = (currentIndex / queue.length) * 100;
-
-  // Auto-trigger AI explanation when feedback is shown
-  useEffect(() => {
-    let mounted = true;
-
-    if (feedback && !aiExplanation && !isExplaining) {
-      const interaction = isVideoMode ? currentItem?.video?.interactions?.[interactionIndex] : currentItem;
-      if (interaction && !interaction.explanation) {
-        // Pequeño delay para asegurar que el feedback esté renderizado
-        const timer = setTimeout(() => {
-          if (mounted) handleRequestAIExplanation();
-        }, 100);
-        return () => { 
-          mounted = false;
-          clearTimeout(timer); 
-        };
-      }
-    }
-    return () => { mounted = false; };
-  }, [feedback, aiExplanation, isExplaining, currentIndex, interactionIndex, isVideoMode, currentItem]);
 
   const playAudio = async (url?: string, text?: string) => {
     if (!url && !text) return;
@@ -613,19 +184,14 @@ export default function PremiumCourseSession({
 
     try {
       if (url) {
-        try {
-          const audio = new Audio(url);
-          currentAudioRef.current = audio;
-          // No acelerar sonidos de sistema
-          if (!url.includes('correct.mp3') && !url.includes('wrong.mp3')) {
-            audio.playbackRate = 1.1;
-          }
-          await audio.play();
-          return;
-        } catch (error) {
-          console.warn('Failed to play static audio, falling back to TTS:', error);
-          if (!text) return;
+        const audio = new Audio(url);
+        currentAudioRef.current = audio;
+        // No acelerar sonidos de sistema
+        if (!url.includes('correct.mp3') && !url.includes('wrong.mp3')) {
+          audio.playbackRate = 1.1;
         }
+        await audio.play();
+        return;
       }
       
       if (text) {
@@ -757,8 +323,7 @@ export default function PremiumCourseSession({
       ? currentItem.video.interactions[interactionIndex]
       : currentItem;
       
-    // Always clear and reshuffle when interaction changes
-    if (interaction?.type === 'matching' || interaction?.type === 'vocabulary-match' || interaction?.type === 'multiple_matching') {
+    if ((interaction?.type === 'matching' || interaction?.type === 'vocabulary-match') && shuffledRight.length === 0) {
       const pairs = (interaction.type === 'vocabulary-match') 
         ? (interaction.content?.pairs || interaction.pairs || [])
         : (interaction.pairs || []);
@@ -767,7 +332,6 @@ export default function PremiumCourseSession({
         id: p.id, 
         text: (interaction.type === 'vocabulary-match') ? p.correctMatch : p.right 
       }));
-
       // Fisher-Yates shuffle
       const shuffled = [...rightItems];
       for (let i = shuffled.length - 1; i > 0; i--) {
@@ -775,11 +339,9 @@ export default function PremiumCourseSession({
         [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
       }
       setShuffledRight(shuffled);
-    } else {
-      setShuffledRight([]);
     }
 
-    if (interaction?.type === 'reorder_words') {
+    if (interaction?.type === 'reorder_words' && shuffledOptions.length === 0) {
       // Fisher-Yates shuffle
       const shuffled = [...(interaction.options || [])];
       for (let i = shuffled.length - 1; i > 0; i--) {
@@ -787,12 +349,9 @@ export default function PremiumCourseSession({
         [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
       }
       setShuffledOptions(shuffled);
-    } else {
-      setShuffledOptions([]);
     }
-  }, [currentItem, interactionIndex]);
+  }, [currentItem, interactionIndex, shuffledRight.length, shuffledOptions.length]);
 
-  // Robust normalization for comparison
   const handleNext = () => {
     setSelectedWords([]);
     setShuffledRight([]);
@@ -804,13 +363,9 @@ export default function PremiumCourseSession({
     setSelectedCategorizationItem(null);
     setFlashcardIndex(0);
     setIsFlipped(false);
-    setShowHint(false);
-    setActiveGapIndex(0);
     setFeedback(null);
     setSelectedOption(null);
     setIsCorrect(null);
-    setAiExplanation(null);
-    setIsExplaining(false);
 
     if (isVideoMode) {
       const video = currentItem.video;
@@ -828,24 +383,22 @@ export default function PremiumCourseSession({
           setCurrentSceneIndex(0);
           setInteractionIndex(0);
         } else {
-          if (continuousMode) {
-            if (onNextUnit) onNextUnit();
-            else onComplete();
-          } else {
-            setShowSummary(true);
-          }
+          const accuracy = exerciseResults.total > 0 
+            ? Math.round((exerciseResults.correct / exerciseResults.total) * 100) 
+            : 0;
+          setUnitStars(calculateStarRating(accuracy));
+          setShowSummary(true);
         }
       }
     } else {
       if (currentIndex < queue.length - 1) {
         setCurrentIndex(currentIndex + 1);
       } else {
-        if (continuousMode) {
-          if (onNextUnit) onNextUnit();
-          else onComplete();
-        } else {
-          setShowSummary(true);
-        }
+        const accuracy = exerciseResults.total > 0 
+          ? Math.round((exerciseResults.correct / exerciseResults.total) * 100) 
+          : 0;
+        setUnitStars(calculateStarRating(accuracy));
+        setShowSummary(true);
       }
     }
   };
@@ -855,30 +408,22 @@ export default function PremiumCourseSession({
     let isAnswerCorrect = false;
 
     if (interaction.type === 'reorder_words') {
-      const normalizeSentence = (text: string) => {
-        return normalizeForComparison(text)
-          .replace(/\s+/g, '') // Remove ALL spaces for comparison
-          .trim();
-      };
-
-      const selectedText = (Array.isArray(optionId) ? optionId : []).map(id => 
+      const selectedText = (optionId as string[]).map(id => 
         (interaction.options || []).find((o: any) => o.id === id)?.text
-      ).join('');
-      
-      const correctText = (Array.isArray(interaction.correct_answer) ? interaction.correct_answer : []).map((id: string) => 
+      ).join(' ').toLowerCase().trim();
+      const correctText = (interaction.correct_answer as string[]).map((id: string) => 
         (interaction.options || []).find((o: any) => o.id === id)?.text
-      ).join('');
-
-      isAnswerCorrect = normalizeSentence(selectedText) === normalizeSentence(correctText);
-    } else if (['true_false', 'odd_one_out', 'multiple_choice', 'role_play', 'listening_image_mc', 'fill_blanks', 'fill_blank', 'fill-blank', 'reading-comprehension', 'writing-analysis', 'touch_word_audio', 'mini_dictation', 'branching_dialogue', 'chat_simulation', 'ar_lite', 'spot_the_difference'].includes(interaction.type)) {
+      ).join(' ').toLowerCase().trim();
+      isAnswerCorrect = selectedText === correctText;
+    } else if (['true_false', 'odd_one_out', 'multiple_choice', 'role_play', 'listening_image_mc', 'fill_blanks', 'fill_blank', 'fill-blank', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
       // Robust comparison for boolean and string values
-      const normalizedOption = normalizeForComparison(String(optionId));
+      const normalizedOption = String(optionId).toLowerCase().trim();
       
       const q = (interaction.type === 'reading-comprehension' || interaction.type === 'writing-analysis')
         ? ((interaction.options && interaction.options.length > 0) ? interaction : (interaction.content?.questions?.[0] || interaction.content || interaction))
         : interaction;
         
-      const normalizedCorrect = normalizeForComparison(String(q.correct_answer || q.correctAnswer || interaction.correct_answer));
+      const normalizedCorrect = String(q.correct_answer || q.correctAnswer || interaction.correct_answer).toLowerCase().trim();
       
       if (interaction.type === 'true_false') {
         // Specifically handle True/False which might be stored as strings "true"/"false" or booleans
@@ -888,10 +433,11 @@ export default function PremiumCourseSession({
       } else {
         // Double check: if normalizedOption is an ID (like o1), but normalizedCorrect is also an ID,
         // we might want to also check if the text matches just in case of mapping mismatches
-        const optionText = normalizeForComparison(q.options?.find((o: any) => (normalizeForComparison(String(o.id)) === normalizedOption || normalizeForComparison(String(o.text)) === normalizedOption))?.text || String(optionId));
-        const correctText = normalizeForComparison(q.options?.find((o: any) => (normalizeForComparison(String(o.id)) === normalizedCorrect || normalizeForComparison(String(o.text)) === normalizedCorrect))?.text || String(normalizedCorrect));
+        const optionText = q.options?.find((o: any) => (o.id === optionId || o === optionId))?.text || optionId;
+        const correctText = q.options?.find((o: any) => (o.id === normalizedCorrect || o === normalizedCorrect))?.text || normalizedCorrect;
         
-        isAnswerCorrect = normalizedOption === normalizedCorrect || optionText === correctText;
+        isAnswerCorrect = normalizedOption === normalizedCorrect || 
+                         String(optionText).toLowerCase().trim() === String(correctText).toLowerCase().trim();
       }
     } else if (['matching', 'multiple_matching', 'vocabulary-match'].includes(interaction.type)) {
       const pairs = (interaction.type === 'vocabulary-match')
@@ -908,17 +454,17 @@ export default function PremiumCourseSession({
           
           // If ID doesn't match, check if the text of the selected option 
           // matches the expected correct text (handles duplicate values like "a"/"an")
-          const expectedText = normalizeForComparison(String((interaction.type === 'vocabulary-match') ? p.correctMatch : p.right));
-          const selectedText = normalizeForComparison(String((shuffledRight || []).find((r: any) => r.id === selectedRightId)?.text || ""));
+          const expectedText = String((interaction.type === 'vocabulary-match') ? p.correctMatch : p.right).toLowerCase().trim();
+          const selectedText = String((shuffledRight || []).find((r: any) => r.id === selectedRightId)?.text || "").toLowerCase().trim();
           return selectedText === expectedText;
         });
       } else {
-        isAnswerCorrect = Object.entries(interaction.correct_answer || {}).every(([k, v]) => matchingPairs[k] === v);
+        isAnswerCorrect = Object.entries(interaction.correct_answer as Record<string, string>).every(([k, v]) => matchingPairs[k] === v);
       }
     } else if (['gapped_text', 'multiple_choice_cloze'].includes(interaction.type)) {
-      const allCorrect = Object.entries(interaction.correct_answer || {}).every(([gapId, correctVal]) => {
-        const inputVal = normalizeForComparison(String(inputValues[gapId as any] || ""));
-        const correctValStr = normalizeForComparison(String(correctVal));
+      const allCorrect = Object.entries(interaction.correct_answer as Record<string, string>).every(([gapId, correctVal]) => {
+        const inputVal = String(inputValues[gapId as any] || "").toLowerCase().trim();
+        const correctValStr = String(correctVal).toLowerCase().trim();
         return inputVal === correctValStr;
       });
       isAnswerCorrect = allCorrect;
@@ -933,25 +479,10 @@ export default function PremiumCourseSession({
       });
       isAnswerCorrect = allCategorizedCorrectly && Object.keys(categorizedItems).length === allItems.length;
     } else if (['transformation', 'fill_blanks', 'fill_blank', 'fill-blank'].includes(interaction.type)) {
+      const input = (optionId as string).trim().toLowerCase();
       const q = interaction;
-      const normalizedOption = normalizeForComparison(String(optionId));
-      const correctText = Array.isArray(q.answers) 
-        ? q.answers.join(' ') 
-        : String(q.correct_answer || q.correctAnswer || q.answer || q.gap || "");
-      
-      // Support multiple correct answers separated by / or ,
-      const possibleAnswers = correctText.split(/[\\/]+/).map((a: string) => normalizeForComparison(a)).filter(Boolean);
-      
-      // If we have options, we should also check if the text of the selected option matches any of the correct answers
-      let optionText = normalizedOption;
-      if (q.options && q.options.length > 0) {
-        const opt = q.options.find((o: any) => normalizeForComparison(String(o.id)) === normalizedOption);
-        if (opt) optionText = normalizeForComparison(String(opt.text));
-      }
-
-      isAnswerCorrect = possibleAnswers.length > 0 
-        ? (possibleAnswers.includes(normalizedOption) || possibleAnswers.includes(optionText)) 
-        : normalizedOption.length > 0;
+      const correct = String(q.correct_answer || q.correctAnswer || interaction.correct_answer).toLowerCase().trim();
+      isAnswerCorrect = input === correct;
     } else if (interaction.type === 'writing_task') {
       const input = (optionId as string).trim();
       const minWords = interaction.word_count_min || 100;
@@ -986,22 +517,17 @@ export default function PremiumCourseSession({
       }
       
       setFeedback({ correct: true, message });
-      // playAudio('/audio/correct.mp3');
+      playAudio('/audio/correct.mp3');
+
+      setExerciseResults(prev => ({ correct: prev.correct + 1, total: prev.total + 1 }));
 
       // Track progress if callback is provided
       if (onInteractionCorrect && interaction.interaction_id) {
         onInteractionCorrect(interaction.interaction_id);
       }
 
-      if (onPerformanceUpdate && interaction.interaction_id) {
-        const id = interaction.interaction_id || interaction.mastery_tag;
-        const fails = failCount[id] || 0;
-        const quality = Math.max(3, 5 - fails);
-        onPerformanceUpdate(interaction.interaction_id, quality);
-      }
-
-      if (onConceptUpdate && interaction.concept_tags) {
-        onConceptUpdate(interaction.concept_tags, true);
+      if (onExerciseComplete && interaction.interaction_id) {
+        onExerciseComplete(interaction.interaction_id);
       }
     } else {
       setIsCorrect(false);
@@ -1009,14 +535,6 @@ export default function PremiumCourseSession({
       const id = interaction.interaction_id || interaction.mastery_tag;
       const currentFails = (failCount[id] || 0) + 1;
       setFailCount(prev => ({ ...prev, [id]: currentFails }));
-
-      if (onPerformanceUpdate && interaction.interaction_id) {
-        onPerformanceUpdate(interaction.interaction_id, 0); // 0 = fail
-      }
-
-      if (onConceptUpdate && interaction.concept_tags) {
-        onConceptUpdate(interaction.concept_tags, false);
-      }
       
       let message = "";
       if (currentFails >= 3) {
@@ -1029,12 +547,11 @@ export default function PremiumCourseSession({
       }
 
       setFeedback({ correct: false, message: message });
-      // playAudio('/audio/wrong.mp3');
-    }
-
-    // Auto-request AI explanation if static one is missing
-    if (!interaction.explanation) {
-      handleRequestAIExplanation();
+      playAudio('/audio/wrong.mp3');
+      
+      if (currentFails >= 3) {
+        setExerciseResults(prev => ({ correct: prev.correct, total: prev.total + 1 }));
+      }
     }
   };
 
@@ -1045,8 +562,6 @@ export default function PremiumCourseSession({
     if (!feedback?.correct && isVideoMode && currentItem.video.branching && failCount[id] >= 2) {
       setIsRepairing(true);
       setFeedback(null);
-      setAiExplanation(null);
-      setIsExplaining(false);
       return;
     }
 
@@ -1058,8 +573,6 @@ export default function PremiumCourseSession({
            handleNext();
         } else {
           setFeedback(null);
-          setAiExplanation(null);
-          setIsExplaining(false);
         }
       } else {
         handleNext();
@@ -1074,12 +587,22 @@ export default function PremiumCourseSession({
       setFeedback(null);
       setSelectedOption(null);
       setIsCorrect(null);
-      setAiExplanation(null);
-      setIsExplaining(false);
     }
   };
 
   if (showSummary) {
+    const accuracy = exerciseResults.total > 0 
+      ? Math.round((exerciseResults.correct / exerciseResults.total) * 100) 
+      : 0;
+
+    const starColors = {
+      gold: { bg: 'bg-amber-100', text: 'text-amber-600', border: 'border-amber-500' },
+      silver: { bg: 'bg-slate-100', text: 'text-slate-600', border: 'border-slate-400' },
+      bronze: { bg: 'bg-orange-100', text: 'text-orange-600', border: 'border-orange-500' }
+    };
+
+    const starConfig = unitStars ? starColors[unitStars] : null;
+
     return (
       <div className="flex flex-col items-center justify-center min-h-screen bg-white text-center p-6 overflow-hidden relative">
         <motion.div 
@@ -1121,33 +644,77 @@ export default function PremiumCourseSession({
         >
           <Trophy className="w-16 h-16 text-amber-600" />
         </motion.div>
+
+        {unitStars && starConfig && (
+          <motion.div
+            initial={{ scale: 0, rotate: -180 }}
+            animate={{ scale: 1, rotate: 0 }}
+            transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
+            className="mb-6"
+          >
+            <div className={`flex items-center gap-2 ${starConfig.bg} px-8 py-4 rounded-full border-2 ${starConfig.border}`}>
+              <Star className={`w-8 h-8 ${starConfig.text} fill-current`} />
+              <span className={`text-2xl font-black ${starConfig.text} uppercase`}>
+                {unitStars === 'gold' && '¡Oro!'}
+                {unitStars === 'silver' && '¡Plata!'}
+                {unitStars === 'bronze' && '¡Bronce!'}
+              </span>
+              <Star className={`w-8 h-8 ${starConfig.text} fill-current`} />
+            </div>
+          </motion.div>
+        )}
+
         <motion.h2 
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.2 }}
+          transition={{ delay: 0.3 }}
           className="text-4xl font-black text-slate-900 mb-4"
         >
           ¡Unidad Completada!
         </motion.h2>
-        <motion.p 
-          initial={{ y: 20, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.3 }}
-          className="text-xl text-slate-600 mb-12"
-        >
-          Has terminado todas las actividades de esta unidad.
-        </motion.p>
         <motion.div 
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.4 }}
+          className="text-xl text-slate-600 mb-2"
+        >
+          <p className="font-bold">
+            {exerciseResults.correct} de {exerciseResults.total} ejercicios correctos
+          </p>
+          <p className="text-3xl font-black text-indigo-600 mt-2">
+            {accuracy}% de precisión
+          </p>
+        </motion.div>
+        {unitStars && (
+          <motion.p 
+            initial={{ y: 20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ delay: 0.5 }}
+            className="text-lg text-slate-500 mb-12 max-w-md"
+          >
+            {unitStars === 'gold' && '¡Excelente trabajo! Dominas esta unidad perfectamente.'}
+            {unitStars === 'silver' && '¡Muy bien! Tu nivel de comprensión es sólido.'}
+            {unitStars === 'bronze' && '¡Buen trabajo! Sigue practicando para mejorar.'}
+          </motion.p>
+        )}
+        {!unitStars && (
+          <motion.p 
+            initial={{ y: 20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ delay: 0.5 }}
+            className="text-lg text-slate-500 mb-12 max-w-md"
+          >
+            Intenta repetir la unidad para mejorar tu puntuación y ganar estrellas.
+          </motion.p>
+        )}
+        <motion.div 
+          initial={{ y: 20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.6 }}
           className="flex flex-col gap-4 w-full max-w-xs z-10"
         >
-          <Button 
-            onClick={onNextUnit || onComplete} 
-            className="h-16 rounded-2xl bg-indigo-600 text-white text-xl font-black shadow-lg hover:bg-indigo-700 border-b-8 border-indigo-800 active:translate-y-1 active:border-b-0 transition-all"
-          >
-            {onNextUnit ? 'SIGUIENTE UNIDAD' : 'FINALIZAR'}
+          <Button onClick={onComplete} className="h-16 rounded-2xl bg-indigo-600 text-white text-xl font-black shadow-lg hover:bg-indigo-700 border-b-8 border-indigo-800 active:translate-y-1 active:border-b-0 transition-all">
+            FINALIZAR
           </Button>
           <Button variant="outline" onClick={onExit} className="h-16 rounded-2xl border-2 border-slate-200 text-slate-600 text-lg font-bold hover:bg-slate-50">
             VOLVER AL CURSO
@@ -1181,368 +748,30 @@ export default function PremiumCourseSession({
       case 'audio_player':
         return (
           <div className="w-full max-w-2xl mx-auto space-y-8 flex flex-col items-center">
-            <div className="bg-indigo-50 p-8 rounded-3xl border-2 border-indigo-100 w-full text-center space-y-6 relative group">
-              <PronunciationButton text={interaction.stimulus_en || interaction.text || interaction.tts_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-              <div className="space-y-2">
-                <p className="text-slate-400 font-bold uppercase tracking-widest text-sm italic">ESCUCHA Y PRONUNCIA</p>
-                <h3 className="text-3xl md:text-4xl font-black text-indigo-900 leading-tight">
-                  {interaction.stimulus_en || interaction.text || interaction.tts_en}
-                </h3>
-              </div>
-              
-              <div className="p-4 bg-white/50 rounded-2xl border border-indigo-50">
-                <p className="text-xl font-medium text-slate-600 italic">
-                  &quot;{interaction.prompt_es || interaction.spanish || interaction.instructions}&quot;
-                </p>
-              </div>
-
-              {interaction.phonetic && (
-                <p className="text-2xl font-mono text-indigo-400 font-bold">{interaction.phonetic}</p>
-              )}
-
-              {interaction.pronunciationTips && (
-                <div className="bg-amber-50 p-6 rounded-2xl border-2 border-amber-100 text-left">
-                  <div className="flex items-center gap-2 mb-2">
-                    <Lightbulb className="w-5 h-5 text-amber-500" />
-                    <span className="font-bold text-amber-800 uppercase text-xs tracking-wider">Consejos de Pronunciación</span>
-                  </div>
-                  <p className="text-amber-900 font-medium leading-relaxed">
-                    {interaction.pronunciationTips}
-                  </p>
-                </div>
-              )}
+            <div className="bg-blue-50 p-8 rounded-3xl border-2 border-blue-100 w-full text-center">
+              <Play className="w-16 h-16 text-blue-600 mx-auto mb-4" />
+              <h3 className="text-xl font-bold text-blue-900 mb-2">Listening Task</h3>
+              <p className="text-slate-600">{interaction.prompt_es || interaction.instructions}</p>
             </div>
             
-            <div className="flex flex-col items-center gap-6 w-full">
+            <div className="flex flex-col items-center gap-4 w-full">
               <button
-                onClick={() => playAudio(interaction.audioUrl || interaction.audio_url, interaction.stimulus_en || interaction.text || interaction.tts_en)}
-                className="bg-indigo-600 text-white px-12 py-6 rounded-[2rem] font-black text-2xl hover:bg-indigo-700 transition-all shadow-xl shadow-indigo-100 flex items-center gap-4 active:scale-95 border-b-8 border-indigo-800"
+                onClick={() => playAudio(interaction.audioUrl || interaction.audio_url)}
+                className="bg-blue-600 text-white px-10 py-4 rounded-2xl font-black text-xl hover:bg-blue-700 transition-all shadow-lg flex items-center gap-3 active:scale-95"
               >
-                <Volume2 className="w-10 h-10" />
-                ESCUCHAR
+                <Volume2 className="w-6 h-6" />
+                Play Audio
               </button>
               
-              {!feedback && (
-                <Button
+              {!isInteractionDisabled && (
+                <button
                   onClick={() => handleCheckAnswer(true)}
-                  className="mt-4 bg-green-500 hover:bg-green-600 text-white font-black px-12 py-4 rounded-2xl border-b-4 border-green-700 active:translate-y-1 transition-all"
+                  className="mt-4 text-slate-400 font-bold hover:text-slate-600 transition-colors"
                 >
-                  ¡LO HE DICHO BIEN!
-                </Button>
-              )}
-            </div>
-          </div>
-        );
-
-      case 'touch_word_audio':
-        return (
-          <div className="w-full max-w-2xl mx-auto space-y-8 flex flex-col items-center">
-            <div className="text-center space-y-4">
-              <h2 className="text-3xl font-black text-slate-800">{interaction.prompt_es || "¿Qué palabra oyes?"}</h2>
-              <button
-                onClick={() => playAudio(interaction.audioUrl || interaction.audio_url, interaction.audio_target || interaction.correct_answer)}
-                className="bg-coral-500 text-white p-8 rounded-full shadow-xl shadow-coral-100 hover:bg-coral-600 transition-all hover:scale-110 active:scale-95 border-b-8 border-coral-700"
-              >
-                <Volume2 className="w-16 h-16" />
-              </button>
-            </div>
-
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 w-full">
-              {interaction.options?.map((opt: any) => {
-                const isSelected = selectedOption === opt.id;
-                const isCorrectAns = opt.id === interaction.correct_answer || opt.text === interaction.correct_answer;
-                
-                return (
-                  <button
-                    key={opt.id}
-                    onClick={() => !feedback && setSelectedOption(opt.id)}
-                    className={`p-6 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all ${
-                      feedback 
-                        ? isCorrectAns ? 'bg-green-50 border-green-500 text-green-700' : isSelected ? 'bg-red-50 border-red-500 text-red-700' : 'bg-white border-slate-100 text-slate-200'
-                        : isSelected ? 'bg-coral-50 border-coral-500 text-coral-700 scale-105 shadow-md' : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
-                    } ${feedback ? 'pointer-events-none' : ''}`}
-                  >
-                    {opt.text}
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-        );
-
-      case 'mini_dictation':
-        const currentInput = inputValues[0] || '';
-        return (
-          <div className="w-full max-w-2xl mx-auto space-y-8 flex flex-col items-center">
-            <div className="text-center space-y-6 w-full">
-              <h2 className="text-2xl font-black text-slate-800">{interaction.prompt_es || "Escucha y escribe"}</h2>
-              <button
-                onClick={() => playAudio(interaction.audioUrl || interaction.audio_url, interaction.correct_answer)}
-                className="bg-indigo-600 text-white p-6 rounded-full shadow-lg hover:bg-indigo-700 transition-all active:scale-95 border-b-4 border-indigo-800"
-              >
-                <Volume2 className="w-10 h-10" />
-              </button>
-
-              <div className="relative w-full">
-                <input
-                  type="text"
-                  value={currentInput}
-                  onChange={(e) => setInputValues({ 0: e.target.value })}
-                  placeholder="Escribe lo que oyes..."
-                  className={`w-full p-6 bg-white border-2 border-b-4 rounded-3xl text-2xl font-bold text-center outline-none transition-all ${
-                    feedback 
-                      ? isCorrect ? 'border-green-500 bg-green-50' : 'border-red-500 bg-red-50'
-                      : 'border-slate-200 focus:border-indigo-500'
-                  }`}
-                  disabled={!!feedback}
-                />
-              </div>
-
-              {interaction.predictive_suggestions && !feedback && (
-                <div className="flex flex-wrap gap-2 justify-center">
-                  {interaction.predictive_suggestions.map((word: string, i: number) => (
-                    <button
-                      key={i}
-                      onClick={() => {
-                        const words = currentInput.trim().split(' ');
-                        words[words.length - 1] = word;
-                        setInputValues({ 0: words.join(' ') + ' ' });
-                      }}
-                      className="px-4 py-2 bg-slate-100 hover:bg-slate-200 rounded-xl font-bold text-slate-600 transition-colors"
-                    >
-                      {word}
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
-
-            {feedback && !isCorrect && (
-              <motion.div 
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="p-4 bg-amber-50 border-2 border-amber-100 rounded-2xl text-amber-800 font-bold"
-              >
-                Respuesta correcta: <span className="text-indigo-600">{interaction.correct_answer}</span>
-              </motion.div>
-            )}
-          </div>
-        );
-
-      case 'branching_dialogue':
-        return (
-          <div className="w-full max-w-2xl mx-auto space-y-8 flex flex-col items-center">
-            <div className="w-full space-y-6">
-              {/* Character Bubble */}
-              <div className="flex items-end gap-4">
-                <div className="w-16 h-16 bg-indigo-100 rounded-2xl flex items-center justify-center text-3xl shadow-sm border-2 border-indigo-50 shrink-0">
-                  👤
-                </div>
-                <div className="bg-white p-6 rounded-3xl rounded-bl-none border-2 border-slate-100 shadow-sm relative max-w-[80%]">
-                   <p className="text-xl font-bold text-slate-800 leading-tight">
-                     {interaction.stimulus_en || "Hi! What's your name?"}
-                   </p>
-                   <PronunciationButton text={interaction.stimulus_en || "Hi! What's your name?"} size="sm" className="absolute -top-3 -right-3 shadow-md" />
-                </div>
-              </div>
-
-              {/* Options Bubble */}
-              <div className="flex flex-col items-end gap-3 w-full">
-                {interaction.options?.map((opt: any) => {
-                  const isSelected = selectedOption === opt.id;
-                  const isCorrectAns = opt.id === interaction.correct_answer || opt.text === interaction.correct_answer;
-                  
-                  return (
-                    <button
-                      key={opt.id}
-                      onClick={() => !feedback && setSelectedOption(opt.id)}
-                      className={`p-5 px-8 rounded-3xl rounded-br-none border-2 border-b-4 font-bold text-lg transition-all max-w-[80%] text-right ${
-                        feedback 
-                          ? isCorrectAns ? 'bg-green-50 border-green-500 text-green-700' : isSelected ? 'bg-red-50 border-red-500 text-red-700' : 'bg-white border-slate-100 text-slate-200'
-                          : isSelected ? 'bg-indigo-50 border-indigo-500 text-indigo-700 scale-105 shadow-md' : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
-                      } ${feedback ? 'pointer-events-none' : ''}`}
-                    >
-                      {opt.text}
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          </div>
-        );
-
-      case 'voice_note':
-        return (
-          <div className="w-full max-w-2xl mx-auto space-y-8 flex flex-col items-center">
-            <div className="bg-white p-8 rounded-[3rem] border-2 border-slate-100 shadow-xl w-full text-center space-y-6">
-              <div className="w-20 h-20 bg-emerald-100 rounded-3xl flex items-center justify-center mx-auto text-4xl shadow-sm">
-                🎙️
-              </div>
-              <div className="space-y-2">
-                <h3 className="text-2xl font-black text-slate-800">Voice Note</h3>
-                <p className="text-slate-500 font-medium">{interaction.prompt_es || "Graba una nota de voz corta"}</p>
-              </div>
-              
-              <div className="p-6 bg-slate-50 rounded-2xl border-2 border-dashed border-slate-200">
-                <p className="text-xl font-bold text-slate-700 italic">
-                  &quot;{interaction.stimulus_en || interaction.text}&quot;
-                </p>
-              </div>
-
-              <div className="flex flex-col items-center gap-4">
-                <button
-                  onClick={() => {
-                    // Simulation of recording for A1
-                    if (isCorrect === null) {
-                      setIsCorrect(true);
-                      setFeedback({ correct: true, message: "¡Excelente! Tu nota de voz suena muy clara." });
-                    }
-                  }}
-                  className={`w-24 h-24 rounded-full flex items-center justify-center transition-all shadow-lg ${
-                    feedback ? 'bg-emerald-500 text-white' : 'bg-red-500 hover:bg-red-600 text-white active:scale-95'
-                  }`}
-                >
-                  <Mic size={40} className={feedback ? '' : 'animate-pulse'} />
+                  I have finished listening
                 </button>
-                <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">
-                  {feedback ? 'GRABACIÓN COMPLETADA' : 'TOCA PARA GRABAR (10-20s)'}
-                </p>
-              </div>
-            </div>
-          </div>
-        );
-
-      case 'chat_simulation':
-        const chatMessages = interaction.chat_history || [
-          { role: 'bot', text: interaction.stimulus_en || "Hello! How can I help you?" }
-        ];
-        return (
-          <div className="w-full max-w-2xl mx-auto space-y-6 flex flex-col h-[60vh]">
-            <div className="flex-1 overflow-y-auto space-y-4 p-4 bg-white rounded-[2rem] border-2 border-slate-100 shadow-inner">
-              {chatMessages.map((msg: any, i: number) => (
-                <div key={i} className={`flex ${msg.role === 'bot' ? 'justify-start' : 'justify-end'}`}>
-                  <div className={`p-4 px-6 rounded-2xl max-w-[80%] font-bold ${
-                    msg.role === 'bot' 
-                      ? 'bg-slate-100 text-slate-800 rounded-bl-none' 
-                      : 'bg-indigo-600 text-white rounded-br-none'
-                  }`}>
-                    {msg.text}
-                  </div>
-                </div>
-              ))}
-              {selectedOption && (
-                <div className="flex justify-end">
-                   <div className="p-4 px-6 rounded-2xl max-w-[80%] font-bold bg-indigo-600 text-white rounded-br-none">
-                     {interaction.options?.find((o: any) => o.id === selectedOption)?.text}
-                   </div>
-                </div>
               )}
             </div>
-
-            <div className="grid grid-cols-1 gap-2 pt-4">
-              {!feedback && interaction.options?.map((opt: any) => (
-                <button
-                  key={opt.id}
-                  onClick={() => setSelectedOption(opt.id)}
-                  className={`p-4 px-6 rounded-2xl border-2 border-b-4 font-bold text-left transition-all ${
-                    selectedOption === opt.id
-                      ? 'bg-indigo-50 border-indigo-500 text-indigo-700'
-                      : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50'
-                  }`}
-                >
-                  {opt.text}
-                </button>
-              ))}
-            </div>
-          </div>
-        );
-
-      case 'ar_lite':
-        return (
-          <div className="w-full max-w-2xl mx-auto space-y-8 flex flex-col items-center">
-            <div className="text-center space-y-4">
-              <h2 className="text-3xl font-black text-slate-800">{interaction.prompt_es || "Toca el objeto:"}</h2>
-              <div className="bg-indigo-600 text-white px-6 py-2 rounded-full font-black text-xl shadow-lg">
-                {interaction.audio_target || interaction.correct_answer}
-              </div>
-            </div>
-
-            <div className="relative w-full aspect-video bg-slate-200 rounded-[2.5rem] overflow-hidden border-4 border-white shadow-2xl group">
-              {interaction.image_url && (
-                <img src={interaction.image_url} alt="AR Lite Room" className="w-full h-full object-cover" />
-              )}
-              
-              {interaction.hotspots?.map((hs: any) => {
-                const isSelected = selectedOption === hs.id;
-                const isCorrectHs = hs.id === interaction.correct_answer;
-                
-                return (
-                  <button
-                    key={hs.id}
-                    onClick={() => !feedback && setSelectedOption(hs.id)}
-                    style={{ left: `${hs.x}%`, top: `${hs.y}%` }}
-                    className={`absolute w-12 h-12 -translate-x-1/2 -translate-y-1/2 rounded-full border-4 transition-all flex items-center justify-center ${
-                      feedback 
-                        ? isCorrectHs ? 'bg-green-500 border-white text-white scale-125 z-10' : isSelected ? 'bg-red-500 border-white text-white' : 'bg-white/20 border-white/50 opacity-20'
-                        : isSelected ? 'bg-coral-500 border-white scale-125 shadow-xl z-10' : 'bg-white/40 border-white/60 hover:bg-white/60 hover:scale-110'
-                    }`}
-                  >
-                    {feedback && isCorrectHs && <CheckCircle2 className="w-6 h-6" />}
-                    {(!feedback || !isCorrectHs) && <div className="w-2 h-2 bg-white rounded-full" />}
-                  </button>
-                );
-              })}
-            </div>
-            <p className="text-slate-400 font-bold text-sm uppercase tracking-widest italic">
-              Busca en la habitación y toca el objeto correcto
-            </p>
-          </div>
-        );
-
-      case 'spot_the_difference':
-        return (
-          <div className="w-full max-w-2xl mx-auto space-y-8 flex flex-col items-center">
-            <div className="text-center space-y-4">
-               <div className="w-20 h-20 bg-amber-100 rounded-3xl flex items-center justify-center mx-auto text-4xl shadow-sm">
-                 🔎
-               </div>
-               <h2 className="text-3xl font-black text-slate-800">{interaction.prompt_es || "¿Cuál es la frase correcta?"}</h2>
-            </div>
-
-            <div className="grid gap-4 w-full">
-               {interaction.options?.map((opt: any) => {
-                 const isSelected = selectedOption === opt.id;
-                 const isCorrectAns = opt.id === interaction.correct_answer || opt.text === interaction.correct_answer;
-                 
-                 return (
-                   <button
-                     key={opt.id}
-                     onClick={() => !feedback && setSelectedOption(opt.id)}
-                     className={`p-6 border-2 border-b-4 rounded-3xl font-bold text-xl transition-all flex items-center justify-between group ${
-                       feedback 
-                         ? isCorrectAns ? 'bg-green-50 border-green-500 text-green-700' : isSelected ? 'bg-red-50 border-red-500 text-red-700' : 'bg-white border-slate-100 text-slate-200'
-                         : isSelected ? 'bg-indigo-50 border-indigo-500 text-indigo-700 scale-[1.02] shadow-md' : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
-                     } ${feedback ? 'pointer-events-none' : ''}`}
-                   >
-                     <span>{opt.text}</span>
-                     {feedback && isCorrectAns && <CheckCircle2 className="w-6 h-6 text-green-500" />}
-                     {!feedback && isSelected && <div className="w-4 h-4 rounded-full bg-indigo-500" />}
-                   </button>
-                 );
-               })}
-            </div>
-
-            {feedback && (
-              <motion.div 
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="p-6 bg-indigo-50 border-2 border-indigo-100 rounded-[2rem] w-full text-center"
-              >
-                <p className="text-indigo-900 font-bold text-lg leading-relaxed">
-                  {interaction.explanation || (isCorrect ? "¡Exacto! Esa es la forma natural de decirlo." : "Recuerda el patrón correcto.")}
-                </p>
-              </motion.div>
-            )}
           </div>
         );
 
@@ -1558,9 +787,9 @@ export default function PremiumCourseSession({
           <div className="w-full max-w-2xl mx-auto space-y-8">
             <h2 className="text-2xl font-black text-slate-800 text-center">{readingContent.title || interaction.title || "Reading Comprehension"}</h2>
             {readingContent.text && (
-               <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 mb-8 max-h-[60vh] overflow-y-auto relative group scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent">
+               <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 mb-8 max-h-[40vh] overflow-y-auto relative group">
                   <PronunciationButton text={readingContent.text} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <p className="text-xl text-slate-700 leading-relaxed whitespace-pre-line text-left">
+                  <p className="text-xl text-slate-700 leading-relaxed whitespace-pre-line">
                     {readingContent.text}
                   </p>
                </div>
@@ -1617,8 +846,8 @@ export default function PremiumCourseSession({
           <div className="w-full max-w-3xl mx-auto space-y-8">
             <h2 className="text-3xl font-black text-slate-800 text-center">{interaction.title || "Email Analysis"}</h2>
             
-            <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 mb-8 max-h-[60vh] overflow-y-auto scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent">
-              <p className="text-xl text-slate-700 leading-relaxed whitespace-pre-line font-serif italic text-left">
+            <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 mb-8 max-h-[40vh] overflow-y-auto">
+              <p className="text-xl text-slate-700 leading-relaxed whitespace-pre-line font-serif italic">
                 {analysisContent.text}
               </p>
             </div>
@@ -1693,21 +922,14 @@ export default function PremiumCourseSession({
                         setMatchingSelections({});
                       } else setMatchingSelections(newSelections);
                     }}
-                    className={`w-full p-4 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all flex items-center justify-between group/left cursor-pointer ${
-                      matchingPairs[p.id] ? 'bg-slate-50 border-slate-100 text-slate-300 pointer-events-none opacity-50' :
+                    className={`w-full p-5 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all flex items-center justify-between group/left cursor-pointer ${
+                      matchingPairs[p.id] ? 'bg-slate-50 border-slate-100 text-slate-300 pointer-events-none' :
                       matchingSelections.left === p.id ? 'bg-indigo-50 border-indigo-500 text-indigo-700 scale-105 shadow-md' :
                       'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
                     } ${feedback ? 'pointer-events-none' : ''}`}
                   >
-                    <div className="flex flex-col items-center gap-2 w-full">
-                      {(p.left_image || p.image_url) && (
-                        <img src={p.left_image || p.image_url} alt="Match" className="w-full h-24 object-cover rounded-xl mb-1" />
-                      )}
-                      <div className="flex items-center justify-between w-full">
-                        <span className="truncate">{p.left || p.word}</span>
-                        {p.left || p.word ? <PronunciationButton text={p.left || p.word} size="sm" className="opacity-0 group-hover/left:opacity-100 transition-opacity" /> : null}
-                      </div>
-                    </div>
+                    <span>{p.left || p.word}</span>
+                    <PronunciationButton text={p.left || p.word} className="opacity-0 group-hover/left:opacity-100 transition-opacity" />
                   </div>
                 ))}
               </div>
@@ -1874,32 +1096,22 @@ export default function PremiumCourseSession({
 
       case 'listening_image_mc':
         return (
-          <div className="space-y-4">
-            {/* Prompt/Question - Always at the top */}
-            {interaction.prompt_es && (
-              <div className="bg-indigo-50/50 p-4 rounded-2xl border-2 border-indigo-100 mb-2 relative group">
-                <PronunciationButton text={interaction.prompt_es} size="sm" className="absolute right-2 top-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                <h2 className="text-lg md:text-xl font-black text-indigo-900 leading-tight text-center">
-                  {interaction.prompt_es}
-                </h2>
-              </div>
-            )}
-
-            <div className="flex flex-col items-center gap-2">
+          <div className="space-y-6">
+            <div className="flex flex-col items-center gap-4">
               {interaction.image_url && (
                 <img 
                   src={interaction.image_url} 
                   alt="Context for listening" 
-                  className="max-w-full h-auto rounded-xl shadow-md max-h-[150px] object-cover"
+                  className="max-w-full h-auto rounded-lg shadow-md max-h-[300px]"
                 />
               )}
               {interaction.audioUrl && (
-                <audio controls className="w-full max-w-md h-10">
+                <audio controls className="w-full max-w-md">
                   <source src={interaction.audioUrl} type="audio/mpeg" />
                 </audio>
               )}
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 mt-4">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
               {interaction.options?.map((opt: any) => (
                 <div
                   key={opt.id}
@@ -1912,7 +1124,7 @@ export default function PremiumCourseSession({
                       if (!isInteractionDisabled) setSelectedOption(opt.id);
                     }
                   }}
-                  className={`p-3 rounded-xl border-2 transition-all text-center font-medium flex items-center justify-center gap-2 group/opt cursor-pointer ${
+                  className={`p-4 rounded-xl border-2 transition-all text-center font-medium flex items-center justify-center gap-2 group/opt cursor-pointer ${
                     selectedOption === opt.id
                       ? isCorrect === true
                         ? 'border-green-500 bg-green-50 text-green-700'
@@ -1922,9 +1134,9 @@ export default function PremiumCourseSession({
                       : 'border-gray-200 hover:border-blue-300 hover:bg-blue-50'
                   } ${isInteractionDisabled ? 'pointer-events-none opacity-80' : ''}`}
                 >
-                  <span className="text-base">{opt.text}</span>
+                  {opt.text}
                   {isLikelyEnglish(opt.text) && (
-                    <PronunciationButton text={opt.text} size="sm" className="opacity-0 group-hover/opt:opacity-100 transition-opacity" />
+                    <PronunciationButton text={opt.text} className="opacity-0 group-hover/opt:opacity-100 transition-opacity" />
                   )}
                 </div>
               ))}
@@ -2008,32 +1220,25 @@ export default function PremiumCourseSession({
       case 'reorder_words':
         const solutionText = getSolutionText(interaction);
         return (
-          <div className="w-full max-w-2xl mx-auto space-y-4">
-            {/* Prompt/Question - Always at the top */}
-            {interaction.prompt_es && (
-              <div className="bg-indigo-50/50 p-4 rounded-2xl border-2 border-indigo-100 mb-2 relative group">
-                <PronunciationButton text={interaction.prompt_es} size="sm" className="absolute right-2 top-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                <h2 className="text-lg md:text-xl font-black text-indigo-900 leading-tight text-center">
-                  {interaction.prompt_es}
-                </h2>
-              </div>
-            )}
-
-            <div className="min-h-[100px] border-b-2 border-slate-100 py-4 flex flex-wrap gap-2 items-center justify-center bg-slate-50/50 rounded-2xl px-4">
+          <div className="w-full max-w-2xl mx-auto space-y-12">
+            <div className="flex items-center justify-center gap-4">
+              <h2 className="text-3xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
+              <PronunciationButton text={solutionText} size="md" />
+            </div>
+            <div className="min-h-[140px] border-b-4 border-slate-100 py-6 flex flex-wrap gap-3 items-center justify-center bg-slate-50/50 rounded-3xl px-6">
               {selectedWords.map((word) => (
                 <motion.button
                   layoutId={word.id}
                   key={`selected-${word.id}`}
                   onClick={() => setSelectedWords(prev => prev.filter(w => w.id !== word.id))}
                   disabled={!!feedback}
-                  className="p-2 px-4 bg-white border-2 border-slate-200 border-b-4 rounded-xl font-bold text-lg text-slate-700 shadow-sm active:translate-y-0.5"
+                  className="p-4 px-6 bg-white border-2 border-slate-200 border-b-4 rounded-2xl font-bold text-xl text-slate-700 shadow-sm active:translate-y-0.5"
                 >
                   {word.text}
                 </motion.button>
               ))}
             </div>
-
-            <div className="flex flex-wrap gap-2 justify-center pt-4">
+            <div className="flex flex-wrap gap-3 justify-center pt-8">
               {shuffledOptions.map((opt: any) => {
                 const isSelected = selectedWords.find(sw => sw.id === opt.id);
                 return (
@@ -2050,7 +1255,7 @@ export default function PremiumCourseSession({
                           if (!feedback && !isSelected) setSelectedWords(prev => [...prev, opt]);
                         }
                       }}
-                      className={`p-2 px-4 border-2 border-b-4 rounded-xl font-bold text-lg transition-all cursor-pointer ${
+                      className={`p-4 px-6 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all cursor-pointer ${
                         isSelected ? 'bg-slate-100 border-transparent text-transparent opacity-30 cursor-default pointer-events-none' : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50 active:translate-y-0.5 shadow-sm'
                       } ${feedback ? 'pointer-events-none' : ''}`}
                     >
@@ -2063,40 +1268,6 @@ export default function PremiumCourseSession({
                 );
               })}
             </div>
-
-            {interaction.translation && (
-              <div className="mt-4 p-4 bg-amber-50 rounded-2xl border-2 border-amber-100 text-center">
-                <p className="text-amber-800 font-bold text-lg italic flex items-center justify-center gap-2">
-                  <span className="text-amber-400 font-black">ES:</span>
-                  &quot;{interaction.translation}&quot;
-                </p>
-              </div>
-            )}
-
-            {interaction.hint && (
-              <div className="flex justify-center">
-                <button
-                  onClick={() => setShowHint(!showHint)}
-                  className="flex items-center gap-2 text-slate-400 hover:text-indigo-600 font-bold transition-colors"
-                >
-                  <Lightbulb className={`w-5 h-5 ${showHint ? 'fill-amber-400 text-amber-400' : ''}`} />
-                  {showHint ? 'Ocultar pista' : 'Ver pista'}
-                </button>
-              </div>
-            )}
-
-            <AnimatePresence>
-              {showHint && interaction.hint && (
-                <motion.div
-                  initial={{ height: 0, opacity: 0 }}
-                  animate={{ height: 'auto', opacity: 1 }}
-                  exit={{ height: 0, opacity: 0 }}
-                  className="bg-slate-50 p-6 rounded-2xl border-2 border-slate-100 text-slate-600 italic text-center overflow-hidden"
-                >
-                  {interaction.hint}
-                </motion.div>
-              )}
-            </AnimatePresence>
           </div>
         );
 
@@ -2109,25 +1280,12 @@ export default function PremiumCourseSession({
                 {interaction.instructions || "Encuentra todas las palabras ocultas"}
               </p>
             </div>
-            {interaction.words ? (
-              <WordSearchExercise 
-                words={interaction.words} 
-                gridSize={interaction.gridSize || 10} 
-                clues={interaction.clues}
-                onComplete={() => handleCheckAnswer(true)} 
-              />
-            ) : (
-              <div className="p-12 text-center bg-orange-50 rounded-3xl border-2 border-orange-100">
-                <p className="text-orange-600 font-bold text-xl mb-4">¡Reto especial!</p>
-                <p className="text-slate-600 mb-8">Esta actividad se está preparando. Puedes continuar con la siguiente.</p>
-                <Button 
-                  onClick={() => handleCheckAnswer(true)}
-                  className="bg-orange-600 hover:bg-orange-700 text-white font-black px-12 py-4 rounded-2xl border-b-4 border-orange-800 active:translate-y-1 transition-all"
-                >
-                  CONTINUAR
-                </Button>
-              </div>
-            )}
+            <WordSearchExercise 
+              words={interaction.words} 
+              gridSize={interaction.gridSize || 10} 
+              clues={interaction.clues}
+              onComplete={() => handleCheckAnswer(true)} 
+            />
           </div>
         );
 
@@ -2140,23 +1298,10 @@ export default function PremiumCourseSession({
                 {interaction.instructions || "Completa el crucigrama usando las pistas"}
               </p>
             </div>
-            {interaction.items ? (
-              <CrosswordExercise 
-                items={interaction.items} 
-                onComplete={() => handleCheckAnswer(true)} 
-              />
-            ) : (
-              <div className="p-12 text-center bg-blue-50 rounded-3xl border-2 border-blue-100">
-                <p className="text-blue-600 font-bold text-xl mb-4">¡Reto especial!</p>
-                <p className="text-slate-600 mb-8">Esta actividad se está preparando. Puedes continuar con la siguiente.</p>
-                <Button 
-                  onClick={() => handleCheckAnswer(true)}
-                  className="bg-blue-600 hover:bg-blue-700 text-white font-black px-12 py-4 rounded-2xl border-b-4 border-blue-800 active:translate-y-1 transition-all"
-                >
-                  CONTINUAR
-                </Button>
-              </div>
-            )}
+            <CrosswordExercise 
+              items={interaction.items} 
+              onComplete={() => handleCheckAnswer(true)} 
+            />
           </div>
         );
 
@@ -2212,8 +1357,8 @@ export default function PremiumCourseSession({
 
       case 'gapped_text':
       case 'multiple_choice_cloze':
-        const parts = (interaction.main_text || "").split(/(\[GAP \d+\])/g);
-        const fullTextForTTS = (interaction.main_text || "").replace(/\[GAP \d+\]/g, '...');
+        const parts = interaction.main_text.split(/(\[GAP \d+\])/g);
+        const fullTextForTTS = interaction.main_text.replace(/\[GAP \d+\]/g, '...');
         return (
           <div className="space-y-6">
             <div className="p-6 bg-white border rounded-xl leading-relaxed text-gray-800 shadow-sm whitespace-pre-wrap relative group">
@@ -2304,21 +1449,14 @@ export default function PremiumCourseSession({
                         } else setMatchingSelections(newSelections);
                       }
                     }}
-                    className={`w-full p-4 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all flex items-center justify-between group/left cursor-pointer ${
-                      matchingPairs[p.id] ? 'bg-slate-50 border-slate-100 text-slate-300 pointer-events-none opacity-50' :
+                    className={`w-full p-5 border-2 border-b-4 rounded-2xl font-bold text-xl transition-all flex items-center justify-between group/left cursor-pointer ${
+                      matchingPairs[p.id] ? 'bg-slate-50 border-slate-100 text-slate-300 pointer-events-none' :
                       matchingSelections.left === p.id ? 'bg-indigo-50 border-indigo-500 text-indigo-700 scale-105 shadow-md' :
                       'bg-white border-slate-200 text-slate-700 hover:bg-slate-50'
                     } ${feedback ? 'pointer-events-none' : ''}`}
                   >
-                    <div className="flex flex-col items-center gap-2 w-full">
-                      {(p.left_image || p.image_url) && (
-                        <img src={p.left_image || p.image_url} alt="Match" className="w-full h-24 object-cover rounded-xl mb-1" />
-                      )}
-                      <div className="flex items-center justify-between w-full">
-                        <span className="truncate">{p.left}</span>
-                        {p.left ? <PronunciationButton text={p.left} size="sm" className="opacity-0 group-hover/left:opacity-100 transition-opacity" /> : null}
-                      </div>
-                    </div>
+                    <span>{p.left}</span>
+                    <PronunciationButton text={p.left} className="opacity-0 group-hover/left:opacity-100 transition-opacity" />
                   </div>
                 ))}
               </div>
@@ -2362,46 +1500,20 @@ export default function PremiumCourseSession({
         );
 
       case 'multiple_choice':
-      case 'multiple-choice':
-      case 'speaking-analysis':
       case 'odd_one_out':
       case 'role_play':
         return (
-          <div className="w-full max-w-2xl mx-auto space-y-6">
-            {/* Prompt/Question - Always at the top for clarity and space saving */}
-            {interaction.prompt_es && (
-              <div className="bg-indigo-50/50 p-4 rounded-2xl border-2 border-indigo-100 mb-4 relative group">
-                <PronunciationButton text={interaction.prompt_es} size="sm" className="absolute right-2 top-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                <h2 className="text-lg md:text-xl font-black text-indigo-900 leading-tight text-center">
-                  {interaction.prompt_es}
-                </h2>
-              </div>
-            )}
-            
-            {interaction.image_url && (
-              <motion.div 
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                className="flex justify-center mb-4"
-              >
-                <img 
-                  src={interaction.image_url} 
-                  alt="Context" 
-                  className="max-w-full h-auto rounded-2xl shadow-lg border-2 border-white max-h-[200px] object-cover"
-                />
-              </motion.div>
-            )}
-
+          <div className="w-full max-w-2xl mx-auto space-y-8">
+            <h2 className="text-2xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
             {interaction.stimulus_en && (
-               <div className="bg-slate-50 p-4 rounded-2xl border-2 border-slate-100 text-center mb-4 max-h-[40vh] overflow-y-auto relative group scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent">
-                  <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-3 top-3 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <p className="text-base md:text-lg font-bold text-slate-700 leading-relaxed whitespace-pre-line text-left">
+               <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 text-center mb-8 max-h-[40vh] overflow-y-auto relative group">
+                  <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <p className="text-2xl font-bold text-slate-700 leading-relaxed whitespace-pre-line">
                     {interaction.stimulus_en}
                   </p>
                </div>
             )}
-
-            <div className="grid gap-2">
+            <div className="grid gap-4">
               {interaction.options?.map((opt: any) => (
                 <div
                   key={opt.id}
@@ -2414,22 +1526,9 @@ export default function PremiumCourseSession({
                       if (!feedback) setSelectedOption(opt.id);
                     }
                   }}
-                  className={`w-full p-4 text-left border-2 border-b-4 rounded-3xl font-bold text-lg transition-all flex items-center justify-between group/opt cursor-pointer ${
+                  className={`w-full p-6 text-left border-2 border-b-4 rounded-3xl font-bold text-xl transition-all flex items-center justify-between group/opt cursor-pointer ${
                     feedback 
-                      ? (() => {
-                          const correctText = String(interaction.correct_answer || interaction.correctAnswer || "");
-                          const possibleAnswers = correctText.split(/[\\/]+/).map(a => normalizeForComparison(a)).filter(Boolean);
-                          const normalizedOptId = normalizeForComparison(String(opt.id));
-                          const normalizedOptText = normalizeForComparison(String(opt.text));
-                          
-                          if (possibleAnswers.includes(normalizedOptId) || possibleAnswers.includes(normalizedOptText)) {
-                            return 'border-green-500 bg-green-50 text-green-700';
-                          }
-                          if (selectedOption === opt.id) {
-                            return 'border-red-500 bg-red-50 text-red-700';
-                          }
-                          return 'border-slate-100 bg-white text-slate-300';
-                        })()
+                      ? opt.id === interaction.correct_answer ? 'border-green-500 bg-green-50 text-green-700' : 'border-slate-100 bg-white text-slate-300'
                       : selectedOption === opt.id 
                         ? 'border-indigo-500 bg-indigo-50 text-indigo-700 active:translate-y-1'
                         : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50 active:translate-y-1'
@@ -2441,13 +1540,7 @@ export default function PremiumCourseSession({
                       <PronunciationButton text={opt.text} className="opacity-0 group-hover/opt:opacity-100 transition-opacity" />
                     )}
                   </span>
-                  {feedback && (() => {
-                    const correctText = String(interaction.correct_answer || interaction.correctAnswer || "");
-                    const possibleAnswers = correctText.split(/[\\/]+/).map(a => normalizeForComparison(a)).filter(Boolean);
-                    const normalizedOptId = normalizeForComparison(String(opt.id));
-                    const normalizedOptText = normalizeForComparison(String(opt.text));
-                    return possibleAnswers.includes(normalizedOptId) || possibleAnswers.includes(normalizedOptText);
-                  })() && <CheckCircle2 className="w-6 h-6" />}
+                  {feedback && opt.id === interaction.correct_answer && <CheckCircle2 className="w-6 h-6" />}
                 </div>
               ))}
             </div>
@@ -2463,109 +1556,47 @@ export default function PremiumCourseSession({
         const isSolutionInPrompt = interaction.prompt_es && interaction.correct_answer && 
                                    interaction.prompt_es.toLowerCase().trim() === interaction.correct_answer.toLowerCase().trim();
         
-        // Use multiple choice style if options exist, but show the blank in the stimulus
-        if (interaction.options && interaction.options.length > 0) {
-          const stim = interaction.stimulus_en || "";
-          const gaps = (stim.match(/_{2,}/g) || []).length || 1;
-
+        // Fallback for transformation exercises that are actually multiple choice
+        if (!hasBlank && interaction.options && interaction.options.length > 0) {
           return (
-            <div className="w-full max-w-2xl mx-auto space-y-4">
-              {/* Prompt/Question - Always at the top */}
-              {interaction.prompt_es && (
-                <div className="bg-indigo-50/50 p-4 rounded-2xl border-2 border-indigo-100 mb-2 relative group">
-                  <PronunciationButton text={interaction.prompt_es} size="sm" className="absolute right-2 top-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <h2 className="text-lg md:text-xl font-black text-indigo-900 leading-tight text-center">
-                    {interaction.prompt_es}
-                  </h2>
+            <div className="w-full max-w-2xl mx-auto space-y-8">
+              <h2 className="text-2xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
+              {interaction.stimulus_en && (
+                <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 text-center mb-8 relative group">
+                  <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <p className="text-2xl font-bold text-slate-700 leading-relaxed whitespace-pre-line">
+                    {interaction.stimulus_en}
+                  </p>
                 </div>
               )}
-              
-              {interaction.image_url && (
-                <div className="flex justify-center mb-2">
-                  <img src={interaction.image_url} alt="Exercise" className="max-w-full h-auto rounded-2xl shadow-lg border-2 border-white max-h-[180px] object-cover" />
-                </div>
-              )}
-
-              <div className="bg-slate-50 p-4 rounded-2xl border-2 border-slate-200 shadow-inner text-center relative group">
-                <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-3 top-3 opacity-0 group-hover:opacity-100 transition-opacity" />
-                <div className="text-lg md:text-xl font-bold text-slate-700 flex flex-wrap justify-center items-center gap-x-2 gap-y-3">
-                  {(interaction.stimulus_en || "").split(/_{2,}/).map((part: string, i: number, arr: any[]) => (
-                    <React.Fragment key={i}>
-                      <span>{part}</span>
-                      {i < arr.length - 1 && (
-                        <div 
-                          role="button"
-                          tabIndex={0}
-                          onClick={() => !feedback && setActiveGapIndex(i)}
-                          className={`relative inline-block min-w-[80px] px-2 py-1 border-b-4 transition-all cursor-pointer ${
-                            activeGapIndex === i ? 'border-indigo-500 bg-indigo-50/50' : 'border-slate-300'
-                          } ${inputValues[i] ? 'text-indigo-600' : 'text-slate-200'}`}
-                        >
-                          {inputValues[i] ? (
-                            interaction.options.find((o: any) => o.id === inputValues[i])?.text || inputValues[i]
-                          ) : (
-                            <span>...</span>
-                          )}
-                        </div>
-                      )}
-                    </React.Fragment>
-                  ))}
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                {(interaction.options || []).map((opt: any) => (
+              <div className="grid gap-4">
+                {interaction.options.map((opt: any) => (
                   <div
                     key={opt.id}
                     role="button"
                     tabIndex={0}
-                    onClick={() => {
-                      if (!feedback) {
-                        setInputValues(prev => ({ ...prev, [activeGapIndex]: opt.id }));
-                        // If there are more gaps, auto-advance to the next empty one
-                        if (gaps > 1) {
-                          const nextEmpty = Array.from({length: gaps}).findIndex((_, idx) => !inputValues[idx] && idx !== activeGapIndex);
-                          if (nextEmpty !== -1) setActiveGapIndex(nextEmpty);
-                        }
-                      }
-                    }}
+                    onClick={() => !feedback && setSelectedOption(opt.id)}
                     onKeyDown={(e) => {
                       if (e.key === 'Enter' || e.key === ' ') {
                         e.preventDefault();
-                        if (!feedback) {
-                          setInputValues(prev => ({ ...prev, [activeGapIndex]: opt.id }));
-                          if (gaps > 1) {
-                            const nextEmpty = Array.from({length: gaps}).findIndex((_, idx) => !inputValues[idx] && idx !== activeGapIndex);
-                            if (nextEmpty !== -1) setActiveGapIndex(nextEmpty);
-                          }
-                        }
+                        if (!feedback) setSelectedOption(opt.id);
                       }
                     }}
-                    className={`w-full p-3 text-center border-2 border-b-4 rounded-2xl font-bold text-lg transition-all cursor-pointer ${
+                    className={`w-full p-6 text-left border-2 border-b-4 rounded-3xl font-bold text-xl transition-all flex items-center justify-between group/opt cursor-pointer ${
                       feedback 
-                        ? (() => {
-                            const isSelectedInAnyGap = Object.values(inputValues).includes(opt.id);
-                            const isSelectedInActiveGap = inputValues[activeGapIndex] === opt.id;
-                            
-                            const correctText = String(interaction.correct_answer || interaction.correctAnswer || "");
-                            const possibleAnswers = correctText.split(/[\\/]+/).map(a => normalizeForComparison(a)).filter(Boolean);
-                            const normalizedOptId = normalizeForComparison(String(opt.id));
-                            const normalizedOptText = normalizeForComparison(String(opt.text));
-                            const isThisOptionCorrect = possibleAnswers.includes(normalizedOptId) || 
-                                                       possibleAnswers.includes(normalizedOptText);
-                            
-                            if (isThisOptionCorrect) return 'border-green-500 bg-green-50 text-green-700';
-                            if (isSelectedInActiveGap) return 'border-red-500 bg-red-50 text-red-700';
-                            return 'border-slate-100 bg-white text-slate-300';
-                          })()
-                        : Object.values(inputValues).includes(opt.id)
-                          ? inputValues[activeGapIndex] === opt.id
-                            ? 'border-indigo-500 bg-indigo-50 text-indigo-700 active:translate-y-1'
-                            : 'border-indigo-200 bg-indigo-50/30 text-indigo-400'
+                        ? opt.id === interaction.correct_answer ? 'border-green-500 bg-green-50 text-green-700' : 'border-slate-100 bg-white text-slate-300'
+                        : selectedOption === opt.id 
+                          ? 'border-indigo-500 bg-indigo-50 text-indigo-700 active:translate-y-1'
                           : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50 active:translate-y-1'
                     } ${feedback ? 'pointer-events-none' : ''}`}
                   >
-                    {opt.text}
+                    <span className="flex items-center gap-3">
+                      {opt.text}
+                      {isLikelyEnglish(opt.text) && (
+                        <PronunciationButton text={opt.text} className="opacity-0 group-hover/opt:opacity-100 transition-opacity" />
+                      )}
+                    </span>
+                    {feedback && opt.id === interaction.correct_answer && <CheckCircle2 className="w-6 h-6" />}
                   </div>
                 ))}
               </div>
@@ -2574,27 +1605,14 @@ export default function PremiumCourseSession({
         }
 
         return (
-          <div className="w-full max-w-2xl mx-auto space-y-4">
-            {/* Prompt/Question - Always at the top */}
-            {interaction.prompt_es && (
-              <div className="bg-indigo-50/50 p-4 rounded-2xl border-2 border-indigo-100 mb-2 relative group">
-                <PronunciationButton text={interaction.prompt_es} size="sm" className="absolute right-2 top-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                <h2 className="text-lg md:text-xl font-black text-indigo-900 leading-tight text-center">
-                  {isSolutionInPrompt ? "Completa el espacio:" : interaction.prompt_es}
-                </h2>
-              </div>
-            )}
-
-            {interaction.image_url && (
-              <div className="flex justify-center mb-2">
-                <img src={interaction.image_url} alt="Exercise" className="max-w-full h-auto rounded-2xl shadow-lg border-2 border-white max-h-[180px] object-cover" />
-              </div>
-            )}
-
-            <div className="bg-slate-50 p-4 rounded-2xl border-2 border-slate-200 shadow-inner text-center relative group">
-               <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-3 top-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+          <div className="w-full max-w-2xl mx-auto space-y-8">
+            <h2 className="text-2xl font-black text-slate-800 text-center">
+              {isSolutionInPrompt ? "Completa el espacio:" : interaction.prompt_es}
+            </h2>
+            <div className="bg-slate-50 p-10 rounded-[3rem] border-4 border-slate-200 shadow-inner text-center relative group">
+               <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-6 top-6 opacity-0 group-hover:opacity-100 transition-opacity" />
                {hasBlank ? (
-                 <div className="text-lg md:text-xl font-bold text-slate-700 flex flex-wrap justify-center items-center gap-x-2 gap-y-3">
+                 <div className="text-2xl font-bold text-slate-700 flex flex-wrap justify-center items-center gap-x-4 gap-y-8">
                    {(interaction.stimulus_en || "").split(/_{2,}/).map((part: string, i: number, arr: any[]) => (
                      <React.Fragment key={i}>
                        <span>{part}</span>
@@ -2604,7 +1622,7 @@ export default function PremiumCourseSession({
                            autoFocus={i === 0}
                            value={inputValues[i] || ""}
                            disabled={!!feedback}
-                           className="w-32 p-1 border-b-4 border-indigo-500 bg-transparent text-center focus:outline-none placeholder:text-slate-200 font-bold"
+                           className="w-48 p-2 border-b-8 border-indigo-500 bg-transparent text-center focus:outline-none placeholder:text-slate-200"
                            placeholder="..."
                            onChange={(e) => setInputValues(prev => ({ ...prev, [i]: e.target.value }))}
                            onKeyDown={(e) => { 
@@ -2625,14 +1643,14 @@ export default function PremiumCourseSession({
                    ))}
                  </div>
                ) : (
-                 <div className="space-y-3">
-                    <p className="text-xl font-bold text-slate-700">{interaction.stimulus_en || interaction.text}</p>
+                 <div className="space-y-8">
+                    <p className="text-3xl font-bold text-slate-700">{interaction.stimulus_en || interaction.text}</p>
                     <input 
                       type="text" 
                       autoFocus
                       value={inputValues[0] || ""}
                       disabled={!!feedback}
-                      className="w-full p-2 text-xl font-black border-b-4 border-indigo-500 bg-transparent text-center focus:outline-none placeholder:text-slate-200"
+                      className="w-full p-6 text-2xl font-black border-b-8 border-indigo-500 bg-transparent text-center focus:outline-none placeholder:text-slate-200"
                       placeholder="Escribe aquí..."
                       onChange={(e) => setInputValues(prev => ({ ...prev, 0: e.target.value }))}
                       onKeyDown={(e) => { if (e.key === 'Enter' && (inputValues[0]?.trim().length || 0) > 0) handleCheckAnswer(inputValues[0] || ""); }}
@@ -2735,28 +1753,13 @@ export default function PremiumCourseSession({
 
       case 'true_false':
         return (
-          <div className="w-full max-w-xl mx-auto space-y-4">
-            <div className="space-y-4 text-center">
-              {/* Prompt/Question - Always at the top */}
-              {interaction.prompt_es && (
-                <div className="bg-indigo-50/50 p-4 rounded-2xl border-2 border-indigo-100 mb-2 relative group">
-                  <PronunciationButton text={interaction.prompt_es} size="sm" className="absolute right-2 top-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <h2 className="text-lg md:text-xl font-black text-indigo-900 leading-tight">
-                    {interaction.prompt_es}
-                  </h2>
-                </div>
-              )}
-              
-              {interaction.image_url && (
-                <div className="flex justify-center mb-2">
-                  <img src={interaction.image_url} alt="Exercise" className="max-w-full h-auto rounded-2xl shadow-lg border-2 border-white max-h-[150px] object-cover" />
-                </div>
-              )}
-
+          <div className="w-full max-w-xl mx-auto space-y-12">
+            <div className="space-y-6 text-center">
+              <h2 className="text-2xl font-black text-slate-800 leading-tight">{interaction.prompt_es}</h2>
               {interaction.stimulus_en && (
-                <div className="bg-slate-50 p-4 rounded-2xl border-2 border-slate-100 max-h-[30vh] overflow-y-auto scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent relative group">
-                  <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-3 top-3 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <p className="text-base md:text-lg font-bold text-slate-700 leading-relaxed text-left">
+                <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 max-h-[40vh] overflow-y-auto relative group">
+                  <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <p className="text-2xl font-bold text-slate-700 leading-relaxed">
                     {interaction.stimulus_en}
                   </p>
                 </div>
@@ -2765,38 +1768,38 @@ export default function PremiumCourseSession({
 
             {/* Show correction if wrong order */}
             {feedback && interaction.correct_answer === false && interaction.correct_order && (
-              <div className="bg-indigo-50 p-4 rounded-2xl border-2 border-indigo-100 text-center animate-in fade-in slide-in-from-bottom-2 duration-500">
-                <p className="text-indigo-400 font-bold text-sm uppercase tracking-widest mb-1">Orden Correcto:</p>
-                <p className="text-indigo-900 font-black text-lg italic leading-tight">
+              <div className="bg-indigo-50 p-6 rounded-2xl border-2 border-indigo-100 text-center animate-in fade-in slide-in-from-bottom-2 duration-500">
+                <p className="text-indigo-400 font-bold text-sm uppercase tracking-widest mb-2">Orden Correcto:</p>
+                <p className="text-indigo-900 font-black text-xl italic leading-relaxed">
                   &quot;{interaction.correct_order}&quot;
                 </p>
               </div>
             )}
 
-            <div className="grid grid-cols-1 gap-2">
+            <div className="grid grid-cols-1 gap-6">
               <button 
                 onClick={() => setSelectedOption(true)}
                 disabled={!!feedback}
-                className={`p-4 border-2 border-b-[4px] rounded-[1.2rem] font-black text-xl transition-all flex items-center justify-between px-8 ${
+                className={`p-10 border-2 border-b-[10px] rounded-[2rem] font-black text-3xl transition-all flex items-center justify-between px-12 ${
                   feedback ? (interaction.correct_answer === true ? 'bg-green-100 border-green-500 text-green-700' : 'bg-slate-50 border-slate-100 text-slate-200') 
-                  : selectedOption === true ? 'bg-indigo-50 border-indigo-500 text-indigo-700 active:translate-y-1'
-                  : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300 active:translate-y-1'
+                  : selectedOption === true ? 'bg-indigo-50 border-indigo-500 text-indigo-700 active:translate-y-2'
+                  : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300 active:translate-y-2'
                 }`}
               >
                 VERDADERO
-                {feedback && interaction.correct_answer === true && <CheckCircle2 className="w-6 h-6" />}
+                {feedback && interaction.correct_answer === true && <CheckCircle2 className="w-10 h-10" />}
               </button>
               <button 
                 onClick={() => setSelectedOption(false)}
                 disabled={!!feedback}
-                className={`p-4 border-2 border-b-[4px] rounded-[1.2rem] font-black text-xl transition-all flex items-center justify-between px-8 ${
+                className={`p-10 border-2 border-b-[10px] rounded-[2rem] font-black text-3xl transition-all flex items-center justify-between px-12 ${
                   feedback ? (interaction.correct_answer === false ? 'bg-green-100 border-green-500 text-green-700' : 'bg-slate-50 border-slate-100 text-slate-200') 
-                  : selectedOption === false ? 'bg-indigo-50 border-indigo-500 text-indigo-700 active:translate-y-1'
-                  : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300 active:translate-y-1'
+                  : selectedOption === false ? 'bg-indigo-50 border-indigo-500 text-indigo-700 active:translate-y-2'
+                  : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50 hover:border-slate-300 active:translate-y-2'
                 }`}
               >
                 FALSO
-                {feedback && interaction.correct_answer === false && <CheckCircle2 className="w-6 h-6" />}
+                {feedback && interaction.correct_answer === false && <CheckCircle2 className="w-10 h-10" />}
               </button>
             </div>
           </div>
@@ -2805,46 +1808,31 @@ export default function PremiumCourseSession({
       case 'short_writing':
       case 'dictation_guided':
         return (
-          <div className="w-full max-w-2xl mx-auto space-y-4">
+          <div className="w-full max-w-2xl mx-auto space-y-12">
              <div className="space-y-4">
-                {/* Prompt/Question - Always at the top */}
-                {interaction.prompt_es && (
-                  <div className="bg-indigo-50/50 p-4 rounded-2xl border-2 border-indigo-100 mb-2 relative group">
-                    <PronunciationButton text={interaction.prompt_es} size="sm" className="absolute right-2 top-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                    <h2 className="text-lg md:text-xl font-black text-indigo-900 leading-tight text-center">
-                      {interaction.prompt_es}
-                    </h2>
-                  </div>
-                )}
-                
-                {interaction.image_url && (
-                  <div className="flex justify-center mb-2">
-                    <img src={interaction.image_url} alt="Exercise" className="max-w-full h-auto rounded-2xl shadow-lg border-2 border-white max-h-[150px] object-cover" />
-                  </div>
-                )}
-
+                <h2 className="text-2xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
                 {interaction.stimulus_es && (
-                   <p className="text-center text-indigo-600 font-black text-xl mb-2">
+                   <p className="text-center text-indigo-600 font-black text-3xl mb-8">
                      &quot;{interaction.stimulus_es}&quot;
                    </p>
                 )}
                 {interaction.example && (
-                   <p className="text-center text-slate-400 font-bold text-base italic">
+                   <p className="text-center text-slate-400 font-bold text-lg italic">
                      Ejemplo: &quot;{interaction.example}&quot;
                    </p>
                 )}
              </div>
-             <div className="bg-slate-50 p-4 rounded-2xl border-2 border-slate-200 shadow-inner">
-                <div className="space-y-4 text-center">
+             <div className="bg-slate-50 p-10 rounded-[3rem] border-4 border-slate-200 shadow-inner">
+                <div className="space-y-8 text-center">
                   {interaction.type === 'dictation_guided' && (
                     <div className="flex justify-center">
                       <Button
                         variant="outline"
                         size="lg"
-                        className="h-16 w-16 rounded-full border-4 border-indigo-200"
+                        className="h-20 w-20 rounded-full border-4 border-indigo-200"
                         onClick={() => playAudio(interaction.audioUrl, interaction.tts_en || interaction.stimulus_en)}
                       >
-                        <Volume2 className="w-8 h-8 text-indigo-600" />
+                        <Volume2 className="w-10 h-10 text-indigo-600" />
                       </Button>
                     </div>
                   )}
@@ -2853,7 +1841,7 @@ export default function PremiumCourseSession({
                     value={inputValues[0] || ""}
                     autoFocus
                     disabled={!!feedback}
-                    className="w-full p-4 text-xl font-black border-b-4 border-indigo-500 bg-transparent text-center focus:outline-none placeholder:text-slate-200"
+                    className="w-full p-6 text-2xl font-black border-b-8 border-indigo-500 bg-transparent text-center focus:outline-none placeholder:text-slate-200"
                     placeholder="Escribe aquí..."
                     onChange={(e) => setInputValues(prev => ({ ...prev, 0: e.target.value }))}
                     onKeyDown={(e) => { 
@@ -2864,6 +1852,62 @@ export default function PremiumCourseSession({
                   />
                 </div>
              </div>
+          </div>
+        );
+
+      case 'listening_dictation':
+        const template = interaction.transcript_template || interaction.transcriptTemplate || "";
+        const blanks = (template.match(/___/g) || []).length;
+        const parts = template.split('___');
+        
+        return (
+          <div className="w-full max-w-2xl mx-auto space-y-8">
+            <div className="bg-orange-50 p-8 rounded-3xl border-2 border-orange-100">
+              <h3 className="text-2xl font-black text-slate-800 text-center mb-6">{interaction.prompt_es}</h3>
+              
+              <div className="flex justify-center mb-6">
+                <button
+                  onClick={() => playAudio(interaction.audio_url || interaction.audioUrl)}
+                  className="bg-orange-600 text-white px-8 py-4 rounded-2xl font-black text-lg hover:bg-orange-700 transition-all shadow-lg flex items-center gap-3 active:scale-95"
+                >
+                  <Volume2 className="w-6 h-6" />
+                  Reproducir Audio
+                </button>
+              </div>
+              
+              <div className="bg-white p-6 rounded-2xl border-2 border-orange-200">
+                <div className="text-xl leading-relaxed flex flex-wrap items-center justify-center gap-2">
+                  {parts.map((part: string, idx: number) => (
+                    <React.Fragment key={idx}>
+                      {part && <span className="text-slate-700">{part}</span>}
+                      {idx < parts.length - 1 && (
+                        <input
+                          type="text"
+                          value={inputValues[idx] || ""}
+                          disabled={!!feedback}
+                          className={`border-2 rounded-lg px-3 py-2 min-w-[120px] text-center font-bold ${
+                            feedback
+                              ? (inputValues[idx] || "").toLowerCase().trim() === (interaction.correct_answer || "").toLowerCase().trim()
+                                ? "border-green-500 bg-green-50 text-green-700"
+                                : "border-red-500 bg-red-50 text-red-700"
+                              : "border-orange-300 focus:border-orange-500 focus:outline-none"
+                          }`}
+                          placeholder="..."
+                          onChange={(e) => setInputValues(prev => ({ ...prev, [idx]: e.target.value }))}
+                        />
+                      )}
+                    </React.Fragment>
+                  ))}
+                </div>
+              </div>
+              
+              {feedback && feedback.correct === false && (
+                <div className="mt-4 p-4 bg-amber-50 rounded-xl border border-amber-200">
+                  <p className="text-sm font-bold text-amber-800 mb-1">Respuesta correcta:</p>
+                  <p className="text-lg text-amber-700">{interaction.correct_answer}</p>
+                </div>
+              )}
+            </div>
           </div>
         );
 
@@ -2924,71 +1968,7 @@ export default function PremiumCourseSession({
       );
     }
 
-    const scene = video.scenes?.[currentSceneIndex];
-    if (!scene) {
-      return (
-        <div className="text-center p-12 bg-slate-50 rounded-[3rem] border-4 border-dashed border-slate-200">
-          <h3 className="text-2xl font-black text-slate-400 uppercase tracking-widest">Escena no encontrada</h3>
-          <p className="text-slate-400 mt-2 font-bold">La escena {currentSceneIndex + 1} del video no está disponible.</p>
-          <Button 
-            className="mt-6 bg-indigo-600 text-white font-black px-8 py-4 rounded-xl"
-            onClick={() => {
-              if (currentSceneIndex < video.scenes?.length - 1) {
-                setCurrentSceneIndex(prev => prev + 1);
-              } else {
-                setShowInteraction(true);
-              }
-            }}
-          >
-            SALTAR ESCENA
-          </Button>
-        </div>
-      );
-    }
-
-    if (video.is_vertical) {
-      return (
-        <div className="w-full max-w-sm mx-auto h-[70vh] relative bg-black rounded-[3rem] overflow-hidden shadow-2xl border-8 border-slate-900 flex flex-col">
-          {/* Background Visual Description (Fallback for real video) */}
-          <div className="absolute inset-0 bg-gradient-to-b from-slate-800 to-black flex items-center justify-center p-8 text-center">
-            <p className="text-slate-500 font-bold italic text-sm">
-              [Visual: {scene.visual_description || scene.narration_es}]
-            </p>
-          </div>
-
-          {/* Subtitles (Large as per guide) */}
-          <div className="absolute bottom-32 left-0 right-0 p-8 text-center z-20">
-            <motion.h3 
-              key={scene.scene_id}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="text-white text-3xl font-black tracking-tight leading-tight drop-shadow-lg"
-            >
-              {scene.dialogue_en}
-            </motion.h3>
-          </div>
-
-          {/* Interaction Cues / Controls */}
-          <div className="absolute inset-0 flex items-center justify-center z-10">
-             <motion.button 
-               whileHover={{ scale: 1.1 }}
-               whileTap={{ scale: 0.9 }}
-               onClick={() => playAudio(scene.audioUrl, scene.tts_en || scene.dialogue_en)}
-               className="w-24 h-24 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center shadow-2xl border border-white/30 group"
-             >
-               <Play className="w-12 h-12 text-white fill-white ml-1" />
-             </motion.button>
-          </div>
-
-          <div className="absolute top-8 left-0 right-0 flex justify-center z-20">
-             <div className="bg-black/50 backdrop-blur-md px-4 py-1 rounded-full border border-white/20">
-                <span className="text-white/70 font-black text-[10px] uppercase tracking-widest">Escena {currentSceneIndex + 1} / {video.length || video.scenes.length}</span>
-             </div>
-          </div>
-        </div>
-      );
-    }
-
+    const scene = video.scenes[currentSceneIndex];
     return (
       <div className="w-full max-w-4xl mx-auto space-y-12 px-4">
         <div className="bg-white border-4 border-slate-100 rounded-[3rem] p-8 md:p-12 flex flex-col items-center gap-10 shadow-2xl shadow-slate-200/50">
@@ -3002,13 +1982,15 @@ export default function PremiumCourseSession({
               </p>
            </div>
            
-           <motion.button 
-             onClick={() => { playAudio(scene.audioUrl, scene.tts_en || scene.dialogue_en); }}
-             className="w-48 h-48 bg-indigo-600 rounded-[2.5rem] flex items-center justify-center cursor-pointer shadow-2xl shadow-indigo-200 group relative active:scale-95 hover:scale-105 transition-transform"
+           <motion.div 
+             whileHover={{ scale: 1.05 }}
+             whileActive={{ scale: 0.95 }}
+             onClick={() => playAudio(scene.audioUrl, scene.tts_en || scene.dialogue_en)}
+             className="w-48 h-48 bg-indigo-600 rounded-[2.5rem] flex items-center justify-center cursor-pointer shadow-2xl shadow-indigo-200 group relative"
            >
              <div className="absolute inset-0 bg-indigo-400 rounded-[2.5rem] animate-ping opacity-20 group-hover:opacity-40 transition-opacity" />
              <Play className="w-24 h-24 text-white fill-white ml-2 relative z-10" />
-           </motion.button>
+           </motion.div>
 
            <div className="space-y-6 text-center">
               <h3 className="text-slate-800 text-3xl md:text-5xl font-black tracking-tight leading-tight whitespace-pre-line">
@@ -3074,23 +2056,29 @@ export default function PremiumCourseSession({
 
   return (
     <div className="fixed inset-0 bg-white z-50 flex flex-col overflow-y-auto">
-      <header className="max-w-5xl mx-auto w-full px-6 py-3 md:py-4 flex items-center gap-6">
+      <header className="max-w-5xl mx-auto w-full px-6 py-8 md:py-12 flex items-center gap-6">
         <button onClick={onExit} className="p-3 text-slate-300 hover:text-slate-600 transition-colors">
           <X className="w-8 h-8" />
         </button>
-        <div className="flex-1 h-4 bg-slate-100 rounded-full overflow-hidden shadow-inner relative">
-          <motion.div 
-            className="h-full bg-indigo-500 shadow-[0_0_20px_rgba(99,102,241,0.5)] relative"
-            initial={{ width: 0 }}
-            animate={{ width: `${progress}%` }}
-          >
+        <div className="flex-1 space-y-2">
+          <div className="h-4 bg-slate-100 rounded-full overflow-hidden shadow-inner relative">
             <motion.div 
-              className="absolute inset-0 bg-white/30"
-              animate={{ x: ["-100%", "100%"] }}
-              transition={{ repeat: Infinity, duration: 2, ease: "linear" }}
-              style={{ width: '30%' }}
-            />
-          </motion.div>
+              className="h-full bg-indigo-500 shadow-[0_0_20px_rgba(99,102,241,0.5)] relative"
+              initial={{ width: 0 }}
+              animate={{ width: `${progress}%` }}
+            >
+              <motion.div 
+                className="absolute inset-0 bg-white/30"
+                animate={{ x: ["-100%", "100%"] }}
+                transition={{ repeat: Infinity, duration: 2, ease: "linear" }}
+                style={{ width: '30%' }}
+              />
+            </motion.div>
+          </div>
+          <div className="flex items-center justify-between text-xs">
+            <span className="font-bold text-slate-500">{currentIndex + 1} / {queue.length} ejercicios</span>
+            <span className="font-black text-indigo-600">{Math.round(progress)}%</span>
+          </div>
         </div>
         <div className="bg-orange-100 px-4 py-2 rounded-2xl flex items-center gap-2">
           <Star className="w-5 h-5 text-orange-500 fill-orange-500" />
@@ -3098,35 +2086,15 @@ export default function PremiumCourseSession({
         </div>
       </header>
 
-      <main className="flex-1 flex flex-col items-center py-2 md:py-3 overflow-y-auto bg-slate-50/30">
+      <main className="flex-1 flex flex-col items-center py-4 md:py-8 overflow-y-auto bg-slate-50/30">
         <AnimatePresence mode="wait">
           <motion.div
             key={`${currentIndex}-${interactionIndex}-${isRepairing}-${showInteraction}-${currentSceneIndex}`}
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -50 }}
-            className="w-full max-w-5xl mx-auto px-6 flex flex-col justify-start md:justify-center min-h-[50vh]"
+            className="w-full max-w-5xl mx-auto px-6 flex flex-col justify-start md:justify-center min-h-[60vh]"
           >
-            {currentItem?.main_instructions && 
-             !["Lesson Exercises", "Exercise", "Unit Exercise", "Práctica", "Actividad"].includes(currentItem.main_instructions) && 
-             (() => {
-                const clean = (t: string) => t.toLowerCase().replace(/[.:!¡¿?]/g, '').trim();
-                const instr = clean(currentItem.main_instructions);
-                const prompt = clean(currentItem.prompt_es || "");
-                return instr !== prompt && !instr.includes(prompt.substring(0, 30)) && !prompt.includes(instr.substring(0, 30));
-             })() && (
-               <div className="mb-8 bg-white/80 backdrop-blur-sm p-6 rounded-3xl border-2 border-indigo-100 shadow-sm max-w-2xl mx-auto w-full">
-                  <div className="flex items-center gap-3 mb-2">
-                    <div className="bg-indigo-100 p-2 rounded-xl">
-                      <Sparkles className="w-5 h-5 text-indigo-600" />
-                    </div>
-                    <span className="text-xs font-black text-indigo-400 uppercase tracking-widest">Instrucciones</span>
-                  </div>
-                  <p className="text-lg font-bold text-slate-700 leading-tight">
-                    {currentItem.main_instructions}
-                  </p>
-               </div>
-            )}
             {currentItem?.type === 'transition' 
               ? renderTransition(currentItem) 
               : (isVideoMode ? renderVideoScene(currentItem.video) : renderInteraction(currentItem))
@@ -3148,7 +2116,7 @@ export default function PremiumCourseSession({
                 feedback.correct ? 'bg-[#d7ffb8] border-[#a5db5e]' : 'bg-[#ffdfe0] border-[#ee9b9e]'
               }`}
             >
-              <div className="max-w-4xl mx-auto px-6 py-2 md:py-3 flex flex-col md:flex-row items-center justify-between gap-4">
+              <div className="max-w-4xl mx-auto px-6 py-4 md:py-6 flex flex-col md:flex-row items-center justify-between gap-4">
                 <div className="flex items-center gap-4">
                   <div className={`w-12 h-12 rounded-full flex items-center justify-center shadow-lg ${
                     feedback.correct ? 'bg-white text-green-500' : 'bg-white text-red-500'
@@ -3175,68 +2143,6 @@ export default function PremiumCourseSession({
                         </p>
                       </motion.div>
                     )}
-                    {interaction.explanation && (
-                      <motion.div 
-                        initial={{ opacity: 0, height: 0 }}
-                        animate={{ opacity: 1, height: "auto" }}
-                        className={`mt-2 flex items-start gap-2 bg-white/50 p-3 rounded-xl border ${
-                          feedback.correct ? 'border-[#a5db5e]/50' : 'border-[#ee9b9e]/50'
-                        }`}
-                      >
-                        <Sparkles className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
-                        <div className="text-sm font-bold text-slate-700">
-                          <span className={`${feedback.correct ? 'text-[#4b7e02]' : 'text-[#ea2b2b]'} uppercase text-[10px] tracking-wider block mb-0.5`}>
-                            Explicación:
-                          </span>
-                          <p className="whitespace-pre-line leading-relaxed">{interaction.explanation}</p>
-                        </div>
-                      </motion.div>
-                    )}
-
-                    {/* AI Dynamic Explanation */}
-                    {!interaction.explanation && (
-                      <div className="mt-2">
-                        {aiExplanation ? (
-                          <motion.div 
-                            initial={{ opacity: 0, height: 0 }}
-                            animate={{ opacity: 1, height: "auto" }}
-                            className={`flex items-start gap-2 bg-white/50 p-3 rounded-xl border ${
-                              feedback.correct ? 'border-[#a5db5e]/50' : 'border-[#ee9b9e]/50'
-                            }`}
-                          >
-                            <Sparkles className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
-                            <div className="text-sm font-bold text-slate-700">
-                              <span className={`${feedback.correct ? 'text-[#4b7e02]' : 'text-[#ea2b2b]'} uppercase text-[10px] tracking-wider block mb-0.5`}>
-                                Explicación IA:
-                              </span>
-                              <p className="whitespace-pre-line leading-relaxed">{aiExplanation}</p>
-                            </div>
-                          </motion.div>
-                        ) : (
-                          <button
-                            onClick={handleRequestAIExplanation}
-                            disabled={isExplaining}
-                            className={`flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-black transition-all border-b-2 active:translate-y-0.5 ${
-                              feedback.correct 
-                                ? 'bg-[#58cc02] text-white border-[#4b7e02] hover:bg-[#46a302]' 
-                                : 'bg-[#ff4b4b] text-white border-[#ea2b2b] hover:bg-[#d33131]'
-                            } disabled:opacity-50`}
-                          >
-                            {isExplaining ? (
-                              <>
-                                <Loader2 className="w-3 h-3 animate-spin" />
-                                GENERANDO...
-                              </>
-                            ) : (
-                              <>
-                                <Sparkles className="w-3 h-3" />
-                                ¿POR QUÉ ES ASÍ? (IA)
-                              </>
-                            )}
-                          </button>
-                        )}
-                      </div>
-                    )}
                   </div>
                 </div>
                 <Button 
@@ -3253,7 +2159,7 @@ export default function PremiumCourseSession({
         })()}
       </AnimatePresence>
 
-      <footer className={`p-2 md:p-3 border-t-2 border-slate-100 bg-white ${feedback || currentItem?.type === 'transition' ? 'hidden' : ''}`}>
+      <footer className={`p-4 md:p-6 border-t-2 border-slate-100 bg-white ${feedback || currentItem?.type === 'transition' ? 'hidden' : ''}`}>
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row justify-between gap-4">
           <Button 
             variant="outline" 
@@ -3282,9 +2188,10 @@ export default function PremiumCourseSession({
                 }
                 if (['transformation', 'fill_blanks', 'fill_blank', 'fill-blank'].includes(interaction.type)) {
                   const stim = interaction.stimulus_en || "";
-                  const gaps = (stim.match(/_{2,}/g) || []).length || 1;
+                  const gaps = stim.match(/_{2,}/g) || [];
+                  const exp = gaps.length || 1;
                   const filledCount = Object.values(inputValues).filter(v => v && v.toString().trim().length > 0).length;
-                  return filledCount < gaps;
+                  return filledCount < exp;
                 }
                 if (interaction.type === 'categorization') {
                   const items = interaction.categories?.flatMap((cat: any) => cat.items) || [];
@@ -3309,25 +2216,16 @@ export default function PremiumCourseSession({
                 else if (['gapped_text', 'multiple_choice_cloze'].includes(interaction.type)) handleCheckAnswer(inputValues);
                 else if (['transformation', 'fill_blanks', 'fill_blank', 'fill-blank'].includes(interaction.type)) {
                   const stim = interaction.stimulus_en || "";
-                  const gaps = (stim.match(/_{2,}/g) || []).length || 1;
+                  const gaps = stim.match(/_{2,}/g) || [];
+                  const exp = gaps.length || 1;
                   const answers = [];
-                  
-                  if (interaction.options && interaction.options.length > 0) {
-                    for (let j = 0; j < gaps; j++) {
-                      const optId = inputValues[j];
-                      const opt = interaction.options.find((o: any) => o.id === optId);
-                      answers.push(opt ? opt.text : (optId || ""));
-                    }
-                  } else {
-                    for (let j = 0; j < gaps; j++) answers.push(inputValues[j] || "");
-                  }
-                  
+                  for (let j = 0; j < exp; j++) answers.push(inputValues[j] || "");
                   handleCheckAnswer(answers.join(' ').trim());
                 }
-                else if (['short_writing', 'dictation_guided', 'writing_task', 'mini_dictation'].includes(interaction.type)) {
+                else if (['short_writing', 'dictation_guided', 'writing_task'].includes(interaction.type)) {
                    handleCheckAnswer(inputValues[0] || "");
                 }
-                else if (['multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'reading-comprehension', 'writing-analysis', 'touch_word_audio', 'branching_dialogue', 'chat_simulation', 'ar_lite', 'spot_the_difference'].includes(interaction.type)) {
+                else if (['multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
                   if (selectedOption !== null) handleCheckAnswer(selectedOption);
                 }
                 else if (interaction.type === 'ai-mission') {
@@ -3340,7 +2238,7 @@ export default function PremiumCourseSession({
                 const interaction = isVideoMode ? currentItem.video.interactions[interactionIndex] : currentItem;
                 if (!interaction) return 'SIGUIENTE';
                 if (interaction.type === 'ai-mission') return 'COMPLETAR MISIÓN';
-                return ['reorder_words', 'matching', 'multiple_matching', 'short_writing', 'transformation', 'fill_blanks', 'fill_blank', 'fill-blank', 'categorization', 'dictation_guided', 'multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'gapped_text', 'multiple_choice_cloze', 'writing_task', 'reading-comprehension', 'writing-analysis', 'vocabulary-match', 'mini_dictation', 'touch_word_audio', 'branching_dialogue', 'chat_simulation', 'voice_note', 'ar_lite', 'spot_the_difference'].includes(interaction.type) ? 'COMPROBAR' : 'SIGUIENTE';
+                return ['reorder_words', 'matching', 'multiple_matching', 'short_writing', 'transformation', 'fill_blanks', 'fill_blank', 'fill-blank', 'categorization', 'dictation_guided', 'multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'gapped_text', 'multiple_choice_cloze', 'writing_task', 'reading-comprehension', 'writing-analysis', 'vocabulary-match'].includes(interaction.type) ? 'COMPROBAR' : 'SIGUIENTE';
               })()}
             </Button>
           )}
