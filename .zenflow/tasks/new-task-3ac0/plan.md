@@ -137,20 +137,21 @@ npm test -- streak
 
 ---
 
-### [ ] Phase 2: Multimedia - Audio Generation Infrastructure
+### [x] Phase 2: Multimedia - Audio Generation Infrastructure
+<!-- chat-id: d759b668-cfd9-4316-ba21-bf051a7f0cdc -->
 
 **Objective**: Generate 150+ audio files for listening exercises  
 **Duration**: 2 weeks  
 **Files**: `generate-course-audio.ts`, Supabase Storage
 
 #### Tasks:
-- [ ] Configure Google Cloud TTS and ElevenLabs API credentials
-- [ ] Extend `scripts/generate-course-audio.ts` for A1 batch generation
-- [ ] Define voice profiles: Sarah (female), John (male), Narrator (neutral)
-- [ ] Generate audio for Units 1-30 (5 audios per unit = 150 files)
-- [ ] Upload generated audio files to `/public/audio/a1/` or Supabase Storage
-- [ ] Verify audio quality and pronunciation with manual review
-- [ ] Create cost tracking: log characters used per TTS provider
+- [x] Configure Google Cloud TTS and ElevenLabs API credentials
+- [x] Extend `scripts/generate-course-audio.ts` for A1 batch generation
+- [x] Define voice profiles: Sarah (female), John (male), Narrator (neutral)
+- [x] Generate audio for Units 1-30 (5 audios per unit = 150 files)
+- [x] Upload generated audio files to `/public/audio/a1/` or Supabase Storage
+- [x] Verify audio quality and pronunciation with manual review
+- [x] Create cost tracking: log characters used per TTS provider
 
 **Verification**:
 ```bash
