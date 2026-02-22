@@ -10,12 +10,17 @@
   "blocks": [
     {
       "block_id": "B16",
-      "title": "Ordering at the Cafe",
+      "title": "Lunch at the Cafe",
+      "scenario": {
+        "setting": "Cafe during lunch break",
+        "characters": ["Sarah", "Waiter"],
+        "objective": "Order food and drinks politely"
+      },
       "content": [
         {
           "interaction_id": "U16_I1",
           "type": "matching",
-          "prompt_es": "Une cada bebida con su traducción:",
+          "prompt_es": "Sarah mira el menú de bebidas. Une cada palabra:",
           "pairs": [
             {
               "id": "p1",

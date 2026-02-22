@@ -10,12 +10,17 @@
   "blocks": [
     {
       "block_id": "B1",
-      "title": "People and Roles",
+      "title": "At the Coffee Shop",
+      "scenario": {
+        "setting": "Coffee shop near the school",
+        "characters": ["Sarah", "John", "Barista"],
+        "objective": "Order a coffee and have a simple conversation"
+      },
       "content": [
         {
           "interaction_id": "U2_I1",
           "type": "matching",
-          "prompt_es": "Une la palabra con su traducción:",
+          "prompt_es": "Sarah y John hablan sobre las personas en la cafetería. Une las palabras:",
           "pairs": [
             { "id": "p1", "left": "Student", "right": "Estudiante" },
             { "id": "p2", "left": "Teacher", "right": "Profesor/a" },
@@ -48,7 +53,7 @@
         {
           "interaction_id": "U2_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Él es un profesor'",
+          "prompt_es": "Sarah señala a alguien en la cafetería. ¿Cómo se dice en inglés?",
           "stimulus_es": "Él es un profesor",
           "correct_answer": "He is a teacher",
           "mastery_tag": "vocabulary"
@@ -99,7 +104,12 @@
     },
     {
       "block_id": "B2",
-      "title": "Feelings and States",
+      "title": "Getting to Know Each Other",
+      "scenario": {
+        "setting": "Coffee shop - continuing conversation",
+        "characters": ["Sarah", "John"],
+        "objective": "Talk about feelings and daily life"
+      },
       "content": [
         {
           "interaction_id": "U2_I9",
@@ -117,7 +127,7 @@
         {
           "interaction_id": "U2_I10",
           "type": "transformation",
-          "prompt_es": "Completa la pregunta:",
+          "prompt_es": "John pregunta a Sarah sobre cómo se siente. Completa:",
           "stimulus_en": "________ you tired today?",
           "correct_answer": "Are",
           "mastery_tag": "grammar"
@@ -187,7 +197,12 @@
     },
     {
       "block_id": "B3",
-      "title": "Welcome and Greetings",
+      "title": "Making Friends",
+      "scenario": {
+        "setting": "Coffee shop - Sarah meets John's friends",
+        "characters": ["Sarah", "John", "Emma", "Mike"],
+        "objective": "Welcome new people and practice greetings"
+      },
       "content": [
         {
           "interaction_id": "U2_I17",
@@ -205,7 +220,7 @@
         {
           "interaction_id": "U2_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo saludas a alguien que acabas de conocer?",
+          "prompt_es": "Emma llega a la cafetería. ¿Qué dice Sarah al conocerla?",
           "options": [
             { "id": "o1", "text": "Nice to meet you" },
             { "id": "o2", "text": "Goodnight" },

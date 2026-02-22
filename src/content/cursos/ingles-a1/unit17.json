@@ -10,7 +10,12 @@
   "blocks": [
     {
       "block_id": "B17",
-      "title": "Meals and Food",
+      "title": "Discussing Meal Preferences",
+      "scenario": {
+        "setting": "Lunch break - talking about food preferences",
+        "characters": ["Sarah", "John"],
+        "objective": "Talk about favorite meals and eating habits"
+      },
       "content": [
         {
           "interaction_id": "U17_I1",
@@ -40,7 +45,7 @@
         {
           "interaction_id": "U17_I3",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Como una manzana'",
+          "prompt_es": "Sarah cuenta lo que come de snack. ¿Cómo se dice?",
           "stimulus_es": "Como una manzana",
           "correct_answer": "I eat an apple",
           "mastery_tag": "syntax"

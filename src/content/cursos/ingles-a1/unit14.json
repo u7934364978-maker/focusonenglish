@@ -10,7 +10,12 @@
   "blocks": [
     {
       "block_id": "B14",
-      "title": "Present Simple: I, You, We, They",
+      "title": "Hobbies and Free Time",
+      "scenario": {
+        "setting": "Coffee shop - discussing hobbies and interests",
+        "characters": ["Sarah", "John", "Emma"],
+        "objective": "Talk about what you and your friends do for fun"
+      },
       "content": [
         {
           "interaction_id": "U14_I1",

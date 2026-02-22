@@ -10,7 +10,12 @@
   "blocks": [
     {
       "block_id": "B11",
-      "title": "Telling the Time",
+      "title": "Planning a Meetup",
+      "scenario": {
+        "setting": "Phone conversation - arranging to meet",
+        "characters": ["Sarah", "John"],
+        "objective": "Tell the time and arrange meeting times"
+      },
       "content": [
         {
           "interaction_id": "U11_I1",

@@ -10,7 +10,12 @@
   "blocks": [
     {
       "block_id": "B15",
-      "title": "The 3rd Person Singular Rule",
+      "title": "Talking About Friends",
+      "scenario": {
+        "setting": "Describing friends' habits and routines",
+        "characters": ["Sarah", "John", "Emma (being discussed)"],
+        "objective": "Describe what other people do using he/she/it"
+      },
       "content": [
         {
           "interaction_id": "U15_I1",
@@ -40,7 +45,7 @@
         {
           "interaction_id": "U15_I3",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Él trabaja en una oficina'",
+          "prompt_es": "Sarah habla sobre John. ¿Cómo se dice en inglés?",
           "stimulus_es": "Él trabaja en una oficina",
           "correct_answer": "He works in an office",
           "mastery_tag": "syntax"

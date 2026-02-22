@@ -10,7 +10,12 @@
   "blocks": [
     {
       "block_id": "B19",
-      "title": "Places and Locations",
+      "title": "Tour of Sarah's City",
+      "scenario": {
+        "setting": "Walking tour - Sarah shows John around town",
+        "characters": ["Sarah", "John"],
+        "objective": "Describe places and locations in the city"
+      },
       "content": [
         {
           "interaction_id": "U19_I1",
@@ -40,7 +45,7 @@
         {
           "interaction_id": "U19_I3",
           "type": "short_writing",
-          "prompt_es": "Traduce: '¿Dónde está el banco?'",
+          "prompt_es": "John pregunta a Sarah sobre un lugar. ¿Cómo se dice?",
           "stimulus_es": "¿Dónde está el banco?",
           "correct_answer": "Where is the bank?",
           "mastery_tag": "syntax"

@@ -10,7 +10,12 @@
   "blocks": [
     {
       "block_id": "B1",
-      "title": "The Alphabet",
+      "title": "Exchanging Contact Information",
+      "scenario": {
+        "setting": "After class - exchanging email addresses",
+        "characters": ["Sarah", "John"],
+        "objective": "Spell names and email addresses clearly"
+      },
       "content": [
         {
           "interaction_id": "U4_I1",
@@ -48,7 +53,7 @@
         {
           "interaction_id": "U4_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Deletrea tu nombre'",
+          "prompt_es": "John le pide a Sarah algo importante. ¿Cómo se dice en inglés?",
           "stimulus_es": "Deletrea tu nombre",
           "correct_answer": "Spell your name",
           "mastery_tag": "vocabulary"

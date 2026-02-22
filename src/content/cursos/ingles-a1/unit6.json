@@ -10,7 +10,12 @@
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Immediate Family",
+      "title": "Sarah Shows Family Photos",
+      "scenario": {
+        "setting": "At Sarah's apartment - showing photos to John",
+        "characters": ["Sarah", "John"],
+        "objective": "Describe family members and relationships"
+      },
       "content": [
         {
           "interaction_id": "U6_I1",

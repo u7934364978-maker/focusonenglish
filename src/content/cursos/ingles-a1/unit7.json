@@ -10,7 +10,12 @@
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Basic Colors",
+      "title": "Art Class Project",
+      "scenario": {
+        "setting": "Art class at school - painting activity",
+        "characters": ["Sarah", "John", "Art teacher"],
+        "objective": "Describe colors and objects"
+      },
       "content": [
         {
           "interaction_id": "U7_I1",
@@ -28,7 +33,7 @@
         {
           "interaction_id": "U7_I2",
           "type": "transformation",
-          "prompt_es": "Completa con el color: 'The sky is ________'",
+          "prompt_es": "Sarah pinta el cielo. Completa con el color:",
           "stimulus_en": "The sky is ________.",
           "correct_answer": "blue",
           "mastery_tag": "vocabulary"

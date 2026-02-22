@@ -10,12 +10,17 @@
   "blocks": [
     {
       "block_id": "B9",
-      "title": "Jobs & Occupations",
+      "title": "Career Fair at School",
+      "scenario": {
+        "setting": "School career fair - learning about different professions",
+        "characters": ["Sarah", "John", "Various professionals"],
+        "objective": "Learn job vocabulary and talk about careers"
+      },
       "content": [
         {
           "interaction_id": "U9_I1",
           "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
+          "prompt_es": "Sarah y John caminan por la feria de profesiones. Une las palabras:",
           "pairs": [
             {
               "id": "p0",

@@ -10,12 +10,17 @@
   "blocks": [
     {
       "block_id": "B20",
-      "title": "Navigation and Directions",
+      "title": "Finding the Library",
+      "scenario": {
+        "setting": "Street - asking for directions to the library",
+        "characters": ["John", "Local person"],
+        "objective": "Ask for and give directions"
+      },
       "content": [
         {
           "interaction_id": "U20_I1",
           "type": "matching",
-          "prompt_es": "Une cada dirección con su traducción:",
+          "prompt_es": "Una persona local ayuda a John con direcciones. Une las palabras:",
           "pairs": [
             {
               "id": "p1",

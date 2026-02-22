@@ -10,7 +10,12 @@
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Numbers 1-10",
+      "title": "Shopping for School Supplies",
+      "scenario": {
+        "setting": "School supplies store",
+        "characters": ["Sarah", "Shop assistant"],
+        "objective": "Count items and ask about quantities"
+      },
       "content": [
         {
           "interaction_id": "U3_I1",
@@ -28,7 +33,7 @@
         {
           "interaction_id": "U3_I2",
           "type": "transformation",
-          "prompt_es": "Escribe el número en letras:",
+          "prompt_es": "Sarah cuenta sus bolígrafos. Completa:",
           "stimulus_en": "I have (3) ________ pens.",
           "correct_answer": "three",
           "mastery_tag": "grammar"
@@ -48,7 +53,7 @@
         {
           "interaction_id": "U3_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Nueve libros'",
+          "prompt_es": "Sarah quiere comprar libros. ¿Cómo se dice en inglés?",
           "stimulus_es": "Nueve libros",
           "correct_answer": "Nine books",
           "mastery_tag": "vocabulary"

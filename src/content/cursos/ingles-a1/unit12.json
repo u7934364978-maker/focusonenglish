@@ -10,7 +10,12 @@
   "blocks": [
     {
       "block_id": "B12",
-      "title": "Days of the Week",
+      "title": "Making Weekly Plans",
+      "scenario": {
+        "setting": "Planning the week ahead with friends",
+        "characters": ["Sarah", "John", "Emma"],
+        "objective": "Organize activities for different days"
+      },
       "content": [
         {
           "interaction_id": "U12_I1",

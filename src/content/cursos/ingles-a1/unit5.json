@@ -10,12 +10,17 @@
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Where are you from?",
+      "title": "International Student Orientation",
+      "scenario": {
+        "setting": "School orientation event for international students",
+        "characters": ["Sarah (from Spain)", "John (from UK)", "Maria (from Mexico)", "Chen (from China)"],
+        "objective": "Introduce yourself and talk about your country"
+      },
       "content": [
         {
           "interaction_id": "U5_I1",
           "type": "matching",
-          "prompt_es": "Asocia el país con su traducción:",
+          "prompt_es": "Los estudiantes presentan sus países. Une las palabras:",
           "pairs": [
             { "id": "p1", "left": "Spain", "right": "España" },
             { "id": "p2", "left": "Mexico", "right": "México" },
@@ -48,7 +53,7 @@
         {
           "interaction_id": "U5_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Soy de México'",
+          "prompt_es": "Maria se presenta en la orientación. ¿Cómo se dice en inglés?",
           "stimulus_es": "Soy de México",
           "correct_answer": "I am from Mexico",
           "mastery_tag": "vocabulary"

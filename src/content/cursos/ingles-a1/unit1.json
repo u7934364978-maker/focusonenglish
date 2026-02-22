@@ -10,12 +10,17 @@
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Hello! Introductions",
+      "title": "First Day at English School",
+      "scenario": {
+        "setting": "English language classroom on the first day",
+        "characters": ["Sarah (new student)", "John (classmate)", "Teacher"],
+        "objective": "Meet new classmates and introduce yourself"
+      },
       "content": [
         {
           "interaction_id": "U1_I1",
           "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
+          "prompt_es": "Sarah llega a clase por la mañana. Une los saludos que escucha:",
           "pairs": [
             { "id": "p0", "left": "Good afternoon", "right": "Buenas tardes" },
             { "id": "p1", "left": "Good morning", "right": "Buenos días" },
@@ -28,7 +33,7 @@
         {
           "interaction_id": "U1_I2",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Sarah se presenta. Completa su frase:",
           "stimulus_en": "I (ser/estar - yo) ________ from Spain.",
           "correct_answer": "am",
           "mastery_tag": "grammar"
@@ -56,7 +61,7 @@
         {
           "interaction_id": "U1_I5",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Sarah ve a la persona enseñando la clase. ¿Cuál es su profesión en inglés?",
           "stimulus_es": "Profesor/a",
           "correct_answer": "Teacher",
           "mastery_tag": "vocabulary"
@@ -89,7 +94,7 @@
         {
           "interaction_id": "U1_I8",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Sarah habla de John. Completa su frase:",
           "stimulus_en": "He (ser/estar - él) ________ my friend.",
           "correct_answer": "is",
           "mastery_tag": "grammar"
@@ -104,7 +109,7 @@
         {
           "interaction_id": "U1_I10",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "John se presenta a Sarah. Ordena las palabras:",
           "options": [
             { "id": "w0", "text": "My" },
             { "id": "w1", "text": "name" },
@@ -117,7 +122,7 @@
         {
           "interaction_id": "U1_I11",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "John responde cuando conoce a Sarah. ¿Cómo se dice en inglés?",
           "stimulus_es": "Encantado/a de conocerte",
           "correct_answer": "Pleased to meet you",
           "mastery_tag": "vocabulary"
@@ -150,7 +155,7 @@
         {
           "interaction_id": "U1_I14",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Sarah habla de sus compañeros de clase. Completa:",
           "stimulus_en": "They (ser/estar - ellos) ________ from Mexico.",
           "correct_answer": "are",
           "mastery_tag": "grammar"
@@ -165,7 +170,7 @@
         {
           "interaction_id": "U1_I16",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "John presenta a Sarah a otros compañeros. Ordena las palabras:",
           "options": [
             { "id": "w0", "text": "She" },
             { "id": "w1", "text": "is" },
@@ -179,7 +184,7 @@
         {
           "interaction_id": "U1_I17",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "La profesora pregunta a Sarah. ¿Cómo se dice en inglés?",
           "stimulus_es": "¿Cuál es tu nombre?",
           "correct_answer": "What is your name?",
           "mastery_tag": "vocabulary"
@@ -212,7 +217,7 @@
         {
           "interaction_id": "U1_I20",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "John le dice a Sarah. Completa la frase:",
           "stimulus_en": "You (ser/estar - tú) ________ very kind.",
           "correct_answer": "are",
           "mastery_tag": "grammar"
@@ -242,7 +247,7 @@
         {
           "interaction_id": "U1_I23",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "John pregunta a Sarah sobre su origen. ¿Cómo se dice en inglés?",
           "stimulus_es": "¿De dónde eres?",
           "correct_answer": "Where are you from?",
           "mastery_tag": "vocabulary"

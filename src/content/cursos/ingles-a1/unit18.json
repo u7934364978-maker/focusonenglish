@@ -10,12 +10,17 @@
   "blocks": [
     {
       "block_id": "B18",
-      "title": "Nutrition and Habits",
+      "title": "Grocery Shopping Trip",
+      "scenario": {
+        "setting": "Supermarket - shopping for healthy food",
+        "characters": ["Sarah", "John"],
+        "objective": "Buy healthy food and discuss nutrition"
+      },
       "content": [
         {
           "interaction_id": "U18_I1",
           "type": "matching",
-          "prompt_es": "Relaciona las frutas con su nombre en inglés:",
+          "prompt_es": "Sarah y John eligen frutas en el supermercado. Une las palabras:",
           "pairs": [
             {
               "id": "p1",

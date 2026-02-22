@@ -10,7 +10,12 @@
   "blocks": [
     {
       "block_id": "B8",
-      "title": "Numbers 20-100",
+      "title": "Shopping at the Market",
+      "scenario": {
+        "setting": "Local market - shopping for groceries",
+        "characters": ["Sarah", "Market vendor"],
+        "objective": "Use larger numbers for prices and quantities"
+      },
       "content": [
         {
           "interaction_id": "U8_I1",

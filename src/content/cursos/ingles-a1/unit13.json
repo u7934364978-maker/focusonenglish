@@ -10,7 +10,12 @@
   "blocks": [
     {
       "block_id": "B13",
-      "title": "Daily Routine",
+      "title": "Comparing Morning Routines",
+      "scenario": {
+        "setting": "Casual conversation about daily habits",
+        "characters": ["Sarah", "John"],
+        "objective": "Describe and compare morning routines"
+      },
       "content": [
         {
           "interaction_id": "U13_I1",
@@ -40,7 +45,7 @@
         {
           "interaction_id": "U13_I3",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Voy al trabajo'",
+          "prompt_es": "Sarah describe su rutina matutina. ¿Cómo se dice en inglés?",
           "stimulus_es": "Voy al trabajo",
           "correct_answer": "I go to work",
           "mastery_tag": "syntax"
