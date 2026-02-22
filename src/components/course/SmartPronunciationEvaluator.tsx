@@ -369,7 +369,7 @@ export default function SmartPronunciationEvaluator({
         foundKeywords: aiEvaluation.foundConcepts,
         missingKeywords: aiEvaluation.missingConcepts,
         offTopicWords: aiEvaluation.offTopicContent,
-        topicFeedback: aiEvaluation.detailedFeedback.split('\n\n')[0] // Primera parte del feedback
+        topicFeedback: (aiEvaluation.detailedFeedback || "").split('\n\n')[0] // Primera parte del feedback
       };
       
       // Progreso: Análisis de texto

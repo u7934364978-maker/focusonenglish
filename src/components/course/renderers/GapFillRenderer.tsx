@@ -33,6 +33,7 @@ export default function GapFillRenderer({
 
   const renderGaps = (text: string) => {
     // Support patterns like [1], (1), [gap1], ___
+    if (!text) return null;
     return text.split(/(\[\d+\]|\(\d+\)|\(\d+\)___+|___+)/).map((part, index) => {
       const gapMatch = part.match(/\[(\d+)\]/) || part.match(/\((\d+)\)/);
       if (gapMatch) {

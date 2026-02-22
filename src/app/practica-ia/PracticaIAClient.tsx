@@ -90,7 +90,7 @@ export default function PracticaIAPage() {
   useEffect(() => {
     if (isListening) {
       const lastMsg = transcript[transcript.length - 1];
-      if (lastMsg && lastMsg.role === 'user') {
+      if (lastMsg && lastMsg.role === 'user' && lastMsg.text) {
         const words = lastMsg.text.split(' ').length;
         setLiveFluency(Math.min(100, words * 5));
       }
