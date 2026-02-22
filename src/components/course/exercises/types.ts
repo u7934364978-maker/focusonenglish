@@ -14,7 +14,9 @@ export type ExerciseBase = {
     | "flashcard"
     | "drag-drop"
     | "grammar"
-    | "writingTask";
+    | "writingTask"
+    | "image_multiple_choice"
+    | "image_labeling";
   track?: "core" | "extension";
 };
 
@@ -163,6 +165,37 @@ export type WritingExercise = ExerciseBase & {
   aiGradingCriteria?: Record<string, number>;
 };
 
+export type ImageOption = {
+  id: string;
+  imageUrl: string;
+  label: string;
+};
+
+export type ImageMultipleChoiceExercise = ExerciseBase & {
+  type: "image_multiple_choice";
+  prompt: string;
+  options: ImageOption[];
+  answerIndex: number;
+  explanation?: string;
+};
+
+export type LabelPoint = {
+  id: string;
+  x: number;
+  y: number;
+  correctLabel: string;
+};
+
+export type ImageLabelingExercise = ExerciseBase & {
+  type: "image_labeling";
+  title: string;
+  instructions: string;
+  imageUrl: string;
+  labels: string[];
+  labelPoints: LabelPoint[];
+  explanation?: string;
+};
+
 export type ExerciseItem =
   | MultipleChoiceExercise
   | FillBlanksExercise
@@ -176,7 +209,9 @@ export type ExerciseItem =
   | CrosswordExercise
   | FlashcardExercise
   | DragDropExercise
-  | WritingExercise;
+  | WritingExercise
+  | ImageMultipleChoiceExercise
+  | ImageLabelingExercise;
 
 export type ExercisesFile = {
   goal: string;

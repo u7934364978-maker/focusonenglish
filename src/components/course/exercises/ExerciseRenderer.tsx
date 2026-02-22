@@ -12,7 +12,9 @@ import type {
   CrosswordExercise as CrosswordType,
   FlashcardExercise as FlashcardType,
   DragDropExercise as DragDropType,
-  WritingExercise as WritingType
+  WritingExercise as WritingType,
+  ImageMultipleChoiceExercise,
+  ImageLabelingExercise
 } from "./types";
 import { Headphones, BookOpen, Volume2, Info, Check, X, PenLine, Brain, Sparkles } from "lucide-react";
 import WordSearchExercise from "../../exercises/WordSearchExercise";
@@ -20,6 +22,8 @@ import CrosswordExercise from "../../exercises/CrosswordExercise";
 import FlashcardExercise from "../../exercises/FlashcardExercise";
 import DragDropExercise from "../../exercises/DragDropExercise";
 import DictationRenderer from "../renderers/DictationRenderer";
+import ImageMultipleChoiceRenderer from "../renderers/ImageMultipleChoiceRenderer";
+import ImageLabelingRenderer from "../renderers/ImageLabelingRenderer";
 
 export interface ExerciseRendererRef {
   check: () => boolean;
@@ -735,6 +739,28 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
           )}
         </div>
       </div>
+    );
+  }
+
+  if (ex.type === "image_multiple_choice") {
+    const imex = ex as ImageMultipleChoiceExercise;
+    return (
+      <ImageMultipleChoiceRenderer
+        exercise={imex}
+        onComplete={onResult}
+        showFeedback={layout === "default"}
+      />
+    );
+  }
+
+  if (ex.type === "image_labeling") {
+    const ilex = ex as ImageLabelingExercise;
+    return (
+      <ImageLabelingRenderer
+        exercise={ilex}
+        onComplete={onResult}
+        showFeedback={layout === "default"}
+      />
     );
   }
 

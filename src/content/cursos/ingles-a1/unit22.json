@@ -168,6 +168,55 @@
           "mastery_tag": "grammar"
         },
         {
+          "interaction_id": "U22_IMG1",
+          "type": "image_labeling",
+          "id": "U22_IMG1",
+          "title": "Label the Living Room",
+          "instructions": "Drag the correct labels to each item in the living room",
+          "imageUrl": "/images/a1/unit21-30/living-room.jpg",
+          "labels": [
+            "Sofa",
+            "Table",
+            "Lamp",
+            "TV",
+            "Curtains"
+          ],
+          "labelPoints": [
+            {
+              "id": "point1",
+              "x": 25,
+              "y": 60,
+              "correctLabel": "Sofa"
+            },
+            {
+              "id": "point2",
+              "x": 50,
+              "y": 75,
+              "correctLabel": "Table"
+            },
+            {
+              "id": "point3",
+              "x": 65,
+              "y": 50,
+              "correctLabel": "Lamp"
+            },
+            {
+              "id": "point4",
+              "x": 75,
+              "y": 35,
+              "correctLabel": "TV"
+            },
+            {
+              "id": "point5",
+              "x": 15,
+              "y": 20,
+              "correctLabel": "Curtains"
+            }
+          ],
+          "explanation": "These are common furniture items found in a living room.",
+          "mastery_tag": "vocabulary"
+        },
+        {
           "interaction_id": "U22_I9",
           "type": "true_false",
           "prompt_es": "¿Es correcta esta frase?: \"Have we a new fridge\"",

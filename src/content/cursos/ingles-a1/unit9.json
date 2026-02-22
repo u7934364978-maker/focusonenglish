@@ -100,24 +100,68 @@
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U9_I6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Piloto' en inglés?",
+          "interaction_id": "U9_IMG1",
+          "type": "image_multiple_choice",
+          "prompt_es": "¿Qué profesión se muestra en esta imagen?",
           "options": [
             {
-              "id": "o1",
-              "text": "Pilot"
+              "id": "img_opt1",
+              "imageUrl": "/images/a1/unit1-10/doctor.jpg",
+              "label": "Doctor"
             },
             {
-              "id": "o2",
-              "text": "Plane"
+              "id": "img_opt2",
+              "imageUrl": "/images/a1/unit1-10/teacher.jpg",
+              "label": "Teacher"
             },
             {
-              "id": "o3",
-              "text": "Airport"
+              "id": "img_opt3",
+              "imageUrl": "/images/a1/unit1-10/chef.jpg",
+              "label": "Chef"
+            },
+            {
+              "id": "img_opt4",
+              "imageUrl": "/images/a1/unit1-10/engineer.jpg",
+              "label": "Engineer"
             }
           ],
           "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "id": "U9_IMG1",
+          "prompt": "What profession is shown in this image?",
+          "answerIndex": 0,
+          "explanation": "A doctor works in a hospital and helps sick people."
+        },
+        {
+          "interaction_id": "U9_IMG1",
+          "type": "image_multiple_choice",
+          "id": "U9_IMG1",
+          "prompt": "What profession is shown in this image?",
+          "prompt_es": "¿Qué profesión se muestra en esta imagen?",
+          "options": [
+            {
+              "id": "img_opt1",
+              "imageUrl": "/images/a1/unit1-10/doctor.jpg",
+              "label": "Doctor"
+            },
+            {
+              "id": "img_opt2",
+              "imageUrl": "/images/a1/unit1-10/teacher.jpg",
+              "label": "Teacher"
+            },
+            {
+              "id": "img_opt3",
+              "imageUrl": "/images/a1/unit1-10/chef.jpg",
+              "label": "Chef"
+            },
+            {
+              "id": "img_opt4",
+              "imageUrl": "/images/a1/unit1-10/engineer.jpg",
+              "label": "Engineer"
+            }
+          ],
+          "answerIndex": 0,
+          "explanation": "A doctor works in a hospital and helps sick people.",
           "mastery_tag": "vocabulary"
         },
         {
