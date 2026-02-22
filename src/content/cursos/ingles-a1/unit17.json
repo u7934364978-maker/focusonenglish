@@ -13,21 +13,45 @@
       "title": "Discussing Meal Preferences",
       "scenario": {
         "setting": "Lunch break - talking about food preferences",
-        "characters": ["Sarah", "John"],
+        "characters": [
+          "Sarah",
+          "John"
+        ],
         "objective": "Talk about favorite meals and eating habits"
       },
       "content": [
         {
           "interaction_id": "U17_I1",
           "type": "matching",
-          "prompt_es": "Une cada comida con su traducción:",
+          "prompt_es": "Sarah hablando de comidas favoritas. Une las palabras:",
           "pairs": [
-            { "id": "p1", "left": "Breakfast", "right": "Desayuno" },
-            { "id": "p2", "left": "Lunch", "right": "Almuerzo/Comida" },
-            { "id": "p3", "left": "Dinner", "right": "Cena" },
-            { "id": "p4", "left": "Snack", "right": "Merienda/Tentempié" }
+            {
+              "id": "p1",
+              "left": "Breakfast",
+              "right": "Desayuno"
+            },
+            {
+              "id": "p2",
+              "left": "Lunch",
+              "right": "Almuerzo/Comida"
+            },
+            {
+              "id": "p3",
+              "left": "Dinner",
+              "right": "Cena"
+            },
+            {
+              "id": "p4",
+              "left": "Snack",
+              "right": "Merienda/Tentempié"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -35,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el alimento típico del desayuno?",
           "options": [
-            { "id": "o1", "text": "Cereal" },
-            { "id": "o2", "text": "Pizza" },
-            { "id": "o3", "text": "Steak" }
+            {
+              "id": "o1",
+              "text": "Cereal"
+            },
+            {
+              "id": "o2",
+              "text": "Pizza"
+            },
+            {
+              "id": "o3",
+              "text": "Steak"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -55,18 +88,39 @@
           "type": "matching",
           "prompt_es": "Alimentos básicos:",
           "pairs": [
-            { "id": "p1", "left": "Bread", "right": "Pan" },
-            { "id": "p2", "left": "Egg", "right": "Huevo" },
-            { "id": "p3", "left": "Rice", "right": "Arroz" },
-            { "id": "p4", "left": "Fish", "right": "Pescado" }
+            {
+              "id": "p1",
+              "left": "Bread",
+              "right": "Pan"
+            },
+            {
+              "id": "p2",
+              "left": "Egg",
+              "right": "Huevo"
+            },
+            {
+              "id": "p3",
+              "left": "Rice",
+              "right": "Arroz"
+            },
+            {
+              "id": "p4",
+              "left": "Fish",
+              "right": "Pescado"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U17_I5",
           "type": "transformation",
-          "prompt_es": "Completa con el verbo 'tener/tomar' para comidas:",
+          "prompt_es": "Sarah habla de. Completa:",
           "stimulus_en": "I ________ chicken for dinner.",
           "correct_answer": "have",
           "mastery_tag": "grammar"
@@ -74,13 +128,26 @@
         {
           "interaction_id": "U17_I6",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Bebo zumo de naranja'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "orange" },
-            { "id": "w2", "text": "juice" },
-            { "id": "w0", "text": "I drink" }
+            {
+              "id": "w1",
+              "text": "orange"
+            },
+            {
+              "id": "w2",
+              "text": "juice"
+            },
+            {
+              "id": "w0",
+              "text": "I drink"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -88,9 +155,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Vegetables'?",
           "options": [
-            { "id": "o1", "text": "Verduras" },
-            { "id": "o2", "text": "Frutas" },
-            { "id": "o3", "text": "Carne" }
+            {
+              "id": "o1",
+              "text": "Verduras"
+            },
+            {
+              "id": "o2",
+              "text": "Frutas"
+            },
+            {
+              "id": "o3",
+              "text": "Carne"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -105,7 +181,7 @@
         {
           "interaction_id": "U17_I9",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Pollo y arroz'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Pollo y arroz",
           "correct_answer": "Chicken and rice",
           "mastery_tag": "vocabulary"
@@ -113,7 +189,7 @@
         {
           "interaction_id": "U17_I10",
           "type": "transformation",
-          "prompt_es": "Completa: '________ you have breakfast?' (¿Desayunas?)",
+          "prompt_es": "Sarah habla de. Completa:",
           "stimulus_en": "Do ________?",
           "correct_answer": "you have breakfast",
           "mastery_tag": "phrases"
@@ -123,22 +199,52 @@
           "type": "matching",
           "prompt_es": "Ingredientes comunes:",
           "pairs": [
-            { "id": "p1", "left": "Cheese", "right": "Queso" },
-            { "id": "p2", "left": "Tomato", "right": "Tomate" },
-            { "id": "p3", "left": "Potato", "right": "Patata" },
-            { "id": "p4", "left": "Meat", "right": "Carne" }
+            {
+              "id": "p1",
+              "left": "Cheese",
+              "right": "Queso"
+            },
+            {
+              "id": "p2",
+              "left": "Tomato",
+              "right": "Tomate"
+            },
+            {
+              "id": "p3",
+              "left": "Potato",
+              "right": "Patata"
+            },
+            {
+              "id": "p4",
+              "left": "Meat",
+              "right": "Carne"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U17_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ensalada'?",
+          "prompt_es": "Sarah hablando de comidas favoritas. ¿Cómo se dice 'Ensalada'?",
           "options": [
-            { "id": "o1", "text": "Salad" },
-            { "id": "o2", "text": "Salt" },
-            { "id": "o3", "text": "Soup" }
+            {
+              "id": "o1",
+              "text": "Salad"
+            },
+            {
+              "id": "o2",
+              "text": "Salt"
+            },
+            {
+              "id": "o3",
+              "text": "Soup"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -146,15 +252,36 @@
         {
           "interaction_id": "U17_I13",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Cenamos a las ocho'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "have" },
-            { "id": "w2", "text": "dinner" },
-            { "id": "w3", "text": "at" },
-            { "id": "w4", "text": "8" },
-            { "id": "w0", "text": "We" }
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w2",
+              "text": "dinner"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w4",
+              "text": "8"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -167,7 +294,7 @@
         {
           "interaction_id": "U17_I15",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Pasta con tomate'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Pasta con tomate",
           "correct_answer": "Pasta with tomato",
           "mastery_tag": "syntax"
@@ -175,13 +302,29 @@
         {
           "interaction_id": "U17_I16",
           "type": "matching",
-          "prompt_es": "Relaciona:",
+          "prompt_es": "Sarah hablando de comidas favoritas. Une las palabras:",
           "pairs": [
-            { "id": "p1", "left": "Eat", "right": "Comer" },
-            { "id": "p2", "left": "Drink", "right": "Beber" },
-            { "id": "p3", "left": "Cook", "right": "Cocinar" }
+            {
+              "id": "p1",
+              "left": "Eat",
+              "right": "Comer"
+            },
+            {
+              "id": "p2",
+              "left": "Drink",
+              "right": "Beber"
+            },
+            {
+              "id": "p3",
+              "left": "Cook",
+              "right": "Cocinar"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -189,9 +332,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es una fruta?",
           "options": [
-            { "id": "o1", "text": "Banana" },
-            { "id": "o2", "text": "Carrot" },
-            { "id": "o3", "text": "Onion" }
+            {
+              "id": "o1",
+              "text": "Banana"
+            },
+            {
+              "id": "o2",
+              "text": "Carrot"
+            },
+            {
+              "id": "o3",
+              "text": "Onion"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -199,7 +351,7 @@
         {
           "interaction_id": "U17_I18",
           "type": "transformation",
-          "prompt_es": "Completa: 'Tomo ________ (té) para desayunar'",
+          "prompt_es": "Sarah habla de. Completa:",
           "stimulus_en": "I have ________ for breakfast.",
           "correct_answer": "tea",
           "mastery_tag": "vocabulary"
@@ -207,14 +359,31 @@
         {
           "interaction_id": "U17_I19",
           "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Qué comes tú?'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "do" },
-            { "id": "w2", "text": "you" },
-            { "id": "w3", "text": "eat?" },
-            { "id": "w0", "text": "What" }
+            {
+              "id": "w1",
+              "text": "do"
+            },
+            {
+              "id": "w2",
+              "text": "you"
+            },
+            {
+              "id": "w3",
+              "text": "eat?"
+            },
+            {
+              "id": "w0",
+              "text": "What"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -237,21 +406,46 @@
           "type": "matching",
           "prompt_es": "Combos comunes:",
           "pairs": [
-            { "id": "p1", "left": "Fish", "right": "Chips" },
-            { "id": "p2", "left": "Ham", "right": "Cheese" },
-            { "id": "p3", "left": "Bread", "right": "Butter" }
+            {
+              "id": "p1",
+              "left": "Fish",
+              "right": "Chips"
+            },
+            {
+              "id": "p2",
+              "left": "Ham",
+              "right": "Cheese"
+            },
+            {
+              "id": "p3",
+              "left": "Bread",
+              "right": "Butter"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U17_I23",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Huevo'?",
+          "prompt_es": "Sarah hablando de comidas favoritas. ¿Cómo se dice 'Huevo'?",
           "options": [
-            { "id": "o1", "text": "Egg" },
-            { "id": "o2", "text": "Eye" },
-            { "id": "o3", "text": "Ear" }
+            {
+              "id": "o1",
+              "text": "Egg"
+            },
+            {
+              "id": "o2",
+              "text": "Eye"
+            },
+            {
+              "id": "o3",
+              "text": "Ear"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -259,7 +453,7 @@
         {
           "interaction_id": "U17_I24",
           "type": "transformation",
-          "prompt_es": "Completa: 'Mi plato favorito es ________ (pizza)'",
+          "prompt_es": "Sarah habla de. Completa:",
           "stimulus_en": "My favorite dish is ________.",
           "correct_answer": "pizza",
           "mastery_tag": "vocabulary"

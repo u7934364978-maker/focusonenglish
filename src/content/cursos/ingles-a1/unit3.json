@@ -13,21 +13,45 @@
       "title": "Shopping for School Supplies",
       "scenario": {
         "setting": "School supplies store",
-        "characters": ["Sarah", "Shop assistant"],
+        "characters": [
+          "Sarah",
+          "Shop assistant"
+        ],
         "objective": "Count items and ask about quantities"
       },
       "content": [
         {
           "interaction_id": "U3_I1",
           "type": "matching",
-          "prompt_es": "Une los números:",
+          "prompt_es": "Sarah está en la tienda de material escolar. Une las palabras:",
           "pairs": [
-            { "id": "p1", "left": "One", "right": "Uno" },
-            { "id": "p2", "left": "Five", "right": "Cinco" },
-            { "id": "p3", "left": "Eight", "right": "Ocho" },
-            { "id": "p4", "left": "Ten", "right": "Diez" }
+            {
+              "id": "p1",
+              "left": "One",
+              "right": "Uno"
+            },
+            {
+              "id": "p2",
+              "left": "Five",
+              "right": "Cinco"
+            },
+            {
+              "id": "p3",
+              "left": "Eight",
+              "right": "Ocho"
+            },
+            {
+              "id": "p4",
+              "left": "Ten",
+              "right": "Diez"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -41,11 +65,20 @@
         {
           "interaction_id": "U3_I3",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Siete' en inglés?",
+          "prompt_es": "Sarah está en la tienda de material escolar. ¿Cómo se dice 'Siete' en inglés?",
           "options": [
-            { "id": "o1", "text": "Seven" },
-            { "id": "o2", "text": "Six" },
-            { "id": "o3", "text": "Second" }
+            {
+              "id": "o1",
+              "text": "Seven"
+            },
+            {
+              "id": "o2",
+              "text": "Six"
+            },
+            {
+              "id": "o3",
+              "text": "Second"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -61,40 +94,78 @@
         {
           "interaction_id": "U3_I5",
           "type": "true_false",
-          "prompt_es": "¿'Two' significa 'Cuatro'?",
+          "prompt_es": "Sarah escucha: ¿'Two' significa 'Cuatro'?",
           "correct_answer": false,
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I6",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "There" },
-            { "id": "w2", "text": "are" },
-            { "id": "w3", "text": "four" },
-            { "id": "w4", "text": "students" }
+            {
+              "id": "w1",
+              "text": "There"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "four"
+            },
+            {
+              "id": "w4",
+              "text": "students"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I7",
           "type": "matching",
-          "prompt_es": "Más números:",
+          "prompt_es": "Sarah aprende vocabulario. Une:",
           "pairs": [
-            { "id": "p1", "left": "Two", "right": "Dos" },
-            { "id": "p2", "left": "Four", "right": "Cuatro" },
-            { "id": "p3", "left": "Six", "right": "Seis" },
-            { "id": "p4", "left": "Nine", "right": "Nueve" }
+            {
+              "id": "p1",
+              "left": "Two",
+              "right": "Dos"
+            },
+            {
+              "id": "p2",
+              "left": "Four",
+              "right": "Cuatro"
+            },
+            {
+              "id": "p3",
+              "left": "Six",
+              "right": "Seis"
+            },
+            {
+              "id": "p4",
+              "left": "Nine",
+              "right": "Nueve"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I8",
           "type": "transformation",
-          "prompt_es": "Completa la secuencia: two, four, ________, eight",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "Two, four, ________, eight.",
           "correct_answer": "six",
           "mastery_tag": "logic"
@@ -108,20 +179,41 @@
         {
           "interaction_id": "U3_I9",
           "type": "matching",
-          "prompt_es": "Números del 11 al 20:",
+          "prompt_es": "Sarah aprende vocabulario. Une:",
           "pairs": [
-            { "id": "p1", "left": "Eleven", "right": "Once" },
-            { "id": "p2", "left": "Fifteen", "right": "Quince" },
-            { "id": "p3", "left": "Eighteen", "right": "Dieciocho" },
-            { "id": "p4", "left": "Twenty", "right": "Veinte" }
+            {
+              "id": "p1",
+              "left": "Eleven",
+              "right": "Once"
+            },
+            {
+              "id": "p2",
+              "left": "Fifteen",
+              "right": "Quince"
+            },
+            {
+              "id": "p3",
+              "left": "Eighteen",
+              "right": "Dieciocho"
+            },
+            {
+              "id": "p4",
+              "left": "Twenty",
+              "right": "Veinte"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I10",
           "type": "transformation",
-          "prompt_es": "Completa con tu edad (número en letras):",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "I am (12) ________ years old.",
           "correct_answer": "twelve",
           "mastery_tag": "grammar"
@@ -131,9 +223,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se pregunta la edad?",
           "options": [
-            { "id": "o1", "text": "How old are you?" },
-            { "id": "o2", "text": "How years have you?" },
-            { "id": "o3", "text": "What is your age?" }
+            {
+              "id": "o1",
+              "text": "How old are you?"
+            },
+            {
+              "id": "o2",
+              "text": "How years have you?"
+            },
+            {
+              "id": "o3",
+              "text": "What is your age?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "social"
@@ -141,7 +242,7 @@
         {
           "interaction_id": "U3_I12",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Tengo trece años'",
+          "prompt_es": "Sarah está en la tienda de material escolar. Traduce: 'Tengo trece años'",
           "stimulus_es": "Tengo trece años",
           "correct_answer": "I am thirteen years old",
           "mastery_tag": "vocabulary"
@@ -149,41 +250,83 @@
         {
           "interaction_id": "U3_I13",
           "type": "true_false",
-          "prompt_es": "¿'Fourteen' es '14'?",
+          "prompt_es": "Sarah escucha: ¿'Fourteen' es '14'?",
           "correct_answer": true,
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I14",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "He" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "sixteen" },
-            { "id": "w4", "text": "years" },
-            { "id": "w5", "text": "old" }
+            {
+              "id": "w1",
+              "text": "He"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "sixteen"
+            },
+            {
+              "id": "w4",
+              "text": "years"
+            },
+            {
+              "id": "w5",
+              "text": "old"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I15",
           "type": "matching",
-          "prompt_es": "Más números complejos:",
+          "prompt_es": "Sarah aprende vocabulario. Une:",
           "pairs": [
-            { "id": "p1", "left": "Twelve", "right": "Doce" },
-            { "id": "p2", "left": "Thirteen", "right": "Trece" },
-            { "id": "p3", "left": "Fourteen", "right": "Catorce" },
-            { "id": "p4", "left": "Nineteen", "right": "Diecinueve" }
+            {
+              "id": "p1",
+              "left": "Twelve",
+              "right": "Doce"
+            },
+            {
+              "id": "p2",
+              "left": "Thirteen",
+              "right": "Trece"
+            },
+            {
+              "id": "p3",
+              "left": "Fourteen",
+              "right": "Catorce"
+            },
+            {
+              "id": "p4",
+              "left": "Nineteen",
+              "right": "Diecinueve"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I16",
           "type": "transformation",
-          "prompt_es": "Completa con 'is' o 'are':",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "There ________ twenty students in the class.",
           "correct_answer": "are",
           "mastery_tag": "grammar"
@@ -197,14 +340,35 @@
         {
           "interaction_id": "U3_I17",
           "type": "matching",
-          "prompt_es": "Objetos y cantidades:",
+          "prompt_es": "Sarah aprende vocabulario. Une:",
           "pairs": [
-            { "id": "p1", "left": "One book", "right": "Un libro" },
-            { "id": "p2", "left": "Two books", "right": "Dos libros" },
-            { "id": "p3", "left": "Three pens", "right": "Tres bolígrafos" },
-            { "id": "p4", "left": "Five pencils", "right": "Cinco lápices" }
+            {
+              "id": "p1",
+              "left": "One book",
+              "right": "Un libro"
+            },
+            {
+              "id": "p2",
+              "left": "Two books",
+              "right": "Dos libros"
+            },
+            {
+              "id": "p3",
+              "left": "Three pens",
+              "right": "Tres bolígrafos"
+            },
+            {
+              "id": "p4",
+              "left": "Five pencils",
+              "right": "Cinco lápices"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -212,9 +376,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el plural de 'boy'?",
           "options": [
-            { "id": "o1", "text": "Boys" },
-            { "id": "o2", "text": "Boyes" },
-            { "id": "o3", "text": "Boies" }
+            {
+              "id": "o1",
+              "text": "Boys"
+            },
+            {
+              "id": "o2",
+              "text": "Boyes"
+            },
+            {
+              "id": "o3",
+              "text": "Boies"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -222,7 +395,7 @@
         {
           "interaction_id": "U3_I19",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Diez manzanas'",
+          "prompt_es": "Sarah está en la tienda de material escolar. Traduce: 'Diez manzanas'",
           "stimulus_es": "Diez manzanas",
           "correct_answer": "Ten apples",
           "mastery_tag": "vocabulary"
@@ -230,27 +403,44 @@
         {
           "interaction_id": "U3_I20",
           "type": "true_false",
-          "prompt_es": "¿'Seventeen' es mayor que 'Nineteen'?",
+          "prompt_es": "Sarah escucha: ¿'Seventeen' es mayor que 'Nineteen'?",
           "correct_answer": false,
           "mastery_tag": "logic"
         },
         {
           "interaction_id": "U3_I21",
           "type": "reorder_words",
-          "prompt_es": "Ordena la pregunta:",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "Are" },
-            { "id": "w2", "text": "there" },
-            { "id": "w3", "text": "ten" },
-            { "id": "w4", "text": "chairs?" }
+            {
+              "id": "w1",
+              "text": "Are"
+            },
+            {
+              "id": "w2",
+              "text": "there"
+            },
+            {
+              "id": "w3",
+              "text": "ten"
+            },
+            {
+              "id": "w4",
+              "text": "chairs?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I22",
           "type": "transformation",
-          "prompt_es": "Escribe el número: (15)",
+          "prompt_es": "Sarah completa. Escribe el número: (15)",
           "stimulus_en": "She has ________ sisters.",
           "correct_answer": "fifteen",
           "mastery_tag": "vocabulary"
@@ -258,20 +448,41 @@
         {
           "interaction_id": "U3_I23",
           "type": "matching",
-          "prompt_es": "Números finales:",
+          "prompt_es": "Sarah aprende vocabulario. Une:",
           "pairs": [
-            { "id": "p1", "left": "Seventeen", "right": "Diecisiete" },
-            { "id": "p2", "left": "Zero", "right": "Cero" },
-            { "id": "p3", "left": "Seven", "right": "Siete" },
-            { "id": "p4", "left": "Eight", "right": "Ocho" }
+            {
+              "id": "p1",
+              "left": "Seventeen",
+              "right": "Diecisiete"
+            },
+            {
+              "id": "p2",
+              "left": "Zero",
+              "right": "Cero"
+            },
+            {
+              "id": "p3",
+              "left": "Seven",
+              "right": "Siete"
+            },
+            {
+              "id": "p4",
+              "left": "Eight",
+              "right": "Ocho"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U3_I24",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Tengo veinte años'",
+          "prompt_es": "Sarah está en la tienda de material escolar. Traduce: 'Tengo veinte años'",
           "stimulus_es": "Tengo veinte años",
           "correct_answer": "I am twenty years old",
           "mastery_tag": "vocabulary"

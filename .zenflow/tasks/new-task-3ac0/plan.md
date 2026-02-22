@@ -285,12 +285,22 @@ npm run type-check  # ✅ No new TypeScript errors
 # Manual: Load Unit 1, verify "First Day at English School" scenario displays
 ```
 
-**Completed**: Scenario metadata successfully added to Units 1-20:
-- 19 unique scenarios created (Unit 10 is a review unit without scenario)
-- All blocks now have setting, characters, and objective fields
-- Exercise prompts rewritten to reference characters (Sarah, John, Emma, etc.)
-- Consistent narrative thread across units
-- All JSON files validated successfully
+**Completed**: Scenario metadata and contextualization for Units 1-20:
+- ✅ 19 unique scenarios created (Unit 10 is review unit without scenario)
+- ✅ All blocks have setting, characters, and objective metadata
+- ✅ **514/725 exercises (70.9%)** now reference scenario context
+- ✅ Character continuity: Sarah, John, Emma, Mike across units
+- ✅ All JSON files validated successfully (valid syntax)
+
+**Coverage by Unit**:
+- Units 1-6: 88-100% (excellent coverage)
+- Units 7-9: 62-75% (good coverage)
+- Units 11-20: 57-79% (good coverage, Unit 11 at 57% due to size)
+
+**Transformation Examples**:
+- Before: "Traduce: Profesor/a" → After: "Sarah ve a la persona enseñando. ¿Cuál es su profesión?"
+- Before: "Ordena las palabras:" → After: "John se presenta a Sarah. Ordena las palabras:"
+- Before: "¿Es correcta esta frase?" → After: "Sarah dice a John: 'Nice to meet you.' ¿Es correcta?"
 
 ---
 

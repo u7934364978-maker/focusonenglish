@@ -13,7 +13,10 @@
       "title": "Finding the Library",
       "scenario": {
         "setting": "Street - asking for directions to the library",
-        "characters": ["John", "Local person"],
+        "characters": [
+          "John",
+          "Local person"
+        ],
         "objective": "Ask for and give directions"
       },
       "content": [
@@ -75,7 +78,7 @@
         {
           "interaction_id": "U20_I3",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Gira a la derecha en la esquina'",
+          "prompt_es": "John necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Gira a la derecha en la esquina",
           "correct_answer": "Turn right at the corner",
           "mastery_tag": "syntax"
@@ -83,7 +86,7 @@
         {
           "interaction_id": "U20_I4",
           "type": "matching",
-          "prompt_es": "Elementos de la calle:",
+          "prompt_es": "John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -117,7 +120,7 @@
         {
           "interaction_id": "U20_I5",
           "type": "transformation",
-          "prompt_es": "Completa: 'Está a tu ________ (izquierda).'",
+          "prompt_es": "John pregunta por. Completa:",
           "stimulus_en": "It's on your ________.",
           "correct_answer": "left",
           "mastery_tag": "vocabulary"
@@ -125,7 +128,7 @@
         {
           "interaction_id": "U20_I6",
           "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Cómo llego al cine?'",
+          "prompt_es": "John habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -186,14 +189,14 @@
         {
           "interaction_id": "U20_I8",
           "type": "true_false",
-          "prompt_es": "'On your right' significa 'A tu izquierda'.",
+          "prompt_es": "John escucha: 'On your right' significa 'A tu izquierda'.",
           "correct_answer": false,
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U20_I9",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Sigue recto por dos cuadras/bloques'",
+          "prompt_es": "John necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Sigue recto por dos bloques",
           "correct_answer": "Go straight for two blocks",
           "mastery_tag": "syntax"
@@ -201,7 +204,7 @@
         {
           "interaction_id": "U20_I10",
           "type": "transformation",
-          "prompt_es": "Completa: 'Turn left ________ (en) the traffic lights.'",
+          "prompt_es": "John pregunta por. Completa:",
           "stimulus_en": "Turn left ________ the traffic lights.",
           "correct_answer": "at",
           "mastery_tag": "prepositions"
@@ -209,7 +212,7 @@
         {
           "interaction_id": "U20_I11",
           "type": "matching",
-          "prompt_es": "Más indicaciones:",
+          "prompt_es": "John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -237,7 +240,7 @@
         {
           "interaction_id": "U20_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Lejos'?",
+          "prompt_es": "John pidiendo direcciones. ¿Cómo se dice 'Lejos'?",
           "options": [
             {
               "id": "o1",
@@ -258,7 +261,7 @@
         {
           "interaction_id": "U20_I13",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'El hospital está allí'",
+          "prompt_es": "John habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -293,14 +296,14 @@
         {
           "interaction_id": "U20_I14",
           "type": "true_false",
-          "prompt_es": "'Take the bus' significa 'Gira el autobús'.",
+          "prompt_es": "John escucha: 'Take the bus' significa 'Gira el autobús'.",
           "correct_answer": false,
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U20_I15",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Cruza el puente'",
+          "prompt_es": "John necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Cruza el puente",
           "correct_answer": "Cross the bridge",
           "mastery_tag": "vocabulary"
@@ -308,7 +311,7 @@
         {
           "interaction_id": "U20_I16",
           "type": "matching",
-          "prompt_es": "Señales de tráfico:",
+          "prompt_es": "John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -357,7 +360,7 @@
         {
           "interaction_id": "U20_I18",
           "type": "transformation",
-          "prompt_es": "Completa: 'It is ________ (cerca) the park.'",
+          "prompt_es": "John pregunta por. Completa:",
           "stimulus_en": "It is ________ the park.",
           "correct_answer": "near",
           "mastery_tag": "vocabulary"
@@ -365,7 +368,7 @@
         {
           "interaction_id": "U20_I19",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Toma la segunda a la izquierda'",
+          "prompt_es": "John habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -405,7 +408,7 @@
         {
           "interaction_id": "U20_I20",
           "type": "true_false",
-          "prompt_es": "En inglés, 'Street' y 'Road' significan lo mismo.",
+          "prompt_es": "John escucha: En inglés, 'Street' y 'Road' significan lo mismo.",
           "correct_answer": true,
           "mastery_tag": "vocabulary"
         },
@@ -420,7 +423,7 @@
         {
           "interaction_id": "U20_I22",
           "type": "matching",
-          "prompt_es": "Acciones de navegación:",
+          "prompt_es": "John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -448,7 +451,7 @@
         {
           "interaction_id": "U20_I23",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'A la derecha'?",
+          "prompt_es": "John pidiendo direcciones. ¿Cómo se dice 'A la derecha'?",
           "options": [
             {
               "id": "o1",
@@ -469,7 +472,7 @@
         {
           "interaction_id": "U20_I24",
           "type": "transformation",
-          "prompt_es": "Completa: 'You ________ (necesitas) a map.'",
+          "prompt_es": "John pregunta por. Completa:",
           "stimulus_en": "You ________ a map.",
           "correct_answer": "need",
           "mastery_tag": "vocabulary"
@@ -550,7 +553,13 @@
             "Mention landmarks like traffic lights or corners",
             "Speak clearly and at a natural pace"
           ],
-          "targetWords": ["turn", "straight", "left", "right", "traffic lights"],
+          "targetWords": [
+            "turn",
+            "straight",
+            "left",
+            "right",
+            "traffic lights"
+          ],
           "timeLimit": 60,
           "mastery_tag": "speaking"
         }

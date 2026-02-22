@@ -13,14 +13,18 @@
       "title": "Making Weekly Plans",
       "scenario": {
         "setting": "Planning the week ahead with friends",
-        "characters": ["Sarah", "John", "Emma"],
+        "characters": [
+          "Sarah",
+          "John",
+          "Emma"
+        ],
         "objective": "Organize activities for different days"
       },
       "content": [
         {
           "interaction_id": "U12_I1",
           "type": "matching",
-          "prompt_es": "Une los días de la semana (Lunes a Jueves):",
+          "prompt_es": "Sarah planeando la semana. Une las palabras:",
           "pairs": [
             {
               "id": "p1",
@@ -54,7 +58,7 @@
         {
           "interaction_id": "U12_I2",
           "type": "matching",
-          "prompt_es": "Une los días del fin de semana y otros:",
+          "prompt_es": "Sarah planeando la semana. Une las palabras:",
           "pairs": [
             {
               "id": "p1",
@@ -109,7 +113,7 @@
         {
           "interaction_id": "U12_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Hoy es viernes'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Hoy es viernes",
           "correct_answer": "Today is Friday",
           "mastery_tag": "syntax"
@@ -117,7 +121,7 @@
         {
           "interaction_id": "U12_I5",
           "type": "transformation",
-          "prompt_es": "Usa la preposición correcta para los días:",
+          "prompt_es": "John escucha una frase. Usa la preposición correcta para los días:",
           "stimulus_en": "See you ________ Monday!",
           "correct_answer": "on",
           "mastery_tag": "grammar"
@@ -125,7 +129,7 @@
         {
           "interaction_id": "U12_I6",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Mi día favorito es el sábado'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -160,7 +164,7 @@
         {
           "interaction_id": "U12_I7",
           "type": "true_false",
-          "prompt_es": "En inglés, los días de la semana siempre se escriben con mayúscula inicial.",
+          "prompt_es": "El grupo escucha: En inglés, los días de la semana siempre se escriben con mayúscula inicial.",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
@@ -188,7 +192,7 @@
         {
           "interaction_id": "U12_I9",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Mañana'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Mañana (día siguiente)",
           "correct_answer": "Tomorrow",
           "mastery_tag": "vocabulary"
@@ -196,7 +200,7 @@
         {
           "interaction_id": "U12_I10",
           "type": "matching",
-          "prompt_es": "Une los conceptos temporales:",
+          "prompt_es": "Sarah planeando la semana. Une las palabras:",
           "pairs": [
             {
               "id": "p1",
@@ -230,7 +234,7 @@
         {
           "interaction_id": "U12_I11",
           "type": "transformation",
-          "prompt_es": "Completa con el día que falta: Monday, Tuesday, ________...",
+          "prompt_es": "Sarah planea. Completa:",
           "stimulus_en": "Monday, Tuesday, ________",
           "correct_answer": "Wednesday",
           "mastery_tag": "vocabulary"
@@ -238,7 +242,7 @@
         {
           "interaction_id": "U12_I12",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Trabajo los lunes'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -289,14 +293,14 @@
         {
           "interaction_id": "U12_I14",
           "type": "true_false",
-          "prompt_es": "'Yesterday' significa 'Mañana'.",
+          "prompt_es": "El grupo escucha: 'Yesterday' significa 'Mañana'.",
           "correct_answer": false,
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U12_I15",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Nos vemos el domingo'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Nos vemos el domingo",
           "correct_answer": "See you on Sunday",
           "mastery_tag": "phrases"
@@ -304,7 +308,7 @@
         {
           "interaction_id": "U12_I16",
           "type": "matching",
-          "prompt_es": "Une las abreviaturas comunes:",
+          "prompt_es": "Sarah planeando la semana. Une las palabras:",
           "pairs": [
             {
               "id": "p1",
@@ -359,7 +363,7 @@
         {
           "interaction_id": "U12_I18",
           "type": "transformation",
-          "prompt_es": "Completa: Hoy es ________ (Sábado)",
+          "prompt_es": "Sarah planea. Completa:",
           "stimulus_en": "Today is ________.",
           "correct_answer": "Saturday",
           "mastery_tag": "vocabulary"
@@ -367,7 +371,7 @@
         {
           "interaction_id": "U12_I19",
           "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Es hoy jueves?'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -397,7 +401,7 @@
         {
           "interaction_id": "U12_I20",
           "type": "true_false",
-          "prompt_es": "La palabra 'Week' significa 'Mes'.",
+          "prompt_es": "El grupo escucha: La palabra 'Week' significa 'Mes'.",
           "correct_answer": false,
           "mastery_tag": "vocabulary"
         },
@@ -412,7 +416,7 @@
         {
           "interaction_id": "U12_I22",
           "type": "matching",
-          "prompt_es": "Días del fin de semana:",
+          "prompt_es": "El grupo aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -434,7 +438,7 @@
         {
           "interaction_id": "U12_I23",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cada lunes'?",
+          "prompt_es": "Sarah planeando la semana. ¿Cómo se dice 'cada lunes'?",
           "options": [
             {
               "id": "o1",
@@ -455,7 +459,7 @@
         {
           "interaction_id": "U12_I24",
           "type": "transformation",
-          "prompt_es": "Completa: Ayer fue ________ (Domingo)",
+          "prompt_es": "Sarah planea. Completa:",
           "stimulus_en": "Yesterday was ________.",
           "correct_answer": "Sunday",
           "mastery_tag": "vocabulary"

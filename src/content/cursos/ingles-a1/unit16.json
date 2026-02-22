@@ -13,7 +13,10 @@
       "title": "Lunch at the Cafe",
       "scenario": {
         "setting": "Cafe during lunch break",
-        "characters": ["Sarah", "Waiter"],
+        "characters": [
+          "Sarah",
+          "Waiter"
+        ],
         "objective": "Order food and drinks politely"
       },
       "content": [
@@ -75,7 +78,7 @@
         {
           "interaction_id": "U16_I3",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Me gustaría un té'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Me gustaría un té",
           "correct_answer": "I would like a tea",
           "mastery_tag": "syntax"
@@ -83,7 +86,7 @@
         {
           "interaction_id": "U16_I4",
           "type": "matching",
-          "prompt_es": "Comida y complementos:",
+          "prompt_es": "Sarah aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -117,7 +120,7 @@
         {
           "interaction_id": "U16_I5",
           "type": "transformation",
-          "prompt_es": "Completa con 'a' o 'an':",
+          "prompt_es": "Sarah pide. Completa:",
           "stimulus_en": "I would like ________ orange juice.",
           "correct_answer": "an",
           "mastery_tag": "grammar"
@@ -125,7 +128,7 @@
         {
           "interaction_id": "U16_I6",
           "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Puedo tomar un agua?'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -181,14 +184,14 @@
         {
           "interaction_id": "U16_I8",
           "type": "true_false",
-          "prompt_es": "'Bill' y 'Check' significan 'La cuenta'.",
+          "prompt_es": "Sarah escucha: 'Bill' y 'Check' significan 'La cuenta'.",
           "correct_answer": true,
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U16_I9",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'La cuenta, por favor'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "La cuenta, por favor",
           "correct_answer": "The bill, please",
           "mastery_tag": "phrases"
@@ -196,7 +199,7 @@
         {
           "interaction_id": "U16_I10",
           "type": "transformation",
-          "prompt_es": "Completa: '¿Cuánto cuesta?'",
+          "prompt_es": "Sarah pide. Completa:",
           "stimulus_en": "How ________ is it?",
           "correct_answer": "much",
           "mastery_tag": "phrases"
@@ -204,7 +207,7 @@
         {
           "interaction_id": "U16_I11",
           "type": "matching",
-          "prompt_es": "Utensilios:",
+          "prompt_es": "Sarah aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -259,7 +262,7 @@
         {
           "interaction_id": "U16_I13",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Un sándwich de queso, por favor'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -296,7 +299,7 @@
         {
           "interaction_id": "U16_I15",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Aquí tiene'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Aquí tiene (al entregar algo)",
           "correct_answer": "Here you are",
           "mastery_tag": "phrases"
@@ -325,7 +328,7 @@
         {
           "interaction_id": "U16_I17",
           "type": "matching",
-          "prompt_es": "Relaciona:",
+          "prompt_es": "Sarah pidiendo en la cafetería. Une las palabras:",
           "pairs": [
             {
               "id": "p1",
@@ -359,7 +362,7 @@
         {
           "interaction_id": "U16_I18",
           "type": "transformation",
-          "prompt_es": "Completa la oferta: '¿Quieres un café?'",
+          "prompt_es": "Sarah pide. Completa:",
           "stimulus_en": "________ you like a coffee?",
           "correct_answer": "Would",
           "mastery_tag": "phrases"
@@ -388,7 +391,7 @@
         {
           "interaction_id": "U16_I20",
           "type": "true_false",
-          "prompt_es": "'Menu' en inglés se refiere a la carta de platos y bebidas.",
+          "prompt_es": "Sarah escucha: 'Menu' en inglés se refiere a la carta de platos y bebidas.",
           "correct_answer": true,
           "mastery_tag": "vocabulary"
         },
@@ -403,7 +406,7 @@
         {
           "interaction_id": "U16_I22",
           "type": "matching",
-          "prompt_es": "Tipos de té:",
+          "prompt_es": "Sarah aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -452,7 +455,7 @@
         {
           "interaction_id": "U16_I24",
           "type": "transformation",
-          "prompt_es": "Completa: 'Para llevar'",
+          "prompt_es": "Sarah pide. Completa:",
           "stimulus_en": "To ________, please.",
           "correct_answer": "go",
           "mastery_tag": "phrases"

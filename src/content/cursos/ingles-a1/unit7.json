@@ -13,21 +13,46 @@
       "title": "Art Class Project",
       "scenario": {
         "setting": "Art class at school - painting activity",
-        "characters": ["Sarah", "John", "Art teacher"],
+        "characters": [
+          "Sarah",
+          "John",
+          "Art teacher"
+        ],
         "objective": "Describe colors and objects"
       },
       "content": [
         {
           "interaction_id": "U7_I1",
           "type": "matching",
-          "prompt_es": "Asocia los colores:",
+          "prompt_es": "Sarah pinta. Une las palabras:",
           "pairs": [
-            { "id": "p1", "left": "Red", "right": "Rojo" },
-            { "id": "p2", "left": "Blue", "right": "Azul" },
-            { "id": "p3", "left": "Green", "right": "Verde" },
-            { "id": "p4", "left": "Yellow", "right": "Amarillo" }
+            {
+              "id": "p1",
+              "left": "Red",
+              "right": "Rojo"
+            },
+            {
+              "id": "p2",
+              "left": "Blue",
+              "right": "Azul"
+            },
+            {
+              "id": "p3",
+              "left": "Green",
+              "right": "Verde"
+            },
+            {
+              "id": "p4",
+              "left": "Yellow",
+              "right": "Amarillo"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -41,11 +66,20 @@
         {
           "interaction_id": "U7_I3",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Blanco'?",
+          "prompt_es": "Sarah en clase de arte. ¿Cómo se dice 'Blanco'?",
           "options": [
-            { "id": "o1", "text": "White" },
-            { "id": "o2", "text": "Black" },
-            { "id": "o3", "text": "Wait" }
+            {
+              "id": "o1",
+              "text": "White"
+            },
+            {
+              "id": "o2",
+              "text": "Black"
+            },
+            {
+              "id": "o3",
+              "text": "Wait"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,7 +87,7 @@
         {
           "interaction_id": "U7_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Una manzana roja'",
+          "prompt_es": "Sarah necesita decir algo. ¿Cómo se dice en inglés?",
           "stimulus_es": "Una manzana roja",
           "correct_answer": "A red apple",
           "mastery_tag": "grammar"
@@ -68,14 +102,31 @@
         {
           "interaction_id": "U7_I6",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "The" },
-            { "id": "w2", "text": "grass" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "green" }
+            {
+              "id": "w1",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "grass"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "green"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -83,18 +134,39 @@
           "type": "matching",
           "prompt_es": "Más colores:",
           "pairs": [
-            { "id": "p1", "left": "Black", "right": "Negro" },
-            { "id": "p2", "left": "White", "right": "Blanco" },
-            { "id": "p3", "left": "Orange", "right": "Naranja" },
-            { "id": "p4", "left": "Purple", "right": "Morado" }
+            {
+              "id": "p1",
+              "left": "Black",
+              "right": "Negro"
+            },
+            {
+              "id": "p2",
+              "left": "White",
+              "right": "Blanco"
+            },
+            {
+              "id": "p3",
+              "left": "Orange",
+              "right": "Naranja"
+            },
+            {
+              "id": "p4",
+              "left": "Purple",
+              "right": "Morado"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I8",
           "type": "transformation",
-          "prompt_es": "Completa la pregunta:",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "What ________ is your car? It is black.",
           "correct_answer": "color",
           "mastery_tag": "vocabulary"
@@ -110,18 +182,39 @@
           "type": "matching",
           "prompt_es": "Adjetivos opuestos:",
           "pairs": [
-            { "id": "p1", "left": "Big", "right": "Grande" },
-            { "id": "p2", "left": "Small", "right": "Pequeño" },
-            { "id": "p3", "left": "New", "right": "Nuevo" },
-            { "id": "p4", "left": "Old", "right": "Viejo" }
+            {
+              "id": "p1",
+              "left": "Big",
+              "right": "Grande"
+            },
+            {
+              "id": "p2",
+              "left": "Small",
+              "right": "Pequeño"
+            },
+            {
+              "id": "p3",
+              "left": "New",
+              "right": "Nuevo"
+            },
+            {
+              "id": "p4",
+              "left": "Old",
+              "right": "Viejo"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I10",
           "type": "transformation",
-          "prompt_es": "Completa con el adjetivo correcto: 'A giraffe is ________'",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "A giraffe is ________.",
           "correct_answer": "tall",
           "mastery_tag": "vocabulary"
@@ -129,11 +222,20 @@
         {
           "interaction_id": "U7_I11",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hermoso'?",
+          "prompt_es": "Sarah en clase de arte. ¿Cómo se dice 'Hermoso'?",
           "options": [
-            { "id": "o1", "text": "Beautiful" },
-            { "id": "o2", "text": "Ugly" },
-            { "id": "o3", "text": "Better" }
+            {
+              "id": "o1",
+              "text": "Beautiful"
+            },
+            {
+              "id": "o2",
+              "text": "Ugly"
+            },
+            {
+              "id": "o3",
+              "text": "Better"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -141,7 +243,7 @@
         {
           "interaction_id": "U7_I12",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Mi casa es pequeña'",
+          "prompt_es": "Sarah necesita decir algo. ¿Cómo se dice en inglés?",
           "stimulus_es": "Mi casa es pequeña",
           "correct_answer": "My house is small",
           "mastery_tag": "vocabulary"
@@ -156,32 +258,70 @@
         {
           "interaction_id": "U7_I14",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "These" },
-            { "id": "w2", "text": "are" },
-            { "id": "w3", "text": "expensive" },
-            { "id": "w4", "text": "shoes" }
+            {
+              "id": "w1",
+              "text": "These"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "expensive"
+            },
+            {
+              "id": "w4",
+              "text": "shoes"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U7_I15",
           "type": "matching",
           "pairs": [
-            { "id": "p1", "left": "Hot", "right": "Caliente" },
-            { "id": "p2", "left": "Cold", "right": "Frío" },
-            { "id": "p3", "left": "Fast", "right": "Rápido" },
-            { "id": "p4", "left": "Slow", "right": "Lento" }
+            {
+              "id": "p1",
+              "left": "Hot",
+              "right": "Caliente"
+            },
+            {
+              "id": "p2",
+              "left": "Cold",
+              "right": "Frío"
+            },
+            {
+              "id": "p3",
+              "left": "Fast",
+              "right": "Rápido"
+            },
+            {
+              "id": "p4",
+              "left": "Slow",
+              "right": "Lento"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I16",
           "type": "transformation",
-          "prompt_es": "Completa con el opuesto de 'cold':",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "The coffee is ________.",
           "correct_answer": "hot",
           "mastery_tag": "vocabulary"
@@ -196,22 +336,52 @@
           "interaction_id": "U7_I17",
           "type": "matching",
           "pairs": [
-            { "id": "p1", "left": "Brown", "right": "Marrón" },
-            { "id": "p2", "left": "Pink", "right": "Rosa" },
-            { "id": "p3", "left": "Grey", "right": "Gris" },
-            { "id": "p4", "left": "Dark", "right": "Oscuro" }
+            {
+              "id": "p1",
+              "left": "Brown",
+              "right": "Marrón"
+            },
+            {
+              "id": "p2",
+              "left": "Pink",
+              "right": "Rosa"
+            },
+            {
+              "id": "p3",
+              "left": "Grey",
+              "right": "Gris"
+            },
+            {
+              "id": "p4",
+              "left": "Dark",
+              "right": "Oscuro"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la frase correcta?",
+          "prompt_es": "John dice algo. ¿Cuál es la frase correcta?",
           "options": [
-            { "id": "o1", "text": "A blue pen" },
-            { "id": "o2", "text": "A pen blue" },
-            { "id": "o3", "text": "Blue a pen" }
+            {
+              "id": "o1",
+              "text": "A blue pen"
+            },
+            {
+              "id": "o2",
+              "text": "A pen blue"
+            },
+            {
+              "id": "o3",
+              "text": "Blue a pen"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -219,7 +389,7 @@
         {
           "interaction_id": "U7_I19",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Tengo un coche viejo'",
+          "prompt_es": "Sarah necesita decir algo. ¿Cómo se dice en inglés?",
           "stimulus_es": "Tengo un coche viejo",
           "correct_answer": "I have an old car",
           "mastery_tag": "vocabulary"
@@ -234,15 +404,36 @@
         {
           "interaction_id": "U7_I21",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "Is" },
-            { "id": "w2", "text": "it" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "new" },
-            { "id": "w5", "text": "computer?" }
+            {
+              "id": "w1",
+              "text": "Is"
+            },
+            {
+              "id": "w2",
+              "text": "it"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "new"
+            },
+            {
+              "id": "w5",
+              "text": "computer?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -257,18 +448,39 @@
           "interaction_id": "U7_I23",
           "type": "matching",
           "pairs": [
-            { "id": "p1", "left": "Strong", "right": "Fuerte" },
-            { "id": "p2", "left": "Weak", "right": "Débil" },
-            { "id": "p3", "left": "Easy", "right": "Fácil" },
-            { "id": "p4", "left": "Difficult", "right": "Difícil" }
+            {
+              "id": "p1",
+              "left": "Strong",
+              "right": "Fuerte"
+            },
+            {
+              "id": "p2",
+              "left": "Weak",
+              "right": "Débil"
+            },
+            {
+              "id": "p3",
+              "left": "Easy",
+              "right": "Fácil"
+            },
+            {
+              "id": "p4",
+              "left": "Difficult",
+              "right": "Difícil"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U7_I24",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Este ejercicio es fácil'",
+          "prompt_es": "Sarah necesita decir algo. ¿Cómo se dice en inglés?",
           "stimulus_es": "Este ejercicio es fácil",
           "correct_answer": "This exercise is easy",
           "mastery_tag": "vocabulary"

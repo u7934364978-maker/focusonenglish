@@ -13,14 +13,17 @@
       "title": "Planning a Meetup",
       "scenario": {
         "setting": "Phone conversation - arranging to meet",
-        "characters": ["Sarah", "John"],
+        "characters": [
+          "Sarah",
+          "John"
+        ],
         "objective": "Tell the time and arrange meeting times"
       },
       "content": [
         {
           "interaction_id": "U11_I1",
           "type": "matching",
-          "prompt_es": "Une cada palabra con su traducción:",
+          "prompt_es": "Sarah hablando por teléfono para planear encontrarse. Une las palabras:",
           "pairs": [
             {
               "id": "p1",
@@ -75,7 +78,7 @@
         {
           "interaction_id": "U11_I3",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Son las tres en punto'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Son las tres en punto",
           "correct_answer": "It is three o'clock",
           "mastery_tag": "syntax"
@@ -83,7 +86,7 @@
         {
           "interaction_id": "U11_I4",
           "type": "matching",
-          "prompt_es": "Partes de la hora:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -117,7 +120,7 @@
         {
           "interaction_id": "U11_I5",
           "type": "transformation",
-          "prompt_es": "Completa con 'past' o 'to' (Son las 5:15):",
+          "prompt_es": "Sarah pregunta la hora. Completa:",
           "stimulus_en": "It is a quarter ________ five.",
           "correct_answer": "past",
           "mastery_tag": "grammar"
@@ -125,7 +128,7 @@
         {
           "interaction_id": "U11_I6",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Es la una y media'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -181,14 +184,14 @@
         {
           "interaction_id": "U11_I8",
           "type": "true_false",
-          "prompt_es": "'O'clock' se usa solo para las horas en punto.",
+          "prompt_es": "Sarah y John escucha: 'O'clock' se usa solo para las horas en punto.",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I9",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Reloj de pulsera'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Reloj de pulsera",
           "correct_answer": "Watch",
           "mastery_tag": "vocabulary"
@@ -196,7 +199,7 @@
         {
           "interaction_id": "U11_I10",
           "type": "transformation",
-          "prompt_es": "Usa la preposición correcta para las horas:",
+          "prompt_es": "John escucha una frase. Usa la preposición correcta para las horas:",
           "stimulus_en": "I wake up ________ seven o'clock.",
           "correct_answer": "at",
           "mastery_tag": "grammar"
@@ -204,7 +207,7 @@
         {
           "interaction_id": "U11_I11",
           "type": "matching",
-          "prompt_es": "Momentos del día:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -259,7 +262,7 @@
         {
           "interaction_id": "U11_I13",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'La película empieza a las ocho'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -294,14 +297,14 @@
         {
           "interaction_id": "U11_I14",
           "type": "true_false",
-          "prompt_es": "¿Es correcto decir 'It is ten past five' para las 5:10?",
+          "prompt_es": "John escucha una frase. ¿Es correcto decir 'It is ten past five' para las 5:10?",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I15",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Mediodía'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Mediodía",
           "correct_answer": "Noon",
           "mastery_tag": "vocabulary"
@@ -330,7 +333,7 @@
         {
           "interaction_id": "U11_I17",
           "type": "matching",
-          "prompt_es": "Relaciona:",
+          "prompt_es": "Sarah hablando por teléfono para planear encontrarse. Une las palabras:",
           "pairs": [
             {
               "id": "p1",
@@ -364,7 +367,7 @@
         {
           "interaction_id": "U11_I18",
           "type": "transformation",
-          "prompt_es": "Completa: 'No llegues tarde'",
+          "prompt_es": "Sarah pregunta la hora. Completa:",
           "stimulus_en": "Don't be ________.",
           "correct_answer": "late",
           "mastery_tag": "vocabulary"
@@ -393,14 +396,14 @@
         {
           "interaction_id": "U11_I20",
           "type": "true_false",
-          "prompt_es": "En inglés británico es común decir 'Half past' para la media hora.",
+          "prompt_es": "Sarah y John escucha: En inglés británico es común decir 'Half past' para la media hora.",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U11_I21",
           "type": "short_writing",
-          "prompt_es": "Traduce: '¿Tienes hora?'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "¿Tienes hora?",
           "correct_answer": "Do you have the time?",
           "mastery_tag": "phrases"
@@ -408,7 +411,7 @@
         {
           "interaction_id": "U11_I22",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Son las nueve y cuarto'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -443,7 +446,7 @@
         {
           "interaction_id": "U11_I23",
           "type": "matching",
-          "prompt_es": "Une los sinónimos/relacionados:",
+          "prompt_es": "Sarah hablando por teléfono para planear encontrarse. Une las palabras:",
           "pairs": [
             {
               "id": "p1",
@@ -477,7 +480,7 @@
         {
           "interaction_id": "U11_I24",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 1:00 PM?",
+          "prompt_es": "Sarah hablando por teléfono para planear encontrarse. ¿Cómo se dice 1:00 PM?",
           "options": [
             {
               "id": "o1",
@@ -522,7 +525,7 @@
         {
           "interaction_id": "U11_I23",
           "type": "matching",
-          "prompt_es": "Past Simple vs Continuous:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -550,7 +553,7 @@
         {
           "interaction_id": "U11_I24",
           "type": "true_false",
-          "prompt_es": "¿Usamos 'were' con 'He/She/It' en pasado continuo?",
+          "prompt_es": "Sarah y John escucha: ¿Usamos 'were' con 'He/She/It' en pasado continuo?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, usamos 'was'.",
           "mastery_tag": "past_continuous"
@@ -575,7 +578,7 @@
         {
           "interaction_id": "U11_I26",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'What were you doing at 8 PM?'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -649,7 +652,7 @@
         {
           "interaction_id": "U11_I29",
           "type": "matching",
-          "prompt_es": "Vocabulario de hotel:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -677,7 +680,7 @@
         {
           "interaction_id": "U11_I30",
           "type": "true_false",
-          "prompt_es": "¿'Boarding pass' es la tarjeta de embarque?",
+          "prompt_es": "Sarah y John escucha: ¿'Boarding pass' es la tarjeta de embarque?",
           "correct_answer": true,
           "mastery_tag": "holidays_travel_vocab"
         },
@@ -708,7 +711,7 @@
         {
           "interaction_id": "U11_I33",
           "type": "matching",
-          "prompt_es": "Preguntas y respuestas:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -736,7 +739,7 @@
         {
           "interaction_id": "U11_I34",
           "type": "true_false",
-          "prompt_es": "¿'Were' se usa con 'You, We, They'?",
+          "prompt_es": "Sarah y John escucha: ¿'Were' se usa con 'You, We, They'?",
           "correct_answer": true,
           "mastery_tag": "past_continuous"
         },
@@ -760,7 +763,7 @@
         {
           "interaction_id": "U11_I36",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'She was waiting for the bus'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -807,7 +810,7 @@
         {
           "interaction_id": "U11_I38",
           "type": "matching",
-          "prompt_es": "Vocabulario de aeropuerto:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -835,7 +838,7 @@
         {
           "interaction_id": "U11_I39",
           "type": "true_false",
-          "prompt_es": "¿'Delayed' significa que el vuelo llega a tiempo?",
+          "prompt_es": "Sarah y John escucha: ¿'Delayed' significa que el vuelo llega a tiempo?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, significa que lleva retraso.",
           "mastery_tag": "holidays_travel_vocab"
@@ -860,7 +863,7 @@
         {
           "interaction_id": "U11_I41",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'They were not listening to me'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -924,7 +927,7 @@
         {
           "interaction_id": "U11_I44",
           "type": "matching",
-          "prompt_es": "Formas de 'Be' en pasado:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -946,7 +949,7 @@
         {
           "interaction_id": "U11_I45",
           "type": "true_false",
-          "prompt_es": "¿El pasado continuo describe acciones terminadas en un punto exacto?",
+          "prompt_es": "Sarah y John escucha: ¿El pasado continuo describe acciones terminadas en un punto exacto?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, describe acciones que estaban en progreso.",
           "mastery_tag": "past_continuous"
@@ -971,7 +974,7 @@
         {
           "interaction_id": "U11_I47",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Where were they going?'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -1030,7 +1033,7 @@
         {
           "interaction_id": "U11_I50",
           "type": "matching",
-          "prompt_es": "Verbos y sus terminaciones -ing:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -1058,7 +1061,7 @@
         {
           "interaction_id": "U11_I51",
           "type": "true_false",
-          "prompt_es": "¿'Souvenir' es un objeto que compras para recordar un viaje?",
+          "prompt_es": "Sarah y John escucha: ¿'Souvenir' es un objeto que compras para recordar un viaje?",
           "correct_answer": true,
           "mastery_tag": "holidays_travel_vocab"
         },
@@ -1082,7 +1085,7 @@
         {
           "interaction_id": "U11_I53",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'They were traveling by boat'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -1141,7 +1144,7 @@
         {
           "interaction_id": "U11_I56",
           "type": "matching",
-          "prompt_es": "Vocabulario de viaje:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -1169,7 +1172,7 @@
         {
           "interaction_id": "U11_I57",
           "type": "true_false",
-          "prompt_es": "¿Usamos 'wasn't' para negar con 'We'?",
+          "prompt_es": "Sarah y John escucha: ¿Usamos 'wasn't' para negar con 'We'?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, usamos 'weren't'.",
           "mastery_tag": "past_continuous"
@@ -1194,7 +1197,7 @@
         {
           "interaction_id": "U11_I59",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'It was snowing in London'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -1253,7 +1256,7 @@
         {
           "interaction_id": "U11_I62",
           "type": "matching",
-          "prompt_es": "Pasado Simple vs Continuo:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -1281,7 +1284,7 @@
         {
           "interaction_id": "U11_I63",
           "type": "true_false",
-          "prompt_es": "¿'While' se usa normalmente con el pasado continuo?",
+          "prompt_es": "Sarah y John escucha: ¿'While' se usa normalmente con el pasado continuo?",
           "correct_answer": true,
           "mastery_tag": "past_continuous"
         },
@@ -1305,7 +1308,7 @@
         {
           "interaction_id": "U11_I65",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Were you watching a movie?'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -1369,7 +1372,7 @@
         {
           "interaction_id": "U11_I68",
           "type": "matching",
-          "prompt_es": "Vocabulario de hotel:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -1397,7 +1400,7 @@
         {
           "interaction_id": "U11_I69",
           "type": "true_false",
-          "prompt_es": "¿'Check-out' es cuando llegas al hotel?",
+          "prompt_es": "Sarah y John escucha: ¿'Check-out' es cuando llegas al hotel?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, es cuando te vas.",
           "mastery_tag": "holidays_travel_vocab"
@@ -1422,7 +1425,7 @@
         {
           "interaction_id": "U11_I71",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'What was she wearing today?'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -1486,7 +1489,7 @@
         {
           "interaction_id": "U11_I74",
           "type": "matching",
-          "prompt_es": "Verbos y pasados:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -1514,7 +1517,7 @@
         {
           "interaction_id": "U11_I75",
           "type": "true_false",
-          "prompt_es": "¿El pasado continuo de 'Study' es 'Studying'?",
+          "prompt_es": "Sarah y John escucha: ¿El pasado continuo de 'Study' es 'Studying'?",
           "correct_answer": true,
           "mastery_tag": "past_continuous"
         },
@@ -1538,7 +1541,7 @@
         {
           "interaction_id": "U11_I77",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Were they playing games?'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -1597,7 +1600,7 @@
         {
           "interaction_id": "U11_I80",
           "type": "matching",
-          "prompt_es": "Vocabulario de viaje:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -1625,7 +1628,7 @@
         {
           "interaction_id": "U11_I81",
           "type": "true_false",
-          "prompt_es": "¿Se usa 'did' en pasado continuo?",
+          "prompt_es": "Sarah y John escucha: ¿Se usa 'did' en pasado continuo?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, se usa 'was' o 'were'.",
           "mastery_tag": "past_continuous"
@@ -1650,7 +1653,7 @@
         {
           "interaction_id": "U11_I83",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Was it raining when you left?'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -1719,7 +1722,7 @@
         {
           "interaction_id": "U11_I86",
           "type": "matching",
-          "prompt_es": "Vocabulario de transporte:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -1747,7 +1750,7 @@
         {
           "interaction_id": "U11_I87",
           "type": "true_false",
-          "prompt_es": "¿'Baggage' es lo mismo que 'Luggage'?",
+          "prompt_es": "Sarah y John escucha: ¿'Baggage' es lo mismo que 'Luggage'?",
           "correct_answer": true,
           "mastery_tag": "holidays_travel_vocab"
         },
@@ -1771,7 +1774,7 @@
         {
           "interaction_id": "U11_I89",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'What were you talking about?'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -1835,7 +1838,7 @@
         {
           "interaction_id": "U11_I92",
           "type": "matching",
-          "prompt_es": "Vocabulario de viaje:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -1863,7 +1866,7 @@
         {
           "interaction_id": "U11_I93",
           "type": "true_false",
-          "prompt_es": "¿'While' significa 'Mientras'?",
+          "prompt_es": "Sarah y John escucha: ¿'While' significa 'Mientras'?",
           "correct_answer": true,
           "mastery_tag": "past_continuous"
         },
@@ -1887,7 +1890,7 @@
         {
           "interaction_id": "U11_I95",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'I was sleeping in my bed'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -1951,7 +1954,7 @@
         {
           "interaction_id": "U11_I98",
           "type": "matching",
-          "prompt_es": "Pasado Simple vs Continuo:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -1979,7 +1982,7 @@
         {
           "interaction_id": "U11_I99",
           "type": "true_false",
-          "prompt_es": "¿'When' se usa normalmente antes del pasado simple?",
+          "prompt_es": "Sarah y John escucha: ¿'When' se usa normalmente antes del pasado simple?",
           "correct_answer": true,
           "mastery_tag": "past_continuous"
         },

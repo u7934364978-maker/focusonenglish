@@ -13,7 +13,10 @@
       "title": "Grocery Shopping Trip",
       "scenario": {
         "setting": "Supermarket - shopping for healthy food",
-        "characters": ["Sarah", "John"],
+        "characters": [
+          "Sarah",
+          "John"
+        ],
         "objective": "Buy healthy food and discuss nutrition"
       },
       "content": [
@@ -75,7 +78,7 @@
         {
           "interaction_id": "U18_I3",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Bebo mucha agua'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Bebo mucha agua",
           "correct_answer": "I drink a lot of water",
           "mastery_tag": "syntax"
@@ -83,7 +86,7 @@
         {
           "interaction_id": "U18_I4",
           "type": "matching",
-          "prompt_es": "Une las verduras:",
+          "prompt_es": "Sarah en el supermercado comprando comida saludable. Une las palabras:",
           "pairs": [
             {
               "id": "p1",
@@ -117,7 +120,7 @@
         {
           "interaction_id": "U18_I5",
           "type": "transformation",
-          "prompt_es": "Completa con 'Like' o 'Likes' (3ª persona):",
+          "prompt_es": "Sarah compra. Completa:",
           "stimulus_en": "She ________ eating apples.",
           "correct_answer": "likes",
           "mastery_tag": "grammar"
@@ -125,7 +128,7 @@
         {
           "interaction_id": "U18_I6",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'La fruta es buena para ti'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -188,7 +191,7 @@
         {
           "interaction_id": "U18_I9",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'No me gustan los refrescos'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "No me gustan los refrescos",
           "correct_answer": "I don't like soda",
           "mastery_tag": "syntax"
@@ -196,7 +199,7 @@
         {
           "interaction_id": "U18_I10",
           "type": "transformation",
-          "prompt_es": "Completa: '________ vegetables every day.' (Come verduras...)",
+          "prompt_es": "Sarah compra. Completa:",
           "stimulus_en": "________ every day.",
           "correct_answer": "Eat vegetables",
           "mastery_tag": "phrases"
@@ -238,7 +241,7 @@
         {
           "interaction_id": "U18_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Desayuno saludable'?",
+          "prompt_es": "Sarah en el supermercado comprando comida saludable. ¿Cómo se dice 'Desayuno saludable'?",
           "options": [
             {
               "id": "o1",
@@ -259,7 +262,7 @@
         {
           "interaction_id": "U18_I13",
           "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Te gusta el brócoli?'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -296,7 +299,7 @@
         {
           "interaction_id": "U18_I15",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Zumo de naranja'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Zumo de naranja",
           "correct_answer": "Orange juice",
           "mastery_tag": "vocabulary"
@@ -304,7 +307,7 @@
         {
           "interaction_id": "U18_I16",
           "type": "matching",
-          "prompt_es": "Relaciona adjetivos:",
+          "prompt_es": "Sarah en el supermercado comprando comida saludable. Une las palabras:",
           "pairs": [
             {
               "id": "p1",
@@ -353,7 +356,7 @@
         {
           "interaction_id": "U18_I18",
           "type": "transformation",
-          "prompt_es": "Completa: 'I ________ eat burgers.' (No como hamburguesas)",
+          "prompt_es": "Sarah compra. Completa:",
           "stimulus_en": "I ________ eat burgers.",
           "correct_answer": "don't",
           "mastery_tag": "grammar"
@@ -361,7 +364,7 @@
         {
           "interaction_id": "U18_I19",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Mi comida favorita es la ensalada'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -411,7 +414,7 @@
         {
           "interaction_id": "U18_I22",
           "type": "matching",
-          "prompt_es": "Une los verbos:",
+          "prompt_es": "Sarah en el supermercado comprando comida saludable. Une las palabras:",
           "pairs": [
             {
               "id": "p1",
@@ -439,7 +442,7 @@
         {
           "interaction_id": "U18_I23",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Pera'?",
+          "prompt_es": "Sarah en el supermercado comprando comida saludable. ¿Cómo se dice 'Pera'?",
           "options": [
             {
               "id": "o1",
@@ -460,7 +463,7 @@
         {
           "interaction_id": "U18_I24",
           "type": "transformation",
-          "prompt_es": "Completa: 'La ________ (manzana) es roja.'",
+          "prompt_es": "Sarah compra. Completa:",
           "stimulus_en": "The ________ is red.",
           "correct_answer": "apple",
           "mastery_tag": "vocabulary"

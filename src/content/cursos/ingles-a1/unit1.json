@@ -41,14 +41,14 @@
         {
           "interaction_id": "U1_I3",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I am from London.\"",
+          "prompt_es": "John escucha a un compañero decir: \"I am from London.\" ¿Es correcta la frase?",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U1_I4",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "La profesora saluda a Sarah. Ordena las palabras:",
           "options": [
             { "id": "w0", "text": "How" },
             { "id": "w1", "text": "are" },
@@ -69,7 +69,7 @@
         {
           "interaction_id": "U1_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hola (informal)' en inglés?",
+          "prompt_es": "Sarah saluda a John de manera informal. ¿Qué dice?",
           "options": [
             { "id": "o1", "text": "Hi" },
             { "id": "o2", "text": "Hello" },
@@ -81,7 +81,7 @@
         {
           "interaction_id": "U1_I7",
           "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
+          "prompt_es": "Sarah aprende palabras importantes para la clase. Une las palabras:",
           "pairs": [
             { "id": "p0", "left": "Student", "right": "Estudiante" },
             { "id": "p1", "left": "Name", "right": "Nombre" },
@@ -102,7 +102,7 @@
         {
           "interaction_id": "U1_I9",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Nice to meet you.\"",
+          "prompt_es": "Sarah dice a John: \"Nice to meet you.\" ¿Es correcta la frase?",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
@@ -130,7 +130,7 @@
         {
           "interaction_id": "U1_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Adiós' en inglés?",
+          "prompt_es": "Termina la clase y Sarah se despide. ¿Qué dice?",
           "options": [
             { "id": "o1", "text": "Goodbye" },
             { "id": "o2", "text": "Welcome" },
@@ -142,7 +142,7 @@
         {
           "interaction_id": "U1_I13",
           "type": "matching",
-          "prompt_es": "Une el país con su nombre en inglés:",
+          "prompt_es": "Los estudiantes hablan de sus países de origen. Une las palabras:",
           "pairs": [
             { "id": "p0", "left": "Spain", "right": "España" },
             { "id": "p1", "left": "England", "right": "Inglaterra" },
@@ -163,7 +163,7 @@
         {
           "interaction_id": "U1_I15",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Where are you from?\"",
+          "prompt_es": "John pregunta: \"Where are you from?\" ¿Es correcta la frase?",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
@@ -192,7 +192,7 @@
         {
           "interaction_id": "U1_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Bienvenido/a' en inglés?",
+          "prompt_es": "La profesora recibe a Sarah en su primer día. ¿Qué le dice?",
           "options": [
             { "id": "o1", "text": "Welcome" },
             { "id": "o2", "text": "Hello" },
@@ -204,7 +204,7 @@
         {
           "interaction_id": "U1_I19",
           "type": "matching",
-          "prompt_es": "Une el saludo con el momento del día:",
+          "prompt_es": "La profesora enseña cuándo usar cada saludo. Une las palabras:",
           "pairs": [
             { "id": "p0", "left": "Good morning", "right": "Morning" },
             { "id": "p1", "left": "Good afternoon", "right": "Afternoon" },
@@ -225,14 +225,14 @@
         {
           "interaction_id": "U1_I21",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I am fine, thank you.\"",
+          "prompt_es": "Sarah responde a la profesora: \"I am fine, thank you.\" ¿Es correcto?",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U1_I22",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Sarah expresa cómo se siente en su primer día. Ordena las palabras:",
           "options": [
             { "id": "w0", "text": "It" },
             { "id": "w1", "text": "is" },
@@ -255,7 +255,7 @@
         {
           "interaction_id": "U1_I24",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mucho gusto' en inglés?",
+          "prompt_es": "Sarah conoce a más compañeros. ¿Cómo expresa 'Mucho gusto'?",
           "options": [
             { "id": "o1", "text": "Nice to meet you" },
             { "id": "o2", "text": "See you later" },

@@ -13,7 +13,11 @@
       "title": "Career Fair at School",
       "scenario": {
         "setting": "School career fair - learning about different professions",
-        "characters": ["Sarah", "John", "Various professionals"],
+        "characters": [
+          "Sarah",
+          "John",
+          "Various professionals"
+        ],
         "objective": "Learn job vocabulary and talk about careers"
       },
       "content": [
@@ -54,7 +58,7 @@
         {
           "interaction_id": "U9_I2",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "(Ser/Estar - tú) ________ you a nurse?",
           "correct_answer": "Are",
           "mastery_tag": "grammar"
@@ -62,14 +66,14 @@
         {
           "interaction_id": "U9_I3",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"She works in a big office.\"",
+          "prompt_es": "John dice algo. ¿Es correcta esta frase?: \"She works in a big office.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I4",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w0",
@@ -99,7 +103,7 @@
         {
           "interaction_id": "U9_I5",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Sarah necesita decir algo. ¿Cómo se dice en inglés?",
           "stimulus_es": "Ingeniero/a",
           "correct_answer": "Engineer",
           "mastery_tag": "vocabulary"
@@ -172,7 +176,7 @@
         {
           "interaction_id": "U9_I7",
           "type": "matching",
-          "prompt_es": "Une la profesión con su lugar de trabajo:",
+          "prompt_es": "Sarah habla con. Une las palabras:",
           "pairs": [
             {
               "id": "p0",
@@ -206,7 +210,7 @@
         {
           "interaction_id": "U9_I8",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "They (trabajar) ________ in a hospital.",
           "correct_answer": "work",
           "mastery_tag": "grammar"
@@ -214,14 +218,14 @@
         {
           "interaction_id": "U9_I9",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A waiter works in a bank.\"",
+          "prompt_es": "John dice algo. ¿Es correcta esta frase?: \"A waiter works in a bank.\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I10",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w0",
@@ -251,7 +255,7 @@
         {
           "interaction_id": "U9_I11",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Sarah necesita decir algo. ¿Cómo se dice en inglés?",
           "stimulus_es": "Bombero/a",
           "correct_answer": "Firefighter",
           "mastery_tag": "vocabulary"
@@ -259,7 +263,7 @@
         {
           "interaction_id": "U9_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cocinero/a' en inglés?",
+          "prompt_es": "Sarah en la feria de profesiones. ¿Cómo se dice 'Cocinero/a' en inglés?",
           "options": [
             {
               "id": "o1",
@@ -280,7 +284,7 @@
         {
           "interaction_id": "U9_I13",
           "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
+          "prompt_es": "Sarah habla con. Une las palabras:",
           "pairs": [
             {
               "id": "p0",
@@ -314,7 +318,7 @@
         {
           "interaction_id": "U9_I14",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "My sister (ser/estar) ________ a dentist.",
           "correct_answer": "is",
           "mastery_tag": "grammar"
@@ -322,14 +326,14 @@
         {
           "interaction_id": "U9_I15",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Firefighters put out fires.\"",
+          "prompt_es": "John dice algo. ¿Es correcta esta frase?: \"Firefighters put out fires.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I16",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w0",
@@ -359,7 +363,7 @@
         {
           "interaction_id": "U9_I17",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Sarah necesita decir algo. ¿Cómo se dice en inglés?",
           "stimulus_es": "Vendedor/a",
           "correct_answer": "Salesperson",
           "mastery_tag": "vocabulary"
@@ -367,7 +371,7 @@
         {
           "interaction_id": "U9_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mesero/a' en inglés?",
+          "prompt_es": "Sarah en la feria de profesiones. ¿Cómo se dice 'Mesero/a' en inglés?",
           "options": [
             {
               "id": "o1",
@@ -388,7 +392,7 @@
         {
           "interaction_id": "U9_I21",
           "type": "multiple_choice",
-          "prompt_es": "I ___ (look) for my keys everywhere.",
+          "prompt_es": "Sarah pregunta en la feria: I ___ (look) for my keys everywhere.",
           "options": [
             {
               "id": "o1",
@@ -440,7 +444,7 @@
         {
           "interaction_id": "U9_I24",
           "type": "true_false",
-          "prompt_es": "¿Doblamos la consonante en 'Played'?",
+          "prompt_es": "Sarah escucha en la feria: ¿Doblamos la consonante en 'Played'?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, porque termina en vocal + y.",
           "mastery_tag": "past_spelling_rules"
@@ -448,7 +452,7 @@
         {
           "interaction_id": "U9_I25",
           "type": "multiple_choice",
-          "prompt_es": "They ___ (stay) at home all weekend.",
+          "prompt_es": "Sarah pregunta en la feria: They ___ (stay) at home all weekend.",
           "options": [
             {
               "id": "o1",
@@ -465,7 +469,7 @@
         {
           "interaction_id": "U9_I26",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'She did not like the film'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -505,7 +509,7 @@
         {
           "interaction_id": "U9_I27",
           "type": "multiple_choice",
-          "prompt_es": "Did you ___ (finish) your homework?",
+          "prompt_es": "Sarah pregunta en la feria: Did you ___ (finish) your homework?",
           "options": [
             {
               "id": "o1",
@@ -543,7 +547,7 @@
         {
           "interaction_id": "U9_I29",
           "type": "transformation",
-          "prompt_es": "Usa el pasado: 'It ___ (happen) very fast.'",
+          "prompt_es": "Sarah pregunta sobre un profesional. Completa:",
           "stimulus_en": "It ___ (happen) very fast.",
           "correct_answer": "happened",
           "mastery_tag": "past_simple_regular_verbs"
@@ -551,7 +555,7 @@
         {
           "interaction_id": "U9_I30",
           "type": "multiple_choice",
-          "prompt_es": "We ___ (dance) all night long.",
+          "prompt_es": "Sarah pregunta en la feria: We ___ (dance) all night long.",
           "options": [
             {
               "id": "o1",
@@ -603,14 +607,14 @@
         {
           "interaction_id": "U9_I33",
           "type": "true_false",
-          "prompt_es": "¿El pasado de 'Copy' es 'Copied'?",
+          "prompt_es": "Sarah escucha en la feria: ¿El pasado de 'Copy' es 'Copied'?",
           "correct_answer": true,
           "mastery_tag": "past_spelling_rules"
         },
         {
           "interaction_id": "U9_I34",
           "type": "multiple_choice",
-          "prompt_es": "I ___ (not watch) TV yesterday.",
+          "prompt_es": "Sarah pregunta en la feria: I ___ (not watch) TV yesterday.",
           "options": [
             {
               "id": "o1",
@@ -627,7 +631,7 @@
         {
           "interaction_id": "U9_I35",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'They arrived ten minutes ago'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -662,7 +666,7 @@
         {
           "interaction_id": "U9_I36",
           "type": "multiple_choice",
-          "prompt_es": "Did she ___ (answer) your email?",
+          "prompt_es": "Sarah pregunta en la feria: Did she ___ (answer) your email?",
           "options": [
             {
               "id": "o1",
@@ -714,7 +718,7 @@
         {
           "interaction_id": "U9_I39",
           "type": "true_false",
-          "prompt_es": "¿'Loved' se pronuncia con tres sílabas?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Loved' se pronuncia con tres sílabas?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, se pronuncia como una sola sílaba: /lʌvd/.",
           "mastery_tag": "past_simple_regular_verbs"
@@ -722,7 +726,7 @@
         {
           "interaction_id": "U9_I40",
           "type": "multiple_choice",
-          "prompt_es": "He ___ (wash) his car last Saturday.",
+          "prompt_es": "Sarah pregunta en la feria: He ___ (wash) his car last Saturday.",
           "options": [
             {
               "id": "o1",
@@ -739,7 +743,7 @@
         {
           "interaction_id": "U9_I41",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'What did you study at university?'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -784,7 +788,7 @@
         {
           "interaction_id": "U9_I42",
           "type": "multiple_choice",
-          "prompt_es": "I ___ (try) to call you, but I couldn't.",
+          "prompt_es": "Sarah pregunta en la feria: I ___ (try) to call you, but I couldn't.",
           "options": [
             {
               "id": "o1",
@@ -836,7 +840,7 @@
         {
           "interaction_id": "U9_I45",
           "type": "true_false",
-          "prompt_es": "¿En las preguntas con 'Did' usamos el pasado del verbo principal?",
+          "prompt_es": "Sarah escucha en la feria: ¿En las preguntas con 'Did' usamos el pasado del verbo principal?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, usamos el infinitivo: 'Did you go?' no 'Did you went?'.",
           "mastery_tag": "past_simple_regular_verbs"
@@ -844,7 +848,7 @@
         {
           "interaction_id": "U9_I46",
           "type": "multiple_choice",
-          "prompt_es": "We ___ (not stay) at the beach.",
+          "prompt_es": "Sarah pregunta en la feria: We ___ (not stay) at the beach.",
           "options": [
             {
               "id": "o1",
@@ -861,7 +865,7 @@
         {
           "interaction_id": "U9_I47",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'I cleaned my room yesterday morning'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -901,7 +905,7 @@
         {
           "interaction_id": "U9_I48",
           "type": "multiple_choice",
-          "prompt_es": "The concert ___ (start) at 8:00.",
+          "prompt_es": "Sarah pregunta en la feria: The concert ___ (start) at 8:00.",
           "options": [
             {
               "id": "o1",
@@ -953,14 +957,14 @@
         {
           "interaction_id": "U9_I51",
           "type": "true_false",
-          "prompt_es": "¿'Finished' tiene dos sílabas?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Finished' tiene dos sílabas?",
           "correct_answer": true,
           "mastery_tag": "past_simple_regular_verbs"
         },
         {
           "interaction_id": "U9_I52",
           "type": "multiple_choice",
-          "prompt_es": "I ___ (not want) to go out.",
+          "prompt_es": "Sarah pregunta en la feria: I ___ (not want) to go out.",
           "options": [
             {
               "id": "o1",
@@ -977,7 +981,7 @@
         {
           "interaction_id": "U9_I53",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Did you like the book?'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -1017,7 +1021,7 @@
         {
           "interaction_id": "U9_I54",
           "type": "multiple_choice",
-          "prompt_es": "They ___ (walk) ten kilometers.",
+          "prompt_es": "Sarah pregunta en la feria: They ___ (walk) ten kilometers.",
           "options": [
             {
               "id": "o1",
@@ -1069,7 +1073,7 @@
         {
           "interaction_id": "U9_I57",
           "type": "true_false",
-          "prompt_es": "¿'Planned' tiene dos 'n'?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Planned' tiene dos 'n'?",
           "correct_answer": true,
           "feedback_correct_es": "Sí, porque es un verbo corto CVC.",
           "mastery_tag": "past_spelling_rules"
@@ -1077,7 +1081,7 @@
         {
           "interaction_id": "U9_I58",
           "type": "multiple_choice",
-          "prompt_es": "She ___ (not answer) the phone.",
+          "prompt_es": "Sarah pregunta en la feria: She ___ (not answer) the phone.",
           "options": [
             {
               "id": "o1",
@@ -1094,7 +1098,7 @@
         {
           "interaction_id": "U9_I59",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Where did you stay in London?'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -1139,7 +1143,7 @@
         {
           "interaction_id": "U9_I60",
           "type": "multiple_choice",
-          "prompt_es": "I ___ (study) all night.",
+          "prompt_es": "Sarah pregunta en la feria: I ___ (study) all night.",
           "options": [
             {
               "id": "o1",
@@ -1191,7 +1195,7 @@
         {
           "interaction_id": "U9_I63",
           "type": "true_false",
-          "prompt_es": "¿'Enjoyed' tiene una 'i' latina?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Enjoyed' tiene una 'i' latina?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, porque termina en vocal + y.",
           "mastery_tag": "past_spelling_rules"
@@ -1199,7 +1203,7 @@
         {
           "interaction_id": "U9_I64",
           "type": "multiple_choice",
-          "prompt_es": "They ___ (invite) me to the party.",
+          "prompt_es": "Sarah pregunta en la feria: They ___ (invite) me to the party.",
           "options": [
             {
               "id": "o1",
@@ -1216,7 +1220,7 @@
         {
           "interaction_id": "U9_I65",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Who did you talk to?'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -1256,7 +1260,7 @@
         {
           "interaction_id": "U9_I66",
           "type": "multiple_choice",
-          "prompt_es": "We ___ (not use) the computer.",
+          "prompt_es": "Sarah pregunta en la feria: We ___ (not use) the computer.",
           "options": [
             {
               "id": "o1",
@@ -1308,14 +1312,14 @@
         {
           "interaction_id": "U9_I69",
           "type": "true_false",
-          "prompt_es": "¿'Visited' termina en sonido /id/?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Visited' termina en sonido /id/?",
           "correct_answer": true,
           "mastery_tag": "past_simple_regular_verbs"
         },
         {
           "interaction_id": "U9_I70",
           "type": "multiple_choice",
-          "prompt_es": "How much ___ (cost) the ticket?",
+          "prompt_es": "Sarah pregunta en la feria: How much ___ (cost) the ticket?",
           "options": [
             {
               "id": "o1",
@@ -1332,7 +1336,7 @@
         {
           "interaction_id": "U9_I71",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'What time did the show start?'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -1377,7 +1381,7 @@
         {
           "interaction_id": "U9_I72",
           "type": "multiple_choice",
-          "prompt_es": "She ___ (brush) her hair.",
+          "prompt_es": "Sarah pregunta en la feria: She ___ (brush) her hair.",
           "options": [
             {
               "id": "o1",
@@ -1429,14 +1433,14 @@
         {
           "interaction_id": "U9_I75",
           "type": "true_false",
-          "prompt_es": "¿'Cried' es el pasado de 'Cry'?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Cried' es el pasado de 'Cry'?",
           "correct_answer": true,
           "mastery_tag": "past_spelling_rules"
         },
         {
           "interaction_id": "U9_I76",
           "type": "multiple_choice",
-          "prompt_es": "They ___ (not help) us.",
+          "prompt_es": "Sarah pregunta en la feria: They ___ (not help) us.",
           "options": [
             {
               "id": "o1",
@@ -1453,7 +1457,7 @@
         {
           "interaction_id": "U9_I77",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'I finished my work an hour ago'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -1498,7 +1502,7 @@
         {
           "interaction_id": "U9_I78",
           "type": "multiple_choice",
-          "prompt_es": "He ___ (open) the window.",
+          "prompt_es": "Sarah pregunta en la feria: He ___ (open) the window.",
           "options": [
             {
               "id": "o1",
@@ -1550,7 +1554,7 @@
         {
           "interaction_id": "U9_I81",
           "type": "true_false",
-          "prompt_es": "¿'Planned' se pronuncia con dos sílabas?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Planned' se pronuncia con dos sílabas?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, se pronuncia /plænd/.",
           "mastery_tag": "past_simple_regular_verbs"
@@ -1558,7 +1562,7 @@
         {
           "interaction_id": "U9_I82",
           "type": "multiple_choice",
-          "prompt_es": "I ___ (wash) my hands.",
+          "prompt_es": "Sarah pregunta en la feria: I ___ (wash) my hands.",
           "options": [
             {
               "id": "o1",
@@ -1575,7 +1579,7 @@
         {
           "interaction_id": "U9_I83",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Did you finish your project?'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -1615,7 +1619,7 @@
         {
           "interaction_id": "U9_I84",
           "type": "multiple_choice",
-          "prompt_es": "They ___ (not study) for the test.",
+          "prompt_es": "Sarah pregunta en la feria: They ___ (not study) for the test.",
           "options": [
             {
               "id": "o1",
@@ -1667,7 +1671,7 @@
         {
           "interaction_id": "U9_I87",
           "type": "true_false",
-          "prompt_es": "¿'Worked' termina en sonido /id/?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Worked' termina en sonido /id/?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, termina en sonido /t/.",
           "mastery_tag": "past_simple_regular_verbs"
@@ -1675,7 +1679,7 @@
         {
           "interaction_id": "U9_I88",
           "type": "multiple_choice",
-          "prompt_es": "He ___ (cook) a great dinner.",
+          "prompt_es": "Sarah pregunta en la feria: He ___ (cook) a great dinner.",
           "options": [
             {
               "id": "o1",
@@ -1692,7 +1696,7 @@
         {
           "interaction_id": "U9_I89",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Did she call you last night?'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -1737,7 +1741,7 @@
         {
           "interaction_id": "U9_I90",
           "type": "multiple_choice",
-          "prompt_es": "I ___ (not enjoy) the party.",
+          "prompt_es": "Sarah pregunta en la feria: I ___ (not enjoy) the party.",
           "options": [
             {
               "id": "o1",
@@ -1789,14 +1793,14 @@
         {
           "interaction_id": "U9_I93",
           "type": "true_false",
-          "prompt_es": "¿'Tried' es el pasado de 'Try'?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Tried' es el pasado de 'Try'?",
           "correct_answer": true,
           "mastery_tag": "past_spelling_rules"
         },
         {
           "interaction_id": "U9_I94",
           "type": "multiple_choice",
-          "prompt_es": "She ___ (arrive) very late.",
+          "prompt_es": "Sarah pregunta en la feria: She ___ (arrive) very late.",
           "options": [
             {
               "id": "o1",
@@ -1813,7 +1817,7 @@
         {
           "interaction_id": "U9_I95",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Who did you visit yesterday?'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -1853,7 +1857,7 @@
         {
           "interaction_id": "U9_I96",
           "type": "multiple_choice",
-          "prompt_es": "We ___ (not use) the elevator.",
+          "prompt_es": "Sarah pregunta en la feria: We ___ (not use) the elevator.",
           "options": [
             {
               "id": "o1",
@@ -1905,14 +1909,14 @@
         {
           "interaction_id": "U9_I99",
           "type": "true_false",
-          "prompt_es": "¿'Visited' termina en sonido /id/?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Visited' termina en sonido /id/?",
           "correct_answer": true,
           "mastery_tag": "past_simple_regular_verbs"
         },
         {
           "interaction_id": "U9_I100",
           "type": "multiple_choice",
-          "prompt_es": "How much ___ (cost) the ticket?",
+          "prompt_es": "Sarah pregunta en la feria: How much ___ (cost) the ticket?",
           "options": [
             {
               "id": "o1",
@@ -1929,7 +1933,7 @@
         {
           "interaction_id": "U9_I101",
           "type": "multiple_choice",
-          "prompt_es": "He ___ (fix) his bike yesterday.",
+          "prompt_es": "Sarah pregunta en la feria: He ___ (fix) his bike yesterday.",
           "options": [
             {
               "id": "o1",
@@ -1981,7 +1985,7 @@
         {
           "interaction_id": "U9_I104",
           "type": "true_false",
-          "prompt_es": "¿Doblamos la 'l' en 'Traveled' (UK)?",
+          "prompt_es": "Sarah escucha en la feria: ¿Doblamos la 'l' en 'Traveled' (UK)?",
           "correct_answer": true,
           "feedback_correct_es": "Sí, en inglés británico se dobla: travelled.",
           "mastery_tag": "past_spelling_rules"
@@ -1989,7 +1993,7 @@
         {
           "interaction_id": "U9_I105",
           "type": "multiple_choice",
-          "prompt_es": "We ___ (not play) football.",
+          "prompt_es": "Sarah pregunta en la feria: We ___ (not play) football.",
           "options": [
             {
               "id": "o1",
@@ -2006,7 +2010,7 @@
         {
           "interaction_id": "U9_I106",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'She studied English for three years'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -2046,7 +2050,7 @@
         {
           "interaction_id": "U9_I107",
           "type": "multiple_choice",
-          "prompt_es": "Did you ___ (talk) to Sam?",
+          "prompt_es": "Sarah pregunta en la feria: Did you ___ (talk) to Sam?",
           "options": [
             {
               "id": "o1",
@@ -2098,14 +2102,14 @@
         {
           "interaction_id": "U9_I110",
           "type": "true_false",
-          "prompt_es": "¿'Loved' rima con 'Road'?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Loved' rima con 'Road'?",
           "correct_answer": false,
           "mastery_tag": "past_simple_regular_verbs"
         },
         {
           "interaction_id": "U9_I111",
           "type": "multiple_choice",
-          "prompt_es": "The bus ___ (stop) at the corner.",
+          "prompt_es": "Sarah pregunta en la feria: The bus ___ (stop) at the corner.",
           "options": [
             {
               "id": "o1",
@@ -2129,7 +2133,7 @@
         {
           "interaction_id": "U9_I113",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'What did you cook yesterday?'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -2169,7 +2173,7 @@
         {
           "interaction_id": "U9_I114",
           "type": "multiple_choice",
-          "prompt_es": "I ___ (work) all day yesterday.",
+          "prompt_es": "Sarah pregunta en la feria: I ___ (work) all day yesterday.",
           "options": [
             {
               "id": "o1",
@@ -2221,7 +2225,7 @@
         {
           "interaction_id": "U9_I117",
           "type": "true_false",
-          "prompt_es": "¿'Danced' termina en sonido /id/?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Danced' termina en sonido /id/?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, termina en sonido /t/.",
           "mastery_tag": "past_simple_regular_verbs"
@@ -2229,7 +2233,7 @@
         {
           "interaction_id": "U9_I118",
           "type": "multiple_choice",
-          "prompt_es": "They ___ (invite) us last week.",
+          "prompt_es": "Sarah pregunta en la feria: They ___ (invite) us last week.",
           "options": [
             {
               "id": "o1",
@@ -2246,7 +2250,7 @@
         {
           "interaction_id": "U9_I119",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Did you enjoy the trip?'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -2293,7 +2297,7 @@
         {
           "interaction_id": "U9_I121",
           "type": "multiple_choice",
-          "prompt_es": "She ___ (phone) me an hour ago.",
+          "prompt_es": "Sarah pregunta en la feria: She ___ (phone) me an hour ago.",
           "options": [
             {
               "id": "o1",
@@ -2345,7 +2349,7 @@
         {
           "interaction_id": "U9_I124",
           "type": "true_false",
-          "prompt_es": "¿'Happened' se pronuncia con tres sílabas?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Happened' se pronuncia con tres sílabas?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, se pronuncia /'hæpənd/.",
           "mastery_tag": "past_simple_regular_verbs"
@@ -2353,7 +2357,7 @@
         {
           "interaction_id": "U9_I125",
           "type": "multiple_choice",
-          "prompt_es": "It ___ (not rain) yesterday.",
+          "prompt_es": "Sarah pregunta en la feria: It ___ (not rain) yesterday.",
           "options": [
             {
               "id": "o1",
@@ -2370,7 +2374,7 @@
         {
           "interaction_id": "U9_I126",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'They lived in Paris in 2010'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -2417,7 +2421,7 @@
         {
           "interaction_id": "U9_I128",
           "type": "multiple_choice",
-          "prompt_es": "Did they ___ (arrive) on time?",
+          "prompt_es": "Sarah pregunta en la feria: Did they ___ (arrive) on time?",
           "options": [
             {
               "id": "o1",
@@ -2462,14 +2466,14 @@
         {
           "interaction_id": "U9_I130",
           "type": "true_false",
-          "prompt_es": "¿El pasado de 'Study' es 'Studied'?",
+          "prompt_es": "Sarah escucha en la feria: ¿El pasado de 'Study' es 'Studied'?",
           "correct_answer": true,
           "mastery_tag": "past_spelling_rules"
         },
         {
           "interaction_id": "U9_I131",
           "type": "multiple_choice",
-          "prompt_es": "I ___ (clean) my room last night.",
+          "prompt_es": "Sarah pregunta en la feria: I ___ (clean) my room last night.",
           "options": [
             {
               "id": "o1",
@@ -2493,7 +2497,7 @@
         {
           "interaction_id": "U9_I133",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'I didn't watch the news yesterday'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -2533,7 +2537,7 @@
         {
           "interaction_id": "U9_I134",
           "type": "multiple_choice",
-          "prompt_es": "We ___ (wait) for the bus.",
+          "prompt_es": "Sarah pregunta en la feria: We ___ (wait) for the bus.",
           "options": [
             {
               "id": "o1",
@@ -2585,7 +2589,7 @@
         {
           "interaction_id": "U9_I137",
           "type": "true_false",
-          "prompt_es": "¿'Visited' rima con 'Started'?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Visited' rima con 'Started'?",
           "correct_answer": true,
           "feedback_correct_es": "Sí, ambos terminan en el sonido /id/.",
           "mastery_tag": "past_simple_regular_verbs"
@@ -2593,7 +2597,7 @@
         {
           "interaction_id": "U9_I138",
           "type": "multiple_choice",
-          "prompt_es": "I ___ (not like) the cake.",
+          "prompt_es": "Sarah pregunta en la feria: I ___ (not like) the cake.",
           "options": [
             {
               "id": "o1",
@@ -2610,7 +2614,7 @@
         {
           "interaction_id": "U9_I139",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Where did you learn English?'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -2657,7 +2661,7 @@
         {
           "interaction_id": "U9_I141",
           "type": "multiple_choice",
-          "prompt_es": "He ___ (open) the box.",
+          "prompt_es": "Sarah pregunta en la feria: He ___ (open) the box.",
           "options": [
             {
               "id": "o1",
@@ -2709,14 +2713,14 @@
         {
           "interaction_id": "U9_I144",
           "type": "true_false",
-          "prompt_es": "¿Usamos 'Did' para todas las personas (I, you, he...)?",
+          "prompt_es": "Sarah escucha en la feria: ¿Usamos 'Did' para todas las personas (I, you, he...)?",
           "correct_answer": true,
           "mastery_tag": "past_simple_regular_verbs"
         },
         {
           "interaction_id": "U9_I145",
           "type": "multiple_choice",
-          "prompt_es": "They ___ (not answer) my email.",
+          "prompt_es": "Sarah pregunta en la feria: They ___ (not answer) my email.",
           "options": [
             {
               "id": "o1",
@@ -2733,7 +2737,7 @@
         {
           "interaction_id": "U9_I146",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'What time did you arrive home?'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -2785,7 +2789,7 @@
         {
           "interaction_id": "U9_I148",
           "type": "multiple_choice",
-          "prompt_es": "Did she ___ (finish) the report?",
+          "prompt_es": "Sarah pregunta en la feria: Did she ___ (finish) the report?",
           "options": [
             {
               "id": "o1",
@@ -2830,14 +2834,14 @@
         {
           "interaction_id": "U9_I150",
           "type": "true_false",
-          "prompt_es": "¿'Finished' termina en sonido /t/?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Finished' termina en sonido /t/?",
           "correct_answer": true,
           "mastery_tag": "past_simple_regular_verbs"
         },
         {
           "interaction_id": "U9_I151",
           "type": "multiple_choice",
-          "prompt_es": "I ___ (study) math at school.",
+          "prompt_es": "Sarah pregunta en la feria: I ___ (study) math at school.",
           "options": [
             {
               "id": "o1",
@@ -2861,7 +2865,7 @@
         {
           "interaction_id": "U9_I153",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'She didn't like the hotel'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -2896,7 +2900,7 @@
         {
           "interaction_id": "U9_I154",
           "type": "multiple_choice",
-          "prompt_es": "We ___ (dance) a lot last night.",
+          "prompt_es": "Sarah pregunta en la feria: We ___ (dance) a lot last night.",
           "options": [
             {
               "id": "o1",
@@ -2948,7 +2952,7 @@
         {
           "interaction_id": "U9_I157",
           "type": "true_false",
-          "prompt_es": "¿'Stopped' tiene una sola 'p'?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Stopped' tiene una sola 'p'?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, tiene dos 'p': stopped.",
           "mastery_tag": "past_spelling_rules"
@@ -2956,7 +2960,7 @@
         {
           "interaction_id": "U9_I158",
           "type": "multiple_choice",
-          "prompt_es": "They ___ (invite) all their friends.",
+          "prompt_es": "Sarah pregunta en la feria: They ___ (invite) all their friends.",
           "options": [
             {
               "id": "o1",
@@ -2973,7 +2977,7 @@
         {
           "interaction_id": "U9_I159",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Did you use my phone?'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -3020,7 +3024,7 @@
         {
           "interaction_id": "U9_I161",
           "type": "multiple_choice",
-          "prompt_es": "He ___ (wash) the dishes.",
+          "prompt_es": "Sarah pregunta en la feria: He ___ (wash) the dishes.",
           "options": [
             {
               "id": "o1",
@@ -3072,7 +3076,7 @@
         {
           "interaction_id": "U9_I164",
           "type": "true_false",
-          "prompt_es": "¿'Loved' termina en sonido /id/?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Loved' termina en sonido /id/?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, termina en sonido /d/.",
           "mastery_tag": "past_simple_regular_verbs"
@@ -3080,7 +3084,7 @@
         {
           "interaction_id": "U9_I165",
           "type": "multiple_choice",
-          "prompt_es": "They ___ (not play) tennis.",
+          "prompt_es": "Sarah pregunta en la feria: They ___ (not play) tennis.",
           "options": [
             {
               "id": "o1",
@@ -3097,7 +3101,7 @@
         {
           "interaction_id": "U9_I166",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'I finished my homework late'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -3139,7 +3143,7 @@
         {
           "interaction_id": "U9_I168",
           "type": "multiple_choice",
-          "prompt_es": "Did you ___ (watch) the film?",
+          "prompt_es": "Sarah pregunta en la feria: Did you ___ (watch) the film?",
           "options": [
             {
               "id": "o1",
@@ -3184,14 +3188,14 @@
         {
           "interaction_id": "U9_I170",
           "type": "true_false",
-          "prompt_es": "¿'Visited' rima con 'Waited'?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Visited' rima con 'Waited'?",
           "correct_answer": true,
           "mastery_tag": "past_simple_regular_verbs"
         },
         {
           "interaction_id": "U9_I171",
           "type": "multiple_choice",
-          "prompt_es": "I ___ (study) hard for the exam.",
+          "prompt_es": "Sarah pregunta en la feria: I ___ (study) hard for the exam.",
           "options": [
             {
               "id": "o1",
@@ -3215,7 +3219,7 @@
         {
           "interaction_id": "U9_I173",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'She didn't answer my question'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -3250,7 +3254,7 @@
         {
           "interaction_id": "U9_I174",
           "type": "multiple_choice",
-          "prompt_es": "We ___ (dance) all night.",
+          "prompt_es": "Sarah pregunta en la feria: We ___ (dance) all night.",
           "options": [
             {
               "id": "o1",
@@ -3302,14 +3306,14 @@
         {
           "interaction_id": "U9_I177",
           "type": "true_false",
-          "prompt_es": "¿'Stopped' tiene dos 'p'?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Stopped' tiene dos 'p'?",
           "correct_answer": true,
           "mastery_tag": "past_spelling_rules"
         },
         {
           "interaction_id": "U9_I178",
           "type": "multiple_choice",
-          "prompt_es": "They ___ (invite) me.",
+          "prompt_es": "Sarah pregunta en la feria: They ___ (invite) me.",
           "options": [
             {
               "id": "o1",
@@ -3326,7 +3330,7 @@
         {
           "interaction_id": "U9_I179",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Did you use the computer?'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -3373,7 +3377,7 @@
         {
           "interaction_id": "U9_I181",
           "type": "multiple_choice",
-          "prompt_es": "He ___ (wash) his hair.",
+          "prompt_es": "Sarah pregunta en la feria: He ___ (wash) his hair.",
           "options": [
             {
               "id": "o1",
@@ -3425,14 +3429,14 @@
         {
           "interaction_id": "U9_I184",
           "type": "true_false",
-          "prompt_es": "¿'Loved' termina en sonido /id/?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Loved' termina en sonido /id/?",
           "correct_answer": false,
           "mastery_tag": "past_simple_regular_verbs"
         },
         {
           "interaction_id": "U9_I185",
           "type": "multiple_choice",
-          "prompt_es": "They ___ (not play) chess.",
+          "prompt_es": "Sarah pregunta en la feria: They ___ (not play) chess.",
           "options": [
             {
               "id": "o1",
@@ -3449,7 +3453,7 @@
         {
           "interaction_id": "U9_I186",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'I finished my work early'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -3491,7 +3495,7 @@
         {
           "interaction_id": "U9_I188",
           "type": "multiple_choice",
-          "prompt_es": "Did you ___ (watch) TV?",
+          "prompt_es": "Sarah pregunta en la feria: Did you ___ (watch) TV?",
           "options": [
             {
               "id": "o1",
@@ -3536,14 +3540,14 @@
         {
           "interaction_id": "U9_I190",
           "type": "true_false",
-          "prompt_es": "¿'Visited' rima con 'Started'?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Visited' rima con 'Started'?",
           "correct_answer": true,
           "mastery_tag": "past_simple_regular_verbs"
         },
         {
           "interaction_id": "U9_I191",
           "type": "multiple_choice",
-          "prompt_es": "I ___ (study) French last year.",
+          "prompt_es": "Sarah pregunta en la feria: I ___ (study) French last year.",
           "options": [
             {
               "id": "o1",
@@ -3567,7 +3571,7 @@
         {
           "interaction_id": "U9_I193",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'She didn't like the food'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -3602,7 +3606,7 @@
         {
           "interaction_id": "U9_I194",
           "type": "multiple_choice",
-          "prompt_es": "We ___ (dance) together.",
+          "prompt_es": "Sarah pregunta en la feria: We ___ (dance) together.",
           "options": [
             {
               "id": "o1",
@@ -3654,14 +3658,14 @@
         {
           "interaction_id": "U9_I197",
           "type": "true_false",
-          "prompt_es": "¿'Stopped' se escribe con una 'p'?",
+          "prompt_es": "Sarah escucha en la feria: ¿'Stopped' se escribe con una 'p'?",
           "correct_answer": false,
           "mastery_tag": "past_spelling_rules"
         },
         {
           "interaction_id": "U9_I198",
           "type": "multiple_choice",
-          "prompt_es": "They ___ (invite) us to lunch.",
+          "prompt_es": "Sarah pregunta en la feria: They ___ (invite) us to lunch.",
           "options": [
             {
               "id": "o1",
@@ -3678,7 +3682,7 @@
         {
           "interaction_id": "U9_I199",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Did you use the phone?'",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",

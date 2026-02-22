@@ -13,14 +13,17 @@
       "title": "Shopping at the Market",
       "scenario": {
         "setting": "Local market - shopping for groceries",
-        "characters": ["Sarah", "Market vendor"],
+        "characters": [
+          "Sarah",
+          "Market vendor"
+        ],
         "objective": "Use larger numbers for prices and quantities"
       },
       "content": [
         {
           "interaction_id": "U8_I1",
           "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
+          "prompt_es": "Sarah compra. Une las palabras:",
           "pairs": [
             {
               "id": "p0",
@@ -54,7 +57,7 @@
         {
           "interaction_id": "U8_I2",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "The number is (cuarenta y cinco) ________.",
           "correct_answer": "forty-five",
           "mastery_tag": "grammar"
@@ -62,14 +65,14 @@
         {
           "interaction_id": "U8_I3",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"He is forty-two years old.\"",
+          "prompt_es": "Market vendor dice algo. ¿Es correcta esta frase?: \"He is forty-two years old.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U8_I4",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w0",
@@ -104,7 +107,7 @@
         {
           "interaction_id": "U8_I5",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Sarah necesita decir algo. ¿Cómo se dice en inglés?",
           "stimulus_es": "Treinta y tres",
           "correct_answer": "Thirty-three",
           "mastery_tag": "vocabulary"
@@ -112,7 +115,7 @@
         {
           "interaction_id": "U8_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Sesenta' en inglés?",
+          "prompt_es": "Sarah en el mercado. ¿Cómo se dice 'Sesenta' en inglés?",
           "options": [
             {
               "id": "o1",
@@ -133,7 +136,7 @@
         {
           "interaction_id": "U8_I7",
           "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
+          "prompt_es": "Sarah compra. Une las palabras:",
           "pairs": [
             {
               "id": "p0",
@@ -167,7 +170,7 @@
         {
           "interaction_id": "U8_I8",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "I have (ochenta) ________ books.",
           "correct_answer": "eighty",
           "mastery_tag": "grammar"
@@ -175,14 +178,14 @@
         {
           "interaction_id": "U8_I9",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The price is twenty-five dollars.\"",
+          "prompt_es": "Market vendor dice algo. ¿Es correcta esta frase?: \"The price is twenty-five dollars.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U14_I10",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w0",
@@ -212,7 +215,7 @@
         {
           "interaction_id": "U8_I11",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Sarah necesita decir algo. ¿Cómo se dice en inglés?",
           "stimulus_es": "Setenta y ocho",
           "correct_answer": "Seventy-eight",
           "mastery_tag": "vocabulary"
@@ -220,7 +223,7 @@
         {
           "interaction_id": "U8_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ochenta' en inglés?",
+          "prompt_es": "Sarah en el mercado. ¿Cómo se dice 'Ochenta' en inglés?",
           "options": [
             {
               "id": "o1",
@@ -241,7 +244,7 @@
         {
           "interaction_id": "U8_I13",
           "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
+          "prompt_es": "Sarah compra. Une las palabras:",
           "pairs": [
             {
               "id": "p0",
@@ -275,7 +278,7 @@
         {
           "interaction_id": "U8_I14",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "The bus has (treinta) ________ seats.",
           "correct_answer": "thirty",
           "mastery_tag": "grammar"
@@ -283,14 +286,14 @@
         {
           "interaction_id": "U8_I15",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"I have sixty-one euros.\"",
+          "prompt_es": "Market vendor dice algo. ¿Es correcta esta frase?: \"I have sixty-one euros.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U8_I16",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w0",
@@ -320,7 +323,7 @@
         {
           "interaction_id": "U8_I17",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Sarah necesita decir algo. ¿Cómo se dice en inglés?",
           "stimulus_es": "Cien por cien",
           "correct_answer": "One hundred percent",
           "mastery_tag": "vocabulary"
@@ -328,7 +331,7 @@
         {
           "interaction_id": "U8_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cincuenta' en inglés?",
+          "prompt_es": "Sarah en el mercado. ¿Cómo se dice 'Cincuenta' en inglés?",
           "options": [
             {
               "id": "o1",

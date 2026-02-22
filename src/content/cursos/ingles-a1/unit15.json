@@ -13,31 +13,65 @@
       "title": "Talking About Friends",
       "scenario": {
         "setting": "Describing friends' habits and routines",
-        "characters": ["Sarah", "John", "Emma (being discussed)"],
+        "characters": [
+          "Sarah",
+          "John",
+          "Emma (being discussed)"
+        ],
         "objective": "Describe what other people do using he/she/it"
       },
       "content": [
         {
           "interaction_id": "U15_I1",
           "type": "matching",
-          "prompt_es": "Une el verbo base con su forma de 3ª persona (he/she/it):",
+          "prompt_es": "Sarah describiendo amigos. Une las palabras:",
           "pairs": [
-            { "id": "p1", "left": "Work", "right": "Works" },
-            { "id": "p2", "left": "Go", "right": "Goes" },
-            { "id": "p3", "left": "Study", "right": "Studies" },
-            { "id": "p4", "left": "Have", "right": "Has" }
+            {
+              "id": "p1",
+              "left": "Work",
+              "right": "Works"
+            },
+            {
+              "id": "p2",
+              "left": "Go",
+              "right": "Goes"
+            },
+            {
+              "id": "p3",
+              "left": "Study",
+              "right": "Studies"
+            },
+            {
+              "id": "p4",
+              "left": "Have",
+              "right": "Has"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U15_I2",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la frase correcta:",
+          "prompt_es": "John escucha una frase. Selecciona la frase correcta:",
           "options": [
-            { "id": "o1", "text": "She play the guitar." },
-            { "id": "o2", "text": "She plays the guitar." },
-            { "id": "o3", "text": "She playes the guitar." }
+            {
+              "id": "o1",
+              "text": "She play the guitar."
+            },
+            {
+              "id": "o2",
+              "text": "She plays the guitar."
+            },
+            {
+              "id": "o3",
+              "text": "She playes the guitar."
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "grammar"
@@ -61,11 +95,20 @@
         {
           "interaction_id": "U15_I5",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma negativa correcta?",
+          "prompt_es": "John escucha una frase. ¿Cuál es la forma negativa correcta?",
           "options": [
-            { "id": "o1", "text": "He doesn't works here." },
-            { "id": "o2", "text": "He doesn't work here." },
-            { "id": "o3", "text": "He don't work here." }
+            {
+              "id": "o1",
+              "text": "He doesn't works here."
+            },
+            {
+              "id": "o2",
+              "text": "He doesn't work here."
+            },
+            {
+              "id": "o3",
+              "text": "He don't work here."
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "grammar"
@@ -73,15 +116,36 @@
         {
           "interaction_id": "U15_I6",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Ella no vive en Madrid'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "doesn't" },
-            { "id": "w2", "text": "live" },
-            { "id": "w3", "text": "in" },
-            { "id": "w4", "text": "Madrid" },
-            { "id": "w0", "text": "She" }
+            {
+              "id": "w1",
+              "text": "doesn't"
+            },
+            {
+              "id": "w2",
+              "text": "live"
+            },
+            {
+              "id": "w3",
+              "text": "in"
+            },
+            {
+              "id": "w4",
+              "text": "Madrid"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -96,9 +160,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se pregunta '¿Ella habla inglés?'?",
           "options": [
-            { "id": "o1", "text": "Does she speaks English?" },
-            { "id": "o2", "text": "Does she speak English?" },
-            { "id": "o3", "text": "Do she speak English?" }
+            {
+              "id": "o1",
+              "text": "Does she speaks English?"
+            },
+            {
+              "id": "o2",
+              "text": "Does she speak English?"
+            },
+            {
+              "id": "o3",
+              "text": "Do she speak English?"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "grammar"
@@ -106,7 +179,7 @@
         {
           "interaction_id": "U15_I9",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Él tiene un perro'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Él tiene un perro",
           "correct_answer": "He has a dog",
           "mastery_tag": "syntax"
@@ -114,18 +187,29 @@
         {
           "interaction_id": "U15_I10",
           "type": "matching",
-          "prompt_es": "Une el sujeto con el auxiliar negativo:",
+          "prompt_es": "Sarah describiendo amigos. Une las palabras:",
           "pairs": [
-            { "id": "p1", "left": "I / You / We / They", "right": "Don't" },
-            { "id": "p2", "left": "He / She / It", "right": "Doesn't" }
+            {
+              "id": "p1",
+              "left": "I / You / We / They",
+              "right": "Don't"
+            },
+            {
+              "id": "p2",
+              "left": "He / She / It",
+              "right": "Doesn't"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2"
+          },
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U15_I11",
           "type": "transformation",
-          "prompt_es": "Completa con 's', 'es' o 'ies' (She ________ TV):",
+          "prompt_es": "Sarah describe a. Completa:",
           "stimulus_en": "She watch________ TV every night.",
           "correct_answer": "es",
           "mastery_tag": "grammar"
@@ -133,24 +217,50 @@
         {
           "interaction_id": "U15_I12",
           "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Le gusta a él el café?'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "he" },
-            { "id": "w2", "text": "like" },
-            { "id": "w3", "text": "coffee" },
-            { "id": "w0", "text": "Does" }
+            {
+              "id": "w1",
+              "text": "he"
+            },
+            {
+              "id": "w2",
+              "text": "like"
+            },
+            {
+              "id": "w3",
+              "text": "coffee"
+            },
+            {
+              "id": "w0",
+              "text": "Does"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U15_I13",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma correcta para 'it'?",
+          "prompt_es": "John escucha una frase. ¿Cuál es la forma correcta para 'it'?",
           "options": [
-            { "id": "o1", "text": "The cat drink milk." },
-            { "id": "o2", "text": "The cat drinks milk." },
-            { "id": "o3", "text": "The cat drinkes milk." }
+            {
+              "id": "o1",
+              "text": "The cat drink milk."
+            },
+            {
+              "id": "o2",
+              "text": "The cat drinks milk."
+            },
+            {
+              "id": "o3",
+              "text": "The cat drinkes milk."
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "grammar"
@@ -165,7 +275,7 @@
         {
           "interaction_id": "U15_I15",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Ella estudia medicina'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Ella estudia medicina",
           "correct_answer": "She studies medicine",
           "mastery_tag": "syntax"
@@ -175,22 +285,52 @@
           "type": "matching",
           "prompt_es": "Reglas de ortografía (añadir...):",
           "pairs": [
-            { "id": "p1", "left": "Play", "right": "+ s (Plays)" },
-            { "id": "p2", "left": "Watch", "right": "+ es (Watches)" },
-            { "id": "p3", "left": "Fly", "right": "-y + ies (Flies)" },
-            { "id": "p4", "left": "Do", "right": "+ es (Does)" }
+            {
+              "id": "p1",
+              "left": "Play",
+              "right": "+ s (Plays)"
+            },
+            {
+              "id": "p2",
+              "left": "Watch",
+              "right": "+ es (Watches)"
+            },
+            {
+              "id": "p3",
+              "left": "Fly",
+              "right": "-y + ies (Flies)"
+            },
+            {
+              "id": "p4",
+              "left": "Do",
+              "right": "+ es (Does)"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U15_I17",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la frase negativa correcta:",
+          "prompt_es": "John escucha una frase. Selecciona la frase negativa correcta:",
           "options": [
-            { "id": "o1", "text": "It doesn't rain much here." },
-            { "id": "o2", "text": "It don't rain much here." },
-            { "id": "o3", "text": "It doesn't rains much here." }
+            {
+              "id": "o1",
+              "text": "It doesn't rain much here."
+            },
+            {
+              "id": "o2",
+              "text": "It don't rain much here."
+            },
+            {
+              "id": "o3",
+              "text": "It doesn't rains much here."
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -198,7 +338,7 @@
         {
           "interaction_id": "U15_I18",
           "type": "transformation",
-          "prompt_es": "Completa la pregunta: '________ he play tennis?'",
+          "prompt_es": "Sarah describe a. Completa:",
           "stimulus_en": "________ he play tennis?",
           "correct_answer": "Does",
           "mastery_tag": "grammar"
@@ -206,15 +346,36 @@
         {
           "interaction_id": "U15_I19",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Mi padre cocina muy bien'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "father" },
-            { "id": "w2", "text": "cooks" },
-            { "id": "w3", "text": "very" },
-            { "id": "w4", "text": "well" },
-            { "id": "w0", "text": "My" }
+            {
+              "id": "w1",
+              "text": "father"
+            },
+            {
+              "id": "w2",
+              "text": "cooks"
+            },
+            {
+              "id": "w3",
+              "text": "very"
+            },
+            {
+              "id": "w4",
+              "text": "well"
+            },
+            {
+              "id": "w0",
+              "text": "My"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -227,7 +388,7 @@
         {
           "interaction_id": "U15_I21",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Ella va al gimnasio'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Ella va al gimnasio",
           "correct_answer": "She goes to the gym",
           "mastery_tag": "syntax"
@@ -235,13 +396,29 @@
         {
           "interaction_id": "U15_I22",
           "type": "matching",
-          "prompt_es": "Relaciona sujeto y verbo:",
+          "prompt_es": "Sarah describiendo amigos. Une las palabras:",
           "pairs": [
-            { "id": "p1", "left": "He", "right": "Wants" },
-            { "id": "p2", "left": "She", "right": "Needs" },
-            { "id": "p3", "left": "It", "right": "Works" }
+            {
+              "id": "p1",
+              "left": "He",
+              "right": "Wants"
+            },
+            {
+              "id": "p2",
+              "left": "She",
+              "right": "Needs"
+            },
+            {
+              "id": "p3",
+              "left": "It",
+              "right": "Works"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "grammar"
         },
         {
@@ -249,9 +426,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la 3ª persona de 'Finish'?",
           "options": [
-            { "id": "o1", "text": "Finishs" },
-            { "id": "o2", "text": "Finishes" },
-            { "id": "o3", "text": "Finishies" }
+            {
+              "id": "o1",
+              "text": "Finishs"
+            },
+            {
+              "id": "o2",
+              "text": "Finishes"
+            },
+            {
+              "id": "o3",
+              "text": "Finishies"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "grammar"
@@ -259,7 +445,7 @@
         {
           "interaction_id": "U15_I24",
           "type": "transformation",
-          "prompt_es": "Completa: 'A mi hermana le gusta la pizza'",
+          "prompt_es": "Sarah describe a. Completa:",
           "stimulus_en": "My sister ________ pizza.",
           "correct_answer": "likes",
           "mastery_tag": "grammar"

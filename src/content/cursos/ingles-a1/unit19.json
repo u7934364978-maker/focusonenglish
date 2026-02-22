@@ -13,21 +13,45 @@
       "title": "Tour of Sarah's City",
       "scenario": {
         "setting": "Walking tour - Sarah shows John around town",
-        "characters": ["Sarah", "John"],
+        "characters": [
+          "Sarah",
+          "John"
+        ],
         "objective": "Describe places and locations in the city"
       },
       "content": [
         {
           "interaction_id": "U19_I1",
           "type": "matching",
-          "prompt_es": "Une cada lugar con su traducción:",
+          "prompt_es": "Sarah paseando por la ciudad. Une las palabras:",
           "pairs": [
-            { "id": "p1", "left": "Hospital", "right": "Hospital" },
-            { "id": "p2", "left": "School", "right": "Escuela" },
-            { "id": "p3", "left": "Park", "right": "Parque" },
-            { "id": "p4", "left": "Library", "right": "Biblioteca" }
+            {
+              "id": "p1",
+              "left": "Hospital",
+              "right": "Hospital"
+            },
+            {
+              "id": "p2",
+              "left": "School",
+              "right": "Escuela"
+            },
+            {
+              "id": "p3",
+              "left": "Park",
+              "right": "Parque"
+            },
+            {
+              "id": "p4",
+              "left": "Library",
+              "right": "Biblioteca"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -35,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Dónde puedes comprar comida?",
           "options": [
-            { "id": "o1", "text": "Supermarket" },
-            { "id": "o2", "text": "Cinema" },
-            { "id": "o3", "text": "Bank" }
+            {
+              "id": "o1",
+              "text": "Supermarket"
+            },
+            {
+              "id": "o2",
+              "text": "Cinema"
+            },
+            {
+              "id": "o3",
+              "text": "Bank"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -53,20 +86,41 @@
         {
           "interaction_id": "U19_I4",
           "type": "matching",
-          "prompt_es": "Lugares de ocio:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
-            { "id": "p1", "left": "Cinema", "right": "Cine" },
-            { "id": "p2", "left": "Restaurant", "right": "Restaurante" },
-            { "id": "p3", "left": "Museum", "right": "Museo" },
-            { "id": "p4", "left": "Hotel", "right": "Hotel" }
+            {
+              "id": "p1",
+              "left": "Cinema",
+              "right": "Cine"
+            },
+            {
+              "id": "p2",
+              "left": "Restaurant",
+              "right": "Restaurante"
+            },
+            {
+              "id": "p3",
+              "left": "Museum",
+              "right": "Museo"
+            },
+            {
+              "id": "p4",
+              "left": "Hotel",
+              "right": "Hotel"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I5",
           "type": "transformation",
-          "prompt_es": "Completa con 'Next to' (Al lado de):",
+          "prompt_es": "Sarah muestra. Completa:",
           "stimulus_en": "The bank is ________ the park.",
           "correct_answer": "next to",
           "mastery_tag": "prepositions"
@@ -74,15 +128,36 @@
         {
           "interaction_id": "U19_I6",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Hay un gran parque'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "a" },
-            { "id": "w3", "text": "big" },
-            { "id": "w4", "text": "park" },
-            { "id": "w0", "text": "There" }
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "big"
+            },
+            {
+              "id": "w4",
+              "text": "park"
+            },
+            {
+              "id": "w0",
+              "text": "There"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -90,9 +165,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Bus station'?",
           "options": [
-            { "id": "o1", "text": "Estación de autobuses" },
-            { "id": "o2", "text": "Estación de tren" },
-            { "id": "o3", "text": "Parada de taxis" }
+            {
+              "id": "o1",
+              "text": "Estación de autobuses"
+            },
+            {
+              "id": "o2",
+              "text": "Estación de tren"
+            },
+            {
+              "id": "o3",
+              "text": "Parada de taxis"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -100,14 +184,14 @@
         {
           "interaction_id": "U19_I8",
           "type": "true_false",
-          "prompt_es": "'Near' significa 'Lejos'.",
+          "prompt_es": "Sarah y John escucha: 'Near' significa 'Lejos'.",
           "correct_answer": false,
           "mastery_tag": "prepositions"
         },
         {
           "interaction_id": "U19_I9",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Vivo en una ciudad'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Vivo en una ciudad",
           "correct_answer": "I live in a city",
           "mastery_tag": "syntax"
@@ -115,7 +199,7 @@
         {
           "interaction_id": "U19_I10",
           "type": "transformation",
-          "prompt_es": "Completa: '________ (Hay) a lot of shops.'",
+          "prompt_es": "Sarah muestra. Completa:",
           "stimulus_en": "________ a lot of shops.",
           "correct_answer": "There are",
           "mastery_tag": "grammar"
@@ -123,14 +207,35 @@
         {
           "interaction_id": "U19_I11",
           "type": "matching",
-          "prompt_es": "Preposiciones de lugar:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
-            { "id": "p1", "left": "Opposite", "right": "Enfrente de" },
-            { "id": "p2", "left": "Between", "right": "Entre" },
-            { "id": "p3", "left": "Behind", "right": "Detrás de" },
-            { "id": "p4", "left": "In front of", "right": "Delante de" }
+            {
+              "id": "p1",
+              "left": "Opposite",
+              "right": "Enfrente de"
+            },
+            {
+              "id": "p2",
+              "left": "Between",
+              "right": "Entre"
+            },
+            {
+              "id": "p3",
+              "left": "Behind",
+              "right": "Detrás de"
+            },
+            {
+              "id": "p4",
+              "left": "In front of",
+              "right": "Delante de"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "prepositions"
         },
         {
@@ -138,9 +243,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Dónde puedes leer libros gratis?",
           "options": [
-            { "id": "o1", "text": "Library" },
-            { "id": "o2", "text": "Cinema" },
-            { "id": "o3", "text": "Bank" }
+            {
+              "id": "o1",
+              "text": "Library"
+            },
+            {
+              "id": "o2",
+              "text": "Cinema"
+            },
+            {
+              "id": "o3",
+              "text": "Bank"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -148,27 +262,44 @@
         {
           "interaction_id": "U19_I13",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'La escuela está cerca'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "school" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "near" },
-            { "id": "w0", "text": "The" }
+            {
+              "id": "w1",
+              "text": "school"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "near"
+            },
+            {
+              "id": "w0",
+              "text": "The"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U19_I14",
           "type": "true_false",
-          "prompt_es": "'Town' es más grande que 'City'.",
+          "prompt_es": "Sarah y John escucha: 'Town' es más grande que 'City'.",
           "correct_answer": false,
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I15",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Estación de tren'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Estación de tren",
           "correct_answer": "Train station",
           "mastery_tag": "vocabulary"
@@ -176,13 +307,29 @@
         {
           "interaction_id": "U19_I16",
           "type": "matching",
-          "prompt_es": "Verbos de movimiento:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
-            { "id": "p1", "left": "Go", "right": "Ir" },
-            { "id": "p2", "left": "Visit", "right": "Visitar" },
-            { "id": "p3", "left": "Walk", "right": "Caminar" }
+            {
+              "id": "p1",
+              "left": "Go",
+              "right": "Ir"
+            },
+            {
+              "id": "p2",
+              "left": "Visit",
+              "right": "Visitar"
+            },
+            {
+              "id": "p3",
+              "left": "Walk",
+              "right": "Caminar"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -190,9 +337,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Between'?",
           "options": [
-            { "id": "o1", "text": "Entre (dos cosas)" },
-            { "id": "o2", "text": "Encima" },
-            { "id": "o3", "text": "Debajo" }
+            {
+              "id": "o1",
+              "text": "Entre (dos cosas)"
+            },
+            {
+              "id": "o2",
+              "text": "Encima"
+            },
+            {
+              "id": "o3",
+              "text": "Debajo"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "prepositions"
@@ -200,7 +356,7 @@
         {
           "interaction_id": "U19_I18",
           "type": "transformation",
-          "prompt_es": "Completa: 'I go to ________ (la escuela) every day.'",
+          "prompt_es": "Sarah muestra. Completa:",
           "stimulus_en": "I go to ________ every day.",
           "correct_answer": "school",
           "mastery_tag": "vocabulary"
@@ -208,21 +364,42 @@
         {
           "interaction_id": "U19_I19",
           "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Cómo llego allí?'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "do" },
-            { "id": "w2", "text": "I" },
-            { "id": "w3", "text": "get" },
-            { "id": "w4", "text": "there?" },
-            { "id": "w0", "text": "How" }
+            {
+              "id": "w1",
+              "text": "do"
+            },
+            {
+              "id": "w2",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "get"
+            },
+            {
+              "id": "w4",
+              "text": "there?"
+            },
+            {
+              "id": "w0",
+              "text": "How"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U19_I20",
           "type": "true_false",
-          "prompt_es": "En inglés, decimos 'I am in the street'.",
+          "prompt_es": "Sarah y John escucha: En inglés, decimos 'I am in the street'.",
           "correct_answer": true,
           "mastery_tag": "prepositions"
         },
@@ -237,23 +414,48 @@
         {
           "interaction_id": "U19_I22",
           "type": "matching",
-          "prompt_es": "Servicios públicos:",
+          "prompt_es": "Sarah y John aprende vocabulario. Une:",
           "pairs": [
-            { "id": "p1", "left": "Police station", "right": "Comisaría" },
-            { "id": "p2", "left": "Post office", "right": "Oficina de correos" },
-            { "id": "p3", "left": "Pharmacy", "right": "Farmacia" }
+            {
+              "id": "p1",
+              "left": "Police station",
+              "right": "Comisaría"
+            },
+            {
+              "id": "p2",
+              "left": "Post office",
+              "right": "Oficina de correos"
+            },
+            {
+              "id": "p3",
+              "left": "Pharmacy",
+              "right": "Farmacia"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U19_I23",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Pueblo'?",
+          "prompt_es": "Sarah paseando por la ciudad. ¿Cómo se dice 'Pueblo'?",
           "options": [
-            { "id": "o1", "text": "Town" },
-            { "id": "o2", "text": "Tower" },
-            { "id": "o3", "text": "Total" }
+            {
+              "id": "o1",
+              "text": "Town"
+            },
+            {
+              "id": "o2",
+              "text": "Tower"
+            },
+            {
+              "id": "o3",
+              "text": "Total"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -261,7 +463,7 @@
         {
           "interaction_id": "U19_I24",
           "type": "transformation",
-          "prompt_es": "Completa: 'The ________ (cine) is big.'",
+          "prompt_es": "Sarah muestra. Completa:",
           "stimulus_en": "The ________ is big.",
           "correct_answer": "cinema",
           "mastery_tag": "vocabulary"

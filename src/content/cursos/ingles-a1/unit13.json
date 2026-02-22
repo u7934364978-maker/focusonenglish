@@ -13,31 +13,64 @@
       "title": "Comparing Morning Routines",
       "scenario": {
         "setting": "Casual conversation about daily habits",
-        "characters": ["Sarah", "John"],
+        "characters": [
+          "Sarah",
+          "John"
+        ],
         "objective": "Describe and compare morning routines"
       },
       "content": [
         {
           "interaction_id": "U13_I1",
           "type": "matching",
-          "prompt_es": "Une cada acción con su traducción:",
+          "prompt_es": "Sarah comparando rutinas diarias. Une las palabras:",
           "pairs": [
-            { "id": "p1", "left": "Wake up", "right": "Despertarse" },
-            { "id": "p2", "left": "Get up", "right": "Levantarse" },
-            { "id": "p3", "left": "Take a shower", "right": "Ducharse" },
-            { "id": "p4", "left": "Get dressed", "right": "Vestirse" }
+            {
+              "id": "p1",
+              "left": "Wake up",
+              "right": "Despertarse"
+            },
+            {
+              "id": "p2",
+              "left": "Get up",
+              "right": "Levantarse"
+            },
+            {
+              "id": "p3",
+              "left": "Take a shower",
+              "right": "Ducharse"
+            },
+            {
+              "id": "p4",
+              "left": "Get dressed",
+              "right": "Vestirse"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U13_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Desayunar'?",
+          "prompt_es": "Sarah comparando rutinas diarias. ¿Cómo se dice 'Desayunar'?",
           "options": [
-            { "id": "o1", "text": "Have breakfast" },
-            { "id": "o2", "text": "Have lunch" },
-            { "id": "o3", "text": "Have dinner" }
+            {
+              "id": "o1",
+              "text": "Have breakfast"
+            },
+            {
+              "id": "o2",
+              "text": "Have lunch"
+            },
+            {
+              "id": "o3",
+              "text": "Have dinner"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -55,18 +88,39 @@
           "type": "matching",
           "prompt_es": "Acciones de la mañana:",
           "pairs": [
-            { "id": "p1", "left": "Brush teeth", "right": "Cepillarse los dientes" },
-            { "id": "p2", "left": "Comb hair", "right": "Peinarse" },
-            { "id": "p3", "left": "Wash face", "right": "Lavarse la cara" },
-            { "id": "p4", "left": "Make the bed", "right": "Hacer la cama" }
+            {
+              "id": "p1",
+              "left": "Brush teeth",
+              "right": "Cepillarse los dientes"
+            },
+            {
+              "id": "p2",
+              "left": "Comb hair",
+              "right": "Peinarse"
+            },
+            {
+              "id": "p3",
+              "left": "Wash face",
+              "right": "Lavarse la cara"
+            },
+            {
+              "id": "p4",
+              "left": "Make the bed",
+              "right": "Hacer la cama"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U13_I5",
           "type": "transformation",
-          "prompt_es": "Completa con el verbo correcto (Yo ________ a las 7:00):",
+          "prompt_es": "Sarah describe su rutina. Completa:",
           "stimulus_en": "I ________ up at seven o'clock.",
           "correct_answer": "wake",
           "mastery_tag": "grammar"
@@ -74,15 +128,36 @@
         {
           "interaction_id": "U13_I6",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Cenamos a las ocho'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "have" },
-            { "id": "w2", "text": "dinner" },
-            { "id": "w3", "text": "at" },
-            { "id": "w4", "text": "eight" },
-            { "id": "w0", "text": "We" }
+            {
+              "id": "w1",
+              "text": "have"
+            },
+            {
+              "id": "w2",
+              "text": "dinner"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w4",
+              "text": "eight"
+            },
+            {
+              "id": "w0",
+              "text": "We"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -90,9 +165,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué haces antes de dormir?",
           "options": [
-            { "id": "o1", "text": "Go to bed" },
-            { "id": "o2", "text": "Go to work" },
-            { "id": "o3", "text": "Wake up" }
+            {
+              "id": "o1",
+              "text": "Go to bed"
+            },
+            {
+              "id": "o2",
+              "text": "Go to work"
+            },
+            {
+              "id": "o3",
+              "text": "Wake up"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -107,7 +191,7 @@
         {
           "interaction_id": "U13_I9",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Vuelvo a casa'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Vuelvo a casa",
           "correct_answer": "I go home",
           "mastery_tag": "syntax"
@@ -117,18 +201,39 @@
           "type": "matching",
           "prompt_es": "Comidas del día:",
           "pairs": [
-            { "id": "p1", "left": "Breakfast", "right": "Desayuno" },
-            { "id": "p2", "left": "Lunch", "right": "Almuerzo/Comida" },
-            { "id": "p3", "left": "Dinner", "right": "Cena" },
-            { "id": "p4", "left": "Snack", "right": "Merienda/Tentempié" }
+            {
+              "id": "p1",
+              "left": "Breakfast",
+              "right": "Desayuno"
+            },
+            {
+              "id": "p2",
+              "left": "Lunch",
+              "right": "Almuerzo/Comida"
+            },
+            {
+              "id": "p3",
+              "left": "Dinner",
+              "right": "Cena"
+            },
+            {
+              "id": "p4",
+              "left": "Snack",
+              "right": "Merienda/Tentempié"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U13_I11",
           "type": "transformation",
-          "prompt_es": "Completa con el verbo 'ir':",
+          "prompt_es": "Sarah describe su rutina. Completa:",
           "stimulus_en": "I ________ to school every day.",
           "correct_answer": "go",
           "mastery_tag": "grammar"
@@ -136,27 +241,65 @@
         {
           "interaction_id": "U13_I12",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Me ducho por la mañana'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "take" },
-            { "id": "w2", "text": "a" },
-            { "id": "w3", "text": "shower" },
-            { "id": "w4", "text": "in" },
-            { "id": "w5", "text": "the" },
-            { "id": "w6", "text": "morning" },
-            { "id": "w0", "text": "I" }
+            {
+              "id": "w1",
+              "text": "take"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "shower"
+            },
+            {
+              "id": "w4",
+              "text": "in"
+            },
+            {
+              "id": "w5",
+              "text": "the"
+            },
+            {
+              "id": "w6",
+              "text": "morning"
+            },
+            {
+              "id": "w0",
+              "text": "I"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U13_I13",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ver la televisión'?",
+          "prompt_es": "Sarah comparando rutinas diarias. ¿Cómo se dice 'Ver la televisión'?",
           "options": [
-            { "id": "o1", "text": "Watch TV" },
-            { "id": "o2", "text": "See TV" },
-            { "id": "o3", "text": "Look TV" }
+            {
+              "id": "o1",
+              "text": "Watch TV"
+            },
+            {
+              "id": "o2",
+              "text": "See TV"
+            },
+            {
+              "id": "o3",
+              "text": "Look TV"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -171,7 +314,7 @@
         {
           "interaction_id": "U13_I15",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Cocino la cena'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Cocino la cena",
           "correct_answer": "I cook dinner",
           "mastery_tag": "syntax"
@@ -181,12 +324,33 @@
           "type": "matching",
           "prompt_es": "Lugares y acciones:",
           "pairs": [
-            { "id": "p1", "left": "Office", "right": "Work" },
-            { "id": "p2", "left": "Bed", "right": "Sleep" },
-            { "id": "p3", "left": "Kitchen", "right": "Cook" },
-            { "id": "p4", "left": "Bathroom", "right": "Shower" }
+            {
+              "id": "p1",
+              "left": "Office",
+              "right": "Work"
+            },
+            {
+              "id": "p2",
+              "left": "Bed",
+              "right": "Sleep"
+            },
+            {
+              "id": "p3",
+              "left": "Kitchen",
+              "right": "Cook"
+            },
+            {
+              "id": "p4",
+              "left": "Bathroom",
+              "right": "Shower"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -194,9 +358,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa 'Daily Routine'?",
           "options": [
-            { "id": "o1", "text": "Rutina diaria" },
-            { "id": "o2", "text": "Ruta de día" },
-            { "id": "o3", "text": "Día aburrido" }
+            {
+              "id": "o1",
+              "text": "Rutina diaria"
+            },
+            {
+              "id": "o2",
+              "text": "Ruta de día"
+            },
+            {
+              "id": "o3",
+              "text": "Día aburrido"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -204,7 +377,7 @@
         {
           "interaction_id": "U13_I18",
           "type": "transformation",
-          "prompt_es": "Completa: 'Me cepillo los ________'",
+          "prompt_es": "Sarah describe su rutina. Completa:",
           "stimulus_en": "I brush my ________.",
           "correct_answer": "teeth",
           "mastery_tag": "vocabulary"
@@ -212,14 +385,31 @@
         {
           "interaction_id": "U13_I19",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Ella lee un libro'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "reads" },
-            { "id": "w2", "text": "a" },
-            { "id": "w3", "text": "book" },
-            { "id": "w0", "text": "She" }
+            {
+              "id": "w1",
+              "text": "reads"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "book"
+            },
+            {
+              "id": "w0",
+              "text": "She"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -240,23 +430,48 @@
         {
           "interaction_id": "U13_I22",
           "type": "matching",
-          "prompt_es": "Une:",
+          "prompt_es": "Sarah comparando rutinas diarias. Une las palabras:",
           "pairs": [
-            { "id": "p1", "left": "Finish work", "right": "Terminar de trabajar" },
-            { "id": "p2", "left": "Start work", "right": "Empezar a trabajar" },
-            { "id": "p3", "left": "Leave home", "right": "Salir de casa" }
+            {
+              "id": "p1",
+              "left": "Finish work",
+              "right": "Terminar de trabajar"
+            },
+            {
+              "id": "p2",
+              "left": "Start work",
+              "right": "Empezar a trabajar"
+            },
+            {
+              "id": "p3",
+              "left": "Leave home",
+              "right": "Salir de casa"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U13_I23",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Escuchar música'?",
+          "prompt_es": "Sarah comparando rutinas diarias. ¿Cómo se dice 'Escuchar música'?",
           "options": [
-            { "id": "o1", "text": "Listen to music" },
-            { "id": "o2", "text": "Hear music" },
-            { "id": "o3", "text": "Listen music" }
+            {
+              "id": "o1",
+              "text": "Listen to music"
+            },
+            {
+              "id": "o2",
+              "text": "Hear music"
+            },
+            {
+              "id": "o3",
+              "text": "Listen music"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -264,7 +479,7 @@
         {
           "interaction_id": "U13_I24",
           "type": "transformation",
-          "prompt_es": "Completa: 'Me lavo las ________'",
+          "prompt_es": "Sarah describe su rutina. Completa:",
           "stimulus_en": "I wash my ________.",
           "correct_answer": "hands",
           "mastery_tag": "vocabulary"

@@ -13,27 +13,53 @@
       "title": "International Student Orientation",
       "scenario": {
         "setting": "School orientation event for international students",
-        "characters": ["Sarah (from Spain)", "John (from UK)", "Maria (from Mexico)", "Chen (from China)"],
+        "characters": [
+          "Sarah (from Spain)",
+          "John (from UK)",
+          "Maria (from Mexico)",
+          "Chen (from China)"
+        ],
         "objective": "Introduce yourself and talk about your country"
       },
       "content": [
         {
           "interaction_id": "U5_I1",
           "type": "matching",
-          "prompt_es": "Los estudiantes presentan sus países. Une las palabras:",
+          "prompt_es": "Sarah presenta. Une las palabras:",
           "pairs": [
-            { "id": "p1", "left": "Spain", "right": "España" },
-            { "id": "p2", "left": "Mexico", "right": "México" },
-            { "id": "p3", "left": "The USA", "right": "Los EE.UU." },
-            { "id": "p4", "left": "France", "right": "Francia" }
+            {
+              "id": "p1",
+              "left": "Spain",
+              "right": "España"
+            },
+            {
+              "id": "p2",
+              "left": "Mexico",
+              "right": "México"
+            },
+            {
+              "id": "p3",
+              "left": "The USA",
+              "right": "Los EE.UU."
+            },
+            {
+              "id": "p4",
+              "left": "France",
+              "right": "Francia"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U5_I2",
           "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "She ________ from Italy.",
           "correct_answer": "is",
           "mastery_tag": "grammar"
@@ -43,9 +69,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se pregunta '¿De dónde eres?'?",
           "options": [
-            { "id": "o1", "text": "Where are you from?" },
-            { "id": "o2", "text": "From where you are?" },
-            { "id": "o3", "text": "Where you from are?" }
+            {
+              "id": "o1",
+              "text": "Where are you from?"
+            },
+            {
+              "id": "o2",
+              "text": "From where you are?"
+            },
+            {
+              "id": "o3",
+              "text": "Where you from are?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "syntax"
@@ -53,7 +88,7 @@
         {
           "interaction_id": "U5_I4",
           "type": "short_writing",
-          "prompt_es": "Maria se presenta en la orientación. ¿Cómo se dice en inglés?",
+          "prompt_es": "Sarah en la orientación de estudiantes internacionales. Maria se presenta en la orientación. ¿Cómo se dice en inglés?",
           "stimulus_es": "Soy de México",
           "correct_answer": "I am from Mexico",
           "mastery_tag": "vocabulary"
@@ -61,40 +96,78 @@
         {
           "interaction_id": "U5_I5",
           "type": "true_false",
-          "prompt_es": "¿'The UK' significa 'Reino Unido'?",
+          "prompt_es": "Los estudiantes escucha: ¿'The UK' significa 'Reino Unido'?",
           "correct_answer": true,
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U5_I6",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "They" },
-            { "id": "w2", "text": "are" },
-            { "id": "w3", "text": "from" },
-            { "id": "w4", "text": "Japan" }
+            {
+              "id": "w1",
+              "text": "They"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "from"
+            },
+            {
+              "id": "w4",
+              "text": "Japan"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U5_I7",
           "type": "matching",
-          "prompt_es": "Más países:",
+          "prompt_es": "Los estudiantes aprende vocabulario. Une:",
           "pairs": [
-            { "id": "p1", "left": "China", "right": "China" },
-            { "id": "p2", "left": "Germany", "right": "Alemania" },
-            { "id": "p3", "left": "Italy", "right": "Italia" },
-            { "id": "p4", "left": "Japan", "right": "Japón" }
+            {
+              "id": "p1",
+              "left": "China",
+              "right": "China"
+            },
+            {
+              "id": "p2",
+              "left": "Germany",
+              "right": "Alemania"
+            },
+            {
+              "id": "p3",
+              "left": "Italy",
+              "right": "Italia"
+            },
+            {
+              "id": "p4",
+              "left": "Japan",
+              "right": "Japón"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U5_I8",
           "type": "transformation",
-          "prompt_es": "Completa la pregunta:",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "________ they from France?",
           "correct_answer": "Are",
           "mastery_tag": "grammar"
@@ -108,20 +181,41 @@
         {
           "interaction_id": "U5_I9",
           "type": "matching",
-          "prompt_es": "País y Nacionalidad:",
+          "prompt_es": "Los estudiantes aprende vocabulario. Une:",
           "pairs": [
-            { "id": "p1", "left": "Spain", "right": "Spanish" },
-            { "id": "p2", "left": "Mexico", "right": "Mexican" },
-            { "id": "p3", "left": "The USA", "right": "American" },
-            { "id": "p4", "left": "France", "right": "French" }
+            {
+              "id": "p1",
+              "left": "Spain",
+              "right": "Spanish"
+            },
+            {
+              "id": "p2",
+              "left": "Mexico",
+              "right": "Mexican"
+            },
+            {
+              "id": "p3",
+              "left": "The USA",
+              "right": "American"
+            },
+            {
+              "id": "p4",
+              "left": "France",
+              "right": "French"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U5_I10",
           "type": "transformation",
-          "prompt_es": "Escribe la nacionalidad de alguien de 'Italy':",
+          "prompt_es": "Los estudiantes completa. Escribe la nacionalidad de alguien de 'Italy':",
           "stimulus_en": "He is from Italy. He is ________.",
           "correct_answer": "Italian",
           "mastery_tag": "vocabulary"
@@ -129,11 +223,20 @@
         {
           "interaction_id": "U5_I11",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Británico'?",
+          "prompt_es": "Sarah en la orientación de estudiantes internacionales. ¿Cómo se dice 'Británico'?",
           "options": [
-            { "id": "o1", "text": "British" },
-            { "id": "o2", "text": "Britany" },
-            { "id": "o3", "text": "Britanese" }
+            {
+              "id": "o1",
+              "text": "British"
+            },
+            {
+              "id": "o2",
+              "text": "Britany"
+            },
+            {
+              "id": "o3",
+              "text": "Britanese"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -141,7 +244,7 @@
         {
           "interaction_id": "U5_I12",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Soy español'",
+          "prompt_es": "Sarah necesita decir algo. ¿Cómo se dice en inglés?",
           "stimulus_es": "Soy español",
           "correct_answer": "I am Spanish",
           "mastery_tag": "vocabulary"
@@ -149,40 +252,78 @@
         {
           "interaction_id": "U5_I13",
           "type": "true_false",
-          "prompt_es": "¿'German' significa 'Alemán'?",
+          "prompt_es": "Los estudiantes escucha: ¿'German' significa 'Alemán'?",
           "correct_answer": true,
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U5_I14",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "We" },
-            { "id": "w2", "text": "are" },
-            { "id": "w3", "text": "not" },
-            { "id": "w4", "text": "Chinese" }
+            {
+              "id": "w1",
+              "text": "We"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "not"
+            },
+            {
+              "id": "w4",
+              "text": "Chinese"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U5_I15",
           "type": "matching",
-          "prompt_es": "Más nacionalidades:",
+          "prompt_es": "Los estudiantes aprende vocabulario. Une:",
           "pairs": [
-            { "id": "p1", "left": "China", "right": "Chinese" },
-            { "id": "p2", "left": "Germany", "right": "German" },
-            { "id": "p3", "left": "Japan", "right": "Japanese" },
-            { "id": "p4", "left": "The UK", "right": "British" }
+            {
+              "id": "p1",
+              "left": "China",
+              "right": "Chinese"
+            },
+            {
+              "id": "p2",
+              "left": "Germany",
+              "right": "German"
+            },
+            {
+              "id": "p3",
+              "left": "Japan",
+              "right": "Japanese"
+            },
+            {
+              "id": "p4",
+              "left": "The UK",
+              "right": "British"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U5_I16",
           "type": "transformation",
-          "prompt_es": "Completa con la nacionalidad: 'Someone from France is ________'",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "Someone from France is ________.",
           "correct_answer": "French",
           "mastery_tag": "vocabulary"
@@ -197,22 +338,53 @@
           "interaction_id": "U5_I17",
           "type": "matching",
           "pairs": [
-            { "id": "p1", "left": "Country", "right": "País" },
-            { "id": "p2", "left": "World", "right": "Mundo" },
-            { "id": "p3", "left": "Language", "right": "Idioma" },
-            { "id": "p4", "left": "City", "right": "Ciudad" }
+            {
+              "id": "p1",
+              "left": "Country",
+              "right": "País"
+            },
+            {
+              "id": "p2",
+              "left": "World",
+              "right": "Mundo"
+            },
+            {
+              "id": "p3",
+              "left": "Language",
+              "right": "Idioma"
+            },
+            {
+              "id": "p4",
+              "left": "City",
+              "right": "Ciudad"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "prompt_es": "Los estudiantes aprende vocabulario. Une:"
         },
         {
           "interaction_id": "U5_I18",
           "type": "multiple_choice",
           "prompt_es": "¿Qué idioma se habla en México?",
           "options": [
-            { "id": "o1", "text": "Spanish" },
-            { "id": "o2", "text": "Mexican" },
-            { "id": "o3", "text": "English" }
+            {
+              "id": "o1",
+              "text": "Spanish"
+            },
+            {
+              "id": "o2",
+              "text": "Mexican"
+            },
+            {
+              "id": "o3",
+              "text": "English"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "culture"
@@ -220,7 +392,7 @@
         {
           "interaction_id": "U5_I19",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Ella habla francés'",
+          "prompt_es": "Sarah necesita decir algo. ¿Cómo se dice en inglés?",
           "stimulus_es": "Ella habla francés",
           "correct_answer": "She speaks French",
           "mastery_tag": "vocabulary"
@@ -228,27 +400,44 @@
         {
           "interaction_id": "U5_I20",
           "type": "true_false",
-          "prompt_es": "¿'I speak English' significa 'Hablo inglés'?",
+          "prompt_es": "Los estudiantes escucha: ¿'I speak English' significa 'Hablo inglés'?",
           "correct_answer": true,
           "mastery_tag": "translation"
         },
         {
           "interaction_id": "U5_I21",
           "type": "reorder_words",
-          "prompt_es": "Ordena la pregunta:",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
-            { "id": "w1", "text": "Do" },
-            { "id": "w2", "text": "you" },
-            { "id": "w3", "text": "speak" },
-            { "id": "w4", "text": "German?" }
+            {
+              "id": "w1",
+              "text": "Do"
+            },
+            {
+              "id": "w2",
+              "text": "you"
+            },
+            {
+              "id": "w3",
+              "text": "speak"
+            },
+            {
+              "id": "w4",
+              "text": "German?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U5_I22",
           "type": "transformation",
-          "prompt_es": "Completa: 'In Japan, they speak ________'",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "In Japan, they speak ________.",
           "correct_answer": "Japanese",
           "mastery_tag": "vocabulary"
@@ -256,20 +445,41 @@
         {
           "interaction_id": "U5_I23",
           "type": "matching",
-          "prompt_es": "Idiomas y Países:",
+          "prompt_es": "Los estudiantes aprende vocabulario. Une:",
           "pairs": [
-            { "id": "p1", "left": "English", "right": "The USA" },
-            { "id": "p2", "left": "Chinese", "right": "China" },
-            { "id": "p3", "left": "Spanish", "right": "Spain" },
-            { "id": "p4", "left": "French", "right": "France" }
+            {
+              "id": "p1",
+              "left": "English",
+              "right": "The USA"
+            },
+            {
+              "id": "p2",
+              "left": "Chinese",
+              "right": "China"
+            },
+            {
+              "id": "p3",
+              "left": "Spanish",
+              "right": "Spain"
+            },
+            {
+              "id": "p4",
+              "left": "French",
+              "right": "France"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U5_I24",
           "type": "short_writing",
-          "prompt_es": "Traduce: '¿Hablas inglés?'",
+          "prompt_es": "Sarah necesita decir algo. ¿Cómo se dice en inglés?",
           "stimulus_es": "¿Hablas inglés?",
           "correct_answer": "Do you speak English?",
           "mastery_tag": "vocabulary"

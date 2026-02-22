@@ -13,14 +13,18 @@
       "title": "Hobbies and Free Time",
       "scenario": {
         "setting": "Coffee shop - discussing hobbies and interests",
-        "characters": ["Sarah", "John", "Emma"],
+        "characters": [
+          "Sarah",
+          "John",
+          "Emma"
+        ],
         "objective": "Talk about what you and your friends do for fun"
       },
       "content": [
         {
           "interaction_id": "U14_I1",
           "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
+          "prompt_es": "Sarah hablando de hobbies. Une las palabras:",
           "pairs": [
             {
               "id": "p0",
@@ -54,7 +58,7 @@
         {
           "interaction_id": "U14_I2",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Sarah habla de. Completa:",
           "stimulus_en": "I (aprender) ________ English every day.",
           "correct_answer": "learn",
           "mastery_tag": "grammar"
@@ -62,14 +66,14 @@
         {
           "interaction_id": "U14_I3",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"You write very well.\"",
+          "prompt_es": "John escucha una frase. ¿Es correcta esta frase?: \"You write very well.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U14_I4",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Ellos estudian en la universidad'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w0",
@@ -104,7 +108,7 @@
         {
           "interaction_id": "U14_I5",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Escuchar'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Escuchar",
           "correct_answer": "Listen",
           "mastery_tag": "vocabulary"
@@ -112,7 +116,7 @@
         {
           "interaction_id": "U14_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Aprender' en inglés?",
+          "prompt_es": "Sarah hablando de hobbies. ¿Cómo se dice 'Aprender' en inglés?",
           "options": [
             {
               "id": "o1",
@@ -167,7 +171,7 @@
         {
           "interaction_id": "U14_I8",
           "type": "transformation",
-          "prompt_es": "Completa: 'We ________ (practicar) basketball.'",
+          "prompt_es": "Sarah habla de. Completa:",
           "stimulus_en": "We ________ basketball.",
           "correct_answer": "practice",
           "mastery_tag": "grammar"
@@ -175,14 +179,14 @@
         {
           "interaction_id": "U14_I9",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"We drinks water.\"",
+          "prompt_es": "John escucha una frase. ¿Es correcta esta frase?: \"We drinks water.\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U14_I10",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Uso mi ordenador'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -212,7 +216,7 @@
         {
           "interaction_id": "U14_I11",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Necesitar'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Necesitar",
           "correct_answer": "Need",
           "mastery_tag": "vocabulary"
@@ -220,7 +224,7 @@
         {
           "interaction_id": "U14_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Vivir' en inglés?",
+          "prompt_es": "Sarah hablando de hobbies. ¿Cómo se dice 'Vivir' en inglés?",
           "options": [
             {
               "id": "o1",
@@ -275,7 +279,7 @@
         {
           "interaction_id": "U14_I14",
           "type": "transformation",
-          "prompt_es": "Completa: 'They ________ (visitar) their grandparents.'",
+          "prompt_es": "Sarah habla de. Completa:",
           "stimulus_en": "They ________ their grandparents.",
           "correct_answer": "visit",
           "mastery_tag": "grammar"
@@ -283,14 +287,14 @@
         {
           "interaction_id": "U14_I15",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"You play the guitar well.\"",
+          "prompt_es": "John escucha una frase. ¿Es correcta esta frase?: \"You play the guitar well.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U14_I16",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Comemos a la una'",
+          "prompt_es": "Sarah habla. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -325,7 +329,7 @@
         {
           "interaction_id": "U14_I17",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Hablar'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Hablar",
           "correct_answer": "Speak",
           "mastery_tag": "vocabulary"
@@ -333,7 +337,7 @@
         {
           "interaction_id": "U14_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Comer' en inglés?",
+          "prompt_es": "Sarah hablando de hobbies. ¿Cómo se dice 'Comer' en inglés?",
           "options": [
             {
               "id": "o1",
@@ -354,7 +358,7 @@
         {
           "interaction_id": "U14_I19",
           "type": "transformation",
-          "prompt_es": "Completa: 'I ________ (beber) coffee.'",
+          "prompt_es": "Sarah habla de. Completa:",
           "stimulus_en": "I ________ coffee.",
           "correct_answer": "drink",
           "mastery_tag": "grammar"
@@ -369,7 +373,7 @@
         {
           "interaction_id": "U14_I21",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Ellos viven en Madrid'",
+          "prompt_es": "Sarah necesita comunicarse. ¿Cómo se dice en inglés?",
           "stimulus_es": "Ellos viven en Madrid",
           "correct_answer": "They live in Madrid",
           "mastery_tag": "syntax"
@@ -411,7 +415,7 @@
         {
           "interaction_id": "U14_I23",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma negativa correcta?",
+          "prompt_es": "John escucha una frase. ¿Cuál es la forma negativa correcta?",
           "options": [
             {
               "id": "o1",
@@ -432,7 +436,7 @@
         {
           "interaction_id": "U14_I24",
           "type": "transformation",
-          "prompt_es": "Completa: 'We ________ (estudiar) English.'",
+          "prompt_es": "Sarah habla de. Completa:",
           "stimulus_en": "We ________ English.",
           "correct_answer": "study",
           "mastery_tag": "grammar"

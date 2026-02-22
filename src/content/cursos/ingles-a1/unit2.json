@@ -33,7 +33,7 @@
         {
           "interaction_id": "U2_I2",
           "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
+          "prompt_es": "Sarah y John hablan de otros estudiantes. Completa:",
           "stimulus_en": "They ________ students at the university.",
           "correct_answer": "are",
           "mastery_tag": "grammar"
@@ -41,7 +41,7 @@
         {
           "interaction_id": "U2_I3",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ella es mi amiga'?",
+          "prompt_es": "John presenta a una amiga a Sarah. ¿Cómo se dice en inglés?",
           "options": [
             { "id": "o1", "text": "She is my friend" },
             { "id": "o2", "text": "He is my friend" },
@@ -61,14 +61,14 @@
         {
           "interaction_id": "U2_I5",
           "type": "true_false",
-          "prompt_es": "¿Es correcto decir 'We is happy'?",
+          "prompt_es": "El barista dice: 'We is happy to serve you'. ¿Es gramaticalmente correcto?",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I6",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Sarah describe su ciudad favorita. Ordena las palabras:",
           "options": [
             { "id": "w1", "text": "is" },
             { "id": "w2", "text": "New York" },
@@ -82,7 +82,7 @@
         {
           "interaction_id": "U2_I7",
           "type": "matching",
-          "prompt_es": "Vocabulario de personas:",
+          "prompt_es": "Sarah y John observan a las personas en la cafetería. Une las palabras:",
           "pairs": [
             { "id": "p1", "left": "Man", "right": "Hombre" },
             { "id": "p2", "left": "Woman", "right": "Mujer" },
@@ -95,7 +95,7 @@
         {
           "interaction_id": "U2_I8",
           "type": "transformation",
-          "prompt_es": "Completa con el pronombre correcto (He, She, It, They):",
+          "prompt_es": "John habla de una compañera de clase. Completa con el pronombre:",
           "stimulus_en": "Maria is a student. ________ is very smart.",
           "correct_answer": "She",
           "mastery_tag": "grammar"
@@ -114,7 +114,7 @@
         {
           "interaction_id": "U2_I9",
           "type": "matching",
-          "prompt_es": "Adjetivos básicos:",
+          "prompt_es": "Sarah y John hablan de cómo se sienten. Une los adjetivos:",
           "pairs": [
             { "id": "p1", "left": "Happy", "right": "Feliz" },
             { "id": "p2", "left": "Tired", "right": "Cansado/a" },
@@ -135,7 +135,7 @@
         {
           "interaction_id": "U2_I11",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ellos están ocupados'?",
+          "prompt_es": "Sarah explica por qué sus amigos no pueden venir. ¿Cómo se dice?",
           "options": [
             { "id": "o1", "text": "They are busy" },
             { "id": "o2", "text": "We are busy" },
@@ -147,7 +147,7 @@
         {
           "interaction_id": "U2_I12",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Mi amigo es feliz'",
+          "prompt_es": "Sarah describe a John. ¿Cómo se dice en inglés?",
           "stimulus_es": "Mi amigo es feliz",
           "correct_answer": "My friend is happy",
           "mastery_tag": "vocabulary"
@@ -155,14 +155,14 @@
         {
           "interaction_id": "U2_I13",
           "type": "true_false",
-          "prompt_es": "¿'It is a new car' significa 'Es un coche nuevo'?",
+          "prompt_es": "John señala por la ventana y dice: 'It is a new car'. ¿Significa 'Es un coche nuevo'?",
           "correct_answer": true,
           "mastery_tag": "translation"
         },
         {
           "interaction_id": "U2_I14",
           "type": "reorder_words",
-          "prompt_es": "Ordena la pregunta:",
+          "prompt_es": "Sarah pregunta al barista sobre su profesora. Ordena las palabras:",
           "options": [
             { "id": "w1", "text": "Is" },
             { "id": "w2", "text": "your" },
@@ -175,7 +175,7 @@
         {
           "interaction_id": "U2_I15",
           "type": "matching",
-          "prompt_es": "Relaciona Pronombres y Verbos:",
+          "prompt_es": "John explica el verbo 'to be' a Sarah. Une pronombres y verbos:",
           "pairs": [
             { "id": "p1", "left": "I", "right": "am" },
             { "id": "p2", "left": "He", "right": "is" },
@@ -188,7 +188,7 @@
         {
           "interaction_id": "U2_I16",
           "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
+          "prompt_es": "Sarah habla de sí misma. Completa la frase:",
           "stimulus_en": "I ________ a good student.",
           "correct_answer": "am",
           "mastery_tag": "grammar"
@@ -207,7 +207,7 @@
         {
           "interaction_id": "U2_I17",
           "type": "matching",
-          "prompt_es": "Palabras de bienvenida:",
+          "prompt_es": "Emma y Mike llegan. John enseña palabras útiles a Sarah. Une:",
           "pairs": [
             { "id": "p1", "left": "Welcome", "right": "Bienvenido/a" },
             { "id": "p2", "left": "Great", "right": "Genial" },
@@ -232,7 +232,7 @@
         {
           "interaction_id": "U2_I19",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Bienvenido a la clase'",
+          "prompt_es": "John recibe a Emma en el grupo. ¿Cómo se dice en inglés?",
           "stimulus_es": "Bienvenido a la clase",
           "correct_answer": "Welcome to the class",
           "mastery_tag": "vocabulary"
@@ -240,14 +240,14 @@
         {
           "interaction_id": "U2_I20",
           "type": "true_false",
-          "prompt_es": "¿'We are from Spain' significa 'Nosotros somos de España'?",
+          "prompt_es": "Sarah y John dicen: 'We are from Spain'. ¿Significa 'Nosotros somos de España'?",
           "correct_answer": true,
           "mastery_tag": "translation"
         },
         {
           "interaction_id": "U2_I21",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Mike explica que otros amigos no vinieron. Ordena las palabras:",
           "options": [
             { "id": "w1", "text": "They" },
             { "id": "w2", "text": "are" },
@@ -260,7 +260,7 @@
         {
           "interaction_id": "U2_I22",
           "type": "transformation",
-          "prompt_es": "Cambia a forma negativa: 'He is a student'",
+          "prompt_es": "Emma corrige a Sarah sobre Mike. Cambia a negativo:",
           "stimulus_en": "He ________ ________ a student.",
           "correct_answer": "is not",
           "mastery_tag": "grammar"
@@ -268,7 +268,7 @@
         {
           "interaction_id": "U2_I23",
           "type": "matching",
-          "prompt_es": "Más personas:",
+          "prompt_es": "El grupo habla de sus vidas. Une el vocabulario:",
           "pairs": [
             { "id": "p1", "left": "Family", "right": "Familia" },
             { "id": "p2", "left": "People", "right": "Personas" },
@@ -281,7 +281,7 @@
         {
           "interaction_id": "U2_I24",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Ella es muy inteligente'",
+          "prompt_es": "Sarah describe a Emma. ¿Cómo se dice en inglés?",
           "stimulus_es": "Ella es muy inteligente",
           "correct_answer": "She is very smart",
           "mastery_tag": "vocabulary"

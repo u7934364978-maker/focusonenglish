@@ -13,14 +13,17 @@
       "title": "Sarah Shows Family Photos",
       "scenario": {
         "setting": "At Sarah's apartment - showing photos to John",
-        "characters": ["Sarah", "John"],
+        "characters": [
+          "Sarah",
+          "John"
+        ],
         "objective": "Describe family members and relationships"
       },
       "content": [
         {
           "interaction_id": "U6_I1",
           "type": "matching",
-          "prompt_es": "Asocia los miembros de la familia:",
+          "prompt_es": "Sarah muestra. Une las palabras:",
           "pairs": [
             {
               "id": "p1",
@@ -54,7 +57,7 @@
         {
           "interaction_id": "U6_I2",
           "type": "transformation",
-          "prompt_es": "Completa con el posesivo (My, Your, His, Her):",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "She is a doctor. ________ name is Elena.",
           "correct_answer": "Her",
           "mastery_tag": "grammar"
@@ -62,7 +65,7 @@
         {
           "interaction_id": "U6_I3",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hijo'?",
+          "prompt_es": "Sarah viendo fotos de familia. ¿Cómo se dice 'Hijo'?",
           "options": [
             {
               "id": "o1",
@@ -83,7 +86,7 @@
         {
           "interaction_id": "U6_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Mi hermano es alto'",
+          "prompt_es": "Sarah necesita decir algo. ¿Cómo se dice en inglés?",
           "stimulus_es": "Mi hermano es alto",
           "correct_answer": "My brother is tall",
           "mastery_tag": "vocabulary"
@@ -91,14 +94,14 @@
         {
           "interaction_id": "U6_I5",
           "type": "true_false",
-          "prompt_es": "¿'Parents' significa 'Parientes'?",
+          "prompt_es": "Sarah escucha: ¿'Parents' significa 'Parientes'?",
           "correct_answer": false,
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U6_I6",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -133,7 +136,7 @@
         {
           "interaction_id": "U6_I7",
           "type": "matching",
-          "prompt_es": "Más familia:",
+          "prompt_es": "Sarah aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -167,7 +170,7 @@
         {
           "interaction_id": "U6_I8",
           "type": "transformation",
-          "prompt_es": "Completa con el posesivo (He -> His):",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "Mark is here. ________ brother is here too.",
           "correct_answer": "His",
           "mastery_tag": "grammar"
@@ -209,12 +212,13 @@
             "p3": "p3",
             "p4": "p4"
           },
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "prompt_es": "Sarah aprende vocabulario. Une:"
         },
         {
           "interaction_id": "U6_I10",
           "type": "transformation",
-          "prompt_es": "Completa con 'Our' o 'Their':",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "We are a big family. ________ house is small.",
           "correct_answer": "Our",
           "mastery_tag": "grammar"
@@ -222,7 +226,7 @@
         {
           "interaction_id": "U6_I11",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Primos'?",
+          "prompt_es": "Sarah viendo fotos de familia. ¿Cómo se dice 'Primos'?",
           "options": [
             {
               "id": "o1",
@@ -243,7 +247,7 @@
         {
           "interaction_id": "U6_I12",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Mi abuela es muy amable'",
+          "prompt_es": "Sarah necesita decir algo. ¿Cómo se dice en inglés?",
           "stimulus_es": "Mi abuela es muy amable",
           "correct_answer": "My grandmother is very kind",
           "mastery_tag": "vocabulary"
@@ -251,14 +255,14 @@
         {
           "interaction_id": "U6_I13",
           "type": "true_false",
-          "prompt_es": "¿'Aunt' es el masculino de 'Uncle'?",
+          "prompt_es": "Sarah escucha: ¿'Aunt' es el masculino de 'Uncle'?",
           "correct_answer": false,
           "mastery_tag": "logic"
         },
         {
           "interaction_id": "U6_I14",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -288,7 +292,7 @@
         {
           "interaction_id": "U6_I15",
           "type": "matching",
-          "prompt_es": "Más parientes:",
+          "prompt_es": "Sarah aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -322,7 +326,7 @@
         {
           "interaction_id": "U6_I16",
           "type": "transformation",
-          "prompt_es": "Completa con el posesivo: 'They have a dog. ________ dog is big.'",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "They have a dog. ________ dog is big.",
           "correct_answer": "Their",
           "mastery_tag": "grammar"
@@ -336,7 +340,7 @@
         {
           "interaction_id": "U6_I17",
           "type": "matching",
-          "prompt_es": "Posesivos:",
+          "prompt_es": "Sarah aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -391,7 +395,7 @@
         {
           "interaction_id": "U6_I19",
           "type": "short_writing",
-          "prompt_es": "Traduce: '¿Dónde está tu hermano?'",
+          "prompt_es": "Sarah necesita decir algo. ¿Cómo se dice en inglés?",
           "stimulus_es": "¿Dónde está tu hermano?",
           "correct_answer": "Where is your brother?",
           "mastery_tag": "vocabulary"
@@ -399,14 +403,14 @@
         {
           "interaction_id": "U6_I20",
           "type": "true_false",
-          "prompt_es": "¿'Our' significa 'Nuestro/a'?",
+          "prompt_es": "Sarah escucha: ¿'Our' significa 'Nuestro/a'?",
           "correct_answer": true,
           "mastery_tag": "translation"
         },
         {
           "interaction_id": "U6_I21",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
+          "prompt_es": "Sarah forma una frase. Ordena las palabras:",
           "options": [
             {
               "id": "w1",
@@ -446,7 +450,7 @@
         {
           "interaction_id": "U6_I22",
           "type": "transformation",
-          "prompt_es": "Completa con 'His' o 'Her': (de él)",
+          "prompt_es": "Sarah habla. Completa la frase:",
           "stimulus_en": "John is happy. ________ car is new.",
           "correct_answer": "His",
           "mastery_tag": "grammar"
@@ -454,7 +458,7 @@
         {
           "interaction_id": "U6_I23",
           "type": "matching",
-          "prompt_es": "Más familia 2:",
+          "prompt_es": "Sarah aprende vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -488,7 +492,7 @@
         {
           "interaction_id": "U6_I24",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Ella es mi madre'",
+          "prompt_es": "Sarah necesita decir algo. ¿Cómo se dice en inglés?",
           "stimulus_es": "Ella es mi madre",
           "correct_answer": "She is my mother",
           "mastery_tag": "vocabulary"
