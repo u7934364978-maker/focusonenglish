@@ -187,7 +187,7 @@ export default function C1UnitSession({ unit }: C1UnitSessionProps) {
 
         <div className="mt-12 flex justify-between items-center border-t border-slate-200 pt-8">
           <Button
-            variant="ghost"
+            variant="secondary"
             onClick={() => setCurrentBlockIndex(prev => Math.max(0, prev - 1))}
             disabled={currentBlockIndex === 0}
             className="flex items-center gap-2 font-bold text-slate-600"
@@ -212,7 +212,7 @@ export default function C1UnitSession({ unit }: C1UnitSessionProps) {
           </div>
 
           <Button
-            variant="ghost"
+            variant="secondary"
             onClick={() => setCurrentBlockIndex(prev => Math.min(totalBlocks - 1, prev + 1))}
             disabled={currentBlockIndex === totalBlocks - 1 || !completedBlocks.has(currentBlockIndex)}
             className="flex items-center gap-2 font-bold text-slate-600"

@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react';
 import { Exercise } from '@/lib/exercise-types';
-import MultipleChoiceExercise from '@/components/exercises/MultipleChoiceExercise';
 import GappedTextExercise from '@/components/exercises/GappedTextExercise';
 import KeyWordTransformationExercise from '@/components/exercises/KeyWordTransformationExercise';
 import MultipleChoiceClozeExercise from '@/components/exercises/MultipleChoiceClozeExercise';
@@ -49,8 +48,9 @@ export default function C1ExerciseDispatcher({ exercise, onComplete, onQuestionC
     const newScores: Record<string, boolean> = {};
     let correctCount = 0;
     
-    if (exercise.questions) {
-      exercise.questions.forEach(q => {
+    const exerciseWithQuestions = exercise as any;
+    if (exerciseWithQuestions.questions) {
+      exerciseWithQuestions.questions.forEach((q: any) => {
         const userAnswer = (answers[q.id] || '').trim().toLowerCase();
         const correctAnswer = (q.correctAnswer || '').trim().toLowerCase();
         const isCorrect = userAnswer === correctAnswer;
@@ -66,28 +66,28 @@ export default function C1ExerciseDispatcher({ exercise, onComplete, onQuestionC
       setScores(newScores);
       setSubmitted(true);
       
-      const calculatedScore = (correctCount / exercise.questions.length) * 100;
+      const calculatedScore = (correctCount / exerciseWithQuestions.questions.length) * 100;
       setFinalScore(calculatedScore);
     }
   };
 
   return (
     <div className="space-y-8">
-      {(exercise.explanation || exercise.grammarPoint) && (
+      {(((exercise as any).explanation || (exercise as any).grammarPoint)) && (
         <Card className="border-blue-100 bg-blue-50/50">
           <CardHeader className="pb-2">
             <CardTitle className="text-sm font-bold text-blue-900 uppercase tracking-wider flex items-center gap-2">
               <Lightbulb className="h-4 w-4" />
-              {exercise.grammarPoint || 'Focus Point'}
+              {(exercise as any).grammarPoint || 'Focus Point'}
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="text-slate-700 leading-relaxed">{exercise.explanation}</p>
+            <p className="text-slate-700 leading-relaxed">{(exercise as any).explanation}</p>
           </CardContent>
         </Card>
       )}
 
-      {(exercise.text || exercise.transcript) && (
+      {(((exercise as any).text || (exercise as any).transcript)) && (
         <Card className="border-slate-200 shadow-sm overflow-hidden">
           <CardHeader className="bg-slate-50 border-b border-slate-200">
             <CardTitle className="text-lg font-black text-slate-900 flex items-center gap-2">
@@ -97,16 +97,16 @@ export default function C1ExerciseDispatcher({ exercise, onComplete, onQuestionC
           </CardHeader>
           <CardContent className="p-6">
             <div className="prose prose-slate max-w-none">
-              {(exercise.text || exercise.transcript || '').split('\n').map((para, i) => (
+              {((((exercise as any).text || (exercise as any).transcript || '').split('\n').map((para: any, i: number) => (
                 <p key={i} className="mb-4 text-slate-700 leading-relaxed text-lg">{para}</p>
-              ))}
+              ))))}
             </div>
           </CardContent>
         </Card>
       )}
 
       <div className="space-y-4">
-        {exercise.questions?.map((q, idx) => (
+        {(exercise as any).questions?.map((q: any, idx: number) => (
           <Card key={q.id} className={`transition-all border-2 ${
             submitted 
               ? scores[q.id] 
@@ -127,7 +127,7 @@ export default function C1ExerciseDispatcher({ exercise, onComplete, onQuestionC
 
                   {q.options ? (
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                      {q.options.map((option, optIdx) => {
+                      {q.options.map((option: any, optIdx: number) => {
                         const isSelected = answers[q.id] === option;
                         const isCorrect = option === q.correctAnswer;
                         const showCorrect = submitted && isCorrect;

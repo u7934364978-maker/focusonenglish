@@ -153,7 +153,7 @@ export default function PremiumUnitViewer({ unitData, nextUnitUrl }: Props) {
                 </div>
                 
                 <Button
-                  variant="ghost"
+                  variant="secondary"
                   size="sm"
                   onClick={() => setIsAdaptive(!isAdaptive)}
                   className={`rounded-xl font-bold flex items-center gap-2 transition-all ${isAdaptive ? 'text-indigo-600 bg-indigo-50' : 'text-slate-400'}`}
@@ -234,7 +234,7 @@ export default function PremiumUnitViewer({ unitData, nextUnitUrl }: Props) {
                   
                   <Button
                     size="sm"
-                    variant="ghost"
+                    variant="secondary"
                     onClick={() => {
                       setStartIndex(idx);
                       setIsStarted(true);

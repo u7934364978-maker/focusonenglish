@@ -41,3 +41,5 @@ export const B2_MODULES = [
 ];
 
 export const ALL_MODULES = B2_MODULES;
+
+export const MODULE_1_LESSONS = B2_MODULES[0]?.units || [];

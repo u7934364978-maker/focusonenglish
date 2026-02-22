@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react';
 import { Exercise } from '@/lib/exercise-types';
-import MultipleChoiceExercise from '@/components/exercises/MultipleChoiceExercise';
 import GappedTextExercise from '@/components/exercises/GappedTextExercise';
 import KeyWordTransformationExercise from '@/components/exercises/KeyWordTransformationExercise';
 import MultipleChoiceClozeExercise from '@/components/exercises/MultipleChoiceClozeExercise';

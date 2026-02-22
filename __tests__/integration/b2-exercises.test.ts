@@ -136,7 +136,7 @@ describe('B2 Corrected Exercises - Integration Tests', () => {
     let readingExercise: any;
 
     beforeAll(() => {
-      lesson1 = MODULE_1_LESSONS.find((l) => l.id === 'b2-m1-l1');
+      lesson1 = MODULE_1_LESSONS.find((l: any) => l.id === 'b2-m1-l1');
       readingExercise = lesson1?.exercises.find(
         (ex: any) => ex.id === 'b2-m1-l1-reading-1'
       );
@@ -221,13 +221,13 @@ describe('B2 Corrected Exercises - Integration Tests', () => {
     });
 
     it('should have unique lesson IDs', () => {
-      const ids = MODULE_1_LESSONS.map((l) => l.id);
+      const ids = MODULE_1_LESSONS.map((l: any) => l.id);
       const uniqueIds = new Set(ids);
       expect(ids.length).toBe(uniqueIds.size);
     });
 
     it('should have all lessons with required fields', () => {
-      MODULE_1_LESSONS.forEach((lesson) => {
+      MODULE_1_LESSONS.forEach((lesson: any) => {
         expect(lesson.id).toBeDefined();
         expect(lesson.title).toBeDefined();
         expect(lesson.description).toBeDefined();
@@ -265,7 +265,7 @@ describe('B2 Corrected Exercises - Integration Tests', () => {
         'sentence-reordering',
       ];
 
-      MODULE_1_LESSONS.forEach((lesson) => {
+      MODULE_1_LESSONS.forEach((lesson: any) => {
         lesson.exercises.forEach((exercise: any) => {
           expect(validTypes).toContain(exercise.type);
         });
@@ -273,7 +273,7 @@ describe('B2 Corrected Exercises - Integration Tests', () => {
     });
 
     it('should have questions with points (when questions exist)', () => {
-      MODULE_1_LESSONS.forEach((lesson) => {
+      MODULE_1_LESSONS.forEach((lesson: any) => {
         lesson.exercises.forEach((exercise: any) => {
           if (exercise.questions && Array.isArray(exercise.questions)) {
             exercise.questions.forEach((q: any) => {
@@ -289,7 +289,7 @@ describe('B2 Corrected Exercises - Integration Tests', () => {
     });
 
     it('should have acceptableAnswers as array when defined', () => {
-      MODULE_1_LESSONS.forEach((lesson) => {
+      MODULE_1_LESSONS.forEach((lesson: any) => {
         lesson.exercises.forEach((exercise: any) => {
           if (exercise.questions && Array.isArray(exercise.questions)) {
             exercise.questions.forEach((q: any) => {

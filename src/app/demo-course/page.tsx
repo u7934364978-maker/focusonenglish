@@ -47,7 +47,7 @@ export default function DemoCoursePage() {
         {currentLesson ? (
           <div className="space-y-4">
             <Button 
-              variant="ghost" 
+              variant="secondary" 
               onClick={() => setSelectedDayIndex(null)}
               className="mb-4"
             >

@@ -1,5 +1,7 @@
 import { CEFRLevel, ExerciseCategory } from './exercise-types';
 
+export type { CEFRLevel };
+
 export interface CurriculumTopic {
   id: string;
   name: string;
