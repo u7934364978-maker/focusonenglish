@@ -26,10 +26,12 @@ interface Props {
   onComplete: () => void;
   onExit: () => void;
   onInteractionCorrect?: (interactionId: string) => void;
+  onExerciseComplete?: (interactionId: string) => void;
   initialIndex?: number;
+  userId?: string;
 }
 
-export default function PremiumCourseSession({ unitData, onComplete, onExit, onInteractionCorrect, initialIndex = 0 }: Props) {
+export default function PremiumCourseSession({ unitData, onComplete, onExit, onInteractionCorrect, onExerciseComplete, initialIndex = 0, userId }: Props) {
   const [currentIndex, setCurrentIndex] = useState(initialIndex);
   const [selectedOption, setSelectedOption] = useState<any>(null);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
@@ -509,6 +511,10 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       // Track progress if callback is provided
       if (onInteractionCorrect && interaction.interaction_id) {
         onInteractionCorrect(interaction.interaction_id);
+      }
+
+      if (onExerciseComplete && interaction.interaction_id) {
+        onExerciseComplete(interaction.interaction_id);
       }
     } else {
       setIsCorrect(false);
@@ -1922,19 +1928,25 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         <button onClick={onExit} className="p-3 text-slate-300 hover:text-slate-600 transition-colors">
           <X className="w-8 h-8" />
         </button>
-        <div className="flex-1 h-4 bg-slate-100 rounded-full overflow-hidden shadow-inner relative">
-          <motion.div 
-            className="h-full bg-indigo-500 shadow-[0_0_20px_rgba(99,102,241,0.5)] relative"
-            initial={{ width: 0 }}
-            animate={{ width: `${progress}%` }}
-          >
+        <div className="flex-1 space-y-2">
+          <div className="h-4 bg-slate-100 rounded-full overflow-hidden shadow-inner relative">
             <motion.div 
-              className="absolute inset-0 bg-white/30"
-              animate={{ x: ["-100%", "100%"] }}
-              transition={{ repeat: Infinity, duration: 2, ease: "linear" }}
-              style={{ width: '30%' }}
-            />
-          </motion.div>
+              className="h-full bg-indigo-500 shadow-[0_0_20px_rgba(99,102,241,0.5)] relative"
+              initial={{ width: 0 }}
+              animate={{ width: `${progress}%` }}
+            >
+              <motion.div 
+                className="absolute inset-0 bg-white/30"
+                animate={{ x: ["-100%", "100%"] }}
+                transition={{ repeat: Infinity, duration: 2, ease: "linear" }}
+                style={{ width: '30%' }}
+              />
+            </motion.div>
+          </div>
+          <div className="flex items-center justify-between text-xs">
+            <span className="font-bold text-slate-500">{currentIndex + 1} / {queue.length} ejercicios</span>
+            <span className="font-black text-indigo-600">{Math.round(progress)}%</span>
+          </div>
         </div>
         <div className="bg-orange-100 px-4 py-2 rounded-2xl flex items-center gap-2">
           <Star className="w-5 h-5 text-orange-500 fill-orange-500" />

@@ -67,17 +67,18 @@ Based on the [Technical Specification](./spec.md), the improvements are organize
 
 ---
 
-### [ ] Phase 1: Quick Wins - Visual Progress Tracking
+### [x] Phase 1: Quick Wins - Visual Progress Tracking
+<!-- chat-id: c7dd361f-8cd1-41b4-8ae1-611b7a1ead44 -->
 
 **Objective**: Immediate UX improvements without content changes  
 **Duration**: 2 weeks  
 **Files**: `PremiumUnitViewer.tsx`, `PremiumSession.tsx`, `progress.ts`
 
 #### Tasks:
-- [ ] Add visual progress bar to unit viewer showing "X/Y exercises completed" with percentage
-- [ ] Implement exercise counter and progress percentage in header
-- [ ] Write unit tests for progress calculation logic
-- [ ] Test progress bar updates correctly as user completes exercises
+- [x] Add visual progress bar to unit viewer showing "X/Y exercises completed" with percentage
+- [x] Implement exercise counter and progress percentage in header
+- [x] Write unit tests for progress calculation logic
+- [x] Test progress bar updates correctly as user completes exercises
 
 **Verification**:
 ```bash

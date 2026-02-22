@@ -94,3 +94,25 @@ export function isWeekUnlocked(goal: string, level: string, weekNumber: number) 
   const prevProgress = loadWeekProgress(goal, level, prevWeek);
   return Boolean(prevProgress?.coreUnlockedNext);
 }
+
+export type UnitProgress = {
+  total: number;
+  completed: number;
+  percentage: number;
+};
+
+export function calculateUnitProgress(
+  allInteractionIds: string[],
+  completedInteractionIds: string[]
+): UnitProgress {
+  const total = allInteractionIds.length;
+  const completedSet = new Set(completedInteractionIds);
+  const completed = allInteractionIds.filter(id => completedSet.has(id)).length;
+  const percentage = total > 0 ? Math.round((completed / total) * 100) : 0;
+  
+  return {
+    total,
+    completed,
+    percentage
+  };
+}

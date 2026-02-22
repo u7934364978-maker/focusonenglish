@@ -14,16 +14,26 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import PremiumCourseSession from './exercises/PremiumSession';
 import { UnitData, PremiumBlock } from '@/types/premium-course';
+import { calculateUnitProgress } from '@/lib/progress';
 
 interface Props {
   unitData: UnitData;
+  userId?: string;
+  completedInteractionIds?: string[];
+  onProgressUpdate?: (interactionId: string) => void;
 }
 
-export default function PremiumUnitViewer({ unitData }: Props) {
+export default function PremiumUnitViewer({ 
+  unitData, 
+  userId, 
+  completedInteractionIds = [],
+  onProgressUpdate 
+}: Props) {
   const { course, blocks, learning_outcomes } = unitData;
   const [isStarted, setIsStarted] = useState(false);
   const [isCompleted, setIsCompleted] = useState(false);
   const [startIndex, setStartIndex] = useState(0);
+  const [localCompletedIds, setLocalCompletedIds] = useState<string[]>(completedInteractionIds);
 
   // Flatten all blocks into a single exercise queue to know the indices
   const exerciseQueue = useMemo(() => {
@@ -41,16 +51,35 @@ export default function PremiumUnitViewer({ unitData }: Props) {
     return items;
   }, [blocks]);
 
+  const allInteractionIds = useMemo(() => {
+    return exerciseQueue
+      .map(ex => ex.interaction_id)
+      .filter(Boolean) as string[];
+  }, [exerciseQueue]);
+
+  const unitProgress = useMemo(() => {
+    return calculateUnitProgress(allInteractionIds, localCompletedIds);
+  }, [allInteractionIds, localCompletedIds]);
+
+  const handleExerciseComplete = (interactionId: string) => {
+    if (!localCompletedIds.includes(interactionId)) {
+      setLocalCompletedIds(prev => [...prev, interactionId]);
+    }
+    onProgressUpdate?.(interactionId);
+  };
+
   if (isStarted) {
     return (
       <PremiumCourseSession 
         unitData={unitData}
         initialIndex={startIndex}
+        userId={userId}
         onComplete={() => {
           setIsCompleted(true);
           setIsStarted(false);
         }}
         onExit={() => setIsStarted(false)}
+        onExerciseComplete={handleExerciseComplete}
       />
     );
   }
@@ -78,7 +107,7 @@ export default function PremiumUnitViewer({ unitData }: Props) {
             <div className="absolute -right-20 -top-20 w-64 h-64 bg-indigo-50 rounded-full blur-3xl opacity-50 group-hover:scale-150 transition-transform duration-1000" />
             
             <div className="relative z-10 space-y-6">
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 flex-wrap">
                 <span className="px-4 py-1.5 bg-indigo-600 text-white rounded-xl font-black text-xs uppercase tracking-[0.2em]">
                   {course.unit_id} · {course.level}
                 </span>
@@ -87,11 +116,33 @@ export default function PremiumUnitViewer({ unitData }: Props) {
                     <CheckCircle2 className="w-3 h-3" /> Completado
                   </span>
                 )}
+                {unitProgress.total > 0 && (
+                  <span className="px-4 py-1.5 bg-purple-100 text-purple-700 rounded-xl font-black text-xs uppercase tracking-[0.2em]">
+                    {unitProgress.completed}/{unitProgress.total} ({unitProgress.percentage}%)
+                  </span>
+                )}
               </div>
               
               <h1 className="text-4xl md:text-6xl font-black tracking-tight leading-tight">
                 {course.unit_title}
               </h1>
+
+              {unitProgress.total > 0 && (
+                <div className="pt-4 space-y-2">
+                  <div className="flex items-center justify-between text-sm">
+                    <span className="font-bold text-slate-600">Progreso</span>
+                    <span className="font-black text-indigo-600">{unitProgress.percentage}%</span>
+                  </div>
+                  <div className="w-full h-4 bg-slate-100 rounded-full overflow-hidden">
+                    <motion.div
+                      initial={{ width: 0 }}
+                      animate={{ width: `${unitProgress.percentage}%` }}
+                      transition={{ duration: 0.5, ease: "easeOut" }}
+                      className="h-full bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full"
+                    />
+                  </div>
+                </div>
+              )}
               
               <div className="pt-8">
                 <Button 
@@ -119,37 +170,50 @@ export default function PremiumUnitViewer({ unitData }: Props) {
           </div>
 
           <div className="grid gap-4">
-            {exerciseQueue.map((exercise: any, idx: number) => (
-              <motion.div
-                key={idx}
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: idx * 0.05 }}
-                className="bg-white hover:bg-slate-50 border-2 border-slate-100 rounded-2xl p-4 flex items-center justify-between group transition-all"
-              >
-                <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 bg-slate-100 group-hover:bg-indigo-100 rounded-xl flex items-center justify-center text-slate-500 group-hover:text-indigo-600 font-bold transition-colors">
-                    {idx + 1}
-                  </div>
-                  <div className="space-y-0.5">
-                    <p className="text-xs font-black text-indigo-600 uppercase tracking-widest">{exercise.blockTitle}</p>
-                    <h3 className="font-bold text-slate-700 line-clamp-1">{exercise.displayTitle}</h3>
-                  </div>
-                </div>
-                
-                <Button
-                  size="sm"
-                  variant="ghost"
-                  onClick={() => {
-                    setStartIndex(idx);
-                    setIsStarted(true);
-                  }}
-                  className="rounded-xl hover:bg-indigo-600 hover:text-white transition-all group/play"
+            {exerciseQueue.map((exercise: any, idx: number) => {
+              const isExerciseCompleted = exercise.interaction_id && localCompletedIds.includes(exercise.interaction_id);
+              return (
+                <motion.div
+                  key={idx}
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: idx * 0.05 }}
+                  className={`bg-white hover:bg-slate-50 border-2 rounded-2xl p-4 flex items-center justify-between group transition-all ${
+                    isExerciseCompleted ? 'border-green-200 bg-green-50/50' : 'border-slate-100'
+                  }`}
                 >
-                  <Play className="w-4 h-4 fill-current" />
-                </Button>
-              </motion.div>
-            ))}
+                  <div className="flex items-center gap-4">
+                    <div className={`w-10 h-10 rounded-xl flex items-center justify-center font-bold transition-colors ${
+                      isExerciseCompleted 
+                        ? 'bg-green-100 text-green-600' 
+                        : 'bg-slate-100 group-hover:bg-indigo-100 text-slate-500 group-hover:text-indigo-600'
+                    }`}>
+                      {isExerciseCompleted ? (
+                        <CheckCircle2 className="w-5 h-5" />
+                      ) : (
+                        idx + 1
+                      )}
+                    </div>
+                    <div className="space-y-0.5">
+                      <p className="text-xs font-black text-indigo-600 uppercase tracking-widest">{exercise.blockTitle}</p>
+                      <h3 className="font-bold text-slate-700 line-clamp-1">{exercise.displayTitle}</h3>
+                    </div>
+                  </div>
+                  
+                  <Button
+                    size="sm"
+                    variant="ghost"
+                    onClick={() => {
+                      setStartIndex(idx);
+                      setIsStarted(true);
+                    }}
+                    className="rounded-xl hover:bg-indigo-600 hover:text-white transition-all group/play"
+                  >
+                    <Play className="w-4 h-4 fill-current" />
+                  </Button>
+                </motion.div>
+              );
+            })}
           </div>
         </section>
 
