@@ -94,7 +94,7 @@
         {
           "interaction_id": "U4_I5",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: ¿'Apple' comienza con una vocal?",
+          "prompt_es": "Sarah y John escuchan: ¿'Apple' comienza con una vocal?",
           "correct_answer": true,
           "mastery_tag": "phonics"
         },
@@ -136,7 +136,7 @@
         {
           "interaction_id": "U4_I7",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -184,7 +184,7 @@
         {
           "interaction_id": "U4_I9",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -255,7 +255,7 @@
         {
           "interaction_id": "U4_I13",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: ¿La letra 'Y' es siempre una consonante en inglés?",
+          "prompt_es": "Sarah y John escuchan: ¿La letra 'Y' es siempre una consonante en inglés?",
           "correct_answer": false,
           "mastery_tag": "phonics"
         },
@@ -292,7 +292,7 @@
         {
           "interaction_id": "U4_I15",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -340,7 +340,7 @@
         {
           "interaction_id": "U4_I17",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -403,7 +403,7 @@
         {
           "interaction_id": "U4_I20",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: ¿'Name' tiene cuatro letras?",
+          "prompt_es": "Sarah y John escuchan: ¿'Name' tiene cuatro letras?",
           "correct_answer": true,
           "mastery_tag": "logic"
         },

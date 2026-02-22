@@ -86,7 +86,7 @@
         {
           "interaction_id": "U19_I4",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -184,7 +184,7 @@
         {
           "interaction_id": "U19_I8",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: 'Near' significa 'Lejos'.",
+          "prompt_es": "Sarah y John escuchan: 'Near' significa 'Lejos'.",
           "correct_answer": false,
           "mastery_tag": "prepositions"
         },
@@ -207,7 +207,7 @@
         {
           "interaction_id": "U19_I11",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -292,7 +292,7 @@
         {
           "interaction_id": "U19_I14",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: 'Town' es más grande que 'City'.",
+          "prompt_es": "Sarah y John escuchan: 'Town' es más grande que 'City'.",
           "correct_answer": false,
           "mastery_tag": "vocabulary"
         },
@@ -307,7 +307,7 @@
         {
           "interaction_id": "U19_I16",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -399,7 +399,7 @@
         {
           "interaction_id": "U19_I20",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: En inglés, decimos 'I am in the street'.",
+          "prompt_es": "Sarah y John escuchan: En inglés, decimos 'I am in the street'.",
           "correct_answer": true,
           "mastery_tag": "prepositions"
         },
@@ -414,7 +414,7 @@
         {
           "interaction_id": "U19_I22",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",

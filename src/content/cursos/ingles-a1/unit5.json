@@ -25,7 +25,7 @@
         {
           "interaction_id": "U5_I1",
           "type": "matching",
-          "prompt_es": "Sarah presenta. Une las palabras:",
+          "prompt_es": "Sarah se presenta. Une las palabras:",
           "pairs": [
             {
               "id": "p1",
@@ -88,7 +88,7 @@
         {
           "interaction_id": "U5_I4",
           "type": "short_writing",
-          "prompt_es": "Sarah en la orientación de estudiantes internacionales. Maria se presenta en la orientación. ¿Cómo se dice en inglés?",
+          "prompt_es": "Sarah está en la orientación de estudiantes internacionales. Maria se presenta en la orientación. ¿Cómo se dice en inglés?",
           "stimulus_es": "Soy de México",
           "correct_answer": "I am from Mexico",
           "mastery_tag": "vocabulary"
@@ -96,7 +96,7 @@
         {
           "interaction_id": "U5_I5",
           "type": "true_false",
-          "prompt_es": "Los estudiantes escucha: ¿'The UK' significa 'Reino Unido'?",
+          "prompt_es": "Los estudiantes escuchan: ¿'The UK' significa 'Reino Unido'?",
           "correct_answer": true,
           "mastery_tag": "vocabulary"
         },
@@ -133,7 +133,7 @@
         {
           "interaction_id": "U5_I7",
           "type": "matching",
-          "prompt_es": "Los estudiantes aprende vocabulario. Une:",
+          "prompt_es": "Los estudiantes aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -181,7 +181,7 @@
         {
           "interaction_id": "U5_I9",
           "type": "matching",
-          "prompt_es": "Los estudiantes aprende vocabulario. Une:",
+          "prompt_es": "Los estudiantes aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -215,7 +215,7 @@
         {
           "interaction_id": "U5_I10",
           "type": "transformation",
-          "prompt_es": "Los estudiantes completa. Escribe la nacionalidad de alguien de 'Italy':",
+          "prompt_es": "Los estudiantes completan. Escribe la nacionalidad de alguien de 'Italy':",
           "stimulus_en": "He is from Italy. He is ________.",
           "correct_answer": "Italian",
           "mastery_tag": "vocabulary"
@@ -223,7 +223,7 @@
         {
           "interaction_id": "U5_I11",
           "type": "multiple_choice",
-          "prompt_es": "Sarah en la orientación de estudiantes internacionales. ¿Cómo se dice 'Británico'?",
+          "prompt_es": "Sarah está en la orientación de estudiantes internacionales. ¿Cómo se dice 'Británico'?",
           "options": [
             {
               "id": "o1",
@@ -252,7 +252,7 @@
         {
           "interaction_id": "U5_I13",
           "type": "true_false",
-          "prompt_es": "Los estudiantes escucha: ¿'German' significa 'Alemán'?",
+          "prompt_es": "Los estudiantes escuchan: ¿'German' significa 'Alemán'?",
           "correct_answer": true,
           "mastery_tag": "vocabulary"
         },
@@ -289,7 +289,7 @@
         {
           "interaction_id": "U5_I15",
           "type": "matching",
-          "prompt_es": "Los estudiantes aprende vocabulario. Une:",
+          "prompt_es": "Los estudiantes aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -366,7 +366,7 @@
             "p4": "p4"
           },
           "mastery_tag": "vocabulary",
-          "prompt_es": "Los estudiantes aprende vocabulario. Une:"
+          "prompt_es": "Los estudiantes aprenden vocabulario. Une:"
         },
         {
           "interaction_id": "U5_I18",
@@ -400,7 +400,7 @@
         {
           "interaction_id": "U5_I20",
           "type": "true_false",
-          "prompt_es": "Los estudiantes escucha: ¿'I speak English' significa 'Hablo inglés'?",
+          "prompt_es": "Los estudiantes escuchan: ¿'I speak English' significa 'Hablo inglés'?",
           "correct_answer": true,
           "mastery_tag": "translation"
         },
@@ -445,7 +445,7 @@
         {
           "interaction_id": "U5_I23",
           "type": "matching",
-          "prompt_es": "Los estudiantes aprende vocabulario. Une:",
+          "prompt_es": "Los estudiantes aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",

@@ -86,7 +86,7 @@
         {
           "interaction_id": "U11_I4",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -184,7 +184,7 @@
         {
           "interaction_id": "U11_I8",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: 'O'clock' se usa solo para las horas en punto.",
+          "prompt_es": "Sarah y John escuchan: 'O'clock' se usa solo para las horas en punto.",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
@@ -207,7 +207,7 @@
         {
           "interaction_id": "U11_I11",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -396,7 +396,7 @@
         {
           "interaction_id": "U11_I20",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: En inglés británico es común decir 'Half past' para la media hora.",
+          "prompt_es": "Sarah y John escuchan: En inglés británico es común decir 'Half past' para la media hora.",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
@@ -525,7 +525,7 @@
         {
           "interaction_id": "U11_I23",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -553,7 +553,7 @@
         {
           "interaction_id": "U11_I24",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: ¿Usamos 'were' con 'He/She/It' en pasado continuo?",
+          "prompt_es": "Sarah y John escuchan: ¿Usamos 'were' con 'He/She/It' en pasado continuo?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, usamos 'was'.",
           "mastery_tag": "past_continuous"
@@ -652,7 +652,7 @@
         {
           "interaction_id": "U11_I29",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -680,7 +680,7 @@
         {
           "interaction_id": "U11_I30",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: ¿'Boarding pass' es la tarjeta de embarque?",
+          "prompt_es": "Sarah y John escuchan: ¿'Boarding pass' es la tarjeta de embarque?",
           "correct_answer": true,
           "mastery_tag": "holidays_travel_vocab"
         },
@@ -711,7 +711,7 @@
         {
           "interaction_id": "U11_I33",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -739,7 +739,7 @@
         {
           "interaction_id": "U11_I34",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: ¿'Were' se usa con 'You, We, They'?",
+          "prompt_es": "Sarah y John escuchan: ¿'Were' se usa con 'You, We, They'?",
           "correct_answer": true,
           "mastery_tag": "past_continuous"
         },
@@ -810,7 +810,7 @@
         {
           "interaction_id": "U11_I38",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -838,7 +838,7 @@
         {
           "interaction_id": "U11_I39",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: ¿'Delayed' significa que el vuelo llega a tiempo?",
+          "prompt_es": "Sarah y John escuchan: ¿'Delayed' significa que el vuelo llega a tiempo?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, significa que lleva retraso.",
           "mastery_tag": "holidays_travel_vocab"
@@ -927,7 +927,7 @@
         {
           "interaction_id": "U11_I44",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -949,7 +949,7 @@
         {
           "interaction_id": "U11_I45",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: ¿El pasado continuo describe acciones terminadas en un punto exacto?",
+          "prompt_es": "Sarah y John escuchan: ¿El pasado continuo describe acciones terminadas en un punto exacto?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, describe acciones que estaban en progreso.",
           "mastery_tag": "past_continuous"
@@ -1033,7 +1033,7 @@
         {
           "interaction_id": "U11_I50",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -1061,7 +1061,7 @@
         {
           "interaction_id": "U11_I51",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: ¿'Souvenir' es un objeto que compras para recordar un viaje?",
+          "prompt_es": "Sarah y John escuchan: ¿'Souvenir' es un objeto que compras para recordar un viaje?",
           "correct_answer": true,
           "mastery_tag": "holidays_travel_vocab"
         },
@@ -1144,7 +1144,7 @@
         {
           "interaction_id": "U11_I56",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -1172,7 +1172,7 @@
         {
           "interaction_id": "U11_I57",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: ¿Usamos 'wasn't' para negar con 'We'?",
+          "prompt_es": "Sarah y John escuchan: ¿Usamos 'wasn't' para negar con 'We'?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, usamos 'weren't'.",
           "mastery_tag": "past_continuous"
@@ -1256,7 +1256,7 @@
         {
           "interaction_id": "U11_I62",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -1284,7 +1284,7 @@
         {
           "interaction_id": "U11_I63",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: ¿'While' se usa normalmente con el pasado continuo?",
+          "prompt_es": "Sarah y John escuchan: ¿'While' se usa normalmente con el pasado continuo?",
           "correct_answer": true,
           "mastery_tag": "past_continuous"
         },
@@ -1372,7 +1372,7 @@
         {
           "interaction_id": "U11_I68",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -1400,7 +1400,7 @@
         {
           "interaction_id": "U11_I69",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: ¿'Check-out' es cuando llegas al hotel?",
+          "prompt_es": "Sarah y John escuchan: ¿'Check-out' es cuando llegas al hotel?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, es cuando te vas.",
           "mastery_tag": "holidays_travel_vocab"
@@ -1489,7 +1489,7 @@
         {
           "interaction_id": "U11_I74",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -1517,7 +1517,7 @@
         {
           "interaction_id": "U11_I75",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: ¿El pasado continuo de 'Study' es 'Studying'?",
+          "prompt_es": "Sarah y John escuchan: ¿El pasado continuo de 'Study' es 'Studying'?",
           "correct_answer": true,
           "mastery_tag": "past_continuous"
         },
@@ -1600,7 +1600,7 @@
         {
           "interaction_id": "U11_I80",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -1628,7 +1628,7 @@
         {
           "interaction_id": "U11_I81",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: ¿Se usa 'did' en pasado continuo?",
+          "prompt_es": "Sarah y John escuchan: ¿Se usa 'did' en pasado continuo?",
           "correct_answer": false,
           "feedback_incorrect_es": "No, se usa 'was' o 'were'.",
           "mastery_tag": "past_continuous"
@@ -1722,7 +1722,7 @@
         {
           "interaction_id": "U11_I86",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -1750,7 +1750,7 @@
         {
           "interaction_id": "U11_I87",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: ¿'Baggage' es lo mismo que 'Luggage'?",
+          "prompt_es": "Sarah y John escuchan: ¿'Baggage' es lo mismo que 'Luggage'?",
           "correct_answer": true,
           "mastery_tag": "holidays_travel_vocab"
         },
@@ -1838,7 +1838,7 @@
         {
           "interaction_id": "U11_I92",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -1866,7 +1866,7 @@
         {
           "interaction_id": "U11_I93",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: ¿'While' significa 'Mientras'?",
+          "prompt_es": "Sarah y John escuchan: ¿'While' significa 'Mientras'?",
           "correct_answer": true,
           "mastery_tag": "past_continuous"
         },
@@ -1954,7 +1954,7 @@
         {
           "interaction_id": "U11_I98",
           "type": "matching",
-          "prompt_es": "Sarah y John aprende vocabulario. Une:",
+          "prompt_es": "Sarah y John aprenden vocabulario. Une:",
           "pairs": [
             {
               "id": "p1",
@@ -1982,7 +1982,7 @@
         {
           "interaction_id": "U11_I99",
           "type": "true_false",
-          "prompt_es": "Sarah y John escucha: ¿'When' se usa normalmente antes del pasado simple?",
+          "prompt_es": "Sarah y John escuchan: ¿'When' se usa normalmente antes del pasado simple?",
           "correct_answer": true,
           "mastery_tag": "past_continuous"
         },

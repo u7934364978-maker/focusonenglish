@@ -291,6 +291,7 @@ npm run type-check  # ✅ No new TypeScript errors
 - ✅ **514/725 exercises (70.9%)** now reference scenario context
 - ✅ Character continuity: Sarah, John, Emma, Mike across units
 - ✅ All JSON files validated successfully (valid syntax)
+- ✅ **Spanish grammar errors fixed** (58 corrections applied)
 
 **Coverage by Unit**:
 - Units 1-6: 88-100% (excellent coverage)
@@ -301,6 +302,11 @@ npm run type-check  # ✅ No new TypeScript errors
 - Before: "Traduce: Profesor/a" → After: "Sarah ve a la persona enseñando. ¿Cuál es su profesión?"
 - Before: "Ordena las palabras:" → After: "John se presenta a Sarah. Ordena las palabras:"
 - Before: "¿Es correcta esta frase?" → After: "Sarah dice a John: 'Nice to meet you.' ¿Es correcta?"
+
+**Grammar Fixes Applied** (58 total):
+- "Los estudiantes aprende" → "Los estudiantes aprenden" (plural agreement)
+- "Sarah presenta." → "Sarah se presenta." (reflexive verb)
+- "Sarah en la orientación" → "Sarah está en la orientación" (missing verb)
 
 ---
 
