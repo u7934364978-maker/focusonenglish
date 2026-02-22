@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Check, X, RotateCcw, ArrowRight, Volume2 } from 'lucide-react';
 import Markdown from '../course/Markdown';
+import { TranslatedText } from '../course/exercises/TranslatedText';
 
 interface MatchingPair {
   id: string;
