@@ -1356,7 +1356,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         );
 
       case 'gapped_text':
-      case 'multiple_choice_cloze':
+      case 'multiple_choice_cloze': {
         const parts = interaction.main_text.split(/(\[GAP \d+\])/g);
         const fullTextForTTS = interaction.main_text.replace(/\[GAP \d+\]/g, '...');
         return (
@@ -1418,6 +1418,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             )}
           </div>
         );
+      }
 
       case 'matching':
         return (
@@ -1855,7 +1856,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
           </div>
         );
 
-      case 'listening_dictation':
+      case 'listening_dictation': {
         const template = interaction.transcript_template || interaction.transcriptTemplate || "";
         const blanks = (template.match(/___/g) || []).length;
         const parts = template.split('___');
@@ -1910,6 +1911,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
             </div>
           </div>
         );
+      }
 
       default:
         return (
