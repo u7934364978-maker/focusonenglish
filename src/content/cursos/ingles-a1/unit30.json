@@ -5879,6 +5879,68 @@
           "transcript_template": "___ makes perfect!",
           "correct_answer": "Practice",
           "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U30_I303",
+          "type": "pronunciation",
+          "title": "Pronunciation Practice - Module 3 Review",
+          "instructions": "Practice these sentences from Module 3. Focus on clear pronunciation of body parts, furniture, and prepositions.",
+          "focusPoints": [
+            "Clear consonant clusters (str-, thr-)",
+            "Accurate vowel sounds in key vocabulary",
+            "Preposition pronunciation (on, under, between)"
+          ],
+          "targetSentences": [
+            {
+              "text": "The cat is sleeping under the table.",
+              "phonetic": "/ðə kæt ɪz ˈsliːpɪŋ ˈʌndə ðə ˈteɪbl/",
+              "audioUrl": "/audio/a1/unit30/review-sentence-1.mp3"
+            },
+            {
+              "text": "My head hurts and I need to rest.",
+              "phonetic": "/maɪ hed hɜːts ænd aɪ niːd tuː rest/",
+              "audioUrl": "/audio/a1/unit30/review-sentence-2.mp3"
+            },
+            {
+              "text": "Please turn right at the corner.",
+              "phonetic": "/pliːz tɜːn raɪt æt ðə ˈkɔːnə/",
+              "audioUrl": "/audio/a1/unit30/review-sentence-3.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U30_PRON_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'under'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "/ˈʌndə/ (vocal corta en 'u')"
+                },
+                {
+                  "id": "o2",
+                  "text": "/ˈuːndə/ (vocal larga en 'u')"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation"
+        },
+        {
+          "interaction_id": "U30_I304",
+          "type": "speaking",
+          "prompt": "Describe your bedroom. Tell me about the furniture and where things are located. Use at least 4 prepositions.",
+          "expectedResponse": "My bedroom has a bed, a desk, and a wardrobe. The bed is against the wall, and there's a lamp on the bedside table. My computer is on the desk, and my clothes are in the wardrobe.",
+          "hints": [
+            "Mention furniture items (bed, desk, chair, wardrobe)",
+            "Use prepositions: on, in, under, next to, against",
+            "Describe at least 3-4 items"
+          ],
+          "targetWords": ["bed", "desk", "on", "in", "next to"],
+          "timeLimit": 90,
+          "mastery_tag": "speaking"
         }
       ]
     }

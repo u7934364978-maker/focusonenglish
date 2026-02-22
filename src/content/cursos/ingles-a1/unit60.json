@@ -5461,6 +5461,69 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U60_I301",
+          "type": "pronunciation",
+          "title": "Pronunciation Practice - A1 Course Completion",
+          "instructions": "Congratulations! Practice these final sentences covering key A1 topics. Focus on overall fluency and confidence.",
+          "focusPoints": [
+            "Natural intonation and sentence rhythm",
+            "Clear articulation of all sounds learned",
+            "Confident delivery with appropriate pauses"
+          ],
+          "targetSentences": [
+            {
+              "text": "I'd like to order a pizza and a salad, please.",
+              "phonetic": "/aɪd laɪk tuː ˈɔːdə ə ˈpiːtsə ænd ə ˈsæləd, pliːz/",
+              "audioUrl": "/audio/a1/unit60/review-sentence-1.mp3"
+            },
+            {
+              "text": "Could you recommend a good restaurant near here?",
+              "phonetic": "/kʊd juː ˌrekəˈmend ə ɡʊd ˈrestərɒnt nɪə hɪə/",
+              "audioUrl": "/audio/a1/unit60/review-sentence-2.mp3"
+            },
+            {
+              "text": "I've learned so much English this year!",
+              "phonetic": "/aɪv lɜːnd səʊ mʌtʃ ˈɪŋɡlɪʃ ðɪs jɪə/",
+              "audioUrl": "/audio/a1/unit60/review-sentence-3.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U60_PRON_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuál es la pronunciación correcta de 'restaurant'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "/ˈrestərɒnt/ - RES-ter-ont"
+                },
+                {
+                  "id": "o2",
+                  "text": "/resˈtɒrənt/ - res-TOR-ent"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation"
+        },
+        {
+          "interaction_id": "U60_I302",
+          "type": "speaking",
+          "prompt": "Reflect on your A1 English journey. What have you learned? What are your goals for A2? Tell me about your favorite topic from the course.",
+          "expectedResponse": "I've learned a lot in this A1 course. I can now introduce myself, talk about my family and daily routines, give directions, and order food in a restaurant. My favorite topic was learning about travel and hotels. For A2, I want to improve my grammar and learn more vocabulary to have longer conversations.",
+          "hints": [
+            "Mention 3-4 topics you studied (family, food, travel, directions, etc.)",
+            "Share your favorite topic and why",
+            "Talk about your future learning goals",
+            "Use past tense to describe what you learned"
+          ],
+          "targetWords": ["learned", "favorite", "improve", "goal", "conversation"],
+          "timeLimit": 120,
+          "mastery_tag": "speaking"
         }
       ]
     }

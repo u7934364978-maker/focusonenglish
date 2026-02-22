@@ -5811,6 +5811,68 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U40_I301",
+          "type": "pronunciation",
+          "title": "Pronunciation Practice - Module 4 Review",
+          "instructions": "Practice modal verbs and ability expressions. Pay attention to the weak forms of 'can' and clear pronunciation of '-able'.",
+          "focusPoints": [
+            "Weak form of 'can' /kən/ vs. strong form /kæn/",
+            "Clear pronunciation of '-ability' suffix",
+            "Natural rhythm in modal verb sentences"
+          ],
+          "targetSentences": [
+            {
+              "text": "I can speak English, but I can't speak French.",
+              "phonetic": "/aɪ kən spiːk ˈɪŋɡlɪʃ, bʌt aɪ kɑːnt spiːk frentʃ/",
+              "audioUrl": "/audio/a1/unit40/review-sentence-1.mp3"
+            },
+            {
+              "text": "She is able to swim very well.",
+              "phonetic": "/ʃiː ɪz ˈeɪbl tuː swɪm ˈveri wel/",
+              "audioUrl": "/audio/a1/unit40/review-sentence-2.mp3"
+            },
+            {
+              "text": "May I ask you a question?",
+              "phonetic": "/meɪ aɪ ɑːsk juː ə ˈkwestʃən/",
+              "audioUrl": "/audio/a1/unit40/review-sentence-3.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U40_PRON_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia normalmente 'can' en 'I can speak'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "/kən/ - forma débil, rápida"
+                },
+                {
+                  "id": "o2",
+                  "text": "/kæn/ - forma fuerte, enfática"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation"
+        },
+        {
+          "interaction_id": "U40_I302",
+          "type": "speaking",
+          "prompt": "Tell me about your abilities and hobbies. What can you do well? What would you like to learn?",
+          "expectedResponse": "I can play the guitar and I'm able to cook simple meals. I go swimming twice a week. I would like to learn how to speak another language fluently.",
+          "hints": [
+            "Use 'I can...' or 'I'm able to...'",
+            "Mention at least 2 abilities or hobbies",
+            "Talk about something you'd like to learn"
+          ],
+          "targetWords": ["can", "able", "learn", "would like"],
+          "timeLimit": 90,
+          "mastery_tag": "speaking"
         }
       ]
     }

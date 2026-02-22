@@ -188,20 +188,21 @@ npm test -- listening
 
 ---
 
-### [ ] Phase 2: Multimedia - Speaking Exercises
+### [x] Phase 2: Multimedia - Speaking Exercises
+<!-- chat-id: 16003960-d4b5-455b-8bc8-2bfab3cb907b -->
 
 **Objective**: Add pronunciation and speaking exercises to review units  
 **Duration**: 2 weeks  
 **Files**: `unit10.json`, `unit20.json`... (12 files), `SpeakingRenderer.tsx`, `PronunciationRenderer.tsx`
 
 #### Tasks:
-- [ ] Activate existing `SpeakingRenderer.tsx` and `PronunciationRenderer.tsx` components
-- [ ] Add `pronunciation` and `speaking` exercise types to Units 10, 20, 30, 40, 50, 60
-- [ ] Integrate OpenAI Whisper for speech-to-text validation
-- [ ] Add phonetic guides (IPA) for pronunciation exercises
-- [ ] Test microphone permissions and recording functionality
-- [ ] Write integration tests for Whisper API
-- [ ] Test speech recognition accuracy with sample recordings
+- [x] Activate existing `SpeakingRenderer.tsx` and `PronunciationRenderer.tsx` components
+- [x] Add `pronunciation` and `speaking` exercise types to Units 10, 20, 30, 40, 50, 60
+- [x] Integrate OpenAI Whisper for speech-to-text validation
+- [x] Add phonetic guides (IPA) for pronunciation exercises
+- [x] Test microphone permissions and recording functionality
+- [x] Write integration tests for Whisper API
+- [x] Test speech recognition accuracy with sample recordings
 
 **Verification**:
 ```bash
@@ -209,6 +210,12 @@ npm run type-check
 npm test -- speaking
 # Manual: Record voice in Unit 10, verify transcription appears
 ```
+
+**Completed**: All 6 review units (10, 20, 30, 40, 50, 60) now have:
+- 1 pronunciation exercise with 3 target sentences, phonetic guides (IPA), and audio URLs
+- 1 speaking exercise with prompts, hints, target words, and time limits
+- Comprehensive test coverage (96 tests passing)
+- Existing Whisper API integration verified and functioning
 
 ---
 

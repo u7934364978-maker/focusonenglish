@@ -5661,6 +5661,69 @@
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U50_I301",
+          "type": "pronunciation",
+          "title": "Pronunciation Practice - Travel & Weather",
+          "instructions": "Practice travel and weather vocabulary. Focus on accurate vowel sounds and word stress.",
+          "focusPoints": [
+            "Diphthongs in 'weather' /ˈweðə/",
+            "Stress patterns in compound words (air-PORT, SUIT-case)",
+            "Clear 'th' sounds in weather vocabulary"
+          ],
+          "targetSentences": [
+            {
+              "text": "I'd like to book a room for two nights.",
+              "phonetic": "/aɪd laɪk tuː bʊk ə ruːm fɔː tuː naɪts/",
+              "audioUrl": "/audio/a1/unit50/review-sentence-1.mp3"
+            },
+            {
+              "text": "The weather is sunny and warm today.",
+              "phonetic": "/ðə ˈweðər ɪz ˈsʌni ænd wɔːm təˈdeɪ/",
+              "audioUrl": "/audio/a1/unit50/review-sentence-2.mp3"
+            },
+            {
+              "text": "What time does the flight depart?",
+              "phonetic": "/wɒt taɪm dʌz ðə flaɪt dɪˈpɑːt/",
+              "audioUrl": "/audio/a1/unit50/review-sentence-3.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U50_PRON_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde está el acento en 'airport'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "AIR-port (primera sílaba)"
+                },
+                {
+                  "id": "o2",
+                  "text": "air-PORT (segunda sílaba)"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation"
+        },
+        {
+          "interaction_id": "U50_I302",
+          "type": "speaking",
+          "prompt": "Imagine you're at a hotel reception. Check in and ask about the facilities. Mention the weather too.",
+          "expectedResponse": "Hello, I have a reservation for two nights under the name Smith. Can you tell me what time breakfast is served? Also, what's the weather forecast for tomorrow? I'd like to visit the beach.",
+          "hints": [
+            "Greet the receptionist politely",
+            "Mention your reservation",
+            "Ask about hotel facilities or services",
+            "Include a comment about the weather"
+          ],
+          "targetWords": ["reservation", "room", "weather", "breakfast"],
+          "timeLimit": 90,
+          "mastery_tag": "speaking"
         }
       ]
     }

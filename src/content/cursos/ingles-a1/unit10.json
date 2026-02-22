@@ -3808,6 +3808,68 @@
           "transcript_template": "It's three ___.",
           "correct_answer": "o'clock",
           "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U10_I203",
+          "type": "pronunciation",
+          "title": "Pronunciation Practice - Module 1 Review",
+          "instructions": "Listen carefully to each sentence and repeat it. Focus on clear pronunciation and natural rhythm.",
+          "focusPoints": [
+            "Clear vowel sounds in key vocabulary",
+            "Natural word stress patterns",
+            "Smooth sentence rhythm"
+          ],
+          "targetSentences": [
+            {
+              "text": "This is a review of module one.",
+              "phonetic": "/ðɪs ɪz ə rɪˈvjuː əv ˈmɒdjuːl wʌn/",
+              "audioUrl": "/audio/a1/unit10/review-sentence-1.mp3"
+            },
+            {
+              "text": "I want to improve my English.",
+              "phonetic": "/aɪ wɒnt tuː ɪmˈpruːv maɪ ˈɪŋɡlɪʃ/",
+              "audioUrl": "/audio/a1/unit10/review-sentence-2.mp3"
+            },
+            {
+              "text": "Let's check the answers together.",
+              "phonetic": "/lets tʃek ðə ˈɑːnsəz təˈɡeðə/",
+              "audioUrl": "/audio/a1/unit10/review-sentence-3.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U10_PRON_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Qué palabra tiene el acento principal en 'improve'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Primera sílaba (IM-prove)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Segunda sílaba (im-PROVE)"
+                }
+              ],
+              "correct_answer": "o2",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation"
+        },
+        {
+          "interaction_id": "U10_I204",
+          "type": "speaking",
+          "prompt": "Tell me about what you learned in Module 1. What was the most interesting topic for you?",
+          "expectedResponse": "I learned about greetings, introducing myself, and basic conversations. The most interesting topic was learning how to talk about my family.",
+          "hints": [
+            "Start with 'I learned about...'",
+            "Mention at least 2 topics from Module 1",
+            "Share which topic you found most interesting"
+          ],
+          "targetWords": ["learned", "greetings", "family", "interesting"],
+          "timeLimit": 60,
+          "mastery_tag": "speaking"
         }
       ]
     }

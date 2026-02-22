@@ -486,6 +486,68 @@
           "transcript_template": "I ___ call you later.",
           "correct_answer": "will",
           "mastery_tag": "listening"
+        },
+        {
+          "interaction_id": "U20_I27",
+          "type": "pronunciation",
+          "title": "Pronunciation Practice - Giving Directions",
+          "instructions": "Listen to these direction phrases and repeat them. Pay attention to the rhythm and stress.",
+          "focusPoints": [
+            "Clear 'th' sounds in 'the'",
+            "Stress on action words (turn, go, take)",
+            "Natural intonation for instructions"
+          ],
+          "targetSentences": [
+            {
+              "text": "Turn left at the traffic lights.",
+              "phonetic": "/tɜːn left æt ðə ˈtræfɪk laɪts/",
+              "audioUrl": "/audio/a1/unit20/direction-1.mp3"
+            },
+            {
+              "text": "Go straight ahead for two blocks.",
+              "phonetic": "/ɡəʊ streɪt əˈhed fɔː tuː blɒks/",
+              "audioUrl": "/audio/a1/unit20/direction-2.mp3"
+            },
+            {
+              "text": "Excuse me, where is the nearest bank?",
+              "phonetic": "/ɪkˈskjuːz miː, weər ɪz ðə ˈnɪərɪst bæŋk/",
+              "audioUrl": "/audio/a1/unit20/direction-3.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U20_PRON_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'excuse' correctamente?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "EX-cuse (primera sílaba)"
+                },
+                {
+                  "id": "o2",
+                  "text": "ex-CUSE (segunda sílaba)"
+                }
+              ],
+              "correct_answer": "o2",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation"
+        },
+        {
+          "interaction_id": "U20_I28",
+          "type": "speaking",
+          "prompt": "Give me directions from your house to the nearest supermarket. Use at least 3 direction phrases.",
+          "expectedResponse": "Turn right when you leave my house, then go straight ahead for two blocks. Turn left at the traffic lights, and the supermarket is on your right.",
+          "hints": [
+            "Use phrases like 'turn left/right', 'go straight', 'it's on your left/right'",
+            "Mention landmarks like traffic lights or corners",
+            "Speak clearly and at a natural pace"
+          ],
+          "targetWords": ["turn", "straight", "left", "right", "traffic lights"],
+          "timeLimit": 60,
+          "mastery_tag": "speaking"
         }
       ]
     }
