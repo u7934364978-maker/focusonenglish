@@ -77,7 +77,7 @@ Implement the task according to the technical specification and general engineer
 
 ---
 
-### [x] Step: Critical Hotfix - Undefined .split() TypeError
+### [x] Step: Critical Hotfix - Undefined .split() TypeError (Round 1)
 
 **Issue**: `Uncaught TypeError: can't access property "split", e is undefined`
 
@@ -86,7 +86,20 @@ Implement the task according to the technical specification and general engineer
 - ExerciseRenderer.tsx line 514: Add null check to `ex.text`
 - Commit: `22a32535`
 - Build Status: ✅ Success
-- Changes: 2 files modified
+
+---
+
+### [x] Step: Critical Hotfix - Undefined .split() TypeError (Round 2)
+
+**Issue**: `Uncaught TypeError: can't access property "split", e is undefined` (persisting in additional locations)
+
+**Additional Fixes Applied**:
+- GapFillRenderer.tsx: Add null check in renderGaps function
+- SmartPronunciationEvaluator.tsx: Add null check for detailedFeedback
+- PracticaIAClient.tsx: Add null check for lastMsg.text
+- Commit: `adb3ecaa`
+- Build Status: ✅ Success
+- Changes: 4 files modified
 
 ---
 
