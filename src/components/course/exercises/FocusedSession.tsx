@@ -592,7 +592,7 @@ export default function FocusedPremiumSession({ block, onComplete, onExit }: Pro
             <div className="bg-slate-50 p-10 rounded-[3rem] border-4 border-slate-200 shadow-inner">
                {hasBlank ? (
                  <div className="text-2xl font-bold text-slate-700 flex flex-wrap justify-center items-center gap-x-4 gap-y-8 max-h-[40vh] overflow-y-auto p-4">
-                   {interaction.stimulus_en.split('___').map((part: string, i: number, arr: any[]) => (
+                   {(interaction.stimulus_en || "").split('___').map((part: string, i: number, arr: any[]) => (
                      <React.Fragment key={i}>
                        <span>{part}</span>
                        {i < arr.length - 1 && (
