@@ -445,7 +445,7 @@
         {
           "interaction_id": "U4_I22",
           "type": "transformation",
-          "prompt_es": "Sarah y John completa. Escribe la vocal que falta en 'H-O-L-A': (en inglés)",
+          "prompt_es": "Sarah y John completan. Escribe la vocal que falta en 'H-O-L-A': (en inglés)",
           "stimulus_en": "H - E - L - L - ________",
           "correct_answer": "O",
           "mastery_tag": "vocabulary"
