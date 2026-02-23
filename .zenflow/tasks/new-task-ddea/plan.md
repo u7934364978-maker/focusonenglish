@@ -372,7 +372,8 @@ Modify ExerciseRenderer to support audio and translation features.
 
 ## Phase 4: Advanced Filtering & Module Grouping
 
-### [ ] Step: Implement topic and difficulty filters
+### [x] Step: Implement topic and difficulty filters
+<!-- chat-id: c9d1b011-7b4e-4cc9-9798-a3ca955f159a -->
 
 Add advanced filtering to the A1CourseSelector component.
 
