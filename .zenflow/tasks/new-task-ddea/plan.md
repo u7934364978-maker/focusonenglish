@@ -119,7 +119,8 @@ Add server-side functions to fetch and enrich A1 units with metadata.
 
 ---
 
-### [ ] Step: Create UnitCard component
+### [x] Step: Create UnitCard component
+<!-- chat-id: eb82d794-0339-497c-9e0f-59bace0f8647 -->
 
 Build the unit card component to display unit metadata in a visually appealing card format.
 
