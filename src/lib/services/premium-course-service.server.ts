@@ -229,12 +229,10 @@ export const premiumCourseServerService = {
 
   async getUnitData(courseId: string, unitId: string): Promise<UnitData | null> {
     try {
-      console.log(`[PremiumCourseService] Fetching unit data: courseId=${courseId}, unitId=${unitId}`);
       const supabase = await createClient();
       // First try in src/content/cursos/ (modern path)
       const contentPath = path.join(process.cwd(), 'src', 'content', 'cursos', courseId, `${unitId}.json`);
       if (fs.existsSync(contentPath)) {
-        console.log(`[PremiumCourseService] Found JSON file at ${contentPath}`);
         const fileContent = fs.readFileSync(contentPath, 'utf8');
         return JSON.parse(fileContent);
       }
@@ -242,12 +240,9 @@ export const premiumCourseServerService = {
       // Then try in src/data/courses/ (legacy path)
       const filePath = path.join(process.cwd(), 'src', 'data', 'courses', courseId, `${unitId}.json`);
       if (fs.existsSync(filePath)) {
-        console.log(`[PremiumCourseService] Found legacy JSON file at ${filePath}`);
         const fileContent = fs.readFileSync(filePath, 'utf8');
         return JSON.parse(fileContent);
       }
-
-      console.log(`[PremiumCourseService] Checking premium_units table...`);
       const { data, error } = await supabase
         .from('premium_units')
         .select('*')
@@ -256,14 +251,12 @@ export const premiumCourseServerService = {
         .single();
 
       if (!error && data) {
-        console.log(`[PremiumCourseService] Found in premium_units table`);
         return data.content as UnitData;
       }
 
       // New: Support fetching from course_lessons and course_exercises (Dynamic A2/A1 content)
       if (courseId.startsWith('ingles-')) {
         const cefrLevel = courseId.split('-')[1].toUpperCase();
-        console.log(`[PremiumCourseService] Checking dynamic content for level ${cefrLevel}...`);
         
         // Fetch the lesson
         const { data: lesson, error: lessonError } = await supabase
@@ -285,7 +278,6 @@ export const premiumCourseServerService = {
           .single();
 
         if (lesson && !lessonError) {
-          console.log(`[PremiumCourseService] Found dynamic lesson: ${lesson.title} with ${lesson.course_exercises?.length || 0} exercises`);
           // Transform database format to UnitData format
           const exercises = (lesson.course_exercises as any[]) || [];
           exercises.sort((a, b) => a.order_index - b.order_index);
@@ -317,12 +309,9 @@ export const premiumCourseServerService = {
             },
             blocks
           } as UnitData;
-        } else {
-          console.log(`[PremiumCourseService] Dynamic lesson not found or error:`, lessonError);
         }
       }
 
-      console.log(`[PremiumCourseService] Unit not found anywhere`);
       return null;
     } catch (e) {
       console.error('Error fetching unit data:', e);
