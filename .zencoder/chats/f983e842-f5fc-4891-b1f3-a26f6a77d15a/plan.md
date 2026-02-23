@@ -101,7 +101,13 @@ Multi-level student progress CRM integration completed. All components ready for
    - Committed and pushed to main branch ✅
 7. [ ] **Exercise Counting Fix**
    - Updated `src/lib/utils/course-metadata.ts` to count matching pairs individually. ✅
-   - Status: Locally modified, pending `git push` from user terminal.
+   - Status: Locally modified, pending `git push` from user terminal. ✅ (Completed with commit 7c385ff7)
+
+## SPRINT 3: FUTURE COURSES & CMS
+
+8. [ ] **CMS Strategy Definition**
+   - Evaluate HubSpot HubDB vs Supabase for dynamic content management.
+   - Create a prototype for managing exercises without JSON files.
 
 ## TEST USER CREDENTIALS
 - Email: `alumno@test.com`

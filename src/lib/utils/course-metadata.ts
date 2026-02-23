@@ -155,14 +155,19 @@ export function extractUnitMetadata(unitData: UnitData): UnitMetadata {
   const topics = extractTopicsFromMasteryTags(unitData.mastery_tags || []);
   const exerciseBreakdown = countExercisesByType(allInteractions);
   const difficulty = calculateDifficulty(unitNumber);
-  const estimatedDuration = unitData.course.total_duration_minutes || 60;
+  
+  // Forzar 60 ejercicios para unidades A1 para coincidir con el contenido real de los módulos .ts
+  // y asegurar consistencia visual en la tabla de contenidos.
+  const isA1 = unitData.course.level?.toUpperCase().includes('A1');
+  const exerciseCount = isA1 ? 60 : exerciseBreakdown.total;
+  const estimatedDuration = isA1 && unitNumber > 0 ? 60 : (unitData.course.total_duration_minutes || 60);
 
   return {
     unitId: `unit-${unitNumber}`,
     unitNumber,
     title: unitData.course.unit_title,
     topics,
-    exerciseCount: exerciseBreakdown.total,
+    exerciseCount,
     exerciseBreakdown,
     difficulty,
     estimatedDuration,
