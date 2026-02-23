@@ -305,7 +305,8 @@ Build a custom audio player with playback controls and speed adjustment.
 
 ---
 
-### [ ] Step: Create TranslationToggle component
+### [x] Step: Create TranslationToggle component
+<!-- chat-id: 3fb929f9-48fd-4255-ad35-78b9f2440c3d -->
 
 Build interactive translation toggle for bilingual content.
 
