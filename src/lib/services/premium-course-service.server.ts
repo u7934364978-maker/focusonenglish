@@ -344,7 +344,7 @@ export const premiumCourseServerService = {
   },
 
   async getA1UnitsWithMetadata(): Promise<A1CourseMetadata> {
-    const contentDir = path.join(process.cwd(), 'src/content/cursos/ingles-a1-narrative');
+    const contentDir = path.join(process.cwd(), 'src/content/cursos/ingles-a1');
     const units: UnitMetadata[] = [];
     let totalDuration = 0;
 

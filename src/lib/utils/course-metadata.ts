@@ -155,7 +155,7 @@ export function extractUnitMetadata(unitData: UnitData): UnitMetadata {
   const estimatedDuration = unitData.course.total_duration_minutes || 60;
 
   return {
-    unitId,
+    unitId: `unit-${unitNumber}`,
     unitNumber,
     title: unitData.course.unit_title,
     topics,
