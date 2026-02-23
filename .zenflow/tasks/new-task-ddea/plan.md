@@ -337,7 +337,8 @@ Build interactive translation toggle for bilingual content.
 
 ---
 
-### [ ] Step: Integrate AudioPlayer and TranslationToggle into exercises
+### [x] Step: Integrate AudioPlayer and TranslationToggle into exercises
+<!-- chat-id: ad63712b-c96e-4886-94cd-01d80de39300 -->
 
 Modify ExerciseRenderer to support audio and translation features.
 
