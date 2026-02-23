@@ -99,6 +99,9 @@ Multi-level student progress CRM integration completed. All components ready for
    - Updated `src/app/success/page.tsx` links and text to refer to A1 course ✅
    - Added middleware redirects for `/dashboard`, `/profile`, `/practica-ia`, `/practica-inteligente`, `/aula` to `/curso-a1/outline` ✅
    - Committed and pushed to main branch ✅
+7. [ ] **Exercise Counting Fix**
+   - Updated `src/lib/utils/course-metadata.ts` to count matching pairs individually. ✅
+   - Status: Locally modified, pending `git push` from user terminal.
 
 ## TEST USER CREDENTIALS
 - Email: `alumno@test.com`
