@@ -186,7 +186,7 @@ Build the main landing page with unit cards grid and basic filtering.
 
 ## Phase 2: Unit Preview Page Enhancements
 
-### [ ] Step: Create UnitOverviewHeader component
+### [x] Step: Create UnitOverviewHeader component
 <!-- chat-id: 9ed148c3-055a-44f9-bde4-5fa3a0638376 -->
 
 Build the overview header that displays unit learning objectives and metadata.
@@ -215,7 +215,7 @@ Build the overview header that displays unit learning objectives and metadata.
 
 ---
 
-### [ ] Step: Create PreviewNavBar component with breadcrumbs
+### [x] Step: Create PreviewNavBar component with breadcrumbs
 
 Build enhanced navigation bar with breadcrumbs and unit dropdown.
 
@@ -242,7 +242,7 @@ Build enhanced navigation bar with breadcrumbs and unit dropdown.
 
 ---
 
-### [ ] Step: Integrate UnitOverviewHeader into unit preview page
+### [x] Step: Integrate UnitOverviewHeader into unit preview page
 
 Modify the existing unit preview page to include the new overview header and navigation.
 
