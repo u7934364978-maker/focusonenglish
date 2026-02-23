@@ -16,13 +16,13 @@ function SignInForm() {
   const searchParams = useSearchParams();
   
   // Obtener la ruta de destino y asegurar que sea relativa
-  let callbackUrl = searchParams.get('next') || searchParams.get('callbackUrl') || '/dashboard';
+  let callbackUrl = searchParams.get('next') || searchParams.get('callbackUrl') || '/curso-a1/outline';
   if (callbackUrl.startsWith('http')) {
     try {
       const url = new URL(callbackUrl);
       callbackUrl = url.pathname + url.search;
     } catch (e) {
-      callbackUrl = '/dashboard';
+      callbackUrl = '/curso-a1/outline';
     }
   }
 

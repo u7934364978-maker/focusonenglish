@@ -74,6 +74,19 @@ export async function middleware(request: NextRequest) {
     console.log(`[Middleware] User: ${user.email}, Status: ${profile?.subscription_status}, Role: ${profile?.role}`);
   }
 
+  // Redirección para rutas eliminadas
+  if (
+    pathname === "/dashboard" || pathname.startsWith("/dashboard/") ||
+    pathname === "/profile" || pathname.startsWith("/profile/") ||
+    pathname === "/practica-ia" || pathname.startsWith("/practica-ia/") ||
+    pathname === "/practica-inteligente" || pathname.startsWith("/practica-inteligente/") ||
+    pathname === "/aula" || pathname.startsWith("/aula/")
+  ) {
+    const url = request.nextUrl.clone();
+    url.pathname = "/curso-a1/outline";
+    return NextResponse.redirect(url);
+  }
+
   // Rutas públicas que NO deben redirigir al dashboard si está logueado (ej. recursos estáticos, webhooks, etc.)
   if (
     pathname.startsWith("/api/webhooks") ||

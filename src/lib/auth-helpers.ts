@@ -25,7 +25,7 @@ export async function signUp(email: string, password: string, name: string): Pro
       data: {
         name,
       },
-      emailRedirectTo: `${window.location.origin}/dashboard`,
+      emailRedirectTo: `${window.location.origin}/curso-a1/outline`,
     },
   });
 

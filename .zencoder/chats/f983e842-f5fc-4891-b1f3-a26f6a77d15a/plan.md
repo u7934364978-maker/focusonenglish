@@ -84,3 +84,24 @@ Multi-level student progress CRM integration completed. All components ready for
 4. [x] **Task 4: Verification**
    - Verify that all old routes return 404.
    - Verify that `/curso-a1` is correctly protected and accessible for paid users.
+
+## SPRINT 2: PRODUCTION DEPLOYMENT FIX
+
+5. [x] **Import Path Fix**
+   - Fixed incorrect relative import in `/src/app/curso-a1/[unitId]/page.tsx`
+   - Changed from `../../../../lib/course/a1/` to `../../../lib/course/a1/`
+   - Verified build passes: `npm run build` ✅
+   - Committed: `731a4d71` - "fix: correct import path in curso-a1 unit page"
+   - Pushed to main branch
+6. [x] **Redirect & Link Cleanup**
+   - Updated `src/app/cuenta/login/page.tsx` default redirect to `/curso-a1/outline` ✅
+   - Updated `src/lib/auth-helpers.ts` sign up redirect to `/curso-a1/outline` ✅
+   - Updated `src/app/success/page.tsx` links and text to refer to A1 course ✅
+   - Added middleware redirects for `/dashboard`, `/profile`, `/practica-ia`, `/practica-inteligente`, `/aula` to `/curso-a1/outline` ✅
+   - Committed and pushed to main branch ✅
+
+## TEST USER CREDENTIALS
+- Email: `alumno@test.com`
+- Password: `FocusPassword2026!`
+- Status: Active subscription (premium)
+- Available in: Local Supabase + Production Supabase

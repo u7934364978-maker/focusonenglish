@@ -39,7 +39,7 @@ function SuccessContent() {
           </li>
           <li className="flex items-start gap-3">
             <span className="text-amber-600 mt-1">🎓</span>
-            <span>Ya puedes acceder a tu <strong>Dashboard</strong> y empezar a aprender inmediatamente.</span>
+            <span>Ya puedes acceder a tus <strong>Cursos</strong> y empezar a aprender inmediatamente.</span>
           </li>
           <li className="flex items-start gap-3">
             <span className="text-amber-600 mt-1">📚</span>
@@ -56,10 +56,10 @@ function SuccessContent() {
 
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <Link
-          href="/dashboard"
+          href="/curso-a1/outline"
           className="inline-flex items-center justify-center bg-amber-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-amber-700 transition-colors"
         >
-          Ir a mi Dashboard
+          Ir a mi Curso A1
         </Link>
         <Link
           href="/"
