@@ -61,7 +61,8 @@ Save to `{@artifacts_path}/plan.md`.
 
 ## Phase 1: Landing Page Enhancement
 
-### [ ] Step: Setup metadata extraction utilities
+### [x] Step: Setup metadata extraction utilities
+<!-- chat-id: caf1e3ef-90c1-49af-aa89-259e156b4d5a -->
 
 Create the foundational utilities for extracting and processing unit metadata from JSON files.
 
