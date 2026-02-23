@@ -1,7 +1,8 @@
 import { Suspense } from 'react';
 import { A1CourseSelector } from '@/components/course/preview/A1CourseSelector';
 import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
-import { BookOpen, Clock, Award } from 'lucide-react';
+import { BookOpen, Clock, Award, FileText } from 'lucide-react';
+import Link from 'next/link';
 
 export const dynamic = 'force-dynamic';
 
@@ -14,9 +15,18 @@ async function A1PreviewContent() {
       <div className="bg-white border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 py-12 md:py-16">
           <div className="text-center mb-8">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-coral-50 text-coral-600 rounded-full font-bold text-sm mb-4 border border-coral-100">
-              <Award className="w-4 h-4" />
-              <span>A1 Level • Beginner</span>
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-coral-50 text-coral-600 rounded-full font-bold text-sm border border-coral-100">
+                <Award className="w-4 h-4" />
+                <span>A1 Level • Beginner</span>
+              </div>
+              <Link
+                href="/debug/a1-preview/outline"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 text-slate-700 rounded-full font-bold text-sm border border-slate-200 hover:bg-slate-200 transition-colors"
+              >
+                <FileText className="w-4 h-4" />
+                <span>View Course Outline</span>
+              </Link>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 mb-4 tracking-tight">
               English A1 Course Preview
