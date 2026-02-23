@@ -18,7 +18,7 @@ export function ModuleGroup({ module, isInitiallyExpanded = false }: ModuleGroup
     <div className="bg-white rounded-3xl border-2 border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-all">
       <button
         onClick={() => setIsExpanded(!isExpanded)}
-        className="w-full px-8 py-6 flex items-center justify-between gap-4 hover:bg-slate-50 transition-colors"
+        className="w-full px-8 py-6 min-h-[80px] flex items-center justify-between gap-4 hover:bg-slate-50 transition-colors focus:outline-none focus:ring-2 focus:ring-coral-400 focus:ring-inset"
         aria-expanded={isExpanded}
         aria-label={`${isExpanded ? 'Collapse' : 'Expand'} ${module.title}`}
       >

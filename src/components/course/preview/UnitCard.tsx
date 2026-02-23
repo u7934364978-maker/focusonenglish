@@ -16,7 +16,8 @@ export function UnitCard({ unit }: UnitCardProps) {
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="group bg-white rounded-3xl p-6 border border-slate-100 shadow-sm hover:shadow-lg hover:border-coral-200 transition-all relative overflow-hidden"
+      transition={{ duration: 0.2 }}
+      className="group bg-white rounded-3xl p-6 border border-slate-100 shadow-sm hover:shadow-lg hover:border-coral-200 transition-all relative overflow-hidden focus-within:ring-2 focus-within:ring-coral-400 focus-within:ring-offset-2"
     >
       <div className="flex flex-col h-full">
         {/* Unit Number Badge */}
@@ -85,7 +86,9 @@ export function UnitCard({ unit }: UnitCardProps) {
         {/* Preview Button */}
         <Link
           href={`/debug/a1-preview/${unit.unitId}`}
-          className="flex items-center justify-center gap-2 px-6 py-3 bg-coral-50 text-coral-600 rounded-xl font-bold text-sm hover:bg-coral-100 hover:shadow-coral transition-all group-hover:bg-coral-600 group-hover:text-white"
+          prefetch
+          className="flex items-center justify-center gap-2 px-6 py-3 min-h-[48px] bg-coral-50 text-coral-600 rounded-xl font-bold text-sm hover:bg-coral-100 hover:shadow-coral transition-all group-hover:bg-coral-600 group-hover:text-white focus:outline-none focus:ring-2 focus:ring-coral-400 focus:ring-offset-2"
+          aria-label={`Preview ${unit.title}`}
         >
           <span>Preview Unit</span>
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

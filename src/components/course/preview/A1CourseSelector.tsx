@@ -5,6 +5,7 @@ import { Search, X, Filter, Star, Grid3x3, LayoutList } from 'lucide-react';
 import { UnitMetadata } from '@/types/premium-course';
 import { UnitCard } from './UnitCard';
 import { ModuleGroup } from './ModuleGroup';
+import { LazyUnitGrid } from './LazyUnitGrid';
 import { groupUnitsIntoModules } from '@/lib/utils/module-grouping';
 
 interface A1CourseSelectorProps {
@@ -123,12 +124,13 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search by unit number or title..."
-              className="w-full pl-12 pr-12 py-4 rounded-2xl border-2 border-slate-200 focus:border-coral-400 focus:outline-none focus:ring-4 focus:ring-coral-50 transition-all text-slate-900 placeholder:text-slate-400 font-medium"
+              className="w-full pl-12 pr-12 py-4 min-h-[48px] rounded-2xl border-2 border-slate-200 focus:border-coral-400 focus:outline-none focus:ring-4 focus:ring-coral-50 transition-all text-slate-900 placeholder:text-slate-400 font-medium"
+              aria-label="Search units"
             />
             {searchQuery && (
               <button
                 onClick={handleClearSearch}
-                className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 transition-colors"
+                className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 transition-colors p-2 min-w-[44px] min-h-[44px] flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-coral-400 focus:ring-offset-2 rounded-lg"
                 aria-label="Clear search"
               >
                 <X className="w-5 h-5" />
@@ -140,7 +142,7 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
             <div className="flex bg-white border-2 border-slate-200 rounded-2xl overflow-hidden">
               <button
                 onClick={() => setViewMode('grid')}
-                className={`flex items-center gap-2 px-4 py-4 font-bold transition-all ${
+                className={`flex items-center gap-2 px-4 py-4 min-h-[48px] font-bold transition-all focus:outline-none focus:ring-2 focus:ring-coral-400 focus:ring-offset-2 ${
                   viewMode === 'grid'
                     ? 'bg-coral-500 text-white'
                     : 'text-slate-700 hover:bg-slate-50'
@@ -153,7 +155,7 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
               </button>
               <button
                 onClick={() => setViewMode('modules')}
-                className={`flex items-center gap-2 px-4 py-4 font-bold transition-all ${
+                className={`flex items-center gap-2 px-4 py-4 min-h-[48px] font-bold transition-all focus:outline-none focus:ring-2 focus:ring-coral-400 focus:ring-offset-2 ${
                   viewMode === 'modules'
                     ? 'bg-coral-500 text-white'
                     : 'text-slate-700 hover:bg-slate-50'
@@ -168,12 +170,13 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
 
             <button
               onClick={() => setShowFilters(!showFilters)}
-              className={`flex items-center gap-2 px-6 py-4 rounded-2xl font-bold transition-all whitespace-nowrap ${
+              className={`flex items-center gap-2 px-6 py-4 min-h-[48px] rounded-2xl font-bold transition-all whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-coral-400 focus:ring-offset-2 ${
                 showFilters 
                   ? 'bg-coral-500 text-white' 
                   : 'bg-white border-2 border-slate-200 text-slate-700 hover:border-coral-400'
               }`}
               aria-label="Toggle filters"
+              aria-expanded={showFilters}
             >
               <Filter className="w-5 h-5" />
               <span className="hidden sm:inline">Filters</span>
@@ -198,11 +201,12 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
                 <button
                   key={topic}
                   onClick={() => toggleTopic(topic)}
-                  className={`px-4 py-2 rounded-xl font-bold transition-all ${
+                  className={`px-4 py-2 min-h-[44px] rounded-xl font-bold transition-all focus:outline-none focus:ring-2 focus:ring-coral-400 focus:ring-offset-2 ${
                     selectedTopics.includes(topic)
                       ? 'bg-coral-500 text-white'
                       : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
                   }`}
+                  aria-pressed={selectedTopics.includes(topic)}
                 >
                   {topic}
                 </button>
@@ -218,12 +222,13 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
                 <button
                   key={level}
                   onClick={() => toggleDifficulty(level)}
-                  className={`flex items-center gap-2 px-4 py-2 rounded-xl font-bold transition-all ${
+                  className={`flex items-center gap-2 px-4 py-2 min-h-[44px] rounded-xl font-bold transition-all focus:outline-none focus:ring-2 focus:ring-coral-400 focus:ring-offset-2 ${
                     selectedDifficulty.includes(level)
                       ? 'bg-coral-500 text-white'
                       : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
                   }`}
                   aria-label={`Difficulty ${level} stars`}
+                  aria-pressed={selectedDifficulty.includes(level)}
                 >
                   <Star className={`w-4 h-4 ${selectedDifficulty.includes(level) ? 'fill-white' : 'fill-slate-400'}`} />
                   {level}
@@ -243,7 +248,8 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
             {searchQuery && (
               <button
                 onClick={() => removeFilter('search')}
-                className="flex items-center gap-1 px-3 py-1.5 bg-slate-100 text-slate-700 rounded-lg font-medium hover:bg-slate-200 transition-colors"
+                className="flex items-center gap-1 px-3 py-1.5 min-h-[36px] bg-slate-100 text-slate-700 rounded-lg font-medium hover:bg-slate-200 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-1"
+                aria-label={`Remove search filter: ${searchQuery}`}
               >
                 Search: "{searchQuery}"
                 <X className="w-4 h-4" />
@@ -254,7 +260,8 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
               <button
                 key={topic}
                 onClick={() => removeFilter('topic', topic)}
-                className="flex items-center gap-1 px-3 py-1.5 bg-coral-100 text-coral-700 rounded-lg font-medium hover:bg-coral-200 transition-colors"
+                className="flex items-center gap-1 px-3 py-1.5 min-h-[36px] bg-coral-100 text-coral-700 rounded-lg font-medium hover:bg-coral-200 transition-colors focus:outline-none focus:ring-2 focus:ring-coral-400 focus:ring-offset-1"
+                aria-label={`Remove topic filter: ${topic}`}
               >
                 {topic}
                 <X className="w-4 h-4" />
@@ -265,7 +272,8 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
               <button
                 key={level}
                 onClick={() => removeFilter('difficulty', level)}
-                className="flex items-center gap-1 px-3 py-1.5 bg-amber-100 text-amber-700 rounded-lg font-medium hover:bg-amber-200 transition-colors"
+                className="flex items-center gap-1 px-3 py-1.5 min-h-[36px] bg-amber-100 text-amber-700 rounded-lg font-medium hover:bg-amber-200 transition-colors focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-1"
+                aria-label={`Remove difficulty filter: ${level} stars`}
               >
                 <Star className="w-4 h-4 fill-amber-600" />
                 {level}
@@ -275,7 +283,7 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
             
             <button
               onClick={handleClearAllFilters}
-              className="ml-2 px-3 py-1.5 text-sm font-bold text-coral-600 hover:text-coral-700 transition-colors"
+              className="ml-2 px-3 py-1.5 min-h-[36px] text-sm font-bold text-coral-600 hover:text-coral-700 transition-colors focus:outline-none focus:ring-2 focus:ring-coral-400 focus:ring-offset-1 rounded-lg"
             >
               Clear all
             </button>
@@ -295,11 +303,7 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
       {/* Units Grid or Module View */}
       {filteredUnits.length > 0 ? (
         viewMode === 'grid' ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredUnits.map((unit) => (
-              <UnitCard key={unit.unitId} unit={unit} />
-            ))}
-          </div>
+          <LazyUnitGrid units={filteredUnits} />
         ) : (
           <div className="flex flex-col gap-6">
             {modules.map((module) => (
@@ -322,7 +326,7 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
           </p>
           <button
             onClick={handleClearAllFilters}
-            className="px-6 py-3 bg-coral-500 text-white rounded-xl font-bold hover:bg-coral-600 transition-all"
+            className="px-6 py-3 min-h-[48px] bg-coral-500 text-white rounded-xl font-bold hover:bg-coral-600 transition-all focus:outline-none focus:ring-2 focus:ring-coral-400 focus:ring-offset-2"
           >
             Clear all filters
           </button>
