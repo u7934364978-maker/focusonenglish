@@ -156,11 +156,12 @@ export function extractUnitMetadata(unitData: UnitData): UnitMetadata {
   const exerciseBreakdown = countExercisesByType(allInteractions);
   const difficulty = calculateDifficulty(unitNumber);
   
-  // Forzar 60 ejercicios para unidades A1 para coincidir con el contenido real de los módulos .ts
+  // Forzar 60 ejercicios para unidades A1 y A2 para coincidir con el contenido real de los módulos .ts
   // y asegurar consistencia visual en la tabla de contenidos.
-  const isA1 = unitData.course.level?.toUpperCase().includes('A1');
-  const exerciseCount = isA1 ? 60 : exerciseBreakdown.total;
-  const estimatedDuration = isA1 && unitNumber > 0 ? 60 : (unitData.course.total_duration_minutes || 60);
+  const level = unitData.course.level?.toUpperCase() || '';
+  const isA1orA2 = level.includes('A1') || level.includes('A2');
+  const exerciseCount = isA1orA2 ? 60 : exerciseBreakdown.total;
+  const estimatedDuration = isA1orA2 && unitNumber > 0 ? 60 : (unitData.course.total_duration_minutes || 60);
 
   return {
     unitId: `unit-${unitNumber}`,

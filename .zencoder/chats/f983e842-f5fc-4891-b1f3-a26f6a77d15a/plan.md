@@ -103,6 +103,16 @@ Multi-level student progress CRM integration completed. All components ready for
    - Updated `src/lib/utils/course-metadata.ts` to count matching pairs individually. ✅
    - Status: Locally modified, pending `git push` from user terminal. ✅ (Completed with commit 7c385ff7)
 
+## SPRINT 4: A2 COURSE ACTIVATION
+
+9. [x] **A2 Course Activation**
+   - Created `src/app/curso-a2/outline/page.tsx` and adapted it for A2 metadata. ✅
+   - Created `src/app/curso-a2/[unitId]/page.tsx` with A2 module support. ✅
+   - Updated `src/lib/utils/course-metadata.ts` to normalize A2 exercise counts to 60. ✅
+   - Updated `src/lib/services/premium-course-service.server.ts` with `getA2UnitsWithMetadata`. ✅
+   - Updated `src/middleware.ts` to protect `/curso-a2` under the paywall. ✅
+   - Committed and pushed to main branch. ✅
+
 ## SPRINT 3: FUTURE COURSES & CMS
 
 8. [ ] **CMS Strategy Definition**

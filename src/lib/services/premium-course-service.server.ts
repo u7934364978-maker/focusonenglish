@@ -344,12 +344,20 @@ export const premiumCourseServerService = {
   },
 
   async getA1UnitsWithMetadata(): Promise<A1CourseMetadata> {
-    const contentDir = path.join(process.cwd(), 'src/content/cursos/ingles-a1');
+    return this.getUnitsWithMetadata('ingles-a1');
+  },
+
+  async getA2UnitsWithMetadata(): Promise<A1CourseMetadata> {
+    return this.getUnitsWithMetadata('ingles-a2');
+  },
+
+  async getUnitsWithMetadata(courseId: string): Promise<A1CourseMetadata> {
+    const contentDir = path.join(process.cwd(), `src/content/cursos/${courseId}`);
     const units: UnitMetadata[] = [];
     let totalDuration = 0;
 
     if (!fs.existsSync(contentDir)) {
-      console.warn(`[PremiumCourseService] A1 content directory not found: ${contentDir}`);
+      console.warn(`[PremiumCourseService] Content directory not found: ${contentDir}`);
       return {
         totalUnits: 0,
         totalDuration: 0,
