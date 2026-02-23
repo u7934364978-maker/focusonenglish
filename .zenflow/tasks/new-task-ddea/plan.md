@@ -150,7 +150,8 @@ Build the unit card component to display unit metadata in a visually appealing c
 
 ---
 
-### [ ] Step: Create A1CourseSelector component and landing page
+### [x] Step: Create A1CourseSelector component and landing page
+<!-- chat-id: 81c713b9-0a50-4d41-b86b-a367fcf31feb -->
 
 Build the main landing page with unit cards grid and basic filtering.
 
@@ -186,6 +187,7 @@ Build the main landing page with unit cards grid and basic filtering.
 ## Phase 2: Unit Preview Page Enhancements
 
 ### [ ] Step: Create UnitOverviewHeader component
+<!-- chat-id: 9ed148c3-055a-44f9-bde4-5fa3a0638376 -->
 
 Build the overview header that displays unit learning objectives and metadata.
 
