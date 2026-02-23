@@ -1,51 +1,106 @@
-'use client';
-
-import React from 'react';
-import { Home, BookOpen } from 'lucide-react';
+import { Suspense } from 'react';
+import { A1CourseSelector } from '@/components/course/preview/A1CourseSelector';
+import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
+import { BookOpen, Clock, Award, FileText } from 'lucide-react';
 import Link from 'next/link';
 
-export default function A1PreviewPage() {
-  const units = Array.from({ length: 60 }, (_, i) => i + 1);
+export const dynamic = 'force-dynamic';
+
+async function A1PreviewContent() {
+  const courseMetadata = await premiumCourseServerService.getA1UnitsWithMetadata();
 
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Header */}
-      <nav className="bg-white border-b p-4 flex justify-between items-center sticky top-0 z-50 shadow-sm">
-        <div className="flex items-center gap-4">
-          <Link href="/" className="p-2 hover:bg-slate-100 rounded-full transition-colors">
-            <Home className="w-6 h-6 text-slate-600" />
-          </Link>
-          <h1 className="font-black text-xl text-slate-800 uppercase tracking-tight flex items-center gap-3">
-            <BookOpen className="w-6 h-6" />
-            A1 PREVIEW
-            <span className="w-px h-6 bg-slate-200" />
-            <span className="text-slate-400 font-medium text-sm">
-              {units.length} UNIDADES
-            </span>
-          </h1>
-        </div>
-      </nav>
+      <div className="bg-white border-b border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 py-12 md:py-16">
+          <div className="text-center mb-8">
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-coral-50 text-coral-600 rounded-full font-bold text-sm border border-coral-100">
+                <Award className="w-4 h-4" />
+                <span>A1 Level • Beginner</span>
+              </div>
+              <Link
+                href="/debug/a1-preview/outline"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 text-slate-700 rounded-full font-bold text-sm border border-slate-200 hover:bg-slate-200 transition-colors"
+              >
+                <FileText className="w-4 h-4" />
+                <span>View Course Outline</span>
+              </Link>
+            </div>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 mb-4 tracking-tight">
+              English A1 Course Preview
+            </h1>
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto font-medium">
+              Explore all {courseMetadata.totalUnits} units of our comprehensive A1 English course. 
+              Each unit is designed to build your foundation in English step by step.
+            </p>
+          </div>
 
-      {/* Content */}
-      <main className="max-w-6xl mx-auto p-8">
-        <div className="mb-8">
-          <h2 className="text-2xl font-black text-slate-800 mb-2">Selecciona una unidad</h2>
-          <p className="text-slate-600">Elige una unidad de A1 para previsualizar los ejercicios</p>
-        </div>
+          {/* Course Stats */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100 text-center">
+              <div className="w-12 h-12 bg-coral-100 text-coral-600 rounded-xl flex items-center justify-center mx-auto mb-3">
+                <BookOpen className="w-6 h-6" />
+              </div>
+              <p className="text-3xl font-black text-slate-900 mb-1">
+                {courseMetadata.totalUnits}
+              </p>
+              <p className="text-sm font-bold text-slate-500 uppercase tracking-wider">
+                Total Units
+              </p>
+            </div>
 
-        {/* Grid of units */}
-        <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-3">
-          {units.map((unitNum) => (
-            <Link
-              key={unitNum}
-              href={`/debug/a1-preview/unit-${unitNum}`}
-              className="aspect-square flex items-center justify-center bg-white border-2 border-slate-200 rounded-xl font-bold text-lg text-slate-800 hover:border-coral-500 hover:bg-coral-50 hover:text-coral-700 transition-all shadow-sm hover:shadow-md cursor-pointer"
-            >
-              {unitNum}
-            </Link>
-          ))}
+            <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100 text-center">
+              <div className="w-12 h-12 bg-coral-100 text-coral-600 rounded-xl flex items-center justify-center mx-auto mb-3">
+                <Clock className="w-6 h-6" />
+              </div>
+              <p className="text-3xl font-black text-slate-900 mb-1">
+                {Math.round(courseMetadata.totalDuration / 60)}h
+              </p>
+              <p className="text-sm font-bold text-slate-500 uppercase tracking-wider">
+                Total Duration
+              </p>
+            </div>
+
+            <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100 text-center">
+              <div className="w-12 h-12 bg-coral-100 text-coral-600 rounded-xl flex items-center justify-center mx-auto mb-3">
+                <Award className="w-6 h-6" />
+              </div>
+              <p className="text-3xl font-black text-slate-900 mb-1">
+                {courseMetadata.units.reduce((sum, unit) => sum + unit.exerciseCount, 0)}
+              </p>
+              <p className="text-sm font-bold text-slate-500 uppercase tracking-wider">
+                Total Exercises
+              </p>
+            </div>
+          </div>
         </div>
-      </main>
+      </div>
+
+      {/* Course Selector */}
+      <div className="max-w-7xl mx-auto px-4 py-12">
+        <A1CourseSelector units={courseMetadata.units} />
+      </div>
     </div>
+  );
+}
+
+function LoadingState() {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-slate-50">
+      <div className="text-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-coral-500 mx-auto mb-4"></div>
+        <p className="text-slate-600 font-medium">Loading A1 course units...</p>
+      </div>
+    </div>
+  );
+}
+
+export default function A1PreviewPage() {
+  return (
+    <Suspense fallback={<LoadingState />}>
+      <A1PreviewContent />
+    </Suspense>
   );
 }

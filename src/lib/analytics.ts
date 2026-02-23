@@ -92,6 +92,85 @@ export const trackTimeOnPage = (seconds: number, page: string) => {
   });
 };
 
+// A1 Course Preview Analytics Events
+export const trackA1PreviewLanding = () => {
+  event({
+    action: 'a1_preview_landing_view',
+    category: 'course_preview',
+    label: 'A1 Course Landing',
+  });
+};
+
+export const trackUnitCardClick = (unitId: string, unitNumber: number) => {
+  event({
+    action: 'unit_card_click',
+    category: 'course_preview',
+    label: `${unitId} (Unit ${unitNumber})`,
+    value: unitNumber,
+  });
+};
+
+export const trackFilterUsage = (filterType: 'topic' | 'difficulty' | 'search', filterValue: string) => {
+  event({
+    action: 'filter_usage',
+    category: 'course_preview',
+    label: `${filterType}: ${filterValue}`,
+  });
+};
+
+export const trackViewModeToggle = (viewMode: 'grid' | 'modules') => {
+  event({
+    action: 'view_mode_toggle',
+    category: 'course_preview',
+    label: viewMode,
+  });
+};
+
+export const trackAudioPlayback = (action: 'play' | 'pause' | 'speed_change' | 'seek', unitId?: string, value?: number) => {
+  event({
+    action: `audio_${action}`,
+    category: 'course_preview',
+    label: unitId || 'unknown',
+    value: value,
+  });
+};
+
+export const trackTranslationToggle = (showTranslation: boolean, unitId?: string) => {
+  event({
+    action: 'translation_toggle',
+    category: 'course_preview',
+    label: unitId || 'unknown',
+    value: showTranslation ? 1 : 0,
+  });
+};
+
+export const trackUnitTimeSpent = (unitId: string, seconds: number) => {
+  event({
+    action: 'unit_time_spent',
+    category: 'course_preview',
+    label: unitId,
+    value: seconds,
+  });
+};
+
+export const trackExerciseCompletion = (unitId: string, exerciseIndex: number, totalExercises: number) => {
+  event({
+    action: 'exercise_completion',
+    category: 'course_preview',
+    label: `${unitId} - Exercise ${exerciseIndex + 1}/${totalExercises}`,
+    value: exerciseIndex + 1,
+  });
+};
+
+export const trackUnitCompletion = (unitId: string, totalExercises: number, durationMinutes: number) => {
+  event({
+    action: 'unit_completion',
+    category: 'course_preview',
+    label: unitId,
+    value: durationMinutes,
+  });
+};
+
 // TypeScript types
 declare global {
   interface Window {

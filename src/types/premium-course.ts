@@ -113,3 +113,47 @@ export interface UnitData {
   mastery_tags?: string[];
   blocks: PremiumBlock[];
 }
+
+export interface ExerciseTypeBreakdown {
+  multiple_choice: number;
+  fill_in_the_blank: number;
+  matching: number;
+  drag_and_drop: number;
+  categorization: number;
+  short_answer: number;
+  audio_matching: number;
+  listening: number;
+  video_narrative: number;
+  flashcards: number;
+  other: number;
+  total: number;
+}
+
+export interface UnitMetadata {
+  unitId: string;
+  unitNumber: number;
+  title: string;
+  topics: string[];
+  exerciseCount: number;
+  exerciseBreakdown: ExerciseTypeBreakdown;
+  difficulty: number;
+  estimatedDuration: number;
+  learningOutcomes?: string[];
+  masteryTags?: string[];
+}
+
+export interface ModuleMetadata {
+  moduleNumber: number;
+  title: string;
+  unitCount: number;
+  totalDuration: number;
+  description?: string;
+  units: UnitMetadata[];
+}
+
+export interface A1CourseMetadata {
+  totalUnits: number;
+  totalDuration: number;
+  units: UnitMetadata[];
+  modules?: ModuleMetadata[];
+}

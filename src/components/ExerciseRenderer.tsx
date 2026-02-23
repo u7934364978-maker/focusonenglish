@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { CheckCircle, XCircle, ArrowRight, Sparkles, Zap, Loader2, Volume2 } from 'lucide-react';
+import { CheckCircle, XCircle, ArrowRight, Zap } from 'lucide-react';
 import type { Exercise } from '@/lib/exercise-generator';
 import SpeakingExercise from './SpeakingExercise';
 import WordSearchExercise from './exercises/WordSearchExercise';
@@ -12,8 +12,8 @@ import MatchingExercise from './exercises/MatchingExercise';
 import InteractiveDialogueExercise from './exercises/InteractiveDialogueExercise';
 import Markdown from './course/Markdown';
 import { TranslatedText } from './course/exercises/TranslatedText';
+import { AudioPlayer } from './course/preview/AudioPlayer';
 import { useGamification } from '@/lib/hooks/use-gamification';
-import { updateSRSItem } from '@/lib/srs';
 
 interface ExerciseRendererProps {
   exercise: Exercise;
@@ -32,7 +32,6 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   const [finishScore, setFinishScore] = useState(0);
   const [showReadingText, setShowReadingText] = useState(true);
   const [currentQuestionIdx, setCurrentQuestionIdx] = useState(0);
-  const [audioLoading, setAudioLoading] = useState(false);
   const [evaluation, setEvaluation] = useState<{
     isCorrect: boolean;
     score: number;
@@ -67,18 +66,10 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     setIsAnimating(true);
     setShowReadingText(true);
     setCurrentQuestionIdx(0);
-    setAudioLoading(false);
     
     const timer = setTimeout(() => setIsAnimating(false), 300);
     return () => clearTimeout(timer);
   }, [exercise.id]);
-
-  const playAudio = (url?: string) => {
-    if (!url) return;
-    setAudioLoading(true);
-    const audio = new Audio(url);
-    audio.play().finally(() => setAudioLoading(false));
-  };
 
   const stripTags = (s: string) => s.replace(/\[\[(.*?)\|(.*?)\]\]/g, '$1');
 
@@ -208,19 +199,18 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             </div>
           )}
 
-          <div className="text-2xl text-gray-900 font-black leading-tight flex items-center justify-between gap-4">
+          <div className="text-2xl text-gray-900 font-black leading-tight">
             <TranslatedText text={q.question || q.text || q.prompt} />
-            {q.audioUrl && (
-              <button
-                onClick={() => playAudio(q.audioUrl)}
-                disabled={audioLoading}
-                className="flex-shrink-0 p-3 bg-orange-100 text-orange-600 rounded-full hover:bg-orange-200 transition-all active:scale-90"
-                title="Escuchar pregunta"
-              >
-                <Volume2 className={`w-6 h-6 ${audioLoading ? 'animate-pulse' : ''}`} />
-              </button>
-            )}
           </div>
+          
+          {q.audioUrl && (
+            <div className="mt-4">
+              <AudioPlayer
+                audioUrl={q.audioUrl.startsWith('/') ? q.audioUrl : `/${q.audioUrl}`}
+                className="!p-3"
+              />
+            </div>
+          )}
         </div>
 
         {/* Options Rendering */}
@@ -414,39 +404,34 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
               <span className="bg-blue-500 text-white px-4 py-1 rounded-full font-black text-xs uppercase tracking-widest">{exercise.type}</span>
               <span className="bg-purple-500 text-white px-4 py-1 rounded-full font-black text-xs uppercase tracking-widest">{exercise.topicName}</span>
             </div>
-            {exercise.audioUrl && (
-              <button
-                onClick={() => {
-                  const audio = new Audio(exercise.audioUrl?.startsWith('/') ? exercise.audioUrl : `/${exercise.audioUrl}`);
-                  audio.play().catch(err => console.error('Error playing exercise audio:', err));
-                }}
-                className="flex items-center gap-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full font-bold hover:bg-orange-200 transition-all transform hover:scale-105 active:scale-95 shadow-sm border border-orange-200"
-              >
-                <Volume2 className="w-5 h-5" />
-                <span className="hidden sm:inline">Escuchar audio</span>
-              </button>
-            )}
           </div>
           <h2 className="text-3xl font-black text-gray-900 tracking-tight"><TranslatedText text={exerciseContent.title || 'Ejercicio'} /></h2>
           {exerciseContent.instructions && <div className="text-gray-500 mt-2 text-lg font-medium"><Markdown content={exerciseContent.instructions} /></div>}
+          
+          {exercise.audioUrl && (
+            <div className="mt-6">
+              <AudioPlayer
+                audioUrl={exercise.audioUrl.startsWith('/') ? exercise.audioUrl : `/${exercise.audioUrl}`}
+                transcript={exercise.transcript}
+              />
+            </div>
+          )}
         </div>
 
         <div className="p-8">
           {isReadingExercise && showReadingText ? (
             <div className="space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
-              <div className="p-10 bg-white border-l-8 border-purple-500 rounded-r-3xl shadow-inner text-slate-800 text-2xl leading-relaxed font-medium italic relative">
+              <div className="p-10 bg-white border-l-8 border-purple-500 rounded-r-3xl shadow-inner text-slate-800 text-2xl leading-relaxed font-medium italic">
                 <Markdown content={(exerciseContent.text || exercise.transcript)!} />
-                {exercise.audioUrl && (
-                  <button
-                    onClick={() => playAudio(exercise.audioUrl)}
-                    disabled={audioLoading}
-                    className="absolute top-4 right-4 p-4 bg-purple-100 text-purple-600 rounded-full opacity-0 hover:opacity-100 transition-all hover:bg-purple-200 shadow-md active:scale-90"
-                    title="Escuchar texto"
-                  >
-                    <Volume2 className={`w-8 h-8 ${audioLoading ? 'animate-pulse' : ''}`} />
-                  </button>
-                )}
               </div>
+              {exercise.audioUrl && (
+                <div className="px-10">
+                  <AudioPlayer
+                    audioUrl={exercise.audioUrl.startsWith('/') ? exercise.audioUrl : `/${exercise.audioUrl}`}
+                    transcript={exercise.transcript}
+                  />
+                </div>
+              )}
               <div className="flex justify-center">
                 <button onClick={() => setShowReadingText(false)} className="bg-purple-600 text-white px-12 py-6 rounded-3xl font-black text-xl hover:bg-purple-700 shadow-2xl flex items-center gap-3 transform hover:scale-105 active:scale-95">
                   Comprender texto y responder <ArrowRight className="w-7 h-7" />

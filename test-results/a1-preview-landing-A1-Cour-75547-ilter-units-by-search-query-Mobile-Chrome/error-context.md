@@ -1,0 +1,141 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic: © 2026 Focus English
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img [ref=e6]
+        - heading "A1 PREVIEW60 UNIDADES" [level=1] [ref=e9]:
+          - img [ref=e10]
+          - text: A1 PREVIEW
+          - generic [ref=e12]: 60 UNIDADES
+    - main [ref=e13]:
+      - generic [ref=e14]:
+        - heading "Selecciona una unidad" [level=2] [ref=e15]
+        - paragraph [ref=e16]: Elige una unidad de A1 para previsualizar los ejercicios
+      - generic [ref=e17]:
+        - link "1" [ref=e18] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-1
+        - link "2" [ref=e19] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-2
+        - link "3" [ref=e20] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-3
+        - link "4" [ref=e21] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-4
+        - link "5" [ref=e22] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-5
+        - link "6" [ref=e23] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-6
+        - link "7" [ref=e24] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-7
+        - link "8" [ref=e25] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-8
+        - link "9" [ref=e26] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-9
+        - link "10" [ref=e27] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-10
+        - link "11" [ref=e28] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-11
+        - link "12" [ref=e29] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-12
+        - link "13" [ref=e30] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-13
+        - link "14" [ref=e31] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-14
+        - link "15" [ref=e32] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-15
+        - link "16" [ref=e33] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-16
+        - link "17" [ref=e34] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-17
+        - link "18" [ref=e35] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-18
+        - link "19" [ref=e36] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-19
+        - link "20" [ref=e37] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-20
+        - link "21" [ref=e38] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-21
+        - link "22" [ref=e39] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-22
+        - link "23" [ref=e40] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-23
+        - link "24" [ref=e41] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-24
+        - link "25" [ref=e42] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-25
+        - link "26" [ref=e43] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-26
+        - link "27" [ref=e44] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-27
+        - link "28" [ref=e45] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-28
+        - link "29" [ref=e46] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-29
+        - link "30" [ref=e47] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-30
+        - link "31" [ref=e48] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-31
+        - link "32" [ref=e49] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-32
+        - link "33" [ref=e50] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-33
+        - link "34" [ref=e51] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-34
+        - link "35" [ref=e52] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-35
+        - link "36" [ref=e53] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-36
+        - link "37" [ref=e54] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-37
+        - link "38" [ref=e55] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-38
+        - link "39" [ref=e56] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-39
+        - link "40" [ref=e57] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-40
+        - link "41" [ref=e58] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-41
+        - link "42" [ref=e59] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-42
+        - link "43" [ref=e60] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-43
+        - link "44" [ref=e61] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-44
+        - link "45" [ref=e62] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-45
+        - link "46" [ref=e63] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-46
+        - link "47" [ref=e64] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-47
+        - link "48" [ref=e65] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-48
+        - link "49" [ref=e66] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-49
+        - link "50" [ref=e67] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-50
+        - link "51" [ref=e68] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-51
+        - link "52" [ref=e69] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-52
+        - link "53" [ref=e70] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-53
+        - link "54" [ref=e71] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-54
+        - link "55" [ref=e72] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-55
+        - link "56" [ref=e73] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-56
+        - link "57" [ref=e74] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-57
+        - link "58" [ref=e75] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-58
+        - link "59" [ref=e76] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-59
+        - link "60" [ref=e77] [cursor=pointer]:
+          - /url: /debug/a1-preview/unit-60
+```
