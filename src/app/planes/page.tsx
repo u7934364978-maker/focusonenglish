@@ -9,10 +9,16 @@ export default function PlanesPage() {
   const allPlans = getAllPlans();
   const [isLoading, setIsLoading] = useState<string | null>(null);
   const [billingCycle, setBillingCycle] = useState<'month' | 'year'>('year'); // Mostrar anual por defecto
+  const [showPremiumRequired, setShowPremiumRequired] = useState(false);
 
   // Detectar plan desde URL para ajustar el ciclo de facturación
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
+    
+    if (params.get('reason') === 'premium_required') {
+      setShowPremiumRequired(true);
+    }
+
     const planId = params.get('plan');
     if (planId) {
       const plan = getPlanById(planId);
@@ -37,6 +43,17 @@ export default function PlanesPage() {
       <Navigation />
       <main className="min-h-screen bg-gradient-to-br from-coral-50 via-peach-50 to-pink-50 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Premium Required Message */}
+          {showPremiumRequired && (
+            <div className="max-w-4xl mx-auto mb-10 p-6 bg-amber-50 border-2 border-amber-300 rounded-2xl flex items-center gap-4 animate-in fade-in slide-in-from-top-4 duration-500">
+              <span className="text-4xl">🔒</span>
+              <div className="text-left">
+                <h3 className="text-lg font-bold text-amber-900">Suscripción Premium Requerida</h3>
+                <p className="text-amber-700">Has intentado acceder a una zona protegida. Por favor, elige un plan para continuar con tu aprendizaje.</p>
+              </div>
+            </div>
+          )}
+
           {/* Header */}
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-coral-100 text-coral-700 text-sm font-bold mb-4">
