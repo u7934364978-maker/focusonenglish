@@ -89,7 +89,8 @@ Create the foundational utilities for extracting and processing unit metadata fr
 
 ---
 
-### [ ] Step: Extend premium course service with metadata functions
+### [x] Step: Extend premium course service with metadata functions
+<!-- chat-id: 66ec98bf-89ee-4ef1-a673-412ddc42d720 -->
 
 Add server-side functions to fetch and enrich A1 units with metadata.
 

@@ -1,6 +1,7 @@
 import { createClient } from '@/lib/supabase/server';
-import { UnitData, PremiumInteraction, PremiumBlock } from '@/types/premium-course';
+import { UnitData, PremiumInteraction, PremiumBlock, A1CourseMetadata, UnitMetadata } from '@/types/premium-course';
 import { UserPerformanceRecord } from '../course-engine/adaptive';
+import { extractUnitMetadata } from '@/lib/utils/course-metadata';
 import fs from 'fs';
 import path from 'path';
 
@@ -351,5 +352,49 @@ export const premiumCourseServerService = {
 
   async getAllB2Interactions(): Promise<PremiumInteraction[]> {
     return this.getAllInteractions('ingles-b2');
+  },
+
+  async getA1UnitsWithMetadata(): Promise<A1CourseMetadata> {
+    const contentDir = path.join(process.cwd(), 'src/content/cursos/ingles-a1-narrative');
+    const units: UnitMetadata[] = [];
+    let totalDuration = 0;
+
+    if (!fs.existsSync(contentDir)) {
+      console.warn(`[PremiumCourseService] A1 content directory not found: ${contentDir}`);
+      return {
+        totalUnits: 0,
+        totalDuration: 0,
+        units: []
+      };
+    }
+
+    const files = fs.readdirSync(contentDir)
+      .filter(file => file.endsWith('.json'))
+      .sort((a, b) => {
+        const getNum = (s: string) => {
+          const match = s.match(/\d+/);
+          return match ? parseInt(match[0]) : 0;
+        };
+        return getNum(a) - getNum(b);
+      });
+
+    for (const file of files) {
+      try {
+        const filePath = path.join(contentDir, file);
+        const unitData: UnitData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+        
+        const metadata = extractUnitMetadata(unitData);
+        units.push(metadata);
+        totalDuration += metadata.estimatedDuration;
+      } catch (error) {
+        console.error(`[PremiumCourseService] Error loading unit from ${file}:`, error);
+      }
+    }
+
+    return {
+      totalUnits: units.length,
+      totalDuration,
+      units
+    };
   }
 };
