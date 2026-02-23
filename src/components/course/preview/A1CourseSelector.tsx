@@ -1,9 +1,11 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { Search, X, Filter, Star } from 'lucide-react';
+import { Search, X, Filter, Star, Grid3x3, LayoutList } from 'lucide-react';
 import { UnitMetadata } from '@/types/premium-course';
 import { UnitCard } from './UnitCard';
+import { ModuleGroup } from './ModuleGroup';
+import { groupUnitsIntoModules } from '@/lib/utils/module-grouping';
 
 interface A1CourseSelectorProps {
   units: UnitMetadata[];
@@ -20,11 +22,14 @@ const AVAILABLE_TOPICS = [
   'Culture'
 ];
 
+type ViewMode = 'grid' | 'modules';
+
 export function A1CourseSelector({ units }: A1CourseSelectorProps) {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
   const [selectedDifficulty, setSelectedDifficulty] = useState<number[]>([]);
   const [showFilters, setShowFilters] = useState(false);
+  const [viewMode, setViewMode] = useState<ViewMode>('grid');
 
   const filteredUnits = useMemo(() => {
     let filtered = units;
@@ -61,6 +66,10 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
 
     return filtered;
   }, [units, searchQuery, selectedTopics, selectedDifficulty]);
+
+  const modules = useMemo(() => {
+    return groupUnitsIntoModules(filteredUnits);
+  }, [filteredUnits]);
 
   const hasActiveFilters = searchQuery.trim() !== '' || selectedTopics.length > 0 || selectedDifficulty.length > 0;
 
@@ -102,7 +111,7 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
 
   return (
     <div className="w-full">
-      {/* Search Bar and Filter Toggle */}
+      {/* Search Bar, View Toggle, and Filter Toggle */}
       <div className="mb-6">
         <div className="flex flex-col md:flex-row gap-4 max-w-4xl mx-auto">
           <div className="relative flex-1">
@@ -127,23 +136,54 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
             )}
           </div>
           
-          <button
-            onClick={() => setShowFilters(!showFilters)}
-            className={`flex items-center gap-2 px-6 py-4 rounded-2xl font-bold transition-all whitespace-nowrap ${
-              showFilters 
-                ? 'bg-coral-500 text-white' 
-                : 'bg-white border-2 border-slate-200 text-slate-700 hover:border-coral-400'
-            }`}
-            aria-label="Toggle filters"
-          >
-            <Filter className="w-5 h-5" />
-            Filters
-            {(selectedTopics.length > 0 || selectedDifficulty.length > 0) && (
-              <span className="bg-white text-coral-600 px-2 py-0.5 rounded-full text-sm font-black">
-                {selectedTopics.length + selectedDifficulty.length}
-              </span>
-            )}
-          </button>
+          <div className="flex gap-2">
+            <div className="flex bg-white border-2 border-slate-200 rounded-2xl overflow-hidden">
+              <button
+                onClick={() => setViewMode('grid')}
+                className={`flex items-center gap-2 px-4 py-4 font-bold transition-all ${
+                  viewMode === 'grid'
+                    ? 'bg-coral-500 text-white'
+                    : 'text-slate-700 hover:bg-slate-50'
+                }`}
+                aria-label="Grid view"
+                aria-pressed={viewMode === 'grid'}
+              >
+                <Grid3x3 className="w-5 h-5" />
+                <span className="hidden sm:inline">Grid</span>
+              </button>
+              <button
+                onClick={() => setViewMode('modules')}
+                className={`flex items-center gap-2 px-4 py-4 font-bold transition-all ${
+                  viewMode === 'modules'
+                    ? 'bg-coral-500 text-white'
+                    : 'text-slate-700 hover:bg-slate-50'
+                }`}
+                aria-label="Module view"
+                aria-pressed={viewMode === 'modules'}
+              >
+                <LayoutList className="w-5 h-5" />
+                <span className="hidden sm:inline">Modules</span>
+              </button>
+            </div>
+
+            <button
+              onClick={() => setShowFilters(!showFilters)}
+              className={`flex items-center gap-2 px-6 py-4 rounded-2xl font-bold transition-all whitespace-nowrap ${
+                showFilters 
+                  ? 'bg-coral-500 text-white' 
+                  : 'bg-white border-2 border-slate-200 text-slate-700 hover:border-coral-400'
+              }`}
+              aria-label="Toggle filters"
+            >
+              <Filter className="w-5 h-5" />
+              <span className="hidden sm:inline">Filters</span>
+              {(selectedTopics.length > 0 || selectedDifficulty.length > 0) && (
+                <span className="bg-white text-coral-600 px-2 py-0.5 rounded-full text-sm font-black">
+                  {selectedTopics.length + selectedDifficulty.length}
+                </span>
+              )}
+            </button>
+          </div>
         </div>
       </div>
 
@@ -252,13 +292,25 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
         </div>
       )}
 
-      {/* Units Grid */}
+      {/* Units Grid or Module View */}
       {filteredUnits.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredUnits.map((unit) => (
-            <UnitCard key={unit.unitId} unit={unit} />
-          ))}
-        </div>
+        viewMode === 'grid' ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {filteredUnits.map((unit) => (
+              <UnitCard key={unit.unitId} unit={unit} />
+            ))}
+          </div>
+        ) : (
+          <div className="flex flex-col gap-6">
+            {modules.map((module) => (
+              <ModuleGroup 
+                key={module.moduleNumber} 
+                module={module}
+                isInitiallyExpanded={modules.length === 1}
+              />
+            ))}
+          </div>
+        )
       ) : (
         <div className="text-center py-16">
           <div className="w-20 h-20 bg-slate-100 rounded-full flex items-center justify-center mx-auto mb-4">

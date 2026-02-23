@@ -406,7 +406,8 @@ Add advanced filtering to the A1CourseSelector component.
 
 ---
 
-### [ ] Step: Implement module grouping UI
+### [x] Step: Implement module grouping UI
+<!-- chat-id: 677077fe-5f6c-4e69-b9e6-7853c4ae0470 -->
 
 Add module-based organization to group units thematically.
 
