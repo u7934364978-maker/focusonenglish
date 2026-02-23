@@ -1,12 +1,13 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Search, X, Filter, Star, Grid3x3, LayoutList } from 'lucide-react';
 import { UnitMetadata } from '@/types/premium-course';
 import { UnitCard } from './UnitCard';
 import { ModuleGroup } from './ModuleGroup';
 import { LazyUnitGrid } from './LazyUnitGrid';
 import { groupUnitsIntoModules } from '@/lib/utils/module-grouping';
+import { trackA1PreviewLanding, trackFilterUsage, trackViewModeToggle } from '@/lib/analytics';
 
 interface A1CourseSelectorProps {
   units: UnitMetadata[];
@@ -31,6 +32,10 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
   const [selectedDifficulty, setSelectedDifficulty] = useState<number[]>([]);
   const [showFilters, setShowFilters] = useState(false);
   const [viewMode, setViewMode] = useState<ViewMode>('grid');
+
+  useEffect(() => {
+    trackA1PreviewLanding();
+  }, []);
 
   const filteredUnits = useMemo(() => {
     let filtered = units;
@@ -85,19 +90,40 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
   };
 
   const toggleTopic = (topic: string) => {
+    const isAdding = !selectedTopics.includes(topic);
     setSelectedTopics(prev => 
       prev.includes(topic) 
         ? prev.filter(t => t !== topic)
         : [...prev, topic]
     );
+    if (isAdding) {
+      trackFilterUsage('topic', topic);
+    }
   };
 
   const toggleDifficulty = (difficulty: number) => {
+    const isAdding = !selectedDifficulty.includes(difficulty);
     setSelectedDifficulty(prev => 
       prev.includes(difficulty)
         ? prev.filter(d => d !== difficulty)
         : [...prev, difficulty]
     );
+    if (isAdding) {
+      trackFilterUsage('difficulty', difficulty.toString());
+    }
+  };
+
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newQuery = e.target.value;
+    setSearchQuery(newQuery);
+    if (newQuery.trim().length >= 3) {
+      trackFilterUsage('search', newQuery.trim());
+    }
+  };
+
+  const handleViewModeChange = (mode: ViewMode) => {
+    setViewMode(mode);
+    trackViewModeToggle(mode);
   };
 
   const removeFilter = (type: 'search' | 'topic' | 'difficulty', value?: string | number) => {
@@ -122,7 +148,7 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
             <input
               type="text"
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              onChange={handleSearchChange}
               placeholder="Search by unit number or title..."
               className="w-full pl-12 pr-12 py-4 min-h-[48px] rounded-2xl border-2 border-slate-200 focus:border-coral-400 focus:outline-none focus:ring-4 focus:ring-coral-50 transition-all text-slate-900 placeholder:text-slate-400 font-medium"
               aria-label="Search units"
@@ -141,7 +167,7 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
           <div className="flex gap-2">
             <div className="flex bg-white border-2 border-slate-200 rounded-2xl overflow-hidden">
               <button
-                onClick={() => setViewMode('grid')}
+                onClick={() => handleViewModeChange('grid')}
                 className={`flex items-center gap-2 px-4 py-4 min-h-[48px] font-bold transition-all focus:outline-none focus:ring-2 focus:ring-coral-400 focus:ring-offset-2 ${
                   viewMode === 'grid'
                     ? 'bg-coral-500 text-white'
@@ -154,7 +180,7 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
                 <span className="hidden sm:inline">Grid</span>
               </button>
               <button
-                onClick={() => setViewMode('modules')}
+                onClick={() => handleViewModeChange('modules')}
                 className={`flex items-center gap-2 px-4 py-4 min-h-[48px] font-bold transition-all focus:outline-none focus:ring-2 focus:ring-coral-400 focus:ring-offset-2 ${
                   viewMode === 'modules'
                     ? 'bg-coral-500 text-white'

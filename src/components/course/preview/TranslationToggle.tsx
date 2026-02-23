@@ -3,12 +3,14 @@
 import React, { useState, useMemo } from 'react';
 import { Languages } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { trackTranslationToggle } from '@/lib/analytics';
 
 interface TranslationToggleProps {
   text: string;
   className?: string;
   defaultShowTranslation?: boolean;
   showToggleButton?: boolean;
+  unitId?: string;
 }
 
 interface BilingualSegment {
@@ -67,7 +69,8 @@ export function TranslationToggle({
   text,
   className,
   defaultShowTranslation = false,
-  showToggleButton = true
+  showToggleButton = true,
+  unitId
 }: TranslationToggleProps) {
   const [showTranslation, setShowTranslation] = useState(defaultShowTranslation);
   
@@ -79,12 +82,18 @@ export function TranslationToggle({
   if (!hasBilingualContent) {
     return <span className={className}>{text}</span>;
   }
+
+  const handleToggle = () => {
+    const newState = !showTranslation;
+    setShowTranslation(newState);
+    trackTranslationToggle(newState, unitId);
+  };
   
   return (
     <div className={cn('relative', className)}>
       {showToggleButton && (
         <button
-          onClick={() => setShowTranslation(!showTranslation)}
+          onClick={handleToggle}
           className={cn(
             'inline-flex items-center gap-1.5 px-3 py-1.5 mb-2 rounded-lg text-xs font-bold uppercase tracking-wider transition-all',
             showTranslation

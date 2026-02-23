@@ -5,6 +5,7 @@ import { useEffect, useState, Suspense } from 'react';
 import ExerciseRenderer from '@/components/ExerciseRenderer';
 import { ArrowLeft, ArrowRight, Home, CheckCircle, Sparkles } from 'lucide-react';
 import Link from 'next/link';
+import { trackUnitTimeSpent, trackExerciseCompletion, trackUnitCompletion } from '@/lib/analytics';
 
 const CHUNK_SIZE = 15;
 
@@ -21,37 +22,35 @@ function UnitPreviewContent() {
   const [startTime] = useState(Date.now());
 
   useEffect(() => {
+    return () => {
+      const timeSpentSeconds = Math.round((Date.now() - startTime) / 1000);
+      if (timeSpentSeconds > 5) {
+        trackUnitTimeSpent(unitId, timeSpentSeconds);
+      }
+    };
+  }, [unitId, startTime]);
+
+  useEffect(() => {
     async function loadUnit() {
-      console.log(`🔍 Loading unit: ${unitId}`);
       try {
         const unitNumber = unitId.replace('unit-', '');
-        console.log(`📂 Importing module for unit: ${unitNumber}`);
         
-        // Try absolute path with @ alias first
-        let module;
+        let unitModule;
         try {
-          module = await import(`@/lib/course/a1/unit-${unitNumber}`);
-          console.log(`✅ Imported module with @ alias`);
+          unitModule = await import(`@/lib/course/a1/unit-${unitNumber}`);
         } catch (e) {
-          console.log(`⚠️ Failed to import with @ alias, trying relative path`);
-          module = await import(`../../../../lib/course/a1/unit-${unitNumber}`);
+          unitModule = await import(`../../../../lib/course/a1/unit-${unitNumber}`);
         }
         
-        // Support both UNIT_1_EXERCISES and UNIT_unit-1_EXERCISES or similar
         const exportName = `UNIT_${unitNumber.toUpperCase().replace('-', '_')}_EXERCISES`;
-        console.log(`🔍 Searching for export: ${exportName} in module keys:`, Object.keys(module || {}));
-        
-        const unitExercises = module[exportName] || module[`UNIT_${unitNumber}_EXERCISES`] || module.default || module.UNIT_1_EXERCISES;
+        const unitExercises = unitModule[exportName] || unitModule[`UNIT_${unitNumber}_EXERCISES`] || unitModule.default || unitModule.UNIT_1_EXERCISES;
         
         if (!unitExercises || !Array.isArray(unitExercises)) {
-          console.error(`❌ Could not find exercises in module. Export name: ${exportName}`);
           setError(`No se encontraron ejercicios en el módulo unit-${unitNumber}`);
           setExercises([]);
         } else {
-          console.log(`✅ Loaded ${unitExercises.length} exercises for unit ${unitNumber}`);
           setExercises(unitExercises);
           
-          // Handle index from query param
           const indexParam = searchParams.get('index');
           if (indexParam) {
             const idx = parseInt(indexParam);
@@ -61,7 +60,6 @@ function UnitPreviewContent() {
           }
         }
       } catch (err: any) {
-        console.error('❌ Error loading unit:', err);
         setError(`Error al cargar la unidad: ${err.message}`);
       } finally {
         setLoading(false);
@@ -114,6 +112,11 @@ function UnitPreviewContent() {
 
   if (showUnitSummary) {
     const durationMinutes = Math.round((Date.now() - startTime) / 60000);
+    
+    useEffect(() => {
+      trackUnitCompletion(unitId, exercises.length, durationMinutes);
+    }, []);
+
     return (
       <div className="min-h-screen flex items-center justify-center bg-slate-50 p-4">
         <div className="max-w-xl w-full bg-white rounded-[2rem] shadow-2xl p-12 text-center animate-in zoom-in duration-700">
@@ -142,7 +145,7 @@ function UnitPreviewContent() {
           </div>
 
           <Link 
-            href="/"
+            href="/debug/a1-preview"
             className="w-full bg-slate-900 text-white py-6 rounded-2xl font-black text-xl hover:bg-slate-800 transition-all shadow-xl flex items-center justify-center gap-3 transform hover:scale-[1.02] active:scale-95"
           >
             Volver al listado de unidades
@@ -229,6 +232,8 @@ function UnitPreviewContent() {
           key={currentExercise.id}
           exercise={currentExercise}
           onComplete={() => {
+            trackExerciseCompletion(unitId, currentIndex, exercises.length);
+            
             if (currentIndex === exercises.length - 1) {
               setShowUnitSummary(true);
             } else if ((currentIndex + 1) % CHUNK_SIZE === 0) {

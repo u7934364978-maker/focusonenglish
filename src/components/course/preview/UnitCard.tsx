@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { Star, Clock, BookOpen, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import { UnitMetadata } from '@/types/premium-course';
+import { trackUnitCardClick } from '@/lib/analytics';
 
 interface UnitCardProps {
   unit: UnitMetadata;
@@ -11,6 +12,10 @@ interface UnitCardProps {
 
 export function UnitCard({ unit }: UnitCardProps) {
   const difficultyStars = Array.from({ length: 5 }, (_, i) => i < unit.difficulty);
+
+  const handleCardClick = () => {
+    trackUnitCardClick(unit.unitId, unit.unitNumber);
+  };
 
   return (
     <motion.div
@@ -54,7 +59,10 @@ export function UnitCard({ unit }: UnitCardProps) {
         {/* Metadata */}
         <div className="flex flex-col gap-3 mb-6 mt-auto">
           {/* Difficulty */}
-          <div className="flex items-center gap-2">
+          <div 
+            className="flex items-center gap-2 group/difficulty"
+            title={`Difficulty: ${unit.difficulty} out of 5 stars`}
+          >
             <div className="flex gap-1">
               {difficultyStars.map((filled, index) => (
                 <Star
@@ -65,7 +73,7 @@ export function UnitCard({ unit }: UnitCardProps) {
                 />
               ))}
             </div>
-            <span className="text-xs text-slate-500 font-medium">
+            <span className="text-xs text-slate-500 font-medium group-hover/difficulty:text-slate-700">
               Difficulty
             </span>
           </div>
@@ -87,8 +95,10 @@ export function UnitCard({ unit }: UnitCardProps) {
         <Link
           href={`/debug/a1-preview/${unit.unitId}`}
           prefetch
+          onClick={handleCardClick}
           className="flex items-center justify-center gap-2 px-6 py-3 min-h-[48px] bg-coral-50 text-coral-600 rounded-xl font-bold text-sm hover:bg-coral-100 hover:shadow-coral transition-all group-hover:bg-coral-600 group-hover:text-white focus:outline-none focus:ring-2 focus:ring-coral-400 focus:ring-offset-2"
           aria-label={`Preview ${unit.title}`}
+          title={`Preview ${unit.title}`}
         >
           <span>Preview Unit</span>
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

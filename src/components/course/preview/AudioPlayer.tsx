@@ -2,14 +2,16 @@
 
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { Play, Pause, Volume2, VolumeX, FileText } from 'lucide-react';
+import { trackAudioPlayback } from '@/lib/analytics';
 
 interface AudioPlayerProps {
   audioUrl: string;
   transcript?: string;
   className?: string;
+  unitId?: string;
 }
 
-export function AudioPlayer({ audioUrl, transcript, className = '' }: AudioPlayerProps) {
+export function AudioPlayer({ audioUrl, transcript, className = '', unitId }: AudioPlayerProps) {
   const audioRef = useRef<HTMLAudioElement>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
@@ -24,11 +26,13 @@ export function AudioPlayer({ audioUrl, transcript, className = '' }: AudioPlaye
 
     if (isPlaying) {
       audioRef.current.pause();
+      trackAudioPlayback('pause', unitId);
     } else {
       audioRef.current.play();
+      trackAudioPlayback('play', unitId);
     }
     setIsPlaying(!isPlaying);
-  }, [isPlaying]);
+  }, [isPlaying, unitId]);
 
   const handleSeek = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!audioRef.current) return;
@@ -40,12 +44,14 @@ export function AudioPlayer({ audioUrl, transcript, className = '' }: AudioPlaye
 
     audioRef.current.currentTime = newTime;
     setCurrentTime(newTime);
+    trackAudioPlayback('seek', unitId, Math.round(newTime));
   };
 
   const handleSpeedChange = (speed: number) => {
     if (!audioRef.current) return;
     audioRef.current.playbackRate = speed;
     setPlaybackRate(speed);
+    trackAudioPlayback('speed_change', unitId, speed);
   };
 
   const handleVolumeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
