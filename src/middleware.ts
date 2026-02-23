@@ -4,7 +4,6 @@ import { createServerClient } from "@supabase/ssr";
 const PUBLIC_ROUTES = new Set([
   "/",
   "/contacto",
-  "/cursos",
   "/planes",
   "/cuenta/login",
   "/cuenta/registro",
@@ -16,7 +15,6 @@ const PUBLIC_ROUTES = new Set([
   "/test-nivel",
   "/pilot",
   "/test-toefl",
-  "/debug/b2-preview",
 ]);
 
 function isBlogRoute(pathname: string) {
@@ -85,14 +83,14 @@ export async function middleware(request: NextRequest) {
     return response;
   }
 
-  // Si está autenticado y va a login, al dashboard (solo si es premium)
+  // Si está autenticado y va a login, al curso-a1/outline (solo si es premium)
   if (user && pathname === "/cuenta/login") {
     const isPaid = profile?.subscription_status === "active" || profile?.subscription_status === "trialing";
     const isAdmin = profile?.role === "admin";
     
     if (isPaid || isAdmin) {
       const url = request.nextUrl.clone();
-      url.pathname = "/dashboard";
+      url.pathname = "/curso-a1/outline";
       url.searchParams.delete("next");
       return NextResponse.redirect(url);
     }
@@ -106,7 +104,7 @@ export async function middleware(request: NextRequest) {
     
     if (isPaid || isAdmin) {
       const url = request.nextUrl.clone();
-      url.pathname = "/dashboard";
+      url.pathname = "/curso-a1/outline";
       url.searchParams.delete("next");
       return NextResponse.redirect(url);
     }
@@ -116,18 +114,17 @@ export async function middleware(request: NextRequest) {
   // Rutas públicas generales
   if (
     PUBLIC_ROUTES.has(pathname) || 
-    isBlogRoute(pathname) ||
-    pathname.startsWith("/debug/")
+    isBlogRoute(pathname)
   ) {
     return response;
   }
 
-  // Protección para la zona /dashboard, /cursos, /aula, y /app
+  // Protección para la zona /curso-a1, /admin y /misiones
   const isProtectedArea = 
-    pathname.startsWith("/dashboard") || 
-    pathname.startsWith("/cursos") || 
-    pathname.startsWith("/aula") || 
-    pathname.startsWith("/app");
+    pathname.startsWith("/curso-a1") ||
+    pathname.startsWith("/admin") ||
+    pathname.startsWith("/misiones") ||
+    pathname.startsWith("/onboarding");
 
   if (isProtectedArea) {
     if (!user) {
@@ -137,14 +134,12 @@ export async function middleware(request: NextRequest) {
       return NextResponse.redirect(url);
     }
 
-    // Si está autenticado, verificar que tenga una suscripción activa o sea admin para cursos y aula
-    // NO redirigimos desde /dashboard si está logueado, para que pueda ver su panel aunque no sea premium
+    // Si está autenticado, verificar que tenga una suscripción activa o sea admin
     const isPaid = profile?.subscription_status === "active" || profile?.subscription_status === "trialing";
     const isAdmin = profile?.role === "admin";
     const isToeflExempt = pathname.startsWith("/curso/toefl-");
-    const isDashboard = pathname.startsWith("/dashboard");
 
-    if (!isPaid && !isAdmin && !isToeflExempt && !isDashboard) {
+    if (!isPaid && !isAdmin && !isToeflExempt) {
       const url = request.nextUrl.clone();
       url.pathname = "/planes";
       url.searchParams.set("reason", "premium_required");

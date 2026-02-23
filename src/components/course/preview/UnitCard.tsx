@@ -93,7 +93,7 @@ export function UnitCard({ unit }: UnitCardProps) {
 
         {/* Preview Button */}
         <Link
-          href={`/debug/a1-preview/${unit.unitId}`}
+          href={`/curso-a1/${unit.unitId}`}
           prefetch
           onClick={handleCardClick}
           className="flex items-center justify-center gap-2 px-6 py-3 min-h-[48px] bg-coral-50 text-coral-600 rounded-xl font-bold text-sm hover:bg-coral-100 hover:shadow-coral transition-all group-hover:bg-coral-600 group-hover:text-white focus:outline-none focus:ring-2 focus:ring-coral-400 focus:ring-offset-2"

@@ -12,6 +12,7 @@ from typing import Dict, List, Any, Optional
 from dotenv import load_dotenv
 from supabase import create_client, Client
 from crm_manager import HubSpotCRM
+from progress_aggregator import ProgressAggregator
 
 # Configuración de logging
 logging.basicConfig(
@@ -39,8 +40,9 @@ class SupabaseHubSpotSync:
         
         self.supabase: Client = create_client(url, key)
         
-        # Inicializar HubSpot
+        # Inicializar HubSpot y Agregador
         self.hubspot = HubSpotCRM()
+        self.aggregator = ProgressAggregator()
         
         logger.info(f"Sync inicializado (Modo Dry Run: {self.dry_run})")
 
@@ -134,45 +136,65 @@ class SupabaseHubSpotSync:
     def sync_user(self, user_data: Dict[str, Any]) -> bool:
         """Sincroniza un único usuario con HubSpot"""
         email = user_data.get('email')
-        if not email:
+        user_id = user_data.get('id')
+        if not email or not user_id:
             return False
             
-        logger.info(f"Sincronizando: {email}")
+        logger.info(f"Sincronizando progreso multi-nivel: {email}")
         
-        # Obtener detalles de progreso
-        detailed = self.get_detailed_progress(user_data['id'])
-        stats = self.get_user_stats_from_tables(user_data['id'])
+        # Obtener progreso agregado de todos los niveles
+        full_progress = self.aggregator.get_all_levels_progress(user_id)
         
         # Preparar propiedades para HubSpot
-        properties = {
-            'current_lesson': detailed['current_lesson'],
-            'total_study_time': str(detailed['total_time_spent']),
-            'study_streak': str(stats['streak']),
-            'total_xp': str(stats['xp']),
-            'average_score': str(detailed['average_score']),
-            'last_activity_date': stats['last_activity']
-        }
+        properties = {}
         
-        # Intentar obtener lecciones completadas de la tabla de progreso
-        try:
-            res = self.supabase.table('methodology_micro_lesson_progress').select('count', count='exact').eq('user_id', user_data['id']).eq('completed', True).execute()
-            if res.count is not None:
-                properties['lessons_completed'] = str(res.count)
-        except:
-            pass
+        # 1. Propiedades Globales
+        global_stats = full_progress.get('global', {})
+        if global_stats.get('current_active_level'):
+            properties['current_level'] = global_stats['current_active_level'].upper()
+        if global_stats.get('last_activity'):
+            # Convertir timestamp a formato fecha HubSpot (YYYY-MM-DD)
+            try:
+                dt = datetime.fromisoformat(global_stats['last_activity'].split('+')[0])
+                properties['last_activity_date'] = dt.strftime('%Y-%m-%d')
+            except:
+                pass
+
+        # 2. Propiedades por Nivel
+        levels_data = full_progress.get('levels', {})
+        for level, stats in levels_data.items():
+            # Asegurar que las propiedades existan en HubSpot antes de enviar
+            if not self.dry_run:
+                self.hubspot.ensure_level_properties(level)
+            
+            level_prefix = f"level_{level.lower()}"
+            properties[f"{level_prefix}_units_completed"] = str(stats['units_completed'])
+            properties[f"{level_prefix}_accuracy"] = str(stats['average_accuracy'])
+            properties[f"{level_prefix}_status"] = stats['status']
+            
+            if stats.get('last_activity'):
+                try:
+                    dt = datetime.fromisoformat(stats['last_activity'].split('+')[0])
+                    properties[f"{level_prefix}_last_activity"] = dt.strftime('%Y-%m-%d')
+                except:
+                    pass
         
+        if not properties:
+            logger.info(f"Pasando {email}: Sin progreso registrado en ningún nivel.")
+            return True
+
         if self.dry_run:
             logger.info(f"[DRY RUN] Actualizaría {email} con: {json.dumps(properties, indent=2)}")
             return True
             
-        # Actualizar en HubSpot (usar create_or_update para asegurar que existan)
+        # Actualizar en HubSpot
         result = self.hubspot.create_or_update_contact(email, **properties)
         
         if result.get('success') is False and not result.get('id'):
             logger.error(f"Error al sincronizar {email}: {result.get('error')}")
             return False
             
-        logger.info(f"✅ {email} sincronizado exitosamente")
+        logger.info(f"✅ {email} sincronizado exitosamente con {len(properties)} propiedades")
         return True
 
     def run_sync(self, email_filter: Optional[str] = None):

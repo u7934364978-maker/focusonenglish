@@ -219,6 +219,18 @@ def test_setup_properties():
     return True
 
 
+def test_setup_level_properties():
+    """Probar creación dinámica de propiedades por nivel"""
+    print("\n" + "="*60)
+    print("TEST 8: Configurar Propiedades de Nivel (A1)")
+    print("="*60)
+    
+    crm = HubSpotCRM()
+    crm.ensure_level_properties('A1')
+    print("\n✅ Propiedades de nivel A1 aseguradas")
+    return True
+
+
 def interactive_menu():
     """Menú interactivo para pruebas"""
     from datetime import datetime
@@ -243,7 +255,8 @@ def interactive_menu():
         print("4. Agregar nota a contacto")
         print("5. Crear múltiples contactos (batch)")
         print("6. Configurar propiedades personalizadas")
-        print("7. Ejecutar todas las pruebas")
+        print("7. Configurar propiedades de nivel (A1)")
+        print("8. Ejecutar todas las pruebas")
         print("0. Salir")
         print("="*60)
         
@@ -262,6 +275,8 @@ def interactive_menu():
         elif choice == '6':
             test_setup_properties()
         elif choice == '7':
+            test_setup_level_properties()
+        elif choice == '8':
             print("\n🚀 Ejecutando todas las pruebas...")
             test_search_contact()
             input("\nPresiona Enter para continuar...")
@@ -272,6 +287,8 @@ def interactive_menu():
             test_add_note()
             input("\nPresiona Enter para continuar...")
             test_bulk_create()
+            input("\nPresiona Enter para continuar...")
+            test_setup_level_properties()
             print("\n✅ Todas las pruebas completadas!")
         elif choice == '0':
             print("\n👋 ¡Hasta luego!")

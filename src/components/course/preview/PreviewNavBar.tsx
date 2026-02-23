@@ -20,7 +20,7 @@ export function PreviewNavBar({
   currentUnitId,
   allUnits,
   currentProgress,
-  baseUrl = '/debug/a1-preview',
+  baseUrl = '/curso-a1',
 }: PreviewNavBarProps) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);

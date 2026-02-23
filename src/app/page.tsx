@@ -129,74 +129,15 @@ export default function HomePage() {
             </div>
 
             {/* Courses Grid */}
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 max-w-2xl mx-auto">
               
-              {/* AI Speaking Coach */}
-              <div className="bg-white rounded-3xl shadow-xl border-2 border-coral-200 overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 lg:col-span-3 flex flex-col md:flex-row items-stretch">
-                <div className="bg-gradient-to-br from-slate-900 to-slate-800 p-10 text-white md:w-2/5 relative overflow-hidden flex flex-col justify-center">
-                  <div className="absolute top-0 right-0 w-64 h-64 bg-coral-500/10 rounded-full -mr-32 -mt-32 animate-pulse"></div>
-                  <div className="relative z-10">
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-coral-600 text-[10px] font-black uppercase tracking-widest mb-4">
-                      Nuevo • AI Powered
-                    </div>
-                    <div className="text-6xl mb-6">🤖</div>
-                    <h3 className="text-3xl font-black mb-4">AI Speaking Coach</h3>
-                    <p className="text-slate-300 text-lg leading-relaxed">
-                      Practica conversaciones reales con nuestro tutor de IA. Feedback instantáneo en pronunciación y gramática.
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="p-10 flex-1 flex flex-col justify-between">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                    <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 bg-coral-50 rounded-2xl flex items-center justify-center text-2xl shadow-sm">🎙️</div>
-                      <div>
-                        <h4 className="font-black text-slate-900">Conversación Real</h4>
-                        <p className="text-sm text-slate-500">Habla de forma natural, la IA te responde al instante.</p>
-                      </div>
-                    </div>
-                    <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 bg-amber-50 rounded-2xl flex items-center justify-center text-2xl shadow-sm">📊</div>
-                      <div>
-                        <h4 className="font-black text-slate-900">Métricas Detalladas</h4>
-                        <p className="text-sm text-slate-500">Evaluación de tono, fluidez y vocabulario.</p>
-                      </div>
-                    </div>
-                    <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 bg-blue-50 rounded-2xl flex items-center justify-center text-2xl shadow-sm">🎭</div>
-                      <div>
-                        <h4 className="font-black text-slate-900">Roleplay Guiado</h4>
-                        <p className="text-sm text-slate-500">Misiones desde situaciones cotidianas hasta profesionales.</p>
-                      </div>
-                    </div>
-                    <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 bg-green-50 rounded-2xl flex items-center justify-center text-2xl shadow-sm">🧠</div>
-                      <div>
-                        <h4 className="font-black text-slate-900">Memoria Persistente</h4>
-                        <p className="text-sm text-slate-500">La IA recuerda tus errores y tu progreso.</p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="flex flex-col sm:flex-row gap-4">
-                    <Link
-                      href="/practica-ia"
-                      className="flex-1 text-center bg-slate-900 text-white px-8 py-5 rounded-2xl font-black text-lg hover:bg-coral-600 transition-all shadow-xl hover:shadow-coral-200"
-                    >
-                      Probar Coach Gratis →
-                    </Link>
-                  </div>
-                </div>
-              </div>
-
               {/* Principiante (A1-A2) */}
               <div className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
                 <div className="bg-gradient-to-br from-blue-600 to-blue-400 p-8 text-white relative overflow-hidden">
                   <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full -mr-20 -mt-20"></div>
                   <div className="relative z-10">
                     <div className="text-5xl mb-4">🌱</div>
-                    <h3 className="text-2xl font-black mb-2">Principiante (A1-A2)</h3>
+                    <h3 className="text-2xl font-black mb-2">Principiante (A1)</h3>
                     <p className="text-blue-50">Construye las bases sólidas de tu inglés</p>
                   </div>
                 </div>
@@ -222,90 +163,10 @@ export default function HomePage() {
                   </ul>
                   
                   <Link
-                    href="/planes"
+                    href="/curso-a1/outline"
                     className="block text-center bg-gradient-to-r from-blue-600 to-blue-400 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
                   >
-                    Ver niveles A1-A2 →
-                  </Link>
-                </div>
-              </div>
-
-              {/* Intermedio (B1-B2) */}
-              <div className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-                <div className="bg-gradient-to-br from-coral-600 to-peach-600 p-8 text-white relative overflow-hidden">
-                  <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full -mr-20 -mt-20"></div>
-                  <div className="relative z-10">
-                    <div className="text-5xl mb-4">🚀</div>
-                    <h3 className="text-2xl font-black mb-2">Intermedio (B1-B2)</h3>
-                    <p className="text-coral-50">Gana fluidez y confianza para comunicarte</p>
-                  </div>
-                </div>
-                
-                <div className="p-8">
-                  <ul className="space-y-3 mb-8">
-                    <li className="flex items-start gap-3">
-                      <span className="text-coral-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">Fluidez en conversación</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="text-coral-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">Vocabulario extendido</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="text-coral-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">Escritura estructurada</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="text-coral-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">Debate y expresión de opinión</span>
-                    </li>
-                  </ul>
-                  
-                  <Link
-                    href="/planes"
-                    className="block text-center bg-gradient-to-r from-coral-600 to-peach-600 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
-                  >
-                    Ver niveles B1-B2 →
-                  </Link>
-                </div>
-              </div>
-
-              {/* Avanzado (C1-C2) */}
-              <div className="bg-white rounded-3xl shadow-xl border border-slate-200 overflow-hidden hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
-                <div className="bg-gradient-to-br from-purple-600 to-purple-400 p-8 text-white relative overflow-hidden">
-                  <div className="absolute top-0 right-0 w-40 h-40 bg-white/10 rounded-full -mr-20 -mt-20"></div>
-                  <div className="relative z-10">
-                    <div className="text-5xl mb-4">👑</div>
-                    <h3 className="text-2xl font-black mb-2">Avanzado (C1-C2)</h3>
-                    <p className="text-purple-50">Alcanza la maestría y precisión nativa</p>
-                  </div>
-                </div>
-                
-                <div className="p-8">
-                  <ul className="space-y-3 mb-8">
-                    <li className="flex items-start gap-3">
-                      <span className="text-purple-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">Maestría gramatical</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="text-purple-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">Vocabulario sofisticado</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="text-purple-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">Matices y sutilezas</span>
-                    </li>
-                    <li className="flex items-start gap-3">
-                      <span className="text-purple-500 font-bold text-xl">✓</span>
-                      <span className="text-slate-700">Uso profesional experto</span>
-                    </li>
-                  </ul>
-                  
-                  <Link
-                    href="/planes"
-                    className="block text-center bg-gradient-to-r from-purple-600 to-purple-400 text-white px-6 py-4 rounded-xl font-bold hover:shadow-xl transition-all"
-                  >
-                    Ver niveles C1-C2 →
+                    Ver nivel A1 →
                   </Link>
                 </div>
               </div>
@@ -417,7 +278,7 @@ export default function HomePage() {
                 🎯 Hacer Test de Nivel
               </Link>
               <Link
-                href="/cuenta/login?callbackUrl=/dashboard"
+                href="/cuenta/login?callbackUrl=/curso-a1/outline"
                 className="bg-slate-900 text-white px-10 py-5 rounded-xl font-black text-lg hover:bg-slate-800 transition-all border-2 border-white/10 shadow-xl"
               >
                 🔑 Acceder como Alumno

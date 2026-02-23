@@ -326,6 +326,56 @@ class FocusEnglishDashboard:
             }
         }
     
+    def get_level_progress_metrics(self) -> Dict:
+        """
+        Calcular métricas de progreso por nivel
+        
+        Returns:
+            Dict con métricas de progreso por nivel
+        """
+        print("\n📈 Calculando métricas de progreso por nivel...")
+        
+        all_contacts = self.hubspot.get_all_contacts(limit=1000)
+        
+        if not all_contacts:
+            return {}
+            
+        levels = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2']
+        level_metrics = {}
+        
+        for level in levels:
+            level_metrics[level] = {
+                'total_students': 0,
+                'avg_accuracy': 0.0,
+                'total_units_completed': 0,
+                'accuracies': []
+            }
+            
+        for contact in all_contacts:
+            props = contact.get('properties', {})
+            
+            for level in levels:
+                units = props.get(f'level_{level}_units_completed')
+                accuracy = props.get(f'level_{level}_accuracy')
+                
+                if units and int(units) > 0:
+                    level_metrics[level]['total_students'] += 1
+                    level_metrics[level]['total_units_completed'] += int(units)
+                    
+                if accuracy:
+                    level_metrics[level]['accuracies'].append(float(accuracy))
+                    
+        # Finalizar cálculos
+        for level in levels:
+            if level_metrics[level]['accuracies']:
+                level_metrics[level]['avg_accuracy'] = round(
+                    sum(level_metrics[level]['accuracies']) / len(level_metrics[level]['accuracies']), 
+                    2
+                )
+            del level_metrics[level]['accuracies'] # Limpiar lista temporal
+            
+        return level_metrics
+
     def display_complete_dashboard(self):
         """Mostrar dashboard completo con todas las métricas"""
         print("\n" + "="*80)
@@ -391,6 +441,18 @@ class FocusEnglishDashboard:
         print(f"Suscripciones activas: {churn_metrics['total_active']}")
         print(f"Cancelaciones este mes: {churn_metrics['cancelled_this_month']}")
         print(f"Tasa de churn: {churn_metrics['churn_rate']}%")
+        
+        # Métricas de progreso por nivel
+        level_metrics = self.get_level_progress_metrics()
+        print("\n" + "-"*80)
+        print("📚 PROGRESO POR NIVEL")
+        print("-"*80)
+        for level, stats in level_metrics.items():
+            if stats['total_students'] > 0:
+                print(f"Nivel {level.upper()}:")
+                print(f"  • Estudiantes activos: {stats['total_students']}")
+                print(f"  • Precisión media: {stats['avg_accuracy']}%")
+                print(f"  • Total unidades completadas: {stats['total_units_completed']}")
         
         print("\n" + "="*80)
         

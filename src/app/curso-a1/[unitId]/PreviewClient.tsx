@@ -145,7 +145,7 @@ function UnitPreviewContent() {
           </div>
 
           <Link 
-            href="/debug/a1-preview"
+            href="/curso-a1"
             className="w-full bg-slate-900 text-white py-6 rounded-2xl font-black text-xl hover:bg-slate-800 transition-all shadow-xl flex items-center justify-center gap-3 transform hover:scale-[1.02] active:scale-95"
           >
             Volver al listado de unidades

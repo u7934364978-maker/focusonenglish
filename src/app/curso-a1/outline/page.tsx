@@ -16,7 +16,7 @@ async function OutlineContent() {
         <div className="max-w-7xl mx-auto px-4 py-8 print:py-4">
           <div className="flex items-center justify-between mb-6 print:mb-3">
             <Link 
-              href="/debug/a1-preview"
+              href="/curso-a1"
               className="inline-flex items-center gap-2 text-sm font-bold text-coral-600 hover:text-coral-700 transition-colors print:hidden"
             >
               ← Back to Course Preview

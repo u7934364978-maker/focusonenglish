@@ -263,7 +263,7 @@ export function CourseOutlineTable({ units }: CourseOutlineTableProps) {
                   </td>
                   <td className="px-4 py-4 print:hidden">
                     <Link
-                      href={`/debug/a1-preview/${unit.unitId}`}
+                      href={`/curso-a1/${unit.unitId}`}
                       className="inline-flex items-center px-3 py-1.5 bg-coral-600 text-white rounded-lg text-xs font-bold hover:bg-coral-700 transition-colors"
                     >
                       Preview
@@ -316,7 +316,7 @@ export function CourseOutlineTable({ units }: CourseOutlineTableProps) {
             </div>
 
             <Link
-              href={`/debug/a1-preview/${unit.unitId}`}
+              href={`/curso-a1/${unit.unitId}`}
               className="block w-full text-center px-4 py-2 bg-coral-600 text-white rounded-lg text-sm font-bold hover:bg-coral-700 transition-colors"
             >
               Preview Unit

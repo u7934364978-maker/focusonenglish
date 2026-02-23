@@ -367,6 +367,22 @@ class HubSpotCRM:
         
         return result
 
+    def ensure_property_group(self, object_type: str, name: str, label: str) -> bool:
+        """
+        Asegurar que un grupo de propiedades existe
+        """
+        endpoint = f'/crm/v3/properties/{object_type}/groups'
+        result = self._make_request('GET', endpoint)
+        
+        if result.get('results'):
+            for group in result['results']:
+                if group['name'] == name:
+                    return True
+        
+        # Si no existe, crearlo
+        res = self.create_property_group(object_type, name, label)
+        return 'name' in res
+
     def create_custom_property(self, object_type: str, name: str, label: str, 
                               field_type: str, group_name: str = 'contactinformation',
                               options: Optional[List[Dict]] = None) -> Dict[str, Any]:
@@ -441,15 +457,68 @@ class HubSpotCRM:
         """
         existing_contact = self.search_contact_by_email(email)
         
+        # Eliminar email de propiedades si ya se pasa como argumento
+        properties.pop('email', None)
+        
         if existing_contact:
             print(f"ℹ️  Contacto existente encontrado, actualizando...")
-            return self.update_contact(existing_contact['id'], email=email, **properties)
+            return self.update_contact(existing_contact['id'], **properties)
         else:
             print(f"ℹ️  Contacto no existe, creando nuevo...")
             firstname = properties.pop('firstname', '')
             lastname = properties.pop('lastname', '')
             phone = properties.pop('phone', '')
             return self.create_contact(email, firstname, lastname, phone, **properties)
+
+    def ensure_level_properties(self, level: str) -> None:
+        """
+        Asegurar que las propiedades de un nivel específico existen en HubSpot
+        """
+        level_lower = level.lower()
+        group_name = f"level_{level_lower}_progress"
+        group_label = f"Progreso Nivel {level.upper()}"
+        
+        self.ensure_property_group('contacts', group_name, group_label)
+        
+        properties = [
+            {
+                'name': f'level_{level_lower}_units_completed',
+                'label': f'Unidades Completadas {level.upper()}',
+                'field_type': 'number'
+            },
+            {
+                'name': f'level_{level_lower}_accuracy',
+                'label': f'Precisión Media {level.upper()}',
+                'field_type': 'number'
+            },
+            {
+                'name': f'level_{level_lower}_status',
+                'label': f'Estado Nivel {level.upper()}',
+                'field_type': 'enumeration',
+                'options': [
+                    {'label': 'En Progreso', 'value': 'in_progress'},
+                    {'label': 'Completado', 'value': 'completed'},
+                    {'label': 'No Iniciado', 'value': 'not_started'}
+                ]
+            },
+            {
+                'name': f'level_{level_lower}_last_activity',
+                'label': f'Última Actividad {level.upper()}',
+                'field_type': 'date'
+            }
+        ]
+        
+        for prop in properties:
+            res = self.create_custom_property(
+                object_type='contacts',
+                name=prop['name'],
+                label=prop['label'],
+                field_type=prop['field_type'],
+                group_name=group_name,
+                options=prop.get('options')
+            )
+            if 'error' in res and 'already exists' in str(res['error']).lower():
+                print(f"  ℹ️  Propiedad {prop['name']} ya existe")
     
     def bulk_create_contacts(self, contacts: List[Dict[str, Any]]) -> Dict[str, Any]:
         """
