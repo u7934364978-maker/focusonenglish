@@ -65,7 +65,7 @@ export function calculateDifficulty(unitNumber: number, totalUnits: number = 60)
   return 5;
 }
 
-function countExercisesByType(interactions: PremiumInteraction[]): ExerciseTypeBreakdown {
+function countExercisesByType(interactions: any[]): ExerciseTypeBreakdown {
   const breakdown: ExerciseTypeBreakdown = {
     multiple_choice: 0,
     fill_in_the_blank: 0,
@@ -83,50 +83,53 @@ function countExercisesByType(interactions: PremiumInteraction[]): ExerciseTypeB
 
   interactions.forEach(interaction => {
     const type = interaction.type?.toLowerCase() || 'other';
-    breakdown.total++;
-
-    switch (type) {
-      case 'multiple_choice':
-        breakdown.multiple_choice++;
-        break;
-      case 'fill_in_the_blank':
-      case 'fill_in':
-        breakdown.fill_in_the_blank++;
-        break;
-      case 'matching':
-      case 'match_pairs':
-        breakdown.matching++;
-        break;
-      case 'drag_and_drop':
-      case 'drag_drop':
-        breakdown.drag_and_drop++;
-        break;
-      case 'categorization':
-      case 'categorize':
-        breakdown.categorization++;
-        break;
-      case 'short_answer':
-      case 'open_ended':
-        breakdown.short_answer++;
-        break;
-      case 'audio_matching':
-      case 'audio_match':
-        breakdown.audio_matching++;
-        break;
-      case 'listening':
-      case 'listen_and_respond':
-        breakdown.listening++;
-        break;
-      case 'video_narrative':
-      case 'video':
-        breakdown.video_narrative++;
-        break;
-      case 'flashcards':
-      case 'flashcard':
-        breakdown.flashcards++;
-        break;
-      default:
-        breakdown.other++;
+    
+    // Si es matching o audio_matching, contamos el número de pares como ejercicios individuales
+    if (type === 'matching' || type === 'audio_matching' || type === 'audio_match' || type === 'match_pairs') {
+      const pairCount = (interaction.pairs?.length || 1);
+      breakdown.total += pairCount;
+      if (type === 'matching' || type === 'match_pairs') {
+        breakdown.matching += pairCount;
+      } else {
+        breakdown.audio_matching += pairCount;
+      }
+    } else {
+      breakdown.total++;
+      switch (type) {
+        case 'multiple_choice':
+          breakdown.multiple_choice++;
+          break;
+        case 'fill_in_the_blank':
+        case 'fill_in':
+          breakdown.fill_in_the_blank++;
+          break;
+        case 'drag_and_drop':
+        case 'drag_drop':
+          breakdown.drag_and_drop++;
+          break;
+        case 'categorization':
+        case 'categorize':
+          breakdown.categorization++;
+          break;
+        case 'short_answer':
+        case 'open_ended':
+          breakdown.short_answer++;
+          break;
+        case 'listening':
+        case 'listen_and_respond':
+          breakdown.listening++;
+          break;
+        case 'video_narrative':
+        case 'video':
+          breakdown.video_narrative++;
+          break;
+        case 'flashcards':
+        case 'flashcard':
+          breakdown.flashcards++;
+          break;
+        default:
+          breakdown.other++;
+      }
     }
   });
 
