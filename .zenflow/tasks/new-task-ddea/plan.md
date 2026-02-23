@@ -271,7 +271,8 @@ Modify the existing unit preview page to include the new overview header and nav
 
 ## Phase 3: Audio & Translation Features
 
-### [ ] Step: Create AudioPlayer component
+### [x] Step: Create AudioPlayer component
+<!-- chat-id: b9d9cd56-f186-4030-b2e3-b611d3681a9d -->
 
 Build a custom audio player with playback controls and speed adjustment.
 
