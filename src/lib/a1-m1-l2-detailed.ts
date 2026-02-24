@@ -154,7 +154,300 @@ const READING_EXERCISES: Exercise[] = [
 // Flatten grammar questions into individual exercises
 const INDIVIDUAL_GRAMMAR_EXERCISES = GRAMMAR_QUESTIONS.map(q => createExercise(q.id, q, 'Origins & Occupations', 2));
 
+// LISTENING & PRONUNCIATION LESSON (EXERCISES 61-75)
+const LISTENING_AND_PRONUNCIATION: Exercise[] = [
+  // Listening Comprehension (61-68)
+  {
+    id: 'a1-u2-e61',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'He is a doctor. He works in a hospital.',
+    audioUrl: 'audio/a1/unit-2/e61.mp3',
+    content: {
+      title: 'Listening: Professions',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q61',
+        type: 'multiple-choice',
+        question: 'What is his job?',
+        options: ['Teacher', 'Doctor', 'Nurse'],
+        correctAnswer: 'Doctor',
+        explanation: 'The speaker says: "He is a doctor".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u2-e62',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'They are from Japan. They are Japanese.',
+    audioUrl: 'audio/a1/unit-2/e62.mp3',
+    content: {
+      title: 'Listening: Origins',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q62',
+        type: 'multiple-choice',
+        question: 'Where are they from?',
+        options: ['China', 'Japan', 'Korea'],
+        correctAnswer: 'Japan',
+        explanation: 'The speaker says: "They are from Japan".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u2-e63',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'She is a nurse. She helps people.',
+    audioUrl: 'audio/a1/unit-2/e63.mp3',
+    content: {
+      title: 'Listening: Helping Others',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q63',
+        type: 'multiple-choice',
+        question: 'What is her job?',
+        options: ['Nurse', 'Chef', 'Pilot'],
+        correctAnswer: 'Nurse',
+        explanation: 'The speaker says: "She is a nurse".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u2-e64',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'I am from Brazil. My nationality is Brazilian.',
+    audioUrl: 'audio/a1/unit-2/e64.mp3',
+    content: {
+      title: 'Listening: Brazil',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q64',
+        type: 'multiple-choice',
+        question: 'What is the speaker\'s nationality?',
+        options: ['Spanish', 'Mexican', 'Brazilian'],
+        correctAnswer: 'Brazilian',
+        explanation: 'The speaker says: "My nationality is Brazilian".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u2-e65',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'We are students. We are in the classroom.',
+    audioUrl: 'audio/a1/unit-2/e65.mp3',
+    content: {
+      title: 'Listening: Students',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q65',
+        type: 'multiple-choice',
+        question: 'Where are they?',
+        options: ['In a restaurant', 'In the classroom', 'In a hospital'],
+        correctAnswer: 'In the classroom',
+        explanation: 'The speaker says: "We are in the classroom".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u2-e66',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'He is a pilot. He flies planes.',
+    audioUrl: 'audio/a1/unit-2/e66.mp3',
+    content: {
+      title: 'Listening: Pilots',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q66',
+        type: 'multiple-choice',
+        question: 'What does he do?',
+        options: ['Drives a car', 'Flies a plane', 'Cooks food'],
+        correctAnswer: 'Flies a plane',
+        explanation: 'A pilot flies planes.'
+      }]
+    }
+  },
+  {
+    id: 'a1-u2-e67',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'They are from Mexico. They speak Spanish.',
+    audioUrl: 'audio/a1/unit-2/e67.mp3',
+    content: {
+      title: 'Listening: Language',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q67',
+        type: 'multiple-choice',
+        question: 'What language do they speak?',
+        options: ['English', 'Spanish', 'French'],
+        correctAnswer: 'Spanish',
+        explanation: 'The speaker says: "They speak Spanish".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u2-e68',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'It is my dog. It is brown and white.',
+    audioUrl: 'audio/a1/unit-2/e68.mp3',
+    content: {
+      title: 'Listening: Pets',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q68',
+        type: 'multiple-choice',
+        question: 'What color is the dog?',
+        options: ['Black', 'Brown and white', 'Grey'],
+        correctAnswer: 'Brown and white',
+        explanation: 'The speaker says: "It is brown and white".'
+      }]
+    }
+  },
+  // Pronunciation Practice (69-75)
+  {
+    id: 'a1-u2-e69',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'He is a teacher.',
+    audioUrl: 'audio/a1/unit-2/e69.mp3',
+    content: {
+      title: 'Pronunciation: Professions',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'He is a teacher.',
+      evaluationCriteria: [
+        'Sonido /h/ aspirado en "He"',
+        'Vocal corta /ɪ/ en "is"',
+        'Acento tónico en "teach" (/ˈtiːtʃər/)'
+      ]
+    }
+  },
+  {
+    id: 'a1-u2-e70',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'She is Mexican.',
+    audioUrl: 'audio/a1/unit-2/e70.mp3',
+    content: {
+      title: 'Pronunciation: Nationalities',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'She is Mexican.',
+      evaluationCriteria: [
+        'Sonido /ʃ/ en "She"',
+        'Acento tónico en "Mex" (/ˈmeksɪkən/)',
+        'Pronunciación clara de la "x" como /ks/'
+      ]
+    }
+  },
+  {
+    id: 'a1-u2-e71',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'They are from Japan.',
+    audioUrl: 'audio/a1/unit-2/e71.mp3',
+    content: {
+      title: 'Pronunciation: Origins',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'They are from Japan.',
+      evaluationCriteria: [
+        'Sonido /ð/ en "They"',
+        'Pronunciación de "from" con vocal neutra /ə/',
+        'Acento tónico en "pan" (/dʒəˈpæn/)'
+      ]
+    }
+  },
+  {
+    id: 'a1-u2-e72',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'We are happy.',
+    audioUrl: 'audio/a1/unit-2/e72.mp3',
+    content: {
+      title: 'Pronunciation: Emotions',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'We are happy.',
+      evaluationCriteria: [
+        'Vocal larga /iː/ en "We"',
+        'Sonido /h/ aspirado en "happy"',
+        'Acento tónico en la primera sílaba de "happy" (/ˈhæpi/)'
+      ]
+    }
+  },
+  {
+    id: 'a1-u2-e73',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'I am a doctor.',
+    audioUrl: 'audio/a1/unit-2/e73.mp3',
+    content: {
+      title: 'Pronunciation: Professions',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'I am a doctor.',
+      evaluationCriteria: [
+        'Diptongo /aɪ/ en "I"',
+        'Acento tónico en "doc" (/ˈdɒktər/)',
+        'Vocal neutra /ə/ al final de "doctor"'
+      ]
+    }
+  },
+  {
+    id: 'a1-u2-e74',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'It is a big city.',
+    audioUrl: 'audio/a1/unit-2/e74.mp3',
+    content: {
+      title: 'Pronunciation: Places',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'It is a big city.',
+      evaluationCriteria: [
+        'Vocal corta /ɪ/ en "It" e "is"',
+        'Sonido /g/ final en "big"',
+        'Acento tónico en "ci" (/ˈsɪti/)'
+      ]
+    }
+  },
+  {
+    id: 'a1-u2-e75',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'She is my friend.',
+    audioUrl: 'audio/a1/unit-2/e75.mp3',
+    content: {
+      title: 'Pronunciation: Relationships',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'She is my friend.',
+      evaluationCriteria: [
+        'Sonido /ʃ/ en "She"',
+        'Vocal /e/ corta en "friend"',
+        'Sonido /d/ final claro'
+      ]
+    }
+  }
+];
+
 export const A1_M1_L2_ALL_EXERCISES: Exercise[] = [
   ...INDIVIDUAL_GRAMMAR_EXERCISES,
-  ...READING_EXERCISES
+  ...READING_EXERCISES,
+  ...LISTENING_AND_PRONUNCIATION
 ];

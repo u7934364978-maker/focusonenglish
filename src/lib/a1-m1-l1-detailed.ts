@@ -200,8 +200,301 @@ const ADDITIONAL_READINGS: Exercise[] = [
   }
 ];
 
+// LISTENING & PRONUNCIATION LESSON (EXERCISES 61-75)
+const LISTENING_AND_PRONUNCIATION: Exercise[] = [
+  // Listening Comprehension (61-68)
+  {
+    id: 'a1-u1-e61',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'Hello, I am Maria. Nice to meet you.',
+    audioUrl: 'audio/a1/unit-1/e61.mp3',
+    content: {
+      title: 'Listening: Introductions',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q61',
+        type: 'multiple-choice',
+        question: 'What is her name?',
+        options: ['Maria', 'Sarah', 'Alex'],
+        correctAnswer: 'Maria',
+        explanation: 'The speaker says: "I am Maria".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u1-e62',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'Good morning! How are you today?',
+    audioUrl: 'audio/a1/unit-1/e62.mp3',
+    content: {
+      title: 'Listening: Greetings',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q62',
+        type: 'multiple-choice',
+        question: 'When is this greeting used?',
+        options: ['In the morning', 'In the evening', 'At night'],
+        correctAnswer: 'In the morning',
+        explanation: 'The speaker says: "Good morning".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u1-e63',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'I am from Spain. I am Spanish.',
+    audioUrl: 'audio/a1/unit-1/e63.mp3',
+    content: {
+      title: 'Listening: Nationalities',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q63',
+        type: 'multiple-choice',
+        question: 'Where is the speaker from?',
+        options: ['Mexico', 'Spain', 'London'],
+        correctAnswer: 'Spain',
+        explanation: 'The speaker says: "I am from Spain".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u1-e64',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'Hi, I am Alex. I am a student.',
+    audioUrl: 'audio/a1/unit-1/e64.mp3',
+    content: {
+      title: 'Listening: Occupations',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q64',
+        type: 'multiple-choice',
+        question: 'What is Alex\'s job?',
+        options: ['Teacher', 'Doctor', 'Student'],
+        correctAnswer: 'Student',
+        explanation: 'The speaker says: "I am a student".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u1-e65',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'See you later! Have a nice day.',
+    audioUrl: 'audio/a1/unit-1/e65.mp3',
+    content: {
+      title: 'Listening: Farewells',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q65',
+        type: 'multiple-choice',
+        question: 'What is the speaker doing?',
+        options: ['Greeting someone', 'Saying goodbye', 'Introducing someone'],
+        correctAnswer: 'Saying goodbye',
+        explanation: '"See you later" is used to say goodbye.'
+      }]
+    }
+  },
+  {
+    id: 'a1-u1-e66',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'It is a pen. It is blue.',
+    audioUrl: 'audio/a1/unit-1/e66.mp3',
+    content: {
+      title: 'Listening: Objects',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q66',
+        type: 'multiple-choice',
+        question: 'What color is the pen?',
+        options: ['Red', 'Blue', 'Green'],
+        correctAnswer: 'Blue',
+        explanation: 'The speaker says: "It is blue".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u1-e67',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'She is my teacher. Her name is Ms. Smith.',
+    audioUrl: 'audio/a1/unit-1/e67.mp3',
+    content: {
+      title: 'Listening: Descriptions',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q67',
+        type: 'multiple-choice',
+        question: 'Who is she?',
+        options: ['A student', 'A teacher', 'A doctor'],
+        correctAnswer: 'A teacher',
+        explanation: 'The speaker says: "She is my teacher".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u1-e68',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'I am fine, thank you. And you?',
+    audioUrl: 'audio/a1/unit-1/e68.mp3',
+    content: {
+      title: 'Listening: Well-being',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q68',
+        type: 'multiple-choice',
+        question: 'How does the speaker feel?',
+        options: ['Bad', 'Fine', 'Tired'],
+        correctAnswer: 'Fine',
+        explanation: 'The speaker says: "I am fine".'
+      }]
+    }
+  },
+  // Pronunciation Practice (69-75)
+  {
+    id: 'a1-u1-e69',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'Hello, how are you?',
+    audioUrl: 'audio/a1/unit-1/e69.mp3',
+    content: {
+      title: 'Pronunciation: Basic Greeting',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'Hello, how are you?',
+      evaluationCriteria: [
+        'Claridad en la aspiración de la "H" en "Hello" y "How"',
+        'Entonación ascendente al final de la pregunta',
+        'Pronunciación correcta de "are" /ɑːr/'
+      ]
+    }
+  },
+  {
+    id: 'a1-u1-e70',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'Nice to meet you.',
+    audioUrl: 'audio/a1/unit-1/e70.mp3',
+    content: {
+      title: 'Pronunciation: Introductions',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'Nice to meet you.',
+      evaluationCriteria: [
+        'Sonido /s/ claro al final de "Nice"',
+        'Vocal larga /iː/ en "meet"',
+        'Fluidez en la unión de las palabras'
+      ]
+    }
+  },
+  {
+    id: 'a1-u1-e71',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'I am a student.',
+    audioUrl: 'audio/a1/unit-1/e71.mp3',
+    content: {
+      title: 'Pronunciation: Occupations',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'I am a student.',
+      evaluationCriteria: [
+        'Diptongo /aɪ/ claro en "I"',
+        'Acento tónico en la primera sílaba de "student" (/ˈstjuːdənt/)',
+        'Sonido /t/ final suave pero presente'
+      ]
+    }
+  },
+  {
+    id: 'a1-u1-e72',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'Good morning.',
+    audioUrl: 'audio/a1/unit-1/e72.mp3',
+    content: {
+      title: 'Pronunciation: Time of Day',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'Good morning.',
+      evaluationCriteria: [
+        'Vocal corta /ʊ/ en "Good"',
+        'Acento tónico en "morn" (/ˈmɔːrnɪŋ/)',
+        'Sonido /ŋ/ nasal al final de "morning"'
+      ]
+    }
+  },
+  {
+    id: 'a1-u1-e73',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'See you later.',
+    audioUrl: 'audio/a1/unit-1/e73.mp3',
+    content: {
+      title: 'Pronunciation: Farewells',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'See you later.',
+      evaluationCriteria: [
+        'Vocal larga /iː/ en "See"',
+        'Diptongo /eɪ/ en "later" (/ˈleɪtər/)',
+        'Entonación descendente típica de una afirmación/despedida'
+      ]
+    }
+  },
+  {
+    id: 'a1-u1-e74',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'He is my friend.',
+    audioUrl: 'audio/a1/unit-1/e74.mp3',
+    content: {
+      title: 'Pronunciation: Relationships',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'He is my friend.',
+      evaluationCriteria: [
+        'Sonido /h/ aspirado en "He"',
+        'Vocal corta /ɪ/ en "is"',
+        'Sonido /d/ final en "friend"'
+      ]
+    }
+  },
+  {
+    id: 'a1-u1-e75',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'It is blue.',
+    audioUrl: 'audio/a1/unit-1/e75.mp3',
+    content: {
+      title: 'Pronunciation: Colors',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'It is blue.',
+      evaluationCriteria: [
+        'Vocal corta /ɪ/ en "It"',
+        'Vocal larga /uː/ en "blue"',
+        'Unión suave entre "It" e "is"'
+      ]
+    }
+  }
+];
+
 export const A1_M1_L1_ALL_EXERCISES: Exercise[] = [
   ...INDIVIDUAL_GRAMMAR_EXERCISES,
   ...READING_EXERCISES,
-  ...ADDITIONAL_READINGS
+  ...ADDITIONAL_READINGS,
+  ...LISTENING_AND_PRONUNCIATION
 ];
