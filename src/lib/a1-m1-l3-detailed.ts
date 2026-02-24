@@ -154,7 +154,300 @@ const READING_EXERCISES: Exercise[] = [
 // Flatten grammar questions into individual exercises
 const INDIVIDUAL_GRAMMAR_EXERCISES = GRAMMAR_QUESTIONS.map(q => createExercise(q.id, q, 'Moods & Questions', 3));
 
+// LISTENING & PRONUNCIATION LESSON (EXERCISES 61-75)
+const LISTENING_AND_PRONUNCIATION: Exercise[] = [
+  // Listening Comprehension (61-68)
+  {
+    id: 'a1-u3-e61',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'I am not sad. I am very happy today!',
+    audioUrl: 'audio/a1/unit-3/e61.mp3',
+    content: {
+      title: 'Listening: Moods',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q61',
+        type: 'multiple-choice',
+        question: 'How does the speaker feel?',
+        options: ['Sad', 'Happy', 'Angry'],
+        correctAnswer: 'Happy',
+        explanation: 'The speaker says: "I am very happy".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u3-e62',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'Are you hungry? Yes, I am.',
+    audioUrl: 'audio/a1/unit-3/e62.mp3',
+    content: {
+      title: 'Listening: Questions',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q62',
+        type: 'multiple-choice',
+        question: 'Is the speaker hungry?',
+        options: ['Yes', 'No', 'Maybe'],
+        correctAnswer: 'Yes',
+        explanation: 'The speaker answers: "Yes, I am".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u3-e63',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'It is not hot today. It is very cold.',
+    audioUrl: 'audio/a1/unit-3/e63.mp3',
+    content: {
+      title: 'Listening: Weather',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q63',
+        type: 'multiple-choice',
+        question: 'How is the weather?',
+        options: ['Hot', 'Cold', 'Warm'],
+        correctAnswer: 'Cold',
+        explanation: 'The speaker says: "It is very cold".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u3-e64',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'He is not a doctor. He is a teacher.',
+    audioUrl: 'audio/a1/unit-3/e64.mp3',
+    content: {
+      title: 'Listening: Occupations',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q64',
+        type: 'multiple-choice',
+        question: 'What is his job?',
+        options: ['Doctor', 'Teacher', 'Pilot'],
+        correctAnswer: 'Teacher',
+        explanation: 'The speaker says: "He is a teacher".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u3-e65',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'Are they from England? No, they are not.',
+    audioUrl: 'audio/a1/unit-3/e65.mp3',
+    content: {
+      title: 'Listening: Origins',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q65',
+        type: 'multiple-choice',
+        question: 'Are they from England?',
+        options: ['Yes', 'No', 'They don\'t know'],
+        correctAnswer: 'No',
+        explanation: 'The speaker says: "No, they are not".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u3-e66',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'I am very tired. I want to sleep.',
+    audioUrl: 'audio/a1/unit-3/e66.mp3',
+    content: {
+      title: 'Listening: Feelings',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q66',
+        type: 'multiple-choice',
+        question: 'What does the speaker want to do?',
+        options: ['Eat', 'Sleep', 'Work'],
+        correctAnswer: 'Sleep',
+        explanation: 'The speaker says: "I want to sleep".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u3-e67',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'Is she your sister? No, she is my friend.',
+    audioUrl: 'audio/a1/unit-3/e67.mp3',
+    content: {
+      title: 'Listening: Relationships',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q67',
+        type: 'multiple-choice',
+        question: 'Who is she?',
+        options: ['His sister', 'His friend', 'His mother'],
+        correctAnswer: 'His friend',
+        explanation: 'The speaker says: "she is my friend".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u3-e68',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'I am thirsty. I want some water.',
+    audioUrl: 'audio/a1/unit-3/e68.mp3',
+    content: {
+      title: 'Listening: Needs',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q68',
+        type: 'multiple-choice',
+        question: 'What does the speaker want?',
+        options: ['Food', 'Water', 'A book'],
+        correctAnswer: 'Water',
+        explanation: 'The speaker says: "I want some water".'
+      }]
+    }
+  },
+  // Pronunciation Practice (69-75)
+  {
+    id: 'a1-u3-e69',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'I am not tired.',
+    audioUrl: 'audio/a1/unit-3/e69.mp3',
+    content: {
+      title: 'Pronunciation: Negatives',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'I am not tired.',
+      evaluationCriteria: [
+        'Pronunciación clara de "not"',
+        'Diptongo /aɪ/ en "I"',
+        'Acento tónico en "tired" (/ˈtaɪərd/)'
+      ]
+    }
+  },
+  {
+    id: 'a1-u3-e70',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'Are you happy?',
+    audioUrl: 'audio/a1/unit-3/e70.mp3',
+    content: {
+      title: 'Pronunciation: Questions',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'Are you happy?',
+      evaluationCriteria: [
+        'Entonación ascendente al final de la pregunta',
+        'Sonido /h/ aspirado en "happy"',
+        'Vocal larga /ɑːr/ en "Are"'
+      ]
+    }
+  },
+  {
+    id: 'a1-u3-e71',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'Yes, I am.',
+    audioUrl: 'audio/a1/unit-3/e71.mp3',
+    content: {
+      title: 'Pronunciation: Short Answers',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'Yes, I am.',
+      evaluationCriteria: [
+        'Sonido /j/ claro en "Yes"',
+        'Vocal corta /æ/ en "am"',
+        'Pausa breve después de "Yes"'
+      ]
+    }
+  },
+  {
+    id: 'a1-u3-e72',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'It is not cold.',
+    audioUrl: 'audio/a1/unit-3/e72.mp3',
+    content: {
+      title: 'Pronunciation: Weather',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'It is not cold.',
+      evaluationCriteria: [
+        'Vocal corta /ɪ/ en "It" e "is"',
+        'Sonido /k/ fuerte en "cold"',
+        'Diptongo /əʊ/ en "cold"'
+      ]
+    }
+  },
+  {
+    id: 'a1-u3-e73',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'She is busy.',
+    audioUrl: 'audio/a1/unit-3/e73.mp3',
+    content: {
+      title: 'Pronunciation: Feelings',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'She is busy.',
+      evaluationCriteria: [
+        'Sonido /ʃ/ en "She"',
+        'Vocal /ɪ/ en "busy" (/ˈbɪzi/)',
+        'Sonido /z/ vibrante en "busy"'
+      ]
+    }
+  },
+  {
+    id: 'a1-u3-e74',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'We are bored.',
+    audioUrl: 'audio/a1/unit-3/e74.mp3',
+    content: {
+      title: 'Pronunciation: Feelings',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'We are bored.',
+      evaluationCriteria: [
+        'Vocal larga /iː/ en "We"',
+        'Vocal larga /ɔː/ en "bored" (/bɔːrd/)',
+        'Sonido /d/ final suave'
+      ]
+    }
+  },
+  {
+    id: 'a1-u3-e75',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'Are they angry?',
+    audioUrl: 'audio/a1/unit-3/e75.mp3',
+    content: {
+      title: 'Pronunciation: Questions',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'Are they angry?',
+      evaluationCriteria: [
+        'Entonación ascendente',
+        'Sonido /ð/ en "they"',
+        'Acento tónico en "ang" (/ˈæŋɡri/)'
+      ]
+    }
+  }
+];
+
 export const A1_M1_L3_ALL_EXERCISES: Exercise[] = [
   ...INDIVIDUAL_GRAMMAR_EXERCISES,
-  ...READING_EXERCISES
+  ...READING_EXERCISES,
+  ...LISTENING_AND_PRONUNCIATION
 ];
