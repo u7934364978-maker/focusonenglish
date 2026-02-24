@@ -26,37 +26,56 @@ function cleanTranscript(text: string): string {
 function extractExercises(fileContent: string, unitNumber: number): any[] {
   const exercises: any[] = [];
   
-  // 1. Find all potential exercise objects by looking for objects that have an "id" starting with "a1-uX-e"
-  const objectRegex = /\{[\s\S]*?"id":\s*["'](a1-u\d+-e\d+)["'][\s\S]*?\}/g;
+  // 1. Find all potential exercise IDs
+  const idRegex = /"id":\s*["'](a1-u(\d+)-e\d+)["']/g;
   let match;
+  const matches = [];
   
-  while ((match = objectRegex.exec(fileContent)) !== null) {
-    const block = match[0];
-    const id = match[1];
-    
-    // Skip if it doesn't belong to current unit (optional but safer)
-    if (!id.startsWith(`a1-u${unitNumber}-e`)) continue;
-
-    // Extract transcript - look for "transcript" or "question" (for grammar)
-    const transcriptMatch = /"(?:transcript|question)":\s*"([^"]+)"/.exec(block) || /'(?:transcript|question)':\s*'([^']+)'/.exec(block);
-    
-    if (transcriptMatch) {
-      // Extract audioUrl if exists
-      const audioMatch = /"audioUrl":\s*"([^"]+)"/.exec(block) || /'audioUrl':\s*'([^']+)'/.exec(block);
-      
-      exercises.push({
-        id: id,
-        transcript: transcriptMatch[1],
-        audioUrl: audioMatch ? audioMatch[1] : `audio/a1/unit-${unitNumber}/${id.split('-').pop()}.mp3`
+  while ((match = idRegex.exec(fileContent)) !== null) {
+    // Only process IDs for the current unit
+    if (parseInt(match[2]) === unitNumber) {
+      matches.push({
+        id: match[1],
+        index: match.index
       });
     }
   }
 
-  // 2. Look for GRAMMAR_QUESTIONS that use q1, q2... format if they didn't match above
+  for (let i = 0; i < matches.length; i++) {
+    const currentMatch = matches[i];
+    const nextIndex = i < matches.length - 1 ? matches[i + 1].index : fileContent.length;
+    
+    // Search for transcript and audioUrl in the block between current ID and next ID
+    const startSearch = Math.max(0, currentMatch.index - 50);
+    const endSearch = Math.min(fileContent.length, nextIndex);
+    const block = fileContent.substring(startSearch, endSearch);
+    
+    // Extract transcript - look for "transcript" or "question"
+    const transcriptMatch = /"(?:transcript|question)":\s*"([^"]+)"/.exec(block) || 
+                            /'(?:transcript|question)':\s*'([^']+)'/.exec(block);
+    
+    if (transcriptMatch) {
+      // Extract audioUrl if exists
+      const audioMatch = /"audioUrl":\s*"([^"]+)"/.exec(block) || 
+                         /'audioUrl':\s*'([^']+)'/.exec(block);
+      
+      const id = currentMatch.id;
+      const exerciseNum = id.split('-').pop(); // e.g. "e1"
+      
+      exercises.push({
+        id: id,
+        transcript: transcriptMatch[1],
+        audioUrl: audioMatch ? audioMatch[1] : `audio/a1/unit-${unitNumber}/${exerciseNum}.mp3`
+      });
+    }
+  }
+
+  // 2. Fallback for GRAMMAR_QUESTIONS style
   const grammarRegex = /\{[\s\S]*?id:\s*'([^']+)'[\s\S]*?question:\s*'([^']+)'[\s\S]*?\}/g;
   while ((match = grammarRegex.exec(fileContent)) !== null) {
     const id = match[1];
     if (!exercises.find(ex => ex.id === id)) {
+      // Basic check if it belongs to current unit (optional)
       exercises.push({
         id: id,
         transcript: match[2],
