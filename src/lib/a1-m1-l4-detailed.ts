@@ -2446,6 +2446,298 @@ export const A1_M1_L4_SENTENCE_REORDERING = {
   ]
 };
 
+// LISTENING & PRONUNCIATION LESSON (EXERCISES 61-75)
+const LISTENING_AND_PRONUNCIATION: Exercise[] = [
+  // Listening Comprehension (61-68)
+  {
+    id: 'a1-u4-e61',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'I am twenty-five years old.',
+    audioUrl: 'audio/a1/unit-4/e61.mp3',
+    content: {
+      title: 'Listening: Age',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q61',
+        type: 'multiple-choice',
+        question: 'How old is the speaker?',
+        options: ['15', '25', '35'],
+        correctAnswer: '25',
+        explanation: 'The speaker says: "I am twenty-five years old".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u4-e62',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'My phone number is five-five-five, six-seven-eight-nine.',
+    audioUrl: 'audio/a1/unit-4/e62.mp3',
+    content: {
+      title: 'Listening: Numbers',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q62',
+        type: 'multiple-choice',
+        question: 'What is the last number?',
+        options: ['7', '8', '9'],
+        correctAnswer: '9',
+        explanation: 'The speaker ends with: "nine".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u4-e63',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'There are fourteen students in the class.',
+    audioUrl: 'audio/a1/unit-4/e63.mp3',
+    content: {
+      title: 'Listening: Quantities',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q63',
+        type: 'multiple-choice',
+        question: 'How many students are there?',
+        options: ['4', '14', '40'],
+        correctAnswer: '14',
+        explanation: 'The speaker says: "fourteen".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u4-e64',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'How old is she? She is nineteen.',
+    audioUrl: 'audio/a1/unit-4/e64.mp3',
+    content: {
+      title: 'Listening: Age',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q64',
+        type: 'multiple-choice',
+        question: 'How old is she?',
+        options: ['9', '19', '90'],
+        correctAnswer: '19',
+        explanation: 'The speaker says: "nineteen".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u4-e65',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'The bus number is seventy-two.',
+    audioUrl: 'audio/a1/unit-4/e65.mp3',
+    content: {
+      title: 'Listening: Numbers',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q65',
+        type: 'multiple-choice',
+        question: 'What is the bus number?',
+        options: ['27', '72', '17'],
+        correctAnswer: '72',
+        explanation: 'The speaker says: "seventy-two".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u4-e66',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'I have three brothers and two sisters.',
+    audioUrl: 'audio/a1/unit-4/e66.mp3',
+    content: {
+      title: 'Listening: Family',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q66',
+        type: 'multiple-choice',
+        question: 'How many sisters does the speaker have?',
+        options: ['2', '3', '5'],
+        correctAnswer: '2',
+        explanation: 'The speaker says: "two sisters".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u4-e67',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'He is forty-three years old.',
+    audioUrl: 'audio/a1/unit-4/e67.mp3',
+    content: {
+      title: 'Listening: Age',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q67',
+        type: 'multiple-choice',
+        question: 'How old is he?',
+        options: ['34', '43', '13'],
+        correctAnswer: '43',
+        explanation: 'The speaker says: "forty-three".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u4-e68',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'My house number is eighty-six.',
+    audioUrl: 'audio/a1/unit-4/e68.mp3',
+    content: {
+      title: 'Listening: Numbers',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q68',
+        type: 'multiple-choice',
+        question: 'What is the house number?',
+        options: ['68', '86', '16'],
+        correctAnswer: '86',
+        explanation: 'The speaker says: "eighty-six".'
+      }]
+    }
+  },
+  // Pronunciation Practice (69-75)
+  {
+    id: 'a1-u4-e69',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'I am fifteen.',
+    audioUrl: 'audio/a1/unit-4/e69.mp3',
+    content: {
+      title: 'Pronunciation: Teens',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'I am fifteen.',
+      evaluationCriteria: [
+        'Acento en la segunda sílaba "teen" (/fɪfˈtiːn/)',
+        'Sonido /f/ claro',
+        'Vocal larga /iː/ al final'
+      ]
+    }
+  },
+  {
+    id: 'a1-u4-e70',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'I am fifty.',
+    audioUrl: 'audio/a1/unit-4/e70.mp3',
+    content: {
+      title: 'Pronunciation: Tens',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'I am fifty.',
+      evaluationCriteria: [
+        'Acento en la primera sílaba "fif" (/ˈfɪfti/)',
+        'Vocal final /i/ corta',
+        'Contraste claro con "fifteen"'
+      ]
+    }
+  },
+  {
+    id: 'a1-u4-e71',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'How old are you?',
+    audioUrl: 'audio/a1/unit-4/e71.mp3',
+    content: {
+      title: 'Pronunciation: Questions',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'How old are you?',
+      evaluationCriteria: [
+        'Entonación descendente al final',
+        'Liaison entre "old" y "are"',
+        'Sonido /h/ aspirado'
+      ]
+    }
+  },
+  {
+    id: 'a1-u4-e72',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'She is thirty-three.',
+    audioUrl: 'audio/a1/unit-4/e72.mp3',
+    content: {
+      title: 'Pronunciation: Numbers',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'She is thirty-three.',
+      evaluationCriteria: [
+        'Sonido /θ/ (th) sin voz en "thirty" y "three"',
+        'Vocal /ɜː/ en "thirty"',
+        'Vocal larga /iː/ en "three"'
+      ]
+    }
+  },
+  {
+    id: 'a1-u4-e73',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'He is eighty.',
+    audioUrl: 'audio/a1/unit-4/e73.mp3',
+    content: {
+      title: 'Pronunciation: Tens',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'He is eighty.',
+      evaluationCriteria: [
+        'Diptongo /eɪ/ en "eighty"',
+        'Sonido /t/ o /d/ suave (flap t)',
+        'Vocal final /i/ corta'
+      ]
+    }
+  },
+  {
+    id: 'a1-u4-e74',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'They are twelve.',
+    audioUrl: 'audio/a1/unit-4/e74.mp3',
+    content: {
+      title: 'Pronunciation: Numbers',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'They are twelve.',
+      evaluationCriteria: [
+        'Sonido /ð/ vibrante en "They"',
+        'Vocal corta /e/ en "twelve"',
+        'Sonido /v/ final claro'
+      ]
+    }
+  },
+  {
+    id: 'a1-u4-e75',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'I have one brother.',
+    audioUrl: 'audio/a1/unit-4/e75.mp3',
+    content: {
+      title: 'Pronunciation: Family',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'I have one brother.',
+      evaluationCriteria: [
+        'Sonido /v/ en "have"',
+        'Sonido /w/ en "one"',
+        'Sonido /ð/ en "brother" (/ˈbrʌðər/)'
+      ]
+    }
+  }
+];
+
 export const A1_M1_L4_ALL_EXERCISES = [
   A1_M1_L4_GRAMMAR_1,
   A1_M1_L4_GRAMMAR_2,
@@ -2459,5 +2751,6 @@ export const A1_M1_L4_ALL_EXERCISES = [
   A1_M1_L4_SENTENCE_COMPLETION,
   A1_M1_L4_ERROR_IDENTIFICATION,
   A1_M1_L4_GAP_FILL,
-  A1_M1_L4_SENTENCE_REORDERING
+  A1_M1_L4_SENTENCE_REORDERING,
+  ...LISTENING_AND_PRONUNCIATION
 ];
