@@ -1349,6 +1349,298 @@ export const A1_M1_L7_COLLOCATION_MATCHING = {
   ]
 };
 
+// LISTENING & PRONUNCIATION LESSON (EXERCISES 61-75)
+const LISTENING_AND_PRONUNCIATION: Exercise[] = [
+  // Listening Comprehension (61-68)
+  {
+    id: 'a1-u7-e61',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'My name is Lisa and I am thirty-two years old.',
+    audioUrl: 'audio/a1/unit-7/e61.mp3',
+    content: {
+      title: 'Listening: Personal Info',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q61',
+        type: 'multiple-choice',
+        question: 'How old is Lisa?',
+        options: ['22', '32', '42'],
+        correctAnswer: '32',
+        explanation: 'Lisa says: "I am thirty-two".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u7-e62',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'My husband is British. He is from London.',
+    audioUrl: 'audio/a1/unit-7/e62.mp3',
+    content: {
+      title: 'Listening: Origins',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q62',
+        type: 'multiple-choice',
+        question: 'Where is her husband from?',
+        options: ['Paris', 'London', 'New York'],
+        correctAnswer: 'London',
+        explanation: 'The speaker says: "from London".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u7-e63',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'We have one son. His name is Lucas.',
+    audioUrl: 'audio/a1/unit-7/e63.mp3',
+    content: {
+      title: 'Listening: Family',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q63',
+        type: 'multiple-choice',
+        question: 'What is her son\'s name?',
+        options: ['Alex', 'Lucas', 'Tom'],
+        correctAnswer: 'Lucas',
+        explanation: 'The speaker says: "His name is Lucas".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u7-e64',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'My sister is a doctor in New York.',
+    audioUrl: 'audio/a1/unit-7/e64.mp3',
+    content: {
+      title: 'Listening: Jobs',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q64',
+        type: 'multiple-choice',
+        question: 'What is her sister\'s job?',
+        options: ['Teacher', 'Doctor', 'Nurse'],
+        correctAnswer: 'Doctor',
+        explanation: 'The speaker says: "she is a doctor".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u7-e65',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'Are you from Australia? Yes, I am.',
+    audioUrl: 'audio/a1/unit-7/e65.mp3',
+    content: {
+      title: 'Listening: Nationalities',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q65',
+        type: 'multiple-choice',
+        question: 'Is she Australian?',
+        options: ['Yes', 'No', 'Maybe'],
+        correctAnswer: 'Yes',
+        explanation: 'She says: "I am from Australia".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u7-e66',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'My uncle is a chef at a Japanese restaurant.',
+    audioUrl: 'audio/a1/unit-7/e66.mp3',
+    content: {
+      title: 'Listening: Occupations',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q66',
+        type: 'multiple-choice',
+        question: 'What does her uncle do?',
+        options: ['He is a chef', 'He is a student', 'He is a doctor'],
+        correctAnswer: 'He is a chef',
+        explanation: 'The speaker says: "He is a chef".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u7-e67',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'I don\'t have any brothers. I am an only child.',
+    audioUrl: 'audio/a1/unit-7/e67.mp3',
+    content: {
+      title: 'Listening: Siblings',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q67',
+        type: 'multiple-choice',
+        question: 'How many brothers does Kenji have?',
+        options: ['0', '1', '2'],
+        correctAnswer: '0',
+        explanation: 'Kenji says: "I am an only child".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u7-e68',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'Is your mother a teacher? Yes, she is.',
+    audioUrl: 'audio/a1/unit-7/e68.mp3',
+    content: {
+      title: 'Listening: Jobs',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q68',
+        type: 'multiple-choice',
+        question: 'What is her mother\'s job?',
+        options: ['Doctor', 'Teacher', 'Nurse'],
+        correctAnswer: 'Teacher',
+        explanation: 'The speaker says: "she is a teacher".'
+      }]
+    }
+  },
+  // Pronunciation Practice (69-75)
+  {
+    id: 'a1-u7-e69',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'I am Chinese-American.',
+    audioUrl: 'audio/a1/unit-7/e69.mp3',
+    content: {
+      title: 'Pronunciation: Nationalities',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'I am Chinese-American.',
+      evaluationCriteria: [
+        'Sonido /tʃ/ en "Chinese"',
+        'Acento en "nese" (/tʃaɪˈniːz/)',
+        'Sonido /k/ en "American"'
+      ]
+    }
+  },
+  {
+    id: 'a1-u7-e70',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'He is British.',
+    audioUrl: 'audio/a1/unit-7/e70.mp3',
+    content: {
+      title: 'Pronunciation: Nationalities',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'He is British.',
+      evaluationCriteria: [
+        'Sonido /b/ claro',
+        'Vocal corta /ɪ/ en ambas sílabas',
+        'Sonido /ʃ/ al final'
+      ]
+    }
+  },
+  {
+    id: 'a1-u7-e71',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'We live in Singapore.',
+    audioUrl: 'audio/a1/unit-7/e71.mp3',
+    content: {
+      title: 'Pronunciation: Places',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'We live in Singapore.',
+      evaluationCriteria: [
+        'Vocal corta /ɪ/ en "live"',
+        'Acento en "pore" (/ˌsɪŋəˈpɔːr/)',
+        'Sonido /ŋ/ nasal'
+      ]
+    }
+  },
+  {
+    id: 'a1-u7-e72',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'He is a musician.',
+    audioUrl: 'audio/a1/unit-7/e72.mp3',
+    content: {
+      title: 'Pronunciation: Jobs',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'He is a musician.',
+      evaluationCriteria: [
+        'Acento en "zi" (/mjuˈzɪʃn/)',
+        'Sonido /z/ vibrante',
+        'Sonido /ʃ/ en la última sílaba'
+      ]
+    }
+  },
+  {
+    id: 'a1-u7-e73',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'Are you alone here?',
+    audioUrl: 'audio/a1/unit-7/e73.mp3',
+    content: {
+      title: 'Pronunciation: Questions',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'Are you alone here?',
+      evaluationCriteria: [
+        'Entonación ascendente',
+        'Diptongo /əʊ/ en "alone"',
+        'Vocal larga /ɪə/ en "here"'
+      ]
+    }
+  },
+  {
+    id: 'a1-u7-e74',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'My nephew is one.',
+    audioUrl: 'audio/a1/unit-7/e74.mp3',
+    content: {
+      title: 'Pronunciation: Family',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'My nephew is one.',
+      evaluationCriteria: [
+        'Acento en "neph" (/ˈnefjuː/)',
+        'Sonido /f/ claro',
+        'Sonido /w/ en "one"'
+      ]
+    }
+  },
+  {
+    id: 'a1-u7-e75',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'Nice to meet you!',
+    audioUrl: 'audio/a1/unit-7/e75.mp3',
+    content: {
+      title: 'Pronunciation: Greetings',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'Nice to meet you!',
+      evaluationCriteria: [
+        'Diptongo /aɪ/ en "Nice"',
+        'Vocal larga /iː/ en "meet"',
+        'Entonación amable y descendente'
+      ]
+    }
+  }
+];
+
 export const A1_M1_L7_ALL_EXERCISES = [
   A1_M1_L7_GRAMMAR_1,
   A1_M1_L7_GRAMMAR_2,
@@ -1362,5 +1654,6 @@ export const A1_M1_L7_ALL_EXERCISES = [
   A1_M1_L7_SENTENCE_COMPLETION,
   A1_M1_L7_ERROR_IDENTIFICATION,
   A1_M1_L7_GAP_FILL,
-  A1_M1_L7_COLLOCATION_MATCHING
+  A1_M1_L7_COLLOCATION_MATCHING,
+  ...LISTENING_AND_PRONUNCIATION
 ];
