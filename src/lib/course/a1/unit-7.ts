@@ -19,6 +19,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 1,
       "explanation": "[[The clear sky is blue|El despejado cielo es azul]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -36,6 +37,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 0,
       "explanation": "[[Grass is typically green|Hierba es típicamente verde]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -53,6 +55,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 1,
       "explanation": "[[Ripe bananas are yellow|Maduro plátanos son amarillos]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -70,6 +73,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 1,
       "explanation": "[[Strawberries are red|Fresas son rojas]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -87,6 +91,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 0,
       "explanation": "[[Milk is white|Leche es blanca]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -104,6 +109,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 1,
       "explanation": "[[Black is the color of the dark night|Negro es el color de la oscura noche]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -121,6 +127,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 2,
       "explanation": "[[Carrots are orange|Zanahorias son naranjas]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -138,6 +145,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 0,
       "explanation": "[[Flamingos are pink|Flamencos son rosas]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -155,6 +163,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 0,
       "explanation": "[[Pure coffee is dark brown|Puro café es oscuro marrón]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   // ==========================================
@@ -175,6 +184,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 2,
       "explanation": "85 [[years is considered old|años es considerado viejo]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -192,6 +202,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 0,
       "explanation": "[[A baby is very young|Un bebé es muy joven]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -209,6 +220,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 1,
       "explanation": "2.10m [[is very tall|es muy alto]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -226,6 +238,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 1,
       "explanation": "[[Short means not tall|Bajo significa no alto]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -243,6 +256,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 1,
       "explanation": "[[Lifting weights makes you strong|Levantar pesas hace te fuerte]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -260,6 +274,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 1,
       "explanation": "[[Weak is the opposite of strong|Débil es el opuesto de fuerte]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -277,6 +292,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 2,
       "explanation": "[[Beautiful is attractive|Hermoso/a es atractivo/a]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -294,6 +310,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 1,
       "explanation": "[[Ugly is the opposite of beautiful|Feo es el opuesto de hermoso]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -311,6 +328,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 0,
       "explanation": "[[Thin means having little fat|Delgado/a significa teniendo poca grasa]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   // ==========================================
@@ -331,6 +349,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 1,
       "explanation": "[[If it, it reaches the waist is long|Si él llega la cintura, él es largo]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -348,6 +367,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 2,
       "explanation": "[[Bald means no hair|Calvo significa sin pelo]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -365,6 +385,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 1,
       "explanation": "[[The ocean is blue|El océano es azul]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -382,6 +403,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 2,
       "explanation": "[[Redhead has reddish hair|Pelirroja tiene rojizo pelo]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -399,6 +421,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 1,
       "explanation": "[[Straight means no curls|Liso significa sin rizos]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -416,6 +439,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 1,
       "explanation": "[[Little hair is usually short|Poco pelo es normalmente corto]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -433,6 +457,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 2,
       "explanation": "[[Chocolate is brown|Chocolate es marrón]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -450,6 +475,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 2,
       "explanation": "[[Blonde is yellow hair|Rubia es amarillo pelo]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -467,6 +493,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 1,
       "explanation": "[[Curly means having curls|Rizado significa teniendo rizos]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   // ==========================================
@@ -654,6 +681,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 0,
       "explanation": "[[Autumn leaves turn brown|Otoño hojas se vuelven marrones]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -670,6 +698,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "answers": ["yellow"],
       "explanation": "[[Yellow is the standard color|Amarillo es el estándar color]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -686,6 +715,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "answers": ["old"],
       "explanation": "[[Old is for advanced age|Viejo es para avanzada edad]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -702,6 +732,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "answers": ["blonde"],
       "explanation": "[[Blonde|Rubia]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -718,6 +749,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "answers": ["green"],
       "explanation": "[[Trees are green|Árboles son verdes]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -734,6 +766,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "answers": ["short"],
       "explanation": "[[Short|Bajo]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -750,6 +783,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "answers": ["fat"],
       "explanation": "[[Fat|Gordo]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -766,6 +800,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "answers": ["weak"],
       "explanation": "[[Weak|Débil]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -782,6 +817,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "answers": ["ugly"],
       "explanation": "[[Ugly|Feo]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -798,6 +834,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "answers": ["grey"],
       "explanation": "[[Grey|Gris]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   // ==========================================
@@ -918,6 +955,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 2,
       "explanation": "[[Blonde is light/yellow|Rubio es claro/amarillo]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -934,6 +972,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 0,
       "explanation": "[[Weak is the opposite|Débil es el opuesto]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -966,6 +1005,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 0,
       "explanation": "[[Red|Rojo]] + [[Yellow|Amarillo]] = [[Orange|Naranja]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -982,6 +1022,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 1,
       "explanation": "[[Clouds are grey|Nubes son grises]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   },
   {
@@ -1014,6 +1055,7 @@ export const UNIT_7_EXERCISES: Exercise[] = [
       "correctAnswer": 0,
       "explanation": "[[Short is the opposite of long|Corto es el opuesto de largo]]."
     },
+    "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
   }
 ];
