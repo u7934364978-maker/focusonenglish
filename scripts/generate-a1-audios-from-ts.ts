@@ -26,22 +26,35 @@ function cleanTranscript(text: string): string {
 function extractExercises(fileContent: string, unitNumber: number): any[] {
   const exercises: any[] = [];
   
-  // 1. Look for standard objects with literal strings
-  const exerciseRegex = /\{[\s\S]*?"id":\s*"([^"]+)"[\s\S]*?"transcript":\s*"([^"]+)"[\s\S]*?"audioUrl":\s*"([^"]+)"[\s\S]*?\}/g;
+  // 1. Find all potential exercise objects by looking for objects that have an "id" starting with "a1-uX-e"
+  const objectRegex = /\{[\s\S]*?"id":\s*["'](a1-u\d+-e\d+)["'][\s\S]*?\}/g;
   let match;
-  while ((match = exerciseRegex.exec(fileContent)) !== null) {
-    exercises.push({
-      id: match[1],
-      transcript: match[2],
-      audioUrl: match[3]
-    });
+  
+  while ((match = objectRegex.exec(fileContent)) !== null) {
+    const block = match[0];
+    const id = match[1];
+    
+    // Skip if it doesn't belong to current unit (optional but safer)
+    if (!id.startsWith(`a1-u${unitNumber}-e`)) continue;
+
+    // Extract transcript - look for "transcript" or "question" (for grammar)
+    const transcriptMatch = /"(?:transcript|question)":\s*"([^"]+)"/.exec(block) || /'(?:transcript|question)':\s*'([^']+)'/.exec(block);
+    
+    if (transcriptMatch) {
+      // Extract audioUrl if exists
+      const audioMatch = /"audioUrl":\s*"([^"]+)"/.exec(block) || /'audioUrl':\s*'([^']+)'/.exec(block);
+      
+      exercises.push({
+        id: id,
+        transcript: transcriptMatch[1],
+        audioUrl: audioMatch ? audioMatch[1] : `audio/a1/unit-${unitNumber}/${id.split('-').pop()}.mp3`
+      });
+    }
   }
 
-  // 2. Look for GRAMMAR_QUESTIONS that use the createExercise helper
-  // Pattern: { id: 'q1', type: 'multiple-choice', question: '...' }
+  // 2. Look for GRAMMAR_QUESTIONS that use q1, q2... format if they didn't match above
   const grammarRegex = /\{[\s\S]*?id:\s*'([^']+)'[\s\S]*?question:\s*'([^']+)'[\s\S]*?\}/g;
   while ((match = grammarRegex.exec(fileContent)) !== null) {
-    // Only add if not already added by standard regex
     const id = match[1];
     if (!exercises.find(ex => ex.id === id)) {
       exercises.push({
