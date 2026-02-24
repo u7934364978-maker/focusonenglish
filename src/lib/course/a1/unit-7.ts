@@ -1057,5 +1057,299 @@ export const UNIT_7_EXERCISES: Exercise[] = [
     },
     "audioUrl": `audio/a1/unit-7/e${id.split('-').pop()}.mp3`,
     "topicName": "Vocabulary"
+  },
+
+  // ==========================================
+  // LESSON 5: LISTENING & PRONUNCIATION
+  // ==========================================
+  
+  // Listening Comprehension (61-68)
+  {
+    "id": "a1-u7-e61",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "My favorite color is blue, like the ocean.",
+    "audioUrl": "audio/a1/unit-7/e61.mp3",
+    "content": {
+      "title": "Listening: Colors",
+      "instructions": "Escucha y selecciona el color favorito.",
+      "questions": [{
+        "id": "q61",
+        "type": "multiple-choice",
+        "question": "¿Cuál es el color favorito?",
+        "options": ["Rojo", "Azul", "Verde"],
+        "correctAnswer": "Azul",
+        "explanation": "El hablante dice 'my favorite color is blue'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u7-e62",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "The apple is red and sweet.",
+    "audioUrl": "audio/a1/unit-7/e62.mp3",
+    "content": {
+      "title": "Listening: Colors",
+      "instructions": "Escucha y selecciona el color de la manzana.",
+      "questions": [{
+        "id": "q62",
+        "type": "multiple-choice",
+        "question": "¿De qué color es la manzana?",
+        "options": ["Roja", "Amarilla", "Gris"],
+        "correctAnswer": "Roja",
+        "explanation": "El hablante dice 'the apple is red'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u7-e63",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "I have a green umbrella for the rain.",
+    "audioUrl": "audio/a1/unit-7/e63.mp3",
+    "content": {
+      "title": "Listening: Colors",
+      "instructions": "Escucha y selecciona el color del paraguas.",
+      "questions": [{
+        "id": "q63",
+        "type": "multiple-choice",
+        "question": "¿De qué color es el paraguas?",
+        "options": ["Azul", "Rosa", "Verde"],
+        "correctAnswer": "Verde",
+        "explanation": "El hablante dice 'a green umbrella'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u7-e64",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "Her hair is yellow and long.",
+    "audioUrl": "audio/a1/unit-7/e64.mp3",
+    "content": {
+      "title": "Listening: Descriptions",
+      "instructions": "Escucha y selecciona el color del pelo.",
+      "questions": [{
+        "id": "q64",
+        "type": "multiple-choice",
+        "question": "¿De qué color es el pelo?",
+        "options": ["Negro", "Marrón", "Amarillo"],
+        "correctAnswer": "Amarillo",
+        "explanation": "El hablante dice 'her hair is yellow'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u7-e65",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "My father is a very tall man.",
+    "audioUrl": "audio/a1/unit-7/e65.mp3",
+    "content": {
+      "title": "Listening: Descriptions",
+      "instructions": "Escucha y selecciona la descripción del padre.",
+      "questions": [{
+        "id": "q65",
+        "type": "multiple-choice",
+        "question": "¿Cómo es el padre?",
+        "options": ["Bajo", "Alto", "Delgado"],
+        "correctAnswer": "Alto",
+        "explanation": "El hablante dice 'a very tall man'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u7-e66",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "This is a big house with many rooms.",
+    "audioUrl": "audio/a1/unit-7/e66.mp3",
+    "content": {
+      "title": "Listening: Size",
+      "instructions": "Escucha y selecciona el tamaño de la casa.",
+      "questions": [{
+        "id": "q66",
+        "type": "multiple-choice",
+        "question": "¿Cómo es la casa?",
+        "options": ["Pequeña", "Grande", "Nueva"],
+        "correctAnswer": "Grande",
+        "explanation": "El hablante dice 'a big house'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u7-e67",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "The cat is small and black.",
+    "audioUrl": "audio/a1/unit-7/e67.mp3",
+    "content": {
+      "title": "Listening: Size and Color",
+      "instructions": "Escucha y selecciona la descripción del gato.",
+      "questions": [{
+        "id": "q67",
+        "type": "multiple-choice",
+        "question": "¿Cómo es el gato?",
+        "options": ["Grande y blanco", "Pequeño y negro", "Pequeño y gris"],
+        "correctAnswer": "Pequeño y negro",
+        "explanation": "El hablante dice 'small and black'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u7-e68",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "Is your car new? No, it is old.",
+    "audioUrl": "audio/a1/unit-7/e68.mp3",
+    "content": {
+      "title": "Listening: Descriptions",
+      "instructions": "Escucha y responde si el coche es nuevo.",
+      "questions": [{
+        "id": "q68",
+        "type": "multiple-choice",
+        "question": "¿Es nuevo el coche?",
+        "options": ["Sí", "No", "Es mediano"],
+        "correctAnswer": "No",
+        "explanation": "El hablante dice 'No, it is old' (No, es viejo)."
+      }]
+    }
+  },
+
+  // Pronunciation Practice (69-75)
+  {
+    "id": "a1-u7-e69",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "The sky is blue.",
+    "audioUrl": "audio/a1/unit-7/e69.mp3",
+    "content": {
+      "title": "Pronunciation: Colors",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "The sky is blue.",
+      "evaluationCriteria": [
+        "Sonido /ð/ en 'The'",
+        "Diptongo /aɪ/ en 'sky'",
+        "Vocal larga /uː/ en 'blue'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u7-e70",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "The sun is yellow.",
+    "audioUrl": "audio/a1/unit-7/e70.mp3",
+    "content": {
+      "title": "Pronunciation: Colors",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "The sun is yellow.",
+      "evaluationCriteria": [
+        "Vocal corta /ʌ/ en 'sun'",
+        "Acento en la primera sílaba de 'yellow' (/ˈjeləʊ/)",
+        "Diptongo final /əʊ/"
+      ]
+    }
+  },
+  {
+    "id": "a1-u7-e71",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "It is a green apple.",
+    "audioUrl": "audio/a1/unit-7/e71.mp3",
+    "content": {
+      "title": "Pronunciation: Description",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "It is a green apple.",
+      "evaluationCriteria": [
+        "Unión entre 'It' e 'is'",
+        "Vocal larga /iː/ en 'green'",
+        "Vocal corta /æ/ en 'apple'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u7-e72",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "He is very tall.",
+    "audioUrl": "audio/a1/unit-7/e72.mp3",
+    "content": {
+      "title": "Pronunciation: Height",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "He is very tall.",
+      "evaluationCriteria": [
+        "Sonido /h/ aspirado en 'He'",
+        "Sonido /v/ en 'very'",
+        "Vocal larga /ɔː/ en 'tall'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u7-e73",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "She is short.",
+    "audioUrl": "audio/a1/unit-7/e73.mp3",
+    "content": {
+      "title": "Pronunciation: Height",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "She is short.",
+      "evaluationCriteria": [
+        "Sonido /ʃ/ en 'She'",
+        "Vocal larga /ɔː/ en 'short'",
+        "Sonido /t/ final claro"
+      ]
+    }
+  },
+  {
+    "id": "a1-u7-e74",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "My car is big.",
+    "audioUrl": "audio/a1/unit-7/e74.mp3",
+    "content": {
+      "title": "Pronunciation: Size",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "My car is big.",
+      "evaluationCriteria": [
+        "Diptongo /aɪ/ en 'My'",
+        "Vocal larga /ɑː/ en 'car'",
+        "Vocal corta /ɪ/ en 'big'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u7-e75",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "Your bag is small.",
+    "audioUrl": "audio/a1/unit-7/e75.mp3",
+    "content": {
+      "title": "Pronunciation: Size",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "Your bag is small.",
+      "evaluationCriteria": [
+        "Sonido /j/ inicial en 'Your'",
+        "Vocal corta /æ/ en 'bag'",
+        "Vocal larga /ɔː/ en 'small'"
+      ]
+    }
   }
 ];

@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { CheckCircle, XCircle, ArrowRight, Zap } from 'lucide-react';
 import type { Exercise } from '@/lib/exercise-generator';
 import SpeakingExercise from './SpeakingExercise';
+import EnhancedSpeakingExercise from './EnhancedSpeakingExercise';
 import WordSearchExercise from './exercises/WordSearchExercise';
 import CrosswordExercise from './exercises/CrosswordExercise';
 import FlashcardExercise from './exercises/FlashcardExercise';
@@ -379,7 +380,49 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           }}
         />
         {showFinishButton && (
-          <button onClick={() => onComplete({ success: finishScore >= 70, score: finishScore })} className="...">Siguiente</button>
+          <div className="flex justify-center mt-8">
+            <button 
+              onClick={() => onComplete({ success: finishScore >= 70, score: finishScore })} 
+              className="bg-green-600 text-white px-12 py-5 rounded-2xl font-black text-xl hover:bg-green-700 transition-all shadow-xl flex items-center gap-3 transform hover:scale-[1.02]"
+            >
+              <TranslatedText text="[[Continue|Continuar]]" />
+              <ArrowRight className="w-6 h-6" />
+            </button>
+          </div>
+        )}
+      </div>
+    );
+  }
+
+  if (exercise.type === 'pronunciation') {
+    const pronunciationQuestion = {
+      id: exercise.id,
+      prompt: exerciseContent.instructions || "Repite la frase:",
+      expectedResponse: exerciseContent.expectedResponse || exercise.transcript,
+      modelAudioUrl: exercise.audioUrl,
+      hints: exerciseContent.evaluationCriteria || []
+    };
+
+    return (
+      <div className="space-y-6">
+        <EnhancedSpeakingExercise
+          question={pronunciationQuestion}
+          level={exercise.level}
+          onComplete={(evalResult) => {
+            setShowFinishButton(true);
+            setFinishScore(evalResult.overallScore || 100);
+          }}
+        />
+        {showFinishButton && (
+          <div className="flex justify-center mt-8">
+            <button 
+              onClick={() => onComplete({ success: finishScore >= 70, score: finishScore })} 
+              className="bg-green-600 text-white px-12 py-5 rounded-2xl font-black text-xl hover:bg-green-700 transition-all shadow-xl flex items-center gap-3 transform hover:scale-[1.02]"
+            >
+              <TranslatedText text="[[Continue|Continuar]]" />
+              <ArrowRight className="w-6 h-6" />
+            </button>
+          </div>
         )}
       </div>
     );

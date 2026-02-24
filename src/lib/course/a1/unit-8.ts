@@ -1038,5 +1038,299 @@ export const UNIT_8_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-8/e60.mp3",
     "topicName": "Reading"
+  },
+
+  // ==========================================
+  // LESSON 5: LISTENING & PRONUNCIATION
+  // ==========================================
+  
+  // Listening Comprehension (61-68)
+  {
+    "id": "a1-u8-e61",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "There are twenty-five students in the room.",
+    "audioUrl": "audio/a1/unit-8/e61.mp3",
+    "content": {
+      "title": "Listening: Numbers",
+      "instructions": "Escucha y selecciona cuántos estudiantes hay.",
+      "questions": [{
+        "id": "q61",
+        "type": "multiple-choice",
+        "question": "¿Cuántos estudiantes hay?",
+        "options": ["20", "25", "52"],
+        "correctAnswer": "25",
+        "explanation": "El hablante dice 'twenty-five' (25)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u8-e62",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "My father is forty-two years old.",
+    "audioUrl": "audio/a1/unit-8/e62.mp3",
+    "content": {
+      "title": "Listening: Age",
+      "instructions": "Escucha y selecciona la edad del padre.",
+      "questions": [{
+        "id": "q62",
+        "type": "multiple-choice",
+        "question": "¿Qué edad tiene el padre?",
+        "options": ["42", "24", "14"],
+        "correctAnswer": "42",
+        "explanation": "El hablante dice 'forty-two' (42)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u8-e63",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "The party has sixty guests tonight.",
+    "audioUrl": "audio/a1/unit-8/e63.mp3",
+    "content": {
+      "title": "Listening: Numbers",
+      "instructions": "Escucha y selecciona cuántos invitados hay.",
+      "questions": [{
+        "id": "q63",
+        "type": "multiple-choice",
+        "question": "¿Cuántos invitados hay?",
+        "options": ["6", "16", "60"],
+        "correctAnswer": "60",
+        "explanation": "El hablante dice 'sixty' (60)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u8-e64",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "My grandmother is eighty-five today.",
+    "audioUrl": "audio/a1/unit-8/e64.mp3",
+    "content": {
+      "title": "Listening: Age",
+      "instructions": "Escucha y selecciona la edad de la abuela.",
+      "questions": [{
+        "id": "q64",
+        "type": "multiple-choice",
+        "question": "¿Qué edad tiene la abuela?",
+        "options": ["75", "85", "95"],
+        "correctAnswer": "85",
+        "explanation": "El hablante dice 'eighty-five' (85)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u8-e65",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "The house number is ninety-seven.",
+    "audioUrl": "audio/a1/unit-8/e65.mp3",
+    "content": {
+      "title": "Listening: Numbers",
+      "instructions": "Escucha y selecciona el número de la casa.",
+      "questions": [{
+        "id": "q65",
+        "type": "multiple-choice",
+        "question": "¿Cuál es el número de la casa?",
+        "options": ["19", "97", "79"],
+        "correctAnswer": "97",
+        "explanation": "El hablante dice 'ninety-seven' (97)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u8-e66",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "The book costs thirty-three dollars.",
+    "audioUrl": "audio/a1/unit-8/e66.mp3",
+    "content": {
+      "title": "Listening: Prices",
+      "instructions": "Escucha y selecciona el precio.",
+      "questions": [{
+        "id": "q66",
+        "type": "multiple-choice",
+        "question": "¿Cuánto cuesta el libro?",
+        "options": ["$13", "$30", "$33"],
+        "correctAnswer": "$33",
+        "explanation": "El hablante dice 'thirty-three' (33)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u8-e67",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "There are seventy-two people at the wedding.",
+    "audioUrl": "audio/a1/unit-8/e67.mp3",
+    "content": {
+      "title": "Listening: Numbers",
+      "instructions": "Escucha y selecciona cuántas personas hay.",
+      "questions": [{
+        "id": "q67",
+        "type": "multiple-choice",
+        "question": "¿Cuántas personas hay?",
+        "options": ["72", "27", "17"],
+        "correctAnswer": "72",
+        "explanation": "El hablante dice 'seventy-two' (72)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u8-e68",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "My uncle is fifty years old.",
+    "audioUrl": "audio/a1/unit-8/e68.mp3",
+    "content": {
+      "title": "Listening: Age",
+      "instructions": "Escucha y selecciona la edad del tío.",
+      "questions": [{
+        "id": "q68",
+        "type": "multiple-choice",
+        "question": "¿Qué edad tiene el tío?",
+        "options": ["15", "50", "55"],
+        "correctAnswer": "50",
+        "explanation": "El hablante dice 'fifty' (50)."
+      }]
+    }
+  },
+
+  // Pronunciation Practice (69-75)
+  {
+    "id": "a1-u8-e69",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "I am twenty-five.",
+    "audioUrl": "audio/a1/unit-8/e69.mp3",
+    "content": {
+      "title": "Pronunciation: Age",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "I am twenty-five.",
+      "evaluationCriteria": [
+        "Diptongo /aɪ/ en 'I'",
+        "Acento en la primera sílaba de 'twenty' (/ˈtwenti/)",
+        "Sonido /v/ claro en 'five'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u8-e70",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "He is forty-two.",
+    "audioUrl": "audio/a1/unit-8/e70.mp3",
+    "content": {
+      "title": "Pronunciation: Age",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "He is forty-two.",
+      "evaluationCriteria": [
+        "Sonido /h/ aspirado en 'He'",
+        "Vocal larga /ɔː/ en 'forty' (/ˈfɔːrti/)",
+        "Vocal larga /uː/ en 'two'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u8-e71",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "She is eighty-five.",
+    "audioUrl": "audio/a1/unit-8/e71.mp3",
+    "content": {
+      "title": "Pronunciation: Age",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "She is eighty-five.",
+      "evaluationCriteria": [
+        "Sonido /ʃ/ largo en 'She'",
+        "Diptongo /eɪ/ en 'eighty' (/ˈeɪti/)",
+        "Sonido /v/ en 'five'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u8-e72",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "There are fifty people.",
+    "audioUrl": "audio/a1/unit-8/e72.mp3",
+    "content": {
+      "title": "Pronunciation: Numbers",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "There are fifty people.",
+      "evaluationCriteria": [
+        "Sonido /ð/ en 'There'",
+        "Acento en 'fif' (/ˈfɪfti/)",
+        "Acento en 'peo' (/ˈpiːpl/)"
+      ]
+    }
+  },
+  {
+    "id": "a1-u8-e73",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "The number is ninety.",
+    "audioUrl": "audio/a1/unit-8/e73.mp3",
+    "content": {
+      "title": "Pronunciation: Numbers",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "The number is ninety.",
+      "evaluationCriteria": [
+        "Sonido /ð/ en 'The'",
+        "Vocal /ʌ/ en 'number' (/ˈnʌmbər/)",
+        "Diptongo /aɪ/ en 'ninety' (/ˈnaɪnti/)"
+      ]
+    }
+  },
+  {
+    "id": "a1-u8-e74",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "Happy birthday!",
+    "audioUrl": "audio/a1/unit-8/e74.mp3",
+    "content": {
+      "title": "Pronunciation: Greeting",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "Happy birthday!",
+      "evaluationCriteria": [
+        "Sonido /h/ aspirado en 'Happy'",
+        "Sonido /θ/ (th) sin voz en 'birthday' (/ˈbɜːrθdeɪ/)",
+        "Entonación exclamativa"
+      ]
+    }
+  },
+  {
+    "id": "a1-u8-e75",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "How old are they?",
+    "audioUrl": "audio/a1/unit-8/e75.mp3",
+    "content": {
+      "title": "Pronunciation: Question",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "How old are they?",
+      "evaluationCriteria": [
+        "Sonido /h/ aspirado en 'How'",
+        "Sonido /ð/ en 'they'",
+        "Entonación ascendente de pregunta"
+      ]
+    }
   }
 ];

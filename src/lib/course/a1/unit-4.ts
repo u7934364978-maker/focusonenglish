@@ -1184,5 +1184,299 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       ]
     },
     "topicName": "Reading"
+  },
+  
+  // ==========================================
+  // LESSON 5: LISTENING & PRONUNCIATION
+  // ==========================================
+  
+  // Listening Comprehension (61-68)
+  {
+    "id": "a1-u4-e61",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "I am fifteen years old.",
+    "audioUrl": "audio/a1/unit-4/e61.mp3",
+    "content": {
+      "title": "Listening: Numbers (Teens)",
+      "instructions": "Escucha y selecciona el número correcto.",
+      "questions": [{
+        "id": "q61",
+        "type": "multiple-choice",
+        "question": "¿Qué edad tiene el hablante?",
+        "options": ["5", "15", "50"],
+        "correctAnswer": "15",
+        "explanation": "El hablante dice 'fifteen' (15)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u4-e62",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "The price is thirty dollars.",
+    "audioUrl": "audio/a1/unit-4/e62.mp3",
+    "content": {
+      "title": "Listening: Numbers (Tens)",
+      "instructions": "Escucha y selecciona el precio correcto.",
+      "questions": [{
+        "id": "q62",
+        "type": "multiple-choice",
+        "question": "¿Cuál es el precio?",
+        "options": ["13", "3", "30"],
+        "correctAnswer": "30",
+        "explanation": "El hablante dice 'thirty' (30)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u4-e63",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "There are fourteen students in the class.",
+    "audioUrl": "audio/a1/unit-4/e63.mp3",
+    "content": {
+      "title": "Listening: Classroom Count",
+      "instructions": "Escucha y selecciona la respuesta correcta.",
+      "questions": [{
+        "id": "q63",
+        "type": "multiple-choice",
+        "question": "¿Cuántos estudiantes hay?",
+        "options": ["4", "14", "40"],
+        "correctAnswer": "14",
+        "explanation": "El hablante dice 'fourteen' (14)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u4-e64",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "How old is she? She is nineteen.",
+    "audioUrl": "audio/a1/unit-4/e64.mp3",
+    "content": {
+      "title": "Listening: Age",
+      "instructions": "Escucha y selecciona la respuesta correcta.",
+      "questions": [{
+        "id": "q64",
+        "type": "multiple-choice",
+        "question": "¿Qué edad tiene ella?",
+        "options": ["9", "19", "90"],
+        "correctAnswer": "19",
+        "explanation": "El hablante dice 'nineteen' (19)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u4-e65",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "The bus number is seventy-two.",
+    "audioUrl": "audio/a1/unit-4/e65.mp3",
+    "content": {
+      "title": "Listening: Bus Number",
+      "instructions": "Escucha y selecciona la respuesta correcta.",
+      "questions": [{
+        "id": "q65",
+        "type": "multiple-choice",
+        "question": "¿Cuál es el número del autobús?",
+        "options": ["27", "72", "17"],
+        "correctAnswer": "72",
+        "explanation": "El hablante dice 'seventy-two' (72)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u4-e66",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "I have three brothers and two sisters.",
+    "audioUrl": "audio/a1/unit-4/e66.mp3",
+    "content": {
+      "title": "Listening: Family Count",
+      "instructions": "Escucha y selecciona la respuesta correcta.",
+      "questions": [{
+        "id": "q66",
+        "type": "multiple-choice",
+        "question": "¿Cuántas hermanas tiene el hablante?",
+        "options": ["2", "3", "5"],
+        "correctAnswer": "2",
+        "explanation": "El hablante dice 'two sisters' (dos hermanas)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u4-e67",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "He is forty-three years old.",
+    "audioUrl": "audio/a1/unit-4/e67.mp3",
+    "content": {
+      "title": "Listening: Age",
+      "instructions": "Escucha y selecciona la respuesta correcta.",
+      "questions": [{
+        "id": "q67",
+        "type": "multiple-choice",
+        "question": "¿Qué edad tiene él?",
+        "options": ["34", "43", "13"],
+        "correctAnswer": "43",
+        "explanation": "El hablante dice 'forty-three' (43)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u4-e68",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "My house number is eighty-six.",
+    "audioUrl": "audio/a1/unit-4/e68.mp3",
+    "content": {
+      "title": "Listening: House Number",
+      "instructions": "Escucha y selecciona la respuesta correcta.",
+      "questions": [{
+        "id": "q68",
+        "type": "multiple-choice",
+        "question": "¿Cuál es el número de la casa?",
+        "options": ["68", "86", "16"],
+        "correctAnswer": "86",
+        "explanation": "El hablante dice 'eighty-six' (86)."
+      }]
+    }
+  },
+  
+  // Pronunciation Practice (69-75)
+  {
+    "id": "a1-u4-e69",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "I am fifteen.",
+    "audioUrl": "audio/a1/unit-4/e69.mp3",
+    "content": {
+      "title": "Pronunciation: Teens",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "I am fifteen.",
+      "evaluationCriteria": [
+        "Acento en la segunda sílaba 'teen' (/fɪfˈtiːn/)",
+        "Sonido /f/ claro",
+        "Vocal larga /iː/ al final"
+      ]
+    }
+  },
+  {
+    "id": "a1-u4-e70",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "I am fifty.",
+    "audioUrl": "audio/a1/unit-4/e70.mp3",
+    "content": {
+      "title": "Pronunciation: Tens",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "I am fifty.",
+      "evaluationCriteria": [
+        "Acento en la primera sílaba 'fif' (/ˈfɪfti/)",
+        "Vocal final /i/ corta",
+        "Contraste claro con 'fifteen'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u4-e71",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "How old are you?",
+    "audioUrl": "audio/a1/unit-4/e71.mp3",
+    "content": {
+      "title": "Pronunciation: Questions",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "How old are you?",
+      "evaluationCriteria": [
+        "Entonación descendente al final",
+        "Liaison entre 'old' y 'are'",
+        "Sonido /h/ aspirado"
+      ]
+    }
+  },
+  {
+    "id": "a1-u4-e72",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "She is thirty-three.",
+    "audioUrl": "audio/a1/unit-4/e72.mp3",
+    "content": {
+      "title": "Pronunciation: Numbers",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "She is thirty-three.",
+      "evaluationCriteria": [
+        "Sonido /θ/ (th) sin voz en 'thirty' y 'three'",
+        "Vocal /ɜː/ en 'thirty'",
+        "Vocal larga /iː/ en 'three'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u4-e73",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "He is eighty.",
+    "audioUrl": "audio/a1/unit-4/e73.mp3",
+    "content": {
+      "title": "Pronunciation: Tens",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "He is eighty.",
+      "evaluationCriteria": [
+        "Diptongo /eɪ/ en 'eighty'",
+        "Sonido /t/ o /d/ suave (flap t)",
+        "Vocal final /i/ corta"
+      ]
+    }
+  },
+  {
+    "id": "a1-u4-e74",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "They are twelve.",
+    "audioUrl": "audio/a1/unit-4/e74.mp3",
+    "content": {
+      "title": "Pronunciation: Numbers",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "They are twelve.",
+      "evaluationCriteria": [
+        "Sonido /ð/ vibrante en 'They'",
+        "Vocal corta /e/ en 'twelve'",
+        "Sonido /v/ final claro"
+      ]
+    }
+  },
+  {
+    "id": "a1-u4-e75",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "I have one brother.",
+    "audioUrl": "audio/a1/unit-4/e75.mp3",
+    "content": {
+      "title": "Pronunciation: Family",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "I have one brother.",
+      "evaluationCriteria": [
+        "Sonido /v/ en 'have'",
+        "Sonido /w/ en 'one'",
+        "Sonido /ð/ en 'brother' (/ˈbrʌðər/)"
+      ]
+    }
   }
 ];

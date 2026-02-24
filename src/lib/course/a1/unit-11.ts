@@ -1181,5 +1181,299 @@ export const UNIT_11_EXERCISES: Exercise[] = [
       "explanation": "[[Second is the smallest unit of time here|Segundo es la más pequeña unidad de tiempo aquí]]."
     },
     "topicName": "Vocabulary"
+  },
+
+  // ==========================================
+  // LESSON 5: LISTENING & PRONUNCIATION
+  // ==========================================
+  
+  // Listening Comprehension (61-68)
+  {
+    "id": "a1-u11-e61",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "It is exactly nine o'clock in the morning.",
+    "audioUrl": "audio/a1/unit-11/e61.mp3",
+    "content": {
+      "title": "Listening: Telling Time",
+      "instructions": "Escucha y selecciona la hora mencionada.",
+      "questions": [{
+        "id": "q61",
+        "type": "multiple-choice",
+        "question": "¿Qué hora es?",
+        "options": ["9:00 AM", "9:30 AM", "8:00 AM"],
+        "correctAnswer": "9:00 AM",
+        "explanation": "El hablante dice 'nine o'clock' (9 en punto)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u11-e62",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "The meeting starts at half past two.",
+    "audioUrl": "audio/a1/unit-11/e62.mp3",
+    "content": {
+      "title": "Listening: Telling Time",
+      "instructions": "Escucha y selecciona la hora de la reunión.",
+      "questions": [{
+        "id": "q62",
+        "type": "multiple-choice",
+        "question": "¿A qué hora empieza la reunión?",
+        "options": ["2:15", "2:30", "3:30"],
+        "correctAnswer": "2:30",
+        "explanation": "El hablante dice 'half past two' (las dos y media)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u11-e63",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "It is a quarter to eleven now.",
+    "audioUrl": "audio/a1/unit-11/e63.mp3",
+    "content": {
+      "title": "Listening: Telling Time",
+      "instructions": "Escucha y selecciona la hora.",
+      "questions": [{
+        "id": "q63",
+        "type": "multiple-choice",
+        "question": "¿Qué hora es?",
+        "options": ["10:45", "11:15", "11:45"],
+        "correctAnswer": "10:45",
+        "explanation": "El hablante dice 'a quarter to eleven' (un cuarto para las once)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u11-e64",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "I wake up at six-thirty every day.",
+    "audioUrl": "audio/a1/unit-11/e64.mp3",
+    "content": {
+      "title": "Listening: Daily Routine",
+      "instructions": "Escucha y selecciona la hora a la que se despierta.",
+      "questions": [{
+        "id": "q64",
+        "type": "multiple-choice",
+        "question": "¿A qué hora se despierta el hablante?",
+        "options": ["6:00", "6:30", "7:30"],
+        "correctAnswer": "6:30",
+        "explanation": "El hablante dice 'six-thirty' (6:30)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u11-e65",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "We have breakfast at a quarter past eight.",
+    "audioUrl": "audio/a1/unit-11/e65.mp3",
+    "content": {
+      "title": "Listening: Daily Routine",
+      "instructions": "Escucha y selecciona la hora del desayuno.",
+      "questions": [{
+        "id": "q65",
+        "type": "multiple-choice",
+        "question": "¿A qué hora desayunan?",
+        "options": ["8:15", "8:45", "9:15"],
+        "correctAnswer": "8:15",
+        "explanation": "El hablante dice 'a quarter past eight' (las ocho y cuarto)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u11-e66",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "I go to bed at ten o'clock at night.",
+    "audioUrl": "audio/a1/unit-11/e66.mp3",
+    "content": {
+      "title": "Listening: Daily Routine",
+      "instructions": "Escucha y selecciona la hora de dormir.",
+      "questions": [{
+        "id": "q66",
+        "type": "multiple-choice",
+        "question": "¿A qué hora se va a la cama?",
+        "options": ["10:00 PM", "11:00 PM", "9:00 PM"],
+        "correctAnswer": "10:00 PM",
+        "explanation": "El hablante dice 'ten o'clock at night' (10 de la noche)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u11-e67",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "What time do you finish work?",
+    "audioUrl": "audio/a1/unit-11/e67.mp3",
+    "content": {
+      "title": "Listening: Daily Routine",
+      "instructions": "Escucha la pregunta y selecciona la opción correcta.",
+      "questions": [{
+        "id": "q67",
+        "type": "multiple-choice",
+        "question": "¿Qué pregunta el hablante?",
+        "options": ["¿A qué hora empiezas?", "¿A qué hora terminas de trabajar?", "¿Dónde trabajas?"],
+        "correctAnswer": "¿A qué hora terminas de trabajar?",
+        "explanation": "La pregunta es 'What time do you finish work?'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u11-e68",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "My lunch break is from one to two.",
+    "audioUrl": "audio/a1/unit-11/e68.mp3",
+    "content": {
+      "title": "Listening: Daily Routine",
+      "instructions": "Escucha y selecciona el horario de almuerzo.",
+      "questions": [{
+        "id": "q68",
+        "type": "multiple-choice",
+        "question": "¿A qué hora es el almuerzo?",
+        "options": ["12:00 - 1:00", "1:00 - 2:00", "2:00 - 3:00"],
+        "correctAnswer": "1:00 - 2:00",
+        "explanation": "El hablante dice 'from one to two' (de una a dos)."
+      }]
+    }
+  },
+
+  // Pronunciation Practice (69-75)
+  {
+    "id": "a1-u11-e69",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "It is three o'clock.",
+    "audioUrl": "audio/a1/unit-11/e69.mp3",
+    "content": {
+      "title": "Pronunciation: Time",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "It is three o'clock.",
+      "evaluationCriteria": [
+        "Sonido /θ/ (th) en 'three'",
+        "Vocal larga /iː/ en 'three'",
+        "Acento en 'o'clock' (/əˈklɒk/)"
+      ]
+    }
+  },
+  {
+    "id": "a1-u11-e70",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "It is half past ten.",
+    "audioUrl": "audio/a1/unit-11/e70.mp3",
+    "content": {
+      "title": "Pronunciation: Time",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "It is half past ten.",
+      "evaluationCriteria": [
+        "Sonido /h/ aspirado en 'half'",
+        "Vocal /ɑː/ en 'half' (la 'l' es muda)",
+        "Sonido /t/ final claro en 'past'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u11-e71",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "It is a quarter to five.",
+    "audioUrl": "audio/a1/unit-11/e71.mp3",
+    "content": {
+      "title": "Pronunciation: Time",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "It is a quarter to five.",
+      "evaluationCriteria": [
+        "Acento en 'quar' (/ˈkwɔːrtər/)",
+        "Sonido /f/ en 'five'",
+        "Sonido /v/ final en 'five'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u11-e72",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "I wake up at seven.",
+    "audioUrl": "audio/a1/unit-11/e72.mp3",
+    "content": {
+      "title": "Pronunciation: Routine",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "I wake up at seven.",
+      "evaluationCriteria": [
+        "Diptongo /aɪ/ en 'I'",
+        "Enlace (linking) 'wake-up'",
+        "Sonido /v/ en 'seven'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u11-e73",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "What time is it?",
+    "audioUrl": "audio/a1/unit-11/e73.mp3",
+    "content": {
+      "title": "Pronunciation: Question",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "What time is it?",
+      "evaluationCriteria": [
+        "Sonido /w/ en 'What'",
+        "Enlace (linking) 'is-it'",
+        "Entonación de pregunta"
+      ]
+    }
+  },
+  {
+    "id": "a1-u11-e74",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "I go to work at eight.",
+    "audioUrl": "audio/a1/unit-11/e74.mp3",
+    "content": {
+      "title": "Pronunciation: Routine",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "I go to work at eight.",
+      "evaluationCriteria": [
+        "Sonido /ɜː/ en 'work' (/wɜːrk/)",
+        "Diptongo /eɪ/ en 'eight'",
+        "Sonido /t/ final en 'eight'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u11-e75",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "He has lunch at noon.",
+    "audioUrl": "audio/a1/unit-11/e75.mp3",
+    "content": {
+      "title": "Pronunciation: Routine",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "He has lunch at noon.",
+      "evaluationCriteria": [
+        "Sonido /h/ aspirado en 'He'",
+        "Sonido /tʃ/ en 'lunch' (/lʌntʃ/)",
+        "Vocal larga /uː/ en 'noon' (/nuːn/)"
+      ]
+    }
   }
 ];

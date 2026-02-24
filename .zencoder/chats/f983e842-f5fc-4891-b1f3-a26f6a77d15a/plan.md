@@ -116,16 +116,29 @@ Multi-level student progress CRM integration completed. All components ready for
 ## SPRINT 5: A1 AUDIO GENERATION
 
 10. [ ] **A1 Audio Generation**
-    - Created `scripts/generate-a1-audios-from-ts.ts` to extract transcripts from TS modules. ✅
-    - Configure `ELEVENLABS_API_KEY` in `.env`. ✅
-    - Run batch generation for all 60 units of A1 course. [ ]
-    - Verification: Check `public/audio/a1/unit-X/` for generated `.mp3` files. [ ]
+    - [x] **Task 1: Script Refactor**
+        - Improved `scripts/generate-a1-audios-from-ts.ts` to handle different TS structures and ensure robustness. ✅
+    - [x] **Task 2: Batch Generation (Units 1-45)**
+        - Generated and uploaded audios for Units 1 to 45. ✅
+    - [ ] **Task 3: Batch Generation (Units 46-60)**
+        - Pending: ElevenLabs quota exceeded (0 credits remaining). Requires account top-up or new API key. [ ]
+    - Verification: Check `public/audio/a1/unit-X/` for generated `.mp3` files. [x]
 
-## SPRINT 3: FUTURE COURSES & CMS
+## SPRINT 6: CURRICULUM ENRICHMENT (LISTENING & PRONUNCIATION)
 
-8. [ ] **CMS Strategy Definition**
-   - Evaluate HubSpot HubDB vs Supabase for dynamic content management.
-   - Create a prototype for managing exercises without JSON files.
+11. [ ] **Massive Content Update: Lesson 5 for A1 Units**
+    - [x] **Task 1: Design Exercise Templates**
+        - Define JSON structure for 15-exercise lessons (8 Listening Comprehension + 7 Pronunciation Practice).
+        - Pronunciation exercises must include `transcript`, `expectedAnswer`, and `evaluationCriteria`.
+    - [ ] **Task 2: Content Generation (Units 1-60)**
+        - [x] Add Lesson 5 to Units 1-12 (75 exercises each).
+        - [ ] Add Lesson 5 to Units 13-30.
+        - [ ] Add Lesson 5 to Units 31-45.
+        - [ ] Add Lesson 5 to Units 46-60.
+        - Ensure all exercises have high-quality transcripts for future audio generation.
+    - [x] **Task 3: Pronunciation Feedback Logic**
+        - Ensure the UI component for `pronunciation-practice` handles feedback/evaluation as requested.
+    - Verification: Manual check of random units to ensure 75 exercises total (60 existing + 15 new).
 
 ## TEST USER CREDENTIALS
 - Email: `alumno@test.com`

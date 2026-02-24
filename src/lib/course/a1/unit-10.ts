@@ -1148,5 +1148,299 @@ export const UNIT_10_EXERCISES: Exercise[] = [
       ]
     },
     "topicName": "Reading"
+  },
+
+  // ==========================================
+  // LESSON 5: LISTENING & PRONUNCIATION
+  // ==========================================
+  
+  // Listening Comprehension (61-68)
+  {
+    "id": "a1-u10-e61",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "My name is John and I am thirty years old.",
+    "audioUrl": "audio/a1/unit-10/e61.mp3",
+    "content": {
+      "title": "Listening: Personal Info Review",
+      "instructions": "Escucha y selecciona la edad de John.",
+      "questions": [{
+        "id": "q61",
+        "type": "multiple-choice",
+        "question": "¿Qué edad tiene John?",
+        "options": ["13", "30", "33"],
+        "correctAnswer": "30",
+        "explanation": "John dice 'thirty years old' (30)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u10-e62",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "I am from Canada. I am Canadian.",
+    "audioUrl": "audio/a1/unit-10/e62.mp3",
+    "content": {
+      "title": "Listening: Nationalities Review",
+      "instructions": "Escucha y selecciona la nacionalidad.",
+      "questions": [{
+        "id": "q62",
+        "type": "multiple-choice",
+        "question": "¿De dónde es el hablante?",
+        "options": ["USA", "UK", "Canada"],
+        "correctAnswer": "Canada",
+        "explanation": "El hablante dice 'I am from Canada'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u10-e63",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "Can you spell your name? Yes, it's M-A-R-I-A.",
+    "audioUrl": "audio/a1/unit-10/e63.mp3",
+    "content": {
+      "title": "Listening: Alphabet Review",
+      "instructions": "Escucha el deletreo y selecciona el nombre.",
+      "questions": [{
+        "id": "q63",
+        "type": "multiple-choice",
+        "question": "¿Cómo se escribe el nombre?",
+        "options": ["MARIA", "MARIE", "MARIO"],
+        "correctAnswer": "MARIA",
+        "explanation": "El deletreo es M-A-R-I-A."
+      }]
+    }
+  },
+  {
+    "id": "a1-u10-e64",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "The red car is fast.",
+    "audioUrl": "audio/a1/unit-10/e64.mp3",
+    "content": {
+      "title": "Listening: Colors & Adjectives Review",
+      "instructions": "Escucha y selecciona el color del coche.",
+      "questions": [{
+        "id": "q64",
+        "type": "multiple-choice",
+        "question": "¿De qué color es el coche?",
+        "options": ["Blue", "Red", "Green"],
+        "correctAnswer": "Red",
+        "explanation": "El hablante dice 'red car'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u10-e65",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "He is a waiter. He works in a restaurant.",
+    "audioUrl": "audio/a1/unit-10/e65.mp3",
+    "content": {
+      "title": "Listening: Jobs Review",
+      "instructions": "Escucha y selecciona la profesión.",
+      "questions": [{
+        "id": "q65",
+        "type": "multiple-choice",
+        "question": "¿Cuál es su trabajo?",
+        "options": ["Waiter", "Driver", "Artist"],
+        "correctAnswer": "Waiter",
+        "explanation": "El hablante dice 'waiter'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u10-e66",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "Nice to meet you, I'm David.",
+    "audioUrl": "audio/a1/unit-10/e66.mp3",
+    "content": {
+      "title": "Listening: Greetings Review",
+      "instructions": "Escucha y selecciona lo que dice David.",
+      "questions": [{
+        "id": "q66",
+        "type": "multiple-choice",
+        "question": "¿Cómo se presenta David?",
+        "options": ["Good morning", "Nice to meet you", "Goodbye"],
+        "correctAnswer": "Nice to meet you",
+        "explanation": "David dice 'Nice to meet you'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u10-e67",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "The number is seventy-five.",
+    "audioUrl": "audio/a1/unit-10/e67.mp3",
+    "content": {
+      "title": "Listening: Numbers Review",
+      "instructions": "Escucha y selecciona el número.",
+      "questions": [{
+        "id": "q67",
+        "type": "multiple-choice",
+        "question": "¿Qué número es?",
+        "options": ["17", "70", "75"],
+        "correctAnswer": "75",
+        "explanation": "El hablante dice 'seventy-five'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u10-e68",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "She is my mother. Her name is Sarah.",
+    "audioUrl": "audio/a1/unit-10/e68.mp3",
+    "content": {
+      "title": "Listening: Family Review",
+      "instructions": "Escucha y selecciona quién es ella.",
+      "questions": [{
+        "id": "q68",
+        "type": "multiple-choice",
+        "question": "¿Quién es ella?",
+        "options": ["Sister", "Mother", "Friend"],
+        "correctAnswer": "Mother",
+        "explanation": "El hablante dice 'mother'."
+      }]
+    }
+  },
+
+  // Pronunciation Practice (69-75)
+  {
+    "id": "a1-u10-e69",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "Hello, nice to meet you.",
+    "audioUrl": "audio/a1/unit-10/e69.mp3",
+    "content": {
+      "title": "Pronunciation: Greetings Review",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "Hello, nice to meet you.",
+      "evaluationCriteria": [
+        "Sonido /h/ aspirado en 'Hello'",
+        "Diptongo /aɪ/ en 'nice'",
+        "Vocal larga /iː/ en 'meet'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u10-e70",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "I am thirty years old.",
+    "audioUrl": "audio/a1/unit-10/e70.mp3",
+    "content": {
+      "title": "Pronunciation: Age Review",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "I am thirty years old.",
+      "evaluationCriteria": [
+        "Sonido /θ/ (th) sin voz en 'thirty'",
+        "Acento en la primera sílaba de 'thirty'",
+        "Sonido /z/ final en 'years'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u10-e71",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "I work in an office.",
+    "audioUrl": "audio/a1/unit-10/e71.mp3",
+    "content": {
+      "title": "Pronunciation: Jobs Review",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "I work in an office.",
+      "evaluationCriteria": [
+        "Sonido /ɜː/ en 'work'",
+        "Enlace (linking) 'in an office'",
+        "Acento en 'off' (/ˈɒfɪs/)"
+      ]
+    }
+  },
+  {
+    "id": "a1-u10-e72",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "What is your name?",
+    "audioUrl": "audio/a1/unit-10/e72.mp3",
+    "content": {
+      "title": "Pronunciation: Questions Review",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "What is your name?",
+      "evaluationCriteria": [
+        "Sonido /w/ en 'What'",
+        "Diptongo /eɪ/ en 'name'",
+        "Entonación descendente de pregunta WH"
+      ]
+    }
+  },
+  {
+    "id": "a1-u10-e73",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "How do you spell it?",
+    "audioUrl": "audio/a1/unit-10/e73.mp3",
+    "content": {
+      "title": "Pronunciation: Questions Review",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "How do you spell it?",
+      "evaluationCriteria": [
+        "Sonido /h/ aspirado en 'How'",
+        "Sonido /sp/ inicial en 'spell'",
+        "Entonación de pregunta"
+      ]
+    }
+  },
+  {
+    "id": "a1-u10-e74",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "I am from Spain.",
+    "audioUrl": "audio/a1/unit-10/e74.mp3",
+    "content": {
+      "title": "Pronunciation: Origin Review",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "I am from Spain.",
+      "evaluationCriteria": [
+        "Sonido /f/ en 'from'",
+        "Sonido /sp/ inicial en 'Spain' (evitar e-Spain)",
+        "Diptongo /eɪ/ en 'Spain'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u10-e75",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "She is a doctor.",
+    "audioUrl": "audio/a1/unit-10/e75.mp3",
+    "content": {
+      "title": "Pronunciation: Jobs Review",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "She is a doctor.",
+      "evaluationCriteria": [
+        "Sonido /ʃ/ en 'She'",
+        "Vocal /ɒ/ en 'doctor'",
+        "Sonido neutro /ər/ final"
+      ]
+    }
   }
 ];

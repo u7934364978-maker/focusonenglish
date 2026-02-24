@@ -1286,5 +1286,299 @@ export const UNIT_12_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-12/e60.mp3",
     "topicName": "Reading"
+  },
+
+  // ==========================================
+  // LESSON 5: LISTENING & PRONUNCIATION
+  // ==========================================
+  
+  // Listening Comprehension (61-68)
+  {
+    "id": "a1-u12-e61",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "Today is Monday, the first day of the week.",
+    "audioUrl": "audio/a1/unit-12/e61.mp3",
+    "content": {
+      "title": "Listening: Days of the Week",
+      "instructions": "Escucha y selecciona el día mencionado.",
+      "questions": [{
+        "id": "q61",
+        "type": "multiple-choice",
+        "question": "¿Qué día es hoy?",
+        "options": ["Monday", "Tuesday", "Sunday"],
+        "correctAnswer": "Monday",
+        "explanation": "El hablante dice 'Today is Monday'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u12-e62",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "I have a meeting on Wednesday afternoon.",
+    "audioUrl": "audio/a1/unit-12/e62.mp3",
+    "content": {
+      "title": "Listening: Days of the Week",
+      "instructions": "Escucha y selecciona el día de la reunión.",
+      "questions": [{
+        "id": "q62",
+        "type": "multiple-choice",
+        "question": "¿Cuándo es la reunión?",
+        "options": ["Tuesday", "Wednesday", "Thursday"],
+        "correctAnswer": "Wednesday",
+        "explanation": "El hablante dice 'Wednesday'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u12-e63",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "Friday is my favorite day of the week.",
+    "audioUrl": "audio/a1/unit-12/e63.mp3",
+    "content": {
+      "title": "Listening: Days of the Week",
+      "instructions": "Escucha y selecciona el día favorito.",
+      "questions": [{
+        "id": "q63",
+        "type": "multiple-choice",
+        "question": "¿Cuál es el día favorito?",
+        "options": ["Friday", "Saturday", "Monday"],
+        "correctAnswer": "Friday",
+        "explanation": "El hablante dice 'Friday'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u12-e64",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "We go to the park on Saturdays and Sundays.",
+    "audioUrl": "audio/a1/unit-12/e64.mp3",
+    "content": {
+      "title": "Listening: The Weekend",
+      "instructions": "Escucha y selecciona los días de parque.",
+      "questions": [{
+        "id": "q64",
+        "type": "multiple-choice",
+        "question": "¿Qué días van al parque?",
+        "options": ["Work days", "The weekend", "Every day"],
+        "correctAnswer": "The weekend",
+        "explanation": "El hablante menciona 'Saturdays and Sundays' (el fin de semana)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u12-e65",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "What day is it today? It is Tuesday.",
+    "audioUrl": "audio/a1/unit-12/e65.mp3",
+    "content": {
+      "title": "Listening: Questions",
+      "instructions": "Escucha y selecciona el día correcto.",
+      "questions": [{
+        "id": "q65",
+        "type": "multiple-choice",
+        "question": "¿Qué día es hoy según el audio?",
+        "options": ["Monday", "Tuesday", "Thursday"],
+        "correctAnswer": "Tuesday",
+        "explanation": "La respuesta en el audio es 'It is Tuesday'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u12-e66",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "Tomorrow is Thursday, so today is Wednesday.",
+    "audioUrl": "audio/a1/unit-12/e66.mp3",
+    "content": {
+      "title": "Listening: Logical Days",
+      "instructions": "Escucha y deduce el día de hoy.",
+      "questions": [{
+        "id": "q66",
+        "type": "multiple-choice",
+        "question": "¿Qué día es hoy?",
+        "options": ["Wednesday", "Thursday", "Friday"],
+        "correctAnswer": "Wednesday",
+        "explanation": "Si mañana es jueves, hoy es miércoles (Wednesday)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u12-e67",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "I don't work on Sundays.",
+    "audioUrl": "audio/a1/unit-12/e67.mp3",
+    "content": {
+      "title": "Listening: Work Schedule",
+      "instructions": "Escucha y selecciona el día libre.",
+      "questions": [{
+        "id": "q67",
+        "type": "multiple-choice",
+        "question": "¿Qué día no trabaja?",
+        "options": ["Saturday", "Sunday", "Monday"],
+        "correctAnswer": "Sunday",
+        "explanation": "El hablante dice 'I don't work on Sundays'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u12-e68",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "Is it Friday today? No, it is Saturday.",
+    "audioUrl": "audio/a1/unit-12/e68.mp3",
+    "content": {
+      "title": "Listening: Clarification",
+      "instructions": "Escucha y selecciona el día real.",
+      "questions": [{
+        "id": "q68",
+        "type": "multiple-choice",
+        "question": "¿Qué día es realmente?",
+        "options": ["Friday", "Saturday", "Sunday"],
+        "correctAnswer": "Saturday",
+        "explanation": "El hablante aclara 'No, it is Saturday'."
+      }]
+    }
+  },
+
+  // Pronunciation Practice (69-75)
+  {
+    "id": "a1-u12-e69",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "Today is Monday.",
+    "audioUrl": "audio/a1/unit-12/e69.mp3",
+    "content": {
+      "title": "Pronunciation: Days",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "Today is Monday.",
+      "evaluationCriteria": [
+        "Diptongo /eɪ/ en 'Today'",
+        "Sonido /ʌ/ en 'Monday' (/ˈmʌndeɪ/)",
+        "Diptongo /eɪ/ final en 'Monday'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u12-e70",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "I work on Tuesday.",
+    "audioUrl": "audio/a1/unit-12/e70.mp3",
+    "content": {
+      "title": "Pronunciation: Days",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "I work on Tuesday.",
+      "evaluationCriteria": [
+        "Sonido /ɜː/ en 'work'",
+        "Sonido /z/ en 'Tuesday' (/ˈtjuːzdeɪ/)",
+        "Vocal larga /uː/"
+      ]
+    }
+  },
+  {
+    "id": "a1-u12-e71",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "See you on Friday.",
+    "audioUrl": "audio/a1/unit-12/e71.mp3",
+    "content": {
+      "title": "Pronunciation: Farewell",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "See you on Friday.",
+      "evaluationCriteria": [
+        "Vocal larga /iː/ en 'See'",
+        "Diptongo /aɪ/ en 'Friday' (/ˈfraɪdeɪ/)",
+        "Sonido /f/ claro"
+      ]
+    }
+  },
+  {
+    "id": "a1-u12-e72",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "Have a nice weekend!",
+    "audioUrl": "audio/a1/unit-12/e72.mp3",
+    "content": {
+      "title": "Pronunciation: Greeting",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "Have a nice weekend!",
+      "evaluationCriteria": [
+        "Sonido /v/ en 'Have'",
+        "Diptongo /aɪ/ en 'nice'",
+        "Acento en 'week' (/ˈwiːkend/)"
+      ]
+    }
+  },
+  {
+    "id": "a1-u12-e73",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "What day is it?",
+    "audioUrl": "audio/a1/unit-12/e73.mp3",
+    "content": {
+      "title": "Pronunciation: Question",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "What day is it?",
+      "evaluationCriteria": [
+        "Sonido /w/ en 'What'",
+        "Diptongo /eɪ/ en 'day'",
+        "Enlace (linking) 'is-it'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u12-e74",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "Wednesday is a busy day.",
+    "audioUrl": "audio/a1/unit-12/e74.mp3",
+    "content": {
+      "title": "Pronunciation: Days",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "Wednesday is a busy day.",
+      "evaluationCriteria": [
+        "Pronunciación de 'Wednesday' (/ˈwenzdeɪ/) - la primera 'd' es muda",
+        "Vocal /ɪ/ en 'busy' (/ˈbɪzi/)",
+        "Diptongo /eɪ/ en 'day'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u12-e75",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "Saturday is my favorite day.",
+    "audioUrl": "audio/a1/unit-12/e75.mp3",
+    "content": {
+      "title": "Pronunciation: Days",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "Saturday is my favorite day.",
+      "evaluationCriteria": [
+        "Acento en 'Sat' (/ˈsætərdeɪ/)",
+        "Vocal /eɪ/ en 'favorite' (/ˈfeɪvərɪt/)",
+        "Diptongo /eɪ/ final en 'day'"
+      ]
+    }
   }
 ];

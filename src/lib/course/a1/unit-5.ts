@@ -1130,5 +1130,299 @@ export const UNIT_5_EXERCISES: Exercise[] = [
       ]
     },
     "topicName": "Reading"
+  },
+
+  // ==========================================
+  // LESSON 5: LISTENING & PRONUNCIATION
+  // ==========================================
+  
+  // Listening Comprehension (61-68)
+  {
+    "id": "a1-u5-e61",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "My brother is a student and my sister is a nurse.",
+    "audioUrl": "audio/a1/unit-5/e61.mp3",
+    "content": {
+      "title": "Listening: Family Members",
+      "instructions": "Escucha y selecciona la profesión de la hermana.",
+      "questions": [{
+        "id": "q61",
+        "type": "multiple-choice",
+        "question": "¿Cuál es la profesión de la hermana?",
+        "options": ["Estudiante", "Enfermera", "Doctora"],
+        "correctAnswer": "Enfermera",
+        "explanation": "El hablante dice 'my sister is a nurse' (mi hermana es enfermera)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u5-e62",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "These are my parents, Robert and Susan.",
+    "audioUrl": "audio/a1/unit-5/e62.mp3",
+    "content": {
+      "title": "Listening: Parents",
+      "instructions": "Escucha y selecciona los nombres de los padres.",
+      "questions": [{
+        "id": "q62",
+        "type": "multiple-choice",
+        "question": "¿Cómo se llaman los padres?",
+        "options": ["Robert y Mary", "John y Susan", "Robert y Susan"],
+        "correctAnswer": "Robert y Susan",
+        "explanation": "El hablante dice 'Robert and Susan'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u5-e63",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "Whose book is this? It is Mary's book.",
+    "audioUrl": "audio/a1/unit-5/e63.mp3",
+    "content": {
+      "title": "Listening: Possession",
+      "instructions": "Escucha y responde de quién es el libro.",
+      "questions": [{
+        "id": "q63",
+        "type": "multiple-choice",
+        "question": "¿De quién es el libro?",
+        "options": ["De John", "De Mary", "De Peter"],
+        "correctAnswer": "De Mary",
+        "explanation": "El hablante dice 'It is Mary's book'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u5-e64",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "My grandfather is seventy years old.",
+    "audioUrl": "audio/a1/unit-5/e64.mp3",
+    "content": {
+      "title": "Listening: Age",
+      "instructions": "Escucha y selecciona la edad del abuelo.",
+      "questions": [{
+        "id": "q64",
+        "type": "multiple-choice",
+        "question": "¿Qué edad tiene el abuelo?",
+        "options": ["17", "60", "70"],
+        "correctAnswer": "70",
+        "explanation": "El hablante dice 'seventy' (70)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u5-e65",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "My cousin's name is David.",
+    "audioUrl": "audio/a1/unit-5/e65.mp3",
+    "content": {
+      "title": "Listening: Names",
+      "instructions": "Escucha y selecciona el nombre del primo.",
+      "questions": [{
+        "id": "q65",
+        "type": "multiple-choice",
+        "question": "¿Cómo se llama el primo?",
+        "options": ["Daniel", "David", "Donald"],
+        "correctAnswer": "David",
+        "explanation": "El hablante dice 'David'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u5-e66",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "Are you married? Yes, I am.",
+    "audioUrl": "audio/a1/unit-5/e66.mp3",
+    "content": {
+      "title": "Listening: Marital Status",
+      "instructions": "Escucha y responde si el hablante está casado.",
+      "questions": [{
+        "id": "q66",
+        "type": "multiple-choice",
+        "question": "¿Está casado el hablante?",
+        "options": ["Sí", "No", "No se sabe"],
+        "correctAnswer": "Sí",
+        "explanation": "El hablante responde 'Yes, I am'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u5-e67",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "I have two children, a son and a daughter.",
+    "audioUrl": "audio/a1/unit-5/e67.mp3",
+    "content": {
+      "title": "Listening: Children",
+      "instructions": "Escucha y selecciona cuántos hijos tiene.",
+      "questions": [{
+        "id": "q67",
+        "type": "multiple-choice",
+        "question": "¿Cuántos hijos tiene?",
+        "options": ["1", "2", "3"],
+        "correctAnswer": "2",
+        "explanation": "El hablante dice 'two children'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u5-e68",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "This is my uncle. His name is Peter.",
+    "audioUrl": "audio/a1/unit-5/e68.mp3",
+    "content": {
+      "title": "Listening: Uncle",
+      "instructions": "Escucha y selecciona el nombre del tío.",
+      "questions": [{
+        "id": "q68",
+        "type": "multiple-choice",
+        "question": "¿Cómo se llama el tío?",
+        "options": ["Paul", "Peter", "Patrick"],
+        "correctAnswer": "Peter",
+        "explanation": "El hablante dice 'Peter'."
+      }]
+    }
+  },
+
+  // Pronunciation Practice (69-75)
+  {
+    "id": "a1-u5-e69",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "This is my family.",
+    "audioUrl": "audio/a1/unit-5/e69.mp3",
+    "content": {
+      "title": "Pronunciation: Family",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "This is my family.",
+      "evaluationCriteria": [
+        "Sonido /ð/ vibrante en 'This'",
+        "Vocal corta /ɪ/ en 'is'",
+        "Acento en la primera sílaba de 'family' (/ˈfæmɪli/)"
+      ]
+    }
+  },
+  {
+    "id": "a1-u5-e70",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "They are my parents.",
+    "audioUrl": "audio/a1/unit-5/e70.mp3",
+    "content": {
+      "title": "Pronunciation: Parents",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "They are my parents.",
+      "evaluationCriteria": [
+        "Sonido /ð/ en 'They'",
+        "Diptongo /eə/ en 'parents' (/ˈpeərənts/)",
+        "Sonido /s/ final claro"
+      ]
+    }
+  },
+  {
+    "id": "a1-u5-e71",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "Is he your brother?",
+    "audioUrl": "audio/a1/unit-5/e71.mp3",
+    "content": {
+      "title": "Pronunciation: Brother",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "Is he your brother?",
+      "evaluationCriteria": [
+        "Sonido /h/ aspirado en 'he'",
+        "Sonido /ð/ en 'brother' (/ˈbrʌðər/)",
+        "Entonación ascendente de pregunta"
+      ]
+    }
+  },
+  {
+    "id": "a1-u5-e72",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "She is my wife.",
+    "audioUrl": "audio/a1/unit-5/e72.mp3",
+    "content": {
+      "title": "Pronunciation: Wife",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "She is my wife.",
+      "evaluationCriteria": [
+        "Sonido /ʃ/ en 'She'",
+        "Diptongo /aɪ/ en 'wife'",
+        "Sonido /f/ final claro"
+      ]
+    }
+  },
+  {
+    "id": "a1-u5-e73",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "Whose car is this?",
+    "audioUrl": "audio/a1/unit-5/e73.mp3",
+    "content": {
+      "title": "Pronunciation: Whose",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "Whose car is this?",
+      "evaluationCriteria": [
+        "Sonido /h/ inicial en 'Whose' (/huːz/)",
+        "Sonido /z/ final en 'Whose'",
+        "Sonido /ð/ en 'this'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u5-e74",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "It is John's house.",
+    "audioUrl": "audio/a1/unit-5/e74.mp3",
+    "content": {
+      "title": "Pronunciation: Possession",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "It is John's house.",
+      "evaluationCriteria": [
+        "Sonido /z/ del posesivo en 'John's'",
+        "Sonido /h/ aspirado en 'house'",
+        "Diptongo /aʊ/ en 'house'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u5-e75",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "I have two children.",
+    "audioUrl": "audio/a1/unit-5/e75.mp3",
+    "content": {
+      "title": "Pronunciation: Children",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "I have two children.",
+      "evaluationCriteria": [
+        "Sonido /v/ en 'have'",
+        "Sonido /tʃ/ en 'children'",
+        "Acento en la primera sílaba de 'children' (/ˈtʃɪldrən/)"
+      ]
+    }
   }
 ];

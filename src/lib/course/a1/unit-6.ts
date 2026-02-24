@@ -1060,5 +1060,299 @@ export const UNIT_6_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-6/e60.mp3",
     "topicName": "Reading"
+  },
+
+  // ==========================================
+  // LESSON 5: LISTENING & PRONUNCIATION
+  // ==========================================
+  
+  // Listening Comprehension (61-68)
+  {
+    "id": "a1-u6-e61",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "My father is a doctor. He works in a hospital.",
+    "audioUrl": "audio/a1/unit-6/e61.mp3",
+    "content": {
+      "title": "Listening: Jobs",
+      "instructions": "Escucha y selecciona la profesión del padre.",
+      "questions": [{
+        "id": "q61",
+        "type": "multiple-choice",
+        "question": "¿Cuál es la profesión del padre?",
+        "options": ["Profesor", "Médico", "Abogado"],
+        "correctAnswer": "Médico",
+        "explanation": "El hablante dice 'my father is a doctor' (mi padre es médico)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u6-e62",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "Susan is a teacher. She works at a school.",
+    "audioUrl": "audio/a1/unit-6/e62.mp3",
+    "content": {
+      "title": "Listening: Jobs",
+      "instructions": "Escucha y selecciona donde trabaja Susan.",
+      "questions": [{
+        "id": "q62",
+        "type": "multiple-choice",
+        "question": "¿Donde trabaja Susan?",
+        "options": ["En un hospital", "En una oficina", "En una escuela"],
+        "correctAnswer": "En una escuela",
+        "explanation": "El hablante dice 'she works at a school' (ella trabaja en una escuela)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u6-e63",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "My brother is a chef. He works in a restaurant.",
+    "audioUrl": "audio/a1/unit-6/e63.mp3",
+    "content": {
+      "title": "Listening: Jobs",
+      "instructions": "Escucha y selecciona la profesión del hermano.",
+      "questions": [{
+        "id": "q63",
+        "type": "multiple-choice",
+        "question": "¿Cuál es la profesión del hermano?",
+        "options": ["Chef", "Abogado", "Artista"],
+        "correctAnswer": "Chef",
+        "explanation": "El hablante dice 'my brother is a chef'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u6-e64",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "Mr. Miller is a lawyer. He works in an office.",
+    "audioUrl": "audio/a1/unit-6/e64.mp3",
+    "content": {
+      "title": "Listening: Jobs",
+      "instructions": "Escucha y selecciona la profesión del Sr. Miller.",
+      "questions": [{
+        "id": "q64",
+        "type": "multiple-choice",
+        "question": "¿Cuál es la profesión del Sr. Miller?",
+        "options": ["Artista", "Abogado", "Chef"],
+        "correctAnswer": "Abogado",
+        "explanation": "El hablante dice 'Mr. Miller is a lawyer' (Sr. Miller es abogado)."
+      }]
+    }
+  },
+  {
+    "id": "a1-u6-e65",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "Mrs. Miller is an artist. She works at home.",
+    "audioUrl": "audio/a1/unit-6/e65.mp3",
+    "content": {
+      "title": "Listening: Jobs",
+      "instructions": "Escucha y selecciona la profesión de la Sra. Miller.",
+      "questions": [{
+        "id": "q65",
+        "type": "multiple-choice",
+        "question": "¿Cuál es la profesión de la Sra. Miller?",
+        "options": ["Artista", "Enfermera", "Abogada"],
+        "correctAnswer": "Artista",
+        "explanation": "El hablante dice 'Mrs. Miller is an artist'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u6-e66",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "I work in a bank. It is a big office.",
+    "audioUrl": "audio/a1/unit-6/e66.mp3",
+    "content": {
+      "title": "Listening: Workplace",
+      "instructions": "Escucha y selecciona donde trabaja el hablante.",
+      "questions": [{
+        "id": "q66",
+        "type": "multiple-choice",
+        "question": "¿Donde trabaja el hablante?",
+        "options": ["En un banco", "En un restaurante", "En un hospital"],
+        "correctAnswer": "En un banco",
+        "explanation": "El hablante dice 'I work in a bank'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u6-e67",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "Leo is a student. He is twelve years old.",
+    "audioUrl": "audio/a1/unit-6/e67.mp3",
+    "content": {
+      "title": "Listening: Student",
+      "instructions": "Escucha y selecciona la ocupación de Leo.",
+      "questions": [{
+        "id": "q67",
+        "type": "multiple-choice",
+        "question": "¿Qué hace Leo?",
+        "options": ["Trabaja", "Estudia", "Es un chef"],
+        "correctAnswer": "Estudia",
+        "explanation": "El hablante dice 'Leo is a student'."
+      }]
+    }
+  },
+  {
+    "id": "a1-u6-e68",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "My mother works at a hospital. She is a nurse.",
+    "audioUrl": "audio/a1/unit-6/e68.mp3",
+    "content": {
+      "title": "Listening: Nurse",
+      "instructions": "Escucha y selecciona la profesión de la madre.",
+      "questions": [{
+        "id": "q68",
+        "type": "multiple-choice",
+        "question": "¿Cuál es la profesión de la madre?",
+        "options": ["Médico", "Enfermera", "Profesora"],
+        "correctAnswer": "Enfermera",
+        "explanation": "El hablante dice 'She is a nurse'."
+      }]
+    }
+  },
+
+  // Pronunciation Practice (69-75)
+  {
+    "id": "a1-u6-e69",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "I am a doctor.",
+    "audioUrl": "audio/a1/unit-6/e69.mp3",
+    "content": {
+      "title": "Pronunciation: Job",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "I am a doctor.",
+      "evaluationCriteria": [
+        "Diptongo /aɪ/ en 'I'",
+        "Vocal neutra (schwa) en 'a'",
+        "Acento en la primera sílaba de 'doctor' (/ˈdɒktər/)"
+      ]
+    }
+  },
+  {
+    "id": "a1-u6-e70",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "She is a teacher.",
+    "audioUrl": "audio/a1/unit-6/e70.mp3",
+    "content": {
+      "title": "Pronunciation: Job",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "She is a teacher.",
+      "evaluationCriteria": [
+        "Sonido /ʃ/ largo en 'She'",
+        "Vocal larga /iː/ en 'teacher' (/ˈtiːtʃər/)",
+        "Sonido /tʃ/ claro"
+      ]
+    }
+  },
+  {
+    "id": "a1-u6-e71",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "He is a chef.",
+    "audioUrl": "audio/a1/unit-6/e71.mp3",
+    "content": {
+      "title": "Pronunciation: Job",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "He is a chef.",
+      "evaluationCriteria": [
+        "Sonido /h/ aspirado en 'He'",
+        "Sonido /ʃ/ en 'chef' (/ʃef/)",
+        "Vocal corta /e/"
+      ]
+    }
+  },
+  {
+    "id": "a1-u6-e72",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "My father is a lawyer.",
+    "audioUrl": "audio/a1/unit-6/e72.mp3",
+    "content": {
+      "title": "Pronunciation: Job",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "My father is a lawyer.",
+      "evaluationCriteria": [
+        "Sonido /ð/ en 'father'",
+        "Diptongo /ɔɪ/ en 'lawyer' (/ˈlɔɪər/)",
+        "Unión suave entre palabras"
+      ]
+    }
+  },
+  {
+    "id": "a1-u6-e73",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "They work in a bank.",
+    "audioUrl": "audio/a1/unit-6/e73.mp3",
+    "content": {
+      "title": "Pronunciation: Workplace",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "They work in a bank.",
+      "evaluationCriteria": [
+        "Sonido /ð/ en 'They'",
+        "Vocal /ɜː/ en 'work' (/wɜːrk/)",
+        "Sonido /ŋk/ final en 'bank'"
+      ]
+    }
+  },
+  {
+    "id": "a1-u6-e74",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "I work in an office.",
+    "audioUrl": "audio/a1/unit-6/e74.mp3",
+    "content": {
+      "title": "Pronunciation: Workplace",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "I work in an office.",
+      "evaluationCriteria": [
+        "Liaison entre 'in' y 'an'",
+        "Liaison entre 'an' y 'office'",
+        "Acento en la primera sílaba de 'office' (/ˈɒfɪs/)"
+      ]
+    }
+  },
+  {
+    "id": "a1-u6-e75",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "Where do you work?",
+    "audioUrl": "audio/a1/unit-6/e75.mp3",
+    "content": {
+      "title": "Pronunciation: Question",
+      "instructions": "Escucha la frase y repítela con claridad.",
+      "expectedResponse": "Where do you work?",
+      "evaluationCriteria": [
+        "Diptongo /eə/ en 'Where'",
+        "Entonación descendente al final de la pregunta",
+        "Claridad en 'do you'"
+      ]
+    }
   }
 ];
