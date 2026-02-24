@@ -5,11 +5,13 @@
 import { Exercise } from './exercise-types';
 
 // Helper to create a simple exercise from a question
-const createExercise = (id: string, q: any, topic: string): Exercise => ({
+const createExercise = (id: string, q: any, topic: string, unit: number): Exercise => ({
   id,
   type: q.type || 'grammar',
   level: 'A1',
   topicName: topic,
+  transcript: q.question,
+  audioUrl: `audio/a1/unit-${unit}/${id}.mp3`,
   content: {
     title: topic,
     instructions: q.type === 'fill-blank' ? 'Escribe la palabra correcta.' : 'Elige la respuesta correcta.',
@@ -86,6 +88,7 @@ const READING_EXERCISES: Exercise[] = [
     level: 'A1',
     topicName: 'Reading',
     transcript: '[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Alex|Alex]]. [[I|Yo]] [[am|soy]] [[from|de]] [[London|Londres]]. [[I|Yo]] [[am|soy]] [[a|un]] [[student|estudiante]]. [[Today|Hoy]] [[is|es]] [[a|un]] [[good|buen]] [[day|día]]. [[I|Yo]] [[am|estoy]] [[happy|feliz]].',
+    audioUrl: 'audio/a1/unit-1/a1-m1-l1-reading-1.mp3',
     content: {
       title: 'Reading: Meet Alex',
       instructions: 'Read the text and answer the questions.',
@@ -115,6 +118,7 @@ const READING_EXERCISES: Exercise[] = [
     level: 'A1',
     topicName: 'Reading',
     transcript: '[[This|Esta]] [[is|es]] [[my|mi]] [[friend|amiga]], [[Sarah|Sara]]. [[She|Ella]] [[is|es]] [[a|una]] [[teacher|profesora]]. [[She|Ella]] [[is|es]] [[very|muy]] [[nice|agradable]]. [[We|Nosotros]] [[are|estamos]] [[in|en]] [[the|el]] [[classroom|aula]] [[now|ahora]]. [[It|Ello]] [[is|es]] [[9:00]] [[AM|de la mañana]].',
+    audioUrl: 'audio/a1/unit-1/a1-m1-l1-reading-2.mp3',
     content: {
       title: 'Reading: My Friend Sarah',
       instructions: 'Read the text and answer the questions.',
@@ -148,7 +152,7 @@ const READING_EXERCISES: Exercise[] = [
   }
 ];
 // Flatten grammar questions into individual exercises
-const INDIVIDUAL_GRAMMAR_EXERCISES = GRAMMAR_QUESTIONS.map(q => createExercise(q.id, q, 'Greetings & Verb To Be'));
+const INDIVIDUAL_GRAMMAR_EXERCISES = GRAMMAR_QUESTIONS.map(q => createExercise(q.id, q, 'Greetings & Verb To Be', 1));
 // Combine to get exactly 60 exercises in the main array if possible, 
 // but since readings have multiple questions, we can adjust.
 // The user expects "Ejercicio X de 60". 
@@ -161,6 +165,7 @@ const ADDITIONAL_READINGS: Exercise[] = [
     level: 'A1',
     topicName: 'Reading',
     transcript: '[[Good|Buenos]] [[morning|días]]! [[I|Yo]] [[am|soy]] [[Maria|María]]. [[This|Este]] [[is|es]] [[my|mi]] [[dog|perro]], [[Max|Max]]. [[Max|Max]] [[is|es]] [[brown|marrón]]. [[He|Él]] [[is|es]] [[a|un]] [[good|buen]] [[dog|perro]].',
+    audioUrl: 'audio/a1/unit-1/a1-m1-l1-reading-3.mp3',
     content: {
       title: 'Reading: Maria and Max',
       instructions: 'Read and answer.',
@@ -173,6 +178,7 @@ const ADDITIONAL_READINGS: Exercise[] = [
     level: 'A1',
     topicName: 'Reading',
     transcript: '[[Hi|Hola]], [[I|Yo]] [[am|soy]] [[Tom|Tom]]. [[I|Yo]] [[am|tengo]] [[20]] [[years old|años]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Canada|Canadá]]. [[Nice|Mucho]] [[to|gusto]] [[meet|en conocer]] [[you|a ti]]!',
+    audioUrl: 'audio/a1/unit-1/a1-m1-l1-reading-4.mp3',
     content: {
       title: 'Reading: Tom from Canada',
       instructions: 'Read and answer.',
@@ -185,6 +191,7 @@ const ADDITIONAL_READINGS: Exercise[] = [
     level: 'A1',
     topicName: 'Reading',
     transcript: '[[It|Ello]] [[is|es]] [[6:00]] [[PM|de la tarde]]. [[Good|Buenas]] [[evening|noches]]! [[We|Nosotros]] [[are|estamos]] [[at|en]] [[the|el]] [[restaurant|restaurante]]. [[The|La]] [[food|comida]] [[is|está]] [[good|buena]]. [[We|Nosotros]] [[are|estamos]] [[happy|felices]].',
+    audioUrl: 'audio/a1/unit-1/a1-m1-l1-reading-5.mp3',
     content: {
       title: 'Reading: At the Restaurant',
       instructions: 'Read and answer.',

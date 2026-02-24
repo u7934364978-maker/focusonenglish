@@ -5,11 +5,13 @@
 import { Exercise } from './exercise-types';
 
 // Helper to create a simple exercise from a question
-const createExercise = (id: string, q: any, topic: string): Exercise => ({
+const createExercise = (id: string, q: any, topic: string, unit: number): Exercise => ({
   id,
   type: q.type || 'grammar',
   level: 'A1',
   topicName: topic,
+  transcript: q.question,
+  audioUrl: `audio/a1/unit-${unit}/${id}.mp3`,
   content: {
     title: topic,
     instructions: q.type === 'fill-blank' ? '[[Write the correct word.|Escribe la palabra correcta.]]' : '[[Choose the correct answer.|Elige la respuesta correcta.]]',
@@ -88,6 +90,7 @@ const READING_EXERCISES: Exercise[] = [
     level: 'A1',
     topicName: 'Reading',
     transcript: '[[Meet|Conoce]] [[Mario|a Mario]]. [[He|Él]] [[is|es]] [[from|de]] [[Italy|Italia]]. [[He|Él]] [[is|tiene]] [[21]] [[years old|años]]. [[He|Él]] [[is|es]] [[a|un]] [[student|estudiante]] [[of|de]] [[Architecture|arquitectura]]. [[He|Él]] [[is|es]] [[very|muy]] [[friendly|amable]].',
+    audioUrl: 'audio/a1/unit-2/a1-m1-l2-reading-1.mp3',
     content: {
       title: '[[Reading: Mario from Italy|Lectura: Mario de Italia]]',
       instructions: '[[Read and answer.|Lee y responde.]]',
@@ -100,6 +103,7 @@ const READING_EXERCISES: Exercise[] = [
     level: 'A1',
     topicName: 'Reading',
     transcript: '[[Meet|Conoce]] [[Yuki|a Yuki]]. [[She|Ella]] [[is|es]] [[from|de]] [[Japan|Japón]]. [[She|Ella]] [[is|tiene]] [[23]] [[years old|años]]. [[She|Ella]] [[is|es]] [[a|una]] [[student|estudiante]] [[of|de]] [[Medicine|medicina]]. [[She|Ella]] [[is|es]] [[very|muy]] [[intelligent|inteligente]].',
+    audioUrl: 'audio/a1/unit-2/a1-m1-l2-reading-2.mp3',
     content: {
       title: '[[Reading: Yuki from Japan|Lectura: Yuki de Japón]]',
       instructions: '[[Read and answer.|Lee y responde.]]',
@@ -112,6 +116,7 @@ const READING_EXERCISES: Exercise[] = [
     level: 'A1',
     topicName: 'Reading',
     transcript: '[[Carlos|Carlos]] [[and|y]] [[Elena|Elena]] [[are|son]] [[from|de]] [[Spain|España]]. [[They|Ellos]] [[are|tienen]] [[22]] [[years old|años]]. [[They|Ellos]] [[are|son]] [[students|estudiantes]] [[of|de]] [[Business|negocios]]. [[They|Ellos]] [[are|están]] [[very|muy]] [[happy|felices]] [[here|aquí]].',
+    audioUrl: 'audio/a1/unit-2/a1-m1-l2-reading-3.mp3',
     content: {
       title: '[[Reading: Carlos and Elena|Lectura: Carlos y Elena]]',
       instructions: '[[Read and answer.|Lee y responde.]]',
@@ -124,6 +129,7 @@ const READING_EXERCISES: Exercise[] = [
     level: 'A1',
     topicName: 'Reading',
     transcript: '[[Julia|Julia]] [[is|es]] [[from|de]] [[Germany|Alemania]]. [[She|Ella]] [[is|es]] [[a|una]] [[nurse|enfermera]]. [[Her|Su]] [[friend|amigo]] [[Hans|Hans]] [[is|es]] [[a|un]] [[doctor|doctor]]. [[They|Ellos]] [[are|son]] [[from|de]] [[Munich|Múnich]].',
+    audioUrl: 'audio/a1/unit-2/a1-m1-l2-reading-4.mp3',
     content: {
       title: '[[Reading: Julia and Hans|Lectura: Julia y Hans]]',
       instructions: '[[Read and answer.|Lee y responde.]]',
@@ -136,6 +142,7 @@ const READING_EXERCISES: Exercise[] = [
     level: 'A1',
     topicName: 'Reading',
     transcript: '[[The|El]] [[International|Internacional]] [[Students|Estudiantes]] [[Club|Club]] [[is|está]] [[open|abierto]] [[every|cada]] [[day|día]]. [[It|Ello]] [[is|es]] [[a|un]] [[great|gran]] [[place|lugar]] [[to|para]] [[meet|conocer]] [[people|gente]] [[from|de]] [[many|muchos]] [[countries|países]].',
+    audioUrl: 'audio/a1/unit-2/a1-m1-l2-reading-5.mp3',
     content: {
       title: '[[Reading: The Club|Lectura: El Club]]',
       instructions: '[[Read and answer.|Lee y responde.]]',
@@ -145,7 +152,7 @@ const READING_EXERCISES: Exercise[] = [
 ];
 
 // Flatten grammar questions into individual exercises
-const INDIVIDUAL_GRAMMAR_EXERCISES = GRAMMAR_QUESTIONS.map(q => createExercise(q.id, q, 'Origins & Occupations'));
+const INDIVIDUAL_GRAMMAR_EXERCISES = GRAMMAR_QUESTIONS.map(q => createExercise(q.id, q, 'Origins & Occupations', 2));
 
 export const A1_M1_L2_ALL_EXERCISES: Exercise[] = [
   ...INDIVIDUAL_GRAMMAR_EXERCISES,

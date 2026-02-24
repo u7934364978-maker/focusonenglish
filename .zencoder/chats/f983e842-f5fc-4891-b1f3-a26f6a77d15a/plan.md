@@ -113,6 +113,14 @@ Multi-level student progress CRM integration completed. All components ready for
    - Updated `src/middleware.ts` to protect `/curso-a2` under the paywall. ✅
    - Committed and pushed to main branch. ✅
 
+## SPRINT 5: A1 AUDIO GENERATION
+
+10. [ ] **A1 Audio Generation**
+    - Created `scripts/generate-a1-audios-from-ts.ts` to extract transcripts from TS modules. ✅
+    - Configure `ELEVENLABS_API_KEY` in `.env`. ✅
+    - Run batch generation for all 60 units of A1 course. [ ]
+    - Verification: Check `public/audio/a1/unit-X/` for generated `.mp3` files. [ ]
+
 ## SPRINT 3: FUTURE COURSES & CMS
 
 8. [ ] **CMS Strategy Definition**

@@ -5,11 +5,13 @@
 import { Exercise } from './exercise-types';
 
 // Helper to create a simple exercise from a question
-const createExercise = (id: string, q: any, topic: string): Exercise => ({
+const createExercise = (id: string, q: any, topic: string, unit: number): Exercise => ({
   id,
   type: q.type || 'grammar',
   level: 'A1',
   topicName: topic,
+  transcript: q.question,
+  audioUrl: `audio/a1/unit-${unit}/${id}.mp3`,
   content: {
     title: topic,
     instructions: q.type === 'fill-blank' ? 'Escribe la palabra correcta.' : 'Elige la respuesta correcta.',
@@ -88,6 +90,7 @@ const READING_EXERCISES: Exercise[] = [
     level: 'A1',
     topicName: 'Reading',
     transcript: "[[Ben|Ben]]: [[I'm not|No estoy]] [[very|muy]] [[well|bien]]. [[I'm|Estoy]] [[very|muy]] [[tired|cansado]]. [[Emma|Emma]]: [[Are|¿Estás]] [[you|tú]] [[sick|enfermo]]? [[Ben|Ben]]: [[No|No]], [[I'm not|no estoy]] [[sick|enfermo]]. [[But|Pero]] [[I am|estoy]] [[very|muy]] [[busy|ocupado]] [[at|en el]] [[work|trabajo]].",
+    audioUrl: 'audio/a1/unit-3/a1-m1-l3-reading-1.mp3',
     content: {
       title: '[[Reading|Lectura]]: [[Ben|Ben]] [[is|está]] [[tired|cansado]]',
       instructions: '[[Read|Lee]] [[and|y]] [[answer|responde]].',
@@ -100,6 +103,7 @@ const READING_EXERCISES: Exercise[] = [
     level: 'A1',
     topicName: 'Reading',
     transcript: "[[Ben|Ben]]: [[My|Mi]] [[sister|hermana]] [[is|está]] [[very|muy]] [[happy|feliz]] [[and|y]] [[excited|emocionada]] [[in|en]] [[her|su]] [[new|nuevo]] [[job|trabajo]]. [[But|Pero]] [[my|mis]] [[parents|padres]] [[aren't|no están]] [[happy|felices]] [[today|hoy]] [[because|porque]] [[the|el]] [[train|tren]] [[is|está]] [[late|retrasado]]!",
+    audioUrl: 'audio/a1/unit-3/a1-m1-l3-reading-2.mp3',
     content: {
       title: '[[Reading|Lectura]]: [[Family|Familia]] [[Moods|Estados de ánimo]]',
       instructions: '[[Read|Lee]] [[and|y]] [[answer|responde]].',
@@ -112,6 +116,7 @@ const READING_EXERCISES: Exercise[] = [
     level: 'A1',
     topicName: 'Reading',
     transcript: "[[Emma|Emma]]: [[Why|¿Por qué]] [[are|están]] [[your|tus]] [[parents|padres]] [[angry|enojados]]? [[Ben|Ben]]: [[Because|Porque]] [[the|el]] [[train|tren]] [[is|está]] [[late|retrasado]]! [[Emma|Emma]]: [[Well|Bueno]], [[I'm|estoy]] [[happy|feliz]] [[because|porque]] [[it is|es]] [[Friday|viernes]]!",
+    audioUrl: 'audio/a1/unit-3/a1-m1-l3-reading-3.mp3',
     content: {
       title: '[[Reading|Lectura]]: [[Why|¿Por qué]] [[Angry|Enojados]]?',
       instructions: '[[Read|Lee]] [[and|y]] [[answer|responde]].',
@@ -124,6 +129,7 @@ const READING_EXERCISES: Exercise[] = [
     level: 'A1',
     topicName: 'Reading',
     transcript: "[[Man|Hombre]]: [[I'm|Estoy]] [[very|muy]] [[happy|feliz]]. [[It's|Es]] [[a|un]] [[beautiful|hermoso]] [[day|día]]. [[I'm|Soy]] [[a|un]] [[tourist|turista]] [[from|de]] [[Australia|Australia]]. [[My|Mi]] [[brother|hermano]] [[is|está]] [[not|no]] [[happy|feliz]]. [[He's|Él tiene]] [[hungry|hambre]]!",
+    audioUrl: 'audio/a1/unit-3/a1-m1-l3-reading-4.mp3',
     content: {
       title: '[[Reading|Lectura]]: [[The|El]] [[Tourist|Turista]]',
       instructions: '[[Read|Lee]] [[and|y]] [[answer|responde]].',
@@ -136,6 +142,7 @@ const READING_EXERCISES: Exercise[] = [
     level: 'A1',
     topicName: 'Reading',
     transcript: "[[Brother|Hermano]]: [[I am|Tengo]] [[very|mucha]] [[hungry|hambre]]! [[Is there|¿Hay]] [[a|un]] [[restaurant|restaurante]] [[near|cerca]] [[here|de aquí]]? [[Journalist|Periodista]]: [[Yes|Sí]], [[there is|hay]] [[one|uno]] [[in|en]] [[the|el]] [[park|parque]]. [[Is|¿Está]] [[it|ello]] [[open|abierto]]? [[Man|Hombre]]: [[Let|Deja]] [[me|me]] [[see|ver]]... [[yes|sí]], [[it is|está]]!",
+    audioUrl: 'audio/a1/unit-3/a1-m1-l3-reading-5.mp3',
     content: {
       title: '[[Reading|Lectura]]: [[Hungry|Hambriento]] [[Brother|Hermano]]',
       instructions: '[[Read|Lee]] [[and|y]] [[answer|responde]].',
@@ -145,7 +152,7 @@ const READING_EXERCISES: Exercise[] = [
 ];
 
 // Flatten grammar questions into individual exercises
-const INDIVIDUAL_GRAMMAR_EXERCISES = GRAMMAR_QUESTIONS.map(q => createExercise(q.id, q, 'Moods & Questions'));
+const INDIVIDUAL_GRAMMAR_EXERCISES = GRAMMAR_QUESTIONS.map(q => createExercise(q.id, q, 'Moods & Questions', 3));
 
 export const A1_M1_L3_ALL_EXERCISES: Exercise[] = [
   ...INDIVIDUAL_GRAMMAR_EXERCISES,
