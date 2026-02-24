@@ -165,15 +165,15 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'He is a doctor. He works in a hospital.',
     audioUrl: 'audio/a1/unit-2/e61.mp3',
     content: {
-      title: 'Listening: Professions',
-      instructions: 'Escucha y selecciona la respuesta correcta.',
+      title: '[[Listening: Professions|Escuchar: Profesiones]]',
+      instructions: '[[Listen and select the correct answer.|Escucha y selecciona la respuesta correcta.]]',
       questions: [{
         id: 'q61',
         type: 'multiple-choice',
-        question: 'What is his job?',
+        question: '[[What is his job?|¿Cuál es su trabajo?]]',
         options: ['Teacher', 'Doctor', 'Nurse'],
         correctAnswer: 'Doctor',
-        explanation: 'The speaker says: "He is a doctor".'
+        explanation: '[["The speaker says: "He is a doctor".|El hablante dice: "He is a doctor".]]'
       }]
     }
   },
@@ -185,15 +185,15 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'They are from Japan. They are Japanese.',
     audioUrl: 'audio/a1/unit-2/e62.mp3',
     content: {
-      title: 'Listening: Origins',
-      instructions: 'Escucha y selecciona la respuesta correcta.',
+      title: '[[Listening: Origins|Escuchar: Orígenes]]',
+      instructions: '[[Listen and select the correct answer.|Escucha y selecciona la respuesta correcta.]]',
       questions: [{
         id: 'q62',
         type: 'multiple-choice',
-        question: 'Where are they from?',
+        question: '[[Where are they from?|¿De dónde son?]]',
         options: ['China', 'Japan', 'Korea'],
         correctAnswer: 'Japan',
-        explanation: 'The speaker says: "They are from Japan".'
+        explanation: '[["The speaker says: "They are from Japan".|El hablante dice: "They are from Japan".]]'
       }]
     }
   },
@@ -205,15 +205,15 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'She is a nurse. She helps people.',
     audioUrl: 'audio/a1/unit-2/e63.mp3',
     content: {
-      title: 'Listening: Helping Others',
-      instructions: 'Escucha y selecciona la respuesta correcta.',
+      title: '[[Listening: Helping Others|Escuchar: Ayudando a otros]]',
+      instructions: '[[Listen and select the correct answer.|Escucha y selecciona la respuesta correcta.]]',
       questions: [{
         id: 'q63',
         type: 'multiple-choice',
-        question: 'What is her job?',
+        question: '[[What is her job?|¿Cuál es su trabajo?]]',
         options: ['Nurse', 'Chef', 'Pilot'],
         correctAnswer: 'Nurse',
-        explanation: 'The speaker says: "She is a nurse".'
+        explanation: '[["The speaker says: "She is a nurse".|El hablante dice: "She is a nurse".]]'
       }]
     }
   },
@@ -225,12 +225,12 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'I am from Brazil. My nationality is Brazilian.',
     audioUrl: 'audio/a1/unit-2/e64.mp3',
     content: {
-      title: 'Listening: Brazil',
-      instructions: 'Escucha y selecciona la respuesta correcta.',
+      title: '[[Listening: Brazil|Escuchar: Brasil]]',
+      instructions: '[[Listen and select the correct answer.|Escucha y selecciona la respuesta correcta.]]',
       questions: [{
         id: 'q64',
         type: 'multiple-choice',
-        question: 'What is the speaker\'s nationality?',
+        question: '[[What is the speaker\'s nationality?|¿Cuál es la nacionalidad del hablante?]]',
         options: ['Spanish', 'Mexican', 'Brazilian'],
         correctAnswer: 'Brazilian',
         explanation: 'The speaker says: "My nationality is Brazilian".'
@@ -245,15 +245,15 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'We are students. We are in the classroom.',
     audioUrl: 'audio/a1/unit-2/e65.mp3',
     content: {
-      title: 'Listening: Students',
-      instructions: 'Escucha y selecciona la respuesta correcta.',
+      title: '[[Listening: Students|Escuchar: Estudiantes]]',
+      instructions: '[[Listen and select the correct answer.|Escucha y selecciona la respuesta correcta.]]',
       questions: [{
         id: 'q65',
         type: 'multiple-choice',
-        question: 'Where are they?',
+        question: '[[Where are they?|¿Dónde están?]]',
         options: ['In a restaurant', 'In the classroom', 'In a hospital'],
         correctAnswer: 'In the classroom',
-        explanation: 'The speaker says: "We are in the classroom".'
+        explanation: '[["The speaker says: "We are in the classroom".|El hablante dice: "We are in the classroom".]]'
       }]
     }
   },
@@ -265,12 +265,12 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'He is a pilot. He flies planes.',
     audioUrl: 'audio/a1/unit-2/e66.mp3',
     content: {
-      title: 'Listening: Pilots',
-      instructions: 'Escucha y selecciona la respuesta correcta.',
+      title: '[[Listening: Pilots|Escuchar: Pilotos]]',
+      instructions: '[[Listen and select the correct answer.|Escucha y selecciona la respuesta correcta.]]',
       questions: [{
         id: 'q66',
         type: 'multiple-choice',
-        question: 'What does he do?',
+        question: '[[What does he do?|¿A qué se dedica?]]',
         options: ['Drives a car', 'Flies a plane', 'Cooks food'],
         correctAnswer: 'Flies a plane',
         explanation: 'A pilot flies planes.'
@@ -285,15 +285,15 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'They are from Mexico. They speak Spanish.',
     audioUrl: 'audio/a1/unit-2/e67.mp3',
     content: {
-      title: 'Listening: Language',
-      instructions: 'Escucha y selecciona la respuesta correcta.',
+      title: '[[Listening: Language|Escuchar: Idioma]]',
+      instructions: '[[Listen and select the correct answer.|Escucha y selecciona la respuesta correcta.]]',
       questions: [{
         id: 'q67',
         type: 'multiple-choice',
-        question: 'What language do they speak?',
+        question: '[[What language do they speak?|¿Qué idioma hablan?]]',
         options: ['English', 'Spanish', 'French'],
         correctAnswer: 'Spanish',
-        explanation: 'The speaker says: "They speak Spanish".'
+        explanation: '[["The speaker says: "They speak Spanish".|El hablante dice: "They speak Spanish".]]'
       }]
     }
   },
@@ -305,15 +305,15 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'It is my dog. It is brown and white.',
     audioUrl: 'audio/a1/unit-2/e68.mp3',
     content: {
-      title: 'Listening: Pets',
-      instructions: 'Escucha y selecciona la respuesta correcta.',
+      title: '[[Listening: Pets|Escuchar: Mascotas]]',
+      instructions: '[[Listen and select the correct answer.|Escucha y selecciona la respuesta correcta.]]',
       questions: [{
         id: 'q68',
         type: 'multiple-choice',
-        question: 'What color is the dog?',
+        question: '[[What color is the dog?|¿De qué color es el perro?]]',
         options: ['Black', 'Brown and white', 'Grey'],
         correctAnswer: 'Brown and white',
-        explanation: 'The speaker says: "It is brown and white".'
+        explanation: '[["The speaker says: "It is brown and white".|El hablante dice: "It is brown and white".]]'
       }]
     }
   },
@@ -326,12 +326,12 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'He is a teacher.',
     audioUrl: 'audio/a1/unit-2/e69.mp3',
     content: {
-      title: 'Pronunciation: Professions',
-      instructions: 'Escucha la frase y repítela con claridad.',
+      title: '[[Pronunciation: Professions|Pronunciación: Profesiones]]',
+      instructions: '[[Listen to the phrase and repeat it clearly.|Escucha la frase y repítela con claridad.]]',
       expectedResponse: 'He is a teacher.',
       evaluationCriteria: [
-        'Sonido /h/ aspirado en "He"',
-        'Vocal corta /ɪ/ en "is"',
+        '[[Aspiration of the "H" sound in "He"|Sonido /h/ aspirado en "He"]]',
+        '[[Short vowel /ɪ/ in "is"|Vocal corta /ɪ/ in "is"]]',
         'Acento tónico en "teach" (/ˈtiːtʃər/)'
       ]
     }
@@ -344,11 +344,11 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'She is Mexican.',
     audioUrl: 'audio/a1/unit-2/e70.mp3',
     content: {
-      title: 'Pronunciation: Nationalities',
-      instructions: 'Escucha la frase y repítela con claridad.',
+      title: '[[Pronunciation: Nationalities|Pronunciación: Nacionalidades]]',
+      instructions: '[[Listen to the phrase and repeat it clearly.|Escucha la frase y repítela con claridad.]]',
       expectedResponse: 'She is Mexican.',
       evaluationCriteria: [
-        'Sonido /ʃ/ en "She"',
+        '[[Sound /ʃ/ in "She"|Sonido /ʃ/ en "She"]]',
         'Acento tónico en "Mex" (/ˈmeksɪkən/)',
         'Pronunciación clara de la "x" como /ks/'
       ]
@@ -362,11 +362,11 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'They are from Japan.',
     audioUrl: 'audio/a1/unit-2/e71.mp3',
     content: {
-      title: 'Pronunciation: Origins',
-      instructions: 'Escucha la frase y repítela con claridad.',
+      title: '[[Pronunciation: Origins|Pronunciación: Orígenes]]',
+      instructions: '[[Listen to the phrase and repeat it clearly.|Escucha la frase y repítela con claridad.]]',
       expectedResponse: 'They are from Japan.',
       evaluationCriteria: [
-        'Sonido /ð/ en "They"',
+        '[[Sound /ð/ in "They"|Sonido /ð/ en "They"]]',
         'Pronunciación de "from" con vocal neutra /ə/',
         'Acento tónico en "pan" (/dʒəˈpæn/)'
       ]
@@ -380,8 +380,8 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'We are happy.',
     audioUrl: 'audio/a1/unit-2/e72.mp3',
     content: {
-      title: 'Pronunciation: Emotions',
-      instructions: 'Escucha la frase y repítela con claridad.',
+      title: '[[Pronunciation: Emotions|Pronunciación: Emociones]]',
+      instructions: '[[Listen to the phrase and repeat it clearly.|Escucha la frase y repítela con claridad.]]',
       expectedResponse: 'We are happy.',
       evaluationCriteria: [
         'Vocal larga /iː/ en "We"',
@@ -398,11 +398,11 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'I am a doctor.',
     audioUrl: 'audio/a1/unit-2/e73.mp3',
     content: {
-      title: 'Pronunciation: Professions',
-      instructions: 'Escucha la frase y repítela con claridad.',
+      title: '[[Pronunciation: Professions|Pronunciación: Profesiones]]',
+      instructions: '[[Listen to the phrase and repeat it clearly.|Escucha la frase y repítela con claridad.]]',
       expectedResponse: 'I am a doctor.',
       evaluationCriteria: [
-        'Diptongo /aɪ/ en "I"',
+        '[[Diphthong /aɪ/ in "I"|Diptongo /aɪ/ en "I"]]',
         'Acento tónico en "doc" (/ˈdɒktər/)',
         'Vocal neutra /ə/ al final de "doctor"'
       ]
@@ -416,8 +416,8 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'It is a big city.',
     audioUrl: 'audio/a1/unit-2/e74.mp3',
     content: {
-      title: 'Pronunciation: Places',
-      instructions: 'Escucha la frase y repítela con claridad.',
+      title: '[[Pronunciation: Places|Pronunciación: Lugares]]',
+      instructions: '[[Listen to the phrase and repeat it clearly.|Escucha la frase y repítela con claridad.]]',
       expectedResponse: 'It is a big city.',
       evaluationCriteria: [
         'Vocal corta /ɪ/ en "It" e "is"',
@@ -434,11 +434,11 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'She is my friend.',
     audioUrl: 'audio/a1/unit-2/e75.mp3',
     content: {
-      title: 'Pronunciation: Relationships',
-      instructions: 'Escucha la frase y repítela con claridad.',
+      title: '[[Pronunciation: Relationships|Pronunciación: Relaciones]]',
+      instructions: '[[Listen to the phrase and repeat it clearly.|Escucha la frase y repítela con claridad.]]',
       expectedResponse: 'She is my friend.',
       evaluationCriteria: [
-        'Sonido /ʃ/ en "She"',
+        '[[Sound /ʃ/ in "She"|Sonido /ʃ/ en "She"]]',
         'Vocal /e/ corta en "friend"',
         'Sonido /d/ final claro'
       ]

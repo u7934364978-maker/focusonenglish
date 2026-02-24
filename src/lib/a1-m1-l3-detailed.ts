@@ -14,7 +14,7 @@ const createExercise = (id: string, q: any, topic: string, unit: number): Exerci
   audioUrl: `audio/a1/unit-${unit}/${id}.mp3`,
   content: {
     title: topic,
-    instructions: q.type === 'fill-blank' ? 'Escribe la palabra correcta.' : 'Elige la respuesta correcta.',
+    instructions: q.type === 'fill-blank' ? '[[Write the correct word.|Escribe la palabra correcta.]]' : '[[Choose the correct answer.|Elige la respuesta correcta.]]',
     questions: [q]
   }
 });
@@ -165,15 +165,15 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'I am not sad. I am very happy today!',
     audioUrl: 'audio/a1/unit-3/e61.mp3',
     content: {
-      title: 'Listening: Moods',
-      instructions: 'Escucha y selecciona la respuesta correcta.',
+      title: '[[Listening: Moods|Escuchar: Estados de ánimo]]',
+      instructions: '[[Listen and select the correct answer.|Escucha y selecciona la respuesta correcta.]]',
       questions: [{
         id: 'q61',
         type: 'multiple-choice',
-        question: 'How does the speaker feel?',
+        question: '[[How does the speaker feel?|¿Cómo se siente el hablante?]]',
         options: ['Sad', 'Happy', 'Angry'],
         correctAnswer: 'Happy',
-        explanation: 'The speaker says: "I am very happy".'
+        explanation: '[["The speaker says: "I am very happy".|El hablante dice: "I am very happy".]]'
       }]
     }
   },
@@ -185,15 +185,15 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'Are you hungry? Yes, I am.',
     audioUrl: 'audio/a1/unit-3/e62.mp3',
     content: {
-      title: 'Listening: Questions',
-      instructions: 'Escucha y selecciona la respuesta correcta.',
+      title: '[[Listening: Questions|Escuchar: Preguntas]]',
+      instructions: '[[Listen and select the correct answer.|Escucha y selecciona la respuesta correcta.]]',
       questions: [{
         id: 'q62',
         type: 'multiple-choice',
-        question: 'Is the speaker hungry?',
+        question: '[[Is the speaker hungry?|¿Tiene hambre el hablante?]]',
         options: ['Yes', 'No', 'Maybe'],
         correctAnswer: 'Yes',
-        explanation: 'The speaker answers: "Yes, I am".'
+        explanation: '[["The speaker answers: "Yes, I am".|El hablante responde: "Yes, I am".]]'
       }]
     }
   },
@@ -205,15 +205,15 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'It is not hot today. It is very cold.',
     audioUrl: 'audio/a1/unit-3/e63.mp3',
     content: {
-      title: 'Listening: Weather',
-      instructions: 'Escucha y selecciona la respuesta correcta.',
+      title: '[[Listening: Weather|Escuchar: Clima]]',
+      instructions: '[[Listen and select the correct answer.|Escucha y selecciona la respuesta correcta.]]',
       questions: [{
         id: 'q63',
         type: 'multiple-choice',
-        question: 'How is the weather?',
+        question: '[[How is the weather?|¿Cómo está el clima?]]',
         options: ['Hot', 'Cold', 'Warm'],
         correctAnswer: 'Cold',
-        explanation: 'The speaker says: "It is very cold".'
+        explanation: '[["The speaker says: "It is very cold".|El hablante dice: "It is very cold".]]'
       }]
     }
   },
@@ -225,15 +225,15 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'He is not a doctor. He is a teacher.',
     audioUrl: 'audio/a1/unit-3/e64.mp3',
     content: {
-      title: 'Listening: Occupations',
-      instructions: 'Escucha y selecciona la respuesta correcta.',
+      title: '[[Listening: Occupations|Escuchar: Ocupaciones]]',
+      instructions: '[[Listen and select the correct answer.|Escucha y selecciona la respuesta correcta.]]',
       questions: [{
         id: 'q64',
         type: 'multiple-choice',
-        question: 'What is his job?',
+        question: '[[What is his job?|¿Cuál es su trabajo?]]',
         options: ['Doctor', 'Teacher', 'Pilot'],
         correctAnswer: 'Teacher',
-        explanation: 'The speaker says: "He is a teacher".'
+        explanation: '[["The speaker says: "He is a teacher".|El hablante dice: "He is a teacher".]]'
       }]
     }
   },
@@ -245,15 +245,15 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'Are they from England? No, they are not.',
     audioUrl: 'audio/a1/unit-3/e65.mp3',
     content: {
-      title: 'Listening: Origins',
-      instructions: 'Escucha y selecciona la respuesta correcta.',
+      title: '[[Listening: Origins|Escuchar: Orígenes]]',
+      instructions: '[[Listen and select the correct answer.|Escucha y selecciona la respuesta correcta.]]',
       questions: [{
         id: 'q65',
         type: 'multiple-choice',
-        question: 'Are they from England?',
+        question: '[[Are they from England?|¿Son de Inglaterra?]]',
         options: ['Yes', 'No', 'They don\'t know'],
         correctAnswer: 'No',
-        explanation: 'The speaker says: "No, they are not".'
+        explanation: '[["The speaker says: "No, they are not".|El hablante dice: "No, they are not".]]'
       }]
     }
   },
@@ -265,15 +265,15 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'I am very tired. I want to sleep.',
     audioUrl: 'audio/a1/unit-3/e66.mp3',
     content: {
-      title: 'Listening: Feelings',
-      instructions: 'Escucha y selecciona la respuesta correcta.',
+      title: '[[Listening: Feelings|Escuchar: Sentimientos]]',
+      instructions: '[[Listen and select the correct answer.|Escucha y selecciona la respuesta correcta.]]',
       questions: [{
         id: 'q66',
         type: 'multiple-choice',
-        question: 'What does the speaker want to do?',
+        question: '[[What does the speaker want to do?|¿Qué quiere hacer el hablante?]]',
         options: ['Eat', 'Sleep', 'Work'],
         correctAnswer: 'Sleep',
-        explanation: 'The speaker says: "I want to sleep".'
+        explanation: '[["The speaker says: "I want to sleep".|El hablante dice: "I want to sleep".]]'
       }]
     }
   },
@@ -285,15 +285,15 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'Is she your sister? No, she is my friend.',
     audioUrl: 'audio/a1/unit-3/e67.mp3',
     content: {
-      title: 'Listening: Relationships',
-      instructions: 'Escucha y selecciona la respuesta correcta.',
+      title: '[[Listening: Relationships|Escuchar: Relaciones]]',
+      instructions: '[[Listen and select the correct answer.|Escucha y selecciona la respuesta correcta.]]',
       questions: [{
         id: 'q67',
         type: 'multiple-choice',
-        question: 'Who is she?',
+        question: '[[Who is she?|¿Quién es ella?]]',
         options: ['His sister', 'His friend', 'His mother'],
         correctAnswer: 'His friend',
-        explanation: 'The speaker says: "she is my friend".'
+        explanation: '[["The speaker says: "she is my friend".|El hablante dice: "she is my friend".]]'
       }]
     }
   },
@@ -305,15 +305,15 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'I am thirsty. I want some water.',
     audioUrl: 'audio/a1/unit-3/e68.mp3',
     content: {
-      title: 'Listening: Needs',
-      instructions: 'Escucha y selecciona la respuesta correcta.',
+      title: '[[Listening: Needs|Escuchar: Necesidades]]',
+      instructions: '[[Listen and select the correct answer.|Escucha y selecciona la respuesta correcta.]]',
       questions: [{
         id: 'q68',
         type: 'multiple-choice',
-        question: 'What does the speaker want?',
+        question: '[[What does the speaker want?|¿Qué quiere el hablante?]]',
         options: ['Food', 'Water', 'A book'],
         correctAnswer: 'Water',
-        explanation: 'The speaker says: "I want some water".'
+        explanation: '[["The speaker says: "I want some water".|El hablante dice: "I want some water".]]'
       }]
     }
   },
@@ -326,12 +326,12 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'I am not tired.',
     audioUrl: 'audio/a1/unit-3/e69.mp3',
     content: {
-      title: 'Pronunciation: Negatives',
-      instructions: 'Escucha la frase y repítela con claridad.',
+      title: '[[Pronunciation: Negatives|Pronunciación: Negativas]]',
+      instructions: '[[Listen to the phrase and repeat it clearly.|Escucha la frase y repítela con claridad.]]',
       expectedResponse: 'I am not tired.',
       evaluationCriteria: [
         'Pronunciación clara de "not"',
-        'Diptongo /aɪ/ en "I"',
+        '[[Diphthong /aɪ/ in "I"|Diptongo /aɪ/ en "I"]]',
         'Acento tónico en "tired" (/ˈtaɪərd/)'
       ]
     }
@@ -344,13 +344,13 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'Are you happy?',
     audioUrl: 'audio/a1/unit-3/e70.mp3',
     content: {
-      title: 'Pronunciation: Questions',
-      instructions: 'Escucha la frase y repítela con claridad.',
+      title: '[[Pronunciation: Questions|Pronunciación: Preguntas]]',
+      instructions: '[[Listen to the phrase and repeat it clearly.|Escucha la frase y repítela con claridad.]]',
       expectedResponse: 'Are you happy?',
       evaluationCriteria: [
-        'Entonación ascendente al final de la pregunta',
-        'Sonido /h/ aspirado en "happy"',
-        'Vocal larga /ɑːr/ en "Are"'
+        '[[Rising intonation at the end of the question|Entonación ascendente al final de la pregunta]]',
+        '[[Aspiration of the /h/ sound in "happy"|Sonido /h/ aspirado en "happy"]]',
+        '[[Long vowel /ɑːr/ in "Are"|Vocal larga /ɑːr/ en "Are"]]'
       ]
     }
   },
@@ -362,8 +362,8 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'Yes, I am.',
     audioUrl: 'audio/a1/unit-3/e71.mp3',
     content: {
-      title: 'Pronunciation: Short Answers',
-      instructions: 'Escucha la frase y repítela con claridad.',
+      title: '[[Pronunciation: Short Answers|Pronunciación: Respuestas cortas]]',
+      instructions: '[[Listen to the phrase and repeat it clearly.|Escucha la frase y repítela con claridad.]]',
       expectedResponse: 'Yes, I am.',
       evaluationCriteria: [
         'Sonido /j/ claro en "Yes"',
@@ -380,11 +380,11 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'It is not cold.',
     audioUrl: 'audio/a1/unit-3/e72.mp3',
     content: {
-      title: 'Pronunciation: Weather',
-      instructions: 'Escucha la frase y repítela con claridad.',
+      title: '[[Pronunciation: Weather|Pronunciación: Clima]]',
+      instructions: '[[Listen to the phrase and repeat it clearly.|Escucha la frase y repítela con claridad.]]',
       expectedResponse: 'It is not cold.',
       evaluationCriteria: [
-        'Vocal corta /ɪ/ en "It" e "is"',
+        '[[Short vowel /ɪ/ in "It" and "is"|Vocal corta /ɪ/ en "It" e "is"]]',
         'Sonido /k/ fuerte en "cold"',
         'Diptongo /əʊ/ en "cold"'
       ]
@@ -398,11 +398,11 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'She is busy.',
     audioUrl: 'audio/a1/unit-3/e73.mp3',
     content: {
-      title: 'Pronunciation: Feelings',
-      instructions: 'Escucha la frase y repítela con claridad.',
+      title: '[[Pronunciation: Feelings|Pronunciación: Sentimientos]]',
+      instructions: '[[Listen to the phrase and repeat it clearly.|Escucha la frase y repítela con claridad.]]',
       expectedResponse: 'She is busy.',
       evaluationCriteria: [
-        'Sonido /ʃ/ en "She"',
+        '[[Sound /ʃ/ in "She"|Sonido /ʃ/ en "She"]]',
         'Vocal /ɪ/ en "busy" (/ˈbɪzi/)',
         'Sonido /z/ vibrante en "busy"'
       ]
@@ -416,11 +416,11 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'We are bored.',
     audioUrl: 'audio/a1/unit-3/e74.mp3',
     content: {
-      title: 'Pronunciation: Feelings',
-      instructions: 'Escucha la frase y repítela con claridad.',
+      title: '[[Pronunciation: Feelings|Pronunciación: Sentimientos]]',
+      instructions: '[[Listen to the phrase and repeat it clearly.|Escucha la frase y repítela con claridad.]]',
       expectedResponse: 'We are bored.',
       evaluationCriteria: [
-        'Vocal larga /iː/ en "We"',
+        '[[Long vowel /iː/ in "We"|Vocal larga /iː/ en "We"]]',
         'Vocal larga /ɔː/ en "bored" (/bɔːrd/)',
         'Sonido /d/ final suave'
       ]
@@ -434,12 +434,12 @@ const LISTENING_AND_PRONUNCIATION: Exercise[] = [
     transcript: 'Are they angry?',
     audioUrl: 'audio/a1/unit-3/e75.mp3',
     content: {
-      title: 'Pronunciation: Questions',
-      instructions: 'Escucha la frase y repítela con claridad.',
+      title: '[[Pronunciation: Questions|Pronunciación: Preguntas]]',
+      instructions: '[[Listen to the phrase and repeat it clearly.|Escucha la frase y repítela con claridad.]]',
       expectedResponse: 'Are they angry?',
       evaluationCriteria: [
-        'Entonación ascendente',
-        'Sonido /ð/ en "they"',
+        '[[Rising intonation|Entonación ascendente]]',
+        '[[Sound /ð/ in "they"|Sonido /ð/ en "they"]]',
         'Acento tónico en "ang" (/ˈæŋɡri/)'
       ]
     }

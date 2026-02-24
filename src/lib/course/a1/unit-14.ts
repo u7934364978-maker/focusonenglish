@@ -1,24 +1,59 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_14_EXERCISES: Exercise[] = [
+  // ==========================================
+  // LESSON 1: FREQUENCY ADVERBS (1-15)
+  // ==========================================
+  {
+    "id": "a1-u14-e1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Frequency Adverbs",
+    "difficulty": "easy",
+    "transcript": "[[I always drink water|Siempre bebo agua]].",
+    "content": {
+      "title": "[[Always|Siempre]]",
+      "instructions": "[[Choose the correct frequency adverb|Elige el adverbio de frecuencia correcto]].",
+      "question": "[[I (____) drink water (100%).|Yo (____) bebo agua (100%).]]",
+      "options": ["[[always|siempre]]", "[[never|nunca]]", "[[sometimes|a veces]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Always means 100% of the time|Always significa el 100% de las veces]]."
+    },
+    "audioUrl": "audio/a1/unit-14/e1.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u14-e2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Frequency Adverbs",
+    "difficulty": "easy",
+    "transcript": "[[I never eat meat|Nunca como carne]].",
+    "content": {
+      "title": "[[Never|Nunca]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[I (____) eat meat (0%).|Yo (____) como carne (0%).]]",
+      "options": ["[[never|nunca]]", "[[always|siempre]]", "[[usually|usualmente]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Never means 0% of the time|Never significa el 0% de las veces]]."
+    },
+    "audioUrl": "audio/a1/unit-14/e2.mp3",
+    "topicName": "Grammar"
+  },
   {
     "id": "a1-u14-e3",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Frequency Adverbs",
     "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[always|siempre]] [[drink|bebo]] [[water.|agua.]]",
+    "transcript": "[[She is always happy|Ella siempre está feliz]].",
     "content": {
-      "title": "[[Adverb|Adverbio]] [[Position|Posición]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[sentence.|oración.]]",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[water|agua]].",
-          "options": ["[[always|siempre]] [[drink|bebo]]", "[[am|soy]] [[always|siempre]]", "[[drink|bebo]] [[always|siempre]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[adverb|adverbio]] [[goes|va]] [[before|antes]] [[of|del]] [[main|principal]] [[verb.|verbo.]]"
-        }
-      ]
+      "title": "[[Verb 'To Be'|Verbo 'To Be']]",
+      "instructions": "[[Choose the correct word order|Elige el orden correcto de las palabras]].",
+      "question": "[[She (____) happy.|Ella (____) feliz.]]",
+      "options": ["[[is always|siempre está]]", "[[always is|está siempre (incorrecto)]]", "[[is never|nunca está]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Adverbs of frequency go after the verb 'to be'|Los adverbios de frecuencia van después del verbo 'to be']]."
     },
     "audioUrl": "audio/a1/unit-14/e3.mp3",
     "topicName": "Grammar"
@@ -29,35 +64,32 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Frequency Adverbs",
     "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[am|estoy]] [[never|nunca]] [[late.|tarde.]]",
+    "transcript": "[[He usually goes to the gym|Él usualmente va al gimnasio]].",
     "content": {
-      "title": "[[Adverb|Adverbio]] [[with|con]] [[Verb|Verbo]] '[[To|To]] [[Be|Be]]'",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[position|posición]] [[with|con]] [[the|el]] [[verb|verbo]] '[[to|to]] [[be'.|be'.]]",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[am|estoy]] (_____) [[late.|tarde.]]",
-          "options": ["[[never|nunca]]", "[[often|a menudo]]", "[[always|siempre]]"],
-          "correctAnswer": 0,
-          "explanation": "[[With|Con]] [[the|el]] [[verb|verbo]] '[[to|to]] [[be',|be',]] [[the|el]] [[adverb|adverbio]] [[goes|va]] [[after|después]] [[of|del]] [[verb.|verbo.]]"
-        }
-      ]
+      "title": "[[Usually|Usualmente]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[He (____) goes to the gym (80%).|Él (____) va al gimnasio (80%).]]",
+      "options": ["[[usually|usualmente]]", "[[hardly ever|casi nunca]]", "[[always|siempre]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Usually means most of the time|Usually significa la mayoría de las veces]]."
     },
     "audioUrl": "audio/a1/unit-14/e4.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e5",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
     "topic": "Frequency Adverbs",
-    "difficulty": "medium",
-    "transcript": "[[We|Nosotros]] [[usually|normalmente]] [[have|tenemos]] [[lunch|almuerzo]] [[at|en]] [[home.|casa.]]",
+    "difficulty": "easy",
+    "transcript": "[[I sometimes watch movies|A veces veo películas]].",
     "content": {
-      "title": "[[Usually|Normalmente]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence.|oración.]]",
-      "correctSentence": "[[We|Nosotros]] [[usually|normalmente]] [[have|tenemos]] [[lunch|almuerzo]] [[at|en]] [[home.|casa.]]",
-      "words": ["[[home|casa]].", "[[at|en]]", "[[lunch|almuerzo]]", "[[have|tenemos]]", "[[usually|normalmente]]", "[[We|Nosotros]]"],
-      "explanation": "'[[Usually|Usually]]' [[indicates|indica]] [[a|una]] [[high|alta]] [[frequency,|frecuencia,]] [[around|alrededor]] 80%."
+      "title": "[[Sometimes|A veces]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[I (____) watch movies (50%).|Yo (____) veo películas (50%).]]",
+      "options": ["[[sometimes|a veces]]", "[[never|nunca]]", "[[always|siempre]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Sometimes means about 50% of the time|Sometimes significa aproximadamente el 50% de las veces]]."
     },
     "audioUrl": "audio/a1/unit-14/e5.mp3",
     "topicName": "Grammar"
@@ -66,96 +98,91 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "How often...?",
+    "topic": "Frequency Adverbs",
     "difficulty": "easy",
-    "transcript": "[[How|¿Qué]] [[often|tan a menudo]] [[do|]] [[you|tú]] [[go|vas]] [[to|al]] [[the|el]] [[gym?|gimnasio?]]",
+    "transcript": "[[She hardly ever cooks|Ella casi nunca cocina]].",
     "content": {
-      "title": "[[Asking|Preguntar]] [[Frequency|Frecuencia]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[question.|pregunta.]]",
-      "questions": [
-        {
-          "question": "(_____) [[often|tan a menudo]] [[do|]] [[you|tú]] [[go|vas]] [[to|al]] [[the|el]] [[gym?|gimnasio?]]",
-          "options": ["[[How|Cómo]]", "[[What|Qué]]", "[[When|Cuándo]]"],
-          "correctAnswer": 0,
-          "explanation": "'[[How|How]] [[often'|often']] [[is|es]] [[the|la]] [[standard|estándar]] [[expression|expresión]] [[to|para]] [[ask|preguntar]] [[for|por]] [[frequency.|frecuencia.]]"
-        }
-      ]
+      "title": "[[Hardly Ever|Casi nunca]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[She (____) cooks (10%).|Ella (____) cocina (10%).]]",
+      "options": ["[[hardly ever|casi nunca]]", "[[usually|usualmente]]", "[[always|siempre]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Hardly ever means very rarely|Hardly ever significa muy raramente]]."
     },
     "audioUrl": "audio/a1/unit-14/e6.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e7",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
     "topic": "Frequency Adverbs",
-    "difficulty": "medium",
-    "transcript": "[[They|Ellos]] [[sometimes|a veces]] [[watch|ven]] [[horror|de terror]] [[movies.|películas.]]",
+    "difficulty": "easy",
+    "transcript": "[[I often listen to music|A menudo escucho música]].",
     "content": {
-      "title": "[[Sometimes|A Veces]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence.|oración.]]",
-      "correctSentence": "[[They|Ellos]] [[sometimes|a veces]] [[watch|ven]] [[horror|de terror]] [[movies.|películas.]]",
-      "words": ["[[movies|películas]].", "[[horror|de terror]]", "[[watch|ven]]", "[[sometimes|a veces]]", "[[They|Ellos]]"],
-      "explanation": "'[[Sometimes|Sometimes]]' [[indicates|indica]] [[that|que]] [[something|algo]] [[happens|ocurre]] [[the|el]] 50% [[of|de]] [[the|las]] [[times.|veces.]]"
+      "title": "[[Often|A menudo]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
+      "questions": [
+        {
+          "question": "[[I (____) listen to music (70%).|Yo (____) escucho música (70%).]]",
+          "correctAnswer": "often",
+          "explanation": "[[Often means many times|Often significa muchas veces]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-14/e7.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e8",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "Frequency Adverbs",
-    "difficulty": "medium",
-    "transcript": "[[Does|¿]] [[he|él]] [[often|a menudo]] [[cook?|cocina?]]",
+    "difficulty": "easy",
+    "transcript": "[[They are never late|Ellos nunca llegan tarde]].",
     "content": {
-      "title": "[[Question|Pregunta]] [[with|con]] [[Adverb|Adverbio]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|forma]] [[form.|correcta.]]",
-      "questions": [
-        {
-          "question": "[[Does|¿]] [[he|él]] (_____) [[cook?|cocina?]]",
-          "options": ["[[often|a menudo]]", "[[always|siempre]]", "[[never|nunca]]"],
-          "correctAnswer": 0,
-          "explanation": "'[[Often|Often]]' [[is|es]] [[very|muy]] [[common|común]] [[in|en]] [[questions|preguntas]] [[about|sobre]] [[habits.|hábitos.]]"
-        }
-      ]
+      "title": "[[Late|Tarde]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[They are never late|Ellos nunca llegan tarde]].",
+      "words": ["[[late|tarde]].", "[[never|nunca]]", "[[are|están]]", "[[They|Ellos]]"],
+      "explanation": "[[Structure: Subject + be + adverb + adjective|Estructura: Sujeto + be + adverbio + adjetivo]]."
     },
     "audioUrl": "audio/a1/unit-14/e8.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e9",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
     "topic": "Frequency Adverbs",
-    "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[hardly|casi]] [[ever|nunca]] [[go|voy]] [[to|al]] [[the|el]] [[cinema.|cine.]]",
+    "difficulty": "easy",
+    "transcript": "[[Do you always study at night?|¿Siempre estudias por la noche?]]",
     "content": {
-      "title": "[[Hardly|Casi]] [[ever|nunca]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence.|oración.]]",
-      "correctSentence": "[[I|Yo]] [[hardly|casi]] [[ever|nunca]] [[go|voy]] [[to|al]] [[the|el]] [[cinema.|cine.]]",
-      "words": ["[[cinema.|cine.]]", "[[the|el]]", "[[to|al]]", "[[go|voy]]", "[[ever|nunca]]", "[[hardly|casi]]", "[[I|Yo]]"],
-      "explanation": "'[[Hardly|Hardly]] [[ever'|ever']] [[means|significa]] [[casi|casi]] [[nunca.|nunca.]]"
+      "title": "[[Questions|Preguntas]]",
+      "instructions": "[[Choose the correct word order|Elige el orden correcto]].",
+      "question": "[[ (____) study at night?|¿(____) estudias por la noche?]]",
+      "options": ["[[Do you always|¿Tú siempre]]", "[[Always you do|¿Siempre tú (incorrecto)]]", "[[Do always you|¿Haces siempre tú (incorrecto)]]"],
+      "correctAnswer": 0,
+      "explanation": "[[In questions, the adverb goes after the subject|En las preguntas, el adverbio va después del sujeto]]."
     },
     "audioUrl": "audio/a1/unit-14/e9.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e10",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
     "topic": "Frequency Adverbs",
     "difficulty": "easy",
-    "transcript": "[[She|Ella]] [[is|está]] [[always|siempre]] [[happy.|feliz.]]",
+    "transcript": "[[We usually have lunch at home|Usualmente almorzamos en casa]].",
     "content": {
-      "title": "[[Mood|Estado]] [[State|de]] [[of|Ánimo]] [[Mind|]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[adverb.|adverbio.]]",
+      "title": "[[Lunch|Almuerzo]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[She|Ella]] [[is|está]] (_____) [[happy.|feliz.]]",
-          "options": ["[[always|siempre]]", "[[never|nunca]]", "[[often|a menudo]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Use|Uso]] [[of|de]] [[adverb|adverbio]] [[after|después]] [[of|de]] '[[is'.|is'.]]"
+          "question": "[[We (____) have lunch at home.|Nosotros (____) almorzamos en casa.]]",
+          "correctAnswer": "usually",
+          "explanation": "[[Use usually for typical habits|Usa usually para hábitos típicos]]."
         }
       ]
     },
@@ -166,213 +193,204 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e11",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Frequency Expressions",
-    "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[study|estudio]] [[English|inglés]] [[twice|dos veces]] [[a|a la]] [[week.|semana.]]",
+    "topic": "Frequency Adverbs",
+    "difficulty": "easy",
+    "transcript": "[[He never drinks coffee|Él nunca bebe café]].",
     "content": {
-      "title": "[[Twice|Dos]] [[times|veces]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[frequency|de]] [[phrase.|frecuencia frase.]]",
-      "correctSentence": "[[I|Yo]] [[study|estudio]] [[English|inglés]] [[twice|dos veces]] [[a|a la]] [[week.|semana.]]",
-      "words": ["[[week.|semana.]]", "[[a|a la]]", "[[twice|dos veces]]", "[[English|inglés]]", "[[study|estudio]]", "[[I|Yo]]"],
-      "explanation": "'[[Twice|Twice]] [[a|a]] [[week'|week']] [[means|significa]] [[dos|dos]] [[veces|veces]] [[per|por]] [[week.|semana.]]"
+      "title": "[[Coffee|Café]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[He never drinks coffee|Él nunca bebe café]].",
+      "words": ["[[coffee|café]].", "[[drinks|bebe]]", "[[never|nunca]]", "[[He|Él]]"],
+      "explanation": "[[The adverb goes before the main verb|El adverbio va antes del verbo principal]]."
     },
     "audioUrl": "audio/a1/unit-14/e11.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e12",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Frequency Adverbs",
-    "difficulty": "medium",
-    "transcript": "[[They|Ellos]] [[never|nunca]] [[eat|comen]] [[meat.|carne.]]",
+    "difficulty": "easy",
+    "transcript": "[[My friends are often busy|Mis amigos a menudo están ocupados]].",
     "content": {
-      "title": "[[Diet|Dieta]]",
-      "instructions": "[[Complete|Completa]] [[with|con]] [[the|el]] [[negative|negativo]] [[adverb.|adverbio.]]",
-      "questions": [
-        {
-          "question": "[[They|Ellos]] (_____) [[eat|comen]] [[meat.|carne.]]",
-          "options": ["[[never|nunca]]", "[[always|siempre]]", "[[sometimes|a veces]]"],
-          "correctAnswer": 0,
-          "explanation": "'[[Never'|Never']] [[does|no]] [[not|]] [[need|necesita]] '[[don't'|don't']] [[to|para]] [[be|ser]] [[negative.|negativo.]]"
-        }
-      ]
+      "title": "[[Busy|Ocupados]]",
+      "instructions": "[[Select the correct sentence|Selecciona la frase correcta]].",
+      "question": "[[My friends (____) busy.]]",
+      "options": ["[[are often|a menudo están]]", "[[often are|están a menudo (incorrecto)]]", "[[often is|está a menudo (incorrecto)]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Use 'are' for plural subject and adverb after 'be'|Usa 'are' para sujeto plural y el adverbio después de 'be']]."
     },
     "audioUrl": "audio/a1/unit-14/e12.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e13",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
     "topic": "Frequency Adverbs",
-    "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[father|padre]] [[often|a menudo]] [[plays|juega]] [[tennis.|tenis.]]",
+    "difficulty": "easy",
+    "transcript": "[[How often do you exercise?|¿Qué tan a menudo haces ejercicio?]]",
     "content": {
-      "title": "[[Tennis|Tenis]] [[often|a menudo]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence.|oración.]]",
-      "correctSentence": "[[My|Mi]] [[father|padre]] [[often|a menudo]] [[plays|juega]] [[tennis.|tenis.]]",
-      "words": ["[[tennis.|tenis.]]", "[[plays|juega]]", "[[often|a menudo]]", "[[father|padre]]", "[[My|Mi]]"],
-      "explanation": "[[The|El]] [[verb|verbo]] [[takes|lleva]] '[[s|s]]' ([[plays|plays]]) [[and|y]] [[the|el]] [[adverb|adverbio]] [[goes|va]] [[before.|antes.]]"
+      "title": "[[How Often|Qué tan a menudo]]",
+      "instructions": "[[Complete the question|Completa la pregunta]].",
+      "questions": [
+        {
+          "question": "[[ (____) often do you exercise?|¿(____) a menudo haces ejercicio?]]",
+          "correctAnswer": "How",
+          "explanation": "[[Use 'How often' to ask about frequency|Usa 'How often' para preguntar sobre la frecuencia]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-14/e13.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e14",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "Frequency Adverbs",
-    "difficulty": "medium",
-    "transcript": "[[It|Ello]] [[is|está]] [[usually|normalmente]] [[cold|frío]] [[in|en]] [[January.|enero.]]",
+    "difficulty": "easy",
+    "transcript": "[[I sometimes read books|A veces leo libros]].",
     "content": {
-      "title": "[[Weather|Clima]]",
-      "instructions": "[[Complete|Completa]] [[with|con]] [[the|el]] [[adverb.|adverbio.]]",
-      "questions": [
-        {
-          "question": "[[It|Ello]] [[is|está]] (_____) [[cold|frío]] [[in|en]] [[January.|enero.]]",
-          "options": ["[[usually|normalmente]]", "[[hardly|casi]] [[ever|nunca]]", "[[never|nunca]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Use|Uso]] [[of|de]] [[usually|usually]] [[after|después]] [[of|de]] [[is.|is.]]"
-        }
-      ]
+      "title": "[[Reading|Lectura]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[I sometimes read books|A veces leo libros]].",
+      "words": ["[[books|libros]].", "[[read|leo]]", "[[sometimes|a veces]]", "[[I|Yo]]"],
+      "explanation": "[[Structure: Subject + Adverb + Verb + Object|Estructura: Sujeto + Adverbio + Verbo + Objeto]]."
     },
     "audioUrl": "audio/a1/unit-14/e14.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e15",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
     "topic": "Frequency Adverbs",
-    "difficulty": "medium",
-    "transcript": "[[We|Nosotros]] [[always|siempre]] [[brush|lavamos]] [[our|nuestros]] [[teeth.|dientes.]]",
+    "difficulty": "easy",
+    "transcript": "[[It is usually cold in winter|Usualmente hace frío en invierno]].",
     "content": {
-      "title": "[[Hygiene|Higiene]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence.|oración.]]",
-      "correctSentence": "[[We|Nosotros]] [[always|siempre]] [[brush|lavamos]] [[our|nuestros]] [[teeth.|dientes.]]",
-      "words": ["[[teeth.|dientes.]]", "[[our|nuestros]]", "[[brush|lavamos]]", "[[always|siempre]]", "[[We|Nosotros]]"],
-      "explanation": "[[A|Un]] [[habit|hábito]] [[of|de]] 100% [[frequency.|frecuencia.]]"
+      "title": "[[Winter|Invierno]]",
+      "instructions": "[[Choose the correct sentence|Elige la frase correcta]].",
+      "question": "[[In winter, (____).|En invierno, (____).]]",
+      "options": ["[[it is usually cold|usualmente hace frío]]", "[[it usually is cold|hace usualmente frío (incorrecto)]]", "[[is it usually cold|es usualmente frío (pregunta)]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Adverb after 'is'|Adverbio después de 'is']]."
     },
     "audioUrl": "audio/a1/unit-14/e15.mp3",
     "topicName": "Grammar"
   },
+
+  // ==========================================
+  // LESSON 2: FREQUENCY EXPRESSIONS (16-30)
+  // ==========================================
   {
     "id": "a1-u14-e16",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Frequency Expressions",
-    "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[visit|visito]] [[my|mis]] [[parents|padres]] [[once|una vez]] [[a|al]] [[month.|mes.]]",
+    "difficulty": "medium",
+    "transcript": "[[I visit my parents once a week|Visito a mis padres una vez a la semana]].",
     "content": {
-      "title": "[[Once|Una]] [[a|vez]] [[month|al mes]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[expression.|expresión.]]",
-      "questions": [
-        {
-          "question": "[[I|Yo]] [[visit|visito]] [[my|mis]] [[parents|padres]] (_____) [[a|al]] [[month.|mes.]]",
-          "options": ["[[once|una vez]]", "[[one|uno]]", "[[one|una]] [[time|vez]]"],
-          "correctAnswer": 0,
-          "explanation": "'[[Once'|Once']] [[is|es]] [[more|más]] [[common|común]] [[than|que]] '[[one|one]] [[time'.|time'.]]"
-        }
-      ]
+      "title": "[[Once|Una vez]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[I visit them (____) a week (1 time).|Los visito (____) a la semana (1 vez).]]",
+      "options": ["[[once|una vez]]", "[[twice|dos veces]]", "[[three times|tres veces]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Once means one time|Once significa una vez]]."
     },
     "audioUrl": "audio/a1/unit-14/e16.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u14-e17",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "How often...?",
+    "topic": "Frequency Expressions",
     "difficulty": "medium",
-    "transcript": "[[How|¿Qué]] [[often|tan a menudo]] [[do|]] [[they|ellos]] [[play|juegan]] [[football?|fútbol?]]",
+    "transcript": "[[I go to the dentist twice a year|Voy al dentista dos veces al año]].",
     "content": {
-      "title": "[[Football|Fútbol]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[question.|pregunta.]]",
-      "correctSentence": "[[How|¿Qué]] [[often|tan a menudo]] [[do|]] [[they|ellos]] [[play|juegan]] [[football?|fútbol?]]",
-      "words": ["[[football?|fútbol?]]", "[[play|juegan]]", "[[they|ellos]]", "[[do|]]", "[[often|tan a menudo]]", "[[How|¿Qué]]"],
-      "explanation": "[[Frequency|Frecuencia]] [[question|pregunta]] [[structure.|estructura.]]"
+      "title": "[[Twice|Dos veces]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[I go (____) a year (2 times).|Voy (____) al año (2 veces).]]",
+      "options": ["[[twice|dos veces]]", "[[once|una vez]]", "[[four times|cuatro veces]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Twice means two times|Twice significa dos veces]]."
     },
     "audioUrl": "audio/a1/unit-14/e17.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u14-e18",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Frequency Adverbs",
+    "topic": "Frequency Expressions",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[usually|normalmente]] [[get|levanto]] [[up|me]] [[at|a las]] [[seven.|siete.]]",
+    "transcript": "[[She studies English three times a week|Ella estudia inglés tres veces por semana]].",
     "content": {
-      "title": "[[Getting|Levantarse]] [[Up|Up]]",
-      "instructions": "[[Adverb|Adverbio]] [[Position.|Posición.]]",
+      "title": "[[Three Times|Tres veces]]",
+      "instructions": "[[Complete the phrase|Completa la frase]].",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[get|levanto]] [[up|me]] [[at|a las]] [[seven.|siete.]]",
-          "options": ["[[usually|normalmente]]", "[[get|levanto]] [[usually|normalmente]]", "[[am|soy]] [[usually|normalmente]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[adverb|adverbio]] [[goes|va]] [[before|antes]] [[of|del]] [[main|principal]] [[verb|verbo]] '[[get'.|get'.]]"
+          "question": "[[She studies English three (____) a week.|Ella estudia inglés tres (____) por semana.]]",
+          "correctAnswer": "times",
+          "explanation": "[[Use 'times' for frequencies higher than two|Usa 'times' para frecuencias superiores a dos]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-14/e18.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u14-e19",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Frequency Adverbs",
+    "topic": "Frequency Expressions",
     "difficulty": "medium",
-    "transcript": "[[She|Ella]] [[sometimes|a veces]] [[listens|escucha]] [[to|a]] [[classical|clásica]] [[music.|música.]]",
+    "transcript": "[[I play soccer every Saturday|Juego al fútbol cada sábado]].",
     "content": {
-      "title": "[[Classical|Clásica]] [[Music|Música]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence.|oración.]]",
-      "correctSentence": "[[She|Ella]] [[sometimes|a veces]] [[listens|escucha]] [[to|a]] [[classical|clásica]] [[music.|música.]]",
-      "words": ["[[music.|música.]]", "[[classical|clásica]]", "[[to|a]]", "[[listens|escucha]]", "[[sometimes|a veces]]", "[[She|Ella]]"],
-      "explanation": "[[Remember|Recuerda]] [[the|la]] '[[s'|s']] [[in|en]] [[the|el]] [[verb|verbo]] [[for|para]] '[[she'.|she'.]]"
+      "title": "[[Every|Cada]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[I play soccer every Saturday|Juego al fútbol cada sábado]].",
+      "words": ["[[Saturday|sábado]].", "[[every|cada]]", "[[soccer|fútbol]]", "[[play|juego]]", "[[I|Yo]]"],
+      "explanation": "[[Every is used for regular frequency|Every se usa para una frecuencia regular]]."
     },
     "audioUrl": "audio/a1/unit-14/e19.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u14-e20",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Frequency Adverbs",
+    "topic": "Frequency Expressions",
     "difficulty": "medium",
-    "transcript": "[[We|Nosotros]] [[are|estamos]] [[often|a menudo]] [[very|muy]] [[busy|ocupados]] [[on|los]] [[Mondays.|lunes.]]",
+    "transcript": "[[I take my medicine three times a day|Tomo mi medicina tres veces al día]].",
     "content": {
-      "title": "[[Busy|Ocupados]] [[Mondays|Lunes]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[sentence|oración]] [[with|con]] '[[to|to]] [[be'.|be'.]]",
-      "questions": [
-        {
-          "question": "[[We|Nosotros]] (_____) [[very|muy]] [[busy|ocupados]] [[on|los]] [[Mondays.|lunes.]]",
-          "options": ["[[are|estamos]] [[often|a menudo]]", "[[often|a menudo]] [[are|estamos]]", "[[be|ser]] [[often|a menudo]]"],
-          "correctAnswer": 0,
-          "explanation": "[[After|Después]] [[of|de]] '[[are'|are']] [[the|el]] [[adverb|adverbio]] [[goes.|va.]]"
-        }
-      ]
+      "title": "[[Medicine|Medicina]]",
+      "instructions": "[[Identify the frequency expression|Identifica la expresión de frecuencia]].",
+      "question": "[[I take it (____).|Lo tomo (____).]]",
+      "options": ["[[three times a day|tres veces al día]]", "[[three times the day|tres veces el día (incorrecto)]]", "[[three days a time|tres días por vez (incorrecto)]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Frequency + a + time period|Frecuencia + a + periodo de tiempo]]."
     },
     "audioUrl": "audio/a1/unit-14/e20.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u14-e21",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Frequency Adverbs",
-    "difficulty": "easy",
-    "transcript": "100% [[Always.|Siempre.]] 80% [[Usually.|Normalmente.]] 50% [[Sometimes.|A veces.]] 0% [[Never.|Nunca.]]",
+    "topic": "Frequency Expressions",
+    "difficulty": "medium",
+    "transcript": "[[I drink milk every morning|Bebo leche cada mañana]].",
     "content": {
-      "title": "[[Percentages|Porcentajes]]",
-      "instructions": "[[Which|Qué]] [[adverb|adverbio]] [[corresponds|corresponde]] [[to|al]] 0%?",
+      "title": "[[Morning|Mañana]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[Zero|Cero]] [[percent|por ciento]] [[is|es]] (_____) .",
-          "options": ["[[Never|Nunca]]", "[[Always|Siempre]]", "[[Often|A menudo]]"],
-          "correctAnswer": 0,
-          "explanation": "'[[Never'|Never']] [[indicates|indica]] [[that|que]] [[something|algo]] [[does|no]] [[not|]] [[occur|ocurre]] [[ever.|nunca.]]"
+          "question": "[[I drink milk (____) morning.|Bebo leche (____) mañana.]]",
+          "correctAnswer": "every",
+          "explanation": "[[Use every to indicate daily repetition|Usa every para indicar repetición diaria]]."
         }
       ]
     },
@@ -381,78 +399,73 @@ export const UNIT_14_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u14-e22",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Frequency Adverbs",
-    "difficulty": "easy",
-    "transcript": "100% [[Always.|Siempre.]]",
+    "topic": "Frequency Expressions",
+    "difficulty": "medium",
+    "transcript": "[[We go on vacation once a year|Nos vamos de vacaciones una vez al año]].",
     "content": {
-      "title": "[[Percentages|Porcentajes]] [[II|II]]",
-      "instructions": "[[Which|Qué]] [[adverb|adverbio]] [[corresponds|corresponde]] [[to|al]] 100%?",
-      "questions": [
-        {
-          "question": "[[One|Cien]] [[hundred|por ciento]] [[percent|es]] [[is|]] (_____) .",
-          "options": ["[[Always|Siempre]]", "[[Sometimes|A veces]]", "[[Usually|Normalmente]]"],
-          "correctAnswer": 0,
-          "explanation": "'[[Always'|Always']] [[indicates|indica]] [[totality.|totalidad.]]"
-        }
-      ]
+      "title": "[[Vacation|Vacaciones]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[We go on vacation once a year|Nos vamos de vacaciones una vez al año]].",
+      "words": ["[[year|año]].", "[[a|al]]", "[[once|una vez]]", "[[vacation|vacaciones]]", "[[on|de]]", "[[go|vamos]]", "[[We|Nosotros]]"],
+      "explanation": "[[Frequency expressions usually go at the end of the sentence|Las expresiones de frecuencia suelen ir al final de la frase]]."
     },
     "audioUrl": "audio/a1/unit-14/e22.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u14-e23",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Frequency Adverbs",
-    "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[always|siempre]] [[drink|bebo]] [[tea.|té.]]",
+    "topic": "Frequency Expressions",
+    "difficulty": "medium",
+    "transcript": "[[She checks her email every hour|Ella revisa su correo cada hora]].",
     "content": {
-      "title": "[[Drinking|Beber]] [[Tea|Té]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence.|oración.]]",
-      "correctSentence": "[[I|Yo]] [[always|siempre]] [[drink|bebo]] [[tea.|té.]]",
-      "words": ["[[tea.|té.]]", "[[drink|bebo]]", "[[always|siempre]]", "[[I|Yo]]"],
-      "explanation": "[[Basic|Básica]] [[adverb|adverbio]] [[of|de]] [[frequency|frecuencia]] [[structure.|estructura.]]"
+      "title": "[[Email Habit|Hábito de correo]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[She checks it (____).|Ella lo revisa (____).]]",
+      "options": ["[[every hour|cada hora]]", "[[all hour|toda la hora (incorrecto)]]", "[[each hour|cada hora (menos común)]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Every + singular time unit|Every + unidad de tiempo en singular]]."
     },
     "audioUrl": "audio/a1/unit-14/e23.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u14-e24",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Frequency Adverbs",
-    "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[sometimes|a veces]] [[play|juego]] [[games.|juegos.]]",
+    "topic": "Frequency Expressions",
+    "difficulty": "medium",
+    "transcript": "[[I wash my car twice a month|Lavo mi coche dos veces al mes]].",
     "content": {
-      "title": "[[Games|Juegos]]",
-      "instructions": "[[Complete|Completa]] [[with|con]] [[the|el]] [[adverb.|adverbio.]]",
+      "title": "[[Car Wash|Lavado de coche]]",
+      "instructions": "[[Complete the frequency|Completa la frecuencia]].",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[play|juego]] [[games.|juegos.]]",
-          "options": ["[[sometimes|a veces]]", "[[always|siempre]]", "[[never|nunca]]"],
-          "correctAnswer": 0,
-          "explanation": "'[[Sometimes'|Sometimes']] [[for|para]] [[medium|media]] [[frequency.|frecuencia.]]"
+          "question": "[[I wash my car (____) a month.|Lavo mi coche (____) al mes.]]",
+          "correctAnswer": "twice",
+          "explanation": "[[Twice is more common than 'two times'|Twice es más común que 'two times']]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-14/e24.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u14-e25",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Frequency Adverbs",
+    "topic": "Frequency Expressions",
     "difficulty": "medium",
-    "transcript": "[[My|Mi]] [[mother|madre]] [[never|nunca]] [[watches|ve]] [[TV.|la tele.]]",
+    "transcript": "[[Do you go to the gym every day?|¿Vas al gimnasio todos los días?]]",
     "content": {
-      "title": "[[Mom|Mamá]] [[and|y]] [[the|la]] [[TV|Tele]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence.|oración.]]",
-      "correctSentence": "[[My|Mi]] [[mother|madre]] [[never|nunca]] [[watches|ve]] [[TV.|la tele.]]",
-      "words": ["[[TV.|la tele.]]", "[[watches|ve]]", "[[never|nunca]]", "[[mother|madre]]", "[[My|Mi]]"],
-      "explanation": "[[Remember|Recuerda]] [[the|la]] '[[es'|es']] [[in|en]] [[watches.|watches.]]"
+      "title": "[[Gym Question|Pregunta de Gimnasio]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[Do you go to the gym every day?|¿Vas al gimnasio todos los días?]]",
+      "words": ["[[day?|día?]]", "[[every|cada]]", "[[gym|gimnasio]]", "[[the|el]]", "[[to|al]]", "[[go|vas]]", "[[you|tú]]", "[[Do|¿Haces]]"],
+      "explanation": "[[Structure: Question word/aux + Subject + Verb + Place + Frequency|Estructura: Auxiliar + Sujeto + Verbo + Lugar + Frecuencia]]."
     },
     "audioUrl": "audio/a1/unit-14/e25.mp3",
     "topicName": "Grammar"
@@ -461,213 +474,208 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e26",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Frequency Adverbs",
+    "topic": "Frequency Expressions",
     "difficulty": "medium",
-    "transcript": "[[Do|¿]] [[you|tú]] [[often|a menudo]] [[go|vas]] [[out?|fuera?]]",
+    "transcript": "[[They play tennis four times a week|Ellos juegan al tenis cuatro veces por semana]].",
     "content": {
-      "title": "[[Going|Salir]] [[Out|Out]]",
-      "instructions": "[[Frequency|Frecuencia]] [[question.|pregunta.]]",
-      "questions": [
-        {
-          "question": "[[Do|¿]] [[you|tú]] (_____) [[go|vas]] [[out?|fuera?]]",
-          "options": ["[[often|a menudo]]", "[[always|siempre]]", "[[never|nunca]]"],
-          "correctAnswer": 0,
-          "explanation": "'[[Often'|Often']] [[is|es]] [[common|común]] [[in|en]] [[questions.|preguntas.]]"
-        }
-      ]
+      "title": "[[Tennis|Tenis]]",
+      "instructions": "[[Identify the frequency expression|Identifica la expresión]].",
+      "question": "[[They play (____).|Ellos juegan (____).]]",
+      "options": ["[[four times a week|cuatro veces por semana]]", "[[four once a week|cuatro una vez (incorrecto)]]", "[[four week a time|cuatro semana por vez (incorrecto)]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Number + times + a + week|Número + veces + a + semana]]."
     },
     "audioUrl": "audio/a1/unit-14/e26.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u14-e27",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Frequency Adverbs",
+    "topic": "Frequency Expressions",
     "difficulty": "medium",
-    "transcript": "[[We|Nosotros]] [[usually|normalmente]] [[go|vamos]] [[to|al]] [[the|el]] [[park.|parque.]]",
+    "transcript": "[[I call my mother every day|Llamo a mi madre todos los días]].",
     "content": {
-      "title": "[[To|Al]] [[the|el]] [[Park|Parque]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence.|oración.]]",
-      "correctSentence": "[[We|Nosotros]] [[usually|normalmente]] [[go|vamos]] [[to|al]] [[the|el]] [[park.|parque.]]",
-      "words": ["[[park.|parque.]]", "[[the|el]]", "[[to|al]]", "[[go|vamos]]", "[[usually|normalmente]]", "[[We|Nosotros]]"],
-      "explanation": "[[High|Alta]] [[frequency|frecuencia]] [[with|con]] [[usually.|usually.]]"
-    },
-    "audioUrl": "audio/a1/unit-14/e27.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u14-e28",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Frequency Adverbs",
-    "difficulty": "medium",
-    "transcript": "[[He|Él]] [[is|está]] [[always|siempre]] [[late.|tarde.]]",
-    "content": {
-      "title": "[[Lateness|Tardanza]]",
-      "instructions": "[[Adverb|Adverbio]] [[position|posición]] [[with|con]] '[[to|to]] [[be'.|be'.]]",
+      "title": "[[Phone Call|Llamada]]",
+      "instructions": "[[Complete the phrase|Completa la frase]].",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|está]] (_____) [[late.|tarde.]]",
-          "options": ["[[always|siempre]]", "[[always|siempre]] [[is|está]]", "[[never|nunca]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[adverb|adverbio]] [[goes|va]] [[after|después]] [[of|del]] [[verb|verbo]] '[[is'.|is'.]]"
+          "question": "[[I call her every (____).|La llamo cada (____).]]",
+          "correctAnswer": "day",
+          "explanation": "[[Every day means daily|Every day significa diariamente]]."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-14/e27.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u14-e28",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Frequency Expressions",
+    "difficulty": "medium",
+    "transcript": "[[She drinks water ten times a day|Ella bebe agua diez veces al día]].",
+    "content": {
+      "title": "[[Water Intake|Consumo de agua]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[She drinks water ten times a day|Ella bebe agua diez veces al día]].",
+      "words": ["[[day|día]].", "[[a|al]]", "[[times|veces]]", "[[ten|diez]]", "[[water|agua]]", "[[drinks|bebe]]", "[[She|Ella]]"],
+      "explanation": "[[Structure: Subject + Verb + Object + Frequency|Estructura: Sujeto + Verbo + Objeto + Frecuencia]]."
+    },
     "audioUrl": "audio/a1/unit-14/e28.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u14-e29",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Frequency Adverbs",
-    "difficulty": "medium",
-    "transcript": "[[They|Ellos]] [[hardly|casi]] [[ever|nunca]] [[eat|comen]] [[pizza.|pizza.]]",
-    "content": {
-      "title": "[[Pizza|Pizza]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence.|oración.]]",
-      "correctSentence": "[[They|Ellos]] [[hardly|casi]] [[ever|nunca]] [[eat|comen]] [[pizza.|pizza.]]",
-      "words": ["[[pizza|pizza]].", "[[eat|comen]]", "[[hardly ever|casi nunca]]", "[[They|Ellos]]"],
-      "explanation": "[[Hardly|Hardly]] [[ever|ever]] [[for|para]] [[very|muy]] [[low|baja]] [[frequency.|frecuencia.]]"
-    },
-    "audioUrl": "audio/a1/unit-14/e29.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u14-e30",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Frequency Expressions",
     "difficulty": "medium",
-    "transcript": "[[How|¿Qué]] [[often|tan a menudo]] [[do|]] [[you|tú]] [[brush|lavas]] [[your|tus]] [[teeth?|dientes?]] [[Three|Tres]] [[times|veces]] [[a|al]] [[day.|día.]]",
+    "transcript": "[[We have a meeting twice a month|Tenemos una reunión dos veces al mes]].",
     "content": {
-      "title": "[[Daily|Frecuencia]] [[Frequency|Diaria]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question.|pregunta.]]",
+      "title": "[[Meeting|Reunión]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[We have it (____).|La tenemos (____).]]",
+      "options": ["[[twice a month|dos veces al mes]]", "[[twice of month|dos veces de mes (incorrecto)]]", "[[twice the month|dos veces el mes (incorrecto)]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Twice a month is the correct structure|Twice a month es la estructura correcta]]."
+    },
+    "audioUrl": "audio/a1/unit-14/e29.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u14-e30",
+    "type": "fill-blank",
+    "level": "A1",
+    "topic": "Frequency Expressions",
+    "difficulty": "medium",
+    "transcript": "[[I brush my teeth three times a day|Me cepillo los dientes tres veces al día]].",
+    "content": {
+      "title": "[[Teeth|Dientes]]",
+      "instructions": "[[Complete the frequency|Completa la frecuencia]].",
       "questions": [
         {
-          "question": "[[How|¿Qué]] [[often|tan a menudo]] [[do|]] [[you|tú]] [[brush|lavas]] [[your|tus]] [[teeth?|dientes?]]",
-          "options": ["[[Three|Tres]] [[times|veces]] [[a|al]] [[day|día]]", "[[Always|Siempre]]", "[[In|En]] [[the|la]] [[morning|mañana]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Specific|Respuesta]] [[frequency|específica]] [[answer.|de frecuencia.]]"
+          "question": "[[I brush them three (____) a day.|Me los cepillo tres (____) al día.]]",
+          "correctAnswer": "times",
+          "explanation": "[[Three times indicates frequency|Three times indica frecuencia]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-14/e30.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
+
+  // ==========================================
+  // LESSON 3: DAILY HABITS (31-45)
+  // ==========================================
   {
     "id": "a1-u14-e31",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Frequency Adverbs",
-    "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[sometimes|a veces]] [[cook|cocino]] [[dinner.|la cena.]]",
+    "topic": "Daily Habits",
+    "difficulty": "medium",
+    "transcript": "[[I usually stay at home on Sundays|Usualmente me quedo en casa los domingos]].",
     "content": {
-      "title": "[[Cooking|Cocinar]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[phrase.|frase.]]",
-      "correctSentence": "[[I|Yo]] [[sometimes|a veces]] [[cook|cocino]] [[dinner.|la cena.]]",
-      "words": ["[[dinner|la cena]].", "[[cook|cocino]]", "[[sometimes|a veces]]", "[[I|Yo]]"],
-      "explanation": "[[Sometimes|Sometimes]] [[in|en]] [[the|el]] [[middle|medio]] [[of|de]] [[the|la]] [[sentence.|oración.]]"
+      "title": "[[Sundays|Domingos]]",
+      "instructions": "[[Identify the habit|Identifica el hábito]].",
+      "question": "[[On Sundays, I (____) at home.|Los domingos, me (____) en casa.]]",
+      "options": ["[[usually stay|usualmente me quedo]]", "[[always go|siempre voy]]", "[[never be|nunca estoy]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Usually stay means typical behavior|Usually stay significa comportamiento típico]]."
     },
     "audioUrl": "audio/a1/unit-14/e31.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u14-e32",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Frequency Adverbs",
-    "difficulty": "easy",
-    "transcript": "[[She|Ella]] [[always|siempre]] [[listens|escucha]] [[to|a]] [[me.|mí.]]",
+    "topic": "Daily Habits",
+    "difficulty": "medium",
+    "transcript": "[[He never forgets his keys|Él nunca olvida sus llaves]].",
     "content": {
-      "title": "[[Listening|Escuchar]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[adverb.|adverbio.]]",
-      "questions": [
-        {
-          "question": "[[She|Ella]] (_____) [[listens|escucha]] [[to|a]] [[me.|mí.]]",
-          "options": ["[[always|siempre]]", "[[is|es]] [[always|siempre]]", "[[listens|escucha]] [[always|siempre]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Adverb|Adverbio]] [[before|antes]] [[of|del]] [[verb|verbo]] [[listens.|listens.]]"
-        }
-      ]
+      "title": "[[Keys|Llaves]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[He (____) forgets his keys.|Él (____) olvida sus llaves.]]",
+      "options": ["[[never|nunca]]", "[[always|siempre]]", "[[usually|usualmente]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Never means it doesn't happen|Never significa que no sucede]]."
     },
     "audioUrl": "audio/a1/unit-14/e32.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e33",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Frequency Adverbs",
+    "topic": "Daily Habits",
     "difficulty": "medium",
-    "transcript": "[[We|Nosotros]] [[never|nunca]] [[go|vamos]] [[out|fuera]] [[on|los]] [[Sundays.|domingos.]]",
+    "transcript": "[[She often reads the newspaper|Ella a menudo lee el periódico]].",
     "content": {
-      "title": "[[Sundays|Domingos]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence.|oración.]]",
-      "correctSentence": "[[We|Nosotros]] [[never|nunca]] [[go|vamos]] [[out|fuera]] [[on|los]] [[Sundays.|domingos.]]",
-      "words": ["[[Sundays|domingos]].", "[[on|los]]", "[[out|fuera]]", "[[go|vamos]]", "[[never|nunca]]", "[[We|Nosotros]]"],
-      "explanation": "[[Never|Never]] [[for|para]] [[non-existent|inexistente]] [[habit.|hábito.]]"
+      "title": "[[Newspaper|Periódico]]",
+      "instructions": "[[Complete the verb|Completa el verbo]].",
+      "questions": [
+        {
+          "question": "[[She often (____) the newspaper.|Ella a menudo (____) el periódico.]]",
+          "correctAnswer": "reads",
+          "explanation": "[[Add 's' for third person (she)|Añade 's' para la tercera persona (ella)]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-14/e33.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e34",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Frequency Adverbs",
+    "topic": "Daily Habits",
     "difficulty": "medium",
-    "transcript": "[[Do|¿]] [[they|ellos]] [[usually|normalmente]] [[study|estudian]] [[together?|juntos?]]",
+    "transcript": "[[We always arrive on time|Siempre llegamos a tiempo]].",
     "content": {
-      "title": "[[Studying|Estudiar]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[question.|pregunta.]]",
-      "questions": [
-        {
-          "question": "[[Do|¿]] [[they|ellos]] (_____) [[study|estudian]] [[together?|juntos?]]",
-          "options": ["[[usually|normalmente]]", "[[always|siempre]]", "[[often|a menudo]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Usually|Usually]] [[is|es]] [[very|muy]] [[common|común]] [[in|en]] [[habit|de hábito]] [[questions.|preguntas.]]"
-        }
-      ]
+      "title": "[[Punctuality|Puntualidad]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[We always arrive on time|Siempre llegamos a tiempo]].",
+      "words": ["[[time|tiempo]].", "[[on|a]]", "[[arrive|llegamos]]", "[[always|siempre]]", "[[We|Nosotros]]"],
+      "explanation": "[[Always arrive indicates perfect punctuality|Always arrive indica puntualidad perfecta]]."
     },
     "audioUrl": "audio/a1/unit-14/e34.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e35",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Frequency Expressions",
+    "topic": "Daily Habits",
     "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[drink|bebo]] [[coffee|café]] [[three|tres]] [[times|veces]] [[a|al]] [[day.|día.]]",
+    "transcript": "[[I hardly ever sleep late|Casi nunca duermo hasta tarde]].",
     "content": {
-      "title": "[[Coffee|Café]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence.|oración.]]",
-      "correctSentence": "[[I|Yo]] [[drink|bebo]] [[coffee|café]] [[three|tres]] [[times|veces]] [[a|al]] [[day.|día.]]",
-      "words": ["[[day|día]].", "[[a|al]]", "[[times|veces]]", "[[three|tres]]", "[[coffee|café]]", "[[drink|bebo]]", "[[I|Yo]]"],
-      "explanation": "[[Three|Tres]] [[times|veces]] [[a|al]] [[day.|día.]]"
+      "title": "[[Sleeping|Dormir]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[I (____) sleep late.|(____) duermo hasta tarde.]]",
+      "options": ["[[hardly ever|casi nunca]]", "[[usually|usualmente]]", "[[always|siempre]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Hardly ever means rare occurrence|Hardly ever significa ocurrencia rara]]."
     },
     "audioUrl": "audio/a1/unit-14/e35.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e36",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Frequency Adverbs",
-    "difficulty": "easy",
-    "transcript": "[[I|Yo]] [[am|estoy]] [[often|a menudo]] [[happy.|feliz.]]",
+    "topic": "Daily Habits",
+    "difficulty": "medium",
+    "transcript": "[[Do you usually drink tea?|¿Sueles beber té?]]",
     "content": {
-      "title": "[[Happiness|Felicidad]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[frase.|frase.]]",
+      "title": "[[Tea Habit|Hábito de té]]",
+      "instructions": "[[Complete the question|Completa la pregunta]].",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|estoy]] (_____) [[happy.|feliz.]]",
-          "options": ["[[often|a menudo]]", "[[never|nunca]]", "[[sometimes|a veces]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Adverb|Adverbio]] [[after|después]] [[of|de]] [[am.|am.]]"
+          "question": "[[Do you (____) drink tea?|¿(____) sueles beber té?]]",
+          "correctAnswer": "usually",
+          "explanation": "[[Use usually for typical habits|Usa usually para hábitos típicos]]."
         }
       ]
     },
@@ -678,15 +686,15 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e37",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Frequency Adverbs",
+    "topic": "Daily Habits",
     "difficulty": "medium",
-    "transcript": "[[He|Él]] [[always|siempre]] [[reads|lee]] [[a|un]] [[book|libro]] [[before|antes]] [[bed.|de dormir.]]",
+    "transcript": "[[They sometimes go out for dinner|A veces salen a cenar]].",
     "content": {
-      "title": "[[Reading|Lectura]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence.|oración.]]",
-      "correctSentence": "[[He|Él]] [[always|siempre]] [[reads|lee]] [[a|un]] [[book|libro]] [[before|antes]] [[bed.|de dormir.]]",
-      "words": ["[[bed|dormir]].", "[[before|antes de]]", "[[book|libro]]", "[[a|un]]", "[[reads|lee]]", "[[always|siempre]]", "[[He|Él]]"],
-      "explanation": "[[Reads|Reads]] [[with|con]] '[[s'|s']] [[and|y]] [[adverb|adverbio]] [[before.|antes.]]"
+      "title": "[[Going Out|Salir]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[They sometimes go out for dinner|A veces salen a cenar]].",
+      "words": ["[[dinner|cenar]].", "[[for|a]]", "[[out|fuera]]", "[[go|van]]", "[[sometimes|a veces]]", "[[They|Ellos]]"],
+      "explanation": "[[Sometimes go out indicates occasional activity|Sometimes go out indica actividad ocasional]]."
     },
     "audioUrl": "audio/a1/unit-14/e37.mp3",
     "topicName": "Grammar"
@@ -695,59 +703,54 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e38",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Frequency Expressions",
-    "difficulty": "easy",
-    "transcript": "[[Every|Cada]] [[morning.|mañana.]]",
+    "topic": "Daily Habits",
+    "difficulty": "medium",
+    "transcript": "[[She is often late for school|Ella a menudo llega tarde a la escuela]].",
     "content": {
-      "title": "[[Mornings|Mañanas]]",
-      "instructions": "[[Choose|Elige]] [[the|la]] [[expression.|expresión.]]",
-      "questions": [
-        {
-          "question": "(_____) [[morning|mañana]] [[I|yo]] [[run|corro]].",
-          "options": ["[[Every|Cada]]", "[[All|Todo]]", "[[Always|Siempre]]"],
-          "correctAnswer": 0,
-          "explanation": "'[[Every|Every]] [[morning'|morning']] [[means|significa]] [[all|todas]] [[the|las]] [[mornings.|mañanas.]]"
-        }
-      ]
+      "title": "[[School|Escuela]]",
+      "instructions": "[[Choose the correct order|Elige el orden correcto]].",
+      "question": "[[She (____) late for school.|Ella (____) tarde a la escuela.]]",
+      "options": ["[[is often|a menudo llega]]", "[[often is|está a menudo (incorrecto)]]", "[[often arrives|a menudo llega]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Adverb after 'is'|Adverbio después de 'is']]."
     },
     "audioUrl": "audio/a1/unit-14/e38.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e39",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "How often...?",
+    "topic": "Daily Habits",
     "difficulty": "medium",
-    "transcript": "[[How|¿Qué]] [[often|tan a menudo]] [[does|]] [[she|ella]] [[visit|visita]] [[you?|te?]]",
+    "transcript": "[[We never watch horror movies|Nunca vemos películas de terror]].",
     "content": {
-      "title": "[[Visits|Visitas]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[question.|pregunta.]]",
-      "correctSentence": "[[How|¿Qué]] [[often|tan a menudo]] [[does|]] [[she|ella]] [[visit|visita]] [[you?|te?]]",
-      "words": ["[[you?|te?]]", "[[visit|visita]]", "[[she|ella]]", "[[does|]]", "[[often|tan a menudo]]", "[[How|¿Qué]]"],
-      "explanation": "[[Frequency|Pregunta]] [[question|de]] [[with|frecuencia]] [[third|con]] [[person.|tercera persona.]]"
+      "title": "[[Movies|Películas]]",
+      "instructions": "[[Complete the negative adverb|Completa el adverbio negativo]].",
+      "questions": [
+        {
+          "question": "[[We (____) watch horror movies.|Nosotros (____) vemos películas de terror.]]",
+          "correctAnswer": "never",
+          "explanation": "[[Never indicates zero frequency|Never indica frecuencia cero]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-14/e39.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e40",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Frequency Adverbs",
+    "topic": "Daily Habits",
     "difficulty": "medium",
-    "transcript": "[[Are|¿Estás]] [[you|tú]] [[usually|normalmente]] [[tired|cansado]] [[in|en]] [[the|la]] [[evening?|tarde?]]",
+    "transcript": "[[I usually wake up early|Usualmente me despierto temprano]].",
     "content": {
-      "title": "[[Tiredness|Cansancio]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question.|pregunta.]]",
-      "questions": [
-        {
-          "question": "[[Are|Estás]] [[you|tú]] (_____) [[tired|cansado]] [[in|en]] [[the|la]] [[evening?|tarde?]]",
-          "options": ["[[usually|normalmente]]", "[[always|siempre]]", "[[often|a menudo]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Adverb|Adverbio]] [[after|después]] [[of|de]] [[are|are]] [[you.|you.]]"
-        }
-      ]
+      "title": "[[Morning Habit|Hábito matutino]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[I usually wake up early|Usualmente me despierto temprano]].",
+      "words": ["[[early|temprano]].", "[[up|me]]", "[[wake|despierto]]", "[[usually|usualmente]]", "[[I|Yo]]"],
+      "explanation": "[[Adverb before the main verb 'wake'|Adverbio antes del verbo principal 'wake']]."
     },
     "audioUrl": "audio/a1/unit-14/e40.mp3",
     "topicName": "Grammar"
@@ -756,475 +759,655 @@ export const UNIT_14_EXERCISES: Exercise[] = [
     "id": "a1-u14-e41",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Frequency Adverbs",
-    "difficulty": "easy",
-    "transcript": "[[Always.|Siempre.]] [[Often.|A menudo.]] [[Sometimes.|A veces.]] [[Never.|Nunca.]]",
+    "topic": "Daily Habits",
+    "difficulty": "medium",
+    "transcript": "[[He always calls his parents on Sundays|Él siempre llama a sus padres los domingos]].",
     "content": {
-      "title": "[[From|De]] [[most|más]] [[to|a]] [[least|menos]]",
-      "instructions": "[[Which|Cuál]] [[is|es]] [[less|menos]] [[frequent|frecuente]] [[than|que]] '[[often'|often']] [[but|pero]] [[more|más]] [[than|que]] '[[never'?|never'?]]",
-      "questions": [
-        {
-          "question": "[[Often|A menudo]] > (_____) > [[Never.|Nunca.]]",
-          "options": ["[[Sometimes|A veces]]", "[[Always|Siempre]]", "[[Usually|Normalmente]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Sometimes|Sometimes]] [[is|está]] [[in|en]] [[the|el]] [[middle.|medio.]]"
-        }
-      ]
+      "title": "[[Parents|Padres]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[He (____) calls them.|Él (____) les llama.]]",
+      "options": ["[[always|siempre]]", "[[never|nunca]]", "[[sometimes|a veces]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Always indicates constant habit|Always indica hábito constante]]."
     },
     "audioUrl": "audio/a1/unit-14/e41.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e42",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Frequency Adverbs",
+    "topic": "Daily Habits",
     "difficulty": "medium",
-    "transcript": "[[My|Mis]] [[parents|padres]] [[always|siempre]] [[eat|comen]] [[together.|juntos.]]",
+    "transcript": "[[They are often very busy|A menudo están muy ocupados]].",
     "content": {
-      "title": "[[Eating|Comer]] [[Together|Juntos]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence.|oración.]]",
-      "correctSentence": "[[My|Mis]] [[parents|padres]] [[always|siempre]] [[eat|comen]] [[together.|juntos.]]",
-      "words": ["[[together.|juntos.]]", "[[eat|comen]]", "[[always|siempre]]", "[[parents|padres]]", "[[My|Mis]]"],
-      "explanation": "[[Plural|Sujeto]] [[subject,|plural,]] [[verb|verbo]] [[without|sin]] '[[s'.|s'.]]"
+      "title": "[[Busy|Ocupados]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
+      "questions": [
+        {
+          "question": "[[They are (____) very busy.|Ellos están (____) muy ocupados.]]",
+          "correctAnswer": "often",
+          "explanation": "[[Often indicates high frequency|Often indica alta frecuencia]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-14/e42.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e43",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Frequency Adverbs",
+    "topic": "Daily Habits",
     "difficulty": "medium",
-    "transcript": "[[Is|¿Está]] [[she|ella]] [[often|a menudo]] [[at|en]] [[home?|casa?]]",
+    "transcript": "[[I hardly ever go to the cinema|Casi nunca voy al cine]].",
     "content": {
-      "title": "[[At|En]] [[Home|Casa]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[question.|pregunta.]]",
-      "questions": [
-        {
-          "question": "[[Is|¿Está]] [[she|ella]] (_____) [[at|en]] [[home?|casa?]]",
-          "options": ["[[often|a menudo]]", "[[always|siempre]]", "[[never|nunca]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Adverb|Adverbio]] [[after|después]] [[the|del]] [[subject|sujeto]] [[in|en]] [[questions|preguntas]] [[with|con]] '[[is'.|is'.]]"
-        }
-      ]
+      "title": "[[Cinema|Cine]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[I hardly ever go to the cinema|Casi nunca voy al cine]].",
+      "words": ["[[cinema|cine]].", "[[the|el]]", "[[to|al]]", "[[go|voy]]", "[[ever|nunca]]", "[[hardly|casi]]", "[[I|Yo]]"],
+      "explanation": "[[Hardly ever is a two-word frequency adverb|Hardly ever es un adverbio de frecuencia de dos palabras]]."
     },
     "audioUrl": "audio/a1/unit-14/e43.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e44",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Frequency Adverbs",
+    "topic": "Daily Habits",
     "difficulty": "medium",
-    "transcript": "[[We|Nosotros]] [[hardly|casi]] [[ever|nunca]] [[drink|bebemos]] [[alcohol.|alcohol.]]",
+    "transcript": "[[We sometimes have dinner late|A veces cenamos tarde]].",
     "content": {
-      "title": "[[Drinks|Bebidas]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence.|oración.]]",
-      "correctSentence": "[[We|Nosotros]] [[hardly|casi]] [[ever|nunca]] [[drink|bebemos]] [[alcohol.|alcohol.]]",
-      "words": ["[[alcohol.|alcohol.]]", "[[drink|bebemos]]", "[[hardly ever|casi nunca]]", "[[We|Nosotros]]"],
-      "explanation": "'[[Hardly|Hardly]] [[ever'|ever']] [[for|para]] [[very|muy]] [[low|baja]] [[frequency.|frecuencia.]]"
+      "title": "[[Dinner|Cena]]",
+      "instructions": "[[Choose the correct order|Elige el orden correcto]].",
+      "question": "[[We (____) dinner late.|Nosotros (____) tarde.]]",
+      "options": ["[[sometimes have|a veces cenamos]]", "[[have sometimes|cenamos a veces (incorrecto)]]", "[[are sometimes|somos a veces (incorrecto)]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Adverb before 'have'|Adverbio antes de 'have']]."
     },
     "audioUrl": "audio/a1/unit-14/e44.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u14-e45",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Frequency Expressions",
+    "topic": "Daily Habits",
     "difficulty": "medium",
-    "transcript": "[[Do|¿]] [[you|tú]] [[study|estudias]] [[every|cada]] [[day?|día?]] [[Yes,|Sí,]] [[I|yo]] [[always|siempre]] [[study.|estudio.]]",
+    "transcript": "[[How often do you visit your friends?|¿Qué tan a menudo visitas a tus amigos?]]",
     "content": {
-      "title": "[[Every|Todos]] [[day|los días]]",
-      "instructions": "[[Answer|Responde]] [[the|la]] [[question.|pregunta.]]",
+      "title": "[[Friendship|Amistad]]",
+      "instructions": "[[Complete the question|Completa la pregunta]].",
       "questions": [
         {
-          "question": "[[Do|¿]] [[you|tú]] [[study|estudias]] (_____) [[day?|día?]]",
-          "options": ["[[every|cada]]", "[[all|todo]]", "[[each|cada]]"],
-          "correctAnswer": 0,
-          "explanation": "'[[Every|Every]] [[day'|day']] [[is|es]] [[the|la]] [[most|más]] [[natural|natural]] [[way.|forma.]]"
+          "question": "[[ (____) often do you visit your friends?|¿(____) a menudo visitas a tus amigos?]]",
+          "correctAnswer": "How",
+          "explanation": "[[Use How often for questions|Usa How often para preguntas]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-14/e45.mp3",
     "topicName": "Grammar"
   },
+
+  // ==========================================
+  // LESSON 4: READING COMPREHENSION (46-60)
+  // ==========================================
   {
     "id": "a1-u14-e46",
-    "type": "sentence-building",
+    "type": "reading",
     "level": "A1",
-    "topic": "Frequency Adverbs",
-    "difficulty": "medium",
-    "transcript": "[[I|Yo]] [[sometimes|a veces]] [[listen|escucho]] [[to|a]] [[podcasts|podcasts]] [[in|en]] [[English.|inglés.]]",
+    "topic": "Reading",
+    "difficulty": "hard",
+    "transcript": "[[Healthy Habits|Hábitos Saludables]]. [[Sara has very healthy habits|Sara tiene hábitos muy saludables]]. [[She always wakes up early|Siempre se despierta temprano]]. [[She usually drinks a glass of water first|Usualmente bebe un vaso de agua primero]]. [[She exercises four times a week|Hace ejercicio cuatro veces por semana]]. [[Sara hardly ever eats fast food|Sara casi nunca come comida rápida]]. [[She often goes for a walk in the evening|A menudo sale a caminar por la tarde]]. [[She never smokes and she usually sleeps eight hours|Nunca fuma y usualmente duerme ocho horas]]. [[She is always happy and full of energy|Siempre está feliz y llena de energía]].",
     "content": {
-      "title": "[[Podcasts|Podcasts]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence.|oración.]]",
-      "correctSentence": "[[I|Yo]] [[sometimes|a veces]] [[listen|escucho]] [[to|a]] [[podcasts|podcasts]] [[in|en]] [[English.|inglés.]]",
-      "words": ["[[English.|inglés.]]", "[[in|en]]", "[[podcasts|podcasts]]", "[[to|a]]", "[[listen|escucho]]", "[[sometimes|a veces]]", "[[I|Yo]]"],
-      "explanation": "[[A|Un]] [[learning|hábito]] [[habit.|de aprendizaje.]]"
+      "title": "[[Reading: Healthy Habits|Lectura: Hábitos Saludables]]",
+      "instructions": "[[Read about Sara's habits|Lee sobre los hábitos de Sara]].",
+      "questions": [
+        {
+          "question": "[[Healthy Habits|Hábitos Saludables]]. [[Sara has very healthy habits|Sara tiene hábitos muy saludables]]. [[She always wakes up early|Siempre se despierta temprano]]. [[She usually drinks a glass of water first|Usualmente bebe un vaso de agua primero]]. [[She exercises four times a week|Hace ejercicio cuatro veces por semana]]. [[Sara hardly ever eats fast food|Sara casi nunca come comida rápida]]. [[She often goes for a walk in the evening|A menudo sale a caminar por la tarde]]. [[She never smokes and she usually sleeps eight hours|Nunca fuma y usualmente duerme ocho horas]]. [[She is always happy and full of energy|Siempre está feliz y llena de energía]].",
+          "options": ["[[I have read the text|He leído el texto]]."],
+          "correctAnswer": 0,
+          "explanation": "[[Click to continue|Haz clic para continuar]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-14/e46.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u14-e47",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Frequency Adverbs",
-    "difficulty": "easy",
-    "transcript": "[[He|Él]] [[is|es]] [[usually|normalmente]] [[quiet.|tranquilo.]]",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Does Sara wake up early? Yes, always|¿Sara se despierta temprano? Sí, siempre]].",
     "content": {
-      "title": "[[Personality|Personalidad]]",
-      "instructions": "[[Choose|Elige]] [[the|el]] [[adverb.|adverbio.]]",
-      "questions": [
-        {
-          "question": "[[He|Él]] [[is|es]] (_____) [[quiet|tranquilo]].",
-          "options": ["[[usually|normalmente]]", "[[usually|normalmente]] [[is|es]]", "[[never|nunca]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Adverb|Adverbio]] [[after|después]] [[of|de]] [[is.|is.]]"
-        }
-      ]
+      "title": "[[Comprehension: Morning|Comprensión: Mañana]]",
+      "instructions": "[[Answer based on the text|Responde según el texto]].",
+      "question": "[[Sara (____) wakes up early.|Sara (____) se despierta temprano.]]",
+      "options": ["[[always|siempre]]", "[[never|nunca]]", "[[sometimes|a veces]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says 'She always wakes up early'|El texto dice 'Siempre se despierta temprano']]."
     },
-    "audioUrl": "audio/a1/unit-14/e47.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u14-e48",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Frequency Expressions",
-    "difficulty": "medium",
-    "transcript": "[[They|Ellos]] [[go|van]] [[to|a]] [[the|la]] [[beach|playa]] [[three|tres]] [[times|veces]] [[a|al]] [[year.|año.]]",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[How often does Sara exercise? Four times a week|¿Qué tan a menudo hace ejercicio Sara? Cuatro veces por semana]].",
     "content": {
-      "title": "[[The|La]] [[Beach|Playa]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence.|oración.]]",
-      "correctSentence": "[[They|Ellos]] [[go|van]] [[to|a]] [[the|la]] [[beach|playa]] [[three|tres]] [[times|veces]] [[a|al]] [[year.|año.]]",
-      "words": ["[[year.|año.]]", "[[a|al]]", "[[times|veces]]", "[[three|tres]]", "[[beach|playa]]", "[[the|la]]", "[[to|a]]", "[[go|van]]", "[[They|Ellos]]"],
-      "explanation": "[[Annual|Frecuencia]] [[frequency.|anual.]]"
+      "title": "[[Comprehension: Exercise|Comprensión: Ejercicio]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[Sara exercises|Sara hace ejercicio]] (____).",
+      "options": ["[[four times a week|cuatro veces por semana]]", "[[once a week|una vez por semana]]", "[[every day|cada día]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says 'She exercises four times a week'|El texto dice 'Hace ejercicio cuatro veces por semana']]."
     },
-    "audioUrl": "audio/a1/unit-14/e48.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u14-e49",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "How often...?",
-    "difficulty": "medium",
-    "transcript": "[[How|¿Qué]] [[often|tan a menudo]] [[do|]] [[you|tú]] [[travel?|viajas?]]",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Does Sara eat fast food often? No, hardly ever|¿Sara come comida rápida a menudo? No, casi nunca]].",
     "content": {
-      "title": "[[Traveling|Viajar]]",
-      "instructions": "[[Complete|Completa]] [[the|la]] [[question.|pregunta.]]",
-      "questions": [
-        {
-          "question": "[[How|Qué]] (_____) [[do|]] [[you|tú]] [[travel?|viajas?]]",
-          "options": ["[[often|tan a menudo]]", "[[always|siempre]]", "[[usually|normalmente]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Standard|Pregunta]] [[frequency|estándar]] [[question.|de frecuencia.]]"
-        }
-      ]
+      "title": "[[Comprehension: Food|Comprensión: Comida]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[Sara (____) eats fast food.|Sara (____) come comida rápida.]]",
+      "options": ["[[hardly ever|casi nunca]]", "[[usually|usualmente]]", "[[often|a menudo]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text states 'Sara hardly ever eats fast food'|El texto afirma 'Sara casi nunca come comida rápida']]."
     },
-    "audioUrl": "audio/a1/unit-14/e49.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u14-e50",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Frequency Adverbs",
-    "difficulty": "medium",
-    "transcript": "[[The|El]] [[museum|museo]] [[is|está]] [[always|siempre]] [[closed|cerrado]] [[on|los]] [[Mondays.|lunes.]]",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[When does Sara go for a walk? In the evening|¿Cuándo sale Sara a caminar? Por la tarde]].",
     "content": {
-      "title": "[[Museum|Museo]]",
-      "instructions": "[[Put|Ordena]] [[the|la]] [[sentence.|oración.]]",
-      "correctSentence": "[[The|El]] [[museum|museo]] [[is|está]] [[always|siempre]] [[closed|cerrado]] [[on|los]] [[Mondays.|lunes.]]",
-      "words": ["[[Mondays.|lunes.]]", "[[on|los]]", "[[closed|cerrado]]", "[[always|siempre]]", "[[is|está]]", "[[museum|museo]]", "[[The|El]]"],
-      "explanation": "[[Adverb|Adverbio]] [[after|después]] [[of|de]] '[[is'.|is'.]]"
+      "title": "[[Comprehension: Walking|Comprensión: Caminar]]",
+      "instructions": "[[Identify the time|Identifica el momento]].",
+      "question": "[[She goes for a walk in the|Sale a caminar por la]] (____).",
+      "options": ["[[evening|tarde]]", "[[morning|mañana]]", "[[afternoon|tarde (mediodía)]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says 'She often goes for a walk in the evening'|El texto dice 'A menudo sale a caminar por la tarde']]."
     },
-    "audioUrl": "audio/a1/unit-14/e50.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u14-e51",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "[[My|Mis]] [[health|hábitos]] [[habits.|de salud.]] [[I|Yo]] [[always|siempre]] [[drink|bebo]] [[water|agua]] [[in|por]] [[the|la]] [[morning.|mañana.]] [[I|Yo]] [[usually|normalmente]] [[eat|como]] [[a|una]] [[salad|ensalada]] [[for|para]] [[lunch.|el almuerzo.]] [[I|Yo]] [[sometimes|a veces]] [[go|voy]] [[for|a]] [[a|dar]] [[walk|un paseo]] [[in|por]] [[the|la]] [[evening.|tarde.]] [[I|Yo]] [[never|nunca]] [[smoke.|fumo.]] [[I|Yo]] [[hardly|casi]] [[ever|nunca]] [[eat|como]] [[junk|comida]] [[food.|basura.]] [[I|Yo]] [[want|quiero]] [[to|]] [[be|estar]] [[healthy|sano]] [[for|durante]] [[a|mucho]] [[long|tiempo.]] [[time.|]]",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Does Sara smoke? No, never|¿Sara fuma? No, nunca]].",
     "content": {
-      "title": "[[Healthy|Hábitos]] [[Habits|Saludables]]",
-      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|los]] [[habits|hábitos]] [[and|y]] [[answer.|responde.]]",
-      "questions": [
-        {
-          "question": "[[When|¿Cuándo]] [[does|bebe]] [[the|la]] [[person|persona]] [[drink|]] [[water?|agua?]]",
-          "options": ["[[Always|Siempre]] [[in|por]] [[the|la]] [[morning|mañana]]", "[[Never|Nunca]]", "[[Sometimes|A veces]] [[in|por]] [[the|la]] [[evening|tarde]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[I|Yo]] [[always|siempre]] [[drink|bebo]] [[water|agua]] [[in|por]] [[the|la]] [[morning.|mañana.]]\""
-        },
-        {
-          "question": "[[How|¿Qué]] [[often|tan a menudo]] [[does|fuma]] [[he|él]] [[smoke?|?]]",
-          "options": ["[[Never|Nunca]]", "[[Always|Siempre]]", "[[Hardly|Casi]] [[ever|nunca]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[I|Yo]] [[never|nunca]] [[smoke.|fumo.]]\""
-        }
-      ]
+      "title": "[[Comprehension: Smoking|Comprensión: Fumar]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[Sara (____) smokes.|Sara (____) fuma.]]",
+      "options": ["[[never|nunca]]", "[[sometimes|a veces]]", "[[often|a menudo]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says 'She never smokes'|El texto dice 'Nunca fuma']]."
     },
-    "audioUrl": "audio/a1/unit-14/e51.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u14-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "[[The|El]] [[busy|profesor]] [[teacher.|ocupado.]] [[Mr.|El Sr.]] [[Brown|Brown]] [[is|es]] [[a|un]] [[teacher.|profesor.]] [[He|Él]] [[is|está]] [[always|siempre]] [[busy.|ocupado.]] [[He|Él]] [[usually|normalmente]] [[arrives|llega]] [[at|a la]] [[school|escuela]] [[at|a]] [[seven-thirty.|las siete y media.]] [[He|Él]] [[often|a menudo]] [[has|tiene]] [[meetings|reuniones]] [[after|después de]] [[school.|la escuela.]] [[He|Él]] [[sometimes|a veces]] [[corrects|corrige]] [[homework|los deberes]] [[at|por]] [[night.|la noche.]] [[He|Él]] [[hardly|casi]] [[ever|nunca]] [[goes|sale]] [[out|]] [[on|los]] [[weekdays.|días de semana.]] [[He|Él]] [[is|está]] [[usually|normalmente]] [[very|muy]] [[tired|cansado]] [[on|el]] [[Friday.|viernes.]]",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[How many hours does Sara usually sleep? Eight hours|¿Cuántas horas suele dormir Sara? Ocho horas]].",
     "content": {
-      "title": "[[The|El]] [[Busy|Profesor]] [[Teacher|Ocupado]]",
-      "instructions": "[[Read|Lee]] [[about|sobre]] [[Mr.|el Sr.]] [[Brown.|Brown.]]",
-      "questions": [
-        {
-          "question": "[[What|¿A]] [[time|qué]] [[does|llega]] [[he|él]] [[usually|suele]] [[arrive|]] [[at|a la]] [[school?|escuela?]]",
-          "options": ["[[At|A las]] [[seven-thirty|siete y media]]", "[[At|A las]] [[seven|siete]]", "[[At|A las]] [[eight|ocho]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[He|Él]] [[usually|normalmente]] [[arrives|llega]] [[at|a la]] [[school|escuela]] [[at|a las]] [[seven-thirty.|siete y media.]]\""
-        },
-        {
-          "question": "[[When|¿Cuándo]] [[does|corrige]] [[he|él]] [[correct|]] [[homework?|los deberes?]]",
-          "options": ["[[Sometimes|A veces]] [[at|por]] [[night|la noche]]", "[[Always|Siempre]] [[in|por]] [[the|la]] [[morning|mañana]]", "[[Never|Nunca]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[He|Él]] [[sometimes|a veces]] [[corrects|corrige]] [[homework|los deberes]] [[at|por]] [[night.|la noche.]]\""
-        }
-      ]
+      "title": "[[Comprehension: Sleep|Comprensión: Sueño]]",
+      "instructions": "[[Identify the number of hours|Identifica el número de horas]].",
+      "question": "[[She usually sleeps|Usualmente duerme]] (____) [[hours.|horas.]]",
+      "options": ["[[eight|ocho]]", "[[six|seis]]", "[[seven|siete]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says 'she usually sleeps eight hours'|El texto dice 'usualmente duerme ocho horas']]."
     },
-    "audioUrl": "audio/a1/unit-14/e52.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u14-e53",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "[[Our|La]] [[restaurant's|frecuencia]] [[frequency.|de nuestro restaurante.]] [[We|Nosotros]] [[are|estamos]] [[always|siempre]] [[open|abiertos]] [[from|de]] [[Tuesday|martes]] [[to|a]] [[Sunday.|domingo.]] [[We|Nosotros]] [[are|estamos]] [[never|nunca]] [[open|abiertos]] [[on|los]] [[Monday.|lunes.]] [[We|Nosotros]] [[usually|normalmente]] [[have|hay]] [[many|mucha]] [[people|gente]] [[on|el]] [[Saturday|sábado]] [[night.|por la noche.]] [[We|Nosotros]] [[often|a menudo]] [[have|tenemos]] [[a|un]] [[special|especial]] [[menu|menú]] [[on|el]] [[Sunday.|domingo.]] [[People|La gente]] [[sometimes|a veces]] [[call|llama]] [[to|para]] [[book|reservar]] [[a|una]] [[table.|mesa.]] [[We|Nosotros]] [[hardly|casi]] [[ever|nunca]] [[have|tenemos]] [[empty|mesas]] [[tables|vacías]] [[on|los]] [[weekends.|fines de semana.]]",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Is Sara often sad? No, she is always happy|¿Sara está triste a menudo? No, siempre está feliz]].",
     "content": {
-      "title": "[[Our|Nuestro]] [[Restaurant|Restaurante]]",
-      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|el]] [[restaurant.|restaurante.]]",
-      "questions": [
-        {
-          "question": "[[When|¿Cuándo]] [[is|está]] [[the|el]] [[restaurant|restaurante]] [[open?|abierto?]]",
-          "options": ["[[Tuesday|Martes]] [[to|a]] [[Sunday|domingo]]", "[[Every|Todos]] [[day|los días]]", "[[Only|Solo]] [[on|el]] [[Monday|lunes]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[We|Nosotros]] [[are|estamos]] [[always|siempre]] [[open|abiertos]] [[from|de]] [[Tuesday|martes]] [[to|a]] [[Sunday.|domingo.]]\""
-        },
-        {
-          "question": "[[Is|¿Está]] [[the|el]] [[restaurant|restaurante]] [[open|abierto]] [[on|el]] [[Monday?|lunes?]]",
-          "options": ["[[No,|No,]] [[never|nunca]]", "[[Yes,|Sí,]] [[always|siempre]]", "[[Sometimes|A veces]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[We|Nosotros]] [[are|estamos]] [[never|nunca]] [[open|abiertos]] [[on|los]] [[Monday.|lunes.]]\""
-        }
-      ]
+      "title": "[[Comprehension: Mood|Comprensión: Estado de ánimo]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[Sara is (____) happy.|Sara (____) está feliz.]]",
+      "options": ["[[always|siempre]]", "[[never|nunca]]", "[[sometimes|a veces]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says 'She is always happy'|El texto dice 'Siempre está feliz']]."
     },
-    "audioUrl": "audio/a1/unit-14/e53.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u14-e54",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "[[My|El]] [[sister's|ejercicio]] [[exercise.|de mi hermana.]] [[My|Mi]] [[sister|hermana]] [[is|es]] [[very|muy]] [[active.|activa.]] [[She|Ella]] [[always|siempre]] [[goes|va]] [[to|al]] [[the|el]] [[gym|gimnasio]] [[in|por]] [[the|la]] [[morning.|mañana.]] [[She|Ella]] [[usually|normalmente]] [[runs|corre]] [[for|durante]] [[forty|cuarenta]] [[minutes.|minutos.]] [[She|Ella]] [[often|a menudo]] [[plays|juega]] [[tennis|al tenis]] [[with|con]] [[her|sus]] [[friends|amigos]] [[on|el]] [[Wednesday.|miércoles.]] [[She|Ella]] [[sometimes|a veces]] [[goes|va]] [[swimming|a nadar]] [[in|en]] [[the|el]] [[sea.|mar.]] [[She|Ella]] [[hardly|casi]] [[ever|nunca]] [[relaxes|se relaja]] [[on|el]] [[the|fin]] [[weekend.|de semana.]]",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[Sara has very healthy habits|Sara tiene hábitos muy saludables]].",
     "content": {
-      "title": "[[My|El]] [[Sister's|Ejercicio]] [[Exercise|de mi Hermana]]",
-      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|la]] [[sister.|hermana.]]",
+      "title": "[[Grammar Check|Chequeo de Gramática]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[How|¿Qué]] [[often|tan a menudo]] [[does|va]] [[she|ella]] [[go|]] [[to|al]] [[the|el]] [[gym?|gimnasio?]]",
-          "options": ["[[Always|Siempre]] [[in|por]] [[the|la]] [[morning|mañana]]", "[[Sometimes|A veces]]", "[[Never|Nunca]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[She|Ella]] [[always|siempre]] [[goes|va]] [[to|al]] [[the|el]] [[gym|gimnasio]] [[in|por]] [[the|la]] [[morning.|mañana.]]\""
-        },
-        {
-          "question": "[[When|¿Cuándo]] [[does|juega]] [[she|ella]] [[play|]] [[tennis?|al tenis?]]",
-          "options": ["[[On|El]] [[Wednesday|miércoles]]", "[[Every|Cada]] [[day|día]]", "[[On|El]] [[Monday|lunes]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[She|Ella]] [[often|a menudo]] [[plays|juega]] [[tennis|al tenis]] [[with|con]] [[her|sus]] [[friends|amigos]] [[on|el]] [[Wednesday.|miércoles.]]\""
+          "question": "[[Sara (____) very healthy habits.|Sara tiene hábitos muy saludables.]]",
+          "correctAnswer": "has",
+          "explanation": "[[Use 'has' for third person singular|Usa 'has' para la tercera persona del singular]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-14/e54.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u14-e55",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "[[Cleaning|Hábitos]] [[habits.|de limpieza.]] [[We|Nosotros]] [[always|siempre]] [[clean|limpiamos]] [[our|nuestra]] [[house|casa]] [[on|el]] [[Saturday.|sábado.]] [[I|Yo]] [[usually|normalmente]] [[clean|limpio]] [[the|la]] [[kitchen.|cocina.]] [[My|Mi]] [[husband|esposo]] [[often|a menudo]] [[cleans|limpia]] [[the|el]] [[garden.|jardín.]] [[Our|Nuestros]] [[children|hijos]] [[sometimes|a veces]] [[help|nos]] [[us.|ayudan.]] [[We|Nosotros]] [[never|nunca]] [[clean|limpiamos]] [[on|el]] [[Sunday|domingo]] [[because|porque]] [[we|nosotros]] [[usually|normalmente]] [[visit|visitamos]] [[our|a nuestros]] [[grandparents.|abuelos.]] [[It|Es]] [[is|nuestra]] [[our|rutina]] [[weekly|semanal.]] [[routine.|]]",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[She usually sleeps eight hours|Ella usualmente duerme ocho horas]].",
     "content": {
-      "title": "[[Cleaning|Hábitos]] [[Habits|de Limpieza]]",
-      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|la]] [[cleaning.|limpieza.]]",
-      "questions": [
-        {
-          "question": "[[When|¿Cuándo]] [[do|]] [[they|ellos]] [[clean|limpian]] [[the|la]] [[house?|casa?]]",
-          "options": ["[[Always|Siempre]] [[on|los]] [[Saturday|sábados]]", "[[On|Los]] [[Sunday|domingos]]", "[[Never|Nunca]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[We|Nosotros]] [[always|siempre]] [[clean|limpiamos]] [[our|nuestra]] [[house|casa]] [[on|el]] [[Saturday.|sábado.]]\""
-        },
-        {
-          "question": "[[Who|¿Quién]] [[cleans|limpia]] [[the|el]] [[garden?|jardín?]]",
-          "options": ["[[The|El]] [[husband|esposo]]", "[[The|La]] [[wife|esposa]]", "[[The|Los]] [[children|niños]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[My|Mi]] [[husband|esposo]] [[often|a menudo]] [[cleans|limpia]] [[the|el]] [[garden.|jardín.]]\""
-        }
-      ]
+      "title": "[[Sentence Building|Construcción de Frases]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[She usually sleeps eight hours|Ella usualmente duerme ocho horas]].",
+      "words": ["[[hours|horas]].", "[[eight|ocho]]", "[[sleeps|duerme]]", "[[usually|usualmente]]", "[[She|Ella]]"],
+      "explanation": "[[Subject + Adverb + Verb + Object|Sujeto + Adverbio + Verbo + Objeto]]."
     },
-    "audioUrl": "audio/a1/unit-14/e55.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u14-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "[[My|El]] [[grandfather's|café]] [[coffee.|de mi abuelo.]] [[My|Mi]] [[grandfather|abuelo]] [[loves|ama]] [[coffee.|el café.]] [[He|Él]] [[always|siempre]] [[has|toma]] [[a|una]] [[cup|taza]] [[of|de]] [[coffee|café]] [[at|a las]] [[seven|siete]] [[AM.|de la mañana.]] [[He|Él]] [[usually|normalmente]] [[has|toma]] [[another|otra]] [[cup|taza]] [[at|a las]] [[eleven.|once.]] [[He|Él]] [[often|a menudo]] [[goes|va]] [[to|a]] [[a|una]] [[cafe|cafetería]] [[with|con]] [[his|sus]] [[friends|amigos]] [[in|por]] [[the|la]] [[afternoon.|tarde.]] [[He|Él]] [[never|nunca]] [[drinks|toma]] [[coffee|café]] [[at|por la]] [[night|noche]] [[because|porque]] [[he|él]] [[usually|normalmente]] [[sleeps|se duerme]] [[early.|temprano.]]",
+    "topic": "Vocabulary",
+    "difficulty": "hard",
+    "transcript": "[[What does 'wakes up' mean? Stop sleeping|¿Qué significa 'wakes up'? Dejar de dormir]].",
     "content": {
-      "title": "[[Grandfather's|El Café]] [[Coffee|del Abuelo]]",
-      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|el]] [[grandfather.|abuelo.]]",
-      "questions": [
-        {
-          "question": "[[When|¿Cuándo]] [[does|toma]] [[he|él]] [[has|]] [[his|su]] [[first|primer]] [[coffee?|café?]]",
-          "options": ["[[At|A las]] [[seven|7]] [[AM|AM]]", "[[At|A las]] [[eleven|11]] [[AM|AM]]", "[[At|Por la]] [[night|noche]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[He|Él]] [[always|siempre]] [[has|toma]] [[a|una]] [[cup|taza]] [[of|de]] [[coffee|café]] [[at|a las]] [[seven|siete]] [[AM.|de la mañana.]]\""
-        },
-        {
-          "question": "[[Does|¿Bebe]] [[he|él]] [[drink|]] [[coffee|café]] [[at|por la]] [[night?|noche?]]",
-          "options": ["[[No,|No,]] [[never|nunca]]", "[[Yes,|Sí,]] [[always|siempre]]", "[[Usually|Normalmente]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[He|Él]] [[never|nunca]] [[drinks|toma]] [[coffee|café]] [[at|por la]] [[night.|noche.]]\""
-        }
-      ]
+      "title": "[[Vocabulary Check|Chequeo de Vocabulario]]",
+      "instructions": "[[Identify the meaning|Identifica el significado]].",
+      "question": "[[Wakes up means:|Wakes up significa:]]",
+      "options": ["[[stop sleeping|dejar de dormir]]", "[[start sleeping|empezar a dormir]]", "[[go to work|ir a trabajar]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Waking up is the end of sleep|Despertarse es el fin del sueño]]."
     },
-    "audioUrl": "audio/a1/unit-14/e56.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u14-e57",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "[[English|Estudio]] [[study.|de inglés.]] [[How|¿Qué]] [[often|tan a menudo]] [[do|]] [[you|estudias]] [[study|]] [[English?|inglés?]] [[I|Estudio]] [[study|]] [[every|todos]] [[day.|los días.]] [[I|Yo]] [[usually|normalmente]] [[study|estudio]] [[for|durante]] [[one|una]] [[hour.|hora.]] [[I|Yo]] [[often|a menudo]] [[listen|escucho]] [[to|]] [[English|canciones]] [[songs|en inglés]] [[in|en]] [[my|mi]] [[car.|coche.]] [[I|Yo]] [[sometimes|a veces]] [[talk|hablo]] [[to|con]] [[my|mis]] [[friends|amigos]] [[in|en]] [[English.|inglés.]] [[I|Yo]] [[hardly|casi]] [[ever|nunca]] [[watch|veo]] [[movies|películas]] [[in|en]] [[Spanish|español]] [[now.|ahora.]] [[I|Yo]] [[always|siempre]] [[try|intento]] [[to|]] [[learn|aprender]] [[new|palabras]] [[words.|nuevas.]]",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[Sara doesn't smoke|Sara no fuma]].",
     "content": {
-      "title": "[[English|Estudio]] [[Study|de Inglés]]",
-      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|el]] [[study.|estudio.]]",
+      "title": "[[Negative Sentence|Frase Negativa]]",
+      "instructions": "[[Complete with the correct auxiliary|Completa con el auxiliar correcto]].",
       "questions": [
         {
-          "question": "[[How|¿Qué]] [[often|tan a menudo]] [[does|estudia]] [[the|la]] [[person|persona]] [[study?|?]]",
-          "options": ["[[Every|Cada]] [[day|día]]", "[[Once|Una vez]] [[a|a la]] [[week|semana]]", "[[Never|Nunca]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[I|Estudio]] [[study|]] [[every|todos]] [[day.|los días.]]\""
-        },
-        {
-          "question": "[[Where|¿Dónde]] [[does|escucha]] [[he|él]] [[listen|]] [[to|]] [[English|canciones]] [[songs?|en inglés?]]",
-          "options": ["[[In|En]] [[his|su]] [[car|coche]]", "[[At|En]] [[home|casa]]", "[[At|En la]] [[school|escuela]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[I|Yo]] [[often|a menudo]] [[listen|escucho]] [[to|]] [[English|canciones]] [[songs|en inglés]] [[in|en]] [[my|mi]] [[car.|coche.]]\""
+          "question": "[[Sara (____) smoke.|Sara no fuma.]]",
+          "correctAnswer": "doesn't",
+          "explanation": "[[Use 'doesn't' for third person negative|Usa 'doesn't' para la negativa de tercera persona]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-14/e57.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u14-e58",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "[[My|La]] [[dog's|rutina]] [[routine.|de mi perro.]] [[My|Mi]] [[dog,|perro,]] [[Max,|Max,]] [[is|es]] [[very|muy]] [[happy.|feliz.]] [[He|Él]] [[always|siempre]] [[wakes|se despierta]] [[up|]] [[early.|temprano.]] [[We|Nosotros]] [[usually|normalmente]] [[go|vamos]] [[for|a]] [[a|dar]] [[walk|un paseo]] [[at|a las]] [[six|seis]] [[AM.|de la mañana.]] [[He|Él]] [[often|a menudo]] [[plays|juega]] [[with|con]] [[his|su]] [[ball|pelota]] [[in|en]] [[the|el]] [[park.|parque.]] [[He|Él]] [[sometimes|a veces]] [[barks|ladra]] [[at|a]] [[the|los]] [[neighbors.|vecinos.]] [[He|Él]] [[never|nunca]] [[eats|come]] [[chocolate|chocolate]] [[because|porque]] [[it|es]] [[is|malo]] [[bad|para]] [[for|él.]] [[him.|]] [[I|Yo]] [[always|siempre]] [[give|le doy]] [[him|]] [[good|buena]] [[food.|comida.]]",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[She is always full of energy|Siempre está llena de energía]].",
     "content": {
-      "title": "[[My|La]] [[Dog's|Rutina]] [[Routine|de mi Perro]]",
-      "instructions": "[[Read|Lee]] [[about|sobre]] [[Max.|Max.]]",
-      "questions": [
-        {
-          "question": "[[What|¿A]] [[time|qué]] [[do|]] [[they|ellos]] [[usually|suelen]] [[go|ir]] [[for|a]] [[a|dar]] [[walk?|un paseo?]]",
-          "options": ["[[At|A las]] [[six|6]] [[AM|AM]]", "[[At|A las]] [[seven|7]] [[AM|AM]]", "[[At|Por la]] [[night|noche]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[We|Nosotros]] [[usually|normalmente]] [[go|vamos]] [[for|a]] [[a|dar]] [[walk|un paseo]] [[at|a las]] [[six|seis]] [[AM.|de la mañana.]]\""
-        },
-        {
-          "question": "[[Does|¿Come]] [[Max|Max]] [[eat|]] [[chocolate?|chocolate?]]",
-          "options": ["[[No,|No,]] [[never|nunca]]", "[[Yes,|Sí,]] [[always|siempre]]", "[[Sometimes|A veces]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[He|Él]] [[never|nunca]] [[eats|come]] [[chocolate|chocolate]] [[because|porque]] [[it|es]] [[is|malo]] [[bad|para]] [[for|él.]] [[him.|]]\""
-        }
-      ]
+      "title": "[[Energy|Energía]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[She is always full of energy|Siempre está llena de energía]].",
+      "words": ["[[energy|energía]].", "[[of|de]]", "[[full|llena]]", "[[always|siempre]]", "[[is|está]]", "[[She|Ella]]"],
+      "explanation": "[[Adverb after 'is' and before the adjective phrase|Adverbio después de 'is' y antes de la frase adjetiva]]."
     },
-    "audioUrl": "audio/a1/unit-14/e58.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u14-e59",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "[[Weather|Frecuencia]] [[frequency.|del clima.]] [[In|En]] [[my|mi]] [[city,|ciudad,]] [[it|]] [[is|normalmente]] [[usually|hace]] [[sunny|sol]] [[in|en]] [[summer.|verano.]] [[It|]] [[often|A menudo]] [[rains|llueve]] [[in|en]] [[October.|octubre.]] [[It|]] [[hardly|Casi]] [[ever|nunca]] [[snows|nieva]] [[in|en]] [[winter.|invierno.]] [[We|Nosotros]] [[always|siempre]] [[have|tenemos]] [[a|un]] [[big|gran]] [[festival|festival]] [[in|en]] [[July.|julio.]] [[People|La gente]] [[sometimes|a veces]] [[travel|viaja]] [[to|a]] [[other|otras]] [[cities|ciudades]] [[for|por]] [[vacation.|vacaciones.]] [[I|Yo]] [[usually|normalmente]] [[stay|me quedo]] [[at|en]] [[home|casa]] [[and|y]] [[relax.|me relajo.]]",
+    "topic": "Vocabulary",
+    "difficulty": "hard",
+    "transcript": "[[What is the opposite of 'always'? Never|¿Qué es lo opuesto de 'always'? Nunca (never)]].",
     "content": {
-      "title": "[[Weather|Frecuencia]] [[Frequency|del Clima]]",
-      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|el]] [[weather.|clima.]]",
-      "questions": [
-        {
-          "question": "[[When|¿Cuándo]] [[does|llueve]] [[it|]] [[often|a menudo]] [[rain?|?]]",
-          "options": ["[[In|En]] [[October|octubre]]", "[[In|En]] [[July|julio]]", "[[In|En]] [[summer|verano]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[It|]] [[often|A menudo]] [[rains|llueve]] [[in|en]] [[October.|octubre.]]\""
-        },
-        {
-          "question": "[[How|¿Qué]] [[often|tan a menudo]] [[does|nieva]] [[it|]] [[snow|]] [[in|en]] [[winter?|invierno?]]",
-          "options": ["[[Hardly|Casi]] [[ever|nunca]]", "[[Always|Siempre]]", "[[Usually|Normalmente]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[It|]] [[hardly|Casi]] [[ever|nunca]] [[snows|nieva]] [[in|en]] [[winter.|invierno.]]\""
-        }
-      ]
+      "title": "[[Opposites|Opuestos]]",
+      "instructions": "[[Identify the opposite word|Identifica el opuesto]].",
+      "question": "[[Opposite of always:|Opuesto de always:]]",
+      "options": ["[[never|nunca]]", "[[usually|usualmente]]", "[[sometimes|a veces]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Never is the zero frequency opposite of always|Never es el opuesto de frecuencia cero de always]]."
     },
-    "audioUrl": "audio/a1/unit-14/e59.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u14-e60",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Reading Comprehension",
-    "difficulty": "medium",
-    "transcript": "[[Office|Hábitos]] [[habits.|de oficina.]] [[My|Mi]] [[boss|jefe]] [[is|siempre]] [[always|llega]] [[on|puntual.]] [[time.|]] [[He|Él]] [[usually|normalmente]] [[arrives|llega]] [[at|a las]] [[eight-fifty|ocho y cincuenta]] [[AM.|AM.]] [[He|Él]] [[often|a menudo]] [[has|toma]] [[coffee|café]] [[with|con]] [[us.|nosotros.]] [[We|Nosotros]] [[sometimes|a veces]] [[have|almorzamos]] [[lunch|]] [[in|en]] [[the|la]] [[office.|oficina.]] [[We|Nosotros]] [[never|nunca]] [[finish|terminamos]] [[work|de trabajar]] [[late|tarde]] [[on|el]] [[Friday.|viernes.]] [[We|Nosotros]] [[always|siempre]] [[leave|nos vamos]] [[at|a las]] [[four|cuatro]] [[PM.|PM.]] [[It|Es]] [[is|una]] [[a|buena]] [[good|cultura]] [[office|de]] [[culture.|oficina.]]",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[How often does she exercise?|¿Qué tan a menudo hace ejercicio?]]",
     "content": {
-      "title": "[[Office|Hábitos]] [[Habits|de Oficina]]",
-      "instructions": "[[Read|Lee]] [[about|sobre]] [[the|la]] [[office.|oficina.]]",
+      "title": "[[Question Structure|Estructura de Pregunta]]",
+      "instructions": "[[Complete the question|Completa la pregunta]].",
       "questions": [
         {
-          "question": "[[Is|¿Llega]] [[the|el]] [[boss|jefe]] [[on|puntual?]] [[time?|]]",
-          "options": ["[[Yes,|Sí,]] [[always|siempre]]", "[[No,|No,]] [[never|nunca]]", "[[Sometimes|A veces]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[My|Mi]] [[boss|jefe]] [[is|siempre]] [[always|llega]] [[on|puntual.]] [[time.|]]\""
-        },
-        {
-          "question": "[[When|¿Cuándo]] [[do|terminan]] [[they|ellos]] [[finish|]] [[work|de trabajar]] [[on|los]] [[Friday?|viernes?]]",
-          "options": ["[[At|A las]] [[four|4]] [[PM|PM]]", "[[At|A las]] [[five|5]] [[PM|PM]]", "[[At|A las]] [[nine|9]] [[AM|AM]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The|El]] [[text|texto]] [[says:|dice:]] \"[[We|Nosotros]] [[always|siempre]] [[leave|nos vamos]] [[at|a las]] [[four|cuatro]] [[PM.|PM.]]\""
+          "question": "[[How often (____) she exercise?|¿Qué tan a menudo (____) hace ejercicio?]]",
+          "correctAnswer": "does",
+          "explanation": "[[Use 'does' for third person questions|Usa 'does' para preguntas de tercera persona]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-14/e60.mp3",
     "topicName": "Reading"
+  },
+
+  // ==========================================
+  // LESSON 5: LISTENING & PRONUNCIATION (61-75)
+  // ==========================================
+  {
+    "id": "a1-u14-e61",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I always drink coffee in the morning|Siempre bebo café por la mañana]].",
+    "audioUrl": "audio/a1/unit-14/e61.mp3",
+    "content": {
+      "title": "[[Listening: Coffee|Escucha: Café]]",
+      "instructions": "[[Listen and identify the frequency|Escucha e identifica la frecuencia]].",
+      "questions": [{
+        "id": "q61",
+        "type": "multiple-choice",
+        "question": "[[Does the person drink coffee?|¿La persona bebe café?]]",
+        "options": ["[[Yes, always|Sí, siempre]]", "[[No, never|No, nunca]]", "[[Sometimes|A veces]]"],
+        "correctAnswer": "[[Yes, always|Sí, siempre]]",
+        "explanation": "[[The speaker says 'I always drink coffee'|El hablante dice 'I always drink coffee']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u14-e62",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I go to the gym twice a week|Voy al gimnasio dos veces por semana]].",
+    "audioUrl": "audio/a1/unit-14/e62.mp3",
+    "content": {
+      "title": "[[Listening: Gym|Escucha: Gimnasio]]",
+      "instructions": "[[Listen and identify the frequency|Escucha e identifica la frecuencia]].",
+      "questions": [{
+        "id": "q62",
+        "type": "multiple-choice",
+        "question": "[[How often does the person go to the gym?|¿Qué tan a menudo va al gimnasio la persona?]]",
+        "options": ["[[twice a week|dos veces por semana]]", "[[once a week|una vez por semana]]", "[[every day|cada día]]"],
+        "correctAnswer": "[[twice a week|dos veces por semana]]",
+        "explanation": "[[The speaker says 'twice a week'|El hablante dice 'twice a week']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u14-e63",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I never arrive late to meetings|Nunca llego tarde a las reuniones]].",
+    "audioUrl": "audio/a1/unit-14/e63.mp3",
+    "content": {
+      "title": "[[Listening: Punctuality|Escucha: Puntualidad]]",
+      "instructions": "[[Listen and identify the habit|Escucha e identifica el hábito]].",
+      "questions": [{
+        "id": "q63",
+        "type": "multiple-choice",
+        "question": "[[Is the person late to meetings?|¿La persona llega tarde a las reuniones?]]",
+        "options": ["[[No, never|No, nunca]]", "[[Yes, often|Sí, a menudo]]", "[[Sometimes|A veces]]"],
+        "correctAnswer": "[[No, never|No, nunca]]",
+        "explanation": "[[The speaker says 'I never arrive late'|El hablante dice 'I never arrive late']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u14-e64",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I usually have dinner at seven-thirty|Usualmente ceno a las siete y media]].",
+    "audioUrl": "audio/a1/unit-14/e64.mp3",
+    "content": {
+      "title": "[[Listening: Dinner|Escucha: Cena]]",
+      "instructions": "[[Listen and identify the time|Escucha e identifica la hora]].",
+      "questions": [{
+        "id": "q64",
+        "type": "multiple-choice",
+        "question": "[[What time is dinner usually?|¿A qué hora suele ser la cena?]]",
+        "options": ["[[7:30|7:30]]", "[[8:30|8:30]]", "[[7:00|7:00]]"],
+        "correctAnswer": "[[7:30|7:30]]",
+        "explanation": "[[The speaker says 'seven-thirty'|El hablante dice 'seven-thirty']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u14-e65",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I check my phone every hour|Reviso mi teléfono cada hora]].",
+    "audioUrl": "audio/a1/unit-14/e65.mp3",
+    "content": {
+      "title": "[[Listening: Phone|Escucha: Teléfono]]",
+      "instructions": "[[Listen and identify the frequency|Escucha e identifica la frecuencia]].",
+      "questions": [{
+        "id": "q65",
+        "type": "multiple-choice",
+        "question": "[[How often does the person check their phone?|¿Qué tan a menudo revisa su teléfono la persona?]]",
+        "options": ["[[every hour|cada hora]]", "[[twice a day|dos veces al día]]", "[[once a day|una vez al día]]"],
+        "correctAnswer": "[[every hour|cada hora]]",
+        "explanation": "[[The speaker says 'every hour'|El hablante dice 'every hour']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u14-e66",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I sometimes walk to work|A veces camino al trabajo]].",
+    "audioUrl": "audio/a1/unit-14/e66.mp3",
+    "content": {
+      "title": "[[Listening: Walking|Escucha: Caminar]]",
+      "instructions": "[[Listen and identify the frequency|Escucha e identifica la frecuencia]].",
+      "questions": [{
+        "id": "q66",
+        "type": "multiple-choice",
+        "question": "[[Does the person walk to work?|¿La persona camina al trabajo?]]",
+        "options": ["[[Sometimes|A veces]]", "[[Always|Siempre]]", "[[Never|Nunca]]"],
+        "correctAnswer": "[[Sometimes|A veces]]",
+        "explanation": "[[The speaker says 'I sometimes walk'|El hablante dice 'I sometimes walk']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u14-e67",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I go on holiday once a year|Me voy de vacaciones una vez al año]].",
+    "audioUrl": "audio/a1/unit-14/e67.mp3",
+    "content": {
+      "title": "[[Listening: Holiday|Escucha: Vacaciones]]",
+      "instructions": "[[Listen and identify the frequency|Escucha e identifica la frecuencia]].",
+      "questions": [{
+        "id": "q67",
+        "type": "multiple-choice",
+        "question": "[[How often does the person go on holiday?|¿Qué tan a menudo se va de vacaciones la persona?]]",
+        "options": ["[[once a year|una vez al año]]", "[[twice a year|dos veces al año]]", "[[every month|cada mes]]"],
+        "correctAnswer": "[[once a year|una vez al año]]",
+        "explanation": "[[The speaker says 'once a year'|El hablante dice 'once a year']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u14-e68",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I hardly ever watch the news|Casi nunca veo las noticias]].",
+    "audioUrl": "audio/a1/unit-14/e68.mp3",
+    "content": {
+      "title": "[[Listening: News|Escucha: Noticias]]",
+      "instructions": "[[Listen and identify the frequency|Escucha e identifica la frecuencia]].",
+      "questions": [{
+        "id": "q68",
+        "type": "multiple-choice",
+        "question": "[[Does the person watch the news often?|¿La persona ve las noticias a menudo?]]",
+        "options": ["[[No, hardly ever|No, casi nunca]]", "[[Yes, always|Sí, siempre]]", "[[Sometimes|A veces]]"],
+        "correctAnswer": "[[No, hardly ever|No, casi nunca]]",
+        "explanation": "[[The speaker says 'I hardly ever watch'|El hablante dice 'I hardly ever watch']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u14-e69",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[I always wake up early|Siempre me despierto temprano]].",
+    "audioUrl": "audio/a1/unit-14/e69.mp3",
+    "content": {
+      "title": "[[Pronunciation: Always|Pronunciación: Siempre]]",
+      "instructions": "[[Listen and repeat focusing on word stress|Escucha y repite enfocándote en la acentuación de las palabras]].",
+      "expectedResponse": "I always wake up early.",
+      "evaluationCriteria": [
+        "[[Correct stress on 'always'|Acentuación correcta en 'always']]",
+        "[[Linking between 'wake' and 'up'|Enlace entre 'wake' y 'up']]",
+        "[[Clear 'l' sound in early|Sonido 'l' claro en early]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u14-e70",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[I usually drink water|Usualmente bebo agua]].",
+    "audioUrl": "audio/a1/unit-14/e70.mp3",
+    "content": {
+      "title": "[[Pronunciation: Usually|Pronunciación: Usualmente]]",
+      "instructions": "[[Listen and repeat focusing on the /ʒ/ sound|Escucha y repite enfocándote en el sonido /ʒ/]].",
+      "expectedResponse": "I usually drink water.",
+      "evaluationCriteria": [
+        "[[Correct /ʒ/ sound in usually|Sonido /ʒ/ correcto en usually]]",
+        "[[Clear 'dr' blend in drink|Combinación 'dr' clara en drink]]",
+        "[[Natural intonation|Entonación natural]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u14-e71",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[I never eat meat|Nunca como carne]].",
+    "audioUrl": "audio/a1/unit-14/e71.mp3",
+    "content": {
+      "title": "[[Pronunciation: Never|Pronunciación: Nunca]]",
+      "instructions": "[[Listen and repeat focusing on the 'v' sound|Escucha y repite enfocándote en el sonido 'v']].",
+      "expectedResponse": "I never eat meat.",
+      "evaluationCriteria": [
+        "[[Clear /v/ sound in never|Sonido /v/ claro en never]]",
+        "[[Short 'e' sound in never|Sonido 'e' corto en never]]",
+        "[[Clear 't' in meat|Sonido 't' claro en meat]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u14-e72",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Once a week|Una vez a la semana]].",
+    "audioUrl": "audio/a1/unit-14/e72.mp3",
+    "content": {
+      "title": "[[Pronunciation: Once|Pronunciación: Una vez]]",
+      "instructions": "[[Listen and repeat focusing on the 's' sound in once|Escucha y repite enfocándote en el sonido 's' en once]].",
+      "expectedResponse": "Once a week.",
+      "evaluationCriteria": [
+        "[[Clear 's' sound in once /wʌns/|Sonido 's' claro en once /wʌns/]]",
+        "[[Linking once with 'a'|Enlace de once con 'a']]",
+        "[[Long /iː/ in week|Vocal larga /iː/ en week]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u14-e73",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Twice a year|Dos veces al año]].",
+    "audioUrl": "audio/a1/unit-14/e73.mp3",
+    "content": {
+      "title": "[[Pronunciation: Twice|Pronunciación: Dos veces]]",
+      "instructions": "[[Listen and repeat focusing on the 'tw' blend|Escucha y repite enfocándote en la combinación 'tw']].",
+      "expectedResponse": "Twice a year.",
+      "evaluationCriteria": [
+        "[[Clear 'tw' sound /tw/|Sonido 'tw' claro /tw/]]",
+        "[[Diphthong in twice /aɪ/|Diptongo en twice /aɪ/]]",
+        "[[Linking twice with 'a'|Enlace de twice con 'a']]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u14-e74",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Every single day|Absolutamente cada día]].",
+    "audioUrl": "audio/a1/unit-14/e74.mp3",
+    "content": {
+      "title": "[[Pronunciation: Every|Pronunciación: Cada]]",
+      "instructions": "[[Listen and repeat focusing on the 'v' and 'd' sounds|Escucha y repite enfocándote en los sonidos 'v' y 'd']].",
+      "expectedResponse": "Every single day.",
+      "evaluationCriteria": [
+        "[[Clear /v/ in every|'v' clara en every]]",
+        "[[Clear 'ng' in single|'ng' clara en single]]",
+        "[[Diphthong in day /eɪ/|Diptongo en day /eɪ/]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u14-e75",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[How often do you go?|¿Qué tan a menudo vas?]]",
+    "audioUrl": "audio/a1/unit-14/e75.mp3",
+    "content": {
+      "title": "[[Pronunciation: Question|Pronunciación: Pregunta]]",
+      "instructions": "[[Listen and repeat focusing on question intonation|Escucha y repite enfocándote en la entonación de pregunta]].",
+      "expectedResponse": "How often do you go?",
+      "evaluationCriteria": [
+        "[[Rising intonation at the end|Entonación ascendente al final]]",
+        "[[Silent 't' in often (optional but common)|'t' silenciosa en often (opcional pero común)]]",
+        "[[Natural flow|Fluidez natural]]"
+      ]
+    }
   }
 ];

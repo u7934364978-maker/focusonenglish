@@ -1,25 +1,23 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_29_EXERCISES: Exercise[] = [
-  // GRAMMAR: REGULAR VERBS (-ED) (1-20)
+  // ==========================================
+  // LESSON 1: REGULAR VERBS (-ED) (1-15)
+  // ==========================================
   {
     "id": "a1-u29-e1",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
+    "topic": "Past Simple: Regular",
     "difficulty": "easy",
-    "transcript": "I watched TV yesterday.",
+    "transcript": "[[I watched TV yesterday|Vi la televisión ayer]].",
     "content": {
-      "title": "Ver la tele",
-      "instructions": "Completa con el pasado regular de 'watch'.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[TV yesterday.|la tele ayer.]]",
-          "options": ["[[watched|vi]]", "[[watch|veo]]", "[[watching|viendo]]"],
-          "correctAnswer": 0,
-          "explanation": "El pasado de 'watch' es 'watched'."
-        }
-      ]
+      "title": "[[Watch|Ver]]",
+      "instructions": "[[Choose the past form of 'watch'|Elige la forma de pasado de 'watch']].",
+      "question": "[[I (____) TV yesterday.|Yo (____) la tele ayer.]]",
+      "options": ["[[watched|vi]]", "[[watch|veo]]", "[[watching|viendo]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Regular verbs add -ed to the base form|Los verbos regulares añaden -ed a la forma base]]."
     },
     "audioUrl": "audio/a1/unit-29/e1.mp3",
     "topicName": "Grammar"
@@ -28,20 +26,16 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "id": "a1-u29-e2",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
+    "topic": "Past Simple: Regular",
     "difficulty": "easy",
-    "transcript": "She played tennis last Saturday.",
+    "transcript": "[[She played tennis|Ella jugó al tenis]].",
     "content": {
-      "title": "Jugar al tenis",
-      "instructions": "Completa con el pasado de 'play'.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] (_____) [[tennis last Saturday.|al tenis el sábado pasado.]]",
-          "options": ["[[played|jugó]]", "[[play|juega]]", "[[plays|juega (ella)]]"],
-          "correctAnswer": 0,
-          "explanation": "El pasado regular termina en -ed: 'played'."
-        }
-      ]
+      "title": "[[Play|Jugar]]",
+      "instructions": "[[Identify the past of 'play'|Identifica el pasado de 'play']].",
+      "question": "[[She (____) tennis.|Ella (____) al tenis.]]",
+      "options": ["[[played|jugó]]", "[[play|juega]]", "[[playing|jugando]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Played' is the regular past form|'Played' es la forma regular de pasado]]."
     },
     "audioUrl": "audio/a1/unit-29/e2.mp3",
     "topicName": "Grammar"
@@ -50,20 +44,16 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "id": "a1-u29-e3",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
+    "topic": "Past Simple: Regular",
     "difficulty": "easy",
-    "transcript": "They worked very hard.",
+    "transcript": "[[They worked hard|Ellos trabajaron duro]].",
     "content": {
-      "title": "Trabajar mucho",
-      "instructions": "Elige la forma pasada de 'work'.",
-      "questions": [
-        {
-          "question": "[[They|Ellos]] (_____) [[very hard.|muy duro.]]",
-          "options": ["[[worked|trabajaron]]", "[[work|trabajan]]", "[[working|trabajando]]"],
-          "correctAnswer": 0,
-          "explanation": "Añadimos -ed para el pasado: 'worked'."
-        }
-      ]
+      "title": "[[Work|Trabajar]]",
+      "instructions": "[[Choose the correct regular past|Elige el pasado regular correcto]].",
+      "question": "[[They (____) hard.|Ellos (____) duro.]]",
+      "options": ["[[worked|trabajaron]]", "[[work|trabajan]]", "[[working|trabajando]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Work becomes worked in the past|Work se convierte en worked en pasado]]."
     },
     "audioUrl": "audio/a1/unit-29/e3.mp3",
     "topicName": "Grammar"
@@ -72,20 +62,16 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "id": "a1-u29-e4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
+    "topic": "Past Simple: Regular",
     "difficulty": "easy",
-    "transcript": "We visited our grandparents.",
+    "transcript": "[[We visited London|Visitamos Londres]].",
     "content": {
-      "title": "Visita",
-      "instructions": "Elige el pasado de 'visit'.",
-      "questions": [
-        {
-          "question": "[[We|Nosotros]] (_____) [[our grandparents.|a nuestros abuelos.]]",
-          "options": ["[[visited|visitamos (pasado)]]", "[[visit|visitamos (presente)]]", "[[visiting|visitando]]"],
-          "correctAnswer": 0,
-          "explanation": "'Visited' es el pasado."
-        }
-      ]
+      "title": "[[Visit|Visitar]]",
+      "instructions": "[[Identify the past form|Identifica la forma de pasado]].",
+      "question": "[[We (____) London.|Nosotros (____) Londres.]]",
+      "options": ["[[visited|visitamos]]", "[[visit|visitamos]]", "[[visiting|visitando]]"],
+      "correctAnswer": 0,
+      "explanation": "[[We use -ed for visited|Usamos -ed para visited]]."
     },
     "audioUrl": "audio/a1/unit-29/e4.mp3",
     "topicName": "Grammar"
@@ -94,20 +80,16 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "id": "a1-u29-e5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
+    "topic": "Past Simple: Regular",
     "difficulty": "easy",
-    "transcript": "I cooked dinner last night.",
+    "transcript": "[[It rained all day|Llovió todo el día]].",
     "content": {
-      "title": "Cocinar",
-      "instructions": "Completa con el pasado de 'cook'.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[dinner last night.|la cena anoche.]]",
-          "options": ["[[cooked|cociné]]", "[[cook|cocino]]", "[[cooks|cocina]]"],
-          "correctAnswer": 0,
-          "explanation": "El pasado es 'cooked'."
-        }
-      ]
+      "title": "[[Rain|Llover]]",
+      "instructions": "[[Choose the correct past form|Elige la forma de pasado correcta]].",
+      "question": "[[It (____) all day.|(____) todo el día.]]",
+      "options": ["[[rained|llovió]]", "[[rain|llueve]]", "[[raining|lloviendo]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Rained' is the past of 'rain'|'Rained' es el pasado de 'rain']]."
     },
     "audioUrl": "audio/a1/unit-29/e5.mp3",
     "topicName": "Grammar"
@@ -116,40 +98,35 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "id": "a1-u29-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
+    "topic": "Past Simple: Regular",
     "difficulty": "easy",
-    "transcript": "He cleaned his room.",
+    "transcript": "[[He cleaned his room|Él limpió su habitación]].",
     "content": {
-      "title": "Limpiar",
-      "instructions": "Completa con el pasado de 'clean'.",
-      "questions": [
-        {
-          "question": "[[He|Él]] (_____) [[his room.|su habitación.]]",
-          "options": ["[[cleaned|limpió]]", "[[clean|limpia]]", "[[cleaning|limpiando]]"],
-          "correctAnswer": 0,
-          "explanation": "'Cleaned' es el pasado regular."
-        }
-      ]
+      "title": "[[Clean|Limpiar]]",
+      "instructions": "[[Identify the past of 'clean'|Identifica el pasado de 'clean']].",
+      "question": "[[He (____) his room.|Él (____) su habitación.]]",
+      "options": ["[[cleaned|limpió]]", "[[clean|limpia]]", "[[cleaning|limpiando]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Cleaned' is the past form|'Cleaned' es la forma de pasado]]."
     },
     "audioUrl": "audio/a1/unit-29/e6.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e7",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
+    "topic": "Past Simple: Regular",
     "difficulty": "easy",
-    "transcript": "It rained all day.",
+    "transcript": "[[I cooked dinner|Cociné la cena]].",
     "content": {
-      "title": "Lluvia",
-      "instructions": "Elige el pasado de 'rain'.",
+      "title": "[[Cook|Cocinar]]",
+      "instructions": "[[Complete the past form|Completa la forma de pasado]].",
       "questions": [
         {
-          "question": "[[It|Llovió]] (_____) [[all day.|todo el día.]]",
-          "options": ["[[rained|]]", "[[rains|]]", "[[raining|]]"],
-          "correctAnswer": 0,
-          "explanation": "'Rained' es el pasado de 'rain'."
+          "question": "[[I (____) dinner.|Yo (____) la cena.]]",
+          "correctAnswer": "cooked",
+          "explanation": "[[Cook + ed = cooked|Cook + ed = cooked]]."
         }
       ]
     },
@@ -160,20 +137,16 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "id": "a1-u29-e8",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
-    "difficulty": "medium",
-    "transcript": "We danced at the party.",
+    "topic": "Past Simple: Regular",
+    "difficulty": "easy",
+    "transcript": "[[We danced at the party|Bailamos en la fiesta]].",
     "content": {
-      "title": "Bailar",
-      "instructions": "Verbo terminado en -e, añade solo -d.",
-      "questions": [
-        {
-          "question": "[[We|Bailamos]] (_____) [[at the party.|en la fiesta.]]",
-          "options": ["[[danced|]]", "[[danceed|]]", "[[dance|]]"],
-          "correctAnswer": 0,
-          "explanation": "Si el verbo termina en 'e', solo añadimos 'd': 'danced'."
-        }
-      ]
+      "title": "[[Dance|Bailar]]",
+      "instructions": "[[Choose the correct spelling|Elige la ortografía correcta]].",
+      "question": "[[We (____) at the party.|Nosotros (____) en la fiesta.]]",
+      "options": ["[[danced|bailamos]]", "[[danceed|]]", "[[dance|bailamos]]"],
+      "correctAnswer": 0,
+      "explanation": "[[If the verb ends in -e, just add -d|Si el verbo termina en -e, solo añade -d]]."
     },
     "audioUrl": "audio/a1/unit-29/e8.mp3",
     "topicName": "Grammar"
@@ -182,40 +155,35 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "id": "a1-u29-e9",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
-    "difficulty": "medium",
-    "transcript": "I studied English for two hours.",
+    "topic": "Past Simple: Regular",
+    "difficulty": "easy",
+    "transcript": "[[I studied hard|Estudié mucho]].",
     "content": {
-      "title": "Estudiar",
-      "instructions": "Verbo terminado en consonante + y.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[English for two hours.|inglés durante dos horas.]]",
-          "options": ["[[studied|estudié]]", "[[studyed|]]", "[[studyed|]]"],
-          "correctAnswer": 0,
-          "explanation": "Cambiamos 'y' por 'i' y añadimos 'ed': 'studied'."
-        }
-      ]
+      "title": "[[Study|Estudiar]]",
+      "instructions": "[[Choose the correct past form|Elige la forma de pasado correcta]].",
+      "question": "[[I (____) hard.|Yo (____) mucho.]]",
+      "options": ["[[studied|estudié]]", "[[studyed|]]", "[[study|estudio]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Consonant + y becomes -ied|Consonante + y se convierte en -ied]]."
     },
     "audioUrl": "audio/a1/unit-29/e9.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e10",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
-    "difficulty": "medium",
-    "transcript": "He stopped the car.",
+    "topic": "Past Simple: Regular",
+    "difficulty": "easy",
+    "transcript": "[[He stopped the car|Él paró el coche]].",
     "content": {
-      "title": "Parar",
-      "instructions": "Verbo corto con vocal corta, dobla la consonante.",
+      "title": "[[Stop|Parar]]",
+      "instructions": "[[Complete the past form|Completa la forma de pasado]].",
       "questions": [
         {
-          "question": "[[He|Él]] (_____) [[the car.|el coche.]]",
-          "options": ["[[stopped|paró]]", "[[stoped|]]", "[[stops|]]"],
-          "correctAnswer": 0,
-          "explanation": "Doblamos la consonante final: 'stopped'."
+          "question": "[[He (____) the car.|Él (____) el coche.]]",
+          "correctAnswer": "stopped",
+          "explanation": "[[Short verbs with one vowel double the consonant|Los verbos cortos con una vocal doblan la consonante]]."
         }
       ]
     },
@@ -224,22 +192,17 @@ export const UNIT_29_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u29-e11",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
-    "difficulty": "medium",
-    "transcript": "I did not watch the game.",
+    "topic": "Past Simple: Regular",
+    "difficulty": "easy",
+    "transcript": "[[I arrived late|Llegué tarde]].",
     "content": {
-      "title": "Negación",
-      "instructions": "Usa 'did not' + verbo en infinitivo.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[the game.|el partido.]]",
-          "options": ["[[did not watch|no vi]]", "[[did not watched|]]", "[[not watched|]]"],
-          "correctAnswer": 0,
-          "explanation": "En negativa usamos 'did not' y el verbo vuelve a su forma base."
-        }
-      ]
+      "title": "[[Arrive|Llegar]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[I arrived late|Llegué tarde]].",
+      "words": ["[[late|tarde]].", "[[arrived|llegué]]", "[[I|Yo]]"],
+      "explanation": "[[Subject + Verb + Complement|Sujeto + Verbo + Complemento]]."
     },
     "audioUrl": "audio/a1/unit-29/e11.mp3",
     "topicName": "Grammar"
@@ -248,40 +211,35 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "id": "a1-u29-e12",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
-    "difficulty": "medium",
-    "transcript": "She didn't call me.",
+    "topic": "Past Simple: Regular",
+    "difficulty": "easy",
+    "transcript": "[[She lived in Spain|Ella vivía en España]].",
     "content": {
-      "title": "Contracción",
-      "instructions": "Usa la forma corta 'didn't'.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] (_____) [[me.|no me llamó.]]",
-          "options": ["[[didn't call|no llamó]]", "[[didn't called|]]", "[[doesn't call|no llama]]"],
-          "correctAnswer": 0,
-          "explanation": "'Didn't' + forma base del verbo."
-        }
-      ]
+      "title": "[[Live|Vivir]]",
+      "instructions": "[[Identify the past form|Identifica la forma de pasado]].",
+      "question": "[[She (____) in Spain.|Ella (____) en España.]]",
+      "options": ["[[lived|vivía]]", "[[live|vive]]", "[[living|viviendo]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Regular past of live is lived|El pasado regular de live es lived]]."
     },
     "audioUrl": "audio/a1/unit-29/e12.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e13",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
-    "difficulty": "medium",
-    "transcript": "Did you enjoy the party?",
+    "topic": "Past Simple: Regular",
+    "difficulty": "easy",
+    "transcript": "[[They wanted coffee|Ellos querían café]].",
     "content": {
-      "title": "Pregunta",
-      "instructions": "Usa 'Did' para empezar la pregunta.",
+      "title": "[[Want|Querer]]",
+      "instructions": "[[Complete the past form|Completa la forma de pasado]].",
       "questions": [
         {
-          "question": "(_____) [[you enjoy the party?|¿disfrutaste de la fiesta?]]",
-          "options": ["[[Did|¿]]", "[[Do|¿]]", "[[Does|¿]]"],
-          "correctAnswer": 0,
-          "explanation": "Preguntas en pasado empiezan con 'Did'."
+          "question": "[[They (____) coffee.|Ellos (____) café.]]",
+          "correctAnswer": "wanted",
+          "explanation": "[[Want + ed = wanted|Want + ed = wanted]]."
         }
       ]
     },
@@ -292,76 +250,73 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "id": "a1-u29-e14",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
-    "difficulty": "medium",
-    "transcript": "Where did they live?",
+    "topic": "Past Simple: Regular",
+    "difficulty": "easy",
+    "transcript": "[[He helped me|Él me ayudó]].",
     "content": {
-      "title": "Pregunta de información",
-      "instructions": "Estructura: WH + Did + Sujeto + Verbo.",
-      "questions": [
-        {
-          "question": "[[Where|Dónde]] (_____) [[they live?|vivían ellos?]]",
-          "options": ["[[did|]]", "[[do|]]", "[[were|]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'did' para el auxiliar de pasado."
-        }
-      ]
+      "title": "[[Help|Ayudar]]",
+      "instructions": "[[Identify the past form|Identifica la forma de pasado]].",
+      "question": "[[He (____) me.|Él (____) me.]]",
+      "options": ["[[helped|ayudó]]", "[[help|ayuda]]", "[[helping|ayudando]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Help + ed = helped|Help + ed = helped]]."
     },
     "audioUrl": "audio/a1/unit-29/e14.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e15",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
+    "topic": "Past Simple: Regular",
     "difficulty": "easy",
-    "transcript": "We arrived late.",
+    "transcript": "[[We talked a lot|Hablamos mucho]].",
     "content": {
-      "title": "Llegar",
-      "instructions": "Pasado de 'arrive'.",
-      "questions": [
-        {
-          "question": "[[We|Llegamos]] (_____) [[late.|tarde.]]",
-          "options": ["[[arrived|]]", "[[arrive|]]", "[[arriving|]]"],
-          "correctAnswer": 0,
-          "explanation": "'Arrive' termina en 'e', añadimos 'd'."
-        }
-      ]
+      "title": "[[Talk|Hablar]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[We talked a lot|Hablamos mucho]].",
+      "words": ["[[lot|mucho]].", "[[a|un]]", "[[talked|hablamos]]", "[[We|Nosotros]]"],
+      "explanation": "[[Recalling a past conversation|Recordando una conversación pasada]]."
     },
     "audioUrl": "audio/a1/unit-29/e15.mp3",
     "topicName": "Grammar"
   },
+
+  // ==========================================
+  // LESSON 2: IRREGULAR VERBS (16-30)
+  // ==========================================
   {
     "id": "a1-u29-e16",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
-    "difficulty": "hard",
-    "transcript": "Did you clean your room?",
+    "topic": "Past Simple: Irregular",
+    "difficulty": "medium",
+    "transcript": "[[I went to London|Fui a Londres]].",
     "content": {
-      "title": "Pregunta de limpieza",
-      "instructions": "Ordena la pregunta en pasado.",
-      "correctSentence": "[[Did you clean your room|¿Limpiaste tu habitación]]?",
-      "words": ["[[room|habitación]]?", "[[your|tu]]", "[[clean|limpiaste]]", "[[you|tú]]", "[[Did|¿]]"],
-      "explanation": "Auxiliar 'Did' al principio."
+      "title": "[[Go|Ir]]",
+      "instructions": "[[Choose the past of 'go'|Elige el pasado de 'go']].",
+      "question": "[[I (____) to London.|Yo (____) a Londres.]]",
+      "options": ["[[went|fui]]", "[[goed|]]", "[[go|voy]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Go' is irregular; the past is 'went'|'Go' es irregular; el pasado es 'went']]."
     },
     "audioUrl": "audio/a1/unit-29/e16.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e17",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
-    "difficulty": "hard",
-    "transcript": "I didn't like the film.",
+    "topic": "Past Simple: Irregular",
+    "difficulty": "medium",
+    "transcript": "[[She ate an apple|Ella se comió una manzana]].",
     "content": {
-      "title": "No me gustó",
-      "instructions": "Ordena la oración negativa.",
-      "correctSentence": "[[I didn't like the film|No me gustó la película]].",
-      "words": ["[[film|película]].", "[[the|la]]", "[[like|gustó]]", "[[didn't|no]]", "[[I|Yo]]"],
-      "explanation": "Sujeto + didn't + verbo base."
+      "title": "[[Eat|Comer]]",
+      "instructions": "[[Choose the past of 'eat'|Elige el pasado de 'eat']].",
+      "question": "[[She (____) an apple.|Ella (____) una manzana.]]",
+      "options": ["[[ate|comió]]", "[[eated|]]", "[[eat|come]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Eat' is irregular; the past is 'ate'|'Eat' es irregular; el pasado es 'ate']]."
     },
     "audioUrl": "audio/a1/unit-29/e17.mp3",
     "topicName": "Grammar"
@@ -370,20 +325,16 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "id": "a1-u29-e18",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
+    "topic": "Past Simple: Irregular",
     "difficulty": "medium",
-    "transcript": "They wanted to go out.",
+    "transcript": "[[They had a party|Tuvieron una fiesta]].",
     "content": {
-      "title": "Querer",
-      "instructions": "Pasado de 'want'.",
-      "questions": [
-        {
-          "question": "[[They|Ellos]] (_____) [[to go out.|querían salir.]]",
-          "options": ["[[wanted|querían]]", "[[wants|quieren]]", "[[wanting|queriendo]]"],
-          "correctAnswer": 0,
-          "explanation": "'Wanted' es el pasado de 'want'."
-        }
-      ]
+      "title": "[[Have|Tener]]",
+      "instructions": "[[Choose the past of 'have'|Elige el pasado de 'have']].",
+      "question": "[[They (____) a party.|Ellos (____) una fiesta.]]",
+      "options": ["[[had|tuvieron]]", "[[haved|]]", "[[have|tienen]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Have' is irregular; the past is 'had'|'Have' es irregular; el pasado es 'had']]."
     },
     "audioUrl": "audio/a1/unit-29/e18.mp3",
     "topicName": "Grammar"
@@ -392,20 +343,16 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "id": "a1-u29-e19",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
+    "topic": "Past Simple: Irregular",
     "difficulty": "medium",
-    "transcript": "I talked to my boss.",
+    "transcript": "[[He saw a movie|Él vio una película]].",
     "content": {
-      "title": "Hablar",
-      "instructions": "Pasado de 'talk'.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[to my boss.|hablé con mi jefe.]]",
-          "options": ["[[talked|hablé]]", "[[talks|habla]]", "[[talking|hablando]]"],
-          "correctAnswer": 0,
-          "explanation": "'Talked' es el pasado regular."
-        }
-      ]
+      "title": "[[See|Ver]]",
+      "instructions": "[[Choose the past of 'see'|Elige el pasado de 'see']].",
+      "question": "[[He (____) a movie.|Él (____) una película.]]",
+      "options": ["[[saw|vio]]", "[[seed|]]", "[[see|ve]]"],
+      "correctAnswer": 0,
+      "explanation": "[['See' is irregular; the past is 'saw'|'See' es irregular; el pasado es 'saw']]."
     },
     "audioUrl": "audio/a1/unit-29/e19.mp3",
     "topicName": "Grammar"
@@ -414,910 +361,1056 @@ export const UNIT_29_EXERCISES: Exercise[] = [
     "id": "a1-u29-e20",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: Regular Verbs",
-    "difficulty": "hard",
-    "transcript": "Did it happen yesterday?",
+    "topic": "Past Simple: Irregular",
+    "difficulty": "medium",
+    "transcript": "[[We drank water|Bebimos agua]].",
     "content": {
-      "title": "¿Pasó ayer?",
-      "instructions": "Pregunta sobre un suceso.",
-      "questions": [
-        {
-          "question": "(_____) [[it happen yesterday?|¿pasó ayer?]]",
-          "options": ["[[Did|¿]]", "[[Was|¿Estaba]]", "[[Does|¿Pasa]]"],
-          "correctAnswer": 0,
-          "explanation": "Pregunta de acción en pasado."
-        }
-      ]
+      "title": "[[Drink|Beber]]",
+      "instructions": "[[Choose the past of 'drink'|Elige el pasado de 'drink']].",
+      "question": "[[We (____) water.|Nosotros (____) agua.]]",
+      "options": ["[[drank|bebimos]]", "[[drinked|]]", "[[drink|bebemos]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Drink' is irregular; the past is 'drank'|'Drink' es irregular; el pasado es 'drank']]."
     },
     "audioUrl": "audio/a1/unit-29/e20.mp3",
     "topicName": "Grammar"
   },
-
-  // VOCABULARY: COMMON REGULAR VERBS (21-40)
   {
     "id": "a1-u29-e21",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "easy",
-    "transcript": "I opened the window.",
+    "topic": "Past Simple: Irregular",
+    "difficulty": "medium",
+    "transcript": "[[I bought a car|Compré un coche]].",
     "content": {
-      "title": "Abrir",
-      "instructions": "Pasado de 'open'.",
+      "title": "[[Buy|Comprar]]",
+      "instructions": "[[Complete the past of 'buy'|Completa el pasado de 'buy']].",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[the window.|la ventana.]]",
-          "options": ["[[opened|abrí]]", "[[closed|cerré]]", "[[watched|vi]]"],
-          "correctAnswer": 0,
-          "explanation": "'Opened' es abrí."
+          "question": "[[I (____) a car.|Yo (____) un coche.]]",
+          "correctAnswer": "bought",
+          "explanation": "[['Bought' is the past of 'buy'|'Bought' es el pasado de 'buy']]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-29/e21.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e22",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "easy",
-    "transcript": "She closed the door.",
+    "topic": "Past Simple: Irregular",
+    "difficulty": "medium",
+    "transcript": "[[She came home|Vino a casa]].",
     "content": {
-      "title": "Cerrar",
-      "instructions": "Pasado de 'close'.",
+      "title": "[[Come|Venir]]",
+      "instructions": "[[Complete the past of 'come'|Completa el pasado de 'come']].",
       "questions": [
         {
-          "question": "[[She|Ella]] (_____) [[the door.|la puerta.]]",
-          "options": ["[[closed|cerró]]", "[[opened|abrió]]", "[[played|jugó]]"],
-          "correctAnswer": 0,
-          "explanation": "'Closed' es cerró."
+          "question": "[[She (____) home.|Ella (____) a casa.]]",
+          "correctAnswer": "came",
+          "explanation": "[['Came' is the past of 'come'|'Came' es el pasado de 'come']]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-29/e22.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e23",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "easy",
-    "transcript": "We listened to music.",
+    "topic": "Past Simple: Irregular",
+    "difficulty": "medium",
+    "transcript": "[[They spoke English|Hablaron inglés]].",
     "content": {
-      "title": "Escuchar",
-      "instructions": "Pasado de 'listen'.",
-      "questions": [
-        {
-          "question": "[[We|Nosotros]] (_____) [[to music.|música.]]",
-          "options": ["[[listened|escuchamos]]", "[[looked|miramos]]", "[[stayed|nos quedamos]]"],
-          "correctAnswer": 0,
-          "explanation": "'Listened' es escuchamos."
-        }
-      ]
+      "title": "[[Speak|Hablar]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[They spoke English|Hablaron inglés]].",
+      "words": ["[[English|inglés]].", "[[spoke|hablaron]]", "[[They|Ellos]]"],
+      "explanation": "[['Spoke' is the past of 'speak'|'Spoke' es el pasado de 'speak']]."
     },
     "audioUrl": "audio/a1/unit-29/e23.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e24",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "easy",
-    "transcript": "He looked at the map.",
+    "topic": "Past Simple: Irregular",
+    "difficulty": "medium",
+    "transcript": "[[I knew the answer|Sabía la respuesta]].",
     "content": {
-      "title": "Mirar",
-      "instructions": "Pasado de 'look'.",
-      "questions": [
-        {
-          "question": "[[He|Él]] (_____) [[at the map.|el mapa.]]",
-          "options": ["[[looked|miró]]", "[[listened|escuchó]]", "[[arrived|llegó]]"],
-          "correctAnswer": 0,
-          "explanation": "'Looked' es miró."
-        }
-      ]
+      "title": "[[Know|Saber]]",
+      "instructions": "[[Identify the past of 'know'|Identifica el pasado de 'know']].",
+      "question": "[[I (____) the answer.|Yo (____) la respuesta.]]",
+      "options": ["[[knew|sabía]]", "[[knowed|]]", "[[know|sé]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Knew' is the past of 'know'|'Knew' es el pasado de 'know']]."
     },
     "audioUrl": "audio/a1/unit-29/e24.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e25",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Common Verbs",
+    "topic": "Past Simple: Irregular",
     "difficulty": "medium",
-    "transcript": "They stayed at a hotel.",
+    "transcript": "[[We made a cake|Hicimos un pastel]].",
     "content": {
-      "title": "Quedarse / Alojarse",
-      "instructions": "Pasado de 'stay'.",
+      "title": "[[Make|Hacer]]",
+      "instructions": "[[Complete the past of 'make'|Completa el pasado de 'make']].",
       "questions": [
         {
-          "question": "[[They|Ellos]] (_____) [[at a hotel.|en un hotel.]]",
-          "options": ["[[stayed|se quedaron]]", "[[lived|vivieron]]", "[[worked|trabajaron]]"],
-          "correctAnswer": 0,
-          "explanation": "'Stayed' es se quedaron."
+          "question": "[[We (____) a cake.|Nosotros (____) un pastel.]]",
+          "correctAnswer": "made",
+          "explanation": "[['Made' is the past of 'make'|'Made' es el pasado de 'make']]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-29/e25.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e26",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Common Verbs",
+    "topic": "Past Simple: Irregular",
     "difficulty": "medium",
-    "transcript": "I called my parents yesterday.",
+    "transcript": "[[He told a story|Él contó una historia]].",
     "content": {
-      "title": "Llamar",
-      "instructions": "Pasado de 'call'.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[my parents yesterday.|a mis padres ayer.]]",
-          "options": ["[[called|llamé]]", "[[talked|hablé]]", "[[visited|visité]]"],
-          "correctAnswer": 0,
-          "explanation": "'Called' es llamé."
-        }
-      ]
+      "title": "[[Tell|Contar]]",
+      "instructions": "[[Identify the past of 'tell'|Identifica el pasado de 'tell']].",
+      "question": "[[He (____) a story.|Él (____) una historia.]]",
+      "options": ["[[told|contó]]", "[[telled|]]", "[[tell|cuenta]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Told' is the past of 'tell'|'Told' es el pasado de 'tell']]."
     },
     "audioUrl": "audio/a1/unit-29/e26.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e27",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Common Verbs",
+    "topic": "Past Simple: Irregular",
     "difficulty": "medium",
-    "transcript": "She started a new job.",
+    "transcript": "[[I took a photo|Saqué una foto]].",
     "content": {
-      "title": "Empezar",
-      "instructions": "Pasado de 'start'.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] (_____) [[a new job.|un nuevo trabajo.]]",
-          "options": ["[[started|empezó]]", "[[finished|terminó]]", "[[stopped|paró]]"],
-          "correctAnswer": 0,
-          "explanation": "'Started' es empezó."
-        }
-      ]
+      "title": "[[Take|Sacar]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[I took a photo|Saqué una foto]].",
+      "words": ["[[photo|foto]].", "[[a|una]]", "[[took|saqué]]", "[[I|Yo]]"],
+      "explanation": "[['Took' is the past of 'take'|'Took' es el pasado de 'take']]."
     },
     "audioUrl": "audio/a1/unit-29/e27.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e28",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Common Verbs",
+    "topic": "Past Simple: Irregular",
     "difficulty": "medium",
-    "transcript": "The movie finished at 10 pm.",
+    "transcript": "[[We sat down|Nos sentamos]].",
     "content": {
-      "title": "Terminar",
-      "instructions": "Pasado de 'finish'.",
-      "questions": [
-        {
-          "question": "[[The movie|La película]] (_____) [[at 10 pm.|a las 10 pm.]]",
-          "options": ["[[finished|terminó]]", "[[started|empezó]]", "[[danced|bailó]]"],
-          "correctAnswer": 0,
-          "explanation": "'Finished' es terminó."
-        }
-      ]
+      "title": "[[Sit|Sentarse]]",
+      "instructions": "[[Identify the past of 'sit'|Identifica el pasado de 'sit']].",
+      "question": "[[We (____) down.|Nosotros (____).]]",
+      "options": ["[[sat|sentamos]]", "[[sitted|]]", "[[sit|sentamos]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Sat' is the past of 'sit'|'Sat' es el pasado de 'sit']]."
     },
     "audioUrl": "audio/a1/unit-29/e28.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e29",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "easy",
-    "transcript": "We walked to the park.",
+    "topic": "Past Simple: Irregular",
+    "difficulty": "medium",
+    "transcript": "[[She read a book|Ella leyó un libro]].",
     "content": {
-      "title": "Caminar",
-      "instructions": "Pasado de 'walk'.",
+      "title": "[[Read|Leer]]",
+      "instructions": "[[Complete the past of 'read'|Completa el pasado de 'read']].",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[to the park.|al parque.]]",
-          "options": ["[[walked|caminamos]]", "[[drove|condujimos]]", "[[arrived|llegamos]]"],
-          "correctAnswer": 0,
-          "explanation": "'Walked' es caminamos."
+          "question": "[[She (____) a book.|Ella (____) un libro.]]",
+          "correctAnswer": "read",
+          "explanation": "[['Read' is written the same in the past but pronounced /red/|'Read' se escribe igual en pasado pero se pronuncia /red/]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-29/e29.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e30",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "hard",
-    "transcript": "I asked a question.",
+    "topic": "Past Simple: Irregular",
+    "difficulty": "medium",
+    "transcript": "[[He wrote a letter|Escribió una carta]].",
     "content": {
-      "title": "Preguntar",
-      "instructions": "Pasado de 'ask'.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[a question.|una pregunta.]]",
-          "options": ["[[asked|pregunté]]", "[[answered|respondí]]", "[[talked|hablé]]"],
-          "correctAnswer": 0,
-          "explanation": "'Asked' es pregunté."
-        }
-      ]
+      "title": "[[Write|Escribir]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[He wrote a letter|Escribió una carta]].",
+      "words": ["[[letter|carta]].", "[[a|una]]", "[[wrote|escribió]]", "[[He|Él]]"],
+      "explanation": "[['Wrote' is the past of 'write'|'Wrote' es el pasado de 'write']]."
     },
     "audioUrl": "audio/a1/unit-29/e30.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
+
+  // ==========================================
+  // LESSON 3: NEGATIVE & QUESTIONS (31-45)
+  // ==========================================
   {
     "id": "a1-u29-e31",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Common Verbs",
+    "topic": "Past Simple: Negative",
     "difficulty": "medium",
-    "transcript": "He answered the phone.",
+    "transcript": "[[I didn't watch TV|No vi la tele]].",
     "content": {
-      "title": "Responder",
-      "instructions": "Pasado de 'answer'.",
-      "questions": [
-        {
-          "question": "[[He|Él]] (_____) [[the phone.|el teléfono.]]",
-          "options": ["[[answered|respondió]]", "[[asked|preguntó]]", "[[called|llamó]]"],
-          "correctAnswer": 0,
-          "explanation": "'Answered' es respondió."
-        }
-      ]
+      "title": "[[Negative|Negativo]]",
+      "instructions": "[[Choose the correct negative structure|Elige la estructura negativa correcta]].",
+      "question": "[[I (____) TV.|Yo (____) la tele.]]",
+      "options": ["[[didn't watch|no vi]]", "[[didn't watched|]]", "[[don't watch|no veo]]"],
+      "correctAnswer": 0,
+      "explanation": "[[In the negative, we use 'didn't' + base form|En negativa, usamos 'didn't' + forma base]]."
     },
     "audioUrl": "audio/a1/unit-29/e31.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e32",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Common Verbs",
+    "topic": "Past Simple: Negative",
     "difficulty": "medium",
-    "transcript": "They moved to a new city.",
+    "transcript": "[[She didn't go out|Ella no salió]].",
     "content": {
-      "title": "Mudarse",
-      "instructions": "Pasado de 'move'.",
-      "questions": [
-        {
-          "question": "[[They|Ellos]] (_____) [[to a new city.|a una nueva ciudad.]]",
-          "options": ["[[moved|se mudaron]]", "[[stayed|se quedaron]]", "[[visited|visitaron]]"],
-          "correctAnswer": 0,
-          "explanation": "'Moved' es se mudaron."
-        }
-      ]
+      "title": "[[Negative|Negativo]]",
+      "instructions": "[[Identify the correct negative form|Identifica la forma negativa correcta]].",
+      "question": "[[She (____) out.|Ella (____).]]",
+      "options": ["[[didn't go|no salió]]", "[[didn't went|]]", "[[not went|]]"],
+      "correctAnswer": 0,
+      "explanation": "[[We use the base form 'go' with 'didn't'|Usamos la forma base 'go' con 'didn't']]."
     },
     "audioUrl": "audio/a1/unit-29/e32.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e33",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "easy",
-    "transcript": "We used the computer.",
+    "topic": "Past Simple: Negative",
+    "difficulty": "medium",
+    "transcript": "[[They didn't eat lunch|No almorzaron]].",
     "content": {
-      "title": "Usar",
-      "instructions": "Pasado de 'use'.",
+      "title": "[[Negative|Negativo]]",
+      "instructions": "[[Complete the negative sentence|Completa la frase negativa]].",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[the computer.|el ordenador.]]",
-          "options": ["[[used|usamos]]", "[[watched|vimos]]", "[[played|jugamos]]"],
-          "correctAnswer": 0,
-          "explanation": "'Used' es usamos."
+          "question": "[[They (____) lunch.|Ellos (____) el almuerzo.]]",
+          "correctAnswer": "didn't eat",
+          "explanation": "[[Auxiliary didn't + base form|Auxiliar didn't + forma base]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-29/e33.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e34",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Common Verbs",
+    "topic": "Past Simple: Questions",
     "difficulty": "medium",
-    "transcript": "She changed her clothes.",
+    "transcript": "[[Did you see him?|¿Lo viste?]]",
     "content": {
-      "title": "Cambiar",
-      "instructions": "Pasado de 'change'.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] (_____) [[her clothes.|su ropa.]]",
-          "options": ["[[changed|cambió]]", "[[cleaned|limpió]]", "[[watched|miró]]"],
-          "correctAnswer": 0,
-          "explanation": "'Changed' es cambió."
-        }
-      ]
+      "title": "[[Questions|Preguntas]]",
+      "instructions": "[[Identify the correct question structure|Identifica la estructura de pregunta correcta]].",
+      "question": "[[ (____) you see him?|¿(____) lo viste?]]",
+      "options": ["[[Did|¿]]", "[[Do|¿]]", "[[Were|¿]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Questions in the past start with 'Did'|Las preguntas en pasado empiezan con 'Did']]."
     },
     "audioUrl": "audio/a1/unit-29/e34.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e35",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Common Verbs",
+    "topic": "Past Simple: Questions",
     "difficulty": "medium",
-    "transcript": "I waited for the bus.",
+    "transcript": "[[Did she call you?|¿Ella te llamó?]]",
     "content": {
-      "title": "Esperar",
-      "instructions": "Pasado de 'wait'.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[for the bus.|el autobús.]]",
-          "options": ["[[waited|esperé]]", "[[arrived|llegué]]", "[[stopped|paré]]"],
-          "correctAnswer": 0,
-          "explanation": "'Waited' es esperé."
-        }
-      ]
+      "title": "[[Questions|Preguntas]]",
+      "instructions": "[[Choose the correct verb form in a question|Elige la forma verbal correcta en una pregunta]].",
+      "question": "[[Did she (____) you?|¿Ella te (____)?]]",
+      "options": ["[[call|llamó]]", "[[called|]]", "[[calls|llama]]"],
+      "correctAnswer": 0,
+      "explanation": "[[We use the base form 'call' in questions|Usamos la forma base 'call' en las preguntas]]."
     },
     "audioUrl": "audio/a1/unit-29/e35.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e36",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "hard",
-    "transcript": "She washed her hands.",
+    "topic": "Past Simple: Questions",
+    "difficulty": "medium",
+    "transcript": "[[Where did you go?|¿A dónde fuiste?]]",
     "content": {
-      "title": "Lavar",
-      "instructions": "Ordena la frase en pasado.",
-      "correctSentence": "[[She washed her hands|Ella se lavó las manos]].",
-      "words": ["[[hands|manos]].", "[[her|sus]]", "[[washed|lavó]]", "[[She|Ella]]"],
-      "explanation": "Pasado de 'wash'."
-    },
-    "audioUrl": "audio/a1/unit-29/e36.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u29-e37",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "easy",
-    "transcript": "He helped me with my homework.",
-    "content": {
-      "title": "Ayudar",
-      "instructions": "Pasado de 'help'.",
+      "title": "[[Questions|Preguntas]]",
+      "instructions": "[[Complete the question|Completa la pregunta]].",
       "questions": [
         {
-          "question": "[[He|Él]] (_____) [[me with my homework.|me ayudó con mis deberes.]]",
-          "options": ["[[helped|ayudó]]", "[[worked|trabajó]]", "[[played|jugó]]"],
-          "correctAnswer": 0,
-          "explanation": "'Helped' es ayudó."
+          "question": "[[Where (____) you go?|¿A dónde (____) fuiste?]]",
+          "correctAnswer": "did",
+          "explanation": "[[Use 'did' after the question word|Usa 'did' después de la palabra interrogativa]]."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-29/e36.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u29-e37",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Past Simple: Questions",
+    "difficulty": "medium",
+    "transcript": "[[What did they say?|¿Qué dijeron?]]",
+    "content": {
+      "title": "[[Questions|Preguntas]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[What did they say?|¿Qué dijeron?]]",
+      "words": ["[[say?|dijeron?]]", "[[they|ellos]]", "[[did|¿]]", "[[What|Qué]]"],
+      "explanation": "[[WH word + did + subject + verb|Palabra WH + did + sujeto + verbo]]."
+    },
     "audioUrl": "audio/a1/unit-29/e37.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e38",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Common Verbs",
+    "topic": "Past Simple: Negative",
     "difficulty": "medium",
-    "transcript": "I enjoyed the movie.",
+    "transcript": "[[We didn't have time|No tuvimos tiempo]].",
     "content": {
-      "title": "Disfrutar",
-      "instructions": "Pasado de 'enjoy'.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[the movie.|la película.]]",
-          "options": ["[[enjoyed|disfruté]]", "[[finished|terminé]]", "[[watched|vi]]"],
-          "correctAnswer": 0,
-          "explanation": "'Enjoyed' es disfruté."
-        }
-      ]
+      "title": "[[Negative|Negativo]]",
+      "instructions": "[[Choose the correct negative form of 'have'|Elige la forma negativa correcta de 'have']].",
+      "question": "[[We (____) time.|Nosotros (____) tiempo.]]",
+      "options": ["[[didn't have|no tuvimos]]", "[[didn't had|]]", "[[haven't|no tenemos]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Didn't have' is the correct past negative|'Didn't have' es el negativo pasado correcto]]."
     },
     "audioUrl": "audio/a1/unit-29/e38.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e39",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "hard",
-    "transcript": "They planned a trip.",
+    "topic": "Past Simple: Negative",
+    "difficulty": "medium",
+    "transcript": "[[He didn't know|Él no sabía]].",
     "content": {
-      "title": "Planear",
-      "instructions": "Doblado de consonante en pasado.",
+      "title": "[[Negative|Negativo]]",
+      "instructions": "[[Complete the negative sentence|Completa la frase negativa]].",
       "questions": [
         {
-          "question": "[[They|Ellos]] (_____) [[a trip.|un viaje.]]",
-          "options": ["[[planned|planearon]]", "[[planed|]]", "[[plans|]]"],
-          "correctAnswer": 0,
-          "explanation": "'Planned' dobla la 'n'."
+          "question": "[[He (____) know.|Él no (____) sabía.]]",
+          "correctAnswer": "didn't",
+          "explanation": "[[Auxiliary for past negative|Auxiliar para el negativo pasado]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-29/e39.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e40",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Common Verbs",
+    "topic": "Past Simple: Negative",
     "difficulty": "medium",
-    "transcript": "We shared the cake.",
+    "transcript": "[[They didn't come back|No regresaron]].",
     "content": {
-      "title": "Compartir",
-      "instructions": "Pasado de 'share'.",
-      "questions": [
-        {
-          "question": "[[We|Nosotros]] (_____) [[the cake.|la tarta.]]",
-          "options": ["[[shared|compartimos]]", "[[cooked|cocinamos]]", "[[ate|comimos]]"],
-          "correctAnswer": 0,
-          "explanation": "'Shared' es el pasado regular."
-        }
-      ]
+      "title": "[[Negative|Negativo]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[They didn't come back|No regresaron]].",
+      "words": ["[[back|regresaron]].", "[[come|venir]]", "[[didn't|no]]", "[[They|Ellos]]"],
+      "explanation": "[[Building a negative irregular sentence|Construyendo una oración irregular negativa]]."
     },
     "audioUrl": "audio/a1/unit-29/e40.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
-
-  // READING & DIALOGUES (41-60)
   {
     "id": "a1-u29-e41",
-    "type": "reading",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
+    "topic": "Past Simple: Questions",
     "difficulty": "medium",
-    "transcript": "Last weekend, Sarah visited her parents. She cooked a delicious lunch for them. After lunch, they walked in the park for an hour. They enjoyed the fresh air. In the evening, Sarah watched a movie and talked to her best friend on the phone. It was a very busy but happy day.",
+    "transcript": "[[Did you buy the tickets?|¿Compraste las entradas?]]",
     "content": {
-      "title": "Sarah's Weekend",
-      "text": "[[Last weekend,|El fin de semana pasado,]] [[Sarah|Sarah]] [[visited|visitó]] [[her parents.|a sus padres.]] [[She|Ella]] [[cooked|cocinó]] [[a delicious lunch|un almuerzo delicioso]] [[for them.|para ellos.]] [[After lunch,|Después del almuerzo,]] [[they|ellos]] [[walked|caminaron]] [[in the park|en el parque]] [[for an hour.|durante una hora.]] [[They|Ellos]] [[enjoyed|disfrutaron]] [[the fresh air.|el aire fresco.]] [[In the evening,|Por la noche,]] [[Sarah|Sarah]] [[watched|vio]] [[a movie|una película]] [[and|y]] [[talked|habló]] [[to her best friend|con su mejor amiga]] [[on the phone.|por teléfono.]] [[It|Fue]] [[was|]] [[a very busy|un día muy ocupado]] [[but|pero]] [[happy day.|feliz.]]",
-      "questions": [
-        {
-          "question": "[[Who|¿A quién]] [[did|]] [[Sarah|Sarah]] [[visit?|visitó?]]",
-          "options": ["[[Her parents|A sus padres]]", "[[Her friend|A su amiga]]", "[[Her boss|A su jefe]]"],
-          "correctAnswer": 0
-        },
-        {
-          "question": "[[What|¿Qué]] [[did|]] [[they|ellos]] [[do|hicieron]] [[after lunch?|después del almuerzo?]]",
-          "options": ["[[They watched a movie|Vieron una película]]", "[[They walked in the park|Caminaron por el parque]]", "[[They cooked lunch|Cocinaron el almuerzo]]"],
-          "correctAnswer": 1
-        }
-      ]
+      "title": "[[Questions|Preguntas]]",
+      "instructions": "[[Identify the correct auxiliary|Identifica el auxiliar correcto]].",
+      "question": "[[ (____) you buy the tickets?|¿(____) compraste las entradas?]]",
+      "options": ["[[Did|¿]]", "[[Do|¿]]", "[[Were|¿]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Past simple questions start with Did|Las preguntas de pasado simple empiezan con Did]]."
     },
     "audioUrl": "audio/a1/unit-29/e41.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e42",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Reading",
+    "topic": "Past Simple: Questions",
     "difficulty": "medium",
-    "transcript": "Did Sarah cook lunch?",
+    "transcript": "[[When did she arrive?|¿Cuándo llegó ella?]]",
     "content": {
-      "title": "Comprensión",
-      "instructions": "Basado en el texto anterior.",
+      "title": "[[Questions|Preguntas]]",
+      "instructions": "[[Complete the question|Completa la pregunta]].",
       "questions": [
         {
-          "question": "[[Did|¿]] [[Sarah|Sarah]] [[cook lunch?|cocinó el almuerzo?]]",
-          "options": ["[[Yes, she did.|Sí.]]", "[[No, she didn't.|No.]]", "[[She cooked dinner.|Cocinó la cena.]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'She cooked a delicious lunch'."
+          "question": "[[When (____) she arrive?|¿Cuándo (____) ella llegó?]]",
+          "correctAnswer": "did",
+          "explanation": "[[Standard question structure|Estructura de pregunta estándar]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-29/e42.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e43",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading",
+    "topic": "Past Simple: Questions",
     "difficulty": "medium",
-    "transcript": "How long did they walk?",
+    "transcript": "[[Why did you leave?|¿Por qué te fuiste?]]",
     "content": {
-      "title": "Comprensión",
-      "instructions": "Basado en el texto de Sarah.",
-      "questions": [
-        {
-          "question": "[[How long|¿Cuánto tiempo]] (_____) [[they walk?|caminaron?]]",
-          "options": ["[[For an hour|Durante una hora]]", "[[For two hours|Durante dos horas]]", "[[All day|Todo el día]]"],
-          "correctAnswer": 0,
-          "explanation": "Caminaron durante una hora ('for an hour')."
-        }
-      ]
+      "title": "[[Questions|Preguntas]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[Why did you leave?|¿Por qué te fuiste?]]",
+      "words": ["[[leave?|fuiste?]]", "[[you|tú]]", "[[did|¿]]", "[[Why|Por qué]]"],
+      "explanation": "[[Asking for a reason in the past|Pidiendo una razón en el pasado]]."
     },
     "audioUrl": "audio/a1/unit-29/e43.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e44",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Dialogues",
-    "difficulty": "easy",
-    "transcript": "A: Did you watch the match? B: No, I worked late.",
+    "topic": "Past Simple: Short Answers",
+    "difficulty": "medium",
+    "transcript": "[[Did you like it? Yes, I did|¿Te gustó? Sí, me gustó]].",
     "content": {
-      "title": "Diálogo corto",
-      "instructions": "Completa el diálogo.",
-      "questions": [
-        {
-          "question": "[[A: Did you watch the match?|A: ¿Viste el partido?]]\n[[B: No, I|B: No,]] (_____) [[late.|tarde.]]",
-          "options": ["[[worked|trabajé]]", "[[work|trabajo]]", "[[working|trabajando]]"],
-          "correctAnswer": 0,
-          "explanation": "Respuesta en pasado."
-        }
-      ]
+      "title": "[[Short Answers|Respuestas cortas]]",
+      "instructions": "[[Choose the correct short answer|Elige la respuesta corta correcta]].",
+      "question": "[[Did you like it? (____)|¿Te gustó? (____)]]",
+      "options": ["[[Yes, I did|Sí]]", "[[Yes, I liked|]]", "[[Yes, I do|Sí]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Short answers use the auxiliary 'did'|Las respuestas cortas usan el auxiliar 'did']]."
     },
     "audioUrl": "audio/a1/unit-29/e44.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e45",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Dialogues",
+    "topic": "Past Simple: Short Answers",
     "difficulty": "medium",
-    "transcript": "A: When did you arrive? B: I arrived two hours ago.",
+    "transcript": "[[Did they go? No, they didn't|¿Fueron? No, no fueron]].",
     "content": {
-      "title": "Llegada",
-      "instructions": "Elige la respuesta correcta.",
-      "questions": [
-        {
-          "question": "[[A: When did you arrive?|A: ¿Cuándo llegaste?]]\n[[B: I|B: Yo]] (_____) [[two hours ago.|hace dos horas.]]",
-          "options": ["[[arrived|llegué]]", "[[arrive|llego]]", "[[arriving|llegando]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos el pasado para responder a 'When did you...'."
-        }
-      ]
+      "title": "[[Short Answers|Respuestas cortas]]",
+      "instructions": "[[Identify the correct negative short answer|Identifica la respuesta corta negativa correcta]].",
+      "question": "[[Did they go? (____)|¿Fueron? (____)]]",
+      "options": ["[[No, they didn't|No]]", "[[No, they don't|]]", "[[No, they not|]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Negative short answers use 'didn't'|Las respuestas cortas negativas usan 'didn't']]."
     },
     "audioUrl": "audio/a1/unit-29/e45.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
+
+  // ==========================================
+  // LESSON 4: A BUSY WEEKEND (READING) (46-60)
+  // ==========================================
   {
     "id": "a1-u29-e46",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Dialogues",
-    "difficulty": "medium",
-    "transcript": "A: Did they enjoy the trip? B: Yes, they loved it.",
+    "topic": "Reading",
+    "difficulty": "hard",
+    "transcript": "[[My Busy Weekend|Mi Fin de Semana Ocupado]]. [[Last Saturday, I got up early|El sábado pasado me levanté temprano]]. [[I went to the park and I ran for an hour|Fui al parque y corrí durante una hora]]. [[Then, I visited my friend Sarah|Luego, visité a mi amiga Sarah]]. [[We talked about our work|Hablamos de nuestro trabajo]]. [[In the afternoon, I bought some food at the supermarket|Por la tarde, compré algo de comida en el supermercado]]. [[In the evening, I cooked a big dinner for my family|Por la noche, cociné una gran cena para mi familia]]. [[We ate chicken and vegetables|Comimos pollo y verduras]]. [[After dinner, we watched a movie|Después de cenar, vimos una película]]. [[I didn't go to bed late|No me acosté tarde]]. [[It was a very good day|Fue un día muy bueno]].",
     "content": {
-      "title": "El viaje",
-      "instructions": "Completa con el pasado de 'love'.",
+      "title": "[[Reading: A Busy Weekend|Lectura: Un Fin de Semana Ocupado]]",
+      "instructions": "[[Read about the weekend activities|Lee sobre las actividades del fin de semana]].",
       "questions": [
         {
-          "question": "[[A: Did they enjoy the trip?|A: ¿Disfrutaron del viaje?]]\n[[B: Yes, they|B: Sí, les]] (_____) [[it.|encantó.]]",
-          "options": ["[[loved|encantó]]", "[[love|encanta]]", "[[loves|encanta (ella/él)]]"],
+          "question": "[[My Busy Weekend|Mi Fin de Semana Ocupado]]. [[Last Saturday, I got up early|El sábado pasado me levanté temprano]]. [[I went to the park and I ran for an hour|Fui al parque y corrí durante una hora]]. [[Then, I visited my friend Sarah|Luego, visité a mi amiga Sarah]]. [[We talked about our work|Hablamos de nuestro trabajo]]. [[In the afternoon, I bought some food at the supermarket|Por la tarde, compré algo de comida en el supermercado]]. [[In the evening, I cooked a big dinner for my family|Por la noche, cociné una gran cena para mi familia]]. [[We ate chicken and vegetables|Comimos pollo y verduras]]. [[After dinner, we watched a movie|Después de cenar, vimos una película]]. [[I didn't go to bed late|No me acosté tarde]]. [[It was a very good day|Fue un día muy bueno]].",
+          "options": ["[[I have read the text|He leído el texto]]."],
           "correctAnswer": 0,
-          "explanation": "'Loved' es el pasado de 'love'."
+          "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-29/e46.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u29-e47",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "medium",
-    "transcript": "I fixed my computer.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Where did the speaker go? To the park|¿A dónde fue el hablante? Al parque]].",
     "content": {
-      "title": "Arreglar",
-      "instructions": "Pasado de 'fix'.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[my computer.|mi ordenador.]]",
-          "options": ["[[fixed|arreglé]]", "[[cleaned|limpié]]", "[[used|usé]]"],
-          "correctAnswer": 0,
-          "explanation": "'Fixed' es arreglé."
-        }
-      ]
+      "title": "[[Comprehension: Park|Comprensión: Parque]]",
+      "instructions": "[[Answer the question based on the text|Responde a la pregunta basada en el texto]].",
+      "question": "[[The speaker (____) to the park.|El hablante (____) al parque.]]",
+      "options": ["[[went|fue]]", "[[go|va]]", "[[visited|visitó]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says 'I went to the park'|El texto dice 'Fui al parque']]."
     },
-    "audioUrl": "audio/a1/unit-29/e47.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u29-e48",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "easy",
-    "transcript": "They danced all night.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[The speaker ran for an hour|El hablante corrió durante una hora]].",
     "content": {
-      "title": "Bailar",
-      "instructions": "Pasado de 'dance'.",
+      "title": "[[Comprehension: Running|Comprensión: Correr]]",
+      "instructions": "[[Complete with the correct past verb|Completa con el verbo de pasado correcto]].",
       "questions": [
         {
-          "question": "[[They|Ellos]] (_____) [[all night.|toda la noche.]]",
-          "options": ["[[danced|bailaron]]", "[[talked|hablaron]]", "[[walked|caminaron]]"],
-          "correctAnswer": 0,
-          "explanation": "'Danced' es bailaron."
+          "question": "[[I (____) for an hour.|Yo (____) durante una hora.]]",
+          "correctAnswer": "ran",
+          "explanation": "[['Ran' is the past of 'run'|'Ran' es el pasado de 'run']]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-29/e48.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u29-e49",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "medium",
-    "transcript": "We prepared a surprise.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Who did the speaker visit? Sarah|¿A quién visitó el hablante? A Sarah]].",
     "content": {
-      "title": "Preparar",
-      "instructions": "Pasado de 'prepare'.",
-      "questions": [
-        {
-          "question": "[[We|Nosotros]] (_____) [[a surprise.|una sorpresa.]]",
-          "options": ["[[prepared|preparamos]]", "[[cooked|cocinamos]]", "[[planned|planeamos]]"],
-          "correctAnswer": 0,
-          "explanation": "'Prepared' es preparamos."
-        }
-      ]
+      "title": "[[Comprehension: Sarah|Comprensión: Sarah]]",
+      "instructions": "[[Identify the correct past form|Identifica la forma de pasado correcta]].",
+      "question": "[[I (____) my friend Sarah.|Yo (____) a mi amiga Sarah.]]",
+      "options": ["[[visited|visité]]", "[[visit|visito]]", "[[visiting|visitando]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Visit is a regular verb: visited|Visit es un verbo regular: visited]]."
     },
-    "audioUrl": "audio/a1/unit-29/e49.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u29-e50",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "medium",
-    "transcript": "She turned off the lights.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What did they talk about? Their work|¿De qué hablaron? De su trabajo]].",
     "content": {
-      "title": "Apagar",
-      "instructions": "Pasado de 'turn off'.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] (_____) [[off the lights.|las luces.]]",
-          "options": ["[[turned|apagó]]", "[[stopped|paró]]", "[[closed|cerró]]"],
-          "correctAnswer": 0,
-          "explanation": "'Turned off' es apagó."
-        }
-      ]
+      "title": "[[Comprehension: Talk|Comprensión: Hablar]]",
+      "instructions": "[[Answer the question|Responde a la pregunta]].",
+      "question": "[[We (____) about our work.|Nosotros (____) de nuestro trabajo.]]",
+      "options": ["[[talked|hablamos]]", "[[spoke|hablamos]]", "[[told|dijimos]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text uses 'talked'|El texto usa 'talked']]."
     },
-    "audioUrl": "audio/a1/unit-29/e50.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u29-e51",
-    "type": "reading",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Reading",
+    "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "Last summer, we traveled to Italy. We stayed in a small house near the beach. We visited many interesting places and walked a lot. In the evenings, we cooked Italian food and listened to music. We loved the culture and the people. It was a perfect vacation.",
+    "transcript": "[[I bought food at the supermarket|Compré comida en el supermercado]].",
     "content": {
-      "title": "Summer Trip",
-      "text": "[[Last|El]] [[summer,|verano pasado,]] [[we|nosotros]] [[traveled|viajamos]] [[to|a]] [[Italy.|Italia.]] [[We|Nosotros]] [[stayed|nos quedamos]] [[in|en]] [[a|una]] [[small|pequeña]] [[house|casa]] [[near|cerca de]] [[the|la]] [[beach.|playa.]] [[We|Nosotros]] [[visited|visitamos]] [[many|muchos]] [[interesting|interesantes]] [[places|lugares]] [[and|y]] [[walked|caminamos]] [[a|un]] [[lot.|poco.]] [[In|Por]] [[the|las]] [[evenings,|tardes/noches,]] [[we|nosotros]] [[cooked|cocinamos]] [[Italian|italiana]] [[food|comida]] [[and|y]] [[listened|escuchamos]] [[to|]] [[music.|música.]] [[We|Nosotros]] [[loved|amamos]] [[the|la]] [[culture|cultura]] [[and|y]] [[the|la]] [[people.|gente.]] [[It|Esto]] [[was|fue]] [[a|unas]] [[perfect|perfectas]] [[vacation.|vacaciones.]]",
+      "title": "[[Comprehension: Food|Comprensión: Comida]]",
+      "instructions": "[[Complete with the past of 'buy'|Completa con el pasado de 'buy']].",
       "questions": [
         {
-          "question": "[[Where|¿A dónde]] [[did|]] [[they|ellos]] [[travel?|viajaron?]]",
-          "options": ["[[To Italy|A Italia]]", "[[To France|A Francia]]", "[[To Spain|A España]]"],
-          "correctAnswer": 0
-        },
-        {
-          "question": "[[Where|¿Dónde]] [[did|]] [[they|ellos]] [[stay?|se quedaron?]]",
-          "options": ["[[In a hotel|En un hotel]]", "[[In a small house|En una casa pequeña]]", "[[In a tent|En una tienda de campaña]]"],
-          "correctAnswer": 1
+          "question": "[[I (____) some food.|Yo (____) algo de comida.]]",
+          "correctAnswer": "bought",
+          "explanation": "[['Bought' is the irregular past of 'buy'|'Bought' es el pasado irregular de 'buy']]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-29/e51.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u29-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading",
-    "difficulty": "medium",
-    "transcript": "Did they cook food?",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What did they eat? Chicken and vegetables|¿Qué comieron? Pollo y verduras]].",
     "content": {
-      "title": "Comprensión",
-      "instructions": "Basado en el texto de Italia.",
-      "questions": [
-        {
-          "question": "[[Did|¿]] [[they|ellos]] [[cook food?|cocinaron comida?]]",
-          "options": ["[[Yes, they cooked Italian food.|Sí, comida italiana.]]", "[[No, they ate at restaurants.|No, en restaurantes.]]", "[[They only cooked breakfast.|Solo desayuno.]]"],
-          "correctAnswer": 0,
-          "explanation": "El texto dice: 'we cooked Italian food'."
-        }
-      ]
+      "title": "[[Comprehension: Dinner|Comprensión: Cena]]",
+      "instructions": "[[Identify the past of 'eat'|Identifica el pasado de 'eat']].",
+      "question": "[[We (____) chicken and vegetables.|Nosotros (____) pollo y verduras.]]",
+      "options": ["[[ate|comimos]]", "[[eat|comemos]]", "[[eated|]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Ate' is the irregular past of 'eat'|'Ate' es el pasado irregular de 'eat']]."
     },
-    "audioUrl": "audio/a1/unit-29/e52.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u29-e53",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "easy",
-    "transcript": "I painted my bedroom.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[They watched a movie|Vieron una película]].",
     "content": {
-      "title": "Pintar",
-      "instructions": "Pasado de 'paint'.",
+      "title": "[[Comprehension: Movie|Comprensión: Película]]",
+      "instructions": "[[Complete with the past of 'watch'|Completa con el pasado de 'watch']].",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[my bedroom.|mi dormitorio.]]",
-          "options": ["[[painted|pinté]]", "[[cleaned|limpié]]", "[[fixed|arreglé]]"],
-          "correctAnswer": 0,
-          "explanation": "'Painted' es pinté."
+          "question": "[[We (____) a movie.|Nosotros (____) una película.]]",
+          "correctAnswer": "watched",
+          "explanation": "[['Watched' is the regular past of 'watch'|'Watched' es el pasado regular de 'watch']]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-29/e53.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u29-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "medium",
-    "transcript": "She checked her emails.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Did the speaker go to bed late? No, I didn't|¿Se acostó tarde el hablante? No]].",
     "content": {
-      "title": "Revisar",
-      "instructions": "Pasado de 'check'.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] (_____) [[her emails.|sus correos.]]",
-          "options": ["[[checked|revisó]]", "[[called|llamó]]", "[[watched|vio]]"],
-          "correctAnswer": 0,
-          "explanation": "'Checked' es revisó."
-        }
-      ]
+      "title": "[[Comprehension: Bedtime|Comprensión: Hora de dormir]]",
+      "instructions": "[[Choose the correct negative form|Elige la forma negativa correcta]].",
+      "question": "[[I (____) to bed late.|Yo no (____) tarde a la cama.]]",
+      "options": ["[[didn't go|no fui]]", "[[didn't went|]]", "[[not went|]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Negative past structure|Estructura de pasado negativo]]."
     },
-    "audioUrl": "audio/a1/unit-29/e54.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u29-e55",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "medium",
-    "transcript": "They saved some money.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[It was a very good day|Fue un día muy bueno]].",
     "content": {
-      "title": "Ahorrar",
-      "instructions": "Pasado de 'save'.",
-      "questions": [
-        {
-          "question": "[[They|Ellos]] (_____) [[some money.|algo de dinero.]]",
-          "options": ["[[saved|ahorraron]]", "[[spent|gastaron]]", "[[lost|perdieron]]"],
-          "correctAnswer": 0,
-          "explanation": "'Saved' es ahorraron."
-        }
-      ]
+      "title": "[[Comprehension: Conclusion|Comprensión: Conclusión]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[It was a very good day|Fue un día muy bueno]].",
+      "words": ["[[day|día]].", "[[good|bueno]]", "[[very|muy]]", "[[a|un]]", "[[was|fue]]", "[[It|Eso]]"],
+      "explanation": "[[Final evaluation sentence|Oración de evaluación final]]."
     },
-    "audioUrl": "audio/a1/unit-29/e55.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u29-e56",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "medium",
-    "transcript": "We missed the train.",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[Last Saturday, I got up early|El sábado pasado me levanté temprano]].",
     "content": {
-      "title": "Perder (el transporte)",
-      "instructions": "Pasado de 'miss'.",
+      "title": "[[Grammar: Get up|Gramática: Levantarse]]",
+      "instructions": "[[Complete with the past of 'get up'|Completa con el pasado de 'get up']].",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[the train.|el tren.]]",
-          "options": ["[[missed|perdimos]]", "[[passed|pasamos]]", "[[watched|vimos]]"],
-          "correctAnswer": 0,
-          "explanation": "'Missed' es perder cuando se trata de transporte o eventos."
+          "question": "[[Last Saturday, I (____) up early.|El sábado pasado (____) temprano.]]",
+          "correctAnswer": "got",
+          "explanation": "[['Got' is the past of 'get'|'Got' es el pasado de 'get']]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-29/e56.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e57",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "easy",
-    "transcript": "He pushed the door.",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[Did you visit Sarah? Yes, I did|¿Visitaste a Sarah? Sí]].",
     "content": {
-      "title": "Empujar",
-      "instructions": "Pasado de 'push'.",
-      "questions": [
-        {
-          "question": "[[He|Él]] (_____) [[the door.|la puerta.]]",
-          "options": ["[[pushed|empujó]]", "[[pulled|tiró]]", "[[opened|abrió]]"],
-          "correctAnswer": 0,
-          "explanation": "'Pushed' es empujó."
-        }
-      ]
+      "title": "[[Grammar: Question|Gramática: Pregunta]]",
+      "instructions": "[[Identify the correct question structure|Identifica la estructura de pregunta correcta]].",
+      "question": "[[ (____) you visit Sarah?|¿(____) visitaste a Sarah?]]",
+      "options": ["[[Did|¿]]", "[[Do|¿]]", "[[Was|¿]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Auxiliary for past questions|Auxiliar para preguntas de pasado]]."
     },
-    "audioUrl": "audio/a1/unit-29/e57.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e58",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "easy",
-    "transcript": "I pulled the handle.",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[We ate chicken|Comimos pollo]].",
     "content": {
-      "title": "Tirar / Jalar",
-      "instructions": "Pasado de 'pull'.",
+      "title": "[[Grammar: Eat|Gramática: Comer]]",
+      "instructions": "[[Complete with the past form|Completa con la forma de pasado]].",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[the handle.|del asa.]]",
-          "options": ["[[pulled|tiré]]", "[[pushed|empujé]]", "[[turned|giré]]"],
-          "correctAnswer": 0,
-          "explanation": "'Pull' es tirar."
+          "question": "[[We (____) chicken.|Nosotros (____) pollo.]]",
+          "correctAnswer": "ate",
+          "explanation": "[['Ate' is irregular|'Ate' es irregular]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-29/e58.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e59",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "medium",
-    "transcript": "They invited us to dinner.",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[I didn't watch a movie|No vi una película]].",
     "content": {
-      "title": "Invitar",
-      "instructions": "Pasado de 'invite'.",
-      "questions": [
-        {
-          "question": "[[They|Ellos]] (_____) [[us to dinner.|nos invitaron a cenar.]]",
-          "options": ["[[invited|invitaron]]", "[[called|llamaron]]", "[[visited|visitaron]]"],
-          "correctAnswer": 0,
-          "explanation": "'Invited' es invitaron."
-        }
-      ]
+      "title": "[[Grammar: Negative|Gramática: Negativo]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[I didn't watch a movie|No vi una película]].",
+      "words": ["[[movie|película]].", "[[a|una]]", "[[watch|ver]]", "[[didn't|no]]", "[[I|Yo]]"],
+      "explanation": "[[Negative regular past|Pasado regular negativo]]."
     },
-    "audioUrl": "audio/a1/unit-29/e59.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u29-e60",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Common Verbs",
-    "difficulty": "medium",
-    "transcript": "We practiced English.",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[Was it a busy weekend? Yes, it was|¿Fue un fin de semana ocupado? Sí]].",
     "content": {
-      "title": "Practicar",
-      "instructions": "Pasado de 'practice'.",
-      "questions": [
-        {
-          "question": "[[We|Nosotros]] (_____) [[English.|inglés.]]",
-          "options": ["[[practiced|practicamos]]", "[[learned|aprendimos]]", "[[talked|hablamos]]"],
-          "correctAnswer": 0,
-          "explanation": "'Practiced' es el pasado regular."
-        }
-      ]
+      "title": "[[Grammar: To Be Past|Gramática: Ser/Estar en Pasado]]",
+      "instructions": "[[Identify the correct past form of 'be'|Identifica la forma de pasado correcta de 'be']].",
+      "question": "[[It (____) a busy weekend.|(____) un fin de semana ocupado.]]",
+      "options": ["[[was|fue]]", "[[were|fueron]]", "[[is|es]]"],
+      "correctAnswer": 0,
+      "explanation": "[['It' uses 'was'|'It' usa 'was']]."
     },
-    "audioUrl": "audio/a1/unit-29/e60.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
+  },
+
+  // ==========================================
+  // LESSON 5: LISTENING & PRONUNCIATION (61-75)
+  // ==========================================
+  {
+    "id": "a1-u29-e61",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I went to the cinema last night|Fui al cine anoche]].",
+    "audioUrl": "audio/a1/unit-29/e61.mp3",
+    "content": {
+      "title": "[[Listening: Cinema|Escucha: Cine]]",
+      "instructions": "[[Listen and identify where the speaker went|Escucha e identifica a dónde fue el hablante]].",
+      "questions": [{
+        "id": "q61",
+        "type": "multiple-choice",
+        "question": "[[Where did the speaker go?|¿A dónde fue el hablante?]]",
+        "options": ["[[to the cinema|al cine]]", "[[to the park|al parque]]", "[[to the gym|al gimnasio]]"],
+        "correctAnswer": "[[to the cinema|al cine]]",
+        "explanation": "[[The speaker says 'I went to the cinema'|El hablante dice 'Fui al cine']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u29-e62",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[What did you eat? I ate a pizza|¿Qué comiste? Comí una pizza]].",
+    "audioUrl": "audio/a1/unit-29/e62.mp3",
+    "content": {
+      "title": "[[Listening: Pizza|Escucha: Pizza]]",
+      "instructions": "[[Listen and identify what the speaker ate|Escucha e identifica qué comió el hablante]].",
+      "questions": [{
+        "id": "q62",
+        "type": "multiple-choice",
+        "question": "[[What did the speaker eat?|¿Qué comió el hablante?]]",
+        "options": ["[[a pizza|una pizza]]", "[[a burger|una hamburguesa]]", "[[a salad|una ensalada]]"],
+        "correctAnswer": "[[a pizza|una pizza]]",
+        "explanation": "[[The speaker says 'I ate a pizza'|El hablante dice 'Comí una pizza']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u29-e63",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[Did you see Sarah? No, I didn't see her|¿Viste a Sarah? No, no la vi]].",
+    "audioUrl": "audio/a1/unit-29/e63.mp3",
+    "content": {
+      "title": "[[Listening: Sarah|Escucha: Sarah]]",
+      "instructions": "[[Listen and identify the answer|Escucha e identifica la respuesta]].",
+      "questions": [{
+        "id": "q63",
+        "type": "multiple-choice",
+        "question": "[[Did the speaker see Sarah?|¿Vio el hablante a Sarah?]]",
+        "options": ["[[No, I didn't|No]]", "[[Yes, I did|Sí]]", "[[Maybe|Tal vez]]"],
+        "correctAnswer": "[[No, I didn't|No]]",
+        "explanation": "[[The speaker says 'No, I didn't see her'|El hablante dice 'No, no la vi']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u29-e64",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[She bought a new book yesterday|Compró un libro nuevo ayer]].",
+    "audioUrl": "audio/a1/unit-29/e64.mp3",
+    "content": {
+      "title": "[[Listening: Shopping|Escucha: Compras]]",
+      "instructions": "[[Listen and identify what she bought|Escucha e identifica qué compró]].",
+      "questions": [{
+        "id": "q64",
+        "type": "multiple-choice",
+        "question": "[[What did she buy?|¿Qué compró?]]",
+        "options": ["[[a new book|un libro nuevo]]", "[[a new car|un coche nuevo]]", "[[a new bag|un bolso nuevo]]"],
+        "correctAnswer": "[[a new book|un libro nuevo]]",
+        "explanation": "[[The speaker says 'She bought a new book'|El hablante dice 'Compró un libro nuevo']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u29-e65",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[They didn't like the film because it was boring|No les gustó la película porque era aburrida]].",
+    "audioUrl": "audio/a1/unit-29/e65.mp3",
+    "content": {
+      "title": "[[Listening: Movie Opinion|Escucha: Opinión de la Película]]",
+      "instructions": "[[Listen and identify why they didn't like it|Escucha e identifica por qué no les gustó]].",
+      "questions": [{
+        "id": "q65",
+        "type": "multiple-choice",
+        "question": "[[Why didn't they like the film?|¿Por qué no les gustó la película?]]",
+        "options": ["[[it was boring|era aburrida]]", "[[it was long|era larga]]", "[[it was sad|era triste]]"],
+        "correctAnswer": "[[it was boring|era aburrida]]",
+        "explanation": "[[The speaker says 'it was boring'|El hablante dice 'era aburrida']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u29-e66",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[Where did you live? I lived in London for five years|¿Dónde vivías? Viví en Londres durante cinco años]].",
+    "audioUrl": "audio/a1/unit-29/e66.mp3",
+    "content": {
+      "title": "[[Listening: Residence|Escucha: Residencia]]",
+      "instructions": "[[Listen and identify where they lived|Escucha e identifica dónde vivieron]].",
+      "questions": [{
+        "id": "q66",
+        "type": "multiple-choice",
+        "question": "[[Where did the speaker live?|¿Dónde vivía el hablante?]]",
+        "options": ["[[in London|en Londres]]", "[[in Paris|en París]]", "[[in New York|en Nueva York]]"],
+        "correctAnswer": "[[in London|en Londres]]",
+        "explanation": "[[The speaker says 'I lived in London'|El hablante dice 'Viví en Londres']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u29-e67",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I didn't call you because I was busy|No te llamé porque estaba ocupado]].",
+    "audioUrl": "audio/a1/unit-29/e67.mp3",
+    "content": {
+      "title": "[[Listening: Phone Call|Escucha: Llamada]]",
+      "instructions": "[[Listen and identify the reason|Escucha e identifica la razón]].",
+      "questions": [{
+        "id": "q67",
+        "type": "multiple-choice",
+        "question": "[[Why didn't the speaker call?|¿Por qué no llamó el hablante?]]",
+        "options": ["[[because I was busy|porque estaba ocupado]]", "[[because I forgot|porque lo olvidé]]", "[[because I was tired|porque estaba cansado]]"],
+        "correctAnswer": "[[because I was busy|porque estaba ocupado]]",
+        "explanation": "[[The speaker says 'I was busy'|El hablante dice 'estaba ocupado']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u29-e68",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[What did he write? He wrote a long letter|¿Qué escribió él? Escribió una carta larga]].",
+    "audioUrl": "audio/a1/unit-29/e68.mp3",
+    "content": {
+      "title": "[[Listening: Writing|Escucha: Escritura]]",
+      "instructions": "[[Listen and identify what he wrote|Escucha e identifica qué escribió]].",
+      "questions": [{
+        "id": "q68",
+        "type": "multiple-choice",
+        "question": "[[What did he write?|¿Qué escribió él?]]",
+        "options": ["[[a long letter|una carta larga]]", "[[a short email|un email corto]]", "[[a new book|un libro nuevo]]"],
+        "correctAnswer": "[[a long letter|una carta larga]]",
+        "explanation": "[[The speaker says 'He wrote a long letter'|El hablante dice 'Escribió una carta larga']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u29-e69",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Watched|Watched]]",
+    "audioUrl": "audio/a1/unit-29/e69.mp3",
+    "content": {
+      "title": "[[Pronunciation: Watched|Pronunciación: Watched]]",
+      "instructions": "[[Listen and repeat focusing on the final /t/ sound|Escucha y repite enfocándote en el sonido /t/ final]].",
+      "expectedResponse": "Watched.",
+      "evaluationCriteria": [
+        "[[Clear /w/ start|Inicio con /w/ claro]]",
+        "[[Short /ɒ/ vowel|Vocal /ɒ/ corta]]",
+        "[[Final /t/ sound (not /ed/)|Sonido /t/ final (no /ed/)]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u29-e70",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Played|Played]]",
+    "audioUrl": "audio/a1/unit-29/e70.mp3",
+    "content": {
+      "title": "[[Pronunciation: Played|Pronunciación: Played]]",
+      "instructions": "[[Listen and repeat focusing on the final /d/ sound|Escucha y repite enfocándote en el sonido /d/ final]].",
+      "expectedResponse": "Played.",
+      "evaluationCriteria": [
+        "[[Clear /p/ sound|Sonido /p/ claro]]",
+        "[[Diphthong /eɪ/|Diptongo /eɪ/]]",
+        "[[Final /d/ sound (not /ed/)|Sonido /d/ final (no /ed/)]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u29-e71",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Visited|Visited]]",
+    "audioUrl": "audio/a1/unit-29/e71.mp3",
+    "content": {
+      "title": "[[Pronunciation: Visited|Pronunciación: Visited]]",
+      "instructions": "[[Listen and repeat focusing on the final /ɪd/ sound|Escucha y repite enfocándote en el sonido /ɪd/ final]].",
+      "expectedResponse": "Visited.",
+      "evaluationCriteria": [
+        "[[Three syllables|Tres sílabas]]",
+        "[[Stress on the first syllable|Acento en la primera sílaba]]",
+        "[[Clear /ɪd/ ending|Final /ɪd/ claro]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u29-e72",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Went|Went]]",
+    "audioUrl": "audio/a1/unit-29/e72.mp3",
+    "content": {
+      "title": "[[Pronunciation: Went|Pronunciación: Went]]",
+      "instructions": "[[Listen and repeat focusing on the short /e/ sound|Escucha y repite enfocándote en el sonido /e/ corto]].",
+      "expectedResponse": "Went.",
+      "evaluationCriteria": [
+        "[[Clear /w/ start|Inicio con /w/ claro]]",
+        "[[Short /e/ vowel|Vocal /e/ corta]]",
+        "[[Final /nt/ sounds|Sonidos /nt/ finales]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u29-e73",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Ate|Ate]]",
+    "audioUrl": "audio/a1/unit-29/e73.mp3",
+    "content": {
+      "title": "[[Pronunciation: Ate|Pronunciación: Ate]]",
+      "instructions": "[[Listen and repeat focusing on the /eɪt/ sound|Escucha y repite enfocándote en el sonido /eɪt/]].",
+      "expectedResponse": "Ate.",
+      "evaluationCriteria": [
+        "[[Clear /eɪ/ diphthong|Diptongo /eɪ/ claro]]",
+        "[[Final /t/ sound|Sonido /t/ final]]",
+        "[[One syllable only|Solo una sílaba]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u29-e74",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Bought|Bought]]",
+    "audioUrl": "audio/a1/unit-29/e74.mp3",
+    "content": {
+      "title": "[[Pronunciation: Bought|Pronunciación: Bought]]",
+      "instructions": "[[Listen and repeat focusing on the /bɔːt/ sound|Escucha y repite enfocándote en el sonido /bɔːt/]].",
+      "expectedResponse": "Bought.",
+      "evaluationCriteria": [
+        "[[Strong /b/ start|Inicio con /b/ fuerte]]",
+        "[[Long /ɔː/ vowel|Vocal /ɔː/ larga]]",
+        "[[Final /t/ sound|Sonido /t/ final]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u29-e75",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Did you?|Did you?]]",
+    "audioUrl": "audio/a1/unit-29/e75.mp3",
+    "content": {
+      "title": "[[Pronunciation: Did you?|Pronunciación: ¿Hiciste?]]",
+      "instructions": "[[Listen and repeat focusing on the connection between 'did' and 'you'|Escucha y repite enfocándote en la unión entre 'did' y 'you']].",
+      "expectedResponse": "Did you?",
+      "evaluationCriteria": [
+        "[[Smooth /dj/ connection|Conexión /dj/ suave]]",
+        "[[Rising intonation for a question|Entonación ascendente para una pregunta]]",
+        "[[Clear final vowel /uː/|Vocal final /uː/ clara]]"
+      ]
+    }
   }
 ];
-

@@ -1,465 +1,400 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_27_EXERCISES: Exercise[] = [
-  // VOCABULARY: PLACES IN TOWN (1-20)
+  // ==========================================
+  // LESSON 1: CAN FOR ABILITY - POSITIVE (1-15)
+  // ==========================================
   {
     "id": "a1-u27-e1",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places",
+    "topic": "Can / Can't",
     "difficulty": "easy",
-    "transcript": "The bank is on the corner.",
+    "transcript": "[[I can swim|Puedo nadar]].",
     "content": {
-      "title": "El Banco",
-      "instructions": "Identifica el lugar mencionado.",
-      "questions": [
-        {
-          "question": "[[The|El]] (_____) [[is on the corner.|está en la esquina.]]",
-          "options": ["[[bank|banco]]", "[[park|parque]]", "[[school|escuela]]"],
-          "correctAnswer": 0,
-          "explanation": "'Bank' es banco."
-        }
-      ]
+      "title": "[[Ability|Habilidad]]",
+      "instructions": "[[Choose the correct word for ability|Elige la palabra correcta para habilidad]].",
+      "question": "[[I (____) swim.|(____) nadar.]]",
+      "options": ["[[can|puedo]]", "[[am|soy]]", "[[do|hago]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Can' is used for physical or mental ability|'Can' se usa para habilidad física o mental]]."
     },
     "audioUrl": "audio/a1/unit-27/e1.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e2",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places",
+    "topic": "Can / Can't",
     "difficulty": "easy",
-    "transcript": "Is there a supermarket near here?",
+    "transcript": "[[She can speak English|Ella puede hablar inglés]].",
     "content": {
-      "title": "Supermercado",
-      "instructions": "Completa la pregunta sobre el lugar para comprar comida.",
-      "questions": [
-        {
-          "question": "[[Is there a|¿Hay un]] (_____) [[near here?|cerca de aquí?]]",
-          "options": ["[[supermarket|supermercado]]", "[[hospital|hospital]]", "[[cinema|cine]]"],
-          "correctAnswer": 0,
-          "explanation": "'Supermarket' es supermercado."
-        }
-      ]
+      "title": "[[Languages|Idiomas]]",
+      "instructions": "[[Identify the correct modal verb|Identifica el verbo modal correcto]].",
+      "question": "[[She (____) speak English.|Ella (____) hablar inglés.]]",
+      "options": ["[[can|puede]]", "[[cans|puedes]]", "[[can to|puede a]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Can' doesn't change for the third person (he/she/it)|'Can' no cambia para la tercera persona]]."
     },
     "audioUrl": "audio/a1/unit-27/e2.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e3",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places",
+    "topic": "Can / Can't",
     "difficulty": "easy",
-    "transcript": "I need to go to the hospital.",
+    "transcript": "[[They can play the guitar|Ellos pueden tocar la guitarra]].",
     "content": {
-      "title": "Hospital",
-      "instructions": "Elige el lugar de salud.",
-      "questions": [
-        {
-          "question": "[[I need to go to the|Necesito ir al]] (_____) .",
-          "options": ["[[hospital|hospital]]", "[[museum|museo]]", "[[library|biblioteca]]"],
-          "correctAnswer": 0,
-          "explanation": "'Hospital' se escribe igual en inglés y español."
-        }
-      ]
+      "title": "[[Music|Música]]",
+      "instructions": "[[Choose the correct form|Elige la forma correcta]].",
+      "question": "[[They (____) play the guitar.|Ellos (____) tocar la guitarra.]]",
+      "options": ["[[can|pueden]]", "[[are|están]]", "[[have|tienen]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Can' is followed by the base form of the verb|'Can' va seguido de la forma base del verbo]]."
     },
     "audioUrl": "audio/a1/unit-27/e3.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places",
+    "topic": "Can / Can't",
     "difficulty": "easy",
-    "transcript": "Where is the post office?",
+    "transcript": "[[Birds can fly|Los pájaros pueden volar]].",
     "content": {
-      "title": "Oficina de Correos",
-      "instructions": "Identifica el lugar para enviar cartas.",
-      "questions": [
-        {
-          "question": "[[Where is the|¿Dónde está la]] (_____) [[office?|oficina?]]",
-          "options": ["[[post|correos]]", "[[bus|autobús]]", "[[train|tren]]"],
-          "correctAnswer": 0,
-          "explanation": "'Post office' es oficina de correos."
-        }
-      ]
+      "title": "[[Nature|Naturaleza]]",
+      "instructions": "[[Identify the ability|Identifica la habilidad]].",
+      "question": "[[Birds (____) fly.|Los pájaros (____) volar.]]",
+      "options": ["[[can|pueden]]", "[[do|hacen]]", "[[is|son]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Can' describes a natural ability|'Can' describe una habilidad natural]]."
     },
     "audioUrl": "audio/a1/unit-27/e4.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places",
+    "topic": "Can / Can't",
     "difficulty": "easy",
-    "transcript": "The pharmacy is open.",
+    "transcript": "[[He can cook very well|Él puede cocinar muy bien]].",
     "content": {
-      "title": "Farmacia",
-      "instructions": "Elige el lugar para comprar medicinas.",
-      "questions": [
-        {
-          "question": "[[The|La]] (_____) [[is open.|está abierta.]]",
-          "options": ["[[pharmacy|farmacia]]", "[[bakery|panadería]]", "[[church|iglesia]]"],
-          "correctAnswer": 0,
-          "explanation": "'Pharmacy' es farmacia."
-        }
-      ]
+      "title": "[[Skills|Habilidades]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
+      "question": "[[He (____) cook very well.|Él (____) cocinar muy bien.]]",
+      "options": ["[[can|puede]]", "[[is|está]]", "[[cooks|cocina]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Can' is used to express skills|'Can' se usa para expresar habilidades]]."
     },
     "audioUrl": "audio/a1/unit-27/e5.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places",
+    "topic": "Can / Can't",
     "difficulty": "easy",
-    "transcript": "Let's meet at the park.",
+    "transcript": "[[We can sing|Podemos cantar]].",
     "content": {
-      "title": "El Parque",
-      "instructions": "Identifica el lugar al aire libre.",
-      "questions": [
-        {
-          "question": "[[Let's meet at the|Quedemos en el]] (_____) .",
-          "options": ["[[park|parque]]", "[[office|oficina]]", "[[factory|fábrica]]"],
-          "correctAnswer": 0,
-          "explanation": "'Park' es parque."
-        }
-      ]
+      "title": "[[Singing|Cantando]]",
+      "instructions": "[[Identify the correct modal|Identifica el modal correcto]].",
+      "question": "[[We (____) sing.|(____) cantar.]]",
+      "options": ["[[can|podemos]]", "[[do|hacemos]]", "[[are|somos]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Can' + base verb|'Can' + verbo base]]."
     },
     "audioUrl": "audio/a1/unit-27/e6.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e7",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Places",
-    "difficulty": "medium",
-    "transcript": "Is there a library in this street?",
+    "topic": "Can / Can't",
+    "difficulty": "easy",
+    "transcript": "[[She can dance salsa|Ella puede bailar salsa]].",
     "content": {
-      "title": "Biblioteca",
-      "instructions": "Completa con el lugar para leer libros.",
+      "title": "[[Dancing|Bailando]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[Is there a|¿Hay una]] (_____) [[in this street?|en esta calle?]]",
-          "options": ["[[library|biblioteca]]", "[[bookstore|librería]]", "[[school|escuela]]"],
-          "correctAnswer": 0,
-          "explanation": "'Library' es biblioteca (lugar para prestar libros)."
+          "question": "[[She (____) dance salsa.|Ella (____) bailar salsa.]]",
+          "correctAnswer": "can",
+          "explanation": "[['Can' is the same for all subjects|'Can' es igual para todos los sujetos]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-27/e7.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e8",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Places",
+    "topic": "Can / Can't",
     "difficulty": "easy",
-    "transcript": "The restaurant is very good.",
+    "transcript": "[[I can drive a car|Puedo conducir un coche]].",
     "content": {
-      "title": "Restaurante",
-      "instructions": "Elige el lugar para comer.",
-      "questions": [
-        {
-          "question": "[[The|El]] (_____) [[is very good.|es muy bueno.]]",
-          "options": ["[[restaurant|restaurante]]", "[[gym|gimnasio]]", "[[bank|banco]]"],
-          "correctAnswer": 0,
-          "explanation": "'Restaurant' es restaurante."
-        }
-      ]
+      "title": "[[Driving|Conduciendo]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[I can drive a car|Puedo conducir un coche]].",
+      "words": ["[[car|coche]].", "[[a|un]]", "[[drive|conducir]]", "[[can|puedo]]", "[[I|Yo]]"],
+      "explanation": "[[Subject + Can + Verb + Object|Sujeto + Can + Verbo + Objeto]]."
     },
     "audioUrl": "audio/a1/unit-27/e8.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e9",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places",
+    "topic": "Can / Can't",
     "difficulty": "easy",
-    "transcript": "Where is the museum?",
+    "transcript": "[[You can help me|Puedes ayudarme]].",
     "content": {
-      "title": "Museo",
-      "instructions": "Identifica el lugar cultural.",
-      "questions": [
-        {
-          "question": "[[Where is the|¿Dónde está el]] (_____) [[?]]",
-          "options": ["[[museum|museo]]", "[[stadium|estadio]]", "[[airport|aeropuerto]]"],
-          "correctAnswer": 0,
-          "explanation": "'Museum' es museo."
-        }
-      ]
+      "title": "[[Help|Ayuda]]",
+      "instructions": "[[Identify the ability/offer|Identifica la habilidad/oferta]].",
+      "question": "[[You (____) help me.|Tú (____) ayudarme.]]",
+      "options": ["[[can|puedes]]", "[[am|soy]]", "[[do|haces]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Can' for offering help|'Can' para ofrecer ayuda]]."
     },
     "audioUrl": "audio/a1/unit-27/e9.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e10",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Places",
+    "topic": "Can / Can't",
     "difficulty": "easy",
-    "transcript": "The cinema is next to the cafe.",
+    "transcript": "[[We can run fast|Podemos correr rápido]].",
     "content": {
-      "title": "El Cine",
-      "instructions": "Identifica el lugar para ver películas.",
+      "title": "[[Running|Corriendo]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[The|El]] (_____) [[is next to the cafe.|está al lado de la cafetería.]]",
-          "options": ["[[cinema|cine]]", "[[hotel|hotel]]", "[[zoo|zoo]]"],
-          "correctAnswer": 0,
-          "explanation": "'Cinema' es cine."
+          "question": "[[We (____) run fast.|Podemos correr rápido.]]",
+          "correctAnswer": "can",
+          "explanation": "[['Can' indicates ability|'Can' indica habilidad]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-27/e10.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e11",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places",
-    "difficulty": "medium",
-    "transcript": "The bus station is near.",
+    "topic": "Can / Can't",
+    "difficulty": "easy",
+    "transcript": "[[My brother can fix computers|Mi hermano puede arreglar ordenadores]].",
     "content": {
-      "title": "Estación de Autobús",
-      "instructions": "Completa con el lugar de transporte.",
-      "questions": [
-        {
-          "question": "[[The|La]] (_____) [[station is near.|estación está cerca.]]",
-          "options": ["[[bus|autobús]]", "[[train|tren]]", "[[police|policía]]"],
-          "correctAnswer": 0,
-          "explanation": "'Bus station' es estación de autobús."
-        }
-      ]
+      "title": "[[Fixing|Arreglando]]",
+      "instructions": "[[Choose the correct modal|Elige el modal correcto]].",
+      "question": "[[My brother (____) fix computers.|Mi hermano (____) arreglar ordenadores.]]",
+      "options": ["[[can|puede]]", "[[is|está]]", "[[does|hace]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Can' for technical ability|'Can' para habilidad técnica]]."
     },
     "audioUrl": "audio/a1/unit-27/e11.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e12",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Places",
+    "topic": "Can / Can't",
     "difficulty": "easy",
-    "transcript": "There is a hotel in the center.",
+    "transcript": "[[It can rain today|Puede llover hoy]].",
     "content": {
-      "title": "Hotel",
-      "instructions": "Identifica el lugar para dormir.",
+      "title": "[[Possibility|Posibilidad]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[There is a|Hay un]] (_____) [[in the center.|en el centro.]]",
-          "options": ["[[hotel|hotel]]", "[[square|plaza]]", "[[church|iglesia]]"],
-          "correctAnswer": 0,
-          "explanation": "'Hotel' se escribe igual."
+          "question": "[[It (____) rain today.|Puede llover hoy.]]",
+          "correctAnswer": "can",
+          "explanation": "[['Can' can also express possibility|'Can' también puede expresar posibilidad]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-27/e12.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e13",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Places",
-    "difficulty": "medium",
-    "transcript": "Go to the bakery for bread.",
+    "topic": "Can / Can't",
+    "difficulty": "easy",
+    "transcript": "[[She can play chess|Ella puede jugar al ajedrez]].",
     "content": {
-      "title": "Panadería",
-      "instructions": "Elige el lugar donde venden pan.",
-      "questions": [
-        {
-          "question": "[[Go to the|Ve a la]] (_____) [[for bread.|por pan.]]",
-          "options": ["[[bakery|panadería]]", "[[butcher|carnicería]]", "[[market|mercado]]"],
-          "correctAnswer": 0,
-          "explanation": "'Bakery' es panadería."
-        }
-      ]
+      "title": "[[Chess|Ajedrez]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[She can play chess|Ella puede jugar al ajedrez]].",
+      "words": ["[[chess|ajedrez]].", "[[play|jugar]]", "[[can|puede]]", "[[She|Ella]]"],
+      "explanation": "[[Mental skill structure|Estructura de habilidad mental]]."
     },
     "audioUrl": "audio/a1/unit-27/e13.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e14",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places",
+    "topic": "Can / Can't",
     "difficulty": "easy",
-    "transcript": "The gym is open at 8 am.",
+    "transcript": "[[Dogs can understand humans|Los perros pueden entender a los humanos]].",
     "content": {
-      "title": "Gimnasio",
-      "instructions": "Identifica el lugar para hacer ejercicio.",
-      "questions": [
-        {
-          "question": "[[The|El]] (_____) [[is open at 8 am.|abre a las 8 am.]]",
-          "options": ["[[gym|gimnasio]]", "[[pool|piscina]]", "[[park|parque]]"],
-          "correctAnswer": 0,
-          "explanation": "'Gym' es gimnasio."
-        }
-      ]
+      "title": "[[Understanding|Entendimiento]]",
+      "instructions": "[[Choose the correct modal|Elige el modal correcto]].",
+      "question": "[[Dogs (____) understand humans.|Los perros (____) entender a los humanos.]]",
+      "options": ["[[can|pueden]]", "[[do|hacen]]", "[[are|son]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Animal ability|Habilidad animal]]."
     },
     "audioUrl": "audio/a1/unit-27/e14.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e15",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Places",
-    "difficulty": "medium",
-    "transcript": "The church is very old.",
+    "topic": "Can / Can't",
+    "difficulty": "easy",
+    "transcript": "[[I can hear you|Puedo oírte]].",
     "content": {
-      "title": "Iglesia",
-      "instructions": "Identifica el edificio religioso.",
+      "title": "[[Senses|Sentidos]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[The|La]] (_____) [[is very old.|es muy vieja.]]",
-          "options": ["[[church|iglesia]]", "[[bridge|puente]]", "[[tower|torre]]"],
-          "correctAnswer": 0,
-          "explanation": "'Church' es iglesia."
+          "question": "[[I (____) hear you.|Puedo oírte.]]",
+          "correctAnswer": "can",
+          "explanation": "[['Can' with verbs of perception|'Can' con verbos de percepción]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-27/e15.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
+
+  // ==========================================
+  // LESSON 2: CAN'T FOR INABILITY (16-30)
+  // ==========================================
   {
     "id": "a1-u27-e16",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places",
+    "topic": "Can / Can't",
     "difficulty": "easy",
-    "transcript": "Where is the police station?",
+    "transcript": "[[I can't swim|No puedo nadar]].",
     "content": {
-      "title": "Estación de Policía",
-      "instructions": "Identifica el lugar de seguridad.",
-      "questions": [
-        {
-          "question": "[[Where is the|¿Dónde está la]] (_____) [[station?|estación?]]",
-          "options": ["[[police|policía]]", "[[fire|fuego]]", "[[gas|gas]]"],
-          "correctAnswer": 0,
-          "explanation": "'Police station' es comisaría/estación de policía."
-        }
-      ]
+      "title": "[[Inability|Incapacidad]]",
+      "instructions": "[[Choose the correct negative form|Elige la forma negativa correcta]].",
+      "question": "[[I (____) swim.|No puedo nadar.]]",
+      "options": ["[[can't|no puedo]]", "[[no can|no puedo]]", "[[don't|no]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Can't' is the contraction of 'cannot'|'Can't' es la contracción de 'cannot']]."
     },
     "audioUrl": "audio/a1/unit-27/e16.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e17",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places",
-    "difficulty": "medium",
-    "transcript": "The shopping mall is very big.",
+    "topic": "Can / Can't",
+    "difficulty": "easy",
+    "transcript": "[[He can't drive|Él no puede conducir]].",
     "content": {
-      "title": "Centro Comercial",
-      "instructions": "Elige el lugar de compras.",
-      "questions": [
-        {
-          "question": "[[The shopping|El centro]] (_____) [[is very big.|es muy grande.]]",
-          "options": ["[[mall|comercial]]", "[[market|mercado]]", "[[store|tienda]]"],
-          "correctAnswer": 0,
-          "explanation": "'Shopping mall' es centro comercial."
-        }
-      ]
+      "title": "[[Negative Skill|Habilidad negativa]]",
+      "instructions": "[[Identify the negative modal|Identifica el modal negativo]].",
+      "question": "[[He (____) drive.|Él (____) conducir.]]",
+      "options": ["[[can't|no puede]]", "[[doesn't|no]]", "[[isn't|no es]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Can't' for lack of ability|'Can't' para falta de habilidad]]."
     },
     "audioUrl": "audio/a1/unit-27/e17.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e18",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Places",
+    "topic": "Can / Can't",
     "difficulty": "easy",
-    "transcript": "Is there a cafe near here?",
+    "transcript": "[[They can't speak French|Ellos no pueden hablar francés]].",
     "content": {
-      "title": "Cafetería",
-      "instructions": "Identifica el lugar para tomar café.",
+      "title": "[[French|Francés]]",
+      "instructions": "[[Complete the negative sentence|Completa la frase negativa]].",
       "questions": [
         {
-          "question": "[[Is there a|¿Hay una]] (_____) [[near here?|cerca de aquí?]]",
-          "options": ["[[cafe|cafetería]]", "[[bar|bar]]", "[[pub|pub]]"],
-          "correctAnswer": 0,
-          "explanation": "'Cafe' es cafetería."
+          "question": "[[They (____) speak French.|Ellos no pueden hablar francés.]]",
+          "correctAnswer": "can't",
+          "explanation": "[[Negative form of can|Forma negativa de can]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-27/e18.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e19",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Places",
-    "difficulty": "medium",
-    "transcript": "The stadium is full of people.",
+    "topic": "Can / Can't",
+    "difficulty": "easy",
+    "transcript": "[[She can't play the piano|Ella no puede tocar el piano]].",
     "content": {
-      "title": "Estadio",
-      "instructions": "Identifica el lugar deportivo masivo.",
-      "questions": [
-        {
-          "question": "[[The|El]] (_____) [[is full of people.|está lleno de gente.]]",
-          "options": ["[[stadium|estadio]]", "[[theatre|teatro]]", "[[airport|aeropuerto]]"],
-          "correctAnswer": 0,
-          "explanation": "'Stadium' es estadio."
-        }
-      ]
+      "title": "[[The Piano|El Piano]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[She can't play the piano|Ella no puede tocar el piano]].",
+      "words": ["[[piano|piano]].", "[[the|el]]", "[[play|tocar]]", "[[can't|no puede]]", "[[She|Ella]]"],
+      "explanation": "[[Negative sentence structure|Estructura de oración negativa]]."
     },
     "audioUrl": "audio/a1/unit-27/e19.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e20",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places",
-    "difficulty": "medium",
-    "transcript": "The square is in the city center.",
+    "topic": "Can / Can't",
+    "difficulty": "easy",
+    "transcript": "[[We can't see the stars|No podemos ver las estrellas]].",
     "content": {
-      "title": "La Plaza",
-      "instructions": "Identifica el lugar abierto céntrico.",
-      "questions": [
-        {
-          "question": "[[The|La]] (_____) [[is in the city center.|está en el centro de la ciudad.]]",
-          "options": ["[[square|plaza]]", "[[bridge|puente]]", "[[road|carretera]]"],
-          "correctAnswer": 0,
-          "explanation": "'Square' es plaza."
-        }
-      ]
+      "title": "[[The Stars|Las Estrellas]]",
+      "instructions": "[[Identify the correct negative modal|Identifica el modal negativo correcto]].",
+      "question": "[[We (____) see the stars.|No podemos ver las estrellas.]]",
+      "options": ["[[can't|no podemos]]", "[[don't|no]]", "[[aren't|no somos]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Can't' for inability to perceive|'Can't' para incapacidad de percibir]]."
     },
     "audioUrl": "audio/a1/unit-27/e20.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
-
-  // GRAMMAR: DIRECTIONS & PREPOSITIONS (21-40)
   {
     "id": "a1-u27-e21",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Can / Can't",
     "difficulty": "easy",
-    "transcript": "Go straight on.",
+    "transcript": "[[Cats can't fly|Los gatos no pueden volar]].",
     "content": {
-      "title": "Todo recto",
-      "instructions": "Elige la dirección correcta.",
+      "title": "[[Cats|Gatos]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[Go|Ve]] (_____) [[on.|]]",
-          "options": ["[[straight|recto]]", "[[left|a la izquierda]]", "[[right|a la derecha]]"],
-          "correctAnswer": 0,
-          "explanation": "'Go straight on' es ir todo recto."
+          "question": "[[Cats (____) fly.|Los gatos no pueden volar.]]",
+          "correctAnswer": "can't",
+          "explanation": "[[Impossible ability|Habilidad imposible]]."
         }
       ]
     },
@@ -470,40 +405,35 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "id": "a1-u27-e22",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Can / Can't",
     "difficulty": "easy",
-    "transcript": "Turn left at the corner.",
+    "transcript": "[[I can't remember your name|No puedo recordar tu nombre]].",
     "content": {
-      "title": "Gira a la izquierda",
-      "instructions": "Completa con la dirección.",
-      "questions": [
-        {
-          "question": "[[Turn|Gira]] (_____) [[at the corner.|en la esquina.]]",
-          "options": ["[[left|a la izquierda]]", "[[right|a la derecha]]", "[[back|atrás]]"],
-          "correctAnswer": 0,
-          "explanation": "'Turn left' es girar a la izquierda."
-        }
-      ]
+      "title": "[[Memory|Memoria]]",
+      "instructions": "[[Identify the negative modal|Identifica el modal negativo]].",
+      "question": "[[I (____) remember your name.|No puedo recordar tu nombre.]]",
+      "options": ["[[can't|no puedo]]", "[[am not|no soy]]", "[[not can|no puedo]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Can't' for mental inability|'Can't' para incapacidad mental]]."
     },
     "audioUrl": "audio/a1/unit-27/e22.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e23",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Can / Can't",
     "difficulty": "easy",
-    "transcript": "Turn right at the supermarket.",
+    "transcript": "[[Fish can't walk|Los peces no pueden caminar]].",
     "content": {
-      "title": "Gira a la derecha",
-      "instructions": "Completa con la dirección.",
+      "title": "[[Fish|Peces]]",
+      "instructions": "[[Complete the negative ability|Completa la habilidad negativa]].",
       "questions": [
         {
-          "question": "[[Turn|Gira]] (_____) [[at the supermarket.|en el supermercado.]]",
-          "options": ["[[right|a la derecha]]", "[[left|a la izquierda]]", "[[straight|recto]]"],
-          "correctAnswer": 0,
-          "explanation": "'Turn right' es girar a la derecha."
+          "question": "[[Fish (____) walk.|Los peces no pueden caminar.]]",
+          "correctAnswer": "can't",
+          "explanation": "[[Nature impossibility|Imposibilidad de la naturaleza]]."
         }
       ]
     },
@@ -512,22 +442,17 @@ export const UNIT_27_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u27-e24",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "medium",
-    "transcript": "The bank is opposite the school.",
+    "topic": "Can / Can't",
+    "difficulty": "easy",
+    "transcript": "[[You can't park here|No puedes aparcar aquí]].",
     "content": {
-      "title": "Enfrente de",
-      "instructions": "Elige la preposición de lugar correcta.",
-      "questions": [
-        {
-          "question": "[[The bank is|El banco está]] (_____) [[the school.|la escuela.]]",
-          "options": ["[[opposite|enfrente de]]", "[[next to|al lado de]]", "[[between|entre]]"],
-          "correctAnswer": 0,
-          "explanation": "'Opposite' significa enfrente de (cara a cara)."
-        }
-      ]
+      "title": "[[Parking|Aparcamiento]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[You can't park here|No puedes aparcar aquí]].",
+      "words": ["[[here|aquí]].", "[[park|aparcar]]", "[[can't|no puedes]]", "[[You|Tú]]"],
+      "explanation": "[[Negative permission/prohibition|Permiso negativo/prohibición]]."
     },
     "audioUrl": "audio/a1/unit-27/e24.mp3",
     "topicName": "Grammar"
@@ -536,40 +461,35 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "id": "a1-u27-e25",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "medium",
-    "transcript": "The pharmacy is next to the hotel.",
+    "topic": "Can / Can't",
+    "difficulty": "easy",
+    "transcript": "[[I'm sorry, I can't help you|Lo siento, no puedo ayudarte]].",
     "content": {
-      "title": "Al lado de",
-      "instructions": "Elige la preposición correcta.",
-      "questions": [
-        {
-          "question": "[[The pharmacy is|La farmacia está]] (_____) [[the hotel.|el hotel.]]",
-          "options": ["[[next to|al lado de]]", "[[on|en]]", "[[under|debajo de]]"],
-          "correctAnswer": 0,
-          "explanation": "'Next to' es al lado de."
-        }
-      ]
+      "title": "[[Sorry|Lo siento]]",
+      "instructions": "[[Identify the negative modal|Identifica el modal negativo]].",
+      "question": "[[I'm sorry, I (____) help you.|Lo siento, (____) ayudarte.]]",
+      "options": ["[[can't|no puedo]]", "[[don't|no]]", "[[am not|no soy]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Apology for inability|Disculpa por incapacidad]]."
     },
     "audioUrl": "audio/a1/unit-27/e25.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e26",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "hard",
-    "transcript": "The cafe is between the bank and the cinema.",
+    "topic": "Can / Can't",
+    "difficulty": "easy",
+    "transcript": "[[They can't come to the party|No pueden venir a la fiesta]].",
     "content": {
-      "title": "Entre dos lugares",
-      "instructions": "Elige la preposición que indica posición intermedia.",
+      "title": "[[The Party|La Fiesta]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[The cafe is|La cafetería está]] (_____) [[the bank and the cinema.|el banco y el cine.]]",
-          "options": ["[[between|entre]]", "[[among|entre (muchos)]]", "[[behind|detrás de]]"],
-          "correctAnswer": 0,
-          "explanation": "'Between' se usa para indicar posición entre dos puntos."
+          "question": "[[They (____) come to the party.|No pueden venir a la fiesta.]]",
+          "correctAnswer": "can't",
+          "explanation": "[[Lack of possibility|Falta de posibilidad]]."
         }
       ]
     },
@@ -580,140 +500,131 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "id": "a1-u27-e27",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "medium",
-    "transcript": "The park is behind the museum.",
+    "topic": "Can / Can't",
+    "difficulty": "easy",
+    "transcript": "[[I can't find my keys|No encuentro mis llaves]].",
     "content": {
-      "title": "Detrás de",
-      "instructions": "Elige la preposición de lugar.",
-      "questions": [
-        {
-          "question": "[[The park is|El parque está]] (_____) [[the museum.|el museo.]]",
-          "options": ["[[behind|detrás de]]", "[[in front of|delante de]]", "[[on|en]]"],
-          "correctAnswer": 0,
-          "explanation": "'Behind' es detrás de."
-        }
-      ]
+      "title": "[[Keys|Llaves]]",
+      "instructions": "[[Identify the inability|Identifica la incapacidad]].",
+      "question": "[[I (____) find my keys.|No encuentro mis llaves.]]",
+      "options": ["[[can't|no puedo]]", "[[don't|no]]", "[[amn't|no soy]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Can't' for temporary inability|'Can't' para incapacidad temporal]]."
     },
     "audioUrl": "audio/a1/unit-27/e27.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e28",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "medium",
-    "transcript": "There is a car in front of the house.",
+    "topic": "Can / Can't",
+    "difficulty": "easy",
+    "transcript": "[[We can't eat this food|No podemos comer esta comida]].",
     "content": {
-      "title": "Delante de",
-      "instructions": "Elige la preposición correcta.",
-      "questions": [
-        {
-          "question": "[[There is a car|Hay un coche]] (_____) [[the house.|la casa.]]",
-          "options": ["[[in front of|delante de]]", "[[next to|al lado de]]", "[[under|debajo de]]"],
-          "correctAnswer": 0,
-          "explanation": "'In front of' es delante de."
-        }
-      ]
+      "title": "[[Food|Comida]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[We can't eat this food|No podemos comer esta comida]].",
+      "words": ["[[food|comida]].", "[[this|esta]]", "[[eat|comer]]", "[[can't|no podemos]]", "[[We|Nosotros]]"],
+      "explanation": "[[Negative permission or ability|Permiso o habilidad negativa]]."
     },
     "audioUrl": "audio/a1/unit-27/e28.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e29",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "hard",
-    "transcript": "Go past the post office.",
+    "topic": "Can / Can't",
+    "difficulty": "easy",
+    "transcript": "[[She can't run today, she is tired|No puede correr hoy, está cansada]].",
     "content": {
-      "title": "Pasar por delante",
-      "instructions": "Ordena la instrucción de dirección.",
-      "correctSentence": "[[Go past the post office|Pasa por delante de la oficina de correos]].",
-      "words": ["[[office|oficina]]", "[[post|correos]]", "[[the|la]]", "[[past|pasa]]", "[[Go|Ve]]"],
-      "explanation": "'Go past' significa pasar por delante de algo sin entrar."
+      "title": "[[Tired|Cansada]]",
+      "instructions": "[[Identify the negative modal|Identifica el modal negativo]].",
+      "question": "[[She (____) run today.|Ella (____) correr hoy.]]",
+      "options": ["[[can't|no puede]]", "[[isn't|no está]]", "[[doesn't|no]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Temporary inability due to state|Incapacidad temporal debido al estado]]."
     },
     "audioUrl": "audio/a1/unit-27/e29.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e30",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "hard",
-    "transcript": "Take the second turning on the left.",
+    "topic": "Can / Can't",
+    "difficulty": "easy",
+    "transcript": "[[I can't read without glasses|No puedo leer sin gafas]].",
     "content": {
-      "title": "Segunda a la izquierda",
-      "instructions": "Ordena las palabras para dar una dirección compleja.",
-      "correctSentence": "[[Take the second turning on the left|Toma la segunda bocacalle a la izquierda]].",
-      "words": ["[[left|izquierda]]", "[[the|la]]", "[[on|a]]", "[[turning|bocacalle]]", "[[second|segunda]]", "[[the|la]]", "[[Take|Toma]]"],
-      "explanation": "Frase común para dar direcciones."
+      "title": "[[Glasses|Gafas]]",
+      "instructions": "[[Complete the negative sentence|Completa la frase negativa]].",
+      "questions": [
+        {
+          "question": "[[I (____) read without glasses.|No puedo leer sin gafas.]]",
+          "correctAnswer": "can't",
+          "explanation": "[[Conditional ability|Habilidad condicional]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-27/e30.mp3",
     "topicName": "Grammar"
   },
+
+  // ==========================================
+  // LESSON 3: QUESTIONS WITH CAN (31-45)
+  // ==========================================
   {
     "id": "a1-u27-e31",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places",
-    "difficulty": "easy",
-    "transcript": "Excuse me, where is the station?",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "[[Can you swim?|¿Sabes nadar?]]",
     "content": {
-      "title": "Disculpe",
-      "instructions": "Elige la forma educada de preguntar.",
-      "questions": [
-        {
-          "question": "(_____) [[, where is the station?|¿dónde está la estación?]]",
-          "options": ["[[Excuse me|Disculpe]]", "[[Hello|Hola]]", "[[Please|Por favor]]"],
-          "correctAnswer": 0,
-          "explanation": "'Excuse me' se usa para llamar la atención de alguien de forma educada."
-        }
-      ]
+      "title": "[[Swimming Question|Pregunta de natación]]",
+      "instructions": "[[Identify the correct question structure|Identifica la estructura de pregunta correcta]].",
+      "question": "[[ (____) you swim?|¿(____) nadar?]]",
+      "options": ["[[Can|¿Puedes?]]", "[[Do|¿Haces?]]", "[[Are|¿Eres?]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Can' moves to the front for questions|'Can' pasa al frente en las preguntas]]."
     },
     "audioUrl": "audio/a1/unit-27/e31.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e32",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "You are here.",
+    "transcript": "[[Can she speak Spanish?|¿Puede ella hablar español?]]",
     "content": {
-      "title": "Usted está aquí",
-      "instructions": "Completa la frase del mapa.",
-      "questions": [
-        {
-          "question": "[[You|Usted]] (_____) [[here.|aquí.]]",
-          "options": ["[[are|está]]", "[[is|está]]", "[[am|estoy]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'you' usamos 'are'."
-        }
-      ]
+      "title": "[[Spanish Question|Pregunta de español]]",
+      "instructions": "[[Choose the correct order|Elige el orden correcto]].",
+      "question": "[[ (____) she speak Spanish?|¿Puede ella hablar español?]]",
+      "options": ["[[Can|¿Puede?]]", "[[Does|¿Hace?]]", "[[Is|¿Es?]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Can + Subject + Verb|Can + Sujeto + Verbo]]."
     },
     "audioUrl": "audio/a1/unit-27/e32.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e33",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "It's on your right.",
+    "transcript": "[[Can they help us?|¿Pueden ayudarnos?]]",
     "content": {
-      "title": "A su derecha",
-      "instructions": "Indica la posición respecto a la persona.",
+      "title": "[[Help Question|Pregunta de ayuda]]",
+      "instructions": "[[Complete the question|Completa la pregunta]].",
       "questions": [
         {
-          "question": "[[It's on your|Está a su]] (_____) .",
-          "options": ["[[right|derecha]]", "[[straight|recto]]", "[[near|cerca]]"],
-          "correctAnswer": 0,
-          "explanation": "'On your right' es a tu derecha."
+          "question": "[[ (____) they help us?|¿Pueden ayudarnos?]]",
+          "correctAnswer": "Can",
+          "explanation": "[[Questions start with Can|Las preguntas empiezan con Can]]."
         }
       ]
     },
@@ -722,22 +633,17 @@ export const UNIT_27_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u27-e34",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "It's on your left.",
+    "transcript": "[[Can I use your phone?|¿Puedo usar tu teléfono?]]",
     "content": {
-      "title": "A su izquierda",
-      "instructions": "Indica la posición respecto a la persona.",
-      "questions": [
-        {
-          "question": "[[It's on your|Está a su]] (_____) .",
-          "options": ["[[left|izquierda]]", "[[opposite|enfrente]]", "[[between|entre]]"],
-          "correctAnswer": 0,
-          "explanation": "'On your left' es a tu izquierda."
-        }
-      ]
+      "title": "[[Phone Permission|Permiso de teléfono]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[Can I use your phone?|¿Puedo usar tu teléfono?]]",
+      "words": ["[[phone?|teléfono?]]", "[[your|tu]]", "[[use|usar]]", "[[I|yo]]", "[[Can|¿Puedo]]"],
+      "explanation": "[[Asking for permission|Pidiendo permiso]]."
     },
     "audioUrl": "audio/a1/unit-27/e34.mp3",
     "topicName": "Grammar"
@@ -746,59 +652,54 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "id": "a1-u27-e35",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "easy",
-    "transcript": "Cross the street.",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "[[Can you play the violin?|¿Sabes tocar el violín?]]",
     "content": {
-      "title": "Cruza la calle",
-      "instructions": "Elige el verbo de acción.",
-      "questions": [
-        {
-          "question": "(_____) [[the street.|la calle.]]",
-          "options": ["[[Cross|Cruza]]", "[[Walk|Camina]]", "[[Stop|Para]]"],
-          "correctAnswer": 0,
-          "explanation": "'Cross the street' es cruzar la calle."
-        }
-      ]
+      "title": "[[Violin Question|Pregunta de violín]]",
+      "instructions": "[[Identify the correct modal|Identifica el modal correcto]].",
+      "question": "[[ (____) you play the violin?|¿Sabes tocar el violín?]]",
+      "options": ["[[Can|¿Sabes?]]", "[[Do|¿Haces?]]", "[[Are|¿Eres?]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Questioning musical ability|Preguntando por habilidad musical]]."
     },
     "audioUrl": "audio/a1/unit-27/e35.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e36",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "hard",
-    "transcript": "How can I get to the airport?",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "[[Can we sit here?|¿Podemos sentarnos aquí?]]",
     "content": {
-      "title": "¿Cómo llego al aeropuerto?",
-      "instructions": "Ordena la pregunta para pedir direcciones.",
-      "correctSentence": "[[How can I get to the airport|¿Cómo puedo llegar al aeropuerto]]?",
-      "words": ["[[airport|aeropuerto]]?", "[[the|al]]", "[[to|a]]", "[[get|llegar]]", "[[I|yo]]", "[[can|puedo]]", "[[How|Cómo]]"],
-      "explanation": "Estructura estándar para pedir cómo llegar a un sitio."
+      "title": "[[Sitting Question|Pregunta de asiento]]",
+      "instructions": "[[Complete the permission request|Completa la petición de permiso]].",
+      "questions": [
+        {
+          "question": "[[ (____) we sit here?|¿Podemos sentarnos aquí?]]",
+          "correctAnswer": "Can",
+          "explanation": "[[Asking for permission to sit|Pidiendo permiso para sentarse]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-27/e36.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e37",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "Is it far from here?",
+    "transcript": "[[Can he cook Italian food?|¿Sabe él cocinar comida italiana?]]",
     "content": {
-      "title": "¿Está lejos?",
-      "instructions": "Pregunta sobre la distancia.",
-      "questions": [
-        {
-          "question": "[[Is it|¿Está]] (_____) [[from here?|de aquí?]]",
-          "options": ["[[far|lejos]]", "[[near|cerca]]", "[[long|largo]]"],
-          "correctAnswer": 0,
-          "explanation": "'Far from' es lejos de."
-        }
-      ]
+      "title": "[[Cooking Question|Pregunta de cocina]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[Can he cook Italian food?|¿Sabe él cocinar comida italiana?]]",
+      "words": ["[[food?|comida?]]", "[[Italian|italiana]]", "[[cook|cocinar]]", "[[he|él]]", "[[Can|¿Sabe]]"],
+      "explanation": "[[Questioning culinary skill|Preguntando por habilidad culinaria]]."
     },
     "audioUrl": "audio/a1/unit-27/e37.mp3",
     "topicName": "Grammar"
@@ -807,83 +708,72 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "id": "a1-u27-e38",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "easy",
-    "transcript": "It's very near.",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "[[Can you see the map?|¿Puedes ver el mapa?]]",
     "content": {
-      "title": "Muy cerca",
-      "instructions": "Indica que el lugar no está lejos.",
-      "questions": [
-        {
-          "question": "[[It's very|Está muy]] (_____) .",
-          "options": ["[[near|cerca]]", "[[far|lejos]]", "[[opposite|enfrente]]"],
-          "correctAnswer": 0,
-          "explanation": "'Near' es cerca."
-        }
-      ]
+      "title": "[[Map Question|Pregunta de mapa]]",
+      "instructions": "[[Identify the sense question|Identifica la pregunta de sentido]].",
+      "question": "[[ (____) you see the map?|¿Puedes ver el mapa?]]",
+      "options": ["[[Can|¿Puedes?]]", "[[Do|¿Haces?]]", "[[Are|¿Eres?]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Questioning visual perception|Preguntando por percepción visual]]."
     },
     "audioUrl": "audio/a1/unit-27/e38.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e39",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "It is next to the bank.",
+    "transcript": "[[Can I open the window?|¿Puedo abrir la ventana?]]",
     "content": {
-      "title": "Al lado del banco",
-      "instructions": "Ordena las palabras para localizar el lugar.",
-      "correctSentence": "[[It is next to the bank|Está al lado del banco]].",
-      "words": ["[[bank|banco]].", "[[the|del]]", "[[to|a]]", "[[next|lado]]", "[[is|está]]", "[[It|Él/Ella]]"],
-      "explanation": "Uso de la preposición 'next to'."
+      "title": "[[Window Question|Pregunta de ventana]]",
+      "instructions": "[[Complete the request|Completa la petición]].",
+      "questions": [
+        {
+          "question": "[[ (____) I open the window?|¿Puedo abrir la ventana?]]",
+          "correctAnswer": "Can",
+          "explanation": "[[Asking for permission|Pidiendo permiso]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-27/e39.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e40",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "Where are you going?",
+    "transcript": "[[Can you repeat that, please?|¿Puede repetir eso, por favor?]]",
     "content": {
-      "title": "¿Adónde vas?",
-      "instructions": "Pregunta sobre el destino.",
-      "questions": [
-        {
-          "question": "[[Where are you|¿Adónde estás]] (_____) [[?]]",
-          "options": ["[[going|yendo]]", "[[coming|viniendo]]", "[[staying|quedándote]]"],
-          "correctAnswer": 0,
-          "explanation": "'Where are you going?' es ¿Adónde vas?."
-        }
-      ]
+      "title": "[[Repetition|Repetición]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[Can you repeat that, please?|¿Puede repetir eso, por favor?]]",
+      "words": ["[[please?|favor?]]", "[[that,|eso]]", "[[repeat|repetir]]", "[[you|puede]]", "[[Can|¿]]"],
+      "explanation": "[[Polite request for repetition|Petición educada de repetición]]."
     },
     "audioUrl": "audio/a1/unit-27/e40.mp3",
     "topicName": "Grammar"
   },
-
-  // FINAL REVIEW & READING (41-60)
   {
     "id": "a1-u27-e41",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "easy",
-    "transcript": "Stop here, please.",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "[[Yes, I can|Sí, puedo]].",
     "content": {
-      "title": "Pare aquí",
-      "instructions": "Instrucción de parada.",
-      "questions": [
-        {
-          "question": "(_____) [[here, please.|aquí, por favor.]]",
-          "options": ["[[Stop|Pare]]", "[[Go|Vaya]]", "[[Turn|Gire]]"],
-          "correctAnswer": 0,
-          "explanation": "'Stop' es parar."
-        }
-      ]
+      "title": "[[Short Answer|Respuesta corta]]",
+      "instructions": "[[Identify the correct short answer|Identifica la respuesta corta correcta]].",
+      "question": "[[Can you swim? (____)|¿Sabes nadar? (____)]]",
+      "options": ["[[Yes, I can|Sí, puedo]]", "[[Yes, I do|Sí, hago]]", "[[Yes, I swim|Sí, nado]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Use 'can' in the short answer|Usa 'can' en la respuesta corta]]."
     },
     "audioUrl": "audio/a1/unit-27/e41.mp3",
     "topicName": "Grammar"
@@ -892,429 +782,640 @@ export const UNIT_27_EXERCISES: Exercise[] = [
     "id": "a1-u27-e42",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "The library is closed on Sundays.",
+    "transcript": "[[No, I can't|No, no puedo]].",
     "content": {
-      "title": "Cerrado",
-      "instructions": "Identifica el estado del lugar.",
-      "questions": [
-        {
-          "question": "[[The library is|La biblioteca está]] (_____) [[on Sundays.|los domingos.]]",
-          "options": ["[[closed|cerrada]]", "[[open|abierta]]", "[[near|cerca]]"],
-          "correctAnswer": 0,
-          "explanation": "'Closed' es cerrado."
-        }
-      ]
+      "title": "[[Negative Short Answer|Respuesta corta negativa]]",
+      "instructions": "[[Identify the negative short answer|Identifica la respuesta corta negativa]].",
+      "question": "[[Can you play chess? (____)|¿Sabes jugar al ajedrez? (____)]]",
+      "options": ["[[No, I can't|No, no puedo]]", "[[No, I don't|No, no hago]]", "[[No, I'm not|No, no soy]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Use 'can't' in negative short answers|Usa 'can't' en las respuestas cortas negativas]]."
     },
     "audioUrl": "audio/a1/unit-27/e42.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e43",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Places",
-    "difficulty": "easy",
-    "transcript": "The bank is on the left.",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "[[What can you do?|¿Qué puedes hacer?]]",
     "content": {
-      "title": "A la izquierda",
-      "instructions": "Identifica la posición.",
+      "title": "[[What Question|Pregunta con What]]",
+      "instructions": "[[Complete the question|Completa la pregunta]].",
       "questions": [
         {
-          "question": "[[The bank is on the|El banco está a la]] (_____) .",
-          "options": ["[[left|izquierda]]", "[[right|derecha]]", "[[center|centro]]"],
-          "correctAnswer": 0,
-          "explanation": "'Left' es izquierda."
+          "question": "[[What (____) you do?|¿Qué puedes hacer?]]",
+          "correctAnswer": "can",
+          "explanation": "[[Question word + Can + Subject + Verb|Palabra interrogativa + Can + Sujeto + Verbo]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-27/e43.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e44",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "Take a map of the city.",
+    "transcript": "[[Can she come with us?|¿Puede venir ella con nosotros?]]",
     "content": {
-      "title": "Mapa de la ciudad",
-      "instructions": "Identifica el objeto para orientarse.",
-      "questions": [
-        {
-          "question": "[[Take a|Toma un]] (_____) [[of the city.|de la ciudad.]]",
-          "options": ["[[map|mapa]]", "[[book|libro]]", "[[bag|bolsa]]"],
-          "correctAnswer": 0,
-          "explanation": "'Map' es mapa."
-        }
-      ]
+      "title": "[[Invitation Question|Pregunta de invitación]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[Can she come with us?|¿Puede venir ella con nosotros?]]",
+      "words": ["[[us?|nosotros?]]", "[[with|con]]", "[[come|venir]]", "[[she|ella]]", "[[Can|¿Puede]]"],
+      "explanation": "[[Asking about possibility|Preguntando por posibilidad]]."
     },
     "audioUrl": "audio/a1/unit-27/e44.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e45",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places",
-    "difficulty": "easy",
-    "transcript": "I am at the supermarket.",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "[[Can you help me with my homework?|¿Puedes ayudarme con mis deberes?]]",
     "content": {
-      "title": "En el supermercado",
-      "instructions": "Identifica la ubicación actual.",
-      "questions": [
-        {
-          "question": "[[I am at the|Estoy en el]] (_____) .",
-          "options": ["[[supermarket|supermercado]]", "[[sky|cielo]]", "[[mountain|montaña]]"],
-          "correctAnswer": 0,
-          "explanation": "'Supermarket' es supermercado."
-        }
-      ]
+      "title": "[[Homework Help|Ayuda con deberes]]",
+      "instructions": "[[Identify the request|Identifica la petición]].",
+      "question": "[[ (____) you help me with my homework?|¿Puedes ayudarme con mis deberes?]]",
+      "options": ["[[Can|¿Puedes?]]", "[[Are|¿Eres?]]", "[[Do|¿Haces?]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Request for assistance|Petición de ayuda]]."
     },
     "audioUrl": "audio/a1/unit-27/e45.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
+
+  // ==========================================
+  // LESSON 4: ABILITIES IN CONTEXT (46-60)
+  // ==========================================
   {
     "id": "a1-u27-e46",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "medium",
-    "transcript": "Is the museum behind the park?",
+    "topic": "Reading",
+    "difficulty": "hard",
+    "transcript": "[[The Talent Show|El Concurso de Talentos]]. [[My friends are very talented|Mis amigos tienen mucho talento]]. [[Sara can sing beautifully|Sara puede cantar maravillosamente]]. [[Tom can play the piano and the drums|Tom puede tocar el piano y la batería]]. [[He can't dance, but he is a great musician|Él no puede bailar, pero es un gran músico]]. [[Lisa can speak four languages|Lisa puede hablar cuatro idiomas]]. [[She can speak English, Spanish, French, and Italian|Puede hablar inglés, español, francés e italiano]]. [[I can't sing or play an instrument|Yo no puedo cantar ni tocar un instrumento]]. [[But I can cook delicious food for everyone!|¡Pero puedo cocinar comida deliciosa para todos!]] [[Can you do something special?|¿Puedes hacer algo especial?]]",
     "content": {
-      "title": "¿Detrás de?",
-      "instructions": "Elige la preposición de lugar.",
+      "title": "[[Reading: Talents|Lectura: Talentos]]",
+      "instructions": "[[Read about the friends' talents|Lee sobre los talentos de los amigos]].",
       "questions": [
         {
-          "question": "[[Is the museum|¿Está el museo]] (_____) [[the park?|el parque?]]",
-          "options": ["[[behind|detrás de]]", "[[on|en]]", "[[under|debajo de]]"],
+          "question": "[[The Talent Show|El Concurso de Talentos]]. [[My friends are very talented|Mis amigos tienen mucho talento]]. [[Sara can sing beautifully|Sara puede cantar maravillosamente]]. [[Tom can play the piano and the drums|Tom puede tocar el piano y la batería]]. [[He can't dance, but he is a great musician|Él no puede bailar, pero es un gran músico]]. [[Lisa can speak four languages|Lisa puede hablar cuatro idiomas]]. [[She can speak English, Spanish, French, and Italian|Puede hablar inglés, español, francés e italiano]]. [[I can't sing or play an instrument|Yo no puedo cantar ni tocar un instrumento]]. [[But I can cook delicious food for everyone!|¡Pero puedo cocinar comida deliciosa para todos!]] [[Can you do something special?|¿Puedes hacer algo especial?]]",
+          "options": ["[[I have read the text|He leído el texto]]."],
           "correctAnswer": 0,
-          "explanation": "'Behind' es detrás de."
+          "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-27/e46.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u27-e47",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places",
-    "difficulty": "easy",
-    "transcript": "The pharmacy is open now.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What can Sara do? She can sing|¿Qué puede hacer Sara? Puede cantar]].",
     "content": {
-      "title": "Abierto ahora",
-      "instructions": "Identifica el estado actual.",
-      "questions": [
-        {
-          "question": "[[The pharmacy is|La farmacia está]] (_____) [[now.|ahora.]]",
-          "options": ["[[open|abierta]]", "[[closed|cerrada]]", "[[far|lejos]]"],
-          "correctAnswer": 0,
-          "explanation": "'Open' es abierto."
-        }
-      ]
+      "title": "[[Comprehension: Sara|Comprensión: Sara]]",
+      "instructions": "[[Identify Sara's ability|Identifica la habilidad de Sara]].",
+      "question": "[[Sara (____) sing beautifully.|Sara (____) cantar maravillosamente.]]",
+      "options": ["[[can|puede]]", "[[can't|no puede]]", "[[is|está]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says 'Sara can sing beautifully'|El texto dice 'Sara puede cantar maravillosamente']]."
     },
-    "audioUrl": "audio/a1/unit-27/e47.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u27-e48",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "medium",
-    "transcript": "The bank is on your right.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Can Tom dance? No, he can't|¿Puede bailar Tom? No, no puede]].",
     "content": {
-      "title": "A su derecha",
-      "instructions": "Indica la posición.",
-      "questions": [
-        {
-          "question": "[[The bank is on your|El banco está a su]] (_____) .",
-          "options": ["[[right|derecha]]", "[[left|izquierda]]", "[[back|espalda]]"],
-          "correctAnswer": 0,
-          "explanation": "'Right' es derecha."
-        }
-      ]
+      "title": "[[Comprehension: Tom|Comprensión: Tom]]",
+      "instructions": "[[Identify Tom's inability|Identifica la incapacidad de Tom]].",
+      "question": "[[Tom (____) dance.|Tom (____) bailar.]]",
+      "options": ["[[can't|no puede]]", "[[can|puede]]", "[[doesn't|no]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says 'He can't dance'|El texto dice 'Él no puede bailar']]."
     },
-    "audioUrl": "audio/a1/unit-27/e48.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u27-e49",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Places",
-    "difficulty": "easy",
-    "transcript": "The airport is far.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Lisa can speak four languages|Lisa puede hablar cuatro idiomas]].",
     "content": {
-      "title": "Lejos",
-      "instructions": "Identifica la distancia.",
+      "title": "[[Comprehension: Lisa|Comprensión: Lisa]]",
+      "instructions": "[[Complete the sentence about Lisa|Completa la frase sobre Lisa]].",
       "questions": [
         {
-          "question": "[[The airport is|El aeropuerto está]] (_____) .",
-          "options": ["[[far|lejos]]", "[[near|cerca]]", "[[small|pequeño]]"],
-          "correctAnswer": 0,
-          "explanation": "'Far' es lejos."
+          "question": "[[Lisa (____) speak four languages.|Lisa (____) hablar cuatro idiomas.]]",
+          "correctAnswer": "can",
+          "explanation": "[[The text says 'Lisa can speak four languages'|El texto dice 'Lisa puede hablar cuatro idiomas']]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-27/e49.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u27-e50",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "medium",
-    "transcript": "Where are you?",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[What can the speaker do? Cook|¿Qué puede hacer el hablante? Cocinar]].",
     "content": {
-      "title": "¿Dónde estás?",
-      "instructions": "Completa la pregunta de ubicación.",
-      "questions": [
-        {
-          "question": "[[Where|Dónde]] (_____) [[you?|tú?]]",
-          "options": ["[[are|estás]]", "[[is|está]]", "[[am|estoy]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'you' se usa 'are'."
-        }
-      ]
+      "title": "[[Comprehension: Speaker|Comprensión: Hablante]]",
+      "instructions": "[[Identify the speaker's ability|Identifica la habilidad del hablante]].",
+      "question": "[[The speaker (____) cook delicious food.|El hablante (____) cocinar comida deliciosa.]]",
+      "options": ["[[can|puede]]", "[[can't|no puede]]", "[[doesn't|no]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The speaker says 'I can cook delicious food'|El hablante dice 'Puedo cocinar comida deliciosa']]."
     },
-    "audioUrl": "audio/a1/unit-27/e50.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u27-e51",
-    "type": "reading",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "medium",
-    "transcript": "Excuse me, how can I get to the supermarket? Go straight on this street and turn left at the corner. The supermarket is next to the bank, opposite the park. It is very near from here.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[How many instruments can Tom play? Two|¿Cuántos instrumentos puede tocar Tom? Dos]].",
     "content": {
-      "title": "Buscando el Supermercado",
-      "instructions": "Lee las instrucciones para llegar al supermercado.",
-      "text": "[[Excuse me,|Disculpe,]] [[how|cómo]] [[can|puedo]] [[I|yo]] [[get|llegar]] [[to|a]] [[the|el]] [[supermarket?|supermercado?]] [[Go|Vaya]] [[straight|recto]] [[on|por]] [[this|esta]] [[street|calle]] [[and|y]] [[turn|gire]] [[left|a la izquierda]] [[at|en]] [[the|la]] [[corner.|esquina.]] [[The|El]] [[supermarket|supermercado]] [[is|está]] [[next|al lado]] [[to|de]] [[the|el]] [[bank,|banco,]] [[opposite|enfrente de]] [[the|el]] [[park.|parque.]] [[It|Esto]] [[is|está]] [[very|muy]] [[near|cerca]] [[from|de]] [[here.|aquí.]]",
-      "questions": [
-        {
-          "question": "[[Where is the supermarket?|¿Dónde está el supermercado?]]",
-          "options": ["[[Next to the bank|Al lado del banco]]", "[[Inside the park|Dentro del parque]]", "[[Far from here|Lejos de aquí]]"],
-          "correctAnswer": 0
-        },
-        {
-          "question": "[[What should I do at the corner?|¿Qué debo hacer en la esquina?]]",
-          "options": ["[[Turn left|Girar a la izquierda]]", "[[Stop|Parar]]", "[[Turn right|Girar a la derecha]]"],
-          "correctAnswer": 0
-        }
-      ]
+      "title": "[[Comprehension: Instruments|Comprensión: Instrumentos]]",
+      "instructions": "[[Count Tom's musical abilities|Cuenta las habilidades musicales de Tom]].",
+      "question": "[[Tom (____) play the piano and the drums.|Tom (____) tocar el piano y la batería.]]",
+      "options": ["[[can|puede]]", "[[is|es]]", "[[has|tiene]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text mentions piano and drums|El texto menciona el piano y la batería]]."
     },
-    "audioUrl": "audio/a1/unit-27/e51.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u27-e52",
-    "type": "reading",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Places",
-    "difficulty": "medium",
-    "transcript": "Welcome to our town center. There is a big square with a beautiful church. The museum is behind the church. If you are hungry, there is a cafe next to the cinema. The bus station is opposite the hotel.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[The speaker can't sing|El hablante no puede cantar]].",
     "content": {
-      "title": "El Centro del Pueblo",
-      "instructions": "Lee sobre los lugares en el centro.",
-      "text": "[[Welcome|Bienvenidos]] [[to|a]] [[our|nuestro]] [[town|pueblo]] [[center.|centro.]] [[There|Allí]] [[is|hay]] [[a|una]] [[big|gran]] [[square|plaza]] [[with|con]] [[a|una]] [[beautiful|hermosa]] [[church.|iglesia.]] [[The|El]] [[museum|museo]] [[is|está]] [[behind|detrás de]] [[the|la]] [[church.|iglesia.]] [[If|Si]] [[you|tú]] [[are|estás]] [[hungry,|hambriento,]] [[there|allí]] [[is|hay]] [[a|una]] [[cafe|cafetería]] [[next|al lado]] [[to|de]] [[the|el]] [[cinema.|cine.]] [[The|La]] [[bus|autobús]] [[station|estación]] [[is|está]] [[opposite|enfrente de]] [[the|el]] [[hotel.|hotel.]]",
+      "title": "[[Comprehension: No Talent|Comprensión: Sin talento]]",
+      "instructions": "[[Complete the negative ability|Completa la habilidad negativa]].",
       "questions": [
         {
-          "question": "[[Where is the museum?|¿Dónde está el museo?]]",
-          "options": ["[[Behind the church|Detrás de la iglesia]]", "[[Next to the cinema|Al lado del cine]]", "[[Opposite the hotel|Enfrente del hotel]]"],
-          "correctAnswer": 0
-        },
-        {
-          "question": "[[What is opposite the hotel?|¿Qué está enfrente del hotel?]]",
-          "options": ["[[The bus station|La estación de autobuses]]", "[[The museum|El museo]]", "[[The square|La plaza]]"],
-          "correctAnswer": 0
+          "question": "[[The speaker (____) sing.|El hablante (____) cantar.]]",
+          "correctAnswer": "can't",
+          "explanation": "[[The speaker says 'I can't sing'|El hablante dice 'No puedo cantar']]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-27/e52.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u27-e53",
-    "type": "reading",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "medium",
-    "transcript": "To go to the airport, you need to take the bus at the station. Go straight on this road and turn right at the hospital. The airport is on your left. It is about twenty minutes from here.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Can you do something special?|¿Puedes hacer algo especial?]]",
     "content": {
-      "title": "Al Aeropuerto",
-      "instructions": "Lee cómo llegar al aeropuerto.",
-      "text": "[[To|Para]] [[go|ir]] [[to|a]] [[the|el]] [[airport,|aeropuerto,]] [[you|tú]] [[need|necesitas]] [[to|a]] [[take|tomar]] [[the|el]] [[bus|autobús]] [[at|en]] [[the|la]] [[station.|estación.]] [[Go|Vaya]] [[straight|recto]] [[on|por]] [[this|esta]] [[road|carretera]] [[and|y]] [[turn|gire]] [[right|a la derecha]] [[at|en]] [[the|el]] [[hospital.|hospital.]] [[The|El]] [[airport|aeropuerto]] [[is|está]] [[on|en]] [[your|su]] [[left.|izquierda.]] [[It|Esto]] [[is|está]] [[about|a unos]] [[twenty|veinte]] [[minutes|minutos]] [[from|de]] [[here.|aquí.]]",
-      "questions": [
-        {
-          "question": "[[Where is the airport?|¿Dónde está el aeropuerto?]]",
-          "options": ["[[On your left|A su izquierda]]", "[[On your right|A su derecha]]", "[[Next to the station|Al lado de la estación]]"],
-          "correctAnswer": 0
-        },
-        {
-          "question": "[[Where should I turn right?|¿Dónde debo girar a la derecha?]]",
-          "options": ["[[At the hospital|En el hospital]]", "[[At the station|En la estación]]", "[[At the airport|En el aeropuerto]]"],
-          "correctAnswer": 0
-        }
-      ]
+      "title": "[[Comprehension: Question|Comprensión: Pregunta]]",
+      "instructions": "[[Order the words from the text|Ordena las palabras del texto]].",
+      "correctSentence": "[[Can you do something special?|¿Puedes hacer algo especial?]]",
+      "words": ["[[special?|especial?]]", "[[something|algo]]", "[[do|hacer]]", "[[you|puedes]]", "[[Can|¿]]"],
+      "explanation": "[[Final question from the text|Pregunta final del texto]]."
     },
-    "audioUrl": "audio/a1/unit-27/e53.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u27-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "medium",
-    "transcript": "The bank is on the corner of the street.",
+    "topic": "Vocabulary",
+    "difficulty": "hard",
+    "transcript": "[[What is a talent show? A competition|¿Qué es un concurso de talentos? Una competición]].",
     "content": {
-      "title": "En la esquina de",
-      "instructions": "Identifica la ubicación precisa.",
-      "questions": [
-        {
-          "question": "[[The bank is on the|El banco está en la]] (_____) [[of the street.|de la calle.]]",
-          "options": ["[[corner|esquina]]", "[[middle|medio]]", "[[end|final]]"],
-          "correctAnswer": 0,
-          "explanation": "'Corner' es esquina."
-        }
-      ]
+      "title": "[[Vocabulary: Show|Vocabulario: Concurso]]",
+      "instructions": "[[Identify the event type|Identifica el tipo de evento]].",
+      "question": "[[A talent show is a (____).|Un concurso de talentos es una (____).]]",
+      "options": ["[[competition|competición]]", "[[lesson|lección]]", "[[party|fiesta]]"],
+      "correctAnswer": 0,
+      "explanation": "[[It's where people compete with skills|Es donde la gente compite con habilidades]]."
     },
-    "audioUrl": "audio/a1/unit-27/e54.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u27-e55",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "medium",
-    "transcript": "Is there a train station in this city?",
+    "topic": "Vocabulary",
+    "difficulty": "hard",
+    "transcript": "[[Musicians can play instruments|Los músicos pueden tocar instrumentos]].",
     "content": {
-      "title": "Estación de Tren",
-      "instructions": "Pregunta sobre transporte.",
+      "title": "[[Vocabulary: Musician|Vocabulario: Músico]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[Is there a|¿Hay una]] (_____) [[station in this city?|estación en esta ciudad?]]",
-          "options": ["[[train|tren]]", "[[ship|barco]]", "[[plane|avión]]"],
-          "correctAnswer": 0,
-          "explanation": "'Train station' es estación de tren."
+          "question": "[[Musicians (____) play instruments.|Los músicos (____) tocar instrumentos.]]",
+          "correctAnswer": "can",
+          "explanation": "[[Inherent skill of the profession|Habilidad inherente a la profesión]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-27/e55.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u27-e56",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Directions",
+    "topic": "Grammar",
     "difficulty": "hard",
-    "transcript": "Go straight on and turn right.",
+    "transcript": "[[Sara can sing, but Tom can't dance|Sara puede cantar, pero Tom no puede bailar]].",
     "content": {
-      "title": "Instrucciones",
-      "instructions": "Ordena la frase de dirección.",
-      "correctSentence": "[[Go straight on and turn right|Sigue recto y gira a la derecha]].",
-      "words": ["[[right|derecha]].", "[[turn|gira]]", "[[and|y]]", "[[on|]]", "[[straight|recto]]", "[[Go|Ve]]"],
-      "explanation": "Combinación de dos instrucciones básicas."
+      "title": "[[Grammar: Contrast|Gramática: Contraste]]",
+      "instructions": "[[Identify the contrasting abilities|Identifica las habilidades en contraste]].",
+      "question": "[[Sara can sing, (____) Tom can't dance.|Sara puede cantar, (____) Tom no puede bailar.]]",
+      "options": ["[[but|pero]]", "[[and|y]]", "[[because|porque]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Use 'but' for contrast|Usa 'but' para contraste]]."
     },
-    "audioUrl": "audio/a1/unit-27/e56.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e57",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Places",
-    "difficulty": "medium",
-    "transcript": "The pharmacy is between the cafe and the bank.",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[I can't play an instrument|No puedo tocar un instrumento]].",
     "content": {
-      "title": "Posición",
-      "instructions": "Completa con la preposición.",
+      "title": "[[Grammar: Negative|Gramática: Negativo]]",
+      "instructions": "[[Complete the negative statement|Completa la afirmación negativa]].",
       "questions": [
         {
-          "question": "[[The pharmacy is|La farmacia está]] (_____) [[the cafe and the bank.|la cafetería y el banco.]]",
-          "options": ["[[between|entre]]", "[[next to|al lado de]]", "[[opposite|enfrente de]]"],
-          "correctAnswer": 0,
-          "explanation": "'Between' se usa para dos referencias."
+          "question": "[[I (____) play an instrument.|No puedo tocar un instrumento.]]",
+          "correctAnswer": "can't",
+          "explanation": "[[Negative ability contraction|Contracción de habilidad negativa]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-27/e57.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e58",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Places",
-    "difficulty": "easy",
-    "transcript": "Where can I buy bread?",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[Lisa can speak many languages|Lisa puede hablar muchos idiomas]].",
     "content": {
-      "title": "Comprar pan",
-      "instructions": "Identifica el lugar correcto.",
-      "questions": [
-        {
-          "question": "[[Where can I buy bread?|¿Dónde puedo comprar pan?]]",
-          "options": ["[[At the bakery|En la panadería]]", "[[At the bank|En el banco]]", "[[At the gym|En el gimnasio]]"],
-          "correctAnswer": 0,
-          "explanation": "'Bakery' es donde se compra pan."
-        }
-      ]
+      "title": "[[Grammar: Languages|Gramática: Idiomas]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[Lisa can speak many languages|Lisa puede hablar muchos idiomas]].",
+      "words": ["[[languages|idiomas]].", "[[many|muchos]]", "[[speak|hablar]]", "[[can|puede]]", "[[Lisa|Lisa]]"],
+      "explanation": "[[Ability with multiple objects|Habilidad con múltiples objetos]]."
     },
-    "audioUrl": "audio/a1/unit-27/e58.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e59",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Places",
-    "difficulty": "easy",
-    "transcript": "Is the hotel open?",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[Tom can play the drums|Tom puede tocar la batería]].",
     "content": {
-      "title": "¿Está abierto?",
-      "instructions": "Pregunta sobre el estado del lugar.",
-      "questions": [
-        {
-          "question": "[[Is the|¿Está el]] (_____) [[open?|abierto?]]",
-          "options": ["[[hotel|hotel]]", "[[car|coche]]", "[[tree|árbol]]"],
-          "correctAnswer": 0,
-          "explanation": "'Hotel' es un edificio comercial."
-        }
-      ]
+      "title": "[[Grammar: Instruments|Gramática: Instrumentos]]",
+      "instructions": "[[Choose the correct verb|Elige el verbo correcto]].",
+      "question": "[[Tom can (____) the drums.|Tom puede (____) la batería.]]",
+      "options": ["[[play|tocar]]", "[[make|hacer]]", "[[do|hacer]]"],
+      "correctAnswer": 0,
+      "explanation": "[[We use 'play' for instruments|Usamos 'play' para instrumentos]]."
     },
-    "audioUrl": "audio/a1/unit-27/e59.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u27-e60",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Directions",
-    "difficulty": "medium",
-    "transcript": "Thank you for your help.",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[Can you cook?|¿Sabes cocinar?]]",
     "content": {
-      "title": "Gracias",
-      "instructions": "Agradece la ayuda.",
+      "title": "[[Grammar: Question|Gramática: Pregunta]]",
+      "instructions": "[[Complete the short question|Completa la pregunta corta]].",
       "questions": [
         {
-          "question": "[[Thank you for your|Gracias por tu]] (_____) [[.]]",
-          "options": ["[[help|ayuda]]", "[[money|dinero]]", "[[time|tiempo]]"],
-          "correctAnswer": 0,
-          "explanation": "Forma común de terminar tras recibir direcciones."
+          "question": "[[ (____) you cook?|¿Sabes cocinar?]]",
+          "correctAnswer": "Can",
+          "explanation": "[[Standard question starter for ability|Inicio estándar de pregunta de habilidad]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-27/e60.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
+  },
+
+  // ==========================================
+  // LESSON 5: LISTENING & PRONUNCIATION (61-75)
+  // ==========================================
+  {
+    "id": "a1-u27-e61",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I can't hear you, can you speak louder?|No puedo oírte, ¿puedes hablar más alto?]]",
+    "audioUrl": "audio/a1/unit-27/e61.mp3",
+    "content": {
+      "title": "[[Listening: Hearing|Escucha: Oído]]",
+      "instructions": "[[Listen and identify the problem|Escucha e identifica el problema]].",
+      "questions": [{
+        "id": "q61",
+        "type": "multiple-choice",
+        "question": "[[Can the speaker hear well?|¿Oye bien el hablante?]]",
+        "options": ["[[No, he can't|No, no puede]]", "[[Yes, he can|Sí, puede]]", "[[He isn't listening|No está escuchando]]"],
+        "correctAnswer": "[[No, he can't|No, no puede]]",
+        "explanation": "[[The speaker says 'I can't hear you'|El hablante dice 'No puedo oírte']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u27-e62",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[She can play the guitar very well|Ella puede tocar la guitarra muy bien]].",
+    "audioUrl": "audio/a1/unit-27/e62.mp3",
+    "content": {
+      "title": "[[Listening: Guitar|Escucha: Guitarra]]",
+      "instructions": "[[Listen and identify the skill|Escucha e identifica la habilidad]].",
+      "questions": [{
+        "id": "q62",
+        "type": "multiple-choice",
+        "question": "[[What can she play?|¿Qué puede tocar ella?]]",
+        "options": ["[[the guitar|la guitarra]]", "[[the piano|el piano]]", "[[the drums|la batería]]"],
+        "correctAnswer": "[[the guitar|la guitarra]]",
+        "explanation": "[[The speaker says 'play the guitar'|El hablante dice 'tocar la guitarra']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u27-e63",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[Can I use your computer? Yes, of course|¿Puedo usar tu ordenador? Sí, por supuesto]].",
+    "audioUrl": "audio/a1/unit-27/e63.mp3",
+    "content": {
+      "title": "[[Listening: Permission|Escucha: Permiso]]",
+      "instructions": "[[Listen and identify the answer|Escucha e identifica la respuesta]].",
+      "questions": [{
+        "id": "q63",
+        "type": "multiple-choice",
+        "question": "[[Does he have permission?|¿Tiene permiso?]]",
+        "options": ["[[Yes, he can|Sí, puede]]", "[[No, he can't|No, no puede]]", "[[Maybe later|Quizás más tarde]]"],
+        "correctAnswer": "[[Yes, he can|Sí, puede]]",
+        "explanation": "[[The speaker says 'Yes, of course'|El hablante dice 'Sí, por supuesto']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u27-e64",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[They can't come to dinner tonight|No pueden venir a cenar esta noche]].",
+    "audioUrl": "audio/a1/unit-27/e64.mp3",
+    "content": {
+      "title": "[[Listening: Dinner|Escucha: Cena]]",
+      "instructions": "[[Listen and identify the possibility|Escucha e identifica la posibilidad]].",
+      "questions": [{
+        "id": "q64",
+        "type": "multiple-choice",
+        "question": "[[Are they coming to dinner?|¿Vienen a cenar?]]",
+        "options": ["[[No, they can't|No, no pueden]]", "[[Yes, they can|Sí, pueden]]", "[[They are late|Llegan tarde]]"],
+        "correctAnswer": "[[No, they can't|No, no pueden]]",
+        "explanation": "[[The speaker says 'They can't come'|El hablante dice 'No pueden venir']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u27-e65",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[Can you help me with this box?|¿Puedes ayudarme con esta caja?]]",
+    "audioUrl": "audio/a1/unit-27/e65.mp3",
+    "content": {
+      "title": "[[Listening: Box|Escucha: Caja]]",
+      "instructions": "[[Listen and identify the object|Escucha e identifica el objeto]].",
+      "questions": [{
+        "id": "q65",
+        "type": "multiple-choice",
+        "question": "[[What does he need help with?|¿Con qué necesita ayuda?]]",
+        "options": ["[[a box|una caja]]", "[[a book|un libro]]", "[[a bag|una bolsa]]"],
+        "correctAnswer": "[[a box|una caja]]",
+        "explanation": "[[The speaker says 'with this box'|El hablante dice 'con esta caja']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u27-e66",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I can swim, but I can't dive|Sé nadar, pero no sé bucear]].",
+    "audioUrl": "audio/a1/unit-27/e66.mp3",
+    "content": {
+      "title": "[[Listening: Swimming|Escucha: Natación]]",
+      "instructions": "[[Listen and identify the inability|Escucha e identifica la incapacidad]].",
+      "questions": [{
+        "id": "q66",
+        "type": "multiple-choice",
+        "question": "[[What can't the speaker do?|¿Qué no puede hacer el hablante?]]",
+        "options": ["[[dive|bucear]]", "[[swim|nadar]]", "[[run|correr]]"],
+        "correctAnswer": "[[dive|bucear]]",
+        "explanation": "[[The speaker says 'I can't dive'|El hablante dice 'no sé bucear']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u27-e67",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[Can she drive? No, she is only fifteen|¿Sabe ella conducir? No, solo tiene quince años]].",
+    "audioUrl": "audio/a1/unit-27/e67.mp3",
+    "content": {
+      "title": "[[Listening: Driving|Escucha: Conducir]]",
+      "instructions": "[[Listen and identify the reason|Escucha e identifica el motivo]].",
+      "questions": [{
+        "id": "q67",
+        "type": "multiple-choice",
+        "question": "[[Can she drive?|¿Sabe conducir?]]",
+        "options": ["[[No, she can't|No, no puede]]", "[[Yes, she can|Sí, puede]]", "[[She is driving now|Está conduciendo ahora]]"],
+        "correctAnswer": "[[No, she can't|No, no puede]]",
+        "explanation": "[[She is too young to drive|Es demasiado joven para conducir]]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u27-e68",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[We can meet at seven o'clock|Podemos quedar a las siete]].",
+    "audioUrl": "audio/a1/unit-27/e68.mp3",
+    "content": {
+      "title": "[[Listening: Meeting|Escucha: Quedar]]",
+      "instructions": "[[Listen and identify the time|Escucha e identifica la hora]].",
+      "questions": [{
+        "id": "q68",
+        "type": "multiple-choice",
+        "question": "[[What time can they meet?|¿A qué hora pueden quedar?]]",
+        "options": ["[[at seven|a las siete]]", "[[at six|a las seis]]", "[[at eight|a las ocho]]"],
+        "correctAnswer": "[[at seven|a las siete]]",
+        "explanation": "[[The speaker says 'at seven o'clock'|El hablante dice 'a las siete']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u27-e69",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Can|Can]]",
+    "audioUrl": "audio/a1/unit-27/e69.mp3",
+    "content": {
+      "title": "[[Pronunciation: Can|Pronunciación: Can]]",
+      "instructions": "[[Listen and repeat focusing on the weak 'a' sound /kən/|Escucha y repite enfocándote en el sonido de la 'a' débil /kən/]].",
+      "expectedResponse": "Can.",
+      "evaluationCriteria": [
+        "[[Weak /ə/ vowel sound in sentences|Vocal /ə/ débil en oraciones]]",
+        "[[Clear /k/ sound|Sonido /k/ claro]]",
+        "[[Short duration|Duración corta]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u27-e70",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Can't|Can't]]",
+    "audioUrl": "audio/a1/unit-27/e70.mp3",
+    "content": {
+      "title": "[[Pronunciation: Can't|Pronunciación: Can't]]",
+      "instructions": "[[Listen and repeat focusing on the long /ɑː/ or /æ/ sound|Escucha y repite enfocándote en el sonido largo /ɑː/ o /æ/]].",
+      "expectedResponse": "Can't.",
+      "evaluationCriteria": [
+        "[[Distinct long vowel sound|Sonido de vocal largo distintivo]]",
+        "[[Clear final /t/ sound (optional but helpful)|Sonido /t/ final claro (opcional pero útil)]]",
+        "[[Stressed pronunciation|Pronunciación acentuada]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u27-e71",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Speak|Hablar]]",
+    "audioUrl": "audio/a1/unit-27/e71.mp3",
+    "content": {
+      "title": "[[Pronunciation: Speak|Pronunciación: Speak]]",
+      "instructions": "[[Listen and repeat focusing on the long /iː/ sound|Escucha y repite enfocándote en el sonido largo /iː/]].",
+      "expectedResponse": "Speak.",
+      "evaluationCriteria": [
+        "[[No initial 'e' sound|Sin sonido 'e' inicial]]",
+        "[[Long /iː/ vowel|Vocal /iː/ larga]]",
+        "[[Clear /sp/ cluster|Grupo /sp/ claro]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u27-e72",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Swim|Nadar]]",
+    "audioUrl": "audio/a1/unit-27/e72.mp3",
+    "content": {
+      "title": "[[Pronunciation: Swim|Pronunciación: Swim]]",
+      "instructions": "[[Listen and repeat focusing on the /sw/ sound|Escucha y repite enfocándote en el sonido /sw/]].",
+      "expectedResponse": "Swim.",
+      "evaluationCriteria": [
+        "[[Clear /sw/ blend|Mezcla /sw/ clara]]",
+        "[[Short /ɪ/ vowel sound|Vocal /ɪ/ corta]]",
+        "[[Clear /m/ ending|Final /m/ claro]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u27-e73",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Drive|Conducir]]",
+    "audioUrl": "audio/a1/unit-27/e73.mp3",
+    "content": {
+      "title": "[[Pronunciation: Drive|Pronunciación: Drive]]",
+      "instructions": "[[Listen and repeat focusing on the /dr/ sound|Escucha y repite enfocándote en el sonido /dr/]].",
+      "expectedResponse": "Drive.",
+      "evaluationCriteria": [
+        "[[Clear /dr/ blend|Mezcla /dr/ clara]]",
+        "[[Clear /aɪ/ diphthong|Diptongo /aɪ/ claro]]",
+        "[[Soft /v/ sound|Sonido /v/ suave]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u27-e74",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Play|Tocar/Jugar]]",
+    "audioUrl": "audio/a1/unit-27/e74.mp3",
+    "content": {
+      "title": "[[Pronunciation: Play|Pronunciación: Play]]",
+      "instructions": "[[Listen and repeat focusing on the /pl/ sound|Escucha y repite enfocándote en el sonido /pl/]].",
+      "expectedResponse": "Play.",
+      "evaluationCriteria": [
+        "[[Clear /pl/ blend|Mezcla /pl/ clara]]",
+        "[[Clear /eɪ/ diphthong|Diptongo /eɪ/ claro]]",
+        "[[No final extra sounds|Sin sonidos extras al final]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u27-e75",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Understand|Entender]]",
+    "audioUrl": "audio/a1/unit-27/e75.mp3",
+    "content": {
+      "title": "[[Pronunciation: Understand|Pronunciación: Understand]]",
+      "instructions": "[[Listen and repeat focusing on the word stress|Escucha y repite enfocándote en el acento de la palabra]].",
+      "expectedResponse": "Understand.",
+      "evaluationCriteria": [
+        "[[Stress on the third syllable /stænd/|Acento en la tercera sílaba /stænd/]]",
+        "[[Clear /ʌn/ start|Inicio /ʌn/ claro]]",
+        "[[Clear /d/ ending|Final /d/ claro]]"
+      ]
+    }
   }
 ];
-

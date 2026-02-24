@@ -1,258 +1,227 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_26_EXERCISES: Exercise[] = [
-
-  // VOCABULARY: Future Plans & Time Expressions (1-10)
+  // ==========================================
+  // LESSON 1: BASIC ADVERBS OF FREQUENCY (1-15)
+  // ==========================================
   {
     "id": "a1-u26-e1",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
+    "topic": "Adverbs of Frequency",
     "difficulty": "easy",
-    "transcript": "I am going to travel tomorrow.",
+    "transcript": "[[I always drink coffee in the morning|Siempre bebo café por la mañana]].",
     "content": {
-      "title": "Mañana",
-      "instructions": "Elige la expresión de tiempo futuro.",
-      "questions": [
-        {
-          "question": "[[I am going to travel|Voy a viajar]] (_____) .",
-          "options": ["[[tomorrow|mañana]]", "[[yesterday|ayer]]", "[[now|ahora]]"],
-          "correctAnswer": 0,
-          "explanation": "'Tomorrow' es mañana, se usa para el futuro."
-        }
-      ]
+      "title": "[[Always|Siempre]]",
+      "instructions": "[[Choose the correct adverb of frequency|Elige el adverbio de frecuencia correcto]].",
+      "question": "[[I (____) drink coffee in the morning.|(____) bebo café por la mañana.]]",
+      "options": ["[[always|siempre]]", "[[never|nunca]]", "[[sometimes|a veces]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Always' means 100% of the time|'Always' significa el 100% del tiempo]]."
     },
     "audioUrl": "audio/a1/unit-26/e1.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u26-e2",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
+    "topic": "Adverbs of Frequency",
     "difficulty": "easy",
-    "transcript": "She is going to study next week.",
+    "transcript": "[[I never eat meat|Nunca como carne]].",
     "content": {
-      "title": "La semana que viene",
-      "instructions": "Completa con la expresión de tiempo futuro.",
-      "questions": [
-        {
-          "question": "[[She is going to study|Ella va a estudiar]] (_____) [[week.|semana.]]",
-          "options": ["[[next|la próxima/que viene]]", "[[last|la pasada]]", "[[this|esta]]"],
-          "correctAnswer": 0,
-          "explanation": "'Next week' es la semana que viene."
-        }
-      ]
+      "title": "[[Never|Nunca]]",
+      "instructions": "[[Identify the adverb for 0% frequency|Identifica el adverbio para el 0% de frecuencia]].",
+      "question": "[[I (____) eat meat.|(____) como carne.]]",
+      "options": ["[[never|nunca]]", "[[always|siempre]]", "[[usually|normalmente]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Never' means 0% of the time|'Never' significa el 0% del tiempo]]."
     },
     "audioUrl": "audio/a1/unit-26/e2.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u26-e3",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "medium",
-    "transcript": "They are going to move soon.",
+    "topic": "Adverbs of Frequency",
+    "difficulty": "easy",
+    "transcript": "[[I sometimes go to the cinema|A veces voy al cine]].",
     "content": {
-      "title": "Pronto",
-      "instructions": "Ordena la frase sobre mudarse pronto.",
-      "correctSentence": "[[They are going to move soon|Ellos se van a mudar pronto]].",
-      "words": ["[[soon|pronto]].", "[[move|mudar]]", "[[to|a]]", "[[going|van]]", "[[are|están]]", "[[They|Ellos]]"],
-      "explanation": "'Soon' significa pronto."
+      "title": "[[Sometimes|A veces]]",
+      "instructions": "[[Choose the adverb for medium frequency|Elige el adverbio para frecuencia media]].",
+      "question": "[[I (____) go to the cinema.|(____) voy al cine.]]",
+      "options": ["[[sometimes|a veces]]", "[[always|siempre]]", "[[never|nunca]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Sometimes' means about 50% of the time|'Sometimes' significa alrededor del 50% del tiempo]]."
     },
     "audioUrl": "audio/a1/unit-26/e3.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u26-e4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
+    "topic": "Adverbs of Frequency",
     "difficulty": "easy",
-    "transcript": "We are going to buy a car next year.",
+    "transcript": "[[I usually wake up at 7 AM|Normalmente me despierto a las 7 AM]].",
     "content": {
-      "title": "El año que viene",
-      "instructions": "Elige la expresión para el próximo año.",
-      "questions": [
-        {
-          "question": "[[We are going to buy a car|Vamos a comprar un coche]] (_____) [[year.|año.]]",
-          "options": ["[[next|el próximo]]", "[[last|el pasado]]", "[[this|este]]"],
-          "correctAnswer": 0,
-          "explanation": "'Next year' es el año que viene."
-        }
-      ]
+      "title": "[[Usually|Normalmente]]",
+      "instructions": "[[Identify the adverb for high frequency|Identifica el adverbio para frecuencia alta]].",
+      "question": "[[I (____) wake up at 7 AM.|(____) me despierto a las 7 AM.]]",
+      "options": ["[[usually|normalmente]]", "[[sometimes|a veces]]", "[[hardly ever|casi nunca]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Usually' means about 80-90% of the time|'Usually' significa alrededor del 80-90% del tiempo]]."
     },
     "audioUrl": "audio/a1/unit-26/e4.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u26-e5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "medium",
-    "transcript": "He is going to call tonight.",
+    "topic": "Adverbs of Frequency",
+    "difficulty": "easy",
+    "transcript": "[[I often listen to music|A menudo escucho música]].",
     "content": {
-      "title": "Esta noche",
-      "instructions": "Traduce 'esta noche'.",
-      "questions": [
-        {
-          "question": "[[He is going to call|Él va a llamar]] (_____) .",
-          "options": ["[[tonight|esta noche]]", "[[today|hoy]]", "[[morning|mañana (por la m.)]]"],
-          "correctAnswer": 0,
-          "explanation": "'Tonight' es esta noche."
-        }
-      ]
+      "title": "[[Often|A menudo]]",
+      "instructions": "[[Choose the correct adverb|Elige el adverbio correcto]].",
+      "question": "[[I (____) listen to music.|(____) escucho música.]]",
+      "options": ["[[often|a menudo]]", "[[never|nunca]]", "[[hardly ever|casi nunca]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Often' means many times|'Often' significa muchas veces]]."
     },
     "audioUrl": "audio/a1/unit-26/e5.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u26-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
+    "topic": "Adverbs of Frequency",
     "difficulty": "easy",
-    "transcript": "I am going to see him later.",
+    "transcript": "[[I hardly ever watch TV|Casi nunca veo la tele]].",
     "content": {
-      "title": "Más tarde",
-      "instructions": "Identifica 'más tarde'.",
-      "questions": [
-        {
-          "question": "[[I am going to see him|Voy a verle]] (_____) .",
-          "options": ["[[later|más tarde]]", "[[never|nunca]]", "[[always|siempre]]"],
-          "correctAnswer": 0,
-          "explanation": "'Later' es más tarde o luego."
-        }
-      ]
+      "title": "[[Hardly ever|Casi nunca]]",
+      "instructions": "[[Identify the adverb for very low frequency|Identifica el adverbio para frecuencia muy baja]].",
+      "question": "[[I (____) watch TV.|(____) veo la tele.]]",
+      "options": ["[[hardly ever|casi nunca]]", "[[always|siempre]]", "[[usually|normalmente]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Hardly ever' means almost never|'Hardly ever' significa casi nunca]]."
     },
     "audioUrl": "audio/a1/unit-26/e6.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u26-e7",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "medium",
-    "transcript": "We are going to have lunch this weekend.",
+    "topic": "Adverbs of Frequency",
+    "difficulty": "easy",
+    "transcript": "[[She always studies in the library|Ella siempre estudia en la biblioteca]].",
     "content": {
-      "title": "Fin de semana",
-      "instructions": "Ordena la frase.",
-      "correctSentence": "[[We are going to have lunch this weekend|Vamos a almorzar este fin de semana]].",
-      "words": ["[[weekend|fin de semana]].", "[[this|este]]", "[[lunch|almorzar]]", "[[have|tomar]]", "[[to|a]]", "[[going|vamos]]", "[[are|están]]", "[[We|Nosotros]]"],
-      "explanation": "'This weekend' es este fin de semana."
-    },
-    "audioUrl": "audio/a1/unit-26/e7.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u26-e8",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Future",
-    "difficulty": "medium",
-    "transcript": "They are going to start next Monday.",
-    "content": {
-      "title": "Lunes próximo",
-      "instructions": "Completa la expresión temporal.",
+      "title": "[[Frequency Position|Posición de frecuencia]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[They are going to start|Ellos van a empezar el]] (_____) [[Monday.|lunes.]]",
-          "options": ["[[next|próximo]]", "[[last|pasado]]", "[[every|cada]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'next' + día de la semana para el futuro."
+          "question": "[[She (____) studies in the library.|Ella (____) estudia en la biblioteca.]]",
+          "correctAnswer": "always",
+          "explanation": "[[Adverbs of frequency go before the main verb|Los adverbios de frecuencia van antes del verbo principal]]."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-26/e7.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u26-e8",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Adverbs of Frequency",
+    "difficulty": "easy",
+    "transcript": "[[They never arrive late|Ellos nunca llegan tarde]].",
+    "content": {
+      "title": "[[Sentence Building|Construcción de frases]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[They never arrive late|Ellos nunca llegan tarde]].",
+      "words": ["[[late|tarde]].", "[[arrive|llegan]]", "[[never|nunca]]", "[[They|Ellos]]"],
+      "explanation": "[[Subject + Adverb + Verb|Sujeto + Adverbio + Verbo]]."
+    },
     "audioUrl": "audio/a1/unit-26/e8.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u26-e9",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
+    "topic": "Adverbs of Frequency",
     "difficulty": "easy",
-    "transcript": "It is going to be a long day.",
+    "transcript": "[[He is always happy|Él siempre está feliz]].",
     "content": {
-      "title": "Será",
-      "instructions": "Elige el adjetivo correcto.",
-      "questions": [
-        {
-          "question": "[[It is going to be a|Va a ser un]] (_____) [[day.|día.]]",
-          "options": ["[[long|largo]]", "[[blue|azul]]", "[[cold|frío]]"],
-          "correctAnswer": 0,
-          "explanation": "'Long day' es una expresión común para un día agotador."
-        }
-      ]
+      "title": "[[Frequency with 'To Be'|Frecuencia con 'To Be']]",
+      "instructions": "[[Identify the correct order|Identifica el orden correcto]].",
+      "question": "[[He is (____) happy.|Él está (____) feliz.]]",
+      "options": ["[[always|siempre]]", "[[never|nunca]]", "[[often|a menudo]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Adverbs of frequency go AFTER the verb 'to be'|Los adverbios de frecuencia van DESPUÉS del verbo 'to be']]."
     },
     "audioUrl": "audio/a1/unit-26/e9.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u26-e10",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "medium",
-    "transcript": "Who is going to help me?",
+    "topic": "Adverbs of Frequency",
+    "difficulty": "easy",
+    "transcript": "[[We usually play football on Sundays|Normalmente jugamos al fútbol los domingos]].",
     "content": {
-      "title": "Ayuda",
-      "instructions": "Completa el ofrecimiento/pregunta.",
+      "title": "[[Usually Practice|Práctica de Usually]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[Who is going to|Quién va a]] (_____) [[me?|ayudarme?]]",
-          "options": ["[[help|ayudar]]", "[[eat|comer]]", "[[sleep|dormir]]"],
-          "correctAnswer": 0,
-          "explanation": "'Help' es ayudar."
+          "question": "[[We (____) play football on Sundays.|Normalmente jugamos al fútbol los domingos.]]",
+          "correctAnswer": "usually",
+          "explanation": "[[High frequency adverb|Adverbio de alta frecuencia]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-26/e10.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
-
-  // GRAMMAR: Be going to (11-30)
   {
     "id": "a1-u26-e11",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Be going to",
-    "difficulty": "medium",
-    "transcript": "I am going to work tomorrow.",
+    "topic": "Adverbs of Frequency",
+    "difficulty": "easy",
+    "transcript": "[[Do you often go out?|¿Sales a menudo?]]",
     "content": {
-      "title": "Afirmativo: I",
-      "instructions": "Elige la forma correcta de 'be going to'.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[work tomorrow.|trabajar mañana.]]",
-          "options": ["[[am going to|voy a]]", "[[is going to|va a]]", "[[are going to|vas a]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'I' usamos 'am going to'."
-        }
-      ]
+      "title": "[[Frequency in Questions|Frecuencia en preguntas]]",
+      "instructions": "[[Identify the correct position|Identifica la posición correcta]].",
+      "question": "[[Do you (____) go out?|¿Sales (____)?]]",
+      "options": ["[[often|a menudo]]", "[[always|siempre]]", "[[never|nunca]]"],
+      "correctAnswer": 0,
+      "explanation": "[[In questions, the adverb goes before the main verb|En las preguntas, el adverbio va antes del verbo principal]]."
     },
     "audioUrl": "audio/a1/unit-26/e11.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u26-e12",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Be going to",
-    "difficulty": "medium",
-    "transcript": "She is going to visit London.",
+    "topic": "Adverbs of Frequency",
+    "difficulty": "easy",
+    "transcript": "[[I sometimes read before bed|A veces leo antes de dormir]].",
     "content": {
-      "title": "Afirmativo: She",
-      "instructions": "Elige la forma para ella.",
+      "title": "[[Sometimes Practice|Práctica de Sometimes]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[She|Ella]] (_____) [[visit London.|visitar Londres.]]",
-          "options": ["[[is going to|va a]]", "[[am going to|voy a]]", "[[are going to|vamos a]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'she', 'he' o 'it' usamos 'is going to'."
+          "question": "[[I (____) read before bed.|A veces leo antes de dormir.]]",
+          "correctAnswer": "sometimes",
+          "explanation": "[[Medium frequency adverb|Adverbio de frecuencia media]]."
         }
       ]
     },
@@ -261,401 +230,363 @@ export const UNIT_26_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u26-e13",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Be going to",
-    "difficulty": "medium",
-    "transcript": "They are going to play tennis.",
+    "topic": "Adverbs of Frequency",
+    "difficulty": "easy",
+    "transcript": "[[She is never late for class|Ella nunca llega tarde a clase]].",
     "content": {
-      "title": "Afirmativo: They",
-      "instructions": "Completa con la forma plural.",
-      "questions": [
-        {
-          "question": "[[They|Ellos]] (_____) [[play tennis.|jugar al tenis.]]",
-          "options": ["[[are going to|van a]]", "[[is going to|va a]]", "[[am going to|voy a]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'they', 'we' y 'you' usamos 'are going to'."
-        }
-      ]
+      "title": "[[Never late|Nunca tarde]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[She is never late for class|Ella nunca llega tarde a clase]].",
+      "words": ["[[class|clase]].", "[[for|para]]", "[[late|tarde]]", "[[never|nunca]]", "[[is|está]]", "[[She|Ella]]"],
+      "explanation": "[[Verb 'to be' + Adverb|Verbo 'to be' + Adverbio]]."
     },
     "audioUrl": "audio/a1/unit-26/e13.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u26-e14",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Be going to",
-    "difficulty": "hard",
-    "transcript": "I am not going to buy that.",
+    "topic": "Adverbs of Frequency",
+    "difficulty": "easy",
+    "transcript": "[[We hardly ever go to the beach|Casi nunca vamos a la playa]].",
     "content": {
-      "title": "Negativo: I",
-      "instructions": "Ordena la frase negativa.",
-      "correctSentence": "[[I am not going to buy that|No voy a comprar eso]].",
-      "words": ["[[that|eso]].", "[[buy|comprar]]", "[[to|a]]", "[[going|voy]]", "[[not|no]]", "[[am|estoy]]", "[[I|Yo]]"],
-      "explanation": "La negación va después del verbo 'be': am not going to."
+      "title": "[[Beach Trip|Viaje a la playa]]",
+      "instructions": "[[Identify the correct adverb|Identifica el adverbio correcto]].",
+      "question": "[[We (____) go to the beach.|Casi nunca vamos a la playa.]]",
+      "options": ["[[hardly ever|casi nunca]]", "[[always|siempre]]", "[[often|a menudo]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Very low frequency|Frecuencia muy baja]]."
     },
     "audioUrl": "audio/a1/unit-26/e14.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u26-e15",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Be going to",
-    "difficulty": "medium",
-    "transcript": "Is he going to cook dinner?",
+    "topic": "Adverbs of Frequency",
+    "difficulty": "easy",
+    "transcript": "[[I always do my homework|Siempre hago mis deberes]].",
     "content": {
-      "title": "Pregunta: He",
-      "instructions": "Forma la pregunta para planes futuros.",
+      "title": "[[Homework|Deberes]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "(_____) [[he going to cook dinner?|él va a cocinar la cena?]]",
-          "options": ["[[Is|¿Va]]", "[[Are|¿Va]]", "[[Do|¿Hace]]"],
-          "correctAnswer": 0,
-          "explanation": "Para preguntas, invertimos el orden: Is he going to...?"
+          "question": "[[I (____) do my homework.|Siempre hago mis deberes.]]",
+          "correctAnswer": "always",
+          "explanation": "[[Highest frequency adverb|Adverbio de máxima frecuencia]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-26/e15.mp3",
     "topicName": "Grammar"
   },
+
+  // ==========================================
+  // LESSON 2: ROUTINES AND FREQUENCY (16-30)
+  // ==========================================
   {
     "id": "a1-u26-e16",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Be going to",
+    "topic": "Routines",
     "difficulty": "medium",
-    "transcript": "Are you going to study tonight?",
+    "transcript": "[[I usually have breakfast at 8 AM|Normalmente desayuno a las 8 AM]].",
     "content": {
-      "title": "Pregunta: You",
-      "instructions": "Forma la pregunta para 'you'.",
-      "questions": [
-        {
-          "question": "(_____) [[you going to study tonight?|vas a estudiar esta noche?]]",
-          "options": ["[[Are|¿Vas]]", "[[Is|¿Vas]]", "[[Am|¿Voy]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'you' usamos 'Are' al principio de la pregunta."
-        }
-      ]
+      "title": "[[Breakfast|Desayuno]]",
+      "instructions": "[[Choose the correct adverb|Elige el adverbio correcto]].",
+      "question": "[[I (____) have breakfast at 8 AM.|Normalmente desayuno a las 8 AM.]]",
+      "options": ["[[usually|normalmente]]", "[[never|nunca]]", "[[sometimes|a veces]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Routine high frequency|Frecuencia alta de rutina]]."
     },
     "audioUrl": "audio/a1/unit-26/e16.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u26-e17",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Be going to",
-    "difficulty": "hard",
-    "transcript": "We aren't going to go out.",
+    "topic": "Routines",
+    "difficulty": "medium",
+    "transcript": "[[They often play video games|A menudo juegan a videojuegos]].",
     "content": {
-      "title": "Negación: We",
-      "instructions": "Ordena la frase negativa.",
-      "correctSentence": "[[We aren't going to go out|No vamos a salir]].",
-      "words": ["[[out|fuera]].", "[[go|ir]]", "[[to|a]]", "[[going|vamos]]", "[[aren't|no estamos]]", "[[We|Nosotros]]"],
-      "explanation": "Aren't (are not) going to indica un plan negativo."
+      "title": "[[Video Games|Videojuegos]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[They (____) play video games.|A menudo juegan a videojuegos.]]",
+      "options": ["[[often|a menudo]]", "[[hardly ever|casi nunca]]", "[[always|siempre]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Routine common activity|Actividad rutinaria común]]."
     },
     "audioUrl": "audio/a1/unit-26/e17.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u26-e18",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Be going to",
+    "topic": "Routines",
     "difficulty": "medium",
-    "transcript": "What are you going to do?",
+    "transcript": "[[I never watch horror movies|Nunca veo películas de terror]].",
     "content": {
-      "title": "Pregunta: What",
-      "instructions": "Elige la estructura correcta.",
+      "title": "[[Movies|Películas]]",
+      "instructions": "[[Complete the adverb|Completa el adverbio]].",
       "questions": [
         {
-          "question": "[[What|Qué]] (_____) [[you going to do?|vas a hacer?]]",
-          "options": ["[[are|vas]]", "[[is|va]]", "[[do|haces]]"],
-          "correctAnswer": 0,
-          "explanation": "Estructura: WH + be + sujeto + going to + verbo."
+          "question": "[[I (____) watch horror movies.|Nunca veo películas de terror.]]",
+          "correctAnswer": "never",
+          "explanation": "[[Zero frequency routine|Rutina de frecuencia cero]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-26/e18.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u26-e19",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Be going to",
+    "topic": "Routines",
     "difficulty": "medium",
-    "transcript": "Is it going to rain?",
+    "transcript": "[[He sometimes works on Saturdays|Él a veces trabaja los sábados]].",
     "content": {
-      "title": "Predicción",
-      "instructions": "Pregunta sobre el tiempo futuro.",
-      "questions": [
-        {
-          "question": "(_____) [[it going to rain?|va a llover?]]",
-          "options": ["[[Is|¿Va]]", "[[Are|¿Va]]", "[[Do|¿Hace]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'it is going to' para predicciones basadas en evidencia."
-        }
-      ]
+      "title": "[[Work Days|Días de trabajo]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[He sometimes works on Saturdays|Él a veces trabaja los sábados]].",
+      "words": ["[[Saturdays|sábados]].", "[[on|los]]", "[[works|trabaja]]", "[[sometimes|a veces]]", "[[He|Él]]"],
+      "explanation": "[[Third person singular with adverb|Tercera persona del singular con adverbio]]."
     },
     "audioUrl": "audio/a1/unit-26/e19.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u26-e20",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Be going to",
-    "difficulty": "hard",
-    "transcript": "I'm going to be late.",
+    "topic": "Routines",
+    "difficulty": "medium",
+    "transcript": "[[We always go to the gym together|Siempre vamos al gimnasio juntos]].",
     "content": {
-      "title": "Contracción",
-      "instructions": "Elige la forma contraída.",
-      "questions": [
-        {
-          "question": "(_____) [[going to be late.|voy a llegar tarde.]]",
-          "options": ["[[I'm|Yo estoy]]", "[[I is|error]]", "[[I ams|error]]"],
-          "correctAnswer": 0,
-          "explanation": "I'm es la contracción de I am."
-        }
-      ]
+      "title": "[[The Gym|El Gimnasio]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[We (____) go to the gym together.|Siempre vamos al gimnasio juntos.]]",
+      "options": ["[[always|siempre]]", "[[sometimes|a veces]]", "[[hardly ever|casi nunca]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Shared routine frequency|Frecuencia de rutina compartida]]."
     },
     "audioUrl": "audio/a1/unit-26/e20.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
-
   {
     "id": "a1-u26-e21",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Future",
+    "topic": "Routines",
     "difficulty": "medium",
-    "transcript": "Is she going to come tonight?",
+    "transcript": "[[I usually drink tea with milk|Normalmente bebo té con leche]].",
     "content": {
-      "title": "Pregunta",
-      "instructions": "Completa la pregunta sobre planes nocturnos.",
+      "title": "[[Tea Time|Hora del té]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "(_____) [[she going to come tonight?|ella a venir esta noche?]]",
-          "options": ["[[Is|¿Es / está?]]", "[[Are|¿Eres / está?]]", "[[Am|¿Soy / estoy?]]"],
-          "correctAnswer": 0,
-          "explanation": "Para la tercera persona singular (she), usamos 'Is'."
+          "question": "[[I (____) drink tea with milk.|Normalmente bebo té con leche.]]",
+          "correctAnswer": "usually",
+          "explanation": "[[Routine preference|Preferencia rutinaria]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-26/e21.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u26-e22",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Future",
+    "topic": "Routines",
     "difficulty": "medium",
-    "transcript": "Are they going to buy a car?",
+    "transcript": "[[She often calls her mother|Ella a menudo llama a su madre]].",
     "content": {
-      "title": "Planes de compra",
-      "instructions": "Completa la pregunta sobre el coche.",
-      "questions": [
-        {
-          "question": "(_____) [[they going to buy a car?|ellos a comprar un coche?]]",
-          "options": ["[[Are|¿Son / están?]]", "[[Is|¿Es / está?]]", "[[Am|¿Soy / estoy?]]"],
-          "correctAnswer": 0,
-          "explanation": "Para el plural (they), usamos 'Are'."
-        }
-      ]
+      "title": "[[Phone Call|Llamada telefónica]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[She often calls her mother|Ella a menudo llama a su madre]].",
+      "words": ["[[mother|madre]].", "[[her|su]]", "[[calls|llama]]", "[[often|a menudo]]", "[[She|Ella]]"],
+      "explanation": "[[Regular family interaction|Interacción familiar regular]]."
     },
     "audioUrl": "audio/a1/unit-26/e22.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u26-e23",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "hard",
-    "transcript": "I am not going to eat pizza.",
+    "topic": "Routines",
+    "difficulty": "medium",
+    "transcript": "[[Are you usually tired in the evening?|¿Sueles estar cansado por la noche?]]",
     "content": {
-      "title": "Negación",
-      "instructions": "Ordena la frase negativa.",
-      "correctSentence": "[[I am not going to eat pizza|No voy a comer pizza]].",
-      "words": ["[[pizza|pizza]]", "[[eat|comer]]", "[[to|a]]", "[[going|voy]]", "[[not|no]]", "[[am|estoy]]", "[[I|Yo]]"],
-      "explanation": "La negación se coloca después del verbo 'be'."
+      "title": "[[Tiredness|Cansancio]]",
+      "instructions": "[[Choose the correct order|Elige el orden correcto]].",
+      "question": "[[Are you (____) tired in the evening?|¿Sueles estar (____) cansado por la noche?]]",
+      "options": ["[[usually|normalmente]]", "[[never|nunca]]", "[[always|siempre]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Frequency with 'be' in questions|Frecuencia con 'be' en preguntas]]."
     },
     "audioUrl": "audio/a1/unit-26/e23.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u26-e24",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "easy",
-    "transcript": "What are you going to do?",
+    "topic": "Routines",
+    "difficulty": "medium",
+    "transcript": "[[I hardly ever go to the doctor|Casi nunca voy al médico]].",
     "content": {
-      "title": "Planes generales",
-      "instructions": "Elige la pregunta correcta sobre qué hacer.",
+      "title": "[[Health|Salud]]",
+      "instructions": "[[Complete the adverb|Completa el adverbio]].",
       "questions": [
         {
-          "question": "[[What|Qué]] (_____) [[you going to do?|tú a hacer?]]",
-          "options": ["[[are|estás]]", "[[is|está]]", "[[am|estoy]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'are' con 'you'."
+          "question": "[[I (____) go to the doctor.|Casi nunca voy al médico.]]",
+          "correctAnswer": "hardly ever",
+          "explanation": "[[Rare activity frequency|Frecuencia de actividad poco común]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-26/e24.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u26-e25",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Future",
+    "topic": "Routines",
     "difficulty": "medium",
-    "transcript": "We are going to visit London.",
+    "transcript": "[[They are always very busy|Ellos siempre están muy ocupados]].",
     "content": {
-      "title": "Viajes",
-      "instructions": "Completa la frase sobre el viaje.",
-      "questions": [
-        {
-          "question": "[[We are|Nosotros estamos]] (_____) [[to visit London.|a visitar Londres.]]",
-          "options": ["[[going|yendo / vamos]]", "[[goes|va]]", "[[gone|ido]]"],
-          "correctAnswer": 0,
-          "explanation": "La estructura es 'be going to'."
-        }
-      ]
+      "title": "[[Busy Life|Vida ocupada]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[They are always very busy|Ellos siempre están muy ocupados]].",
+      "words": ["[[busy|ocupados]].", "[[very|muy]]", "[[always|siempre]]", "[[are|están]]", "[[They|Ellos]]"],
+      "explanation": "[[Verb 'to be' + frequency + adjective|Verbo 'to be' + frecuencia + adjetivo]]."
     },
     "audioUrl": "audio/a1/unit-26/e25.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u26-e26",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "easy",
-    "transcript": "It is going to rain.",
+    "topic": "Routines",
+    "difficulty": "medium",
+    "transcript": "[[I sometimes cook for my family|A veces cocino para mi familia]].",
     "content": {
-      "title": "El tiempo",
-      "instructions": "Completa la predicción del tiempo.",
-      "questions": [
-        {
-          "question": "[[It|Ello]] (_____) [[going to rain.|a llover.]]",
-          "options": ["[[is|está / va]]", "[[are|están]]", "[[am|estoy]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'is' con 'it'."
-        }
-      ]
+      "title": "[[Cooking|Cocinando]]",
+      "instructions": "[[Identify the correct frequency|Identifica la frecuencia correcta]].",
+      "question": "[[I (____) cook for my family.|A veces cocino para mi familia.]]",
+      "options": ["[[sometimes|a veces]]", "[[never|nunca]]", "[[always|siempre]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Occasional routine|Rutina ocasional]]."
     },
     "audioUrl": "audio/a1/unit-26/e26.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u26-e27",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "hard",
-    "transcript": "When are they going to leave?",
-    "content": {
-      "title": "Salida",
-      "instructions": "Ordena la pregunta sobre cuándo se van.",
-      "correctSentence": "[[When are they going to leave|¿Cuándo se van a ir?]]?",
-      "words": ["[[leave|irse]]?", "[[to|a]]", "[[going|van]]", "[[they|ellos]]", "[[are|están]]", "[[When|Cuándo]]"],
-      "explanation": "En preguntas con 'Wh-', la palabra de pregunta va al principio."
-    },
-    "audioUrl": "audio/a1/unit-26/e27.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u26-e28",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Future",
+    "topic": "Routines",
     "difficulty": "medium",
-    "transcript": "You are going to love this movie.",
+    "transcript": "[[The bus is usually on time|El autobús suele llegar puntual]].",
     "content": {
-      "title": "Predicciones",
-      "instructions": "Completa la predicción sobre la película.",
+      "title": "[[The Bus|El Autobús]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[You|Tú]] (_____) [[going to love this movie.|a encantar esta película.]]",
-          "options": ["[[are|vas]]", "[[is|va]]", "[[am|voy]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'are' con 'you'."
+          "question": "[[The bus is (____) on time.|El autobús suele llegar puntual.]]",
+          "correctAnswer": "usually",
+          "explanation": "[[Frequency with 'be'|Frecuencia con 'be']]."
         }
       ]
     },
+    "audioUrl": "audio/a1/unit-26/e27.mp3",
+    "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u26-e28",
+    "type": "sentence-building",
+    "level": "A1",
+    "topic": "Routines",
+    "difficulty": "medium",
+    "transcript": "[[I often study in the morning|A menudo estudio por la mañana]].",
+    "content": {
+      "title": "[[Study Time|Tiempo de estudio]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[I often study in the morning|A menudo estudio por la mañana]].",
+      "words": ["[[morning|mañana]].", "[[the|la]]", "[[in|por]]", "[[study|estudio]]", "[[often|a menudo]]", "[[I|Yo]]"],
+      "explanation": "[[Regular habits|Hábitos regulares]]."
+    },
     "audioUrl": "audio/a1/unit-26/e28.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u26-e29",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "easy",
-    "transcript": "I'm going to sleep.",
+    "topic": "Routines",
+    "difficulty": "medium",
+    "transcript": "[[He never plays the piano|Él nunca toca el piano]].",
     "content": {
-      "title": "Descanso",
-      "instructions": "Completa la frase corta.",
-      "questions": [
-        {
-          "question": "[[I'm|Yo voy]] (_____) [[to sleep.|a dormir.]]",
-          "options": ["[[going|yendo / voy]]", "[[go|ir]]", "[[gone|ido]]"],
-          "correctAnswer": 0,
-          "explanation": "La estructura es 'be going to'."
-        }
-      ]
+      "title": "[[The Piano|El Piano]]",
+      "instructions": "[[Choose the correct adverb|Elige el adverbio correcto]].",
+      "question": "[[He (____) plays the piano.|Él nunca toca el piano.]]",
+      "options": ["[[never|nunca]]", "[[always|siempre]]", "[[often|a menudo]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Absence of routine|Ausencia de rutina]]."
     },
     "audioUrl": "audio/a1/unit-26/e29.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u26-e30",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Future",
+    "topic": "Routines",
     "difficulty": "medium",
-    "transcript": "He is not going to call you.",
+    "transcript": "[[She always brings her lunch|Ella siempre trae su comida]].",
     "content": {
-      "title": "Negación personal",
-      "instructions": "Completa la negación.",
+      "title": "[[Lunch Time|Hora de comer]]",
+      "instructions": "[[Complete the adverb|Completa el adverbio]].",
       "questions": [
         {
-          "question": "[[He|Él]] (_____) [[not going to call you.|no a llamarte.]]",
-          "options": ["[[is|está / va]]", "[[are|están / van]]", "[[am|estoy / voy]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'is' con 'he'."
+          "question": "[[She (____) brings her lunch.|Ella siempre trae su comida.]]",
+          "correctAnswer": "always",
+          "explanation": "[[Daily habit frequency|Frecuencia de hábito diario]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-26/e30.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
 
-  // MIXED PRACTICE (31-40)
+  // ==========================================
+  // LESSON 3: TIME EXPRESSIONS (31-45)
+  // ==========================================
   {
     "id": "a1-u26-e31",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "easy",
-    "transcript": "They are going to stay here.",
+    "topic": "Time Expressions",
+    "difficulty": "medium",
+    "transcript": "[[I go to English class twice a week|Voy a clase de inglés dos veces por semana]].",
     "content": {
-      "title": "Quedarse",
-      "instructions": "Completa el plan de estancia.",
-      "questions": [
-        {
-          "question": "[[They are going to|Ellos van a]] (_____) [[here.|aquí.]]",
-          "options": ["[[stay|quedarse]]", "[[go|irse]]", "[[eat|comer]]"],
-          "correctAnswer": 0,
-          "explanation": "'Stay' es quedarse."
-        }
-      ]
+      "title": "[[Twice a week|Dos veces por semana]]",
+      "instructions": "[[Identify the frequency expression|Identifica la expresión de frecuencia]].",
+      "question": "[[I go to English class (____).|Voy a clase de inglés dos veces por semana.]]",
+      "options": ["[[twice a week|dos veces por semana]]", "[[once a week|una vez por semana]]", "[[every day|todos los días]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Twice a week' means two times in a week|'Twice a week' significa dos veces en una semana]]."
     },
     "audioUrl": "audio/a1/unit-26/e31.mp3",
     "topicName": "Vocabulary"
@@ -664,40 +595,35 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "id": "a1-u26-e32",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
+    "topic": "Time Expressions",
     "difficulty": "medium",
-    "transcript": "Where are we going to meet?",
+    "transcript": "[[He visits his grandparents once a month|Él visita a sus abuelos una vez al mes]].",
     "content": {
-      "title": "Encontrarse",
-      "instructions": "Pregunta por el lugar de encuentro.",
-      "questions": [
-        {
-          "question": "[[Where are we going to|¿Dónde vamos a]] (_____) ?",
-          "options": ["[[meet|encontrarnos]]", "[[sleep|dormir]]", "[[work|trabajar]]"],
-          "correctAnswer": 0,
-          "explanation": "'Meet' es encontrarse o conocer a alguien."
-        }
-      ]
+      "title": "[[Once a month|Una vez al mes]]",
+      "instructions": "[[Choose the correct frequency|Elige la frecuencia correcta]].",
+      "question": "[[He visits his grandparents (____).|Él visita a sus abuelos una vez al mes.]]",
+      "options": ["[[once a month|una vez al mes]]", "[[every month|todos los meses]]", "[[never|nunca]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Once' means one time|'Once' significa una vez]]."
     },
     "audioUrl": "audio/a1/unit-26/e32.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u26-e33",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "easy",
-    "transcript": "He is going to watch a movie.",
+    "topic": "Time Expressions",
+    "difficulty": "medium",
+    "transcript": "[[I brush my teeth three times a day|Me lavo los dientes tres veces al día]].",
     "content": {
-      "title": "Cine",
-      "instructions": "Identifica la acción de ocio.",
+      "title": "[[Three times|Tres veces]]",
+      "instructions": "[[Complete the frequency expression|Completa la expresión de frecuencia]].",
       "questions": [
         {
-          "question": "[[He is going to|Él va a]] (_____) [[a movie.|una película.]]",
-          "options": ["[[watch|ver]]", "[[read|leer]]", "[[listen|escuchar]]"],
-          "correctAnswer": 0,
-          "explanation": "'Watch a movie' es ver una película."
+          "question": "[[I brush my teeth (____) a day.|Me lavo los dientes tres veces al día.]]",
+          "correctAnswer": "three times",
+          "explanation": "[[Use 'times' for frequencies above two|Usa 'times' para frecuencias superiores a dos]]."
         }
       ]
     },
@@ -708,15 +634,15 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "id": "a1-u26-e34",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "hard",
-    "transcript": "I am going to finish my homework soon.",
+    "topic": "Time Expressions",
+    "difficulty": "medium",
+    "transcript": "[[They go on holiday every summer|Ellos van de vacaciones todos los veranos]].",
     "content": {
-      "title": "Deberes",
-      "instructions": "Ordena la frase sobre terminar los deberes.",
-      "correctSentence": "[[I am going to finish my homework soon|Voy a terminar mis deberes pronto]].",
-      "words": ["[[soon|pronto]].", "[[homework|deberes]]", "[[my|mis]]", "[[finish|terminar]]", "[[to|a]]", "[[going|voy]]", "[[am|estoy]]", "[[I|Yo]]"],
-      "explanation": "Plan de terminar una tarea: be going to finish."
+      "title": "[[Every Summer|Todos los veranos]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[They go on holiday every summer|Ellos van de vacaciones todos los veranos]].",
+      "words": ["[[summer|veranos]].", "[[every|todos los]]", "[[holiday|vacaciones]]", "[[on|de]]", "[[go|van]]", "[[They|Ellos]]"],
+      "explanation": "[[Use 'every' for regular time intervals|Usa 'every' para intervalos de tiempo regulares]]."
     },
     "audioUrl": "audio/a1/unit-26/e34.mp3",
     "topicName": "Vocabulary"
@@ -725,40 +651,35 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "id": "a1-u26-e35",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "easy",
-    "transcript": "She is going to be a doctor.",
+    "topic": "Time Expressions",
+    "difficulty": "medium",
+    "transcript": "[[How often do you exercise?|¿Con qué frecuencia haces ejercicio?]]",
     "content": {
-      "title": "Profesión",
-      "instructions": "Elige la profesión futura.",
-      "questions": [
-        {
-          "question": "[[She is going to be a|Ella va a ser]] (_____) .",
-          "options": ["[[doctor|doctora]]", "[[dog|perro]]", "[[car|coche]]"],
-          "correctAnswer": 0,
-          "explanation": "'Doctor' es una profesión."
-        }
-      ]
+      "title": "[[How often|Con qué frecuencia]]",
+      "instructions": "[[Choose the correct question phrase|Elige la frase interrogativa correcta]].",
+      "question": "[[ (____) do you exercise?|¿(____) haces ejercicio?]]",
+      "options": ["[[How often|Con qué frecuencia]]", "[[How much|Cuánto]]", "[[How many|Cuántos]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Use 'How often' to ask about frequency|Usa 'How often' para preguntar por la frecuencia]]."
     },
     "audioUrl": "audio/a1/unit-26/e35.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u26-e36",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Future",
+    "topic": "Time Expressions",
     "difficulty": "medium",
-    "transcript": "Are they going to buy anything?",
+    "transcript": "[[I go to the dentist once a year|Voy al dentista una vez al año]].",
     "content": {
-      "title": "Compras",
-      "instructions": "Completa la pregunta sobre comprar algo.",
+      "title": "[[Dentist|Dentista]]",
+      "instructions": "[[Complete the frequency expression|Completa la expresión de frecuencia]].",
       "questions": [
         {
-          "question": "[[Are they going to|¿Van ellos a]] (_____) [[anything?|comprar algo?]]",
-          "options": ["[[buy|comprar]]", "[[sell|vender]]", "[[pay|pagar]]"],
-          "correctAnswer": 0,
-          "explanation": "'Buy' es comprar."
+          "question": "[[I go to the dentist (____) a year.|Voy al dentista una vez al año.]]",
+          "correctAnswer": "once",
+          "explanation": "[[One time frequency|Frecuencia de una vez]]."
         }
       ]
     },
@@ -767,59 +688,54 @@ export const UNIT_26_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u26-e37",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Future",
+    "topic": "Time Expressions",
     "difficulty": "medium",
-    "transcript": "We are going to have a party.",
+    "transcript": "[[We have a meeting every Monday|Tenemos una reunión todos los lunes]].",
     "content": {
-      "title": "Fiesta",
-      "instructions": "Completa con el evento social.",
-      "questions": [
-        {
-          "question": "[[We are going to have a|Vamos a tener una]] (_____) .",
-          "options": ["[[party|fiesta]]", "[[exam|examen]]", "[[meeting|reunión]]"],
-          "correctAnswer": 0,
-          "explanation": "'Have a party' es celebrar una fiesta."
-        }
-      ]
+      "title": "[[Monday Meeting|Reunión del lunes]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[We have a meeting every Monday|Tenemos una reunión todos los lunes]].",
+      "words": ["[[Monday|lunes]].", "[[every|todos los]]", "[[meeting|reunión]]", "[[a|una]]", "[[have|tenemos]]", "[[We|Nosotros]]"],
+      "explanation": "[[Regular scheduled event|Evento programado regularmente]]."
     },
     "audioUrl": "audio/a1/unit-26/e37.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u26-e38",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "hard",
-    "transcript": "He is going to learn English.",
+    "topic": "Time Expressions",
+    "difficulty": "medium",
+    "transcript": "[[She calls me every day|Ella me llama todos los días]].",
     "content": {
-      "title": "Aprender",
-      "instructions": "Ordena la frase sobre aprender inglés.",
-      "correctSentence": "[[He is going to learn English|Él va a aprender inglés]].",
-      "words": ["[[English|inglés]].", "[[learn|aprender]]", "[[to|a]]", "[[going|va]]", "[[is|está]]", "[[He|Él]]"],
-      "explanation": "'Learn' es aprender."
+      "title": "[[Daily Call|Llamada diaria]]",
+      "instructions": "[[Identify the frequency expression|Identifica la expresión de frecuencia]].",
+      "question": "[[She calls me (____).|Ella me llama todos los días.]]",
+      "options": ["[[every day|todos los días]]", "[[never|nunca]]", "[[sometimes|a veces]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Every day' means daily|'Every day' significa a diario]]."
     },
     "audioUrl": "audio/a1/unit-26/e38.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u26-e39",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "easy",
-    "transcript": "I am going to go to bed now.",
+    "topic": "Time Expressions",
+    "difficulty": "medium",
+    "transcript": "[[I play tennis twice a month|Juego al tenis dos veces al mes]].",
     "content": {
-      "title": "Ir a la cama",
-      "instructions": "Identifica el plan inmediato.",
+      "title": "[[Tennis|Tenis]]",
+      "instructions": "[[Complete the frequency expression|Completa la expresión de frecuencia]].",
       "questions": [
         {
-          "question": "[[I am going to go to|Voy a ir a la]] (_____) [[now.|ahora.]]",
-          "options": ["[[bed|cama]]", "[[work|trabajo]]", "[[school|escuela]]"],
-          "correctAnswer": 0,
-          "explanation": "'Go to bed' es ir a dormir/a la cama."
+          "question": "[[I play tennis (____) a month.|Juego al tenis dos veces al mes.]]",
+          "correctAnswer": "twice",
+          "explanation": "[[Two times frequency|Frecuencia de dos veces]]."
         }
       ]
     },
@@ -828,66 +744,54 @@ export const UNIT_26_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u26-e40",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Future",
+    "topic": "Time Expressions",
     "difficulty": "medium",
-    "transcript": "They are going to travel by plane.",
+    "transcript": "[[How often does he visit you?|¿Con qué frecuencia te visita?]]",
     "content": {
-      "title": "Transporte",
-      "instructions": "Elige el medio de transporte.",
-      "questions": [
-        {
-          "question": "[[They are going to travel by|Van a viajar en]] (_____) .",
-          "options": ["[[plane|avión]]", "[[bike|bici]]", "[[horse|caballo]]"],
-          "correctAnswer": 0,
-          "explanation": "'By plane' es en avión."
-        }
-      ]
+      "title": "[[Visiting Question|Pregunta de visita]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[How often does he visit you?|¿Con qué frecuencia te visita?]]",
+      "words": ["[[you?|te?]]", "[[visit|visita]]", "[[he|él]]", "[[does|¿]]", "[[often|frecuencia]]", "[[How|Con qué]]"],
+      "explanation": "[[Question structure for third person frequency|Estructura de pregunta para frecuencia en tercera persona]]."
     },
     "audioUrl": "audio/a1/unit-26/e40.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
-
-  // FINAL MIX & READING (41-60)
   {
     "id": "a1-u26-e41",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
+    "topic": "Time Expressions",
     "difficulty": "medium",
-    "transcript": "What are you going to wear to the party?",
+    "transcript": "[[I drink eight glasses of water every day|Bebo ocho vasos de agua todos los días]].",
     "content": {
-      "title": "Ropa",
-      "instructions": "Pregunta por la ropa para un evento futuro.",
-      "questions": [
-        {
-          "question": "[[What are you going to|¿Qué vas a]] (_____) [[to the party?|llevar puesto a la fiesta?]]",
-          "options": ["[[wear|llevar puesto]]", "[[carry|llevar (mano)]]", "[[buy|comprar]]"],
-          "correctAnswer": 0,
-          "explanation": "'Wear' se usa para la ropa que llevaremos puesta."
-        }
-      ]
+      "title": "[[Water Intake|Consumo de agua]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[I drink eight glasses of water (____).|Bebo ocho vasos de agua todos los días.]]",
+      "options": ["[[every day|todos los días]]", "[[once a week|una vez por semana]]", "[[hardly ever|casi nunca]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Daily habit expression|Expresión de hábito diario]]."
     },
     "audioUrl": "audio/a1/unit-26/e41.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u26-e42",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "easy",
-    "transcript": "I am going to send an email.",
+    "topic": "Time Expressions",
+    "difficulty": "medium",
+    "transcript": "[[We visit our cousins twice a year|Visitamos a nuestros primos dos veces al año]].",
     "content": {
-      "title": "Correo electrónico",
-      "instructions": "Completa el plan de comunicación.",
+      "title": "[[Cousins|Primos]]",
+      "instructions": "[[Complete the frequency expression|Completa la expresión de frecuencia]].",
       "questions": [
         {
-          "question": "[[I am going to|Voy a]] (_____) [[an email.|un correo electrónico.]]",
-          "options": ["[[send|enviar]]", "[[write|escribir]]", "[[read|leer]]"],
-          "correctAnswer": 0,
-          "explanation": "'Send' es enviar."
+          "question": "[[We visit our cousins (____) a year.|Visitamos a nuestros primos dos veces al año.]]",
+          "correctAnswer": "twice",
+          "explanation": "[[Two times per year|Dos veces al año]]."
         }
       ]
     },
@@ -898,15 +802,15 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "id": "a1-u26-e43",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Be going to",
-    "difficulty": "hard",
-    "transcript": "Is it going to be sunny tomorrow?",
+    "topic": "Time Expressions",
+    "difficulty": "medium",
+    "transcript": "[[How often do they go shopping?|¿Con qué frecuencia van de compras?]]",
     "content": {
-      "title": "Tiempo Atmosférico",
-      "instructions": "Ordena la pregunta sobre el clima de mañana.",
-      "correctSentence": "[[Is it going to be sunny tomorrow|¿Va a hacer sol mañana]]?",
-      "words": ["[[tomorrow|mañana]]?", "[[sunny|soleado]]", "[[be|estar/hacer]]", "[[to|a]]", "[[going|va]]", "[[it|ello]]", "[[Is|¿]]"],
-      "explanation": "Pregunta sobre predicción meteorológica futura."
+      "title": "[[Shopping|Compras]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[How often do they go shopping?|¿Con qué frecuencia van de compras?]]",
+      "words": ["[[shopping?|compras?]]", "[[go|van]]", "[[they|ellos]]", "[[do|¿]]", "[[often|frecuencia]]", "[[How|Con qué]]"],
+      "explanation": "[[Standard plural frequency question|Pregunta de frecuencia plural estándar]]."
     },
     "audioUrl": "audio/a1/unit-26/e43.mp3",
     "topicName": "Grammar"
@@ -915,380 +819,601 @@ export const UNIT_26_EXERCISES: Exercise[] = [
     "id": "a1-u26-e44",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
+    "topic": "Time Expressions",
     "difficulty": "medium",
-    "transcript": "Where are you going to stay?",
+    "transcript": "[[I check my emails ten times a day|Miro mis correos diez veces al día]].",
     "content": {
-      "title": "Estancia",
-      "instructions": "Pregunta por el lugar de alojamiento.",
-      "questions": [
-        {
-          "question": "[[Where are you going to|¿Dónde vas a]] (_____) ?",
-          "options": ["[[stay|quedarte]]", "[[go|ir]]", "[[visit|visitar]]"],
-          "correctAnswer": 0,
-          "explanation": "'Stay' se usa para referirse al lugar donde uno se aloja."
-        }
-      ]
+      "title": "[[Emails|Correos]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[I check my emails (____) a day.|Miro mis correos diez veces al día.]]",
+      "options": ["[[ten times|diez veces]]", "[[once|una vez]]", "[[always|siempre]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Using numbers with 'times'|Usando números con 'times']]."
     },
     "audioUrl": "audio/a1/unit-26/e44.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u26-e45",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "easy",
-    "transcript": "We are going to be early.",
+    "topic": "Time Expressions",
+    "difficulty": "medium",
+    "transcript": "[[They have a party every year|Tienen una fiesta todos los años]].",
     "content": {
-      "title": "Puntualidad",
-      "instructions": "Elige la opción para llegar antes de tiempo.",
+      "title": "[[Party Time|Fiesta]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[We are going to be|Vamos a llegar]] (_____) .",
-          "options": ["[[early|pronto/temprano]]", "[[late|tarde]]", "[[now|ahora]]"],
-          "correctAnswer": 0,
-          "explanation": "'Early' es temprano o antes de tiempo."
+          "question": "[[They have a party (____) year.|Tienen una fiesta todos los años.]]",
+          "correctAnswer": "every",
+          "explanation": "[[Annual interval expression|Expresión de intervalo anual]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-26/e45.mp3",
     "topicName": "Vocabulary"
   },
+
+  // ==========================================
+  // LESSON 4: READING & DAILY LIFE (46-60)
+  // ==========================================
   {
     "id": "a1-u26-e46",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "medium",
-    "transcript": "Are you going to pay by card?",
+    "topic": "Reading",
+    "difficulty": "hard",
+    "transcript": "[[A Normal Week for John|Una Semana Normal para John]]. [[John has a very regular routine|John tiene una rutina muy regular]]. [[He always wakes up at 6:30 AM|Siempre se despierta a las 6:30 AM]]. [[He usually has a big breakfast|Normalmente desayuna fuerte]]. [[John often walks to work|John a menudo va caminando al trabajo]]. [[He sometimes works late on Wednesdays|A veces trabaja hasta tarde los miércoles]]. [[He hardly ever goes out during the week|Casi nunca sale entre semana]]. [[John never drinks alcohol|John nunca bebe alcohol]]. [[He goes to the gym three times a week|Va al gimnasio tres veces por semana]]. [[On weekends, he often visits his parents|Los fines de semana, a menudo visita a sus padres]]. [[John is always happy with his lifestyle|John siempre está feliz con su estilo de vida]].",
     "content": {
-      "title": "Pagos",
-      "instructions": "Completa la pregunta sobre el método de pago.",
+      "title": "[[Reading: John's Routine|Lectura: La Rutina de John]]",
+      "instructions": "[[Read about John's typical week|Lee sobre la semana típica de John]].",
       "questions": [
         {
-          "question": "[[Are you going to|¿Vas a]] (_____) [[by card?|con tarjeta?]]",
-          "options": ["[[pay|pagar]]", "[[buy|comprar]]", "[[give|dar]]"],
+          "question": "[[A Normal Week for John|Una Semana Normal para John]]. [[John has a very regular routine|John tiene una rutina muy regular]]. [[He always wakes up at 6:30 AM|Siempre se despierta a las 6:30 AM]]. [[He usually has a big breakfast|Normalmente desayuna fuerte]]. [[John often walks to work|John a menudo va caminando al trabajo]]. [[He sometimes works late on Wednesdays|A veces trabaja hasta tarde los miércoles]]. [[He hardly ever goes out during the week|Casi nunca sale entre semana]]. [[John never drinks alcohol|John nunca bebe alcohol]]. [[He goes to the gym three times a week|Va al gimnasio tres veces por semana]]. [[On weekends, he often visits his parents|Los fines de semana, a menudo visita a sus padres]]. [[John is always happy with his lifestyle|John siempre está feliz con su estilo de vida]].",
+          "options": ["[[I have read the text|He leído el texto]]."],
           "correctAnswer": 0,
-          "explanation": "'Pay by card' es pagar con tarjeta."
+          "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-26/e46.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u26-e47",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Be going to",
+    "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "They are going to travel to Spain next summer.",
+    "transcript": "[[When does John wake up? Always at 6:30 AM|¿Cuándo se despierta John? Siempre a las 6:30 AM]].",
     "content": {
-      "title": "Viaje de Verano",
-      "instructions": "Ordena la frase sobre vacaciones.",
-      "correctSentence": "[[They are going to travel to Spain next summer|Ellos van a viajar a España el próximo verano]].",
-      "words": ["[[summer|verano]].", "[[next|próximo]]", "[[Spain|España]]", "[[to|a]]", "[[travel|viajar]]", "[[to|a]]", "[[going|van]]", "[[are|están]]", "[[They|Ellos]]"],
-      "explanation": "Combinación de plan futuro y expresión temporal lejana."
+      "title": "[[Comprehension: Waking up|Comprensión: Despertarse]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[John (____) wakes up at 6:30 AM.|John (____) se despierta a las 6:30 AM.]]",
+      "options": ["[[always|siempre]]", "[[usually|normalmente]]", "[[sometimes|a veces]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says 'He always wakes up at 6:30 AM'|El texto dice 'Siempre se despierta a las 6:30 AM']]."
     },
-    "audioUrl": "audio/a1/unit-26/e47.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u26-e48",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "medium",
-    "transcript": "Is she going to come to the party?",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[How often does John walk to work? Often|¿Con qué frecuencia va caminando al trabajo? A menudo]].",
     "content": {
-      "title": "Invitación",
-      "instructions": "Pregunta si alguien vendrá.",
-      "questions": [
-        {
-          "question": "[[Is she going to|¿Va ella a]] (_____) [[to the party?|a la fiesta?]]",
-          "options": ["[[come|venir]]", "[[go|ir]]", "[[stay|quedarse]]"],
-          "correctAnswer": 0,
-          "explanation": "'Come' es venir."
-        }
-      ]
+      "title": "[[Comprehension: Walking|Comprensión: Caminar]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[John (____) walks to work.|John (____) va caminando al trabajo.]]",
+      "options": ["[[often|a menudo]]", "[[never|nunca]]", "[[hardly ever|casi nunca]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says 'John often walks to work'|El texto dice 'John a menudo va caminando al trabajo']]."
     },
-    "audioUrl": "audio/a1/unit-26/e48.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u26-e49",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "easy",
-    "transcript": "I am going to take a photo.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Does John go out a lot during the week? Hardly ever|¿Sale mucho John entre semana? Casi nunca]].",
     "content": {
-      "title": "Fotos",
-      "instructions": "Completa el plan de hacer una foto.",
-      "questions": [
-        {
-          "question": "[[I am going to|Voy a]] (_____) [[a photo.|una foto.]]",
-          "options": ["[[take|hacer/tomar]]", "[[do|hacer]]", "[[make|hacer]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'take a photo' para hacer una fotografía."
-        }
-      ]
+      "title": "[[Comprehension: Going Out|Comprensión: Salir]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[John (____) goes out during the week.|John (____) sale durante la semana.]]",
+      "options": ["[[hardly ever|casi nunca]]", "[[always|siempre]]", "[[usually|normalmente]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says 'He hardly ever goes out during the week'|El texto dice 'Casi nunca sale entre semana']]."
     },
-    "audioUrl": "audio/a1/unit-26/e49.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u26-e50",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "medium",
-    "transcript": "Are you going to use your car tonight?",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Does John drink alcohol? Never|¿Bebe alcohol John? Nunca]].",
     "content": {
-      "title": "Uso del Coche",
-      "instructions": "Pregunta sobre el uso de un objeto.",
-      "questions": [
-        {
-          "question": "[[Are you going to|¿Vas a]] (_____) [[your car tonight?|tu coche esta noche?]]",
-          "options": ["[[use|usar]]", "[[drive|conducir]]", "[[buy|comprar]]"],
-          "correctAnswer": 0,
-          "explanation": "'Use' es usar."
-        }
-      ]
+      "title": "[[Comprehension: Alcohol|Comprensión: Alcohol]]",
+      "instructions": "[[Identify the frequency|Identifica la frecuencia]].",
+      "question": "[[John (____) drinks alcohol.|John (____) bebe alcohol.]]",
+      "options": ["[[never|nunca]]", "[[often|a menudo]]", "[[sometimes|a veces]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says 'John never drinks alcohol'|El texto dice 'John nunca bebe alcohol']]."
     },
-    "audioUrl": "audio/a1/unit-26/e50.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u26-e51",
-    "type": "reading",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Be going to",
-    "difficulty": "medium",
-    "transcript": "Next Saturday is my birthday. I am going to have a party with my friends. We are going to eat pizza and listen to music. My parents are going to buy a big cake. I am very happy.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[John goes to the gym three times a week|John va al gimnasio tres veces por semana]].",
     "content": {
-      "title": "Mi Cumpleaños",
-      "instructions": "Lee sobre los planes de cumpleaños.",
-      "text": "[[Next|El próximo]] [[Saturday|sábado]] [[is|es]] [[my|mi]] [[birthday.|cumpleaños.]] [[I|Yo]] [[am|estoy]] [[going|yendo]] [[to|a]] [[have|tener]] [[a|una]] [[party|fiesta]] [[with|con]] [[my|mis]] [[friends.|amigos.]] [[We|Nosotros]] [[are|estamos]] [[going|yendo]] [[to|a]] [[eat|comer]] [[pizza|pizza]] [[and|y]] [[listen|escuchar]] [[to|a]] [[music.|música.]] [[My|Mis]] [[parents|padres]] [[are|están]] [[going|yendo]] [[to|a]] [[buy|comprar]] [[a|un]] [[big|gran]] [[cake.|pastel.]] [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy.|feliz.]]",
+      "title": "[[Comprehension: Gym|Comprensión: Gimnasio]]",
+      "instructions": "[[Complete the frequency expression|Completa la expresión de frecuencia]].",
       "questions": [
         {
-          "question": "[[When is the birthday?|¿Cuándo es el cumpleaños?]]",
-          "options": ["[[Next Saturday|El próximo sábado]]", "[[Tomorrow|Mañana]]", "[[Today|Hoy]]"],
-          "correctAnswer": 0
-        },
-        {
-          "question": "[[What are the parents going to buy?|¿Qué van a comprar los padres?]]",
-          "options": ["[[A big cake|Un pastel grande]]", "[[Pizza|Pizza]]", "[[Drinks|Bebidas]]"],
-          "correctAnswer": 0
+          "question": "[[John goes to the gym (____) a week.|John va al gimnasio (____) por semana.]]",
+          "correctAnswer": "three times",
+          "explanation": "[[The text says 'three times a week'|El texto dice 'tres veces por semana']]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-26/e51.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u26-e52",
-    "type": "reading",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Be going to",
-    "difficulty": "medium",
-    "transcript": "My brother is going to travel to London next month. He is going to stay in a hotel near the center. He is going to visit many museums. He is not going to take his car, he is going to travel by plane.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[John is always happy|John siempre está feliz]].",
     "content": {
-      "title": "Viaje a Londres",
-      "instructions": "Lee sobre el viaje del hermano.",
-      "text": "[[My|Mi]] [[brother|hermano]] [[is|está]] [[going|yendo]] [[to|a]] [[travel|viajar]] [[to|a]] [[London|Londres]] [[next|el próximo]] [[month.|mes.]] [[He|Él]] [[is|está]] [[going|yendo]] [[to|a]] [[stay|quedarse]] [[in|en]] [[a|un]] [[hotel|hotel]] [[near|cerca de]] [[the|el]] [[center.|centro.]] [[He|Él]] [[is|está]] [[going|yendo]] [[to|a]] [[visit|visitar]] [[many|muchos]] [[museums.|museos.]] [[He|Él]] [[is|está]] [[not|no]] [[going|yendo]] [[to|a]] [[take|llevar]] [[his|su]] [[car,|coche,]] [[he|él]] [[is|está]] [[going|yendo]] [[to|a]] [[travel|viajar]] [[by|en]] [[plane.|avión.]]",
-      "questions": [
-        {
-          "question": "[[Where is the brother going to stay?|¿Dónde se va a quedar el hermano?]]",
-          "options": ["[[In a hotel|En un hotel]]", "[[In a house|En una casa]]", "[[With friends|Con amigos]]"],
-          "correctAnswer": 0
-        },
-        {
-          "question": "[[How is he going to travel?|¿Cómo va a viajar?]]",
-          "options": ["[[By plane|En avión]]", "[[By car|En coche]]", "[[By train|En tren]]"],
-          "correctAnswer": 0
-        }
-      ]
+      "title": "[[Comprehension: Happiness|Comprensión: Felicidad]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[John is always happy|John siempre está feliz]].",
+      "words": ["[[happy|feliz]].", "[[always|siempre]]", "[[is|está]]", "[[John|John]]"],
+      "explanation": "[[Concluding sentiment from the text|Sentimiento final del texto]]."
     },
-    "audioUrl": "audio/a1/unit-26/e52.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u26-e53",
-    "type": "reading",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Be going to",
-    "difficulty": "medium",
-    "transcript": "Look at the sky! It is very dark. I think it is going to rain soon. I am going to take my umbrella. We are not going to walk to the park today.",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[When does John visit his parents? Often on weekends|¿Cuándo visita John a sus padres? A menudo los fines de semana]].",
     "content": {
-      "title": "Va a Llover",
-      "instructions": "Lee sobre el tiempo.",
-      "text": "[[Look|Mira]] [[at|a]] [[the|el]] [[sky!|cielo!]] [[It|Esto]] [[is|está]] [[very|muy]] [[dark.|oscuro.]] [[I|Yo]] [[think|creo]] [[it|esto]] [[is|está]] [[going|yendo]] [[to|a]] [[rain|llover]] [[soon.|pronto.]] [[I|Yo]] [[am|estoy]] [[going|yendo]] [[to|a]] [[take|coger]] [[my|mi]] [[umbrella.|paraguas.]] [[We|Nosotros]] [[are|estamos]] [[not|no]] [[going|yendo]] [[to|a]] [[walk|caminar]] [[to|a]] [[the|el]] [[park|parque]] [[today.|hoy.]]",
-      "questions": [
-        {
-          "question": "[[What is the weather going to be?|¿Cómo va a ser el tiempo?]]",
-          "options": ["[[Rainy|Lluvioso]]", "[[Sunny|Soleado]]", "[[Snowy|Nevado]]"],
-          "correctAnswer": 0
-        },
-        {
-          "question": "[[What is the speaker going to take?|¿Qué va a coger el narrador?]]",
-          "options": ["[[An umbrella|Un paraguas]]", "[[A coat|Un abrigo]]", "[[A hat|Un sombrero]]"],
-          "correctAnswer": 0
-        }
-      ]
+      "title": "[[Grammar: Weekends|Gramática: Fines de semana]]",
+      "instructions": "[[Answer the question|Responde a la pregunta]].",
+      "question": "[[How often does he visit his parents? (____)|¿Con qué frecuencia visita a sus padres? (____)]]",
+      "options": ["[[often on weekends|a menudo los fines de semana]]", "[[never|nunca]]", "[[every day|todos los días]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text mentions frequent weekend visits|El texto menciona visitas frecuentes los fines de semana]]."
     },
-    "audioUrl": "audio/a1/unit-26/e53.mp3",
-    "topicName": "Reading"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u26-e54",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Be going to",
+    "topic": "Grammar",
     "difficulty": "hard",
-    "transcript": "Are they going to buy a new house?",
+    "transcript": "[[He sometimes works late on Wednesdays|A veces trabaja hasta tarde los miércoles]].",
     "content": {
-      "title": "Nueva Casa",
-      "instructions": "Pregunta sobre un plan importante.",
+      "title": "[[Grammar: Wednesdays|Gramática: Miércoles]]",
+      "instructions": "[[Complete the adverb|Completa el adverbio]].",
       "questions": [
         {
-          "question": "(_____) [[they going to buy a new house?|ellos van a comprar una casa nueva?]]",
-          "options": ["[[Are|¿Van]]", "[[Is|¿Va]]", "[[Do|¿Hacen]]"],
-          "correctAnswer": 0,
-          "explanation": "Pregunta plural: Are + they + going to...?"
+          "question": "[[He (____) works late on Wednesdays.|A veces trabaja hasta tarde los miércoles.]]",
+          "correctAnswer": "sometimes",
+          "explanation": "[[Based on the reading text|Basado en el texto de lectura]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-26/e54.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u26-e55",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Be going to",
+    "topic": "Grammar",
     "difficulty": "hard",
-    "transcript": "I'm not going to watch TV tonight.",
+    "transcript": "[[John usually has a big breakfast|John normalmente desayuna fuerte]].",
     "content": {
-      "title": "Plan Negativo",
-      "instructions": "Elige la forma negativa correcta.",
-      "questions": [
-        {
-          "question": "[[I'm|No]] (_____) [[watch TV tonight.|voy a ver la tele esta noche.]]",
-          "options": ["[[not going to|voy a]]", "[[no going to|error]]", "[[not go to|error]]"],
-          "correctAnswer": 0,
-          "explanation": "Contracción negativa: I'm + not + going to."
-        }
-      ]
+      "title": "[[Grammar: Breakfast|Gramática: Desayuno]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[John usually has a big breakfast|John normalmente desayuna fuerte]].",
+      "words": ["[[breakfast|desayuno]].", "[[big|fuerte]]", "[[a|un]]", "[[has|toma]]", "[[usually|normalmente]]", "[[John|John]]"],
+      "explanation": "[[Standard routine sentence|Oración de rutina estándar]]."
     },
-    "audioUrl": "audio/a1/unit-26/e55.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u26-e56",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Be going to",
-    "difficulty": "easy",
-    "transcript": "We're going to have fun.",
+    "topic": "Vocabulary",
+    "difficulty": "hard",
+    "transcript": "[[What is a gym? A place to exercise|¿Qué es un gimnasio? Un lugar para hacer ejercicio]].",
     "content": {
-      "title": "Diversión",
-      "instructions": "Elige la expresión para divertirse.",
-      "questions": [
-        {
-          "question": "[[We're going to|Vamos a]] (_____) [[fun.|divertirnos.]]",
-          "options": ["[[have|tener]]", "[[make|hacer]]", "[[do|hacer]]"],
-          "correctAnswer": 0,
-          "explanation": "'Have fun' es divertirse."
-        }
-      ]
+      "title": "[[Vocabulary: Gym|Vocabulario: Gimnasio]]",
+      "instructions": "[[Identify the item usage|Identifica el uso del artículo]].",
+      "question": "[[A gym is a place to (____).|Un gimnasio es un lugar para (____).]]",
+      "options": ["[[exercise|hacer ejercicio]]", "[[sleep|dormir]]", "[[cook|cocinar]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Gyms are for physical activity|Los gimnasios son para la actividad física]]."
     },
-    "audioUrl": "audio/a1/unit-26/e56.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u26-e57",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Be going to",
+    "topic": "Grammar",
     "difficulty": "hard",
-    "transcript": "Where is he going to work next year?",
+    "transcript": "[[John is hardly ever bored|John casi nunca está aburrido]].",
     "content": {
-      "title": "Trabajo Futuro",
-      "instructions": "Ordena la pregunta sobre el lugar de trabajo.",
-      "correctSentence": "[[Where is he going to work next year|¿Dónde va a trabajar él el año que viene]]?",
-      "words": ["[[year|año]]?", "[[next|próximo]]", "[[work|trabajar]]", "[[to|a]]", "[[going|va]]", "[[he|él]]", "[[is|está]]", "[[Where|Dónde]]"],
-      "explanation": "Estructura interrogativa WH completa."
+      "title": "[[Grammar: Bored|Gramática: Aburrido]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
+      "questions": [
+        {
+          "question": "[[John is (____) bored.|John casi nunca está aburrido.]]",
+          "correctAnswer": "hardly ever",
+          "explanation": "[[Frequency with 'be' + adjective|Frecuencia con 'be' + adjetivo]]."
+        }
+      ]
     },
-    "audioUrl": "audio/a1/unit-26/e57.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u26-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "medium",
-    "transcript": "They are going to meet at five.",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[Does John go to the gym every day? No, three times a week|¿Va John al gimnasio todos los días? No, tres veces por semana]].",
     "content": {
-      "title": "Hora de encuentro",
-      "instructions": "Completa sobre el encuentro.",
-      "questions": [
-        {
-          "question": "[[They are going to|Van a]] (_____) [[at five.|a las cinco.]]",
-          "options": ["[[meet|encontrarse]]", "[[eat|comer]]", "[[sleep|dormir]]"],
-          "correctAnswer": 0,
-          "explanation": "'Meet' es encontrarse."
-        }
-      ]
+      "title": "[[Grammar: Frequencies|Gramática: Frecuencias]]",
+      "instructions": "[[Identify the correct frequency|Identifica la frecuencia correcta]].",
+      "question": "[[John goes to the gym (____).|John va al gimnasio (____).]]",
+      "options": ["[[three times a week|tres veces por semana]]", "[[every day|todos los días]]", "[[once a year|una vez al año]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Specific frequency count|Recuento de frecuencia específico]]."
     },
-    "audioUrl": "audio/a1/unit-26/e58.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u26-e59",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "easy",
-    "transcript": "Is she going to wear her new dress?",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[He often visits his parents|Él a menudo visita a sus padres]].",
     "content": {
-      "title": "Vestido nuevo",
-      "instructions": "Completa sobre la prenda de vestir.",
-      "questions": [
-        {
-          "question": "[[Is she going to wear her new|¿Va a llevar su nuevo]] (_____) ?",
-          "options": ["[[dress|vestido]]", "[[car|coche]]", "[[apple|manzana]]"],
-          "correctAnswer": 0,
-          "explanation": "'Dress' es un vestido."
-        }
-      ]
+      "title": "[[Grammar: Often|Gramática: Often]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[He often visits his parents|Él a menudo visita a sus padres]].",
+      "words": ["[[parents|padres]].", "[[his|sus]]", "[[visits|visita]]", "[[often|a menudo]]", "[[He|Él]]"],
+      "explanation": "[[Standard frequency sentence structure|Estructura estándar de oración de frecuencia]]."
     },
-    "audioUrl": "audio/a1/unit-26/e59.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u26-e60",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Future",
-    "difficulty": "medium",
-    "transcript": "I think I'm going to pass the exam.",
+    "topic": "Vocabulary",
+    "difficulty": "hard",
+    "transcript": "[[John works during the week|John trabaja entre semana]].",
     "content": {
-      "title": "Examen",
-      "instructions": "Completa sobre el resultado del examen.",
+      "title": "[[Vocabulary: Week|Vocabulario: Semana]]",
+      "instructions": "[[Complete the description|Completa la descripción]].",
       "questions": [
         {
-          "question": "[[I think I'm going to|Creo que voy a]] (_____) [[the exam.|el examen.]]",
-          "options": ["[[pass|aprobar]]", "[[fail|suspender]]", "[[write|escribir]]"],
-          "correctAnswer": 0,
-          "explanation": "'Pass the exam' es aprobar el examen."
+          "question": "[[John works during the (____).|John trabaja entre semana.]]",
+          "correctAnswer": "week",
+          "explanation": "[[The opposite of 'weekend'|Lo contrario de 'fin de semana']]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-26/e60.mp3",
     "topicName": "Vocabulary"
+  },
+
+  // ==========================================
+  // LESSON 5: LISTENING & PRONUNCIATION (61-75)
+  // ==========================================
+  {
+    "id": "a1-u26-e61",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I always go to bed early|Siempre me voy a la cama temprano]].",
+    "audioUrl": "audio/a1/unit-26/e61.mp3",
+    "content": {
+      "title": "[[Listening: Bed Time|Escucha: Hora de dormir]]",
+      "instructions": "[[Listen and identify the frequency|Escucha e identifica la frecuencia]].",
+      "questions": [{
+        "id": "q61",
+        "type": "multiple-choice",
+        "question": "[[How often does the speaker go to bed early?|¿Con qué frecuencia se acuesta temprano el hablante?]]",
+        "options": ["[[always|siempre]]", "[[never|nunca]]", "[[sometimes|a veces]]"],
+        "correctAnswer": "[[always|siempre]]",
+        "explanation": "[[The speaker says 'I always go to bed early'|El hablante dice 'Siempre me voy a la cama temprano']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u26-e62",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[She never eats fast food|Ella nunca come comida rápida]].",
+    "audioUrl": "audio/a1/unit-26/e62.mp3",
+    "content": {
+      "title": "[[Listening: Diet|Escucha: Dieta]]",
+      "instructions": "[[Listen and identify the frequency|Escucha e identifica la frecuencia]].",
+      "questions": [{
+        "id": "q62",
+        "type": "multiple-choice",
+        "question": "[[Does she eat fast food?|¿Come ella comida rápida?]]",
+        "options": ["[[never|nunca]]", "[[often|a menudo]]", "[[sometimes|a veces]]"],
+        "correctAnswer": "[[never|nunca]]",
+        "explanation": "[[The speaker says 'She never eats fast food'|El hablante dice 'Ella nunca come comida rápida']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u26-e63",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[We usually play tennis on Saturdays|Normalmente jugamos al tenis los sábados]].",
+    "audioUrl": "audio/a1/unit-26/e63.mp3",
+    "content": {
+      "title": "[[Listening: Tennis|Escucha: Tenis]]",
+      "instructions": "[[Listen and identify the day|Escucha e identifica el día]].",
+      "questions": [{
+        "id": "q63",
+        "type": "multiple-choice",
+        "question": "[[When do they usually play tennis?|¿Cuándo suelen jugar al tenis?]]",
+        "options": ["[[on Saturdays|los sábados]]", "[[on Sundays|los domingos]]", "[[every day|todos los días]]"],
+        "correctAnswer": "[[on Saturdays|los sábados]]",
+        "explanation": "[[The speaker says 'on Saturdays'|El hablante dice 'los sábados']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u26-e64",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[How often do you travel? Twice a year|¿Con qué frecuencia viajas? Dos veces al año]].",
+    "audioUrl": "audio/a1/unit-26/e64.mp3",
+    "content": {
+      "title": "[[Listening: Travel|Escucha: Viajes]]",
+      "instructions": "[[Listen and identify the frequency|Escucha e identifica la frecuencia]].",
+      "questions": [{
+        "id": "q64",
+        "type": "multiple-choice",
+        "question": "[[How often does the person travel?|¿Con qué frecuencia viaja la persona?]]",
+        "options": ["[[twice a year|dos veces al año]]", "[[once a month|una vez al mes]]", "[[every summer|todos los veranos]]"],
+        "correctAnswer": "[[twice a year|dos veces al año]]",
+        "explanation": "[[The speaker answers 'Twice a year'|El hablante responde 'Dos veces al año']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u26-e65",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I hardly ever drink coffee|Casi nunca bebo café]]",
+    "audioUrl": "audio/a1/unit-26/e65.mp3",
+    "content": {
+      "title": "[[Listening: Coffee|Escucha: Café]]",
+      "instructions": "[[Listen and identify the adverb|Escucha e identifica el adverbio]].",
+      "questions": [{
+        "id": "q65",
+        "type": "multiple-choice",
+        "question": "[[Does the speaker drink coffee often?|¿Bebe café a menudo el hablante?]]",
+        "options": ["[[No, hardly ever|No, casi nunca]]", "[[Yes, always|Sí, siempre]]", "[[Yes, usually|Sí, normalmente]]"],
+        "correctAnswer": "[[No, hardly ever|No, casi nunca]]",
+        "explanation": "[[The speaker says 'hardly ever'|El hablante dice 'casi nunca']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u26-e66",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[They often go to the park|A menudo van al parque]].",
+    "audioUrl": "audio/a1/unit-26/e66.mp3",
+    "content": {
+      "title": "[[Listening: Park|Escucha: Parque]]",
+      "instructions": "[[Listen and identify the place|Escucha e identifica el lugar]].",
+      "questions": [{
+        "id": "q66",
+        "type": "multiple-choice",
+        "question": "[[Where do they often go?|¿A dónde van a menudo?]]",
+        "options": ["[[to the park|al parque]]", "[[to the cinema|al cine]]", "[[to the beach|a la playa]]"],
+        "correctAnswer": "[[to the park|al parque]]",
+        "explanation": "[[The speaker says 'go to the park'|El hablante dice 'ir al parque']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u26-e67",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I sometimes study at night|A veces estudio por la noche]].",
+    "audioUrl": "audio/a1/unit-26/e67.mp3",
+    "content": {
+      "title": "[[Listening: Study|Escucha: Estudio]]",
+      "instructions": "[[Listen and identify the time|Escucha e identifica el momento]].",
+      "questions": [{
+        "id": "q67",
+        "type": "multiple-choice",
+        "question": "[[When does the speaker sometimes study?|¿Cuándo estudia a veces el hablante?]]",
+        "options": ["[[at night|por la noche]]", "[[in the morning|por la mañana]]", "[[in the afternoon|por la tarde]]"],
+        "correctAnswer": "[[at night|por la noche]]",
+        "explanation": "[[The speaker says 'study at night'|El hablante dice 'estudiar por la noche']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u26-e68",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[He is always happy with his lifestyle|Él siempre está feliz con su estilo de vida]].",
+    "audioUrl": "audio/a1/unit-26/e68.mp3",
+    "content": {
+      "title": "[[Listening: Lifestyle|Escucha: Estilo de vida]]",
+      "instructions": "[[Listen and identify the adverb|Escucha e identifica el adverbio]].",
+      "questions": [{
+        "id": "q68",
+        "type": "multiple-choice",
+        "question": "[[Is he happy?|¿Es feliz?]]",
+        "options": ["[[Yes, always|Sí, siempre]]", "[[No, never|No, nunca]]", "[[Yes, sometimes|Sí, a veces]]"],
+        "correctAnswer": "[[Yes, always|Sí, siempre]]",
+        "explanation": "[[The speaker says 'always happy'|El hablante dice 'siempre feliz']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u26-e69",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Always|Siempre]]",
+    "audioUrl": "audio/a1/unit-26/e69.mp3",
+    "content": {
+      "title": "[[Pronunciation: Always|Pronunciación: Always]]",
+      "instructions": "[[Listen and repeat focusing on the /ɔːl/ sound|Escucha y repite enfocándote en el sonido /ɔːl/]].",
+      "expectedResponse": "Always.",
+      "evaluationCriteria": [
+        "[[Long /ɔː/ vowel sound|Vocal /ɔː/ larga]]",
+        "[[Clear /l/ sound|Sonido /l/ claro]]",
+        "[[Stress on the first syllable|Acento en la primera sílaba]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u26-e70",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Usually|Normalmente]]",
+    "audioUrl": "audio/a1/unit-26/e70.mp3",
+    "content": {
+      "title": "[[Pronunciation: Usually|Pronunciación: Usually]]",
+      "instructions": "[[Listen and repeat focusing on the /ʒ/ sound|Escucha y repite enfocándote en el sonido /ʒ/]].",
+      "expectedResponse": "Usually.",
+      "evaluationCriteria": [
+        "[[Correct /ʒ/ sound (like 'measure')|Sonido /ʒ/ correcto (como 'measure')]]",
+        "[[Four syllables clearly pronounced|Cuatro sílabas pronunciadas claramente]]",
+        "[[Stress on the first syllable|Acento en la primera sílaba]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u26-e71",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Often|A menudo]]",
+    "audioUrl": "audio/a1/unit-26/e71.mp3",
+    "content": {
+      "title": "[[Pronunciation: Often|Pronunciación: Often]]",
+      "instructions": "[[Listen and repeat (note: the 't' is silent)|Escucha y repite (nota: la 't' es muda)]].",
+      "expectedResponse": "Often.",
+      "evaluationCriteria": [
+        "[[Silent 't' (common pronunciation)|'t' muda (pronunciación común)]]",
+        "[[Short /ɒ/ vowel sound|Vocal /ɒ/ corta]]",
+        "[[Neutral /ə/ in the second syllable|/ə/ neutra en la segunda sílaba]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u26-e72",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Sometimes|A veces]]",
+    "audioUrl": "audio/a1/unit-26/e72.mp3",
+    "content": {
+      "title": "[[Pronunciation: Sometimes|Pronunciación: Sometimes]]",
+      "instructions": "[[Listen and repeat focusing on the /aɪ/ sound|Escucha y repite enfocándote en el sonido /aɪ/]].",
+      "expectedResponse": "Sometimes.",
+      "evaluationCriteria": [
+        "[[Clear /aɪ/ diphthong in the second syllable|Diptongo /aɪ/ claro en la segunda sílaba]]",
+        "[[Clear final /z/ sound|Sonido /z/ final claro]]",
+        "[[Stress on the first syllable|Acento en la primera sílaba]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u26-e73",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Hardly ever|Casi nunca]]",
+    "audioUrl": "audio/a1/unit-26/e73.mp3",
+    "content": {
+      "title": "[[Pronunciation: Hardly ever|Pronunciación: Hardly ever]]",
+      "instructions": "[[Listen and repeat focusing on the linking between words|Escucha y repite enfocándote en el enlace entre palabras]].",
+      "expectedResponse": "Hardly ever.",
+      "evaluationCriteria": [
+        "[[Clear /ɑː/ sound in 'hardly'|Sonido /ɑː/ claro en 'hardly']]",
+        "[[Clear /ev/ sound start|Inicio con /ev/ claro]]",
+        "[[Natural linking between 'hardly' and 'ever'|Enlace natural entre las palabras]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u26-e74",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Never|Nunca]]",
+    "audioUrl": "audio/a1/unit-26/e74.mp3",
+    "content": {
+      "title": "[[Pronunciation: Never|Pronunciación: Never]]",
+      "instructions": "[[Listen and repeat focusing on the /ev/ sound|Escucha y repite enfocándote en el sonido /ev/]].",
+      "expectedResponse": "Never.",
+      "evaluationCriteria": [
+        "[[Clear /e/ vowel sound|Vocal /e/ clara]]",
+        "[[Clear /v/ sound|Sonido /v/ claro]]",
+        "[[Neutral /ə/ ending|Final neutro /ə/]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u26-e75",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Once a week|Una vez por semana]]",
+    "audioUrl": "audio/a1/unit-26/e75.mp3",
+    "content": {
+      "title": "[[Pronunciation: Once a week|Pronunciación: Once a week]]",
+      "instructions": "[[Listen and repeat focusing on the linking with 'a'|Escucha y repite enfocándote en el enlace con 'a']].",
+      "expectedResponse": "Once a week.",
+      "evaluationCriteria": [
+        "[[Clear /wʌns/ sound|Sonido /wʌns/ claro]]",
+        "[[Linking between 'once' and 'a'|Enlace entre 'once' y 'a']]",
+        "[[Clear /iː/ in 'week'|/iː/ clara en 'week']]"
+      ]
+    }
   }
 ];
-

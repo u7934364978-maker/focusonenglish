@@ -1,25 +1,23 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_28_EXERCISES: Exercise[] = [
-  // GRAMMAR: WAS / WERE (1-20)
+  // ==========================================
+  // LESSON 1: WAS / WERE POSITIVE (1-15)
+  // ==========================================
   {
     "id": "a1-u28-e1",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
+    "topic": "Past Simple: Be",
     "difficulty": "easy",
-    "transcript": "I was at home yesterday.",
+    "transcript": "[[I was at home yesterday|Yo estaba en casa ayer]].",
     "content": {
-      "title": "Yo estaba",
-      "instructions": "Completa con la forma correcta de 'to be' en pasado.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[at home yesterday.|en casa ayer.]]",
-          "options": ["[[was|estaba/estuve]]", "[[were|estabas/estuviste]]", "[[am|estoy]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'I' usamos 'was'."
-        }
-      ]
+      "title": "[[I was|Yo estaba]]",
+      "instructions": "[[Choose the correct form of the verb 'to be' in the past|Elige la forma correcta del verbo 'to be' en pasado]].",
+      "question": "[[I (____) at home yesterday.|Yo (____) en casa ayer.]]",
+      "options": ["[[was|estaba]]", "[[were|estaba]]", "[[am|estoy]]"],
+      "correctAnswer": 0,
+      "explanation": "[[We use 'was' with I, he, she, and it|Usamos 'was' con I, he, she, e it]]."
     },
     "audioUrl": "audio/a1/unit-28/e1.mp3",
     "topicName": "Grammar"
@@ -28,20 +26,16 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "id": "a1-u28-e2",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
+    "topic": "Past Simple: Be",
     "difficulty": "easy",
-    "transcript": "You were very busy.",
+    "transcript": "[[You were very busy|Tú estabas muy ocupado]].",
     "content": {
-      "title": "Tú estabas",
-      "instructions": "Completa con la forma correcta de 'to be' en pasado.",
-      "questions": [
-        {
-          "question": "[[You|Tú]] (_____) [[very busy.|muy ocupado.]]",
-          "options": ["[[were|estabas/estuviste]]", "[[was|estaba/estuve]]", "[[are|estás]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'you' usamos 'were'."
-        }
-      ]
+      "title": "[[You were|Tú estabas]]",
+      "instructions": "[[Complete with the correct past form|Completa con la forma correcta en pasado]].",
+      "question": "[[You (____) very busy.|Tú (____) muy ocupado.]]",
+      "options": ["[[were|estabas]]", "[[was|estabas]]", "[[are|estás]]"],
+      "correctAnswer": 0,
+      "explanation": "[[We use 'were' with you, we, and they|Usamos 'were' con you, we, y they]]."
     },
     "audioUrl": "audio/a1/unit-28/e2.mp3",
     "topicName": "Grammar"
@@ -50,20 +44,16 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "id": "a1-u28-e3",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
+    "topic": "Past Simple: Be",
     "difficulty": "easy",
-    "transcript": "He was a student ten years ago.",
+    "transcript": "[[He was a teacher|Él era profesor]].",
     "content": {
-      "title": "Él era",
-      "instructions": "Completa con el pasado de 'to be'.",
-      "questions": [
-        {
-          "question": "[[He|Él]] (_____) [[a student ten years ago.|estudiante hace diez años.]]",
-          "options": ["[[was|era]]", "[[were|eras]]", "[[is|es]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'he' usamos 'was'."
-        }
-      ]
+      "title": "[[He was|Él era]]",
+      "instructions": "[[Identify the past of 'is'|Identifica el pasado de 'is']].",
+      "question": "[[He (____) a teacher.|Él (____) profesor.]]",
+      "options": ["[[was|era]]", "[[were|eran]]", "[[is|es]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Was' is the past form for he|'Was' es la forma de pasado para he]]."
     },
     "audioUrl": "audio/a1/unit-28/e3.mp3",
     "topicName": "Grammar"
@@ -72,20 +62,16 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "id": "a1-u28-e4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
+    "topic": "Past Simple: Be",
     "difficulty": "easy",
-    "transcript": "She was happy with the news.",
+    "transcript": "[[She was happy|Ella estaba feliz]].",
     "content": {
-      "title": "Ella estaba",
-      "instructions": "Elige la forma correcta en pasado.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] (_____) [[happy with the news.|feliz con las noticias.]]",
-          "options": ["[[was|estaba]]", "[[were|estaban]]", "[[is|está]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'she' usamos 'was'."
-        }
-      ]
+      "title": "[[She was|Ella estaba]]",
+      "instructions": "[[Choose the correct past form|Elige la forma de pasado correcta]].",
+      "question": "[[She (____) happy.|Ella (____) feliz.]]",
+      "options": ["[[was|estaba]]", "[[were|estaba]]", "[[is|está]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Singular subjects use 'was'|Los sujetos singulares usan 'was']]."
     },
     "audioUrl": "audio/a1/unit-28/e4.mp3",
     "topicName": "Grammar"
@@ -94,20 +80,16 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "id": "a1-u28-e5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
+    "topic": "Past Simple: Be",
     "difficulty": "easy",
-    "transcript": "It was very cold last night.",
+    "transcript": "[[It was cold last night|Hacía frío anoche]].",
     "content": {
-      "title": "Hacía frío",
-      "instructions": "Completa la oración sobre el clima en pasado.",
-      "questions": [
-        {
-          "question": "[[It|Hacía]] (_____) [[very cold last night.|mucho frío anoche.]]",
-          "options": ["[[was|]]", "[[were|]]", "[[is|]]"],
-          "correctAnswer": 0,
-          "explanation": "Para el clima (it) usamos 'was'."
-        }
-      ]
+      "title": "[[It was|Hacía]]",
+      "instructions": "[[Identify the correct verb for weather in the past|Identifica el verbo correcto para el clima en pasado]].",
+      "question": "[[It (____) cold last night.|(____) frío anoche.]]",
+      "options": ["[[was|hacía]]", "[[were|hacía]]", "[[is|hace]]"],
+      "correctAnswer": 0,
+      "explanation": "[['It' uses 'was'|'It' usa 'was']]."
     },
     "audioUrl": "audio/a1/unit-28/e5.mp3",
     "topicName": "Grammar"
@@ -116,20 +98,16 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "id": "a1-u28-e6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
+    "topic": "Past Simple: Be",
     "difficulty": "easy",
-    "transcript": "We were at the cinema on Saturday.",
+    "transcript": "[[We were at the beach|Estábamos en la playa]].",
     "content": {
-      "title": "Nosotros estábamos",
-      "instructions": "Elige 'was' o 'were'.",
-      "questions": [
-        {
-          "question": "[[We|Nosotros]] (_____) [[at the cinema on Saturday.|en el cine el sábado.]]",
-          "options": ["[[were|estábamos]]", "[[was|estaba]]", "[[are|estamos]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'we' usamos 'were'."
-        }
-      ]
+      "title": "[[We were|Estábamos]]",
+      "instructions": "[[Complete with the plural past form|Completa con la forma de pasado plural]].",
+      "question": "[[We (____) at the beach.|Nosotros (____) en la playa.]]",
+      "options": ["[[were|estábamos]]", "[[was|estábamos]]", "[[are|estamos]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Plural subjects use 'were'|Los sujetos plurales usan 'were']]."
     },
     "audioUrl": "audio/a1/unit-28/e6.mp3",
     "topicName": "Grammar"
@@ -138,40 +116,35 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "id": "a1-u28-e7",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
+    "topic": "Past Simple: Be",
     "difficulty": "easy",
-    "transcript": "They were late for the meeting.",
+    "transcript": "[[They were friends|Ellos eran amigos]].",
     "content": {
-      "title": "Ellos llegaron tarde",
-      "instructions": "Completa con el pasado de 'to be'.",
-      "questions": [
-        {
-          "question": "[[They|Ellos]] (_____) [[late for the meeting.|tarde a la reunión.]]",
-          "options": ["[[were|estuvieron]]", "[[was|estuvo]]", "[[are|están]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'they' usamos 'were'."
-        }
-      ]
+      "title": "[[They were|Ellos eran]]",
+      "instructions": "[[Identify the past form for 'they'|Identifica la forma de pasado para 'they']].",
+      "question": "[[They (____) friends.|Ellos (____) amigos.]]",
+      "options": ["[[were|eran]]", "[[was|era]]", "[[are|son]]"],
+      "correctAnswer": 0,
+      "explanation": "[['They' uses 'were'|'They' usa 'were']]."
     },
     "audioUrl": "audio/a1/unit-28/e7.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e8",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "medium",
-    "transcript": "I was not at school yesterday.",
+    "topic": "Past Simple: Be",
+    "difficulty": "easy",
+    "transcript": "[[I was born in Spain|Nací en España]].",
     "content": {
-      "title": "Negación",
-      "instructions": "Completa la oración negativa.",
+      "title": "[[Born|Nacido]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[at school yesterday.|en la escuela ayer.]]",
-          "options": ["[[was not|no estaba]]", "[[were not|no estabas]]", "[[am not|no estoy]]"],
-          "correctAnswer": 0,
-          "explanation": "La negación de 'I was' es 'I was not'."
+          "question": "[[I (____) born in Spain.|Yo (____) nacido en España.]]",
+          "correctAnswer": "was",
+          "explanation": "[[We always use 'was born' with I|Siempre usamos 'was born' con I]]."
         }
       ]
     },
@@ -180,22 +153,17 @@ export const UNIT_28_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u28-e9",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "medium",
-    "transcript": "You weren't in the office this morning.",
+    "topic": "Past Simple: Be",
+    "difficulty": "easy",
+    "transcript": "[[The weather was good|El tiempo era bueno]].",
     "content": {
-      "title": "Contracción Negativa",
-      "instructions": "Elige la forma corta negativa.",
-      "questions": [
-        {
-          "question": "[[You|Tú]] (_____) [[in the office this morning.|en la oficina esta mañana.]]",
-          "options": ["[[weren't|no estabas]]", "[[wasn't|no estaba]]", "[[aren't|no estás]]"],
-          "correctAnswer": 0,
-          "explanation": "'Weren't' es la contracción de 'were not'."
-        }
-      ]
+      "title": "[[Weather|Clima]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[The weather was good|El tiempo era bueno]].",
+      "words": ["[[good|bueno]].", "[[was|era]]", "[[weather|tiempo]]", "[[The|El]]"],
+      "explanation": "[[Subject + Was + Adjective|Sujeto + Was + Adjetivo]]."
     },
     "audioUrl": "audio/a1/unit-28/e9.mp3",
     "topicName": "Grammar"
@@ -204,40 +172,35 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "id": "a1-u28-e10",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "medium",
-    "transcript": "Was he at the party?",
+    "topic": "Past Simple: Be",
+    "difficulty": "easy",
+    "transcript": "[[My parents were doctors|Mis padres eran médicos]].",
     "content": {
-      "title": "Pregunta",
-      "instructions": "Completa la pregunta en pasado.",
-      "questions": [
-        {
-          "question": "(_____) [[he at the party?|estaba él en la fiesta?]]",
-          "options": ["[[Was|¿Estaba]]", "[[Were|¿Estaban]]", "[[Is|¿Está]]"],
-          "correctAnswer": 0,
-          "explanation": "Para preguntas con 'he', empezamos con 'Was'."
-        }
-      ]
+      "title": "[[Parents|Padres]]",
+      "instructions": "[[Identify the plural past form|Identifica la forma de pasado plural]].",
+      "question": "[[My parents (____) doctors.|Mis padres (____) médicos.]]",
+      "options": ["[[were|eran]]", "[[was|era]]", "[[are|son]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Parents (plural) uses 'were'|Parents (plural) usa 'were']]."
     },
     "audioUrl": "audio/a1/unit-28/e10.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e11",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "medium",
-    "transcript": "Were they your teachers?",
+    "topic": "Past Simple: Be",
+    "difficulty": "easy",
+    "transcript": "[[We were late|Llegamos tarde]].",
     "content": {
-      "title": "Pregunta Plural",
-      "instructions": "Completa la pregunta sobre otras personas.",
+      "title": "[[Late|Tarde]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "(_____) [[they your teachers?|eran ellos tus profesores?]]",
-          "options": ["[[Were|¿Eran]]", "[[Was|¿Era]]", "[[Are|¿Son]]"],
-          "correctAnswer": 0,
-          "explanation": "Para 'they', la pregunta empieza con 'Were'."
+          "question": "[[We (____) late.|Nosotros (____) tarde.]]",
+          "correctAnswer": "were",
+          "explanation": "[[Past plural|Pasado plural]]."
         }
       ]
     },
@@ -248,42 +211,33 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "id": "a1-u28-e12",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "medium",
-    "transcript": "Where were you last night?",
+    "topic": "Past Simple: Be",
+    "difficulty": "easy",
+    "transcript": "[[The party was fun|La fiesta fue divertida]].",
     "content": {
-      "title": "¿Dónde estabas?",
-      "instructions": "Completa la pregunta con la palabra interrogativa.",
-      "questions": [
-        {
-          "question": "[[Where|Dónde]] (_____) [[you last night?|tú anoche?]]",
-          "options": ["[[were|estabas]]", "[[was|estaba]]", "[[are|estás]]"],
-          "correctAnswer": 0,
-          "explanation": "Pregunta de información con 'you'."
-        }
-      ]
+      "title": "[[Party|Fiesta]]",
+      "instructions": "[[Identify the past form|Identifica la forma de pasado]].",
+      "question": "[[The party (____) fun.|La fiesta (____) divertida.]]",
+      "options": ["[[was|fue]]", "[[were|fueron]]", "[[is|es]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The party (it) uses 'was'|La fiesta (it) usa 'was']]."
     },
     "audioUrl": "audio/a1/unit-28/e12.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e13",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "medium",
-    "transcript": "The weather was beautiful yesterday.",
+    "topic": "Past Simple: Be",
+    "difficulty": "easy",
+    "transcript": "[[You were very kind|Fuiste muy amable]].",
     "content": {
-      "title": "El tiempo",
-      "instructions": "Elige el pasado de 'is' para el clima.",
-      "questions": [
-        {
-          "question": "[[The weather|El tiempo]] (_____) [[beautiful yesterday.|estuvo hermoso ayer.]]",
-          "options": ["[[was|estuvo]]", "[[were|estuvieron]]", "[[is|está]]"],
-          "correctAnswer": 0,
-          "explanation": "'The weather' es singular (it), usamos 'was'."
-        }
-      ]
+      "title": "[[Kind|Amable]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[You were very kind|Fuiste muy amable]].",
+      "words": ["[[kind|amable]].", "[[very|muy]]", "[[were|fuiste]]", "[[You|Tú]]"],
+      "explanation": "[[Complementing someone in the past|Felicitando a alguien en pasado]]."
     },
     "audioUrl": "audio/a1/unit-28/e13.mp3",
     "topicName": "Grammar"
@@ -292,96 +246,96 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "id": "a1-u28-e14",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "medium",
-    "transcript": "My parents were born in Italy.",
+    "topic": "Past Simple: Be",
+    "difficulty": "easy",
+    "transcript": "[[It was my birthday|Era mi cumpleaños]].",
     "content": {
-      "title": "Nacimiento",
-      "instructions": "Completa la frase sobre el origen.",
-      "questions": [
-        {
-          "question": "[[My parents|Mis padres]] (_____) [[born in Italy.|nacieron en Italia.]]",
-          "options": ["[[were|nacieron]]", "[[was|nació]]", "[[are|nacen]]"],
-          "correctAnswer": 0,
-          "explanation": "'Parents' es plural, usamos 'were'."
-        }
-      ]
+      "title": "[[Birthday|Cumpleaños]]",
+      "instructions": "[[Identify the past form|Identifica la forma de pasado]].",
+      "question": "[[It (____) my birthday.|(____) mi cumpleaños.]]",
+      "options": ["[[was|era]]", "[[were|era]]", "[[is|es]]"],
+      "correctAnswer": 0,
+      "explanation": "[['It' uses 'was'|'It' usa 'was']]."
     },
     "audioUrl": "audio/a1/unit-28/e14.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e15",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Past Simple: To Be",
+    "topic": "Past Simple: Be",
     "difficulty": "easy",
-    "transcript": "He wasn't tired.",
+    "transcript": "[[She was at work|Ella estaba en el trabajo]].",
     "content": {
-      "title": "No estaba cansado",
-      "instructions": "Elige la forma negativa corta.",
+      "title": "[[Work|Trabajo]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[He|Él]] (_____) [[tired.|cansado.]]",
-          "options": ["[[wasn't|no estaba]]", "[[weren't|no estaban]]", "[[isn't|no está]]"],
-          "correctAnswer": 0,
-          "explanation": "Contracción de 'was not'."
+          "question": "[[She (____) at work.|Ella (____) en el trabajo.]]",
+          "correctAnswer": "was",
+          "explanation": "[[Singular feminine past|Pasado femenino singular]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-28/e15.mp3",
     "topicName": "Grammar"
   },
+
+  // ==========================================
+  // LESSON 2: WASN'T / WEREN'T NEGATIVE (16-30)
+  // ==========================================
   {
     "id": "a1-u28-e16",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "hard",
-    "transcript": "Was the movie good?",
+    "topic": "Past Simple: Be",
+    "difficulty": "easy",
+    "transcript": "[[I wasn't tired|No estaba cansado]].",
     "content": {
-      "title": "¿Estuvo bien la película?",
-      "instructions": "Ordena la pregunta en pasado.",
-      "correctSentence": "[[Was the movie good|¿Estuvo bien la película]]?",
-      "words": ["[[good|bien]]?", "[[movie|película]]", "[[the|la]]", "[[Was|¿Estuvo]]"],
-      "explanation": "Pregunta de sí/no en pasado."
+      "title": "[[Not tired|Sin cansancio]]",
+      "instructions": "[[Identify the negative past form|Identifica la forma negativa en pasado]].",
+      "question": "[[I (____) tired.|Yo (____) cansado.]]",
+      "options": ["[[wasn't|no estaba]]", "[[weren't|no estaba]]", "[[don't|no]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Wasn't' is the contraction of 'was not'|'Wasn't' es la contracción de 'was not']]."
     },
     "audioUrl": "audio/a1/unit-28/e16.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e17",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "hard",
-    "transcript": "We were not very happy.",
+    "topic": "Past Simple: Be",
+    "difficulty": "easy",
+    "transcript": "[[You weren't at the meeting|No estuviste en la reunión]].",
     "content": {
-      "title": "No estábamos felices",
-      "instructions": "Ordena la oración negativa.",
-      "correctSentence": "[[We were not very happy|No estábamos muy felices]].",
-      "words": ["[[happy|felices]].", "[[very|muy]]", "[[not|no]]", "[[were|estábamos]]", "[[We|Nosotros]]"],
-      "explanation": "Estructura negativa completa."
+      "title": "[[Meeting|Reunión]]",
+      "instructions": "[[Identify the negative past form|Identifica la forma negativa en pasado]].",
+      "question": "[[You (____) at the meeting.|Tú (____) en la reunión.]]",
+      "options": ["[[weren't|no estuviste]]", "[[wasn't|no estuviste]]", "[[aren't|no estás]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Weren't' is the contraction of 'were not'|'Weren't' es la contracción de 'were not']]."
     },
     "audioUrl": "audio/a1/unit-28/e17.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e18",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "medium",
-    "transcript": "Were you tired yesterday?",
+    "topic": "Past Simple: Be",
+    "difficulty": "easy",
+    "transcript": "[[He wasn't at school|No estaba en la escuela]].",
     "content": {
-      "title": "¿Estabas cansado?",
-      "instructions": "Completa la pregunta dirigida a ti.",
+      "title": "[[No School|Sin escuela]]",
+      "instructions": "[[Complete the negative sentence|Completa la frase negativa]].",
       "questions": [
         {
-          "question": "(_____) [[you tired yesterday?|¿estabas cansado ayer?]]",
-          "options": ["[[Were|¿Estabas]]", "[[Was|¿Estaba]]", "[[Are|¿Estás]]"],
-          "correctAnswer": 0,
-          "explanation": "Pregunta con 'you' en pasado."
+          "question": "[[He (____) at school.|Él (____) en la escuela.]]",
+          "correctAnswer": "wasn't",
+          "explanation": "[[Negative singular past|Pasado singular negativo]]."
         }
       ]
     },
@@ -390,22 +344,17 @@ export const UNIT_28_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u28-e19",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "medium",
-    "transcript": "I was born in nineteen ninety-five.",
+    "topic": "Past Simple: Be",
+    "difficulty": "easy",
+    "transcript": "[[We weren't hungry|No teníamos hambre]].",
     "content": {
-      "title": "Año de nacimiento",
-      "instructions": "Completa con el pasado de 'to be'.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[born in 1995.|nací en 1995.]]",
-          "options": ["[[was|nací]]", "[[were|naciste]]", "[[am|nazco]]"],
-          "correctAnswer": 0,
-          "explanation": "Frase típica de nacimiento."
-        }
-      ]
+      "title": "[[Hungry|Hambre]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[We weren't hungry|No teníamos hambre]].",
+      "words": ["[[hungry|hambre]].", "[[weren't|no teníamos]]", "[[We|Nosotros]]"],
+      "explanation": "[[Negative plural past state|Estado pasado plural negativo]]."
     },
     "audioUrl": "audio/a1/unit-28/e19.mp3",
     "topicName": "Grammar"
@@ -414,306 +363,264 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "id": "a1-u28-e20",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "hard",
-    "transcript": "Why were you late?",
+    "topic": "Past Simple: Be",
+    "difficulty": "easy",
+    "transcript": "[[They weren't expensive|No eran caros]].",
     "content": {
-      "title": "¿Por qué llegaste tarde?",
-      "instructions": "Elige la forma correcta del verbo.",
-      "questions": [
-        {
-          "question": "[[Why|Por qué]] (_____) [[you late?|llegaste tarde?]]",
-          "options": ["[[were|llegaste]]", "[[was|llegó]]", "[[are|llegas]]"],
-          "correctAnswer": 0,
-          "explanation": "Pregunta de información con 'why'."
-        }
-      ]
+      "title": "[[Expensive|Caros]]",
+      "instructions": "[[Identify the negative form|Identifica la forma negativa]].",
+      "question": "[[They (____) expensive.|Ellos (____) caros.]]",
+      "options": ["[[weren't|no eran]]", "[[wasn't|no eran]]", "[[aren't|no son]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Plural negative past|Pasado plural negativo]]."
     },
     "audioUrl": "audio/a1/unit-28/e20.mp3",
     "topicName": "Grammar"
   },
-
-  // VOCABULARY: TIME EXPRESSIONS (PAST) (21-40)
   {
     "id": "a1-u28-e21",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Time Expressions",
+    "topic": "Past Simple: Be",
     "difficulty": "easy",
-    "transcript": "I was at home yesterday.",
+    "transcript": "[[She wasn't angry|No estaba enfadada]].",
     "content": {
-      "title": "Ayer",
-      "instructions": "Identifica la expresión de tiempo pasado.",
+      "title": "[[Angry|Enfadada]]",
+      "instructions": "[[Complete the negative form|Completa la forma negativa]].",
       "questions": [
         {
-          "question": "[[I was at home|Estaba en casa]] (_____) .",
-          "options": ["[[yesterday|ayer]]", "[[today|hoy]]", "[[tomorrow|mañana]]"],
-          "correctAnswer": 0,
-          "explanation": "'Yesterday' es ayer."
+          "question": "[[She (____) angry.|Ella (____) enfadada.]]",
+          "correctAnswer": "wasn't",
+          "explanation": "[[Contraction of was not|Contracción de was not]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-28/e21.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e22",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Time Expressions",
+    "topic": "Past Simple: Be",
     "difficulty": "easy",
-    "transcript": "We were in London last week.",
+    "transcript": "[[It wasn't easy|No fue fácil]].",
     "content": {
-      "title": "La semana pasada",
-      "instructions": "Completa con la expresión de tiempo.",
-      "questions": [
-        {
-          "question": "[[We were in London|Estuvimos en Londres]] [[last|la]] (_____) .",
-          "options": ["[[week|semana pasada]]", "[[month|mes pasado]]", "[[year|año pasado]]"],
-          "correctAnswer": 0,
-          "explanation": "'Last week' es la semana pasada."
-        }
-      ]
+      "title": "[[Easy|Fácil]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[It wasn't easy|No fue fácil]].",
+      "words": ["[[easy|fácil]].", "[[wasn't|no fue]]", "[[It|Eso]]"],
+      "explanation": "[[Negative evaluation of a past event|Evaluación negativa de un evento pasado]]."
     },
     "audioUrl": "audio/a1/unit-28/e22.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e23",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Time Expressions",
-    "difficulty": "medium",
-    "transcript": "They were here two days ago.",
+    "topic": "Past Simple: Be",
+    "difficulty": "easy",
+    "transcript": "[[The coffee wasn't hot|El café no estaba caliente]].",
     "content": {
-      "title": "Hace dos días",
-      "instructions": "Elige la palabra que indica 'hace (tiempo)'.",
-      "questions": [
-        {
-          "question": "[[They were here two days|Estuvieron aquí hace dos días]] (_____) .",
-          "options": ["[[ago|hace]]", "[[last|pasado]]", "[[before|antes]]"],
-          "correctAnswer": 0,
-          "explanation": "'Ago' se coloca al final para indicar tiempo transcurrido."
-        }
-      ]
+      "title": "[[Coffee|Café]]",
+      "instructions": "[[Choose the correct negative form|Elige la forma negativa correcta]].",
+      "question": "[[The coffee (____) hot.|El café (____) caliente.]]",
+      "options": ["[[wasn't|no estaba]]", "[[weren't|no estaba]]", "[[isn't|no está]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Coffee (singular) uses 'wasn't'|Café (singular) usa 'wasn't']]."
     },
     "audioUrl": "audio/a1/unit-28/e23.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e24",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Time Expressions",
+    "topic": "Past Simple: Be",
     "difficulty": "easy",
-    "transcript": "The meeting was last night.",
+    "transcript": "[[We weren't ready|No estábamos listos]].",
     "content": {
-      "title": "Anoche",
-      "instructions": "Identifica la expresión correcta para 'anoche'.",
+      "title": "[[Ready|Listos]]",
+      "instructions": "[[Complete with the contraction|Completa con la contracción]].",
       "questions": [
         {
-          "question": "[[The meeting was|La reunión fue]] [[last|]] (_____) .",
-          "options": ["[[night|anoche]]", "[[evening|tarde-noche]]", "[[morning|mañana]]"],
-          "correctAnswer": 0,
-          "explanation": "'Last night' es anoche."
+          "question": "[[We (____) ready.|Nosotros (____) listos.]]",
+          "correctAnswer": "weren't",
+          "explanation": "[[We + were + not = weren't|We + were + not = weren't]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-28/e24.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e25",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Time Expressions",
-    "difficulty": "medium",
-    "transcript": "She was born last year.",
+    "topic": "Past Simple: Be",
+    "difficulty": "easy",
+    "transcript": "[[He wasn't very tall|No era muy alto]].",
     "content": {
-      "title": "El año pasado",
-      "instructions": "Completa con la unidad de tiempo.",
-      "questions": [
-        {
-          "question": "[[She was born last|Ella nació el]] (_____) [[pasado.]]",
-          "options": ["[[year|año]]", "[[month|mes]]", "[[week|semana]]"],
-          "correctAnswer": 0,
-          "explanation": "'Last year' es el año pasado."
-        }
-      ]
+      "title": "[[Tall|Alto]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[He wasn't very tall|No era muy alto]].",
+      "words": ["[[tall|alto]].", "[[very|muy]]", "[[wasn't|no era]]", "[[He|Él]]"],
+      "explanation": "[[Describing someone's past appearance|Describiendo la apariencia pasada de alguien]]."
     },
     "audioUrl": "audio/a1/unit-28/e25.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e26",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Time Expressions",
-    "difficulty": "medium",
-    "transcript": "I was at the gym an hour ago.",
+    "topic": "Past Simple: Be",
+    "difficulty": "easy",
+    "transcript": "[[The shops weren't open|Las tiendas no estaban abiertas]].",
     "content": {
-      "title": "Hace una hora",
-      "instructions": "Elige la expresión correcta.",
-      "questions": [
-        {
-          "question": "[[I was at the gym an|Estaba en el gimnasio hace una]] (_____) [[ago.|]]",
-          "options": ["[[hour|hora]]", "[[day|día]]", "[[minute|minuto]]"],
-          "correctAnswer": 0,
-          "explanation": "'An hour ago' es hace una hora."
-        }
-      ]
+      "title": "[[Shops|Tiendas]]",
+      "instructions": "[[Choose the correct negative form|Elige la forma negativa correcta]].",
+      "question": "[[The shops (____) open.|Las tiendas (____) abiertas.]]",
+      "options": ["[[weren't|no estaban]]", "[[wasn't|no estaban]]", "[[aren't|no están]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Plural noun uses 'weren't'|Nombre plural usa 'weren't']]."
     },
     "audioUrl": "audio/a1/unit-28/e26.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e27",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Time Expressions",
+    "topic": "Past Simple: Be",
     "difficulty": "easy",
-    "transcript": "Where were you yesterday morning?",
+    "transcript": "[[It wasn't my fault|No fue mi culpa]].",
     "content": {
-      "title": "Ayer por la mañana",
-      "instructions": "Completa la expresión de tiempo.",
+      "title": "[[Fault|Culpa]]",
+      "instructions": "[[Complete the negative statement|Completa la afirmación negativa]].",
       "questions": [
         {
-          "question": "[[Where were you|¿Dónde estabas]] (_____) [[morning?|ayer por la mañana?]]",
-          "options": ["[[yesterday|ayer]]", "[[last|pasada]]", "[[ago|hace]]"],
-          "correctAnswer": 0,
-          "explanation": "'Yesterday morning' es ayer por la mañana."
+          "question": "[[It (____) my fault.|No fue mi culpa.]]",
+          "correctAnswer": "wasn't",
+          "explanation": "[[It + was + not = wasn't|It + was + not = wasn't]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-28/e27.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e28",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Time Expressions",
-    "difficulty": "medium",
-    "transcript": "It was very hot last summer.",
+    "topic": "Past Simple: Be",
+    "difficulty": "easy",
+    "transcript": "[[You weren't there|No estabas allí]].",
     "content": {
-      "title": "El verano pasado",
-      "instructions": "Elige la estación del año.",
-      "questions": [
-        {
-          "question": "[[It was very hot last|Hizo mucho frío el]] (_____) [[pasado.]]",
-          "options": ["[[summer|verano]]", "[[winter|invierno]]", "[[spring|primavera]]"],
-          "correctAnswer": 0,
-          "explanation": "'Last summer' es el verano pasado."
-        }
-      ]
+      "title": "[[There|Allí]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[You weren't there|No estabas allí]].",
+      "words": ["[[there|allí]].", "[[weren't|no estabas]]", "[[You|Tú]]"],
+      "explanation": "[[Confirming someone's absence|Confirmando la ausencia de alguien]]."
     },
     "audioUrl": "audio/a1/unit-28/e28.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e29",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Time Expressions",
-    "difficulty": "hard",
-    "transcript": "They were in Spain a month ago.",
+    "topic": "Past Simple: Be",
+    "difficulty": "easy",
+    "transcript": "[[I wasn't in class|No estaba en clase]].",
     "content": {
-      "title": "Hace un mes",
-      "instructions": "Completa la frase de tiempo.",
-      "questions": [
-        {
-          "question": "[[They were in Spain a|Estuvieron en España hace un]] (_____) [[ago.|]]",
-          "options": ["[[month|mes]]", "[[year|año]]", "[[week|semana]]"],
-          "correctAnswer": 0,
-          "explanation": "'A month ago' es hace un mes."
-        }
-      ]
+      "title": "[[In class|En clase]]",
+      "instructions": "[[Choose the correct negative form|Elige la forma negativa correcta]].",
+      "question": "[[I (____) in class.|Yo (____) en clase.]]",
+      "options": ["[[wasn't|no estaba]]", "[[weren't|no estaba]]", "[[amn't|no estoy]]"],
+      "correctAnswer": 0,
+      "explanation": "[['I wasn't' is correct|'I wasn't' es correcto]]."
     },
     "audioUrl": "audio/a1/unit-28/e29.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e30",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Time Expressions",
-    "difficulty": "medium",
-    "transcript": "The bank was open this morning.",
+    "topic": "Past Simple: Be",
+    "difficulty": "easy",
+    "transcript": "[[They weren't very fast|No eran muy rápidos]].",
     "content": {
-      "title": "Esta mañana",
-      "instructions": "Expresión de tiempo reciente.",
+      "title": "[[Fast|Rápidos]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[The bank was open|El banco estaba abierto]] (_____) [[morning.|esta mañana.]]",
-          "options": ["[[this|esta]]", "[[last|pasada]]", "[[yesterday|ayer]]"],
-          "correctAnswer": 0,
-          "explanation": "'This morning' se usa para la mañana de hoy."
+          "question": "[[They (____) very fast.|Ellos (____) muy rápidos.]]",
+          "correctAnswer": "weren't",
+          "explanation": "[[Negative plural past|Pasado plural negativo]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-28/e30.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
+
+  // ==========================================
+  // LESSON 3: QUESTIONS WITH WAS / WERE (31-45)
+  // ==========================================
   {
     "id": "a1-u28-e31",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "easy",
-    "transcript": "I was sick last Monday.",
+    "topic": "Past Simple: Be",
+    "difficulty": "medium",
+    "transcript": "[[Were you at home?|¿Estabas en casa?]]",
     "content": {
-      "title": "Enfermo",
-      "instructions": "Completa con el adjetivo de salud.",
-      "questions": [
-        {
-          "question": "[[I was|Estaba]] (_____) [[last Monday.|el lunes pasado.]]",
-          "options": ["[[sick|enfermo]]", "[[happy|feliz]]", "[[tall|alto]]"],
-          "correctAnswer": 0,
-          "explanation": "'Sick' es enfermo."
-        }
-      ]
+      "title": "[[At home?|¿En casa?]]",
+      "instructions": "[[Identify the correct question structure|Identifica la estructura de pregunta correcta]].",
+      "question": "[[ (____) you at home?|¿(____) en casa?]]",
+      "options": ["[[Were|¿Estabas]]", "[[Was|¿Estaba]]", "[[Are|¿Estás]]"],
+      "correctAnswer": 0,
+      "explanation": "[[We start questions with 'Were' for 'you'|Empezamos las preguntas con 'Were' para 'you']]."
     },
     "audioUrl": "audio/a1/unit-28/e31.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e32",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
+    "topic": "Past Simple: Be",
     "difficulty": "medium",
-    "transcript": "Where were the keys?",
+    "transcript": "[[Was she your teacher?|¿Fue ella tu profesora?]]",
     "content": {
-      "title": "¿Dónde estaban las llaves?",
-      "instructions": "Pregunta por objetos en plural.",
-      "questions": [
-        {
-          "question": "[[Where|Dónde]] (_____) [[the keys?|las llaves?]]",
-          "options": ["[[were|estaban]]", "[[was|estaba]]", "[[are|están]]"],
-          "correctAnswer": 0,
-          "explanation": "'Keys' es plural, usamos 'were'."
-        }
-      ]
+      "title": "[[Teacher?|¿Profesora?]]",
+      "instructions": "[[Identify the correct question word|Identifica la palabra de pregunta correcta]].",
+      "question": "[[ (____) she your teacher?|¿(____) ella tu profesora?]]",
+      "options": ["[[Was|¿Fue]]", "[[Were|¿Fueron]]", "[[Is|¿Es]]"],
+      "correctAnswer": 0,
+      "explanation": "[[We start questions with 'Was' for 'she'|Empezamos las preguntas con 'Was' para 'she']]."
     },
     "audioUrl": "audio/a1/unit-28/e32.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e33",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Past Simple: To Be",
+    "topic": "Past Simple: Be",
     "difficulty": "medium",
-    "transcript": "They weren't at the party.",
+    "transcript": "[[Was it a good movie?|¿Fue una buena película?]]",
     "content": {
-      "title": "Ausencia",
-      "instructions": "Elige la forma negativa plural.",
+      "title": "[[Movie?|¿Película?]]",
+      "instructions": "[[Complete the question|Completa la pregunta]].",
       "questions": [
         {
-          "question": "[[They|Ellos]] (_____) [[at the party.|en la fiesta.]]",
-          "options": ["[[weren't|no estaban]]", "[[wasn't|no estaba]]", "[[isn't|no está]]"],
-          "correctAnswer": 0,
-          "explanation": "Contracción de 'were not'."
+          "question": "[[ (____) it a good movie?|¿(____) una buena película?]]",
+          "correctAnswer": "Was",
+          "explanation": "[['Was' for singular neutral subject|'Was' para sujeto neutro singular]]."
         }
       ]
     },
@@ -722,22 +629,17 @@ export const UNIT_28_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u28-e34",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "easy",
-    "transcript": "Was it expensive?",
+    "topic": "Past Simple: Be",
+    "difficulty": "medium",
+    "transcript": "[[Where were they?|¿Dónde estaban?]]",
     "content": {
-      "title": "¿Fue caro?",
-      "instructions": "Pregunta sobre el precio en pasado.",
-      "questions": [
-        {
-          "question": "(_____) [[it expensive?|¿fue caro?]]",
-          "options": ["[[Was|¿Fue]]", "[[Were|¿Fueron]]", "[[Is|¿Es]]"],
-          "correctAnswer": 0,
-          "explanation": "Pregunta con 'it' en pasado."
-        }
-      ]
+      "title": "[[Where?|¿Dónde?]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[Where were they?|¿Dónde estaban?]]",
+      "words": ["[[they?|ellos?]]", "[[were|estaban]]", "[[Where|Dónde]]"],
+      "explanation": "[[Question word + were + subject|Palabra interrogativa + were + sujeto]]."
     },
     "audioUrl": "audio/a1/unit-28/e34.mp3",
     "topicName": "Grammar"
@@ -746,59 +648,54 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "id": "a1-u28-e35",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
+    "topic": "Past Simple: Be",
     "difficulty": "medium",
-    "transcript": "Who was that man?",
+    "transcript": "[[Were the children happy?|¿Estaban felices los niños?]]",
     "content": {
-      "title": "¿Quién era?",
-      "instructions": "Pregunta sobre una persona.",
-      "questions": [
-        {
-          "question": "[[Who|Quién]] (_____) [[that man?|ese hombre?]]",
-          "options": ["[[was|era]]", "[[were|eran]]", "[[is|es]]"],
-          "correctAnswer": 0,
-          "explanation": "'That man' es singular, usamos 'was'."
-        }
-      ]
+      "title": "[[Children?|¿Niños?]]",
+      "instructions": "[[Identify the plural question word|Identifica la palabra de pregunta plural]].",
+      "question": "[[ (____) the children happy?|¿(____) felices los niños?]]",
+      "options": ["[[Were|¿Estaban]]", "[[Was|¿Estaba]]", "[[Are|¿Están]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Children (plural) uses 'Were'|Children (plural) usa 'Were']]."
     },
     "audioUrl": "audio/a1/unit-28/e35.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e36",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "hard",
-    "transcript": "I was late because of the traffic.",
+    "topic": "Past Simple: Be",
+    "difficulty": "medium",
+    "transcript": "[[Was he tired?|¿Estaba él cansado?]]",
     "content": {
-      "title": "Retraso",
-      "instructions": "Ordena la oración compleja.",
-      "correctSentence": "[[I was late because of the traffic|Llegué tarde por el tráfico]].",
-      "words": ["[[traffic|tráfico]].", "[[the|el]]", "[[of|de]]", "[[because|debido a]]", "[[late|tarde]]", "[[was|estaba]]", "[[I|Yo]]"],
-      "explanation": "Explicación de un retraso en pasado."
+      "title": "[[He tired?|¿Cansado?]]",
+      "instructions": "[[Complete the question|Completa la pregunta]].",
+      "questions": [
+        {
+          "question": "[[ (____) he tired?|¿(____) él cansado?]]",
+          "correctAnswer": "Was",
+          "explanation": "[['Was' for third person singular|'Was' para tercera persona del singular]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-28/e36.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e37",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Past Simple: To Be",
+    "topic": "Past Simple: Be",
     "difficulty": "medium",
-    "transcript": "Everything was perfect.",
+    "transcript": "[[What was that?|¿Qué fue eso?]]",
     "content": {
-      "title": "Todo perfecto",
-      "instructions": "Completa con el pasado de 'is'.",
-      "questions": [
-        {
-          "question": "[[Everything|Todo]] (_____) [[perfect.|perfecto.]]",
-          "options": ["[[was|fue]]", "[[were|fueron]]", "[[is|es]]"],
-          "correctAnswer": 0,
-          "explanation": "'Everything' es singular gramaticalmente."
-        }
-      ]
+      "title": "[[What?|¿Qué?]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[What was that?|¿Qué fue eso?]]",
+      "words": ["[[that?|eso?]]", "[[was|fue]]", "[[What|Qué]]"],
+      "explanation": "[[Asking about a past event or object|Preguntando sobre un evento u objeto pasado]]."
     },
     "audioUrl": "audio/a1/unit-28/e37.mp3",
     "topicName": "Grammar"
@@ -807,40 +704,35 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "id": "a1-u28-e38",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
+    "topic": "Past Simple: Be",
     "difficulty": "medium",
-    "transcript": "Was there any water?",
+    "transcript": "[[Were we late?|¿Llegamos tarde?]]",
     "content": {
-      "title": "¿Había agua?",
-      "instructions": "Existencia en pasado.",
-      "questions": [
-        {
-          "question": "(_____) [[there any water?|¿había algo de agua?]]",
-          "options": ["[[Was|¿Había]]", "[[Were|¿Habían]]", "[[Is|¿Hay]]"],
-          "correctAnswer": 0,
-          "explanation": "Con sustantivos incontables (water) usamos 'was there'."
-        }
-      ]
+      "title": "[[Late?|¿Tarde?]]",
+      "instructions": "[[Identify the plural question form|Identifica la forma de pregunta plural]].",
+      "question": "[[ (____) we late?|¿(____) nosotros tarde?]]",
+      "options": ["[[Were|¿Llegamos]]", "[[Was|¿Llegué]]", "[[Are|¿Llegamos]]"],
+      "correctAnswer": 0,
+      "explanation": "[['We' uses 'Were'|'We' usa 'Were']]."
     },
     "audioUrl": "audio/a1/unit-28/e38.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e39",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Past Simple: To Be",
+    "topic": "Past Simple: Be",
     "difficulty": "medium",
-    "transcript": "Were there many people?",
+    "transcript": "[[When was your birthday?|¿Cuándo fue tu cumpleaños?]]",
     "content": {
-      "title": "¿Había mucha gente?",
-      "instructions": "Existencia plural en pasado.",
+      "title": "[[Birthday?|¿Cumpleaños?]]",
+      "instructions": "[[Complete the question|Completa la pregunta]].",
       "questions": [
         {
-          "question": "(_____) [[there many people?|¿había mucha gente?]]",
-          "options": ["[[Were|¿Había]]", "[[Was|¿Había]]", "[[Are|¿Hay]]"],
-          "correctAnswer": 0,
-          "explanation": "Con sustantivos plurales (people) usamos 'were there'."
+          "question": "[[When (____) your birthday?|¿Cuándo (____) tu cumpleaños?]]",
+          "correctAnswer": "was",
+          "explanation": "[[Birthday (it) uses 'was'|Birthday (it) usa 'was']]."
         }
       ]
     },
@@ -849,66 +741,54 @@ export const UNIT_28_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u28-e40",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "easy",
-    "transcript": "I was very surprised.",
+    "topic": "Past Simple: Be",
+    "difficulty": "medium",
+    "transcript": "[[How was the concert?|¿Qué tal el concierto?]]",
     "content": {
-      "title": "Sorprendido",
-      "instructions": "Completa con el adjetivo de emoción.",
-      "questions": [
-        {
-          "question": "[[I was very|Estaba muy]] (_____) .",
-          "options": ["[[surprised|sorprendido]]", "[[angry|enfadado]]", "[[bored|aburrido]]"],
-          "correctAnswer": 0,
-          "explanation": "'Surprised' es sorprendido."
-        }
-      ]
+      "title": "[[Concert?|¿Concierto?]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[How was the concert?|¿Qué tal el concierto?]]",
+      "words": ["[[concert?|concierto?]]", "[[the|el]]", "[[was|estuvo]]", "[[How|Cómo]]"],
+      "explanation": "[[Asking for an opinion about a past event|Pidiendo una opinión sobre un evento pasado]]."
     },
     "audioUrl": "audio/a1/unit-28/e40.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
-
-  // FINAL REVIEW & READING (41-60)
   {
     "id": "a1-u28-e41",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "easy",
-    "transcript": "Was the test difficult?",
+    "topic": "Past Simple: Be",
+    "difficulty": "medium",
+    "transcript": "[[Were they at the museum?|¿Estuvieron en el museo?]]",
     "content": {
-      "title": "¿Fue difícil?",
-      "instructions": "Pregunta sobre un evento pasado.",
-      "questions": [
-        {
-          "question": "(_____) [[the test difficult?|¿fue difícil el examen?]]",
-          "options": ["[[Was|¿Fue]]", "[[Were|¿Fueron]]", "[[Is|¿Es]]"],
-          "correctAnswer": 0,
-          "explanation": "'Test' es singular, usamos 'Was'."
-        }
-      ]
+      "title": "[[Museum?|¿Museo?]]",
+      "instructions": "[[Identify the plural question word|Identifica la palabra de pregunta plural]].",
+      "question": "[[ (____) they at the museum?|¿(____) ellos en el museo?]]",
+      "options": ["[[Were|¿Estuvieron]]", "[[Was|¿Estuvo]]", "[[Are|¿Están]]"],
+      "correctAnswer": 0,
+      "explanation": "[['They' uses 'Were'|'They' usa 'Were']]."
     },
     "audioUrl": "audio/a1/unit-28/e41.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e42",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "easy",
-    "transcript": "We were very tired after the trip.",
+    "topic": "Past Simple: Be",
+    "difficulty": "medium",
+    "transcript": "[[Was your father a doctor?|¿Fue tu padre médico?]]",
     "content": {
-      "title": "Cansados",
-      "instructions": "Completa con el pasado de 'are'.",
+      "title": "[[Father?|¿Padre?]]",
+      "instructions": "[[Complete the question|Completa la pregunta]].",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[very tired after the trip.|muy cansados después del viaje.]]",
-          "options": ["[[were|estábamos]]", "[[was|estaba]]", "[[are|estamos]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'we' usamos 'were'."
+          "question": "[[ (____) your father a doctor?|¿(____) tu padre médico?]]",
+          "correctAnswer": "Was",
+          "explanation": "[[Your father (he) uses 'was'|Tu padre (él) usa 'was']]."
         }
       ]
     },
@@ -917,22 +797,17 @@ export const UNIT_28_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u28-e43",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Past Simple: To Be",
+    "topic": "Past Simple: Be",
     "difficulty": "medium",
-    "transcript": "It was not my fault.",
+    "transcript": "[[Who was with you?|¿Quién estaba contigo?]]",
     "content": {
-      "title": "No fue mi culpa",
-      "instructions": "Forma negativa en pasado.",
-      "questions": [
-        {
-          "question": "[[It|Eso]] (_____) [[my fault.|mi culpa.]]",
-          "options": ["[[was not|no fue]]", "[[were not|no fueron]]", "[[is not|no es]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'it' usamos 'was not'."
-        }
-      ]
+      "title": "[[Who?|¿Quién?]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[Who was with you?|¿Quién estaba contigo?]]",
+      "words": ["[[you?|contigo?]]", "[[with|con]]", "[[was|estaba]]", "[[Who|Quién]]"],
+      "explanation": "[[Asking about company in the past|Preguntando por compañía en el pasado]]."
     },
     "audioUrl": "audio/a1/unit-28/e43.mp3",
     "topicName": "Grammar"
@@ -941,385 +816,604 @@ export const UNIT_28_EXERCISES: Exercise[] = [
     "id": "a1-u28-e44",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
+    "topic": "Past Simple: Be",
     "difficulty": "medium",
-    "transcript": "How was your weekend?",
+    "transcript": "[[Was the test difficult?|¿Fue difícil el examen?]]",
     "content": {
-      "title": "¿Qué tal el finde?",
-      "instructions": "Pregunta común sobre el pasado reciente.",
-      "questions": [
-        {
-          "question": "[[How|Cómo]] (_____) [[your weekend?|tu fin de semana?]]",
-          "options": ["[[was|estuvo/fue]]", "[[were|estuvieron]]", "[[is|está]]"],
-          "correctAnswer": 0,
-          "explanation": "'Your weekend' es singular, usamos 'was'."
-        }
-      ]
+      "title": "[[Test?|¿Examen?]]",
+      "instructions": "[[Identify the past question form|Identifica la forma de pregunta en pasado]].",
+      "question": "[[ (____) the test difficult?|¿(____) difícil el examen?]]",
+      "options": ["[[Was|¿Fue]]", "[[Were|¿Fueron]]", "[[Is|¿Es]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The test (it) uses 'Was'|El examen (it) usa 'Was']]."
     },
     "audioUrl": "audio/a1/unit-28/e44.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e45",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Time Expressions",
-    "difficulty": "easy",
-    "transcript": "The keys were in the bag yesterday.",
+    "topic": "Past Simple: Be",
+    "difficulty": "medium",
+    "transcript": "[[Were you hungry?|¿Tenías hambre?]]",
     "content": {
-      "title": "Ayer",
-      "instructions": "Elige la expresión de tiempo pasado.",
+      "title": "[[Hungry?|¿Hambre?]]",
+      "instructions": "[[Complete the question|Completa la pregunta]].",
       "questions": [
         {
-          "question": "[[The keys were in the bag|Las llaves estaban en la bolsa]] (_____) .",
-          "options": ["[[yesterday|ayer]]", "[[tomorrow|mañana]]", "[[now|ahora]]"],
-          "correctAnswer": 0,
-          "explanation": "'Yesterday' es ayer."
+          "question": "[[ (____) you hungry?|¿(____) tú hambre?]]",
+          "correctAnswer": "Were",
+          "explanation": "[['You' uses 'Were'|'You' usa 'Were']]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-28/e45.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
+
+  // ==========================================
+  // LESSON 4: READING & BIOGRAPHIES (46-60)
+  // ==========================================
   {
     "id": "a1-u28-e46",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "medium",
-    "transcript": "My friends were at the park.",
+    "topic": "Reading",
+    "difficulty": "hard",
+    "transcript": "[[A Famous Scientist|Un Científico Famoso]]. [[Albert Einstein was a very important person|Albert Einstein fue una persona muy importante]]. [[He was born in Germany in 1879|Nació en Alemania en 1879]]. [[He was a brilliant student in many subjects|Fue un estudiante brillante en muchas materias]]. [[His parents were Hermann and Pauline|Sus padres eran Hermann y Pauline]]. [[He was a professor at several universities|Fue profesor en varias universidades]]. [[In 1921, he was the winner of the Nobel Prize|En 1921, fue el ganador del Premio Nobel]]. [[Einstein was not only a scientist; he was also a musician|Einstein no solo fue científico; también era músico]]. [[His violin was his favorite object|Su violín era su objeto favorito]]. [[He was a genius|Fue un genio]].",
     "content": {
-      "title": "Amigos en el parque",
-      "instructions": "Completa con el pasado plural.",
+      "title": "[[Reading: Albert Einstein|Lectura: Albert Einstein]]",
+      "instructions": "[[Read about Einstein's life|Lee sobre la vida de Einstein]].",
       "questions": [
         {
-          "question": "[[My friends|Mis amigos]] (_____) [[at the park.|en el parque.]]",
-          "options": ["[[were|estaban]]", "[[was|estaba]]", "[[are|están]]"],
+          "question": "[[A Famous Scientist|Un Científico Famoso]]. [[Albert Einstein was a very important person|Albert Einstein fue una persona muy importante]]. [[He was born in Germany in 1879|Nació en Alemania en 1879]]. [[He was a brilliant student in many subjects|Fue un estudiante brillante en muchas materias]]. [[His parents were Hermann and Pauline|Sus padres eran Hermann y Pauline]]. [[He was a professor at several universities|Fue profesor en varias universidades]]. [[In 1921, he was the winner of the Nobel Prize|En 1921, fue el ganador del Premio Nobel]]. [[Einstein was not only a scientist; he was also a musician|Einstein no solo fue científico; también era músico]]. [[His violin was his favorite object|Su violín era su objeto favorito]]. [[He was a genius|Fue un genio]].",
+          "options": ["[[I have read the text|He leído el texto]]."],
           "correctAnswer": 0,
-          "explanation": "'Friends' es plural, usamos 'were'."
+          "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-28/e46.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u28-e47",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "easy",
-    "transcript": "Was she your girlfriend?",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Where was Einstein born? In Germany|¿Dónde nació Einstein? En Alemania]].",
     "content": {
-      "title": "¿Era ella?",
-      "instructions": "Pregunta sobre identidad en pasado.",
-      "questions": [
-        {
-          "question": "(_____) [[she your girlfriend?|¿era ella tu novia?]]",
-          "options": ["[[Was|¿Era]]", "[[Were|¿Eran]]", "[[Is|¿Es]]"],
-          "correctAnswer": 0,
-          "explanation": "Pregunta con 'she', usamos 'Was'."
-        }
-      ]
+      "title": "[[Comprehension: Origin|Comprensión: Origen]]",
+      "instructions": "[[Answer the question based on the text|Responde a la pregunta basada en el texto]].",
+      "question": "[[Einstein (____) born in Germany.|Einstein (____) nacido en Alemania.]]",
+      "options": ["[[was|fue]]", "[[were|fueron]]", "[[is|es]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says 'He was born in Germany'|El texto dice 'Nació en Alemania']]."
     },
-    "audioUrl": "audio/a1/unit-28/e47.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u28-e48",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Time Expressions",
-    "difficulty": "medium",
-    "transcript": "It was very quiet an hour ago.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Who were Hermann and Pauline? His parents|¿Quiénes eran Hermann y Pauline? Sus padres]].",
     "content": {
-      "title": "Hace una hora",
-      "instructions": "Elige la expresión de tiempo transcurrido.",
-      "questions": [
-        {
-          "question": "[[It was very quiet an hour|Todo estaba muy tranquilo hace una hora]] (_____) .",
-          "options": ["[[ago|hace]]", "[[last|pasada]]", "[[before|antes]]"],
-          "correctAnswer": 0,
-          "explanation": "'Ago' indica tiempo atrás."
-        }
-      ]
+      "title": "[[Comprehension: Family|Comprensión: Familia]]",
+      "instructions": "[[Identify the correct past form|Identifica la forma de pasado correcta]].",
+      "question": "[[Hermann and Pauline (____) his parents.|Hermann y Pauline (____) sus padres.]]",
+      "options": ["[[were|eran]]", "[[was|era]]", "[[are|son]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Hermann and Pauline (they) uses 'were'|Hermann y Pauline (ellos) usa 'were']]."
     },
-    "audioUrl": "audio/a1/unit-28/e48.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u28-e49",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "medium",
-    "transcript": "The computers were very slow.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Einstein was a brilliant student|Einstein fue un estudiante brillante]].",
     "content": {
-      "title": "Ordenadores lentos",
-      "instructions": "Completa con el pasado de objetos plurales.",
+      "title": "[[Comprehension: Student|Comprensión: Estudiante]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[The computers|Los ordenadores]] (_____) [[very slow.|muy lentos.]]",
-          "options": ["[[were|estaban]]", "[[was|estaba]]", "[[are|están]]"],
-          "correctAnswer": 0,
-          "explanation": "'Computers' es plural, usamos 'were'."
+          "question": "[[Einstein (____) a brilliant student.|Einstein (____) un estudiante brillante.]]",
+          "correctAnswer": "was",
+          "explanation": "[[Singular past form|Forma de pasado singular]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-28/e49.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u28-e50",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "easy",
-    "transcript": "Was the water cold?",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Was he a musician? Yes, he was|¿Era músico? Sí, lo era]].",
     "content": {
-      "title": "¿Estaba fría?",
-      "instructions": "Pregunta sobre un sustantivo incontable.",
-      "questions": [
-        {
-          "question": "(_____) [[the water cold?|¿estaba el agua fría?]]",
-          "options": ["[[Was|¿Estaba]]", "[[Were|¿Estaban]]", "[[Is|¿Está]]"],
-          "correctAnswer": 0,
-          "explanation": "'Water' se trata como singular, usamos 'Was'."
-        }
-      ]
+      "title": "[[Comprehension: Musician|Comprensión: Músico]]",
+      "instructions": "[[Identify the correct answer|Identifica la respuesta correcta]].",
+      "question": "[[Einstein (____) also a musician.|Einstein (____) también músico.]]",
+      "options": ["[[was|era]]", "[[wasn't|no era]]", "[[were|eran]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text confirms he was a musician|El texto confirma que era músico]]."
     },
-    "audioUrl": "audio/a1/unit-28/e50.mp3",
-    "topicName": "Grammar"
+    "topicName": "Reading"
   },
   {
     "id": "a1-u28-e51",
-    "type": "reading",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "medium",
-    "transcript": "Yesterday was a great day. I was at the beach with my friends. The weather was beautiful and the sun was very hot. We were very happy. In the evening, we were at a small restaurant.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[His violin was his favorite object|Su violín era su objeto favorito]].",
     "content": {
-      "title": "Un Gran Día",
-      "instructions": "Lee sobre el día de ayer.",
-      "text": "[[Yesterday|Ayer]] [[was|fue]] [[a|un]] [[great|gran]] [[day.|día.]] [[I|Yo]] [[was|estaba]] [[at|en]] [[the|la]] [[beach|playa]] [[with|con]] [[my|mis]] [[friends.|amigos.]] [[The|El]] [[weather|tiempo]] [[was|estuvo]] [[beautiful|hermoso]] [[and|y]] [[the|el]] [[sun|sol]] [[was|estaba]] [[very|muy]] [[hot.|caliente.]] [[We|Nosotros]] [[were|estábamos]] [[very|muy]] [[happy.|felices.]] [[In|Por]] [[the|la]] [[evening,|tarde-noche,]] [[we|nosotros]] [[were|estábamos]] [[at|en]] [[a|un]] [[small|pequeño]] [[restaurant.|restaurante.]]",
+      "title": "[[Comprehension: Violin|Comprensión: Violín]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[Where was the speaker yesterday?|¿Dónde estaba el narrador ayer?]]",
-          "options": ["[[At the beach|En la playa]]", "[[At school|En la escuela]]", "[[At the office|En la oficina]]"],
-          "correctAnswer": 0
-        },
-        {
-          "question": "[[How was the weather?|¿Cómo estuvo el tiempo?]]",
-          "options": ["[[Beautiful and hot|Hermoso y caluroso]]", "[[Cold and rainy|Frío y lluvioso]]", "[[Cloudy|Nublado]]"],
-          "correctAnswer": 0
+          "question": "[[His violin (____) his favorite object.|Su violín (____) su objeto favorito.]]",
+          "correctAnswer": "was",
+          "explanation": "[[The violin (it) uses 'was'|El violín (it) usa 'was']]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-28/e51.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u28-e52",
-    "type": "reading",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "medium",
-    "transcript": "My last weekend was very busy. On Saturday, I was at the supermarket in the morning. Then, I was at my parents' house. My sister was there too. We were all very tired on Sunday night.",
+    "topic": "Comprehension",
+    "difficulty": "hard",
+    "transcript": "[[Einstein was a genius|Einstein fue un genio]].",
     "content": {
-      "title": "Mi Fin de Semana",
-      "instructions": "Lee sobre el fin de semana pasado.",
-      "text": "[[My|Mi]] [[last|último]] [[weekend|fin de semana]] [[was|fue]] [[very|muy]] [[busy.|ajetreado.]] [[On|El]] [[Saturday,|sábado,]] [[I|yo]] [[was|estaba]] [[at|en]] [[the|el]] [[supermarket|supermercado]] [[in|por]] [[the|la]] [[morning.|mañana.]] [[Then,|Luego,]] [[I|yo]] [[was|estaba]] [[at|en]] [[my|la de mis]] [[parents'|padres]] [[house.|casa.]] [[My|Mi]] [[sister|hermana]] [[was|estaba]] [[there|allí]] [[too.|también.]] [[We|Nosotros]] [[were|estábamos]] [[all|todos]] [[very|muy]] [[tired|cansados]] [[on|el]] [[Sunday|domingo]] [[night.|por la noche.]]",
-      "questions": [
-        {
-          "question": "[[Where was the speaker on Saturday morning?|¿Dónde estaba el narrador el sábado por la mañana?]]",
-          "options": ["[[At the supermarket|En el supermercado]]", "[[At the cinema|En el cine]]", "[[At the gym|En el gimnasio]]"],
-          "correctAnswer": 0
-        },
-        {
-          "question": "[[Who was at the parents' house?|¿Quién estaba en casa de los padres?]]",
-          "options": ["[[The speaker and the sister|El narrador y la hermana]]", "[[Only the speaker|Solo el narrador]]", "[[Many friends|Muchos amigos]]"],
-          "correctAnswer": 0
-        }
-      ]
+      "title": "[[Comprehension: Genius|Comprensión: Genio]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[Einstein was a genius|Einstein fue un genio]].",
+      "words": ["[[genius|genio]].", "[[a|un]]", "[[was|fue]]", "[[Einstein|Einstein]]"],
+      "explanation": "[[Concluding description|Descripción final]]."
     },
-    "audioUrl": "audio/a1/unit-28/e52.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u28-e53",
-    "type": "reading",
-    "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "medium",
-    "transcript": "Ten years ago, my life was different. I was a student at university and I was not very rich. My car was very old and slow. But I was happy because my friends were always with me.",
-    "content": {
-      "title": "Hace Diez Años",
-      "instructions": "Lee sobre el pasado del narrador.",
-      "text": "[[Ten|Diez]] [[years|años]] [[ago,|atrás,]] [[my|mi]] [[life|vida]] [[was|era]] [[different.|diferente.]] [[I|Yo]] [[was|era]] [[a|un]] [[student|estudiante]] [[at|en la]] [[university|universidad]] [[and|y]] [[I|yo]] [[was|era]] [[not|no]] [[very|muy]] [[rich.|rico.]] [[My|Mi]] [[car|coche]] [[was|era]] [[very|muy]] [[old|viejo]] [[and|y]] [[slow.|lento.]] [[But|Pero]] [[I|yo]] [[was|era]] [[happy|feliz]] [[because|porque]] [[my|mis]] [[friends|amigos]] [[were|estaban]] [[always|siempre]] [[with|con]] [[me.|migo.]]",
-      "questions": [
-        {
-          "question": "[[What was the speaker's job ten years ago?|¿Cuál era el trabajo del narrador hace diez años?]]",
-          "options": ["[[Student|Estudiante]]", "[[Teacher|Profesor]]", "[[Doctor|Médico]]"],
-          "correctAnswer": 0
-        },
-        {
-          "question": "[[How was the car?|¿Cómo era el coche?]]",
-          "options": ["[[Old and slow|Viejo y lento]]", "[[New and fast|Nuevo y rápido]]", "[[Red and big|Rojo y grande]]"],
-          "correctAnswer": 0
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-28/e53.mp3",
-    "topicName": "Reading"
-  },
-  {
-    "id": "a1-u28-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "medium",
-    "transcript": "Were you born in nineteen ninety?",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[When was he the Nobel winner? In 1921|¿Cuándo fue el ganador del Nobel? En 1921]].",
     "content": {
-      "title": "¿Naciste en 1990?",
-      "instructions": "Completa la pregunta sobre nacimiento.",
-      "questions": [
-        {
-          "question": "(_____) [[you born in 1990?|¿naciste en 1990?]]",
-          "options": ["[[Were|¿Naciste]]", "[[Was|¿Nació]]", "[[Are|¿Naces]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'you born' usamos 'Were'."
-        }
-      ]
+      "title": "[[Grammar: Dates|Gramática: Fechas]]",
+      "instructions": "[[Choose the correct past form|Elige la forma de pasado correcta]].",
+      "question": "[[In 1921, he (____) the Nobel winner.|En 1921, él (____) el ganador del Nobel.]]",
+      "options": ["[[was|fue]]", "[[were|fueron]]", "[[is|es]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Historical past event|Evento pasado histórico]]."
     },
-    "audioUrl": "audio/a1/unit-28/e54.mp3",
     "topicName": "Grammar"
   },
   {
-    "id": "a1-u28-e55",
-    "type": "multiple-choice",
+    "id": "a1-u28-e54",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Time Expressions",
-    "difficulty": "medium",
-    "transcript": "The bank was open two hours ago.",
+    "topic": "Vocabulary",
+    "difficulty": "hard",
+    "transcript": "[[Parents are mother and father|Los padres son la madre y el padre]].",
     "content": {
-      "title": "Hace dos horas",
-      "instructions": "Completa con la expresión de tiempo transcurrido.",
+      "title": "[[Vocabulary: Parents|Vocabulario: Padres]]",
+      "instructions": "[[Complete the definition|Completa la definición]].",
       "questions": [
         {
-          "question": "[[The bank was open two hours|El banco estaba abierto hace dos horas]] (_____) .",
-          "options": ["[[ago|hace]]", "[[last|pasada]]", "[[before|antes]]"],
-          "correctAnswer": 0,
-          "explanation": "'Ago' se usa tras el periodo de tiempo."
+          "question": "[[His parents (____) Hermann and Pauline.|Sus padres (____) Hermann y Pauline.]]",
+          "correctAnswer": "were",
+          "explanation": "[[Plural past form|Forma de pasado plural]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-28/e55.mp3",
     "topicName": "Vocabulary"
   },
   {
-    "id": "a1-u28-e56",
+    "id": "a1-u28-e55",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Past Simple: To Be",
+    "topic": "Grammar",
     "difficulty": "hard",
-    "transcript": "Why was the office closed yesterday?",
+    "transcript": "[[He was not only a scientist|No fue solo un científico]].",
     "content": {
-      "title": "¿Por qué estaba cerrada?",
-      "instructions": "Ordena la pregunta compleja en pasado.",
-      "correctSentence": "[[Why was the office closed yesterday|¿Por qué estaba cerrada la oficina ayer]]?",
-      "words": ["[[yesterday|ayer]]?", "[[closed|cerrada]]", "[[office|oficina]]", "[[the|la]]", "[[was|estaba]]", "[[Why|Por qué]]"],
-      "explanation": "Estructura: WH + was + sujeto + adjetivo + tiempo."
+      "title": "[[Grammar: Negative|Gramática: Negativo]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[He was not only a scientist|No fue solo un científico]].",
+      "words": ["[[scientist|científico]].", "[[a|un]]", "[[only|solo]]", "[[not|no]]", "[[was|fue]]", "[[He|Él]]"],
+      "explanation": "[[Structuring a complex negative sentence|Estructurando una oración negativa compleja]]."
     },
-    "audioUrl": "audio/a1/unit-28/e56.mp3",
+    "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u28-e56",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[Was he born in 1879? Yes, he was|¿Nació en 1879? Sí, así fue]].",
+    "content": {
+      "title": "[[Grammar: Short Answer|Gramática: Respuesta corta]]",
+      "instructions": "[[Identify the correct short answer|Identifica la respuesta corta correcta]].",
+      "question": "[[Was he born in 1879? (____)|¿Nació en 1879? (____)]]",
+      "options": ["[[Yes, he was|Sí, lo fue]]", "[[Yes, he were|Sí, lo fueron]]", "[[Yes, he is|Sí, lo es]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Singular affirmative short answer|Respuesta corta afirmativa singular]]."
+    },
     "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e57",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "medium",
-    "transcript": "We weren't at school last Friday.",
+    "topic": "Vocabulary",
+    "difficulty": "hard",
+    "transcript": "[[Professors work at universities|Los profesores trabajan en las universidades]].",
     "content": {
-      "title": "No estábamos",
-      "instructions": "Elige la forma negativa plural.",
+      "title": "[[Vocabulary: Professor|Vocabulario: Profesor]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[We|Nosotros]] (_____) [[at school last Friday.|en la escuela el viernes pasado.]]",
-          "options": ["[[weren't|no estábamos]]", "[[wasn't|no estaba]]", "[[aren't|no estamos]]"],
-          "correctAnswer": 0,
-          "explanation": "Negación de 'we were'."
+          "question": "[[He (____) a professor.|Él (____) profesor.]]",
+          "correctAnswer": "was",
+          "explanation": "[[Past profession|Profesión pasada]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-28/e57.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u28-e58",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "easy",
-    "transcript": "It was very late.",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[Where was he from?|¿De dónde era él?]]",
     "content": {
-      "title": "Muy tarde",
-      "instructions": "Completa con el pasado de 'is'.",
-      "questions": [
-        {
-          "question": "[[It|Era]] (_____) [[very late.|muy tarde.]]",
-          "options": ["[[was|era]]", "[[were|eran]]", "[[is|es]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'it' (el tiempo/la hora) usamos 'was'."
-        }
-      ]
+      "title": "[[Grammar: Where?|Gramática: ¿Dónde?]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[Where was he from?|¿De dónde era él?]]",
+      "words": ["[[from?|de?]]", "[[he|él]]", "[[was|era]]", "[[Where|Dónde]]"],
+      "explanation": "[[Asking for origin in the past|Preguntando por el origen en el pasado]]."
     },
-    "audioUrl": "audio/a1/unit-28/e58.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u28-e59",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "easy",
-    "transcript": "Were you happy there?",
+    "topic": "Vocabulary",
+    "difficulty": "hard",
+    "transcript": "[[What is a genius? A very smart person|¿Qué es un genio? Una persona muy inteligente]].",
     "content": {
-      "title": "¿Eras feliz?",
-      "instructions": "Pregunta de estado en pasado.",
-      "questions": [
-        {
-          "question": "(_____) [[you happy there?|¿eras feliz allí?]]",
-          "options": ["[[Were|¿Eras]]", "[[Was|¿Era]]", "[[Are|¿Eres]]"],
-          "correctAnswer": 0,
-          "explanation": "Pregunta con 'you' en pasado."
-        }
-      ]
+      "title": "[[Vocabulary: Genius|Vocabulario: Genio]]",
+      "instructions": "[[Identify the definition|Identifica la definición]].",
+      "question": "[[A genius is (____) smart person.|Un genio es (____) persona inteligente.]]",
+      "options": ["[[a very|una muy]]", "[[not a|no una]]", "[[a slow|una lenta]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Genius means extremely intelligent|Genio significa extremadamente inteligente]]."
     },
-    "audioUrl": "audio/a1/unit-28/e59.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u28-e60",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Past Simple: To Be",
-    "difficulty": "medium",
-    "transcript": "There was a problem with the computer.",
+    "topic": "Grammar",
+    "difficulty": "hard",
+    "transcript": "[[Germany was his country|Alemania era su país]].",
     "content": {
-      "title": "Hubo un problema",
-      "instructions": "Existencia en pasado singular.",
+      "title": "[[Grammar: Country|Gramática: País]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[There|Hubo]] (_____) [[a problem with the computer.|un problema con el ordenador.]]",
-          "options": ["[[was|un]]", "[[were|unos]]", "[[is|un]]"],
-          "correctAnswer": 0,
-          "explanation": "'A problem' es singular, usamos 'there was'."
+          "question": "[[Germany (____) his country.|Alemania (____) su país.]]",
+          "correctAnswer": "was",
+          "explanation": "[[Germany (it) uses 'was'|Alemania (it) usa 'was']]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-28/e60.mp3",
     "topicName": "Grammar"
+  },
+
+  // ==========================================
+  // LESSON 5: LISTENING & PRONUNCIATION (61-75)
+  // ==========================================
+  {
+    "id": "a1-u28-e61",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I was very happy yesterday|Estuve muy feliz ayer]].",
+    "audioUrl": "audio/a1/unit-28/e61.mp3",
+    "content": {
+      "title": "[[Listening: Feelings|Escucha: Sentimientos]]",
+      "instructions": "[[Listen and identify the feeling|Escucha e identifica el sentimiento]].",
+      "questions": [{
+        "id": "q61",
+        "type": "multiple-choice",
+        "question": "[[How was the speaker feeling?|¿Cómo se sentía el hablante?]]",
+        "options": ["[[very happy|muy feliz]]", "[[very sad|muy triste]]", "[[very tired|muy cansado]]"],
+        "correctAnswer": "[[very happy|muy feliz]]",
+        "explanation": "[[The speaker says 'I was very happy'|El hablante dice 'Estuve muy feliz']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u28-e62",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[Where were you on Sunday? I was at the beach|¿Dónde estuviste el domingo? Estuve en la playa]].",
+    "audioUrl": "audio/a1/unit-28/e62.mp3",
+    "content": {
+      "title": "[[Listening: Location|Escucha: Ubicación]]",
+      "instructions": "[[Listen and identify the place|Escucha e identifica el lugar]].",
+      "questions": [{
+        "id": "q62",
+        "type": "multiple-choice",
+        "question": "[[Where was the speaker?|¿Dónde estaba el hablante?]]",
+        "options": ["[[at the beach|en la playa]]", "[[at work|en el trabajo]]", "[[at home|en casa]]"],
+        "correctAnswer": "[[at the beach|en la playa]]",
+        "explanation": "[[The speaker says 'I was at the beach'|El hablante dice 'Estuve en la playa']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u28-e63",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[Was the test difficult? No, it wasn't|¿Fue difícil el examen? No, no lo fue]].",
+    "audioUrl": "audio/a1/unit-28/e63.mp3",
+    "content": {
+      "title": "[[Listening: The Test|Escucha: El Examen]]",
+      "instructions": "[[Listen and identify the answer|Escucha e identifica la respuesta]].",
+      "questions": [{
+        "id": "q63",
+        "type": "multiple-choice",
+        "question": "[[Was the test difficult?|¿Fue difícil el examen?]]",
+        "options": ["[[No, it wasn't|No, no lo fue]]", "[[Yes, it was|Sí, lo fue]]", "[[It was okay|Estuvo bien]]"],
+        "correctAnswer": "[[No, it wasn't|No, no lo fue]]",
+        "explanation": "[[The speaker says 'No, it wasn't'|El hablante dice 'No, no lo fue']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u28-e64",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[They were late for dinner|Llegaron tarde a la cena]].",
+    "audioUrl": "audio/a1/unit-28/e64.mp3",
+    "content": {
+      "title": "[[Listening: Dinner|Escucha: Cena]]",
+      "instructions": "[[Listen and identify the problem|Escucha e identifica el problema]].",
+      "questions": [{
+        "id": "q64",
+        "type": "multiple-choice",
+        "question": "[[What happened?|¿Qué pasó?]]",
+        "options": ["[[They were late|Llegaron tarde]]", "[[They were early|Llegaron temprano]]", "[[They were hungry|Tenían hambre]]"],
+        "correctAnswer": "[[They were late|Llegaron tarde]]",
+        "explanation": "[[The speaker says 'They were late'|El hablante dice 'Llegaron tarde']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u28-e65",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[It was very cold last winter|Hizo mucho frío el invierno pasado]]",
+    "audioUrl": "audio/a1/unit-28/e65.mp3",
+    "content": {
+      "title": "[[Listening: Winter|Escucha: Invierno]]",
+      "instructions": "[[Listen and identify the weather|Escucha e identifica el clima]].",
+      "questions": [{
+        "id": "q65",
+        "type": "multiple-choice",
+        "question": "[[How was the weather?|¿Cómo estaba el clima?]]",
+        "options": ["[[very cold|mucho frío]]", "[[very hot|mucho calor]]", "[[very rainy|mucha lluvia]]"],
+        "correctAnswer": "[[very cold|mucho frío]]",
+        "explanation": "[[The speaker says 'It was very cold'|El hablante dice 'Hizo mucho frío']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u28-e66",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[Who was at the party? My friends were there|¿Quién estaba en la fiesta? Mis amigos estaban allí]].",
+    "audioUrl": "audio/a1/unit-28/e66.mp3",
+    "content": {
+      "title": "[[Listening: Friends|Escucha: Amigos]]",
+      "instructions": "[[Listen and identify who was there|Escucha e identifica quién estaba allí]].",
+      "questions": [{
+        "id": "q66",
+        "type": "multiple-choice",
+        "question": "[[Who was at the party?|¿Quién estaba en la fiesta?]]",
+        "options": ["[[My friends|Mis amigos]]", "[[My parents|Mis padres]]", "[[My teachers|Mis profesores]]"],
+        "correctAnswer": "[[My friends|Mis amigos]]",
+        "explanation": "[[The speaker says 'My friends were there'|El hablante dice 'Mis amigos estaban allí']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u28-e67",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[Was he born in London? No, he was born in Manchester|¿Nació en Londres? No, nació en Manchester]].",
+    "audioUrl": "audio/a1/unit-28/e67.mp3",
+    "content": {
+      "title": "[[Listening: Birth City|Escucha: Ciudad de nacimiento]]",
+      "instructions": "[[Listen and identify the city|Escucha e identifica la ciudad]].",
+      "questions": [{
+        "id": "q67",
+        "type": "multiple-choice",
+        "question": "[[Where was he born?|¿Dónde nació?]]",
+        "options": ["[[Manchester|Manchester]]", "[[London|Londres]]", "[[Liverpool|Liverpool]]"],
+        "correctAnswer": "[[Manchester|Manchester]]",
+        "explanation": "[[The speaker says 'born in Manchester'|El hablante dice 'nacido en Manchester']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u28-e68",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[The coffee was not hot|El café no estaba caliente]].",
+    "audioUrl": "audio/a1/unit-28/e68.mp3",
+    "content": {
+      "title": "[[Listening: Coffee|Escucha: Café]]",
+      "instructions": "[[Listen and identify the temperature|Escucha e identifica la temperatura]].",
+      "questions": [{
+        "id": "q68",
+        "type": "multiple-choice",
+        "question": "[[How was the coffee?|¿Cómo estaba el café?]]",
+        "options": ["[[not hot|no estaba caliente]]", "[[very hot|muy caliente]]", "[[too sweet|demasiado dulce]]"],
+        "correctAnswer": "[[not hot|no estaba caliente]]",
+        "explanation": "[[The speaker says 'was not hot'|El hablante dice 'no estaba caliente']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u28-e69",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Was|Was]]",
+    "audioUrl": "audio/a1/unit-28/e69.mp3",
+    "content": {
+      "title": "[[Pronunciation: Was|Pronunciación: Was]]",
+      "instructions": "[[Listen and repeat focusing on the /wɒz/ sound|Escucha y repite enfocándote en el sonido /wɒz/]].",
+      "expectedResponse": "Was.",
+      "evaluationCriteria": [
+        "[[Clear /w/ start|Inicio con /w/ claro]]",
+        "[[Short /ɒ/ vowel sound|Vocal /ɒ/ corta]]",
+        "[[Soft /z/ sound at the end|Sonido /z/ suave al final]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u28-e70",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Were|Were]]",
+    "audioUrl": "audio/a1/unit-28/e70.mp3",
+    "content": {
+      "title": "[[Pronunciation: Were|Pronunciación: Were]]",
+      "instructions": "[[Listen and repeat focusing on the /wɜː/ sound|Escucha y repite enfocándote en el sonido /wɜː/]].",
+      "expectedResponse": "Were.",
+      "evaluationCriteria": [
+        "[[Clear /w/ start|Inicio con /w/ claro]]",
+        "[[Long /ɜː/ vowel sound|Vocal /ɜː/ larga]]",
+        "[[No 'r' sound at the end (standard British)|Sin sonido 'r' al final (estándar británico)]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u28-e71",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Wasn't|Wasn't]]",
+    "audioUrl": "audio/a1/unit-28/e71.mp3",
+    "content": {
+      "title": "[[Pronunciation: Wasn't|Pronunciación: Wasn't]]",
+      "instructions": "[[Listen and repeat focusing on the /wɒznt/ sound|Escucha y repite enfocándote en el sonido /wɒznt/]].",
+      "expectedResponse": "Wasn't.",
+      "evaluationCriteria": [
+        "[[Clear /w/ start|Inicio con /w/ claro]]",
+        "[[Distinct /z/ and /nt/ sounds|Sonidos /z/ y /nt/ distintos]]",
+        "[[Short and concise|Corto y conciso]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u28-e72",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Weren't|Weren't]]",
+    "audioUrl": "audio/a1/unit-28/e72.mp3",
+    "content": {
+      "title": "[[Pronunciation: Weren't|Pronunciación: Weren't]]",
+      "instructions": "[[Listen and repeat focusing on the /wɜːnt/ sound|Escucha y repite enfocándote en el sonido /wɜːnt/]].",
+      "expectedResponse": "Weren't.",
+      "evaluationCriteria": [
+        "[[Long /ɜː/ vowel sound|Vocal /ɜː/ larga]]",
+        "[[Clear /nt/ ending|Final /nt/ claro]]",
+        "[[No extra vowels|Sin vocales extras]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u28-e73",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Born|Nacido]]",
+    "audioUrl": "audio/a1/unit-28/e73.mp3",
+    "content": {
+      "title": "[[Pronunciation: Born|Pronunciación: Born]]",
+      "instructions": "[[Listen and repeat focusing on the /bɔːn/ sound|Escucha y repite enfocándote en el sonido /bɔːn/]].",
+      "expectedResponse": "Born.",
+      "evaluationCriteria": [
+        "[[Clear /b/ start|Inicio con /b/ claro]]",
+        "[[Long /ɔː/ vowel sound|Vocal /ɔː/ larga]]",
+        "[[Resonant /n/ at the end|/n/ resonante al final]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u28-e74",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Scientist|Científico]]",
+    "audioUrl": "audio/a1/unit-28/e74.mp3",
+    "content": {
+      "title": "[[Pronunciation: Scientist|Pronunciación: Scientist]]",
+      "instructions": "[[Listen and repeat focusing on the three syllables|Escucha y repite enfocándote en las tres sílabas]].",
+      "expectedResponse": "Scientist.",
+      "evaluationCriteria": [
+        "[[Stress on the first syllable /saɪ/|Acento en la primera sílaba /saɪ/]]",
+        "[[Clear /aɪ/ diphthong|Diptongo /aɪ/ claro]]",
+        "[[Clear /tɪst/ ending|Final /tɪst/ claro]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u28-e75",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[University|Universidad]]",
+    "audioUrl": "audio/a1/unit-28/e75.mp3",
+    "content": {
+      "title": "[[Pronunciation: University|Pronunciación: University]]",
+      "instructions": "[[Listen and repeat focusing on the word stress|Escucha y repite enfocándote en el acento de la palabra]].",
+      "expectedResponse": "University.",
+      "evaluationCriteria": [
+        "[[Stress on the third syllable /vɜː/|Acento en la tercera sílaba /vɜː/]]",
+        "[[Five syllables clearly pronounced|Cinco sílabas pronunciadas claramente]]",
+        "[[Neutral ending /ti/|Final neutro /ti/]]"
+      ]
+    }
   }
 ];
-

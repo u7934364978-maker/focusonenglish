@@ -1,26 +1,23 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_22_EXERCISES: Exercise[] = [
-
-  // VOCABULARY: Hobbies (1-10)
+  // ==========================================
+  // LESSON 1: HOBBIES AND INTERESTS VOCABULARY (1-15)
+  // ==========================================
   {
     "id": "a1-u22-e1",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Hobbies",
     "difficulty": "easy",
-    "transcript": "I like reading books.",
+    "transcript": "[[I like reading books in my free time|Me gusta leer libros en mi tiempo libre]].",
     "content": {
-      "title": "Leer Libros",
-      "instructions": "Elige la actividad correcta.",
-      "questions": [
-        {
-          "question": "[[I like|Me gusta]] (_____) [[books.|libros.]]",
-          "options": ["[[reading|leer]]", "[[cooking|cocinar]]", "[[swimming|nadar]]"],
-          "correctAnswer": 0,
-          "explanation": "'Reading' es leer."
-        }
-      ]
+      "title": "[[Reading|Lectura]]",
+      "instructions": "[[Identify the hobby|Identifica el hobby]].",
+      "question": "[[I like (____) books in my free time.|Me gusta (____) libros en mi tiempo libre.]]",
+      "options": ["[[reading|leer]]", "[[cooking|cocinar]]", "[[swimming|nadar]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Reading' is a common hobby involving books|'Reading' es un hobby común que involucra libros]]."
     },
     "audioUrl": "audio/a1/unit-22/e1.mp3",
     "topicName": "Vocabulary"
@@ -31,18 +28,14 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobbies",
     "difficulty": "easy",
-    "transcript": "She loves listening to music.",
+    "transcript": "[[She loves listening to music|A ella le encanta escuchar música]].",
     "content": {
-      "title": "Escuchar Música",
-      "instructions": "Completa el hobby.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] [[loves|ama]] (_____) [[to|la]] [[music.|música.]]",
-          "options": ["[[listening|escuchar]]", "[[watching|ver]]", "[[playing|tocar]]"],
-          "correctAnswer": 0,
-          "explanation": "'Listening to music' es escuchar música."
-        }
-      ]
+      "title": "[[Listening to Music|Escuchar música]]",
+      "instructions": "[[Complete the interest|Completa el interés]].",
+      "question": "[[She loves (____) to music.|A ella le encanta (____) música.]]",
+      "options": ["[[listening|escuchar]]", "[[watching|ver]]", "[[playing|tocar]]"],
+      "correctAnswer": 0,
+      "explanation": "[[We listen to music|Escuchamos música]]."
     },
     "audioUrl": "audio/a1/unit-22/e2.mp3",
     "topicName": "Vocabulary"
@@ -52,14 +45,14 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "type": "sentence-building",
     "level": "A1",
     "topic": "Hobbies",
-    "difficulty": "medium",
-    "transcript": "I play video games with my friends.",
+    "difficulty": "easy",
+    "transcript": "[[I play video games with my friends|Juego a videojuegos con mis amigos]].",
     "content": {
-      "title": "Videojuegos",
-      "instructions": "Ordena la frase.",
-      "correctSentence": "[[I|Yo]] [[play|juego]] [[video games|a videojuegos]] [[with|con]] [[my|mis]] [[friends.|amigos.]]",
-      "words": ["[[friends.|amigos.]]", "[[my|mis]]", "[[with|con]]", "[[games|juegos]]", "[[video|video]]", "[[play|juego]]", "[[I|Yo]]"],
-      "explanation": "'Play video games' es jugar a videojuegos."
+      "title": "[[Video Games|Videojuegos]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[I play video games with my friends|Juego a videojuegos con mis amigos]].",
+      "words": ["[[friends|amigos]].", "[[my|mis]]", "[[with|con]]", "[[games|juegos]]", "[[video|video]]", "[[play|juego]]", "[[I|Yo]]"],
+      "explanation": "[['Play video games' is a popular leisure activity|'Play video games' es una actividad de ocio popular]]."
     },
     "audioUrl": "audio/a1/unit-22/e3.mp3",
     "topicName": "Vocabulary"
@@ -70,38 +63,33 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobbies",
     "difficulty": "easy",
-    "transcript": "They go swimming in the pool.",
+    "transcript": "[[They go swimming in the pool|Ellos van a nadar a la piscina]].",
     "content": {
-      "title": "Nadar",
-      "instructions": "Elige el lugar correcto.",
-      "questions": [
-        {
-          "question": "[[They|Ellos]] [[go|van]] [[swimming|a nadar]] [[in|en]] [[the|la]] (_____) .",
-          "options": ["[[pool|piscina]]", "[[kitchen|cocina]]", "[[library|biblioteca]]"],
-          "correctAnswer": 0,
-          "explanation": "Nadamos en la piscina (pool)."
-        }
-      ]
+      "title": "[[Swimming|Natación]]",
+      "instructions": "[[Choose the correct activity|Elige la actividad correcta]].",
+      "question": "[[They go (____) in the pool.|Ellos van a (____) en la piscina.]]",
+      "options": ["[[swimming|nadar]]", "[[running|correr]]", "[[dancing|bailar]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Swimming is done in a pool or sea|La natación se realiza en una piscina o en el mar]]."
     },
     "audioUrl": "audio/a1/unit-22/e4.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u22-e5",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
     "topic": "Hobbies",
-    "difficulty": "medium",
-    "transcript": "I collect old coins.",
+    "difficulty": "easy",
+    "transcript": "[[I collect old coins|Colecciono monedas antiguas]].",
     "content": {
-      "title": "Coleccionar",
-      "instructions": "Elige el objeto de colección.",
+      "title": "[[Collecting|Coleccionar]]",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "questions": [
         {
-          "question": "[[I|Yo]] [[collect|colecciono]] [[old|viejas]] (_____) .",
-          "options": ["[[coins|monedas]]", "[[cars|coches]]", "[[shoes|zapatos]]"],
-          "correctAnswer": 0,
-          "explanation": "'Coins' son monedas."
+          "question": "[[I (____) old coins as a hobby.|(____) monedas antiguas como hobby.]]",
+          "correctAnswer": "collect",
+          "explanation": "[[To collect is to get and keep similar things|Coleccionar es conseguir y guardar cosas similares]]."
         }
       ]
     },
@@ -114,18 +102,14 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Hobbies",
     "difficulty": "easy",
-    "transcript": "We take photos of nature.",
+    "transcript": "[[We take photos of nature|Tomamos fotos de la naturaleza]].",
     "content": {
-      "title": "Fotografía",
-      "instructions": "Completa la acción.",
-      "questions": [
-        {
-          "question": "[[We|Nosotros]] (_____) [[photos|fotos]] [[of|de]] [[nature.|naturaleza.]]",
-          "options": ["[[take|tomamos]]", "[[make|hacemos]]", "[[do|hacemos]]"],
-          "correctAnswer": 0,
-          "explanation": "La expresión correcta es 'take photos'."
-        }
-      ]
+      "title": "[[Photography|Fotografía]]",
+      "instructions": "[[Identify the action|Identifica la acción]].",
+      "question": "[[We (____) photos of nature.|(____) fotos de la naturaleza.]]",
+      "options": ["[[take|tomamos]]", "[[make|hacemos]]", "[[do|hacemos]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The expression is always 'take photos'|La expresión siempre es 'take photos']]."
     },
     "audioUrl": "audio/a1/unit-22/e6.mp3",
     "topicName": "Vocabulary"
@@ -135,14 +119,14 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "type": "sentence-building",
     "level": "A1",
     "topic": "Hobbies",
-    "difficulty": "medium",
-    "transcript": "She paints beautiful pictures.",
+    "difficulty": "easy",
+    "transcript": "[[She paints beautiful pictures|Ella pinta cuadros hermosos]].",
     "content": {
-      "title": "Pintura",
-      "instructions": "Ordena la frase.",
-      "correctSentence": "[[She|Ella]] [[paints|pinta]] [[beautiful|hermosos]] [[pictures.|cuadros.]]",
-      "words": ["[[pictures.|cuadros.]]", "[[beautiful|hermosos]]", "[[paints|pinta]]", "[[She|Ella]]"],
-      "explanation": "'Paints pictures' es pintar cuadros."
+      "title": "[[Painting|Pintura]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[She paints beautiful pictures|Ella pinta cuadros hermosos]].",
+      "words": ["[[pictures|cuadros]].", "[[beautiful|hermosos]]", "[[paints|pinta]]", "[[She|Ella]]"],
+      "explanation": "[[Painting is a creative hobby|La pintura es un hobby creativo]]."
     },
     "audioUrl": "audio/a1/unit-22/e7.mp3",
     "topicName": "Vocabulary"
@@ -152,39 +136,34 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Hobbies",
-    "difficulty": "medium",
-    "transcript": "I do gardening in the afternoon.",
+    "difficulty": "easy",
+    "transcript": "[[He does gardening at the weekend|Él hace jardinería el fin de semana]].",
     "content": {
-      "title": "Jardinería",
-      "instructions": "Elige el verbo adecuado.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[gardening|jardinería]] [[in|por]] [[the|la]] [[afternoon.|tarde.]]",
-          "options": ["[[do|hago]]", "[[make|hago]]", "[[play|juego]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos el verbo 'do' con 'gardening'."
-        }
-      ]
+      "title": "[[Gardening|Jardinería]]",
+      "instructions": "[[Choose the correct verb|Elige el verbo correcto]].",
+      "question": "[[He (____) gardening at the weekend.|Él (____) jardinería el fin de semana.]]",
+      "options": ["[[does|hace]]", "[[makes|hace]]", "[[plays|juega]]"],
+      "correctAnswer": 0,
+      "explanation": "[[We use 'do gardening' for taking care of plants|Usamos 'do gardening' para cuidar las plantas]]."
     },
     "audioUrl": "audio/a1/unit-22/e8.mp3",
     "topicName": "Vocabulary"
   },
   {
     "id": "a1-u22-e9",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
     "topic": "Hobbies",
     "difficulty": "easy",
-    "transcript": "They watch movies at home.",
+    "transcript": "[[I like cooking Italian food|Me gusta cocinar comida italiana]].",
     "content": {
-      "title": "Ver Películas",
-      "instructions": "Elige el objeto.",
+      "title": "[[Cooking|Cocinar]]",
+      "instructions": "[[Complete the sentence|Completa la oración]].",
       "questions": [
         {
-          "question": "[[They|Ellos]] [[watch|ven]] (_____) [[at|en]] [[home.|casa.]]",
-          "options": ["[[movies|películas]]", "[[radios|radios]]", "[[music|música]]"],
-          "correctAnswer": 0,
-          "explanation": "'Movies' son películas."
+          "question": "[[I like (____) Italian food.|Me gusta (____) comida italiana.]]",
+          "correctAnswer": "cooking",
+          "explanation": "[[Cooking is preparing food|Cocinar es preparar comida]]."
         }
       ]
     },
@@ -193,151 +172,131 @@ export const UNIT_22_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u22-e10",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "Hobbies",
-    "difficulty": "medium",
-    "transcript": "He likes traveling to different countries.",
+    "difficulty": "easy",
+    "transcript": "[[They watch movies every night|Ven películas todas las noches]].",
     "content": {
-      "title": "Viajar",
-      "instructions": "Completa el hobby de viaje.",
-      "questions": [
-        {
-          "question": "[[He|Él]] [[likes|le gusta]] (_____) [[to|a]] [[different|diferentes]] [[countries.|países.]]",
-          "options": ["[[traveling|viajar]]", "[[cooking|cocinar]]", "[[sleeping|dormir]]"],
-          "correctAnswer": 0,
-          "explanation": "'Traveling' es viajar."
-        }
-      ]
+      "title": "[[Movies|Películas]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[They watch movies every night|Ellos ven películas todas las noches]].",
+      "words": ["[[night|noche]].", "[[every|todas las]]", "[[movies|películas]]", "[[watch|ven]]", "[[They|Ellos]]"],
+      "explanation": "[['Watch movies' is a common indoor hobby|'Watch movies' es un hobby común de interior]]."
     },
     "audioUrl": "audio/a1/unit-22/e10.mp3",
     "topicName": "Vocabulary"
   },
-
-  // GRAMMAR: Can / Can't (Habilities) (11-30)
   {
     "id": "a1-u22-e11",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Can / Can't",
-    "difficulty": "medium",
-    "transcript": "I can play the piano.",
+    "topic": "Hobbies",
+    "difficulty": "easy",
+    "transcript": "[[You travel to different countries|Viajas a diferentes países]].",
     "content": {
-      "title": "Habilidad Afirmativa",
-      "instructions": "Elige el auxiliar correcto.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[play|tocar]] [[the|el]] [[piano.|piano.]]",
-          "options": ["[[can|puedo]]", "[[do|hago]]", "[[is|soy]]"],
-          "correctAnswer": 0,
-          "explanation": "'Can' se usa para expresar habilidad."
-        }
-      ]
+      "title": "[[Traveling|Viajar]]",
+      "instructions": "[[Identify the hobby|Identifica el hobby]].",
+      "question": "[[You (____) to different countries.|(____) a diferentes países.]]",
+      "options": ["[[travel|viajas]]", "[[stay|te quedas]]", "[[look|miras]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Traveling is going to other places|Viajar es ir a otros lugares]]."
     },
     "audioUrl": "audio/a1/unit-22/e11.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u22-e12",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Can / Can't",
-    "difficulty": "medium",
-    "transcript": "She can't swim.",
+    "topic": "Hobbies",
+    "difficulty": "easy",
+    "transcript": "[[He likes fishing by the river|Le gusta pescar junto al río]].",
     "content": {
-      "title": "Habilidad Negativa",
-      "instructions": "Elige la forma negativa.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] (_____) [[swim.|nadar.]]",
-          "options": ["[[can't|no puede]]", "[[don't|no]]", "[[not|no]]"],
-          "correctAnswer": 0,
-          "explanation": "'Can't' (cannot) es la negación de 'can'."
-        }
-      ]
+      "title": "[[Fishing|Pesca]]",
+      "instructions": "[[Choose the correct activity|Elige la actividad correcta]].",
+      "question": "[[He likes (____) by the river.|Le gusta (____) junto al río.]]",
+      "options": ["[[fishing|pescar]]", "[[driving|conducir]]", "[[singing|cantar]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Fishing involves catching fish from water|La pesca consiste en capturar peces del agua]]."
     },
     "audioUrl": "audio/a1/unit-22/e12.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u22-e13",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Can / Can't",
-    "difficulty": "medium",
-    "transcript": "Can you speak Italian?",
+    "topic": "Hobbies",
+    "difficulty": "easy",
+    "transcript": "[[I go jogging every morning|Salgo a correr todas las mañanas]].",
     "content": {
-      "title": "Preguntas con Can",
-      "instructions": "Elige el orden correcto.",
+      "title": "[[Jogging|Correr]]",
+      "instructions": "[[Complete the verb phrase|Completa el verbo]].",
       "questions": [
         {
-          "question": "(_____) [[you|tú]] [[speak|hablas]] [[Italian?|italiano?]]",
-          "options": ["[[Can|¿Puedes?]]", "[[Do|¿Haces?]]", "[[Are|¿Eres?]]"],
-          "correctAnswer": 0,
-          "explanation": "Para preguntas de habilidad, empezamos con 'Can'."
+          "question": "[[I go (____) every morning.|Salgo a (____) todas las mañanas.]]",
+          "correctAnswer": "jogging",
+          "explanation": "[['Jogging' is slow running for exercise|'Jogging' es correr despacio para hacer ejercicio]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-22/e13.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u22-e14",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Can / Can't",
-    "difficulty": "medium",
-    "transcript": "They can cook very well.",
+    "topic": "Hobbies",
+    "difficulty": "easy",
+    "transcript": "[[She loves dancing salsa|A ella le encanta bailar salsa]].",
     "content": {
-      "title": "Cocinar Bien",
-      "instructions": "Ordena la frase.",
-      "correctSentence": "[[They|Ellos]] [[can|saben]] [[cook|cocinar]] [[very|muy]] [[well.|bien.]]",
-      "words": ["[[well.|bien.]]", "[[very|muy]]", "[[cook|cocinar]]", "[[can|saben/pueden]]", "[[They|Ellos]]"],
-      "explanation": "'Can' también se usa para 'saber hacer algo'."
+      "title": "[[Dancing|Baile]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[She loves dancing salsa|A ella le encanta bailar salsa]].",
+      "words": ["[[salsa|salsa]].", "[[dancing|bailar]]", "[[loves|le encanta]]", "[[She|Ella]]"],
+      "explanation": "[[Dancing is a physical and artistic hobby|El baile es un hobby físico y artístico]]."
     },
     "audioUrl": "audio/a1/unit-22/e14.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
   {
     "id": "a1-u22-e15",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Can / Can't",
-    "difficulty": "medium",
-    "transcript": "He can't drive a car.",
+    "topic": "Hobbies",
+    "difficulty": "easy",
+    "transcript": "[[We play chess in the club|Jugamos al ajedrez en el club]].",
     "content": {
-      "title": "No Saber Conducir",
-      "instructions": "Elige la opción correcta.",
-      "questions": [
-        {
-          "question": "[[He|Él]] (_____) [[drive|conducir]] [[a|un]] [[car.|coche.]]",
-          "options": ["[[can't|no sabe]]", "[[doesn't|no]]", "[[can|sabe]]"],
-          "correctAnswer": 0,
-          "explanation": "Expresamos falta de habilidad con 'can't'."
-        }
-      ]
+      "title": "[[Chess|Ajedrez]]",
+      "instructions": "[[Identify the game|Identifica el juego]].",
+      "question": "[[We play (____) in the club.|Jugamos al (____) en el club.]]",
+      "options": ["[[chess|ajedrez]]", "[[football|fútbol]]", "[[tennis|tenis]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Chess is a strategic board game|El ajedrez es un juego de mesa estratégico]]."
     },
     "audioUrl": "audio/a1/unit-22/e15.mp3",
-    "topicName": "Grammar"
+    "topicName": "Vocabulary"
   },
+
+  // ==========================================
+  // LESSON 2: EXPRESSING ABILITIES WITH CAN (16-30)
+  // ==========================================
   {
     "id": "a1-u22-e16",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Can / Can't",
-    "difficulty": "easy",
-    "transcript": "Yes, I can.",
+    "difficulty": "medium",
+    "transcript": "[[I can play the piano|Puedo tocar el piano]].",
     "content": {
-      "title": "Respuesta Corta",
-      "instructions": "Responde positivamente.",
-      "questions": [
-        {
-          "question": "[[Can|¿Sabes]] [[you|tú]] [[dance?|bailar?]] (_____) .",
-          "options": ["[[Yes, I can|Sí, sé]]", "[[Yes, I do|Sí]]", "[[Yes, I am|Sí]]"],
-          "correctAnswer": 0,
-          "explanation": "En respuestas cortas repetimos el auxiliar 'can'."
-        }
-      ]
+      "title": "[[Ability with 'Can'|Habilidad con 'Can']] ",
+      "instructions": "[[Choose the correct auxiliary|Elige el auxiliar correcto]].",
+      "question": "[[I (____) play the piano.|(____) tocar el piano.]]",
+      "options": ["[[can|puedo]]", "[[do|hago]]", "[[am|soy]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Use 'can' to express abilities|Usa 'can' para expresar habilidades]]."
     },
     "audioUrl": "audio/a1/unit-22/e16.mp3",
     "topicName": "Grammar"
@@ -347,58 +306,53 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Can / Can't",
-    "difficulty": "easy",
-    "transcript": "No, she can't.",
+    "difficulty": "medium",
+    "transcript": "[[She can speak three languages|Ella puede hablar tres idiomas]].",
     "content": {
-      "title": "Respuesta Negativa",
-      "instructions": "Responde negativamente.",
-      "questions": [
-        {
-          "question": "[[Can|¿Sabe]] [[she|ella]] [[sing?|cantar?]] (_____) .",
-          "options": ["[[No, she can't|No, no sabe]]", "[[No, she doesn't|No]]", "[[No, she not|No]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'can't' para la respuesta corta negativa."
-        }
-      ]
+      "title": "[[Languages|Idiomas]]",
+      "instructions": "[[Choose the correct form|Elige la forma correcta]].",
+      "question": "[[She (____) speak three languages.|Ella (____) hablar tres idiomas.]]",
+      "options": ["[[can|puede]]", "[[cans|incorrecto]]", "[[can to|incorrecto]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Can' never changes form, even for she/he/it|'Can' nunca cambia de forma, incluso para she/he/it]]."
     },
     "audioUrl": "audio/a1/unit-22/e17.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e18",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
     "topic": "Can / Can't",
-    "difficulty": "hard",
-    "transcript": "Birds can fly in the sky.",
+    "difficulty": "medium",
+    "transcript": "[[Birds can fly|Los pájaros pueden volar]].",
     "content": {
-      "title": "Los Pájaros",
-      "instructions": "Ordena la frase sobre animales.",
-      "correctSentence": "[[Birds|Los pájaros]] [[can|pueden]] [[fly|volar]] [[in|en]] [[the|el]] [[sky.|cielo.]]",
-      "words": ["[[sky.|cielo.]]", "[[the|el]]", "[[in|en]]", "[[fly|volar]]", "[[can|pueden]]", "[[Birds|Los pájaros]]"],
-      "explanation": "Habilidad natural de los animales."
+      "title": "[[Natural Ability|Habilidad natural]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
+      "questions": [
+        {
+          "question": "[[Birds (____) fly.|Los pájaros (____) volar.]]",
+          "correctAnswer": "can",
+          "explanation": "[[We use 'can' for things animals are able to do|Usamos 'can' para cosas que los animales pueden hacer]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-22/e18.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e19",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "Can he play guitar?",
+    "transcript": "[[They can cook very well|Ellos saben cocinar muy bien]].",
     "content": {
-      "title": "Habilidad con Instrumentos",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "(_____) [[he|él]] [[play|toca]] [[guitar?|la guitarra?]]",
-          "options": ["[[Can|¿Sabe?]]", "[[Does|¿Hace?]]", "[[Is|¿Es?]]"],
-          "correctAnswer": 0,
-          "explanation": "Preguntamos por la habilidad de tocar un instrumento con 'Can'."
-        }
-      ]
+      "title": "[[Cooking Ability|Habilidad para cocinar]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[They can cook very well|Ellos saben cocinar muy bien]].",
+      "words": ["[[well|bien]].", "[[very|muy]]", "[[cook|cocinar]]", "[[can|saben]]", "[[They|Ellos]]"],
+      "explanation": "[[The verb after 'can' is always in base form|El verbo después de 'can' siempre está en su forma base]]."
     },
     "audioUrl": "audio/a1/unit-22/e19.mp3",
     "topicName": "Grammar"
@@ -409,40 +363,33 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "Cats can jump very high.",
+    "transcript": "[[He can drive a car|Él sabe conducir un coche]].",
     "content": {
-      "title": "Los Gatos",
-      "instructions": "Elige el verbo de habilidad.",
-      "questions": [
-        {
-          "question": "[[Cats|Los gatos]] (_____) [[jump|saltar]] [[very|muy]] [[high.|alto.]]",
-          "options": ["[[can|pueden]]", "[[can't|no pueden]]", "[[do|hacen]]"],
-          "correctAnswer": 0,
-          "explanation": "Los gatos tienen la habilidad de saltar alto."
-        }
-      ]
+      "title": "[[Driving|Conducir]]",
+      "instructions": "[[Identify the ability|Identifica la habilidad]].",
+      "question": "[[He (____) drive a car.|Él (____) conducir un coche.]]",
+      "options": ["[[can|sabe]]", "[[does|hace]]", "[[is|es]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Can' is used for learned skills like driving|'Can' se usa para habilidades aprendidas como conducir]]."
     },
     "audioUrl": "audio/a1/unit-22/e20.mp3",
     "topicName": "Grammar"
   },
-
-  // GRAMMAR: Like / Love / Hate + -ing (21-30)
   {
     "id": "a1-u22-e21",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Like + -ing",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "I like singing in the shower.",
+    "transcript": "[[We can swim in the ocean|Podemos nadar en el océano]].",
     "content": {
-      "title": "Gustos personales",
-      "instructions": "Elige la forma correcta del verbo tras 'like'.",
+      "title": "[[Swimming Ability|Habilidad para nadar]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[I|Me]] [[like|gusta]] (_____) [[in|en]] [[the|la]] [[shower.|ducha.]]",
-          "options": ["[[singing|cantar]]", "[[sing|cantar]]", "[[sings|canta]]"],
-          "correctAnswer": 0,
-          "explanation": "Tras verbos de preferencia (like, love, hate) solemos usar la forma -ing."
+          "question": "[[We (____) swim in the ocean.|(____) nadar en el océano.]]",
+          "correctAnswer": "can",
+          "explanation": "[[No 'to' is needed between 'can' and the verb|No se necesita 'to' entre 'can' y el verbo]]."
         }
       ]
     },
@@ -451,22 +398,17 @@ export const UNIT_22_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u22-e22",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Love + -ing",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "She loves dancing.",
+    "transcript": "[[You can dance very well|Sabes bailar muy bien]].",
     "content": {
-      "title": "Encantar",
-      "instructions": "Elige el verbo correcto para 'encantar'.",
-      "questions": [
-        {
-          "question": "[[She|A ella]] [[loves|le encanta]] (_____) .",
-          "options": ["[[dancing|bailar]]", "[[dance|bailar]]", "[[dances|baila]]"],
-          "correctAnswer": 0,
-          "explanation": "Tras 'love' usamos la forma -ing."
-        }
-      ]
+      "title": "[[Dancing Ability|Habilidad para bailar]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[You can dance very well|Tú sabes bailar muy bien]].",
+      "words": ["[[well|bien]].", "[[very|muy]]", "[[dance|bailar]]", "[[can|sabes]]", "[[You|Tú]]"],
+      "explanation": "[[Structure: Subject + Can + Verb|Estructura: Sujeto + Can + Verbo]]."
     },
     "audioUrl": "audio/a1/unit-22/e22.mp3",
     "topicName": "Grammar"
@@ -475,59 +417,54 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "id": "a1-u22-e23",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hate + -ing",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "I hate washing the dishes.",
+    "transcript": "[[I can help you|Te puedo ayudar]].",
     "content": {
-      "title": "Odiar",
-      "instructions": "Completa con el sentimiento de desagrado.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[washing|fregar]] [[the|los]] [[dishes.|platos.]]",
-          "options": ["[[hate|odio]]", "[[love|amo]]", "[[like|me gusta]]"],
-          "correctAnswer": 0,
-          "explanation": "'Hate' se usa para algo que nos desagrada mucho."
-        }
-      ]
+      "title": "[[Helping|Ayudar]]",
+      "instructions": "[[Choose the correct verb|Elige el verbo correcto]].",
+      "question": "[[I (____) help you with your homework.|(____) ayudarte con tus deberes.]]",
+      "options": ["[[can|puedo]]", "[[do|hago]]", "[[am|soy]]"],
+      "correctAnswer": 0,
+      "explanation": "[[We also use 'can' to offer help|También usamos 'can' para ofrecer ayuda]]."
     },
     "audioUrl": "audio/a1/unit-22/e23.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e24",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Like + -ing",
-    "difficulty": "hard",
-    "transcript": "He likes playing tennis.",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "[[Cats can see in the dark|Los gatos pueden ver en la oscuridad]].",
     "content": {
-      "title": "Deporte y Gustos",
-      "instructions": "Ordena la frase.",
-      "correctSentence": "[[He|A él]] [[likes|le gusta]] [[playing|jugar]] [[tennis.|al tenis.]]",
-      "words": ["[[tennis.|tenis.]]", "[[playing|jugar]]", "[[likes|le gusta]]", "[[He|Él]]"],
-      "explanation": "Forma: Sujeto + like(s) + verbo-ing + objeto."
+      "title": "[[Animal Senses|Sentidos animales]]",
+      "instructions": "[[Complete the verb|Completa el verbo]].",
+      "questions": [
+        {
+          "question": "[[Cats can (____) in the dark.|Los gatos pueden (____) en la oscuridad.]]",
+          "correctAnswer": "see",
+          "explanation": "[[Use the base form of the verb after 'can'|Usa la forma base del verbo después de 'can']]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-22/e24.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e25",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Like + -ing",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "They don't like running.",
+    "transcript": "[[He can play football|Él sabe jugar al fútbol]].",
     "content": {
-      "title": "Gustos Negativos",
-      "instructions": "Elige la forma negativa.",
-      "questions": [
-        {
-          "question": "[[They|Ellos]] (_____) [[running.|correr.]]",
-          "options": ["[[don't like|no les gusta]]", "[[doesn't like|no le gusta]]", "[[not like|no gusta]]"],
-          "correctAnswer": 0,
-          "explanation": "Negación de 'like' con 'don't'."
-        }
-      ]
+      "title": "[[Sports|Deportes]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[He can play football|Él sabe jugar al fútbol]].",
+      "words": ["[[football|fútbol]].", "[[play|jugar]]", "[[can|sabe]]", "[[He|Él]]"],
+      "explanation": "[[We use 'can play' for sports and instruments|Usamos 'can play' para deportes e instrumentos]]."
     },
     "audioUrl": "audio/a1/unit-22/e25.mp3",
     "topicName": "Grammar"
@@ -536,59 +473,54 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "id": "a1-u22-e26",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Love + -ing",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "We love traveling.",
+    "transcript": "[[She can sing beautifully|Ella sabe cantar maravillosamente]].",
     "content": {
-      "title": "Viajes",
-      "instructions": "Completa la frase.",
-      "questions": [
-        {
-          "question": "[[We|Nosotros]] (_____) [[traveling.|viajar.]]",
-          "options": ["[[love|amamos]]", "[[hates|odias]]", "[[loves|ama]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'we' usamos 'love' sin 's'."
-        }
-      ]
+      "title": "[[Singing|Canto]]",
+      "instructions": "[[Choose the correct auxiliary|Elige el auxiliar correcto]].",
+      "question": "[[She (____) sing beautifully.|Ella (____) cantar maravillosamente.]]",
+      "options": ["[[can|sabe]]", "[[is|es]]", "[[does|hace]]"],
+      "correctAnswer": 0,
+      "explanation": "[['Can' doesn't have an -s in the third person|'Can' no tiene -s en la tercera persona]]."
     },
     "audioUrl": "audio/a1/unit-22/e26.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e27",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Like + -ing",
-    "difficulty": "hard",
-    "transcript": "Do you like cooking?",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "[[I can hear you|Te oigo]].",
     "content": {
-      "title": "Pregunta de Gusto",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Do|¿]] [[you|te]] [[like|gusta]] [[cooking?|cocinar?]]",
-      "words": ["[[cooking?|cocinar?]]", "[[like|gusta]]", "[[you|te]]", "[[Do|Hacer]]"],
-      "explanation": "Orden: Do + subject + like + verb-ing?"
+      "title": "[[Hearing|Oído]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
+      "questions": [
+        {
+          "question": "[[I (____) hear you perfectly.|Te (____) oír perfectamente.]]",
+          "correctAnswer": "can",
+          "explanation": "[[We often use 'can' with verbs of perception|A menudo usamos 'can' con verbos de percepción]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-22/e27.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e28",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Hate + -ing",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "He hates getting up early.",
+    "transcript": "[[They can paint the house|Ellos pueden pintar la casa]].",
     "content": {
-      "title": "Odiar Madrugar",
-      "instructions": "Elige la forma correcta del verbo.",
-      "questions": [
-        {
-          "question": "[[He|Él]] [[hates|odia]] (_____) [[up early.|temprano.]]",
-          "options": ["[[getting|levantarse]]", "[[get|levantar]]", "[[gets|levanta]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos -ing tras 'hate'."
-        }
-      ]
+      "title": "[[Painting Ability|Habilidad para pintar]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[They can paint the house|Ellos pueden pintar la casa]].",
+      "words": ["[[house|casa]].", "[[the|la]]", "[[paint|pintar]]", "[[can|pueden]]", "[[They|Ellos]]"],
+      "explanation": "[[Structure: Subject + Can + Verb + Object|Estructura: Sujeto + Can + Verbo + Objeto]]."
     },
     "audioUrl": "audio/a1/unit-22/e28.mp3",
     "topicName": "Grammar"
@@ -597,293 +529,264 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "id": "a1-u22-e29",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Like + -ing",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "Does she like playing the guitar?",
+    "transcript": "[[We can solve this problem|Podemos resolver este problema]].",
     "content": {
-      "title": "Pregunta 3ª Persona",
-      "instructions": "Elige el auxiliar correcto.",
-      "questions": [
-        {
-          "question": "(_____) [[she|ella]] [[like|le gusta]] [[playing|tocar]] [[the|la]] [[guitar?|guitarra?]]",
-          "options": ["[[Does|¿Hace?]]", "[[Do|¿Hace?]]", "[[Is|¿Es?]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'Does' para preguntas con 'she'."
-        }
-      ]
+      "title": "[[Problem Solving|Resolver problemas]]",
+      "instructions": "[[Choose the correct verb form|Elige la forma verbal correcta]].",
+      "question": "[[We can (____) this problem.|Podemos (____) este problema.]]",
+      "options": ["[[solve|resolver]]", "[[solving|resolviendo]]", "[[solves|resuelve]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Always use the infinitive without 'to' after 'can'|Usa siempre el infinitivo sin 'to' después de 'can']]."
     },
     "audioUrl": "audio/a1/unit-22/e29.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e30",
-    "type": "sentence-building",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Love + -ing",
-    "difficulty": "hard",
-    "transcript": "I love taking photos.",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "[[He can run very fast|Él puede correr muy rápido]].",
     "content": {
-      "title": "Hobby Favorito",
-      "instructions": "Ordena la frase.",
-      "correctSentence": "[[I|Me]] [[love|encanta]] [[taking|hacer]] [[photos.|fotos.]]",
-      "words": ["[[photos.|fotos.]]", "[[taking|hacer]]", "[[love|encanta]]", "[[I|Me]]"],
-      "explanation": "Expresión de gran gusto."
+      "title": "[[Running|Carrera]]",
+      "instructions": "[[Complete the auxiliary|Completa el auxiliar]].",
+      "questions": [
+        {
+          "question": "[[He (____) run very fast.|Él (____) correr muy rápido.]]",
+          "correctAnswer": "can",
+          "explanation": "[[Use 'can' for physical abilities|Usa 'can' para habilidades físicas]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-22/e30.mp3",
     "topicName": "Grammar"
   },
 
-  // MIXED PRACTICE & VOCABULARY (31-40)
+  // ==========================================
+  // LESSON 3: NEGATIVE ABILITIES WITH CAN'T (31-45)
+  // ==========================================
   {
     "id": "a1-u22-e31",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "I like drawing.",
+    "transcript": "[[I can't swim|No sé nadar]].",
     "content": {
-      "title": "Dibujar",
-      "instructions": "Elige el hobby artístico.",
-      "questions": [
-        {
-          "question": "[[I like|Me gusta]] (_____) .",
-          "options": ["[[drawing|dibujar]]", "[[running|correr]]", "[[eating|comer]]"],
-          "correctAnswer": 0,
-          "explanation": "'Drawing' es dibujar."
-        }
-      ]
+      "title": "[[Negative Ability|Habilidad negativa]]",
+      "instructions": "[[Choose the correct negative form|Elige la forma negativa correcta]].",
+      "question": "[[I (____) swim.|No (____) nadar.]]",
+      "options": ["[[can't|no puedo]]", "[[don't|no]]", "[[am not|no soy]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Use 'can't' (cannot) for inability|Usa 'can't' (cannot) para la falta de habilidad]]."
     },
     "audioUrl": "audio/a1/unit-22/e31.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e32",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "She is good at dancing.",
+    "transcript": "[[She can't drive|Ella no sabe conducir]].",
     "content": {
-      "title": "Ser Bueno en Algo",
-      "instructions": "Elige la actividad.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] [[is|es]] [[good|buena]] [[at|en]] (_____) .",
-          "options": ["[[dancing|bailar]]", "[[dance|bailar]]", "[[dancer|bailarina]]"],
-          "correctAnswer": 0,
-          "explanation": "Tras la preposición 'at' usamos la forma -ing."
-        }
-      ]
+      "title": "[[Negative Driving|No saber conducir]]",
+      "instructions": "[[Choose the correct form|Elige la forma correcta]].",
+      "question": "[[She (____) drive.|Ella (____) sabe conducir.]]",
+      "options": ["[[can't|no sabe]]", "[[doesn't|no]]", "[[isn't|no es]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Use 'can't' for all subjects in negative|Usa 'can't' para todos los sujetos en negativo]]."
     },
     "audioUrl": "audio/a1/unit-22/e32.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e33",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "He is interested in cinema.",
+    "transcript": "[[We can't speak Chinese|No sabemos hablar chino]].",
     "content": {
-      "title": "Intereses",
-      "instructions": "Elige el campo de interés.",
+      "title": "[[Negative Languages|Idiomas negativo]]",
+      "instructions": "[[Complete the negative|Completa el negativo]].",
       "questions": [
         {
-          "question": "[[He|Él]] [[is|está]] [[interested|interesado]] [[in|en]] [[the|el]] (_____) .",
-          "options": ["[[cinema|cine]]", "[[market|mercado]]", "[[office|oficina]]"],
-          "correctAnswer": 0,
-          "explanation": "'Cinema' es el cine."
+          "question": "[[We (____) speak Chinese.|No (____) hablar chino.]]",
+          "correctAnswer": "can't",
+          "explanation": "[['Can't' is the contraction of 'cannot'|'Can't' es la contracción de 'cannot']]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-22/e33.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e34",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Hobbies",
-    "difficulty": "hard",
-    "transcript": "My hobby is collecting stamps.",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "[[He can't play the guitar|Él no sabe tocar la guitarra]].",
     "content": {
-      "title": "Mi Hobby",
-      "instructions": "Ordena la frase.",
-      "correctSentence": "[[My|Mi]] [[hobby|afición]] [[is|es]] [[collecting|coleccionar]] [[stamps.|sellos.]]",
-      "words": ["[[stamps.|sellos.]]", "[[collecting|coleccionar]]", "[[is|es]]", "[[hobby|afición]]", "[[My|Mi]]"],
-      "explanation": "'Stamps' son sellos."
+      "title": "[[Negative Instrument|Instrumento negativo]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[He can't play the guitar|Él no sabe tocar la guitarra]].",
+      "words": ["[[guitar|guitarra]].", "[[the|la]]", "[[play|tocar]]", "[[can't|no sabe]]", "[[He|Él]]"],
+      "explanation": "[[Structure: Subject + Can't + Verb|Estructura: Sujeto + Can't + Verbo]]."
     },
     "audioUrl": "audio/a1/unit-22/e34.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e35",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
-    "difficulty": "easy",
-    "transcript": "I like playing chess.",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "[[They can't cook|Ellos no saben cocinar]].",
     "content": {
-      "title": "Ajedrez",
-      "instructions": "Elige el juego de mesa.",
-      "questions": [
-        {
-          "question": "[[I|Me]] [[like|gusta]] [[playing|jugar al]] (_____) .",
-          "options": ["[[chess|ajedrez]]", "[[football|fútbol]]", "[[swimming|natación]]"],
-          "correctAnswer": 0,
-          "explanation": "'Chess' es ajedrez."
-        }
-      ]
+      "title": "[[Negative Cooking|No saber cocinar]]",
+      "instructions": "[[Choose the correct negative|Elige el negativo correcto]].",
+      "question": "[[They (____) cook.|Ellos (____) saben cocinar.]]",
+      "options": ["[[can't|no saben]]", "[[don't|no]]", "[[not|no]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Always use 'can't' for lack of skill|Usa siempre 'can't' para la falta de habilidad]]."
     },
     "audioUrl": "audio/a1/unit-22/e35.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e36",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "She goes hiking every weekend.",
+    "transcript": "[[It can't fly|No puede volar]].",
     "content": {
-      "title": "Senderismo",
-      "instructions": "Elige la actividad de montaña.",
+      "title": "[[Negative It|Negativo con 'It']] ",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[She|Ella]] [[goes|va a hacer]] (_____) [[every|cada]] [[weekend.|fin de semana.]]",
-          "options": ["[[hiking|senderismo]]", "[[shopping|compras]]", "[[sleeping|dormir]]"],
-          "correctAnswer": 0,
-          "explanation": "'Hiking' es senderismo o caminatas por el campo/montaña."
+          "question": "[[It (____) fly.|(____) puede volar.]]",
+          "correctAnswer": "can't",
+          "explanation": "[[Use 'can't' for inanimate things or animals|Usa 'can't' para cosas inanimadas o animales]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-22/e36.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e37",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "Do you like knitting?",
+    "transcript": "[[You can't park here|No puedes aparcar aquí]].",
     "content": {
-      "title": "Tejer",
-      "instructions": "Completa la pregunta.",
-      "questions": [
-        {
-          "question": "[[Do|¿]] [[you|te]] [[like|gusta]] (_____) ?",
-          "options": ["[[knitting|tejer]]", "[[running|correr]]", "[[singing|cantar]]"],
-          "correctAnswer": 0,
-          "explanation": "'Knitting' es tejer (hacer punto)."
-        }
-      ]
+      "title": "[[Prohibition|Prohibición]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[You can't park here|No puedes aparcar aquí]].",
+      "words": ["[[here|aquí]].", "[[park|aparcar]]", "[[can't|no puedes]]", "[[You|Tú]]"],
+      "explanation": "[[We also use 'can't' for things that are not allowed|También usamos 'can't' para cosas que no están permitidas]]."
     },
     "audioUrl": "audio/a1/unit-22/e37.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e38",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hobbies",
-    "difficulty": "hard",
-    "transcript": "He loves woodworking in his garage.",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "[[I can't hear the music|No puedo oír la música]].",
     "content": {
-      "title": "Carpintería",
-      "instructions": "Ordena la frase.",
-      "correctSentence": "[[He|Él]] [[loves|ama]] [[woodworking|la carpintería]] [[in|en]] [[his|su]] [[garage.|garaje.]]",
-      "words": ["[[garage.|garaje.]]", "[[his|su]]", "[[in|en]]", "[[woodworking|carpintería]]", "[[loves|ama]]", "[[He|Él]]"],
-      "explanation": "'Woodworking' es el trabajo con madera o carpintería."
+      "title": "[[Negative Hearing|Oído negativo]]",
+      "instructions": "[[Choose the correct negative|Elige el negativo correcto]].",
+      "question": "[[I (____) hear the music.|No (____) oír la música.]]",
+      "options": ["[[can't|no puedo]]", "[[don't|no]]", "[[am not|no soy]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Lack of perception in the moment|Falta de percepción en el momento]]."
     },
     "audioUrl": "audio/a1/unit-22/e38.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e39",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Hobbies",
-    "difficulty": "easy",
-    "transcript": "I enjoy cooking Italian food.",
+    "topic": "Can / Can't",
+    "difficulty": "medium",
+    "transcript": "[[She can't come to the party|Ella no puede venir a la fiesta]].",
     "content": {
-      "title": "Disfrutar",
-      "instructions": "Elige el verbo de disfrute.",
+      "title": "[[Inability to Attend|No poder asistir]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[I|Yo]] (_____) [[cooking|cocinar]] [[Italian|comida]] [[food.|italiana.]]",
-          "options": ["[[enjoy|disfruto]]", "[[hate|odio]]", "[[sad|triste]]"],
-          "correctAnswer": 0,
-          "explanation": "'Enjoy' significa disfrutar."
+          "question": "[[She (____) come to the party.|Ella (____) venir a la fiesta.]]",
+          "correctAnswer": "can't",
+          "explanation": "[[Use 'can't' for things that are impossible for you|Usa 'can't' para cosas que son imposibles para ti]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-22/e39.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e40",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "She spends a lot of time drawing.",
+    "transcript": "[[They can't dance salsa|No saben bailar salsa]].",
     "content": {
-      "title": "Pasar el Tiempo",
-      "instructions": "Completa con el verbo adecuado.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] (_____) [[a lot of|mucho]] [[time|tiempo]] [[drawing.|dibujando.]]",
-          "options": ["[[spends|pasa]]", "[[does|hace]]", "[[has|tiene]]"],
-          "correctAnswer": 0,
-          "explanation": "'Spend time' es pasar el tiempo."
-        }
-      ]
+      "title": "[[Negative Dance|No saber bailar]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[They can't dance salsa|Ellos no saben bailar salsa]].",
+      "words": ["[[salsa|salsa]].", "[[dance|bailar]]", "[[can't|no saben]]", "[[They|Ellos]]"],
+      "explanation": "[[Negative learned skill|Habilidad aprendida negativa]]."
     },
     "audioUrl": "audio/a1/unit-22/e40.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
-
-  // MIXED PRACTICE (41-50)
   {
     "id": "a1-u22-e41",
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "I can't play chess very well.",
+    "transcript": "[[He can't swim very fast|Él no sabe nadar muy rápido]].",
     "content": {
-      "title": "Ajedrez y Habilidad",
-      "instructions": "Elige la opción correcta.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[play|jugar al]] [[chess|ajedrez]] [[very|muy]] [[well.|bien.]]",
-          "options": ["[[can't|no sé]]", "[[can|sé]]", "[[am|soy]]"],
-          "correctAnswer": 0,
-          "explanation": "'Can't' expresa falta de habilidad."
-        }
-      ]
+      "title": "[[Negative Speed|Velocidad negativa]]",
+      "instructions": "[[Choose the correct negative|Elige el negativo correcto]].",
+      "question": "[[He (____) swim very fast.|Él (____) sabe nadar muy rápido.]]",
+      "options": ["[[can't|no sabe]]", "[[doesn't|no]]", "[[not|no]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Can't expresses limited ability|'Can't' expresa habilidad limitada]]."
     },
     "audioUrl": "audio/a1/unit-22/e41.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e42",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Like + -ing",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "Do you like hiking in the mountains?",
+    "transcript": "[[I can't see the board|No veo la pizarra]].",
     "content": {
-      "title": "Senderismo",
-      "instructions": "Elige el verbo correcto.",
+      "title": "[[Negative Sight|Vista negativa]]",
+      "instructions": "[[Complete the negative|Completa el negativo]].",
       "questions": [
         {
-          "question": "[[Do|¿]] [[you|te]] [[like|gusta]] (_____) [[in|en]] [[the|las]] [[mountains?|montañas?]]",
-          "options": ["[[hiking|hacer senderismo]]", "[[hike|hacer senderismo]]", "[[hikes|hace senderismo]]"],
-          "correctAnswer": 0,
-          "explanation": "Tras 'like' usamos la forma -ing."
+          "question": "[[I (____) see the board.|No (____) ver la pizarra.]]",
+          "correctAnswer": "can't",
+          "explanation": "[[Visual inability in a situation|Incapacidad visual en una situación]]."
         }
       ]
     },
@@ -895,14 +798,14 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "type": "sentence-building",
     "level": "A1",
     "topic": "Can / Can't",
-    "difficulty": "hard",
-    "transcript": "Can your brother drive a truck?",
+    "difficulty": "medium",
+    "transcript": "[[We can't find our keys|No encontramos nuestras llaves]].",
     "content": {
-      "title": "Conducir Camiones",
-      "instructions": "Ordena la pregunta de habilidad.",
-      "correctSentence": "[[Can|¿Sabe]] [[your|tu]] [[brother|hermano]] [[drive|conducir]] [[a|un]] [[truck?|camión?]]",
-      "words": ["[[truck?|camión?]]", "[[a|un]]", "[[drive|conducir]]", "[[brother|hermano]]", "[[your|tu]]", "[[Can|¿Sabe]]"],
-      "explanation": "Preguntamos por la habilidad de un tercero."
+      "title": "[[Lost Items|Objetos perdidos]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[We can't find our keys|No podemos encontrar nuestras llaves]].",
+      "words": ["[[keys|llaves]].", "[[our|nuestras]]", "[[find|encontrar]]", "[[can't|no podemos]]", "[[We|Nosotros]]"],
+      "explanation": "[[Inability to achieve a result|Incapacidad para lograr un resultado]]."
     },
     "audioUrl": "audio/a1/unit-22/e43.mp3",
     "topicName": "Grammar"
@@ -911,59 +814,59 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "id": "a1-u22-e44",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Hate + -ing",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "She hates waiting for the bus.",
+    "transcript": "[[She can't play tennis|Ella no sabe jugar al tenis]].",
     "content": {
-      "title": "Esperar",
-      "instructions": "Elige la forma correcta tras 'hate'.",
-      "questions": [
-        {
-          "question": "[[She|Ella]] [[hates|odia]] (_____) [[for|por]] [[the|el]] [[bus.|autobús.]]",
-          "options": ["[[waiting|esperar]]", "[[wait|esperar]]", "[[waits|espera]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos la forma -ing para expresar lo que se odia."
-        }
-      ]
+      "title": "[[Negative Sport|Deporte negativo]]",
+      "instructions": "[[Choose the correct negative|Elige el negativo correcto]].",
+      "question": "[[She (____) play tennis.|Ella (____) sabe jugar al tenis.]]",
+      "options": ["[[can't|no sabe]]", "[[isn't|no es]]", "[[doesn't|no]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Use 'can't' for sports skills|Usa 'can't' para habilidades deportivas]]."
     },
     "audioUrl": "audio/a1/unit-22/e44.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e45",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Hobbies",
+    "topic": "Can / Can't",
     "difficulty": "medium",
-    "transcript": "I am interested in learning languages.",
+    "transcript": "[[They can't run today|No pueden correr hoy]].",
     "content": {
-      "title": "Aprender Idiomas",
-      "instructions": "Elige la actividad de interés.",
+      "title": "[[Temporary Inability|Incapacidad temporal]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[I|Yo]] [[am|estoy]] [[interested|interesado]] [[in|en]] (_____) [[languages.|idiomas.]]",
-          "options": ["[[learning|aprender]]", "[[cooking|cocinar]]", "[[playing|tocar]]"],
-          "correctAnswer": 0,
-          "explanation": "'Learning languages' es aprender idiomas."
+          "question": "[[They (____) run today.|No (____) correr hoy.]]",
+          "correctAnswer": "can't",
+          "explanation": "[[They are unable to do it today|No pueden hacerlo hoy]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-22/e45.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
+
+  // ==========================================
+  // LESSON 4: QUESTIONS AND SHORT ANSWERS WITH CAN (46-60)
+  // ==========================================
   {
     "id": "a1-u22-e46",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
     "topic": "Can / Can't",
     "difficulty": "hard",
-    "transcript": "My sister can speak three languages.",
+    "transcript": "[[Can you swim?|¿Sabes nadar?]]",
     "content": {
-      "title": "Políglota",
-      "instructions": "Ordena la frase de habilidad.",
-      "correctSentence": "[[My|Mi]] [[sister|hermana]] [[can|sabe]] [[speak|hablar]] [[three|tres]] [[languages.|idiomas.]]",
-      "words": ["[[languages.|idiomas.]]", "[[three|tres]]", "[[speak|hablar]]", "[[can|sabe]]", "[[sister|hermana]]", "[[My|Mi]]"],
-      "explanation": "Expresamos una habilidad lingüística."
+      "title": "[[Question with 'Can'|Pregunta con 'Can']] ",
+      "instructions": "[[Choose the correct auxiliary|Elige el auxiliar correcto]].",
+      "question": "[[ (____) you swim?|¿(____) sabes nadar?]]",
+      "options": ["[[Can|¿Sabes?]]", "[[Do|¿Haces?]]", "[[Are|¿Eres?]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Start a question with 'Can' to ask about ability|Empieza una pregunta con 'Can' para preguntar sobre una habilidad]]."
     },
     "audioUrl": "audio/a1/unit-22/e46.mp3",
     "topicName": "Grammar"
@@ -972,59 +875,54 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "id": "a1-u22-e47",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Love + -ing",
-    "difficulty": "medium",
-    "transcript": "They love playing football.",
+    "topic": "Can / Can't",
+    "difficulty": "hard",
+    "transcript": "[[Does she speak English? No, she can't|¿Habla inglés? No]].",
     "content": {
-      "title": "Deportes",
-      "instructions": "Elige el verbo de gusto.",
-      "questions": [
-        {
-          "question": "[[They|Ellos]] (_____) [[playing|jugar al]] [[football.|fútbol.]]",
-          "options": ["[[love|aman]]", "[[loves|ama]]", "[[hates|odia]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'they' usamos 'love' sin 's'."
-        }
-      ]
+      "title": "[[Short Answer|Respuesta corta]]",
+      "instructions": "[[Choose the correct short answer|Elige la respuesta corta correcta]].",
+      "question": "[[Can she speak English? (____).|¿Sabe hablar inglés? (____).]]",
+      "options": ["[[No, she can't|No]]", "[[No, she doesn't|No]]", "[[No, she isn't|No]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Use 'can' or 'can't' in short answers to 'can' questions|Usa 'can' o 'can't' en respuestas cortas a preguntas con 'can']]."
     },
     "audioUrl": "audio/a1/unit-22/e47.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e48",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Hobbies",
-    "difficulty": "medium",
-    "transcript": "Do you have any hobbies?",
+    "topic": "Can / Can't",
+    "difficulty": "hard",
+    "transcript": "[[Can they cook? Yes, they can|¿Saben cocinar? Sí]].",
     "content": {
-      "title": "Pregunta General",
-      "instructions": "Elige la palabra para aficiones.",
+      "title": "[[Affirmative Short Answer|Respuesta corta afirmativa]]",
+      "instructions": "[[Complete the answer|Completa la respuesta]].",
       "questions": [
         {
-          "question": "[[Do|¿]] [[you|tú]] [[have|tienes]] [[any|alguna]] (_____) ?",
-          "options": ["[[hobbies|afición]]", "[[works|trabajos]]", "[[homes|casas]]"],
-          "correctAnswer": 0,
-          "explanation": "'Hobbies' son las aficiones."
+          "question": "[[Can they cook? Yes, they (____).|¿Saben cocinar? Sí, (____).]]",
+          "correctAnswer": "can",
+          "explanation": "[[Repeat the auxiliary 'can' for affirmative answers|Repite el auxiliar 'can' para respuestas afirmativas]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-22/e48.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u22-e49",
     "type": "sentence-building",
     "level": "A1",
-    "topic": "Like + -ing",
+    "topic": "Can / Can't",
     "difficulty": "hard",
-    "transcript": "We like going to the cinema.",
+    "transcript": "[[Can he play the piano?|¿Sabe tocar el piano?]]",
     "content": {
-      "title": "Ir al Cine",
-      "instructions": "Ordena la frase.",
-      "correctSentence": "[[We|Nos]] [[like|gusta]] [[going|ir]] [[to|a]] [[the|el]] [[cinema.|cine.]]",
-      "words": ["[[cinema.|cine.]]", "[[the|al]]", "[[to|a]]", "[[going|ir]]", "[[like|gusta]]", "[[We|Nos]]"],
-      "explanation": "Usamos 'going' tras 'like'."
+      "title": "[[Instrument Question|Pregunta sobre instrumento]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[Can he play the piano?|¿Sabe él tocar el piano?]]",
+      "words": ["[[piano?|piano?]]", "[[the|el]]", "[[play|tocar]]", "[[he|él]]", "[[Can|¿Sabe?]]"],
+      "explanation": "[[Structure: Can + Subject + Verb?|Estructura: Can + Sujeto + Verbo?]]."
     },
     "audioUrl": "audio/a1/unit-22/e49.mp3",
     "topicName": "Grammar"
@@ -1034,254 +932,485 @@ export const UNIT_22_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "level": "A1",
     "topic": "Can / Can't",
-    "difficulty": "medium",
-    "transcript": "Can he fix a computer?",
+    "difficulty": "hard",
+    "transcript": "[[What can you do?|¿Qué sabes hacer?]]",
     "content": {
-      "title": "Reparar",
-      "instructions": "Completa la pregunta de habilidad técnica.",
-      "questions": [
-        {
-          "question": "(_____) [[he|él]] [[fix|arreglar]] [[a|un]] [[computer?|ordenador?]]",
-          "options": ["[[Can|¿Sabe?]]", "[[Is|¿Es?]]", "[[Does|¿Hace?]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'Can' para preguntar si alguien sabe hacer algo."
-        }
-      ]
+      "title": "[[Open Question|Pregunta abierta]]",
+      "instructions": "[[Identify the question word|Identifica la palabra de pregunta]].",
+      "question": "[[ (____) can you do?|¿(____) sabes hacer?]]",
+      "options": ["[[What|Qué]]", "[[Where|Dónde]]", "[[Who|Quién]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Use 'What' to ask about activities|Usa 'What' para preguntar sobre actividades]]."
     },
     "audioUrl": "audio/a1/unit-22/e50.mp3",
     "topicName": "Grammar"
   },
-
-  // READING COMPREHENSION (51-60)
   {
     "id": "a1-u22-e51",
-    "type": "multiple-choice",
+    "type": "reading",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Reading",
     "difficulty": "hard",
-    "transcript": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Peter.|Peter.]] [[I|Yo]] [[have|tengo]] [[many|muchas]] [[hobbies.|aficiones.]] [[In|En]] [[my|mi]] [[free|libre]] [[time,|tiempo,]] [[I|Me]] [[like|gusta]] [[playing|tocar]] [[the|la]] [[guitar.|guitarra.]] [[I|Yo]] [[can|sé]] [[play|tocar]] [[many|muchas]] [[songs.|canciones.]] [[I|Yo]] [[also|también]] [[love|me encanta]] [[taking|hacer]] [[photos|fotos]] [[of|de]] [[animals|animales]] [[and|y]] [[flowers.|flores.]] [[My|Mi]] [[sister,|hermana,]] [[Anna,|Anna,]] [[has|tiene]] [[different|diferentes]] [[interests.|intereses.]] [[She|Ella]] [[hates|odia]] [[music,|la música,]] [[but|pero]] [[she|ella]] [[loves|le encanta]] [[reading|leer]] [[books.|libros.]] [[She|Ella]] [[can|sabe]] [[read|leer]] [[very|muy]] [[fast.|rápido.]] [[On|Los]] [[Sundays,|domingos,]] [[we|nosotros]] [[go|vamos a hacer]] [[hiking|senderismo]] [[together|juntos]] [[in|en]] [[the|las]] [[mountains.|montañas.]]",
+    "transcript": "[[My Talented Family|Mi familia talentosa]]. [[My name is Maria|Me llamo María]]. [[I can dance salsa very well|Sé bailar salsa muy bien]]. [[My brother, Juan, can play the guitar|Mi hermano, Juan, sabe tocar la guitarra]]. [[He can't sing, but he plays beautifully|Él no sabe cantar, pero toca maravillosamente]]. [[My parents can speak English and Italian|Mis padres saben hablar inglés e italiano]]. [[We all can cook delicious food|Todos sabemos cocinar comida deliciosa]]. [[My sister, Ana, can't swim, but she can run fast|Mi hermana, Ana, no sabe nadar, pero sabe correr rápido]]. [[What can you do?|¿Qué sabes hacer tú?]]",
     "content": {
-      "title": "[[Reading: Peter's Hobbies|Lectura: Las aficiones de Peter]]",
-      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
-      "text": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Peter.|Peter.]] [[I|Yo]] [[have|tengo]] [[many|muchas]] [[hobbies.|aficiones.]] [[In|En]] [[my|mi]] [[free|libre]] [[time,|tiempo,]] [[I|Me]] [[like|gusta]] [[playing|tocar]] [[the|la]] [[guitar.|guitarra.]] [[I|Yo]] [[can|sé]] [[play|tocar]] [[many|muchas]] [[songs.|canciones.]] [[I|Yo]] [[also|también]] [[love|me encanta]] [[taking|hacer]] [[photos|fotos]] [[of|de]] [[animals|animales]] [[and|y]] [[flowers.|flores.]] [[My|Mi]] [[sister,|hermana,]] [[Anna,|Anna,]] [[has|tiene]] [[different|diferentes]] [[interests.|intereses.]] [[She|Ella]] [[hates|odia]] [[music,|la música,]] [[but|pero]] [[she|ella]] [[loves|le encanta]] [[reading|leer]] [[books.|libros.]] [[She|Ella]] [[can|sabe]] [[read|leer]] [[very|muy]] [[fast.|rápido.]] [[On|Los]] [[Sundays,|domingos,]] [[we|nosotros]] [[go|vamos]] [[hiking|a hacer senderismo]] [[together|juntos]] [[in|en]] [[the|las]] [[mountains.|montañas.]]",
+      "title": "[[Reading: Talents|Lectura: Talentos]]",
+      "instructions": "[[Read about Maria's family and their abilities|Lee sobre la familia de María y sus habilidades]].",
       "questions": [
         {
-          "question": "[[What instrument can Peter play?|¿Qué instrumento sabe tocar Peter?]]",
-          "options": ["[[The guitar|La guitarra]]", "[[The piano|El piano]]", "[[The drums|La batería]]"],
+          "question": "[[My Talented Family|Mi familia talentosa]]. [[My name is Maria|Me llamo María]]. [[I can dance salsa very well|Sé bailar salsa muy bien]]. [[My brother, Juan, can play the guitar|Mi hermano, Juan, sabe tocar la guitarra]]. [[He can't sing, but he plays beautifully|Él no sabe cantar, pero toca maravillosamente]]. [[My parents can speak English and Italian|Mis padres saben hablar inglés e italiano]]. [[We all can cook delicious food|Todos sabemos cocinar comida deliciosa]]. [[My sister, Ana, can't swim, but she can run fast|Mi hermana, Ana, no sabe nadar, pero sabe correr rápido]]. [[What can you do?|¿Qué sabes hacer tú?]]",
+          "options": ["[[I have read the text|He leído el texto]]."],
           "correctAnswer": 0,
-          "explanation": "[[Peter says: 'I like playing the guitar.'|Peter dice: 'Me gusta tocar la guitarra.']]"
+          "explanation": "[[Click to continue|Haz clic para continuar]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-22/e51.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u22-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Peter.|Peter.]] [[I|Yo]] [[have|tengo]] [[many|muchas]] [[hobbies.|aficiones.]] [[In|En]] [[my|mi]] [[free|libre]] [[time,|tiempo,]] [[I|Me]] [[like|gusta]] [[playing|tocar]] [[the|la]] [[guitar.|guitarra.]] [[I|Yo]] [[can|sé]] [[play|tocar]] [[many|muchas]] [[songs.|canciones.]] [[I|Yo]] [[also|también]] [[love|me encanta]] [[taking|hacer]] [[photos|fotos]] [[of|de]] [[animals|animales]] [[and|y]] [[flowers.|flores.]] [[My|Mi]] [[sister,|hermana,]] [[Anna,|Anna,]] [[has|tiene]] [[different|diferentes]] [[interests.|intereses.]] [[She|Ella]] [[hates|odia]] [[music,|la música,]] [[but|pero]] [[she|ella]] [[loves|le encanta]] [[reading|leer]] [[books.|libros.]] [[She|Ella]] [[can|sabe]] [[read|leer]] [[very|muy]] [[fast.|rápido.]] [[On|Los]] [[Sundays,|domingos,]] [[we|nosotros]] [[go|vamos a hacer]] [[hiking|senderismo]] [[together|juntos]] [[in|en]] [[the|las]] [[mountains.|montañas.]]",
+    "transcript": "[[Can Maria dance? Yes, she can|¿Sabe bailar María? Sí]].",
     "content": {
-      "title": "[[Reading: Anna's Preferences|Lectura: Las preferencias de Anna]]",
-      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
-      "text": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Peter.|Peter.]] [[I|Yo]] [[have|tengo]] [[many|muchas]] [[hobbies.|aficiones.]] [[In|En]] [[my|mi]] [[free|libre]] [[time,|tiempo,]] [[I|Me]] [[like|gusta]] [[playing|tocar]] [[the|la]] [[guitar.|guitarra.]] [[I|Yo]] [[can|sé]] [[play|tocar]] [[many|muchas]] [[songs.|canciones.]] [[I|Yo]] [[also|también]] [[love|me encanta]] [[taking|hacer]] [[photos|fotos]] [[of|de]] [[animals|animales]] [[and|y]] [[flowers.|flores.]] [[My|Mi]] [[sister,|hermana,]] [[Anna,|Anna,]] [[has|tiene]] [[different|diferentes]] [[interests.|intereses.]] [[She|Ella]] [[hates|odia]] [[music,|la música,]] [[but|pero]] [[she|ella]] [[loves|le encanta]] [[reading|leer]] [[books.|libros.]] [[She|Ella]] [[can|sabe]] [[read|leer]] [[very|muy]] [[fast.|rápido.]] [[On|Los]] [[Sundays,|domingos,]] [[we|nosotros]] [[go|vamos]] [[hiking|a hacer senderismo]] [[together|juntos]] [[in|en]] [[the|las]] [[mountains.|montañas.]]",
-      "questions": [
-        {
-          "question": "[[What does Anna love doing?|¿Qué le encanta hacer a Anna?]]",
-          "options": ["[[Reading books|Leer libros]]", "[[Listening to music|Escuchar música]]", "[[Taking photos|Hacer fotos]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The text says Anna loves reading books.|El texto dice que a Anna le encanta leer libros.]]"
-        }
-      ]
+      "title": "[[Comprehension: Maria|Comprensión: María]]",
+      "instructions": "[[Identify Maria's talent|Identifica el talento de María]].",
+      "question": "[[Maria can (____) very well.|María sabe (____) muy bien.]]",
+      "options": ["[[dance salsa|bailar salsa]]", "[[swim|nadar]]", "[[play guitar|tocar la guitarra]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says 'I can dance salsa'|El texto dice 'Sé bailar salsa']]."
     },
-    "audioUrl": "audio/a1/unit-22/e52.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u22-e53",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Peter.|Peter.]] [[I|Yo]] [[have|tengo]] [[many|muchas]] [[hobbies.|aficiones.]] [[In|En]] [[my|mi]] [[free|libre]] [[time,|tiempo,]] [[I|Me]] [[like|gusta]] [[playing|tocar]] [[the|la]] [[guitar.|guitarra.]] [[I|Yo]] [[can|sé]] [[play|tocar]] [[many|muchas]] [[songs.|canciones.]] [[I|Yo]] [[also|también]] [[love|me encanta]] [[taking|hacer]] [[photos|fotos]] [[of|de]] [[animals|animales]] [[and|y]] [[flowers.|flores.]] [[My|Mi]] [[sister,|hermana,]] [[Anna,|Anna,]] [[has|tiene]] [[different|diferentes]] [[interests.|intereses.]] [[She|Ella]] [[hates|odia]] [[music,|la música,]] [[but|pero]] [[she|ella]] [[loves|le encanta]] [[reading|leer]] [[books.|libros.]] [[She|Ella]] [[can|sabe]] [[read|leer]] [[very|muy]] [[fast.|rápido.]] [[On|Los]] [[Sundays,|domingos,]] [[we|nosotros]] [[go|vamos a hacer]] [[hiking|senderismo]] [[together|juntos]] [[in|en]] [[the|las]] [[mountains.|montañas.]]",
+    "transcript": "[[Can Juan sing? No, he can't|¿Sabe cantar Juan? No]].",
     "content": {
-      "title": "[[Reading: Weekend Activity|Lectura: Actividad de fin de semana]]",
-      "instructions": "[[Read the text and answer.|Lee el texto y responde.]]",
-      "text": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Peter.|Peter.]] [[I|Yo]] [[have|tengo]] [[many|muchas]] [[hobbies.|aficiones.]] [[In|En]] [[my|mi]] [[free|libre]] [[time,|tiempo,]] [[I|Me]] [[like|gusta]] [[playing|tocar]] [[the|la]] [[guitar.|guitarra.]] [[I|Yo]] [[can|sé]] [[play|tocar]] [[many|muchas]] [[songs.|canciones.]] [[I|Yo]] [[also|también]] [[love|me encanta]] [[taking|hacer]] [[photos|fotos]] [[of|de]] [[animals|animales]] [[and|y]] [[flowers.|flores.]] [[My|Mi]] [[sister,|hermana,]] [[Anna,|Anna,]] [[has|tiene]] [[different|diferentes]] [[interests.|intereses.]] [[She|Ella]] [[hates|odia]] [[music,|la música,]] [[but|pero]] [[she|ella]] [[loves|le encanta]] [[reading|leer]] [[books.|libros.]] [[She|Ella]] [[can|sabe]] [[read|leer]] [[very|muy]] [[fast.|rápido.]] [[On|Los]] [[Sundays,|domingos,]] [[we|nosotros]] [[go|vamos]] [[hiking|a hacer senderismo]] [[together|juntos]] [[in|en]] [[the|las]] [[mountains.|montañas.]]",
-      "questions": [
-        {
-          "question": "[[What do Peter and Anna do on Sundays?|¿Qué hacen Peter y Anna los domingos?]]",
-          "options": ["[[Go hiking|Hacer senderismo]]", "[[Go swimming|Ir a nadar]]", "[[Stay at home|Quedarse en casa]]"],
-          "correctAnswer": 0,
-          "explanation": "[[They go hiking together in the mountains on Sundays.|Van a hacer senderismo juntos a las montañas los domingos.]]"
-        }
-      ]
+      "title": "[[Comprehension: Juan|Comprensión: Juan]]",
+      "instructions": "[[Identify Juan's limitation|Identifica la limitación de Juan]].",
+      "question": "[[Juan (____) sing.|Juan (____) sabe cantar.]]",
+      "options": ["[[can't|no sabe]]", "[[can|sabe]]", "[[doesn't|no]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text states 'He can't sing'|El texto afirma 'Él no sabe cantar']]."
     },
-    "audioUrl": "audio/a1/unit-22/e53.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u22-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Can|¿]] [[you|tú]] [[swim?|sabes nadar?]] [[Swimming|La natación]] [[is|es]] [[a|una]] [[great|gran]] [[hobby.|afición.]] [[It|Ello]] [[is|es]] [[good|bueno]] [[for|para]] [[your|tu]] [[health.|salud.]] [[Some|Algunas]] [[people|personas]] [[can|saben]] [[swim|nadar]] [[very|muy]] [[well,|bien,]] [[but|pero]] [[others|otras]] [[can't|no saben]] [[swim|nadar]] [[at|en]] [[all.|absoluto.]] [[If|Si]] [[you|tú]] [[can't|no sabes]] [[swim,|nadar,]] [[you|tú]] [[can|puedes]] [[take|tomar]] [[lessons.|clases.]] [[I|Me]] [[love|encanta]] [[swimming|nadar]] [[in|en]] [[the|el]] [[sea,|mar,]] [[but|pero]] [[I|yo]] [[don't|no]] [[like|me gusta]] [[swimming|nadar]] [[in|en]] [[pools.|piscinas.]] [[The|El]] [[water|agua]] [[in|de]] [[pools|las piscinas]] [[is|está]] [[often|a menudo]] [[cold.|fría.]] [[Do|¿]] [[you|tú]] [[want|quieres]] [[to|de]] [[go|ir]] [[to|a]] [[the|la]] [[beach|playa]] [[this|este]] [[weekend?|fin de semana?]]",
+    "transcript": "[[What languages can the parents speak? English and Italian|¿Qué idiomas saben hablar los padres? Inglés e italiano]].",
     "content": {
-      "title": "[[Reading: About Swimming|Lectura: Sobre la natación]]",
-      "instructions": "[[Read and answer.|Lee y responde.]]",
-      "text": "[[Can|¿]] [[you|tú]] [[swim?|sabes nadar?]] [[Swimming|La natación]] [[is|es]] [[a|una]] [[great|gran]] [[hobby.|afición.]] [[It|Ello]] [[is|es]] [[good|bueno]] [[for|para]] [[your|tu]] [[health.|salud.]] [[Some|Algunas]] [[people|personas]] [[can|saben]] [[swim|nadar]] [[very|muy]] [[well,|bien,]] [[but|pero]] [[others|otras]] [[can't|no saben]] [[swim|nadar]] [[at|en]] [[all.|absoluto.]] [[If|Si]] [[you|tú]] [[can't|no sabes]] [[swim,|nadar,]] [[you|tú]] [[can|puedes]] [[take|tomar]] [[lessons.|clases.]] [[I|Me]] [[love|encanta]] [[swimming|nadar]] [[in|en]] [[the|el]] [[sea,|mar,]] [[but|pero]] [[I|yo]] [[don't|no]] [[like|me gusta]] [[swimming|nadar]] [[in|en]] [[pools.|piscinas.]] [[The|El]] [[water|agua]] [[in|de]] [[pools|las piscinas]] [[is|está]] [[often|a menudo]] [[cold.|fría.]] [[Do|¿]] [[you|tú]] [[want|quieres]] [[to|de]] [[go|ir]] [[to|a]] [[the|la]] [[beach|playa]] [[this|este]] [[weekend?|fin de semana?]]",
-      "questions": [
-        {
-          "question": "[[Why does the speaker like the sea more than pools?|¿Por qué al hablante le gusta más el mar que las piscinas?]]",
-          "options": ["[[Because pool water is often cold|Porque el agua de la piscina está a menudo fría]]", "[[Because the sea is blue|Porque el mar es azul]]", "[[Because pools are small|Porque las piscinas son pequeñas]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The speaker says pool water is often cold.|El hablante dice que el agua de las piscinas está a menudo fría.]]"
-        }
-      ]
+      "title": "[[Comprehension: Parents|Comprensión: Padres]]",
+      "instructions": "[[Identify the languages|Identifica los idiomas]].",
+      "question": "[[The parents can speak (____).|Los padres saben hablar (____).]]",
+      "options": ["[[English and Italian|inglés e italiano]]", "[[Spanish and French|español y francés]]", "[[Only English|solo inglés]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text mentions 'English and Italian'|El texto menciona 'inglés e italiano']]."
     },
-    "audioUrl": "audio/a1/unit-22/e54.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u22-e55",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Comprehension",
     "difficulty": "hard",
-    "transcript": "[[Cooking|Cocinar]] [[is|es]] [[a|una]] [[popular|popular]] [[hobby.|afición.]] [[Many|Muchas]] [[people|personas]] [[enjoy|disfrutan]] [[making|haciendo]] [[delicious|deliciosas]] [[meals|comidas]] [[for|para]] [[their|su]] [[family.|familia.]] [[My|Mi]] [[friend,|amiga,]] [[Lucy,|Lucy,]] [[can|sabe]] [[cook|cocinar]] [[excellent|excelente]] [[Italian|italiana]] [[food.|comida.]] [[She|Ella]] [[loves|ama]] [[making|hacer]] [[pasta|pasta]] [[and|y]] [[pizza.|pizza.]] [[However,|Sin embargo,]] [[she|ella]] [[can't|no sabe]] [[bake|hornear]] [[cakes.|pasteles.]] [[She|Ella]] [[hates|odia]] [[baking|hornear]] [[because|porque]] [[it|ello]] [[is|es]] [[difficult.|difícil.]] [[I|Yo]] [[like|gusta]] [[helping|ayudar]] [[her|a ella]] [[in|en]] [[the|la]] [[kitchen.|cocina.]] [[We|Nosotros]] [[always|siempre]] [[have|tenemos]] [[a|un]] [[good|buen]] [[time|rato]] [[together.|juntos.]]",
+    "transcript": "[[Can Ana swim? No, she can't|¿Sabe nadar Ana? No]].",
     "content": {
-      "title": "[[Reading: Cooking with Lucy|Lectura: Cocinando con Lucy]]",
-      "instructions": "[[Read about Lucy and answer.|Lee sobre Lucy y responde.]]",
-      "text": "[[Cooking|Cocinar]] [[is|es]] [[a|una]] [[popular|popular]] [[hobby.|afición.]] [[Many|Muchas]] [[people|personas]] [[enjoy|disfrutan]] [[making|haciendo]] [[delicious|deliciosas]] [[meals|comidas]] [[for|para]] [[their|su]] [[family.|familia.]] [[My|Mi]] [[friend,|amiga,]] [[Lucy,|Lucy,]] [[can|sabe]] [[cook|cocinar]] [[excellent|excelente]] [[Italian|italiana]] [[food.|comida.]] [[She|Ella]] [[loves|ama]] [[making|hacer]] [[pasta|pasta]] [[and|y]] [[pizza.|pizza.]] [[However,|Sin embargo,]] [[she|ella]] [[can't|no sabe]] [[bake|hornear]] [[cakes.|pasteles.]] [[She|Ella]] [[hates|odia]] [[baking|hornear]] [[because|porque]] [[it|ello]] [[is|es]] [[difficult.|difícil.]] [[I|Yo]] [[like|gusta]] [[helping|ayudar]] [[her|a ella]] [[in|en]] [[the|la]] [[kitchen.|cocina.]] [[We|Nosotros]] [[always|siempre]] [[have|tenemos]] [[a|un]] [[good|buen]] [[time|rato]] [[together.|juntos.]]",
-      "questions": [
-        {
-          "question": "[[What can Lucy cook well?|¿Qué sabe cocinar bien Lucy?]]",
-          "options": ["[[Italian food|Comida italiana]]", "[[Cakes|Pasteles]]", "[[Chinese food|Comida china]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The text says Lucy can cook excellent Italian food.|El texto dice que Lucy sabe cocinar excelente comida italiana.]]"
-        }
-      ]
+      "title": "[[Comprehension: Ana|Comprensión: Ana]]",
+      "instructions": "[[Identify Ana's abilities|Identifica las habilidades de Ana]].",
+      "question": "[[Ana (____) swim.|Ana (____) sabe nadar.]]",
+      "options": ["[[can't|no sabe]]", "[[can|sabe]]", "[[isn't|no es]]"],
+      "correctAnswer": 0,
+      "explanation": "[[The text says 'Ana can't swim'|El texto dice 'Ana no sabe nadar']]."
     },
-    "audioUrl": "audio/a1/unit-22/e55.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u22-e56",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Grammar",
     "difficulty": "hard",
-    "transcript": "[[Cooking|Cocinar]] [[is|es]] [[a|una]] [[popular|popular]] [[hobby.|afición.]] [[Many|Muchas]] [[people|personas]] [[enjoy|disfrutan]] [[making|haciendo]] [[delicious|deliciosas]] [[meals|comidas]] [[for|para]] [[their|su]] [[family.|familia.]] [[My|Mi]] [[friend,|amiga,]] [[Lucy,|Lucy,]] [[can|sabe]] [[cook|cocinar]] [[excellent|excelente]] [[Italian|italiana]] [[food.|comida.]] [[She|Ella]] [[loves|ama]] [[making|hacer]] [[pasta|pasta]] [[and|y]] [[pizza.|pizza.]] [[However,|Sin embargo,]] [[she|ella]] [[can't|no sabe]] [[bake|hornear]] [[cakes.|pasteles.]] [[She|Ella]] [[hates|odia]] [[baking|hornear]] [[because|porque]] [[it|ello]] [[is|es]] [[difficult.|difícil.]] [[I|Yo]] [[like|gusta]] [[helping|ayudar]] [[her|a ella]] [[in|en]] [[the|la]] [[kitchen.|cocina.]] [[We|Nosotros]] [[always|siempre]] [[have|tenemos]] [[a|un]] [[good|buen]] [[time|rato]] [[together.|juntos.]]",
+    "transcript": "[[Juan can play the guitar|Juan sabe tocar la guitarra]].",
     "content": {
-      "title": "[[Reading: Baking|Lectura: Hornear]]",
-      "instructions": "[[Read about Lucy and answer.|Lee sobre Lucy y responde.]]",
-      "text": "[[Cooking|Cocinar]] [[is|es]] [[a|una]] [[popular|popular]] [[hobby.|afición.]] [[Many|Muchas]] [[people|personas]] [[enjoy|disfrutan]] [[making|haciendo]] [[delicious|deliciosas]] [[meals|comidas]] [[for|para]] [[their|su]] [[family.|familia.]] [[My|Mi]] [[friend,|amiga,]] [[Lucy,|Lucy,]] [[can|sabe]] [[cook|cocinar]] [[excellent|excelente]] [[Italian|italiana]] [[food.|comida.]] [[She|Ella]] [[loves|ama]] [[making|hacer]] [[pasta|pasta]] [[and|y]] [[pizza.|pizza.]] [[However,|Sin embargo,]] [[she|ella]] [[can't|no sabe]] [[bake|hornear]] [[cakes.|pasteles.]] [[She|Ella]] [[hates|odia]] [[baking|hornear]] [[because|porque]] [[it|ello]] [[is|es]] [[difficult.|difícil.]] [[I|Yo]] [[like|gusta]] [[helping|ayudar]] [[her|a ella]] [[in|en]] [[the|la]] [[kitchen.|cocina.]] [[We|Nosotros]] [[always|siempre]] [[have|tenemos]] [[a|un]] [[good|buen]] [[time|rato]] [[together.|juntos.]]",
+      "title": "[[Grammar Check: Juan|Revisión de gramática: Juan]]",
+      "instructions": "[[Complete the sentence|Completa la frase]].",
       "questions": [
         {
-          "question": "[[Why does Lucy hate baking?|¿Por qué Lucy odia hornear?]]",
-          "options": ["[[Because it is difficult|Porque es difícil]]", "[[Because it is boring|Porque es aburrido]]", "[[Because she doesn't have an oven|Porque no tiene horno]]"],
-          "correctAnswer": 0,
-          "explanation": "[[She hates baking because it is difficult.|Odia hornear porque es difícil.]]"
+          "question": "[[Juan (____) play the guitar.|Juan (____) tocar la guitarra.]]",
+          "correctAnswer": "can",
+          "explanation": "[[Use 'can' for ability|Usa 'can' para la habilidad]]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-22/e55.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u22-e57",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Grammar",
     "difficulty": "hard",
-    "transcript": "[[Hobbies|Las aficiones]] [[are|son]] [[important|importantes]] [[for|para]] [[everyone.|todos.]] [[They|Ellos]] [[help|ayudan]] [[us|a nosotros]] [[to|a]] [[relax.|relajarnos.]] [[Some|Algunas]] [[people|personas]] [[prefer|prefieren]] [[indoor|de interior]] [[hobbies,|aficiones,]] [[like|como]] [[playing|jugar]] [[board|de mesa]] [[games|juegos]] [[or|o]] [[painting.|pintar.]] [[Other|Otras]] [[people|personas]] [[like|gustan]] [[outdoor|al aire libre]] [[hobbies,|aficiones,]] [[like|como]] [[running|correr]] [[or|o]] [[gardening.|jardinería.]] [[What|Cuál]] [[is|es]] [[your|tu]] [[favorite|favorita]] [[hobby?|afición?]] [[Do|¿]] [[you|tú]] [[like|gustas]] [[doing|hacer]] [[it|ello]] [[alone|solo]] [[or|o]] [[with|con]] [[friends?|amigos?]] [[Most|La mayoría de la]] [[people|gente]] [[love|aman]] [[sharing|compartir]] [[their|sus]] [[hobbies|aficiones]] [[with|con]] [[others.|otros.]]",
+    "transcript": "[[We can all cook delicious food|Todos sabemos cocinar comida deliciosa]].",
     "content": {
-      "title": "[[Reading: Types of Hobbies|Lectura: Tipos de aficiones]]",
-      "instructions": "[[Read and answer.|Lee y responde.]]",
-      "text": "[[Hobbies|Las aficiones]] [[are|son]] [[important|importantes]] [[for|para]] [[everyone.|todos.]] [[They|Ellos]] [[help|ayudan]] [[us|a nosotros]] [[to|a]] [[relax.|relajarnos.]] [[Some|Algunas]] [[people|personas]] [[prefer|prefieren]] [[indoor|de interior]] [[hobbies,|aficiones,]] [[like|como]] [[playing|jugar]] [[board|de mesa]] [[games|juegos]] [[or|o]] [[painting.|pintar.]] [[Other|Otras]] [[people|personas]] [[like|gustan]] [[outdoor|al aire libre]] [[hobbies,|aficiones,]] [[like|como]] [[running|correr]] [[or|o]] [[gardening.|jardinería.]] [[What|Cuál]] [[is|es]] [[your|tu]] [[favorite|favorita]] [[hobby?|afición?]] [[Do|¿]] [[you|tú]] [[like|gustas]] [[doing|hacer]] [[it|ello]] [[alone|solo]] [[or|o]] [[with|con]] [[friends?|amigos?]] [[Most|La mayoría de la]] [[people|gente]] [[love|aman]] [[sharing|compartir]] [[their|sus]] [[hobbies|aficiones]] [[with|con]] [[others.|otros.]]",
-      "questions": [
-        {
-          "question": "[[What is an example of an indoor hobby mentioned?|¿Cuál es un ejemplo mencionado de afición de interior?]]",
-          "options": ["[[Painting|Pintar]]", "[[Running|Correr]]", "[[Gardening|Jardinería]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Painting is mentioned as an indoor hobby.|Se menciona pintar como una afición de interior.]]"
-        }
-      ]
+      "title": "[[Grammar Check: Family|Revisión de gramática: Familia]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[We all can cook delicious food|Todos sabemos cocinar comida deliciosa]].",
+      "words": ["[[food|comida]].", "[[delicious|deliciosa]]", "[[cook|cocinar]]", "[[can|sabemos]]", "[[all|todos]]", "[[We|Nosotros]]"],
+      "explanation": "[[Subject + Can + Verb|Sujeto + Can + Verbo]]."
     },
-    "audioUrl": "audio/a1/unit-22/e57.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u22-e58",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Grammar",
     "difficulty": "hard",
-    "transcript": "[[Tom|Tom]] [[is|es]] [[very|muy]] [[good|bueno]] [[at|en]] [[sports.|deportes.]] [[He|Él]] [[can|sabe]] [[play|jugar]] [[football,|fútbol,]] [[basketball,|baloncesto,]] [[and|y]] [[tennis.|tenis.]] [[He|Él]] [[also|también]] [[likes|gusta]] [[swimming|nadar]] [[in|en]] [[the|el]] [[river.|río.]] [[He|Él]] [[can't|no sabe]] [[play|tocar]] [[any|ningún]] [[instruments,|instrumentos,]] [[but|pero]] [[he|él]] [[loves|ama]] [[listening|escuchar]] [[to|a]] [[rock|rock]] [[music.|música.]] [[Every|Cada]] [[Friday,|viernes,]] [[he|él]] [[goes|va]] [[to|al]] [[the|el]] [[stadium|estadio]] [[to|para]] [[watch|ver]] [[a|un]] [[game.|partido.]] [[He|Él]] [[is|es]] [[a|un]] [[big|gran]] [[fan|fan]] [[of|de]] [[his|su]] [[local|local]] [[team.|equipo.]]",
+    "transcript": "[[Ana can run fast|Ana puede correr rápido]]",
     "content": {
-      "title": "[[Reading: Tom's Sports|Lectura: Los deportes de Tom]]",
-      "instructions": "[[Read about Tom and answer.|Lee sobre Tom y responde.]]",
-      "text": "[[Tom|Tom]] [[is|es]] [[very|muy]] [[good|bueno]] [[at|en]] [[sports.|deportes.]] [[He|Él]] [[can|sabe]] [[play|jugar]] [[football,|fútbol,]] [[basketball,|baloncesto,]] [[and|y]] [[tennis.|tenis.]] [[He|Él]] [[also|también]] [[likes|gusta]] [[swimming|nadar]] [[in|en]] [[the|el]] [[river.|río.]] [[He|Él]] [[can't|no sabe]] [[play|tocar]] [[any|ningún]] [[instruments,|instrumentos,]] [[but|pero]] [[he|él]] [[loves|ama]] [[listening|escuchar]] [[to|a]] [[rock|rock]] [[music.|música.]] [[Every|Cada]] [[Friday,|viernes,]] [[he|él]] [[goes|va]] [[to|al]] [[the|el]] [[stadium|estadio]] [[to|para]] [[watch|ver]] [[a|un]] [[game.|partido.]] [[He|Él]] [[is|es]] [[a|un]] [[big|gran]] [[fan|fan]] [[of|de]] [[his|su]] [[local|local]] [[team.|equipo.]]",
-      "questions": [
-        {
-          "question": "[[What can't Tom do?|¿Qué no sabe hacer Tom?]]",
-          "options": ["[[Play instruments|Tocar instrumentos]]", "[[Play tennis|Jugar al tenis]]", "[[Swim in the river|Nadar en el río]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The text says: 'He can't play any instruments.'|El texto dice: 'No sabe tocar ningún instrumento.']]"
-        }
-      ]
+      "title": "[[Grammar Check: Ana|Revisión de gramática: Ana]]",
+      "instructions": "[[Choose the correct form|Elige la forma correcta]].",
+      "question": "[[Ana (____) run fast.|Ana (____) correr rápido.]]",
+      "options": ["[[can|puede]]", "[[cans|incorrecto]]", "[[can to|incorrecto]]"],
+      "correctAnswer": 0,
+      "explanation": "[[Modal verbs don't use 'to'|Los verbos modales no usan 'to']]."
     },
-    "audioUrl": "audio/a1/unit-22/e58.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u22-e59",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Grammar",
     "difficulty": "hard",
-    "transcript": "[[Tom|Tom]] [[is|es]] [[very|muy]] [[good|bueno]] [[at|en]] [[sports.|deportes.]] [[He|Él]] [[can|sabe]] [[play|jugar]] [[football,|fútbol,]] [[basketball,|baloncesto,]] [[and|y]] [[tennis.|tenis.]] [[He|Él]] [[also|también]] [[likes|gusta]] [[swimming|nadar]] [[in|en]] [[the|el]] [[river.|río.]] [[He|Él]] [[can't|no sabe]] [[play|tocar]] [[any|ningún]] [[instruments,|instrumentos,]] [[but|pero]] [[he|él]] [[loves|ama]] [[listening|escuchar]] [[to|a]] [[rock|rock]] [[music.|música.]] [[Every|Cada]] [[Friday,|viernes,]] [[he|él]] [[goes|va]] [[to|al]] [[the|el]] [[stadium|estadio]] [[to|para]] [[watch|ver]] [[a|un]] [[game.|partido.]] [[He|Él]] [[is|es]] [[a|un]] [[big|gran]] [[fan|fan]] [[of|de]] [[his|su]] [[local|local]] [[team.|equipo.]]",
+    "transcript": "[[Can you dance?|¿Sabes bailar?]]",
     "content": {
-      "title": "[[Reading: Friday Night|Lectura: Viernes noche]]",
-      "instructions": "[[Read about Tom and answer.|Lee sobre Tom y responde.]]",
-      "text": "[[Tom|Tom]] [[is|es]] [[very|muy]] [[good|bueno]] [[at|en]] [[sports.|deportes.]] [[He|Él]] [[can|sabe]] [[play|jugar]] [[football,|fútbol,]] [[basketball,|baloncesto,]] [[and|y]] [[tennis.|tenis.]] [[He|Él]] [[also|también]] [[likes|gusta]] [[swimming|nadar]] [[in|en]] [[the|el]] [[river.|río.]] [[He|Él]] [[can't|no sabe]] [[play|tocar]] [[any|ningún]] [[instruments,|instrumentos,]] [[but|pero]] [[he|él]] [[loves|ama]] [[listening|escuchar]] [[to|a]] [[rock|rock]] [[music.|música.]] [[Every|Cada]] [[Friday,|viernes,]] [[he|él]] [[goes|va]] [[to|al]] [[the|el]] [[stadium|estadio]] [[to|para]] [[watch|ver]] [[a|un]] [[game.|partido.]] [[He|Él]] [[is|es]] [[a|un]] [[big|gran]] [[fan|fan]] [[of|de]] [[his|su]] [[local|local]] [[team.|equipo.]]",
+      "title": "[[Open Question Check|Revisión de pregunta abierta]]",
+      "instructions": "[[Complete the question|Completa la pregunta]].",
       "questions": [
         {
-          "question": "[[Where does Tom go on Fridays?|¿A dónde va Tom los viernes?]]",
-          "options": ["[[To the stadium|Al estadio]]", "[[To the cinema|Al cine]]", "[[To a concert|A un concierto]]"],
-          "correctAnswer": 0,
-          "explanation": "[[Every Friday, he goes to the stadium to watch a game.|Cada viernes va al estadio a ver un partido.]]"
+          "question": "[[ (____) you dance salsa?|¿(____) sabes bailar salsa?]]",
+          "correctAnswer": "Can",
+          "explanation": "[[Start ability questions with 'Can'|Empieza las preguntas de habilidad con 'Can']]."
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-22/e59.mp3",
     "topicName": "Reading"
   },
   {
     "id": "a1-u22-e60",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Reading Comprehension",
+    "topic": "Grammar",
     "difficulty": "hard",
-    "transcript": "[[Do|¿]] [[you|te]] [[like|gusta]] [[traveling?|viajar?]] [[Traveling|Viajar]] [[is|es]] [[my|mi]] [[favorite|favorita]] [[hobby.|afición.]] [[I|Yo]] [[love|amo]] [[visiting|visitar]] [[new|nuevos]] [[places|lugares]] [[and|y]] [[meeting|conocer]] [[new|nueva]] [[people.|gente.]] [[I|Yo]] [[can|sé]] [[speak|hablar]] [[English|inglés]] [[and|y]] [[Spanish,|español,]] [[so|así que]] [[I|yo]] [[can|puedo]] [[talk|hablar]] [[to|con]] [[many|mucha]] [[people.|gente.]] [[I|Yo]] [[don't|no]] [[like|gusta]] [[traveling|viajar]] [[by|en]] [[plane|avión]] [[because|porque]] [[I|yo]] [[am|tengo]] [[afraid|miedo]] [[of|a las]] [[heights.|alturas.]] [[I|Yo]] [[prefer|prefiero]] [[traveling|viajar]] [[by|en]] [[train.|tren.]] [[The|Las]] [[views|vistas]] [[from|desde]] [[the|el]] [[train|tren]] [[are|son]] [[always|siempre]] [[beautiful.|hermosas.]]",
+    "transcript": "[[He can't sing very well|Él no sabe cantar muy bien]].",
     "content": {
-      "title": "[[Reading: The Joy of Traveling|Lectura: El placer de viajar]]",
-      "instructions": "[[Read and answer.|Lee y responde.]]",
-      "text": "[[Do|¿]] [[you|te]] [[like|gusta]] [[traveling?|viajar?]] [[Traveling|Viajar]] [[is|es]] [[my|mi]] [[favorite|favorita]] [[hobby.|afición.]] [[I|Yo]] [[love|amo]] [[visiting|visitar]] [[new|nuevos]] [[places|lugares]] [[and|y]] [[meeting|conocer]] [[new|nueva]] [[people.|gente.]] [[I|Yo]] [[can|sé]] [[speak|hablar]] [[English|inglés]] [[and|y]] [[Spanish,|español,]] [[so|así que]] [[I|yo]] [[can|puedo]] [[talk|hablar]] [[to|con]] [[many|mucha]] [[people.|gente.]] [[I|Yo]] [[don't|no]] [[like|gusta]] [[traveling|viajar]] [[by|en]] [[plane|avión]] [[because|porque]] [[I|yo]] [[am|tengo]] [[afraid|miedo]] [[of|a las]] [[heights.|alturas.]] [[I|Yo]] [[prefer|prefiero]] [[traveling|viajar]] [[by|en]] [[train.|tren.]] [[The|Las]] [[views|vistas]] [[from|desde]] [[the|el]] [[train|tren]] [[are|son]] [[always|siempre]] [[beautiful.|hermosas.]]",
-      "questions": [
-        {
-          "question": "[[How does the speaker prefer to travel?|¿Cómo prefiere viajar el hablante?]]",
-          "options": ["[[By train|En tren]]", "[[By plane|En avión]]", "[[By boat|En barco]]"],
-          "correctAnswer": 0,
-          "explanation": "[[The speaker says: 'I prefer traveling by train.'|El hablante dice: 'Prefiero viajar en tren.']]"
-        }
-      ]
+      "title": "[[Negative Check|Revisión de negativo]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[He can't sing very well|Él no sabe cantar muy bien]].",
+      "words": ["[[well|bien]].", "[[very|muy]]", "[[sing|cantar]]", "[[can't|no sabe]]", "[[He|Él]]"],
+      "explanation": "[[Negative structure with adverb|Estructura negativa con adverbio]]."
     },
-    "audioUrl": "audio/a1/unit-22/e60.mp3",
     "topicName": "Reading"
+  },
+
+  // ==========================================
+  // LESSON 5: LISTENING & PRONUNCIATION (61-75)
+  // ==========================================
+  {
+    "id": "a1-u22-e61",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I can play the guitar|Sé tocar la guitarra]].",
+    "audioUrl": "audio/a1/unit-22/e61.mp3",
+    "content": {
+      "title": "[[Listening: Guitar|Escucha: Guitarra]]",
+      "instructions": "[[Listen and identify the ability|Escucha e identifica la habilidad]].",
+      "questions": [{
+        "id": "q61",
+        "type": "multiple-choice",
+        "question": "[[What instrument can the speaker play?|¿Qué instrumento sabe tocar el hablante?]]",
+        "options": ["[[the guitar|la guitarra]]", "[[the piano|el piano]]", "[[the drums|la batería]]"],
+        "correctAnswer": "[[the guitar|la guitarra]]",
+        "explanation": "[[The speaker says 'play the guitar'|El hablante dice 'tocar la guitarra']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u22-e62",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[She can't swim|Ella no sabe nadar]].",
+    "audioUrl": "audio/a1/unit-22/e62.mp3",
+    "content": {
+      "title": "[[Listening: Swimming|Escucha: Natación]]",
+      "instructions": "[[Listen and identify the limitation|Escucha e identifica la limitación]].",
+      "questions": [{
+        "id": "q62",
+        "type": "multiple-choice",
+        "question": "[[Can she swim?|¿Sabe nadar?]]",
+        "options": ["[[No, she can't|No]]", "[[Yes, she can|Sí]]", "[[Sometimes|A veces]]"],
+        "correctAnswer": "[[No, she can't|No]]",
+        "explanation": "[[The speaker uses the negative 'can't'|El hablante usa el negativo 'can't']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u22-e63",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[They can speak English fluently|Saben hablar inglés con fluidez]].",
+    "audioUrl": "audio/a1/unit-22/e63.mp3",
+    "content": {
+      "title": "[[Listening: English|Escucha: Inglés]]",
+      "instructions": "[[Listen and identify the language ability|Escucha e identifica la habilidad con el idioma]].",
+      "questions": [{
+        "id": "q63",
+        "type": "multiple-choice",
+        "question": "[[How well can they speak English?|¿Qué tan bien saben hablar inglés?]]",
+        "options": ["[[fluently|con fluidez]]", "[[a little|un poco]]", "[[not at all|nada]]"],
+        "correctAnswer": "[[fluently|con fluidez]]",
+        "explanation": "[[The speaker says 'fluently'|El hablante dice 'con fluidez']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u22-e64",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[Can you help me?|¿Me puedes ayudar?]]",
+    "audioUrl": "audio/a1/unit-22/e64.mp3",
+    "content": {
+      "title": "[[Listening: Help|Escucha: Ayuda]]",
+      "instructions": "[[Listen and identify the type of sentence|Escucha e identifica el tipo de oración]].",
+      "questions": [{
+        "id": "q64",
+        "type": "multiple-choice",
+        "question": "[[Is this a question or a statement?|¿Es esto una pregunta o una afirmación?]]",
+        "options": ["[[a question|una pregunta]]", "[[a statement|una afirmación]]", "[[a negative sentence|una oración negativa]]"],
+        "correctAnswer": "[[a question|una pregunta]]",
+        "explanation": "[[The intonation and structure indicate a question|La entonación y la estructura indican una pregunta]]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u22-e65",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[He can run very fast|Puede correr muy rápido]].",
+    "audioUrl": "audio/a1/unit-22/e65.mp3",
+    "content": {
+      "title": "[[Listening: Running|Escucha: Carrera]]",
+      "instructions": "[[Listen and identify the physical ability|Escucha e identifica la habilidad física]].",
+      "questions": [{
+        "id": "q65",
+        "type": "multiple-choice",
+        "question": "[[How does he run?|¿Cómo corre?]]",
+        "options": ["[[very fast|muy rápido]]", "[[slowly|despacio]]", "[[normally|normal]]"],
+        "correctAnswer": "[[very fast|muy rápido]]",
+        "explanation": "[[The speaker says 'very fast'|El hablante dice 'muy rápido']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u22-e66",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[We can't find the restaurant|No podemos encontrar el restaurante]].",
+    "audioUrl": "audio/a1/unit-22/e66.mp3",
+    "content": {
+      "title": "[[Listening: Location|Escucha: Ubicación]]",
+      "instructions": "[[Listen and identify the problem|Escucha e identifica el problema]].",
+      "questions": [{
+        "id": "q66",
+        "type": "multiple-choice",
+        "question": "[[What can't they find?|¿Qué no pueden encontrar?]]",
+        "options": ["[[the restaurant|el restaurante]]", "[[the hotel|el hotel]]", "[[the house|la casa]]"],
+        "correctAnswer": "[[the restaurant|el restaurante]]",
+        "explanation": "[[The speaker says 'the restaurant'|El hablante dice 'el restaurante']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u22-e67",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[Can she cook Italian food? Yes, she can|¿Sabe cocinar comida italiana? Sí]].",
+    "audioUrl": "audio/a1/unit-22/e67.mp3",
+    "content": {
+      "title": "[[Listening: Cooking|Escucha: Cocina]]",
+      "instructions": "[[Listen and identify the answer|Escucha e identifica la respuesta]].",
+      "questions": [{
+        "id": "q67",
+        "type": "multiple-choice",
+        "question": "[[What is the answer to the question?|¿Cuál es la respuesta a la pregunta?]]",
+        "options": ["[[Yes, she can|Sí]]", "[[No, she can't|No]]", "[[She doesn't know|No lo sabe]]"],
+        "correctAnswer": "[[Yes, she can|Sí]]",
+        "explanation": "[[The speaker confirms 'Yes, she can'|El hablante confirma 'Yes, she can']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u22-e68",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I can't see anything without my glasses|No veo nada sin mis gafas]].",
+    "audioUrl": "audio/a1/unit-22/e68.mp3",
+    "content": {
+      "title": "[[Listening: Glasses|Escucha: Gafas]]",
+      "instructions": "[[Listen and identify the condition|Escucha e identifica la condición]].",
+      "questions": [{
+        "id": "q68",
+        "type": "multiple-choice",
+        "question": "[[What is the problem?|¿Cuál es el problema?]]",
+        "options": ["[[The speaker needs glasses to see|El hablante necesita gafas para ver]]", "[[The speaker lost the glasses|El hablante perdió las gafas]]", "[[The glasses are broken|Las gafas están rotas]]"],
+        "correctAnswer": "[[The speaker needs glasses to see|El hablante necesita gafas para ver]]",
+        "explanation": "[[The speaker says 'can't see anything without my glasses'|El hablante dice 'no veo nada sin mis gafas']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u22-e69",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Can|Poder]]",
+    "audioUrl": "audio/a1/unit-22/e69.mp3",
+    "content": {
+      "title": "[[Pronunciation: Can|Pronunciación: Can]]",
+      "instructions": "[[Listen and repeat focusing on the weak 'a' sound /kən/|Escucha y repite enfocándote en el sonido 'a' débil /kən/]].",
+      "expectedResponse": "Can.",
+      "evaluationCriteria": [
+        "[[Weak vowel sound /ə/ in unstressed positions|Sonido vocálico débil /ə/ en posiciones no acentuadas]]",
+        "[[Short and quick pronunciation|Pronunciación corta y rápida]]",
+        "[[Clear 'n' sound at the end|Sonido 'n' claro al final]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u22-e70",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Can't|No poder]]",
+    "audioUrl": "audio/a1/unit-22/e70.mp3",
+    "content": {
+      "title": "[[Pronunciation: Can't|Pronunciación: Can't]]",
+      "instructions": "[[Listen and repeat focusing on the long /ɑː/ or strong /æ/ sound|Escucha y repite enfocándote en el sonido /ɑː/ largo o /æ/ fuerte]].",
+      "expectedResponse": "Can't.",
+      "evaluationCriteria": [
+        "[[Stronger vowel sound than 'can'|Sonido vocálico más fuerte que en 'can']]",
+        "[[Clear final 't' sound|Sonido 't' final claro]]",
+        "[[Often stressed in a sentence|A menudo acentuado en una oración]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u22-e71",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Swim|Nadar]]",
+    "audioUrl": "audio/a1/unit-22/e71.mp3",
+    "content": {
+      "title": "[[Pronunciation: Swim|Pronunciación: Swim]]",
+      "instructions": "[[Listen and repeat focusing on the short /ɪ/ sound|Escucha y repite enfocándote en el sonido /ɪ/ corto]].",
+      "expectedResponse": "Swim.",
+      "evaluationCriteria": [
+        "[[Short /ɪ/ sound (not 'ee')|Sonido /ɪ/ corto (no 'ee')]]",
+        "[[Clear 'sw' cluster|Grupo 'sw' claro]]",
+        "[[Clear final 'm'|Final 'm' claro]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u22-e72",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Speak|Hablar]]",
+    "audioUrl": "audio/a1/unit-22/e72.mp3",
+    "content": {
+      "title": "[[Pronunciation: Speak|Pronunciación: Speak]]",
+      "instructions": "[[Listen and repeat focusing on the long /iː/ sound|Escucha y repite enfocándote en el sonido /iː/ largo]].",
+      "expectedResponse": "Speak.",
+      "evaluationCriteria": [
+        "[[Long /iː/ sound (like 'see')|Sonido /iː/ largo (como 'see')]]",
+        "[[Clear 'sp' cluster|Grupo 'sp' claro]]",
+        "[[Clear final 'k'|Final 'k' claro]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u22-e73",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[I can help|Puedo ayudar]]",
+    "audioUrl": "audio/a1/unit-22/e73.mp3",
+    "content": {
+      "title": "[[Pronunciation: I can help|Pronunciación: I can help]]",
+      "instructions": "[[Listen and repeat focusing on the rhythm|Escucha y repite enfocándote en el ritmo]].",
+      "expectedResponse": "I can help.",
+      "evaluationCriteria": [
+        "[[Stress on 'help'|Acentuación en 'help']]",
+        "[[Weak pronunciation of 'can'|Pronunciación débil de 'can']]",
+        "[[Smooth connection between words|Conexión suave entre palabras]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u22-e74",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[Can you dance?|¿Sabes bailar?]]",
+    "audioUrl": "audio/a1/unit-22/e74.mp3",
+    "content": {
+      "title": "[[Pronunciation: Question|Pronunciación: Pregunta]]",
+      "instructions": "[[Listen and repeat with rising intonation|Escucha y repite con entonación ascendente]].",
+      "expectedResponse": "Can you dance?",
+      "evaluationCriteria": [
+        "[[Rising intonation at the end|Entonación ascendente al final]]",
+        "[[Stress on 'dance'|Acentuación en 'dance']]",
+        "[[Clear 'y' sound in 'you'|Sonido 'y' claro en 'you']]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u22-e75",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[I can't drive|No sé conducir]]",
+    "audioUrl": "audio/a1/unit-22/e75.mp3",
+    "content": {
+      "title": "[[Pronunciation: I can't drive|Pronunciación: I can't drive]]",
+      "instructions": "[[Listen and repeat focusing on the stress on 'can't'|Escucha y repite enfocándote en el acento en 'can't']].",
+      "expectedResponse": "I can't drive.",
+      "evaluationCriteria": [
+        "[[Stress on 'can't' to emphasize inability|Acentuación en 'can't' para enfatizar la falta de habilidad]]",
+        "[[Clear diphthong /aɪ/ in 'drive'|Diptongo /aɪ/ claro en 'drive']]",
+        "[[Clear final 'v' sound|Sonido 'v' final claro]]"
+      ]
+    }
   }
 ];
-
