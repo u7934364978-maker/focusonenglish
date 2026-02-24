@@ -1584,6 +1584,298 @@ export const A1_M1_L5_COLLOCATION_MATCHING = {
   ]
 };
 
+// LISTENING & PRONUNCIATION LESSON (EXERCISES 61-75)
+const LISTENING_AND_PRONUNCIATION: Exercise[] = [
+  // Listening Comprehension (61-68)
+  {
+    id: 'a1-u5-e61',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'This is my sister\'s car.',
+    audioUrl: 'audio/a1/unit-5/e61.mp3',
+    content: {
+      title: 'Listening: Possession',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q61',
+        type: 'multiple-choice',
+        question: 'Whose car is it?',
+        options: ['His sister\'s', 'His brother\'s', 'His mother\'s'],
+        correctAnswer: 'His sister\'s',
+        explanation: 'The speaker says: "my sister\'s car".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u5-e62',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'My father\'s name is John.',
+    audioUrl: 'audio/a1/unit-5/e62.mp3',
+    content: {
+      title: 'Listening: Names',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q62',
+        type: 'multiple-choice',
+        question: 'What is his father\'s name?',
+        options: ['Jack', 'John', 'James'],
+        correctAnswer: 'John',
+        explanation: 'The speaker says: "John".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u5-e63',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'Are they your parents? Yes, they are.',
+    audioUrl: 'audio/a1/unit-5/e63.mp3',
+    content: {
+      title: 'Listening: Family',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q63',
+        type: 'multiple-choice',
+        question: 'Who are they?',
+        options: ['His grandparents', 'His parents', 'His uncles'],
+        correctAnswer: 'His parents',
+        explanation: 'The speaker says: "Yes, they are" (his parents).'
+      }]
+    }
+  },
+  {
+    id: 'a1-u5-e64',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'I have two brothers and one sister.',
+    audioUrl: 'audio/a1/unit-5/e64.mp3',
+    content: {
+      title: 'Listening: Siblings',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q64',
+        type: 'multiple-choice',
+        question: 'How many brothers does he have?',
+        options: ['1', '2', '3'],
+        correctAnswer: '2',
+        explanation: 'The speaker says: "two brothers".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u5-e65',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'My grandmother is eighty years old.',
+    audioUrl: 'audio/a1/unit-5/e65.mp3',
+    content: {
+      title: 'Listening: Age',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q65',
+        type: 'multiple-choice',
+        question: 'How old is his grandmother?',
+        options: ['18', '80', '88'],
+        correctAnswer: '80',
+        explanation: 'The speaker says: "eighty".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u5-e66',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'He is my uncle\'s son.',
+    audioUrl: 'audio/a1/unit-5/e66.mp3',
+    content: {
+      title: 'Listening: Relationships',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q66',
+        type: 'multiple-choice',
+        question: 'Who is he?',
+        options: ['His cousin', 'His brother', 'His nephew'],
+        correctAnswer: 'His cousin',
+        explanation: 'The son of an uncle is a cousin.'
+      }]
+    }
+  },
+  {
+    id: 'a1-u5-e67',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'My mother has three sisters.',
+    audioUrl: 'audio/a1/unit-5/e67.mp3',
+    content: {
+      title: 'Listening: Family',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q67',
+        type: 'multiple-choice',
+        question: 'How many aunts does the speaker have?',
+        options: ['2', '3', '4'],
+        correctAnswer: '3',
+        explanation: 'His mother\'s sisters are his aunts.'
+      }]
+    }
+  },
+  {
+    id: 'a1-u5-e68',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'Is your brother married? No, he is single.',
+    audioUrl: 'audio/a1/unit-5/e68.mp3',
+    content: {
+      title: 'Listening: Status',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q68',
+        type: 'multiple-choice',
+        question: 'Is his brother married?',
+        options: ['Yes', 'No', 'Maybe'],
+        correctAnswer: 'No',
+        explanation: 'The speaker says: "No, he is single".'
+      }]
+    }
+  },
+  // Pronunciation Practice (69-75)
+  {
+    id: 'a1-u5-e69',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'My sister\'s name.',
+    audioUrl: 'audio/a1/unit-5/e69.mp3',
+    content: {
+      title: 'Pronunciation: Possessive \'s',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'My sister\'s name.',
+      evaluationCriteria: [
+        'Sonido /z/ claro al final de "sister\'s"',
+        'Liaison suave entre "sister\'s" y "name"',
+        'Vocal corta /ɪ/ en "sister"'
+      ]
+    }
+  },
+  {
+    id: 'a1-u5-e70',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'John\'s car is blue.',
+    audioUrl: 'audio/a1/unit-5/e70.mp3',
+    content: {
+      title: 'Pronunciation: Possession',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'John\'s car is blue.',
+      evaluationCriteria: [
+        'Sonido /z/ en "John\'s"',
+        'Vocal larga /uː/ en "blue"',
+        'Sonido /r/ suave en "car"'
+      ]
+    }
+  },
+  {
+    id: 'a1-u5-e71',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'I have two children.',
+    audioUrl: 'audio/a1/unit-5/e71.mp3',
+    content: {
+      title: 'Pronunciation: Irregular Plurals',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'I have two children.',
+      evaluationCriteria: [
+        'Acento en la primera sílaba "chil" (/ˈtʃɪldrən/)',
+        'Sonido /tʃ/ claro',
+        'Vocal corta /ɪ/ en "children"'
+      ]
+    }
+  },
+  {
+    id: 'a1-u5-e72',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'He is my uncle.',
+    audioUrl: 'audio/a1/unit-5/e72.mp3',
+    content: {
+      title: 'Pronunciation: Family',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'He is my uncle.',
+      evaluationCriteria: [
+        'Sonido /ʌ/ en "uncle" (/ˈʌŋkl/)',
+        'Sonido /ŋ/ nasal',
+        'Sonido /l/ silábico final'
+      ]
+    }
+  },
+  {
+    id: 'a1-u5-e73',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'Are they cousins?',
+    audioUrl: 'audio/a1/unit-5/e73.mp3',
+    content: {
+      title: 'Pronunciation: Questions',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'Are they cousins?',
+      evaluationCriteria: [
+        'Entonación ascendente',
+        'Sonido /ð/ en "they"',
+        'Sonido /z/ en "cousins" (/ˈkʌznz/)'
+      ]
+    }
+  },
+  {
+    id: 'a1-u5-e74',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'My parents\' house.',
+    audioUrl: 'audio/a1/unit-5/e74.mp3',
+    content: {
+      title: 'Pronunciation: Plural Possession',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'My parents\' house.',
+      evaluationCriteria: [
+        'Sonido /s/ final en "parents\'"',
+        'Diptongo /aʊ/ en "house"',
+        'Acento tónico en "house"'
+      ]
+    }
+  },
+  {
+    id: 'a1-u5-e75',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'She is an only child.',
+    audioUrl: 'audio/a1/unit-5/e75.mp3',
+    content: {
+      title: 'Pronunciation: Expressions',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'She is an only child.',
+      evaluationCriteria: [
+        'Liaison entre "is" y "an"',
+        'Diptongo /əʊ/ en "only"',
+        'Sonido /tʃ/ en "child"'
+      ]
+    }
+  }
+];
+
 export const A1_M1_L5_ALL_EXERCISES = [
   A1_M1_L5_GRAMMAR_1,
   A1_M1_L5_GRAMMAR_2,
@@ -1597,5 +1889,6 @@ export const A1_M1_L5_ALL_EXERCISES = [
   A1_M1_L5_SENTENCE_COMPLETION,
   A1_M1_L5_ERROR_IDENTIFICATION,
   A1_M1_L5_GAP_FILL,
-  A1_M1_L5_COLLOCATION_MATCHING
+  A1_M1_L5_COLLOCATION_MATCHING,
+  ...LISTENING_AND_PRONUNCIATION
 ];
