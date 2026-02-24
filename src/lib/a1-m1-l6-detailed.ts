@@ -1338,6 +1338,298 @@ export const A1_M1_L6_SENTENCE_REORDERING = {
   ]
 };
 
+// LISTENING & PRONUNCIATION LESSON (EXERCISES 61-75)
+const LISTENING_AND_PRONUNCIATION: Exercise[] = [
+  // Listening Comprehension (61-68)
+  {
+    id: 'a1-u6-e61',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'Hello, I am Emma and I am from Canada.',
+    audioUrl: 'audio/a1/unit-6/e61.mp3',
+    content: {
+      title: 'Listening: Introductions',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q61',
+        type: 'multiple-choice',
+        question: 'Where is Emma from?',
+        options: ['Spain', 'Canada', 'England'],
+        correctAnswer: 'Canada',
+        explanation: 'Emma says: "I am from Canada".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u6-e62',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'My husband is Spanish and he is thirty years old.',
+    audioUrl: 'audio/a1/unit-6/e62.mp3',
+    content: {
+      title: 'Listening: Family',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q62',
+        type: 'multiple-choice',
+        question: 'How old is her husband?',
+        options: ['13', '30', '33'],
+        correctAnswer: '30',
+        explanation: 'The speaker says: "thirty".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u6-e63',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'We have two children, a daughter and a son.',
+    audioUrl: 'audio/a1/unit-6/e63.mp3',
+    content: {
+      title: 'Listening: Children',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q63',
+        type: 'multiple-choice',
+        question: 'How many children do they have?',
+        options: ['1', '2', '3'],
+        correctAnswer: '2',
+        explanation: 'The speaker says: "two children".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u6-e64',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'Is Ana your sister? No, she is my friend.',
+    audioUrl: 'audio/a1/unit-6/e64.mp3',
+    content: {
+      title: 'Listening: Relationships',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q64',
+        type: 'multiple-choice',
+        question: 'Who is Ana?',
+        options: ['Her sister', 'Her friend', 'Her mother'],
+        correctAnswer: 'Her friend',
+        explanation: 'The speaker says: "she is my friend".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u6-e65',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'My phone number is five-five-five, eight-nine-two-one.',
+    audioUrl: 'audio/a1/unit-6/e65.mp3',
+    content: {
+      title: 'Listening: Phone Numbers',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q65',
+        type: 'multiple-choice',
+        question: 'What is the last number?',
+        options: ['1', '2', '3'],
+        correctAnswer: '1',
+        explanation: 'The speaker says: "one".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u6-e66',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'He is nineteen years old and he is a student.',
+    audioUrl: 'audio/a1/unit-6/e66.mp3',
+    content: {
+      title: 'Listening: Occupations',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q66',
+        type: 'multiple-choice',
+        question: 'What is his job?',
+        options: ['Doctor', 'Teacher', 'Student'],
+        correctAnswer: 'Student',
+        explanation: 'The speaker says: "he is a student".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u6-e67',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'Are you from Colombia? Yes, I am.',
+    audioUrl: 'audio/a1/unit-6/e67.mp3',
+    content: {
+      title: 'Listening: Nationalities',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q67',
+        type: 'multiple-choice',
+        question: 'Is the speaker from Colombia?',
+        options: ['Yes', 'No', 'Maybe'],
+        correctAnswer: 'Yes',
+        explanation: 'The speaker says: "Yes, I am".'
+      }]
+    }
+  },
+  {
+    id: 'a1-u6-e68',
+    type: 'listening-comprehension',
+    level: 'A1',
+    topicName: 'Listening',
+    transcript: 'My mother is a teacher and my father is a doctor.',
+    audioUrl: 'audio/a1/unit-6/e68.mp3',
+    content: {
+      title: 'Listening: Family Jobs',
+      instructions: 'Escucha y selecciona la respuesta correcta.',
+      questions: [{
+        id: 'q68',
+        type: 'multiple-choice',
+        question: 'What is her father\'s job?',
+        options: ['Teacher', 'Doctor', 'Nurse'],
+        correctAnswer: 'Doctor',
+        explanation: 'The speaker says: "my father is a doctor".'
+      }]
+    }
+  },
+  // Pronunciation Practice (69-75)
+  {
+    id: 'a1-u6-e69',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'I am from Canada.',
+    audioUrl: 'audio/a1/unit-6/e69.mp3',
+    content: {
+      title: 'Pronunciation: Nationalities',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'I am from Canada.',
+      evaluationCriteria: [
+        'Sonido /k/ fuerte en "Canada"',
+        'Acento tónico en la primera sílaba "Can" (/ˈkænədə/)',
+        'Vocal reducida (schwa) al final'
+      ]
+    }
+  },
+  {
+    id: 'a1-u6-e70',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'He is thirty.',
+    audioUrl: 'audio/a1/unit-6/e70.mp3',
+    content: {
+      title: 'Pronunciation: Numbers',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'He is thirty.',
+      evaluationCriteria: [
+        'Sonido /θ/ (th) sin voz en "thirty"',
+        'Vocal /ɜː/ en "thir"',
+        'Vocal final /i/ corta'
+      ]
+    }
+  },
+  {
+    id: 'a1-u6-e71',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'We speak English.',
+    audioUrl: 'audio/a1/unit-6/e71.mp3',
+    content: {
+      title: 'Pronunciation: Languages',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'We speak English.',
+      evaluationCriteria: [
+        'Vocal larga /iː/ en "speak"',
+        'Sonido /ŋ/ en "English"',
+        'Sonido /ʃ/ claro al final'
+      ]
+    }
+  },
+  {
+    id: 'a1-u6-e72',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'She is a student.',
+    audioUrl: 'audio/a1/unit-6/e72.mp3',
+    content: {
+      title: 'Pronunciation: Occupations',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'She is a student.',
+      evaluationCriteria: [
+        'Sonido /ʃ/ en "She"',
+        'Liaison entre "is" y "a"',
+        'Acento en "stu" (/ˈstjuːdnt/)'
+      ]
+    }
+  },
+  {
+    id: 'a1-u6-e73',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'They are happy.',
+    audioUrl: 'audio/a1/unit-6/e73.mp3',
+    content: {
+      title: 'Pronunciation: Moods',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'They are happy.',
+      evaluationCriteria: [
+        'Sonido /ð/ en "They"',
+        'Sonido /h/ aspirado en "happy"',
+        'Vocal final /i/ corta'
+      ]
+    }
+  },
+  {
+    id: 'a1-u6-e74',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'How do you spell it?',
+    audioUrl: 'audio/a1/unit-6/e74.mp3',
+    content: {
+      title: 'Pronunciation: Questions',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'How do you spell it?',
+      evaluationCriteria: [
+        'Entonación descendente',
+        'Sonido /h/ aspirado',
+        'Liaison entre "spell" e "it"'
+      ]
+    }
+  },
+  {
+    id: 'a1-u6-e75',
+    type: 'pronunciation',
+    level: 'A1',
+    topicName: 'Pronunciation',
+    transcript: 'Welcome to our school.',
+    audioUrl: 'audio/a1/unit-6/e75.mp3',
+    content: {
+      title: 'Pronunciation: Greetings',
+      instructions: 'Escucha la frase y repítela con claridad.',
+      expectedResponse: 'Welcome to our school.',
+      evaluationCriteria: [
+        'Sonido /w/ en "Welcome"',
+        'Diptongo /aʊə/ o /ɑː/ en "our"',
+        'Sonido /sk/ y vocal larga /uː/ en "school"'
+      ]
+    }
+  }
+];
+
 export const A1_M1_L6_ALL_EXERCISES = [
   A1_M1_L6_GRAMMAR_1,
   A1_M1_L6_GRAMMAR_2,
@@ -1351,5 +1643,6 @@ export const A1_M1_L6_ALL_EXERCISES = [
   A1_M1_L6_SENTENCE_COMPLETION,
   A1_M1_L6_ERROR_IDENTIFICATION,
   A1_M1_L6_GAP_FILL,
-  A1_M1_L6_SENTENCE_REORDERING
+  A1_M1_L6_SENTENCE_REORDERING,
+  ...LISTENING_AND_PRONUNCIATION
 ];
