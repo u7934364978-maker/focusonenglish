@@ -363,6 +363,374 @@
           ]
         }
       ]
+    },
+    {
+      "block_id": "B49_5",
+      "title": "Block 5: Listening & Pronunciation",
+      "content": [
+        {
+          "interaction_id": "U49_I301",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I need to pack my suitcase.",
+          "correct_answer": "I need to pack my suitcase.",
+          "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-1.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U49_I302",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Don't forget your phone charger.",
+          "correct_answer": "Don't forget your phone charger.",
+          "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-2.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U49_I303",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I have my passport and tickets.",
+          "correct_answer": "I have my passport and tickets.",
+          "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-3.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U49_I304",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Is your luggage heavy or light?",
+          "correct_answer": "Is your luggage heavy or light?",
+          "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-4.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U49_I305",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I need a universal adapter.",
+          "correct_answer": "I need a universal adapter.",
+          "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-5.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U49_I306",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Pack your swimsuit for the beach.",
+          "correct_answer": "Pack your swimsuit for the beach.",
+          "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-6.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U49_I307",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Where are my sunglasses?",
+          "correct_answer": "Where are my sunglasses?",
+          "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-7.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U49_I308",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Suitcase",
+          "instructions": "Escucha y repite enfocándote en la 's'.",
+          "targetSentences": [
+            {
+              "text": "My [[suitcase|maleta]] is [[blue|azul]].",
+              "phonetic": "/maɪ ˈsuːtkeɪs ɪz bluː/",
+              "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U49_I308_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 's' final en 'suitcase'?",
+              "options": [
+                { "id": "o1", "text": "Como un silbido sordo (/s/)" },
+                { "id": "o2", "text": "Como una 'z' vibrante" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U49_I309",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Charger",
+          "instructions": "Escucha y repite la 'ch'.",
+          "targetSentences": [
+            {
+              "text": "I [[need|necesito]] my [[charger|cargador]].",
+              "phonetic": "/aɪ niːd maɪ ˈtʃɑːdʒə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U49_I309_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ch' en 'charger'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'ch' española fuerte (/tʃ/)" },
+                { "id": "o2", "text": "Como una 'sh' suave" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U49_I310",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Passport",
+          "instructions": "Escucha y repite la 'p' aspirada.",
+          "targetSentences": [
+            {
+              "text": "Take your [[passport|pasaporte]].",
+              "phonetic": "/teɪk jɔː ˈpɑːspɔːt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U49_I310_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿La 'p' inicial en 'passport' expulsa aire?",
+              "options": [
+                { "id": "o1", "text": "Sí (Aspirada)" },
+                { "id": "o2", "text": "No" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U49_I311",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Adapter",
+          "instructions": "Escucha y repite el acento.",
+          "targetSentences": [
+            {
+              "text": "A [[universal|universal]] [[adapter|adaptador]].",
+              "phonetic": "/ˌjuːnɪˈvɜːsl əˈdæptə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U49_I311_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento en 'adapter'?",
+              "options": [
+                { "id": "o1", "text": "En la segunda sílaba (a-DAP-ter)" },
+                { "id": "o2", "text": "En la primera sílaba" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U49_I312",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Sunglasses",
+          "instructions": "Escucha y repite la palabra compuesta.",
+          "targetSentences": [
+            {
+              "text": "Wear your [[sunglasses|gafas de sol]].",
+              "phonetic": "/weə jɔː ˈsʌnɡlɑːsɪz/",
+              "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U49_I312_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuántas sílabas tiene 'sunglasses'?",
+              "options": [
+                { "id": "o1", "text": "Tres (SUN-glas-ses)" },
+                { "id": "o2", "text": "Dos" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U49_I313",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Heavy",
+          "instructions": "Escucha y repite la 'h' aspirada.",
+          "targetSentences": [
+            {
+              "text": "It is [[very|muy]] [[heavy|pesado]].",
+              "phonetic": "/ɪt ɪz ˈvɛri ˈhɛvi/",
+              "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U49_I313_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'h' en 'heavy'?",
+              "options": [
+                { "id": "o1", "text": "Como un suspiro suave (/h/)" },
+                { "id": "o2", "text": "Es muda" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U49_I314",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Light",
+          "instructions": "Escucha y repite la 'i' larga.",
+          "targetSentences": [
+            {
+              "text": "It is [[light|ligero]].",
+              "phonetic": "/ɪt ɪz laɪt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U49_I314_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena 'ight' en 'light'?",
+              "options": [
+                { "id": "o1", "text": "Como /aɪt/ (ait)" },
+                { "id": "o2", "text": "Como una 'i' simple" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U49_I315",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Repaso Packing",
+          "instructions": "Escucha y repite la frase completa.",
+          "targetSentences": [
+            {
+              "text": "I [[pack|empaqueto]] my [[bag|bolsa/maleta]].",
+              "phonetic": "/aɪ pæk maɪ bæɡ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U49_I315_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'a' en 'pack' y 'bag'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'a' abierta (/æ/)" },
+                { "id": "o2", "text": "Como una 'e' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

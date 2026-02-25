@@ -322,6 +322,374 @@
           "stimulus_en": "Maria has a small suitcase. It is blue and light. She packs her clothes and a book. Maria is ready for her trip. She smiles and leaves for the airport."
         }
       ]
+    },
+    {
+      "block_id": "B41_5",
+      "title": "Block 5: Listening & Pronunciation",
+      "content": [
+        {
+          "interaction_id": "U41_I301",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Where is the boarding gate?",
+          "correct_answer": "Where is the boarding gate?",
+          "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-1.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U41_I302",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Please show your passport.",
+          "correct_answer": "Please show your passport.",
+          "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-2.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U41_I303",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "The flight is on time.",
+          "correct_answer": "The flight is on time.",
+          "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-3.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U41_I304",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Is this your luggage?",
+          "correct_answer": "Is this your luggage?",
+          "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-4.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U41_I305",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "The check-in desk is closed.",
+          "correct_answer": "The check-in desk is closed.",
+          "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-5.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U41_I306",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Take your boarding pass.",
+          "correct_answer": "Take your boarding pass.",
+          "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-6.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U41_I307",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Wait in the lounge.",
+          "correct_answer": "Wait in the lounge.",
+          "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-7.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U41_I308",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Airport",
+          "instructions": "Escucha y repite enfocándote en la 'r'.",
+          "targetSentences": [
+            {
+              "text": "The [[airport|aeropuerto]] is [[busy|concurrido]].",
+              "phonetic": "/ði ˈeəpɔːt ɪz ˈbɪzi/",
+              "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U41_I308_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'r' en 'airport'?",
+              "options": [
+                { "id": "o1", "text": "Suave y retrofleja (/r/)" },
+                { "id": "o2", "text": "Fuerte como en español" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U41_I309",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Passport",
+          "instructions": "Practica la 'p' aspirada.",
+          "targetSentences": [
+            {
+              "text": "Here is my [[passport|pasaporte]].",
+              "phonetic": "/hɪə rɪz maɪ ˈpɑːspɔːt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U41_I309_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿La 'p' inicial en 'passport' expulsa un poco de aire?",
+              "options": [
+                { "id": "o1", "text": "Sí (Aspirada)" },
+                { "id": "o2", "text": "No" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U41_I310",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Flight",
+          "instructions": "Escucha y repite la 'i' larga.",
+          "targetSentences": [
+            {
+              "text": "My [[flight|vuelo]] is [[at|a las]] nine.",
+              "phonetic": "/maɪ flaɪt ɪz æt naɪn/",
+              "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U41_I310_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'igh' en 'flight'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'ai' (/aɪ/)" },
+                { "id": "o2", "text": "Como una 'i' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U41_I311",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Luggage",
+          "instructions": "Escucha y repite la 'g' final.",
+          "targetSentences": [
+            {
+              "text": "Where is my [[luggage|equipaje]]?",
+              "phonetic": "/weə rɪz maɪ ˈlʌɡɪdʒ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U41_I311_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ge' al final de 'luggage'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'y' o 'j' suave (/dʒ/)" },
+                { "id": "o2", "text": "Como una 'g' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U41_I312",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Gate",
+          "instructions": "Escucha y repite la 'a' larga.",
+          "targetSentences": [
+            {
+              "text": "Go to [[gate|puerta]] ten.",
+              "phonetic": "/ɡəʊ tə ɡeɪt tɛn/",
+              "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U41_I312_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'a' en 'gate'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'ei' (/eɪ/)" },
+                { "id": "o2", "text": "Como una 'a' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U41_I313",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Ticket",
+          "instructions": "Escucha y repite la 'i' corta.",
+          "targetSentences": [
+            {
+              "text": "Show your [[ticket|boleto]].",
+              "phonetic": "/ʃəʊ jɔː ˈtɪkɪt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U41_I313_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia la 'i' en 'ticket'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'i' corta y relajada (/ɪ/)" },
+                { "id": "o2", "text": "Como una 'i' española tensa" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U41_I314",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Suitcase",
+          "instructions": "Escucha y repite enfocándote en la 's'.",
+          "targetSentences": [
+            {
+              "text": "This is my [[suitcase|maleta]].",
+              "phonetic": "/ðɪs ɪz maɪ ˈsuːtkeɪs/",
+              "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U41_I314_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 's' final en 'suitcase'?",
+              "options": [
+                { "id": "o1", "text": "Como un silbido sordo (/s/)" },
+                { "id": "o2", "text": "Como una 'z' vibrante (/z/)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U41_I315",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Repaso Airport",
+          "instructions": "Escucha y repite la frase completa.",
+          "targetSentences": [
+            {
+              "text": "I [[have|tengo]] my [[boarding pass|tarjeta de embarque]].",
+              "phonetic": "/aɪ hæv maɪ ˈbɔːdɪŋ pɑːs/",
+              "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U41_I315_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento en 'boarding'?",
+              "options": [
+                { "id": "o1", "text": "En la primera sílaba (BOARD-ing)" },
+                { "id": "o2", "text": "En la segunda sílaba (board-ING)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

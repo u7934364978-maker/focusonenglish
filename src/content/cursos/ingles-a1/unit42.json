@@ -348,6 +348,374 @@
           "stimulus_en": "David is on the train. He sits by the window. He has a book in his hands. David opens the book and starts to read. The train is quiet. David likes reading. The book is about animals. David smiles as he reads. The train moves fast, but David is happy with his book."
         }
       ]
+    },
+    {
+      "block_id": "B42_5",
+      "title": "Block 5: Listening & Pronunciation",
+      "content": [
+        {
+          "interaction_id": "U42_I301",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "The train arrives at platform two.",
+          "correct_answer": "The train arrives at platform two.",
+          "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-1.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U42_I302",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I go to work by bus.",
+          "correct_answer": "I go to work by bus.",
+          "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-2.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U42_I303",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "The next bus is in ten minutes.",
+          "correct_answer": "The next bus is in ten minutes.",
+          "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-3.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U42_I304",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Please buy your ticket.",
+          "correct_answer": "Please buy your ticket.",
+          "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-4.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U42_I305",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "The station is very crowded.",
+          "correct_answer": "The station is very crowded.",
+          "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-5.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U42_I306",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Where is the bus stop?",
+          "correct_answer": "Where is the bus stop?",
+          "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-6.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U42_I307",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "The ferry leaves at noon.",
+          "correct_answer": "The ferry leaves at noon.",
+          "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-7.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U42_I308",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Train",
+          "instructions": "Escucha y repite la 'tr'.",
+          "targetSentences": [
+            {
+              "text": "The [[train|tren]] is [[fast|rápido]].",
+              "phonetic": "/ðə treɪn ɪz fɑːst/",
+              "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U42_I308_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'tr' en 'train'?",
+              "options": [
+                { "id": "o1", "text": "Como una 't' africada suave (/tr/)" },
+                { "id": "o2", "text": "Como la 'tr' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U42_I309",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Bus",
+          "instructions": "Escucha y repite la vocal corta.",
+          "targetSentences": [
+            {
+              "text": "I [[take|tomo]] the [[bus|autobús]].",
+              "phonetic": "/aɪ teɪk ðə bʌs/",
+              "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U42_I309_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'u' en 'bus'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'a' corta (/ʌ/)" },
+                { "id": "o2", "text": "Como una 'u' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U42_I310",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Station",
+          "instructions": "Escucha y repite la terminación '-tion'.",
+          "targetSentences": [
+            {
+              "text": "The [[station|estación]] is [[big|grande]].",
+              "phonetic": "/ðə ˈsteɪʃn ɪz bɪɡ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U42_I310_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena '-tion' en 'station'?",
+              "options": [
+                { "id": "o1", "text": "Como /ʃn/ (sh-n)" },
+                { "id": "o2", "text": "Como 'cion' en español" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U42_I311",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Platform",
+          "instructions": "Escucha y repite el acento de la palabra.",
+          "targetSentences": [
+            {
+              "text": "Go to the [[platform|andén]].",
+              "phonetic": "/ɡəʊ tə ðə ˈplætfɔːm/",
+              "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U42_I311_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuál es la sílaba tónica en 'platform'?",
+              "options": [
+                { "id": "o1", "text": "La primera (PLAT-form)" },
+                { "id": "o2", "text": "La segunda (plat-FORM)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U42_I312",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Bicycle",
+          "instructions": "Escucha y repite la pronunciación de 'bicycle'.",
+          "targetSentences": [
+            {
+              "text": "I [[ride|monto en]] my [[bicycle|bicicleta]].",
+              "phonetic": "/aɪ raɪd maɪ ˈbaɪsɪkl/",
+              "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U42_I312_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la primera 'i' en 'bicycle'?",
+              "options": [
+                { "id": "o1", "text": "Como /aɪ/ (ai)" },
+                { "id": "o2", "text": "Como /ɪ/ (i corta)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U42_I313",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Ferry",
+          "instructions": "Escucha y repite enfocándote en la 'f' inicial.",
+          "targetSentences": [
+            {
+              "text": "The [[ferry|ferri]] is [[here|aquí]].",
+              "phonetic": "/ðə ˈfɛri ɪz hɪə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U42_I313_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿La 'f' en 'ferry' es igual que en español?",
+              "options": [
+                { "id": "o1", "text": "Sí, es similar" },
+                { "id": "o2", "text": "No, es muy diferente" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U42_I314",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Motorbike",
+          "instructions": "Escucha y repite la palabra compuesta.",
+          "targetSentences": [
+            {
+              "text": "He [[rides|conduce]] a [[motorbike|moto]].",
+              "phonetic": "/hi raɪdz ə ˈməʊtəbaɪk/",
+              "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U42_I314_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuántos sonidos vocálicos fuertes (diptongos) hay en 'motorbike'?",
+              "options": [
+                { "id": "o1", "text": "Dos (/əʊ/ y /aɪ/)" },
+                { "id": "o2", "text": "Uno" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U42_I315",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Repaso Transport",
+          "instructions": "Escucha y repite la frase completa.",
+          "targetSentences": [
+            {
+              "text": "I [[travel|viajo]] [[by|en]] [[plane|avión]].",
+              "phonetic": "/aɪ ˈtrævl baɪ pleɪn/",
+              "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U42_I315_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'a' en 'travel'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'a' abierta (/æ/)" },
+                { "id": "o2", "text": "Como una 'e' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

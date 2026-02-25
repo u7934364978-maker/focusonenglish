@@ -322,6 +322,374 @@
           "stimulus_en": "Breakfast ends at 10:00 AM in the small cafe. Emily sits at a table. She drinks orange juice and eats toast. The sun shines through the window. She looks at her watch. It says 9:30 AM. She smiles because she has more time to enjoy her breakfast. She likes quiet mornings."
         }
       ]
+    },
+    {
+      "block_id": "B46_5",
+      "title": "Block 5: Listening & Pronunciation",
+      "content": [
+        {
+          "interaction_id": "U46_I301",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I would like a quiet room, please.",
+          "correct_answer": "I would like a quiet room, please.",
+          "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-1.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U46_I302",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Where is the reception desk?",
+          "correct_answer": "Where is the reception desk?",
+          "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-2.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U46_I303",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "The wifi password is on the card.",
+          "correct_answer": "The wifi password is on the card.",
+          "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-3.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U46_I304",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Breakfast is from seven to ten.",
+          "correct_answer": "Breakfast is from seven to ten.",
+          "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-4.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U46_I305",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Can I have another towel?",
+          "correct_answer": "Can I have another towel?",
+          "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-5.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U46_I306",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "My room is on the fourth floor.",
+          "correct_answer": "My room is on the fourth floor.",
+          "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-6.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U46_I307",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Please call a taxi for me.",
+          "correct_answer": "Please call a taxi for me.",
+          "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-7.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U46_I308",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Hotel",
+          "instructions": "Escucha y repite el acento en la segunda sílaba.",
+          "targetSentences": [
+            {
+              "text": "The [[hotel|hotel]] is [[near|cerca]].",
+              "phonetic": "/ðə həʊˈtɛl ɪz nɪə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U46_I308_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento en 'hotel'?",
+              "options": [
+                { "id": "o1", "text": "En la segunda sílaba (ho-TEL)" },
+                { "id": "o2", "text": "En la primera sílaba (HO-tel)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U46_I309",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Reception",
+          "instructions": "Escucha y repite la terminación '-tion'.",
+          "targetSentences": [
+            {
+              "text": "Go to [[reception|recepción]].",
+              "phonetic": "/ɡəʊ tə rɪˈsɛpʃn/",
+              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U46_I309_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'c' en 'reception'?",
+              "options": [
+                { "id": "o1", "text": "Como una 's' (/s/)" },
+                { "id": "o2", "text": "Como una 'k'" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U46_I310",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Room",
+          "instructions": "Escucha y repite la 'oo' larga.",
+          "targetSentences": [
+            {
+              "text": "My [[room|habitación]] is [[here|aquí]].",
+              "phonetic": "/maɪ ruːm ɪz hɪə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U46_I310_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'oo' en 'room'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'u' larga (/uː/)" },
+                { "id": "o2", "text": "Como una 'u' corta" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U46_I311",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Floor",
+          "instructions": "Escucha y repite la 'r' final.",
+          "targetSentences": [
+            {
+              "text": "The fifth [[floor|piso]].",
+              "phonetic": "/ðə fɪfθ flɔː/",
+              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U46_I311_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿En inglés británico, se pronuncia la 'r' final de 'floor' si es la última palabra?",
+              "options": [
+                { "id": "o1", "text": "No, suele ser muda" },
+                { "id": "o2", "text": "Sí, suena fuerte" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U46_I312",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Breakfast",
+          "instructions": "Escucha y repite enfocándote en la primera sílaba.",
+          "targetSentences": [
+            {
+              "text": "[[Breakfast|Desayuno]] is [[ready|listo]].",
+              "phonetic": "/ˈbrɛkfəst ɪz ˈrɛdi/",
+              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U46_I312_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ea' en 'breakfast'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'e' corta (/ɛ/)" },
+                { "id": "o2", "text": "Como una 'i' larga (/iː/)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U46_I313",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Wifi",
+          "instructions": "Escucha y repite los diptongos.",
+          "targetSentences": [
+            {
+              "text": "The [[wifi|wifi]] is [[free|gratis]].",
+              "phonetic": "/ˈwaɪfaɪ ɪz friː/",
+              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U46_I313_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'i' en 'wifi'?",
+              "options": [
+                { "id": "o1", "text": "Como /aɪ/ (ai)" },
+                { "id": "o2", "text": "Como una 'i' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U46_I314",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Card",
+          "instructions": "Escucha y repite la 'r' suave.",
+          "targetSentences": [
+            {
+              "text": "The key [[card|tarjeta]].",
+              "phonetic": "/ðə kiː kɑːd/",
+              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U46_I314_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ar' en 'card'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'a' larga y profunda (/ɑː/)" },
+                { "id": "o2", "text": "Como una 'e' abierta" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U46_I315",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Repaso Hotel",
+          "instructions": "Escucha y repite la frase completa.",
+          "targetSentences": [
+            {
+              "text": "I [[would like|querría]] to [[check-out|irme del hotel]].",
+              "phonetic": "/aɪ wʊd laɪk tə tʃɛk aʊt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U46_I315_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Se pronuncia la 'l' en 'would'?",
+              "options": [
+                { "id": "o1", "text": "No, es muda" },
+                { "id": "o2", "text": "Sí, suena suavemente" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

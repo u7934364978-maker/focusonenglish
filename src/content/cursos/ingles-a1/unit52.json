@@ -354,6 +354,374 @@
           ]
         }
       ]
+    },
+    {
+      "block_id": "B52_5",
+      "title": "Block 5: Listening & Pronunciation",
+      "content": [
+        {
+          "interaction_id": "U52_I101",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I want an apple.",
+          "correct_answer": "I want an apple.",
+          "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-1.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U52_I102",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I have some milk.",
+          "correct_answer": "I have some milk.",
+          "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-2.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U52_I103",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "There is some bread.",
+          "correct_answer": "There is some bread.",
+          "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-3.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U52_I104",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "She eats an orange.",
+          "correct_answer": "She eats an orange.",
+          "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-4.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U52_I105",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Do you want some water?",
+          "correct_answer": "Do you want some water?",
+          "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-5.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U52_I106",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "We have some rice.",
+          "correct_answer": "We have some rice.",
+          "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-6.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U52_I107",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "They need some sugar.",
+          "correct_answer": "They need some sugar.",
+          "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-7.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U52_I108",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Bread",
+          "instructions": "Escucha y repite la 'ea'.",
+          "targetSentences": [
+            {
+              "text": "I like [[bread|pan]].",
+              "phonetic": "/brɛd/",
+              "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U52_I108_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ea' en 'bread'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'e' corta (/ɛ/)" },
+                { "id": "o2", "text": "Como una 'i' larga (/iː/)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U52_I109",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Sugar",
+          "instructions": "La 's' inicial suena como /ʃ/.",
+          "targetSentences": [
+            {
+              "text": "Do you have [[sugar|azúcar]]?",
+              "phonetic": "/ˈʃʊɡə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U52_I109_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 's' inicial en 'sugar'?",
+              "options": [
+                { "id": "o1", "text": "Como pidiendo silencio (shhh)" },
+                { "id": "o2", "text": "Como una 's' normal" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U52_I110",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Water",
+          "instructions": "Escucha y repite enfocándote en la 't'.",
+          "targetSentences": [
+            {
+              "text": "I drink [[water|agua]].",
+              "phonetic": "/ˈwɔːtə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U52_I110_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuántas sílabas tiene 'water'?",
+              "options": [
+                { "id": "o1", "text": "Dos (wa-ter)" },
+                { "id": "o2", "text": "Una" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U52_I111",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Milk",
+          "instructions": "Escucha y repite la 'i' corta.",
+          "targetSentences": [
+            {
+              "text": "I drink [[milk|leche]].",
+              "phonetic": "/mɪlk/",
+              "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U52_I111_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'i' en 'milk'?",
+              "options": [
+                { "id": "o1", "text": "Corta (/ɪ/)" },
+                { "id": "o2", "text": "Como 'ai' (/aɪ/)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U52_I112",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Orange",
+          "instructions": "Escucha y repite la 'g' final.",
+          "targetSentences": [
+            {
+              "text": "Eat an [[orange|naranja]].",
+              "phonetic": "/ˈɒrɪndʒ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U52_I112_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento en 'orange'?",
+              "options": [
+                { "id": "o1", "text": "En la primera sílaba (O-range)" },
+                { "id": "o2", "text": "En la segunda sílaba" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U52_I113",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Rice",
+          "instructions": "La 'c' suena como /s/.",
+          "targetSentences": [
+            {
+              "text": "I eat [[rice|arroz]].",
+              "phonetic": "/raɪs/",
+              "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U52_I113_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'i' en 'rice'?",
+              "options": [
+                { "id": "o1", "text": "Como /aɪ/ (ai)" },
+                { "id": "o2", "text": "Como 'i' simple" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U52_I114",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Apple",
+          "instructions": "La 'a' suena como /æ/.",
+          "targetSentences": [
+            {
+              "text": "I have an [[apple|manzana]].",
+              "phonetic": "/ˈæpl/",
+              "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U52_I114_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Se pronuncia la 'e' final en 'apple'?",
+              "options": [
+                { "id": "o1", "text": "No, es silenciosa" },
+                { "id": "o2", "text": "Sí" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U52_I115",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Some",
+          "instructions": "Escucha y repite.",
+          "targetSentences": [
+            {
+              "text": "I need [[some|un poco de]] coffee.",
+              "phonetic": "/sʌm/",
+              "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U52_I115_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'o' en 'some'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'a' corta (/ʌ/)" },
+                { "id": "o2", "text": "Como una 'o' cerrada" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

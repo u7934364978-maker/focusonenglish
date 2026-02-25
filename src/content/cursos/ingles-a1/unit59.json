@@ -392,6 +392,374 @@
           ]
         }
       ]
+    },
+    {
+      "block_id": "B59_5",
+      "title": "Block 5: Listening & Pronunciation",
+      "content": [
+        {
+          "interaction_id": "U59_I101",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I like reading books.",
+          "correct_answer": "I like reading books.",
+          "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-1.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U59_I102",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "She loves cooking dinner.",
+          "correct_answer": "She loves cooking dinner.",
+          "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-2.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U59_I103",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "They enjoy swimming.",
+          "correct_answer": "They enjoy swimming.",
+          "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-3.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U59_I104",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I hate dancing.",
+          "correct_answer": "I hate dancing.",
+          "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-4.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U59_I105",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "We meet friends on Sunday.",
+          "correct_answer": "We meet friends on Sunday.",
+          "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-5.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U59_I106",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I watch movies in my spare time.",
+          "correct_answer": "I watch movies in my spare time.",
+          "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-6.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U59_I107",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "He likes playing video games.",
+          "correct_answer": "He likes playing video games.",
+          "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-7.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U59_I108",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Reading",
+          "instructions": "La 'ea' suena como /iː/.",
+          "targetSentences": [
+            {
+              "text": "I like [[reading|leer]].",
+              "phonetic": "/ˈriːdɪŋ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U59_I108_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ea' en 'reading'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'i' larga (/iː/)" },
+                { "id": "o2", "text": "Como una 'e' corta" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U59_I109",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Dancing",
+          "instructions": "Escucha y repite la 'a' larga en inglés británico.",
+          "targetSentences": [
+            {
+              "text": "I like [[dancing|bailar]].",
+              "phonetic": "/ˈdɑːnsɪŋ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U59_I109_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'a' en 'dancing'?",
+              "options": [
+                { "id": "o1", "text": "Como /ɑː/ (ah larga)" },
+                { "id": "o2", "text": "Como una 'e' corta" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U59_I110",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Swimming",
+          "instructions": "Escucha y repite la 'i' corta.",
+          "targetSentences": [
+            {
+              "text": "I enjoy [[swimming|nadar]].",
+              "phonetic": "/ˈswɪmɪŋ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U59_I110_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'i' en 'swimming'?",
+              "options": [
+                { "id": "o1", "text": "Corta (/ɪ/)" },
+                { "id": "o2", "text": "Larga (/iː/)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U59_I111",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Hobby",
+          "instructions": "Escucha y repite la 'h' aspirada.",
+          "targetSentences": [
+            {
+              "text": "My [[hobby|afición]] is art.",
+              "phonetic": "/ˈhɒbi/",
+              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U59_I111_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'h' inicial?",
+              "options": [
+                { "id": "o1", "text": "Aspirada (como un suspiro)" },
+                { "id": "o2", "text": "Como una 'j' fuerte española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U59_I112",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Spare time",
+          "instructions": "Escucha y repite la frase.",
+          "targetSentences": [
+            {
+              "text": "In my [[spare time|tiempo libre]].",
+              "phonetic": "/speə taɪm/",
+              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U59_I112_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'a' en 'spare'?",
+              "options": [
+                { "id": "o1", "text": "Como /eə/ (e-a suave)" },
+                { "id": "o2", "text": "Como una 'a' fuerte" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U59_I113",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Movie",
+          "instructions": "La 'ie' suena como /i/.",
+          "targetSentences": [
+            {
+              "text": "Watch a [[movie|película]].",
+              "phonetic": "/ˈmuːvi/",
+              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U59_I113_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento en 'movie'?",
+              "options": [
+                { "id": "o1", "text": "En la primera sílaba (MO-vie)" },
+                { "id": "o2", "text": "En la segunda sílaba" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U59_I114",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Cooking",
+          "instructions": "La 'oo' suena como /ʊ/ corta.",
+          "targetSentences": [
+            {
+              "text": "I love [[cooking|cocinar]].",
+              "phonetic": "/ˈkʊkɪŋ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U59_I114_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'oo' en 'cooking'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'u' corta (/ʊ/)" },
+                { "id": "o2", "text": "Como una 'o' larga" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U59_I115",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Preferences",
+          "instructions": "Escucha y repite la palabra completa.",
+          "targetSentences": [
+            {
+              "text": "Talk about [[preferences|preferencias]].",
+              "phonetic": "/ˈprɛfrənsɪz/",
+              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U59_I115_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuántas sílabas se suelen pronunciar en 'preferences'?",
+              "options": [
+                { "id": "o1", "text": "Tres (pref-ren-ces)" },
+                { "id": "o2", "text": "Cuatro (pre-fer-en-ces)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -306,6 +306,375 @@
           "stimulus_en": "David is a dancer. He loves to dance every day. He dances in the park. Many people watch him. They clap and smile. David is happy when he dances. Maria, his friend, watches him too. The judge from the dance competition is there. David hopes to win. He practices a lot and dreams of being the best dancer."
         }
       ]
+    },
+    {
+      "block_id": "B37_5",
+      "title": "Lesson 5: Listening & Pronunciation Practice",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "A1_U37_B37_5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-1.mp3",
+          "transcript_template": "[[He|Él]] [[is|es]] [[very|muy]] ________.",
+          "correct_answer": "creative",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U37_B37_5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-2.mp3",
+          "transcript_template": "[[She|Ella]] [[works|trabaja]] ________ [[well|bien]].",
+          "correct_answer": "quite",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U37_B37_5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-3.mp3",
+          "transcript_template": "[[I|Yo]] [[am|soy]] [[not|no]] ________ [[at all|para nada]].",
+          "correct_answer": "fast",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U37_B37_5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-4.mp3",
+          "transcript_template": "[[They|Ellos]] [[are|son]] ________ [[students|estudiantes]].",
+          "correct_answer": "hardworking",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U37_B37_5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-5.mp3",
+          "transcript_template": "________ [[you|tú]] [[play|tocar]] [[the piano|el piano]] [[well|bien]]?",
+          "correct_answer": "Can",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U37_B37_5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-6.mp3",
+          "transcript_template": "[[I|Yo]] [[can|puedo]] ________ [[very well|muy bien]].",
+          "correct_answer": "sing",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U37_B37_5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-7.mp3",
+          "transcript_template": "[[He|Él]] [[is|es]] a [[fast|rápido]] ________.",
+          "correct_answer": "runner",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U37_B37_5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Creative",
+          "instructions": "Practica el sonido /i/ largo y el diptongo /eɪ/.",
+          "targetSentences": [
+            {
+              "text": "[[She|Ella]] [[is|es]] [[very|muy]] [[creative|creativa]].",
+              "phonetic": "/ʃi ɪz ˈvɛri kriˈeɪtɪv/",
+              "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U37_B37_5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuál es la sílaba tónica en 'creative'?",
+              "options": [
+                { "id": "o1", "text": "La segunda (cre-A-tive)" },
+                { "id": "o2", "text": "La primera (CRE-a-tive)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U37_B37_5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Hardworking",
+          "instructions": "Practica la pronunciación de la 'h' aspirada.",
+          "targetSentences": [
+            {
+              "text": "[[He|Él]] [[is|es]] [[hardworking|trabajador]].",
+              "phonetic": "/hi ɪz ˈhɑːdˌwɜːkɪŋ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U37_B37_5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'h' en 'hardworking'?",
+              "options": [
+                { "id": "o1", "text": "Como un suspiro suave (aspirada)" },
+                { "id": "o2", "text": "Es muda como en español" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U37_B37_5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Fast",
+          "instructions": "Practica la 'a' larga británica (/ɑː/).",
+          "targetSentences": [
+            {
+              "text": "[[I|Yo]] [[am|soy]] [[fast|rápido]].",
+              "phonetic": "/aɪ æm fɑːst/",
+              "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U37_B37_5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'a' en 'fast'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'a' abierta y profunda (/ɑː/)" },
+                { "id": "o2", "text": "Como una 'e' corta" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U37_B37_5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Talent",
+          "instructions": "Practica el sonido /æ/ inicial.",
+          "targetSentences": [
+            {
+              "text": "[[He|Él]] [[has|tiene]] [[talent|talento]].",
+              "phonetic": "/hi hæz ˈtælənt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U37_B37_5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'a' en 'talent'?",
+              "options": [
+                { "id": "o1", "text": "Como una mezcla entre 'a' y 'e' (/æ/)" },
+                { "id": "o2", "text": "Como una 'o'" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U37_B37_5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Skills",
+          "instructions": "Practica la 'i' corta (/ɪ/).",
+          "targetSentences": [
+            {
+              "text": "[[New|Nuevas]] [[skills|habilidades]].",
+              "phonetic": "/njuː skɪlz/",
+              "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U37_B37_5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿La 'i' en 'skills' es larga o corta?",
+              "options": [
+                { "id": "o1", "text": "Corta (/ɪ/)" },
+                { "id": "o2", "text": "Larga (/iː/)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U37_B37_5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Runner",
+          "instructions": "Practica la 'u' corta (/ʌ/).",
+          "targetSentences": [
+            {
+              "text": "[[A|Un]] [[fast|rápido]] [[runner|corredor]].",
+              "phonetic": "/ə fɑːst ˈrʌnə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U37_B37_5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'u' en 'runner'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'a' corta y central (/ʌ/)" },
+                { "id": "o2", "text": "Como una 'u' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U37_B37_5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Sing",
+          "instructions": "Practica el sonido nasal final /ŋ/.",
+          "targetSentences": [
+            {
+              "text": "[[I|Yo]] [[can|puedo]] [[sing|cantar]].",
+              "phonetic": "/aɪ kən sɪŋ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U37_B37_5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Se debe pronunciar una 'g' fuerte al final de 'sing'?",
+              "options": [
+                { "id": "o1", "text": "No, es un sonido nasal suave" },
+                { "id": "o2", "text": "Sí, como en 'gato'" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U37_B37_5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Quite well",
+          "instructions": "Practica la 'q' (/kw/) y la 'w' (/w/).",
+          "targetSentences": [
+            {
+              "text": "[[Quite|Bastante]] [[well|bien]].",
+              "phonetic": "/kwaɪt wɛl/",
+              "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U37_B37_5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'w' en 'well'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'u' rápida" },
+                { "id": "o2", "text": "Como una 'g' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -5665,6 +5665,7 @@
         {
           "interaction_id": "U50_I301",
           "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
           "title": "Pronunciation Practice - Travel & Weather",
           "instructions": "Practice travel and weather vocabulary. Focus on accurate vowel sounds and word stress.",
           "focusPoints": [
@@ -5713,6 +5714,7 @@
         {
           "interaction_id": "U50_I302",
           "type": "speaking",
+          "prompt_es": "Imagina que estás en la recepción de un hotel. Haz el check-in y pregunta por las instalaciones. Menciona también el clima.",
           "prompt": "Imagine you're at a hotel reception. Check in and ask about the facilities. Mention the weather too.",
           "expectedResponse": "Hello, I have a reservation for two nights under the name Smith. Can you tell me what time breakfast is served? Also, what's the weather forecast for tomorrow? I'd like to visit the beach.",
           "hints": [
@@ -5724,6 +5726,374 @@
           "targetWords": ["reservation", "room", "weather", "breakfast"],
           "timeLimit": 90,
           "mastery_tag": "speaking"
+        }
+      ]
+    },
+    {
+      "block_id": "B50_5",
+      "title": "Block 5: Listening & Pronunciation Review",
+      "content": [
+        {
+          "interaction_id": "U50_I303",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I need to go to the airport.",
+          "correct_answer": "I need to go to the airport.",
+          "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-1.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U50_I304",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "The weather is sunny and warm.",
+          "correct_answer": "The weather is sunny and warm.",
+          "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-2.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U50_I305",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "We are staying at a nice hotel.",
+          "correct_answer": "We are staying at a nice hotel.",
+          "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-3.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U50_I306",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Take your passport and boarding pass.",
+          "correct_answer": "Take your passport and boarding pass.",
+          "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-4.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U50_I307",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I enjoy sightseeing in new cities.",
+          "correct_answer": "I enjoy sightseeing in new cities.",
+          "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-5.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U50_I308",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "The bus arrives at ten o'clock.",
+          "correct_answer": "The bus arrives at ten o'clock.",
+          "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-6.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U50_I309",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Is it rainy in London now?",
+          "correct_answer": "Is it rainy in London now?",
+          "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-7.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U50_I310",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Review Travel",
+          "instructions": "Escucha y repite enfocándote en las vocales.",
+          "targetSentences": [
+            {
+              "text": "The [[flight|vuelo]] is [[delayed|retrasado]].",
+              "phonetic": "/ðə flaɪt ɪz dɪˈleɪd/",
+              "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U50_I310_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'igh' en 'flight'?",
+              "options": [
+                { "id": "o1", "text": "Como /aɪ/ (ai)" },
+                { "id": "o2", "text": "Como una 'i' simple" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U50_I311",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Review Hotel",
+          "instructions": "Escucha y repite la 'h' inicial.",
+          "targetSentences": [
+            {
+              "text": "The [[hotel|hotel]] is [[expensive|caro]].",
+              "phonetic": "/ðə həʊˈtɛl ɪz ɪkˈspɛnsɪv/",
+              "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U50_I311_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento en 'hotel'?",
+              "options": [
+                { "id": "o1", "text": "En la segunda sílaba (ho-TEL)" },
+                { "id": "o2", "text": "En la primera sílaba (HO-tel)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U50_I312",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Review Weather",
+          "instructions": "Escucha y repite la 'th'.",
+          "targetSentences": [
+            {
+              "text": "The [[weather|clima]] is [[awful|horrible]].",
+              "phonetic": "/ðə ˈwɛðə rɪz ˈɔːfl/",
+              "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U50_I312_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'th' en 'weather'?",
+              "options": [
+                { "id": "o1", "text": "Vibrante como una 'd' suave (/ð/)" },
+                { "id": "o2", "text": "Como una 'z' española (/θ/)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U50_I313",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Review Seasons",
+          "instructions": "Escucha y repite la 'au' de autumn.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] [[autumn|otoño]].",
+              "phonetic": "/aɪ laɪk ˈɔːtəm/",
+              "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U50_I313_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'au' en 'autumn'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'o' larga (/ɔː/)" },
+                { "id": "o2", "text": "Como una 'au' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U50_I314",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Review Packing",
+          "instructions": "Escucha y repite la palabra compuesta.",
+          "targetSentences": [
+            {
+              "text": "Where is my [[suitcase|maleta]]?",
+              "phonetic": "/weə rɪz maɪ ˈsuːtkeɪs/",
+              "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U50_I314_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 's' final en 'suitcase'?",
+              "options": [
+                { "id": "o1", "text": "Sorda como un silbido (/s/)" },
+                { "id": "o2", "text": "Vibrante como una abeja" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U50_I315",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Review Destination",
+          "instructions": "Escucha y repite la frase.",
+          "targetSentences": [
+            {
+              "text": "My [[destination|destino]] is Spain.",
+              "phonetic": "/maɪ ˌdɛstɪˈneɪʃn ɪz speɪn/",
+              "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U50_I315_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento principal en 'destination'?",
+              "options": [
+                { "id": "o1", "text": "En la tercera sílaba (-NA-)" },
+                { "id": "o2", "text": "En la primera sílaba (DES-)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U50_I316",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Review Vacation",
+          "instructions": "Escucha y repite enfocándote en la terminación.",
+          "targetSentences": [
+            {
+              "text": "I am on [[vacation|vacaciones]].",
+              "phonetic": "/aɪ æm ɒn vəˈkeɪʃn/",
+              "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U50_I316_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la terminación '-tion'?",
+              "options": [
+                { "id": "o1", "text": "Como /ʃn/ (sh-n)" },
+                { "id": "o2", "text": "Como 'cion' español" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U50_I317",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Module 5 Wrap-up",
+          "instructions": "Escucha y repite la frase de cierre.",
+          "targetSentences": [
+            {
+              "text": "I [[can|puedo]] [[travel|viajar]] [[confidently|con confianza]].",
+              "phonetic": "/aɪ kæn ˈtrævl ˈkɒnfɪdəntli/",
+              "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U50_I317_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'a' en 'travel'?",
+              "options": [
+                { "id": "o1", "text": "Abierta (/æ/)" },
+                { "id": "o2", "text": "Cerrada como una 'e' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
         }
       ]
     }

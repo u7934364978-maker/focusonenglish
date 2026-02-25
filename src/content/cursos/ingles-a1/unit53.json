@@ -287,6 +287,374 @@
           ]
         }
       ]
+    },
+    {
+      "block_id": "B53_5",
+      "title": "Block 5: Listening & Pronunciation",
+      "content": [
+        {
+          "interaction_id": "U53_I101",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I have some butter.",
+          "correct_answer": "I have some butter.",
+          "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-1.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U53_I102",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I don't have any salt.",
+          "correct_answer": "I don't have any salt.",
+          "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-2.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U53_I103",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Do you have any sugar?",
+          "correct_answer": "Do you have any sugar?",
+          "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-3.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U53_I104",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "We need some flour.",
+          "correct_answer": "We need some flour.",
+          "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-4.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U53_I105",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "There isn't any cheese.",
+          "correct_answer": "There isn't any cheese.",
+          "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-5.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U53_I106",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I want some eggs.",
+          "correct_answer": "I want some eggs.",
+          "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-6.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U53_I107",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Are there any bananas?",
+          "correct_answer": "Are there any bananas?",
+          "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-7.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U53_I108",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Flour",
+          "instructions": "Suena igual que 'flower'.",
+          "targetSentences": [
+            {
+              "text": "I need some [[flour|harina]].",
+              "phonetic": "/ˈflaʊə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U53_I108_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'flour'?",
+              "options": [
+                { "id": "o1", "text": "Como 'flower' (/ˈflaʊə/)" },
+                { "id": "o2", "text": "Como 'floor'" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U53_I109",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Butter",
+          "instructions": "Escucha y repite la 'u' corta.",
+          "targetSentences": [
+            {
+              "text": "Get some [[butter|mantequilla]].",
+              "phonetic": "/ˈbʌtə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U53_I109_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'u' en 'butter'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'a' corta (/ʌ/)" },
+                { "id": "o2", "text": "Como una 'u' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U53_I110",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Cheese",
+          "instructions": "Escucha y repite la 'ee' larga.",
+          "targetSentences": [
+            {
+              "text": "I like [[cheese|queso]].",
+              "phonetic": "/tʃiːz/",
+              "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U53_I110_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 's' final en 'cheese'?",
+              "options": [
+                { "id": "o1", "text": "Vibrante (/z/)" },
+                { "id": "o2", "text": "Sorda (/s/)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U53_I111",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Any",
+          "instructions": "La 'a' suena como /ɛ/.",
+          "targetSentences": [
+            {
+              "text": "I don't have [[any|nada de]] salt.",
+              "phonetic": "/ˈɛni/",
+              "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U53_I111_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'a' en 'any'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'e' (/ɛ/)" },
+                { "id": "o2", "text": "Como una 'a'" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U53_I112",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Bread",
+          "instructions": "Escucha y repite.",
+          "targetSentences": [
+            {
+              "text": "Eat some [[bread|pan]].",
+              "phonetic": "/brɛd/",
+              "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U53_I112_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ea' en 'bread'?",
+              "options": [
+                { "id": "o1", "text": "Corta (/ɛ/)" },
+                { "id": "o2", "text": "Larga (/iː/)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U53_I113",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Cookies",
+          "instructions": "Escucha y repite la 'oo'.",
+          "targetSentences": [
+            {
+              "text": "I have some [[cookies|galletas]].",
+              "phonetic": "/ˈkʊkiz/",
+              "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U53_I113_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'oo' en 'cookies'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'u' corta (/ʊ/)" },
+                { "id": "o2", "text": "Como una 'o'" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U53_I114",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Banana",
+          "instructions": "Escucha y repite la acentuación.",
+          "targetSentences": [
+            {
+              "text": "There are some [[bananas|plátanos]].",
+              "phonetic": "/bəˈnɑːnəz/",
+              "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U53_I114_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento en 'banana'?",
+              "options": [
+                { "id": "o1", "text": "En la segunda sílaba (ba-NA-na)" },
+                { "id": "o2", "text": "En la primera sílaba" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U53_I115",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Bottle",
+          "instructions": "Escucha y repite la 'o'.",
+          "targetSentences": [
+            {
+              "text": "A [[bottle|botella]] of water.",
+              "phonetic": "/ˈbɒtl/",
+              "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U53_I115_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuántas sílabas tiene 'bottle'?",
+              "options": [
+                { "id": "o1", "text": "Dos (bot-tle)" },
+                { "id": "o2", "text": "Una" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

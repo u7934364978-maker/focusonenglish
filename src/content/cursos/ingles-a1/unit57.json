@@ -410,6 +410,374 @@
           ]
         }
       ]
+    },
+    {
+      "block_id": "B57_5",
+      "title": "Block 5: Listening & Pronunciation",
+      "content": [
+        {
+          "interaction_id": "U57_I101",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "There is a mirror on the wall.",
+          "correct_answer": "There is a mirror on the wall.",
+          "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-1.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U57_I102",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I have two lamps.",
+          "correct_answer": "I have two lamps.",
+          "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-2.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U57_I103",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "The children are in the garden.",
+          "correct_answer": "The children are in the garden.",
+          "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-3.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U57_I104",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Are there any people here?",
+          "correct_answer": "Are there any people here?",
+          "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-4.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U57_I105",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I need a new rug.",
+          "correct_answer": "I need a new rug.",
+          "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-5.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U57_I106",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Those are nice watches.",
+          "correct_answer": "Those are nice watches.",
+          "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-6.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U57_I107",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "The women are talking.",
+          "correct_answer": "The women are talking.",
+          "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-7.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U57_I108",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Children",
+          "instructions": "La 'i' es corta.",
+          "targetSentences": [
+            {
+              "text": "The [[children|niños]].",
+              "phonetic": "/ˈtʃɪldrən/",
+              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U57_I108_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'i' en 'children'?",
+              "options": [
+                { "id": "o1", "text": "Corta (/ɪ/)" },
+                { "id": "o2", "text": "Larga (/aɪ/)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U57_I109",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Women",
+          "instructions": "Atención: la primera 'o' suena como /ɪ/.",
+          "targetSentences": [
+            {
+              "text": "The [[women|mujeres]].",
+              "phonetic": "/ˈwɪmɪn/",
+              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U57_I109_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'o' en 'women'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'i' corta (/ɪ/)" },
+                { "id": "o2", "text": "Como una 'o' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U57_I110",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Mirror",
+          "instructions": "Escucha y repite la 'r' suave.",
+          "targetSentences": [
+            {
+              "text": "Look at the [[mirror|espejo]].",
+              "phonetic": "/ˈmɪrə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U57_I110_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuántas sílabas tiene 'mirror'?",
+              "options": [
+                { "id": "o1", "text": "Dos (mir-ror)" },
+                { "id": "o2", "text": "Una" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U57_I111",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: People",
+          "instructions": "Escucha y repite la 'p' inicial.",
+          "targetSentences": [
+            {
+              "text": "Many [[people|gente]].",
+              "phonetic": "/ˈpiːpl/",
+              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U57_I111_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'eo' en 'people'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'i' larga (/iː/)" },
+                { "id": "o2", "text": "Como 'eo' separado" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U57_I112",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Watches",
+          "instructions": "La terminación '-es' suena como /ɪz/.",
+          "targetSentences": [
+            {
+              "text": "Two [[watches|relojes]].",
+              "phonetic": "/ˈwɒtʃɪz/",
+              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U57_I112_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la terminación '-es' en 'watches'?",
+              "options": [
+                { "id": "o1", "text": "Como una sílaba extra (/ɪz/)" },
+                { "id": "o2", "text": "Es silenciosa" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U57_I113",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Cushion",
+          "instructions": "La 'sh' suena como /ʃ/.",
+          "targetSentences": [
+            {
+              "text": "Soft [[cushion|cojín]].",
+              "phonetic": "/ˈkʊʃn/",
+              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U57_I113_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'sh' en 'cushion'?",
+              "options": [
+                { "id": "o1", "text": "Como pidiendo silencio (shhh)" },
+                { "id": "o2", "text": "Como la 'ch' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U57_I114",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Vase",
+          "instructions": "Escucha y repite la 'v' (no 'b').",
+          "targetSentences": [
+            {
+              "text": "A flower [[vase|jarrón]].",
+              "phonetic": "/vɑːz/",
+              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U57_I114_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'v' inicial?",
+              "options": [
+                { "id": "o1", "text": "Labiodental (dientes sobre labio)" },
+                { "id": "o2", "text": "Como una 'b' bilabial" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U57_I115",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Household",
+          "instructions": "Escucha y repite la palabra compuesta.",
+          "targetSentences": [
+            {
+              "text": "[[Household|Del hogar]] objects.",
+              "phonetic": "/ˈhaʊshəʊld/",
+              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U57_I115_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'h' inicial?",
+              "options": [
+                { "id": "o1", "text": "Aspirada (como un suspiro)" },
+                { "id": "o2", "text": "Es silenciosa" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

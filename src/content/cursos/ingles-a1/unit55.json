@@ -381,6 +381,374 @@
           ]
         }
       ]
+    },
+    {
+      "block_id": "B55_5",
+      "title": "Block 5: Listening & Pronunciation",
+      "content": [
+        {
+          "interaction_id": "U55_I101",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Where are the fitting rooms?",
+          "correct_answer": "Where are the fitting rooms?",
+          "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-1.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U55_I102",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Can I try this on?",
+          "correct_answer": "Can I try this on?",
+          "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-2.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U55_I103",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I need a medium size.",
+          "correct_answer": "I need a medium size.",
+          "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-3.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U55_I104",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "How much is this shirt?",
+          "correct_answer": "How much is this shirt?",
+          "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-4.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U55_I105",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "It is on sale today.",
+          "correct_answer": "It is on sale today.",
+          "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-5.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U55_I106",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Do you have this in blue?",
+          "correct_answer": "Do you have this in blue?",
+          "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-6.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U55_I107",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I will take it.",
+          "correct_answer": "I will take it.",
+          "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-7.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U55_I108",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Clothes",
+          "instructions": "La 'th' es sonora y la 'e' es silenciosa.",
+          "targetSentences": [
+            {
+              "text": "I buy [[clothes|ropa]].",
+              "phonetic": "/kləʊðz/",
+              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U55_I108_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuántas sílabas tiene 'clothes'?",
+              "options": [
+                { "id": "o1", "text": "Una" },
+                { "id": "o2", "text": "Dos" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U55_I109",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Size",
+          "instructions": "Escucha y repite la 's' vibrante final.",
+          "targetSentences": [
+            {
+              "text": "What [[size|talla]]?",
+              "phonetic": "/saɪz/",
+              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U55_I109_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'z' final?",
+              "options": [
+                { "id": "o1", "text": "Vibrante como una abeja (/z/)" },
+                { "id": "o2", "text": "Sorda como un silbido (/s/)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U55_I110",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Shirt",
+          "instructions": "La 'ir' suena como /ɜː/.",
+          "targetSentences": [
+            {
+              "text": "A blue [[shirt|camisa]].",
+              "phonetic": "/ʃɜːt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U55_I110_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la vocal en 'shirt'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'e' profunda (/ɜː/)" },
+                { "id": "o2", "text": "Como una 'i' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U55_I111",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Fitting Room",
+          "instructions": "Escucha y repite la palabra compuesta.",
+          "targetSentences": [
+            {
+              "text": "The [[fitting room|probador]].",
+              "phonetic": "/ˈfɪtɪŋ ruːm/",
+              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U55_I111_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ng' en 'fitting'?",
+              "options": [
+                { "id": "o1", "text": "Nasal, sin pronunciar la 'g' fuerte" },
+                { "id": "o2", "text": "Como 'ng' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U55_I112",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Customer",
+          "instructions": "Escucha y repite enfocándote en la primera sílaba.",
+          "targetSentences": [
+            {
+              "text": "Happy [[customer|cliente]].",
+              "phonetic": "/ˈkʌstəmə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U55_I112_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento en 'customer'?",
+              "options": [
+                { "id": "o1", "text": "En la primera sílaba (CUS-)" },
+                { "id": "o2", "text": "En la segunda sílaba" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U55_I113",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Receipt",
+          "instructions": "Recordatorio: la 'p' es silenciosa.",
+          "targetSentences": [
+            {
+              "text": "Get the [[receipt|recibo]].",
+              "phonetic": "/rɪˈsiːt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U55_I113_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'receipt'?",
+              "options": [
+                { "id": "o1", "text": "Ri-SIT (/rɪˈsiːt/)" },
+                { "id": "o2", "text": "Ri-SEPT" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U55_I114",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Small",
+          "instructions": "La 'a' suena como /ɔː/.",
+          "targetSentences": [
+            {
+              "text": "A [[small|pequeña]] size.",
+              "phonetic": "/smɔːl/",
+              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U55_I114_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'a' en 'small'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'o' larga (/ɔː/)" },
+                { "id": "o2", "text": "Como una 'a' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U55_I115",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Checkout",
+          "instructions": "Escucha y repite.",
+          "targetSentences": [
+            {
+              "text": "Pay at the [[checkout|caja]].",
+              "phonetic": "/ˈtʃɛkaʊt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U55_I115_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuántas sílabas tiene 'checkout'?",
+              "options": [
+                { "id": "o1", "text": "Dos (check-out)" },
+                { "id": "o2", "text": "Una" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

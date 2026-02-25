@@ -294,6 +294,375 @@
           "stimulus_en": "Anna goes to the gym three times a week. She likes to exercise on Monday, Wednesday, and Friday. At the gym, she runs, lifts weights, and does yoga. Anna feels happy and healthy. Her friend Lisa joins her sometimes. After the gym, Anna drinks a smoothie. She enjoys her routine and always looks forward to the next workout."
         }
       ]
+    },
+    {
+      "block_id": "B33_5",
+      "title": "Lesson 5: Listening & Pronunciation Practice",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "A1_U33_B33_5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa el adverbio:",
+          "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-1.mp3",
+          "transcript_template": "[[I|Yo]] ________ [[brush|cepillo]] [[my|mis]] [[teeth|dientes]].",
+          "correct_answer": "always",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U33_B33_5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-2.mp3",
+          "transcript_template": "[[She|Ella]] ________ [[goes|va]] [[to|a]] [[the|la]] [[park|parque]].",
+          "correct_answer": "sometimes",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U33_B33_5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-3.mp3",
+          "transcript_template": "[[They|Ellos]] ________ [[eat|comen]] [[pizza|pizza]].",
+          "correct_answer": "never",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U33_B33_5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-4.mp3",
+          "transcript_template": "[[We|Nosotros]] ________ [[watch|vemos]] [[TV|televisión]].",
+          "correct_answer": "often",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U33_B33_5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-5.mp3",
+          "transcript_template": "[[He|Él]] ________ [[studies|estudia]] [[English|inglés]].",
+          "correct_answer": "usually",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U33_B33_5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-6.mp3",
+          "transcript_template": "[[Do|¿Haces?]] [[you|tú]] ________ [[read|lees]] [[books|libros]]?",
+          "correct_answer": "often",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U33_B33_5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-7.mp3",
+          "transcript_template": "[[It|Eso]] ________ [[rains|llueve]] in [[April|abril]].",
+          "correct_answer": "sometimes",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U33_B33_5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Always",
+          "instructions": "Practica la 'l' y la 's' final (/z/).",
+          "targetSentences": [
+            {
+              "text": "[[I|Yo]] [[always|siempre]] [[work|trabajo]].",
+              "phonetic": "/aɪ ˈɔːlweɪz wɜːk/",
+              "audioUrl": "/audio/courses/ingles-a1/unit33/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U33_B33_5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 's' final en 'always'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'z' vibrante (/z/)" },
+                { "id": "o2", "text": "Como una 's' sorda" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U33_B33_5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Usually",
+          "instructions": "Practica el sonido /ʒ/ (como 'sh' con vibración).",
+          "targetSentences": [
+            {
+              "text": "[[He|Él]] [[usually|normalmente]] [[cooks|cocina]].",
+              "phonetic": "/hi ˈjuːʒuəli kʊks/",
+              "audioUrl": "/audio/courses/ingles-a1/unit33/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U33_B33_5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuál es la sílaba tónica en 'usually'?",
+              "options": [
+                { "id": "o1", "text": "La primera (U-su-al-ly)" },
+                { "id": "o2", "text": "La segunda (u-SU-al-ly)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U33_B33_5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Often",
+          "instructions": "Escucha: la 't' suele ser muda.",
+          "targetSentences": [
+            {
+              "text": "[[We|Nosotros]] [[often|a menudo]] [[swim|nadamos]].",
+              "phonetic": "/wi ˈɒf(ə)n swɪm/",
+              "audioUrl": "/audio/courses/ingles-a1/unit33/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U33_B33_5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Es obligatorio pronunciar la 't' en 'often'?",
+              "options": [
+                { "id": "o1", "text": "No, es muy común no pronunciarla" },
+                { "id": "o2", "text": "Sí, siempre se pronuncia" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U33_B33_5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Sometimes",
+          "instructions": "Practica la acentuación.",
+          "targetSentences": [
+            {
+              "text": "[[They|Ellos]] [[sometimes|a veces]] [[dance|bailan]].",
+              "phonetic": "/ðeɪ ˈsʌmtaɪmz dɑːns/",
+              "audioUrl": "/audio/courses/ingles-a1/unit33/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U33_B33_5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento principal en 'sometimes'?",
+              "options": [
+                { "id": "o1", "text": "En la primera parte (SOME-times)" },
+                { "id": "o2", "text": "En la segunda parte (some-TIMES)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U33_B33_5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Never",
+          "instructions": "Practica la 'v' (/v/) y la 'r' final suave.",
+          "targetSentences": [
+            {
+              "text": "[[I|Yo]] [[never|nunca]] [[smoke|fumo]].",
+              "phonetic": "/aɪ ˈnɛvə sməʊk/",
+              "audioUrl": "/audio/courses/ingles-a1/unit33/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U33_B33_5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'e' final en 'never' (en inglés británico)?",
+              "options": [
+                { "id": "o1", "text": "Como un sonido neutro y corto (/ə/)" },
+                { "id": "o2", "text": "Como una 'e' fuerte" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U33_B33_5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Adverbio al final",
+          "instructions": "Practica 'twice a week'.",
+          "targetSentences": [
+            {
+              "text": "[[I|Yo]] [[swim|nado]] [[twice a week|dos veces por semana]].",
+              "phonetic": "/aɪ swɪm twaɪs ə wiːk/",
+              "audioUrl": "/audio/courses/ingles-a1/unit33/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U33_B33_5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'c' en 'twice'?",
+              "options": [
+                { "id": "o1", "text": "Como una 's' (/s/)" },
+                { "id": "o2", "text": "Como una 'k'" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U33_B33_5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Every day",
+          "instructions": "Escucha la unión de las palabras.",
+          "targetSentences": [
+            {
+              "text": "[[I|Yo]] [[study|estudio]] [[every day|todos los días]].",
+              "phonetic": "/aɪ ˈɛvrideɪ ˈstʌdi/",
+              "audioUrl": "/audio/courses/ingles-a1/unit33/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U33_B33_5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuántas sílabas sueles escuchar en 'every'?",
+              "options": [
+                { "id": "o1", "text": "2 sílabas (EV-ry)" },
+                { "id": "o2", "text": "3 sílabas (EV-e-ry)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U33_B33_5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Resumen",
+          "instructions": "Escucha y repite.",
+          "targetSentences": [
+            {
+              "text": "[[Habits|Los hábitos]] are [[important|importantes]].",
+              "phonetic": "/ˈhæbɪts ɑːr ɪmˈpɔːtənt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit33/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U33_B33_5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuál es la sílaba tónica en 'important'?",
+              "options": [
+                { "id": "o1", "text": "La segunda (im-POR-tant)" },
+                { "id": "o2", "text": "La primera (IM-por-tant)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

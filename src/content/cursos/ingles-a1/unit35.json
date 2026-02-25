@@ -313,6 +313,375 @@
           "stimulus_en": "Anna and her brother, Tom, like to relax on Sunday afternoons. They sit on the sofa and watch TV together. They enjoy watching cartoons and funny shows. Their favorite show is on at 4 o'clock. After TV, they sometimes eat popcorn. Sunday is their favorite day to spend time together."
         }
       ]
+    },
+    {
+      "block_id": "B35_5",
+      "title": "Lesson 5: Listening & Pronunciation Practice",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "A1_U35_B35_5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la actividad:",
+          "audio_url": "/audio/courses/ingles-a1/unit35/lesson5-task-1.mp3",
+          "transcript_template": "[[I|Yo]] ________ [[TV|la televisión]] [[in the evening|por la noche]].",
+          "correct_answer": "watch",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U35_B35_5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit35/lesson5-task-2.mp3",
+          "transcript_template": "[[He|Él]] [[plays|juega]] ________ [[all day|todo el día]].",
+          "correct_answer": "video games",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U35_B35_5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit35/lesson5-task-3.mp3",
+          "transcript_template": "[[We|Nosotros]] ________ [[for a walk|a dar un paseo]].",
+          "correct_answer": "go",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U35_B35_5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit35/lesson5-task-4.mp3",
+          "transcript_template": "[[She|Ella]] [[uses|usa]] ________ [[after work|después del trabajo]].",
+          "correct_answer": "social media",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U35_B35_5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit35/lesson5-task-5.mp3",
+          "transcript_template": "[[They|Ellos]] ________ [[shopping|de compras]] on [[Saturdays|sábados]].",
+          "correct_answer": "go",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U35_B35_5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit35/lesson5-task-6.mp3",
+          "transcript_template": "[[I|Yo]] [[listen to|escucho]] ________ [[in my bedroom|en mi habitación]].",
+          "correct_answer": "music",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U35_B35_5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit35/lesson5-task-7.mp3",
+          "transcript_template": "[[Do|¿Haces?]] [[you|tú]] ________ [[books|libros]]?",
+          "correct_answer": "read",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U35_B35_5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: TV",
+          "instructions": "Practica la pronunciación de las letras T-V.",
+          "targetSentences": [
+            {
+              "text": "[[I|Yo]] [[watch|veo]] [[TV|la tele]].",
+              "phonetic": "/aɪ wɒtʃ ˌtiːˈviː/",
+              "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U35_B35_5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿En qué letra recae el acento principal al decir 'TV'?",
+              "options": [
+                { "id": "o1", "text": "En la V (ti-VEE)" },
+                { "id": "o2", "text": "En la T (TEE-vi)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U35_B35_5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Video games",
+          "instructions": "Practica la 'v' y el plural 'games'.",
+          "targetSentences": [
+            {
+              "text": "[[He|Él]] [[likes|le gustan]] [[video games|los videojuegos]].",
+              "phonetic": "/hi laɪks ˈvɪdiəʊ ɡeɪmz/",
+              "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U35_B35_5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 's' final en 'games'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'z' vibrante (/z/)" },
+                { "id": "o2", "text": "Como una 's' simple" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U35_B35_5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Social media",
+          "instructions": "Practica el sonido 'sh' (/ʃ/) en 'social'.",
+          "targetSentences": [
+            {
+              "text": "[[Use|Usa]] [[social media|las redes sociales]].",
+              "phonetic": "/juːz ˈsəʊʃl ˈmiːdiə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U35_B35_5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'c' en 'social'?",
+              "options": [
+                { "id": "o1", "text": "Como 'sh' (/ʃ/)" },
+                { "id": "o2", "text": "Como una 's' simple" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U35_B35_5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Walk",
+          "instructions": "La 'l' es muda.",
+          "targetSentences": [
+            {
+              "text": "[[Go|Ve]] [[for a walk|a dar un paseo]].",
+              "phonetic": "/ɡəʊ fər ə wɔːk/",
+              "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U35_B35_5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Se pronuncia la letra 'l' en 'walk'?",
+              "options": [
+                { "id": "o1", "text": "No, es muda" },
+                { "id": "o2", "text": "Sí, suena suave" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U35_B35_5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Music",
+          "instructions": "Practica la acentuación.",
+          "targetSentences": [
+            {
+              "text": "[[Listen to|Escucha]] [[music|música]].",
+              "phonetic": "/ˈlɪsn tə ˈmjuːzɪk/",
+              "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U35_B35_5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuál es la sílaba tónica en 'music'?",
+              "options": [
+                { "id": "o1", "text": "La primera (MU-sic)" },
+                { "id": "o2", "text": "La segunda (mu-SIC)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U35_B35_5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Read",
+          "instructions": "Practica la 'ee' larga (/iː/).",
+          "targetSentences": [
+            {
+              "text": "[[I|Yo]] [[read|leo]] [[every night|cada noche]].",
+              "phonetic": "/aɪ riːd ˈɛvri naɪt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U35_B35_5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ea' en 'read'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'i' larga (/iː/)" },
+                { "id": "o2", "text": "Como una 'e' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U35_B35_5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Shopping",
+          "instructions": "Practica el sonido 'sh' (/ʃ/) y la 'o' corta (/ɒ/).",
+          "targetSentences": [
+            {
+              "text": "[[They|Ellos]] [[go|van]] [[shopping|de compras]].",
+              "phonetic": "/ðeɪ ɡəʊ ˈʃɒpɪŋ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U35_B35_5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'sh' inicial en 'shopping'?",
+              "options": [
+                { "id": "o1", "text": "Como pidiendo silencio (/ʃ/)" },
+                { "id": "o2", "text": "Como una 's' simple" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U35_B35_5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Resumen",
+          "instructions": "Escucha y repite.",
+          "targetSentences": [
+            {
+              "text": "[[Relax|Relájate]] and [[enjoy|disfruta]].",
+              "phonetic": "/rɪˈlæks ənd ɪnˈdʒɔɪ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U35_B35_5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'j' en 'enjoy'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'y' vibrante o 'll' argentina (/dʒ/)" },
+                { "id": "o2", "text": "Como una 'h' soplada" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

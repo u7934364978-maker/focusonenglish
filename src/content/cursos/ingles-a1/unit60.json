@@ -5465,6 +5465,7 @@
         {
           "interaction_id": "U60_I301",
           "type": "pronunciation",
+          "prompt_es": "Practica la pronunciación final del curso:",
           "title": "Pronunciation Practice - A1 Course Completion",
           "instructions": "Congratulations! Practice these final sentences covering key A1 topics. Focus on overall fluency and confidence.",
           "focusPoints": [
@@ -5513,6 +5514,7 @@
         {
           "interaction_id": "U60_I302",
           "type": "speaking",
+          "prompt_es": "Reflexiona sobre lo aprendido en el curso:",
           "prompt": "Reflect on your A1 English journey. What have you learned? What are your goals for A2? Tell me about your favorite topic from the course.",
           "expectedResponse": "I've learned a lot in this A1 course. I can now introduce myself, talk about my family and daily routines, give directions, and order food in a restaurant. My favorite topic was learning about travel and hotels. For A2, I want to improve my grammar and learn more vocabulary to have longer conversations.",
           "hints": [
@@ -5524,6 +5526,374 @@
           "targetWords": ["learned", "favorite", "improve", "goal", "conversation"],
           "timeLimit": 120,
           "mastery_tag": "speaking"
+        }
+      ]
+    },
+    {
+      "block_id": "B60_5",
+      "title": "Block 5: Listening & Pronunciation Review",
+      "content": [
+        {
+          "interaction_id": "U60_I401",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I need some milk and eggs.",
+          "correct_answer": "I need some milk and eggs.",
+          "audioUrl": "/audio/courses/ingles-a1/unit60/lesson5-task-1.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U60_I402",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "How many apples do you want?",
+          "correct_answer": "How many apples do you want?",
+          "audioUrl": "/audio/courses/ingles-a1/unit60/lesson5-task-2.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U60_I403",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "There isn't any bread left.",
+          "correct_answer": "There isn't any bread left.",
+          "audioUrl": "/audio/courses/ingles-a1/unit60/lesson5-task-3.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U60_I404",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "The kitchen is very modern.",
+          "correct_answer": "The kitchen is very modern.",
+          "audioUrl": "/audio/courses/ingles-a1/unit60/lesson5-task-4.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U60_I405",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I enjoy playing tennis.",
+          "correct_answer": "I enjoy playing tennis.",
+          "audioUrl": "/audio/courses/ingles-a1/unit60/lesson5-task-5.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U60_I406",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "He goes to the gym daily.",
+          "correct_answer": "He goes to the gym daily.",
+          "audioUrl": "/audio/courses/ingles-a1/unit60/lesson5-task-6.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U60_I407",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "We meet friends at the park.",
+          "correct_answer": "We meet friends at the park.",
+          "audioUrl": "/audio/courses/ingles-a1/unit60/lesson5-task-7.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U60_I408",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Bread",
+          "instructions": "La 'ea' suena como /e/ corta.",
+          "targetSentences": [
+            {
+              "text": "I buy some [[bread|pan]].",
+              "phonetic": "/bred/",
+              "audioUrl": "/audio/courses/ingles-a1/unit60/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U60_I408_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ea' en 'bread'?",
+              "options": [
+                { "id": "o1", "text": "Como /e/ (corta)" },
+                { "id": "o2", "text": "Como /iː/ (larga)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U60_I409",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Fruit",
+          "instructions": "La 'ui' suena como /uː/ larga.",
+          "targetSentences": [
+            {
+              "text": "Fresh [[fruit|fruta]].",
+              "phonetic": "/fruːt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit60/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U60_I409_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Se pronuncia la 'i' en 'fruit'?",
+              "options": [
+                { "id": "o1", "text": "No, es muda" },
+                { "id": "o2", "text": "Sí, suena como /ɪ/" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U60_I410",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Sugar",
+          "instructions": "La 's' inicial suena como /ʃ/ (sh).",
+          "targetSentences": [
+            {
+              "text": "Too much [[sugar|azúcar]].",
+              "phonetic": "/ˈʃʊɡə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit60/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U60_I410_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 's' en 'sugar'?",
+              "options": [
+                { "id": "o1", "text": "Como /ʃ/ (sh)" },
+                { "id": "o2", "text": "Como /s/ (s)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U60_I411",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Clothes",
+          "instructions": "La 'th' es sonora y la 'e' es muda.",
+          "targetSentences": [
+            {
+              "text": "New [[clothes|ropa]].",
+              "phonetic": "/kləʊðz/",
+              "audioUrl": "/audio/courses/ingles-a1/unit60/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U60_I411_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuántas sílabas tiene 'clothes'?",
+              "options": [
+                { "id": "o1", "text": "Una sola sílaba" },
+                { "id": "o2", "text": "Dos sílabas (clo-thes)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U60_I412",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Kitchen",
+          "instructions": "La 't' es muda y la 'ch' suena fuerte.",
+          "targetSentences": [
+            {
+              "text": "In the [[kitchen|cocina]].",
+              "phonetic": "/ˈkɪtʃɪn/",
+              "audioUrl": "/audio/courses/ingles-a1/unit60/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U60_I412_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento en 'kitchen'?",
+              "options": [
+                { "id": "o1", "text": "En la primera sílaba (KI-tchen)" },
+                { "id": "o2", "text": "En la segunda sílaba" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U60_I413",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Exercise",
+          "instructions": "Escucha y repite la palabra.",
+          "targetSentences": [
+            {
+              "text": "I [[exercise|hago ejercicio]] every day.",
+              "phonetic": "/ˈeksəsaɪz/",
+              "audioUrl": "/audio/courses/ingles-a1/unit60/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U60_I413_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la primera 'e'?",
+              "options": [
+                { "id": "o1", "text": "Como /e/ (corta)" },
+                { "id": "o2", "text": "Como /iː/ (larga)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U60_I414",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Hobbies",
+          "instructions": "La 'y' final cambia a 'ie' en plural.",
+          "targetSentences": [
+            {
+              "text": "My favorite [[hobbies|aficiones]].",
+              "phonetic": "/ˈhɒbiz/",
+              "audioUrl": "/audio/courses/ingles-a1/unit60/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U60_I414_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 's' final?",
+              "options": [
+                { "id": "o1", "text": "Como /z/ (vibrante)" },
+                { "id": "o2", "text": "Como /s/ (sorda)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U60_I415",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Module Review",
+          "instructions": "Escucha y repite la frase final.",
+          "targetSentences": [
+            {
+              "text": "I finished the [[module|módulo]].",
+              "phonetic": "/ˈmɒdjuːl/",
+              "audioUrl": "/audio/courses/ingles-a1/unit60/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U60_I415_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'u' en 'module'?",
+              "options": [
+                { "id": "o1", "text": "Como /juː/ (i-u)" },
+                { "id": "o2", "text": "Como /ʌ/ (a corta)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
         }
       ]
     }

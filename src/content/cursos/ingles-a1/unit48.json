@@ -353,6 +353,374 @@
           "stimulus_en": "Anna buys a souvenir before she leaves the city. She visits a small shop. The shop has many colorful souvenirs. Anna likes a red mug. It has a picture of the city on it. She pays for the mug and smiles. Now, she has a gift to remember her trip."
         }
       ]
+    },
+    {
+      "block_id": "B48_5",
+      "title": "Block 5: Listening & Pronunciation",
+      "content": [
+        {
+          "interaction_id": "U48_I301",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Take a map of the city.",
+          "correct_answer": "Take a map of the city.",
+          "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-1.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U48_I302",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Don't forget your camera.",
+          "correct_answer": "Don't forget your camera.",
+          "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-2.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U48_I303",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Buy the tickets online.",
+          "correct_answer": "Buy the tickets online.",
+          "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-3.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U48_I304",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "The museum opens at ten.",
+          "correct_answer": "The museum opens at ten.",
+          "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-4.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U48_I305",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Is there a tour guide?",
+          "correct_answer": "Is there a tour guide?",
+          "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-5.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U48_I306",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Wait for the bus here.",
+          "correct_answer": "Wait for the bus here.",
+          "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-6.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U48_I307",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Look at that old monument.",
+          "correct_answer": "Look at that old monument.",
+          "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-7.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U48_I308",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Museum",
+          "instructions": "Escucha y repite el acento.",
+          "targetSentences": [
+            {
+              "text": "The [[museum|museo]] is [[big|grande]].",
+              "phonetic": "/mjuːˈziːəm ɪz bɪɡ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U48_I308_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento en 'museum'?",
+              "options": [
+                { "id": "o1", "text": "En la segunda sílaba (mu-SE-um)" },
+                { "id": "o2", "text": "En la primera sílaba (MU-se-um)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U48_I309",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Monument",
+          "instructions": "Escucha y repite el acento.",
+          "targetSentences": [
+            {
+              "text": "It is an [[old|viejo]] [[monument|monumento]].",
+              "phonetic": "/ɪt ɪz æn ˈmɒnjumənt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U48_I309_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento en 'monument'?",
+              "options": [
+                { "id": "o1", "text": "En la primera sílaba (MON-u-ment)" },
+                { "id": "o2", "text": "En la última sílaba" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U48_I310",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Guide",
+          "instructions": "Escucha y repite la vocal larga.",
+          "targetSentences": [
+            {
+              "text": "The [[guide|guía]] is [[nice|agradable]].",
+              "phonetic": "/ðə ɡaɪd ɪz naɪs/",
+              "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U48_I310_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ui' en 'guide'?",
+              "options": [
+                { "id": "o1", "text": "Como /aɪ/ (ai)" },
+                { "id": "o2", "text": "Como una 'u' simple" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U48_I311",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Map",
+          "instructions": "Escucha y repite la 'a' abierta.",
+          "targetSentences": [
+            {
+              "text": "Look at the [[map|mapa]].",
+              "phonetic": "/lʊk æt ðə mæp/",
+              "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U48_I311_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'a' en 'map'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'a' abierta (/æ/)" },
+                { "id": "o2", "text": "Como una 'o' corta" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U48_I312",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Camera",
+          "instructions": "Escucha y repite la palabra de tres sílabas.",
+          "targetSentences": [
+            {
+              "text": "Take my [[camera|cámara]].",
+              "phonetic": "/ˈkæmrə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U48_I312_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuántas sílabas sueles oír en la pronunciación rápida de 'camera'?",
+              "options": [
+                { "id": "o1", "text": "Dos (CAM-ra)" },
+                { "id": "o2", "text": "Tres (CA-me-ra)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U48_I313",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Ticket",
+          "instructions": "Escucha y repite la 't' final.",
+          "targetSentences": [
+            {
+              "text": "Buy a [[ticket|boleto]].",
+              "phonetic": "/baɪ ə ˈtɪkɪt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U48_I313_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿La 't' final en 'ticket' es sonora o sorda?",
+              "options": [
+                { "id": "o1", "text": "Sorda (sin vibración de las cuerdas vocales)" },
+                { "id": "o2", "text": "Sonora" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U48_I314",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Tour",
+          "instructions": "Escucha y repite el diptongo.",
+          "targetSentences": [
+            {
+              "text": "Join the [[tour|recorrido]].",
+              "phonetic": "/tʊə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U48_I314_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ou' en 'tour'?",
+              "options": [
+                { "id": "o1", "text": "Como /ʊə/ (u-a suave)" },
+                { "id": "o2", "text": "Como una 'o' fuerte" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U48_I315",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Repaso Sightseeing",
+          "instructions": "Escucha y repite la frase completa.",
+          "targetSentences": [
+            {
+              "text": "It is an [[amazing|increíble]] [[city|ciudad]].",
+              "phonetic": "/ɪt ɪz æn əˈmeɪzɪŋ ˈsɪti/",
+              "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U48_I315_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'z' en 'amazing'?",
+              "options": [
+                { "id": "o1", "text": "Vibrante como una abeja (/z/)" },
+                { "id": "o2", "text": "Como una 's' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

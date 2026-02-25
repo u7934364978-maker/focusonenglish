@@ -300,6 +300,375 @@
           "stimulus_en": "Anna loves reading. She sits in her garden with a good book. Reading is her favorite hobby because it is quiet and relaxing. Sometimes, she swims in the pool or plays tennis with her friends. But reading is the most peaceful activity for her. She feels happy when she reads her favorite stories."
         }
       ]
+    },
+    {
+      "block_id": "B32_5",
+      "title": "Lesson 5: Listening & Pronunciation Practice",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "A1_U32_B32_5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa el deporte:",
+          "audio_url": "/audio/courses/ingles-a1/unit32/lesson5-task-1.mp3",
+          "transcript_template": "I [[play|juego]] ________ [[every|cada]] [[Saturday|sábado]].",
+          "correct_answer": "football",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa el verbo:",
+          "audio_url": "/audio/courses/ingles-a1/unit32/lesson5-task-2.mp3",
+          "transcript_template": "We ________ [[swimming|natación]] in [[summer|verano]].",
+          "correct_answer": "go",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit32/lesson5-task-3.mp3",
+          "transcript_template": "She ________ [[yoga|yoga]] in the [[morning|mañana]].",
+          "correct_answer": "does",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa el hobby:",
+          "audio_url": "/audio/courses/ingles-a1/unit32/lesson5-task-4.mp3",
+          "transcript_template": "My [[hobby|pasatiempo]] is ________.",
+          "correct_answer": "painting",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit32/lesson5-task-5.mp3",
+          "transcript_template": "Do [[you|tú]] [[play|jugar]] ________?",
+          "correct_answer": "tennis",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit32/lesson5-task-6.mp3",
+          "transcript_template": "[[They|Ellos]] [[love|aman]] ________ [[books|libros]].",
+          "correct_answer": "reading",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit32/lesson5-task-7.mp3",
+          "transcript_template": "[[I|Yo]] ________ [[basketball|baloncesto]] at [[school|la escuela]].",
+          "correct_answer": "play",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Football",
+          "instructions": "Practica la pronunciación de 'football'.",
+          "targetSentences": [
+            {
+              "text": "I [[play|juego]] [[football|fútbol]].",
+              "phonetic": "/aɪ pleɪ ˈfʊtbɔːl/",
+              "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U32_B32_5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'oo' en 'football'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'u' corta (/ʊ/)" },
+                { "id": "o2", "text": "Como una 'u' larga (/uː/)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Swimming",
+          "instructions": "Practica la 'i' corta and el final '-ing'.",
+          "targetSentences": [
+            {
+              "text": "[[I|Yo]] [[love|amo]] [[swimming|la natación]].",
+              "phonetic": "/aɪ lʌv ˈswɪmɪŋ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U32_B32_5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena el final '-ing'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'n' nasal suave (/ŋ/)" },
+                { "id": "o2", "text": "Como una 'n' fuerte con 'g' marcada" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Tennis",
+          "instructions": "Practica la acentuación de 'tennis'.",
+          "targetSentences": [
+            {
+              "text": "[[He|Él]] [[plays|juega]] [[tennis|tenis]].",
+              "phonetic": "/hi pleɪz ˈtɛnɪs/",
+              "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U32_B32_5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuál es la sílaba tónica en 'tennis'?",
+              "options": [
+                { "id": "o1", "text": "La primera (TEN-nis)" },
+                { "id": "o2", "text": "La segunda (ten-NIS)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Reading",
+          "instructions": "Practica la 'ee' larga (/iː/).",
+          "targetSentences": [
+            {
+              "text": "[[Reading|Leer]] is [[fun|divertido]].",
+              "phonetic": "/ˈriːdɪŋ ɪz fʌn/",
+              "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U32_B32_5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ea' en 'reading'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'i' larga (/iː/)" },
+                { "id": "o2", "text": "Como una 'e' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Painting",
+          "instructions": "Practica el diptongo /eɪ/.",
+          "targetSentences": [
+            {
+              "text": "[[I|Yo]] [[like|me gusta]] [[painting|pintar]].",
+              "phonetic": "/aɪ laɪk ˈpeɪntɪŋ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U32_B32_5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ai' en 'painting'?",
+              "options": [
+                { "id": "o1", "text": "Como el diptongo 'ei' (/eɪ/)" },
+                { "id": "o2", "text": "Como una 'a' simple" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Sports",
+          "instructions": "Practica el sonido 'o' larga (/ɔː/).",
+          "targetSentences": [
+            {
+              "text": "[[He|Él]] [[likes|le gustan]] [[sports|los deportes]].",
+              "phonetic": "/hi laɪks spɔːts/",
+              "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U32_B32_5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'o' en 'sports'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'o' larga y abierta (/ɔː/)" },
+                { "id": "o2", "text": "Como una 'o' corta y cerrada" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Basketball",
+          "instructions": "Practica la palabra 'basketball'.",
+          "targetSentences": [
+            {
+              "text": "[[We|Nosotros]] [[play|jugamos]] [[basketball|baloncesto]].",
+              "phonetic": "/wi pleɪ ˈbɑːskɪtbɔːl/",
+              "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U32_B32_5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuántas sílabas tiene 'basketball'?",
+              "options": [
+                { "id": "o1", "text": "3 sílabas (BAS-ket-ball)" },
+                { "id": "o2", "text": "2 sílabas (BAS-ball)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Hobbies",
+          "instructions": "Escucha and repite.",
+          "targetSentences": [
+            {
+              "text": "[[What|¿Cuál?]] is [[your|tu]] [[favorite|favorito]] [[hobby|pasatiempo]]?",
+              "phonetic": "/wɒt ɪz jɔː ˈfeɪvərɪt ˈhɒbi/",
+              "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U32_B32_5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'y' final en 'hobby'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'i' corta (/i/)" },
+                { "id": "o2", "text": "Como una 'ai'" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

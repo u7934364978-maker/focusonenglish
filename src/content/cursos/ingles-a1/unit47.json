@@ -327,6 +327,374 @@
           "stimulus_en": "Sarah loves eating Italian food. She enjoys pizza and pasta. Every Friday, she goes to a small Italian restaurant near her house. The restaurant has a friendly chef who makes delicious meals. Sarah always feels happy when she eats there. She does not like working at the office or rainy weather, but Italian food always makes her smile."
         }
       ]
+    },
+    {
+      "block_id": "B47_5",
+      "title": "Block 5: Listening & Pronunciation",
+      "content": [
+        {
+          "interaction_id": "U47_I301",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I love sunbathing on the beach.",
+          "correct_answer": "I love sunbathing on the beach.",
+          "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-1.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U47_I302",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "They enjoy sightseeing in Paris.",
+          "correct_answer": "They enjoy sightseeing in Paris.",
+          "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-2.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U47_I303",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "We go hiking in the mountains.",
+          "correct_answer": "We go hiking in the mountains.",
+          "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-3.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U47_I304",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "She hates long flights.",
+          "correct_answer": "She hates long flights.",
+          "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-4.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U47_I305",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I send a postcard to my mother.",
+          "correct_answer": "I send a postcard to my mother.",
+          "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-5.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U47_I306",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Are you relaxing on vacation?",
+          "correct_answer": "Are you relaxing on vacation?",
+          "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-6.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U47_I307",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "We eat local food in the evening.",
+          "correct_answer": "We eat local food in the evening.",
+          "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-7.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U47_I308",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Holidays",
+          "instructions": "Escucha y repite enfocándote en la 'h'.",
+          "targetSentences": [
+            {
+              "text": "Happy [[holidays|vacaciones]]!",
+              "phonetic": "/ˈhæpi ˈhɒlədeɪz/",
+              "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U47_I308_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿La 'h' inicial en 'holidays' es muda como en español?",
+              "options": [
+                { "id": "o1", "text": "No, es aspirada (suena como un suspiro suave)" },
+                { "id": "o2", "text": "Sí, es igual" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U47_I309",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Beach",
+          "instructions": "Escucha y repite la 'i' larga.",
+          "targetSentences": [
+            {
+              "text": "I [[go|voy]] to the [[beach|playa]].",
+              "phonetic": "/aɪ ɡəʊ tə ðə biːtʃ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U47_I309_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ea' en 'beach'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'i' larga y tensa (/iː/)" },
+                { "id": "o2", "text": "Como una 'e' abierta" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U47_I310",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Sightseeing",
+          "instructions": "Escucha y repite la palabra larga.",
+          "targetSentences": [
+            {
+              "text": "We [[enjoy|disfrutamos]] [[sightseeing|hacer turismo]].",
+              "phonetic": "/wi ɪnˈdʒɔɪ ˈsaɪtsiːɪŋ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U47_I310_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'igh' en 'sight'?",
+              "options": [
+                { "id": "o1", "text": "Como /aɪ/ (ai)" },
+                { "id": "o2", "text": "Como una 'i' simple" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U47_I311",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Hiking",
+          "instructions": "Escucha y repite la 'h' y la 'i' larga.",
+          "targetSentences": [
+            {
+              "text": "Go [[hiking|de senderismo]].",
+              "phonetic": "/ɡəʊ ˈhaɪkɪŋ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U47_I311_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la primera 'i' en 'hiking'?",
+              "options": [
+                { "id": "o1", "text": "Como /aɪ/ (ai)" },
+                { "id": "o2", "text": "Como una 'i' corta" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U47_I312",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Postcard",
+          "instructions": "Escucha y repite la palabra compuesta.",
+          "targetSentences": [
+            {
+              "text": "Send a [[postcard|postal]].",
+              "phonetic": "/sɛnd ə ˈpəʊstkɑːd/",
+              "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U47_I312_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Se pronuncia la 't' en 'postcard'?",
+              "options": [
+                { "id": "o1", "text": "A menudo es muda o muy suave" },
+                { "id": "o2", "text": "Siempre suena fuerte" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U47_I313",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Love",
+          "instructions": "Escucha y repite la vocal relajada.",
+          "targetSentences": [
+            {
+              "text": "I [[love|amo]] [[swimming|nadar]].",
+              "phonetic": "/aɪ lʌv ˈswɪmɪŋ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U47_I313_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'o' en 'love'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'a' corta y relajada (/ʌ/)" },
+                { "id": "o2", "text": "Como una 'o' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U47_I314",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Hate",
+          "instructions": "Escucha y repite el diptongo 'a_e'.",
+          "targetSentences": [
+            {
+              "text": "I [[hate|odio]] [[waiting|esperar]].",
+              "phonetic": "/aɪ heɪt ˈweɪtɪŋ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U47_I314_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'a' en 'hate'?",
+              "options": [
+                { "id": "o1", "text": "Como /eɪ/ (ei)" },
+                { "id": "o2", "text": "Como una 'a' simple" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U47_I315",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Repaso Holidays",
+          "instructions": "Escucha y repite la frase completa.",
+          "targetSentences": [
+            {
+              "text": "We [[enjoy|disfrutamos]] the [[local|local]] [[food|comida]].",
+              "phonetic": "/wi ɪnˈdʒɔɪ ðə ˈləʊkl fuːd/",
+              "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U47_I315_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'oo' en 'food'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'u' larga (/uː/)" },
+                { "id": "o2", "text": "Como una 'u' corta" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

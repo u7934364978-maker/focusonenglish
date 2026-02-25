@@ -378,6 +378,374 @@
           ]
         }
       ]
+    },
+    {
+      "block_id": "B56_5",
+      "title": "Block 5: Listening & Pronunciation",
+      "content": [
+        {
+          "interaction_id": "U56_I101",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "The milk is in the fridge.",
+          "correct_answer": "The milk is in the fridge.",
+          "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-1.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U56_I102",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Put it in the oven.",
+          "correct_answer": "Put it in the oven.",
+          "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-2.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U56_I103",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "The cups are on the shelf.",
+          "correct_answer": "The cups are on the shelf.",
+          "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-3.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U56_I104",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Where is the microwave?",
+          "correct_answer": "Where is the microwave?",
+          "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-4.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U56_I105",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Wash the dishes in the sink.",
+          "correct_answer": "Wash the dishes in the sink.",
+          "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-5.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U56_I106",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "The forks are in the drawer.",
+          "correct_answer": "The forks are in the drawer.",
+          "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-6.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U56_I107",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I need a clean cupboard.",
+          "correct_answer": "I need a clean cupboard.",
+          "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-7.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U56_I108",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Fridge",
+          "instructions": "La 'dg' suena como /dʒ/.",
+          "targetSentences": [
+            {
+              "text": "Open the [[fridge|nevera]].",
+              "phonetic": "/frɪdʒ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U56_I108_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la terminación de 'fridge'?",
+              "options": [
+                { "id": "o1", "text": "Como 'll' argentina o 'j' inglesa (/dʒ/)" },
+                { "id": "o2", "text": "Como una 'g' suave" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U56_I109",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Microwave",
+          "instructions": "Escucha y repite la 'i' larga.",
+          "targetSentences": [
+            {
+              "text": "The [[microwave|microondas]] is hot.",
+              "phonetic": "/ˈmaɪkrəweɪv/",
+              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U56_I109_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'i' en 'microwave'?",
+              "options": [
+                { "id": "o1", "text": "Como /aɪ/ (ai)" },
+                { "id": "o2", "text": "Como una 'i' simple" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U56_I110",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Cupboard",
+          "instructions": "La 'p' es silenciosa.",
+          "targetSentences": [
+            {
+              "text": "It is in the [[cupboard|armario]].",
+              "phonetic": "/ˈkʌbəd/",
+              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U56_I110_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Se pronuncia la 'p' en 'cupboard'?",
+              "options": [
+                { "id": "o1", "text": "No" },
+                { "id": "o2", "text": "Sí" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U56_I111",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Sink",
+          "instructions": "Escucha y repite la 'i' corta.",
+          "targetSentences": [
+            {
+              "text": "The [[sink|fregadero]] is full.",
+              "phonetic": "/sɪŋk/",
+              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U56_I111_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'i' en 'sink'?",
+              "options": [
+                { "id": "o1", "text": "Corta (/ɪ/)" },
+                { "id": "o2", "text": "Como 'ai' (/aɪ/)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U56_I112",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Oven",
+          "instructions": "La 'o' inicial suena como /ʌ/.",
+          "targetSentences": [
+            {
+              "text": "Turn on the [[oven|horno]].",
+              "phonetic": "/ˈʌvn/",
+              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U56_I112_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'o' en 'oven'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'a' corta (/ʌ/)" },
+                { "id": "o2", "text": "Como una 'o' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U56_I113",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Drawer",
+          "instructions": "Escucha y repite.",
+          "targetSentences": [
+            {
+              "text": "Open the [[drawer|cajón]].",
+              "phonetic": "/drɔː/",
+              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U56_I113_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuántas sílabas tiene 'drawer'?",
+              "options": [
+                { "id": "o1", "text": "Una (drɔː)" },
+                { "id": "o2", "text": "Dos" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U56_I114",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Shelf",
+          "instructions": "Escucha y repite la 'sh' inicial.",
+          "targetSentences": [
+            {
+              "text": "Put it on the [[shelf|estante]].",
+              "phonetic": "/ʃɛlf/",
+              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U56_I114_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'sh' inicial?",
+              "options": [
+                { "id": "o1", "text": "Como pidiendo silencio (shhh)" },
+                { "id": "o2", "text": "Como la 'ch' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U56_I115",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Kitchen",
+          "instructions": "Escucha y repite.",
+          "targetSentences": [
+            {
+              "text": "Clean the [[kitchen|cocina]].",
+              "phonetic": "/ˈkɪtʃɪn/",
+              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U56_I115_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento en 'kitchen'?",
+              "options": [
+                { "id": "o1", "text": "En la primera sílaba (KIT-)" },
+                { "id": "o2", "text": "En la segunda sílaba" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

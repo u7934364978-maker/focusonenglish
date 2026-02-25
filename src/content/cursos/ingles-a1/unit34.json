@@ -332,6 +332,375 @@
           "stimulus_en": "Tom visits the city for the first time. He meets many people. They smile and say hello. Tom feels happy. The people in the city are friendly. Tom likes the city. He thinks the city is nice. He walks in the park and sees children playing. He eats lunch in a small café. The city is busy, but Tom enjoys it."
         }
       ]
+    },
+    {
+      "block_id": "B34_5",
+      "title": "Lesson 5: Listening & Pronunciation Practice",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "A1_U34_B34_5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa el conector:",
+          "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-1.mp3",
+          "transcript_template": "[[I|Yo]] [[like|me gusta]] [[apples|las manzanas]] ________ [[bananas|plátanos]].",
+          "correct_answer": "and",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U34_B34_5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-2.mp3",
+          "transcript_template": "[[I|Yo]] [[am|estoy]] [[tired|cansado]] ________ [[I|yo]] [[am|estoy]] [[happy|feliz]].",
+          "correct_answer": "but",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U34_B34_5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-3.mp3",
+          "transcript_template": "[[She|Ella]] [[is|está]] [[at home|en casa]] ________ [[it|ello]] [[is|está]] [[raining|lloviendo]].",
+          "correct_answer": "because",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U34_B34_5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-4.mp3",
+          "transcript_template": "[[He|Él]] [[can|puede]] [[sing|cantar]] ________ [[he|él]] [[can't|no puede]] [[dance|bailar]].",
+          "correct_answer": "but",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U34_B34_5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-5.mp3",
+          "transcript_template": "[[We|Nosotros]] [[stay|nos quedamos]] [[inside|dentro]] ________ [[it|ello]] [[is|está]] [[cold|frío]].",
+          "correct_answer": "because",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U34_B34_5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-6.mp3",
+          "transcript_template": "[[They|Ellos]] [[study|estudian]] [[maths|matemáticas]] ________ [[history|historia]].",
+          "correct_answer": "and",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U34_B34_5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa:",
+          "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-7.mp3",
+          "transcript_template": "[[I|Yo]] [[drink|bebo]] [[water|agua]] ________ [[I|yo]] [[am|estoy]] [[thirsty|sediento]].",
+          "correct_answer": "because",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "A1_U34_B34_5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: And",
+          "instructions": "Practica la unión con la siguiente palabra.",
+          "targetSentences": [
+            {
+              "text": "[[Coffee|Café]] [[and|y]] [[milk|leche]].",
+              "phonetic": "/ˈkɒfi ənd mɪlk/",
+              "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U34_B34_5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suele sonar la 'd' en 'and' cuando hablamos rápido?",
+              "options": [
+                { "id": "o1", "text": "A veces casi desaparece o se une a la siguiente palabra" },
+                { "id": "o2", "text": "Siempre suena muy fuerte" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U34_B34_5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: But",
+          "instructions": "Practica la 't' final suave.",
+          "targetSentences": [
+            {
+              "text": "[[Small|Pequeño]] [[but|pero]] [[strong|fuerte]].",
+              "phonetic": "/smɔːl bʌt strɒŋ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U34_B34_5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'u' en 'but'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'a' corta y relajada (/ʌ/)" },
+                { "id": "o2", "text": "Como una 'u' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U34_B34_5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Because",
+          "instructions": "Practica la acentuación de 'because'.",
+          "targetSentences": [
+            {
+              "text": "[[Happy|Feliz]] [[because|porque]] [[it|ello]] [[is|está]] [[sunny|soleado]].",
+              "phonetic": "/ˈhæpi bɪˈkɒz ɪt ɪz ˈsʌni/",
+              "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U34_B34_5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuál es la sílaba tónica en 'because'?",
+              "options": [
+                { "id": "o1", "text": "La segunda (be-CAUSE)" },
+                { "id": "o2", "text": "La primera (BE-cause)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U34_B34_5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Unión de sonidos",
+          "instructions": "Escucha cómo se une 'because' con 'it'.",
+          "targetSentences": [
+            {
+              "text": "[[Because it|Porque ello]] [[is|está]] [[late|tarde]].",
+              "phonetic": "/bɪˈkɒz ɪt ɪz leɪt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U34_B34_5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "En inglés, cuando una palabra termina en consonante y la siguiente empieza en vocal, ¿suelen sonar separadas?",
+              "options": [
+                { "id": "o1", "text": "No, suelen unirse (linking)" },
+                { "id": "o2", "text": "Sí, siempre hay una pausa" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U34_B34_5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Contraste con 'But'",
+          "instructions": "Practica la entonación de contraste.",
+          "targetSentences": [
+            {
+              "text": "[[I|Yo]] [[can|puedo]] [[read|leer]], [[but|pero]] [[I|yo]] [[can't|no puedo]] [[write|escribir]].",
+              "phonetic": "/aɪ kən riːd bʌt aɪ kɑːnt raɪt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U34_B34_5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿En qué palabra suele haber una pequeña pausa justo antes?",
+              "options": [
+                { "id": "o1", "text": "But" },
+                { "id": "o2", "text": "Read" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U34_B34_5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Listas con 'And'",
+          "instructions": "Practica la entonación en una lista.",
+          "targetSentences": [
+            {
+              "text": "[[Bread|Pan]], [[cheese|queso]], [[and|y]] [[eggs|huevos]].",
+              "phonetic": "/brɛd tʃiːz ənd ɛɡz/",
+              "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U34_B34_5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "En una lista, ¿qué palabra suele ir precedida de 'and'?",
+              "options": [
+                { "id": "o1", "text": "La última" },
+                { "id": "o2", "text": "La primera" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U34_B34_5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Sonido 'th'",
+          "instructions": "Practica la palabra 'maths'.",
+          "targetSentences": [
+            {
+              "text": "[[Maths|Matemáticas]] [[and|y]] [[history|historia]].",
+              "phonetic": "/mæθs ənd ˈhɪstəri/",
+              "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U34_B34_5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'th' en 'maths'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'z' española (/θ/)" },
+                { "id": "o2", "text": "Como una 't' fuerte" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "A1_U34_B34_5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Resumen",
+          "instructions": "Escucha and repite.",
+          "targetSentences": [
+            {
+              "text": "[[Easy|Fácil]] [[and|y]] [[useful|útil]].",
+              "phonetic": "/ˈiːzi ənd ˈjuːsfʊl/",
+              "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "A1_U34_B34_5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'u' en 'useful'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'u' larga precedida de 'y' (/juː/)" },
+                { "id": "o2", "text": "Como una 'u' española simple" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

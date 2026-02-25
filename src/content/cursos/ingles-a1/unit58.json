@@ -366,6 +366,374 @@
           ]
         }
       ]
+    },
+    {
+      "block_id": "B58_5",
+      "title": "Block 5: Listening & Pronunciation",
+      "content": [
+        {
+          "interaction_id": "U58_I101",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I wake up at seven.",
+          "correct_answer": "I wake up at seven.",
+          "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-1.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U58_I102",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I have breakfast in the kitchen.",
+          "correct_answer": "I have breakfast in the kitchen.",
+          "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-2.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U58_I103",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "We go to work by bus.",
+          "correct_answer": "We go to work by bus.",
+          "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-3.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U58_I104",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I finish work at five.",
+          "correct_answer": "I finish work at five.",
+          "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-4.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U58_I105",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "They have dinner at eight.",
+          "correct_answer": "They have dinner at eight.",
+          "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-5.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U58_I106",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I watch TV in the evening.",
+          "correct_answer": "I watch TV in the evening.",
+          "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-6.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U58_I107",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I go to bed at ten.",
+          "correct_answer": "I go to bed at ten.",
+          "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-7.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U58_I108",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Breakfast",
+          "instructions": "La 'ea' suena como /ɛ/.",
+          "targetSentences": [
+            {
+              "text": "Eat [[breakfast|desayuno]].",
+              "phonetic": "/ˈbrɛkfəst/",
+              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U58_I108_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ea' en 'breakfast'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'e' corta (/ɛ/)" },
+                { "id": "o2", "text": "Como una 'i' larga" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U58_I109",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Routine",
+          "instructions": "La 'ou' suena como /uː/ y el acento está al final.",
+          "targetSentences": [
+            {
+              "text": "My daily [[routine|rutina]].",
+              "phonetic": "/ruːˈtiːn/",
+              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U58_I109_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento en 'routine'?",
+              "options": [
+                { "id": "o1", "text": "En la segunda sílaba (rou-TINE)" },
+                { "id": "o2", "text": "En la primera sílaba" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U58_I110",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Shower",
+          "instructions": "La 'sh' es sorda y la 'ow' suena como /aʊ/.",
+          "targetSentences": [
+            {
+              "text": "Take a [[shower|ducha]].",
+              "phonetic": "/ˈʃaʊə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U58_I110_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'sh' inicial?",
+              "options": [
+                { "id": "o1", "text": "Como pidiendo silencio (shhh)" },
+                { "id": "o2", "text": "Como la 'ch' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U58_I111",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Dinner",
+          "instructions": "Escucha y repite la 'i' corta.",
+          "targetSentences": [
+            {
+              "text": "Have [[dinner|cena]].",
+              "phonetic": "/ˈdɪnə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U58_I111_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'i' en 'dinner'?",
+              "options": [
+                { "id": "o1", "text": "Corta (/ɪ/)" },
+                { "id": "o2", "text": "Como 'ai' (/aɪ/)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U58_I112",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: O'clock",
+          "instructions": "Escucha y repite enfocándote en la 'o'.",
+          "targetSentences": [
+            {
+              "text": "At seven [[o'clock|en punto]].",
+              "phonetic": "/əˈklɒk/",
+              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U58_I112_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'o' inicial en 'o'clock'?",
+              "options": [
+                { "id": "o1", "text": "Débil (schwa /ə/)" },
+                { "id": "o2", "text": "Fuerte como una 'o' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U58_I113",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Finish",
+          "instructions": "Dos 'i' cortas.",
+          "targetSentences": [
+            {
+              "text": "I [[finish|termino]] work.",
+              "phonetic": "/ˈfɪnɪʃ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U58_I113_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'sh' final?",
+              "options": [
+                { "id": "o1", "text": "Como /ʃ/ (shhh)" },
+                { "id": "o2", "text": "Como /tʃ/ (ch)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U58_I114",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Evening",
+          "instructions": "La primera 'e' es larga y la segunda es silenciosa.",
+          "targetSentences": [
+            {
+              "text": "In the [[evening|tarde]].",
+              "phonetic": "/ˈiːvnɪŋ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U58_I114_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuántas sílabas se suelen pronunciar en 'evening'?",
+              "options": [
+                { "id": "o1", "text": "Dos (ev-ning)" },
+                { "id": "o2", "text": "Tres (e-ve-ning)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U58_I115",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Habit",
+          "instructions": "La 'a' es abierta (/æ/).",
+          "targetSentences": [
+            {
+              "text": "A good [[habit|hábito]].",
+              "phonetic": "/ˈhæbɪt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U58_I115_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'h' inicial?",
+              "options": [
+                { "id": "o1", "text": "Aspirada" },
+                { "id": "o2", "text": "Muda" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

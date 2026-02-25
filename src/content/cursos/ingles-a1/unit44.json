@@ -353,6 +353,374 @@
           "stimulus_en": "People are in the park in Madrid. They walk and talk. Children play with a ball. Some people sit on benches. They eat ice cream and enjoy the sun. Birds sing in the trees. It is a happy day in the park."
         }
       ]
+    },
+    {
+      "block_id": "B44_5",
+      "title": "Block 5: Listening & Pronunciation",
+      "content": [
+        {
+          "interaction_id": "U44_I301",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "It is sunny and hot today.",
+          "correct_answer": "It is sunny and hot today.",
+          "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-1.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U44_I302",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Take your umbrella, it is raining.",
+          "correct_answer": "Take your umbrella, it is raining.",
+          "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-2.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U44_I303",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "The weather is cloudy and cool.",
+          "correct_answer": "The weather is cloudy and cool.",
+          "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-3.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U44_I304",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "It is very windy in the afternoon.",
+          "correct_answer": "It is very windy in the afternoon.",
+          "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-4.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U44_I305",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "What is the weather like?",
+          "correct_answer": "What is the weather like?",
+          "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-5.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U44_I306",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "There is snow on the mountains.",
+          "correct_answer": "There is snow on the mountains.",
+          "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-6.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U44_I307",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "The forecast says it is going to rain.",
+          "correct_answer": "The forecast says it is going to rain.",
+          "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-7.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U44_I308",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Weather",
+          "instructions": "Escucha y repite la 'th'.",
+          "targetSentences": [
+            {
+              "text": "The [[weather|clima]] is [[nice|agradable]].",
+              "phonetic": "/ðə ˈwɛðə rɪz naɪs/",
+              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U44_I308_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'th' en 'weather'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'd' suave vibrante (/ð/)" },
+                { "id": "o2", "text": "Como una 'z' española (/θ/)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U44_I309",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Sunny",
+          "instructions": "Escucha y repite la 'u' corta.",
+          "targetSentences": [
+            {
+              "text": "It is [[sunny|soleado]].",
+              "phonetic": "/ɪt ɪz ˈsʌni/",
+              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U44_I309_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'u' en 'sunny'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'a' corta y relajada (/ʌ/)" },
+                { "id": "o2", "text": "Como una 'u' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U44_I310",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Rainy",
+          "instructions": "Escucha y repite el diptongo 'ai'.",
+          "targetSentences": [
+            {
+              "text": "It is a [[rainy|lluvioso]] [[day|día]].",
+              "phonetic": "/ɪt ɪz ə ˈreɪni deɪ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U44_I310_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ai' en 'rainy'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'ei' (/eɪ/)" },
+                { "id": "o2", "text": "Como una 'ai' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U44_I311",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Cloudy",
+          "instructions": "Escucha y repite el diptongo 'ou'.",
+          "targetSentences": [
+            {
+              "text": "It is [[cloudy|nublado]].",
+              "phonetic": "/ɪt ɪz ˈklaʊdi/",
+              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U44_I311_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ou' en 'cloudy'?",
+              "options": [
+                { "id": "o1", "text": "Como /aʊ/ (au)" },
+                { "id": "o2", "text": "Como una 'o' simple" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U44_I312",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Windy",
+          "instructions": "Escucha y repite la 'w'.",
+          "targetSentences": [
+            {
+              "text": "It is [[very|muy]] [[windy|ventoso]].",
+              "phonetic": "/ɪt ɪz ˈvɛri ˈwɪndi/",
+              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U44_I312_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia la 'w' en 'windy'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'u' semivocal (/w/)" },
+                { "id": "o2", "text": "Como una 'g' suave" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U44_I313",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Cold",
+          "instructions": "Escucha y repite la 'o' larga.",
+          "targetSentences": [
+            {
+              "text": "It is [[cold|frío]].",
+              "phonetic": "/ɪt ɪz kəʊld/",
+              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U44_I313_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'o' en 'cold'?",
+              "options": [
+                { "id": "o1", "text": "Como /əʊ/ (ou)" },
+                { "id": "o2", "text": "Como una 'o' española simple" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U44_I314",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Snow",
+          "instructions": "Escucha y repite el grupo consonántico 'sn'.",
+          "targetSentences": [
+            {
+              "text": "I [[see|veo]] the [[snow|nieve]].",
+              "phonetic": "/aɪ siː ðə snəʊ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U44_I314_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Se añade una 'e' antes de la 's' en 'snow'?",
+              "options": [
+                { "id": "o1", "text": "No, se empieza directamente con el silbido de la 's'" },
+                { "id": "o2", "text": "Sí, como en 'esnow'" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U44_I315",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Repaso Weather",
+          "instructions": "Escucha y repite la frase completa.",
+          "targetSentences": [
+            {
+              "text": "The [[sun|sol]] is [[shining|brillando]].",
+              "phonetic": "/ðə sʌn ɪz ˈʃaɪnɪŋ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U44_I315_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'sh' en 'shining'?",
+              "options": [
+                { "id": "o1", "text": "Como para pedir silencio (/ʃ/)" },
+                { "id": "o2", "text": "Como una 'ch' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

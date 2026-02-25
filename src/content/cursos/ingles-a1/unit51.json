@@ -429,6 +429,374 @@
           ]
         }
       ]
+    },
+    {
+      "block_id": "B51_5",
+      "title": "Block 5: Listening & Pronunciation",
+      "content": [
+        {
+          "interaction_id": "U51_I101",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I need a shopping trolley.",
+          "correct_answer": "I need a shopping trolley.",
+          "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-1.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U51_I102",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Where is the checkout?",
+          "correct_answer": "Where is the checkout?",
+          "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-2.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U51_I103",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I have my receipt.",
+          "correct_answer": "I have my receipt.",
+          "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-3.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U51_I104",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Put it in the basket.",
+          "correct_answer": "Put it in the basket.",
+          "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-4.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U51_I105",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Can I pay by card?",
+          "correct_answer": "Can I pay by card?",
+          "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-5.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U51_I106",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "The aisle is very long.",
+          "correct_answer": "The aisle is very long.",
+          "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-6.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U51_I107",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Where is the fruit section?",
+          "correct_answer": "Where is the fruit section?",
+          "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-7.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U51_I108",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Receipt",
+          "instructions": "La 'p' es silenciosa.",
+          "targetSentences": [
+            {
+              "text": "Here is your [[receipt|recibo]].",
+              "phonetic": "/rɪˈsiːt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U51_I108_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Se pronuncia la 'p' en 'receipt'?",
+              "options": [
+                { "id": "o1", "text": "No, es silenciosa" },
+                { "id": "o2", "text": "Sí, suena fuerte" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U51_I109",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Aisle",
+          "instructions": "La 's' es silenciosa.",
+          "targetSentences": [
+            {
+              "text": "Go to [[aisle|pasillo]] four.",
+              "phonetic": "/aɪl/",
+              "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U51_I109_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 's' en 'aisle'?",
+              "options": [
+                { "id": "o1", "text": "Es silenciosa" },
+                { "id": "o2", "text": "Suena como una 's' normal" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U51_I110",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Trolley",
+          "instructions": "Escucha y repite enfocándote en la 'o'.",
+          "targetSentences": [
+            {
+              "text": "Get a [[trolley|carrito]].",
+              "phonetic": "/ˈtrɒli/",
+              "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U51_I110_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuántas sílabas tiene 'trolley'?",
+              "options": [
+                { "id": "o1", "text": "Dos (trol-ley)" },
+                { "id": "o2", "text": "Tres" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U51_I111",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Checkout",
+          "instructions": "Escucha y repite la palabra compuesta.",
+          "targetSentences": [
+            {
+              "text": "Where is the [[checkout|caja]]?",
+              "phonetic": "/ˈtʃɛkaʊt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U51_I111_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ch' inicial?",
+              "options": [
+                { "id": "o1", "text": "Como la 'ch' española (/tʃ/)" },
+                { "id": "o2", "text": "Como una 'k'" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U51_I112",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Basket",
+          "instructions": "Escucha y repite enfocándote en la 'a'.",
+          "targetSentences": [
+            {
+              "text": "Take a [[basket|cesta]].",
+              "phonetic": "/ˈbɑːskɪt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U51_I112_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'a' en 'basket'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'a' larga (/ɑː/)" },
+                { "id": "o2", "text": "Como una 'e' corta" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U51_I113",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Fruits",
+          "instructions": "La 'ui' suena como /uː/.",
+          "targetSentences": [
+            {
+              "text": "I like [[fruit|fruta]].",
+              "phonetic": "/fruːt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U51_I113_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'fruit'?",
+              "options": [
+                { "id": "o1", "text": "Como 'frut' (/fruːt/)" },
+                { "id": "o2", "text": "Como 'fruit' español" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U51_I114",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Grocery",
+          "instructions": "Escucha y repite enfocándote en la 'o'.",
+          "targetSentences": [
+            {
+              "text": "A [[grocery|tienda de comestibles]] store.",
+              "phonetic": "/ˈɡrəʊsəri/",
+              "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U51_I114_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento en 'grocery'?",
+              "options": [
+                { "id": "o1", "text": "En la primera sílaba (GRO-)" },
+                { "id": "o2", "text": "En la segunda sílaba" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U51_I115",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Cash",
+          "instructions": "Escucha y repite la 'sh' final.",
+          "targetSentences": [
+            {
+              "text": "I pay in [[cash|efectivo]].",
+              "phonetic": "/kæʃ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U51_I115_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'sh' final?",
+              "options": [
+                { "id": "o1", "text": "Como pidiendo silencio (shhh)" },
+                { "id": "o2", "text": "Como la 'ch' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

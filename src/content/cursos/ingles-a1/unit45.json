@@ -335,6 +335,374 @@
           "stimulus_en": "Alice stays at home in winter because it is cold. She likes to sit by the fire and drink hot chocolate. She reads books and watches movies. Her cat, Snowy, sits on her lap. Alice is happy and warm inside her house when the winter wind blows outside."
         }
       ]
+    },
+    {
+      "block_id": "B45_5",
+      "title": "Block 5: Listening & Pronunciation",
+      "content": [
+        {
+          "interaction_id": "U45_I301",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "My favorite season is spring.",
+          "correct_answer": "My favorite season is spring.",
+          "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-1.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U45_I302",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "In summer, the weather is hot.",
+          "correct_answer": "In summer, the weather is hot.",
+          "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-2.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U45_I303",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Leaves fall in autumn.",
+          "correct_answer": "Leaves fall in autumn.",
+          "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-3.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U45_I304",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "It is very cold in winter.",
+          "correct_answer": "It is very cold in winter.",
+          "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-4.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U45_I305",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "We go to the beach in August.",
+          "correct_answer": "We go to the beach in August.",
+          "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-5.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U45_I306",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Plants grow in the spring.",
+          "correct_answer": "Plants grow in the spring.",
+          "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-6.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U45_I307",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "Do you like winter?",
+          "correct_answer": "Do you like winter?",
+          "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-7.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U45_I308",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Seasons",
+          "instructions": "Escucha y repite enfocándote en la 's' final.",
+          "targetSentences": [
+            {
+              "text": "The four [[seasons|estaciones]].",
+              "phonetic": "/ðə fɔː ˈsiːznz/",
+              "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U45_I308_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 's' final en 'seasons'?",
+              "options": [
+                { "id": "o1", "text": "Vibrante como una abeja (/z/)" },
+                { "id": "o2", "text": "Sorda como un silbido (/s/)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U45_I309",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Spring",
+          "instructions": "Escucha y repite el grupo consonántico 'spr'.",
+          "targetSentences": [
+            {
+              "text": "[[Spring|Primavera]] is [[here|aquí]].",
+              "phonetic": "/sprɪŋ ɪz hɪə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U45_I309_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Se añade una 'e' antes de 'spring'?",
+              "options": [
+                { "id": "o1", "text": "No, empieza directamente con la 's'" },
+                { "id": "o2", "text": "Sí, como 'espring'" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U45_I310",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Summer",
+          "instructions": "Escucha y repite la 'm' doble.",
+          "targetSentences": [
+            {
+              "text": "The [[summer|verano]] is [[hot|caluroso]].",
+              "phonetic": "/ðə ˈsʌmə rɪz hɒt/",
+              "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U45_I310_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Se pronuncian las dos 'm' en 'summer'?",
+              "options": [
+                { "id": "o1", "text": "No, solo suena como una única 'm'" },
+                { "id": "o2", "text": "Sí, se hacen más largas" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U45_I311",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Autumn",
+          "instructions": "Escucha y repite la terminación '-mn'.",
+          "targetSentences": [
+            {
+              "text": "It is [[autumn|otoño]].",
+              "phonetic": "/ˈɔːtəm/",
+              "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U45_I311_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Se pronuncia la 'n' final en 'autumn'?",
+              "options": [
+                { "id": "o1", "text": "No, es muda" },
+                { "id": "o2", "text": "Sí, suena suavemente" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U45_I312",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Winter",
+          "instructions": "Escucha y repite la 'w' inicial.",
+          "targetSentences": [
+            {
+              "text": "[[Winter|Invierno]] is [[cold|frío]].",
+              "phonetic": "/ˈwɪntə rɪz kəʊld/",
+              "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U45_I312_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'w' en 'winter'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'u' semivocal (/w/)" },
+                { "id": "o2", "text": "Como una 'v' vibrante" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U45_I313",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: August",
+          "instructions": "Escucha y repite el acento.",
+          "targetSentences": [
+            {
+              "text": "It is [[August|agosto]].",
+              "phonetic": "/ˈɔːɡəst/",
+              "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U45_I313_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento en 'August'?",
+              "options": [
+                { "id": "o1", "text": "En la primera sílaba (AU-gust)" },
+                { "id": "o2", "text": "En la segunda sílaba (au-GUST)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U45_I314",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: December",
+          "instructions": "Escucha y repite la sílaba tónica.",
+          "targetSentences": [
+            {
+              "text": "It is [[December|diciembre]].",
+              "phonetic": "/dɪˈsɛmbə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U45_I314_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cuál es la sílaba tónica en 'December'?",
+              "options": [
+                { "id": "o1", "text": "La segunda (de-CEM-ber)" },
+                { "id": "o2", "text": "La primera (DE-cem-ber)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U45_I315",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Repaso Seasons",
+          "instructions": "Escucha y repite la frase completa.",
+          "targetSentences": [
+            {
+              "text": "The [[weather|clima]] [[changes|cambia]] in [[autumn|otoño]].",
+              "phonetic": "/ðə ˈwɛðə ˈtʃeɪndʒɪz ɪn ˈɔːtəm/",
+              "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U45_I315_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ch' en 'changes'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'ch' española fuerte (/tʃ/)" },
+                { "id": "o2", "text": "Como una 'sh' suave" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }

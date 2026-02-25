@@ -322,6 +322,374 @@
           "stimulus_en": "John and Mary are on vacation. They stay at a hotel. It is big and nice. They have a room with a view of the sea. Every morning, they eat breakfast in the hotel restaurant. They are happy and enjoy their time."
         }
       ]
+    },
+    {
+      "block_id": "B43_5",
+      "title": "Block 5: Listening & Pronunciation",
+      "content": [
+        {
+          "interaction_id": "U43_I301",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "I visit many museums.",
+          "correct_answer": "I visit many museums.",
+          "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-1.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U43_I302",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "They stay at a hotel.",
+          "correct_answer": "They stay at a hotel.",
+          "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-2.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U43_I303",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "We take many photos.",
+          "correct_answer": "We take many photos.",
+          "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-3.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U43_I304",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "He travels around the world.",
+          "correct_answer": "He travels around the world.",
+          "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-4.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U43_I305",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "She buys souvenirs for her friends.",
+          "correct_answer": "She buys souvenirs for her friends.",
+          "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-5.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U43_I306",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "We arrive at the airport early.",
+          "correct_answer": "We arrive at the airport early.",
+          "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-6.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U43_I307",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y escribe lo que oyes:",
+          "stimulus_en": "They enjoy their vacation.",
+          "correct_answer": "They enjoy their vacation.",
+          "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-7.mp3",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "listening",
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "U43_I308",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Visit",
+          "instructions": "Escucha y repite enfocándote en la 'v' vibrante.",
+          "targetSentences": [
+            {
+              "text": "I [[visit|visito]] London.",
+              "phonetic": "/aɪ ˈvɪzɪt ˈlʌndən/",
+              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U43_I308_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'v' en 'visit'?",
+              "options": [
+                { "id": "o1", "text": "Vibrante, con los dientes superiores en el labio inferior (/v/)" },
+                { "id": "o2", "text": "Igual que la 'b' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U43_I309",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Stay",
+          "instructions": "Escucha y repite el diptongo.",
+          "targetSentences": [
+            {
+              "text": "They [[stay|se alojan]] here.",
+              "phonetic": "/ðeɪ steɪ hɪə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U43_I309_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ay' en 'stay'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'ei' (/eɪ/)" },
+                { "id": "o2", "text": "Como una 'a' simple" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U43_I310",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Travel",
+          "instructions": "Escucha y repite la 'l' final.",
+          "targetSentences": [
+            {
+              "text": "We [[travel|viajamos]] [[by|en]] train.",
+              "phonetic": "/wi ˈtrævl baɪ treɪn/",
+              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U43_I310_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿La 'l' en 'travel' es clara o oscura?",
+              "options": [
+                { "id": "o1", "text": "Oscura (Dark L)" },
+                { "id": "o2", "text": "Igual que en español" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U43_I311",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Arrive",
+          "instructions": "Escucha y repite el acento.",
+          "targetSentences": [
+            {
+              "text": "We [[arrive|llegamos]] [[at|a]] noon.",
+              "phonetic": "/wi əˈraɪv æt nuːn/",
+              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U43_I311_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento en 'arrive'?",
+              "options": [
+                { "id": "o1", "text": "En la segunda sílaba (ar-RIVE)" },
+                { "id": "o2", "text": "En la primera sílaba (AR-rive)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U43_I312",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Photo",
+          "instructions": "Escucha y repite la 'ph'.",
+          "targetSentences": [
+            {
+              "text": "Take a [[photo|foto]].",
+              "phonetic": "/teɪk ə ˈfəʊtəʊ/",
+              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U43_I312_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'ph' en 'photo'?",
+              "options": [
+                { "id": "o1", "text": "Como una 'f' (/f/)" },
+                { "id": "o2", "text": "Como una 'p'" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U43_I313",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Souvenir",
+          "instructions": "Escucha y repite el acento francés.",
+          "targetSentences": [
+            {
+              "text": "Buy a [[souvenir|recuerdo]].",
+              "phonetic": "/ˌsuːvəˈnɪə/",
+              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U43_I313_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento principal en 'souvenir'?",
+              "options": [
+                { "id": "o1", "text": "En la última sílaba (-NIR)" },
+                { "id": "o2", "text": "En la primera sílaba (SOU-)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U43_I314",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Enjoy",
+          "instructions": "Escucha y repite la 'j'.",
+          "targetSentences": [
+            {
+              "text": "[[Enjoy|Disfruta]] your [[trip|viaje]].",
+              "phonetic": "/ɪnˈdʒɔɪ jɔː trɪp/",
+              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U43_I314_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo suena la 'j' en 'enjoy'?",
+              "options": [
+                { "id": "o1", "text": "Como /dʒ/ (ll o y fuerte)" },
+                { "id": "o2", "text": "Como la 'j' española" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U43_I315",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Repaso Travel Verbs",
+          "instructions": "Escucha y repite la frase completa.",
+          "targetSentences": [
+            {
+              "text": "They [[stay|se alojan]] at a [[nice|bonito]] [[hotel|hotel]].",
+              "phonetic": "/ðeɪ steɪ æt ə naɪs həʊˈtɛl/",
+              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U43_I315_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Dónde recae el acento en 'hotel'?",
+              "options": [
+                { "id": "o1", "text": "En la segunda sílaba (ho-TEL)" },
+                { "id": "o2", "text": "En la primera sílaba (HO-tel)" }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
     }
   ]
 }
