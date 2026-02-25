@@ -1320,5 +1320,381 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-55/e60.mp3",
     "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u55-u55_i101",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[Where are the fitting rooms?|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u55-u55_i102",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[Can I try this on?|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u55-u55_i103",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[I need a medium size.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u55-u55_i104",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[How much is this shirt?|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u55-u55_i105",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[It is on sale today.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u55-u55_i106",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[Do you have this in blue?|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u55-u55_i107",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[I will take it.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u55-u55_i108",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I buy .",
+    "content": {
+      "title": "Pronunciación: Clothes",
+      "instructions": "La 'th' es sonora y la 'e' es silenciosa.",
+      "questions": [
+        {
+          "question": "¿Cuántas sílabas tiene 'clothes'?",
+          "options": [
+            "[[Una|]]",
+            "[[Dos|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-8.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u55-u55_i109",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "What ?",
+    "content": {
+      "title": "Pronunciación: Size",
+      "instructions": "Escucha y repite la 's' vibrante final.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'z' final?",
+          "options": [
+            "[[Vibrante como una abeja (/z/)|]]",
+            "[[Sorda como un silbido (/s/)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-9.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u55-u55_i110",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "A blue .",
+    "content": {
+      "title": "Pronunciación: Shirt",
+      "instructions": "La 'ir' suena como /ɜː/.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la vocal en 'shirt'?",
+          "options": [
+            "[[Como una 'e' profunda (/ɜː/)|]]",
+            "[[Como una 'i' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-10.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u55-u55_i111",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "The .",
+    "content": {
+      "title": "Pronunciación: Fitting Room",
+      "instructions": "Escucha y repite la palabra compuesta.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'ng' en 'fitting'?",
+          "options": [
+            "[[Nasal, sin pronunciar la 'g' fuerte|]]",
+            "[[Como 'ng' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-11.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u55-u55_i112",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Happy .",
+    "content": {
+      "title": "Pronunciación: Customer",
+      "instructions": "Escucha y repite enfocándote en la primera sílaba.",
+      "questions": [
+        {
+          "question": "¿Dónde recae el acento en 'customer'?",
+          "options": [
+            "[[En la primera sílaba (CUS-)|]]",
+            "[[En la segunda sílaba|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-12.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u55-u55_i113",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Get the .",
+    "content": {
+      "title": "Pronunciación: Receipt",
+      "instructions": "Recordatorio: la 'p' es silenciosa.",
+      "questions": [
+        {
+          "question": "¿Cómo se pronuncia 'receipt'?",
+          "options": [
+            "[[Ri-SIT (/rɪˈsiːt/)|]]",
+            "[[Ri-SEPT|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-13.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u55-u55_i114",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "A  size.",
+    "content": {
+      "title": "Pronunciación: Small",
+      "instructions": "La 'a' suena como /ɔː/.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'a' en 'small'?",
+          "options": [
+            "[[Como una 'o' larga (/ɔː/)|]]",
+            "[[Como una 'a' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-14.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u55-u55_i115",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Pay at the .",
+    "content": {
+      "title": "Pronunciación: Checkout",
+      "instructions": "Escucha y repite.",
+      "questions": [
+        {
+          "question": "¿Cuántas sílabas tiene 'checkout'?",
+          "options": [
+            "[[Dos (check-out)|]]",
+            "[[Una|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-15.mp3",
+    "topicName": "Pronunciation"
   }
+
 ];

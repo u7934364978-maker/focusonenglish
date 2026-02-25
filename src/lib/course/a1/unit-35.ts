@@ -1325,5 +1325,381 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-35/e60.mp3",
     "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u35-a1_u35_b35_5_i1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " watch  .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la actividad:",
+      "questions": [
+        {
+          "question": "[[I|Yo]] _______ [[TV|la televisión]] [[in the evening|por la noche]].",
+          "options": [
+            "[[watch|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-1.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u35-a1_u35_b35_5_i2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  video games .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[plays|juega]] _______ [[all day|todo el día]].",
+          "options": [
+            "[[video games|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-2.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u35-a1_u35_b35_5_i3",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " go .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[We|Nosotros]] _______ [[for a walk|a dar un paseo]].",
+          "options": [
+            "[[go|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-3.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u35-a1_u35_b35_5_i4",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  social media .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[She|Ella]] [[uses|usa]] _______ [[after work|después del trabajo]].",
+          "options": [
+            "[[social media|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-4.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u35-a1_u35_b35_5_i5",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " go  on .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] _______ [[shopping|de compras]] on [[Saturdays|sábados]].",
+          "options": [
+            "[[go|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-5.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u35-a1_u35_b35_5_i6",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  music .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[listen to|escucho]] _______ [[in my bedroom|en mi habitación]].",
+          "options": [
+            "[[music|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-6.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u35-a1_u35_b35_5_i7",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  read ?",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[Do|¿Haces?]] [[you|tú]] _______ [[books|libros]]?",
+          "options": [
+            "[[read|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-7.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u35-a1_u35_b35_5_i8",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: TV",
+      "instructions": "Practica la pronunciación de las letras T-V.",
+      "questions": [
+        {
+          "question": "¿En qué letra recae el acento principal al decir 'TV'?",
+          "options": [
+            "[[En la V (ti-VEE)|]]",
+            "[[En la T (TEE-vi)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-8.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u35-a1_u35_b35_5_i9",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Video games",
+      "instructions": "Practica la 'v' y el plural 'games'.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 's' final en 'games'?",
+          "options": [
+            "[[Como una 'z' vibrante (/z/)|]]",
+            "[[Como una 's' simple|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-9.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u35-a1_u35_b35_5_i10",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Social media",
+      "instructions": "Practica el sonido 'sh' (/ʃ/) en 'social'.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'c' en 'social'?",
+          "options": [
+            "[[Como 'sh' (/ʃ/)|]]",
+            "[[Como una 's' simple|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-10.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u35-a1_u35_b35_5_i11",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Walk",
+      "instructions": "La 'l' es muda.",
+      "questions": [
+        {
+          "question": "¿Se pronuncia la letra 'l' en 'walk'?",
+          "options": [
+            "[[No, es muda|]]",
+            "[[Sí, suena suave|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-11.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u35-a1_u35_b35_5_i12",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Music",
+      "instructions": "Practica la acentuación.",
+      "questions": [
+        {
+          "question": "¿Cuál es la sílaba tónica en 'music'?",
+          "options": [
+            "[[La primera (MU-sic)|]]",
+            "[[La segunda (mu-SIC)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-12.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u35-a1_u35_b35_5_i13",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Read",
+      "instructions": "Practica la 'ee' larga (/iː/).",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'ea' en 'read'?",
+          "options": [
+            "[[Como una 'i' larga (/iː/)|]]",
+            "[[Como una 'e' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-13.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u35-a1_u35_b35_5_i14",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Shopping",
+      "instructions": "Practica el sonido 'sh' (/ʃ/) y la 'o' corta (/ɒ/).",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'sh' inicial en 'shopping'?",
+          "options": [
+            "[[Como pidiendo silencio (/ʃ/)|]]",
+            "[[Como una 's' simple|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-14.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u35-a1_u35_b35_5_i15",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " and .",
+    "content": {
+      "title": "Pronunciación: Resumen",
+      "instructions": "Escucha y repite.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'j' en 'enjoy'?",
+          "options": [
+            "[[Como una 'y' vibrante o 'll' argentina (/dʒ/)|]]",
+            "[[Como una 'h' soplada|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-15.mp3",
+    "topicName": "Pronunciation"
   }
+
 ];

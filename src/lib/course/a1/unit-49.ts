@@ -1320,5 +1320,381 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-49/e60.mp3",
     "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u49-u49_i301",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[I need to pack my suitcase.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u49-u49_i302",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[Don't forget your phone charger.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u49-u49_i303",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[I have my passport and tickets.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u49-u49_i304",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[Is your luggage heavy or light?|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u49-u49_i305",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[I need a universal adapter.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u49-u49_i306",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[Pack your swimsuit for the beach.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u49-u49_i307",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[Where are my sunglasses?|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u49-u49_i308",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "My  is .",
+    "content": {
+      "title": "Pronunciación: Suitcase",
+      "instructions": "Escucha y repite enfocándote en la 's'.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 's' final en 'suitcase'?",
+          "options": [
+            "[[Como un silbido sordo (/s/)|]]",
+            "[[Como una 'z' vibrante|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-8.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u49-u49_i309",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I  my .",
+    "content": {
+      "title": "Pronunciación: Charger",
+      "instructions": "Escucha y repite la 'ch'.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'ch' en 'charger'?",
+          "options": [
+            "[[Como una 'ch' española fuerte (/tʃ/)|]]",
+            "[[Como una 'sh' suave|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-9.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u49-u49_i310",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Take your .",
+    "content": {
+      "title": "Pronunciación: Passport",
+      "instructions": "Escucha y repite la 'p' aspirada.",
+      "questions": [
+        {
+          "question": "¿La 'p' inicial en 'passport' expulsa aire?",
+          "options": [
+            "[[Sí (Aspirada)|]]",
+            "[[No|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-10.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u49-u49_i311",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "A  .",
+    "content": {
+      "title": "Pronunciación: Adapter",
+      "instructions": "Escucha y repite el acento.",
+      "questions": [
+        {
+          "question": "¿Dónde recae el acento en 'adapter'?",
+          "options": [
+            "[[En la segunda sílaba (a-DAP-ter)|]]",
+            "[[En la primera sílaba|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-11.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u49-u49_i312",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Wear your .",
+    "content": {
+      "title": "Pronunciación: Sunglasses",
+      "instructions": "Escucha y repite la palabra compuesta.",
+      "questions": [
+        {
+          "question": "¿Cuántas sílabas tiene 'sunglasses'?",
+          "options": [
+            "[[Tres (SUN-glas-ses)|]]",
+            "[[Dos|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-12.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u49-u49_i313",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "It is  .",
+    "content": {
+      "title": "Pronunciación: Heavy",
+      "instructions": "Escucha y repite la 'h' aspirada.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'h' en 'heavy'?",
+          "options": [
+            "[[Como un suspiro suave (/h/)|]]",
+            "[[Es muda|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-13.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u49-u49_i314",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "It is .",
+    "content": {
+      "title": "Pronunciación: Light",
+      "instructions": "Escucha y repite la 'i' larga.",
+      "questions": [
+        {
+          "question": "¿Cómo suena 'ight' en 'light'?",
+          "options": [
+            "[[Como /aɪt/ (ait)|]]",
+            "[[Como una 'i' simple|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-14.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u49-u49_i315",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I  my .",
+    "content": {
+      "title": "Pronunciación: Repaso Packing",
+      "instructions": "Escucha y repite la frase completa.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'a' en 'pack' y 'bag'?",
+          "options": [
+            "[[Como una 'a' abierta (/æ/)|]]",
+            "[[Como una 'e' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-15.mp3",
+    "topicName": "Pronunciation"
   }
+
 ];

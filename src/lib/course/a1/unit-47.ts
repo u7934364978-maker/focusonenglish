@@ -1315,5 +1315,381 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-47/e60.mp3",
     "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u47-u47_i301",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[I love sunbathing on the beach.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u47-u47_i302",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[They enjoy sightseeing in Paris.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u47-u47_i303",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[We go hiking in the mountains.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u47-u47_i304",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[She hates long flights.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u47-u47_i305",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[I send a postcard to my mother.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u47-u47_i306",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[Are you relaxing on vacation?|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u47-u47_i307",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[We eat local food in the evening.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u47-u47_i308",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Happy !",
+    "content": {
+      "title": "Pronunciación: Holidays",
+      "instructions": "Escucha y repite enfocándote en la 'h'.",
+      "questions": [
+        {
+          "question": "¿La 'h' inicial en 'holidays' es muda como en español?",
+          "options": [
+            "[[No, es aspirada (suena como un suspiro suave)|]]",
+            "[[Sí, es igual|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-8.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u47-u47_i309",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I  to the .",
+    "content": {
+      "title": "Pronunciación: Beach",
+      "instructions": "Escucha y repite la 'i' larga.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'ea' en 'beach'?",
+          "options": [
+            "[[Como una 'i' larga y tensa (/iː/)|]]",
+            "[[Como una 'e' abierta|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-9.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u47-u47_i310",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "We  .",
+    "content": {
+      "title": "Pronunciación: Sightseeing",
+      "instructions": "Escucha y repite la palabra larga.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'igh' en 'sight'?",
+          "options": [
+            "[[Como /aɪ/ (ai)|]]",
+            "[[Como una 'i' simple|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-10.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u47-u47_i311",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Go .",
+    "content": {
+      "title": "Pronunciación: Hiking",
+      "instructions": "Escucha y repite la 'h' y la 'i' larga.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la primera 'i' en 'hiking'?",
+          "options": [
+            "[[Como /aɪ/ (ai)|]]",
+            "[[Como una 'i' corta|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-11.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u47-u47_i312",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Send a .",
+    "content": {
+      "title": "Pronunciación: Postcard",
+      "instructions": "Escucha y repite la palabra compuesta.",
+      "questions": [
+        {
+          "question": "¿Se pronuncia la 't' en 'postcard'?",
+          "options": [
+            "[[A menudo es muda o muy suave|]]",
+            "[[Siempre suena fuerte|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-12.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u47-u47_i313",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I  .",
+    "content": {
+      "title": "Pronunciación: Love",
+      "instructions": "Escucha y repite la vocal relajada.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'o' en 'love'?",
+          "options": [
+            "[[Como una 'a' corta y relajada (/ʌ/)|]]",
+            "[[Como una 'o' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-13.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u47-u47_i314",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I  .",
+    "content": {
+      "title": "Pronunciación: Hate",
+      "instructions": "Escucha y repite el diptongo 'a_e'.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'a' en 'hate'?",
+          "options": [
+            "[[Como /eɪ/ (ei)|]]",
+            "[[Como una 'a' simple|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-14.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u47-u47_i315",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "We  the  .",
+    "content": {
+      "title": "Pronunciación: Repaso Holidays",
+      "instructions": "Escucha y repite la frase completa.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'oo' en 'food'?",
+          "options": [
+            "[[Como una 'u' larga (/uː/)|]]",
+            "[[Como una 'u' corta|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-15.mp3",
+    "topicName": "Pronunciation"
   }
+
 ];

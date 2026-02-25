@@ -1320,5 +1320,381 @@ export const UNIT_37_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-37/e60.mp3",
     "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u37-a1_u37_b37_5_i1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   creative.",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la frase:",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[is|es]] [[very|muy]] _______.",
+          "options": [
+            "[[creative|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-1.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u37-a1_u37_b37_5_i2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  quite .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[She|Ella]] [[works|trabaja]] _______ [[well|bien]].",
+          "options": [
+            "[[quite|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-2.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u37-a1_u37_b37_5_i3",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   fast .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[am|soy]] [[not|no]] _______ [[at all|para nada]].",
+          "options": [
+            "[[fast|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-3.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u37-a1_u37_b37_5_i4",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  hardworking .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] [[are|son]] _______ [[students|estudiantes]].",
+          "options": [
+            "[[hardworking|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-4.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u37-a1_u37_b37_5_i5",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Can    ?",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "_______ [[you|tú]] [[play|tocar]] [[the piano|el piano]] [[well|bien]]?",
+          "options": [
+            "[[Can|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-5.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u37-a1_u37_b37_5_i6",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  sing .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[can|puedo]] _______ [[very well|muy bien]].",
+          "options": [
+            "[[sing|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-6.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u37-a1_u37_b37_5_i7",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  a  runner.",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[is|es]] a [[fast|rápido]] _______.",
+          "options": [
+            "[[runner|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-7.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u37-a1_u37_b37_5_i8",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   .",
+    "content": {
+      "title": "Pronunciación: Creative",
+      "instructions": "Practica el sonido /i/ largo y el diptongo /eɪ/.",
+      "questions": [
+        {
+          "question": "¿Cuál es la sílaba tónica en 'creative'?",
+          "options": [
+            "[[La segunda (cre-A-tive)|]]",
+            "[[La primera (CRE-a-tive)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-8.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u37-a1_u37_b37_5_i9",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Hardworking",
+      "instructions": "Practica la pronunciación de la 'h' aspirada.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'h' en 'hardworking'?",
+          "options": [
+            "[[Como un suspiro suave (aspirada)|]]",
+            "[[Es muda como en español|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-9.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u37-a1_u37_b37_5_i10",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Fast",
+      "instructions": "Practica la 'a' larga británica (/ɑː/).",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'a' en 'fast'?",
+          "options": [
+            "[[Como una 'a' abierta y profunda (/ɑː/)|]]",
+            "[[Como una 'e' corta|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-10.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u37-a1_u37_b37_5_i11",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Talent",
+      "instructions": "Practica el sonido /æ/ inicial.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'a' en 'talent'?",
+          "options": [
+            "[[Como una mezcla entre 'a' y 'e' (/æ/)|]]",
+            "[[Como una 'o'|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-11.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u37-a1_u37_b37_5_i12",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Skills",
+      "instructions": "Practica la 'i' corta (/ɪ/).",
+      "questions": [
+        {
+          "question": "¿La 'i' en 'skills' es larga o corta?",
+          "options": [
+            "[[Corta (/ɪ/)|]]",
+            "[[Larga (/iː/)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-12.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u37-a1_u37_b37_5_i13",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Runner",
+      "instructions": "Practica la 'u' corta (/ʌ/).",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'u' en 'runner'?",
+          "options": [
+            "[[Como una 'a' corta y central (/ʌ/)|]]",
+            "[[Como una 'u' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-13.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u37-a1_u37_b37_5_i14",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Sing",
+      "instructions": "Practica el sonido nasal final /ŋ/.",
+      "questions": [
+        {
+          "question": "¿Se debe pronunciar una 'g' fuerte al final de 'sing'?",
+          "options": [
+            "[[No, es un sonido nasal suave|]]",
+            "[[Sí, como en 'gato'|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-14.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u37-a1_u37_b37_5_i15",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Quite well",
+      "instructions": "Practica la 'q' (/kw/) y la 'w' (/w/).",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'w' en 'well'?",
+          "options": [
+            "[[Como una 'u' rápida|]]",
+            "[[Como una 'g' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-15.mp3",
+    "topicName": "Pronunciation"
   }
+
 ];

@@ -1319,5 +1319,381 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "audioUrl": "audio/a1/unit-30/e60.mp3",
     "topicName": "Vocabulary"
   }
-];
+,
+  {
+    "id": "a1-u30-u30_i305",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "The  is between the  and the .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la frase:",
+      "questions": [
+        {
+          "question": "The [[bookshelf|estantería]] is _______ the [[window|ventana]] and the [[door|puerta]].",
+          "options": [
+            "[[between|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit30/lesson5-task-1.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u30-u30_i306",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "There are   on the .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la frase:",
+      "questions": [
+        {
+          "question": "_______ [[some|algunos]] [[cushions|cojines]] on the [[sofa|sofá]].",
+          "options": [
+            "[[There are|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit30/lesson5-task-2.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u30-u30_i307",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "The  is opposite the .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la frase:",
+      "questions": [
+        {
+          "question": "The [[bakery|panadería]] is _______ the [[park|parque]].",
+          "options": [
+            "[[opposite|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit30/lesson5-task-3.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u30-u30_i308",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " your shoulders and your .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la frase:",
+      "questions": [
+        {
+          "question": "[[Touch|Toca]] your _______ and your [[knees|rodillas]].",
+          "options": [
+            "[[shoulders|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit30/lesson5-task-4.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u30-u30_i309",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I am wearing a  .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la frase:",
+      "questions": [
+        {
+          "question": "I am _______ a [[blue|azul]] [[jacket|chaqueta]].",
+          "options": [
+            "[[wearing|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit30/lesson5-task-5.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u30-u30_i310",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "The  is a  wild animal.",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la frase:",
+      "questions": [
+        {
+          "question": "The [[elephant|elefante]] is a [[large|grande]] _______.",
+          "options": [
+            "[[wild animal|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit30/lesson5-task-6.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u30-u30_i311",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Go past the .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la frase:",
+      "questions": [
+        {
+          "question": "_______ the [[supermarket|supermercado]].",
+          "options": [
+            "[[Go past|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit30/lesson5-task-7.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u30-u30_i312",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "The  is  .",
+    "content": {
+      "title": "Pronunciación: Habitaciones",
+      "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+      "questions": [
+        {
+          "question": "¿Cuál es la sílaba tónica en 'kitchen'?",
+          "options": [
+            "[[La primera (KITCH-en)|]]",
+            "[[La segunda (kitch-EN)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit30/lesson5-task-8.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u30-u30_i313",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "My  is  of .",
+    "content": {
+      "title": "Pronunciación: Muebles",
+      "instructions": "Practica la pronunciación de 'wardrobe'.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'o' en 'wardrobe'?",
+          "options": [
+            "[[Como una 'o' larga (/əʊ/)|]]",
+            "[[Como una 'u' corta (/ʊ/)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit30/lesson5-task-9.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u30-u30_i314",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "The  is  the .",
+    "content": {
+      "title": "Pronunciación: Preposiciones",
+      "instructions": "Escucha y repite.",
+      "questions": [
+        {
+          "question": "¿Cómo se pronuncia la 'u' en 'under'?",
+          "options": [
+            "[[Como una 'a' corta y relajada (/ʌ/)|]]",
+            "[[Como una 'u' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit30/lesson5-task-10.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u30-u30_i315",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I  to the  on .",
+    "content": {
+      "title": "Pronunciación: El Barrio",
+      "instructions": "Practica la palabra 'library'.",
+      "questions": [
+        {
+          "question": "¿Cuántas sílabas tiene 'library' en esta pronunciación?",
+          "options": [
+            "[[3 sílabas (LAI-bra-ri)|]]",
+            "[[2 sílabas (LAI-bri)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit30/lesson5-task-11.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u30-u30_i316",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " your   at ?",
+    "content": {
+      "title": "Pronunciación: Mascotas",
+      "instructions": "Escucha la entonación de la pregunta.",
+      "questions": [
+        {
+          "question": "En las preguntas de sí/no, ¿la entonación suele subir o bajar al final?",
+          "options": [
+            "[[Sube (Rising intonation)|]]",
+            "[[Baja (Falling intonation)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit30/lesson5-task-12.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u30-u30_i317",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "He has   .",
+    "content": {
+      "title": "Pronunciación: Cuerpo",
+      "instructions": "Practica los sonidos de las vocales.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'air' en 'hair'?",
+          "options": [
+            "[[Como un diptongo (/eə/)|]]",
+            "[[Como una 'i' larga|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit30/lesson5-task-13.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u30-u30_i318",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  is  .",
+    "content": {
+      "title": "Pronunciación: Ropa",
+      "instructions": "Practica la palabra 'too'.",
+      "questions": [
+        {
+          "question": "¿La 'oo' en 'too' es corta o larga?",
+          "options": [
+            "[[Larga (/uː/)|]]",
+            "[[Corta (/ʊ/)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit30/lesson5-task-14.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u30-u30_i319",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " to the   .",
+    "content": {
+      "title": "Pronunciación: Repaso Final",
+      "instructions": "Escucha y repite la frase de bienvenida.",
+      "questions": [
+        {
+          "question": "¿Cómo se pronuncia el 'th' en 'three'?",
+          "options": [
+            "[[Poniendo la lengua entre los dientes sin vibración (/θ/)|]]",
+            "[[Como una 'd' fuerte|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit30/lesson5-task-15.mp3",
+    "topicName": "Pronunciation"
+  }
 
+];

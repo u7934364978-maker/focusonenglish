@@ -1320,5 +1320,381 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-31/e60.mp3",
     "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u31-a1_u31_b31_5_i1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "My  can cook .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la frase con la habilidad:",
+      "questions": [
+        {
+          "question": "My [[mother|madre]] _______ [[very well|muy bien]].",
+          "options": [
+            "[[can cook|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-1.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u31-a1_u31_b31_5_i2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " can't  .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[I|Yo]] _______ [[speak|hablar]] [[German|alemán]].",
+          "options": [
+            "[[can't|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-2.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u31-a1_u31_b31_5_i3",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Can     ?",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "_______ [[you|tú]] [[help|ayudar]] [[me|me]] [[with|con]] [[this|esto]]?",
+          "options": [
+            "[[Can|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-3.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u31-a1_u31_b31_5_i4",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " can  .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[Birds|Los pájaros]] _______ [[fly|volar]] [[high|alto]].",
+          "options": [
+            "[[can|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-4.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u31-a1_u31_b31_5_i5",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " can  the .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[He|Él]] _______ [[play|tocar]] the [[guitar|guitarra]].",
+          "options": [
+            "[[can|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-5.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u31-a1_u31_b31_5_i6",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " can't  .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] _______ [[swim|nadar]] [[fast|rápido]].",
+          "options": [
+            "[[can't|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-6.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u31-a1_u31_b31_5_i7",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " can  the .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[We|Nosotros]] _______ [[understand|entender]] the [[lesson|lección]].",
+          "options": [
+            "[[can|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-7.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u31-a1_u31_b31_5_i8",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I  .",
+    "content": {
+      "title": "Pronunciación: Can afirmativo",
+      "instructions": "Escucha la pronunciación débil de 'can' (/kən/).",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'a' en 'can' cuando es afirmativo y no está enfatizado?",
+          "options": [
+            "[[Como un sonido corto y débil (/ə/)|]]",
+            "[[Como una 'a' fuerte (/æ/)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-8.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u31-a1_u31_b31_5_i9",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I  .",
+    "content": {
+      "title": "Pronunciación: Can't negativo",
+      "instructions": "Escucha la pronunciación fuerte de 'can't' (/kɑːnt/).",
+      "questions": [
+        {
+          "question": "¿Qué vocal se escucha en 'can't'?",
+          "options": [
+            "[[Una 'a' larga y abierta (/ɑː/)|]]",
+            "[[Una 'u' cerrada|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-9.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u31-a1_u31_b31_5_i10",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  ?",
+    "content": {
+      "title": "Pronunciación: Preguntas",
+      "instructions": "Escucha la entonación ascendente.",
+      "questions": [
+        {
+          "question": "En la pregunta 'Can you sing?', ¿qué palabra suele ser más débil?",
+          "options": [
+            "[[Can|]]",
+            "[[Sing|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-10.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u31-a1_u31_b31_5_i11",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   a .",
+    "content": {
+      "title": "Pronunciación: Verbo 'Drive'",
+      "instructions": "Practica el diptongo /aɪ/.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'i' en 'drive'?",
+          "options": [
+            "[[Como el diptongo 'ai' (/aɪ/)|]]",
+            "[[Como una 'i' simple|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-11.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u31-a1_u31_b31_5_i12",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   .",
+    "content": {
+      "title": "Pronunciación: Verbo 'Swim'",
+      "instructions": "Practica la 'i' corta.",
+      "questions": [
+        {
+          "question": "¿La 'i' en 'swim' es larga (como 'ii') o corta?",
+          "options": [
+            "[[Corta (/ɪ/)|]]",
+            "[[Larga (/iː/)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-12.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u31-a1_u31_b31_5_i13",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   .",
+    "content": {
+      "title": "Pronunciación: Verbo 'Cook'",
+      "instructions": "Practica la 'oo' corta.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'oo' en 'cook'?",
+          "options": [
+            "[[Como una 'u' corta (/ʊ/)|]]",
+            "[[Como una 'u' larga (/uː/)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-13.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u31-a1_u31_b31_5_i14",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   .",
+    "content": {
+      "title": "Pronunciación: 'Very well'",
+      "instructions": "Practica la uve (/v/).",
+      "questions": [
+        {
+          "question": "Para pronunciar la /v/ en 'very', ¿dónde ponemos los dientes superiores?",
+          "options": [
+            "[[En el labio inferior|]]",
+            "[[Juntos con los dientes inferiores|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-14.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u31-a1_u31_b31_5_i15",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   !",
+    "content": {
+      "title": "Pronunciación: Resumen",
+      "instructions": "Escucha y repite la frase final.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'sh' final en 'English'?",
+          "options": [
+            "[[Como pidiendo silencio (/ʃ/)|]]",
+            "[[Como una 's' simple|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-15.mp3",
+    "topicName": "Pronunciation"
   }
+
 ];

@@ -1320,5 +1320,381 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-54/e60.mp3",
     "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u54-u54_i101",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[How much money do you have?|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u54-u54_i102",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[How many books are there?|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u54-u54_i103",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[I have a lot of friends.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u54-u54_i104",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[There is a little milk.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u54-u54_i105",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[We have a few cookies.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u54-u54_i106",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[I don't have much time.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u54-u54_i107",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[Are there many people?|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u54-u54_i108",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "How ?",
+    "content": {
+      "title": "Pronunciación: Much",
+      "instructions": "Escucha y repite la 'u' corta.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'u' en 'much'?",
+          "options": [
+            "[[Como una 'a' corta (/ʌ/)|]]",
+            "[[Como una 'u' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-8.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u54-u54_i109",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "How ?",
+    "content": {
+      "title": "Pronunciación: Many",
+      "instructions": "La 'a' suena como /ɛ/.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'a' en 'many'?",
+          "options": [
+            "[[Como una 'e' (/ɛ/)|]]",
+            "[[Como una 'a'|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-9.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u54-u54_i110",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "A  water.",
+    "content": {
+      "title": "Pronunciación: Little",
+      "instructions": "Escucha y repite la 'i' corta.",
+      "questions": [
+        {
+          "question": "¿Cómo suenan las 'tt' en inglés americano?",
+          "options": [
+            "[[Como una 'd' suave (/ɾ/)|]]",
+            "[[Como una 't' fuerte|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-10.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u54-u54_i111",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "A  books.",
+    "content": {
+      "title": "Pronunciación: Few",
+      "instructions": "La 'ew' suena como /juː/.",
+      "questions": [
+        {
+          "question": "¿Cómo se pronuncia 'few'?",
+          "options": [
+            "[[Como 'fiu' (/fjuː/)|]]",
+            "[[Como 'feu'|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-11.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u54-u54_i112",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Many .",
+    "content": {
+      "title": "Pronunciación: People",
+      "instructions": "La 'eo' suena como /iː/.",
+      "questions": [
+        {
+          "question": "¿Se pronuncia la 'o' en 'people'?",
+          "options": [
+            "[[No|]]",
+            "[[Sí|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-12.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u54-u54_i113",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "How much ?",
+    "content": {
+      "title": "Pronunciación: Money",
+      "instructions": "La 'o' suena como /ʌ/.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la terminación '-ey' en 'money'?",
+          "options": [
+            "[[Como una 'i' corta (/i/)|]]",
+            "[[Como 'ei'|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-13.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u54-u54_i114",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "A few .",
+    "content": {
+      "title": "Pronunciación: Friends",
+      "instructions": "La 'ie' suena como /ɛ/.",
+      "questions": [
+        {
+          "question": "¿Se pronuncia la 'i' en 'friends'?",
+          "options": [
+            "[[No, es silenciosa|]]",
+            "[[Sí|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-14.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u54-u54_i115",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Much .",
+    "content": {
+      "title": "Pronunciación: Time",
+      "instructions": "La 'i' suena como /aɪ/.",
+      "questions": [
+        {
+          "question": "¿Se pronuncia la 'e' final en 'time'?",
+          "options": [
+            "[[No|]]",
+            "[[Sí|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-15.mp3",
+    "topicName": "Pronunciation"
   }
+
 ];

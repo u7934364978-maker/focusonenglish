@@ -1320,5 +1320,381 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-40/e60.mp3",
     "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u40-a1_u40_b40_5_i1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " can  .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la frase:",
+      "questions": [
+        {
+          "question": "[[I|Yo]] _______ [[cook|cocinar]] [[quite well|bastante bien]].",
+          "options": [
+            "[[can|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-1.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u40-a1_u40_b40_5_i2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   museum .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[She|Ella]] [[was|estaba]] [[at the|en el]] _______ [[yesterday|ayer]].",
+          "options": [
+            "[[museum|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-2.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u40-a1_u40_b40_5_i3",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " can't  .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] _______ [[speak|hablar]] [[English|inglés]].",
+          "options": [
+            "[[can't|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-3.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u40-a1_u40_b40_5_i4",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " were  .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[We|Nosotros]] _______ [[happy|felices]] [[at the party|en la fiesta]].",
+          "options": [
+            "[[were|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-4.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u40-a1_u40_b40_5_i5",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   the piano?",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[Can|¿Puedes?]] [[you|tú]] [[play|tocar]] the _______?",
+          "options": [
+            "[[piano|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-5.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u40-a1_u40_b40_5_i6",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  tired .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[was|estaba]] _______ [[last night|anoche]].",
+          "options": [
+            "[[tired|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-6.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u40-a1_u40_b40_5_i7",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " was .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[The weather|El clima]] _______ [[cold|frío]].",
+          "options": [
+            "[[was|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-7.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u40-a1_u40_b40_5_i8",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Museum",
+      "instructions": "Practica la pronunciación de 'museum' (/mjuːˈziːəm/).",
+      "questions": [
+        {
+          "question": "¿Cuál es la sílaba tónica en 'museum'?",
+          "options": [
+            "[[La segunda (mu-SE-um)|]]",
+            "[[La primera (MU-se-um)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-8.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u40-a1_u40_b40_5_i9",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Speak",
+      "instructions": "Practica la 's' inicial seguida de consonante.",
+      "questions": [
+        {
+          "question": "¿Se debe añadir una 'e' antes de la 's' en 'speak'?",
+          "options": [
+            "[[No, se empieza directamente con el sonido /s/|]]",
+            "[[Sí, como en 'español'|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-9.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u40-a1_u40_b40_5_i10",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Were",
+      "instructions": "Practica el sonido /wɜː/.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'e' en 'were'?",
+          "options": [
+            "[[Como una vocal neutra y larga (/ɜː/)|]]",
+            "[[Como una 'e' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-10.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u40-a1_u40_b40_5_i11",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Piano",
+      "instructions": "Practica el diptongo /iæ/.",
+      "questions": [
+        {
+          "question": "¿Cómo termina la palabra 'piano'?",
+          "options": [
+            "[[Con un diptongo 'ou' (/əʊ/)|]]",
+            "[[Con una 'o' simple|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-11.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u40-a1_u40_b40_5_i12",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Tired",
+      "instructions": "Practica la terminación '-ed' que suena como /d/.",
+      "questions": [
+        {
+          "question": "¿Se pronuncia la 'e' en la terminación '-ed' de 'tired'?",
+          "options": [
+            "[[No, es muda|]]",
+            "[[Sí, suena como 'ed'|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-12.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u40-a1_u40_b40_5_i13",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Cold",
+      "instructions": "Practica la 'l' oscura final.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'o' en 'cold'?",
+          "options": [
+            "[[Como el diptongo 'ou' (/əʊ/)|]]",
+            "[[Como una 'o' simple|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-13.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u40-a1_u40_b40_5_i14",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Runner",
+      "instructions": "Practica la 'u' corta (/ʌ/).",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'r' final en inglés británico?",
+          "options": [
+            "[[Casi no se oye, se convierte en un sonido débil (/ə/)|]]",
+            "[[Muy fuerte como en español|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-14.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u40-a1_u40_b40_5_i15",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Review",
+      "instructions": "Practica la uve (/v/) final.",
+      "questions": [
+        {
+          "question": "¿Cómo se pronuncia la 'v' en 'review'?",
+          "options": [
+            "[[Como una 'v' vibrante (dientes en labio inferior)|]]",
+            "[[Como una 'b' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-15.mp3",
+    "topicName": "Pronunciation"
   }
+
 ];

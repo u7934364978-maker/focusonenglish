@@ -1320,5 +1320,381 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-50/e60.mp3",
     "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u50-u50_i303",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[I need to go to the airport.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u50-u50_i304",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[The weather is sunny and warm.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u50-u50_i305",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[We are staying at a nice hotel.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u50-u50_i306",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[Take your passport and boarding pass.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u50-u50_i307",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[I enjoy sightseeing in new cities.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u50-u50_i308",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[The bus arrives at ten o'clock.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u50-u50_i309",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[Is it rainy in London now?|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u50-u50_i310",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "The  is .",
+    "content": {
+      "title": "Pronunciación: Review Travel",
+      "instructions": "Escucha y repite enfocándote en las vocales.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'igh' en 'flight'?",
+          "options": [
+            "[[Como /aɪ/ (ai)|]]",
+            "[[Como una 'i' simple|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-8.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u50-u50_i311",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "The  is .",
+    "content": {
+      "title": "Pronunciación: Review Hotel",
+      "instructions": "Escucha y repite la 'h' inicial.",
+      "questions": [
+        {
+          "question": "¿Dónde recae el acento en 'hotel'?",
+          "options": [
+            "[[En la segunda sílaba (ho-TEL)|]]",
+            "[[En la primera sílaba (HO-tel)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-9.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u50-u50_i312",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "The  is .",
+    "content": {
+      "title": "Pronunciación: Review Weather",
+      "instructions": "Escucha y repite la 'th'.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'th' en 'weather'?",
+          "options": [
+            "[[Vibrante como una 'd' suave (/ð/)|]]",
+            "[[Como una 'z' española (/θ/)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-10.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u50-u50_i313",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I  .",
+    "content": {
+      "title": "Pronunciación: Review Seasons",
+      "instructions": "Escucha y repite la 'au' de autumn.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'au' en 'autumn'?",
+          "options": [
+            "[[Como una 'o' larga (/ɔː/)|]]",
+            "[[Como una 'au' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-11.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u50-u50_i314",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Where is my ?",
+    "content": {
+      "title": "Pronunciación: Review Packing",
+      "instructions": "Escucha y repite la palabra compuesta.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 's' final en 'suitcase'?",
+          "options": [
+            "[[Sorda como un silbido (/s/)|]]",
+            "[[Vibrante como una abeja|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-12.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u50-u50_i315",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "My  is Spain.",
+    "content": {
+      "title": "Pronunciación: Review Destination",
+      "instructions": "Escucha y repite la frase.",
+      "questions": [
+        {
+          "question": "¿Dónde recae el acento principal en 'destination'?",
+          "options": [
+            "[[En la tercera sílaba (-NA-)|]]",
+            "[[En la primera sílaba (DES-)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-13.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u50-u50_i316",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I am on .",
+    "content": {
+      "title": "Pronunciación: Review Vacation",
+      "instructions": "Escucha y repite enfocándote en la terminación.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la terminación '-tion'?",
+          "options": [
+            "[[Como /ʃn/ (sh-n)|]]",
+            "[[Como 'cion' español|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-14.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u50-u50_i317",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I   .",
+    "content": {
+      "title": "Pronunciación: Module 5 Wrap-up",
+      "instructions": "Escucha y repite la frase de cierre.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'a' en 'travel'?",
+          "options": [
+            "[[Abierta (/æ/)|]]",
+            "[[Cerrada como una 'e' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit50/lesson5-task-15.mp3",
+    "topicName": "Pronunciation"
   }
+
 ];

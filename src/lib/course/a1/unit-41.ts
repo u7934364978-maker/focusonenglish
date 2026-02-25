@@ -1320,5 +1320,381 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-41/e60.mp3",
     "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u41-u41_i301",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[Where is the boarding gate?|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u41-u41_i302",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[Please show your passport.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u41-u41_i303",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[The flight is on time.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u41-u41_i304",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[Is this your luggage?|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u41-u41_i305",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[The check-in desk is closed.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u41-u41_i306",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[Take your boarding pass.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u41-u41_i307",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y escribe lo que oyes:",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "[[Wait in the lounge.|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u41-u41_i308",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "The  is .",
+    "content": {
+      "title": "Pronunciación: Airport",
+      "instructions": "Escucha y repite enfocándote en la 'r'.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'r' en 'airport'?",
+          "options": [
+            "[[Suave y retrofleja (/r/)|]]",
+            "[[Fuerte como en español|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-8.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u41-u41_i309",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Here is my .",
+    "content": {
+      "title": "Pronunciación: Passport",
+      "instructions": "Practica la 'p' aspirada.",
+      "questions": [
+        {
+          "question": "¿La 'p' inicial en 'passport' expulsa un poco de aire?",
+          "options": [
+            "[[Sí (Aspirada)|]]",
+            "[[No|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-9.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u41-u41_i310",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "My  is  nine.",
+    "content": {
+      "title": "Pronunciación: Flight",
+      "instructions": "Escucha y repite la 'i' larga.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'igh' en 'flight'?",
+          "options": [
+            "[[Como una 'ai' (/aɪ/)|]]",
+            "[[Como una 'i' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-10.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u41-u41_i311",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Where is my ?",
+    "content": {
+      "title": "Pronunciación: Luggage",
+      "instructions": "Escucha y repite la 'g' final.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'ge' al final de 'luggage'?",
+          "options": [
+            "[[Como una 'y' o 'j' suave (/dʒ/)|]]",
+            "[[Como una 'g' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-11.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u41-u41_i312",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Go to  ten.",
+    "content": {
+      "title": "Pronunciación: Gate",
+      "instructions": "Escucha y repite la 'a' larga.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'a' en 'gate'?",
+          "options": [
+            "[[Como una 'ei' (/eɪ/)|]]",
+            "[[Como una 'a' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-12.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u41-u41_i313",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Show your .",
+    "content": {
+      "title": "Pronunciación: Ticket",
+      "instructions": "Escucha y repite la 'i' corta.",
+      "questions": [
+        {
+          "question": "¿Cómo se pronuncia la 'i' en 'ticket'?",
+          "options": [
+            "[[Como una 'i' corta y relajada (/ɪ/)|]]",
+            "[[Como una 'i' española tensa|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-13.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u41-u41_i314",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "This is my .",
+    "content": {
+      "title": "Pronunciación: Suitcase",
+      "instructions": "Escucha y repite enfocándote en la 's'.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 's' final en 'suitcase'?",
+          "options": [
+            "[[Como un silbido sordo (/s/)|]]",
+            "[[Como una 'z' vibrante (/z/)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-14.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u41-u41_i315",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I  my .",
+    "content": {
+      "title": "Pronunciación: Repaso Airport",
+      "instructions": "Escucha y repite la frase completa.",
+      "questions": [
+        {
+          "question": "¿Dónde recae el acento en 'boarding'?",
+          "options": [
+            "[[En la primera sílaba (BOARD-ing)|]]",
+            "[[En la segunda sílaba (board-ING)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-15.mp3",
+    "topicName": "Pronunciation"
   }
+
 ];

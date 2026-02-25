@@ -1320,5 +1320,381 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-36/e60.mp3",
     "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u36-a1_u36_b36_5_i1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  the piano.",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa el instrumento:",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[play|toco]] the _______.",
+          "options": [
+            "[[piano|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit36/lesson5-task-1.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u36-a1_u36_b36_5_i2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  the guitar.",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[She|Ella]] [[plays|toca]] the _______.",
+          "options": [
+            "[[guitar|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit36/lesson5-task-2.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u36-a1_u36_b36_5_i3",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  the drums.",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[plays|toca]] the _______.",
+          "options": [
+            "[[drums|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit36/lesson5-task-3.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u36-a1_u36_b36_5_i4",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " play .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[We|Nosotros]] _______ [[the violin|el violín]].",
+          "options": [
+            "[[play|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit36/lesson5-task-4.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u36-a1_u36_b36_5_i5",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " play .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] _______ [[the flute|la flauta]].",
+          "options": [
+            "[[play|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit36/lesson5-task-5.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u36-a1_u36_b36_5_i6",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   the ?",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[Can|¿Puedes?]] [[you|tú]] [[play|tocar]] _______ [[trumpet|la trompeta]]?",
+          "options": [
+            "[[the|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit36/lesson5-task-6.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u36-a1_u36_b36_5_i7",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   any .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[don't|no]] [[play|toco]] _______ [[instrument|ningún instrumento]].",
+          "options": [
+            "[[any|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit36/lesson5-task-7.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u36-a1_u36_b36_5_i8",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Piano",
+      "instructions": "Practica el diptongo /iæ/.",
+      "questions": [
+        {
+          "question": "¿Cuál es la sílaba tónica en 'piano'?",
+          "options": [
+            "[[La segunda (pi-A-no)|]]",
+            "[[La primera (PI-a-no)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit36/lesson5-task-8.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u36-a1_u36_b36_5_i9",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Guitar",
+      "instructions": "Practica la 'r' final suave.",
+      "questions": [
+        {
+          "question": "¿Dónde está el acento en 'guitar'?",
+          "options": [
+            "[[En la segunda sílaba (gui-TAR)|]]",
+            "[[En la primera sílaba (GUI-tar)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit36/lesson5-task-9.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u36-a1_u36_b36_5_i10",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Drums",
+      "instructions": "Practica la 'u' corta (/ʌ/).",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'u' en 'drums'?",
+          "options": [
+            "[[Como una 'a' corta (/ʌ/)|]]",
+            "[[Como una 'u' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit36/lesson5-task-10.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u36-a1_u36_b36_5_i11",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Violin",
+      "instructions": "Practica la 'v' (/v/) y el diptongo /aɪ/.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'i' en 'violin'?",
+          "options": [
+            "[[Como el diptongo 'ai' (/aɪ/)|]]",
+            "[[Como una 'i' simple|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit36/lesson5-task-11.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u36-a1_u36_b36_5_i12",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Flute",
+      "instructions": "Practica la 'u' larga (/uː/).",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'u' en 'flute'?",
+          "options": [
+            "[[Como una 'u' larga (/uː/)|]]",
+            "[[Como una 'u' corta (/ʊ/)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit36/lesson5-task-12.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u36-a1_u36_b36_5_i13",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Trumpet",
+      "instructions": "Practica la 'u' corta (/ʌ/).",
+      "questions": [
+        {
+          "question": "¿Cuál es la sílaba tónica en 'trumpet'?",
+          "options": [
+            "[[La primera (TRUM-pet)|]]",
+            "[[La segunda (trum-PET)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit36/lesson5-task-13.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u36-a1_u36_b36_5_i14",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   .",
+    "content": {
+      "title": "Pronunciación: 'The' antes de instrumentos",
+      "instructions": "Escucha el sonido neutro de 'the' (/ðə/).",
+      "questions": [
+        {
+          "question": "¿Cómo suena 'the' antes de una consonante como en 'the drums'?",
+          "options": [
+            "[[Sonido corto y débil (/ðə/)|]]",
+            "[[Sonido largo como 'dii' (/ðiː/)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit36/lesson5-task-14.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u36-a1_u36_b36_5_i15",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " is .",
+    "content": {
+      "title": "Pronunciación: Resumen",
+      "instructions": "Escucha and repite.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'j' al inicio de 'music' (/mjuːzɪk/)?",
+          "options": [
+            "[[Como una 'y' muy suave antes de la 'u'|]]",
+            "[[Como una 'j' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit36/lesson5-task-15.mp3",
+    "topicName": "Pronunciation"
   }
+
 ];

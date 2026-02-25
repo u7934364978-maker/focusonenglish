@@ -1320,5 +1320,381 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-32/e60.mp3",
     "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u32-a1_u32_b32_5_i1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I  football  .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa el deporte:",
+      "questions": [
+        {
+          "question": "I [[play|juego]] _______ [[every|cada]] [[Saturday|sábado]].",
+          "options": [
+            "[[football|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-1.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u32-a1_u32_b32_5_i2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "We go  in .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa el verbo:",
+      "questions": [
+        {
+          "question": "We _______ [[swimming|natación]] in [[summer|verano]].",
+          "options": [
+            "[[go|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-2.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u32-a1_u32_b32_5_i3",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "She does  in the .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "She _______ [[yoga|yoga]] in the [[morning|mañana]].",
+          "options": [
+            "[[does|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-3.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u32-a1_u32_b32_5_i4",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "My  is painting.",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa el hobby:",
+      "questions": [
+        {
+          "question": "My [[hobby|pasatiempo]] is _______.",
+          "options": [
+            "[[painting|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-4.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u32-a1_u32_b32_5_i5",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Do   tennis?",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "Do [[you|tú]] [[play|jugar]] _______?",
+          "options": [
+            "[[tennis|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-5.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u32-a1_u32_b32_5_i6",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  reading .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] [[love|aman]] _______ [[books|libros]].",
+          "options": [
+            "[[reading|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-6.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u32-a1_u32_b32_5_i7",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " play  at .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[I|Yo]] _______ [[basketball|baloncesto]] at [[school|la escuela]].",
+          "options": [
+            "[[play|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-7.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u32-a1_u32_b32_5_i8",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I  .",
+    "content": {
+      "title": "Pronunciación: Football",
+      "instructions": "Practica la pronunciación de 'football'.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'oo' en 'football'?",
+          "options": [
+            "[[Como una 'u' corta (/ʊ/)|]]",
+            "[[Como una 'u' larga (/uː/)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-8.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u32-a1_u32_b32_5_i9",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Swimming",
+      "instructions": "Practica la 'i' corta and el final '-ing'.",
+      "questions": [
+        {
+          "question": "¿Cómo suena el final '-ing'?",
+          "options": [
+            "[[Como una 'n' nasal suave (/ŋ/)|]]",
+            "[[Como una 'n' fuerte con 'g' marcada|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-9.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u32-a1_u32_b32_5_i10",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Tennis",
+      "instructions": "Practica la acentuación de 'tennis'.",
+      "questions": [
+        {
+          "question": "¿Cuál es la sílaba tónica en 'tennis'?",
+          "options": [
+            "[[La primera (TEN-nis)|]]",
+            "[[La segunda (ten-NIS)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-10.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u32-a1_u32_b32_5_i11",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " is .",
+    "content": {
+      "title": "Pronunciación: Reading",
+      "instructions": "Practica la 'ee' larga (/iː/).",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'ea' en 'reading'?",
+          "options": [
+            "[[Como una 'i' larga (/iː/)|]]",
+            "[[Como una 'e' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-11.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u32-a1_u32_b32_5_i12",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Painting",
+      "instructions": "Practica el diptongo /eɪ/.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'ai' en 'painting'?",
+          "options": [
+            "[[Como el diptongo 'ei' (/eɪ/)|]]",
+            "[[Como una 'a' simple|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-12.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u32-a1_u32_b32_5_i13",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Sports",
+      "instructions": "Practica el sonido 'o' larga (/ɔː/).",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'o' en 'sports'?",
+          "options": [
+            "[[Como una 'o' larga y abierta (/ɔː/)|]]",
+            "[[Como una 'o' corta y cerrada|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-13.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u32-a1_u32_b32_5_i14",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Basketball",
+      "instructions": "Practica la palabra 'basketball'.",
+      "questions": [
+        {
+          "question": "¿Cuántas sílabas tiene 'basketball'?",
+          "options": [
+            "[[3 sílabas (BAS-ket-ball)|]]",
+            "[[2 sílabas (BAS-ball)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-14.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u32-a1_u32_b32_5_i15",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " is   ?",
+    "content": {
+      "title": "Pronunciación: Hobbies",
+      "instructions": "Escucha and repite.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'y' final en 'hobby'?",
+          "options": [
+            "[[Como una 'i' corta (/i/)|]]",
+            "[[Como una 'ai'|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-15.mp3",
+    "topicName": "Pronunciation"
   }
+
 ];

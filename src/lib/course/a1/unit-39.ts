@@ -1320,5 +1320,381 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-39/e60.mp3",
     "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u39-a1_u39_b39_5_i1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " was  .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la frase:",
+      "questions": [
+        {
+          "question": "[[I|Yo]] _______ [[at home|en casa]] [[yesterday|ayer]].",
+          "options": [
+            "[[was|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-1.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u39-a1_u39_b39_5_i2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " were  .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] _______ [[very|muy]] [[tired|cansados]].",
+          "options": [
+            "[[were|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-2.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u39-a1_u39_b39_5_i3",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "Was  ?",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "_______ [[she|ella]] [[at school|en la escuela]]?",
+          "options": [
+            "[[Was|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-3.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u39-a1_u39_b39_5_i4",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " were  .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[We|Nosotros]] _______ [[happy|felices]] [[last night|anoche]].",
+          "options": [
+            "[[were|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-4.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u39-a1_u39_b39_5_i5",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " was .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[The weather|El clima]] _______ [[cold|frío]].",
+          "options": [
+            "[[was|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-5.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u39-a1_u39_b39_5_i6",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  not .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[was|estaba]] _______ [[at work|en el trabajo]].",
+          "options": [
+            "[[not|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-6.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u39-a1_u39_b39_5_i7",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " were ?",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[Where|¿Dónde?]] _______ [[you|tú]]?",
+          "options": [
+            "[[were|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-7.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u39-a1_u39_b39_5_i8",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Was",
+      "instructions": "Practica la pronunciación débil de 'was' (/wəz/).",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'a' en 'was' cuando no está enfatizada?",
+          "options": [
+            "[[Como un sonido corto y débil (/ə/)|]]",
+            "[[Como una 'a' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-8.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u39-a1_u39_b39_5_i9",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Were",
+      "instructions": "Practica el sonido /wɜː/.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'e' en 'were'?",
+          "options": [
+            "[[Como una 'e' larga y neutra (/ɜː/)|]]",
+            "[[Como una 'e' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-9.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u39-a1_u39_b39_5_i10",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Tired",
+      "instructions": "Practica el diptongo /aɪə/.",
+      "questions": [
+        {
+          "question": "¿Cuántas sílabas tiene 'tired' en su pronunciación natural?",
+          "options": [
+            "[[Parece una sola sílaba compleja|]]",
+            "[[Dos sílabas claras|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-10.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u39-a1_u39_b39_5_i11",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": ".",
+    "content": {
+      "title": "Pronunciación: Yesterday",
+      "instructions": "Practica la acentuación de la primera sílaba.",
+      "questions": [
+        {
+          "question": "¿Dónde está el acento en 'yesterday'?",
+          "options": [
+            "[[En la primera sílaba (YES-ter-day)|]]",
+            "[[En la última sílaba|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-11.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u39-a1_u39_b39_5_i12",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Weather",
+      "instructions": "Practica el sonido /ð/ interdental.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'th' en 'weather'?",
+          "options": [
+            "[[Como una 'd' suave con la lengua entre los dientes (/ð/)|]]",
+            "[[Como una 'z' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-12.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u39-a1_u39_b39_5_i13",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Cold",
+      "instructions": "Practica el diptongo /əʊ/.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'o' en 'cold'?",
+          "options": [
+            "[[Como el diptongo 'ou' (/əʊ/)|]]",
+            "[[Como una 'o' simple|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-13.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u39-a1_u39_b39_5_i14",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: School",
+      "instructions": "Practica la 'u' larga (/uː/).",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'oo' en 'school'?",
+          "options": [
+            "[[Como una 'u' larga (/uː/)|]]",
+            "[[Como una 'u' corta|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-14.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u39-a1_u39_b39_5_i15",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Last night",
+      "instructions": "Practica la 't' final suave.",
+      "questions": [
+        {
+          "question": "¿Se debe exagerar la 't' final en 'night'?",
+          "options": [
+            "[[No, es una explosión suave|]]",
+            "[[Sí, muy fuerte|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-15.mp3",
+    "topicName": "Pronunciation"
   }
+
 ];

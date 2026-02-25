@@ -1320,5 +1320,381 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-38/e60.mp3",
     "topicName": "Grammar"
+  },
+  {
+    "id": "a1-u38-a1_u38_b38_5_i1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  wash .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la frase:",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[have to|tengo que]] _______ [[the dishes|los platos]].",
+          "options": [
+            "[[wash|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-1.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u38-a1_u38_b38_5_i2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  sweep .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[She|Ella]] [[has to|tiene que]] _______ [[the floor|el suelo]].",
+          "options": [
+            "[[sweep|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-2.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u38-a1_u38_b38_5_i3",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " have  .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] _______ [[to do|hacer]] [[the laundry|la colada]].",
+          "options": [
+            "[[have|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-3.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u38-a1_u38_b38_5_i4",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  borrow  ?",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[Can|¿Puedo?]] [[I|yo]] _______ [[your|tu]] [[pencil|lápiz]]?",
+          "options": [
+            "[[borrow|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-4.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u38-a1_u38_b38_5_i5",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  clean .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[You|Tú]] [[must|debes]] _______ [[your room|tu habitación]].",
+          "options": [
+            "[[clean|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-5.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u38-a1_u38_b38_5_i6",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " has  .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[He|Él]] _______ [[to water|regar]] [[the plants|las plantas]].",
+          "options": [
+            "[[has|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-6.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u38-a1_u38_b38_5_i7",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   cook .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[We|Nosotros]] [[don't|no]] [[have to|tenemos que]] _______ [[today|hoy]].",
+          "options": [
+            "[[cook|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-7.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u38-a1_u38_b38_5_i8",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Dishes",
+      "instructions": "Practica el sonido /ʃ/ final.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'sh' en 'dishes'?",
+          "options": [
+            "[[Como pidiendo silencio (/ʃ/)|]]",
+            "[[Como una 's' simple|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-8.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u38-a1_u38_b38_5_i9",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Sweep",
+      "instructions": "Practica la 'ee' larga (/iː/).",
+      "questions": [
+        {
+          "question": "¿La 'ee' en 'sweep' es larga o corta?",
+          "options": [
+            "[[Larga (/iː/)|]]",
+            "[[Corta (/ɪ/)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-9.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u38-a1_u38_b38_5_i10",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Laundry",
+      "instructions": "Practica el diptongo /ɔː/.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'au' en 'laundry'?",
+          "options": [
+            "[[Como una 'o' larga y abierta (/ɔː/)|]]",
+            "[[Como una 'au' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-10.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u38-a1_u38_b38_5_i11",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Chores",
+      "instructions": "Practica el sonido /tʃ/ inicial.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'ch' en 'chores'?",
+          "options": [
+            "[[Como la 'ch' española en 'chocolate'|]]",
+            "[[Como una 'k'|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-11.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u38-a1_u38_b38_5_i12",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Must",
+      "instructions": "Practica la 'u' corta (/ʌ/).",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'u' en 'must'?",
+          "options": [
+            "[[Como una 'a' corta y central (/ʌ/)|]]",
+            "[[Como una 'u' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-12.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u38-a1_u38_b38_5_i13",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  ?",
+    "content": {
+      "title": "Pronunciación: Borrow",
+      "instructions": "Practica el diptongo /əʊ/ final.",
+      "questions": [
+        {
+          "question": "¿Cómo termina la palabra 'borrow'?",
+          "options": [
+            "[[Con un diptongo 'ou' (/əʊ/)|]]",
+            "[[Con una 'u' simple|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-13.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u38-a1_u38_b38_5_i14",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Clean",
+      "instructions": "Practica la 'ea' larga (/iː/).",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'ea' en 'clean'?",
+          "options": [
+            "[[Como una 'i' larga (/iː/)|]]",
+            "[[Como una 'e' corta|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-14.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u38-a1_u38_b38_5_i15",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": " .",
+    "content": {
+      "title": "Pronunciación: Today",
+      "instructions": "Practica el diptongo /eɪ/.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'ay' en 'today'?",
+          "options": [
+            "[[Como el diptongo 'ei' (/eɪ/)|]]",
+            "[[Como una 'a' simple|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-15.mp3",
+    "topicName": "Pronunciation"
   }
+
 ];

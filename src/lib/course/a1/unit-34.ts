@@ -1320,5 +1320,381 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-34/e60.mp3",
     "topicName": "Vocabulary"
+  },
+  {
+    "id": "a1-u34-a1_u34_b34_5_i1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   and .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa el conector:",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[like|me gusta]] [[apples|las manzanas]] _______ [[bananas|plátanos]].",
+          "options": [
+            "[[and|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-1.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u34-a1_u34_b34_5_i2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   but   .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[am|estoy]] [[tired|cansado]] _______ [[I|yo]] [[am|estoy]] [[happy|feliz]].",
+          "options": [
+            "[[but|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-2.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u34-a1_u34_b34_5_i3",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   because   .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[She|Ella]] [[is|está]] [[at home|en casa]] _______ [[it|ello]] [[is|está]] [[raining|lloviendo]].",
+          "options": [
+            "[[because|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-3.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u34-a1_u34_b34_5_i4",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   but   .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[He|Él]] [[can|puede]] [[sing|cantar]] _______ [[he|él]] [[can't|no puede]] [[dance|bailar]].",
+          "options": [
+            "[[but|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-4.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u34-a1_u34_b34_5_i5",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   because   .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[We|Nosotros]] [[stay|nos quedamos]] [[inside|dentro]] _______ [[it|ello]] [[is|está]] [[cold|frío]].",
+          "options": [
+            "[[because|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-5.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u34-a1_u34_b34_5_i6",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   and .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[They|Ellos]] [[study|estudian]] [[maths|matemáticas]] _______ [[history|historia]].",
+          "options": [
+            "[[and|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-6.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u34-a1_u34_b34_5_i7",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "   because   .",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa:",
+      "questions": [
+        {
+          "question": "[[I|Yo]] [[drink|bebo]] [[water|agua]] _______ [[I|yo]] [[am|estoy]] [[thirsty|sediento]].",
+          "options": [
+            "[[because|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-7.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u34-a1_u34_b34_5_i8",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: And",
+      "instructions": "Practica la unión con la siguiente palabra.",
+      "questions": [
+        {
+          "question": "¿Cómo suele sonar la 'd' en 'and' cuando hablamos rápido?",
+          "options": [
+            "[[A veces casi desaparece o se une a la siguiente palabra|]]",
+            "[[Siempre suena muy fuerte|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-8.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u34-a1_u34_b34_5_i9",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: But",
+      "instructions": "Practica la 't' final suave.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'u' en 'but'?",
+          "options": [
+            "[[Como una 'a' corta y relajada (/ʌ/)|]]",
+            "[[Como una 'u' española|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-9.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u34-a1_u34_b34_5_i10",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "    .",
+    "content": {
+      "title": "Pronunciación: Because",
+      "instructions": "Practica la acentuación de 'because'.",
+      "questions": [
+        {
+          "question": "¿Cuál es la sílaba tónica en 'because'?",
+          "options": [
+            "[[La segunda (be-CAUSE)|]]",
+            "[[La primera (BE-cause)|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-10.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u34-a1_u34_b34_5_i11",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Unión de sonidos",
+      "instructions": "Escucha cómo se une 'because' con 'it'.",
+      "questions": [
+        {
+          "question": "En inglés, cuando una palabra termina en consonante y la siguiente empieza en vocal, ¿suelen sonar separadas?",
+          "options": [
+            "[[No, suelen unirse (linking)|]]",
+            "[[Sí, siempre hay una pausa|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-11.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u34-a1_u34_b34_5_i12",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  ,    .",
+    "content": {
+      "title": "Pronunciación: Contraste con 'But'",
+      "instructions": "Practica la entonación de contraste.",
+      "questions": [
+        {
+          "question": "¿En qué palabra suele haber una pequeña pausa justo antes?",
+          "options": [
+            "[[But|]]",
+            "[[Read|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-12.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u34-a1_u34_b34_5_i13",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": ", ,  .",
+    "content": {
+      "title": "Pronunciación: Listas con 'And'",
+      "instructions": "Practica la entonación en una lista.",
+      "questions": [
+        {
+          "question": "En una lista, ¿qué palabra suele ir precedida de 'and'?",
+          "options": [
+            "[[La última|]]",
+            "[[La primera|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-13.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u34-a1_u34_b34_5_i14",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Sonido 'th'",
+      "instructions": "Practica la palabra 'maths'.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'th' en 'maths'?",
+          "options": [
+            "[[Como una 'z' española (/θ/)|]]",
+            "[[Como una 't' fuerte|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-14.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u34-a1_u34_b34_5_i15",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening & Pronunciation",
+    "difficulty": "medium",
+    "transcript": "  .",
+    "content": {
+      "title": "Pronunciación: Resumen",
+      "instructions": "Escucha and repite.",
+      "questions": [
+        {
+          "question": "¿Cómo suena la 'u' en 'useful'?",
+          "options": [
+            "[[Como una 'u' larga precedida de 'y' (/juː/)|]]",
+            "[[Como una 'u' española simple|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Practica la pronunciación y entonación."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-15.mp3",
+    "topicName": "Pronunciation"
   }
+
 ];
