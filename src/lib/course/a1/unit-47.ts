@@ -1,1326 +1,377 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_47_EXERCISES: Exercise[] = [
-  // VOCABULARY: PUBLIC SERVICES & EMERGENCY (1-20)
   {
-    "id": "a1-u47-e1",
+    "id": "a1-u47-a1_u47_b47_1_i1",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "easy",
-    "transcript": "Call the police!",
-    "content": {
-      "title": "Policía",
-      "instructions": "Identifica a la autoridad.",
-      "questions": [
-        {
-          "question": "[[Call the|Llame a la]] (_____)!",
-          "options": ["[[police|policía]]", "[[doctor|médico]]", "[[teacher|profesor]]"],
-          "correctAnswer": 0,
-          "explanation": "'Police' es policía."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e2",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "easy",
-    "transcript": "Where is the hospital?",
-    "content": {
-      "title": "Hospital",
-      "instructions": "Identifica el lugar.",
-      "questions": [
-        {
-          "question": "[[Where is the|¿Dónde está el]] (_____) ?",
-          "options": ["[[hospital|hospital]]", "[[hotel|hotel]]", "[[house|casa]]"],
-          "correctAnswer": 0,
-          "explanation": "'Hospital' es hospital."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e2.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e3",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "easy",
-    "transcript": "I need an ambulance.",
-    "content": {
-      "title": "Ambulancia",
-      "instructions": "Identifica el vehículo.",
-      "questions": [
-        {
-          "question": "[[I need an|Necesito una]] (_____) .",
-          "options": ["[[ambulance|ambulancia]]", "[[airplane|avión]]", "[[automobile|automóvil]]"],
-          "correctAnswer": 0,
-          "explanation": "'Ambulance' es ambulancia."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e3.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e4",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "easy",
-    "transcript": "Help me, please!",
-    "content": {
-      "title": "Ayuda",
-      "instructions": "Identifica la palabra.",
-      "questions": [
-        {
-          "question": "(_____) [[me, please|ayúdeme, por favor]]!",
-          "options": ["[[Help|Ayuda]]", "[[Hear|Oye]]", "[[Have|Ten]]"],
-          "correctAnswer": 0,
-          "explanation": "'Help' es ayuda o ayudar."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e4.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e5",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "easy",
-    "transcript": "It is an emergency.",
-    "content": {
-      "title": "Emergencia",
-      "instructions": "Identifica la palabra.",
-      "questions": [
-        {
-          "question": "[[It is an|Es una]] (_____) .",
-          "options": ["[[emergency|emergencia]]", "[[example|ejemplo]]", "[[exercise|ejercicio]]"],
-          "correctAnswer": 0,
-          "explanation": "'Emergency' es emergencia."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e5.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e6",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "easy",
-    "transcript": "The fire station is nearby.",
-    "content": {
-      "title": "Estación de bomberos",
-      "instructions": "Identifica el lugar.",
-      "questions": [
-        {
-          "question": "[[The|La]] (_____) [[station is nearby|estación está cerca]].",
-          "options": ["[[fire|fuego/bomberos]]", "[[bus|autobús]]", "[[train|tren]]"],
-          "correctAnswer": 0,
-          "explanation": "'Fire station' es el parque de bomberos."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e6.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e7",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "easy",
-    "transcript": "I have lost my passport.",
-    "content": {
-      "title": "Pasaporte",
-      "instructions": "Identifica el documento.",
-      "questions": [
-        {
-          "question": "[[I have lost my|He perdido mi]] (_____) .",
-          "options": ["[[passport|pasaporte]]", "[[paper|papel]]", "[[postcard|postal]]"],
-          "correctAnswer": 0,
-          "explanation": "'Passport' es pasaporte."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e7.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e8",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
+    "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "I need a doctor.",
+    "transcript": "",
     "content": {
-      "title": "Médico / Doctor",
-      "instructions": "Identifica a la persona.",
+      "title": "matching",
+      "instructions": "Empareja las actividades de vacaciones:",
       "questions": [
         {
-          "question": "[[I need a|Necesito un]] (_____) .",
-          "options": ["[[doctor|médico]]", "[[dentist|dentista]]", "[[driver|conductor]]"],
-          "correctAnswer": 0,
-          "explanation": "'Doctor' es médico."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e8.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e9",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "easy",
-    "transcript": "Is there a pharmacy here?",
-    "content": {
-      "title": "Farmacia",
-      "instructions": "Identifica el lugar.",
-      "questions": [
-        {
-          "question": "[[Is there a|¿Hay una]] (_____) [[here|aquí]]?",
-          "options": ["[[pharmacy|farmacia]]", "[[factory|fábrica]]", "[[bakery|panadería]]"],
-          "correctAnswer": 0,
-          "explanation": "'Pharmacy' es farmacia."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e9.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e10",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "easy",
-    "transcript": "The police station is on the corner.",
-    "content": {
-      "title": "Comisaría",
-      "instructions": "Identifica el lugar.",
-      "questions": [
-        {
-          "question": "[[The|La]] (_____) [[station is on the corner|estación está en la esquina]].",
-          "options": ["[[police|policía]]", "[[petrol|gasolina]]", "[[radio|radio]]"],
-          "correctAnswer": 0,
-          "explanation": "'Police station' es la comisaría."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e10.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e11",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "I lost my wallet.",
-    "content": {
-      "title": "Perder",
-      "instructions": "Identifica el verbo.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[my wallet|mi cartera]].",
-          "options": ["[[lost|perdí]]", "[[found|encontré]]", "[[sold|vendí]]"],
-          "correctAnswer": 0,
-          "explanation": "'Lost' es el pasado de 'lose' (perder)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e11.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e12",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "I found a mobile phone.",
-    "content": {
-      "title": "Encontrar",
-      "instructions": "Identifica el verbo.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[a mobile phone|un teléfono móvil]].",
-          "options": ["[[found|encontré]]", "[[lost|perdí]]", "[[bought|compré]]"],
-          "correctAnswer": 0,
-          "explanation": "'Found' es el pasado de 'find' (encontrar)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e12.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e13",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "easy",
-    "transcript": "My car is broken.",
-    "content": {
-      "title": "Roto / Estropeado",
-      "instructions": "Identifica el adjetivo.",
-      "questions": [
-        {
-          "question": "[[My car is|Mi coche está]] (_____) .",
-          "options": ["[[broken|roto/estropeado]]", "[[big|grande]]", "[[blue|azul]]"],
-          "correctAnswer": 0,
-          "explanation": "'Broken' significa roto o, en el caso de máquinas, estropeado."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e13.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e14",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "easy",
-    "transcript": "I have an accident.",
-    "content": {
-      "title": "Accidente",
-      "instructions": "Identifica la palabra.",
-      "questions": [
-        {
-          "question": "[[I have an|He tenido un]] (_____) .",
-          "options": ["[[accident|accidente]]", "[[account|cuenta]]", "[[address|dirección]]"],
-          "correctAnswer": 0,
-          "explanation": "'Accident' es accidente."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e14.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e15",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "Is there a post office near here?",
-    "content": {
-      "title": "Correos",
-      "instructions": "Identifica el lugar.",
-      "questions": [
-        {
-          "question": "[[Is there a|¿Hay una]] (_____) [[office near here|oficina de correos cerca de aquí]]?",
-          "options": ["[[post|correos]]", "[[park|parque]]", "[[police|policía]]"],
-          "correctAnswer": 0,
-          "explanation": "'Post office' es la oficina de correos."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e15.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e16",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "easy",
-    "transcript": "I am sick.",
-    "content": {
-      "title": "Enfermo",
-      "instructions": "Identifica el adjetivo.",
-      "questions": [
-        {
-          "question": "[[I am|Estoy]] (_____) .",
-          "options": ["[[sick|enfermo]]", "[[strong|fuerte]]", "[[sleepy|somnoliento]]"],
-          "correctAnswer": 0,
-          "explanation": "'Sick' es enfermo."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e16.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e17",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "easy",
-    "transcript": "I need medicine.",
-    "content": {
-      "title": "Medicina",
-      "instructions": "Identifica el objeto.",
-      "questions": [
-        {
-          "question": "[[I need|Necesito]] (_____) .",
-          "options": ["[[medicine|medicina]]", "[[money|dinero]]", "[[meat|carne]]"],
-          "correctAnswer": 0,
-          "explanation": "'Medicine' es medicina."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e17.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e18",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "Where is the embassy?",
-    "content": {
-      "title": "Embajada",
-      "instructions": "Identifica el lugar.",
-      "questions": [
-        {
-          "question": "[[Where is the|¿Dónde está la]] (_____) ?",
-          "options": ["[[embassy|embajada]]", "[[empty|vacío]]", "[[entry|entrada]]"],
-          "correctAnswer": 0,
-          "explanation": "'Embassy' es embajada."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e18.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e19",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "easy",
-    "transcript": "I am safe now.",
-    "content": {
-      "title": "Seguro",
-      "instructions": "Identifica el adjetivo.",
-      "questions": [
-        {
-          "question": "[[I am|Estoy]] (_____) [[now|ahora]].",
-          "options": ["[[safe|seguro/a salvo]]", "[[soft|suave]]", "[[sad|triste]]"],
-          "correctAnswer": 0,
-          "explanation": "'Safe' significa a salvo o seguro."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e19.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e20",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "I need to report a theft.",
-    "content": {
-      "title": "Robo",
-      "instructions": "Identifica la palabra.",
-      "questions": [
-        {
-          "question": "[[I need to report a|Necesito denunciar un]] (_____) .",
-          "options": ["[[theft|robo]]", "[[ticket|billete]]", "[[toast|tostada]]"],
-          "correctAnswer": 0,
-          "explanation": "'Theft' es robo."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e20.mp3",
-    "topicName": "Vocabulary"
-  },
-
-  // GRAMMAR: PUBLIC SERVICES & EMERGENCY (21-40)
-  {
-    "id": "a1-u47-e21",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "I have lost my bag.",
-    "content": {
-      "title": "He perdido...",
-      "instructions": "Presente perfecto para acciones recientes.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[lost my bag|he perdido mi bolso]].",
-          "options": ["[[have|he]]", "[[am|soy]]", "[[do|hago]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'have' + participio para el presente perfecto."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e21.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e22",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "Can you help me?",
-    "content": {
-      "title": "¿Puede ayudarme?",
-      "instructions": "Uso de 'can' para peticiones.",
-      "questions": [
-        {
-          "question": "(_____) [[you help me|puede ayudarme]]?",
-          "options": ["[[Can|¿Puede?]]", "[[Do|¿Hace?]]", "[[Are|¿Es?]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'Can' para pedir ayuda."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e22.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e23",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "Where is the nearest police station?",
-    "content": {
-      "title": "La más cercana",
-      "instructions": "Uso del superlativo.",
-      "questions": [
-        {
-          "question": "[[Where is the|¿Dónde está la]] (_____) [[police station|comisaría]]?",
-          "options": ["[[nearest|más cercana]]", "[[nearer|más cercana (comp.)]]", "[[next|siguiente]]"],
-          "correctAnswer": 0,
-          "explanation": "'Nearest' es el superlativo de 'near'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e23.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e24",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "I need to go to the hospital.",
-    "content": {
-      "title": "Necesito ir...",
-      "instructions": "Uso de 'need to'.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[to go to the hospital|ir al hospital]].",
-          "options": ["[[need|necesito]]", "[[can|puedo]]", "[[am|soy]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'need to' + infinitivo para expresar necesidad."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e24.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e25",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "Call an ambulance now!",
-    "content": {
-      "title": "Imperativo",
-      "instructions": "Uso del imperativo para órdenes urgentes.",
-      "questions": [
-        {
-          "question": "(_____) [[an ambulance now|una ambulancia ahora]]!",
-          "options": ["[[Call|Llame]]", "[[Calling|Llamando]]", "[[To call|Llamar]]"],
-          "correctAnswer": 0,
-          "explanation": "El imperativo se forma con la base del verbo sin sujeto."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e25.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e26",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "hard",
-    "transcript": "I have lost my keys.",
-    "content": {
-      "title": "He perdido mis llaves",
-      "instructions": "Ordena la frase.",
-      "correctSentence": "[[I have lost my keys|He perdido mis llaves]].",
-      "words": ["[[keys|llaves]].", "[[my|mis]]", "[[lost|perdido]]", "[[have|he]]", "[[I|Yo]]"],
-      "explanation": "Uso del presente perfecto para indicar un estado actual resultado de una acción pasada."
-    },
-    "audioUrl": "audio/a1/unit-47/e26.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e27",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "Is there a doctor in the house?",
-    "content": {
-      "title": "¿Hay un médico?",
-      "instructions": "Uso de 'Is there'.",
-      "questions": [
-        {
-          "question": "(_____) [[a doctor in the house?|un médico en la casa?]]",
-          "options": ["[[Is there|¿Hay?]]", "[[Are there|¿Hay (plural)?]]", "[[Do|¿Haces?]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'Is there' para preguntar si hay algo en singular."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e27.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e28",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "I don't feel well.",
-    "content": {
-      "title": "No me siento bien",
-      "instructions": "Expresar malestar.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[feel well|me siento bien]].",
-          "options": ["[[don't|no (auxiliar)]]", "[[not|no]]", "[[am not|no soy]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'don't' para negar en el presente simple."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e28.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e29",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "You must stay here.",
-    "content": {
-      "title": "Obligación",
-      "instructions": "Uso de 'must'.",
-      "questions": [
-        {
-          "question": "[[You|Tú]] (_____) [[stay here|quedarte aquí]].",
-          "options": ["[[must|debes]]", "[[can|puedes]]", "[[will|serás/harás]]"],
-          "correctAnswer": 0,
-          "explanation": "'Must' indica una obligación fuerte."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e29.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e30",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "hard",
-    "transcript": "Where can I find a pharmacy?",
-    "content": {
-      "title": "¿Dónde puedo encontrar una farmacia?",
-      "instructions": "Ordena la pregunta.",
-      "correctSentence": "[[Where can I find a pharmacy|¿Dónde puedo encontrar una farmacia]]?",
-      "words": ["[[pharmacy|farmacia]]?", "[[a|una]]", "[[find|encontrar]]", "[[I|yo]]", "[[can|puedo]]", "[[Where|Dónde]]"],
-      "explanation": "Preguntar por la ubicación de un servicio."
-    },
-    "audioUrl": "audio/a1/unit-47/e30.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e31",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "Someone has stolen my camera.",
-    "content": {
-      "title": "Han robado...",
-      "instructions": "Presente perfecto con 'someone'.",
-      "questions": [
-        {
-          "question": "[[Someone|Alguien]] (_____) [[stolen my camera|ha robado mi cámara]].",
-          "options": ["[[has|ha]]", "[[have|han]]", "[[is|es]]"],
-          "correctAnswer": 0,
-          "explanation": "Con 'someone' usamos la tercera persona del singular (has)."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e31.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e32",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "I need a police officer.",
-    "content": {
-      "title": "Oficial de policía",
-      "instructions": "Identifica a la persona.",
-      "questions": [
-        {
-          "question": "[[I need a police|Necesito un]] (_____) .",
-          "options": ["[[officer|oficial]]", "[[office|oficina]]", "[[official|oficial (adj.)]]"],
-          "correctAnswer": 0,
-          "explanation": "'Police officer' es oficial de policía."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e32.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e33",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "Is it safe to go out?",
-    "content": {
-      "title": "¿Es seguro...?",
-      "instructions": "Pregunta sobre seguridad.",
-      "questions": [
-        {
-          "question": "[[Is it|¿Es]] (_____) [[to go out|seguro salir]]?",
-          "options": ["[[safe|seguro]]", "[[danger|peligro]]", "[[dark|oscuro]]"],
-          "correctAnswer": 0,
-          "explanation": "'Safe' es el adjetivo seguro."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e33.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e34",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "I am waiting for the ambulance.",
-    "content": {
-      "title": "Esperando por...",
-      "instructions": "Uso de 'waiting for'.",
-      "questions": [
-        {
-          "question": "[[I am|Estoy]] (_____) [[for the ambulance|la ambulancia]].",
-          "options": ["[[waiting|esperando]]", "[[looking|mirando]]", "[[calling|llamando]]"],
-          "correctAnswer": 0,
-          "explanation": "'Wait for' es esperar a alguien o algo."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e34.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e35",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "I have to call my family.",
-    "content": {
-      "title": "Tengo que...",
-      "instructions": "Uso de 'have to'.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[to call my family|llamar a mi familia]].",
-          "options": ["[[have|tengo]]", "[[must|debo]]", "[[can|puedo]]"],
-          "correctAnswer": 0,
-          "explanation": "'Have to' indica una necesidad u obligación externa."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e35.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e36",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "The fire is very big.",
-    "content": {
-      "title": "Fuego",
-      "instructions": "Identifica la palabra.",
-      "questions": [
-        {
-          "question": "[[The|El]] (_____) [[is very big|es muy grande]].",
-          "options": ["[[fire|fuego]]", "[[smoke|humo]]", "[[water|agua]]"],
-          "correctAnswer": 0,
-          "explanation": "'Fire' es fuego o incendio."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e36.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e37",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "Can I use your phone?",
-    "content": {
-      "title": "Pedir permiso",
-      "instructions": "Uso de 'can' para permiso.",
-      "questions": [
-        {
-          "question": "(_____) [[I use your phone|puedo usar tu teléfono]]?",
-          "options": ["[[Can|¿Puedo?]]", "[[Must|¿Debo?]]", "[[Will|¿Haré?]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'Can' para pedir permiso informalmente."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e37.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e38",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "Everything is under control.",
-    "content": {
-      "title": "Bajo control",
-      "instructions": "Identifica la expresión.",
-      "questions": [
-        {
-          "question": "[[Everything is|Todo está]] (_____) [[control|bajo control]].",
-          "options": ["[[under|bajo]]", "[[over|sobre]]", "[[in|en]]"],
-          "correctAnswer": 0,
-          "explanation": "'Under control' significa bajo control."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e38.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e39",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "hard",
-    "transcript": "I need medical assistance immediately.",
-    "content": {
-      "title": "Asistencia médica",
-      "instructions": "Ordena la frase.",
-      "correctSentence": "[[I need medical assistance immediately|Necesito asistencia médica inmediatamente]].",
-      "words": ["[[immediately|inmediatamente]].", "[[assistance|asistencia]]", "[[medical|médica]]", "[[need|necesito]]", "[[I|Yo]]"],
-      "explanation": "Frase formal para pedir ayuda médica urgente."
-    },
-    "audioUrl": "audio/a1/unit-47/e39.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e40",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "The police are coming.",
-    "content": {
-      "title": "La policía viene",
-      "instructions": "Concordancia con 'police'.",
-      "questions": [
-        {
-          "question": "[[The police|La policía]] (_____) [[coming|está viniendo]].",
-          "options": ["[[are|están (vienen)]]", "[[is|está]]", "[[am|soy]]"],
-          "correctAnswer": 0,
-          "explanation": "En inglés, 'police' siempre se trata como un plural."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e40.mp3",
-    "topicName": "Grammar"
-  },
-
-  // REVIEW & READING: PUBLIC SERVICES & EMERGENCY (41-60)
-  {
-    "id": "a1-u47-e41",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "easy",
-    "transcript": "What is the emergency number?",
-    "content": {
-      "title": "Número de emergencia",
-      "instructions": "Identifica la palabra.",
-      "questions": [
-        {
-          "question": "[[What is the|¿Cuál es el]] (_____) [[emergency number|número de emergencia]]?",
-          "options": ["[[number|número]]", "[[name|nombre]]", "[[note|nota]]"],
-          "correctAnswer": 0,
-          "explanation": "'Emergency number' es el número de teléfono de emergencias."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e41.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e42",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "easy",
-    "transcript": "Please, wait here.",
-    "content": {
-      "title": "Espere",
-      "instructions": "Identifica el verbo.",
-      "questions": [
-        {
-          "question": "[[Please,|Por favor,]] (_____) [[here|aquí]].",
-          "options": ["[[wait|espere]]", "[[work|trabaje]]", "[[walk|camine]]"],
-          "correctAnswer": 0,
-          "explanation": "'Wait' es esperar."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e42.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e43",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "My documents are lost.",
-    "content": {
-      "title": "Documentos",
-      "instructions": "Identifica la palabra.",
-      "questions": [
-        {
-          "question": "[[My|Mis]] (_____) [[are lost|están perdidos]].",
-          "options": ["[[documents|documentos]]", "[[doors|puertas]]", "[[dogs|perros]]"],
-          "correctAnswer": 0,
-          "explanation": "'Documents' es documentos."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e43.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e44",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "easy",
-    "transcript": "I am in trouble.",
-    "content": {
-      "title": "En problemas",
-      "instructions": "Identifica la palabra.",
-      "questions": [
-        {
-          "question": "[[I am in|Estoy en]] (_____) .",
-          "options": ["[[trouble|problemas/apuros]]", "[[train|tren]]", "[[town|ciudad]]"],
-          "correctAnswer": 0,
-          "explanation": "'In trouble' significa tener problemas o estar en un apuro."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e44.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e45",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "Where can I find a public phone?",
-    "content": {
-      "title": "Teléfono público",
-      "instructions": "Identifica la palabra.",
-      "questions": [
-        {
-          "question": "[[Where can I find a|¿Dónde puedo encontrar un]] (_____) [[phone|teléfono]]?",
-          "options": ["[[public|público]]", "[[private|privado]]", "[[police|policía]]"],
-          "correctAnswer": 0,
-          "explanation": "'Public phone' es teléfono público."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e45.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e46",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "easy",
-    "transcript": "The area is dangerous.",
-    "content": {
-      "title": "Peligroso",
-      "instructions": "Identifica el adjetivo.",
-      "questions": [
-        {
-          "question": "[[The area is|La zona es]] (_____) .",
-          "options": ["[[dangerous|peligrosa]]", "[[delicious|deliciosa]]", "[[different|diferente]]"],
-          "correctAnswer": 0,
-          "explanation": "'Dangerous' es peligroso."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e46.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e47",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "I have a headache.",
-    "content": {
-      "title": "Dolor de cabeza",
-      "instructions": "Identifica la palabra.",
-      "questions": [
-        {
-          "question": "[[I have a|Tengo]] (_____) .",
-          "options": ["[[headache|dolor de cabeza]]", "[[heart|corazón]]", "[[haircut|corte de pelo]]"],
-          "correctAnswer": 0,
-          "explanation": "'Headache' es dolor de cabeza."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e47.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e48",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "easy",
-    "transcript": "Stay calm!",
-    "content": {
-      "title": "Tranquilo",
-      "instructions": "Identifica el adjetivo.",
-      "questions": [
-        {
-          "question": "[[Stay|Manténgase]] (_____) [[calm|tranquilo]]!",
-          "options": ["[[calm|tranquilo/en calma]]", "[[cold|frío]]", "[[clean|limpio]]"],
-          "correctAnswer": 0,
-          "explanation": "'Calm' es tranquilo."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e48.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e49",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "Is there a first aid kit?",
-    "content": {
-      "title": "Botiquín",
-      "instructions": "Identifica la palabra.",
-      "questions": [
-        {
-          "question": "[[Is there a|¿Hay un]] (_____) [[aid kit|botiquín de primeros auxilios]]?",
-          "options": ["[[first|primer]]", "[[fast|rápido]]", "[[fine|bueno]]"],
-          "correctAnswer": 0,
-          "explanation": "'First aid kit' es el botiquín de primeros auxilios."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e49.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e50",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "I need a translator.",
-    "content": {
-      "title": "Traductor",
-      "instructions": "Identifica a la persona.",
-      "questions": [
-        {
-          "question": "[[I need a|Necesito un]] (_____) .",
-          "options": ["[[translator|traductor]]", "[[trainer|entrenador]]", "[[traffic|tráfico]]"],
-          "correctAnswer": 0,
-          "explanation": "'Translator' es traductor."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-47/e50.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u47-e51",
-    "type": "reading",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "medium",
-    "transcript": "Emergency services are very important. If there is a fire, you must call the fire station. If you have an accident or feel very sick, you need an ambulance to go to the hospital. At the hospital, doctors and nurses can help you. If you lose your passport or wallet, you should go to the police station to report it. In some situations, you can find a lost and found office. Always remember the emergency phone number of the country you are visiting. Stay calm and ask for help if you need it.",
-    "content": {
-      "title": "Servicios de emergencia",
-      "instructions": "Lee sobre qué hacer en caso de emergencia.",
-      "text": "[[Emergency|Los servicios]] [[services|de]] [[are|emergencia]] [[very|son]] [[important.|muy importantes.]] [[If|Si]] [[there|hay]] [[is|]] [[a|un]] [[fire,|incendio,]] [[you|usted]] [[must|debe]] [[call|llamar a]] [[the|la]] [[fire|estación]] [[station.|de bomberos.]] [[If|Si]] [[you|usted]] [[have|tiene]] [[an|un]] [[accident|accidente]] [[or|o]] [[feel|se siente]] [[very|muy]] [[sick,|enfermo,]] [[you|usted]] [[need|necesita]] [[an|una]] [[ambulance|ambulancia]] [[to|para]] [[go|ir]] [[to|al]] [[the|]] [[hospital.|hospital.]] [[At|En]] [[the|el]] [[hospital,|hospital,]] [[doctors|los médicos]] [[and|y]] [[nurses|enfermeros]] [[can|pueden]] [[help|ayudarle.]] [[you.|]] [[If|Si]] [[you|usted]] [[lose|pierde]] [[your|su]] [[passport|pasaporte]] [[or|o]] [[wallet,|cartera,]] [[you|usted]] [[should|debería]] [[go|ir]] [[to|a]] [[the|la]] [[police|comisaría]] [[station|]] [[to|para]] [[report|denunciarlo.]] [[it.|]] [[In|En]] [[some|algunas]] [[situations,|situaciones,]] [[you|usted]] [[can|puede]] [[find|encontrar]] [[a|una]] [[lost|oficina]] [[and|de]] [[found|objetos]] [[office.|perdidos.]] [[Always|Recuerde]] [[remember|siempre]] [[the|el]] [[emergency|número]] [[phone|de]] [[number|teléfono de emergencia]] [[of|del]] [[the|]] [[country|país]] [[you|que]] [[are|está]] [[visiting.|visitando.]] [[Stay|Mantenga]] [[calm|la calma]] [[and|y]] [[ask|pida]] [[for|ayuda]] [[help|]] [[if|si]] [[you|la]] [[need|necesita.]] [[it.|]]",
-      "questions": [
-        {
-          "question": "[[Who should you call if there is a fire?|¿A quién debe llamar si hay un incendio?]]",
-          "options": ["[[The fire station|A los bomberos]]", "[[The police|A la policía]]", "[[The hospital|Al hospital]]"],
-          "correctAnswer": 0
-        },
-        {
-          "question": "[[Where should you go if you lose your passport?|¿A dónde debe ir si pierde su pasaporte?]]",
-          "options": ["[[To the police station|A la comisaría]]", "[[To the pharmacy|A la farmacia]]", "[[To the post office|A correos]]"],
+          "question": "Empareja las actividades de vacaciones:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-47/e51.mp3",
-    "topicName": "Reading"
+    "audioUrl": "",
+    "topicName": "vocabulary"
   },
   {
-    "id": "a1-u47-e52",
-    "type": "reading",
+    "id": "a1-u47-a1_u47_b47_1_i2",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Public Services & Emergency",
+    "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "Last week, I had a problem. I was in a big shopping mall and I lost my mobile phone. I was very worried because all my contacts are there. I went to the security guard and asked for help. He took me to the lost and found office. I described my phone: it is black and has a red case. The assistant checked a drawer and found it! Someone found it near the cinema and brought it there. I was so happy! It is important to know that most big places have a system for lost items. If you lose something, don't panic.",
+    "transcript": "",
     "content": {
-      "title": "Un móvil perdido",
-      "instructions": "Lee la historia de una pérdida.",
-      "text": "[[Last|La semana]] [[week,|pasada]] [[I|yo]] [[had|tuve]] [[a|un]] [[problem.|problema.]] [[I|Yo]] [[was|estaba]] [[in|en]] [[a|un]] [[big|gran]] [[shopping|centro]] [[mall|comercial]] [[and|y]] [[I|]] [[lost|perdí]] [[my|mi]] [[mobile|teléfono]] [[phone.|móvil.]] [[I|Yo]] [[was|estaba]] [[very|muy]] [[worried|preocupado]] [[because|porque]] [[all|todos]] [[my|mis]] [[contacts|contactos]] [[are|están]] [[there.|allí.]] [[I|Yo]] [[went|fui a ver]] [[to|a]] [[the|el]] [[security|guardia de]] [[guard|seguridad]] [[and|y]] [[asked|pedí]] [[for|]] [[help.|ayuda.]] [[He|Él]] [[took|me llevó]] [[me|]] [[to|a]] [[the|la]] [[lost|oficina]] [[and|de]] [[found|objetos]] [[office.|perdidos.]] [[I|Yo]] [[described|describí]] [[my|mi]] [[phone:|teléfono:]] [[it|es]] [[is|]] [[black|negro]] [[and|y]] [[has|tiene]] [[a|una]] [[red|funda]] [[case.|roja.]] [[The|El]] [[assistant|asistente]] [[checked|miró en]] [[a|un]] [[drawer|cajón]] [[and|y]] [[found|¡lo encontró!]] [[it!|]] [[Someone|Alguien]] [[found|lo encontró]] [[it|]] [[near|cerca]] [[the|del]] [[cinema|cine]] [[and|y]] [[brought|lo trajo]] [[it|]] [[there.|allí.]] [[I|¡Estaba]] [[was|]] [[so|tan]] [[happy!|feliz!]] [[It|Es]] [[is|]] [[important|importante]] [[to|]] [[know|saber]] [[that|que]] [[most|la mayoría]] [[big|de los]] [[places|sitios grandes]] [[have|tienen]] [[a|un]] [[system|sistema]] [[for|para]] [[lost|objetos]] [[items.|perdidos.]] [[If|Si]] [[you|usted]] [[lose|pierde]] [[something,|algo,]] [[don't|no se]] [[panic.|asuste.]]",
+      "title": "Multiple Choice",
+      "instructions": "¿Qué haces en las montañas?",
       "questions": [
         {
-          "question": "[[Where did the person lose the phone?|¿Dónde perdió la persona el teléfono?]]",
-          "options": ["[[In a shopping mall|En un centro comercial]]", "[[At the cinema|En el cine]]", "[[In the street|En la calle]]"],
+          "question": "¿Qué haces en las montañas?",
+          "options": [
+            "[[Hiking|]]",
+            "[[Sunbathing|]]",
+            "[[Buying milk|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-a1_u47_b47_1_i3",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "I write a ________ to my family. (postal)",
+    "content": {
+      "title": "fill_blanks",
+      "instructions": "Completa el objeto:",
+      "questions": [
+        {
+          "question": "I write a ________ to my family. (postal)",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
           "correctAnswer": 0
-        },
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-a1_u47_b47_1_i4",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "short_writing",
+      "instructions": "Traduce: 'Hacer turismo'",
+      "questions": [
         {
-          "question": "[[Where did they find the phone?|¿Dónde encontraron el teléfono?]]",
-          "options": ["[[In the lost and found office|En la oficina de objetos perdidos]]", "[[In the cinema|En el cine]]", "[[Under a chair|Debajo de una silla]]"],
+          "question": "Traduce: 'Hacer turismo'",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-47/e52.mp3",
-    "topicName": "Reading"
+    "audioUrl": "",
+    "topicName": "vocabulary"
   },
   {
-    "id": "a1-u47-e53",
+    "id": "a1-u47-a1_u47_b47_1_i5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Public Services & Emergency",
+    "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "Where is the nearest exit?",
+    "transcript": "Souvenirs",
     "content": {
-      "title": "Salida",
-      "instructions": "Identifica la palabra.",
+      "title": "flashcard",
+      "instructions": "Repaso de vacaciones:",
       "questions": [
         {
-          "question": "[[Where is the nearest|¿Dónde está la]] (_____) [[exit|salida]] [[?|más cercana?]]",
-          "options": ["[[exit|salida]]", "[[entry|entrada]]", "[[east|este]]"],
-          "correctAnswer": 0,
-          "explanation": "'Exit' es salida."
+          "question": "Souvenirs",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-47/e53.mp3",
-    "topicName": "Vocabulary"
+    "audioUrl": "",
+    "topicName": "vocabulary"
   },
   {
-    "id": "a1-u47-e54",
+    "id": "a1-u47-a1_u47_b47_2_i2",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Public Services & Emergency",
+    "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "Is this the entrance?",
+    "transcript": "Usually I work, but today I am ________. (relajándome)",
     "content": {
-      "title": "Entrada",
-      "instructions": "Identifica la palabra.",
+      "title": "fill_blanks",
+      "instructions": "Completa el contraste:",
       "questions": [
         {
-          "question": "[[Is this the|¿Es esta la]] (_____) [[entrance|entrada]]?",
-          "options": ["[[entrance|entrada]]", "[[exit|salida]]", "[[end|fin]]"],
-          "correctAnswer": 0,
-          "explanation": "'Entrance' es entrada."
+          "question": "Usually I work, but today I am ________. (relajándome)",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-47/e54.mp3",
-    "topicName": "Vocabulary"
+    "audioUrl": "",
+    "topicName": "grammar"
   },
   {
-    "id": "a1-u47-e55",
+    "id": "a1-u47-a1_u47_b47_2_i3",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Public Services & Emergency",
+    "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "My car is being towed.",
+    "transcript": "",
     "content": {
-      "title": "Remolcado",
-      "instructions": "Identifica el verbo.",
+      "title": "true_false",
+      "instructions": "¿Es correcto: 'I enjoy to take photos'?",
       "questions": [
         {
-          "question": "[[My car is being|Mi coche está siendo]] (_____) [[towed|remolcado]] .",
-          "options": ["[[towed|remolcado (por la grúa)]]", "[[taken|llevado]]", "[[told|dicho]]"],
-          "correctAnswer": 0,
-          "explanation": "'Towed' se usa cuando la grúa se lleva el coche."
+          "question": "¿Es correcto: 'I enjoy to take photos'?",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-47/e55.mp3",
-    "topicName": "Vocabulary"
+    "audioUrl": "",
+    "topicName": "grammar"
   },
   {
-    "id": "a1-u47-e56",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Public Services & Emergency",
-    "difficulty": "hard",
-    "transcript": "Please, call the police immediately.",
-    "content": {
-      "title": "Llame a la policía",
-      "instructions": "Ordena la frase.",
-      "correctSentence": "[[Please call the police immediately|Por favor llame a la policía inmediatamente]].",
-      "words": ["[[immediately|inmediatamente]].", "[[police|policía]]", "[[the|la]]", "[[call|llame]]", "[[Please|Por favor]]"],
-      "explanation": "Petición de auxilio formal."
-    },
-    "audioUrl": "audio/a1/unit-47/e56.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u47-e57",
+    "id": "a1-u47-a1_u47_b47_2_i5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Public Services & Emergency",
+    "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I am looking for the town hall.",
+    "transcript": "We ________ visit museums on holiday. (a menudo)",
     "content": {
-      "title": "Ayuntamiento",
-      "instructions": "Identifica el lugar.",
+      "title": "fill_blanks",
+      "instructions": "Completa la frase:",
       "questions": [
         {
-          "question": "[[I am looking for the|Estoy buscando el]] (_____) [[hall.|ayuntamiento.]]",
-          "options": ["[[town|ayuntamiento]]", "[[train|tren]]", "[[toy|juguete]]"],
-          "correctAnswer": 0,
-          "explanation": "'Town hall' es el ayuntamiento."
+          "question": "We ________ visit museums on holiday. (a menudo)",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-47/e57.mp3",
-    "topicName": "Vocabulary"
+    "audioUrl": "",
+    "topicName": "grammar"
   },
   {
-    "id": "a1-u47-e58",
+    "id": "a1-u47-a1_u47_b47_3_i1",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Public Services & Emergency",
+    "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "Is there a toilet nearby?",
+    "transcript": "",
     "content": {
-      "title": "Aseo",
-      "instructions": "Identifica la palabra.",
+      "title": "reorder_words",
+      "instructions": "Describe tus vacaciones:",
       "questions": [
         {
-          "question": "[[Is there a|¿Hay un]] (_____) [[toilet|aseo/baño]] [[nearby?|cerca?]]",
-          "options": ["[[toilet|aseo/baño]]", "[[table|mesa]]", "[[ticket|billete]]"],
-          "correctAnswer": 0,
-          "explanation": "'Toilet' o 'restroom' es el aseo."
+          "question": "Describe tus vacaciones:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-47/e58.mp3",
-    "topicName": "Vocabulary"
+    "audioUrl": "",
+    "topicName": "syntax"
   },
   {
-    "id": "a1-u47-e59",
+    "id": "a1-u47-a1_u47_b47_3_i2",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Public Services & Emergency",
+    "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "My luggage is missing.",
+    "transcript": "",
     "content": {
-      "title": "Desaparecido / Falta",
-      "instructions": "Identifica el adjetivo.",
+      "title": "Multiple Choice",
+      "instructions": "Friend: 'What are you doing today?' - You:",
       "questions": [
         {
-          "question": "[[My luggage is|Mi equipaje ha]] (_____) [[missing|desaparecido]] .",
-          "options": ["[[missing|desaparecido/falta]]", "[[making|haciendo]]", "[[moving|moviéndose]]"],
+          "question": "Friend: 'What are you doing today?' - You:",
+          "options": [
+            "[[I am relaxing at the pool.|]]",
+            "[[I am a teacher.|]]",
+            "[[I usually eat pasta.|]]"
+          ],
           "correctAnswer": 0,
-          "explanation": "'Missing' se usa para algo que no está donde debería estar."
+          "explanation": ""
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-47/e59.mp3",
-    "topicName": "Vocabulary"
+    "audioUrl": "",
+    "topicName": "syntax"
   },
   {
-    "id": "a1-u47-e60",
+    "id": "a1-u47-a1_u47_b47_3_i3",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Public Services & Emergency",
+    "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "Do you speak English?",
+    "transcript": "The weather is hot. We ________ many photos of the city. (sacamos/tomamos)",
     "content": {
-      "title": "¿Habla inglés?",
-      "instructions": "Pregunta básica.",
+      "title": "fill_blanks",
+      "instructions": "Completa la postal:",
       "questions": [
         {
-          "question": "[[Do you|¿Usted]] (_____) [[speak|habla]] [[English?|inglés?]]",
-          "options": ["[[speak|habla]]", "[[say|dice]]", "[[study|estudia]]"],
-          "correctAnswer": 0,
-          "explanation": "'Speak' es hablar un idioma."
+          "question": "The weather is hot. We ________ many photos of the city. (sacamos/tomamos)",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-47/e60.mp3",
-    "topicName": "Grammar"
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u47-a1_u47_b47_3_i4",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "short_writing",
+      "instructions": "Traduce: 'Odio hacer turismo'",
+      "questions": [
+        {
+          "question": "Traduce: 'Odio hacer turismo'",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u47-a1_u47_b47_3_i5",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "true_false",
+      "instructions": "You buy souvenirs for your family and friends.",
+      "questions": [
+        {
+          "question": "You buy souvenirs for your family and friends.",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u47-a1_u47_b47_4_i4",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "listening",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "audio_player",
+      "instructions": "Escucha la preferencia:",
+      "questions": [
+        {
+          "question": "Escucha la preferencia:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/shared/a167098e792e3a89e167669818815124.mp3",
+    "topicName": "listening"
+  },
+  {
+    "id": "a1-u47-a1_u47_b47_4_i5",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "reading",
+    "difficulty": "medium",
+    "transcript": "Sarah loves eating Italian food. She enjoys pizza and pasta. Every Friday, she goes to a small Italian restaurant near her house. The restaurant has a friendly chef who makes delicious meals. Sarah always feels happy when she eats there. She does not like working at the office or rainy weather, but Italian food always makes her smile.",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Qué le gusta a Sarah?",
+      "questions": [
+        {
+          "question": "Sarah loves eating Italian food. She enjoys pizza and pasta. Every Friday, she goes to a small Italian restaurant near her house. The restaurant has a friendly chef who makes delicious meals. Sarah always feels happy when she eats there. She does not like working at the office or rainy weather, but Italian food always makes her smile.",
+          "options": [
+            "[[Eating Italian food|]]",
+            "[[Working at the office|]]",
+            "[[Rainy weather|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "reading"
   },
   {
     "id": "a1-u47-u47_i301",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Listening",
     "difficulty": "medium",
     "transcript": "",
     "content": {
@@ -1338,14 +389,14 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "audioUrl": "",
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-1.mp3",
     "topicName": "Listening"
   },
   {
     "id": "a1-u47-u47_i302",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Listening",
     "difficulty": "medium",
     "transcript": "",
     "content": {
@@ -1363,14 +414,14 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "audioUrl": "",
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-2.mp3",
     "topicName": "Listening"
   },
   {
     "id": "a1-u47-u47_i303",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Listening",
     "difficulty": "medium",
     "transcript": "",
     "content": {
@@ -1388,14 +439,14 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "audioUrl": "",
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-3.mp3",
     "topicName": "Listening"
   },
   {
     "id": "a1-u47-u47_i304",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Listening",
     "difficulty": "medium",
     "transcript": "",
     "content": {
@@ -1413,14 +464,14 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "audioUrl": "",
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-4.mp3",
     "topicName": "Listening"
   },
   {
     "id": "a1-u47-u47_i305",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Listening",
     "difficulty": "medium",
     "transcript": "",
     "content": {
@@ -1438,14 +489,14 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "audioUrl": "",
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-5.mp3",
     "topicName": "Listening"
   },
   {
     "id": "a1-u47-u47_i306",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Listening",
     "difficulty": "medium",
     "transcript": "",
     "content": {
@@ -1463,14 +514,14 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "audioUrl": "",
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-6.mp3",
     "topicName": "Listening"
   },
   {
     "id": "a1-u47-u47_i307",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Listening",
     "difficulty": "medium",
     "transcript": "",
     "content": {
@@ -1488,208 +539,1218 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         }
       ]
     },
-    "audioUrl": "",
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-7.mp3",
     "topicName": "Listening"
   },
   {
     "id": "a1-u47-u47_i308",
-    "type": "multiple-choice",
+    "type": "pronunciation",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Pronunciation",
     "difficulty": "medium",
-    "transcript": "Happy !",
+    "transcript": "Happy holidays!",
     "content": {
       "title": "Pronunciación: Holidays",
       "instructions": "Escucha y repite enfocándote en la 'h'.",
-      "questions": [
-        {
-          "question": "¿La 'h' inicial en 'holidays' es muda como en español?",
-          "options": [
-            "[[No, es aspirada (suena como un suspiro suave)|]]",
-            "[[Sí, es igual|]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Practica la pronunciación y entonación."
-        }
-      ]
+      "expectedResponse": "Happy holidays!",
+      "phonetic": "/ˈhæpi ˈhɒlədeɪz/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-8.mp3",
     "topicName": "Pronunciation"
   },
   {
     "id": "a1-u47-u47_i309",
-    "type": "multiple-choice",
+    "type": "pronunciation",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Pronunciation",
     "difficulty": "medium",
-    "transcript": "I  to the .",
+    "transcript": "I go to the beach.",
     "content": {
       "title": "Pronunciación: Beach",
       "instructions": "Escucha y repite la 'i' larga.",
-      "questions": [
-        {
-          "question": "¿Cómo suena la 'ea' en 'beach'?",
-          "options": [
-            "[[Como una 'i' larga y tensa (/iː/)|]]",
-            "[[Como una 'e' abierta|]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Practica la pronunciación y entonación."
-        }
-      ]
+      "expectedResponse": "I go to the beach.",
+      "phonetic": "/aɪ ɡəʊ tə ðə biːtʃ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-9.mp3",
     "topicName": "Pronunciation"
   },
   {
     "id": "a1-u47-u47_i310",
-    "type": "multiple-choice",
+    "type": "pronunciation",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Pronunciation",
     "difficulty": "medium",
-    "transcript": "We  .",
+    "transcript": "We enjoy sightseeing.",
     "content": {
       "title": "Pronunciación: Sightseeing",
       "instructions": "Escucha y repite la palabra larga.",
-      "questions": [
-        {
-          "question": "¿Cómo suena la 'igh' en 'sight'?",
-          "options": [
-            "[[Como /aɪ/ (ai)|]]",
-            "[[Como una 'i' simple|]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Practica la pronunciación y entonación."
-        }
-      ]
+      "expectedResponse": "We enjoy sightseeing.",
+      "phonetic": "/wi ɪnˈdʒɔɪ ˈsaɪtsiːɪŋ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-10.mp3",
     "topicName": "Pronunciation"
   },
   {
     "id": "a1-u47-u47_i311",
-    "type": "multiple-choice",
+    "type": "pronunciation",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Pronunciation",
     "difficulty": "medium",
-    "transcript": "Go .",
+    "transcript": "Go hiking.",
     "content": {
       "title": "Pronunciación: Hiking",
       "instructions": "Escucha y repite la 'h' y la 'i' larga.",
-      "questions": [
-        {
-          "question": "¿Cómo suena la primera 'i' en 'hiking'?",
-          "options": [
-            "[[Como /aɪ/ (ai)|]]",
-            "[[Como una 'i' corta|]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Practica la pronunciación y entonación."
-        }
-      ]
+      "expectedResponse": "Go hiking.",
+      "phonetic": "/ɡəʊ ˈhaɪkɪŋ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-11.mp3",
     "topicName": "Pronunciation"
   },
   {
     "id": "a1-u47-u47_i312",
-    "type": "multiple-choice",
+    "type": "pronunciation",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Pronunciation",
     "difficulty": "medium",
-    "transcript": "Send a .",
+    "transcript": "Send a postcard.",
     "content": {
       "title": "Pronunciación: Postcard",
       "instructions": "Escucha y repite la palabra compuesta.",
-      "questions": [
-        {
-          "question": "¿Se pronuncia la 't' en 'postcard'?",
-          "options": [
-            "[[A menudo es muda o muy suave|]]",
-            "[[Siempre suena fuerte|]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Practica la pronunciación y entonación."
-        }
-      ]
+      "expectedResponse": "Send a postcard.",
+      "phonetic": "/sɛnd ə ˈpəʊstkɑːd/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-12.mp3",
     "topicName": "Pronunciation"
   },
   {
     "id": "a1-u47-u47_i313",
-    "type": "multiple-choice",
+    "type": "pronunciation",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Pronunciation",
     "difficulty": "medium",
-    "transcript": "I  .",
+    "transcript": "I love swimming.",
     "content": {
       "title": "Pronunciación: Love",
       "instructions": "Escucha y repite la vocal relajada.",
-      "questions": [
-        {
-          "question": "¿Cómo suena la 'o' en 'love'?",
-          "options": [
-            "[[Como una 'a' corta y relajada (/ʌ/)|]]",
-            "[[Como una 'o' española|]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Practica la pronunciación y entonación."
-        }
-      ]
+      "expectedResponse": "I love swimming.",
+      "phonetic": "/aɪ lʌv ˈswɪmɪŋ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-13.mp3",
     "topicName": "Pronunciation"
   },
   {
     "id": "a1-u47-u47_i314",
-    "type": "multiple-choice",
+    "type": "pronunciation",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Pronunciation",
     "difficulty": "medium",
-    "transcript": "I  .",
+    "transcript": "I hate waiting.",
     "content": {
       "title": "Pronunciación: Hate",
       "instructions": "Escucha y repite el diptongo 'a_e'.",
-      "questions": [
-        {
-          "question": "¿Cómo suena la 'a' en 'hate'?",
-          "options": [
-            "[[Como /eɪ/ (ei)|]]",
-            "[[Como una 'a' simple|]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Practica la pronunciación y entonación."
-        }
-      ]
+      "expectedResponse": "I hate waiting.",
+      "phonetic": "/aɪ heɪt ˈweɪtɪŋ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-14.mp3",
     "topicName": "Pronunciation"
   },
   {
     "id": "a1-u47-u47_i315",
-    "type": "multiple-choice",
+    "type": "pronunciation",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Pronunciation",
     "difficulty": "medium",
-    "transcript": "We  the  .",
+    "transcript": "We enjoy the local food.",
     "content": {
       "title": "Pronunciación: Repaso Holidays",
       "instructions": "Escucha y repite la frase completa.",
+      "expectedResponse": "We enjoy the local food.",
+      "phonetic": "/wi ɪnˈdʒɔɪ ðə ˈləʊkl fuːd/"
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-15.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u47-u47_filler_0",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'holiday' en inglés?",
       "questions": [
         {
-          "question": "¿Cómo suena la 'oo' en 'food'?",
+          "question": "¿Cómo se dice 'holiday' en inglés?",
           "options": [
-            "[[Como una 'u' larga (/uː/)|]]",
-            "[[Como una 'u' corta|]]"
+            "[[Holiday|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
           ],
           "correctAnswer": 0,
-          "explanation": "Practica la pronunciación y entonación."
+          "explanation": ""
         }
       ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'vacation' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'vacation' en inglés?",
+          "options": [
+            "[[Vacation|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'beach' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'beach' en inglés?",
+          "options": [
+            "[[Beach|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_3",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'mountains' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'mountains' en inglés?",
+          "options": [
+            "[[Mountains|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_4",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'sightseeing' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'sightseeing' en inglés?",
+          "options": [
+            "[[Sightseeing|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_5",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'relax' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'relax' en inglés?",
+          "options": [
+            "[[Relax|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_6",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'photos' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'photos' en inglés?",
+          "options": [
+            "[[Photos|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_7",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'holiday' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'holiday' en inglés?",
+          "options": [
+            "[[Holiday|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_8",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'vacation' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'vacation' en inglés?",
+          "options": [
+            "[[Vacation|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_9",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'beach' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'beach' en inglés?",
+          "options": [
+            "[[Beach|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_10",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'mountains' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'mountains' en inglés?",
+          "options": [
+            "[[Mountains|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_11",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'sightseeing' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'sightseeing' en inglés?",
+          "options": [
+            "[[Sightseeing|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_12",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'relax' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'relax' en inglés?",
+          "options": [
+            "[[Relax|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_13",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'photos' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'photos' en inglés?",
+          "options": [
+            "[[Photos|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_14",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'holiday' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'holiday' en inglés?",
+          "options": [
+            "[[Holiday|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_15",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'vacation' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'vacation' en inglés?",
+          "options": [
+            "[[Vacation|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_16",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'beach' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'beach' en inglés?",
+          "options": [
+            "[[Beach|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_17",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'mountains' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'mountains' en inglés?",
+          "options": [
+            "[[Mountains|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_18",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'sightseeing' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'sightseeing' en inglés?",
+          "options": [
+            "[[Sightseeing|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_19",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'relax' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'relax' en inglés?",
+          "options": [
+            "[[Relax|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_20",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'photos' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'photos' en inglés?",
+          "options": [
+            "[[Photos|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_21",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'holiday' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'holiday' en inglés?",
+          "options": [
+            "[[Holiday|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_22",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'vacation' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'vacation' en inglés?",
+          "options": [
+            "[[Vacation|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_23",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'beach' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'beach' en inglés?",
+          "options": [
+            "[[Beach|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_24",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'mountains' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'mountains' en inglés?",
+          "options": [
+            "[[Mountains|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_25",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'sightseeing' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'sightseeing' en inglés?",
+          "options": [
+            "[[Sightseeing|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_26",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'relax' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'relax' en inglés?",
+          "options": [
+            "[[Relax|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_27",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'photos' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'photos' en inglés?",
+          "options": [
+            "[[Photos|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_28",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'holiday' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'holiday' en inglés?",
+          "options": [
+            "[[Holiday|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_filler_29",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'vacation' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'vacation' en inglés?",
+          "options": [
+            "[[Vacation|]]",
+            "[[Wrong word|]]",
+            "[[Other word|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u47-u47_l5_i1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening",
+    "difficulty": "medium",
+    "transcript": "The holiday is here.",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la frase:",
+      "questions": [
+        {
+          "question": "The [[holiday|]] is here.",
+          "options": [
+            "[[holiday|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-1.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u47-u47_l5_i2",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening",
+    "difficulty": "medium",
+    "transcript": "The vacation is here.",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la frase:",
+      "questions": [
+        {
+          "question": "The [[vacation|]] is here.",
+          "options": [
+            "[[vacation|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-2.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u47-u47_l5_i3",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening",
+    "difficulty": "medium",
+    "transcript": "The beach is here.",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la frase:",
+      "questions": [
+        {
+          "question": "The [[beach|]] is here.",
+          "options": [
+            "[[beach|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-3.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u47-u47_l5_i4",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening",
+    "difficulty": "medium",
+    "transcript": "The mountains is here.",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la frase:",
+      "questions": [
+        {
+          "question": "The [[mountains|]] is here.",
+          "options": [
+            "[[mountains|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-4.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u47-u47_l5_i5",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening",
+    "difficulty": "medium",
+    "transcript": "The sightseeing is here.",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la frase:",
+      "questions": [
+        {
+          "question": "The [[sightseeing|]] is here.",
+          "options": [
+            "[[sightseeing|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-5.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u47-u47_l5_i6",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening",
+    "difficulty": "medium",
+    "transcript": "The relax is here.",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la frase:",
+      "questions": [
+        {
+          "question": "The [[relax|]] is here.",
+          "options": [
+            "[[relax|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-6.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u47-u47_l5_i7",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening",
+    "difficulty": "medium",
+    "transcript": "The photos is here.",
+    "content": {
+      "title": "Listening Practice",
+      "instructions": "Escucha y completa la frase:",
+      "questions": [
+        {
+          "question": "The [[photos|]] is here.",
+          "options": [
+            "[[photos|]]",
+            "[[other|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": "Escucha atentamente para identificar la palabra correcta."
+        }
+      ]
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-7.mp3",
+    "topicName": "Listening"
+  },
+  {
+    "id": "a1-u47-u47_l5_i8",
+    "type": "pronunciation",
+    "level": "A1",
+    "topic": "Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I like this holiday.",
+    "content": {
+      "title": "Pronunciación: Holidays & Vacation",
+      "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+      "expectedResponse": "I like this holiday.",
+      "phonetic": ""
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-8.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u47-u47_l5_i9",
+    "type": "pronunciation",
+    "level": "A1",
+    "topic": "Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I like this vacation.",
+    "content": {
+      "title": "Pronunciación: Holidays & Vacation",
+      "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+      "expectedResponse": "I like this vacation.",
+      "phonetic": ""
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-9.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u47-u47_l5_i10",
+    "type": "pronunciation",
+    "level": "A1",
+    "topic": "Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I like this beach.",
+    "content": {
+      "title": "Pronunciación: Holidays & Vacation",
+      "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+      "expectedResponse": "I like this beach.",
+      "phonetic": ""
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-10.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u47-u47_l5_i11",
+    "type": "pronunciation",
+    "level": "A1",
+    "topic": "Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I like this mountains.",
+    "content": {
+      "title": "Pronunciación: Holidays & Vacation",
+      "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+      "expectedResponse": "I like this mountains.",
+      "phonetic": ""
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-11.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u47-u47_l5_i12",
+    "type": "pronunciation",
+    "level": "A1",
+    "topic": "Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I like this sightseeing.",
+    "content": {
+      "title": "Pronunciación: Holidays & Vacation",
+      "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+      "expectedResponse": "I like this sightseeing.",
+      "phonetic": ""
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-12.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u47-u47_l5_i13",
+    "type": "pronunciation",
+    "level": "A1",
+    "topic": "Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I like this relax.",
+    "content": {
+      "title": "Pronunciación: Holidays & Vacation",
+      "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+      "expectedResponse": "I like this relax.",
+      "phonetic": ""
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-13.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u47-u47_l5_i14",
+    "type": "pronunciation",
+    "level": "A1",
+    "topic": "Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I like this photos.",
+    "content": {
+      "title": "Pronunciación: Holidays & Vacation",
+      "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+      "expectedResponse": "I like this photos.",
+      "phonetic": ""
+    },
+    "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-14.mp3",
+    "topicName": "Pronunciation"
+  },
+  {
+    "id": "a1-u47-u47_l5_i15",
+    "type": "pronunciation",
+    "level": "A1",
+    "topic": "Pronunciation",
+    "difficulty": "medium",
+    "transcript": "I like this holiday.",
+    "content": {
+      "title": "Pronunciación: Holidays & Vacation",
+      "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+      "expectedResponse": "I like this holiday.",
+      "phonetic": ""
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-15.mp3",
     "topicName": "Pronunciation"
   }
-
 ];

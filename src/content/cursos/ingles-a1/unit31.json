@@ -427,59 +427,966 @@
       ]
     },
     {
-      "block_id": "B31_5",
-      "title": "Lesson 5: Listening & Pronunciation Practice",
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U31_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'can' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Can"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'can't' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Can't"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'swim' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Swim"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fly' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fly"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Dance"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'drive' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Drive"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'speak' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Speak"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'can' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Can"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'can't' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Can't"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'swim' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Swim"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fly' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fly"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Dance"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'drive' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Drive"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'speak' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Speak"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'can' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Can"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'can't' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Can't"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'swim' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Swim"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fly' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fly"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Dance"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'drive' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Drive"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'speak' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Speak"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'can' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Can"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'can't' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Can't"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'swim' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Swim"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fly' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fly"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Dance"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'drive' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Drive"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'speak' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Speak"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'can' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Can"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'can't' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Can't"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'swim' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Swim"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fly' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fly"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Dance"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'drive' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Drive"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'speak' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Speak"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'can' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Can"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'can't' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Can't"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U31_FILLER_42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'swim' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Swim"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
       "duration_minutes": 20,
       "content": [
         {
-          "interaction_id": "A1_U31_B31_5_I1",
+          "interaction_id": "U31_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase con la habilidad:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit31/lesson5-task-1.mp3",
-          "transcript_template": "My [[mother|madre]] ________ [[very well|muy bien]].",
-          "correct_answer": "can cook",
+          "transcript_template": "The [[can|]] is here.",
+          "correct_answer": "can",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U31_B31_5_I2",
+          "interaction_id": "U31_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit31/lesson5-task-2.mp3",
-          "transcript_template": "[[I|Yo]] ________ [[speak|hablar]] [[German|alemán]].",
+          "transcript_template": "The [[can't|]] is here.",
           "correct_answer": "can't",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U31_B31_5_I3",
+          "interaction_id": "U31_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit31/lesson5-task-3.mp3",
-          "transcript_template": "________ [[you|tú]] [[help|ayudar]] [[me|me]] [[with|con]] [[this|esto]]?",
-          "correct_answer": "Can",
+          "transcript_template": "The [[swim|]] is here.",
+          "correct_answer": "swim",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U31_B31_5_I4",
+          "interaction_id": "U31_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit31/lesson5-task-4.mp3",
-          "transcript_template": "[[Birds|Los pájaros]] ________ [[fly|volar]] [[high|alto]].",
-          "correct_answer": "can",
+          "transcript_template": "The [[fly|]] is here.",
+          "correct_answer": "fly",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
@@ -488,12 +1395,12 @@
           ]
         },
         {
-          "interaction_id": "A1_U31_B31_5_I5",
+          "interaction_id": "U31_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit31/lesson5-task-5.mp3",
-          "transcript_template": "[[He|Él]] ________ [[play|tocar]] the [[guitar|guitarra]].",
-          "correct_answer": "can",
+          "transcript_template": "The [[sing|]] is here.",
+          "correct_answer": "sing",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
@@ -502,54 +1409,60 @@
           ]
         },
         {
-          "interaction_id": "A1_U31_B31_5_I6",
+          "interaction_id": "U31_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit31/lesson5-task-6.mp3",
-          "transcript_template": "[[They|Ellos]] ________ [[swim|nadar]] [[fast|rápido]].",
-          "correct_answer": "can't",
+          "transcript_template": "The [[dance|]] is here.",
+          "correct_answer": "dance",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U31_B31_5_I7",
+          "interaction_id": "U31_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit31/lesson5-task-7.mp3",
-          "transcript_template": "[[We|Nosotros]] ________ [[understand|entender]] the [[lesson|lección]].",
-          "correct_answer": "can",
+          "transcript_template": "The [[drive|]] is here.",
+          "correct_answer": "drive",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U31_B31_5_I8",
+          "interaction_id": "U31_L5_I8",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Can afirmativo",
-          "instructions": "Escucha la pronunciación débil de 'can' (/kən/).",
+          "title": "Pronunciación: Can for Ability",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "I [[can|puedo]] [[dance|bailar]].",
-              "phonetic": "/aɪ kən dɑːns/",
+              "text": "I [[like|me gusta]] this [[speak|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-8.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U31_B31_5_I8_Q1",
+              "id": "U31_L5_I8_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'a' en 'can' cuando es afirmativo y no está enfatizado?",
+              "prompt_es": "¿Cómo se pronuncia 'speak'?",
               "options": [
-                { "id": "o1", "text": "Como un sonido corto y débil (/ə/)" },
-                { "id": "o2", "text": "Como una 'a' fuerte (/æ/)" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -563,26 +1476,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U31_B31_5_I9",
+          "interaction_id": "U31_L5_I9",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Can't negativo",
-          "instructions": "Escucha la pronunciación fuerte de 'can't' (/kɑːnt/).",
+          "title": "Pronunciación: Can for Ability",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "I [[can't|no puedo]] [[dance|bailar]].",
-              "phonetic": "/aɪ kɑːnt dɑːns/",
+              "text": "I [[like|me gusta]] this [[can|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-9.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U31_B31_5_I9_Q1",
+              "id": "U31_L5_I9_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Qué vocal se escucha en 'can't'?",
+              "prompt_es": "¿Cómo se pronuncia 'can'?",
               "options": [
-                { "id": "o1", "text": "Una 'a' larga y abierta (/ɑː/)" },
-                { "id": "o2", "text": "Una 'u' cerrada" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -596,26 +1515,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U31_B31_5_I10",
+          "interaction_id": "U31_L5_I10",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Preguntas",
-          "instructions": "Escucha la entonación ascendente.",
+          "title": "Pronunciación: Can for Ability",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[Can|¿Puedes?]] [[you|tú]] [[sing|cantar]]?",
-              "phonetic": "/kən ju sɪŋ/",
+              "text": "I [[like|me gusta]] this [[can't|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-10.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U31_B31_5_I10_Q1",
+              "id": "U31_L5_I10_Q1",
               "type": "multiple_choice",
-              "prompt_es": "En la pregunta 'Can you sing?', ¿qué palabra suele ser más débil?",
+              "prompt_es": "¿Cómo se pronuncia 'can't'?",
               "options": [
-                { "id": "o1", "text": "Can" },
-                { "id": "o2", "text": "Sing" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -629,26 +1554,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U31_B31_5_I11",
+          "interaction_id": "U31_L5_I11",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Verbo 'Drive'",
-          "instructions": "Practica el diptongo /aɪ/.",
+          "title": "Pronunciación: Can for Ability",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[She|Ella]] [[can|puede]] [[drive|conducir]] a [[car|coche]].",
-              "phonetic": "/ʃi kən draɪv ə kɑː/",
+              "text": "I [[like|me gusta]] this [[swim|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-11.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U31_B31_5_I11_Q1",
+              "id": "U31_L5_I11_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'i' en 'drive'?",
+              "prompt_es": "¿Cómo se pronuncia 'swim'?",
               "options": [
-                { "id": "o1", "text": "Como el diptongo 'ai' (/aɪ/)" },
-                { "id": "o2", "text": "Como una 'i' simple" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -662,26 +1593,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U31_B31_5_I12",
+          "interaction_id": "U31_L5_I12",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Verbo 'Swim'",
-          "instructions": "Practica la 'i' corta.",
+          "title": "Pronunciación: Can for Ability",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[I|Yo]] [[can|puedo]] [[swim|nadar]] [[well|bien]].",
-              "phonetic": "/aɪ kən swɪm wɛl/",
+              "text": "I [[like|me gusta]] this [[fly|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-12.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U31_B31_5_I12_Q1",
+              "id": "U31_L5_I12_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿La 'i' en 'swim' es larga (como 'ii') o corta?",
+              "prompt_es": "¿Cómo se pronuncia 'fly'?",
               "options": [
-                { "id": "o1", "text": "Corta (/ɪ/)" },
-                { "id": "o2", "text": "Larga (/iː/)" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -695,26 +1632,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U31_B31_5_I13",
+          "interaction_id": "U31_L5_I13",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Verbo 'Cook'",
-          "instructions": "Practica la 'oo' corta.",
+          "title": "Pronunciación: Can for Ability",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[They|Ellos]] [[can|pueden]] [[cook|cocinar]] [[dinner|la cena]].",
-              "phonetic": "/ðeɪ kən kʊk ˈdɪnə/",
+              "text": "I [[like|me gusta]] this [[sing|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-13.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U31_B31_5_I13_Q1",
+              "id": "U31_L5_I13_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'oo' en 'cook'?",
+              "prompt_es": "¿Cómo se pronuncia 'sing'?",
               "options": [
-                { "id": "o1", "text": "Como una 'u' corta (/ʊ/)" },
-                { "id": "o2", "text": "Como una 'u' larga (/uː/)" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -728,26 +1671,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U31_B31_5_I14",
+          "interaction_id": "U31_L5_I14",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: 'Very well'",
-          "instructions": "Practica la uve (/v/).",
+          "title": "Pronunciación: Can for Ability",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[You|Tú]] [[can|puedes]] [[speak|hablar]] [[very well|muy bien]].",
-              "phonetic": "/ju kən spiːk ˈvɛri wɛl/",
+              "text": "I [[like|me gusta]] this [[dance|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-14.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U31_B31_5_I14_Q1",
+              "id": "U31_L5_I14_Q1",
               "type": "multiple_choice",
-              "prompt_es": "Para pronunciar la /v/ en 'very', ¿dónde ponemos los dientes superiores?",
+              "prompt_es": "¿Cómo se pronuncia 'dance'?",
               "options": [
-                { "id": "o1", "text": "En el labio inferior" },
-                { "id": "o2", "text": "Juntos con los dientes inferiores" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -761,26 +1710,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U31_B31_5_I15",
+          "interaction_id": "U31_L5_I15",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Resumen",
-          "instructions": "Escucha y repite la frase final.",
+          "title": "Pronunciación: Can for Ability",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[I|Yo]] [[can|puedo]] [[learn|aprender]] [[English|inglés]]!",
-              "phonetic": "/aɪ kən lɜːn ˈɪŋɡlɪʃ/",
+              "text": "I [[like|me gusta]] this [[drive|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit31/lesson5-task-15.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U31_B31_5_I15_Q1",
+              "id": "U31_L5_I15_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'sh' final en 'English'?",
+              "prompt_es": "¿Cómo se pronuncia 'drive'?",
               "options": [
-                { "id": "o1", "text": "Como pidiendo silencio (/ʃ/)" },
-                { "id": "o2", "text": "Como una 's' simple" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

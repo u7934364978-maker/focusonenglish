@@ -457,8 +457,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 's' final en 'seasons'?",
               "options": [
-                { "id": "o1", "text": "Vibrante como una abeja (/z/)" },
-                { "id": "o2", "text": "Sorda como un silbido (/s/)" }
+                {
+                  "id": "o1",
+                  "text": "Vibrante como una abeja (/z/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Sorda como un silbido (/s/)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -490,8 +496,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Se añade una 'e' antes de 'spring'?",
               "options": [
-                { "id": "o1", "text": "No, empieza directamente con la 's'" },
-                { "id": "o2", "text": "Sí, como 'espring'" }
+                {
+                  "id": "o1",
+                  "text": "No, empieza directamente con la 's'"
+                },
+                {
+                  "id": "o2",
+                  "text": "Sí, como 'espring'"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -523,8 +535,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Se pronuncian las dos 'm' en 'summer'?",
               "options": [
-                { "id": "o1", "text": "No, solo suena como una única 'm'" },
-                { "id": "o2", "text": "Sí, se hacen más largas" }
+                {
+                  "id": "o1",
+                  "text": "No, solo suena como una única 'm'"
+                },
+                {
+                  "id": "o2",
+                  "text": "Sí, se hacen más largas"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -556,8 +574,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Se pronuncia la 'n' final en 'autumn'?",
               "options": [
-                { "id": "o1", "text": "No, es muda" },
-                { "id": "o2", "text": "Sí, suena suavemente" }
+                {
+                  "id": "o1",
+                  "text": "No, es muda"
+                },
+                {
+                  "id": "o2",
+                  "text": "Sí, suena suavemente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -589,8 +613,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'w' en 'winter'?",
               "options": [
-                { "id": "o1", "text": "Como una 'u' semivocal (/w/)" },
-                { "id": "o2", "text": "Como una 'v' vibrante" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'u' semivocal (/w/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'v' vibrante"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -622,8 +652,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Dónde recae el acento en 'August'?",
               "options": [
-                { "id": "o1", "text": "En la primera sílaba (AU-gust)" },
-                { "id": "o2", "text": "En la segunda sílaba (au-GUST)" }
+                {
+                  "id": "o1",
+                  "text": "En la primera sílaba (AU-gust)"
+                },
+                {
+                  "id": "o2",
+                  "text": "En la segunda sílaba (au-GUST)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -655,8 +691,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cuál es la sílaba tónica en 'December'?",
               "options": [
-                { "id": "o1", "text": "La segunda (de-CEM-ber)" },
-                { "id": "o2", "text": "La primera (DE-cem-ber)" }
+                {
+                  "id": "o1",
+                  "text": "La segunda (de-CEM-ber)"
+                },
+                {
+                  "id": "o2",
+                  "text": "La primera (DE-cem-ber)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -688,8 +730,1065 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'ch' en 'changes'?",
               "options": [
-                { "id": "o1", "text": "Como una 'ch' española fuerte (/tʃ/)" },
-                { "id": "o2", "text": "Como una 'sh' suave" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'ch' española fuerte (/tʃ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'sh' suave"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U45_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'spring' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Spring"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'summer' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Summer"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'autumn' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Autumn"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'winter' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Winter"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'beach' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Beach"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'flowers' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Flowers"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'leaves' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Leaves"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'spring' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Spring"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'summer' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Summer"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'autumn' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Autumn"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'winter' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Winter"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'beach' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Beach"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'flowers' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Flowers"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'leaves' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Leaves"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'spring' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Spring"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'summer' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Summer"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'autumn' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Autumn"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'winter' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Winter"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'beach' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Beach"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'flowers' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Flowers"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'leaves' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Leaves"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'spring' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Spring"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'summer' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Summer"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'autumn' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Autumn"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'winter' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Winter"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'beach' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Beach"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'flowers' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Flowers"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'leaves' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Leaves"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'spring' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Spring"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U45_FILLER_29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'summer' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Summer"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "U45_L5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit45/lesson5-task-1.mp3",
+          "transcript_template": "The [[spring|]] is here.",
+          "correct_answer": "spring",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U45_L5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit45/lesson5-task-2.mp3",
+          "transcript_template": "The [[summer|]] is here.",
+          "correct_answer": "summer",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U45_L5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit45/lesson5-task-3.mp3",
+          "transcript_template": "The [[autumn|]] is here.",
+          "correct_answer": "autumn",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U45_L5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit45/lesson5-task-4.mp3",
+          "transcript_template": "The [[winter|]] is here.",
+          "correct_answer": "winter",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U45_L5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit45/lesson5-task-5.mp3",
+          "transcript_template": "The [[beach|]] is here.",
+          "correct_answer": "beach",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U45_L5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit45/lesson5-task-6.mp3",
+          "transcript_template": "The [[flowers|]] is here.",
+          "correct_answer": "flowers",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U45_L5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit45/lesson5-task-7.mp3",
+          "transcript_template": "The [[leaves|]] is here.",
+          "correct_answer": "leaves",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U45_L5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Seasons",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[spring|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U45_L5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'spring'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U45_L5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Seasons",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[summer|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U45_L5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'summer'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U45_L5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Seasons",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[autumn|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U45_L5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'autumn'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U45_L5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Seasons",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[winter|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U45_L5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'winter'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U45_L5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Seasons",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[beach|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U45_L5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'beach'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U45_L5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Seasons",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[flowers|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U45_L5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'flowers'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U45_L5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Seasons",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[leaves|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U45_L5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'leaves'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U45_L5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Seasons",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[spring|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U45_L5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'spring'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

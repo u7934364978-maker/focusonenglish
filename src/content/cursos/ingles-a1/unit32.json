@@ -302,16 +302,1028 @@
       ]
     },
     {
-      "block_id": "B32_5",
-      "title": "Lesson 5: Listening & Pronunciation Practice",
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U32_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'football' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Football"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tennis' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tennis"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'guitar' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Guitar"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'piano' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Piano"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hobbies' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hobbies"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sports' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sports"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'playing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Playing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'football' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Football"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tennis' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tennis"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'guitar' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Guitar"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'piano' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Piano"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hobbies' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hobbies"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sports' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sports"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'playing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Playing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'football' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Football"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tennis' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tennis"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'guitar' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Guitar"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'piano' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Piano"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hobbies' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hobbies"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sports' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sports"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'playing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Playing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'football' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Football"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tennis' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tennis"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'guitar' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Guitar"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'piano' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Piano"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hobbies' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hobbies"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sports' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sports"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'playing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Playing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'football' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Football"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tennis' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tennis"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'guitar' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Guitar"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'piano' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Piano"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hobbies' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hobbies"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sports' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sports"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'playing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Playing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'football' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Football"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tennis' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tennis"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'guitar' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Guitar"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'piano' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Piano"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hobbies' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hobbies"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sports' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sports"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'playing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Playing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'football' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Football"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tennis' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tennis"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'guitar' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Guitar"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'piano' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Piano"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hobbies' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hobbies"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U32_FILLER_47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sports' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sports"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
       "duration_minutes": 20,
       "content": [
         {
-          "interaction_id": "A1_U32_B32_5_I1",
+          "interaction_id": "U32_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa el deporte:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit32/lesson5-task-1.mp3",
-          "transcript_template": "I [[play|juego]] ________ [[every|cada]] [[Saturday|sábado]].",
+          "transcript_template": "The [[football|]] is here.",
           "correct_answer": "football",
           "mastery_tag": "listening",
           "complexity": 2,
@@ -321,53 +1333,11 @@
           ]
         },
         {
-          "interaction_id": "A1_U32_B32_5_I2",
+          "interaction_id": "U32_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa el verbo:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit32/lesson5-task-2.mp3",
-          "transcript_template": "We ________ [[swimming|natación]] in [[summer|verano]].",
-          "correct_answer": "go",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "A1_U32_B32_5_I3",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
-          "audio_url": "/audio/courses/ingles-a1/unit32/lesson5-task-3.mp3",
-          "transcript_template": "She ________ [[yoga|yoga]] in the [[morning|mañana]].",
-          "correct_answer": "does",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "A1_U32_B32_5_I4",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa el hobby:",
-          "audio_url": "/audio/courses/ingles-a1/unit32/lesson5-task-4.mp3",
-          "transcript_template": "My [[hobby|pasatiempo]] is ________.",
-          "correct_answer": "painting",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "A1_U32_B32_5_I5",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
-          "audio_url": "/audio/courses/ingles-a1/unit32/lesson5-task-5.mp3",
-          "transcript_template": "Do [[you|tú]] [[play|jugar]] ________?",
+          "transcript_template": "The [[tennis|]] is here.",
           "correct_answer": "tennis",
           "mastery_tag": "listening",
           "complexity": 2,
@@ -377,12 +1347,12 @@
           ]
         },
         {
-          "interaction_id": "A1_U32_B32_5_I6",
+          "interaction_id": "U32_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
-          "audio_url": "/audio/courses/ingles-a1/unit32/lesson5-task-6.mp3",
-          "transcript_template": "[[They|Ellos]] [[love|aman]] ________ [[books|libros]].",
-          "correct_answer": "reading",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit32/lesson5-task-3.mp3",
+          "transcript_template": "The [[guitar|]] is here.",
+          "correct_answer": "guitar",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
@@ -391,40 +1361,88 @@
           ]
         },
         {
-          "interaction_id": "A1_U32_B32_5_I7",
+          "interaction_id": "U32_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
-          "audio_url": "/audio/courses/ingles-a1/unit32/lesson5-task-7.mp3",
-          "transcript_template": "[[I|Yo]] ________ [[basketball|baloncesto]] at [[school|la escuela]].",
-          "correct_answer": "play",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit32/lesson5-task-4.mp3",
+          "transcript_template": "The [[piano|]] is here.",
+          "correct_answer": "piano",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U32_B32_5_I8",
+          "interaction_id": "U32_L5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit32/lesson5-task-5.mp3",
+          "transcript_template": "The [[hobbies|]] is here.",
+          "correct_answer": "hobbies",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U32_L5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit32/lesson5-task-6.mp3",
+          "transcript_template": "The [[sports|]] is here.",
+          "correct_answer": "sports",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U32_L5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit32/lesson5-task-7.mp3",
+          "transcript_template": "The [[playing|]] is here.",
+          "correct_answer": "playing",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U32_L5_I8",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Football",
-          "instructions": "Practica la pronunciación de 'football'.",
+          "title": "Pronunciación: Sports & Hobbies",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "I [[play|juego]] [[football|fútbol]].",
-              "phonetic": "/aɪ pleɪ ˈfʊtbɔːl/",
+              "text": "I [[like|me gusta]] this [[football|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-8.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U32_B32_5_I8_Q1",
+              "id": "U32_L5_I8_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'oo' en 'football'?",
+              "prompt_es": "¿Cómo se pronuncia 'football'?",
               "options": [
-                { "id": "o1", "text": "Como una 'u' corta (/ʊ/)" },
-                { "id": "o2", "text": "Como una 'u' larga (/uː/)" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -438,26 +1456,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U32_B32_5_I9",
+          "interaction_id": "U32_L5_I9",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Swimming",
-          "instructions": "Practica la 'i' corta and el final '-ing'.",
+          "title": "Pronunciación: Sports & Hobbies",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[I|Yo]] [[love|amo]] [[swimming|la natación]].",
-              "phonetic": "/aɪ lʌv ˈswɪmɪŋ/",
+              "text": "I [[like|me gusta]] this [[tennis|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-9.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U32_B32_5_I9_Q1",
+              "id": "U32_L5_I9_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena el final '-ing'?",
+              "prompt_es": "¿Cómo se pronuncia 'tennis'?",
               "options": [
-                { "id": "o1", "text": "Como una 'n' nasal suave (/ŋ/)" },
-                { "id": "o2", "text": "Como una 'n' fuerte con 'g' marcada" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -471,26 +1495,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U32_B32_5_I10",
+          "interaction_id": "U32_L5_I10",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Tennis",
-          "instructions": "Practica la acentuación de 'tennis'.",
+          "title": "Pronunciación: Sports & Hobbies",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[He|Él]] [[plays|juega]] [[tennis|tenis]].",
-              "phonetic": "/hi pleɪz ˈtɛnɪs/",
+              "text": "I [[like|me gusta]] this [[guitar|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-10.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U32_B32_5_I10_Q1",
+              "id": "U32_L5_I10_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cuál es la sílaba tónica en 'tennis'?",
+              "prompt_es": "¿Cómo se pronuncia 'guitar'?",
               "options": [
-                { "id": "o1", "text": "La primera (TEN-nis)" },
-                { "id": "o2", "text": "La segunda (ten-NIS)" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -504,26 +1534,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U32_B32_5_I11",
+          "interaction_id": "U32_L5_I11",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Reading",
-          "instructions": "Practica la 'ee' larga (/iː/).",
+          "title": "Pronunciación: Sports & Hobbies",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[Reading|Leer]] is [[fun|divertido]].",
-              "phonetic": "/ˈriːdɪŋ ɪz fʌn/",
+              "text": "I [[like|me gusta]] this [[piano|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-11.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U32_B32_5_I11_Q1",
+              "id": "U32_L5_I11_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'ea' en 'reading'?",
+              "prompt_es": "¿Cómo se pronuncia 'piano'?",
               "options": [
-                { "id": "o1", "text": "Como una 'i' larga (/iː/)" },
-                { "id": "o2", "text": "Como una 'e' española" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -537,26 +1573,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U32_B32_5_I12",
+          "interaction_id": "U32_L5_I12",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Painting",
-          "instructions": "Practica el diptongo /eɪ/.",
+          "title": "Pronunciación: Sports & Hobbies",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[I|Yo]] [[like|me gusta]] [[painting|pintar]].",
-              "phonetic": "/aɪ laɪk ˈpeɪntɪŋ/",
+              "text": "I [[like|me gusta]] this [[hobbies|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-12.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U32_B32_5_I12_Q1",
+              "id": "U32_L5_I12_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'ai' en 'painting'?",
+              "prompt_es": "¿Cómo se pronuncia 'hobbies'?",
               "options": [
-                { "id": "o1", "text": "Como el diptongo 'ei' (/eɪ/)" },
-                { "id": "o2", "text": "Como una 'a' simple" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -570,26 +1612,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U32_B32_5_I13",
+          "interaction_id": "U32_L5_I13",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Sports",
-          "instructions": "Practica el sonido 'o' larga (/ɔː/).",
+          "title": "Pronunciación: Sports & Hobbies",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[He|Él]] [[likes|le gustan]] [[sports|los deportes]].",
-              "phonetic": "/hi laɪks spɔːts/",
+              "text": "I [[like|me gusta]] this [[sports|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-13.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U32_B32_5_I13_Q1",
+              "id": "U32_L5_I13_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'o' en 'sports'?",
+              "prompt_es": "¿Cómo se pronuncia 'sports'?",
               "options": [
-                { "id": "o1", "text": "Como una 'o' larga y abierta (/ɔː/)" },
-                { "id": "o2", "text": "Como una 'o' corta y cerrada" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -603,26 +1651,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U32_B32_5_I14",
+          "interaction_id": "U32_L5_I14",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Basketball",
-          "instructions": "Practica la palabra 'basketball'.",
+          "title": "Pronunciación: Sports & Hobbies",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[We|Nosotros]] [[play|jugamos]] [[basketball|baloncesto]].",
-              "phonetic": "/wi pleɪ ˈbɑːskɪtbɔːl/",
+              "text": "I [[like|me gusta]] this [[playing|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-14.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U32_B32_5_I14_Q1",
+              "id": "U32_L5_I14_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cuántas sílabas tiene 'basketball'?",
+              "prompt_es": "¿Cómo se pronuncia 'playing'?",
               "options": [
-                { "id": "o1", "text": "3 sílabas (BAS-ket-ball)" },
-                { "id": "o2", "text": "2 sílabas (BAS-ball)" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -636,26 +1690,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U32_B32_5_I15",
+          "interaction_id": "U32_L5_I15",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Hobbies",
-          "instructions": "Escucha and repite.",
+          "title": "Pronunciación: Sports & Hobbies",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[What|¿Cuál?]] is [[your|tu]] [[favorite|favorito]] [[hobby|pasatiempo]]?",
-              "phonetic": "/wɒt ɪz jɔː ˈfeɪvərɪt ˈhɒbi/",
+              "text": "I [[like|me gusta]] this [[football|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit32/lesson5-task-15.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U32_B32_5_I15_Q1",
+              "id": "U32_L5_I15_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'y' final en 'hobby'?",
+              "prompt_es": "¿Cómo se pronuncia 'football'?",
               "options": [
-                { "id": "o1", "text": "Como una 'i' corta (/i/)" },
-                { "id": "o2", "text": "Como una 'ai'" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

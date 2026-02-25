@@ -503,8 +503,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cuántas sílabas tiene 'clothes'?",
               "options": [
-                { "id": "o1", "text": "Una" },
-                { "id": "o2", "text": "Dos" }
+                {
+                  "id": "o1",
+                  "text": "Una"
+                },
+                {
+                  "id": "o2",
+                  "text": "Dos"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -536,8 +542,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'z' final?",
               "options": [
-                { "id": "o1", "text": "Vibrante como una abeja (/z/)" },
-                { "id": "o2", "text": "Sorda como un silbido (/s/)" }
+                {
+                  "id": "o1",
+                  "text": "Vibrante como una abeja (/z/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Sorda como un silbido (/s/)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -569,8 +581,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la vocal en 'shirt'?",
               "options": [
-                { "id": "o1", "text": "Como una 'e' profunda (/ɜː/)" },
-                { "id": "o2", "text": "Como una 'i' española" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'e' profunda (/ɜː/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'i' española"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -602,8 +620,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'ng' en 'fitting'?",
               "options": [
-                { "id": "o1", "text": "Nasal, sin pronunciar la 'g' fuerte" },
-                { "id": "o2", "text": "Como 'ng' española" }
+                {
+                  "id": "o1",
+                  "text": "Nasal, sin pronunciar la 'g' fuerte"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como 'ng' española"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -635,8 +659,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Dónde recae el acento en 'customer'?",
               "options": [
-                { "id": "o1", "text": "En la primera sílaba (CUS-)" },
-                { "id": "o2", "text": "En la segunda sílaba" }
+                {
+                  "id": "o1",
+                  "text": "En la primera sílaba (CUS-)"
+                },
+                {
+                  "id": "o2",
+                  "text": "En la segunda sílaba"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -668,8 +698,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo se pronuncia 'receipt'?",
               "options": [
-                { "id": "o1", "text": "Ri-SIT (/rɪˈsiːt/)" },
-                { "id": "o2", "text": "Ri-SEPT" }
+                {
+                  "id": "o1",
+                  "text": "Ri-SIT (/rɪˈsiːt/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Ri-SEPT"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -701,8 +737,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'a' en 'small'?",
               "options": [
-                { "id": "o1", "text": "Como una 'o' larga (/ɔː/)" },
-                { "id": "o2", "text": "Como una 'a' española" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'o' larga (/ɔː/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'a' española"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -734,8 +776,1044 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cuántas sílabas tiene 'checkout'?",
               "options": [
-                { "id": "o1", "text": "Dos (check-out)" },
-                { "id": "o2", "text": "Una" }
+                {
+                  "id": "o1",
+                  "text": "Dos (check-out)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Una"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U55_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'shirt' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Shirt"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'jeans' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Jeans"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'size' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Size"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'price' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Price"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fitting room' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fitting room"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'try on' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Try on"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'expensive' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Expensive"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'shirt' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Shirt"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'jeans' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Jeans"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'size' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Size"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'price' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Price"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fitting room' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fitting room"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'try on' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Try on"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'expensive' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Expensive"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'shirt' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Shirt"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'jeans' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Jeans"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'size' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Size"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'price' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Price"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fitting room' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fitting room"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'try on' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Try on"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'expensive' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Expensive"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'shirt' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Shirt"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'jeans' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Jeans"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'size' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Size"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'price' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Price"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fitting room' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fitting room"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'try on' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Try on"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'expensive' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Expensive"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U55_FILLER_28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'shirt' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Shirt"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "U55_L5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit55/lesson5-task-1.mp3",
+          "transcript_template": "The [[shirt|]] is here.",
+          "correct_answer": "shirt",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U55_L5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit55/lesson5-task-2.mp3",
+          "transcript_template": "The [[jeans|]] is here.",
+          "correct_answer": "jeans",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U55_L5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit55/lesson5-task-3.mp3",
+          "transcript_template": "The [[size|]] is here.",
+          "correct_answer": "size",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U55_L5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit55/lesson5-task-4.mp3",
+          "transcript_template": "The [[price|]] is here.",
+          "correct_answer": "price",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U55_L5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit55/lesson5-task-5.mp3",
+          "transcript_template": "The [[fitting room|]] is here.",
+          "correct_answer": "fitting room",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U55_L5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit55/lesson5-task-6.mp3",
+          "transcript_template": "The [[try on|]] is here.",
+          "correct_answer": "try on",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U55_L5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit55/lesson5-task-7.mp3",
+          "transcript_template": "The [[expensive|]] is here.",
+          "correct_answer": "expensive",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U55_L5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Clothing Store",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[shirt|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U55_L5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'shirt'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U55_L5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Clothing Store",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[jeans|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U55_L5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'jeans'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U55_L5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Clothing Store",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[size|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U55_L5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'size'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U55_L5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Clothing Store",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[price|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U55_L5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'price'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U55_L5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Clothing Store",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[fitting room|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U55_L5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'fitting room'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U55_L5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Clothing Store",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[try on|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U55_L5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'try on'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U55_L5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Clothing Store",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[expensive|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U55_L5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'expensive'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U55_L5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Clothing Store",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[shirt|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U55_L5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'shirt'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

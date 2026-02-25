@@ -449,8 +449,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿La 'h' inicial en 'holidays' es muda como en español?",
               "options": [
-                { "id": "o1", "text": "No, es aspirada (suena como un suspiro suave)" },
-                { "id": "o2", "text": "Sí, es igual" }
+                {
+                  "id": "o1",
+                  "text": "No, es aspirada (suena como un suspiro suave)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Sí, es igual"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -482,8 +488,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'ea' en 'beach'?",
               "options": [
-                { "id": "o1", "text": "Como una 'i' larga y tensa (/iː/)" },
-                { "id": "o2", "text": "Como una 'e' abierta" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'i' larga y tensa (/iː/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'e' abierta"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -515,8 +527,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'igh' en 'sight'?",
               "options": [
-                { "id": "o1", "text": "Como /aɪ/ (ai)" },
-                { "id": "o2", "text": "Como una 'i' simple" }
+                {
+                  "id": "o1",
+                  "text": "Como /aɪ/ (ai)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'i' simple"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -548,8 +566,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la primera 'i' en 'hiking'?",
               "options": [
-                { "id": "o1", "text": "Como /aɪ/ (ai)" },
-                { "id": "o2", "text": "Como una 'i' corta" }
+                {
+                  "id": "o1",
+                  "text": "Como /aɪ/ (ai)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'i' corta"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -581,8 +605,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Se pronuncia la 't' en 'postcard'?",
               "options": [
-                { "id": "o1", "text": "A menudo es muda o muy suave" },
-                { "id": "o2", "text": "Siempre suena fuerte" }
+                {
+                  "id": "o1",
+                  "text": "A menudo es muda o muy suave"
+                },
+                {
+                  "id": "o2",
+                  "text": "Siempre suena fuerte"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -614,8 +644,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'o' en 'love'?",
               "options": [
-                { "id": "o1", "text": "Como una 'a' corta y relajada (/ʌ/)" },
-                { "id": "o2", "text": "Como una 'o' española" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'a' corta y relajada (/ʌ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'o' española"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -647,8 +683,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'a' en 'hate'?",
               "options": [
-                { "id": "o1", "text": "Como /eɪ/ (ei)" },
-                { "id": "o2", "text": "Como una 'a' simple" }
+                {
+                  "id": "o1",
+                  "text": "Como /eɪ/ (ei)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'a' simple"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -680,8 +722,1065 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'oo' en 'food'?",
               "options": [
-                { "id": "o1", "text": "Como una 'u' larga (/uː/)" },
-                { "id": "o2", "text": "Como una 'u' corta" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'u' larga (/uː/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'u' corta"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U47_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'holiday' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Holiday"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vacation' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Vacation"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'beach' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Beach"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mountains' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Mountains"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sightseeing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sightseeing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'relax' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Relax"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'photos' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Photos"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'holiday' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Holiday"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vacation' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Vacation"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'beach' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Beach"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mountains' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Mountains"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sightseeing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sightseeing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'relax' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Relax"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'photos' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Photos"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'holiday' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Holiday"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vacation' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Vacation"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'beach' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Beach"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mountains' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Mountains"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sightseeing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sightseeing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'relax' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Relax"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'photos' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Photos"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'holiday' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Holiday"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vacation' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Vacation"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'beach' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Beach"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mountains' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Mountains"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sightseeing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sightseeing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'relax' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Relax"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'photos' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Photos"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'holiday' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Holiday"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U47_FILLER_29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vacation' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Vacation"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "U47_L5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit47/lesson5-task-1.mp3",
+          "transcript_template": "The [[holiday|]] is here.",
+          "correct_answer": "holiday",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U47_L5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit47/lesson5-task-2.mp3",
+          "transcript_template": "The [[vacation|]] is here.",
+          "correct_answer": "vacation",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U47_L5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit47/lesson5-task-3.mp3",
+          "transcript_template": "The [[beach|]] is here.",
+          "correct_answer": "beach",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U47_L5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit47/lesson5-task-4.mp3",
+          "transcript_template": "The [[mountains|]] is here.",
+          "correct_answer": "mountains",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U47_L5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit47/lesson5-task-5.mp3",
+          "transcript_template": "The [[sightseeing|]] is here.",
+          "correct_answer": "sightseeing",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U47_L5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit47/lesson5-task-6.mp3",
+          "transcript_template": "The [[relax|]] is here.",
+          "correct_answer": "relax",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U47_L5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit47/lesson5-task-7.mp3",
+          "transcript_template": "The [[photos|]] is here.",
+          "correct_answer": "photos",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U47_L5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Holidays & Vacation",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[holiday|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U47_L5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'holiday'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U47_L5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Holidays & Vacation",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[vacation|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U47_L5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'vacation'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U47_L5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Holidays & Vacation",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[beach|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U47_L5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'beach'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U47_L5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Holidays & Vacation",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[mountains|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U47_L5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'mountains'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U47_L5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Holidays & Vacation",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[sightseeing|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U47_L5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'sightseeing'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U47_L5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Holidays & Vacation",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[relax|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U47_L5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'relax'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U47_L5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Holidays & Vacation",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[photos|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U47_L5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'photos'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U47_L5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Holidays & Vacation",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[holiday|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U47_L5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'holiday'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

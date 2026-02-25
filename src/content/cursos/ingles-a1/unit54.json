@@ -502,8 +502,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'u' en 'much'?",
               "options": [
-                { "id": "o1", "text": "Como una 'a' corta (/ʌ/)" },
-                { "id": "o2", "text": "Como una 'u' española" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'a' corta (/ʌ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'u' española"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -535,8 +541,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'a' en 'many'?",
               "options": [
-                { "id": "o1", "text": "Como una 'e' (/ɛ/)" },
-                { "id": "o2", "text": "Como una 'a'" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'e' (/ɛ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'a'"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -568,8 +580,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suenan las 'tt' en inglés americano?",
               "options": [
-                { "id": "o1", "text": "Como una 'd' suave (/ɾ/)" },
-                { "id": "o2", "text": "Como una 't' fuerte" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'd' suave (/ɾ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 't' fuerte"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -601,8 +619,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo se pronuncia 'few'?",
               "options": [
-                { "id": "o1", "text": "Como 'fiu' (/fjuː/)" },
-                { "id": "o2", "text": "Como 'feu'" }
+                {
+                  "id": "o1",
+                  "text": "Como 'fiu' (/fjuː/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como 'feu'"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -634,8 +658,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Se pronuncia la 'o' en 'people'?",
               "options": [
-                { "id": "o1", "text": "No" },
-                { "id": "o2", "text": "Sí" }
+                {
+                  "id": "o1",
+                  "text": "No"
+                },
+                {
+                  "id": "o2",
+                  "text": "Sí"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -667,8 +697,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la terminación '-ey' en 'money'?",
               "options": [
-                { "id": "o1", "text": "Como una 'i' corta (/i/)" },
-                { "id": "o2", "text": "Como 'ei'" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'i' corta (/i/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como 'ei'"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -700,8 +736,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Se pronuncia la 'i' en 'friends'?",
               "options": [
-                { "id": "o1", "text": "No, es silenciosa" },
-                { "id": "o2", "text": "Sí" }
+                {
+                  "id": "o1",
+                  "text": "No, es silenciosa"
+                },
+                {
+                  "id": "o2",
+                  "text": "Sí"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -733,8 +775,1065 @@
               "type": "multiple_choice",
               "prompt_es": "¿Se pronuncia la 'e' final en 'time'?",
               "options": [
-                { "id": "o1", "text": "No" },
-                { "id": "o2", "text": "Sí" }
+                {
+                  "id": "o1",
+                  "text": "No"
+                },
+                {
+                  "id": "o2",
+                  "text": "Sí"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U54_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'much' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Much"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'many' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Many"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'how much' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "How much"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'how many' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "How many"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'money' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Money"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'friends' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Friends"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'time' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Time"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'much' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Much"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'many' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Many"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'how much' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "How much"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'how many' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "How many"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'money' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Money"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'friends' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Friends"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'time' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Time"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'much' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Much"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'many' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Many"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'how much' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "How much"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'how many' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "How many"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'money' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Money"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'friends' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Friends"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'time' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Time"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'much' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Much"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'many' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Many"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'how much' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "How much"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'how many' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "How many"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'money' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Money"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'friends' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Friends"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'time' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Time"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'much' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Much"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U54_FILLER_29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'many' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Many"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "U54_L5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-1.mp3",
+          "transcript_template": "The [[much|]] is here.",
+          "correct_answer": "much",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U54_L5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-2.mp3",
+          "transcript_template": "The [[many|]] is here.",
+          "correct_answer": "many",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U54_L5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-3.mp3",
+          "transcript_template": "The [[how much|]] is here.",
+          "correct_answer": "how much",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U54_L5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-4.mp3",
+          "transcript_template": "The [[how many|]] is here.",
+          "correct_answer": "how many",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U54_L5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-5.mp3",
+          "transcript_template": "The [[money|]] is here.",
+          "correct_answer": "money",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U54_L5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-6.mp3",
+          "transcript_template": "The [[friends|]] is here.",
+          "correct_answer": "friends",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U54_L5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-7.mp3",
+          "transcript_template": "The [[time|]] is here.",
+          "correct_answer": "time",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U54_L5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Much & Many",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[much|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U54_L5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'much'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U54_L5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Much & Many",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[many|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U54_L5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'many'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U54_L5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Much & Many",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[how much|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U54_L5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'how much'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U54_L5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Much & Many",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[how many|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U54_L5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'how many'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U54_L5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Much & Many",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[money|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U54_L5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'money'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U54_L5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Much & Many",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[friends|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U54_L5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'friends'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U54_L5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Much & Many",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[time|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U54_L5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'time'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U54_L5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Much & Many",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[much|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U54_L5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'much'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

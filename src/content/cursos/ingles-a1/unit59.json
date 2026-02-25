@@ -514,8 +514,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'ea' en 'reading'?",
               "options": [
-                { "id": "o1", "text": "Como una 'i' larga (/iː/)" },
-                { "id": "o2", "text": "Como una 'e' corta" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'i' larga (/iː/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'e' corta"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -547,8 +553,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'a' en 'dancing'?",
               "options": [
-                { "id": "o1", "text": "Como /ɑː/ (ah larga)" },
-                { "id": "o2", "text": "Como una 'e' corta" }
+                {
+                  "id": "o1",
+                  "text": "Como /ɑː/ (ah larga)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'e' corta"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -580,8 +592,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'i' en 'swimming'?",
               "options": [
-                { "id": "o1", "text": "Corta (/ɪ/)" },
-                { "id": "o2", "text": "Larga (/iː/)" }
+                {
+                  "id": "o1",
+                  "text": "Corta (/ɪ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Larga (/iː/)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -613,8 +631,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'h' inicial?",
               "options": [
-                { "id": "o1", "text": "Aspirada (como un suspiro)" },
-                { "id": "o2", "text": "Como una 'j' fuerte española" }
+                {
+                  "id": "o1",
+                  "text": "Aspirada (como un suspiro)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'j' fuerte española"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -646,8 +670,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'a' en 'spare'?",
               "options": [
-                { "id": "o1", "text": "Como /eə/ (e-a suave)" },
-                { "id": "o2", "text": "Como una 'a' fuerte" }
+                {
+                  "id": "o1",
+                  "text": "Como /eə/ (e-a suave)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'a' fuerte"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -679,8 +709,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Dónde recae el acento en 'movie'?",
               "options": [
-                { "id": "o1", "text": "En la primera sílaba (MO-vie)" },
-                { "id": "o2", "text": "En la segunda sílaba" }
+                {
+                  "id": "o1",
+                  "text": "En la primera sílaba (MO-vie)"
+                },
+                {
+                  "id": "o2",
+                  "text": "En la segunda sílaba"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -712,8 +748,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'oo' en 'cooking'?",
               "options": [
-                { "id": "o1", "text": "Como una 'u' corta (/ʊ/)" },
-                { "id": "o2", "text": "Como una 'o' larga" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'u' corta (/ʊ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'o' larga"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -745,8 +787,1044 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cuántas sílabas se suelen pronunciar en 'preferences'?",
               "options": [
-                { "id": "o1", "text": "Tres (pref-ren-ces)" },
-                { "id": "o2", "text": "Cuatro (pre-fer-en-ces)" }
+                {
+                  "id": "o1",
+                  "text": "Tres (pref-ren-ces)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Cuatro (pre-fer-en-ces)"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U59_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pounds' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Pounds"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dollars' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Dollars"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'euros' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Euros"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cash' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cash"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'card' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Card"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'change' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Change"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'price' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Price"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pounds' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Pounds"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dollars' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Dollars"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'euros' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Euros"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cash' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cash"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'card' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Card"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'change' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Change"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'price' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Price"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pounds' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Pounds"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dollars' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Dollars"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'euros' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Euros"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cash' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cash"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'card' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Card"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'change' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Change"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'price' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Price"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pounds' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Pounds"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dollars' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Dollars"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'euros' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Euros"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cash' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cash"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'card' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Card"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'change' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Change"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'price' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Price"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U59_FILLER_28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'pounds' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Pounds"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "U59_L5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-1.mp3",
+          "transcript_template": "The [[pounds|]] is here.",
+          "correct_answer": "pounds",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U59_L5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-2.mp3",
+          "transcript_template": "The [[dollars|]] is here.",
+          "correct_answer": "dollars",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U59_L5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-3.mp3",
+          "transcript_template": "The [[euros|]] is here.",
+          "correct_answer": "euros",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U59_L5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-4.mp3",
+          "transcript_template": "The [[cash|]] is here.",
+          "correct_answer": "cash",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U59_L5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-5.mp3",
+          "transcript_template": "The [[card|]] is here.",
+          "correct_answer": "card",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U59_L5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-6.mp3",
+          "transcript_template": "The [[change|]] is here.",
+          "correct_answer": "change",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U59_L5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-7.mp3",
+          "transcript_template": "The [[price|]] is here.",
+          "correct_answer": "price",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U59_L5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Money & Currency",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[pounds|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U59_L5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'pounds'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U59_L5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Money & Currency",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[dollars|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U59_L5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'dollars'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U59_L5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Money & Currency",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[euros|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U59_L5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'euros'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U59_L5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Money & Currency",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[cash|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U59_L5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'cash'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U59_L5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Money & Currency",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[card|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U59_L5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'card'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U59_L5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Money & Currency",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[change|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U59_L5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'change'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U59_L5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Money & Currency",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[price|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U59_L5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'price'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U59_L5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Money & Currency",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[pounds|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U59_L5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'pounds'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

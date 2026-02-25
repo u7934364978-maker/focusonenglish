@@ -1,0 +1,62 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic: © 2026 Focus English
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - strong [ref=e5]: "Modo Preview:"
+      - text: Viendo ingles-a1 / unit30. No se guardará el progreso.
+    - generic [ref=e6]:
+      - banner [ref=e7]:
+        - button [ref=e8] [cursor=pointer]:
+          - img [ref=e9]
+        - generic [ref=e14]:
+          - generic [ref=e15]: 312 / 319 ejercicios
+          - generic [ref=e16]: 97%
+        - generic [ref=e17]:
+          - img [ref=e18]
+          - generic [ref=e20]: Unidad
+      - main [ref=e21]:
+        - generic [ref=e24]:
+          - generic [ref=e26]:
+            - generic [ref=e27]:
+              - img [ref=e29]
+              - generic [ref=e32]:
+                - heading "Speaking Practice" [level=2] [ref=e33]
+                - paragraph [ref=e34]: "Intento #1 • A1"
+            - button "Escuchar Modelo" [ref=e36] [cursor=pointer]:
+              - img [ref=e37]
+              - generic [ref=e39]: Escuchar Modelo
+          - generic [ref=e40]:
+            - generic [ref=e42]:
+              - generic [ref=e43]:
+                - img [ref=e44]
+                - generic [ref=e48]:
+                  - heading "Tu tarea:" [level=3] [ref=e49]
+                  - paragraph [ref=e50]: Escucha y repite la frase enfocándote en la entonación.
+              - generic [ref=e51]:
+                - heading "Frase a repetir:" [level=4] [ref=e52]
+                - paragraph [ref=e53]: The [[kitchen|cocina]] is [[very|muy]] [[bright|luminosa]].
+            - generic [ref=e57]:
+              - generic [ref=e58]:
+                - img [ref=e60]
+                - heading "Permiso de Micrófono Requerido" [level=3] [ref=e63]
+                - paragraph [ref=e64]: Para completar este ejercicio de speaking, necesitamos acceso a tu micrófono para grabar tu respuesta.
+              - generic [ref=e65]:
+                - paragraph [ref=e66]:
+                  - strong [ref=e67]: "Tu privacidad es importante:"
+                - list [ref=e68]:
+                  - listitem [ref=e69]: Solo grabamos cuando presionas "Grabar"
+                  - listitem [ref=e70]: El audio se procesa de forma segura
+                  - listitem [ref=e71]: Puedes revocar el permiso en cualquier momento
+                  - listitem [ref=e72]: No compartimos tu audio con terceros
+              - button "Permitir Micrófono" [ref=e73] [cursor=pointer]:
+                - img [ref=e74]
+                - text: Permitir Micrófono
+              - paragraph [ref=e77]: Al hacer clic, tu navegador te pedirá permiso para usar el micrófono.
+      - contentinfo [ref=e78]:
+        - generic [ref=e79]:
+          - button "SALIR" [ref=e80] [cursor=pointer]
+          - button "SIGUIENTE" [ref=e81] [cursor=pointer]
+```

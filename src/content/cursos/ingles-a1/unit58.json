@@ -488,8 +488,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'ea' en 'breakfast'?",
               "options": [
-                { "id": "o1", "text": "Como una 'e' corta (/ɛ/)" },
-                { "id": "o2", "text": "Como una 'i' larga" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'e' corta (/ɛ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'i' larga"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -521,8 +527,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Dónde recae el acento en 'routine'?",
               "options": [
-                { "id": "o1", "text": "En la segunda sílaba (rou-TINE)" },
-                { "id": "o2", "text": "En la primera sílaba" }
+                {
+                  "id": "o1",
+                  "text": "En la segunda sílaba (rou-TINE)"
+                },
+                {
+                  "id": "o2",
+                  "text": "En la primera sílaba"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -554,8 +566,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'sh' inicial?",
               "options": [
-                { "id": "o1", "text": "Como pidiendo silencio (shhh)" },
-                { "id": "o2", "text": "Como la 'ch' española" }
+                {
+                  "id": "o1",
+                  "text": "Como pidiendo silencio (shhh)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como la 'ch' española"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -587,8 +605,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'i' en 'dinner'?",
               "options": [
-                { "id": "o1", "text": "Corta (/ɪ/)" },
-                { "id": "o2", "text": "Como 'ai' (/aɪ/)" }
+                {
+                  "id": "o1",
+                  "text": "Corta (/ɪ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como 'ai' (/aɪ/)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -620,8 +644,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'o' inicial en 'o'clock'?",
               "options": [
-                { "id": "o1", "text": "Débil (schwa /ə/)" },
-                { "id": "o2", "text": "Fuerte como una 'o' española" }
+                {
+                  "id": "o1",
+                  "text": "Débil (schwa /ə/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Fuerte como una 'o' española"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -653,8 +683,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'sh' final?",
               "options": [
-                { "id": "o1", "text": "Como /ʃ/ (shhh)" },
-                { "id": "o2", "text": "Como /tʃ/ (ch)" }
+                {
+                  "id": "o1",
+                  "text": "Como /ʃ/ (shhh)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como /tʃ/ (ch)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -686,8 +722,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cuántas sílabas se suelen pronunciar en 'evening'?",
               "options": [
-                { "id": "o1", "text": "Dos (ev-ning)" },
-                { "id": "o2", "text": "Tres (e-ve-ning)" }
+                {
+                  "id": "o1",
+                  "text": "Dos (ev-ning)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Tres (e-ve-ning)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -719,8 +761,1065 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'h' inicial?",
               "options": [
-                { "id": "o1", "text": "Aspirada" },
-                { "id": "o2", "text": "Muda" }
+                {
+                  "id": "o1",
+                  "text": "Aspirada"
+                },
+                {
+                  "id": "o2",
+                  "text": "Muda"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U58_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'headache' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Headache"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cold' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cold"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'doctor' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Doctor"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'medicine' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Medicine"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sore throat' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sore throat"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fever' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fever"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'better' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Better"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'headache' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Headache"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cold' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cold"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'doctor' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Doctor"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'medicine' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Medicine"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sore throat' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sore throat"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fever' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fever"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'better' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Better"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'headache' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Headache"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cold' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cold"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'doctor' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Doctor"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'medicine' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Medicine"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sore throat' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sore throat"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fever' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fever"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'better' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Better"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'headache' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Headache"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cold' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cold"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'doctor' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Doctor"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'medicine' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Medicine"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sore throat' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sore throat"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fever' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fever"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'better' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Better"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'headache' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Headache"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U58_FILLER_29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cold' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cold"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "U58_L5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit58/lesson5-task-1.mp3",
+          "transcript_template": "The [[headache|]] is here.",
+          "correct_answer": "headache",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U58_L5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit58/lesson5-task-2.mp3",
+          "transcript_template": "The [[cold|]] is here.",
+          "correct_answer": "cold",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U58_L5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit58/lesson5-task-3.mp3",
+          "transcript_template": "The [[doctor|]] is here.",
+          "correct_answer": "doctor",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U58_L5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit58/lesson5-task-4.mp3",
+          "transcript_template": "The [[medicine|]] is here.",
+          "correct_answer": "medicine",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U58_L5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit58/lesson5-task-5.mp3",
+          "transcript_template": "The [[sore throat|]] is here.",
+          "correct_answer": "sore throat",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U58_L5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit58/lesson5-task-6.mp3",
+          "transcript_template": "The [[fever|]] is here.",
+          "correct_answer": "fever",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U58_L5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit58/lesson5-task-7.mp3",
+          "transcript_template": "The [[better|]] is here.",
+          "correct_answer": "better",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U58_L5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Health & Illness",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[headache|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U58_L5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'headache'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U58_L5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Health & Illness",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[cold|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U58_L5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'cold'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U58_L5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Health & Illness",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[doctor|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U58_L5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'doctor'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U58_L5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Health & Illness",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[medicine|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U58_L5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'medicine'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U58_L5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Health & Illness",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[sore throat|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U58_L5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'sore throat'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U58_L5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Health & Illness",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[fever|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U58_L5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'fever'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U58_L5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Health & Illness",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[better|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U58_L5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'better'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U58_L5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Health & Illness",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[headache|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U58_L5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'headache'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

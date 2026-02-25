@@ -444,8 +444,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'v' en 'visit'?",
               "options": [
-                { "id": "o1", "text": "Vibrante, con los dientes superiores en el labio inferior (/v/)" },
-                { "id": "o2", "text": "Igual que la 'b' española" }
+                {
+                  "id": "o1",
+                  "text": "Vibrante, con los dientes superiores en el labio inferior (/v/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Igual que la 'b' española"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -477,8 +483,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'ay' en 'stay'?",
               "options": [
-                { "id": "o1", "text": "Como una 'ei' (/eɪ/)" },
-                { "id": "o2", "text": "Como una 'a' simple" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'ei' (/eɪ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'a' simple"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -510,8 +522,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿La 'l' en 'travel' es clara o oscura?",
               "options": [
-                { "id": "o1", "text": "Oscura (Dark L)" },
-                { "id": "o2", "text": "Igual que en español" }
+                {
+                  "id": "o1",
+                  "text": "Oscura (Dark L)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Igual que en español"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -543,8 +561,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Dónde recae el acento en 'arrive'?",
               "options": [
-                { "id": "o1", "text": "En la segunda sílaba (ar-RIVE)" },
-                { "id": "o2", "text": "En la primera sílaba (AR-rive)" }
+                {
+                  "id": "o1",
+                  "text": "En la segunda sílaba (ar-RIVE)"
+                },
+                {
+                  "id": "o2",
+                  "text": "En la primera sílaba (AR-rive)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -576,8 +600,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'ph' en 'photo'?",
               "options": [
-                { "id": "o1", "text": "Como una 'f' (/f/)" },
-                { "id": "o2", "text": "Como una 'p'" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'f' (/f/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'p'"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -609,8 +639,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Dónde recae el acento principal en 'souvenir'?",
               "options": [
-                { "id": "o1", "text": "En la última sílaba (-NIR)" },
-                { "id": "o2", "text": "En la primera sílaba (SOU-)" }
+                {
+                  "id": "o1",
+                  "text": "En la última sílaba (-NIR)"
+                },
+                {
+                  "id": "o2",
+                  "text": "En la primera sílaba (SOU-)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -642,8 +678,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'j' en 'enjoy'?",
               "options": [
-                { "id": "o1", "text": "Como /dʒ/ (ll o y fuerte)" },
-                { "id": "o2", "text": "Como la 'j' española" }
+                {
+                  "id": "o1",
+                  "text": "Como /dʒ/ (ll o y fuerte)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como la 'j' española"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -675,8 +717,1065 @@
               "type": "multiple_choice",
               "prompt_es": "¿Dónde recae el acento en 'hotel'?",
               "options": [
-                { "id": "o1", "text": "En la segunda sílaba (ho-TEL)" },
-                { "id": "o2", "text": "En la primera sílaba (HO-tel)" }
+                {
+                  "id": "o1",
+                  "text": "En la segunda sílaba (ho-TEL)"
+                },
+                {
+                  "id": "o2",
+                  "text": "En la primera sílaba (HO-tel)"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U43_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'go' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Go"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'stay' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Stay"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'visit' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Visit"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'arrive' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Arrive"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'depart' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Depart"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'travel' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Travel"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'book' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Book"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'go' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Go"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'stay' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Stay"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'visit' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Visit"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'arrive' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Arrive"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'depart' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Depart"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'travel' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Travel"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'book' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Book"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'go' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Go"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'stay' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Stay"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'visit' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Visit"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'arrive' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Arrive"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'depart' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Depart"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'travel' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Travel"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'book' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Book"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'go' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Go"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'stay' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Stay"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'visit' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Visit"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'arrive' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Arrive"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'depart' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Depart"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'travel' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Travel"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'book' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Book"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'go' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Go"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U43_FILLER_29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'stay' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Stay"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "U43_L5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit43/lesson5-task-1.mp3",
+          "transcript_template": "The [[go|]] is here.",
+          "correct_answer": "go",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U43_L5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit43/lesson5-task-2.mp3",
+          "transcript_template": "The [[stay|]] is here.",
+          "correct_answer": "stay",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U43_L5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit43/lesson5-task-3.mp3",
+          "transcript_template": "The [[visit|]] is here.",
+          "correct_answer": "visit",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U43_L5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit43/lesson5-task-4.mp3",
+          "transcript_template": "The [[arrive|]] is here.",
+          "correct_answer": "arrive",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U43_L5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit43/lesson5-task-5.mp3",
+          "transcript_template": "The [[depart|]] is here.",
+          "correct_answer": "depart",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U43_L5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit43/lesson5-task-6.mp3",
+          "transcript_template": "The [[travel|]] is here.",
+          "correct_answer": "travel",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U43_L5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit43/lesson5-task-7.mp3",
+          "transcript_template": "The [[book|]] is here.",
+          "correct_answer": "book",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U43_L5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Travel Verbs",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[go|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U43_L5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'go'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U43_L5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Travel Verbs",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[stay|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U43_L5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'stay'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U43_L5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Travel Verbs",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[visit|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U43_L5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'visit'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U43_L5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Travel Verbs",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[arrive|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U43_L5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'arrive'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U43_L5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Travel Verbs",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[depart|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U43_L5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'depart'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U43_L5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Travel Verbs",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[travel|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U43_L5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'travel'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U43_L5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Travel Verbs",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[book|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U43_L5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'book'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U43_L5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Travel Verbs",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[go|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U43_L5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'go'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

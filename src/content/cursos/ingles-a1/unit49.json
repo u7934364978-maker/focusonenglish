@@ -485,8 +485,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 's' final en 'suitcase'?",
               "options": [
-                { "id": "o1", "text": "Como un silbido sordo (/s/)" },
-                { "id": "o2", "text": "Como una 'z' vibrante" }
+                {
+                  "id": "o1",
+                  "text": "Como un silbido sordo (/s/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'z' vibrante"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -518,8 +524,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'ch' en 'charger'?",
               "options": [
-                { "id": "o1", "text": "Como una 'ch' española fuerte (/tʃ/)" },
-                { "id": "o2", "text": "Como una 'sh' suave" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'ch' española fuerte (/tʃ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'sh' suave"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -551,8 +563,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿La 'p' inicial en 'passport' expulsa aire?",
               "options": [
-                { "id": "o1", "text": "Sí (Aspirada)" },
-                { "id": "o2", "text": "No" }
+                {
+                  "id": "o1",
+                  "text": "Sí (Aspirada)"
+                },
+                {
+                  "id": "o2",
+                  "text": "No"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -584,8 +602,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Dónde recae el acento en 'adapter'?",
               "options": [
-                { "id": "o1", "text": "En la segunda sílaba (a-DAP-ter)" },
-                { "id": "o2", "text": "En la primera sílaba" }
+                {
+                  "id": "o1",
+                  "text": "En la segunda sílaba (a-DAP-ter)"
+                },
+                {
+                  "id": "o2",
+                  "text": "En la primera sílaba"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -617,8 +641,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cuántas sílabas tiene 'sunglasses'?",
               "options": [
-                { "id": "o1", "text": "Tres (SUN-glas-ses)" },
-                { "id": "o2", "text": "Dos" }
+                {
+                  "id": "o1",
+                  "text": "Tres (SUN-glas-ses)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Dos"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -650,8 +680,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'h' en 'heavy'?",
               "options": [
-                { "id": "o1", "text": "Como un suspiro suave (/h/)" },
-                { "id": "o2", "text": "Es muda" }
+                {
+                  "id": "o1",
+                  "text": "Como un suspiro suave (/h/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Es muda"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -683,8 +719,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena 'ight' en 'light'?",
               "options": [
-                { "id": "o1", "text": "Como /aɪt/ (ait)" },
-                { "id": "o2", "text": "Como una 'i' simple" }
+                {
+                  "id": "o1",
+                  "text": "Como /aɪt/ (ait)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'i' simple"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -716,8 +758,1044 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'a' en 'pack' y 'bag'?",
               "options": [
-                { "id": "o1", "text": "Como una 'a' abierta (/æ/)" },
-                { "id": "o2", "text": "Como una 'e' española" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'a' abierta (/æ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'e' española"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U49_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'suitcase' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Suitcase"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'clothes' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Clothes"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'toiletries' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Toiletries"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'camera' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Camera"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'charger' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Charger"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'shoes' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Shoes"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'map' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Map"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'suitcase' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Suitcase"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'clothes' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Clothes"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'toiletries' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Toiletries"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'camera' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Camera"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'charger' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Charger"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'shoes' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Shoes"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'map' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Map"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'suitcase' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Suitcase"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'clothes' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Clothes"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'toiletries' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Toiletries"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'camera' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Camera"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'charger' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Charger"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'shoes' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Shoes"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'map' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Map"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'suitcase' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Suitcase"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'clothes' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Clothes"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'toiletries' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Toiletries"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'camera' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Camera"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'charger' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Charger"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'shoes' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Shoes"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'map' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Map"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U49_FILLER_28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'suitcase' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Suitcase"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "U49_L5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit49/lesson5-task-1.mp3",
+          "transcript_template": "The [[suitcase|]] is here.",
+          "correct_answer": "suitcase",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U49_L5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit49/lesson5-task-2.mp3",
+          "transcript_template": "The [[clothes|]] is here.",
+          "correct_answer": "clothes",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U49_L5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit49/lesson5-task-3.mp3",
+          "transcript_template": "The [[toiletries|]] is here.",
+          "correct_answer": "toiletries",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U49_L5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit49/lesson5-task-4.mp3",
+          "transcript_template": "The [[camera|]] is here.",
+          "correct_answer": "camera",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U49_L5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit49/lesson5-task-5.mp3",
+          "transcript_template": "The [[charger|]] is here.",
+          "correct_answer": "charger",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U49_L5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit49/lesson5-task-6.mp3",
+          "transcript_template": "The [[shoes|]] is here.",
+          "correct_answer": "shoes",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U49_L5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit49/lesson5-task-7.mp3",
+          "transcript_template": "The [[map|]] is here.",
+          "correct_answer": "map",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U49_L5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Packing a Suitcase",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[suitcase|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U49_L5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'suitcase'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U49_L5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Packing a Suitcase",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[clothes|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U49_L5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'clothes'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U49_L5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Packing a Suitcase",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[toiletries|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U49_L5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'toiletries'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U49_L5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Packing a Suitcase",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[camera|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U49_L5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'camera'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U49_L5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Packing a Suitcase",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[charger|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U49_L5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'charger'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U49_L5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Packing a Suitcase",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[shoes|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U49_L5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'shoes'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U49_L5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Packing a Suitcase",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[map|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U49_L5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'map'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U49_L5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Packing a Suitcase",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[suitcase|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U49_L5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'suitcase'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

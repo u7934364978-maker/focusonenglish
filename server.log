@@ -1,6 +1,6 @@
 
 > focus-english@1.0.0 dev
-> next dev -p 3001 -H 127.0.0.1
+> next dev -p 5436 -p 5436
 
  ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
  We detected multiple lockfiles and selected the directory of /Users/lidia/Documents/focusonenglish/package-lock.json as the root directory.
@@ -10,22 +10,14 @@
    * /Users/lidia/Documents/focusonenglish/focusonenglish/package-lock.json
 
    ▲ Next.js 15.5.11
-   - Local:        http://127.0.0.1:3001
-   - Network:      http://127.0.0.1:3001
-   - Environments: .env
+   - Local:        http://localhost:5436
+   - Network:      http://84.88.130.112:5436
+   - Environments: .env.local, .env
 
  ✓ Starting...
  ⚠ Mismatching @next/swc version, detected: 15.5.7 while Next.js is on 15.5.11. Please ensure these match
- ✓ Ready in 1756ms
- ✓ Compiled /middleware in 173ms (164 modules)
- ○ Compiling / ...
- ✓ Compiled / in 970ms (855 modules)
-Supabase Browser Client Initializing with URL: https://nprqtjljoekoirlrjxlh.supabase.co
- GET / 200 in 1488ms
- ✓ Compiled in 6.5s (328 modules)
- ✓ Compiled in 691ms (328 modules)
- ✓ Compiled in 511ms (328 modules)
- ✓ Compiled in 687ms (328 modules)
- ✓ Compiled in 494ms (328 modules)
- ✓ Compiled in 820ms (328 modules)
- ✓ Compiled in 501ms (328 modules)
+ ✓ Ready in 1965ms
+ ○ Compiling /middleware ...
+ ✓ Compiled /middleware in 627ms (164 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (133kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+[?25h

@@ -21,6 +21,7 @@ import { getSolutionText, isLikelyEnglish, getEncouragingMessage } from "@/lib/p
 import { calculateStarRating } from "@/lib/progress";
 import WordSearchExercise from "../../exercises/WordSearchExercise";
 import CrosswordExercise from "../../exercises/CrosswordExercise";
+import EnhancedSpeakingExercise from "../../EnhancedSpeakingExercise";
 
 interface Props {
   unitData: UnitData;
@@ -743,8 +744,28 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
 
   const renderInteraction = (interaction: any) => {
     if (!interaction) return null;
+    console.log('Rendering interaction:', interaction.type, interaction.interaction_id);
     
     switch (interaction.type) {
+      case 'pronunciation':
+        return (
+          <div className="w-full max-w-4xl mx-auto space-y-6">
+            <EnhancedSpeakingExercise
+              question={{
+                id: interaction.interaction_id || interaction.id,
+                prompt: interaction.instructions || interaction.prompt_es || "Listen and repeat:",
+                expectedResponse: interaction.expectedResponse || (interaction.targetSentences?.[0]?.text) || interaction.correct_answer || interaction.transcript || "",
+                modelAudioUrl: interaction.audioUrl || interaction.audio_url || (interaction.targetSentences?.[0]?.audioUrl),
+                hints: interaction.evaluationCriteria || []
+              }}
+              level={unitData.level || "A1"}
+              onComplete={(evalResult) => {
+                handleCheckAnswer(evalResult.overallScore >= 70);
+              }}
+            />
+          </div>
+        );
+
       case 'audio_player':
         return (
           <div className="w-full max-w-2xl mx-auto space-y-8 flex flex-col items-center">

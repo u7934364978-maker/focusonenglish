@@ -451,6 +451,15 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
                 <span>Tiempo sugerido: <strong>{formatTime(question.timeLimit)}</strong></span>
               </div>
             )}
+
+            {question.expectedResponse && (
+              <div className="mt-6 p-6 bg-slate-50 rounded-xl border-2 border-slate-200">
+                <h4 className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-3">Frase a repetir:</h4>
+                <p className="text-2xl font-black text-slate-800 leading-tight">
+                  {question.expectedResponse}
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Target Words */}

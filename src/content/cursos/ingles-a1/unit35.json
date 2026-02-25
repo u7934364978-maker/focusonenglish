@@ -315,17 +315,1008 @@
       ]
     },
     {
-      "block_id": "B35_5",
-      "title": "Lesson 5: Listening & Pronunciation Practice",
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U35_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'watching TV' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Watching TV"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reading' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Reading"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'books' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Books"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'games' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Games"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'friends' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Friends"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cinema' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cinema"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'music' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Music"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'watching TV' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Watching TV"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reading' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Reading"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'books' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Books"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'games' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Games"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'friends' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Friends"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cinema' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cinema"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'music' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Music"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'watching TV' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Watching TV"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reading' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Reading"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'books' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Books"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'games' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Games"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'friends' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Friends"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cinema' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cinema"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'music' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Music"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'watching TV' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Watching TV"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reading' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Reading"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'books' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Books"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'games' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Games"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'friends' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Friends"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cinema' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cinema"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'music' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Music"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'watching TV' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Watching TV"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reading' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Reading"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'books' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Books"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'games' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Games"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'friends' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Friends"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cinema' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cinema"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'music' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Music"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'watching TV' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Watching TV"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reading' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Reading"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'books' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Books"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'games' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Games"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'friends' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Friends"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cinema' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cinema"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'music' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Music"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'watching TV' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Watching TV"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reading' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Reading"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'books' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Books"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'games' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Games"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U35_FILLER_46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'friends' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Friends"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
       "duration_minutes": 20,
       "content": [
         {
-          "interaction_id": "A1_U35_B35_5_I1",
+          "interaction_id": "U35_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la actividad:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit35/lesson5-task-1.mp3",
-          "transcript_template": "[[I|Yo]] ________ [[TV|la televisión]] [[in the evening|por la noche]].",
-          "correct_answer": "watch",
+          "transcript_template": "The [[watching TV|]] is here.",
+          "correct_answer": "watching TV",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
@@ -334,12 +1325,12 @@
           ]
         },
         {
-          "interaction_id": "A1_U35_B35_5_I2",
+          "interaction_id": "U35_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit35/lesson5-task-2.mp3",
-          "transcript_template": "[[He|Él]] [[plays|juega]] ________ [[all day|todo el día]].",
-          "correct_answer": "video games",
+          "transcript_template": "The [[reading|]] is here.",
+          "correct_answer": "reading",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
@@ -348,26 +1339,12 @@
           ]
         },
         {
-          "interaction_id": "A1_U35_B35_5_I3",
+          "interaction_id": "U35_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit35/lesson5-task-3.mp3",
-          "transcript_template": "[[We|Nosotros]] ________ [[for a walk|a dar un paseo]].",
-          "correct_answer": "go",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "A1_U35_B35_5_I4",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
-          "audio_url": "/audio/courses/ingles-a1/unit35/lesson5-task-4.mp3",
-          "transcript_template": "[[She|Ella]] [[uses|usa]] ________ [[after work|después del trabajo]].",
-          "correct_answer": "social media",
+          "transcript_template": "The [[books|]] is here.",
+          "correct_answer": "books",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
@@ -376,25 +1353,53 @@
           ]
         },
         {
-          "interaction_id": "A1_U35_B35_5_I5",
+          "interaction_id": "U35_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
-          "audio_url": "/audio/courses/ingles-a1/unit35/lesson5-task-5.mp3",
-          "transcript_template": "[[They|Ellos]] ________ [[shopping|de compras]] on [[Saturdays|sábados]].",
-          "correct_answer": "go",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit35/lesson5-task-4.mp3",
+          "transcript_template": "The [[games|]] is here.",
+          "correct_answer": "games",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U35_B35_5_I6",
+          "interaction_id": "U35_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit35/lesson5-task-5.mp3",
+          "transcript_template": "The [[friends|]] is here.",
+          "correct_answer": "friends",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U35_L5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit35/lesson5-task-6.mp3",
-          "transcript_template": "[[I|Yo]] [[listen to|escucho]] ________ [[in my bedroom|en mi habitación]].",
+          "transcript_template": "The [[cinema|]] is here.",
+          "correct_answer": "cinema",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U35_L5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit35/lesson5-task-7.mp3",
+          "transcript_template": "The [[music|]] is here.",
           "correct_answer": "music",
           "mastery_tag": "listening",
           "complexity": 2,
@@ -404,40 +1409,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U35_B35_5_I7",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
-          "audio_url": "/audio/courses/ingles-a1/unit35/lesson5-task-7.mp3",
-          "transcript_template": "[[Do|¿Haces?]] [[you|tú]] ________ [[books|libros]]?",
-          "correct_answer": "read",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "A1_U35_B35_5_I8",
+          "interaction_id": "U35_L5_I8",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: TV",
-          "instructions": "Practica la pronunciación de las letras T-V.",
+          "title": "Pronunciación: Free Time Activities",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[I|Yo]] [[watch|veo]] [[TV|la tele]].",
-              "phonetic": "/aɪ wɒtʃ ˌtiːˈviː/",
+              "text": "I [[like|me gusta]] this [[watching TV|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-8.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U35_B35_5_I8_Q1",
+              "id": "U35_L5_I8_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿En qué letra recae el acento principal al decir 'TV'?",
+              "prompt_es": "¿Cómo se pronuncia 'watching TV'?",
               "options": [
-                { "id": "o1", "text": "En la V (ti-VEE)" },
-                { "id": "o2", "text": "En la T (TEE-vi)" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -451,26 +1448,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U35_B35_5_I9",
+          "interaction_id": "U35_L5_I9",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Video games",
-          "instructions": "Practica la 'v' y el plural 'games'.",
+          "title": "Pronunciación: Free Time Activities",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[He|Él]] [[likes|le gustan]] [[video games|los videojuegos]].",
-              "phonetic": "/hi laɪks ˈvɪdiəʊ ɡeɪmz/",
+              "text": "I [[like|me gusta]] this [[reading|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-9.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U35_B35_5_I9_Q1",
+              "id": "U35_L5_I9_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 's' final en 'games'?",
+              "prompt_es": "¿Cómo se pronuncia 'reading'?",
               "options": [
-                { "id": "o1", "text": "Como una 'z' vibrante (/z/)" },
-                { "id": "o2", "text": "Como una 's' simple" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -484,26 +1487,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U35_B35_5_I10",
+          "interaction_id": "U35_L5_I10",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Social media",
-          "instructions": "Practica el sonido 'sh' (/ʃ/) en 'social'.",
+          "title": "Pronunciación: Free Time Activities",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[Use|Usa]] [[social media|las redes sociales]].",
-              "phonetic": "/juːz ˈsəʊʃl ˈmiːdiə/",
+              "text": "I [[like|me gusta]] this [[books|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-10.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U35_B35_5_I10_Q1",
+              "id": "U35_L5_I10_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'c' en 'social'?",
+              "prompt_es": "¿Cómo se pronuncia 'books'?",
               "options": [
-                { "id": "o1", "text": "Como 'sh' (/ʃ/)" },
-                { "id": "o2", "text": "Como una 's' simple" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -517,26 +1526,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U35_B35_5_I11",
+          "interaction_id": "U35_L5_I11",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Walk",
-          "instructions": "La 'l' es muda.",
+          "title": "Pronunciación: Free Time Activities",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[Go|Ve]] [[for a walk|a dar un paseo]].",
-              "phonetic": "/ɡəʊ fər ə wɔːk/",
+              "text": "I [[like|me gusta]] this [[games|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-11.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U35_B35_5_I11_Q1",
+              "id": "U35_L5_I11_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Se pronuncia la letra 'l' en 'walk'?",
+              "prompt_es": "¿Cómo se pronuncia 'games'?",
               "options": [
-                { "id": "o1", "text": "No, es muda" },
-                { "id": "o2", "text": "Sí, suena suave" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -550,26 +1565,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U35_B35_5_I12",
+          "interaction_id": "U35_L5_I12",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Music",
-          "instructions": "Practica la acentuación.",
+          "title": "Pronunciación: Free Time Activities",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[Listen to|Escucha]] [[music|música]].",
-              "phonetic": "/ˈlɪsn tə ˈmjuːzɪk/",
+              "text": "I [[like|me gusta]] this [[friends|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-12.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U35_B35_5_I12_Q1",
+              "id": "U35_L5_I12_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cuál es la sílaba tónica en 'music'?",
+              "prompt_es": "¿Cómo se pronuncia 'friends'?",
               "options": [
-                { "id": "o1", "text": "La primera (MU-sic)" },
-                { "id": "o2", "text": "La segunda (mu-SIC)" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -583,26 +1604,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U35_B35_5_I13",
+          "interaction_id": "U35_L5_I13",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Read",
-          "instructions": "Practica la 'ee' larga (/iː/).",
+          "title": "Pronunciación: Free Time Activities",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[I|Yo]] [[read|leo]] [[every night|cada noche]].",
-              "phonetic": "/aɪ riːd ˈɛvri naɪt/",
+              "text": "I [[like|me gusta]] this [[cinema|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-13.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U35_B35_5_I13_Q1",
+              "id": "U35_L5_I13_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'ea' en 'read'?",
+              "prompt_es": "¿Cómo se pronuncia 'cinema'?",
               "options": [
-                { "id": "o1", "text": "Como una 'i' larga (/iː/)" },
-                { "id": "o2", "text": "Como una 'e' española" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -616,26 +1643,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U35_B35_5_I14",
+          "interaction_id": "U35_L5_I14",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Shopping",
-          "instructions": "Practica el sonido 'sh' (/ʃ/) y la 'o' corta (/ɒ/).",
+          "title": "Pronunciación: Free Time Activities",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[They|Ellos]] [[go|van]] [[shopping|de compras]].",
-              "phonetic": "/ðeɪ ɡəʊ ˈʃɒpɪŋ/",
+              "text": "I [[like|me gusta]] this [[music|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-14.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U35_B35_5_I14_Q1",
+              "id": "U35_L5_I14_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'sh' inicial en 'shopping'?",
+              "prompt_es": "¿Cómo se pronuncia 'music'?",
               "options": [
-                { "id": "o1", "text": "Como pidiendo silencio (/ʃ/)" },
-                { "id": "o2", "text": "Como una 's' simple" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -649,26 +1682,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U35_B35_5_I15",
+          "interaction_id": "U35_L5_I15",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Resumen",
-          "instructions": "Escucha y repite.",
+          "title": "Pronunciación: Free Time Activities",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[Relax|Relájate]] and [[enjoy|disfruta]].",
-              "phonetic": "/rɪˈlæks ənd ɪnˈdʒɔɪ/",
+              "text": "I [[like|me gusta]] this [[watching TV|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit35/lesson5-task-15.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U35_B35_5_I15_Q1",
+              "id": "U35_L5_I15_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'j' en 'enjoy'?",
+              "prompt_es": "¿Cómo se pronuncia 'watching TV'?",
               "options": [
-                { "id": "o1", "text": "Como una 'y' vibrante o 'll' argentina (/dʒ/)" },
-                { "id": "o2", "text": "Como una 'h' soplada" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

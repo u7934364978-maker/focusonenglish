@@ -1,1339 +1,1479 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_40_EXERCISES: Exercise[] = [
-  // VOCABULARY REVIEW (1-20)
   {
-    "id": "a1-u40-e1",
+    "id": "a1-u40-u40_i1",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "easy",
-    "transcript": "I go to work by bus.",
-    "content": {
-      "title": "Transporte",
-      "instructions": "Repaso de medios de transporte.",
-      "questions": [
-        {
-          "question": "[[I go to work by|Voy al trabajo en]] (_____) .",
-          "options": ["[[bus|autobús]]", "[[car|coche]]", "[[train|tren]]"],
-          "correctAnswer": 0,
-          "explanation": "'Bus' es autobús."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e1.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e2",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "easy",
-    "transcript": "It is sunny and hot today.",
-    "content": {
-      "title": "El tiempo",
-      "instructions": "Repaso del clima.",
-      "questions": [
-        {
-          "question": "[[It is|Está]] (_____) [[and hot today|y caluroso hoy]].",
-          "options": ["[[sunny|soleado]]", "[[rainy|lluvioso]]", "[[snowy|nevado]]"],
-          "correctAnswer": 0,
-          "explanation": "'Sunny' es soleado."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e2.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e3",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "easy",
-    "transcript": "My stomach hurts.",
-    "content": {
-      "title": "Salud",
-      "instructions": "Repaso de partes del cuerpo.",
-      "questions": [
-        {
-          "question": "[[My|Mi]] (_____) [[hurts|me duele]].",
-          "options": ["[[stomach|estómago]]", "[[head|cabeza]]", "[[arm|brazo]]"],
-          "correctAnswer": 0,
-          "explanation": "'Stomach' es estómago."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e3.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e4",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
+    "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "I use my tablet to watch movies.",
+    "transcript": "",
     "content": {
-      "title": "Tecnología",
-      "instructions": "Repaso de dispositivos.",
+      "title": "matching",
+      "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "[[I use my|Uso mi]] (_____) [[to watch movies|para ver películas]].",
-          "options": ["[[tablet|tableta]]", "[[phone|teléfono]]", "[[laptop|portátil]]"],
-          "correctAnswer": 0,
-          "explanation": "'Tablet' es tableta."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e4.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e5",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "He is a doctor in a hospital.",
-    "content": {
-      "title": "Trabajos",
-      "instructions": "Repaso de profesiones.",
-      "questions": [
-        {
-          "question": "[[He is a|Él es]] (_____) [[in a hospital|en un hospital]].",
-          "options": ["[[doctor|médico]]", "[[teacher|profesor]]", "[[nurse|enfermero]]"],
-          "correctAnswer": 0,
-          "explanation": "'Doctor' es médico."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e5.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e6",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "easy",
-    "transcript": "The plane is very fast.",
-    "content": {
-      "title": "Transporte rápido",
-      "instructions": "Identifica el adjetivo.",
-      "questions": [
-        {
-          "question": "[[The plane is very|El avión es muy]] (_____) .",
-          "options": ["[[fast|rápido]]", "[[slow|lento]]", "[[big|grande]]"],
-          "correctAnswer": 0,
-          "explanation": "'Fast' es rápido."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e6.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e7",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "easy",
-    "transcript": "In winter, it is cold and snowy.",
-    "content": {
-      "title": "Invierno",
-      "instructions": "Identifica la estación.",
-      "questions": [
-        {
-          "question": "[[In|En]] (_____) [[, it is cold and snowy|, hace frío y nieva]].",
-          "options": ["[[winter|invierno]]", "[[summer|verano]]", "[[spring|primavera]]"],
-          "correctAnswer": 0,
-          "explanation": "'Winter' es invierno."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e7.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e8",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "You should take some medicine.",
-    "content": {
-      "title": "Medicina",
-      "instructions": "Identifica el sustantivo.",
-      "questions": [
-        {
-          "question": "[[You should take some|Deberías tomar algo de]] (_____) .",
-          "options": ["[[medicine|medicina]]", "[[water|agua]]", "[[food|comida]]"],
-          "correctAnswer": 0,
-          "explanation": "'Medicine' es medicina."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e8.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e9",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "My mouse is broken.",
-    "content": {
-      "title": "Ratón",
-      "instructions": "Repaso de equipo de oficina/informática.",
-      "questions": [
-        {
-          "question": "[[My|Mi]] (_____) [[is broken|está roto]].",
-          "options": ["[[mouse|ratón]]", "[[keyboard|teclado]]", "[[screen|pantalla]]"],
-          "correctAnswer": 0,
-          "explanation": "'Mouse' es ratón."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e9.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e10",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "She is a journalist for a website.",
-    "content": {
-      "title": "Periodista",
-      "instructions": "Identifica la profesión.",
-      "questions": [
-        {
-          "question": "[[She is a|Ella es]] (_____) [[for a website|para un sitio web]].",
-          "options": ["[[journalist|periodista]]", "[[actor|actor]]", "[[chef|cocinero]]"],
-          "correctAnswer": 0,
-          "explanation": "'Journalist' es periodista."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e10.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e11",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "easy",
-    "transcript": "I like to travel by train.",
-    "content": {
-      "title": "Tren",
-      "instructions": "Identifica el transporte.",
-      "questions": [
-        {
-          "question": "[[I like to travel by|Me gusta viajar en]] (_____) .",
-          "options": ["[[train|tren]]", "[[boat|barco]]", "[[bike|bici]]"],
-          "correctAnswer": 0,
-          "explanation": "'Train' es tren."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e11.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e12",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "The weather is cloudy today.",
-    "content": {
-      "title": "Nublado",
-      "instructions": "Identifica el clima.",
-      "questions": [
-        {
-          "question": "[[The weather is|El tiempo está]] (_____) [[today|hoy]].",
-          "options": ["[[cloudy|nublado]]", "[[sunny|soleado]]", "[[windy|ventoso]]"],
-          "correctAnswer": 0,
-          "explanation": "'Cloudy' es nublado."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e12.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e13",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "He has a sore back.",
-    "content": {
-      "title": "Espalda",
-      "instructions": "Identifica la parte del cuerpo.",
-      "questions": [
-        {
-          "question": "[[He has a sore|Tiene la]] (_____) [[sore|dolorida]].",
-          "options": ["[[back|espalda]]", "[[knee|rodilla]]", "[[neck|cuello]]"],
-          "correctAnswer": 0,
-          "explanation": "'Back' es espalda."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e13.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e14",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "easy",
-    "transcript": "Turn on the computer.",
-    "content": {
-      "title": "Ordenador",
-      "instructions": "Identifica el dispositivo.",
-      "questions": [
-        {
-          "question": "[[Turn on the|Enciende el]] (_____) .",
-          "options": ["[[computer|ordenador]]", "[[fridge|nevera]]", "[[oven|horno]]"],
-          "correctAnswer": 0,
-          "explanation": "'Computer' es ordenador."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e14.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e15",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "My salary is paid every month.",
-    "content": {
-      "title": "Sueldo",
-      "instructions": "Identifica el concepto laboral.",
-      "questions": [
-        {
-          "question": "[[My|Mi]] (_____) [[is paid every month|se paga cada mes]].",
-          "options": ["[[salary|salario / sueldo]]", "[[job|trabajo]]", "[[work|trabajo]]"],
-          "correctAnswer": 0,
-          "explanation": "'Salary' es el dinero recibido por el trabajo."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e15.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e16",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "The sign says 'Stop'.",
-    "content": {
-      "title": "Señal",
-      "instructions": "Identifica el objeto.",
-      "questions": [
-        {
-          "question": "[[The|La]] (_____) [[says 'Stop'|dice 'Pare']].",
-          "options": ["[[sign|señal]]", "[[book|libro]]", "[[note|nota]]"],
-          "correctAnswer": 0,
-          "explanation": "'Sign' es señal."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e16.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e17",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "easy",
-    "transcript": "He drives a taxi.",
-    "content": {
-      "title": "Conductor",
-      "instructions": "Identifica el verbo.",
-      "questions": [
-        {
-          "question": "[[He|Él]] (_____) [[a taxi|un taxi]].",
-          "options": ["[[drives|conduce]]", "[[flies|vuela]]", "[[rides|monta]]"],
-          "correctAnswer": 0,
-          "explanation": "'Drives' es el verbo para conducir vehículos de motor."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e17.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e18",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "The weather forecast is good.",
-    "content": {
-      "title": "Pronóstico",
-      "instructions": "Identifica la palabra.",
-      "questions": [
-        {
-          "question": "[[The weather|El]] (_____) [[forecast|pronóstico]] [[is good|es bueno]].",
-          "options": ["[[forecast|pronóstico]]", "[[force|fuerza]]", "[[fast|rápido]]"],
-          "correctAnswer": 0,
-          "explanation": "'Forecast' es pronóstico."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e18.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e19",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "I need to see a dentist.",
-    "content": {
-      "title": "Dentista",
-      "instructions": "Identifica al especialista.",
-      "questions": [
-        {
-          "question": "[[I need to see a|Necesito ver a un]] (_____) .",
-          "options": ["[[dentist|dentista]]", "[[doctor|médico]]", "[[nurse|enfermero]]"],
-          "correctAnswer": 0,
-          "explanation": "'Dentist' es dentista."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e19.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e20",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "My password is very long.",
-    "content": {
-      "title": "Contraseña",
-      "instructions": "Identifica la palabra técnica.",
-      "questions": [
-        {
-          "question": "[[My|Mi]] (_____) [[is very long.]]",
-          "options": ["[[password|contraseña]]", "[[passbook|cartilla]]", "[[pass|pase]]"],
-          "correctAnswer": 0,
-          "explanation": "'Password' es contraseña."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e20.mp3",
-    "topicName": "Vocabulary"
-  },
-
-  // GRAMMAR REVIEW (21-40)
-  {
-    "id": "a1-u40-e21",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "A car is faster than a bicycle.",
-    "content": {
-      "title": "Comparativo",
-      "instructions": "Elige la forma correcta del comparativo.",
-      "questions": [
-        {
-          "question": "[[A car is|Un coche es]] (_____) [[than a bicycle.]]",
-          "options": ["[[faster|más rápido]]", "[[fastest|el más rápido]]", "[[more fast|más rápido (incorrecto)]]"],
-          "correctAnswer": 0,
-          "explanation": "Para adjetivos cortos usamos el sufijo '-er' para el comparativo."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e21.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e22",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "He is the tallest student in the class.",
-    "content": {
-      "title": "Superlativo",
-      "instructions": "Elige la forma correcta del superlativo.",
-      "questions": [
-        {
-          "question": "[[He is the|Él es el]] (_____) [[student in the class.]]",
-          "options": ["[[tallest|más alto]]", "[[taller|más alto (comparativo)]]", "[[most tall|el más alto (incorrecto)]]"],
-          "correctAnswer": 0,
-          "explanation": "Para adjetivos cortos usamos 'the' + '-est' para el superlativo."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e22.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e23",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "I should study tonight.",
-    "content": {
-      "title": "Consejo",
-      "instructions": "Repaso de 'should'.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[study tonight.]]",
-          "options": ["[[should|debería]]", "[[mustn't|no debo]]", "[[can't|no puedo]]"],
-          "correctAnswer": 0,
-          "explanation": "'Should' se usa para lo que es conveniente o aconsejable."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e23.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e24",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "You must not park here.",
-    "content": {
-      "title": "Obligación negativa",
-      "instructions": "Repaso de 'must not'.",
-      "questions": [
-        {
-          "question": "[[You|Tú]] (_____) [[park here.]]",
-          "options": ["[[must not|no debes]]", "[[should|deberías]]", "[[can|puedes]]"],
-          "correctAnswer": 0,
-          "explanation": "'Must not' indica prohibición."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e24.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e25",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "He speaks English well.",
-    "content": {
-      "title": "Adverbio",
-      "instructions": "Repaso de adjetivo vs adverbio.",
-      "questions": [
-        {
-          "question": "[[He speaks English|Habla inglés]] (_____) .",
-          "options": ["[[well|bien]]", "[[good|bueno]]", "[[better|mejor]]"],
-          "correctAnswer": 0,
-          "explanation": "'Well' es el adverbio que describe cómo habla."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e25.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e26",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "This laptop is more expensive than that one.",
-    "content": {
-      "title": "Adjetivo largo",
-      "instructions": "Comparativo de adjetivos largos.",
-      "questions": [
-        {
-          "question": "[[This laptop is|Este portátil es]] (_____) [[expensive than that one.]]",
-          "options": ["[[more|más]]", "[[most|el más]]", "[[er|más (incorrecto)]]"],
-          "correctAnswer": 0,
-          "explanation": "Para adjetivos largos usamos 'more' en el comparativo."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e26.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e27",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "hard",
-    "transcript": "She is the most intelligent person I know.",
-    "content": {
-      "title": "Superlativo largo",
-      "instructions": "Ordena la frase.",
-      "correctSentence": "[[She is the most intelligent person I know|Ella es la persona más inteligente que conozco]].",
-      "words": ["[[know|conozco]].", "[[I|yo]]", "[[person|persona]]", "[[intelligent|inteligente]]", "[[most|más]]", "[[the|la]]", "[[is|es]]", "[[She|Ella]]"],
-      "explanation": "Superlativo para adjetivos largos: the most + adjetivo."
-    },
-    "audioUrl": "audio/a1/unit-40/e27.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e28",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "What should I do for a cold?",
-    "content": {
-      "title": "Preguntar por consejo",
-      "instructions": "Uso de 'should' en pregunta.",
-      "questions": [
-        {
-          "question": "[[What|Qué]] (_____) [[I do for a cold?]]",
-          "options": ["[[should|debería]]", "[[must|debo]]", "[[am|soy]]"],
-          "correctAnswer": 0,
-          "explanation": "'Should' es habitual para pedir consejos."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e28.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e29",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "You mustn't touch the machines.",
-    "content": {
-      "title": "Prohibición fuerte",
-      "instructions": "Uso de 'mustn't'.",
-      "questions": [
-        {
-          "question": "[[You|Tú]] (_____) [[touch the machines.]]",
-          "options": ["[[mustn't|no debes]]", "[[shouldn't|no deberías]]", "[[can't|no puedes]]"],
-          "correctAnswer": 0,
-          "explanation": "'Mustn't' se usa para reglas estrictas."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e29.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e30",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "Please, walk quietly.",
-    "content": {
-      "title": "Formación de adverbios",
-      "instructions": "Identifica el adverbio.",
-      "questions": [
-        {
-          "question": "[[Please, walk|Por favor, camina]] (_____) .",
-          "options": ["[[quietly|silenciosamente]]", "[[quiet|silencioso]]", "[[quietlyly|incorrecto]]"],
-          "correctAnswer": 0,
-          "explanation": "Añadimos 'ly' al adjetivo 'quiet'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e30.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e31",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "The weather is getting worse.",
-    "content": {
-      "title": "Comparativo irregular",
-      "instructions": "Identifica el comparativo de 'bad'.",
-      "questions": [
-        {
-          "question": "[[The weather is getting|El tiempo se está poniendo]] (_____) .",
-          "options": ["[[worse|peor]]", "[[badder|incorrecto]]", "[[worst|el peor]]"],
-          "correctAnswer": 0,
-          "explanation": "'Worse' es el comparativo irregular de 'bad'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e31.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e32",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "This is the best film ever.",
-    "content": {
-      "title": "Superlativo irregular",
-      "instructions": "Identifica el superlativo de 'good'.",
-      "questions": [
-        {
-          "question": "[[This is the|Esta es la]] (_____) [[film ever.]]",
-          "options": ["[[best|mejor]]", "[[better|mejor (comparativo)]]", "[[goodest|incorrecto]]"],
-          "correctAnswer": 0,
-          "explanation": "'Best' es el superlativo de 'good'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e32.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e33",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "hard",
-    "transcript": "It is much hotter in summer than in winter.",
-    "content": {
-      "title": "Comparando estaciones",
-      "instructions": "Ordena la frase.",
-      "correctSentence": "[[It is much hotter in summer than in winter|Hace mucho más calor en verano que en invierno]].",
-      "words": ["[[winter|invierno]].", "[[in|en]]", "[[than|que]]", "[[summer|verano]]", "[[in|en]]", "[[hotter|más calor]]", "[[much|mucho]]", "[[is|es/está]]", "[[It|Él]]"],
-      "explanation": "Frase comparativa compleja."
-    },
-    "audioUrl": "audio/a1/unit-40/e33.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e34",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "She drives very fast.",
-    "content": {
-      "title": "Fast como adverbio",
-      "instructions": "Identifica la forma correcta.",
-      "questions": [
-        {
-          "question": "[[She drives very|Ella conduce muy]] (_____) .",
-          "options": ["[[fast|rápido]]", "[[fastly|incorrecto]]", "[[quick|rápido (adjetivo)]]"],
-          "correctAnswer": 0,
-          "explanation": "'Fast' no cambia su forma como adverbio."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e34.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e35",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "I must finish my work before 5 pm.",
-    "content": {
-      "title": "Obligación",
-      "instructions": "Uso de 'must'.",
-      "questions": [
-        {
-          "question": "[[I|Yo]] (_____) [[finish my work before 5 pm.]]",
-          "options": ["[[must|debo]]", "[[should|debería]]", "[[am|soy]]"],
-          "correctAnswer": 0,
-          "explanation": "'Must' indica una obligación fuerte."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e35.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e36",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "Where does she work?",
-    "content": {
-      "title": "Presente simple",
-      "instructions": "Pregunta de rutina laboral.",
-      "questions": [
-        {
-          "question": "[[Where|Dónde]] (_____) [[she work?]]",
-          "options": ["[[does|auxiliar]]", "[[do|auxiliar]]", "[[is|es]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'does' para preguntas con 'she'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e36.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e37",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "He doesn't work on Sundays.",
-    "content": {
-      "title": "Negativa",
-      "instructions": "Negativa en presente simple.",
-      "questions": [
-        {
-          "question": "[[He|Él]] (_____) [[work on Sundays.]]",
-          "options": ["[[doesn't|no hace]]", "[[don't|no hace]]", "[[isn't|no es]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'doesn't' para negativas con 'he'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e37.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e38",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "Can you help me?",
-    "content": {
-      "title": "Can",
-      "instructions": "Pregunta de habilidad/favor.",
-      "questions": [
-        {
-          "question": "(_____) [[you help me?|puedes ayudarme?]]",
-          "options": ["[[Can|¿Puedes?]]", "[[Do|¿Haces?]]", "[[Are|¿Eres?]]"],
-          "correctAnswer": 0,
-          "explanation": "'Can' para peticiones o habilidades."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e38.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e39",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "hard",
-    "transcript": "You should not drink coffee before you sleep.",
-    "content": {
-      "title": "Consejo negativo",
-      "instructions": "Ordena la frase.",
-      "correctSentence": "[[You should not drink coffee before you sleep|No deberías beber café antes de dormir]].",
-      "words": ["[[sleep|dormir]].", "[[you|tú]]", "[[before|antes]]", "[[coffee|café]]", "[[drink|beber]]", "[[not|no]]", "[[should|deberías]]", "[[You|Tú]]"],
-      "explanation": "Sujeto + should + not + verbo + complementos."
-    },
-    "audioUrl": "audio/a1/unit-40/e39.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e40",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "This is the easiest exercise.",
-    "content": {
-      "title": "Superlativo de easy",
-      "instructions": "Identifica la forma correcta.",
-      "questions": [
-        {
-          "question": "[[This is the|Este es el]] (_____) [[exercise|ejercicio]].",
-          "options": ["[[easiest|más fácil]]", "[[easyest|incorrecto]]", "[[most easy|incorrecto]]"],
-          "correctAnswer": 0,
-          "explanation": "La 'y' cambia a 'i' y se añade 'est'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e40.mp3",
-    "topicName": "Grammar"
-  },
-
-  // REVIEW & READING (41-60)
-  {
-    "id": "a1-u40-e41",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "easy",
-    "transcript": "The ambulance is arriving.",
-    "content": {
-      "title": "Ambulancia",
-      "instructions": "Identifica el vehículo.",
-      "questions": [
-        {
-          "question": "[[The|La]] (_____) [[is arriving|está llegando]].",
-          "options": ["[[ambulance|ambulancia]]", "[[bus|autobús]]", "[[taxi|taxi]]"],
-          "correctAnswer": 0,
-          "explanation": "'Ambulance' es ambulancia."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e41.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e42",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "I have a terrible toothache.",
-    "content": {
-      "title": "Dolor de muelas",
-      "instructions": "Identifica el síntoma.",
-      "questions": [
-        {
-          "question": "[[I have a terrible|Tengo un terrible]] (_____) .",
-          "options": ["[[toothache|dolor de muelas]]", "[[headache|dolor de cabeza]]", "[[stomachache|dolor de estómago]]"],
-          "correctAnswer": 0,
-          "explanation": "'Toothache' es dolor de muelas."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e42.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e43",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "Please, use your headphones.",
-    "content": {
-      "title": "Auriculares",
-      "instructions": "Identifica el accesorio tecnológico.",
-      "questions": [
-        {
-          "question": "[[Please, use your|Por favor, usa tus]] (_____) .",
-          "options": ["[[headphones|auriculares]]", "[[headsets|cascos (menos común)]]", "[[speakers|altavoces]]"],
-          "correctAnswer": 0,
-          "explanation": "'Headphones' es auriculares."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e43.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e44",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "easy",
-    "transcript": "He is an engineer.",
-    "content": {
-      "title": "Ingeniero",
-      "instructions": "Identifica la profesión.",
-      "questions": [
-        {
-          "question": "[[He is an|Él es un]] (_____) .",
-          "options": ["[[engineer|ingeniero]]", "[[english|inglés]]", "[[engine|motor]]"],
-          "correctAnswer": 0,
-          "explanation": "'Engineer' es ingeniero."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e44.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-e45",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "We must arrive before the meeting starts.",
-    "content": {
-      "title": "Antes de la reunión",
-      "instructions": "Identifica la preposición.",
-      "questions": [
-        {
-          "question": "[[We must arrive|Debemos llegar]] (_____) [[the meeting starts|la reunión comienza]].",
-          "options": ["[[before|antes de que]]", "[[after|después de que]]", "[[during|durante]]"],
-          "correctAnswer": 0,
-          "explanation": "'Before' es antes de."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e45.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e46",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "It is raining heavily now.",
-    "content": {
-      "title": "Lloviendo fuerte",
-      "instructions": "Identifica el adverbio.",
-      "questions": [
-        {
-          "question": "[[It is raining|Está lloviendo]] (_____) [[now|ahora]].",
-          "options": ["[[heavily|fuertemente / intensamente]]", "[[heavy|pesado]]", "[[hard|duro]]"],
-          "correctAnswer": 0,
-          "explanation": "'Heavily' se usa para lluvia intensa."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e46.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e47",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "London is bigger than Oxford.",
-    "content": {
-      "title": "Comparando ciudades",
-      "instructions": "Identifica el comparativo.",
-      "questions": [
-        {
-          "question": "[[London is|Londres es]] (_____) [[than Oxford|que Oxford]].",
-          "options": ["[[bigger|más grande]]", "[[big|grande]]", "[[the biggest|la más grande]]"],
-          "correctAnswer": 0,
-          "explanation": "Doblamos la consonante y añadimos '-er'."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e47.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e48",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "This is the most expensive car in the shop.",
-    "content": {
-      "title": "El más caro",
-      "instructions": "Identifica el superlativo.",
-      "questions": [
-        {
-          "question": "[[This is the|Este es el]] (_____) [[expensive car in the shop|coche caro de la tienda]].",
-          "options": ["[[most|más]]", "[[more|más (comparativo)]]", "[[er|incorrecto]]"],
-          "correctAnswer": 0,
-          "explanation": "'Most' para superlativo de adjetivos largos."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e48.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e49",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "You should rest if you are tired.",
-    "content": {
-      "title": "Si estás cansado",
-      "instructions": "Identifica el consejo.",
-      "questions": [
-        {
-          "question": "[[You|Tú]] (_____) [[rest if you are tired|descansar si estás cansado]].",
-          "options": ["[[should|deberías]]", "[[mustn't|no debes]]", "[[can|puedes]]"],
-          "correctAnswer": 0,
-          "explanation": "'Should' es lo más natural para un consejo amable."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e49.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e50",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "She paints pictures beautifully.",
-    "content": {
-      "title": "Pintar bien",
-      "instructions": "Identifica el adverbio.",
-      "questions": [
-        {
-          "question": "[[She paints pictures|Pinta cuadros]] (_____) [[beautifully|hermosamente]].",
-          "options": ["[[beautifully|hermosamente]]", "[[beautiful|hermoso]]", "[[beauty|belleza]]"],
-          "correctAnswer": 0,
-          "explanation": "El adverbio describe el modo de pintar."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e50.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e51",
-    "type": "reading",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "medium",
-    "transcript": "Life in the city is very different from life in the countryside. The city is noisier and more expensive than the country. In the city, people usually travel by bus or underground. They work in big offices or factories. In the country, life is quieter and people often walk or use bicycles. The air is cleaner too. Many people think that the countryside is the best place to live during the summer.",
-    "content": {
-      "title": "Ciudad vs Campo",
-      "instructions": "Lee sobre las diferencias.",
-      "text": "[[Life|La vida]] [[in|en]] [[the|la]] [[city|ciudad]] [[is|es]] [[very|muy]] [[different|diferente]] [[from|de]] [[life|la vida]] [[in|en]] [[the|el]] [[countryside.|campo.]] [[The|La]] [[city|ciudad]] [[is|es]] [[noisier|más ruidosa]] [[and|y]] [[more|más]] [[expensive|cara]] [[than|que]] [[the|el]] [[country.|campo.]] [[In|En]] [[the|la]] [[city,|ciudad,]] [[people|la gente]] [[usually|normalmente]] [[travel|viaja]] [[by|en]] [[bus|autobús]] [[or|o]] [[underground.|metro.]] [[They|Ellos]] [[work|trabajan]] [[in|en]] [[big|grandes]] [[offices|oficinas]] [[or|o]] [[factories.|fábricas.]] [[In|En]] [[the|el]] [[country,|campo,]] [[life|la vida]] [[is|es]] [[quieter|más tranquila]] [[and|y]] [[people|la gente]] [[often|a menudo]] [[walk|camina]] [[or|o]] [[use|usa]] [[bicycles.|bicicletas.]] [[The|El]] [[air|aire]] [[is|es]] [[cleaner|más limpio]] [[too.|también.]] [[Many|Mucha]] [[people|gente]] [[think|piensa]] [[that|que]] [[the|el]] [[countryside|campo]] [[is|es]] [[the|el]] [[best|mejor]] [[place|lugar]] [[to|para]] [[live|vivir]] [[during|durante]] [[the|el]] [[summer.|verano.]]",
-      "questions": [
-        {
-          "question": "[[Is the city more expensive than the country?|¿Es la ciudad más cara que el campo?]]",
-          "options": ["[[Yes, it is|Sí, lo es]]", "[[No, it is cheaper|No, es más barata]]", "[[They are the same|Son iguales]]"],
-          "correctAnswer": 0
-        },
-        {
-          "question": "[[What is the best place to live in summer, according to the text?|¿Cuál es el mejor lugar para vivir en verano, según el texto?]]",
-          "options": ["[[The countryside|El campo]]", "[[The city|La ciudad]]", "[[The office|La oficina]]"],
+          "question": "Une la palabra con su traducción correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-40/e51.mp3",
-    "topicName": "Reading"
+    "audioUrl": "",
+    "topicName": "vocabulary"
   },
   {
-    "id": "a1-u40-e52",
-    "type": "reading",
+    "id": "a1-u40-u40_i2",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review Module 4",
+    "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "Keeping your body healthy is important. You must eat good food and you should exercise every day. For example, you can go for a walk or run quickly in the park. You mustn't spend too much time on your phone or laptop. If you have a headache or a sore throat, you should see a doctor immediately. Remember, health is the most important thing we have.",
+    "transcript": "I (poder) ________ swim.",
     "content": {
-      "title": "Cuidar la salud",
-      "instructions": "Lee sobre la salud.",
-      "text": "[[Keeping|Mantener]] [[your|tu]] [[body|cuerpo]] [[healthy|sano]] [[is|es]] [[important.|importante.]] [[You|Tú]] [[must|debes]] [[eat|comer]] [[good|buena]] [[food|comida]] [[and|y]] [[you|tú]] [[should|deberías]] [[exercise|hacer ejercicio]] [[every|cada]] [[day.|día.]] [[For|Por]] [[example,|ejemplo,]] [[you|tú]] [[can|puedes]] [[go|ir]] [[for|a]] [[a|]] [[walk|caminar]] [[or|o]] [[run|correr]] [[quickly|rápido]] [[in|en]] [[the|el]] [[park.|parque.]] [[You|Tú]] [[mustn't|no debes]] [[spend|pasar]] [[too|demasiado]] [[much|]] [[time|tiempo]] [[on|en]] [[your|tu]] [[phone|teléfono]] [[or|o]] [[laptop.|portátil.]] [[If|Si]] [[you|tú]] [[have|tienes]] [[a|un]] [[headache|dolor de cabeza]] [[or|o]] [[a|un]] [[sore|dolor de]] [[throat,|garganta,]] [[you|tú]] [[should|deberías]] [[see|ver]] [[a|a un]] [[doctor|médico]] [[immediately.|inmediatamente.]] [[Remember,|Recuerda,]] [[health|la salud]] [[is|es]] [[the|la]] [[most|más]] [[important|importante]] [[thing|cosa]] [[we|que]] [[have.|tenemos.]]",
+      "title": "transformation",
+      "instructions": "Completa con la forma correcta:",
       "questions": [
         {
-          "question": "[[What should you do every day?|¿Qué deberías hacer cada día?]]",
-          "options": ["[[Exercise|Hacer ejercicio]]", "[[Use the phone|Usar el teléfono]]", "[[Eat candy|Comer caramelos]]"],
-          "correctAnswer": 0
-        },
-        {
-          "question": "[[What is the most important thing we have?|¿Qué es la cosa más importante que tenemos?]]",
-          "options": ["[[Health|La salud]]", "[[Money|El dinero]]", "[[A laptop|Un portátil]]"],
+          "question": "I (poder) ________ swim.",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-40/e52.mp3",
-    "topicName": "Reading"
+    "audioUrl": "",
+    "topicName": "grammar"
   },
   {
-    "id": "a1-u40-e53",
-    "type": "reading",
+    "id": "a1-u40-u40_i3",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review Module 4",
+    "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "Travelers must follow rules to be safe. At the airport, you must show your passport and you should be on time for your flight. On the plane, you must listen carefully to the flight attendants. When you arrive at your destination, you can take a taxi or a bus. Usually, the train is faster than the bus, but it can be more expensive. You should always carry a map or use a GPS app on your phone to find places easily.",
+    "transcript": "",
     "content": {
-      "title": "Reglas para viajeros",
-      "instructions": "Lee sobre viajar.",
-      "text": "[[Travelers|Los viajeros]] [[must|deben]] [[follow|seguir]] [[rules|reglas]] [[to|para]] [[be|estar]] [[safe.|seguros.]] [[At|En]] [[the|el]] [[airport,|aeropuerto,]] [[you|tú]] [[must|debes]] [[show|mostrar]] [[your|tu]] [[passport|pasaporte]] [[and|y]] [[you|tú]] [[should|deberías]] [[be|llegar]] [[on|a]] [[time|tiempo]] [[for|para]] [[your|tu]] [[flight.|vuelo.]] [[On|En]] [[the|el]] [[plane,|avión,]] [[you|tú]] [[must|debes]] [[listen|escuchar]] [[carefully|con cuidado]] [[to|a]] [[the|los]] [[flight|de vuelo.]] [[attendants.|auxiliares]] [[When|Cuando]] [[you|tú]] [[arrive|llegas]] [[at|a]] [[your|tu]] [[destination,|destino,]] [[you|tú]] [[can|puedes]] [[take|coger]] [[a|un]] [[taxi|taxi]] [[or|o]] [[a|un]] [[bus.|autobús.]] [[Usually,|Normalmente,]] [[the|el]] [[train|tren]] [[is|es]] [[faster|más rápido]] [[than|que]] [[the|el]] [[bus,|autobús,]] [[but|pero]] [[it|este]] [[can|puede]] [[be|ser]] [[more|más]] [[expensive.|caro.]] [[You|Tú]] [[should|deberías]] [[always|siempre]] [[carry|llevar]] [[a|un]] [[map|mapa]] [[or|o]] [[use|usar]] [[a|una]] [[GPS|GPS]] [[app|app]] [[on|en]] [[your|tu]] [[phone|teléfono]] [[to|para]] [[find|encontrar]] [[places|lugares]] [[easily.|fácilmente.]]",
+      "title": "true_false",
+      "instructions": "¿Es correcta esta frase?: \"Ask for permission politely.\"",
       "questions": [
         {
-          "question": "[[What must you show at the airport?|¿Qué debes mostrar en el aeropuerto?]]",
-          "options": ["[[Your passport|Tu pasaporte]]", "[[Your ticket|Tu billete]]", "[[Your suitcase|Tu maleta]]"],
-          "correctAnswer": 0
-        },
-        {
-          "question": "[[Is the train always cheaper than the bus?|¿Es el tren siempre más barato que el autobús?]]",
-          "options": ["[[No, it can be more expensive|No, puede ser más caro]]", "[[Yes, it is|Sí, lo es]]", "[[They cost the same|Cuestan lo mismo]]"],
+          "question": "¿Es correcta esta frase?: \"Ask for permission politely.\"",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-40/e53.mp3",
-    "topicName": "Reading"
+    "audioUrl": "",
+    "topicName": "syntax"
   },
   {
-    "id": "a1-u40-e54",
+    "id": "a1-u40-u40_i4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "easy",
-    "transcript": "My car is the newest in the family.",
-    "content": {
-      "title": "Superlativo newest",
-      "instructions": "Identifica la forma correcta.",
-      "questions": [
-        {
-          "question": "[[My car is the|Mi coche es el]] (_____) [[in the family.]]",
-          "options": ["[[newest|más nuevo]]", "[[newer|más nuevo (comparativo)]]", "[[most new|incorrecto]]"],
-          "correctAnswer": 0,
-          "explanation": "Superlativo de adjetivo corto."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e54.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e55",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Review Module 4",
+    "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "She sings more beautifully than I do.",
+    "transcript": "",
     "content": {
-      "title": "Comparativo de adverbio",
-      "instructions": "Identifica la forma correcta.",
+      "title": "reorder_words",
+      "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "[[She sings|Ella canta]] (_____) [[than I do.]]",
-          "options": ["[[more beautifully|más hermosamente]]", "[[beautifully|hermosamente]]", "[[most beautifully|lo más hermosamente]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'more' + adverbio para comparar."
+          "question": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-40/e55.mp3",
-    "topicName": "Grammar"
+    "audioUrl": "",
+    "topicName": "syntax"
   },
   {
-    "id": "a1-u40-e56",
-    "type": "sentence-building",
-    "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "hard",
-    "transcript": "I must work very hard to be the best.",
-    "content": {
-      "title": "Ser el mejor",
-      "instructions": "Ordena la frase.",
-      "correctSentence": "[[I must work very hard to be the best|Debo trabajar muy duro para ser el mejor]].",
-      "words": ["[[best|mejor]].", "[[the|el]]", "[[be|ser]]", "[[to|para]]", "[[hard|duro]]", "[[very|muy]]", "[[work|trabajar]]", "[[must|debo]]", "[[I|Yo]]"],
-      "explanation": "Combinación de obligación, adverbio y superlativo."
-    },
-    "audioUrl": "audio/a1/unit-40/e56.mp3",
-    "topicName": "Grammar"
-  },
-  {
-    "id": "a1-u40-e57",
+    "id": "a1-u40-u40_i5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review Module 4",
+    "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "You should not be late for the meeting.",
+    "transcript": "",
     "content": {
-      "title": "No llegar tarde",
-      "instructions": "Identifica el consejo negativo.",
+      "title": "short_writing",
+      "instructions": "Traduce al inglés:",
       "questions": [
         {
-          "question": "[[You|Tú]] (_____) [[be late for the meeting.]]",
-          "options": ["[[should not|no deberías]]", "[[must|debes]]", "[[are|eres]]"],
-          "correctAnswer": 0,
-          "explanation": "'Should not' para aconsejar contra una acción."
+          "question": "Traduce al inglés:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-40/e57.mp3",
-    "topicName": "Grammar"
+    "audioUrl": "",
+    "topicName": "vocabulary"
   },
   {
-    "id": "a1-u40-e58",
+    "id": "a1-u40-u40_i6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review Module 4",
+    "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "What is the worst weather for driving?",
+    "transcript": "",
     "content": {
-      "title": "El peor tiempo",
-      "instructions": "Identifica el superlativo irregular.",
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'Frecuencia' en inglés?",
       "questions": [
         {
-          "question": "[[What is the|¿Cuál es el]] (_____) [[weather for driving?]]",
-          "options": ["[[worst|peor]]", "[[worse|peor (comparativo)]]", "[[badest|incorrecto]]"],
-          "correctAnswer": 0,
-          "explanation": "'Worst' es el superlativo de 'bad'."
+          "question": "¿Cómo se dice 'Frecuencia' en inglés?",
+          "options": [
+            "[[Ability|]]",
+            "[[Frequency|]]",
+            "[[Activity|]]"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-40/e58.mp3",
-    "topicName": "Grammar"
+    "audioUrl": "",
+    "topicName": "vocabulary"
   },
   {
-    "id": "a1-u40-e59",
+    "id": "a1-u40-u40_i7",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review Module 4",
+    "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "The nurse works at the hospital.",
+    "transcript": "",
     "content": {
-      "title": "Lugar de trabajo",
-      "instructions": "Identifica la preposición.",
+      "title": "matching",
+      "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "[[The nurse works|El enfermero trabaja]] (_____) [[the hospital.]]",
-          "options": ["[[at|en]]", "[[on|en]]", "[[to|a]]"],
-          "correctAnswer": 0,
-          "explanation": "Usamos 'at' para lugares de trabajo específicos."
+          "question": "Une la palabra con su traducción correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "audio/a1/unit-40/e59.mp3",
-    "topicName": "Grammar"
+    "audioUrl": "",
+    "topicName": "vocabulary"
   },
   {
-    "id": "a1-u40-e60",
+    "id": "a1-u40-u40_i8",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Review Module 4",
-    "difficulty": "easy",
-    "transcript": "I like my job very much.",
-    "content": {
-      "title": "Gustar el trabajo",
-      "instructions": "Identifica la frase correcta.",
-      "questions": [
-        {
-          "question": "[[I|Me]] (_____) [[my job very much.]]",
-          "options": ["[[like|gusta]]", "[[love|amo]]", "[[work|trabajo]]"],
-          "correctAnswer": 0,
-          "explanation": "'I like' es la forma de expresar gusto."
-        }
-      ]
-    },
-    "audioUrl": "audio/a1/unit-40/e60.mp3",
-    "topicName": "Vocabulary"
-  },
-  {
-    "id": "a1-u40-a1_u40_b40_5_i1",
-    "type": "multiple-choice",
-    "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "grammar",
     "difficulty": "medium",
-    "transcript": " can  .",
+    "transcript": "He (tocar) ________ the piano.",
+    "content": {
+      "title": "transformation",
+      "instructions": "Completa con la forma correcta:",
+      "questions": [
+        {
+          "question": "He (tocar) ________ the piano.",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "grammar"
+  },
+  {
+    "id": "a1-u40-u40_i9",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "true_false",
+      "instructions": "¿Es correcta esta frase?: \"Sentences connect with 'and', 'but', and 'because'\"",
+      "questions": [
+        {
+          "question": "¿Es correcta esta frase?: \"Sentences connect with 'and', 'but', and 'because'\"",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u40-u40_i10",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "reorder_words",
+      "instructions": "Ordena las palabras para formar una frase correcta:",
+      "questions": [
+        {
+          "question": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u40-u40_i11",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "short_writing",
+      "instructions": "Traduce al inglés:",
+      "questions": [
+        {
+          "question": "Traduce al inglés:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i12",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'Habilidad' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'Habilidad' en inglés?",
+          "options": [
+            "[[Ability|]]",
+            "[[Activity|]]",
+            "[[Frequency|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i13",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "matching",
+      "instructions": "Une la palabra con su traducción correcta:",
+      "questions": [
+        {
+          "question": "Une la palabra con su traducción correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i14",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "grammar",
+    "difficulty": "medium",
+    "transcript": "I (poder) ________ swim.",
+    "content": {
+      "title": "transformation",
+      "instructions": "Completa con la forma correcta:",
+      "questions": [
+        {
+          "question": "I (poder) ________ swim.",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "grammar"
+  },
+  {
+    "id": "a1-u40-u40_i15",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "true_false",
+      "instructions": "¿Es correcta esta frase?: \"This is a review of module four.\"",
+      "questions": [
+        {
+          "question": "¿Es correcta esta frase?: \"This is a review of module four.\"",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u40-u40_i16",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "reorder_words",
+      "instructions": "Ordena las palabras para formar una frase correcta:",
+      "questions": [
+        {
+          "question": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u40-u40_i17",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "short_writing",
+      "instructions": "Traduce al inglés:",
+      "questions": [
+        {
+          "question": "Traduce al inglés:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i18",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'Frecuencia' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'Frecuencia' en inglés?",
+          "options": [
+            "[[Frequency|]]",
+            "[[Ability|]]",
+            "[[Talent|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i19",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "matching",
+      "instructions": "Une la palabra con su traducción correcta:",
+      "questions": [
+        {
+          "question": "Une la palabra con su traducción correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i20",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "grammar",
+    "difficulty": "medium",
+    "transcript": "He (tocar) ________ the piano.",
+    "content": {
+      "title": "transformation",
+      "instructions": "Completa con la forma correcta:",
+      "questions": [
+        {
+          "question": "He (tocar) ________ the piano.",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "grammar"
+  },
+  {
+    "id": "a1-u40-u40_i21",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "true_false",
+      "instructions": "¿Es correcta esta frase?: \"Adverbs use of frequency\"",
+      "questions": [
+        {
+          "question": "¿Es correcta esta frase?: \"Adverbs use of frequency\"",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u40-u40_i22",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "reorder_words",
+      "instructions": "Ordena las palabras para formar una frase correcta:",
+      "questions": [
+        {
+          "question": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u40-u40_i23",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "short_writing",
+      "instructions": "Traduce al inglés:",
+      "questions": [
+        {
+          "question": "Traduce al inglés:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i24",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'Habilidad' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'Habilidad' en inglés?",
+          "options": [
+            "[[Activity|]]",
+            "[[Ability|]]",
+            "[[Frequency|]]"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i25",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "matching",
+      "instructions": "Une la palabra con su traducción correcta:",
+      "questions": [
+        {
+          "question": "Une la palabra con su traducción correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i26",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "grammar",
+    "difficulty": "medium",
+    "transcript": "I (poder) ________ swim.",
+    "content": {
+      "title": "transformation",
+      "instructions": "Completa con la forma correcta:",
+      "questions": [
+        {
+          "question": "I (poder) ________ swim.",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "grammar"
+  },
+  {
+    "id": "a1-u40-u40_i27",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "true_false",
+      "instructions": "¿Es correcta esta frase?: \"Talk about your abilities and skills.\"",
+      "questions": [
+        {
+          "question": "¿Es correcta esta frase?: \"Talk about your abilities and skills.\"",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u40-u40_i28",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "reorder_words",
+      "instructions": "Ordena las palabras para formar una frase correcta:",
+      "questions": [
+        {
+          "question": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u40-u40_i29",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "short_writing",
+      "instructions": "Traduce al inglés:",
+      "questions": [
+        {
+          "question": "Traduce al inglés:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i30",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'Frecuencia' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'Frecuencia' en inglés?",
+          "options": [
+            "[[Frequency|]]",
+            "[[Ability|]]",
+            "[[Activity|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i31",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "matching",
+      "instructions": "Une la palabra con su traducción correcta:",
+      "questions": [
+        {
+          "question": "Une la palabra con su traducción correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i32",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "grammar",
+    "difficulty": "medium",
+    "transcript": "He (tocar) ________ the piano.",
+    "content": {
+      "title": "transformation",
+      "instructions": "Completa con la forma correcta:",
+      "questions": [
+        {
+          "question": "He (tocar) ________ the piano.",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "grammar"
+  },
+  {
+    "id": "a1-u40-u40_i33",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "true_false",
+      "instructions": "¿Es correcta esta frase?: \"For ask permission politely\"",
+      "questions": [
+        {
+          "question": "¿Es correcta esta frase?: \"For ask permission politely\"",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u40-u40_i34",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "reorder_words",
+      "instructions": "Ordena las palabras para formar una frase correcta:",
+      "questions": [
+        {
+          "question": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u40-u40_i35",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "short_writing",
+      "instructions": "Traduce al inglés:",
+      "questions": [
+        {
+          "question": "Traduce al inglés:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i36",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'Habilidad' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'Habilidad' en inglés?",
+          "options": [
+            "[[Frequency|]]",
+            "[[Talent|]]",
+            "[[Ability|]]"
+          ],
+          "correctAnswer": 2,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i37",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "matching",
+      "instructions": "Une la palabra con su traducción correcta:",
+      "questions": [
+        {
+          "question": "Une la palabra con su traducción correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i38",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "grammar",
+    "difficulty": "medium",
+    "transcript": "I (poder) ________ swim.",
+    "content": {
+      "title": "transformation",
+      "instructions": "Completa con la forma correcta:",
+      "questions": [
+        {
+          "question": "I (poder) ________ swim.",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "grammar"
+  },
+  {
+    "id": "a1-u40-u40_i39",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "true_false",
+      "instructions": "¿Es correcta esta frase?: \"Connect sentences with 'and', 'but', and 'because'.\"",
+      "questions": [
+        {
+          "question": "¿Es correcta esta frase?: \"Connect sentences with 'and', 'but', and 'because'.\"",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u40-u40_i40",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "reorder_words",
+      "instructions": "Ordena las palabras para formar una frase correcta:",
+      "questions": [
+        {
+          "question": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u40-u40_i41",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "short_writing",
+      "instructions": "Traduce al inglés:",
+      "questions": [
+        {
+          "question": "Traduce al inglés:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i42",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'Frecuencia' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'Frecuencia' en inglés?",
+          "options": [
+            "[[Frequency|]]",
+            "[[Talent|]]",
+            "[[Activity|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i43",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "matching",
+      "instructions": "Une la palabra con su traducción correcta:",
+      "questions": [
+        {
+          "question": "Une la palabra con su traducción correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i44",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "grammar",
+    "difficulty": "medium",
+    "transcript": "He (tocar) ________ the piano.",
+    "content": {
+      "title": "transformation",
+      "instructions": "Completa con la forma correcta:",
+      "questions": [
+        {
+          "question": "He (tocar) ________ the piano.",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "grammar"
+  },
+  {
+    "id": "a1-u40-u40_i45",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "true_false",
+      "instructions": "¿Es correcta esta frase?: \"Is this a review of module four\"",
+      "questions": [
+        {
+          "question": "¿Es correcta esta frase?: \"Is this a review of module four\"",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u40-u40_i46",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "reorder_words",
+      "instructions": "Ordena las palabras para formar una frase correcta:",
+      "questions": [
+        {
+          "question": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u40-u40_i47",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "short_writing",
+      "instructions": "Traduce al inglés:",
+      "questions": [
+        {
+          "question": "Traduce al inglés:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i48",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'Habilidad' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'Habilidad' en inglés?",
+          "options": [
+            "[[Ability|]]",
+            "[[Activity|]]",
+            "[[Frequency|]]"
+          ],
+          "correctAnswer": 0,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i49",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "matching",
+      "instructions": "Une la palabra con su traducción correcta:",
+      "questions": [
+        {
+          "question": "Une la palabra con su traducción correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i50",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "grammar",
+    "difficulty": "medium",
+    "transcript": "I (poder) ________ swim.",
+    "content": {
+      "title": "transformation",
+      "instructions": "Completa con la forma correcta:",
+      "questions": [
+        {
+          "question": "I (poder) ________ swim.",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "grammar"
+  },
+  {
+    "id": "a1-u40-u40_i51",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "true_false",
+      "instructions": "¿Es correcta esta frase?: \"Use adverbs of frequency.\"",
+      "questions": [
+        {
+          "question": "¿Es correcta esta frase?: \"Use adverbs of frequency.\"",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u40-u40_i52",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "reorder_words",
+      "instructions": "Ordena las palabras para formar una frase correcta:",
+      "questions": [
+        {
+          "question": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u40-u40_i53",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "short_writing",
+      "instructions": "Traduce al inglés:",
+      "questions": [
+        {
+          "question": "Traduce al inglés:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i54",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'Frecuencia' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'Frecuencia' en inglés?",
+          "options": [
+            "[[Ability|]]",
+            "[[Frequency|]]",
+            "[[Activity|]]"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i55",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "matching",
+      "instructions": "Une la palabra con su traducción correcta:",
+      "questions": [
+        {
+          "question": "Une la palabra con su traducción correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i56",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "grammar",
+    "difficulty": "medium",
+    "transcript": "He (tocar) ________ the piano.",
+    "content": {
+      "title": "transformation",
+      "instructions": "Completa con la forma correcta:",
+      "questions": [
+        {
+          "question": "He (tocar) ________ the piano.",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "grammar"
+  },
+  {
+    "id": "a1-u40-u40_i57",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "true_false",
+      "instructions": "¿Es correcta esta frase?: \"About talk your abilities and skills\"",
+      "questions": [
+        {
+          "question": "¿Es correcta esta frase?: \"About talk your abilities and skills\"",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u40-u40_i58",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "syntax",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "reorder_words",
+      "instructions": "Ordena las palabras para formar una frase correcta:",
+      "questions": [
+        {
+          "question": "Ordena las palabras para formar una frase correcta:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "syntax"
+  },
+  {
+    "id": "a1-u40-u40_i59",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "short_writing",
+      "instructions": "Traduce al inglés:",
+      "questions": [
+        {
+          "question": "Traduce al inglés:",
+          "options": [
+            "[[Option 1|]]",
+            "[[Option 2|]]"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_i60",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "vocabulary",
+    "difficulty": "medium",
+    "transcript": "",
+    "content": {
+      "title": "Multiple Choice",
+      "instructions": "¿Cómo se dice 'Habilidad' en inglés?",
+      "questions": [
+        {
+          "question": "¿Cómo se dice 'Habilidad' en inglés?",
+          "options": [
+            "[[Activity|]]",
+            "[[Ability|]]",
+            "[[Talent|]]"
+          ],
+          "correctAnswer": 1,
+          "explanation": ""
+        }
+      ]
+    },
+    "audioUrl": "",
+    "topicName": "vocabulary"
+  },
+  {
+    "id": "a1-u40-u40_l5_i1",
+    "type": "multiple-choice",
+    "level": "A1",
+    "topic": "Listening",
+    "difficulty": "medium",
+    "transcript": "The can is here.",
     "content": {
       "title": "Listening Practice",
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "[[I|Yo]] _______ [[cook|cocinar]] [[quite well|bastante bien]].",
+          "question": "The [[can|]] is here.",
           "options": [
             "[[can|]]",
             "[[other|]]"
@@ -1347,20 +1487,20 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topicName": "Listening"
   },
   {
-    "id": "a1-u40-a1_u40_b40_5_i2",
+    "id": "a1-u40-u40_l5_i2",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Listening",
     "difficulty": "medium",
-    "transcript": "   museum .",
+    "transcript": "The sports is here.",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y completa:",
+      "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "[[She|Ella]] [[was|estaba]] [[at the|en el]] _______ [[yesterday|ayer]].",
+          "question": "The [[sports|]] is here.",
           "options": [
-            "[[museum|]]",
+            "[[sports|]]",
             "[[other|]]"
           ],
           "correctAnswer": 0,
@@ -1372,20 +1512,20 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topicName": "Listening"
   },
   {
-    "id": "a1-u40-a1_u40_b40_5_i3",
+    "id": "a1-u40-u40_l5_i3",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Listening",
     "difficulty": "medium",
-    "transcript": " can't  .",
+    "transcript": "The frequency is here.",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y completa:",
+      "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "[[They|Ellos]] _______ [[speak|hablar]] [[English|inglés]].",
+          "question": "The [[frequency|]] is here.",
           "options": [
-            "[[can't|]]",
+            "[[frequency|]]",
             "[[other|]]"
           ],
           "correctAnswer": 0,
@@ -1397,20 +1537,20 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topicName": "Listening"
   },
   {
-    "id": "a1-u40-a1_u40_b40_5_i4",
+    "id": "a1-u40-u40_l5_i4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Listening",
     "difficulty": "medium",
-    "transcript": " were  .",
+    "transcript": "The connectors is here.",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y completa:",
+      "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "[[We|Nosotros]] _______ [[happy|felices]] [[at the party|en la fiesta]].",
+          "question": "The [[connectors|]] is here.",
           "options": [
-            "[[were|]]",
+            "[[connectors|]]",
             "[[other|]]"
           ],
           "correctAnswer": 0,
@@ -1422,20 +1562,20 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topicName": "Listening"
   },
   {
-    "id": "a1-u40-a1_u40_b40_5_i5",
+    "id": "a1-u40-u40_l5_i5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Listening",
     "difficulty": "medium",
-    "transcript": "   the piano?",
+    "transcript": "The free time is here.",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y completa:",
+      "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "[[Can|¿Puedes?]] [[you|tú]] [[play|tocar]] the _______?",
+          "question": "The [[free time|]] is here.",
           "options": [
-            "[[piano|]]",
+            "[[free time|]]",
             "[[other|]]"
           ],
           "correctAnswer": 0,
@@ -1447,20 +1587,20 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topicName": "Listening"
   },
   {
-    "id": "a1-u40-a1_u40_b40_5_i6",
+    "id": "a1-u40-u40_l5_i6",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Listening",
     "difficulty": "medium",
-    "transcript": "  tired .",
+    "transcript": "The instruments is here.",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y completa:",
+      "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "[[I|Yo]] [[was|estaba]] _______ [[last night|anoche]].",
+          "question": "The [[instruments|]] is here.",
           "options": [
-            "[[tired|]]",
+            "[[instruments|]]",
             "[[other|]]"
           ],
           "correctAnswer": 0,
@@ -1472,20 +1612,20 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topicName": "Listening"
   },
   {
-    "id": "a1-u40-a1_u40_b40_5_i7",
+    "id": "a1-u40-u40_l5_i7",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Listening",
     "difficulty": "medium",
-    "transcript": " was .",
+    "transcript": "The talent is here.",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y completa:",
+      "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "[[The weather|El clima]] _______ [[cold|frío]].",
+          "question": "The [[talent|]] is here.",
           "options": [
-            "[[was|]]",
+            "[[talent|]]",
             "[[other|]]"
           ],
           "correctAnswer": 0,
@@ -1497,204 +1637,131 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topicName": "Listening"
   },
   {
-    "id": "a1-u40-a1_u40_b40_5_i8",
-    "type": "multiple-choice",
+    "id": "a1-u40-u40_l5_i8",
+    "type": "pronunciation",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Pronunciation",
     "difficulty": "medium",
-    "transcript": " .",
+    "transcript": "I like this permission.",
     "content": {
-      "title": "Pronunciación: Museum",
-      "instructions": "Practica la pronunciación de 'museum' (/mjuːˈziːəm/).",
-      "questions": [
-        {
-          "question": "¿Cuál es la sílaba tónica en 'museum'?",
-          "options": [
-            "[[La segunda (mu-SE-um)|]]",
-            "[[La primera (MU-se-um)|]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Practica la pronunciación y entonación."
-        }
-      ]
+      "title": "Pronunciación: Module 4 Review",
+      "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+      "expectedResponse": "I like this permission.",
+      "phonetic": ""
     },
     "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-8.mp3",
     "topicName": "Pronunciation"
   },
   {
-    "id": "a1-u40-a1_u40_b40_5_i9",
-    "type": "multiple-choice",
+    "id": "a1-u40-u40_l5_i9",
+    "type": "pronunciation",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Pronunciation",
     "difficulty": "medium",
-    "transcript": " .",
+    "transcript": "I like this outdoor.",
     "content": {
-      "title": "Pronunciación: Speak",
-      "instructions": "Practica la 's' inicial seguida de consonante.",
-      "questions": [
-        {
-          "question": "¿Se debe añadir una 'e' antes de la 's' en 'speak'?",
-          "options": [
-            "[[No, se empieza directamente con el sonido /s/|]]",
-            "[[Sí, como en 'español'|]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Practica la pronunciación y entonación."
-        }
-      ]
+      "title": "Pronunciación: Module 4 Review",
+      "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+      "expectedResponse": "I like this outdoor.",
+      "phonetic": ""
     },
     "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-9.mp3",
     "topicName": "Pronunciation"
   },
   {
-    "id": "a1-u40-a1_u40_b40_5_i10",
-    "type": "multiple-choice",
+    "id": "a1-u40-u40_l5_i10",
+    "type": "pronunciation",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Pronunciation",
     "difficulty": "medium",
-    "transcript": "  .",
+    "transcript": "I like this can.",
     "content": {
-      "title": "Pronunciación: Were",
-      "instructions": "Practica el sonido /wɜː/.",
-      "questions": [
-        {
-          "question": "¿Cómo suena la 'e' en 'were'?",
-          "options": [
-            "[[Como una vocal neutra y larga (/ɜː/)|]]",
-            "[[Como una 'e' española|]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Practica la pronunciación y entonación."
-        }
-      ]
+      "title": "Pronunciación: Module 4 Review",
+      "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+      "expectedResponse": "I like this can.",
+      "phonetic": ""
     },
     "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-10.mp3",
     "topicName": "Pronunciation"
   },
   {
-    "id": "a1-u40-a1_u40_b40_5_i11",
-    "type": "multiple-choice",
+    "id": "a1-u40-u40_l5_i11",
+    "type": "pronunciation",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Pronunciation",
     "difficulty": "medium",
-    "transcript": " .",
+    "transcript": "I like this sports.",
     "content": {
-      "title": "Pronunciación: Piano",
-      "instructions": "Practica el diptongo /iæ/.",
-      "questions": [
-        {
-          "question": "¿Cómo termina la palabra 'piano'?",
-          "options": [
-            "[[Con un diptongo 'ou' (/əʊ/)|]]",
-            "[[Con una 'o' simple|]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Practica la pronunciación y entonación."
-        }
-      ]
+      "title": "Pronunciación: Module 4 Review",
+      "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+      "expectedResponse": "I like this sports.",
+      "phonetic": ""
     },
     "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-11.mp3",
     "topicName": "Pronunciation"
   },
   {
-    "id": "a1-u40-a1_u40_b40_5_i12",
-    "type": "multiple-choice",
+    "id": "a1-u40-u40_l5_i12",
+    "type": "pronunciation",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Pronunciation",
     "difficulty": "medium",
-    "transcript": "  .",
+    "transcript": "I like this frequency.",
     "content": {
-      "title": "Pronunciación: Tired",
-      "instructions": "Practica la terminación '-ed' que suena como /d/.",
-      "questions": [
-        {
-          "question": "¿Se pronuncia la 'e' en la terminación '-ed' de 'tired'?",
-          "options": [
-            "[[No, es muda|]]",
-            "[[Sí, suena como 'ed'|]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Practica la pronunciación y entonación."
-        }
-      ]
+      "title": "Pronunciación: Module 4 Review",
+      "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+      "expectedResponse": "I like this frequency.",
+      "phonetic": ""
     },
     "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-12.mp3",
     "topicName": "Pronunciation"
   },
   {
-    "id": "a1-u40-a1_u40_b40_5_i13",
-    "type": "multiple-choice",
+    "id": "a1-u40-u40_l5_i13",
+    "type": "pronunciation",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Pronunciation",
     "difficulty": "medium",
-    "transcript": " .",
+    "transcript": "I like this connectors.",
     "content": {
-      "title": "Pronunciación: Cold",
-      "instructions": "Practica la 'l' oscura final.",
-      "questions": [
-        {
-          "question": "¿Cómo suena la 'o' en 'cold'?",
-          "options": [
-            "[[Como el diptongo 'ou' (/əʊ/)|]]",
-            "[[Como una 'o' simple|]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Practica la pronunciación y entonación."
-        }
-      ]
+      "title": "Pronunciación: Module 4 Review",
+      "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+      "expectedResponse": "I like this connectors.",
+      "phonetic": ""
     },
     "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-13.mp3",
     "topicName": "Pronunciation"
   },
   {
-    "id": "a1-u40-a1_u40_b40_5_i14",
-    "type": "multiple-choice",
+    "id": "a1-u40-u40_l5_i14",
+    "type": "pronunciation",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Pronunciation",
     "difficulty": "medium",
-    "transcript": "  .",
+    "transcript": "I like this free time.",
     "content": {
-      "title": "Pronunciación: Runner",
-      "instructions": "Practica la 'u' corta (/ʌ/).",
-      "questions": [
-        {
-          "question": "¿Cómo suena la 'r' final en inglés británico?",
-          "options": [
-            "[[Casi no se oye, se convierte en un sonido débil (/ə/)|]]",
-            "[[Muy fuerte como en español|]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Practica la pronunciación y entonación."
-        }
-      ]
+      "title": "Pronunciación: Module 4 Review",
+      "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+      "expectedResponse": "I like this free time.",
+      "phonetic": ""
     },
     "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-14.mp3",
     "topicName": "Pronunciation"
   },
   {
-    "id": "a1-u40-a1_u40_b40_5_i15",
-    "type": "multiple-choice",
+    "id": "a1-u40-u40_l5_i15",
+    "type": "pronunciation",
     "level": "A1",
-    "topic": "Listening & Pronunciation",
+    "topic": "Pronunciation",
     "difficulty": "medium",
-    "transcript": "  .",
+    "transcript": "I like this instruments.",
     "content": {
-      "title": "Pronunciación: Review",
-      "instructions": "Practica la uve (/v/) final.",
-      "questions": [
-        {
-          "question": "¿Cómo se pronuncia la 'v' en 'review'?",
-          "options": [
-            "[[Como una 'v' vibrante (dientes en labio inferior)|]]",
-            "[[Como una 'b' española|]]"
-          ],
-          "correctAnswer": 0,
-          "explanation": "Practica la pronunciación y entonación."
-        }
-      ]
+      "title": "Pronunciación: Module 4 Review",
+      "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+      "expectedResponse": "I like this instruments.",
+      "phonetic": ""
     },
     "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-15.mp3",
     "topicName": "Pronunciation"
   }
-
 ];

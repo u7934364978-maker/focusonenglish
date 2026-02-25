@@ -444,8 +444,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Dónde recae el acento en 'hotel'?",
               "options": [
-                { "id": "o1", "text": "En la segunda sílaba (ho-TEL)" },
-                { "id": "o2", "text": "En la primera sílaba (HO-tel)" }
+                {
+                  "id": "o1",
+                  "text": "En la segunda sílaba (ho-TEL)"
+                },
+                {
+                  "id": "o2",
+                  "text": "En la primera sílaba (HO-tel)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -477,8 +483,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'c' en 'reception'?",
               "options": [
-                { "id": "o1", "text": "Como una 's' (/s/)" },
-                { "id": "o2", "text": "Como una 'k'" }
+                {
+                  "id": "o1",
+                  "text": "Como una 's' (/s/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'k'"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -510,8 +522,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'oo' en 'room'?",
               "options": [
-                { "id": "o1", "text": "Como una 'u' larga (/uː/)" },
-                { "id": "o2", "text": "Como una 'u' corta" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'u' larga (/uː/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'u' corta"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -543,8 +561,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿En inglés británico, se pronuncia la 'r' final de 'floor' si es la última palabra?",
               "options": [
-                { "id": "o1", "text": "No, suele ser muda" },
-                { "id": "o2", "text": "Sí, suena fuerte" }
+                {
+                  "id": "o1",
+                  "text": "No, suele ser muda"
+                },
+                {
+                  "id": "o2",
+                  "text": "Sí, suena fuerte"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -576,8 +600,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'ea' en 'breakfast'?",
               "options": [
-                { "id": "o1", "text": "Como una 'e' corta (/ɛ/)" },
-                { "id": "o2", "text": "Como una 'i' larga (/iː/)" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'e' corta (/ɛ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'i' larga (/iː/)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -609,8 +639,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'i' en 'wifi'?",
               "options": [
-                { "id": "o1", "text": "Como /aɪ/ (ai)" },
-                { "id": "o2", "text": "Como una 'i' española" }
+                {
+                  "id": "o1",
+                  "text": "Como /aɪ/ (ai)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'i' española"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -642,8 +678,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'ar' en 'card'?",
               "options": [
-                { "id": "o1", "text": "Como una 'a' larga y profunda (/ɑː/)" },
-                { "id": "o2", "text": "Como una 'e' abierta" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'a' larga y profunda (/ɑː/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'e' abierta"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -675,8 +717,1044 @@
               "type": "multiple_choice",
               "prompt_es": "¿Se pronuncia la 'l' en 'would'?",
               "options": [
-                { "id": "o1", "text": "No, es muda" },
-                { "id": "o2", "text": "Sí, suena suavemente" }
+                {
+                  "id": "o1",
+                  "text": "No, es muda"
+                },
+                {
+                  "id": "o2",
+                  "text": "Sí, suena suavemente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U46_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hotel' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hotel"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'room' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Room"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'key' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Key"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reservation' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Reservation"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reception' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Reception"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'breakfast' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Breakfast"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'shower' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Shower"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hotel' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hotel"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'room' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Room"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'key' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Key"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reservation' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Reservation"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reception' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Reception"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'breakfast' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Breakfast"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'shower' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Shower"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hotel' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hotel"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'room' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Room"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'key' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Key"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reservation' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Reservation"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reception' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Reception"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'breakfast' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Breakfast"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'shower' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Shower"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hotel' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hotel"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'room' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Room"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'key' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Key"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reservation' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Reservation"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'reception' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Reception"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'breakfast' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Breakfast"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'shower' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Shower"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U46_FILLER_28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hotel' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hotel"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "U46_L5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit46/lesson5-task-1.mp3",
+          "transcript_template": "The [[hotel|]] is here.",
+          "correct_answer": "hotel",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U46_L5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit46/lesson5-task-2.mp3",
+          "transcript_template": "The [[room|]] is here.",
+          "correct_answer": "room",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U46_L5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit46/lesson5-task-3.mp3",
+          "transcript_template": "The [[key|]] is here.",
+          "correct_answer": "key",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U46_L5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit46/lesson5-task-4.mp3",
+          "transcript_template": "The [[reservation|]] is here.",
+          "correct_answer": "reservation",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U46_L5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit46/lesson5-task-5.mp3",
+          "transcript_template": "The [[reception|]] is here.",
+          "correct_answer": "reception",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U46_L5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit46/lesson5-task-6.mp3",
+          "transcript_template": "The [[breakfast|]] is here.",
+          "correct_answer": "breakfast",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U46_L5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit46/lesson5-task-7.mp3",
+          "transcript_template": "The [[shower|]] is here.",
+          "correct_answer": "shower",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U46_L5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: At the Hotel",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[hotel|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U46_L5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'hotel'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U46_L5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: At the Hotel",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[room|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U46_L5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'room'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U46_L5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: At the Hotel",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[key|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U46_L5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'key'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U46_L5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: At the Hotel",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[reservation|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U46_L5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'reservation'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U46_L5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: At the Hotel",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[reception|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U46_L5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'reception'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U46_L5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: At the Hotel",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[breakfast|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U46_L5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'breakfast'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U46_L5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: At the Hotel",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[shower|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U46_L5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'shower'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U46_L5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: At the Hotel",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[hotel|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U46_L5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'hotel'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

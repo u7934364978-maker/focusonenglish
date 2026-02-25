@@ -475,8 +475,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Dónde recae el acento en 'museum'?",
               "options": [
-                { "id": "o1", "text": "En la segunda sílaba (mu-SE-um)" },
-                { "id": "o2", "text": "En la primera sílaba (MU-se-um)" }
+                {
+                  "id": "o1",
+                  "text": "En la segunda sílaba (mu-SE-um)"
+                },
+                {
+                  "id": "o2",
+                  "text": "En la primera sílaba (MU-se-um)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -508,8 +514,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Dónde recae el acento en 'monument'?",
               "options": [
-                { "id": "o1", "text": "En la primera sílaba (MON-u-ment)" },
-                { "id": "o2", "text": "En la última sílaba" }
+                {
+                  "id": "o1",
+                  "text": "En la primera sílaba (MON-u-ment)"
+                },
+                {
+                  "id": "o2",
+                  "text": "En la última sílaba"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -541,8 +553,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'ui' en 'guide'?",
               "options": [
-                { "id": "o1", "text": "Como /aɪ/ (ai)" },
-                { "id": "o2", "text": "Como una 'u' simple" }
+                {
+                  "id": "o1",
+                  "text": "Como /aɪ/ (ai)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'u' simple"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -574,8 +592,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'a' en 'map'?",
               "options": [
-                { "id": "o1", "text": "Como una 'a' abierta (/æ/)" },
-                { "id": "o2", "text": "Como una 'o' corta" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'a' abierta (/æ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'o' corta"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -607,8 +631,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cuántas sílabas sueles oír en la pronunciación rápida de 'camera'?",
               "options": [
-                { "id": "o1", "text": "Dos (CAM-ra)" },
-                { "id": "o2", "text": "Tres (CA-me-ra)" }
+                {
+                  "id": "o1",
+                  "text": "Dos (CAM-ra)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Tres (CA-me-ra)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -640,8 +670,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿La 't' final en 'ticket' es sonora o sorda?",
               "options": [
-                { "id": "o1", "text": "Sorda (sin vibración de las cuerdas vocales)" },
-                { "id": "o2", "text": "Sonora" }
+                {
+                  "id": "o1",
+                  "text": "Sorda (sin vibración de las cuerdas vocales)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Sonora"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -673,8 +709,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'ou' en 'tour'?",
               "options": [
-                { "id": "o1", "text": "Como /ʊə/ (u-a suave)" },
-                { "id": "o2", "text": "Como una 'o' fuerte" }
+                {
+                  "id": "o1",
+                  "text": "Como /ʊə/ (u-a suave)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'o' fuerte"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -706,8 +748,1044 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'z' en 'amazing'?",
               "options": [
-                { "id": "o1", "text": "Vibrante como una abeja (/z/)" },
-                { "id": "o2", "text": "Como una 's' española" }
+                {
+                  "id": "o1",
+                  "text": "Vibrante como una abeja (/z/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 's' española"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U48_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'museum' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Museum"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'statue' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Statue"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bridge' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bridge"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tower' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tower"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'castle' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Castle"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tour' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tour"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'guide' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Guide"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'museum' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Museum"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'statue' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Statue"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bridge' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bridge"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tower' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tower"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'castle' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Castle"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tour' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tour"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'guide' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Guide"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'museum' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Museum"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'statue' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Statue"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bridge' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bridge"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tower' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tower"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'castle' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Castle"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tour' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tour"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'guide' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Guide"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'museum' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Museum"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'statue' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Statue"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bridge' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bridge"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tower' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tower"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'castle' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Castle"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'tour' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Tour"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'guide' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Guide"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U48_FILLER_28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'museum' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Museum"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "U48_L5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit48/lesson5-task-1.mp3",
+          "transcript_template": "The [[museum|]] is here.",
+          "correct_answer": "museum",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U48_L5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit48/lesson5-task-2.mp3",
+          "transcript_template": "The [[statue|]] is here.",
+          "correct_answer": "statue",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U48_L5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit48/lesson5-task-3.mp3",
+          "transcript_template": "The [[bridge|]] is here.",
+          "correct_answer": "bridge",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U48_L5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit48/lesson5-task-4.mp3",
+          "transcript_template": "The [[tower|]] is here.",
+          "correct_answer": "tower",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U48_L5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit48/lesson5-task-5.mp3",
+          "transcript_template": "The [[castle|]] is here.",
+          "correct_answer": "castle",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U48_L5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit48/lesson5-task-6.mp3",
+          "transcript_template": "The [[tour|]] is here.",
+          "correct_answer": "tour",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U48_L5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit48/lesson5-task-7.mp3",
+          "transcript_template": "The [[guide|]] is here.",
+          "correct_answer": "guide",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U48_L5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Sightseeing",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[museum|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U48_L5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'museum'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U48_L5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Sightseeing",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[statue|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U48_L5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'statue'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U48_L5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Sightseeing",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[bridge|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U48_L5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'bridge'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U48_L5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Sightseeing",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[tower|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U48_L5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'tower'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U48_L5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Sightseeing",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[castle|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U48_L5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'castle'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U48_L5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Sightseeing",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[tour|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U48_L5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'tour'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U48_L5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Sightseeing",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[guide|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U48_L5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'guide'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U48_L5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Sightseeing",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[museum|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U48_L5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'museum'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

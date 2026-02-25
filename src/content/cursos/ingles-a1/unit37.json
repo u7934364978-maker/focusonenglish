@@ -308,86 +308,1007 @@
       ]
     },
     {
-      "block_id": "B37_5",
-      "title": "Lesson 5: Listening & Pronunciation Practice",
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U37_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Dance"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'paint' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Paint"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cook"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'write' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Write"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'act' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Act"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'talent' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Talent"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Dance"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'paint' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Paint"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cook"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'write' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Write"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'act' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Act"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'talent' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Talent"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Dance"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'paint' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Paint"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cook"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'write' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Write"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'act' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Act"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'talent' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Talent"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Dance"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'paint' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Paint"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cook"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'write' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Write"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'act' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Act"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'talent' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Talent"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Dance"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'paint' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Paint"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cook"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'write' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Write"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'act' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Act"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'talent' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Talent"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Dance"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'paint' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Paint"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cook"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'write' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Write"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'act' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Act"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'talent' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Talent"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Dance"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'paint' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Paint"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cook"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U37_FILLER_46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'write' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Write"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
       "duration_minutes": 20,
       "content": [
         {
-          "interaction_id": "A1_U37_B37_5_I1",
+          "interaction_id": "U37_L5_I1",
           "type": "listening_dictation",
           "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-1.mp3",
-          "transcript_template": "[[He|Él]] [[is|es]] [[very|muy]] ________.",
-          "correct_answer": "creative",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "A1_U37_B37_5_I2",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
-          "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-2.mp3",
-          "transcript_template": "[[She|Ella]] [[works|trabaja]] ________ [[well|bien]].",
-          "correct_answer": "quite",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "A1_U37_B37_5_I3",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
-          "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-3.mp3",
-          "transcript_template": "[[I|Yo]] [[am|soy]] [[not|no]] ________ [[at all|para nada]].",
-          "correct_answer": "fast",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "A1_U37_B37_5_I4",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
-          "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-4.mp3",
-          "transcript_template": "[[They|Ellos]] [[are|son]] ________ [[students|estudiantes]].",
-          "correct_answer": "hardworking",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "A1_U37_B37_5_I5",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
-          "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-5.mp3",
-          "transcript_template": "________ [[you|tú]] [[play|tocar]] [[the piano|el piano]] [[well|bien]]?",
-          "correct_answer": "Can",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "A1_U37_B37_5_I6",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
-          "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-6.mp3",
-          "transcript_template": "[[I|Yo]] [[can|puedo]] ________ [[very well|muy bien]].",
+          "transcript_template": "The [[sing|]] is here.",
           "correct_answer": "sing",
           "mastery_tag": "listening",
           "complexity": 2,
@@ -397,12 +1318,12 @@
           ]
         },
         {
-          "interaction_id": "A1_U37_B37_5_I7",
+          "interaction_id": "U37_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
-          "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-7.mp3",
-          "transcript_template": "[[He|Él]] [[is|es]] a [[fast|rápido]] ________.",
-          "correct_answer": "runner",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-2.mp3",
+          "transcript_template": "The [[dance|]] is here.",
+          "correct_answer": "dance",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
@@ -411,26 +1332,102 @@
           ]
         },
         {
-          "interaction_id": "A1_U37_B37_5_I8",
+          "interaction_id": "U37_L5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-3.mp3",
+          "transcript_template": "The [[paint|]] is here.",
+          "correct_answer": "paint",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U37_L5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-4.mp3",
+          "transcript_template": "The [[cook|]] is here.",
+          "correct_answer": "cook",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U37_L5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-5.mp3",
+          "transcript_template": "The [[write|]] is here.",
+          "correct_answer": "write",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U37_L5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-6.mp3",
+          "transcript_template": "The [[act|]] is here.",
+          "correct_answer": "act",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U37_L5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-7.mp3",
+          "transcript_template": "The [[talent|]] is here.",
+          "correct_answer": "talent",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U37_L5_I8",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Creative",
-          "instructions": "Practica el sonido /i/ largo y el diptongo /eɪ/.",
+          "title": "Pronunciación: Talent & Skills",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[She|Ella]] [[is|es]] [[very|muy]] [[creative|creativa]].",
-              "phonetic": "/ʃi ɪz ˈvɛri kriˈeɪtɪv/",
+              "text": "I [[like|me gusta]] this [[sing|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-8.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U37_B37_5_I8_Q1",
+              "id": "U37_L5_I8_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cuál es la sílaba tónica en 'creative'?",
+              "prompt_es": "¿Cómo se pronuncia 'sing'?",
               "options": [
-                { "id": "o1", "text": "La segunda (cre-A-tive)" },
-                { "id": "o2", "text": "La primera (CRE-a-tive)" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -444,26 +1441,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U37_B37_5_I9",
+          "interaction_id": "U37_L5_I9",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Hardworking",
-          "instructions": "Practica la pronunciación de la 'h' aspirada.",
+          "title": "Pronunciación: Talent & Skills",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[He|Él]] [[is|es]] [[hardworking|trabajador]].",
-              "phonetic": "/hi ɪz ˈhɑːdˌwɜːkɪŋ/",
+              "text": "I [[like|me gusta]] this [[dance|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-9.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U37_B37_5_I9_Q1",
+              "id": "U37_L5_I9_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'h' en 'hardworking'?",
+              "prompt_es": "¿Cómo se pronuncia 'dance'?",
               "options": [
-                { "id": "o1", "text": "Como un suspiro suave (aspirada)" },
-                { "id": "o2", "text": "Es muda como en español" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -477,26 +1480,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U37_B37_5_I10",
+          "interaction_id": "U37_L5_I10",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Fast",
-          "instructions": "Practica la 'a' larga británica (/ɑː/).",
+          "title": "Pronunciación: Talent & Skills",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[I|Yo]] [[am|soy]] [[fast|rápido]].",
-              "phonetic": "/aɪ æm fɑːst/",
+              "text": "I [[like|me gusta]] this [[paint|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-10.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U37_B37_5_I10_Q1",
+              "id": "U37_L5_I10_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'a' en 'fast'?",
+              "prompt_es": "¿Cómo se pronuncia 'paint'?",
               "options": [
-                { "id": "o1", "text": "Como una 'a' abierta y profunda (/ɑː/)" },
-                { "id": "o2", "text": "Como una 'e' corta" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -510,26 +1519,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U37_B37_5_I11",
+          "interaction_id": "U37_L5_I11",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Talent",
-          "instructions": "Practica el sonido /æ/ inicial.",
+          "title": "Pronunciación: Talent & Skills",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[He|Él]] [[has|tiene]] [[talent|talento]].",
-              "phonetic": "/hi hæz ˈtælənt/",
+              "text": "I [[like|me gusta]] this [[cook|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-11.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U37_B37_5_I11_Q1",
+              "id": "U37_L5_I11_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'a' en 'talent'?",
+              "prompt_es": "¿Cómo se pronuncia 'cook'?",
               "options": [
-                { "id": "o1", "text": "Como una mezcla entre 'a' y 'e' (/æ/)" },
-                { "id": "o2", "text": "Como una 'o'" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -543,26 +1558,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U37_B37_5_I12",
+          "interaction_id": "U37_L5_I12",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Skills",
-          "instructions": "Practica la 'i' corta (/ɪ/).",
+          "title": "Pronunciación: Talent & Skills",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[New|Nuevas]] [[skills|habilidades]].",
-              "phonetic": "/njuː skɪlz/",
+              "text": "I [[like|me gusta]] this [[write|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-12.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U37_B37_5_I12_Q1",
+              "id": "U37_L5_I12_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿La 'i' en 'skills' es larga o corta?",
+              "prompt_es": "¿Cómo se pronuncia 'write'?",
               "options": [
-                { "id": "o1", "text": "Corta (/ɪ/)" },
-                { "id": "o2", "text": "Larga (/iː/)" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -576,26 +1597,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U37_B37_5_I13",
+          "interaction_id": "U37_L5_I13",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Runner",
-          "instructions": "Practica la 'u' corta (/ʌ/).",
+          "title": "Pronunciación: Talent & Skills",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[A|Un]] [[fast|rápido]] [[runner|corredor]].",
-              "phonetic": "/ə fɑːst ˈrʌnə/",
+              "text": "I [[like|me gusta]] this [[act|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-13.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U37_B37_5_I13_Q1",
+              "id": "U37_L5_I13_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'u' en 'runner'?",
+              "prompt_es": "¿Cómo se pronuncia 'act'?",
               "options": [
-                { "id": "o1", "text": "Como una 'a' corta y central (/ʌ/)" },
-                { "id": "o2", "text": "Como una 'u' española" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -609,26 +1636,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U37_B37_5_I14",
+          "interaction_id": "U37_L5_I14",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Sing",
-          "instructions": "Practica el sonido nasal final /ŋ/.",
+          "title": "Pronunciación: Talent & Skills",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[I|Yo]] [[can|puedo]] [[sing|cantar]].",
-              "phonetic": "/aɪ kən sɪŋ/",
+              "text": "I [[like|me gusta]] this [[talent|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-14.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U37_B37_5_I14_Q1",
+              "id": "U37_L5_I14_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Se debe pronunciar una 'g' fuerte al final de 'sing'?",
+              "prompt_es": "¿Cómo se pronuncia 'talent'?",
               "options": [
-                { "id": "o1", "text": "No, es un sonido nasal suave" },
-                { "id": "o2", "text": "Sí, como en 'gato'" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -642,26 +1675,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U37_B37_5_I15",
+          "interaction_id": "U37_L5_I15",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Quite well",
-          "instructions": "Practica la 'q' (/kw/) y la 'w' (/w/).",
+          "title": "Pronunciación: Talent & Skills",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[Quite|Bastante]] [[well|bien]].",
-              "phonetic": "/kwaɪt wɛl/",
+              "text": "I [[like|me gusta]] this [[sing|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit37/lesson5-task-15.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U37_B37_5_I15_Q1",
+              "id": "U37_L5_I15_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'w' en 'well'?",
+              "prompt_es": "¿Cómo se pronuncia 'sing'?",
               "options": [
-                { "id": "o1", "text": "Como una 'u' rápida" },
-                { "id": "o2", "text": "Como una 'g' española" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

@@ -334,129 +334,1126 @@
       ]
     },
     {
-      "block_id": "B34_5",
-      "title": "Lesson 5: Listening & Pronunciation Practice",
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U34_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'and' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "And"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'but' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "But"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'because' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Because"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'so' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "So"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'or' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Or"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'then' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Then"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'finally' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Finally"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'and' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "And"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'but' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "But"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'because' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Because"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'so' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "So"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'or' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Or"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'then' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Then"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'finally' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Finally"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'and' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "And"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'but' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "But"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'because' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Because"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'so' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "So"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'or' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Or"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'then' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Then"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'finally' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Finally"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'and' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "And"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'but' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "But"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'because' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Because"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'so' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "So"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'or' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Or"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'then' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Then"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'finally' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Finally"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'and' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "And"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'but' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "But"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'because' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Because"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'so' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "So"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'or' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Or"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'then' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Then"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'finally' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Finally"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'and' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "And"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'but' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "But"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'because' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Because"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'so' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "So"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'or' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Or"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'then' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Then"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'finally' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Finally"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'and' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "And"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'but' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "But"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'because' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Because"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'so' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "So"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U34_FILLER_46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'or' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Or"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
       "duration_minutes": 20,
       "content": [
         {
-          "interaction_id": "A1_U34_B34_5_I1",
+          "interaction_id": "U34_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa el conector:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-1.mp3",
-          "transcript_template": "[[I|Yo]] [[like|me gusta]] [[apples|las manzanas]] ________ [[bananas|plátanos]].",
+          "transcript_template": "The [[and|]] is here.",
           "correct_answer": "and",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U34_B34_5_I2",
+          "interaction_id": "U34_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-2.mp3",
-          "transcript_template": "[[I|Yo]] [[am|estoy]] [[tired|cansado]] ________ [[I|yo]] [[am|estoy]] [[happy|feliz]].",
+          "transcript_template": "The [[but|]] is here.",
           "correct_answer": "but",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U34_B34_5_I3",
+          "interaction_id": "U34_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-3.mp3",
-          "transcript_template": "[[She|Ella]] [[is|está]] [[at home|en casa]] ________ [[it|ello]] [[is|está]] [[raining|lloviendo]].",
+          "transcript_template": "The [[because|]] is here.",
           "correct_answer": "because",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U34_B34_5_I4",
+          "interaction_id": "U34_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-4.mp3",
-          "transcript_template": "[[He|Él]] [[can|puede]] [[sing|cantar]] ________ [[he|él]] [[can't|no puede]] [[dance|bailar]].",
-          "correct_answer": "but",
+          "transcript_template": "The [[so|]] is here.",
+          "correct_answer": "so",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U34_B34_5_I5",
+          "interaction_id": "U34_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-5.mp3",
-          "transcript_template": "[[We|Nosotros]] [[stay|nos quedamos]] [[inside|dentro]] ________ [[it|ello]] [[is|está]] [[cold|frío]].",
-          "correct_answer": "because",
+          "transcript_template": "The [[or|]] is here.",
+          "correct_answer": "or",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U34_B34_5_I6",
+          "interaction_id": "U34_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-6.mp3",
-          "transcript_template": "[[They|Ellos]] [[study|estudian]] [[maths|matemáticas]] ________ [[history|historia]].",
-          "correct_answer": "and",
+          "transcript_template": "The [[then|]] is here.",
+          "correct_answer": "then",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U34_B34_5_I7",
+          "interaction_id": "U34_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-7.mp3",
-          "transcript_template": "[[I|Yo]] [[drink|bebo]] [[water|agua]] ________ [[I|yo]] [[am|estoy]] [[thirsty|sediento]].",
-          "correct_answer": "because",
+          "transcript_template": "The [[finally|]] is here.",
+          "correct_answer": "finally",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U34_B34_5_I8",
+          "interaction_id": "U34_L5_I8",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: And",
-          "instructions": "Practica la unión con la siguiente palabra.",
+          "title": "Pronunciación: Connectors",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[Coffee|Café]] [[and|y]] [[milk|leche]].",
-              "phonetic": "/ˈkɒfi ənd mɪlk/",
+              "text": "I [[like|me gusta]] this [[and|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-8.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U34_B34_5_I8_Q1",
+              "id": "U34_L5_I8_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suele sonar la 'd' en 'and' cuando hablamos rápido?",
+              "prompt_es": "¿Cómo se pronuncia 'and'?",
               "options": [
-                { "id": "o1", "text": "A veces casi desaparece o se une a la siguiente palabra" },
-                { "id": "o2", "text": "Siempre suena muy fuerte" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -470,26 +1467,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U34_B34_5_I9",
+          "interaction_id": "U34_L5_I9",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: But",
-          "instructions": "Practica la 't' final suave.",
+          "title": "Pronunciación: Connectors",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[Small|Pequeño]] [[but|pero]] [[strong|fuerte]].",
-              "phonetic": "/smɔːl bʌt strɒŋ/",
+              "text": "I [[like|me gusta]] this [[but|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-9.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U34_B34_5_I9_Q1",
+              "id": "U34_L5_I9_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'u' en 'but'?",
+              "prompt_es": "¿Cómo se pronuncia 'but'?",
               "options": [
-                { "id": "o1", "text": "Como una 'a' corta y relajada (/ʌ/)" },
-                { "id": "o2", "text": "Como una 'u' española" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -503,26 +1506,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U34_B34_5_I10",
+          "interaction_id": "U34_L5_I10",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Because",
-          "instructions": "Practica la acentuación de 'because'.",
+          "title": "Pronunciación: Connectors",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[Happy|Feliz]] [[because|porque]] [[it|ello]] [[is|está]] [[sunny|soleado]].",
-              "phonetic": "/ˈhæpi bɪˈkɒz ɪt ɪz ˈsʌni/",
+              "text": "I [[like|me gusta]] this [[because|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-10.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U34_B34_5_I10_Q1",
+              "id": "U34_L5_I10_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cuál es la sílaba tónica en 'because'?",
+              "prompt_es": "¿Cómo se pronuncia 'because'?",
               "options": [
-                { "id": "o1", "text": "La segunda (be-CAUSE)" },
-                { "id": "o2", "text": "La primera (BE-cause)" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -536,26 +1545,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U34_B34_5_I11",
+          "interaction_id": "U34_L5_I11",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Unión de sonidos",
-          "instructions": "Escucha cómo se une 'because' con 'it'.",
+          "title": "Pronunciación: Connectors",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[Because it|Porque ello]] [[is|está]] [[late|tarde]].",
-              "phonetic": "/bɪˈkɒz ɪt ɪz leɪt/",
+              "text": "I [[like|me gusta]] this [[so|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-11.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U34_B34_5_I11_Q1",
+              "id": "U34_L5_I11_Q1",
               "type": "multiple_choice",
-              "prompt_es": "En inglés, cuando una palabra termina en consonante y la siguiente empieza en vocal, ¿suelen sonar separadas?",
+              "prompt_es": "¿Cómo se pronuncia 'so'?",
               "options": [
-                { "id": "o1", "text": "No, suelen unirse (linking)" },
-                { "id": "o2", "text": "Sí, siempre hay una pausa" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -569,26 +1584,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U34_B34_5_I12",
+          "interaction_id": "U34_L5_I12",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Contraste con 'But'",
-          "instructions": "Practica la entonación de contraste.",
+          "title": "Pronunciación: Connectors",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[I|Yo]] [[can|puedo]] [[read|leer]], [[but|pero]] [[I|yo]] [[can't|no puedo]] [[write|escribir]].",
-              "phonetic": "/aɪ kən riːd bʌt aɪ kɑːnt raɪt/",
+              "text": "I [[like|me gusta]] this [[or|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-12.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U34_B34_5_I12_Q1",
+              "id": "U34_L5_I12_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿En qué palabra suele haber una pequeña pausa justo antes?",
+              "prompt_es": "¿Cómo se pronuncia 'or'?",
               "options": [
-                { "id": "o1", "text": "But" },
-                { "id": "o2", "text": "Read" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -602,26 +1623,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U34_B34_5_I13",
+          "interaction_id": "U34_L5_I13",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Listas con 'And'",
-          "instructions": "Practica la entonación en una lista.",
+          "title": "Pronunciación: Connectors",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[Bread|Pan]], [[cheese|queso]], [[and|y]] [[eggs|huevos]].",
-              "phonetic": "/brɛd tʃiːz ənd ɛɡz/",
+              "text": "I [[like|me gusta]] this [[then|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-13.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U34_B34_5_I13_Q1",
+              "id": "U34_L5_I13_Q1",
               "type": "multiple_choice",
-              "prompt_es": "En una lista, ¿qué palabra suele ir precedida de 'and'?",
+              "prompt_es": "¿Cómo se pronuncia 'then'?",
               "options": [
-                { "id": "o1", "text": "La última" },
-                { "id": "o2", "text": "La primera" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -635,26 +1662,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U34_B34_5_I14",
+          "interaction_id": "U34_L5_I14",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Sonido 'th'",
-          "instructions": "Practica la palabra 'maths'.",
+          "title": "Pronunciación: Connectors",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[Maths|Matemáticas]] [[and|y]] [[history|historia]].",
-              "phonetic": "/mæθs ənd ˈhɪstəri/",
+              "text": "I [[like|me gusta]] this [[finally|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-14.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U34_B34_5_I14_Q1",
+              "id": "U34_L5_I14_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'th' en 'maths'?",
+              "prompt_es": "¿Cómo se pronuncia 'finally'?",
               "options": [
-                { "id": "o1", "text": "Como una 'z' española (/θ/)" },
-                { "id": "o2", "text": "Como una 't' fuerte" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -668,26 +1701,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U34_B34_5_I15",
+          "interaction_id": "U34_L5_I15",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Resumen",
-          "instructions": "Escucha and repite.",
+          "title": "Pronunciación: Connectors",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[Easy|Fácil]] [[and|y]] [[useful|útil]].",
-              "phonetic": "/ˈiːzi ənd ˈjuːsfʊl/",
+              "text": "I [[like|me gusta]] this [[and|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit34/lesson5-task-15.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U34_B34_5_I15_Q1",
+              "id": "U34_L5_I15_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'u' en 'useful'?",
+              "prompt_es": "¿Cómo se pronuncia 'and'?",
               "options": [
-                { "id": "o1", "text": "Como una 'u' larga precedida de 'y' (/juː/)" },
-                { "id": "o2", "text": "Como una 'u' española simple" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

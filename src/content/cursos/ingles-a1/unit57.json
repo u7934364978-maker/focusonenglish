@@ -532,8 +532,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'i' en 'children'?",
               "options": [
-                { "id": "o1", "text": "Corta (/ɪ/)" },
-                { "id": "o2", "text": "Larga (/aɪ/)" }
+                {
+                  "id": "o1",
+                  "text": "Corta (/ɪ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Larga (/aɪ/)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -565,8 +571,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'o' en 'women'?",
               "options": [
-                { "id": "o1", "text": "Como una 'i' corta (/ɪ/)" },
-                { "id": "o2", "text": "Como una 'o' española" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'i' corta (/ɪ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'o' española"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -598,8 +610,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cuántas sílabas tiene 'mirror'?",
               "options": [
-                { "id": "o1", "text": "Dos (mir-ror)" },
-                { "id": "o2", "text": "Una" }
+                {
+                  "id": "o1",
+                  "text": "Dos (mir-ror)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Una"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -631,8 +649,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'eo' en 'people'?",
               "options": [
-                { "id": "o1", "text": "Como una 'i' larga (/iː/)" },
-                { "id": "o2", "text": "Como 'eo' separado" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'i' larga (/iː/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como 'eo' separado"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -664,8 +688,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la terminación '-es' en 'watches'?",
               "options": [
-                { "id": "o1", "text": "Como una sílaba extra (/ɪz/)" },
-                { "id": "o2", "text": "Es silenciosa" }
+                {
+                  "id": "o1",
+                  "text": "Como una sílaba extra (/ɪz/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Es silenciosa"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -697,8 +727,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'sh' en 'cushion'?",
               "options": [
-                { "id": "o1", "text": "Como pidiendo silencio (shhh)" },
-                { "id": "o2", "text": "Como la 'ch' española" }
+                {
+                  "id": "o1",
+                  "text": "Como pidiendo silencio (shhh)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como la 'ch' española"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -730,8 +766,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'v' inicial?",
               "options": [
-                { "id": "o1", "text": "Labiodental (dientes sobre labio)" },
-                { "id": "o2", "text": "Como una 'b' bilabial" }
+                {
+                  "id": "o1",
+                  "text": "Labiodental (dientes sobre labio)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'b' bilabial"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -763,8 +805,1023 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'h' inicial?",
               "options": [
-                { "id": "o1", "text": "Aspirada (como un suspiro)" },
-                { "id": "o2", "text": "Es silenciosa" }
+                {
+                  "id": "o1",
+                  "text": "Aspirada (como un suspiro)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Es silenciosa"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U57_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cook"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'boil' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Boil"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fry' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fry"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mix' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Mix"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'add' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Add"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ingredients' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Ingredients"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'oven' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Oven"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cook"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'boil' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Boil"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fry' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fry"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mix' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Mix"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'add' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Add"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ingredients' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Ingredients"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'oven' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Oven"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cook"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'boil' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Boil"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fry' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fry"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mix' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Mix"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'add' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Add"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ingredients' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Ingredients"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'oven' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Oven"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cook"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'boil' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Boil"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fry' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fry"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'mix' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Mix"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'add' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Add"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ingredients' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Ingredients"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U57_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'oven' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Oven"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "U57_L5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-1.mp3",
+          "transcript_template": "The [[cook|]] is here.",
+          "correct_answer": "cook",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U57_L5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-2.mp3",
+          "transcript_template": "The [[boil|]] is here.",
+          "correct_answer": "boil",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U57_L5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-3.mp3",
+          "transcript_template": "The [[fry|]] is here.",
+          "correct_answer": "fry",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U57_L5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-4.mp3",
+          "transcript_template": "The [[mix|]] is here.",
+          "correct_answer": "mix",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U57_L5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-5.mp3",
+          "transcript_template": "The [[add|]] is here.",
+          "correct_answer": "add",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U57_L5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-6.mp3",
+          "transcript_template": "The [[ingredients|]] is here.",
+          "correct_answer": "ingredients",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U57_L5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-7.mp3",
+          "transcript_template": "The [[oven|]] is here.",
+          "correct_answer": "oven",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U57_L5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Cooking & Recipes",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[cook|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U57_L5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'cook'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U57_L5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Cooking & Recipes",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[boil|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U57_L5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'boil'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U57_L5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Cooking & Recipes",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[fry|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U57_L5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'fry'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U57_L5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Cooking & Recipes",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[mix|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U57_L5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'mix'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U57_L5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Cooking & Recipes",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[add|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U57_L5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'add'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U57_L5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Cooking & Recipes",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[ingredients|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U57_L5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'ingredients'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U57_L5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Cooking & Recipes",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[oven|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U57_L5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'oven'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U57_L5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Cooking & Recipes",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[cook|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U57_L5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'cook'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

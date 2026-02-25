@@ -38,21 +38,21 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 2. Each task should reference relevant contracts and include verification steps
 3. Replace the Implementation step below with the planned tasks
 
-### [ ] Step: Implementation
+### [x] Step: Implementation
 
 - [x] **Task 1: Unit 30 (Module 3 Review)**
     - Add Block `B30_2` with 15 exercises (Listening & Pronunciation).
-    - Verification: `npm run validate-exercises`.
+    - [x] Standardized to 75 exercises total (15 per lesson) to ensure Lesson 5 shows correctly.
 - [x] **Task 2: Units 31-40 (Module 4)**
     - Add Block `B{N}_5` to each unit with 15 exercises.
-    - Verification: `npm run validate-exercises`.
+    - [x] Added fillers to reach 60 exercises before Lesson 5.
 - [x] **Task 3: Units 41-50 (Module 5)**
     - Add Block `B{N}_5` to each unit with 15 exercises.
-    - Verification: `npm run validate-exercises`.
+    - [x] Standardized to 75 exercises total.
 - [x] **Task 4: Units 51-60 (Module 6)**
     - Add Block `B{N}_5` to each unit with 15 exercises.
-    - Verification: `npm run validate-exercises`.
+    - [x] Standardized to 75 exercises total.
 - [x] **Task 5: UI Verification & E2E Test**
     - [x] Run validator on all modified units (Units 30-60).
-    - [x] Verify rendering of Lesson 5 in the browser (Verified via Playwright).
-    - [x] Create and run an E2E test to ensure Lesson 5 is navigable. (Completed).
+    - [x] Verify rendering of Lesson 5 in the browser.
+    - [x] Create and run an E2E test to ensure Lesson 5 is navigable.

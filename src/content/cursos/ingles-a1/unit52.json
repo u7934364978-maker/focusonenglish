@@ -476,8 +476,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'ea' en 'bread'?",
               "options": [
-                { "id": "o1", "text": "Como una 'e' corta (/ɛ/)" },
-                { "id": "o2", "text": "Como una 'i' larga (/iː/)" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'e' corta (/ɛ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'i' larga (/iː/)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -509,8 +515,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 's' inicial en 'sugar'?",
               "options": [
-                { "id": "o1", "text": "Como pidiendo silencio (shhh)" },
-                { "id": "o2", "text": "Como una 's' normal" }
+                {
+                  "id": "o1",
+                  "text": "Como pidiendo silencio (shhh)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 's' normal"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -542,8 +554,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cuántas sílabas tiene 'water'?",
               "options": [
-                { "id": "o1", "text": "Dos (wa-ter)" },
-                { "id": "o2", "text": "Una" }
+                {
+                  "id": "o1",
+                  "text": "Dos (wa-ter)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Una"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -575,8 +593,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'i' en 'milk'?",
               "options": [
-                { "id": "o1", "text": "Corta (/ɪ/)" },
-                { "id": "o2", "text": "Como 'ai' (/aɪ/)" }
+                {
+                  "id": "o1",
+                  "text": "Corta (/ɪ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como 'ai' (/aɪ/)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -608,8 +632,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Dónde recae el acento en 'orange'?",
               "options": [
-                { "id": "o1", "text": "En la primera sílaba (O-range)" },
-                { "id": "o2", "text": "En la segunda sílaba" }
+                {
+                  "id": "o1",
+                  "text": "En la primera sílaba (O-range)"
+                },
+                {
+                  "id": "o2",
+                  "text": "En la segunda sílaba"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -641,8 +671,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'i' en 'rice'?",
               "options": [
-                { "id": "o1", "text": "Como /aɪ/ (ai)" },
-                { "id": "o2", "text": "Como 'i' simple" }
+                {
+                  "id": "o1",
+                  "text": "Como /aɪ/ (ai)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como 'i' simple"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -674,8 +710,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Se pronuncia la 'e' final en 'apple'?",
               "options": [
-                { "id": "o1", "text": "No, es silenciosa" },
-                { "id": "o2", "text": "Sí" }
+                {
+                  "id": "o1",
+                  "text": "No, es silenciosa"
+                },
+                {
+                  "id": "o2",
+                  "text": "Sí"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -707,8 +749,1065 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'o' en 'some'?",
               "options": [
-                { "id": "o1", "text": "Como una 'a' corta (/ʌ/)" },
-                { "id": "o2", "text": "Como una 'o' cerrada" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'a' corta (/ʌ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'o' cerrada"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U52_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sugar' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sugar"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'salt' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Salt"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'water' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Water"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'apple' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Apple"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'banana' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Banana"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'some' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Some"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'any' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Any"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sugar' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sugar"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'salt' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Salt"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'water' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Water"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'apple' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Apple"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'banana' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Banana"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'some' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Some"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'any' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Any"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sugar' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sugar"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'salt' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Salt"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'water' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Water"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'apple' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Apple"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'banana' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Banana"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'some' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Some"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'any' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Any"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sugar' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sugar"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'salt' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Salt"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'water' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Water"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'apple' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Apple"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'banana' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Banana"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'some' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Some"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'any' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Any"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sugar' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sugar"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U52_FILLER_29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'salt' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Salt"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "U52_L5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit52/lesson5-task-1.mp3",
+          "transcript_template": "The [[sugar|]] is here.",
+          "correct_answer": "sugar",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U52_L5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit52/lesson5-task-2.mp3",
+          "transcript_template": "The [[salt|]] is here.",
+          "correct_answer": "salt",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U52_L5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit52/lesson5-task-3.mp3",
+          "transcript_template": "The [[water|]] is here.",
+          "correct_answer": "water",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U52_L5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit52/lesson5-task-4.mp3",
+          "transcript_template": "The [[apple|]] is here.",
+          "correct_answer": "apple",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U52_L5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit52/lesson5-task-5.mp3",
+          "transcript_template": "The [[banana|]] is here.",
+          "correct_answer": "banana",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U52_L5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit52/lesson5-task-6.mp3",
+          "transcript_template": "The [[some|]] is here.",
+          "correct_answer": "some",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U52_L5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit52/lesson5-task-7.mp3",
+          "transcript_template": "The [[any|]] is here.",
+          "correct_answer": "any",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U52_L5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Countable & Uncountable",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[sugar|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U52_L5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'sugar'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U52_L5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Countable & Uncountable",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[salt|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U52_L5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'salt'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U52_L5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Countable & Uncountable",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[water|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U52_L5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'water'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U52_L5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Countable & Uncountable",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[apple|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U52_L5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'apple'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U52_L5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Countable & Uncountable",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[banana|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U52_L5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'banana'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U52_L5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Countable & Uncountable",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[some|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U52_L5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'some'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U52_L5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Countable & Uncountable",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[any|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U52_L5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'any'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U52_L5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Countable & Uncountable",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[sugar|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U52_L5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'sugar'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

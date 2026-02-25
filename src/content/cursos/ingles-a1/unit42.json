@@ -470,8 +470,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'tr' en 'train'?",
               "options": [
-                { "id": "o1", "text": "Como una 't' africada suave (/tr/)" },
-                { "id": "o2", "text": "Como la 'tr' española" }
+                {
+                  "id": "o1",
+                  "text": "Como una 't' africada suave (/tr/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como la 'tr' española"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -503,8 +509,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'u' en 'bus'?",
               "options": [
-                { "id": "o1", "text": "Como una 'a' corta (/ʌ/)" },
-                { "id": "o2", "text": "Como una 'u' española" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'a' corta (/ʌ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'u' española"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -536,8 +548,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena '-tion' en 'station'?",
               "options": [
-                { "id": "o1", "text": "Como /ʃn/ (sh-n)" },
-                { "id": "o2", "text": "Como 'cion' en español" }
+                {
+                  "id": "o1",
+                  "text": "Como /ʃn/ (sh-n)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como 'cion' en español"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -569,8 +587,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cuál es la sílaba tónica en 'platform'?",
               "options": [
-                { "id": "o1", "text": "La primera (PLAT-form)" },
-                { "id": "o2", "text": "La segunda (plat-FORM)" }
+                {
+                  "id": "o1",
+                  "text": "La primera (PLAT-form)"
+                },
+                {
+                  "id": "o2",
+                  "text": "La segunda (plat-FORM)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -602,8 +626,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la primera 'i' en 'bicycle'?",
               "options": [
-                { "id": "o1", "text": "Como /aɪ/ (ai)" },
-                { "id": "o2", "text": "Como /ɪ/ (i corta)" }
+                {
+                  "id": "o1",
+                  "text": "Como /aɪ/ (ai)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como /ɪ/ (i corta)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -635,8 +665,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿La 'f' en 'ferry' es igual que en español?",
               "options": [
-                { "id": "o1", "text": "Sí, es similar" },
-                { "id": "o2", "text": "No, es muy diferente" }
+                {
+                  "id": "o1",
+                  "text": "Sí, es similar"
+                },
+                {
+                  "id": "o2",
+                  "text": "No, es muy diferente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -668,8 +704,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cuántos sonidos vocálicos fuertes (diptongos) hay en 'motorbike'?",
               "options": [
-                { "id": "o1", "text": "Dos (/əʊ/ y /aɪ/)" },
-                { "id": "o2", "text": "Uno" }
+                {
+                  "id": "o1",
+                  "text": "Dos (/əʊ/ y /aɪ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Uno"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -701,8 +743,1044 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'a' en 'travel'?",
               "options": [
-                { "id": "o1", "text": "Como una 'a' abierta (/æ/)" },
-                { "id": "o2", "text": "Como una 'e' española" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'a' abierta (/æ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'e' española"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U42_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bus' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bus"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'train' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Train"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'plane' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Plane"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'taxi' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Taxi"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bicycle' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bicycle"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'station' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Station"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ticket' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Ticket"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bus' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bus"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'train' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Train"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'plane' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Plane"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'taxi' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Taxi"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bicycle' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bicycle"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'station' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Station"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ticket' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Ticket"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bus' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bus"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'train' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Train"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'plane' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Plane"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'taxi' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Taxi"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bicycle' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bicycle"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'station' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Station"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ticket' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Ticket"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bus' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bus"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'train' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Train"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'plane' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Plane"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'taxi' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Taxi"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bicycle' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bicycle"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'station' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Station"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'ticket' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Ticket"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U42_FILLER_28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bus' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bus"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "U42_L5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit42/lesson5-task-1.mp3",
+          "transcript_template": "The [[bus|]] is here.",
+          "correct_answer": "bus",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U42_L5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit42/lesson5-task-2.mp3",
+          "transcript_template": "The [[train|]] is here.",
+          "correct_answer": "train",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U42_L5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit42/lesson5-task-3.mp3",
+          "transcript_template": "The [[plane|]] is here.",
+          "correct_answer": "plane",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U42_L5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit42/lesson5-task-4.mp3",
+          "transcript_template": "The [[taxi|]] is here.",
+          "correct_answer": "taxi",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U42_L5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit42/lesson5-task-5.mp3",
+          "transcript_template": "The [[bicycle|]] is here.",
+          "correct_answer": "bicycle",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U42_L5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit42/lesson5-task-6.mp3",
+          "transcript_template": "The [[station|]] is here.",
+          "correct_answer": "station",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U42_L5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit42/lesson5-task-7.mp3",
+          "transcript_template": "The [[ticket|]] is here.",
+          "correct_answer": "ticket",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U42_L5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Transport",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[bus|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U42_L5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'bus'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U42_L5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Transport",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[train|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U42_L5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'train'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U42_L5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Transport",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[plane|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U42_L5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'plane'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U42_L5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Transport",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[taxi|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U42_L5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'taxi'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U42_L5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Transport",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[bicycle|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U42_L5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'bicycle'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U42_L5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Transport",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[station|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U42_L5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'station'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U42_L5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Transport",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[ticket|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U42_L5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'ticket'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U42_L5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: Transport",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[bus|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U42_L5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'bus'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

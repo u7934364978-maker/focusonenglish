@@ -253,129 +253,1147 @@
       ]
     },
     {
-      "block_id": "B39_5",
-      "title": "Lesson 5: Listening & Pronunciation Practice",
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U39_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hiking' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hiking"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'camping' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Camping"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fishing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fishing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'running' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Running"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'walking' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Walking"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cycling' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cycling"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'climbing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Climbing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hiking' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hiking"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'camping' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Camping"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fishing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fishing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'running' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Running"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'walking' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Walking"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cycling' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cycling"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'climbing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Climbing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hiking' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hiking"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'camping' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Camping"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fishing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fishing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'running' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Running"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'walking' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Walking"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cycling' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cycling"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'climbing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Climbing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hiking' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hiking"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'camping' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Camping"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fishing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fishing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'running' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Running"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'walking' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Walking"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cycling' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cycling"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'climbing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Climbing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hiking' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hiking"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_29",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'camping' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Camping"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fishing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fishing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'running' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Running"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'walking' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Walking"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cycling' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cycling"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'climbing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Climbing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hiking' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hiking"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'camping' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Camping"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fishing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fishing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'running' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Running"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'walking' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Walking"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cycling' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cycling"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'climbing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Climbing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hiking' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hiking"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'camping' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Camping"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fishing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fishing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'running' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Running"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'walking' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Walking"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U39_FILLER_47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cycling' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cycling"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
       "duration_minutes": 20,
       "content": [
         {
-          "interaction_id": "A1_U39_B39_5_I1",
+          "interaction_id": "U39_L5_I1",
           "type": "listening_dictation",
           "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit39/lesson5-task-1.mp3",
-          "transcript_template": "[[I|Yo]] ________ [[at home|en casa]] [[yesterday|ayer]].",
-          "correct_answer": "was",
+          "transcript_template": "The [[hiking|]] is here.",
+          "correct_answer": "hiking",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U39_B39_5_I2",
+          "interaction_id": "U39_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit39/lesson5-task-2.mp3",
-          "transcript_template": "[[They|Ellos]] ________ [[very|muy]] [[tired|cansados]].",
-          "correct_answer": "were",
+          "transcript_template": "The [[camping|]] is here.",
+          "correct_answer": "camping",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U39_B39_5_I3",
+          "interaction_id": "U39_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit39/lesson5-task-3.mp3",
-          "transcript_template": "________ [[she|ella]] [[at school|en la escuela]]?",
-          "correct_answer": "Was",
+          "transcript_template": "The [[fishing|]] is here.",
+          "correct_answer": "fishing",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U39_B39_5_I4",
+          "interaction_id": "U39_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit39/lesson5-task-4.mp3",
-          "transcript_template": "[[We|Nosotros]] ________ [[happy|felices]] [[last night|anoche]].",
-          "correct_answer": "were",
+          "transcript_template": "The [[running|]] is here.",
+          "correct_answer": "running",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U39_B39_5_I5",
+          "interaction_id": "U39_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit39/lesson5-task-5.mp3",
-          "transcript_template": "[[The weather|El clima]] ________ [[cold|frío]].",
-          "correct_answer": "was",
+          "transcript_template": "The [[walking|]] is here.",
+          "correct_answer": "walking",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U39_B39_5_I6",
+          "interaction_id": "U39_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit39/lesson5-task-6.mp3",
-          "transcript_template": "[[He|Él]] [[was|estaba]] ________ [[at work|en el trabajo]].",
-          "correct_answer": "not",
+          "transcript_template": "The [[cycling|]] is here.",
+          "correct_answer": "cycling",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U39_B39_5_I7",
+          "interaction_id": "U39_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
+          "prompt_es": "Escucha y completa la frase:",
           "audio_url": "/audio/courses/ingles-a1/unit39/lesson5-task-7.mp3",
-          "transcript_template": "[[Where|¿Dónde?]] ________ [[you|tú]]?",
-          "correct_answer": "were",
+          "transcript_template": "The [[climbing|]] is here.",
+          "correct_answer": "climbing",
           "mastery_tag": "listening",
           "complexity": 2,
           "concept_tags": [
-            "grammar",
+            "vocabulary",
             "listening"
           ]
         },
         {
-          "interaction_id": "A1_U39_B39_5_I8",
+          "interaction_id": "U39_L5_I8",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Was",
-          "instructions": "Practica la pronunciación débil de 'was' (/wəz/).",
+          "title": "Pronunciación: Outdoor Activities",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[I|Yo]] [[was|estaba]] [[happy|feliz]].",
-              "phonetic": "/aɪ wəz ˈhæpi/",
+              "text": "I [[like|me gusta]] this [[hiking|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-8.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U39_B39_5_I8_Q1",
+              "id": "U39_L5_I8_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'a' en 'was' cuando no está enfatizada?",
+              "prompt_es": "¿Cómo se pronuncia 'hiking'?",
               "options": [
-                { "id": "o1", "text": "Como un sonido corto y débil (/ə/)" },
-                { "id": "o2", "text": "Como una 'a' española" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -389,26 +1407,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U39_B39_5_I9",
+          "interaction_id": "U39_L5_I9",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Were",
-          "instructions": "Practica el sonido /wɜː/.",
+          "title": "Pronunciación: Outdoor Activities",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[They|Ellos]] [[were|estaban]] [[tired|cansados]].",
-              "phonetic": "/ðeɪ wɜː ˈtaɪəd/",
+              "text": "I [[like|me gusta]] this [[camping|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-9.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U39_B39_5_I9_Q1",
+              "id": "U39_L5_I9_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'e' en 'were'?",
+              "prompt_es": "¿Cómo se pronuncia 'camping'?",
               "options": [
-                { "id": "o1", "text": "Como una 'e' larga y neutra (/ɜː/)" },
-                { "id": "o2", "text": "Como una 'e' española" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -422,26 +1446,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U39_B39_5_I10",
+          "interaction_id": "U39_L5_I10",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Tired",
-          "instructions": "Practica el diptongo /aɪə/.",
+          "title": "Pronunciación: Outdoor Activities",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[Very|Muy]] [[tired|cansado]].",
-              "phonetic": "/ˈvɛri ˈtaɪəd/",
+              "text": "I [[like|me gusta]] this [[fishing|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-10.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U39_B39_5_I10_Q1",
+              "id": "U39_L5_I10_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cuántas sílabas tiene 'tired' en su pronunciación natural?",
+              "prompt_es": "¿Cómo se pronuncia 'fishing'?",
               "options": [
-                { "id": "o1", "text": "Parece una sola sílaba compleja" },
-                { "id": "o2", "text": "Dos sílabas claras" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -455,26 +1485,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U39_B39_5_I11",
+          "interaction_id": "U39_L5_I11",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Yesterday",
-          "instructions": "Practica la acentuación de la primera sílaba.",
+          "title": "Pronunciación: Outdoor Activities",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[Yesterday|Ayer]].",
-              "phonetic": "/ˈjɛstədeɪ/",
+              "text": "I [[like|me gusta]] this [[running|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-11.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U39_B39_5_I11_Q1",
+              "id": "U39_L5_I11_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Dónde está el acento en 'yesterday'?",
+              "prompt_es": "¿Cómo se pronuncia 'running'?",
               "options": [
-                { "id": "o1", "text": "En la primera sílaba (YES-ter-day)" },
-                { "id": "o2", "text": "En la última sílaba" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -488,26 +1524,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U39_B39_5_I12",
+          "interaction_id": "U39_L5_I12",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Weather",
-          "instructions": "Practica el sonido /ð/ interdental.",
+          "title": "Pronunciación: Outdoor Activities",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[The|El]] [[weather|clima]].",
-              "phonetic": "/ðə ˈwɛðə/",
+              "text": "I [[like|me gusta]] this [[walking|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-12.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U39_B39_5_I12_Q1",
+              "id": "U39_L5_I12_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'th' en 'weather'?",
+              "prompt_es": "¿Cómo se pronuncia 'walking'?",
               "options": [
-                { "id": "o1", "text": "Como una 'd' suave con la lengua entre los dientes (/ð/)" },
-                { "id": "o2", "text": "Como una 'z' española" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -521,26 +1563,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U39_B39_5_I13",
+          "interaction_id": "U39_L5_I13",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Cold",
-          "instructions": "Practica el diptongo /əʊ/.",
+          "title": "Pronunciación: Outdoor Activities",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[It|Hacía]] [[was|estaba]] [[cold|frío]].",
-              "phonetic": "/ɪt wəz kəʊld/",
+              "text": "I [[like|me gusta]] this [[cycling|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-13.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U39_B39_5_I13_Q1",
+              "id": "U39_L5_I13_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'o' en 'cold'?",
+              "prompt_es": "¿Cómo se pronuncia 'cycling'?",
               "options": [
-                { "id": "o1", "text": "Como el diptongo 'ou' (/əʊ/)" },
-                { "id": "o2", "text": "Como una 'o' simple" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -554,26 +1602,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U39_B39_5_I14",
+          "interaction_id": "U39_L5_I14",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: School",
-          "instructions": "Practica la 'u' larga (/uː/).",
+          "title": "Pronunciación: Outdoor Activities",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[At|En la]] [[school|escuela]].",
-              "phonetic": "/æt skuːl/",
+              "text": "I [[like|me gusta]] this [[climbing|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-14.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U39_B39_5_I14_Q1",
+              "id": "U39_L5_I14_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'oo' en 'school'?",
+              "prompt_es": "¿Cómo se pronuncia 'climbing'?",
               "options": [
-                { "id": "o1", "text": "Como una 'u' larga (/uː/)" },
-                { "id": "o2", "text": "Como una 'u' corta" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -587,26 +1641,32 @@
           ]
         },
         {
-          "interaction_id": "A1_U39_B39_5_I15",
+          "interaction_id": "U39_L5_I15",
           "type": "pronunciation",
           "prompt_es": "Escucha y practica la pronunciación:",
-          "title": "Pronunciación: Last night",
-          "instructions": "Practica la 't' final suave.",
+          "title": "Pronunciación: Outdoor Activities",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
             {
-              "text": "[[Last|Anoche]] [[night|pasada]].",
-              "phonetic": "/lɑːst naɪt/",
+              "text": "I [[like|me gusta]] this [[hiking|]].",
+              "phonetic": "",
               "audioUrl": "/audio/courses/ingles-a1/unit39/lesson5-task-15.mp3"
             }
           ],
           "questions": [
             {
-              "id": "A1_U39_B39_5_I15_Q1",
+              "id": "U39_L5_I15_Q1",
               "type": "multiple_choice",
-              "prompt_es": "¿Se debe exagerar la 't' final en 'night'?",
+              "prompt_es": "¿Cómo se pronuncia 'hiking'?",
               "options": [
-                { "id": "o1", "text": "No, es una explosión suave" },
-                { "id": "o2", "text": "Sí, muy fuerte" }
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

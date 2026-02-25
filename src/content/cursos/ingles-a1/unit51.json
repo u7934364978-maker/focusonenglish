@@ -551,8 +551,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Se pronuncia la 'p' en 'receipt'?",
               "options": [
-                { "id": "o1", "text": "No, es silenciosa" },
-                { "id": "o2", "text": "Sí, suena fuerte" }
+                {
+                  "id": "o1",
+                  "text": "No, es silenciosa"
+                },
+                {
+                  "id": "o2",
+                  "text": "Sí, suena fuerte"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -584,8 +590,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 's' en 'aisle'?",
               "options": [
-                { "id": "o1", "text": "Es silenciosa" },
-                { "id": "o2", "text": "Suena como una 's' normal" }
+                {
+                  "id": "o1",
+                  "text": "Es silenciosa"
+                },
+                {
+                  "id": "o2",
+                  "text": "Suena como una 's' normal"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -617,8 +629,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cuántas sílabas tiene 'trolley'?",
               "options": [
-                { "id": "o1", "text": "Dos (trol-ley)" },
-                { "id": "o2", "text": "Tres" }
+                {
+                  "id": "o1",
+                  "text": "Dos (trol-ley)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Tres"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -650,8 +668,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'ch' inicial?",
               "options": [
-                { "id": "o1", "text": "Como la 'ch' española (/tʃ/)" },
-                { "id": "o2", "text": "Como una 'k'" }
+                {
+                  "id": "o1",
+                  "text": "Como la 'ch' española (/tʃ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'k'"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -683,8 +707,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'a' en 'basket'?",
               "options": [
-                { "id": "o1", "text": "Como una 'a' larga (/ɑː/)" },
-                { "id": "o2", "text": "Como una 'e' corta" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'a' larga (/ɑː/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'e' corta"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -716,8 +746,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo se pronuncia 'fruit'?",
               "options": [
-                { "id": "o1", "text": "Como 'frut' (/fruːt/)" },
-                { "id": "o2", "text": "Como 'fruit' español" }
+                {
+                  "id": "o1",
+                  "text": "Como 'frut' (/fruːt/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como 'fruit' español"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -749,8 +785,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Dónde recae el acento en 'grocery'?",
               "options": [
-                { "id": "o1", "text": "En la primera sílaba (GRO-)" },
-                { "id": "o2", "text": "En la segunda sílaba" }
+                {
+                  "id": "o1",
+                  "text": "En la primera sílaba (GRO-)"
+                },
+                {
+                  "id": "o2",
+                  "text": "En la segunda sílaba"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -782,8 +824,981 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'sh' final?",
               "options": [
-                { "id": "o1", "text": "Como pidiendo silencio (shhh)" },
-                { "id": "o2", "text": "Como la 'ch' española" }
+                {
+                  "id": "o1",
+                  "text": "Como pidiendo silencio (shhh)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como la 'ch' española"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U51_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fruit' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fruit"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vegetables' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Vegetables"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'milk' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Milk"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bread' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bread"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'eggs' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Eggs"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'basket' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Basket"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'checkout' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Checkout"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fruit' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fruit"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vegetables' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Vegetables"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'milk' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Milk"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bread' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bread"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'eggs' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Eggs"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'basket' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Basket"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'checkout' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Checkout"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fruit' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fruit"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vegetables' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Vegetables"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'milk' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Milk"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bread' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bread"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'eggs' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Eggs"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'basket' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Basket"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'checkout' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Checkout"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'fruit' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fruit"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'vegetables' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Vegetables"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'milk' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Milk"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'bread' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Bread"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U51_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'eggs' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Eggs"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "U51_L5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit51/lesson5-task-1.mp3",
+          "transcript_template": "The [[fruit|]] is here.",
+          "correct_answer": "fruit",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U51_L5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit51/lesson5-task-2.mp3",
+          "transcript_template": "The [[vegetables|]] is here.",
+          "correct_answer": "vegetables",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U51_L5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit51/lesson5-task-3.mp3",
+          "transcript_template": "The [[milk|]] is here.",
+          "correct_answer": "milk",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U51_L5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit51/lesson5-task-4.mp3",
+          "transcript_template": "The [[bread|]] is here.",
+          "correct_answer": "bread",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U51_L5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit51/lesson5-task-5.mp3",
+          "transcript_template": "The [[eggs|]] is here.",
+          "correct_answer": "eggs",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U51_L5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit51/lesson5-task-6.mp3",
+          "transcript_template": "The [[basket|]] is here.",
+          "correct_answer": "basket",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U51_L5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit51/lesson5-task-7.mp3",
+          "transcript_template": "The [[checkout|]] is here.",
+          "correct_answer": "checkout",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U51_L5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: At the Supermarket",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[fruit|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U51_L5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'fruit'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U51_L5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: At the Supermarket",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[vegetables|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U51_L5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'vegetables'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U51_L5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: At the Supermarket",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[milk|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U51_L5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'milk'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U51_L5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: At the Supermarket",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[bread|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U51_L5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'bread'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U51_L5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: At the Supermarket",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[eggs|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U51_L5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'eggs'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U51_L5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: At the Supermarket",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[basket|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U51_L5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'basket'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U51_L5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: At the Supermarket",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[checkout|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U51_L5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'checkout'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U51_L5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: At the Supermarket",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[fruit|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U51_L5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'fruit'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"

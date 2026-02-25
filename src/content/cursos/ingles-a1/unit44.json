@@ -475,8 +475,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'th' en 'weather'?",
               "options": [
-                { "id": "o1", "text": "Como una 'd' suave vibrante (/ð/)" },
-                { "id": "o2", "text": "Como una 'z' española (/θ/)" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'd' suave vibrante (/ð/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'z' española (/θ/)"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -508,8 +514,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'u' en 'sunny'?",
               "options": [
-                { "id": "o1", "text": "Como una 'a' corta y relajada (/ʌ/)" },
-                { "id": "o2", "text": "Como una 'u' española" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'a' corta y relajada (/ʌ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'u' española"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -541,8 +553,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'ai' en 'rainy'?",
               "options": [
-                { "id": "o1", "text": "Como una 'ei' (/eɪ/)" },
-                { "id": "o2", "text": "Como una 'ai' española" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'ei' (/eɪ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'ai' española"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -574,8 +592,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'ou' en 'cloudy'?",
               "options": [
-                { "id": "o1", "text": "Como /aʊ/ (au)" },
-                { "id": "o2", "text": "Como una 'o' simple" }
+                {
+                  "id": "o1",
+                  "text": "Como /aʊ/ (au)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'o' simple"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -607,8 +631,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo se pronuncia la 'w' en 'windy'?",
               "options": [
-                { "id": "o1", "text": "Como una 'u' semivocal (/w/)" },
-                { "id": "o2", "text": "Como una 'g' suave" }
+                {
+                  "id": "o1",
+                  "text": "Como una 'u' semivocal (/w/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'g' suave"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -640,8 +670,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'o' en 'cold'?",
               "options": [
-                { "id": "o1", "text": "Como /əʊ/ (ou)" },
-                { "id": "o2", "text": "Como una 'o' española simple" }
+                {
+                  "id": "o1",
+                  "text": "Como /əʊ/ (ou)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'o' española simple"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -673,8 +709,14 @@
               "type": "multiple_choice",
               "prompt_es": "¿Se añade una 'e' antes de la 's' en 'snow'?",
               "options": [
-                { "id": "o1", "text": "No, se empieza directamente con el silbido de la 's'" },
-                { "id": "o2", "text": "Sí, como en 'esnow'" }
+                {
+                  "id": "o1",
+                  "text": "No, se empieza directamente con el silbido de la 's'"
+                },
+                {
+                  "id": "o2",
+                  "text": "Sí, como en 'esnow'"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
@@ -706,8 +748,1044 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cómo suena la 'sh' en 'shining'?",
               "options": [
-                { "id": "o1", "text": "Como para pedir silencio (/ʃ/)" },
-                { "id": "o2", "text": "Como una 'ch' española" }
+                {
+                  "id": "o1",
+                  "text": "Como para pedir silencio (/ʃ/)"
+                },
+                {
+                  "id": "o2",
+                  "text": "Como una 'ch' española"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Practice Sessions",
+      "content": [
+        {
+          "interaction_id": "U44_FILLER_0",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sunny' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sunny"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'raining' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Raining"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'windy' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Windy"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cold' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cold"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hot' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hot"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'snowing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Snowing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cloudy' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cloudy"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sunny' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sunny"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'raining' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Raining"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'windy' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Windy"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cold' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cold"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_11",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hot' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hot"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'snowing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Snowing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_13",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cloudy' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cloudy"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sunny' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sunny"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'raining' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Raining"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'windy' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Windy"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cold' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cold"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hot' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hot"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'snowing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Snowing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_20",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cloudy' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cloudy"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sunny' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sunny"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'raining' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Raining"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_23",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'windy' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Windy"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cold' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cold"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'hot' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Hot"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'snowing' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Snowing"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cloudy' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Cloudy"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U44_FILLER_28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'sunny' en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sunny"
+            },
+            {
+              "id": "o2",
+              "text": "Wrong word"
+            },
+            {
+              "id": "o3",
+              "text": "Other word"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Listening & Pronunciation Review",
+      "duration_minutes": 20,
+      "content": [
+        {
+          "interaction_id": "U44_L5_I1",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit44/lesson5-task-1.mp3",
+          "transcript_template": "The [[sunny|]] is here.",
+          "correct_answer": "sunny",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U44_L5_I2",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit44/lesson5-task-2.mp3",
+          "transcript_template": "The [[raining|]] is here.",
+          "correct_answer": "raining",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U44_L5_I3",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit44/lesson5-task-3.mp3",
+          "transcript_template": "The [[windy|]] is here.",
+          "correct_answer": "windy",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U44_L5_I4",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit44/lesson5-task-4.mp3",
+          "transcript_template": "The [[cold|]] is here.",
+          "correct_answer": "cold",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U44_L5_I5",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit44/lesson5-task-5.mp3",
+          "transcript_template": "The [[hot|]] is here.",
+          "correct_answer": "hot",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U44_L5_I6",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit44/lesson5-task-6.mp3",
+          "transcript_template": "The [[snowing|]] is here.",
+          "correct_answer": "snowing",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U44_L5_I7",
+          "type": "listening_dictation",
+          "prompt_es": "Escucha y completa la frase:",
+          "audio_url": "/audio/courses/ingles-a1/unit44/lesson5-task-7.mp3",
+          "transcript_template": "The [[cloudy|]] is here.",
+          "correct_answer": "cloudy",
+          "mastery_tag": "listening",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "listening"
+          ]
+        },
+        {
+          "interaction_id": "U44_L5_I8",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: The Weather",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[sunny|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-8.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U44_L5_I8_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'sunny'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U44_L5_I9",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: The Weather",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[raining|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-9.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U44_L5_I9_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'raining'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U44_L5_I10",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: The Weather",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[windy|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-10.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U44_L5_I10_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'windy'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U44_L5_I11",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: The Weather",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[cold|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-11.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U44_L5_I11_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'cold'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U44_L5_I12",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: The Weather",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[hot|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-12.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U44_L5_I12_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'hot'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U44_L5_I13",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: The Weather",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[snowing|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-13.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U44_L5_I13_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'snowing'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U44_L5_I14",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: The Weather",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[cloudy|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-14.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U44_L5_I14_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'cloudy'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
+              ],
+              "correct_answer": "o1",
+              "mastery_tag": "pronunciation"
+            }
+          ],
+          "mastery_tag": "pronunciation",
+          "complexity": 2,
+          "concept_tags": [
+            "phonetics",
+            "pronunciation"
+          ]
+        },
+        {
+          "interaction_id": "U44_L5_I15",
+          "type": "pronunciation",
+          "prompt_es": "Escucha y practica la pronunciación:",
+          "title": "Pronunciación: The Weather",
+          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
+          "targetSentences": [
+            {
+              "text": "I [[like|me gusta]] this [[sunny|]].",
+              "phonetic": "",
+              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-15.mp3"
+            }
+          ],
+          "questions": [
+            {
+              "id": "U44_L5_I15_Q1",
+              "type": "multiple_choice",
+              "prompt_es": "¿Cómo se pronuncia 'sunny'?",
+              "options": [
+                {
+                  "id": "o1",
+                  "text": "Correctamente"
+                },
+                {
+                  "id": "o2",
+                  "text": "Incorrectamente"
+                }
               ],
               "correct_answer": "o1",
               "mastery_tag": "pronunciation"
