@@ -56,3 +56,8 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
     - [x] Run validator on all modified units (Units 30-60).
     - [x] Verify rendering of Lesson 5 in the browser.
     - [x] Create and run an E2E test to ensure Lesson 5 is navigable.
+- [x] **Task 6: Unit 60 Quality Improvements**
+    - [x] Replace placeholder exercises (1-60) with high-quality content based on Module 6 Syllabus (Shopping, Food, Health).
+    - [x] Diversify exercise types (fill-blank, matching, sentence-building).
+    - [x] Ensure A1 level appropriateness and correct translations.
+    - [x] Verify with `audit-a1-unit-simple.mjs`.

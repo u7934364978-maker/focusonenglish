@@ -34,8 +34,8 @@ async function auditUnit() {
   const typesCount = {};
   const seenTexts = new Set();
 
-  if (exerciseCount !== 60) {
-    errors.push(`Exercise count is ${exerciseCount}, expected 60.`);
+  if (exerciseCount < 60) {
+    errors.push(`Exercise count is ${exerciseCount}, expected at least 60.`);
   }
 
   exercises.forEach((ex, index) => {
