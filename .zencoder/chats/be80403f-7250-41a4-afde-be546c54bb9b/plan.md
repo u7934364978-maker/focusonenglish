@@ -50,12 +50,13 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
   - Content quality (pedagogical logic, progressive difficulty, contextualization).
 
 ### [ ] Phase: Unit Correction (Unit by Unit)
+- **Constraint**: Always work on URL: `https://www.focus-on-english.com/curso-a1/unit-X`
 - [x] Task: Correct Unit 1
   - Fix exercise count (target 75).
   - Add missing curriculum vocabulary and grammar.
   - Fix translation format for all exercises.
   - Ensure quality standards (difficulty, context).
 
-- [ ] Task: Correct Unit 2
+- [/] Task: Correct Unit 2
 - [ ] Task: Correct Unit 3
 ... (Repeat for all 60 units)
