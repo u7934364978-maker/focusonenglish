@@ -1,58 +1,602 @@
 {
   "course": {
-    "unit_id": "unit3",
-    "unit_title": "Numbers and Counting",
-    "level": "A1",
-    "total_duration_minutes": 60,
     "language_ui": "es-ES",
-    "target_language": "en"
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U3",
+    "unit_title": "Verb 'to be': Negatives and Questions",
+    "total_duration_minutes": 120
   },
-  "learning_outcomes": [
-    "Identify numbers 1-10 visually",
-    "Count objects and associate with English number words",
-    "Recognize numerical symbols and their English equivalents"
-  ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Numbers 1-5",
+      "title": "Emotions and States",
       "content": [
         {
-          "interaction_id": "A1_U3_B1_I1",
+          "interaction_id": "U3_I1",
           "type": "matching",
-          "prompt_es": "Une el número con su palabra:",
+          "prompt_es": "Une el adjetivo con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "1", "right": "One" },
-            { "id": "p2", "left": "2", "right": "Two" },
-            { "id": "p3", "left": "3", "right": "Three" },
-            { "id": "p4", "left": "4", "right": "Four" },
-            { "id": "p5", "left": "5", "right": "Five" }
+            { "id": "p1", "left": "[[Happy|Feliz]]", "right": "Feliz" },
+            { "id": "p2", "left": "[[Sad|Triste]]", "right": "Triste" },
+            { "id": "p3", "left": "[[Tired|Cansado/a]]", "right": "Cansado/a" },
+            { "id": "p4", "left": "[[Hungry|Hambriento/a]]", "right": "Hambriento/a" }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4", "p5": "p5" },
-          "mastery_tag": "vocabulary:numbers",
-          "concept_tags": ["vocabulary", "numbers"],
-          "complexity": 1
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I2",
+          "type": "transformation",
+          "prompt_es": "Completa con '[[am not|no soy/estoy]]', '[[isn't|no es/está]]' o '[[aren't|no somos/estamos/son/están]]':",
+          "stimulus_en": "[[I|Yo]] ________ [[sad|triste]]. [[I|Yo]] [[am|estoy]] [[happy|feliz]].",
+          "correct_answer": "am not",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '[[They|Ellos]] [[aren't|no están]] [[hungry|hambrientos]]'?",
+          "options": [
+            { "id": "o1", "text": "[[They|Ellos]] [[aren't|no están]] [[hungry|hambrientos]]" },
+            { "id": "o2", "text": "[[They|Ellos]] [[isn't|no están]] [[hungry|hambrientos]]" },
+            { "id": "o3", "text": "[[They|Ellos]] [[am not|no están]] [[hungry|hambrientos]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I4",
+          "type": "short_writing",
+          "prompt_es": "Traduce al inglés: 'Ella no está cansada'",
+          "stimulus_es": "Ella no está cansada",
+          "correct_answer": "[[She|Ella]] [[isn't|no está]] [[tired|cansada]]",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I5",
+          "type": "true_false",
+          "prompt_es": "¿Es correcto decir '[[We|Nosotros]] [[aren't|no estamos]] [[thirsty|sedientos]]'?",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I6",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la frase negativa:",
+          "options": [
+            { "id": "w1", "text": "[[He|Él]]" },
+            { "id": "w2", "text": "[[isn't|no está]]" },
+            { "id": "w3", "text": "[[at|en]]" },
+            { "id": "w4", "text": "[[home|casa]]" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I7",
+          "type": "matching",
+          "prompt_es": "Más estados emocionales:",
+          "pairs": [
+            { "id": "p1", "left": "[[Angry|Enfadado/a]]", "right": "Enfadado/a" },
+            { "id": "p2", "left": "[[Bored|Aburrido/a]]", "right": "Aburrido/a" },
+            { "id": "p3", "left": "[[Excited|Emocionado/a]]", "right": "Emocionado/a" },
+            { "id": "p4", "left": "[[Scared|Asustado/a]]", "right": "Asustado/a" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I8",
+          "type": "transformation",
+          "prompt_es": "Cambia a negativo: '[[It|Ello]] [[is|es]] [[hot|caluroso]]'",
+          "stimulus_en": "[[It|Ello]] ________ [[hot|caluroso]] [[today|hoy]].",
+          "correct_answer": "isn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma corta de '[[are|son]] [[not|no]]'?",
+          "options": [
+            { "id": "o1", "text": "[[aren't|no son]]" },
+            { "id": "o2", "text": "[[isn't|no son]]" },
+            { "id": "o3", "text": "[[am not|no son]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I10",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Nosotros no estamos aburridos'",
+          "stimulus_es": "Nosotros no estamos aburridos",
+          "correct_answer": "[[We|Nosotros]] [[aren't|no estamos]] [[bored|aburridos]]",
+          "mastery_tag": "vocabulary"
         }
       ]
     },
     {
       "block_id": "B2",
-      "title": "Counting Objects",
+      "title": "Questions with Verb 'to be'",
       "content": [
         {
-          "interaction_id": "A1_U3_B2_I1",
+          "interaction_id": "U3_I11",
+          "type": "transformation",
+          "prompt_es": "Completa la pregunta con '[[Am|¿Soy/Estoy?]]', '[[Is|¿Es/Está?]]' o '[[Are|¿Somos/Estamos/Son/Están?]]':",
+          "stimulus_en": "________ [[you|tú]] [[ready|listo]]?",
+          "correct_answer": "Are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I12",
+          "type": "transformation",
+          "prompt_es": "Completa la pregunta:",
+          "stimulus_en": "________ [[he|él]] [[your|tu]] [[brother|hermano]]?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I13",
+          "type": "transformation",
+          "prompt_es": "Completa la pregunta:",
+          "stimulus_en": "________ [[it|ello]] [[cold|frío]] [[outside|fuera]]?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I14",
+          "type": "transformation",
+          "prompt_es": "Completa la pregunta:",
+          "stimulus_en": "________ [[they|ellos]] [[at|en]] [[school|la escuela]]?",
+          "correct_answer": "Are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I15",
+          "type": "transformation",
+          "prompt_es": "Completa la pregunta:",
+          "stimulus_en": "________ [[I|yo]] [[late|tarde]]?",
+          "correct_answer": "Am",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I16",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuántos ves?",
-          "image_url": "https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop",
+          "prompt_es": "¿Cómo se pregunta '[[Are|¿Estamos?]] [[we|nosotros]] [[lost|perdidos]]'?",
           "options": [
-            { "id": "o1", "text": "One" },
-            { "id": "o2", "text": "Three" },
-            { "id": "o3", "text": "Five" }
+            { "id": "o1", "text": "[[Are|¿Estamos?]] [[we|nosotros]] [[lost|perdidos]]?" },
+            { "id": "o2", "text": "[[Is|¿Estamos?]] [[we|nosotros]] [[lost|perdidos]]?" },
+            { "id": "o3", "text": "[[Am|¿Estamos?]] [[we|nosotros]] [[lost|perdidos]]?" }
           ],
           "correct_answer": "o1",
-          "explanation": "Hay UNA (One) manzana.",
-          "mastery_tag": "vocabulary:numbers",
-          "concept_tags": ["vocabulary", "numbers"]
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I17",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la pregunta:",
+          "options": [
+            { "id": "w1", "text": "[[Is|¿Está?]]" },
+            { "id": "w2", "text": "[[she|ella]]" },
+            { "id": "w3", "text": "[[busy|ocupada]]" },
+            { "id": "w4", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I18",
+          "type": "short_writing",
+          "prompt_es": "Traduce la pregunta: '¿Están ellos felices?'",
+          "stimulus_es": "¿Están ellos felices?",
+          "correct_answer": "[[Are|¿Están?]] [[they|ellos]] [[happy|felices]]?",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I19",
+          "type": "true_false",
+          "prompt_es": "En las preguntas, ¿va el verbo '[[to be|ser/estar]]' antes que el sujeto?",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I20",
+          "type": "matching",
+          "prompt_es": "Pregunta y Respuesta corta:",
+          "pairs": [
+            { "id": "p1", "left": "[[Are|¿Estás?]] [[you|tú]] [[OK|bien]]?", "right": "[[Yes|Sí]], [[I|yo]] [[am|estoy]]." },
+            { "id": "p2", "left": "[[Is|¿Es?]] [[he|él]] [[tall|alto]]?", "right": "[[No|No]], [[he|él]] [[isn't|no lo es]]." },
+            { "id": "p3", "left": "[[Are|¿Son?]] [[they|ellos]] [[new|nuevos]]?", "right": "[[Yes|Sí]], [[they|ellos]] [[are|lo son]]." },
+            { "id": "p4", "left": "[[Is|¿Está?]] [[it|ello]] [[ready|listo]]?", "right": "[[No|No]], [[it|ello]] [[isn't|no lo está]]." }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "social"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Negative Statements",
+      "content": [
+        {
+          "interaction_id": "U3_I21",
+          "type": "transformation",
+          "prompt_es": "Haz la frase negativa: '[[I|Yo]] [[am|estoy]] [[tired|cansado]]'",
+          "stimulus_en": "[[I|Yo]] ________ [[tired|cansado]].",
+          "correct_answer": "am not",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I22",
+          "type": "transformation",
+          "prompt_es": "Haz la frase negativa: '[[You|Tú]] [[are|estás]] [[late|tarde]]'",
+          "stimulus_en": "[[You|Tú]] ________ [[late|tarde]].",
+          "correct_answer": "aren't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I23",
+          "type": "transformation",
+          "prompt_es": "Haz la frase negativa: '[[He|Él]] [[is|es]] [[my|mi]] [[friend|amigo]]'",
+          "stimulus_en": "[[He|Él]] ________ [[my|mi]] [[friend|amigo]].",
+          "correct_answer": "isn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I24",
+          "type": "transformation",
+          "prompt_es": "Haz la frase negativa: '[[She|Ella]] [[is|está]] [[here|aquí]]'",
+          "stimulus_en": "[[She|Ella]] ________ [[here|aquí]].",
+          "correct_answer": "isn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I25",
+          "type": "transformation",
+          "prompt_es": "Haz la frase negativa: '[[It|Ello]] [[is|es]] [[big|grande]]'",
+          "stimulus_en": "[[It|Ello]] ________ [[big|grande]].",
+          "correct_answer": "isn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I26",
+          "type": "transformation",
+          "prompt_es": "Haz la frase negativa: '[[We|Nosotros]] [[are|somos]] [[students|estudiantes]]'",
+          "stimulus_en": "[[We|Nosotros]] ________ [[students|estudiantes]].",
+          "correct_answer": "aren't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I27",
+          "type": "transformation",
+          "prompt_es": "Haz la frase negativa: '[[They|Ellos]] [[are|están]] [[hungry|hambrientos]]'",
+          "stimulus_en": "[[They|Ellos]] ________ [[hungry|hambrientos]].",
+          "correct_answer": "aren't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma negativa de '[[He|Él]] [[is|es]]'?",
+          "options": [
+            { "id": "o1", "text": "[[He|Él]] [[isn't|no es]]" },
+            { "id": "o2", "text": "[[He|Él]] [[aren't|no es]]" },
+            { "id": "o3", "text": "[[He|Él]] [[am not|no es]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I29",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'No soy un doctor'",
+          "stimulus_es": "No soy un doctor",
+          "correct_answer": "[[I|Yo]] [[am not|no soy]] [[a|un]] [[doctor|doctor]]",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I30",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '[[You|Tú]] [[aren't|no estás]] [[sad|triste]]'",
+          "options": [
+            { "id": "w1", "text": "[[aren't|no estás]]" },
+            { "id": "w2", "text": "[[sad|triste]]" },
+            { "id": "w3", "text": "[[You|Tú]]" }
+          ],
+          "correct_answer": ["w3", "w1", "w2"],
+          "mastery_tag": "syntax"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Reading: How are you feeling?",
+      "content": [
+        {
+          "interaction_id": "U3_I31",
+          "type": "reading_phase",
+          "prompt_es": "Lee la conversación entre dos amigos:",
+          "transcript": "[[Alex|Alex]]: [[Hi|Hola]], [[Maria|María]]! [[How|Cómo]] [[are|estás]] [[you|tú]]?\n[[Maria|María]]: [[I|Yo]] [[am|estoy]] [[a|un]] [[little|poco]] [[tired|cansada]]. [[I|Yo]] [[am not|no estoy]] [[very|muy]] [[happy|feliz]] [[today|hoy]].\n[[Alex|Alex]]: [[Are|¿Estás?]] [[you|tú]] [[hungry|hambrienta]]?\n[[Maria|María]]: [[No|No]], [[I|yo]] [[am not|no lo estoy]]. [[But|Pero]] [[I|yo]] [[am|estoy]] [[thirsty|sedienta]].\n[[Alex|Alex]]: [[Is|¿Está?]] [[the|el]] [[water|agua]] [[cold|fría]]?\n[[Maria|María]]: [[Yes|Sí]], [[it|ello]] [[is|está]]. [[Thank|Gracias]] [[you|a ti]]!",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U3_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se siente [[Maria|María]]?",
+          "options": [
+            { "id": "o1", "text": "[[Tired|Cansada]]" },
+            { "id": "o2", "text": "[[Angry|Enfadada]]" },
+            { "id": "o3", "text": "[[Scared|Asustada]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading_comprehension"
+        },
+        {
+          "interaction_id": "U3_I33",
+          "type": "true_false",
+          "prompt_es": "¿Está [[Maria|María]] muy feliz hoy?",
+          "correct_answer": false,
+          "mastery_tag": "reading_comprehension"
+        },
+        {
+          "interaction_id": "U3_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué necesita [[Maria|María]]?",
+          "options": [
+            { "id": "o1", "text": "[[Water|Agua]]" },
+            { "id": "o2", "text": "[[Food|Comida]]" },
+            { "id": "o3", "text": "[[Sleep|Dormir]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading_comprehension"
+        },
+        {
+          "interaction_id": "U3_I35",
+          "type": "short_writing",
+          "prompt_es": "¿Cómo está el agua?",
+          "stimulus_es": "¿Cómo está el agua?",
+          "correct_answer": "[[Cold|Fría]]",
+          "mastery_tag": "reading_comprehension"
+        },
+        {
+          "interaction_id": "U3_I36",
+          "type": "true_false",
+          "prompt_es": "¿Tiene hambre [[Maria|María]]?",
+          "correct_answer": false,
+          "mastery_tag": "reading_comprehension"
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Practice Mix",
+      "content": [
+        {
+          "interaction_id": "U3_I37",
+          "type": "transformation",
+          "prompt_es": "Pregunta: '[[Are|¿Están?]] [[they|ellos]] ________ [[busy|ocupados]]?'",
+          "stimulus_en": "________ [[they|ellos]] [[busy|ocupados]]?",
+          "correct_answer": "Are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I38",
+          "type": "transformation",
+          "prompt_es": "Negativo: [[He|Él]] ________ [[sad|triste]].",
+          "stimulus_en": "[[He|Él]] ________ [[sad|triste]].",
+          "correct_answer": "isn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I39",
+          "type": "transformation",
+          "prompt_es": "Pregunta: '________ [[it|ello]] [[ready|listo]]?'",
+          "stimulus_en": "________ [[it|ello]] [[ready|listo]]?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I40",
+          "type": "transformation",
+          "prompt_es": "Negativo: [[We|Nosotros]] ________ [[lost|perdidos]].",
+          "stimulus_en": "[[We|Nosotros]] ________ [[lost|perdidos]].",
+          "correct_answer": "aren't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I41",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: [[Is|¿Es?]] [[she|ella]] [[happy|feliz]] [[?|?]]",
+          "options": [
+            { "id": "w1", "text": "[[Is|¿Es?]]" },
+            { "id": "w2", "text": "[[she|ella]]" },
+            { "id": "w3", "text": "[[happy|feliz]]" },
+            { "id": "w4", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I42",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: [[I|Yo]] [[am not|no estoy]] [[thirsty|sediento]]",
+          "options": [
+            { "id": "w1", "text": "[[am not|no estoy]]" },
+            { "id": "w2", "text": "[[thirsty|sediento]]" },
+            { "id": "w3", "text": "[[I|Yo]]" }
+          ],
+          "correct_answer": ["w3", "w1", "w2"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '[[They|Ellos]] [[aren't|no están]] [[here|aquí]]'?",
+          "options": [
+            { "id": "o1", "text": "[[They|Ellos]] [[aren't|no están]] [[here|aquí]]" },
+            { "id": "o2", "text": "[[They|Ellos]] [[isn't|no están]] [[here|aquí]]" },
+            { "id": "o3", "text": "[[They|Ellos]] [[am not|no están]] [[here|aquí]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I44",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿Estás cansado?'",
+          "stimulus_es": "¿Estás cansado?",
+          "correct_answer": "[[Are|¿Estás?]] [[you|tú]] [[tired|cansado]]?",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I45",
+          "type": "true_false",
+          "prompt_es": "¿'[[Am|¿Soy?]] [[I|yo]]' se usa para preguntas sobre uno mismo?",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I46",
+          "type": "true_false",
+          "prompt_es": "¿'[[You|Tú]] [[isn't|no eres]]' es gramaticalmente correcto?",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I47",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "[[I|Yo]] [[am not|no soy]]", "right": "Yo no soy" },
+            { "id": "p2", "left": "[[He|Él]] [[isn't|no es]]", "right": "Él no es" },
+            { "id": "p3", "left": "[[We|Nosotros]] [[aren't|no somos]]", "right": "Nosotros no somos" },
+            { "id": "p4", "left": "[[It|Ello]] [[isn't|no es]]", "right": "Ello no es" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I48",
+          "type": "transformation",
+          "prompt_es": "Completa la pregunta: ________ [[she|ella]] [[scared|asustada]]?",
+          "stimulus_en": "________ [[she|ella]] [[scared|asustada]]?",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I49",
+          "type": "transformation",
+          "prompt_es": "Completa el negativo: [[You|Tú]] ________ [[angry|enfadado]].",
+          "stimulus_en": "[[You|Tú]] ________ [[angry|enfadado]].",
+          "correct_answer": "aren't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa '[[Are|¿Estamos?]] [[we|nosotros]] [[ready|listos]]?'",
+          "options": [
+            { "id": "o1", "text": "¿Estamos listos?" },
+            { "id": "o2", "text": "¿Están listos?" },
+            { "id": "o3", "text": "¿Estás listo?" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "translation"
+        },
+        {
+          "interaction_id": "U3_I51",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Él no tiene hambre' (Él no está hambriento)",
+          "stimulus_es": "Él no tiene hambre",
+          "correct_answer": "[[He|Él]] [[isn't|no está]] [[hungry|hambriento]]",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: [[It|Ello]] [[isn't|no es]] [[hot|caluroso]]",
+          "options": [
+            { "id": "w1", "text": "[[isn't|no es]]" },
+            { "id": "w2", "text": "[[hot|caluroso]]" },
+            { "id": "w3", "text": "[[It|Ello]]" }
+          ],
+          "correct_answer": ["w3", "w1", "w2"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I53",
+          "type": "matching",
+          "pairs": [
+            { "id": "p1", "left": "[[Cold|Frío]]", "right": "Frío" },
+            { "id": "p2", "left": "[[Hot|Calor]]", "right": "Calor" },
+            { "id": "p3", "left": "[[Small|Pequeño]]", "right": "Pequeño" },
+            { "id": "p4", "left": "[[Big|Grande]]", "right": "Grande" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U3_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '[[I|Yo]] [[am not|no estoy]] [[excited|emocionado]]'?",
+          "options": [
+            { "id": "o1", "text": "[[I|Yo]] [[am not|no estoy]] [[excited|emocionado]]" },
+            { "id": "o2", "text": "[[I|Yo]] [[aren't|no estoy]] [[excited|emocionado]]" },
+            { "id": "o3", "text": "[[I|Yo]] [[isn't|no estoy]] [[excited|emocionado]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I55",
+          "type": "true_false",
+          "prompt_es": "¿'[[Is|¿Es?]] [[he|él]]' es la forma de pregunta para '[[He|Él]] [[is|es]]'?",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I56",
+          "type": "true_false",
+          "prompt_es": "¿'[[We|Nosotros]] [[aren't|no somos]]' significa '[[We|Nosotros]] [[are|somos]] [[not|no]]'?",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I57",
+          "type": "transformation",
+          "prompt_es": "Completa: ________ [[they|ellos]] [[bored|aburridos]]?",
+          "stimulus_en": "________ [[they|ellos]] [[bored|aburridos]]?",
+          "correct_answer": "Are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I58",
+          "type": "transformation",
+          "prompt_es": "Completa: [[It|Ello]] ________ [[my|mi]] [[book|libro]]. (Negativo)",
+          "stimulus_en": "[[It|Ello]] ________ [[my|mi]] [[book|libro]].",
+          "correct_answer": "isn't",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U3_I59",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: [[Are|¿Estás?]] [[you|tú]] [[scared|asustado]] [[?|?]]",
+          "options": [
+            { "id": "w1", "text": "[[Are|¿Estás?]]" },
+            { "id": "w2", "text": "[[you|tú]]" },
+            { "id": "w3", "text": "[[scared|asustado]]" },
+            { "id": "w4", "text": "?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U3_I60",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'No estamos cansados'",
+          "stimulus_es": "No estamos cansados",
+          "correct_answer": "[[We|Nosotros]] [[aren't|no estamos]] [[tired|cansados]]",
+          "mastery_tag": "vocabulary"
         }
       ]
     }
