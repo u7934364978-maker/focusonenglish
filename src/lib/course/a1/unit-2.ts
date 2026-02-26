@@ -10,10 +10,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "content": {
       "title": "Subject Pronouns",
-      "instructions": "[[Choose the correct pronoun for: \"Él\".|Elige el pronombre correcto para: \"Él\".]]",
+      "instructions": "[[Choose the correct pronoun.|Elige el pronombre correcto.]]",
       "questions": [
         {
-          "question": "[[________|Él]] [[is|es]] [[from|de]] [[Spain|España]].",
+          "question": "[[David|David]] [[is|es]] [[from|de]] [[Madrid|Madrid]]. [[________|Él]] [[is|es]] [[from|de]] [[Spain|España]].",
           "options": [
             "[[He|Él]]",
             "[[She|Ella]]",
@@ -33,10 +33,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "content": {
       "title": "Subject Pronouns",
-      "instructions": "[[Choose the correct pronoun for: \"Ella\".|Elige el pronombre correcto para: \"Ella\".]]",
+      "instructions": "[[Choose the correct pronoun.|Elige el pronombre correcto.]]",
       "questions": [
         {
-          "question": "[[________|Ella]] [[is|es]] [[Italian|italiana]].",
+          "question": "[[Maria|María]] [[is|es]] [[from|de]] [[Rome|Roma]]. [[________|Ella]] [[is|es]] [[Italian|italiana]].",
           "options": [
             "[[He|Él]]",
             "[[She|Ella]]",
@@ -56,10 +56,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "content": {
       "title": "Subject Pronouns",
-      "instructions": "[[Choose the correct pronoun for: \"Eso\" (animal/objeto).|Elige el pronombre correcto para: \"Eso\" (animal/objeto).]]",
+      "instructions": "[[Choose the correct pronoun.|Elige el pronombre correcto.]]",
       "questions": [
         {
-          "question": "[[________|Eso]] [[is|es]] [[a|un]] [[cat|gato]].",
+          "question": "[[Look|Mira]] [[at|a]] [[the|el]] [[cat|gato]]. [[________|Eso]] [[is|es]] [[small|pequeño]].",
           "options": [
             "[[It|Eso]]",
             "[[We|Nosotros]]",
@@ -79,10 +79,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "content": {
       "title": "Subject Pronouns",
-      "instructions": "[[Choose the correct pronoun for: \"Nosotros\".|Elige el pronombre correcto para: \"Nosotros\".]]",
+      "instructions": "[[Choose the correct pronoun.|Elige el pronombre correcto.]]",
       "questions": [
         {
-          "question": "[[________|Nosotros]] [[are|somos]] [[friends|amigos]].",
+          "question": "[[You|Tú]] [[and|y]] [[I|yo]] [[are|estamos]] [[here|aquí]]. [[________|Nosotros]] [[are|somos]] [[friends|amigos]].",
           "options": [
             "[[I|Yo]]",
             "[[We|Nosotros]]",
@@ -102,10 +102,10 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "type": "multiple-choice",
     "content": {
       "title": "Subject Pronouns",
-      "instructions": "[[Choose the correct pronoun for: \"Ellos\".|Elige el pronombre correcto para: \"Ellos\".]]",
+      "instructions": "[[Choose the correct pronoun.|Elige el pronombre correcto.]]",
       "questions": [
         {
-          "question": "[[________|Ellos]] [[are|son]] [[from|de]] [[France|Francia]].",
+          "question": "[[Paul|Pablo]] [[and|y]] [[John|Juan]] [[are|están]] [[in|en]] [[Paris|París]]. [[________|Ellos]] [[are|son]] [[from|de]] [[France|Francia]].",
           "options": [
             "[[They|Ellos]]",
             "[[We|Nosotros]]",
@@ -1510,6 +1510,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "interaction_id": "A1_U2_L5_4",
       "type": "listening_dictation",
+      "prompt": "[[Listen and complete:|Escucha y completa:]]",
       "prompt_es": "[[Listen and complete:|Escucha y completa:]]",
       "audio_url": "audio/a1/unit-2/A1_U2_L5_4.mp3",
       "transcript_template": "[[She|Ella]] [[is|es]] [[from|de]] [[________|Francia]].",
@@ -1527,6 +1528,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "interaction_id": "A1_U2_L5_5",
       "type": "listening_dictation",
+      "prompt": "[[Listen and complete:|Escucha y completa:]]",
       "prompt_es": "[[Listen and complete:|Escucha y completa:]]",
       "audio_url": "audio/a1/unit-2/A1_U2_L5_5.mp3",
       "transcript_template": "[[They|Ellos]] [[are|son]] [[________|amigos]].",
@@ -1544,6 +1546,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "interaction_id": "A1_U2_L5_6",
       "type": "listening_dictation",
+      "prompt": "[[Listen and complete:|Escucha y completa:]]",
       "prompt_es": "[[Listen and complete:|Escucha y completa:]]",
       "audio_url": "audio/a1/unit-2/A1_U2_L5_6.mp3",
       "transcript_template": "[[It|Eso]] [[is|es]] [[a|un]] [[________|perro]].",
@@ -1561,6 +1564,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "interaction_id": "A1_U2_L5_7",
       "type": "listening_dictation",
+      "prompt": "[[Listen and complete:|Escucha y completa:]]",
       "prompt_es": "[[Listen and complete:|Escucha y completa:]]",
       "audio_url": "audio/a1/unit-2/A1_U2_L5_7.mp3",
       "transcript_template": "[[I|Yo]] [[am|soy]] [[________|español]].",
@@ -1578,6 +1582,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "interaction_id": "A1_U2_L5_8",
       "type": "listening_dictation",
+      "prompt": "[[Listen and complete:|Escucha y completa:]]",
       "prompt_es": "[[Listen and complete:|Escucha y completa:]]",
       "audio_url": "audio/a1/unit-2/A1_U2_L5_8.mp3",
       "transcript_template": "[[We|Nosotros]] [[are|somos]] [[________|diez]].",
@@ -1595,6 +1600,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "interaction_id": "A1_U2_L5_9",
       "type": "speaking-analysis",
+      "prompt": "[[Repeat:|Repite:]]",
       "prompt_es": "[[Repeat:|Repite:]]",
       "stimulus_en": "[[He|Él]] [[is|es]] [[from|de]] [[Italy|Italia]].",
       "referenceText": "He is from Italy.",
@@ -1611,6 +1617,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "interaction_id": "A1_U2_L5_10",
       "type": "speaking-analysis",
+      "prompt": "[[Repeat:|Repite:]]",
       "prompt_es": "[[Repeat:|Repite:]]",
       "stimulus_en": "[[We|Nosotros]] [[are|somos]] [[students|estudiantes]].",
       "referenceText": "We are students.",
@@ -1627,6 +1634,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "interaction_id": "A1_U2_L5_11",
       "type": "speaking-analysis",
+      "prompt": "[[Repeat:|Repite:]]",
       "prompt_es": "[[Repeat:|Repite:]]",
       "stimulus_en": "[[It|Eso]] [[is|es]] [[a|un]] [[big|grande]] [[dog|perro]].",
       "referenceText": "It is a big dog.",
@@ -1643,6 +1651,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "interaction_id": "A1_U2_L5_12",
       "type": "speaking-analysis",
+      "prompt": "[[Repeat:|Repite:]]",
       "prompt_es": "[[Repeat:|Repite:]]",
       "stimulus_en": "[[She|Ella]] [[is|es]] [[American|americana]].",
       "referenceText": "She is American.",
@@ -1659,6 +1668,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "interaction_id": "A1_U2_L5_13",
       "type": "speaking-analysis",
+      "prompt": "[[Repeat:|Repite:]]",
       "prompt_es": "[[Repeat:|Repite:]]",
       "stimulus_en": "[[They|Ellos]] [[are|son]] [[from|de]] [[France|Francia]].",
       "referenceText": "They are from France.",
@@ -1675,6 +1685,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "interaction_id": "A1_U2_L5_14",
       "type": "speaking-analysis",
+      "prompt": "[[Repeat:|Repite:]]",
       "prompt_es": "[[Repeat:|Repite:]]",
       "stimulus_en": "[[I|Yo]] [[am|soy]] [[from|de]] [[Japan|Japón]].",
       "referenceText": "I am from Japan.",
@@ -1691,6 +1702,7 @@ export const UNIT_2_EXERCISES: Exercise[] = [
     "content": {
       "interaction_id": "A1_U2_L5_15",
       "type": "speaking-analysis",
+      "prompt": "[[Repeat:|Repite:]]",
       "prompt_es": "[[Repeat:|Repite:]]",
       "stimulus_en": "[[Ten|Diez]] [[and|y]] [[one|uno]] [[is|es]] [[eleven|once]].",
       "referenceText": "Ten and one is eleven.",
