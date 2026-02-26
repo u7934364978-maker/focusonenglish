@@ -30,7 +30,8 @@ Llevar las unidades del curso de Inglés A1 a los estándares de "Alta Calidad" 
 
 ### [x] Unidad 5: Revisión y Mejora
 - Auditoría inicial y especificación (Simple Present: Everyday Actions).
-- Reescritura/Expansión a 60 ejercicios.
+- Reescritura/Expansión inicial a 60 ejercicios.
+- Adición de Lección Final (Listening & Pronunciation) para completar 75 ejercicios.
 - Implementación de formato `[[English|Spanish]]` y navegación de dos fases.
 - Verificación y push.
 
@@ -43,5 +44,5 @@ Llevar las unidades del curso de Inglés A1 a los estándares de "Alta Calidad" 
 - [x] Unidad 2 completada y verificada.
 - [x] Unidad 3 completada y verificada.
 - [x] Unidad 4 completada y verificada.
-- [x] Unidad 5 completada y verificada.
+- [x] Unidad 5 completada y verificada (75 ejercicios).
 - [ ] Pendiente: Finalizar reporte global.

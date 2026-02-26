@@ -1273,5 +1273,295 @@ export const UNIT_5_EXERCISES: Exercise[] = [
     },
     "audioUrl": "audio/a1/unit-5/e60.mp3",
     "topicName": "Grammar"
+  },
+
+  // ==========================================
+  // LESSON 4: LISTENING & PRONUNCIATION (61-75)
+  // ==========================================
+  {
+    "id": "a1-u5-e61",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I work in a hospital|Yo trabajo en un hospital]].",
+    "audioUrl": "audio/a1/unit-5/e61.mp3",
+    "content": {
+      "title": "[[Listening: Work|Escucha: Trabajo]]",
+      "instructions": "[[Listen and select the correct workplace|Escucha y selecciona el lugar de trabajo correcto]].",
+      "questions": [{
+        "id": "q61",
+        "type": "multiple-choice",
+        "question": "[[Where do I work?|¿Dónde trabajo?]]",
+        "options": ["[[in an office|en una oficina]]", "[[in a hospital|en un hospital]]", "[[in a school|en una escuela]]"],
+        "correctAnswer": "[[in a hospital|en un hospital]]",
+        "explanation": "[[The speaker says 'I work in a hospital'|El hablante dice 'I work in a hospital']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u5-e62",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[She eats an apple|Ella come una manzana]].",
+    "audioUrl": "audio/a1/unit-5/e62.mp3",
+    "content": {
+      "title": "[[Listening: Food|Escucha: Comida]]",
+      "instructions": "[[Listen and identify what she eats|Escucha e identifica qué come ella]].",
+      "questions": [{
+        "id": "q62",
+        "type": "multiple-choice",
+        "question": "[[What does she eat?|¿Qué come ella?]]",
+        "options": ["[[a banana|una plátano]]", "[[an apple|una manzana]]", "[[an orange|una manzana]]"],
+        "correctAnswer": "[[an apple|una manzana]]",
+        "explanation": "[[The speaker says 'She eats an apple'|El hablante dice 'She eats an apple']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u5-e63",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[We play tennis on Sundays|Jugamos al tenis los domingos]].",
+    "audioUrl": "audio/a1/unit-5/e63.mp3",
+    "content": {
+      "title": "[[Listening: Sports|Escucha: Deportes]]",
+      "instructions": "[[Listen and identify the sport|Escucha e identifica el deporte]].",
+      "questions": [{
+        "id": "q63",
+        "type": "multiple-choice",
+        "question": "[[What sport do we play?|¿Qué deporte jugamos?]]",
+        "options": ["[[football|fútbol]]", "[[tennis|tenis]]", "[[basketball|baloncesto]]"],
+        "correctAnswer": "[[tennis|tenis]]",
+        "explanation": "[[The speaker says 'We play tennis'|El hablante dice 'We play tennis']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u5-e64",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[He drinks coffee in the morning|Él bebe café por la mañana]].",
+    "audioUrl": "audio/a1/unit-5/e64.mp3",
+    "content": {
+      "title": "[[Listening: Drinks|Escucha: Bebidas]]",
+      "instructions": "[[Listen and identify the drink|Escucha e identifica la bebida]].",
+      "questions": [{
+        "id": "q64",
+        "type": "multiple-choice",
+        "question": "[[What does he drink?|¿Qué bebe él?]]",
+        "options": ["[[tea|té]]", "[[water|agua]]", "[[coffee|café]]"],
+        "correctAnswer": "[[coffee|café]]",
+        "explanation": "[[The speaker says 'He drinks coffee'|El hablante dice 'He drinks coffee']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u5-e65",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[They study English at school|Ellos estudian inglés en la escuela]].",
+    "audioUrl": "audio/a1/unit-5/e65.mp3",
+    "content": {
+      "title": "[[Listening: Study|Escucha: Estudio]]",
+      "instructions": "[[Listen and identify the language|Escucha e identifica el idioma]].",
+      "questions": [{
+        "id": "q65",
+        "type": "multiple-choice",
+        "question": "[[What do they study?|¿Qué estudian?]]",
+        "options": ["[[French|francés]]", "[[Spanish|español]]", "[[English|inglés]]"],
+        "correctAnswer": "[[English|inglés]]",
+        "explanation": "[[The speaker says 'They study English'|El hablante dice 'They study English']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u5-e66",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[I sleep eight hours every night|Duermo ocho horas cada noche]].",
+    "audioUrl": "audio/a1/unit-5/e66.mp3",
+    "content": {
+      "title": "[[Listening: Sleep|Escucha: Sueño]]",
+      "instructions": "[[Listen and select the number of hours|Escucha y selecciona el número de horas]].",
+      "questions": [{
+        "id": "q66",
+        "type": "multiple-choice",
+        "question": "[[How many hours do I sleep?|¿Cuántas horas duermo?]]",
+        "options": ["[[seven|siete]]", "[[eight|ocho]]", "[[nine|nueve]]"],
+        "correctAnswer": "[[eight|ocho]]",
+        "explanation": "[[The speaker says 'eight hours'|El hablante dice 'eight hours']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u5-e67",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[She watches TV in the evening|Ella ve la tele por la tarde]].",
+    "audioUrl": "audio/a1/unit-5/e67.mp3",
+    "content": {
+      "title": "[[Listening: Activities|Escucha: Actividades]]",
+      "instructions": "[[Listen and identify what she watches|Escucha e identifica qué ve ella]].",
+      "questions": [{
+        "id": "q67",
+        "type": "multiple-choice",
+        "question": "[[What does she watch?|¿Qué ve ella?]]",
+        "options": ["[[movies|películas]]", "[[the news|las noticias]]", "[[TV|la tele]]"],
+        "correctAnswer": "[[TV|la tele]]",
+        "explanation": "[[The speaker says 'She watches TV'|El hablante dice 'She watches TV']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u5-e68",
+    "type": "listening-comprehension",
+    "level": "A1",
+    "topicName": "Listening",
+    "transcript": "[[My father reads the newspaper|Mi padre lee el periódico]].",
+    "audioUrl": "audio/a1/unit-5/e68.mp3",
+    "content": {
+      "title": "[[Listening: Reading|Escucha: Lectura]]",
+      "instructions": "[[Listen and identify what he reads|Escucha e identifica qué lee él]].",
+      "questions": [{
+        "id": "q68",
+        "type": "multiple-choice",
+        "question": "[[What does he read?|¿Qué lee él?]]",
+        "options": ["[[a book|un libro]]", "[[a magazine|una revista]]", "[[the newspaper|el periódico]]"],
+        "correctAnswer": "[[the newspaper|el periódico]]",
+        "explanation": "[[The speaker says 'reads the newspaper'|El hablante dice 'reads the newspaper']]."
+      }]
+    }
+  },
+  {
+    "id": "a1-u5-e69",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[I work every day|Trabajo cada día]].",
+    "audioUrl": "audio/a1/unit-5/e69.mp3",
+    "content": {
+      "title": "[[Pronunciation: Work|Pronunciación: Trabajo]]",
+      "instructions": "[[Listen and repeat focusing on the /ɜː/ sound|Escucha y repite enfocándote en el sonido /ɜː/]].",
+      "expectedResponse": "I work every day.",
+      "evaluationCriteria": [
+        "[[Clear /ɜː/ sound in 'work'|Sonido /ɜː/ claro en 'work']]",
+        "[[Final /k/ sound|Sonido /k/ final]]",
+        "[[Correct sentence rhythm|Ritmo correcto de la oración]]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u5-e70",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[She studies at home|Ella estudia en casa]].",
+    "audioUrl": "audio/a1/unit-5/e70.mp3",
+    "content": {
+      "title": "[[Pronunciation: Third Person|Pronunciación: Tercera Persona]]",
+      "instructions": "[[Repeat focusing on the /iz/ sound in 'studies'|Repite enfocándote en el sonido /iz/ en 'studies']].",
+      "expectedResponse": "She studies at home.",
+      "evaluationCriteria": [
+        "[[Clear /iz/ ending in 'studies'|Final /iz/ claro en 'studies']]",
+        "[[Stress on the first syllable of 'studies'|Acento en la primera sílaba de 'studies']]",
+        "[[Linking 'at' and 'home'|Enlace entre 'at' y 'home']]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u5-e71",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[He eats breakfast|Él desayuna]].",
+    "audioUrl": "audio/a1/unit-5/e71.mp3",
+    "content": {
+      "title": "[[Pronunciation: Third Person|Pronunciación: Tercera Persona]]",
+      "instructions": "[[Repeat focusing on the /s/ sound in 'eats'|Repite enfocándote en el sonido /s/ en 'eats']].",
+      "expectedResponse": "He eats breakfast.",
+      "evaluationCriteria": [
+        "[[Clear /s/ sound in 'eats'|Sonido /s/ claro en 'eats']]",
+        "[[Short vowel /iː/ in 'eats'|Vocal corta /iː/ en 'eats']]",
+        "[[Final /st/ in 'breakfast'|Final /st/ en 'breakfast']]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u5-e72",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[They play football|Ellos juegan al fútbol]].",
+    "audioUrl": "audio/a1/unit-5/e72.mp3",
+    "content": {
+      "title": "[[Pronunciation: Play|Pronunciación: Jugar]]",
+      "instructions": "[[Listen and repeat focusing on the diphthong /eɪ/|Escucha y repite enfocándote en el diptongo /eɪ/]].",
+      "expectedResponse": "They play football.",
+      "evaluationCriteria": [
+        "[[Clear /eɪ/ sound in 'play'|Sonido /eɪ/ claro en 'play']]",
+        "[[Initial /ð/ in 'They'|Sonido /ð/ inicial en 'They']]",
+        "[[Final /l/ in 'football'|Sonido /l/ final en 'football']]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u5-e73",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[We watch TV|Vemos la tele]].",
+    "audioUrl": "audio/a1/unit-5/e73.mp3",
+    "content": {
+      "title": "[[Pronunciation: Watch|Pronunciación: Ver]]",
+      "instructions": "[[Repeat focusing on the /tʃ/ sound|Repite enfocándote en el sonido /tʃ/]].",
+      "expectedResponse": "We watch TV.",
+      "evaluationCriteria": [
+        "[[Clear /tʃ/ sound in 'watch'|Sonido /tʃ/ claro en 'watch']]",
+        "[[Vowel /ɒ/ in 'watch'|Vocal /ɒ/ en 'watch']]",
+        "[[Correct stress on 'TV'|Acento correcto en 'TV']]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u5-e74",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[He goes to the office|Él va a la oficina]].",
+    "audioUrl": "audio/a1/unit-5/e74.mp3",
+    "content": {
+      "title": "[[Pronunciation: Goes|Pronunciación: Va]]",
+      "instructions": "[[Repeat focusing on the /z/ sound in 'goes'|Repite enfocándote en el sonido /z/ en 'goes']].",
+      "expectedResponse": "He goes to the office.",
+      "evaluationCriteria": [
+        "[[Voiced /z/ sound in 'goes'|Sonido /z/ vibrante en 'goes']]",
+        "[[Clear /əʊ/ diphthong in 'goes'|Diptongo /əʊ/ claro en 'goes']]",
+        "[[Linking 'the' and 'office'|Enlace entre 'the' y 'office']]"
+      ]
+    }
+  },
+  {
+    "id": "a1-u5-e75",
+    "type": "pronunciation",
+    "level": "A1",
+    "topicName": "Pronunciation",
+    "transcript": "[[I live in a house|Vivo en una casa]].",
+    "audioUrl": "audio/a1/unit-5/e75.mp3",
+    "content": {
+      "title": "[[Pronunciation: Live|Pronunciación: Vivir]]",
+      "instructions": "[[Listen and repeat focusing on the /v/ sound|Escucha y repite enfocándote en el sonido /v/]].",
+      "expectedResponse": "I live in a house.",
+      "evaluationCriteria": [
+        "[[Correct /v/ labiodental sound|Sonido labiodental /v/ correcto]]",
+        "[[Short /ɪ/ in 'live'|Vocal corta /ɪ/ en 'live']]",
+        "[[Aspiration in 'house'|Aspiración en 'house']]"
+      ]
+    }
   }
 ];
