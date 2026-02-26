@@ -14,10 +14,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Numbers: 1, 2, 3|Números: 1, 2, 3]]",
       "instructions": "[[Select the word for the number (1)|Selecciona la palabra para el número (1)]].",
-      "question": "(1) = (____).",
-      "options": ["[[one|uno]]", "[[two|dos]]", "[[three|tres]]"],
-      "correctAnswer": 0,
-      "explanation": "[[1 is 'one' in English|1 es 'one' en inglés]]."
+      "questions": [{
+        "question": "(1) = (____).",
+        "options": ["[[one|uno]]", "[[two|dos]]", "[[three|tres]]"],
+        "correctAnswer": 0,
+        "explanation": "[[1 is 'one' in English|1 es 'one' en inglés]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e1.mp3",
     "topicName": "Vocabulary"
@@ -32,10 +34,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Numbers: 4, 5, 6|Números: 4, 5, 6]]",
       "instructions": "[[Identify the number (5)|Identifica el número (5)]].",
-      "question": "(5) = (____).",
-      "options": ["[[four|cuatro]]", "[[five|cinco]]", "[[six|seis]]"],
-      "correctAnswer": 1,
-      "explanation": "[[5 is 'five' in English|5 es 'five' en inglés]]."
+      "questions": [{
+        "question": "(5) = (____).",
+        "options": ["[[four|cuatro]]", "[[five|cinco]]", "[[six|seis]]"],
+        "correctAnswer": 1,
+        "explanation": "[[5 is 'five' in English|5 es 'five' en inglés]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e2.mp3",
     "topicName": "Vocabulary"
@@ -50,10 +54,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Numbers: 7-10|Números: 7-10]]",
       "instructions": "[[Choose the correct word for (10)|Elige la palabra correcta para (10)]].",
-      "question": "(10) = (____).",
-      "options": ["[[seven|siete]]", "[[eight|ocho]]", "[[ten|diez]]"],
-      "correctAnswer": 2,
-      "explanation": "[[10 is 'ten' in English|10 es 'ten' en inglés]]."
+      "questions": [{
+        "question": "(10) = (____).",
+        "options": ["[[seven|siete]]", "[[eight|ocho]]", "[[ten|diez]]"],
+        "correctAnswer": 2,
+        "explanation": "[[10 is 'ten' in English|10 es 'ten' en inglés]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e3.mp3",
     "topicName": "Vocabulary"
@@ -68,10 +74,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Counting Objects|Contando Objetos]]",
       "instructions": "[[How many books are there|Cuántos libros hay]]? (3)",
-      "question": "[[I have|Yo tengo]] (3) (____) [[books|libros]].",
-      "options": ["[[two|dos]]", "[[three|tres]]", "[[four|cuatro]]"],
-      "correctAnswer": 1,
-      "explanation": "[[3 is said 'three' in English|3 se dice 'three' en inglés]]."
+      "questions": [{
+        "question": "[[I have|Yo tengo]] (3) (____) [[books|libros]].",
+        "options": ["[[two|dos]]", "[[three|tres]]", "[[four|cuatro]]"],
+        "correctAnswer": 1,
+        "explanation": "[[3 is said 'three' in English|3 se dice 'three' en inglés]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e4.mp3",
     "topicName": "Vocabulary"
@@ -86,10 +94,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Counting Apples|Contando Manzanas]]",
       "instructions": "[[Select the number (8)|Selecciona el número (8)]].",
-      "question": "(8) [[red apples|rojas manzanas]].",
-      "options": ["[[seven|siete]]", "[[eight|ocho]]", "[[nine|nueve]]"],
-      "correctAnswer": 1,
-      "explanation": "[[8 is 'eight' in English|8 es 'eight' en inglés]]."
+      "questions": [{
+        "question": "(8) [[red apples|rojas manzanas]].",
+        "options": ["[[seven|siete]]", "[[eight|ocho]]", "[[nine|nueve]]"],
+        "correctAnswer": 1,
+        "explanation": "[[8 is 'eight' in English|8 es 'eight' en inglés]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e5.mp3",
     "topicName": "Vocabulary"
@@ -104,10 +114,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[The Class|La Clase]]",
       "instructions": "[[Count the students|Cuenta los estudiantes]] (5).",
-      "question": "[[There are|Hay]] (5) (____) [[students|estudiantes]].",
-      "options": ["[[five|cinco]]", "[[six|seis]]", "[[four|cuatro]]"],
-      "correctAnswer": 0,
-      "explanation": "[[5 corresponds to 'five'|5 corresponde a 'five']]."
+      "questions": [{
+        "question": "[[There are|Hay]] (5) (____) [[students|estudiantes]].",
+        "options": ["[[five|cinco]]", "[[six|seis]]", "[[four|cuatro]]"],
+        "correctAnswer": 0,
+        "explanation": "[[5 corresponds to 'five'|5 corresponde a 'five']]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e6.mp3",
     "topicName": "Vocabulary"
@@ -122,10 +134,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Favorite Number|Número Favorito]]",
       "instructions": "[[Identify the number (4)|Identifica el número (4)]].",
-      "question": "[[Number|Número]] (4) [[is my favorite|es mi favorito]].",
-      "options": ["[[four|cuatro]]", "[[five|cinco]]", "[[one|uno]]"],
-      "correctAnswer": 0,
-      "explanation": "[[4 is written as 'four'|4 se escribe como 'four']]."
+      "questions": [{
+        "question": "[[Number|Número]] (4) [[is my favorite|es mi favorito]].",
+        "options": ["[[four|cuatro]]", "[[five|cinco]]", "[[one|uno]]"],
+        "correctAnswer": 0,
+        "explanation": "[[4 is written as 'four'|4 se escribe como 'four']]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e7.mp3",
     "topicName": "Vocabulary"
@@ -140,10 +154,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Age|Edad]]",
       "instructions": "[[How old is she|Cuántos años tiene ella]]? (9)",
-      "question": "[[She is|Ella tiene]] (9) (____) [[years old|años]].",
-      "options": ["[[eight|ocho]]", "[[nine|nueve]]", "[[ten|diez]]"],
-      "correctAnswer": 1,
-      "explanation": "[[9 is 'nine'|9 es 'nine']]."
+      "questions": [{
+        "question": "[[She is|Ella tiene]] (9) (____) [[years old|años]].",
+        "options": ["[[eight|ocho]]", "[[nine|nueve]]", "[[ten|diez]]"],
+        "correctAnswer": 1,
+        "explanation": "[[9 is 'nine'|9 es 'nine']]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e8.mp3",
     "topicName": "Vocabulary"
@@ -158,10 +174,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[School Items|Artículos Escolares]]",
       "instructions": "[[Identify the quantity (2)|Identifica la cantidad (2)]].",
-      "question": "(2) (____) [[pens|bolígrafos]].",
-      "options": ["[[two|dos]]", "[[one|uno]]", "[[three|tres]]"],
-      "correctAnswer": 0,
-      "explanation": "[[2 is 'two'|2 es 'two']]."
+      "questions": [{
+        "question": "(2) (____) [[pens|bolígrafos]].",
+        "options": ["[[two|dos]]", "[[one|uno]]", "[[three|tres]]"],
+        "correctAnswer": 0,
+        "explanation": "[[2 is 'two'|2 es 'two']]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e9.mp3",
     "topicName": "Vocabulary"
@@ -176,10 +194,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Nature|Naturaleza]]",
       "instructions": "[[Count the birds|Cuenta los pájaros]] (6).",
-      "question": "[[I see|Veo]] (6) (____) [[birds|pájaros]].",
-      "options": ["[[seven|siete]]", "[[six|seis]]", "[[five|cinco]]"],
-      "correctAnswer": 1,
-      "explanation": "[[6 is 'six'|6 es 'six']]."
+      "questions": [{
+        "question": "[[I see|Veo]] (6) (____) [[birds|pájaros]].",
+        "options": ["[[seven|siete]]", "[[six|seis]]", "[[five|cinco]]"],
+        "correctAnswer": 1,
+        "explanation": "[[6 is 'six'|6 es 'six']]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e10.mp3",
     "topicName": "Vocabulary"
@@ -194,10 +214,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Basic Math|Mate Básica]]",
       "instructions": "[[Solve the sum|Resuelve la suma]] (1+1).",
-      "question": "[[One plus one is|Uno más uno es]] (____).",
-      "options": ["[[two|dos]]", "[[one|uno]]", "[[zero|cero]]"],
-      "correctAnswer": 0,
-      "explanation": "[[1+1=2 (two)|1+1=2 (two)]]."
+      "questions": [{
+        "question": "[[One plus one is|Uno más uno es]] (____).",
+        "options": ["[[two|dos]]", "[[one|uno]]", "[[zero|cero]]"],
+        "correctAnswer": 0,
+        "explanation": "[[1+1=2 (two)|1+1=2 (two)]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e11.mp3",
     "topicName": "Vocabulary"
@@ -212,10 +234,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Basic Math|Mate Básica]]",
       "instructions": "[[Solve the sum|Resuelve la suma]] (5+5).",
-      "question": "[[Five plus five is|Cinco más cinco es]] (____).",
-      "options": ["[[eight|ocho]]", "[[nine|nueve]]", "[[ten|diez]]"],
-      "correctAnswer": 2,
-      "explanation": "[[5+5=10 (ten)|5+5=10 (ten)]]."
+      "questions": [{
+        "question": "[[Five plus five is|Cinco más cinco es]] (____).",
+        "options": ["[[eight|ocho]]", "[[nine|nueve]]", "[[ten|diez]]"],
+        "correctAnswer": 2,
+        "explanation": "[[5+5=10 (ten)|5+5=10 (ten)]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e12.mp3",
     "topicName": "Vocabulary"
@@ -230,10 +254,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Pencils|Lápices]]",
       "instructions": "[[Select the number (7)|Selecciona el número (7)]].",
-      "question": "[[I have|Yo tengo]] (7) (____) [[pencils|lápices]].",
-      "options": ["[[seven|siete]]", "[[six|seis]]", "[[eight|ocho]]"],
-      "correctAnswer": 0,
-      "explanation": "[[7 is 'seven'|7 es 'seven']]."
+      "questions": [{
+        "question": "[[I have|Yo tengo]] (7) (____) [[pencils|lápices]].",
+        "options": ["[[seven|siete]]", "[[six|seis]]", "[[eight|ocho]]"],
+        "correctAnswer": 0,
+        "explanation": "[[7 is 'seven'|7 es 'seven']]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e13.mp3",
     "topicName": "Vocabulary"
@@ -248,10 +274,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Counting|Contando]]",
       "instructions": "[[What is the last number in the sequence 1-10|Cuál es el último número en la secuencia 1-10]]?",
-      "question": "[[The last number is|El último número es]] (____).",
-      "options": ["[[ten|diez]]", "[[nine|nueve]]", "[[one|uno]]"],
-      "correctAnswer": 0,
-      "explanation": "[[The sequence ends with ten|La secuencia termina con diez]]."
+      "questions": [{
+        "question": "[[The last number is|El último número es]] (____).",
+        "options": ["[[ten|diez]]", "[[nine|nueve]]", "[[one|uno]]"],
+        "correctAnswer": 0,
+        "explanation": "[[The sequence ends with ten|La secuencia termina con diez]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e14.mp3",
     "topicName": "Vocabulary"
@@ -266,18 +294,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[The House|La Casa]]",
       "instructions": "[[Count the windows|Cuenta las ventanas]] (4).",
-      "question": "[[There are|Hay]] (4) (____) [[windows|ventanas]].",
-      "options": ["[[three|tres]]", "[[four|cuatro]]", "[[five|cinco]]"],
-      "correctAnswer": 1,
-      "explanation": "[[4 is 'four'|4 es 'four']]."
+      "questions": [{
+        "question": "[[There are|Hay]] (4) (____) [[windows|ventanas]].",
+        "options": ["[[three|tres]]", "[[four|cuatro]]", "[[five|cinco]]"],
+        "correctAnswer": 1,
+        "explanation": "[[4 is 'four'|4 es 'four']]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e15.mp3",
     "topicName": "Vocabulary"
   },
-
-  // ==========================================
-  // LESSON 2: CLASSROOM OBJECTS (16-30)
-  // ==========================================
   {
     "id": "a1-u4-e16",
     "type": "multiple-choice",
@@ -288,10 +314,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[The Book|El Libro]]",
       "instructions": "[[Identify the object|Identifica el objeto]].",
-      "question": "[[What is this|Qué es esto]]? (📖)",
-      "options": ["[[a pen|un bolígrafo]]", "[[a book|un libro]]", "[[a ruler|una regla]]"],
-      "correctAnswer": 1,
-      "explanation": "[[It is a book|Es un libro]]."
+      "questions": [{
+        "question": "[[What is this|Qué es esto]]? (📖)",
+        "options": ["[[a pen|un bolígrafo]]", "[[a book|un libro]]", "[[a ruler|una regla]]"],
+        "correctAnswer": 1,
+        "explanation": "[[It is a book|Es un libro]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e16.mp3",
     "topicName": "Vocabulary"
@@ -306,10 +334,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[The Pen|El Bolígrafo]]",
       "instructions": "[[Choose the correct word|Elige la palabra correcta]].",
-      "question": "[[I write with a|Yo escribo con un]] (____).",
-      "options": ["[[pen|bolígrafo]]", "[[desk|escritorio]]", "[[chair|silla]]"],
-      "correctAnswer": 0,
-      "explanation": "[[We use a pen to write|Usamos un bolígrafo para escribir]]."
+      "questions": [{
+        "question": "[[I write with a|Yo escribo con un]] (____).",
+        "options": ["[[pen|bolígrafo]]", "[[desk|escritorio]]", "[[chair|silla]]"],
+        "correctAnswer": 0,
+        "explanation": "[[We use a pen to write|Usamos un bolígrafo para escribir]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e17.mp3",
     "topicName": "Vocabulary"
@@ -324,10 +354,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Writing Tools|Herramientas de Escritura]]",
       "instructions": "[[Select the word for 'pencil'|Selecciona la palabra para 'lápiz']].",
-      "question": "(✏️) = (____).",
-      "options": ["[[pencil|lápiz]]", "[[pen|bolígrafo]]", "[[ruler|regla]]"],
-      "correctAnswer": 0,
-      "explanation": "[[Pencil means lápiz|Pencil significa lápiz]]."
+      "questions": [{
+        "question": "(✏️) = (____).",
+        "options": ["[[pencil|lápiz]]", "[[pen|bolígrafo]]", "[[ruler|regla]]"],
+        "correctAnswer": 0,
+        "explanation": "[[Pencil means lápiz|Pencil significa lápiz]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e18.mp3",
     "topicName": "Vocabulary"
@@ -342,10 +374,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[The Notebook|La Libreta]]",
       "instructions": "[[Where is the notebook|Dónde está la libreta]]?",
-      "question": "[[The|La]] (____) [[is on the table|está sobre la mesa]].",
-      "options": ["[[notebook|libreta]]", "[[chair|silla]]", "[[window|ventana]]"],
-      "correctAnswer": 0,
-      "explanation": "[[Notebook means libreta or cuaderno|Notebook significa libreta o cuaderno]]."
+      "questions": [{
+        "question": "[[The|La]] (____) [[is on the table|está sobre la mesa]].",
+        "options": ["[[notebook|libreta]]", "[[chair|silla]]", "[[window|ventana]]"],
+        "correctAnswer": 0,
+        "explanation": "[[Notebook means libreta or cuaderno|Notebook significa libreta o cuaderno]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e19.mp3",
     "topicName": "Vocabulary"
@@ -360,10 +394,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[The Ruler|La Regla]]",
       "instructions": "[[Choose the correct word|Elige la palabra correcta]].",
-      "question": "[[I use a|Yo uso una]] (📏) [[to measure|para medir]].",
-      "options": ["[[ruler|regla]]", "[[pencil|lápiz]]", "[[bag|mochila]]"],
-      "correctAnswer": 0,
-      "explanation": "[[Ruler means regla|Ruler significa regla]]."
+      "questions": [{
+        "question": "[[I use a|Yo uso una]] (📏) [[to measure|para medir]].",
+        "options": ["[[ruler|regla]]", "[[pencil|lápiz]]", "[[bag|mochila]]"],
+        "correctAnswer": 0,
+        "explanation": "[[Ruler means regla|Ruler significa regla]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e20.mp3",
     "topicName": "Vocabulary"
@@ -378,10 +414,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[The Bag|La Mochila]]",
       "instructions": "[[Identify the bag|Identifica la mochila]].",
-      "question": "(🎒) = (____).",
-      "options": ["[[bag|mochila]]", "[[desk|escritorio]]", "[[pen|bolígrafo]]"],
-      "correctAnswer": 0,
-      "explanation": "[[Bag means mochila or bolsa|Bag significa mochila o bolsa]]."
+      "questions": [{
+        "question": "(🎒) = (____).",
+        "options": ["[[bag|mochila]]", "[[desk|escritorio]]", "[[pen|bolígrafo]]"],
+        "correctAnswer": 0,
+        "explanation": "[[Bag means mochila or bolsa|Bag significa mochila o bolsa]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e21.mp3",
     "topicName": "Vocabulary"
@@ -396,10 +434,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[The Chair|La Silla]]",
       "instructions": "[[Where do you sit|Dónde te sientas]]?",
-      "question": "[[I sit on a|Me siento en una]] (____).",
-      "options": ["[[desk|escritorio]]", "[[chair|silla]]", "[[table|mesa]]"],
-      "correctAnswer": 1,
-      "explanation": "[[Chair means silla|Chair significa silla]]."
+      "questions": [{
+        "question": "[[I sit on a|Me siento en una]] (____).",
+        "options": ["[[desk|escritorio]]", "[[chair|silla]]", "[[table|mesa]]"],
+        "correctAnswer": 1,
+        "explanation": "[[Chair means silla|Chair significa silla]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e22.mp3",
     "topicName": "Vocabulary"
@@ -414,10 +454,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[The Desk|El Escritorio]]",
       "instructions": "[[Identify the piece of furniture|Identifica el mueble]].",
-      "question": "(🖥️) [[is a|es un]] (____).",
-      "options": ["[[bag|mochila]]", "[[desk|escritorio]]", "[[ruler|regla]]"],
-      "correctAnswer": 1,
-      "explanation": "[[Desk means escritorio or pupitre|Desk significa escritorio o pupitre]]."
+      "questions": [{
+        "question": "(🖥️) [[is a|es un]] (____).",
+        "options": ["[[bag|mochila]]", "[[desk|escritorio]]", "[[ruler|regla]]"],
+        "correctAnswer": 1,
+        "explanation": "[[Desk means escritorio or pupitre|Desk significa escritorio o pupitre]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e23.mp3",
     "topicName": "Vocabulary"
@@ -432,10 +474,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[The Eraser|La Goma]]",
       "instructions": "[[Identify the object|Identifica el objeto]].",
-      "question": "(🧼) = (____).",
-      "options": ["[[eraser|goma]]", "[[pen|bolígrafo]]", "[[notebook|libreta]]"],
-      "correctAnswer": 0,
-      "explanation": "[[Eraser means goma or borrador|Eraser significa goma o borrador]]."
+      "questions": [{
+        "question": "[[Eraser|Goma]] = (____).",
+        "options": ["[[eraser|goma]]", "[[pen|bolígrafo]]", "[[notebook|libreta]]"],
+        "correctAnswer": 0,
+        "explanation": "[[Eraser means goma or borrador|Eraser significa goma o borrador]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e24.mp3",
     "topicName": "Vocabulary"
@@ -450,10 +494,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[The Board|La Pizarra]]",
       "instructions": "[[Where does the teacher write|Dónde escribe la profesora]]?",
-      "question": "[[The teacher writes on the|La profesora escribe en la]] (____).",
-      "options": ["[[board|pizarra]]", "[[chair|silla]]", "[[bag|mochila]]"],
-      "correctAnswer": 0,
-      "explanation": "[[Board means pizarra|Board significa pizarra]]."
+      "questions": [{
+        "question": "[[The teacher writes on the|La profesora escribe en la]] (____).",
+        "options": ["[[board|pizarra]]", "[[chair|silla]]", "[[bag|mochila]]"],
+        "correctAnswer": 0,
+        "explanation": "[[Board means pizarra|Board significa pizarra]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e25.mp3",
     "topicName": "Vocabulary"
@@ -511,7 +557,7 @@ export const UNIT_4_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "audio/a1/unit-4/e28.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e29",
@@ -519,57 +565,62 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Classroom Objects",
     "difficulty": "easy",
-    "transcript": "[[Take a pencil|Toma un lápiz]].",
+    "transcript": "[[Close the window|Cierra la ventana]].",
     "content": {
       "title": "[[Instructions|Instrucciones]]",
       "instructions": "[[Complete the phrase|Completa la frase]].",
       "questions": [
         {
-          "question": "[[Take a|Toma un]] (____).",
-          "correctAnswer": "pencil",
-          "explanation": "[[You use a pencil to draw|Usas un lápiz para dibujar]]."
+          "question": "[[Close the|Cierra la]] (____).",
+          "correctAnswer": "window",
+          "explanation": "[[You close the window when it is cold|Cierras la ventana cuando hace frío]]."
         }
       ]
     },
     "audioUrl": "audio/a1/unit-4/e29.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e30",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
     "topic": "Classroom Objects",
     "difficulty": "easy",
-    "transcript": "[[Where is the ruler|Dónde está la regla]]?",
+    "transcript": "[[Look at the board|Mira la pizarra]].",
     "content": {
-      "title": "[[Questions|Preguntas]]",
-      "instructions": "[[Choose the correct word|Elige la palabra correcta]].",
-      "question": "[[Where is the|Dónde está la]] (📏)?",
-      "options": ["[[ruler|regla]]", "[[desk|escritorio]]", "[[bag|mochila]]"],
-      "correctAnswer": 0,
-      "explanation": "[[Ruler means regla|Ruler significa regla]]."
+      "title": "[[Instructions|Instrucciones]]",
+      "instructions": "[[Complete the phrase|Completa la frase]].",
+      "questions": [
+        {
+          "question": "[[Look at the|Mira la]] (____).",
+          "correctAnswer": "board",
+          "explanation": "[[The teacher writes on the board|La profesora escribe en la pizarra]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-4/e30.mp3",
-    "topicName": "Vocabulary"
+    "topicName": "Grammar"
   },
 
   // ==========================================
-  // LESSON 3: ARTICLES A/AN (31-45)
+  // LESSON 3: PLURALS AND ARTICLES (31-45)
   // ==========================================
   {
     "id": "a1-u4-e31",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Articles",
+    "topic": "Plurals",
     "difficulty": "medium",
-    "transcript": "[[A book|Un libro]].",
+    "transcript": "[[One book, two books|Un libro, dos libros]].",
     "content": {
-      "title": "[[Articles: A|Artículos: A]]",
-      "instructions": "[[Choose the correct article|Elige el artículo correcto]].",
-      "question": "(____) [[book|libro]].",
-      "options": ["[[a|un]]", "[[an|un]]"],
-      "correctAnswer": 0,
-      "explanation": "[[We use 'a' before a consonant sound|Usamos 'a' antes de un sonido consonante]]."
+      "title": "[[Plural Nouns|Sustantivos Plurales]]",
+      "instructions": "[[What is the plural of 'book'|Cuál es el plural de 'book']]?",
+      "questions": [{
+        "question": "[[One book, two|Un libro, dos]] (____).",
+        "options": ["[[book|libro]]", "[[books|libros]]", "[[bookes|libros (incorrecto)]]"],
+        "correctAnswer": 1,
+        "explanation": "[[We add 's' for most plurals|Añadimos 's' para la mayoría de los plurales]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e31.mp3",
     "topicName": "Grammar"
@@ -578,16 +629,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e32",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Articles",
+    "topic": "Plurals",
     "difficulty": "medium",
-    "transcript": "[[An apple|Una manzana]].",
+    "transcript": "[[One pen, three pens|Un bolígrafo, tres bolígrafos]].",
     "content": {
-      "title": "[[Articles: AN|Artículos: AN]]",
-      "instructions": "[[Choose the correct article|Elige el artículo correcto]].",
-      "question": "(____) [[apple|manzana]].",
-      "options": ["[[a|una]]", "[[an|una]]"],
-      "correctAnswer": 1,
-      "explanation": "[[We use 'an' before a vowel sound|Usamos 'an' antes de un sonido vocálico]]."
+      "title": "[[Plural Nouns|Sustantivos Plurales]]",
+      "instructions": "[[What is the plural of 'pen'|Cuál es el plural de 'pen']]?",
+      "questions": [{
+        "question": "[[One pen, three|Un bolígrafo, tres]] (____).",
+        "options": ["[[pen|bolígrafo]]", "[[pennes|bolígrafos (incorrecto)]]", "[[pens|bolígrafos]]"],
+        "correctAnswer": 2,
+        "explanation": "[[Pen becomes pens in plural|Pen se convierte en pens en plural]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e32.mp3",
     "topicName": "Grammar"
@@ -598,14 +651,16 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Articles",
     "difficulty": "medium",
-    "transcript": "[[A pen|Un bolígrafo]].",
+    "transcript": "[[A notebook|Una libreta]].",
     "content": {
-      "title": "[[Articles: A|Artículos: A]]",
+      "title": "[[Articles A/An|Artículos A/An]]",
       "instructions": "[[Choose the correct article|Elige el artículo correcto]].",
-      "question": "(____) [[pen|bolígrafo]].",
-      "options": ["[[a|un]]", "[[an|un]]"],
-      "correctAnswer": 0,
-      "explanation": "[['Pen' starts with 'p' (consonant)|'Pen' empieza con 'p' (consonante)]]."
+      "questions": [{
+        "question": "(____) [[notebook|libreta]].",
+        "options": ["[[a|un/una]]", "[[an|un/una (ante vocal)]]", "[[the|el/la]]"],
+        "correctAnswer": 0,
+        "explanation": "[[Use 'a' before a consonant sound|Usa 'a' antes de un sonido consonante]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e33.mp3",
     "topicName": "Grammar"
@@ -618,12 +673,14 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "[[An eraser|Una goma]].",
     "content": {
-      "title": "[[Articles: AN|Artículos: AN]]",
+      "title": "[[Articles A/An|Artículos A/An]]",
       "instructions": "[[Choose the correct article|Elige el artículo correcto]].",
-      "question": "(____) [[eraser|goma]].",
-      "options": ["[[a|una]]", "[[an|una]]"],
-      "correctAnswer": 1,
-      "explanation": "[['Eraser' starts with 'e' (vowel)|'Eraser' empieza con 'e' (vocal)]]."
+      "questions": [{
+        "question": "(____) [[eraser|goma]].",
+        "options": ["[[a|un/una]]", "[[an|un/una (ante vocal)]]", "[[no article|sin artículo]]"],
+        "correctAnswer": 1,
+        "explanation": "[[Use 'an' before a vowel sound|Usa 'an' antes de un sonido vocálico]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e34.mp3",
     "topicName": "Grammar"
@@ -632,70 +689,77 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e35",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Articles",
+    "topic": "Plurals",
     "difficulty": "medium",
-    "transcript": "[[A desk|Un escritorio]].",
+    "transcript": "[[Ten rulers|Diez reglas]].",
     "content": {
-      "title": "[[Articles: A|Artículos: A]]",
-      "instructions": "[[Choose the correct article|Elige el artículo correcto]].",
-      "question": "(____) [[desk|escritorio]].",
-      "options": ["[[a|un]]", "[[an|un]]"],
-      "correctAnswer": 0,
-      "explanation": "[['Desk' starts with 'd' (consonant)|'Desk' empieza con 'd' (consonante)]]."
+      "title": "[[Plurals|Plurales]]",
+      "instructions": "[[How do you say 10 reglas in English|Cómo se dice 10 reglas en inglés]]?",
+      "questions": [{
+        "question": "[[10 reglas =|10 reglas =]] (____).",
+        "options": ["[[ten ruler|diez regla]]", "[[ten rulers|diez reglas]]", "[[ten ruler's|diez de regla]]"],
+        "correctAnswer": 1,
+        "explanation": "[[Plural of ruler is rulers|El plural de ruler es rulers]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e35.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e36",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
-    "topic": "Articles",
+    "topic": "Plurals",
     "difficulty": "medium",
-    "transcript": "[[An office|Una oficina]].",
+    "transcript": "[[Two pencils and one pen|Dos lápices y un bolígrafo]].",
     "content": {
-      "title": "[[Articles: AN|Artículos: AN]]",
-      "instructions": "[[Choose the correct article|Elige el artículo correcto]].",
-      "question": "(____) [[office|oficina]].",
-      "options": ["[[a|una]]", "[[an|una]]"],
-      "correctAnswer": 1,
-      "explanation": "[['Office' starts with 'o' (vowel)|'Office' empieza con 'o' (vocal)]]."
+      "title": "[[Plurals and Numbers|Plurales y Números]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[Two pencils and one pen|Dos lápices y un bolígrafo]].",
+      "words": ["[[pen|bolígrafo]].", "[[one|un]]", "[[and|y]]", "[[pencils|lápices]]", "[[Two|Dos]]"],
+      "explanation": "[[Quantity + Noun (plural) + and + Quantity + Noun (singular)|Cantidad + Nombre (plural) + y + Cantidad + Nombre (singular)]]."
     },
     "audioUrl": "audio/a1/unit-4/e36.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e37",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
     "topic": "Articles",
     "difficulty": "medium",
-    "transcript": "[[A pencil|Un lápiz]].",
+    "transcript": "[[This is an apple|Esto es una manzana]].",
     "content": {
-      "title": "[[Articles: A|Artículos: A]]",
-      "instructions": "[[Choose the correct article|Elige el artículo correcto]].",
-      "question": "(____) [[pencil|lápiz]].",
-      "options": ["[[a|un]]", "[[an|un]]"],
-      "correctAnswer": 0,
-      "explanation": "[['Pencil' starts with 'p' (consonant)|'Pencil' empieza con 'p' (consonante)]]."
+      "title": "[[Articles|Artículos]]",
+      "instructions": "[[Complete with 'a' or 'an'|Completa con 'a' o 'an']].",
+      "questions": [
+        {
+          "question": "[[This is|Esto es]] (____) [[apple|manzana]].",
+          "correctAnswer": "an",
+          "explanation": "[['Apple' starts with a vowel, use 'an'|'Apple' empieza con vocal, usa 'an']]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-4/e37.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e38",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
     "topic": "Articles",
     "difficulty": "medium",
-    "transcript": "[[An orange|Una naranja]].",
+    "transcript": "[[I have a desk|Tengo un escritorio]].",
     "content": {
-      "title": "[[Articles: AN|Artículos: AN]]",
-      "instructions": "[[Choose the correct article|Elige el artículo correcto]].",
-      "question": "(____) [[orange|naranja]].",
-      "options": ["[[a|una]]", "[[an|una]]"],
-      "correctAnswer": 1,
-      "explanation": "[['Orange' starts with 'o' (vowel)|'Orange' empieza con 'o' (vocal)]]."
+      "title": "[[Articles|Artículos]]",
+      "instructions": "[[Complete with 'a' or 'an'|Completa con 'a' o 'an']].",
+      "questions": [
+        {
+          "question": "[[I have|Tengo]] (____) [[desk|escritorio]].",
+          "correctAnswer": "a",
+          "explanation": "[['Desk' starts with a consonant, use 'a'|'Desk' empieza con consonante, usa 'a']]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-4/e38.mp3",
     "topicName": "Grammar"
@@ -704,16 +768,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e39",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Articles",
+    "topic": "Plurals",
     "difficulty": "medium",
-    "transcript": "[[A ruler|Una regla]].",
+    "transcript": "[[Five students in the class|Cinco estudiantes en la clase]].",
     "content": {
-      "title": "[[Articles: A|Artículos: A]]",
-      "instructions": "[[Choose the correct article|Elige el artículo correcto]].",
-      "question": "(____) [[ruler|regla]].",
-      "options": ["[[a|una]]", "[[an|una]]"],
-      "correctAnswer": 0,
-      "explanation": "[['Ruler' starts with 'r' (consonant)|'Ruler' empieza con 'r' (consonante)]]."
+      "title": "[[Counting Students|Contando Estudiantes]]",
+      "instructions": "[[Select the plural form|Selecciona la forma plural]].",
+      "questions": [{
+        "question": "[[Five|Cinco]] (____) [[in the class|en la clase]].",
+        "options": ["[[student|estudiante]]", "[[students|estudiantes]]", "[[studentes|estudiantes (incorrecto)]]"],
+        "correctAnswer": 1,
+        "explanation": "[[Plural of student is students|El plural de student es students]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e39.mp3",
     "topicName": "Grammar"
@@ -724,48 +790,56 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Articles",
     "difficulty": "medium",
-    "transcript": "[[An hour|Una hora]].",
+    "transcript": "[[A blue bag|Una mochila azul]].",
     "content": {
-      "title": "[[Articles: AN|Artículos: AN]]",
-      "instructions": "[[Choose the correct article (silent h)|Elige el artículo correcto (h muda)]].",
-      "question": "(____) [[hour|hora]].",
-      "options": ["[[a|una]]", "[[an|una]]"],
-      "correctAnswer": 1,
-      "explanation": "[[Although it starts with 'h', it sounds like a vowel ('our')|Aunque empieza con 'h', suena como vocal ('our')]]."
+      "title": "[[Articles and Colors|Artículos y Colores]]",
+      "instructions": "[[Identify the correct phrase|Identifica la frase correcta]].",
+      "questions": [{
+        "question": "(____) [[blue bag|mochila azul]].",
+        "options": ["[[A|Una]]", "[[An|Una (incorrecto)]]", "[[The|La]]"],
+        "correctAnswer": 0,
+        "explanation": "[['Blue' starts with a consonant, use 'a'|'Blue' empieza con consonante, usa 'a']]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e40.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e41",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
-    "topic": "Articles",
+    "topic": "Plurals",
     "difficulty": "medium",
-    "transcript": "[[I have a book|Yo tengo un libro]].",
+    "transcript": "[[Two oranges|Dos naranjas]].",
     "content": {
-      "title": "[[Sentences|Oraciones]]",
-      "instructions": "[[Order the words|Ordena las palabras]].",
-      "correctSentence": "[[I have a book|Yo tengo un libro]].",
-      "words": ["[[book|libro]].", "[[a|un]]", "[[have|tengo]]", "[[I|Yo]]"],
-      "explanation": "[[I have + a + noun|Yo tengo + un + sustantivo]]."
+      "title": "[[Plurals|Plurales]]",
+      "instructions": "[[What is the plural of 'orange'|Cuál es el plural de 'orange']]?",
+      "questions": [{
+        "question": "[[Two|Dos]] (____).",
+        "options": ["[[orange|naranja]]", "[[oranges|naranjas]]", "[[orangies|naranjas (incorrecto)]]"],
+        "correctAnswer": 1,
+        "explanation": "[[Add 's' to orange for plural|Añade 's' a orange para el plural]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e41.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e42",
-    "type": "sentence-building",
+    "type": "multiple-choice",
     "level": "A1",
     "topic": "Articles",
     "difficulty": "medium",
-    "transcript": "[[She has an eraser|Ella tiene una goma]].",
+    "transcript": "[[An umbrella|Un paraguas]].",
     "content": {
-      "title": "[[Sentences|Oraciones]]",
-      "instructions": "[[Order the words|Ordena las palabras]].",
-      "correctSentence": "[[She has an eraser|Ella tiene una goma]].",
-      "words": ["[[eraser|goma]].", "[[an|una]]", "[[has|tiene]]", "[[She|Ella]]"],
-      "explanation": "[[She has + an + noun|Ella tiene + una + sustantivo]]."
+      "title": "[[Articles|Artículos]]",
+      "instructions": "[[Choose the article for 'umbrella'|Elige el artículo para 'umbrella']].",
+      "questions": [{
+        "question": "(____) [[umbrella|paraguas]].",
+        "options": ["[[a|un]]", "[[an|un]]", "[[no|no]]"],
+        "correctAnswer": 1,
+        "explanation": "[['Umbrella' starts with a vowel sound, use 'an'|'Umbrella' empieza con sonido vocálico, usa 'an']]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e42.mp3",
     "topicName": "Grammar"
@@ -774,52 +848,56 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e43",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Articles",
+    "topic": "Plurals",
     "difficulty": "medium",
-    "transcript": "[[A big bag|Una grande mochila]].",
+    "transcript": "[[Seven chairs|Siete sillas]].",
     "content": {
-      "title": "[[Articles with Adjectives|Artículos con Adjetivos]]",
-      "instructions": "[[Choose the article based on the adjective|Elige el artículo basado en el adjetivo]].",
-      "question": "(____) [[big bag|grande mochila]].",
-      "options": ["[[a|una]]", "[[an|una]]"],
-      "correctAnswer": 0,
-      "explanation": "[['Big' starts with a consonant sound|'Big' empieza con un sonido consonante]]."
+      "title": "[[Plurals|Plurales]]",
+      "instructions": "[[Identify the plural|Identifica el plural]].",
+      "questions": [{
+        "question": "[[7 sillas =|7 sillas =]] (____).",
+        "options": ["[[seven chair|siete silla]]", "[[seven chairs|siete sillas]]", "[[seven chair's|siete de silla]]"],
+        "correctAnswer": 1,
+        "explanation": "[[Plural of chair is chairs|El plural de chair es chairs]]."
+      }]
     },
     "audioUrl": "audio/a1/unit-4/e43.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e44",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "Articles",
     "difficulty": "medium",
-    "transcript": "[[An old book|Un viejo libro]].",
+    "transcript": "[[It is a red book|Es un rojo libro]].",
     "content": {
-      "title": "[[Articles with Adjectives|Artículos con Adjetivos]]",
-      "instructions": "[[Choose the article based on the adjective|Elige el artículo basado en el adjetivo]].",
-      "question": "(____) [[old book|viejo libro]].",
-      "options": ["[[a|un]]", "[[an|un]]"],
-      "correctAnswer": 1,
-      "explanation": "[['Old' starts with a vowel sound|'Old' empieza con un sonido vocálico]]."
+      "title": "[[Building Sentences|Construyendo Oraciones]]",
+      "instructions": "[[Order the words|Ordena las palabras]].",
+      "correctSentence": "[[It is a red book|Es un rojo libro]].",
+      "words": ["[[book|libro]].", "[[red|rojo]]", "[[a|un]]", "[[is|es]]", "[[It|Es]]"],
+      "explanation": "[[Subject + Verb + Article + Adjective + Noun|Sujeto + Verbo + Artículo + Adjetivo + Sustantivo]]."
     },
     "audioUrl": "audio/a1/unit-4/e44.mp3",
     "topicName": "Grammar"
   },
   {
     "id": "a1-u4-e45",
-    "type": "multiple-choice",
+    "type": "fill-blank",
     "level": "A1",
-    "topic": "Articles",
+    "topic": "Plurals",
     "difficulty": "medium",
-    "transcript": "[[A green pencil|Un verde lápiz]].",
+    "transcript": "[[Four windows|Cuatro ventanas]].",
     "content": {
-      "title": "[[Articles with Colors|Artículos con Colores]]",
-      "instructions": "[[Choose the correct article|Elige el artículo correcto]].",
-      "question": "(____) [[green pencil|verde lápiz]].",
-      "options": ["[[a|un]]", "[[an|un]]"],
-      "correctAnswer": 0,
-      "explanation": "[['Green' starts with 'g' (consonant)|'Green' empieza con 'g' (consonante)]]."
+      "title": "[[Plurals|Plurales]]",
+      "instructions": "[[Write the plural|Escribe el plural]].",
+      "questions": [
+        {
+          "question": "[[4 window = 4|4 ventana = 4]] (____).",
+          "correctAnswer": "windows",
+          "explanation": "[[Plural of window is windows|El plural de window es windows]]."
+        }
+      ]
     },
     "audioUrl": "audio/a1/unit-4/e45.mp3",
     "topicName": "Grammar"
@@ -830,20 +908,27 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   // ==========================================
   {
     "id": "a1-u4-e46",
-    "type": "reading",
+    "type": "reading-comprehension",
     "level": "A1",
-    "topic": "Reading",
+    "topic": "The Classroom",
     "difficulty": "hard",
-    "transcript": "[[Hello! My name is Tom|Hola! Mi nombre es Tom]]. [[I am a student|Soy un estudiante]]. [[I have a big bag|Tengo una mochila grande]]. [[In my bag|En mi mochila]], [[I have three pens|tengo tres bolígrafos]], [[one notebook|una libreta]], [[and a blue ruler|y una regla azul]]. [[I also have an eraser|También tengo una goma]]. [[I like my school|Me gusta mi escuela]].",
+    "transcript": "[[Hello! This is my classroom|Hola! Esta es mi aula]]. [[I see five desks|Veo cinco escritorios]]. [[There is one big board|Hay una pizarra grande]]. [[I have a blue bag|Tengo una mochila azul]]. [[In my bag|En mi mochila]], [[I have three books and one pen|tengo tres libros y un bolígrafo]].",
     "content": {
-      "title": "[[Reading: Tom's Bag|Lectura: La Mochila de Tom]]",
-      "instructions": "[[Read about Tom and his school items|Lee sobre Tom y sus útiles escolares]].",
+      "title": "[[My Classroom|Mi Aula]]",
+      "text": "[[Hello! This is my classroom|Hola! Esta es mi aula]]. [[I see five desks|Veo cinco escritorios]]. [[There is one big board|Hay una pizarra grande]]. [[I have a blue bag|Tengo una mochila azul]]. [[In my bag|En mi mochila]], [[I have three books and one pen|tengo tres libros y un bolígrafo]].",
+      "instructions": "[[Read and answer the questions|Lee y responde las preguntas]].",
       "questions": [
         {
-          "question": "[[Hello! My name is Tom|Hola! Mi nombre es Tom]]. [[I am a student|Soy un estudiante]]. [[I have a big bag|Tengo una mochila grande]]. [[In my bag|En mi mochila]], [[I have three pens|tengo tres bolígrafos]], [[one notebook|una libreta]], [[and a blue ruler|y una regla azul]]. [[I also have an eraser|También tengo una goma]]. [[I like my school|Me gusta mi escuela]].",
-          "options": ["[[I have read the text|He leído el texto]]."],
-          "correctAnswer": 0,
-          "explanation": "[[Click to continue|Haz clic para continuar]]."
+          "question": "[[How many desks are there|Cuántos escritorios hay]]?",
+          "options": ["[[four|cuatro]]", "[[five|cinco]]", "[[six|seis]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The text says 'I see five desks'|El texto dice 'Veo cinco escritorios']]."
+        },
+        {
+          "question": "[[What color is the bag|De qué color es la mochila]]?",
+          "options": ["[[red|roja]]", "[[blue|azul]]", "[[green|verde]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The text says 'I have a blue bag'|El texto dice 'Tengo una mochila azul']]."
         }
       ]
     },
@@ -851,69 +936,101 @@ export const UNIT_4_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u4-e47",
-    "type": "multiple-choice",
+    "type": "reading-comprehension",
     "level": "A1",
-    "topic": "Comprehension",
+    "topic": "My Items",
     "difficulty": "hard",
-    "transcript": "[[What is his name|Cuál es su nombre]]?",
+    "transcript": "[[I have two notebooks|Tengo dos libretas]]. [[I have a pencil and an eraser|Tengo un lápiz y una goma]]. [[The eraser is small|La goma es pequeña]].",
     "content": {
-      "title": "[[Comprehension: Name|Comprensión: Nombre]]",
-      "instructions": "[[Answer the question|Responde la pregunta]].",
-      "question": "[[His name is|Su nombre es]] (____).",
-      "options": ["[[Tom|Tom]]", "[[Tim|Tim]]", "[[Sam|Sam]]"],
-      "correctAnswer": 0,
-      "explanation": "[[The text starts with 'My name is Tom'|El texto comienza con 'Mi nombre es Tom']]."
+      "title": "[[My School Items|Mis Artículos Escolares]]",
+      "text": "[[I have two notebooks|Tengo dos libretas]]. [[I have a pencil and an eraser|Tengo un lápiz y una goma]]. [[The eraser is small|La goma es pequeña]].",
+      "instructions": "[[True or False|Verdadero o Falso]].",
+      "questions": [
+        {
+          "question": "[[I have three notebooks|Tengo tres libretas]].",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "[[The text says 'I have two notebooks'|El texto dice 'Tengo dos libretas']]."
+        },
+        {
+          "question": "[[The eraser is small|La goma es pequeña]].",
+          "type": "true-false",
+          "correctAnswer": "True",
+          "explanation": "[[The text says 'The eraser is small'|El texto dice 'La goma es pequeña']]."
+        }
+      ]
     },
     "topicName": "Reading"
   },
   {
     "id": "a1-u4-e48",
-    "type": "multiple-choice",
+    "type": "reading-comprehension",
     "level": "A1",
-    "topic": "Comprehension",
+    "topic": "The Teacher",
     "difficulty": "hard",
-    "transcript": "[[Is the bag small|Es la mochila pequeña]]?",
+    "transcript": "[[The teacher has a pen|La profesora tiene un bolígrafo]]. [[It is red|Es rojo]]. [[She writes on the board|Ella escribe en la pizarra]].",
     "content": {
-      "title": "[[Comprehension: Bag|Comprensión: Mochila]]",
+      "title": "[[The Teacher|La Profesora]]",
+      "text": "[[The teacher has a pen|La profesora tiene un bolígrafo]]. [[It is red|Es rojo]]. [[She writes on the board|Ella escribe en la pizarra]].",
       "instructions": "[[Answer the question|Responde la pregunta]].",
-      "question": "[[The bag is|La mochila es]] (____).",
-      "options": ["[[small|pequeña]]", "[[big|grande]]", "[[new|nueva]]"],
-      "correctAnswer": 1,
-      "explanation": "[[Tom says 'I have a big bag'|Tom dice 'Tengo una mochila grande']]."
+      "questions": [
+        {
+          "question": "[[What color is the pen|De qué color es el bolígrafo]]?",
+          "options": ["[[blue|azul]]", "[[red|rojo]]", "[[black|negro]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The text says 'It is red'|El texto dice 'Es rojo']]."
+        }
+      ]
     },
     "topicName": "Reading"
   },
   {
     "id": "a1-u4-e49",
-    "type": "multiple-choice",
+    "type": "reading-comprehension",
     "level": "A1",
-    "topic": "Comprehension",
+    "topic": "Counting Nature",
     "difficulty": "hard",
-    "transcript": "[[How many pens does he have|Cuántos bolígrafos tiene él]]?",
+    "transcript": "[[I see seven birds|Veo siete pájaros]]. [[Four birds are blue|Cuatro pájaros son azules]]. [[Three birds are yellow|Tres pájaros son amarillos]].",
     "content": {
-      "title": "[[Comprehension: Pens|Comprensión: Bolígrafos]]",
-      "instructions": "[[Answer the question|Responde la pregunta]].",
-      "question": "[[He has|Él tiene]] (____) [[pens|bolígrafos]].",
-      "options": ["[[two|dos]]", "[[three|tres]]", "[[four|cuatro]]"],
-      "correctAnswer": 1,
-      "explanation": "[[He says 'I have three pens'|Él dice 'tengo tres bolígrafos']]."
+      "title": "[[Birds|Pájaros]]",
+      "text": "[[I see seven birds|Veo siete pájaros]]. [[Four birds are blue|Cuatro pájaros son azules]]. [[Three birds are yellow|Tres pájaros son amarillos]].",
+      "instructions": "[[Answer the questions|Responde las preguntas]].",
+      "questions": [
+        {
+          "question": "[[How many yellow birds|Cuántos pájaros amarillos]]?",
+          "options": ["[[four|cuatro]]", "[[three|tres]]", "[[seven|siete]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The text says 'Three birds are yellow'|El texto dice 'Tres pájaros son amarillos']]."
+        },
+        {
+          "question": "[[Total birds?|Pájaros en total?]]",
+          "options": ["[[six|seis]]", "[[seven|siete]]", "[[eight|ocho]]"],
+          "correctAnswer": 1,
+          "explanation": "[[4 + 3 = 7 (seven)|4 + 3 = 7 (seven)]]."
+        }
+      ]
     },
     "topicName": "Reading"
   },
   {
     "id": "a1-u4-e50",
-    "type": "multiple-choice",
+    "type": "reading-comprehension",
     "level": "A1",
-    "topic": "Comprehension",
+    "topic": "The Desk",
     "difficulty": "hard",
-    "transcript": "[[What color is the ruler|De qué color es la regla]]?",
+    "transcript": "[[A book is on the desk|Un libro está sobre el escritorio]]. [[A ruler is in the bag|Una regla está en la mochila]].",
     "content": {
-      "title": "[[Comprehension: Color|Comprensión: Color]]",
-      "instructions": "[[Answer the question|Responde la pregunta]].",
-      "question": "[[The ruler is|La regla es]] (____).",
-      "options": ["[[red|roja]]", "[[blue|azul]]", "[[green|verde]]"],
-      "correctAnswer": 1,
-      "explanation": "[[The text says 'a blue ruler'|El texto dice 'una regla azul']]."
+      "title": "[[Objects|Objetos]]",
+      "text": "[[A book is on the desk|Un libro está sobre el escritorio]]. [[A ruler is in the bag|Una regla está en la mochila]].",
+      "instructions": "[[Where is the ruler|Dónde está la regla]]?",
+      "questions": [
+        {
+          "question": "[[The ruler is in the|La regla está en la]] (____).",
+          "options": ["[[desk|escritorio]]", "[[bag|mochila]]", "[[chair|silla]]"],
+          "correctAnswer": 1,
+          "explanation": "[[The text says 'A ruler is in the bag'|El texto dice 'Una regla está en la mochila']]."
+        }
+      ]
     },
     "topicName": "Reading"
   },
@@ -921,16 +1038,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e51",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Comprehension",
+    "topic": "Vocabulary Review",
     "difficulty": "hard",
-    "transcript": "[[Does he have an eraser|Tiene él una goma]]?",
+    "transcript": "[[What is a 'pen'|Qué es un 'pen']]?",
     "content": {
-      "title": "[[Comprehension: Eraser|Comprensión: Goma]]",
-      "instructions": "[[Answer the question|Responde la pregunta]].",
-      "question": "[[Yes, he has an|Sí, él tiene una]] (____).",
-      "options": ["[[eraser|goma]]", "[[notebook|libreta]]", "[[ruler|regla]]"],
-      "correctAnswer": 0,
-      "explanation": "[[He says 'I also have an eraser'|Él dice 'También tengo una goma']]."
+      "title": "[[Vocabulary Check|Chequeo de Vocabulario]]",
+      "instructions": "[[Choose the correct translation|Elige la traducción correcta]].",
+      "questions": [{
+        "question": "[[Pen|Pen]] = (____).",
+        "options": ["[[bolígrafo|bolígrafo]]", "[[lápiz|lápiz]]", "[[regla|regla]]"],
+        "correctAnswer": 0,
+        "explanation": "[[Pen is bolígrafo in Spanish|Pen es bolígrafo en español]]."
+      }]
     },
     "topicName": "Reading"
   },
@@ -938,16 +1057,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e52",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Comprehension",
+    "topic": "Vocabulary Review",
     "difficulty": "hard",
-    "transcript": "[[How many notebooks does he have|Cuántas libretas tiene él]]?",
+    "transcript": "[[What is a 'desk'|Qué es un 'desk']]?",
     "content": {
-      "title": "[[Comprehension: Notebook|Comprensión: Libreta]]",
-      "instructions": "[[Answer the question|Responde la pregunta]].",
-      "question": "[[He has|Él tiene]] (____) [[notebook|libreta]].",
-      "options": ["[[one|una]]", "[[two|dos]]", "[[zero|cero]]"],
-      "correctAnswer": 0,
-      "explanation": "[[He says 'one notebook'|Él dice 'una libreta']]."
+      "title": "[[Vocabulary Check|Chequeo de Vocabulario]]",
+      "instructions": "[[Choose the correct translation|Elige la traducción correcta]].",
+      "questions": [{
+        "question": "[[Desk|Desk]] = (____).",
+        "options": ["[[silla|silla]]", "[[escritorio|escritorio]]", "[[pizarra|pizarra]]"],
+        "correctAnswer": 1,
+        "explanation": "[[Desk is escritorio in Spanish|Desk es escritorio en español]]."
+      }]
     },
     "topicName": "Reading"
   },
@@ -955,16 +1076,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e53",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Comprehension",
+    "topic": "Vocabulary Review",
     "difficulty": "hard",
-    "transcript": "[[Does Tom like his school|Le gusta a Tom su escuela]]?",
+    "transcript": "[[How do you say 'siete' in English|Cómo se dice 'siete' en inglés]]?",
     "content": {
-      "title": "[[Comprehension: School|Comprensión: Escuela]]",
-      "instructions": "[[Answer the question|Responde la pregunta]].",
-      "question": "[[Tom|Tom]] (____) [[his school|su escuela]].",
-      "options": ["[[likes|le gusta]]", "[[hates|odia]]", "[[is at|está en]]"],
-      "correctAnswer": 0,
-      "explanation": "[[He says 'I like my school'|Él dice 'me gusta mi escuela']]."
+      "title": "[[Vocabulary Check|Chequeo de Vocabulario]]",
+      "instructions": "[[Choose the correct word|Elige la palabra correcta]].",
+      "questions": [{
+        "question": "[[Siete|Siete]] = (____).",
+        "options": ["[[six|six]]", "[[seven|seven]]", "[[eight|eight]]"],
+        "correctAnswer": 1,
+        "explanation": "[[Siete is seven in English|Siete es seven en inglés]]."
+      }]
     },
     "topicName": "Reading"
   },
@@ -972,16 +1095,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e54",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Vocabulary Review",
     "difficulty": "hard",
-    "transcript": "[[What is 'mochila' in English|Cómo se dice 'mochila' en inglés]]?",
+    "transcript": "[[How do you say 'mochila'|Cómo se dice 'mochila']]?",
     "content": {
       "title": "[[Vocabulary Check|Chequeo de Vocabulario]]",
       "instructions": "[[Choose the correct word|Elige la palabra correcta]].",
-      "question": "[[Mochila|Mochila]] = (____).",
-      "options": ["[[bag|bag]]", "[[book|book]]", "[[box|box]]"],
-      "correctAnswer": 0,
-      "explanation": "[[Bag is used for backpack or mochila|Bag se usa para mochila o bolsa]]."
+      "questions": [{
+        "question": "[[Mochila|Mochila]] = (____).",
+        "options": ["[[bag|bag]]", "[[book|book]]", "[[board|board]]"],
+        "correctAnswer": 0,
+        "explanation": "[[Mochila is bag in English|Mochila es bag en inglés]]."
+      }]
     },
     "topicName": "Reading"
   },
@@ -989,16 +1114,18 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "id": "a1-u4-e55",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Vocabulary",
+    "topic": "Vocabulary Review",
     "difficulty": "hard",
-    "transcript": "[[What is 'goma' in English|Cómo se dice 'goma' en inglés]]?",
+    "transcript": "[[What is 'eraser'|Qué es 'eraser']]?",
     "content": {
       "title": "[[Vocabulary Check|Chequeo de Vocabulario]]",
-      "instructions": "[[Choose the correct word|Elige la palabra correcta]].",
-      "question": "[[Goma|Goma]] = (____).",
-      "options": ["[[eraser|eraser]]", "[[ruler|ruler]]", "[[pencil|pencil]]"],
-      "correctAnswer": 0,
-      "explanation": "[[Eraser is the word for goma or borrador|Eraser es la palabra para goma o borrador]]."
+      "instructions": "[[Choose the correct translation|Elige la traducción correcta]].",
+      "questions": [{
+        "question": "[[Eraser|Eraser]] = (____).",
+        "options": ["[[eraser|goma]]", "[[ruler|regla]]", "[[pencil|lápiz]]"],
+        "correctAnswer": 0,
+        "explanation": "[[Eraser is the word for goma or borrador|Eraser es la palabra para goma o borrador]]."
+      }]
     },
     "topicName": "Reading"
   },
@@ -1028,10 +1155,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Grammar Check|Chequeo Gramatical]]",
       "instructions": "[[Which one is correct|Cuál es correcta]]?",
-      "question": "[[Select the correct option:|Selecciona la opción correcta:]]",
-      "options": ["[[a eraser|una goma (incorrecto)]]", "[[an eraser|una goma (correcto)]]", "[[eraser a|goma una (incorrecto)]]"],
-      "correctAnswer": 1,
-      "explanation": "[['Eraser' starts with a vowel, so we use 'an'|'Eraser' empieza con vocal, por lo que usamos 'an']]."
+      "questions": [{
+        "question": "[[Select the correct option:|Selecciona la opción correcta:]]",
+        "options": ["[[a eraser|una goma (incorrecto)]]", "[[an eraser|una goma (correcto)]]", "[[eraser a|goma una (incorrecto)]]"],
+        "correctAnswer": 1,
+        "explanation": "[['Eraser' starts with a vowel, so we use 'an'|'Eraser' empieza con vocal, por lo que usamos 'an']]."
+      }]
     },
     "topicName": "Reading"
   },
@@ -1045,10 +1174,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Grammar Check|Chequeo Gramatical]]",
       "instructions": "[[Which one is correct|Cuál es correcta]]?",
-      "question": "[[Select the correct option:|Selecciona la opción correcta:]]",
-      "options": ["[[a blue ruler|una azul regla]]", "[[an blue ruler|una azul regla (incorrecto)]]", "[[a ruler blue|una regla azul (incorrecto)]]"],
-      "correctAnswer": 0,
-      "explanation": "[[Article 'a' + Adjective 'blue' + Noun 'ruler'|Artículo 'a' + Adjetivo 'blue' + Sustantivo 'ruler']]."
+      "questions": [{
+        "question": "[[Select the correct option:|Selecciona la opción correcta:]]",
+        "options": ["[[a blue ruler|una azul regla]]", "[[an blue ruler|una azul regla (incorrecto)]]", "[[a ruler blue|una regla azul (incorrecto)]]"],
+        "correctAnswer": 0,
+        "explanation": "[[Article 'a' + Adjective 'blue' + Noun 'ruler'|Artículo 'a' + Adjetivo 'blue' + Sustantivo 'ruler']]."
+      }]
     },
     "topicName": "Reading"
   },
@@ -1062,10 +1193,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Math Review|Repaso de Mate]]",
       "instructions": "[[Solve|Resuelve]] (7+3).",
-      "question": "[[Seven plus three is|Siete más tres es]] (____).",
-      "options": ["[[nine|nueve]]", "[[ten|diez]]", "[[eight|ocho]]"],
-      "correctAnswer": 1,
-      "explanation": "[[7+3=10 (ten)|7+3=10 (ten)]]."
+      "questions": [{
+        "question": "[[Seven plus three is|Siete más tres es]] (____).",
+        "options": ["[[nine|nueve]]", "[[ten|diez]]", "[[eight|ocho]]"],
+        "correctAnswer": 1,
+        "explanation": "[[7+3=10 (ten)|7+3=10 (ten)]]."
+      }]
     },
     "topicName": "Reading"
   },
@@ -1079,10 +1212,12 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Word Check|Chequeo de Palabra]]",
       "instructions": "[[Count the letters in 'book'|Cuenta las letras en 'book']].",
-      "question": "[[B-O-O-K has|B-O-O-K tiene]] (____) [[letters|letras]].",
-      "options": ["[[three|tres]]", "[[four|cuatro]]", "[[five|cinco]]"],
-      "correctAnswer": 1,
-      "explanation": "[[B(1) O(2) O(3) K(4) = 4 (four)|B(1) O(2) O(3) K(4) = 4 (four)]]."
+      "questions": [{
+        "question": "[[B-O-O-K has|B-O-O-K tiene]] (____) [[letters|letras]].",
+        "options": ["[[three|tres]]", "[[four|cuatro]]", "[[five|cinco]]"],
+        "correctAnswer": 1,
+        "explanation": "[[B(1) O(2) O(3) K(4) = 4 (four)|B(1) O(2) O(3) K(4) = 4 (four)]]."
+      }]
     },
     "topicName": "Reading"
   },
