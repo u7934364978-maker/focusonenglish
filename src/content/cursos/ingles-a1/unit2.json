@@ -39,7 +39,7 @@
           "prompt_es": "¿Cómo se dice '[[She|Ella]] [[is|es]] [[my|mi]] [[friend|amiga]]'?",
           "options": [
             { "id": "o1", "text": "[[She|Ella]] [[is|es]] [[my|mi]] [[friend|amiga]]" },
-            { "id": "o2", "text": "[[He|Él]] [[is|es]] [[my|mi]] [[friend|amiga]]" },
+            { "id": "o2", "text": "[[He|Él]] [[is|es]] [[my|mi]] [[friend|amigo]]" },
             { "id": "o3", "text": "[[It|Ello]] [[is|es]] [[my|mi]] [[friend|amiga]]" }
           ],
           "correct_answer": "o1",
@@ -512,7 +512,7 @@
         {
           "interaction_id": "U2_I50",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es plural?",
+          "prompt_es": "¿Cuál es un pronombre en plural?",
           "options": [
             { "id": "o1", "text": "[[We|Nosotros]]" },
             { "id": "o2", "text": "[[He|Él]]" },
