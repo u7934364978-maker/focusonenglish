@@ -450,15 +450,15 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Classroom Objects",
     "difficulty": "easy",
-    "transcript": "[[The desk is in the classroom|El escritorio está en el aula]].",
+    "transcript": "[[The teacher has a big desk|La profesora tiene un escritorio grande]].",
     "content": {
       "title": "[[The Desk|El Escritorio]]",
       "instructions": "[[Identify the piece of furniture|Identifica el mueble]].",
       "questions": [{
-        "question": "(🖥️) [[is a|es un]] (____).",
+        "question": "[[The teacher writes at her|La profesora escribe en su]] (____).",
         "options": ["[[bag|mochila]]", "[[desk|escritorio]]", "[[ruler|regla]]"],
         "correctAnswer": 1,
-        "explanation": "[[Desk means escritorio or pupitre|Desk significa escritorio o pupitre]]."
+        "explanation": "[[We use a desk to work and write|Usamos un escritorio para trabajar y escribir]]."
       }]
     },
     "audioUrl": "audio/a1/unit-4/e23.mp3",
@@ -470,15 +470,15 @@ export const UNIT_4_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "Classroom Objects",
     "difficulty": "easy",
-    "transcript": "[[An eraser for the pencil|Una goma para el lápiz]].",
+    "transcript": "[[I use an eraser for my mistakes|Uso una goma para mis errores]].",
     "content": {
       "title": "[[The Eraser|La Goma]]",
-      "instructions": "[[Identify the object|Identifica el objeto]].",
+      "instructions": "[[What do you use to delete|Qué usas para borrar]]?",
       "questions": [{
-        "question": "[[Eraser|Goma]] = (____).",
+        "question": "[[I use an|Uso una]] (____) [[to remove pencil marks|para quitar marcas de lápiz]].",
         "options": ["[[eraser|goma]]", "[[pen|bolígrafo]]", "[[notebook|libreta]]"],
         "correctAnswer": 0,
-        "explanation": "[[Eraser means goma or borrador|Eraser significa goma o borrador]]."
+        "explanation": "[[An eraser is used to delete mistakes|Una goma se usa para borrar errores]]."
       }]
     },
     "audioUrl": "audio/a1/unit-4/e24.mp3",

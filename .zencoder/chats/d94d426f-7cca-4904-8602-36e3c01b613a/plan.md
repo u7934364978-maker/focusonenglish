@@ -22,8 +22,9 @@ Llevar las unidades del curso de Inglés A1 a los estándares de "Alta Calidad" 
 
 ### [x] Unidad 4: Revisión y Mejora
 - Auditoría (Unidad existente con 75 ejercicios).
-- Mejora de calidad visual (Reemplazo de emoji de goma de borrar ambiguo).
-- Corrección de bug de UI "QUESTION 1 OF 0" mediante refactorización de estructura JSON.
+- Mejora de calidad visual (Reemplazo de emoji de escritorio ambiguo y eliminación de emojis confusos).
+- Refinamiento pedagógico: Conversión de ejercicios triviales en ejercicios contextuales.
+- Corrección de bug de UI "QUESTION 1 OF 0" mediante verificación de estructura de datos.
 - Estandarización de formato `[[English|Spanish]]`.
 - Verificación y push.
 
