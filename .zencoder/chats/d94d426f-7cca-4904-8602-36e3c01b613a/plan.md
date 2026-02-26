@@ -28,6 +28,12 @@ Llevar las unidades del curso de Inglés A1 a los estándares de "Alta Calidad" 
 - Estandarización de formato `[[English|Spanish]]`.
 - Verificación y push.
 
+### [x] Unidad 5: Revisión y Mejora
+- Auditoría inicial y especificación (Simple Present: Everyday Actions).
+- Reescritura/Expansión a 60 ejercicios.
+- Implementación de formato `[[English|Spanish]]` y navegación de dos fases.
+- Verificación y push.
+
 ### [ ] Paso Final: Reporte
 - Generar reporte consolidado de las mejoras en `report.md`.
 
@@ -37,4 +43,5 @@ Llevar las unidades del curso de Inglés A1 a los estándares de "Alta Calidad" 
 - [x] Unidad 2 completada y verificada.
 - [x] Unidad 3 completada y verificada.
 - [x] Unidad 4 completada y verificada.
+- [x] Unidad 5 completada y verificada.
 - [ ] Pendiente: Finalizar reporte global.
