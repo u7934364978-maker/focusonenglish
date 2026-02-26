@@ -17,10 +17,10 @@
           "type": "matching",
           "prompt_es": "Une la palabra con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "Student", "right": "Estudiante" },
-            { "id": "p2", "left": "Teacher", "right": "Profesor/a" },
-            { "id": "p3", "left": "Classmate", "right": "Compañero/a" },
-            { "id": "p4", "left": "Friend", "right": "Amigo/a" }
+            { "id": "p1", "left": "[[Student|Estudiante]]", "right": "Estudiante" },
+            { "id": "p2", "left": "[[Teacher|Profesor/a]]", "right": "Profesor/a" },
+            { "id": "p3", "left": "[[Classmate|Compañero/a de clase]]", "right": "Compañero/a" },
+            { "id": "p4", "left": "[[Friend|Amigo/a]]", "right": "Amigo/a" }
           ],
           "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
@@ -28,19 +28,19 @@
         {
           "interaction_id": "U2_I2",
           "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
-          "stimulus_en": "They ________ students at the university.",
+          "prompt_es": "Completa con '[[am|soy/estoy]]', '[[is|es/está]]' o '[[are|somos/estamos/son/están]]':",
+          "stimulus_en": "[[They|Ellos]] ________ [[students|estudiantes]] [[at|en]] [[the|la]] [[university|universidad]].",
           "correct_answer": "are",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I3",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ella es mi amiga'?",
+          "prompt_es": "¿Cómo se dice '[[She|Ella]] [[is|es]] [[my|mi]] [[friend|amiga]]'?",
           "options": [
-            { "id": "o1", "text": "She is my friend" },
-            { "id": "o2", "text": "He is my friend" },
-            { "id": "o3", "text": "It is my friend" }
+            { "id": "o1", "text": "[[She|Ella]] [[is|es]] [[my|mi]] [[friend|amiga]]" },
+            { "id": "o2", "text": "[[He|Él]] [[is|es]] [[my|mi]] [[friend|amiga]]" },
+            { "id": "o3", "text": "[[It|Ello]] [[is|es]] [[my|mi]] [[friend|amiga]]" }
           ],
           "correct_answer": "o1",
           "mastery_tag": "syntax"
@@ -50,13 +50,13 @@
           "type": "short_writing",
           "prompt_es": "Traduce al inglés: 'Él es un profesor'",
           "stimulus_es": "Él es un profesor",
-          "correct_answer": "He is a teacher",
+          "correct_answer": "[[He|Él]] [[is|es]] [[a|un]] [[teacher|profesor]]",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U2_I5",
           "type": "true_false",
-          "prompt_es": "¿Es correcto decir 'We is happy'?",
+          "prompt_es": "¿Es correcto decir '[[We|Nosotros]] [[is|es]] [[happy|felices]]'?",
           "correct_answer": false,
           "mastery_tag": "grammar"
         },
@@ -65,11 +65,11 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "New York" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "big" },
-            { "id": "w5", "text": "city" }
+            { "id": "w1", "text": "[[is|es]]" },
+            { "id": "w2", "text": "[[New York|Nueva York]]" },
+            { "id": "w3", "text": "[[a|una]]" },
+            { "id": "w4", "text": "[[big|grande]]" },
+            { "id": "w5", "text": "[[city|ciudad]]" }
           ],
           "correct_answer": ["w2", "w1", "w3", "w4", "w5"],
           "mastery_tag": "syntax"
@@ -79,10 +79,10 @@
           "type": "matching",
           "prompt_es": "Vocabulario de personas:",
           "pairs": [
-            { "id": "p1", "left": "Man", "right": "Hombre" },
-            { "id": "p2", "left": "Woman", "right": "Mujer" },
-            { "id": "p3", "left": "Boy", "right": "Niño" },
-            { "id": "p4", "left": "Girl", "right": "Niña" }
+            { "id": "p1", "left": "[[Man|Hombre]]", "right": "Hombre" },
+            { "id": "p2", "left": "[[Woman|Mujer]]", "right": "Mujer" },
+            { "id": "p3", "left": "[[Boy|Niño]]", "right": "Niño" },
+            { "id": "p4", "left": "[[Girl|Niña]]", "right": "Niña" }
           ],
           "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
@@ -90,204 +90,531 @@
         {
           "interaction_id": "U2_I8",
           "type": "transformation",
-          "prompt_es": "Completa con el pronombre correcto (He, She, It, They):",
-          "stimulus_en": "Maria is a student. ________ is very smart.",
+          "prompt_es": "Completa con el pronombre correcto ([[He|Él]], [[She|Ella]], [[It|Ello]], [[They|Ellos]]):",
+          "stimulus_en": "[[Maria|María]] [[is|es]] [[a|una]] [[student|estudiante]]. ________ [[is|es]] [[very|muy]] [[smart|inteligente]].",
           "correct_answer": "She",
           "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el pronombre para '[[The|El]] [[dog|perro]]'?",
+          "options": [
+            { "id": "o1", "text": "[[It|Ello]]" },
+            { "id": "o2", "text": "[[She|Ella]]" },
+            { "id": "o3", "text": "[[He|Él]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I10",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Nosotros somos amigos'",
+          "stimulus_es": "Nosotros somos amigos",
+          "correct_answer": "[[We|Nosotros]] [[are|somos]] [[friends|amigos]]",
+          "mastery_tag": "vocabulary"
         }
       ]
     },
     {
       "block_id": "B2",
-      "title": "Feelings and States",
+      "title": "Verb to be: Affirmative",
       "content": [
         {
-          "interaction_id": "U2_I9",
-          "type": "matching",
-          "prompt_es": "Adjetivos básicos:",
-          "pairs": [
-            { "id": "p1", "left": "Happy", "right": "Feliz" },
-            { "id": "p2", "left": "Tired", "right": "Cansado/a" },
-            { "id": "p3", "left": "Busy", "right": "Ocupado/a" },
-            { "id": "p4", "left": "New", "right": "Nuevo/a" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I10",
+          "interaction_id": "U2_I11",
           "type": "transformation",
-          "prompt_es": "Completa la pregunta:",
-          "stimulus_en": "________ you tired today?",
-          "correct_answer": "Are",
+          "prompt_es": "Completa con '[[am|soy]]', '[[is|es]]' o '[[are|son]]':",
+          "stimulus_en": "[[I|Yo]] ________ [[John|Juan]].",
+          "correct_answer": "am",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Ellos están ocupados'?",
-          "options": [
-            { "id": "o1", "text": "They are busy" },
-            { "id": "o2", "text": "We are busy" },
-            { "id": "o3", "text": "They is busy" }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "syntax"
-        },
-        {
           "interaction_id": "U2_I12",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Mi amigo es feliz'",
-          "stimulus_es": "Mi amigo es feliz",
-          "correct_answer": "My friend is happy",
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con '[[am|soy]]', '[[is|es]]' o '[[are|son]]':",
+          "stimulus_en": "[[You|Tú]] ________ [[a|un]] [[doctor|doctor]].",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I13",
-          "type": "true_false",
-          "prompt_es": "¿'It is a new car' significa 'Es un coche nuevo'?",
-          "correct_answer": true,
-          "mastery_tag": "translation"
+          "type": "transformation",
+          "prompt_es": "Completa con '[[am|soy]]', '[[is|es]]' o '[[are|son]]':",
+          "stimulus_en": "[[He|Él]] ________ [[my|mi]] [[father|padre]].",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I14",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la pregunta:",
-          "options": [
-            { "id": "w1", "text": "Is" },
-            { "id": "w2", "text": "your" },
-            { "id": "w3", "text": "teacher" },
-            { "id": "w4", "text": "here?" }
-          ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "type": "transformation",
+          "prompt_es": "Completa con '[[am|soy]]', '[[is|es]]' o '[[are|son]]':",
+          "stimulus_en": "[[She|Ella]] ________ [[happy|feliz]].",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I15",
-          "type": "matching",
-          "prompt_es": "Relaciona Pronombres y Verbos:",
-          "pairs": [
-            { "id": "p1", "left": "I", "right": "am" },
-            { "id": "p2", "left": "He", "right": "is" },
-            { "id": "p3", "left": "We", "right": "are" },
-            { "id": "p4", "left": "It", "right": "is" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "type": "transformation",
+          "prompt_es": "Completa con '[[am|soy]]', '[[is|es]]' o '[[are|son]]':",
+          "stimulus_en": "[[It|Ello]] ________ [[a|un]] [[cat|gato]].",
+          "correct_answer": "is",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I16",
           "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
-          "stimulus_en": "I ________ a good student.",
-          "correct_answer": "am",
+          "prompt_es": "Completa con '[[am|soy]]', '[[is|es]]' o '[[are|son]]':",
+          "stimulus_en": "[[We|Nosotros]] ________ [[here|aquí]].",
+          "correct_answer": "are",
           "mastery_tag": "grammar"
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Welcome and Greetings",
-      "content": [
+        },
         {
           "interaction_id": "U2_I17",
-          "type": "matching",
-          "prompt_es": "Palabras de bienvenida:",
-          "pairs": [
-            { "id": "p1", "left": "Welcome", "right": "Bienvenido/a" },
-            { "id": "p2", "left": "Great", "right": "Genial" },
-            { "id": "p3", "left": "Small", "right": "Pequeño/a" },
-            { "id": "p4", "left": "Big", "right": "Grande" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con '[[am|soy]]', '[[is|es]]' o '[[are|son]]':",
+          "stimulus_en": "[[They|Ellos]] ________ [[tall|altos]].",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo saludas a alguien que acabas de conocer?",
+          "prompt_es": "¿Cuál es la forma correcta de '[[You|Vosotros]]'?",
           "options": [
-            { "id": "o1", "text": "Nice to meet you" },
-            { "id": "o2", "text": "Goodnight" },
-            { "id": "o3", "text": "See you later" }
+            { "id": "o1", "text": "[[You|Vosotros]] [[are|sois]]" },
+            { "id": "o2", "text": "[[You|Vosotros]] [[is|sois]]" },
+            { "id": "o3", "text": "[[You|Vosotros]] [[am|sois]]" }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "social"
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U2_I19",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Bienvenido a la clase'",
-          "stimulus_es": "Bienvenido a la clase",
-          "correct_answer": "Welcome to the class",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U2_I20",
-          "type": "true_false",
-          "prompt_es": "¿'We are from Spain' significa 'Nosotros somos de España'?",
-          "correct_answer": true,
-          "mastery_tag": "translation"
-        },
-        {
-          "interaction_id": "U2_I21",
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "They" },
-            { "id": "w2", "text": "are" },
-            { "id": "w3", "text": "not" },
-            { "id": "w4", "text": "here" }
+            { "id": "w1", "text": "[[They|Ellos]]" },
+            { "id": "w2", "text": "[[are|son]]" },
+            { "id": "w3", "text": "[[at|en]]" },
+            { "id": "w4", "text": "[[home|casa]]" }
           ],
           "correct_answer": ["w1", "w2", "w3", "w4"],
           "mastery_tag": "syntax"
         },
         {
+          "interaction_id": "U2_I20",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Tú eres un estudiante'",
+          "stimulus_es": "Tú eres un estudiante",
+          "correct_answer": "[[You|Tú]] [[are|eres]] [[a|un]] [[student|estudiante]]",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Greetings and Introductions",
+      "content": [
+        {
+          "interaction_id": "U2_I21",
+          "type": "matching",
+          "prompt_es": "Relaciona los saludos:",
+          "pairs": [
+            { "id": "p1", "left": "[[Hello|Hola]]", "right": "Hola" },
+            { "id": "p2", "left": "[[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]]", "right": "Mucho gusto" },
+            { "id": "p3", "left": "[[Welcome|Bienvenido]]", "right": "Bienvenido" },
+            { "id": "p4", "left": "[[Good|Buen]] [[morning|día]]", "right": "Buenos días" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "social"
+        },
+        {
           "interaction_id": "U2_I22",
-          "type": "transformation",
-          "prompt_es": "Cambia a forma negativa: 'He is a student'",
-          "stimulus_en": "He ________ ________ a student.",
-          "correct_answer": "is not",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "Cuando conoces a alguien, dices:",
+          "options": [
+            { "id": "o1", "text": "[[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]]" },
+            { "id": "o2", "text": "[[Goodbye|Adiós]]" },
+            { "id": "o3", "text": "[[Thank|Gracias]] [[you|a ti]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "social"
         },
         {
           "interaction_id": "U2_I23",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Bienvenido a la clase'",
+          "stimulus_es": "Bienvenido a la clase",
+          "correct_answer": "[[Welcome|Bienvenido]] [[to|a]] [[the|la]] [[class|clase]]",
+          "mastery_tag": "social"
+        },
+        {
+          "interaction_id": "U2_I24",
+          "type": "true_false",
+          "prompt_es": "¿Es '[[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]]' una forma educada de saludar?",
+          "correct_answer": true,
+          "mastery_tag": "social"
+        },
+        {
+          "interaction_id": "U2_I25",
+          "type": "transformation",
+          "prompt_es": "Completa la frase: '[[Nice|Encantado]] [[to|de]] ________ [[you|a ti]].'",
+          "stimulus_en": "[[Nice|Encantado]] [[to|de]] ________ [[you|a ti]].",
+          "correct_answer": "meet",
+          "mastery_tag": "social"
+        },
+        {
+          "interaction_id": "U2_I26",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '[[I|Yo]] [[am|soy]] [[Paul|Pablo]]'?",
+          "options": [
+            { "id": "o1", "text": "[[I|Yo]] [[am|soy]] [[Paul|Pablo]]" },
+            { "id": "o2", "text": "[[I|Yo]] [[is|soy]] [[Paul|Pablo]]" },
+            { "id": "o3", "text": "[[I|Yo]] [[are|soy]] [[Paul|Pablo]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I27",
+          "type": "reorder_words",
+          "prompt_es": "Ordena el saludo:",
+          "options": [
+            { "id": "w1", "text": "[[Morning|Día]]" },
+            { "id": "w2", "text": "[[Good|Buen]]" }
+          ],
+          "correct_answer": ["w2", "w1"],
+          "mastery_tag": "social"
+        },
+        {
+          "interaction_id": "U2_I28",
           "type": "matching",
-          "prompt_es": "Más personas:",
+          "prompt_es": "Relaciona los roles:",
           "pairs": [
-            { "id": "p1", "left": "Family", "right": "Familia" },
-            { "id": "p2", "left": "People", "right": "Personas" },
-            { "id": "p3", "left": "Class", "right": "Clase" },
-            { "id": "p4", "left": "World", "right": "Mundo" }
+            { "id": "p1", "left": "[[Director|Director]]", "right": "Director" },
+            { "id": "p2", "left": "[[Manager|Gerente]]", "right": "Gerente" },
+            { "id": "p3", "left": "[[Assistant|Asistente]]", "right": "Asistente" },
+            { "id": "p4", "left": "[[Employee|Empleado]]", "right": "Empleado" }
           ],
           "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U2_I24",
+          "interaction_id": "U2_I29",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Ella es muy inteligente'",
-          "stimulus_es": "Ella es muy inteligente",
-          "correct_answer": "She is very smart",
+          "prompt_es": "Traduce: 'Hola, soy Sarah'",
+          "stimulus_es": "Hola, soy Sarah",
+          "correct_answer": "[[Hello|Hola]], [[I|yo]] [[am|soy]] [[Sarah|Sara]]",
+          "mastery_tag": "social"
+        },
+        {
+          "interaction_id": "U2_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma para '[[The|Las]] [[people|personas]]'?",
+          "options": [
+            { "id": "o1", "text": "[[They|Ellos]]" },
+            { "id": "o2", "text": "[[We|Nosotros]]" },
+            { "id": "o3", "text": "[[You|Vosotros]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Reading: Meeting New People",
+      "content": [
+        {
+          "interaction_id": "U2_I31",
+          "type": "reading_phase",
+          "prompt_es": "Lee la siguiente conversación:",
+          "transcript": "[[John|Juan]]: [[Hello|Hola]]! [[I|Yo]] [[am|soy]] [[John|Juan]]. [[I|Yo]] [[am|soy]] [[a|un]] [[student|estudiante]].\n[[Sarah|Sara]]: [[Hi|Hola]]! [[I|Yo]] [[am|soy]] [[Sarah|Sara]]. [[I|Yo]] [[am|soy]] [[your|tu]] [[classmate|compañera]].\n[[John|Juan]]: [[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]], [[Sarah|Sara]]!\n[[Sarah|Sara]]: [[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]] [[too|también]], [[John|Juan]]!",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U2_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Quién es un estudiante?",
+          "options": [
+            { "id": "o1", "text": "[[John|Juan]]" },
+            { "id": "o2", "text": "[[Sarah|Sara]]" },
+            { "id": "o3", "text": "[[The|El]] [[teacher|profesor]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading_comprehension"
+        },
+        {
+          "interaction_id": "U2_I33",
+          "type": "true_false",
+          "prompt_es": "¿Es [[Sarah|Sara]] una compañera de clase?",
+          "correct_answer": true,
+          "mastery_tag": "reading_comprehension"
+        },
+        {
+          "interaction_id": "U2_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se saludan [[John|Juan]] y [[Sarah|Sara]]?",
+          "options": [
+            { "id": "o1", "text": "[[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]]" },
+            { "id": "o2", "text": "[[Goodbye|Adiós]]" },
+            { "id": "o3", "text": "[[Goodnight|Buenas noches]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading_comprehension"
+        },
+        {
+          "interaction_id": "U2_I35",
+          "type": "short_writing",
+          "prompt_es": "Según el texto, ¿quién dice '[[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]] [[too|también]]'?",
+          "stimulus_es": "Según el texto, ¿quién dice 'también'?",
+          "correct_answer": "[[Sarah|Sara]]",
+          "mastery_tag": "reading_comprehension"
+        },
+        {
+          "interaction_id": "U2_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la profesión mencionada?",
+          "options": [
+            { "id": "o1", "text": "[[Student|Estudiante]]" },
+            { "id": "o2", "text": "[[Doctor|Doctor]]" },
+            { "id": "o3", "text": "[[Engineer|Ingeniero]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading_comprehension"
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Practice Mix",
+      "content": [
+        {
+          "interaction_id": "U2_I37",
+          "type": "transformation",
+          "prompt_es": "Completa: [[He|Él]] ________ [[a|un]] [[boy|niño]].",
+          "stimulus_en": "[[He|Él]] ________ [[a|un]] [[boy|niño]].",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I38",
+          "type": "transformation",
+          "prompt_es": "Completa: [[She|Ella]] ________ [[a|una]] [[girl|niña]].",
+          "stimulus_en": "[[She|Ella]] ________ [[a|una]] [[girl|niña]].",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I39",
+          "type": "transformation",
+          "prompt_es": "Completa: [[It|Ello]] ________ [[a|una]] [[city|ciudad]].",
+          "stimulus_en": "[[It|Ello]] ________ [[a|una]] [[city|ciudad]].",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I40",
+          "type": "transformation",
+          "prompt_es": "Completa: [[We|Nosotros]] ________ [[people|personas]].",
+          "stimulus_en": "[[We|Nosotros]] ________ [[people|personas]].",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I41",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: [[She|Ella]] [[is|es]] [[smart|inteligente]].",
+          "options": [
+            { "id": "w1", "text": "[[is|es]]" },
+            { "id": "w2", "text": "[[smart|inteligente]]" },
+            { "id": "w3", "text": "[[She|Ella]]" }
+          ],
+          "correct_answer": ["w3", "w1", "w2"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I42",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: [[He|Él]] [[is|es]] [[here|aquí]].",
+          "options": [
+            { "id": "w1", "text": "[[is|es]]" },
+            { "id": "w2", "text": "[[here|aquí]]" },
+            { "id": "w3", "text": "[[He|Él]]" }
+          ],
+          "correct_answer": ["w3", "w1", "w2"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '[[They|Ellos]] [[are|son]] [[friends|amigos]]'?",
+          "options": [
+            { "id": "o1", "text": "[[They|Ellos]] [[are|son]] [[friends|amigos]]" },
+            { "id": "o2", "text": "[[They|Ellos]] [[is|son]] [[friends|amigos]]" },
+            { "id": "o3", "text": "[[They|Ellos]] [[am|son]] [[friends|amigos]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I44",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Ella es profesora'",
+          "stimulus_es": "Ella es profesora",
+          "correct_answer": "[[She|Ella]] [[is|es]] [[a|una]] [[teacher|profesora]]",
           "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "U2_I25",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
-          "audio_url": "/audio/a1/unit2/greeting.mp3",
-          "transcript_template": "Nice to ___ you!",
-          "correct_answer": "meet",
-          "mastery_tag": "listening"
+          "interaction_id": "U2_I45",
+          "type": "true_false",
+          "prompt_es": "¿'[[It|Ello]] [[is|es]]' se usa para objetos?",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U2_I26",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
-          "audio_url": "/audio/a1/unit2/introduction.mp3",
-          "transcript_template": "I ___ a student.",
+          "interaction_id": "U2_I46",
+          "type": "true_false",
+          "prompt_es": "¿'[[We|Nosotros]] [[are|somos]]' se usa para un grupo?",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I47",
+          "type": "matching",
+          "prompt_es": "Pronombres y Verbos:",
+          "pairs": [
+            { "id": "p1", "left": "[[I|Yo]]", "right": "[[am|soy]]" },
+            { "id": "p2", "left": "[[He|Él]]", "right": "[[is|es]]" },
+            { "id": "p3", "left": "[[They|Ellos]]", "right": "[[are|son]]" },
+            { "id": "p4", "left": "[[She|Ella]]", "right": "[[is|es]]" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I48",
+          "type": "transformation",
+          "prompt_es": "Completa: [[I|Yo]] ________ [[John|Juan]].",
+          "stimulus_en": "[[I|Yo]] ________ [[John|Juan]].",
           "correct_answer": "am",
-          "mastery_tag": "listening"
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I49",
+          "type": "transformation",
+          "prompt_es": "Completa: [[You|Tú]] ________ [[happy|feliz]].",
+          "stimulus_en": "[[You|Tú]] ________ [[happy|feliz]].",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es plural?",
+          "options": [
+            { "id": "o1", "text": "[[We|Nosotros]]" },
+            { "id": "o2", "text": "[[He|Él]]" },
+            { "id": "o3", "text": "[[I|Yo]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I51",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Él es inteligente'",
+          "stimulus_es": "Él es inteligente",
+          "correct_answer": "[[He|Él]] [[is|es]] [[smart|inteligente]]",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I52",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: [[We|Nosotros]] [[are|somos]] [[students|estudiantes]].",
+          "options": [
+            { "id": "w1", "text": "[[are|somos]]" },
+            { "id": "w2", "text": "[[students|estudiantes]]" },
+            { "id": "w3", "text": "[[We|Nosotros]]" }
+          ],
+          "correct_answer": ["w3", "w1", "w2"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I53",
+          "type": "matching",
+          "prompt_es": "Adjetivos:",
+          "pairs": [
+            { "id": "p1", "left": "[[Big|Grande]]", "right": "Grande" },
+            { "id": "p2", "left": "[[Small|Pequeño]]", "right": "Pequeño" },
+            { "id": "p3", "left": "[[New|Nuevo]]", "right": "Nuevo" },
+            { "id": "p4", "left": "[[Old|Viejo]]", "right": "Viejo" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I54",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '[[Welcome|Bienvenido]]'?",
+          "options": [
+            { "id": "o1", "text": "[[Welcome|Bienvenido]]" },
+            { "id": "o2", "text": "[[Goodbye|Adiós]]" },
+            { "id": "o3", "text": "[[Hello|Hola]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U2_I55",
+          "type": "true_false",
+          "prompt_es": "¿Es '[[I|Yo]] [[am|soy]]' la primera persona?",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I56",
+          "type": "true_false",
+          "prompt_es": "¿Es '[[They|Ellos]] [[is|son]]' correcto?",
+          "correct_answer": false,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I57",
+          "type": "transformation",
+          "prompt_es": "Completa: [[It|Ello]] ________ [[my|mi]] [[car|coche]].",
+          "stimulus_en": "[[It|Ello]] ________ [[my|mi]] [[car|coche]].",
+          "correct_answer": "is",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I58",
+          "type": "transformation",
+          "prompt_es": "Completa: [[You|Tú]] ________ [[my|mi]] [[friend|amigo]].",
+          "stimulus_en": "[[You|Tú]] ________ [[my|mi]] [[friend|amigo]].",
+          "correct_answer": "are",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U2_I59",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: [[I|Yo]] [[am|soy]] [[happy|feliz]].",
+          "options": [
+            { "id": "w1", "text": "[[am|soy]]" },
+            { "id": "w2", "text": "[[happy|feliz]]" },
+            { "id": "w3", "text": "[[I|Yo]]" }
+          ],
+          "correct_answer": ["w3", "w1", "w2"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U2_I60",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Ellos son felices'",
+          "stimulus_es": "Ellos son felices",
+          "correct_answer": "[[They|Ellos]] [[are|son]] [[happy|felices]]",
+          "mastery_tag": "vocabulary"
         }
       ]
     }
