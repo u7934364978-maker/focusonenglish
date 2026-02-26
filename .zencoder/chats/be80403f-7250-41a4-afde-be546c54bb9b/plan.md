@@ -57,6 +57,11 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
   - Fix translation format for all exercises.
   - Ensure quality standards (difficulty, context).
 
-- [/] Task: Correct Unit 2
+- [x] Task: Correct Unit 2
+  - Fix exercise count (target 75).
+  - Add missing curriculum vocabulary and grammar (Countries, Nationalities, Numbers 1-10).
+  - Fix translation format for all exercises.
+  - Ensure quality standards (difficulty, context).
+
 - [ ] Task: Correct Unit 3
 ... (Repeat for all 60 units)

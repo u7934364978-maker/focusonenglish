@@ -35,6 +35,12 @@ Llevar las unidades del curso de Inglés A1 a los estándares de "Alta Calidad" 
 - Implementación de formato `[[English|Spanish]]` y navegación de dos fases.
 - Verificación y push.
 
+### [x] Unidad 6: Revisión y Mejora
+- Auditoría inicial y verificación (Family Members & Personal Info).
+- Confirmación de 75 ejercicios de alta calidad.
+- Implementación de formato `[[English|Spanish]]` y navegación de dos fases verificada.
+- Verificación y push.
+
 ### [ ] Paso Final: Reporte
 - Generar reporte consolidado de las mejoras en `report.md`.
 
@@ -45,4 +51,5 @@ Llevar las unidades del curso de Inglés A1 a los estándares de "Alta Calidad" 
 - [x] Unidad 3 completada y verificada.
 - [x] Unidad 4 completada y verificada.
 - [x] Unidad 5 completada y verificada (75 ejercicios).
+- [x] Unidad 6 completada y verificada (75 ejercicios).
 - [ ] Pendiente: Finalizar reporte global.
