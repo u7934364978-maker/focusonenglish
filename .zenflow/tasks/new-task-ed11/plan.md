@@ -174,7 +174,8 @@ npm test -- --testPathPattern="useWeekProgress|StreakBurst"
 npm test
 ```
 
-### [ ] Step: Final Lint & Type Check
+### [x] Step: Final Lint & Type Check
+<!-- chat-id: 0853a990-194f-4cdc-9e73-d1f90674b666 -->
 
 Run full lint and typecheck across all changes to ensure no regressions.
 
