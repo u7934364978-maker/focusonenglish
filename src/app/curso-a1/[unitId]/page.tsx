@@ -3,10 +3,14 @@
 import { useParams, useSearchParams } from 'next/navigation';
 import { useEffect, useState, Suspense } from 'react';
 import ExerciseRenderer from '@/components/ExerciseRenderer';
+import CelebrationModal from '@/components/course/CelebrationModal';
+import RepairModeBanner from '@/components/course/RepairModeBanner';
+import StreakBurst from '@/components/gamification/StreakBurst';
 import { ArrowLeft, ArrowRight, Home, CheckCircle, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 
 const CHUNK_SIZE = 15;
+const STREAK_THRESHOLDS = [3, 5, 10];
 
 function UnitPreviewContent() {
   const params = useParams();
@@ -20,46 +24,36 @@ function UnitPreviewContent() {
   const [showUnitSummary, setShowUnitSummary] = useState(false);
   const [startTime] = useState(Date.now());
 
-  if (!unitId) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-slate-50">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-coral-500 mx-auto mb-4"></div>
-          <p className="text-slate-600 font-medium">Cargando unidad...</p>
-        </div>
-      </div>
-    );
-  }
+  const [showCelebration, setShowCelebration] = useState(false);
+  const [celebrationScore, setCelebrationScore] = useState(0);
+  const [failCount, setFailCount] = useState(0);
+  const [failedIndexes, setFailedIndexes] = useState<number[]>([]);
+  const [consecutiveCorrect, setConsecutiveCorrect] = useState(0);
+  const [streakBurstCount, setStreakBurstCount] = useState<number | null>(null);
 
   useEffect(() => {
+    if (!unitId) return;
+
     async function loadUnit() {
-      console.log(`🔍 Loading unit: ${unitId}`);
       try {
         const unitNumber = unitId.replace('unit-', '');
-        console.log(`📂 Importing module for unit: ${unitNumber}`);
-        
-        let module;
+
+        let unitModule;
         try {
-          module = await import(`@/lib/course/a1/unit-${unitNumber}`);
-          console.log(`✅ Imported module with @ alias`);
+          unitModule = await import(`@/lib/course/a1/unit-${unitNumber}`);
         } catch (e) {
-          console.log(`⚠️ Failed to import with @ alias, trying relative path`);
-          module = await import(`../../../lib/course/a1/unit-${unitNumber}`);
+          unitModule = await import(`../../../lib/course/a1/unit-${unitNumber}`);
         }
-        
+
         const exportName = `UNIT_${unitNumber.toUpperCase().replace('-', '_')}_EXERCISES`;
-        console.log(`🔍 Searching for export: ${exportName} in module keys:`, Object.keys(module || {}));
-        
-        const unitExercises = module[exportName] || module[`UNIT_${unitNumber}_EXERCISES`] || module.default || module.UNIT_1_EXERCISES;
-        
+        const unitExercises = unitModule[exportName] || unitModule[`UNIT_${unitNumber}_EXERCISES`] || unitModule.default || unitModule.UNIT_1_EXERCISES;
+
         if (!unitExercises || !Array.isArray(unitExercises)) {
-          console.error(`❌ Could not find exercises in module. Export name: ${exportName}`);
           setError(`No se encontraron ejercicios en el módulo unit-${unitNumber}`);
           setExercises([]);
         } else {
-          console.log(`✅ Loaded ${unitExercises.length} exercises for unit ${unitNumber}`);
           setExercises(unitExercises);
-          
+
           const indexParam = searchParams.get('index');
           if (indexParam) {
             const idx = parseInt(indexParam);
@@ -69,7 +63,6 @@ function UnitPreviewContent() {
           }
         }
       } catch (err: any) {
-        console.error('❌ Error loading unit:', err);
         setError(`Error al cargar la unidad: ${err.message}`);
       } finally {
         setLoading(false);
@@ -78,11 +71,46 @@ function UnitPreviewContent() {
     loadUnit();
   }, [unitId, searchParams]);
 
-  if (loading) return (
+  const advanceExercise = (idx: number, total: number) => {
+    if (idx === total - 1) {
+      setShowUnitSummary(true);
+    } else if ((idx + 1) % CHUNK_SIZE === 0) {
+      setShowLessonComplete(true);
+    } else {
+      setCurrentIndex(prev => prev + 1);
+    }
+  };
+
+  const handleExerciseComplete = (result?: { success: boolean; score: number }) => {
+    const success = result?.success ?? true;
+    const score = result?.score ?? 100;
+
+    if (success) {
+      const newConsecutive = consecutiveCorrect + 1;
+      setConsecutiveCorrect(newConsecutive);
+      setFailCount(0);
+
+      if (STREAK_THRESHOLDS.includes(newConsecutive)) {
+        setStreakBurstCount(newConsecutive);
+        setCelebrationScore(score);
+        return;
+      }
+
+      setCelebrationScore(score);
+      setShowCelebration(true);
+    } else {
+      setConsecutiveCorrect(0);
+      setFailCount(prev => prev + 1);
+      setFailedIndexes(prev => [...prev, currentIndex]);
+      advanceExercise(currentIndex, exercises.length);
+    }
+  };
+
+  if (!unitId || loading) return (
     <div className="min-h-screen flex items-center justify-center bg-slate-50">
       <div className="text-center">
         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-coral-500 mx-auto mb-4"></div>
-        <p className="text-slate-600 font-medium">Cargando Unidad {unitId}...</p>
+        <p className="text-slate-600 font-medium">Cargando Unidad...</p>
       </div>
     </div>
   );
@@ -95,11 +123,11 @@ function UnitPreviewContent() {
         </div>
         <h2 className="text-2xl font-black text-slate-800 mb-2">Error de Carga</h2>
         <p className="text-slate-600 mb-6">{error}</p>
-        <Link 
-          href="/"
+        <Link
+          href="/curso-a1"
           className="inline-block bg-slate-800 text-white px-8 py-3 rounded-xl font-bold hover:bg-slate-900 transition-all"
         >
-          Volver al Inicio
+          Volver al Curso
         </Link>
       </div>
     </div>
@@ -109,7 +137,7 @@ function UnitPreviewContent() {
     <div className="min-h-screen flex items-center justify-center bg-slate-50">
       <div className="text-center">
         <p className="text-red-500 font-bold text-xl mb-4">No se encontraron ejercicios</p>
-        <Link href="/" className="text-coral-500 underline">Volver al inicio</Link>
+        <Link href="/curso-a1" className="text-coral-500 underline">Volver al curso</Link>
       </div>
     </div>
   );
@@ -119,6 +147,8 @@ function UnitPreviewContent() {
   const totalLessons = Math.ceil(exercises.length / CHUNK_SIZE);
   const exerciseInLesson = (currentIndex % CHUNK_SIZE) + 1;
   const exercisesInThisLesson = Math.min(CHUNK_SIZE, exercises.length - (lessonNumber - 1) * CHUNK_SIZE);
+  const isRepairMode = failCount >= 2 && failedIndexes.length > 0;
+  const repairRemaining = failedIndexes.filter(i => i >= currentIndex).length;
 
   if (showUnitSummary) {
     const durationMinutes = Math.round((Date.now() - startTime) / 60000);
@@ -137,7 +167,7 @@ function UnitPreviewContent() {
           <p className="text-slate-500 mb-10 text-xl font-medium">
             Has finalizado todos los ejercicios de la Unidad {unitId.replace('unit-', '')}.
           </p>
-          
+
           <div className="grid grid-cols-2 gap-6 mb-10 text-left">
             <div className="bg-slate-50 p-6 rounded-3xl border border-slate-100">
               <p className="text-slate-400 text-sm font-bold uppercase mb-1">Total Ejercicios</p>
@@ -149,8 +179,8 @@ function UnitPreviewContent() {
             </div>
           </div>
 
-          <Link 
-            href="/"
+          <Link
+            href="/curso-a1"
             className="w-full bg-slate-900 text-white py-6 rounded-2xl font-black text-xl hover:bg-slate-800 transition-all shadow-xl flex items-center justify-center gap-3 transform hover:scale-[1.02] active:scale-95"
           >
             Volver al listado de unidades
@@ -175,7 +205,7 @@ function UnitPreviewContent() {
           <p className="text-slate-600 mb-8 text-lg">
             Has completado {exercisesInThisLesson} ejercicios con éxito. ¡Sigue así!
           </p>
-          <button 
+          <button
             onClick={() => {
               if (currentIndex < exercises.length - 1) {
                 setCurrentIndex(prev => prev + 1);
@@ -194,28 +224,30 @@ function UnitPreviewContent() {
 
   return (
     <div className="min-h-screen bg-slate-50">
-      <nav className="bg-white border-b p-4 flex justify-between items-center sticky top-0 z-50">
+      {isRepairMode && <RepairModeBanner remainingCount={repairRemaining} />}
+
+      <nav className="bg-white border-b p-4 flex justify-between items-center sticky top-0 z-40">
         <div className="flex items-center gap-4">
-          <Link href="/" className="p-2 hover:bg-slate-100 rounded-full transition-colors">
+          <Link href="/curso-a1" className="p-2 hover:bg-slate-100 rounded-full transition-colors">
             <Home className="w-6 h-6 text-slate-600" />
           </Link>
           <h1 className="font-black text-xl text-slate-800 uppercase tracking-tight">
-            Review: Unidad {unitId.replace('unit-', '')} 
+            Unidad {unitId.replace('unit-', '')}
             <span className="ml-4 text-slate-400 font-medium text-sm">
-              Lección {lessonNumber} de {totalLessons} • Ejercicio {exerciseInLesson} de {exercisesInThisLesson}
+              Lección {lessonNumber} de {totalLessons} · Ejercicio {exerciseInLesson} de {exercisesInThisLesson}
             </span>
           </h1>
         </div>
-        
+
         <div className="flex gap-2">
-          <button 
+          <button
             onClick={() => setCurrentIndex(prev => Math.max(0, prev - 1))}
             disabled={currentIndex === 0}
             className="p-2 bg-slate-100 rounded-xl disabled:opacity-30 hover:bg-slate-200 transition-all"
           >
             <ArrowLeft className="w-5 h-5" />
           </button>
-          <button 
+          <button
             onClick={() => setCurrentIndex(prev => Math.min(exercises.length - 1, prev + 1))}
             disabled={currentIndex === exercises.length - 1}
             className="p-2 bg-slate-100 rounded-xl disabled:opacity-30 hover:bg-slate-200 transition-all"
@@ -227,26 +259,39 @@ function UnitPreviewContent() {
 
       <main className="max-w-4xl mx-auto p-4 py-8">
         <div className="mb-8 h-2 bg-slate-200 rounded-full overflow-hidden">
-          <div 
-            className="h-full bg-coral-500 transition-all duration-500 ease-out"
+          <div
+            className={`h-full transition-all duration-500 ease-out ${isRepairMode ? 'bg-amber-500' : 'bg-coral-500'}`}
             style={{ width: `${((exerciseInLesson) / exercisesInThisLesson) * 100}%` }}
           />
         </div>
 
-        <ExerciseRenderer 
+        <ExerciseRenderer
           key={currentExercise.id}
           exercise={currentExercise}
-          onComplete={() => {
-            if (currentIndex === exercises.length - 1) {
-              setShowUnitSummary(true);
-            } else if ((currentIndex + 1) % CHUNK_SIZE === 0) {
-              setShowLessonComplete(true);
-            } else {
-              setCurrentIndex(prev => prev + 1);
-            }
-          }}
+          onComplete={(result) => handleExerciseComplete(result)}
         />
       </main>
+
+      <CelebrationModal
+        show={showCelebration}
+        score={celebrationScore}
+        language="es"
+        onClose={() => {
+          setShowCelebration(false);
+          advanceExercise(currentIndex, exercises.length);
+        }}
+      />
+
+      {streakBurstCount !== null && (
+        <StreakBurst
+          consecutiveCount={streakBurstCount}
+          onComplete={() => {
+            setStreakBurstCount(null);
+            setConsecutiveCorrect(0);
+            setShowCelebration(true);
+          }}
+        />
+      )}
     </div>
   );
 }
