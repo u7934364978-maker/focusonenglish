@@ -220,8 +220,13 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         )}
 
         {/* Question text */}
-        <div className="text-2xl md:text-3xl text-slate-900 font-black leading-tight">
-          <TranslatedText text={q.question || q.text || q.prompt} />
+        <div className="relative pl-4 border-l-4 border-[#FF6B6B]/40 rounded-r-sm">
+          <p className="text-[10px] font-black uppercase tracking-[0.15em] text-[#FF6B6B]/60 mb-1.5">
+            <TranslatedText text="[[Question|Pregunta]]" />
+          </p>
+          <div className="text-2xl md:text-3xl text-slate-900 font-black leading-tight tracking-tight">
+            <TranslatedText text={q.question || q.text || q.prompt} />
+          </div>
         </div>
 
         {/* Audio */}
@@ -307,7 +312,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                       }`}>
                         {showAsCorrect ? <CheckCircle size={18} /> : showAsIncorrect ? <XCircle size={18} /> : letter}
                       </div>
-                      <span className={`text-base md:text-lg font-bold flex-1 leading-snug ${
+                      <span className={`text-base md:text-lg font-semibold flex-1 leading-snug tracking-tight ${
                         showAsCorrect ? 'text-green-800' : showAsIncorrect ? 'text-red-800' : isUserAnswer ? 'text-slate-900' : 'text-slate-700'
                       }`}>
                         <TranslatedText text={typeof option === 'string' ? option : option.text} />
@@ -321,7 +326,11 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
           {/* Fill Blank */}
           {(q.type === 'fill-blank' || exercise.type === 'fill-blank') && (
-            <div className="relative">
+            <div className="space-y-1.5">
+              <label className="text-xs font-black uppercase tracking-[0.12em] text-slate-400 pl-1">
+                ✏️ <TranslatedText text="[[Your answer|Tu respuesta]]" />
+              </label>
+              <div className="relative">
               <input
                 type="text"
                 value={userAnswer || ''}
@@ -342,24 +351,33 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                   {isCorrect ? <CheckCircle className="w-6 h-6 text-green-500" /> : <XCircle className="w-6 h-6 text-red-500" />}
                 </div>
               )}
+              </div>
             </div>
           )}
         </div>
 
-        {/* Explanation (only shown after wrong answer, no big feedback card) */}
+        {/* Explanation (only shown after submitting) */}
         {submitted && evaluation && q.explanation && (
-          <div className="p-4 bg-amber-50 border border-amber-200 rounded-2xl text-sm text-amber-900">
-            <p className="font-black flex items-center gap-1.5 mb-1">
-              💡 <TranslatedText text="[[Explanation:|Explicación:]]" />
-            </p>
-            <Markdown content={q.explanation} vocabulary={vocabulary} />
+          <div className="flex gap-3 p-4 bg-amber-50 border border-amber-200 rounded-2xl animate-in fade-in slide-in-from-bottom-2 duration-300">
+            <span className="text-lg flex-shrink-0">💡</span>
+            <div>
+              <p className="text-xs font-black uppercase tracking-wider text-amber-700 mb-1">
+                <TranslatedText text="[[Explanation|Explicación]]" />
+              </p>
+              <div className="text-sm text-amber-900 leading-relaxed">
+                <Markdown content={q.explanation} vocabulary={vocabulary} />
+              </div>
+            </div>
           </div>
         )}
 
         {/* Correct answer hint when wrong */}
         {submitted && evaluation && !evaluation.isCorrect && (
-          <div className="p-4 bg-slate-50 border border-slate-200 rounded-2xl text-sm text-slate-700">
-            <Markdown content={evaluation.feedback} vocabulary={vocabulary} />
+          <div className="flex gap-3 p-4 bg-red-50 border border-red-100 rounded-2xl animate-in fade-in slide-in-from-bottom-2 duration-300">
+            <span className="text-lg flex-shrink-0">❌</span>
+            <div className="text-sm text-red-800 leading-relaxed">
+              <Markdown content={evaluation.feedback} vocabulary={vocabulary} />
+            </div>
           </div>
         )}
 
@@ -474,17 +492,25 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         {/* Exercise title + type pill */}
         <div>
           <div className="flex items-center gap-2 mb-3">
-            <div className="flex items-center gap-1.5 bg-slate-100 text-slate-500 px-3 py-1 rounded-full text-xs font-bold">
+            <div className="flex items-center gap-1.5 bg-[#FF6B6B]/10 text-[#FF6B6B] px-3 py-1 rounded-full text-xs font-bold border border-[#FF6B6B]/20">
               <TypeIcon size={12} />
               <span>{typeInfo.label}</span>
             </div>
           </div>
-          <h2 className="text-2xl md:text-3xl font-black text-slate-900 leading-tight">
-            <TranslatedText text={exerciseContent.title || 'Ejercicio'} />
-          </h2>
+          <div className="relative pl-4 border-l-4 border-[#FF6B6B]/40 rounded-r-sm">
+            <p className="text-[10px] font-black uppercase tracking-[0.15em] text-[#FF6B6B]/60 mb-1.5">
+              <TranslatedText text="[[Exercise|Ejercicio]]" />
+            </p>
+            <h2 className="text-2xl md:text-3xl font-black text-slate-900 leading-tight tracking-tight">
+              <TranslatedText text={exerciseContent.title || 'Ejercicio'} />
+            </h2>
+          </div>
           {exerciseContent.instructions && (
-            <div className="text-slate-500 mt-2 text-base font-medium">
-              <Markdown content={exerciseContent.instructions} />
+            <div className="mt-4 flex gap-2.5 p-3.5 bg-slate-50 border border-slate-100 rounded-2xl">
+              <span className="text-base flex-shrink-0 mt-0.5">💬</span>
+              <div className="text-slate-600 text-sm font-medium leading-relaxed">
+                <Markdown content={exerciseContent.instructions} />
+              </div>
             </div>
           )}
         </div>
@@ -500,8 +526,14 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         {/* Reading text */}
         {isReadingExercise && showReadingText ? (
           <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
-            <div className="p-6 bg-slate-50 border-l-4 border-[#FF6B6B] rounded-r-2xl text-slate-800 text-lg leading-relaxed font-medium">
-              <Markdown content={(exerciseContent.text || exercise.transcript)!} />
+            <div className="relative p-6 bg-white rounded-2xl border border-slate-100 shadow-sm">
+              <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-[#FF6B6B] to-[#ff9a3c] rounded-l-2xl" />
+              <p className="text-[10px] font-black uppercase tracking-[0.15em] text-[#FF6B6B]/60 mb-3 pl-1">
+                📖 Texto
+              </p>
+              <div className="text-slate-800 text-[17px] leading-[1.75] font-normal pl-1">
+                <Markdown content={(exerciseContent.text || exercise.transcript)!} />
+              </div>
             </div>
             {exercise.audioUrl && (
               <AudioPlayer
