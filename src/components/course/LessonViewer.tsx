@@ -12,6 +12,7 @@ import EnhancedFeedback from '@/components/course/EnhancedFeedback';
 import SentenceBuilder from '@/components/course/SentenceBuilder';
 import CelebrationModal from '@/components/course/CelebrationModal';
 import RepairModeBanner from '@/components/course/RepairModeBanner';
+import StreakBurst from '@/components/gamification/StreakBurst';
 import SpeakingPart1 from '@/components/course/SpeakingPart1';
 import SpeakingPart2 from '@/components/course/SpeakingPart2';
 import SpeakingPart3 from '@/components/course/SpeakingPart3';
@@ -90,6 +91,8 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   const audioRef = useRef<HTMLAudioElement>(null);
   
   const [failCount, setFailCount] = useState(0);
+  const [consecutiveCorrect, setConsecutiveCorrect] = useState(0);
+  const [showStreakBurst, setShowStreakBurst] = useState<number | null>(null);
 
   // Gamification hooks
   const gamification = useGamification();
@@ -121,8 +124,16 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
     if (showFeedback) {
       if (currentScore >= 60) {
         setFailCount(0);
+        setConsecutiveCorrect(prev => {
+          const next = prev + 1;
+          if (next === 3 || next === 5 || next === 10) {
+            setShowStreakBurst(next);
+          }
+          return next;
+        });
       } else {
         setFailCount(prev => prev + 1);
+        setConsecutiveCorrect(0);
       }
     }
   }, [showFeedback, currentScore]);
@@ -3503,6 +3514,14 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             onClose={() => setNewBadges(prev => prev.filter(b => b.badge_id !== badge.badge_id))}
           />
         ))}
+
+        {/* Streak Burst Overlay */}
+        {showStreakBurst !== null && (
+          <StreakBurst
+            consecutiveCount={showStreakBurst}
+            onComplete={() => setShowStreakBurst(null)}
+          />
+        )}
 
         {/* Gamification Widget */}
         {!gamification.isLoading && (

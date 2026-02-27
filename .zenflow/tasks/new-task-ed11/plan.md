@@ -140,7 +140,8 @@ npx tsc --noEmit
 npm test -- --testPathPattern="CourseWelcome|CourseRoadmap"
 ```
 
-### [ ] Step: Phase 4 — Gamification & Progress Sync (F4 StreakBurst + F7 useWeekProgress)
+### [x] Step: Phase 4 — Gamification & Progress Sync (F4 StreakBurst + F7 useWeekProgress)
+<!-- chat-id: 6602d2db-ac4e-476e-a284-55d9c3d36238 -->
 
 **F7 — useWeekProgress hook (`src/hooks/useWeekProgress.ts`)**
 - Interface: `{ completedActivities: string[], markComplete: (id: string) => Promise<void>, isLoading: boolean }`
