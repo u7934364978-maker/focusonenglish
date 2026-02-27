@@ -2,9 +2,12 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { CheckCircle2, Play, Target, Clock, Trophy } from "lucide-react";
+import { CheckCircle2, Target, Clock, Trophy } from "lucide-react";
 import { Module } from "@/lib/exercise-types";
 import { premiumCourseService } from "@/lib/services/premium-course-service";
+import { supabase } from "@/lib/supabase/client";
+import NextActionCard from "@/components/course/NextActionCard";
+import StreakRiskBanner from "@/components/gamification/StreakRiskBanner";
 
 interface CourseCurriculumProps {
   goal: string;
@@ -21,6 +24,9 @@ export default function CourseCurriculum({
 }: CourseCurriculumProps) {
   const [completedIds, setCompletedIds] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
+  const [streakDays, setStreakDays] = useState(0);
+  const [showStreakRisk, setShowStreakRisk] = useState(false);
+  const [srsReviewCount, setSrsReviewCount] = useState(0);
 
   useEffect(() => {
     async function loadProgress() {
@@ -28,12 +34,48 @@ export default function CourseCurriculum({
         setLoading(false);
         return;
       }
-      const progress = await premiumCourseService.getProgress(userId, level as any);
+
+      const [progress] = await Promise.all([
+        premiumCourseService.getProgress(userId, level as any),
+      ]);
       setCompletedIds(progress);
+
+      const allInteractionIds = modules.flatMap(m =>
+        m.lessons.flatMap(l => (l.exercises || []).map(ex => ex.id))
+      );
+      if (allInteractionIds.length > 0) {
+        const srsData = await premiumCourseService.getSRSPerformance(userId, allInteractionIds);
+        const now = new Date();
+        const reviewCount = srsData.filter(item => new Date(item.next_review_at) <= now).length;
+        setSrsReviewCount(reviewCount);
+      }
+
+      if (supabase) {
+        const { data: streakData } = await supabase
+          .from('user_streaks')
+          .select('current_streak, last_activity_date')
+          .eq('user_id', userId)
+          .single();
+
+        if (streakData && streakData.current_streak > 0) {
+          const today = new Date().toISOString().split('T')[0];
+          const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+          if (streakData.last_activity_date === yesterday && streakData.last_activity_date !== today) {
+            const alreadyDismissed =
+              typeof window !== 'undefined' &&
+              sessionStorage.getItem('streak_risk_dismissed') === 'true';
+            if (!alreadyDismissed) {
+              setStreakDays(streakData.current_streak);
+              setShowStreakRisk(true);
+            }
+          }
+        }
+      }
+
       setLoading(false);
     }
     loadProgress();
-  }, [userId, level]);
+  }, [userId, level, modules]);
 
   const completedSet = new Set(completedIds);
 
@@ -54,6 +96,9 @@ export default function CourseCurriculum({
     ? Math.round((completedExercises / totalExercises) * 100) 
     : 0;
 
+  const firstLesson = modules.flatMap(m => m.lessons)[0] ?? null;
+  const nextLessonHref = firstLesson ? `/practice/${firstLesson.id}` : '/practica';
+
   if (loading) {
     return (
       <div className="flex justify-center py-12">
@@ -63,7 +108,11 @@ export default function CourseCurriculum({
   }
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <div>
+      {showStreakRisk && (
+        <StreakRiskBanner streakDays={streakDays} nextLessonHref={nextLessonHref} />
+      )}
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-4">
       {/* Main Stats and Units Card */}
       <div className="lg:col-span-2 space-y-12">
         <div className="bg-white p-8 rounded-3xl shadow-xl border border-slate-100 overflow-hidden relative">
@@ -178,24 +227,13 @@ export default function CourseCurriculum({
 
       {/* Sidebar / Info */}
       <div className="space-y-6">
-        <div className="bg-[#1A237E] p-8 rounded-3xl shadow-2xl text-white relative overflow-hidden group mb-6">
-          <div className="absolute -right-20 -bottom-20 w-80 h-80 bg-white/10 rounded-full blur-3xl group-hover:scale-110 transition-transform duration-700" />
-          
-          <div className="relative z-10">
-            <h3 className="text-2xl font-black mb-4">Práctica Inteligente</h3>
-            <p className="text-blue-100 text-sm mb-6">
-              Practica los contenidos de este curso con nuestro tutor de IA.
-            </p>
-            
-            <Link 
-              href="/practica"
-              className="flex items-center justify-center gap-3 bg-[#FF6B6B] hover:bg-[#ff5252] text-white px-6 py-4 rounded-xl font-black text-lg shadow-lg hover:shadow-coral-500/20 hover:-translate-y-1 transition-all"
-            >
-              <Play fill="currentColor" size={20} />
-              ¡EMPEZAR!
-            </Link>
-          </div>
-        </div>
+        <NextActionCard
+          userId={userId}
+          level={level}
+          modules={modules}
+          completedIds={completedSet}
+          srsReviewCount={srsReviewCount}
+        />
 
         <div className="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm">
           <h4 className="text-lg font-black text-slate-900 mb-4 flex items-center gap-2">
@@ -218,6 +256,7 @@ export default function CourseCurriculum({
           </ul>
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -78,7 +78,8 @@ npx tsc --noEmit
 npm test -- --testPathPattern="CelebrationModal|RepairMode"
 ```
 
-### [ ] Step: Phase 2 — Sidebar & Navigation (F3 NextActionCard + F8 StreakRiskBanner)
+### [x] Step: Phase 2 — Sidebar & Navigation (F3 NextActionCard + F8 StreakRiskBanner)
+<!-- chat-id: 55d8b191-3e0c-4e50-87bd-bfd326a5ad19 -->
 
 **F8 — StreakRiskBanner (`src/components/gamification/StreakRiskBanner.tsx`)**
 - Create new `StreakRiskBanner.tsx` with `streakDays: number`, `nextLessonHref: string` props
