@@ -88,7 +88,7 @@ export default function FlashcardExercise({ content, vocabulary, onComplete }: F
         </div>
         <div className="h-2 w-32 bg-slate-100 rounded-full overflow-hidden">
           <motion.div 
-            className="h-full bg-orange-500"
+            className="h-full bg-[#FF6B6B]"
             initial={{ width: 0 }}
             animate={{ width: `${((currentIndex + (isFlipped ? 1 : 0)) / content.items.length) * 100}%` }}
           />
@@ -106,7 +106,7 @@ export default function FlashcardExercise({ content, vocabulary, onComplete }: F
           transition={{ duration: 0.6, type: "spring", stiffness: 260, damping: 20 }}
         >
           {/* Front Side */}
-          <div className="absolute inset-0 w-full h-full backface-hidden bg-white rounded-3xl shadow-xl border-2 border-orange-100 p-8 flex flex-col items-center justify-center text-center">
+          <div className="absolute inset-0 w-full h-full backface-hidden bg-white rounded-3xl shadow-xl border-2 border-slate-100 p-8 flex flex-col items-center justify-center text-center">
             {normalizedFront.image && (
               <img 
                 src={normalizedFront.image} 
@@ -118,14 +118,14 @@ export default function FlashcardExercise({ content, vocabulary, onComplete }: F
               <Markdown content={normalizedFront.text} vocabulary={vocabulary} />
             </div>
             {(normalizedFront.phonetic || currentItem.pronunciation) && (
-              <p className="text-orange-500 font-mono text-lg">{normalizedFront.phonetic || currentItem.pronunciation}</p>
+              <p className="text-[#FF6B6B] font-mono text-lg">{normalizedFront.phonetic || currentItem.pronunciation}</p>
             )}
             <button 
               onClick={(e) => {
                 e.stopPropagation();
                 playAudio(normalizedFront.audio, normalizedFront.text);
               }}
-              className="mt-4 p-3 bg-orange-100 text-orange-600 rounded-full hover:bg-orange-200 transition-colors"
+              className="mt-4 p-3 bg-[#FF6B6B]/10 text-[#FF6B6B] rounded-full hover:bg-[#FF6B6B]/20 transition-colors"
             >
               <Volume2 className="w-6 h-6" />
             </button>
@@ -137,11 +137,11 @@ export default function FlashcardExercise({ content, vocabulary, onComplete }: F
 
           {/* Back Side */}
           <div 
-            className="absolute inset-0 w-full h-full backface-hidden bg-orange-50 rounded-3xl shadow-xl border-2 border-orange-200 p-8 flex flex-col items-center justify-center text-center"
+            className="absolute inset-0 w-full h-full backface-hidden bg-[#FF6B6B]/5 rounded-3xl shadow-xl border-2 border-[#FF6B6B]/20 p-8 flex flex-col items-center justify-center text-center"
             style={{ transform: 'rotateY(180deg)' }}
           >
             <h2 className="text-2xl text-slate-600 mb-2">Traducción:</h2>
-            <div className="text-4xl font-black text-orange-600 mb-4">
+            <div className="text-4xl font-black text-[#FF6B6B] mb-4">
               <Markdown content={normalizedBack.translation} vocabulary={vocabulary} />
             </div>
             
@@ -154,7 +154,7 @@ export default function FlashcardExercise({ content, vocabulary, onComplete }: F
                       e.stopPropagation();
                       playAudio(normalizedBack.exampleAudio, normalizedBack.example);
                     }}
-                    className="absolute -right-2 -top-2 p-1.5 bg-orange-500 text-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity shadow-sm"
+                    className="absolute -right-2 -top-2 p-1.5 bg-[#FF6B6B] text-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity shadow-sm"
                   >
                     <Volume2 className="w-3 h-3" />
                   </button>
@@ -168,7 +168,7 @@ export default function FlashcardExercise({ content, vocabulary, onComplete }: F
                   e.stopPropagation();
                   setShowExplanation(!showExplanation);
                 }}
-                className="mt-4 flex items-center gap-2 text-orange-700 font-bold text-sm hover:underline"
+                className="mt-4 flex items-center gap-2 text-[#FF6B6B] font-bold text-sm hover:underline"
               >
                 <Info className="w-4 h-4" />
                 {showExplanation ? 'Ocultar explicación' : 'Ver explicación'}

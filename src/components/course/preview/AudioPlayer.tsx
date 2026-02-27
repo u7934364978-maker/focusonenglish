@@ -150,11 +150,11 @@ export function AudioPlayer({ audioUrl, transcript, className = '', unitId }: Au
             onClick={handleSeek}
           >
             <div
-              className="absolute h-full bg-coral-500 rounded-full transition-all"
+              className="absolute h-full bg-[#FF6B6B] rounded-full transition-all"
               style={{ width: `${progress}%` }}
             />
             <div
-              className="absolute h-4 w-4 bg-coral-600 rounded-full top-1/2 -translate-y-1/2 shadow-lg opacity-0 group-hover:opacity-100 transition-opacity"
+              className="absolute h-4 w-4 bg-[#FF6B6B] rounded-full top-1/2 -translate-y-1/2 shadow-lg opacity-0 group-hover:opacity-100 transition-opacity"
               style={{ left: `calc(${progress}% - 8px)` }}
             />
           </div>
@@ -170,7 +170,7 @@ export function AudioPlayer({ audioUrl, transcript, className = '', unitId }: Au
           <button
             onClick={togglePlayPause}
             aria-label={isPlaying ? 'Pause' : 'Play'}
-            className="flex items-center justify-center w-12 h-12 bg-coral-500 hover:bg-coral-600 text-white rounded-full transition-colors shadow-lg hover:shadow-xl"
+            className="flex items-center justify-center w-12 h-12 bg-[#FF6B6B] hover:bg-[#ff5252] text-white rounded-full transition-colors shadow-lg hover:shadow-xl"
           >
             {isPlaying ? (
               <Pause className="w-6 h-6" fill="currentColor" />
@@ -188,7 +188,7 @@ export function AudioPlayer({ audioUrl, transcript, className = '', unitId }: Au
                 aria-label={`Speed ${speed}x`}
                 className={`px-3 py-1.5 text-xs font-bold rounded-lg transition-colors ${
                   playbackRate === speed
-                    ? 'bg-coral-500 text-white'
+                    ? 'bg-[#FF6B6B] text-white'
                     : 'bg-slate-50 text-slate-600 hover:bg-slate-100'
                 }`}
               >
@@ -202,7 +202,7 @@ export function AudioPlayer({ audioUrl, transcript, className = '', unitId }: Au
             <button
               onClick={toggleMute}
               aria-label={isMuted ? 'Unmute' : 'Mute'}
-              className="p-2 text-slate-600 hover:text-coral-600 transition-colors"
+              className="p-2 text-slate-600 hover:text-[#FF6B6B] transition-colors"
             >
               {isMuted ? (
                 <VolumeX className="w-5 h-5" />
@@ -218,7 +218,7 @@ export function AudioPlayer({ audioUrl, transcript, className = '', unitId }: Au
               value={isMuted ? 0 : volume}
               onChange={handleVolumeChange}
               aria-label="Volume"
-              className="w-20 h-1 bg-slate-200 rounded-lg appearance-none cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-coral-500 [&::-moz-range-thumb]:w-3 [&::-moz-range-thumb]:h-3 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:bg-coral-500 [&::-moz-range-thumb]:border-0"
+              className="w-20 h-1 bg-slate-200 rounded-lg appearance-none cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-[#FF6B6B] [&::-moz-range-thumb]:w-3 [&::-moz-range-thumb]:h-3 [&::-moz-range-thumb]:rounded-full [&::-moz-range-thumb]:bg-[#FF6B6B] [&::-moz-range-thumb]:border-0"
             />
           </div>
 
@@ -230,7 +230,7 @@ export function AudioPlayer({ audioUrl, transcript, className = '', unitId }: Au
               aria-pressed={showTranscript}
               className={`p-2 rounded-lg transition-colors ${
                 showTranscript
-                  ? 'bg-coral-500 text-white'
+                  ? 'bg-[#FF6B6B] text-white'
                   : 'text-slate-600 hover:bg-slate-100'
               }`}
             >
@@ -242,7 +242,7 @@ export function AudioPlayer({ audioUrl, transcript, className = '', unitId }: Au
         {/* Transcript */}
         {transcript && showTranscript && (
           <div className="p-4 bg-slate-50 rounded-lg border border-slate-100">
-            <h4 className="text-sm font-bold text-slate-700 mb-2">Transcript</h4>
+            <h4 className="text-sm font-bold text-slate-700 mb-2">Transcripción</h4>
             <p className="text-sm text-slate-600 leading-relaxed">{transcript}</p>
           </div>
         )}

@@ -8,37 +8,14 @@ interface StreakBurstProps {
   onComplete: () => void;
 }
 
-const MESSAGES: Record<number, string> = {
-  3: '¡Racha de 3! 🔥',
-  5: '¡Racha de 5! ⚡',
-  10: '¡Racha de 10! 🌟',
+const BURSTS: Record<number, { emoji: string; message: string; color: string }> = {
+  3:  { emoji: '🔥', message: '¡Racha de 3!',  color: 'from-orange-500 to-amber-400' },
+  5:  { emoji: '⚡', message: '¡Racha de 5!',  color: 'from-yellow-400 to-orange-500' },
+  10: { emoji: '🌟', message: '¡Racha de 10!', color: 'from-purple-500 to-pink-500' },
 };
 
-function playTwoNoteTone() {
-  try {
-    const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
-
-    const play = (freq: number, startAt: number) => {
-      const osc = audioContext.createOscillator();
-      const gain = audioContext.createGain();
-      osc.connect(gain);
-      gain.connect(audioContext.destination);
-      osc.frequency.setValueAtTime(freq, audioContext.currentTime + startAt);
-      gain.gain.setValueAtTime(0.25, audioContext.currentTime + startAt);
-      gain.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + startAt + 0.2);
-      osc.start(audioContext.currentTime + startAt);
-      osc.stop(audioContext.currentTime + startAt + 0.2);
-    };
-
-    play(523.25, 0);
-    play(783.99, 0.15);
-  } catch {
-    // Audio not supported — silently ignore
-  }
-}
-
 export default function StreakBurst({ consecutiveCount, onComplete }: StreakBurstProps) {
-  const message = MESSAGES[consecutiveCount] ?? `¡Racha de ${consecutiveCount}! 🔥`;
+  const burst = BURSTS[consecutiveCount] ?? { emoji: '🔥', message: `¡Racha de ${consecutiveCount}!`, color: 'from-orange-500 to-amber-400' };
 
   const prefersReducedMotion =
     typeof window !== 'undefined'
@@ -46,8 +23,7 @@ export default function StreakBurst({ consecutiveCount, onComplete }: StreakBurs
       : false;
 
   useEffect(() => {
-    playTwoNoteTone();
-    const timer = setTimeout(onComplete, 600);
+    const timer = setTimeout(onComplete, 900);
     return () => clearTimeout(timer);
   }, [onComplete]);
 
@@ -56,14 +32,28 @@ export default function StreakBurst({ consecutiveCount, onComplete }: StreakBurs
       <motion.div
         key="streak-burst"
         className="fixed inset-0 z-50 flex items-center justify-center pointer-events-none"
-        initial={prefersReducedMotion ? { opacity: 1 } : { opacity: 0, scale: 0.6 }}
-        animate={{ opacity: 1, scale: 1 }}
-        exit={{ opacity: 0, scale: 1.2 }}
-        transition={{ duration: prefersReducedMotion ? 0 : 0.25 }}
+        initial={prefersReducedMotion ? { opacity: 1 } : { opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: prefersReducedMotion ? 0 : 0.2 }}
       >
-        <div className="bg-gradient-to-br from-orange-500 to-amber-400 text-white rounded-3xl px-10 py-6 shadow-2xl text-center">
-          <p className="text-3xl font-black">{message}</p>
-        </div>
+        <motion.div
+          initial={prefersReducedMotion ? {} : { scale: 0.4, y: 20 }}
+          animate={{ scale: 1, y: 0 }}
+          exit={{ scale: 1.15, opacity: 0 }}
+          transition={{ type: 'spring', stiffness: 400, damping: 20 }}
+          className={`bg-gradient-to-br ${burst.color} text-white rounded-3xl px-12 py-8 shadow-2xl text-center`}
+        >
+          <motion.div
+            animate={prefersReducedMotion ? {} : { scale: [1, 1.2, 1], rotate: [-5, 5, -5, 0] }}
+            transition={{ duration: 0.5, repeat: 1 }}
+            className="text-7xl mb-3 leading-none"
+          >
+            {burst.emoji}
+          </motion.div>
+          <p className="text-4xl font-black tracking-tight leading-none">{burst.message}</p>
+          <p className="text-white/70 font-bold mt-2 text-base">¡Sigue así! 💪</p>
+        </motion.div>
       </motion.div>
     </AnimatePresence>
   );
