@@ -1,5 +1,6 @@
 import { Suspense } from 'react';
 import { A1CourseSelector } from '@/components/course/preview/A1CourseSelector';
+import { A1ProgressSidebar } from '@/components/course/A1ProgressSidebar';
 import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
 import { BookOpen, Clock, Award } from 'lucide-react';
 import { WelcomeWrapper } from './WelcomeWrapper';
@@ -14,7 +15,7 @@ async function A1PreviewContent() {
     <div className="min-h-screen bg-slate-50">
       <WelcomeWrapper
         totalUnits={courseMetadata.totalUnits}
-        />
+      />
 
       <div className="bg-white border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 py-12 md:py-16">
@@ -72,7 +73,18 @@ async function A1PreviewContent() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 py-12">
-        <A1CourseSelector units={courseMetadata.units} />
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+          <div className="lg:col-span-3">
+            <A1CourseSelector units={courseMetadata.units} />
+          </div>
+
+          <div className="lg:col-span-1">
+            <div className="sticky top-6 bg-white rounded-2xl border border-slate-100 p-5 shadow-sm">
+              <h3 className="font-black text-slate-900 text-base mb-4">Mi Progreso</h3>
+              <A1ProgressSidebar units={courseMetadata.units} />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

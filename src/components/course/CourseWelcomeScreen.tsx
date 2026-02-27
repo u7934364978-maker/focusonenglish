@@ -11,6 +11,7 @@ interface CourseWelcomeScreenProps {
   modulesCount: number;
   lessonsCount: number;
   firstLessonId: string;
+  firstLessonHref?: string;
   onDismiss: () => void;
 }
 
@@ -20,9 +21,11 @@ export default function CourseWelcomeScreen({
   modulesCount,
   lessonsCount,
   firstLessonId,
+  firstLessonHref,
   onDismiss,
 }: CourseWelcomeScreenProps) {
   const shouldReduceMotion = useReducedMotion();
+  const href = firstLessonHref ?? `/practice/${firstLessonId}`;
 
   const handleDismiss = () => {
     if (typeof window !== 'undefined') {
@@ -74,7 +77,7 @@ export default function CourseWelcomeScreen({
           </div>
 
           <Link
-            href={`/practice/${firstLessonId}`}
+            href={href}
             onClick={handleDismiss}
             className="block w-full text-center bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white px-6 py-4 rounded-2xl font-black text-lg shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all mb-3"
           >

@@ -29,6 +29,7 @@ export function WelcomeWrapper({ totalUnits }: WelcomeWrapperProps) {
       modulesCount={Math.ceil(totalUnits / 5)}
       lessonsCount={totalUnits}
       firstLessonId={FIRST_UNIT}
+      firstLessonHref={`/curso-a1/${FIRST_UNIT}`}
       onDismiss={() => setShowWelcome(false)}
     />
   );
