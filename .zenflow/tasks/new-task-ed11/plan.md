@@ -109,7 +109,8 @@ npx tsc --noEmit
 npm test -- --testPathPattern="NextActionCard|StreakRisk"
 ```
 
-### [ ] Step: Phase 3 — Visual Roadmap & Onboarding (F1 CourseWelcomeScreen + F2 CourseRoadmap)
+### [x] Step: Phase 3 — Visual Roadmap & Onboarding (F1 CourseWelcomeScreen + F2 CourseRoadmap)
+<!-- chat-id: 552745b0-f8e5-424c-a36a-0213dbb4ffb0 -->
 
 **F1 — CourseWelcomeScreen (`src/components/course/CourseWelcomeScreen.tsx`)**
 - Props: `courseId`, `userId`, `modulesCount`, `lessonsCount`, `firstLessonId`, `onDismiss`

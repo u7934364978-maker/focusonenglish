@@ -2,12 +2,14 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { CheckCircle2, Target, Clock, Trophy } from "lucide-react";
+import { CheckCircle2, Target, Clock, Trophy, List, Map } from "lucide-react";
 import { Module } from "@/lib/exercise-types";
 import { premiumCourseService } from "@/lib/services/premium-course-service";
 import { supabase } from "@/lib/supabase/client";
 import NextActionCard from "@/components/course/NextActionCard";
 import StreakRiskBanner from "@/components/gamification/StreakRiskBanner";
+import CourseWelcomeScreen from "@/components/course/CourseWelcomeScreen";
+import CourseRoadmap from "@/components/course/CourseRoadmap";
 
 interface CourseCurriculumProps {
   goal: string;
@@ -27,6 +29,8 @@ export default function CourseCurriculum({
   const [streakDays, setStreakDays] = useState(0);
   const [showStreakRisk, setShowStreakRisk] = useState(false);
   const [srsReviewCount, setSrsReviewCount] = useState(0);
+  const [showWelcome, setShowWelcome] = useState(false);
+  const [viewMode, setViewMode] = useState<'list' | 'map'>('list');
 
   useEffect(() => {
     async function loadProgress() {
@@ -75,6 +79,13 @@ export default function CourseCurriculum({
       setLoading(false);
     }
     loadProgress();
+
+    if (typeof window !== 'undefined') {
+      const welcomeKey = `course_welcome_${level}_shown`;
+      if (!localStorage.getItem(welcomeKey)) {
+        setShowWelcome(true);
+      }
+    }
   }, [userId, level, modules]);
 
   const completedSet = new Set(completedIds);
@@ -96,8 +107,10 @@ export default function CourseCurriculum({
     ? Math.round((completedExercises / totalExercises) * 100) 
     : 0;
 
-  const firstLesson = modules.flatMap(m => m.lessons)[0] ?? null;
+  const allLessons = modules.flatMap(m => m.lessons);
+  const firstLesson = allLessons[0] ?? null;
   const nextLessonHref = firstLesson ? `/practice/${firstLesson.id}` : '/practica';
+  const lessonsCount = allLessons.length;
 
   if (loading) {
     return (
@@ -109,6 +122,16 @@ export default function CourseCurriculum({
 
   return (
     <div>
+      {showWelcome && firstLesson && (
+        <CourseWelcomeScreen
+          courseId={level}
+          userId={userId}
+          modulesCount={modules.length}
+          lessonsCount={lessonsCount}
+          firstLessonId={firstLesson.id}
+          onDismiss={() => setShowWelcome(false)}
+        />
+      )}
       {showStreakRisk && (
         <StreakRiskBanner streakDays={streakDays} nextLessonHref={nextLessonHref} />
       )}
@@ -157,8 +180,40 @@ export default function CourseCurriculum({
           </div>
         </div>
 
+        {/* View mode toggle */}
+        <div className="flex items-center justify-between mb-2">
+          <h3 className="text-lg font-black text-slate-700">Contenido del Curso</h3>
+          <div className="flex items-center gap-1 bg-slate-100 p-1 rounded-xl">
+            <button
+              onClick={() => setViewMode('list')}
+              aria-label="Vista en lista"
+              className={`p-2 rounded-lg transition-colors ${viewMode === 'list' ? 'bg-white shadow text-slate-900' : 'text-slate-400 hover:text-slate-600'}`}
+            >
+              <List size={16} />
+            </button>
+            <button
+              onClick={() => setViewMode('map')}
+              aria-label="Vista en mapa"
+              className={`p-2 rounded-lg transition-colors ${viewMode === 'map' ? 'bg-white shadow text-slate-900' : 'text-slate-400 hover:text-slate-600'}`}
+            >
+              <Map size={16} />
+            </button>
+          </div>
+        </div>
+
+        {/* Map view */}
+        {viewMode === 'map' && (
+          <div className="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm">
+            <CourseRoadmap
+              modules={modules}
+              completedIds={completedSet}
+              currentLessonId={null}
+            />
+          </div>
+        )}
+
         {/* Modules and Lessons */}
-        {modules.map((module, mIdx) => (
+        {viewMode === 'list' && modules.map((module, mIdx) => (
           <div key={module.id} className="space-y-6">
             <div className="flex items-center gap-4">
               <div className="bg-[#FF6B6B] text-white w-10 h-10 rounded-xl flex items-center justify-center font-black shadow-lg">
