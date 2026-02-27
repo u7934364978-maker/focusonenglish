@@ -5,40 +5,62 @@ import { useEffect, useState, useRef, Suspense } from 'react';
 import ExerciseRenderer from '@/components/ExerciseRenderer';
 import RepairModeBanner from '@/components/course/RepairModeBanner';
 import StreakBurst from '@/components/gamification/StreakBurst';
-import { X, Heart, Zap } from 'lucide-react';
+import { useGamification } from '@/lib/hooks/use-gamification';
+import { X, Heart, Zap, Trophy, Flame } from 'lucide-react';
 import Link from 'next/link';
 
 const CHUNK_SIZE = 15;
 const STREAK_THRESHOLDS = [3, 5, 10];
+const MAX_DOTS = 15;
 
 type FeedbackState = 'idle' | 'correct' | 'incorrect';
+
+function Confetti() {
+  const pieces = Array.from({ length: 24 });
+  const colors = ['bg-[#FF6B6B]', 'bg-yellow-400', 'bg-green-400', 'bg-blue-400', 'bg-purple-400', 'bg-pink-400'];
+  return (
+    <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden>
+      {pieces.map((_, i) => (
+        <div
+          key={i}
+          className={`absolute w-2 h-3 rounded-sm opacity-0 ${colors[i % colors.length]}`}
+          style={{
+            left: `${Math.random() * 100}%`,
+            top: `-${Math.random() * 20 + 5}%`,
+            animation: `confetti-fall ${0.8 + Math.random() * 1.2}s ease-in ${Math.random() * 0.5}s forwards`,
+            transform: `rotate(${Math.random() * 360}deg)`,
+          }}
+        />
+      ))}
+    </div>
+  );
+}
 
 function UnitPreviewContent() {
   const params = useParams();
   const searchParams = useSearchParams();
   const unitId = params.unitId as string;
+  const { xp, level, completeExercise: saveXP, recordActivity } = useGamification();
 
   const [exercises, setExercises] = useState<any[]>([]);
+  const [unitTitle, setUnitTitle] = useState<string>('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [startTime] = useState(Date.now());
 
-  // Duolingo-style state
   const [feedback, setFeedback] = useState<FeedbackState>('idle');
   const [slideDir, setSlideDir] = useState<'in' | 'out-left' | 'out-right'>('in');
   const [lives, setLives] = useState(3);
-  const [score, setScore] = useState(0);
+  const [sessionScore, setSessionScore] = useState(0);
   const [xpGained, setXpGained] = useState(0);
   const [showXpPop, setShowXpPop] = useState(false);
 
-  // Gamification
   const [failCount, setFailCount] = useState(0);
   const [failedIndexes, setFailedIndexes] = useState<number[]>([]);
   const [consecutiveCorrect, setConsecutiveCorrect] = useState(0);
   const [streakBurstCount, setStreakBurstCount] = useState<number | null>(null);
 
-  // Completion
   const [showUnitSummary, setShowUnitSummary] = useState(false);
   const [showLessonComplete, setShowLessonComplete] = useState(false);
 
@@ -57,8 +79,10 @@ function UnitPreviewContent() {
         }
         const exportName = `UNIT_${unitNumber.toUpperCase().replace('-', '_')}_EXERCISES`;
         const unitExercises = unitModule[exportName] || unitModule[`UNIT_${unitNumber}_EXERCISES`] || unitModule.default || unitModule.UNIT_1_EXERCISES;
+        const title = unitModule.UNIT_TITLE || unitModule.title || '';
+        setUnitTitle(title);
         if (!unitExercises || !Array.isArray(unitExercises)) {
-          setError(`No se encontraron ejercicios`);
+          setError('No se encontraron ejercicios');
         } else {
           setExercises(unitExercises);
           const indexParam = searchParams.get('index');
@@ -74,6 +98,7 @@ function UnitPreviewContent() {
       }
     }
     loadUnit();
+    recordActivity();
     return () => { if (advanceTimer.current) clearTimeout(advanceTimer.current); };
   }, [unitId, searchParams]);
 
@@ -100,12 +125,15 @@ function UnitPreviewContent() {
       const newConsecutive = consecutiveCorrect + 1;
       setConsecutiveCorrect(newConsecutive);
       setFailCount(0);
-      setScore(prev => prev + pts);
+      setSessionScore(prev => prev + pts);
 
-      const xp = newConsecutive >= 3 ? 20 : 10;
-      setXpGained(xp);
+      const xpAmt = newConsecutive >= 3 ? 20 : 10;
+      setXpGained(xpAmt);
       setShowXpPop(true);
       setTimeout(() => setShowXpPop(false), 1200);
+
+      const exerciseId = exercises[currentIndex]?.id ?? `${unitId}-${currentIndex}`;
+      saveXP(exerciseId, 1, 1);
 
       setFeedback('correct');
 
@@ -158,6 +186,7 @@ function UnitPreviewContent() {
     </div>
   );
 
+  const unitNumber = unitId.replace('unit-', '');
   const lessonNumber = Math.floor(currentIndex / CHUNK_SIZE) + 1;
   const totalLessons = Math.ceil(exercises.length / CHUNK_SIZE);
   const exerciseInLesson = (currentIndex % CHUNK_SIZE) + 1;
@@ -165,40 +194,57 @@ function UnitPreviewContent() {
   const progressPct = (exerciseInLesson - 1) / exercisesInThisLesson * 100;
   const isRepairMode = failCount >= 2 && failedIndexes.length > 0;
   const repairRemaining = failedIndexes.filter(i => i >= currentIndex).length;
+  const displayXp = xp + sessionScore;
+  const showDots = exercisesInThisLesson <= MAX_DOTS;
 
-  // — Unit complete —
+  // ── UNIT SUMMARY ──────────────────────────────────────────────────
   if (showUnitSummary) {
     const mins = Math.round((Date.now() - startTime) / 60000);
+    const accuracy = Math.round(((exercises.length - failedIndexes.length) / exercises.length) * 100);
     return (
-      <div className="min-h-screen flex items-center justify-center bg-white p-4">
-        <div className="max-w-md w-full text-center space-y-8 animate-in zoom-in-95 duration-500">
+      <div className="min-h-screen relative flex items-center justify-center p-4 overflow-hidden">
+        {/* Gradient background */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#FF6B6B] via-[#ff9a3c] to-[#ffb347]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,255,255,0.15),transparent_70%)]" />
+        <Confetti />
+
+        <div className="relative z-10 max-w-md w-full text-center space-y-6 animate-in zoom-in-95 duration-500">
           <div className="relative inline-block">
-            <div className="w-36 h-36 rounded-full bg-gradient-to-br from-[#FF6B6B] to-[#ff9a3c] flex items-center justify-center shadow-2xl shadow-orange-200 mx-auto">
-              <span className="text-6xl">🏆</span>
+            <div className="w-32 h-32 rounded-full bg-white/20 backdrop-blur border-4 border-white/40 flex items-center justify-center shadow-2xl mx-auto">
+              <Trophy className="w-16 h-16 text-white drop-shadow-lg" />
             </div>
-            <div className="absolute -bottom-2 -right-2 bg-yellow-400 text-yellow-900 rounded-full px-3 py-1 font-black text-sm shadow">
-              +{score} XP
+            <div className="absolute -bottom-2 -right-2 bg-yellow-400 text-yellow-900 rounded-full px-3 py-1 font-black text-sm shadow-lg">
+              +{sessionScore} XP
             </div>
           </div>
+
           <div>
-            <h2 className="text-5xl font-black text-slate-900 tracking-tight">¡Increíble!</h2>
-            <p className="text-slate-500 mt-2 text-lg font-medium">Unidad {unitId.replace('unit-', '')} completada</p>
+            <h2 className="text-5xl font-black text-white tracking-tight drop-shadow">¡Increíble!</h2>
+            <p className="text-white/80 mt-2 text-lg font-medium">Unidad {unitNumber} completada</p>
+            {unitTitle && <p className="text-white/60 text-sm mt-1 font-medium">{unitTitle}</p>}
           </div>
-          <div className="grid grid-cols-3 gap-4">
+
+          <div className="grid grid-cols-3 gap-3">
             {[
               { label: 'Ejercicios', value: exercises.length, icon: '✅' },
               { label: 'Tiempo', value: `${mins}m`, icon: '⏱️' },
-              { label: 'Racha', value: `${consecutiveCorrect}🔥`, icon: '' },
+              { label: 'Precisión', value: `${accuracy}%`, icon: '🎯' },
             ].map(stat => (
-              <div key={stat.label} className="bg-slate-50 rounded-2xl p-4 border border-slate-100">
-                <div className="text-2xl font-black text-slate-900">{stat.icon} {stat.value}</div>
-                <div className="text-xs text-slate-400 font-bold uppercase mt-1">{stat.label}</div>
+              <div key={stat.label} className="bg-white/20 backdrop-blur rounded-2xl p-4 border border-white/20">
+                <div className="text-2xl font-black text-white">{stat.icon} {stat.value}</div>
+                <div className="text-xs text-white/70 font-bold uppercase mt-1">{stat.label}</div>
               </div>
             ))}
           </div>
+
+          <div className="bg-white/20 backdrop-blur rounded-2xl p-4 border border-white/20 flex items-center justify-center gap-2">
+            <Zap className="w-5 h-5 text-yellow-300 fill-yellow-300" />
+            <span className="text-white font-black text-lg">XP Total: {displayXp}</span>
+          </div>
+
           <Link
             href="/curso-a1"
-            className="block w-full bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white py-5 rounded-2xl font-black text-xl shadow-xl shadow-orange-200 hover:-translate-y-0.5 transition-all"
+            className="block w-full bg-white text-[#FF6B6B] py-5 rounded-2xl font-black text-xl shadow-xl hover:-translate-y-0.5 transition-all"
           >
             Siguiente unidad →
           </Link>
@@ -207,20 +253,24 @@ function UnitPreviewContent() {
     );
   }
 
-  // — Lesson checkpoint —
+  // ── CHECKPOINT ───────────────────────────────────────────────────
   if (showLessonComplete) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-white p-4">
-        <div className="max-w-sm w-full text-center space-y-6 animate-in zoom-in-95 duration-500">
-          <div className="w-24 h-24 rounded-full bg-green-100 flex items-center justify-center mx-auto">
-            <span className="text-5xl">⚡</span>
+      <div className="min-h-screen relative flex items-center justify-center p-4 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,107,107,0.2),transparent_70%)]" />
+
+        <div className="relative z-10 max-w-sm w-full text-center space-y-6 animate-in zoom-in-95 duration-500">
+          <div className="w-24 h-24 rounded-full bg-gradient-to-br from-[#FF6B6B] to-[#ff9a3c] flex items-center justify-center mx-auto shadow-2xl shadow-orange-500/30">
+            <Flame className="w-12 h-12 text-white" />
           </div>
           <div>
-            <h2 className="text-3xl font-black text-slate-900">¡Checkpoint!</h2>
-            <p className="text-slate-500 mt-1 font-medium">Lección {lessonNumber} de {totalLessons} completada</p>
+            <h2 className="text-4xl font-black text-white">¡Checkpoint!</h2>
+            <p className="text-slate-400 mt-2 font-medium">Lección {lessonNumber} de {totalLessons}</p>
           </div>
-          <div className="bg-green-50 rounded-2xl p-5 border border-green-100">
-            <p className="text-green-700 font-black text-lg">+{score} XP ganados</p>
+          <div className="bg-white/5 border border-white/10 rounded-2xl p-5 flex items-center justify-center gap-2">
+            <Zap className="w-5 h-5 text-yellow-400 fill-yellow-400" />
+            <p className="text-white font-black text-lg">+{sessionScore} XP en esta sesión</p>
           </div>
           <button
             onClick={() => {
@@ -228,7 +278,7 @@ function UnitPreviewContent() {
               setShowLessonComplete(false);
               setFeedback('idle');
             }}
-            className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white py-5 rounded-2xl font-black text-xl shadow-lg hover:-translate-y-0.5 transition-all"
+            className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white py-5 rounded-2xl font-black text-xl shadow-xl shadow-orange-500/30 hover:-translate-y-0.5 transition-all"
           >
             Continuar →
           </button>
@@ -240,12 +290,11 @@ function UnitPreviewContent() {
   const currentExercise = exercises[currentIndex];
 
   return (
-    <div className={`min-h-screen flex flex-col bg-white transition-colors duration-300 ${
+    <div className={`min-h-screen flex flex-col transition-colors duration-300 ${
       feedback === 'correct' ? 'bg-green-50/30' : feedback === 'incorrect' ? 'bg-red-50/30' : 'bg-white'
     }`}>
       {isRepairMode && <RepairModeBanner remainingCount={repairRemaining} />}
 
-      {/* Top bar */}
       <header className="sticky top-0 z-40 bg-white/90 backdrop-blur border-b border-slate-100 px-4 py-3">
         <div className="max-w-2xl mx-auto flex items-center gap-4">
           <Link
@@ -256,23 +305,28 @@ function UnitPreviewContent() {
             <X className="w-5 h-5" />
           </Link>
 
-          {/* Progress bar */}
-          <div className="flex-1 h-4 bg-slate-100 rounded-full overflow-hidden">
-            <div
-              className={`h-full rounded-full transition-all duration-700 ease-out ${
-                isRepairMode
-                  ? 'bg-gradient-to-r from-amber-400 to-amber-500'
-                  : 'bg-gradient-to-r from-[#FF6B6B] to-[#ff9a3c]'
-              }`}
-              style={{ width: `${Math.max(progressPct, 4)}%` }}
-            />
+          <div className="flex-1 min-w-0">
+            {unitTitle && (
+              <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest truncate leading-none mb-1">
+                Unidad {unitNumber} · {unitTitle}
+              </p>
+            )}
+            <div className="h-3 bg-slate-100 rounded-full overflow-hidden">
+              <div
+                className={`h-full rounded-full transition-all duration-700 ease-out ${
+                  isRepairMode
+                    ? 'bg-gradient-to-r from-amber-400 to-amber-500'
+                    : 'bg-gradient-to-r from-[#FF6B6B] to-[#ff9a3c]'
+                }`}
+                style={{ width: `${Math.max(progressPct, 4)}%` }}
+              />
+            </div>
           </div>
 
-          {/* XP + Lives */}
           <div className="flex items-center gap-3 flex-shrink-0">
             <div className="relative flex items-center gap-1">
               <Zap className="w-4 h-4 text-yellow-500 fill-yellow-400" />
-              <span className="font-black text-slate-700 text-sm tabular-nums">{score}</span>
+              <span className="font-black text-slate-700 text-sm tabular-nums">{displayXp}</span>
               {showXpPop && (
                 <span className="absolute -top-6 left-1/2 -translate-x-1/2 text-green-600 font-black text-sm animate-in fade-in slide-in-from-bottom-2 duration-300 pointer-events-none whitespace-nowrap">
                   +{xpGained} XP
@@ -292,33 +346,36 @@ function UnitPreviewContent() {
           </div>
         </div>
 
-        {/* Exercise counter dots */}
+        {/* Progress indicators */}
         <div className="max-w-2xl mx-auto mt-2 flex items-center justify-center gap-1.5">
-          {Array.from({ length: exercisesInThisLesson }).map((_, i) => (
-            <div
-              key={i}
-              className={`rounded-full transition-all duration-300 ${
-                i < exerciseInLesson - 1
-                  ? 'w-2 h-2 bg-gradient-to-r from-[#FF6B6B] to-[#ff9a3c]'
-                  : i === exerciseInLesson - 1
-                  ? 'w-3 h-3 bg-[#FF6B6B] ring-2 ring-[#FF6B6B]/30 scale-110'
-                  : 'w-2 h-2 bg-slate-200'
-              }`}
-            />
-          ))}
+          {showDots ? (
+            Array.from({ length: exercisesInThisLesson }).map((_, i) => (
+              <div
+                key={i}
+                className={`rounded-full transition-all duration-300 ${
+                  i < exerciseInLesson - 1
+                    ? 'w-2 h-2 bg-gradient-to-r from-[#FF6B6B] to-[#ff9a3c]'
+                    : i === exerciseInLesson - 1
+                    ? 'w-3 h-3 bg-[#FF6B6B] ring-2 ring-[#FF6B6B]/30 scale-110'
+                    : 'w-2 h-2 bg-slate-200'
+                }`}
+              />
+            ))
+          ) : (
+            <span className="text-xs font-black text-slate-400 tabular-nums">
+              {exerciseInLesson} / {exercisesInThisLesson}
+            </span>
+          )}
         </div>
       </header>
 
-      {/* Exercise */}
-      <main className="flex-1 max-w-2xl mx-auto w-full px-4 py-6">
+      <main className="flex-1 max-w-2xl mx-auto w-full px-4 py-6 pb-28">
         <div
           key={currentIndex}
-          className={`transition-all duration-350 ${
+          className={`${
             slideDir === 'in'
               ? 'animate-in fade-in slide-in-from-right-8 duration-350'
-              : slideDir === 'out-left'
-              ? 'animate-out fade-out slide-out-to-left-8 duration-350'
-              : 'animate-out fade-out slide-out-to-right-8 duration-350'
+              : 'animate-out fade-out slide-out-to-left-8 duration-350'
           }`}
         >
           <ExerciseRenderer
@@ -329,10 +386,9 @@ function UnitPreviewContent() {
         </div>
       </main>
 
-      {/* Inline feedback bar */}
       {feedback !== 'idle' && (
         <div
-          className={`fixed bottom-0 left-0 right-0 z-50 transition-all duration-300 animate-in slide-in-from-bottom-4 ${
+          className={`fixed bottom-0 left-0 right-0 z-50 animate-in slide-in-from-bottom-4 duration-300 ${
             feedback === 'correct'
               ? 'bg-gradient-to-r from-green-500 to-emerald-500'
               : 'bg-gradient-to-r from-red-500 to-rose-500'
@@ -352,7 +408,7 @@ function UnitPreviewContent() {
             </div>
             <div className="ml-auto">
               {feedback === 'correct'
-                ? <span className="bg-white/20 text-white font-black px-4 py-2 rounded-full text-sm">+10 XP</span>
+                ? <span className="bg-white/20 text-white font-black px-4 py-2 rounded-full text-sm">+{xpGained} XP</span>
                 : <div className="flex gap-1">{Array.from({ length: 3 }).map((_, i) => <Heart key={i} className={`w-5 h-5 ${i < lives ? 'fill-white text-white' : 'fill-white/30 text-white/30'}`} />)}</div>
               }
             </div>
@@ -360,7 +416,6 @@ function UnitPreviewContent() {
         </div>
       )}
 
-      {/* Streak burst overlay */}
       {streakBurstCount !== null && (
         <StreakBurst
           consecutiveCount={streakBurstCount}

@@ -115,17 +115,22 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
   };
 
   return (
-    <div className="w-full max-w-4xl mx-auto p-6 bg-white rounded-3xl shadow-lg border border-slate-200">
-      <div className="mb-8">
-        <h2 className="text-2xl font-black text-slate-900">
+    <div className="w-full max-w-4xl mx-auto space-y-6">
+      <div>
+        <h2 className="text-2xl md:text-3xl font-black text-slate-900 mb-1">
           <TranslatedText text={content.title || 'Une las parejas'} />
         </h2>
-        <div className="text-slate-600">
-          <Markdown content={content.instructions || 'Une cada elemento de la izquierda con su correspondiente a la derecha.'} vocabulary={vocabulary} />
+        <div className="flex items-center gap-3">
+          <div className="text-slate-500 text-sm font-medium flex-1">
+            <Markdown content={content.instructions || 'Une cada elemento de la izquierda con su correspondiente a la derecha.'} vocabulary={vocabulary} />
+          </div>
+          <span className="text-xs font-black text-slate-400 tabular-nums whitespace-nowrap">
+            {Object.keys(matches).length} / {content.pairs.length}
+          </span>
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-8 mb-8">
+      <div className="grid grid-cols-2 gap-4">
         {/* Left Column */}
         <div className="space-y-3">
           {leftItems.map((item) => {
@@ -148,13 +153,13 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
                     handleLeftClick(item);
                   }
                 }}
-                className={`w-full p-4 rounded-xl border-2 font-bold text-lg transition-all text-left cursor-pointer ${
+                className={`w-full p-4 rounded-2xl border-2 font-bold text-base md:text-lg transition-all text-left cursor-pointer select-none active:scale-[0.98] ${
                   isSelected 
-                    ? 'border-orange-500 bg-orange-50 text-orange-700' 
+                    ? 'border-[#FF6B6B] bg-orange-50 text-[#FF6B6B] shadow-md shadow-orange-100 scale-[1.01]' 
                     : isMatched
-                      ? 'border-blue-200 bg-blue-50 text-blue-700'
-                      : 'border-slate-100 bg-slate-50 hover:border-slate-300 text-slate-700'
-                } ${isCorrectMatch ? 'border-green-500 bg-green-50' : ''} ${isIncorrectMatch ? 'border-red-500 bg-red-50' : ''} ${submitted ? 'cursor-default' : ''}`}
+                      ? 'border-blue-300 bg-blue-50 text-blue-700 shadow-sm'
+                      : 'border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:shadow-sm'
+                } ${isCorrectMatch ? '!border-green-400 !bg-green-50 !text-green-700' : ''} ${isIncorrectMatch ? '!border-red-400 !bg-red-50 !text-red-700' : ''} ${submitted ? 'cursor-default' : ''}`}
               >
                 <Markdown content={item} vocabulary={vocabulary} />
               </div>
@@ -185,13 +190,13 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
                     handleRightClick(item);
                   }
                 }}
-                className={`w-full p-4 rounded-xl border-2 font-bold text-lg transition-all text-left flex items-center justify-between cursor-pointer ${
+                className={`w-full p-4 rounded-2xl border-2 font-bold text-base md:text-lg transition-all text-left flex items-center justify-between cursor-pointer select-none active:scale-[0.98] ${
                   isSelected 
-                    ? 'border-orange-500 bg-orange-50 text-orange-700' 
+                    ? 'border-[#FF6B6B] bg-orange-50 text-[#FF6B6B] shadow-md shadow-orange-100 scale-[1.01]' 
                     : isMatched
-                      ? 'border-blue-200 bg-blue-50 text-blue-700'
-                      : 'border-slate-100 bg-slate-50 hover:border-slate-300 text-slate-700'
-                } ${isCorrectMatch ? 'border-green-500 bg-green-50' : ''} ${isIncorrectMatch ? 'border-red-500 bg-red-50' : ''} ${submitted ? 'cursor-default' : ''}`}
+                      ? 'border-blue-300 bg-blue-50 text-blue-700 shadow-sm'
+                      : 'border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:shadow-sm'
+                } ${isCorrectMatch ? '!border-green-400 !bg-green-50 !text-green-700' : ''} ${isIncorrectMatch ? '!border-red-400 !bg-red-50 !text-red-700' : ''} ${submitted ? 'cursor-default' : ''}`}
               >
                 <Markdown content={item} vocabulary={vocabulary} />
                 {(() => {
@@ -232,7 +237,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
           <button
             onClick={handleCheck}
             disabled={Object.keys(matches).length === 0}
-            className="flex-1 bg-orange-500 text-white px-6 py-4 rounded-2xl font-black hover:bg-orange-600 transition-all shadow-lg shadow-orange-200 flex items-center justify-center gap-2 disabled:opacity-50"
+            className="flex-1 bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white px-6 py-4 rounded-2xl font-black hover:-translate-y-0.5 transition-all shadow-lg shadow-orange-200 flex items-center justify-center gap-2 disabled:opacity-40 disabled:cursor-not-allowed disabled:translate-y-0"
           >
             Comprobar
           </button>
