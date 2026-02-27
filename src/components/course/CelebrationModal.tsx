@@ -6,9 +6,31 @@ interface CelebrationModalProps {
   show: boolean;
   score: number;
   onClose: () => void;
+  language?: 'es' | 'en';
 }
 
-export default function CelebrationModal({ show, score, onClose }: CelebrationModalProps) {
+const MESSAGES = {
+  en: {
+    outstanding: { emoji: '🎉', title: 'Outstanding!', message: 'You crushed it!' },
+    excellent: { emoji: '🌟', title: 'Excellent!', message: 'Great work!' },
+    wellDone: { emoji: '👏', title: 'Well Done!', message: 'Keep it up!' },
+    goodJob: { emoji: '👍', title: 'Good Job!', message: 'You did well!' },
+    keepTrying: { emoji: '💪', title: 'Keep Practicing!', message: 'You can do better!' },
+    button: 'Continue Learning →',
+    scoreLabel: 'Your Score',
+  },
+  es: {
+    outstanding: { emoji: '🎉', title: '¡Sobresaliente!', message: '¡Lo has bordado!' },
+    excellent: { emoji: '🌟', title: '¡Excelente!', message: '¡Buen trabajo!' },
+    wellDone: { emoji: '👏', title: '¡Muy bien!', message: '¡Sigue así!' },
+    goodJob: { emoji: '👍', title: '¡Buen trabajo!', message: '¡Lo has hecho bien!' },
+    keepTrying: { emoji: '💪', title: '¡Sigue practicando!', message: 'Puedes hacerlo mejor.' },
+    button: 'Continuar aprendiendo →',
+    scoreLabel: 'Tu puntuación',
+  },
+};
+
+export default function CelebrationModal({ show, score, onClose, language = 'en' }: CelebrationModalProps) {
   const [confetti, setConfetti] = useState<Array<{ id: number; left: number; delay: number; duration: number }>>([]);
   
   useEffect(() => {
@@ -50,12 +72,14 @@ export default function CelebrationModal({ show, score, onClose }: CelebrationMo
 
   if (!show) return null;
 
+  const msgs = MESSAGES[language ?? 'en'];
+
   const getMessage = () => {
-    if (score >= 90) return { emoji: '🎉', title: 'Outstanding!', message: 'You crushed it!' };
-    if (score >= 80) return { emoji: '🌟', title: 'Excellent!', message: 'Great work!' };
-    if (score >= 70) return { emoji: '👏', title: 'Well Done!', message: 'Keep it up!' };
-    if (score >= 60) return { emoji: '👍', title: 'Good Job!', message: 'You did well!' };
-    return { emoji: '💪', title: 'Keep Practicing!', message: 'You can do better!' };
+    if (score >= 90) return msgs.outstanding;
+    if (score >= 80) return msgs.excellent;
+    if (score >= 70) return msgs.wellDone;
+    if (score >= 60) return msgs.goodJob;
+    return msgs.keepTrying;
   };
 
   const { emoji, title, message } = getMessage();
@@ -87,7 +111,7 @@ export default function CelebrationModal({ show, score, onClose }: CelebrationMo
           <div className="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-red-600">
             {Math.round(score)}%
           </div>
-          <div className="text-sm font-bold text-slate-700 mt-1">Your Score</div>
+          <div className="text-sm font-bold text-slate-700 mt-1">{msgs.scoreLabel}</div>
         </div>
 
         {/* Progress Ring */}
@@ -125,7 +149,7 @@ export default function CelebrationModal({ show, score, onClose }: CelebrationMo
           onClick={onClose}
           className="w-full px-8 py-4 bg-gradient-to-r from-orange-600 to-red-600 text-white rounded-2xl font-black text-lg hover:from-orange-700 hover:to-red-700 transition-all shadow-xl hover:shadow-2xl hover:scale-105"
         >
-          Continue Learning →
+          {msgs.button}
         </button>
       </div>
 

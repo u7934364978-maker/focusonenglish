@@ -2,9 +2,14 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { CheckCircle2, Play, Target, Clock, Trophy } from "lucide-react";
+import { CheckCircle2, Target, Clock, Trophy, List, Map } from "lucide-react";
 import { Module } from "@/lib/exercise-types";
 import { premiumCourseService } from "@/lib/services/premium-course-service";
+import { supabase } from "@/lib/supabase/client";
+import NextActionCard from "@/components/course/NextActionCard";
+import StreakRiskBanner from "@/components/gamification/StreakRiskBanner";
+import CourseWelcomeScreen from "@/components/course/CourseWelcomeScreen";
+import CourseRoadmap from "@/components/course/CourseRoadmap";
 
 interface CourseCurriculumProps {
   goal: string;
@@ -21,6 +26,11 @@ export default function CourseCurriculum({
 }: CourseCurriculumProps) {
   const [completedIds, setCompletedIds] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
+  const [streakDays, setStreakDays] = useState(0);
+  const [showStreakRisk, setShowStreakRisk] = useState(false);
+  const [srsReviewCount, setSrsReviewCount] = useState(0);
+  const [showWelcome, setShowWelcome] = useState(false);
+  const [viewMode, setViewMode] = useState<'list' | 'map'>('list');
 
   useEffect(() => {
     async function loadProgress() {
@@ -28,12 +38,55 @@ export default function CourseCurriculum({
         setLoading(false);
         return;
       }
-      const progress = await premiumCourseService.getProgress(userId, level as any);
+
+      const [progress] = await Promise.all([
+        premiumCourseService.getProgress(userId, level as any),
+      ]);
       setCompletedIds(progress);
+
+      const allInteractionIds = modules.flatMap(m =>
+        m.lessons.flatMap(l => (l.exercises || []).map(ex => ex.id))
+      );
+      if (allInteractionIds.length > 0) {
+        const srsData = await premiumCourseService.getSRSPerformance(userId, allInteractionIds);
+        const now = new Date();
+        const reviewCount = srsData.filter(item => new Date(item.next_review_at) <= now).length;
+        setSrsReviewCount(reviewCount);
+      }
+
+      if (supabase) {
+        const { data: streakData } = await supabase
+          .from('user_streaks')
+          .select('current_streak, last_activity_date')
+          .eq('user_id', userId)
+          .single();
+
+        if (streakData && streakData.current_streak > 0) {
+          const today = new Date().toISOString().split('T')[0];
+          const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+          if (streakData.last_activity_date === yesterday && streakData.last_activity_date !== today) {
+            const alreadyDismissed =
+              typeof window !== 'undefined' &&
+              sessionStorage.getItem('streak_risk_dismissed') === 'true';
+            if (!alreadyDismissed) {
+              setStreakDays(streakData.current_streak);
+              setShowStreakRisk(true);
+            }
+          }
+        }
+      }
+
       setLoading(false);
     }
     loadProgress();
-  }, [userId, level]);
+
+    if (typeof window !== 'undefined') {
+      const welcomeKey = `course_welcome_${level}_shown`;
+      if (!localStorage.getItem(welcomeKey)) {
+        setShowWelcome(true);
+      }
+    }
+  }, [userId, level, modules]);
 
   const completedSet = new Set(completedIds);
 
@@ -54,6 +107,11 @@ export default function CourseCurriculum({
     ? Math.round((completedExercises / totalExercises) * 100) 
     : 0;
 
+  const allLessons = modules.flatMap(m => m.lessons);
+  const firstLesson = allLessons[0] ?? null;
+  const nextLessonHref = firstLesson ? `/practice/${firstLesson.id}` : '/practica';
+  const lessonsCount = allLessons.length;
+
   if (loading) {
     return (
       <div className="flex justify-center py-12">
@@ -63,7 +121,21 @@ export default function CourseCurriculum({
   }
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <div>
+      {showWelcome && firstLesson && (
+        <CourseWelcomeScreen
+          courseId={level}
+          userId={userId}
+          modulesCount={modules.length}
+          lessonsCount={lessonsCount}
+          firstLessonId={firstLesson.id}
+          onDismiss={() => setShowWelcome(false)}
+        />
+      )}
+      {showStreakRisk && (
+        <StreakRiskBanner streakDays={streakDays} nextLessonHref={nextLessonHref} />
+      )}
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-4">
       {/* Main Stats and Units Card */}
       <div className="lg:col-span-2 space-y-12">
         <div className="bg-white p-8 rounded-3xl shadow-xl border border-slate-100 overflow-hidden relative">
@@ -108,8 +180,40 @@ export default function CourseCurriculum({
           </div>
         </div>
 
+        {/* View mode toggle */}
+        <div className="flex items-center justify-between mb-2">
+          <h3 className="text-lg font-black text-slate-700">Contenido del Curso</h3>
+          <div className="flex items-center gap-1 bg-slate-100 p-1 rounded-xl">
+            <button
+              onClick={() => setViewMode('list')}
+              aria-label="Vista en lista"
+              className={`p-2 rounded-lg transition-colors ${viewMode === 'list' ? 'bg-white shadow text-slate-900' : 'text-slate-400 hover:text-slate-600'}`}
+            >
+              <List size={16} />
+            </button>
+            <button
+              onClick={() => setViewMode('map')}
+              aria-label="Vista en mapa"
+              className={`p-2 rounded-lg transition-colors ${viewMode === 'map' ? 'bg-white shadow text-slate-900' : 'text-slate-400 hover:text-slate-600'}`}
+            >
+              <Map size={16} />
+            </button>
+          </div>
+        </div>
+
+        {/* Map view */}
+        {viewMode === 'map' && (
+          <div className="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm">
+            <CourseRoadmap
+              modules={modules}
+              completedIds={completedSet}
+              currentLessonId={null}
+            />
+          </div>
+        )}
+
         {/* Modules and Lessons */}
-        {modules.map((module, mIdx) => (
+        {viewMode === 'list' && modules.map((module, mIdx) => (
           <div key={module.id} className="space-y-6">
             <div className="flex items-center gap-4">
               <div className="bg-[#FF6B6B] text-white w-10 h-10 rounded-xl flex items-center justify-center font-black shadow-lg">
@@ -178,24 +282,13 @@ export default function CourseCurriculum({
 
       {/* Sidebar / Info */}
       <div className="space-y-6">
-        <div className="bg-[#1A237E] p-8 rounded-3xl shadow-2xl text-white relative overflow-hidden group mb-6">
-          <div className="absolute -right-20 -bottom-20 w-80 h-80 bg-white/10 rounded-full blur-3xl group-hover:scale-110 transition-transform duration-700" />
-          
-          <div className="relative z-10">
-            <h3 className="text-2xl font-black mb-4">Práctica Inteligente</h3>
-            <p className="text-blue-100 text-sm mb-6">
-              Practica los contenidos de este curso con nuestro tutor de IA.
-            </p>
-            
-            <Link 
-              href="/practica"
-              className="flex items-center justify-center gap-3 bg-[#FF6B6B] hover:bg-[#ff5252] text-white px-6 py-4 rounded-xl font-black text-lg shadow-lg hover:shadow-coral-500/20 hover:-translate-y-1 transition-all"
-            >
-              <Play fill="currentColor" size={20} />
-              ¡EMPEZAR!
-            </Link>
-          </div>
-        </div>
+        <NextActionCard
+          userId={userId}
+          level={level}
+          modules={modules}
+          completedIds={completedSet}
+          srsReviewCount={srsReviewCount}
+        />
 
         <div className="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm">
           <h4 className="text-lg font-black text-slate-900 mb-4 flex items-center gap-2">
@@ -218,6 +311,7 @@ export default function CourseCurriculum({
           </ul>
         </div>
       </div>
+    </div>
     </div>
   );
 }

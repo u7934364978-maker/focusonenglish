@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -13,31 +13,19 @@ import QuizActivity from './activities/QuizActivity';
 import EmailTaskActivity from './activities/EmailTaskActivity';
 import RoleplayActivity from './activities/RoleplayActivity';
 import ReactMarkdown from 'react-markdown';
+import { useWeekProgress } from '@/hooks/useWeekProgress';
 
 interface WeeklyCourseViewerProps {
   weekData: any;
+  userId?: string;
 }
 
-export default function WeeklyCourseViewer({ weekData }: WeeklyCourseViewerProps) {
+export default function WeeklyCourseViewer({ weekData, userId }: WeeklyCourseViewerProps) {
   const { week, assets, templates, itemBank } = weekData;
   const [activeDayId, setActiveDayId] = useState(week.days[0].id);
   const [activeActivityId, setActiveActivityId] = useState<string | null>(null);
-  const [completedActivities, setCompletedActivities] = useState<string[]>([]);
 
-  // Load progress from localStorage
-  useEffect(() => {
-    const saved = localStorage.getItem(`course_progress_${week.id}`);
-    if (saved) {
-      setCompletedActivities(JSON.parse(saved));
-    }
-  }, [week.id]);
-
-  // Save progress to localStorage
-  useEffect(() => {
-    if (completedActivities.length > 0) {
-      localStorage.setItem(`course_progress_${week.id}`, JSON.stringify(completedActivities));
-    }
-  }, [completedActivities, week.id]);
+  const { completedActivities, markComplete } = useWeekProgress(week.id, userId ?? null);
 
   const getActivityIcon = (type: string) => {
     switch (type) {
@@ -83,7 +71,7 @@ export default function WeeklyCourseViewer({ weekData }: WeeklyCourseViewerProps
 
     const onComplete = () => {
       if (activeActivityId && !completedActivities.includes(activeActivityId)) {
-        setCompletedActivities(prev => [...prev, activeActivityId]);
+        markComplete(activeActivityId);
       }
       setActiveActivityId(null);
     };
