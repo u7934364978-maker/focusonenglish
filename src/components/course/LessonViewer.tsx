@@ -11,6 +11,7 @@ import PronunciationPractice from '@/components/course/PronunciationPractice';
 import EnhancedFeedback from '@/components/course/EnhancedFeedback';
 import SentenceBuilder from '@/components/course/SentenceBuilder';
 import CelebrationModal from '@/components/course/CelebrationModal';
+import RepairModeBanner from '@/components/course/RepairModeBanner';
 import SpeakingPart1 from '@/components/course/SpeakingPart1';
 import SpeakingPart2 from '@/components/course/SpeakingPart2';
 import SpeakingPart3 from '@/components/course/SpeakingPart3';
@@ -88,6 +89,8 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
   const [audioCurrentTime, setAudioCurrentTime] = useState(0);
   const audioRef = useRef<HTMLAudioElement>(null);
   
+  const [failCount, setFailCount] = useState(0);
+
   // Gamification hooks
   const gamification = useGamification();
   const [showXPGain, setShowXPGain] = useState(false);
@@ -113,6 +116,16 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       setProcessedSlides(lesson.theorySlides || []);
     }
   }, [lesson.videoUrl, lesson.theorySlides]);
+
+  useEffect(() => {
+    if (showFeedback) {
+      if (currentScore >= 60) {
+        setFailCount(0);
+      } else {
+        setFailCount(prev => prev + 1);
+      }
+    }
+  }, [showFeedback, currentScore]);
 
   const currentExercise = lesson.exercises.length > 0 ? lesson.exercises[currentExerciseIndex] : null;
   const progress = lesson.exercises.length > 0 ? ((currentExerciseIndex + 1) / lesson.exercises.length) * 100 : 0;
@@ -3498,6 +3511,11 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
           </div>
         )}
 
+        {/* Repair Mode Banner */}
+        {failCount >= 2 && (
+          <RepairModeBanner remainingCount={lesson.exercises.length - currentExerciseIndex} />
+        )}
+
         {/* Enhanced Header with Visual Stats */}
         <div className="bg-gradient-to-br from-white to-orange-50 dark:from-slate-800 dark:to-slate-800/50 rounded-2xl shadow-2xl p-8 mb-6 border-2 border-orange-200 dark:border-slate-700">
           <div className="flex items-center justify-between mb-6">
@@ -3545,7 +3563,7 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
             </div>
             <div className="w-full bg-slate-200 rounded-full h-4 shadow-inner overflow-hidden">
               <div
-                className="bg-gradient-to-r from-orange-500 via-amber-500 to-red-500 h-4 rounded-full transition-all duration-500 shadow-lg relative"
+                className={`${failCount >= 2 ? 'bg-amber-500' : 'bg-gradient-to-r from-orange-500 via-amber-500 to-red-500'} h-4 rounded-full transition-all duration-500 shadow-lg relative`}
                 style={{ width: `${progress}%` }}
               >
                 <div className="absolute inset-0 bg-white/20 rounded-full animate-pulse"></div>
@@ -3807,7 +3825,8 @@ export default function LessonViewer({ lesson, onComplete }: LessonViewerProps) 
       <CelebrationModal 
         show={showCelebration} 
         score={currentScore} 
-        onClose={() => setShowCelebration(false)} 
+        onClose={() => setShowCelebration(false)}
+        language={lessonLevel.toLowerCase().startsWith('a') ? 'es' : 'en'}
       />
     </div>
   );

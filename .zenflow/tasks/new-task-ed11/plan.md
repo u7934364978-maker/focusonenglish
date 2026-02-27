@@ -47,7 +47,8 @@ Save to `{@artifacts_path}/spec.md` with:
 
 Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 
-### [ ] Step: Phase 1 — Quick Wins (F5 RepairModeBanner + F6 CelebrationModal i18n)
+### [x] Step: Phase 1 — Quick Wins (F5 RepairModeBanner + F6 CelebrationModal i18n)
+<!-- chat-id: f570d1fa-386a-4f32-a50a-9b27e6bc48bc -->
 
 Implement the two lowest-risk, highest-value features that have no external data dependencies.
 
