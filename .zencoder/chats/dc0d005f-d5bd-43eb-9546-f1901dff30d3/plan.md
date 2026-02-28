@@ -38,4 +38,5 @@ Do not make assumptions on important decisions — get clarification first.
 - [x] Apply the fix to `src/components/course/Markdown.tsx`.
 - [x] Verify the fix visually (by code inspection and ensured z-index).
 - [x] Final type check and code cleanup.
+- [x] Fix Vercel build by removing `.bak` files.
 - [x] Push changes.
