@@ -20,7 +20,7 @@ function VocabularyTooltip({ word, definition, children, position = 'top' }: { w
   const isBottom = position === 'bottom';
   
   return (
-    <span className="group relative inline-block border-b-2 border-dotted border-indigo-500 cursor-help">
+    <span className="group relative inline-block border-b-2 border-dotted border-indigo-500 cursor-help hover:z-[110]">
       <span className="text-indigo-700 dark:text-indigo-400 font-bold">{children}</span>
       <span className={[
         "absolute left-1/2 -translate-x-1/2 w-48 p-3 bg-slate-900 dark:bg-slate-800 text-white text-xs rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity pointer-events-none z-50 shadow-2xl border border-slate-700",

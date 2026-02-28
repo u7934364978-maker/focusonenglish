@@ -7,6 +7,8 @@ import type {
   ListeningExercise,
   DictationExercise,
   MatchingExercise,
+  FillBlanksExercise,
+  ReorderExercise,
   ReadingQuestion,
   WordSearchExercise as WordSearchType,
   CrosswordExercise as CrosswordType,
@@ -166,7 +168,7 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
         splitText.forEach((t, i) => {
           if (t.toLowerCase() === v.word.toLowerCase()) {
             newParts.push(
-              <span key={`${v.word}-${i}`} className="group relative inline-block border-b-2 border-dotted border-indigo-500 cursor-help">
+              <span key={`${v.word}-${i}`} className="group relative inline-block border-b-2 border-dotted border-indigo-500 cursor-help hover:z-[110]">
                 <span className="text-indigo-700 font-bold">{t}</span>
                 <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 p-3 bg-slate-900 text-white text-xs rounded-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50 shadow-2xl border border-slate-700">
                   <span className="block font-black text-indigo-400 mb-1 uppercase tracking-widest">{v.word}</span>
@@ -521,7 +523,7 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
       <div className="space-y-4">
         {fex.instructions && <p className="text-sm font-bold text-slate-500 uppercase tracking-tight">{fex.instructions}</p>}
         <div className="leading-loose text-slate-800 font-medium">
-          {parts.map((part, i) => (
+          {parts.map((part: string, i: number) => (
             <span key={i}>
               {part}
               {i < parts.length - 1 && (
@@ -543,7 +545,7 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
                     }`}
                   >
                     <option value="">...</option>
-                    {fex.choices![i].map((choice, cIdx) => (
+                    {fex.choices![i].map((choice: string, cIdx: number) => (
                       <option key={cIdx} value={choice}>{choice}</option>
                     ))}
                   </select>

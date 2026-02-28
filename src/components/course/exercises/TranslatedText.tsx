@@ -119,7 +119,7 @@ interface TooltipProps {
 }
 
 const Tooltip: React.FC<TooltipProps> = ({ word, translation, useStrong }) => (
-  <span className="group relative inline-block border-b-2 border-dotted border-indigo-300 hover:border-indigo-500 cursor-help mx-0.5 transition-all duration-200">
+  <span className="group relative inline-block border-b-2 border-dotted border-indigo-300 hover:border-indigo-500 cursor-help mx-0.5 transition-all duration-200 hover:z-[110]">
     <span className={useStrong ? "font-bold text-indigo-700 dark:text-indigo-400" : "text-indigo-600 dark:text-indigo-400 font-medium"}>
       {word}
     </span>

@@ -946,7 +946,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "topic": "Narrative Synthesis",
     "topicName": "Narrative Synthesis",
     "audioUrl": "audio/a1/unit-3/A1_U3_L3_2.mp3",
-    "type": "reorder",
+    "type": "sentence-reordering",
     "content": {
       "title": "Sarah's Question",
       "instructions": "[[Unscramble the question.|Ordena la pregunta.]]",
@@ -960,12 +960,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "topic": "Narrative Synthesis",
     "topicName": "Narrative Synthesis",
     "audioUrl": "audio/a1/unit-3/A1_U3_L3_3.mp3",
-    "type": "fill-blanks",
+    "type": "fill-blank",
     "content": {
       "title": "Mateo's Response",
       "instructions": "[[Complete the answer.|Completa la respuesta.]]",
       "text": "[[Yes,|Sí,]] [[I|yo]] [[________|lo soy]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Madrid|Madrid]].",
-      "answers": ["am"]
+      "options": ["am", "is"],
+      "correctAnswer": 0
     }
   },
   {
@@ -997,7 +998,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "topic": "Narrative Synthesis",
     "topicName": "Narrative Synthesis",
     "audioUrl": "audio/a1/unit-3/A1_U3_L3_5.mp3",
-    "type": "reorder",
+    "type": "sentence-reordering",
     "content": {
       "title": "Mateo's Request",
       "instructions": "[[Unscramble the question.|Ordena la pregunta.]]",
@@ -1011,12 +1012,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "topic": "Narrative Synthesis",
     "topicName": "Narrative Synthesis",
     "audioUrl": "audio/a1/unit-3/A1_U3_L3_6.mp3",
-    "type": "fill-blanks",
+    "type": "fill-blank",
     "content": {
       "title": "Sarah's Answer",
       "instructions": "[[Complete the response.|Completa la respuesta.]]",
       "text": "[[Yes,|Sí,]] [[it|ello]] [[________|lo está]]. [[Are|¿Estás]] [[you|tú]] [[hungry|hambriento]]?",
-      "answers": ["is"]
+      "options": ["is", "are"],
+      "correctAnswer": 0
     }
   },
   {
@@ -1048,7 +1050,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "topic": "Narrative Synthesis",
     "topicName": "Narrative Synthesis",
     "audioUrl": "audio/a1/unit-3/A1_U3_L3_8.mp3",
-    "type": "reorder",
+    "type": "sentence-reordering",
     "content": {
       "title": "Sarah's Information",
       "instructions": "[[Unscramble the sentence.|Ordena la frase.]]",
@@ -1103,7 +1105,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "topic": "Narrative Synthesis",
     "topicName": "Narrative Synthesis",
     "audioUrl": "audio/a1/unit-3/A1_U3_L3_11.mp3",
-    "type": "reorder",
+    "type": "sentence-reordering",
     "content": {
       "title": "Mateo's Room",
       "instructions": "[[Unscramble the question.|Ordena la pregunta.]]",
@@ -1117,12 +1119,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "topic": "Narrative Synthesis",
     "topicName": "Narrative Synthesis",
     "audioUrl": "audio/a1/unit-3/A1_U3_L3_12.mp3",
-    "type": "fill-blanks",
+    "type": "fill-blank",
     "content": {
       "title": "Sarah's Guarantee",
       "instructions": "[[Complete the sentence.|Completa la frase.]]",
       "text": "[[Yes,|Sí,]] [[they|ellas]] [[________|lo son]]. [[They|Ellas]] [[are|son]] [[very|muy]] [[good|buenas]].",
-      "answers": ["are"]
+      "options": ["are", "is"],
+      "correctAnswer": 0
     }
   },
   {
@@ -1154,7 +1157,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "topic": "Narrative Synthesis",
     "topicName": "Narrative Synthesis",
     "audioUrl": "audio/a1/unit-3/A1_U3_L3_14.mp3",
-    "type": "reorder",
+    "type": "sentence-reordering",
     "content": {
       "title": "Mateo's Friends",
       "instructions": "[[Unscramble the question.|Ordena la pregunta.]]",
@@ -1168,12 +1171,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "topic": "Narrative Synthesis",
     "topicName": "Narrative Synthesis",
     "audioUrl": "audio/a1/unit-3/A1_U3_L3_15.mp3",
-    "type": "fill-blanks",
+    "type": "fill-blank",
     "content": {
       "title": "Sarah's Response",
       "instructions": "[[Complete the answer.|Completa la respuesta.]]",
       "text": "[[No,|No,]] [[they|ellos]] [[________|no lo están]]. [[They|Ellos]] [[are|están]] [[at|en]] [[the|el]] [[airport|aeropuerto]].",
-      "answers": ["aren't"]
+      "options": ["aren't", "isn't"],
+      "correctAnswer": 0
     }
   },
   {
@@ -1205,7 +1209,7 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "topic": "Narrative Synthesis",
     "topicName": "Narrative Synthesis",
     "audioUrl": "audio/a1/unit-3/A1_U3_L3_17.mp3",
-    "type": "reorder",
+    "type": "sentence-reordering",
     "content": {
       "title": "Mateo's Nationality",
       "instructions": "[[Unscramble the question.|Ordena la pregunta.]]",
@@ -1219,12 +1223,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "topic": "Narrative Synthesis",
     "topicName": "Narrative Synthesis",
     "audioUrl": "audio/a1/unit-3/A1_U3_L3_18.mp3",
-    "type": "fill-blanks",
+    "type": "fill-blank",
     "content": {
       "title": "Sarah's Confirmation",
       "instructions": "[[Complete the response.|Completa la respuesta.]]",
       "text": "[[Yes,|Sí,]] [[he|él]] [[________|lo es]]. [[He|Él]] [[is|es]] [[from|de]] [[Madrid|Madrid]].",
-      "answers": ["is"]
+      "options": ["is", "am"],
+      "correctAnswer": 0
     }
   },
   {
@@ -1256,12 +1261,13 @@ export const UNIT_3_EXERCISES: Exercise[] = [
     "topic": "Narrative Synthesis",
     "topicName": "Narrative Synthesis",
     "audioUrl": "audio/a1/unit-3/A1_U3_L3_20.mp3",
-    "type": "fill-blanks",
+    "type": "fill-blank",
     "content": {
       "title": "Final Check",
       "instructions": "[[Complete the dialogue.|Completa el diálogo.]]",
       "text": "[[Sarah:|Sarah:]] [[Are|¿Estás]] [[you|tú]] [[happy|feliz]]? [[Mateo:|Mateo:]] [[Yes,|Sí,]] [[I|yo]] [[________|lo estoy]].",
-      "answers": ["am"]
+      "options": ["am", "are"],
+      "correctAnswer": 0
     }
   }
 ];

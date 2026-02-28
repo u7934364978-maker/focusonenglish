@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 4
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 4
+          "actualWorkers": 1
         },
         "id": "chromium",
         "name": "chromium",
@@ -36,7 +36,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 4
+          "actualWorkers": 1
         },
         "id": "firefox",
         "name": "firefox",
@@ -52,7 +52,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 4
+          "actualWorkers": 1
         },
         "id": "webkit",
         "name": "webkit",
@@ -68,7 +68,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 4
+          "actualWorkers": 1
         },
         "id": "Mobile Chrome",
         "name": "Mobile Chrome",
@@ -84,7 +84,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 4
+          "actualWorkers": 1
         },
         "id": "Mobile Safari",
         "name": "Mobile Safari",
@@ -128,20 +128,20 @@
   },
   "suites": [
     {
-      "title": "pronunciation-verification.spec.ts",
-      "file": "pronunciation-verification.spec.ts",
+      "title": "fill-blank-options.spec.ts",
+      "file": "fill-blank-options.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Pronunciation Exercise Verification",
-          "file": "pronunciation-verification.spec.ts",
+          "title": "Fill Blank with Options Verification",
+          "file": "fill-blank-options.spec.ts",
           "line": 3,
           "column": 6,
           "specs": [
             {
-              "title": "should render pronunciation exercise with recording button and target text",
+              "title": "should render clickable buttons for fill-blank exercises with options in Unit 1",
               "ok": false,
               "tags": [],
               "tests": [
@@ -156,293 +156,61 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 7636,
+                      "duration": 6873,
                       "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('The kitchen is very bright.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('The kitchen is very bright.')\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('The kitchen is very bright.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('The kitchen is very bright.')\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/pronunciation-verification.spec.ts:26:32",
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h2')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('h2')\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h2')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('h2')\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/fill-blank-options.spec.ts:9:38",
                         "location": {
-                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/pronunciation-verification.spec.ts",
-                          "column": 32,
-                          "line": 26
+                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/fill-blank-options.spec.ts",
+                          "column": 38,
+                          "line": 9
                         },
-                        "snippet": "  24 |     // For Task 8 it's \"The kitchen is very bright.\"\n  25 |     const expectedText = page.getByText('The kitchen is very bright.');\n> 26 |     await expect(expectedText).toBeVisible();\n     |                                ^\n  27 |     \n  28 |     // Check for \"Escuchar Modelo\" button\n  29 |     const listenModelButton = page.getByText('Escuchar Modelo');"
+                        "snippet": "   7 |     \n   8 |     // Wait for the exercise to load\n>  9 |     await expect(page.locator('h2')).toBeVisible();\n     |                                      ^\n  10 |\n  11 |     // The first exercises are multiple-choice. We need to find a fill-blank one.\n  12 |     // In unit-1.ts, a1-u1-e7 is the first fill-blank with options (morning/afternoon)"
                       },
                       "errors": [
                         {
                           "location": {
-                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/pronunciation-verification.spec.ts",
-                            "column": 32,
-                            "line": 26
+                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/fill-blank-options.spec.ts",
+                            "column": 38,
+                            "line": 9
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('The kitchen is very bright.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('The kitchen is very bright.')\u001b[22m\n\n\n  24 |     // For Task 8 it's \"The kitchen is very bright.\"\n  25 |     const expectedText = page.getByText('The kitchen is very bright.');\n> 26 |     await expect(expectedText).toBeVisible();\n     |                                ^\n  27 |     \n  28 |     // Check for \"Escuchar Modelo\" button\n  29 |     const listenModelButton = page.getByText('Escuchar Modelo');\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/pronunciation-verification.spec.ts:26:32"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h2')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('h2')\u001b[22m\n\n\n   7 |     \n   8 |     // Wait for the exercise to load\n>  9 |     await expect(page.locator('h2')).toBeVisible();\n     |                                      ^\n  10 |\n  11 |     // The first exercises are multiple-choice. We need to find a fill-blank one.\n  12 |     // In unit-1.ts, a1-u1-e7 is the first fill-blank with options (morning/afternoon)\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/fill-blank-options.spec.ts:9:38"
                         }
                       ],
-                      "stdout": [
-                        {
-                          "text": "BROWSER LOG: Failed to load resource: the server responded with a status of 404 (Not Found)\n"
-                        },
-                        {
-                          "text": "BROWSER LOG: Refused to execute script from 'http://localhost:5436/_next/static/chunks/main-app.js?v=1772027442799' because its MIME type ('text/plain') is not executable, and strict MIME type checking is enabled.\n"
-                        },
-                        {
-                          "text": "BROWSER LOG: Failed to load resource: the server responded with a status of 404 (Not Found)\n"
-                        },
-                        {
-                          "text": "BROWSER LOG: Refused to execute script from 'http://localhost:5436/_next/static/chunks/app-pages-internals.js' because its MIME type ('text/plain') is not executable, and strict MIME type checking is enabled.\n"
-                        },
-                        {
-                          "text": "BROWSER LOG: Failed to load resource: the server responded with a status of 404 (Not Found)\n"
-                        }
-                      ],
+                      "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-25T13:50:41.243Z",
+                      "startTime": "2026-02-28T12:09:42.687Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/pronunciation-verification-b3ac3-ding-button-and-target-text-chromium/test-failed-1.png"
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/fill-blank-options-Fill-Bl-e1973-ises-with-options-in-Unit-1-chromium/test-failed-1.png"
                         },
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/pronunciation-verification-b3ac3-ding-button-and-target-text-chromium/video.webm"
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/fill-blank-options-Fill-Bl-e1973-ises-with-options-in-Unit-1-chromium/video.webm"
                         },
                         {
                           "name": "error-context",
                           "contentType": "text/markdown",
-                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/pronunciation-verification-b3ac3-ding-button-and-target-text-chromium/error-context.md"
+                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/fill-blank-options-Fill-Bl-e1973-ises-with-options-in-Unit-1-chromium/error-context.md"
                         }
                       ],
                       "errorLocation": {
-                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/pronunciation-verification.spec.ts",
-                        "column": 32,
-                        "line": 26
+                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/fill-blank-options.spec.ts",
+                        "column": 38,
+                        "line": 9
                       }
                     }
                   ],
                   "status": "unexpected"
                 }
               ],
-              "id": "34dc7b2ff7f3de2dc8ff-7387a6dea4382cd7e2b8",
-              "file": "pronunciation-verification.spec.ts",
-              "line": 4,
-              "column": 7
-            },
-            {
-              "title": "should render pronunciation exercise with recording button and target text",
-              "ok": false,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 120000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "firefox",
-                  "projectName": "firefox",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "parallelIndex": 1,
-                      "status": "failed",
-                      "duration": 3,
-                      "error": {
-                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
-                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/firefox-1509/firefox/Nightly.app/Contents/MacOS/firefox\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-02-25T13:50:41.232Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "unexpected"
-                }
-              ],
-              "id": "34dc7b2ff7f3de2dc8ff-62e68e08191684885883",
-              "file": "pronunciation-verification.spec.ts",
-              "line": 4,
-              "column": 7
-            },
-            {
-              "title": "should render pronunciation exercise with recording button and target text",
-              "ok": false,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 120000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "webkit",
-                  "projectName": "webkit",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "parallelIndex": 2,
-                      "status": "failed",
-                      "duration": 3,
-                      "error": {
-                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
-                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-02-25T13:50:41.247Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "unexpected"
-                }
-              ],
-              "id": "34dc7b2ff7f3de2dc8ff-275e098e8b3f3cc7ccdb",
-              "file": "pronunciation-verification.spec.ts",
-              "line": 4,
-              "column": 7
-            },
-            {
-              "title": "should render pronunciation exercise with recording button and target text",
-              "ok": false,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 120000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "Mobile Chrome",
-                  "projectName": "Mobile Chrome",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "parallelIndex": 3,
-                      "status": "failed",
-                      "duration": 7602,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('The kitchen is very bright.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('The kitchen is very bright.')\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('The kitchen is very bright.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('The kitchen is very bright.')\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/pronunciation-verification.spec.ts:26:32",
-                        "location": {
-                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/pronunciation-verification.spec.ts",
-                          "column": 32,
-                          "line": 26
-                        },
-                        "snippet": "  24 |     // For Task 8 it's \"The kitchen is very bright.\"\n  25 |     const expectedText = page.getByText('The kitchen is very bright.');\n> 26 |     await expect(expectedText).toBeVisible();\n     |                                ^\n  27 |     \n  28 |     // Check for \"Escuchar Modelo\" button\n  29 |     const listenModelButton = page.getByText('Escuchar Modelo');"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/pronunciation-verification.spec.ts",
-                            "column": 32,
-                            "line": 26
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByText('The kitchen is very bright.')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByText('The kitchen is very bright.')\u001b[22m\n\n\n  24 |     // For Task 8 it's \"The kitchen is very bright.\"\n  25 |     const expectedText = page.getByText('The kitchen is very bright.');\n> 26 |     await expect(expectedText).toBeVisible();\n     |                                ^\n  27 |     \n  28 |     // Check for \"Escuchar Modelo\" button\n  29 |     const listenModelButton = page.getByText('Escuchar Modelo');\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/pronunciation-verification.spec.ts:26:32"
-                        }
-                      ],
-                      "stdout": [
-                        {
-                          "text": "BROWSER LOG: Failed to load resource: the server responded with a status of 404 (Not Found)\n"
-                        },
-                        {
-                          "text": "BROWSER LOG: Refused to execute script from 'http://localhost:5436/_next/static/chunks/main-app.js?v=1772027442800' because its MIME type ('text/plain') is not executable, and strict MIME type checking is enabled.\n"
-                        },
-                        {
-                          "text": "BROWSER LOG: Failed to load resource: the server responded with a status of 404 (Not Found)\n"
-                        },
-                        {
-                          "text": "BROWSER LOG: Refused to execute script from 'http://localhost:5436/_next/static/chunks/app-pages-internals.js' because its MIME type ('text/plain') is not executable, and strict MIME type checking is enabled.\n"
-                        },
-                        {
-                          "text": "BROWSER LOG: Failed to load resource: the server responded with a status of 404 (Not Found)\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-02-25T13:50:41.241Z",
-                      "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/pronunciation-verification-b3ac3-ding-button-and-target-text-Mobile-Chrome/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/pronunciation-verification-b3ac3-ding-button-and-target-text-Mobile-Chrome/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/pronunciation-verification-b3ac3-ding-button-and-target-text-Mobile-Chrome/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/pronunciation-verification.spec.ts",
-                        "column": 32,
-                        "line": 26
-                      }
-                    }
-                  ],
-                  "status": "unexpected"
-                }
-              ],
-              "id": "34dc7b2ff7f3de2dc8ff-ee0ce2d859ba96382699",
-              "file": "pronunciation-verification.spec.ts",
-              "line": 4,
-              "column": 7
-            },
-            {
-              "title": "should render pronunciation exercise with recording button and target text",
-              "ok": false,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 120000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "Mobile Safari",
-                  "projectName": "Mobile Safari",
-                  "results": [
-                    {
-                      "workerIndex": 4,
-                      "parallelIndex": 1,
-                      "status": "failed",
-                      "duration": 3,
-                      "error": {
-                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
-                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
-                      },
-                      "errors": [
-                        {
-                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/lidia/Library/Caches/ms-playwright/webkit-2248/pw_run.sh\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
-                        }
-                      ],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-02-25T13:50:41.953Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "unexpected"
-                }
-              ],
-              "id": "34dc7b2ff7f3de2dc8ff-65dced7189370abc93f7",
-              "file": "pronunciation-verification.spec.ts",
+              "id": "8a9ce1683bf2f0c02ac4-6fc1dbc95a057ebc17c1",
+              "file": "fill-blank-options.spec.ts",
               "line": 4,
               "column": 7
             }
@@ -453,11 +221,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-25T13:50:40.108Z",
-    "duration": 9451.833,
+    "startTime": "2026-02-28T12:09:42.074Z",
+    "duration": 8456.056,
     "expected": 0,
     "skipped": 0,
-    "unexpected": 5,
+    "unexpected": 1,
     "flaky": 0
   }
 }

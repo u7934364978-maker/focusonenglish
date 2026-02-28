@@ -48,7 +48,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
   const [matchingSelections, setMatchingSelections] = useState<{left?: string, right?: string}>({});
   const [matchingPairs, setMatchingPairs] = useState<Record<string, string>>({});
   const [categorizedItems, setCategorizedItems] = useState<Record<string, string>>({});
-  const [inputValues, setInputValues] = useState<Record<number, string>>({});
+  const [inputValues, setInputValues] = useState<Record<string, string>>({});
   const [shuffledRight, setShuffledRight] = useState<any[]>([]);
   const [shuffledOptions, setShuffledOptions] = useState<any[]>([]);
   const [selectedCategorizationItem, setSelectedCategorizationItem] = useState<string | null>(null);
@@ -758,7 +758,7 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
                 modelAudioUrl: interaction.audioUrl || interaction.audio_url || (interaction.targetSentences?.[0]?.audioUrl),
                 hints: interaction.evaluationCriteria || []
               }}
-              level={unitData.level || "A1"}
+              level={unitData.course?.level || "A1"}
               onComplete={(evalResult) => {
                 handleCheckAnswer(evalResult.overallScore >= 70);
               }}
@@ -2018,11 +2018,13 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
            <motion.div 
              whileHover={{ scale: 1.05 }}
              whileActive={{ scale: 0.95 }}
-             onClick={() => playAudio(scene.audioUrl, scene.tts_en || scene.dialogue_en)}
+             onClick={() => { playAudio(scene.audioUrl, scene.tts_en || scene.dialogue_en); }}
              className="w-48 h-48 bg-indigo-600 rounded-[2.5rem] flex items-center justify-center cursor-pointer shadow-2xl shadow-indigo-200 group relative"
            >
-             <div className="absolute inset-0 bg-indigo-400 rounded-[2.5rem] animate-ping opacity-20 group-hover:opacity-40 transition-opacity" />
-             <Play className="w-24 h-24 text-white fill-white ml-2 relative z-10" />
+             <>
+               <div className="absolute inset-0 bg-indigo-400 rounded-[2.5rem] animate-ping opacity-20 group-hover:opacity-40 transition-opacity" />
+               <Play className="w-24 h-24 text-white fill-white ml-2 relative z-10" />
+             </>
            </motion.div>
 
            <div className="space-y-6 text-center">
