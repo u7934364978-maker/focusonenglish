@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { CheckCircle, XCircle, ArrowRight, Zap, BookOpen, AlignLeft, ToggleLeft, List, Edit3 } from 'lucide-react';
+import { CheckCircle, XCircle, ArrowRight, Zap, BookOpen, AlignLeft, ToggleLeft, List, Edit3, Info } from 'lucide-react';
 import type { Exercise } from '@/lib/exercise-generator';
 import SpeakingExercise from './SpeakingExercise';
 import EnhancedSpeakingExercise from './EnhancedSpeakingExercise';
@@ -220,8 +220,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         )}
 
         {/* Question text */}
-        <div className="relative pl-4 border-l-4 border-[#FF6B6B]/40 rounded-r-sm">
-          <p className="text-[10px] font-black uppercase tracking-[0.15em] text-[#FF6B6B]/60 mb-1.5">
+        <div className="relative pl-4 border-l-4 border-[#FF6B6B]/70 rounded-r-sm mt-2">
+          <p className="text-xs font-black uppercase tracking-[0.15em] text-[#FF6B6B]/70 mb-1.5">
             <TranslatedText text="[[Question|Pregunta]]" />
           </p>
           <div className="text-2xl md:text-3xl text-slate-900 font-black leading-tight tracking-tight">
@@ -296,8 +296,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                         : showAsIncorrect
                         ? 'border-red-400 bg-red-50'
                         : isUserAnswer
-                        ? 'border-[#FF6B6B] bg-orange-50 shadow-md shadow-orange-100 scale-[1.01]'
-                        : 'border-slate-100 bg-white hover:border-slate-300 hover:bg-slate-50 hover:scale-[1.005]'
+                        ? 'border-[#FF6B6B] bg-orange-50 shadow-md shadow-orange-100 scale-[1.01] ring-2 ring-[#FF6B6B]/30'
+                        : 'border-slate-100 bg-white hover:border-slate-300 hover:bg-slate-50 hover:shadow-md hover:scale-[1.005]'
                     } disabled:cursor-not-allowed`}
                   >
                     <div className="flex items-center gap-3">
@@ -312,7 +312,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                       }`}>
                         {showAsCorrect ? <CheckCircle size={18} /> : showAsIncorrect ? <XCircle size={18} /> : letter}
                       </div>
-                      <span className={`text-base md:text-lg font-semibold flex-1 leading-snug tracking-tight ${
+                      <span className={`text-base md:text-lg font-bold flex-1 leading-snug tracking-tight ${
                         showAsCorrect ? 'text-green-800' : showAsIncorrect ? 'text-red-800' : isUserAnswer ? 'text-slate-900' : 'text-slate-700'
                       }`}>
                         <TranslatedText text={typeof option === 'string' ? option : option.text} />
@@ -358,24 +358,32 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
         {/* Explanation (only shown after submitting) */}
         {submitted && evaluation && q.explanation && (
-          <div className="flex gap-3 p-4 bg-amber-50 border border-amber-200 rounded-2xl animate-in fade-in slide-in-from-bottom-2 duration-300">
-            <span className="text-lg flex-shrink-0">💡</span>
+          <div className="flex gap-3 p-4 bg-blue-50 border border-blue-200 rounded-2xl animate-in fade-in slide-in-from-bottom-2 duration-300">
+            <Info size={20} className="text-blue-500 flex-shrink-0 mt-0.5" />
             <div>
-              <p className="text-xs font-black uppercase tracking-wider text-amber-700 mb-1">
+              <p className="text-xs font-black uppercase tracking-wider text-blue-700 mb-1">
                 <TranslatedText text="[[Explanation|Explicación]]" />
               </p>
-              <div className="text-sm text-amber-900 leading-relaxed">
+              <div className="text-base text-blue-900 leading-relaxed">
                 <Markdown content={q.explanation} vocabulary={vocabulary} />
               </div>
             </div>
           </div>
         )}
 
-        {/* Correct answer hint when wrong */}
+        {/* Feedback messages after submission */}
+        {submitted && evaluation && evaluation.isCorrect && (
+          <div className="flex gap-3 p-4 bg-green-50 border border-green-200 rounded-2xl animate-in fade-in slide-in-from-bottom-2 duration-300">
+            <CheckCircle size={20} className="text-green-500 flex-shrink-0 mt-0.5" />
+            <div className="text-base text-green-800 leading-relaxed font-semibold">
+              <Markdown content={evaluation.feedback} vocabulary={vocabulary} />
+            </div>
+          </div>
+        )}
         {submitted && evaluation && !evaluation.isCorrect && (
           <div className="flex gap-3 p-4 bg-red-50 border border-red-100 rounded-2xl animate-in fade-in slide-in-from-bottom-2 duration-300">
-            <span className="text-lg flex-shrink-0">❌</span>
-            <div className="text-sm text-red-800 leading-relaxed">
+            <XCircle size={20} className="text-red-500 flex-shrink-0 mt-0.5" />
+            <div className="text-base text-red-800 leading-relaxed">
               <Markdown content={evaluation.feedback} vocabulary={vocabulary} />
             </div>
           </div>
@@ -492,13 +500,13 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         {/* Exercise title + type pill */}
         <div>
           <div className="flex items-center gap-2 mb-3">
-            <div className="flex items-center gap-1.5 bg-[#FF6B6B]/10 text-[#FF6B6B] px-3 py-1 rounded-full text-xs font-bold border border-[#FF6B6B]/20">
-              <TypeIcon size={12} />
+            <div className="flex items-center gap-1.5 bg-[#FF6B6B]/15 text-[#FF6B6B] px-3.5 py-1.5 rounded-full text-sm font-bold border border-[#FF6B6B]/30">
+              <TypeIcon size={14} />
               <span>{typeInfo.label}</span>
             </div>
           </div>
-          <div className="relative pl-4 border-l-4 border-[#FF6B6B]/40 rounded-r-sm">
-            <p className="text-[10px] font-black uppercase tracking-[0.15em] text-[#FF6B6B]/60 mb-1.5">
+          <div className="relative pl-4 border-l-4 border-[#FF6B6B]/70 rounded-r-sm">
+            <p className="text-xs font-black uppercase tracking-[0.15em] text-[#FF6B6B]/70 mb-1.5">
               <TranslatedText text="[[Exercise|Ejercicio]]" />
             </p>
             <h2 className="text-2xl md:text-3xl font-black text-slate-900 leading-tight tracking-tight">
@@ -506,9 +514,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             </h2>
           </div>
           {exerciseContent.instructions && (
-            <div className="mt-4 flex gap-2.5 p-3.5 bg-slate-50 border border-slate-100 rounded-2xl">
-              <span className="text-base flex-shrink-0 mt-0.5">💬</span>
-              <div className="text-slate-600 text-sm font-medium leading-relaxed">
+            <div className="mt-4 flex gap-2.5 p-3.5 bg-[#FF6B6B]/5 border border-[#FF6B6B]/15 border-l-4 border-l-[#FF6B6B]/60 rounded-2xl">
+              <Info size={18} className="text-[#FF6B6B]/70 flex-shrink-0 mt-0.5" />
+              <div className="text-slate-700 text-base font-semibold leading-relaxed">
                 <Markdown content={exerciseContent.instructions} />
               </div>
             </div>
@@ -526,12 +534,15 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         {/* Reading text */}
         {isReadingExercise && showReadingText ? (
           <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
-            <div className="relative p-6 bg-white rounded-2xl border border-slate-100 shadow-sm">
-              <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-[#FF6B6B] to-[#ff9a3c] rounded-l-2xl" />
-              <p className="text-[10px] font-black uppercase tracking-[0.15em] text-[#FF6B6B]/60 mb-3 pl-1">
-                📖 Texto
-              </p>
-              <div className="text-slate-800 text-[17px] leading-[1.75] font-normal pl-1">
+            <div className="relative p-6 bg-amber-50/30 rounded-2xl border border-slate-100 shadow-sm">
+              <div className="absolute top-0 left-0 w-1.5 h-full bg-gradient-to-b from-[#FF6B6B] to-[#ff9a3c] rounded-l-2xl" />
+              <div className="flex items-center gap-2 mb-3 pl-1">
+                <BookOpen size={16} className="text-[#FF6B6B]/70" />
+                <p className="text-xs font-black uppercase tracking-[0.15em] text-[#FF6B6B]/70">
+                  <TranslatedText text="[[Reading|Lectura]]" />
+                </p>
+              </div>
+              <div className="text-slate-800 text-[18px] leading-[1.85] font-normal pl-1">
                 <Markdown content={(exerciseContent.text || exercise.transcript)!} />
               </div>
             </div>

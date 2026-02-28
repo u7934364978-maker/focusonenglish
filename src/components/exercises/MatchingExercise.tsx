@@ -133,7 +133,10 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
       <div className="grid grid-cols-2 gap-4">
         {/* Left Column */}
         <div className="space-y-3">
-          {leftItems.map((item) => {
+          <p className="text-xs font-black uppercase tracking-widest text-slate-400 text-center pb-1 border-b border-slate-100">
+            <TranslatedText text="[[English|Inglés]]" />
+          </p>
+          {leftItems.map((item, idx) => {
             const isMatched = !!matches[item];
             const isSelected = selectedLeft === item;
             
@@ -153,14 +156,15 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
                     handleLeftClick(item);
                   }
                 }}
-                className={`w-full p-4 rounded-2xl border-2 font-bold text-base md:text-lg transition-all text-left cursor-pointer select-none active:scale-[0.98] ${
+                className={`w-full p-4 rounded-2xl border-2 font-bold text-lg md:text-xl transition-all text-left cursor-pointer select-none active:scale-[0.98] flex items-center gap-2 ${
                   isSelected 
-                    ? 'border-[#FF6B6B] bg-orange-50 text-[#FF6B6B] shadow-md shadow-orange-100 scale-[1.01]' 
+                    ? 'border-[#FF6B6B] bg-orange-50 text-[#FF6B6B] shadow-md shadow-orange-200 scale-[1.03]' 
                     : isMatched
-                      ? 'border-blue-300 bg-blue-50 text-blue-700 shadow-sm'
+                      ? 'border-blue-400 bg-blue-50/80 text-blue-800 shadow-sm'
                       : 'border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:shadow-sm'
                 } ${isCorrectMatch ? '!border-green-400 !bg-green-50 !text-green-700' : ''} ${isIncorrectMatch ? '!border-red-400 !bg-red-50 !text-red-700' : ''} ${submitted ? 'cursor-default' : ''}`}
               >
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-slate-100 text-slate-500 text-xs font-black flex items-center justify-center">{idx + 1}</span>
                 <Markdown content={item} vocabulary={vocabulary} />
               </div>
             );
@@ -169,7 +173,10 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
 
         {/* Right Column */}
         <div className="space-y-3">
-          {rightItems.map((item) => {
+          <p className="text-xs font-black uppercase tracking-widest text-slate-400 text-center pb-1 border-b border-slate-100">
+            <TranslatedText text="[[Spanish|Español]]" />
+          </p>
+          {rightItems.map((item, idx) => {
             const matchedLeft = Object.keys(matches).find(left => matches[left] === item);
             const isMatched = !!matchedLeft;
             const isSelected = selectedRight === item;
@@ -190,14 +197,15 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
                     handleRightClick(item);
                   }
                 }}
-                className={`w-full p-4 rounded-2xl border-2 font-bold text-base md:text-lg transition-all text-left flex items-center justify-between cursor-pointer select-none active:scale-[0.98] ${
+                className={`w-full p-4 rounded-2xl border-2 font-bold text-lg md:text-xl transition-all text-left flex items-center justify-between cursor-pointer select-none active:scale-[0.98] gap-2 ${
                   isSelected 
-                    ? 'border-[#FF6B6B] bg-orange-50 text-[#FF6B6B] shadow-md shadow-orange-100 scale-[1.01]' 
+                    ? 'border-[#FF6B6B] bg-orange-50 text-[#FF6B6B] shadow-md shadow-orange-200 scale-[1.03]' 
                     : isMatched
-                      ? 'border-blue-300 bg-blue-50 text-blue-700 shadow-sm'
+                      ? 'border-blue-400 bg-blue-50/80 text-blue-800 shadow-sm'
                       : 'border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:shadow-sm'
                 } ${isCorrectMatch ? '!border-green-400 !bg-green-50 !text-green-700' : ''} ${isIncorrectMatch ? '!border-red-400 !bg-red-50 !text-red-700' : ''} ${submitted ? 'cursor-default' : ''}`}
               >
+                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-slate-100 text-slate-500 text-xs font-black flex items-center justify-center">{idx + 1}</span>
                 <Markdown content={item} vocabulary={vocabulary} />
                 {(() => {
                   const pair = content.pairs.find(p => ((p as any).right || (p as any).back) === item);
