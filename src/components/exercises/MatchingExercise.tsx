@@ -116,24 +116,29 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
 
   return (
     <div className="w-full max-w-4xl mx-auto space-y-6">
-      <div>
-        <h2 className="text-2xl md:text-3xl font-black text-slate-900 mb-1">
-          <TranslatedText text={content.title || 'Une las parejas'} />
-        </h2>
-        <div className="flex items-center gap-3">
-          <div className="text-slate-500 text-sm font-medium flex-1">
+      <div className="space-y-3">
+        <div className="relative pl-4 border-l-4 border-[#FF6B6B]/70 rounded-r-sm">
+          <p className="text-xs font-black uppercase tracking-[0.15em] text-[#FF6B6B]/70 mb-1.5">
+            <TranslatedText text="[[Matching|Relacionar]]" />
+          </p>
+          <h2 className="text-2xl md:text-3xl font-black text-slate-900 leading-tight tracking-tight">
+            <TranslatedText text={content.title || 'Une las parejas'} />
+          </h2>
+        </div>
+        <div className="flex items-center gap-3 bg-[#FF6B6B]/5 border border-[#FF6B6B]/15 border-l-4 border-l-[#FF6B6B]/60 rounded-2xl px-4 py-2.5">
+          <div className="text-slate-700 text-sm font-semibold flex-1">
             <Markdown content={content.instructions || 'Une cada elemento de la izquierda con su correspondiente a la derecha.'} vocabulary={vocabulary} />
           </div>
-          <span className="text-xs font-black text-slate-400 tabular-nums whitespace-nowrap">
+          <span className="text-sm font-black text-[#FF6B6B]/70 tabular-nums whitespace-nowrap bg-white border border-[#FF6B6B]/20 rounded-xl px-2.5 py-1">
             {Object.keys(matches).length} / {content.pairs.length}
           </span>
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 gap-3">
         {/* Left Column */}
         <div className="space-y-3">
-          <p className="text-xs font-black uppercase tracking-widest text-slate-400 text-center pb-1 border-b border-slate-100">
+          <p className="text-[11px] font-black uppercase tracking-[0.18em] text-[#FF6B6B]/60 text-center pb-2">
             <TranslatedText text="[[English|Inglés]]" />
           </p>
           {leftItems.map((item, idx) => {
@@ -152,20 +157,18 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
                 key={item}
                 onClick={() => handleLeftClick(item)}
                 onKeyDown={(e) => {
-                  if (e.key === 'Enter' || e.key === ' ') {
-                    handleLeftClick(item);
-                  }
+                  if (e.key === 'Enter' || e.key === ' ') handleLeftClick(item);
                 }}
-                className={`w-full p-4 rounded-2xl border-2 font-bold text-lg md:text-xl transition-all text-left cursor-pointer select-none active:scale-[0.98] flex items-center gap-2 ${
-                  isSelected 
-                    ? 'border-[#FF6B6B] bg-orange-50 text-[#FF6B6B] shadow-md shadow-orange-200 scale-[1.03]' 
+                className={`relative w-full min-h-[68px] px-4 py-3 rounded-2xl border-2 font-bold text-base md:text-lg transition-all duration-200 text-center cursor-pointer select-none active:scale-[0.97] flex items-center justify-center ${
+                  isSelected
+                    ? 'border-[#FF6B6B] bg-[#FF6B6B]/8 text-[#FF6B6B] shadow-lg shadow-[#FF6B6B]/15 scale-[1.03]'
                     : isMatched
-                      ? 'border-blue-400 bg-blue-50/80 text-blue-800 shadow-sm'
-                      : 'border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:shadow-sm'
-                } ${isCorrectMatch ? '!border-green-400 !bg-green-50 !text-green-700' : ''} ${isIncorrectMatch ? '!border-red-400 !bg-red-50 !text-red-700' : ''} ${submitted ? 'cursor-default' : ''}`}
+                      ? 'border-blue-400 bg-blue-50 text-blue-800 shadow-sm'
+                      : 'border-slate-200 bg-white text-slate-800 hover:border-[#FF6B6B]/40 hover:shadow-md hover:bg-[#FF6B6B]/3'
+                } ${isCorrectMatch ? '!border-green-400 !bg-green-50 !text-green-700' : ''} ${isIncorrectMatch ? '!border-red-300 !bg-red-50 !text-red-700' : ''} ${submitted ? 'cursor-default' : ''}`}
               >
-                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-slate-100 text-slate-500 text-xs font-black flex items-center justify-center">{idx + 1}</span>
-                <Markdown content={item} vocabulary={vocabulary} />
+                <span className="absolute top-2 left-2.5 text-[10px] font-black text-slate-300">{idx + 1}</span>
+                <span className="leading-snug"><Markdown content={item} vocabulary={vocabulary} /></span>
               </div>
             );
           })}
@@ -173,7 +176,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
 
         {/* Right Column */}
         <div className="space-y-3">
-          <p className="text-xs font-black uppercase tracking-widest text-slate-400 text-center pb-1 border-b border-slate-100">
+          <p className="text-[11px] font-black uppercase tracking-[0.18em] text-[#FF6B6B]/60 text-center pb-2">
             <TranslatedText text="[[Spanish|Español]]" />
           </p>
           {rightItems.map((item, idx) => {
@@ -186,6 +189,8 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
             const isCorrectMatch = submitted && isMatched && item === expectedRight;
             const isIncorrectMatch = submitted && isMatched && item !== expectedRight;
 
+            const pair = content.pairs.find(p => ((p as any).right || (p as any).back) === item);
+
             return (
               <div
                 role="button"
@@ -193,47 +198,39 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
                 key={item}
                 onClick={() => handleRightClick(item)}
                 onKeyDown={(e) => {
-                  if (e.key === 'Enter' || e.key === ' ') {
-                    handleRightClick(item);
-                  }
+                  if (e.key === 'Enter' || e.key === ' ') handleRightClick(item);
                 }}
-                className={`w-full p-4 rounded-2xl border-2 font-bold text-lg md:text-xl transition-all text-left flex items-center justify-between cursor-pointer select-none active:scale-[0.98] gap-2 ${
-                  isSelected 
-                    ? 'border-[#FF6B6B] bg-orange-50 text-[#FF6B6B] shadow-md shadow-orange-200 scale-[1.03]' 
+                className={`relative w-full min-h-[68px] px-4 py-3 rounded-2xl border-2 font-bold text-base md:text-lg transition-all duration-200 text-center cursor-pointer select-none active:scale-[0.97] flex items-center justify-center ${
+                  isSelected
+                    ? 'border-[#FF6B6B] bg-[#FF6B6B]/8 text-[#FF6B6B] shadow-lg shadow-[#FF6B6B]/15 scale-[1.03]'
                     : isMatched
-                      ? 'border-blue-400 bg-blue-50/80 text-blue-800 shadow-sm'
-                      : 'border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:shadow-sm'
-                } ${isCorrectMatch ? '!border-green-400 !bg-green-50 !text-green-700' : ''} ${isIncorrectMatch ? '!border-red-400 !bg-red-50 !text-red-700' : ''} ${submitted ? 'cursor-default' : ''}`}
+                      ? 'border-blue-400 bg-blue-50 text-blue-800 shadow-sm'
+                      : 'border-slate-200 bg-white text-slate-800 hover:border-[#FF6B6B]/40 hover:shadow-md hover:bg-[#FF6B6B]/3'
+                } ${isCorrectMatch ? '!border-green-400 !bg-green-50 !text-green-700' : ''} ${isIncorrectMatch ? '!border-red-300 !bg-red-50 !text-red-700' : ''} ${submitted ? 'cursor-default' : ''}`}
               >
-                <span className="flex-shrink-0 w-6 h-6 rounded-full bg-slate-100 text-slate-500 text-xs font-black flex items-center justify-center">{idx + 1}</span>
-                <Markdown content={item} vocabulary={vocabulary} />
-                {(() => {
-                  const pair = content.pairs.find(p => ((p as any).right || (p as any).back) === item);
-                  if (pair?.audio) {
-                    return (
-                      <div
-                        role="button"
-                        tabIndex={0}
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          const audio = new Audio(pair.audio);
-                          audio.play().catch(err => console.error('Error playing audio:', err));
-                        }}
-                        onKeyDown={(e) => {
-                          if (e.key === 'Enter' || e.key === ' ') {
-                            e.stopPropagation();
-                            const audio = new Audio(pair.audio);
-                            audio.play().catch(err => console.error('Error playing audio:', err));
-                          }
-                        }}
-                        className="p-2 bg-orange-100 text-orange-600 rounded-full hover:bg-orange-200 transition-all transform hover:scale-110 active:scale-95 ml-2 cursor-pointer"
-                      >
-                        <Volume2 className="w-4 h-4" />
-                      </div>
-                    );
-                  }
-                  return null;
-                })()}
+                <span className="absolute top-2 left-2.5 text-[10px] font-black text-slate-300">{idx + 1}</span>
+                <span className="leading-snug flex-1"><Markdown content={item} vocabulary={vocabulary} /></span>
+                {pair?.audio && (
+                  <div
+                    role="button"
+                    tabIndex={0}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      const audio = new Audio(pair.audio);
+                      audio.play().catch(err => console.error('Error playing audio:', err));
+                    }}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' || e.key === ' ') {
+                        e.stopPropagation();
+                        const audio = new Audio(pair.audio);
+                        audio.play().catch(err => console.error('Error playing audio:', err));
+                      }
+                    }}
+                    className="absolute top-2 right-2 p-1.5 bg-[#FF6B6B]/10 text-[#FF6B6B] rounded-full hover:bg-[#FF6B6B]/20 transition-all cursor-pointer"
+                  >
+                    <Volume2 className="w-3 h-3" />
+                  </div>
+                )}
               </div>
             );
           })}
