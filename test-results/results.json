@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 2
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 2
         },
         "id": "chromium",
         "name": "chromium",
@@ -36,7 +36,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 2
         },
         "id": "firefox",
         "name": "firefox",
@@ -52,7 +52,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 2
         },
         "id": "webkit",
         "name": "webkit",
@@ -68,7 +68,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 2
         },
         "id": "Mobile Chrome",
         "name": "Mobile Chrome",
@@ -84,7 +84,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 2
         },
         "id": "Mobile Safari",
         "name": "Mobile Safari",
@@ -128,21 +128,21 @@
   },
   "suites": [
     {
-      "title": "fill-blank-options.spec.ts",
-      "file": "fill-blank-options.spec.ts",
+      "title": "exercise-typography.spec.ts",
+      "file": "exercise-typography.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Fill Blank with Options Verification",
-          "file": "fill-blank-options.spec.ts",
+          "title": "Exercise Typography",
+          "file": "exercise-typography.spec.ts",
           "line": 3,
           "column": 6,
           "specs": [
             {
-              "title": "should render clickable buttons for fill-blank exercises with options in Unit 1",
-              "ok": false,
+              "title": "should have legible font weight and tracking in global headings",
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -155,63 +155,61 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 6873,
-                      "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h2')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('h2')\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h2')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('h2')\u001b[22m\n\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/fill-blank-options.spec.ts:9:38",
-                        "location": {
-                          "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/fill-blank-options.spec.ts",
-                          "column": 38,
-                          "line": 9
-                        },
-                        "snippet": "   7 |     \n   8 |     // Wait for the exercise to load\n>  9 |     await expect(page.locator('h2')).toBeVisible();\n     |                                      ^\n  10 |\n  11 |     // The first exercises are multiple-choice. We need to find a fill-blank one.\n  12 |     // In unit-1.ts, a1-u1-e7 is the first fill-blank with options (morning/afternoon)"
-                      },
-                      "errors": [
+                      "status": "passed",
+                      "duration": 9760,
+                      "errors": [],
+                      "stdout": [
                         {
-                          "location": {
-                            "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/fill-blank-options.spec.ts",
-                            "column": 38,
-                            "line": 9
-                          },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h2')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('h2')\u001b[22m\n\n\n   7 |     \n   8 |     // Wait for the exercise to load\n>  9 |     await expect(page.locator('h2')).toBeVisible();\n     |                                      ^\n  10 |\n  11 |     // The first exercises are multiple-choice. We need to find a fill-blank one.\n  12 |     // In unit-1.ts, a1-u1-e7 is the first fill-blank with options (morning/afternoon)\n    at /Users/lidia/Documents/focusonenglish/focusonenglish/e2e/fill-blank-options.spec.ts:9:38"
+                          "text": "H1 Styles: {\n  fontWeight: \u001b[32m'800'\u001b[39m,\n  letterSpacing: \u001b[32m'-1.8px'\u001b[39m,\n  className: \u001b[32m'text-5xl sm:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight text-gray-900'\u001b[39m\n}\n"
                         }
                       ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-28T15:31:44.440Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7f60b9068b42860235c5-ad01ab103bca6ec061c2",
+              "file": "exercise-typography.spec.ts",
+              "line": 4,
+              "column": 7
+            },
+            {
+              "title": "should have consistent font-family alias in globals.css",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 9709,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-02-28T12:09:42.687Z",
+                      "startTime": "2026-02-28T15:31:44.440Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/fill-blank-options-Fill-Bl-e1973-ises-with-options-in-Unit-1-chromium/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/fill-blank-options-Fill-Bl-e1973-ises-with-options-in-Unit-1-chromium/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/lidia/Documents/focusonenglish/focusonenglish/test-results/fill-blank-options-Fill-Bl-e1973-ises-with-options-in-Unit-1-chromium/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/lidia/Documents/focusonenglish/focusonenglish/e2e/fill-blank-options.spec.ts",
-                        "column": 38,
-                        "line": 9
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
-              "id": "8a9ce1683bf2f0c02ac4-6fc1dbc95a057ebc17c1",
-              "file": "fill-blank-options.spec.ts",
-              "line": 4,
+              "id": "7f60b9068b42860235c5-b1566e9bfd78a7dc566d",
+              "file": "exercise-typography.spec.ts",
+              "line": 34,
               "column": 7
             }
           ]
@@ -221,11 +219,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-02-28T12:09:42.074Z",
-    "duration": 8456.056,
-    "expected": 0,
+    "startTime": "2026-02-28T15:31:43.839Z",
+    "duration": 10833.271999999999,
+    "expected": 2,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }

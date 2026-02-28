@@ -251,10 +251,10 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
         {/* Question text */}
         <div className="relative pl-4 border-l-4 border-[#FF6B6B]/70 rounded-r-sm mt-2">
-          <p className="text-xs font-black uppercase tracking-[0.15em] text-[#FF6B6B]/70 mb-1.5">
+          <p className="text-xs font-bold uppercase tracking-[0.15em] text-[#FF6B6B]/70 mb-1.5">
             <TranslatedText text="[[Question|Pregunta]]" />
           </p>
-          <div className="text-2xl md:text-3xl text-slate-900 font-black leading-tight tracking-tight">
+          <div className="text-2xl md:text-3xl text-slate-900 font-extrabold leading-tight tracking-normal">
             <TranslatedText text={q.question || q.text || q.prompt} />
           </div>
         </div>
@@ -565,10 +565,10 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             </div>
           </div>
           <div className={`relative pl-4 border-l-4 ${typeTheme.border} rounded-r-sm`}>
-            <p className="text-xs font-black uppercase tracking-[0.15em] text-slate-400 mb-1.5">
+            <p className="text-xs font-bold uppercase tracking-[0.15em] text-slate-400 mb-1.5">
               <TranslatedText text="[[Exercise|Ejercicio]]" />
             </p>
-            <h2 className="text-2xl md:text-3xl font-black text-slate-900 leading-tight tracking-tight">
+            <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 leading-tight tracking-normal">
               <TranslatedText text={exerciseContent.title || 'Ejercicio'} />
             </h2>
           </div>

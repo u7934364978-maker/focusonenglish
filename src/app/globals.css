@@ -12,6 +12,8 @@
     --color-warning: 251 191 36;
     --color-background: 254 250 244;
     --color-card: 255 255 255;
+    --font-dm-sans: var(--font-nunito);
+    --font-space-grotesk: var(--font-nunito);
   }
   
   body {
@@ -22,11 +24,11 @@
   
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-space-grotesk), 'Nunito', system-ui, sans-serif;
-    @apply font-extrabold tracking-tight;
+    @apply font-bold tracking-normal;
   }
   
   h1 {
-    @apply font-black tracking-tighter;
+    @apply font-extrabold tracking-tight;
   }
   
   p {

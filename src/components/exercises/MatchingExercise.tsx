@@ -118,10 +118,10 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
     <div className="w-full max-w-4xl mx-auto space-y-6">
       <div className="space-y-3">
         <div className="relative pl-4 border-l-4 border-[#FF6B6B]/70 rounded-r-sm">
-          <p className="text-xs font-black uppercase tracking-[0.15em] text-[#FF6B6B]/70 mb-1.5">
+          <p className="text-xs font-extrabold uppercase tracking-[0.15em] text-[#FF6B6B]/70 mb-1.5">
             <TranslatedText text="[[Matching|Relacionar]]" />
           </p>
-          <h2 className="text-2xl md:text-3xl font-black text-slate-900 leading-tight tracking-tight">
+          <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 leading-tight tracking-tight">
             <TranslatedText text={content.title || 'Une las parejas'} />
           </h2>
         </div>
@@ -129,7 +129,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
           <div className="text-slate-700 text-sm font-semibold flex-1">
             <Markdown content={content.instructions || 'Une cada elemento de la izquierda con su correspondiente a la derecha.'} vocabulary={vocabulary} />
           </div>
-          <span className="text-sm font-black text-[#FF6B6B]/70 tabular-nums whitespace-nowrap bg-white border border-[#FF6B6B]/20 rounded-xl px-2.5 py-1">
+          <span className="text-sm font-extrabold text-[#FF6B6B]/70 tabular-nums whitespace-nowrap bg-white border border-[#FF6B6B]/20 rounded-xl px-2.5 py-1">
             {Object.keys(matches).length} / {content.pairs.length}
           </span>
         </div>
@@ -138,7 +138,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
       <div className="grid grid-cols-2 gap-3">
         {/* Left Column */}
         <div className="space-y-3">
-          <p className="text-[11px] font-black uppercase tracking-[0.18em] text-[#FF6B6B]/60 text-center pb-2">
+          <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-[#FF6B6B]/60 text-center pb-2">
             <TranslatedText text="[[English|Inglés]]" />
           </p>
           {leftItems.map((item, idx) => {
@@ -167,7 +167,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
                       : 'border-slate-200 bg-white text-slate-800 hover:border-[#FF6B6B]/40 hover:shadow-md hover:bg-[#FF6B6B]/3'
                 } ${isCorrectMatch ? '!border-green-400 !bg-green-50 !text-green-700' : ''} ${isIncorrectMatch ? '!border-red-300 !bg-red-50 !text-red-700' : ''} ${submitted ? 'cursor-default' : ''}`}
               >
-                <span className="absolute top-2 left-2.5 text-[10px] font-black text-slate-300">{idx + 1}</span>
+                <span className="absolute top-2 left-2.5 text-[10px] font-extrabold text-slate-300">{idx + 1}</span>
                 <span className="leading-snug"><Markdown content={item} vocabulary={vocabulary} /></span>
               </div>
             );
@@ -176,7 +176,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
 
         {/* Right Column */}
         <div className="space-y-3">
-          <p className="text-[11px] font-black uppercase tracking-[0.18em] text-[#FF6B6B]/60 text-center pb-2">
+          <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-[#FF6B6B]/60 text-center pb-2">
             <TranslatedText text="[[Spanish|Español]]" />
           </p>
           {rightItems.map((item, idx) => {
@@ -208,7 +208,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
                       : 'border-slate-200 bg-white text-slate-800 hover:border-[#FF6B6B]/40 hover:shadow-md hover:bg-[#FF6B6B]/3'
                 } ${isCorrectMatch ? '!border-green-400 !bg-green-50 !text-green-700' : ''} ${isIncorrectMatch ? '!border-red-300 !bg-red-50 !text-red-700' : ''} ${submitted ? 'cursor-default' : ''}`}
               >
-                <span className="absolute top-2 left-2.5 text-[10px] font-black text-slate-300">{idx + 1}</span>
+                <span className="absolute top-2 left-2.5 text-[10px] font-extrabold text-slate-300">{idx + 1}</span>
                 <span className="leading-snug flex-1"><Markdown content={item} vocabulary={vocabulary} /></span>
                 {pair?.audio && (
                   <div
@@ -242,7 +242,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
           <button
             onClick={handleCheck}
             disabled={Object.keys(matches).length === 0}
-            className="flex-1 bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white px-6 py-4 rounded-2xl font-black hover:-translate-y-0.5 transition-all shadow-lg shadow-orange-200 flex items-center justify-center gap-2 disabled:opacity-40 disabled:cursor-not-allowed disabled:translate-y-0"
+            className="flex-1 bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white px-6 py-4 rounded-2xl font-extrabold hover:-translate-y-0.5 transition-all shadow-lg shadow-orange-200 flex items-center justify-center gap-2 disabled:opacity-40 disabled:cursor-not-allowed disabled:translate-y-0"
           >
             Comprobar
           </button>
@@ -251,7 +251,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
             {!isCorrect && (
               <button
                 onClick={handleReset}
-                className="flex-1 bg-slate-100 text-slate-600 px-6 py-4 rounded-2xl font-black hover:bg-slate-200 transition-all shadow-sm flex items-center justify-center gap-2 border border-slate-200"
+                className="flex-1 bg-slate-100 text-slate-600 px-6 py-4 rounded-2xl font-extrabold hover:bg-slate-200 transition-all shadow-sm flex items-center justify-center gap-2 border border-slate-200"
               >
                 <RotateCcw className="w-5 h-5" />
                 Intentar de nuevo
@@ -259,7 +259,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
             )}
             <button
               onClick={() => onComplete(isCorrect)}
-              className={`flex-1 text-white px-6 py-4 rounded-2xl font-black transition-all shadow-lg flex items-center justify-center gap-2 ${
+              className={`flex-1 text-white px-6 py-4 rounded-2xl font-extrabold transition-all shadow-lg flex items-center justify-center gap-2 ${
                 isCorrect ? 'bg-green-600 hover:bg-green-700 shadow-green-100' : 'bg-slate-400 hover:bg-slate-500 shadow-slate-100'
               }`}
             >

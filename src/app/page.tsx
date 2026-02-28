@@ -55,7 +55,7 @@ export default function HomePage() {
 
             {/* Main Heading */}
             <div className="text-center mb-12">
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black mb-6 leading-tight text-gray-900">
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight text-gray-900">
                 Domina el Inglés<br />
                 <span className="bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53] bg-clip-text text-transparent">
                   A Tu Propio Ritmo
