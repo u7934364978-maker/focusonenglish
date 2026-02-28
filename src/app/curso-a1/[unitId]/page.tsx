@@ -15,20 +15,27 @@ const MAX_DOTS = 15;
 
 type FeedbackState = 'idle' | 'correct' | 'incorrect';
 
+const CONFETTI_PIECES = Array.from({ length: 24 }, (_, i) => ({
+  left: ((i * 37 + 11) % 100),
+  top: ((i * 13 + 5) % 20 + 5),
+  duration: 0.8 + (i * 17 % 12) / 10,
+  delay: (i * 7 % 5) / 10,
+  rotate: (i * 47) % 360,
+}));
+
 function Confetti() {
-  const pieces = Array.from({ length: 24 });
   const colors = ['bg-[#FF6B6B]', 'bg-yellow-400', 'bg-green-400', 'bg-blue-400', 'bg-purple-400', 'bg-pink-400'];
   return (
     <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden>
-      {pieces.map((_, i) => (
+      {CONFETTI_PIECES.map((p, i) => (
         <div
           key={i}
           className={`absolute w-2 h-3 rounded-sm opacity-0 ${colors[i % colors.length]}`}
           style={{
-            left: `${Math.random() * 100}%`,
-            top: `-${Math.random() * 20 + 5}%`,
-            animation: `confetti-fall ${0.8 + Math.random() * 1.2}s ease-in ${Math.random() * 0.5}s forwards`,
-            transform: `rotate(${Math.random() * 360}deg)`,
+            left: `${p.left}%`,
+            top: `-${p.top}%`,
+            animation: `confetti-fall ${p.duration}s ease-in ${p.delay}s forwards`,
+            transform: `rotate(${p.rotate}deg)`,
           }}
         />
       ))}
