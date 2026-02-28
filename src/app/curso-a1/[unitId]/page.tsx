@@ -6,7 +6,7 @@ import ExerciseRenderer from '@/components/ExerciseRenderer';
 import RepairModeBanner from '@/components/course/RepairModeBanner';
 import StreakBurst from '@/components/gamification/StreakBurst';
 import { useGamification } from '@/lib/hooks/use-gamification';
-import { X, Heart, Zap, Trophy, Flame } from 'lucide-react';
+import { X, Heart, Zap, Trophy, Flame, ChevronLeft, ChevronRight } from 'lucide-react';
 import Link from 'next/link';
 
 const CHUNK_SIZE = 15;
@@ -349,6 +349,24 @@ function UnitPreviewContent() {
                   }`}
                 />
               ))}
+            </div>
+            <div className="flex gap-1 border-l border-slate-100 pl-3 ml-1">
+              <button
+                onClick={() => setCurrentIndex(prev => Math.max(0, prev - 1))}
+                disabled={currentIndex === 0}
+                className="p-1.5 rounded-lg text-slate-400 hover:text-slate-600 hover:bg-slate-100 transition-all disabled:opacity-20 disabled:cursor-not-allowed"
+                aria-label="Ejercicio anterior"
+              >
+                <ChevronLeft className="w-4 h-4" />
+              </button>
+              <button
+                onClick={() => setCurrentIndex(prev => Math.min(exercises.length - 1, prev + 1))}
+                disabled={currentIndex === exercises.length - 1}
+                className="p-1.5 rounded-lg text-slate-400 hover:text-slate-600 hover:bg-slate-100 transition-all disabled:opacity-20 disabled:cursor-not-allowed"
+                aria-label="Ejercicio siguiente"
+              >
+                <ChevronRight className="w-4 h-4" />
+              </button>
             </div>
           </div>
         </div>
