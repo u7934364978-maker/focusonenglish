@@ -62,6 +62,7 @@ function UnitPreviewContent() {
   const [sessionScore, setSessionScore] = useState(0);
   const [xpGained, setXpGained] = useState(0);
   const [showXpPop, setShowXpPop] = useState(false);
+  const [lostLifeAt, setLostLifeAt] = useState<number | null>(null);
 
   const [failCount, setFailCount] = useState(0);
   const [failedIndexes, setFailedIndexes] = useState<number[]>([]);
@@ -156,7 +157,12 @@ function UnitPreviewContent() {
       setConsecutiveCorrect(0);
       setFailCount(prev => prev + 1);
       setFailedIndexes(prev => [...prev, currentIndex]);
-      if (lives > 1) setLives(prev => prev - 1);
+      if (lives > 1) {
+        const newLives = lives - 1;
+        setLives(newLives);
+        setLostLifeAt(newLives);
+        setTimeout(() => setLostLifeAt(null), 600);
+      }
       setFeedback('incorrect');
 
       advanceTimer.current = setTimeout(() => {
@@ -318,15 +324,17 @@ function UnitPreviewContent() {
                 Unidad {unitNumber} · {unitTitle}
               </p>
             )}
-            <div className="h-3 bg-slate-100 rounded-full overflow-hidden">
+            <div className="h-3 bg-slate-100 rounded-full overflow-hidden relative">
               <div
-                className={`h-full rounded-full transition-all duration-700 ease-out ${
+                className={`h-full rounded-full transition-all duration-700 ease-out relative overflow-hidden ${
                   isRepairMode
                     ? 'bg-gradient-to-r from-amber-400 to-amber-500'
                     : 'bg-gradient-to-r from-[#FF6B6B] to-[#ff9a3c]'
                 }`}
                 style={{ width: `${Math.max(progressPct, 4)}%` }}
-              />
+              >
+                <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-[shimmer_2s_ease-in-out_infinite]" />
+              </div>
             </div>
           </div>
 
@@ -335,8 +343,8 @@ function UnitPreviewContent() {
               <Zap className="w-4 h-4 text-yellow-500 fill-yellow-400" />
               <span className="font-black text-slate-700 text-sm tabular-nums">{displayXp}</span>
               {showXpPop && (
-                <span className="absolute -top-6 left-1/2 -translate-x-1/2 text-green-600 font-black text-sm animate-in fade-in slide-in-from-bottom-2 duration-300 pointer-events-none whitespace-nowrap">
-                  +{xpGained} XP
+                <span className="absolute -top-8 left-1/2 -translate-x-1/2 text-green-500 font-black text-base pointer-events-none whitespace-nowrap animate-[xp-fly_0.8s_ease-out_forwards]">
+                  +{xpGained} XP ⚡
                 </span>
               )}
             </div>
@@ -346,7 +354,7 @@ function UnitPreviewContent() {
                   key={i}
                   className={`w-5 h-5 transition-all duration-300 ${
                     i < lives ? 'text-red-500 fill-red-500 scale-100' : 'text-slate-200 fill-slate-200 scale-90'
-                  }`}
+                  } ${lostLifeAt !== null && i === lostLifeAt ? 'animate-[heart-lost_0.5s_ease-out]' : ''}`}
                 />
               ))}
             </div>

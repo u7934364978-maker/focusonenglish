@@ -237,3 +237,20 @@
   80%  { opacity: 1; }
   100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
 }
+
+@keyframes xp-fly {
+  0%   { transform: translateX(-50%) translateY(0); opacity: 1; }
+  60%  { opacity: 1; }
+  100% { transform: translateX(-50%) translateY(-28px); opacity: 0; }
+}
+
+@keyframes shimmer {
+  0%   { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
+}
+
+@keyframes heart-lost {
+  0%   { transform: scale(1.4); opacity: 1; }
+  50%  { transform: scale(0.7); opacity: 0.6; }
+  100% { transform: scale(0.9); opacity: 1; }
+}

@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle, XCircle, ArrowRight, Zap, BookOpen, AlignLeft, ToggleLeft, List, Edit3, Info } from 'lucide-react';
 import type { Exercise } from '@/lib/exercise-generator';
 import SpeakingExercise from './SpeakingExercise';
@@ -22,6 +23,8 @@ interface ExerciseRendererProps {
   onComplete: (result?: { success: boolean; score: number }) => void;
 }
 
+const AUTO_ADVANCE_MS = 1400;
+
 const TYPE_LABELS: Record<string, { label: string; icon: typeof BookOpen }> = {
   'multiple-choice': { label: 'Opción múltiple', icon: List },
   'true-false': { label: 'Verdadero / Falso', icon: ToggleLeft },
@@ -32,8 +35,22 @@ const TYPE_LABELS: Record<string, { label: string; icon: typeof BookOpen }> = {
   'default': { label: 'Ejercicio', icon: AlignLeft },
 };
 
+const TYPE_THEMES: Record<string, { badge: string; border: string; ring: string }> = {
+  'multiple-choice': { badge: 'bg-[#FF6B6B]/15 text-[#FF6B6B] border-[#FF6B6B]/30', border: 'border-[#FF6B6B]/70', ring: 'ring-[#FF6B6B]/25' },
+  'true-false':      { badge: 'bg-violet-100 text-violet-700 border-violet-200',       border: 'border-violet-400/70',    ring: 'ring-violet-200' },
+  'fill-blank':      { badge: 'bg-amber-100 text-amber-700 border-amber-200',           border: 'border-amber-400/70',     ring: 'ring-amber-200' },
+  'reading':         { badge: 'bg-sky-100 text-sky-700 border-sky-200',                 border: 'border-sky-400/70',       ring: 'ring-sky-200' },
+  'reading-comprehension': { badge: 'bg-sky-100 text-sky-700 border-sky-200',           border: 'border-sky-400/70',       ring: 'ring-sky-200' },
+  'listening':       { badge: 'bg-teal-100 text-teal-700 border-teal-200',              border: 'border-teal-400/70',      ring: 'ring-teal-200' },
+  'default':         { badge: 'bg-slate-100 text-slate-600 border-slate-200',           border: 'border-slate-400/70',     ring: 'ring-slate-200' },
+};
+
 function getTypeInfo(type: string) {
   return TYPE_LABELS[type] ?? TYPE_LABELS['default'];
+}
+
+function getTypeTheme(type: string) {
+  return TYPE_THEMES[type] ?? TYPE_THEMES['default'];
 }
 
 export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: ExerciseRendererProps) {
@@ -55,6 +72,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
   const [mounted, setMounted] = useState(false);
   const [exerciseCompleted, setExerciseCompleted] = useState(false);
+  const autoAdvanceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const exerciseContent = exercise.content || exercise;
   const questions = exerciseContent.questions || [];
@@ -82,10 +100,19 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     setShowReadingText(true);
     setCurrentQuestionIdx(0);
     setExerciseCompleted(false);
+    if (autoAdvanceRef.current) clearTimeout(autoAdvanceRef.current);
 
     const timer = setTimeout(() => setIsAnimating(false), 300);
     return () => clearTimeout(timer);
   }, [exercise.id]);
+
+  useEffect(() => {
+    if (!submitted || !evaluation?.isCorrect || exerciseCompleted) return;
+    autoAdvanceRef.current = setTimeout(() => {
+      handleNextQuestion();
+    }, AUTO_ADVANCE_MS);
+    return () => { if (autoAdvanceRef.current) clearTimeout(autoAdvanceRef.current); };
+  }, [submitted, evaluation?.isCorrect, exerciseCompleted]);
 
   const stripTags = (s: string) => s.replace(/\[\[(.*?)\|(.*?)\]\]/g, '$1');
 
@@ -289,18 +316,21 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                 const letter = OPTION_LETTERS[optIndex] ?? String(optIndex + 1);
 
                 return (
-                  <button
+                  <motion.button
                     key={optIndex}
                     onClick={() => !submitted && setUserAnswer(optIndex)}
                     disabled={submitted}
-                    className={`w-full text-left p-4 rounded-2xl border-2 transition-all duration-200 active:scale-[0.99] group ${
+                    whileTap={!submitted ? { scale: 0.97 } : {}}
+                    animate={isUserAnswer && !submitted ? { scale: [1, 1.03, 1] } : { scale: 1 }}
+                    transition={{ duration: 0.18 }}
+                    className={`w-full text-left p-4 rounded-2xl border-2 transition-colors duration-200 group ${
                       showAsCorrect
                         ? 'border-green-400 bg-green-50 shadow-sm'
                         : showAsIncorrect
                         ? 'border-red-400 bg-red-50'
                         : isUserAnswer
-                        ? 'border-[#FF6B6B] bg-orange-50 shadow-md shadow-orange-100 scale-[1.01] ring-2 ring-[#FF6B6B]/30'
-                        : 'border-slate-100 bg-white hover:border-slate-300 hover:bg-slate-50 hover:shadow-md hover:scale-[1.005]'
+                        ? 'border-[#FF6B6B] bg-orange-50 shadow-md shadow-orange-100 ring-2 ring-[#FF6B6B]/30'
+                        : 'border-slate-100 bg-white hover:border-slate-300 hover:bg-slate-50 hover:shadow-md'
                     } disabled:cursor-not-allowed`}
                   >
                     <div className="flex items-center gap-3">
@@ -321,7 +351,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                         <TranslatedText text={typeof option === 'string' ? option : option.text} />
                       </span>
                     </div>
-                  </button>
+                  </motion.button>
                 );
               })}
             </div>
@@ -377,8 +407,15 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         {submitted && !exerciseCompleted && <div className="h-52" />}
 
         {/* Fixed bottom feedback panel (Duolingo style) */}
+        <AnimatePresence>
         {submitted && !exerciseCompleted && evaluation && (
-          <div className="fixed bottom-0 left-0 right-0 z-50 animate-in slide-in-from-bottom-4 duration-300">
+          <motion.div
+            className="fixed bottom-0 left-0 right-0 z-50"
+            initial={{ y: '100%' }}
+            animate={{ y: 0 }}
+            exit={{ y: '100%' }}
+            transition={{ type: 'spring', stiffness: 380, damping: 32 }}
+          >
             <div className={`border-t-4 bg-white shadow-2xl ${evaluation.isCorrect ? 'border-green-400' : 'border-red-400'}`}>
               <div className="max-w-2xl mx-auto px-5 pt-4 pb-5">
                 <div className="flex items-start gap-3 mb-3">
@@ -429,8 +466,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                 </button>
               </div>
             </div>
-          </div>
+          </motion.div>
         )}
+        </AnimatePresence>
       </div>
     );
   };
@@ -508,21 +546,26 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
   // Default Renderer
   const typeInfo = getTypeInfo(exercise.type);
+  const typeTheme = getTypeTheme(exercise.type);
   const TypeIcon = typeInfo.icon;
 
   return (
-    <div className={`transition-all duration-300 ${isAnimating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'}`}>
+    <motion.div
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: isAnimating ? 0 : 1, y: isAnimating ? 16 : 0 }}
+      transition={{ duration: 0.3, ease: 'easeOut' }}
+    >
       <div className="space-y-6">
         {/* Exercise title + type pill */}
         <div>
           <div className="flex items-center gap-2 mb-3">
-            <div className="flex items-center gap-1.5 bg-[#FF6B6B]/15 text-[#FF6B6B] px-3.5 py-1.5 rounded-full text-sm font-bold border border-[#FF6B6B]/30">
+            <div className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-sm font-bold border ${typeTheme.badge}`}>
               <TypeIcon size={14} />
               <span>{typeInfo.label}</span>
             </div>
           </div>
-          <div className="relative pl-4 border-l-4 border-[#FF6B6B]/70 rounded-r-sm">
-            <p className="text-xs font-black uppercase tracking-[0.15em] text-[#FF6B6B]/70 mb-1.5">
+          <div className={`relative pl-4 border-l-4 ${typeTheme.border} rounded-r-sm`}>
+            <p className="text-xs font-black uppercase tracking-[0.15em] text-slate-400 mb-1.5">
               <TranslatedText text="[[Exercise|Ejercicio]]" />
             </p>
             <h2 className="text-2xl md:text-3xl font-black text-slate-900 leading-tight tracking-tight">
@@ -530,8 +573,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             </h2>
           </div>
           {exerciseContent.instructions && (
-            <div className="mt-4 flex gap-2.5 p-3.5 bg-[#FF6B6B]/5 border border-[#FF6B6B]/15 border-l-4 border-l-[#FF6B6B]/60 rounded-2xl">
-              <Info size={18} className="text-[#FF6B6B]/70 flex-shrink-0 mt-0.5" />
+            <div className="mt-4 flex gap-2.5 p-3.5 bg-slate-50 border border-slate-100 border-l-4 border-l-slate-300 rounded-2xl">
+              <Info size={18} className="text-slate-400 flex-shrink-0 mt-0.5" />
               <div className="text-slate-700 text-base font-semibold leading-relaxed">
                 <Markdown content={exerciseContent.instructions} />
               </div>
@@ -596,6 +639,6 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           </div>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 }
