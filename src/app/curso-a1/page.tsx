@@ -18,7 +18,16 @@ async function A1PreviewContent() {
 
       {/* ── HERO ─────────────────────────────────────────────────────────── */}
       <header className="relative overflow-hidden bg-gradient-to-br from-[#FF6B6B] via-[#FF8E53] to-[#FFA06B]">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=%2260%22 height=%2260%22 viewBox=%220 0 60 60%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg fill=%22%23ffffff%22 fill-opacity=%220.04%22%3E%3Ccircle cx=%2230%22 cy=%2230%22 r=%222%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-60" />
+        {/* Dot pattern */}
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=%2260%22 height=%2260%22 viewBox=%220 0 60 60%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg fill=%22%23ffffff%22 fill-opacity=%220.05%22%3E%3Ccircle cx=%2230%22 cy=%2230%22 r=%222%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')]" />
+        {/* Radial light bloom */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_40%,rgba(255,255,255,0.18),transparent_65%)]" />
+
+        {/* Floating emoji decorations */}
+        <span className="absolute top-8 right-12 text-5xl opacity-20 select-none rotate-12 hidden md:block" aria-hidden>🇬🇧</span>
+        <span className="absolute top-20 right-[20%] text-3xl opacity-15 select-none -rotate-6 hidden lg:block" aria-hidden>💬</span>
+        <span className="absolute bottom-16 right-8 text-4xl opacity-15 select-none rotate-3 hidden md:block" aria-hidden>🎯</span>
+        <span className="absolute top-12 left-[55%] text-2xl opacity-10 select-none rotate-12 hidden xl:block" aria-hidden>✨</span>
 
         <div className="relative max-w-7xl mx-auto px-6 pt-16 pb-20 md:pt-20 md:pb-24">
           <div className="max-w-3xl">
@@ -39,16 +48,16 @@ async function A1PreviewContent() {
               De cero a conversacional en 90 días. {courseMetadata.totalUnits} unidades progresivas diseñadas para hablantes de español.
             </p>
 
-            {/* Learning outcomes — tipografía de lista */}
+            {/* Learning outcomes */}
             <ul className="space-y-2.5">
               {[
-                'Vocabulario esencial para el trabajo y el viaje',
-                'Gramática básica explicada en español',
-                'Pronunciación y comprensión auditiva real',
-              ].map((item) => (
-                <li key={item} className="flex items-start gap-2.5 text-white/90">
-                  <CheckCircle className="w-5 h-5 text-yellow-200 flex-shrink-0 mt-0.5" />
-                  <span className="text-sm font-semibold leading-snug">{item}</span>
+                { text: 'Vocabulario esencial para el trabajo y el viaje', emoji: '💼' },
+                { text: 'Gramática básica explicada en español',            emoji: '📝' },
+                { text: 'Pronunciación y comprensión auditiva real',        emoji: '🎧' },
+              ].map(({ text, emoji }) => (
+                <li key={text} className="flex items-center gap-3 text-white/90">
+                  <span className="text-lg leading-none" aria-hidden>{emoji}</span>
+                  <span className="text-sm font-semibold leading-snug">{text}</span>
                 </li>
               ))}
             </ul>
@@ -56,7 +65,7 @@ async function A1PreviewContent() {
         </div>
 
         {/* Decorative arc */}
-        <div className="absolute bottom-0 left-0 right-0 h-8 bg-[#FEF9F5] rounded-t-[50%]" />
+        <div className="absolute bottom-0 left-0 right-0 h-10 bg-[#FEF9F5] rounded-t-[60%]" />
       </header>
 
       {/* ── STATS BAR ────────────────────────────────────────────────────── */}
