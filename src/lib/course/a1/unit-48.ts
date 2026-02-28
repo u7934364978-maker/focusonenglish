@@ -7,22 +7,44 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Empareja el vocabulario de turismo:",
       "questions": [
         {
-          "question": "Empareja el vocabulario de turismo:",
+          "question": "Museum",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Museo|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Monument",
+          "options": [
+            "[[Monumento|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Tour guide",
+          "options": [
+            "[[Guía turístico/a|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Map",
+          "options": [
+            "[[Mapa|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -131,22 +153,20 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "________ the museum, it is beautiful!",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con el verbo correcto (Take/Visit):",
       "questions": [
         {
           "question": "________ the museum, it is beautiful!",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Visit|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -179,22 +199,20 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "________ (no) drink the water in the park.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el imperativo negativo:",
       "questions": [
         {
           "question": "________ (no) drink the water in the park.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Don't|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -203,22 +221,19 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Pregunta por el inicio del tour:",
       "questions": [
         {
-          "question": "Pregunta por el inicio del tour:",
+          "question": "What time does the tour start?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -253,22 +268,20 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "A: Can I take photos here?\nB: No, ________. (no saque fotos)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el diálogo:",
       "questions": [
         {
           "question": "A: Can I take photos here?\nB: No, ________. (no saque fotos)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[don't|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {

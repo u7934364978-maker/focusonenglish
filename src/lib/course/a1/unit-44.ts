@@ -7,22 +7,44 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Empareja el clima:",
       "questions": [
         {
-          "question": "Empareja el clima:",
+          "question": "Sunny",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Soleado|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Rainy",
+          "options": [
+            "[[Lluvioso|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Cloudy",
+          "options": [
+            "[[Nublado|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Windy",
+          "options": [
+            "[[Ventoso|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -57,22 +79,20 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "It is 0 degrees. It is very ________. (frío)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el estado del clima:",
       "questions": [
         {
           "question": "It is 0 degrees. It is very ________. (frío)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[cold|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -155,22 +175,20 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "What ________ the weather like?",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la pregunta:",
       "questions": [
         {
           "question": "What ________ the weather like?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[is|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -203,22 +221,20 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "It ________ windy this afternoon. (no está)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la frase negativa:",
       "questions": [
         {
           "question": "It ________ windy this afternoon. (no está)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[isn't|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -227,22 +243,19 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Pregunta por el clima:",
       "questions": [
         {
-          "question": "Pregunta por el clima:",
+          "question": "What is the weather like today?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -277,22 +290,20 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "In London, it is often ________. (lluvioso)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el reporte:",
       "questions": [
         {
           "question": "In London, it is often ________. (lluvioso)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[rainy|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {

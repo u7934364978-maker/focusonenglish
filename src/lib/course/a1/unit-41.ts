@@ -7,22 +7,44 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Empareja el vocabulario del aeropuerto:",
       "questions": [
         {
-          "question": "Empareja el vocabulario del aeropuerto:",
+          "question": "Passport",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Pasaporte|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Boarding pass",
+          "options": [
+            "[[Tarjeta de embarque|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Gate",
+          "options": [
+            "[[Puerta de embarque|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Luggage",
+          "options": [
+            "[[Equipaje|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -57,22 +79,20 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "I have a ticket for my ________. (vuelo)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la palabra:",
       "questions": [
         {
           "question": "I have a ticket for my ________. (vuelo)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[flight|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -129,22 +149,20 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I am ________ the airport.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la preposición correcta (at/in):",
       "questions": [
         {
           "question": "I am ________ the airport.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[at|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -177,22 +195,20 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "Please ________ your boarding pass. (muestra)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la frase:",
       "questions": [
         {
           "question": "Please ________ your boarding pass. (muestra)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[show|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -201,22 +217,19 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Pregunta por la puerta de embarque:",
       "questions": [
         {
-          "question": "Pregunta por la puerta de embarque:",
+          "question": "Where is gate number ten?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -251,22 +264,20 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "A: Is your flight on time?\nB: No, it is ________. (retrasado)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el diálogo:",
       "questions": [
         {
           "question": "A: Is your flight on time?\nB: No, it is ________. (retrasado)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[late|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {

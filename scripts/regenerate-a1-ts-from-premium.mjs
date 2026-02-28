@@ -39,6 +39,91 @@ function normalizeInteractionToExercise(interaction, unitId) {
       topicName: topic
     };
   }
+
+  if (interaction.type === 'matching') {
+    return {
+      id: exerciseId,
+      type: "multiple-choice", // Placeholder for matching in TS format
+      level,
+      topic,
+      difficulty,
+      content: {
+        title: "Matching",
+        instructions: interaction.prompt_es || "Une los pares:",
+        questions: (interaction.pairs || []).map(p => ({
+          question: p.left,
+          options: [`[[${p.right}|]]`, "[[incorrect|]]"],
+          correctAnswer: 0
+        }))
+      },
+      topicName: topic
+    };
+  }
+
+  if (interaction.type === 'transformation' || interaction.type === 'fill_blanks') {
+    return {
+      id: exerciseId,
+      type: "multiple-choice",
+      level,
+      topic,
+      difficulty,
+      content: {
+        title: "Fill in the blanks",
+        instructions: interaction.prompt_es || "Completa la frase:",
+        questions: [
+          {
+            question: interaction.stimulus_en || "Exercise",
+            options: [`[[${interaction.correct_answer}|]]`, "[[other|]]"],
+            correctAnswer: 0
+          }
+        ]
+      },
+      topicName: topic
+    };
+  }
+
+  if (interaction.type === 'reorder_words') {
+    return {
+      id: exerciseId,
+      type: "multiple-choice",
+      level,
+      topic,
+      difficulty,
+      content: {
+        title: "Reorder Words",
+        instructions: interaction.prompt_es || "Ordena las palabras:",
+        questions: [
+          {
+            question: (interaction.options || []).map(o => o.text).join(" "),
+            options: [`[[${(interaction.correct_answer_text || "correct")}|]]`],
+            correctAnswer: 0
+          }
+        ]
+      },
+      topicName: topic
+    };
+  }
+
+  if (interaction.type === 'reading_comprehension') {
+    return {
+      id: exerciseId,
+      type: "multiple-choice",
+      level,
+      topic,
+      difficulty,
+      transcript: interaction.transcript || "",
+      content: {
+        title: "Reading Comprehension",
+        instructions: interaction.prompt_es || "Lee y responde:",
+        questions: (interaction.questions || []).map(q => ({
+          question: q.prompt_es || q.question,
+          options: (q.options || []).map(o => `[[${o.text}|]]`),
+          correctAnswer: q.options?.findIndex(o => o.id === q.correct_answer) ?? 0
+        }))
+      },
+      topicName: topic
+    };
+  }
   
   if (interaction.type === 'listening_dictation') {
     return {

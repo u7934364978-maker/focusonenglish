@@ -7,22 +7,44 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Empareja el adverbio con su frecuencia aproximada:",
       "questions": [
         {
-          "question": "Empareja el adverbio con su frecuencia aproximada:",
+          "question": "Always",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[100% de las veces|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Often",
+          "options": [
+            "[[Frecuentemente (60-70%)|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Sometimes",
+          "options": [
+            "[[A veces (40-50%)|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Never",
+          "options": [
+            "[[0% de las veces|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -57,22 +79,20 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "I ________ eat meat. I am a vegetarian.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con el adverbio que significa '0%':",
       "questions": [
         {
           "question": "I ________ eat meat. I am a vegetarian.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[never|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -129,22 +149,20 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "We ________ ________ (usually / walk) to school.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el orden (sujeto + adverbio + verbo):",
       "questions": [
         {
           "question": "We ________ ________ (usually / walk) to school.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[usually walk|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -177,22 +195,36 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Relaciona las expresiones de frecuencia:",
       "questions": [
         {
-          "question": "Relaciona las expresiones de frecuencia:",
+          "question": "Once a week",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Una vez por semana|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Twice a month",
+          "options": [
+            "[[Dos veces al mes|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Every day",
+          "options": [
+            "[[Cada día|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -251,22 +283,20 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "________ ________ does he call you?",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la pregunta:",
       "questions": [
         {
           "question": "________ ________ does he call you?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[How often|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {

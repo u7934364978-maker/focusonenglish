@@ -7,22 +7,44 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Empareja las estaciones:",
       "questions": [
         {
-          "question": "Empareja las estaciones:",
+          "question": "Spring",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Primavera|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Summer",
+          "options": [
+            "[[Verano|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Autumn",
+          "options": [
+            "[[Otoño|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Winter",
+          "options": [
+            "[[Invierno|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -57,22 +79,20 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "It is December. It is ________. (invierno)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la estación:",
       "questions": [
         {
           "question": "It is December. It is ________. (invierno)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[winter|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -155,22 +175,20 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I like ________ in winter. (esquiar/ski)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma -ing:",
       "questions": [
         {
           "question": "I like ________ in winter. (esquiar/ski)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[skiing|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -203,22 +221,20 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "Which season ________ you like best?",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la pregunta:",
       "questions": [
         {
           "question": "Which season ________ you like best?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[do|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -227,22 +243,19 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Describe tu estación favorita:",
       "questions": [
         {
-          "question": "Describe tu estación favorita:",
+          "question": "My favorite season is autumn.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -277,22 +290,20 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "In autumn, the ________ are brown and orange. (hojas)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la frase:",
       "questions": [
         {
           "question": "In autumn, the ________ are brown and orange. (hojas)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[leaves|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {

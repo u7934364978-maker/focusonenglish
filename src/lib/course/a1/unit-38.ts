@@ -7,22 +7,44 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Relaciona la tarea doméstica:",
       "questions": [
         {
-          "question": "Relaciona la tarea doméstica:",
+          "question": "Wash the dishes",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Lavar los platos|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Sweep the floor",
+          "options": [
+            "[[Barrer el suelo|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Do the laundry",
+          "options": [
+            "[[Hacer la colada|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Make the bed",
+          "options": [
+            "[[Hacer la cama|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -57,22 +79,20 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "Please ________ the bathroom. It's dirty.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con el verbo adecuado:",
       "questions": [
         {
           "question": "Please ________ the bathroom. It's dirty.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[clean|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -129,22 +149,20 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "My mother ________ cook dinner today.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con 'has to' o 'have to':",
       "questions": [
         {
           "question": "My mother ________ cook dinner today.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[has to|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -153,22 +171,19 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena la frase de obligación:",
       "questions": [
         {
-          "question": "Ordena la frase de obligación:",
+          "question": "You must clean your room",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -201,22 +216,19 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena la pregunta:",
       "questions": [
         {
-          "question": "Ordena la pregunta:",
+          "question": "Do you have to do the laundry ?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -225,22 +237,20 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "________ he have to water the plants?",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con 'does' o 'do':",
       "questions": [
         {
           "question": "________ he have to water the plants?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Does|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {

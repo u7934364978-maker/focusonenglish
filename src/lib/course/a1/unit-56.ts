@@ -33,22 +33,44 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une los electrodomésticos:",
       "questions": [
         {
-          "question": "Une los electrodomésticos:",
+          "question": "Oven",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Horno|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Microwave",
+          "options": [
+            "[[Microondas|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Sink",
+          "options": [
+            "[[Fregadero|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Dishwasher",
+          "options": [
+            "[[Lavavajillas|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -107,22 +129,20 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "The coffee is ________ the cupboard.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa: 'El café está EN el armario'",
       "questions": [
         {
           "question": "The coffee is ________ the cupboard.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[in|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -131,22 +151,19 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena: 'La taza está sobre la encimera'",
       "questions": [
         {
-          "question": "Ordena: 'La taza está sobre la encimera'",
+          "question": "The cup is on the counter",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -181,22 +198,20 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "The table is ________ ________ the window.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa: 'La mesa está AL LADO de la ventana'",
       "questions": [
         {
           "question": "The table is ________ ________ the window.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[next to|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -205,22 +220,44 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une los muebles de cocina:",
       "questions": [
         {
-          "question": "Une los muebles de cocina:",
+          "question": "Cupboard",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Armario|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Shelf",
+          "options": [
+            "[[Estante|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Drawer",
+          "options": [
+            "[[Cajón|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Bin",
+          "options": [
+            "[[Cubo de basura|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -303,22 +340,20 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "General",
     "difficulty": "medium",
-    "transcript": "The milk is ________ the fridge and the cups are ________ the shelf.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con preposiciones:",
       "questions": [
         {
           "question": "The milk is ________ the fridge and the cups are ________ the shelf.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[in, on|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "General"
   },
   {

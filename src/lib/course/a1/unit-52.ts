@@ -33,22 +33,20 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I have ________ orange and ________ banana.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Usa 'a' o 'an':",
       "questions": [
         {
           "question": "I have ________ orange and ________ banana.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[an, a|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -57,22 +55,19 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena: 'Hay tres huevos'",
       "questions": [
         {
-          "question": "Ordena: 'Hay tres huevos'",
+          "question": "There are three eggs",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -81,22 +76,36 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une el singular con el plural:",
       "questions": [
         {
-          "question": "Une el singular con el plural:",
+          "question": "One apple",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Two apples|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "One egg",
+          "options": [
+            "[[Two eggs|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "One potato",
+          "options": [
+            "[[Two potatoes|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -131,22 +140,20 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I want ________ water and ________ bread.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Usa 'some' para sustantivos incontables:",
       "questions": [
         {
           "question": "I want ________ water and ________ bread.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[some, some|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -253,22 +260,19 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena: 'Queremos algo de pan'",
       "questions": [
         {
-          "question": "Ordena: 'Queremos algo de pan'",
+          "question": "We want some bread",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -301,22 +305,20 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "Please buy ________ milk and ________ apples at the supermarket.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el texto:",
       "questions": [
         {
           "question": "Please buy ________ milk and ________ apples at the supermarket.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[some, some|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {

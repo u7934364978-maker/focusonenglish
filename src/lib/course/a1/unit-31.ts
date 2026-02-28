@@ -7,22 +7,44 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Relaciona los verbos de habilidad con su traducción:",
       "questions": [
         {
-          "question": "Relaciona los verbos de habilidad con su traducción:",
+          "question": "Swim",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Nadar|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Dance",
+          "options": [
+            "[[Bailar|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Draw",
+          "options": [
+            "[[Dibujar|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Cook",
+          "options": [
+            "[[Cocinar|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -31,22 +53,20 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "She ________ speak three languages.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con 'can' para expresar habilidad:",
       "questions": [
         {
           "question": "She ________ speak three languages.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[can|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -55,22 +75,19 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena la frase afirmativa:",
       "questions": [
         {
-          "question": "Ordena la frase afirmativa:",
+          "question": "I can play the piano",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -155,22 +172,20 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "Penguins ________ fly.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la frase negativa (imposibilidad):",
       "questions": [
         {
           "question": "Penguins ________ fly.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[can't|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -179,22 +194,19 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena la pregunta:",
       "questions": [
         {
-          "question": "Ordena la pregunta:",
+          "question": "Can you help me ?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -299,22 +311,20 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "________ dogs swim?",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la pregunta sobre animales:",
       "questions": [
         {
           "question": "________ dogs swim?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Can|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {

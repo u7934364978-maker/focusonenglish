@@ -33,22 +33,44 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une los términos de la tienda:",
       "questions": [
         {
-          "question": "Une los términos de la tienda:",
+          "question": "Shop assistant",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Dependiente/a|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Customer",
+          "options": [
+            "[[Cliente|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Price tag",
+          "options": [
+            "[[Etiqueta|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Sale",
+          "options": [
+            "[[Rebajas|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -107,22 +129,20 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "________ I try this on?",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa: '¿Puedo probarme esto?'",
       "questions": [
         {
           "question": "________ I try this on?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Can|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -131,22 +151,19 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena: 'Necesito una talla pequeña (S)'",
       "questions": [
         {
-          "question": "Ordena: 'Necesito una talla pequeña (S)'",
+          "question": "I need a small size",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -181,22 +198,20 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "Do you ________ this in blue?",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa: '¿Lo tienes en azul?'",
       "questions": [
         {
           "question": "Do you ________ this in blue?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[have|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -327,22 +342,20 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "Can I ________ this on? Yes, the ________ room is over there.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el diálogo:",
       "questions": [
         {
           "question": "Can I ________ this on? Yes, the ________ room is over there.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[try, fitting|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {

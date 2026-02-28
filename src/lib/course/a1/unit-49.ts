@@ -33,22 +33,44 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une los objetos con su traducción:",
       "questions": [
         {
-          "question": "Une los objetos con su traducción:",
+          "question": "Sunscreen",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Protector solar|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Sunglasses",
+          "options": [
+            "[[Gafas de sol|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Charger",
+          "options": [
+            "[[Cargador|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Swimsuit",
+          "options": [
+            "[[Bañador|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -131,22 +153,20 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I ________ my phone charger.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con el verbo 'necesitar':",
       "questions": [
         {
           "question": "I ________ my phone charger.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[need|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -155,22 +175,19 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena la frase: 'Necesito mi bañador'",
       "questions": [
         {
-          "question": "Ordena la frase: 'Necesito mi bañador'",
+          "question": "I need my swimsuit",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -179,22 +196,20 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "Don't ________ your documents.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la frase: 'No olvides tus documentos'",
       "questions": [
         {
           "question": "Don't ________ your documents.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[forget|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -325,22 +340,20 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I am ________ my suitcase for the trip. I ________ my passport.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el texto:",
       "questions": [
         {
           "question": "I am ________ my suitcase for the trip. I ________ my passport.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[packing, need|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {

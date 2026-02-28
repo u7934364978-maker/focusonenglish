@@ -33,22 +33,44 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une las acciones de la mañana:",
       "questions": [
         {
-          "question": "Une las acciones de la mañana:",
+          "question": "Get up",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Levantarse|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Brush teeth",
+          "options": [
+            "[[Cepillarse los dientes|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Have breakfast",
+          "options": [
+            "[[Desayunar|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Take a shower",
+          "options": [
+            "[[Ducharse|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -107,22 +129,20 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I ________ to work at 9 am.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa: 'Yo VOY al trabajo a las 9 am'",
       "questions": [
         {
           "question": "I ________ to work at 9 am.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[go|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -131,22 +151,19 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena: 'Nosotros almorzamos a las 1 pm'",
       "questions": [
         {
-          "question": "Ordena: 'Nosotros almorzamos a las 1 pm'",
+          "question": "We have lunch at 1 pm",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -155,22 +172,20 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "They ________ home late.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa: 'Ellos LLEGAN a casa tarde'",
       "questions": [
         {
           "question": "They ________ home late.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[get|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -203,22 +218,44 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une las acciones de la tarde/noche:",
       "questions": [
         {
-          "question": "Une las acciones de la tarde/noche:",
+          "question": "Get home",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Llegar a casa|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Have dinner",
+          "options": [
+            "[[Cenar|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Watch TV",
+          "options": [
+            "[[Ver la tele|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Go to bed",
+          "options": [
+            "[[Irse a la cama|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -301,22 +338,20 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I ________ up at 7, I ________ breakfast and then I ________ to school.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa tu rutina:",
       "questions": [
         {
           "question": "I ________ up at 7, I ________ breakfast and then I ________ to school.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[wake, have, go|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {

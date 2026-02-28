@@ -7,22 +7,44 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Relaciona la actividad con su traducción:",
       "questions": [
         {
-          "question": "Relaciona la actividad con su traducción:",
+          "question": "Watch TV",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Ver la televisión|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Meet friends",
+          "options": [
+            "[[Quedar con amigos|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Surf the internet",
+          "options": [
+            "[[Navegar por internet|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Go out",
+          "options": [
+            "[[Salir|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -57,22 +79,20 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "I ________ video games on Saturdays.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con el verbo correcto:",
       "questions": [
         {
           "question": "I ________ video games on Saturdays.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[play|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -179,22 +199,20 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "Meeting friends is a ________ activity.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la categoría:",
       "questions": [
         {
           "question": "Meeting friends is a ________ activity.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[social|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -227,22 +245,20 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "She ________ (go) to the cinema on Fridays.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta del verbo:",
       "questions": [
         {
           "question": "She ________ (go) to the cinema on Fridays.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[goes|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -251,22 +267,19 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena la frase negativa:",
       "questions": [
         {
-          "question": "Ordena la frase negativa:",
+          "question": "They don't play video games",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {

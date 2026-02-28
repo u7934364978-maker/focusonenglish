@@ -33,22 +33,20 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "She plays the ________ (flauta).",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con el instrumento de viento:",
       "questions": [
         {
           "question": "She plays the ________ (flauta).",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[flute|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -105,22 +103,19 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena la frase:",
       "questions": [
         {
-          "question": "Ordena la frase:",
+          "question": "He plays the piano beautifully",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -129,22 +124,20 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "We are learning to play ________ violin.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con el artículo necesario:",
       "questions": [
         {
           "question": "We are learning to play ________ violin.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[the|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -251,22 +244,20 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "The violin is a ________ instrument to learn. (difícil)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la descripción:",
       "questions": [
         {
           "question": "The violin is a ________ instrument to learn. (difícil)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[difficult|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {

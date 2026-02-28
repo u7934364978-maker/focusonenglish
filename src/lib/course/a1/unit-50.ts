@@ -7,22 +7,44 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Weather",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Tiempo|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Season",
+          "options": [
+            "[[Estación|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Airport",
+          "options": [
+            "[[Aeropuerto|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Travel",
+          "options": [
+            "[[Viaje|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -31,22 +53,20 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I go (en) ________ train.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I go (en) ________ train.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[by|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -79,22 +99,19 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "holiday for a Prepare",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -153,22 +170,44 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Season",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Estación|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Airport",
+          "options": [
+            "[[Aeropuerto|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Travel",
+          "options": [
+            "[[Viaje|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Hotel",
+          "options": [
+            "[[Hotel|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -177,22 +216,20 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "It (ser/estar - ello) ________ sunny.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "It (ser/estar - ello) ________ sunny.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[is|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -225,22 +262,19 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "of five This a module is review",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -299,22 +333,44 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Airport",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Aeropuerto|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Travel",
+          "options": [
+            "[[Viaje|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Hotel",
+          "options": [
+            "[[Hotel|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Weather",
+          "options": [
+            "[[Tiempo|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -323,22 +379,20 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I go (en) ________ train.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I go (en) ________ train.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[by|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -371,22 +425,19 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "Talk travel and about transport",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -445,22 +496,44 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Travel",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Viaje|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Hotel",
+          "options": [
+            "[[Hotel|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Weather",
+          "options": [
+            "[[Tiempo|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Season",
+          "options": [
+            "[[Estación|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -469,22 +542,20 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "It (ser/estar - ello) ________ sunny.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "It (ser/estar - ello) ________ sunny.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[is|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -517,22 +588,19 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "the weather Describe and seasons",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -591,22 +659,44 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Hotel",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Hotel|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Weather",
+          "options": [
+            "[[Tiempo|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Season",
+          "options": [
+            "[[Estación|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Airport",
+          "options": [
+            "[[Aeropuerto|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -615,22 +705,20 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I go (en) ________ train.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I go (en) ________ train.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[by|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -663,22 +751,19 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "Book room a hotel",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -737,22 +822,44 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Weather",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Tiempo|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Season",
+          "options": [
+            "[[Estación|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Airport",
+          "options": [
+            "[[Aeropuerto|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Travel",
+          "options": [
+            "[[Viaje|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -761,22 +868,20 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "It (ser/estar - ello) ________ sunny.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "It (ser/estar - ello) ________ sunny.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[is|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -809,22 +914,19 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "Prepare for holiday a",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -883,22 +985,44 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Season",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Estación|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Airport",
+          "options": [
+            "[[Aeropuerto|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Travel",
+          "options": [
+            "[[Viaje|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Hotel",
+          "options": [
+            "[[Hotel|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -907,22 +1031,20 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I go (en) ________ train.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I go (en) ________ train.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[by|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -955,22 +1077,19 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "module is five of review This a",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -1029,22 +1148,44 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Airport",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Aeropuerto|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Travel",
+          "options": [
+            "[[Viaje|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Hotel",
+          "options": [
+            "[[Hotel|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Weather",
+          "options": [
+            "[[Tiempo|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -1053,22 +1194,20 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "It (ser/estar - ello) ________ sunny.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "It (ser/estar - ello) ________ sunny.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[is|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -1101,22 +1240,19 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "about Talk travel transport and",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -1175,22 +1311,44 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Travel",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Viaje|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Hotel",
+          "options": [
+            "[[Hotel|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Weather",
+          "options": [
+            "[[Tiempo|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Season",
+          "options": [
+            "[[Estación|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -1199,22 +1357,20 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I go (en) ________ train.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I go (en) ________ train.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[by|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -1247,22 +1403,19 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "weather the seasons Describe and",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -1321,22 +1474,44 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Hotel",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Hotel|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Weather",
+          "options": [
+            "[[Tiempo|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Season",
+          "options": [
+            "[[Estación|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Airport",
+          "options": [
+            "[[Aeropuerto|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -1345,22 +1520,20 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "It (ser/estar - ello) ________ sunny.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "It (ser/estar - ello) ________ sunny.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[is|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -1393,22 +1566,19 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "hotel Book room a",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {

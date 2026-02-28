@@ -33,22 +33,20 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "They ________ very happy last night.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con 'was' o 'were':",
       "questions": [
         {
           "question": "They ________ very happy last night.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[were|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -105,22 +103,20 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "We ________ at the party on Friday.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con 'wasn't' o 'weren't':",
       "questions": [
         {
           "question": "We ________ at the party on Friday.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[weren't|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -153,22 +149,19 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena la pregunta:",
       "questions": [
         {
-          "question": "Ordena la pregunta:",
+          "question": "Were you at the cinema ?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -177,22 +170,20 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "________ the weather good yesterday?",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con 'Was' o 'Were':",
       "questions": [
         {
           "question": "________ the weather good yesterday?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Was|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {

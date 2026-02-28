@@ -7,22 +7,44 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Ability",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Habilidad|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Talent",
+          "options": [
+            "[[Talento|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Frequency",
+          "options": [
+            "[[Frecuencia|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Activity",
+          "options": [
+            "[[Actividad|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -31,22 +53,20 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I (poder) ________ swim.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I (poder) ________ swim.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[can|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -79,22 +99,19 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "with Connect 'but', 'and', sentences and 'because'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -153,22 +170,44 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Talent",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Talento|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Frequency",
+          "options": [
+            "[[Frecuencia|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Activity",
+          "options": [
+            "[[Actividad|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Ability",
+          "options": [
+            "[[Habilidad|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -177,22 +216,20 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "He (tocar) ________ the piano.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "He (tocar) ________ the piano.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[plays|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -225,22 +262,19 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "of module a is review four This",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -299,22 +333,44 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Frequency",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Frecuencia|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Activity",
+          "options": [
+            "[[Actividad|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Ability",
+          "options": [
+            "[[Habilidad|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Talent",
+          "options": [
+            "[[Talento|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -323,22 +379,20 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I (poder) ________ swim.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I (poder) ________ swim.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[can|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -371,22 +425,19 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "of Use adverbs frequency",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -445,22 +496,44 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Activity",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Actividad|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Ability",
+          "options": [
+            "[[Habilidad|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Talent",
+          "options": [
+            "[[Talento|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Frequency",
+          "options": [
+            "[[Frecuencia|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -469,22 +542,20 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "He (tocar) ________ the piano.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "He (tocar) ________ the piano.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[plays|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -517,22 +588,19 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "and about Talk skills abilities your",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -591,22 +659,44 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Ability",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Habilidad|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Talent",
+          "options": [
+            "[[Talento|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Frequency",
+          "options": [
+            "[[Frecuencia|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Activity",
+          "options": [
+            "[[Actividad|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -615,22 +705,20 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I (poder) ________ swim.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I (poder) ________ swim.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[can|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -663,22 +751,19 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "politely Ask for permission",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -737,22 +822,44 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Talent",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Talento|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Frequency",
+          "options": [
+            "[[Frecuencia|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Activity",
+          "options": [
+            "[[Actividad|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Ability",
+          "options": [
+            "[[Habilidad|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -761,22 +868,20 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "He (tocar) ________ the piano.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "He (tocar) ________ the piano.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[plays|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -809,22 +914,19 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "'and', 'because' sentences Connect and 'but', with",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -883,22 +985,44 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Frequency",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Frecuencia|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Activity",
+          "options": [
+            "[[Actividad|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Ability",
+          "options": [
+            "[[Habilidad|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Talent",
+          "options": [
+            "[[Talento|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -907,22 +1031,20 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I (poder) ________ swim.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I (poder) ________ swim.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[can|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -955,22 +1077,19 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "of review This a four is module",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -1029,22 +1148,44 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Activity",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Actividad|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Ability",
+          "options": [
+            "[[Habilidad|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Talent",
+          "options": [
+            "[[Talento|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Frequency",
+          "options": [
+            "[[Frecuencia|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -1053,22 +1194,20 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "He (tocar) ________ the piano.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "He (tocar) ________ the piano.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[plays|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -1101,22 +1240,19 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "Use of adverbs frequency",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -1175,22 +1311,44 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Ability",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Habilidad|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Talent",
+          "options": [
+            "[[Talento|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Frequency",
+          "options": [
+            "[[Frecuencia|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Activity",
+          "options": [
+            "[[Actividad|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -1199,22 +1357,20 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I (poder) ________ swim.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I (poder) ________ swim.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[can|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -1247,22 +1403,19 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "Talk abilities skills about and your",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -1321,22 +1474,44 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
-          "question": "Une la palabra con su traducción correcta:",
+          "question": "Talent",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Talento|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Frequency",
+          "options": [
+            "[[Frecuencia|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Activity",
+          "options": [
+            "[[Actividad|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Ability",
+          "options": [
+            "[[Habilidad|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -1345,22 +1520,20 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "He (tocar) ________ the piano.",
     "content": {
-      "title": "transformation",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "He (tocar) ________ the piano.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[plays|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -1393,22 +1566,19 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ordena las palabras para formar una frase correcta:",
+          "question": "Ask politely for permission",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {

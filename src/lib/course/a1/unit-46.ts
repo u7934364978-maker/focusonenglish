@@ -33,22 +33,20 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "My room is on the third ________. (piso/planta)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la palabra:",
       "questions": [
         {
           "question": "My room is on the third ________. (piso/planta)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[floor|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -131,22 +129,20 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "Does the room ________ a TV?",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con 'have' o 'has':",
       "questions": [
         {
           "question": "Does the room ________ a TV?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[have|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -179,22 +175,20 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "Is breakfast ________ in the price? (incluido)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la frase:",
       "questions": [
         {
           "question": "Is breakfast ________ in the price? (incluido)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[included|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -203,22 +197,19 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Pide la contraseña del wifi:",
       "questions": [
         {
-          "question": "Pide la contraseña del wifi:",
+          "question": "What is the wifi password?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -253,22 +244,20 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "A: I would like to ________ in, please.\nB: Certainly. What is your name?",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el diálogo:",
       "questions": [
         {
           "question": "A: I would like to ________ in, please.\nB: Certainly. What is your name?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[check|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {

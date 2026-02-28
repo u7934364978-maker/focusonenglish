@@ -7,22 +7,44 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Empareja los medios de transporte:",
       "questions": [
         {
-          "question": "Empareja los medios de transporte:",
+          "question": "Train",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Tren|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Bus",
+          "options": [
+            "[[Autobús|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Plane",
+          "options": [
+            "[[Avión|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Boat",
+          "options": [
+            "[[Barco|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -57,22 +79,20 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "I buy my ticket at the bus ________. (estación)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el lugar:",
       "questions": [
         {
           "question": "I buy my ticket at the bus ________. (estación)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[station|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -155,22 +175,20 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "Wait for me ________ the station.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la preposición (on/at):",
       "questions": [
         {
           "question": "Wait for me ________ the station.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[at|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -203,22 +221,20 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "The train ________ at 9:00 AM. (sale)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la frase:",
       "questions": [
         {
           "question": "The train ________ at 9:00 AM. (sale)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[leaves|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -227,22 +243,19 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Compra un billete:",
       "questions": [
         {
-          "question": "Compra un billete:",
+          "question": "A ticket to Oxford, please.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -277,22 +290,20 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "A: Which platform for the London train?\nB: Platform ________ 4. (número)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el diálogo:",
       "questions": [
         {
           "question": "A: Which platform for the London train?\nB: Platform ________ 4. (número)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[number|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {

@@ -7,22 +7,44 @@ export const UNIT_37_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Relaciona la habilidad con su nombre en inglés:",
       "questions": [
         {
-          "question": "Relaciona la habilidad con su nombre en inglés:",
+          "question": "Paint",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Pintar|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Type",
+          "options": [
+            "[[Escribir a máquina|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Code",
+          "options": [
+            "[[Programar|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Cook",
+          "options": [
+            "[[Cocinar|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -57,22 +79,20 @@ export const UNIT_37_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "Fish can ________ underwater. (nadar)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la habilidad física:",
       "questions": [
         {
           "question": "Fish can ________ underwater. (nadar)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[swim|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -155,22 +175,20 @@ export const UNIT_37_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I am ________ at remembering names.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con el opuesto de 'good at':",
       "questions": [
         {
           "question": "I am ________ at remembering names.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[bad|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -203,22 +221,19 @@ export const UNIT_37_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena la pregunta:",
       "questions": [
         {
-          "question": "Ordena la pregunta:",
+          "question": "Who can sing in your family ?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -227,22 +242,20 @@ export const UNIT_37_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "________ can help me with this computer?",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con 'Who' o 'Can':",
       "questions": [
         {
           "question": "________ can help me with this computer?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Who|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {

@@ -7,22 +7,36 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Empareja cada conector con su función:",
       "questions": [
         {
-          "question": "Empareja cada conector con su función:",
+          "question": "And",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Añadir información (+)|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "But",
+          "options": [
+            "[[Contrastar ideas (+/-)|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Because",
+          "options": [
+            "[[Dar una razón (¿Por qué?)|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -57,22 +71,20 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "I speak English ________ Spanish.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con el conector de adición:",
       "questions": [
         {
           "question": "I speak English ________ Spanish.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[and|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -105,22 +117,19 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena la frase con 'and':",
       "questions": [
         {
-          "question": "Ordena la frase con 'and':",
+          "question": "She is tall and beautiful",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -129,22 +138,20 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I can swim ________ I can't drive.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con 'and' o 'but':",
       "questions": [
         {
           "question": "I can swim ________ I can't drive.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[but|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -177,22 +184,20 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I am happy ________ it is my birthday.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con el conector de razón:",
       "questions": [
         {
           "question": "I am happy ________ it is my birthday.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[because|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -227,22 +232,19 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena la frase:",
       "questions": [
         {
-          "question": "Ordena la frase:",
+          "question": "He is tired because he is at work",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {

@@ -7,22 +7,44 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Empareja los verbos de viaje:",
       "questions": [
         {
-          "question": "Empareja los verbos de viaje:",
+          "question": "Visit",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Visitar|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Stay",
+          "options": [
+            "[[Quedarse / Alojarse|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Arrive",
+          "options": [
+            "[[Llegar|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Travel",
+          "options": [
+            "[[Viajar|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -57,22 +79,20 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "I buy ________ for my family. (recuerdos/souvenirs)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la frase:",
       "questions": [
         {
           "question": "I buy ________ for my family. (recuerdos/souvenirs)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[souvenirs|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -129,22 +149,20 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "We arrive ________ London in the morning.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con 'at' o 'in':",
       "questions": [
         {
           "question": "We arrive ________ London in the morning.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[in|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -177,22 +195,20 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I ________ (not) stay in expensive hotels.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la frase negativa:",
       "questions": [
         {
           "question": "I ________ (not) stay in expensive hotels.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[don't|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -201,22 +217,19 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena la actividad:",
       "questions": [
         {
-          "question": "Ordena la actividad:",
+          "question": "We always take many photos.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -251,22 +264,20 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "Dear Mom, I ________ London today. It is beautiful! (visitar)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el mensaje:",
       "questions": [
         {
           "question": "Dear Mom, I ________ London today. It is beautiful! (visitar)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[visit|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {

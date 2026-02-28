@@ -7,22 +7,20 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "There is ________ butter in the fridge.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con 'some':",
       "questions": [
         {
           "question": "There is ________ butter in the fridge.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[some|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -31,22 +29,19 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena: 'Necesitamos algo de queso'",
       "questions": [
         {
-          "question": "Ordena: 'Necesitamos algo de queso'",
+          "question": "We need some cheese",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -55,22 +50,36 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une el ingrediente con su nombre:",
       "questions": [
         {
-          "question": "Une el ingrediente con su nombre:",
+          "question": "Salt",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Sal|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Sugar",
+          "options": [
+            "[[Azúcar|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Flour",
+          "options": [
+            "[[Harina|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -105,22 +114,20 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "Do you have ________ apples?",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la pregunta:",
       "questions": [
         {
           "question": "Do you have ________ apples?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[any|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -201,22 +208,20 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I have ________ cookies, but I don't have ________ milk.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con 'some' o 'any':",
       "questions": [
         {
           "question": "I have ________ cookies, but I don't have ________ milk.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[some, any|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -225,22 +230,19 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena: '¿Tienes algún plátano?'",
       "questions": [
         {
-          "question": "Ordena: '¿Tienes algún plátano?'",
+          "question": "Do you have any bananas",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -273,22 +275,20 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I don't have ________ money. Do you have ________?",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el texto:",
       "questions": [
         {
           "question": "I don't have ________ money. Do you have ________?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[any, any|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {

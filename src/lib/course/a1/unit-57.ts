@@ -33,22 +33,44 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une los objetos del salón:",
       "questions": [
         {
-          "question": "Une los objetos del salón:",
+          "question": "Rug",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Alfombra|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Vase",
+          "options": [
+            "[[Jarrón|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Clock",
+          "options": [
+            "[[Reloj de pared|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Lamp",
+          "options": [
+            "[[Lámpara|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -107,22 +129,20 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "One lamp, two ________.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el plural de 'lamp':",
       "questions": [
         {
           "question": "One lamp, two ________.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[lamps|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -131,22 +151,19 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena: 'Hay tres relojes en la pared'",
       "questions": [
         {
-          "question": "Ordena: 'Hay tres relojes en la pared'",
+          "question": "There are three clocks on the wall",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -181,22 +198,20 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "One box, many ________.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el plural de 'box':",
       "questions": [
         {
           "question": "One box, many ________.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[boxes|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -229,22 +244,44 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une el singular con su plural irregular:",
       "questions": [
         {
-          "question": "Une el singular con su plural irregular:",
+          "question": "Person",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[People|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Child",
+          "options": [
+            "[[Children|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Foot",
+          "options": [
+            "[[Feet|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Tooth",
+          "options": [
+            "[[Teeth|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -351,22 +388,20 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "There are many ________ (person) in the room and five ________ (mirror) on the wall.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Escribe el plural correcto:",
       "questions": [
         {
           "question": "There are many ________ (person) in the room and five ________ (mirror) on the wall.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[people, mirrors|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {

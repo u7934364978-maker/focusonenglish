@@ -7,22 +7,44 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Empareja las actividades de vacaciones:",
       "questions": [
         {
-          "question": "Empareja las actividades de vacaciones:",
+          "question": "Sunbathing",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Tomar el sol|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Swimming",
+          "options": [
+            "[[Nadar|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Sightseeing",
+          "options": [
+            "[[Hacer turismo|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Relaxing",
+          "options": [
+            "[[Relajarse|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -57,22 +79,20 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "I write a ________ to my family. (postal)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el objeto:",
       "questions": [
         {
           "question": "I write a ________ to my family. (postal)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[postcard|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -129,22 +149,20 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "Usually I work, but today I am ________. (relajándome)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el contraste:",
       "questions": [
         {
           "question": "Usually I work, but today I am ________. (relajándome)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[relaxing|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -177,22 +195,20 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "We ________ visit museums on holiday. (a menudo)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la frase:",
       "questions": [
         {
           "question": "We ________ visit museums on holiday. (a menudo)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[often|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -201,22 +217,19 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Describe tus vacaciones:",
       "questions": [
         {
-          "question": "Describe tus vacaciones:",
+          "question": "I am sunbathing on the beach.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -251,22 +264,20 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "The weather is hot. We ________ many photos of the city. (sacamos/tomamos)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la postal:",
       "questions": [
         {
           "question": "The weather is hot. We ________ many photos of the city. (sacamos/tomamos)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[take|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {

@@ -33,22 +33,20 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I don't have ________ time, but I have ________ books.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con 'much' o 'many':",
       "questions": [
         {
           "question": "I don't have ________ time, but I have ________ books.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[much, many|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -57,22 +55,19 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena: '¿Cuántas manzanas tienes?'",
       "questions": [
         {
-          "question": "Ordena: '¿Cuántas manzanas tienes?'",
+          "question": "How many apples do you have",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -81,22 +76,36 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une el cuantificador con el tipo de nombre:",
       "questions": [
         {
-          "question": "Une el cuantificador con el tipo de nombre:",
+          "question": "Much",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Uncountable (singular)|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Many",
+          "options": [
+            "[[Countable (plural)|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "A lot of",
+          "options": [
+            "[[Both types|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -131,22 +140,20 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I have ________ friends.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa: 'Tengo unos pocos amigos'",
       "questions": [
         {
           "question": "I have ________ friends.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[a few|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -277,22 +284,19 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena: 'Hay mucha gente hoy'",
       "questions": [
         {
-          "question": "Ordena: 'Hay mucha gente hoy'",
+          "question": "There are a lot of people today",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -325,22 +329,20 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "How ________ people are there? There aren't ________, only ________.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el texto:",
       "questions": [
         {
           "question": "How ________ people are there? There aren't ________, only ________.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[many, many, a few|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {

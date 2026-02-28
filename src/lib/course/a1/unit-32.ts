@@ -7,22 +7,44 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une cada deporte con su imagen (palabra):",
       "questions": [
         {
-          "question": "Une cada deporte con su imagen (palabra):",
+          "question": "Football",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Fútbol|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Swimming",
+          "options": [
+            "[[Natación|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Basketball",
+          "options": [
+            "[[Baloncesto|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Cycling",
+          "options": [
+            "[[Ciclismo|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -31,22 +53,20 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "Every morning I ________ swimming.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con 'play' o 'go':",
       "questions": [
         {
           "question": "Every morning I ________ swimming.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[go|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -81,22 +101,44 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Relaciona los hobbies:",
       "questions": [
         {
-          "question": "Relaciona los hobbies:",
+          "question": "Reading",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Lectura|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Painting",
+          "options": [
+            "[[Pintura|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Cooking",
+          "options": [
+            "[[Cocinar|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Gardening",
+          "options": [
+            "[[Jardinería|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -105,22 +147,20 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "I ________ listening to music. (me encanta)",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con el verbo de interés:",
       "questions": [
         {
           "question": "I ________ listening to music. (me encanta)",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[love|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -203,22 +243,20 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "He likes ________ (paint) pictures.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma -ing:",
       "questions": [
         {
           "question": "He likes ________ (paint) pictures.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[painting|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {

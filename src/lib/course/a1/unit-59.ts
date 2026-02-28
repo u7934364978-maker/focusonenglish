@@ -33,22 +33,44 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une las aficiones:",
       "questions": [
         {
-          "question": "Une las aficiones:",
+          "question": "Paint",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Pintar|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Dance",
+          "options": [
+            "[[Bailar|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Cook",
+          "options": [
+            "[[Cocinar|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Swim",
+          "options": [
+            "[[Nadar|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -107,22 +129,20 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I like ________.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa: 'Me gusta NADAR'",
       "questions": [
         {
           "question": "I like ________.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[swimming|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -131,22 +151,19 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena: 'Ella ama cocinar para sus amigos'",
       "questions": [
         {
-          "question": "Ordena: 'Ella ama cocinar para sus amigos'",
+          "question": "She loves cooking for her friends",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -181,22 +198,20 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I don't like ________ to rock music.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa: 'No me gusta ESCUCHAR música rock'",
       "questions": [
         {
           "question": "I don't like ________ to rock music.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[listening|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -229,22 +244,44 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une las actividades de tiempo libre:",
       "questions": [
         {
-          "question": "Une las actividades de tiempo libre:",
+          "question": "Go for a walk",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Dar un paseo|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Watch a movie",
+          "options": [
+            "[[Ver una peli|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Meet friends",
+          "options": [
+            "[[Quedar con amigos|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Listen to music",
+          "options": [
+            "[[Escuchar música|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -327,22 +364,20 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "I love ________ (read) and I enjoy ________ (dance).",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa con la forma -ing:",
       "questions": [
         {
           "question": "I love ________ (read) and I enjoy ________ (dance).",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[reading, dancing|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {

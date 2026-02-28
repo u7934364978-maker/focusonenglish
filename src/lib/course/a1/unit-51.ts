@@ -33,22 +33,44 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "matching",
+      "title": "Matching",
       "instructions": "Une los objetos con su nombre:",
       "questions": [
         {
-          "question": "Une los objetos con su nombre:",
+          "question": "Trolley",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Carrito|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Basket",
+          "options": [
+            "[[Cesta|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Checkout",
+          "options": [
+            "[[Caja|]]",
+            "[[incorrect|]]"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Shelf",
+          "options": [
+            "[[Estante|]]",
+            "[[incorrect|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
@@ -131,22 +153,20 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "Where ________ the bread?",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa la pregunta: '¿Dónde está el pan?'",
       "questions": [
         {
           "question": "Where ________ the bread?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[is|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -155,22 +175,19 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena la frase: 'Está en el pasillo 5'",
       "questions": [
         {
-          "question": "Ordena la frase: 'Está en el pasillo 5'",
+          "question": "It is in aisle five",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -205,22 +222,20 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "grammar",
     "difficulty": "medium",
-    "transcript": "The apples are ________ the shelf.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa: 'Las manzanas están en el estante'",
       "questions": [
         {
           "question": "The apples are ________ the shelf.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[on|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "grammar"
   },
   {
@@ -327,22 +342,19 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
-    "transcript": "",
     "content": {
-      "title": "reorder_words",
+      "title": "Reorder Words",
       "instructions": "Ordena: 'Paga en la caja'",
       "questions": [
         {
-          "question": "Ordena: 'Paga en la caja'",
+          "question": "Pay at the checkout",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[correct|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "syntax"
   },
   {
@@ -375,22 +387,20 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
-    "transcript": "I put my groceries in the ________. I pay at the ________.",
     "content": {
-      "title": "fill_blanks",
+      "title": "Fill in the blanks",
       "instructions": "Completa el texto:",
       "questions": [
         {
           "question": "I put my groceries in the ________. I pay at the ________.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[basket, checkout|]]",
+            "[[other|]]"
           ],
           "correctAnswer": 0
         }
       ]
     },
-    "audioUrl": "",
     "topicName": "vocabulary"
   },
   {
