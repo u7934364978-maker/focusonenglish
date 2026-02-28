@@ -3,22 +3,13 @@ import "./globals.css";
 import { OrganizationSchema, WebsiteSchema } from "./schema";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Cookiebot from "@/components/Cookiebot";
-import { Space_Grotesk, DM_Sans } from "next/font/google";
+import { Nunito } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 
-// Tipografía arriesgada y fresca para títulos
-const spaceGrotesk = Space_Grotesk({
+const nunito = Nunito({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-space-grotesk",
-  display: "swap",
-});
-
-// Tipografía moderna y cálida para cuerpo
-const dmSans = DM_Sans({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-dm-sans",
+  weight: ["400", "500", "600", "700", "800", "900"],
+  variable: "--font-nunito",
   display: "swap",
 });
 
@@ -100,7 +91,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={`scroll-smooth ${spaceGrotesk.variable} ${dmSans.variable}`} suppressHydrationWarning>
+    <html lang="es" className={`scroll-smooth ${nunito.variable}`} suppressHydrationWarning>
       <head>
         {/* Schema.org structured data */}
         <OrganizationSchema />

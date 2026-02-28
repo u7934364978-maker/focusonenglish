@@ -54,10 +54,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        // Tipografía arriesgada y fresca para títulos
-        'display': ['var(--font-space-grotesk)', 'Nunito', 'system-ui', 'sans-serif'],
-        // Tipografía moderna y cálida para cuerpo
-        'sans': ['var(--font-dm-sans)', 'Nunito', 'Poppins', 'system-ui', 'sans-serif'],
+        'display': ['var(--font-nunito)', 'Nunito', 'system-ui', 'sans-serif'],
+        'sans': ['var(--font-nunito)', 'Nunito', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
         'coral': '0 4px 16px rgba(255, 107, 107, 0.3)',
