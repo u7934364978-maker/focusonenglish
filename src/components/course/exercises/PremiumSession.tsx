@@ -1576,53 +1576,65 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         const hasBlank = /_{2,}/.test(interaction.stimulus_en || '');
         const isSolutionInPrompt = interaction.prompt_es && interaction.correct_answer && 
                                    interaction.prompt_es.toLowerCase().trim() === interaction.correct_answer.toLowerCase().trim();
+        const hasOptions = interaction.options && interaction.options.length > 0;
         
         // Fallback for transformation exercises that are actually multiple choice
-        if (!hasBlank && interaction.options && interaction.options.length > 0) {
-          return (
-            <div className="w-full max-w-2xl mx-auto space-y-8">
-              <h2 className="text-2xl font-black text-slate-800 text-center">{interaction.prompt_es}</h2>
-              {interaction.stimulus_en && (
-                <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 text-center mb-8 relative group">
-                  <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <p className="text-2xl font-bold text-slate-700 leading-relaxed whitespace-pre-line">
-                    {interaction.stimulus_en}
-                  </p>
-                </div>
-              )}
-              <div className="grid gap-4">
-                {interaction.options.map((opt: any) => (
-                  <div
-                    key={opt.id}
-                    role="button"
-                    tabIndex={0}
-                    onClick={() => !feedback && setSelectedOption(opt.id)}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter' || e.key === ' ') {
-                        e.preventDefault();
-                        if (!feedback) setSelectedOption(opt.id);
-                      }
-                    }}
-                    className={`w-full p-6 text-left border-2 border-b-4 rounded-3xl font-bold text-xl transition-all flex items-center justify-between group/opt cursor-pointer ${
-                      feedback 
-                        ? opt.id === interaction.correct_answer ? 'border-green-500 bg-green-50 text-green-700' : 'border-slate-100 bg-white text-slate-300'
-                        : selectedOption === opt.id 
-                          ? 'border-indigo-500 bg-indigo-50 text-indigo-700 active:translate-y-1'
-                          : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50 active:translate-y-1'
-                    } ${feedback ? 'pointer-events-none' : ''}`}
-                  >
-                    <span className="flex items-center gap-3">
-                      {opt.text}
-                      {isLikelyEnglish(opt.text) && (
-                        <PronunciationButton text={opt.text} className="opacity-0 group-hover/opt:opacity-100 transition-opacity" />
-                      )}
-                    </span>
-                    {feedback && opt.id === interaction.correct_answer && <CheckCircle2 className="w-6 h-6" />}
+        if ((!hasBlank || hasOptions) && interaction.options && interaction.options.length > 0) {
+          const gapsCount = (interaction.stimulus_en?.match(/_{2,}/g) || []).length;
+          
+          // If multiple blanks, we probably shouldn't use simple MC buttons unless it's designed for it
+          // But for A1 "Completa la frase", it's usually 1 blank and 2 options.
+          if (gapsCount <= 1) {
+            return (
+              <div className="w-full max-w-2xl mx-auto space-y-8">
+                <h2 className="text-2xl font-black text-slate-800 text-center">
+                  {isSolutionInPrompt ? "Completa el espacio:" : interaction.prompt_es}
+                </h2>
+                {interaction.stimulus_en && (
+                  <div className="bg-slate-50 p-8 rounded-3xl border-2 border-slate-100 text-center mb-8 relative group">
+                    <PronunciationButton text={interaction.stimulus_en} size="md" className="absolute right-4 top-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                    <p className="text-2xl font-bold text-slate-700 leading-relaxed whitespace-pre-line">
+                      {interaction.stimulus_en.includes('___') 
+                        ? interaction.stimulus_en.replace(/_{2,}/g, ' ' + (selectedOption ? interaction.options.find((o: any) => o.id === selectedOption)?.text : '...') + ' ')
+                        : interaction.stimulus_en}
+                    </p>
                   </div>
-                ))}
+                )}
+                <div className="grid gap-4">
+                  {interaction.options.map((opt: any) => (
+                    <div
+                      key={opt.id}
+                      role="button"
+                      tabIndex={0}
+                      onClick={() => !feedback && setSelectedOption(opt.id)}
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                          e.preventDefault();
+                          if (!feedback) setSelectedOption(opt.id);
+                        }
+                      }}
+                      className={`w-full p-6 text-left border-2 border-b-4 rounded-3xl font-bold text-xl transition-all flex items-center justify-between group/opt cursor-pointer ${
+                        feedback 
+                          ? opt.text.toLowerCase().trim() === interaction.correct_answer?.toLowerCase().trim() ? 'border-green-500 bg-green-50 text-green-700' : 
+                            (selectedOption === opt.id ? 'border-red-500 bg-red-50 text-red-700' : 'border-slate-100 bg-white text-slate-300')
+                          : selectedOption === opt.id 
+                            ? 'border-indigo-500 bg-indigo-50 text-indigo-700 active:translate-y-1'
+                            : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50 active:translate-y-1'
+                      } ${feedback ? 'pointer-events-none' : ''}`}
+                    >
+                      <span className="flex items-center gap-3">
+                        {opt.text}
+                        {isLikelyEnglish(opt.text) && (
+                          <PronunciationButton text={opt.text} className="opacity-0 group-hover/opt:opacity-100 transition-opacity" />
+                        )}
+                      </span>
+                      {feedback && opt.text.toLowerCase().trim() === interaction.correct_answer?.toLowerCase().trim() && <CheckCircle2 className="w-6 h-6" />}
+                    </div>
+                  ))}
+                </div>
               </div>
-            </div>
-          );
+            );
+          }
         }
 
         return (

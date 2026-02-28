@@ -513,32 +513,59 @@ const ExerciseRenderer = forwardRef<ExerciseRendererRef, Props>(({ ex, onResult,
 
   // --- FALLBACK FOR FILL BLANKS ---
   if (ex.type === "fillBlanks") {
-    const parts = (ex.text || "").split("___");
+    const fex = ex as FillBlanksExercise;
+    const parts = (fex.text || "").split("___");
+    const hasChoices = fex.choices && fex.choices.length > 0;
+
     return (
       <div className="space-y-4">
-        {ex.instructions && <p className="text-sm font-bold text-slate-500 uppercase tracking-tight">{ex.instructions}</p>}
+        {fex.instructions && <p className="text-sm font-bold text-slate-500 uppercase tracking-tight">{fex.instructions}</p>}
         <div className="leading-loose text-slate-800 font-medium">
           {parts.map((part, i) => (
             <span key={i}>
               {part}
               {i < parts.length - 1 && (
-                <input
-                  type="text"
-                  value={fillAnswers[i] || ""}
-                  onChange={(e) => {
-                    const next = [...fillAnswers];
-                    next[i] = e.target.value;
-                    setFillAnswers(next);
-                  }}
-                  disabled={submitted}
-                  className={`mx-1 inline-block w-32 rounded-lg border px-2 py-1 text-center font-bold outline-none transition ${
-                    submitted
-                      ? isCorrect
-                        ? "border-green-500 bg-green-50 text-green-700"
-                        : "border-red-500 bg-red-50 text-red-700"
-                      : "border-slate-300 focus:border-slate-900 shadow-sm"
-                  }`}
-                />
+                hasChoices && fex.choices![i] ? (
+                  <select
+                    value={fillAnswers[i] || ""}
+                    onChange={(e) => {
+                      const next = [...fillAnswers];
+                      next[i] = e.target.value;
+                      setFillAnswers(next);
+                    }}
+                    disabled={submitted}
+                    className={`mx-1 inline-block rounded-lg border px-2 py-1 font-bold outline-none transition appearance-none cursor-pointer ${
+                      submitted
+                        ? isCorrect
+                          ? "border-green-500 bg-green-50 text-green-700"
+                          : "border-red-500 bg-red-50 text-red-700"
+                        : "border-slate-300 focus:border-slate-900 shadow-sm bg-white hover:border-slate-400"
+                    }`}
+                  >
+                    <option value="">...</option>
+                    {fex.choices![i].map((choice, cIdx) => (
+                      <option key={cIdx} value={choice}>{choice}</option>
+                    ))}
+                  </select>
+                ) : (
+                  <input
+                    type="text"
+                    value={fillAnswers[i] || ""}
+                    onChange={(e) => {
+                      const next = [...fillAnswers];
+                      next[i] = e.target.value;
+                      setFillAnswers(next);
+                    }}
+                    disabled={submitted}
+                    className={`mx-1 inline-block w-32 rounded-lg border px-2 py-1 text-center font-bold outline-none transition ${
+                      submitted
+                        ? isCorrect
+                          ? "border-green-500 bg-green-50 text-green-700"
+                          : "border-red-500 bg-red-50 text-red-700"
+                        : "border-slate-300 focus:border-slate-900 shadow-sm"
+                    }`}
+                  />
+                )
               )}
             </span>
           ))}

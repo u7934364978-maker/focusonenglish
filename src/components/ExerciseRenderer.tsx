@@ -157,7 +157,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
       if (q.type === 'true-false') {
         correct = String(q.correctAnswer).toLowerCase() === String(userAnswer).toLowerCase();
-      } else if (q.options && Array.isArray(q.options) && exercise.type !== 'fill-blank') {
+      } else if (q.options && Array.isArray(q.options)) {
         correct = checkMultipleChoiceCorrect(q, userAnswer);
       } else {
         const userAnswerText = typeof userAnswer === 'string' ? userAnswer : '';
@@ -305,8 +305,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             </div>
           )}
 
-          {/* Multiple Choice */}
-          {q.options && Array.isArray(q.options) && q.type !== 'fill-blank' && (
+          {/* Multiple Choice (including fill-blank with options) */}
+          {q.options && Array.isArray(q.options) && (
             <div className="space-y-2.5">
               {q.options.map((option: any, optIndex: number) => {
                 const isUserAnswer = userAnswer === optIndex;
@@ -357,8 +357,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             </div>
           )}
 
-          {/* Fill Blank */}
-          {(q.type === 'fill-blank' || exercise.type === 'fill-blank') && (
+          {/* Fill Blank (only if no options) */}
+          {(q.type === 'fill-blank' || exercise.type === 'fill-blank') && (!q.options || !Array.isArray(q.options)) && (
             <div className="space-y-1.5">
               <label className="text-xs font-black uppercase tracking-[0.12em] text-slate-400 pl-1">
                 ✏️ <TranslatedText text="[[Your answer|Tu respuesta]]" />
