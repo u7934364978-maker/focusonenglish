@@ -42,24 +42,26 @@ Save to `{@artifacts_path}/spec.md` with:
 - Delivery phases (incremental, testable milestones)
 - Verification approach using project lint/test commands
 
-### [ ] Step: Planning
+### [x] Step: Planning
+<!-- chat-id: 8c79fdb4-caa7-4c71-9194-caf3ed7eecf5 -->
 
-Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
+This fix is trivial (single-line change in one function). No phased delivery is needed.
 
-1. Break down the work into concrete tasks
-2. Each task should reference relevant contracts and include verification steps
-3. Replace the Implementation step below with the planned tasks
+### [ ] Step: Fix getModuleColor crash in UnitCard.tsx
 
-Rule of thumb for step size: each step should represent a coherent unit of work (e.g., implement a component, add an API endpoint). Avoid steps that are too granular (single function) or too broad (entire feature).
+Fix the `TypeError: Cannot read properties of undefined (reading 'hover')` crash on `/curso-a1`.
 
-Important: unit tests must be part of each implementation task, not separate tasks. Each task should implement the code and its tests together, if relevant.
-
-If the feature is trivial and doesn't warrant full specification, update this workflow to remove unnecessary steps and explain the reasoning to the user.
-
-Save to `{@artifacts_path}/plan.md`.
-
-### [ ] Step: Implementation
-
-This step should be replaced with detailed implementation tasks from the Planning step.
-
-If Planning didn't replace this step, execute the tasks in `{@artifacts_path}/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.
+- **File**: `src/components/course/preview/UnitCard.tsx`, function `getModuleColor` (line 22)
+- **Change**: clamp `unitNumber` to a minimum of 1 before computing the module index:
+  ```ts
+  function getModuleColor(unitNumber: number) {
+    const safeUnitNumber = Math.max(1, unitNumber);
+    const moduleIndex = Math.floor((safeUnitNumber - 1) / 5) % MODULE_COLORS.length;
+    return MODULE_COLORS[moduleIndex];
+  }
+  ```
+- **Why**: `unit0.json` produces `unitNumber = 0`; `Math.floor(-0.2) = -1`; `MODULE_COLORS[-1]` is `undefined`; accessing `.hover` on it throws the uncaught TypeError that blanks the page.
+- **Verification**:
+  - [ ] `npm run lint` passes
+  - [ ] `npm run build` passes (type-checks)
+  - [ ] Manual: `/curso-a1` renders without the "Application error" banner
