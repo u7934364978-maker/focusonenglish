@@ -20,114 +20,34 @@
       "content": [
         {
           "interaction_id": "A1_U1_I1",
-          "type": "matching",
-          "prompt_es": "Relaciona los saludos con su traducción:",
-          "pairs": [
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[greeting|saludo]] [[for|para]] 8:00 AM.",
+          "mastery_tag": "greetings",
+          "complexity": 1,
+          "stimulus_en": "8:00 AM",
+          "options": [
             {
-              "id": "p1",
-              "left": "[[Hello|Hola]]",
-              "right": "Hola"
+              "id": "o1",
+              "text": "[[Good morning|Buenos días]]"
             },
             {
-              "id": "p2",
-              "left": "[[Good morning|Buenos días]]",
-              "right": "Buenos días"
+              "id": "o2",
+              "text": "[[Good evening|Buenas noches (tarde)]]"
             },
             {
-              "id": "p3",
-              "left": "[[Good afternoon|Buenas tardes]]",
-              "right": "Buenas tardes"
-            },
-            {
-              "id": "p4",
-              "left": "[[Good evening|Buenas noches (saludo)]]",
-              "right": "Buenas noches (saludo)"
+              "id": "o3",
+              "text": "[[Good night|Buenas noches (despedida)]]"
             }
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary:greetings",
-          "complexity": 1
+          "correct_answer": "o1"
         },
         {
           "interaction_id": "A1_U1_I2",
-          "type": "matching",
-          "prompt_es": "Relaciona los saludos con su traducción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Goodbye|Adiós]]",
-              "right": "Adiós"
-            },
-            {
-              "id": "p2",
-              "left": "[[Bye|Chao]]",
-              "right": "Chao"
-            },
-            {
-              "id": "p3",
-              "left": "[[Hi|Hola (informal)]]",
-              "right": "Hola (informal)"
-            },
-            {
-              "id": "p4",
-              "left": "[[Good night|Buenas noches (despedida)]]",
-              "right": "Buenas noches (despedida)"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary:greetings",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "A1_U1_I3",
-          "type": "matching",
-          "prompt_es": "Relaciona los saludos con su traducción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Hello|Hola]]",
-              "right": "Hola"
-            },
-            {
-              "id": "p2",
-              "left": "[[Good morning|Buenos días]]",
-              "right": "Buenos días"
-            },
-            {
-              "id": "p3",
-              "left": "[[Good afternoon|Buenas tardes]]",
-              "right": "Buenas tardes"
-            },
-            {
-              "id": "p4",
-              "left": "[[Good evening|Buenas noches (saludo)]]",
-              "right": "Buenas noches (saludo)"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary:greetings",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "A1_U1_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dirías en inglés: \"Buenos días, ¿cómo estás?\"?",
-          "stimulus_en": "[[________|Buenos días]], how are you?",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[greeting|saludo]] [[for|para]] 3:00 PM.",
+          "mastery_tag": "greetings",
+          "complexity": 1,
+          "stimulus_en": "3:00 PM",
           "options": [
             {
               "id": "o1",
@@ -135,144 +55,781 @@
             },
             {
               "id": "o2",
-              "text": "[[Good night|Buenas noches]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Goodbye|Adiós]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary:greetings",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "A1_U1_I5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dirías en inglés: \"Hola, soy profesor.\"?",
-          "stimulus_en": "[[________|Hola]], I am a teacher.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Hello|Hola]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Bye|Chao]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Surname|Apellido]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary:greetings",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "A1_U1_I6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dirías en inglés: \"¡Adiós, nos vemos pronto!\"?",
-          "stimulus_en": "[[________|Adiós]], see you soon!",
-          "options": [
-            {
-              "id": "o3",
-              "text": "[[Name|Nombre]]"
-            },
-            {
-              "id": "o1",
-              "text": "[[Goodbye|Adiós]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Hi|Hola]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary:greetings",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "A1_U1_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dirías en inglés: \"Buenas noches, duerme bien.\"?",
-          "stimulus_en": "[[________|Buenas noches]], sleep well.",
-          "options": [
-            {
-              "id": "o3",
-              "text": "[[Hello|Hola]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Good morning|Buenos días]]"
-            },
-            {
-              "id": "o1",
-              "text": "[[Good night|Buenas noches]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary:greetings",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "A1_U1_I8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dirías en inglés: \"Hola, mi nombre es David.\"?",
-          "stimulus_en": "[[________|Hola]], my name is David.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Hi|Hola]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Bye|Chao]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Teacher|Profesor]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary:greetings",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "A1_U1_I9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dirías en inglés: \"Buenas tardes, clase.\"?",
-          "stimulus_en": "[[________|Buenas tardes]], class.",
-          "options": [
-            {
-              "id": "o1",
               "text": "[[Good afternoon|Buenas tardes]]"
             },
             {
               "id": "o3",
-              "text": "[[Hi|Hola]]"
+              "text": "[[Goodbye|Adiós]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U1_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[greeting|saludo]] [[for|para]] 7:00 PM.",
+          "mastery_tag": "greetings",
+          "complexity": 1,
+          "stimulus_en": "7:00 PM",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Good morning|Buenos días]]"
             },
             {
               "id": "o2",
-              "text": "[[Good evening|Buenas noches]]"
+              "text": "[[Good evening|Buenas noches (saludo)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Good night|Buenas noches (despedida)]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary:greetings",
-          "complexity": 2
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "A1_U1_I10",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase: \"Hola, mi nombre es John\"",
+          "interaction_id": "A1_U1_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Which|Cuál]] [[is|es]] [[a|una]] [[farewell|despedida]]?",
+          "mastery_tag": "farewells",
+          "complexity": 1,
+          "stimulus_en": "[[Bye|Adiós]]",
           "options": [
             {
-              "id": "w1",
+              "id": "o1",
               "text": "[[Hello|Hola]]"
             },
             {
+              "id": "o2",
+              "text": "[[Hi|Hola]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Goodbye|Adiós]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U1_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|el]] [[informal|informal]] [[greeting|saludo]].",
+          "mastery_tag": "greetings",
+          "complexity": 1,
+          "stimulus_en": "[[Friend|Amigo]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Good morning|Buenos días]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Hi|Hola]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Goodbye|Adiós]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U1_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[farewell|despedida]] [[at|por la]] [[night|noche]].",
+          "mastery_tag": "farewells",
+          "complexity": 1,
+          "stimulus_en": "11:00 PM ([[Leaving|Yéndose]])",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Good morning|Buenos días]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Good evening|Buenas noches (saludo)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Good night|Buenas noches (despedida)]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U1_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|el]] [[greeting|saludo]].",
+          "mastery_tag": "greetings",
+          "complexity": 1,
+          "stimulus_en": "Good ________ (8:00 AM)",
+          "correct_answer": "morning"
+        },
+        {
+          "interaction_id": "A1_U1_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|el]] [[greeting|saludo]].",
+          "mastery_tag": "greetings",
+          "complexity": 1,
+          "stimulus_en": "Good _________ (4:00 PM)",
+          "correct_answer": "afternoon"
+        },
+        {
+          "interaction_id": "A1_U1_I9",
+          "type": "multiple-choice",
+          "prompt_es": "[[What|Qué]] [[is|es]] [[a|un]] [[synonym|sinónimo]] [[of|de]] '[[Hi|Hola]]'?",
+          "mastery_tag": "greetings",
+          "complexity": 1,
+          "stimulus_en": "[[Hi|Hola]] = ?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Hello|Hola]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Bye|Adiós]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Night|Noche]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U1_I10",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] '[[Goodbye|Adiós]]'.",
+          "mastery_tag": "farewells",
+          "complexity": 1,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Goodbye|Adiós]]"
+            },
+            {
               "id": "w2",
+              "text": "."
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Personal Information & Pronouns",
+      "content": [
+        {
+          "interaction_id": "A1_U1_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[question|pregunta]].",
+          "mastery_tag": "personal info",
+          "complexity": 1,
+          "stimulus_en": "[[To|Para]] [[know|saber]] [[someone's|el de alguien]] [[name|nombre]]:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[What|Cuál]] [[is|es]] [[your|tu]] [[name|nombre]]?"
+            },
+            {
+              "id": "o2",
+              "text": "[[How|Cómo]] [[is|es]] [[your|tu]] [[name|nombre]]?"
+            },
+            {
+              "id": "o3",
+              "text": "[[Where|Dónde]] [[is|es]] [[your|tu]] [[name|nombre]]?"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U1_I12",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "personal info",
+          "complexity": 1,
+          "stimulus_en": "[[My|Mi]] ____ [[is|es]] [[John|Juan]].",
+          "correct_answer": "name"
+        },
+        {
+          "interaction_id": "A1_U1_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[What|Qué]] [[is|es]] [[a|un]] '[[surname|apellido]]'?",
+          "mastery_tag": "personal info",
+          "complexity": 1,
+          "stimulus_en": "[[Surname|Apellido]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[First|Primer]] [[name|nombre]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Family|Familia]] [[name|nombre]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Nick|Apodo]] [[name|nombre]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U1_I14",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[with|con]] '[[surname|apellido]]'.",
+          "mastery_tag": "personal info",
+          "complexity": 1,
+          "stimulus_en": "[[Smith|Smith]] [[is|es]] [[my|mi]] ______.",
+          "correct_answer": "surname"
+        },
+        {
+          "interaction_id": "A1_U1_I15",
+          "type": "multiple-choice",
+          "prompt_es": "[[How|Cómo]] [[do|aux]] [[you|tú]] [[say|dices]] '[[Mucho|Nice]] [[gusto|to]] [[conocerte|meet]] [[you|you]]'?",
+          "mastery_tag": "personal info",
+          "complexity": 2,
+          "stimulus_en": "[[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Goodbye|Adiós]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Good morning|Buenos días]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U1_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "personal info",
+          "complexity": 2,
+          "stimulus_en": "[[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]], ____.",
+          "correct_answer": "too"
+        },
+        {
+          "interaction_id": "A1_U1_I17",
+          "type": "multiple-choice",
+          "prompt_es": "[[Who|Quién]] [[is|es]] '[[Mr.|Sr.]] [[Smith|Smith]]'?",
+          "mastery_tag": "personal info",
+          "complexity": 1,
+          "stimulus_en": "[[Mr.|Sr.]] [[Smith|Smith]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[A|Un]] [[man|hombre]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[A|Una]] [[woman|mujer]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A|Un]] [[child|niño]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U1_I18",
+          "type": "multiple-choice",
+          "prompt_es": "[[Who|Quién]] [[is|es]] '[[Ms.|Sra./Srta.]] [[Jones|Jones]]'?",
+          "mastery_tag": "personal info",
+          "complexity": 1,
+          "stimulus_en": "[[Ms.|Sra./Srta.]] [[Jones|Jones]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[A|Un]] [[man|hombre]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[A|Una]] [[woman|mujer]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A|Un]] [[dog|perro]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U1_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[question|pregunta]].",
+          "mastery_tag": "personal info",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[is|es]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[What|Cuál]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[your|tu]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[surname|apellido]]?"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ]
+        },
+        {
+          "interaction_id": "A1_U1_I20",
+          "type": "multiple-choice",
+          "prompt_es": "[[What|Qué]] [[does|aux]] '[[See|Ver]] [[you|a ti]] [[later|luego]]' [[mean|significar]]?",
+          "mastery_tag": "greetings",
+          "complexity": 1,
+          "stimulus_en": "[[See|Ver]] [[you|a ti]] [[later|luego]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Hello|Hola]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Goodbye|Adiós (Hasta luego)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Good morning|Buenos días]]"
+            }
+          ],
+          "correct_answer": "o2"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Verb 'to be' and Possessives",
+      "content": [
+        {
+          "interaction_id": "A1_U1_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[with|con]] '[[am|soy]]'.",
+          "mastery_tag": "verb to be",
+          "complexity": 1,
+          "stimulus_en": "[[I|Yo]] ____ [[a|un]] [[student|estudiante]].",
+          "correct_answer": "am"
+        },
+        {
+          "interaction_id": "A1_U1_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[with|con]] '[[are|eres]]'.",
+          "mastery_tag": "verb to be",
+          "complexity": 1,
+          "stimulus_en": "[[You|Tú]] ____ [[my|mi]] [[teacher|profesor]].",
+          "correct_answer": "are"
+        },
+        {
+          "interaction_id": "A1_U1_I23",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[verb|verbo]].",
+          "mastery_tag": "verb to be",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] (____) [[Maria|María]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[am|soy]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[are|eres]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[is|es]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U1_I24",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[verb|verbo]].",
+          "mastery_tag": "verb to be",
+          "complexity": 2,
+          "stimulus_en": "[[You|Tú]] (____) [[late|atrasado/tarde]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[am|estoy]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[are|estás]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[is|está]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U1_I25",
+          "type": "fill-blank",
+          "prompt_es": "[[Write|Escribe]] [[the|la]] [[contraction|contracción]] [[of|de]] '[[I|Yo]] [[am|soy]]'.",
+          "mastery_tag": "verb to be",
+          "complexity": 2,
+          "stimulus_en": "____ [[happy|feliz]].",
+          "correct_answer": "I'm"
+        },
+        {
+          "interaction_id": "A1_U1_I26",
+          "type": "fill-blank",
+          "prompt_es": "[[Write|Escribe]] [[the|la]] [[contraction|contracción]] [[of|de]] '[[You|Tú]] [[are|eres]]'.",
+          "mastery_tag": "verb to be",
+          "complexity": 2,
+          "stimulus_en": "______ [[a|un]] [[doctor|doctor]].",
+          "correct_answer": "You're"
+        },
+        {
+          "interaction_id": "A1_U1_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|el]] [[negative|negativo]].",
+          "mastery_tag": "verb to be",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] (____) [[sad|triste]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[am|soy]] [[not|no]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[are|eres]] [[not|no]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[not|no]] [[am|soy]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U1_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|el]] [[negative|negativo]].",
+          "mastery_tag": "verb to be",
+          "complexity": 2,
+          "stimulus_en": "[[You|Tú]] (____) [[tired|cansado]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[am|estoy]] [[not|no]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[are|estás]] [[not|no]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[is|está]] [[not|no]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U1_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]]: '[[I|Yo]] [[am|soy]] [[ready|listo]]'.",
+          "mastery_tag": "verb to be",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[am|soy]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[ready|listo]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[I|Yo]]"
+            },
+            {
+              "id": "w4",
+              "text": "."
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ]
+        },
+        {
+          "interaction_id": "A1_U1_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]]: '[[You|Tú]] [[are|eres]] [[fast|rápido]]'.",
+          "mastery_tag": "verb to be",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[fast|rápido]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[are|eres]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[You|Tú]]"
+            },
+            {
+              "id": "w4",
+              "text": "."
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ]
+        },
+        {
+          "interaction_id": "A1_U1_I31",
+          "type": "multiple-choice",
+          "prompt_es": "[[How|Cómo]] [[do|aux]] [[you|tú]] [[ask|preguntas]] '[[¿Estás|Are]] [[tú|you]] [[listo?|ready?]]'?",
+          "mastery_tag": "verb to be",
+          "complexity": 2,
+          "stimulus_en": "[[Ready|Listo]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[You|Tú]] [[are|estás]] [[ready|listo]]?"
+            },
+            {
+              "id": "o2",
+              "text": "[[Are|¿Estás]] [[you|tú]] [[ready|listo]]?"
+            },
+            {
+              "id": "o3",
+              "text": "[[Am|¿Estoy]] [[I|yo]] [[ready|listo]]?"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U1_I32",
+          "type": "multiple-choice",
+          "prompt_es": "[[How|Cómo]] [[do|aux]] [[you|tú]] [[ask|preguntas]] '[[¿Soy|Am]] [[yo|I]] [[late?|atrasado?]]'?",
+          "mastery_tag": "verb to be",
+          "complexity": 2,
+          "stimulus_en": "[[Late|Atrasado]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Am|¿Estoy]] [[I|yo]] [[late|atrasado]]?"
+            },
+            {
+              "id": "o2",
+              "text": "[[I|Yo]] [[am|estoy]] [[late|atrasado]]?"
+            },
+            {
+              "id": "o3",
+              "text": "[[Are|¿Estás]] [[you|tú]] [[late|atrasado]]?"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U1_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[short|corta]] [[answer|respuesta]].",
+          "mastery_tag": "verb to be",
+          "complexity": 2,
+          "stimulus_en": "[[Are|¿Estás]] [[you|tú]] [[OK|bien]]? [[Yes|Sí]], [[I|yo]] ____.",
+          "correct_answer": "am"
+        },
+        {
+          "interaction_id": "A1_U1_I34",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[short|corta]] [[answer|respuesta]].",
+          "mastery_tag": "verb to be",
+          "complexity": 2,
+          "stimulus_en": "[[Are|¿Estás]] [[you|tú]] [[tired|cansado]]? [[No|No]], [[I|yo]] [[am|soy]] ____.",
+          "correct_answer": "not"
+        },
+        {
+          "interaction_id": "A1_U1_I35",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]]: '[[Are|¿Estás]] [[you|tú]] [[here?|aquí?]]'.",
+          "mastery_tag": "verb to be",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[here|aquí]]?"
+            },
+            {
+              "id": "w2",
+              "text": "[[Are|¿Estás]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[you|tú]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U1_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|el]] [[correct|correcto]].",
+          "mastery_tag": "possessive adjectives",
+          "complexity": 1,
+          "stimulus_en": "[[I|Yo]] [[have|tengo]] [[a|un]] [[pen|bolígrafo]]. [[It|Esto]] [[is|es]] (____) [[pen|bolígrafo]].",
+          "options": [
+            {
+              "id": "o1",
               "text": "[[my|mi]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[your|tu]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I|yo]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U1_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|el]] [[correct|correcto]].",
+          "mastery_tag": "possessive adjectives",
+          "complexity": 1,
+          "stimulus_en": "[[You|Tú]] [[have|tienes]] [[a|un]] [[book|libro]]. [[It|Esto]] [[is|es]] (____) [[book|libro]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[my|mi]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[your|tu]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[you|tú]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U1_I38",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[with|con]] '[[my|mi]]'.",
+          "mastery_tag": "possessive adjectives",
+          "complexity": 2,
+          "stimulus_en": "[[This|Este]] [[is|es]] ____ [[house|casa]].",
+          "correct_answer": "my"
+        },
+        {
+          "interaction_id": "A1_U1_I39",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[with|con]] '[[your|tu]]'.",
+          "mastery_tag": "possessive adjectives",
+          "complexity": 2,
+          "stimulus_en": "[[Is|¿Es]] [[this|este]] ____ [[phone|teléfono]]?",
+          "correct_answer": "your"
+        },
+        {
+          "interaction_id": "A1_U1_I40",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]].",
+          "mastery_tag": "possessive adjectives",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[am|soy]] [[Alice|Alicia]]. (____) [[surname|apellido]] [[is|es]] [[Smith|Smith]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[My|Mi]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Your|Tu]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I|Yo]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U1_I41",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]].",
+          "mastery_tag": "possessive adjectives",
+          "complexity": 2,
+          "stimulus_en": "[[You|Tú]] [[are|eres]] [[Tom|Tom]]. (____) [[surname|apellido]] [[is|es]] [[Brown|Brown]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[My|Mi]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Your|Tu]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[You|Tú]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U1_I42",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]]: '[[My|Mi]] [[name|nombre]] [[is|es]] [[John|Juan]]'.",
+          "mastery_tag": "possessive adjectives",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[John|Juan]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[My|Mi]]"
             },
             {
               "id": "w3",
@@ -284,7 +841,7 @@
             },
             {
               "id": "w5",
-              "text": "John"
+              "text": "."
             }
           ],
           "correct_answer": [
@@ -293,1095 +850,397 @@
             "w3",
             "w4",
             "w5"
-          ],
-          "mastery_tag": "vocabulary:introductions",
-          "complexity": 3
-        },
-        {
-          "interaction_id": "A1_U1_I11",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase: \"Buenos días, soy Sarah\"",
-          "options": [
-            {
-              "id": "w1",
-              "text": "[[Good morning|Buenos días]]"
-            },
-            {
-              "id": "w2",
-              "text": "[[I|yo]]"
-            },
-            {
-              "id": "w3",
-              "text": "[[am|soy]]"
-            },
-            {
-              "id": "w4",
-              "text": "Sarah"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "vocabulary:introductions",
-          "complexity": 3
-        },
-        {
-          "interaction_id": "A1_U1_I12",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase: \"Adiós, nos vemos pronto\"",
-          "options": [
-            {
-              "id": "w1",
-              "text": "[[Goodbye|Adiós]]"
-            },
-            {
-              "id": "w2",
-              "text": "[[see|vemos]]"
-            },
-            {
-              "id": "w3",
-              "text": "[[you|te]]"
-            },
-            {
-              "id": "w4",
-              "text": "[[soon|pronto]]"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "vocabulary:introductions",
-          "complexity": 3
-        },
-        {
-          "interaction_id": "A1_U1_I13",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase: \"Hola, ¿cómo estás?\"",
-          "options": [
-            {
-              "id": "w1",
-              "text": "[[Hi|Hola]]"
-            },
-            {
-              "id": "w2",
-              "text": "[[how|cómo]]"
-            },
-            {
-              "id": "w3",
-              "text": "[[are|estás]]"
-            },
-            {
-              "id": "w4",
-              "text": "[[you|tú]]"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "vocabulary:introductions",
-          "complexity": 3
-        },
-        {
-          "interaction_id": "A1_U1_I14",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase: \"Buenas tardes, Sr. Jones\"",
-          "options": [
-            {
-              "id": "w1",
-              "text": "[[Good afternoon|Buenas tardes]]"
-            },
-            {
-              "id": "w2",
-              "text": "[[Mr|Sr]]"
-            },
-            {
-              "id": "w3",
-              "text": "Jones"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "vocabulary:introductions",
-          "complexity": 3
-        },
-        {
-          "interaction_id": "A1_U1_I15",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase: \"Buenas noches, adiós\"",
-          "options": [
-            {
-              "id": "w1",
-              "text": "[[Good night|Buenas noches]]"
-            },
-            {
-              "id": "w2",
-              "text": "[[goodbye|adiós]]"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "vocabulary:introductions",
-          "complexity": 3
-        }
-      ]
-    },
-    {
-      "block_id": "B2",
-      "title": "Personal Information & Pronouns",
-      "content": [
-        {
-          "interaction_id": "A1_U1_I16",
-          "type": "matching",
-          "prompt_es": "Vocabulario de información personal:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Name|Nombre]]",
-              "right": "Nombre"
-            },
-            {
-              "id": "p2",
-              "left": "[[Surname|Apellido]]",
-              "right": "Apellido"
-            },
-            {
-              "id": "p3",
-              "left": "[[Email|Correo electrónico]]",
-              "right": "Correo electrónico"
-            },
-            {
-              "id": "p4",
-              "left": "[[Phone number|Número de teléfono]]",
-              "right": "Número de teléfono"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary:personal_info"
-        },
-        {
-          "interaction_id": "A1_U1_I17",
-          "type": "matching",
-          "prompt_es": "Vocabulario de información personal:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Surname|Apellido]]",
-              "right": "Apellido"
-            },
-            {
-              "id": "p2",
-              "left": "[[Email|Correo electrónico]]",
-              "right": "Correo electrónico"
-            },
-            {
-              "id": "p3",
-              "left": "[[Phone number|Número de teléfono]]",
-              "right": "Número de teléfono"
-            },
-            {
-              "id": "p4",
-              "left": "[[First name|Primer nombre]]",
-              "right": "Primer nombre"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary:personal_info"
-        },
-        {
-          "interaction_id": "A1_U1_I18",
-          "type": "matching",
-          "prompt_es": "Vocabulario de información personal:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Email|Correo electrónico]]",
-              "right": "Correo electrónico"
-            },
-            {
-              "id": "p2",
-              "left": "[[Phone number|Número de teléfono]]",
-              "right": "Número de teléfono"
-            },
-            {
-              "id": "p3",
-              "left": "[[First name|Primer nombre]]",
-              "right": "Primer nombre"
-            },
-            {
-              "id": "p4",
-              "left": "[[Last name|Apellido]]",
-              "right": "Apellido"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary:personal_info"
-        },
-        {
-          "interaction_id": "A1_U1_I19",
-          "type": "matching",
-          "prompt_es": "Vocabulario de información personal:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Phone number|Número de teléfono]]",
-              "right": "Número de teléfono"
-            },
-            {
-              "id": "p2",
-              "left": "[[First name|Primer nombre]]",
-              "right": "Primer nombre"
-            },
-            {
-              "id": "p3",
-              "left": "[[Last name|Apellido]]",
-              "right": "Apellido"
-            },
-            {
-              "id": "p4",
-              "left": "[[Name|Nombre]]",
-              "right": "Nombre"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary:personal_info"
-        },
-        {
-          "interaction_id": "A1_U1_I20",
-          "type": "matching",
-          "prompt_es": "Vocabulario de información personal:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[First name|Primer nombre]]",
-              "right": "Primer nombre"
-            },
-            {
-              "id": "p2",
-              "left": "[[Last name|Apellido]]",
-              "right": "Apellido"
-            },
-            {
-              "id": "p3",
-              "left": "[[Name|Nombre]]",
-              "right": "Nombre"
-            },
-            {
-              "id": "p4",
-              "left": "[[Surname|Apellido]]",
-              "right": "Apellido"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary:personal_info"
-        },
-        {
-          "interaction_id": "A1_U1_I21",
-          "type": "multiple_choice",
-          "prompt_es": "Completa con el pronombre para: \"Yo soy feliz.\"",
-          "stimulus_en": "________ [[am|soy]] [[happy|feliz]].",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[I|Yo]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Me|A mí]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[My|Mi]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:pronouns"
-        },
-        {
-          "interaction_id": "A1_U1_I22",
-          "type": "multiple_choice",
-          "prompt_es": "Completa con el pronombre para: \"Tú eres inteligente.\"",
-          "stimulus_en": "________ [[are|eres]] [[smart|inteligente]].",
-          "options": [
-            {
-              "id": "o3",
-              "text": "[[My|Mi]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Me|A mí]]"
-            },
-            {
-              "id": "o1",
-              "text": "[[You|Tú]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:pronouns"
-        },
-        {
-          "interaction_id": "A1_U1_I23",
-          "type": "multiple_choice",
-          "prompt_es": "Completa con el pronombre para: \"Él es alto.\"",
-          "stimulus_en": "________ [[is|es]] [[tall|alto]].",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[He|Él]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Me|A mí]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[My|Mi]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:pronouns"
-        },
-        {
-          "interaction_id": "A1_U1_I24",
-          "type": "multiple_choice",
-          "prompt_es": "Completa con el pronombre para: \"Ella es rápida.\"",
-          "stimulus_en": "________ [[is|es]] [[fast|rápida]].",
-          "options": [
-            {
-              "id": "o2",
-              "text": "[[Me|A mí]]"
-            },
-            {
-              "id": "o1",
-              "text": "[[She|Ella]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[My|Mi]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:pronouns"
-        },
-        {
-          "interaction_id": "A1_U1_I25",
-          "type": "multiple_choice",
-          "prompt_es": "Completa con el pronombre para: \"Hace frío / Es frío.\"",
-          "stimulus_en": "________ [[is|es]] [[cold|frío]].",
-          "options": [
-            {
-              "id": "o2",
-              "text": "[[Me|A mí]]"
-            },
-            {
-              "id": "o1",
-              "text": "[[It|Ello]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[My|Mi]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:pronouns"
-        },
-        {
-          "interaction_id": "A1_U1_I26",
-          "type": "multiple_choice",
-          "prompt_es": "Completa con el pronombre para: \"Nosotros estamos listos.\"",
-          "stimulus_en": "________ [[are|estamos]] [[ready|listos]].",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[We|Nosotros]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Me|A mí]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[My|Mi]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:pronouns"
-        },
-        {
-          "interaction_id": "A1_U1_I27",
-          "type": "multiple_choice",
-          "prompt_es": "Completa con el pronombre para: \"Ellos llegan tarde.\"",
-          "stimulus_en": "________ [[are|son]] [[late|tarde/retrasados]].",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[They|Ellos]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Me|A mí]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[My|Mi]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:pronouns"
-        },
-        {
-          "interaction_id": "A1_U1_I28",
-          "type": "multiple_choice",
-          "prompt_es": "Completa con el pronombre para: \"Yo soy feliz.\"",
-          "stimulus_en": "________ [[am|soy]] [[happy|feliz]].",
-          "options": [
-            {
-              "id": "o3",
-              "text": "[[My|Mi]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Me|A mí]]"
-            },
-            {
-              "id": "o1",
-              "text": "[[I|Yo]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:pronouns"
-        },
-        {
-          "interaction_id": "A1_U1_I29",
-          "type": "multiple_choice",
-          "prompt_es": "Completa con el pronombre para: \"Tú eres inteligente.\"",
-          "stimulus_en": "________ [[are|eres]] [[smart|inteligente]].",
-          "options": [
-            {
-              "id": "o3",
-              "text": "[[My|Mi]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Me|A mí]]"
-            },
-            {
-              "id": "o1",
-              "text": "[[You|Tú]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:pronouns"
-        },
-        {
-          "interaction_id": "A1_U1_I30",
-          "type": "multiple_choice",
-          "prompt_es": "Completa con el pronombre para: \"Él es alto.\"",
-          "stimulus_en": "________ [[is|es]] [[tall|alto]].",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[He|Él]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Me|A mí]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[My|Mi]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:pronouns"
-        },
-        {
-          "interaction_id": "A1_U1_I31",
-          "type": "multiple_choice",
-          "prompt_es": "Completa con el pronombre para: \"Ella es rápida.\"",
-          "stimulus_en": "________ [[is|es]] [[fast|rápida]].",
-          "options": [
-            {
-              "id": "o2",
-              "text": "[[Me|A mí]]"
-            },
-            {
-              "id": "o1",
-              "text": "[[She|Ella]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[My|Mi]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:pronouns"
-        },
-        {
-          "interaction_id": "A1_U1_I32",
-          "type": "multiple_choice",
-          "prompt_es": "Completa con el pronombre para: \"Hace frío / Es frío.\"",
-          "stimulus_en": "________ [[is|es]] [[cold|frío]].",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[It|Ello]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Me|A mí]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[My|Mi]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:pronouns"
-        },
-        {
-          "interaction_id": "A1_U1_I33",
-          "type": "multiple_choice",
-          "prompt_es": "Completa con el pronombre para: \"Nosotros estamos listos.\"",
-          "stimulus_en": "________ [[are|estamos]] [[ready|listos]].",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[We|Nosotros]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Me|A mí]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[My|Mi]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:pronouns"
-        },
-        {
-          "interaction_id": "A1_U1_I34",
-          "type": "multiple_choice",
-          "prompt_es": "Completa con el pronombre para: \"Ellos llegan tarde.\"",
-          "stimulus_en": "________ [[are|son]] [[late|tarde/retrasados]].",
-          "options": [
-            {
-              "id": "o3",
-              "text": "[[My|Mi]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Me|A mí]]"
-            },
-            {
-              "id": "o1",
-              "text": "[[They|Ellos]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:pronouns"
-        },
-        {
-          "interaction_id": "A1_U1_I35",
-          "type": "multiple_choice",
-          "prompt_es": "Completa con el pronombre para: \"Yo soy feliz.\"",
-          "stimulus_en": "________ [[am|soy]] [[happy|feliz]].",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[I|Yo]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Me|A mí]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[My|Mi]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:pronouns"
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Verb 'to be' and Possessives",
-      "content": [
-        {
-          "interaction_id": "A1_U1_I36",
-          "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
-          "stimulus_en": "I [[________|soy]] [[from|de]] [[Spain|España]].",
-          "correct_answer": "am",
-          "mastery_tag": "grammar:to_be"
-        },
-        {
-          "interaction_id": "A1_U1_I37",
-          "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
-          "stimulus_en": "You [[________|eres]] [[my|mi]] [[teacher|profesor]].",
-          "correct_answer": "are",
-          "mastery_tag": "grammar:to_be"
-        },
-        {
-          "interaction_id": "A1_U1_I38",
-          "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
-          "stimulus_en": "He [[________|es]] [[my|mi]] [[brother|hermano]].",
-          "correct_answer": "is",
-          "mastery_tag": "grammar:to_be"
-        },
-        {
-          "interaction_id": "A1_U1_I39",
-          "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
-          "stimulus_en": "She [[________|es]] [[my|mi]] [[sister|hermana]].",
-          "correct_answer": "is",
-          "mastery_tag": "grammar:to_be"
-        },
-        {
-          "interaction_id": "A1_U1_I40",
-          "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
-          "stimulus_en": "It [[________|es]] [[a|un]] [[cat|gato]].",
-          "correct_answer": "is",
-          "mastery_tag": "grammar:to_be"
-        },
-        {
-          "interaction_id": "A1_U1_I41",
-          "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
-          "stimulus_en": "We [[________|estamos]] [[friends|amigos]].",
-          "correct_answer": "are",
-          "mastery_tag": "grammar:to_be"
-        },
-        {
-          "interaction_id": "A1_U1_I42",
-          "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
-          "stimulus_en": "They [[________|son]] [[doctors|doctores]].",
-          "correct_answer": "are",
-          "mastery_tag": "grammar:to_be"
+          ]
         },
         {
           "interaction_id": "A1_U1_I43",
-          "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
-          "stimulus_en": "I [[________|soy]] [[from|de]] [[Spain|España]].",
-          "correct_answer": "am",
-          "mastery_tag": "grammar:to_be"
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]]: '[[What|Cuál]] [[is|es]] [[your|tu]] [[name|nombre]]?'.",
+          "mastery_tag": "possessive adjectives",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[is|es]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[What|Cuál]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[your|tu]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[name|nombre]]?"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ]
         },
         {
           "interaction_id": "A1_U1_I44",
-          "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
-          "stimulus_en": "You [[________|eres]] [[my|mi]] [[teacher|profesor]].",
-          "correct_answer": "are",
-          "mastery_tag": "grammar:to_be"
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]].",
+          "mastery_tag": "possessive adjectives",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[am|soy]] [[Paul|Paul]]. ____ [[friend|amigo]] [[is|es]] [[Sam|Sam]].",
+          "correct_answer": "My"
         },
         {
           "interaction_id": "A1_U1_I45",
-          "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
-          "stimulus_en": "He [[________|es]] [[my|mi]] [[brother|hermano]].",
-          "correct_answer": "is",
-          "mastery_tag": "grammar:to_be"
-        },
-        {
-          "interaction_id": "A1_U1_I46",
-          "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
-          "stimulus_en": "She [[________|es]] [[my|mi]] [[sister|hermana]].",
-          "correct_answer": "is",
-          "mastery_tag": "grammar:to_be"
-        },
-        {
-          "interaction_id": "A1_U1_I47",
-          "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
-          "stimulus_en": "It [[________|es]] [[a|un]] [[cat|gato]].",
-          "correct_answer": "is",
-          "mastery_tag": "grammar:to_be"
-        },
-        {
-          "interaction_id": "A1_U1_I48",
-          "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
-          "stimulus_en": "We [[________|estamos]] [[friends|amigos]].",
-          "correct_answer": "are",
-          "mastery_tag": "grammar:to_be"
-        },
-        {
-          "interaction_id": "A1_U1_I49",
-          "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
-          "stimulus_en": "They [[________|son]] [[doctors|doctores]].",
-          "correct_answer": "are",
-          "mastery_tag": "grammar:to_be"
-        },
-        {
-          "interaction_id": "A1_U1_I50",
-          "type": "transformation",
-          "prompt_es": "Completa con 'am', 'is' o 'are':",
-          "stimulus_en": "I [[________|soy]] [[from|de]] [[Spain|España]].",
-          "correct_answer": "am",
-          "mastery_tag": "grammar:to_be"
-        },
-        {
-          "interaction_id": "A1_U1_I51",
-          "type": "multiple_choice",
-          "prompt_es": "Elige el posesivo correcto:",
-          "stimulus_en": "________ [[name|nombre]] [[is|es]] David.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[My|Mi]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Your|Tu]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:possessives"
-        },
-        {
-          "interaction_id": "A1_U1_I52",
-          "type": "multiple_choice",
-          "prompt_es": "Elige el posesivo correcto:",
-          "stimulus_en": "________ [[surname|apellido]] [[is|es]] Smith.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Your|Tu]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[My|Mi]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:possessives"
-        },
-        {
-          "interaction_id": "A1_U1_I53",
-          "type": "multiple_choice",
-          "prompt_es": "Elige el posesivo correcto:",
-          "stimulus_en": "________ [[friend|amigo]] [[is|es]] [[here|aquí]].",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[My|Mi]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Your|Tu]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:possessives"
-        },
-        {
-          "interaction_id": "A1_U1_I54",
-          "type": "multiple_choice",
-          "prompt_es": "Elige el posesivo correcto:",
-          "stimulus_en": "________ [[teacher|profesor]] [[is|es]] [[nice|amable]].",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Your|Tu]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[My|Mi]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:possessives"
-        },
-        {
-          "interaction_id": "A1_U1_I55",
-          "type": "multiple_choice",
-          "prompt_es": "Elige el posesivo correcto:",
-          "stimulus_en": "________ [[name|nombre]] [[is|es]] David.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[My|Mi]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Your|Tu]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:possessives"
-        },
-        {
-          "interaction_id": "A1_U1_I56",
-          "type": "multiple_choice",
-          "prompt_es": "Elige el posesivo correcto:",
-          "stimulus_en": "________ [[surname|apellido]] [[is|es]] Smith.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Your|Tu]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[My|Mi]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:possessives"
-        },
-        {
-          "interaction_id": "A1_U1_I57",
-          "type": "multiple_choice",
-          "prompt_es": "Elige el posesivo correcto:",
-          "stimulus_en": "________ [[friend|amigo]] [[is|es]] [[here|aquí]].",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[My|Mi]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Your|Tu]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:possessives"
-        },
-        {
-          "interaction_id": "A1_U1_I58",
-          "type": "multiple_choice",
-          "prompt_es": "Elige el posesivo correcto:",
-          "stimulus_en": "________ [[teacher|profesor]] [[is|es]] [[nice|amable]].",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Your|Tu]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[My|Mi]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:possessives"
-        },
-        {
-          "interaction_id": "A1_U1_I59",
-          "type": "multiple_choice",
-          "prompt_es": "Elige el posesivo correcto:",
-          "stimulus_en": "________ [[name|nombre]] [[is|es]] David.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "[[Your|Tu]]"
-            },
-            {
-              "id": "o1",
-              "text": "[[My|Mi]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:possessives"
-        },
-        {
-          "interaction_id": "A1_U1_I60",
-          "type": "multiple_choice",
-          "prompt_es": "Elige el posesivo correcto:",
-          "stimulus_en": "________ [[surname|apellido]] [[is|es]] Smith.",
-          "options": [
-            {
-              "id": "o2",
-              "text": "[[My|Mi]]"
-            },
-            {
-              "id": "o1",
-              "text": "[[Your|Tu]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar:possessives"
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]].",
+          "mastery_tag": "possessive adjectives",
+          "complexity": 2,
+          "stimulus_en": "[[You|Tú]] [[are|eres]] [[Kim|Kim]]. ____ [[friend|amigo]] [[is|es]] [[Leo|Leo]].",
+          "correct_answer": "Your"
         }
       ]
     },
     {
       "block_id": "B4",
-      "title": "Listening and Speaking Practice",
+      "title": "Reading, Listening and Speaking",
       "content": [
         {
-          "interaction_id": "A1_U1_I61",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe la palabra que falta:",
-          "audio_url": "/audio/a1/unit1/exercise_0.mp3",
-          "transcript_template": "[[Hello|Hola]], [[my|mi]] [[name|nombre]] [[is|es]] [[________|John]].",
-          "correct_answer": "John",
-          "mastery_tag": "listening"
+          "interaction_id": "A1_U1_I46",
+          "type": "multiple-choice",
+          "prompt_es": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "stimulus_en": "[[What|Cuál]] [[is|es]] [[Mark's|de Mark]] [[surname|apellido]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Davis|Davis]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Mark|Mark]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Student|Estudiante]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "transcript": "[[Hello|Hola]]! [[I|Yo]] [[am|soy]] [[Mark|Mark]]. [[I|Yo]] [[am|soy]] [[a|un]] [[student|estudiante]]. [[My|Mi]] [[surname|apellido]] [[is|es]] [[Davis|Davis]]."
         },
         {
-          "interaction_id": "A1_U1_I62",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe la palabra que falta:",
-          "audio_url": "/audio/a1/unit1/exercise_1.mp3",
-          "transcript_template": "[[Good ________|Buenos días]], [[how|cómo]] [[are|estás]] [[you|tú]]?",
-          "correct_answer": "morning",
-          "mastery_tag": "listening"
+          "interaction_id": "A1_U1_I47",
+          "type": "multiple-choice",
+          "prompt_es": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "stimulus_en": "[[Is|¿Es]] [[Lucy|Lucía]] [[a|una]] [[student|estudiante]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Yes|Sí]], [[she|ella]] [[is|es]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[No|No]], [[she|ella]] [[is|es]] [[not|no]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I|Yo]] [[don't|no]] [[know|sé]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "transcript": "[[Hi|Hola]], [[I|yo]] [[am|soy]] [[Lucy|Lucía]]. [[I|Yo]] [[am|soy]] [[a|una]] [[teacher|profesora]]. [[My|Mi]] [[surname|apellido]] [[is|es]] [[White|White]]."
         },
         {
-          "interaction_id": "A1_U1_I63",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe la palabra que falta:",
-          "audio_url": "/audio/a1/unit1/exercise_2.mp3",
-          "transcript_template": "[[I|Yo]] [[am|soy]] [[a|un]] [[________|estudiante]].",
-          "correct_answer": "student",
-          "mastery_tag": "listening"
+          "interaction_id": "A1_U1_I48",
+          "type": "multiple-choice",
+          "prompt_es": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "stimulus_en": "[[When|Cuándo]] [[is|es]] [[the|el]] [[dialogue|diálogo]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Morning|Mañana]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Afternoon|Tarde]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Night|Noche]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "transcript": "A: [[Good morning|Buenos días]]. [[I|Yo]] [[am|soy]] [[Mr.|Sr.]] [[Green|Green]].\nB: [[Hello|Hola]], [[Mr.|Sr.]] [[Green|Green]]. [[I|Yo]] [[am|soy]] [[Ms.|Sra.]] [[Black|Black]].\nA: [[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]]."
         },
         {
-          "interaction_id": "A1_U1_I64",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe la palabra que falta:",
-          "audio_url": "/audio/a1/unit1/exercise_3.mp3",
-          "transcript_template": "[[He|Él]] [[is|es]] [[my|mi]] [[________|amigo]].",
-          "correct_answer": "friend",
-          "mastery_tag": "listening"
+          "interaction_id": "A1_U1_I49",
+          "type": "multiple-choice",
+          "prompt_es": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "stimulus_en": "[[Who|Quién]] [[is|es]] [[Leo|Leo]] [[talking|hablando]] [[to|a]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Anna|Ana]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Leo|Leo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Mr.|Sr.]] [[Green|Green]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "transcript": "[[Goodbye|Adiós]], [[Anna|Ana]]! [[See|Ver]] [[you|a ti]] [[later|luego]].\n[[Bye|Adiós]], [[Leo|Leo]]! [[Have|Ten]] [[a|un]] [[nice|buen]] [[day|día]]."
         },
         {
-          "interaction_id": "A1_U1_I65",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe la palabra que falta:",
-          "audio_url": "/audio/a1/unit1/exercise_4.mp3",
-          "transcript_template": "[[Hello|Hola]], [[my|mi]] [[name|nombre]] [[is|es]] [[________|John]].",
-          "correct_answer": "John",
-          "mastery_tag": "listening"
+          "interaction_id": "A1_U1_I50",
+          "type": "multiple-choice",
+          "prompt_es": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "stimulus_en": "[[Who|Quién]] [[is|es]] [[Tom|Tom]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[A|Un]] [[student|estudiante]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[A|Un]] [[teacher|profesor]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A|Un]] [[surname|apellido]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Tom|Tom]]. [[I|Yo]] [[am|soy]] [[your|tu]] [[new|nuevo]] [[teacher|profesor]]. [[What|Cuál]] [[is|es]] [[your|tu]] [[name|nombre]]?\n[[Hi|Hola]]! [[I|Yo]] [[am|soy]] [[Sara|Sara]]. [[I|Yo]] [[am|soy]] [[a|una]] [[student|estudiante]]."
         },
         {
-          "interaction_id": "A1_U1_I66",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe la palabra que falta:",
-          "audio_url": "/audio/a1/unit1/exercise_5.mp3",
-          "transcript_template": "[[Good ________|Buenos días]], [[how|cómo]] [[are|estás]] [[you|tú]]?",
-          "correct_answer": "morning",
-          "mastery_tag": "listening"
+          "interaction_id": "A1_U1_I51",
+          "type": "multiple-choice",
+          "prompt_es": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "stimulus_en": "[[What|Cuál]] [[is|es]] [[his|su]] [[first|primer]] [[name|nombre]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Robert|Roberto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Wilson|Wilson]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Good evening|Buenas noches]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "transcript": "[[Good evening|Buenas noches]]. [[My|Mi]] [[name|nombre]] [[is|es]] [[Robert|Roberto]]. [[My|Mi]] [[surname|apellido]] [[is|es]] [[Wilson|Wilson]]. [[I|Yo]] [[am|soy]] [[ready|listo]]."
         },
         {
-          "interaction_id": "A1_U1_I67",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe la palabra que falta:",
-          "audio_url": "/audio/a1/unit1/exercise_6.mp3",
-          "transcript_template": "[[I|Yo]] [[am|soy]] [[a|un]] [[________|estudiante]].",
-          "correct_answer": "student",
-          "mastery_tag": "listening"
+          "interaction_id": "A1_U1_I52",
+          "type": "multiple-choice",
+          "prompt_es": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "stimulus_en": "[[How|Cómo]] [[is|está]] [[person|persona]] [[B|B]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Fine|Bien]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Sad|Triste]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Tired|Cansada]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "transcript": "A: [[Hi|Hola]], [[Are|¿estás]] [[you|tú]] [[OK|bien]]?\nB: [[Yes|Sí]], [[I|yo]] [[am|estoy]] [[fine|bien]], [[thanks|gracias]]. [[And|¿Y]] [[you|tú]]?\nA: [[I|Yo]] [[am|estoy]] [[fine|bien]] [[too|también]]."
         },
         {
-          "interaction_id": "A1_U1_I68",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe la palabra que falta:",
-          "audio_url": "/audio/a1/unit1/exercise_7.mp3",
-          "transcript_template": "[[He|Él]] [[is|es]] [[my|mi]] [[________|amigo]].",
-          "correct_answer": "friend",
-          "mastery_tag": "listening"
+          "interaction_id": "A1_U1_I53",
+          "type": "multiple-choice",
+          "prompt_es": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "stimulus_en": "[[When|Cuándo]] [[will|aux]] [[they|ellos]] [[meet|encontrarse]] [[again|de nuevo]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Tomorrow|Mañana]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Later|Luego]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Today|Hoy]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "transcript": "[[Good night|Buenas noches]]. [[See|Ver]] [[you|a ti]] [[tomorrow|mañana]].\n[[Goodbye|Adiós]], [[see|ver]] [[you|a ti]] [[tomorrow|mañana]]!"
         },
         {
-          "interaction_id": "A1_U1_I69",
-          "type": "speaking-analysis",
-          "prompt_es": "Repite la siguiente frase:",
-          "stimulus_en": "[[Nice to meet you|Encantado de conocerte]].",
-          "referenceText": "[[Nice to meet you|Encantado de conocerte]].",
-          "mastery_tag": "speaking"
+          "interaction_id": "A1_U1_I54",
+          "type": "multiple-choice",
+          "prompt_es": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "stimulus_en": "[[What|Qué]] [[is|es]] [[the|la]] [[last|última]] [[word|palabra]] [[of|de]] [[the|el]] [[second|segundo]] [[person|persona]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[you|a ti]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[meet|conocerte]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[surname|apellido]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "transcript": "[[Hello|Hola]], [[I|yo]] [[am|soy]] [[your|tu]] [[new|nuevo]] [[friend|amigo]]. [[My|Mi]] [[name|nombre]] [[is|es]] [[Alex|Alex]]. [[What|Cuál]] [[is|es]] [[your|tu]] [[surname|apellido]]?\n[[My|Mi]] [[surname|apellido]] [[is|es]] [[Lopez|López]]. [[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]]."
         },
         {
-          "interaction_id": "A1_U1_I70",
-          "type": "speaking-analysis",
-          "prompt_es": "Repite la siguiente frase:",
-          "stimulus_en": "[[Hello|Hola]], [[my|mi]] [[name|nombre]] [[is|es]] David.",
-          "referenceText": "[[Hello|Hola]], [[my|mi]] [[name|nombre]] [[is|es]] David.",
-          "mastery_tag": "speaking"
+          "interaction_id": "A1_U1_I55",
+          "type": "multiple-choice",
+          "prompt_es": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "stimulus_en": "[[Who|Quién]] [[is|es]] [[the|el]] [[manager|gerente]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Mr.|Sr.]] [[Davis|Davis]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[You|Tú]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I|Yo]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "transcript": "[[Mr.|Sr.]] [[Davis|Davis]] [[is|es]] [[the|el]] [[manager|gerente]]. [[He|Él]] [[is|es]] [[here|aquí]]. [[Are|¿Estás]] [[you|tú]] [[ready|listo]] [[to|para]] [[meet|conocer]] [[him|a él]]?"
         },
         {
-          "interaction_id": "A1_U1_I71",
-          "type": "speaking-analysis",
-          "prompt_es": "Repite la siguiente frase:",
-          "stimulus_en": "[[Good morning|Buenos días]], [[how|cómo]] [[are|estás]] [[you|tú]]?",
-          "referenceText": "[[Good morning|Buenos días]], [[how|cómo]] [[are|estás]] [[you|tú]]?",
-          "mastery_tag": "speaking"
+          "interaction_id": "A1_U1_I56",
+          "type": "multiple-choice",
+          "prompt_es": "[[Which|Cuál]] [[sentence|frase]] [[is|es]] [[wrong|incorrecta]]?",
+          "mastery_tag": "mixed",
+          "complexity": 2,
+          "stimulus_en": "[[Choose|Elige]] [[the|la]] [[incorrect|incorrecta]]:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[I|Yo]] [[am|soy]] [[John|Juan]]."
+            },
+            {
+              "id": "o2",
+              "text": "[[You|Tú]] [[am|eres]] [[Tom|Tom]]."
+            },
+            {
+              "id": "o3",
+              "text": "[[You|Tú]] [[are|eres]] [[Tom|Tom]]."
+            }
+          ],
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "A1_U1_I72",
-          "type": "speaking-analysis",
-          "prompt_es": "Repite la siguiente frase:",
-          "stimulus_en": "[[I|Yo]] [[am|soy]] [[a|un]] [[student|estudiante]].",
-          "referenceText": "[[I|Yo]] [[am|soy]] [[a|un]] [[student|estudiante]].",
-          "mastery_tag": "speaking"
+          "interaction_id": "A1_U1_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Fill|Rellena]] [[the|el]] [[blank|espacio]].",
+          "mastery_tag": "mixed",
+          "complexity": 2,
+          "stimulus_en": "[[Hi|Hola]], [[I|yo]] ____ [[Lucy|Lucía]].",
+          "correct_answer": "am"
         },
         {
-          "interaction_id": "A1_U1_I73",
-          "type": "speaking-analysis",
-          "prompt_es": "Repite la siguiente frase:",
-          "stimulus_en": "[[She|Ella]] [[is|es]] [[my|mi]] [[teacher|profesor]].",
-          "referenceText": "[[She|Ella]] [[is|es]] [[my|mi]] [[teacher|profesor]].",
-          "mastery_tag": "speaking"
+          "interaction_id": "A1_U1_I58",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]]: '[[See|Ver]] [[you|a ti]] [[later|luego]]'.",
+          "mastery_tag": "mixed",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[later|luego]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[you|a ti]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[See|Ver]]"
+            },
+            {
+              "id": "w4",
+              "text": "."
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ]
         },
         {
-          "interaction_id": "A1_U1_I74",
-          "type": "speaking-analysis",
-          "prompt_es": "Repite la siguiente frase:",
-          "stimulus_en": "[[Nice to meet you|Encantado de conocerte]].",
-          "referenceText": "[[Nice to meet you|Encantado de conocerte]].",
-          "mastery_tag": "speaking"
+          "interaction_id": "A1_U1_I59",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]].",
+          "mastery_tag": "mixed",
+          "complexity": 2,
+          "stimulus_en": "[[Is|¿Es]] [[this|este]] [[your|tu]] [[car|coche]]? [[Yes|Sí]], [[it|esto]] [[is|es]] (____) [[car|coche]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[my|mi]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[your|tu]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I|yo]]"
+            }
+          ],
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "A1_U1_I75",
-          "type": "speaking-analysis",
-          "prompt_es": "Repite la siguiente frase:",
-          "stimulus_en": "[[Hello|Hola]], [[my|mi]] [[name|nombre]] [[is|es]] David.",
-          "referenceText": "[[Hello|Hola]], [[my|mi]] [[name|nombre]] [[is|es]] David.",
-          "mastery_tag": "speaking"
+          "interaction_id": "A1_U1_I60",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]]: '[[Nice|Encantado]] [[to|de]] [[meet|conocerte]] ____'.",
+          "mastery_tag": "mixed",
+          "complexity": 2,
+          "stimulus_en": "[[Nice|Encantado]] [[to|de]] [[meet|conocerte]] ____.",
+          "correct_answer": "you"
         }
       ]
     }
