@@ -14,34 +14,42 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "Sunbathing",
           "options": [
+            "[[Nadar|]]",
+            "[[Relajarse|]]",
             "[[Tomar el sol|]]",
-            "[[incorrect|]]"
+            "[[Hacer turismo|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Swimming",
           "options": [
-            "[[Nadar|]]",
-            "[[incorrect|]]"
+            "[[Tomar el sol|]]",
+            "[[Relajarse|]]",
+            "[[Hacer turismo|]]",
+            "[[Nadar|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Sightseeing",
           "options": [
+            "[[Nadar|]]",
             "[[Hacer turismo|]]",
-            "[[incorrect|]]"
+            "[[Tomar el sol|]]",
+            "[[Relajarse|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Relaxing",
           "options": [
+            "[[Tomar el sol|]]",
+            "[[Hacer turismo|]]",
             "[[Relajarse|]]",
-            "[[incorrect|]]"
+            "[[Nadar|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -86,10 +94,12 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "I write a ________ to my family. (postal)",
           "options": [
-            "[[postcard|]]",
-            "[[other|]]"
+            "[[vacation|]]",
+            "[[sightseeing|]]",
+            "[[Hacer turismo|]]",
+            "[[postcard|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -156,10 +166,12 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "Usually I work, but today I am ________. (relajándome)",
           "options": [
-            "[[relaxing|]]",
-            "[[other|]]"
+            "[[mountains|]]",
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[relaxing|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -202,10 +214,12 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "We ________ visit museums on holiday. (a menudo)",
           "options": [
-            "[[often|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[Are you relaxing on vacation?|]]",
+            "[[often|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -271,10 +285,12 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "The weather is hot. We ________ many photos of the city. (sacamos/tomamos)",
           "options": [
+            "[[o1|]]",
             "[[take|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -392,10 +408,10 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I love sunbathing on the beach.|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[I love sunbathing on the beach.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -418,7 +434,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[They enjoy sightseeing in Paris.|]]",
-            "[[other|]]"
+            "[[She hates long flights.|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -443,7 +459,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[We go hiking in the mountains.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -468,7 +484,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[She hates long flights.|]]",
-            "[[other|]]"
+            "[[Tomar el sol|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -492,10 +508,10 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I send a postcard to my mother.|]]",
-            "[[other|]]"
+            "[[photos|]]",
+            "[[I send a postcard to my mother.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -517,10 +533,10 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Are you relaxing on vacation?|]]",
-            "[[other|]]"
+            "[[often|]]",
+            "[[Are you relaxing on vacation?|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -543,7 +559,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[We eat local food in the evening.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1476,7 +1492,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
           "question": "The [[holiday|]] is here.",
           "options": [
             "[[holiday|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1500,10 +1516,10 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "The [[vacation|]] is here.",
           "options": [
-            "[[vacation|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[vacation|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1526,7 +1542,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
           "question": "The [[beach|]] is here.",
           "options": [
             "[[beach|]]",
-            "[[other|]]"
+            "[[relax|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1551,7 +1567,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
           "question": "The [[mountains|]] is here.",
           "options": [
             "[[mountains|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1576,7 +1592,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
           "question": "The [[sightseeing|]] is here.",
           "options": [
             "[[sightseeing|]]",
-            "[[other|]]"
+            "[[We eat local food in the evening.|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1600,10 +1616,10 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "The [[relax|]] is here.",
           "options": [
-            "[[relax|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[relax|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1626,7 +1642,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
           "question": "The [[photos|]] is here.",
           "options": [
             "[[photos|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

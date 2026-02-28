@@ -14,34 +14,42 @@ export const UNIT_37_EXERCISES: Exercise[] = [
         {
           "question": "Paint",
           "options": [
-            "[[Pintar|]]",
-            "[[incorrect|]]"
+            "[[Programar|]]",
+            "[[Cocinar|]]",
+            "[[Escribir a máquina|]]",
+            "[[Pintar|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Type",
           "options": [
+            "[[Cocinar|]]",
+            "[[Programar|]]",
             "[[Escribir a máquina|]]",
-            "[[incorrect|]]"
+            "[[Pintar|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Code",
           "options": [
             "[[Programar|]]",
-            "[[incorrect|]]"
+            "[[Escribir a máquina|]]",
+            "[[Pintar|]]",
+            "[[Cocinar|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Cook",
           "options": [
+            "[[Escribir a máquina|]]",
             "[[Cocinar|]]",
-            "[[incorrect|]]"
+            "[[Programar|]]",
+            "[[Pintar|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -87,7 +95,9 @@ export const UNIT_37_EXERCISES: Exercise[] = [
           "question": "Fish can ________ underwater. (nadar)",
           "options": [
             "[[swim|]]",
-            "[[other|]]"
+            "[[Escribir a máquina|]]",
+            "[[o1|]]",
+            "[[o1|]]"
           ],
           "correctAnswer": 0
         }
@@ -182,10 +192,12 @@ export const UNIT_37_EXERCISES: Exercise[] = [
         {
           "question": "I am ________ at remembering names.",
           "options": [
+            "[[o1|]]",
+            "[[o1|]]",
             "[[bad|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -250,7 +262,9 @@ export const UNIT_37_EXERCISES: Exercise[] = [
           "question": "________ can help me with this computer?",
           "options": [
             "[[Who|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[bad|]]",
+            "[[o1|]]"
           ],
           "correctAnswer": 0
         }
@@ -1569,7 +1583,7 @@ export const UNIT_37_EXERCISES: Exercise[] = [
           "question": "The [[sing|]] is here.",
           "options": [
             "[[sing|]]",
-            "[[other|]]"
+            "[[write|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1593,10 +1607,10 @@ export const UNIT_37_EXERCISES: Exercise[] = [
         {
           "question": "The [[dance|]] is here.",
           "options": [
-            "[[dance|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[dance|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1619,7 +1633,7 @@ export const UNIT_37_EXERCISES: Exercise[] = [
           "question": "The [[paint|]] is here.",
           "options": [
             "[[paint|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1643,10 +1657,10 @@ export const UNIT_37_EXERCISES: Exercise[] = [
         {
           "question": "The [[cook|]] is here.",
           "options": [
-            "[[cook|]]",
-            "[[other|]]"
+            "[[Programar|]]",
+            "[[cook|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1669,7 +1683,7 @@ export const UNIT_37_EXERCISES: Exercise[] = [
           "question": "The [[write|]] is here.",
           "options": [
             "[[write|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1693,10 +1707,10 @@ export const UNIT_37_EXERCISES: Exercise[] = [
         {
           "question": "The [[act|]] is here.",
           "options": [
-            "[[act|]]",
-            "[[other|]]"
+            "[[Escribir a máquina|]]",
+            "[[act|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1718,10 +1732,10 @@ export const UNIT_37_EXERCISES: Exercise[] = [
         {
           "question": "The [[talent|]] is here.",
           "options": [
-            "[[talent|]]",
-            "[[other|]]"
+            "[[sing|]]",
+            "[[talent|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]

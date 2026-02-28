@@ -14,34 +14,42 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "Museum",
           "options": [
+            "[[Mapa|]]",
             "[[Museo|]]",
-            "[[incorrect|]]"
+            "[[Guía turístico/a|]]",
+            "[[Monumento|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Monument",
           "options": [
+            "[[Mapa|]]",
+            "[[Guía turístico/a|]]",
             "[[Monumento|]]",
-            "[[incorrect|]]"
+            "[[Museo|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Tour guide",
           "options": [
+            "[[Monumento|]]",
             "[[Guía turístico/a|]]",
-            "[[incorrect|]]"
+            "[[Mapa|]]",
+            "[[Museo|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Map",
           "options": [
+            "[[Monumento|]]",
             "[[Mapa|]]",
-            "[[incorrect|]]"
+            "[[Guía turístico/a|]]",
+            "[[Museo|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -160,10 +168,12 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "________ the museum, it is beautiful!",
           "options": [
+            "[[o1|]]",
+            "[[Don't forget your camera.|]]",
             "[[Visit|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -206,10 +216,12 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "________ (no) drink the water in the park.",
           "options": [
+            "[[Follow the tour guide|]]",
+            "[[o1|]]",
             "[[Don't|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -276,7 +288,9 @@ export const UNIT_48_EXERCISES: Exercise[] = [
           "question": "A: Can I take photos here?\nB: No, ________. (no saque fotos)",
           "options": [
             "[[don't|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[o1|]]"
           ],
           "correctAnswer": 0
         }
@@ -421,7 +435,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Take a map of the city.|]]",
-            "[[other|]]"
+            "[[Don't forget your camera.|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -446,7 +460,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Don't forget your camera.|]]",
-            "[[other|]]"
+            "[[Museo|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -470,10 +484,10 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Buy the tickets online.|]]",
-            "[[other|]]"
+            "[[statue|]]",
+            "[[Buy the tickets online.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -495,10 +509,10 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[The museum opens at ten.|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[The museum opens at ten.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -520,10 +534,10 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Is there a tour guide?|]]",
-            "[[other|]]"
+            "[[don't|]]",
+            "[[Is there a tour guide?|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -546,7 +560,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Wait for the bus here.|]]",
-            "[[other|]]"
+            "[[Don't forget your camera.|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -570,10 +584,10 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Look at that old monument.|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[Look at that old monument.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1477,10 +1491,10 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "The [[museum|]] is here.",
           "options": [
-            "[[museum|]]",
-            "[[other|]]"
+            "[[guide|]]",
+            "[[museum|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1502,10 +1516,10 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "The [[statue|]] is here.",
           "options": [
-            "[[statue|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[statue|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1527,10 +1541,10 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "The [[bridge|]] is here.",
           "options": [
-            "[[bridge|]]",
-            "[[other|]]"
+            "[[Look at that old monument.|]]",
+            "[[bridge|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1552,10 +1566,10 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "The [[tower|]] is here.",
           "options": [
-            "[[tower|]]",
-            "[[other|]]"
+            "[[museum|]]",
+            "[[tower|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1577,10 +1591,10 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "The [[castle|]] is here.",
           "options": [
-            "[[castle|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[castle|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1602,10 +1616,10 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "The [[tour|]] is here.",
           "options": [
-            "[[tour|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[tour|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1628,7 +1642,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
           "question": "The [[guide|]] is here.",
           "options": [
             "[[guide|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

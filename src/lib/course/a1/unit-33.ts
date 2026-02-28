@@ -15,33 +15,41 @@ export const UNIT_33_EXERCISES: Exercise[] = [
           "question": "Always",
           "options": [
             "[[100% de las veces|]]",
-            "[[incorrect|]]"
+            "[[Frecuentemente (60-70%)|]]",
+            "[[0% de las veces|]]",
+            "[[A veces (40-50%)|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Often",
           "options": [
+            "[[100% de las veces|]]",
             "[[Frecuentemente (60-70%)|]]",
-            "[[incorrect|]]"
+            "[[0% de las veces|]]",
+            "[[A veces (40-50%)|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Sometimes",
           "options": [
+            "[[Frecuentemente (60-70%)|]]",
             "[[A veces (40-50%)|]]",
-            "[[incorrect|]]"
+            "[[0% de las veces|]]",
+            "[[100% de las veces|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Never",
           "options": [
-            "[[0% de las veces|]]",
-            "[[incorrect|]]"
+            "[[A veces (40-50%)|]]",
+            "[[100% de las veces|]]",
+            "[[Frecuentemente (60-70%)|]]",
+            "[[0% de las veces|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -87,7 +95,9 @@ export const UNIT_33_EXERCISES: Exercise[] = [
           "question": "I ________ eat meat. I am a vegetarian.",
           "options": [
             "[[never|]]",
-            "[[other|]]"
+            "[[How often|]]",
+            "[[o1|]]",
+            "[[o1|]]"
           ],
           "correctAnswer": 0
         }
@@ -156,10 +166,12 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "We ________ ________ (usually / walk) to school.",
           "options": [
-            "[[usually walk|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[sometimes|]]",
+            "[[usually walk|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -202,24 +214,30 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "Once a week",
           "options": [
+            "[[Cada día|]]",
+            "[[Dos veces al mes|]]",
             "[[Una vez por semana|]]",
-            "[[incorrect|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Twice a month",
           "options": [
-            "[[Dos veces al mes|]]",
-            "[[incorrect|]]"
+            "[[o1|]]",
+            "[[Una vez por semana|]]",
+            "[[Cada día|]]",
+            "[[Dos veces al mes|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Every day",
           "options": [
             "[[Cada día|]]",
-            "[[incorrect|]]"
+            "[[always|]]",
+            "[[Dos veces al mes|]]",
+            "[[Una vez por semana|]]"
           ],
           "correctAnswer": 0
         }
@@ -290,10 +308,12 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "________ ________ does he call you?",
           "options": [
+            "[[o1|]]",
             "[[How often|]]",
-            "[[other|]]"
+            "[[Frecuentemente (60-70%)|]]",
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -1584,7 +1604,7 @@ export const UNIT_33_EXERCISES: Exercise[] = [
           "question": "The [[always|]] is here.",
           "options": [
             "[[always|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1608,10 +1628,10 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "The [[sometimes|]] is here.",
           "options": [
-            "[[sometimes|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[sometimes|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1633,10 +1653,10 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "The [[never|]] is here.",
           "options": [
-            "[[never|]]",
-            "[[other|]]"
+            "[[0% de las veces|]]",
+            "[[never|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1658,10 +1678,10 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "The [[often|]] is here.",
           "options": [
-            "[[often|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[often|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1683,10 +1703,10 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "The [[usually|]] is here.",
           "options": [
-            "[[usually|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[usually|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1708,10 +1728,10 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "The [[seldom|]] is here.",
           "options": [
-            "[[seldom|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[seldom|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1733,10 +1753,10 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "The [[rarely|]] is here.",
           "options": [
-            "[[rarely|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[rarely|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]

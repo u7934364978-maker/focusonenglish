@@ -41,33 +41,41 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "question": "Shop assistant",
           "options": [
             "[[Dependiente/a|]]",
-            "[[incorrect|]]"
+            "[[Etiqueta|]]",
+            "[[Rebajas|]]",
+            "[[Cliente|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Customer",
           "options": [
+            "[[Rebajas|]]",
             "[[Cliente|]]",
-            "[[incorrect|]]"
+            "[[Etiqueta|]]",
+            "[[Dependiente/a|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Price tag",
           "options": [
             "[[Etiqueta|]]",
-            "[[incorrect|]]"
+            "[[Cliente|]]",
+            "[[Rebajas|]]",
+            "[[Dependiente/a|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Sale",
           "options": [
+            "[[Etiqueta|]]",
             "[[Rebajas|]]",
-            "[[incorrect|]]"
+            "[[Dependiente/a|]]",
+            "[[Cliente|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -137,7 +145,9 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "question": "________ I try this on?",
           "options": [
             "[[Can|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[Cliente|]]",
+            "[[Do you have this in blue?|]]"
           ],
           "correctAnswer": 0
         }
@@ -206,7 +216,9 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "question": "Do you ________ this in blue?",
           "options": [
             "[[have|]]",
-            "[[other|]]"
+            "[[try on|]]",
+            "[[Cliente|]]",
+            "[[o1|]]"
           ],
           "correctAnswer": 0
         }
@@ -349,10 +361,12 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "Can I ________ this on? Yes, the ________ room is over there.",
           "options": [
+            "[[o1|]]",
             "[[try, fitting|]]",
-            "[[other|]]"
+            "[[Can I try this on?|]]",
+            "[[Where are the fitting rooms?|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -422,10 +436,10 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Where are the fitting rooms?|]]",
-            "[[other|]]"
+            "[[categorization_logic|]]",
+            "[[Where are the fitting rooms?|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -447,10 +461,10 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Can I try this on?|]]",
-            "[[other|]]"
+            "[[fitting room|]]",
+            "[[Can I try this on?|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -472,10 +486,10 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I need a medium size.|]]",
-            "[[other|]]"
+            "[[try, fitting|]]",
+            "[[I need a medium size.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -498,7 +512,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[How much is this shirt?|]]",
-            "[[other|]]"
+            "[[expensive|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -523,7 +537,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[It is on sale today.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -547,10 +561,10 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Do you have this in blue?|]]",
-            "[[other|]]"
+            "[[How much is this shirt?|]]",
+            "[[Do you have this in blue?|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -572,10 +586,10 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I will take it.|]]",
-            "[[other|]]"
+            "[[Rebajas|]]",
+            "[[I will take it.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1479,10 +1493,10 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "The [[shirt|]] is here.",
           "options": [
-            "[[shirt|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[shirt|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1505,7 +1519,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "question": "The [[jeans|]] is here.",
           "options": [
             "[[jeans|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1529,10 +1543,10 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "The [[size|]] is here.",
           "options": [
-            "[[size|]]",
-            "[[other|]]"
+            "[[have|]]",
+            "[[size|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1554,10 +1568,10 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "The [[price|]] is here.",
           "options": [
-            "[[price|]]",
-            "[[other|]]"
+            "[[Size|]]",
+            "[[price|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1580,7 +1594,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "question": "The [[fitting room|]] is here.",
           "options": [
             "[[fitting room|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1604,10 +1618,10 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "The [[try on|]] is here.",
           "options": [
-            "[[try on|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[try on|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1630,7 +1644,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "question": "The [[expensive|]] is here.",
           "options": [
             "[[expensive|]]",
-            "[[other|]]"
+            "[[Where are the fitting rooms?|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

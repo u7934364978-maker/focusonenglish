@@ -41,33 +41,41 @@ export const UNIT_49_EXERCISES: Exercise[] = [
           "question": "Sunscreen",
           "options": [
             "[[Protector solar|]]",
-            "[[incorrect|]]"
+            "[[Bañador|]]",
+            "[[Gafas de sol|]]",
+            "[[Cargador|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Sunglasses",
           "options": [
+            "[[Cargador|]]",
             "[[Gafas de sol|]]",
-            "[[incorrect|]]"
+            "[[Protector solar|]]",
+            "[[Bañador|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Charger",
           "options": [
+            "[[Gafas de sol|]]",
             "[[Cargador|]]",
-            "[[incorrect|]]"
+            "[[Protector solar|]]",
+            "[[Bañador|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Swimsuit",
           "options": [
+            "[[Protector solar|]]",
             "[[Bañador|]]",
-            "[[incorrect|]]"
+            "[[Gafas de sol|]]",
+            "[[Cargador|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -160,10 +168,12 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "I ________ my phone charger.",
           "options": [
-            "[[need|]]",
-            "[[other|]]"
+            "[[I need to pack my suitcase.|]]",
+            "[[I need a universal adapter.|]]",
+            "[[o1|]]",
+            "[[need|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -203,10 +213,12 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "Don't ________ your documents.",
           "options": [
-            "[[forget|]]",
-            "[[other|]]"
+            "[[Where are my sunglasses?|]]",
+            "[[o1|]]",
+            "[[Adapter|]]",
+            "[[forget|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -347,10 +359,12 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "I am ________ my suitcase for the trip. I ________ my passport.",
           "options": [
+            "[[o1|]]",
+            "[[o1|]]",
             "[[packing, need|]]",
-            "[[other|]]"
+            "[[clothes|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -421,7 +435,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I need to pack my suitcase.|]]",
-            "[[other|]]"
+            "[[Gafas de sol|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -445,10 +459,10 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Don't forget your phone charger.|]]",
-            "[[other|]]"
+            "[[need|]]",
+            "[[Don't forget your phone charger.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -471,7 +485,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I have my passport and tickets.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -496,7 +510,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Is your luggage heavy or light?|]]",
-            "[[other|]]"
+            "[[I am packing my suitcase|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -521,7 +535,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I need a universal adapter.|]]",
-            "[[other|]]"
+            "[[packing, need|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -546,7 +560,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Pack your swimsuit for the beach.|]]",
-            "[[other|]]"
+            "[[forget|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -571,7 +585,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Where are my sunglasses?|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1478,7 +1492,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
           "question": "The [[suitcase|]] is here.",
           "options": [
             "[[suitcase|]]",
-            "[[other|]]"
+            "[[Adapter|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1503,7 +1517,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
           "question": "The [[clothes|]] is here.",
           "options": [
             "[[clothes|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1527,10 +1541,10 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "The [[toiletries|]] is here.",
           "options": [
-            "[[toiletries|]]",
-            "[[other|]]"
+            "[[shoes|]]",
+            "[[toiletries|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1552,10 +1566,10 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "The [[camera|]] is here.",
           "options": [
-            "[[camera|]]",
-            "[[other|]]"
+            "[[I have my passport and tickets.|]]",
+            "[[camera|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1577,10 +1591,10 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "The [[charger|]] is here.",
           "options": [
-            "[[charger|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[charger|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1602,10 +1616,10 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "The [[shoes|]] is here.",
           "options": [
-            "[[shoes|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[shoes|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1627,10 +1641,10 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "The [[map|]] is here.",
           "options": [
-            "[[map|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[map|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]

@@ -40,10 +40,12 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "My room is on the third ________. (piso/planta)",
           "options": [
+            "[[o1|]]",
             "[[floor|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -136,10 +138,12 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "Does the room ________ a TV?",
           "options": [
+            "[[o1|]]",
+            "[[My room is on the fourth floor.|]]",
             "[[have|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -182,10 +186,12 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "Is breakfast ________ in the price? (incluido)",
           "options": [
+            "[[o1|]]",
+            "[[breakfast|]]",
             "[[included|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -252,7 +258,9 @@ export const UNIT_46_EXERCISES: Exercise[] = [
           "question": "A: I would like to ________ in, please.\nB: Certainly. What is your name?",
           "options": [
             "[[check|]]",
-            "[[other|]]"
+            "[[breakfast|]]",
+            "[[included|]]",
+            "[[o1|]]"
           ],
           "correctAnswer": 0
         }
@@ -397,7 +405,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I would like a quiet room, please.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -421,10 +429,10 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Where is the reception desk?|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[Where is the reception desk?|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -447,7 +455,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[The wifi password is on the card.|]]",
-            "[[other|]]"
+            "[[I would like a quiet room, please.|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -471,10 +479,10 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Breakfast is from seven to ten.|]]",
-            "[[other|]]"
+            "[[key|]]",
+            "[[Breakfast is from seven to ten.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -496,10 +504,10 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Can I have another towel?|]]",
-            "[[other|]]"
+            "[[Please call a taxi for me.|]]",
+            "[[Can I have another towel?|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -521,10 +529,10 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[My room is on the fourth floor.|]]",
-            "[[other|]]"
+            "[[key|]]",
+            "[[My room is on the fourth floor.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -547,7 +555,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Please call a taxi for me.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1453,10 +1461,10 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "The [[hotel|]] is here.",
           "options": [
-            "[[hotel|]]",
-            "[[other|]]"
+            "[[Where is the reception desk?|]]",
+            "[[hotel|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1479,7 +1487,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
           "question": "The [[room|]] is here.",
           "options": [
             "[[room|]]",
-            "[[other|]]"
+            "[[key|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1504,7 +1512,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
           "question": "The [[key|]] is here.",
           "options": [
             "[[key|]]",
-            "[[other|]]"
+            "[[breakfast|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1529,7 +1537,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
           "question": "The [[reservation|]] is here.",
           "options": [
             "[[reservation|]]",
-            "[[other|]]"
+            "[[I would like a quiet room, please.|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1554,7 +1562,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
           "question": "The [[reception|]] is here.",
           "options": [
             "[[reception|]]",
-            "[[other|]]"
+            "[[check|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1579,7 +1587,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
           "question": "The [[breakfast|]] is here.",
           "options": [
             "[[breakfast|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1604,7 +1612,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
           "question": "The [[shower|]] is here.",
           "options": [
             "[[shower|]]",
-            "[[other|]]"
+            "[[Where is the elevator?|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

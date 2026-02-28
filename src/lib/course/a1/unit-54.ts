@@ -40,10 +40,12 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "I don't have ________ time, but I have ________ books.",
           "options": [
+            "[[o1|]]",
+            "[[o1|]]",
             "[[much, many|]]",
-            "[[other|]]"
+            "[[I have a lot of friends.|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -83,24 +85,30 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "Much",
           "options": [
-            "[[Uncountable (singular)|]]",
-            "[[incorrect|]]"
+            "[[much, many|]]",
+            "[[Both types|]]",
+            "[[Countable (plural)|]]",
+            "[[Uncountable (singular)|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Many",
           "options": [
+            "[[o1|]]",
+            "[[Both types|]]",
             "[[Countable (plural)|]]",
-            "[[incorrect|]]"
+            "[[Uncountable (singular)|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "A lot of",
           "options": [
             "[[Both types|]]",
-            "[[incorrect|]]"
+            "[[Uncountable (singular)|]]",
+            "[[o1|]]",
+            "[[Countable (plural)|]]"
           ],
           "correctAnswer": 0
         }
@@ -147,10 +155,12 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "I have ________ friends.",
           "options": [
-            "[[a few|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[I have a lot of water|]]",
+            "[[a few|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -336,10 +346,12 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "How ________ people are there? There aren't ________, only ________.",
           "options": [
+            "[[o1|]]",
             "[[many, many, a few|]]",
-            "[[other|]]"
+            "[[time|]]",
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -384,7 +396,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[How much money do you have?|]]",
-            "[[other|]]"
+            "[[categorization_logic|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -409,7 +421,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[How many books are there?|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -434,7 +446,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I have a lot of friends.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -458,10 +470,10 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[There is a little milk.|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[There is a little milk.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -483,10 +495,10 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[We have a few cookies.|]]",
-            "[[other|]]"
+            "[[many|]]",
+            "[[We have a few cookies.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -509,7 +521,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I don't have much time.|]]",
-            "[[other|]]"
+            "[[categorization_logic|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -534,7 +546,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Are there many people?|]]",
-            "[[other|]]"
+            "[[How many books are there?|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1466,10 +1478,10 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "The [[much|]] is here.",
           "options": [
-            "[[much|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[much|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1491,10 +1503,10 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "The [[many|]] is here.",
           "options": [
-            "[[many|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[many|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1517,7 +1529,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
           "question": "The [[how much|]] is here.",
           "options": [
             "[[how much|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1542,7 +1554,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
           "question": "The [[how many|]] is here.",
           "options": [
             "[[how many|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1567,7 +1579,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
           "question": "The [[money|]] is here.",
           "options": [
             "[[money|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1591,10 +1603,10 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "The [[friends|]] is here.",
           "options": [
-            "[[friends|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[friends|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1617,7 +1629,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
           "question": "The [[time|]] is here.",
           "options": [
             "[[time|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

@@ -14,34 +14,42 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "Watch TV",
           "options": [
+            "[[Salir|]]",
+            "[[Navegar por internet|]]",
             "[[Ver la televisión|]]",
-            "[[incorrect|]]"
+            "[[Quedar con amigos|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Meet friends",
           "options": [
-            "[[Quedar con amigos|]]",
-            "[[incorrect|]]"
+            "[[Navegar por internet|]]",
+            "[[Salir|]]",
+            "[[Ver la televisión|]]",
+            "[[Quedar con amigos|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Surf the internet",
           "options": [
+            "[[Salir|]]",
+            "[[Quedar con amigos|]]",
             "[[Navegar por internet|]]",
-            "[[incorrect|]]"
+            "[[Ver la televisión|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Go out",
           "options": [
+            "[[Quedar con amigos|]]",
             "[[Salir|]]",
-            "[[incorrect|]]"
+            "[[Ver la televisión|]]",
+            "[[Navegar por internet|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -87,7 +95,9 @@ export const UNIT_35_EXERCISES: Exercise[] = [
           "question": "I ________ video games on Saturdays.",
           "options": [
             "[[play|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[o1|]]"
           ],
           "correctAnswer": 0
         }
@@ -207,7 +217,9 @@ export const UNIT_35_EXERCISES: Exercise[] = [
           "question": "Meeting friends is a ________ activity.",
           "options": [
             "[[social|]]",
-            "[[other|]]"
+            "[[goes|]]",
+            "[[o1|]]",
+            "[[o1|]]"
           ],
           "correctAnswer": 0
         }
@@ -253,7 +265,9 @@ export const UNIT_35_EXERCISES: Exercise[] = [
           "question": "She ________ (go) to the cinema on Fridays.",
           "options": [
             "[[goes|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[Meet friends|]]"
           ],
           "correctAnswer": 0
         }
@@ -1569,7 +1583,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
           "question": "The [[watching TV|]] is here.",
           "options": [
             "[[watching TV|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1593,10 +1607,10 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "The [[reading|]] is here.",
           "options": [
-            "[[reading|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[reading|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1619,7 +1633,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
           "question": "The [[books|]] is here.",
           "options": [
             "[[books|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1643,10 +1657,10 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "The [[games|]] is here.",
           "options": [
-            "[[games|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[games|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1668,10 +1682,10 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "The [[friends|]] is here.",
           "options": [
-            "[[friends|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[friends|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1693,10 +1707,10 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "The [[cinema|]] is here.",
           "options": [
-            "[[cinema|]]",
-            "[[other|]]"
+            "[[Meet friends|]]",
+            "[[cinema|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1719,7 +1733,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
           "question": "The [[music|]] is here.",
           "options": [
             "[[music|]]",
-            "[[other|]]"
+            "[[categorization_logic|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

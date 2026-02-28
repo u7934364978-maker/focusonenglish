@@ -40,10 +40,12 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "She plays the ________ (flauta).",
           "options": [
+            "[[o1|]]",
+            "[[o1|]]",
             "[[flute|]]",
-            "[[other|]]"
+            "[[piano|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -131,10 +133,12 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "We are learning to play ________ violin.",
           "options": [
+            "[[o1|]]",
+            "[[o1|]]",
             "[[the|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -251,10 +255,12 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "The violin is a ________ instrument to learn. (difícil)",
           "options": [
+            "[[drums|]]",
+            "[[Saxofón|]]",
             "[[difficult|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -1548,10 +1554,10 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "The [[piano|]] is here.",
           "options": [
-            "[[piano|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[piano|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1573,10 +1579,10 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "The [[violin|]] is here.",
           "options": [
-            "[[violin|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[violin|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1598,10 +1604,10 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "The [[drums|]] is here.",
           "options": [
-            "[[drums|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[drums|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1624,7 +1630,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
           "question": "The [[guitar|]] is here.",
           "options": [
             "[[guitar|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1648,10 +1654,10 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "The [[trumpet|]] is here.",
           "options": [
-            "[[trumpet|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[trumpet|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1673,10 +1679,10 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "The [[flute|]] is here.",
           "options": [
-            "[[flute|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[flute|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1699,7 +1705,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
           "question": "The [[keyboard|]] is here.",
           "options": [
             "[[keyboard|]]",
-            "[[other|]]"
+            "[[the|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

@@ -14,34 +14,42 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "Sunny",
           "options": [
+            "[[Nublado|]]",
             "[[Soleado|]]",
-            "[[incorrect|]]"
+            "[[Lluvioso|]]",
+            "[[Ventoso|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Rainy",
           "options": [
             "[[Lluvioso|]]",
-            "[[incorrect|]]"
+            "[[Soleado|]]",
+            "[[Ventoso|]]",
+            "[[Nublado|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Cloudy",
           "options": [
+            "[[Lluvioso|]]",
+            "[[Ventoso|]]",
             "[[Nublado|]]",
-            "[[incorrect|]]"
+            "[[Soleado|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Windy",
           "options": [
-            "[[Ventoso|]]",
-            "[[incorrect|]]"
+            "[[Nublado|]]",
+            "[[Lluvioso|]]",
+            "[[Soleado|]]",
+            "[[Ventoso|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -86,10 +94,12 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "It is 0 degrees. It is very ________. (frío)",
           "options": [
+            "[[raining|]]",
+            "[[o1|]]",
             "[[cold|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -182,10 +192,12 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "What ________ the weather like?",
           "options": [
+            "[[o1|]]",
+            "[[cloudy|]]",
             "[[is|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -228,10 +240,12 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "It ________ windy this afternoon. (no está)",
           "options": [
+            "[[o1|]]",
             "[[isn't|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[cold|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -297,10 +311,12 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "In London, it is often ________. (lluvioso)",
           "options": [
+            "[[o1|]]",
             "[[rainy|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[hot|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -419,7 +435,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[It is sunny and hot today.|]]",
-            "[[other|]]"
+            "[[The forecast says it is going to rain.|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -444,7 +460,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Take your umbrella, it is raining.|]]",
-            "[[other|]]"
+            "[[is|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -468,10 +484,10 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[The weather is cloudy and cool.|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[The weather is cloudy and cool.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -493,10 +509,10 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[It is very windy in the afternoon.|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[It is very windy in the afternoon.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -518,10 +534,10 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[What is the weather like?|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[What is the weather like?|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -544,7 +560,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[There is snow on the mountains.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -569,7 +585,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[The forecast says it is going to rain.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1475,10 +1491,10 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "The [[sunny|]] is here.",
           "options": [
-            "[[sunny|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[sunny|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1500,10 +1516,10 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "The [[raining|]] is here.",
           "options": [
-            "[[raining|]]",
-            "[[other|]]"
+            "[[What is the weather like?|]]",
+            "[[raining|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1525,10 +1541,10 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "The [[windy|]] is here.",
           "options": [
-            "[[windy|]]",
-            "[[other|]]"
+            "[[Lluvioso|]]",
+            "[[windy|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1551,7 +1567,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
           "question": "The [[cold|]] is here.",
           "options": [
             "[[cold|]]",
-            "[[other|]]"
+            "[[raining|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1576,7 +1592,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
           "question": "The [[hot|]] is here.",
           "options": [
             "[[hot|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1601,7 +1617,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
           "question": "The [[snowing|]] is here.",
           "options": [
             "[[snowing|]]",
-            "[[other|]]"
+            "[[hot|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1625,10 +1641,10 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "The [[cloudy|]] is here.",
           "options": [
-            "[[cloudy|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[cloudy|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]

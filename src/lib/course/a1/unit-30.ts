@@ -14,34 +14,42 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "Kitchen",
           "options": [
-            "[[Cocina|]]",
-            "[[incorrect|]]"
+            "[[Baño|]]",
+            "[[Salón|]]",
+            "[[Dormitorio|]]",
+            "[[Cocina|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Living room",
           "options": [
+            "[[Baño|]]",
             "[[Salón|]]",
-            "[[incorrect|]]"
+            "[[Dormitorio|]]",
+            "[[Cocina|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Bedroom",
           "options": [
             "[[Dormitorio|]]",
-            "[[incorrect|]]"
+            "[[Cocina|]]",
+            "[[Salón|]]",
+            "[[Baño|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Bathroom",
           "options": [
-            "[[Baño|]]",
-            "[[incorrect|]]"
+            "[[Dormitorio|]]",
+            "[[Cocina|]]",
+            "[[Salón|]]",
+            "[[Baño|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -87,7 +95,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "Head",
           "options": [
             "[[Cabeza|]]",
-            "[[incorrect|]]"
+            "[[Pierna|]]",
+            "[[Hombro|]]",
+            "[[Mano|]]"
           ],
           "correctAnswer": 0
         },
@@ -95,25 +105,31 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "Shoulder",
           "options": [
             "[[Hombro|]]",
-            "[[incorrect|]]"
+            "[[Mano|]]",
+            "[[Pierna|]]",
+            "[[Cabeza|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Leg",
           "options": [
+            "[[Mano|]]",
+            "[[Cabeza|]]",
             "[[Pierna|]]",
-            "[[incorrect|]]"
+            "[[Hombro|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Hand",
           "options": [
-            "[[Mano|]]",
-            "[[incorrect|]]"
+            "[[Pierna|]]",
+            "[[Cabeza|]]",
+            "[[Hombro|]]",
+            "[[Mano|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -159,33 +175,41 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "Rabbit",
           "options": [
             "[[Conejo|]]",
-            "[[incorrect|]]"
+            "[[Pájaro|]]",
+            "[[León|]]",
+            "[[Caballo|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Horse",
           "options": [
+            "[[Conejo|]]",
             "[[Caballo|]]",
-            "[[incorrect|]]"
+            "[[Pájaro|]]",
+            "[[León|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Lion",
           "options": [
             "[[León|]]",
-            "[[incorrect|]]"
+            "[[Caballo|]]",
+            "[[Conejo|]]",
+            "[[Pájaro|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Bird",
           "options": [
+            "[[Conejo|]]",
+            "[[León|]]",
             "[[Pájaro|]]",
-            "[[incorrect|]]"
+            "[[Caballo|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -204,32 +228,40 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "Shoes",
           "options": [
+            "[[Chaqueta|]]",
             "[[Zapatos|]]",
-            "[[incorrect|]]"
+            "[[Calcetines|]]",
+            "[[Falda|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Skirt",
           "options": [
+            "[[Chaqueta|]]",
+            "[[Calcetines|]]",
             "[[Falda|]]",
-            "[[incorrect|]]"
+            "[[Zapatos|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Jacket",
           "options": [
-            "[[Chaqueta|]]",
-            "[[incorrect|]]"
+            "[[Falda|]]",
+            "[[Zapatos|]]",
+            "[[Calcetines|]]",
+            "[[Chaqueta|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Socks",
           "options": [
             "[[Calcetines|]]",
-            "[[incorrect|]]"
+            "[[Zapatos|]]",
+            "[[Falda|]]",
+            "[[Chaqueta|]]"
           ],
           "correctAnswer": 0
         }
@@ -276,34 +308,42 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "Pharmacy",
           "options": [
+            "[[Cine|]]",
+            "[[Biblioteca|]]",
             "[[Farmacia|]]",
-            "[[incorrect|]]"
+            "[[Banco|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Library",
           "options": [
-            "[[Biblioteca|]]",
-            "[[incorrect|]]"
+            "[[Banco|]]",
+            "[[Farmacia|]]",
+            "[[Cine|]]",
+            "[[Biblioteca|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Cinema",
           "options": [
+            "[[Banco|]]",
+            "[[Biblioteca|]]",
             "[[Cine|]]",
-            "[[incorrect|]]"
+            "[[Farmacia|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Bank",
           "options": [
+            "[[Biblioteca|]]",
+            "[[Cine|]]",
             "[[Banco|]]",
-            "[[incorrect|]]"
+            "[[Farmacia|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -349,7 +389,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "Modern",
           "options": [
             "[[Moderno|]]",
-            "[[incorrect|]]"
+            "[[Tradicional|]]",
+            "[[Luminoso|]]",
+            "[[Acogedor|]]"
           ],
           "correctAnswer": 0
         },
@@ -357,7 +399,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "Traditional",
           "options": [
             "[[Tradicional|]]",
-            "[[incorrect|]]"
+            "[[Acogedor|]]",
+            "[[Moderno|]]",
+            "[[Luminoso|]]"
           ],
           "correctAnswer": 0
         },
@@ -365,17 +409,21 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "Cozy",
           "options": [
             "[[Acogedor|]]",
-            "[[incorrect|]]"
+            "[[Tradicional|]]",
+            "[[Moderno|]]",
+            "[[Luminoso|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Bright",
           "options": [
-            "[[Luminoso|]]",
-            "[[incorrect|]]"
+            "[[Tradicional|]]",
+            "[[Acogedor|]]",
+            "[[Moderno|]]",
+            "[[Luminoso|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -394,10 +442,12 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "________ [[three|tres]] [[chairs|sillas]] in the [[kitchen|cocina]].",
           "options": [
+            "[[There is a dog in the garden|]]",
             "[[There are|]]",
-            "[[other|]]"
+            "[[in front of|]]",
+            "[[Camiseta|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -416,10 +466,12 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "The [[cat|gato]] is ________ the [[table|mesa]].",
           "options": [
-            "[[under|]]",
-            "[[other|]]"
+            "[[some|]]",
+            "[[next to|]]",
+            "[[an|]]",
+            "[[under|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -439,7 +491,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "This [[bed|cama]] is [[mine|________]].",
           "options": [
             "[[mine|]]",
-            "[[other|]]"
+            "[[Falda|]]",
+            "[[o1|]]",
+            "[[Cabeza|]]"
           ],
           "correctAnswer": 0
         }
@@ -460,10 +514,12 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "I [[am wearing|________]] a [[red|rojo]] [[hat|sombrero]] today.",
           "options": [
+            "[[Falda|]]",
             "[[am wearing|]]",
-            "[[other|]]"
+            "[[There are|]]",
+            "[[Espalda|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -482,10 +538,12 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "________ [[supermarket|supermercado]] is [[next to|al lado de]] the [[bank|banco]].",
           "options": [
+            "[[León|]]",
             "[[The|]]",
-            "[[other|]]"
+            "[[Salón|]]",
+            "[[Cross|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -504,10 +562,12 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "________ [[any|alguna]] [[chair|silla]] in the [[room|habitación]]?",
           "options": [
+            "[[Salón|]]",
+            "[[Boca|]]",
             "[[Is there|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -526,10 +586,12 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "The [[garden|jardín]] is ________ the [[house|casa]].",
           "options": [
+            "[[Zapatos|]]",
+            "[[Salón|]]",
             "[[behind|]]",
-            "[[other|]]"
+            "[[Banco|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -549,7 +611,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "He ________ [[blue|azules]] [[eyes|ojos]].",
           "options": [
             "[[has|]]",
-            "[[other|]]"
+            "[[Pierna|]]",
+            "[[Pierna|]]",
+            "[[o1|]]"
           ],
           "correctAnswer": 0
         }
@@ -570,10 +634,12 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "There [[aren't|no hay]] ________ [[mirrors|espejos]] here.",
           "options": [
+            "[[Sofá|]]",
             "[[any|]]",
-            "[[other|]]"
+            "[[Acogedor|]]",
+            "[[Oreja|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -593,7 +659,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "________ [[are|son]] my [[shoes|zapatos]].",
           "options": [
             "[[These|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[Brazo|]]",
+            "[[o1|]]"
           ],
           "correctAnswer": 0
         }
@@ -661,10 +729,12 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "________ the [[street|calle]] [[at|en]] the [[traffic lights|semáforo]].",
           "options": [
+            "[[Mano|]]",
+            "[[Espalda|]]",
             "[[Cross|]]",
-            "[[other|]]"
+            "[[Cara|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -855,34 +925,42 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "Cow",
           "options": [
-            "[[Vaca|]]",
-            "[[incorrect|]]"
+            "[[Tigre|]]",
+            "[[Elefante|]]",
+            "[[Pez|]]",
+            "[[Vaca|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Elephant",
           "options": [
             "[[Elefante|]]",
-            "[[incorrect|]]"
+            "[[Vaca|]]",
+            "[[Tigre|]]",
+            "[[Pez|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Tiger",
           "options": [
+            "[[Vaca|]]",
+            "[[Pez|]]",
             "[[Tigre|]]",
-            "[[incorrect|]]"
+            "[[Elefante|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Fish",
           "options": [
+            "[[Tigre|]]",
             "[[Pez|]]",
-            "[[incorrect|]]"
+            "[[Elefante|]]",
+            "[[Vaca|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -902,7 +980,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "Dress",
           "options": [
             "[[Vestido|]]",
-            "[[incorrect|]]"
+            "[[Camiseta|]]",
+            "[[Vaqueros|]]",
+            "[[Sombrero|]]"
           ],
           "correctAnswer": 0
         },
@@ -910,25 +990,31 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "T-shirt",
           "options": [
             "[[Camiseta|]]",
-            "[[incorrect|]]"
+            "[[Vaqueros|]]",
+            "[[Vestido|]]",
+            "[[Sombrero|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Jeans",
           "options": [
-            "[[Vaqueros|]]",
-            "[[incorrect|]]"
+            "[[Camiseta|]]",
+            "[[Sombrero|]]",
+            "[[Vestido|]]",
+            "[[Vaqueros|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Hat",
           "options": [
+            "[[Vaqueros|]]",
+            "[[Camiseta|]]",
             "[[Sombrero|]]",
-            "[[incorrect|]]"
+            "[[Vestido|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -947,34 +1033,42 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "Nose",
           "options": [
+            "[[Oreja|]]",
             "[[Nariz|]]",
-            "[[incorrect|]]"
+            "[[Boca|]]",
+            "[[Cara|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Mouth",
           "options": [
-            "[[Boca|]]",
-            "[[incorrect|]]"
+            "[[Oreja|]]",
+            "[[Nariz|]]",
+            "[[Cara|]]",
+            "[[Boca|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Ear",
           "options": [
+            "[[Nariz|]]",
             "[[Oreja|]]",
-            "[[incorrect|]]"
+            "[[Boca|]]",
+            "[[Cara|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Face",
           "options": [
+            "[[Nariz|]]",
             "[[Cara|]]",
-            "[[incorrect|]]"
+            "[[Oreja|]]",
+            "[[Boca|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -993,34 +1087,42 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "Shelf",
           "options": [
-            "[[Estante|]]",
-            "[[incorrect|]]"
+            "[[Espejo|]]",
+            "[[Sofá|]]",
+            "[[Lámpara|]]",
+            "[[Estante|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Lamp",
           "options": [
-            "[[Lámpara|]]",
-            "[[incorrect|]]"
+            "[[Sofá|]]",
+            "[[Espejo|]]",
+            "[[Estante|]]",
+            "[[Lámpara|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Sofa",
           "options": [
             "[[Sofá|]]",
-            "[[incorrect|]]"
+            "[[Espejo|]]",
+            "[[Lámpara|]]",
+            "[[Estante|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Mirror",
           "options": [
+            "[[Lámpara|]]",
+            "[[Estante|]]",
             "[[Espejo|]]",
-            "[[incorrect|]]"
+            "[[Sofá|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -1065,34 +1167,42 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "Hospital",
           "options": [
+            "[[Restaurante|]]",
+            "[[Parque|]]",
             "[[Hospital|]]",
-            "[[incorrect|]]"
+            "[[Escuela|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "School",
           "options": [
+            "[[Parque|]]",
+            "[[Hospital|]]",
             "[[Escuela|]]",
-            "[[incorrect|]]"
+            "[[Restaurante|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Restaurant",
           "options": [
+            "[[Parque|]]",
+            "[[Hospital|]]",
             "[[Restaurante|]]",
-            "[[incorrect|]]"
+            "[[Escuela|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Park",
           "options": [
+            "[[Escuela|]]",
             "[[Parque|]]",
-            "[[incorrect|]]"
+            "[[Restaurante|]]",
+            "[[Hospital|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -1163,32 +1273,40 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "Knee",
           "options": [
+            "[[Pie|]]",
+            "[[Dedos del pie|]]",
             "[[Rodilla|]]",
-            "[[incorrect|]]"
+            "[[Pierna|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Foot",
           "options": [
+            "[[Rodilla|]]",
             "[[Pie|]]",
-            "[[incorrect|]]"
+            "[[Pierna|]]",
+            "[[Dedos del pie|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Toes",
           "options": [
+            "[[Pie|]]",
+            "[[Rodilla|]]",
             "[[Dedos del pie|]]",
-            "[[incorrect|]]"
+            "[[Pierna|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Leg",
           "options": [
             "[[Pierna|]]",
-            "[[incorrect|]]"
+            "[[Dedos del pie|]]",
+            "[[Pie|]]",
+            "[[Rodilla|]]"
           ],
           "correctAnswer": 0
         }
@@ -1235,10 +1353,12 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "I [[have|tengo]] ________ [[elephant|elefante]] and [[a|un]] [[dog|perro]].",
           "options": [
-            "[[an|]]",
-            "[[other|]]"
+            "[[Luminoso|]]",
+            "[[Biblioteca|]]",
+            "[[o1|]]",
+            "[[an|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -1258,7 +1378,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "________ [[got|tienes]] [[a|una]] [[new|nueva]] [[house|casa]]?",
           "options": [
             "[[Have you|]]",
-            "[[other|]]"
+            "[[Camiseta|]]",
+            "[[o1|]]",
+            "[[Vaca|]]"
           ],
           "correctAnswer": 0
         }
@@ -1279,10 +1401,12 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "The [[park|parque]] is ________ the [[school|escuela]].",
           "options": [
-            "[[in front of|]]",
-            "[[other|]]"
+            "[[has|]]",
+            "[[Rodilla|]]",
+            "[[o1|]]",
+            "[[in front of|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -1301,10 +1425,12 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "She ________ [[a|un]] [[green|verde]] [[dress|vestido]].",
           "options": [
-            "[[is wearing|]]",
-            "[[other|]]"
+            "[[The|]]",
+            "[[Sombrero|]]",
+            "[[Hombro|]]",
+            "[[is wearing|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -1344,10 +1470,12 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "There are ________ [[books|libros]] [[on|en]] the [[shelf|estante]].",
           "options": [
-            "[[some|]]",
-            "[[other|]]"
+            "[[Acogedor|]]",
+            "[[o1|]]",
+            "[[Botas|]]",
+            "[[some|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -1366,10 +1494,12 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "________ [[are|son]] my [[favorite|favoritos]] [[shoes|zapatos]].",
           "options": [
+            "[[Farmacia|]]",
+            "[[next to|]]",
             "[[Those|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -1389,7 +1519,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "That [[car|coche]] is [[his|________]].",
           "options": [
             "[[his|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[Escuela|]]",
+            "[[Dormitorio|]]"
           ],
           "correctAnswer": 0
         }
@@ -1431,10 +1563,12 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "The [[table|mesa]] is ________ the [[two|dos]] [[chairs|sillas]].",
           "options": [
+            "[[Vaqueros|]]",
             "[[between|]]",
-            "[[other|]]"
+            "[[Baño|]]",
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -1453,34 +1587,42 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "Supermarket",
           "options": [
-            "[[Supermercado|]]",
-            "[[incorrect|]]"
+            "[[Parque|]]",
+            "[[Biblioteca|]]",
+            "[[Farmacia|]]",
+            "[[Supermercado|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Pharmacy",
           "options": [
+            "[[Supermercado|]]",
+            "[[Biblioteca|]]",
             "[[Farmacia|]]",
-            "[[incorrect|]]"
+            "[[Parque|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Park",
           "options": [
+            "[[Supermercado|]]",
+            "[[Farmacia|]]",
             "[[Parque|]]",
-            "[[incorrect|]]"
+            "[[Biblioteca|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Library",
           "options": [
+            "[[Farmacia|]]",
+            "[[Parque|]]",
             "[[Biblioteca|]]",
-            "[[incorrect|]]"
+            "[[Supermercado|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -1525,34 +1667,42 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "Sofa",
           "options": [
-            "[[Sofá|]]",
-            "[[incorrect|]]"
+            "[[Alfombra|]]",
+            "[[Sillón|]]",
+            "[[Televisión|]]",
+            "[[Sofá|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Television",
           "options": [
+            "[[Alfombra|]]",
+            "[[Sofá|]]",
             "[[Televisión|]]",
-            "[[incorrect|]]"
+            "[[Sillón|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Armchair",
           "options": [
-            "[[Sillón|]]",
-            "[[incorrect|]]"
+            "[[Televisión|]]",
+            "[[Sofá|]]",
+            "[[Alfombra|]]",
+            "[[Sillón|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Rug",
           "options": [
+            "[[Sillón|]]",
+            "[[Televisión|]]",
             "[[Alfombra|]]",
-            "[[incorrect|]]"
+            "[[Sofá|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -1597,24 +1747,30 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "Arm",
           "options": [
-            "[[Brazo|]]",
-            "[[incorrect|]]"
+            "[[Dedo|]]",
+            "[[Hombro|]]",
+            "[[Mano|]]",
+            "[[Brazo|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Hand",
           "options": [
+            "[[Brazo|]]",
+            "[[Dedo|]]",
             "[[Mano|]]",
-            "[[incorrect|]]"
+            "[[Hombro|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Finger",
           "options": [
             "[[Dedo|]]",
-            "[[incorrect|]]"
+            "[[Brazo|]]",
+            "[[Mano|]]",
+            "[[Hombro|]]"
           ],
           "correctAnswer": 0
         },
@@ -1622,7 +1778,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "Shoulder",
           "options": [
             "[[Hombro|]]",
-            "[[incorrect|]]"
+            "[[Brazo|]]",
+            "[[Mano|]]",
+            "[[Dedo|]]"
           ],
           "correctAnswer": 0
         }
@@ -1670,33 +1828,41 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "Jacket",
           "options": [
             "[[Chaqueta|]]",
-            "[[incorrect|]]"
+            "[[Botas|]]",
+            "[[Guantes|]]",
+            "[[Bufanda|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Scarf",
           "options": [
-            "[[Bufanda|]]",
-            "[[incorrect|]]"
+            "[[Guantes|]]",
+            "[[Chaqueta|]]",
+            "[[Botas|]]",
+            "[[Bufanda|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Gloves",
           "options": [
-            "[[Guantes|]]",
-            "[[incorrect|]]"
+            "[[Botas|]]",
+            "[[Chaqueta|]]",
+            "[[Bufanda|]]",
+            "[[Guantes|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Boots",
           "options": [
+            "[[Chaqueta|]]",
             "[[Botas|]]",
-            "[[incorrect|]]"
+            "[[Bufanda|]]",
+            "[[Guantes|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -1741,32 +1907,40 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "Back",
           "options": [
-            "[[Espalda|]]",
-            "[[incorrect|]]"
+            "[[Cuello|]]",
+            "[[Pecho|]]",
+            "[[Estómago|]]",
+            "[[Espalda|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Chest",
           "options": [
+            "[[Cuello|]]",
+            "[[Espalda|]]",
             "[[Pecho|]]",
-            "[[incorrect|]]"
+            "[[Estómago|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Stomach",
           "options": [
+            "[[Cuello|]]",
+            "[[Pecho|]]",
             "[[Estómago|]]",
-            "[[incorrect|]]"
+            "[[Espalda|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Neck",
           "options": [
             "[[Cuello|]]",
-            "[[incorrect|]]"
+            "[[Espalda|]]",
+            "[[Pecho|]]",
+            "[[Estómago|]]"
           ],
           "correctAnswer": 0
         }
@@ -1814,7 +1988,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "________ [[is|es]] my [[new|nuevo]] [[car|coche]].",
           "options": [
             "[[This|]]",
-            "[[other|]]"
+            "[[Espalda|]]",
+            "[[Is there|]]",
+            "[[Cara|]]"
           ],
           "correctAnswer": 0
         }
@@ -1835,10 +2011,12 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "________ [[he|él]] [[have|tiene]] [[a|un]] [[pet|mascota]]?",
           "options": [
+            "[[Baño|]]",
             "[[Does|]]",
-            "[[other|]]"
+            "[[Elefante|]]",
+            "[[Alfombra|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -1878,10 +2056,12 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "The [[bank|banco]] is ________ the [[pharmacy|farmacia]].",
           "options": [
-            "[[next to|]]",
-            "[[other|]]"
+            "[[Mano|]]",
+            "[[o1|]]",
+            "[[Dormitorio|]]",
+            "[[next to|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -1901,7 +2081,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "The [[children|________]] [[are|están]] in the [[park|parque]].",
           "options": [
             "[[children|]]",
-            "[[other|]]"
+            "[[Pierna|]]",
+            "[[Botas|]]",
+            "[[Biblioteca|]]"
           ],
           "correctAnswer": 0
         }
@@ -1924,7 +2106,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "There is a [[dog|perro]] in the [[garden|jardín]].",
           "options": [
             "[[There is a dog in the garden|]]",
-            "[[other|]]"
+            "[[Baño|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

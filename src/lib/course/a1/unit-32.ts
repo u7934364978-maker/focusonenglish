@@ -14,34 +14,42 @@ export const UNIT_32_EXERCISES: Exercise[] = [
         {
           "question": "Football",
           "options": [
-            "[[Fútbol|]]",
-            "[[incorrect|]]"
+            "[[Baloncesto|]]",
+            "[[Ciclismo|]]",
+            "[[Natación|]]",
+            "[[Fútbol|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Swimming",
           "options": [
             "[[Natación|]]",
-            "[[incorrect|]]"
+            "[[Baloncesto|]]",
+            "[[Fútbol|]]",
+            "[[Ciclismo|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Basketball",
           "options": [
+            "[[Fútbol|]]",
             "[[Baloncesto|]]",
-            "[[incorrect|]]"
+            "[[Ciclismo|]]",
+            "[[Natación|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Cycling",
           "options": [
+            "[[Natación|]]",
             "[[Ciclismo|]]",
-            "[[incorrect|]]"
+            "[[Baloncesto|]]",
+            "[[Fútbol|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -60,10 +68,12 @@ export const UNIT_32_EXERCISES: Exercise[] = [
         {
           "question": "Every morning I ________ swimming.",
           "options": [
+            "[[hobbies|]]",
+            "[[o1|]]",
             "[[go|]]",
-            "[[other|]]"
+            "[[playing|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -108,34 +118,42 @@ export const UNIT_32_EXERCISES: Exercise[] = [
         {
           "question": "Reading",
           "options": [
+            "[[Jardinería|]]",
+            "[[Cocinar|]]",
             "[[Lectura|]]",
-            "[[incorrect|]]"
+            "[[Pintura|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Painting",
           "options": [
+            "[[Lectura|]]",
             "[[Pintura|]]",
-            "[[incorrect|]]"
+            "[[Cocinar|]]",
+            "[[Jardinería|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Cooking",
           "options": [
             "[[Cocinar|]]",
-            "[[incorrect|]]"
+            "[[Lectura|]]",
+            "[[Pintura|]]",
+            "[[Jardinería|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Gardening",
           "options": [
-            "[[Jardinería|]]",
-            "[[incorrect|]]"
+            "[[Lectura|]]",
+            "[[Pintura|]]",
+            "[[Cocinar|]]",
+            "[[Jardinería|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -155,7 +173,9 @@ export const UNIT_32_EXERCISES: Exercise[] = [
           "question": "I ________ listening to music. (me encanta)",
           "options": [
             "[[love|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[Jardinería|]]",
+            "[[o1|]]"
           ],
           "correctAnswer": 0
         }
@@ -251,7 +271,9 @@ export const UNIT_32_EXERCISES: Exercise[] = [
           "question": "He likes ________ (paint) pictures.",
           "options": [
             "[[painting|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[o1|]]"
           ],
           "correctAnswer": 0
         }
@@ -1596,7 +1618,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
           "question": "The [[football|]] is here.",
           "options": [
             "[[football|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1620,10 +1642,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
         {
           "question": "The [[tennis|]] is here.",
           "options": [
-            "[[tennis|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[tennis|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1646,7 +1668,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
           "question": "The [[guitar|]] is here.",
           "options": [
             "[[guitar|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1671,7 +1693,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
           "question": "The [[piano|]] is here.",
           "options": [
             "[[piano|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1695,10 +1717,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
         {
           "question": "The [[hobbies|]] is here.",
           "options": [
-            "[[hobbies|]]",
-            "[[other|]]"
+            "[[football|]]",
+            "[[hobbies|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1720,10 +1742,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
         {
           "question": "The [[sports|]] is here.",
           "options": [
-            "[[sports|]]",
-            "[[other|]]"
+            "[[o2|]]",
+            "[[sports|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1745,10 +1767,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
         {
           "question": "The [[playing|]] is here.",
           "options": [
-            "[[playing|]]",
-            "[[other|]]"
+            "[[go|]]",
+            "[[playing|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]

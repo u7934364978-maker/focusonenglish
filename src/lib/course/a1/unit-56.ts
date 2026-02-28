@@ -41,7 +41,9 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "question": "Oven",
           "options": [
             "[[Horno|]]",
-            "[[incorrect|]]"
+            "[[Microondas|]]",
+            "[[Lavavajillas|]]",
+            "[[Fregadero|]]"
           ],
           "correctAnswer": 0
         },
@@ -49,25 +51,31 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "question": "Microwave",
           "options": [
             "[[Microondas|]]",
-            "[[incorrect|]]"
+            "[[Horno|]]",
+            "[[Fregadero|]]",
+            "[[Lavavajillas|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Sink",
           "options": [
-            "[[Fregadero|]]",
-            "[[incorrect|]]"
+            "[[Horno|]]",
+            "[[Microondas|]]",
+            "[[Lavavajillas|]]",
+            "[[Fregadero|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Dishwasher",
           "options": [
-            "[[Lavavajillas|]]",
-            "[[incorrect|]]"
+            "[[Horno|]]",
+            "[[Fregadero|]]",
+            "[[Microondas|]]",
+            "[[Lavavajillas|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -136,10 +144,12 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "The coffee is ________ the cupboard.",
           "options": [
+            "[[Estante|]]",
             "[[in|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -205,10 +215,12 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "The table is ________ ________ the window.",
           "options": [
+            "[[o1|]]",
             "[[next to|]]",
-            "[[other|]]"
+            "[[waiter|]]",
+            "[[Lavavajillas|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -227,32 +239,40 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "Cupboard",
           "options": [
-            "[[Armario|]]",
-            "[[incorrect|]]"
+            "[[Cubo de basura|]]",
+            "[[Cajón|]]",
+            "[[Estante|]]",
+            "[[Armario|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Shelf",
           "options": [
-            "[[Estante|]]",
-            "[[incorrect|]]"
+            "[[Cajón|]]",
+            "[[Armario|]]",
+            "[[Cubo de basura|]]",
+            "[[Estante|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Drawer",
           "options": [
-            "[[Cajón|]]",
-            "[[incorrect|]]"
+            "[[Cubo de basura|]]",
+            "[[Armario|]]",
+            "[[Estante|]]",
+            "[[Cajón|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Bin",
           "options": [
             "[[Cubo de basura|]]",
-            "[[incorrect|]]"
+            "[[Armario|]]",
+            "[[Estante|]]",
+            "[[Cajón|]]"
           ],
           "correctAnswer": 0
         }
@@ -347,10 +367,12 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "The milk is ________ the fridge and the cups are ________ the shelf.",
           "options": [
-            "[[in, on|]]",
-            "[[other|]]"
+            "[[Put it in the oven.|]]",
+            "[[water|]]",
+            "[[o1|]]",
+            "[[in, on|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -420,10 +442,10 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[The milk is in the fridge.|]]",
-            "[[other|]]"
+            "[[Horno|]]",
+            "[[The milk is in the fridge.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -446,7 +468,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Put it in the oven.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -470,10 +492,10 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[The cups are on the shelf.|]]",
-            "[[other|]]"
+            "[[Cubo de basura|]]",
+            "[[The cups are on the shelf.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -495,10 +517,10 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Where is the microwave?|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[Where is the microwave?|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -521,7 +543,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Wash the dishes in the sink.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -546,7 +568,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[The forks are in the drawer.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -571,7 +593,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I need a clean cupboard.|]]",
-            "[[other|]]"
+            "[[Where is the microwave?|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1503,10 +1525,10 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "The [[menu|]] is here.",
           "options": [
-            "[[menu|]]",
-            "[[other|]]"
+            "[[bill|]]",
+            "[[menu|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1528,10 +1550,10 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "The [[waiter|]] is here.",
           "options": [
-            "[[waiter|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[waiter|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1554,7 +1576,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "question": "The [[order|]] is here.",
           "options": [
             "[[order|]]",
-            "[[other|]]"
+            "[[Fregadero|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1578,10 +1600,10 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "The [[bill|]] is here.",
           "options": [
-            "[[bill|]]",
-            "[[other|]]"
+            "[[The cups are on the shelf.|]]",
+            "[[bill|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1604,7 +1626,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "question": "The [[water|]] is here.",
           "options": [
             "[[water|]]",
-            "[[other|]]"
+            "[[Lavavajillas|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1629,7 +1651,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "question": "The [[food|]] is here.",
           "options": [
             "[[food|]]",
-            "[[other|]]"
+            "[[The cups are on the shelf.|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1653,10 +1675,10 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "The [[table|]] is here.",
           "options": [
-            "[[table|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[table|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]

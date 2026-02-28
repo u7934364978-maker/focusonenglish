@@ -40,10 +40,12 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "I have ________ orange and ________ banana.",
           "options": [
-            "[[an, a|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[an, a|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -83,24 +85,30 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "One apple",
           "options": [
+            "[[Two potatoes|]]",
+            "[[Two eggs|]]",
             "[[Two apples|]]",
-            "[[incorrect|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "One egg",
           "options": [
-            "[[Two eggs|]]",
-            "[[incorrect|]]"
+            "[[Two apples|]]",
+            "[[Two potatoes|]]",
+            "[[o1|]]",
+            "[[Two eggs|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "One potato",
           "options": [
             "[[Two potatoes|]]",
-            "[[incorrect|]]"
+            "[[o1|]]",
+            "[[Two apples|]]",
+            "[[Two eggs|]]"
           ],
           "correctAnswer": 0
         }
@@ -147,10 +155,12 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "I want ________ water and ________ bread.",
           "options": [
+            "[[o1|]]",
+            "[[o1|]]",
             "[[some, some|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -312,10 +322,12 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "Please buy ________ milk and ________ apples at the supermarket.",
           "options": [
-            "[[some, some|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[She eats an orange.|]]",
+            "[[some, some|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -384,7 +396,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I want an apple.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -409,7 +421,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I have some milk.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -433,10 +445,10 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[There is some bread.|]]",
-            "[[other|]]"
+            "[[some, some|]]",
+            "[[There is some bread.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -458,10 +470,10 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[She eats an orange.|]]",
-            "[[other|]]"
+            "[[Two apples|]]",
+            "[[She eats an orange.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -484,7 +496,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Do you want some water?|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -508,10 +520,10 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[We have some rice.|]]",
-            "[[other|]]"
+            "[[Two apples|]]",
+            "[[We have some rice.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -534,7 +546,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[They need some sugar.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1466,10 +1478,10 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "The [[sugar|]] is here.",
           "options": [
-            "[[sugar|]]",
-            "[[other|]]"
+            "[[some, some|]]",
+            "[[sugar|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1491,10 +1503,10 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "The [[salt|]] is here.",
           "options": [
-            "[[salt|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[salt|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1516,10 +1528,10 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "The [[water|]] is here.",
           "options": [
-            "[[water|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[water|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1541,10 +1553,10 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "The [[apple|]] is here.",
           "options": [
-            "[[apple|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[apple|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1567,7 +1579,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
           "question": "The [[banana|]] is here.",
           "options": [
             "[[banana|]]",
-            "[[other|]]"
+            "[[water|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1592,7 +1604,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
           "question": "The [[some|]] is here.",
           "options": [
             "[[some|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1617,7 +1629,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
           "question": "The [[any|]] is here.",
           "options": [
             "[[any|]]",
-            "[[other|]]"
+            "[[water|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

@@ -14,10 +14,12 @@ export const UNIT_53_EXERCISES: Exercise[] = [
         {
           "question": "There is ________ butter in the fridge.",
           "options": [
+            "[[I have some butter.|]]",
             "[[some|]]",
-            "[[other|]]"
+            "[[some, any|]]",
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -57,24 +59,30 @@ export const UNIT_53_EXERCISES: Exercise[] = [
         {
           "question": "Salt",
           "options": [
+            "[[Harina|]]",
             "[[Sal|]]",
-            "[[incorrect|]]"
+            "[[Azúcar|]]",
+            "[[I don't have any salt.|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Sugar",
           "options": [
-            "[[Azúcar|]]",
-            "[[incorrect|]]"
+            "[[Sal|]]",
+            "[[Harina|]]",
+            "[[o1|]]",
+            "[[Azúcar|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Flour",
           "options": [
             "[[Harina|]]",
-            "[[incorrect|]]"
+            "[[coffee|]]",
+            "[[Azúcar|]]",
+            "[[Sal|]]"
           ],
           "correctAnswer": 0
         }
@@ -122,7 +130,9 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "question": "Do you have ________ apples?",
           "options": [
             "[[any|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[some|]]"
           ],
           "correctAnswer": 0
         }
@@ -215,10 +225,12 @@ export const UNIT_53_EXERCISES: Exercise[] = [
         {
           "question": "I have ________ cookies, but I don't have ________ milk.",
           "options": [
+            "[[o1|]]",
+            "[[coffee|]]",
             "[[some, any|]]",
-            "[[other|]]"
+            "[[Azúcar|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -282,10 +294,12 @@ export const UNIT_53_EXERCISES: Exercise[] = [
         {
           "question": "I don't have ________ money. Do you have ________?",
           "options": [
-            "[[any, any|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[Are there any bananas?|]]",
+            "[[o1|]]",
+            "[[any, any|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -330,7 +344,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I have some butter.|]]",
-            "[[other|]]"
+            "[[any|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -354,10 +368,10 @@ export const UNIT_53_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I don't have any salt.|]]",
-            "[[other|]]"
+            "[[There aren't any eggs|]]",
+            "[[I don't have any salt.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -380,7 +394,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Do you have any sugar?|]]",
-            "[[other|]]"
+            "[[There isn't any cheese.|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -404,10 +418,10 @@ export const UNIT_53_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[We need some flour.|]]",
-            "[[other|]]"
+            "[[Are there any bananas?|]]",
+            "[[We need some flour.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -430,7 +444,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[There isn't any cheese.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -455,7 +469,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I want some eggs.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -480,7 +494,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Are there any bananas?|]]",
-            "[[other|]]"
+            "[[Do you have any salt|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1465,7 +1479,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "question": "The [[some|]] is here.",
           "options": [
             "[[some|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1490,7 +1504,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "question": "The [[any|]] is here.",
           "options": [
             "[[any|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1515,7 +1529,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "question": "The [[bread|]] is here.",
           "options": [
             "[[bread|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1540,7 +1554,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "question": "The [[cheese|]] is here.",
           "options": [
             "[[cheese|]]",
-            "[[other|]]"
+            "[[some, any|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1564,10 +1578,10 @@ export const UNIT_53_EXERCISES: Exercise[] = [
         {
           "question": "The [[tomatoes|]] is here.",
           "options": [
-            "[[tomatoes|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[tomatoes|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1589,10 +1603,10 @@ export const UNIT_53_EXERCISES: Exercise[] = [
         {
           "question": "The [[milk|]] is here.",
           "options": [
-            "[[milk|]]",
-            "[[other|]]"
+            "[[some|]]",
+            "[[milk|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1615,7 +1629,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "question": "The [[coffee|]] is here.",
           "options": [
             "[[coffee|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

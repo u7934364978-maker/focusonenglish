@@ -40,32 +40,40 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "Trolley",
           "options": [
+            "[[Cesta|]]",
+            "[[Estante|]]",
             "[[Carrito|]]",
-            "[[incorrect|]]"
+            "[[Caja|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Basket",
           "options": [
+            "[[Estante|]]",
+            "[[Caja|]]",
             "[[Cesta|]]",
-            "[[incorrect|]]"
+            "[[Carrito|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Checkout",
           "options": [
+            "[[Estante|]]",
             "[[Caja|]]",
-            "[[incorrect|]]"
+            "[[Cesta|]]",
+            "[[Carrito|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Shelf",
           "options": [
             "[[Estante|]]",
-            "[[incorrect|]]"
+            "[[Caja|]]",
+            "[[Cesta|]]",
+            "[[Carrito|]]"
           ],
           "correctAnswer": 0
         }
@@ -160,10 +168,12 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "Where ________ the bread?",
           "options": [
+            "[[o1|]]",
             "[[is|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -229,10 +239,12 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "The apples are ________ the shelf.",
           "options": [
-            "[[on|]]",
-            "[[other|]]"
+            "[[Caja|]]",
+            "[[eggs|]]",
+            "[[o1|]]",
+            "[[on|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -395,7 +407,9 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "question": "I put my groceries in the ________. I pay at the ________.",
           "options": [
             "[[basket, checkout|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[Where is the checkout?|]]"
           ],
           "correctAnswer": 0
         }
@@ -490,7 +504,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I need a shopping trolley.|]]",
-            "[[other|]]"
+            "[[Caja|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -515,7 +529,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Where is the checkout?|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -539,10 +553,10 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I have my receipt.|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[I have my receipt.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -565,7 +579,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Put it in the basket.|]]",
-            "[[other|]]"
+            "[[Where is the checkout?|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -590,7 +604,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Can I pay by card?|]]",
-            "[[other|]]"
+            "[[Put it in the basket.|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -614,10 +628,10 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[The aisle is very long.|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[The aisle is very long.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -639,10 +653,10 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Where is the fruit section?|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[Where is the fruit section?|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1469,7 +1483,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "question": "The [[fruit|]] is here.",
           "options": [
             "[[fruit|]]",
-            "[[other|]]"
+            "[[Receipt|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1493,10 +1507,10 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "The [[vegetables|]] is here.",
           "options": [
-            "[[vegetables|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[vegetables|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1519,7 +1533,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "question": "The [[milk|]] is here.",
           "options": [
             "[[milk|]]",
-            "[[other|]]"
+            "[[Do you need a bag|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1544,7 +1558,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "question": "The [[bread|]] is here.",
           "options": [
             "[[bread|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1569,7 +1583,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "question": "The [[eggs|]] is here.",
           "options": [
             "[[eggs|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1593,10 +1607,10 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "The [[basket|]] is here.",
           "options": [
-            "[[basket|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[basket|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1618,10 +1632,10 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "The [[checkout|]] is here.",
           "options": [
-            "[[checkout|]]",
-            "[[other|]]"
+            "[[categorization_logic|]]",
+            "[[checkout|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]

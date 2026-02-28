@@ -15,33 +15,41 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "Spring",
           "options": [
             "[[Primavera|]]",
-            "[[incorrect|]]"
+            "[[Invierno|]]",
+            "[[Verano|]]",
+            "[[Otoño|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Summer",
           "options": [
+            "[[Otoño|]]",
             "[[Verano|]]",
-            "[[incorrect|]]"
+            "[[Primavera|]]",
+            "[[Invierno|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Autumn",
           "options": [
             "[[Otoño|]]",
-            "[[incorrect|]]"
+            "[[Primavera|]]",
+            "[[Verano|]]",
+            "[[Invierno|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Winter",
           "options": [
+            "[[Verano|]]",
+            "[[Otoño|]]",
             "[[Invierno|]]",
-            "[[incorrect|]]"
+            "[[Primavera|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -86,10 +94,12 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "It is December. It is ________. (invierno)",
           "options": [
+            "[[autumn|]]",
+            "[[o1|]]",
             "[[winter|]]",
-            "[[other|]]"
+            "[[leaves|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -183,7 +193,9 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "I like ________ in winter. (esquiar/ski)",
           "options": [
             "[[skiing|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[o1|]]"
           ],
           "correctAnswer": 0
         }
@@ -228,10 +240,12 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "Which season ________ you like best?",
           "options": [
+            "[[It is very cold in winter.|]]",
+            "[[Do you like winter?|]]",
             "[[do|]]",
-            "[[other|]]"
+            "[[I like spring|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -297,10 +311,12 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "In autumn, the ________ are brown and orange. (hojas)",
           "options": [
-            "[[leaves|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[leaves|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -395,7 +411,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[My favorite season is spring.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -420,7 +436,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[In summer, the weather is hot.|]]",
-            "[[other|]]"
+            "[[skiing|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -445,7 +461,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Leaves fall in autumn.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -470,7 +486,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[It is very cold in winter.|]]",
-            "[[other|]]"
+            "[[beach|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -494,10 +510,10 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[We go to the beach in August.|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[We go to the beach in August.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -519,10 +535,10 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Plants grow in the spring.|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[Plants grow in the spring.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -545,7 +561,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Do you like winter?|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1477,10 +1493,10 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "The [[spring|]] is here.",
           "options": [
-            "[[spring|]]",
-            "[[other|]]"
+            "[[Do you like winter?|]]",
+            "[[spring|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1502,10 +1518,10 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "The [[summer|]] is here.",
           "options": [
-            "[[summer|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[summer|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1528,7 +1544,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "The [[autumn|]] is here.",
           "options": [
             "[[autumn|]]",
-            "[[other|]]"
+            "[[beach|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1553,7 +1569,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "The [[winter|]] is here.",
           "options": [
             "[[winter|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1578,7 +1594,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "The [[beach|]] is here.",
           "options": [
             "[[beach|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1602,10 +1618,10 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "The [[flowers|]] is here.",
           "options": [
-            "[[flowers|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[flowers|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1628,7 +1644,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "The [[leaves|]] is here.",
           "options": [
             "[[leaves|]]",
-            "[[other|]]"
+            "[[Otoño|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

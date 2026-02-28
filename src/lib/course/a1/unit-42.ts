@@ -14,34 +14,42 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "Train",
           "options": [
+            "[[Avión|]]",
+            "[[Barco|]]",
             "[[Tren|]]",
-            "[[incorrect|]]"
+            "[[Autobús|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Bus",
           "options": [
-            "[[Autobús|]]",
-            "[[incorrect|]]"
+            "[[Barco|]]",
+            "[[Tren|]]",
+            "[[Avión|]]",
+            "[[Autobús|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Plane",
           "options": [
             "[[Avión|]]",
-            "[[incorrect|]]"
+            "[[Barco|]]",
+            "[[Autobús|]]",
+            "[[Tren|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Boat",
           "options": [
+            "[[Tren|]]",
+            "[[Avión|]]",
             "[[Barco|]]",
-            "[[incorrect|]]"
+            "[[Autobús|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -86,10 +94,12 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "I buy my ticket at the bus ________. (estación)",
           "options": [
+            "[[Please buy your ticket.|]]",
             "[[station|]]",
-            "[[other|]]"
+            "[[train|]]",
+            "[[bicycle|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -182,10 +192,12 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "Wait for me ________ the station.",
           "options": [
-            "[[at|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[station|]]",
+            "[[at|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -228,10 +240,12 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "The train ________ at 9:00 AM. (sale)",
           "options": [
+            "[[o1|]]",
+            "[[o1|]]",
             "[[leaves|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -297,10 +311,12 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "A: Which platform for the London train?\nB: Platform ________ 4. (número)",
           "options": [
+            "[[o1|]]",
             "[[number|]]",
-            "[[other|]]"
+            "[[leaves|]]",
+            "[[at|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -419,7 +435,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[The train arrives at platform two.|]]",
-            "[[other|]]"
+            "[[The ferry leaves at noon.|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -443,10 +459,10 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I go to work by bus.|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[I go to work by bus.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -469,7 +485,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[The next bus is in ten minutes.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -494,7 +510,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Please buy your ticket.|]]",
-            "[[other|]]"
+            "[[leaves|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -519,7 +535,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[The station is very crowded.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -543,10 +559,10 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Where is the bus stop?|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[Where is the bus stop?|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -568,10 +584,10 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[The ferry leaves at noon.|]]",
-            "[[other|]]"
+            "[[Where is the bus stop?|]]",
+            "[[The ferry leaves at noon.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1475,10 +1491,10 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "The [[bus|]] is here.",
           "options": [
-            "[[bus|]]",
-            "[[other|]]"
+            "[[train|]]",
+            "[[bus|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1500,10 +1516,10 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "The [[train|]] is here.",
           "options": [
-            "[[train|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[train|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1525,10 +1541,10 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "The [[plane|]] is here.",
           "options": [
-            "[[plane|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[plane|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1550,10 +1566,10 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "The [[taxi|]] is here.",
           "options": [
-            "[[taxi|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[taxi|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1575,10 +1591,10 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "The [[bicycle|]] is here.",
           "options": [
-            "[[bicycle|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[bicycle|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1601,7 +1617,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
           "question": "The [[station|]] is here.",
           "options": [
             "[[station|]]",
-            "[[other|]]"
+            "[[The station is very crowded.|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1625,10 +1641,10 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "The [[ticket|]] is here.",
           "options": [
-            "[[ticket|]]",
-            "[[other|]]"
+            "[[leaves|]]",
+            "[[ticket|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]

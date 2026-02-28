@@ -15,33 +15,41 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "question": "Ability",
           "options": [
             "[[Habilidad|]]",
-            "[[incorrect|]]"
+            "[[Talento|]]",
+            "[[Frecuencia|]]",
+            "[[Actividad|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Talent",
           "options": [
+            "[[Actividad|]]",
             "[[Talento|]]",
-            "[[incorrect|]]"
+            "[[Frecuencia|]]",
+            "[[Habilidad|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Frequency",
           "options": [
             "[[Frecuencia|]]",
-            "[[incorrect|]]"
+            "[[Talento|]]",
+            "[[Actividad|]]",
+            "[[Habilidad|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Activity",
           "options": [
+            "[[Talento|]]",
+            "[[Frecuencia|]]",
             "[[Actividad|]]",
-            "[[incorrect|]]"
+            "[[Habilidad|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -60,10 +68,12 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "I (poder) ________ swim.",
           "options": [
-            "[[can|]]",
-            "[[other|]]"
+            "[[Habilidad|]]",
+            "[[Talento|]]",
+            "[[talent|]]",
+            "[[can|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -177,34 +187,42 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Talent",
           "options": [
+            "[[Frecuencia|]]",
+            "[[Habilidad|]]",
             "[[Talento|]]",
-            "[[incorrect|]]"
+            "[[Actividad|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Frequency",
           "options": [
             "[[Frecuencia|]]",
-            "[[incorrect|]]"
+            "[[Talento|]]",
+            "[[Habilidad|]]",
+            "[[Actividad|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Activity",
           "options": [
+            "[[Habilidad|]]",
             "[[Actividad|]]",
-            "[[incorrect|]]"
+            "[[Talento|]]",
+            "[[Frecuencia|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Ability",
           "options": [
+            "[[Frecuencia|]]",
             "[[Habilidad|]]",
-            "[[incorrect|]]"
+            "[[Talento|]]",
+            "[[Actividad|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -223,10 +241,12 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "He (tocar) ________ the piano.",
           "options": [
-            "[[plays|]]",
-            "[[other|]]"
+            "[[Activity|]]",
+            "[[o1|]]",
+            "[[Frecuencia|]]",
+            "[[plays|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -340,16 +360,20 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Frequency",
           "options": [
+            "[[Habilidad|]]",
             "[[Frecuencia|]]",
-            "[[incorrect|]]"
+            "[[Talento|]]",
+            "[[Actividad|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Activity",
           "options": [
             "[[Actividad|]]",
-            "[[incorrect|]]"
+            "[[Talento|]]",
+            "[[Frecuencia|]]",
+            "[[Habilidad|]]"
           ],
           "correctAnswer": 0
         },
@@ -357,17 +381,21 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "question": "Ability",
           "options": [
             "[[Habilidad|]]",
-            "[[incorrect|]]"
+            "[[Talento|]]",
+            "[[Actividad|]]",
+            "[[Frecuencia|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Talent",
           "options": [
+            "[[Actividad|]]",
             "[[Talento|]]",
-            "[[incorrect|]]"
+            "[[Habilidad|]]",
+            "[[Frecuencia|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -386,10 +414,12 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "I (poder) ________ swim.",
           "options": [
+            "[[Talento|]]",
             "[[can|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[Habilidad|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -503,34 +533,42 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Activity",
           "options": [
+            "[[Habilidad|]]",
             "[[Actividad|]]",
-            "[[incorrect|]]"
+            "[[Talento|]]",
+            "[[Frecuencia|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Ability",
           "options": [
-            "[[Habilidad|]]",
-            "[[incorrect|]]"
+            "[[Frecuencia|]]",
+            "[[Actividad|]]",
+            "[[Talento|]]",
+            "[[Habilidad|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Talent",
           "options": [
             "[[Talento|]]",
-            "[[incorrect|]]"
+            "[[Actividad|]]",
+            "[[Habilidad|]]",
+            "[[Frecuencia|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Frequency",
           "options": [
+            "[[Talento|]]",
+            "[[Habilidad|]]",
             "[[Frecuencia|]]",
-            "[[incorrect|]]"
+            "[[Actividad|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -550,7 +588,9 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "question": "He (tocar) ________ the piano.",
           "options": [
             "[[plays|]]",
-            "[[other|]]"
+            "[[can|]]",
+            "[[Habilidad|]]",
+            "[[can|]]"
           ],
           "correctAnswer": 0
         }
@@ -666,34 +706,42 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Ability",
           "options": [
-            "[[Habilidad|]]",
-            "[[incorrect|]]"
+            "[[Frecuencia|]]",
+            "[[Actividad|]]",
+            "[[Talento|]]",
+            "[[Habilidad|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Talent",
           "options": [
+            "[[Habilidad|]]",
             "[[Talento|]]",
-            "[[incorrect|]]"
+            "[[Actividad|]]",
+            "[[Frecuencia|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Frequency",
           "options": [
-            "[[Frecuencia|]]",
-            "[[incorrect|]]"
+            "[[Actividad|]]",
+            "[[Habilidad|]]",
+            "[[Talento|]]",
+            "[[Frecuencia|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Activity",
           "options": [
-            "[[Actividad|]]",
-            "[[incorrect|]]"
+            "[[Frecuencia|]]",
+            "[[Talento|]]",
+            "[[Habilidad|]]",
+            "[[Actividad|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -712,10 +760,12 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "I (poder) ________ swim.",
           "options": [
+            "[[o1|]]",
             "[[can|]]",
-            "[[other|]]"
+            "[[Habilidad|]]",
+            "[[Talento|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -830,33 +880,41 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "question": "Talent",
           "options": [
             "[[Talento|]]",
-            "[[incorrect|]]"
+            "[[Frecuencia|]]",
+            "[[Actividad|]]",
+            "[[Habilidad|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Frequency",
           "options": [
+            "[[Actividad|]]",
+            "[[Habilidad|]]",
             "[[Frecuencia|]]",
-            "[[incorrect|]]"
+            "[[Talento|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Activity",
           "options": [
-            "[[Actividad|]]",
-            "[[incorrect|]]"
+            "[[Talento|]]",
+            "[[Habilidad|]]",
+            "[[Frecuencia|]]",
+            "[[Actividad|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Ability",
           "options": [
+            "[[Talento|]]",
             "[[Habilidad|]]",
-            "[[incorrect|]]"
+            "[[Frecuencia|]]",
+            "[[Actividad|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -875,10 +933,12 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "He (tocar) ________ the piano.",
           "options": [
+            "[[Frecuencia|]]",
             "[[plays|]]",
-            "[[other|]]"
+            "[[free time|]]",
+            "[[Activity|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -992,34 +1052,42 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Frequency",
           "options": [
-            "[[Frecuencia|]]",
-            "[[incorrect|]]"
+            "[[Habilidad|]]",
+            "[[Actividad|]]",
+            "[[Talento|]]",
+            "[[Frecuencia|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Activity",
           "options": [
+            "[[Talento|]]",
+            "[[Frecuencia|]]",
             "[[Actividad|]]",
-            "[[incorrect|]]"
+            "[[Habilidad|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Ability",
           "options": [
+            "[[Talento|]]",
             "[[Habilidad|]]",
-            "[[incorrect|]]"
+            "[[Actividad|]]",
+            "[[Frecuencia|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Talent",
           "options": [
+            "[[Habilidad|]]",
+            "[[Frecuencia|]]",
             "[[Talento|]]",
-            "[[incorrect|]]"
+            "[[Actividad|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -1039,7 +1107,9 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "question": "I (poder) ________ swim.",
           "options": [
             "[[can|]]",
-            "[[other|]]"
+            "[[Talent|]]",
+            "[[o1|]]",
+            "[[Habilidad|]]"
           ],
           "correctAnswer": 0
         }
@@ -1156,33 +1226,41 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "question": "Activity",
           "options": [
             "[[Actividad|]]",
-            "[[incorrect|]]"
+            "[[Habilidad|]]",
+            "[[Frecuencia|]]",
+            "[[Talento|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Ability",
           "options": [
+            "[[Frecuencia|]]",
+            "[[Talento|]]",
             "[[Habilidad|]]",
-            "[[incorrect|]]"
+            "[[Actividad|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Talent",
           "options": [
-            "[[Talento|]]",
-            "[[incorrect|]]"
+            "[[Frecuencia|]]",
+            "[[Actividad|]]",
+            "[[Habilidad|]]",
+            "[[Talento|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Frequency",
           "options": [
+            "[[Habilidad|]]",
+            "[[Actividad|]]",
             "[[Frecuencia|]]",
-            "[[incorrect|]]"
+            "[[Talento|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -1201,10 +1279,12 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "He (tocar) ________ the piano.",
           "options": [
+            "[[o1|]]",
             "[[plays|]]",
-            "[[other|]]"
+            "[[Activity|]]",
+            "[[Talento|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -1318,16 +1398,20 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Ability",
           "options": [
+            "[[Frecuencia|]]",
             "[[Habilidad|]]",
-            "[[incorrect|]]"
+            "[[Actividad|]]",
+            "[[Talento|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Talent",
           "options": [
             "[[Talento|]]",
-            "[[incorrect|]]"
+            "[[Habilidad|]]",
+            "[[Actividad|]]",
+            "[[Frecuencia|]]"
           ],
           "correctAnswer": 0
         },
@@ -1335,7 +1419,9 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "question": "Frequency",
           "options": [
             "[[Frecuencia|]]",
-            "[[incorrect|]]"
+            "[[Talento|]]",
+            "[[Actividad|]]",
+            "[[Habilidad|]]"
           ],
           "correctAnswer": 0
         },
@@ -1343,7 +1429,9 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "question": "Activity",
           "options": [
             "[[Actividad|]]",
-            "[[incorrect|]]"
+            "[[Frecuencia|]]",
+            "[[Habilidad|]]",
+            "[[Talento|]]"
           ],
           "correctAnswer": 0
         }
@@ -1364,10 +1452,12 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "I (poder) ________ swim.",
           "options": [
-            "[[can|]]",
-            "[[other|]]"
+            "[[Frecuencia|]]",
+            "[[Frecuencia|]]",
+            "[[Frecuencia|]]",
+            "[[can|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -1482,33 +1572,41 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "question": "Talent",
           "options": [
             "[[Talento|]]",
-            "[[incorrect|]]"
+            "[[Frecuencia|]]",
+            "[[Actividad|]]",
+            "[[Habilidad|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Frequency",
           "options": [
-            "[[Frecuencia|]]",
-            "[[incorrect|]]"
+            "[[Actividad|]]",
+            "[[Talento|]]",
+            "[[Habilidad|]]",
+            "[[Frecuencia|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Activity",
           "options": [
+            "[[Talento|]]",
+            "[[Habilidad|]]",
             "[[Actividad|]]",
-            "[[incorrect|]]"
+            "[[Frecuencia|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Ability",
           "options": [
-            "[[Habilidad|]]",
-            "[[incorrect|]]"
+            "[[Talento|]]",
+            "[[Frecuencia|]]",
+            "[[Actividad|]]",
+            "[[Habilidad|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -1528,7 +1626,9 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "question": "He (tocar) ________ the piano.",
           "options": [
             "[[plays|]]",
-            "[[other|]]"
+            "[[frequency|]]",
+            "[[o1|]]",
+            "[[o1|]]"
           ],
           "correctAnswer": 0
         }
@@ -1645,10 +1745,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "The [[can|]] is here.",
           "options": [
-            "[[can|]]",
-            "[[other|]]"
+            "[[Talento|]]",
+            "[[can|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1671,7 +1771,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "question": "The [[sports|]] is here.",
           "options": [
             "[[sports|]]",
-            "[[other|]]"
+            "[[Habilidad|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1695,10 +1795,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "The [[frequency|]] is here.",
           "options": [
-            "[[frequency|]]",
-            "[[other|]]"
+            "[[Talento|]]",
+            "[[frequency|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1721,7 +1821,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "question": "The [[connectors|]] is here.",
           "options": [
             "[[connectors|]]",
-            "[[other|]]"
+            "[[Activity|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1745,10 +1845,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "The [[free time|]] is here.",
           "options": [
-            "[[free time|]]",
-            "[[other|]]"
+            "[[connectors|]]",
+            "[[free time|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1770,10 +1870,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "The [[instruments|]] is here.",
           "options": [
-            "[[instruments|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[instruments|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1796,7 +1896,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "question": "The [[talent|]] is here.",
           "options": [
             "[[talent|]]",
-            "[[other|]]"
+            "[[Actividad|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

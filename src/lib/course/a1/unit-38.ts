@@ -14,34 +14,42 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "Wash the dishes",
           "options": [
+            "[[Barrer el suelo|]]",
             "[[Lavar los platos|]]",
-            "[[incorrect|]]"
+            "[[Hacer la cama|]]",
+            "[[Hacer la colada|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Sweep the floor",
           "options": [
-            "[[Barrer el suelo|]]",
-            "[[incorrect|]]"
+            "[[Hacer la cama|]]",
+            "[[Lavar los platos|]]",
+            "[[Hacer la colada|]]",
+            "[[Barrer el suelo|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Do the laundry",
           "options": [
             "[[Hacer la colada|]]",
-            "[[incorrect|]]"
+            "[[Hacer la cama|]]",
+            "[[Barrer el suelo|]]",
+            "[[Lavar los platos|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Make the bed",
           "options": [
-            "[[Hacer la cama|]]",
-            "[[incorrect|]]"
+            "[[Lavar los platos|]]",
+            "[[Hacer la colada|]]",
+            "[[Barrer el suelo|]]",
+            "[[Hacer la cama|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -86,10 +94,12 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "Please ________ the bathroom. It's dirty.",
           "options": [
+            "[[o1|]]",
+            "[[o1|]]",
             "[[clean|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -156,10 +166,12 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "My mother ________ cook dinner today.",
           "options": [
+            "[[o1|]]",
+            "[[o1|]]",
             "[[has to|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -244,10 +256,12 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "________ he have to water the plants?",
           "options": [
+            "[[Hacer la colada|]]",
+            "[[o1|]]",
             "[[Does|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -1564,7 +1578,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
           "question": "The [[can I|]] is here.",
           "options": [
             "[[can I|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1588,10 +1602,10 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "The [[may I|]] is here.",
           "options": [
-            "[[may I|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[may I|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1613,10 +1627,10 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "The [[borrow|]] is here.",
           "options": [
-            "[[borrow|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[borrow|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1638,10 +1652,10 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "The [[help|]] is here.",
           "options": [
-            "[[help|]]",
-            "[[other|]]"
+            "[[can I|]]",
+            "[[help|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1664,7 +1678,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
           "question": "The [[open|]] is here.",
           "options": [
             "[[open|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1689,7 +1703,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
           "question": "The [[close|]] is here.",
           "options": [
             "[[close|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1714,7 +1728,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
           "question": "The [[come in|]] is here.",
           "options": [
             "[[come in|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

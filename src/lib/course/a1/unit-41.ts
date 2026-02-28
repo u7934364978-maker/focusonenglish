@@ -15,33 +15,41 @@ export const UNIT_41_EXERCISES: Exercise[] = [
           "question": "Passport",
           "options": [
             "[[Pasaporte|]]",
-            "[[incorrect|]]"
+            "[[Puerta de embarque|]]",
+            "[[Equipaje|]]",
+            "[[Tarjeta de embarque|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Boarding pass",
           "options": [
+            "[[Equipaje|]]",
             "[[Tarjeta de embarque|]]",
-            "[[incorrect|]]"
+            "[[Pasaporte|]]",
+            "[[Puerta de embarque|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Gate",
           "options": [
+            "[[Pasaporte|]]",
+            "[[Equipaje|]]",
             "[[Puerta de embarque|]]",
-            "[[incorrect|]]"
+            "[[Tarjeta de embarque|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Luggage",
           "options": [
-            "[[Equipaje|]]",
-            "[[incorrect|]]"
+            "[[Tarjeta de embarque|]]",
+            "[[Pasaporte|]]",
+            "[[Puerta de embarque|]]",
+            "[[Equipaje|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -87,7 +95,9 @@ export const UNIT_41_EXERCISES: Exercise[] = [
           "question": "I have a ticket for my ________. (vuelo)",
           "options": [
             "[[flight|]]",
-            "[[other|]]"
+            "[[Is this your luggage?|]]",
+            "[[at|]]",
+            "[[o1|]]"
           ],
           "correctAnswer": 0
         }
@@ -156,10 +166,12 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "I am ________ the airport.",
           "options": [
-            "[[at|]]",
-            "[[other|]]"
+            "[[Boarding pass|]]",
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[at|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -202,10 +214,12 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "Please ________ your boarding pass. (muestra)",
           "options": [
-            "[[show|]]",
-            "[[other|]]"
+            "[[Wait in the lounge.|]]",
+            "[[o1|]]",
+            "[[flight|]]",
+            "[[show|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -271,10 +285,12 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "A: Is your flight on time?\nB: No, it is ________. (retrasado)",
           "options": [
+            "[[o1|]]",
+            "[[o1|]]",
             "[[late|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -393,7 +409,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Where is the boarding gate?|]]",
-            "[[other|]]"
+            "[[late|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -418,7 +434,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Please show your passport.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -442,10 +458,10 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[The flight is on time.|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[The flight is on time.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -468,7 +484,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Is this your luggage?|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -493,7 +509,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[The check-in desk is closed.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -517,10 +533,10 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Take your boarding pass.|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[Take your boarding pass.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -543,7 +559,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Wait in the lounge.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1476,7 +1492,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
           "question": "The [[airport|]] is here.",
           "options": [
             "[[airport|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1501,7 +1517,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
           "question": "The [[check-in|]] is here.",
           "options": [
             "[[check-in|]]",
-            "[[other|]]"
+            "[[The flight is on time.|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1525,10 +1541,10 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "The [[passport|]] is here.",
           "options": [
-            "[[passport|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[passport|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1550,10 +1566,10 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "The [[gate|]] is here.",
           "options": [
-            "[[gate|]]",
-            "[[other|]]"
+            "[[flight|]]",
+            "[[gate|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1575,10 +1591,10 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "The [[flight|]] is here.",
           "options": [
-            "[[flight|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[flight|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1601,7 +1617,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
           "question": "The [[boarding|]] is here.",
           "options": [
             "[[boarding|]]",
-            "[[other|]]"
+            "[[flight|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1625,10 +1641,10 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "The [[luggage|]] is here.",
           "options": [
-            "[[luggage|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[luggage|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]

@@ -40,34 +40,42 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "Paint",
           "options": [
-            "[[Pintar|]]",
-            "[[incorrect|]]"
+            "[[Bailar|]]",
+            "[[Cocinar|]]",
+            "[[Nadar|]]",
+            "[[Pintar|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Dance",
           "options": [
             "[[Bailar|]]",
-            "[[incorrect|]]"
+            "[[Nadar|]]",
+            "[[Pintar|]]",
+            "[[Cocinar|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Cook",
           "options": [
-            "[[Cocinar|]]",
-            "[[incorrect|]]"
+            "[[Nadar|]]",
+            "[[Bailar|]]",
+            "[[Pintar|]]",
+            "[[Cocinar|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Swim",
           "options": [
-            "[[Nadar|]]",
-            "[[incorrect|]]"
+            "[[Pintar|]]",
+            "[[Cocinar|]]",
+            "[[Bailar|]]",
+            "[[Nadar|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -137,7 +145,9 @@ export const UNIT_59_EXERCISES: Exercise[] = [
           "question": "I like ________.",
           "options": [
             "[[swimming|]]",
-            "[[other|]]"
+            "[[He likes playing video games.|]]",
+            "[[o1|]]",
+            "[[o1|]]"
           ],
           "correctAnswer": 0
         }
@@ -205,10 +215,12 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "I don't like ________ to rock music.",
           "options": [
+            "[[Dar un paseo|]]",
+            "[[o1|]]",
             "[[listening|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -252,7 +264,9 @@ export const UNIT_59_EXERCISES: Exercise[] = [
           "question": "Go for a walk",
           "options": [
             "[[Dar un paseo|]]",
-            "[[incorrect|]]"
+            "[[Escuchar música|]]",
+            "[[Quedar con amigos|]]",
+            "[[Ver una peli|]]"
           ],
           "correctAnswer": 0
         },
@@ -260,7 +274,9 @@ export const UNIT_59_EXERCISES: Exercise[] = [
           "question": "Watch a movie",
           "options": [
             "[[Ver una peli|]]",
-            "[[incorrect|]]"
+            "[[Escuchar música|]]",
+            "[[Dar un paseo|]]",
+            "[[Quedar con amigos|]]"
           ],
           "correctAnswer": 0
         },
@@ -268,17 +284,21 @@ export const UNIT_59_EXERCISES: Exercise[] = [
           "question": "Meet friends",
           "options": [
             "[[Quedar con amigos|]]",
-            "[[incorrect|]]"
+            "[[Escuchar música|]]",
+            "[[Ver una peli|]]",
+            "[[Dar un paseo|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Listen to music",
           "options": [
+            "[[Dar un paseo|]]",
+            "[[Quedar con amigos|]]",
             "[[Escuchar música|]]",
-            "[[incorrect|]]"
+            "[[Ver una peli|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -371,10 +391,12 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "I love ________ (read) and I enjoy ________ (dance).",
           "options": [
+            "[[Cocinar|]]",
+            "[[I like listening to music|]]",
             "[[reading, dancing|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -444,10 +466,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I like reading books.|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[I like reading books.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -469,10 +491,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[She loves cooking dinner.|]]",
-            "[[other|]]"
+            "[[They enjoy swimming.|]]",
+            "[[She loves cooking dinner.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -495,7 +517,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[They enjoy swimming.|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -519,10 +541,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I hate dancing.|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[I hate dancing.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -544,10 +566,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[We meet friends on Sunday.|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[We meet friends on Sunday.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -569,10 +591,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I watch movies in my spare time.|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[I watch movies in my spare time.|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -595,7 +617,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[He likes playing video games.|]]",
-            "[[other|]]"
+            "[[Escuchar música|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1501,10 +1523,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "The [[pounds|]] is here.",
           "options": [
-            "[[pounds|]]",
-            "[[other|]]"
+            "[[Pintar|]]",
+            "[[pounds|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1527,7 +1549,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
           "question": "The [[dollars|]] is here.",
           "options": [
             "[[dollars|]]",
-            "[[other|]]"
+            "[[They enjoy swimming.|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1551,10 +1573,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "The [[euros|]] is here.",
           "options": [
-            "[[euros|]]",
-            "[[other|]]"
+            "[[I like listening to music|]]",
+            "[[euros|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1576,10 +1598,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "The [[cash|]] is here.",
           "options": [
-            "[[cash|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[cash|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1601,10 +1623,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "The [[card|]] is here.",
           "options": [
-            "[[card|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[card|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1626,10 +1648,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "The [[change|]] is here.",
           "options": [
-            "[[change|]]",
-            "[[other|]]"
+            "[[I like reading books.|]]",
+            "[[change|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1651,10 +1673,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "The [[price|]] is here.",
           "options": [
-            "[[price|]]",
-            "[[other|]]"
+            "[[dollars|]]",
+            "[[price|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]

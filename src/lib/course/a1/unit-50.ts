@@ -14,32 +14,40 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Weather",
           "options": [
+            "[[Aeropuerto|]]",
+            "[[Estación|]]",
             "[[Tiempo|]]",
-            "[[incorrect|]]"
+            "[[Viaje|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Season",
           "options": [
             "[[Estación|]]",
-            "[[incorrect|]]"
+            "[[Aeropuerto|]]",
+            "[[Tiempo|]]",
+            "[[Viaje|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Airport",
           "options": [
+            "[[Viaje|]]",
+            "[[Estación|]]",
             "[[Aeropuerto|]]",
-            "[[incorrect|]]"
+            "[[Tiempo|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Travel",
           "options": [
             "[[Viaje|]]",
-            "[[incorrect|]]"
+            "[[Tiempo|]]",
+            "[[Aeropuerto|]]",
+            "[[Estación|]]"
           ],
           "correctAnswer": 0
         }
@@ -60,10 +68,12 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "I go (en) ________ train.",
           "options": [
+            "[[Estación|]]",
             "[[by|]]",
-            "[[other|]]"
+            "[[Estación|]]",
+            "[[is|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -178,7 +188,9 @@ export const UNIT_50_EXERCISES: Exercise[] = [
           "question": "Season",
           "options": [
             "[[Estación|]]",
-            "[[incorrect|]]"
+            "[[Hotel|]]",
+            "[[Viaje|]]",
+            "[[Aeropuerto|]]"
           ],
           "correctAnswer": 0
         },
@@ -186,23 +198,29 @@ export const UNIT_50_EXERCISES: Exercise[] = [
           "question": "Airport",
           "options": [
             "[[Aeropuerto|]]",
-            "[[incorrect|]]"
+            "[[Viaje|]]",
+            "[[Hotel|]]",
+            "[[Estación|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Travel",
           "options": [
-            "[[Viaje|]]",
-            "[[incorrect|]]"
+            "[[Estación|]]",
+            "[[Aeropuerto|]]",
+            "[[Hotel|]]",
+            "[[Viaje|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Hotel",
           "options": [
             "[[Hotel|]]",
-            "[[incorrect|]]"
+            "[[Estación|]]",
+            "[[Viaje|]]",
+            "[[Aeropuerto|]]"
           ],
           "correctAnswer": 0
         }
@@ -223,10 +241,12 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "It (ser/estar - ello) ________ sunny.",
           "options": [
+            "[[Airport|]]",
+            "[[Estación|]]",
             "[[is|]]",
-            "[[other|]]"
+            "[[Viaje|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -340,32 +360,40 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Airport",
           "options": [
-            "[[Aeropuerto|]]",
-            "[[incorrect|]]"
+            "[[Viaje|]]",
+            "[[Hotel|]]",
+            "[[Tiempo|]]",
+            "[[Aeropuerto|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Travel",
           "options": [
+            "[[Aeropuerto|]]",
             "[[Viaje|]]",
-            "[[incorrect|]]"
+            "[[Tiempo|]]",
+            "[[Hotel|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Hotel",
           "options": [
+            "[[Tiempo|]]",
             "[[Hotel|]]",
-            "[[incorrect|]]"
+            "[[Viaje|]]",
+            "[[Aeropuerto|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Weather",
           "options": [
             "[[Tiempo|]]",
-            "[[incorrect|]]"
+            "[[Hotel|]]",
+            "[[Viaje|]]",
+            "[[Aeropuerto|]]"
           ],
           "correctAnswer": 0
         }
@@ -386,10 +414,12 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "I go (en) ________ train.",
           "options": [
+            "[[Viaje|]]",
             "[[by|]]",
-            "[[other|]]"
+            "[[Season|]]",
+            "[[Tiempo|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -503,34 +533,42 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Travel",
           "options": [
+            "[[Tiempo|]]",
+            "[[Hotel|]]",
             "[[Viaje|]]",
-            "[[incorrect|]]"
+            "[[Estación|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Hotel",
           "options": [
-            "[[Hotel|]]",
-            "[[incorrect|]]"
+            "[[Tiempo|]]",
+            "[[Estación|]]",
+            "[[Viaje|]]",
+            "[[Hotel|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Weather",
           "options": [
-            "[[Tiempo|]]",
-            "[[incorrect|]]"
+            "[[Hotel|]]",
+            "[[Viaje|]]",
+            "[[Estación|]]",
+            "[[Tiempo|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Season",
           "options": [
+            "[[Viaje|]]",
+            "[[Hotel|]]",
             "[[Estación|]]",
-            "[[incorrect|]]"
+            "[[Tiempo|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -550,7 +588,9 @@ export const UNIT_50_EXERCISES: Exercise[] = [
           "question": "It (ser/estar - ello) ________ sunny.",
           "options": [
             "[[is|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[Estación|]]"
           ],
           "correctAnswer": 0
         }
@@ -666,34 +706,42 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Hotel",
           "options": [
-            "[[Hotel|]]",
-            "[[incorrect|]]"
+            "[[Aeropuerto|]]",
+            "[[Estación|]]",
+            "[[Tiempo|]]",
+            "[[Hotel|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Weather",
           "options": [
-            "[[Tiempo|]]",
-            "[[incorrect|]]"
+            "[[Hotel|]]",
+            "[[Aeropuerto|]]",
+            "[[Estación|]]",
+            "[[Tiempo|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Season",
           "options": [
+            "[[Hotel|]]",
             "[[Estación|]]",
-            "[[incorrect|]]"
+            "[[Tiempo|]]",
+            "[[Aeropuerto|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Airport",
           "options": [
-            "[[Aeropuerto|]]",
-            "[[incorrect|]]"
+            "[[Tiempo|]]",
+            "[[Hotel|]]",
+            "[[Estación|]]",
+            "[[Aeropuerto|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -712,10 +760,12 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "I go (en) ________ train.",
           "options": [
+            "[[Tiempo|]]",
+            "[[Season|]]",
             "[[by|]]",
-            "[[other|]]"
+            "[[Aeropuerto|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -830,33 +880,41 @@ export const UNIT_50_EXERCISES: Exercise[] = [
           "question": "Weather",
           "options": [
             "[[Tiempo|]]",
-            "[[incorrect|]]"
+            "[[Estación|]]",
+            "[[Viaje|]]",
+            "[[Aeropuerto|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Season",
           "options": [
-            "[[Estación|]]",
-            "[[incorrect|]]"
+            "[[Tiempo|]]",
+            "[[Aeropuerto|]]",
+            "[[Viaje|]]",
+            "[[Estación|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Airport",
           "options": [
+            "[[Tiempo|]]",
+            "[[Estación|]]",
             "[[Aeropuerto|]]",
-            "[[incorrect|]]"
+            "[[Viaje|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Travel",
           "options": [
+            "[[Estación|]]",
             "[[Viaje|]]",
-            "[[incorrect|]]"
+            "[[Aeropuerto|]]",
+            "[[Tiempo|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -875,10 +933,12 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "It (ser/estar - ello) ________ sunny.",
           "options": [
+            "[[Tiempo|]]",
             "[[is|]]",
-            "[[other|]]"
+            "[[Tiempo|]]",
+            "[[Estación|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -992,32 +1052,40 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Season",
           "options": [
-            "[[Estación|]]",
-            "[[incorrect|]]"
+            "[[Aeropuerto|]]",
+            "[[Hotel|]]",
+            "[[Viaje|]]",
+            "[[Estación|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Airport",
           "options": [
             "[[Aeropuerto|]]",
-            "[[incorrect|]]"
+            "[[Hotel|]]",
+            "[[Estación|]]",
+            "[[Viaje|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Travel",
           "options": [
+            "[[Hotel|]]",
+            "[[Aeropuerto|]]",
             "[[Viaje|]]",
-            "[[incorrect|]]"
+            "[[Estación|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Hotel",
           "options": [
             "[[Hotel|]]",
-            "[[incorrect|]]"
+            "[[Aeropuerto|]]",
+            "[[Estación|]]",
+            "[[Viaje|]]"
           ],
           "correctAnswer": 0
         }
@@ -1039,7 +1107,9 @@ export const UNIT_50_EXERCISES: Exercise[] = [
           "question": "I go (en) ________ train.",
           "options": [
             "[[by|]]",
-            "[[other|]]"
+            "[[Aeropuerto|]]",
+            "[[Viaje|]]",
+            "[[seasons|]]"
           ],
           "correctAnswer": 0
         }
@@ -1156,33 +1226,41 @@ export const UNIT_50_EXERCISES: Exercise[] = [
           "question": "Airport",
           "options": [
             "[[Aeropuerto|]]",
-            "[[incorrect|]]"
+            "[[Hotel|]]",
+            "[[Tiempo|]]",
+            "[[Viaje|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Travel",
           "options": [
+            "[[Tiempo|]]",
             "[[Viaje|]]",
-            "[[incorrect|]]"
+            "[[Hotel|]]",
+            "[[Aeropuerto|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Hotel",
           "options": [
+            "[[Viaje|]]",
             "[[Hotel|]]",
-            "[[incorrect|]]"
+            "[[Tiempo|]]",
+            "[[Aeropuerto|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Weather",
           "options": [
+            "[[Viaje|]]",
             "[[Tiempo|]]",
-            "[[incorrect|]]"
+            "[[Hotel|]]",
+            "[[Aeropuerto|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -1201,10 +1279,12 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "It (ser/estar - ello) ________ sunny.",
           "options": [
+            "[[o1|]]",
             "[[is|]]",
-            "[[other|]]"
+            "[[transport|]]",
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         }
       ]
     },
@@ -1318,34 +1398,42 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Travel",
           "options": [
+            "[[Estación|]]",
             "[[Viaje|]]",
-            "[[incorrect|]]"
+            "[[Tiempo|]]",
+            "[[Hotel|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Hotel",
           "options": [
+            "[[Estación|]]",
             "[[Hotel|]]",
-            "[[incorrect|]]"
+            "[[Tiempo|]]",
+            "[[Viaje|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Weather",
           "options": [
+            "[[Estación|]]",
             "[[Tiempo|]]",
-            "[[incorrect|]]"
+            "[[Hotel|]]",
+            "[[Viaje|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Season",
           "options": [
+            "[[Tiempo|]]",
+            "[[Viaje|]]",
             "[[Estación|]]",
-            "[[incorrect|]]"
+            "[[Hotel|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -1365,7 +1453,9 @@ export const UNIT_50_EXERCISES: Exercise[] = [
           "question": "I go (en) ________ train.",
           "options": [
             "[[by|]]",
-            "[[other|]]"
+            "[[Hotel|]]",
+            "[[Weather|]]",
+            "[[Estación|]]"
           ],
           "correctAnswer": 0
         }
@@ -1481,34 +1571,42 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Hotel",
           "options": [
+            "[[Aeropuerto|]]",
             "[[Hotel|]]",
-            "[[incorrect|]]"
+            "[[Tiempo|]]",
+            "[[Estación|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
           "question": "Weather",
           "options": [
-            "[[Tiempo|]]",
-            "[[incorrect|]]"
+            "[[Estación|]]",
+            "[[Aeropuerto|]]",
+            "[[Hotel|]]",
+            "[[Tiempo|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Season",
           "options": [
-            "[[Estación|]]",
-            "[[incorrect|]]"
+            "[[Tiempo|]]",
+            "[[Aeropuerto|]]",
+            "[[Hotel|]]",
+            "[[Estación|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         },
         {
           "question": "Airport",
           "options": [
+            "[[Hotel|]]",
+            "[[Estación|]]",
             "[[Aeropuerto|]]",
-            "[[incorrect|]]"
+            "[[Tiempo|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -1527,10 +1625,12 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "It (ser/estar - ello) ________ sunny.",
           "options": [
+            "[[Viaje|]]",
+            "[[Viaje|]]",
             "[[is|]]",
-            "[[other|]]"
+            "[[Tiempo|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -1645,10 +1745,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "The [[airport|]] is here.",
           "options": [
-            "[[airport|]]",
-            "[[other|]]"
+            "[[Weather|]]",
+            "[[airport|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1671,7 +1771,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
           "question": "The [[transport|]] is here.",
           "options": [
             "[[transport|]]",
-            "[[other|]]"
+            "[[by|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1696,7 +1796,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
           "question": "The [[weather|]] is here.",
           "options": [
             "[[weather|]]",
-            "[[other|]]"
+            "[[Tiempo|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1721,7 +1821,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
           "question": "The [[seasons|]] is here.",
           "options": [
             "[[seasons|]]",
-            "[[other|]]"
+            "[[by|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1746,7 +1846,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
           "question": "The [[hotel|]] is here.",
           "options": [
             "[[hotel|]]",
-            "[[other|]]"
+            "[[is|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1770,10 +1870,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "The [[travel|]] is here.",
           "options": [
-            "[[travel|]]",
-            "[[other|]]"
+            "[[Estación|]]",
+            "[[travel|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1796,7 +1896,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
           "question": "The [[packing|]] is here.",
           "options": [
             "[[packing|]]",
-            "[[other|]]"
+            "[[Airport|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

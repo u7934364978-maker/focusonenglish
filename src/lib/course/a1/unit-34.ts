@@ -15,25 +15,31 @@ export const UNIT_34_EXERCISES: Exercise[] = [
           "question": "And",
           "options": [
             "[[Añadir información (+)|]]",
-            "[[incorrect|]]"
+            "[[Dar una razón (¿Por qué?)|]]",
+            "[[Contrastar ideas (+/-)|]]",
+            "[[o1|]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "But",
           "options": [
+            "[[Dar una razón (¿Por qué?)|]]",
+            "[[Añadir información (+)|]]",
             "[[Contrastar ideas (+/-)|]]",
-            "[[incorrect|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         },
         {
           "question": "Because",
           "options": [
+            "[[o1|]]",
+            "[[Contrastar ideas (+/-)|]]",
             "[[Dar una razón (¿Por qué?)|]]",
-            "[[incorrect|]]"
+            "[[Añadir información (+)|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -78,10 +84,12 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "I speak English ________ Spanish.",
           "options": [
-            "[[and|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[o1|]]",
+            "[[and|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 3
         }
       ]
     },
@@ -145,10 +153,12 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "I can swim ________ I can't drive.",
           "options": [
+            "[[or|]]",
+            "[[o1|]]",
             "[[but|]]",
-            "[[other|]]"
+            "[[because|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -191,10 +201,12 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "I am happy ________ it is my birthday.",
           "options": [
+            "[[o1|]]",
+            "[[and|]]",
             "[[because|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
-          "correctAnswer": 0
+          "correctAnswer": 2
         }
       ]
     },
@@ -1557,10 +1569,10 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "The [[and|]] is here.",
           "options": [
-            "[[and|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[and|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1582,10 +1594,10 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "The [[but|]] is here.",
           "options": [
-            "[[but|]]",
-            "[[other|]]"
+            "[[because|]]",
+            "[[but|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1607,10 +1619,10 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "The [[because|]] is here.",
           "options": [
-            "[[because|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[because|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1632,10 +1644,10 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "The [[so|]] is here.",
           "options": [
-            "[[so|]]",
-            "[[other|]]"
+            "[[Añadir información (+)|]]",
+            "[[so|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1658,7 +1670,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
           "question": "The [[or|]] is here.",
           "options": [
             "[[or|]]",
-            "[[other|]]"
+            "[[o1|]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1682,10 +1694,10 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "The [[then|]] is here.",
           "options": [
-            "[[then|]]",
-            "[[other|]]"
+            "[[because|]]",
+            "[[then|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
@@ -1707,10 +1719,10 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "The [[finally|]] is here.",
           "options": [
-            "[[finally|]]",
-            "[[other|]]"
+            "[[o1|]]",
+            "[[finally|]]"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
         }
       ]
