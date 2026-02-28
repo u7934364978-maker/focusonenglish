@@ -54,8 +54,9 @@ module.exports = {
         },
       },
       fontFamily: {
-        'display': ['var(--font-nunito)', 'Nunito', 'system-ui', 'sans-serif'],
+        'display': ['var(--font-jakarta)', 'Plus Jakarta Sans', 'system-ui', 'sans-serif'],
         'sans': ['var(--font-nunito)', 'Nunito', 'system-ui', 'sans-serif'],
+        'heading': ['var(--font-jakarta)', 'Plus Jakarta Sans', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
         'coral': '0 4px 16px rgba(255, 107, 107, 0.3)',

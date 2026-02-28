@@ -12,31 +12,68 @@
     --color-warning: 251 191 36;
     --color-background: 254 250 244;
     --color-card: 255 255 255;
-    --font-dm-sans: var(--font-nunito);
-    --font-space-grotesk: var(--font-nunito);
-  }
-  
-  body {
-    @apply antialiased;
-    font-family: var(--font-dm-sans), 'Nunito', 'Poppins', system-ui, sans-serif;
-    background-color: rgb(var(--color-background));
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-space-grotesk), 'Nunito', system-ui, sans-serif;
-    @apply font-bold tracking-normal;
-  }
-  
-  h1 {
-    @apply font-extrabold tracking-tight;
-  }
-  
-  p {
-    @apply leading-relaxed text-slate-700;
   }
 
   html {
     scroll-behavior: smooth;
+  }
+
+  /*
+   * TYPOGRAPHY SYSTEM
+   * ─────────────────────────────────────────────────────
+   * Display / H1–H3  →  Plus Jakarta Sans  (geometric, confident, modern)
+   * H4–H6 / Body     →  Nunito             (rounded, warm, highly readable)
+   *
+   * Rationale: Jakarta commands authority at large sizes;
+   * Nunito creates warmth and approachability in reading copy.
+   */
+
+  body {
+    font-family: var(--font-nunito), 'Nunito', system-ui, sans-serif;
+    @apply antialiased text-base leading-relaxed text-slate-700;
+    background-color: rgb(var(--color-background));
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+
+  /* ── DISPLAY / LARGE HEADINGS ── Jakarta Sans */
+  h1, h2, h3 {
+    font-family: var(--font-jakarta), 'Plus Jakarta Sans', system-ui, sans-serif;
+    @apply text-slate-900 leading-tight;
+    font-feature-settings: "kern" 1, "ss01" 1;
+  }
+
+  h1 {
+    @apply text-4xl font-extrabold tracking-tight;
+    line-height: 1.1;
+  }
+
+  h2 {
+    @apply text-2xl font-bold tracking-tight;
+    line-height: 1.2;
+  }
+
+  h3 {
+    @apply text-xl font-semibold tracking-tight;
+    line-height: 1.25;
+  }
+
+  /* ── SMALL HEADINGS / LABELS ── Nunito */
+  h4, h5, h6 {
+    font-family: var(--font-nunito), 'Nunito', system-ui, sans-serif;
+    @apply text-slate-800;
+  }
+
+  h4 { @apply text-lg font-extrabold tracking-tight; }
+  h5 { @apply text-base font-bold; }
+  h6 { @apply text-sm font-bold uppercase tracking-widest text-slate-500; }
+
+  p {
+    @apply leading-relaxed text-slate-700;
+  }
+
+  strong {
+    font-family: var(--font-jakarta), 'Plus Jakarta Sans', system-ui, sans-serif;
+    @apply font-bold text-slate-900;
   }
 
   *:focus-visible {
@@ -46,6 +83,11 @@
 }
 
 @layer components {
+  /* Utility: apply Jakarta Sans to any element (stats, counters, big numbers) */
+  .font-jakarta {
+    font-family: var(--font-jakarta), 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
   .btn-coral {
     background: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%);
     @apply text-white shadow-coral transition-transform duration-200;

@@ -128,7 +128,7 @@ export function UnitCard({ unit }: UnitCardProps) {
           {/* Unit number badge */}
           <div className="bg-white/25 backdrop-blur-sm border border-white/40 text-white rounded-xl px-2.5 py-1">
             <span className="text-[10px] font-black tracking-widest uppercase leading-none">Unidad</span>
-            <p className="text-lg font-black text-white leading-none text-center">{unit.unitNumber}</p>
+            <p className="font-display text-lg font-extrabold text-white leading-none text-center">{unit.unitNumber}</p>
           </div>
         </div>
       </div>
@@ -136,7 +136,7 @@ export function UnitCard({ unit }: UnitCardProps) {
       {/* ── CARD BODY ────────────────────────────────────────── */}
       <div className="flex flex-col flex-1 p-5 pt-4">
         {/* Title */}
-        <h3 className={`text-base font-extrabold text-slate-900 leading-snug tracking-tight group-hover:${theme.text} transition-colors line-clamp-2 mb-3`}>
+        <h3 className={`font-display text-base font-bold text-slate-900 leading-snug tracking-tight group-hover:${theme.text} transition-colors line-clamp-2 mb-3`}>
           {unit.title}
         </h3>
 

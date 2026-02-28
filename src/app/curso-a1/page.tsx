@@ -80,7 +80,7 @@ async function A1PreviewContent() {
               <div className={`${color} flex justify-center mb-2`}>
                 <Icon className="w-5 h-5" />
               </div>
-              <p className={`text-3xl font-black tracking-tight ${color} leading-none mb-1`}>{value}</p>
+              <p className={`font-display text-3xl font-extrabold tracking-tight ${color} leading-none mb-1`}>{value}</p>
               <p className="text-xs font-bold text-slate-500 uppercase tracking-widest">{label}</p>
             </div>
           ))}
