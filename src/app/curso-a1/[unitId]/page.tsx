@@ -15,6 +15,28 @@ const MAX_DOTS = 15;
 
 type FeedbackState = 'idle' | 'correct' | 'incorrect';
 
+// ── EXERCISE TYPE CONFIG ────────────────────────────────────────────────────
+const EXERCISE_TYPES: Record<string, { label: string; emoji: string; gradient: string; text: string; light: string }> = {
+  'multiple-choice':        { label: 'Opción múltiple',       emoji: '🔘', gradient: 'from-violet-500 to-purple-600',  text: 'text-violet-700',  light: 'bg-violet-50' },
+  'fill-blank':             { label: 'Completa la frase',     emoji: '✏️', gradient: 'from-amber-400 to-orange-500',   text: 'text-amber-700',   light: 'bg-amber-50'  },
+  'fill-in-the-blank':      { label: 'Completa la frase',     emoji: '✏️', gradient: 'from-amber-400 to-orange-500',   text: 'text-amber-700',   light: 'bg-amber-50'  },
+  'sentence-building':      { label: 'Construye la frase',    emoji: '🔗', gradient: 'from-blue-500 to-indigo-600',    text: 'text-blue-700',    light: 'bg-blue-50'   },
+  'reading':                { label: 'Comprensión lectora',   emoji: '📖', gradient: 'from-sky-400 to-cyan-500',       text: 'text-sky-700',     light: 'bg-sky-50'    },
+  'reading-comprehension':  { label: 'Comprensión lectora',   emoji: '📖', gradient: 'from-sky-400 to-cyan-500',       text: 'text-sky-700',     light: 'bg-sky-50'    },
+  'listening':              { label: 'Comprensión auditiva',  emoji: '🎧', gradient: 'from-teal-400 to-emerald-500',   text: 'text-teal-700',    light: 'bg-teal-50'   },
+  'listening-comprehension':{ label: 'Comprensión auditiva',  emoji: '🎧', gradient: 'from-teal-400 to-emerald-500',   text: 'text-teal-700',    light: 'bg-teal-50'   },
+  'pronunciation':          { label: 'Pronunciación',         emoji: '🗣️', gradient: 'from-rose-400 to-pink-500',      text: 'text-rose-700',    light: 'bg-rose-50'   },
+  'true-false':             { label: 'Verdadero / Falso',     emoji: '⚖️', gradient: 'from-indigo-400 to-blue-500',    text: 'text-indigo-700',  light: 'bg-indigo-50' },
+  'translation':            { label: 'Traducción',            emoji: '🌐', gradient: 'from-emerald-400 to-green-500',  text: 'text-emerald-700', light: 'bg-emerald-50'},
+  'matching':               { label: 'Relaciona elementos',   emoji: '🔄', gradient: 'from-fuchsia-400 to-purple-500', text: 'text-fuchsia-700', light: 'bg-fuchsia-50'},
+  'default':                { label: 'Ejercicio',             emoji: '🎯', gradient: 'from-slate-400 to-slate-600',    text: 'text-slate-700',   light: 'bg-slate-50'  },
+};
+
+function getExerciseType(type: string) {
+  return EXERCISE_TYPES[type] ?? EXERCISE_TYPES['default'];
+}
+
+// ── CONFETTI ───────────────────────────────────────────────────────────────
 const CONFETTI_PIECES = Array.from({ length: 24 }, (_, i) => ({
   left: ((i * 37 + 11) % 100),
   top: ((i * 13 + 5) % 20 + 5),
@@ -43,11 +65,47 @@ function Confetti() {
   );
 }
 
+// ── INCORRECT FLASH ────────────────────────────────────────────────────────
+function IncorrectFlash({ visible }: { visible: boolean }) {
+  if (!visible) return null;
+  return (
+    <div
+      className="pointer-events-none fixed inset-0 z-40 bg-red-500/10 animate-[heart-lost_0.4s_ease-out_forwards]"
+      aria-hidden
+    />
+  );
+}
+
+// ── EXERCISE TYPE BANNER ───────────────────────────────────────────────────
+function ExerciseTypeBanner({ type, index }: { type: string; index: number }) {
+  const cfg = getExerciseType(type);
+  return (
+    <div className="flex items-center gap-3 mb-5">
+      <div className={`inline-flex items-center gap-2 bg-gradient-to-r ${cfg.gradient} text-white px-4 py-2 rounded-full shadow-sm`}>
+        <span className="text-base leading-none" aria-hidden>{cfg.emoji}</span>
+        <span className="text-xs font-black tracking-widest uppercase">{cfg.label}</span>
+      </div>
+    </div>
+  );
+}
+
+// ── STREAK GLOW OVERLAY ────────────────────────────────────────────────────
+function StreakGlow({ count }: { count: number }) {
+  if (count < 3) return null;
+  const intensity = count >= 10 ? 'from-yellow-500/10 via-orange-500/8' : count >= 5 ? 'from-orange-400/8 via-amber-500/6' : 'from-amber-400/6 via-orange-400/4';
+  return (
+    <div
+      className={`pointer-events-none fixed inset-0 z-0 bg-gradient-to-t ${intensity} to-transparent transition-opacity duration-700`}
+      aria-hidden
+    />
+  );
+}
+
 function UnitPreviewContent() {
   const params = useParams();
   const searchParams = useSearchParams();
   const unitId = params.unitId as string;
-  const { xp, level, completeExercise: saveXP, recordActivity } = useGamification();
+  const { xp, completeExercise: saveXP, recordActivity } = useGamification();
 
   const [exercises, setExercises] = useState<any[]>([]);
   const [unitTitle, setUnitTitle] = useState<string>('');
@@ -63,6 +121,7 @@ function UnitPreviewContent() {
   const [xpGained, setXpGained] = useState(0);
   const [showXpPop, setShowXpPop] = useState(false);
   const [lostLifeAt, setLostLifeAt] = useState<number | null>(null);
+  const [showIncorrectFlash, setShowIncorrectFlash] = useState(false);
 
   const [failCount, setFailCount] = useState(0);
   const [failedIndexes, setFailedIndexes] = useState<number[]>([]);
@@ -142,17 +201,13 @@ function UnitPreviewContent() {
 
       const exerciseId = exercises[currentIndex]?.id ?? `${unitId}-${currentIndex}`;
       saveXP(exerciseId, 1, 1);
-
       setFeedback('correct');
 
       if (STREAK_THRESHOLDS.includes(newConsecutive)) {
         setStreakBurstCount(newConsecutive);
         return;
       }
-
-      advanceTimer.current = setTimeout(() => {
-        advanceExercise(currentIndex, exercises.length);
-      }, 1200);
+      advanceTimer.current = setTimeout(() => advanceExercise(currentIndex, exercises.length), 1200);
     } else {
       setConsecutiveCorrect(0);
       setFailCount(prev => prev + 1);
@@ -164,10 +219,9 @@ function UnitPreviewContent() {
         setTimeout(() => setLostLifeAt(null), 600);
       }
       setFeedback('incorrect');
-
-      advanceTimer.current = setTimeout(() => {
-        advanceExercise(currentIndex, exercises.length);
-      }, 1800);
+      setShowIncorrectFlash(true);
+      setTimeout(() => setShowIncorrectFlash(false), 400);
+      advanceTimer.current = setTimeout(() => advanceExercise(currentIndex, exercises.length), 1800);
     }
   };
 
@@ -212,6 +266,9 @@ function UnitPreviewContent() {
   const repairRemaining = failedIndexes.filter(i => i >= currentIndex).length;
   const displayXp = xp + sessionScore;
   const showDots = exercisesInThisLesson <= MAX_DOTS;
+  const isOnStreak = consecutiveCorrect >= 3;
+  const currentExercise = exercises[currentIndex];
+  const exerciseTypeCfg = currentExercise ? getExerciseType(currentExercise.type ?? 'default') : EXERCISE_TYPES['default'];
 
   // ── UNIT SUMMARY ───────────────────────────────────────────────────
   if (showUnitSummary) {
@@ -224,7 +281,6 @@ function UnitPreviewContent() {
         <Confetti />
 
         <div className="relative z-10 max-w-md w-full text-center space-y-6 animate-in zoom-in-95 duration-500">
-          {/* Trophy */}
           <div className="relative inline-block">
             <div className="w-28 h-28 rounded-full bg-white/20 backdrop-blur border-4 border-white/40 flex items-center justify-center shadow-2xl mx-auto">
               <Trophy className="w-14 h-14 text-white drop-shadow-lg" />
@@ -234,7 +290,6 @@ function UnitPreviewContent() {
             </div>
           </div>
 
-          {/* Heading hierarchy */}
           <div>
             <p className="text-xs font-black tracking-widest text-white/60 uppercase mb-2">
               {unitTitle || `Unidad ${unitNumber}`}
@@ -242,17 +297,14 @@ function UnitPreviewContent() {
             <h1 className="text-5xl font-black tracking-tighter text-white leading-none drop-shadow mb-2">
               ¡Increíble!
             </h1>
-            <p className="text-base font-medium text-white/80">
-              Unidad {unitNumber} completada
-            </p>
+            <p className="text-base font-medium text-white/80">Unidad {unitNumber} completada</p>
           </div>
 
-          {/* Stats */}
           <div className="grid grid-cols-3 gap-3">
             {[
               { label: 'Ejercicios', value: exercises.length, emoji: '✅' },
-              { label: 'Tiempo', value: `${mins}m`, emoji: '⏱️' },
-              { label: 'Precisión', value: `${accuracy}%`, emoji: '🎯' },
+              { label: 'Tiempo',     value: `${mins}m`,       emoji: '⏱️' },
+              { label: 'Precisión',  value: `${accuracy}%`,   emoji: '🎯' },
             ].map(stat => (
               <div key={stat.label} className="bg-white/20 backdrop-blur rounded-2xl p-4 border border-white/20">
                 <p className="text-xl font-black text-white leading-none mb-1">{stat.emoji} {stat.value}</p>
@@ -261,14 +313,12 @@ function UnitPreviewContent() {
             ))}
           </div>
 
-          {/* XP total */}
           <div className="bg-white/20 backdrop-blur rounded-2xl p-4 border border-white/20 flex items-center justify-center gap-2">
             <Zap className="w-5 h-5 text-yellow-300 fill-yellow-300" />
             <p className="text-xs font-black tracking-widest text-white/70 uppercase mr-1">XP Total</p>
             <span className="text-xl font-black text-white">{displayXp}</span>
           </div>
 
-          {/* CTA */}
           <Link
             href="/curso-a1"
             className="block w-full bg-white text-[#FF6B6B] py-5 rounded-2xl font-black text-base uppercase tracking-wider shadow-xl hover:-translate-y-0.5 transition-all"
@@ -291,19 +341,11 @@ function UnitPreviewContent() {
           <div className="w-24 h-24 rounded-full bg-gradient-to-br from-[#FF6B6B] to-[#FF8E53] flex items-center justify-center mx-auto shadow-2xl shadow-orange-500/30">
             <Flame className="w-12 h-12 text-white" />
           </div>
-
           <div>
-            <p className="text-xs font-black tracking-widest text-slate-500 uppercase mb-2">
-              Lección {lessonNumber} de {totalLessons}
-            </p>
-            <h2 className="text-4xl font-black tracking-tight text-white leading-tight">
-              ¡Checkpoint!
-            </h2>
-            <p className="text-sm font-medium text-slate-400 mt-2">
-              Llevas una buena racha. ¡Sigue!
-            </p>
+            <p className="text-xs font-black tracking-widest text-slate-500 uppercase mb-2">Lección {lessonNumber} de {totalLessons}</p>
+            <h2 className="text-4xl font-black tracking-tight text-white leading-tight">¡Checkpoint!</h2>
+            <p className="text-sm font-medium text-slate-400 mt-2">Llevas una buena racha. ¡Sigue!</p>
           </div>
-
           <div className="bg-white/5 border border-white/10 rounded-2xl p-5 flex items-center justify-center gap-3">
             <Zap className="w-5 h-5 text-yellow-400 fill-yellow-400 flex-shrink-0" />
             <div className="text-left">
@@ -311,13 +353,8 @@ function UnitPreviewContent() {
               <p className="text-xl font-black text-white">+{sessionScore} XP</p>
             </div>
           </div>
-
           <button
-            onClick={() => {
-              setCurrentIndex(prev => prev + 1);
-              setShowLessonComplete(false);
-              setFeedback('idle');
-            }}
+            onClick={() => { setCurrentIndex(prev => prev + 1); setShowLessonComplete(false); setFeedback('idle'); }}
             className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53] text-white py-5 rounded-2xl font-black text-base uppercase tracking-wider shadow-xl shadow-orange-500/30 hover:-translate-y-0.5 transition-all"
           >
             Continuar →
@@ -327,20 +364,29 @@ function UnitPreviewContent() {
     );
   }
 
-  const currentExercise = exercises[currentIndex];
-
   // ── EXERCISE PLAYER ────────────────────────────────────────────────
   return (
-    <div className={`min-h-screen flex flex-col transition-colors duration-300 ${
-      feedback === 'correct' ? 'bg-green-50/40' : feedback === 'incorrect' ? 'bg-red-50/30' : 'bg-[#FEF9F5]'
+    <div className={`min-h-screen flex flex-col transition-colors duration-700 relative ${
+      feedback === 'correct'
+        ? 'bg-green-50/40'
+        : feedback === 'incorrect'
+        ? 'bg-red-50/30'
+        : isOnStreak
+        ? 'bg-amber-50/50'
+        : 'bg-[#FEF9F5]'
     }`}>
+      {/* Streak glow behind everything */}
+      <StreakGlow count={consecutiveCorrect} />
+
+      {/* Incorrect screen flash */}
+      <IncorrectFlash visible={showIncorrectFlash} />
+
       {isRepairMode && <RepairModeBanner remainingCount={repairRemaining} />}
 
       {/* ── HEADER ────────────────────────────────────────────────── */}
       <header className="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-slate-100 px-4 py-3 shadow-sm">
         <div className="max-w-2xl mx-auto flex items-center gap-3">
 
-          {/* Exit */}
           <Link
             href="/curso-a1"
             className="p-2 rounded-xl text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-all flex-shrink-0"
@@ -349,22 +395,19 @@ function UnitPreviewContent() {
             <X className="w-5 h-5" />
           </Link>
 
-          {/* Progress bar + meta */}
           <div className="flex-1 min-w-0">
-            {/* Eyebrow */}
             <p className="text-[10px] font-black tracking-widest text-slate-400 uppercase truncate leading-none mb-1.5">
-              {unitTitle
-                ? `U${unitNumber} · ${unitTitle}`
-                : `Unidad ${unitNumber}`}
+              {unitTitle ? `U${unitNumber} · ${unitTitle}` : `Unidad ${unitNumber}`}
               {' · '}Lección {lessonNumber}/{totalLessons}
             </p>
 
-            {/* Progress bar */}
             <div className="relative h-2.5 bg-slate-100 rounded-full overflow-hidden">
               <div
                 className={`h-full rounded-full transition-all duration-700 ease-out relative overflow-hidden ${
                   isRepairMode
                     ? 'bg-gradient-to-r from-amber-400 to-amber-500'
+                    : isOnStreak
+                    ? 'bg-gradient-to-r from-amber-400 to-orange-500'
                     : 'bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53]'
                 }`}
                 style={{ width: `${Math.max(progressPct, 4)}%` }}
@@ -373,7 +416,6 @@ function UnitPreviewContent() {
               </div>
             </div>
 
-            {/* Dot indicators */}
             {showDots && (
               <div className="flex gap-1 mt-1.5">
                 {Array.from({ length: exercisesInThisLesson }).map((_, i) => (
@@ -381,9 +423,9 @@ function UnitPreviewContent() {
                     key={i}
                     className={`h-1 flex-1 rounded-full transition-all duration-300 ${
                       i < exerciseInLesson - 1
-                        ? 'bg-[#FF6B6B]'
+                        ? isOnStreak ? 'bg-amber-400' : 'bg-[#FF6B6B]'
                         : i === exerciseInLesson - 1
-                        ? 'bg-[#FF6B6B]/50'
+                        ? isOnStreak ? 'bg-amber-400/50' : 'bg-[#FF6B6B]/50'
                         : 'bg-slate-200'
                     }`}
                   />
@@ -392,7 +434,6 @@ function UnitPreviewContent() {
             )}
           </div>
 
-          {/* XP + Hearts */}
           <div className="flex items-center gap-3 flex-shrink-0">
             <div className="relative flex items-center gap-1">
               <Zap className="w-4 h-4 text-yellow-500 fill-yellow-400" />
@@ -415,7 +456,6 @@ function UnitPreviewContent() {
               ))}
             </div>
 
-            {/* Nav arrows */}
             <div className="flex gap-1 border-l border-slate-100 pl-3 ml-1">
               <button
                 onClick={() => setCurrentIndex(prev => Math.max(0, prev - 1))}
@@ -438,26 +478,47 @@ function UnitPreviewContent() {
         </div>
       </header>
 
-      {/* ── EXERCISE COUNTER BADGE ─────────────────────────────────── */}
-      <div className="max-w-2xl mx-auto w-full px-4 pt-5 pb-0">
-        <div className="flex items-center gap-2">
-          <div className="inline-flex items-center gap-1.5 bg-white border border-slate-100 shadow-sm px-3 py-1.5 rounded-full">
-            <Target className="w-3.5 h-3.5 text-coral-500" />
-            <span className="text-xs font-black tracking-widest text-slate-500 uppercase">
-              Ejercicio {exerciseInLesson} de {exercisesInThisLesson}
-            </span>
-          </div>
-          {consecutiveCorrect >= 2 && (
-            <div className="inline-flex items-center gap-1 bg-amber-50 border border-amber-100 px-2.5 py-1.5 rounded-full">
-              <Flame className="w-3.5 h-3.5 text-amber-500 fill-amber-400" />
-              <span className="text-xs font-black text-amber-600">Racha ×{consecutiveCorrect}</span>
+      {/* ── SUB-HEADER: TYPE BANNER + STREAK ──────────────────────── */}
+      <div className="relative z-10 max-w-2xl mx-auto w-full px-4 pt-5 pb-0">
+        <div className="flex items-center justify-between flex-wrap gap-2">
+
+          {/* Exercise type banner */}
+          <ExerciseTypeBanner type={currentExercise?.type ?? 'default'} index={currentIndex} />
+
+          {/* Streak badge — visible only when on streak */}
+          {isOnStreak && (
+            <div className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-full border shadow-sm transition-all duration-500 ${
+              consecutiveCorrect >= 10
+                ? 'bg-red-50 border-red-200 shadow-red-100'
+                : consecutiveCorrect >= 5
+                ? 'bg-orange-50 border-orange-200 shadow-orange-100'
+                : 'bg-amber-50 border-amber-200 shadow-amber-100'
+            }`}>
+              <Flame className={`w-4 h-4 fill-current ${
+                consecutiveCorrect >= 10 ? 'text-red-500' : consecutiveCorrect >= 5 ? 'text-orange-500' : 'text-amber-500'
+              }`} />
+              <span className={`text-xs font-black ${
+                consecutiveCorrect >= 10 ? 'text-red-600' : consecutiveCorrect >= 5 ? 'text-orange-600' : 'text-amber-600'
+              }`}>
+                {consecutiveCorrect >= 10 ? '🔥 EN LLAMAS' : consecutiveCorrect >= 5 ? '¡Racha épica!' : `Racha ×${consecutiveCorrect}`}
+              </span>
+            </div>
+          )}
+
+          {/* Exercise counter (when NOT on streak) */}
+          {!isOnStreak && (
+            <div className="inline-flex items-center gap-1.5 bg-white border border-slate-100 shadow-sm px-3 py-1.5 rounded-full">
+              <Target className="w-3.5 h-3.5 text-coral-500" />
+              <span className="text-xs font-black tracking-widest text-slate-500 uppercase">
+                {exerciseInLesson} / {exercisesInThisLesson}
+              </span>
             </div>
           )}
         </div>
       </div>
 
       {/* ── MAIN EXERCISE ─────────────────────────────────────────── */}
-      <main className="flex-1 max-w-2xl mx-auto w-full px-4 py-5 pb-52">
+      <main className="relative z-10 flex-1 max-w-2xl mx-auto w-full px-4 py-5 pb-52">
         <div
           key={currentIndex}
           className={`${
@@ -476,32 +537,39 @@ function UnitPreviewContent() {
 
       {/* ── FEEDBACK PANEL ────────────────────────────────────────── */}
       {feedback !== 'idle' && (
-        <div className={`fixed bottom-0 left-0 right-0 z-50 animate-in slide-in-from-bottom-4 duration-300 border-t-2 bg-white shadow-2xl ${
-          feedback === 'correct' ? 'border-emerald-400' : 'border-red-400'
-        }`}>
-          <div className="max-w-2xl mx-auto px-5 py-4 flex items-center gap-4">
+        <div className={`fixed bottom-0 left-0 right-0 z-50 animate-in slide-in-from-bottom-4 duration-250 ${
+          feedback === 'correct'
+            ? 'border-t-4 border-emerald-400 bg-gradient-to-t from-emerald-50 to-white'
+            : 'border-t-4 border-red-400 bg-gradient-to-t from-red-50 to-white'
+        } shadow-2xl`}>
+          <div className="max-w-2xl mx-auto px-5 py-5 flex items-center gap-4">
+
             {/* Icon */}
-            <div className={`w-11 h-11 rounded-2xl flex items-center justify-center flex-shrink-0 ${
-              feedback === 'correct' ? 'bg-emerald-100' : 'bg-red-100'
+            <div className={`w-14 h-14 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-sm ${
+              feedback === 'correct' ? 'bg-emerald-500' : 'bg-red-500'
             }`}>
               {feedback === 'correct'
-                ? <CheckCircle className="w-6 h-6 text-emerald-600" />
-                : <XCircle className="w-6 h-6 text-red-600" />
+                ? <CheckCircle className="w-7 h-7 text-white" />
+                : <XCircle className="w-7 h-7 text-white" />
               }
             </div>
 
-            {/* Text */}
+            {/* Text — bigger hierarchy */}
             <div className="flex-1 min-w-0">
-              <p className={`font-extrabold text-base leading-tight tracking-tight ${
+              <p className={`font-black text-lg leading-tight tracking-tight mb-0.5 ${
                 feedback === 'correct' ? 'text-emerald-700' : 'text-red-700'
               }`}>
-                {feedback === 'correct' ? '¡Correcto!' : 'Casi…'}
+                {feedback === 'correct'
+                  ? consecutiveCorrect >= 5 ? '¡Eres una máquina! 🔥' : consecutiveCorrect >= 3 ? '¡En racha! 🔥' : '¡Correcto!'
+                  : 'Casi…'}
               </p>
-              <p className={`text-sm font-medium mt-0.5 leading-snug ${
+              <p className={`text-sm font-medium leading-snug ${
                 feedback === 'correct' ? 'text-emerald-600' : 'text-red-500'
               }`}>
                 {feedback === 'correct'
-                  ? consecutiveCorrect >= 2 ? `¡Racha de ${consecutiveCorrect}! 🔥` : 'Sigue así, lo estás haciendo genial'
+                  ? consecutiveCorrect >= 3
+                    ? `${consecutiveCorrect} respuestas seguidas correctas`
+                    : 'Sigue así, lo estás haciendo genial'
                   : 'No te rindas, sigue practicando'}
               </p>
             </div>
@@ -509,9 +577,10 @@ function UnitPreviewContent() {
             {/* Badge */}
             <div className="flex-shrink-0">
               {feedback === 'correct' ? (
-                <span className="font-black px-3 py-1.5 rounded-xl text-sm bg-emerald-100 text-emerald-700 tracking-wide">
-                  +{xpGained} XP ⚡
-                </span>
+                <div className="bg-emerald-500 text-white rounded-2xl px-4 py-2 text-center shadow-md">
+                  <p className="text-xs font-black uppercase tracking-widest text-emerald-100">XP</p>
+                  <p className="text-xl font-black leading-none">+{xpGained}</p>
+                </div>
               ) : (
                 <div className="flex gap-0.5">
                   {Array.from({ length: 3 }).map((_, i) => (
@@ -530,9 +599,7 @@ function UnitPreviewContent() {
           consecutiveCount={streakBurstCount}
           onComplete={() => {
             setStreakBurstCount(null);
-            advanceTimer.current = setTimeout(() => {
-              advanceExercise(currentIndex, exercises.length);
-            }, 200);
+            advanceTimer.current = setTimeout(() => advanceExercise(currentIndex, exercises.length), 200);
           }}
         />
       )}
