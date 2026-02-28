@@ -54,6 +54,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   } | null>(null);
 
   const [mounted, setMounted] = useState(false);
+  const [exerciseCompleted, setExerciseCompleted] = useState(false);
 
   const exerciseContent = exercise.content || exercise;
   const questions = exerciseContent.questions || [];
@@ -80,6 +81,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     setIsAnimating(true);
     setShowReadingText(true);
     setCurrentQuestionIdx(0);
+    setExerciseCompleted(false);
 
     const timer = setTimeout(() => setIsAnimating(false), 300);
     return () => clearTimeout(timer);
@@ -178,6 +180,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       setShowConfetti(false);
       setIsCorrect(false);
     } else {
+      setExerciseCompleted(true);
       completeExercise(exercise.id, 1, 1);
       onComplete({ success: true, score: 100 });
     }
@@ -356,42 +359,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           )}
         </div>
 
-        {/* Explanation (only shown after submitting) */}
-        {submitted && evaluation && q.explanation && (
-          <div className="flex gap-3 p-4 bg-blue-50 border border-blue-200 rounded-2xl animate-in fade-in slide-in-from-bottom-2 duration-300">
-            <Info size={20} className="text-blue-500 flex-shrink-0 mt-0.5" />
-            <div>
-              <p className="text-xs font-black uppercase tracking-wider text-blue-700 mb-1">
-                <TranslatedText text="[[Explanation|Explicación]]" />
-              </p>
-              <div className="text-base text-blue-900 leading-relaxed">
-                <Markdown content={q.explanation} vocabulary={vocabulary} />
-              </div>
-            </div>
-          </div>
-        )}
-
-        {/* Feedback messages after submission */}
-        {submitted && evaluation && evaluation.isCorrect && (
-          <div className="flex gap-3 p-4 bg-green-50 border border-green-200 rounded-2xl animate-in fade-in slide-in-from-bottom-2 duration-300">
-            <CheckCircle size={20} className="text-green-500 flex-shrink-0 mt-0.5" />
-            <div className="text-base text-green-800 leading-relaxed font-semibold">
-              <Markdown content={evaluation.feedback} vocabulary={vocabulary} />
-            </div>
-          </div>
-        )}
-        {submitted && evaluation && !evaluation.isCorrect && (
-          <div className="flex gap-3 p-4 bg-red-50 border border-red-100 rounded-2xl animate-in fade-in slide-in-from-bottom-2 duration-300">
-            <XCircle size={20} className="text-red-500 flex-shrink-0 mt-0.5" />
-            <div className="text-base text-red-800 leading-relaxed">
-              <Markdown content={evaluation.feedback} vocabulary={vocabulary} />
-            </div>
-          </div>
-        )}
-
-        {/* Action Button */}
-        <div className="pt-2">
-          {!submitted ? (
+        {/* Confirm button (before submit) */}
+        {!submitted && (
+          <div className="pt-2">
             <button
               onClick={handleSubmit}
               disabled={userAnswer === null || userAnswer === ''}
@@ -400,21 +370,67 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             >
               <TranslatedText text="[[Confirm Answer|Confirmar]]" />
             </button>
-          ) : (
-            <button
-              onClick={handleNextQuestion}
-              data-testid="next-button"
-              className="w-full bg-gradient-to-r from-slate-800 to-slate-900 text-white py-4 rounded-2xl font-black text-lg shadow-lg hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2 animate-in fade-in zoom-in-95 duration-300"
-            >
-              {currentQuestionIdx < questions.length - 1 ? (
-                <TranslatedText text="[[Next Question|Siguiente →]]" />
-              ) : (
-                <TranslatedText text="[[Finish Exercise|Continuar →]]" />
-              )}
-              <ArrowRight className="w-5 h-5" />
-            </button>
-          )}
-        </div>
+          </div>
+        )}
+
+        {/* Spacer so content isn't hidden behind fixed feedback panel */}
+        {submitted && !exerciseCompleted && <div className="h-52" />}
+
+        {/* Fixed bottom feedback panel (Duolingo style) */}
+        {submitted && !exerciseCompleted && evaluation && (
+          <div className="fixed bottom-0 left-0 right-0 z-50 animate-in slide-in-from-bottom-4 duration-300">
+            <div className={`border-t-4 bg-white shadow-2xl ${evaluation.isCorrect ? 'border-green-400' : 'border-red-400'}`}>
+              <div className="max-w-2xl mx-auto px-5 pt-4 pb-5">
+                <div className="flex items-start gap-3 mb-3">
+                  <div className={`w-11 h-11 rounded-2xl flex items-center justify-center flex-shrink-0 ${evaluation.isCorrect ? 'bg-green-100' : 'bg-red-100'}`}>
+                    {evaluation.isCorrect
+                      ? <CheckCircle className="w-6 h-6 text-green-600" />
+                      : <XCircle className="w-6 h-6 text-red-600" />
+                    }
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className={`font-black text-lg leading-tight ${evaluation.isCorrect ? 'text-green-700' : 'text-red-700'}`}>
+                      {evaluation.isCorrect
+                        ? <TranslatedText text="[[Great! Correct answer.|¡Correcto!]]" />
+                        : <TranslatedText text="[[Incorrect. Keep going!|Incorrecto. ¡Sigue así!]]" />
+                      }
+                    </p>
+                    <div className={`text-sm mt-0.5 leading-snug ${evaluation.isCorrect ? 'text-green-600' : 'text-red-500'}`}>
+                      <Markdown content={evaluation.feedback} vocabulary={vocabulary} />
+                    </div>
+                  </div>
+                </div>
+
+                {q.explanation && (
+                  <div className="bg-slate-50 rounded-2xl px-4 py-3 mb-3 border border-slate-100">
+                    <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 mb-1">
+                      💡 <TranslatedText text="[[Explanation|Explicación]]" />
+                    </p>
+                    <div className="text-sm text-slate-700 leading-relaxed">
+                      <Markdown content={q.explanation} vocabulary={vocabulary} />
+                    </div>
+                  </div>
+                )}
+
+                <button
+                  onClick={handleNextQuestion}
+                  data-testid="next-button"
+                  className={`w-full py-4 rounded-2xl font-black text-base text-white shadow-lg transition-all hover:-translate-y-0.5 active:scale-[0.98] flex items-center justify-center gap-2 ${
+                    evaluation.isCorrect
+                      ? 'bg-gradient-to-r from-green-500 to-emerald-500 shadow-green-200'
+                      : 'bg-gradient-to-r from-slate-700 to-slate-800 shadow-slate-200'
+                  }`}
+                >
+                  {currentQuestionIdx < questions.length - 1
+                    ? <TranslatedText text="[[Next Question|Siguiente pregunta]]" />
+                    : <TranslatedText text="[[Continue|Continuar]]" />
+                  }
+                  <ArrowRight className="w-5 h-5" />
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     );
   };

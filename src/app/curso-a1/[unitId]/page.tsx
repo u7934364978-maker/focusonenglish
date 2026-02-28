@@ -6,7 +6,7 @@ import ExerciseRenderer from '@/components/ExerciseRenderer';
 import RepairModeBanner from '@/components/course/RepairModeBanner';
 import StreakBurst from '@/components/gamification/StreakBurst';
 import { useGamification } from '@/lib/hooks/use-gamification';
-import { X, Heart, Zap, Trophy, Flame, ChevronLeft, ChevronRight } from 'lucide-react';
+import { X, Heart, Zap, Trophy, Flame, ChevronLeft, ChevronRight, CheckCircle, XCircle } from 'lucide-react';
 import Link from 'next/link';
 
 const CHUNK_SIZE = 15;
@@ -394,7 +394,7 @@ function UnitPreviewContent() {
         </div>
       </header>
 
-      <main className="flex-1 max-w-2xl mx-auto w-full px-4 py-6 pb-28">
+      <main className="flex-1 max-w-2xl mx-auto w-full px-4 py-6 pb-52">
         <div
           key={currentIndex}
           className={`${
@@ -412,29 +412,30 @@ function UnitPreviewContent() {
       </main>
 
       {feedback !== 'idle' && (
-        <div
-          className={`fixed bottom-0 left-0 right-0 z-50 animate-in slide-in-from-bottom-4 duration-300 ${
-            feedback === 'correct'
-              ? 'bg-gradient-to-r from-green-500 to-emerald-500'
-              : 'bg-gradient-to-r from-red-500 to-rose-500'
-          }`}
-        >
-          <div className="max-w-2xl mx-auto px-6 py-5 flex items-center gap-4">
-            <div className="text-3xl">{feedback === 'correct' ? '✅' : '❌'}</div>
-            <div>
-              <p className="text-white font-black text-lg leading-tight">
+        <div className={`fixed bottom-0 left-0 right-0 z-50 animate-in slide-in-from-bottom-4 duration-300 border-t-4 bg-white shadow-2xl ${
+          feedback === 'correct' ? 'border-green-400' : 'border-red-400'
+        }`}>
+          <div className="max-w-2xl mx-auto px-5 py-4 flex items-center gap-4">
+            <div className={`w-11 h-11 rounded-2xl flex items-center justify-center flex-shrink-0 ${feedback === 'correct' ? 'bg-green-100' : 'bg-red-100'}`}>
+              {feedback === 'correct'
+                ? <CheckCircle className="w-6 h-6 text-green-600" />
+                : <XCircle className="w-6 h-6 text-red-600" />
+              }
+            </div>
+            <div className="flex-1">
+              <p className={`font-black text-base leading-tight ${feedback === 'correct' ? 'text-green-700' : 'text-red-700'}`}>
                 {feedback === 'correct' ? '¡Correcto!' : 'Casi...'}
               </p>
-              <p className="text-white/80 text-sm font-medium">
+              <p className={`text-sm font-medium mt-0.5 ${feedback === 'correct' ? 'text-green-600' : 'text-red-500'}`}>
                 {feedback === 'correct'
                   ? consecutiveCorrect >= 2 ? `¡Racha de ${consecutiveCorrect}! 🔥` : 'Sigue así'
                   : 'No te rindas, sigue practicando'}
               </p>
             </div>
-            <div className="ml-auto">
+            <div className="flex-shrink-0">
               {feedback === 'correct'
-                ? <span className="bg-white/20 text-white font-black px-4 py-2 rounded-full text-sm">+{xpGained} XP</span>
-                : <div className="flex gap-1">{Array.from({ length: 3 }).map((_, i) => <Heart key={i} className={`w-5 h-5 ${i < lives ? 'fill-white text-white' : 'fill-white/30 text-white/30'}`} />)}</div>
+                ? <span className={`font-black px-3 py-1.5 rounded-xl text-sm bg-green-100 text-green-700`}>+{xpGained} XP ⚡</span>
+                : <div className="flex gap-0.5">{Array.from({ length: 3 }).map((_, i) => <Heart key={i} className={`w-5 h-5 ${i < lives ? 'fill-red-500 text-red-500' : 'fill-slate-200 text-slate-200'}`} />)}</div>
               }
             </div>
           </div>
