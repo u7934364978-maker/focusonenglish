@@ -76,19 +76,6 @@ function IncorrectFlash({ visible }: { visible: boolean }) {
   );
 }
 
-// ── EXERCISE TYPE BANNER ───────────────────────────────────────────────────
-function ExerciseTypeBanner({ type, index }: { type: string; index: number }) {
-  const cfg = getExerciseType(type);
-  return (
-    <div className="flex items-center gap-3 mb-5">
-      <div className={`inline-flex items-center gap-2 bg-gradient-to-r ${cfg.gradient} text-white px-4 py-2 rounded-full shadow-sm`}>
-        <span className="text-base leading-none" aria-hidden>{cfg.emoji}</span>
-        <span className="text-xs font-black tracking-widest uppercase">{cfg.label}</span>
-      </div>
-    </div>
-  );
-}
-
 // ── STREAK GLOW OVERLAY ────────────────────────────────────────────────────
 function StreakGlow({ count }: { count: number }) {
   if (count < 3) return null;
@@ -478,16 +465,13 @@ function UnitPreviewContent() {
         </div>
       </header>
 
-      {/* ── SUB-HEADER: TYPE BANNER + STREAK ──────────────────────── */}
-      <div className="relative z-10 max-w-2xl mx-auto w-full px-4 pt-5 pb-0">
-        <div className="flex items-center justify-between flex-wrap gap-2">
-
-          {/* Exercise type banner */}
-          <ExerciseTypeBanner type={currentExercise?.type ?? 'default'} index={currentIndex} />
+      {/* ── SUB-HEADER: STREAK + COUNTER ──────────────────────────── */}
+      <div className="relative z-10 max-w-2xl mx-auto w-full px-4 pt-4 pb-0">
+        <div className="flex items-center justify-end gap-2">
 
           {/* Streak badge — visible only when on streak */}
           {isOnStreak && (
-            <div className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-full border shadow-sm transition-all duration-500 ${
+            <div className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border shadow-sm transition-all duration-500 ${
               consecutiveCorrect >= 10
                 ? 'bg-red-50 border-red-200 shadow-red-100'
                 : consecutiveCorrect >= 5
@@ -505,15 +489,13 @@ function UnitPreviewContent() {
             </div>
           )}
 
-          {/* Exercise counter (when NOT on streak) */}
-          {!isOnStreak && (
-            <div className="inline-flex items-center gap-1.5 bg-white border border-slate-100 shadow-sm px-3 py-1.5 rounded-full">
-              <Target className="w-3.5 h-3.5 text-coral-500" />
-              <span className="text-xs font-black tracking-widest text-slate-500 uppercase">
-                {exerciseInLesson} / {exercisesInThisLesson}
-              </span>
-            </div>
-          )}
+          {/* Exercise counter */}
+          <div className="inline-flex items-center gap-1.5 bg-white border border-slate-100 shadow-sm px-3 py-1.5 rounded-full">
+            <Target className="w-3.5 h-3.5 text-coral-500" />
+            <span className="text-xs font-black tracking-widest text-slate-500 uppercase">
+              {exerciseInLesson} / {exercisesInThisLesson}
+            </span>
+          </div>
         </div>
       </div>
 
