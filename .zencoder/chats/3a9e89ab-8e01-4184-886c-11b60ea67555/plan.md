@@ -24,9 +24,17 @@
   - Replace `font-black` with `font-extrabold` or `font-bold` in titles and questions.
   - Relax `tracking-tight` or `tracking-tighter` where needed.
 
-#### 3. Verification
+#### 3. Spelling Exercise Update
+- [x] Add `spelling` type to `ExerciseRenderer.tsx`.
+- [x] Update `DragDropExercise.tsx` to support letter-by-letter spelling (joining without spaces).
+- [x] Convert exercise `a1-u1-e10` in `unit-1.ts` to `spelling` type.
+
+#### 4. Verification
 - [x] Start dev server and verify visually with the `browser` tool.
 - [x] (Optional) Run existing E2E tests: `npm run test:e2e`.
 
 ### [x] Step: Test Plan Approval
-- Present test plan for approval before writing any new E2E tests.
+- [x] Present test plan for approval before writing any new E2E tests.
+
+### [x] Step: Completion
+- [x] Commit and push changes. (Commit: d9f81a70)

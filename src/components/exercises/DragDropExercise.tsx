@@ -91,12 +91,20 @@ export default function DragDropExercise({ content, vocabulary, onComplete }: Dr
 
   const handleCheck = () => {
     // Better join that handles punctuation
-    const currentSentence = orderedItems.map(item => item.text).join(' ').replace(/\s+([.,!?;:])/g, '$1').trim();
+    const isSpelling = (content as any).type === 'spelling';
+    const currentSentence = isSpelling 
+      ? orderedItems.map(item => item.text).join('')
+      : orderedItems.map(item => item.text).join(' ').replace(/\s+([.,!?;:])/g, '$1').trim();
     
     // Robust normalization for comparison
     const normalize = (s: string) => {
       // Remove translation tags [[word|translation]] -> word
       const plainText = s.replace(/\[\[(.*?)\|(.*?)\]\]/g, '$1');
+      
+      if (isSpelling) {
+        return plainText.trim(); // Keep case and spaces if specifically spelled that way, but usually spelling is one word
+      }
+
       return plainText
         .toLowerCase()
         .replace(/[.,!?;:]/g, '') // Remove punctuation
@@ -137,12 +145,14 @@ export default function DragDropExercise({ content, vocabulary, onComplete }: Dr
     }
   };
 
+  const isSpelling = (content as any).type === 'spelling';
+
   return (
     <div className="w-full max-w-2xl mx-auto p-6 bg-white rounded-3xl shadow-lg border border-slate-200">
       <div className="mb-8">
         <div className="flex justify-between items-center mb-2">
           <h2 className="text-2xl font-black text-slate-900">
-            <TranslatedText text={content.title || 'Ordena la oración'} />
+            <TranslatedText text={content.title || (isSpelling ? 'Deletrea la palabra' : 'Ordena la oración')} />
           </h2>
           {isMultiSentence && (
             <span className="bg-slate-100 text-slate-600 px-3 py-1 rounded-full text-sm font-bold">
@@ -151,22 +161,22 @@ export default function DragDropExercise({ content, vocabulary, onComplete }: Dr
           )}
         </div>
         <div className="text-slate-600">
-          <Markdown content={content.instructions || 'Selecciona las palabras en el orden correcto.'} vocabulary={vocabulary} />
+          <Markdown content={content.instructions || (isSpelling ? 'Selecciona las letras en el orden correcto.' : 'Selecciona las palabras en el orden correcto.')} vocabulary={vocabulary} />
         </div>
       </div>
 
       {/* Target Area */}
       <div className="space-y-4 mb-8">
-        <h3 className="text-sm font-black text-slate-400 uppercase tracking-widest">Tu oración:</h3>
-        <div className="min-h-[80px] p-4 bg-slate-50 rounded-2xl border-2 border-dashed border-slate-200 flex flex-wrap gap-2 items-center justify-center transition-colors">
+        <h3 className="text-sm font-black text-slate-400 uppercase tracking-widest">{isSpelling ? 'Palabra:' : 'Tu oración:'}</h3>
+        <div className={`min-h-[80px] p-4 bg-slate-50 rounded-2xl border-2 border-dashed border-slate-200 flex flex-wrap gap-2 items-center justify-center transition-colors ${isSpelling ? 'gap-y-4 gap-x-1' : 'gap-2'}`}>
           {orderedItems.length === 0 ? (
-            <p className="text-slate-400 italic">Pulsa sobre las palabras de abajo...</p>
+            <p className="text-slate-400 italic">Pulsa sobre las {isSpelling ? 'letras' : 'palabras'} de abajo...</p>
           ) : (
             <Reorder.Group 
               axis="x" 
               values={orderedItems} 
               onReorder={setOrderedItems}
-              className="flex flex-wrap gap-2 justify-center"
+              className={`flex flex-wrap justify-center ${isSpelling ? 'gap-1' : 'gap-2'}`}
             >
               {orderedItems.map((item) => (
                 <Reorder.Item
@@ -174,7 +184,7 @@ export default function DragDropExercise({ content, vocabulary, onComplete }: Dr
                   value={item}
                   drag={!submitted}
                   onClick={() => toggleWord(item, 'ordered')}
-                  className={`px-4 py-2.5 bg-white rounded-xl shadow-md border-2 cursor-pointer font-bold text-base md:text-lg transition-all active:scale-95 flex items-center gap-2 ${
+                  className={`${isSpelling ? 'px-3 py-2 text-xl' : 'px-4 py-2.5 text-base md:text-lg'} bg-white rounded-xl shadow-md border-2 cursor-pointer font-bold transition-all active:scale-95 flex items-center gap-2 ${
                     submitted 
                       ? isCorrect 
                         ? 'border-green-400 bg-green-50 text-green-700 shadow-green-100' 
@@ -196,17 +206,19 @@ export default function DragDropExercise({ content, vocabulary, onComplete }: Dr
       {/* Available Words */}
       {!submitted && (
         <div className="space-y-4 mb-8">
-          <h3 className="text-sm font-black text-slate-400 uppercase tracking-widest">Palabras disponibles:</h3>
-          <div className="flex flex-wrap gap-2 justify-center p-4 bg-white rounded-2xl border border-slate-100">
+          <h3 className="text-sm font-black text-slate-400 uppercase tracking-widest">
+            {isSpelling ? 'Letras disponibles:' : 'Palabras disponibles:'}
+          </h3>
+          <div className={`flex flex-wrap justify-center p-4 bg-white rounded-2xl border border-slate-100 ${isSpelling ? 'gap-1.5' : 'gap-2'}`}>
             {availableItems.length === 0 ? (
-              <p className="text-slate-300 text-sm italic">Has usado todas las palabras.</p>
+              <p className="text-slate-300 text-sm italic">Has usado todas las {isSpelling ? 'letras' : 'palabras'}.</p>
             ) : (
               availableItems.map((item) => (
                 <motion.button
                   layout
                   key={item.id}
                   onClick={() => toggleWord(item, 'available')}
-                  className="px-4 py-2.5 bg-white hover:bg-blue-50 text-slate-700 hover:text-blue-800 rounded-xl border-2 border-slate-200 hover:border-blue-300 font-bold text-base md:text-lg transition-all shadow-sm hover:shadow-md active:scale-95 flex items-center gap-2"
+                  className={`${isSpelling ? 'px-3 py-2 text-xl min-w-[40px] justify-center' : 'px-4 py-2.5 text-base md:text-lg'} bg-white hover:bg-blue-50 text-slate-700 hover:text-blue-800 rounded-xl border-2 border-slate-200 hover:border-blue-300 font-bold transition-all shadow-sm hover:shadow-md active:scale-95 flex items-center gap-2`}
                 >
                   <span className="flex items-center gap-2">
                     <TranslatedText text={item.text} />

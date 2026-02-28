@@ -32,6 +32,7 @@ const TYPE_LABELS: Record<string, { label: string; icon: typeof BookOpen }> = {
   'reading': { label: 'Comprensión lectora', icon: BookOpen },
   'reading-comprehension': { label: 'Comprensión lectora', icon: BookOpen },
   'listening': { label: 'Comprensión auditiva', icon: BookOpen },
+  'spelling': { label: 'Deletreo', icon: Edit3 },
   'default': { label: 'Ejercicio', icon: AlignLeft },
 };
 
@@ -42,6 +43,7 @@ const TYPE_THEMES: Record<string, { badge: string; border: string; ring: string 
   'reading':         { badge: 'bg-sky-100 text-sky-700 border-sky-200',                 border: 'border-sky-400/70',       ring: 'ring-sky-200' },
   'reading-comprehension': { badge: 'bg-sky-100 text-sky-700 border-sky-200',           border: 'border-sky-400/70',       ring: 'ring-sky-200' },
   'listening':       { badge: 'bg-teal-100 text-teal-700 border-teal-200',              border: 'border-teal-400/70',      ring: 'ring-teal-200' },
+  'spelling':        { badge: 'bg-rose-100 text-rose-700 border-rose-200',              border: 'border-rose-400/70',      ring: 'ring-rose-200' },
   'default':         { badge: 'bg-slate-100 text-slate-600 border-slate-200',           border: 'border-slate-400/70',     ring: 'ring-slate-200' },
 };
 
@@ -540,7 +542,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   if (exercise.type === 'word-search') return <div className="bg-white p-8 rounded-3xl shadow-xl"><WordSearchExercise words={exerciseContent.words} gridSize={exerciseContent.gridSize ?? 10} onComplete={() => onComplete({ success: true, score: 100 })} /></div>;
   if (exercise.type === 'crossword') return <div className="bg-white p-8 rounded-3xl shadow-xl"><CrosswordExercise items={exerciseContent.items} onComplete={() => onComplete({ success: true, score: 100 })} /></div>;
   if (exercise.type === 'flashcard') return <FlashcardExercise content={exerciseContent as any} onComplete={() => onComplete({ success: true, score: 100 })} />;
-  if (exercise.type === 'drag-drop' || exercise.type === 'sentence-building') return <DragDropExercise content={exerciseContent as any} onComplete={(success) => onComplete({ success, score: success ? 100 : 0 })} />;
+  if (exercise.type === 'drag-drop' || exercise.type === 'sentence-building' || exercise.type === 'spelling') return <DragDropExercise content={exerciseContent as any} onComplete={(success) => onComplete({ success, score: success ? 100 : 0 })} />;
   if (exercise.type === 'matching') return <MatchingExercise content={exerciseContent as any} onComplete={(success) => onComplete({ success, score: success ? 100 : 0 })} />;
   if (exercise.type === 'interactive-dialogue') return <InteractiveDialogueExercise content={exerciseContent as any} onComplete={(success) => onComplete({ success, score: success ? 100 : 0 })} />;
 

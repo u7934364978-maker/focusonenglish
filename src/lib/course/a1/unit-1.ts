@@ -217,18 +217,15 @@ export const UNIT_1_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u1-e10",
-    "type": "sentence-building",
+    "type": "spelling",
     "level": "A1",
     "topic": "Farewells",
     "difficulty": "easy",
     "content": {
       "title": "[[Formal|Formal]] [[Farewell|Despedida]]",
-      "instructions": "[[Build|Construye]] '[[Goodbye|Adiós]]'.",
-      "correctSentence": "[[Goodbye|Adiós]].",
-      "words": [
-        "[[Goodbye|Adiós]]",
-        "."
-      ]
+      "instructions": "[[Spell|Deletrea]] '[[Goodbye|Adiós]]'.",
+      "correctSentence": "Goodbye",
+      "words": ["G", "o", "o", "d", "b", "y", "e"]
     },
     "topicName": "Vocabulary"
   },
