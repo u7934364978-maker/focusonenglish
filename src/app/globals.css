@@ -166,12 +166,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #7c3aed, #a855f7);
+  background: linear-gradient(to bottom, #FF8E53, #FF6B6B);
   @apply rounded-full;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to bottom, #6d28d9, #9333ea);
+  background: linear-gradient(to bottom, #FF6B6B, #FF5555);
 }
 
 /* Keyframes */
