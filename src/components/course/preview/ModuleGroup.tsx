@@ -54,7 +54,7 @@ export function ModuleGroup({ module, isInitiallyExpanded = false }: ModuleGroup
               Módulo {module.moduleNumber}
             </span>
           </div>
-          <h2 className="text-lg font-extrabold tracking-tight text-slate-900 leading-snug">
+          <h2 className="font-display text-lg font-bold tracking-tight text-slate-900 leading-snug">
             {module.title}
           </h2>
           {module.description && (

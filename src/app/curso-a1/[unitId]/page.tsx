@@ -307,7 +307,7 @@ function UnitPreviewContent() {
               { label: 'Precisión',  value: `${accuracy}%`,   emoji: '🎯' },
             ].map(stat => (
               <div key={stat.label} className="bg-white/20 backdrop-blur rounded-2xl p-4 border border-white/20">
-                <p className="text-xl font-black text-white leading-none mb-1">{stat.emoji} {stat.value}</p>
+                <p className="font-display text-xl font-extrabold text-white leading-none mb-1">{stat.emoji} {stat.value}</p>
                 <p className="text-xs font-bold text-white/60 uppercase tracking-wider">{stat.label}</p>
               </div>
             ))}
@@ -316,7 +316,7 @@ function UnitPreviewContent() {
           <div className="bg-white/20 backdrop-blur rounded-2xl p-4 border border-white/20 flex items-center justify-center gap-2">
             <Zap className="w-5 h-5 text-yellow-300 fill-yellow-300" />
             <p className="text-xs font-black tracking-widest text-white/70 uppercase mr-1">XP Total</p>
-            <span className="text-xl font-black text-white">{displayXp}</span>
+            <span className="font-display text-xl font-extrabold text-white">{displayXp}</span>
           </div>
 
           <Link
@@ -437,7 +437,7 @@ function UnitPreviewContent() {
           <div className="flex items-center gap-3 flex-shrink-0">
             <div className="relative flex items-center gap-1">
               <Zap className="w-4 h-4 text-yellow-500 fill-yellow-400" />
-              <span className="font-black text-slate-800 text-sm tabular-nums">{displayXp}</span>
+              <span className="font-display font-bold text-slate-800 text-sm tabular-nums">{displayXp}</span>
               {showXpPop && (
                 <span className="absolute -top-8 left-1/2 -translate-x-1/2 text-emerald-500 font-black text-sm pointer-events-none whitespace-nowrap animate-[xp-fly_0.8s_ease-out_forwards]">
                   +{xpGained} XP
@@ -579,7 +579,7 @@ function UnitPreviewContent() {
               {feedback === 'correct' ? (
                 <div className="bg-emerald-500 text-white rounded-2xl px-4 py-2 text-center shadow-md">
                   <p className="text-xs font-black uppercase tracking-widest text-emerald-100">XP</p>
-                  <p className="text-xl font-black leading-none">+{xpGained}</p>
+                  <p className="font-display text-xl font-extrabold leading-none">+{xpGained}</p>
                 </div>
               ) : (
                 <div className="flex gap-0.5">
