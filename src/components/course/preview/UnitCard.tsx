@@ -19,7 +19,8 @@ const MODULE_COLORS = [
 ];
 
 function getModuleColor(unitNumber: number) {
-  const moduleIndex = Math.floor((unitNumber - 1) / 5) % MODULE_COLORS.length;
+  const safeUnitNumber = Math.max(1, unitNumber);
+  const moduleIndex = Math.floor((safeUnitNumber - 1) / 5) % MODULE_COLORS.length;
   return MODULE_COLORS[moduleIndex];
 }
 

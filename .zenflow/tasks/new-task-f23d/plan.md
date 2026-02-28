@@ -47,7 +47,8 @@ Save to `{@artifacts_path}/spec.md` with:
 
 This fix is trivial (single-line change in one function). No phased delivery is needed.
 
-### [ ] Step: Fix getModuleColor crash in UnitCard.tsx
+### [x] Step: Fix getModuleColor crash in UnitCard.tsx
+<!-- chat-id: 8c7113d8-7d95-480c-9b47-5c0816e0ebf6 -->
 
 Fix the `TypeError: Cannot read properties of undefined (reading 'hover')` crash on `/curso-a1`.
 
