@@ -49,7 +49,12 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 2. [x] Set `UNIT_TITLE` to "Sports & Hobbies" in `src/lib/course/a1/unit-32.ts`.
 3. [x] Remove redundant `unit32.json` and cleanup temporary files.
 
+### [x] Step: Implementation - Phase 4: Fix Audio and Reorganize Lessons
+1. [x] Move `audioUrl` inside the `questions` array for all listening exercises in `unit-32.ts`.
+2. [x] Expand Vocabulary and Grammar content to reach 60 exercises (Lessons 1-4).
+3. [x] Relocate all Listening and Reading exercises to start from index 60 (Lesson 5).
+
 ### [x] Step: Verification & Finishing
 1. [x] Run `npm run lint` and `npm run type-check` (noted widespread unrelated failures).
 2. [x] Final review of content quality and consistency in the new format.
-3. [x] Create and run E2E test to verify Unit 32 loading and content.
+3. [x] Create and run E2E test to verify Unit 32 audio visibility and lesson organization.

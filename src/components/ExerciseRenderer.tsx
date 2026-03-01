@@ -253,9 +253,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
         {/* Question text */}
         <div className="relative pl-4 border-l-4 border-[#FF6B6B]/70 rounded-r-sm mt-2">
-          <p className="text-xs font-bold uppercase tracking-[0.15em] text-[#FF6B6B]/70 mb-1.5">
+          <div className="text-xs font-bold uppercase tracking-[0.15em] text-[#FF6B6B]/70 mb-1.5">
             <TranslatedText text="[[Question|Pregunta]]" />
-          </p>
+          </div>
           <div className="text-2xl md:text-3xl text-slate-900 font-extrabold leading-tight tracking-normal">
             <TranslatedText text={q.question || q.text || q.prompt} />
           </div>
@@ -400,7 +400,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
               data-testid="confirm-button"
               className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white py-4 rounded-2xl font-black text-lg shadow-lg shadow-orange-200 hover:-translate-y-0.5 hover:shadow-xl transition-all disabled:opacity-40 disabled:cursor-not-allowed disabled:translate-y-0 disabled:shadow-none active:scale-[0.98]"
             >
-              <TranslatedText text="[[Confirm Answer|Confirmar]]" />
+              Confirmar
             </button>
           </div>
         )}
@@ -428,12 +428,12 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                     }
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className={`font-black text-lg leading-tight ${evaluation.isCorrect ? 'text-green-700' : 'text-red-700'}`}>
+                    <div className={`font-black text-lg leading-tight ${evaluation.isCorrect ? 'text-green-700' : 'text-red-700'}`}>
                       {evaluation.isCorrect
                         ? <TranslatedText text="[[Great! Correct answer.|¡Correcto!]]" />
                         : <TranslatedText text="[[Incorrect. Keep going!|Incorrecto. ¡Sigue así!]]" />
                       }
-                    </p>
+                    </div>
                     <div className={`text-sm mt-0.5 leading-snug ${evaluation.isCorrect ? 'text-green-600' : 'text-red-500'}`}>
                       <Markdown content={evaluation.feedback} vocabulary={vocabulary} />
                     </div>
@@ -442,9 +442,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
                 {q.explanation && (
                   <div className="bg-slate-50 rounded-2xl px-4 py-3 mb-3 border border-slate-100">
-                    <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 mb-1">
+                    <div className="text-[10px] font-black uppercase tracking-widest text-slate-400 mb-1">
                       💡 <TranslatedText text="[[Explanation|Explicación]]" />
-                    </p>
+                    </div>
                     <div className="text-sm text-slate-700 leading-relaxed">
                       <Markdown content={q.explanation} vocabulary={vocabulary} />
                     </div>
@@ -461,8 +461,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                   }`}
                 >
                   {currentQuestionIdx < questions.length - 1
-                    ? <TranslatedText text="[[Next Question|Siguiente pregunta]]" />
-                    : <TranslatedText text="[[Continue|Continuar]]" />
+                    ? "Siguiente pregunta"
+                    : "Continuar"
                   }
                   <ArrowRight className="w-5 h-5" />
                 </button>
@@ -567,9 +567,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             </div>
           </div>
           <div className={`relative pl-4 border-l-4 ${typeTheme.border} rounded-r-sm`}>
-            <p className="text-xs font-bold uppercase tracking-[0.15em] text-slate-400 mb-1.5">
+            <div className="text-xs font-bold uppercase tracking-[0.15em] text-slate-400 mb-1.5">
               <TranslatedText text="[[Exercise|Ejercicio]]" />
-            </p>
+            </div>
             <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 leading-tight tracking-normal">
               <TranslatedText text={exerciseContent.title || 'Ejercicio'} />
             </h2>
@@ -599,9 +599,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
               <div className="absolute top-0 left-0 w-1.5 h-full bg-gradient-to-b from-[#FF6B6B] to-[#ff9a3c] rounded-l-2xl" />
               <div className="flex items-center gap-2 mb-3 pl-1">
                 <BookOpen size={16} className="text-[#FF6B6B]/70" />
-                <p className="text-xs font-black uppercase tracking-[0.15em] text-[#FF6B6B]/70">
+                <div className="text-xs font-black uppercase tracking-[0.15em] text-[#FF6B6B]/70">
                   <TranslatedText text="[[Reading|Lectura]]" />
-                </p>
+                </div>
               </div>
               <div className="text-slate-800 text-[18px] leading-[1.85] font-normal pl-1">
                 <Markdown content={(exerciseContent.text || exercise.transcript)!} />

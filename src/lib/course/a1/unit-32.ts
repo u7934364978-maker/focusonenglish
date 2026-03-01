@@ -2,9 +2,15 @@ import { Exercise } from '@/lib/exercise-generator';
 
 export const UNIT_TITLE = "Sports & Hobbies";
 
+// Helper to generate IDs
+const createId = (index: number) => `a1-u32-e${index + 1}`;
+
 export const UNIT_32_EXERCISES: Exercise[] = [
+  // ==========================================
+  // LESSON 1: Sports & Play/Go (0-14)
+  // ==========================================
   {
-    id: "a1-u32-e1",
+    id: createId(0),
     type: "matching",
     level: "A1",
     topic: "Sports Vocabulary",
@@ -23,28 +29,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: "Vocabulary"
   },
   {
-    id: "a1-u32-e2",
-    type: "listening-comprehension",
-    level: "A1",
-    topic: "Sports",
-    difficulty: "medium",
-    content: {
-      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
-      instructions: "[[Listen|Escucha]] [[and|y]] [[type|escribe]] [[the|el]] [[missing|faltante]] [[word|palabra]]:",
-      audioUrl: "/audio/a1/unit-32/e1.mp3",
-      transcript: "I love football.",
-      questions: [
-        {
-          question: "I love ________.",
-          options: ["football", "swimming", "cycling"],
-          correctAnswer: 0
-        }
-      ]
-    },
-    topicName: "Listening"
-  },
-  {
-    id: "a1-u32-e3",
+    id: createId(1),
     type: "fill-blank",
     level: "A1",
     topic: "Grammar: Play vs Go",
@@ -63,7 +48,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: "Grammar"
   },
   {
-    id: "a1-u32-e4",
+    id: createId(2),
     type: "fill-blank",
     level: "A1",
     topic: "Grammar: Play vs Go",
@@ -82,10 +67,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: "Grammar"
   },
   {
-    id: "a1-u32-e5",
+    id: createId(3),
     type: "multiple-choice",
     level: "A1",
-    topic: "Hobbies",
+    topic: "Hiking",
     difficulty: "easy",
     content: {
       title: "[[Hiking|Senderismo]]",
@@ -101,42 +86,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: "Vocabulary"
   },
   {
-    id: "a1-u32-e6",
-    type: "sentence-building",
-    level: "A1",
-    topic: "Grammar",
-    difficulty: "medium",
-    content: {
-      title: "[[Sentence|Frase]] [[Order|Orden]]",
-      instructions: "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[the|el]] [[correct|correcto]] [[order|orden]]:",
-      words: ["They", "go", "running", "in", "the", "park"],
-      correctAnswer: "They go running in the park"
-    },
-    topicName: "Grammar"
-  },
-  {
-    id: "a1-u32-e7",
-    type: "listening-comprehension",
-    level: "A1",
-    topic: "Grammar",
-    difficulty: "medium",
-    content: {
-      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
-      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]] [[the|la]] [[sentence|frase]]:",
-      audioUrl: "/audio/a1/unit-32/e2.mp3",
-      transcript: "Let's go cycling.",
-      questions: [
-        {
-          question: "Let's ________ cycling.",
-          options: ["go", "play", "do"],
-          correctAnswer: 0
-        }
-      ]
-    },
-    topicName: "Listening"
-  },
-  {
-    id: "a1-u32-e8",
+    id: createId(4),
     type: "matching",
     level: "A1",
     topic: "Verbs and Activities",
@@ -155,7 +105,189 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: "Grammar"
   },
   {
-    id: "a1-u32-e9",
+    id: createId(5),
+    type: "fill-blank",
+    level: "A1",
+    topic: "Grammar: Play vs Go",
+    difficulty: "medium",
+    content: {
+      title: "[[Table|Mesa]] [[Tennis|Tenis]]",
+      instructions: "[[Complete|Completa]]:",
+      questions: [
+        {
+          question: "They ________ table tennis every Tuesday.",
+          answer: "play",
+          explanation: "[[Games|Juegos]] [[with|con]] [[a|una]] [[ball|pelota]] [[or|o]] [[competitive|competitivos]] [[usually|normalmente]] [[use|usan]] '[[play|play]]'."
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(6),
+    type: "sentence-building",
+    level: "A1",
+    topic: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: "[[Sentence|Frase]] [[Order|Orden]]",
+      instructions: "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[the|el]] [[correct|correcto]] [[order|orden]]:",
+      words: ["They", "go", "running", "in", "the", "park"],
+      correctAnswer: "They go running in the park"
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(7),
+    type: "multiple-choice",
+    level: "A1",
+    topic: "Cycling",
+    difficulty: "easy",
+    content: {
+      title: "[[Cycling|Ciclismo]]",
+      instructions: "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]]:",
+      questions: [
+        {
+          question: "I want to ________ cycling this weekend.",
+          options: ["go", "play", "do"],
+          correctAnswer: 0
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(8),
+    type: "fill-blank",
+    level: "A1",
+    topic: "Sports",
+    difficulty: "easy",
+    content: {
+      title: "[[Sport|Deporte]] [[Name|Nombre]]",
+      instructions: "[[Complete|Completa]] [[the|el]] [[name|nombre]] [[of|de]] [[the|el]] [[sport|deporte]]:",
+      questions: [
+        {
+          question: "B_sk_tb_ll",
+          answer: "Basketball"
+        }
+      ]
+    },
+    topicName: "Vocabulary"
+  },
+  {
+    id: createId(9),
+    type: "true-false",
+    level: "A1",
+    topic: "Grammar Check",
+    difficulty: "easy",
+    content: {
+      title: "[[Correct|Correcto]] [[or|o]] [[Incorrect|Incorrecto]]?",
+      instructions: "[[Is|Es]] [[this|esta]] [[phrase|frase]] [[correct|correcta]]?",
+      questions: [
+        {
+          question: "I play swimming every day.",
+          answer: false,
+          explanation: "[[We|Nosotros]] [[say|decimos]] '[[I go swimming|I go swimming]]'."
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(10),
+    type: "matching",
+    level: "A1",
+    topic: "Outdoor Sports",
+    difficulty: "easy",
+    content: {
+      title: "[[Outdoor|Al aire libre]] [[Sports|Deportes]]",
+      instructions: "[[Match|Relaciona]]:",
+      pairs: [
+        { id: "p1", left: "Skiing", right: "Esquí" },
+        { id: "p2", left: "Golf", right: "Golf" },
+        { id: "p3", left: "Sailing", right: "Vela" },
+        { id: "p4", left: "Rugby", right: "Rugby" }
+      ],
+      correctAnswer: { p1: "p1", p2: "p2", p3: "p3", p4: "p4" }
+    },
+    topicName: "Vocabulary"
+  },
+  {
+    id: createId(11),
+    type: "fill-blank",
+    level: "A1",
+    topic: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: "[[Yoga|Yoga]]",
+      instructions: "[[Complete|Completa]] (Hint: [[Yoga|Yoga]] [[uses|usa]] '[[do|hacer]]'):",
+      questions: [
+        {
+          question: "My mother ________ yoga on Sundays.",
+          answer: "does",
+          explanation: "[[We|Nosotros]] [[use|usamos]] '[[do|hacer]]' [[for|para]] [[individual|individuales]] [[activities|actividades]] [[without|sin]] [[a|una]] [[ball|pelota]]."
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(12),
+    type: "multiple-choice",
+    level: "A1",
+    topic: "Sports Equipment",
+    difficulty: "medium",
+    content: {
+      title: "[[Equipment|Equipo]]",
+      instructions: "[[What|Qué]] [[do|se]] [[you|tú]] [[need|necesitas]] [[for|para]] [[football|fútbol]]?",
+      questions: [
+        {
+          question: "Football equipment",
+          options: ["A ball", "A racket", "Skis"],
+          correctAnswer: 0
+        }
+      ]
+    },
+    topicName: "Vocabulary"
+  },
+  {
+    id: createId(13),
+    type: "sentence-building",
+    level: "A1",
+    topic: "Questions",
+    difficulty: "medium",
+    content: {
+      title: "[[Questions|Preguntas]]",
+      instructions: "[[Order|Ordena]] [[the|la]] [[question|pregunta]]:",
+      words: ["Do", "you", "play", "tennis", "?"],
+      correctAnswer: "Do you play tennis?"
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(14),
+    type: "fill-blank",
+    level: "A1",
+    topic: "Sports",
+    difficulty: "easy",
+    content: {
+      title: "[[Vowels|Vocales]]",
+      instructions: "[[Complete|Completa]] [[the|el]] [[sport|deporte]]:",
+      questions: [
+        {
+          question: "T_nn_s",
+          answer: "Tennis"
+        }
+      ]
+    },
+    topicName: "Vocabulary"
+  },
+
+  // ==========================================
+  // LESSON 2: Hobbies & Interests (15-29)
+  // ==========================================
+  {
+    id: createId(15),
     type: "matching",
     level: "A1",
     topic: "Hobbies",
@@ -174,7 +306,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: "Vocabulary"
   },
   {
-    id: "a1-u32-e10",
+    id: createId(16),
     type: "fill-blank",
     level: "A1",
     topic: "Interests",
@@ -193,7 +325,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: "Vocabulary"
   },
   {
-    id: "a1-u32-e11",
+    id: createId(17),
     type: "multiple-choice",
     level: "A1",
     topic: "Hobbies",
@@ -212,7 +344,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: "Vocabulary"
   },
   {
-    id: "a1-u32-e12",
+    id: createId(18),
     type: "translation",
     level: "A1",
     topic: "Hobbies",
@@ -226,28 +358,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: "Vocabulary"
   },
   {
-    id: "a1-u32-e13",
-    type: "listening-comprehension",
-    level: "A1",
-    topic: "Hobbies",
-    difficulty: "medium",
-    content: {
-      title: "[[Listen|Escucha]] [[and|y]] [[Write|Escribe]]",
-      instructions: "[[Listen|Escucha]] [[and|y]] [[write|escribe]] [[the|el]] [[hobby|pasatiempo]]:",
-      audioUrl: "/audio/a1/unit-32/e3.mp3",
-      transcript: "I like gardening.",
-      questions: [
-        {
-          question: "I like ________.",
-          options: ["gardening", "cooking", "reading"],
-          correctAnswer: 0
-        }
-      ]
-    },
-    topicName: "Listening"
-  },
-  {
-    id: "a1-u32-e14",
+    id: createId(19),
     type: "multiple-choice",
     level: "A1",
     topic: "Hobbies",
@@ -266,7 +377,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: "Vocabulary"
   },
   {
-    id: "a1-u32-e15",
+    id: createId(20),
     type: "fill-blank",
     level: "A1",
     topic: "Likes & Dislikes",
@@ -285,7 +396,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: "Vocabulary"
   },
   {
-    id: "a1-u32-e16",
+    id: createId(21),
     type: "sentence-building",
     level: "A1",
     topic: "Questions",
@@ -299,7 +410,155 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: "Vocabulary"
   },
   {
-    id: "a1-u32-e17",
+    id: createId(22),
+    type: "matching",
+    level: "A1",
+    topic: "Hobbies",
+    difficulty: "medium",
+    content: {
+      title: "[[Actions|Acciones]]",
+      instructions: "[[Match|Une]] [[the|la]] [[action|acción]] [[with|con]] [[the|la]] [[translation|traducción]]:",
+      pairs: [
+        { id: "p1", left: "Drawing", right: "Dibujar" },
+        { id: "p2", left: "Singing", right: "Cantar" },
+        { id: "p3", left: "Dancing", right: "Bailar" },
+        { id: "p4", left: "Fishing", right: "Pescar" }
+      ],
+      correctAnswer: { p1: "p1", p2: "p2", p3: "p3", p4: "p4" }
+    },
+    topicName: "Vocabulary"
+  },
+  {
+    id: createId(23),
+    type: "fill-blank",
+    level: "A1",
+    topic: "Photography",
+    difficulty: "medium",
+    content: {
+      title: "[[Photography|Fotografía]]",
+      instructions: "[[Complete|Completa]]:",
+      questions: [
+        {
+          question: "My hobby is taking ________.",
+          answer: "photos",
+          explanation: "[[Taking photos|Sacar fotos]] [[is|es]] [[a|un]] [[common|común]] [[hobby|pasatiempo]]."
+        }
+      ]
+    },
+    topicName: "Vocabulary"
+  },
+  {
+    id: createId(24),
+    type: "multiple-choice",
+    level: "A1",
+    topic: "Hobbies",
+    difficulty: "easy",
+    content: {
+      title: "[[Movies|Películas]]",
+      instructions: "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]]:",
+      questions: [
+        {
+          question: "I love ________ movies.",
+          options: ["watching", "looking", "seeing"],
+          correctAnswer: 0
+        }
+      ]
+    },
+    topicName: "Vocabulary"
+  },
+  {
+    id: createId(25),
+    type: "true-false",
+    level: "A1",
+    topic: "Spelling",
+    difficulty: "easy",
+    content: {
+      title: "[[Spelling|Ortografía]] [[Check|Revisión]]",
+      instructions: "[[Is|Es]] [[this|esta]] [[word|palabra]] [[correct|correcta]]? 'Gardening'",
+      questions: [
+        {
+          question: "Gardening",
+          answer: true
+        }
+      ]
+    },
+    topicName: "Vocabulary"
+  },
+  {
+    id: createId(26),
+    type: "fill-blank",
+    level: "A1",
+    topic: "Chess",
+    difficulty: "medium",
+    content: {
+      title: "[[Chess|Ajedrez]]",
+      instructions: "[[Complete|Completa]]:",
+      questions: [
+        {
+          question: "We ________ chess every Saturday.",
+          answer: "play"
+        }
+      ]
+    },
+    topicName: "Vocabulary"
+  },
+  {
+    id: createId(27),
+    type: "multiple-choice",
+    level: "A1",
+    topic: "Hobbies",
+    difficulty: "medium",
+    content: {
+      title: "[[Music|Música]]",
+      instructions: "[[Which|Cuál]] [[is|es]] [[correct|correcta]]?",
+      questions: [
+        {
+          question: "He likes ________ to music.",
+          options: ["listening", "hearing", "sounding"],
+          correctAnswer: 0
+        }
+      ]
+    },
+    topicName: "Vocabulary"
+  },
+  {
+    id: createId(28),
+    type: "matching",
+    level: "A1",
+    topic: "Collecting",
+    difficulty: "easy",
+    content: {
+      title: "[[Collecting|Coleccionar]]",
+      instructions: "[[Match|Une]]:",
+      pairs: [
+        { id: "p1", left: "Stamps", right: "Sellos" },
+        { id: "p2", left: "Coins", right: "Monedas" },
+        { id: "p3", left: "Postcards", right: "Postales" }
+      ],
+      correctAnswer: { p1: "p1", p2: "p2", p3: "p3" }
+    },
+    topicName: "Vocabulary"
+  },
+  {
+    id: createId(29),
+    type: "sentence-building",
+    level: "A1",
+    topic: "Hobbies",
+    difficulty: "medium",
+    content: {
+      title: "[[Favorite|Favorito]]",
+      instructions: "[[Order|Ordena]]:",
+      words: ["Painting", "is", "my", "favorite", "hobby"],
+      correctAnswer: "Painting is my favorite hobby"
+    },
+    topicName: "Vocabulary"
+  },
+
+  // ==========================================
+  // LESSON 3: Grammar - Gerunds (30-44)
+  // ==========================================
+  {
+    id: createId(30),
     type: "fill-blank",
     level: "A1",
     topic: "Gerunds",
@@ -317,7 +576,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: "Grammar"
   },
   {
-    id: "a1-u32-e18",
+    id: createId(31),
     type: "fill-blank",
     level: "A1",
     topic: "Gerunds",
@@ -335,7 +594,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: "Grammar"
   },
   {
-    id: "a1-u32-e19",
+    id: createId(32),
     type: "true-false",
     level: "A1",
     topic: "Grammar Check",
@@ -353,28 +612,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: "Grammar"
   },
   {
-    id: "a1-u32-e20",
-    type: "listening-comprehension",
-    level: "A1",
-    topic: "Gerunds",
-    difficulty: "medium",
-    content: {
-      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
-      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]]:",
-      audioUrl: "/audio/a1/unit-32/e4.mp3",
-      transcript: "She loves dancing.",
-      questions: [
-        {
-          question: "She loves ________.",
-          options: ["dancing", "running", "singing"],
-          correctAnswer: 0
-        }
-      ]
-    },
-    topicName: "Listening"
-  },
-  {
-    id: "a1-u32-e21",
+    id: createId(33),
     type: "multiple-choice",
     level: "A1",
     topic: "Spelling",
@@ -393,7 +631,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: "Grammar"
   },
   {
-    id: "a1-u32-e22",
+    id: createId(34),
     type: "translation",
     level: "A1",
     topic: "Gerunds",
@@ -407,21 +645,538 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: "Grammar"
   },
   {
-    id: "a1-u32-e23",
+    id: createId(35),
+    type: "fill-blank",
+    level: "A1",
+    topic: "Gerunds",
+    difficulty: "medium",
+    content: {
+      title: "[[Gerunds|Gerundios]]",
+      instructions: "[[Complete|Completa]]:",
+      questions: [
+        {
+          question: "She loves ________ (dance).",
+          answer: "dancing"
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(36),
+    type: "multiple-choice",
+    level: "A1",
+    topic: "Gerunds",
+    difficulty: "easy",
+    content: {
+      title: "[[Running|Correr]]",
+      instructions: "[[Choose|Elige]]:",
+      questions: [
+        {
+          question: "We enjoy ________ in the park.",
+          options: ["running", "runing", "run"],
+          correctAnswer: 0
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(37),
     type: "sentence-building",
+    level: "A1",
+    topic: "Gerunds",
+    difficulty: "medium",
+    content: {
+      title: "[[Likes|Gustos]]",
+      instructions: "[[Order|Ordena]]:",
+      words: ["I", "like", "playing", "video", "games"],
+      correctAnswer: "I like playing video games"
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(38),
+    type: "fill-blank",
+    level: "A1",
+    topic: "Gerunds",
+    difficulty: "medium",
+    content: {
+      title: "[[Gerunds|Gerundios]]",
+      instructions: "[[Complete|Completa]]:",
+      questions: [
+        {
+          question: "Do you like ________ (cook)?",
+          answer: "cooking"
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(39),
+    type: "true-false",
+    level: "A1",
+    topic: "Grammar",
+    difficulty: "easy",
+    content: {
+      title: "[[Grammar|Gramática]]",
+      instructions: "[[Is|Es]] '[[I love sail|I love sail]]' [[correct|correcto]]?",
+      questions: [
+        {
+          question: "I love sail.",
+          answer: false,
+          explanation: "[[The|El]] [[correct|correcto]] [[is|es]] '[[I love sailing|I love sailing]]'."
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(40),
+    type: "matching",
+    level: "A1",
+    topic: "Gerunds",
+    difficulty: "medium",
+    content: {
+      title: "[[Verb|Verbo]] + -[[ing|ing]]",
+      instructions: "[[Match|Une]]:",
+      pairs: [
+        { id: "p1", left: "Sing", right: "Singing" },
+        { id: "p2", left: "Write", right: "Writing" },
+        { id: "p3", left: "Stop", right: "Stopping" },
+        { id: "p4", left: "Study", right: "Studying" }
+      ],
+      correctAnswer: { p1: "p1", p2: "p2", p3: "p3", p4: "p4" }
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(41),
+    type: "fill-blank",
+    level: "A1",
+    topic: "Gerunds",
+    difficulty: "medium",
+    content: {
+      title: "[[Gerunds|Gerundios]]",
+      instructions: "[[Complete|Completa]]:",
+      questions: [
+        {
+          question: "He hates ________ (get) up early.",
+          answer: "getting"
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(42),
+    type: "multiple-choice",
+    level: "A1",
+    topic: "Gerunds",
+    difficulty: "easy",
+    content: {
+      title: "[[Travelling|Viajar]]",
+      instructions: "[[Choose|Elige]]:",
+      questions: [
+        {
+          question: "My hobby is ________.",
+          options: ["travelling", "travel", "travels"],
+          correctAnswer: 0
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(43),
+    type: "sentence-building",
+    level: "A1",
+    topic: "Gerunds",
+    difficulty: "medium",
+    content: {
+      title: "[[Cooking|Cocinar]]",
+      instructions: "[[Order|Ordena]]:",
+      words: ["She", "doesn't", "like", "cooking", "dinner"],
+      correctAnswer: "She doesn't like cooking dinner"
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(44),
+    type: "fill-blank",
+    level: "A1",
+    topic: "Gerunds",
+    difficulty: "medium",
+    content: {
+      title: "[[Fishing|Pesca]]",
+      instructions: "[[Complete|Completa]]:",
+      questions: [
+        {
+          question: "I enjoy ________ (fish) with my dad.",
+          answer: "fishing"
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+
+  // ==========================================
+  // LESSON 4: Preference Verbs + -ing (45-59)
+  // ==========================================
+  {
+    id: createId(45),
+    type: "fill-blank",
     level: "A1",
     topic: "Negatives",
     difficulty: "medium",
     content: {
       title: "[[Negative|Negativa]] [[Sentence|Frase]]",
-      instructions: "[[Order|Ordena]] [[the|la]] [[negative|negativa]] [[sentence|frase]]:",
-      words: ["We", "don't", "like", "watching", "horror", "movies"],
-      correctAnswer: "We don't like watching horror movies"
+      instructions: "[[Complete|Completa]]:",
+      questions: [
+        {
+          question: "We don't like ________ (watch) horror movies.",
+          answer: "watching"
+        }
+      ]
     },
     topicName: "Grammar"
   },
   {
-    id: "a1-u32-e24",
+    id: createId(46),
+    type: "multiple-choice",
+    level: "A1",
+    topic: "Preferences",
+    difficulty: "easy",
+    content: {
+      title: "[[Love|Encantar]]",
+      instructions: "[[Choose|Elige]]:",
+      questions: [
+        {
+          question: "I love ________ to the beach.",
+          options: ["going", "go", "goes"],
+          correctAnswer: 0
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(47),
+    type: "sentence-building",
+    level: "A1",
+    topic: "Preferences",
+    difficulty: "medium",
+    content: {
+      title: "[[Hate|Odiar]]",
+      instructions: "[[Order|Ordena]]:",
+      words: ["I", "hate", "doing", "homework"],
+      correctAnswer: "I hate doing homework"
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(48),
+    type: "matching",
+    level: "A1",
+    topic: "Preferences",
+    difficulty: "easy",
+    content: {
+      title: "[[Preference|Preferencia]] [[Levels|Niveles]]",
+      instructions: "[[Match|Une]]:",
+      pairs: [
+        { id: "p1", left: "Love", right: "Encantar" },
+        { id: "p2", left: "Like", right: "Gustar" },
+        { id: "p3", left: "Enjoy", right: "Disfrutar" },
+        { id: "p4", left: "Hate", right: "Odiar" }
+      ],
+      correctAnswer: { p1: "p1", p2: "p2", p3: "p3", p4: "p4" }
+    },
+    topicName: "Vocabulary"
+  },
+  {
+    id: createId(49),
+    type: "fill-blank",
+    level: "A1",
+    topic: "Preferences",
+    difficulty: "medium",
+    content: {
+      title: "[[Enjoy|Disfrutar]]",
+      instructions: "[[Complete|Completa]]:",
+      questions: [
+        {
+          question: "They enjoy ________ (listen) to podcasts.",
+          answer: "listening"
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(50),
+    type: "true-false",
+    level: "A1",
+    topic: "Preferences",
+    difficulty: "easy",
+    content: {
+      title: "[[Question|Pregunta]] [[Form|Forma]]",
+      instructions: "[[Is|Es]] '[[Do you like reading?|Do you like reading?]]' [[correct|correcto]]?",
+      questions: [
+        {
+          question: "Do you like reading?",
+          answer: true
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(51),
+    type: "multiple-choice",
+    level: "A1",
+    topic: "Preferences",
+    difficulty: "easy",
+    content: {
+      title: "[[Painting|Pintura]]",
+      instructions: "[[Choose|Elige]]:",
+      questions: [
+        {
+          question: "Does she like ________?",
+          options: ["painting", "paint", "paints"],
+          correctAnswer: 0
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(52),
+    type: "fill-blank",
+    level: "A1",
+    topic: "Preferences",
+    difficulty: "medium",
+    content: {
+      title: "[[Hiking|Senderismo]]",
+      instructions: "[[Complete|Completa]]:",
+      questions: [
+        {
+          question: "We love ________ (hike) in summer.",
+          answer: "hiking"
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(53),
+    type: "sentence-building",
+    level: "A1",
+    topic: "Preferences",
+    difficulty: "medium",
+    content: {
+      title: "[[Photography|Fotografía]]",
+      instructions: "[[Order|Ordena]]:",
+      words: ["He", "likes", "taking", "photos"],
+      correctAnswer: "He likes taking photos"
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(54),
+    type: "multiple-choice",
+    level: "A1",
+    topic: "Preferences",
+    difficulty: "medium",
+    content: {
+      title: "[[Negative|Negativo]]",
+      instructions: "[[Choose|Elige]]:",
+      questions: [
+        {
+          question: "I ________ like running.",
+          options: ["don't", "doesn't", "not"],
+          correctAnswer: 0
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(55),
+    type: "fill-blank",
+    level: "A1",
+    topic: "Preferences",
+    difficulty: "medium",
+    content: {
+      title: "[[Gardening|Jardinería]]",
+      instructions: "[[Complete|Completa]]:",
+      questions: [
+        {
+          question: "My father enjoys ________ (garden).",
+          answer: "gardening"
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(56),
+    type: "true-false",
+    level: "A1",
+    topic: "Preferences",
+    difficulty: "easy",
+    content: {
+      title: "[[Like|Gustar]] + -[[ing|ing]]",
+      instructions: "[[Is|Es]] '[[She likes sing|She likes sing]]' [[correct|correcto]]?",
+      questions: [
+        {
+          question: "She likes sing.",
+          answer: false
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(57),
+    type: "sentence-building",
+    level: "A1",
+    topic: "Preferences",
+    difficulty: "medium",
+    content: {
+      title: "[[Travelling|Viajar]]",
+      instructions: "[[Order|Ordena]]:",
+      words: ["Do", "you", "enjoy", "travelling", "?"],
+      correctAnswer: "Do you enjoy travelling?"
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(58),
+    type: "fill-blank",
+    level: "A1",
+    topic: "Preferences",
+    difficulty: "medium",
+    content: {
+      title: "[[Chess|Ajedrez]]",
+      instructions: "[[Complete|Completa]]:",
+      questions: [
+        {
+          question: "I hate ________ (play) chess.",
+          answer: "playing"
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+  {
+    id: createId(59),
+    type: "multiple-choice",
+    level: "A1",
+    topic: "Preferences",
+    difficulty: "easy",
+    content: {
+      title: "[[Cycling|Ciclismo]]",
+      instructions: "[[Choose|Elige]]:",
+      questions: [
+        {
+          question: "They like ________ cycling.",
+          options: ["going", "playing", "doing"],
+          correctAnswer: 0
+        }
+      ]
+    },
+    topicName: "Grammar"
+  },
+
+  // ==========================================
+  // LESSON 5: Listening & Reading (60+)
+  // ==========================================
+  {
+    id: createId(60),
+    type: "listening-comprehension",
+    level: "A1",
+    topic: "Sports",
+    difficulty: "medium",
+    content: {
+      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] [[and|y]] [[type|escribe]] [[the|el]] [[missing|faltante]] [[word|palabra]]:",
+      transcript: "I love football.",
+      questions: [
+        {
+          question: "I love ________.",
+          options: ["football", "swimming", "cycling"],
+          correctAnswer: 0,
+          audioUrl: "/audio/a1/unit-32/e1.mp3"
+        }
+      ]
+    },
+    topicName: "Listening"
+  },
+  {
+    id: createId(61),
+    type: "listening-comprehension",
+    level: "A1",
+    topic: "Grammar",
+    difficulty: "medium",
+    content: {
+      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]] [[the|la]] [[sentence|frase]]:",
+      transcript: "Let's go cycling.",
+      questions: [
+        {
+          question: "Let's ________ cycling.",
+          options: ["go", "play", "do"],
+          correctAnswer: 0,
+          audioUrl: "/audio/a1/unit-32/e2.mp3"
+        }
+      ]
+    },
+    topicName: "Listening"
+  },
+  {
+    id: createId(62),
+    type: "listening-comprehension",
+    level: "A1",
+    topic: "Hobbies",
+    difficulty: "medium",
+    content: {
+      title: "[[Listen|Escucha]] [[and|y]] [[Write|Escribe]]",
+      instructions: "[[Listen|Escucha]] [[and|y]] [[write|escribe]] [[the|el]] [[hobby|pasatiempo]]:",
+      transcript: "I like gardening.",
+      questions: [
+        {
+          question: "I like ________.",
+          options: ["gardening", "cooking", "reading"],
+          correctAnswer: 0,
+          audioUrl: "/audio/a1/unit-32/e3.mp3"
+        }
+      ]
+    },
+    topicName: "Listening"
+  },
+  {
+    id: createId(63),
+    type: "listening-comprehension",
+    level: "A1",
+    topic: "Gerunds",
+    difficulty: "medium",
+    content: {
+      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]]:",
+      transcript: "She loves dancing.",
+      questions: [
+        {
+          question: "She loves ________.",
+          options: ["dancing", "running", "singing"],
+          correctAnswer: 0,
+          audioUrl: "/audio/a1/unit-32/e4.mp3"
+        }
+      ]
+    },
+    topicName: "Listening"
+  },
+  {
+    id: createId(64),
     type: "listening-comprehension",
     level: "A1",
     topic: "Reading & Listening",
@@ -429,20 +1184,20 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     content: {
       title: "[[Long|Larga]] [[Sentence|Frase]]",
       instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]]:",
-      audioUrl: "/audio/a1/unit-32/e5.mp3",
       transcript: "My favorite sport is basketball.",
       questions: [
         {
           question: "My favorite sport is ________.",
           options: ["basketball", "baseball", "football"],
-          correctAnswer: 0
+          correctAnswer: 0,
+          audioUrl: "/audio/a1/unit-32/e5.mp3"
         }
       ]
     },
     topicName: "Listening"
   },
   {
-    id: "a1-u32-e25",
+    id: createId(65),
     type: "listening-comprehension",
     level: "A1",
     topic: "Photography",
@@ -450,20 +1205,20 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     content: {
       title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
       instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]]:",
-      audioUrl: "/audio/a1/unit-32/e6.mp3",
       transcript: "Do you like photography?",
       questions: [
         {
           question: "Do you like ________?",
           options: ["photography", "painting", "reading"],
-          correctAnswer: 0
+          correctAnswer: 0,
+          audioUrl: "/audio/a1/unit-32/e6.mp3"
         }
       ]
     },
     topicName: "Listening"
   },
   {
-    id: "a1-u32-e26",
+    id: createId(66),
     type: "true-false",
     level: "A1",
     topic: "Reading",
@@ -482,7 +1237,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: "Reading"
   },
   {
-    id: "a1-u32-e27",
+    id: createId(67),
     type: "multiple-choice",
     level: "A1",
     topic: "Reading",
@@ -502,7 +1257,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topicName: "Reading"
   },
   {
-    id: "a1-u32-e28",
+    id: createId(68),
     type: "multiple-choice",
     level: "A1",
     topic: "Reading",
@@ -515,6 +1270,128 @@ export const UNIT_32_EXERCISES: Exercise[] = [
         {
           question: "Which of these is a quiet hobby for Anna?",
           options: ["Swimming", "Reading", "Tennis"],
+          correctAnswer: 1
+        }
+      ]
+    },
+    topicName: "Reading"
+  },
+  {
+    id: createId(69),
+    type: "listening-comprehension",
+    level: "A1",
+    topic: "Hobbies",
+    difficulty: "medium",
+    content: {
+      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]]:",
+      transcript: "I enjoy painting.",
+      questions: [
+        {
+          question: "I enjoy ________.",
+          options: ["painting", "reading", "cooking"],
+          correctAnswer: 0,
+          audioUrl: "/audio/a1/unit-32/e7.mp3"
+        }
+      ]
+    },
+    topicName: "Listening"
+  },
+  {
+    id: createId(70),
+    type: "listening-comprehension",
+    level: "A1",
+    topic: "Sports",
+    difficulty: "medium",
+    content: {
+      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]]:",
+      transcript: "They play volleyball.",
+      questions: [
+        {
+          question: "They play ________.",
+          options: ["volleyball", "basketball", "football"],
+          correctAnswer: 0,
+          audioUrl: "/audio/a1/unit-32/e8.mp3"
+        }
+      ]
+    },
+    topicName: "Listening"
+  },
+  {
+    id: createId(71),
+    type: "multiple-choice",
+    level: "A1",
+    topic: "Reading",
+    difficulty: "hard",
+    content: {
+      title: "[[Reading|Lectura]] [[Comprehension|Comprensión]]",
+      instructions: "[[Read|Lee]] [[and|y]] [[choose|elige]]:",
+      text: "Tom is very active. On Mondays, he goes swimming. On Wednesdays, he plays tennis. On weekends, he goes hiking with his dog. He doesn't like staying at home.",
+      questions: [
+        {
+          question: "What does Tom do on Wednesdays?",
+          options: ["Goes swimming", "Plays tennis", "Goes hiking"],
+          correctAnswer: 1
+        }
+      ]
+    },
+    topicName: "Reading"
+  },
+  {
+    id: createId(72),
+    type: "true-false",
+    level: "A1",
+    topic: "Reading",
+    difficulty: "medium",
+    content: {
+      title: "[[Reading|Lectura]] [[Comprehension|Comprensión]]",
+      instructions: "[[Read|Lee]] [[and|y]] [[answer|responde]]:",
+      text: "Sarah loves cooking for her family. Every Sunday, she makes a big dinner. Her favorite thing to cook is pasta. She doesn't like washing the dishes, but she loves eating!",
+      questions: [
+        {
+          question: "Sarah likes washing the dishes.",
+          answer: false
+        }
+      ]
+    },
+    topicName: "Reading"
+  },
+  {
+    id: createId(73),
+    type: "listening-comprehension",
+    level: "A1",
+    topic: "Preferences",
+    difficulty: "medium",
+    content: {
+      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]]:",
+      transcript: "We hate running.",
+      questions: [
+        {
+          question: "We ________ running.",
+          options: ["hate", "love", "like"],
+          correctAnswer: 0,
+          audioUrl: "/audio/a1/unit-32/e9.mp3"
+        }
+      ]
+    },
+    topicName: "Listening"
+  },
+  {
+    id: createId(74),
+    type: "multiple-choice",
+    level: "A1",
+    topic: "Reading",
+    difficulty: "hard",
+    content: {
+      title: "[[Reading|Lectura]] [[Comprehension|Comprensión]]",
+      instructions: "[[Read|Lee]] [[and|y]] [[choose|elige]]:",
+      text: "David lives in London. He likes the city, but he loves the mountains. Every year, he goes to Switzerland for his holiday. He goes skiing in the morning and drinks hot chocolate in the afternoon. It is his favorite time of the year.",
+      questions: [
+        {
+          question: "Where does David go for his holiday?",
+          options: ["London", "Switzerland", "The city"],
           correctAnswer: 1
         }
       ]

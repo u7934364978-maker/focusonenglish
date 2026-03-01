@@ -138,7 +138,7 @@ const Tooltip: React.FC<TooltipProps> = ({ word, translation, useStrong }) => (
       </span>
       <span className="absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent border-t-slate-900"></span>
       {/* Invisible bridge to handle the gap between word and tooltip */}
-      <div className="absolute top-full left-0 right-0 h-4" />
+      <span className="absolute top-full left-0 right-0 h-4" />
     </span>
   </span>
 );
