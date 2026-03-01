@@ -77,8 +77,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       instructions: "[[How|Cómo]] [[do|se]] [[you|tú]] [[say|dices]] '[[Hacer senderismo|Hacer senderismo]]'?",
       questions: [
         {
-          question: "Hacer senderismo",
-          options: ["Go hiking", "Play hiking", "Do hiking"],
+          question: "[[Hacer senderismo|Hacer senderismo]]",
+          options: ["[[Go hiking|Hacer senderismo]]", "[[Play hiking|Play hiking]]", "[[Do hiking|Do hiking]]"],
           correctAnswer: 0
         }
       ]
@@ -167,7 +167,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       instructions: "[[Complete|Completa]] [[the|el]] [[name|nombre]] [[of|de]] [[the|el]] [[sport|deporte]]:",
       questions: [
         {
-          question: "B_sk_tb_ll",
+          question: "[[B_sk_tb_ll|B_sk_tb_ll]]",
           answer: "Basketball"
         }
       ]
@@ -275,7 +275,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       instructions: "[[Complete|Completa]] [[the|el]] [[sport|deporte]]:",
       questions: [
         {
-          question: "T_nn_s",
+          question: "[[T_nn_s|T_nn_s]]",
           answer: "Tennis"
         }
       ]
@@ -474,10 +474,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       title: "[[Spelling|Ortografía]] [[Check|Revisión]]",
-      instructions: "[[Is|Es]] [[this|esta]] [[word|palabra]] [[correct|correcta]]? 'Gardening'",
+      instructions: "[[Is|Es]] [[this|esta]] [[word|palabra]] [[correct|correcta]]? '[[Gardening|Jardinería]]'",
       questions: [
         {
-          question: "Gardening",
+          question: "[[Gardening|Jardinería]]",
           answer: true
         }
       ]
@@ -622,8 +622,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       instructions: "[[Which|Cuál]] [[is|es]] [[correct|correcta]]?",
       questions: [
         {
-          question: "He likes...",
-          options: ["swiming", "swimming", "swim"],
+          question: "[[He|Él]] [[likes|le gusta]]...",
+          options: ["[[swiming|swiming]]", "[[swimming|nadar]]", "[[swim|nadar]]"],
           correctAnswer: 1
         }
       ]
@@ -1347,10 +1347,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     content: {
       title: "[[Reading|Lectura]] [[Comprehension|Comprensión]]",
       instructions: "[[Read|Lee]] [[and|y]] [[answer|responde]]:",
-      text: "Sarah loves cooking for her family. Every Sunday, she makes a big dinner. Her favorite thing to cook is pasta. She doesn't like washing the dishes, but she loves eating!",
+      text: "[[Sarah|Sarah]] [[loves|ama]] [[cooking|cocinar]] [[for|para]] [[her|su]] [[family|familia]]. [[Every|Cada]] [[Sunday|domingo]], [[she|ella]] [[makes|hace]] [[a|una]] [[big|grande]] [[dinner|cena]]. [[Her|Su]] [[favorite|favorita]] [[thing|cosa]] [[to|para]] [[cook|cocinar]] [[is|es]] [[pasta|pasta]]. [[She|Ella]] [[doesn't|no]] [[like|le gusta]] [[washing|lavar]] [[the|los]] [[dishes|platos]], [[but|pero]] [[she|ella]] [[loves|ama]] [[eating|comer]]!",
       questions: [
         {
-          question: "Sarah likes washing the dishes.",
+          question: "[[Sarah|Sarah]] [[likes|le gusta]] [[washing|lavar]] [[the|los]] [[dishes|platos]].",
           answer: false
         }
       ]
