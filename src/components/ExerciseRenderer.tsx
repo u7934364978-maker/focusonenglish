@@ -125,15 +125,16 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     .replace(/\s+/g, ' ');
 
   const checkMultipleChoiceCorrect = (q: any, selectedIdx: number) => {
-    if (q.correctAnswer === undefined) return false;
+    const correctAnswer = q.correctAnswer ?? q.answer;
+    if (correctAnswer === undefined) return false;
 
-    if (typeof q.correctAnswer === 'number') {
-      return q.correctAnswer === selectedIdx;
+    if (typeof correctAnswer === 'number') {
+      return correctAnswer === selectedIdx;
     }
 
-    const answers = Array.isArray(q.correctAnswer)
-      ? q.correctAnswer.map((a: any) => String(a).trim())
-      : [String(q.correctAnswer).trim()];
+    const answers = Array.isArray(correctAnswer)
+      ? correctAnswer.map((a: any) => String(a).trim())
+      : [String(correctAnswer).trim()];
 
     for (const answer of answers) {
       if (/^[A-D]$/i.test(answer)) {
@@ -157,15 +158,16 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       const q = questions[currentQuestionIdx];
       let correct = false;
 
+      const qCorrectAnswer = q.correctAnswer ?? q.answer;
       if (q.type === 'true-false') {
-        correct = String(q.correctAnswer).toLowerCase() === String(userAnswer).toLowerCase();
+        correct = String(qCorrectAnswer).toLowerCase() === String(userAnswer).toLowerCase();
       } else if (q.options && Array.isArray(q.options)) {
         correct = checkMultipleChoiceCorrect(q, userAnswer);
       } else {
         const userAnswerText = typeof userAnswer === 'string' ? userAnswer : '';
         const userAnswerNormalized = normalize(userAnswerText);
         const correctAnswers = [
-          ...(Array.isArray(q.correctAnswer) ? q.correctAnswer : [q.correctAnswer]),
+          ...(Array.isArray(qCorrectAnswer) ? qCorrectAnswer : [qCorrectAnswer]),
           ...(Array.isArray(q.acceptableAnswers) ? q.acceptableAnswers : (q.acceptableAnswers ? [q.acceptableAnswers] : [])),
           ...(Array.isArray(q.acceptableAlternatives) ? q.acceptableAlternatives : (q.acceptableAlternatives ? [q.acceptableAlternatives] : []))
         ].filter(Boolean).map((a: any) => normalize(String(a)));
@@ -174,7 +176,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       }
 
       setIsCorrect(correct);
-      const displayCorrectAnswer = Array.isArray(q.correctAnswer) ? q.correctAnswer[0] : q.correctAnswer;
+      const displayCorrectAnswer = Array.isArray(qCorrectAnswer) ? qCorrectAnswer[0] : qCorrectAnswer;
       setEvaluation({
         isCorrect: correct,
         score: correct ? 100 : 0,
@@ -278,7 +280,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             <div className="grid grid-cols-2 gap-3">
               {['True', 'False'].map((option) => {
                 const isUserAnswer = userAnswer === option;
-                const isCorrectAnswer = String(q.correctAnswer).toLowerCase() === option.toLowerCase();
+                const isCorrectAnswer = String(q.correctAnswer ?? q.answer).toLowerCase() === option.toLowerCase();
                 const showAsCorrect = submitted && isCorrectAnswer;
                 const showAsIncorrect = submitted && isUserAnswer && !isCorrectAnswer;
 
