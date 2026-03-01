@@ -159,7 +159,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       let correct = false;
 
       const qCorrectAnswer = q.correctAnswer ?? q.answer;
-      if (q.type === 'true-false') {
+      if (q.type === 'true-false' || exercise.type === 'true-false') {
         correct = String(qCorrectAnswer).toLowerCase() === String(userAnswer).toLowerCase();
       } else if (q.options && Array.isArray(q.options)) {
         correct = checkMultipleChoiceCorrect(q, userAnswer);
@@ -276,7 +276,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         {/* Options */}
         <div className="space-y-3">
           {/* True/False */}
-          {q.type === 'true-false' && (
+          {(q.type === 'true-false' || exercise.type === 'true-false') && (
             <div className="grid grid-cols-2 gap-3">
               {['True', 'False'].map((option) => {
                 const isUserAnswer = userAnswer === option;
@@ -361,8 +361,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             </div>
           )}
 
-          {/* Fill Blank (only if no options) */}
-          {(q.type === 'fill-blank' || exercise.type === 'fill-blank') && (!q.options || !Array.isArray(q.options)) && (
+          {/* Fill Blank (only if no options and not true-false) */}
+          {(q.type === 'fill-blank' || exercise.type === 'fill-blank') && exercise.type !== 'true-false' && (!q.options || !Array.isArray(q.options)) && (
             <div className="space-y-1.5">
               <label className="text-xs font-black uppercase tracking-[0.12em] text-slate-400 pl-1">
                 ✏️ <TranslatedText text="[[Your answer|Tu respuesta]]" />
