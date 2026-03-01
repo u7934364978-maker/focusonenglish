@@ -87,20 +87,25 @@ export const UNIT_32_EXERCISES: Exercise[] = [
   },
   {
     id: createId(4),
-    type: "matching",
+    type: "fill-blank",
     level: "A1",
-    topic: "Verbs and Activities",
+    topic: "Grammar: Play vs Go",
     difficulty: "medium",
     content: {
       title: "[[Play|Jugar]] [[or|o]] [[Go|Ir]]?",
-      instructions: "[[Match|Une]] [[each|cada]] [[activity|actividad]] [[with|con]] [[the|el]] [[correct|correcto]] [[verb|verbo]]:",
-      pairs: [
-        { id: "p1", left: "[[Football|Fútbol]]", right: "[[Play|Jugar]]" },
-        { id: "p2", left: "[[Surfing|Surf]]", right: "[[Go|Ir]]" },
-        { id: "p3", left: "[[Volleyball|Voleibol]]", right: "[[Play|Jugar]]" },
-        { id: "p4", left: "[[Jogging|Footing / Trotar]]", right: "[[Go|Ir]]" }
-      ],
-      correctAnswer: { p1: "p1", p2: "p2", p3: "p3", p4: "p4" }
+      instructions: "[[Complete|Completa]] [[with|con]] '[[play|jugar]]' [[or|o]] '[[go|ir]]':",
+      questions: [
+        {
+          question: "We ________ football every weekend.",
+          answer: "play",
+          explanation: "[[Use|Usa]] '[[play|jugar]]' [[with|con]] [[team|equipo]] [[sports|deportes]] [[and|y]] [[games|juegos]] [[with|con]] [[a|una]] [[ball|pelota]]."
+        },
+        {
+          question: "She loves to ________ cycling in the park.",
+          answer: "go",
+          explanation: "[[Use|Usa]] '[[go|ir]]' [[with|con]] [[activities|actividades]] [[ending|que terminan]] [[in|en]] -[[ing|ing]] [[like|como]] [[cycling|ciclismo]], [[swimming|natación]], [[jogging|footing]]."
+        }
+      ]
     },
     topicName: "Grammar"
   },
