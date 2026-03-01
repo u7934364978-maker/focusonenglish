@@ -16,13 +16,13 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Sports Vocabulary",
     difficulty: "easy",
     content: {
-      title: "[[Sports Vocabulary|Vocabulario de Deportes]]",
-      instructions: "[[Match each sport with its translation:|Une cada deporte con su traducción:]]",
+      title: "[[Sports|Deportes]] [[Vocabulary|Vocabulario]]",
+      instructions: "[[Match|Une]] [[each|cada]] [[sport|deporte]] [[with|con]] [[its|su]] [[translation|traducción]]:",
       pairs: [
         { id: "p1", left: "Football", right: "Fútbol" },
         { id: "p2", left: "Swimming", right: "Natación" },
         { id: "p3", left: "Basketball", right: "Baloncesto" },
-        { id: "p4", left: "[[Cycling|Ciclismo]]", right: "Ciclismo" }
+        { id: "p4", left: "Cycling", right: "Ciclismo" }
       ],
       correctAnswer: { p1: "p1", p2: "p2", p3: "p3", p4: "p4" }
     },
@@ -35,13 +35,13 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Grammar: Play vs Go",
     difficulty: "medium",
     content: {
-      title: "[[Play vs Go|Jugar vs Ir]]",
-      instructions: "[[Complete with 'play' or 'go':|Completa con 'play' o 'go':]]",
+      title: "[[Play|Jugar]] [[vs|contra]] [[Go|Ir]]",
+      instructions: "[[Complete|Completa]] [[with|con]] '[[play|jugar]]' [[or|o]] '[[go|ir]]':",
       questions: [
         {
-          question: "[[Every morning I ________ swimming.|Cada mañana yo ________ natación.]]",
-          correctAnswer: "go",
-          explanation: "[[We use 'go' with activities ending in -ing.|Usamos 'go' con actividades que terminan en -ing.]]"
+          question: "Every morning I ________ swimming.",
+          answer: "go",
+          explanation: "[[We|Nosotros]] [[use|usamos]] '[[go|ir]]' [[with|con]] [[activities|actividades]] [[ending|que terminan]] [[in|en]] -[[ing|ing]]."
         }
       ]
     },
@@ -54,13 +54,13 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Grammar: Play vs Go",
     difficulty: "medium",
     content: {
-      title: "[[Play vs Go|Jugar vs Ir]]",
-      instructions: "[[Complete with 'play' or 'go':|Completa con 'play' o 'go':]]",
+      title: "[[Play|Jugar]] [[vs|contra]] [[Go|Ir]]",
+      instructions: "[[Complete|Completa]] [[with|con]] '[[play|jugar]]' [[or|o]] '[[go|ir]]':",
       questions: [
         {
-          question: "[[We often ________ basketball on Fridays.|A menudo nosotros ________ baloncesto los viernes.]]",
-          correctAnswer: "play",
-          explanation: "[[We use 'play' with ball sports.|Usamos 'play' con deportes de pelota.]]"
+          question: "We often ________ basketball on Fridays.",
+          answer: "play",
+          explanation: "[[We|Nosotros]] [[use|usamos]] '[[play|jugar]]' [[with|con]] [[ball|pelota]] [[sports|deportes]]."
         }
       ]
     },
@@ -74,11 +74,11 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       title: "[[Hiking|Senderismo]]",
-      instructions: "[[How do you say 'Hacer senderismo'?|¿Cómo se dice 'Hacer senderismo'?]]",
+      instructions: "[[How|Cómo]] [[do|se]] [[you|tú]] [[say|dices]] '[[Hacer senderismo|Hacer senderismo]]'?",
       questions: [
         {
           question: "[[Hacer senderismo|Hacer senderismo]]",
-          options: ["[[Go hiking|Ir de senderismo]]", "[[Play hiking|'Play' senderismo (incorrecto)]]", "[[Do hiking|'Do' senderismo (incorrecto)]]"],
+          options: ["Go hiking", "Play hiking", "Do hiking"],
           correctAnswer: 0
         }
       ]
@@ -87,20 +87,25 @@ export const UNIT_32_EXERCISES: Exercise[] = [
   },
   {
     id: createId(4),
-    type: "matching",
+    type: "fill-blank",
     level: "A1",
-    topic: "Verbs and Activities",
+    topic: "Grammar: Play vs Go",
     difficulty: "medium",
     content: {
-      title: "[[Verbs and Activities|Verbos y Actividades]]",
-      instructions: "[[Match the verb with the activity:|Une el verbo con la actividad:]]",
-      pairs: [
-        { id: "p1", left: "Play", right: "[[Tennis|Tenis]]" },
-        { id: "p2", left: "Go", right: "[[Surfing|Surf]]" },
-        { id: "p3", left: "Play", right: "[[Volleyball|Voleibol]]" },
-        { id: "p4", left: "Go", right: "[[Jogging|Footing / Trotar]]" }
-      ],
-      correctAnswer: { p1: "p1", p2: "p2", p3: "p3", p4: "p4" }
+      title: "[[Play|Jugar]] [[or|o]] [[Go|Ir]]?",
+      instructions: "[[Complete|Completa]] [[with|con]] '[[play|jugar]]' [[or|o]] '[[go|ir]]':",
+      questions: [
+        {
+          question: "We ________ football every weekend.",
+          answer: "play",
+          explanation: "[[Use|Usa]] '[[play|jugar]]' [[with|con]] [[team|equipo]] [[sports|deportes]] [[and|y]] [[games|juegos]] [[with|con]] [[a|una]] [[ball|pelota]]."
+        },
+        {
+          question: "She loves to ________ cycling in the park.",
+          answer: "go",
+          explanation: "[[Use|Usa]] '[[go|ir]]' [[with|con]] [[activities|actividades]] [[ending|que terminan]] [[in|en]] -[[ing|ing]] [[like|como]] [[cycling|ciclismo]], [[swimming|natación]], [[jogging|footing]]."
+        }
+      ]
     },
     topicName: "Grammar"
   },
@@ -111,13 +116,13 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Grammar: Play vs Go",
     difficulty: "medium",
     content: {
-      title: "[[Table Tennis|Tenis de Mesa]]",
-      instructions: "[[Complete:|Completa:]]",
+      title: "[[Table|Mesa]] [[Tennis|Tenis]]",
+      instructions: "[[Complete|Completa]]:",
       questions: [
         {
-          question: "[[They ________ table tennis every Tuesday.|Ellos ________ tenis de mesa cada martes.]]",
-          correctAnswer: "play",
-          explanation: "[[Games with a ball or competitive sports usually use 'play'.|Los juegos con pelota o competitivos normalmente usan 'play'.]]"
+          question: "They ________ table tennis every Tuesday.",
+          answer: "play",
+          explanation: "[[Games|Juegos]] [[with|con]] [[a|una]] [[ball|pelota]] [[or|o]] [[competitive|competitivos]] [[usually|normalmente]] [[use|usan]] '[[play|jugar]]'."
         }
       ]
     },
@@ -130,8 +135,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Grammar",
     difficulty: "medium",
     content: {
-      title: "[[Sentence Order|Orden de la Frase]]",
-      instructions: "[[Put the words in the correct order:|Pon las palabras en el orden correcto:]]",
+      title: "[[Sentence|Frase]] [[Order|Orden]]",
+      instructions: "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[the|el]] [[correct|correcto]] [[order|orden]]:",
       words: ["They", "go", "running", "in", "the", "park"],
       correctAnswer: "They go running in the park"
     },
@@ -145,10 +150,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       title: "[[Cycling|Ciclismo]]",
-      instructions: "[[Choose the correct option:|Elige la opción correcta:]]",
+      instructions: "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]]:",
       questions: [
         {
-          question: "[[I want to ________ cycling this weekend.|Quiero ________ en bicicleta este fin de semana.]]",
+          question: "I want to ________ cycling this weekend.",
           options: ["go", "play", "do"],
           correctAnswer: 0
         }
@@ -163,12 +168,13 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Sports",
     difficulty: "easy",
     content: {
-      title: "[[Sport Name|Nombre del Deporte]]",
-      instructions: "[[Complete the name of the sport:|Completa el nombre del deporte:]]",
+      title: "[[Basketball|Baloncesto]]",
+      instructions: "[[Complete|Completa]] [[the|la]] [[sentence|frase]]:",
       questions: [
         {
-          question: "[[B_sk_tb_ll|B_sk_tb_ll]]",
-          correctAnswer: "Basketball"
+          question: "My friends and I ________ basketball every Saturday.",
+          answer: "play",
+          explanation: "[[We|Nosotros]] [[use|usamos]] '[[play|jugar]]' [[with|con]] [[ball|pelota]] [[sports|deportes]] [[like|como]] [[basketball|baloncesto]]."
         }
       ]
     },
@@ -176,18 +182,18 @@ export const UNIT_32_EXERCISES: Exercise[] = [
   },
   {
     id: createId(9),
-    type: "true-false",
+    type: "fill-blank",
     level: "A1",
-    topic: "Grammar Check",
+    topic: "Grammar: Play vs Go",
     difficulty: "easy",
     content: {
-      title: "[[Correct or Incorrect?|¿Correcto o Incorrecto?]]",
-      instructions: "[[Is this phrase correct?|¿Es esta frase correcta?]]",
+      title: "[[Play|Jugar]] [[or|o]] [[Go|Ir]]?",
+      instructions: "[[Complete|Completa]] [[with|con]] '[[play|jugar]]' [[or|o]] '[[go|ir]]':",
       questions: [
         {
-          question: "[[I play swimming every day.|Yo 'play swimming' cada día.]]",
-          correctAnswer: false,
-          explanation: "[[We say 'I go swimming'.|Decimos 'I go swimming'.]]"
+          question: "I ________ swimming every day.",
+          answer: "go",
+          explanation: "[[We|Nosotros]] [[use|usamos]] '[[go|ir]]' [[with|con]] -[[ing|ing]] [[activities|actividades]] [[like|como]] [[swimming|natación]], [[cycling|ciclismo]], [[hiking|senderismo]]."
         }
       ]
     },
@@ -200,8 +206,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Outdoor Sports",
     difficulty: "easy",
     content: {
-      title: "[[Outdoor Sports|Deportes al Aire Libre]]",
-      instructions: "[[Match:|Relaciona:]]",
+      title: "[[Outdoor|Al aire libre]] [[Sports|Deportes]]",
+      instructions: "[[Match|Relaciona]]:",
       pairs: [
         { id: "p1", left: "Skiing", right: "Esquí" },
         { id: "p2", left: "Golf", right: "Golf" },
@@ -220,12 +226,12 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Yoga|Yoga]]",
-      instructions: "[[Complete (Hint: Yoga uses 'do'):|Completa (Pista: Yoga usa 'do'):]]",
+      instructions: "[[Complete|Completa]] (Hint: [[Yoga|Yoga]] [[uses|usa]] '[[do|hacer]]'):",
       questions: [
         {
-          question: "[[My mother ________ yoga on Sundays.|Mi madre ________ yoga los domingos.]]",
-          correctAnswer: "does",
-          explanation: "[[We use 'do' for individual activities without a ball.|Usamos 'do' para actividades individuales sin pelota.]]"
+          question: "My mother ________ yoga on Sundays.",
+          answer: "does",
+          explanation: "[[We|Nosotros]] [[use|usamos]] '[[do|hacer]]' [[for|para]] [[individual|individuales]] [[activities|actividades]] [[without|sin]] [[a|una]] [[ball|pelota]]."
         }
       ]
     },
@@ -239,11 +245,11 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Equipment|Equipo]]",
-      instructions: "[[What do you need for football?|¿Qué necesitas para el fútbol?]]",
+      instructions: "[[What|Qué]] [[do|se]] [[you|tú]] [[need|necesitas]] [[for|para]] [[football|fútbol]]?",
       questions: [
         {
-          question: "[[What do you need for football?|¿Qué necesitas para el fútbol?]]",
-          options: ["[[A ball|Una pelota]]", "[[A racket|Una raqueta]]", "[[Skis|Esquís]]"],
+          question: "Football equipment",
+          options: ["A ball", "A racket", "Skis"],
           correctAnswer: 0
         }
       ]
@@ -258,7 +264,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Questions|Preguntas]]",
-      instructions: "[[Order the question:|Ordena la pregunta:]]",
+      instructions: "[[Order|Ordena]] [[the|la]] [[question|pregunta]]:",
       words: ["Do", "you", "play", "tennis", "?"],
       correctAnswer: "Do you play tennis?"
     },
@@ -271,12 +277,13 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Sports",
     difficulty: "easy",
     content: {
-      title: "[[Vowels|Vocales]]",
-      instructions: "[[Complete the sport name:|Completa el nombre del deporte:]]",
+      title: "[[Tennis|Tenis]]",
+      instructions: "[[Complete|Completa]] [[the|la]] [[sentence|frase]]:",
       questions: [
         {
-          question: "[[T_nn_s|T_nn_s]]",
-          correctAnswer: "Tennis"
+          question: "My sister loves playing ________ with her friends.",
+          answer: "tennis",
+          explanation: "[[Tennis|Tenis]] [[is|es]] [[a|un]] [[sport|deporte]] [[where|donde]] [[you|tú]] [[use|usas]] [[a|una]] [[racket|raqueta]] [[and|y]] [[a|una]] [[ball|pelota]]."
         }
       ]
     },
@@ -294,7 +301,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       title: "[[Hobbies|Pasatiempos]]",
-      instructions: "[[Match the hobbies:|Relaciona los hobbies:]]",
+      instructions: "[[Match|Relaciona]] [[the|los]] [[hobbies|hobbies]]:",
       pairs: [
         { id: "p1", left: "Reading", right: "Lectura" },
         { id: "p2", left: "Painting", right: "Pintura" },
@@ -312,13 +319,13 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Interests",
     difficulty: "medium",
     content: {
-      title: "[[Expressing Interests|Expresar Intereses]]",
-      instructions: "[[Complete the sentence:|Completa la frase:]]",
+      title: "[[Expressing|Expresando]] [[Interests|Intereses]]",
+      instructions: "[[Complete|Completa]] [[the|la]] [[sentence|frase]]:",
       questions: [
         {
-          question: "[[I ________ listening to music. (I love it)|Yo ________ escuchar música. (me encanta)]]",
-          correctAnswer: "love",
-          explanation: "[['Love' is stronger than 'like'.|'Love' es más fuerte que 'like'.]]"
+          question: "I ________ listening to music. (me encanta)",
+          answer: "love",
+          explanation: "'[[Love|Encantar]]' [[is|es]] [[stronger|más fuerte]] [[than|que]] '[[like|gustar]]'."
         }
       ]
     },
@@ -331,12 +338,12 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Hobbies",
     difficulty: "easy",
     content: {
-      title: "[[Indoor Hobbies|Pasatiempos de Interior]]",
-      instructions: "[[Which is an indoor hobby?|¿Cuál es un pasatiempo de interior?]]",
+      title: "[[Indoor|Interior]] [[Hobbies|Pasatiempos]]",
+      instructions: "[[Which|Cuál]] [[is|es]] [[an|un]] [[indoor|de interior]] [[hobby|pasatiempo]]?",
       questions: [
         {
-          question: "[[Which is an indoor hobby?|¿Cuál es un pasatiempo de interior?]]",
-          options: ["[[Watching TV|Ver la televisión]]", "[[Hiking|Senderismo]]", "[[Cycling|Ciclismo]]"],
+          question: "Indoor hobby",
+          options: ["Watching TV", "Hiking", "Cycling"],
           correctAnswer: 0
         }
       ]
@@ -351,7 +358,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       title: "[[Translation|Traducción]]",
-      instructions: "[[Translate the sentence:|Traduce la frase:]]",
+      instructions: "[[Translate|Traduce]] [[the|la]] [[sentence|frase]]:",
       sentence: "Mi hobby es viajar.",
       correctAnswer: "My hobby is traveling"
     },
@@ -364,12 +371,12 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Hobbies",
     difficulty: "medium",
     content: {
-      title: "[[Playing the Guitar|Tocar la Guitarra]]",
-      instructions: "[[How do you say 'tocar la guitarra'?|¿Cómo se dice 'tocar la guitarra'?]]",
+      title: "[[Playing|Tocando]] [[the|la]] [[Guitar|Guitarra]]",
+      instructions: "[[How|Cómo]] [[do|se]] [[you|tú]] [[say|dices]] '[[tocar la guitarra|tocar la guitarra]]'?",
       questions: [
         {
-          question: "[[How do you say 'tocar la guitarra'?|¿Cómo se dice 'tocar la guitarra'?]]",
-          options: ["[[Playing the guitar|Tocar la guitarra]]", "[[Going guitar|'Going' guitarra (incorrecto)]]", "[[Doing guitar|'Doing' guitarra (incorrecto)]]"],
+          question: "Tocar la guitarra",
+          options: ["Playing the guitar", "Going guitar", "Doing guitar"],
           correctAnswer: 0
         }
       ]
@@ -384,12 +391,12 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Negatives|Negativos]]",
-      instructions: "[[Complete the sentence:|Completa la frase:]]",
+      instructions: "[[Complete|Completa]] [[the|la]] [[sentence|frase]]:",
       questions: [
         {
-          question: "[[She doesn't like ________ (cooking).|A ella no le gusta ________ (cocinar).]]",
-          correctAnswer: "cooking",
-          explanation: "[[After 'like', we use -ing.|Después de 'like', usamos -ing.]]"
+          question: "She doesn't like ________ (cocinar).",
+          answer: "cooking",
+          explanation: "[[After|Después de]] '[[like|gustar]]', [[we|nosotros]] [[use|usamos]] -[[ing|ing]]."
         }
       ]
     },
@@ -402,8 +409,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Questions",
     difficulty: "medium",
     content: {
-      title: "[[Question Order|Orden de Preguntas]]",
-      instructions: "[[Order the question:|Ordena la pregunta:]]",
+      title: "[[Question|Pregunta]] [[Order|Orden]]",
+      instructions: "[[Order|Ordena]] [[the|la]] [[question|pregunta]]:",
       words: ["What", "is", "your", "favorite", "hobby", "?"],
       correctAnswer: "What is your favorite hobby?"
     },
@@ -417,7 +424,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Actions|Acciones]]",
-      instructions: "[[Match the action with the translation:|Une la acción con la traducción:]]",
+      instructions: "[[Match|Une]] [[the|la]] [[action|acción]] [[with|con]] [[the|la]] [[translation|traducción]]:",
       pairs: [
         { id: "p1", left: "Drawing", right: "Dibujar" },
         { id: "p2", left: "Singing", right: "Cantar" },
@@ -436,12 +443,12 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Photography|Fotografía]]",
-      instructions: "[[Complete:|Completa:]]",
+      instructions: "[[Complete|Completa]]:",
       questions: [
         {
-          question: "[[My hobby is taking ________.|Mi pasatiempo es hacer ________.]]",
-          correctAnswer: "photos",
-          explanation: "[[Taking photos is a common hobby.|Sacar fotos es un pasatiempo común.]]"
+          question: "My hobby is taking ________.",
+          answer: "photos",
+          explanation: "[[Taking photos|Sacar fotos]] [[is|es]] [[a|un]] [[common|común]] [[hobby|pasatiempo]]."
         }
       ]
     },
@@ -455,10 +462,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       title: "[[Movies|Películas]]",
-      instructions: "[[Choose the correct option:|Elige la opción correcta:]]",
+      instructions: "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]]:",
       questions: [
         {
-          question: "[[I love ________ movies.|Me encantan las películas de ________.]]",
+          question: "I love ________ movies.",
           options: ["watching", "looking", "seeing"],
           correctAnswer: 0
         }
@@ -468,17 +475,18 @@ export const UNIT_32_EXERCISES: Exercise[] = [
   },
   {
     id: createId(25),
-    type: "true-false",
+    type: "multiple-choice",
     level: "A1",
-    topic: "Spelling",
+    topic: "Hobbies",
     difficulty: "easy",
     content: {
-      title: "[[Spelling Check|Revisión de Ortografía]]",
-      instructions: "[[Is this word correct? 'Gardening'|¿Es correcta esta palabra? 'Gardening']]",
+      title: "[[Gardening|Jardinería]]",
+      instructions: "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]]:",
       questions: [
         {
-          question: "[[Gardening|Jardinería]]",
-          correctAnswer: true
+          question: "What do you call the hobby of growing plants and flowers at home?",
+          options: ["[[Gardening|Jardinería]]", "[[Cooking|Cocinar]]", "[[Painting|Pintura]]"],
+          correctAnswer: 0
         }
       ]
     },
@@ -492,11 +500,11 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Chess|Ajedrez]]",
-      instructions: "[[Complete:|Completa:]]",
+      instructions: "[[Complete|Completa]]:",
       questions: [
         {
-          question: "[[We ________ chess every Saturday.|Nosotros ________ ajedrez cada sábado.]]",
-          correctAnswer: "play"
+          question: "We ________ chess every Saturday.",
+          answer: "play"
         }
       ]
     },
@@ -510,10 +518,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Music|Música]]",
-      instructions: "[[Which is correct?|¿Cuál es correcta?]]",
+      instructions: "[[Which|Cuál]] [[is|es]] [[correct|correcta]]?",
       questions: [
         {
-          question: "[[He likes ________ to music.|A él le gusta ________ música.]]",
+          question: "He likes ________ to music.",
           options: ["listening", "hearing", "sounding"],
           correctAnswer: 0
         }
@@ -547,7 +555,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Favorite|Favorito]]",
-      instructions: "[[Order the words:|Ordena las palabras:]]",
+      instructions: "[[Order|Ordena]]:",
       words: ["Painting", "is", "my", "favorite", "hobby"],
       correctAnswer: "Painting is my favorite hobby"
     },
@@ -565,11 +573,11 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Gerunds|Gerundios]]",
-      instructions: "[[Complete with the -ing form:|Completa con la forma -ing:]]",
+      instructions: "[[Complete|Completa]] [[with|con]] [[the|la]] -[[ing|ing]] [[form|forma]]:",
       questions: [
         {
-          question: "[[I enjoy ________ (read) in the morning.|Yo disfruto ________ (leer) por la mañana.]]",
-          correctAnswer: "reading"
+          question: "I enjoy ________ (read) in the morning.",
+          answer: "reading"
         }
       ]
     },
@@ -583,11 +591,11 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Gerunds|Gerundios]]",
-      instructions: "[[Complete with the -ing form:|Completa con la forma -ing:]]",
+      instructions: "[[Complete|Completa]] [[with|con]] [[the|la]] -[[ing|ing]] [[form|forma]]:",
       questions: [
         {
-          question: "[[He likes ________ (paint) pictures.|A él le gusta ________ (pintar) cuadros.]]",
-          correctAnswer: "painting"
+          question: "He likes ________ (paint) pictures.",
+          answer: "painting"
         }
       ]
     },
@@ -595,17 +603,18 @@ export const UNIT_32_EXERCISES: Exercise[] = [
   },
   {
     id: createId(32),
-    type: "true-false",
+    type: "fill-blank",
     level: "A1",
-    topic: "Grammar Check",
+    topic: "Gerunds",
     difficulty: "easy",
     content: {
-      title: "[[Grammar Check|Revisión Gramatical]]",
-      instructions: "[[Is this sentence correct?|¿Es esta frase correcta?]]",
+      title: "[[Gerunds|Gerundios]]",
+      instructions: "[[Complete|Completa]] [[with|con]] [[the|la]] -[[ing|ing]] [[form|forma]]:",
       questions: [
         {
-          question: "[[They don't like playing tennis.|A ellos no les gusta jugar al tenis.]]",
-          correctAnswer: true
+          question: "They don't like ________ (play) tennis.",
+          answer: "playing",
+          explanation: "[[After|Después de]] '[[like|gustar]]', [[we|nosotros]] [[use|usamos]] [[the|la]] -[[ing|ing]] [[form|forma]]: [[like|gustar]] + [[playing|jugando]]."
         }
       ]
     },
@@ -619,10 +628,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Spelling|Ortografía]]",
-      instructions: "[[Which is correct?|¿Cuál es correcta?]]",
+      instructions: "[[Which|Cuál]] [[is|es]] [[correct|correcta]]?",
       questions: [
         {
-          question: "[[He likes... (which is correct?)|Él le gusta... (¿cuál es correcto?)]]",
+          question: "[[He|Él]] [[likes|le gusta]]...",
           options: ["[[swiming|swiming]]", "[[swimming|nadar]]", "[[swim|nadar]]"],
           correctAnswer: 1
         }
@@ -652,11 +661,11 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Gerunds|Gerundios]]",
-      instructions: "[[Complete:|Completa:]]",
+      instructions: "[[Complete|Completa]]:",
       questions: [
         {
-          question: "[[She loves ________ (dance).|A ella le encanta ________ (bailar).]]",
-          correctAnswer: "dancing"
+          question: "She loves ________ (dance).",
+          answer: "dancing"
         }
       ]
     },
@@ -670,10 +679,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       title: "[[Running|Correr]]",
-      instructions: "[[Choose:|Elige:]]",
+      instructions: "[[Choose|Elige]]:",
       questions: [
         {
-          question: "[[We enjoy ________ in the park.|Nosotros disfrutamos ________ en el parque.]]",
+          question: "We enjoy ________ in the park.",
           options: ["running", "runing", "run"],
           correctAnswer: 0
         }
@@ -689,7 +698,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Likes|Gustos]]",
-      instructions: "[[Order the words:|Ordena las palabras:]]",
+      instructions: "[[Order|Ordena]]:",
       words: ["I", "like", "playing", "video", "games"],
       correctAnswer: "I like playing video games"
     },
@@ -703,11 +712,11 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Gerunds|Gerundios]]",
-      instructions: "[[Complete:|Completa:]]",
+      instructions: "[[Complete|Completa]]:",
       questions: [
         {
-          question: "[[Do you like ________ (cook)?|¿Te gusta ________ (cocinar)?]]",
-          correctAnswer: "cooking"
+          question: "Do you like ________ (cook)?",
+          answer: "cooking"
         }
       ]
     },
@@ -715,18 +724,18 @@ export const UNIT_32_EXERCISES: Exercise[] = [
   },
   {
     id: createId(39),
-    type: "true-false",
+    type: "fill-blank",
     level: "A1",
-    topic: "Grammar",
+    topic: "Gerunds",
     difficulty: "easy",
     content: {
-      title: "[[Grammar|Gramática]]",
-      instructions: "[[Is 'I love sail' correct?|¿Es 'I love sail' correcto?]]",
+      title: "[[Love|Encantar]] + -[[ing|ing]]",
+      instructions: "[[Complete|Completa]] [[with|con]] [[the|la]] -[[ing|ing]] [[form|forma]]:",
       questions: [
         {
-          question: "[[I love sail. (Is this correct?)|¿Es correcta esta frase? 'I love sail']]",
-          correctAnswer: false,
-          explanation: "[[The correct form is 'I love sailing'.|La forma correcta es 'I love sailing'.]]"
+          question: "I love ________ (sail) on the lake.",
+          answer: "sailing",
+          explanation: "[[After|Después de]] '[[love|encantar]]', [[we|nosotros]] [[use|usamos]] [[the|la]] -[[ing|ing]] [[form|forma]]: [[love|encantar]] + [[sailing|navegar]]."
         }
       ]
     },
@@ -739,7 +748,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Gerunds",
     difficulty: "medium",
     content: {
-      title: "[[Verb + -ing|Verbo + -ing]]",
+      title: "[[Verb|Verbo]] + -[[ing|ing]]",
       instructions: "[[Match|Une]]:",
       pairs: [
         { id: "p1", left: "Sing", right: "Singing" },
@@ -759,11 +768,11 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Gerunds|Gerundios]]",
-      instructions: "[[Complete:|Completa:]]",
+      instructions: "[[Complete|Completa]]:",
       questions: [
         {
-          question: "[[He hates ________ (get) up early.|A él le horroriza levantarse temprano.]]",
-          correctAnswer: "getting"
+          question: "He hates ________ (get) up early.",
+          answer: "getting"
         }
       ]
     },
@@ -777,10 +786,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       title: "[[Travelling|Viajar]]",
-      instructions: "[[Choose:|Elige:]]",
+      instructions: "[[Choose|Elige]]:",
       questions: [
         {
-          question: "[[My hobby is ________.|Mi pasatiempo es ________.]]",
+          question: "My hobby is ________.",
           options: ["travelling", "travel", "travels"],
           correctAnswer: 0
         }
@@ -796,7 +805,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Cooking|Cocinar]]",
-      instructions: "[[Order the words:|Ordena las palabras:]]",
+      instructions: "[[Order|Ordena]]:",
       words: ["She", "doesn't", "like", "cooking", "dinner"],
       correctAnswer: "She doesn't like cooking dinner"
     },
@@ -810,11 +819,11 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Fishing|Pesca]]",
-      instructions: "[[Complete:|Completa:]]",
+      instructions: "[[Complete|Completa]]:",
       questions: [
         {
-          question: "[[I enjoy ________ (fish) with my dad.|Yo disfruto ________ (pescar) con mi padre.]]",
-          correctAnswer: "fishing"
+          question: "I enjoy ________ (fish) with my dad.",
+          answer: "fishing"
         }
       ]
     },
@@ -831,12 +840,12 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Negatives",
     difficulty: "medium",
     content: {
-      title: "[[Negative Sentence|Frase Negativa]]",
-      instructions: "[[Complete:|Completa:]]",
+      title: "[[Negative|Negativa]] [[Sentence|Frase]]",
+      instructions: "[[Complete|Completa]]:",
       questions: [
         {
-          question: "[[We don't like ________ (watch) horror movies.|No nos gusta ________ (ver) películas de terror.]]",
-          correctAnswer: "watching"
+          question: "We don't like ________ (watch) horror movies.",
+          answer: "watching"
         }
       ]
     },
@@ -850,10 +859,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       title: "[[Love|Encantar]]",
-      instructions: "[[Choose:|Elige:]]",
+      instructions: "[[Choose|Elige]]:",
       questions: [
         {
-          question: "[[I love ________ to the beach.|Me encanta ________ a la playa.]]",
+          question: "I love ________ to the beach.",
           options: ["going", "go", "goes"],
           correctAnswer: 0
         }
@@ -869,7 +878,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Hate|Odiar]]",
-      instructions: "[[Order the words:|Ordena las palabras:]]",
+      instructions: "[[Order|Ordena]]:",
       words: ["I", "hate", "doing", "homework"],
       correctAnswer: "I hate doing homework"
     },
@@ -882,7 +891,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Preferences",
     difficulty: "easy",
     content: {
-      title: "[[Preference Levels|Niveles de Preferencia]]",
+      title: "[[Preference|Preferencia]] [[Levels|Niveles]]",
       instructions: "[[Match|Une]]:",
       pairs: [
         { id: "p1", left: "Love", right: "Encantar" },
@@ -902,11 +911,11 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Enjoy|Disfrutar]]",
-      instructions: "[[Complete:|Completa:]]",
+      instructions: "[[Complete|Completa]]:",
       questions: [
         {
-          question: "[[They enjoy ________ (listen) to podcasts.|Ellos disfrutan ________ (escuchar) podcasts.]]",
-          correctAnswer: "listening"
+          question: "They enjoy ________ (listen) to podcasts.",
+          answer: "listening"
         }
       ]
     },
@@ -914,19 +923,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
   },
   {
     id: createId(50),
-    type: "true-false",
+    type: "sentence-building",
     level: "A1",
     topic: "Preferences",
     difficulty: "easy",
     content: {
-      title: "[[Question Form|Forma de Pregunta]]",
-      instructions: "[[Is '[[Do you like reading?|¿Te gusta leer?]]' correct?|¿Es '[[Do you like reading?|¿Te gusta leer?]]' correcto?]]",
-      questions: [
-        {
-          question: "[[Do you like reading?|¿Te gusta leer?]]",
-          correctAnswer: true
-        }
-      ]
+      title: "[[Question|Pregunta]] [[Form|Forma]]",
+      instructions: "[[Put|Pon]] [[the|las]] [[words|palabras]] [[in|en]] [[the|el]] [[correct|correcto]] [[order|orden]] [[to|para]] [[make|formar]] [[a|una]] [[question|pregunta]]:",
+      words: ["Do", "you", "like", "reading", "?"],
+      correctAnswer: "Do you like reading?"
     },
     topicName: "Grammar"
   },
@@ -938,10 +943,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       title: "[[Painting|Pintura]]",
-      instructions: "[[Choose:|Elige:]]",
+      instructions: "[[Choose|Elige]]:",
       questions: [
         {
-          question: "[[Does she like ________?|¿A ella le gusta ________?]]",
+          question: "Does she like ________?",
           options: ["painting", "paint", "paints"],
           correctAnswer: 0
         }
@@ -957,11 +962,11 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Hiking|Senderismo]]",
-      instructions: "[[Complete:|Completa:]]",
+      instructions: "[[Complete|Completa]]:",
       questions: [
         {
-          question: "[[We love ________ (hike) in summer.|Nos encanta ________ (hacer senderismo) en verano.]]",
-          correctAnswer: "hiking"
+          question: "We love ________ (hike) in summer.",
+          answer: "hiking"
         }
       ]
     },
@@ -975,7 +980,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Photography|Fotografía]]",
-      instructions: "[[Order the words:|Ordena las palabras:]]",
+      instructions: "[[Order|Ordena]]:",
       words: ["He", "likes", "taking", "photos"],
       correctAnswer: "He likes taking photos"
     },
@@ -989,10 +994,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Negative|Negativo]]",
-      instructions: "[[Choose:|Elige:]]",
+      instructions: "[[Choose|Elige]]:",
       questions: [
         {
-          question: "[[I ________ like running.|Yo ________ gustar correr.]]",
+          question: "I ________ like running.",
           options: ["don't", "doesn't", "not"],
           correctAnswer: 0
         }
@@ -1008,11 +1013,11 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Gardening|Jardinería]]",
-      instructions: "[[Complete:|Completa:]]",
+      instructions: "[[Complete|Completa]]:",
       questions: [
         {
-          question: "[[My father enjoys ________ (garden).|Mi padre disfruta ________ (hacer jardinería).]]",
-          correctAnswer: "gardening"
+          question: "My father enjoys ________ (garden).",
+          answer: "gardening"
         }
       ]
     },
@@ -1020,17 +1025,18 @@ export const UNIT_32_EXERCISES: Exercise[] = [
   },
   {
     id: createId(56),
-    type: "true-false",
+    type: "multiple-choice",
     level: "A1",
     topic: "Preferences",
     difficulty: "easy",
     content: {
-      title: "[[Like + -ing|Like + -ing]]",
-      instructions: "[[Is 'She likes sing' correct?|¿Es 'She likes sing' correcto?]]",
+      title: "[[Like|Gustar]] + -[[ing|ing]]",
+      instructions: "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]]:",
       questions: [
         {
-          question: "[[She likes sing. (Is this correct?)|¿Es correcta esta frase? 'She likes sing']]",
-          correctAnswer: false
+          question: "She likes ________ every morning.",
+          options: ["[[singing|cantando]]", "[[sing|cantar]]", "[[sings|canta]]"],
+          correctAnswer: 0
         }
       ]
     },
@@ -1044,7 +1050,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Travelling|Viajar]]",
-      instructions: "[[Order the words:|Ordena las palabras:]]",
+      instructions: "[[Order|Ordena]]:",
       words: ["Do", "you", "enjoy", "travelling", "?"],
       correctAnswer: "Do you enjoy travelling?"
     },
@@ -1058,11 +1064,11 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Chess|Ajedrez]]",
-      instructions: "[[Complete:|Completa:]]",
+      instructions: "[[Complete|Completa]]:",
       questions: [
         {
-          question: "[[I hate ________ (play) chess.|Me horroriza ________ (jugar) al ajedrez.]]",
-          correctAnswer: "playing"
+          question: "I hate ________ (play) chess.",
+          answer: "playing"
         }
       ]
     },
@@ -1076,10 +1082,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "easy",
     content: {
       title: "[[Cycling|Ciclismo]]",
-      instructions: "[[Choose:|Elige:]]",
+      instructions: "[[Choose|Elige]]:",
       questions: [
         {
-          question: "[[They like ________ cycling.|A ellos les gusta ________ en bicicleta.]]",
+          question: "They like ________ cycling.",
           options: ["going", "playing", "doing"],
           correctAnswer: 0
         }
@@ -1098,8 +1104,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Sports",
     difficulty: "medium",
     content: {
-      title: "[[Listen and Complete|Escucha y Completa]]",
-      instructions: "[[Listen and write the missing word:|Escucha y escribe la palabra que falta:]]",
+      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] [[and|y]] [[type|escribe]] [[the|el]] [[missing|faltante]] [[word|palabra]]:",
       transcript: "I love football.",
       questions: [
         {
@@ -1119,8 +1125,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Grammar",
     difficulty: "medium",
     content: {
-      title: "[[Listen and Complete|Escucha y Completa]]",
-      instructions: "[[Listen and complete the sentence:|Escucha y completa la frase:]]",
+      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]] [[the|la]] [[sentence|frase]]:",
       transcript: "Let's go cycling.",
       questions: [
         {
@@ -1140,8 +1146,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Hobbies",
     difficulty: "medium",
     content: {
-      title: "[[Listen and Write|Escucha y Escribe]]",
-      instructions: "[[Listen and write the hobby:|Escucha y escribe el pasatiempo:]]",
+      title: "[[Listen|Escucha]] [[and|y]] [[Write|Escribe]]",
+      instructions: "[[Listen|Escucha]] [[and|y]] [[write|escribe]] [[the|el]] [[hobby|pasatiempo]]:",
       transcript: "I like gardening.",
       questions: [
         {
@@ -1161,8 +1167,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Gerunds",
     difficulty: "medium",
     content: {
-      title: "[[Listen and Complete|Escucha y Completa]]",
-      instructions: "[[Listen and complete:|Escucha y completa:]]",
+      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]]:",
       transcript: "She loves dancing.",
       questions: [
         {
@@ -1182,8 +1188,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Reading & Listening",
     difficulty: "hard",
     content: {
-      title: "[[Long Sentence|Frase Larga]]",
-      instructions: "[[Listen and complete:|Escucha y completa:]]",
+      title: "[[Long|Larga]] [[Sentence|Frase]]",
+      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]]:",
       transcript: "My favorite sport is basketball.",
       questions: [
         {
@@ -1203,8 +1209,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Photography",
     difficulty: "medium",
     content: {
-      title: "[[Listen and Complete|Escucha y Completa]]",
-      instructions: "[[Listen and complete:|Escucha y completa:]]",
+      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]]:",
       transcript: "Do you like photography?",
       questions: [
         {
@@ -1224,13 +1230,13 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Reading",
     difficulty: "medium",
     content: {
-      title: "[[Reading Comprehension|Comprensión Lectora]]",
-      instructions: "[[Read and answer True or False:|Lee y responde Verdadero o Falso:]]",
+      title: "[[Reading|Lectura]] [[Comprehension|Comprensión]]",
+      instructions: "[[Read|Lee]] [[and|y]] [[answer|responde]] [[True|Verdadero]] [[or|o]] [[False|Falso]]:",
       text: "I love sports. Every Saturday, I go to the park with my friends. We play football for two hours. It's very fun!",
       questions: [
         {
-          question: "[[The person plays football on Saturdays.|La persona juega al fútbol los sábados.]]",
-          correctAnswer: true
+          question: "The person plays football on Saturdays.",
+          answer: true
         }
       ]
     },
@@ -1243,8 +1249,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Reading",
     difficulty: "medium",
     content: {
-      title: "[[Reading Comprehension|Comprensión Lectora]]",
-      instructions: "[[Read and choose the correct option:|Lee y elige la opción correcta:]]",
+      title: "[[Reading|Lectura]] [[Comprehension|Comprensión]]",
+      instructions: "[[Read|Lee]] [[and|y]] [[choose|elige]] [[the|la]] [[correct|correcta]] [[option|opción]]:",
       text: "Mark is a chef, but his hobby is not cooking. In his free time, he loves going to the beach and surfing. He thinks surfing is more exciting than cooking.",
       questions: [
         {
@@ -1263,8 +1269,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Reading",
     difficulty: "medium",
     content: {
-      title: "[[Reading Comprehension|Comprensión Lectora]]",
-      instructions: "[[Read and choose:|Lee y elige:]]",
+      title: "[[Reading|Lectura]] [[Comprehension|Comprensión]]",
+      instructions: "[[Read|Lee]] [[and|y]] [[choose|elige]]:",
       text: "Anna loves reading. She sits in her garden with a good book. Reading is her favorite hobby because it is quiet and relaxing. Sometimes, she swims in the pool or plays tennis with her friends. But reading is the most peaceful activity for her. She feels happy when she reads her favorite stories.",
       questions: [
         {
@@ -1283,8 +1289,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Hobbies",
     difficulty: "medium",
     content: {
-      title: "[[Listen and Complete|Escucha y Completa]]",
-      instructions: "[[Listen and complete:|Escucha y completa:]]",
+      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]]:",
       transcript: "I enjoy painting.",
       questions: [
         {
@@ -1304,8 +1310,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Sports",
     difficulty: "medium",
     content: {
-      title: "[[Listen and Complete|Escucha y Completa]]",
-      instructions: "[[Listen and complete:|Escucha y completa:]]",
+      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]]:",
       transcript: "They play volleyball.",
       questions: [
         {
@@ -1325,8 +1331,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Reading",
     difficulty: "hard",
     content: {
-      title: "[[Reading Comprehension|Comprensión Lectora]]",
-      instructions: "[[Read and choose:|Lee y elige:]]",
+      title: "[[Reading|Lectura]] [[Comprehension|Comprensión]]",
+      instructions: "[[Read|Lee]] [[and|y]] [[choose|elige]]:",
       text: "Tom is very active. On Mondays, he goes swimming. On Wednesdays, he plays tennis. On weekends, he goes hiking with his dog. He doesn't like staying at home.",
       questions: [
         {
@@ -1345,13 +1351,13 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Reading",
     difficulty: "medium",
     content: {
-      title: "[[Reading Comprehension|Comprensión Lectora]]",
-      instructions: "[[Read and answer:|Lee y responde:]]",
-      text: "Sarah loves cooking for her family. Every Sunday, she makes a big dinner. Her favorite thing to cook is pasta. She doesn't like washing the dishes, but she loves eating!",
+      title: "[[Reading|Lectura]] [[Comprehension|Comprensión]]",
+      instructions: "[[Read|Lee]] [[and|y]] [[answer|responde]]:",
+      text: "[[Sarah|Sarah]] [[loves|ama]] [[cooking|cocinar]] [[for|para]] [[her|su]] [[family|familia]]. [[Every|Cada]] [[Sunday|domingo]], [[she|ella]] [[makes|hace]] [[a|una]] [[big|grande]] [[dinner|cena]]. [[Her|Su]] [[favorite|favorita]] [[thing|cosa]] [[to|para]] [[cook|cocinar]] [[is|es]] [[pasta|pasta]]. [[She|Ella]] [[doesn't|no]] [[like|le gusta]] [[washing|lavar]] [[the|los]] [[dishes|platos]], [[but|pero]] [[she|ella]] [[loves|ama]] [[eating|comer]]!",
       questions: [
         {
-          question: "[[Sarah likes washing the dishes.|A Sarah le gusta lavar los platos.]]",
-          correctAnswer: false
+          question: "[[Sarah|Sarah]] [[likes|le gusta]] [[washing|lavar]] [[the|los]] [[dishes|platos]].",
+          answer: false
         }
       ]
     },
@@ -1364,8 +1370,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Preferences",
     difficulty: "medium",
     content: {
-      title: "[[Listen and Complete|Escucha y Completa]]",
-      instructions: "[[Listen and complete:|Escucha y completa:]]",
+      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]]:",
       transcript: "We hate running.",
       questions: [
         {
@@ -1385,8 +1391,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Reading",
     difficulty: "hard",
     content: {
-      title: "[[Reading Comprehension|Comprensión Lectora]]",
-      instructions: "[[Read and choose:|Lee y elige:]]",
+      title: "[[Reading|Lectura]] [[Comprehension|Comprensión]]",
+      instructions: "[[Read|Lee]] [[and|y]] [[choose|elige]]:",
       text: "David lives in London. He likes the city, but he loves the mountains. Every year, he goes to Switzerland for his holiday. He goes skiing in the morning and drinks hot chocolate in the afternoon. It is his favorite time of the year.",
       questions: [
         {

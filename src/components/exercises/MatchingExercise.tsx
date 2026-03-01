@@ -165,7 +165,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
                 } ${isCorrectMatch ? '!border-green-400 !bg-green-50 !text-green-700' : ''} ${isIncorrectMatch ? '!border-red-300 !bg-red-50 !text-red-700' : ''} ${submitted ? 'cursor-default' : ''}`}
               >
                 <span className="absolute top-2 left-2.5 text-[10px] font-extrabold text-slate-300">{idx + 1}</span>
-                <span className="leading-snug"><Markdown content={item} vocabulary={vocabulary} /></span>
+                <span className="leading-snug"><TranslatedText text={item} /></span>
               </div>
             );
           })}
