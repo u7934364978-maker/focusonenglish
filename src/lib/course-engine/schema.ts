@@ -111,6 +111,13 @@ const FlashcardSchema = BaseInteractionSchema.extend({
   })).optional(),
 });
 
+const ListeningDictationSchema = BaseInteractionSchema.extend({
+  type: z.literal('listening_dictation'),
+  audio_url: z.string().optional(),
+  transcript_template: z.string().optional(),
+  correct_answer: z.union([z.string(), z.array(z.string())]),
+});
+
 const MultipleChoiceClozeSchema = BaseInteractionSchema.extend({
   type: z.literal('multiple_choice_cloze'),
   main_text: z.string().optional(),
@@ -178,6 +185,7 @@ export const InteractionSchema = z.union([
   ReadingComprehensionSchema,
   ShortWritingSchema,
   FlashcardSchema,
+  ListeningDictationSchema,
   TransformationSchema,
   AudioPlayerSchema,
   MultipleChoiceClozeSchema,

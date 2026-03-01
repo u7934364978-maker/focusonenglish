@@ -1,40 +1,43 @@
-# Technical Specification - Font and Typography Improvements
+# Technical Specification - Fix Missing Translations in Units 30-60
 
 ## Context
-The project uses `Next.js 15` with `Tailwind CSS`. The main font is `Nunito`, loaded via `next/font/google` in `RootLayout`.
+The application uses a `TranslatedText` component that relies on the `[[English|Spanish]]` format to provide bilingual support.
+Units 30 through 60 have incomplete or missing translation tags, breaking this feature.
 
-## Implementation Approach
+## Proposed Solution
+We will process each unit file from `unit-30.ts` to `unit-60.ts` and apply the following transformations:
 
-### 1. CSS Variable Definitions
-- Update `src/app/globals.css` to define `--font-dm-sans` and `--font-space-grotesk` as aliases to `--font-nunito` or remove them and use a single font variable consistently. 
-- *Correction*: Since `layout.tsx` only loads `Nunito`, we should either load the missing fonts or standardize on `Nunito`. The current `globals.css` references them but they aren't provided by Next.js font loader in `layout.tsx`.
+### 1. Title and Instructions Wrapping
+- Find `title: "Some Text"` and change to `title: "[[English|Spanish]]"`.
+- Find `instructions: "Some Text"` and change to `instructions: "[[English|Spanish]]"`.
 
-### 2. Typography Adjustments in ExerciseRenderer
-- Modify `src/components/ExerciseRenderer.tsx` to reduce the font weight of heavy titles.
-- Change `font-black` (900) to `font-extrabold` (800) or `font-bold` (700).
-- Review `tracking-tight` and `tracking-tighter` usages.
+### 2. Question and Option Completion
+- Find `"question": "English Word"` and change to `"question": "[[English|Spanish]]"`.
+- Find `"[[Spanish|]]"` in options and change to `[[English|Spanish]]`.
+- Find plain strings in options and wrap them.
 
-### 3. Consistency Across Components
-- Check `h1`, `h2`, `h3` definitions in `globals.css` which use `font-black` and `tracking-tighter`. These are likely the root cause of the "Matching" title issue.
+### 3. Automated Processing with AI
+Since the translations require context and accuracy, we will use the Zencoder agent (me) to process these files. 
+We will process them in smaller batches or unit by unit to ensure quality and stay within token limits.
 
-## Source Code Changes
+## Implementation Steps
 
-### `src/app/globals.css`
-- Adjust global heading styles to use `font-extrabold` instead of `font-black`.
-- Remove or alias undefined font variables.
+### Phase 1: Assessment and Tooling
+- Identify all affected files (Done: `unit-30.ts` to `unit-60.ts`).
+- Verify the regex patterns for detection.
 
-### `src/components/ExerciseRenderer.tsx`
-- Replace `font-black` with `font-extrabold` in:
-  - Label: "Exercise" / "Question"
-  - Title: "Matching"
-  - Question: "Swim"
-  - Feedback panel titles.
+### Phase 2: Execution (Unit by Unit)
+For each unit:
+1. Read the file.
+2. Identify untranslated or partially translated strings.
+3. Apply translations using AI knowledge.
+4. Overwrite the file.
+5. Verify syntax correctness.
 
-## Delivery Phases
-1. **CSS Cleanup**: Fix undefined variables and global heading styles.
-2. **Component Update**: Refine `ExerciseRenderer.tsx` for specific exercise UI elements.
-3. **Verification**: Manual visual check (browser) and E2E test to ensure no regression in exercise flow.
+### Phase 3: Validation
+- Run `npm run validate-exercises` to ensure no JSON or TypeScript errors were introduced.
+- Run `npm run type-check`.
 
 ## Verification Approach
-- **Visual**: Use `browser` tool to inspect `https://localhost:3000/curso-a1` (or relevant exercise page).
-- **Tests**: Run existing E2E tests if available.
+- **Visual**: Check Unit 30 in the browser to see if "Translate" toggle works.
+- **Automated**: Run existing validation scripts.
