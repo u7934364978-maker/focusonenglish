@@ -20,7 +20,8 @@ If you are blocked and need user clarification, mark the current step with `[!]`
 
 ## Workflow Steps
 
-### [ ] Step: Technical Specification
+### [x] Step: Technical Specification
+<!-- chat-id: 6b01adec-2273-42db-aaf5-cc3a5ab62704 -->
 
 Assess the task's difficulty, as underestimating it leads to poor outcomes.
 - easy: Straightforward implementation, trivial bug fix or feature
@@ -56,14 +57,17 @@ Save to `{@artifacts_path}/plan.md`. If the feature is trivial and doesn't warra
 
 ### [ ] Step: Implementation
 
-Implement the task according to the technical specification and general engineering best practices.
+Implement changes to `src/lib/course/a1/unit-32.ts` according to the technical specification in `.zenflow/tasks/new-task-5845/spec.md`.
 
-1. Break the task into steps where possible.
-2. Implement the required changes in the codebase
-3. If relevant, write unit tests alongside each change.
-4. Run relevant tests and linters in the end of each step.
-5. Perform basic manual verification if applicable.
-6. After completion, write a report to `{@artifacts_path}/report.md` describing:
-   - What was implemented
-   - How the solution was tested
-   - The biggest issues or challenges encountered
+- [ ] Replace exercise index 4 (a1-u32-e5): redesign matching pairs to have unique left values and add bilingual `[[word|translation]]` format to pair labels
+- [ ] Replace exercise index 8 (a1-u32-e9): remove missing-letter fill-blank (B_sk_tb_ll), replace with contextual sentence-completion about basketball
+- [ ] Replace exercise index 9 (a1-u32-e10): remove true-false grammar check (play vs go), replace with fill-blank active exercise
+- [ ] Replace exercise index 14 (a1-u32-e15): remove missing-letter fill-blank (T_nn_s), replace with contextual sentence-completion about tennis
+- [ ] Replace exercise index 25 (a1-u32-e26): remove true-false spelling check (Gardening), replace with multiple-choice vocabulary exercise
+- [ ] Replace exercise index 32 (a1-u32-e33): remove true-false grammar check (gerund after like), replace with fill-blank gerund completion
+- [ ] Replace exercise index 39 (a1-u32-e40): remove true-false grammar check (sail → sailing), replace with fill-blank gerund completion
+- [ ] Replace exercise index 50 (a1-u32-e51): remove true-false question-form check, replace with sentence-building exercise
+- [ ] Replace exercise index 56 (a1-u32-e57): remove true-false grammar check (likes sing), replace with multiple-choice gerund exercise
+- [ ] Comprehensive review of remaining exercises for untranslated common words — fix any instances
+- [ ] Run `npm run lint` and `npm run typecheck` to verify no regressions
+- [ ] Write report to `.zenflow/tasks/new-task-5845/report.md`
