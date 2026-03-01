@@ -78,7 +78,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       questions: [
         {
           question: "[[Hacer senderismo|Hacer senderismo]]",
-          options: ["[[Go hiking|Hacer senderismo]]", "[[Play hiking|Play hiking]]", "[[Do hiking|Do hiking]]"],
+          options: ["Go hiking", "Play hiking", "Do hiking"],
           correctAnswer: 0
         }
       ]
@@ -95,10 +95,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       title: "[[Verbs|Verbos]] [[and|y]] [[Activities|Actividades]]",
       instructions: "[[Match|Une]] [[the|el]] [[verb|verbo]] [[with|con]] [[the|la]] [[activity|actividad]]:",
       pairs: [
-        { id: "p1", left: "Play", right: "Tennis" },
-        { id: "p2", left: "Go", right: "Surfing" },
-        { id: "p3", left: "Play", right: "Volleyball" },
-        { id: "p4", left: "Go", right: "Jogging" }
+        { id: "p1", left: "Play", right: "[[Tennis|Tenis]]" },
+        { id: "p2", left: "Go", right: "[[Surfing|Surf]]" },
+        { id: "p3", left: "Play", right: "[[Volleyball|Voleibol]]" },
+        { id: "p4", left: "Go", right: "[[Jogging|Footing / Trotar]]" }
       ],
       correctAnswer: { p1: "p1", p2: "p2", p3: "p3", p4: "p4" }
     },

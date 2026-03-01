@@ -138,9 +138,6 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
       <div className="grid grid-cols-2 gap-3">
         {/* Left Column */}
         <div className="space-y-3">
-          <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-[#FF6B6B]/60 text-center pb-2">
-            <TranslatedText text="[[English|Inglés]]" />
-          </p>
           {leftItems.map((item, idx) => {
             const isMatched = !!matches[item];
             const isSelected = selectedLeft === item;
@@ -176,9 +173,6 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
 
         {/* Right Column */}
         <div className="space-y-3">
-          <p className="text-[11px] font-extrabold uppercase tracking-[0.18em] text-[#FF6B6B]/60 text-center pb-2">
-            <TranslatedText text="[[Spanish|Español]]" />
-          </p>
           {rightItems.map((item, idx) => {
             const matchedLeft = Object.keys(matches).find(left => matches[left] === item);
             const isMatched = !!matchedLeft;
